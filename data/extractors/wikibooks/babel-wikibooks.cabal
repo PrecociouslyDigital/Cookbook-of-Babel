@@ -30,18 +30,41 @@ library
   hs-source-dirs:  src
   exposed-modules:
     Wikibooks.Dump
+    Wikibooks.Emit
+    Wikibooks.Extract
     Wikibooks.Page
     Wikibooks.Quantity
+    Wikibooks.Questions
     Wikibooks.Wikitext
 
   build-depends:
+    , aeson
     , babel
+    , bytestring
     , conduit
     , containers
+    , cryptohash-sha256
     , megaparsec
+    , scientific
     , text
     , xml-conduit
     , xml-types
+
+executable babel-wikibooks
+  import:         shared
+  hs-source-dirs: app
+  main-is:        Main.hs
+  build-depends:
+    , aeson
+    , autodocodec
+    , babel
+    , babel-wikibooks
+    , bytestring
+    , containers
+    , directory
+    , filepath
+    , optparse-applicative
+    , text
 
 test-suite babel-wikibooks-test
   import:         shared
@@ -49,9 +72,13 @@ test-suite babel-wikibooks-test
   hs-source-dirs: test
   main-is:        Main.hs
   build-depends:
+    , aeson
     , babel
     , babel-wikibooks
+    , bytestring
+    , containers
     , hedgehog
     , tasty
     , tasty-hedgehog
+    , tasty-hunit
     , text

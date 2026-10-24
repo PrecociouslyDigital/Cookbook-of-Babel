@@ -31,6 +31,8 @@ let
 in
 {
   packages = [
+    pkgs.bzip2
+    pkgs.curl
     pkgs.jq
     pkgs.secretspec
     hsPkgs.fourmolu
@@ -60,6 +62,15 @@ in
     exec = ''
       root="''${DEVENV_ROOT:-$(git rev-parse --show-toplevel)}"
       cabal --project-dir="$root/babel" -v0 run babel:exe:babel -- "$@"
+    '';
+  };
+
+  # The Wikibooks extractor, built and run the same way as babel.
+  scripts.babel-wikibooks = {
+    packages = [ ghc pkgs.cabal-install pkgs.git ];
+    exec = ''
+      root="''${DEVENV_ROOT:-$(git rev-parse --show-toplevel)}"
+      cabal --project-dir="$root/babel" -v0 run babel-wikibooks:exe:babel-wikibooks -- "$@"
     '';
   };
 
