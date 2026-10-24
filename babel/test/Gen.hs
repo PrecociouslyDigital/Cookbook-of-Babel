@@ -8,6 +8,8 @@ rather than by filtering:
 * every reference is sampled from the IDs that exist;
 * a source states its origin's licence, and a recipe is filed under its
   source's origin;
+* an ingredient has at most one measure per key, and a nutrition measure
+  states at least one value;
 * select bounds are drawn inside @0..n@, and every output block has at
   least one output that is not chance-gated;
 * rename chains run from fresh slugs to an existing one.
@@ -28,7 +30,7 @@ module Gen (
 where
 
 import Babel.Layout (Layer (..))
-import Babel.Model (Amount (..), AxisId (..), BandEntry (..), Branch (..), Constants (..), Dataset (..), Dimension (..), DottedSlug (..), End (..), EntityKind (..), Environment (..), FormId (..), Ingredient (..), IngredientId (..), IsA (..), IsId, Issue (..), KcalPerGram (..), Leaf (..), Medium (..), MediumId (..), Nutrition (..), Outcome (..), Output (..), Per100g (..), RatioBounds (..), Recipe (..), RecipeId (..), Rename (..), Select (..), Sensitivity (..), ServingTagId (..), Source (..), SourceId (..), SourceRef (..), TasteAttrId (..), Technique (..), TechniqueId (..), TempBandId (..), TempBands, TempRange (..), Term (..), TextureAttrId (..), Tolerance (..), Unit (..), UnitId (..), Version (..), mkIntensity, mkTempBands, originLicence, renderVersion)
+import Babel.Model (Amount (..), AxisId (..), BandEntry (..), Branch (..), Constants (..), Dataset (..), Dimension (..), DottedSlug (..), End (..), EntityKind (..), Environment (..), FormId (..), Ingredient (..), IngredientId (..), IsA (..), IsId, Issue (..), KcalPerGram (..), Leaf (..), Measure (..), MeasureKey (..), MeasureValue (..), Medium (..), MediumId (..), Outcome (..), Output (..), Per100g (..), RatioBounds (..), Recipe (..), RecipeId (..), Rename (..), Select (..), Sensitivity (..), ServingTagId (..), Source (..), SourceId (..), SourceRef (..), TasteAttrId (..), Technique (..), TechniqueId (..), TempBandId (..), TempBands, TempRange (..), Term (..), TextureAttrId (..), Tolerance (..), Unit (..), UnitId (..), Version (..), mkIntensity, mkTempBands, originLicence, renderVersion)
 import Data.Map.Strict qualified as Map
 import Data.Set qualified as Set
 import Data.Text qualified as T
@@ -138,7 +140,6 @@ genTree = do
                 <*> subsetOf [x.id | x <- servingReg]
                 <*> Gen.maybe positive
                 <*> Gen.maybe (Gen.double (Range.linearFrac 0 1))
-                <*> Gen.maybe (genNutrition (map (.entity.id) srcs))
                 <*> Gen.bool
                 <*> Gen.list (Range.linear 0 2) genIssue
         Placed <$> genLayer <*> Gen.enumBounded <*> pure ing
@@ -154,13 +155,21 @@ genTree = do
         Placed <$> genLayer <*> Gen.enumBounded <*> pure tech
 
     consts <- genConstants [t.entity.id | t <- techs]
-    let tree0 = Tree{renameLog = [], recs = [], ..}
+    let tree0 = Tree{renameLog = [], recs = [], meas = [], ..}
     recIds <- Set.toList <$> Gen.set (Range.linear 1 6) genDottedSlug
     recs <- forM (zip [1 ..] recIds) $ \(n, r) -> do
         src <- Gen.element srcs
         recipe <- genRecipe tree0 (RecipeId r) src.entity.id n
         layer <- genLayer
         pure (Placed layer src.originFolder recipe)
+
+    meas <- fmap concat . forM ings $ \i -> do
+        keys <- subsetOf (NutritionKey : [GramsPerKey u.id | u <- unitReg, u.dimension == Count])
+        forM keys $ \k -> do
+            src <- Gen.element srcs
+            m <- genMeasure i.entity.id src.entity.id k
+            layer <- genLayer
+            pure (Placed layer src.originFolder m)
 
     renameLog <- genRenames meta.version ingIds
     pure Tree{..}
@@ -170,13 +179,27 @@ genTree = do
         keys <- subsetOf ids
         Map.fromList <$> forM keys (\k -> (k,) . either (error . toText) id . mkIntensity <$> Gen.int (Range.constant 0 3))
 
-genNutrition :: [SourceId] -> Gen Nutrition
-genNutrition sourceIds =
-    Nutrition
-        <$> (Per100g <$> m <*> m <*> m <*> m)
-        <*> Gen.element sourceIds
+-- | A measure filed under the given key.
+genMeasure :: IngredientId -> SourceId -> MeasureKey -> Gen Measure
+genMeasure ing src key = Measure ing src <$> value <*> Gen.list (Range.linear 0 2) genIssue
   where
-    m = Gen.maybe (Gen.double (Range.linearFrac 0 900))
+    value = case key of
+        NutritionKey -> Nutrition <$> genPer100g
+        GramsPerKey u -> GramsPer u <$> positive
+
+{- | If every field comes up empty, kcal gets a fallback value, so the
+result always has at least one.
+-}
+genPer100g :: Gen Per100g
+genPer100g = do
+    n <- Per100g <$> value <*> value <*> value <*> value
+    fallback <- nutrient
+    pure $ case n of
+        Per100g Nothing Nothing Nothing Nothing -> Per100g (Just fallback) Nothing Nothing Nothing
+        _ -> n
+  where
+    nutrient = Gen.double (Range.linearFrac 0 900)
+    value = Gen.maybe nutrient
 
 -- | Step @n@ is unique per recipe, so 'sourceRef's never collide.
 genRecipe :: Tree -> RecipeId -> SourceId -> Int -> Gen Recipe

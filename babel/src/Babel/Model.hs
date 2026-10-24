@@ -17,6 +17,7 @@ module Babel.Model (
     -- * Entities
     module Babel.Model.Common,
     module Babel.Model.Ingredient,
+    module Babel.Model.Measure,
     module Babel.Model.Technique,
     module Babel.Model.Recipe,
     module Babel.Model.Source,
@@ -34,6 +35,7 @@ import Babel.Model.Constants
 import Babel.Model.Dataset
 import Babel.Model.Id
 import Babel.Model.Ingredient
+import Babel.Model.Measure
 import Babel.Model.Recipe
 import Babel.Model.Registry
 import Babel.Model.Source

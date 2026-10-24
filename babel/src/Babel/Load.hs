@@ -27,6 +27,7 @@ import Babel.Model.Constants (Constants)
 import Babel.Model.Dataset (Dataset, Rename)
 import Babel.Model.Id (FormId, IngredientId, MediumId, RecipeId, ServingTagId, SourceId, TasteAttrId, TechniqueId, TextureAttrId, UnitId)
 import Babel.Model.Ingredient (Ingredient (..))
+import Babel.Model.Measure (Measure (..), MeasureKey, measureKey, measureStem)
 import Babel.Model.Recipe (Recipe (..), SourceRef (..))
 import Babel.Model.Registry (Medium (..), Term (..), Unit (..))
 import Babel.Model.Source (Origin, Source (..))
@@ -70,6 +71,7 @@ data World = World
     , ingredients :: Map IngredientId (Located Ingredient)
     , techniques :: Map TechniqueId (Located Technique)
     , recipes :: Map RecipeId (Located Recipe)
+    , measures :: Map (IngredientId, MeasureKey) (Located Measure)
     }
 
 {- | Load the data root. With @fixFiles@, files that decode cleanly but are not
@@ -91,6 +93,7 @@ loadWorld fixFiles root = do
         (ingDiags, ingredients') = mergeById "ingredient" (.id) raw.rawIngredients
         (tecDiags, techniques') = mergeById "technique" (.id) raw.rawTechniques
         (recDiags, recipes') = mergeRecipes raw.rawRecipes
+        (meaDiags, measures') = mergeLayer "measure" (uncurry measureStem) (keyOf . (.value)) raw.rawMeasures
     pure
         ( concat
             [ dDiags
@@ -107,6 +110,7 @@ loadWorld fixFiles root = do
             , ingDiags
             , tecDiags
             , recDiags
+            , meaDiags
             ]
         , World
             { dataset = dataset'
@@ -122,6 +126,7 @@ loadWorld fixFiles root = do
             , ingredients = ingredients'
             , techniques = techniques'
             , recipes = recipes'
+            , measures = measures'
             }
         )
   where
@@ -239,13 +244,14 @@ data Raw = Raw
     , rawIngredients :: [Located Ingredient]
     , rawTechniques :: [Located Technique]
     , rawRecipes :: [Located Recipe]
+    , rawMeasures :: [Located Measure]
     }
 
 instance Semigroup Raw where
-    Raw a b c d <> Raw a' b' c' d' = Raw (a ++ a') (b ++ b') (c ++ c') (d ++ d')
+    Raw a b c d e <> Raw a' b' c' d' e' = Raw (a ++ a') (b ++ b') (c ++ c') (d ++ d') (e ++ e')
 
 instance Monoid Raw where
-    mempty = Raw [] [] [] []
+    mempty = Raw [] [] [] [] []
 
 loadLayers :: Bool -> FilePath -> IO ([Diagnostic], Raw)
 loadLayers fixFiles layersDir = do
@@ -265,6 +271,7 @@ loadLayers fixFiles layersDir = do
         Ingredients -> (\(d, xs) -> (d, mempty{rawIngredients = xs})) <$> entities p dir (\i -> idText i.id)
         Techniques -> (\(d, xs) -> (d, mempty{rawTechniques = xs})) <$> entities p dir (\t -> idText t.id)
         Recipes -> (\(d, xs) -> (d, mempty{rawRecipes = xs})) <$> entities p dir (\r -> idText r.id)
+        Measures -> (\(d, xs) -> (d, mempty{rawMeasures = xs})) <$> entities p dir (uncurry measureStem . keyOf)
 
     entities :: (HasCodec a) => Placement -> FilePath -> (a -> Text) -> IO ([Diagnostic], [Located a])
     entities placement dir idOf = do
@@ -332,6 +339,10 @@ mergeLayer kind showKey key xs = (diags, merged)
                     ("duplicate-key", "duplicate " <> kind <> " " <> showKey k <> " (also " <> toText kept.path <> ")")
         , x <- others
         ]
+
+-- | A measure is keyed by its ingredient and what it measures.
+keyOf :: Measure -> (IngredientId, MeasureKey)
+keyOf m = (m.ingredient, measureKey m.value)
 
 mergeById :: (IsId k) => Text -> (a -> k) -> [Located a] -> ([Diagnostic], Map k (Located a))
 mergeById kind idOf = mergeLayer kind idText (\x -> idOf x.value)

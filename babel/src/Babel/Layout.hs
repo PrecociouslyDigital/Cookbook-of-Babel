@@ -23,7 +23,7 @@ data Layer = Extracted | Reviewed
     deriving stock (Eq, Ord, Show, Enum, Bounded)
 
 -- | The entity type a folder holds.
-data Kind = Sources | Ingredients | Techniques | Recipes
+data Kind = Sources | Ingredients | Techniques | Recipes | Measures
     deriving stock (Eq, Ord, Show, Enum, Bounded)
 
 {- | A folder that holds entity files. There is no licence: the origin
@@ -52,6 +52,7 @@ placementFolders p =
         Ingredients -> "ingredients"
         Techniques -> "techniques"
         Recipes -> "recipes"
+        Measures -> "measures"
 
 -- | A folder level and every folder name it can have.
 data Axis = Axis {name :: Text, folders :: [Text]}

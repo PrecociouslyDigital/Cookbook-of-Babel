@@ -20,7 +20,7 @@ import Babel.Diagnostic (Diagnostic (..), isError, renderDiagnostic)
 import Babel.Format (render)
 import Babel.Layout (Axis (..), Kind (..), Layer (..), axes, placementFolders, placements)
 import Babel.Load (Located (..), World (..))
-import Babel.Model (Amount (..), AxisId (..), BandEntry (..), Branch (..), Dataset (..), DottedSlug (..), End (..), EntityKind (..), FormId (..), Ingredient (..), IngredientId (..), IsA (..), IsId (..), Leaf (..), Outcome (..), Output (..), Recipe (..), RecipeId (..), Rename (..), Role (..), Select (..), Sensitivity (..), Source (..), SourceRef (..), Technique (..), TechniqueId (..), Term (..), UnitId (..), Version, bandFromCelsius, isSlug, licenceSpdx, mkTempBands, originLicence, parseVersion, renderVersion, tempBandEntries)
+import Babel.Model (Amount (..), AxisId (..), BandEntry (..), Branch (..), Dataset (..), DottedSlug (..), End (..), EntityKind (..), FormId (..), Ingredient (..), IngredientId (..), IsA (..), IsId (..), Issue (..), IssueKind (..), Leaf (..), Measure (..), MeasureValue (..), Outcome (..), Output (..), Per100g (..), Recipe (..), RecipeId (..), Rename (..), Role (..), Select (..), Sensitivity (..), Source (..), SourceId (..), SourceRef (..), Technique (..), TechniqueId (..), Term (..), UnitId (..), Version, bandFromCelsius, isSlug, licenceSpdx, measureKey, mkTempBands, originLicence, parseVersion, renderVersion, tempBandEntries)
 import Babel.Spoilage (Conditions (..), firstSpoilage, timeAt)
 import Babel.Validate (Report (..), validate)
 import Data.Aeson (Value (..))
@@ -29,6 +29,7 @@ import Data.Aeson.Key qualified as Key
 import Data.Aeson.KeyMap qualified as KM
 import Data.Aeson.Types (parseEither)
 import Data.ByteString.Lazy qualified as BL
+import Data.List (partition)
 import Data.List.NonEmpty qualified as NE
 import Data.Map.Strict qualified as Map
 import Data.Set qualified as Set
@@ -36,7 +37,7 @@ import Data.Text qualified as T
 import Data.Vector qualified as V
 import Fixture (EntityFile (..), Placed (..), Tree (..), entityFiles, withTree)
 import Gen (freshSlug, genBadSlug, genBadVersion, genDottedSlug, genSensitivity, genSlug, genTempBands, genTree, genVersion, nonTimeUnits)
-import Hedgehog (Gen, Property, PropertyT, annotate, annotateShow, assert, evalIO, failure, forAll, property, success, tripping, (===))
+import Hedgehog (Gen, Property, PropertyT, annotate, annotateShow, assert, discard, evalIO, failure, forAll, property, success, tripping, (===))
 import Hedgehog.Gen qualified as Gen
 import Hedgehog.Range qualified as Range
 import System.Directory (createDirectoryIfMissing, renameFile)
@@ -103,6 +104,7 @@ codecProps =
         mapM_ (codecLaws . (.entity)) t.ings
         mapM_ (codecLaws . (.entity)) t.techs
         mapM_ (codecLaws . (.entity)) t.recs
+        mapM_ (codecLaws . (.entity)) t.meas
         codecLaws t.meta
         codecLaws t.renameLog
         codecLaws t.consts
@@ -146,6 +148,9 @@ ruleProps =
     , rule "an origin folder that doesn't match the source" ["origin-mismatch"] originMismatch
     , rule "the same key in two folders of a layer" ["overlay-conflict"] overlayConflict
     , rule "a duration in a non-time unit" ["dimension"] durationUnit
+    , rule "a nutrition measure with no values" ["empty-nutrition"] emptyNutrition
+    , rule "grams per a unit that is not a count" ["dimension"] gramsPerMass
+    , rule "a non-positive grams per unit" ["amount"] gramsPerNonPositive
     , rule "a rename from a slug that still exists" ["rename-from-exists"] renameFromExists
     , rule "a rename loop" ["rename-loop", "rename-to-missing"] renameLoop
     , rule "a rename to nothing" ["rename-to-missing"] renameToNothing
@@ -172,6 +177,20 @@ onRecipe t f = (\rs -> t{recs = rs}) <$> modifyOne t.recs (onEntity f)
 onIngredient :: Tree -> (Ingredient -> Gen Ingredient) -> Gen Tree
 onIngredient t f = (\is -> t{ings = is}) <$> modifyOne t.ings (onEntity f)
 
+-- | Replace one of the measures that satisfy @which@; discard when there is none.
+onMeasure :: (Measure -> Bool) -> Tree -> (Measure -> Gen Measure) -> Gen Tree
+onMeasure which t f = do
+    let (picked, others) = partition (which . (.entity)) t.meas
+    when (null picked) Gen.discard
+    picked' <- modifyOne picked (onEntity f)
+    pure t{meas = others ++ picked'}
+
+isNutrition, isGramsPer :: Measure -> Bool
+isNutrition m = case m.value of
+    Nutrition _ -> True
+    GramsPer _ _ -> False
+isGramsPer = not . isNutrition
+
 danglingRef :: Tree -> Gen Tree
 danglingRef t =
     Gen.choice
@@ -184,6 +203,12 @@ danglingRef t =
         , do
             fresh <- FormId <$> freshSlug (formIds t)
             onIngredient t $ \i -> pure i{form = fresh}
+        , do
+            fresh <- IngredientId <$> freshSlug (ingIds t)
+            onMeasure (const True) t $ \Measure{..} -> pure Measure{ingredient = fresh, ..}
+        , do
+            fresh <- SourceId <$> freshSlug (Set.fromList [idText p.entity.id | p <- t.srcs])
+            onMeasure (const True) t $ \Measure{..} -> pure Measure{source = fresh, ..}
         ]
   where
     -- An explicit max must grow too, or a defaulted min would pass it.
@@ -285,6 +310,7 @@ originMismatch :: Tree -> Gen Tree
 originMismatch t =
     Gen.choice
         [ (\rs -> t{recs = rs}) <$> modifyOne t.recs moveOrigin
+        , if null t.meas then Gen.discard else (\ms -> t{meas = ms}) <$> modifyOne t.meas moveOrigin
         , do
             r <- Gen.element t.recs
             ss <- forM t.srcs $ \p -> if p.entity.id == r.entity.source then moveSource p else pure p
@@ -295,6 +321,18 @@ originMismatch t =
     moveSource p = do
         p' <- moveOrigin p
         pure p'{entity = let Source{..} = p'.entity in Source{licence = originLicence p'.originFolder, ..}}
+
+emptyNutrition :: Tree -> Gen Tree
+emptyNutrition t = onMeasure isNutrition t $ \Measure{..} -> pure Measure{value = Nutrition (Per100g Nothing Nothing Nothing Nothing), ..}
+
+-- | No generated measure is per gram, so the new key is free.
+gramsPerMass :: Tree -> Gen Tree
+gramsPerMass t = onMeasure isGramsPer t $ \Measure{..} -> pure Measure{value = GramsPer (UnitId "g") 1, ..}
+
+gramsPerNonPositive :: Tree -> Gen Tree
+gramsPerNonPositive t = onMeasure isGramsPer t $ \Measure{..} -> case value of
+    GramsPer u _ -> (\g -> Measure{value = GramsPer u g, ..}) <$> Gen.double (Range.linearFrac (-100) 0)
+    Nutrition _ -> pure Measure{..}
 
 overlayConflict :: Tree -> Gen Tree
 overlayConflict t =
@@ -459,7 +497,9 @@ fileProps =
     , decodeRule "an ID that is not a slug" $ \t -> do
         f <- Gen.element (entityFiles t)
         bad <- genBadSlug
-        pure (f.path, setKey "id" (String bad) f.json)
+        -- A measure is identified by its ingredient.
+        let key = if f.kind == Measures then "ingredient" else "id"
+        pure (f.path, setKey key (String bad) f.json)
     , decodeRule "an empty output list" $ \t -> do
         f <- Gen.element [f | f <- entityFiles t, f.kind == Recipes]
         pure (f.path, setKey "outputs" (Array mempty) f.json)
@@ -511,6 +551,17 @@ overlayProps =
         showDiagnostics r
         errorRules r === []
         ((.value) <$> Map.lookup p.entity.id r.world.ingredients) === Just p.entity
+    , prop "a reviewed measure replaces only the extracted one with its key" $ property $ do
+        t <- forAll genTree
+        when (null t.meas) discard
+        p <- forAll (Gen.element t.meas)
+        let copy = let Measure{..} = p.entity in Measure{issues = Issue "value" Estimate "extracted" : issues, ..}
+            others = [x | x <- t.meas, x.entity /= p.entity]
+            t' = t{meas = others ++ [Placed Reviewed p.originFolder p.entity, Placed Extracted p.originFolder copy]}
+        r <- check t'
+        showDiagnostics r
+        errorRules r === []
+        map (.value) (Map.elems r.world.measures) === sortOn (\m -> (m.ingredient, measureKey m.value)) (p.entity : map (.entity) others)
     ]
 
 -- * Laws

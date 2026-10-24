@@ -17,7 +17,7 @@ where
 import Autodocodec (toJSONViaCodec)
 import Babel.Format (render)
 import Babel.Layout (Kind (..), Layer, Placement (..), placementFolders)
-import Babel.Model (Constants, Dataset, FormId, Ingredient (..), IsId (..), Medium, Origin, Recipe (..), Rename, ServingTagId, Source (..), TasteAttrId, Technique (..), Term, TextureAttrId, Unit)
+import Babel.Model (Constants, Dataset, FormId, Ingredient (..), IsId (..), Measure (..), Medium, Origin, Recipe (..), Rename, ServingTagId, Source (..), TasteAttrId, Technique (..), Term, TextureAttrId, Unit, measureKey, measureStem)
 import Data.Aeson (Value)
 import Data.ByteString.Lazy qualified as BL
 import Data.Text qualified as T
@@ -46,6 +46,7 @@ data Tree = Tree
     , ings :: [Placed Ingredient]
     , techs :: [Placed Technique]
     , recs :: [Placed Recipe]
+    , meas :: [Placed Measure]
     }
     deriving stock (Show)
 
@@ -69,6 +70,7 @@ writeTree root Tree{..} = do
     mapM_ (\p -> write (entityPath Ingredients p (idText p.entity.id)) (render p.entity)) ings
     mapM_ (\p -> write (entityPath Techniques p (idText p.entity.id)) (render p.entity)) techs
     mapM_ (\p -> write (entityPath Recipes p (idText p.entity.id)) (render p.entity)) recs
+    mapM_ (\p -> write (entityPath Measures p (stem p.entity)) (render p.entity)) meas
     -- An empty layers/ directory is still a valid layout.
     createDirectoryIfMissing True (root </> "layers")
   where
@@ -94,5 +96,9 @@ entityFiles t =
         ++ [file Ingredients p (idText p.entity.id) (toJSONViaCodec p.entity) | p <- t.ings]
         ++ [file Techniques p (idText p.entity.id) (toJSONViaCodec p.entity) | p <- t.techs]
         ++ [file Recipes p (idText p.entity.id) (toJSONViaCodec p.entity) | p <- t.recs]
+        ++ [file Measures p (stem p.entity) (toJSONViaCodec p.entity) | p <- t.meas]
   where
     file k p ident = EntityFile (entityPath k p ident) k
+
+stem :: Measure -> T.Text
+stem m = measureStem m.ingredient (measureKey m.value)

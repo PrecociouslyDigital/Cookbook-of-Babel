@@ -6,18 +6,19 @@ module Babel.Check (
     checkWorld,
     effectiveLicence,
     findCycles,
-    massInGrams,
 )
 where
 
 import Babel.Codec (IsId (..))
 import Babel.Diagnostic (Diagnostic, errorIn, warningIn)
 import Babel.Load (Located (..), World (..))
+import Babel.Mass (massInGrams)
 import Babel.Model.Common (Amount (..))
 import Babel.Model.Constants (Constants (..), KcalPerGram (..), RatioBounds (..), Tolerance (..))
 import Babel.Model.Dataset (Dataset (..), EntityKind (..), Rename (..), entityKindName, renderVersion)
-import Babel.Model.Id (IngredientId)
-import Babel.Model.Ingredient (Ingredient (..), IsA (..), Nutrition (..), Per100g (..))
+import Babel.Model.Id (SourceId)
+import Babel.Model.Ingredient (Ingredient (..), IsA (..))
+import Babel.Model.Measure (Measure (..), MeasureValue (..), Per100g (..))
 import Babel.Model.Recipe (Branch (..), End (..), Environment (..), Leaf (..), Outcome (..), Output (..), Recipe (..), Select (..), Sensitivity (..), SourceRef (..), selectMax, selectMin)
 import Babel.Model.Registry (Dimension (..), Unit (..))
 import Babel.Model.Source (Licence (..), Source (..), licenceSpdx, licenceStrictness, originLicence, originSlug)
@@ -34,6 +35,7 @@ checkWorld w =
         , concatMap (ingredientChecks w) (Map.elems w.ingredients)
         , concatMap (techniqueChecks w) (Map.elems w.techniques)
         , concatMap (recipeChecks w) (Map.elems w.recipes)
+        , concatMap (measureChecks w) (Map.elems w.measures)
         , cycleChecks "ingredient" [(i.value.id, map (.target) i.value.parents) | i <- Map.elems w.ingredients] (fmap (.path) w.ingredients)
         , cycleChecks "technique" [(t.value.id, t.value.parents) | t <- Map.elems w.techniques] (fmap (.path) w.techniques)
         , versionChecks w
@@ -49,14 +51,15 @@ effectiveLicence w =
             , map (originLicence . (.origin)) (Map.elems w.ingredients)
             , map (originLicence . (.origin)) (Map.elems w.techniques)
             , map (originLicence . (.origin)) (Map.elems w.recipes)
+            , map (originLicence . (.origin)) (Map.elems w.measures)
             ]
   where
     maximumOn f = foldr (\x acc -> if f x > f acc then x else acc)
 
 -- * Licence and origin folders
 
-{- | A source's stated licence must match its origin's. A recipe must be
-in its source's origin, and so under that licence too.
+{- | A source's stated licence must match its origin's. A recipe or a
+measure must be in its source's origin, and so under that licence too.
 -}
 folderChecks :: World -> [Diagnostic]
 folderChecks w =
@@ -65,17 +68,26 @@ folderChecks w =
     | s <- Map.elems w.sources
     , s.value.licence /= originLicence s.origin
     ]
-        ++ [ errorIn "origin-mismatch" (Just r.path) $
-                "recipe is in the "
-                    <> originSlug r.origin
-                    <> " folder but its source "
-                    <> idText r.value.source
-                    <> " is in "
-                    <> originSlug s.origin
-           | r <- Map.elems w.recipes
-           , Just s <- [Map.lookup r.value.source w.sources]
-           , s.origin /= r.origin
-           ]
+        ++ concat
+            [ originMismatch "recipe" r r.value.source | r <- Map.elems w.recipes
+            ]
+        ++ concat
+            [ originMismatch "measure" m m.value.source | m <- Map.elems w.measures
+            ]
+  where
+    originMismatch :: Text -> Located a -> SourceId -> [Diagnostic]
+    originMismatch kind x src =
+        [ errorIn "origin-mismatch" (Just x.path) $
+            kind
+                <> " is in the "
+                <> originSlug x.origin
+                <> " folder but its source "
+                <> idText src
+                <> " is in "
+                <> originSlug s.origin
+        | Just s <- [Map.lookup src w.sources]
+        , s.origin /= x.origin
+        ]
 
 -- * Entities
 
@@ -93,7 +105,6 @@ ingredientChecks w (Located{value = i, path = p}) =
         , concatMap (ref p "texture attribute" w.texture) (Map.keys i.texture)
         , concatMap (ref p "taste attribute" w.taste) (Map.keys i.taste)
         , concatMap (ref p "serving tag" w.serving) i.servingTags
-        , maybe [] (ref p "nutrition source" w.sources . (.source)) i.nutrition
         , [ errorIn "water-activity" (Just p) "waterActivity must be within 0-1"
           | Just aw <- [i.waterActivity]
           , aw < 0 || aw > 1
@@ -102,7 +113,6 @@ ingredientChecks w (Located{value = i, path = p}) =
           | Just d <- [i.densityGPerMl]
           , d <= 0
           ]
-        , fromMaybe [] (calorieCheck p <$> w.constants <*> fmap (.per100g) i.nutrition)
         ]
 
 techniqueChecks :: World -> Located Technique -> [Diagnostic]
@@ -199,6 +209,28 @@ recipeChecks w (Located{value = r, path = p}) =
         , not (0 <= lo && lo <= hi && hi <= 1)
         ]
             ++ [err "q10" "q10 must be positive" | s.q10 <= 0]
+
+measureChecks :: World -> Located Measure -> [Diagnostic]
+measureChecks w (Located{value = m, path = p}) =
+    concat
+        [ ref p "ingredient" w.ingredients m.ingredient
+        , ref p "source" w.sources m.source
+        , case m.value of
+            Nutrition n ->
+                [ errorIn "empty-nutrition" (Just p) "a nutrition measure needs at least one value"
+                | all isNothing [n.kcal, n.proteinG, n.fatG, n.carbsG]
+                ]
+                    ++ maybe [] (\c -> calorieCheck p c n) w.constants
+            GramsPer u g ->
+                ( case Map.lookup u w.units of
+                    Nothing -> ref p "unit" w.units u
+                    Just unit ->
+                        [ errorIn "dimension" (Just p) ("grams per " <> idText u <> ": only a count unit needs a mass per unit")
+                        | unit.dimension /= Count
+                        ]
+                )
+                    ++ [errorIn "amount" (Just p) "grams must be positive" | g <= 0]
+        ]
 
 leaves :: Select -> [Leaf]
 leaves s = rights s.choices ++ concatMap leaves (lefts s.choices)
@@ -304,18 +336,6 @@ calorieCheck p c n = case (n.kcal, n.proteinG, n.fatG, n.carbsG) of
                 "kcal " <> showT kcal <> " is inconsistent with macros (about " <> showT (fromIntegral (round expected :: Int) :: Double) <> ")"
             ]
     _ -> []
-
--- | An amount in grams, when the unit and the ingredient's density allow.
-massInGrams :: World -> IngredientId -> Amount -> Maybe Double
-massInGrams w ing a = do
-    u <- Map.lookup a.unit w.units
-    case u.dimension of
-        Mass -> Just (a.qty * u.toBase)
-        Volume -> do
-            i <- Map.lookup ing w.ingredients
-            d <- i.value.densityGPerMl
-            Just (a.qty * u.toBase * d)
-        _ -> Nothing
 
 {- | For a step that uses all of its inputs and has a plain output list,
 the expected output mass over the input mass should lie within

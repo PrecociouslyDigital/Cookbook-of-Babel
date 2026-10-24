@@ -38,8 +38,8 @@ start here, not in the JSON.
   - anything else is a required key.
   For a different default, give the type its own `FieldCodec` instance.
 - Write a codec by hand only when the JSON isn't a plain record. Today that is
-  `Select` (`of` is a Haskell keyword), `Outcome`, `End`, the validated
-  wrappers (IDs, `Intensity`, `Version`, `TempBands`) and enums.
+  `Select` (`of` is a Haskell keyword), `Outcome`, `End`, `MeasureValue`, the
+  validated wrappers (IDs, `Intensity`, `Version`, `TempBands`) and enums.
 - Renaming or removing a field changes the JSON format. It is a breaking model
   change and needs a major version bump in `data/dataset.json`.
 

@@ -17,10 +17,10 @@ module Wikibooks.Emit (
 )
 where
 
-import Babel.Check (massInGrams)
 import Babel.Codec (IsId (..))
 import Babel.Layout (Layer (..))
 import Babel.Load (Located (..), World (..))
+import Babel.Mass (massByUnit)
 import Babel.Model.Common (Amount (..), Issue (..), IssueKind (..), intensityValue)
 import Babel.Model.Constants (Constants (..))
 import Babel.Model.Id (IngredientId (..), MediumId (..), RecipeId, SourceId (..), TechniqueId, UnitId (..))
@@ -271,7 +271,6 @@ dish env page answers = do
                                 , servingTags = []
                                 , densityGPerMl = Nothing
                                 , waterActivity = Nothing
-                                , nutrition = Nothing
                                 , named = n == lastNumber
                                 , issues = uncertain "form" k.answers.form
                                 }
@@ -290,7 +289,7 @@ dish env page answers = do
                     , ["assumed 1 g/ml for " <> T.intercalate ", " assumed | not (null assumed)]
                     )
     -- Grams, and whether the density was assumed; nothing for a count.
-    measure l = case massInGrams env.world l.ingredient l.amount of
+    measure l = case massByUnit env.world l.ingredient l.amount of
         Just g -> Just (g, False)
         Nothing -> case Map.lookup l.amount.unit env.world.units of
             Just u | u.dimension == Volume -> Just (l.amount.qty * u.toBase, True)
@@ -344,7 +343,6 @@ baseIngredient i title a =
         , servingTags = []
         , densityGPerMl = Nothing
         , waterActivity = Nothing
-        , nutrition = Nothing
         , named = False
         , issues =
             uncertain "form" a.form
