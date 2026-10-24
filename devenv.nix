@@ -75,6 +75,15 @@ in
     '';
   };
 
+  # The OpenFoodFacts extractor, built and run the same way.
+  scripts.babel-openfoodfacts = {
+    packages = [ ghc pkgs.cabal-install pkgs.git ];
+    exec = ''
+      root="''${DEVENV_ROOT:-$(git rev-parse --show-toplevel)}"
+      cabal --project-dir="$root/babel" -v0 run babel-openfoodfacts:exe:babel-openfoodfacts -- "$@"
+    '';
+  };
+
   # Reads the folder layout from `babel layout`, so it carries babel too.
   scripts.check-data-rules = {
     packages = [ config.scripts.babel.scriptPackage pkgs.bash pkgs.git ];
