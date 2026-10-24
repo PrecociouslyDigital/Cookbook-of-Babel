@@ -667,10 +667,12 @@ its spoilage values must give plausible answers.
 -}
 seedTests :: [TestTree]
 seedTests =
-    [ testCase "the seed data validates with no warnings" $ do
+    [ testCase "the seed data validates, warning only of calories" $ do
+        -- Medians of nutrients needn't agree with each other, and label
+        -- energy counts fibre and polyols that the macros don't.
         r <- validate False seed
-        map renderDiagnostic r.diagnostics @?= []
-        licenceExpression r.licence @?= "CC-BY-SA-4.0"
+        [renderDiagnostic d | d <- r.diagnostics, d.rule /= "calories"] @?= []
+        licenceExpression r.licence @?= "CC-BY-SA-4.0 AND ODbL-1.0"
     , testCase "bread molds first at 20 °C, within days" $ do
         (r, after) <- first (Conditions 20 Nothing)
         idText r.id @?= "bread.mold"
