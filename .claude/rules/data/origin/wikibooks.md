@@ -1,0 +1,4 @@
+---
+paths:
+  - "data/layers/*/*/wikibooks/**"
+---

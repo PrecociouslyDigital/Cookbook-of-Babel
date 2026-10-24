@@ -59,6 +59,13 @@ in
       files = "^(data/|babel/)";
       pass_filenames = false;
     };
+    data-rules = {
+      enable = true;
+      name = "data rules";
+      entry = "scripts/check-data-rules.sh";
+      files = "^(data/layers/|\\.claude/rules/data/)";
+      pass_filenames = false;
+    };
     fourmolu.enable = true;
     hlint.enable = true;
     cabal-fmt.enable = true;
