@@ -33,6 +33,7 @@ in
   packages = [
     pkgs.bzip2
     pkgs.curl
+    pkgs.duckdb
     pkgs.jq
     pkgs.secretspec
     hsPkgs.fourmolu
