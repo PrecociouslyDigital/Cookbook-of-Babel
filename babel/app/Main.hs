@@ -3,7 +3,7 @@ module Main (main) where
 import Babel.Diagnostic (isError, renderDiagnostic)
 import Babel.Layout (Axis (..), axes)
 import Babel.Load (World (..))
-import Babel.Model (Amount (..), Constants (..), IsId (..), Recipe (..), bandFromCelsius, licenceSpdx)
+import Babel.Model (Amount (..), Constants (..), IsId (..), Recipe (..), bandFromCelsius, licenceExpression)
 import Babel.Spoilage (Conditions (..), firstSpoilage)
 import Babel.Validate (Report (..), validate)
 import Data.Text.IO qualified as T
@@ -44,7 +44,7 @@ run = \case
         report <- validate fixFiles root
         let errors = filter isError report.diagnostics
         mapM_ (T.hPutStrLn stderr . renderDiagnostic) report.diagnostics
-        putTextLn ("effective licence: " <> licenceSpdx report.licence)
+        putTextLn ("effective licence: " <> licenceExpression report.licence)
         unless (null errors) $ do
             T.hPutStrLn stderr (show (length errors) <> " error(s)")
             exitFailure

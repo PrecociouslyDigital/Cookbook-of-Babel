@@ -21,7 +21,7 @@ import Babel.Model.Ingredient (Ingredient (..), IsA (..))
 import Babel.Model.Measure (Measure (..), MeasureValue (..), Per100g (..))
 import Babel.Model.Recipe (Branch (..), End (..), Environment (..), Leaf (..), Outcome (..), Output (..), Recipe (..), Select (..), Sensitivity (..), SourceRef (..), selectMax, selectMin)
 import Babel.Model.Registry (Dimension (..), Unit (..))
-import Babel.Model.Source (Licence (..), Source (..), licenceSpdx, licenceStrictness, originLicence, originSlug)
+import Babel.Model.Source (Licence, Source (..), licenceSpdx, originLicence, originSlug, satisfies)
 import Babel.Model.Technique (Technique (..), TempRange (..))
 import Data.List.NonEmpty qualified as NE
 import Data.Map.Strict qualified as Map
@@ -42,19 +42,21 @@ checkWorld w =
         , maybe [] (constantsChecks w) w.constants
         ]
 
--- | The strictest licence of anything in the build.
-effectiveLicence :: World -> Licence
-effectiveLicence w =
-    maximumOn licenceStrictness Cc0 $
-        concat
-            [ map (originLicence . (.origin)) (Map.elems w.sources)
-            , map (originLicence . (.origin)) (Map.elems w.ingredients)
-            , map (originLicence . (.origin)) (Map.elems w.techniques)
-            , map (originLicence . (.origin)) (Map.elems w.recipes)
-            , map (originLicence . (.origin)) (Map.elems w.measures)
-            ]
+{- | The licences a build is under are those of everything it includes,
+minus any that another of them already satisfies.
+-}
+effectiveLicence :: World -> Set Licence
+effectiveLicence w = Set.filter (\l -> not (any (\o -> o /= l && satisfies o l) used)) used
   where
-    maximumOn f = foldr (\x acc -> if f x > f acc then x else acc)
+    used =
+        Set.fromList . map originLicence $
+            concat
+                [ map (.origin) (Map.elems w.sources)
+                , map (.origin) (Map.elems w.ingredients)
+                , map (.origin) (Map.elems w.techniques)
+                , map (.origin) (Map.elems w.recipes)
+                , map (.origin) (Map.elems w.measures)
+                ]
 
 -- * Licence and origin folders
 

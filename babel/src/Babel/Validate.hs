@@ -12,8 +12,8 @@ import Babel.Model.Source (Licence)
 
 data Report = Report
     { diagnostics :: [Diagnostic]
-    , licence :: Licence
-    -- ^ The build's effective (strictest) licence.
+    , licence :: Set Licence
+    -- ^ The licences the build is under ('effectiveLicence').
     , world :: World
     }
 

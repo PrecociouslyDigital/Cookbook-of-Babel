@@ -20,7 +20,7 @@ import Babel.Diagnostic (Diagnostic (..), isError, renderDiagnostic)
 import Babel.Format (render)
 import Babel.Layout (Axis (..), Kind (..), Layer (..), axes, placementFolders, placements)
 import Babel.Load (Located (..), World (..))
-import Babel.Model (Amount (..), AxisId (..), BandEntry (..), Branch (..), Dataset (..), DottedSlug (..), End (..), EntityKind (..), FormId (..), Ingredient (..), IngredientId (..), IsA (..), IsId (..), Issue (..), IssueKind (..), Leaf (..), Measure (..), MeasureValue (..), Outcome (..), Output (..), Per100g (..), Recipe (..), RecipeId (..), Rename (..), Role (..), Select (..), Sensitivity (..), Source (..), SourceId (..), SourceRef (..), Technique (..), TechniqueId (..), Term (..), UnitId (..), Version, bandFromCelsius, isSlug, licenceSpdx, measureKey, mkTempBands, originLicence, parseVersion, renderVersion, tempBandEntries)
+import Babel.Model (Amount (..), AxisId (..), BandEntry (..), Branch (..), Dataset (..), DottedSlug (..), End (..), EntityKind (..), FormId (..), Ingredient (..), IngredientId (..), IsA (..), IsId (..), Issue (..), IssueKind (..), Leaf (..), Measure (..), MeasureValue (..), Outcome (..), Output (..), Per100g (..), Recipe (..), RecipeId (..), Rename (..), Role (..), Select (..), Sensitivity (..), Source (..), SourceId (..), SourceRef (..), Technique (..), TechniqueId (..), Term (..), UnitId (..), Version, bandFromCelsius, isSlug, licenceExpression, measureKey, mkTempBands, originLicence, parseVersion, renderVersion, satisfies, tempBandEntries)
 import Babel.Spoilage (Conditions (..), firstSpoilage, timeAt)
 import Babel.Validate (Report (..), validate)
 import Data.Aeson (Value (..))
@@ -585,6 +585,19 @@ lawProps :: [TestTree]
 lawProps =
     [ testCase "every placement has its own folders" $
         length (ordNub (map placementFolders placements)) @?= length placements
+    , testCase "satisfies is a partial order" $ do
+        let ls = universe
+        assertBool "reflexive" (and [satisfies a a | a <- ls])
+        assertBool "antisymmetric" (and [a == b | a <- ls, b <- ls, satisfies a b, satisfies b a])
+        assertBool "transitive" (and [satisfies a c | a <- ls, b <- ls, satisfies a b, c <- ls, satisfies b c])
+    , prop "the effective licences cover everything in use, and none covers another" $ property $ do
+        t <- forAll genTree
+        r <- check t
+        let used = ordNub (map (.originFolder) t.srcs <> map (.originFolder) t.ings <> map (.originFolder) t.techs <> map (.originFolder) t.recs <> map (.originFolder) t.meas)
+            effective = toList r.licence
+        annotateShow effective
+        assert (and [any (`satisfies` originLicence o) effective | o <- used])
+        assert (and [not (satisfies a b) | a <- effective, b <- effective, a /= b])
     , prop "findCycles finds nothing in a DAG" $ property $ do
         g <- forAll genDag
         findCycles g === []
@@ -657,7 +670,7 @@ seedTests =
     [ testCase "the seed data validates with no warnings" $ do
         r <- validate False seed
         map renderDiagnostic r.diagnostics @?= []
-        licenceSpdx r.licence @?= "CC-BY-SA-4.0"
+        licenceExpression r.licence @?= "CC-BY-SA-4.0"
     , testCase "bread molds first at 20 °C, within days" $ do
         (r, after) <- first (Conditions 20 Nothing)
         idText r.id @?= "bread.mold"
