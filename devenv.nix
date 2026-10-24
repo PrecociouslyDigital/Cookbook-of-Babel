@@ -51,6 +51,15 @@ in
     '';
   };
 
+  # Reads the folder layout from `babel layout`, so it carries babel too.
+  scripts.check-data-rules = {
+    packages = [ config.scripts.babel.scriptPackage pkgs.bash pkgs.git ];
+    exec = ''
+      root="''${DEVENV_ROOT:-$(git rev-parse --show-toplevel)}"
+      exec bash "$root/scripts/check-data-rules.sh" "$@"
+    '';
+  };
+
   git-hooks.hooks = {
     babel-validate = {
       enable = true;
@@ -62,8 +71,8 @@ in
     data-rules = {
       enable = true;
       name = "data rules";
-      entry = "scripts/check-data-rules.sh";
-      files = "^(data/layers/|\\.claude/rules/data/)";
+      entry = lib.getExe config.scripts.check-data-rules.scriptPackage;
+      files = "^(data/layers/|\\.claude/rules/data/|babel/)";
       pass_filenames = false;
     };
     fourmolu.enable = true;
