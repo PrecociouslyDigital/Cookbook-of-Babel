@@ -5,10 +5,10 @@ module Babel.Validate (
 )
 where
 
-import Babel.Check
-import Babel.Diagnostic
-import Babel.Load
-import Babel.Model
+import Babel.Check (checkWorld, effectiveLicence)
+import Babel.Diagnostic (Diagnostic)
+import Babel.Load (World, loadWorld)
+import Babel.Model.Source (Licence)
 
 data Report = Report
     { diagnostics :: [Diagnostic]

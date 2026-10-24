@@ -35,12 +35,12 @@ module Babel.Codec (
 )
 where
 
-import Autodocodec
+import Autodocodec (HasCodec (..), JSONCodec, ObjectCodec, bimapCodec, dimapCodec, disjointEitherCodec, mapCodec, object, optionalField', optionalFieldWithOmittedDefault', optionalFieldWithOmittedDefaultWith', requiredField', requiredFieldWith', scientificCodec, textCodec, (.=))
 import Data.Char (isAsciiLower, isDigit)
 import Data.Map.Strict qualified as Map
 import Data.Scientific (fromFloatDigits, toRealFloat)
 import Data.Text qualified as T
-import GHC.Generics
+import GHC.Generics (C1, D1, Generic (..), K1 (..), M1 (..), Meta (..), Rec0, S1, (:*:) (..))
 import GHC.TypeLits (KnownSymbol, symbolVal)
 
 -- * Identifiers

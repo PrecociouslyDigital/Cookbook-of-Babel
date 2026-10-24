@@ -7,3 +7,10 @@
     - -XNoFieldSelectors
     - -XOverloadedRecordDot
     - -XOverloadedStrings
+
+# Every import names what it takes, or is qualified.
+- modules:
+    - {name: '**', importStyle: explicitOrQualified}
+
+# Babel.Model only re-exports its submodules, which needs open imports.
+- ignore: {within: Babel.Model}

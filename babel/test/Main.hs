@@ -16,12 +16,12 @@ module Main (main) where
 
 import Autodocodec (HasCodec, parseJSONViaCodec, toJSONViaCodec)
 import Babel.Check (findCycles)
-import Babel.Diagnostic
+import Babel.Diagnostic (Diagnostic (..), isError, renderDiagnostic)
 import Babel.Format (render)
 import Babel.Load (Layer (..), Located (..), World (..))
-import Babel.Model
-import Babel.Spoilage
-import Babel.Validate
+import Babel.Model (Amount (..), AxisId (..), BandEntry (..), Branch (..), Dataset (..), DottedSlug (..), End (..), EntityKind (..), FormId (..), Ingredient (..), IngredientId (..), IsA (..), IsId (..), Leaf (..), Licence, Outcome (..), Output (..), Recipe (..), RecipeId (..), Rename (..), Role (..), Select (..), Sensitivity (..), SourceRef (..), Technique (..), TechniqueId (..), Term (..), UnitId (..), Version, bandFromCelsius, isSlug, licenceSpdx, mkTempBands, parseVersion, renderVersion, tempBandEntries)
+import Babel.Spoilage (Conditions (..), firstSpoilage, timeAt)
+import Babel.Validate (Report (..), validate)
 import Data.Aeson (Value (..))
 import Data.Aeson qualified as Aeson
 import Data.Aeson.Key qualified as Key
@@ -33,15 +33,15 @@ import Data.Map.Strict qualified as Map
 import Data.Set qualified as Set
 import Data.Text qualified as T
 import Data.Vector qualified as V
-import Fixture
-import Gen
-import Hedgehog hiding (check)
+import Fixture (EntityFile (..), Placed (..), Tree (..), entityFiles, withTree)
+import Gen (freshSlug, genBadSlug, genBadVersion, genDottedSlug, genSensitivity, genSlug, genTempBands, genTree, genVersion, nonTimeUnits)
+import Hedgehog (Gen, Property, PropertyT, annotate, annotateShow, assert, evalIO, failure, forAll, property, success, tripping, (===))
 import Hedgehog.Gen qualified as Gen
 import Hedgehog.Range qualified as Range
 import System.Directory (createDirectoryIfMissing, renameFile)
 import System.FilePath (takeDirectory, (</>))
 import System.IO (hSetEncoding, utf8)
-import Test.Tasty
+import Test.Tasty (TestName, TestTree, defaultMain, testGroup)
 import Test.Tasty.HUnit (assertBool, assertFailure, testCase, (@?=))
 import Test.Tasty.Hedgehog (testPropertyNamed)
 

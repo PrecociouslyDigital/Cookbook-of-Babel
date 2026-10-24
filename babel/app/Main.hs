@@ -1,12 +1,12 @@
 module Main (main) where
 
-import Babel.Diagnostic
+import Babel.Diagnostic (isError, renderDiagnostic)
 import Babel.Load (World (..))
-import Babel.Model
-import Babel.Spoilage
-import Babel.Validate
+import Babel.Model (Amount (..), Constants (..), IsId (..), Recipe (..), bandFromCelsius, licenceSpdx)
+import Babel.Spoilage (Conditions (..), firstSpoilage)
+import Babel.Validate (Report (..), validate)
 import Data.Text.IO qualified as T
-import Options.Applicative
+import Options.Applicative (Parser, auto, command, execParser, help, helper, hsubparser, info, long, metavar, option, progDesc, showDefault, strArgument, strOption, switch, value)
 import System.IO (hSetEncoding, utf8)
 import Text.Printf (printf)
 

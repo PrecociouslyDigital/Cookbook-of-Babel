@@ -15,6 +15,10 @@
 - New records get `deriving stock (Generic)` and `codec = genericCodec`; the
   field names and their order are the JSON keys and the canonical key order.
 - Judgement-call numbers go in `data/registries/constants.json`, not in code.
+- Imports are explicit or qualified (hlint enforces it in `.hlint.yaml`). Inside
+  the library, import the specific `Babel.Model.*` submodule; elsewhere import
+  from `Babel.Model`. A new model module goes in `babel.cabal` and in
+  `Babel.Model`'s re-exports.
 - Format with fourmolu (defaults), lint with hlint, `cabal-fmt` the cabal file.
 - After editing data, run `babel validate --fix` to canonicalize, then
   `babel validate`.

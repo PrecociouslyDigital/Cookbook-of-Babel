@@ -2,10 +2,21 @@
 
 The Haskell package that defines the data model and validates the dataset.
 
-- `src/Babel/Model.hs`: the types, smart constructors and
-  [autodocodec](https://hackage.haskell.org/package/autodocodec) codecs. These
-  are the source of truth. JSON Schema and the Java/C#/TS/Python bindings will
-  be derived from the same codecs later.
+- `src/Babel/Model/*.hs`: the types, smart constructors and
+  [autodocodec](https://hackage.haskell.org/package/autodocodec) codecs, one
+  module per area:
+  - `Id`: identifiers;
+  - `Common`: amounts, intensities and issues;
+  - `Ingredient`, `Technique`, `Recipe`, `Source`;
+  - `Registry`: units, media and vocabularies;
+  - `Dataset`: version and renames;
+  - `Constants`.
+
+  These are the source of truth. JSON Schema and the Java/C#/TS/Python
+  bindings will be derived from the same codecs later.
+- `src/Babel/Model.hs`: re-exports all of the above. The CLI and tests import
+  from it. Library modules import the specific submodule instead, so changing
+  one part of the model only recompiles what uses that part.
 - `src/Babel/Codec.hs`: slug IDs, plus `genericCodec`, which derives a record's
   codec from its fields (see below).
 - `src/Babel/Load.hs`: walks the data root, decodes every file, and merges the

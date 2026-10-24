@@ -12,7 +12,7 @@ module Babel.Format (render) where
 
 import Autodocodec (HasCodec, toEncodingViaCodec)
 import Data.Aeson.Decoding.ByteString.Lazy (lbsToTokens)
-import Data.Aeson.Decoding.Tokens
+import Data.Aeson.Decoding.Tokens (Lit (..), Number (..), TkArray (..), TkRecord (..), Tokens (..))
 import Data.Aeson.Encoding qualified as E
 import Data.Aeson.Key qualified as Key
 import Data.ByteString.Builder (Builder, toLazyByteString)
