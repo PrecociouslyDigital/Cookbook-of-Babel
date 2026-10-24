@@ -12,8 +12,11 @@ paths:
 
 - Bash calls already run in the devenv environment (`.claude/hooks/devenv-env.sh`).
   Elsewhere, prefix commands with `devenv shell --`.
-- Build and test with `cd babel && cabal build all && cabal test`. For more
-  Hedgehog cases, pass `--test-options=--hedgehog-tests=1000`.
+- Build with `cd babel && cabal build all`. Run tests with
+  `.claude/scripts/test.sh [PATTERN]`, which prints only the failures: test,
+  location, expected-vs-actual diff and diagnostics. To see one failure in full,
+  generated inputs included, use `.claude/scripts/test-focused.sh PATTERN`.
+  Both pass further arguments to tasty, e.g. `--hedgehog-tests=1000`.
 - Haskell dependencies come from nixpkgs (`ghcWithPackages` in `devenv.nix`), so
   never run `cabal update`. A dependency added to `babel.cabal` must also be
   added to `devenv.nix`.
