@@ -1,0 +1,48 @@
+{
+  "id": "noodles_for_soup.step_4",
+  "source": "wikibooks_noodles_for_soup",
+  "sourceRef": {
+    "source": "wikibooks_noodles_for_soup",
+    "step": 4
+  },
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "noodles_for_soup_step_3",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "noodles_for_soup_step_4",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Use a sharp knife to cut the log cross-wise into thin slices, similar to how you would slice cabbage for slaw. Unroll the noodles and toss with flour.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

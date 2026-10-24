@@ -1,0 +1,55 @@
+{
+  "id": "pancakes_north_american.step_2",
+  "source": "wikibooks_pancakes_north_american",
+  "sourceRef": {
+    "source": "wikibooks_pancakes_north_american",
+    "step": 2
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "pancakes_north_american_step_1",
+        "amount": {
+          "qty": 139.6,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "milk",
+        "amount": {
+          "qty": 250,
+          "unit": "ml"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "pancakes_north_american_step_2",
+      "amount": {
+        "qty": 397.1,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Add milk and mix well until smooth.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": "stir_fried_tomato_and_scrambled_eggs.step_2",
+  "source": "wikibooks_stir_fried_tomato_and_scrambled_eggs",
+  "sourceRef": {
+    "source": "wikibooks_stir_fried_tomato_and_scrambled_eggs",
+    "step": 2
+  },
+  "technique": "cool",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "stir_fried_tomato_and_scrambled_eggs_step_1",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "stir_fried_tomato_and_scrambled_eggs_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "After a short period of time, put the tomatoes in ice water to shock them and remove the skins.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "mammoth gave this answer a probability of 0.55"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

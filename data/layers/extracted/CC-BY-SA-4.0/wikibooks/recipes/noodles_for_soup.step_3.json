@@ -1,0 +1,53 @@
+{
+  "id": "noodles_for_soup.step_3",
+  "source": "wikibooks_noodles_for_soup",
+  "sourceRef": {
+    "source": "wikibooks_noodles_for_soup",
+    "step": 3
+  },
+  "technique": "fold",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "noodles_for_soup_step_2",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "noodles_for_soup_step_3",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Sprinkle the dough with a good amount of flour to prevent it from sticking to itself. Tightly roll up the dough to make a log.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "mammoth gave this answer a probability of 0.41"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}
