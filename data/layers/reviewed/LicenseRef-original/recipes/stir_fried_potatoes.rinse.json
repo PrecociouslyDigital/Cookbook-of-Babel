@@ -1,0 +1,52 @@
+{
+  "id": "stir_fried_potatoes.rinse",
+  "source": "cookbook_of_babel",
+  "technique": "rinse",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "potato_shreds",
+        "amount": {
+          "qty": 360,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "water",
+        "amount": {
+          "qty": 1,
+          "unit": "l"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "rinsed_potato_shreds",
+      "amount": {
+        "qty": 360,
+        "unit": "g"
+      }
+    },
+    {
+      "ingredient": "starchy_water",
+      "amount": {
+        "qty": 1,
+        "unit": "l"
+      },
+      "role": "byproduct"
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 10,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "soaked and rinsed until the water runs clear, then drained"
+}

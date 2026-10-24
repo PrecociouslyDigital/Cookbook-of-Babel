@@ -1,0 +1,48 @@
+{
+  "id": "pancakes.add_milk",
+  "source": "wikibooks_pancakes_north_american",
+  "sourceRef": {
+    "source": "wikibooks_pancakes_north_american",
+    "step": 2
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "pancake_dry_mix",
+        "amount": {
+          "qty": 138,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "milk",
+        "amount": {
+          "qty": 250,
+          "unit": "ml"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "pancake_batter_base",
+      "amount": {
+        "qty": 390,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 2,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "smooth"
+}

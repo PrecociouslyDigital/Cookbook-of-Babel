@@ -1,0 +1,45 @@
+{
+  "id": "bread.stale",
+  "source": "cookbook_of_babel",
+  "technique": "stale",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "bread",
+        "amount": {
+          "qty": 500,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "stale_bread",
+      "amount": {
+        "qty": 480,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 7,
+      "unit": "d"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 0.5,
+      "minWaterActivity": 0.6
+    }
+  },
+  "stateNote": "dry and firm throughout",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "starch retrogradation is faster when chilled, hence q10 below 1"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+# yaml-language-server: $schema=https://devenv.sh/devenv.schema.json
+# Inputs use git+https rather than github: so they also resolve in sandboxes
+# that block the GitHub tarball API. devenv.lock pins the exact revisions.
+inputs:
+  nixpkgs:
+    url: git+https://github.com/NixOS/nixpkgs?ref=nixpkgs-unstable&shallow=1
+  git-hooks:
+    url: git+https://github.com/cachix/git-hooks.nix?shallow=1
+    inputs:
+      nixpkgs:
+        follows: nixpkgs
+  # Only the module tree: devenv's top-level flake pulls in its whole build toolchain.
+  devenv:
+    url: git+https://github.com/cachix/devenv?ref=refs/tags/v2.4.0&dir=src/modules&shallow=1

@@ -1,0 +1,68 @@
+cabal-version: 3.0
+name:          babel
+version:       0.1.0.0
+synopsis:      Validator for the Cookbook of Babel recipe dataset
+build-type:    Simple
+
+common shared
+  default-language:   GHC2021
+  default-extensions:
+    DerivingStrategies
+    LambdaCase
+    OverloadedStrings
+
+  ghc-options:        -Wall -Wcompat -Wunused-packages
+
+library
+  import:          shared
+  hs-source-dirs:  src
+  exposed-modules:
+    Babel.Check
+    Babel.Diagnostic
+    Babel.Format
+    Babel.Load
+    Babel.Model
+    Babel.Spoilage
+    Babel.Validate
+
+  build-depends:
+    , aeson         >=2.2  && <2.3
+    , aeson-pretty  >=0.8  && <0.9
+    , autodocodec   >=0.5  && <0.6
+    , base          >=4.18 && <5
+    , bytestring
+    , containers
+    , directory
+    , filepath
+    , scientific
+    , text
+    , vector
+
+executable babel
+  import:         shared
+  hs-source-dirs: app
+  main-is:        Main.hs
+  build-depends:
+    , babel
+    , base
+    , optparse-applicative  >=0.18 && <0.19
+    , text
+
+test-suite babel-test
+  import:         shared
+  type:           exitcode-stdio-1.0
+  hs-source-dirs: test
+  main-is:        Main.hs
+  build-depends:
+    , aeson
+    , babel
+    , base
+    , bytestring
+    , containers
+    , directory
+    , filepath
+    , tasty        >=1.4 && <1.6
+    , tasty-hunit
+    , temporary
+    , text
+    , vector

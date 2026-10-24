@@ -1,0 +1,52 @@
+{
+  "id": "fresh_cheese.curdle",
+  "source": "cookbook_of_babel",
+  "technique": "coagulate",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "milk",
+        "amount": {
+          "qty": 4,
+          "unit": "l"
+        }
+      },
+      {
+        "ingredient": "rennet",
+        "amount": {
+          "qty": 1,
+          "unit": "ml"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "curds",
+      "amount": {
+        "qty": 600,
+        "unit": "g"
+      }
+    },
+    {
+      "ingredient": "whey",
+      "amount": {
+        "qty": 3.4,
+        "unit": "l"
+      },
+      "role": "byproduct"
+    }
+  ],
+  "environment": {
+    "temperatureC": 32,
+    "medium": "still_air"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 45,
+      "unit": "min"
+    }
+  },
+  "stateNote": "a clean break; curds cut and drained"
+}

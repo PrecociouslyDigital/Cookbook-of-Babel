@@ -1,0 +1,45 @@
+{
+  "id": "bread.mold",
+  "source": "cookbook_of_babel",
+  "technique": "mold",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "bread",
+        "amount": {
+          "qty": 500,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "spoiled_food",
+      "amount": {
+        "qty": 500,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 4,
+      "unit": "d"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 2.5,
+      "minWaterActivity": 0.9
+    }
+  },
+  "stateNote": "visible mold",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "order-of-magnitude: a few days at room temperature, about two weeks chilled"
+    }
+  ]
+}

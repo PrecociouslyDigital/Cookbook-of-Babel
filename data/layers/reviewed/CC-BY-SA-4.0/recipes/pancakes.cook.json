@@ -1,0 +1,50 @@
+{
+  "id": "pancakes.cook",
+  "source": "wikibooks_pancakes_north_american",
+  "sourceRef": {
+    "source": "wikibooks_pancakes_north_american",
+    "step": 6
+  },
+  "technique": "pan_fry",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "pancake_batter",
+        "amount": {
+          "qty": 35,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "pancake",
+      "amount": {
+        "qty": 30,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 190,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "coreTemp",
+    "coreTempC": 95
+  },
+  "stateNote": "poured by the ladle; flipped once the edges are dry and bubbles appear, then cooked until golden",
+  "issues": [
+    {
+      "field": "sourceRef",
+      "kind": "uncertain",
+      "note": "also covers step 5 (pouring into the pan), which has no recipe of its own"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "12-14 pancakes per batch"
+    }
+  ]
+}

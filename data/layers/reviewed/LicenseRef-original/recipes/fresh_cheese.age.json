@@ -1,0 +1,63 @@
+{
+  "id": "fresh_cheese.age",
+  "source": "cookbook_of_babel",
+  "technique": "age",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "curds",
+        "amount": {
+          "qty": 600,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": {
+    "oneOf": [
+      {
+        "weight": 9,
+        "outputs": [
+          {
+            "ingredient": "aged_cheese",
+            "amount": {
+              "qty": 500,
+              "unit": "g"
+            }
+          }
+        ]
+      },
+      {
+        "weight": 1,
+        "outputs": [
+          {
+            "ingredient": "spoiled_food",
+            "amount": {
+              "qty": 600,
+              "unit": "g"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 60,
+      "unit": "d"
+    },
+    "sensitivity": {
+      "refTempC": 12,
+      "q10": 2
+    }
+  },
+  "stateNote": "pressed, salted and aged; occasionally it spoils instead",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "a 1-in-10 spoilage chance is a game-balance guess"
+    }
+  ]
+}

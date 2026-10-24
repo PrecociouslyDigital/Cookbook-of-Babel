@@ -1,0 +1,33 @@
+name: ci
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: cachix/install-nix-action@v31
+      # Pull-only: devenv's own binary cache. GHC, HLS and the Haskell
+      # libraries come prebuilt from cache.nixos.org.
+      - uses: cachix/cachix-action@v16
+        with:
+          name: devenv
+      - name: Install devenv
+        run: nix profile add nixpkgs#devenv
+      - name: Cache cabal build output
+        uses: actions/cache@v4
+        with:
+          path: babel/dist-newstyle
+          key: dist-${{ runner.os }}-${{ hashFiles('devenv.lock', 'babel/babel.cabal') }}-${{ hashFiles('babel/**/*.hs') }}
+          restore-keys: dist-${{ runner.os }}-${{ hashFiles('devenv.lock', 'babel/babel.cabal') }}-
+      - name: Build and test
+        run: devenv shell -- bash -c 'cd babel && cabal build all && cabal test'
+      - name: Validate the dataset
+        run: devenv shell -- babel validate data
+      # Runs every git hook (validate, fourmolu, hlint, cabal-fmt) on all files,
+      # so a commit made with --no-verify is still caught here.
+      - name: Git hooks on all files
+        run: devenv test
