@@ -29,6 +29,8 @@ data Constants = Constants
     -- ^ How far kcal may stray from the macros before a warning.
     , massRatio :: RatioBounds
     -- ^ Plausible output/input mass ratio of one step; outside it, a warning.
+    , negligibleMassFraction :: Double
+    -- ^ An input lighter than this share of a step's inputs may lack nutrition when it is inferred.
     }
     deriving stock (Eq, Generic, Show)
 

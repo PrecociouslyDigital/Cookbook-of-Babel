@@ -16,7 +16,7 @@ import Babel.Model.Common (Amount (..))
 import Babel.Model.Constants (Constants (..))
 import Babel.Model.Id (IngredientId)
 import Babel.Model.Ingredient (Ingredient (..))
-import Babel.Model.Recipe (End (..), Leaf (..), Recipe (..), Select (..), Sensitivity (..))
+import Babel.Model.Recipe (End (..), Leaf (..), Recipe (..), Sensitivity (..), leaves)
 import Babel.Model.Registry (Dimension (..), Unit (..))
 import Babel.Model.Technique (Technique (..))
 import Data.Map.Strict qualified as Map
@@ -50,7 +50,6 @@ spoilagePaths w ing = case w.constants of
             | otherwise ->
                 let ps = maybe [] (\l -> l.value.parents) (Map.lookup t w.techniques)
                  in go (Set.insert t seen) (ps ++ rest)
-    leaves s = rights s.choices ++ concatMap leaves (lefts s.choices)
 
 {- | How long a step of reference duration @d@ takes under these conditions,
 scaling by Q10 per 10 °C away from the reference temperature. 'Nothing'

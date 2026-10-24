@@ -19,7 +19,7 @@ import Babel.Model.Dataset (Dataset (..), EntityKind (..), Rename (..), entityKi
 import Babel.Model.Id (SourceId)
 import Babel.Model.Ingredient (Ingredient (..), IsA (..))
 import Babel.Model.Measure (Measure (..), MeasureValue (..), Per100g (..))
-import Babel.Model.Recipe (Branch (..), End (..), Environment (..), Leaf (..), Outcome (..), Output (..), Recipe (..), Select (..), Sensitivity (..), SourceRef (..), selectMax, selectMin)
+import Babel.Model.Recipe (Branch (..), End (..), Environment (..), Leaf (..), Outcome (..), Output (..), Recipe (..), Select (..), Sensitivity (..), SourceRef (..), leaves, selectMax, selectMin)
 import Babel.Model.Registry (Dimension (..), Unit (..))
 import Babel.Model.Source (Licence, Source (..), licenceSpdx, originLicence, originSlug, satisfies)
 import Babel.Model.Technique (Technique (..), TempRange (..))
@@ -234,9 +234,6 @@ measureChecks w (Located{value = m, path = p}) =
                     ++ [errorIn "amount" (Just p) "grams must be positive" | g <= 0]
         ]
 
-leaves :: Select -> [Leaf]
-leaves s = rights s.choices ++ concatMap leaves (lefts s.choices)
-
 -- * Graphs
 
 -- | Every cycle in a graph given as adjacency lists, each reported once.
@@ -321,6 +318,9 @@ constantsChecks w c =
            ]
         ++ [ errorIn "constants" (Just p) "calorieTolerance values must not be negative"
            | c.calorieTolerance.kcal < 0 || c.calorieTolerance.fraction < 0
+           ]
+        ++ [ errorIn "constants" (Just p) "negligibleMassFraction must be within [0, 1)"
+           | c.negligibleMassFraction < 0 || c.negligibleMassFraction >= 1
            ]
   where
     p = "registries/constants.json"

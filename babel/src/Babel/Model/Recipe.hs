@@ -8,6 +8,8 @@ module Babel.Model.Recipe (
     Leaf (..),
     selectMin,
     selectMax,
+    leaves,
+    minimalLeaves,
     Outcome (..),
     Branch (..),
     Output (..),
@@ -50,6 +52,16 @@ data Select = Select
 selectMin, selectMax :: Select -> Int
 selectMin s = fromMaybe (length s.choices) s.minCount
 selectMax s = fromMaybe (length s.choices) s.maxCount
+
+-- | Every leaf a select could take in.
+leaves :: Select -> [Leaf]
+leaves s = rights s.choices ++ concatMap leaves (lefts s.choices)
+
+{- | The leaves of the least a select takes in: its first 'selectMin'
+choices, each at its own least.
+-}
+minimalLeaves :: Select -> [Leaf]
+minimalLeaves s = concatMap (either minimalLeaves pure) (take (selectMin s) s.choices)
 
 instance HasCodec Select where
     codec =

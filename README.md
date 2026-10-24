@@ -14,6 +14,7 @@ devenv shell                 # or `direnv allow` with the provided .envrc
 babel validate               # checks data/; non-zero exit on any error
 babel validate --fix         # also rewrites non-canonically formatted files
 babel query spoilage bread --temp 20 --aw 0.95
+babel query nutrition pancake_dry_mix   # stated, or inferred from its recipe
 (cd babel && cabal test)
 ```
 

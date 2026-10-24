@@ -23,6 +23,7 @@ module Gen (
     genTree,
     genSensitivity,
     genTempBands,
+    genConstants,
     freshSlug,
     timeUnits,
     nonTimeUnits,
@@ -297,6 +298,7 @@ genConstants techIds = do
     calorieTolerance <- Tolerance <$> Gen.double (Range.linearFrac 0 100) <*> Gen.double (Range.linearFrac 0 1)
     lo <- positive
     hi <- Gen.double (Range.linearFrac lo (lo * 100))
+    negligibleMassFraction <- Gen.double (Range.linearFrac 0 0.5)
     pure Constants{massRatio = RatioBounds lo hi, ..}
 
 -- | Strictly increasing bounds, built by accumulating positive steps.
