@@ -5,7 +5,9 @@
   canonical data.
 - Work inside the devenv shell: `devenv shell -- <cmd>`, e.g.
   `devenv shell -- bash -c 'cd babel && cabal test'` and
-  `devenv shell -- babel validate`.
+  `devenv shell -- babel validate`. Claude Code's Bash calls already get the
+  devenv environment from `.claude/hooks/devenv-env.sh`, so there the prefix
+  is optional.
 - Haskell dependencies come from nixpkgs (`devenv.nix`, `ghcWithPackages`);
   keep that list in sync with `babel/babel.cabal`. Don't `cabal update`.
 - The package uses relude as its Prelude and enables `DuplicateRecordFields`,

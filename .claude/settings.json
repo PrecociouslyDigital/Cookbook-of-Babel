@@ -1,0 +1,27 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "\"$CLAUDE_PROJECT_DIR\"/.claude/hooks/devenv-env.sh",
+            "timeout": 900
+          }
+        ]
+      }
+    ],
+    "FileChanged": [
+      {
+        "matcher": "devenv.nix|devenv.yaml|devenv.lock",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "\"$CLAUDE_PROJECT_DIR\"/.claude/hooks/devenv-env.sh",
+            "timeout": 900
+          }
+        ]
+      }
+    ]
+  }
+}
