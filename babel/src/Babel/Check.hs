@@ -20,7 +20,7 @@ import Babel.Model.Id (IngredientId)
 import Babel.Model.Ingredient (Ingredient (..), IsA (..), Nutrition (..), Per100g (..))
 import Babel.Model.Recipe (Branch (..), End (..), Environment (..), Leaf (..), Outcome (..), Output (..), Recipe (..), Select (..), Sensitivity (..), SourceRef (..), selectMax, selectMin)
 import Babel.Model.Registry (Dimension (..), Unit (..))
-import Babel.Model.Source (Licence (..), Source (..), licenceSpdx, licenceStrictness, originSlug)
+import Babel.Model.Source (Licence (..), Source (..), licenceSpdx, licenceStrictness, originLicence, originSlug)
 import Babel.Model.Technique (Technique (..), TempRange (..))
 import Data.List.NonEmpty qualified as NE
 import Data.Map.Strict qualified as Map
@@ -45,34 +45,26 @@ effectiveLicence :: World -> Licence
 effectiveLicence w =
     maximumOn licenceStrictness Cc0 $
         concat
-            [ map (.licence) (Map.elems w.sources)
-            , map (.licence) (Map.elems w.ingredients)
-            , map (.licence) (Map.elems w.techniques)
-            , map (.licence) (Map.elems w.recipes)
+            [ map (originLicence . (.origin)) (Map.elems w.sources)
+            , map (originLicence . (.origin)) (Map.elems w.ingredients)
+            , map (originLicence . (.origin)) (Map.elems w.techniques)
+            , map (originLicence . (.origin)) (Map.elems w.recipes)
             ]
   where
     maximumOn f = foldr (\x acc -> if f x > f acc then x else acc)
 
 -- * Licence and origin folders
 
+{- | A source's stated licence must match its origin's. A recipe must be
+in its source's origin, and so under that licence too.
+-}
 folderChecks :: World -> [Diagnostic]
 folderChecks w =
     [ errorIn "licence-mismatch" (Just s.path) $
-        "source licence " <> licenceSpdx s.value.licence <> " does not match its folder " <> licenceSpdx s.licence
+        "source licence " <> licenceSpdx s.value.licence <> " does not match its folder " <> licenceSpdx (originLicence s.origin)
     | s <- Map.elems w.sources
-    , s.value.licence /= s.licence
+    , s.value.licence /= originLicence s.origin
     ]
-        ++ [ errorIn "licence-mismatch" (Just r.path) $
-                "recipe is in the "
-                    <> licenceSpdx r.licence
-                    <> " folder but its source "
-                    <> idText r.value.source
-                    <> " is "
-                    <> licenceSpdx s.value.licence
-           | r <- Map.elems w.recipes
-           , Just s <- [Map.lookup r.value.source w.sources]
-           , s.value.licence /= r.licence
-           ]
         ++ [ errorIn "origin-mismatch" (Just r.path) $
                 "recipe is in the "
                     <> originSlug r.origin

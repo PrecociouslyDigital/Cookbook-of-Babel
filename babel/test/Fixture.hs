@@ -8,7 +8,6 @@ module Fixture (
     Tree (..),
     writeTree,
     entityPath,
-    layerDir,
     withTree,
     entityFiles,
     EntityFile (..),
@@ -17,17 +16,17 @@ where
 
 import Autodocodec (toJSONViaCodec)
 import Babel.Format (render)
-import Babel.Load (Layer (..))
-import Babel.Model (Constants, Dataset, FormId, Ingredient (..), IsId (..), Licence, Medium, Origin, Recipe (..), Rename, ServingTagId, Source (..), TasteAttrId, Technique (..), Term, TextureAttrId, Unit, licenceSpdx, originSlug)
+import Babel.Layout (Kind (..), Layer, Placement (..), placementFolders)
+import Babel.Model (Constants, Dataset, FormId, Ingredient (..), IsId (..), Medium, Origin, Recipe (..), Rename, ServingTagId, Source (..), TasteAttrId, Technique (..), Term, TextureAttrId, Unit)
 import Data.Aeson (Value)
 import Data.ByteString.Lazy qualified as BL
 import Data.Text qualified as T
 import System.Directory (createDirectoryIfMissing)
-import System.FilePath (takeDirectory, (</>))
+import System.FilePath (joinPath, takeDirectory, (</>))
 import System.IO.Temp (withSystemTempDirectory)
 
--- | An entity and the layer, licence and origin folders it is written to.
-data Placed a = Placed {layer :: Layer, licenceFolder :: Licence, originFolder :: Origin, entity :: a}
+-- | An entity and the layer and origin folders it is written to.
+data Placed a = Placed {layer :: Layer, originFolder :: Origin, entity :: a}
     deriving stock (Eq, Show)
 
 {- | Field names are distinct from 'Babel.Load.World''s so record updates
@@ -50,15 +49,10 @@ data Tree = Tree
     }
     deriving stock (Show)
 
-layerDir :: Layer -> FilePath
-layerDir = \case
-    Extracted -> "extracted"
-    Reviewed -> "reviewed"
-
 -- | Where an entity of this kind lives, relative to the data root.
-entityPath :: FilePath -> Placed a -> T.Text -> FilePath
+entityPath :: Kind -> Placed a -> T.Text -> FilePath
 entityPath kind p ident =
-    "layers" </> layerDir p.layer </> T.unpack (licenceSpdx p.licenceFolder) </> T.unpack (originSlug p.originFolder) </> kind </> (T.unpack ident <> ".json")
+    "layers" </> joinPath [T.unpack folder | (_, folder) <- placementFolders (Placement p.layer p.originFolder kind)] </> (T.unpack ident <> ".json")
 
 writeTree :: FilePath -> Tree -> IO ()
 writeTree root Tree{..} = do
@@ -71,10 +65,10 @@ writeTree root Tree{..} = do
     write "registries/texture.json" (render textureReg)
     write "registries/taste.json" (render tasteReg)
     write "registries/serving.json" (render servingReg)
-    mapM_ (\p -> write (entityPath "sources" p (idText p.entity.id)) (render p.entity)) srcs
-    mapM_ (\p -> write (entityPath "ingredients" p (idText p.entity.id)) (render p.entity)) ings
-    mapM_ (\p -> write (entityPath "techniques" p (idText p.entity.id)) (render p.entity)) techs
-    mapM_ (\p -> write (entityPath "recipes" p (idText p.entity.id)) (render p.entity)) recs
+    mapM_ (\p -> write (entityPath Sources p (idText p.entity.id)) (render p.entity)) srcs
+    mapM_ (\p -> write (entityPath Ingredients p (idText p.entity.id)) (render p.entity)) ings
+    mapM_ (\p -> write (entityPath Techniques p (idText p.entity.id)) (render p.entity)) techs
+    mapM_ (\p -> write (entityPath Recipes p (idText p.entity.id)) (render p.entity)) recs
     -- An empty layers/ directory is still a valid layout.
     createDirectoryIfMissing True (root </> "layers")
   where
@@ -90,15 +84,15 @@ withTree t act = withSystemTempDirectory "babel-prop" $ \tmp -> do
     writeTree root t
     act root
 
--- | One entity file: where it is written, its kind folder, and its JSON.
-data EntityFile = EntityFile {path :: FilePath, kind :: FilePath, json :: Value}
+-- | One entity file: where it is written, its kind, and its JSON.
+data EntityFile = EntityFile {path :: FilePath, kind :: Kind, json :: Value}
     deriving stock (Show)
 
 entityFiles :: Tree -> [EntityFile]
 entityFiles t =
-    [file "sources" p (idText p.entity.id) (toJSONViaCodec p.entity) | p <- t.srcs]
-        ++ [file "ingredients" p (idText p.entity.id) (toJSONViaCodec p.entity) | p <- t.ings]
-        ++ [file "techniques" p (idText p.entity.id) (toJSONViaCodec p.entity) | p <- t.techs]
-        ++ [file "recipes" p (idText p.entity.id) (toJSONViaCodec p.entity) | p <- t.recs]
+    [file Sources p (idText p.entity.id) (toJSONViaCodec p.entity) | p <- t.srcs]
+        ++ [file Ingredients p (idText p.entity.id) (toJSONViaCodec p.entity) | p <- t.ings]
+        ++ [file Techniques p (idText p.entity.id) (toJSONViaCodec p.entity) | p <- t.techs]
+        ++ [file Recipes p (idText p.entity.id) (toJSONViaCodec p.entity) | p <- t.recs]
   where
     file k p ident = EntityFile (entityPath k p ident) k

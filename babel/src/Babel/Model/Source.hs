@@ -3,11 +3,10 @@ module Babel.Model.Source (
     Source (..),
     Licence (..),
     licenceSpdx,
-    licenceFromSpdx,
     licenceStrictness,
     Origin (..),
     originSlug,
-    originFromSlug,
+    originLicence,
 )
 where
 
@@ -29,9 +28,6 @@ licenceSpdx = \case
     CcBy40 -> "CC-BY-4.0"
     CcBySa40 -> "CC-BY-SA-4.0"
 
-licenceFromSpdx :: Text -> Maybe Licence
-licenceFromSpdx t = find ((== t) . licenceSpdx) universe
-
 {- | Higher is stricter. A build's effective licence is the strictest one
 of anything it includes.
 -}
@@ -41,8 +37,8 @@ licenceStrictness = fromEnum
 instance HasCodec Licence where
     codec = stringConstCodec (NE.fromList [(l, licenceSpdx l) | l <- [minBound ..]])
 
-{- | The body of work an entity comes from. Unlike the licence, it is recorded
-only by the entity's folder.
+{- | The body of work an entity comes from, recorded only by the entity's
+folder. A body of work has one licence ('originLicence').
 -}
 data Origin = OriginalWork | Wikibooks
     deriving stock (Eq, Ord, Show, Enum, Bounded)
@@ -52,8 +48,10 @@ originSlug = \case
     OriginalWork -> "original"
     Wikibooks -> "wikibooks"
 
-originFromSlug :: Text -> Maybe Origin
-originFromSlug t = find ((== t) . originSlug) universe
+originLicence :: Origin -> Licence
+originLicence = \case
+    OriginalWork -> Original
+    Wikibooks -> CcBySa40
 
 data Source = Source {id :: SourceId, name :: Text, url :: Maybe Text, licence :: Licence}
     deriving stock (Eq, Generic, Show)

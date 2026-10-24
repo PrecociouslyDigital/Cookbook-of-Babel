@@ -1,6 +1,7 @@
 module Main (main) where
 
 import Babel.Diagnostic (isError, renderDiagnostic)
+import Babel.Layout (Axis (..), axes)
 import Babel.Load (World (..))
 import Babel.Model (Amount (..), Constants (..), IsId (..), Recipe (..), bandFromCelsius, licenceSpdx)
 import Babel.Spoilage (Conditions (..), firstSpoilage)
@@ -13,6 +14,7 @@ import Text.Printf (printf)
 data Command
     = Validate FilePath Bool
     | Spoilage FilePath Text Double (Maybe Double)
+    | Layout
 
 main :: IO ()
 main = do
@@ -23,6 +25,7 @@ commands :: Parser Command
 commands =
     hsubparser $
         command "validate" (info validateP (progDesc "Check the dataset; exit non-zero on any error"))
+            <> command "layout" (info (pure Layout) (progDesc "Print each folder level under layers/, outermost first, with the folder names it accepts"))
             <> command "query" (info (hsubparser (command "spoilage" (info spoilageP (progDesc "Which spoilage recipe happens first")))) (progDesc "Ask questions of the dataset"))
   where
     dataRoot = strArgument (metavar "DATA_ROOT" <> value "data" <> showDefault <> help "Data root")
@@ -36,6 +39,7 @@ commands =
 
 run :: Command -> IO ()
 run = \case
+    Layout -> mapM_ (\a -> putTextLn (unwords (a.name : a.folders))) axes
     Validate root fixFiles -> do
         report <- validate fixFiles root
         let errors = filter isError report.diagnostics

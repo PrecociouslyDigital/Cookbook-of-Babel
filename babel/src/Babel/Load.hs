@@ -8,10 +8,9 @@ Layout:
 
 > dataset.json, renames.json
 > registries/{units,media,forms,texture,taste,serving}.json
-> layers/{extracted,reviewed}/<licence>/<origin>/{sources,ingredients,techniques,recipes}/<id>.json
+> layers/  (see "Babel.Layout")
 -}
 module Babel.Load (
-    Layer (..),
     Located (..),
     World (..),
     loadWorld,
@@ -23,13 +22,14 @@ import Autodocodec (HasCodec, parseJSONViaCodec, toJSONViaCodec)
 import Babel.Codec (IsId (..))
 import Babel.Diagnostic (Diagnostic, errorIn)
 import Babel.Format (render)
+import Babel.Layout (Kind (..), Layer (..), Placement (..), placementFolders, placements)
 import Babel.Model.Constants (Constants)
 import Babel.Model.Dataset (Dataset, Rename)
 import Babel.Model.Id (FormId, IngredientId, MediumId, RecipeId, ServingTagId, SourceId, TasteAttrId, TechniqueId, TextureAttrId, UnitId)
 import Babel.Model.Ingredient (Ingredient (..))
 import Babel.Model.Recipe (Recipe (..), SourceRef (..))
 import Babel.Model.Registry (Medium (..), Term (..), Unit (..))
-import Babel.Model.Source (Licence, Origin, Source (..), licenceFromSpdx, originFromSlug)
+import Babel.Model.Source (Origin, Source (..))
 import Babel.Model.Technique (Technique (..))
 import Data.Aeson (Value (..))
 import Data.Aeson qualified as Aeson
@@ -42,17 +42,13 @@ import Data.Map.Strict qualified as Map
 import Data.Text qualified as T
 import Data.Vector qualified as V
 import System.Directory (doesDirectoryExist, doesFileExist, listDirectory)
-import System.FilePath (takeBaseName, takeExtension, (</>))
-
-data Layer = Extracted | Reviewed
-    deriving stock (Eq, Ord, Show)
+import System.FilePath (joinPath, takeBaseName, takeExtension, (</>))
 
 -- | A decoded entity and where it came from.
 data Located a = Located
     { value :: a
     , path :: FilePath
     , layer :: Layer
-    , licence :: Licence
     , origin :: Origin
     }
     deriving stock (Show)
@@ -257,45 +253,27 @@ loadLayers fixFiles layersDir = do
     if not exists
         then pure ([errorIn "layout" (Just layersDir) "missing layers directory"], mempty)
         else do
-            results <- forM' layersDir $ \layerName layerPath -> case layerName of
-                "extracted" -> loadLayer Extracted layerPath
-                "reviewed" -> loadLayer Reviewed layerPath
-                _ -> pure (unexpected layerPath "layer (expected extracted or reviewed)", mempty)
-            pure (mconcat results)
+            strays <- layoutErrors layersDir
+            results <- forM placements $ \p -> do
+                let dir = layersDir </> joinPath [toString folder | (_, folder) <- placementFolders p]
+                present <- doesDirectoryExist dir
+                if present then loadPlacement p dir else pure mempty
+            pure ((strays, mempty) <> mconcat results)
   where
-    loadLayer layer layerPath =
-        mconcat
-            <$> forM'
-                layerPath
-                ( \licName licPath -> case licenceFromSpdx (T.pack licName) of
-                    Nothing -> pure (unexpected licPath "licence folder (expected an SPDX ID this dataset knows)", mempty)
-                    Just lic -> mconcat <$> forM' licPath (loadOrigin layer lic)
-                )
+    loadPlacement p dir = case p.kind of
+        Sources -> (\(d, xs) -> (d, mempty{rawSources = xs})) <$> entities p dir (\s -> idText s.id)
+        Ingredients -> (\(d, xs) -> (d, mempty{rawIngredients = xs})) <$> entities p dir (\i -> idText i.id)
+        Techniques -> (\(d, xs) -> (d, mempty{rawTechniques = xs})) <$> entities p dir (\t -> idText t.id)
+        Recipes -> (\(d, xs) -> (d, mempty{rawRecipes = xs})) <$> entities p dir (\r -> idText r.id)
 
-    loadOrigin layer lic originName originPath = case originFromSlug (T.pack originName) of
-        Nothing -> pure (unexpected originPath "origin folder (expected an origin this dataset knows)", mempty)
-        Just origin ->
-            let entities' :: (HasCodec a) => FilePath -> (a -> Text) -> IO ([Diagnostic], [Located a])
-                entities' = entities layer lic origin
-             in mconcat
-                    <$> forM'
-                        originPath
-                        ( \kindName kindPath -> case kindName of
-                            "sources" -> (\(d, xs) -> (d, mempty{rawSources = xs})) <$> entities' kindPath (\s -> idText s.id)
-                            "ingredients" -> (\(d, xs) -> (d, mempty{rawIngredients = xs})) <$> entities' kindPath (\i -> idText i.id)
-                            "techniques" -> (\(d, xs) -> (d, mempty{rawTechniques = xs})) <$> entities' kindPath (\t -> idText t.id)
-                            "recipes" -> (\(d, xs) -> (d, mempty{rawRecipes = xs})) <$> entities' kindPath (\r -> idText r.id)
-                            _ -> pure (unexpected kindPath "entity folder (expected sources, ingredients, techniques or recipes)", mempty)
-                        )
-
-    entities :: (HasCodec a) => Layer -> Licence -> Origin -> FilePath -> (a -> Text) -> IO ([Diagnostic], [Located a])
-    entities layer lic origin dir idOf = do
+    entities :: (HasCodec a) => Placement -> FilePath -> (a -> Text) -> IO ([Diagnostic], [Located a])
+    entities placement dir idOf = do
         names <- sort <$> listDirectory dir
         results <- forM names $ \name -> do
             let p = dir </> name
             isFile <- doesFileExist p
             if not isFile || takeExtension name /= ".json"
-                then pure (unexpected p "entry (expected <id>.json files only)", Nothing)
+                then pure ([errorIn "layout" (Just p) "unexpected entry (expected <id>.json files only)"], Nothing)
                 else do
                     (diags, decoded) <- loadFile fixFiles p
                     pure $ case decoded of
@@ -305,23 +283,33 @@ loadLayers fixFiles layersDir = do
                                     [ errorIn "filename" (Just p) ("file name must be " <> idOf a <> ".json")
                                     | T.pack (takeBaseName name) /= idOf a
                                     ]
-                             in (diags ++ nameDiags, Just (Located a p layer lic origin))
+                             in (diags ++ nameDiags, Just (Located a p placement.layer placement.origin))
         pure (concatMap fst results, mapMaybe snd results)
 
-    unexpected p what = [errorIn "layout" (Just p) ("unexpected " <> what)]
-
--- | Run an action on each subdirectory (anything else is a layout error).
-forM' :: FilePath -> (FilePath -> FilePath -> IO ([Diagnostic], Raw)) -> IO [([Diagnostic], Raw)]
-forM' dir act = do
-    names <- sort <$> listDirectory dir
-    dirs <- filterM (doesDirectoryExist . (dir </>)) names
-    let stray = [n | n <- names, n `notElem` dirs]
-    rest <- forM dirs (\n -> act n (dir </> n))
-    pure ((concat [[errorIn "layout" (Just (dir </> n)) "unexpected file (expected a folder)"] | n <- stray], mempty) : rest)
+-- | Everything under @layers/@ that is not on the way to a placement's folder.
+layoutErrors :: FilePath -> IO [Diagnostic]
+layoutErrors = go (map placementFolders placements)
+  where
+    -- @below@ holds the rest of the path to every placement under @dir@.
+    go below dir = case [next | next : _ <- below] of
+        [] -> pure []
+        level@((axis, _) : _) -> do
+            names <- sort <$> listDirectory dir
+            fmap concat . forM names $ \name -> do
+                let p = dir </> name
+                isDir <- doesDirectoryExist p
+                case [rest | (_, folder) : rest <- below, toString folder == name] of
+                    _ | not isDir -> pure [errorIn "layout" (Just p) "unexpected file (expected a folder)"]
+                    [] ->
+                        pure
+                            [ errorIn "layout" (Just p) $
+                                "unexpected " <> axis <> " folder here (expected: " <> T.intercalate ", " (ordNub (map snd level)) <> ")"
+                            ]
+                    rests -> go rests p
 
 -- * Overlays
 
-{- | Within one layer, a key may live in only one licence and origin folder.
+{- | Within one layer, a key may live in only one origin folder.
 Across layers, reviewed replaces extracted.
 -}
 mergeLayer :: (Ord k) => Text -> (k -> Text) -> (Located a -> k) -> [Located a] -> ([Diagnostic], Map k (Located a))
@@ -334,7 +322,7 @@ mergeLayer kind showKey key xs = (diags, merged)
         [ errorIn rule (Just x.path) msg
         | layer <- [Extracted, Reviewed]
         , (k, kept : others) <- Map.toList (byLayer layer)
-        , let folders = ordNub [(y.licence, y.origin) | y <- kept : others]
+        , let folders = ordNub [y.origin | y <- kept : others]
               (rule, msg)
                 | length folders > 1 =
                     ( "overlay-conflict"

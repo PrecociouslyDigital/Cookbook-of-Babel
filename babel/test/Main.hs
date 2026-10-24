@@ -18,8 +18,9 @@ import Autodocodec (HasCodec, parseJSONViaCodec, toJSONViaCodec)
 import Babel.Check (findCycles)
 import Babel.Diagnostic (Diagnostic (..), isError, renderDiagnostic)
 import Babel.Format (render)
-import Babel.Load (Layer (..), Located (..), World (..))
-import Babel.Model (Amount (..), AxisId (..), BandEntry (..), Branch (..), Dataset (..), DottedSlug (..), End (..), EntityKind (..), FormId (..), Ingredient (..), IngredientId (..), IsA (..), IsId (..), Leaf (..), Outcome (..), Output (..), Recipe (..), RecipeId (..), Rename (..), Role (..), Select (..), Sensitivity (..), Source (..), SourceRef (..), Technique (..), TechniqueId (..), Term (..), UnitId (..), Version, bandFromCelsius, isSlug, licenceSpdx, mkTempBands, parseVersion, renderVersion, tempBandEntries)
+import Babel.Layout (Axis (..), Kind (..), Layer (..), axes, placementFolders, placements)
+import Babel.Load (Located (..), World (..))
+import Babel.Model (Amount (..), AxisId (..), BandEntry (..), Branch (..), Dataset (..), DottedSlug (..), End (..), EntityKind (..), FormId (..), Ingredient (..), IngredientId (..), IsA (..), IsId (..), Leaf (..), Outcome (..), Output (..), Recipe (..), RecipeId (..), Rename (..), Role (..), Select (..), Sensitivity (..), Source (..), SourceRef (..), Technique (..), TechniqueId (..), Term (..), UnitId (..), Version, bandFromCelsius, isSlug, licenceSpdx, mkTempBands, originLicence, parseVersion, renderVersion, tempBandEntries)
 import Babel.Spoilage (Conditions (..), firstSpoilage, timeAt)
 import Babel.Validate (Report (..), validate)
 import Data.Aeson (Value (..))
@@ -39,7 +40,7 @@ import Hedgehog (Gen, Property, PropertyT, annotate, annotateShow, assert, evalI
 import Hedgehog.Gen qualified as Gen
 import Hedgehog.Range qualified as Range
 import System.Directory (createDirectoryIfMissing, renameFile)
-import System.FilePath (takeDirectory, (</>))
+import System.FilePath (joinPath, takeDirectory, (</>))
 import System.IO (hSetEncoding, utf8)
 import Test.Tasty (TestName, TestTree, defaultMain, testGroup)
 import Test.Tasty.HUnit (assertBool, assertFailure, testCase, (@?=))
@@ -141,7 +142,7 @@ ruleProps =
     , rule "an outputs block that is all chance-gated" ["all-chance"] allChance
     , rule "an ambient time-based end without sensitivity" ["ambient-time"] ambientTime
     , rule "a water activity out of bounds" ["water-activity"] badWaterActivity
-    , rule "a licence folder that doesn't match the source" ["licence-mismatch"] licenceMismatch
+    , rule "a source licence that doesn't match its folder" ["licence-mismatch"] licenceMismatch
     , rule "an origin folder that doesn't match the source" ["origin-mismatch"] originMismatch
     , rule "the same key in two folders of a layer" ["overlay-conflict"] overlayConflict
     , rule "a duration in a non-time unit" ["dimension"] durationUnit
@@ -273,17 +274,12 @@ badWaterActivity t =
 other :: (Bounded a, Enum a, Eq a) => a -> Gen a
 other x = Gen.element [y | y <- universe, y /= x]
 
-moveLicence, moveOrigin, moveFolder :: Placed a -> Gen (Placed a)
-moveLicence p = (\l -> p{licenceFolder = l}) <$> other p.licenceFolder
+moveOrigin :: Placed a -> Gen (Placed a)
 moveOrigin p = (\o -> p{originFolder = o}) <$> other p.originFolder
-moveFolder p = Gen.choice [moveLicence p, moveOrigin p, moveLicence =<< moveOrigin p]
 
 licenceMismatch :: Tree -> Gen Tree
 licenceMismatch t =
-    Gen.choice
-        [ (\rs -> t{recs = rs}) <$> modifyOne t.recs moveLicence
-        , (\ss -> t{srcs = ss}) <$> modifyOne t.srcs moveLicence
-        ]
+    (\ss -> t{srcs = ss}) <$> modifyOne t.srcs (onEntity (\Source{..} -> (\l -> Source{licence = l, ..}) <$> other licence))
 
 originMismatch :: Tree -> Gen Tree
 originMismatch t =
@@ -291,20 +287,25 @@ originMismatch t =
         [ (\rs -> t{recs = rs}) <$> modifyOne t.recs moveOrigin
         , do
             r <- Gen.element t.recs
-            ss <- forM t.srcs $ \p -> if p.entity.id == r.entity.source then moveOrigin p else pure p
+            ss <- forM t.srcs $ \p -> if p.entity.id == r.entity.source then moveSource p else pure p
             pure t{srcs = ss}
         ]
+  where
+    -- A source states its origin's licence, so it moves with it.
+    moveSource p = do
+        p' <- moveOrigin p
+        pure p'{entity = let Source{..} = p'.entity in Source{licence = originLicence p'.originFolder, ..}}
 
 overlayConflict :: Tree -> Gen Tree
 overlayConflict t =
     Gen.choice
         [ do
             p <- Gen.element t.ings
-            p' <- moveFolder p
+            p' <- moveOrigin p
             pure t{ings = t.ings ++ [p']}
         , do
             p <- Gen.element t.techs
-            p' <- moveFolder p
+            p' <- moveOrigin p
             pure t{techs = t.techs ++ [p']}
         ]
 
@@ -449,20 +450,25 @@ fileProps =
     , fileRule "an unknown licence folder" ["layout"] $ \_ ->
         pure (Write "layers/reviewed/CC-BY-NC-4.0/original/ingredients/x.json" "{}")
     , fileRule "an unknown origin folder" ["layout"] $ \_ ->
-        pure (Write "layers/reviewed/CC0-1.0/nowhere/ingredients/x.json" "{}")
+        pure (Write "layers/reviewed/CC-BY-SA-4.0/nowhere/ingredients/x.json" "{}")
+    , fileRule "an origin folder under another licence" ["layout"] $ \_ -> do
+        folders <- placementFolders <$> Gen.element placements
+        licence <- Gen.element [l | Axis "licence" ls <- axes, l <- ls, ("licence", l) `notElem` folders]
+        let misfiled = [(axis, if axis == "licence" then licence else f) | (axis, f) <- folders]
+        pure (Write ("layers" </> joinPath [toString f | (_, f) <- misfiled] </> "x.json") "{}")
     , decodeRule "an ID that is not a slug" $ \t -> do
         f <- Gen.element (entityFiles t)
         bad <- genBadSlug
         pure (f.path, setKey "id" (String bad) f.json)
     , decodeRule "an empty output list" $ \t -> do
-        f <- Gen.element [f | f <- entityFiles t, f.kind == "recipes"]
+        f <- Gen.element [f | f <- entityFiles t, f.kind == Recipes]
         pure (f.path, setKey "outputs" (Array mempty) f.json)
     , decodeRule "an unknown enum value" $ \t -> do
-        f <- Gen.element [f | f <- entityFiles t, f.kind == "recipes"]
+        f <- Gen.element [f | f <- entityFiles t, f.kind == Recipes]
         word <- Gen.filter (`notElem` ["time", "coreTemp", "both"]) genSlug
         pure (f.path, modifyAt [Right "end"] (setKey "by" (String word)) f.json)
     , decodeRule "an intensity outside 0-3" $ \t -> do
-        f <- Gen.element [f | f <- entityFiles t, f.kind == "ingredients"]
+        f <- Gen.element [f | f <- entityFiles t, f.kind == Ingredients]
         n <- Gen.int (Range.constant 4 100)
         key <- genSlug
         pure (f.path, setKey "taste" (Aeson.object [Key.fromText key Aeson..= n]) f.json)
@@ -489,7 +495,7 @@ overlayProps =
             reviewed = p.entity{sourceRef = Just ref}
             copy = let Recipe{..} = reviewed in Recipe{id = copyId, stateNote = Just "extracted", ..}
             others = [x | x <- t.recs, x.entity.id /= p.entity.id]
-            t' = t{recs = others ++ [Placed Reviewed p.licenceFolder p.originFolder reviewed, Placed Extracted p.licenceFolder p.originFolder copy]}
+            t' = t{recs = others ++ [Placed Reviewed p.originFolder reviewed, Placed Extracted p.originFolder copy]}
         r <- check t'
         showDiagnostics r
         errorRules r === []
@@ -500,7 +506,7 @@ overlayProps =
         p <- forAll (Gen.element t.ings)
         let copy = let Ingredient{..} = p.entity in Ingredient{label = "extracted " <> label, ..}
             others = [x | x <- t.ings, x.entity.id /= p.entity.id]
-            t' = t{ings = others ++ [Placed Reviewed p.licenceFolder p.originFolder p.entity, Placed Extracted p.licenceFolder p.originFolder copy]}
+            t' = t{ings = others ++ [Placed Reviewed p.originFolder p.entity, Placed Extracted p.originFolder copy]}
         r <- check t'
         showDiagnostics r
         errorRules r === []
@@ -526,7 +532,9 @@ approx a b = abs (a - b) <= 1e-9 * max 1 (max (abs a) (abs b))
 
 lawProps :: [TestTree]
 lawProps =
-    [ prop "findCycles finds nothing in a DAG" $ property $ do
+    [ testCase "every placement has its own folders" $
+        length (ordNub (map placementFolders placements)) @?= length placements
+    , prop "findCycles finds nothing in a DAG" $ property $ do
         g <- forAll genDag
         findCycles g === []
     , prop "findCycles reports only real cycles, and finds one when it exists" $ property $ do
