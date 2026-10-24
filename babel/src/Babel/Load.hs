@@ -14,6 +14,7 @@ module Babel.Load (
     Located (..),
     World (..),
     loadWorld,
+    withoutExtracted,
     loadFile,
 )
 where
@@ -166,6 +167,32 @@ instance HasId Medium where
 instance (IsId i) => HasId (Term i) where
     type IdOf (Term i) = i
     getId t = t.id
+
+{- | The world as an extractor sees it: without the entities it
+previously extracted for this origin, so a rerun doesn't treat its
+last output as existing data.
+-}
+withoutExtracted :: Origin -> World -> World
+withoutExtracted o w =
+    World
+        { dataset = w.dataset
+        , renames = w.renames
+        , constants = w.constants
+        , units = w.units
+        , media = w.media
+        , forms = w.forms
+        , texture = w.texture
+        , taste = w.taste
+        , serving = w.serving
+        , sources = Map.filter kept w.sources
+        , ingredients = Map.filter kept w.ingredients
+        , techniques = Map.filter kept w.techniques
+        , recipes = Map.filter kept w.recipes
+        , measures = Map.filter kept w.measures
+        }
+  where
+    kept :: Located a -> Bool
+    kept x = not (x.layer == Extracted && x.origin == o)
 
 -- * Single files
 

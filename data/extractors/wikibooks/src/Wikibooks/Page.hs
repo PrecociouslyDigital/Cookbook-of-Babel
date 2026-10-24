@@ -6,12 +6,10 @@ module Wikibooks.Page (
     Line (..),
     Step (..),
     recipePage,
-    slugify,
 )
 where
 
-import Data.Char (isAsciiLower, isDigit)
-import Data.List (lookup)
+import Babel.Slug (slugify)
 import Data.Text qualified as T
 import Wikibooks.Dump (Title, titleText)
 import Wikibooks.Quantity (IngredientLine, Lexicon (..), ingredientLine)
@@ -63,38 +61,3 @@ recipePage lexicon title revid wikitext = do
     line l = case ingredientLine lexicon (inlines l) of
         Just parsed -> Right (Line (plain (inlines l)) parsed)
         Nothing -> Left ("no food link in the ingredient line " <> show (plain (inlines l)))
-
-{- | A slug ID from a page title: lower case ASCII letters and digits,
-single underscores between words. Accented Latin letters lose their
-accents; anything else separates words.
--}
-slugify :: Text -> Maybe Text
-slugify t = case T.intercalate "_" (filter (not . T.null) (T.split (== '_') (T.concatMap ascii (T.toLower t)))) of
-    "" -> Nothing
-    s -> Just s
-  where
-    ascii c
-        | isAsciiLower c || isDigit c = one c
-        | Just plainLetters <- lookup c accented = plainLetters
-        | otherwise = "_"
-    accented =
-        [(c, one base) | (base, cs) <- latin, c <- cs]
-            <> [('æ', "ae"), ('œ', "oe"), ('ß', "ss"), ('þ', "th"), ('ð', "d")]
-    latin :: [(Char, String)]
-    latin =
-        [ ('a', "àáâãäåāăą")
-        , ('c', "çćč")
-        , ('d', "ď")
-        , ('e', "èéêëēėęě")
-        , ('g', "ğ")
-        , ('i', "ìíîïīı")
-        , ('l', "ł")
-        , ('n', "ñńň")
-        , ('o', "òóôõöøō")
-        , ('r', "ř")
-        , ('s', "śšş")
-        , ('t', "ť")
-        , ('u', "ùúûüūů")
-        , ('y', "ýÿ")
-        , ('z', "źżž")
-        ]

@@ -1,5 +1,3 @@
-{-# LANGUAGE RecordWildCards #-}
-
 {- | Turn a recipe page and mammoth's answers about it into babel
 entities: a source, one recipe per step that works on food, and the
 intermediate each step makes.
@@ -18,8 +16,7 @@ module Wikibooks.Emit (
 where
 
 import Babel.Codec (IsId (..))
-import Babel.Layout (Layer (..))
-import Babel.Load (Located (..), World (..))
+import Babel.Load (Located (..), World (..), withoutExtracted)
 import Babel.Mass (massByUnit)
 import Babel.Model.Common (Amount (..), Issue (..), IssueKind (..), intensityValue)
 import Babel.Model.Constants (Constants (..))
@@ -29,6 +26,7 @@ import Babel.Model.Recipe (End (..), Environment (..), Leaf (..), Outcome (..), 
 import Babel.Model.Registry (Dimension (..), Medium (..), Term (..), Unit (..))
 import Babel.Model.Source (Origin (..), Source (..), originLicence)
 import Babel.Model.Technique (Technique (..), TempRange (..))
+import Babel.Slug (slugify)
 import Data.ByteString qualified as BS
 import Data.Char (isAlphaNum, isAscii, toLower)
 import Data.List (lookup)
@@ -36,7 +34,7 @@ import Data.Map.Strict qualified as Map
 import Data.Text qualified as T
 import Numeric (showHex)
 import Wikibooks.Dump (Cookbook, Title, article, resolve, titleText)
-import Wikibooks.Page (Line (..), RecipePage (..), Step (..), slugify)
+import Wikibooks.Page (Line (..), RecipePage (..), Step (..))
 import Wikibooks.Quantity (Duration (..), IngredientLine (..), Lexicon (..), duration, temperatureC, unitAliases)
 import Wikibooks.Questions (IngredientAnswers (..), Judged (..), PageAnswers (..), StepAnswers (..), Vocabulary (..))
 import Wikibooks.Wikitext (PageKind (..), pageKind)
@@ -108,14 +106,11 @@ mkEnv cookbook loaded = do
                     }
             }
   where
-    world = withoutExtracted loaded
+    world = withoutExtracted Wikibooks loaded
     describe label = maybe label (\d -> label <> ": " <> d)
     describeTechnique t = case mapMaybe (\p -> (.value.label) <$> Map.lookup p loaded.techniques) t.parents of
         [] -> t.label
         ps -> t.label <> " (a way to " <> T.intercalate ", " ps <> ")"
-
-withoutExtracted :: World -> World
-withoutExtracted World{..} = World{ingredients = Map.filter (\i -> not (i.layer == Extracted && i.origin == Wikibooks)) ingredients, ..}
 
 -- | A technique and everything above it in the is-a DAG, nearest first.
 ancestors :: World -> TechniqueId -> [TechniqueId]
