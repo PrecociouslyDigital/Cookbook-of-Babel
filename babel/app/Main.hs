@@ -1,22 +1,18 @@
-{-# LANGUAGE OverloadedRecordDot #-}
-
 module Main (main) where
 
 import Babel.Diagnostic
+import Babel.Load (World (..))
 import Babel.Model
 import Babel.Spoilage
 import Babel.Validate
-import Control.Monad (unless, when)
-import Data.Text qualified as T
 import Data.Text.IO qualified as T
 import Options.Applicative
-import System.Exit (exitFailure)
-import System.IO (hSetEncoding, stderr, stdout, utf8)
+import System.IO (hSetEncoding, utf8)
 import Text.Printf (printf)
 
 data Command
     = Validate FilePath Bool
-    | Spoilage FilePath T.Text Double (Maybe Double)
+    | Spoilage FilePath Text Double (Maybe Double)
 
 main :: IO ()
 main = do
@@ -40,21 +36,28 @@ commands =
 
 run :: Command -> IO ()
 run = \case
-    Validate root fix -> do
-        report <- validate fix root
+    Validate root fixFiles -> do
+        report <- validate fixFiles root
         let errors = filter isError report.diagnostics
         mapM_ (T.hPutStrLn stderr . renderDiagnostic) report.diagnostics
-        T.putStrLn ("effective licence: " <> licenceSpdx report.licence)
+        putTextLn ("effective licence: " <> licenceSpdx report.licence)
         unless (null errors) $ do
-            T.hPutStrLn stderr (T.pack (show (length errors)) <> " error(s)")
+            T.hPutStrLn stderr (show (length errors) <> " error(s)")
             exitFailure
     Spoilage root ing t aw -> do
         report <- validate False root
         when (any isError report.diagnostics) $ do
             T.hPutStrLn stderr "the dataset has errors; run `babel validate` first"
             exitFailure
-        case mkId ing of
-            Left err -> T.hPutStrLn stderr (T.pack err) >> exitFailure
-            Right ingId -> case firstSpoilage report.world (Conditions t aw) ingId of
-                Nothing -> putStrLn "no time-based spoilage applies under these conditions"
-                Just (r, days) -> printf "%s after about %.1f days (%s)\n" (T.unpack (idText r.id)) days (show (bandFromCelsius t))
+        case (mkId ing, report.world.constants) of
+            (Left err, _) -> T.hPutStrLn stderr (toText err) >> exitFailure
+            (_, Nothing) -> exitFailure
+            (Right ingId, Just c) -> case firstSpoilage report.world (Conditions t aw) ingId of
+                Nothing -> putTextLn "no time-based spoilage applies under these conditions"
+                Just (r, after) ->
+                    printf
+                        "%s after about %.1f %s (%s)\n"
+                        (idText r.id)
+                        after.qty
+                        (idText after.unit)
+                        (idText (bandFromCelsius c.tempBands t))

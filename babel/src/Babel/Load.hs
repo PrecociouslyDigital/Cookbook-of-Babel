@@ -1,7 +1,4 @@
-{-# LANGUAGE DuplicateRecordFields #-}
-{-# LANGUAGE OverloadedRecordDot #-}
 {-# LANGUAGE TypeFamilies #-}
-{-# LANGUAGE NoFieldSelectors #-}
 
 {- | Walk a data root, decode every file through "Babel.Model", and merge
 the layers into one 'World'. Every problem found on the way is collected
@@ -26,7 +23,6 @@ import Autodocodec (HasCodec, parseJSONViaCodec, toJSONViaCodec)
 import Babel.Diagnostic
 import Babel.Format (render)
 import Babel.Model
-import Control.Monad (filterM, forM)
 import Data.Aeson (Value (..))
 import Data.Aeson qualified as Aeson
 import Data.Aeson.Key qualified as Key
@@ -34,13 +30,7 @@ import Data.Aeson.KeyMap qualified as KM
 import Data.Aeson.Types (parseEither)
 import Data.ByteString qualified as BS
 import Data.ByteString.Lazy qualified as BL
-import Data.Either (isRight)
-import Data.Functor.Identity (Identity (..))
-import Data.List (nub, sort)
-import Data.Map.Strict (Map)
 import Data.Map.Strict qualified as Map
-import Data.Maybe (fromMaybe, mapMaybe)
-import Data.Text (Text)
 import Data.Text qualified as T
 import Data.Vector qualified as V
 import System.Directory (doesDirectoryExist, doesFileExist, listDirectory)
@@ -64,6 +54,7 @@ they overlay.
 data World = World
     { dataset :: Maybe Dataset
     , renames :: [Rename]
+    , constants :: Maybe Constants
     , units :: Map UnitId Unit
     , media :: Map MediumId Medium
     , forms :: Map FormId (Term FormId)
@@ -76,20 +67,21 @@ data World = World
     , recipes :: Map RecipeId (Located Recipe)
     }
 
-{- | Load the data root. With @fix@, files that decode cleanly but are not
+{- | Load the data root. With @fixFiles@, files that decode cleanly but are not
 canonically formatted are rewritten instead of reported.
 -}
 loadWorld :: Bool -> FilePath -> IO ([Diagnostic], World)
-loadWorld fix root = do
+loadWorld fixFiles root = do
     (dDiags, dataset') <- required "dataset.json"
     (rDiags, renames') <- required "renames.json"
+    (cDiags, constants') <- required ("registries" </> "constants.json")
     (uDiags, units') <- registry "units"
     (mDiags, media') <- registry "media"
     (fDiags, forms') <- registry "forms"
     (xDiags, texture') <- registry "texture"
     (tDiags, taste') <- registry "taste"
     (sDiags, serving') <- registry "serving"
-    (lDiags, raw) <- loadLayers fix (root </> "layers")
+    (lDiags, raw) <- loadLayers fixFiles (root </> "layers")
     let (srcDiags, sources') = mergeById "source" (.id) raw.rawSources
         (ingDiags, ingredients') = mergeById "ingredient" (.id) raw.rawIngredients
         (tecDiags, techniques') = mergeById "technique" (.id) raw.rawTechniques
@@ -98,6 +90,7 @@ loadWorld fix root = do
         ( concat
             [ dDiags
             , rDiags
+            , cDiags
             , uDiags
             , mDiags
             , fDiags
@@ -113,6 +106,7 @@ loadWorld fix root = do
         , World
             { dataset = dataset'
             , renames = fromMaybe [] renames'
+            , constants = constants'
             , units = units'
             , media = media'
             , forms = forms'
@@ -131,7 +125,7 @@ loadWorld fix root = do
         let p = root </> name
         exists <- doesFileExist p
         if exists
-            then loadFile fix p
+            then loadFile fixFiles p
             else pure ([errorIn "layout" (Just p) "required file is missing"], Nothing)
 
     registry :: (HasCodec a, HasId a) => FilePath -> IO ([Diagnostic], Map (IdOf a) a)
@@ -169,23 +163,22 @@ instance (IsId i) => HasId (Term i) where
 fields the decoder ignored (unknown fields) and non-canonical formatting.
 -}
 loadFile :: forall a. (HasCodec a) => Bool -> FilePath -> IO ([Diagnostic], Maybe a)
-loadFile fix p = do
+loadFile fixFiles p = do
     bytes <- BL.fromStrict <$> BS.readFile p
     case Aeson.eitherDecode bytes of
         Left err -> pure ([errorIn "json" (Just p) (T.pack err)], Nothing)
         Right input -> case decode input of
             Left err -> pure ([errorIn "decode" (Just p) (T.pack err)], Nothing)
             Right a -> do
-                let encoded = toJSONViaCodec a
-                    unknown = unknownFields decode input encoded
-                    canonical = render encoded
+                let unknown = unknownFields decode input (toJSONViaCodec a)
+                    canonical = render a
                 formatDiags <-
                     if not (null unknown) || canonical == bytes
                         then pure []
                         else
-                            if fix
+                            if fixFiles
                                 then [] <$ BS.writeFile p (BL.toStrict canonical)
-                                else pure [errorIn "format" (Just p) "not canonically formatted (run `babel validate --fix`)"]
+                                else pure [errorIn "format" (Just p) "not canonically formatted (run `babel validate --fixFiles`)"]
                 pure
                     ( [errorIn "unknown-field" (Just p) ("unknown field " <> renderPath k) | k <- unknown]
                         ++ formatDiags
@@ -222,7 +215,7 @@ unknownFields decode input = go [] input
             ]
     go path (Array i) (Array e)
         | V.length i == V.length e =
-            concat (zipWith3 (\n iv ev -> go (path ++ [Left n]) iv ev) [0 ..] (V.toList i) (V.toList e))
+            concat (V.toList (V.izipWith (\n iv ev -> go (path ++ [Left n]) iv ev) i e))
     go _ _ _ = []
     probe = Array (V.singleton Null)
 
@@ -250,7 +243,7 @@ instance Monoid Raw where
     mempty = Raw [] [] [] []
 
 loadLayers :: Bool -> FilePath -> IO ([Diagnostic], Raw)
-loadLayers fix layersDir = do
+loadLayers fixFiles layersDir = do
     exists <- doesDirectoryExist layersDir
     if not exists
         then pure ([errorIn "layout" (Just layersDir) "missing layers directory"], mempty)
@@ -289,7 +282,7 @@ loadLayers fix layersDir = do
             if not isFile || takeExtension name /= ".json"
                 then pure (unexpected p "entry (expected <id>.json files only)", Nothing)
                 else do
-                    (diags, decoded) <- loadFile fix p
+                    (diags, decoded) <- loadFile fixFiles p
                     pure $ case decoded of
                         Nothing -> (diags, Nothing)
                         Just a ->
@@ -325,15 +318,15 @@ mergeLayer kind showKey key xs = (diags, merged)
     diags =
         [ errorIn rule (Just x.path) msg
         | layer <- [Extracted, Reviewed]
-        , (k, first : others) <- Map.toList (byLayer layer)
-        , let licences = nub [y.licence | y <- first : others]
+        , (k, kept : others) <- Map.toList (byLayer layer)
+        , let licences = ordNub [y.licence | y <- kept : others]
               (rule, msg)
                 | length licences > 1 =
                     ( "overlay-conflict"
-                    , "the same " <> kind <> " " <> showKey k <> " is in two licence folders of one layer (also " <> T.pack first.path <> ")"
+                    , "the same " <> kind <> " " <> showKey k <> " is in two licence folders of one layer (also " <> toText kept.path <> ")"
                     )
                 | otherwise =
-                    ("duplicate-key", "duplicate " <> kind <> " " <> showKey k <> " (also " <> T.pack first.path <> ")")
+                    ("duplicate-key", "duplicate " <> kind <> " " <> showKey k <> " (also " <> toText kept.path <> ")")
         , x <- others
         ]
 
@@ -351,7 +344,7 @@ mergeRecipes xs = (overlayDiags ++ idDiags, Map.fromList [(r.value.id, r) | r <-
     (overlayDiags, byKey) = mergeLayer "recipe" showKey overlayKey xs
     merged = Map.elems byKey
     idDiags =
-        [ errorIn "duplicate-id" (Just r.path) ("recipe ID " <> idText k <> " is also used by " <> T.pack first.path)
-        | (k, first : others) <- Map.toList (Map.fromListWith (flip (++)) [(r.value.id, [r]) | r <- merged])
+        [ errorIn "duplicate-id" (Just r.path) ("recipe ID " <> idText k <> " is also used by " <> toText kept.path)
+        | (k, kept : others) <- Map.toList (Map.fromListWith (flip (++)) [(r.value.id, [r]) | r <- merged])
         , r <- others
         ]

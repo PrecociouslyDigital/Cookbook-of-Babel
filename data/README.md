@@ -7,7 +7,7 @@ trailing newline). Run `babel validate --fix` to get there.
 ```
 dataset.json        {"version": "MAJOR.MINOR.PATCH"}
 renames.json        [{"since", "kind", "from", "to"}]; append-only
-registries/         units, media, forms, texture, taste, serving
+registries/         units, media, forms, texture, taste, serving, constants
 layers/{extracted,reviewed}/<licence>/{sources,ingredients,techniques,recipes}/<id>.json
 ```
 
@@ -25,6 +25,22 @@ layers/{extracted,reviewed}/<licence>/{sources,ingredients,techniques,recipes}/<
   the project owner (not chosen yet). The registries are original content too.
 - `babel validate` prints the build's effective (strictest) licence. The
   Wikibooks pancakes make the current build CC-BY-SA-4.0.
+
+## Constants
+
+`registries/constants.json` holds the numbers that are judgement calls rather
+than schema. Changing one is a reviewed data change, not a code change:
+
+- `tempBands`: named temperature bands. Bounds must strictly increase, and the
+  last band is open-ended, so every temperature has exactly one band.
+- `spoilageTechnique`: recipes whose technique is this one or below it count as
+  spoilage.
+- `kcalPerGram` and `calorieTolerance`: the calories soft check.
+- `massRatio`: the plausible output/input mass ratio of one step; outside it,
+  the soft check warns.
+
+The 0–3 intensity scale and the slug pattern are schema, so they stay in the
+Haskell types.
 
 ## Versioning
 

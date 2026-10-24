@@ -1,7 +1,3 @@
-{-# LANGUAGE DuplicateRecordFields #-}
-{-# LANGUAGE OverloadedRecordDot #-}
-{-# LANGUAGE NoFieldSelectors #-}
-
 {- | Whole-dataset rules on a loaded 'World': licences, references, graph
 and value checks, versioning, and soft (warning-only) plausibility checks.
 -}
@@ -16,14 +12,9 @@ where
 import Babel.Diagnostic
 import Babel.Load
 import Babel.Model
-import Data.Either (lefts, rights)
 import Data.List.NonEmpty qualified as NE
-import Data.Map.Strict (Map)
 import Data.Map.Strict qualified as Map
-import Data.Maybe (fromMaybe, isNothing)
-import Data.Set (Set)
 import Data.Set qualified as Set
-import Data.Text (Text)
 import Data.Text qualified as T
 
 checkWorld :: World -> [Diagnostic]
@@ -36,6 +27,7 @@ checkWorld w =
         , cycleChecks "ingredient" [(i.value.id, map (.target) i.value.parents) | i <- Map.elems w.ingredients] (fmap (.path) w.ingredients)
         , cycleChecks "technique" [(t.value.id, t.value.parents) | t <- Map.elems w.techniques] (fmap (.path) w.techniques)
         , versionChecks w
+        , maybe [] (constantsChecks w) w.constants
         ]
 
 -- | The strictest licence of anything in the build.
@@ -97,7 +89,7 @@ ingredientChecks w (Located i p _ _) =
           | Just d <- [i.densityGPerMl]
           , d <= 0
           ]
-        , maybe [] (calorieCheck p . (.per100g)) i.nutrition
+        , fromMaybe [] (calorieCheck p <$> w.constants <*> fmap (.per100g) i.nutrition)
         ]
 
 techniqueChecks :: World -> Located Technique -> [Diagnostic]
@@ -127,7 +119,7 @@ recipeChecks w (Located r p _ _) =
           | isNothing r.environment
           , ByTime _ Nothing <- [r.end]
           ]
-        , ratioCheck w p r
+        , maybe [] (\c -> ratioCheck c w p r) w.constants
         ]
   where
     err rule = errorIn rule (Just p)
@@ -162,7 +154,7 @@ recipeChecks w (Located r p _ _) =
         OneOf bs ->
             concat
                 [ [err "weight" ("branch weights must be positive, got " <> showT b.weight) | b.weight <= 0]
-                    ++ outcomeChecks b.outcome
+                    ++ outcomeChecks b.outputs
                 | b <- NE.toList bs
                 ]
 
@@ -202,7 +194,7 @@ leaves s = rights s.choices ++ concatMap leaves (lefts s.choices)
 
 -- | Every cycle in a graph given as adjacency lists, each reported once.
 findCycles :: (Ord k) => [(k, [k])] -> [[k]]
-findCycles edges = dedupe (snd (foldl (visit []) (Set.empty, []) (map fst edges)))
+findCycles edges = dedupe (snd (foldl' (visit []) (Set.empty, []) (map fst edges)))
   where
     adj = Map.fromListWith (++) edges
     -- Depth-first; a node is done once all its descendants are explored, so
@@ -211,7 +203,7 @@ findCycles edges = dedupe (snd (foldl (visit []) (Set.empty, []) (map fst edges)
         | k `elem` stack = (done, (k : reverse (takeWhile (/= k) stack)) : found)
         | Set.member k done = (done, found)
         | otherwise =
-            let (done', found') = foldl (visit (k : stack)) (done, found) (Map.findWithDefault [] k adj)
+            let (done', found') = foldl' (visit (k : stack)) (done, found) (Map.findWithDefault [] k adj)
              in (Set.insert k done', found')
     dedupe = Map.elems . Map.fromList . map (\c -> (Set.fromList c, c))
 
@@ -233,27 +225,27 @@ versionChecks w =
           , r <- w.renames
           , r.since > v
           ]
-        , [ err "rename-from-exists" ("rename " <> showRename r <> ": " <> r.from <> " still exists")
+        , [ err "rename-from-exists" ("rename " <> showRename r <> ": " <> idText r.from <> " still exists")
           | r <- w.renames
-          , Set.member r.from (idsOf w r.kind)
+          , Set.member (idText r.from) (idsOf w r.kind)
           ]
-        , [ err "rename-to-missing" ("rename " <> showRename r <> ": " <> r.to <> " does not exist and is not renamed later")
+        , [ err "rename-to-missing" ("rename " <> showRename r <> ": " <> idText r.to <> " does not exist and is not renamed later")
           | (n, r) <- zip [0 :: Int ..] w.renames
-          , not (resolves n r.kind r.to Set.empty)
+          , not (resolves n r.kind (idText r.to) Set.empty)
           ]
         , [ err "rename-loop" ("renames loop back to an earlier slug: " <> T.intercalate " -> " (map snd (c ++ take 1 c)))
-          | c <- findCycles [((r.kind, r.from), [(r.kind, r.to)]) | r <- w.renames]
+          | c <- findCycles [((r.kind, idText r.from), [(r.kind, idText r.to)]) | r <- w.renames]
           ]
         ]
   where
     err rule = errorIn rule (Just "renames.json")
-    showRename r = entityKindName r.kind <> " " <> r.from <> " -> " <> r.to
+    showRename r = entityKindName r.kind <> " " <> idText r.from <> " -> " <> idText r.to
     -- Follow later renames from a slug until one exists (or we loop).
     resolves n kind slug visited
         | Set.member slug (idsOf w kind) = True
         | Set.member slug visited = False
-        | otherwise = case [(m, r) | (m, r) <- drop (n + 1) (zip [0 ..] w.renames), r.kind == kind, r.from == slug] of
-            (m, r) : _ -> resolves m kind r.to (Set.insert slug visited)
+        | otherwise = case [(m, r) | (m, r) <- drop (n + 1) (zip [0 ..] w.renames), r.kind == kind, idText r.from == slug] of
+            (m, r) : _ -> resolves m kind (idText r.to) (Set.insert slug visited)
             [] -> False
 
 idsOf :: World -> EntityKind -> Set Text
@@ -272,16 +264,29 @@ idsOf w = \case
     keys :: (IsId k) => Map k v -> Set Text
     keys = Set.fromList . map idText . Map.keys
 
+-- * Constants
+
+constantsChecks :: World -> Constants -> [Diagnostic]
+constantsChecks w c =
+    ref p "spoilage technique" w.techniques c.spoilageTechnique
+        ++ [ errorIn "constants" (Just p) "massRatio needs 0 < min <= max"
+           | not (0 < c.massRatio.min && c.massRatio.min <= c.massRatio.max)
+           ]
+        ++ [ errorIn "constants" (Just p) "calorieTolerance values must not be negative"
+           | c.calorieTolerance.kcal < 0 || c.calorieTolerance.fraction < 0
+           ]
+  where
+    p = "registries/constants.json"
+
 -- * Soft checks
 
-{- | Kilocalories should roughly match 4 kcal/g protein and carbohydrate
-and 9 kcal/g fat.
--}
-calorieCheck :: FilePath -> Per100g -> [Diagnostic]
-calorieCheck p n = case (n.kcal, n.proteinG, n.fatG, n.carbsG) of
+-- | Kilocalories should roughly match the macros at 'kcalPerGram'.
+calorieCheck :: FilePath -> Constants -> Per100g -> [Diagnostic]
+calorieCheck p c n = case (n.kcal, n.proteinG, n.fatG, n.carbsG) of
     (Just kcal, Just pr, Just fat, Just carbs)
-        | let expected = 4 * pr + 4 * carbs + 9 * fat
-        , abs (kcal - expected) > max 20 (0.25 * kcal) ->
+        | let f = c.kcalPerGram
+              expected = f.protein * pr + f.carbs * carbs + f.fat * fat
+        , abs (kcal - expected) > max c.calorieTolerance.kcal (c.calorieTolerance.fraction * expected) ->
             [ warningIn "calories" (Just p) $
                 "kcal " <> showT kcal <> " is inconsistent with macros (about " <> showT (fromIntegral (round expected :: Int) :: Double) <> ")"
             ]
@@ -300,11 +305,11 @@ massInGrams w ing a = do
         _ -> Nothing
 
 {- | For a step that uses all of its inputs and has a plain output list,
-the expected output mass should be within a factor of five (down) or
-two (up) of the input mass. Skipped when any amount has no mass.
+the expected output mass over the input mass should lie within
+'massRatio'. Skipped when any amount has no mass.
 -}
-ratioCheck :: World -> FilePath -> Recipe -> [Diagnostic]
-ratioCheck w p r = case (r.inputs, r.outputs) of
+ratioCheck :: Constants -> World -> FilePath -> Recipe -> [Diagnostic]
+ratioCheck c w p r = case (r.inputs, r.outputs) of
     (s, Outputs os)
         | null (lefts s.choices)
         , selectMin s == length s.choices
@@ -312,7 +317,7 @@ ratioCheck w p r = case (r.inputs, r.outputs) of
         , Just outMass <- sum <$> traverse (\o -> (* fromMaybe 1 o.chance) <$> massInGrams w o.ingredient o.amount) (NE.toList os)
         , inMass > 0
         , let ratio = outMass / inMass
-        , ratio < 0.2 || ratio > 2 ->
+        , ratio < c.massRatio.min || ratio > c.massRatio.max ->
             [ warningIn "ratio" (Just p) $
                 "outputs weigh about " <> showT (round1 ratio) <> "x the inputs (" <> showT (round inMass :: Int) <> " g in, " <> showT (round outMass :: Int) <> " g out)"
             ]

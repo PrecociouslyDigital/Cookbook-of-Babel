@@ -8,10 +8,18 @@
   `devenv shell -- babel validate`.
 - Haskell dependencies come from nixpkgs (`devenv.nix`, `ghcWithPackages`);
   keep that list in sync with `babel/babel.cabal`. Don't `cabal update`.
+- The package uses relude as its Prelude and enables `DuplicateRecordFields`,
+  `NoFieldSelectors` and `OverloadedRecordDot` globally (`babel.cabal`; mirror
+  any change in `.hlint.yaml`). Read fields with `x.field`. To update a field
+  name shared by two types, rebuild with `RecordWildCards`.
+- New records get `deriving stock (Generic)` and `codec = genericCodec`; the
+  field names and their order are the JSON keys and the canonical key order.
+- Judgement-call numbers go in `data/registries/constants.json`, not in code.
 - Format with fourmolu (defaults), lint with hlint, `cabal-fmt` the cabal file.
 - After editing data, run `babel validate --fix` to canonicalize, then
   `babel validate`.
-- Every new validator rule gets a mutation test in `babel/test/Main.hs` that
-  asserts exactly its rule tag.
+- Every new validator rule gets a mutation property in `babel/test/Main.hs`
+  that asserts exactly its rule tag on a mutated generated dataset. Keep
+  `test/Gen.hs` valid by construction; never filter on the validator's output.
 - `devenv.yaml` uses `git+https` inputs on purpose: sandboxed sessions can't
   fetch GitHub tarballs.

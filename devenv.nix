@@ -8,14 +8,16 @@ let
   # Keep in sync with babel/babel.cabal.
   ghc = hsPkgs.ghcWithPackages (p: [
     p.aeson
-    p.aeson-pretty
     p.autodocodec
     p.containers
     p.directory
     p.filepath
+    p.hedgehog
     p.optparse-applicative
+    p.relude
     p.scientific
     p.tasty
+    p.tasty-hedgehog
     p.tasty-hunit
     p.temporary
     p.text
@@ -29,6 +31,9 @@ in
     hsPkgs.hlint
     hsPkgs.cabal-fmt
   ];
+
+  # GHC tools read and print UTF-8 source and data; don't depend on the host locale.
+  env.LANG = "C.UTF-8";
 
   languages.haskell = {
     enable = true;

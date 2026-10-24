@@ -1,8 +1,5 @@
-{-# LANGUAGE DuplicateRecordFields #-}
+{-# LANGUAGE DerivingVia #-}
 {-# LANGUAGE OverloadedLists #-}
-{-# LANGUAGE OverloadedRecordDot #-}
-{-# LANGUAGE NoFieldSelectors #-}
-{-# OPTIONS_GHC -Wno-orphans #-}
 
 {- | The data model. These types are the source of truth: the JSON files are
 decoded through the codecs here, and later JSON Schema and language
@@ -11,7 +8,8 @@ bindings are derived from the same codecs.
 module Babel.Model (
     -- * Identifiers
     IsId (..),
-    idCodec,
+    Slug (..),
+    DottedSlug (..),
     isSlug,
     IngredientId (..),
     TechniqueId (..),
@@ -23,6 +21,7 @@ module Babel.Model (
     TextureAttrId (..),
     TasteAttrId (..),
     ServingTagId (..),
+    AxisId (..),
 
     -- * Shared values
     Intensity,
@@ -79,103 +78,71 @@ module Babel.Model (
     EntityKind (..),
     entityKindName,
 
-    -- * Temperature bands
-    TempBand (..),
+    -- * Tuning constants
+    Constants (..),
+    KcalPerGram (..),
+    Tolerance (..),
+    RatioBounds (..),
+    TempBandId (..),
+    TempBands,
+    BandEntry (..),
+    mkTempBands,
+    tempBandEntries,
     bandFromCelsius,
 )
 where
 
 import Autodocodec
-import Data.Char (isAsciiLower, isDigit)
-import Data.List.NonEmpty (NonEmpty)
+import Babel.Codec
+import Data.Char (isDigit)
 import Data.List.NonEmpty qualified as NE
-import Data.Map.Strict (Map)
-import Data.Map.Strict qualified as Map
-import Data.Maybe (fromMaybe)
-import Data.Scientific (fromFloatDigits, toRealFloat)
-import Data.Text (Text)
 import Data.Text qualified as T
-import Text.Read (readMaybe)
 
 -- * Identifiers
 
-{- | A human-readable slug identifier. Every entity kind has its own newtype,
-so an ingredient ID can never stand in for a technique ID.
--}
-class (Ord a) => IsId a where
-    idText :: a -> Text
-    mkId :: Text -> Either String a
+newtype IngredientId = IngredientId Text
+    deriving newtype (Eq, Ord, Show)
+    deriving (IsId) via Slug
 
-idCodec :: (IsId a) => JSONCodec a
-idCodec = bimapCodec mkId idText textCodec
+newtype TechniqueId = TechniqueId Text
+    deriving newtype (Eq, Ord, Show)
+    deriving (IsId) via Slug
 
--- | @^[a-z0-9]+(_[a-z0-9]+)*$@
-isSlug :: Text -> Bool
-isSlug t = not (T.null t) && all segment (T.splitOn "_" t)
-  where
-    segment s = not (T.null s) && T.all (\c -> isAsciiLower c || isDigit c) s
+newtype RecipeId = RecipeId Text
+    deriving newtype (Eq, Ord, Show)
+    deriving (IsId) via DottedSlug
 
-slugWith :: (Text -> a) -> Text -> Either String a
-slugWith wrap t
-    | isSlug t = Right (wrap t)
-    | otherwise = Left ("not a slug (lowercase a-z, 0-9, single underscores): " <> show t)
+newtype SourceId = SourceId Text
+    deriving newtype (Eq, Ord, Show)
+    deriving (IsId) via Slug
 
--- | Recipe IDs are dotted slugs, e.g. @pancakes.mix_batter@.
-dottedSlugWith :: (Text -> a) -> Text -> Either String a
-dottedSlugWith wrap t
-    | all isSlug (T.splitOn "." t) = Right (wrap t)
-    | otherwise = Left ("not a dotted slug (slugs joined by '.'): " <> show t)
+newtype UnitId = UnitId Text
+    deriving newtype (Eq, Ord, Show)
+    deriving (IsId) via Slug
 
-newtype IngredientId = IngredientId Text deriving newtype (Eq, Ord, Show)
-newtype TechniqueId = TechniqueId Text deriving newtype (Eq, Ord, Show)
-newtype RecipeId = RecipeId Text deriving newtype (Eq, Ord, Show)
-newtype SourceId = SourceId Text deriving newtype (Eq, Ord, Show)
-newtype UnitId = UnitId Text deriving newtype (Eq, Ord, Show)
-newtype MediumId = MediumId Text deriving newtype (Eq, Ord, Show)
-newtype FormId = FormId Text deriving newtype (Eq, Ord, Show)
-newtype TextureAttrId = TextureAttrId Text deriving newtype (Eq, Ord, Show)
-newtype TasteAttrId = TasteAttrId Text deriving newtype (Eq, Ord, Show)
-newtype ServingTagId = ServingTagId Text deriving newtype (Eq, Ord, Show)
+newtype MediumId = MediumId Text
+    deriving newtype (Eq, Ord, Show)
+    deriving (IsId) via Slug
 
-instance IsId IngredientId where
-    idText (IngredientId t) = t
-    mkId = slugWith IngredientId
+newtype FormId = FormId Text
+    deriving newtype (Eq, Ord, Show)
+    deriving (IsId) via Slug
 
-instance IsId TechniqueId where
-    idText (TechniqueId t) = t
-    mkId = slugWith TechniqueId
+newtype TextureAttrId = TextureAttrId Text
+    deriving newtype (Eq, Ord, Show)
+    deriving (IsId) via Slug
 
-instance IsId RecipeId where
-    idText (RecipeId t) = t
-    mkId = dottedSlugWith RecipeId
+newtype TasteAttrId = TasteAttrId Text
+    deriving newtype (Eq, Ord, Show)
+    deriving (IsId) via Slug
 
-instance IsId SourceId where
-    idText (SourceId t) = t
-    mkId = slugWith SourceId
+newtype ServingTagId = ServingTagId Text
+    deriving newtype (Eq, Ord, Show)
+    deriving (IsId) via Slug
 
-instance IsId UnitId where
-    idText (UnitId t) = t
-    mkId = slugWith UnitId
-
-instance IsId MediumId where
-    idText (MediumId t) = t
-    mkId = slugWith MediumId
-
-instance IsId FormId where
-    idText (FormId t) = t
-    mkId = slugWith FormId
-
-instance IsId TextureAttrId where
-    idText (TextureAttrId t) = t
-    mkId = slugWith TextureAttrId
-
-instance IsId TasteAttrId where
-    idText (TasteAttrId t) = t
-    mkId = slugWith TasteAttrId
-
-instance IsId ServingTagId where
-    idText (ServingTagId t) = t
-    mkId = slugWith ServingTagId
+newtype AxisId = AxisId Text
+    deriving newtype (Eq, Ord, Show)
+    deriving (IsId) via Slug
 
 instance HasCodec IngredientId where codec = idCodec
 instance HasCodec TechniqueId where codec = idCodec
@@ -187,23 +154,9 @@ instance HasCodec FormId where codec = idCodec
 instance HasCodec TextureAttrId where codec = idCodec
 instance HasCodec TasteAttrId where codec = idCodec
 instance HasCodec ServingTagId where codec = idCodec
-
--- | A JSON object whose keys are IDs.
-idMapCodec :: forall k v. (IsId k) => JSONCodec v -> JSONCodec (Map k v)
-idMapCodec valueCodec' =
-    bimapCodec
-        (fmap Map.fromList . traverse (\(k, v) -> (,v) <$> mkId k) . Map.toList)
-        (Map.mapKeys idText)
-        (mapCodec valueCodec' :: JSONCodec (Map Text v))
+instance HasCodec AxisId where codec = idCodec
 
 -- * Shared values
-
-{- | autodocodec leaves 'Double' out on purpose (NaN and infinities have no
-JSON form). JSON numbers always decode to finite values, which is all the
-data needs.
--}
-instance HasCodec Double where
-    codec = dimapCodec toRealFloat fromFloatDigits scientificCodec
 
 -- | How strongly an attribute is present: 0 (none) to 3 (dominant).
 newtype Intensity = Intensity Int deriving newtype (Eq, Ord, Show)
@@ -221,14 +174,9 @@ instance HasCodec Intensity where
 
 -- | A quantity in a unit from the units registry.
 data Amount = Amount {qty :: Double, unit :: UnitId}
-    deriving stock (Eq, Show)
+    deriving stock (Eq, Generic, Show)
 
-instance HasCodec Amount where
-    codec =
-        object "Amount" $
-            Amount
-                <$> requiredField' "qty" .= (.qty)
-                <*> requiredField' "unit" .= (.unit)
+instance HasCodec Amount where codec = genericCodec
 
 data IssueKind = Estimate | Uncertain | Missing | Conflict
     deriving stock (Eq, Show, Enum, Bounded)
@@ -244,18 +192,9 @@ instance HasCodec IssueKind where
 
 -- | An optional annotation flagging a field that needs attention.
 data Issue = Issue {field :: Text, kind :: IssueKind, note :: Text}
-    deriving stock (Eq, Show)
+    deriving stock (Eq, Generic, Show)
 
-instance HasCodec Issue where
-    codec =
-        object "Issue" $
-            Issue
-                <$> requiredField' "field" .= (.field)
-                <*> requiredField' "kind" .= (.kind)
-                <*> requiredField' "note" .= (.note)
-
-issuesField :: ObjectCodec [Issue] [Issue]
-issuesField = optionalFieldWithOmittedDefault' "issues" []
+instance HasCodec Issue where codec = genericCodec
 
 -- * Ingredients
 
@@ -263,15 +202,10 @@ issuesField = optionalFieldWithOmittedDefault' "issues" []
 to (e.g. @botanical@, @culinary@), so one ingredient can sit under
 several parents without the hierarchy becoming ambiguous.
 -}
-data IsA = IsA {target :: IngredientId, axis :: Text}
-    deriving stock (Eq, Show)
+data IsA = IsA {target :: IngredientId, axis :: AxisId}
+    deriving stock (Eq, Generic, Show)
 
-instance HasCodec IsA where
-    codec =
-        object "IsA" $
-            IsA
-                <$> requiredField' "target" .= (.target)
-                <*> requiredFieldWith' "axis" (bimapCodec (slugWith id) id textCodec) .= (.axis)
+instance HasCodec IsA where codec = genericCodec
 
 data Per100g = Per100g
     { kcal :: Maybe Double
@@ -279,26 +213,14 @@ data Per100g = Per100g
     , fatG :: Maybe Double
     , carbsG :: Maybe Double
     }
-    deriving stock (Eq, Show)
+    deriving stock (Eq, Generic, Show)
 
-instance HasCodec Per100g where
-    codec =
-        object "Per100g" $
-            Per100g
-                <$> optionalField' "kcal" .= (.kcal)
-                <*> optionalField' "proteinG" .= (.proteinG)
-                <*> optionalField' "fatG" .= (.fatG)
-                <*> optionalField' "carbsG" .= (.carbsG)
+instance HasCodec Per100g where codec = genericCodec
 
 data Nutrition = Nutrition {per100g :: Per100g, source :: SourceId}
-    deriving stock (Eq, Show)
+    deriving stock (Eq, Generic, Show)
 
-instance HasCodec Nutrition where
-    codec =
-        object "Nutrition" $
-            Nutrition
-                <$> requiredField' "per100g" .= (.per100g)
-                <*> requiredField' "source" .= (.source)
+instance HasCodec Nutrition where codec = genericCodec
 
 {- | Whether an ingredient is an intermediate, and how it spoils, are
 computed from the recipe graph and never stored here. Spoilage, melting
@@ -320,37 +242,16 @@ data Ingredient = Ingredient
     -- ^ A named dish or product ("croutons") rather than a generic food.
     , issues :: [Issue]
     }
-    deriving stock (Eq, Show)
+    deriving stock (Eq, Generic, Show)
 
-instance HasCodec Ingredient where
-    codec =
-        object "Ingredient" $
-            Ingredient
-                <$> requiredField' "id" .= (.id)
-                <*> requiredField' "label" .= (.label)
-                <*> optionalFieldWithOmittedDefault' "aliases" [] .= (.aliases)
-                <*> optionalFieldWithOmittedDefault' "parents" [] .= (.parents)
-                <*> requiredField' "form" .= (.form)
-                <*> optionalFieldWithOmittedDefaultWith' "texture" (idMapCodec codec) Map.empty .= (.texture)
-                <*> optionalFieldWithOmittedDefaultWith' "taste" (idMapCodec codec) Map.empty .= (.taste)
-                <*> optionalFieldWithOmittedDefault' "servingTags" [] .= (.servingTags)
-                <*> optionalField' "densityGPerMl" .= (.densityGPerMl)
-                <*> optionalField' "waterActivity" .= (.waterActivity)
-                <*> optionalField' "nutrition" .= (.nutrition)
-                <*> optionalFieldWithOmittedDefault' "named" False .= (.named)
-                <*> issuesField .= (.issues)
+instance HasCodec Ingredient where codec = genericCodec
 
 -- * Techniques
 
 data TempRange = TempRange {minC :: Double, maxC :: Double}
-    deriving stock (Eq, Show)
+    deriving stock (Eq, Generic, Show)
 
-instance HasCodec TempRange where
-    codec =
-        object "TempRange" $
-            TempRange
-                <$> requiredField' "minC" .= (.minC)
-                <*> requiredField' "maxC" .= (.maxC)
+instance HasCodec TempRange where codec = genericCodec
 
 data Technique = Technique
     { id :: TechniqueId
@@ -359,17 +260,9 @@ data Technique = Technique
     , typicalTemp :: Maybe TempRange
     , issues :: [Issue]
     }
-    deriving stock (Eq, Show)
+    deriving stock (Eq, Generic, Show)
 
-instance HasCodec Technique where
-    codec =
-        object "Technique" $
-            Technique
-                <$> requiredField' "id" .= (.id)
-                <*> requiredField' "label" .= (.label)
-                <*> optionalFieldWithOmittedDefault' "parents" [] .= (.parents)
-                <*> optionalField' "typicalTemp" .= (.typicalTemp)
-                <*> issuesField .= (.issues)
+instance HasCodec Technique where codec = genericCodec
 
 -- * Recipes
 
@@ -377,24 +270,14 @@ instance HasCodec Technique where
 overlays against re-extracted data.
 -}
 data SourceRef = SourceRef {source :: SourceId, step :: Int}
-    deriving stock (Eq, Ord, Show)
+    deriving stock (Eq, Generic, Ord, Show)
 
-instance HasCodec SourceRef where
-    codec =
-        object "SourceRef" $
-            SourceRef
-                <$> requiredField' "source" .= (.source)
-                <*> requiredField' "step" .= (.step)
+instance HasCodec SourceRef where codec = genericCodec
 
 data Leaf = Leaf {ingredient :: IngredientId, amount :: Amount}
-    deriving stock (Eq, Show)
+    deriving stock (Eq, Generic, Show)
 
-instance HasCodec Leaf where
-    codec =
-        object "Leaf" $
-            Leaf
-                <$> requiredField' "ingredient" .= (.ingredient)
-                <*> requiredField' "amount" .= (.amount)
+instance HasCodec Leaf where codec = genericCodec
 
 {- | Pick between 'minCount' and 'maxCount' of 'choices'. Both default to
 the number of choices, so a bare @{"of": [...]}@ means "all of these".
@@ -425,6 +308,10 @@ data Role = Main | Byproduct | Part
 instance HasCodec Role where
     codec = stringConstCodec [(Main, "main"), (Byproduct, "byproduct"), (Part, "part")]
 
+-- | Most outputs are the main product, so @role@ may be left out.
+instance FieldCodec Role where
+    fieldCodec k = optionalFieldWithOmittedDefault' k Main
+
 -- | 'chance' rolls independently per output.
 data Output = Output
     { ingredient :: IngredientId
@@ -432,19 +319,12 @@ data Output = Output
     , role :: Role
     , chance :: Maybe Double
     }
-    deriving stock (Eq, Show)
+    deriving stock (Eq, Generic, Show)
 
-instance HasCodec Output where
-    codec =
-        object "Output" $
-            Output
-                <$> requiredField' "ingredient" .= (.ingredient)
-                <*> requiredField' "amount" .= (.amount)
-                <*> optionalFieldWithOmittedDefault' "role" Main .= (.role)
-                <*> optionalField' "chance" .= (.chance)
+instance HasCodec Output where codec = genericCodec
 
-data Branch = Branch {weight :: Double, outcome :: Outcome}
-    deriving stock (Eq, Show)
+data Branch = Branch {weight :: Double, outputs :: Outcome}
+    deriving stock (Eq, Generic, Show)
 
 {- | In JSON an 'Outputs' is a plain array, and a 'OneOf' is
 @{"oneOf": [{"weight": w, "outputs": ...}, ...]}@. 'OneOf' picks exactly
@@ -463,25 +343,15 @@ instance HasCodec Outcome where
                 (\case Outputs os -> Left os; OneOf bs -> Right bs)
                 (disjointEitherCodec codec (object "OneOf" (requiredField' "oneOf")))
 
-instance HasCodec Branch where
-    codec =
-        object "Branch" $
-            Branch
-                <$> requiredField' "weight" .= (.weight)
-                <*> requiredField' "outputs" .= (.outcome)
+instance HasCodec Branch where codec = genericCodec
 
 {- | The heat-transfer medium: a registry alias, or a heat-transfer
 coefficient @h@ in W/m²K.
 -}
 data Environment = Environment {temperatureC :: Double, medium :: Either MediumId Double}
-    deriving stock (Eq, Show)
+    deriving stock (Eq, Generic, Show)
 
-instance HasCodec Environment where
-    codec =
-        object "Environment" $
-            Environment
-                <$> requiredField' "temperatureC" .= (.temperatureC)
-                <*> requiredFieldWith' "medium" (disjointEitherCodec codec codec) .= (.medium)
+instance HasCodec Environment where codec = genericCodec
 
 {- | How a step's duration scales with conditions. The duration is measured
 at 'refTempC'; Q10 is the rate multiplier per 10 °C warmer. Outside the
@@ -493,16 +363,9 @@ data Sensitivity = Sensitivity
     , minWaterActivity :: Maybe Double
     , maxWaterActivity :: Maybe Double
     }
-    deriving stock (Eq, Show)
+    deriving stock (Eq, Generic, Show)
 
-instance HasCodec Sensitivity where
-    codec =
-        object "Sensitivity" $
-            Sensitivity
-                <$> requiredField' "refTempC" .= (.refTempC)
-                <*> requiredField' "q10" .= (.q10)
-                <*> optionalField' "minWaterActivity" .= (.minWaterActivity)
-                <*> optionalField' "maxWaterActivity" .= (.maxWaterActivity)
+instance HasCodec Sensitivity where codec = genericCodec
 
 {- | When a step is done. 'ByBoth' means: reach the core temperature, then
 hold it for the duration.
@@ -544,22 +407,9 @@ data Recipe = Recipe
     -- ^ Human/LLM-readable end state, e.g. "until golden".
     , issues :: [Issue]
     }
-    deriving stock (Eq, Show)
+    deriving stock (Eq, Generic, Show)
 
-instance HasCodec Recipe where
-    codec =
-        object "Recipe" $
-            Recipe
-                <$> requiredField' "id" .= (.id)
-                <*> requiredField' "source" .= (.source)
-                <*> optionalField' "sourceRef" .= (.sourceRef)
-                <*> requiredField' "technique" .= (.technique)
-                <*> requiredField' "inputs" .= (.inputs)
-                <*> requiredField' "outputs" .= (.outputs)
-                <*> optionalField' "environment" .= (.environment)
-                <*> requiredField' "end" .= (.end)
-                <*> optionalField' "stateNote" .= (.stateNote)
-                <*> issuesField .= (.issues)
+instance HasCodec Recipe where codec = genericCodec
 
 -- * Sources and licences
 
@@ -567,7 +417,7 @@ instance HasCodec Recipe where
 this project.
 -}
 data Licence = Cc0 | Original | CcBy40 | CcBySa40
-    deriving stock (Eq, Show, Enum, Bounded)
+    deriving stock (Eq, Ord, Show, Enum, Bounded)
 
 licenceSpdx :: Licence -> Text
 licenceSpdx = \case
@@ -577,7 +427,7 @@ licenceSpdx = \case
     CcBySa40 -> "CC-BY-SA-4.0"
 
 licenceFromSpdx :: Text -> Maybe Licence
-licenceFromSpdx t = lookup t (map (\l -> (licenceSpdx l, l)) [minBound .. maxBound])
+licenceFromSpdx t = find ((== t) . licenceSpdx) universe
 
 {- | Higher is stricter. A build's effective licence is the strictest one
 of anything it includes.
@@ -589,16 +439,9 @@ instance HasCodec Licence where
     codec = stringConstCodec (NE.fromList [(l, licenceSpdx l) | l <- [minBound ..]])
 
 data Source = Source {id :: SourceId, name :: Text, url :: Maybe Text, licence :: Licence}
-    deriving stock (Eq, Show)
+    deriving stock (Eq, Generic, Show)
 
-instance HasCodec Source where
-    codec =
-        object "Source" $
-            Source
-                <$> requiredField' "id" .= (.id)
-                <*> requiredField' "name" .= (.name)
-                <*> optionalField' "url" .= (.url)
-                <*> requiredField' "licence" .= (.licence)
+instance HasCodec Source where codec = genericCodec
 
 -- * Registries
 
@@ -610,41 +453,23 @@ instance HasCodec Dimension where
 
 -- | 'toBase' converts to the dimension's base unit: g, ml, piece or s.
 data Unit = Unit {id :: UnitId, dimension :: Dimension, toBase :: Double}
-    deriving stock (Eq, Show)
+    deriving stock (Eq, Generic, Show)
 
-instance HasCodec Unit where
-    codec =
-        object "Unit" $
-            Unit
-                <$> requiredField' "id" .= (.id)
-                <*> requiredField' "dimension" .= (.dimension)
-                <*> requiredField' "toBase" .= (.toBase)
+instance HasCodec Unit where codec = genericCodec
 
 -- | A heat-transfer medium; 'h' is an order-of-magnitude coefficient in W/m²K.
 data Medium = Medium {id :: MediumId, label :: Text, h :: Double}
-    deriving stock (Eq, Show)
+    deriving stock (Eq, Generic, Show)
 
-instance HasCodec Medium where
-    codec =
-        object "Medium" $
-            Medium
-                <$> requiredField' "id" .= (.id)
-                <*> requiredField' "label" .= (.label)
-                <*> requiredField' "h" .= (.h)
+instance HasCodec Medium where codec = genericCodec
 
 {- | An entry in one of the vocabulary registries (forms, texture, taste,
 serving). The ID type says which registry it belongs to.
 -}
 data Term i = Term {id :: i, label :: Text, description :: Maybe Text}
-    deriving stock (Eq, Show)
+    deriving stock (Eq, Generic, Show)
 
-instance (IsId i) => HasCodec (Term i) where
-    codec =
-        object "Term" $
-            Term
-                <$> requiredFieldWith' "id" idCodec .= (.id)
-                <*> requiredField' "label" .= (.label)
-                <*> optionalField' "description" .= (.description)
+instance (HasCodec i) => HasCodec (Term i) where codec = genericCodec
 
 -- * Dataset metadata
 
@@ -669,10 +494,9 @@ instance HasCodec Version where
     codec = bimapCodec parseVersion renderVersion textCodec
 
 newtype Dataset = Dataset {version :: Version}
-    deriving stock (Eq, Show)
+    deriving stock (Eq, Generic, Show)
 
-instance HasCodec Dataset where
-    codec = object "Dataset" $ Dataset <$> requiredField' "version" .= (.version)
+instance HasCodec Dataset where codec = genericCodec
 
 data EntityKind
     = KIngredient
@@ -703,36 +527,88 @@ entityKindName = \case
 instance HasCodec EntityKind where
     codec = stringConstCodec (NE.fromList [(k, entityKindName k) | k <- [minBound ..]])
 
-{- | @from@ was renamed to @to@ in release @since@. Slugs are kept as text
-here because the kind decides which ID type they belong to.
+{- | @from@ was renamed to @to@ in release @since@. The slugs are untyped
+because 'kind' decides which ID type they belong to.
 -}
-data Rename = Rename {since :: Version, kind :: EntityKind, from :: Text, to :: Text}
+data Rename = Rename {since :: Version, kind :: EntityKind, from :: DottedSlug, to :: DottedSlug}
+    deriving stock (Eq, Generic, Show)
+
+instance HasCodec Rename where codec = genericCodec
+
+-- * Tuning constants
+
+{- | Numbers the checks and helpers depend on that are judgement calls, not
+schema. They live in @registries/constants.json@ so changing one is a data
+change, reviewed like any other.
+-}
+data Constants = Constants
+    { tempBands :: TempBands
+    , spoilageTechnique :: TechniqueId
+    -- ^ Recipes whose technique is this one or below it are spoilage.
+    , kcalPerGram :: KcalPerGram
+    , calorieTolerance :: Tolerance
+    -- ^ How far kcal may stray from the macros before a warning.
+    , massRatio :: RatioBounds
+    -- ^ Plausible output/input mass ratio of one step; outside it, a warning.
+    }
+    deriving stock (Eq, Generic, Show)
+
+instance HasCodec Constants where codec = genericCodec
+
+data KcalPerGram = KcalPerGram {protein :: Double, carbs :: Double, fat :: Double}
+    deriving stock (Eq, Generic, Show)
+
+instance HasCodec KcalPerGram where codec = genericCodec
+
+-- | Off by more than @max kcal (fraction * expected)@.
+data Tolerance = Tolerance {kcal :: Double, fraction :: Double}
+    deriving stock (Eq, Generic, Show)
+
+instance HasCodec Tolerance where codec = genericCodec
+
+data RatioBounds = RatioBounds {min :: Double, max :: Double}
+    deriving stock (Eq, Generic, Show)
+
+instance HasCodec RatioBounds where codec = genericCodec
+
+newtype TempBandId = TempBandId Text
+    deriving newtype (Eq, Ord, Show)
+    deriving (IsId) via Slug
+
+instance HasCodec TempBandId where codec = idCodec
+
+-- | One band as written in JSON: the last band has no upper bound.
+data BandEntry = BandEntry {id :: TempBandId, belowC :: Maybe Double}
+    deriving stock (Eq, Generic, Show)
+
+instance HasCodec BandEntry where codec = genericCodec
+
+{- | Bounded bands with strictly increasing upper bounds (exclusive), then
+one open-ended top band. Only 'mkTempBands' builds these, which is what
+makes 'bandFromCelsius' total.
+-}
+data TempBands = TempBands [(TempBandId, Double)] TempBandId
     deriving stock (Eq, Show)
 
-instance HasCodec Rename where
-    codec =
-        object "Rename" $
-            Rename
-                <$> requiredField' "since" .= (.since)
-                <*> requiredField' "kind" .= (.kind)
-                <*> requiredFieldWith' "from" renameSlug .= (.from)
-                <*> requiredFieldWith' "to" renameSlug .= (.to)
-      where
-        renameSlug = bimapCodec (dottedSlugWith Prelude.id) Prelude.id textCodec
+mkTempBands :: [BandEntry] -> Either String TempBands
+mkTempBands entries = case reverse entries of
+    BandEntry top Nothing : rest -> do
+        bounded <- forM (reverse rest) $ \case
+            BandEntry b (Just c) -> Right (b, c)
+            BandEntry b Nothing -> Left ("only the last band may omit belowC, but " <> show (idText b) <> " does")
+        let bounds = map snd bounded
+            ids = top : map fst bounded
+        unless (and (zipWith (<) bounds (drop 1 bounds))) $ Left "belowC must strictly increase"
+        unless (length (ordNub ids) == length ids) $ Left "band IDs must be unique"
+        Right (TempBands bounded top)
+    _ -> Left "the last band must omit belowC, so every temperature has a band"
 
--- * Temperature bands
+tempBandEntries :: TempBands -> [BandEntry]
+tempBandEntries (TempBands bounded top) = [BandEntry b (Just c) | (b, c) <- bounded] ++ [BandEntry top Nothing]
 
-data TempBand = Frozen | Chilled | Ambient | Warm | Hot | Boiling
-    deriving stock (Eq, Ord, Show, Enum, Bounded)
+instance HasCodec TempBands where
+    codec = bimapCodec mkTempBands tempBandEntries codec
 
-{- | Upper bounds (exclusive): frozen < 0 °C, chilled < 8, ambient < 30,
-warm < 60, hot < 100, boiling and above from 100.
--}
-bandFromCelsius :: Double -> TempBand
-bandFromCelsius c
-    | c < 0 = Frozen
-    | c < 8 = Chilled
-    | c < 30 = Ambient
-    | c < 60 = Warm
-    | c < 100 = Hot
-    | otherwise = Boiling
+-- | The first band whose bound lies above the temperature, else the top one.
+bandFromCelsius :: TempBands -> Double -> TempBandId
+bandFromCelsius (TempBands bounded top) c = maybe top fst (find ((c <) . snd) bounded)

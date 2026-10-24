@@ -1,5 +1,3 @@
-{-# LANGUAGE DuplicateRecordFields #-}
-
 -- | One entry point for the CLI and the tests: load, check, report.
 module Babel.Validate (
     Report (..),
@@ -21,6 +19,6 @@ data Report = Report
 
 -- | Validate the data root. With @fix@, rewrite non-canonical files.
 validate :: Bool -> FilePath -> IO Report
-validate fix root = do
-    (loadDiags, w) <- loadWorld fix root
+validate fixFiles root = do
+    (loadDiags, w) <- loadWorld fixFiles root
     pure Report{diagnostics = loadDiags ++ checkWorld w, licence = effectiveLicence w, world = w}

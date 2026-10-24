@@ -1,5 +1,3 @@
-{-# LANGUAGE DuplicateRecordFields #-}
-
 {- | Validation findings. Errors fail the build; warnings (soft checks) are
 printed and never fail it.
 -}
@@ -13,7 +11,6 @@ module Babel.Diagnostic (
 )
 where
 
-import Data.Text (Text)
 import Data.Text qualified as T
 
 data Severity = Error | Warning
