@@ -27,6 +27,17 @@ babel query spoilage bread --temp 20 --aw 0.95
 Entering the shell installs a pre-commit hook that runs `babel validate`,
 fourmolu, hlint and cabal-fmt.
 
+## Secrets
+
+Secrets are declared in `secretspec.toml` and kept in your OS keychain. Store
+one with `secretspec set NAME`. They are never exported into the shell; run
+whatever needs them under `secretspec run`, which refuses to start while a
+required one is missing:
+
+```sh
+secretspec run -- <command>
+```
+
 ## Invalid data can never be merged
 
 The local hook can be skipped with `git commit --no-verify`, so **CI is the real

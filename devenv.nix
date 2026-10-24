@@ -27,6 +27,7 @@ in
 {
   packages = [
     pkgs.jq
+    pkgs.secretspec
     hsPkgs.fourmolu
     hsPkgs.hlint
     hsPkgs.cabal-fmt
@@ -34,6 +35,12 @@ in
 
   # GHC tools read and print UTF-8 source and data; don't depend on the host locale.
   env.LANG = "C.UTF-8";
+
+  # Secrets are declared in secretspec.toml; values live in the OS keychain.
+  # Nothing checks for them on shell entry, so non-interactive shells (direnv,
+  # Claude's SessionStart hook, CI) work without them. `secretspec run` refuses
+  # to start a command while a required one is missing.
+  env.SECRETSPEC_PROVIDER = "keyring";
 
   languages.haskell = {
     enable = true;
