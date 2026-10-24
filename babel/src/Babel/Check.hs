@@ -1,5 +1,6 @@
-{- | Whole-dataset rules on a loaded 'World': licences, references, graph
-and value checks, versioning, and soft (warning-only) plausibility checks.
+{- | Whole-dataset rules on a loaded 'World': licences and origins,
+references, graph and value checks, versioning, and soft (warning-only)
+plausibility checks.
 -}
 module Babel.Check (
     checkWorld,
@@ -19,7 +20,7 @@ import Babel.Model.Id (IngredientId)
 import Babel.Model.Ingredient (Ingredient (..), IsA (..), Nutrition (..), Per100g (..))
 import Babel.Model.Recipe (Branch (..), End (..), Environment (..), Leaf (..), Outcome (..), Output (..), Recipe (..), Select (..), Sensitivity (..), SourceRef (..), selectMax, selectMin)
 import Babel.Model.Registry (Dimension (..), Unit (..))
-import Babel.Model.Source (Licence (..), Source (..), licenceSpdx, licenceStrictness)
+import Babel.Model.Source (Licence (..), Source (..), licenceSpdx, licenceStrictness, originSlug)
 import Babel.Model.Technique (Technique (..), TempRange (..))
 import Data.List.NonEmpty qualified as NE
 import Data.Map.Strict qualified as Map
@@ -29,7 +30,7 @@ import Data.Text qualified as T
 checkWorld :: World -> [Diagnostic]
 checkWorld w =
     concat
-        [ licenceChecks w
+        [ folderChecks w
         , concatMap (ingredientChecks w) (Map.elems w.ingredients)
         , concatMap (techniqueChecks w) (Map.elems w.techniques)
         , concatMap (recipeChecks w) (Map.elems w.recipes)
@@ -52,10 +53,10 @@ effectiveLicence w =
   where
     maximumOn f = foldr (\x acc -> if f x > f acc then x else acc)
 
--- * Licences
+-- * Licence and origin folders
 
-licenceChecks :: World -> [Diagnostic]
-licenceChecks w =
+folderChecks :: World -> [Diagnostic]
+folderChecks w =
     [ errorIn "licence-mismatch" (Just s.path) $
         "source licence " <> licenceSpdx s.value.licence <> " does not match its folder " <> licenceSpdx s.licence
     | s <- Map.elems w.sources
@@ -72,6 +73,17 @@ licenceChecks w =
            , Just s <- [Map.lookup r.value.source w.sources]
            , s.value.licence /= r.licence
            ]
+        ++ [ errorIn "origin-mismatch" (Just r.path) $
+                "recipe is in the "
+                    <> originSlug r.origin
+                    <> " folder but its source "
+                    <> idText r.value.source
+                    <> " is in "
+                    <> originSlug s.origin
+           | r <- Map.elems w.recipes
+           , Just s <- [Map.lookup r.value.source w.sources]
+           , s.origin /= r.origin
+           ]
 
 -- * Entities
 
@@ -82,7 +94,7 @@ ref p what m k
     | otherwise = [errorIn "dangling-ref" (Just p) ("unknown " <> what <> " " <> idText k)]
 
 ingredientChecks :: World -> Located Ingredient -> [Diagnostic]
-ingredientChecks w (Located i p _ _) =
+ingredientChecks w (Located{value = i, path = p}) =
     concat
         [ concatMap (ref p "parent ingredient" w.ingredients . (.target)) i.parents
         , ref p "form" w.forms i.form
@@ -102,7 +114,7 @@ ingredientChecks w (Located i p _ _) =
         ]
 
 techniqueChecks :: World -> Located Technique -> [Diagnostic]
-techniqueChecks w (Located t p _ _) =
+techniqueChecks w (Located{value = t, path = p}) =
     concatMap (ref p "parent technique" w.techniques) t.parents
         ++ [ errorIn "temp-range" (Just p) "typicalTemp minC is above maxC"
            | Just r <- [t.typicalTemp]
@@ -110,7 +122,7 @@ techniqueChecks w (Located t p _ _) =
            ]
 
 recipeChecks :: World -> Located Recipe -> [Diagnostic]
-recipeChecks w (Located r p _ _) =
+recipeChecks w (Located{value = r, path = p}) =
     concat
         [ ref p "source" w.sources r.source
         , maybe [] (ref p "sourceRef source" w.sources . (.source)) r.sourceRef

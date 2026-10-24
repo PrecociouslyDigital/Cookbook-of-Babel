@@ -18,7 +18,7 @@ where
 import Autodocodec (toJSONViaCodec)
 import Babel.Format (render)
 import Babel.Load (Layer (..))
-import Babel.Model (Constants, Dataset, FormId, Ingredient (..), IsId (..), Licence, Medium, Recipe (..), Rename, ServingTagId, Source (..), TasteAttrId, Technique (..), Term, TextureAttrId, Unit, licenceSpdx)
+import Babel.Model (Constants, Dataset, FormId, Ingredient (..), IsId (..), Licence, Medium, Origin, Recipe (..), Rename, ServingTagId, Source (..), TasteAttrId, Technique (..), Term, TextureAttrId, Unit, licenceSpdx, originSlug)
 import Data.Aeson (Value)
 import Data.ByteString.Lazy qualified as BL
 import Data.Text qualified as T
@@ -26,8 +26,8 @@ import System.Directory (createDirectoryIfMissing)
 import System.FilePath (takeDirectory, (</>))
 import System.IO.Temp (withSystemTempDirectory)
 
--- | An entity and the layer and licence folder it is written to.
-data Placed a = Placed {layer :: Layer, folder :: Licence, entity :: a}
+-- | An entity and the layer, licence and origin folders it is written to.
+data Placed a = Placed {layer :: Layer, licenceFolder :: Licence, originFolder :: Origin, entity :: a}
     deriving stock (Eq, Show)
 
 {- | Field names are distinct from 'Babel.Load.World''s so record updates
@@ -58,7 +58,7 @@ layerDir = \case
 -- | Where an entity of this kind lives, relative to the data root.
 entityPath :: FilePath -> Placed a -> T.Text -> FilePath
 entityPath kind p ident =
-    "layers" </> layerDir p.layer </> T.unpack (licenceSpdx p.folder) </> kind </> (T.unpack ident <> ".json")
+    "layers" </> layerDir p.layer </> T.unpack (licenceSpdx p.licenceFolder) </> T.unpack (originSlug p.originFolder) </> kind </> (T.unpack ident <> ".json")
 
 writeTree :: FilePath -> Tree -> IO ()
 writeTree root Tree{..} = do

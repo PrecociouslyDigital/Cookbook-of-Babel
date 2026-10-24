@@ -6,7 +6,7 @@ rather than by filtering:
 * is-a parents are drawn only from IDs generated earlier, so both DAGs are
   acyclic;
 * every reference is sampled from the IDs that exist;
-* a recipe is filed under its source's licence;
+* a recipe is filed under its source's licence and origin;
 * select bounds are drawn inside @0..n@, and every output block has at
   least one output that is not chance-gated;
 * rename chains run from fresh slugs to an existing one.
@@ -120,7 +120,8 @@ genTree = do
         lic <- Gen.enumBounded
         layer <- genLayer
         src <- Source (SourceId s) <$> genText <*> Gen.maybe genText <*> pure lic
-        pure (Placed layer lic src)
+        origin <- Gen.enumBounded
+        pure (Placed layer lic origin src)
 
     ingIds <- Set.toList <$> Gen.set (Range.linear 2 8) genSlug
     ings <- forM (zip [0 ..] ingIds) $ \(n, i) -> do
@@ -140,7 +141,7 @@ genTree = do
                 <*> Gen.maybe (genNutrition (map (.entity.id) srcs))
                 <*> Gen.bool
                 <*> Gen.list (Range.linear 0 2) genIssue
-        Placed <$> genLayer <*> Gen.enumBounded <*> pure ing
+        Placed <$> genLayer <*> Gen.enumBounded <*> Gen.enumBounded <*> pure ing
 
     techIds <- Set.toList <$> Gen.set (Range.linear 1 5) genSlug
     techs <- forM (zip [0 ..] techIds) $ \(n, t) -> do
@@ -150,7 +151,7 @@ genTree = do
             hi <- Gen.double (Range.linearFrac lo 300)
             pure (TempRange lo hi)
         tech <- Technique (TechniqueId t) <$> genText <*> pure parents <*> pure temp <*> Gen.list (Range.linear 0 2) genIssue
-        Placed <$> genLayer <*> Gen.enumBounded <*> pure tech
+        Placed <$> genLayer <*> Gen.enumBounded <*> Gen.enumBounded <*> pure tech
 
     consts <- genConstants [t.entity.id | t <- techs]
     let tree0 = Tree{renameLog = [], recs = [], ..}
@@ -159,7 +160,7 @@ genTree = do
         src <- Gen.element srcs
         recipe <- genRecipe tree0 (RecipeId r) src.entity.id n
         layer <- genLayer
-        pure (Placed layer src.entity.licence recipe)
+        pure (Placed layer src.entity.licence src.originFolder recipe)
 
     renameLog <- genRenames meta.version ingIds
     pure Tree{..}

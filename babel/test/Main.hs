@@ -19,7 +19,7 @@ import Babel.Check (findCycles)
 import Babel.Diagnostic (Diagnostic (..), isError, renderDiagnostic)
 import Babel.Format (render)
 import Babel.Load (Layer (..), Located (..), World (..))
-import Babel.Model (Amount (..), AxisId (..), BandEntry (..), Branch (..), Dataset (..), DottedSlug (..), End (..), EntityKind (..), FormId (..), Ingredient (..), IngredientId (..), IsA (..), IsId (..), Leaf (..), Licence, Outcome (..), Output (..), Recipe (..), RecipeId (..), Rename (..), Role (..), Select (..), Sensitivity (..), SourceRef (..), Technique (..), TechniqueId (..), Term (..), UnitId (..), Version, bandFromCelsius, isSlug, licenceSpdx, mkTempBands, parseVersion, renderVersion, tempBandEntries)
+import Babel.Model (Amount (..), AxisId (..), BandEntry (..), Branch (..), Dataset (..), DottedSlug (..), End (..), EntityKind (..), FormId (..), Ingredient (..), IngredientId (..), IsA (..), IsId (..), Leaf (..), Outcome (..), Output (..), Recipe (..), RecipeId (..), Rename (..), Role (..), Select (..), Sensitivity (..), Source (..), SourceRef (..), Technique (..), TechniqueId (..), Term (..), UnitId (..), Version, bandFromCelsius, isSlug, licenceSpdx, mkTempBands, parseVersion, renderVersion, tempBandEntries)
 import Babel.Spoilage (Conditions (..), firstSpoilage, timeAt)
 import Babel.Validate (Report (..), validate)
 import Data.Aeson (Value (..))
@@ -142,7 +142,8 @@ ruleProps =
     , rule "an ambient time-based end without sensitivity" ["ambient-time"] ambientTime
     , rule "a water activity out of bounds" ["water-activity"] badWaterActivity
     , rule "a licence folder that doesn't match the source" ["licence-mismatch"] licenceMismatch
-    , rule "the same key in two licence folders of a layer" ["overlay-conflict"] overlayConflict
+    , rule "an origin folder that doesn't match the source" ["origin-mismatch"] originMismatch
+    , rule "the same key in two folders of a layer" ["overlay-conflict"] overlayConflict
     , rule "a duration in a non-time unit" ["dimension"] durationUnit
     , rule "a rename from a slug that still exists" ["rename-from-exists"] renameFromExists
     , rule "a rename loop" ["rename-loop", "rename-to-missing"] renameLoop
@@ -269,14 +270,29 @@ badWaterActivity t =
             onRecipe t $ \r -> pure r{end = ByTime (Amount 1 (UnitId "s")) (Just s)}
         ]
 
-otherLicence :: Licence -> Gen Licence
-otherLicence l = Gen.element [x | x <- universe, x /= l]
+other :: (Bounded a, Enum a, Eq a) => a -> Gen a
+other x = Gen.element [y | y <- universe, y /= x]
+
+moveLicence, moveOrigin, moveFolder :: Placed a -> Gen (Placed a)
+moveLicence p = (\l -> p{licenceFolder = l}) <$> other p.licenceFolder
+moveOrigin p = (\o -> p{originFolder = o}) <$> other p.originFolder
+moveFolder p = Gen.choice [moveLicence p, moveOrigin p, moveLicence =<< moveOrigin p]
 
 licenceMismatch :: Tree -> Gen Tree
 licenceMismatch t =
     Gen.choice
-        [ (\rs -> t{recs = rs}) <$> modifyOne t.recs (\p -> (\l -> p{folder = l}) <$> otherLicence p.folder)
-        , (\ss -> t{srcs = ss}) <$> modifyOne t.srcs (\p -> (\l -> p{folder = l}) <$> otherLicence p.folder)
+        [ (\rs -> t{recs = rs}) <$> modifyOne t.recs moveLicence
+        , (\ss -> t{srcs = ss}) <$> modifyOne t.srcs moveLicence
+        ]
+
+originMismatch :: Tree -> Gen Tree
+originMismatch t =
+    Gen.choice
+        [ (\rs -> t{recs = rs}) <$> modifyOne t.recs moveOrigin
+        , do
+            r <- Gen.element t.recs
+            ss <- forM t.srcs $ \p -> if p.entity.id == r.entity.source then moveOrigin p else pure p
+            pure t{srcs = ss}
         ]
 
 overlayConflict :: Tree -> Gen Tree
@@ -284,12 +300,12 @@ overlayConflict t =
     Gen.choice
         [ do
             p <- Gen.element t.ings
-            l <- otherLicence p.folder
-            pure t{ings = t.ings ++ [p{folder = l}]}
+            p' <- moveFolder p
+            pure t{ings = t.ings ++ [p']}
         , do
             p <- Gen.element t.techs
-            l <- otherLicence p.folder
-            pure t{techs = t.techs ++ [p{folder = l}]}
+            p' <- moveFolder p
+            pure t{techs = t.techs ++ [p']}
         ]
 
 durationUnit :: Tree -> Gen Tree
@@ -431,7 +447,9 @@ fileProps =
         f <- Gen.element (entityFiles t)
         pure (Write (takeDirectory f.path </> "notes.txt") "hello")
     , fileRule "an unknown licence folder" ["layout"] $ \_ ->
-        pure (Write "layers/reviewed/CC-BY-NC-4.0/ingredients/x.json" "{}")
+        pure (Write "layers/reviewed/CC-BY-NC-4.0/original/ingredients/x.json" "{}")
+    , fileRule "an unknown origin folder" ["layout"] $ \_ ->
+        pure (Write "layers/reviewed/CC0-1.0/nowhere/ingredients/x.json" "{}")
     , decodeRule "an ID that is not a slug" $ \t -> do
         f <- Gen.element (entityFiles t)
         bad <- genBadSlug
@@ -471,7 +489,7 @@ overlayProps =
             reviewed = p.entity{sourceRef = Just ref}
             copy = let Recipe{..} = reviewed in Recipe{id = copyId, stateNote = Just "extracted", ..}
             others = [x | x <- t.recs, x.entity.id /= p.entity.id]
-            t' = t{recs = others ++ [Placed Reviewed p.folder reviewed, Placed Extracted p.folder copy]}
+            t' = t{recs = others ++ [Placed Reviewed p.licenceFolder p.originFolder reviewed, Placed Extracted p.licenceFolder p.originFolder copy]}
         r <- check t'
         showDiagnostics r
         errorRules r === []
@@ -482,7 +500,7 @@ overlayProps =
         p <- forAll (Gen.element t.ings)
         let copy = let Ingredient{..} = p.entity in Ingredient{label = "extracted " <> label, ..}
             others = [x | x <- t.ings, x.entity.id /= p.entity.id]
-            t' = t{ings = others ++ [Placed Reviewed p.folder p.entity, Placed Extracted p.folder copy]}
+            t' = t{ings = others ++ [Placed Reviewed p.licenceFolder p.originFolder p.entity, Placed Extracted p.licenceFolder p.originFolder copy]}
         r <- check t'
         showDiagnostics r
         errorRules r === []

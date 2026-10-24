@@ -8,7 +8,7 @@ Layout:
 
 > dataset.json, renames.json
 > registries/{units,media,forms,texture,taste,serving}.json
-> layers/{extracted,reviewed}/<licence>/{sources,ingredients,techniques,recipes}/<id>.json
+> layers/{extracted,reviewed}/<licence>/<origin>/{sources,ingredients,techniques,recipes}/<id>.json
 -}
 module Babel.Load (
     Layer (..),
@@ -29,7 +29,7 @@ import Babel.Model.Id (FormId, IngredientId, MediumId, RecipeId, ServingTagId, S
 import Babel.Model.Ingredient (Ingredient (..))
 import Babel.Model.Recipe (Recipe (..), SourceRef (..))
 import Babel.Model.Registry (Medium (..), Term (..), Unit (..))
-import Babel.Model.Source (Licence, Source (..), licenceFromSpdx)
+import Babel.Model.Source (Licence, Origin, Source (..), licenceFromSpdx, originFromSlug)
 import Babel.Model.Technique (Technique (..))
 import Data.Aeson (Value (..))
 import Data.Aeson qualified as Aeson
@@ -53,6 +53,7 @@ data Located a = Located
     , path :: FilePath
     , layer :: Layer
     , licence :: Licence
+    , origin :: Origin
     }
     deriving stock (Show)
 
@@ -268,21 +269,27 @@ loadLayers fixFiles layersDir = do
                 layerPath
                 ( \licName licPath -> case licenceFromSpdx (T.pack licName) of
                     Nothing -> pure (unexpected licPath "licence folder (expected an SPDX ID this dataset knows)", mempty)
-                    Just lic ->
-                        mconcat
-                            <$> forM'
-                                licPath
-                                ( \kindName kindPath -> case kindName of
-                                    "sources" -> (\(d, xs) -> (d, mempty{rawSources = xs})) <$> entities layer lic kindPath (\s -> idText s.id)
-                                    "ingredients" -> (\(d, xs) -> (d, mempty{rawIngredients = xs})) <$> entities layer lic kindPath (\i -> idText i.id)
-                                    "techniques" -> (\(d, xs) -> (d, mempty{rawTechniques = xs})) <$> entities layer lic kindPath (\t -> idText t.id)
-                                    "recipes" -> (\(d, xs) -> (d, mempty{rawRecipes = xs})) <$> entities layer lic kindPath (\r -> idText r.id)
-                                    _ -> pure (unexpected kindPath "entity folder (expected sources, ingredients, techniques or recipes)", mempty)
-                                )
+                    Just lic -> mconcat <$> forM' licPath (loadOrigin layer lic)
                 )
 
-    entities :: (HasCodec a) => Layer -> Licence -> FilePath -> (a -> Text) -> IO ([Diagnostic], [Located a])
-    entities layer lic dir idOf = do
+    loadOrigin layer lic originName originPath = case originFromSlug (T.pack originName) of
+        Nothing -> pure (unexpected originPath "origin folder (expected an origin this dataset knows)", mempty)
+        Just origin ->
+            let entities' :: (HasCodec a) => FilePath -> (a -> Text) -> IO ([Diagnostic], [Located a])
+                entities' = entities layer lic origin
+             in mconcat
+                    <$> forM'
+                        originPath
+                        ( \kindName kindPath -> case kindName of
+                            "sources" -> (\(d, xs) -> (d, mempty{rawSources = xs})) <$> entities' kindPath (\s -> idText s.id)
+                            "ingredients" -> (\(d, xs) -> (d, mempty{rawIngredients = xs})) <$> entities' kindPath (\i -> idText i.id)
+                            "techniques" -> (\(d, xs) -> (d, mempty{rawTechniques = xs})) <$> entities' kindPath (\t -> idText t.id)
+                            "recipes" -> (\(d, xs) -> (d, mempty{rawRecipes = xs})) <$> entities' kindPath (\r -> idText r.id)
+                            _ -> pure (unexpected kindPath "entity folder (expected sources, ingredients, techniques or recipes)", mempty)
+                        )
+
+    entities :: (HasCodec a) => Layer -> Licence -> Origin -> FilePath -> (a -> Text) -> IO ([Diagnostic], [Located a])
+    entities layer lic origin dir idOf = do
         names <- sort <$> listDirectory dir
         results <- forM names $ \name -> do
             let p = dir </> name
@@ -298,7 +305,7 @@ loadLayers fixFiles layersDir = do
                                     [ errorIn "filename" (Just p) ("file name must be " <> idOf a <> ".json")
                                     | T.pack (takeBaseName name) /= idOf a
                                     ]
-                             in (diags ++ nameDiags, Just (Located a p layer lic))
+                             in (diags ++ nameDiags, Just (Located a p layer lic origin))
         pure (concatMap fst results, mapMaybe snd results)
 
     unexpected p what = [errorIn "layout" (Just p) ("unexpected " <> what)]
@@ -314,8 +321,8 @@ forM' dir act = do
 
 -- * Overlays
 
-{- | Within one layer, a key may live in only one licence folder. Across
-layers, reviewed replaces extracted.
+{- | Within one layer, a key may live in only one licence and origin folder.
+Across layers, reviewed replaces extracted.
 -}
 mergeLayer :: (Ord k) => Text -> (k -> Text) -> (Located a -> k) -> [Located a] -> ([Diagnostic], Map k (Located a))
 mergeLayer kind showKey key xs = (diags, merged)
@@ -327,11 +334,11 @@ mergeLayer kind showKey key xs = (diags, merged)
         [ errorIn rule (Just x.path) msg
         | layer <- [Extracted, Reviewed]
         , (k, kept : others) <- Map.toList (byLayer layer)
-        , let licences = ordNub [y.licence | y <- kept : others]
+        , let folders = ordNub [(y.licence, y.origin) | y <- kept : others]
               (rule, msg)
-                | length licences > 1 =
+                | length folders > 1 =
                     ( "overlay-conflict"
-                    , "the same " <> kind <> " " <> showKey k <> " is in two licence folders of one layer (also " <> toText kept.path <> ")"
+                    , "the same " <> kind <> " " <> showKey k <> " is in two folders of one layer (also " <> toText kept.path <> ")"
                     )
                 | otherwise =
                     ("duplicate-key", "duplicate " <> kind <> " " <> showKey k <> " (also " <> toText kept.path <> ")")

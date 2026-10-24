@@ -1,10 +1,13 @@
--- | Sources and their SPDX-mapped licences.
+-- | Sources, their SPDX-mapped licences, and the origins they come from.
 module Babel.Model.Source (
     Source (..),
     Licence (..),
     licenceSpdx,
     licenceFromSpdx,
     licenceStrictness,
+    Origin (..),
+    originSlug,
+    originFromSlug,
 )
 where
 
@@ -37,6 +40,20 @@ licenceStrictness = fromEnum
 
 instance HasCodec Licence where
     codec = stringConstCodec (NE.fromList [(l, licenceSpdx l) | l <- [minBound ..]])
+
+{- | The body of work an entity comes from. Unlike the licence, it is recorded
+only by the entity's folder.
+-}
+data Origin = OriginalWork | Wikibooks
+    deriving stock (Eq, Ord, Show, Enum, Bounded)
+
+originSlug :: Origin -> Text
+originSlug = \case
+    OriginalWork -> "original"
+    Wikibooks -> "wikibooks"
+
+originFromSlug :: Text -> Maybe Origin
+originFromSlug t = find ((== t) . originSlug) universe
 
 data Source = Source {id :: SourceId, name :: Text, url :: Maybe Text, licence :: Licence}
     deriving stock (Eq, Generic, Show)
