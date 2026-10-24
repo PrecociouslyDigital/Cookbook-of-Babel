@@ -5,14 +5,17 @@ let
   # HLS and the Haskell tools below all come prebuilt from cache.nixos.org.
   hsPkgs = pkgs.haskell.packages.ghc910;
   # Library dependencies come from nixpkgs, so cabal never needs Hackage.
-  # Keep in sync with babel/babel.cabal.
+  # Keep in sync with babel/babel.cabal and every package in babel/cabal.project.
   ghc = hsPkgs.ghcWithPackages (p: [
     p.aeson
     p.autodocodec
+    p.conduit
     p.containers
+    p.cryptohash-sha256
     p.directory
     p.filepath
     p.hedgehog
+    p.megaparsec
     p.optparse-applicative
     p.relude
     p.scientific
@@ -22,6 +25,8 @@ let
     p.temporary
     p.text
     p.vector
+    p.xml-conduit
+    p.xml-types
   ]);
 in
 {

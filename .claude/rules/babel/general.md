@@ -1,6 +1,8 @@
 ---
 paths:
   - "babel/**"
+  - "data/extractors/**/*.hs"
+  - "data/extractors/**/*.cabal"
   - "devenv.nix"
   - "devenv.yaml"
   - ".hlint.yaml"
@@ -18,8 +20,8 @@ paths:
   generated inputs included, use `.claude/scripts/test-focused.sh PATTERN`.
   Both pass further arguments to tasty, e.g. `--hedgehog-tests=1000`.
 - Haskell dependencies come from nixpkgs (`ghcWithPackages` in `devenv.nix`), so
-  never run `cabal update`. A dependency added to `babel.cabal` must also be
-  added to `devenv.nix`.
+  never run `cabal update`. A dependency added to any cabal file in
+  `babel/cabal.project` must also be added to `devenv.nix`.
 - `devenv.yaml` uses `git+https` inputs on purpose: sandboxed sessions can't
   fetch GitHub tarballs.
 - Format with fourmolu (defaults), lint with hlint, and format `babel.cabal`

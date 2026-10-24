@@ -21,10 +21,10 @@ jobs:
         uses: actions/cache@v4
         with:
           path: babel/dist-newstyle
-          key: dist-${{ runner.os }}-${{ hashFiles('devenv.lock', 'babel/babel.cabal') }}-${{ hashFiles('babel/**/*.hs') }}
-          restore-keys: dist-${{ runner.os }}-${{ hashFiles('devenv.lock', 'babel/babel.cabal') }}-
+          key: dist-${{ runner.os }}-${{ hashFiles('devenv.lock', 'babel/cabal.project', '**/*.cabal') }}-${{ hashFiles('babel/**/*.hs', 'data/extractors/**/*.hs') }}
+          restore-keys: dist-${{ runner.os }}-${{ hashFiles('devenv.lock', 'babel/cabal.project', '**/*.cabal') }}-
       - name: Build and test
-        run: devenv shell -- bash -c 'cd babel && cabal build all && cabal test'
+        run: devenv shell -- bash -c 'cd babel && cabal build all && cabal test all'
       - name: Validate the dataset
         run: devenv shell -- babel validate data
       # Runs every git hook (validate, fourmolu, hlint, cabal-fmt) on all files,
