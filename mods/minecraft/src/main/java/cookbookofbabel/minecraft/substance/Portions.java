@@ -16,7 +16,18 @@ public final class Portions {
             case PIECE, PASTE, CURD -> 50;
             case SLICE -> 30;
             case SHRED, DICE -> 25;
-            case MASH, GEL, LIQUID, BATTER, FOAM, POWDER, GRANULE -> 100;
+            case MASH, GEL, LIQUID, BATTER, FOAM, POWDER, GRANULE, GAS -> 100;
+        };
+    }
+
+    /**
+     * How many millilitres of the substance a millibucket holds. Gases are carried compressed, a
+     * litre to the millibucket, since their low density would otherwise overflow a tank.
+     */
+    public static double millilitresPerMillibucket(Form form) {
+        return switch (form) {
+            case GAS -> 1000;
+            case WHOLE, SOLID, PIECE, PASTE, CURD, SLICE, SHRED, DICE, MASH, GEL, LIQUID, BATTER, FOAM, POWDER, GRANULE -> 1;
         };
     }
 }

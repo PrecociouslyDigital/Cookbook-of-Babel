@@ -9,6 +9,7 @@ public enum Form implements StringRepresentable {
     CURD("curd"),
     DICE("dice"),
     FOAM("foam"),
+    GAS("gas"),
     GEL("gel"),
     GRANULE("granule"),
     LIQUID("liquid"),

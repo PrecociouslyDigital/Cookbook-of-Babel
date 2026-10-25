@@ -4,10 +4,12 @@ import cookbookofbabel.minecraft.dataset.Amount;
 import cookbookofbabel.minecraft.dataset.IngredientId;
 import cookbookofbabel.minecraft.dataset.Unit.Dimension;
 import cookbookofbabel.minecraft.substance.Container;
+import cookbookofbabel.minecraft.substance.Portions;
 
 /**
  * Converts the dataset's amounts into what Minecraft counts: items, or millibuckets of a fluid. 1 ml
- * is 1 mB (a bulk volume, for powders), so a litre is a bucket.
+ * is 1 mB (a bulk volume, for powders), so a litre is a bucket; gases are compressed (see {@link
+ * Portions#millilitresPerMillibucket}).
  */
 public final class Amounts {
     /** Where the dataset gives no density, assume water's, and say so. */
@@ -39,14 +41,16 @@ public final class Amounts {
     }
 
     public Converted millibuckets(IngredientId ingredient, Amount amount) {
+        var perMillibucket = Portions.millilitresPerMillibucket(dataset.ingredient(ingredient).form());
         var unit = dataset.unit(amount.unit());
         if (unit.dimension() == Dimension.VOLUME) {
-            return new Converted(amount.qty() * unit.toBase(), false);
+            return new Converted(amount.qty() * unit.toBase() / perMillibucket, false);
         }
         var grams = grams(ingredient, amount);
         var density = dataset.ingredient(ingredient).densityGPerMl();
         return new Converted(
-                grams.value() / density.orElse(DEFAULT_DENSITY_G_PER_ML), grams.estimated() || density.isEmpty());
+                grams.value() / density.orElse(DEFAULT_DENSITY_G_PER_ML) / perMillibucket,
+                grams.estimated() || density.isEmpty());
     }
 
     /** Counted amounts are one item each; anything else is divided into portions. */

@@ -11,6 +11,8 @@ public enum RouteKind {
     FD_COOKING_POT(Mod.FARMERS_DELIGHT, new Constraints(6, 0, 1, 0, false, 100, 1200)),
     SMELTING(Mod.MINECRAFT, new Constraints(1, 0, 1, 0, false, 100, 600)),
     SMOKING(Mod.MINECRAFT, new Constraints(1, 0, 1, 0, false, 50, 300)),
+    /** A blast furnace, or a Create fan blowing through lava. */
+    BLASTING(Mod.MINECRAFT, new Constraints(1, 0, 1, 0, false, 50, 300)),
     CAMPFIRE(Mod.MINECRAFT, new Constraints(1, 0, 1, 0, false, 200, 800)),
     FD_CUTTING_BOARD(Mod.FARMERS_DELIGHT, new Constraints(1, 0, 4, 0, true, 0, 0)),
     CREATE_CUTTING(Mod.CREATE, new Constraints(1, 0, 4, 0, true, 50, 400)),

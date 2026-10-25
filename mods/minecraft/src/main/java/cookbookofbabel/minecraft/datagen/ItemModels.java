@@ -71,6 +71,7 @@ final class ItemModels extends ItemModelProvider {
             case PASTE, BATTER -> "white_dye";
             case LIQUID -> "ghast_tear";
             case GEL -> "slime_ball";
+            case GAS -> "phantom_membrane";
             case SOLID -> "quartz";
         };
         return new ResourceLocation("item/" + item);

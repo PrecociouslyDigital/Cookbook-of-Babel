@@ -140,11 +140,12 @@ public final class RouteEmitter {
                 }
                 builder.unlockedBy("unused", UNUSED).save(patched(sink, conditions, Finished.result("result", result)), id(route, path));
             }
-            case SMELTING, SMOKING, CAMPFIRE -> {
+            case SMELTING, SMOKING, BLASTING, CAMPFIRE -> {
                 var result = (ItemStack) first(outputs);
                 var builder = switch (route) {
                     case SMELTING -> SimpleCookingRecipeBuilder.smelting(items.get(0), RecipeCategory.FOOD, result.getItem(), EXPERIENCE, p.ticks());
                     case SMOKING -> SimpleCookingRecipeBuilder.smoking(items.get(0), RecipeCategory.FOOD, result.getItem(), EXPERIENCE, p.ticks());
+                    case BLASTING -> SimpleCookingRecipeBuilder.blasting(items.get(0), RecipeCategory.MISC, result.getItem(), EXPERIENCE, p.ticks());
                     default -> SimpleCookingRecipeBuilder.campfireCooking(items.get(0), RecipeCategory.FOOD, result.getItem(), EXPERIENCE, p.ticks());
                 };
                 builder.unlockedBy("unused", UNUSED).save(patched(sink, conditions, Finished.result("result", result)), id(route, path));

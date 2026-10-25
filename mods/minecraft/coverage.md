@@ -8,16 +8,14 @@ Substance colours are derived from their IDs until the dataset records colours.
 
 Used by some step, made by none, and provided by no mapped mod, so nothing in the game produces them. `build/babel/candidates.json` lists items and tags that might.
 
-- `baking_powder` (baking powder)
-- `baking_soda` (baking soda)
 - `black_vinegar` (black vinegar)
 - `broth_and_stock` (broth)
 - `brown_sugar` (brown sugar)
 - `butter` (butter)
 - `cinnamon` (cinnamon)
-- `cream_of_tartar` (cream of tartar)
 - `date` (date)
 - `dried_chili` (dried chili)
+- `grape_juice` (grape juice)
 - `green_onion` (green onion)
 - `instant_noodles` (instant noodles)
 - `margarine` (margarine)
@@ -58,6 +56,26 @@ Rounding error is the largest relative error of any non-negligible amount; above
 
 - smelting: 1 recipe, rounding 17% ⚠, estimated
 - smoking: 1 recipe, rounding 17% ⚠, estimated
+
+### `baking_powder.mix` (mix)
+
+- create_mixing: 1 recipe, rounding 4%, estimated
+- shapeless_crafting: 1 recipe, rounding 15%, estimated
+
+### `baking_soda.ash_kelp` (ash)
+
+- smelting: none, whole items would distort it by 4700%
+- blasting: none, whole items would distort it by 4700%
+- create_heated_mixing: 1 recipe, rounding 4%
+
+### `baking_soda.calcine_calcite` (calcine)
+
+- create_heated_mixing: 1 recipe, rounding 0%
+- blasting: 1 recipe, rounding 12%, drops `carbon_dioxide`
+
+### `baking_soda.carbonate` (carbonate)
+
+- create_mixing: 3 recipes, rounding 6%, estimated
 
 ### `bangers_and_mash.step_2` (pan_fry)
 
@@ -111,6 +129,20 @@ Rounding error is the largest relative error of any non-negligible amount; above
 No routes: time-based changes wait for a time mechanic.
 
 ### `bread.stale` (stale)
+
+No routes: time-based changes wait for a time mechanic.
+
+### `cream_of_tartar.crystallize` (crystallize)
+
+- create_item_drain: 1 recipe, rounding 24% ⚠, estimated
+- create_mixing: 1 recipe, rounding 4%, estimated
+
+### `cream_of_tartar.dissolve_argol` (dissolve)
+
+- create_mixing: 1 recipe, rounding 0%, estimated
+- shapeless_crafting: 1 recipe, rounding 56% ⚠, estimated
+
+### `cream_of_tartar.ferment_grape_juice` (ferment)
 
 No routes: time-based changes wait for a time mechanic.
 
@@ -471,6 +503,10 @@ No routes: time-based changes wait for a time mechanic.
 
 - smelting: 1 recipe, rounding 17% ⚠, estimated
 - smoking: 1 recipe, rounding 17% ⚠, estimated
+
+### `starch.evaporate_starchy_water` (evaporate)
+
+- create_heated_mixing: 1 recipe, rounding 3%
 
 ### `stir_fried_potatoes.rinse` (rinse)
 

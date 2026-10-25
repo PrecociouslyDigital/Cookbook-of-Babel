@@ -22,7 +22,7 @@ public sealed interface Carrier {
     /** The carrier a substance of this form has unless its definition says otherwise. */
     static Carrier forForm(Form form) {
         return switch (form) {
-            case LIQUID, BATTER, FOAM -> new Flowable(Container.BOTTLE);
+            case LIQUID, BATTER, FOAM, GAS -> new Flowable(Container.BOTTLE);
             case POWDER, GRANULE -> new Flowable(Container.PAPER_TWIST);
             case WHOLE, PIECE, SLICE, SHRED, DICE, MASH, PASTE, GEL, CURD, SOLID -> SOLID;
         };

@@ -1,5 +1,6 @@
 package cookbookofbabel.minecraft.datagen.plan;
 
+import static cookbookofbabel.minecraft.datagen.plan.RouteKind.BLASTING;
 import static cookbookofbabel.minecraft.datagen.plan.RouteKind.CAMPFIRE;
 import static cookbookofbabel.minecraft.datagen.plan.RouteKind.CREATE_CUTTING;
 import static cookbookofbabel.minecraft.datagen.plan.RouteKind.CREATE_DEPLOYING;
@@ -43,6 +44,12 @@ public final class Techniques {
             bind("separate", CREATE_ITEM_DRAIN, CREATE_MIXING),
             bind("coagulate", CREATE_MIXING),
             bind("assemble", SHAPELESS_CRAFTING, CREATE_DEPLOYING),
+            // Calcining gives off a gas, which only a basin can collect.
+            bind("calcine", CREATE_HEATED_MIXING, BLASTING),
+            // Ash needs far more input than a furnace takes at once, so a basin too.
+            bind("ash", SMELTING, BLASTING, CREATE_HEATED_MIXING),
+            bind("carbonate", CREATE_MIXING),
+            bind("evaporate", CREATE_HEATED_MIXING),
             Map.entry(new TechniqueId("cool"), new Binding.Elidable()),
             Map.entry(new TechniqueId("chill"), new Binding.Elidable()),
             Map.entry(new TechniqueId("age"), new Binding.Deferred("time-based changes wait for a time mechanic")));
