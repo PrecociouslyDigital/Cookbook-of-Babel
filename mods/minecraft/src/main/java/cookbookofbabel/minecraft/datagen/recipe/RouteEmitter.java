@@ -207,26 +207,39 @@ public final class RouteEmitter {
 
     /**
      * The stack an output makes. The main output follows its candidate; any other output is the
-     * mod's own, or the vanilla item it maps to, which is always there.
+     * mod's own, or the vanilla item or fluid it maps to, which is always there.
      */
     private Object stack(Planned.Out out, Optional<Target> target) {
-        var chosen = target.orElseGet(() -> vanillaItem(out.ingredient()).<Target>map(t -> t).orElseGet(Target.Own::new));
         if (out instanceof FluidOut fluid) {
-            return chosen instanceof Target.External e
-                    ? new FluidStack(ForgeRegistries.FLUIDS.getValue(new ResourceLocation(e.id())), fluid.millibuckets())
-                    : carriers.ownFluid(fluid.ingredient(), fluid.millibuckets());
+            var chosen = target.or(() -> vanilla(out.ingredient(), Candidates::fluids));
+            return chosen.filter(t -> t instanceof Target.External)
+                    .map(t -> new FluidStack(registered(ForgeRegistries.FLUIDS, ((Target.External) t).id()), fluid.millibuckets()))
+                    .orElseGet(() -> carriers.ownFluid(fluid.ingredient(), fluid.millibuckets()));
         }
         var item = (ItemOut) out;
-        return chosen instanceof Target.External e
-                ? new ItemStack(ForgeRegistries.ITEMS.getValue(new ResourceLocation(e.id())), externalCount(item.ingredient(), item.count(), e.amount()))
-                : carriers.own(item.ingredient(), item.count());
+        var chosen = target.or(() -> vanilla(out.ingredient(), Candidates::items));
+        return chosen.filter(t -> t instanceof Target.External)
+                .map(t -> {
+                    var e = (Target.External) t;
+                    return new ItemStack(registered(ForgeRegistries.ITEMS, e.id()), externalCount(item.ingredient(), item.count(), e.amount()));
+                })
+                .orElseGet(() -> carriers.own(item.ingredient(), item.count()));
     }
 
-    private Optional<Target.External> vanillaItem(IngredientId ingredient) {
+    private Optional<Target> vanilla(IngredientId ingredient, java.util.function.BiFunction<Mod, Mapping.Entry, List<Target.External>> provided) {
         return mappings.stream()
                 .filter(m -> m.mod() == Mod.MINECRAFT)
-                .flatMap(m -> m.entry(ingredient).stream().flatMap(e -> Candidates.items(m.mod(), e).stream()))
+                .flatMap(m -> m.entry(ingredient).stream().flatMap(e -> provided.apply(m.mod(), e).stream()))
+                .<Target>map(t -> t)
                 .findFirst();
+    }
+
+    private static <T> T registered(net.minecraftforge.registries.IForgeRegistry<T> registry, String id) {
+        var key = new ResourceLocation(id);
+        if (!registry.containsKey(key)) {
+            throw new IllegalStateException("no " + registry.getRegistryName() + " " + id);
+        }
+        return registry.getValue(key);
     }
 
     /** How many of another mod's item make as much as {@code count} of the mod's own. */
@@ -274,7 +287,7 @@ public final class RouteEmitter {
             var gate = mapping.mod().alwaysLoaded() ? List.<Condition>of() : List.<Condition>of(new Condition.ModLoaded(mapping.mod()));
             mapping.entry(in.ingredient()).ifPresent(entry -> {
                 entry.fluids().forEach(f -> choices.add(new FluidChoice(
-                        FluidIngredient.fromFluid(ForgeRegistries.FLUIDS.getValue(new ResourceLocation(f)), in.millibuckets()), gate)));
+                        FluidIngredient.fromFluid(registered(ForgeRegistries.FLUIDS, f), in.millibuckets()), gate)));
                 Mapping.withMirrors(entry.fluidTags()).forEach(t -> choices.add(new FluidChoice(
                         FluidIngredient.fromTag(TagKey.create(Registries.FLUID, new ResourceLocation(t)), in.millibuckets()), gate)));
             });
