@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Runs the whole Wikibooks extraction: fetch the dump, extract, ask mammoth
+# Runs the whole Wikibooks extraction: fetch the dump, extract, ask the models
 # every pending decision, and extract again, until nothing is pending or the
 # day's free requests run out. Then validates the dataset. Needs the API key:
 #   secretspec run --reason "extract the wikibooks cookbook" -- data/extractors/wikibooks/run.sh

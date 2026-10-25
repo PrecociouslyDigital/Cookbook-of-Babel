@@ -1,4 +1,4 @@
-{- | Turn a recipe page and mammoth's answers about it into babel
+{- | Turn a recipe page and Jev's answers about it into babel
 entities: a source, one recipe per step that works on food, and the
 intermediate each step makes.
 -}
@@ -156,7 +156,7 @@ data Dish = Dish
 
 uncertain :: Text -> Judged a -> [Issue]
 uncertain field j =
-    [ Issue field Uncertain ("mammoth gave this answer a probability of " <> show2 j.probability)
+    [ Issue field Uncertain ("the decision model gave this answer a probability of " <> show2 j.probability)
     | j.probability < confidenceThreshold
     ]
 
@@ -166,7 +166,7 @@ estimate field = Issue field Estimate
 show2 :: Double -> Text
 show2 x = show (fromIntegral (round (x * 100) :: Int) / 100 :: Double)
 
--- | An ingredient line, the ingredient it names, and the step mammoth says first uses it.
+-- | An ingredient line, the ingredient it names, and the step Jev says first uses it.
 data Use = Use {line :: Line, ingredient :: IngredientId, firstStep :: Judged (Maybe Int)}
 
 -- | A step that works on food, with the ingredient lines it takes in.
@@ -175,10 +175,10 @@ data Kept = Kept {step :: Step, answers :: StepAnswers, intake :: [Use]}
 dish :: Env -> RecipePage -> PageAnswers -> Either Text Dish
 dish env page answers = do
     unless answers.singleDish.value $
-        Left ("mammoth judged it not a single dish (p=" <> show2 answers.singleDish.probability <> ")")
+        Left ("Jev judged it not a single dish (p=" <> show2 answers.singleDish.probability <> ")")
     dishId <- maybeToRight "the title names no ingredient" (ingredientFor env page.title)
     uses <- traverse use answers.ingredients
-    kept <- maybeToRight "mammoth judged that no step works on food" (nonEmpty [Kept s a [] | (s, a) <- toList answers.steps, a.actsOnFood.value])
+    kept <- maybeToRight "Jev judged that no step works on food" (nonEmpty [Kept s a [] | (s, a) <- toList answers.steps, a.actsOnFood.value])
     let lastNumber = (last kept).step.number
         assigned = foldl' assign kept [(u, n) | u <- toList uses, Just n <- [u.firstStep.value]]
         unused =
@@ -206,7 +206,7 @@ dish env page answers = do
             }
   where
     use (l, j) = maybe (Left ("no ingredient ID for " <> quote l.text)) (\i -> Right (Use l i j)) (ingredientFor env l.parsed.ingredient)
-    -- A line goes in at the first kept step at or after the one mammoth
+    -- A line goes in at the first kept step at or after the one Jev
     -- named, or the last kept step when none is.
     assign ks (u, n) =
         let target = maybe (last ks).step.number (.step.number) (find ((>= n) . (.step.number)) ks)

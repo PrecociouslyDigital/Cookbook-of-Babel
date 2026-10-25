@@ -1,8 +1,8 @@
-{- | Requests to mammoth-1, OpenRouter's decision model. A request is a
-state and a set of typed questions; the model answers each with
-probabilities. An 'Ask' builds the questions and the decoder of their
-answers together, so decoding yields a complete typed record or says
-which answer is missing.
+{- | Requests to OpenRouter's decision models. A request is a state and a
+set of typed questions; the model answers each with probabilities.
+An 'Ask' builds the questions and the decoder of their answers
+together, so decoding yields a complete typed record or says which
+answer is missing.
 -}
 module Wikibooks.Questions (
     Judged (..),
@@ -20,7 +20,8 @@ module Wikibooks.Questions (
     keyText,
     mkKey,
     answer,
-    model,
+    Model (..),
+    modelId,
     maxRequestBytes,
     maxOptions,
     Vocabulary (..),
@@ -134,16 +135,30 @@ probabilities a = case KM.lookup "probabilities" a of
 
 -- * Requests
 
-data Request a = Request {state :: Value, ask :: Ask a}
+data Request a = Request {model :: Model, state :: Value, ask :: Ask a}
 
-model :: Text
-model = "baseten/mammoth-1:free"
+data Model
+    = -- | Cheap and fast, for questions answered by the request itself.
+      Jev
+    | {- | For questions that need knowledge of the world; free, but only
+      1,000 requests a day.
+      -}
+      Mammoth
+    deriving stock (Eq, Show)
 
-{- | mammoth-1 reads at most 16k tokens. JSON runs at about 2.6 bytes a
-token; this leaves room for the model's own prompt.
+modelId :: Model -> Text
+modelId = \case
+    Jev -> "typesafe/jev-1.14"
+    Mammoth -> "baseten/mammoth-1:free"
+
+{- | JSON runs at about 2.6 bytes a token. mammoth-1 reads at most 16k
+tokens, which leaves room for its own prompt; past about 32,000 bytes Jev
+switches to a slower, less accurate long-context mode.
 -}
-maxRequestBytes :: Int64
-maxRequestBytes = 36000
+maxRequestBytes :: Model -> Int64
+maxRequestBytes = \case
+    Jev -> 32000
+    Mammoth -> 36000
 
 -- | The API takes at most this many options across a request's questions.
 maxOptions :: Int
@@ -167,7 +182,7 @@ requestParts r = map part (pack [] 0 questions)
         | n + q.options > maxOptions && not (null acc) = reverse acc : pack [q] q.options qs
         | otherwise = pack (q : acc) (n + q.options) qs
     part qs =
-        let body = Aeson.encode (object ["model" .= model, "state" .= r.state, "questions" .= object [Key.fromText q.name .= q.body | q <- qs]])
+        let body = Aeson.encode (object ["model" .= modelId r.model, "state" .= r.state, "questions" .= object [Key.fromText q.name .= q.body | q <- qs]])
          in Part (Key (decodeUtf8 (toLazyByteString (byteStringHex (SHA256.hashlazy body))))) body
 
 -- | The SHA-256 of a request body, in hex: the name of its answer file.
@@ -192,7 +207,7 @@ answer r parts = do
 
 -- * The questions the extractor asks
 
--- | The registries mammoth chooses from, with each entry's description.
+-- | The registries the models choose from, with each entry's description.
 data Vocabulary = Vocabulary
     { techniques :: NonEmpty (TechniqueId, Text)
     , media :: [(MediumId, Text)]
@@ -228,7 +243,8 @@ single dish, what each step does, and where each ingredient goes in.
 pageRequest :: Vocabulary -> RecipePage -> Request PageAnswers
 pageRequest vocab page =
     Request
-        { state =
+        { model = Jev
+        , state =
             object
                 [ "recipe" .= titleText page.title
                 , "ingredients" .= object [key i .= l.text | (i, l) <- toList numberedLines]
@@ -279,7 +295,8 @@ data IngredientAnswers = IngredientAnswers
 ingredientRequest :: Vocabulary -> Text -> Text -> Request IngredientAnswers
 ingredientRequest vocab label description =
     Request
-        { state = object ["ingredient" .= label, "description" .= T.take 1500 description]
+        { model = Mammoth
+        , state = object ["ingredient" .= label, "description" .= T.take 1500 description]
         , ask =
             IngredientAnswers
                 <$> choice "form" "What form is this ingredient in, as usually bought?" (registryOptions vocab.forms)

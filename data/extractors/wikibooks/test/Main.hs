@@ -1,6 +1,6 @@
 {- | Properties of the parsers and of the dish chains built from any
 answers, and a golden test of one real page with fixed answers. They run
-against the real registries in @data/@, the ones extraction asks mammoth
+against the real registries in @data/@, the ones extraction asks the models
 to choose from.
 -}
 module Main (main) where

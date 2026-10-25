@@ -16,7 +16,9 @@ paths:
   about 8 GB), and its tests with `cd babel && cabal test babel-openfoodfacts`.
   Correct a wrong or missing category in its `matches.json`, never in the
   extracted layer.
-- `decisions/` freezes mammoth-1's answers, keyed by the SHA-256 of each request.
-  Changing a question's wording, a registry it lists, or the page text it
-  quotes makes new requests, and the free model answers only about 1,000 a day,
-  so batch such changes.
+- `decisions/` freezes the decision models' answers, keyed by the SHA-256 of
+  each request. Changing a question's wording, a registry it lists, or the page
+  text it quotes makes new requests. Questions about a page go to Jev, which is
+  paid but cheap; questions about an ingredient need knowledge of the world, so
+  they go to mammoth-1, which answers only about 1,000 a day for free; batch
+  changes to ingredient questions.

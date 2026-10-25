@@ -25,7 +25,7 @@ import Wikibooks.Dump (Title, article, articles)
 import Wikibooks.Emit (Dish (..), Env (..), baseIngredient, baseLabel, dish, ingredientFor, lexicon)
 import Wikibooks.Page (Line (..), RecipePage (..), recipePage)
 import Wikibooks.Quantity (IngredientLine (..))
-import Wikibooks.Questions (Key, Part (..), Request, answer, ingredientRequest, maxRequestBytes, pageRequest, requestParts)
+import Wikibooks.Questions (Key, Part (..), Request (..), answer, ingredientRequest, maxRequestBytes, pageRequest, requestParts)
 import Wikibooks.Wikitext (intro)
 
 -- | The @answers@ object of every decision made so far, by request key.
@@ -54,7 +54,7 @@ data Decided a = Answered a | Unasked [Part] | Unusable Text
 
 decide :: Decisions -> Request a -> Decided a
 decide decisions r
-    | Just big <- find ((> maxRequestBytes) . BL.length . (.body)) parts =
+    | Just big <- find ((> maxRequestBytes r.model) . BL.length . (.body)) parts =
         Unusable ("the decision request is too large (" <> show (BL.length big.body) <> " bytes)")
     | otherwise = case traverse (\p -> Map.lookup p.key decisions) parts of
         Nothing -> Unasked [p | p <- parts, not (Map.member p.key decisions)]
