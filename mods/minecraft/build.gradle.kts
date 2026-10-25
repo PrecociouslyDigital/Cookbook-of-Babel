@@ -1,0 +1,161 @@
+plugins {
+    java
+    alias(libs.plugins.moddev.legacyforge)
+}
+
+// Every resolved dependency is pinned (gradle.lockfile) and checksummed
+// (gradle/verification-metadata.xml). After changing a dependency, refresh both
+// with scripts/pin-dependencies.sh. Locking is lenient because Minecraft's
+// libraries differ per OS: a module locked on macOS may not resolve on Linux,
+// but whatever does resolve must be the locked version.
+dependencyLocking {
+    lockAllConfigurations()
+    lockMode = LockMode.LENIENT
+}
+buildscript {
+    dependencyLocking {
+        lockAllConfigurations()
+        lockMode = LockMode.LENIENT
+    }
+}
+
+val modId = "cookbook_of_babel"
+val gameVersion = libs.versions.minecraft.get()
+
+version = "0.1.0"
+group = "cookbookofbabel"
+base.archivesName = "$modId-$gameVersion"
+
+java.toolchain.languageVersion = JavaLanguageVersion.of(17)
+
+tasks.withType<JavaCompile>().configureEach {
+    options.encoding = "UTF-8"
+    options.release = 17
+    options.compilerArgs.add("-Xlint:deprecation")
+}
+
+val repoRoot: File = rootDir.resolve("../..")
+val datasetExport = layout.buildDirectory.file("babel/world.json")
+
+// The only way the mod reads the dataset. Needs `babel` on the PATH (devenv
+// provides it). Plain builds don't run it: what it feeds is committed.
+val exportDataset by tasks.registering(Exec::class) {
+    description = "Exports the dataset with `babel export`."
+    inputs.dir(repoRoot.resolve("data"))
+    inputs.dir(repoRoot.resolve("babel/src"))
+    inputs.dir(repoRoot.resolve("babel/app"))
+    outputs.file(datasetExport)
+    commandLine("babel", "export", repoRoot.resolve("data").path, "--out", datasetExport.get().asFile.path)
+}
+
+val generateDatasetSources by tasks.registering(cookbookofbabel.gradle.GenerateDatasetSources::class) {
+    description = "Generates the Java enums that mirror the dataset's forms and named dishes."
+    export = layout.file(exportDataset.map { datasetExport.get().asFile })
+    output = layout.projectDirectory.dir("src/generated/java")
+}
+
+tasks.compileJava { mustRunAfter(generateDatasetSources) }
+
+sourceSets.main {
+    java.srcDir("src/generated/java")
+    resources {
+        srcDir("src/generated/resources")
+        exclude(".cache/")
+    }
+}
+
+legacyForge {
+    enable {
+        forgeVersion = "$gameVersion-${libs.versions.forge.get()}"
+    }
+
+    parchment {
+        minecraftVersion = libs.versions.minecraft
+        mappingsVersion = libs.versions.parchment
+    }
+
+    mods {
+        create(modId) {
+            sourceSet(sourceSets.main.get())
+        }
+    }
+
+    runs {
+        configureEach {
+            systemProperty("forge.logging.console.level", "info")
+        }
+        create("client") {
+            client()
+        }
+        create("server") {
+            server()
+            gameDirectory = file("run/server")
+        }
+        create("data") {
+            data()
+            programArguments.addAll(
+                "--mod", modId,
+                "--all",
+                "--output", file("src/generated/resources").absolutePath,
+                "--existing", file("src/main/resources").absolutePath,
+            )
+        }
+        create("gameTestServer") {
+            type = "gameTestServer"
+            gameDirectory = file("run/gametest")
+        }
+    }
+}
+
+// Regenerating always starts from a fresh export.
+tasks.named("runData") { dependsOn(generateDatasetSources) }
+
+repositories {
+    exclusiveContent {
+        forRepository { maven("https://maven.createmod.net") }
+        filter {
+            includeGroup("com.simibubi.create")
+            includeGroup("dev.engine-room.flywheel")
+            includeGroup("net.createmod.ponder")
+        }
+    }
+    exclusiveContent {
+        forRepository { maven("https://maven.ithundxr.dev/mirror") }
+        filter { includeGroup("com.tterrag.registrate") }
+    }
+    exclusiveContent {
+        forRepository { maven("https://api.modrinth.com/maven") }
+        filter { includeGroup("maven.modrinth") }
+    }
+    exclusiveContent {
+        forRepository { maven("https://maven.blamejared.com") }
+        filter { includeGroup("mezz.jei") }
+    }
+    mavenCentral()
+}
+
+// Create, Farmer's Delight and JEI are optional at runtime (see mods.toml), but
+// always present in development and datagen runs.
+dependencies {
+    modImplementation(variantOf(libs.create) { classifier("slim") }) { isTransitive = false }
+    modImplementation(libs.ponder)
+    modImplementation(libs.registrate)
+    modCompileOnly(libs.flywheel.api)
+    modRuntimeOnly(libs.flywheel)
+    modImplementation(libs.farmersdelight)
+    modCompileOnly(libs.jei.common.api)
+    modCompileOnly(libs.jei.forge.api)
+    modRuntimeOnly(libs.jei.forge)
+
+    testImplementation(libs.jqwik)
+}
+
+tasks.test {
+    useJUnitPlatform()
+}
+
+tasks.processResources {
+    val properties = mapOf("version" to project.version, "minecraft" to gameVersion)
+    inputs.properties(properties)
+    filesMatching("META-INF/mods.toml") { expand(properties) }
+}

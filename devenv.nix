@@ -50,6 +50,13 @@ in
   # to start a command while a required one is missing.
   env.SECRETSPEC_PROVIDER = "keyring";
 
+  # The Minecraft mod (mods/minecraft) targets Java 17, as Minecraft 1.20.1 does.
+  # Gradle comes from the project's pinned wrapper, not from nixpkgs.
+  languages.java = {
+    enable = true;
+    jdk.package = pkgs.jdk17;
+  };
+
   languages.haskell = {
     enable = true;
     package = ghc;

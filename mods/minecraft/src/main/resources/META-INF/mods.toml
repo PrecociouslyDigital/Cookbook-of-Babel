@@ -1,0 +1,41 @@
+modLoader = "javafml"
+loaderVersion = "[47,)"
+license = "CC0-1.0 (code); the bundled recipe data is under the licences in LICENSE-data"
+issueTrackerURL = "https://github.com/PrecociouslyDigital/Cookbook-of-Babel/issues"
+
+[[mods]]
+modId = "cookbook_of_babel"
+version = "${version}"
+displayName = "Cookbook of Babel"
+description = '''
+Real recipes from the Cookbook of Babel dataset, cooked in the machines of Create, Farmer's Delight and vanilla.
+'''
+
+[[dependencies.cookbook_of_babel]]
+modId = "forge"
+mandatory = true
+versionRange = "[47.1,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.cookbook_of_babel]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[${minecraft}]"
+ordering = "NONE"
+side = "BOTH"
+
+# Recipes for these machines are only enabled when the mod is present.
+[[dependencies.cookbook_of_babel]]
+modId = "create"
+mandatory = false
+versionRange = "[6.0.8,)"
+ordering = "AFTER"
+side = "BOTH"
+
+[[dependencies.cookbook_of_babel]]
+modId = "farmersdelight"
+mandatory = false
+versionRange = "[1.20.1-1.3.4,)"
+ordering = "AFTER"
+side = "BOTH"

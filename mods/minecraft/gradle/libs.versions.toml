@@ -1,0 +1,31 @@
+# Every upstream version the mod builds against. Renovate opens PRs that bump
+# these; CI then regenerates the datapack against the new versions.
+[versions]
+minecraft = "1.20.1"
+# NeoForge 1.20.1 forked from Forge 47.1, so building against 47.1 keeps the
+# jar loadable on both.
+forge = "47.1.33"
+parchment = "2023.09.03"
+create = "6.0.8-291"
+flywheel = "1.0.6"
+ponder = "1.0.91"
+registrate = "MC1.20-1.3.3"
+farmersdelight = "1.20.1-1.3.4"
+jei = "15.20.0.106"
+jqwik = "1.9.3"
+moddev = "2.0.107"
+
+[libraries]
+create = { module = "com.simibubi.create:create-1.20.1", version.ref = "create" }
+flywheel-api = { module = "dev.engine-room.flywheel:flywheel-forge-api-1.20.1", version.ref = "flywheel" }
+flywheel = { module = "dev.engine-room.flywheel:flywheel-forge-1.20.1", version.ref = "flywheel" }
+ponder = { module = "net.createmod.ponder:Ponder-Forge-1.20.1", version.ref = "ponder" }
+registrate = { module = "com.tterrag.registrate:Registrate", version.ref = "registrate" }
+farmersdelight = { module = "maven.modrinth:farmers-delight", version.ref = "farmersdelight" }
+jei-forge-api = { module = "mezz.jei:jei-1.20.1-forge-api", version.ref = "jei" }
+jei-common-api = { module = "mezz.jei:jei-1.20.1-common-api", version.ref = "jei" }
+jei-forge = { module = "mezz.jei:jei-1.20.1-forge", version.ref = "jei" }
+jqwik = { module = "net.jqwik:jqwik", version.ref = "jqwik" }
+
+[plugins]
+moddev-legacyforge = { id = "net.neoforged.moddev.legacyforge", version.ref = "moddev" }
