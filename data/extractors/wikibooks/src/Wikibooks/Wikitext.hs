@@ -1,6 +1,7 @@
 {- | The parts of MediaWiki markup the extractor reads: sections, list
-items, Cookbook links, and the few templates that carry quantities.
-Everything else is reduced to its visible text or dropped.
+items, Cookbook links, written as links or {{cb}}, and the few templates
+that carry quantities. Everything else is reduced to its visible text or
+dropped.
 -}
 module Wikibooks.Wikitext (
     Inline (..),
@@ -23,7 +24,7 @@ import Data.List (lookup)
 import Data.Text qualified as T
 import Text.Megaparsec (Parsec, anySingle, choice, eof, manyTill, parseMaybe, satisfy, takeWhile1P, takeWhileP, try)
 import Text.Megaparsec.Char (char, string, string')
-import Wikibooks.Dump (Title, cookbookTitle, titleText)
+import Wikibooks.Dump (Title, cookbookTitle, mkTitle, titleText)
 
 -- * Inline markup
 
@@ -103,6 +104,7 @@ template = do
         ("frac", [a, b, c]) -> [Words (a <> " " <> b <> "/" <> c)]
         ("frac", [a, b]) -> [Words (a <> "/" <> b)]
         ("frac", [b]) -> [Words ("1/" <> b)]
+        ("cb", target : shown) -> [Link (mkTitle target) (fromMaybe target (listToMaybe shown))]
         (_, a : _) | name `elem` ["nowrap", "nobr", "nowrap begin"] -> inlines a
         _ -> []
     unit = \case
@@ -235,7 +237,7 @@ data PageKind = UnitPage | TechniquePage | EquipmentPage | OtherPage
 pageKind :: Text -> PageKind
 pageKind text = fromMaybe OtherPage (asum [lookup n kinds | n <- templateNames text])
   where
-    kinds = [("unit", UnitPage), ("technique", TechniquePage), ("equipment", EquipmentPage)]
+    kinds = [("unit", UnitPage), ("unit of measurement", UnitPage), ("technique", TechniquePage), ("equipment", EquipmentPage)]
 
 -- | The names of the templates a page uses, lower-cased.
 templateNames :: Text -> [Text]

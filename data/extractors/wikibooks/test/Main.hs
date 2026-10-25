@@ -9,6 +9,7 @@ import Babel.Load (World, loadWorld)
 import Babel.Model (Amount (..), IsId (..), Leaf (..), Outcome (..), Output (..), Recipe (..), Select (..), SourceRef (..))
 import Data.Aeson qualified as Aeson
 import Data.Aeson.Key qualified as Key
+import Data.Char (isNumber)
 import Data.List.NonEmpty qualified as NE
 import Data.Map.Strict qualified as Map
 import Data.Text qualified as T
@@ -35,11 +36,13 @@ main = do
             [ testGroup
                 "properties"
                 [ prop "an ingredient line reads back the amount and food it was written with" lineRoundTrip
+                , prop "a food named by a line's words has no numbers in its name" namesHaveNoNumbers
                 , prop "each recipe takes in the output of the one before it" (chainConnected env)
                 , prop "every ingredient line with a first step is taken in exactly once" (takenOnce env)
                 , prop "request keys do not depend on the order of the state's keys" (keysIgnoreOrder env)
                 , prop "no two questions in a page request share a name" (namesUnique env)
                 ]
+            , testGroup "real ingredient lines" [testCase (toString l) (realLine l expected) | (l, expected) <- realLines]
             , testCase "Pancakes (North American) becomes six steps" (pancakes world)
             ]
   where
@@ -81,6 +84,50 @@ lineRoundTrip = property $ do
             parsed.ingredient === food
             parsed.amount.unit === unit
             assert (abs (parsed.amount.qty - qty) < 1e-9)
+
+-- | Lines with no food link: amounts, units, sizes, notes and words.
+namesHaveNoNumbers :: Property
+namesHaveNoNumbers = property $ do
+    ws <-
+        forAll . Gen.list (Range.linear 1 8) $
+            Gen.choice
+                [ fst <$> genQty
+                , fst <$> Gen.element unitAliases
+                , Gen.element ["(about", "100°F)", "9-inch", "No.", "2", "or", "to", "taste", "of", "your", "choice"]
+                , Gen.text (Range.linear 1 8) Gen.alpha
+                ]
+    for_ (ingredientLine pageLexicon (inlines (T.unwords ws))) $ \parsed ->
+        assert (not (T.any isNumber (titleText parsed.ingredient)))
+
+-- | Links to these pages lead to units or techniques; any other page is a food.
+pageLexicon :: Lexicon
+pageLexicon = Lexicon{isFood = (`notElem` notFood), isTool = const False, weighs = const False}
+  where
+    notFood = map mkTitle ["Cup", "Liter", "Milliliter", "Ounce", "Tablespoon", "Kilogram", "Pound", "Inch", "Batter"]
+
+-- | Lines from the Cookbook, and the food each names, if any.
+realLines :: [(Text, Maybe Text)]
+realLines =
+    [ ("1 [[Cookbook:Cup|cup]] lukewarm (about 100°F or 38°C) water", Just "Water")
+    , ("About 3.5 [[Cookbook:Liter|L]] water", Just "Water")
+    , ("250 [[Cookbook:Milliliter|ml]] hot/boiling water, or more as needed", Just "Water")
+    , ("Enough cold water to form a [[Cookbook:Batter|batter]]", Just "Water")
+    , ("1 leveled [[Cookbook:Tablespoon|tbsp]] salt", Just "Salt")
+    , ("Shredded cheese of your choice", Just "Cheese")
+    , ("2 pkgs. (4 serving size) vanilla instant pudding", Just "Vanilla instant pudding")
+    , ("1 container (4.5 [[Cookbook:Ounce|oz]]) hickory smoke-flavored albacore tuna", Just "Hickory smoke-flavored albacore tuna")
+    , ("1 [[Cookbook:Cup|cup]] [[Cookbook:Grating|grated]] [[Cookbook:Monterey Jack Cheese|Monterey Jack]] cheese", Just "Monterey Jack Cheese")
+    , ("[[Cookbook:Ingredients|1 kg beef (thinly sliced)]]", Just "Beef")
+    , ("4 [[Cookbook:Kilogram|kg]] (8.8 [[Cookbook:Pound|lb]]) fresh {{cb|apple}}s", Just "Apple")
+    , ("~1 cup (250 ml) warm water", Just "Water")
+    , ("1 ea. 4-bone standing rib roast, prime grade", Just "Standing rib roast")
+    , ("2 cubes of mushroom base (bouillon) plus 1 cup of noodles", Just "Cubes of mushroom base")
+    , ("The juice of ½–1 lemon, or to taste", Just "Juice of lemon")
+    , ("1 fully-baked 9-[[Cookbook:Inch|inch]] graham cracker or pastry pie shell", Just "Fully-baked graham cracker")
+    ]
+
+realLine :: Text -> Maybe Text -> IO ()
+realLine l expected = ((.ingredient) <$> ingredientLine pageLexicon (inlines l)) @?= (mkTitle <$> expected)
 
 -- * Dish chains
 

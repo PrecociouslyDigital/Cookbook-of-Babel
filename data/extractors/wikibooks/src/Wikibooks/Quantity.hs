@@ -17,7 +17,7 @@ where
 
 import Babel.Model.Common (Amount (..))
 import Babel.Model.Id (UnitId (..))
-import Data.Char (isAlpha, isAlphaNum, isDigit, isPunctuation)
+import Data.Char (isAlpha, isAlphaNum, isDigit, isNumber, isPunctuation)
 import Data.List (lookup)
 import Data.Text qualified as T
 import Text.Megaparsec (Parsec, anySingle, choice, eof, notFollowedBy, oneOf, parse, satisfy, takeWhile1P, takeWhileP, try)
@@ -134,7 +134,7 @@ unitAliases =
         , UnitId "can" ~> ["can", "cans", "tin", "tins"]
         , UnitId "jar" ~> ["jar", "jars"]
         , UnitId "bottle" ~> ["bottle", "bottles"]
-        , UnitId "package" ~> ["package", "packages", "packet", "packets", "pack", "packs", "pkg", "sachet", "sachets"]
+        , UnitId "package" ~> ["package", "packages", "packet", "packets", "pack", "packs", "pkg", "pkgs", "sachet", "sachets", "container", "containers"]
         , UnitId "bag" ~> ["bag", "bags"]
         , UnitId "box" ~> ["box", "boxes"]
         ]
@@ -148,6 +148,7 @@ descriptors :: [Text]
 descriptors =
     ["large", "medium", "small", "whole", "fresh", "ripe", "big", "extra-large", "jumbo", "medium-sized", "medium-size", "mid-sized", "average-size", "small-sized", "large-sized"]
         <> ["green", "red", "yellow", "white", "black", "boneless", "skinless", "dried", "thin", "thick", "few", "little", "standard"]
+        <> ["level", "leveled", "levelled", "heaped", "heaping", "rounded"]
 
 normalizeUnitWord :: Text -> Text
 normalizeUnitWord w = case T.dropWhileEnd (== '.') w of
@@ -191,15 +192,19 @@ data Lexicon = Lexicon
 {- | Read a bulleted ingredient line. The food is the first link to a
 food, or else the words after the amount, up to a comma or a note such as
 "to taste". 'Nothing' when neither names a food.
+
+A link shown as a preparation ("[[Grating|grated]] cheese") or as a whole
+measured line ("[[Ingredients|1 kg beef]]") does not name the food.
 -}
 ingredientLine :: Lexicon -> [Inline] -> Maybe IngredientLine
 ingredientLine lexicon items = do
     let text = plain items
-        (q, rest) = leadingQty text
+        (q, rest) = leadingQty (unhedged text)
         afterQty = T.words rest
         unit = unitWords (dropWhile ((`elem` descriptors) . clean) (dropOf afterQty)) <* q
         afterUnit = maybe afterQty snd unit
-        linked = listToMaybe [(t, s) | Link t s <- items, lexicon.isFood t]
+        linked = listToMaybe [(t, s) | Link t s <- items, lexicon.isFood t, namesFood s]
+        namesFood shown = not (T.any isNumber shown || all isPreparation (T.words shown))
     food <- maybe (mkTitle <$> textName afterUnit) (Just . fst) linked
     let isOptional = "optional" `T.isInfixOf` T.toLower text
         line amount = IngredientLine food amount isOptional
@@ -232,13 +237,34 @@ ingredientLine lexicon items = do
 clean :: Text -> Text
 clean = T.toLower . T.filter (\c -> not (isPunctuation c) || c == '-')
 
-{- | A food's name from the words after its amount: without a leading
-measure in parentheses or words like "chopped", and cut at the first
-comma, parenthesis or note. At most four words, or it is likely a note.
+-- | Without a "~" or a word such as "about" that hedges the amount after it.
+unhedged :: Text -> Text
+unhedged text = case T.words (T.dropWhile (== '~') text) of
+    w : rest | clean w `elem` ["about", "approximately", "approx", "around", "roughly"] -> T.unwords rest
+    ws -> T.unwords ws
+
+{- | Whether a word only describes or prepares the food, as "chopped" or
+"hot/boiling" do.
+-}
+isPreparation :: Text -> Bool
+isPreparation = all ((`elem` preparation) . clean) . T.splitOn "/"
+  where
+    preparation =
+        descriptors
+            <> ["a", "an", "the", "some", "several", "about", "enough"]
+            <> ["additional", "extra", "more", "cold", "warm", "hot", "boiling", "lukewarm", "chilled", "softened", "melted", "beaten"]
+            <> ["chopped", "finely", "roughly", "coarsely", "minced", "diced", "sliced", "grated", "shredded", "crushed"]
+
+{- | A food's name from the words after its amount: without leading
+measures in parentheses or words like "chopped", and cut at the first
+comma, parenthesis or note such as "to taste" or "of your choice". Words
+with numbers in them give a size or an age ("9-inch", "2-day-old"), not
+the food, so they are left out. At most four words, or it is likely a
+note.
 -}
 textName :: [Text] -> Maybe Text
 textName ws = do
-    let name = takeWhile (not . stop) (dropWhile ((`elem` preparation) . clean) (dropParenthetical (dropOf ws)))
+    let name = filter (not . T.any isNumber) (untilNote (dropLeading (dropOf ws)))
         cut = T.toLower (T.unwords (map (T.dropWhileEnd (`elem` [',', ';', ':'])) (takeUntilPunctuation name)))
     guard (not (T.null cut) && length (T.words cut) <= 4)
     pure cut
@@ -246,21 +272,21 @@ textName ws = do
     dropOf = \case
         w : rest | clean w == "of" -> rest
         rest -> rest
-    dropParenthetical = \case
-        w : rest | "(" `T.isPrefixOf` w -> drop 1 (dropWhile (not . (")" `T.isSuffixOf`)) (w : rest))
+    dropLeading = \case
+        w : rest
+            | "(" `T.isPrefixOf` w -> dropLeading (drop 1 (dropWhile (not . (")" `T.isSuffixOf`)) (w : rest)))
+            | isPreparation w -> dropLeading rest
         rest -> rest
-    stop w = clean w `elem` ["or", "for", "to", "as", "per", "-", "–", "—"] || "(" `T.isPrefixOf` w
+    untilNote = \case
+        w : next : _ | clean w == "of", clean next `elem` ["choice", "your"] -> []
+        w : rest | clean w `notElem` ["or", "for", "to", "as", "per", "-", "–", "—"], not ("(" `T.isPrefixOf` w) -> w : untilNote rest
+        _ -> []
     -- Keep words up to and including one that ends in a comma or semicolon.
     takeUntilPunctuation = \case
         [] -> []
         w : rest
             | T.any (`elem` [',', ';', ':']) w -> [w]
             | otherwise -> w : takeUntilPunctuation rest
-    preparation =
-        descriptors
-            <> ["a", "an", "the", "some", "several", "about"]
-            <> ["additional", "extra", "more", "cold", "warm", "hot", "boiling", "lukewarm", "chilled", "softened", "melted", "beaten"]
-            <> ["chopped", "finely", "roughly", "coarsely", "minced", "diced", "sliced", "grated", "shredded", "crushed"]
 
 {- | The quantity a line opens with, and the text after it. "A" counts as
 one only before a unit, as in "a pinch of salt": "a little oil" has no
