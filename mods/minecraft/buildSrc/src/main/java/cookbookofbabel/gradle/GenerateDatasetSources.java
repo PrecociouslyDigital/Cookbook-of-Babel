@@ -94,7 +94,11 @@ public abstract class GenerateDatasetSources extends DefaultTask {
                 package %s;
 
                 import cookbookofbabel.minecraft.substance.Nutrition;
+                import java.util.Arrays;
+                import java.util.Map;
                 import java.util.Optional;
+                import java.util.function.Function;
+                import java.util.stream.Collectors;
 
                 /**
                  * The dataset's named dishes, each registered as an item of its own. Generated from the
@@ -109,11 +113,18 @@ public abstract class GenerateDatasetSources extends DefaultTask {
                     public final Form form;
                     public final Optional<Nutrition> nutrition;
 
+                    private static final Map<String, NamedDish> BY_ID =
+                            Arrays.stream(values()).collect(Collectors.toMap(d -> d.id, Function.identity()));
+
                     NamedDish(String id, String label, Form form, Optional<Nutrition> nutrition) {
                         this.id = id;
                         this.label = label;
                         this.form = form;
                         this.nutrition = nutrition;
+                    }
+
+                    public static Optional<NamedDish> byId(String id) {
+                        return Optional.ofNullable(BY_ID.get(id));
                     }
                 }
                 """.formatted(PACKAGE, constants);

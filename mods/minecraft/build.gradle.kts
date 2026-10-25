@@ -92,6 +92,10 @@ legacyForge {
         }
         create("data") {
             data()
+            systemProperty("cookbook_of_babel.export", datasetExport.get().asFile.absolutePath)
+            systemProperty("cookbook_of_babel.mappings", file("mappings").absolutePath)
+            systemProperty("cookbook_of_babel.coverage", file("coverage.md").absolutePath)
+            systemProperty("cookbook_of_babel.candidates", layout.buildDirectory.file("babel/candidates.json").get().asFile.absolutePath)
             programArguments.addAll(
                 "--mod", modId,
                 "--all",
@@ -101,6 +105,7 @@ legacyForge {
         }
         create("gameTestServer") {
             type = "gameTestServer"
+            systemProperty("forge.enabledGameTestNamespaces", modId)
             gameDirectory = file("run/gametest")
         }
     }
@@ -147,6 +152,13 @@ dependencies {
     modRuntimeOnly(libs.jei.forge)
 
     testImplementation(libs.jqwik)
+    testImplementation(libs.assertj)
+}
+
+// The properties test pure planning code, which only needs Minecraft's
+// libraries (DataFixerUpper's codecs) on the classpath, not a running game.
+sourceSets.test {
+    runtimeClasspath += sourceSets.main.get().compileClasspath
 }
 
 tasks.test {
@@ -157,4 +169,17 @@ tasks.processResources {
     val properties = mapOf("version" to project.version, "minecraft" to gameVersion)
     inputs.properties(properties)
     filesMatching("META-INF/mods.toml") { expand(properties) }
+}
+
+// The generated data on its own, for packs that want to replace the mod's
+// bundled recipes and tags with their own edits of them.
+val datapackZip by tasks.registering(Zip::class) {
+    description = "Packs the generated data as a standalone datapack."
+    archiveFileName = "$modId-$gameVersion-datapack.zip"
+    destinationDirectory = layout.buildDirectory.dir("distributions")
+    from("src/generated/resources") {
+        include("data/**", "ATTRIBUTION.md", "LICENSE-data")
+        exclude("data/$modId/structures/**")
+    }
+    from("src/main/resources/pack.mcmeta")
 }
