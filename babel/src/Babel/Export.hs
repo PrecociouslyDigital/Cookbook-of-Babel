@@ -7,6 +7,9 @@ Entities are encoded with the codecs of their files, so the export's
 schema is the file schema. Entity lists are sorted by ID, and the document is
 rendered through "Babel.Format", so exporting the same data twice gives the
 same bytes.
+
+The export also carries each ingredient's nutrition, stated or inferred via
+"Babel.Nutrition", so consumers don't have to re-derive it.
 -}
 module Babel.Export (
     Export (..),
@@ -19,13 +22,14 @@ import Babel.Codec (genericCodec)
 import Babel.Load (Located (..), World (..))
 import Babel.Model.Constants (Constants)
 import Babel.Model.Dataset (Dataset (..), Rename, Version)
-import Babel.Model.Id (FormId, ServingTagId, TasteAttrId, TextureAttrId)
+import Babel.Model.Id (FormId, IngredientId, ServingTagId, TasteAttrId, TextureAttrId)
 import Babel.Model.Ingredient (Ingredient)
-import Babel.Model.Measure (Measure)
+import Babel.Model.Measure (Measure, Per100g)
 import Babel.Model.Recipe (Recipe)
 import Babel.Model.Registry (Medium, Term, Unit)
 import Babel.Model.Source (Licence, Source)
 import Babel.Model.Technique (Technique)
+import Babel.Nutrition (derivedPer100g, nutritionOf)
 import Data.Map.Strict qualified as Map
 import Data.Set qualified as Set
 
@@ -38,6 +42,8 @@ data Export = Export
     , techniques :: [Technique]
     , recipes :: [Recipe]
     , measures :: [Measure]
+    , nutrition :: Map IngredientId Per100g
+    -- ^ One entry per ingredient with known nutrition, stated or inferred.
     , units :: [Unit]
     , forms :: [Term FormId]
     , media :: [Medium]
@@ -67,6 +73,7 @@ exportWorld licences w = do
             , techniques = values w.techniques
             , recipes = values w.recipes
             , measures = values w.measures
+            , nutrition = Map.mapMaybeWithKey (\i _ -> derivedPer100g <$> nutritionOf w i) w.ingredients
             , units = Map.elems w.units
             , forms = Map.elems w.forms
             , media = Map.elems w.media

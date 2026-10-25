@@ -22,6 +22,7 @@ import Babel.Format (render)
 import Babel.Layout (Axis (..), Kind (..), Layer (..), axes, placementFolders, placements)
 import Babel.Load (Located (..), World (..))
 import Babel.Model (Amount (..), AxisId (..), BandEntry (..), Branch (..), Constants (..), Dataset (..), DottedSlug (..), End (..), EntityKind (..), FormId (..), Ingredient (..), IngredientId (..), IsA (..), IsId (..), Issue (..), IssueKind (..), Leaf (..), Measure (..), MeasureValue (..), Outcome (..), Output (..), Per100g (..), Recipe (..), RecipeId (..), Rename (..), Role (..), Select (..), Sensitivity (..), Source (..), SourceId (..), SourceRef (..), Technique (..), TechniqueId (..), Term (..), UnitId (..), Version, bandFromCelsius, isSlug, licenceExpression, measureKey, mkTempBands, originLicence, parseVersion, renderVersion, satisfies, tempBandEntries)
+import Babel.Nutrition (derivedPer100g, nutritionOf)
 import Babel.Spoilage (Conditions (..), firstSpoilage, timeAt)
 import Babel.Validate (Report (..), validate)
 import Data.Aeson (Value (..))
@@ -126,6 +127,7 @@ codecProps =
         decoded.recipes === values r.world.recipes
         decoded.measures === values r.world.measures
         decoded.licence === toList r.licence
+        decoded.nutrition === Map.mapMaybeWithKey (\i _ -> derivedPer100g <$> nutritionOf r.world i) r.world.ingredients
         decoded === e
     , prop "rendering ends in one newline and indents by two" $ property $ do
         t <- forAll genTree
