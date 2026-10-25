@@ -17,6 +17,7 @@ module Main (main) where
 import Autodocodec (HasCodec, parseJSONViaCodec, toJSONViaCodec)
 import Babel.Check (findCycles)
 import Babel.Diagnostic (Diagnostic (..), isError, renderDiagnostic)
+import Babel.Export (Export (..), exportWorld)
 import Babel.Format (render)
 import Babel.Layout (Axis (..), Kind (..), Layer (..), axes, placementFolders, placements)
 import Babel.Load (Located (..), World (..))
@@ -114,6 +115,18 @@ codecProps =
         codecLaws t.mediumReg
         codecLaws t.formReg
         codecLaws t.textureReg
+    , prop "decoding the export of a dataset recovers its merged entities" $ property $ do
+        t <- forAll genTree
+        r <- check t
+        e <- maybe failure pure (exportWorld r.licence r.world)
+        decoded <- either (\err -> annotate err >> failure) pure (decode (render e))
+        decoded.sources === values r.world.sources
+        decoded.ingredients === values r.world.ingredients
+        decoded.techniques === values r.world.techniques
+        decoded.recipes === values r.world.recipes
+        decoded.measures === values r.world.measures
+        decoded.licence === toList r.licence
+        decoded === e
     , prop "rendering ends in one newline and indents by two" $ property $ do
         t <- forAll genTree
         f <- forAll (Gen.element (entityFiles t))
@@ -122,6 +135,9 @@ codecProps =
         assert ("\n" `T.isSuffixOf` rendered && not ("\n\n" `T.isSuffixOf` rendered))
         assert (all (even . T.length . T.takeWhile (== ' ')) (lines rendered))
     ]
+
+values :: Map k (Located a) -> [a]
+values = map (.value) . Map.elems
 
 -- * Rules
 

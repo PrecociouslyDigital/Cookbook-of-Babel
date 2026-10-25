@@ -1,6 +1,8 @@
 module Main (main) where
 
 import Babel.Diagnostic (isError, renderDiagnostic)
+import Babel.Export (exportWorld)
+import Babel.Format (render)
 import Babel.Layout (Axis (..), axes)
 import Babel.Load (World (..))
 import Babel.Model (Amount (..), Constants (..), IsId (..), Per100g (..), Recipe (..), bandFromCelsius, licenceExpression)
@@ -18,6 +20,7 @@ data Command
     = Validate FilePath Bool
     | Spoilage FilePath Text Double (Maybe Double)
     | NutritionOf FilePath (Maybe Text)
+    | Export FilePath FilePath
     | Layout
 
 main :: IO ()
@@ -29,6 +32,7 @@ commands :: Parser Command
 commands =
     hsubparser $
         command "validate" (info validateP (progDesc "Check the dataset; exit non-zero on any error"))
+            <> command "export" (info exportP (progDesc "Write the merged dataset as one JSON document; refuses while the dataset has errors"))
             <> command "layout" (info (pure Layout) (progDesc "Print each folder level under layers/, outermost first, with the folder names it accepts"))
             <> command
                 "query"
@@ -49,6 +53,7 @@ commands =
             <*> option auto (long "temp" <> metavar "C" <> help "Temperature in °C")
             <*> optional (option auto (long "aw" <> metavar "X" <> help "Water activity (default: the ingredient's own)"))
             <*> dataOption
+    exportP = Export <$> dataRoot <*> strOption (long "out" <> metavar "FILE" <> help "Where to write the export")
     nutritionP = flip NutritionOf <$> optional (strArgument (metavar "INGREDIENT")) <*> dataOption
     dataOption = strOption (long "data" <> metavar "DATA_ROOT" <> value "data" <> showDefault <> help "Data root")
 
@@ -63,8 +68,13 @@ run = \case
         unless (null errors) $ do
             T.hPutStrLn stderr (show (length errors) <> " error(s)")
             exitFailure
+    Export root out -> do
+        report <- validReport root
+        case exportWorld report.licence report.world of
+            Nothing -> exitFailure
+            Just e -> writeFileLBS out (render e)
     Spoilage root ing t aw -> do
-        world <- validWorld root
+        world <- (.world) <$> validReport root
         ingId <- parseId ing
         case world.constants of
             Nothing -> exitFailure
@@ -78,7 +88,7 @@ run = \case
                         (idText after.unit)
                         (idText (bandFromCelsius c.tempBands t))
     NutritionOf root ing -> do
-        world <- validWorld root
+        world <- (.world) <$> validReport root
         case ing of
             Just i -> do
                 ingId <- parseId i
@@ -103,14 +113,14 @@ run = \case
         Inferred r _ [] -> "inferred from " <> idText r
         Inferred r _ left -> "inferred from " <> idText r <> ", leaving out " <> T.intercalate ", " (map idText left) <> " as negligible"
 
--- | The loaded dataset, or exit if it has errors.
-validWorld :: FilePath -> IO World
-validWorld root = do
+-- | The validated report, or exit if the dataset has errors.
+validReport :: FilePath -> IO Report
+validReport root = do
     report <- validate False root
     when (any isError report.diagnostics) $ do
         T.hPutStrLn stderr "the dataset has errors; run `babel validate` first"
         exitFailure
-    pure report.world
+    pure report
 
 parseId :: (IsId a) => Text -> IO a
 parseId t = either (\err -> T.hPutStrLn stderr (toText err) >> exitFailure) pure (mkId t)

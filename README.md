@@ -15,6 +15,7 @@ babel validate               # checks data/; non-zero exit on any error
 babel validate --fix         # also rewrites non-canonically formatted files
 babel query spoilage bread --temp 20 --aw 0.95
 babel query nutrition pancake_dry_mix   # stated, or inferred from its recipe
+babel export --out world.json           # the merged dataset as one JSON document
 (cd babel && cabal test)
 ```
 
