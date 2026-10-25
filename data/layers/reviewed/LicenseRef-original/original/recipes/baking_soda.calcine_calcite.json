@@ -1,0 +1,45 @@
+{
+  "id": "baking_soda.calcine_calcite",
+  "source": "cookbook_of_babel",
+  "technique": "calcine",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "calcite",
+        "amount": {
+          "qty": 100,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "quicklime",
+      "amount": {
+        "qty": 56,
+        "unit": "g"
+      }
+    },
+    {
+      "ingredient": "carbon_dioxide",
+      "amount": {
+        "qty": 44,
+        "unit": "g"
+      },
+      "role": "byproduct"
+    }
+  ],
+  "environment": {
+    "temperatureC": 900,
+    "medium": "oven_air"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 2,
+      "unit": "h"
+    }
+  },
+  "stateNote": "calcium carbonate breaks down into calcium oxide, giving off carbon dioxide"
+}

@@ -1,0 +1,44 @@
+{
+  "id": "baking_soda.ash_kelp",
+  "source": "cookbook_of_babel",
+  "technique": "ash",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "dried_kelp",
+        "amount": {
+          "qty": 100,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "soda_ash",
+      "amount": {
+        "qty": 25,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 600,
+    "medium": "oven_air"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "h"
+    }
+  },
+  "stateNote": "burnt to a grey ash, the historical barilla process",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "kelp ash is crude soda ash; its other salts are counted in with it"
+    }
+  ]
+}

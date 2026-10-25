@@ -1,0 +1,51 @@
+{
+  "id": "baking_powder.mix",
+  "source": "cookbook_of_babel",
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "baking_soda",
+        "amount": {
+          "qty": 30,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "cream_of_tartar",
+        "amount": {
+          "qty": 60,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "starch",
+        "amount": {
+          "qty": 30,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "baking_powder",
+      "amount": {
+        "qty": 120,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "one part baking soda, two parts cream of tartar, one part starch to keep it dry"
+}
