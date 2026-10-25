@@ -13,8 +13,10 @@ paths:
   PATH; devenv provides it. A plain `./gradlew build` doesn't need it, because
   everything generated from the dataset is committed.
 - Versions of every upstream live in `gradle/libs.versions.toml`. After
-  changing a dependency, run `scripts/pin-dependencies.sh` to refresh the
-  lockfiles and `gradle/verification-metadata.xml`.
+  changing a dependency, run `scripts/pin-dependencies.sh` to refresh
+  `gradle/verification-metadata.xml` and the plugin lockfiles. Don't lock the
+  project's own configurations: locking them stops ModDevGradle from
+  remapping mod dependencies, which then crash at runtime.
 
 ## Generated files
 

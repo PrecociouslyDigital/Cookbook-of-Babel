@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Rewrites gradle.lockfile and gradle/verification-metadata.xml from a full
+# Rewrites the plugin lockfiles and gradle/verification-metadata.xml from a full
 # build. Gradle only resolves the host's LWJGL natives, so the other platforms'
 # are checksummed from Maven Central and added too; otherwise CI (Linux) would
 # fail verification for natives a macOS developer never downloaded.

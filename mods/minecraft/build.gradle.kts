@@ -3,15 +3,14 @@ plugins {
     alias(libs.plugins.moddev.legacyforge)
 }
 
-// Every resolved dependency is pinned (gradle.lockfile) and checksummed
-// (gradle/verification-metadata.xml). After changing a dependency, refresh both
-// with scripts/pin-dependencies.sh. Locking is lenient because Minecraft's
-// libraries differ per OS: a module locked on macOS may not resolve on Linux,
-// but whatever does resolve must be the locked version.
-dependencyLocking {
-    lockAllConfigurations()
-    lockMode = LockMode.LENIENT
-}
+// Every dependency version is exact (gradle/libs.versions.toml) and every
+// artifact checksummed (gradle/verification-metadata.xml); refresh the checksums
+// with scripts/pin-dependencies.sh after changing a dependency. The project's own
+// configurations aren't locked: locking them stops ModDevGradle from remapping
+// mod dependencies to official names, and they then crash at runtime. The plugins
+// are locked, leniently, because Minecraft's libraries differ per OS: a module
+// locked on macOS may not resolve on Linux, but whatever does resolve must be
+// the locked version.
 buildscript {
     dependencyLocking {
         lockAllConfigurations()
