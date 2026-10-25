@@ -30,6 +30,8 @@ module Wikibooks.Questions (
     pageRequest,
     IngredientAnswers (..),
     ingredientRequest,
+    foodGroups,
+    foodRequest,
 )
 where
 
@@ -42,6 +44,7 @@ import Data.Aeson (Value (..), object, (.=))
 import Data.Aeson qualified as Aeson
 import Data.Aeson.Key qualified as Key
 import Data.Aeson.KeyMap qualified as KM
+import Data.ByteString qualified as BS
 import Data.ByteString.Builder (byteStringHex, toLazyByteString)
 import Data.List (lookup)
 import Data.List.NonEmpty qualified as NE
@@ -309,3 +312,31 @@ ingredientRequest vocab label description =
         fmap (term.id,) . refine (traverse (first toText . mkIntensity)) $
             score (idText term.id) (phrase term.label <> maybe "" (\d -> " (" <> term.label <> ": " <> d <> ")") term.description) levels
     levels = "none" :| ["slight", "clear", "dominant"]
+
+{- | Names to ask about together, each in a group its hash picks, so a new
+name changes only its own group's request.
+-}
+foodGroups :: [Text] -> [[Text]]
+foodGroups names = Map.elems (Map.fromListWith (<>) [(groupOf n, [n]) | n <- sortNub names])
+  where
+    groupOf n = BS.head (SHA256.hash (encodeUtf8 n)) `mod` 16
+
+-- | Whether each name, which a recipe lists as an ingredient, names a food.
+foodRequest :: [Text] -> Request (Map Text (Judged Bool))
+foodRequest names =
+    Request
+        { model = Mammoth
+        , state = object ["ingredients" .= names]
+        , ask = Map.fromList <$> traverse isFood (zip [1 :: Int ..] names)
+        }
+  where
+    isFood (i, n) =
+        (n,)
+            <$> scoped
+                (show i)
+                ( noul
+                    "is_food"
+                    ("A recipe lists \"" <> n <> "\" as an ingredient. Does it name a food or drink?")
+                    "a food, drink or cooking ingredient"
+                    "not a food: a temperature, a measurement, a container, a placeholder, or a fragment of a sentence"
+                )

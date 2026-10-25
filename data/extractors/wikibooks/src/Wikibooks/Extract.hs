@@ -25,7 +25,7 @@ import Wikibooks.Dump (Title, article, articles)
 import Wikibooks.Emit (Dish (..), Env (..), baseIngredient, baseLabel, dish, ingredientFor, lexicon)
 import Wikibooks.Page (Line (..), RecipePage (..), recipePage)
 import Wikibooks.Quantity (IngredientLine (..))
-import Wikibooks.Questions (Key, Part (..), Request (..), answer, ingredientRequest, maxRequestBytes, pageRequest, requestParts)
+import Wikibooks.Questions (Judged (..), Key, Part (..), Request (..), answer, foodGroups, foodRequest, ingredientRequest, maxRequestBytes, pageRequest, requestParts)
 import Wikibooks.Wikitext (intro)
 
 -- | The @answers@ object of every decision made so far, by request key.
@@ -52,6 +52,13 @@ data Extraction = Extraction
 data Decided a = Answered a | Unasked [Part] | Unusable Text
     deriving stock (Functor)
 
+-- | A decision that can only be asked once an earlier one is answered.
+andThen :: Decided a -> (a -> Decided b) -> Decided b
+andThen d next = case d of
+    Answered a -> next a
+    Unasked ps -> Unasked ps
+    Unusable e -> Unusable e
+
 decide :: Decisions -> Request a -> Decided a
 decide decisions r
     | Just big <- find ((> maxRequestBytes r.model) . BL.length . (.body)) parts =
@@ -72,7 +79,7 @@ extract env decisions =
         , ingredients = concatMap (.made) emitted <> [ing | (i, Answered ing) <- Map.toList bases, i `Set.member` emittedUses]
         , recipes = concatMap (toList . (.recipes)) emitted
         , pending = Map.fromList [(p.key, p.body) | Unasked ps <- map (void . pageDecision . snd) recipePages <> map void (Map.elems bases), p <- ps]
-        , referenced = Set.fromList (map (.key) (concatMap (requestParts . pageRequest env.vocabulary . snd) recipePages <> concatMap (requestParts . baseRequest) (Map.elems baseTitles)))
+        , referenced = Set.fromList (map (.key) (concatMap (requestParts . pageRequest env.vocabulary . snd) recipePages <> concatMap (requestParts . baseRequest) (Map.elems baseTitles) <> concatMap (requestParts . foodRequest) nameGroups))
         , pages = [(t, status t) | (t, _, _) <- articles env.cookbook]
         , unknownUnits = Map.fromListWith (+) [(T.toLower w, 1) | (_, p) <- recipePages, l <- toList p.ingredients, Just w <- [l.parsed.unknownUnit]]
         }
@@ -108,7 +115,13 @@ extract env decisions =
         Map.fromListWith
             preferArticle
             [(i, t) | (_, d) <- ready, (i, t) <- Map.toList d.uses, not (Map.member i makers), not (Set.member i awaited)]
-    bases = Map.mapWithKey (\i t -> baseIngredient i t <$> decide decisions (baseRequest t)) baseTitles
+    bases = Map.mapWithKey (\i t -> baseIngredient i t <$> (isFood t `andThen` \food -> if food then decide decisions (baseRequest t) else Unusable ("mammoth judged that \"" <> baseLabel t <> "\" is not a food"))) baseTitles
+
+    -- A name with no page of its own comes from a recipe's words, which may name no food at all.
+    nameGroups = foodGroups [baseLabel t | t <- Map.elems baseTitles, isNothing (article env.cookbook t)]
+    foodVerdicts = Map.fromList [(n, decide decisions (foodRequest g) `andThen` verdict n) | g <- nameGroups, n <- g]
+    verdict n = maybe (Unusable ("no verdict on " <> n)) (Answered . (.value)) . Map.lookup n
+    isFood t = fromMaybe (Answered True) (Map.lookup (baseLabel t) foodVerdicts)
     baseRequest t =
         let label = baseLabel t
             description = maybe "" (\(_, _, w) -> intro w) (article env.cookbook t)
