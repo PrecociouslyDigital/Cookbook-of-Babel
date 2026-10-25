@@ -31,3 +31,72 @@ jobs:
       # so a commit made with --no-verify is still caught here.
       - name: Git hooks on all files
         run: devenv test
+
+  # The dataset and every upstream mod are inputs to the generated datapack,
+  # so this job checks that the committed output matches what the current
+  # inputs generate. On a Renovate branch, or a branch that changes data/, it
+  # commits the regenerated output instead, so an upstream bump arrives as one
+  # reviewable PR: version, checksums, generated diff and coverage diff.
+  minecraft:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
+      - uses: cachix/install-nix-action@v31
+      - uses: cachix/cachix-action@v16
+        with:
+          name: devenv
+      - name: Install devenv
+        run: nix profile add nixpkgs#devenv
+      - name: Cache cabal build output
+        uses: actions/cache@v4
+        with:
+          path: babel/dist-newstyle
+          key: dist-${{ runner.os }}-${{ hashFiles('devenv.lock', 'babel/cabal.project', '**/*.cabal') }}-${{ hashFiles('babel/**/*.hs', 'data/extractors/**/*.hs') }}
+          restore-keys: dist-${{ runner.os }}-${{ hashFiles('devenv.lock', 'babel/cabal.project', '**/*.cabal') }}-
+      - name: Cache Gradle
+        uses: actions/cache@v4
+        with:
+          path: |
+            ~/.gradle/caches
+            ~/.gradle/wrapper
+          key: gradle-${{ runner.os }}-${{ hashFiles('mods/minecraft/gradle/**', 'mods/minecraft/**/*.gradle.kts') }}
+          restore-keys: gradle-${{ runner.os }}-
+      - name: Decide whether to commit regenerated output
+        id: mode
+        run: |
+          default=${{ github.event.repository.default_branch }}
+          if [[ "${{ github.event_name }}" == push && "$GITHUB_REF_NAME" != "$default" ]] &&
+             { [[ "$GITHUB_REF_NAME" == renovate/* ]] || ! git diff --quiet "origin/$default...HEAD" -- data; }; then
+            echo "commit=true" >> "$GITHUB_OUTPUT"
+          fi
+      # A Renovate bump changes artifacts, so their checksums are pinned anew.
+      - name: Pin bumped dependencies
+        if: startsWith(github.ref_name, 'renovate/') && steps.mode.outputs.commit == 'true'
+        run: devenv shell -- bash -c 'cd mods/minecraft && scripts/pin-dependencies.sh'
+      - name: Regenerate
+        run: devenv shell -- bash -c 'cd mods/minecraft && ./gradlew runData'
+      - name: Check or commit the regenerated output
+        run: |
+          paths=(mods/minecraft/src/generated mods/minecraft/coverage.md mods/minecraft/gradle mods/minecraft/buildscript-gradle.lockfile)
+          if [[ -z "$(git status --porcelain -- "${paths[@]}")" ]]; then
+            exit 0
+          fi
+          if [[ "${{ steps.mode.outputs.commit }}" != true ]]; then
+            git status --short -- "${paths[@]}"
+            git diff --stat -- "${paths[@]}"
+            echo "Generated files are out of date; run ./gradlew runData in mods/minecraft." >&2
+            exit 1
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -- "${paths[@]}"
+          git commit -m "Regenerate the Minecraft datapack"
+          git push
+      - name: Build and test
+        run: devenv shell -- bash -c 'cd mods/minecraft && ./gradlew build'
+      - name: GameTests
+        run: devenv shell -- bash -c 'cd mods/minecraft && ./gradlew runGameTestServer'

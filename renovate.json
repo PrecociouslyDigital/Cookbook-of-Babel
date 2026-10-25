@@ -1,0 +1,59 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "config:recommended"
+  ],
+  "enabledManagers": [
+    "gradle",
+    "gradle-wrapper",
+    "github-actions"
+  ],
+  "packageRules": [
+    {
+      "description": "Create and its libraries publish to Create's own Maven",
+      "matchDatasources": [
+        "maven"
+      ],
+      "matchPackageNames": [
+        "com.simibubi.create:**",
+        "net.createmod.ponder:**",
+        "dev.engine-room.flywheel:**"
+      ],
+      "registryUrls": [
+        "https://maven.createmod.net"
+      ]
+    },
+    {
+      "description": "Farmer's Delight comes from Modrinth's Maven; only its 1.20.1 builds apply",
+      "matchDatasources": [
+        "maven"
+      ],
+      "matchPackageNames": [
+        "maven.modrinth:**"
+      ],
+      "registryUrls": [
+        "https://api.modrinth.com/maven"
+      ],
+      "allowedVersions": "/^1\\.20\\.1-/"
+    },
+    {
+      "description": "Registrate's 1.20 line",
+      "matchPackageNames": [
+        "com.tterrag.registrate:Registrate"
+      ],
+      "registryUrls": [
+        "https://maven.ithundxr.dev/mirror"
+      ],
+      "allowedVersions": "/^MC1\\.20-/"
+    },
+    {
+      "description": "JEI publishes to BlameJared's Maven",
+      "matchPackageNames": [
+        "mezz.jei:**"
+      ],
+      "registryUrls": [
+        "https://maven.blamejared.com"
+      ]
+    }
+  ]
+}
