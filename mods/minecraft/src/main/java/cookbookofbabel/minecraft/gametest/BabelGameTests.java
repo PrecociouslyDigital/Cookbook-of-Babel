@@ -17,6 +17,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collection;
 import java.util.Comparator;
+import java.util.List;
 import java.util.Map;
 import java.util.Optional;
 import java.util.stream.Collectors;
@@ -124,8 +125,13 @@ public final class BabelGameTests {
     public static void createMixingRuns(GameTestHelper helper) {
         var level = helper.getLevel();
         RecipeType<MixingRecipe> mixing = AllRecipeTypes.MIXING.getType();
-        var recipe = level.getRecipeManager().getAllRecipesFor(mixing).stream()
+        var generated = level.getRecipeManager().getAllRecipesFor(mixing).stream()
                 .filter(r -> r.getId().getNamespace().equals(CookbookOfBabel.ID))
+                .toList();
+        // Two pages can do the same step, and the basin then picks either recipe.
+        var sharingInputs = generated.stream().collect(Collectors.groupingBy(BabelGameTests::inputs, Collectors.counting()));
+        var recipe = generated.stream()
+                .filter(r -> sharingInputs.get(inputs(r)) == 1)
                 .filter(r -> r.getRequiredHeat() == HeatCondition.NONE && r.getFluidIngredients().isEmpty())
                 .filter(r -> r.getRollableResults().size() == 1 && r.getFluidResults().isEmpty())
                 .min(Comparator.comparing(r -> r.getId().toString()))
@@ -186,6 +192,10 @@ public final class BabelGameTests {
         var result = recipe.getResultItem(level.registryAccess());
         helper.assertItemEntityPresent(result.getItem(), pos, 2);
         helper.succeed();
+    }
+
+    private static List<String> inputs(MixingRecipe recipe) {
+        return recipe.getIngredients().stream().map(i -> i.toJson().toString()).sorted().toList();
     }
 
     /** The mod's own stack an ingredient accepts; its tags may be empty in a test world. */
