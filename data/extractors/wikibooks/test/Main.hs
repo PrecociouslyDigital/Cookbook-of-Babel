@@ -6,7 +6,8 @@ to choose from.
 module Main (main) where
 
 import Babel.Load (World, loadWorld)
-import Babel.Model (Amount (..), IsId (..), Leaf (..), Outcome (..), Output (..), Recipe (..), Select (..), SourceRef (..))
+import Babel.Model (Amount (..), FormId (..), Ingredient (..), IngredientId (..), IsId (..), Leaf (..), Outcome (..), Output (..), Recipe (..), Select (..), SourceRef (..), TechniqueId (..), UnitId (..))
+import Babel.Preparation (Preparation (..), determinesOutput, preparationOf)
 import Data.Aeson qualified as Aeson
 import Data.Aeson.Key qualified as Key
 import Data.Char (isNumber)
@@ -20,7 +21,7 @@ import Test.Tasty (defaultMain, testGroup)
 import Test.Tasty.HUnit (assertFailure, testCase, (@?=))
 import Test.Tasty.Hedgehog (testPropertyNamed)
 import Wikibooks.Dump (Title, article, cookbookFromPages, mkTitle, readCookbook, titleText)
-import Wikibooks.Emit (Dish (..), Env (..), dish, ingredientFor, lexicon, mkEnv)
+import Wikibooks.Emit (Dish (..), Env (..), PreparedStep (..), dish, ingredientFor, lexicon, mkEnv, preparedId)
 import Wikibooks.Page (Line (..), RecipePage (..), Step (..), recipePage)
 import Wikibooks.Quantity (IngredientLine (..), Lexicon (..), ingredientLine, unitAliases)
 import Wikibooks.Questions (IngredientAnswers, Judged (..), PageAnswers (..), Part (..), Request (..), StepAnswers (..), Vocabulary (..), answer, ingredientRequest, pageRequest, questionNames, requestParts)
@@ -41,9 +42,12 @@ main = do
                 , prop "every ingredient line with a first step is taken in exactly once" (takenOnce env)
                 , prop "request keys do not depend on the order of the state's keys" (keysIgnoreOrder env)
                 , prop "no two questions in a page request share a name" (namesUnique env)
+                , prop "a step that is a preparation makes the dataset's one item for it" (preparationsShared env)
                 ]
             , testGroup "real ingredient lines" [testCase (toString l) (realLine l expected) | (l, expected) <- realLines]
             , testCase "Pancakes (North American) becomes six steps" (pancakes world)
+            , testCase "julienning potatoes for fries makes the reviewed potato_shreds" (frenchFries env)
+            , testCase "a dish that is one preparation names the item for it" (sashimi env)
             ]
   where
     prop name = testPropertyNamed name (fromString name)
@@ -185,6 +189,16 @@ takenOnce env = forDish env $ \answers d -> do
         assigned = [i | (l, j) <- toList answers.ingredients, isJust j.value, Just i <- [ingredientFor env l.parsed.ingredient]]
     sort taken === sort assigned
 
+{- | Pages agree on what a preparation makes, so the dataset has one item
+for it. A preparation of the page's own intermediate is the page's alone.
+-}
+preparationsShared :: Env -> Property
+preparationsShared env = forDish env $ \_ d -> do
+    let own = map (.id) d.made
+    forM_ (toList d.recipes) $ \r -> case preparationOf (determinesOutput env.world) r of
+        Just (p, out) | p.ingredient `notElem` own -> out === preparedId env p
+        _ -> pure ()
+
 keysIgnoreOrder :: Env -> Property
 keysIgnoreOrder env = property $ do
     pairs <- forAll (Map.toList . Map.fromList <$> Gen.list (Range.linear 1 10) ((,) <$> Gen.text (Range.linear 1 5) Gen.alpha <*> Gen.text (Range.linear 0 10) Gen.alpha))
@@ -217,3 +231,41 @@ pancakes world = do
     let mixDry = (head d.recipes).inputs.choices
     sort [idText l.ingredient | Right l <- mixDry] @?= ["baking_powder", "salt", "wheat_flour"]
     [idText l.ingredient | Left optionalSugar <- mixDry, Right l <- optionalSugar.choices] @?= ["white_sugar"]
+
+-- * Preparations
+
+-- | A page of one-line steps, each answered with the given technique, all certain.
+answeredPage :: Text -> [(Text, Maybe Int)] -> [(Text, Text)] -> (RecipePage, PageAnswers)
+answeredPage title lines steps = (page, answers)
+  where
+    page =
+        RecipePage
+            { title = mkTitle title
+            , revid = 1
+            , slug = T.toLower (T.replace " " "_" title)
+            , intro = ""
+            , ingredients = fromList' [Line food (IngredientLine (mkTitle food) (Amount 100 (UnitId "g")) False [] Nothing) | (food, _) <- lines]
+            , steps = fromList' (zipWith Step [1 ..] (map snd steps))
+            }
+    answers =
+        PageAnswers
+            { singleDish = sure True
+            , steps = NE.zip page.steps (fromList' [StepAnswers (sure True) (sure (TechniqueId t)) (sure Nothing) (sure (FormId "piece")) | (t, _) <- steps])
+            , ingredients = NE.zip page.ingredients (fromList' (map (sure . snd) lines))
+            }
+    sure a = Judged a 1
+    fromList' = fromMaybe (error "answeredPage needs lines and steps") . nonEmpty
+
+frenchFries :: Env -> IO ()
+frenchFries env = do
+    let (page, answers) = answeredPage "French fries" [("Potato", Just 1), ("Vegetable oil", Just 2)] [("julienne", "Cut the potatoes into strips."), ("fry", "Fry them in the oil.")]
+    d <- either (assertFailure . toString) pure (dish env page answers)
+    [idText o.ingredient | r <- toList d.recipes, Outputs os <- [r.outputs], o <- toList os] @?= ["potato_shreds", "french_fries"]
+    map (idText . (.makes)) d.prepared @?= ["potato_shreds"]
+
+sashimi :: Env -> IO ()
+sashimi env = do
+    let (page, answers) = answeredPage "Sashimi" [("Fish", Just 1)] [("cut", "Slice the fish thinly.")]
+    d <- either (assertFailure . toString) pure (dish env page answers)
+    map (.id) d.made @?= []
+    [(s.makes, s.dishName) | s <- d.prepared] @?= [(IngredientId "fish_cut", Just "sashimi")]

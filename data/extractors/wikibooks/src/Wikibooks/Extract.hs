@@ -12,17 +12,21 @@ module Wikibooks.Extract (
 where
 
 import Babel.Codec (IsId (..))
-import Babel.Model.Id (IngredientId)
+import Babel.Load (Located (..), World (..))
+import Babel.Model.Id (FormId, IngredientId)
 import Babel.Model.Ingredient (Ingredient (..))
 import Babel.Model.Recipe (Recipe)
 import Babel.Model.Source (Source (..))
+import Babel.Model.Technique (Technique (..))
+import Babel.Preparation (Preparation (..))
 import Data.Aeson (Value)
 import Data.ByteString.Lazy qualified as BL
+import Data.List.NonEmpty qualified as NE
 import Data.Map.Strict qualified as Map
 import Data.Set qualified as Set
 import Data.Text qualified as T
 import Wikibooks.Dump (Title, article, articles)
-import Wikibooks.Emit (Dish (..), Env (..), baseIngredient, baseLabel, dish, ingredientFor, lexicon)
+import Wikibooks.Emit (Dish (..), Env (..), PreparedStep (..), baseIngredient, baseLabel, dish, ingredientFor, lexicon)
 import Wikibooks.Page (Line (..), RecipePage (..), recipePage)
 import Wikibooks.Quantity (IngredientLine (..))
 import Wikibooks.Questions (Judged (..), Key, Part (..), Request (..), answer, foodGroups, foodRequest, ingredientRequest, maxRequestBytes, pageRequest, requestParts)
@@ -76,7 +80,7 @@ extract :: Env -> Decisions -> Extraction
 extract env decisions =
     Extraction
         { sources = [d.source | d <- emitted]
-        , ingredients = concatMap (.made) emitted <> [ing | (i, Answered ing) <- Map.toList bases, i `Set.member` emittedUses]
+        , ingredients = concatMap (.made) emitted <> newPrepared <> [ing | (i, Answered ing) <- Map.toList bases, i `Set.member` emittedUses]
         , recipes = concatMap (toList . (.recipes)) emitted
         , pending = Map.fromList [(p.key, p.body) | Unasked ps <- map (void . pageDecision . snd) recipePages <> map void (Map.elems bases), p <- ps]
         , referenced = Set.fromList (map (.key) (concatMap (requestParts . pageRequest env.vocabulary . snd) recipePages <> concatMap (requestParts . baseRequest) (Map.elems baseTitles) <> concatMap (requestParts . foodRequest) nameGroups))
@@ -90,24 +94,62 @@ extract env decisions =
     pageDecision = decide decisions . pageRequest env.vocabulary
 
     candidates :: Map Title Candidate
-    candidates = Map.fromList (claim Set.empty [(t, judge p) | (t, p) <- recipePages])
+    candidates = Map.fromList (claim preparedIds judged)
+    judged = [(t, judge p) | (t, p) <- recipePages]
     judge p = case pageDecision p of
         Unasked{} -> Waiting
         Unusable e -> Rejected e
         Answered a -> either Rejected Ready (dish env p a)
 
-    -- In title order, a page may only make what no earlier page makes.
+    {- In title order, a page may only make what no earlier page makes.
+    The items for preparations are everyone's, so no page may make one as
+    its own. -}
+    preparedIds = Set.fromList [idText s.makes | (_, Ready d) <- judged, s <- d.prepared]
     claim _ [] = []
     claim taken ((t, Ready d) : rest) = case filter (`Set.member` taken) (claims d) of
-        clash : _ -> (t, Rejected ("an earlier page already makes " <> clash)) : claim taken rest
+        clash : _ -> (t, Rejected (clashing clash)) : claim taken rest
         [] -> (t, Ready d) : claim (taken <> Set.fromList (claims d)) rest
     claim taken (c : rest) = c : claim taken rest
     claims d = idText d.source.id : map (\i -> idText i.id) d.made
+    clashing i
+        | i `Set.member` preparedIds = i <> " is the item for a preparation other pages make"
+        | otherwise = "an earlier page already makes " <> i
 
     ready = [(t, d) | (t, Ready d) <- Map.toList candidates]
     makers = Map.fromList [(i.id, t) | (t, d) <- ready, i <- d.made]
     -- What a waiting page would make; pages that use it wait for it.
     awaited = Set.fromList [i | (t, Waiting) <- Map.toList candidates, Just i <- [ingredientFor env t]]
+
+    -- The item for each preparation emitted pages make, built once from every step that makes it.
+    prepared :: Map IngredientId Ingredient
+    prepared = Map.mapWithKey preparedItem (Map.fromListWith (<>) [(s.makes, one s) | d <- emitted, s <- d.prepared])
+    newPrepared = [i | i <- Map.elems prepared, not (Map.member i.id env.world.ingredients)]
+    preparedItem :: IngredientId -> NonEmpty PreparedStep -> Ingredient
+    preparedItem i steps =
+        let p = (head steps).preparation
+         in Ingredient
+                { id = i
+                , label = labelOf p.ingredient <> ", " <> maybe (idText p.technique) (.value.label) (Map.lookup p.technique env.world.techniques)
+                , aliases = sortNub (mapMaybe (.dishName) (toList steps))
+                , parents = []
+                , form = mostCommon (fmap (.form.value) steps)
+                , texture = mempty
+                , taste = mempty
+                , servingTags = []
+                , densityGPerMl = Nothing
+                , waterActivity = Nothing
+                , named = False
+                , issues = []
+                }
+    labelOf :: IngredientId -> Text
+    labelOf i =
+        fromMaybe (idText i) . asum $
+            [ (.value.label) <$> Map.lookup i env.world.ingredients
+            , case Map.lookup i bases of
+                Just (Answered b) -> Just b.label
+                _ -> Nothing
+            , (.label) <$> Map.lookup i prepared
+            ]
 
     -- Ingredients no page makes, each with the page its links lead to.
     baseTitles :: Map IngredientId Title
@@ -160,6 +202,10 @@ extract env decisions =
             | Just (Left reason) <- blocker d -> Skipped reason
             | otherwise -> Skipped "uses a dish from another page that cannot be emitted"
         _ -> Pending
+
+-- | The form most steps gave, the lowest on a tie.
+mostCommon :: NonEmpty FormId -> FormId
+mostCommon forms = head (NE.sortWith (\f -> (Down (length (NE.filter (== f) forms)), f)) forms)
 
 fixpoint :: (Eq a) => (a -> a) -> a -> a
 fixpoint f x = let x' = f x in if x' == x then x else fixpoint f x'

@@ -1,13 +1,17 @@
 {- | Turn a recipe page and Jev's answers about it into babel
 entities: a source, one recipe per step that works on food, and the
-intermediate each step makes.
+intermediate each step makes. A step that is a preparation
+("Babel.Preparation") makes the dataset's one item for it, which other
+pages make too; any other step makes an intermediate of the page's own.
 -}
 module Wikibooks.Emit (
     Env (..),
     mkEnv,
     lexicon,
     ingredientFor,
+    preparedId,
     Dish (..),
+    PreparedStep (..),
     dish,
     baseIngredient,
     baseLabel,
@@ -16,16 +20,18 @@ module Wikibooks.Emit (
 where
 
 import Babel.Codec (IsId (..))
+import Babel.Lineage (ancestors)
 import Babel.Load (Located (..), World (..), withoutExtracted)
 import Babel.Mass (massByUnit)
 import Babel.Model.Common (Amount (..), Issue (..), IssueKind (..), intensityValue)
 import Babel.Model.Constants (Constants (..))
-import Babel.Model.Id (IngredientId (..), MediumId (..), RecipeId, SourceId (..), TechniqueId, UnitId (..))
+import Babel.Model.Id (FormId, IngredientId (..), MediumId (..), RecipeId, SourceId (..), UnitId (..))
 import Babel.Model.Ingredient (Ingredient (..))
 import Babel.Model.Recipe (End (..), Environment (..), Leaf (..), Outcome (..), Output (..), Recipe (..), Role (..), Select (..), Sensitivity (..), SourceRef (..))
 import Babel.Model.Registry (Dimension (..), Medium (..), Term (..), Unit (..))
 import Babel.Model.Source (Origin (..), Source (..), originLicence)
 import Babel.Model.Technique (Technique (..), TempRange (..))
+import Babel.Preparation (Preparation (..), determinesOutput, preparationOf, preparations)
 import Babel.Slug (slugify)
 import Data.ByteString qualified as BS
 import Data.Char (isAlphaNum, isAscii, toLower)
@@ -74,6 +80,8 @@ data Env = Env
     , known :: Map Text IngredientId
     -- ^ Existing ingredients by the slug of their ID and of each alias.
     , vocabulary :: Vocabulary
+    , prepared :: Map Preparation IngredientId
+    -- ^ What the dataset makes by each preparation.
     }
 
 {- | Index the dataset for extraction. The extracted Wikibooks layer is
@@ -91,6 +99,9 @@ mkEnv cookbook loaded = do
         Left ("the extractor uses the unit " <> idText u <> ", which is not in registries/units.json")
     forM_ [m | m <- Map.keys loaded.media, isNothing (lookup m mediumTemperatures)] $ \m ->
         Left ("Wikibooks.Emit.mediumTemperatures has no entry for the medium " <> idText m)
+    prepared <- forM (preparations world) $ \makes -> case Map.keys makes of
+        [made] -> Right made
+        several -> Left ("the dataset makes " <> T.intercalate " and " (map idText several) <> " by one preparation")
     pure
         Env
             { cookbook
@@ -104,6 +115,7 @@ mkEnv cookbook loaded = do
                     , texture = Map.elems loaded.texture
                     , taste = Map.elems loaded.taste
                     }
+            , prepared
             }
   where
     world = withoutExtracted Wikibooks loaded
@@ -111,16 +123,6 @@ mkEnv cookbook loaded = do
     describeTechnique t = case mapMaybe (\p -> (.value.label) <$> Map.lookup p loaded.techniques) t.parents of
         [] -> t.label
         ps -> t.label <> " (a way to " <> T.intercalate ", " ps <> ")"
-
--- | A technique and everything above it in the is-a DAG, nearest first.
-ancestors :: World -> TechniqueId -> [TechniqueId]
-ancestors w t0 = go [] [t0]
-  where
-    go seen = \case
-        [] -> reverse seen
-        t : queue
-            | t `elem` seen -> go seen queue
-            | otherwise -> go (t : seen) (queue <> maybe [] (.value.parents) (Map.lookup t w.techniques))
 
 lexicon :: Env -> Lexicon
 lexicon env =
@@ -143,14 +145,31 @@ ingredientFor env t = do
     pure . fromMaybe (Map.findWithDefault (IngredientId target) target env.known) $
         (`Map.lookup` env.known) =<< slugify (titleText t)
 
+{- | The dataset's one item for a preparation, or a new ID for it. The ID
+depends on the preparation alone, so every page making it agrees.
+-}
+preparedId :: Env -> Preparation -> IngredientId
+preparedId env p = Map.findWithDefault (IngredientId (idText p.ingredient <> "_" <> idText p.technique)) p env.prepared
+
 -- | What one page adds to the dataset.
 data Dish = Dish
     { source :: Source
     , recipes :: NonEmpty Recipe
     , made :: [Ingredient]
-    -- ^ The intermediates, and the dish itself unless it already exists.
+    -- ^ The page's own intermediates, and the dish itself unless it already exists.
+    , prepared :: [PreparedStep]
     , uses :: Map IngredientId Title
     -- ^ Ingredients the recipes consume but do not make, with the page each links to.
+    }
+    deriving stock (Show)
+
+-- | A step that makes the item for a preparation, which other pages may make too.
+data PreparedStep = PreparedStep
+    { preparation :: Preparation
+    , makes :: IngredientId
+    , form :: Judged FormId
+    , dishName :: Maybe Text
+    -- ^ The page's dish, when this step is the page's last: a name for the item.
     }
     deriving stock (Show)
 
@@ -172,6 +191,9 @@ data Use = Use {line :: Line, ingredient :: IngredientId, firstStep :: Judged (M
 -- | A step that works on food, with the ingredient lines it takes in.
 data Kept = Kept {step :: Step, answers :: StepAnswers, intake :: [Use]}
 
+-- | What the step before made, and whether that is a preparation's item.
+data Previous = Previous {leaf :: Leaf, prepared :: Bool}
+
 dish :: Env -> RecipePage -> PageAnswers -> Either Text Dish
 dish env page answers = do
     unless answers.singleDish.value $
@@ -187,14 +209,15 @@ dish env page answers = do
             , isNothing u.firstStep.value
             ]
         preheats = [(s.number, t) | (s, _) <- toList answers.steps, "preheat" `T.isInfixOf` T.toLower s.text, Just t <- [temperatureC s.text]]
-    (recipes, made) <- chain dishId preheats lastNumber (uncertain "source" answers.singleDish) unused (toList assigned)
+    (recipes, made, prepared) <- chain dishId preheats lastNumber (uncertain "source" answers.singleDish) unused (toList assigned)
     recipes' <- maybeToRight "no step takes in any ingredient" (nonEmpty recipes)
-    let madeIds = map (.id) made
+    let madeIds = map (.id) made <> map (.makes) prepared
     pure
         Dish
             { source = Source{id = sourceId, name = "Wikibooks Cookbook: " <> titleText page.title, url = Just (pageUrl page.title page.revid), licence = originLicence Wikibooks}
             , recipes = recipes'
             , made = [i | i <- made, not (Map.member i.id env.world.ingredients)]
+            , prepared
             , uses =
                 Map.fromList
                     [ (u.ingredient, u.line.parsed.ingredient)
@@ -214,22 +237,26 @@ dish env page answers = do
     sourceId = SourceId ("wikibooks_" <> page.slug)
     quote t = "'" <> t <> "'"
 
-    -- The first recipe carries the issues about the page, the last those about the dish.
-    chain dishId preheats lastNumber pageIssues dishIssues = go Nothing [] []
+    {- The first recipe carries the issues about the page, the last those
+    about the dish. A step that is a preparation of what the dataset or an
+    earlier preparation made makes the item for that preparation; once a
+    step takes in an intermediate of the page's own, every step after does
+    too. -}
+    chain dishId preheats lastNumber pageIssues dishIssues = go Nothing [] [] []
       where
-        go _ rs ms [] = Right (reverse rs, reverse ms)
-        go previous rs ms (k : ks) =
+        go _ rs ms ps [] = Right (reverse rs, reverse ms, reverse ps)
+        go previous rs ms ps (k : ks) =
             case (previous, k.intake) of
-                (Nothing, []) -> go Nothing rs ms ks
+                (Nothing, []) -> go Nothing rs ms ps ks
                 _ -> do
                     let n = k.step.number
-                        outId = if n == lastNumber then dishId else IngredientId (page.slug <> "_step_" <> show n)
-                        leaves = [(False, l) | Just l <- [previous]] <> [(u.line.parsed.optional, Leaf u.ingredient u.line.parsed.amount) | u <- k.intake]
+                        ownId = if n == lastNumber then dishId else IngredientId (page.slug <> "_step_" <> show n)
+                        leaves = [(False, p.leaf) | Just p <- [previous]] <> [(u.line.parsed.optional, Leaf u.ingredient u.line.parsed.amount) | u <- k.intake]
                         (outAmount, outNotes) = outputAmount (map snd leaves)
                     recipeId <- first toText (mkId (page.slug <> ".step_" <> show n) :: Either String RecipeId)
                     (environment, envIssues) <- stepEnvironment k (latestPreheat n)
                     let (end, endIssues) = stepEnd k.step (isNothing environment)
-                        recipe =
+                        recipe outId =
                             Recipe
                                 { id = recipeId
                                 , source = sourceId
@@ -254,9 +281,12 @@ dish env page answers = do
                                         , if n == lastNumber then dishIssues else []
                                         ]
                                 }
+                        preparation = do
+                            guard (all (.prepared) previous)
+                            fst <$> preparationOf (determinesOutput env.world) (recipe ownId)
                         intermediate =
                             Ingredient
-                                { id = outId
+                                { id = ownId
                                 , label = if n == lastNumber then dishLabel page.title else dishLabel page.title <> ", after step " <> show n
                                 , aliases = []
                                 , parents = []
@@ -269,7 +299,12 @@ dish env page answers = do
                                 , named = n == lastNumber
                                 , issues = uncertain "form" k.answers.form
                                 }
-                    go (Just (Leaf outId outAmount)) (recipe : rs) (intermediate : ms) ks
+                    case preparation of
+                        Just p ->
+                            let outId = preparedId env p
+                                step = PreparedStep p outId k.answers.form (dishLabel page.title <$ guard (n == lastNumber))
+                             in go (Just (Previous (Leaf outId outAmount) True)) (recipe outId : rs) ms (step : ps) ks
+                        Nothing -> go (Just (Previous (Leaf ownId outAmount) False)) (recipe ownId : rs) (intermediate : ms) ps ks
         latestPreheat n = viaNonEmpty last [t | (m, t) <- preheats, m <= n]
 
     {- The output weighs what the inputs weigh. A counted input has no
