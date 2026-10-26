@@ -1,0 +1,43 @@
+{
+  "type": "create:deploying",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/gomen_ethiopian_collard_greens_step_5"
+    }
+  ],
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:gomen_ethiopian_collard_greens_step_4\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/gomen_ethiopian_collard_greens_step_4"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:collard_greens\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/collard_greens"
+      }
+    ]
+  ],
+  "results": [
+    {
+      "item": "cookbook_of_babel:substance",
+      "nbt": {
+        "substance": "cookbook_of_babel:gomen_ethiopian_collard_greens_step_5"
+      }
+    }
+  ]
+}

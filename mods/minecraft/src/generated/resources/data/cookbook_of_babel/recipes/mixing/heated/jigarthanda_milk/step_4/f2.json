@@ -12,15 +12,18 @@
   ],
   "heatRequirement": "heated",
   "ingredients": [
-    {
-      "amount": 9,
-      "fluid": "cookbook_of_babel:bulk",
-      "nbt": {
-        "substance": "cookbook_of_babel:jigarthanda_milk_step_3"
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:jigarthanda_milk_step_3\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/jigarthanda_milk_step_3"
       }
-    },
+    ],
     {
-      "amount": 9,
+      "amount": 50,
       "fluid": "minecraft:water",
       "nbt": {}
     }
@@ -28,7 +31,7 @@
   "processingTime": 20,
   "results": [
     {
-      "amount": 18,
+      "amount": 99,
       "fluid": "cookbook_of_babel:liquid",
       "nbt": "{substance:\"cookbook_of_babel:jigarthanda_milk_step_4\"}"
     }

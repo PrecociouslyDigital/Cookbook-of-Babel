@@ -1,0 +1,41 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/dabeli_potato_stuffed_buns_with_chutney"
+    }
+  ],
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:dabeli_potato_stuffed_buns_with_chutney_step_7\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/dabeli_potato_stuffed_buns_with_chutney_step_7"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:pomegranate\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/pomegranate"
+      }
+    ]
+  ],
+  "processingTime": 20,
+  "results": [
+    {
+      "item": "cookbook_of_babel:dabeli_potato_stuffed_buns_with_chutney"
+    }
+  ]
+}

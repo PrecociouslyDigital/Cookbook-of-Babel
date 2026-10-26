@@ -21,7 +21,13 @@ public final class Coverage {
     public record Variant(String path, Optional<IngredientId> addedMedium, List<Route> routes) {}
 
     /** {@code note}: why the step has no routes at all, if it has none. */
-    public record Step(String recipe, String technique, Optional<String> note, List<Variant> variants) {}
+    public record Step(String recipe, String technique, Optional<String> note, List<Variant> variants) {
+        boolean emitted() {
+            return variants.stream()
+                    .flatMap(v -> v.routes().stream())
+                    .anyMatch(r -> r.outcome() instanceof Emitted e && e.recipes() > 0);
+        }
+    }
 
     private final List<Step> steps = new ArrayList<>();
 

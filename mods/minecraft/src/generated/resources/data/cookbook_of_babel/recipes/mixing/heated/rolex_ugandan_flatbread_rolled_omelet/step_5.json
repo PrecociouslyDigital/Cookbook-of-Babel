@@ -1,0 +1,35 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/rolex_ugandan_flatbread_rolled_omelet_step_5"
+    }
+  ],
+  "heatRequirement": "heated",
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:rolex_ugandan_flatbread_rolled_omelet_step_4\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/rolex_ugandan_flatbread_rolled_omelet_step_4"
+      }
+    ]
+  ],
+  "processingTime": 40,
+  "results": [
+    {
+      "item": "cookbook_of_babel:substance",
+      "nbt": {
+        "substance": "cookbook_of_babel:rolex_ugandan_flatbread_rolled_omelet_step_5"
+      }
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "type": "create:deploying",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/riz_gras_west_african_fried_rice_step_12"
+    }
+  ],
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:portion",
+        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:bulk\",Tag:{substance:\"cookbook_of_babel:riz_gras_west_african_fried_rice_step_11\"}}}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/riz_gras_west_african_fried_rice_step_11"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:portion",
+        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:liquid\",Tag:{substance:\"cookbook_of_babel:soy_sauce\"}}}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/soy_sauce"
+      }
+    ]
+  ],
+  "results": [
+    {
+      "item": "cookbook_of_babel:portion",
+      "nbt": {
+        "Fluid": {
+          "Amount": 250,
+          "FluidName": "cookbook_of_babel:bulk",
+          "Tag": {
+            "substance": "cookbook_of_babel:riz_gras_west_african_fried_rice_step_12"
+          }
+        }
+      }
+    }
+  ]
+}

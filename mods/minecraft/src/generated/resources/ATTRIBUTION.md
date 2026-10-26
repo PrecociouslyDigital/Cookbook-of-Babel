@@ -1700,6 +1700,7 @@ The recipes, substances and tags in this mod's data are derived from the Cookboo
 - [Wikibooks Cookbook: Lamb Sausages and Grilled Potatoes](https://en.wikibooks.org/w/index.php?title=Cookbook:Lamb_Sausages_and_Grilled_Potatoes&oldid=4524828), CC-BY-SA-4.0
 - [Wikibooks Cookbook: Lamb Shawarma](https://en.wikibooks.org/w/index.php?title=Cookbook:Lamb_Shawarma&oldid=4510330), CC-BY-SA-4.0
 - [Wikibooks Cookbook: Lamington](https://en.wikibooks.org/w/index.php?title=Cookbook:Lamington&oldid=4587274), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Lancashire Corned Beef Hash](https://en.wikibooks.org/w/index.php?title=Cookbook:Lancashire_Corned_Beef_Hash&oldid=4506561), CC-BY-SA-4.0
 - [Wikibooks Cookbook: Lancashire Hotpot](https://en.wikibooks.org/w/index.php?title=Cookbook:Lancashire_Hotpot&oldid=4497923), CC-BY-SA-4.0
 - [Wikibooks Cookbook: Lancashire Parkin](https://en.wikibooks.org/w/index.php?title=Cookbook:Lancashire_Parkin&oldid=4534275), CC-BY-SA-4.0
 - [Wikibooks Cookbook: Lane Cake](https://en.wikibooks.org/w/index.php?title=Cookbook:Lane_Cake&oldid=4522776), CC-BY-SA-4.0

@@ -35,13 +35,19 @@ public final class Techniques {
             bind("roast", SMELTING, SMOKING),
             bind("toast", SMELTING, SMOKING),
             bind("grill", CAMPFIRE, SMOKING),
+            bind("smoke", SMOKING, CAMPFIRE),
             // Farmer's Delight's skillet takes one input, so it can't take the oil too.
             bind("fry", CREATE_HEATED_MIXING),
             bind("cut", FD_CUTTING_BOARD, CREATE_CUTTING),
             bind("grind", CREATE_MILLING),
             // The dataset lists the water as an input and the starchy water as an output.
             bind("rinse", CREATE_MIXING),
+            // Soaking lists its water as an input, like rinsing.
+            bind("soak", CREATE_MIXING),
             bind("separate", CREATE_ITEM_DRAIN, CREATE_MIXING),
+            bind("churn", CREATE_MIXING),
+            // A heated basin boils the wash and collects what comes off as a fluid.
+            bind("distill", CREATE_HEATED_MIXING),
             bind("coagulate", CREATE_MIXING),
             bind("assemble", SHAPELESS_CRAFTING, CREATE_DEPLOYING),
             // Calcining gives off a gas, which only a basin can collect.
@@ -52,6 +58,7 @@ public final class Techniques {
             bind("evaporate", CREATE_HEATED_MIXING),
             Map.entry(new TechniqueId("cool"), new Binding.Elidable()),
             Map.entry(new TechniqueId("chill"), new Binding.Elidable()),
+            Map.entry(new TechniqueId("dry"), new Binding.Elidable()),
             Map.entry(new TechniqueId("age"), new Binding.Deferred("time-based changes wait for a time mechanic")));
 
     /**

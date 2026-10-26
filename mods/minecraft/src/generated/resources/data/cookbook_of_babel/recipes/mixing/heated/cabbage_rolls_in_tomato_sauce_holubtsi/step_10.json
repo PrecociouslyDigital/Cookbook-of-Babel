@@ -1,0 +1,41 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/cabbage_rolls_in_tomato_sauce_holubtsi_step_10"
+    }
+  ],
+  "heatRequirement": "heated",
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:cabbage_rolls_in_tomato_sauce_holubtsi_step_9\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/cabbage_rolls_in_tomato_sauce_holubtsi_step_9"
+      }
+    ],
+    {
+      "amount": 30,
+      "fluid": "cookbook_of_babel:bulk",
+      "nbt": {
+        "substance": "cookbook_of_babel:starch"
+      }
+    }
+  ],
+  "processingTime": 20,
+  "results": [
+    {
+      "amount": 100,
+      "fluid": "cookbook_of_babel:liquid",
+      "nbt": "{substance:\"cookbook_of_babel:cabbage_rolls_in_tomato_sauce_holubtsi_step_10\"}"
+    }
+  ]
+}

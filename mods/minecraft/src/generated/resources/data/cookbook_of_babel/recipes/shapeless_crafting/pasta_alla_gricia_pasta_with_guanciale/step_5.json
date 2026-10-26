@@ -1,0 +1,45 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "conditions": [
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/pasta_alla_gricia_pasta_with_guanciale"
+    }
+  ],
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:pasta_alla_gricia_pasta_with_guanciale_step_4\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/pasta_alla_gricia_pasta_with_guanciale_step_4"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:pecorino_romano_cheese\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/pecorino_romano_cheese"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:portion",
+        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:bulk\",Tag:{substance:\"cookbook_of_babel:pepper\"}}}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/pepper"
+      }
+    ]
+  ],
+  "result": {
+    "item": "cookbook_of_babel:pasta_alla_gricia_pasta_with_guanciale"
+  }
+}

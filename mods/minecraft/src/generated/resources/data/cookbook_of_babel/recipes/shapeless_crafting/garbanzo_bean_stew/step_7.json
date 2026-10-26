@@ -4,7 +4,7 @@
   "conditions": [
     {
       "type": "forge:tag_empty",
-      "tag": "cookbook_of_babel:external/garbanzo_bean_stew"
+      "tag": "cookbook_of_babel:external/garbanzo_bean_stew_step_7"
     }
   ],
   "ingredients": [
@@ -77,20 +77,10 @@
       {
         "tag": "cookbook_of_babel:ingredients/rice"
       }
-    ],
-    [
-      {
-        "type": "forge:partial_nbt",
-        "item": "cookbook_of_babel:substance",
-        "nbt": "{substance:\"cookbook_of_babel:parsley\"}"
-      },
-      {
-        "tag": "cookbook_of_babel:ingredients/parsley"
-      }
     ]
   ],
   "result": {
-    "count": 3,
-    "item": "cookbook_of_babel:garbanzo_bean_stew"
+    "item": "cookbook_of_babel:portion",
+    "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:liquid\",Tag:{substance:\"cookbook_of_babel:garbanzo_bean_stew_step_7\"}}}"
   }
 }
