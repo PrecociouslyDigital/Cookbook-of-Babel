@@ -5,6 +5,7 @@ import com.google.gson.JsonArray;
 import com.google.gson.JsonObject;
 import cookbookofbabel.minecraft.CookbookOfBabel;
 import cookbookofbabel.minecraft.dataset.Ingredient;
+import cookbookofbabel.minecraft.dataset.IngredientId;
 import cookbookofbabel.minecraft.datagen.plan.Quantize;
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;
@@ -14,6 +15,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Locale;
 import java.util.Set;
+import java.util.TreeMap;
 import java.util.TreeSet;
 import java.util.concurrent.CompletableFuture;
 import java.util.stream.Collectors;
@@ -69,6 +71,21 @@ final class Reports implements DataProvider {
         leaves.forEach(i -> out.append("- `").append(i.id()).append("` (").append(i.label()).append(")\n"));
         if (leaves.isEmpty()) {
             out.append("None.\n");
+        }
+
+        out.append("\n## Merged ingredients\n\n");
+        out.append("Preparations the dataset keeps apart but one machine here makes alike: each line is the ingredient kept, ");
+        out.append("then those merged into it.\n\n");
+        var mergedInto = new TreeMap<IngredientId, List<IngredientId>>();
+        context.merging.merged().forEach((from, to) -> mergedInto.computeIfAbsent(to, k -> new ArrayList<>()).add(from));
+        mergedInto.forEach((kept, merged) -> out.append("- `").append(kept).append("`: ")
+                .append(merged.stream().map(m -> "`" + m + "`").collect(Collectors.joining(", "))).append('\n'));
+        if (mergedInto.isEmpty()) {
+            out.append("None.\n");
+        }
+        if (!context.merging.dropped().isEmpty()) {
+            out.append("\nSteps that merging left the same as another, and so dropped:\n\n");
+            context.merging.dropped().forEach(d -> out.append("- `").append(d.recipe()).append("`, like `").append(d.keptRecipe()).append("`\n"));
         }
 
         out.append("\n## Elided steps\n\n");

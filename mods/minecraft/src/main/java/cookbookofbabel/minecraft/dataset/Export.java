@@ -24,6 +24,7 @@ public record Export(
         List<Recipe> recipes,
         List<Measure> measures,
         Map<IngredientId, Nutrition> nutrition,
+        List<Preparation> preparations,
         List<Unit> units,
         double negligibleMassFraction) {
     /** An input lighter than this share of a step's inputs is too small to matter. */
@@ -41,6 +42,7 @@ public record Export(
                     Codec.unboundedMap(IngredientId.CODEC, Nutrition.CODEC)
                             .optionalFieldOf("nutrition", Map.of())
                             .forGetter(Export::nutrition),
+                    Preparation.CODEC.listOf().optionalFieldOf("preparations", List.of()).forGetter(Export::preparations),
                     Unit.CODEC.listOf().optionalFieldOf("units", List.of()).forGetter(Export::units),
                     NEGLIGIBLE.fieldOf("constants").forGetter(Export::negligibleMassFraction))
             .apply(i, Export::new));

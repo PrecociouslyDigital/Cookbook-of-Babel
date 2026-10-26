@@ -12,6 +12,7 @@ import java.util.Collection;
 import java.util.LinkedHashSet;
 import java.util.List;
 import java.util.Set;
+import java.util.function.UnaryOperator;
 import java.util.stream.Stream;
 
 /** Questions about, and rewrites of, the dataset's recipes. */
@@ -41,11 +42,20 @@ public final class Recipes {
     }
 
     public static Recipe renameInputs(Recipe r, IngredientId from, IngredientId to) {
-        return new Recipe(r.id(), r.source(), r.technique(), rename(r.inputs(), from, to), r.outputs(), r.temperatureC(), r.end(), r.issues());
+        return new Recipe(r.id(), r.source(), r.technique(), rename(r.inputs(), only(from, to)), r.outputs(), r.temperatureC(), r.end(), r.issues());
     }
 
     public static Recipe renameOutputs(Recipe r, IngredientId from, IngredientId to) {
-        return new Recipe(r.id(), r.source(), r.technique(), r.inputs(), rename(r.outputs(), from, to), r.temperatureC(), r.end(), r.issues());
+        return new Recipe(r.id(), r.source(), r.technique(), r.inputs(), rename(r.outputs(), only(from, to)), r.temperatureC(), r.end(), r.issues());
+    }
+
+    /** The recipe with every ingredient, in and out, renamed. */
+    public static Recipe rename(Recipe r, UnaryOperator<IngredientId> rename) {
+        return new Recipe(r.id(), r.source(), r.technique(), rename(r.inputs(), rename), rename(r.outputs(), rename), r.temperatureC(), r.end(), r.issues());
+    }
+
+    private static UnaryOperator<IngredientId> only(IngredientId from, IngredientId to) {
+        return i -> i.equals(from) ? to : i;
     }
 
     /** Everything that goes into making the ingredient, through every recipe that makes it. */
@@ -84,26 +94,22 @@ public final class Recipes {
         return made;
     }
 
-    private static Select rename(Select select, IngredientId from, IngredientId to) {
+    private static Select rename(Select select, UnaryOperator<IngredientId> rename) {
         return new Select(select.min(), select.max(), select.of().stream()
                 .map(c -> c instanceof Select nested
-                        ? (Choice) rename(nested, from, to)
-                        : renameLeaf((Leaf) c, from, to))
+                        ? (Choice) rename(nested, rename)
+                        : new Leaf(rename.apply(((Leaf) c).ingredient()), ((Leaf) c).amount()))
                 .toList());
     }
 
-    private static Choice renameLeaf(Leaf leaf, IngredientId from, IngredientId to) {
-        return leaf.ingredient().equals(from) ? new Leaf(to, leaf.amount()) : leaf;
-    }
-
-    private static Outcome rename(Outcome outcome, IngredientId from, IngredientId to) {
+    private static Outcome rename(Outcome outcome, UnaryOperator<IngredientId> rename) {
         if (outcome instanceof Outcome.Outputs o) {
             return new Outcome.Outputs(o.outputs().stream()
-                    .map(out -> out.ingredient().equals(from) ? new Output(to, out.amount(), out.role(), out.chance()) : out)
+                    .map(out -> new Output(rename.apply(out.ingredient()), out.amount(), out.role(), out.chance()))
                     .toList());
         }
         return new Outcome.OneOf(((Outcome.OneOf) outcome).branches().stream()
-                .map(b -> new Outcome.Branch(b.weight(), rename(b.outputs(), from, to)))
+                .map(b -> new Outcome.Branch(b.weight(), rename(b.outputs(), rename)))
                 .toList());
     }
 }

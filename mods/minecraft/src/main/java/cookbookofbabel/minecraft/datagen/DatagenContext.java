@@ -9,6 +9,7 @@ import cookbookofbabel.minecraft.datagen.plan.Binding;
 import cookbookofbabel.minecraft.datagen.plan.Dataset;
 import cookbookofbabel.minecraft.datagen.plan.Elision;
 import cookbookofbabel.minecraft.datagen.plan.Mapping;
+import cookbookofbabel.minecraft.datagen.plan.Merging;
 import cookbookofbabel.minecraft.datagen.plan.Planner;
 import cookbookofbabel.minecraft.datagen.plan.Techniques;
 import java.io.IOException;
@@ -23,14 +24,15 @@ import net.minecraftforge.registries.ForgeRegistries;
 
 /**
  * Everything datagen reads, loaded once and checked up front: the dataset export, the mappings,
- * and the recipe graph with time-based steps elided. Paths come from system properties the Gradle
- * data run sets.
+ * and the recipe graph with same-machine preparations merged and time-based steps elided. Paths
+ * come from system properties the Gradle data run sets.
  */
 public final class DatagenContext {
     public final Export export;
     public final Dataset dataset;
     public final List<Mapping> mappings;
     public final Techniques techniques;
+    public final Merging.Result merging;
     public final Elision.Result elision;
     public final Planner planner;
     public final Coverage coverage;
@@ -42,7 +44,8 @@ public final class DatagenContext {
         this.dataset = new Dataset(export);
         this.mappings = mappings;
         this.techniques = new Techniques(dataset);
-        this.elision = Elision.elide(export.recipes(), r -> techniques.bindingFor(r.technique()) instanceof Binding.Elidable);
+        this.merging = Merging.merge(export.recipes(), export.preparations(), techniques::machineOf);
+        this.elision = Elision.elide(merging.recipes(), r -> techniques.bindingFor(r.technique()) instanceof Binding.Elidable);
         this.planner = new Planner(dataset, techniques, elision.recipes());
         this.coverage = new Coverage();
         this.coverageFile = coverageFile;

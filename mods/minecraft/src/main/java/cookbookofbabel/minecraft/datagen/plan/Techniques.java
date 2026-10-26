@@ -68,10 +68,17 @@ public final class Techniques {
     }
 
     public Binding bindingFor(TechniqueId technique) {
-        return dataset.lineage(technique).stream()
-                .flatMap(t -> Optional.ofNullable(TABLE.get(t)).stream())
-                .findFirst()
-                .orElseGet(Binding.Unbound::new);
+        return boundTechnique(technique).map(TABLE::get).orElseGet(Binding.Unbound::new);
+    }
+
+    /** The technique whose binding this one takes: itself or its nearest ancestor in the table. */
+    public Optional<TechniqueId> boundTechnique(TechniqueId technique) {
+        return dataset.lineage(technique).stream().filter(TABLE::containsKey).findFirst();
+    }
+
+    /** What this game tells a technique's results apart by: the technique whose binding it takes, or itself if unbound. */
+    public TechniqueId machineOf(TechniqueId technique) {
+        return boundTechnique(technique).orElse(technique);
     }
 
     public Optional<IngredientId> mediumFor(TechniqueId technique) {
