@@ -1,0 +1,35 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/ginger_pancakes_step_10"
+    }
+  ],
+  "heatRequirement": "heated",
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:ginger_pancakes_step_9\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/ginger_pancakes_step_9"
+      }
+    ]
+  ],
+  "processingTime": 50,
+  "results": [
+    {
+      "item": "cookbook_of_babel:substance",
+      "nbt": {
+        "substance": "cookbook_of_babel:ginger_pancakes_step_10"
+      }
+    }
+  ]
+}

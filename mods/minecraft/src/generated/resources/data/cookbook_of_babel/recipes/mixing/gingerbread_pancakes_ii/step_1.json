@@ -1,0 +1,83 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/gingerbread_pancakes_ii_step_1"
+    }
+  ],
+  "ingredients": [
+    {
+      "tag": "cookbook_of_babel:ingredients/homemade_pancake_mix"
+    },
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:portion",
+        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:liquid\",Tag:{substance:\"cookbook_of_babel:coffee\"}}}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/coffee"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:portion",
+        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:liquid\",Tag:{substance:\"cookbook_of_babel:water\"}}}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/water"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:portion",
+        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:bulk\",Tag:{substance:\"cookbook_of_babel:cinnamon\"}}}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/cinnamon"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:ginger\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/ginger"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:portion",
+        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:bulk\",Tag:{substance:\"cookbook_of_babel:nutmeg\"}}}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/nutmeg"
+      }
+    ],
+    {
+      "amount": 39,
+      "fluid": "cookbook_of_babel:liquid",
+      "nbt": {
+        "substance": "cookbook_of_babel:molasses"
+      }
+    }
+  ],
+  "processingTime": 20,
+  "results": [
+    {
+      "amount": 831,
+      "fluid": "cookbook_of_babel:liquid",
+      "nbt": "{substance:\"cookbook_of_babel:gingerbread_pancakes_ii_step_1\"}"
+    }
+  ]
+}

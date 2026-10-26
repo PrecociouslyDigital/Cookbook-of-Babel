@@ -1,0 +1,61 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/kek_batik_malaysian_tiffin_step_3"
+    }
+  ],
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:kek_batik_malaysian_tiffin_step_2\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/kek_batik_malaysian_tiffin_step_2"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:marie_biscuits\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/marie_biscuits"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:marie_biscuits\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/marie_biscuits"
+      }
+    ],
+    {
+      "amount": 237,
+      "fluid": "cookbook_of_babel:bulk",
+      "nbt": {
+        "substance": "cookbook_of_babel:nestum_cereal_flakes"
+      }
+    }
+  ],
+  "processingTime": 20,
+  "results": [
+    {
+      "item": "cookbook_of_babel:substance",
+      "nbt": {
+        "substance": "cookbook_of_babel:kek_batik_malaysian_tiffin_step_3"
+      }
+    }
+  ]
+}

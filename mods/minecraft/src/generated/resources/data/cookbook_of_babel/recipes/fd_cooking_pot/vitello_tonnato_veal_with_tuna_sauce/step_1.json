@@ -1,0 +1,61 @@
+{
+  "type": "farmersdelight:cooking",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "farmersdelight"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/vitello_tonnato_veal_with_tuna_sauce_step_2"
+    }
+  ],
+  "cookingtime": 300,
+  "experience": 0.1,
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:veal\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/veal"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:bay_leaf\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/bay_leaf"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:bay_leaf\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/bay_leaf"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:bouquet_garni\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/bouquet_garni"
+      }
+    ]
+  ],
+  "result": {
+    "item": "cookbook_of_babel:substance",
+    "nbt": "{substance:\"cookbook_of_babel:vitello_tonnato_veal_with_tuna_sauce_step_2\"}"
+  }
+}

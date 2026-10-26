@@ -1,0 +1,44 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/maffe_west_african_peanut_stew_i_step_8"
+    }
+  ],
+  "heatRequirement": "heated",
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:portion",
+        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:liquid\",Tag:{substance:\"cookbook_of_babel:maffe_west_african_peanut_stew_i_step_7\"}}}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/maffe_west_african_peanut_stew_i_step_7"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:portion",
+        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:liquid\",Tag:{substance:\"cookbook_of_babel:maffe_west_african_peanut_stew_i_step_7\"}}}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/maffe_west_african_peanut_stew_i_step_7"
+      }
+    ]
+  ],
+  "processingTime": 350,
+  "results": [
+    {
+      "amount": 500,
+      "fluid": "cookbook_of_babel:liquid",
+      "nbt": "{substance:\"cookbook_of_babel:maffe_west_african_peanut_stew_i_step_8\"}"
+    }
+  ]
+}

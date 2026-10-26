@@ -1,0 +1,43 @@
+{
+  "type": "create:deploying",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/papri_chaat_crispy_indian_snack_with_potato_step_9"
+    }
+  ],
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:papri_chaat_crispy_indian_snack_with_potato_step_8\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/papri_chaat_crispy_indian_snack_with_potato_step_8"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:yogurt\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/yogurt"
+      }
+    ]
+  ],
+  "results": [
+    {
+      "item": "cookbook_of_babel:substance",
+      "nbt": {
+        "substance": "cookbook_of_babel:papri_chaat_crispy_indian_snack_with_potato_step_9"
+      }
+    }
+  ]
+}

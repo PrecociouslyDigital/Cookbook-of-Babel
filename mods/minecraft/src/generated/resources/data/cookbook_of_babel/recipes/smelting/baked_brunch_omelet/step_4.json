@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "conditions": [
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/baked_brunch_omelet"
+    }
+  ],
+  "cookingtime": 600,
+  "experience": 0.1,
+  "ingredient": [
+    {
+      "type": "forge:partial_nbt",
+      "item": "cookbook_of_babel:portion",
+      "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:liquid\",Tag:{substance:\"cookbook_of_babel:baked_brunch_omelet_step_3\"}}}"
+    },
+    {
+      "tag": "cookbook_of_babel:ingredients/baked_brunch_omelet_step_3"
+    }
+  ],
+  "result": {
+    "count": 3,
+    "item": "cookbook_of_babel:baked_brunch_omelet"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "conditions": [
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/purple_plum_pie"
+    }
+  ],
+  "cookingtime": 600,
+  "experience": 0.1,
+  "ingredient": [
+    {
+      "type": "forge:partial_nbt",
+      "item": "cookbook_of_babel:portion",
+      "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:bulk\",Tag:{substance:\"cookbook_of_babel:purple_plum_pie_step_2\"}}}"
+    },
+    {
+      "tag": "cookbook_of_babel:ingredients/purple_plum_pie_step_2"
+    }
+  ],
+  "result": {
+    "count": 3,
+    "item": "cookbook_of_babel:purple_plum_pie"
+  }
+}

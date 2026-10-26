@@ -1,0 +1,42 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/fleischkrapfen_austrian_meat_pasties"
+    }
+  ],
+  "heatRequirement": "heated",
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:fleischkrapfen_austrian_meat_pasties_step_4\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/fleischkrapfen_austrian_meat_pasties_step_4"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:shortening\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/shortening"
+      }
+    ]
+  ],
+  "processingTime": 20,
+  "results": [
+    {
+      "item": "cookbook_of_babel:fleischkrapfen_austrian_meat_pasties"
+    }
+  ]
+}

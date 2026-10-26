@@ -1,0 +1,55 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/supu_ya_ndizi_step_6"
+    }
+  ],
+  "heatRequirement": "heated",
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:supu_ya_ndizi_step_5\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/supu_ya_ndizi_step_5"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:tomatoes\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/tomatoes"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:tomatoes\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/tomatoes"
+      }
+    ]
+  ],
+  "processingTime": 20,
+  "results": [
+    {
+      "item": "cookbook_of_babel:substance",
+      "nbt": {
+        "substance": "cookbook_of_babel:supu_ya_ndizi_step_6"
+      }
+    }
+  ]
+}

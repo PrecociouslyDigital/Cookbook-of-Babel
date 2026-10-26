@@ -1,0 +1,89 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/menemen_eggs_with_onion_green_pepper_and_tomato_step_2"
+    }
+  ],
+  "heatRequirement": "heated",
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:tomato_chop\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/tomato_chop"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:onion\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/onion"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:onion\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/onion"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:bell_pepper\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/bell_pepper"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:bell_pepper\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/bell_pepper"
+      }
+    ],
+    {
+      "amount": 30,
+      "fluid": "cookbook_of_babel:liquid",
+      "nbt": {
+        "substance": "cookbook_of_babel:olive_oil"
+      }
+    },
+    {
+      "amount": 15,
+      "fluid": "cookbook_of_babel:liquid",
+      "nbt": {
+        "substance": "cookbook_of_babel:oil_and_fat"
+      }
+    }
+  ],
+  "processingTime": 20,
+  "results": [
+    {
+      "item": "cookbook_of_babel:substance",
+      "nbt": {
+        "substance": "cookbook_of_babel:menemen_eggs_with_onion_green_pepper_and_tomato_step_2"
+      }
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "type": "create:deploying",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/filipino_style_spaghetti"
+    }
+  ],
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:filipino_style_spaghetti_step_11\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/filipino_style_spaghetti_step_11"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:cheddar_cheese\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/cheddar_cheese"
+      }
+    ]
+  ],
+  "results": [
+    {
+      "item": "cookbook_of_babel:filipino_style_spaghetti"
+    }
+  ]
+}

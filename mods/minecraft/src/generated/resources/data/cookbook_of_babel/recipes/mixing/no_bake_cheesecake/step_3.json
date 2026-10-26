@@ -1,0 +1,50 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/no_bake_cheesecake_step_3"
+    }
+  ],
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:no_bake_cheesecake_step_2\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/no_bake_cheesecake_step_2"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:lemon\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/lemon"
+      }
+    ],
+    {
+      "amount": 47,
+      "fluid": "cookbook_of_babel:liquid",
+      "nbt": {
+        "substance": "cookbook_of_babel:condensed_milk"
+      }
+    }
+  ],
+  "processingTime": 20,
+  "results": [
+    {
+      "amount": 98,
+      "fluid": "cookbook_of_babel:liquid",
+      "nbt": "{substance:\"cookbook_of_babel:no_bake_cheesecake_step_3\"}"
+    }
+  ]
+}

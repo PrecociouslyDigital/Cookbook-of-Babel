@@ -1,0 +1,38 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/coronet_cupcakes_step_9"
+    }
+  ],
+  "ingredients": [
+    {
+      "amount": 100,
+      "fluid": "cookbook_of_babel:liquid",
+      "nbt": {
+        "substance": "cookbook_of_babel:coronet_cupcakes_step_8"
+      }
+    },
+    {
+      "amount": 365,
+      "fluid": "cookbook_of_babel:bulk",
+      "nbt": {
+        "substance": "cookbook_of_babel:white_sugar"
+      }
+    }
+  ],
+  "processingTime": 20,
+  "results": [
+    {
+      "item": "cookbook_of_babel:substance",
+      "nbt": {
+        "substance": "cookbook_of_babel:coronet_cupcakes_step_9"
+      }
+    }
+  ]
+}

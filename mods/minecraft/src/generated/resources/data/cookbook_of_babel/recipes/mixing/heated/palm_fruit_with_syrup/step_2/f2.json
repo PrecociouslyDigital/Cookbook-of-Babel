@@ -1,0 +1,46 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/palm_fruit_with_syrup_step_2"
+    }
+  ],
+  "heatRequirement": "heated",
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:palmyra_palm_fruit_cut\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/palmyra_palm_fruit_cut"
+      }
+    ],
+    {
+      "amount": 18,
+      "fluid": "cookbook_of_babel:bulk",
+      "nbt": {
+        "substance": "cookbook_of_babel:white_sugar"
+      }
+    },
+    {
+      "amount": 44,
+      "fluid": "minecraft:water",
+      "nbt": {}
+    }
+  ],
+  "processingTime": 20,
+  "results": [
+    {
+      "amount": 91,
+      "fluid": "cookbook_of_babel:liquid",
+      "nbt": "{substance:\"cookbook_of_babel:palm_fruit_with_syrup_step_2\"}"
+    }
+  ]
+}

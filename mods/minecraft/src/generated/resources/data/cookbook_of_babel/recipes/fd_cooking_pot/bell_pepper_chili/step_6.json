@@ -1,0 +1,61 @@
+{
+  "type": "farmersdelight:cooking",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "farmersdelight"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/bell_pepper_chili_step_6"
+    }
+  ],
+  "cookingtime": 200,
+  "experience": 0.1,
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:portion",
+        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:liquid\",Tag:{substance:\"cookbook_of_babel:bell_pepper_chili_step_5\"}}}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/bell_pepper_chili_step_5"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:common_bean\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/common_bean"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:common_bean\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/common_bean"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:common_bean\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/common_bean"
+      }
+    ]
+  ],
+  "result": {
+    "item": "cookbook_of_babel:portion",
+    "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:liquid\",Tag:{substance:\"cookbook_of_babel:bell_pepper_chili_step_6\"}}}"
+  }
+}

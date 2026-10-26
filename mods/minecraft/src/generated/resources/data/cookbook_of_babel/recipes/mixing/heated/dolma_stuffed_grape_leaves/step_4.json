@@ -1,0 +1,45 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/dolma_stuffed_grape_leaves_step_4"
+    }
+  ],
+  "heatRequirement": "heated",
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:dolma_stuffed_grape_leaves_step_3\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/dolma_stuffed_grape_leaves_step_3"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:cabbage\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/cabbage"
+      }
+    ]
+  ],
+  "processingTime": 200,
+  "results": [
+    {
+      "item": "cookbook_of_babel:substance",
+      "nbt": {
+        "substance": "cookbook_of_babel:dolma_stuffed_grape_leaves_step_4"
+      }
+    }
+  ]
+}

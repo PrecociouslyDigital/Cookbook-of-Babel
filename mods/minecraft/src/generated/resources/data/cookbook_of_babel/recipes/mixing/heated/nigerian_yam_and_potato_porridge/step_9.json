@@ -1,0 +1,35 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/nigerian_yam_and_potato_porridge_step_9"
+    }
+  ],
+  "heatRequirement": "heated",
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:nigerian_yam_and_potato_porridge_step_8\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/nigerian_yam_and_potato_porridge_step_8"
+      }
+    ]
+  ],
+  "processingTime": 240,
+  "results": [
+    {
+      "item": "cookbook_of_babel:substance",
+      "nbt": {
+        "substance": "cookbook_of_babel:nigerian_yam_and_potato_porridge_step_9"
+      }
+    }
+  ]
+}

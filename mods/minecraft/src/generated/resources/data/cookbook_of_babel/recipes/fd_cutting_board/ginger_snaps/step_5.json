@@ -1,0 +1,35 @@
+{
+  "type": "farmersdelight:cutting",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "farmersdelight"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/ginger_snaps_step_5"
+    }
+  ],
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:ginger_snaps_step_3\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/ginger_snaps_step_3"
+      }
+    ]
+  ],
+  "result": [
+    {
+      "count": 7,
+      "item": "cookbook_of_babel:substance",
+      "nbt": "{substance:\"cookbook_of_babel:ginger_snaps_step_5\"}"
+    }
+  ],
+  "tool": {
+    "tag": "forge:tools/knives"
+  }
+}

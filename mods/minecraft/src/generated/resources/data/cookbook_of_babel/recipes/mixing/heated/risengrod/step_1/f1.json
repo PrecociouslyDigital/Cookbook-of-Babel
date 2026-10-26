@@ -1,0 +1,38 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/risengrod_step_1"
+    }
+  ],
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+      "amount": 9,
+      "fluid": "cookbook_of_babel:liquid",
+      "nbt": {
+        "substance": "cookbook_of_babel:water"
+      }
+    },
+    {
+      "amount": 6,
+      "fluid": "cookbook_of_babel:bulk",
+      "nbt": {
+        "substance": "cookbook_of_babel:rice"
+      }
+    }
+  ],
+  "processingTime": 40,
+  "results": [
+    {
+      "amount": 15,
+      "fluid": "cookbook_of_babel:liquid",
+      "nbt": "{substance:\"cookbook_of_babel:risengrod_step_1\"}"
+    }
+  ]
+}

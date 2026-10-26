@@ -1,0 +1,31 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/rice_rinse_mix_simmer"
+    }
+  ],
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+      "amount": 15,
+      "fluid": "cookbook_of_babel:bulk",
+      "nbt": {
+        "substance": "cookbook_of_babel:rice_rinse_mix"
+      }
+    }
+  ],
+  "processingTime": 350,
+  "results": [
+    {
+      "amount": 15,
+      "fluid": "cookbook_of_babel:bulk",
+      "nbt": "{substance:\"cookbook_of_babel:rice_rinse_mix_simmer\"}"
+    }
+  ]
+}

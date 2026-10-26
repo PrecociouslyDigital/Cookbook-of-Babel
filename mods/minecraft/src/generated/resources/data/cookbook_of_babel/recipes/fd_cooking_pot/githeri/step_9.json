@@ -1,0 +1,40 @@
+{
+  "type": "farmersdelight:cooking",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "farmersdelight"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/githeri"
+    }
+  ],
+  "cookingtime": 250,
+  "experience": 0.1,
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:githeri_step_8\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/githeri_step_8"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:portion",
+        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:bulk\",Tag:{substance:\"cookbook_of_babel:salt\"}}}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/salt"
+      }
+    ]
+  ],
+  "result": {
+    "item": "cookbook_of_babel:githeri"
+  }
+}

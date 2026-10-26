@@ -1,0 +1,45 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/dolma_stuffed_grape_leaves_step_11"
+    }
+  ],
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:dolma_stuffed_grape_leaves_step_10\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/dolma_stuffed_grape_leaves_step_10"
+      }
+    ],
+    {
+      "amount": 15,
+      "fluid": "cookbook_of_babel:bulk",
+      "nbt": {
+        "substance": "cookbook_of_babel:citric_acid"
+      }
+    },
+    {
+      "amount": 473,
+      "fluid": "minecraft:water",
+      "nbt": {}
+    }
+  ],
+  "processingTime": 20,
+  "results": [
+    {
+      "amount": 100,
+      "fluid": "cookbook_of_babel:liquid",
+      "nbt": "{substance:\"cookbook_of_babel:dolma_stuffed_grape_leaves_step_11\"}"
+    }
+  ]
+}

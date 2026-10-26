@@ -1,0 +1,84 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/stuffed_portabella_mushrooms_step_1"
+    }
+  ],
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:common_mushroom\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/common_mushroom"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:common_mushroom\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/common_mushroom"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:common_mushroom\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/common_mushroom"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:common_mushroom\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/common_mushroom"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:portion",
+        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:liquid\",Tag:{substance:\"cookbook_of_babel:vinegar\"}}}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/vinegar"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:garlic\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/garlic"
+      }
+    ]
+  ],
+  "processingTime": 400,
+  "results": [
+    {
+      "item": "cookbook_of_babel:substance",
+      "nbt": {
+        "substance": "cookbook_of_babel:stuffed_portabella_mushrooms_step_1"
+      }
+    }
+  ]
+}

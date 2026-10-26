@@ -1,0 +1,40 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/dud_patti_milk_tea_step_2"
+    }
+  ],
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:tea_leaves\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/tea_leaves"
+      }
+    ],
+    {
+      "amount": 19,
+      "fluid": "cookbook_of_babel:liquid",
+      "nbt": {
+        "substance": "cookbook_of_babel:milk_boil"
+      }
+    }
+  ],
+  "processingTime": 20,
+  "results": [
+    {
+      "amount": 19,
+      "fluid": "cookbook_of_babel:liquid",
+      "nbt": "{substance:\"cookbook_of_babel:dud_patti_milk_tea_step_2\"}"
+    }
+  ]
+}

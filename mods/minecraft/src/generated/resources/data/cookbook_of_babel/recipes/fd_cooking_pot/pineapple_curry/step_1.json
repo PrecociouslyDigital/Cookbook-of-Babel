@@ -1,0 +1,34 @@
+{
+  "type": "farmersdelight:cooking",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "farmersdelight"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/pineapple_curry_step_1"
+    }
+  ],
+  "cookingtime": 100,
+  "experience": 0.1,
+  "ingredients": [
+    {
+      "tag": "cookbook_of_babel:ingredients/thai_red_curry_paste"
+    },
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:coconut\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/coconut"
+      }
+    ]
+  ],
+  "result": {
+    "item": "cookbook_of_babel:portion",
+    "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:liquid\",Tag:{substance:\"cookbook_of_babel:pineapple_curry_step_1\"}}}"
+  }
+}

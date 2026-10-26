@@ -1,0 +1,62 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/oreo_pie_step_2"
+    }
+  ],
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:ice_cream_heat\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/ice_cream_heat"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:ice_cream_heat\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/ice_cream_heat"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:ice_cream_heat\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/ice_cream_heat"
+      }
+    ],
+    {
+      "amount": 28,
+      "fluid": "cookbook_of_babel:liquid",
+      "nbt": {
+        "substance": "cookbook_of_babel:imitation_whipped_cream"
+      }
+    }
+  ],
+  "processingTime": 20,
+  "results": [
+    {
+      "count": 4,
+      "item": "cookbook_of_babel:substance",
+      "nbt": {
+        "substance": "cookbook_of_babel:oreo_pie_step_2"
+      }
+    }
+  ]
+}

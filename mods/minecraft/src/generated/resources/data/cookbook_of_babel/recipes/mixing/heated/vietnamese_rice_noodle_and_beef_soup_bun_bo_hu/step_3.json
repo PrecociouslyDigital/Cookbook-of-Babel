@@ -1,0 +1,54 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/vietnamese_rice_noodle_and_beef_soup_bun_bo_hu_step_3"
+    }
+  ],
+  "heatRequirement": "heated",
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:vietnamese_rice_noodle_and_beef_soup_bun_bo_hu_step_2\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/vietnamese_rice_noodle_and_beef_soup_bun_bo_hu_step_2"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:pork\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/pork"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:pork\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/pork"
+      }
+    ]
+  ],
+  "processingTime": 20,
+  "results": [
+    {
+      "amount": 100,
+      "fluid": "cookbook_of_babel:liquid",
+      "nbt": "{substance:\"cookbook_of_babel:vietnamese_rice_noodle_and_beef_soup_bun_bo_hu_step_3\"}"
+    }
+  ]
+}

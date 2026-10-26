@@ -1,0 +1,48 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/jamaican_sorrel_soda_step_1"
+    }
+  ],
+  "heatRequirement": "heated",
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:ginger\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/ginger"
+      }
+    ],
+    {
+      "amount": 39,
+      "fluid": "cookbook_of_babel:liquid",
+      "nbt": {
+        "substance": "cookbook_of_babel:water"
+      }
+    },
+    {
+      "amount": 50,
+      "fluid": "cookbook_of_babel:bulk",
+      "nbt": {
+        "substance": "cookbook_of_babel:roselle"
+      }
+    }
+  ],
+  "processingTime": 300,
+  "results": [
+    {
+      "amount": 17,
+      "fluid": "cookbook_of_babel:liquid",
+      "nbt": "{substance:\"cookbook_of_babel:jamaican_sorrel_soda_step_1\"}"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/recaito_puerto_rican_culantro_sauce"
+    }
+  ],
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:recaito_puerto_rican_culantro_sauce_step_3\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/recaito_puerto_rican_culantro_sauce_step_3"
+      }
+    ]
+  ],
+  "processingTime": 20,
+  "results": [
+    {
+      "item": "cookbook_of_babel:recaito_puerto_rican_culantro_sauce"
+    }
+  ]
+}

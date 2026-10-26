@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "conditions": [
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/microwaved_artichoke_step_3"
+    }
+  ],
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:artichoke_cut_cut\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/artichoke_cut_cut"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:lemon\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/lemon"
+      }
+    ]
+  ],
+  "result": {
+    "item": "cookbook_of_babel:substance",
+    "nbt": "{substance:\"cookbook_of_babel:microwaved_artichoke_step_3\"}"
+  }
+}

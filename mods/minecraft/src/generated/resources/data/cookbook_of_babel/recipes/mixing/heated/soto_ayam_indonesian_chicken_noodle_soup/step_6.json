@@ -1,0 +1,42 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/soto_ayam_indonesian_chicken_noodle_soup"
+    }
+  ],
+  "heatRequirement": "heated",
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:soto_ayam_indonesian_chicken_noodle_soup_step_5\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/soto_ayam_indonesian_chicken_noodle_soup_step_5"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:green_onion\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/green_onion"
+      }
+    ]
+  ],
+  "processingTime": 20,
+  "results": [
+    {
+      "item": "cookbook_of_babel:soto_ayam_indonesian_chicken_noodle_soup"
+    }
+  ]
+}

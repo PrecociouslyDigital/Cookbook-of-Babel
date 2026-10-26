@@ -1,0 +1,43 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/keralan_prawns_step_4"
+    }
+  ],
+  "heatRequirement": "heated",
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:onion\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/onion"
+      }
+    ],
+    {
+      "amount": 400,
+      "fluid": "cookbook_of_babel:bulk",
+      "nbt": {
+        "substance": "cookbook_of_babel:keralan_prawns_step_3"
+      }
+    }
+  ],
+  "processingTime": 20,
+  "results": [
+    {
+      "count": 4,
+      "item": "cookbook_of_babel:substance",
+      "nbt": {
+        "substance": "cookbook_of_babel:keralan_prawns_step_4"
+      }
+    }
+  ]
+}

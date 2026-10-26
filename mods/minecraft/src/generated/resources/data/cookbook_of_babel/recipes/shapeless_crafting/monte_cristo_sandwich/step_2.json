@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "conditions": [
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/monte_cristo_sandwich_step_2"
+    }
+  ],
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:monte_cristo_sandwich_step_1\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/monte_cristo_sandwich_step_1"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:emmental_cheese\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/emmental_cheese"
+      }
+    ]
+  ],
+  "result": {
+    "item": "cookbook_of_babel:substance",
+    "nbt": "{substance:\"cookbook_of_babel:monte_cristo_sandwich_step_2\"}"
+  }
+}

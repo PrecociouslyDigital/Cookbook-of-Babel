@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "conditions": [
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/slinger"
+    }
+  ],
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:slinger_step_4\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/slinger_step_4"
+      }
+    ],
+    {
+      "tag": "cookbook_of_babel:ingredients/hash_browns"
+    },
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:cheese\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/cheese"
+      }
+    ]
+  ],
+  "result": {
+    "item": "cookbook_of_babel:slinger"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "type": "farmersdelight:cutting",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "farmersdelight"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/espresso_brownies"
+    }
+  ],
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:espresso_brownies_step_7\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/espresso_brownies_step_7"
+      }
+    ]
+  ],
+  "result": [
+    {
+      "item": "cookbook_of_babel:espresso_brownies"
+    }
+  ],
+  "tool": {
+    "tag": "forge:tools/knives"
+  }
+}

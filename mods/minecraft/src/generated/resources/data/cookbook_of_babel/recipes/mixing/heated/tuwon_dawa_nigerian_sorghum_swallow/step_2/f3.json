@@ -1,0 +1,35 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/tuwon_dawa_nigerian_sorghum_swallow_step_2"
+    }
+  ],
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+      "amount": 15,
+      "fluid": "cookbook_of_babel:bulk",
+      "nbt": {
+        "substance": "cookbook_of_babel:sorghum_grind"
+      }
+    },
+    {
+      "amount": 33,
+      "fluidTag": "minecraft:water"
+    }
+  ],
+  "processingTime": 20,
+  "results": [
+    {
+      "amount": 48,
+      "fluid": "cookbook_of_babel:liquid",
+      "nbt": "{substance:\"cookbook_of_babel:tuwon_dawa_nigerian_sorghum_swallow_step_2\"}"
+    }
+  ]
+}

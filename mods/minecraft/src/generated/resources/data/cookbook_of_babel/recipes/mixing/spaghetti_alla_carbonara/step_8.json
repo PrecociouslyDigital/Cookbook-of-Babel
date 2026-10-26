@@ -1,0 +1,38 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/spaghetti_alla_carbonara"
+    }
+  ],
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:spaghetti_alla_carbonara_step_7\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/spaghetti_alla_carbonara_step_7"
+      }
+    ],
+    {
+      "amount": 7,
+      "fluid": "cookbook_of_babel:bulk",
+      "nbt": {
+        "substance": "cookbook_of_babel:pepper"
+      }
+    }
+  ],
+  "processingTime": 20,
+  "results": [
+    {
+      "item": "cookbook_of_babel:spaghetti_alla_carbonara"
+    }
+  ]
+}

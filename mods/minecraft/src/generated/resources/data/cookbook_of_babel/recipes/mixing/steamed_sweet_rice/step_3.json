@@ -1,0 +1,30 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/steamed_sweet_rice_step_3"
+    }
+  ],
+  "ingredients": [
+    {
+      "amount": 11,
+      "fluid": "cookbook_of_babel:bulk",
+      "nbt": {
+        "substance": "cookbook_of_babel:steamed_sweet_rice_step_2"
+      }
+    }
+  ],
+  "processingTime": 400,
+  "results": [
+    {
+      "amount": 11,
+      "fluid": "cookbook_of_babel:bulk",
+      "nbt": "{substance:\"cookbook_of_babel:steamed_sweet_rice_step_3\"}"
+    }
+  ]
+}

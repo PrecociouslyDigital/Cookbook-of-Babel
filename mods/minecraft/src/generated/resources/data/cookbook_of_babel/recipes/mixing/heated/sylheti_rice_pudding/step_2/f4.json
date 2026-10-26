@@ -1,0 +1,39 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/sylheti_rice_pudding_step_2"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+      "amount": 7,
+      "fluid": "cookbook_of_babel:bulk",
+      "nbt": {
+        "substance": "cookbook_of_babel:rice_rinse"
+      }
+    },
+    {
+      "amount": 7,
+      "fluidTag": "c:milk"
+    }
+  ],
+  "processingTime": 20,
+  "results": [
+    {
+      "amount": 15,
+      "fluid": "cookbook_of_babel:liquid",
+      "nbt": "{substance:\"cookbook_of_babel:sylheti_rice_pudding_step_2\"}"
+    }
+  ]
+}

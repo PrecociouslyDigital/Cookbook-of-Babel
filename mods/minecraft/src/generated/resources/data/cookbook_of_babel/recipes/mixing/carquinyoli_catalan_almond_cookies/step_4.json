@@ -1,0 +1,34 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/carquinyoli_catalan_almond_cookies_step_4"
+    }
+  ],
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:carquinyoli_catalan_almond_cookies_step_3\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/carquinyoli_catalan_almond_cookies_step_3"
+      }
+    ]
+  ],
+  "processingTime": 20,
+  "results": [
+    {
+      "item": "cookbook_of_babel:substance",
+      "nbt": {
+        "substance": "cookbook_of_babel:carquinyoli_catalan_almond_cookies_step_4"
+      }
+    }
+  ]
+}

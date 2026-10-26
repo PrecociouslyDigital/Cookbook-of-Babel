@@ -1,0 +1,58 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/americanized_eggplant_parmesan_step_8"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:americanized_eggplant_parmesan_step_6\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/americanized_eggplant_parmesan_step_6"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:egg\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/egg"
+      }
+    ],
+    {
+      "amount": 189,
+      "fluid": "cookbook_of_babel:bulk",
+      "nbt": {
+        "substance": "cookbook_of_babel:wheat_flour"
+      }
+    },
+    {
+      "amount": 25,
+      "fluidTag": "c:milk"
+    }
+  ],
+  "processingTime": 20,
+  "results": [
+    {
+      "amount": 100,
+      "fluid": "cookbook_of_babel:liquid",
+      "nbt": "{substance:\"cookbook_of_babel:americanized_eggplant_parmesan_step_8\"}"
+    }
+  ]
+}

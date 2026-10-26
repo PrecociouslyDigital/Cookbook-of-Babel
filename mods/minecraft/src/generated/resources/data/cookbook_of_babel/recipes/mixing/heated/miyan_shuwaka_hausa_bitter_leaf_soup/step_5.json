@@ -1,0 +1,51 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/miyan_shuwaka_hausa_bitter_leaf_soup_step_5"
+    }
+  ],
+  "heatRequirement": "heated",
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:iru\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/iru"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:iru\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/iru"
+      }
+    ],
+    {
+      "amount": 10,
+      "fluid": "cookbook_of_babel:liquid",
+      "nbt": {
+        "substance": "cookbook_of_babel:miyan_shuwaka_hausa_bitter_leaf_soup_step_4"
+      }
+    }
+  ],
+  "processingTime": 20,
+  "results": [
+    {
+      "amount": 10,
+      "fluid": "cookbook_of_babel:liquid",
+      "nbt": "{substance:\"cookbook_of_babel:miyan_shuwaka_hausa_bitter_leaf_soup_step_5\"}"
+    }
+  ]
+}

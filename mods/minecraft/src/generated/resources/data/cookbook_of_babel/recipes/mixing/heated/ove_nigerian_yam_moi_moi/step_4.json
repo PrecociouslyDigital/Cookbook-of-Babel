@@ -1,0 +1,42 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/ove_nigerian_yam_moi_moi"
+    }
+  ],
+  "heatRequirement": "heated",
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:ove_nigerian_yam_moi_moi_step_3\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/ove_nigerian_yam_moi_moi_step_3"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:wrapping_leaf\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/wrapping_leaf"
+      }
+    ]
+  ],
+  "processingTime": 20,
+  "results": [
+    {
+      "item": "cookbook_of_babel:ove_nigerian_yam_moi_moi"
+    }
+  ]
+}

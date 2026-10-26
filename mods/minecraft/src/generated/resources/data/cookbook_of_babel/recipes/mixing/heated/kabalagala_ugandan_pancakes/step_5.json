@@ -1,0 +1,46 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/kabalagala_ugandan_pancakes_step_5"
+    }
+  ],
+  "heatRequirement": "heated",
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:portion",
+        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:liquid\",Tag:{substance:\"cookbook_of_babel:kabalagala_ugandan_pancakes_step_4\"}}}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/kabalagala_ugandan_pancakes_step_4"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:portion",
+        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:liquid\",Tag:{substance:\"cookbook_of_babel:kabalagala_ugandan_pancakes_step_4\"}}}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/kabalagala_ugandan_pancakes_step_4"
+      }
+    ]
+  ],
+  "processingTime": 50,
+  "results": [
+    {
+      "count": 5,
+      "item": "cookbook_of_babel:substance",
+      "nbt": {
+        "substance": "cookbook_of_babel:kabalagala_ugandan_pancakes_step_5"
+      }
+    }
+  ]
+}

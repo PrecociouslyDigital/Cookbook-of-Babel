@@ -1,0 +1,46 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/steak_and_ale_pie_step_7"
+    }
+  ],
+  "heatRequirement": "heated",
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:portion",
+        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:liquid\",Tag:{substance:\"cookbook_of_babel:steak_and_ale_pie_step_6\"}}}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/steak_and_ale_pie_step_6"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:portion",
+        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:liquid\",Tag:{substance:\"cookbook_of_babel:steak_and_ale_pie_step_6\"}}}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/steak_and_ale_pie_step_6"
+      }
+    ]
+  ],
+  "processingTime": 400,
+  "results": [
+    {
+      "count": 5,
+      "item": "cookbook_of_babel:substance",
+      "nbt": {
+        "substance": "cookbook_of_babel:steak_and_ale_pie_step_7"
+      }
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/garlic_pork_chops_with_black_mushrooms_step_4"
+    }
+  ],
+  "heatRequirement": "heated",
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:garlic_pork_chops_with_black_mushrooms_step_3\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/garlic_pork_chops_with_black_mushrooms_step_3"
+      }
+    ]
+  ],
+  "processingTime": 100,
+  "results": [
+    {
+      "amount": 100,
+      "fluid": "cookbook_of_babel:liquid",
+      "nbt": "{substance:\"cookbook_of_babel:garlic_pork_chops_with_black_mushrooms_step_4\"}"
+    }
+  ]
+}

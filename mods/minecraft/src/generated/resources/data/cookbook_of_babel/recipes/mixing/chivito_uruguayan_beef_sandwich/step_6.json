@@ -1,0 +1,54 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/chivito_uruguayan_beef_sandwich_step_6"
+    }
+  ],
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:chivito_uruguayan_beef_sandwich_step_5\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/chivito_uruguayan_beef_sandwich_step_5"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:ketchup\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/ketchup"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:mustard\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/mustard"
+      }
+    ]
+  ],
+  "processingTime": 20,
+  "results": [
+    {
+      "item": "cookbook_of_babel:substance",
+      "nbt": {
+        "substance": "cookbook_of_babel:chivito_uruguayan_beef_sandwich_step_6"
+      }
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "type": "farmersdelight:cooking",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "farmersdelight"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/qabuli_central_asian_rice_pilaf_step_2"
+    }
+  ],
+  "cookingtime": 100,
+  "experience": 0.1,
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:chickpea_mix\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/chickpea_mix"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:portion",
+        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:bulk\",Tag:{substance:\"cookbook_of_babel:salt\"}}}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/salt"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:portion",
+        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:bulk\",Tag:{substance:\"cookbook_of_babel:red_pepper\"}}}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/red_pepper"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:ginger_garlic_paste\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/ginger_garlic_paste"
+      }
+    ]
+  ],
+  "result": {
+    "item": "cookbook_of_babel:substance",
+    "nbt": "{substance:\"cookbook_of_babel:qabuli_central_asian_rice_pilaf_step_2\"}"
+  }
+}

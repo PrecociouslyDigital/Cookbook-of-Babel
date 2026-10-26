@@ -1,0 +1,28 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/rice_milk"
+    }
+  ],
+  "ingredients": [
+    {
+      "amount": 99,
+      "fluid": "cookbook_of_babel:liquid",
+      "nbt": {
+        "substance": "cookbook_of_babel:rice_milk_step_1"
+      }
+    }
+  ],
+  "processingTime": 30,
+  "results": [
+    {
+      "item": "cookbook_of_babel:rice_milk"
+    }
+  ]
+}

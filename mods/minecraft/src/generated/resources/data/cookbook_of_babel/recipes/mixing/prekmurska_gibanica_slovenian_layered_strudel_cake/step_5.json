@@ -1,0 +1,68 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/prekmurska_gibanica_slovenian_layered_strudel_cake_step_5"
+    }
+  ],
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:butter\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/butter"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:butter\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/butter"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:egg\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/egg"
+      }
+    ],
+    {
+      "amount": 940,
+      "fluid": "cookbook_of_babel:bulk",
+      "nbt": {
+        "substance": "cookbook_of_babel:prekmurska_gibanica_slovenian_layered_strudel_cake_step_4"
+      }
+    },
+    {
+      "amount": 100,
+      "fluid": "cookbook_of_babel:liquid",
+      "nbt": {
+        "substance": "cookbook_of_babel:vanilla"
+      }
+    }
+  ],
+  "processingTime": 20,
+  "results": [
+    {
+      "item": "cookbook_of_babel:substance",
+      "nbt": {
+        "substance": "cookbook_of_babel:prekmurska_gibanica_slovenian_layered_strudel_cake_step_5"
+      }
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "type": "create:deploying",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/caprese_salad_step_2"
+    }
+  ],
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:tomato_chop\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/tomato_chop"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:mozzarella_cheese\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/mozzarella_cheese"
+      }
+    ]
+  ],
+  "results": [
+    {
+      "item": "cookbook_of_babel:substance",
+      "nbt": {
+        "substance": "cookbook_of_babel:caprese_salad_step_2"
+      }
+    }
+  ]
+}

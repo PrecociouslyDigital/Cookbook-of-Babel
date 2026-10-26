@@ -13,8 +13,8 @@ public final class NamedDishItem extends Item {
     public final NamedDish dish;
 
     public NamedDishItem(NamedDish dish, Properties properties) {
-        super(dish.nutrition
-                .flatMap(n -> Food.of(n, Portions.gramsPerItem(dish.form)))
+        super(dish.nutrition()
+                .flatMap(n -> Food.of(n, Portions.gramsPerItem(dish.form())))
                 .map(properties::food)
                 .orElse(properties));
         this.dish = dish;
@@ -22,6 +22,6 @@ public final class NamedDishItem extends Item {
 
     @Override
     public Component getName(ItemStack stack) {
-        return Component.translatableWithFallback(getDescriptionId(stack), Labels.asName(dish.label));
+        return Component.translatableWithFallback(getDescriptionId(stack), Labels.asName(dish.label()));
     }
 }

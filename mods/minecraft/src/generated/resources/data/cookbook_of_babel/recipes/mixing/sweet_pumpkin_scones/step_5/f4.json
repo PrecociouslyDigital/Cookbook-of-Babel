@@ -1,0 +1,42 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/sweet_pumpkin_scones_step_5"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:sweet_pumpkin_scones_step_4\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/sweet_pumpkin_scones_step_4"
+      }
+    ],
+    {
+      "amount": 79,
+      "fluidTag": "c:milk"
+    }
+  ],
+  "processingTime": 20,
+  "results": [
+    {
+      "item": "cookbook_of_babel:substance",
+      "nbt": {
+        "substance": "cookbook_of_babel:sweet_pumpkin_scones_step_5"
+      }
+    }
+  ]
+}

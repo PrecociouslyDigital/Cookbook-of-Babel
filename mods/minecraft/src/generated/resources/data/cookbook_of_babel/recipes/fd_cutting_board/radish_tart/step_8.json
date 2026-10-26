@@ -1,0 +1,33 @@
+{
+  "type": "farmersdelight:cutting",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "farmersdelight"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/radish_tart"
+    }
+  ],
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:radish_tart_step_7\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/radish_tart_step_7"
+      }
+    ]
+  ],
+  "result": [
+    {
+      "item": "cookbook_of_babel:radish_tart"
+    }
+  ],
+  "tool": {
+    "tag": "forge:tools/knives"
+  }
+}

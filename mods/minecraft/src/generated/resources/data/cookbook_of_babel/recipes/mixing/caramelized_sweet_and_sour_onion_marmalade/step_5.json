@@ -1,0 +1,66 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/caramelized_sweet_and_sour_onion_marmalade"
+    }
+  ],
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:caramelized_sweet_and_sour_onion_marmalade_step_4\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/caramelized_sweet_and_sour_onion_marmalade_step_4"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:caramelized_sweet_and_sour_onion_marmalade_step_4\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/caramelized_sweet_and_sour_onion_marmalade_step_4"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:caramelized_sweet_and_sour_onion_marmalade_step_4\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/caramelized_sweet_and_sour_onion_marmalade_step_4"
+      }
+    ],
+    {
+      "amount": 4,
+      "fluid": "cookbook_of_babel:bulk",
+      "nbt": {
+        "substance": "cookbook_of_babel:salt"
+      }
+    },
+    {
+      "amount": 2,
+      "fluid": "cookbook_of_babel:bulk",
+      "nbt": {
+        "substance": "cookbook_of_babel:pepper"
+      }
+    }
+  ],
+  "processingTime": 20,
+  "results": [
+    {
+      "count": 3,
+      "item": "cookbook_of_babel:caramelized_sweet_and_sour_onion_marmalade"
+    }
+  ]
+}

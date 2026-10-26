@@ -1,0 +1,40 @@
+{
+  "type": "create:deploying",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/arroz_con_pollo_rice_and_chicken"
+    }
+  ],
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:arroz_con_pollo_rice_and_chicken_step_9\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/arroz_con_pollo_rice_and_chicken_step_9"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:pea\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/pea"
+      }
+    ]
+  ],
+  "results": [
+    {
+      "item": "cookbook_of_babel:arroz_con_pollo_rice_and_chicken"
+    }
+  ]
+}

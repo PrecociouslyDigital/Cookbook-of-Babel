@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "conditions": [
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/hickory_bbq_chicken_wings_step_1"
+    }
+  ],
+  "ingredients": [
+    {
+      "tag": "cookbook_of_babel:ingredients/kansas_city_barbecue_sauce"
+    },
+    {
+      "tag": "cookbook_of_babel:ingredients/kansas_city_barbecue_sauce"
+    },
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:portion",
+        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:liquid\",Tag:{substance:\"cookbook_of_babel:liquid_smoke\"}}}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/liquid_smoke"
+      }
+    ]
+  ],
+  "result": {
+    "item": "cookbook_of_babel:portion",
+    "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:liquid\",Tag:{substance:\"cookbook_of_babel:hickory_bbq_chicken_wings_step_1\"}}}"
+  }
+}

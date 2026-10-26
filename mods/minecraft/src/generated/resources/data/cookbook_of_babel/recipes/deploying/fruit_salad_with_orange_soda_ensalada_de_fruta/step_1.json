@@ -1,0 +1,44 @@
+{
+  "type": "create:deploying",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/fruit_salad_with_orange_soda_ensalada_de_fruta_step_1"
+    }
+  ],
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:peach\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/peach"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:pineapple\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/pineapple"
+      }
+    ]
+  ],
+  "results": [
+    {
+      "count": 6,
+      "item": "cookbook_of_babel:substance",
+      "nbt": {
+        "substance": "cookbook_of_babel:fruit_salad_with_orange_soda_ensalada_de_fruta_step_1"
+      }
+    }
+  ]
+}

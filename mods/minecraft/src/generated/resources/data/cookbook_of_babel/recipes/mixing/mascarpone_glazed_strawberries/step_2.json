@@ -1,0 +1,40 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/mascarpone_glazed_strawberries_step_2"
+    }
+  ],
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:mascarpone_glazed_strawberries_step_1\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/mascarpone_glazed_strawberries_step_1"
+      }
+    ],
+    {
+      "amount": 3,
+      "fluid": "cookbook_of_babel:liquid",
+      "nbt": {
+        "substance": "cookbook_of_babel:rum"
+      }
+    }
+  ],
+  "processingTime": 20,
+  "results": [
+    {
+      "amount": 33,
+      "fluid": "cookbook_of_babel:liquid",
+      "nbt": "{substance:\"cookbook_of_babel:mascarpone_glazed_strawberries_step_2\"}"
+    }
+  ]
+}

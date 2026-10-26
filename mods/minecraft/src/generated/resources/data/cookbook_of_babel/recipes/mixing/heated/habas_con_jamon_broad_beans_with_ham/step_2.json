@@ -1,0 +1,59 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/habas_con_jamon_broad_beans_with_ham"
+    }
+  ],
+  "heatRequirement": "heated",
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:habas_con_jamon_broad_beans_with_ham_step_1\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/habas_con_jamon_broad_beans_with_ham_step_1"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:fava_bean\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/fava_bean"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:fava_bean\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/fava_bean"
+      }
+    ],
+    {
+      "amount": 15,
+      "fluid": "cookbook_of_babel:liquid",
+      "nbt": {
+        "substance": "cookbook_of_babel:oil_and_fat"
+      }
+    }
+  ],
+  "processingTime": 20,
+  "results": [
+    {
+      "item": "cookbook_of_babel:habas_con_jamon_broad_beans_with_ham"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/arroz_con_maiz_rice_with_corn_step_9"
+    }
+  ],
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:arroz_con_maiz_rice_with_corn_step_8\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/arroz_con_maiz_rice_with_corn_step_8"
+      }
+    ],
+    {
+      "amount": 710,
+      "fluid": "cookbook_of_babel:bulk",
+      "nbt": {
+        "substance": "cookbook_of_babel:grain_rice"
+      }
+    }
+  ],
+  "processingTime": 20,
+  "results": [
+    {
+      "amount": 100,
+      "fluid": "cookbook_of_babel:bulk",
+      "nbt": "{substance:\"cookbook_of_babel:arroz_con_maiz_rice_with_corn_step_9\"}"
+    }
+  ]
+}

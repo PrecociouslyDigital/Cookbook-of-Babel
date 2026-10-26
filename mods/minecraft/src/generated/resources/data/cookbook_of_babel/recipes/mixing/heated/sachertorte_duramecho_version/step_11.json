@@ -1,0 +1,44 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/sachertorte_duramecho_version_step_11"
+    }
+  ],
+  "heatRequirement": "heated",
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:sachertorte_duramecho_version_step_10\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/sachertorte_duramecho_version_step_10"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:apricot\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/apricot"
+      }
+    ]
+  ],
+  "processingTime": 20,
+  "results": [
+    {
+      "amount": 100,
+      "fluid": "cookbook_of_babel:liquid",
+      "nbt": "{substance:\"cookbook_of_babel:sachertorte_duramecho_version_step_11\"}"
+    }
+  ]
+}

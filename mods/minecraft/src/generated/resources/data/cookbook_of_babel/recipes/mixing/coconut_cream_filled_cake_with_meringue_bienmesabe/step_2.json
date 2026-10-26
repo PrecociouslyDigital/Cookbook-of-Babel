@@ -1,0 +1,40 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/coconut_cream_filled_cake_with_meringue_bienmesabe_step_2"
+    }
+  ],
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:egg\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/egg"
+      }
+    ],
+    {
+      "amount": 39,
+      "fluid": "cookbook_of_babel:bulk",
+      "nbt": {
+        "substance": "cookbook_of_babel:white_sugar"
+      }
+    }
+  ],
+  "processingTime": 20,
+  "results": [
+    {
+      "amount": 33,
+      "fluid": "cookbook_of_babel:liquid",
+      "nbt": "{substance:\"cookbook_of_babel:coconut_cream_filled_cake_with_meringue_bienmesabe_step_2\"}"
+    }
+  ]
+}

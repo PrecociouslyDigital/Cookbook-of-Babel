@@ -1,0 +1,30 @@
+{
+  "type": "farmersdelight:cooking",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "farmersdelight"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/vegetable_stew_and_dumplings"
+    }
+  ],
+  "cookingtime": 450,
+  "experience": 0.1,
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:vegetable_stew_and_dumplings_step_12\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/vegetable_stew_and_dumplings_step_12"
+      }
+    ]
+  ],
+  "result": {
+    "item": "cookbook_of_babel:vegetable_stew_and_dumplings"
+  }
+}

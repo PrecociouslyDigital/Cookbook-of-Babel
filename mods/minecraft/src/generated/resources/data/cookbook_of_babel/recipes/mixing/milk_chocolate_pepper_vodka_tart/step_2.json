@@ -1,0 +1,41 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/milk_chocolate_pepper_vodka_tart_step_2"
+    }
+  ],
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:milk_chocolate_pepper_vodka_tart_step_1\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/milk_chocolate_pepper_vodka_tart_step_1"
+      }
+    ],
+    {
+      "amount": 642,
+      "fluid": "cookbook_of_babel:bulk",
+      "nbt": {
+        "substance": "cookbook_of_babel:wheat_flour"
+      }
+    }
+  ],
+  "processingTime": 20,
+  "results": [
+    {
+      "item": "cookbook_of_babel:substance",
+      "nbt": {
+        "substance": "cookbook_of_babel:milk_chocolate_pepper_vodka_tart_step_2"
+      }
+    }
+  ]
+}

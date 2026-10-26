@@ -1,0 +1,37 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/peanut_milk_step_2"
+    }
+  ],
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:peanut_rinse\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/peanut_rinse"
+      }
+    ],
+    {
+      "amount": 313,
+      "fluidTag": "minecraft:water"
+    }
+  ],
+  "processingTime": 30,
+  "results": [
+    {
+      "amount": 316,
+      "fluid": "cookbook_of_babel:liquid",
+      "nbt": "{substance:\"cookbook_of_babel:peanut_milk_step_2\"}"
+    }
+  ]
+}

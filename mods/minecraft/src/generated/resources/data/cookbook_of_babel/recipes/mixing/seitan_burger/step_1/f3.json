@@ -1,0 +1,37 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/seitan_burger_step_1"
+    }
+  ],
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:portion",
+        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:liquid\",Tag:{substance:\"cookbook_of_babel:soy_sauce\"}}}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/soy_sauce"
+      }
+    ],
+    {
+      "amount": 9,
+      "fluidTag": "minecraft:water"
+    }
+  ],
+  "processingTime": 20,
+  "results": [
+    {
+      "amount": 9,
+      "fluid": "cookbook_of_babel:liquid",
+      "nbt": "{substance:\"cookbook_of_babel:seitan_burger_step_1\"}"
+    }
+  ]
+}

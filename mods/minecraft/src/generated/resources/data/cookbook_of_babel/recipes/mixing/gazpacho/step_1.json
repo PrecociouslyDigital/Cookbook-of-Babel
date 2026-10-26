@@ -1,0 +1,50 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/gazpacho_step_1"
+    }
+  ],
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:day_old_white_bread\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/day_old_white_bread"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:bread\"}"
+      },
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:stale_bread\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/bread"
+      }
+    ]
+  ],
+  "processingTime": 400,
+  "results": [
+    {
+      "count": 9,
+      "item": "cookbook_of_babel:substance",
+      "nbt": {
+        "substance": "cookbook_of_babel:gazpacho_step_1"
+      }
+    }
+  ]
+}

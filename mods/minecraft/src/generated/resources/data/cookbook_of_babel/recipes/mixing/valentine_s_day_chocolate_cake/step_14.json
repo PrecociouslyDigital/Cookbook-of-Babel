@@ -1,0 +1,44 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/valentine_s_day_chocolate_cake_step_14"
+    }
+  ],
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:valentine_s_day_chocolate_cake_step_13\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/valentine_s_day_chocolate_cake_step_13"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:chocolate\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/chocolate"
+      }
+    ]
+  ],
+  "processingTime": 20,
+  "results": [
+    {
+      "item": "cookbook_of_babel:substance",
+      "nbt": {
+        "substance": "cookbook_of_babel:valentine_s_day_chocolate_cake_step_14"
+      }
+    }
+  ]
+}

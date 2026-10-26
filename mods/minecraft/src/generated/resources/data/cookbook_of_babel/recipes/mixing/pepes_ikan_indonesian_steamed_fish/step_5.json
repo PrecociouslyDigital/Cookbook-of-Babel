@@ -1,0 +1,41 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/pepes_ikan_indonesian_steamed_fish_step_5"
+    }
+  ],
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:pepes_ikan_indonesian_steamed_fish_step_4\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/pepes_ikan_indonesian_steamed_fish_step_4"
+      }
+    ],
+    {
+      "amount": 30,
+      "fluid": "cookbook_of_babel:liquid",
+      "nbt": {
+        "substance": "cookbook_of_babel:vegetable_oil"
+      }
+    }
+  ],
+  "processingTime": 20,
+  "results": [
+    {
+      "item": "cookbook_of_babel:substance",
+      "nbt": {
+        "substance": "cookbook_of_babel:pepes_ikan_indonesian_steamed_fish_step_5"
+      }
+    }
+  ]
+}

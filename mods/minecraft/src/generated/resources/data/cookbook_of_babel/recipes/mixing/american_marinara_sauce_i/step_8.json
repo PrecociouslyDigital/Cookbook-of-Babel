@@ -1,0 +1,57 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/american_marinara_sauce_i_step_8"
+    }
+  ],
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:american_marinara_sauce_i_step_7\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/american_marinara_sauce_i_step_7"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:american_marinara_sauce_i_step_7\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/american_marinara_sauce_i_step_7"
+      }
+    ],
+    {
+      "amount": 5,
+      "fluid": "cookbook_of_babel:bulk",
+      "nbt": {
+        "substance": "cookbook_of_babel:oregano"
+      }
+    },
+    {
+      "amount": 5,
+      "fluid": "cookbook_of_babel:bulk",
+      "nbt": {
+        "substance": "cookbook_of_babel:chile_flakes"
+      }
+    }
+  ],
+  "processingTime": 20,
+  "results": [
+    {
+      "amount": 200,
+      "fluid": "cookbook_of_babel:liquid",
+      "nbt": "{substance:\"cookbook_of_babel:american_marinara_sauce_i_step_8\"}"
+    }
+  ]
+}

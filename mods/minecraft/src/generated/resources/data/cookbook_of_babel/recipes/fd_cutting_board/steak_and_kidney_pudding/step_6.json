@@ -1,0 +1,33 @@
+{
+  "type": "farmersdelight:cutting",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "farmersdelight"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/steak_and_kidney_pudding"
+    }
+  ],
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:steak_and_kidney_pudding_step_5\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/steak_and_kidney_pudding_step_5"
+      }
+    ]
+  ],
+  "result": [
+    {
+      "item": "cookbook_of_babel:steak_and_kidney_pudding"
+    }
+  ],
+  "tool": {
+    "tag": "forge:tools/knives"
+  }
+}

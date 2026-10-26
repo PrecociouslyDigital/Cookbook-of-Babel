@@ -1,0 +1,34 @@
+{
+  "type": "farmersdelight:cutting",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "farmersdelight"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/london_broil"
+    }
+  ],
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:london_broil_step_3\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/london_broil_step_3"
+      }
+    ]
+  ],
+  "result": [
+    {
+      "count": 5,
+      "item": "cookbook_of_babel:london_broil"
+    }
+  ],
+  "tool": {
+    "tag": "forge:tools/knives"
+  }
+}

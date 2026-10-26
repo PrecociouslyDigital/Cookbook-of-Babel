@@ -1,0 +1,81 @@
+{
+  "type": "farmersdelight:cooking",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "farmersdelight"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/south_african_curry_and_rice"
+    }
+  ],
+  "cookingtime": 250,
+  "experience": 0.1,
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:portion",
+        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:liquid\",Tag:{substance:\"cookbook_of_babel:south_african_curry_and_rice_step_5\"}}}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/south_african_curry_and_rice_step_5"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:rosemary\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/rosemary"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:portion",
+        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:bulk\",Tag:{substance:\"cookbook_of_babel:rice\"}}}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/rice"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:chutney\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/chutney"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:coconut\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/coconut"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:banana\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/banana"
+      }
+    ]
+  ],
+  "result": {
+    "count": 3,
+    "item": "cookbook_of_babel:south_african_curry_and_rice"
+  }
+}

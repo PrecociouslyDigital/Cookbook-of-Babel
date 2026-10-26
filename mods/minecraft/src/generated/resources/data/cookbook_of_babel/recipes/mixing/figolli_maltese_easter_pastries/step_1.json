@@ -1,0 +1,40 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/figolli_maltese_easter_pastries_step_1"
+    }
+  ],
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:margarine\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/margarine"
+      }
+    ],
+    {
+      "amount": 377,
+      "fluid": "cookbook_of_babel:bulk",
+      "nbt": {
+        "substance": "cookbook_of_babel:wheat_flour"
+      }
+    }
+  ],
+  "processingTime": 20,
+  "results": [
+    {
+      "amount": 250,
+      "fluid": "cookbook_of_babel:bulk",
+      "nbt": "{substance:\"cookbook_of_babel:figolli_maltese_easter_pastries_step_1\"}"
+    }
+  ]
+}

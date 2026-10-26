@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "conditions": [
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/chocolate_chip_peanut_butter_toast_step_2"
+    }
+  ],
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:bread_toast\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/bread_toast"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:peanut_butter\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/peanut_butter"
+      }
+    ]
+  ],
+  "result": {
+    "item": "cookbook_of_babel:substance",
+    "nbt": "{substance:\"cookbook_of_babel:chocolate_chip_peanut_butter_toast_step_2\"}"
+  }
+}

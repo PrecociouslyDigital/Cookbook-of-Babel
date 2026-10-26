@@ -1,0 +1,40 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/chakarai_pongal_sweet_rice_and_black_gram_pudding_step_3"
+    }
+  ],
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:cardamom\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/cardamom"
+      }
+    ],
+    {
+      "amount": 43,
+      "fluid": "cookbook_of_babel:liquid",
+      "nbt": {
+        "substance": "cookbook_of_babel:chakarai_pongal_sweet_rice_and_black_gram_pudding_step_2"
+      }
+    }
+  ],
+  "processingTime": 20,
+  "results": [
+    {
+      "amount": 43,
+      "fluid": "cookbook_of_babel:liquid",
+      "nbt": "{substance:\"cookbook_of_babel:chakarai_pongal_sweet_rice_and_black_gram_pudding_step_3\"}"
+    }
+  ]
+}

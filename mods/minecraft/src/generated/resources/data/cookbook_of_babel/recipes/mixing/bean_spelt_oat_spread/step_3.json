@@ -1,0 +1,81 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/bean_spelt_oat_spread"
+    }
+  ],
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:bean_spelt_oat_spread_step_2\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/bean_spelt_oat_spread_step_2"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:portion",
+        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:bulk\",Tag:{substance:\"cookbook_of_babel:salt\"}}}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/salt"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:garlic\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/garlic"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:portion",
+        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:bulk\",Tag:{substance:\"cookbook_of_babel:pepper\"}}}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/pepper"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:herbs_and_spices\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/herbs_and_spices"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:portion",
+        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:bulk\",Tag:{substance:\"cookbook_of_babel:corn_flour\"}}}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/corn_flour"
+      }
+    ]
+  ],
+  "processingTime": 20,
+  "results": [
+    {
+      "item": "cookbook_of_babel:bean_spelt_oat_spread"
+    }
+  ]
+}

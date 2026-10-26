@@ -1,0 +1,65 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/chocolate_marmalade_layer_cake_step_3"
+    }
+  ],
+  "ingredients": [
+    {
+      "tag": "cookbook_of_babel:ingredients/self_rising_flour"
+    },
+    {
+      "tag": "cookbook_of_babel:ingredients/self_rising_flour"
+    },
+    {
+      "tag": "cookbook_of_babel:ingredients/self_rising_flour"
+    },
+    {
+      "tag": "cookbook_of_babel:ingredients/self_rising_flour"
+    },
+    {
+      "tag": "cookbook_of_babel:ingredients/self_rising_flour"
+    },
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:chocolate\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/chocolate"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:chocolate\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/chocolate"
+      }
+    ],
+    {
+      "amount": 15,
+      "fluid": "cookbook_of_babel:bulk",
+      "nbt": {
+        "substance": "cookbook_of_babel:baking_powder"
+      }
+    }
+  ],
+  "processingTime": 20,
+  "results": [
+    {
+      "amount": 612,
+      "fluid": "cookbook_of_babel:bulk",
+      "nbt": "{substance:\"cookbook_of_babel:chocolate_marmalade_layer_cake_step_3\"}"
+    }
+  ]
+}

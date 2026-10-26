@@ -1,0 +1,59 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/baked_chicken_with_onions_sumac_and_allspice_musakhan_step_4"
+    }
+  ],
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:baked_chicken_with_onions_sumac_and_allspice_musakhan_step_3\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/baked_chicken_with_onions_sumac_and_allspice_musakhan_step_3"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:baked_chicken_with_onions_sumac_and_allspice_musakhan_step_3\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/baked_chicken_with_onions_sumac_and_allspice_musakhan_step_3"
+      }
+    ],
+    {
+      "amount": 118,
+      "fluid": "cookbook_of_babel:bulk",
+      "nbt": {
+        "substance": "cookbook_of_babel:sumac"
+      }
+    },
+    {
+      "amount": 5,
+      "fluid": "cookbook_of_babel:bulk",
+      "nbt": {
+        "substance": "cookbook_of_babel:allspice"
+      }
+    }
+  ],
+  "processingTime": 40,
+  "results": [
+    {
+      "count": 2,
+      "item": "cookbook_of_babel:substance",
+      "nbt": {
+        "substance": "cookbook_of_babel:baked_chicken_with_onions_sumac_and_allspice_musakhan_step_4"
+      }
+    }
+  ]
+}

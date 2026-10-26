@@ -1,0 +1,32 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/ata_ekuru_ekuru_sauce"
+    }
+  ],
+  "heatRequirement": "heated",
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:ata_ekuru_ekuru_sauce_step_2\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/ata_ekuru_ekuru_sauce_step_2"
+      }
+    ]
+  ],
+  "processingTime": 400,
+  "results": [
+    {
+      "item": "cookbook_of_babel:ata_ekuru_ekuru_sauce"
+    }
+  ]
+}

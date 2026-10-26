@@ -1,0 +1,38 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/lafun_nigerian_cassava_swallow_step_1"
+    }
+  ],
+  "heatRequirement": "heated",
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:cassava\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/cassava"
+      }
+    ],
+    {
+      "amount": 315,
+      "fluidTag": "minecraft:water"
+    }
+  ],
+  "processingTime": 20,
+  "results": [
+    {
+      "amount": 473,
+      "fluid": "cookbook_of_babel:liquid",
+      "nbt": "{substance:\"cookbook_of_babel:lafun_nigerian_cassava_swallow_step_1\"}"
+    }
+  ]
+}

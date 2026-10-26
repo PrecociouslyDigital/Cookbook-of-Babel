@@ -1,0 +1,42 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/spinach_and_ricotta_lasagna_step_11"
+    }
+  ],
+  "heatRequirement": "heated",
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:spinach_and_ricotta_lasagna_step_10\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/spinach_and_ricotta_lasagna_step_10"
+      }
+    ],
+    {
+      "amount": 454,
+      "fluid": "cookbook_of_babel:bulk",
+      "nbt": {
+        "substance": "cookbook_of_babel:pasta"
+      }
+    }
+  ],
+  "processingTime": 20,
+  "results": [
+    {
+      "item": "cookbook_of_babel:substance",
+      "nbt": {
+        "substance": "cookbook_of_babel:spinach_and_ricotta_lasagna_step_11"
+      }
+    }
+  ]
+}

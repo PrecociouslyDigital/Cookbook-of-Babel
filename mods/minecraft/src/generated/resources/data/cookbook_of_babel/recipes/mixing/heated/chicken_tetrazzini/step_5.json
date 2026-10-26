@@ -1,0 +1,76 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/chicken_tetrazzini_step_5"
+    }
+  ],
+  "heatRequirement": "heated",
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:chicken_tetrazzini_step_4\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/chicken_tetrazzini_step_4"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:chicken_tetrazzini_step_4\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/chicken_tetrazzini_step_4"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:chicken_tetrazzini_step_4\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/chicken_tetrazzini_step_4"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:spaghetti\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/spaghetti"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:spaghetti\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/spaghetti"
+      }
+    ]
+  ],
+  "processingTime": 200,
+  "results": [
+    {
+      "count": 3,
+      "item": "cookbook_of_babel:substance",
+      "nbt": {
+        "substance": "cookbook_of_babel:chicken_tetrazzini_step_5"
+      }
+    }
+  ]
+}

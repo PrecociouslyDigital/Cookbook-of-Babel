@@ -1,0 +1,54 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/firire_senegalese_fried_fish_with_sauce_step_7"
+    }
+  ],
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:firire_senegalese_fried_fish_with_sauce_step_6\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/firire_senegalese_fried_fish_with_sauce_step_6"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:lettuce\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/lettuce"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:cucumber\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/cucumber"
+      }
+    ]
+  ],
+  "processingTime": 20,
+  "results": [
+    {
+      "item": "cookbook_of_babel:substance",
+      "nbt": {
+        "substance": "cookbook_of_babel:firire_senegalese_fried_fish_with_sauce_step_7"
+      }
+    }
+  ]
+}

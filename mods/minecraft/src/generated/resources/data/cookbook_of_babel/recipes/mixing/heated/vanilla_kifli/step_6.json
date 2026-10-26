@@ -1,0 +1,53 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/vanilla_kifli"
+    }
+  ],
+  "heatRequirement": "heated",
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:vanilla_kifli_step_5\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/vanilla_kifli_step_5"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:vanilla_kifli_step_5\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/vanilla_kifli_step_5"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:chocolate\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/chocolate"
+      }
+    ]
+  ],
+  "processingTime": 20,
+  "results": [
+    {
+      "count": 2,
+      "item": "cookbook_of_babel:vanilla_kifli"
+    }
+  ]
+}

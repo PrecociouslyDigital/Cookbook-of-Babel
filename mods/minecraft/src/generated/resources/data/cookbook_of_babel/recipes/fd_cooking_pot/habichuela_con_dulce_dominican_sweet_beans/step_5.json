@@ -1,0 +1,61 @@
+{
+  "type": "farmersdelight:cooking",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "farmersdelight"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/habichuela_con_dulce_dominican_sweet_beans_step_6"
+    }
+  ],
+  "cookingtime": 200,
+  "experience": 0.1,
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:portion",
+        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:liquid\",Tag:{substance:\"cookbook_of_babel:habichuela_con_dulce_dominican_sweet_beans_step_4\"}}}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/habichuela_con_dulce_dominican_sweet_beans_step_4"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:raisin\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/raisin"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:raisin\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/raisin"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:milk_cookies\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/milk_cookies"
+      }
+    ]
+  ],
+  "result": {
+    "item": "cookbook_of_babel:portion",
+    "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:liquid\",Tag:{substance:\"cookbook_of_babel:habichuela_con_dulce_dominican_sweet_beans_step_6\"}}}"
+  }
+}

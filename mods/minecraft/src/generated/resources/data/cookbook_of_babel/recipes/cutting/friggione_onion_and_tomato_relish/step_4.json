@@ -1,0 +1,35 @@
+{
+  "type": "create:cutting",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/friggione_onion_and_tomato_relish_step_4"
+    }
+  ],
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:friggione_onion_and_tomato_relish_step_3\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/friggione_onion_and_tomato_relish_step_3"
+      }
+    ]
+  ],
+  "processingTime": 50,
+  "results": [
+    {
+      "count": 3,
+      "item": "cookbook_of_babel:substance",
+      "nbt": {
+        "substance": "cookbook_of_babel:friggione_onion_and_tomato_relish_step_4"
+      }
+    }
+  ]
+}

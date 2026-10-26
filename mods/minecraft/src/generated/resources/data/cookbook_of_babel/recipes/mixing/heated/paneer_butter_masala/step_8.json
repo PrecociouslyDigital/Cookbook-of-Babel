@@ -1,0 +1,32 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/paneer_butter_masala"
+    }
+  ],
+  "heatRequirement": "heated",
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:paneer_butter_masala_step_7\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/paneer_butter_masala_step_7"
+      }
+    ]
+  ],
+  "processingTime": 300,
+  "results": [
+    {
+      "item": "cookbook_of_babel:paneer_butter_masala"
+    }
+  ]
+}

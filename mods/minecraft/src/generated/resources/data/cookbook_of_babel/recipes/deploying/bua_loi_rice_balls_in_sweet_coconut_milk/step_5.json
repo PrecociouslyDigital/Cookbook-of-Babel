@@ -1,0 +1,40 @@
+{
+  "type": "create:deploying",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/bua_loi_rice_balls_in_sweet_coconut_milk"
+    }
+  ],
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:bua_loi_rice_balls_in_sweet_coconut_milk_step_4\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/bua_loi_rice_balls_in_sweet_coconut_milk_step_4"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:coconut\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/coconut"
+      }
+    ]
+  ],
+  "results": [
+    {
+      "item": "cookbook_of_babel:bua_loi_rice_balls_in_sweet_coconut_milk"
+    }
+  ]
+}

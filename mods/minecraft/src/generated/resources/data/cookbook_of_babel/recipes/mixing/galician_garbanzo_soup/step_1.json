@@ -1,0 +1,39 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/galician_garbanzo_soup_step_1"
+    }
+  ],
+  "ingredients": [
+    {
+      "amount": 53,
+      "fluid": "cookbook_of_babel:bulk",
+      "nbt": {
+        "substance": "cookbook_of_babel:chickpea"
+      }
+    },
+    {
+      "amount": 44,
+      "fluid": "cookbook_of_babel:liquid",
+      "nbt": {
+        "substance": "cookbook_of_babel:broth_and_stock"
+      }
+    }
+  ],
+  "processingTime": 20,
+  "results": [
+    {
+      "count": 2,
+      "item": "cookbook_of_babel:substance",
+      "nbt": {
+        "substance": "cookbook_of_babel:galician_garbanzo_soup_step_1"
+      }
+    }
+  ]
+}

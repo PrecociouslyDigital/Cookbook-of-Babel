@@ -1,0 +1,65 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/english_pea_salad_step_2"
+    }
+  ],
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:english_pea_salad_step_1\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/english_pea_salad_step_1"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:can_english_peas\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/can_english_peas"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:can_english_peas\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/can_english_peas"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:can_english_peas\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/can_english_peas"
+      }
+    ]
+  ],
+  "processingTime": 20,
+  "results": [
+    {
+      "count": 3,
+      "item": "cookbook_of_babel:substance",
+      "nbt": {
+        "substance": "cookbook_of_babel:english_pea_salad_step_2"
+      }
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/locrio_dominican_chicken_and_rice_step_9"
+    }
+  ],
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:portion",
+        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:bulk\",Tag:{substance:\"cookbook_of_babel:locrio_dominican_chicken_and_rice_step_8\"}}}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/locrio_dominican_chicken_and_rice_step_8"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:portion",
+        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:bulk\",Tag:{substance:\"cookbook_of_babel:locrio_dominican_chicken_and_rice_step_8\"}}}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/locrio_dominican_chicken_and_rice_step_8"
+      }
+    ],
+    {
+      "amount": 148,
+      "fluid": "cookbook_of_babel:liquid",
+      "nbt": {
+        "substance": "cookbook_of_babel:oil_and_fat"
+      }
+    }
+  ],
+  "processingTime": 100,
+  "results": [
+    {
+      "amount": 500,
+      "fluid": "cookbook_of_babel:bulk",
+      "nbt": "{substance:\"cookbook_of_babel:locrio_dominican_chicken_and_rice_step_9\"}"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/kuih_lapis_malaysian_layered_steamed_confection_step_5"
+    }
+  ],
+  "heatRequirement": "heated",
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:kuih_lapis_malaysian_layered_steamed_confection_step_4\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/kuih_lapis_malaysian_layered_steamed_confection_step_4"
+      }
+    ]
+  ],
+  "processingTime": 60,
+  "results": [
+    {
+      "item": "cookbook_of_babel:substance",
+      "nbt": {
+        "substance": "cookbook_of_babel:kuih_lapis_malaysian_layered_steamed_confection_step_5"
+      }
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/brandy_butter_step_1"
+    }
+  ],
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:butter\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/butter"
+      }
+    ],
+    {
+      "amount": 59,
+      "fluid": "cookbook_of_babel:bulk",
+      "nbt": {
+        "substance": "cookbook_of_babel:white_sugar"
+      }
+    }
+  ],
+  "processingTime": 20,
+  "results": [
+    {
+      "count": 2,
+      "item": "cookbook_of_babel:substance",
+      "nbt": {
+        "substance": "cookbook_of_babel:brandy_butter_step_1"
+      }
+    }
+  ]
+}

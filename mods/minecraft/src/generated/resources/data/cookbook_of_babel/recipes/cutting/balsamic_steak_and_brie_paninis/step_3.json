@@ -1,0 +1,35 @@
+{
+  "type": "create:cutting",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/balsamic_steak_and_brie_paninis_step_3"
+    }
+  ],
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:balsamic_steak_and_brie_paninis_step_2\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/balsamic_steak_and_brie_paninis_step_2"
+      }
+    ]
+  ],
+  "processingTime": 200,
+  "results": [
+    {
+      "count": 4,
+      "item": "cookbook_of_babel:substance",
+      "nbt": {
+        "substance": "cookbook_of_babel:balsamic_steak_and_brie_paninis_step_3"
+      }
+    }
+  ]
+}

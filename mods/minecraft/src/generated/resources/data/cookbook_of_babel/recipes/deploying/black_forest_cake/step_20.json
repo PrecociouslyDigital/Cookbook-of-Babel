@@ -1,0 +1,43 @@
+{
+  "type": "create:deploying",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/black_forest_cake_step_20"
+    }
+  ],
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:black_forest_cake_step_19\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/black_forest_cake_step_19"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:chocolate\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/chocolate"
+      }
+    ]
+  ],
+  "results": [
+    {
+      "item": "cookbook_of_babel:substance",
+      "nbt": {
+        "substance": "cookbook_of_babel:black_forest_cake_step_20"
+      }
+    }
+  ]
+}

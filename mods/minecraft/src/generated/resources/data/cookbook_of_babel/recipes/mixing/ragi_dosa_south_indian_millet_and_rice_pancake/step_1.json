@@ -1,0 +1,49 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/ragi_dosa_south_indian_millet_and_rice_pancake_step_1"
+    }
+  ],
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:urad_bean\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/urad_bean"
+      }
+    ],
+    {
+      "amount": 315,
+      "fluid": "cookbook_of_babel:bulk",
+      "nbt": {
+        "substance": "cookbook_of_babel:millet"
+      }
+    },
+    {
+      "amount": 315,
+      "fluid": "cookbook_of_babel:bulk",
+      "nbt": {
+        "substance": "cookbook_of_babel:rice"
+      }
+    }
+  ],
+  "processingTime": 400,
+  "results": [
+    {
+      "count": 5,
+      "item": "cookbook_of_babel:substance",
+      "nbt": {
+        "substance": "cookbook_of_babel:ragi_dosa_south_indian_millet_and_rice_pancake_step_1"
+      }
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/mayonnaise_vegan_step_2"
+    }
+  ],
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:tofu_blend\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/tofu_blend"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:tofu_blend\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/tofu_blend"
+      }
+    ],
+    {
+      "amount": 30,
+      "fluid": "cookbook_of_babel:liquid",
+      "nbt": {
+        "substance": "cookbook_of_babel:olive_oil"
+      }
+    }
+  ],
+  "processingTime": 20,
+  "results": [
+    {
+      "count": 3,
+      "item": "cookbook_of_babel:substance",
+      "nbt": {
+        "substance": "cookbook_of_babel:mayonnaise_vegan_step_2"
+      }
+    }
+  ]
+}

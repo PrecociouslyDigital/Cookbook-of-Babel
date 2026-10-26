@@ -1,0 +1,29 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/microwave_risotto"
+    }
+  ],
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+      "amount": 99,
+      "fluid": "cookbook_of_babel:bulk",
+      "nbt": {
+        "substance": "cookbook_of_babel:microwave_risotto_step_6"
+      }
+    }
+  ],
+  "processingTime": 40,
+  "results": [
+    {
+      "item": "cookbook_of_babel:microwave_risotto"
+    }
+  ]
+}

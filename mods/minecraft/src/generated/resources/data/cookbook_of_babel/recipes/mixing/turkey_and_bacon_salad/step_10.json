@@ -1,0 +1,31 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/turkey_and_bacon_salad"
+    }
+  ],
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:turkey_and_bacon_salad_step_9\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/turkey_and_bacon_salad_step_9"
+      }
+    ]
+  ],
+  "processingTime": 20,
+  "results": [
+    {
+      "item": "cookbook_of_babel:turkey_and_bacon_salad"
+    }
+  ]
+}

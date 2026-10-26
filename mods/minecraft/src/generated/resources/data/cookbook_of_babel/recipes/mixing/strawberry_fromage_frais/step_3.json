@@ -1,0 +1,80 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/strawberry_fromage_frais_step_3"
+    }
+  ],
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:strawberry_fromage_frais_step_2\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/strawberry_fromage_frais_step_2"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:strawberry_fromage_frais_step_2\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/strawberry_fromage_frais_step_2"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:strawberry_fromage_frais_step_2\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/strawberry_fromage_frais_step_2"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:strawberry_fromage_frais_step_2\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/strawberry_fromage_frais_step_2"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:portion",
+        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:liquid\",Tag:{substance:\"cookbook_of_babel:egg_white\"}}}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/egg_white"
+      }
+    ],
+    {
+      "amount": 15,
+      "fluid": "cookbook_of_babel:bulk",
+      "nbt": {
+        "substance": "cookbook_of_babel:white_sugar"
+      }
+    }
+  ],
+  "processingTime": 20,
+  "results": [
+    {
+      "amount": 400,
+      "fluid": "cookbook_of_babel:liquid",
+      "nbt": "{substance:\"cookbook_of_babel:strawberry_fromage_frais_step_3\"}"
+    }
+  ]
+}

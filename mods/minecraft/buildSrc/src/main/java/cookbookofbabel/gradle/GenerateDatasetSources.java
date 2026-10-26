@@ -1,10 +1,12 @@
 package cookbookofbabel.gradle;
 
+import groovy.json.JsonOutput;
 import groovy.json.JsonSlurper;
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Path;
+import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Locale;
 import java.util.Map;
@@ -20,14 +22,17 @@ import org.gradle.api.tasks.PathSensitivity;
 import org.gradle.api.tasks.TaskAction;
 
 /**
- * Turns the parts of the dataset export that code must know at compile time into Java enums: the
- * forms, so every switch over them is checked for exhaustiveness, and the named dishes, which are
- * registered as items. A form added to or a dish renamed in the dataset then fails to compile
- * wherever it matters, instead of failing at runtime.
+ * Turns the parts of the dataset export that the mod needs before any data loads into sources. The
+ * forms become a Java enum, so every switch over them is checked for exhaustiveness and a form
+ * added to the dataset fails to compile wherever it matters. The named dishes become a resource
+ * instead: no code names a dish, so they gain nothing from being code, and there are too many of
+ * them for one enum's initializer.
  */
 @CacheableTask
 public abstract class GenerateDatasetSources extends DefaultTask {
     private static final String PACKAGE = "cookbookofbabel.minecraft.dataset";
+    /** Where {@code NamedDish} reads the dishes from, relative to the resources root. */
+    private static final String NAMED_DISHES = "cookbook_of_babel/named_dishes.json";
 
     @InputFile
     @PathSensitive(PathSensitivity.NONE)
@@ -35,6 +40,9 @@ public abstract class GenerateDatasetSources extends DefaultTask {
 
     @OutputDirectory
     public abstract DirectoryProperty getOutput();
+
+    @OutputDirectory
+    public abstract DirectoryProperty getResources();
 
     @TaskAction
     @SuppressWarnings("unchecked")
@@ -47,7 +55,9 @@ public abstract class GenerateDatasetSources extends DefaultTask {
         getProject().delete(dir.toFile());
         Files.createDirectories(dir);
         write(dir.resolve("Form.java"), form(forms));
-        write(dir.resolve("NamedDish.java"), namedDish(ingredients, nutrition));
+        var dishes = getResources().get().getAsFile().toPath().resolve(NAMED_DISHES);
+        Files.createDirectories(dishes.getParent());
+        write(dishes, namedDishes(ingredients, nutrition));
     }
 
     private static String form(List<Map<String, Object>> forms) {
@@ -80,68 +90,22 @@ public abstract class GenerateDatasetSources extends DefaultTask {
                 """.formatted(PACKAGE, constants);
     }
 
-    private static String namedDish(List<Map<String, Object>> ingredients, Map<String, Map<String, Object>> nutrition) {
-        var constants = ingredients.stream()
+    /** One line per dish, so a dataset change shows up as a readable diff. */
+    private static String namedDishes(List<Map<String, Object>> ingredients, Map<String, Map<String, Object>> nutrition) {
+        return ingredients.stream()
                 .filter(i -> Boolean.TRUE.equals(i.get("named")))
-                .map(i -> "    %s(\"%s\", %s, Form.%s, %s)".formatted(
-                        constant(id(i)),
-                        id(i),
-                        javaString((String) i.get("label")),
-                        constant((String) i.get("form")),
-                        nutritionOf(nutrition.get(id(i)))))
-                .collect(Collectors.joining(",\n"));
-        return """
-                package %s;
-
-                import cookbookofbabel.minecraft.substance.Nutrition;
-                import java.util.Arrays;
-                import java.util.Map;
-                import java.util.Optional;
-                import java.util.function.Function;
-                import java.util.stream.Collectors;
-
-                /**
-                 * The dataset's named dishes, each registered as an item of its own. Generated from the
-                 * export; do not edit.
-                 */
-                public enum NamedDish {
-                %s;
-
-                    public final String id;
-                    /** The English name, used when no translation is loaded. */
-                    public final String label;
-                    public final Form form;
-                    public final Optional<Nutrition> nutrition;
-
-                    private static final Map<String, NamedDish> BY_ID =
-                            Arrays.stream(values()).collect(Collectors.toMap(d -> d.id, Function.identity()));
-
-                    NamedDish(String id, String label, Form form, Optional<Nutrition> nutrition) {
-                        this.id = id;
-                        this.label = label;
-                        this.form = form;
-                        this.nutrition = nutrition;
+                .map(i -> {
+                    var dish = new LinkedHashMap<String, Object>();
+                    dish.put("id", id(i));
+                    dish.put("label", i.get("label"));
+                    dish.put("form", i.get("form"));
+                    var per100g = nutrition.get(id(i));
+                    if (per100g != null) {
+                        dish.put("nutrition", per100g);
                     }
-
-                    public static Optional<NamedDish> byId(String id) {
-                        return Optional.ofNullable(BY_ID.get(id));
-                    }
-                }
-                """.formatted(PACKAGE, constants);
-    }
-
-    private static String nutritionOf(Map<String, Object> per100g) {
-        if (per100g == null) {
-            return "Optional.empty()";
-        }
-        var fields = List.of("kcal", "proteinG", "fatG", "carbsG").stream()
-                .map(k -> per100g.containsKey(k) ? "Optional.of(%sd)".formatted(per100g.get(k)) : "Optional.empty()")
-                .collect(Collectors.joining(", "));
-        return "Optional.of(new Nutrition(" + fields + "))";
-    }
-
-    private static String javaString(String text) {
-        return "\"" + text.replace("\\", "\\\\").replace("\"", "\\\"") + "\"";
+                    return "  " + JsonOutput.toJson(dish);
+                })
+                .collect(Collectors.joining(",\n", "[\n", "\n]\n"));
     }
 
     private static String id(Map<String, Object> entity) {

@@ -1,0 +1,75 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/nigerian_turmeric_rice_step_1"
+    }
+  ],
+  "heatRequirement": "heated",
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:chicken\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/chicken"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:onion\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/onion"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:dehydrated_broth\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/dehydrated_broth"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:dehydrated_broth\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/dehydrated_broth"
+      }
+    ],
+    {
+      "tag": "cookbook_of_babel:ingredients/chicken_stock"
+    },
+    {
+      "amount": 5,
+      "fluid": "cookbook_of_babel:bulk",
+      "nbt": {
+        "substance": "cookbook_of_babel:curry_powder"
+      }
+    }
+  ],
+  "processingTime": 20,
+  "results": [
+    {
+      "item": "cookbook_of_babel:substance",
+      "nbt": {
+        "substance": "cookbook_of_babel:nigerian_turmeric_rice_step_1"
+      }
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/ale_mustard_and_winter_vegetable_pie_step_5"
+    }
+  ],
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:ale_mustard_and_winter_vegetable_pie_step_4\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/ale_mustard_and_winter_vegetable_pie_step_4"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:yeast_extract\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/yeast_extract"
+      }
+    ],
+    {
+      "amount": 89,
+      "fluid": "cookbook_of_babel:bulk",
+      "nbt": {
+        "substance": "cookbook_of_babel:textured_vegetable_protein"
+      }
+    },
+    {
+      "amount": 200,
+      "fluid": "cookbook_of_babel:liquid",
+      "nbt": {
+        "substance": "cookbook_of_babel:water"
+      }
+    }
+  ],
+  "processingTime": 20,
+  "results": [
+    {
+      "item": "cookbook_of_babel:substance",
+      "nbt": {
+        "substance": "cookbook_of_babel:ale_mustard_and_winter_vegetable_pie_step_5"
+      }
+    }
+  ]
+}

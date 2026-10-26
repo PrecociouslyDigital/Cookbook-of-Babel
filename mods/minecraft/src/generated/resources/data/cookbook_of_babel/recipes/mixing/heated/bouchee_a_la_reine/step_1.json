@@ -1,0 +1,43 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/bouchee_a_la_reine_step_1"
+    }
+  ],
+  "heatRequirement": "heated",
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:bouquet_garni\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/bouquet_garni"
+      }
+    ],
+    {
+      "tag": "cookbook_of_babel:ingredients/chicken_stock"
+    },
+    {
+      "tag": "cookbook_of_babel:ingredients/chicken_stock"
+    },
+    {
+      "tag": "cookbook_of_babel:ingredients/chicken_stock"
+    }
+  ],
+  "processingTime": 210,
+  "results": [
+    {
+      "amount": 100,
+      "fluid": "cookbook_of_babel:liquid",
+      "nbt": "{substance:\"cookbook_of_babel:bouchee_a_la_reine_step_1\"}"
+    }
+  ]
+}

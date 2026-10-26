@@ -1,0 +1,35 @@
+{
+  "type": "create:milling",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/dharwad_pedha_sweetened_paneer_cheese_step_10"
+    }
+  ],
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:dharwad_pedha_sweetened_paneer_cheese_step_9\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/dharwad_pedha_sweetened_paneer_cheese_step_9"
+      }
+    ]
+  ],
+  "processingTime": 50,
+  "results": [
+    {
+      "count": 9,
+      "item": "cookbook_of_babel:substance",
+      "nbt": {
+        "substance": "cookbook_of_babel:dharwad_pedha_sweetened_paneer_cheese_step_10"
+      }
+    }
+  ]
+}

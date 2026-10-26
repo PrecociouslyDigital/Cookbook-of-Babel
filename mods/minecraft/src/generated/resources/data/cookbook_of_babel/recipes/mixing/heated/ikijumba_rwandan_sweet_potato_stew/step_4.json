@@ -1,0 +1,41 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/ikijumba_rwandan_sweet_potato_stew_step_4"
+    }
+  ],
+  "heatRequirement": "heated",
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:ikijumba_rwandan_sweet_potato_stew_step_3\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/ikijumba_rwandan_sweet_potato_stew_step_3"
+      }
+    ],
+    {
+      "amount": 473,
+      "fluid": "cookbook_of_babel:liquid",
+      "nbt": {
+        "substance": "cookbook_of_babel:broth_and_stock"
+      }
+    }
+  ],
+  "processingTime": 20,
+  "results": [
+    {
+      "amount": 100,
+      "fluid": "cookbook_of_babel:liquid",
+      "nbt": "{substance:\"cookbook_of_babel:ikijumba_rwandan_sweet_potato_stew_step_4\"}"
+    }
+  ]
+}

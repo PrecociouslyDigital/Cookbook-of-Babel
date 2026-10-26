@@ -1,0 +1,41 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/black_bean_soup_with_tomato_tomatillo_salsa"
+    }
+  ],
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:black_bean_soup_with_tomato_tomatillo_salsa_step_9\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/black_bean_soup_with_tomato_tomatillo_salsa_step_9"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:creme_fraiche\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/creme_fraiche"
+      }
+    ]
+  ],
+  "processingTime": 20,
+  "results": [
+    {
+      "item": "cookbook_of_babel:black_bean_soup_with_tomato_tomatillo_salsa"
+    }
+  ]
+}

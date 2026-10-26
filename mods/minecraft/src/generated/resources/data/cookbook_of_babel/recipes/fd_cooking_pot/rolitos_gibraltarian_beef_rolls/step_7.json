@@ -1,0 +1,30 @@
+{
+  "type": "farmersdelight:cooking",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "farmersdelight"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/rolitos_gibraltarian_beef_rolls"
+    }
+  ],
+  "cookingtime": 100,
+  "experience": 0.1,
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:rolitos_gibraltarian_beef_rolls_step_6\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/rolitos_gibraltarian_beef_rolls_step_6"
+      }
+    ]
+  ],
+  "result": {
+    "item": "cookbook_of_babel:rolitos_gibraltarian_beef_rolls"
+  }
+}

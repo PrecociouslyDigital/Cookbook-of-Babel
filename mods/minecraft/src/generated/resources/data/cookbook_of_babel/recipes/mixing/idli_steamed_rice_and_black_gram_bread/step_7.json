@@ -1,0 +1,40 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/idli_steamed_rice_and_black_gram_bread_step_7"
+    }
+  ],
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:fermentation_starter\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/fermentation_starter"
+      }
+    ],
+    {
+      "amount": 52,
+      "fluid": "cookbook_of_babel:liquid",
+      "nbt": {
+        "substance": "cookbook_of_babel:idli_steamed_rice_and_black_gram_bread_step_6"
+      }
+    }
+  ],
+  "processingTime": 20,
+  "results": [
+    {
+      "amount": 52,
+      "fluid": "cookbook_of_babel:liquid",
+      "nbt": "{substance:\"cookbook_of_babel:idli_steamed_rice_and_black_gram_bread_step_7\"}"
+    }
+  ]
+}

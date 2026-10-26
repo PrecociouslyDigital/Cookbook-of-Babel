@@ -1,0 +1,46 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/sancocho_dominican_meat_and_vegetable_soup_step_5"
+    }
+  ],
+  "heatRequirement": "heated",
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:sancocho_dominican_meat_and_vegetable_soup_step_4\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/sancocho_dominican_meat_and_vegetable_soup_step_4"
+      }
+    ],
+    {
+      "amount": 473,
+      "fluid": "cookbook_of_babel:liquid",
+      "nbt": {
+        "substance": "cookbook_of_babel:broth_and_stock"
+      }
+    },
+    {
+      "amount": 946,
+      "fluid": "minecraft:water",
+      "nbt": {}
+    }
+  ],
+  "processingTime": 20,
+  "results": [
+    {
+      "amount": 100,
+      "fluid": "cookbook_of_babel:liquid",
+      "nbt": "{substance:\"cookbook_of_babel:sancocho_dominican_meat_and_vegetable_soup_step_5\"}"
+    }
+  ]
+}

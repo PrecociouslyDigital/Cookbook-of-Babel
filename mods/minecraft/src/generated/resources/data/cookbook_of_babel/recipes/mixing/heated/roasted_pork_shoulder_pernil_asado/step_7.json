@@ -1,0 +1,35 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/roasted_pork_shoulder_pernil_asado_step_7"
+    }
+  ],
+  "heatRequirement": "heated",
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:roasted_pork_shoulder_pernil_asado_step_6\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/roasted_pork_shoulder_pernil_asado_step_6"
+      }
+    ]
+  ],
+  "processingTime": 400,
+  "results": [
+    {
+      "item": "cookbook_of_babel:substance",
+      "nbt": {
+        "substance": "cookbook_of_babel:roasted_pork_shoulder_pernil_asado_step_7"
+      }
+    }
+  ]
+}

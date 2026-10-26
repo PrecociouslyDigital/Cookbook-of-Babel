@@ -1,0 +1,79 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/chicken_curry_step_8"
+    }
+  ],
+  "heatRequirement": "heated",
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:chicken_curry_step_7\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/chicken_curry_step_7"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:yogurt\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/yogurt"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:yogurt\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/yogurt"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:yogurt\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/yogurt"
+      }
+    ],
+    {
+      "amount": 10,
+      "fluid": "cookbook_of_babel:bulk",
+      "nbt": {
+        "substance": "cookbook_of_babel:curry_powder"
+      }
+    },
+    {
+      "amount": 10,
+      "fluid": "cookbook_of_babel:bulk",
+      "nbt": {
+        "substance": "cookbook_of_babel:curry_powder"
+      }
+    }
+  ],
+  "processingTime": 400,
+  "results": [
+    {
+      "item": "cookbook_of_babel:substance",
+      "nbt": {
+        "substance": "cookbook_of_babel:chicken_curry_step_8"
+      }
+    }
+  ]
+}

@@ -12,6 +12,7 @@ import cookbookofbabel.minecraft.substance.Substances;
 import java.util.Arrays;
 import java.util.Comparator;
 import java.util.EnumMap;
+import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.function.Function;
 import java.util.function.Supplier;
@@ -52,8 +53,9 @@ public final class Registration {
     public static final Map<Container, RegistryObject<Fluid>> SUBSTANCE_FLUIDS = new EnumMap<>(Arrays.stream(Container.values())
             .collect(Collectors.toMap(Function.identity(), c -> FLUIDS.register(c.fluidName, () -> fluidIn(c)))));
 
-    public static final Map<NamedDish, RegistryObject<NamedDishItem>> DISHES = new EnumMap<>(Arrays.stream(NamedDish.values())
-            .collect(Collectors.toMap(Function.identity(), d -> ITEMS.register(d.id, () -> new NamedDishItem(d, new Item.Properties())))));
+    public static final Map<NamedDish, RegistryObject<NamedDishItem>> DISHES = NamedDish.values().stream()
+            .collect(Collectors.toMap(Function.identity(), d -> ITEMS.register(d.id(), () -> new NamedDishItem(d, new Item.Properties())),
+                    (a, b) -> a, LinkedHashMap::new));
 
     public static final RegistryObject<CreativeModeTab> TAB = TABS.register("main", () -> CreativeModeTab.builder()
             .title(Component.translatable("itemGroup." + CookbookOfBabel.ID))

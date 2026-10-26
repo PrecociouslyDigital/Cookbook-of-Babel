@@ -1,0 +1,31 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/fish_stock_fumet_de_poisson_step_3"
+    }
+  ],
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+      "amount": 102,
+      "fluid": "cookbook_of_babel:liquid",
+      "nbt": {
+        "substance": "cookbook_of_babel:fish_stock_fumet_de_poisson_step_2"
+      }
+    }
+  ],
+  "processingTime": 100,
+  "results": [
+    {
+      "amount": 102,
+      "fluid": "cookbook_of_babel:liquid",
+      "nbt": "{substance:\"cookbook_of_babel:fish_stock_fumet_de_poisson_step_3\"}"
+    }
+  ]
+}

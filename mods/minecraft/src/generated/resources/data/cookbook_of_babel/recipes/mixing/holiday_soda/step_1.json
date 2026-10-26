@@ -1,0 +1,65 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/holiday_soda_step_1"
+    }
+  ],
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:pine_needles\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/pine_needles"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:pine_needles\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/pine_needles"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:pine_needles\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/pine_needles"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:orange\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/orange"
+      }
+    ]
+  ],
+  "processingTime": 20,
+  "results": [
+    {
+      "count": 3,
+      "item": "cookbook_of_babel:substance",
+      "nbt": {
+        "substance": "cookbook_of_babel:holiday_soda_step_1"
+      }
+    }
+  ]
+}

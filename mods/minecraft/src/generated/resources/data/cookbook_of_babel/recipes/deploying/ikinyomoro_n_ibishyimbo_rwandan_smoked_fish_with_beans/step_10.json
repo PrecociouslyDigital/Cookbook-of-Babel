@@ -1,0 +1,40 @@
+{
+  "type": "create:deploying",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/ikinyomoro_n_ibishyimbo_rwandan_smoked_fish_with_beans"
+    }
+  ],
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:ikinyomoro_n_ibishyimbo_rwandan_smoked_fish_with_beans_step_9\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/ikinyomoro_n_ibishyimbo_rwandan_smoked_fish_with_beans_step_9"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:cilantro\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/cilantro"
+      }
+    ]
+  ],
+  "results": [
+    {
+      "item": "cookbook_of_babel:ikinyomoro_n_ibishyimbo_rwandan_smoked_fish_with_beans"
+    }
+  ]
+}

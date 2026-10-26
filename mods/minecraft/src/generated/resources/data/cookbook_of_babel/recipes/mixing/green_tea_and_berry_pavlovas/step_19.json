@@ -1,0 +1,43 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/green_tea_and_berry_pavlovas_step_19"
+    }
+  ],
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:green_tea_and_berry_pavlovas_step_18\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/green_tea_and_berry_pavlovas_step_18"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:lemon\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/lemon"
+      }
+    ]
+  ],
+  "processingTime": 20,
+  "results": [
+    {
+      "amount": 100,
+      "fluid": "cookbook_of_babel:liquid",
+      "nbt": "{substance:\"cookbook_of_babel:green_tea_and_berry_pavlovas_step_19\"}"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/jalapeno_eggs_step_8"
+    }
+  ],
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:jalapeno_eggs_step_7\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/jalapeno_eggs_step_7"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:jalapeno\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/jalapeno"
+      }
+    ]
+  ],
+  "processingTime": 20,
+  "results": [
+    {
+      "item": "cookbook_of_babel:substance",
+      "nbt": {
+        "substance": "cookbook_of_babel:jalapeno_eggs_step_8"
+      }
+    }
+  ]
+}

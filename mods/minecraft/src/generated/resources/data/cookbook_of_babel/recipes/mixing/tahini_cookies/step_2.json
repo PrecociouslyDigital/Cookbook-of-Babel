@@ -1,0 +1,85 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/tahini_cookies_step_2"
+    }
+  ],
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:tahini\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/tahini"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:tahini\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/tahini"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:tahini\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/tahini"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:tahini\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/tahini"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:portion",
+        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:liquid\",Tag:{substance:\"cookbook_of_babel:honey\"}}}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/honey"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:portion",
+        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:bulk\",Tag:{substance:\"cookbook_of_babel:cinnamon\"}}}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/cinnamon"
+      }
+    ]
+  ],
+  "processingTime": 20,
+  "results": [
+    {
+      "count": 8,
+      "item": "cookbook_of_babel:substance",
+      "nbt": {
+        "substance": "cookbook_of_babel:tahini_cookies_step_2"
+      }
+    }
+  ]
+}

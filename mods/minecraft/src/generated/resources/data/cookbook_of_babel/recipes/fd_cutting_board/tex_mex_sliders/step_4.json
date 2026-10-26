@@ -1,0 +1,35 @@
+{
+  "type": "farmersdelight:cutting",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "farmersdelight"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/tex_mex_sliders_step_4"
+    }
+  ],
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:tex_mex_sliders_step_3\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/tex_mex_sliders_step_3"
+      }
+    ]
+  ],
+  "result": [
+    {
+      "count": 10,
+      "item": "cookbook_of_babel:substance",
+      "nbt": "{substance:\"cookbook_of_babel:tex_mex_sliders_step_4\"}"
+    }
+  ],
+  "tool": {
+    "tag": "forge:tools/knives"
+  }
+}

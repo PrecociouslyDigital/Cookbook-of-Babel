@@ -1,0 +1,32 @@
+{
+  "type": "create:cutting",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/sweet_and_sour_grilled_tuna"
+    }
+  ],
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:sweet_and_sour_grilled_tuna_step_4\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/sweet_and_sour_grilled_tuna_step_4"
+      }
+    ]
+  ],
+  "processingTime": 400,
+  "results": [
+    {
+      "count": 2,
+      "item": "cookbook_of_babel:sweet_and_sour_grilled_tuna"
+    }
+  ]
+}

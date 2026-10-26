@@ -1,0 +1,30 @@
+{
+  "type": "farmersdelight:cooking",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "farmersdelight"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/irish_stew"
+    }
+  ],
+  "cookingtime": 1200,
+  "experience": 0.1,
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:irish_stew_step_1\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/irish_stew_step_1"
+      }
+    ]
+  ],
+  "result": {
+    "item": "cookbook_of_babel:irish_stew"
+  }
+}

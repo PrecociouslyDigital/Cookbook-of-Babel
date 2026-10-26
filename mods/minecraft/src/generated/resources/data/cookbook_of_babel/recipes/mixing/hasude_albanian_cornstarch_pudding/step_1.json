@@ -1,0 +1,42 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/hasude_albanian_cornstarch_pudding_step_1"
+    }
+  ],
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:butter\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/butter"
+      }
+    ],
+    {
+      "amount": 273,
+      "fluid": "cookbook_of_babel:bulk",
+      "nbt": {
+        "substance": "cookbook_of_babel:starch"
+      }
+    }
+  ],
+  "processingTime": 20,
+  "results": [
+    {
+      "count": 4,
+      "item": "cookbook_of_babel:substance",
+      "nbt": {
+        "substance": "cookbook_of_babel:hasude_albanian_cornstarch_pudding_step_1"
+      }
+    }
+  ]
+}

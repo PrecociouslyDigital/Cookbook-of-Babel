@@ -1,0 +1,61 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/lemon_pound_cake_step_4"
+    }
+  ],
+  "heatRequirement": "heated",
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:unsalted_butter\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/unsalted_butter"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:unsalted_butter\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/unsalted_butter"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:unsalted_butter\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/unsalted_butter"
+      }
+    ],
+    {
+      "amount": 145,
+      "fluid": "cookbook_of_babel:bulk",
+      "nbt": {
+        "substance": "cookbook_of_babel:lemon_pound_cake_step_3"
+      }
+    }
+  ],
+  "processingTime": 20,
+  "results": [
+    {
+      "amount": 303,
+      "fluid": "cookbook_of_babel:liquid",
+      "nbt": "{substance:\"cookbook_of_babel:lemon_pound_cake_step_4\"}"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/salt_cod_rinse_rinse_simmer"
+    }
+  ],
+  "heatRequirement": "heated",
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:salt_cod_rinse_rinse\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/salt_cod_rinse_rinse"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:salt_cod_rinse_rinse\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/salt_cod_rinse_rinse"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:salt_cod_rinse_rinse\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/salt_cod_rinse_rinse"
+      }
+    ]
+  ],
+  "processingTime": 400,
+  "results": [
+    {
+      "item": "cookbook_of_babel:substance",
+      "nbt": {
+        "substance": "cookbook_of_babel:salt_cod_rinse_rinse_simmer"
+      }
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/ekpang_nkukwo_step_12"
+    }
+  ],
+  "heatRequirement": "heated",
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:ekpang_nkukwo_step_11\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/ekpang_nkukwo_step_11"
+      }
+    ]
+  ],
+  "processingTime": 400,
+  "results": [
+    {
+      "amount": 58,
+      "fluid": "cookbook_of_babel:liquid",
+      "nbt": "{substance:\"cookbook_of_babel:ekpang_nkukwo_step_12\"}"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/potato_langos"
+    }
+  ],
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:potato_langos_step_9\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/potato_langos_step_9"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:garlic\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/garlic"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:fruit_preserves\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/fruit_preserves"
+      }
+    ]
+  ],
+  "processingTime": 20,
+  "results": [
+    {
+      "item": "cookbook_of_babel:potato_langos"
+    }
+  ]
+}

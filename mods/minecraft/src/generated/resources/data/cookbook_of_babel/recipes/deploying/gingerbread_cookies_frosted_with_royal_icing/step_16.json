@@ -1,0 +1,33 @@
+{
+  "type": "create:deploying",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/gingerbread_cookies_frosted_with_royal_icing"
+    }
+  ],
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:gingerbread_cookies_frosted_with_royal_icing_step_15\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/gingerbread_cookies_frosted_with_royal_icing_step_15"
+      }
+    ],
+    {
+      "tag": "cookbook_of_babel:ingredients/royal_icing"
+    }
+  ],
+  "results": [
+    {
+      "item": "cookbook_of_babel:gingerbread_cookies_frosted_with_royal_icing"
+    }
+  ]
+}

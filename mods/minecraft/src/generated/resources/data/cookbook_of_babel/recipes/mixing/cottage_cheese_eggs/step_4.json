@@ -1,0 +1,42 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/cottage_cheese_eggs"
+    }
+  ],
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:portion",
+        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:liquid\",Tag:{substance:\"cookbook_of_babel:cottage_cheese_eggs_step_3\"}}}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/cottage_cheese_eggs_step_3"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:portion",
+        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:liquid\",Tag:{substance:\"cookbook_of_babel:cottage_cheese_eggs_step_3\"}}}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/cottage_cheese_eggs_step_3"
+      }
+    ]
+  ],
+  "processingTime": 20,
+  "results": [
+    {
+      "count": 5,
+      "item": "cookbook_of_babel:cottage_cheese_eggs"
+    }
+  ]
+}

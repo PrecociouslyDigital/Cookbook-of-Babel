@@ -1,0 +1,43 @@
+{
+  "type": "create:deploying",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/colonial_goose_step_2"
+    }
+  ],
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:colonial_goose_step_1\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/colonial_goose_step_1"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:lamb_and_mutton\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/lamb_and_mutton"
+      }
+    ]
+  ],
+  "results": [
+    {
+      "item": "cookbook_of_babel:substance",
+      "nbt": {
+        "substance": "cookbook_of_babel:colonial_goose_step_2"
+      }
+    }
+  ]
+}

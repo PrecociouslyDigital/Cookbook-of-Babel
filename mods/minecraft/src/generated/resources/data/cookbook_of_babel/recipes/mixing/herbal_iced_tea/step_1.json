@@ -1,0 +1,33 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/herbal_iced_tea_step_1"
+    }
+  ],
+  "ingredients": [
+    {
+      "tag": "cookbook_of_babel:ingredients/rosehip_tea"
+    },
+    {
+      "amount": 6,
+      "fluid": "cookbook_of_babel:liquid",
+      "nbt": {
+        "substance": "cookbook_of_babel:honey"
+      }
+    }
+  ],
+  "processingTime": 20,
+  "results": [
+    {
+      "amount": 99,
+      "fluid": "cookbook_of_babel:liquid",
+      "nbt": "{substance:\"cookbook_of_babel:herbal_iced_tea_step_1\"}"
+    }
+  ]
+}

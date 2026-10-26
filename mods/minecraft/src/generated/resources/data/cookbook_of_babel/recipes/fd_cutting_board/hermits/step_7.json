@@ -1,0 +1,33 @@
+{
+  "type": "farmersdelight:cutting",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "farmersdelight"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/hermits"
+    }
+  ],
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:hermits_step_6\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/hermits_step_6"
+      }
+    ]
+  ],
+  "result": [
+    {
+      "item": "cookbook_of_babel:hermits"
+    }
+  ],
+  "tool": {
+    "tag": "forge:tools/knives"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/harissa_bil_djaj_libyan_chicken_harissa"
+    }
+  ],
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:harissa_bil_djaj_libyan_chicken_harissa_step_6\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/harissa_bil_djaj_libyan_chicken_harissa_step_6"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:parsley\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/parsley"
+      }
+    ]
+  ],
+  "processingTime": 20,
+  "results": [
+    {
+      "item": "cookbook_of_babel:harissa_bil_djaj_libyan_chicken_harissa"
+    }
+  ]
+}

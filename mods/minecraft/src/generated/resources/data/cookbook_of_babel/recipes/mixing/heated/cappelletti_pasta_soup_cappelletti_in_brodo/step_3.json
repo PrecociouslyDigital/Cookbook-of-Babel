@@ -1,0 +1,51 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/cappelletti_pasta_soup_cappelletti_in_brodo_step_3"
+    }
+  ],
+  "heatRequirement": "heated",
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:cappelletti_pasta_soup_cappelletti_in_brodo_step_2\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/cappelletti_pasta_soup_cappelletti_in_brodo_step_2"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:parsley\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/parsley"
+      }
+    ],
+    {
+      "amount": 118,
+      "fluid": "cookbook_of_babel:liquid",
+      "nbt": {
+        "substance": "cookbook_of_babel:cream"
+      }
+    }
+  ],
+  "processingTime": 40,
+  "results": [
+    {
+      "amount": 100,
+      "fluid": "cookbook_of_babel:liquid",
+      "nbt": "{substance:\"cookbook_of_babel:cappelletti_pasta_soup_cappelletti_in_brodo_step_3\"}"
+    }
+  ]
+}

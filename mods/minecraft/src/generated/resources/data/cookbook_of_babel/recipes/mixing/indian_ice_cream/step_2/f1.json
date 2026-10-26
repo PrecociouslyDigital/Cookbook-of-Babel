@@ -1,0 +1,60 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/indian_ice_cream_step_2"
+    }
+  ],
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:buffaloberry_grind\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/buffaloberry_grind"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:buffaloberry_grind\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/buffaloberry_grind"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:buffaloberry_grind\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/buffaloberry_grind"
+      }
+    ],
+    {
+      "amount": 315,
+      "fluid": "cookbook_of_babel:liquid",
+      "nbt": {
+        "substance": "cookbook_of_babel:water"
+      }
+    }
+  ],
+  "processingTime": 20,
+  "results": [
+    {
+      "amount": 631,
+      "fluid": "cookbook_of_babel:liquid",
+      "nbt": "{substance:\"cookbook_of_babel:indian_ice_cream_step_2\"}"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/orange_lemon_lime_soda_float"
+    }
+  ],
+  "ingredients": [
+    {
+      "amount": 61,
+      "fluid": "cookbook_of_babel:liquid",
+      "nbt": {
+        "substance": "cookbook_of_babel:orange_lemon_lime_soda_float_step_2"
+      }
+    },
+    {
+      "amount": 39,
+      "fluid": "cookbook_of_babel:bulk",
+      "nbt": {
+        "substance": "cookbook_of_babel:soda"
+      }
+    }
+  ],
+  "processingTime": 20,
+  "results": [
+    {
+      "item": "cookbook_of_babel:orange_lemon_lime_soda_float"
+    }
+  ]
+}

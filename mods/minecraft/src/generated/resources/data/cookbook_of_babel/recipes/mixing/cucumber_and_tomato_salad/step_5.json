@@ -1,0 +1,49 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/cucumber_and_tomato_salad"
+    }
+  ],
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:cucumber_and_tomato_salad_step_4\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/cucumber_and_tomato_salad_step_4"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:cucumber_and_tomato_salad_step_4\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/cucumber_and_tomato_salad_step_4"
+      }
+    ],
+    {
+      "amount": 5,
+      "fluid": "cookbook_of_babel:bulk",
+      "nbt": {
+        "substance": "cookbook_of_babel:salt"
+      }
+    }
+  ],
+  "processingTime": 20,
+  "results": [
+    {
+      "count": 2,
+      "item": "cookbook_of_babel:cucumber_and_tomato_salad"
+    }
+  ]
+}

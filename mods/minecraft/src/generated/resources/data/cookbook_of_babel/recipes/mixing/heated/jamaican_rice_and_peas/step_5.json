@@ -1,0 +1,36 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/jamaican_rice_and_peas"
+    }
+  ],
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+      "amount": 100,
+      "fluid": "cookbook_of_babel:liquid",
+      "nbt": {
+        "substance": "cookbook_of_babel:jamaican_rice_and_peas_step_4"
+      }
+    },
+    {
+      "amount": 680,
+      "fluid": "cookbook_of_babel:bulk",
+      "nbt": {
+        "substance": "cookbook_of_babel:rice"
+      }
+    }
+  ],
+  "processingTime": 250,
+  "results": [
+    {
+      "item": "cookbook_of_babel:jamaican_rice_and_peas"
+    }
+  ]
+}

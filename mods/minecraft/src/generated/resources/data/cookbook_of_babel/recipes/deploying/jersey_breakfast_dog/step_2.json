@@ -1,0 +1,43 @@
+{
+  "type": "create:deploying",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/jersey_breakfast_dog_step_2"
+    }
+  ],
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:beef\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/beef"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:bacon\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/bacon"
+      }
+    ]
+  ],
+  "results": [
+    {
+      "item": "cookbook_of_babel:substance",
+      "nbt": {
+        "substance": "cookbook_of_babel:jersey_breakfast_dog_step_2"
+      }
+    }
+  ]
+}

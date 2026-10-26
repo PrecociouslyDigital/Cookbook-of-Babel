@@ -1,0 +1,31 @@
+{
+  "type": "create:cutting",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/steamed_artichoke"
+    }
+  ],
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:steamed_artichoke_step_7\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/steamed_artichoke_step_7"
+      }
+    ]
+  ],
+  "processingTime": 50,
+  "results": [
+    {
+      "item": "cookbook_of_babel:steamed_artichoke"
+    }
+  ]
+}

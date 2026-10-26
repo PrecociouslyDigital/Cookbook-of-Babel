@@ -1,0 +1,72 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/bbq_pork_fried_rice_step_2"
+    }
+  ],
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:pork\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/pork"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:pork\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/pork"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:pork\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/pork"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:pork\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/pork"
+      }
+    ],
+    {
+      "amount": 51,
+      "fluid": "cookbook_of_babel:liquid",
+      "nbt": {
+        "substance": "cookbook_of_babel:bbq_pork_fried_rice_step_1"
+      }
+    }
+  ],
+  "processingTime": 400,
+  "results": [
+    {
+      "count": 5,
+      "item": "cookbook_of_babel:substance",
+      "nbt": {
+        "substance": "cookbook_of_babel:bbq_pork_fried_rice_step_2"
+      }
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/carrot_kugel_step_4"
+    }
+  ],
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:apple\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/apple"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:apple\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/apple"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:carrot\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/carrot"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:carrot\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/carrot"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:carrot\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/carrot"
+      }
+    ],
+    {
+      "amount": 200,
+      "fluid": "cookbook_of_babel:liquid",
+      "nbt": {
+        "substance": "cookbook_of_babel:carrot_kugel_step_3"
+      }
+    }
+  ],
+  "processingTime": 20,
+  "results": [
+    {
+      "count": 2,
+      "item": "cookbook_of_babel:substance",
+      "nbt": {
+        "substance": "cookbook_of_babel:carrot_kugel_step_4"
+      }
+    }
+  ]
+}

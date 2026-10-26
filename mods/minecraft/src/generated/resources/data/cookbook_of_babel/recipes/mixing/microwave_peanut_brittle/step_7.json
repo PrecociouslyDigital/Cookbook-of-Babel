@@ -1,0 +1,32 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/microwave_peanut_brittle"
+    }
+  ],
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:microwave_peanut_brittle_step_6\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/microwave_peanut_brittle_step_6"
+      }
+    ]
+  ],
+  "processingTime": 20,
+  "results": [
+    {
+      "count": 8,
+      "item": "cookbook_of_babel:microwave_peanut_brittle"
+    }
+  ]
+}

@@ -37,6 +37,6 @@ public final class ClientSetup {
                 (stack, layer) -> layer == 0 ? PortionItem.contents(stack).map(ClientSubstances::color).orElse(-1) : -1,
                 Registration.PORTION.get());
         Registration.DISHES.forEach((dish, item) ->
-                event.register((stack, layer) -> layer == 0 ? Colors.forId(dish.id) : -1, item.get()));
+                event.register((stack, layer) -> layer == 0 ? Colors.forId(dish.id()) : -1, item.get()));
     }
 }

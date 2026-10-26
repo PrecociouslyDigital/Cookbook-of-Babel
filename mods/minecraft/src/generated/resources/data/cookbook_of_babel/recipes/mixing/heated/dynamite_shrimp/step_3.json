@@ -1,0 +1,53 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/dynamite_shrimp_step_3"
+    }
+  ],
+  "heatRequirement": "heated",
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:dynamite_shrimp_step_2\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/dynamite_shrimp_step_2"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:dynamite_shrimp_step_2\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/dynamite_shrimp_step_2"
+      }
+    ],
+    {
+      "amount": 473,
+      "fluid": "cookbook_of_babel:liquid",
+      "nbt": {
+        "substance": "cookbook_of_babel:vegetable_oil"
+      }
+    }
+  ],
+  "processingTime": 40,
+  "results": [
+    {
+      "count": 5,
+      "item": "cookbook_of_babel:substance",
+      "nbt": {
+        "substance": "cookbook_of_babel:dynamite_shrimp_step_3"
+      }
+    }
+  ]
+}

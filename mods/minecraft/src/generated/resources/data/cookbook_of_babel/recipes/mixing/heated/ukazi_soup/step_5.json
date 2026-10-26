@@ -1,0 +1,40 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/ukazi_soup"
+    }
+  ],
+  "heatRequirement": "heated",
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:afang\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/afang"
+      }
+    ],
+    {
+      "amount": 400,
+      "fluid": "cookbook_of_babel:liquid",
+      "nbt": {
+        "substance": "cookbook_of_babel:ukazi_soup_step_4"
+      }
+    }
+  ],
+  "processingTime": 60,
+  "results": [
+    {
+      "count": 4,
+      "item": "cookbook_of_babel:ukazi_soup"
+    }
+  ]
+}

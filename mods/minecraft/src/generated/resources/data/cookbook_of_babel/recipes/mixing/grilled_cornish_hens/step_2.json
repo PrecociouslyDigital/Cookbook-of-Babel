@@ -1,0 +1,61 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/grilled_cornish_hens_step_2"
+    }
+  ],
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:chicken\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/chicken"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:chicken\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/chicken"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:bacon\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/bacon"
+      }
+    ],
+    {
+      "amount": 131,
+      "fluid": "cookbook_of_babel:bulk",
+      "nbt": {
+        "substance": "cookbook_of_babel:grilled_cornish_hens_step_1"
+      }
+    }
+  ],
+  "processingTime": 400,
+  "results": [
+    {
+      "item": "cookbook_of_babel:substance",
+      "nbt": {
+        "substance": "cookbook_of_babel:grilled_cornish_hens_step_2"
+      }
+    }
+  ]
+}

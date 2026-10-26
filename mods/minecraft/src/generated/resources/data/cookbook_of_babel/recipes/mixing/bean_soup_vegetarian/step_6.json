@@ -1,0 +1,33 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/bean_soup_vegetarian_step_6"
+    }
+  ],
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:bean_soup_vegetarian_step_5\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/bean_soup_vegetarian_step_5"
+      }
+    ]
+  ],
+  "processingTime": 20,
+  "results": [
+    {
+      "amount": 150,
+      "fluid": "cookbook_of_babel:liquid",
+      "nbt": "{substance:\"cookbook_of_babel:bean_soup_vegetarian_step_6\"}"
+    }
+  ]
+}

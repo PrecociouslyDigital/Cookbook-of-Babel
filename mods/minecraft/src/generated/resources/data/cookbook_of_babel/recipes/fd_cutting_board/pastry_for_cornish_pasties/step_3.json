@@ -1,0 +1,35 @@
+{
+  "type": "farmersdelight:cutting",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "farmersdelight"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/pastry_for_cornish_pasties_step_3"
+    }
+  ],
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:pastry_for_cornish_pasties_step_2\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/pastry_for_cornish_pasties_step_2"
+      }
+    ]
+  ],
+  "result": [
+    {
+      "count": 9,
+      "item": "cookbook_of_babel:substance",
+      "nbt": "{substance:\"cookbook_of_babel:pastry_for_cornish_pasties_step_3\"}"
+    }
+  ],
+  "tool": {
+    "tag": "forge:tools/knives"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/tokyo_pancake_khanom_tokyo_step_3"
+    }
+  ],
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:portion",
+        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:liquid\",Tag:{substance:\"cookbook_of_babel:tokyo_pancake_khanom_tokyo_step_2\"}}}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/tokyo_pancake_khanom_tokyo_step_2"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:portion",
+        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:liquid\",Tag:{substance:\"cookbook_of_babel:tokyo_pancake_khanom_tokyo_step_2\"}}}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/tokyo_pancake_khanom_tokyo_step_2"
+      }
+    ]
+  ],
+  "processingTime": 20,
+  "results": [
+    {
+      "amount": 500,
+      "fluid": "cookbook_of_babel:liquid",
+      "nbt": "{substance:\"cookbook_of_babel:tokyo_pancake_khanom_tokyo_step_3\"}"
+    }
+  ]
+}

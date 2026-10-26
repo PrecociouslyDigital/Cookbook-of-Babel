@@ -1,0 +1,32 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/ropa_vieja_caribbean_shredded_beef"
+    }
+  ],
+  "heatRequirement": "heated",
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:ropa_vieja_caribbean_shredded_beef_step_3\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/ropa_vieja_caribbean_shredded_beef_step_3"
+      }
+    ]
+  ],
+  "processingTime": 400,
+  "results": [
+    {
+      "item": "cookbook_of_babel:ropa_vieja_caribbean_shredded_beef"
+    }
+  ]
+}

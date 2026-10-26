@@ -1,0 +1,36 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/hickory_bbq_chicken_wings_step_1"
+    }
+  ],
+  "ingredients": [
+    {
+      "tag": "cookbook_of_babel:ingredients/kansas_city_barbecue_sauce"
+    },
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:portion",
+        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:liquid\",Tag:{substance:\"cookbook_of_babel:liquid_smoke\"}}}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/liquid_smoke"
+      }
+    ]
+  ],
+  "processingTime": 20,
+  "results": [
+    {
+      "amount": 100,
+      "fluid": "cookbook_of_babel:liquid",
+      "nbt": "{substance:\"cookbook_of_babel:hickory_bbq_chicken_wings_step_1\"}"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/roast_leg_of_lamb_with_gravy_step_4"
+    }
+  ],
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:roast_leg_of_lamb_with_gravy_step_2\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/roast_leg_of_lamb_with_gravy_step_2"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:rosemary\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/rosemary"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:thyme\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/thyme"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:lavender\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/lavender"
+      }
+    ]
+  ],
+  "processingTime": 20,
+  "results": [
+    {
+      "item": "cookbook_of_babel:substance",
+      "nbt": {
+        "substance": "cookbook_of_babel:roast_leg_of_lamb_with_gravy_step_4"
+      }
+    }
+  ]
+}

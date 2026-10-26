@@ -4,28 +4,3449 @@ The recipes, substances and tags in this mod's data are derived from the Cookboo
 
 - Cookbook of Babel (original content), LicenseRef-original
 - [Open Food Facts](https://huggingface.co/datasets/openfoodfacts/product-database/blob/24a6d86e83437a177f6862aaafcfba12c8c7664a/food.parquet), ODbL-1.0
+- [Wikibooks Cookbook: 1-2-3-4 Cake](https://en.wikibooks.org/w/index.php?title=Cookbook:1-2-3-4_Cake&oldid=4608393), CC-BY-SA-4.0
+- [Wikibooks Cookbook: 20-Ingredient Brownies](https://en.wikibooks.org/w/index.php?title=Cookbook:20-Ingredient_Brownies&oldid=4655390), CC-BY-SA-4.0
+- [Wikibooks Cookbook: 40 Cloves in a Roast Chicken](https://en.wikibooks.org/w/index.php?title=Cookbook:40_Cloves_in_a_Roast_Chicken&oldid=4629560), CC-BY-SA-4.0
+- [Wikibooks Cookbook: A Nice Cup of Tea](https://en.wikibooks.org/w/index.php?title=Cookbook:A_Nice_Cup_of_Tea&oldid=4656174), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Aadun (Nigerian Corn Flour with Palm Oil)](https://en.wikibooks.org/w/index.php?title=Cookbook:Aadun_(Nigerian_Corn_Flour_with_Palm_Oil)&oldid=4629564), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Abacha Mmiri (Soaked Cassava Flakes)](https://en.wikibooks.org/w/index.php?title=Cookbook:Abacha_Mmiri_(Soaked_Cassava_Flakes)&oldid=4525808), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Abuk-abuk (Sweet Steamed Sago Dumplings)](https://en.wikibooks.org/w/index.php?title=Cookbook:Abuk-abuk_(Sweet_Steamed_Sago_Dumplings)&oldid=4629565), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Abula (Nigerian Three Stews)](https://en.wikibooks.org/w/index.php?title=Cookbook:Abula_(Nigerian_Three_Stews)&oldid=4638738), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Accra Cassava (Cameroonian Cassava Fritters)](https://en.wikibooks.org/w/index.php?title=Cookbook:Accra_Cassava_(Cameroonian_Cassava_Fritters)&oldid=4517731), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Acevichada Sauce](https://en.wikibooks.org/w/index.php?title=Cookbook:Acevichada_Sauce&oldid=4629567), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Acid Drops](https://en.wikibooks.org/w/index.php?title=Cookbook:Acid_Drops&oldid=4523664), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Acorn Crusted Salmon](https://en.wikibooks.org/w/index.php?title=Cookbook:Acorn_Crusted_Salmon&oldid=4512396), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Acorn Squash with Orange Marmalade](https://en.wikibooks.org/w/index.php?title=Cookbook:Acorn_Squash_with_Orange_Marmalade&oldid=4523665), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Adobo Sauce](https://en.wikibooks.org/w/index.php?title=Cookbook:Adobo_Sauce&oldid=4518845), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Adoyo (Nigerian Ogi Beverage)](https://en.wikibooks.org/w/index.php?title=Cookbook:Adoyo_(Nigerian_Ogi_Beverage)&oldid=4621020), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Adult Macaroni and Cheese](https://en.wikibooks.org/w/index.php?title=Cookbook:Adult_Macaroni_and_Cheese&oldid=4523666), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Æbleskiver (Danish Spherical Pancakes)](https://en.wikibooks.org/w/index.php?title=Cookbook:%C3%86bleskiver_(Danish_Spherical_Pancakes)&oldid=4519170), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Affogato](https://en.wikibooks.org/w/index.php?title=Cookbook:Affogato&oldid=4587419), CC-BY-SA-4.0
+- [Wikibooks Cookbook: African Cabbage Stew](https://en.wikibooks.org/w/index.php?title=Cookbook:African_Cabbage_Stew&oldid=4518569), CC-BY-SA-4.0
+- [Wikibooks Cookbook: African Salad II](https://en.wikibooks.org/w/index.php?title=Cookbook:African_Salad_II&oldid=4629555), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Agar Jelly](https://en.wikibooks.org/w/index.php?title=Cookbook:Agar_Jelly&oldid=4587276), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Agbalumo Smoothie](https://en.wikibooks.org/w/index.php?title=Cookbook:Agbalumo_Smoothie&oldid=4541048), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Agbugbu (Nigerian Pigeon Pea and Yam Porridge)](https://en.wikibooks.org/w/index.php?title=Cookbook:Agbugbu_(Nigerian_Pigeon_Pea_and_Yam_Porridge)&oldid=4525806), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Agedashi Tofu](https://en.wikibooks.org/w/index.php?title=Cookbook:Agedashi_Tofu&oldid=4536311), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Ager Soup](https://en.wikibooks.org/w/index.php?title=Cookbook:Ager_Soup&oldid=4518341), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Agidi (Nigerian Cornstarch Swallow)](https://en.wikibooks.org/w/index.php?title=Cookbook:Agidi_(Nigerian_Cornstarch_Swallow)&oldid=4638753), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Agnolotti Pasta Soup (Agnolotti in Brodo)](https://en.wikibooks.org/w/index.php?title=Cookbook:Agnolotti_Pasta_Soup_(Agnolotti_in_Brodo)&oldid=4525803), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Air Fried Zucchini](https://en.wikibooks.org/w/index.php?title=Cookbook:Air_Fried_Zucchini&oldid=4630206), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Akabenz (Rwandan Fried Chicken)](https://en.wikibooks.org/w/index.php?title=Cookbook:Akabenz_(Rwandan_Fried_Chicken)&oldid=4525802), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Akamu (Nigerian Pudding)](https://en.wikibooks.org/w/index.php?title=Cookbook:Akamu_(Nigerian_Pudding)&oldid=4525801), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Akarange (Rwandan Tomato Sauce)](https://en.wikibooks.org/w/index.php?title=Cookbook:Akarange_(Rwandan_Tomato_Sauce)&oldid=4518844), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Akarubi (Rwandan Grilled Banana)](https://en.wikibooks.org/w/index.php?title=Cookbook:Akarubi_(Rwandan_Grilled_Banana)&oldid=4630205), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Akpu](https://en.wikibooks.org/w/index.php?title=Cookbook:Akpu&oldid=4655335), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Alabama White Sauce](https://en.wikibooks.org/w/index.php?title=Cookbook:Alabama_White_Sauce&oldid=4525799), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Albanian Fried Meatballs](https://en.wikibooks.org/w/index.php?title=Cookbook:Albanian_Fried_Meatballs&oldid=4531769), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Albanian Meat with Walnuts](https://en.wikibooks.org/w/index.php?title=Cookbook:Albanian_Meat_with_Walnuts&oldid=4525797), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Albanian Mixed Vegetables](https://en.wikibooks.org/w/index.php?title=Cookbook:Albanian_Mixed_Vegetables&oldid=4630203), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Albanian Stewed Fig Pudding](https://en.wikibooks.org/w/index.php?title=Cookbook:Albanian_Stewed_Fig_Pudding&oldid=4525795), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Albanian Vegetable Pie](https://en.wikibooks.org/w/index.php?title=Cookbook:Albanian_Vegetable_Pie&oldid=4525794), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Ale, Mustard and Winter Vegetable Pie](https://en.wikibooks.org/w/index.php?title=Cookbook:Ale,_Mustard_and_Winter_Vegetable_Pie&oldid=4630204), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Alfajores (Latin American Sandwich Cookies)](https://en.wikibooks.org/w/index.php?title=Cookbook:Alfajores_(Latin_American_Sandwich_Cookies)&oldid=4516670), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Alfredo Sauce](https://en.wikibooks.org/w/index.php?title=Cookbook:Alfredo_Sauce&oldid=4523669), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Algerian Baghrir](https://en.wikibooks.org/w/index.php?title=Cookbook:Algerian_Baghrir&oldid=4519097), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Algerian Chakhchoukha (Vegetable and Flatbread Stew)](https://en.wikibooks.org/w/index.php?title=Cookbook:Algerian_Chakhchoukha_(Vegetable_and_Flatbread_Stew)&oldid=4515524), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Algerian Coca](https://en.wikibooks.org/w/index.php?title=Cookbook:Algerian_Coca&oldid=4587171), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Algerian Couscous with Meat and Vegetables](https://en.wikibooks.org/w/index.php?title=Cookbook:Algerian_Couscous_with_Meat_and_Vegetables&oldid=4513961), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Algerian Lemonade](https://en.wikibooks.org/w/index.php?title=Cookbook:Algerian_Lemonade&oldid=4525934), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Algerian Mint Tea](https://en.wikibooks.org/w/index.php?title=Cookbook:Algerian_Mint_Tea&oldid=4540880), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Alicha Wot (Mild Ethiopian Stew)](https://en.wikibooks.org/w/index.php?title=Cookbook:Alicha_Wot_(Mild_Ethiopian_Stew)&oldid=4525932), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Alkubus (Nigerian Steamed Bread)](https://en.wikibooks.org/w/index.php?title=Cookbook:Alkubus_(Nigerian_Steamed_Bread)&oldid=4526469), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Almond Cake](https://en.wikibooks.org/w/index.php?title=Cookbook:Almond_Cake&oldid=4526110), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Almond Fudge Brownies](https://en.wikibooks.org/w/index.php?title=Cookbook:Almond_Fudge_Brownies&oldid=4587290), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Almond Gambols](https://en.wikibooks.org/w/index.php?title=Cookbook:Almond_Gambols&oldid=4515239), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Almond Milk I](https://en.wikibooks.org/w/index.php?title=Cookbook:Almond_Milk_I&oldid=4512315), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Almond Milk II](https://en.wikibooks.org/w/index.php?title=Cookbook:Almond_Milk_II&oldid=4512316), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Almond Pancakes](https://en.wikibooks.org/w/index.php?title=Cookbook:Almond_Pancakes&oldid=4523671), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Almond Toffee Blondies](https://en.wikibooks.org/w/index.php?title=Cookbook:Almond_Toffee_Blondies&oldid=4587333), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Aloo Tikki (Spiced Potato Patties)](https://en.wikibooks.org/w/index.php?title=Cookbook:Aloo_Tikki_(Spiced_Potato_Patties)&oldid=4525813), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Alsatian Chicken Fricassée](https://en.wikibooks.org/w/index.php?title=Cookbook:Alsatian_Chicken_Fricass%C3%A9e&oldid=4514550), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Alsatian Fresh Noodles (Nouilles fraîches à l'Alsacienne)](https://en.wikibooks.org/w/index.php?title=Cookbook:Alsatian_Fresh_Noodles_(Nouilles_fra%C3%AEches_%C3%A0_l'Alsacienne)&oldid=4502325), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Amala Ọgẹdẹ (Nigerian Plantain Fufu)](https://en.wikibooks.org/w/index.php?title=Cookbook:Amala_%E1%BB%8Cg%E1%BA%B9d%E1%BA%B9_(Nigerian_Plantain_Fufu)&oldid=4518745), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Amala (Yoruba Yam Swallow)](https://en.wikibooks.org/w/index.php?title=Cookbook:Amala_(Yoruba_Yam_Swallow)&oldid=4518746), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Ambrosia Fruit Salad](https://en.wikibooks.org/w/index.php?title=Cookbook:Ambrosia_Fruit_Salad&oldid=4630232), CC-BY-SA-4.0
+- [Wikibooks Cookbook: American Marinara Sauce I](https://en.wikibooks.org/w/index.php?title=Cookbook:American_Marinara_Sauce_I&oldid=4540879), CC-BY-SA-4.0
+- [Wikibooks Cookbook: American Marinara Sauce II](https://en.wikibooks.org/w/index.php?title=Cookbook:American_Marinara_Sauce_II&oldid=4518811), CC-BY-SA-4.0
+- [Wikibooks Cookbook: American Potato Salad I](https://en.wikibooks.org/w/index.php?title=Cookbook:American_Potato_Salad_I&oldid=4630231), CC-BY-SA-4.0
+- [Wikibooks Cookbook: American Potato Salad II](https://en.wikibooks.org/w/index.php?title=Cookbook:American_Potato_Salad_II&oldid=4518086), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Americanized Eggplant Parmesan](https://en.wikibooks.org/w/index.php?title=Cookbook:Americanized_Eggplant_Parmesan&oldid=4640469), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Anchovy Herb Salsa Verde](https://en.wikibooks.org/w/index.php?title=Cookbook:Anchovy_Herb_Salsa_Verde&oldid=4630230), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Ancient Roman Pancakes (Ova Sfongia Ex Lacte)](https://en.wikibooks.org/w/index.php?title=Cookbook:Ancient_Roman_Pancakes_(Ova_Sfongia_Ex_Lacte)&oldid=4519098), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Angels on Horseback (Bacon-wrapped Oysters)](https://en.wikibooks.org/w/index.php?title=Cookbook:Angels_on_Horseback_(Bacon-wrapped_Oysters)&oldid=4523504), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Ants on a Log](https://en.wikibooks.org/w/index.php?title=Cookbook:Ants_on_a_Log&oldid=4527281), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Anzac Biscuits I](https://en.wikibooks.org/w/index.php?title=Cookbook:Anzac_Biscuits_I&oldid=4540878), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Anzac Biscuits II](https://en.wikibooks.org/w/index.php?title=Cookbook:Anzac_Biscuits_II&oldid=4515240), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Appam (Fermented Rice Pancake)](https://en.wikibooks.org/w/index.php?title=Cookbook:Appam_(Fermented_Rice_Pancake)&oldid=4519100), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Apple and Almond Cake](https://en.wikibooks.org/w/index.php?title=Cookbook:Apple_and_Almond_Cake&oldid=4523677), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Apple Bars](https://en.wikibooks.org/w/index.php?title=Cookbook:Apple_Bars&oldid=4587437), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Apple Brown Betty](https://en.wikibooks.org/w/index.php?title=Cookbook:Apple_Brown_Betty&oldid=4587370), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Apple Bundt Cake](https://en.wikibooks.org/w/index.php?title=Cookbook:Apple_Bundt_Cake&oldid=4523468), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Apple Cake](https://en.wikibooks.org/w/index.php?title=Cookbook:Apple_Cake&oldid=4640321), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Apple Cider Syrup](https://en.wikibooks.org/w/index.php?title=Cookbook:Apple_Cider_Syrup&oldid=4527325), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Apple Cobbler](https://en.wikibooks.org/w/index.php?title=Cookbook:Apple_Cobbler&oldid=4587240), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Apple Crisp I](https://en.wikibooks.org/w/index.php?title=Cookbook:Apple_Crisp_I&oldid=4587326), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Apple Crisp II](https://en.wikibooks.org/w/index.php?title=Cookbook:Apple_Crisp_II&oldid=4587509), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Apple Crisp III](https://en.wikibooks.org/w/index.php?title=Cookbook:Apple_Crisp_III&oldid=4587510), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Apple Crusted Ham](https://en.wikibooks.org/w/index.php?title=Cookbook:Apple_Crusted_Ham&oldid=4509160), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Apple Fritters](https://en.wikibooks.org/w/index.php?title=Cookbook:Apple_Fritters&oldid=4516717), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Apple Glazed Pork Chops](https://en.wikibooks.org/w/index.php?title=Cookbook:Apple_Glazed_Pork_Chops&oldid=4509162), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Apple Parsnip Soup](https://en.wikibooks.org/w/index.php?title=Cookbook:Apple_Parsnip_Soup&oldid=4518340), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Apple-Pear Crumble](https://en.wikibooks.org/w/index.php?title=Cookbook:Apple-Pear_Crumble&oldid=4587469), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Apple Pie I](https://en.wikibooks.org/w/index.php?title=Cookbook:Apple_Pie_I&oldid=4595344), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Apple Pie II](https://en.wikibooks.org/w/index.php?title=Cookbook:Apple_Pie_II&oldid=4517302), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Apple Pudding](https://en.wikibooks.org/w/index.php?title=Cookbook:Apple_Pudding&oldid=4587343), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Apple Streusel Muffins](https://en.wikibooks.org/w/index.php?title=Cookbook:Apple_Streusel_Muffins&oldid=4522759), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Apple Tapioca](https://en.wikibooks.org/w/index.php?title=Cookbook:Apple_Tapioca&oldid=4630214), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Apple with Mustard and Goat Cheese](https://en.wikibooks.org/w/index.php?title=Cookbook:Apple_with_Mustard_and_Goat_Cheese&oldid=4613347), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Applesauce Cake](https://en.wikibooks.org/w/index.php?title=Cookbook:Applesauce_Cake&oldid=4516865), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Applewood Bacon](https://en.wikibooks.org/w/index.php?title=Cookbook:Applewood_Bacon&oldid=4509172), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Apricot Chicken Salad](https://en.wikibooks.org/w/index.php?title=Cookbook:Apricot_Chicken_Salad&oldid=4523681), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Apricot Wine](https://en.wikibooks.org/w/index.php?title=Cookbook:Apricot_Wine&oldid=4630228), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Arancini (Italian Fried Rice Balls)](https://en.wikibooks.org/w/index.php?title=Cookbook:Arancini_(Italian_Fried_Rice_Balls)&oldid=4514959), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Arisa (Malaysian Blended Chicken)](https://en.wikibooks.org/w/index.php?title=Cookbook:Arisa_(Malaysian_Blended_Chicken)&oldid=4513173), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Arisa Pitha (Fried Indian Sweet Rice Pastry)](https://en.wikibooks.org/w/index.php?title=Cookbook:Arisa_Pitha_(Fried_Indian_Sweet_Rice_Pastry)&oldid=4630281), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Arjoli (Maltese Herbed Bread Dip)](https://en.wikibooks.org/w/index.php?title=Cookbook:Arjoli_(Maltese_Herbed_Bread_Dip)&oldid=4531806), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Arroz con Gandules (Puerto Rican Rice and Pigeon Peas)](https://en.wikibooks.org/w/index.php?title=Cookbook:Arroz_con_Gandules_(Puerto_Rican_Rice_and_Pigeon_Peas)&oldid=4515438), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Arroz con Maiz (Rice with Corn)](https://en.wikibooks.org/w/index.php?title=Cookbook:Arroz_con_Maiz_(Rice_with_Corn)&oldid=4599105), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Arroz con Pollo (Rice and Chicken)](https://en.wikibooks.org/w/index.php?title=Cookbook:Arroz_con_Pollo_(Rice_and_Chicken)&oldid=4513920), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Artichoke Dip with Parmesan](https://en.wikibooks.org/w/index.php?title=Cookbook:Artichoke_Dip_with_Parmesan&oldid=4630216), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Asaro](https://en.wikibooks.org/w/index.php?title=Cookbook:Asaro&oldid=4640471), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Ashoka Halwa (Mung Bean Pudding)](https://en.wikibooks.org/w/index.php?title=Cookbook:Ashoka_Halwa_(Mung_Bean_Pudding)&oldid=4515492), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Ashwe Soup](https://en.wikibooks.org/w/index.php?title=Cookbook:Ashwe_Soup&oldid=4655179), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Asian Barbecue Ribs](https://en.wikibooks.org/w/index.php?title=Cookbook:Asian_Barbecue_Ribs&oldid=4536313), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Asian Grilled Salmon](https://en.wikibooks.org/w/index.php?title=Cookbook:Asian_Grilled_Salmon&oldid=4508839), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Asian-Inspired Chicken Salad](https://en.wikibooks.org/w/index.php?title=Cookbook:Asian-Inspired_Chicken_Salad&oldid=4630322), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Asida bil Zibda (Libyan Semolina Pudding)](https://en.wikibooks.org/w/index.php?title=Cookbook:Asida_bil_Zibda_(Libyan_Semolina_Pudding)&oldid=4587496), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Asida (Sudanese Porridge)](https://en.wikibooks.org/w/index.php?title=Cookbook:Asida_(Sudanese_Porridge)&oldid=4517851), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Asondo (Nigerian Dried Sweet Potatoes)](https://en.wikibooks.org/w/index.php?title=Cookbook:Asondo_(Nigerian_Dried_Sweet_Potatoes)&oldid=4229141), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Asparagus Frittata](https://en.wikibooks.org/w/index.php?title=Cookbook:Asparagus_Frittata&oldid=4522469), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Asparagus Soup](https://en.wikibooks.org/w/index.php?title=Cookbook:Asparagus_Soup&oldid=4523683), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Asparagus with Sesame Seeds and Soy Sauce](https://en.wikibooks.org/w/index.php?title=Cookbook:Asparagus_with_Sesame_Seeds_and_Soy_Sauce&oldid=4630868), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Asun (Goat in Pepper Sauce)](https://en.wikibooks.org/w/index.php?title=Cookbook:Asun_(Goat_in_Pepper_Sauce)&oldid=4514035), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Ata Ekuru (Ekuru Sauce)](https://en.wikibooks.org/w/index.php?title=Cookbook:Ata_Ekuru_(Ekuru_Sauce)&oldid=4513923), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Atama Soup](https://en.wikibooks.org/w/index.php?title=Cookbook:Atama_Soup&oldid=4518342), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Atkilt Wat (Ethiopian Cabbage and Potato Stew)](https://en.wikibooks.org/w/index.php?title=Cookbook:Atkilt_Wat_(Ethiopian_Cabbage_and_Potato_Stew)&oldid=4518570), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Atkins-Friendly Mock Tiramisu](https://en.wikibooks.org/w/index.php?title=Cookbook:Atkins-Friendly_Mock_Tiramisu&oldid=4587239), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Atomic Fudge Cake](https://en.wikibooks.org/w/index.php?title=Cookbook:Atomic_Fudge_Cake&oldid=4523318), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Atropellado de Coco (Coconut and Sweet Potato Dessert)](https://en.wikibooks.org/w/index.php?title=Cookbook:Atropellado_de_Coco_(Coconut_and_Sweet_Potato_Dessert)&oldid=4587410), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Atyever Soup](https://en.wikibooks.org/w/index.php?title=Cookbook:Atyever_Soup&oldid=4518346), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Au Jus Sandwich](https://en.wikibooks.org/w/index.php?title=Cookbook:Au_Jus_Sandwich&oldid=4518226), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Aubergine and Onion Vegetable Pie](https://en.wikibooks.org/w/index.php?title=Cookbook:Aubergine_and_Onion_Vegetable_Pie&oldid=4517241), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Austrian Apricot Dumplings (Marillenknödel)](https://en.wikibooks.org/w/index.php?title=Cookbook:Austrian_Apricot_Dumplings_(Marillenkn%C3%B6del)&oldid=4540875), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Austrian Meatloaf (Faschierter Braten)](https://en.wikibooks.org/w/index.php?title=Cookbook:Austrian_Meatloaf_(Faschierter_Braten)&oldid=4522757), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Austrian Napkin Dumpling (Serviettenknödel)](https://en.wikibooks.org/w/index.php?title=Cookbook:Austrian_Napkin_Dumpling_(Serviettenkn%C3%B6del)&oldid=4522433), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Avocado Coconut Smoothie](https://en.wikibooks.org/w/index.php?title=Cookbook:Avocado_Coconut_Smoothie&oldid=4510654), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Avocado Relish](https://en.wikibooks.org/w/index.php?title=Cookbook:Avocado_Relish&oldid=4527283), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Awaze Tibs (Spicy Ethiopian Meat Stir-Fry)](https://en.wikibooks.org/w/index.php?title=Cookbook:Awaze_Tibs_(Spicy_Ethiopian_Meat_Stir-Fry)&oldid=4506320), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Awug](https://en.wikibooks.org/w/index.php?title=Cookbook:Awug&oldid=4595657), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Ayam Goreng Mentega (Fried Chicken in Sweet Butter Sauce)](https://en.wikibooks.org/w/index.php?title=Cookbook:Ayam_Goreng_Mentega_(Fried_Chicken_in_Sweet_Butter_Sauce)&oldid=4510005), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Ayamase Jollof Rice](https://en.wikibooks.org/w/index.php?title=Cookbook:Ayamase_Jollof_Rice&oldid=4513958), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Ayib (Ethiopian Fresh Cheese)](https://en.wikibooks.org/w/index.php?title=Cookbook:Ayib_(Ethiopian_Fresh_Cheese)&oldid=4522196), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Ayran (Turkish Yogurt Drink)](https://en.wikibooks.org/w/index.php?title=Cookbook:Ayran_(Turkish_Yogurt_Drink)&oldid=4506084), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Azteca (Aztec-inspired Bean Soup)](https://en.wikibooks.org/w/index.php?title=Cookbook:Azteca_(Aztec-inspired_Bean_Soup)&oldid=4615190), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Baba Ganoush](https://en.wikibooks.org/w/index.php?title=Cookbook:Baba_Ganoush&oldid=4629606), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Babi Panggang Sauce](https://en.wikibooks.org/w/index.php?title=Cookbook:Babi_Panggang_Sauce&oldid=4518846), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Backyard Barbecue Ribs](https://en.wikibooks.org/w/index.php?title=Cookbook:Backyard_Barbecue_Ribs&oldid=4505084), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Backyard BBQ Chicken](https://en.wikibooks.org/w/index.php?title=Cookbook:Backyard_BBQ_Chicken&oldid=4526108), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Bacon and Egg Pie](https://en.wikibooks.org/w/index.php?title=Cookbook:Bacon_and_Egg_Pie&oldid=4523288), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Bacon and Egg Stuffed Tomatoes](https://en.wikibooks.org/w/index.php?title=Cookbook:Bacon_and_Egg_Stuffed_Tomatoes&oldid=4523788), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Bacon Cheese Omelet](https://en.wikibooks.org/w/index.php?title=Cookbook:Bacon_Cheese_Omelet&oldid=4517794), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Bacon-Wrapped Scallops](https://en.wikibooks.org/w/index.php?title=Cookbook:Bacon-Wrapped_Scallops&oldid=4595345), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Bafa (Cape Verdean Seafood Stew)](https://en.wikibooks.org/w/index.php?title=Cookbook:Bafa_(Cape_Verdean_Seafood_Stew)&oldid=4638775), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Bagel Toast](https://en.wikibooks.org/w/index.php?title=Cookbook:Bagel_Toast&oldid=4518228), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Baingan Bartha (South Indian Eggplant with Chili) II](https://en.wikibooks.org/w/index.php?title=Cookbook:Baingan_Bartha_(South_Indian_Eggplant_with_Chili)_II&oldid=4630287), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Baingan Bartha (South Indian Eggplant with Coconut and Chili) I](https://en.wikibooks.org/w/index.php?title=Cookbook:Baingan_Bartha_(South_Indian_Eggplant_with_Coconut_and_Chili)_I&oldid=4629607), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Baked Beans](https://en.wikibooks.org/w/index.php?title=Cookbook:Baked_Beans&oldid=4534255), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Baked Brie in Puff Pastry](https://en.wikibooks.org/w/index.php?title=Cookbook:Baked_Brie_in_Puff_Pastry&oldid=4587173), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Baked Brunch Omelet](https://en.wikibooks.org/w/index.php?title=Cookbook:Baked_Brunch_Omelet&oldid=4522742), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Baked Cabbage and Bacon](https://en.wikibooks.org/w/index.php?title=Cookbook:Baked_Cabbage_and_Bacon&oldid=4630324), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Baked Chicken Breasts](https://en.wikibooks.org/w/index.php?title=Cookbook:Baked_Chicken_Breasts&oldid=4509908), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Baked Chicken with Onions, Sumac and Allspice (Musakhan)](https://en.wikibooks.org/w/index.php?title=Cookbook:Baked_Chicken_with_Onions,_Sumac_and_Allspice_(Musakhan)&oldid=4508238), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Baked Custard](https://en.wikibooks.org/w/index.php?title=Cookbook:Baked_Custard&oldid=4523413), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Baked Eggplant](https://en.wikibooks.org/w/index.php?title=Cookbook:Baked_Eggplant&oldid=4630236), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Baked Lamb and Yogurt](https://en.wikibooks.org/w/index.php?title=Cookbook:Baked_Lamb_and_Yogurt&oldid=4510862), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Baked Leeks](https://en.wikibooks.org/w/index.php?title=Cookbook:Baked_Leeks&oldid=4495247), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Baked Lemon Thyme Halibut](https://en.wikibooks.org/w/index.php?title=Cookbook:Baked_Lemon_Thyme_Halibut&oldid=4511873), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Baked Mac N Cheese](https://en.wikibooks.org/w/index.php?title=Cookbook:Baked_Mac_N_Cheese&oldid=4638982), CC-BY-SA-4.0
 - [Wikibooks Cookbook: Baked Oatmeal](https://en.wikibooks.org/w/index.php?title=Cookbook:Baked_Oatmeal&oldid=4523319), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Baked Penne](https://en.wikibooks.org/w/index.php?title=Cookbook:Baked_Penne&oldid=4605234), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Baked Pork Chops](https://en.wikibooks.org/w/index.php?title=Cookbook:Baked_Pork_Chops&oldid=4509174), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Baked Potato Halves](https://en.wikibooks.org/w/index.php?title=Cookbook:Baked_Potato_Halves&oldid=4503137), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Baked Sweet Potatoes](https://en.wikibooks.org/w/index.php?title=Cookbook:Baked_Sweet_Potatoes&oldid=4527285), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Baked Tilapia with White Wine](https://en.wikibooks.org/w/index.php?title=Cookbook:Baked_Tilapia_with_White_Wine&oldid=4533585), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Baked Ziti](https://en.wikibooks.org/w/index.php?title=Cookbook:Baked_Ziti&oldid=4605227), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Baklava I](https://en.wikibooks.org/w/index.php?title=Cookbook:Baklava_I&oldid=4617976), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Baklava II](https://en.wikibooks.org/w/index.php?title=Cookbook:Baklava_II&oldid=4629321), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Baklava with Pistachio Nuts](https://en.wikibooks.org/w/index.php?title=Cookbook:Baklava_with_Pistachio_Nuts&oldid=4587363), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Balangu (Nigerian Spiced Ram Meat)](https://en.wikibooks.org/w/index.php?title=Cookbook:Balangu_(Nigerian_Spiced_Ram_Meat)&oldid=4582330), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Balsamic Dressing](https://en.wikibooks.org/w/index.php?title=Cookbook:Balsamic_Dressing&oldid=4527286), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Balsamic Glaze](https://en.wikibooks.org/w/index.php?title=Cookbook:Balsamic_Glaze&oldid=4518849), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Balsamic Marinade](https://en.wikibooks.org/w/index.php?title=Cookbook:Balsamic_Marinade&oldid=4523790), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Balsamic Steak and Brie Paninis](https://en.wikibooks.org/w/index.php?title=Cookbook:Balsamic_Steak_and_Brie_Paninis&oldid=4519275), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Balsamic Vinaigrette Salad Dressing](https://en.wikibooks.org/w/index.php?title=Cookbook:Balsamic_Vinaigrette_Salad_Dressing&oldid=4516377), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Banana and Pear Cake (Vegan)](https://en.wikibooks.org/w/index.php?title=Cookbook:Banana_and_Pear_Cake_(Vegan)&oldid=4516864), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Banana Bread with Walnuts](https://en.wikibooks.org/w/index.php?title=Cookbook:Banana_Bread_with_Walnuts&oldid=4541035), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Banana Cake](https://en.wikibooks.org/w/index.php?title=Cookbook:Banana_Cake&oldid=4587493), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Banana Chip Muffins](https://en.wikibooks.org/w/index.php?title=Cookbook:Banana_Chip_Muffins&oldid=4535489), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Banana Chocolate Bread Pudding](https://en.wikibooks.org/w/index.php?title=Cookbook:Banana_Chocolate_Bread_Pudding&oldid=4587278), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Banana Chocolate Chip Muffins](https://en.wikibooks.org/w/index.php?title=Cookbook:Banana_Chocolate_Chip_Muffins&oldid=4582841), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Banana Coffee Frappe](https://en.wikibooks.org/w/index.php?title=Cookbook:Banana_Coffee_Frappe&oldid=4515836), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Banana Cream-Crunch Pie](https://en.wikibooks.org/w/index.php?title=Cookbook:Banana_Cream-Crunch_Pie&oldid=4523323), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Banana Cream II](https://en.wikibooks.org/w/index.php?title=Cookbook:Banana_Cream_II&oldid=4587466), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Banana Cream Pie I](https://en.wikibooks.org/w/index.php?title=Cookbook:Banana_Cream_Pie_I&oldid=4587269), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Banana Cream Pie II](https://en.wikibooks.org/w/index.php?title=Cookbook:Banana_Cream_Pie_II&oldid=4523322), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Banana Curry](https://en.wikibooks.org/w/index.php?title=Cookbook:Banana_Curry&oldid=4517517), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Banana Milkshake](https://en.wikibooks.org/w/index.php?title=Cookbook:Banana_Milkshake&oldid=4587157), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Banana Nut Muffins](https://en.wikibooks.org/w/index.php?title=Cookbook:Banana_Nut_Muffins&oldid=4620072), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Banana Nutmeg Pancakes](https://en.wikibooks.org/w/index.php?title=Cookbook:Banana_Nutmeg_Pancakes&oldid=4595346), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Banana Pancakes](https://en.wikibooks.org/w/index.php?title=Cookbook:Banana_Pancakes&oldid=4523328), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Banana Pudding](https://en.wikibooks.org/w/index.php?title=Cookbook:Banana_Pudding&oldid=4523329), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Banana Roll with Cream Cheese Filling](https://en.wikibooks.org/w/index.php?title=Cookbook:Banana_Roll_with_Cream_Cheese_Filling&oldid=4587416), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Banana Spirulina Pancakes](https://en.wikibooks.org/w/index.php?title=Cookbook:Banana_Spirulina_Pancakes&oldid=4519103), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Banana Split I](https://en.wikibooks.org/w/index.php?title=Cookbook:Banana_Split_I&oldid=4587418), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Banana Split II](https://en.wikibooks.org/w/index.php?title=Cookbook:Banana_Split_II&oldid=4587395), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Banga Rice](https://en.wikibooks.org/w/index.php?title=Cookbook:Banga_Rice&oldid=4513583), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Banga Soup](https://en.wikibooks.org/w/index.php?title=Cookbook:Banga_Soup&oldid=4634113), CC-BY-SA-4.0
 - [Wikibooks Cookbook: Bangers and Mash](https://en.wikibooks.org/w/index.php?title=Cookbook:Bangers_and_Mash&oldid=4503314), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Bangladesh Curry](https://en.wikibooks.org/w/index.php?title=Cookbook:Bangladesh_Curry&oldid=4518850), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Banoffee Pie](https://en.wikibooks.org/w/index.php?title=Cookbook:Banoffee_Pie&oldid=4587318), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Barbecue Chicken](https://en.wikibooks.org/w/index.php?title=Cookbook:Barbecue_Chicken&oldid=4511900), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Barbecue Chicken Rub](https://en.wikibooks.org/w/index.php?title=Cookbook:Barbecue_Chicken_Rub&oldid=4615146), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Barbecue Fried Rice](https://en.wikibooks.org/w/index.php?title=Cookbook:Barbecue_Fried_Rice&oldid=4517677), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Barbecue Meatloaf](https://en.wikibooks.org/w/index.php?title=Cookbook:Barbecue_Meatloaf&oldid=4599177), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Barbecue Potato Chips](https://en.wikibooks.org/w/index.php?title=Cookbook:Barbecue_Potato_Chips&oldid=4494694), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Barbecue Prime Rib](https://en.wikibooks.org/w/index.php?title=Cookbook:Barbecue_Prime_Rib&oldid=4503265), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Barbecue Ribs](https://en.wikibooks.org/w/index.php?title=Cookbook:Barbecue_Ribs&oldid=4599180), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Barbecue Rub](https://en.wikibooks.org/w/index.php?title=Cookbook:Barbecue_Rub&oldid=4516582), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Barbecue Sauce I](https://en.wikibooks.org/w/index.php?title=Cookbook:Barbecue_Sauce_I&oldid=4663591), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Barbecue Sauce II](https://en.wikibooks.org/w/index.php?title=Cookbook:Barbecue_Sauce_II&oldid=4599164), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Barbecue Sauce (Kansas City-style)](https://en.wikibooks.org/w/index.php?title=Cookbook:Barbecue_Sauce_(Kansas_City-style)&oldid=4613696), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Barbecue Sauce (Sweet)](https://en.wikibooks.org/w/index.php?title=Cookbook:Barbecue_Sauce_(Sweet)&oldid=4613695), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Barbecue Wings](https://en.wikibooks.org/w/index.php?title=Cookbook:Barbecue_Wings&oldid=4506683), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Barbecued Spare Ribs](https://en.wikibooks.org/w/index.php?title=Cookbook:Barbecued_Spare_Ribs&oldid=4591990), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Basbousa (Egyptian Semolina Cake)](https://en.wikibooks.org/w/index.php?title=Cookbook:Basbousa_(Egyptian_Semolina_Cake)&oldid=4587491), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Basic Chai](https://en.wikibooks.org/w/index.php?title=Cookbook:Basic_Chai&oldid=4507995), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Basic Cobbler](https://en.wikibooks.org/w/index.php?title=Cookbook:Basic_Cobbler&oldid=4523330), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Basic Flapjacks](https://en.wikibooks.org/w/index.php?title=Cookbook:Basic_Flapjacks&oldid=4587307), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Basic Indian Tomato Gravy](https://en.wikibooks.org/w/index.php?title=Cookbook:Basic_Indian_Tomato_Gravy&oldid=4630288), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Basic Lasagna](https://en.wikibooks.org/w/index.php?title=Cookbook:Basic_Lasagna&oldid=4605279), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Basic Mayonnaise](https://en.wikibooks.org/w/index.php?title=Cookbook:Basic_Mayonnaise&oldid=4613386), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Basic Mulling Spice](https://en.wikibooks.org/w/index.php?title=Cookbook:Basic_Mulling_Spice&oldid=4516583), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Basic Pizza Sauce](https://en.wikibooks.org/w/index.php?title=Cookbook:Basic_Pizza_Sauce&oldid=4540889), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Basic Polenta](https://en.wikibooks.org/w/index.php?title=Cookbook:Basic_Polenta&oldid=4524011), CC-BY-SA-4.0
 - [Wikibooks Cookbook: Basic Scones](https://en.wikibooks.org/w/index.php?title=Cookbook:Basic_Scones&oldid=4523331), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Basic Scrambled Eggs](https://en.wikibooks.org/w/index.php?title=Cookbook:Basic_Scrambled_Eggs&oldid=4523414), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Basic Vinaigrette](https://en.wikibooks.org/w/index.php?title=Cookbook:Basic_Vinaigrette&oldid=4613348), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Basic Whipped Cream](https://en.wikibooks.org/w/index.php?title=Cookbook:Basic_Whipped_Cream&oldid=4541024), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Basin Ki Kadi (Sindhi Chickpea Flour Curry)](https://en.wikibooks.org/w/index.php?title=Cookbook:Basin_Ki_Kadi_(Sindhi_Chickpea_Flour_Curry)&oldid=4615156), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Bassi-Salté (Senegalese Couscous with Meat and Vegetables)](https://en.wikibooks.org/w/index.php?title=Cookbook:Bassi-Salt%C3%A9_(Senegalese_Couscous_with_Meat_and_Vegetables)&oldid=4515469), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Basted Egg](https://en.wikibooks.org/w/index.php?title=Cookbook:Basted_Egg&oldid=4500095), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Bazeen bil Lahm (Libyan Meat Bazeen)](https://en.wikibooks.org/w/index.php?title=Cookbook:Bazeen_bil_Lahm_(Libyan_Meat_Bazeen)&oldid=4514040), CC-BY-SA-4.0
+- [Wikibooks Cookbook: BBQ Pork Fried Rice](https://en.wikibooks.org/w/index.php?title=Cookbook:BBQ_Pork_Fried_Rice&oldid=4523798), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Beach Tropicana](https://en.wikibooks.org/w/index.php?title=Cookbook:Beach_Tropicana&oldid=4595348), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Bean and Bacon Bake](https://en.wikibooks.org/w/index.php?title=Cookbook:Bean_and_Bacon_Bake&oldid=4517392), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Bean and Rice Bake](https://en.wikibooks.org/w/index.php?title=Cookbook:Bean_and_Rice_Bake&oldid=4517518), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Bean Balls](https://en.wikibooks.org/w/index.php?title=Cookbook:Bean_Balls&oldid=4515510), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Bean Chili](https://en.wikibooks.org/w/index.php?title=Cookbook:Bean_Chili&oldid=4518540), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Bean-Semolina Burger](https://en.wikibooks.org/w/index.php?title=Cookbook:Bean-Semolina_Burger&oldid=4515473), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Bean Soup (Vegetarian)](https://en.wikibooks.org/w/index.php?title=Cookbook:Bean_Soup_(Vegetarian)&oldid=4534232), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Bean Spelt Oat Spread](https://en.wikibooks.org/w/index.php?title=Cookbook:Bean_Spelt_Oat_Spread&oldid=4534244), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Beanburger](https://en.wikibooks.org/w/index.php?title=Cookbook:Beanburger&oldid=4513928), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Beans and Rice](https://en.wikibooks.org/w/index.php?title=Cookbook:Beans_and_Rice&oldid=4534237), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Béarnaise Sauce](https://en.wikibooks.org/w/index.php?title=Cookbook:B%C3%A9arnaise_Sauce&oldid=4518859), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Béchamel Sauce (Basic)](https://en.wikibooks.org/w/index.php?title=Cookbook:B%C3%A9chamel_Sauce_(Basic)&oldid=4523785), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Béchamel Sauce (Beeton)](https://en.wikibooks.org/w/index.php?title=Cookbook:B%C3%A9chamel_Sauce_(Beeton)&oldid=4523388), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Béchamel Sauce (Louisiannaise)](https://en.wikibooks.org/w/index.php?title=Cookbook:B%C3%A9chamel_Sauce_(Louisiannaise)&oldid=4523389), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Beef and Gizzard Sauce](https://en.wikibooks.org/w/index.php?title=Cookbook:Beef_and_Gizzard_Sauce&oldid=4514047), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Beef and Guinness Casserole](https://en.wikibooks.org/w/index.php?title=Cookbook:Beef_and_Guinness_Casserole&oldid=4522785), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Beef Burgers with Onion](https://en.wikibooks.org/w/index.php?title=Cookbook:Beef_Burgers_with_Onion&oldid=4511334), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Beef Carpaccio I](https://en.wikibooks.org/w/index.php?title=Cookbook:Beef_Carpaccio_I&oldid=4498285), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Beef Carpaccio II](https://en.wikibooks.org/w/index.php?title=Cookbook:Beef_Carpaccio_II&oldid=4510310), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Beef Croquettes](https://en.wikibooks.org/w/index.php?title=Cookbook:Beef_Croquettes&oldid=4513590), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Beef Curry](https://en.wikibooks.org/w/index.php?title=Cookbook:Beef_Curry&oldid=4517520), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Beef Fajitas](https://en.wikibooks.org/w/index.php?title=Cookbook:Beef_Fajitas&oldid=4513962), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Beef Gravy Soup](https://en.wikibooks.org/w/index.php?title=Cookbook:Beef_Gravy_Soup&oldid=4523437), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Beef Heart Kabobs (Anticuchos)](https://en.wikibooks.org/w/index.php?title=Cookbook:Beef_Heart_Kabobs_(Anticuchos)&oldid=4516301), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Beef Jerky](https://en.wikibooks.org/w/index.php?title=Cookbook:Beef_Jerky&oldid=4541075), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Beef Muchomo (Ugandan Beef Skewers)](https://en.wikibooks.org/w/index.php?title=Cookbook:Beef_Muchomo_(Ugandan_Beef_Skewers)&oldid=4510018), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Beef Pasties](https://en.wikibooks.org/w/index.php?title=Cookbook:Beef_Pasties&oldid=4587176), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Beef Skewers with Baguette Slices](https://en.wikibooks.org/w/index.php?title=Cookbook:Beef_Skewers_with_Baguette_Slices&oldid=4505368), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Beef Stew I](https://en.wikibooks.org/w/index.php?title=Cookbook:Beef_Stew_I&oldid=4518573), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Beef Stew II](https://en.wikibooks.org/w/index.php?title=Cookbook:Beef_Stew_II&oldid=4610523), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Beef Stir-Fry](https://en.wikibooks.org/w/index.php?title=Cookbook:Beef_Stir-Fry&oldid=4523801), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Beef Tenderloin Steak](https://en.wikibooks.org/w/index.php?title=Cookbook:Beef_Tenderloin_Steak&oldid=4498125), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Beef Tongue with Chiles, Corn and Tomato (Lengua de Res)](https://en.wikibooks.org/w/index.php?title=Cookbook:Beef_Tongue_with_Chiles,_Corn_and_Tomato_(Lengua_de_Res)&oldid=4493855), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Beef Yakiniku Pizza](https://en.wikibooks.org/w/index.php?title=Cookbook:Beef_Yakiniku_Pizza&oldid=4595349), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Beer and Rye Bread Porridge (Øllebrød)](https://en.wikibooks.org/w/index.php?title=Cookbook:Beer_and_Rye_Bread_Porridge_(%C3%98llebr%C3%B8d)&oldid=4517850), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Beer Batter](https://en.wikibooks.org/w/index.php?title=Cookbook:Beer_Batter&oldid=4523802), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Beer-can Chicken](https://en.wikibooks.org/w/index.php?title=Cookbook:Beer-can_Chicken&oldid=4523903), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Beer Cheese Risotto](https://en.wikibooks.org/w/index.php?title=Cookbook:Beer_Cheese_Risotto&oldid=4517961), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Beer Marinated Shrimp](https://en.wikibooks.org/w/index.php?title=Cookbook:Beer_Marinated_Shrimp&oldid=4634665), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Beet and Cabbage Stew](https://en.wikibooks.org/w/index.php?title=Cookbook:Beet_and_Cabbage_Stew&oldid=4518575), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Beet-Pickled Eggs](https://en.wikibooks.org/w/index.php?title=Cookbook:Beet-Pickled_Eggs&oldid=4515720), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Behari Kabab](https://en.wikibooks.org/w/index.php?title=Cookbook:Behari_Kabab&oldid=4615158), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Bell Pepper Chili](https://en.wikibooks.org/w/index.php?title=Cookbook:Bell_Pepper_Chili&oldid=4523904), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Benachin (Gambian Rice with Meat and Vegetables)](https://en.wikibooks.org/w/index.php?title=Cookbook:Benachin_(Gambian_Rice_with_Meat_and_Vegetables)&oldid=4513965), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Benechin Kunkujang (Gambian Seasoned Rice and Lamb)](https://en.wikibooks.org/w/index.php?title=Cookbook:Benechin_Kunkujang_(Gambian_Seasoned_Rice_and_Lamb)&oldid=4513966), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Bengal Potatoes](https://en.wikibooks.org/w/index.php?title=Cookbook:Bengal_Potatoes&oldid=4527528), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Berbere](https://en.wikibooks.org/w/index.php?title=Cookbook:Berbere&oldid=4536549), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Bête Noire (Flourless Chocolate Cake)](https://en.wikibooks.org/w/index.php?title=Cookbook:B%C3%AAte_Noire_(Flourless_Chocolate_Cake)&oldid=4610153), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Betty's Salad](https://en.wikibooks.org/w/index.php?title=Cookbook:Betty's_Salad&oldid=4518110), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Beurre à la Bourguignonne (Garlic Scallion Butter)](https://en.wikibooks.org/w/index.php?title=Cookbook:Beurre_%C3%A0_la_Bourguignonne_(Garlic_Scallion_Butter)&oldid=4518855), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Beurre Blanc](https://en.wikibooks.org/w/index.php?title=Cookbook:Beurre_Blanc&oldid=4518854), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Beurre Manié](https://en.wikibooks.org/w/index.php?title=Cookbook:Beurre_Mani%C3%A9&oldid=4502388), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Bhel Puri (Indian Puffed Rice and Vegetable Snack)](https://en.wikibooks.org/w/index.php?title=Cookbook:Bhel_Puri_(Indian_Puffed_Rice_and_Vegetable_Snack)&oldid=4510800), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Bhuna Khichuri (Bengali Rice and Lentils)](https://en.wikibooks.org/w/index.php?title=Cookbook:Bhuna_Khichuri_(Bengali_Rice_and_Lentils)&oldid=4630283), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Bibimbap](https://en.wikibooks.org/w/index.php?title=Cookbook:Bibimbap&oldid=4523906), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Bigos (Polish Cabbage Meat Stew)](https://en.wikibooks.org/w/index.php?title=Cookbook:Bigos_(Polish_Cabbage_Meat_Stew)&oldid=4506523), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Biltong (Zambian Dried and Salted Meat)](https://en.wikibooks.org/w/index.php?title=Cookbook:Biltong_(Zambian_Dried_and_Salted_Meat)&oldid=4507471), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Binagoongan (Sautéed Pork with Shrimp Paste)](https://en.wikibooks.org/w/index.php?title=Cookbook:Binagoongan_(Saut%C3%A9ed_Pork_with_Shrimp_Paste)&oldid=4511535), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Bint as-Saḥn (Yemenite Layered Pastry)](https://en.wikibooks.org/w/index.php?title=Cookbook:Bint_as-Sa%E1%B8%A5n_(Yemenite_Layered_Pastry)&oldid=4630055), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Biryani](https://en.wikibooks.org/w/index.php?title=Cookbook:Biryani&oldid=4517370), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Biscuit Cake](https://en.wikibooks.org/w/index.php?title=Cookbook:Biscuit_Cake&oldid=4508121), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Biscuits and Gravy](https://en.wikibooks.org/w/index.php?title=Cookbook:Biscuits_and_Gravy&oldid=4523908), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Biscuits II](https://en.wikibooks.org/w/index.php?title=Cookbook:Biscuits_II&oldid=4535493), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Biscuits III](https://en.wikibooks.org/w/index.php?title=Cookbook:Biscuits_III&oldid=4535494), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Bison à la Grecque](https://en.wikibooks.org/w/index.php?title=Cookbook:Bison_%C3%A0_la_Grecque&oldid=4513969), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Bison Loaf](https://en.wikibooks.org/w/index.php?title=Cookbook:Bison_Loaf&oldid=4523909), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Bison Meatballs Baked in Hoisin Sauce (Marvin)](https://en.wikibooks.org/w/index.php?title=Cookbook:Bison_Meatballs_Baked_in_Hoisin_Sauce_(Marvin)&oldid=4523910), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Bizcochito (Cinnamon Anise Cookies) I](https://en.wikibooks.org/w/index.php?title=Cookbook:Bizcochito_(Cinnamon_Anise_Cookies)_I&oldid=4516756), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Black Bean Chili](https://en.wikibooks.org/w/index.php?title=Cookbook:Black_Bean_Chili&oldid=4523913), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Black Bean Soup](https://en.wikibooks.org/w/index.php?title=Cookbook:Black_Bean_Soup&oldid=4524842), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Black Bean Soup and Salsa Verde](https://en.wikibooks.org/w/index.php?title=Cookbook:Black_Bean_Soup_and_Salsa_Verde&oldid=4518350), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Black Bean Soup with Tomato-Tomatillo Salsa](https://en.wikibooks.org/w/index.php?title=Cookbook:Black_Bean_Soup_with_Tomato-Tomatillo_Salsa&oldid=4518352), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Black Bean Stir-Fry](https://en.wikibooks.org/w/index.php?title=Cookbook:Black_Bean_Stir-Fry&oldid=4523914), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Black-Eyed Peas and Kale](https://en.wikibooks.org/w/index.php?title=Cookbook:Black-Eyed_Peas_and_Kale&oldid=4515511), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Black Forest Cake](https://en.wikibooks.org/w/index.php?title=Cookbook:Black_Forest_Cake&oldid=4535456), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Black Forest Torte](https://en.wikibooks.org/w/index.php?title=Cookbook:Black_Forest_Torte&oldid=4587383), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Black Pepper Beef with Green Beans](https://en.wikibooks.org/w/index.php?title=Cookbook:Black_Pepper_Beef_with_Green_Beans&oldid=4535141), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Black Pepper Syrup](https://en.wikibooks.org/w/index.php?title=Cookbook:Black_Pepper_Syrup&oldid=4518856), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Black-Peppered Chicken Spaghetti](https://en.wikibooks.org/w/index.php?title=Cookbook:Black-Peppered_Chicken_Spaghetti&oldid=4523916), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Blackberry Mush](https://en.wikibooks.org/w/index.php?title=Cookbook:Blackberry_Mush&oldid=4587296), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Blackened Sirloin](https://en.wikibooks.org/w/index.php?title=Cookbook:Blackened_Sirloin&oldid=4505703), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Bliny](https://en.wikibooks.org/w/index.php?title=Cookbook:Bliny&oldid=4522408), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Bløtkake (Norwegian Berries and Cream Cake)](https://en.wikibooks.org/w/index.php?title=Cookbook:Bl%C3%B8tkake_(Norwegian_Berries_and_Cream_Cake)&oldid=4587317), CC-BY-SA-4.0
+- [Wikibooks Cookbook: BLT Sandwich](https://en.wikibooks.org/w/index.php?title=Cookbook:BLT_Sandwich&oldid=4518232), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Blueberry Cream Pie](https://en.wikibooks.org/w/index.php?title=Cookbook:Blueberry_Cream_Pie&oldid=4587353), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Blueberry Muffin](https://en.wikibooks.org/w/index.php?title=Cookbook:Blueberry_Muffin&oldid=4523335), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Blueberry Pancakes](https://en.wikibooks.org/w/index.php?title=Cookbook:Blueberry_Pancakes&oldid=4519106), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Bò bía](https://en.wikibooks.org/w/index.php?title=Cookbook:B%C3%B2_b%C3%ADa&oldid=4632281), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Bobotie](https://en.wikibooks.org/w/index.php?title=Cookbook:Bobotie&oldid=4639600), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Bobozi (Nigerian Soaked Cassava)](https://en.wikibooks.org/w/index.php?title=Cookbook:Bobozi_(Nigerian_Soaked_Cassava)&oldid=4494284), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Boerewors (South African Sausage)](https://en.wikibooks.org/w/index.php?title=Cookbook:Boerewors_(South_African_Sausage)&oldid=4583539), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Boiled Chicken with Broth](https://en.wikibooks.org/w/index.php?title=Cookbook:Boiled_Chicken_with_Broth&oldid=4518353), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Boiled Cocoyam](https://en.wikibooks.org/w/index.php?title=Cookbook:Boiled_Cocoyam&oldid=4354630), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Boiled Collard Greens](https://en.wikibooks.org/w/index.php?title=Cookbook:Boiled_Collard_Greens&oldid=4504835), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Boiled Cucumber and Grated Coconut (Pachadi)](https://en.wikibooks.org/w/index.php?title=Cookbook:Boiled_Cucumber_and_Grated_Coconut_(Pachadi)&oldid=4615183), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Boiled Custard](https://en.wikibooks.org/w/index.php?title=Cookbook:Boiled_Custard&oldid=4523387), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Boiled Lobster](https://en.wikibooks.org/w/index.php?title=Cookbook:Boiled_Lobster&oldid=4630358), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Boiled Ona (Nigerian Boiled Bitter Yam)](https://en.wikibooks.org/w/index.php?title=Cookbook:Boiled_Ona_(Nigerian_Boiled_Bitter_Yam)&oldid=4237520), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Boiled Potatoes](https://en.wikibooks.org/w/index.php?title=Cookbook:Boiled_Potatoes&oldid=4494689), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Boiled Sweet Potato](https://en.wikibooks.org/w/index.php?title=Cookbook:Boiled_Sweet_Potato&oldid=4494688), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Boiled Yellow Split Peas](https://en.wikibooks.org/w/index.php?title=Cookbook:Boiled_Yellow_Split_Peas&oldid=4523920), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Boilo (Hot Spiced Citrus Whiskey)](https://en.wikibooks.org/w/index.php?title=Cookbook:Boilo_(Hot_Spiced_Citrus_Whiskey)&oldid=4508122), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Boliche (Cuban Chorizo-Stuffed Roast)](https://en.wikibooks.org/w/index.php?title=Cookbook:Boliche_(Cuban_Chorizo-Stuffed_Roast)&oldid=4513973), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Bolognese Sauce](https://en.wikibooks.org/w/index.php?title=Cookbook:Bolognese_Sauce&oldid=4518860), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Bonda (South Indian Vegetable Fritter)](https://en.wikibooks.org/w/index.php?title=Cookbook:Bonda_(South_Indian_Vegetable_Fritter)&oldid=4630292), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Bonga Fish Domoda (Gambian Fish in Peanut Sauce)](https://en.wikibooks.org/w/index.php?title=Cookbook:Bonga_Fish_Domoda_(Gambian_Fish_in_Peanut_Sauce)&oldid=4512213), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Booyah (Chicken Vegetable Stew)](https://en.wikibooks.org/w/index.php?title=Cookbook:Booyah_(Chicken_Vegetable_Stew)&oldid=4535154), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Borhani (Spiced Yogurt Drink)](https://en.wikibooks.org/w/index.php?title=Cookbook:Borhani_(Spiced_Yogurt_Drink)&oldid=4615143), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Borscht](https://en.wikibooks.org/w/index.php?title=Cookbook:Borscht&oldid=4630235), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Boston Baked Beans](https://en.wikibooks.org/w/index.php?title=Cookbook:Boston_Baked_Beans&oldid=4615136), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Bouballe (Sweetened Matzo Meal Omelette)](https://en.wikibooks.org/w/index.php?title=Cookbook:Bouballe_(Sweetened_Matzo_Meal_Omelette)&oldid=4630255), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Bouchée à la Reine](https://en.wikibooks.org/w/index.php?title=Cookbook:Bouch%C3%A9e_%C3%A0_la_Reine&oldid=4610368), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Bouillabaisse](https://en.wikibooks.org/w/index.php?title=Cookbook:Bouillabaisse&oldid=4518578), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Boule-Di (Senegalese Fish and Rice)](https://en.wikibooks.org/w/index.php?title=Cookbook:Boule-Di_(Senegalese_Fish_and_Rice)&oldid=4513974), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Bourbon Apples](https://en.wikibooks.org/w/index.php?title=Cookbook:Bourbon_Apples&oldid=4516764), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Boxty (Irish Potato Cakes)](https://en.wikibooks.org/w/index.php?title=Cookbook:Boxty_(Irish_Potato_Cakes)&oldid=4522453), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Braai (Zambian Barbecue)](https://en.wikibooks.org/w/index.php?title=Cookbook:Braai_(Zambian_Barbecue)&oldid=4510027), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Braised Beef Short Ribs](https://en.wikibooks.org/w/index.php?title=Cookbook:Braised_Beef_Short_Ribs&oldid=4498154), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Braised Collard Greens](https://en.wikibooks.org/w/index.php?title=Cookbook:Braised_Collard_Greens&oldid=4505371), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Braised Shortribs](https://en.wikibooks.org/w/index.php?title=Cookbook:Braised_Shortribs&oldid=4518579), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Bran Muffins](https://en.wikibooks.org/w/index.php?title=Cookbook:Bran_Muffins&oldid=4515901), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Brandy Butter](https://en.wikibooks.org/w/index.php?title=Cookbook:Brandy_Butter&oldid=4523688), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Brazilian Black Bean Soup](https://en.wikibooks.org/w/index.php?title=Cookbook:Brazilian_Black_Bean_Soup&oldid=4518355), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Brazilian Feijoada](https://en.wikibooks.org/w/index.php?title=Cookbook:Brazilian_Feijoada&oldid=4518581), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Bread Filled with Potato Curry (Pani Puri)](https://en.wikibooks.org/w/index.php?title=Cookbook:Bread_Filled_with_Potato_Curry_(Pani_Puri)&oldid=4608515), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Bread Pudding](https://en.wikibooks.org/w/index.php?title=Cookbook:Bread_Pudding&oldid=4587408), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Bread with Tomato Sauce (Pappa al Pomodoro)](https://en.wikibooks.org/w/index.php?title=Cookbook:Bread_with_Tomato_Sauce_(Pappa_al_Pomodoro)&oldid=4523689), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Breaded Chicken Livers](https://en.wikibooks.org/w/index.php?title=Cookbook:Breaded_Chicken_Livers&oldid=4501398), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Breaded Fried Oysters](https://en.wikibooks.org/w/index.php?title=Cookbook:Breaded_Fried_Oysters&oldid=4630377), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Breaded Potato Wedges](https://en.wikibooks.org/w/index.php?title=Cookbook:Breaded_Potato_Wedges&oldid=4502265), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Breakfast Burrito](https://en.wikibooks.org/w/index.php?title=Cookbook:Breakfast_Burrito&oldid=4517381), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Breakfast Casserole](https://en.wikibooks.org/w/index.php?title=Cookbook:Breakfast_Casserole&oldid=4517390), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Breakfast Dürüm](https://en.wikibooks.org/w/index.php?title=Cookbook:Breakfast_D%C3%BCr%C3%BCm&oldid=4639030), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Breakfast Sludge](https://en.wikibooks.org/w/index.php?title=Cookbook:Breakfast_Sludge&oldid=4639226), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Breakfast Waffles](https://en.wikibooks.org/w/index.php?title=Cookbook:Breakfast_Waffles&oldid=4540888), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Breakfast Waffles (Gluten-Free)](https://en.wikibooks.org/w/index.php?title=Cookbook:Breakfast_Waffles_(Gluten-Free)&oldid=4523338), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Brigadeiro (Brazilian Chocolate Fudge)](https://en.wikibooks.org/w/index.php?title=Cookbook:Brigadeiro_(Brazilian_Chocolate_Fudge)&oldid=4639766), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Brioche Stuffing](https://en.wikibooks.org/w/index.php?title=Cookbook:Brioche_Stuffing&oldid=4518711), CC-BY-SA-4.0
+- [Wikibooks Cookbook: British Christmas Pudding](https://en.wikibooks.org/w/index.php?title=Cookbook:British_Christmas_Pudding&oldid=4587420), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Broccoli Kugel](https://en.wikibooks.org/w/index.php?title=Cookbook:Broccoli_Kugel&oldid=4630267), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Broccoli Salad](https://en.wikibooks.org/w/index.php?title=Cookbook:Broccoli_Salad&oldid=4518111), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Broiled Sirloin Steak](https://en.wikibooks.org/w/index.php?title=Cookbook:Broiled_Sirloin_Steak&oldid=4498121), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Brown Butter Biscuits](https://en.wikibooks.org/w/index.php?title=Cookbook:Brown_Butter_Biscuits&oldid=4515245), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Brown Butter Toffee Chocolate Chip Cookies](https://en.wikibooks.org/w/index.php?title=Cookbook:Brown_Butter_Toffee_Chocolate_Chip_Cookies&oldid=4587476), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Brown Gravy](https://en.wikibooks.org/w/index.php?title=Cookbook:Brown_Gravy&oldid=4516429), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Brown Rice Breakfast Bowl](https://en.wikibooks.org/w/index.php?title=Cookbook:Brown_Rice_Breakfast_Bowl&oldid=4512873), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Brown Rice Casserole](https://en.wikibooks.org/w/index.php?title=Cookbook:Brown_Rice_Casserole&oldid=4517391), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Brown Rice with Ground Turkey](https://en.wikibooks.org/w/index.php?title=Cookbook:Brown_Rice_with_Ground_Turkey&oldid=4512901), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Brown Rice with Other Starches and Vegetables (Pandora's Feast)](https://en.wikibooks.org/w/index.php?title=Cookbook:Brown_Rice_with_Other_Starches_and_Vegetables_(Pandora's_Feast)&oldid=4629917), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Brown Sauce (Hartshorne)](https://en.wikibooks.org/w/index.php?title=Cookbook:Brown_Sauce_(Hartshorne)&oldid=4613684), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Brown Sugar Brownies](https://en.wikibooks.org/w/index.php?title=Cookbook:Brown_Sugar_Brownies&oldid=4587109), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Brown Sugar Icing](https://en.wikibooks.org/w/index.php?title=Cookbook:Brown_Sugar_Icing&oldid=4523691), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Brown Sugar Mulling Spice Mix](https://en.wikibooks.org/w/index.php?title=Cookbook:Brown_Sugar_Mulling_Spice_Mix&oldid=4516585), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Brown Sugar Nutmeg Cookies](https://en.wikibooks.org/w/index.php?title=Cookbook:Brown_Sugar_Nutmeg_Cookies&oldid=4516779), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Browned Rice](https://en.wikibooks.org/w/index.php?title=Cookbook:Browned_Rice&oldid=4523692), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Bryndzové Halušky (Slovak Dumplings with Cheese)](https://en.wikibooks.org/w/index.php?title=Cookbook:Bryndzov%C3%A9_Halu%C5%A1ky_(Slovak_Dumplings_with_Cheese)&oldid=4511336), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Bua Loi (Rice Balls in Sweet Coconut Milk)](https://en.wikibooks.org/w/index.php?title=Cookbook:Bua_Loi_(Rice_Balls_in_Sweet_Coconut_Milk)&oldid=4494052), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Buah Melaka (Malaysian Palm Sugar Dumplings)](https://en.wikibooks.org/w/index.php?title=Cookbook:Buah_Melaka_(Malaysian_Palm_Sugar_Dumplings)&oldid=4587517), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Bubble and Squeak](https://en.wikibooks.org/w/index.php?title=Cookbook:Bubble_and_Squeak&oldid=4523430), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Bubble Tea](https://en.wikibooks.org/w/index.php?title=Cookbook:Bubble_Tea&oldid=4523994), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Bubur Candil (Sweet Glutinous Rice Balls in Coconut Sauce)](https://en.wikibooks.org/w/index.php?title=Cookbook:Bubur_Candil_(Sweet_Glutinous_Rice_Balls_in_Coconut_Sauce)&oldid=4587332), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Bubur Ketan Hitam (Sweet Black Rice with Coconut Milk)](https://en.wikibooks.org/w/index.php?title=Cookbook:Bubur_Ketan_Hitam_(Sweet_Black_Rice_with_Coconut_Milk)&oldid=4541105), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Buckeyes](https://en.wikibooks.org/w/index.php?title=Cookbook:Buckeyes&oldid=4517463), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Buckwheat Crêpes](https://en.wikibooks.org/w/index.php?title=Cookbook:Buckwheat_Cr%C3%AApes&oldid=4535127), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Buffalo Chicken Sandwich](https://en.wikibooks.org/w/index.php?title=Cookbook:Buffalo_Chicken_Sandwich&oldid=4523995), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Buffalo Wings](https://en.wikibooks.org/w/index.php?title=Cookbook:Buffalo_Wings&oldid=4502423), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Bulgarian Fresh Sausage (Kebapcheta)](https://en.wikibooks.org/w/index.php?title=Cookbook:Bulgarian_Fresh_Sausage_(Kebapcheta)&oldid=4507400), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Bulgarian Meatball Soup (Supa Topcheta)](https://en.wikibooks.org/w/index.php?title=Cookbook:Bulgarian_Meatball_Soup_(Supa_Topcheta)&oldid=4518359), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Bulgarian Tripe Soup (Shkembe Chorba)](https://en.wikibooks.org/w/index.php?title=Cookbook:Bulgarian_Tripe_Soup_(Shkembe_Chorba)&oldid=4518357), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Bulgogi](https://en.wikibooks.org/w/index.php?title=Cookbook:Bulgogi&oldid=4610539), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Bulgur Burgers](https://en.wikibooks.org/w/index.php?title=Cookbook:Bulgur_Burgers&oldid=4613390), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Bulk Sausage](https://en.wikibooks.org/w/index.php?title=Cookbook:Bulk_Sausage&oldid=4663024), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Bumbleberry Souffle](https://en.wikibooks.org/w/index.php?title=Cookbook:Bumbleberry_Souffle&oldid=4595350), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Bunny Chow](https://en.wikibooks.org/w/index.php?title=Cookbook:Bunny_Chow&oldid=4639073), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Buñuelos (Sweet Fried Pastry)](https://en.wikibooks.org/w/index.php?title=Cookbook:Bu%C3%B1uelos_(Sweet_Fried_Pastry)&oldid=4587389), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Burgoo](https://en.wikibooks.org/w/index.php?title=Cookbook:Burgoo&oldid=4518582), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Burmese Pork Curry](https://en.wikibooks.org/w/index.php?title=Cookbook:Burmese_Pork_Curry&oldid=4535155), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Burple Nurples](https://en.wikibooks.org/w/index.php?title=Cookbook:Burple_Nurples&oldid=4540882), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Burrito Mix](https://en.wikibooks.org/w/index.php?title=Cookbook:Burrito_Mix&oldid=4534229), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Butter Tart](https://en.wikibooks.org/w/index.php?title=Cookbook:Butter_Tart&oldid=4587260), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Butter Tea](https://en.wikibooks.org/w/index.php?title=Cookbook:Butter_Tea&oldid=4522466), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Butterbeer](https://en.wikibooks.org/w/index.php?title=Cookbook:Butterbeer&oldid=4523783), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Buttered Popcorn](https://en.wikibooks.org/w/index.php?title=Cookbook:Buttered_Popcorn&oldid=4502430), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Buttermilk Curry Soup (Kadi Pakora)](https://en.wikibooks.org/w/index.php?title=Cookbook:Buttermilk_Curry_Soup_(Kadi_Pakora)&oldid=4615177), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Buttermilk Fried Chicken with Pan Gravy](https://en.wikibooks.org/w/index.php?title=Cookbook:Buttermilk_Fried_Chicken_with_Pan_Gravy&oldid=4615125), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Buttermilk Ranch Dressing](https://en.wikibooks.org/w/index.php?title=Cookbook:Buttermilk_Ranch_Dressing&oldid=4516380), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Butternut Squash Soup](https://en.wikibooks.org/w/index.php?title=Cookbook:Butternut_Squash_Soup&oldid=4520338), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Butterscotch Sauce](https://en.wikibooks.org/w/index.php?title=Cookbook:Butterscotch_Sauce&oldid=4599170), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Buttery Noodles with Cheese](https://en.wikibooks.org/w/index.php?title=Cookbook:Buttery_Noodles_with_Cheese&oldid=4513593), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Buuz (Mongolian Meat Dumplings)](https://en.wikibooks.org/w/index.php?title=Cookbook:Buuz_(Mongolian_Meat_Dumplings)&oldid=4501415), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Cabbage Fufu](https://en.wikibooks.org/w/index.php?title=Cookbook:Cabbage_Fufu&oldid=4518749), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Cabbage Kimchi](https://en.wikibooks.org/w/index.php?title=Cookbook:Cabbage_Kimchi&oldid=4630327), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Cabbage Rolls in Tomato Sauce (Holubtsi)](https://en.wikibooks.org/w/index.php?title=Cookbook:Cabbage_Rolls_in_Tomato_Sauce_(Holubtsi)&oldid=4595351), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Cabbage Rolls in Yogurt Sauce (Sarmi)](https://en.wikibooks.org/w/index.php?title=Cookbook:Cabbage_Rolls_in_Yogurt_Sauce_(Sarmi)&oldid=4531781), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Cabbage Salad](https://en.wikibooks.org/w/index.php?title=Cookbook:Cabbage_Salad&oldid=4630329), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Cabbie Claw (Scottish Whitefish with Egg and Potato)](https://en.wikibooks.org/w/index.php?title=Cookbook:Cabbie_Claw_(Scottish_Whitefish_with_Egg_and_Potato)&oldid=4595666), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Cachapa (Venezuelan Corn Pancakes)](https://en.wikibooks.org/w/index.php?title=Cookbook:Cachapa_(Venezuelan_Corn_Pancakes)&oldid=4519107), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Cachupa (Cape Verdean Corn Stew)](https://en.wikibooks.org/w/index.php?title=Cookbook:Cachupa_(Cape_Verdean_Corn_Stew)&oldid=4518583), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Café au Lait](https://en.wikibooks.org/w/index.php?title=Cookbook:Caf%C3%A9_au_Lait&oldid=4523996), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Cajun Red Beans and Rice](https://en.wikibooks.org/w/index.php?title=Cookbook:Cajun_Red_Beans_and_Rice&oldid=4534245), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Cake Brownies](https://en.wikibooks.org/w/index.php?title=Cookbook:Cake_Brownies&oldid=4587286), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Cake Mix Cookies](https://en.wikibooks.org/w/index.php?title=Cookbook:Cake_Mix_Cookies&oldid=4629672), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Calamansi Juice Drink](https://en.wikibooks.org/w/index.php?title=Cookbook:Calamansi_Juice_Drink&oldid=4510651), CC-BY-SA-4.0
+- [Wikibooks Cookbook: California Curry Chicken](https://en.wikibooks.org/w/index.php?title=Cookbook:California_Curry_Chicken&oldid=4615131), CC-BY-SA-4.0
+- [Wikibooks Cookbook: California Fusion Peach Salsa](https://en.wikibooks.org/w/index.php?title=Cookbook:California_Fusion_Peach_Salsa&oldid=4523495), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Callaloo (Caribbean Stewed Greens)](https://en.wikibooks.org/w/index.php?title=Cookbook:Callaloo_(Caribbean_Stewed_Greens)&oldid=4518360), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Calzone](https://en.wikibooks.org/w/index.php?title=Cookbook:Calzone&oldid=4605278), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Cameroon Koki Corn](https://en.wikibooks.org/w/index.php?title=Cookbook:Cameroon_Koki_Corn&oldid=4629673), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Camotes Enmielados (Mexican Sweet Yams)](https://en.wikibooks.org/w/index.php?title=Cookbook:Camotes_Enmielados_(Mexican_Sweet_Yams)&oldid=4541097), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Campfire Banana Boat](https://en.wikibooks.org/w/index.php?title=Cookbook:Campfire_Banana_Boat&oldid=4587266), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Campfire Barbecue Chicken Wings](https://en.wikibooks.org/w/index.php?title=Cookbook:Campfire_Barbecue_Chicken_Wings&oldid=4620434), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Campfire S'mores](https://en.wikibooks.org/w/index.php?title=Cookbook:Campfire_S'mores&oldid=4516788), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Campfire Trout](https://en.wikibooks.org/w/index.php?title=Cookbook:Campfire_Trout&oldid=4510312), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Candied Almonds (Brända mandlar)](https://en.wikibooks.org/w/index.php?title=Cookbook:Candied_Almonds_(Br%C3%A4nda_mandlar)&oldid=4517461), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Candied Apricots](https://en.wikibooks.org/w/index.php?title=Cookbook:Candied_Apricots&oldid=4595352), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Candied Sweet Potatoes](https://en.wikibooks.org/w/index.php?title=Cookbook:Candied_Sweet_Potatoes&oldid=4587284), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Candied Yams](https://en.wikibooks.org/w/index.php?title=Cookbook:Candied_Yams&oldid=4629674), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Canh Chua (Vietnamese Hot and Sour Soup)](https://en.wikibooks.org/w/index.php?title=Cookbook:Canh_Chua_(Vietnamese_Hot_and_Sour_Soup)&oldid=4629675), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Canjeero (Somali Pancake)](https://en.wikibooks.org/w/index.php?title=Cookbook:Canjeero_(Somali_Pancake)&oldid=4629676), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Cannabutter](https://en.wikibooks.org/w/index.php?title=Cookbook:Cannabutter&oldid=4506512), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Cannoli](https://en.wikibooks.org/w/index.php?title=Cookbook:Cannoli&oldid=4629802), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Cantonese Crispy Fried Chicken](https://en.wikibooks.org/w/index.php?title=Cookbook:Cantonese_Crispy_Fried_Chicken&oldid=4507020), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Cantonese Roast Duck](https://en.wikibooks.org/w/index.php?title=Cookbook:Cantonese_Roast_Duck&oldid=4511498), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Cao lầu (Vietnamese Pork Noodles with Greens)](https://en.wikibooks.org/w/index.php?title=Cookbook:Cao_l%E1%BA%A7u_(Vietnamese_Pork_Noodles_with_Greens)&oldid=4504850), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Cape Malay Butter Chicken](https://en.wikibooks.org/w/index.php?title=Cookbook:Cape_Malay_Butter_Chicken&oldid=4531778), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Caponata (Sicilian Eggplant and Vegetables)](https://en.wikibooks.org/w/index.php?title=Cookbook:Caponata_(Sicilian_Eggplant_and_Vegetables)&oldid=4508143), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Cappelletti Pasta Soup (Cappelletti in Brodo)](https://en.wikibooks.org/w/index.php?title=Cookbook:Cappelletti_Pasta_Soup_(Cappelletti_in_Brodo)&oldid=4518361), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Cappucino Mousse](https://en.wikibooks.org/w/index.php?title=Cookbook:Cappucino_Mousse&oldid=4587397), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Caprese Salad](https://en.wikibooks.org/w/index.php?title=Cookbook:Caprese_Salad&oldid=4605277), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Caramel Coffee Cake](https://en.wikibooks.org/w/index.php?title=Cookbook:Caramel_Coffee_Cake&oldid=4523390), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Caramel Sauce I](https://en.wikibooks.org/w/index.php?title=Cookbook:Caramel_Sauce_I&oldid=4587134), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Caramel Sauce II](https://en.wikibooks.org/w/index.php?title=Cookbook:Caramel_Sauce_II&oldid=4587135), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Caramel Squares](https://en.wikibooks.org/w/index.php?title=Cookbook:Caramel_Squares&oldid=4587360), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Caramelized Pineapple](https://en.wikibooks.org/w/index.php?title=Cookbook:Caramelized_Pineapple&oldid=4516793), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Caramelized Raspberry Sauce](https://en.wikibooks.org/w/index.php?title=Cookbook:Caramelized_Raspberry_Sauce&oldid=4518861), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Caramelized Sweet and Sour Onion Marmalade](https://en.wikibooks.org/w/index.php?title=Cookbook:Caramelized_Sweet_and_Sour_Onion_Marmalade&oldid=4523926), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Carbonara Pasta](https://en.wikibooks.org/w/index.php?title=Cookbook:Carbonara_Pasta&oldid=4627110), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Carpetbag Steak](https://en.wikibooks.org/w/index.php?title=Cookbook:Carpetbag_Steak&oldid=4511340), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Carquinyoli (Catalan Almond Cookies)](https://en.wikibooks.org/w/index.php?title=Cookbook:Carquinyoli_(Catalan_Almond_Cookies)&oldid=4516796), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Carrot and Coriander Soup](https://en.wikibooks.org/w/index.php?title=Cookbook:Carrot_and_Coriander_Soup&oldid=4518365), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Carrot and Raisin Salad](https://en.wikibooks.org/w/index.php?title=Cookbook:Carrot_and_Raisin_Salad&oldid=4523446), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Carrot Cake I](https://en.wikibooks.org/w/index.php?title=Cookbook:Carrot_Cake_I&oldid=4516883), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Carrot Cake II](https://en.wikibooks.org/w/index.php?title=Cookbook:Carrot_Cake_II&oldid=4516884), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Carrot Cake Smoothie](https://en.wikibooks.org/w/index.php?title=Cookbook:Carrot_Cake_Smoothie&oldid=4629678), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Carrot Fufu](https://en.wikibooks.org/w/index.php?title=Cookbook:Carrot_Fufu&oldid=4518750), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Carrot Jam](https://en.wikibooks.org/w/index.php?title=Cookbook:Carrot_Jam&oldid=4595353), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Carrot Kugel](https://en.wikibooks.org/w/index.php?title=Cookbook:Carrot_Kugel&oldid=4630273), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Carrot Paprika Spread](https://en.wikibooks.org/w/index.php?title=Cookbook:Carrot_Paprika_Spread&oldid=4613683), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Carrot Pudding](https://en.wikibooks.org/w/index.php?title=Cookbook:Carrot_Pudding&oldid=4517909), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Carrot Salad](https://en.wikibooks.org/w/index.php?title=Cookbook:Carrot_Salad&oldid=4523927), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Carrots Cooked Kinpira Style](https://en.wikibooks.org/w/index.php?title=Cookbook:Carrots_Cooked_Kinpira_Style&oldid=4629803), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Cashew Gravy](https://en.wikibooks.org/w/index.php?title=Cookbook:Cashew_Gravy&oldid=4523268), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Cassava Pone](https://en.wikibooks.org/w/index.php?title=Cookbook:Cassava_Pone&oldid=4631037), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Cassoulet](https://en.wikibooks.org/w/index.php?title=Cookbook:Cassoulet&oldid=4534256), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Cauliflower Cheese](https://en.wikibooks.org/w/index.php?title=Cookbook:Cauliflower_Cheese&oldid=4514940), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Cauliflower Rice](https://en.wikibooks.org/w/index.php?title=Cookbook:Cauliflower_Rice&oldid=4503343), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Causa Rellena con Pollo (Peruvian Layered Potato and Chicken)](https://en.wikibooks.org/w/index.php?title=Cookbook:Causa_Rellena_con_Pollo_(Peruvian_Layered_Potato_and_Chicken)&oldid=4523928), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Cayenne Hot Sauce](https://en.wikibooks.org/w/index.php?title=Cookbook:Cayenne_Hot_Sauce&oldid=4518864), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Cazuela Gallega (Egg, Ham, and Cheese Casserole)](https://en.wikibooks.org/w/index.php?title=Cookbook:Cazuela_Gallega_(Egg,_Ham,_and_Cheese_Casserole)&oldid=4517394), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Central Texan Pinto Beans](https://en.wikibooks.org/w/index.php?title=Cookbook:Central_Texan_Pinto_Beans&oldid=4629680), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Century Egg with Ham and Ginger](https://en.wikibooks.org/w/index.php?title=Cookbook:Century_Egg_with_Ham_and_Ginger&oldid=4507166), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Chadian Gilled Fish](https://en.wikibooks.org/w/index.php?title=Cookbook:Chadian_Gilled_Fish&oldid=4510313), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Chadian Salad](https://en.wikibooks.org/w/index.php?title=Cookbook:Chadian_Salad&oldid=4518117), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Chakalaka (South African Vegetable Stew)](https://en.wikibooks.org/w/index.php?title=Cookbook:Chakalaka_(South_African_Vegetable_Stew)&oldid=4524693), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Chakarai Pongal (Sweet Rice and Black Gram Pudding)](https://en.wikibooks.org/w/index.php?title=Cookbook:Chakarai_Pongal_(Sweet_Rice_and_Black_Gram_Pudding)&oldid=4629681), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Chalupa](https://en.wikibooks.org/w/index.php?title=Cookbook:Chalupa&oldid=4518118), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Champ (Irish Mashed Potato with Scallion)](https://en.wikibooks.org/w/index.php?title=Cookbook:Champ_(Irish_Mashed_Potato_with_Scallion)&oldid=4502456), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Champagne Vinaigrette](https://en.wikibooks.org/w/index.php?title=Cookbook:Champagne_Vinaigrette&oldid=4613349), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Champorado (Chocolate Rice Porridge)](https://en.wikibooks.org/w/index.php?title=Cookbook:Champorado_(Chocolate_Rice_Porridge)&oldid=4517854), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Chanterelle Goulash](https://en.wikibooks.org/w/index.php?title=Cookbook:Chanterelle_Goulash&oldid=4505851), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Chapati](https://en.wikibooks.org/w/index.php?title=Cookbook:Chapati&oldid=4630849), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Chapati Za Maji (Tanzanian Pancakes)](https://en.wikibooks.org/w/index.php?title=Cookbook:Chapati_Za_Maji_(Tanzanian_Pancakes)&oldid=4535128), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Chapman (Nigerian Party Drink)](https://en.wikibooks.org/w/index.php?title=Cookbook:Chapman_(Nigerian_Party_Drink)&oldid=4629683), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Char-Broiled Sirloin Steak with Cabernet Butter Sauce](https://en.wikibooks.org/w/index.php?title=Cookbook:Char-Broiled_Sirloin_Steak_with_Cabernet_Butter_Sauce&oldid=4518868), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Char-Grilled Strip Steak](https://en.wikibooks.org/w/index.php?title=Cookbook:Char-Grilled_Strip_Steak&oldid=4506001), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Char Siu (Chinese BBQ pork)](https://en.wikibooks.org/w/index.php?title=Cookbook:Char_Siu_(Chinese_BBQ_pork)&oldid=4511499), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Char Sui (Asian Barbecued Pork)](https://en.wikibooks.org/w/index.php?title=Cookbook:Char_Sui_(Asian_Barbecued_Pork)&oldid=4504851), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Chargrilled Asparagus Salad](https://en.wikibooks.org/w/index.php?title=Cookbook:Chargrilled_Asparagus_Salad&oldid=4531791), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Charoset (Ashkenazi)](https://en.wikibooks.org/w/index.php?title=Cookbook:Charoset_(Ashkenazi)&oldid=4630103), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Charoset (Iraqi)](https://en.wikibooks.org/w/index.php?title=Cookbook:Charoset_(Iraqi)&oldid=4630111), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Charoset (Maghrebi)](https://en.wikibooks.org/w/index.php?title=Cookbook:Charoset_(Maghrebi)&oldid=4630104), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Cheese and Crackers](https://en.wikibooks.org/w/index.php?title=Cookbook:Cheese_and_Crackers&oldid=4530179), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Cheese Crisps](https://en.wikibooks.org/w/index.php?title=Cookbook:Cheese_Crisps&oldid=4515152), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Cheese Dumplings](https://en.wikibooks.org/w/index.php?title=Cookbook:Cheese_Dumplings&oldid=4522783), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Cheese Egg Toast](https://en.wikibooks.org/w/index.php?title=Cookbook:Cheese_Egg_Toast&oldid=4523929), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Cheese Enchilada](https://en.wikibooks.org/w/index.php?title=Cookbook:Cheese_Enchilada&oldid=4517669), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Cheese Filling for Peynirli Börek](https://en.wikibooks.org/w/index.php?title=Cookbook:Cheese_Filling_for_Peynirli_B%C3%B6rek&oldid=4515083), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Cheese Omelette](https://en.wikibooks.org/w/index.php?title=Cookbook:Cheese_Omelette&oldid=4605240), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Cheese on Toast](https://en.wikibooks.org/w/index.php?title=Cookbook:Cheese_on_Toast&oldid=4518233), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Cheese Pierogi Filling](https://en.wikibooks.org/w/index.php?title=Cookbook:Cheese_Pierogi_Filling&oldid=4514731), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Cheese Puffs (Pão de Queijo)](https://en.wikibooks.org/w/index.php?title=Cookbook:Cheese_Puffs_(P%C3%A3o_de_Queijo)&oldid=4618203), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Cheese Ravioli Filling](https://en.wikibooks.org/w/index.php?title=Cookbook:Cheese_Ravioli_Filling&oldid=4516645), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Cheese Sauce I](https://en.wikibooks.org/w/index.php?title=Cookbook:Cheese_Sauce_I&oldid=4613686), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Cheese Spaetzle](https://en.wikibooks.org/w/index.php?title=Cookbook:Cheese_Spaetzle&oldid=4514861), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Cheese Spread on French Bread](https://en.wikibooks.org/w/index.php?title=Cookbook:Cheese_Spread_on_French_Bread&oldid=4613396), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Cheese-Stuffed Crust Pizza](https://en.wikibooks.org/w/index.php?title=Cookbook:Cheese-Stuffed_Crust_Pizza&oldid=4517832), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Cheese Stuffed Tomatoes](https://en.wikibooks.org/w/index.php?title=Cookbook:Cheese_Stuffed_Tomatoes&oldid=4493843), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Cheese Tart](https://en.wikibooks.org/w/index.php?title=Cookbook:Cheese_Tart&oldid=4517246), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Cheesecake Cups](https://en.wikibooks.org/w/index.php?title=Cookbook:Cheesecake_Cups&oldid=4587271), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Cheesy Chicken Pasta](https://en.wikibooks.org/w/index.php?title=Cookbook:Cheesy_Chicken_Pasta&oldid=4605239), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Cheesy Mascarpone Cornbread Stuffing](https://en.wikibooks.org/w/index.php?title=Cookbook:Cheesy_Mascarpone_Cornbread_Stuffing&oldid=4518714), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Cheesy Potato Soup](https://en.wikibooks.org/w/index.php?title=Cookbook:Cheesy_Potato_Soup&oldid=4524841), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Cherbet Mazhar (Algerian Flower Water Drink)](https://en.wikibooks.org/w/index.php?title=Cookbook:Cherbet_Mazhar_(Algerian_Flower_Water_Drink)&oldid=4513339), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Cherbet Meliana (Algerian Cherry Beverage)](https://en.wikibooks.org/w/index.php?title=Cookbook:Cherbet_Meliana_(Algerian_Cherry_Beverage)&oldid=4509646), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Chereh Tamba (Gambian Groundnut Stew)](https://en.wikibooks.org/w/index.php?title=Cookbook:Chereh_Tamba_(Gambian_Groundnut_Stew)&oldid=4518584), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Cherries Jubilee](https://en.wikibooks.org/w/index.php?title=Cookbook:Cherries_Jubilee&oldid=4516800), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Cherry-Berry Jumble Fruit Pie](https://en.wikibooks.org/w/index.php?title=Cookbook:Cherry-Berry_Jumble_Fruit_Pie&oldid=4587354), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Cherry Brownies](https://en.wikibooks.org/w/index.php?title=Cookbook:Cherry_Brownies&oldid=4587292), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Cherry Cobbler in a Crock Pot](https://en.wikibooks.org/w/index.php?title=Cookbook:Cherry_Cobbler_in_a_Crock_Pot&oldid=4517362), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Cherry Delight](https://en.wikibooks.org/w/index.php?title=Cookbook:Cherry_Delight&oldid=4587372), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Cherry Soda](https://en.wikibooks.org/w/index.php?title=Cookbook:Cherry_Soda&oldid=4598654), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Chess Pie](https://en.wikibooks.org/w/index.php?title=Cookbook:Chess_Pie&oldid=4587310), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Chestnut Puree](https://en.wikibooks.org/w/index.php?title=Cookbook:Chestnut_Puree&oldid=4512277), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Chewy Ginger Cookies](https://en.wikibooks.org/w/index.php?title=Cookbook:Chewy_Ginger_Cookies&oldid=4516809), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Chibwabwa (Zambian Pumpkin Leaves with Groundnut Sauce)](https://en.wikibooks.org/w/index.php?title=Cookbook:Chibwabwa_(Zambian_Pumpkin_Leaves_with_Groundnut_Sauce)&oldid=4518869), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Chicago Sirloin with Cabernet Balsamic Reduction](https://en.wikibooks.org/w/index.php?title=Cookbook:Chicago_Sirloin_with_Cabernet_Balsamic_Reduction&oldid=4514554), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Chicken à la King](https://en.wikibooks.org/w/index.php?title=Cookbook:Chicken_%C3%A0_la_King&oldid=4610370), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Chicken Alfredo](https://en.wikibooks.org/w/index.php?title=Cookbook:Chicken_Alfredo&oldid=4516473), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Chicken and Andouille Sausage Gumbo](https://en.wikibooks.org/w/index.php?title=Cookbook:Chicken_and_Andouille_Sausage_Gumbo&oldid=4523932), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Chicken and Black-eyed Pea Stew](https://en.wikibooks.org/w/index.php?title=Cookbook:Chicken_and_Black-eyed_Pea_Stew&oldid=4518586), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Chicken and Corn Empanadas](https://en.wikibooks.org/w/index.php?title=Cookbook:Chicken_and_Corn_Empanadas&oldid=4587182), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Chicken and Dumplings](https://en.wikibooks.org/w/index.php?title=Cookbook:Chicken_and_Dumplings&oldid=4581551), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Chicken and Pasta Alfredo](https://en.wikibooks.org/w/index.php?title=Cookbook:Chicken_and_Pasta_Alfredo&oldid=4605275), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Chicken and Ricotta Paninis](https://en.wikibooks.org/w/index.php?title=Cookbook:Chicken_and_Ricotta_Paninis&oldid=4519276), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Chicken Bacon Broccoli Alfredo Spaghetti](https://en.wikibooks.org/w/index.php?title=Cookbook:Chicken_Bacon_Broccoli_Alfredo_Spaghetti&oldid=4522820), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Chicken Barbecue Sauce](https://en.wikibooks.org/w/index.php?title=Cookbook:Chicken_Barbecue_Sauce&oldid=4518829), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Chicken Biryani](https://en.wikibooks.org/w/index.php?title=Cookbook:Chicken_Biryani&oldid=4517373), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Chicken Bog (Grand Strand)](https://en.wikibooks.org/w/index.php?title=Cookbook:Chicken_Bog_(Grand_Strand)&oldid=4516022), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Chicken Bog I](https://en.wikibooks.org/w/index.php?title=Cookbook:Chicken_Bog_I&oldid=4516024), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Chicken Bog II](https://en.wikibooks.org/w/index.php?title=Cookbook:Chicken_Bog_II&oldid=4516023), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Chicken Bog III](https://en.wikibooks.org/w/index.php?title=Cookbook:Chicken_Bog_III&oldid=4516025), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Chicken Broth II](https://en.wikibooks.org/w/index.php?title=Cookbook:Chicken_Broth_II&oldid=4523933), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Chicken Brown Rice Soup](https://en.wikibooks.org/w/index.php?title=Cookbook:Chicken_Brown_Rice_Soup&oldid=4518368), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Chicken Cabbage Salad](https://en.wikibooks.org/w/index.php?title=Cookbook:Chicken_Cabbage_Salad&oldid=4595354), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Chicken Cacciatore](https://en.wikibooks.org/w/index.php?title=Cookbook:Chicken_Cacciatore&oldid=4540895), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Chicken Cockaigne](https://en.wikibooks.org/w/index.php?title=Cookbook:Chicken_Cockaigne&oldid=4497246), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Chicken Curry](https://en.wikibooks.org/w/index.php?title=Cookbook:Chicken_Curry&oldid=4615182), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Chicken Curry (Mediterranean-inspired)](https://en.wikibooks.org/w/index.php?title=Cookbook:Chicken_Curry_(Mediterranean-inspired)&oldid=4517526), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Chicken Fajitas](https://en.wikibooks.org/w/index.php?title=Cookbook:Chicken_Fajitas&oldid=4513985), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Chicken Fried Rice](https://en.wikibooks.org/w/index.php?title=Cookbook:Chicken_Fried_Rice&oldid=4517678), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Chicken-fried Steak](https://en.wikibooks.org/w/index.php?title=Cookbook:Chicken-fried_Steak&oldid=4516424), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Chicken Gyros](https://en.wikibooks.org/w/index.php?title=Cookbook:Chicken_Gyros&oldid=4497244), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Chicken Karahi (Pakistani Chicken with Tomato and Peppers)](https://en.wikibooks.org/w/index.php?title=Cookbook:Chicken_Karahi_(Pakistani_Chicken_with_Tomato_and_Peppers)&oldid=4493839), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Chicken Madras](https://en.wikibooks.org/w/index.php?title=Cookbook:Chicken_Madras&oldid=4518587), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Chicken Marinade](https://en.wikibooks.org/w/index.php?title=Cookbook:Chicken_Marinade&oldid=4523934), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Chicken Marsala II](https://en.wikibooks.org/w/index.php?title=Cookbook:Chicken_Marsala_II&oldid=4511914), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Chicken Mull](https://en.wikibooks.org/w/index.php?title=Cookbook:Chicken_Mull&oldid=4518590), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Chicken Paprikash](https://en.wikibooks.org/w/index.php?title=Cookbook:Chicken_Paprikash&oldid=4510904), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Chicken Parmesan](https://en.wikibooks.org/w/index.php?title=Cookbook:Chicken_Parmesan&oldid=4605274), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Chicken Parmigiana](https://en.wikibooks.org/w/index.php?title=Cookbook:Chicken_Parmigiana&oldid=4605273), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Chicken Pot Pie I](https://en.wikibooks.org/w/index.php?title=Cookbook:Chicken_Pot_Pie_I&oldid=4523457), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Chicken Pot Pie II](https://en.wikibooks.org/w/index.php?title=Cookbook:Chicken_Pot_Pie_II&oldid=4524015), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Chicken Quesadilla](https://en.wikibooks.org/w/index.php?title=Cookbook:Chicken_Quesadilla&oldid=4600881), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Chicken Rice Salad](https://en.wikibooks.org/w/index.php?title=Cookbook:Chicken_Rice_Salad&oldid=4615189), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Chicken Riggies](https://en.wikibooks.org/w/index.php?title=Cookbook:Chicken_Riggies&oldid=4514948), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Chicken Sopas](https://en.wikibooks.org/w/index.php?title=Cookbook:Chicken_Sopas&oldid=4518369), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Chicken Soup I](https://en.wikibooks.org/w/index.php?title=Cookbook:Chicken_Soup_I&oldid=4523937), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Chicken Soup with Cream and Lemon](https://en.wikibooks.org/w/index.php?title=Cookbook:Chicken_Soup_with_Cream_and_Lemon&oldid=4518370), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Chicken Soup with Dumplings](https://en.wikibooks.org/w/index.php?title=Cookbook:Chicken_Soup_with_Dumplings&oldid=4613424), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Chicken Soup with Pasta](https://en.wikibooks.org/w/index.php?title=Cookbook:Chicken_Soup_with_Pasta&oldid=4610522), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Chicken Soup with Rice and Potatoes](https://en.wikibooks.org/w/index.php?title=Cookbook:Chicken_Soup_with_Rice_and_Potatoes&oldid=4518373), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Chicken Stock](https://en.wikibooks.org/w/index.php?title=Cookbook:Chicken_Stock&oldid=4507202), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Chicken Tagine with Lemon and Olives](https://en.wikibooks.org/w/index.php?title=Cookbook:Chicken_Tagine_with_Lemon_and_Olives&oldid=4523938), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Chicken Tetrazzini](https://en.wikibooks.org/w/index.php?title=Cookbook:Chicken_Tetrazzini&oldid=4514949), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Chicken Tikka](https://en.wikibooks.org/w/index.php?title=Cookbook:Chicken_Tikka&oldid=4615207), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Chicken Tikka Masala](https://en.wikibooks.org/w/index.php?title=Cookbook:Chicken_Tikka_Masala&oldid=4614347), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Chicken Vindaloo](https://en.wikibooks.org/w/index.php?title=Cookbook:Chicken_Vindaloo&oldid=4615149), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Chicken Wings Asian Style](https://en.wikibooks.org/w/index.php?title=Cookbook:Chicken_Wings_Asian_Style&oldid=4513099), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Chicken with Orange, Spinach and Cherry Tomatoes](https://en.wikibooks.org/w/index.php?title=Cookbook:Chicken_with_Orange,_Spinach_and_Cherry_Tomatoes&oldid=4523941), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Chicken with Paprika and Cream](https://en.wikibooks.org/w/index.php?title=Cookbook:Chicken_with_Paprika_and_Cream&oldid=4606560), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Chickpea Curry (Masaledaar Chole)](https://en.wikibooks.org/w/index.php?title=Cookbook:Chickpea_Curry_(Masaledaar_Chole)&oldid=4518589), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Chickpea Flour Dessert (Mysore Pak)](https://en.wikibooks.org/w/index.php?title=Cookbook:Chickpea_Flour_Dessert_(Mysore_Pak)&oldid=4517464), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Chickpea Moi Moi](https://en.wikibooks.org/w/index.php?title=Cookbook:Chickpea_Moi_Moi&oldid=4515529), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Chickpea Omelette](https://en.wikibooks.org/w/index.php?title=Cookbook:Chickpea_Omelette&oldid=4512644), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Chickpea Stew](https://en.wikibooks.org/w/index.php?title=Cookbook:Chickpea_Stew&oldid=4518592), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Chikwanda (Zambian Sweet Potato Stew)](https://en.wikibooks.org/w/index.php?title=Cookbook:Chikwanda_(Zambian_Sweet_Potato_Stew)&oldid=4518591), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Chilaquiles](https://en.wikibooks.org/w/index.php?title=Cookbook:Chilaquiles&oldid=4511728), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Chile Lime Marinade](https://en.wikibooks.org/w/index.php?title=Cookbook:Chile_Lime_Marinade&oldid=4523942), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Chiles en Nogada (Stuffed Chile Peppers with Almonds)](https://en.wikibooks.org/w/index.php?title=Cookbook:Chiles_en_Nogada_(Stuffed_Chile_Peppers_with_Almonds)&oldid=4512403), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Chili Colorado](https://en.wikibooks.org/w/index.php?title=Cookbook:Chili_Colorado&oldid=4518544), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Chili con Bambi](https://en.wikibooks.org/w/index.php?title=Cookbook:Chili_con_Bambi&oldid=4534241), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Chili Cornbread Casserole](https://en.wikibooks.org/w/index.php?title=Cookbook:Chili_Cornbread_Casserole&oldid=4522852), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Chili Mix](https://en.wikibooks.org/w/index.php?title=Cookbook:Chili_Mix&oldid=4507731), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Chili Oil](https://en.wikibooks.org/w/index.php?title=Cookbook:Chili_Oil&oldid=4523943), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Chili Powder I](https://en.wikibooks.org/w/index.php?title=Cookbook:Chili_Powder_I&oldid=4516586), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Chili Powder II](https://en.wikibooks.org/w/index.php?title=Cookbook:Chili_Powder_II&oldid=4516587), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Chili with Meat](https://en.wikibooks.org/w/index.php?title=Cookbook:Chili_with_Meat&oldid=4534231), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Chilli Crab](https://en.wikibooks.org/w/index.php?title=Cookbook:Chilli_Crab&oldid=4630309), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Chilli Oil](https://en.wikibooks.org/w/index.php?title=Cookbook:Chilli_Oil&oldid=4530485), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Chimichurri](https://en.wikibooks.org/w/index.php?title=Cookbook:Chimichurri&oldid=4510054), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Chinese Chews (Nut and Date Bars)](https://en.wikibooks.org/w/index.php?title=Cookbook:Chinese_Chews_(Nut_and_Date_Bars)&oldid=4530167), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Chinese Rice Porridge (Congee)](https://en.wikibooks.org/w/index.php?title=Cookbook:Chinese_Rice_Porridge_(Congee)&oldid=4529118), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Chip Butty](https://en.wikibooks.org/w/index.php?title=Cookbook:Chip_Butty&oldid=4523945), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Chipotle BBQ Chicken Nuggets](https://en.wikibooks.org/w/index.php?title=Cookbook:Chipotle_BBQ_Chicken_Nuggets&oldid=4513101), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Chipotle BBQ Ribs](https://en.wikibooks.org/w/index.php?title=Cookbook:Chipotle_BBQ_Ribs&oldid=4599151), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Chipotle BBQ Rub](https://en.wikibooks.org/w/index.php?title=Cookbook:Chipotle_BBQ_Rub&oldid=4523946), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Chipotle BBQ Sauce](https://en.wikibooks.org/w/index.php?title=Cookbook:Chipotle_BBQ_Sauce&oldid=4505088), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Chipotle Chili](https://en.wikibooks.org/w/index.php?title=Cookbook:Chipotle_Chili&oldid=4518548), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Chipotle Dip](https://en.wikibooks.org/w/index.php?title=Cookbook:Chipotle_Dip&oldid=4518876), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Chipotle Fish n' Chips](https://en.wikibooks.org/w/index.php?title=Cookbook:Chipotle_Fish_n'_Chips&oldid=4533586), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Chipotle Fried Chicken](https://en.wikibooks.org/w/index.php?title=Cookbook:Chipotle_Fried_Chicken&oldid=4516589), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Chipotle Ketchup](https://en.wikibooks.org/w/index.php?title=Cookbook:Chipotle_Ketchup&oldid=4518800), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Chipotle Lime Grilled Chicken](https://en.wikibooks.org/w/index.php?title=Cookbook:Chipotle_Lime_Grilled_Chicken&oldid=4509793), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Chipotle Lime Hot Wings](https://en.wikibooks.org/w/index.php?title=Cookbook:Chipotle_Lime_Hot_Wings&oldid=4509794), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Chipotle Lime Tortilla Chips](https://en.wikibooks.org/w/index.php?title=Cookbook:Chipotle_Lime_Tortilla_Chips&oldid=4511729), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Chipotle Maple Glazed Pork Tenderloin](https://en.wikibooks.org/w/index.php?title=Cookbook:Chipotle_Maple_Glazed_Pork_Tenderloin&oldid=4509796), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Chipotle Sliders](https://en.wikibooks.org/w/index.php?title=Cookbook:Chipotle_Sliders&oldid=4519271), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Chipped Beef on Toast](https://en.wikibooks.org/w/index.php?title=Cookbook:Chipped_Beef_on_Toast&oldid=4512070), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Chips Cheese and Gravy](https://en.wikibooks.org/w/index.php?title=Cookbook:Chips_Cheese_and_Gravy&oldid=4523947), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Chipsi mayai](https://en.wikibooks.org/w/index.php?title=Cookbook:Chipsi_mayai&oldid=4638743), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Chishimba (Zambian Cassava Cake)](https://en.wikibooks.org/w/index.php?title=Cookbook:Chishimba_(Zambian_Cassava_Cake)&oldid=4587498), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Chivito (Uruguayan Beef Sandwich)](https://en.wikibooks.org/w/index.php?title=Cookbook:Chivito_(Uruguayan_Beef_Sandwich)&oldid=4615173), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Choco-Crunch Bites](https://en.wikibooks.org/w/index.php?title=Cookbook:Choco-Crunch_Bites&oldid=4523948), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Choco-Nutty Pie](https://en.wikibooks.org/w/index.php?title=Cookbook:Choco-Nutty_Pie&oldid=4523949), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Chocolate and Banana Bread](https://en.wikibooks.org/w/index.php?title=Cookbook:Chocolate_and_Banana_Bread&oldid=4509305), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Chocolate and Nut Covered Strawberries](https://en.wikibooks.org/w/index.php?title=Cookbook:Chocolate_and_Nut_Covered_Strawberries&oldid=4516814), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Chocolate Balls](https://en.wikibooks.org/w/index.php?title=Cookbook:Chocolate_Balls&oldid=4517465), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Chocolate Bananas Foster](https://en.wikibooks.org/w/index.php?title=Cookbook:Chocolate_Bananas_Foster&oldid=4587402), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Chocolate Bourbon Pecan Pie](https://en.wikibooks.org/w/index.php?title=Cookbook:Chocolate_Bourbon_Pecan_Pie&oldid=4523950), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Chocolate Cake with Coconut Topping (Vegan)](https://en.wikibooks.org/w/index.php?title=Cookbook:Chocolate_Cake_with_Coconut_Topping_(Vegan)&oldid=4629250), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Chocolate Cheesecake](https://en.wikibooks.org/w/index.php?title=Cookbook:Chocolate_Cheesecake&oldid=4516815), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Chocolate Chip Balls](https://en.wikibooks.org/w/index.php?title=Cookbook:Chocolate_Chip_Balls&oldid=4515259), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Chocolate Chip Cookies (Gluten-Free)](https://en.wikibooks.org/w/index.php?title=Cookbook:Chocolate_Chip_Cookies_(Gluten-Free)&oldid=4519181), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Chocolate Chip Cookies I](https://en.wikibooks.org/w/index.php?title=Cookbook:Chocolate_Chip_Cookies_I&oldid=4630845), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Chocolate Chip Cookies II](https://en.wikibooks.org/w/index.php?title=Cookbook:Chocolate_Chip_Cookies_II&oldid=4519184), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Chocolate Chip Cookies III](https://en.wikibooks.org/w/index.php?title=Cookbook:Chocolate_Chip_Cookies_III&oldid=4519185), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Chocolate Chip Cookies IV](https://en.wikibooks.org/w/index.php?title=Cookbook:Chocolate_Chip_Cookies_IV&oldid=4519186), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Chocolate Chip Cookies (Vegan)](https://en.wikibooks.org/w/index.php?title=Cookbook:Chocolate_Chip_Cookies_(Vegan)&oldid=4519182), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Chocolate Chip Pancakes I](https://en.wikibooks.org/w/index.php?title=Cookbook:Chocolate_Chip_Pancakes_I&oldid=4523340), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Chocolate Chip Pancakes II](https://en.wikibooks.org/w/index.php?title=Cookbook:Chocolate_Chip_Pancakes_II&oldid=4522830), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Chocolate Chip Peanut Butter Toast](https://en.wikibooks.org/w/index.php?title=Cookbook:Chocolate_Chip_Peanut_Butter_Toast&oldid=4516822), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Chocolate Chip Pumpkin Cookies](https://en.wikibooks.org/w/index.php?title=Cookbook:Chocolate_Chip_Pumpkin_Cookies&oldid=4516823), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Chocolate Chocolate Chip Muffins](https://en.wikibooks.org/w/index.php?title=Cookbook:Chocolate_Chocolate_Chip_Muffins&oldid=4523341), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Chocolate Crinkles](https://en.wikibooks.org/w/index.php?title=Cookbook:Chocolate_Crinkles&oldid=4516826), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Chocolate Fudge](https://en.wikibooks.org/w/index.php?title=Cookbook:Chocolate_Fudge&oldid=4517510), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Chocolate Icing](https://en.wikibooks.org/w/index.php?title=Cookbook:Chocolate_Icing&oldid=4523953), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Chocolate-Jalapeno Truffles](https://en.wikibooks.org/w/index.php?title=Cookbook:Chocolate-Jalapeno_Truffles&oldid=4523969), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Chocolate Macaroons (no-bake)](https://en.wikibooks.org/w/index.php?title=Cookbook:Chocolate_Macaroons_(no-bake)&oldid=4587306), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Chocolate Marmalade Layer Cake](https://en.wikibooks.org/w/index.php?title=Cookbook:Chocolate_Marmalade_Layer_Cake&oldid=4516895), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Chocolate Milk](https://en.wikibooks.org/w/index.php?title=Cookbook:Chocolate_Milk&oldid=4523997), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Chocolate Milkshake](https://en.wikibooks.org/w/index.php?title=Cookbook:Chocolate_Milkshake&oldid=4587159), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Chocolate Mousse](https://en.wikibooks.org/w/index.php?title=Cookbook:Chocolate_Mousse&oldid=4587252), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Chocolate Mousse Cake (Vegan)](https://en.wikibooks.org/w/index.php?title=Cookbook:Chocolate_Mousse_Cake_(Vegan)&oldid=4523467), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Chocolate Mousse (Vegan)](https://en.wikibooks.org/w/index.php?title=Cookbook:Chocolate_Mousse_(Vegan)&oldid=4587438), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Chocolate Noodles with Vanilla sauce](https://en.wikibooks.org/w/index.php?title=Cookbook:Chocolate_Noodles_with_Vanilla_sauce&oldid=4587336), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Chocolate Pear Bake](https://en.wikibooks.org/w/index.php?title=Cookbook:Chocolate_Pear_Bake&oldid=4587251), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Chocolate Sandesh](https://en.wikibooks.org/w/index.php?title=Cookbook:Chocolate_Sandesh&oldid=4523968), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Chocolate Sauce](https://en.wikibooks.org/w/index.php?title=Cookbook:Chocolate_Sauce&oldid=4518889), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Chocolate Sour-Cream Icing](https://en.wikibooks.org/w/index.php?title=Cookbook:Chocolate_Sour-Cream_Icing&oldid=4587313), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Chocolate Spread](https://en.wikibooks.org/w/index.php?title=Cookbook:Chocolate_Spread&oldid=4511682), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Chocolate Squares](https://en.wikibooks.org/w/index.php?title=Cookbook:Chocolate_Squares&oldid=4517467), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Chocolate Truffles](https://en.wikibooks.org/w/index.php?title=Cookbook:Chocolate_Truffles&oldid=4517468), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Chocolate Zucchini Cake](https://en.wikibooks.org/w/index.php?title=Cookbook:Chocolate_Zucchini_Cake&oldid=4516898), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Chokladboll (Swedish Chocolate Balls)](https://en.wikibooks.org/w/index.php?title=Cookbook:Chokladboll_(Swedish_Chocolate_Balls)&oldid=4618912), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Chola and Roti](https://en.wikibooks.org/w/index.php?title=Cookbook:Chola_and_Roti&oldid=4515531), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Cholley (Chickpea Curry)](https://en.wikibooks.org/w/index.php?title=Cookbook:Cholley_(Chickpea_Curry)&oldid=4515532), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Chop Rub](https://en.wikibooks.org/w/index.php?title=Cookbook:Chop_Rub&oldid=4516591), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Chorba Frik (Freekeh Soup)](https://en.wikibooks.org/w/index.php?title=Cookbook:Chorba_Frik_(Freekeh_Soup)&oldid=4518382), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Choripán (Argentine Chorizo Sandwich)](https://en.wikibooks.org/w/index.php?title=Cookbook:Chorip%C3%A1n_(Argentine_Chorizo_Sandwich)&oldid=4536414), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Choucroute (Sauerkraut with Meat and Potatoes)](https://en.wikibooks.org/w/index.php?title=Cookbook:Choucroute_(Sauerkraut_with_Meat_and_Potatoes)&oldid=4615191), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Chow Mein](https://en.wikibooks.org/w/index.php?title=Cookbook:Chow_Mein&oldid=4513940), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Chraime (Sephardic Fish and Vegetable Casserole)](https://en.wikibooks.org/w/index.php?title=Cookbook:Chraime_(Sephardic_Fish_and_Vegetable_Casserole)&oldid=4517395), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Christmas Cake](https://en.wikibooks.org/w/index.php?title=Cookbook:Christmas_Cake&oldid=4599172), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Christmas Cinnamon Cookies](https://en.wikibooks.org/w/index.php?title=Cookbook:Christmas_Cinnamon_Cookies&oldid=4587432), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Christmas Ham](https://en.wikibooks.org/w/index.php?title=Cookbook:Christmas_Ham&oldid=4615193), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Christmas Mince Pies (Meat-Free)](https://en.wikibooks.org/w/index.php?title=Cookbook:Christmas_Mince_Pies_(Meat-Free)&oldid=4517306), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Christmas Pudding I](https://en.wikibooks.org/w/index.php?title=Cookbook:Christmas_Pudding_I&oldid=4587461), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Christmas Pudding II](https://en.wikibooks.org/w/index.php?title=Cookbook:Christmas_Pudding_II&oldid=4587462), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Chuck Wagon Beans](https://en.wikibooks.org/w/index.php?title=Cookbook:Chuck_Wagon_Beans&oldid=4613697), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Chukauni (Nepalese Potato Salad)](https://en.wikibooks.org/w/index.php?title=Cookbook:Chukauni_(Nepalese_Potato_Salad)&oldid=4615127), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Chunky Cran Apple Bran Muffins](https://en.wikibooks.org/w/index.php?title=Cookbook:Chunky_Cran_Apple_Bran_Muffins&oldid=4522771), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Chunky Guacamole](https://en.wikibooks.org/w/index.php?title=Cookbook:Chunky_Guacamole&oldid=4523970), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Chupaqueso](https://en.wikibooks.org/w/index.php?title=Cookbook:Chupaqueso&oldid=4600877), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Churri (Indian Yogurt Herb Sauce)](https://en.wikibooks.org/w/index.php?title=Cookbook:Churri_(Indian_Yogurt_Herb_Sauce)&oldid=4531773), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Churros I](https://en.wikibooks.org/w/index.php?title=Cookbook:Churros_I&oldid=4587319), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Ciabatta](https://en.wikibooks.org/w/index.php?title=Cookbook:Ciabatta&oldid=4523972), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Çılbır (Turkish Eggs with Yogurt)](https://en.wikibooks.org/w/index.php?title=Cookbook:%C3%87%C4%B1lb%C4%B1r_(Turkish_Eggs_with_Yogurt)&oldid=4608160), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Cincinnati-Style Chili](https://en.wikibooks.org/w/index.php?title=Cookbook:Cincinnati-Style_Chili&oldid=4518549), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Cinnamon-braised Chicken (Kotopoulo Kapama)](https://en.wikibooks.org/w/index.php?title=Cookbook:Cinnamon-braised_Chicken_(Kotopoulo_Kapama)&oldid=4507907), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Cinnamon Chicken](https://en.wikibooks.org/w/index.php?title=Cookbook:Cinnamon_Chicken&oldid=4507959), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Cinnamon Croutons](https://en.wikibooks.org/w/index.php?title=Cookbook:Cinnamon_Croutons&oldid=4507743), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Cinnamon Glazed Apples](https://en.wikibooks.org/w/index.php?title=Cookbook:Cinnamon_Glazed_Apples&oldid=4516852), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Cinnamon Rolls](https://en.wikibooks.org/w/index.php?title=Cookbook:Cinnamon_Rolls&oldid=4587184), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Cioppino (Italian Seafood Stew)](https://en.wikibooks.org/w/index.php?title=Cookbook:Cioppino_(Italian_Seafood_Stew)&oldid=4630394), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Citrus Energy Drink](https://en.wikibooks.org/w/index.php?title=Cookbook:Citrus_Energy_Drink&oldid=4601587), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Clams Steamed in Aluminum Foil](https://en.wikibooks.org/w/index.php?title=Cookbook:Clams_Steamed_in_Aluminum_Foil&oldid=4630306), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Classic American Apple Pie](https://en.wikibooks.org/w/index.php?title=Cookbook:Classic_American_Apple_Pie&oldid=4618213), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Classic Mince Pies](https://en.wikibooks.org/w/index.php?title=Cookbook:Classic_Mince_Pies&oldid=4517307), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Classic Pot Roast](https://en.wikibooks.org/w/index.php?title=Cookbook:Classic_Pot_Roast&oldid=4518596), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Classic Puff Pastry](https://en.wikibooks.org/w/index.php?title=Cookbook:Classic_Puff_Pastry&oldid=4516148), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Classic Salad](https://en.wikibooks.org/w/index.php?title=Cookbook:Classic_Salad&oldid=4518119), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Classic Vanilla Milkshake](https://en.wikibooks.org/w/index.php?title=Cookbook:Classic_Vanilla_Milkshake&oldid=4595355), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Cochinita Pibil (Mexican Braised Pork)](https://en.wikibooks.org/w/index.php?title=Cookbook:Cochinita_Pibil_(Mexican_Braised_Pork)&oldid=4510059), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Cocoa Mix](https://en.wikibooks.org/w/index.php?title=Cookbook:Cocoa_Mix&oldid=4523307), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Coconut Barfi](https://en.wikibooks.org/w/index.php?title=Cookbook:Coconut_Barfi&oldid=4540306), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Coconut Biscuits](https://en.wikibooks.org/w/index.php?title=Cookbook:Coconut_Biscuits&oldid=4515272), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Coconut Chicken](https://en.wikibooks.org/w/index.php?title=Cookbook:Coconut_Chicken&oldid=4531795), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Coconut Chutney (North Indian)](https://en.wikibooks.org/w/index.php?title=Cookbook:Coconut_Chutney_(North_Indian)&oldid=4510791), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Coconut Chutney (South Indian)](https://en.wikibooks.org/w/index.php?title=Cookbook:Coconut_Chutney_(South_Indian)&oldid=4615206), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Coconut Cream and Pound Cake with Moscatel (Bienmesabe)](https://en.wikibooks.org/w/index.php?title=Cookbook:Coconut_Cream_and_Pound_Cake_with_Moscatel_(Bienmesabe)&oldid=4516901), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Coconut Cream Filled Cake with Meringue (Bienmesabe)](https://en.wikibooks.org/w/index.php?title=Cookbook:Coconut_Cream_Filled_Cake_with_Meringue_(Bienmesabe)&oldid=4522444), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Coconut Crusted Baked Cod](https://en.wikibooks.org/w/index.php?title=Cookbook:Coconut_Crusted_Baked_Cod&oldid=4531775), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Coconut Pudding I](https://en.wikibooks.org/w/index.php?title=Cookbook:Coconut_Pudding_I&oldid=4517912), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Coconut Pudding II](https://en.wikibooks.org/w/index.php?title=Cookbook:Coconut_Pudding_II&oldid=4517913), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Coconut Pyramids](https://en.wikibooks.org/w/index.php?title=Cookbook:Coconut_Pyramids&oldid=4523979), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Coconut Rice (Indian)](https://en.wikibooks.org/w/index.php?title=Cookbook:Coconut_Rice_(Indian)&oldid=4615181), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Coconut Rice (Indonesian)](https://en.wikibooks.org/w/index.php?title=Cookbook:Coconut_Rice_(Indonesian)&oldid=4512915), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Coconut Rice (Nasi Lemak)](https://en.wikibooks.org/w/index.php?title=Cookbook:Coconut_Rice_(Nasi_Lemak)&oldid=4513018), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Coconut Rum-Battered Shrimp](https://en.wikibooks.org/w/index.php?title=Cookbook:Coconut_Rum-Battered_Shrimp&oldid=4630393), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Cocoyam Fufu](https://en.wikibooks.org/w/index.php?title=Cookbook:Cocoyam_Fufu&oldid=4518747), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Cod, Olive Oil, and Cream Sauce (Brandade de Morue)](https://en.wikibooks.org/w/index.php?title=Cookbook:Cod,_Olive_Oil,_and_Cream_Sauce_(Brandade_de_Morue)&oldid=4523271), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Coddle](https://en.wikibooks.org/w/index.php?title=Cookbook:Coddle&oldid=4511927), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Coffee Cake](https://en.wikibooks.org/w/index.php?title=Cookbook:Coffee_Cake&oldid=4522822), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Coffee Concentrate](https://en.wikibooks.org/w/index.php?title=Cookbook:Coffee_Concentrate&oldid=4479634), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Coffee Mousse](https://en.wikibooks.org/w/index.php?title=Cookbook:Coffee_Mousse&oldid=4587417), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Coffee Rum Glazed Apples](https://en.wikibooks.org/w/index.php?title=Cookbook:Coffee_Rum_Glazed_Apples&oldid=4515825), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Cognac Beef Stew](https://en.wikibooks.org/w/index.php?title=Cookbook:Cognac_Beef_Stew&oldid=4518595), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Cola BBQ Chicken](https://en.wikibooks.org/w/index.php?title=Cookbook:Cola_BBQ_Chicken&oldid=4497313), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Cola BBQ Sauce](https://en.wikibooks.org/w/index.php?title=Cookbook:Cola_BBQ_Sauce&oldid=4511547), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Cola Cake](https://en.wikibooks.org/w/index.php?title=Cookbook:Cola_Cake&oldid=4517713), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Cola I](https://en.wikibooks.org/w/index.php?title=Cookbook:Cola_I&oldid=4636429), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Cola II](https://en.wikibooks.org/w/index.php?title=Cookbook:Cola_II&oldid=4636147), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Cola III](https://en.wikibooks.org/w/index.php?title=Cookbook:Cola_III&oldid=4669270), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Cola V](https://en.wikibooks.org/w/index.php?title=Cookbook:Cola_V&oldid=4636434), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Colcannon](https://en.wikibooks.org/w/index.php?title=Cookbook:Colcannon&oldid=4511096), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Colcannon (Scottish)](https://en.wikibooks.org/w/index.php?title=Cookbook:Colcannon_(Scottish)&oldid=4502525), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Cold Potatoes Fried](https://en.wikibooks.org/w/index.php?title=Cookbook:Cold_Potatoes_Fried&oldid=4237552), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Coleslaw I](https://en.wikibooks.org/w/index.php?title=Cookbook:Coleslaw_I&oldid=4630331), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Coleslaw II](https://en.wikibooks.org/w/index.php?title=Cookbook:Coleslaw_II&oldid=4630333), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Colonial Goose](https://en.wikibooks.org/w/index.php?title=Cookbook:Colonial_Goose&oldid=4513489), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Com Chien (Vietnamese Fried Rice)](https://en.wikibooks.org/w/index.php?title=Cookbook:Com_Chien_(Vietnamese_Fried_Rice)&oldid=4630396), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Common Sauce (Hartshorne)](https://en.wikibooks.org/w/index.php?title=Cookbook:Common_Sauce_(Hartshorne)&oldid=4518892), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Communion Wafers](https://en.wikibooks.org/w/index.php?title=Cookbook:Communion_Wafers&oldid=4597328), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Confederate Cush](https://en.wikibooks.org/w/index.php?title=Cookbook:Confederate_Cush&oldid=4498264), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Consommé](https://en.wikibooks.org/w/index.php?title=Cookbook:Consomm%C3%A9&oldid=4518376), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Cookies and Milk](https://en.wikibooks.org/w/index.php?title=Cookbook:Cookies_and_Milk&oldid=4600078), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Cookies with Pineapple Jam Filling (Nastar)](https://en.wikibooks.org/w/index.php?title=Cookbook:Cookies_with_Pineapple_Jam_Filling_(Nastar)&oldid=4541028), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Coq au Vin I](https://en.wikibooks.org/w/index.php?title=Cookbook:Coq_au_Vin_I&oldid=4610547), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Coq au Vin II](https://en.wikibooks.org/w/index.php?title=Cookbook:Coq_au_Vin_II&oldid=4518795), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Coq au Vin III](https://en.wikibooks.org/w/index.php?title=Cookbook:Coq_au_Vin_III&oldid=4518796), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Coquitos (Coconut Macaroons)](https://en.wikibooks.org/w/index.php?title=Cookbook:Coquitos_(Coconut_Macaroons)&oldid=4515273), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Coriander Chutney](https://en.wikibooks.org/w/index.php?title=Cookbook:Coriander_Chutney&oldid=4510061), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Corn and Kelp Chowder](https://en.wikibooks.org/w/index.php?title=Cookbook:Corn_and_Kelp_Chowder&oldid=4522829), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Corn and Shrimp Chowder](https://en.wikibooks.org/w/index.php?title=Cookbook:Corn_and_Shrimp_Chowder&oldid=4630397), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Corn Bread Fish](https://en.wikibooks.org/w/index.php?title=Cookbook:Corn_Bread_Fish&oldid=4523986), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Corn Bread (Lombardy)](https://en.wikibooks.org/w/index.php?title=Cookbook:Corn_Bread_(Lombardy)&oldid=4513103), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Corn Chowder I](https://en.wikibooks.org/w/index.php?title=Cookbook:Corn_Chowder_I&oldid=4519255), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Corn Chowder II](https://en.wikibooks.org/w/index.php?title=Cookbook:Corn_Chowder_II&oldid=4605289), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Corn Dogs](https://en.wikibooks.org/w/index.php?title=Cookbook:Corn_Dogs&oldid=4523343), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Corn Muffins](https://en.wikibooks.org/w/index.php?title=Cookbook:Corn_Muffins&oldid=4515904), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Corn on the Cob with Husks](https://en.wikibooks.org/w/index.php?title=Cookbook:Corn_on_the_Cob_with_Husks&oldid=4495034), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Corn Pancakes](https://en.wikibooks.org/w/index.php?title=Cookbook:Corn_Pancakes&oldid=4599178), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Corn Pone](https://en.wikibooks.org/w/index.php?title=Cookbook:Corn_Pone&oldid=4513108), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Corn Soup](https://en.wikibooks.org/w/index.php?title=Cookbook:Corn_Soup&oldid=4518378), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Corn Sticks](https://en.wikibooks.org/w/index.php?title=Cookbook:Corn_Sticks&oldid=4595356), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Cornbread and Chicken Casserole](https://en.wikibooks.org/w/index.php?title=Cookbook:Cornbread_and_Chicken_Casserole&oldid=4517397), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Cornbread I](https://en.wikibooks.org/w/index.php?title=Cookbook:Cornbread_I&oldid=4523344), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Cornbread II](https://en.wikibooks.org/w/index.php?title=Cookbook:Cornbread_II&oldid=4523345), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Cornbread Stuffed Zucchini](https://en.wikibooks.org/w/index.php?title=Cookbook:Cornbread_Stuffed_Zucchini&oldid=4518720), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Corned Beef Pie](https://en.wikibooks.org/w/index.php?title=Cookbook:Corned_Beef_Pie&oldid=4523289), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Cornish Fairing](https://en.wikibooks.org/w/index.php?title=Cookbook:Cornish_Fairing&oldid=4516871), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Cornmeal Fried Morels](https://en.wikibooks.org/w/index.php?title=Cookbook:Cornmeal_Fried_Morels&oldid=4610371), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Cornmeal Pancakes (Arepa)](https://en.wikibooks.org/w/index.php?title=Cookbook:Cornmeal_Pancakes_(Arepa)&oldid=4628724), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Cornstarch Slurry](https://en.wikibooks.org/w/index.php?title=Cookbook:Cornstarch_Slurry&oldid=4499951), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Corny Soufflé](https://en.wikibooks.org/w/index.php?title=Cookbook:Corny_Souffl%C3%A9&oldid=4522795), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Corom Chatni (Mango Chutney with Hot Chillies)](https://en.wikibooks.org/w/index.php?title=Cookbook:Corom_Chatni_(Mango_Chutney_with_Hot_Chillies)&oldid=4531812), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Coronation Chicken](https://en.wikibooks.org/w/index.php?title=Cookbook:Coronation_Chicken&oldid=4517533), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Coronet Cupcakes](https://en.wikibooks.org/w/index.php?title=Cookbook:Coronet_Cupcakes&oldid=4587479), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Cottage Cheese Eggs](https://en.wikibooks.org/w/index.php?title=Cookbook:Cottage_Cheese_Eggs&oldid=4514766), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Cottage Cheese Pancakes](https://en.wikibooks.org/w/index.php?title=Cookbook:Cottage_Cheese_Pancakes&oldid=4522823), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Country Fried Chicken](https://en.wikibooks.org/w/index.php?title=Cookbook:Country_Fried_Chicken&oldid=4522796), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Country Roast Chicken](https://en.wikibooks.org/w/index.php?title=Cookbook:Country_Roast_Chicken&oldid=4510317), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Country Roast Chicken Seasoning](https://en.wikibooks.org/w/index.php?title=Cookbook:Country_Roast_Chicken_Seasoning&oldid=4516590), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Couscous bil Khodra (Libyan Vegetable Couscous)](https://en.wikibooks.org/w/index.php?title=Cookbook:Couscous_bil_Khodra_(Libyan_Vegetable_Couscous)&oldid=4535152), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Crab and Corn Salad](https://en.wikibooks.org/w/index.php?title=Cookbook:Crab_and_Corn_Salad&oldid=4630355), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Crab Cakes](https://en.wikibooks.org/w/index.php?title=Cookbook:Crab_Cakes&oldid=4630311), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Crab Dip](https://en.wikibooks.org/w/index.php?title=Cookbook:Crab_Dip&oldid=4630312), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Crab Fried Rice](https://en.wikibooks.org/w/index.php?title=Cookbook:Crab_Fried_Rice&oldid=4630313), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Crab Meat Canapé](https://en.wikibooks.org/w/index.php?title=Cookbook:Crab_Meat_Canap%C3%A9&oldid=4630314), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Crab Meat Ravioli Filling](https://en.wikibooks.org/w/index.php?title=Cookbook:Crab_Meat_Ravioli_Filling&oldid=4630315), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Crab Quesadillas with Mango Salsa](https://en.wikibooks.org/w/index.php?title=Cookbook:Crab_Quesadillas_with_Mango_Salsa&oldid=4630317), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Cranberry Orange Squares](https://en.wikibooks.org/w/index.php?title=Cookbook:Cranberry_Orange_Squares&oldid=4515275), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Cranberry Walnut Fudge](https://en.wikibooks.org/w/index.php?title=Cookbook:Cranberry_Walnut_Fudge&oldid=4517511), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Crawfish Boil](https://en.wikibooks.org/w/index.php?title=Cookbook:Crawfish_Boil&oldid=4630348), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Cream Cheese American Buttercream](https://en.wikibooks.org/w/index.php?title=Cookbook:Cream_Cheese_American_Buttercream&oldid=4517701), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Cream Cheese Mints](https://en.wikibooks.org/w/index.php?title=Cookbook:Cream_Cheese_Mints&oldid=4517473), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Cream Cheese-Stuffed Bell Peppers](https://en.wikibooks.org/w/index.php?title=Cookbook:Cream_Cheese-Stuffed_Bell_Peppers&oldid=4514740), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Cream Cheese Wontons](https://en.wikibooks.org/w/index.php?title=Cookbook:Cream_Cheese_Wontons&oldid=4514745), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Cream of Duck and Mushroom Soup](https://en.wikibooks.org/w/index.php?title=Cookbook:Cream_of_Duck_and_Mushroom_Soup&oldid=4518379), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Cream of Mushroom Soup](https://en.wikibooks.org/w/index.php?title=Cookbook:Cream_of_Mushroom_Soup&oldid=4524017), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Cream Puff](https://en.wikibooks.org/w/index.php?title=Cookbook:Cream_Puff&oldid=4587185), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Cream Soda](https://en.wikibooks.org/w/index.php?title=Cookbook:Cream_Soda&oldid=4672083), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Creamed Corn](https://en.wikibooks.org/w/index.php?title=Cookbook:Creamed_Corn&oldid=4522202), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Creamy Aioli Salsa](https://en.wikibooks.org/w/index.php?title=Cookbook:Creamy_Aioli_Salsa&oldid=4516466), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Creamy Cornstarch Scrambled Eggs](https://en.wikibooks.org/w/index.php?title=Cookbook:Creamy_Cornstarch_Scrambled_Eggs&oldid=4522201), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Creamy Delight Smoothie](https://en.wikibooks.org/w/index.php?title=Cookbook:Creamy_Delight_Smoothie&oldid=4524019), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Creamy Mascarpone Dessert](https://en.wikibooks.org/w/index.php?title=Cookbook:Creamy_Mascarpone_Dessert&oldid=4587399), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Creamy Mustard Vinaigrette](https://en.wikibooks.org/w/index.php?title=Cookbook:Creamy_Mustard_Vinaigrette&oldid=4613354), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Creamy Tomato and Bean Soup](https://en.wikibooks.org/w/index.php?title=Cookbook:Creamy_Tomato_and_Bean_Soup&oldid=4571234), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Crème Anglaise](https://en.wikibooks.org/w/index.php?title=Cookbook:Cr%C3%A8me_Anglaise&oldid=4621190), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Creme Brulee Cheesecake](https://en.wikibooks.org/w/index.php?title=Cookbook:Creme_Brulee_Cheesecake&oldid=4587355), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Crème Brûlée III](https://en.wikibooks.org/w/index.php?title=Cookbook:Cr%C3%A8me_Br%C3%BBl%C3%A9e_III&oldid=4587468), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Crème Chantilly](https://en.wikibooks.org/w/index.php?title=Cookbook:Cr%C3%A8me_Chantilly&oldid=4511132), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Crème Fraîche Chocolate Sauce](https://en.wikibooks.org/w/index.php?title=Cookbook:Cr%C3%A8me_Fra%C3%AEche_Chocolate_Sauce&oldid=4518898), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Crème Pâtissière](https://en.wikibooks.org/w/index.php?title=Cookbook:Cr%C3%A8me_P%C3%A2tissi%C3%A8re&oldid=4523347), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Crème Saint-Honoré](https://en.wikibooks.org/w/index.php?title=Cookbook:Cr%C3%A8me_Saint-Honor%C3%A9&oldid=4516688), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Crêpes II](https://en.wikibooks.org/w/index.php?title=Cookbook:Cr%C3%AApes_II&oldid=4535126), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Crispy Buffalo Shrimp](https://en.wikibooks.org/w/index.php?title=Cookbook:Crispy_Buffalo_Shrimp&oldid=4630398), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Crispy Calamari](https://en.wikibooks.org/w/index.php?title=Cookbook:Crispy_Calamari&oldid=4630390), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Crispy Chicken](https://en.wikibooks.org/w/index.php?title=Cookbook:Crispy_Chicken&oldid=4513495), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Crispy Fish Sandwich](https://en.wikibooks.org/w/index.php?title=Cookbook:Crispy_Fish_Sandwich&oldid=4533587), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Crispy Gingerbread Cookies](https://en.wikibooks.org/w/index.php?title=Cookbook:Crispy_Gingerbread_Cookies&oldid=4599152), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Crispy Roast Potatoes](https://en.wikibooks.org/w/index.php?title=Cookbook:Crispy_Roast_Potatoes&oldid=4506004), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Crispy Salmon](https://en.wikibooks.org/w/index.php?title=Cookbook:Crispy_Salmon&oldid=4513497), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Crispy Santa Fe Chicken](https://en.wikibooks.org/w/index.php?title=Cookbook:Crispy_Santa_Fe_Chicken&oldid=4515022), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Crispy Sweet Potato Fries](https://en.wikibooks.org/w/index.php?title=Cookbook:Crispy_Sweet_Potato_Fries&oldid=4507752), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Crock Pot Beef Stew](https://en.wikibooks.org/w/index.php?title=Cookbook:Crock_Pot_Beef_Stew&oldid=4518600), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Crock Pot Potato Soup](https://en.wikibooks.org/w/index.php?title=Cookbook:Crock_Pot_Potato_Soup&oldid=4620602), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Croissant](https://en.wikibooks.org/w/index.php?title=Cookbook:Croissant&oldid=4587186), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Croque Monsieur](https://en.wikibooks.org/w/index.php?title=Cookbook:Croque_Monsieur&oldid=4628600), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Crotopo Soup](https://en.wikibooks.org/w/index.php?title=Cookbook:Crotopo_Soup&oldid=4518388), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Crown Roast of Lamb](https://en.wikibooks.org/w/index.php?title=Cookbook:Crown_Roast_of_Lamb&oldid=4497913), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Crullers (Round)](https://en.wikibooks.org/w/index.php?title=Cookbook:Crullers_(Round)&oldid=4587187), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Crullers (Twisted)](https://en.wikibooks.org/w/index.php?title=Cookbook:Crullers_(Twisted)&oldid=4587188), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Crunchy Baked Chicken](https://en.wikibooks.org/w/index.php?title=Cookbook:Crunchy_Baked_Chicken&oldid=4513496), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Crushed Tomato Sauce](https://en.wikibooks.org/w/index.php?title=Cookbook:Crushed_Tomato_Sauce&oldid=4518888), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Crystallised Orange Peel](https://en.wikibooks.org/w/index.php?title=Cookbook:Crystallised_Orange_Peel&oldid=4517474), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Cuban Picadillo](https://en.wikibooks.org/w/index.php?title=Cookbook:Cuban_Picadillo&oldid=4493948), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Cuban Sandwich I](https://en.wikibooks.org/w/index.php?title=Cookbook:Cuban_Sandwich_I&oldid=4518239), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Cuban Sandwich II](https://en.wikibooks.org/w/index.php?title=Cookbook:Cuban_Sandwich_II&oldid=4613355), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Cucumber and Buttermilk Soup](https://en.wikibooks.org/w/index.php?title=Cookbook:Cucumber_and_Buttermilk_Soup&oldid=4595357), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Cucumber and Radish Salad](https://en.wikibooks.org/w/index.php?title=Cookbook:Cucumber_and_Radish_Salad&oldid=4518123), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Cucumber and Tomato Salad](https://en.wikibooks.org/w/index.php?title=Cookbook:Cucumber_and_Tomato_Salad&oldid=4518124), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Cucumber Bits in Yogurt](https://en.wikibooks.org/w/index.php?title=Cookbook:Cucumber_Bits_in_Yogurt&oldid=4510867), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Cucumber Sprout Sandwich](https://en.wikibooks.org/w/index.php?title=Cookbook:Cucumber_Sprout_Sandwich&oldid=4523499), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Cucumber, Tomato, and Onion Salad](https://en.wikibooks.org/w/index.php?title=Cookbook:Cucumber,_Tomato,_and_Onion_Salad&oldid=4518125), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Cullen Skink (Haddock and Potato Soup)](https://en.wikibooks.org/w/index.php?title=Cookbook:Cullen_Skink_(Haddock_and_Potato_Soup)&oldid=4518384), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Cupcakes (Plain)](https://en.wikibooks.org/w/index.php?title=Cookbook:Cupcakes_(Plain)&oldid=4515926), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Curried Chiles (Mirchi ka Salan)](https://en.wikibooks.org/w/index.php?title=Cookbook:Curried_Chiles_(Mirchi_ka_Salan)&oldid=4517535), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Curried Rice](https://en.wikibooks.org/w/index.php?title=Cookbook:Curried_Rice&oldid=4513598), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Curry Chicken I](https://en.wikibooks.org/w/index.php?title=Cookbook:Curry_Chicken_I&oldid=4517536), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Curry Chicken II](https://en.wikibooks.org/w/index.php?title=Cookbook:Curry_Chicken_II&oldid=4517538), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Curry Fried Rice](https://en.wikibooks.org/w/index.php?title=Cookbook:Curry_Fried_Rice&oldid=4517682), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Curtido (Spicy Cabbage Slaw)](https://en.wikibooks.org/w/index.php?title=Cookbook:Curtido_(Spicy_Cabbage_Slaw)&oldid=4535153), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Custard Creams](https://en.wikibooks.org/w/index.php?title=Cookbook:Custard_Creams&oldid=4517596), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Custard Pie](https://en.wikibooks.org/w/index.php?title=Cookbook:Custard_Pie&oldid=4587265), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Cypriot Salad](https://en.wikibooks.org/w/index.php?title=Cookbook:Cypriot_Salad&oldid=4518126), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Dabeli (Potato-stuffed Buns with Chutney)](https://en.wikibooks.org/w/index.php?title=Cookbook:Dabeli_(Potato-stuffed_Buns_with_Chutney)&oldid=4670882), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Dabo Kolo (Ethiopian Spiced Bread Snacks)](https://en.wikibooks.org/w/index.php?title=Cookbook:Dabo_Kolo_(Ethiopian_Spiced_Bread_Snacks)&oldid=4517729), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Dahi Baingana (Fried Eggplant in Yogurt)](https://en.wikibooks.org/w/index.php?title=Cookbook:Dahi_Baingana_(Fried_Eggplant_in_Yogurt)&oldid=4510868), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Daifuku (Sweet Filled Mochi)](https://en.wikibooks.org/w/index.php?title=Cookbook:Daifuku_(Sweet_Filled_Mochi)&oldid=4587382), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Daigakuimo (Japanese Candied Sweet Potato)](https://en.wikibooks.org/w/index.php?title=Cookbook:Daigakuimo_(Japanese_Candied_Sweet_Potato)&oldid=4494175), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Dajaj Mashwi (Libyan Grilled Chicken)](https://en.wikibooks.org/w/index.php?title=Cookbook:Dajaj_Mashwi_(Libyan_Grilled_Chicken)&oldid=4510075), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Dal Makhani (Black Gram with Cream)](https://en.wikibooks.org/w/index.php?title=Cookbook:Dal_Makhani_(Black_Gram_with_Cream)&oldid=4517540), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Dalgona Coffee](https://en.wikibooks.org/w/index.php?title=Cookbook:Dalgona_Coffee&oldid=4595360), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Dambun Masara](https://en.wikibooks.org/w/index.php?title=Cookbook:Dambun_Masara&oldid=4601082), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Damper (Australian Campfire Bread)](https://en.wikibooks.org/w/index.php?title=Cookbook:Damper_(Australian_Campfire_Bread)&oldid=4601827), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Daniel Webster's Chowder](https://en.wikibooks.org/w/index.php?title=Cookbook:Daniel_Webster's_Chowder&oldid=4519257), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Danish Braised Cabbage (Rødkål)](https://en.wikibooks.org/w/index.php?title=Cookbook:Danish_Braised_Cabbage_(R%C3%B8dk%C3%A5l)&oldid=4630335), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Danwake](https://en.wikibooks.org/w/index.php?title=Cookbook:Danwake&oldid=4518751), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Date Bars](https://en.wikibooks.org/w/index.php?title=Cookbook:Date_Bars&oldid=4587267), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Date Nut Bars](https://en.wikibooks.org/w/index.php?title=Cookbook:Date_Nut_Bars&oldid=4587122), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Date Smoothie](https://en.wikibooks.org/w/index.php?title=Cookbook:Date_Smoothie&oldid=4510806), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Date Soda](https://en.wikibooks.org/w/index.php?title=Cookbook:Date_Soda&oldid=4607716), CC-BY-SA-4.0
 - [Wikibooks Cookbook: Date Squares](https://en.wikibooks.org/w/index.php?title=Cookbook:Date_Squares&oldid=4515280), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Date Syrup](https://en.wikibooks.org/w/index.php?title=Cookbook:Date_Syrup&oldid=4608740), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Deep Dish Pizza](https://en.wikibooks.org/w/index.php?title=Cookbook:Deep_Dish_Pizza&oldid=4614747), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Deep Fried Chickpea Dough Balls (Chyueeam)](https://en.wikibooks.org/w/index.php?title=Cookbook:Deep_Fried_Chickpea_Dough_Balls_(Chyueeam)&oldid=4515538), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Deep Fried Chickpea Dough Curry Snacks (Pakoda)](https://en.wikibooks.org/w/index.php?title=Cookbook:Deep_Fried_Chickpea_Dough_Curry_Snacks_(Pakoda)&oldid=4508189), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Deep Fried Chickpea Dough with Lemon (Panissa)](https://en.wikibooks.org/w/index.php?title=Cookbook:Deep_Fried_Chickpea_Dough_with_Lemon_(Panissa)&oldid=4510078), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Deep Fried Chiles Filled with Chickpea Flour (Mirchi Bhajji)](https://en.wikibooks.org/w/index.php?title=Cookbook:Deep_Fried_Chiles_Filled_with_Chickpea_Flour_(Mirchi_Bhajji)&oldid=4506355), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Deep Fried Chiles Stuffed with Potato (Mirchi Bada)](https://en.wikibooks.org/w/index.php?title=Cookbook:Deep_Fried_Chiles_Stuffed_with_Potato_(Mirchi_Bada)&oldid=4506783), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Deep Fried Lentil Dough Balls (Punugu)](https://en.wikibooks.org/w/index.php?title=Cookbook:Deep_Fried_Lentil_Dough_Balls_(Punugu)&oldid=4501850), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Deep Fried Mars Bar](https://en.wikibooks.org/w/index.php?title=Cookbook:Deep_Fried_Mars_Bar&oldid=4587262), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Deep Fried Pretzels](https://en.wikibooks.org/w/index.php?title=Cookbook:Deep_Fried_Pretzels&oldid=4503381), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Deep Fried Turkey](https://en.wikibooks.org/w/index.php?title=Cookbook:Deep_Fried_Turkey&oldid=4503236), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Deep Fried Urad and Rice Flour Dough Balls (Murukku)](https://en.wikibooks.org/w/index.php?title=Cookbook:Deep_Fried_Urad_and_Rice_Flour_Dough_Balls_(Murukku)&oldid=4507410), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Deep Fried Wheat and Chickpea Flour Dough Balls (Muthiya)](https://en.wikibooks.org/w/index.php?title=Cookbook:Deep_Fried_Wheat_and_Chickpea_Flour_Dough_Balls_(Muthiya)&oldid=4508190), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Deluxe Burgers](https://en.wikibooks.org/w/index.php?title=Cookbook:Deluxe_Burgers&oldid=4524726), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Demi-glace](https://en.wikibooks.org/w/index.php?title=Cookbook:Demi-glace&oldid=4518896), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Denver Crunch](https://en.wikibooks.org/w/index.php?title=Cookbook:Denver_Crunch&oldid=4587257), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Denver Omelet](https://en.wikibooks.org/w/index.php?title=Cookbook:Denver_Omelet&oldid=4517799), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Dereniówka (Polish Dogwood Liqueur)](https://en.wikibooks.org/w/index.php?title=Cookbook:Dereni%C3%B3wka_(Polish_Dogwood_Liqueur)&oldid=4620508), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Desert Rubbed Strip Steaks](https://en.wikibooks.org/w/index.php?title=Cookbook:Desert_Rubbed_Strip_Steaks&oldid=4507491), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Deviled Eggs](https://en.wikibooks.org/w/index.php?title=Cookbook:Deviled_Eggs&oldid=4613698), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Dharwad Pedha (Sweetened Paneer Cheese)](https://en.wikibooks.org/w/index.php?title=Cookbook:Dharwad_Pedha_(Sweetened_Paneer_Cheese)&oldid=4523265), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Dhokla (Steamed Black Gram Bread)](https://en.wikibooks.org/w/index.php?title=Cookbook:Dhokla_(Steamed_Black_Gram_Bread)&oldid=4515100), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Dibi (Senegalese Grilled Meat)](https://en.wikibooks.org/w/index.php?title=Cookbook:Dibi_(Senegalese_Grilled_Meat)&oldid=4637535), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Dill Cucumber Salad](https://en.wikibooks.org/w/index.php?title=Cookbook:Dill_Cucumber_Salad&oldid=4518127), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Diri Na Njar (Chadian Spiced Rice with Vegetables)](https://en.wikibooks.org/w/index.php?title=Cookbook:Diri_Na_Njar_(Chadian_Spiced_Rice_with_Vegetables)&oldid=4511936), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Dirt Pudding](https://en.wikibooks.org/w/index.php?title=Cookbook:Dirt_Pudding&oldid=4530171), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Dirty Desert Fried Eggs](https://en.wikibooks.org/w/index.php?title=Cookbook:Dirty_Desert_Fried_Eggs&oldid=4502574), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Dirty Rice](https://en.wikibooks.org/w/index.php?title=Cookbook:Dirty_Rice&oldid=4615163), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Dodo Ikire (Fried Leftover Plantain)](https://en.wikibooks.org/w/index.php?title=Cookbook:Dodo_Ikire_(Fried_Leftover_Plantain)&oldid=4638632), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Dog Biscuits](https://en.wikibooks.org/w/index.php?title=Cookbook:Dog_Biscuits&oldid=4513185), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Dokunu (Fermented Corn Dumplings)](https://en.wikibooks.org/w/index.php?title=Cookbook:Dokunu_(Fermented_Corn_Dumplings)&oldid=4513116), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Dole Pineapple Upside-Down Cake](https://en.wikibooks.org/w/index.php?title=Cookbook:Dole_Pineapple_Upside-Down_Cake&oldid=4523349), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Dolma (Stuffed Grape Leaves)](https://en.wikibooks.org/w/index.php?title=Cookbook:Dolma_(Stuffed_Grape_Leaves)&oldid=4524727), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Dominican Flan](https://en.wikibooks.org/w/index.php?title=Cookbook:Dominican_Flan&oldid=4587449), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Domoda (Gambian Peanut Stew)](https://en.wikibooks.org/w/index.php?title=Cookbook:Domoda_(Gambian_Peanut_Stew)&oldid=4525131), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Doro Dabo (Ethiopian Chicken with Spiced Bread)](https://en.wikibooks.org/w/index.php?title=Cookbook:Doro_Dabo_(Ethiopian_Chicken_with_Spiced_Bread)&oldid=4507754), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Doro Fitfit (Ethiopian Chicken Salad)](https://en.wikibooks.org/w/index.php?title=Cookbook:Doro_Fitfit_(Ethiopian_Chicken_Salad)&oldid=4518130), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Doro Tibs (Ethiopian Sauteed Chicken)](https://en.wikibooks.org/w/index.php?title=Cookbook:Doro_Tibs_(Ethiopian_Sauteed_Chicken)&oldid=4510082), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Dorowot Fitfit (Ethiopian Chicken Stew Salad)](https://en.wikibooks.org/w/index.php?title=Cookbook:Dorowot_Fitfit_(Ethiopian_Chicken_Stew_Salad)&oldid=4518603), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Dosa I](https://en.wikibooks.org/w/index.php?title=Cookbook:Dosa_I&oldid=4519139), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Dosa II](https://en.wikibooks.org/w/index.php?title=Cookbook:Dosa_II&oldid=4519140), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Double Chocolate Brownies](https://en.wikibooks.org/w/index.php?title=Cookbook:Double_Chocolate_Brownies&oldid=4587112), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Double Chocolate Cheesecake](https://en.wikibooks.org/w/index.php?title=Cookbook:Double_Chocolate_Cheesecake&oldid=4523398), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Double Hamburgers](https://en.wikibooks.org/w/index.php?title=Cookbook:Double_Hamburgers&oldid=4519266), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Dovga (Azerbaijani Yogurt Soup)](https://en.wikibooks.org/w/index.php?title=Cookbook:Dovga_(Azerbaijani_Yogurt_Soup)&oldid=4531804), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Dr. Kitchener's Pudding](https://en.wikibooks.org/w/index.php?title=Cookbook:Dr._Kitchener's_Pudding&oldid=4587282), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Drawn Butter](https://en.wikibooks.org/w/index.php?title=Cookbook:Drawn_Butter&oldid=4518900), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Drover's Damper](https://en.wikibooks.org/w/index.php?title=Cookbook:Drover's_Damper&oldid=4522392), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Drunken Shrimp](https://en.wikibooks.org/w/index.php?title=Cookbook:Drunken_Shrimp&oldid=4508326), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Dry-Aged Prime Rib](https://en.wikibooks.org/w/index.php?title=Cookbook:Dry-Aged_Prime_Rib&oldid=4498150), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Dry Rub](https://en.wikibooks.org/w/index.php?title=Cookbook:Dry_Rub&oldid=4615144), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Dry Rub Barbecue Ribs](https://en.wikibooks.org/w/index.php?title=Cookbook:Dry_Rub_Barbecue_Ribs&oldid=4505188), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Dry Rub Grilled Ribeye](https://en.wikibooks.org/w/index.php?title=Cookbook:Dry_Rub_Grilled_Ribeye&oldid=4498151), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Dublin Lamb Stew](https://en.wikibooks.org/w/index.php?title=Cookbook:Dublin_Lamb_Stew&oldid=4610537), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Duck à l'Orange](https://en.wikibooks.org/w/index.php?title=Cookbook:Duck_%C3%A0_l'Orange&oldid=4509738), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Duck Confit](https://en.wikibooks.org/w/index.php?title=Cookbook:Duck_Confit&oldid=4505986), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Duck Fried Rice](https://en.wikibooks.org/w/index.php?title=Cookbook:Duck_Fried_Rice&oldid=4517685), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Duck Stock](https://en.wikibooks.org/w/index.php?title=Cookbook:Duck_Stock&oldid=4496957), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Dud Patti (Milk Tea)](https://en.wikibooks.org/w/index.php?title=Cookbook:Dud_Patti_(Milk_Tea)&oldid=4522350), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Dumboy and Pepper Soup](https://en.wikibooks.org/w/index.php?title=Cookbook:Dumboy_and_Pepper_Soup&oldid=4518752), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Dump Cake](https://en.wikibooks.org/w/index.php?title=Cookbook:Dump_Cake&oldid=4524728), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Duonos Gira (Lithuanian Rye Drink)](https://en.wikibooks.org/w/index.php?title=Cookbook:Duonos_Gira_(Lithuanian_Rye_Drink)&oldid=4509418), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Durian Pancake](https://en.wikibooks.org/w/index.php?title=Cookbook:Durian_Pancake&oldid=4541106), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Dutch Apple Fritters (Oliebollen)](https://en.wikibooks.org/w/index.php?title=Cookbook:Dutch_Apple_Fritters_(Oliebollen)&oldid=4587190), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Dutch Oven Beans](https://en.wikibooks.org/w/index.php?title=Cookbook:Dutch_Oven_Beans&oldid=4613357), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Duxelles (Minced Mushrooms with Herbs)](https://en.wikibooks.org/w/index.php?title=Cookbook:Duxelles_(Minced_Mushrooms_with_Herbs)&oldid=4502584), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Dynamite Shrimp](https://en.wikibooks.org/w/index.php?title=Cookbook:Dynamite_Shrimp&oldid=4513121), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Eärgon Salsa](https://en.wikibooks.org/w/index.php?title=Cookbook:E%C3%A4rgon_Salsa&oldid=4518824), CC-BY-SA-4.0
+- [Wikibooks Cookbook: East African Beef Pilaf](https://en.wikibooks.org/w/index.php?title=Cookbook:East_African_Beef_Pilaf&oldid=4518798), CC-BY-SA-4.0
+- [Wikibooks Cookbook: East Frisian Tea](https://en.wikibooks.org/w/index.php?title=Cookbook:East_Frisian_Tea&oldid=4511222), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Eastern North Carolina Barbecue Sauce](https://en.wikibooks.org/w/index.php?title=Cookbook:Eastern_North_Carolina_Barbecue_Sauce&oldid=4505189), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Easy Chili](https://en.wikibooks.org/w/index.php?title=Cookbook:Easy_Chili&oldid=4518550), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Easy Christmas Fruit Cake](https://en.wikibooks.org/w/index.php?title=Cookbook:Easy_Christmas_Fruit_Cake&oldid=4516907), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Easy Nachos](https://en.wikibooks.org/w/index.php?title=Cookbook:Easy_Nachos&oldid=4515162), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Easy Onion Chicken](https://en.wikibooks.org/w/index.php?title=Cookbook:Easy_Onion_Chicken&oldid=4524729), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Easy Orange Smoothie](https://en.wikibooks.org/w/index.php?title=Cookbook:Easy_Orange_Smoothie&oldid=4522205), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Easy Pasta Sauce](https://en.wikibooks.org/w/index.php?title=Cookbook:Easy_Pasta_Sauce&oldid=4516476), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Easy Peach Cobbler](https://en.wikibooks.org/w/index.php?title=Cookbook:Easy_Peach_Cobbler&oldid=4587371), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Easy Wedding Soup](https://en.wikibooks.org/w/index.php?title=Cookbook:Easy_Wedding_Soup&oldid=4518395), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Eba (Cassava Flake Swallow)](https://en.wikibooks.org/w/index.php?title=Cookbook:Eba_(Cassava_Flake_Swallow)&oldid=4518754), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Eba with Efo Gbure (Cassava Flake Swallow with Waterleaf Soup)](https://en.wikibooks.org/w/index.php?title=Cookbook:Eba_with_Efo_Gbure_(Cassava_Flake_Swallow_with_Waterleaf_Soup)&oldid=4518753), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Ebiripo (Nigerian Mashed Taro)](https://en.wikibooks.org/w/index.php?title=Cookbook:Ebiripo_(Nigerian_Mashed_Taro)&oldid=4638634), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Eclairs](https://en.wikibooks.org/w/index.php?title=Cookbook:Eclairs&oldid=4587191), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Edible Cookie Dough](https://en.wikibooks.org/w/index.php?title=Cookbook:Edible_Cookie_Dough&oldid=4523351), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Eel alla Milanese](https://en.wikibooks.org/w/index.php?title=Cookbook:Eel_alla_Milanese&oldid=4518608), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Eel Chowder](https://en.wikibooks.org/w/index.php?title=Cookbook:Eel_Chowder&oldid=4531784), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Efo Riro](https://en.wikibooks.org/w/index.php?title=Cookbook:Efo_Riro&oldid=4638519), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Egbo (Nigerian Cornmeal Porridge)](https://en.wikibooks.org/w/index.php?title=Cookbook:Egbo_(Nigerian_Cornmeal_Porridge)&oldid=4495026), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Egg Butter](https://en.wikibooks.org/w/index.php?title=Cookbook:Egg_Butter&oldid=4523485), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Egg Casserole](https://en.wikibooks.org/w/index.php?title=Cookbook:Egg_Casserole&oldid=4613425), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Egg, Cheese and Phyllo Casserole (Banitsa)](https://en.wikibooks.org/w/index.php?title=Cookbook:Egg,_Cheese_and_Phyllo_Casserole_(Banitsa)&oldid=4605238), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Egg in a Mist](https://en.wikibooks.org/w/index.php?title=Cookbook:Egg_in_a_Mist&oldid=4522789), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Egg Noodles I](https://en.wikibooks.org/w/index.php?title=Cookbook:Egg_Noodles_I&oldid=4501491), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Egg Noodles II](https://en.wikibooks.org/w/index.php?title=Cookbook:Egg_Noodles_II&oldid=4501492), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Egg Noodles III](https://en.wikibooks.org/w/index.php?title=Cookbook:Egg_Noodles_III&oldid=4501493), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Egg Noodles IV](https://en.wikibooks.org/w/index.php?title=Cookbook:Egg_Noodles_IV&oldid=4501860), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Egg Pie](https://en.wikibooks.org/w/index.php?title=Cookbook:Egg_Pie&oldid=4524731), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Egg Rice](https://en.wikibooks.org/w/index.php?title=Cookbook:Egg_Rice&oldid=4513017), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Egg Roast](https://en.wikibooks.org/w/index.php?title=Cookbook:Egg_Roast&oldid=4507758), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Egg Roll](https://en.wikibooks.org/w/index.php?title=Cookbook:Egg_Roll&oldid=4499783), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Egg Soda](https://en.wikibooks.org/w/index.php?title=Cookbook:Egg_Soda&oldid=4516705), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Egg Wash](https://en.wikibooks.org/w/index.php?title=Cookbook:Egg_Wash&oldid=4500704), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Egg White Carrot Brownies](https://en.wikibooks.org/w/index.php?title=Cookbook:Egg_White_Carrot_Brownies&oldid=4587426), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Egg with Cabbage and Turkish Sausage](https://en.wikibooks.org/w/index.php?title=Cookbook:Egg_with_Cabbage_and_Turkish_Sausage&oldid=4506363), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Eggnog](https://en.wikibooks.org/w/index.php?title=Cookbook:Eggnog&oldid=4541026), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Eggplant and Chickpea Skillet](https://en.wikibooks.org/w/index.php?title=Cookbook:Eggplant_and_Chickpea_Skillet&oldid=4610541), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Eggplant and Tahini (Moutabbal)](https://en.wikibooks.org/w/index.php?title=Cookbook:Eggplant_and_Tahini_(Moutabbal)&oldid=4629612), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Eggplant Parmesan (Melanzane alla Parmigiana) I](https://en.wikibooks.org/w/index.php?title=Cookbook:Eggplant_Parmesan_(Melanzane_alla_Parmigiana)_I&oldid=4663115), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Eggplant Parmesan (Melanzane alla Parmigiana) II](https://en.wikibooks.org/w/index.php?title=Cookbook:Eggplant_Parmesan_(Melanzane_alla_Parmigiana)_II&oldid=4640459), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Eggplant Pasta](https://en.wikibooks.org/w/index.php?title=Cookbook:Eggplant_Pasta&oldid=4523455), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Eggs Connaught](https://en.wikibooks.org/w/index.php?title=Cookbook:Eggs_Connaught&oldid=4522421), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Egidi (Pounded Corn)](https://en.wikibooks.org/w/index.php?title=Cookbook:Egidi_(Pounded_Corn)&oldid=4524734), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Egyptian Cabbage Rolls (Mahshi Malfoof)](https://en.wikibooks.org/w/index.php?title=Cookbook:Egyptian_Cabbage_Rolls_(Mahshi_Malfoof)&oldid=4587495), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Egyptian Fish Tagine (Samak Tajine)](https://en.wikibooks.org/w/index.php?title=Cookbook:Egyptian_Fish_Tagine_(Samak_Tajine)&oldid=4511875), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Egyptian Grilled Pigeon (Fattah Meshaltet)](https://en.wikibooks.org/w/index.php?title=Cookbook:Egyptian_Grilled_Pigeon_(Fattah_Meshaltet)&oldid=4510087), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Egyptian Lentil Soup](https://en.wikibooks.org/w/index.php?title=Cookbook:Egyptian_Lentil_Soup&oldid=4518400), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Egyptian Lentil Stew](https://en.wikibooks.org/w/index.php?title=Cookbook:Egyptian_Lentil_Stew&oldid=4518607), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Egyptian Meatballs (Kofta)](https://en.wikibooks.org/w/index.php?title=Cookbook:Egyptian_Meatballs_(Kofta)&oldid=4507315), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Egyptian Milk Pudding (Mahalabiya)](https://en.wikibooks.org/w/index.php?title=Cookbook:Egyptian_Milk_Pudding_(Mahalabiya)&oldid=4517916), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Egyptian Okra](https://en.wikibooks.org/w/index.php?title=Cookbook:Egyptian_Okra&oldid=4514082), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Egyptian Okra Stew](https://en.wikibooks.org/w/index.php?title=Cookbook:Egyptian_Okra_Stew&oldid=4525638), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Egyptian Rice with Vermicelli](https://en.wikibooks.org/w/index.php?title=Cookbook:Egyptian_Rice_with_Vermicelli&oldid=4512921), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Egyptian Roast Lamb (Kharouf Mahshi)](https://en.wikibooks.org/w/index.php?title=Cookbook:Egyptian_Roast_Lamb_(Kharouf_Mahshi)&oldid=4510089), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Egyptian Stuffed Eggplant (Mahshi Betinjan)](https://en.wikibooks.org/w/index.php?title=Cookbook:Egyptian_Stuffed_Eggplant_(Mahshi_Betinjan)&oldid=4531801), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Egyptian Stuffed Grape Leaves (Warak Enab Mahshi)](https://en.wikibooks.org/w/index.php?title=Cookbook:Egyptian_Stuffed_Grape_Leaves_(Warak_Enab_Mahshi)&oldid=4531805), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Egyptian Sweet Rice Pudding (Roz Bil Laban)](https://en.wikibooks.org/w/index.php?title=Cookbook:Egyptian_Sweet_Rice_Pudding_(Roz_Bil_Laban)&oldid=4517884), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Egyptian Tomato Salad](https://en.wikibooks.org/w/index.php?title=Cookbook:Egyptian_Tomato_Salad&oldid=4531796), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Eierpunsch (German Egg Punch)](https://en.wikibooks.org/w/index.php?title=Cookbook:Eierpunsch_(German_Egg_Punch)&oldid=4510092), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Ekpang Nkukwo](https://en.wikibooks.org/w/index.php?title=Cookbook:Ekpang_Nkukwo&oldid=4639155), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Ekuru (White Bean Pudding)](https://en.wikibooks.org/w/index.php?title=Cookbook:Ekuru_(White_Bean_Pudding)&oldid=4518610), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Ekwang (Cameroonian Taro Leaf Stew)](https://en.wikibooks.org/w/index.php?title=Cookbook:Ekwang_(Cameroonian_Taro_Leaf_Stew)&oldid=4508289), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Enchiladas Rojas](https://en.wikibooks.org/w/index.php?title=Cookbook:Enchiladas_Rojas&oldid=4518904), CC-BY-SA-4.0
+- [Wikibooks Cookbook: English Field Bean Pate](https://en.wikibooks.org/w/index.php?title=Cookbook:English_Field_Bean_Pate&oldid=4513300), CC-BY-SA-4.0
+- [Wikibooks Cookbook: English Pea Salad](https://en.wikibooks.org/w/index.php?title=Cookbook:English_Pea_Salad&oldid=4518131), CC-BY-SA-4.0
+- [Wikibooks Cookbook: English Style Aged Cheese](https://en.wikibooks.org/w/index.php?title=Cookbook:English_Style_Aged_Cheese&oldid=4524737), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Ensalada de Pallares (Peruvian Lima Bean Salad)](https://en.wikibooks.org/w/index.php?title=Cookbook:Ensalada_de_Pallares_(Peruvian_Lima_Bean_Salad)&oldid=4613360), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Ensalada Rusa (Uruguayan Potato Salad)](https://en.wikibooks.org/w/index.php?title=Cookbook:Ensalada_Rusa_(Uruguayan_Potato_Salad)&oldid=4524738), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Entula (Ugandan Eggplant Stew)](https://en.wikibooks.org/w/index.php?title=Cookbook:Entula_(Ugandan_Eggplant_Stew)&oldid=4629614), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Ertesuppe (Pea Soup)](https://en.wikibooks.org/w/index.php?title=Cookbook:Ertesuppe_(Pea_Soup)&oldid=4524739), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Erwtensoep (Split Pea Soup)](https://en.wikibooks.org/w/index.php?title=Cookbook:Erwtensoep_(Split_Pea_Soup)&oldid=4518399), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Eshabwe (Ugandan Milk Cream)](https://en.wikibooks.org/w/index.php?title=Cookbook:Eshabwe_(Ugandan_Milk_Cream)&oldid=4522204), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Espagnole Sauce (Escoffier)](https://en.wikibooks.org/w/index.php?title=Cookbook:Espagnole_Sauce_(Escoffier)&oldid=4518909), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Espagnole Sauce (Mrs. W.G. Waters)](https://en.wikibooks.org/w/index.php?title=Cookbook:Espagnole_Sauce_(Mrs._W.G._Waters)&oldid=4610548), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Espresso Brownies](https://en.wikibooks.org/w/index.php?title=Cookbook:Espresso_Brownies&oldid=4587471), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Estofado de Pollo (Chicken Stew)](https://en.wikibooks.org/w/index.php?title=Cookbook:Estofado_de_Pollo_(Chicken_Stew)&oldid=4518611), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Euneo-juk (Korean Sweetfish Porridge)](https://en.wikibooks.org/w/index.php?title=Cookbook:Euneo-juk_(Korean_Sweetfish_Porridge)&oldid=4518397), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Eve's Apple (Cinnamon Raisin-stuffed Apple)](https://en.wikibooks.org/w/index.php?title=Cookbook:Eve's_Apple_(Cinnamon_Raisin-stuffed_Apple)&oldid=4516882), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Eve's Pudding (Hartshorne)](https://en.wikibooks.org/w/index.php?title=Cookbook:Eve's_Pudding_(Hartshorne)&oldid=4587463), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Ewa Aganyin (Togolese Mashed Beans and Special Sauce)](https://en.wikibooks.org/w/index.php?title=Cookbook:Ewa_Aganyin_(Togolese_Mashed_Beans_and_Special_Sauce)&oldid=4513606), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Ewedu Soup (Yoruba Style)](https://en.wikibooks.org/w/index.php?title=Cookbook:Ewedu_Soup_(Yoruba_Style)&oldid=4611996), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Fabes con Almejas (Spanish Beans with Clams)](https://en.wikibooks.org/w/index.php?title=Cookbook:Fabes_con_Almejas_(Spanish_Beans_with_Clams)&oldid=4630305), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Faina (Chickpea Flatbread)](https://en.wikibooks.org/w/index.php?title=Cookbook:Faina_(Chickpea_Flatbread)&oldid=4501202), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Fairy Cakes](https://en.wikibooks.org/w/index.php?title=Cookbook:Fairy_Cakes&oldid=4522393), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Falafel](https://en.wikibooks.org/w/index.php?title=Cookbook:Falafel&oldid=4515539), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Falafel Salad](https://en.wikibooks.org/w/index.php?title=Cookbook:Falafel_Salad&oldid=4518133), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Falafel Seitan Bratwurst](https://en.wikibooks.org/w/index.php?title=Cookbook:Falafel_Seitan_Bratwurst&oldid=4513711), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Fall Chanterelle Mushroom Frittata](https://en.wikibooks.org/w/index.php?title=Cookbook:Fall_Chanterelle_Mushroom_Frittata&oldid=4522463), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Fancy Crêpes](https://en.wikibooks.org/w/index.php?title=Cookbook:Fancy_Cr%C3%AApes&oldid=4540900), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Fankasau (Hausa Wheat Puff Puff)](https://en.wikibooks.org/w/index.php?title=Cookbook:Fankasau_(Hausa_Wheat_Puff_Puff)&oldid=4526321), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Fanke (Hausa Puff Puff)](https://en.wikibooks.org/w/index.php?title=Cookbook:Fanke_(Hausa_Puff_Puff)&oldid=4603834), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Fårikål (Norwegian Lamb and Cabbage Stew)](https://en.wikibooks.org/w/index.php?title=Cookbook:F%C3%A5rik%C3%A5l_(Norwegian_Lamb_and_Cabbage_Stew)&oldid=4630337), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Farofa](https://en.wikibooks.org/w/index.php?title=Cookbook:Farofa&oldid=4494253), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Fasolia (Ethiopian Green Bean Stew)](https://en.wikibooks.org/w/index.php?title=Cookbook:Fasolia_(Ethiopian_Green_Bean_Stew)&oldid=4518614), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Fast Food French Fries](https://en.wikibooks.org/w/index.php?title=Cookbook:Fast_Food_French_Fries&oldid=4535336), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Faten Wake (Hausa Bean Porridge)](https://en.wikibooks.org/w/index.php?title=Cookbook:Faten_Wake_(Hausa_Bean_Porridge)&oldid=4524793), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Fattah (Egyptian Layered Bread Dish)](https://en.wikibooks.org/w/index.php?title=Cookbook:Fattah_(Egyptian_Layered_Bread_Dish)&oldid=4531799), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Fattoush](https://en.wikibooks.org/w/index.php?title=Cookbook:Fattoush&oldid=4531782), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Feijão Tropeiro (Brazilian Beans and Sausage)](https://en.wikibooks.org/w/index.php?title=Cookbook:Feij%C3%A3o_Tropeiro_(Brazilian_Beans_and_Sausage)&oldid=4515432), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Fermented Soda](https://en.wikibooks.org/w/index.php?title=Cookbook:Fermented_Soda&oldid=4601570), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Feuerzangenbowle (German Wine Punch)](https://en.wikibooks.org/w/index.php?title=Cookbook:Feuerzangenbowle_(German_Wine_Punch)&oldid=4541034), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Fiddlehead-Portobello Linguine](https://en.wikibooks.org/w/index.php?title=Cookbook:Fiddlehead-Portobello_Linguine&oldid=4610375), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Figgie 'obbin (Cornish Raisin Pastry)](https://en.wikibooks.org/w/index.php?title=Cookbook:Figgie_'obbin_(Cornish_Raisin_Pastry)&oldid=4516906), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Figgy Pudding](https://en.wikibooks.org/w/index.php?title=Cookbook:Figgy_Pudding&oldid=4614885), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Figolli (Maltese Easter Pastries)](https://en.wikibooks.org/w/index.php?title=Cookbook:Figolli_(Maltese_Easter_Pastries)&oldid=4587193), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Filfel Chuma (Libyan Spicy Tomato Sauce)](https://en.wikibooks.org/w/index.php?title=Cookbook:Filfel_Chuma_(Libyan_Spicy_Tomato_Sauce)&oldid=4518914), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Filipino-style Spaghetti](https://en.wikibooks.org/w/index.php?title=Cookbook:Filipino-style_Spaghetti&oldid=4511941), CC-BY-SA-4.0
 - [Wikibooks Cookbook: Filo Puff Pastry](https://en.wikibooks.org/w/index.php?title=Cookbook:Filo_Puff_Pastry&oldid=4516060), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Firecracker Grilled Shrimp](https://en.wikibooks.org/w/index.php?title=Cookbook:Firecracker_Grilled_Shrimp&oldid=4508328), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Firecracker Marinade](https://en.wikibooks.org/w/index.php?title=Cookbook:Firecracker_Marinade&oldid=4514560), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Firecracker Ribs](https://en.wikibooks.org/w/index.php?title=Cookbook:Firecracker_Ribs&oldid=4514558), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Firecracker Rub](https://en.wikibooks.org/w/index.php?title=Cookbook:Firecracker_Rub&oldid=4516592), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Fireweed Scones](https://en.wikibooks.org/w/index.php?title=Cookbook:Fireweed_Scones&oldid=4518305), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Fireweed Vinegar](https://en.wikibooks.org/w/index.php?title=Cookbook:Fireweed_Vinegar&oldid=4501316), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Firfir (Ethiopian Spicy Scrambled Eggs with Injera)](https://en.wikibooks.org/w/index.php?title=Cookbook:Firfir_(Ethiopian_Spicy_Scrambled_Eggs_with_Injera)&oldid=4506368), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Firire (Senegalese Fried Fish with Sauce)](https://en.wikibooks.org/w/index.php?title=Cookbook:Firire_(Senegalese_Fried_Fish_with_Sauce)&oldid=4613687), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Fish and Chips](https://en.wikibooks.org/w/index.php?title=Cookbook:Fish_and_Chips&oldid=4524751), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Fish Biryani](https://en.wikibooks.org/w/index.php?title=Cookbook:Fish_Biryani&oldid=4612001), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Fish Pie](https://en.wikibooks.org/w/index.php?title=Cookbook:Fish_Pie&oldid=4630363), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Fish Sauce (Vegan)](https://en.wikibooks.org/w/index.php?title=Cookbook:Fish_Sauce_(Vegan)&oldid=4518912), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Fish Sticks](https://en.wikibooks.org/w/index.php?title=Cookbook:Fish_Sticks&oldid=4533588), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Fish Stock (Fumet de poisson)](https://en.wikibooks.org/w/index.php?title=Cookbook:Fish_Stock_(Fumet_de_poisson)&oldid=4509026), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Fisherman's Casserole](https://en.wikibooks.org/w/index.php?title=Cookbook:Fisherman's_Casserole&oldid=4615179), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Fit-fit (Ethiopian Bread Salad)](https://en.wikibooks.org/w/index.php?title=Cookbook:Fit-fit_(Ethiopian_Bread_Salad)&oldid=4518136), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Flaky Pastry Dough](https://en.wikibooks.org/w/index.php?title=Cookbook:Flaky_Pastry_Dough&oldid=4516059), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Flaky Pie Crust](https://en.wikibooks.org/w/index.php?title=Cookbook:Flaky_Pie_Crust&oldid=4523496), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Flammekueche (Bacon and Onion Flatbread)](https://en.wikibooks.org/w/index.php?title=Cookbook:Flammekueche_(Bacon_and_Onion_Flatbread)&oldid=4511053), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Flan de Queso (Cream Cheese Flan)](https://en.wikibooks.org/w/index.php?title=Cookbook:Flan_de_Queso_(Cream_Cheese_Flan)&oldid=4522208), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Flan Patissier](https://en.wikibooks.org/w/index.php?title=Cookbook:Flan_Patissier&oldid=4587414), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Flapjacks](https://en.wikibooks.org/w/index.php?title=Cookbook:Flapjacks&oldid=4530174), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Flapjacks (Lower-sugar)](https://en.wikibooks.org/w/index.php?title=Cookbook:Flapjacks_(Lower-sugar)&oldid=4587489), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Flapjacks (Traditional Scottish Recipe)](https://en.wikibooks.org/w/index.php?title=Cookbook:Flapjacks_(Traditional_Scottish_Recipe)&oldid=4516980), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Fleischkrapfen (Austrian Meat Pasties)](https://en.wikibooks.org/w/index.php?title=Cookbook:Fleischkrapfen_(Austrian_Meat_Pasties)&oldid=4587194), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Fleischnacka (Alsatian Meat and Pasta Roll)](https://en.wikibooks.org/w/index.php?title=Cookbook:Fleischnacka_(Alsatian_Meat_and_Pasta_Roll)&oldid=4587195), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Florida Style Crab Cakes](https://en.wikibooks.org/w/index.php?title=Cookbook:Florida_Style_Crab_Cakes&oldid=4630318), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Flourless Chocolate Cake](https://en.wikibooks.org/w/index.php?title=Cookbook:Flourless_Chocolate_Cake&oldid=4610154), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Focaccia with Onion Marmalade, Blue Cheese, and Walnuts](https://en.wikibooks.org/w/index.php?title=Cookbook:Focaccia_with_Onion_Marmalade,_Blue_Cheese,_and_Walnuts&oldid=4524756), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Food Coloring from Cabbage](https://en.wikibooks.org/w/index.php?title=Cookbook:Food_Coloring_from_Cabbage&oldid=4630336), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Fool's Gold Loaf](https://en.wikibooks.org/w/index.php?title=Cookbook:Fool's_Gold_Loaf&oldid=4518249), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Four in One Pizza](https://en.wikibooks.org/w/index.php?title=Cookbook:Four_in_One_Pizza&oldid=4605271), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Fred Steak Marinade](https://en.wikibooks.org/w/index.php?title=Cookbook:Fred_Steak_Marinade&oldid=4599161), CC-BY-SA-4.0
+- [Wikibooks Cookbook: French Canadian Shepherd's Pie (Pâté Chinois)](https://en.wikibooks.org/w/index.php?title=Cookbook:French_Canadian_Shepherd's_Pie_(P%C3%A2t%C3%A9_Chinois)&oldid=4522381), CC-BY-SA-4.0
+- [Wikibooks Cookbook: French Dressing](https://en.wikibooks.org/w/index.php?title=Cookbook:French_Dressing&oldid=4516382), CC-BY-SA-4.0
+- [Wikibooks Cookbook: French Fries](https://en.wikibooks.org/w/index.php?title=Cookbook:French_Fries&oldid=4523449), CC-BY-SA-4.0
+- [Wikibooks Cookbook: French Fries (Belgian)](https://en.wikibooks.org/w/index.php?title=Cookbook:French_Fries_(Belgian)&oldid=4494798), CC-BY-SA-4.0
+- [Wikibooks Cookbook: French Martini](https://en.wikibooks.org/w/index.php?title=Cookbook:French_Martini&oldid=4480562), CC-BY-SA-4.0
+- [Wikibooks Cookbook: French Omelette](https://en.wikibooks.org/w/index.php?title=Cookbook:French_Omelette&oldid=4517800), CC-BY-SA-4.0
+- [Wikibooks Cookbook: French Onion Soup](https://en.wikibooks.org/w/index.php?title=Cookbook:French_Onion_Soup&oldid=4518404), CC-BY-SA-4.0
+- [Wikibooks Cookbook: French Onioned Chicken](https://en.wikibooks.org/w/index.php?title=Cookbook:French_Onioned_Chicken&oldid=4500291), CC-BY-SA-4.0
+- [Wikibooks Cookbook: French Toast](https://en.wikibooks.org/w/index.php?title=Cookbook:French_Toast&oldid=4655023), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Fresh Broadbeans Salad](https://en.wikibooks.org/w/index.php?title=Cookbook:Fresh_Broadbeans_Salad&oldid=4518137), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Fresh Egg Pasta (Pasta Fresca All'uovo)](https://en.wikibooks.org/w/index.php?title=Cookbook:Fresh_Egg_Pasta_(Pasta_Fresca_All'uovo)&oldid=4501508), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Fresh Herb and Cheese Ravioli Filling](https://en.wikibooks.org/w/index.php?title=Cookbook:Fresh_Herb_and_Cheese_Ravioli_Filling&oldid=4516646), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Fresh Mozzarella Bruschetta](https://en.wikibooks.org/w/index.php?title=Cookbook:Fresh_Mozzarella_Bruschetta&oldid=4605220), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Fresh Pasta with Mozzarella, Tomato and Basil](https://en.wikibooks.org/w/index.php?title=Cookbook:Fresh_Pasta_with_Mozzarella,_Tomato_and_Basil&oldid=4605223), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Fresh Tomato Galette](https://en.wikibooks.org/w/index.php?title=Cookbook:Fresh_Tomato_Galette&oldid=4613361), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Friar's Omelette](https://en.wikibooks.org/w/index.php?title=Cookbook:Friar's_Omelette&oldid=4524758), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Fribourg Omelet](https://en.wikibooks.org/w/index.php?title=Cookbook:Fribourg_Omelet&oldid=4608896), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Fried Apple Pies](https://en.wikibooks.org/w/index.php?title=Cookbook:Fried_Apple_Pies&oldid=4587196), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Fried Bacon and Egg Sandwich (Homemade Egg McMuffin)](https://en.wikibooks.org/w/index.php?title=Cookbook:Fried_Bacon_and_Egg_Sandwich_(Homemade_Egg_McMuffin)&oldid=4518245), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Fried Bananas](https://en.wikibooks.org/w/index.php?title=Cookbook:Fried_Bananas&oldid=4587508), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Fried Bread](https://en.wikibooks.org/w/index.php?title=Cookbook:Fried_Bread&oldid=4512521), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Fried Chicken and Fried Potatoes](https://en.wikibooks.org/w/index.php?title=Cookbook:Fried_Chicken_and_Fried_Potatoes&oldid=4507415), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Fried Corn](https://en.wikibooks.org/w/index.php?title=Cookbook:Fried_Corn&oldid=4605285), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Fried Eggs](https://en.wikibooks.org/w/index.php?title=Cookbook:Fried_Eggs&oldid=4629097), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Fried Eggs (Olive Oil-basted)](https://en.wikibooks.org/w/index.php?title=Cookbook:Fried_Eggs_(Olive_Oil-basted)&oldid=4500299), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Fried Fish](https://en.wikibooks.org/w/index.php?title=Cookbook:Fried_Fish&oldid=4512679), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Fried Green Tomatoes](https://en.wikibooks.org/w/index.php?title=Cookbook:Fried_Green_Tomatoes&oldid=4493816), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Fried Green Tomatoes with Tomato and Cheese](https://en.wikibooks.org/w/index.php?title=Cookbook:Fried_Green_Tomatoes_with_Tomato_and_Cheese&oldid=4522825), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Fried Okra](https://en.wikibooks.org/w/index.php?title=Cookbook:Fried_Okra&oldid=4513120), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Fried Onion Blooms](https://en.wikibooks.org/w/index.php?title=Cookbook:Fried_Onion_Blooms&oldid=4524759), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Fried Pasta](https://en.wikibooks.org/w/index.php?title=Cookbook:Fried_Pasta&oldid=4502622), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Fried Pickle](https://en.wikibooks.org/w/index.php?title=Cookbook:Fried_Pickle&oldid=4515719), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Fried Pita Bread with Eggs](https://en.wikibooks.org/w/index.php?title=Cookbook:Fried_Pita_Bread_with_Eggs&oldid=4505735), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Fried Plantain and Egg](https://en.wikibooks.org/w/index.php?title=Cookbook:Fried_Plantain_and_Egg&oldid=4512197), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Fried Potato Slices](https://en.wikibooks.org/w/index.php?title=Cookbook:Fried_Potato_Slices&oldid=4503144), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Fried Potato Wedges](https://en.wikibooks.org/w/index.php?title=Cookbook:Fried_Potato_Wedges&oldid=4494796), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Fried Potatoes](https://en.wikibooks.org/w/index.php?title=Cookbook:Fried_Potatoes&oldid=4494795), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Fried Rice (Vegetarian)](https://en.wikibooks.org/w/index.php?title=Cookbook:Fried_Rice_(Vegetarian)&oldid=4610538), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Fried Tiger Lily Pastries](https://en.wikibooks.org/w/index.php?title=Cookbook:Fried_Tiger_Lily_Pastries&oldid=4587197), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Fried Unripe Plantain (Nigerian Green Plantain)](https://en.wikibooks.org/w/index.php?title=Cookbook:Fried_Unripe_Plantain_(Nigerian_Green_Plantain)&oldid=4503406), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Fried Wheat Bread Balls (Bhatoora)](https://en.wikibooks.org/w/index.php?title=Cookbook:Fried_Wheat_Bread_Balls_(Bhatoora)&oldid=4517734), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Friggione (Onion and Tomato Relish)](https://en.wikibooks.org/w/index.php?title=Cookbook:Friggione_(Onion_and_Tomato_Relish)&oldid=4493814), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Frijoles Antioqueños (Colombian Bean Stew)](https://en.wikibooks.org/w/index.php?title=Cookbook:Frijoles_Antioque%C3%B1os_(Colombian_Bean_Stew)&oldid=4518615), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Frikadeller (Danish Meatballs)](https://en.wikibooks.org/w/index.php?title=Cookbook:Frikadeller_(Danish_Meatballs)&oldid=4513507), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Frito Pie (Baked)](https://en.wikibooks.org/w/index.php?title=Cookbook:Frito_Pie_(Baked)&oldid=4518551), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Frito Pie Chili](https://en.wikibooks.org/w/index.php?title=Cookbook:Frito_Pie_Chili&oldid=4518788), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Frito Pie (No-bake)](https://en.wikibooks.org/w/index.php?title=Cookbook:Frito_Pie_(No-bake)&oldid=4518552), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Frittaten Soup](https://en.wikibooks.org/w/index.php?title=Cookbook:Frittaten_Soup&oldid=4524760), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Frog's Eye Salad](https://en.wikibooks.org/w/index.php?title=Cookbook:Frog's_Eye_Salad&oldid=4518138), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Frog's Legs à la Parisienne](https://en.wikibooks.org/w/index.php?title=Cookbook:Frog's_Legs_%C3%A0_la_Parisienne&oldid=4513509), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Froga (Maltese Omelet)](https://en.wikibooks.org/w/index.php?title=Cookbook:Froga_(Maltese_Omelet)&oldid=4517803), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Fruit Cake](https://en.wikibooks.org/w/index.php?title=Cookbook:Fruit_Cake&oldid=4516910), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Fruit Crumble](https://en.wikibooks.org/w/index.php?title=Cookbook:Fruit_Crumble&oldid=4516986), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Fruit for the Day Smoothie](https://en.wikibooks.org/w/index.php?title=Cookbook:Fruit_for_the_Day_Smoothie&oldid=4510985), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Fruit Ice Pops](https://en.wikibooks.org/w/index.php?title=Cookbook:Fruit_Ice_Pops&oldid=4480763), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Fruit Salad with Orange Juice](https://en.wikibooks.org/w/index.php?title=Cookbook:Fruit_Salad_with_Orange_Juice&oldid=4518139), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Fruit Salad with Orange Soda (Ensalada de Fruta)](https://en.wikibooks.org/w/index.php?title=Cookbook:Fruit_Salad_with_Orange_Soda_(Ensalada_de_Fruta)&oldid=4663031), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Fruit Whip](https://en.wikibooks.org/w/index.php?title=Cookbook:Fruit_Whip&oldid=4587253), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Fruity Cheese Dogs](https://en.wikibooks.org/w/index.php?title=Cookbook:Fruity_Cheese_Dogs&oldid=4524761), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Fruity White Sangria](https://en.wikibooks.org/w/index.php?title=Cookbook:Fruity_White_Sangria&oldid=4524762), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Fry Bread I](https://en.wikibooks.org/w/index.php?title=Cookbook:Fry_Bread_I&oldid=4512680), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Fry Sauce](https://en.wikibooks.org/w/index.php?title=Cookbook:Fry_Sauce&oldid=4518910), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Fry Seasoning for Chicken](https://en.wikibooks.org/w/index.php?title=Cookbook:Fry_Seasoning_for_Chicken&oldid=4516594), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Fudge Brownies](https://en.wikibooks.org/w/index.php?title=Cookbook:Fudge_Brownies&oldid=4630848), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Fudge Frosting](https://en.wikibooks.org/w/index.php?title=Cookbook:Fudge_Frosting&oldid=4517717), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Fuk-Thong Pad Khai (Thai Stir-Fried Pumpkin)](https://en.wikibooks.org/w/index.php?title=Cookbook:Fuk-Thong_Pad_Khai_(Thai_Stir-Fried_Pumpkin)&oldid=4511512), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Ful Medames (Egyptian Fava Beans)](https://en.wikibooks.org/w/index.php?title=Cookbook:Ful_Medames_(Egyptian_Fava_Beans)&oldid=4618776), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Funkaso (Hausa Fritters)](https://en.wikibooks.org/w/index.php?title=Cookbook:Funkaso_(Hausa_Fritters)&oldid=4517737), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Gado-gado (Indonesian Salad with Peanut Sauce)](https://en.wikibooks.org/w/index.php?title=Cookbook:Gado-gado_(Indonesian_Salad_with_Peanut_Sauce)&oldid=4582316), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Gajjar Halwa (Carrot Pudding)](https://en.wikibooks.org/w/index.php?title=Cookbook:Gajjar_Halwa_(Carrot_Pudding)&oldid=4656176), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Galaktoboureko (Greek Semolina Custard Pastry)](https://en.wikibooks.org/w/index.php?title=Cookbook:Galaktoboureko_(Greek_Semolina_Custard_Pastry)&oldid=4587377), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Galician Garbanzo Soup](https://en.wikibooks.org/w/index.php?title=Cookbook:Galician_Garbanzo_Soup&oldid=4615180), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Gallo Pinto (Costa Rican Rice and Beans)](https://en.wikibooks.org/w/index.php?title=Cookbook:Gallo_Pinto_(Costa_Rican_Rice_and_Beans)&oldid=4534239), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Gambas al Ajillo (Garlic Shrimp)](https://en.wikibooks.org/w/index.php?title=Cookbook:Gambas_al_Ajillo_(Garlic_Shrimp)&oldid=4533840), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Gambian Baobab Juice (Bouye)](https://en.wikibooks.org/w/index.php?title=Cookbook:Gambian_Baobab_Juice_(Bouye)&oldid=4541056), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Gambian Caldo (Seafood soup)](https://en.wikibooks.org/w/index.php?title=Cookbook:Gambian_Caldo_(Seafood_soup)&oldid=4518407), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Gambian Chicken with Lemon and Mustard (Yassa)](https://en.wikibooks.org/w/index.php?title=Cookbook:Gambian_Chicken_with_Lemon_and_Mustard_(Yassa)&oldid=4613362), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Gambian Mbamba Soup](https://en.wikibooks.org/w/index.php?title=Cookbook:Gambian_Mbamba_Soup&oldid=4629619), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Gambian Superkanja Soup](https://en.wikibooks.org/w/index.php?title=Cookbook:Gambian_Superkanja_Soup&oldid=4629621), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Gambian Yassa Poulet](https://en.wikibooks.org/w/index.php?title=Cookbook:Gambian_Yassa_Poulet&oldid=4613423), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Garbanzo Bean Stew](https://en.wikibooks.org/w/index.php?title=Cookbook:Garbanzo_Bean_Stew&oldid=4518619), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Garden Bulgur](https://en.wikibooks.org/w/index.php?title=Cookbook:Garden_Bulgur&oldid=4610535), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Garden Egg Stew](https://en.wikibooks.org/w/index.php?title=Cookbook:Garden_Egg_Stew&oldid=4513949), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Garlic and Lemon Dressing](https://en.wikibooks.org/w/index.php?title=Cookbook:Garlic_and_Lemon_Dressing&oldid=4516383), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Garlic and Mustard Vinaigrette](https://en.wikibooks.org/w/index.php?title=Cookbook:Garlic_and_Mustard_Vinaigrette&oldid=4613379), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Garlic and Tarragon Dressing](https://en.wikibooks.org/w/index.php?title=Cookbook:Garlic_and_Tarragon_Dressing&oldid=4516384), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Garlic Asparagus](https://en.wikibooks.org/w/index.php?title=Cookbook:Garlic_Asparagus&oldid=4502628), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Garlic Bread](https://en.wikibooks.org/w/index.php?title=Cookbook:Garlic_Bread&oldid=4502629), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Garlic Butter Sauce](https://en.wikibooks.org/w/index.php?title=Cookbook:Garlic_Butter_Sauce&oldid=4518922), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Garlic Croutons I](https://en.wikibooks.org/w/index.php?title=Cookbook:Garlic_Croutons_I&oldid=4656175), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Garlic Croutons II](https://en.wikibooks.org/w/index.php?title=Cookbook:Garlic_Croutons_II&oldid=4505423), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Garlic Croutons III](https://en.wikibooks.org/w/index.php?title=Cookbook:Garlic_Croutons_III&oldid=4505738), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Garlic Lemon Chicken](https://en.wikibooks.org/w/index.php?title=Cookbook:Garlic_Lemon_Chicken&oldid=4510299), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Garlic Lemon Dressing](https://en.wikibooks.org/w/index.php?title=Cookbook:Garlic_Lemon_Dressing&oldid=4640371), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Garlic Lemon Marinade](https://en.wikibooks.org/w/index.php?title=Cookbook:Garlic_Lemon_Marinade&oldid=4510110), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Garlic Mayonnaise made with Bread and Fish Stock (Rouille)](https://en.wikibooks.org/w/index.php?title=Cookbook:Garlic_Mayonnaise_made_with_Bread_and_Fish_Stock_(Rouille)&oldid=4519064), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Garlic Parmesan Pasta](https://en.wikibooks.org/w/index.php?title=Cookbook:Garlic_Parmesan_Pasta&oldid=4523458), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Garlic Parsley Dressing](https://en.wikibooks.org/w/index.php?title=Cookbook:Garlic_Parsley_Dressing&oldid=4506052), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Garlic Pork Chops with Black Mushrooms](https://en.wikibooks.org/w/index.php?title=Cookbook:Garlic_Pork_Chops_with_Black_Mushrooms&oldid=4524743), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Garlic Salt](https://en.wikibooks.org/w/index.php?title=Cookbook:Garlic_Salt&oldid=4516600), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Garlic Seared Halibut](https://en.wikibooks.org/w/index.php?title=Cookbook:Garlic_Seared_Halibut&oldid=4514562), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Garlic Shrimp Scampi Pasta](https://en.wikibooks.org/w/index.php?title=Cookbook:Garlic_Shrimp_Scampi_Pasta&oldid=4510113), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Garlic Shrimp with Lemon Butter Sauce](https://en.wikibooks.org/w/index.php?title=Cookbook:Garlic_Shrimp_with_Lemon_Butter_Sauce&oldid=4518918), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Garlic, Tomato and Cheddar Sandwich](https://en.wikibooks.org/w/index.php?title=Cookbook:Garlic,_Tomato_and_Cheddar_Sandwich&oldid=4534272), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Garum (Boiled)](https://en.wikibooks.org/w/index.php?title=Cookbook:Garum_(Boiled)&oldid=4518920), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Garum (Fermented)](https://en.wikibooks.org/w/index.php?title=Cookbook:Garum_(Fermented)&oldid=4519043), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Gâteau Nantais (Nantes Cake)](https://en.wikibooks.org/w/index.php?title=Cookbook:G%C3%A2teau_Nantais_(Nantes_Cake)&oldid=4517001), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Gazpacho](https://en.wikibooks.org/w/index.php?title=Cookbook:Gazpacho&oldid=4518408), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Gbegiri Soup](https://en.wikibooks.org/w/index.php?title=Cookbook:Gbegiri_Soup&oldid=4638516), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Gboma Dessi and Akoume (Togolese Spinach Stew with Corn Swallow)](https://en.wikibooks.org/w/index.php?title=Cookbook:Gboma_Dessi_and_Akoume_(Togolese_Spinach_Stew_with_Corn_Swallow)&oldid=4513609), CC-BY-SA-4.0
+- [Wikibooks Cookbook: General Tso's Chicken](https://en.wikibooks.org/w/index.php?title=Cookbook:General_Tso's_Chicken&oldid=4511945), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Genfo (Ethiopian Porridge)](https://en.wikibooks.org/w/index.php?title=Cookbook:Genfo_(Ethiopian_Porridge)&oldid=4517855), CC-BY-SA-4.0
+- [Wikibooks Cookbook: German Meatballs](https://en.wikibooks.org/w/index.php?title=Cookbook:German_Meatballs&oldid=4511054), CC-BY-SA-4.0
+- [Wikibooks Cookbook: German Potato Salad](https://en.wikibooks.org/w/index.php?title=Cookbook:German_Potato_Salad&oldid=4613709), CC-BY-SA-4.0
+- [Wikibooks Cookbook: German Puff Pastry](https://en.wikibooks.org/w/index.php?title=Cookbook:German_Puff_Pastry&oldid=4516149), CC-BY-SA-4.0
+- [Wikibooks Cookbook: German Style Sweet Mustard (Senf)](https://en.wikibooks.org/w/index.php?title=Cookbook:German_Style_Sweet_Mustard_(Senf)&oldid=4613380), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Germknödel (Plum and Poppy Seed Dumpling)](https://en.wikibooks.org/w/index.php?title=Cookbook:Germkn%C3%B6del_(Plum_and_Poppy_Seed_Dumpling)&oldid=4522773), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Ghanaian Peanut Soup (Nkatenkwan)](https://en.wikibooks.org/w/index.php?title=Cookbook:Ghanaian_Peanut_Soup_(Nkatenkwan)&oldid=4518412), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Ghavoot (Iranian Nut and Seed Powder)](https://en.wikibooks.org/w/index.php?title=Cookbook:Ghavoot_(Iranian_Nut_and_Seed_Powder)&oldid=4515542), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Ghee I](https://en.wikibooks.org/w/index.php?title=Cookbook:Ghee_I&oldid=4502279), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Ghevar (Rajasthani Honeycomb Fritter)](https://en.wikibooks.org/w/index.php?title=Cookbook:Ghevar_(Rajasthani_Honeycomb_Fritter)&oldid=4517736), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Ghormeh Sabzi (Iranian Herb Stew)](https://en.wikibooks.org/w/index.php?title=Cookbook:Ghormeh_Sabzi_(Iranian_Herb_Stew)&oldid=4524744), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Ghraiba bil Loz (Libyan Almond Ghraiba)](https://en.wikibooks.org/w/index.php?title=Cookbook:Ghraiba_bil_Loz_(Libyan_Almond_Ghraiba)&oldid=4587497), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Giant Spaghetti-Stuffed Meatball](https://en.wikibooks.org/w/index.php?title=Cookbook:Giant_Spaghetti-Stuffed_Meatball&oldid=4605241), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Giblet Soup](https://en.wikibooks.org/w/index.php?title=Cookbook:Giblet_Soup&oldid=4518409), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Gimbap](https://en.wikibooks.org/w/index.php?title=Cookbook:Gimbap&oldid=4524745), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Gin Fried Rice](https://en.wikibooks.org/w/index.php?title=Cookbook:Gin_Fried_Rice&oldid=4517683), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Ginger Ale](https://en.wikibooks.org/w/index.php?title=Cookbook:Ginger_Ale&oldid=4601584), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Ginger Beer](https://en.wikibooks.org/w/index.php?title=Cookbook:Ginger_Beer&oldid=4507047), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Ginger Biscuits](https://en.wikibooks.org/w/index.php?title=Cookbook:Ginger_Biscuits&oldid=4523354), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Ginger-Glazed Grilled Peaches](https://en.wikibooks.org/w/index.php?title=Cookbook:Ginger-Glazed_Grilled_Peaches&oldid=4516996), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Ginger Pancakes](https://en.wikibooks.org/w/index.php?title=Cookbook:Ginger_Pancakes&oldid=4522790), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Ginger Peach Glazed BBQ Ribs](https://en.wikibooks.org/w/index.php?title=Cookbook:Ginger_Peach_Glazed_BBQ_Ribs&oldid=4507048), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Ginger Peach Glazed Ham](https://en.wikibooks.org/w/index.php?title=Cookbook:Ginger_Peach_Glazed_Ham&oldid=4511948), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Ginger Snaps](https://en.wikibooks.org/w/index.php?title=Cookbook:Ginger_Snaps&oldid=4599181), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Ginger Tea](https://en.wikibooks.org/w/index.php?title=Cookbook:Ginger_Tea&oldid=4507050), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Gingerbread](https://en.wikibooks.org/w/index.php?title=Cookbook:Gingerbread&oldid=4523436), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Gingerbread Cookies Frosted with Royal Icing](https://en.wikibooks.org/w/index.php?title=Cookbook:Gingerbread_Cookies_Frosted_with_Royal_Icing&oldid=4516998), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Gingerbread Pancakes I](https://en.wikibooks.org/w/index.php?title=Cookbook:Gingerbread_Pancakes_I&oldid=4523356), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Gingerbread Pancakes II](https://en.wikibooks.org/w/index.php?title=Cookbook:Gingerbread_Pancakes_II&oldid=4599156), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Githeri](https://en.wikibooks.org/w/index.php?title=Cookbook:Githeri&oldid=4637545), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Glace de Viande (Reduced Beef Sauce)](https://en.wikibooks.org/w/index.php?title=Cookbook:Glace_de_Viande_(Reduced_Beef_Sauce)&oldid=4518934), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Glazed Onion Canapes](https://en.wikibooks.org/w/index.php?title=Cookbook:Glazed_Onion_Canapes&oldid=4505195), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Glazed Sweet Potatoes](https://en.wikibooks.org/w/index.php?title=Cookbook:Glazed_Sweet_Potatoes&oldid=4524747), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Glorified Mac and Cheese](https://en.wikibooks.org/w/index.php?title=Cookbook:Glorified_Mac_and_Cheese&oldid=4522770), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Gluten Veggie Meat](https://en.wikibooks.org/w/index.php?title=Cookbook:Gluten_Veggie_Meat&oldid=4513610), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Goat Cheese Cakes](https://en.wikibooks.org/w/index.php?title=Cookbook:Goat_Cheese_Cakes&oldid=4524748), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Goat Milk Caramel Sauce](https://en.wikibooks.org/w/index.php?title=Cookbook:Goat_Milk_Caramel_Sauce&oldid=4587141), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Gobi Bhagi (Spiced Cauliflower Stew)](https://en.wikibooks.org/w/index.php?title=Cookbook:Gobi_Bhagi_(Spiced_Cauliflower_Stew)&oldid=4507051), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Gochujang (imitation)](https://en.wikibooks.org/w/index.php?title=Cookbook:Gochujang_(imitation)&oldid=4518930), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Gomen (Ethiopian Collard Greens)](https://en.wikibooks.org/w/index.php?title=Cookbook:Gomen_(Ethiopian_Collard_Greens)&oldid=4510117), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Gonja (Ugandan Fried Plantains)](https://en.wikibooks.org/w/index.php?title=Cookbook:Gonja_(Ugandan_Fried_Plantains)&oldid=4503421), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Gooey Butter Cake](https://en.wikibooks.org/w/index.php?title=Cookbook:Gooey_Butter_Cake&oldid=4587436), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Goong Ten (Raw Shrimp Salad)](https://en.wikibooks.org/w/index.php?title=Cookbook:Goong_Ten_(Raw_Shrimp_Salad)&oldid=4518142), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Gored Gored (Ethiopian Raw Beef)](https://en.wikibooks.org/w/index.php?title=Cookbook:Gored_Gored_(Ethiopian_Raw_Beef)&oldid=4509809), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Gorgonzola Stuffed Chateaubriand](https://en.wikibooks.org/w/index.php?title=Cookbook:Gorgonzola_Stuffed_Chateaubriand&oldid=4514815), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Goulash](https://en.wikibooks.org/w/index.php?title=Cookbook:Goulash&oldid=4592335), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Goulash Soup](https://en.wikibooks.org/w/index.php?title=Cookbook:Goulash_Soup&oldid=4518414), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Gözleme (Turkish Flatbread)](https://en.wikibooks.org/w/index.php?title=Cookbook:G%C3%B6zleme_(Turkish_Flatbread)&oldid=4503985), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Grand Union Bacon](https://en.wikibooks.org/w/index.php?title=Cookbook:Grand_Union_Bacon&oldid=4530177), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Grandma's Pie Crust](https://en.wikibooks.org/w/index.php?title=Cookbook:Grandma's_Pie_Crust&oldid=4517000), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Grandmother Grout's Cake](https://en.wikibooks.org/w/index.php?title=Cookbook:Grandmother_Grout's_Cake&oldid=4522746), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Granola](https://en.wikibooks.org/w/index.php?title=Cookbook:Granola&oldid=4513189), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Granola Bars](https://en.wikibooks.org/w/index.php?title=Cookbook:Granola_Bars&oldid=4513188), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Grape Lassi](https://en.wikibooks.org/w/index.php?title=Cookbook:Grape_Lassi&oldid=4524750), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Grapefruit and Crab Cocktail](https://en.wikibooks.org/w/index.php?title=Cookbook:Grapefruit_and_Crab_Cocktail&oldid=4630320), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Gravlax](https://en.wikibooks.org/w/index.php?title=Cookbook:Gravlax&oldid=4508844), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Gravy Cakes (Hartshorne)](https://en.wikibooks.org/w/index.php?title=Cookbook:Gravy_Cakes_(Hartshorne)&oldid=4498172), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Gravy (Vegetarian)](https://en.wikibooks.org/w/index.php?title=Cookbook:Gravy_(Vegetarian)&oldid=4522407), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Greek Chicken Wrap](https://en.wikibooks.org/w/index.php?title=Cookbook:Greek_Chicken_Wrap&oldid=4515085), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Greek Moussaka](https://en.wikibooks.org/w/index.php?title=Cookbook:Greek_Moussaka&oldid=4522774), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Greek Salad](https://en.wikibooks.org/w/index.php?title=Cookbook:Greek_Salad&oldid=4518144), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Greek-Style Grilled Chicken](https://en.wikibooks.org/w/index.php?title=Cookbook:Greek-Style_Grilled_Chicken&oldid=4531813), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Greek Yogurt Sauce](https://en.wikibooks.org/w/index.php?title=Cookbook:Greek_Yogurt_Sauce&oldid=4518937), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Green Bean Casserole](https://en.wikibooks.org/w/index.php?title=Cookbook:Green_Bean_Casserole&oldid=4523399), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Green Chicken Curry with Coconut Milk](https://en.wikibooks.org/w/index.php?title=Cookbook:Green_Chicken_Curry_with_Coconut_Milk&oldid=4517539), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Green Chili Beef Stew](https://en.wikibooks.org/w/index.php?title=Cookbook:Green_Chili_Beef_Stew&oldid=4518620), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Green Eggs and Ham](https://en.wikibooks.org/w/index.php?title=Cookbook:Green_Eggs_and_Ham&oldid=4500327), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Green Leaf Juice](https://en.wikibooks.org/w/index.php?title=Cookbook:Green_Leaf_Juice&oldid=4509810), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Green Mango and Cumin Drink (Aam Panna)](https://en.wikibooks.org/w/index.php?title=Cookbook:Green_Mango_and_Cumin_Drink_(Aam_Panna)&oldid=4640699), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Green Spinach Food Coloring](https://en.wikibooks.org/w/index.php?title=Cookbook:Green_Spinach_Food_Coloring&oldid=4540902), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Green Tea and Berry Pavlovas](https://en.wikibooks.org/w/index.php?title=Cookbook:Green_Tea_and_Berry_Pavlovas&oldid=4587514), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Green Turtle Soup](https://en.wikibooks.org/w/index.php?title=Cookbook:Green_Turtle_Soup&oldid=4530180), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Grenadine](https://en.wikibooks.org/w/index.php?title=Cookbook:Grenadine&oldid=4656568), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Grenadine Soda](https://en.wikibooks.org/w/index.php?title=Cookbook:Grenadine_Soda&oldid=4607715), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Grill Seasoning](https://en.wikibooks.org/w/index.php?title=Cookbook:Grill_Seasoning&oldid=4516595), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Grilled Aubergine](https://en.wikibooks.org/w/index.php?title=Cookbook:Grilled_Aubergine&oldid=4569934), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Grilled Bananas with Coffee Syrup](https://en.wikibooks.org/w/index.php?title=Cookbook:Grilled_Bananas_with_Coffee_Syrup&oldid=4518938), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Grilled Cheese Sandwich II](https://en.wikibooks.org/w/index.php?title=Cookbook:Grilled_Cheese_Sandwich_II&oldid=4518252), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Grilled Cornish Hens](https://en.wikibooks.org/w/index.php?title=Cookbook:Grilled_Cornish_Hens&oldid=4506689), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Grilled Dog](https://en.wikibooks.org/w/index.php?title=Cookbook:Grilled_Dog&oldid=4510124), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Grilled Eggplant with Garlic Butter](https://en.wikibooks.org/w/index.php?title=Cookbook:Grilled_Eggplant_with_Garlic_Butter&oldid=4502661), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Grilled Filet Mignon](https://en.wikibooks.org/w/index.php?title=Cookbook:Grilled_Filet_Mignon&oldid=4498114), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Grilled Filet Mignon with a Cognac Reduction](https://en.wikibooks.org/w/index.php?title=Cookbook:Grilled_Filet_Mignon_with_a_Cognac_Reduction&oldid=4613405), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Grilled Fruit Pouches](https://en.wikibooks.org/w/index.php?title=Cookbook:Grilled_Fruit_Pouches&oldid=4517002), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Grilled Lamb Chops](https://en.wikibooks.org/w/index.php?title=Cookbook:Grilled_Lamb_Chops&oldid=4506008), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Grilled Peaches with Vanilla Maple Sauce](https://en.wikibooks.org/w/index.php?title=Cookbook:Grilled_Peaches_with_Vanilla_Maple_Sauce&oldid=4517006), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Grilled Peanut Butter Sandwiches](https://en.wikibooks.org/w/index.php?title=Cookbook:Grilled_Peanut_Butter_Sandwiches&oldid=4518253), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Grilled Pork Chops](https://en.wikibooks.org/w/index.php?title=Cookbook:Grilled_Pork_Chops&oldid=4505864), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Grilled Pork Loin](https://en.wikibooks.org/w/index.php?title=Cookbook:Grilled_Pork_Loin&oldid=4613363), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Grilled Portobello Mushrooms](https://en.wikibooks.org/w/index.php?title=Cookbook:Grilled_Portobello_Mushrooms&oldid=4610377), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Grilled Prime Rib](https://en.wikibooks.org/w/index.php?title=Cookbook:Grilled_Prime_Rib&oldid=4498149), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Grilled Radicchio with Bacon Dressing](https://en.wikibooks.org/w/index.php?title=Cookbook:Grilled_Radicchio_with_Bacon_Dressing&oldid=4613411), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Grilled Ribeye Steak](https://en.wikibooks.org/w/index.php?title=Cookbook:Grilled_Ribeye_Steak&oldid=4613399), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Grilled Sirloin Steak](https://en.wikibooks.org/w/index.php?title=Cookbook:Grilled_Sirloin_Steak&oldid=4502665), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Grilled Sliders](https://en.wikibooks.org/w/index.php?title=Cookbook:Grilled_Sliders&oldid=4519274), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Grilled Steak](https://en.wikibooks.org/w/index.php?title=Cookbook:Grilled_Steak&oldid=4507510), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Grilled Summer Fruit](https://en.wikibooks.org/w/index.php?title=Cookbook:Grilled_Summer_Fruit&oldid=4518941), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Grilled Vegetable Sandwich](https://en.wikibooks.org/w/index.php?title=Cookbook:Grilled_Vegetable_Sandwich&oldid=4518254), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Grits with Cheese](https://en.wikibooks.org/w/index.php?title=Cookbook:Grits_with_Cheese&oldid=4515171), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Grotten Hans (Steamed Sweet Bread)](https://en.wikibooks.org/w/index.php?title=Cookbook:Grotten_Hans_(Steamed_Sweet_Bread)&oldid=4522780), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Ground Beef and Potato Taquitos](https://en.wikibooks.org/w/index.php?title=Cookbook:Ground_Beef_and_Potato_Taquitos&oldid=4634832), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Ground Tofu](https://en.wikibooks.org/w/index.php?title=Cookbook:Ground_Tofu&oldid=4494298), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Groundnut Soup](https://en.wikibooks.org/w/index.php?title=Cookbook:Groundnut_Soup&oldid=4521661), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Guacamole (Chile- and Herb-Free)](https://en.wikibooks.org/w/index.php?title=Cookbook:Guacamole_(Chile-_and_Herb-Free)&oldid=4517630), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Guacamole (Chile-Free)](https://en.wikibooks.org/w/index.php?title=Cookbook:Guacamole_(Chile-Free)&oldid=4517631), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Guacamole Dip](https://en.wikibooks.org/w/index.php?title=Cookbook:Guacamole_Dip&oldid=4523400), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Guacamole I](https://en.wikibooks.org/w/index.php?title=Cookbook:Guacamole_I&oldid=4636788), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Guacamole II](https://en.wikibooks.org/w/index.php?title=Cookbook:Guacamole_II&oldid=4517629), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Gudeg (Green Jackfruit Stew)](https://en.wikibooks.org/w/index.php?title=Cookbook:Gudeg_(Green_Jackfruit_Stew)&oldid=4541107), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Gullisuwa (Nigerian Milk Balls)](https://en.wikibooks.org/w/index.php?title=Cookbook:Gullisuwa_(Nigerian_Milk_Balls)&oldid=4540972), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Gunkanmaki (Topped Oval Sushi)](https://en.wikibooks.org/w/index.php?title=Cookbook:Gunkanmaki_(Topped_Oval_Sushi)&oldid=4518734), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Gurasa (Hausa Flatbread with Vegetables)](https://en.wikibooks.org/w/index.php?title=Cookbook:Gurasa_(Hausa_Flatbread_with_Vegetables)&oldid=4540971), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Gurudi (Nigerian Coconut Biscuit)](https://en.wikibooks.org/w/index.php?title=Cookbook:Gurudi_(Nigerian_Coconut_Biscuit)&oldid=4618208), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Gyudon (Japanese Beef and Rice Bowl)](https://en.wikibooks.org/w/index.php?title=Cookbook:Gyudon_(Japanese_Beef_and_Rice_Bowl)&oldid=4536308), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Gyuveche (Bulgarian Casserole) II](https://en.wikibooks.org/w/index.php?title=Cookbook:Gyuveche_(Bulgarian_Casserole)_II&oldid=4517405), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Gyuvetch (Bulgarian Casserole) I](https://en.wikibooks.org/w/index.php?title=Cookbook:Gyuvetch_(Bulgarian_Casserole)_I&oldid=4517408), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Habas con Jamon (Broad Beans with Ham)](https://en.wikibooks.org/w/index.php?title=Cookbook:Habas_con_Jamon_(Broad_Beans_with_Ham)&oldid=4515490), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Habet Hlawa (Algerian Anise Beverage)](https://en.wikibooks.org/w/index.php?title=Cookbook:Habet_Hlawa_(Algerian_Anise_Beverage)&oldid=4508222), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Habichuela con Dulce (Dominican Sweet Beans)](https://en.wikibooks.org/w/index.php?title=Cookbook:Habichuela_con_Dulce_(Dominican_Sweet_Beans)&oldid=4587448), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Hachee (Dutch Beef Stew)](https://en.wikibooks.org/w/index.php?title=Cookbook:Hachee_(Dutch_Beef_Stew)&oldid=4518623), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Haggis](https://en.wikibooks.org/w/index.php?title=Cookbook:Haggis&oldid=4513191), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Hake in Herby Breadcrumbs](https://en.wikibooks.org/w/index.php?title=Cookbook:Hake_in_Herby_Breadcrumbs&oldid=4513512), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Halibut Cheek Stir-Fry](https://en.wikibooks.org/w/index.php?title=Cookbook:Halibut_Cheek_Stir-Fry&oldid=4511877), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Hallaca (Venezuelan Stuffed Corn Dough)](https://en.wikibooks.org/w/index.php?title=Cookbook:Hallaca_(Venezuelan_Stuffed_Corn_Dough)&oldid=4535161), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Halo-Halo (Filipino Layered Dessert)](https://en.wikibooks.org/w/index.php?title=Cookbook:Halo-Halo_(Filipino_Layered_Dessert)&oldid=4630693), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Halva (Wheat-based)](https://en.wikibooks.org/w/index.php?title=Cookbook:Halva_(Wheat-based)&oldid=4517476), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Ham and Cheese Crepes](https://en.wikibooks.org/w/index.php?title=Cookbook:Ham_and_Cheese_Crepes&oldid=4615178), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Ham Sauce (Historic)](https://en.wikibooks.org/w/index.php?title=Cookbook:Ham_Sauce_(Historic)&oldid=4518943), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Ham Sauce (Modern)](https://en.wikibooks.org/w/index.php?title=Cookbook:Ham_Sauce_(Modern)&oldid=4518945), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Hamburger](https://en.wikibooks.org/w/index.php?title=Cookbook:Hamburger&oldid=4636790), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Hamburger Fried Rice](https://en.wikibooks.org/w/index.php?title=Cookbook:Hamburger_Fried_Rice&oldid=4517687), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Hamburger Skillet Dinner](https://en.wikibooks.org/w/index.php?title=Cookbook:Hamburger_Skillet_Dinner&oldid=4524774), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Hamburger Stoup](https://en.wikibooks.org/w/index.php?title=Cookbook:Hamburger_Stoup&oldid=4518624), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Hamli (Ethiopian Spinach Stew)](https://en.wikibooks.org/w/index.php?title=Cookbook:Hamli_(Ethiopian_Spinach_Stew)&oldid=4518626), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Hanjin Ligidi (Nigerian Lollipops)](https://en.wikibooks.org/w/index.php?title=Cookbook:Hanjin_Ligidi_(Nigerian_Lollipops)&oldid=4517479), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Hard Tack](https://en.wikibooks.org/w/index.php?title=Cookbook:Hard_Tack&oldid=4501535), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Harissa bil Djaj (Libyan Chicken Harissa)](https://en.wikibooks.org/w/index.php?title=Cookbook:Harissa_bil_Djaj_(Libyan_Chicken_Harissa)&oldid=4511950), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Hartshorne Catsup for Sea-stores](https://en.wikibooks.org/w/index.php?title=Cookbook:Hartshorne_Catsup_for_Sea-stores&oldid=4610546), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Hartshorne Catsup for Sea-stores II](https://en.wikibooks.org/w/index.php?title=Cookbook:Hartshorne_Catsup_for_Sea-stores_II&oldid=4518809), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Hartshorne Cream Sauce for a Hare](https://en.wikibooks.org/w/index.php?title=Cookbook:Hartshorne_Cream_Sauce_for_a_Hare&oldid=4518948), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Hartshorne Sweet Sauce](https://en.wikibooks.org/w/index.php?title=Cookbook:Hartshorne_Sweet_Sauce&oldid=4518947), CC-BY-SA-4.0
 - [Wikibooks Cookbook: Hash Browns](https://en.wikibooks.org/w/index.php?title=Cookbook:Hash_Browns&oldid=4501537), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Hasude (Albanian Cornstarch Pudding)](https://en.wikibooks.org/w/index.php?title=Cookbook:Hasude_(Albanian_Cornstarch_Pudding)&oldid=4517923), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Haupia (Hawaiian Coconut Pudding)](https://en.wikibooks.org/w/index.php?title=Cookbook:Haupia_(Hawaiian_Coconut_Pudding)&oldid=4517922), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Hawawshi (Egyptian Meat Pies)](https://en.wikibooks.org/w/index.php?title=Cookbook:Hawawshi_(Egyptian_Meat_Pies)&oldid=4514086), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Hawthorn Tea](https://en.wikibooks.org/w/index.php?title=Cookbook:Hawthorn_Tea&oldid=4510129), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Hazelnut and Black Raspberry Panna Cotta](https://en.wikibooks.org/w/index.php?title=Cookbook:Hazelnut_and_Black_Raspberry_Panna_Cotta&oldid=4587500), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Hazelnut Cream Soda](https://en.wikibooks.org/w/index.php?title=Cookbook:Hazelnut_Cream_Soda&oldid=4597224), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Hazelnut Torte](https://en.wikibooks.org/w/index.php?title=Cookbook:Hazelnut_Torte&oldid=4587331), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Hearty Beef Vegetable Soup](https://en.wikibooks.org/w/index.php?title=Cookbook:Hearty_Beef_Vegetable_Soup&oldid=4518416), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Heinz Burger Sauce](https://en.wikibooks.org/w/index.php?title=Cookbook:Heinz_Burger_Sauce&oldid=4518946), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Henry Thiele's Pancake](https://en.wikibooks.org/w/index.php?title=Cookbook:Henry_Thiele's_Pancake&oldid=4522818), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Herb Bubble Bread](https://en.wikibooks.org/w/index.php?title=Cookbook:Herb_Bubble_Bread&oldid=4523250), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Herb Grilled Snapper](https://en.wikibooks.org/w/index.php?title=Cookbook:Herb_Grilled_Snapper&oldid=4511883), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Herb Grilled Strip Steaks](https://en.wikibooks.org/w/index.php?title=Cookbook:Herb_Grilled_Strip_Steaks&oldid=4506054), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Herbal Energy Drink](https://en.wikibooks.org/w/index.php?title=Cookbook:Herbal_Energy_Drink&oldid=4601583), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Herbal Iced Tea](https://en.wikibooks.org/w/index.php?title=Cookbook:Herbal_Iced_Tea&oldid=4513341), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Herbed Corn](https://en.wikibooks.org/w/index.php?title=Cookbook:Herbed_Corn&oldid=4506487), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Herbed Tomato Soup](https://en.wikibooks.org/w/index.php?title=Cookbook:Herbed_Tomato_Soup&oldid=4518417), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Hermits](https://en.wikibooks.org/w/index.php?title=Cookbook:Hermits&oldid=4517016), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Herrencreme (German Custard Dessert)](https://en.wikibooks.org/w/index.php?title=Cookbook:Herrencreme_(German_Custard_Dessert)&oldid=4587442), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Herring Soup](https://en.wikibooks.org/w/index.php?title=Cookbook:Herring_Soup&oldid=4518418), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Hickory BBQ Chicken](https://en.wikibooks.org/w/index.php?title=Cookbook:Hickory_BBQ_Chicken&oldid=4505201), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Hickory BBQ Chicken Wings](https://en.wikibooks.org/w/index.php?title=Cookbook:Hickory_BBQ_Chicken_Wings&oldid=4503275), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Hickory BBQ Pork Loin](https://en.wikibooks.org/w/index.php?title=Cookbook:Hickory_BBQ_Pork_Loin&oldid=4516597), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Hickory BBQ Rub](https://en.wikibooks.org/w/index.php?title=Cookbook:Hickory_BBQ_Rub&oldid=4516599), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Hickory Maple Glazed Wings](https://en.wikibooks.org/w/index.php?title=Cookbook:Hickory_Maple_Glazed_Wings&oldid=4513123), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Hickory Smoked Pork Chops](https://en.wikibooks.org/w/index.php?title=Cookbook:Hickory_Smoked_Pork_Chops&oldid=4505204), CC-BY-SA-4.0
+- [Wikibooks Cookbook: High-Protein Pancakes](https://en.wikibooks.org/w/index.php?title=Cookbook:High-Protein_Pancakes&oldid=4523357), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Hilbah (Fenugreek Condiment)](https://en.wikibooks.org/w/index.php?title=Cookbook:Hilbah_(Fenugreek_Condiment)&oldid=4630056), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Hlib Tmer (Algerian Date Milk)](https://en.wikibooks.org/w/index.php?title=Cookbook:Hlib_Tmer_(Algerian_Date_Milk)&oldid=4522351), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Hobo Burgers](https://en.wikibooks.org/w/index.php?title=Cookbook:Hobo_Burgers&oldid=4518214), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Hogao (Colombian Scallion Tomato Sauce)](https://en.wikibooks.org/w/index.php?title=Cookbook:Hogao_(Colombian_Scallion_Tomato_Sauce)&oldid=4518949), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Holiday Cake (Spiced Fruitcake Loaf)](https://en.wikibooks.org/w/index.php?title=Cookbook:Holiday_Cake_(Spiced_Fruitcake_Loaf)&oldid=4524032), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Holiday Pork Loin](https://en.wikibooks.org/w/index.php?title=Cookbook:Holiday_Pork_Loin&oldid=4615194), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Holiday Soda](https://en.wikibooks.org/w/index.php?title=Cookbook:Holiday_Soda&oldid=4637709), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Holiday Stuffing](https://en.wikibooks.org/w/index.php?title=Cookbook:Holiday_Stuffing&oldid=4518713), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Holland Tea Cakes](https://en.wikibooks.org/w/index.php?title=Cookbook:Holland_Tea_Cakes&oldid=4587258), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Hollandaise Sauce](https://en.wikibooks.org/w/index.php?title=Cookbook:Hollandaise_Sauce&oldid=4518950), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Holzknechtnocken (Austrian Boiled Dumplings)](https://en.wikibooks.org/w/index.php?title=Cookbook:Holzknechtnocken_(Austrian_Boiled_Dumplings)&oldid=4524776), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Holzknechtnocken with Strawberry Curd au Gratin](https://en.wikibooks.org/w/index.php?title=Cookbook:Holzknechtnocken_with_Strawberry_Curd_au_Gratin&oldid=4524777), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Homemade Applesauce](https://en.wikibooks.org/w/index.php?title=Cookbook:Homemade_Applesauce&oldid=4524778), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Homemade Aquafaba](https://en.wikibooks.org/w/index.php?title=Cookbook:Homemade_Aquafaba&oldid=4515546), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Homemade Baharat](https://en.wikibooks.org/w/index.php?title=Cookbook:Homemade_Baharat&oldid=4608325), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Homemade Cider Vinegar](https://en.wikibooks.org/w/index.php?title=Cookbook:Homemade_Cider_Vinegar&oldid=4509199), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Homemade Coconut Milk](https://en.wikibooks.org/w/index.php?title=Cookbook:Homemade_Coconut_Milk&oldid=4510743), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Homemade Coffee Liqueur](https://en.wikibooks.org/w/index.php?title=Cookbook:Homemade_Coffee_Liqueur&oldid=4515778), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Homemade Corn Tortillas](https://en.wikibooks.org/w/index.php?title=Cookbook:Homemade_Corn_Tortillas&oldid=4495057), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Homemade Corned Beef](https://en.wikibooks.org/w/index.php?title=Cookbook:Homemade_Corned_Beef&oldid=4506676), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Homemade Fines Herbes](https://en.wikibooks.org/w/index.php?title=Cookbook:Homemade_Fines_Herbes&oldid=4516605), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Homemade Five-Spice Powder](https://en.wikibooks.org/w/index.php?title=Cookbook:Homemade_Five-Spice_Powder&oldid=4516603), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Homemade Garam Masala](https://en.wikibooks.org/w/index.php?title=Cookbook:Homemade_Garam_Masala&oldid=4516602), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Homemade Herbes de Provence](https://en.wikibooks.org/w/index.php?title=Cookbook:Homemade_Herbes_de_Provence&oldid=4535175), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Homemade Hominy](https://en.wikibooks.org/w/index.php?title=Cookbook:Homemade_Hominy&oldid=4505438), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Homemade Ketchup](https://en.wikibooks.org/w/index.php?title=Cookbook:Homemade_Ketchup&oldid=4615128), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Homemade Mixed Spice](https://en.wikibooks.org/w/index.php?title=Cookbook:Homemade_Mixed_Spice&oldid=4524779), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Homemade Orange Juice](https://en.wikibooks.org/w/index.php?title=Cookbook:Homemade_Orange_Juice&oldid=4509748), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Homemade Pancake Mix](https://en.wikibooks.org/w/index.php?title=Cookbook:Homemade_Pancake_Mix&oldid=4519130), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Homemade Paneer](https://en.wikibooks.org/w/index.php?title=Cookbook:Homemade_Paneer&oldid=4600837), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Homemade Peanut Butter](https://en.wikibooks.org/w/index.php?title=Cookbook:Homemade_Peanut_Butter&oldid=4636426), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Homemade Phyllo Dough](https://en.wikibooks.org/w/index.php?title=Cookbook:Homemade_Phyllo_Dough&oldid=4516045), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Homemade Pie Crust](https://en.wikibooks.org/w/index.php?title=Cookbook:Homemade_Pie_Crust&oldid=4642077), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Homemade Red Wine](https://en.wikibooks.org/w/index.php?title=Cookbook:Homemade_Red_Wine&oldid=4514566), CC-BY-SA-4.0
 - [Wikibooks Cookbook: Homemade Seitan](https://en.wikibooks.org/w/index.php?title=Cookbook:Homemade_Seitan&oldid=4513714), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Homemade Tahini](https://en.wikibooks.org/w/index.php?title=Cookbook:Homemade_Tahini&oldid=4505657), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Homemade Tempeh](https://en.wikibooks.org/w/index.php?title=Cookbook:Homemade_Tempeh&oldid=4514342), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Homemade Tomato Paste](https://en.wikibooks.org/w/index.php?title=Cookbook:Homemade_Tomato_Paste&oldid=4518951), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Homemade Tortilla Chips](https://en.wikibooks.org/w/index.php?title=Cookbook:Homemade_Tortilla_Chips&oldid=4343796), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Homemade Wheat Tortillas](https://en.wikibooks.org/w/index.php?title=Cookbook:Homemade_Wheat_Tortillas&oldid=4512692), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Homemade Yellow Cake Mix](https://en.wikibooks.org/w/index.php?title=Cookbook:Homemade_Yellow_Cake_Mix&oldid=4523401), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Homestyle Fried Potatoes](https://en.wikibooks.org/w/index.php?title=Cookbook:Homestyle_Fried_Potatoes&oldid=4506489), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Hominy Bread](https://en.wikibooks.org/w/index.php?title=Cookbook:Hominy_Bread&oldid=4524020), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Hominy Grits](https://en.wikibooks.org/w/index.php?title=Cookbook:Hominy_Grits&oldid=4504744), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Honey Apple Glazed Pork](https://en.wikibooks.org/w/index.php?title=Cookbook:Honey_Apple_Glazed_Pork&oldid=4615188), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Honey Apple Marinade](https://en.wikibooks.org/w/index.php?title=Cookbook:Honey_Apple_Marinade&oldid=4509201), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Honey BBQ Hot Wings](https://en.wikibooks.org/w/index.php?title=Cookbook:Honey_BBQ_Hot_Wings&oldid=4505208), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Honey Bourbon Marinade](https://en.wikibooks.org/w/index.php?title=Cookbook:Honey_Bourbon_Marinade&oldid=4505209), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Honey Garlic Chicken](https://en.wikibooks.org/w/index.php?title=Cookbook:Honey_Garlic_Chicken&oldid=4505210), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Honey Lime Chicken Wings](https://en.wikibooks.org/w/index.php?title=Cookbook:Honey_Lime_Chicken_Wings&oldid=4513125), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Honey Lime Pork Loin](https://en.wikibooks.org/w/index.php?title=Cookbook:Honey_Lime_Pork_Loin&oldid=4511952), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Honey Mug Cake](https://en.wikibooks.org/w/index.php?title=Cookbook:Honey_Mug_Cake&oldid=4516917), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Honey Mustard Salad Dressing](https://en.wikibooks.org/w/index.php?title=Cookbook:Honey_Mustard_Salad_Dressing&oldid=4613364), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Honey Mustard Salmon](https://en.wikibooks.org/w/index.php?title=Cookbook:Honey_Mustard_Salmon&oldid=4613365), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Honey-Peppered Salmon](https://en.wikibooks.org/w/index.php?title=Cookbook:Honey-Peppered_Salmon&oldid=4613398), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Honey Taffy](https://en.wikibooks.org/w/index.php?title=Cookbook:Honey_Taffy&oldid=4523491), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Honey Teriyaki Spareribs](https://en.wikibooks.org/w/index.php?title=Cookbook:Honey_Teriyaki_Spareribs&oldid=4536314), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Hongshao Rou (Red Braised Pork Belly)](https://en.wikibooks.org/w/index.php?title=Cookbook:Hongshao_Rou_(Red_Braised_Pork_Belly)&oldid=4512050), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Hoppin John](https://en.wikibooks.org/w/index.php?title=Cookbook:Hoppin_John&oldid=4524782), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Hopping John with Pinto or Great Northern Beans](https://en.wikibooks.org/w/index.php?title=Cookbook:Hopping_John_with_Pinto_or_Great_Northern_Beans&oldid=4513283), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Horchata](https://en.wikibooks.org/w/index.php?title=Cookbook:Horchata&oldid=4513023), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Hot and Sour Soup](https://en.wikibooks.org/w/index.php?title=Cookbook:Hot_and_Sour_Soup&oldid=4518420), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Hot and Spicy Dip](https://en.wikibooks.org/w/index.php?title=Cookbook:Hot_and_Spicy_Dip&oldid=4519044), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Hot Chocolate](https://en.wikibooks.org/w/index.php?title=Cookbook:Hot_Chocolate&oldid=4524021), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Hot Chocolate (Orange)](https://en.wikibooks.org/w/index.php?title=Cookbook:Hot_Chocolate_(Orange)&oldid=4524022), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Hot Chocolate with Cayenne](https://en.wikibooks.org/w/index.php?title=Cookbook:Hot_Chocolate_with_Cayenne&oldid=4522209), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Hot Cocoa](https://en.wikibooks.org/w/index.php?title=Cookbook:Hot_Cocoa&oldid=4610751), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Hot Cross Bun](https://en.wikibooks.org/w/index.php?title=Cookbook:Hot_Cross_Bun&oldid=4524023), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Hot Fudge Sauce](https://en.wikibooks.org/w/index.php?title=Cookbook:Hot_Fudge_Sauce&oldid=4587263), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Hot Milk Cake](https://en.wikibooks.org/w/index.php?title=Cookbook:Hot_Milk_Cake&oldid=4522349), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Hot Peach Drink](https://en.wikibooks.org/w/index.php?title=Cookbook:Hot_Peach_Drink&oldid=4524783), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Hot Pepper Sauce](https://en.wikibooks.org/w/index.php?title=Cookbook:Hot_Pepper_Sauce&oldid=4519045), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Hot Sauce (Homemade)](https://en.wikibooks.org/w/index.php?title=Cookbook:Hot_Sauce_(Homemade)&oldid=4519047), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Hot Wing Dip](https://en.wikibooks.org/w/index.php?title=Cookbook:Hot_Wing_Dip&oldid=4518956), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Hot Wings](https://en.wikibooks.org/w/index.php?title=Cookbook:Hot_Wings&oldid=4502701), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Huancayo Potatoes in Cream Sauce (Papas a la Huancaína)](https://en.wikibooks.org/w/index.php?title=Cookbook:Huancayo_Potatoes_in_Cream_Sauce_(Papas_a_la_Huanca%C3%ADna)&oldid=4613391), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Huevos Rancheros](https://en.wikibooks.org/w/index.php?title=Cookbook:Huevos_Rancheros&oldid=4511733), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Hummus (Greek)](https://en.wikibooks.org/w/index.php?title=Cookbook:Hummus_(Greek)&oldid=4532021), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Hummus I](https://en.wikibooks.org/w/index.php?title=Cookbook:Hummus_I&oldid=4515548), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Hummus III](https://en.wikibooks.org/w/index.php?title=Cookbook:Hummus_III&oldid=4630237), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Hummus with Sprouted Chickpea](https://en.wikibooks.org/w/index.php?title=Cookbook:Hummus_with_Sprouted_Chickpea&oldid=4524784), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Hush Puppies](https://en.wikibooks.org/w/index.php?title=Cookbook:Hush_Puppies&oldid=4524031), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Hutspot (Dutch Mashed Vegetables)](https://en.wikibooks.org/w/index.php?title=Cookbook:Hutspot_(Dutch_Mashed_Vegetables)&oldid=4494488), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Hyderabad Biryani](https://en.wikibooks.org/w/index.php?title=Cookbook:Hyderabad_Biryani&oldid=4517371), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Hyderabadi Fried Bread with Syrup and Nuts (Double ka meetha)](https://en.wikibooks.org/w/index.php?title=Cookbook:Hyderabadi_Fried_Bread_with_Syrup_and_Nuts_(Double_ka_meetha)&oldid=4541031), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Hyderabadi Haleem (Ground Meat and Wheat)](https://en.wikibooks.org/w/index.php?title=Cookbook:Hyderabadi_Haleem_(Ground_Meat_and_Wheat)&oldid=4509873), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Hypotonic Sports Drink](https://en.wikibooks.org/w/index.php?title=Cookbook:Hypotonic_Sports_Drink&oldid=4614771), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Ibihaza n'Ubwoko (Rwandan Beans with Mushroom)](https://en.wikibooks.org/w/index.php?title=Cookbook:Ibihaza_n'Ubwoko_(Rwandan_Beans_with_Mushroom)&oldid=4513285), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Ibihaza (Rwandan Beans)](https://en.wikibooks.org/w/index.php?title=Cookbook:Ibihaza_(Rwandan_Beans)&oldid=4533871), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Ibijumba n'Ubwoko (Rwandan Sweet Potato and Mushroom Dish)](https://en.wikibooks.org/w/index.php?title=Cookbook:Ibijumba_n'Ubwoko_(Rwandan_Sweet_Potato_and_Mushroom_Dish)&oldid=4498613), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Ibirayi n'Ibinyomoro (Rwandan Bean Soup with Smoked Beef)](https://en.wikibooks.org/w/index.php?title=Cookbook:Ibirayi_n'Ibinyomoro_(Rwandan_Bean_Soup_with_Smoked_Beef)&oldid=4518419), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Ibirayi n'Ibishyimbo (Rwandan Bean Soup with Fish)](https://en.wikibooks.org/w/index.php?title=Cookbook:Ibirayi_n'Ibishyimbo_(Rwandan_Bean_Soup_with_Fish)&oldid=4518422), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Ibisuba (Rwandan Bean Salad)](https://en.wikibooks.org/w/index.php?title=Cookbook:Ibisuba_(Rwandan_Bean_Salad)&oldid=4534250), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Ibiwungu (Rwandan Banana Beer)](https://en.wikibooks.org/w/index.php?title=Cookbook:Ibiwungu_(Rwandan_Banana_Beer)&oldid=4510140), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Ice Cream Sandwich](https://en.wikibooks.org/w/index.php?title=Cookbook:Ice_Cream_Sandwich&oldid=4587450), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Iced Tea](https://en.wikibooks.org/w/index.php?title=Cookbook:Iced_Tea&oldid=4504918), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Idiyappam (South Indian Rice Noodles)](https://en.wikibooks.org/w/index.php?title=Cookbook:Idiyappam_(South_Indian_Rice_Noodles)&oldid=4510794), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Idli (Steamed Rice and Black Gram Bread)](https://en.wikibooks.org/w/index.php?title=Cookbook:Idli_(Steamed_Rice_and_Black_Gram_Bread)&oldid=4515105), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Ifisashi n'Ubwoko (Rwandan Peanut Spinach Stew with Mushroom)](https://en.wikibooks.org/w/index.php?title=Cookbook:Ifisashi_n'Ubwoko_(Rwandan_Peanut_Spinach_Stew_with_Mushroom)&oldid=4518627), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Ifisashi (Zambian Peanut and Spinach Stew)](https://en.wikibooks.org/w/index.php?title=Cookbook:Ifisashi_(Zambian_Peanut_and_Spinach_Stew)&oldid=4518625), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Ifumbe (Rwandan Cassava Fritters)](https://en.wikibooks.org/w/index.php?title=Cookbook:Ifumbe_(Rwandan_Cassava_Fritters)&oldid=4522834), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Igbouh Ahi (Nigerian Roasted Bambara Nuts)](https://en.wikibooks.org/w/index.php?title=Cookbook:Igbouh_Ahi_(Nigerian_Roasted_Bambara_Nuts)&oldid=4515599), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Iguana Pozole](https://en.wikibooks.org/w/index.php?title=Cookbook:Iguana_Pozole&oldid=4506555), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Ikijumba n'Umutsima (Rwandan Sweet Potato Stew with Corn and Bean Dish)](https://en.wikibooks.org/w/index.php?title=Cookbook:Ikijumba_n'Umutsima_(Rwandan_Sweet_Potato_Stew_with_Corn_and_Bean_Dish)&oldid=4518629), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Ikijumba (Rwandan Sweet Potato Stew)](https://en.wikibooks.org/w/index.php?title=Cookbook:Ikijumba_(Rwandan_Sweet_Potato_Stew)&oldid=4518628), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Ikinyomoro n'Ibishyimbo (Rwandan Smoked Fish with Beans)](https://en.wikibooks.org/w/index.php?title=Cookbook:Ikinyomoro_n'Ibishyimbo_(Rwandan_Smoked_Fish_with_Beans)&oldid=4513293), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Imitation Caramel Sauce (vegan)](https://en.wikibooks.org/w/index.php?title=Cookbook:Imitation_Caramel_Sauce_(vegan)&oldid=4518959), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Imitation Cheese (Vegan)](https://en.wikibooks.org/w/index.php?title=Cookbook:Imitation_Cheese_(Vegan)&oldid=4541033), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Inarizushi (Stuffed Sushi)](https://en.wikibooks.org/w/index.php?title=Cookbook:Inarizushi_(Stuffed_Sushi)&oldid=4541053), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Indian Baked Yoghurt with Saffron and Cardamom](https://en.wikibooks.org/w/index.php?title=Cookbook:Indian_Baked_Yoghurt_with_Saffron_and_Cardamom&oldid=4587412), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Indian Beans](https://en.wikibooks.org/w/index.php?title=Cookbook:Indian_Beans&oldid=4515479), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Indian Butter Chicken I](https://en.wikibooks.org/w/index.php?title=Cookbook:Indian_Butter_Chicken_I&oldid=4510142), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Indian Chai](https://en.wikibooks.org/w/index.php?title=Cookbook:Indian_Chai&oldid=4522385), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Indian Curry Marinade](https://en.wikibooks.org/w/index.php?title=Cookbook:Indian_Curry_Marinade&oldid=4517542), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Indian Hard Tack (Baati)](https://en.wikibooks.org/w/index.php?title=Cookbook:Indian_Hard_Tack_(Baati)&oldid=4523442), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Indian Ice Cream](https://en.wikibooks.org/w/index.php?title=Cookbook:Indian_Ice_Cream&oldid=4587407), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Indian Mango, Chilli Powder, and Cumin Condiment (Chhundo)](https://en.wikibooks.org/w/index.php?title=Cookbook:Indian_Mango,_Chilli_Powder,_and_Cumin_Condiment_(Chhundo)&oldid=4518905), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Indian Moong Dal](https://en.wikibooks.org/w/index.php?title=Cookbook:Indian_Moong_Dal&oldid=4515496), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Indian Omelet](https://en.wikibooks.org/w/index.php?title=Cookbook:Indian_Omelet&oldid=4517802), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Indian Potatoes](https://en.wikibooks.org/w/index.php?title=Cookbook:Indian_Potatoes&oldid=4510668), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Indian Pudding](https://en.wikibooks.org/w/index.php?title=Cookbook:Indian_Pudding&oldid=4587345), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Indian Rice](https://en.wikibooks.org/w/index.php?title=Cookbook:Indian_Rice&oldid=4513019), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Indonesian-style Fried Rice](https://en.wikibooks.org/w/index.php?title=Cookbook:Indonesian-style_Fried_Rice&oldid=4512935), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Indulgent Chocolate Torte](https://en.wikibooks.org/w/index.php?title=Cookbook:Indulgent_Chocolate_Torte&oldid=4587341), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Inguday Tibs (Ethiopian Mushroom Stir-Fry)](https://en.wikibooks.org/w/index.php?title=Cookbook:Inguday_Tibs_(Ethiopian_Mushroom_Stir-Fry)&oldid=4510143), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Injera (Ethiopian Teff Flatbread)](https://en.wikibooks.org/w/index.php?title=Cookbook:Injera_(Ethiopian_Teff_Flatbread)&oldid=4630269), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Instant Chocolate Mousse](https://en.wikibooks.org/w/index.php?title=Cookbook:Instant_Chocolate_Mousse&oldid=4524786), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Instant Pot Beans](https://en.wikibooks.org/w/index.php?title=Cookbook:Instant_Pot_Beans&oldid=4513290), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Inyama y'Isugi (Rwandan Grilled Pork)](https://en.wikibooks.org/w/index.php?title=Cookbook:Inyama_y'Isugi_(Rwandan_Grilled_Pork)&oldid=4510144), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Iresi Eyin (Yoruba Palm Oil Native Rice)](https://en.wikibooks.org/w/index.php?title=Cookbook:Iresi_Eyin_(Yoruba_Palm_Oil_Native_Rice)&oldid=4508293), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Irio (Kenyan Mashed Potatoes with Veggies)](https://en.wikibooks.org/w/index.php?title=Cookbook:Irio_(Kenyan_Mashed_Potatoes_with_Veggies)&oldid=4505757), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Irish Fruit Cake](https://en.wikibooks.org/w/index.php?title=Cookbook:Irish_Fruit_Cake&oldid=4517026), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Irish Pastie](https://en.wikibooks.org/w/index.php?title=Cookbook:Irish_Pastie&oldid=4513517), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Irish Soda Bread](https://en.wikibooks.org/w/index.php?title=Cookbook:Irish_Soda_Bread&oldid=4541030), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Irish Stew](https://en.wikibooks.org/w/index.php?title=Cookbook:Irish_Stew&oldid=4518631), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Island Ceviche](https://en.wikibooks.org/w/index.php?title=Cookbook:Island_Ceviche&oldid=4510145), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Island Salsa Salad](https://en.wikibooks.org/w/index.php?title=Cookbook:Island_Salsa_Salad&oldid=4531788), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Isombe na Kariyo (Cassava Leaves with Pumpkin)](https://en.wikibooks.org/w/index.php?title=Cookbook:Isombe_na_Kariyo_(Cassava_Leaves_with_Pumpkin)&oldid=4494275), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Isombe (Rwandan Cassava Leaves with Eggplant)](https://en.wikibooks.org/w/index.php?title=Cookbook:Isombe_(Rwandan_Cassava_Leaves_with_Eggplant)&oldid=4629623), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Israeli Salad](https://en.wikibooks.org/w/index.php?title=Cookbook:Israeli_Salad&oldid=4518147), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Italian-American Spaghetti alla Puttanesca](https://en.wikibooks.org/w/index.php?title=Cookbook:Italian-American_Spaghetti_alla_Puttanesca&oldid=4508994), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Italian Braised Shortribs](https://en.wikibooks.org/w/index.php?title=Cookbook:Italian_Braised_Shortribs&oldid=4514568), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Italian Chicken Rolls](https://en.wikibooks.org/w/index.php?title=Cookbook:Italian_Chicken_Rolls&oldid=4605270), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Italian Crispy Chicken](https://en.wikibooks.org/w/index.php?title=Cookbook:Italian_Crispy_Chicken&oldid=4513516), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Italian Dressing I](https://en.wikibooks.org/w/index.php?title=Cookbook:Italian_Dressing_I&oldid=4524787), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Italian Dressing II](https://en.wikibooks.org/w/index.php?title=Cookbook:Italian_Dressing_II&oldid=4516391), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Italian Garlic and Herb Marinade](https://en.wikibooks.org/w/index.php?title=Cookbook:Italian_Garlic_and_Herb_Marinade&oldid=4506607), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Italian Marinated Chicken](https://en.wikibooks.org/w/index.php?title=Cookbook:Italian_Marinated_Chicken&oldid=4514966), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Italian Meatballs](https://en.wikibooks.org/w/index.php?title=Cookbook:Italian_Meatballs&oldid=4514964), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Italian Meringue](https://en.wikibooks.org/w/index.php?title=Cookbook:Italian_Meringue&oldid=4515986), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Italian Mulled Wine](https://en.wikibooks.org/w/index.php?title=Cookbook:Italian_Mulled_Wine&oldid=4514570), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Italian Poached Salmon](https://en.wikibooks.org/w/index.php?title=Cookbook:Italian_Poached_Salmon&oldid=4508149), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Italian Rice Pilaf](https://en.wikibooks.org/w/index.php?title=Cookbook:Italian_Rice_Pilaf&oldid=4514571), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Italian Rice Pudding](https://en.wikibooks.org/w/index.php?title=Cookbook:Italian_Rice_Pudding&oldid=4517883), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Italian Rice with Wild Mushrooms](https://en.wikibooks.org/w/index.php?title=Cookbook:Italian_Rice_with_Wild_Mushrooms&oldid=4517963), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Italian Seasoning](https://en.wikibooks.org/w/index.php?title=Cookbook:Italian_Seasoning&oldid=4516607), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Italian Soup with Poultry Quenelles](https://en.wikibooks.org/w/index.php?title=Cookbook:Italian_Soup_with_Poultry_Quenelles&oldid=4518423), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Italian Tomato Sauce](https://en.wikibooks.org/w/index.php?title=Cookbook:Italian_Tomato_Sauce&oldid=4516477), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Italian Tricolor Soup](https://en.wikibooks.org/w/index.php?title=Cookbook:Italian_Tricolor_Soup&oldid=4518421), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Italian White Bean Soup](https://en.wikibooks.org/w/index.php?title=Cookbook:Italian_White_Bean_Soup&oldid=4518424), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Ivorian Grilled Chicken](https://en.wikibooks.org/w/index.php?title=Cookbook:Ivorian_Grilled_Chicken&oldid=4613410), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Jahnun (Yemenite Layered Pastry)](https://en.wikibooks.org/w/index.php?title=Cookbook:Jahnun_(Yemenite_Layered_Pastry)&oldid=4630057), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Jailhouse Chili](https://en.wikibooks.org/w/index.php?title=Cookbook:Jailhouse_Chili&oldid=4518557), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Jal-jeera (Cumin Mango Lemonade)](https://en.wikibooks.org/w/index.php?title=Cookbook:Jal-jeera_(Cumin_Mango_Lemonade)&oldid=4531793), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Jalapeno Eggs](https://en.wikibooks.org/w/index.php?title=Cookbook:Jalapeno_Eggs&oldid=4511371), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Jalapeno Glazed Seared Salmon](https://en.wikibooks.org/w/index.php?title=Cookbook:Jalapeno_Glazed_Seared_Salmon&oldid=4511959), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Jalapeno Sausage and Bacon Appetizers (Atomic Buffalo Turds)](https://en.wikibooks.org/w/index.php?title=Cookbook:Jalapeno_Sausage_and_Bacon_Appetizers_(Atomic_Buffalo_Turds)&oldid=4514754), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Jalebi (Fritters in Syrup)](https://en.wikibooks.org/w/index.php?title=Cookbook:Jalebi_(Fritters_in_Syrup)&oldid=4517743), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Jam (recipe)](https://en.wikibooks.org/w/index.php?title=Cookbook:Jam_(recipe)&oldid=4519753), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Jam Roly-Poly](https://en.wikibooks.org/w/index.php?title=Cookbook:Jam_Roly-Poly&oldid=4587337), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Jam Roly-Poly (Steamed)](https://en.wikibooks.org/w/index.php?title=Cookbook:Jam_Roly-Poly_(Steamed)&oldid=4587484), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Jam Sandwich](https://en.wikibooks.org/w/index.php?title=Cookbook:Jam_Sandwich&oldid=4518258), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Jamaican Banana Fritters](https://en.wikibooks.org/w/index.php?title=Cookbook:Jamaican_Banana_Fritters&oldid=4522752), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Jamaican Chicken Fingers with Honey-Mustard Sauce](https://en.wikibooks.org/w/index.php?title=Cookbook:Jamaican_Chicken_Fingers_with_Honey-Mustard_Sauce&oldid=4509779), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Jamaican Curry Chicken with Bullga](https://en.wikibooks.org/w/index.php?title=Cookbook:Jamaican_Curry_Chicken_with_Bullga&oldid=4517541), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Jamaican Jerk Chicken](https://en.wikibooks.org/w/index.php?title=Cookbook:Jamaican_Jerk_Chicken&oldid=4613388), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Jamaican Jerk Spice I](https://en.wikibooks.org/w/index.php?title=Cookbook:Jamaican_Jerk_Spice_I&oldid=4516608), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Jamaican Jerk Spice II](https://en.wikibooks.org/w/index.php?title=Cookbook:Jamaican_Jerk_Spice_II&oldid=4516609), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Jamaican Rice and Peas](https://en.wikibooks.org/w/index.php?title=Cookbook:Jamaican_Rice_and_Peas&oldid=4534246), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Jamaican Sorrel Soda](https://en.wikibooks.org/w/index.php?title=Cookbook:Jamaican_Sorrel_Soda&oldid=4601089), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Jambalaya I](https://en.wikibooks.org/w/index.php?title=Cookbook:Jambalaya_I&oldid=4610544), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Jambalaya II](https://en.wikibooks.org/w/index.php?title=Cookbook:Jambalaya_II&oldid=4514026), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Jambons](https://en.wikibooks.org/w/index.php?title=Cookbook:Jambons&oldid=4587200), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Japanese Pickled Plums (Umeboshi)](https://en.wikibooks.org/w/index.php?title=Cookbook:Japanese_Pickled_Plums_(Umeboshi)&oldid=4519820), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Jerk Lobster](https://en.wikibooks.org/w/index.php?title=Cookbook:Jerk_Lobster&oldid=4630359), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Jersey Breakfast Dog](https://en.wikibooks.org/w/index.php?title=Cookbook:Jersey_Breakfast_Dog&oldid=4524766), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Jhilinga (Nepalese Rice Fritters)](https://en.wikibooks.org/w/index.php?title=Cookbook:Jhilinga_(Nepalese_Rice_Fritters)&oldid=4517744), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Jigarthanda Milk](https://en.wikibooks.org/w/index.php?title=Cookbook:Jigarthanda_Milk&oldid=4600990), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Ka'ak (Savory Ring-Shaped Biscuit)](https://en.wikibooks.org/w/index.php?title=Cookbook:Ka'ak_(Savory_Ring-Shaped_Biscuit)&oldid=4524767), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Kabab Barg (Persian Grilled Meat)](https://en.wikibooks.org/w/index.php?title=Cookbook:Kabab_Barg_(Persian_Grilled_Meat)&oldid=4516302), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Kabalagala (Ugandan Pancakes)](https://en.wikibooks.org/w/index.php?title=Cookbook:Kabalagala_(Ugandan_Pancakes)&oldid=4522839), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Kachumbari](https://en.wikibooks.org/w/index.php?title=Cookbook:Kachumbari&oldid=4640040), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Kaiserschmarrn (Austrian Shredded Pancake)](https://en.wikibooks.org/w/index.php?title=Cookbook:Kaiserschmarrn_(Austrian_Shredded_Pancake)&oldid=4540907), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Kaju Barfi (Indian Cashew Milk Confection)](https://en.wikibooks.org/w/index.php?title=Cookbook:Kaju_Barfi_(Indian_Cashew_Milk_Confection)&oldid=4517481), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Kal Kals (Sweet Curled Fritters)](https://en.wikibooks.org/w/index.php?title=Cookbook:Kal_Kals_(Sweet_Curled_Fritters)&oldid=4587250), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Kala (Liberian Fritters)](https://en.wikibooks.org/w/index.php?title=Cookbook:Kala_(Liberian_Fritters)&oldid=4517745), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Kale and Garlic Pasta](https://en.wikibooks.org/w/index.php?title=Cookbook:Kale_and_Garlic_Pasta&oldid=4514967), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Kanafeh (Egyptian Sweet Cheese Pastry)](https://en.wikibooks.org/w/index.php?title=Cookbook:Kanafeh_(Egyptian_Sweet_Cheese_Pastry)&oldid=4605269), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Kanda (Peanut Stew)](https://en.wikibooks.org/w/index.php?title=Cookbook:Kanda_(Peanut_Stew)&oldid=4518630), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Kanom Piak Poon (Thai Coconut and Pandan Pudding)](https://en.wikibooks.org/w/index.php?title=Cookbook:Kanom_Piak_Poon_(Thai_Coconut_and_Pandan_Pudding)&oldid=4517929), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Kansas City Barbecue Sauce](https://en.wikibooks.org/w/index.php?title=Cookbook:Kansas_City_Barbecue_Sauce&oldid=4519057), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Kare-Kare (Oxtail and Vegetables in Peanut Sauce)](https://en.wikibooks.org/w/index.php?title=Cookbook:Kare-Kare_(Oxtail_and_Vegetables_in_Peanut_Sauce)&oldid=4629624), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Karelian Pasties (Karjalanpiirakat)](https://en.wikibooks.org/w/index.php?title=Cookbook:Karelian_Pasties_(Karjalanpiirakat)&oldid=4587202), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Kari Ayam (Indonesian Chicken Curry)](https://en.wikibooks.org/w/index.php?title=Cookbook:Kari_Ayam_(Indonesian_Chicken_Curry)&oldid=4520354), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Karkanji (Chadian Spiced Hibiscus Drink)](https://en.wikibooks.org/w/index.php?title=Cookbook:Karkanji_(Chadian_Spiced_Hibiscus_Drink)&oldid=4510329), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Karma-Free Diet](https://en.wikibooks.org/w/index.php?title=Cookbook:Karma-Free_Diet&oldid=4026355), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Karnataka-Style Rasam (Tamarind and Tomato Soup)](https://en.wikibooks.org/w/index.php?title=Cookbook:Karnataka-Style_Rasam_(Tamarind_and_Tomato_Soup)&oldid=4615175), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Kashkaval Pane (Bulgarian Fried Cheese)](https://en.wikibooks.org/w/index.php?title=Cookbook:Kashkaval_Pane_(Bulgarian_Fried_Cheese)&oldid=4515055), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Kashmiri Pulao](https://en.wikibooks.org/w/index.php?title=Cookbook:Kashmiri_Pulao&oldid=4522413), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Kasnocken (Austrian Cheese Dumplings)](https://en.wikibooks.org/w/index.php?title=Cookbook:Kasnocken_(Austrian_Cheese_Dumplings)&oldid=4511373), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Katchi Biryani](https://en.wikibooks.org/w/index.php?title=Cookbook:Katchi_Biryani&oldid=4523281), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Katogo (Ugandan Mixed Breakfast Vegetables)](https://en.wikibooks.org/w/index.php?title=Cookbook:Katogo_(Ugandan_Mixed_Breakfast_Vegetables)&oldid=4513295), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Kawlata (Maltese Vegetable and Pork Soup)](https://en.wikibooks.org/w/index.php?title=Cookbook:Kawlata_(Maltese_Vegetable_and_Pork_Soup)&oldid=4518632), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Kedgeree (Rice and Smoked Fish)](https://en.wikibooks.org/w/index.php?title=Cookbook:Kedgeree_(Rice_and_Smoked_Fish)&oldid=4613704), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Kedjenou Chicken (Chicken and Vegetable Stew)](https://en.wikibooks.org/w/index.php?title=Cookbook:Kedjenou_Chicken_(Chicken_and_Vegetable_Stew)&oldid=4518633), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Kek Batik (Malaysian Tiffin)](https://en.wikibooks.org/w/index.php?title=Cookbook:Kek_Batik_(Malaysian_Tiffin)&oldid=4587515), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Kele Ka Halwa (Fried Bananas in Milk)](https://en.wikibooks.org/w/index.php?title=Cookbook:Kele_Ka_Halwa_(Fried_Bananas_in_Milk)&oldid=4587393), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Kendal Mint Cake](https://en.wikibooks.org/w/index.php?title=Cookbook:Kendal_Mint_Cake&oldid=4603238), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Kerala Pachadi (Coconut Mango Condiment)](https://en.wikibooks.org/w/index.php?title=Cookbook:Kerala_Pachadi_(Coconut_Mango_Condiment)&oldid=4519046), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Keralan Prawns](https://en.wikibooks.org/w/index.php?title=Cookbook:Keralan_Prawns&oldid=4510751), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Keralan Vegetable Stew](https://en.wikibooks.org/w/index.php?title=Cookbook:Keralan_Vegetable_Stew&oldid=4615200), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Kesari (South Indian Semolina Pudding)](https://en.wikibooks.org/w/index.php?title=Cookbook:Kesari_(South_Indian_Semolina_Pudding)&oldid=4540908), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Kesra (Algerian Semolina Flatbread)](https://en.wikibooks.org/w/index.php?title=Cookbook:Kesra_(Algerian_Semolina_Flatbread)&oldid=4503219), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Key Wat (Ethiopian Red Stew)](https://en.wikibooks.org/w/index.php?title=Cookbook:Key_Wat_(Ethiopian_Red_Stew)&oldid=4518635), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Khachapuri (Georgian Cheese Bread)](https://en.wikibooks.org/w/index.php?title=Cookbook:Khachapuri_(Georgian_Cheese_Bread)&oldid=4515084), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Khaman Dhokla (Steamed Gram Bread)](https://en.wikibooks.org/w/index.php?title=Cookbook:Khaman_Dhokla_(Steamed_Gram_Bread)&oldid=4615145), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Khandvi (Rolled Chickpea Noodles)](https://en.wikibooks.org/w/index.php?title=Cookbook:Khandvi_(Rolled_Chickpea_Noodles)&oldid=4615167), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Khanom Mo Keang (Thai Custard)](https://en.wikibooks.org/w/index.php?title=Cookbook:Khanom_Mo_Keang_(Thai_Custard)&oldid=4608512), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Khanom Salim (Sweet Mung Bean Threads with Coconut Syrup)](https://en.wikibooks.org/w/index.php?title=Cookbook:Khanom_Salim_(Sweet_Mung_Bean_Threads_with_Coconut_Syrup)&oldid=4517043), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Khanom Tian (Thai Coconut Rice Dumplings)](https://en.wikibooks.org/w/index.php?title=Cookbook:Khanom_Tian_(Thai_Coconut_Rice_Dumplings)&oldid=4541104), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Khao Pad Gai (Thai Chicken Fried Rice)](https://en.wikibooks.org/w/index.php?title=Cookbook:Khao_Pad_Gai_(Thai_Chicken_Fried_Rice)&oldid=4605286), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Khao Pad (Thai Fried Rice)](https://en.wikibooks.org/w/index.php?title=Cookbook:Khao_Pad_(Thai_Fried_Rice)&oldid=4512943), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Khara Pongal (Rice and Mung Bean Porridge)](https://en.wikibooks.org/w/index.php?title=Cookbook:Khara_Pongal_(Rice_and_Mung_Bean_Porridge)&oldid=4615203), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Khatti Dal (Spiced Tamarind Pigeon Peas)](https://en.wikibooks.org/w/index.php?title=Cookbook:Khatti_Dal_(Spiced_Tamarind_Pigeon_Peas)&oldid=4615154), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Kheer (Rice Pudding)](https://en.wikibooks.org/w/index.php?title=Cookbook:Kheer_(Rice_Pudding)&oldid=4587270), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Khichdi (South Asian Rice and Lentils)](https://en.wikibooks.org/w/index.php?title=Cookbook:Khichdi_(South_Asian_Rice_and_Lentils)&oldid=4515103), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Khubz Muluwah (Yemenite Layered Flatbread)](https://en.wikibooks.org/w/index.php?title=Cookbook:Khubz_Muluwah_(Yemenite_Layered_Flatbread)&oldid=4524770), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Khus Khus Halwa](https://en.wikibooks.org/w/index.php?title=Cookbook:Khus_Khus_Halwa&oldid=4513383), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Kibbeh](https://en.wikibooks.org/w/index.php?title=Cookbook:Kibbeh&oldid=4512849), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Kid-Friendly Pasta](https://en.wikibooks.org/w/index.php?title=Cookbook:Kid-Friendly_Pasta&oldid=4499839), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Kid-Friendly Pizza](https://en.wikibooks.org/w/index.php?title=Cookbook:Kid-Friendly_Pizza&oldid=4517836), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Kids' Vegetable Puree](https://en.wikibooks.org/w/index.php?title=Cookbook:Kids'_Vegetable_Puree&oldid=4497207), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Kik Alicha (Yellow Split Pea Stew)](https://en.wikibooks.org/w/index.php?title=Cookbook:Kik_Alicha_(Yellow_Split_Pea_Stew)&oldid=4518636), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Kilishi (Nigerian Beef Jerky)](https://en.wikibooks.org/w/index.php?title=Cookbook:Kilishi_(Nigerian_Beef_Jerky)&oldid=4513620), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Killer Queso Dip](https://en.wikibooks.org/w/index.php?title=Cookbook:Killer_Queso_Dip&oldid=4517647), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Kipspek (Bacon-wrapped Chicken)](https://en.wikibooks.org/w/index.php?title=Cookbook:Kipspek_(Bacon-wrapped_Chicken)&oldid=4513520), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Kisra (Sudanese Bread)](https://en.wikibooks.org/w/index.php?title=Cookbook:Kisra_(Sudanese_Bread)&oldid=4503456), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Kitfo (Ethiopian Minced Raw Meat)](https://en.wikibooks.org/w/index.php?title=Cookbook:Kitfo_(Ethiopian_Minced_Raw_Meat)&oldid=4502284), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Kiwi and Asian Pear in Lemon Dressing](https://en.wikibooks.org/w/index.php?title=Cookbook:Kiwi_and_Asian_Pear_in_Lemon_Dressing&oldid=4518148), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Klepon (Indonesian Sweet Boiled Rice Cake)](https://en.wikibooks.org/w/index.php?title=Cookbook:Klepon_(Indonesian_Sweet_Boiled_Rice_Cake)&oldid=4541090), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Knoephla (Small Flour Dumplings)](https://en.wikibooks.org/w/index.php?title=Cookbook:Knoephla_(Small_Flour_Dumplings)&oldid=4523282), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Knoephla Soup](https://en.wikibooks.org/w/index.php?title=Cookbook:Knoephla_Soup&oldid=4524771), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Koeksisters (Fried Braided Pastry in Syrup)](https://en.wikibooks.org/w/index.php?title=Cookbook:Koeksisters_(Fried_Braided_Pastry_in_Syrup)&oldid=4517747), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Koesisters with Coconut](https://en.wikibooks.org/w/index.php?title=Cookbook:Koesisters_with_Coconut&oldid=4587203), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Koko da Kosai (Fermented Corn Porridge and Bean Fritters)](https://en.wikibooks.org/w/index.php?title=Cookbook:Koko_da_Kosai_(Fermented_Corn_Porridge_and_Bean_Fritters)&oldid=4603864), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Kokoro (Nigerian Cornmeal Snacks)](https://en.wikibooks.org/w/index.php?title=Cookbook:Kokoro_(Nigerian_Cornmeal_Snacks)&oldid=4517748), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Komle (Norwegian Potato Dumplings)](https://en.wikibooks.org/w/index.php?title=Cookbook:Komle_(Norwegian_Potato_Dumplings)&oldid=4512089), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Kondowole (Malawian Toasted Sesame Seeds)](https://en.wikibooks.org/w/index.php?title=Cookbook:Kondowole_(Malawian_Toasted_Sesame_Seeds)&oldid=4505658), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Korean Shortribs](https://en.wikibooks.org/w/index.php?title=Cookbook:Korean_Shortribs&oldid=4507073), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Koshari (Egyptian Rice with Pasta and Lentils)](https://en.wikibooks.org/w/index.php?title=Cookbook:Koshari_(Egyptian_Rice_with_Pasta_and_Lentils)&oldid=4515104), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Koshary (Egyptian Pasta Salad with Rice and Lentils)](https://en.wikibooks.org/w/index.php?title=Cookbook:Koshary_(Egyptian_Pasta_Salad_with_Rice_and_Lentils)&oldid=4515123), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Kovaim (Hungarian Cheese Dumplings)](https://en.wikibooks.org/w/index.php?title=Cookbook:Kovaim_(Hungarian_Cheese_Dumplings)&oldid=4514673), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Kroppkakor (Swedish Potato and Pork Dumplings)](https://en.wikibooks.org/w/index.php?title=Cookbook:Kroppkakor_(Swedish_Potato_and_Pork_Dumplings)&oldid=4508259), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Krummelpap (South African Maize Porridge)](https://en.wikibooks.org/w/index.php?title=Cookbook:Krummelpap_(South_African_Maize_Porridge)&oldid=4495016), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Kubaneh (Yemenite Pull-Apart Bread)](https://en.wikibooks.org/w/index.php?title=Cookbook:Kubaneh_(Yemenite_Pull-Apart_Bread)&oldid=4630059), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Kuddi (Spiced Yogurt Sauce)](https://en.wikibooks.org/w/index.php?title=Cookbook:Kuddi_(Spiced_Yogurt_Sauce)&oldid=4518962), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Kugelis (Lithuanian Baked Potato Pudding)](https://en.wikibooks.org/w/index.php?title=Cookbook:Kugelis_(Lithuanian_Baked_Potato_Pudding)&oldid=4517930), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Kuih Bakul (Malaysian Sweet Browned Rice Cake)](https://en.wikibooks.org/w/index.php?title=Cookbook:Kuih_Bakul_(Malaysian_Sweet_Browned_Rice_Cake)&oldid=4587519), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Kuih Lapis (Malaysian Layered Steamed Confection)](https://en.wikibooks.org/w/index.php?title=Cookbook:Kuih_Lapis_(Malaysian_Layered_Steamed_Confection)&oldid=4517484), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Kuih Makmur (Malaysian Peanut Cookies)](https://en.wikibooks.org/w/index.php?title=Cookbook:Kuih_Makmur_(Malaysian_Peanut_Cookies)&oldid=4515292), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Kuih Seri Muka (Malaysian Sticky Rice with Pandan Custard)](https://en.wikibooks.org/w/index.php?title=Cookbook:Kuih_Seri_Muka_(Malaysian_Sticky_Rice_with_Pandan_Custard)&oldid=4587518), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Kuku Paka](https://en.wikibooks.org/w/index.php?title=Cookbook:Kuku_Paka&oldid=4637544), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Kuku Sabzi with Potato Slices](https://en.wikibooks.org/w/index.php?title=Cookbook:Kuku_Sabzi_with_Potato_Slices&oldid=4608918), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Kulfi (South Asian Frozen Custard)](https://en.wikibooks.org/w/index.php?title=Cookbook:Kulfi_(South_Asian_Frozen_Custard)&oldid=4639854), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Kuli-kuli](https://en.wikibooks.org/w/index.php?title=Cookbook:Kuli-kuli&oldid=4512222), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Kunafa Bil Ashta (Egyptian Clotted Cream Pastry)](https://en.wikibooks.org/w/index.php?title=Cookbook:Kunafa_Bil_Ashta_(Egyptian_Clotted_Cream_Pastry)&oldid=4587494), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Kung Pao Chicken](https://en.wikibooks.org/w/index.php?title=Cookbook:Kung_Pao_Chicken&oldid=4518961), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Kunun Aduwa (Nigerian Tiger Nut Milk)](https://en.wikibooks.org/w/index.php?title=Cookbook:Kunun_Aduwa_(Nigerian_Tiger_Nut_Milk)&oldid=4525403), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Kunun Gyada (Groundnut and Rice Gruel)](https://en.wikibooks.org/w/index.php?title=Cookbook:Kunun_Gyada_(Groundnut_and_Rice_Gruel)&oldid=4524340), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Kunun kanwa](https://en.wikibooks.org/w/index.php?title=Cookbook:Kunun_kanwa&oldid=4526641), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Kunun Tamba (Finger Millet Porridge)](https://en.wikibooks.org/w/index.php?title=Cookbook:Kunun_Tamba_(Finger_Millet_Porridge)&oldid=4513166), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Kunun Tsamiya (Nigerian Powdered Millet and Tsamiya Drink)](https://en.wikibooks.org/w/index.php?title=Cookbook:Kunun_Tsamiya_(Nigerian_Powdered_Millet_and_Tsamiya_Drink)&oldid=4513167), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Kurma (Trinidadian Fried Dough in Syrup)](https://en.wikibooks.org/w/index.php?title=Cookbook:Kurma_(Trinidadian_Fried_Dough_in_Syrup)&oldid=4587205), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Kuwese U Logo (Nigerian Fried Cassava)](https://en.wikibooks.org/w/index.php?title=Cookbook:Kuwese_U_Logo_(Nigerian_Fried_Cassava)&oldid=4494274), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Kwacoco (Cameroonian Steamed Taro Bundles)](https://en.wikibooks.org/w/index.php?title=Cookbook:Kwacoco_(Cameroonian_Steamed_Taro_Bundles)&oldid=4513621), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Kwado (Nigerian Cassava Flour Salad)](https://en.wikibooks.org/w/index.php?title=Cookbook:Kwado_(Nigerian_Cassava_Flour_Salad)&oldid=4494248), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Kwek-Kwek (Deep-Fried Quail Eggs)](https://en.wikibooks.org/w/index.php?title=Cookbook:Kwek-Kwek_(Deep-Fried_Quail_Eggs)&oldid=4508216), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Kyopulo (Eggplant with Peppers and Tomatoes)](https://en.wikibooks.org/w/index.php?title=Cookbook:Kyopulo_(Eggplant_with_Peppers_and_Tomatoes)&oldid=4514091), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Kyselo (Czech Sourdough Mushroom Soup)](https://en.wikibooks.org/w/index.php?title=Cookbook:Kyselo_(Czech_Sourdough_Mushroom_Soup)&oldid=4610379), CC-BY-SA-4.0
+- [Wikibooks Cookbook: La Boule (Steamed Millet Bread)](https://en.wikibooks.org/w/index.php?title=Cookbook:La_Boule_(Steamed_Millet_Bread)&oldid=4501236), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Lady Arundel's Manchet](https://en.wikibooks.org/w/index.php?title=Cookbook:Lady_Arundel's_Manchet&oldid=4524025), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Lady Finger Cookies (Savoiardi)](https://en.wikibooks.org/w/index.php?title=Cookbook:Lady_Finger_Cookies_(Savoiardi)&oldid=4515289), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Lafun (Nigerian Cassava Swallow)](https://en.wikibooks.org/w/index.php?title=Cookbook:Lafun_(Nigerian_Cassava_Swallow)&oldid=4638631), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Lahoh (Spongy Flatbread) I](https://en.wikibooks.org/w/index.php?title=Cookbook:Lahoh_(Spongy_Flatbread)_I&oldid=4630060), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Lahoh (Spongy Flatbread) II](https://en.wikibooks.org/w/index.php?title=Cookbook:Lahoh_(Spongy_Flatbread)_II&oldid=4630061), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Lamb and Okra Stew (Khoresht Bamiye)](https://en.wikibooks.org/w/index.php?title=Cookbook:Lamb_and_Okra_Stew_(Khoresht_Bamiye)&oldid=4525639), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Lamb Kofta](https://en.wikibooks.org/w/index.php?title=Cookbook:Lamb_Kofta&oldid=4585398), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Lamb Sausages and Grilled Potatoes](https://en.wikibooks.org/w/index.php?title=Cookbook:Lamb_Sausages_and_Grilled_Potatoes&oldid=4524828), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Lamb Shawarma](https://en.wikibooks.org/w/index.php?title=Cookbook:Lamb_Shawarma&oldid=4510330), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Lamington](https://en.wikibooks.org/w/index.php?title=Cookbook:Lamington&oldid=4587274), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Lancashire Hotpot](https://en.wikibooks.org/w/index.php?title=Cookbook:Lancashire_Hotpot&oldid=4497923), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Lancashire Parkin](https://en.wikibooks.org/w/index.php?title=Cookbook:Lancashire_Parkin&oldid=4534275), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Lane Cake](https://en.wikibooks.org/w/index.php?title=Cookbook:Lane_Cake&oldid=4522776), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Langar Dal](https://en.wikibooks.org/w/index.php?title=Cookbook:Langar_Dal&oldid=4597437), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Lángos (Hungarian Fried Flatbread)](https://en.wikibooks.org/w/index.php?title=Cookbook:L%C3%A1ngos_(Hungarian_Fried_Flatbread)&oldid=4629275), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Lapis Legit (Many-Layered Spiced Cake)](https://en.wikibooks.org/w/index.php?title=Cookbook:Lapis_Legit_(Many-Layered_Spiced_Cake)&oldid=4517054), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Lasagne with Bean Sauce](https://en.wikibooks.org/w/index.php?title=Cookbook:Lasagne_with_Bean_Sauce&oldid=4605268), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Lasagne with Red and White Sauce](https://en.wikibooks.org/w/index.php?title=Cookbook:Lasagne_with_Red_and_White_Sauce&oldid=4605235), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Latino Scramble](https://en.wikibooks.org/w/index.php?title=Cookbook:Latino_Scramble&oldid=4605228), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Latkes](https://en.wikibooks.org/w/index.php?title=Cookbook:Latkes&oldid=4631620), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Latte di Suocera (Lemon Cream Liqueur)](https://en.wikibooks.org/w/index.php?title=Cookbook:Latte_di_Suocera_(Lemon_Cream_Liqueur)&oldid=4522212), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Layered Pecan Pie](https://en.wikibooks.org/w/index.php?title=Cookbook:Layered_Pecan_Pie&oldid=4587352), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Le Tourin (Garlic Soup)](https://en.wikibooks.org/w/index.php?title=Cookbook:Le_Tourin_(Garlic_Soup)&oldid=4518429), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Leaf Masala](https://en.wikibooks.org/w/index.php?title=Cookbook:Leaf_Masala&oldid=4517545), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Leaf Masala Curry](https://en.wikibooks.org/w/index.php?title=Cookbook:Leaf_Masala_Curry&oldid=4517546), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Leben (Middle Eastern Sour Milk)](https://en.wikibooks.org/w/index.php?title=Cookbook:Leben_(Middle_Eastern_Sour_Milk)&oldid=4522211), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Lechon Paksiw (Pork Roast Leftovers in Sweet and Sour Sauce)](https://en.wikibooks.org/w/index.php?title=Cookbook:Lechon_Paksiw_(Pork_Roast_Leftovers_in_Sweet_and_Sour_Sauce)&oldid=4506562), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Leek, Parsley, and Cheddar Mash](https://en.wikibooks.org/w/index.php?title=Cookbook:Leek,_Parsley,_and_Cheddar_Mash&oldid=4524830), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Lefse (Norwegian Potato Flatbread)](https://en.wikibooks.org/w/index.php?title=Cookbook:Lefse_(Norwegian_Potato_Flatbread)&oldid=4519135), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Lekhchef (Algerian Raisin Drink)](https://en.wikibooks.org/w/index.php?title=Cookbook:Lekhchef_(Algerian_Raisin_Drink)&oldid=4513340), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Lemon Blueberry Pancakes](https://en.wikibooks.org/w/index.php?title=Cookbook:Lemon_Blueberry_Pancakes&oldid=4522772), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Lemon Cake with Lemon Glaze](https://en.wikibooks.org/w/index.php?title=Cookbook:Lemon_Cake_with_Lemon_Glaze&oldid=4523361), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Lemon Chicken Pasta](https://en.wikibooks.org/w/index.php?title=Cookbook:Lemon_Chicken_Pasta&oldid=4508151), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Lemon Cream Sauce](https://en.wikibooks.org/w/index.php?title=Cookbook:Lemon_Cream_Sauce&oldid=4518964), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Lemon Curd](https://en.wikibooks.org/w/index.php?title=Cookbook:Lemon_Curd&oldid=4587303), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Lemon Custard Pastry Cups (Pastel de Nada)](https://en.wikibooks.org/w/index.php?title=Cookbook:Lemon_Custard_Pastry_Cups_(Pastel_de_Nada)&oldid=4587324), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Lemon Drizzle Cake](https://en.wikibooks.org/w/index.php?title=Cookbook:Lemon_Drizzle_Cake&oldid=4517059), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Lemon Icing](https://en.wikibooks.org/w/index.php?title=Cookbook:Lemon_Icing&oldid=4541036), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Lemon Impossible Pie](https://en.wikibooks.org/w/index.php?title=Cookbook:Lemon_Impossible_Pie&oldid=4587316), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Lemon Italian Ice](https://en.wikibooks.org/w/index.php?title=Cookbook:Lemon_Italian_Ice&oldid=4587392), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Lemon-Lime Soda I](https://en.wikibooks.org/w/index.php?title=Cookbook:Lemon-Lime_Soda_I&oldid=4608738), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Lemon-Lime Soda II](https://en.wikibooks.org/w/index.php?title=Cookbook:Lemon-Lime_Soda_II&oldid=4611307), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Lemon Mayonnaise](https://en.wikibooks.org/w/index.php?title=Cookbook:Lemon_Mayonnaise&oldid=4519065), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Lemon Meringue Pie (American)](https://en.wikibooks.org/w/index.php?title=Cookbook:Lemon_Meringue_Pie_(American)&oldid=4587268), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Lemon Meringue Pie (British)](https://en.wikibooks.org/w/index.php?title=Cookbook:Lemon_Meringue_Pie_(British)&oldid=4517316), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Lemon Mille-feuille](https://en.wikibooks.org/w/index.php?title=Cookbook:Lemon_Mille-feuille&oldid=4587207), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Lemon Pickle I](https://en.wikibooks.org/w/index.php?title=Cookbook:Lemon_Pickle_I&oldid=4615162), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Lemon Pickle II](https://en.wikibooks.org/w/index.php?title=Cookbook:Lemon_Pickle_II&oldid=4615170), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Lemon Poppy Seed Muffins (Glazed)](https://en.wikibooks.org/w/index.php?title=Cookbook:Lemon_Poppy_Seed_Muffins_(Glazed)&oldid=4523364), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Lemon Poppy Seed Pancakes](https://en.wikibooks.org/w/index.php?title=Cookbook:Lemon_Poppy_Seed_Pancakes&oldid=4523365), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Lemon popsicle](https://en.wikibooks.org/w/index.php?title=Cookbook:Lemon_popsicle&oldid=4670122), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Lemon Pound Cake](https://en.wikibooks.org/w/index.php?title=Cookbook:Lemon_Pound_Cake&oldid=4517066), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Lemon Puddings (Baked)](https://en.wikibooks.org/w/index.php?title=Cookbook:Lemon_Puddings_(Baked)&oldid=4587475), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Lemon Rice](https://en.wikibooks.org/w/index.php?title=Cookbook:Lemon_Rice&oldid=4615196), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Lemon Rosemary Pork Tenderloin](https://en.wikibooks.org/w/index.php?title=Cookbook:Lemon_Rosemary_Pork_Tenderloin&oldid=4510170), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Lemon Sharbat](https://en.wikibooks.org/w/index.php?title=Cookbook:Lemon_Sharbat&oldid=4510171), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Lemon Sponge](https://en.wikibooks.org/w/index.php?title=Cookbook:Lemon_Sponge&oldid=4523366), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Lemon Squares](https://en.wikibooks.org/w/index.php?title=Cookbook:Lemon_Squares&oldid=4517069), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Lemonade](https://en.wikibooks.org/w/index.php?title=Cookbook:Lemonade&oldid=4670123), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Lemonade (Extra-sour)](https://en.wikibooks.org/w/index.php?title=Cookbook:Lemonade_(Extra-sour)&oldid=4510175), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Lentil and Sausage Stew](https://en.wikibooks.org/w/index.php?title=Cookbook:Lentil_and_Sausage_Stew&oldid=4518638), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Lentil, Potato, and Tomato Curry](https://en.wikibooks.org/w/index.php?title=Cookbook:Lentil,_Potato,_and_Tomato_Curry&oldid=4518639), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Lentil Rice Loaf](https://en.wikibooks.org/w/index.php?title=Cookbook:Lentil_Rice_Loaf&oldid=4515107), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Lentils and Rice (Mjeddrah)](https://en.wikibooks.org/w/index.php?title=Cookbook:Lentils_and_Rice_(Mjeddrah)&oldid=4518799), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Leong's Cashew Chicken](https://en.wikibooks.org/w/index.php?title=Cookbook:Leong's_Cashew_Chicken&oldid=4522428), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Lettuce Soup](https://en.wikibooks.org/w/index.php?title=Cookbook:Lettuce_Soup&oldid=4518436), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Liberian Butter Rice](https://en.wikibooks.org/w/index.php?title=Cookbook:Liberian_Butter_Rice&oldid=4512953), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Liberian Cassava Leaf Soup](https://en.wikibooks.org/w/index.php?title=Cookbook:Liberian_Cassava_Leaf_Soup&oldid=4518432), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Liberian Chicken Gravy](https://en.wikibooks.org/w/index.php?title=Cookbook:Liberian_Chicken_Gravy&oldid=4513963), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Liberian Collard Greens Stew](https://en.wikibooks.org/w/index.php?title=Cookbook:Liberian_Collard_Greens_Stew&oldid=4518641), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Liberian Country Beans Torborgee](https://en.wikibooks.org/w/index.php?title=Cookbook:Liberian_Country_Beans_Torborgee&oldid=4513291), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Liberian Eggplant Stew](https://en.wikibooks.org/w/index.php?title=Cookbook:Liberian_Eggplant_Stew&oldid=4629625), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Liberian Fried Fish](https://en.wikibooks.org/w/index.php?title=Cookbook:Liberian_Fried_Fish&oldid=4511462), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Liberian Fried Plantains with Beans](https://en.wikibooks.org/w/index.php?title=Cookbook:Liberian_Fried_Plantains_with_Beans&oldid=4534249), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Liberian Fried Sweet Potato Puffs](https://en.wikibooks.org/w/index.php?title=Cookbook:Liberian_Fried_Sweet_Potato_Puffs&oldid=4494179), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Liberian Fufu](https://en.wikibooks.org/w/index.php?title=Cookbook:Liberian_Fufu&oldid=4618164), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Liberian Jollof Rice](https://en.wikibooks.org/w/index.php?title=Cookbook:Liberian_Jollof_Rice&oldid=4514098), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Liberian Palm Oil Stew](https://en.wikibooks.org/w/index.php?title=Cookbook:Liberian_Palm_Oil_Stew&oldid=4629626), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Liberian Pepper Soup](https://en.wikibooks.org/w/index.php?title=Cookbook:Liberian_Pepper_Soup&oldid=4518431), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Liberian Potato Greens](https://en.wikibooks.org/w/index.php?title=Cookbook:Liberian_Potato_Greens&oldid=4503471), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Liberian Roasted Corn](https://en.wikibooks.org/w/index.php?title=Cookbook:Liberian_Roasted_Corn&oldid=4495014), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Light Fluffy Pancakes](https://en.wikibooks.org/w/index.php?title=Cookbook:Light_Fluffy_Pancakes&oldid=4522787), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Lime and Mascarpone Cheesecake](https://en.wikibooks.org/w/index.php?title=Cookbook:Lime_and_Mascarpone_Cheesecake&oldid=4515888), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Limoncello](https://en.wikibooks.org/w/index.php?title=Cookbook:Limoncello&oldid=4509954), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Limoncello II](https://en.wikibooks.org/w/index.php?title=Cookbook:Limoncello_II&oldid=4509955), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Linguine Primavera Mediterranean](https://en.wikibooks.org/w/index.php?title=Cookbook:Linguine_Primavera_Mediterranean&oldid=4524831), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Liver and Onions](https://en.wikibooks.org/w/index.php?title=Cookbook:Liver_and_Onions&oldid=4524000), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Liver Kebabs](https://en.wikibooks.org/w/index.php?title=Cookbook:Liver_Kebabs&oldid=4516307), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Liverpool Lamb and Vegetable Soup (Scouse)](https://en.wikibooks.org/w/index.php?title=Cookbook:Liverpool_Lamb_and_Vegetable_Soup_(Scouse)&oldid=4518433), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Lo Mein](https://en.wikibooks.org/w/index.php?title=Cookbook:Lo_Mein&oldid=4524832), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Lobster Bisque](https://en.wikibooks.org/w/index.php?title=Cookbook:Lobster_Bisque&oldid=4630360), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Lobster Thermidor](https://en.wikibooks.org/w/index.php?title=Cookbook:Lobster_Thermidor&oldid=4630361), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Loco Moco (Rice with Egg and Hamburger)](https://en.wikibooks.org/w/index.php?title=Cookbook:Loco_Moco_(Rice_with_Egg_and_Hamburger)&oldid=4512955), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Locrio (Dominican Chicken and Rice)](https://en.wikibooks.org/w/index.php?title=Cookbook:Locrio_(Dominican_Chicken_and_Rice)&oldid=4587144), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Lolly Cake](https://en.wikibooks.org/w/index.php?title=Cookbook:Lolly_Cake&oldid=4530191), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Lomo Saltado (Peruvian Steak Stir-fry)](https://en.wikibooks.org/w/index.php?title=Cookbook:Lomo_Saltado_(Peruvian_Steak_Stir-fry)&oldid=4523477), CC-BY-SA-4.0
+- [Wikibooks Cookbook: London Broil](https://en.wikibooks.org/w/index.php?title=Cookbook:London_Broil&oldid=4613412), CC-BY-SA-4.0
+- [Wikibooks Cookbook: London Fog](https://en.wikibooks.org/w/index.php?title=Cookbook:London_Fog&oldid=4524026), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Long Island Iced Tea](https://en.wikibooks.org/w/index.php?title=Cookbook:Long_Island_Iced_Tea&oldid=4510604), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Louis Dressing](https://en.wikibooks.org/w/index.php?title=Cookbook:Louis_Dressing&oldid=4516390), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Loukoumas (Greek Donuts with Honey) I](https://en.wikibooks.org/w/index.php?title=Cookbook:Loukoumas_(Greek_Donuts_with_Honey)_I&oldid=4587242), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Loukoumas (Greek Donuts with Honey) II](https://en.wikibooks.org/w/index.php?title=Cookbook:Loukoumas_(Greek_Donuts_with_Honey)_II&oldid=4517751), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Low Country Shrimp and Grits](https://en.wikibooks.org/w/index.php?title=Cookbook:Low_Country_Shrimp_and_Grits&oldid=4511869), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Luciabullar (Scandinavian Saffron Buns)](https://en.wikibooks.org/w/index.php?title=Cookbook:Luciabullar_(Scandinavian_Saffron_Buns)&oldid=4505679), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Lumanda (Zambian Okra Stew)](https://en.wikibooks.org/w/index.php?title=Cookbook:Lumanda_(Zambian_Okra_Stew)&oldid=4518642), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Lumberjacks](https://en.wikibooks.org/w/index.php?title=Cookbook:Lumberjacks&oldid=4599183), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Lumpia (Fried Filipino Spring Rolls)](https://en.wikibooks.org/w/index.php?title=Cookbook:Lumpia_(Fried_Filipino_Spring_Rolls)&oldid=4500415), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Lumpiang Shanghai (Filipino Pork Spring Rolls)](https://en.wikibooks.org/w/index.php?title=Cookbook:Lumpiang_Shanghai_(Filipino_Pork_Spring_Rolls)&oldid=4615010), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Luwombo (Ugandan Steamed Meat and Vegetables)](https://en.wikibooks.org/w/index.php?title=Cookbook:Luwombo_(Ugandan_Steamed_Meat_and_Vegetables)&oldid=4629628), CC-BY-SA-4.0
+- [Wikibooks Cookbook: M'batata (Sweet Potato And Peanut Soup)](https://en.wikibooks.org/w/index.php?title=Cookbook:M'batata_(Sweet_Potato_And_Peanut_Soup)&oldid=4518434), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Mực Nhồi Thịt (Vietnamese Stuffed Squid)](https://en.wikibooks.org/w/index.php?title=Cookbook:M%E1%BB%B1c_Nh%E1%BB%93i_Th%E1%BB%8Bt_(Vietnamese_Stuffed_Squid)&oldid=4494457), CC-BY-SA-4.0
+- [Wikibooks Cookbook: M'semen (Layered Algerian Flatbread)](https://en.wikibooks.org/w/index.php?title=Cookbook:M'semen_(Layered_Algerian_Flatbread)&oldid=4504954), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Ma'amoul (Arabian Filled Pastries)](https://en.wikibooks.org/w/index.php?title=Cookbook:Ma'amoul_(Arabian_Filled_Pastries)&oldid=4587208), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Macaroni and Cheese (Baked)](https://en.wikibooks.org/w/index.php?title=Cookbook:Macaroni_and_Cheese_(Baked)&oldid=4615198), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Macaroni and Cheese I](https://en.wikibooks.org/w/index.php?title=Cookbook:Macaroni_and_Cheese_I&oldid=4600879), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Macaroni and Cheese II](https://en.wikibooks.org/w/index.php?title=Cookbook:Macaroni_and_Cheese_II&oldid=4523403), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Macaroni and Cheese (Microwaved)](https://en.wikibooks.org/w/index.php?title=Cookbook:Macaroni_and_Cheese_(Microwaved)&oldid=4522784), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Macaroni and Cheese (Vegan)](https://en.wikibooks.org/w/index.php?title=Cookbook:Macaroni_and_Cheese_(Vegan)&oldid=4516160), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Macaroni Pie](https://en.wikibooks.org/w/index.php?title=Cookbook:Macaroni_Pie&oldid=4654902), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Macaroni Salad](https://en.wikibooks.org/w/index.php?title=Cookbook:Macaroni_Salad&oldid=4615185), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Machacado con Huevo (Eggs with Shredded Beef)](https://en.wikibooks.org/w/index.php?title=Cookbook:Machacado_con_Huevo_(Eggs_with_Shredded_Beef)&oldid=4515177), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Macho Nachos](https://en.wikibooks.org/w/index.php?title=Cookbook:Macho_Nachos&oldid=4515178), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Madbucha (North African Peppers and Tomatoes)](https://en.wikibooks.org/w/index.php?title=Cookbook:Madbucha_(North_African_Peppers_and_Tomatoes)&oldid=4514096), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Madeleines](https://en.wikibooks.org/w/index.php?title=Cookbook:Madeleines&oldid=4516930), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Madras Filter Coffee](https://en.wikibooks.org/w/index.php?title=Cookbook:Madras_Filter_Coffee&oldid=4522456), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Maffé (West African Peanut Stew) I](https://en.wikibooks.org/w/index.php?title=Cookbook:Maff%C3%A9_(West_African_Peanut_Stew)_I&oldid=4518790), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Maffé (West African Peanut Stew) II](https://en.wikibooks.org/w/index.php?title=Cookbook:Maff%C3%A9_(West_African_Peanut_Stew)_II&oldid=4630338), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Maffé (West African Peanut Stew) III](https://en.wikibooks.org/w/index.php?title=Cookbook:Maff%C3%A9_(West_African_Peanut_Stew)_III&oldid=4518792), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Mafrum bil Lahm (Libyan Baked Meat and Potatoes)](https://en.wikibooks.org/w/index.php?title=Cookbook:Mafrum_bil_Lahm_(Libyan_Baked_Meat_and_Potatoes)&oldid=4507339), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Magic Brownies](https://en.wikibooks.org/w/index.php?title=Cookbook:Magic_Brownies&oldid=4587335), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Maharashtrian Deep Fried Chickpea Dough Curry Snacks (Pakoda)](https://en.wikibooks.org/w/index.php?title=Cookbook:Maharashtrian_Deep_Fried_Chickpea_Dough_Curry_Snacks_(Pakoda)&oldid=4517752), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Mahshi (Egyptian Stuffed Vegetables)](https://en.wikibooks.org/w/index.php?title=Cookbook:Mahshi_(Egyptian_Stuffed_Vegetables)&oldid=4531803), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Maitorieska (Finnish Barley Flatbread)](https://en.wikibooks.org/w/index.php?title=Cookbook:Maitorieska_(Finnish_Barley_Flatbread)&oldid=4513087), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Maja Blanca (Coconut Milk Pudding)](https://en.wikibooks.org/w/index.php?title=Cookbook:Maja_Blanca_(Coconut_Milk_Pudding)&oldid=4517931), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Makki di Roti (Indian Cornmeal Flatbread)](https://en.wikibooks.org/w/index.php?title=Cookbook:Makki_di_Roti_(Indian_Cornmeal_Flatbread)&oldid=4513129), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Maklubi (Rice with Meat and Vegetables)](https://en.wikibooks.org/w/index.php?title=Cookbook:Maklubi_(Rice_with_Meat_and_Vegetables)&oldid=4512959), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Malai Mixed Vegetable Curry](https://en.wikibooks.org/w/index.php?title=Cookbook:Malai_Mixed_Vegetable_Curry&oldid=4524805), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Malawach (Flaky Flatbread)](https://en.wikibooks.org/w/index.php?title=Cookbook:Malawach_(Flaky_Flatbread)&oldid=4630062), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Malpua (South Asian Sweet Pancake)](https://en.wikibooks.org/w/index.php?title=Cookbook:Malpua_(South_Asian_Sweet_Pancake)&oldid=4522732), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Maltese Almond Cookies (Biskuttini tal-Lewz)](https://en.wikibooks.org/w/index.php?title=Cookbook:Maltese_Almond_Cookies_(Biskuttini_tal-Lewz)&oldid=4515297), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Maltese Rabbit Stew (Stuffat tal-Fenek)](https://en.wikibooks.org/w/index.php?title=Cookbook:Maltese_Rabbit_Stew_(Stuffat_tal-Fenek)&oldid=4518648), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Malvani Chicken Curry](https://en.wikibooks.org/w/index.php?title=Cookbook:Malvani_Chicken_Curry&oldid=4517550), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Mandarin Orange Cake](https://en.wikibooks.org/w/index.php?title=Cookbook:Mandarin_Orange_Cake&oldid=4517719), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Mandazi (East African Doughnuts)](https://en.wikibooks.org/w/index.php?title=Cookbook:Mandazi_(East_African_Doughnuts)&oldid=4517754), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Mandoca (Fried Breaded Pepper)](https://en.wikibooks.org/w/index.php?title=Cookbook:Mandoca_(Fried_Breaded_Pepper)&oldid=4501578), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Mango and Yellow Split Pea Curry](https://en.wikibooks.org/w/index.php?title=Cookbook:Mango_and_Yellow_Split_Pea_Curry&oldid=4615164), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Mango Atchar](https://en.wikibooks.org/w/index.php?title=Cookbook:Mango_Atchar&oldid=4615138), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Mango Chutney (Chunky)](https://en.wikibooks.org/w/index.php?title=Cookbook:Mango_Chutney_(Chunky)&oldid=4519081), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Mango Chutney (Smooth)](https://en.wikibooks.org/w/index.php?title=Cookbook:Mango_Chutney_(Smooth)&oldid=4615187), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Mango Coconut Sticky Rice](https://en.wikibooks.org/w/index.php?title=Cookbook:Mango_Coconut_Sticky_Rice&oldid=4587441), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Manhattan Clam Chowder I](https://en.wikibooks.org/w/index.php?title=Cookbook:Manhattan_Clam_Chowder_I&oldid=4630304), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Manhattan Clam Chowder II](https://en.wikibooks.org/w/index.php?title=Cookbook:Manhattan_Clam_Chowder_II&oldid=4519259), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Manx Smoked Salmon](https://en.wikibooks.org/w/index.php?title=Cookbook:Manx_Smoked_Salmon&oldid=4524808), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Maple Barbecue Baby Back Ribs](https://en.wikibooks.org/w/index.php?title=Cookbook:Maple_Barbecue_Baby_Back_Ribs&oldid=4505870), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Maple Barbecue Sauce](https://en.wikibooks.org/w/index.php?title=Cookbook:Maple_Barbecue_Sauce&oldid=4613421), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Maple Beans](https://en.wikibooks.org/w/index.php?title=Cookbook:Maple_Beans&oldid=4615153), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Maple Butter Tart](https://en.wikibooks.org/w/index.php?title=Cookbook:Maple_Butter_Tart&oldid=4587522), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Maple Cream](https://en.wikibooks.org/w/index.php?title=Cookbook:Maple_Cream&oldid=4526001), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Maple Cumin Glazed Grilled Bananas](https://en.wikibooks.org/w/index.php?title=Cookbook:Maple_Cumin_Glazed_Grilled_Bananas&oldid=4517082), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Maple-Glazed BBQ Ribs](https://en.wikibooks.org/w/index.php?title=Cookbook:Maple-Glazed_BBQ_Ribs&oldid=4505122), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Maple Glazed Chicken Breasts](https://en.wikibooks.org/w/index.php?title=Cookbook:Maple_Glazed_Chicken_Breasts&oldid=4511978), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Maple Syrup Planked Salmon](https://en.wikibooks.org/w/index.php?title=Cookbook:Maple_Syrup_Planked_Salmon&oldid=4510179), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Mapo Tofu](https://en.wikibooks.org/w/index.php?title=Cookbook:Mapo_Tofu&oldid=4610542), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Margarita Grilled Chicken](https://en.wikibooks.org/w/index.php?title=Cookbook:Margarita_Grilled_Chicken&oldid=4509831), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Marinated Cucumbers and Onions](https://en.wikibooks.org/w/index.php?title=Cookbook:Marinated_Cucumbers_and_Onions&oldid=4518149), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Marinated Green Olives](https://en.wikibooks.org/w/index.php?title=Cookbook:Marinated_Green_Olives&oldid=4510607), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Marinated Mackerel](https://en.wikibooks.org/w/index.php?title=Cookbook:Marinated_Mackerel&oldid=4508879), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Marsala Chicken Scallopini](https://en.wikibooks.org/w/index.php?title=Cookbook:Marsala_Chicken_Scallopini&oldid=4512091), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Marshmallow Rice Squares I](https://en.wikibooks.org/w/index.php?title=Cookbook:Marshmallow_Rice_Squares_I&oldid=4587248), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Marshmallow Rice Squares II](https://en.wikibooks.org/w/index.php?title=Cookbook:Marshmallow_Rice_Squares_II&oldid=4587501), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Marshmallows](https://en.wikibooks.org/w/index.php?title=Cookbook:Marshmallows&oldid=4517485), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Marzipan Cake](https://en.wikibooks.org/w/index.php?title=Cookbook:Marzipan_Cake&oldid=4516933), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Marzipan Muffins](https://en.wikibooks.org/w/index.php?title=Cookbook:Marzipan_Muffins&oldid=4524811), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Masa (Hausa Rice Pancake)](https://en.wikibooks.org/w/index.php?title=Cookbook:Masa_(Hausa_Rice_Pancake)&oldid=4636106), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Masala Chai I](https://en.wikibooks.org/w/index.php?title=Cookbook:Masala_Chai_I&oldid=4599073), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Masala Chai II](https://en.wikibooks.org/w/index.php?title=Cookbook:Masala_Chai_II&oldid=4599074), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Masala Dosa](https://en.wikibooks.org/w/index.php?title=Cookbook:Masala_Dosa&oldid=4615140), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Mascarpone Chocolate Sauce](https://en.wikibooks.org/w/index.php?title=Cookbook:Mascarpone_Chocolate_Sauce&oldid=4518970), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Mascarpone Glazed Strawberries](https://en.wikibooks.org/w/index.php?title=Cookbook:Mascarpone_Glazed_Strawberries&oldid=4509365), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Mascarpone Mac 'n Cheese](https://en.wikibooks.org/w/index.php?title=Cookbook:Mascarpone_Mac_'n_Cheese&oldid=4516164), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Mashed Plantains and Pork Rinds (Mofongo)](https://en.wikibooks.org/w/index.php?title=Cookbook:Mashed_Plantains_and_Pork_Rinds_(Mofongo)&oldid=4503486), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Mashed Potatoes](https://en.wikibooks.org/w/index.php?title=Cookbook:Mashed_Potatoes&oldid=4669243), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Mashed Pumpkin](https://en.wikibooks.org/w/index.php?title=Cookbook:Mashed_Pumpkin&oldid=4502782), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Mashed Sweet Potatoes](https://en.wikibooks.org/w/index.php?title=Cookbook:Mashed_Sweet_Potatoes&oldid=4494177), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Masyaura Curry](https://en.wikibooks.org/w/index.php?title=Cookbook:Masyaura_Curry&oldid=4507267), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Masyaura (Nepali Fermented Vegetable Balls)](https://en.wikibooks.org/w/index.php?title=Cookbook:Masyaura_(Nepali_Fermented_Vegetable_Balls)&oldid=4501242), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Matar Paneer](https://en.wikibooks.org/w/index.php?title=Cookbook:Matar_Paneer&oldid=4514693), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Mató de Pedralbes (Spanish Maize Custard)](https://en.wikibooks.org/w/index.php?title=Cookbook:Mat%C3%B3_de_Pedralbes_(Spanish_Maize_Custard)&oldid=4522411), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Matoke and Beef Stew](https://en.wikibooks.org/w/index.php?title=Cookbook:Matoke_and_Beef_Stew&oldid=4637710), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Matzah Lasagne](https://en.wikibooks.org/w/index.php?title=Cookbook:Matzah_Lasagne&oldid=4630257), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Mayonnaise (Vegan)](https://en.wikibooks.org/w/index.php?title=Cookbook:Mayonnaise_(Vegan)&oldid=4524812), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Mazagran (Algerian Iced Coffee)](https://en.wikibooks.org/w/index.php?title=Cookbook:Mazagran_(Algerian_Iced_Coffee)&oldid=4515773), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Mazorca Desgranada (Colombian Beef Salad)](https://en.wikibooks.org/w/index.php?title=Cookbook:Mazorca_Desgranada_(Colombian_Beef_Salad)&oldid=4515033), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Mbahal (Gambian Fish and Okra)](https://en.wikibooks.org/w/index.php?title=Cookbook:Mbahal_(Gambian_Fish_and_Okra)&oldid=4514100), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Mbahal Kebb (Gambian Chicken Skewers)](https://en.wikibooks.org/w/index.php?title=Cookbook:Mbahal_Kebb_(Gambian_Chicken_Skewers)&oldid=4506412), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Mbatata a Matenda (Malawian Cassava Fritters)](https://en.wikibooks.org/w/index.php?title=Cookbook:Mbatata_a_Matenda_(Malawian_Cassava_Fritters)&oldid=4517755), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Mbong Tchobi (Cameroonian Spicy Black Stew)](https://en.wikibooks.org/w/index.php?title=Cookbook:Mbong_Tchobi_(Cameroonian_Spicy_Black_Stew)&oldid=4518650), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Mbongo Tchobi (Cameroonian Black Stew)](https://en.wikibooks.org/w/index.php?title=Cookbook:Mbongo_Tchobi_(Cameroonian_Black_Stew)&oldid=4518969), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Mbulawu (Malawian Fermented Millet Porridge)](https://en.wikibooks.org/w/index.php?title=Cookbook:Mbulawu_(Malawian_Fermented_Millet_Porridge)&oldid=4517856), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Mchemsho (Tanzanian cuisine)](https://en.wikibooks.org/w/index.php?title=Cookbook:Mchemsho_(Tanzanian_cuisine)&oldid=4638744), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Meat and Potatoes in Broth (Niku Jaga)](https://en.wikibooks.org/w/index.php?title=Cookbook:Meat_and_Potatoes_in_Broth_(Niku_Jaga)&oldid=4536307), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Meat and Rice-Stuffed Bell Peppers](https://en.wikibooks.org/w/index.php?title=Cookbook:Meat_and_Rice-Stuffed_Bell_Peppers&oldid=4518716), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Meat and Shrimp Potstickers](https://en.wikibooks.org/w/index.php?title=Cookbook:Meat_and_Shrimp_Potstickers&oldid=4507082), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Meat Masala](https://en.wikibooks.org/w/index.php?title=Cookbook:Meat_Masala&oldid=4615172), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Meat Ravioli Filling](https://en.wikibooks.org/w/index.php?title=Cookbook:Meat_Ravioli_Filling&oldid=4516648), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Meatballs with Honey Lime Sauce](https://en.wikibooks.org/w/index.php?title=Cookbook:Meatballs_with_Honey_Lime_Sauce&oldid=4518973), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Meatloaf I](https://en.wikibooks.org/w/index.php?title=Cookbook:Meatloaf_I&oldid=4530181), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Meatloaf II](https://en.wikibooks.org/w/index.php?title=Cookbook:Meatloaf_II&oldid=4500427), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Meatloaf III](https://en.wikibooks.org/w/index.php?title=Cookbook:Meatloaf_III&oldid=4500428), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Meatloaf IV](https://en.wikibooks.org/w/index.php?title=Cookbook:Meatloaf_IV&oldid=4613395), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Meatloaf V](https://en.wikibooks.org/w/index.php?title=Cookbook:Meatloaf_V&oldid=4613688), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Mediterranean Beef Stew](https://en.wikibooks.org/w/index.php?title=Cookbook:Mediterranean_Beef_Stew&oldid=4524813), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Mediterranean Green Chicken](https://en.wikibooks.org/w/index.php?title=Cookbook:Mediterranean_Green_Chicken&oldid=4613415), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Medu Vada (South Indian Savory Lentil Donut)](https://en.wikibooks.org/w/index.php?title=Cookbook:Medu_Vada_(South_Indian_Savory_Lentil_Donut)&oldid=4508197), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Memphis-Style BBQ Ribs](https://en.wikibooks.org/w/index.php?title=Cookbook:Memphis-Style_BBQ_Ribs&oldid=4599163), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Menemen (Eggs with Onion, Green Pepper, and Tomato)](https://en.wikibooks.org/w/index.php?title=Cookbook:Menemen_(Eggs_with_Onion,_Green_Pepper,_and_Tomato)&oldid=4524815), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Menudo (Mexican Tripe and Hominy Soup)](https://en.wikibooks.org/w/index.php?title=Cookbook:Menudo_(Mexican_Tripe_and_Hominy_Soup)&oldid=4518652), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Meringata (Cream-filled Meringue Gateaux)](https://en.wikibooks.org/w/index.php?title=Cookbook:Meringata_(Cream-filled_Meringue_Gateaux)&oldid=4587385), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Meringata di Frutta in Coppa (Meringue with Fruit and Cream)](https://en.wikibooks.org/w/index.php?title=Cookbook:Meringata_di_Frutta_in_Coppa_(Meringue_with_Fruit_and_Cream)&oldid=4587487), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Meringata with Ginger and Cream](https://en.wikibooks.org/w/index.php?title=Cookbook:Meringata_with_Ginger_and_Cream&oldid=4587488), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Meringue Cookies I](https://en.wikibooks.org/w/index.php?title=Cookbook:Meringue_Cookies_I&oldid=4587294), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Meringue Cookies II](https://en.wikibooks.org/w/index.php?title=Cookbook:Meringue_Cookies_II&oldid=4517086), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Meringue Cookies with Chocolate Chips](https://en.wikibooks.org/w/index.php?title=Cookbook:Meringue_Cookies_with_Chocolate_Chips&oldid=4517084), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Meringues with Roasted Raspberries and Hazelnut Creme Anglaise](https://en.wikibooks.org/w/index.php?title=Cookbook:Meringues_with_Roasted_Raspberries_and_Hazelnut_Creme_Anglaise&oldid=4587361), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Mesir Wat (Spicy Ethiopian Lentil Stew)](https://en.wikibooks.org/w/index.php?title=Cookbook:Mesir_Wat_(Spicy_Ethiopian_Lentil_Stew)&oldid=4518654), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Mesquite BBQ Burger](https://en.wikibooks.org/w/index.php?title=Cookbook:Mesquite_BBQ_Burger&oldid=4613428), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Mesquite BBQ Salmon](https://en.wikibooks.org/w/index.php?title=Cookbook:Mesquite_BBQ_Salmon&oldid=4510184), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Mesquite Beef Tenderloin](https://en.wikibooks.org/w/index.php?title=Cookbook:Mesquite_Beef_Tenderloin&oldid=4509895), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Mesquite Chicken Sandwich](https://en.wikibooks.org/w/index.php?title=Cookbook:Mesquite_Chicken_Sandwich&oldid=4518261), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Mesquite Chicken Wraps](https://en.wikibooks.org/w/index.php?title=Cookbook:Mesquite_Chicken_Wraps&oldid=4515034), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Mexican Chocolate Cake with Mocha Buttercream](https://en.wikibooks.org/w/index.php?title=Cookbook:Mexican_Chocolate_Cake_with_Mocha_Buttercream&oldid=4524817), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Mexican Habanero Hot Sauce](https://en.wikibooks.org/w/index.php?title=Cookbook:Mexican_Habanero_Hot_Sauce&oldid=4518972), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Mexican Ribs](https://en.wikibooks.org/w/index.php?title=Cookbook:Mexican_Ribs&oldid=4504632), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Mexican Rice I](https://en.wikibooks.org/w/index.php?title=Cookbook:Mexican_Rice_I&oldid=4493781), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Mexican Rice II](https://en.wikibooks.org/w/index.php?title=Cookbook:Mexican_Rice_II&oldid=4512964), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Mexican Rice Pilaf](https://en.wikibooks.org/w/index.php?title=Cookbook:Mexican_Rice_Pilaf&oldid=4512966), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Mexican Seasoning](https://en.wikibooks.org/w/index.php?title=Cookbook:Mexican_Seasoning&oldid=4516612), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Mexican Tequila Marinade](https://en.wikibooks.org/w/index.php?title=Cookbook:Mexican_Tequila_Marinade&oldid=4509834), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Mhadjeb (Algerian Stuffed Flatbread)](https://en.wikibooks.org/w/index.php?title=Cookbook:Mhadjeb_(Algerian_Stuffed_Flatbread)&oldid=4519144), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Microwave 1-2-3 Cake](https://en.wikibooks.org/w/index.php?title=Cookbook:Microwave_1-2-3_Cake&oldid=4524819), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Microwave Applesauce](https://en.wikibooks.org/w/index.php?title=Cookbook:Microwave_Applesauce&oldid=4518974), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Microwave Chocolate Cake I](https://en.wikibooks.org/w/index.php?title=Cookbook:Microwave_Chocolate_Cake_I&oldid=4524820), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Microwave Chocolate Cake II](https://en.wikibooks.org/w/index.php?title=Cookbook:Microwave_Chocolate_Cake_II&oldid=4587413), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Microwave Chocolate Chip Cookie](https://en.wikibooks.org/w/index.php?title=Cookbook:Microwave_Chocolate_Chip_Cookie&oldid=4587473), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Microwave Chocolate Pudding](https://en.wikibooks.org/w/index.php?title=Cookbook:Microwave_Chocolate_Pudding&oldid=4587295), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Microwave Oat Porridge](https://en.wikibooks.org/w/index.php?title=Cookbook:Microwave_Oat_Porridge&oldid=4517857), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Microwave Peanut Brittle](https://en.wikibooks.org/w/index.php?title=Cookbook:Microwave_Peanut_Brittle&oldid=4517487), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Microwave Risotto](https://en.wikibooks.org/w/index.php?title=Cookbook:Microwave_Risotto&oldid=4517962), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Microwave Salmon in a Parchment Envelope](https://en.wikibooks.org/w/index.php?title=Cookbook:Microwave_Salmon_in_a_Parchment_Envelope&oldid=4510609), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Microwaved Artichoke](https://en.wikibooks.org/w/index.php?title=Cookbook:Microwaved_Artichoke&oldid=4510186), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Microwaved Basmati Rice](https://en.wikibooks.org/w/index.php?title=Cookbook:Microwaved_Basmati_Rice&oldid=4513028), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Microwaved Scrambled Egg](https://en.wikibooks.org/w/index.php?title=Cookbook:Microwaved_Scrambled_Egg&oldid=4502791), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Middle Eastern Lamb Kabobs](https://en.wikibooks.org/w/index.php?title=Cookbook:Middle_Eastern_Lamb_Kabobs&oldid=4507348), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Middle Eastern Meatballs](https://en.wikibooks.org/w/index.php?title=Cookbook:Middle_Eastern_Meatballs&oldid=4531794), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Midwestern Chicken Wings](https://en.wikibooks.org/w/index.php?title=Cookbook:Midwestern_Chicken_Wings&oldid=4509256), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Mild Salty Lassi](https://en.wikibooks.org/w/index.php?title=Cookbook:Mild_Salty_Lassi&oldid=4531786), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Milk Chocolate Pepper Vodka Tart](https://en.wikibooks.org/w/index.php?title=Cookbook:Milk_Chocolate_Pepper_Vodka_Tart&oldid=4587358), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Milk Toast I](https://en.wikibooks.org/w/index.php?title=Cookbook:Milk_Toast_I&oldid=4511231), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Milk Toast II](https://en.wikibooks.org/w/index.php?title=Cookbook:Milk_Toast_II&oldid=4511012), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Mince Pie Tartlets with Pork](https://en.wikibooks.org/w/index.php?title=Cookbook:Mince_Pie_Tartlets_with_Pork&oldid=4517308), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Mince Pie with Meat I](https://en.wikibooks.org/w/index.php?title=Cookbook:Mince_Pie_with_Meat_I&oldid=4517309), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Mincemeat](https://en.wikibooks.org/w/index.php?title=Cookbook:Mincemeat&oldid=4517095), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Mincemeat Tart](https://en.wikibooks.org/w/index.php?title=Cookbook:Mincemeat_Tart&oldid=4523269), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Minestra](https://en.wikibooks.org/w/index.php?title=Cookbook:Minestra&oldid=4518655), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Minestrone alla Capucina](https://en.wikibooks.org/w/index.php?title=Cookbook:Minestrone_alla_Capucina&oldid=4518442), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Mini English Muffin Pizzas](https://en.wikibooks.org/w/index.php?title=Cookbook:Mini_English_Muffin_Pizzas&oldid=4605230), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Mini Herb Baguettes](https://en.wikibooks.org/w/index.php?title=Cookbook:Mini_Herb_Baguettes&oldid=4501583), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Mini Three-Cheese English Muffin Pizzas](https://en.wikibooks.org/w/index.php?title=Cookbook:Mini_Three-Cheese_English_Muffin_Pizzas&oldid=4605225), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Mint Tea](https://en.wikibooks.org/w/index.php?title=Cookbook:Mint_Tea&oldid=4506091), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Mirepoix Sauce](https://en.wikibooks.org/w/index.php?title=Cookbook:Mirepoix_Sauce&oldid=4518976), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Mirliton Casserole](https://en.wikibooks.org/w/index.php?title=Cookbook:Mirliton_Casserole&oldid=4517409), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Mishkaki (East African Meat Skewers)](https://en.wikibooks.org/w/index.php?title=Cookbook:Mishkaki_(East_African_Meat_Skewers)&oldid=4508263), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Mishti Doi (Bengali Sweetened Yogurt)](https://en.wikibooks.org/w/index.php?title=Cookbook:Mishti_Doi_(Bengali_Sweetened_Yogurt)&oldid=4630280), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Miso Soup](https://en.wikibooks.org/w/index.php?title=Cookbook:Miso_Soup&oldid=4610543), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Miso Soup (Traditional)](https://en.wikibooks.org/w/index.php?title=Cookbook:Miso_Soup_(Traditional)&oldid=4569941), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Misro (Indonesian Palm Sugar Cassava Fritters)](https://en.wikibooks.org/w/index.php?title=Cookbook:Misro_(Indonesian_Palm_Sugar_Cassava_Fritters)&oldid=4540912), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Mixed Pickled Vegetables (Acar Campur)](https://en.wikibooks.org/w/index.php?title=Cookbook:Mixed_Pickled_Vegetables_(Acar_Campur)&oldid=4630339), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Miyan Karkashi (Nigerian Sesame Leaf Soup)](https://en.wikibooks.org/w/index.php?title=Cookbook:Miyan_Karkashi_(Nigerian_Sesame_Leaf_Soup)&oldid=4636092), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Miyan Kubewa (Okra Soup)](https://en.wikibooks.org/w/index.php?title=Cookbook:Miyan_Kubewa_(Okra_Soup)&oldid=4636118), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Miyan Kuka (Baobab Leaf Soup)](https://en.wikibooks.org/w/index.php?title=Cookbook:Miyan_Kuka_(Baobab_Leaf_Soup)&oldid=4636115), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Miyan Lalo (Hausa Jute Leaf Soup)](https://en.wikibooks.org/w/index.php?title=Cookbook:Miyan_Lalo_(Hausa_Jute_Leaf_Soup)&oldid=4636102), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Miyan Ridi (Nigerian Sesame Soup)](https://en.wikibooks.org/w/index.php?title=Cookbook:Miyan_Ridi_(Nigerian_Sesame_Soup)&oldid=4541007), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Miyan Shuwaka (Hausa Bitter Leaf Soup)](https://en.wikibooks.org/w/index.php?title=Cookbook:Miyan_Shuwaka_(Hausa_Bitter_Leaf_Soup)&oldid=4636103), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Miyan Taushe (Hausa Pumpkin Soup)](https://en.wikibooks.org/w/index.php?title=Cookbook:Miyan_Taushe_(Hausa_Pumpkin_Soup)&oldid=4524342), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Moambe (Palm Nut Soup)](https://en.wikibooks.org/w/index.php?title=Cookbook:Moambe_(Palm_Nut_Soup)&oldid=4518453), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Mocha Buttercream](https://en.wikibooks.org/w/index.php?title=Cookbook:Mocha_Buttercream&oldid=4587357), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Mocha Delight](https://en.wikibooks.org/w/index.php?title=Cookbook:Mocha_Delight&oldid=4524821), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Mocha Icing](https://en.wikibooks.org/w/index.php?title=Cookbook:Mocha_Icing&oldid=4517723), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Mock Béarnaise Sauce](https://en.wikibooks.org/w/index.php?title=Cookbook:Mock_B%C3%A9arnaise_Sauce&oldid=4518975), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Mock Hollandaise Sauce I](https://en.wikibooks.org/w/index.php?title=Cookbook:Mock_Hollandaise_Sauce_I&oldid=4518978), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Mock Hollandaise Sauce II](https://en.wikibooks.org/w/index.php?title=Cookbook:Mock_Hollandaise_Sauce_II&oldid=4518977), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Modeling Chocolate](https://en.wikibooks.org/w/index.php?title=Cookbook:Modeling_Chocolate&oldid=4510417), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Modern Reuben Sandwich](https://en.wikibooks.org/w/index.php?title=Cookbook:Modern_Reuben_Sandwich&oldid=4518262), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Mofletta (Maghrebi Pancake)](https://en.wikibooks.org/w/index.php?title=Cookbook:Mofletta_(Maghrebi_Pancake)&oldid=4519145), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Molasses Cookies](https://en.wikibooks.org/w/index.php?title=Cookbook:Molasses_Cookies&oldid=4517104), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Molasses-Glazed Pork Chops](https://en.wikibooks.org/w/index.php?title=Cookbook:Molasses-Glazed_Pork_Chops&oldid=4509836), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Molasses Taffy](https://en.wikibooks.org/w/index.php?title=Cookbook:Molasses_Taffy&oldid=4599186), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Molokhia (Egyptian Jute Mallow Soup)](https://en.wikibooks.org/w/index.php?title=Cookbook:Molokhia_(Egyptian_Jute_Mallow_Soup)&oldid=4518457), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Monkey Bread I](https://en.wikibooks.org/w/index.php?title=Cookbook:Monkey_Bread_I&oldid=4587349), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Monkey Butter](https://en.wikibooks.org/w/index.php?title=Cookbook:Monkey_Butter&oldid=4514471), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Monte Cristo Sandwich](https://en.wikibooks.org/w/index.php?title=Cookbook:Monte_Cristo_Sandwich&oldid=4518264), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Monterey Jack Chicken Breasts](https://en.wikibooks.org/w/index.php?title=Cookbook:Monterey_Jack_Chicken_Breasts&oldid=4515038), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Montreal Russian Borscht](https://en.wikibooks.org/w/index.php?title=Cookbook:Montreal_Russian_Borscht&oldid=4630340), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Montreal Steak Seasoning](https://en.wikibooks.org/w/index.php?title=Cookbook:Montreal_Steak_Seasoning&oldid=4516613), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Moqueca de Peixe (Brazilian Seafood Stew)](https://en.wikibooks.org/w/index.php?title=Cookbook:Moqueca_de_Peixe_(Brazilian_Seafood_Stew)&oldid=4518657), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Morel Mushroom Sauce](https://en.wikibooks.org/w/index.php?title=Cookbook:Morel_Mushroom_Sauce&oldid=4613366), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Moroccan Couscous](https://en.wikibooks.org/w/index.php?title=Cookbook:Moroccan_Couscous&oldid=4511985), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Moroccan Salad](https://en.wikibooks.org/w/index.php?title=Cookbook:Moroccan_Salad&oldid=4518152), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Moroccan Soup](https://en.wikibooks.org/w/index.php?title=Cookbook:Moroccan_Soup&oldid=4518459), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Moussaka (Bulgarian)](https://en.wikibooks.org/w/index.php?title=Cookbook:Moussaka_(Bulgarian)&oldid=4517410), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Mozzarella Sticks](https://en.wikibooks.org/w/index.php?title=Cookbook:Mozzarella_Sticks&oldid=4517757), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Mozzarella Tuna Melts](https://en.wikibooks.org/w/index.php?title=Cookbook:Mozzarella_Tuna_Melts&oldid=4518266), CC-BY-SA-4.0
+- [Wikibooks Cookbook: MPT (Mozzarella Pasta with Tomato and Basil)](https://en.wikibooks.org/w/index.php?title=Cookbook:MPT_(Mozzarella_Pasta_with_Tomato_and_Basil)&oldid=4605224), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Msemmen](https://en.wikibooks.org/w/index.php?title=Cookbook:Msemmen&oldid=4638942), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Mtori (Tanzanian stew)](https://en.wikibooks.org/w/index.php?title=Cookbook:Mtori_(Tanzanian_stew)&oldid=4638740), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Muboora (Zimbabwean Pumpkin Leaves Stew)](https://en.wikibooks.org/w/index.php?title=Cookbook:Muboora_(Zimbabwean_Pumpkin_Leaves_Stew)&oldid=4518656), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Muceere (Ugandan Pumpkin Stew)](https://en.wikibooks.org/w/index.php?title=Cookbook:Muceere_(Ugandan_Pumpkin_Stew)&oldid=4518659), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Muffuletta Sandwich](https://en.wikibooks.org/w/index.php?title=Cookbook:Muffuletta_Sandwich&oldid=4603294), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Mukimo](https://en.wikibooks.org/w/index.php?title=Cookbook:Mukimo&oldid=4638941), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Mulling Spice with Anise](https://en.wikibooks.org/w/index.php?title=Cookbook:Mulling_Spice_with_Anise&oldid=4516614), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Mung Bean and Brown Rice Curry](https://en.wikibooks.org/w/index.php?title=Cookbook:Mung_Bean_and_Brown_Rice_Curry&oldid=4615202), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Muqmad](https://en.wikibooks.org/w/index.php?title=Cookbook:Muqmad&oldid=4638755), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Murgh Musallam (Indian Stewed Spiced Chicken)](https://en.wikibooks.org/w/index.php?title=Cookbook:Murgh_Musallam_(Indian_Stewed_Spiced_Chicken)&oldid=4531800), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Murghi Korma (Chicken Korma)](https://en.wikibooks.org/w/index.php?title=Cookbook:Murghi_Korma_(Chicken_Korma)&oldid=4630284), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Mushroom Bao Buns](https://en.wikibooks.org/w/index.php?title=Cookbook:Mushroom_Bao_Buns&oldid=4610387), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Mushroom Barley Bean Soup](https://en.wikibooks.org/w/index.php?title=Cookbook:Mushroom_Barley_Bean_Soup&oldid=4518455), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Mushroom Caps Stuffed with Bacon and Cheese](https://en.wikibooks.org/w/index.php?title=Cookbook:Mushroom_Caps_Stuffed_with_Bacon_and_Cheese&oldid=4524822), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Mushroom Fried Rice](https://en.wikibooks.org/w/index.php?title=Cookbook:Mushroom_Fried_Rice&oldid=4610390), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Mushroom Ketchup](https://en.wikibooks.org/w/index.php?title=Cookbook:Mushroom_Ketchup&oldid=4498603), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Mushroom Sauce](https://en.wikibooks.org/w/index.php?title=Cookbook:Mushroom_Sauce&oldid=4610393), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Mushroom Soup](https://en.wikibooks.org/w/index.php?title=Cookbook:Mushroom_Soup&oldid=4610476), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Mushroom Soup (Gabi Supa)](https://en.wikibooks.org/w/index.php?title=Cookbook:Mushroom_Soup_(Gabi_Supa)&oldid=4522415), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Mushroom Tofu Soup](https://en.wikibooks.org/w/index.php?title=Cookbook:Mushroom_Tofu_Soup&oldid=4518462), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Mushy Peas](https://en.wikibooks.org/w/index.php?title=Cookbook:Mushy_Peas&oldid=4512548), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Muskrat Soup](https://en.wikibooks.org/w/index.php?title=Cookbook:Muskrat_Soup&oldid=4518461), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Müsli](https://en.wikibooks.org/w/index.php?title=Cookbook:M%C3%BCsli&oldid=4513193), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Mussels in Onion and Butter Sauce (Moules Mariniere)](https://en.wikibooks.org/w/index.php?title=Cookbook:Mussels_in_Onion_and_Butter_Sauce_(Moules_Mariniere)&oldid=4630365), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Mussels with Potatoes](https://en.wikibooks.org/w/index.php?title=Cookbook:Mussels_with_Potatoes&oldid=4630371), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Mustard and Curry Leaf Lassi](https://en.wikibooks.org/w/index.php?title=Cookbook:Mustard_and_Curry_Leaf_Lassi&oldid=4613367), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Mustard Dip](https://en.wikibooks.org/w/index.php?title=Cookbook:Mustard_Dip&oldid=4613368), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Mutton Broth](https://en.wikibooks.org/w/index.php?title=Cookbook:Mutton_Broth&oldid=4497879), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Mutura](https://en.wikibooks.org/w/index.php?title=Cookbook:Mutura&oldid=4637547), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Mzembe U Mgban (Roasted African Pear)](https://en.wikibooks.org/w/index.php?title=Cookbook:Mzembe_U_Mgban_(Roasted_African_Pear)&oldid=4509135), CC-BY-SA-4.0
+- [Wikibooks Cookbook: N'gakasse (Groundnut Sauce)](https://en.wikibooks.org/w/index.php?title=Cookbook:N'gakasse_(Groundnut_Sauce)&oldid=4518980), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Naan](https://en.wikibooks.org/w/index.php?title=Cookbook:Naan&oldid=4512549), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Naan (Yeasted)](https://en.wikibooks.org/w/index.php?title=Cookbook:Naan_(Yeasted)&oldid=4522853), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Nachos](https://en.wikibooks.org/w/index.php?title=Cookbook:Nachos&oldid=4515180), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Nam Phrik Ong (Thai Pork and Tomato Dip)](https://en.wikibooks.org/w/index.php?title=Cookbook:Nam_Phrik_Ong_(Thai_Pork_and_Tomato_Dip)&oldid=4518981), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Nanaimo Bars I](https://en.wikibooks.org/w/index.php?title=Cookbook:Nanaimo_Bars_I&oldid=4622764), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Nasi Goreng (Indonesian Fried Rice)](https://en.wikibooks.org/w/index.php?title=Cookbook:Nasi_Goreng_(Indonesian_Fried_Rice)&oldid=4512969), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Native Jollof Rice](https://en.wikibooks.org/w/index.php?title=Cookbook:Native_Jollof_Rice&oldid=4513629), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Native Jollof Spaghetti](https://en.wikibooks.org/w/index.php?title=Cookbook:Native_Jollof_Spaghetti&oldid=4513630), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Natto (Japanese Fermented Soybeans)](https://en.wikibooks.org/w/index.php?title=Cookbook:Natto_(Japanese_Fermented_Soybeans)&oldid=4514344), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Ndizi na Nyama (Tanzanian Green Bananas with Beef)](https://en.wikibooks.org/w/index.php?title=Cookbook:Ndizi_na_Nyama_(Tanzanian_Green_Bananas_with_Beef)&oldid=4493962), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Ndole (Cameroonian Bitter Leaf and Peanut Soup)](https://en.wikibooks.org/w/index.php?title=Cookbook:Ndole_(Cameroonian_Bitter_Leaf_and_Peanut_Soup)&oldid=4518463), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Neapolitan Anchovy Sauce](https://en.wikibooks.org/w/index.php?title=Cookbook:Neapolitan_Anchovy_Sauce&oldid=4518983), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Neapolitan Sauce](https://en.wikibooks.org/w/index.php?title=Cookbook:Neapolitan_Sauce&oldid=4610550), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Neapolitan Soup](https://en.wikibooks.org/w/index.php?title=Cookbook:Neapolitan_Soup&oldid=4518464), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Nesquik à la Café](https://en.wikibooks.org/w/index.php?title=Cookbook:Nesquik_%C3%A0_la_Caf%C3%A9&oldid=4524823), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Nettle Pesto](https://en.wikibooks.org/w/index.php?title=Cookbook:Nettle_Pesto&oldid=4634847), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Never Fail Pie Crust](https://en.wikibooks.org/w/index.php?title=Cookbook:Never_Fail_Pie_Crust&oldid=4516042), CC-BY-SA-4.0
+- [Wikibooks Cookbook: New England Clam Chowder](https://en.wikibooks.org/w/index.php?title=Cookbook:New_England_Clam_Chowder&oldid=4523405), CC-BY-SA-4.0
+- [Wikibooks Cookbook: New England Potato Salad](https://en.wikibooks.org/w/index.php?title=Cookbook:New_England_Potato_Salad&oldid=4518089), CC-BY-SA-4.0
+- [Wikibooks Cookbook: New Mexico Chili Verde](https://en.wikibooks.org/w/index.php?title=Cookbook:New_Mexico_Chili_Verde&oldid=4518787), CC-BY-SA-4.0
+- [Wikibooks Cookbook: New World Affogato](https://en.wikibooks.org/w/index.php?title=Cookbook:New_World_Affogato&oldid=4587511), CC-BY-SA-4.0
+- [Wikibooks Cookbook: New York City–Style Pizza](https://en.wikibooks.org/w/index.php?title=Cookbook:New_York_City%E2%80%93Style_Pizza&oldid=4605253), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Ngoundja (Fried Plantains)](https://en.wikibooks.org/w/index.php?title=Cookbook:Ngoundja_(Fried_Plantains)&oldid=4503499), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Nibbles](https://en.wikibooks.org/w/index.php?title=Cookbook:Nibbles&oldid=4524825), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Niçoise Salad](https://en.wikibooks.org/w/index.php?title=Cookbook:Ni%C3%A7oise_Salad&oldid=4518156), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Nigerian Barbecued Chicken Wings](https://en.wikibooks.org/w/index.php?title=Cookbook:Nigerian_Barbecued_Chicken_Wings&oldid=4513132), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Nigerian Bean Porridge](https://en.wikibooks.org/w/index.php?title=Cookbook:Nigerian_Bean_Porridge&oldid=4515514), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Nigerian Boiled Fish](https://en.wikibooks.org/w/index.php?title=Cookbook:Nigerian_Boiled_Fish&oldid=4509046), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Nigerian Boiled Plantain](https://en.wikibooks.org/w/index.php?title=Cookbook:Nigerian_Boiled_Plantain&oldid=4480718), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Nigerian Caramelized Coconut](https://en.wikibooks.org/w/index.php?title=Cookbook:Nigerian_Caramelized_Coconut&oldid=4517488), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Nigerian Cassava Fufu](https://en.wikibooks.org/w/index.php?title=Cookbook:Nigerian_Cassava_Fufu&oldid=4518756), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Nigerian Cauliflower Fufu](https://en.wikibooks.org/w/index.php?title=Cookbook:Nigerian_Cauliflower_Fufu&oldid=4518759), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Nigerian Cheesy Sausage Masa](https://en.wikibooks.org/w/index.php?title=Cookbook:Nigerian_Cheesy_Sausage_Masa&oldid=4511381), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Nigerian Coco Pops](https://en.wikibooks.org/w/index.php?title=Cookbook:Nigerian_Coco_Pops&oldid=4523300), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Nigerian Coconut Rice](https://en.wikibooks.org/w/index.php?title=Cookbook:Nigerian_Coconut_Rice&oldid=4524873), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Nigerian Cocoyam Chips](https://en.wikibooks.org/w/index.php?title=Cookbook:Nigerian_Cocoyam_Chips&oldid=4503500), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Nigerian Coleslaw](https://en.wikibooks.org/w/index.php?title=Cookbook:Nigerian_Coleslaw&oldid=4518155), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Nigerian Corned Beef Sauce](https://en.wikibooks.org/w/index.php?title=Cookbook:Nigerian_Corned_Beef_Sauce&oldid=4514110), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Nigerian Custard](https://en.wikibooks.org/w/index.php?title=Cookbook:Nigerian_Custard&oldid=4583540), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Nigerian Egg Pepper Soup](https://en.wikibooks.org/w/index.php?title=Cookbook:Nigerian_Egg_Pepper_Soup&oldid=4518467), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Nigerian Egg Roll](https://en.wikibooks.org/w/index.php?title=Cookbook:Nigerian_Egg_Roll&oldid=4512727), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Nigerian Egg Stew](https://en.wikibooks.org/w/index.php?title=Cookbook:Nigerian_Egg_Stew&oldid=4518664), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Nigerian Eggplant Fufu](https://en.wikibooks.org/w/index.php?title=Cookbook:Nigerian_Eggplant_Fufu&oldid=4518757), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Nigerian Ewa Agoyin](https://en.wikibooks.org/w/index.php?title=Cookbook:Nigerian_Ewa_Agoyin&oldid=4635582), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Nigerian Fried Cheese Curds (Wara)](https://en.wikibooks.org/w/index.php?title=Cookbook:Nigerian_Fried_Cheese_Curds_(Wara)&oldid=4524075), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Nigerian Fried Noodles](https://en.wikibooks.org/w/index.php?title=Cookbook:Nigerian_Fried_Noodles&oldid=4500907), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Nigerian Fried Yam](https://en.wikibooks.org/w/index.php?title=Cookbook:Nigerian_Fried_Yam&oldid=4494020), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Nigerian Fruit Skewer](https://en.wikibooks.org/w/index.php?title=Cookbook:Nigerian_Fruit_Skewer&oldid=4509321), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Nigerian Jollof Rice](https://en.wikibooks.org/w/index.php?title=Cookbook:Nigerian_Jollof_Rice&oldid=4514107), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Nigerian Miyan Giyada](https://en.wikibooks.org/w/index.php?title=Cookbook:Nigerian_Miyan_Giyada&oldid=4634710), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Nigerian Noodles](https://en.wikibooks.org/w/index.php?title=Cookbook:Nigerian_Noodles&oldid=4513638), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Nigerian Oatmeal](https://en.wikibooks.org/w/index.php?title=Cookbook:Nigerian_Oatmeal&oldid=4523283), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Nigerian Ofe Akwu (Palm Fruit Soup)](https://en.wikibooks.org/w/index.php?title=Cookbook:Nigerian_Ofe_Akwu_(Palm_Fruit_Soup)&oldid=4634156), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Nigerian Oha Soup (Ora Soup)](https://en.wikibooks.org/w/index.php?title=Cookbook:Nigerian_Oha_Soup_(Ora_Soup)&oldid=4633927), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Nigerian Okra Soup (Ila Asepo)](https://en.wikibooks.org/w/index.php?title=Cookbook:Nigerian_Okra_Soup_(Ila_Asepo)&oldid=4633925), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Nigerian Oto mboro recipe](https://en.wikibooks.org/w/index.php?title=Cookbook:Nigerian_Oto_mboro_recipe&oldid=4637031), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Nigerian Palm Oil Boiled Yam (Ji Mmanu)](https://en.wikibooks.org/w/index.php?title=Cookbook:Nigerian_Palm_Oil_Boiled_Yam_(Ji_Mmanu)&oldid=4494021), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Nigerian Peppered Turkey Wings](https://en.wikibooks.org/w/index.php?title=Cookbook:Nigerian_Peppered_Turkey_Wings&oldid=4513987), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Nigerian Pito](https://en.wikibooks.org/w/index.php?title=Cookbook:Nigerian_Pito&oldid=4512869), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Nigerian Puff Puff](https://en.wikibooks.org/w/index.php?title=Cookbook:Nigerian_Puff_Puff&oldid=4522345), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Nigerian Rice and Beans Jollof](https://en.wikibooks.org/w/index.php?title=Cookbook:Nigerian_Rice_and_Beans_Jollof&oldid=4513639), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Nigerian Roasted Plantain](https://en.wikibooks.org/w/index.php?title=Cookbook:Nigerian_Roasted_Plantain&oldid=4509047), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Nigerian Roasted Yam](https://en.wikibooks.org/w/index.php?title=Cookbook:Nigerian_Roasted_Yam&oldid=4494022), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Nigerian Smoked Fish](https://en.wikibooks.org/w/index.php?title=Cookbook:Nigerian_Smoked_Fish&oldid=4508882), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Nigerian Tea (Hot Chocolate)](https://en.wikibooks.org/w/index.php?title=Cookbook:Nigerian_Tea_(Hot_Chocolate)&oldid=4511303), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Nigerian Tiger Nut Milk (Kunun Aya)](https://en.wikibooks.org/w/index.php?title=Cookbook:Nigerian_Tiger_Nut_Milk_(Kunun_Aya)&oldid=4636105), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Nigerian Toasted Groundnuts](https://en.wikibooks.org/w/index.php?title=Cookbook:Nigerian_Toasted_Groundnuts&oldid=4366709), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Nigerian Tomato Omelette](https://en.wikibooks.org/w/index.php?title=Cookbook:Nigerian_Tomato_Omelette&oldid=4493957), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Nigerian Turmeric Rice](https://en.wikibooks.org/w/index.php?title=Cookbook:Nigerian_Turmeric_Rice&oldid=4513640), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Nigerian Wheat Swallow](https://en.wikibooks.org/w/index.php?title=Cookbook:Nigerian_Wheat_Swallow&oldid=4518760), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Nigerian Wheatbread Toast](https://en.wikibooks.org/w/index.php?title=Cookbook:Nigerian_Wheatbread_Toast&oldid=4505779), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Nigerian White Soup (Ofe Nsala)](https://en.wikibooks.org/w/index.php?title=Cookbook:Nigerian_White_Soup_(Ofe_Nsala)&oldid=4633949), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Nigerian Yam and Potato Porridge](https://en.wikibooks.org/w/index.php?title=Cookbook:Nigerian_Yam_and_Potato_Porridge&oldid=4517859), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Nigerian Yanrin](https://en.wikibooks.org/w/index.php?title=Cookbook:Nigerian_Yanrin&oldid=4635394), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Nigiri Sushi](https://en.wikibooks.org/w/index.php?title=Cookbook:Nigiri_Sushi&oldid=4518739), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Nilagang Baka (Boiled Beef and Vegetables in Broth)](https://en.wikibooks.org/w/index.php?title=Cookbook:Nilagang_Baka_(Boiled_Beef_and_Vegetables_in_Broth)&oldid=4630367), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Nkhwani wa Ndiwo (Malawian Vegetable Fritters)](https://en.wikibooks.org/w/index.php?title=Cookbook:Nkhwani_wa_Ndiwo_(Malawian_Vegetable_Fritters)&oldid=4517762), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Nkwobi (Nigerian Spicy Cow Foot)](https://en.wikibooks.org/w/index.php?title=Cookbook:Nkwobi_(Nigerian_Spicy_Cow_Foot)&oldid=4518470), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Nni Ede (Nigerian Pounded Cocoyam)](https://en.wikibooks.org/w/index.php?title=Cookbook:Nni_Ede_(Nigerian_Pounded_Cocoyam)&oldid=4518761), CC-BY-SA-4.0
+- [Wikibooks Cookbook: No-Bake Cheesecake](https://en.wikibooks.org/w/index.php?title=Cookbook:No-Bake_Cheesecake&oldid=4587457), CC-BY-SA-4.0
+- [Wikibooks Cookbook: No-Bake Chocolate Cake](https://en.wikibooks.org/w/index.php?title=Cookbook:No-Bake_Chocolate_Cake&oldid=4587320), CC-BY-SA-4.0
+- [Wikibooks Cookbook: No-Bake Chocolate Chip Cookie Pie](https://en.wikibooks.org/w/index.php?title=Cookbook:No-Bake_Chocolate_Chip_Cookie_Pie&oldid=4587245), CC-BY-SA-4.0
+- [Wikibooks Cookbook: No-Bake Chocolate Oatmeal Cookies](https://en.wikibooks.org/w/index.php?title=Cookbook:No-Bake_Chocolate_Oatmeal_Cookies&oldid=4523375), CC-BY-SA-4.0
+- [Wikibooks Cookbook: No-Bake Chocolate Pie](https://en.wikibooks.org/w/index.php?title=Cookbook:No-Bake_Chocolate_Pie&oldid=4587272), CC-BY-SA-4.0
+- [Wikibooks Cookbook: No-Bake Matsa Cake](https://en.wikibooks.org/w/index.php?title=Cookbook:No-Bake_Matsa_Cake&oldid=4630259), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Nonpareil Sauce (Hartshorne)](https://en.wikibooks.org/w/index.php?title=Cookbook:Nonpareil_Sauce_(Hartshorne)&oldid=4518988), CC-BY-SA-4.0
 - [Wikibooks Cookbook: Noodles for Soup](https://en.wikibooks.org/w/index.php?title=Cookbook:Noodles_for_Soup&oldid=4501597), CC-BY-SA-4.0
+- [Wikibooks Cookbook: North Carolina Style BBQ Chicken](https://en.wikibooks.org/w/index.php?title=Cookbook:North_Carolina_Style_BBQ_Chicken&oldid=4505229), CC-BY-SA-4.0
+- [Wikibooks Cookbook: North Carolina-Style BBQ Ribs](https://en.wikibooks.org/w/index.php?title=Cookbook:North_Carolina-Style_BBQ_Ribs&oldid=4505230), CC-BY-SA-4.0
+- [Wikibooks Cookbook: North Indian Fermented Bread (Batooru)](https://en.wikibooks.org/w/index.php?title=Cookbook:North_Indian_Fermented_Bread_(Batooru)&oldid=4426434), CC-BY-SA-4.0
+- [Wikibooks Cookbook: North Staffordshire Oatcakes](https://en.wikibooks.org/w/index.php?title=Cookbook:North_Staffordshire_Oatcakes&oldid=4522858), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Not Quite Eggs Benedict](https://en.wikibooks.org/w/index.php?title=Cookbook:Not_Quite_Eggs_Benedict&oldid=4524033), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Nshima](https://en.wikibooks.org/w/index.php?title=Cookbook:Nshima&oldid=4640268), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Nsima (Cornmeal Swallow)](https://en.wikibooks.org/w/index.php?title=Cookbook:Nsima_(Cornmeal_Swallow)&oldid=4518762), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Nuked Nachos](https://en.wikibooks.org/w/index.php?title=Cookbook:Nuked_Nachos&oldid=4511427), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Nune Soup](https://en.wikibooks.org/w/index.php?title=Cookbook:Nune_Soup&oldid=4518469), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Nuremberg Gingerbread](https://en.wikibooks.org/w/index.php?title=Cookbook:Nuremberg_Gingerbread&oldid=4515310), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Nut Roast](https://en.wikibooks.org/w/index.php?title=Cookbook:Nut_Roast&oldid=4587209), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Nutella Crepes](https://en.wikibooks.org/w/index.php?title=Cookbook:Nutella_Crepes&oldid=4535122), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Nutty Brownie Bars](https://en.wikibooks.org/w/index.php?title=Cookbook:Nutty_Brownie_Bars&oldid=4587125), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Nutty Buddy Chocolate Cookie Bars](https://en.wikibooks.org/w/index.php?title=Cookbook:Nutty_Buddy_Chocolate_Cookie_Bars&oldid=4587344), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Nyama Choma (Tanzanian Barbecue)](https://en.wikibooks.org/w/index.php?title=Cookbook:Nyama_Choma_(Tanzanian_Barbecue)&oldid=4509838), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Nyama Yemombe (Zimbabwean Beef Stew)](https://en.wikibooks.org/w/index.php?title=Cookbook:Nyama_Yemombe_(Zimbabwean_Beef_Stew)&oldid=4518661), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Oat Bran Cereal](https://en.wikibooks.org/w/index.php?title=Cookbook:Oat_Bran_Cereal&oldid=4513181), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Oat Fufu](https://en.wikibooks.org/w/index.php?title=Cookbook:Oat_Fufu&oldid=4518763), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Oat Milk (Homemade)](https://en.wikibooks.org/w/index.php?title=Cookbook:Oat_Milk_(Homemade)&oldid=4524795), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Oat Porridge](https://en.wikibooks.org/w/index.php?title=Cookbook:Oat_Porridge&oldid=4606890), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Oat Rice](https://en.wikibooks.org/w/index.php?title=Cookbook:Oat_Rice&oldid=4512971), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Oaties](https://en.wikibooks.org/w/index.php?title=Cookbook:Oaties&oldid=4599171), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Oatmeal Banana Waffle](https://en.wikibooks.org/w/index.php?title=Cookbook:Oatmeal_Banana_Waffle&oldid=4535481), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Oatmeal Chocolate Chip Cookies I](https://en.wikibooks.org/w/index.php?title=Cookbook:Oatmeal_Chocolate_Chip_Cookies_I&oldid=4524002), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Oatmeal Chocolate Chip Cookies II](https://en.wikibooks.org/w/index.php?title=Cookbook:Oatmeal_Chocolate_Chip_Cookies_II&oldid=4524796), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Oatmeal Chocolate Chip Cookies III](https://en.wikibooks.org/w/index.php?title=Cookbook:Oatmeal_Chocolate_Chip_Cookies_III&oldid=4519197), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Oatmeal Cookies I](https://en.wikibooks.org/w/index.php?title=Cookbook:Oatmeal_Cookies_I&oldid=4587304), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Oatmeal Cookies II](https://en.wikibooks.org/w/index.php?title=Cookbook:Oatmeal_Cookies_II&oldid=4519199), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Oatmeal Muffins](https://en.wikibooks.org/w/index.php?title=Cookbook:Oatmeal_Muffins&oldid=4524799), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Oatmeal Raisin Cookies](https://en.wikibooks.org/w/index.php?title=Cookbook:Oatmeal_Raisin_Cookies&oldid=4523264), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Oatmeal Stout Brownies](https://en.wikibooks.org/w/index.php?title=Cookbook:Oatmeal_Stout_Brownies&oldid=4587455), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Obe Eja Kika (Nigerian Smoked Fish Stew)](https://en.wikibooks.org/w/index.php?title=Cookbook:Obe_Eja_Kika_(Nigerian_Smoked_Fish_Stew)&oldid=4518663), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Obuwunga (Ugandan Traditional Bread)](https://en.wikibooks.org/w/index.php?title=Cookbook:Obuwunga_(Ugandan_Traditional_Bread)&oldid=4513134), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Ofe Aku (Igbo palmnut soup)](https://en.wikibooks.org/w/index.php?title=Cookbook:Ofe_Aku_(Igbo_palmnut_soup)&oldid=4638528), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Ofe Egusi](https://en.wikibooks.org/w/index.php?title=Cookbook:Ofe_Egusi&oldid=4638524), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Ofe Oha (Oha Leaf Soup)](https://en.wikibooks.org/w/index.php?title=Cookbook:Ofe_Oha_(Oha_Leaf_Soup)&oldid=4638526), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Ofe Onugbu (Bitter Leaf Soup)](https://en.wikibooks.org/w/index.php?title=Cookbook:Ofe_Onugbu_(Bitter_Leaf_Soup)&oldid=4523757), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Ofe Owerri](https://en.wikibooks.org/w/index.php?title=Cookbook:Ofe_Owerri&oldid=4524801), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Ogolale (Mashed Yam and Plantain)](https://en.wikibooks.org/w/index.php?title=Cookbook:Ogolale_(Mashed_Yam_and_Plantain)&oldid=4494023), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Okonomiyaki (Japanese Savory Pancake)](https://en.wikibooks.org/w/index.php?title=Cookbook:Okonomiyaki_(Japanese_Savory_Pancake)&oldid=4605252), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Okpa (Boiled Bambara Bean Pudding)](https://en.wikibooks.org/w/index.php?title=Cookbook:Okpa_(Boiled_Bambara_Bean_Pudding)&oldid=4517933), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Okpo Ogede (Plantain Moi-Moi)](https://en.wikibooks.org/w/index.php?title=Cookbook:Okpo_Ogede_(Plantain_Moi-Moi)&oldid=4508303), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Okra Plantain Porridge](https://en.wikibooks.org/w/index.php?title=Cookbook:Okra_Plantain_Porridge&oldid=4517862), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Olive Ascolane (Stuffed Fried Olives)](https://en.wikibooks.org/w/index.php?title=Cookbook:Olive_Ascolane_(Stuffed_Fried_Olives)&oldid=4514984), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Olive Oil Bread](https://en.wikibooks.org/w/index.php?title=Cookbook:Olive_Oil_Bread&oldid=4504049), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Omelette of Breadcrumbs](https://en.wikibooks.org/w/index.php?title=Cookbook:Omelette_of_Breadcrumbs&oldid=4517804), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Omo tuo](https://en.wikibooks.org/w/index.php?title=Cookbook:Omo_tuo&oldid=4612965), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Omu Tuo (Ghanian Mashed Rice)](https://en.wikibooks.org/w/index.php?title=Cookbook:Omu_Tuo_(Ghanian_Mashed_Rice)&oldid=4512972), CC-BY-SA-4.0
+- [Wikibooks Cookbook: One Cup Chai](https://en.wikibooks.org/w/index.php?title=Cookbook:One_Cup_Chai&oldid=4522430), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Onion Chutney](https://en.wikibooks.org/w/index.php?title=Cookbook:Onion_Chutney&oldid=4515553), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Onion Confit](https://en.wikibooks.org/w/index.php?title=Cookbook:Onion_Confit&oldid=4506798), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Onion Dip](https://en.wikibooks.org/w/index.php?title=Cookbook:Onion_Dip&oldid=4517648), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Onion Rings](https://en.wikibooks.org/w/index.php?title=Cookbook:Onion_Rings&oldid=4523376), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Ora Soup II](https://en.wikibooks.org/w/index.php?title=Cookbook:Ora_Soup_II&oldid=4518475), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Oral Rehydration Solution](https://en.wikibooks.org/w/index.php?title=Cookbook:Oral_Rehydration_Solution&oldid=4634834), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Orange Brulée](https://en.wikibooks.org/w/index.php?title=Cookbook:Orange_Brul%C3%A9e&oldid=4587359), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Orange Cardamom Pancakes](https://en.wikibooks.org/w/index.php?title=Cookbook:Orange_Cardamom_Pancakes&oldid=4523406), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Orange Chocolate Chip Muffins](https://en.wikibooks.org/w/index.php?title=Cookbook:Orange_Chocolate_Chip_Muffins&oldid=4523407), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Orange French Toast](https://en.wikibooks.org/w/index.php?title=Cookbook:Orange_French_Toast&oldid=4513391), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Orange-Glazed Sweet Potatoes](https://en.wikibooks.org/w/index.php?title=Cookbook:Orange-Glazed_Sweet_Potatoes&oldid=4587293), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Orange Julius](https://en.wikibooks.org/w/index.php?title=Cookbook:Orange_Julius&oldid=4522396), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Orange Lemon-Lime Soda Float](https://en.wikibooks.org/w/index.php?title=Cookbook:Orange_Lemon-Lime_Soda_Float&oldid=4517139), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Orange Sherbet Smoothie](https://en.wikibooks.org/w/index.php?title=Cookbook:Orange_Sherbet_Smoothie&oldid=4523466), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Orange Soda I](https://en.wikibooks.org/w/index.php?title=Cookbook:Orange_Soda_I&oldid=4607712), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Orange Soda II](https://en.wikibooks.org/w/index.php?title=Cookbook:Orange_Soda_II&oldid=4601581), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Orange Soda III](https://en.wikibooks.org/w/index.php?title=Cookbook:Orange_Soda_III&oldid=4611447), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Oreo Milkshake](https://en.wikibooks.org/w/index.php?title=Cookbook:Oreo_Milkshake&oldid=4587163), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Oreo Pie](https://en.wikibooks.org/w/index.php?title=Cookbook:Oreo_Pie&oldid=4587164), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Original Texas-Style Chili](https://en.wikibooks.org/w/index.php?title=Cookbook:Original_Texas-Style_Chili&oldid=4518786), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Orzo Salad](https://en.wikibooks.org/w/index.php?title=Cookbook:Orzo_Salad&oldid=4527219), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Ossobuco Alla Milanese](https://en.wikibooks.org/w/index.php?title=Cookbook:Ossobuco_Alla_Milanese&oldid=4614652), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Osumade Soup](https://en.wikibooks.org/w/index.php?title=Cookbook:Osumade_Soup&oldid=4518471), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Otong Soup](https://en.wikibooks.org/w/index.php?title=Cookbook:Otong_Soup&oldid=4518472), CC-BY-SA-4.0
+- [Wikibooks Cookbook: 'Out of Salad Dressing' Salad Dressing](https://en.wikibooks.org/w/index.php?title=Cookbook:'Out_of_Salad_Dressing'_Salad_Dressing&oldid=4654716), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Ove (Nigerian Yam Moi Moi)](https://en.wikibooks.org/w/index.php?title=Cookbook:Ove_(Nigerian_Yam_Moi_Moi)&oldid=4494025), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Oven-Fried Chicken Breasts](https://en.wikibooks.org/w/index.php?title=Cookbook:Oven-Fried_Chicken_Breasts&oldid=4510201), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Oven Pancakes](https://en.wikibooks.org/w/index.php?title=Cookbook:Oven_Pancakes&oldid=4522414), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Oven Pancakes (Vegan)](https://en.wikibooks.org/w/index.php?title=Cookbook:Oven_Pancakes_(Vegan)&oldid=4519151), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Oven-Roasted Potatoes](https://en.wikibooks.org/w/index.php?title=Cookbook:Oven-Roasted_Potatoes&oldid=4505987), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Owo Soup](https://en.wikibooks.org/w/index.php?title=Cookbook:Owo_Soup&oldid=4518476), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Oysters Kilpatrick](https://en.wikibooks.org/w/index.php?title=Cookbook:Oysters_Kilpatrick&oldid=4510611), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Ozark Pudding](https://en.wikibooks.org/w/index.php?title=Cookbook:Ozark_Pudding&oldid=4587347), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Pabellón Criollo (Venezuelan Rice and Beans with Steak)](https://en.wikibooks.org/w/index.php?title=Cookbook:Pabell%C3%B3n_Criollo_(Venezuelan_Rice_and_Beans_with_Steak)&oldid=4507356), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Pad Kra Pao Gai (Thai Basil Chicken Stir Fry)](https://en.wikibooks.org/w/index.php?title=Cookbook:Pad_Kra_Pao_Gai_(Thai_Basil_Chicken_Stir_Fry)&oldid=4535146), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Pad Thai](https://en.wikibooks.org/w/index.php?title=Cookbook:Pad_Thai&oldid=4581549), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Pad Thai Sauce](https://en.wikibooks.org/w/index.php?title=Cookbook:Pad_Thai_Sauce&oldid=4518989), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Paella de Marisco](https://en.wikibooks.org/w/index.php?title=Cookbook:Paella_de_Marisco&oldid=4630321), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Paella Roja](https://en.wikibooks.org/w/index.php?title=Cookbook:Paella_Roja&oldid=4630368), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Paella Valenciana](https://en.wikibooks.org/w/index.php?title=Cookbook:Paella_Valenciana&oldid=4540448), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Pain au Levain Naturel](https://en.wikibooks.org/w/index.php?title=Cookbook:Pain_au_Levain_Naturel&oldid=4501606), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Pakistani Chai](https://en.wikibooks.org/w/index.php?title=Cookbook:Pakistani_Chai&oldid=4511018), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Paksiw na Bangus (Milkfish Stewed in Vinegar)](https://en.wikibooks.org/w/index.php?title=Cookbook:Paksiw_na_Bangus_(Milkfish_Stewed_in_Vinegar)&oldid=4494452), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Palatschinken (Czech/Austrian Crepes)](https://en.wikibooks.org/w/index.php?title=Cookbook:Palatschinken_(Czech%2FAustrian_Crepes)&oldid=4535125), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Palatschinken with Sweetened Fruit](https://en.wikibooks.org/w/index.php?title=Cookbook:Palatschinken_with_Sweetened_Fruit&oldid=4522344), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Palm Fruit with Syrup](https://en.wikibooks.org/w/index.php?title=Cookbook:Palm_Fruit_with_Syrup&oldid=4587439), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Pan de Jamón](https://en.wikibooks.org/w/index.php?title=Cookbook:Pan_de_Jam%C3%B3n&oldid=4587210), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Pan-fried Beef Steak](https://en.wikibooks.org/w/index.php?title=Cookbook:Pan-fried_Beef_Steak&oldid=4620645), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Pan-fried Ravioli](https://en.wikibooks.org/w/index.php?title=Cookbook:Pan-fried_Ravioli&oldid=4523462), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Pan-Fried White Brined Cheese (Saganaki)](https://en.wikibooks.org/w/index.php?title=Cookbook:Pan-Fried_White_Brined_Cheese_(Saganaki)&oldid=4613881), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Pan-Seared Chicken Breast](https://en.wikibooks.org/w/index.php?title=Cookbook:Pan-Seared_Chicken_Breast&oldid=4497443), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Pan-Seared Duck Breast with Cabernet Reduction](https://en.wikibooks.org/w/index.php?title=Cookbook:Pan-Seared_Duck_Breast_with_Cabernet_Reduction&oldid=4514572), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Pan-Seared Filet Mignon](https://en.wikibooks.org/w/index.php?title=Cookbook:Pan-Seared_Filet_Mignon&oldid=4615176), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Pan-Seared Pork Chops](https://en.wikibooks.org/w/index.php?title=Cookbook:Pan-Seared_Pork_Chops&oldid=4497786), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Pan-Seared Scallops with Cayenne Chocolate Sauce](https://en.wikibooks.org/w/index.php?title=Cookbook:Pan-Seared_Scallops_with_Cayenne_Chocolate_Sauce&oldid=4630374), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Panamanian Ropa Vieja](https://en.wikibooks.org/w/index.php?title=Cookbook:Panamanian_Ropa_Vieja&oldid=4514072), CC-BY-SA-4.0
 - [Wikibooks Cookbook: Pancakes (North American)](https://en.wikibooks.org/w/index.php?title=Cookbook:Pancakes_(North_American)&oldid=4671208), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Pancakes (Vegan)](https://en.wikibooks.org/w/index.php?title=Cookbook:Pancakes_(Vegan)&oldid=4530551), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Pancakes with Honey](https://en.wikibooks.org/w/index.php?title=Cookbook:Pancakes_with_Honey&oldid=4522838), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Pancetta Fusilli with Herb Shallot Cream](https://en.wikibooks.org/w/index.php?title=Cookbook:Pancetta_Fusilli_with_Herb_Shallot_Cream&oldid=4541068), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Paneer Butter Masala](https://en.wikibooks.org/w/index.php?title=Cookbook:Paneer_Butter_Masala&oldid=4525004), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Panna Cotta (Basic)](https://en.wikibooks.org/w/index.php?title=Cookbook:Panna_Cotta_(Basic)&oldid=4587499), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Panna Cotta with Red Fruit Sauce](https://en.wikibooks.org/w/index.php?title=Cookbook:Panna_Cotta_with_Red_Fruit_Sauce&oldid=4587321), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Panocha (Sprouted Wheat Pudding)](https://en.wikibooks.org/w/index.php?title=Cookbook:Panocha_(Sprouted_Wheat_Pudding)&oldid=4517934), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Papadam (Black Gram Flatbread)](https://en.wikibooks.org/w/index.php?title=Cookbook:Papadam_(Black_Gram_Flatbread)&oldid=4515421), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Papaya Lassi](https://en.wikibooks.org/w/index.php?title=Cookbook:Papaya_Lassi&oldid=4510879), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Papri Chaat (Crispy Indian Snack with Potato)](https://en.wikibooks.org/w/index.php?title=Cookbook:Papri_Chaat_(Crispy_Indian_Snack_with_Potato)&oldid=4515556), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Paprika Chicken](https://en.wikibooks.org/w/index.php?title=Cookbook:Paprika_Chicken&oldid=4494451), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Parmesan Cheese Soufflé](https://en.wikibooks.org/w/index.php?title=Cookbook:Parmesan_Cheese_Souffl%C3%A9&oldid=4518317), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Parmesan Encrusted Tilapia](https://en.wikibooks.org/w/index.php?title=Cookbook:Parmesan_Encrusted_Tilapia&oldid=4533590), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Parson's Sauce (Hartshorne)](https://en.wikibooks.org/w/index.php?title=Cookbook:Parson's_Sauce_(Hartshorne)&oldid=4518991), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Pashofa (Chickasaw Pork and Corn)](https://en.wikibooks.org/w/index.php?title=Cookbook:Pashofa_(Chickasaw_Pork_and_Corn)&oldid=4497785), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Passover Apple Cake](https://en.wikibooks.org/w/index.php?title=Cookbook:Passover_Apple_Cake&oldid=4630260), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Passover Carrot Almond Cake](https://en.wikibooks.org/w/index.php?title=Cookbook:Passover_Carrot_Almond_Cake&oldid=4630261), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Passover Hazelnut Chocolate Loaf](https://en.wikibooks.org/w/index.php?title=Cookbook:Passover_Hazelnut_Chocolate_Loaf&oldid=4630262), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Passover Hazelnut Loaf Cake](https://en.wikibooks.org/w/index.php?title=Cookbook:Passover_Hazelnut_Loaf_Cake&oldid=4630263), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Passover Orange Walnut Cake](https://en.wikibooks.org/w/index.php?title=Cookbook:Passover_Orange_Walnut_Cake&oldid=4630264), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Pasta alla Gricia (Pasta with Guanciale)](https://en.wikibooks.org/w/index.php?title=Cookbook:Pasta_alla_Gricia_(Pasta_with_Guanciale)&oldid=4501060), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Pasta and Bean Soup (Pasta e Fagioli)](https://en.wikibooks.org/w/index.php?title=Cookbook:Pasta_and_Bean_Soup_(Pasta_e_Fagioli)&oldid=4525005), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Pasta Casserole (Pastitsio)](https://en.wikibooks.org/w/index.php?title=Cookbook:Pasta_Casserole_(Pastitsio)&oldid=4534929), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Pasta in Gorgonzola Cheese Sauce (Pasta Alla Gorgonzola)](https://en.wikibooks.org/w/index.php?title=Cookbook:Pasta_in_Gorgonzola_Cheese_Sauce_(Pasta_Alla_Gorgonzola)&oldid=4514816), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Pasta Marinata](https://en.wikibooks.org/w/index.php?title=Cookbook:Pasta_Marinata&oldid=4587099), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Pasta, Meat and Cheese Casserole (Mostaccioli)](https://en.wikibooks.org/w/index.php?title=Cookbook:Pasta,_Meat_and_Cheese_Casserole_(Mostaccioli)&oldid=4517413), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Pasta Romanov](https://en.wikibooks.org/w/index.php?title=Cookbook:Pasta_Romanov&oldid=4630297), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Pasta Salad with Chicken](https://en.wikibooks.org/w/index.php?title=Cookbook:Pasta_Salad_with_Chicken&oldid=4534243), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Pasta Soup for Kids](https://en.wikibooks.org/w/index.php?title=Cookbook:Pasta_Soup_for_Kids&oldid=4525006), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Pasta with Corn and Tuna](https://en.wikibooks.org/w/index.php?title=Cookbook:Pasta_with_Corn_and_Tuna&oldid=4514764), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Pasta with Hot Dogs](https://en.wikibooks.org/w/index.php?title=Cookbook:Pasta_with_Hot_Dogs&oldid=4524003), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Pasta with Pancetta and Cauliflower](https://en.wikibooks.org/w/index.php?title=Cookbook:Pasta_with_Pancetta_and_Cauliflower&oldid=4501069), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Pasta with Red Pepper and Goat Cheese](https://en.wikibooks.org/w/index.php?title=Cookbook:Pasta_with_Red_Pepper_and_Goat_Cheese&oldid=4516415), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Pasta with Sausage](https://en.wikibooks.org/w/index.php?title=Cookbook:Pasta_with_Sausage&oldid=4502853), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Pasta with Vegetables](https://en.wikibooks.org/w/index.php?title=Cookbook:Pasta_with_Vegetables&oldid=4493953), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Paste for Tarts](https://en.wikibooks.org/w/index.php?title=Cookbook:Paste_for_Tarts&oldid=4516041), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Pasties](https://en.wikibooks.org/w/index.php?title=Cookbook:Pasties&oldid=4587211), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Pastries Filled with Jam (Marmeladetascherl)](https://en.wikibooks.org/w/index.php?title=Cookbook:Pastries_Filled_with_Jam_(Marmeladetascherl)&oldid=4587212), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Pastry Dough (recipe)](https://en.wikibooks.org/w/index.php?title=Cookbook:Pastry_Dough_(recipe)&oldid=4517163), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Pastry for Cornish Pasties](https://en.wikibooks.org/w/index.php?title=Cookbook:Pastry_for_Cornish_Pasties&oldid=4516039), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Pattaya Fried Rice](https://en.wikibooks.org/w/index.php?title=Cookbook:Pattaya_Fried_Rice&oldid=4517690), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Pavlova](https://en.wikibooks.org/w/index.php?title=Cookbook:Pavlova&oldid=4587394), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Pea Soup (Québécois Style)](https://en.wikibooks.org/w/index.php?title=Cookbook:Pea_Soup_(Qu%C3%A9b%C3%A9cois_Style)&oldid=4533616), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Peach and Tomato Gazpacho](https://en.wikibooks.org/w/index.php?title=Cookbook:Peach_and_Tomato_Gazpacho&oldid=4525008), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Peach Chutney](https://en.wikibooks.org/w/index.php?title=Cookbook:Peach_Chutney&oldid=4615132), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Peach Cobbler](https://en.wikibooks.org/w/index.php?title=Cookbook:Peach_Cobbler&oldid=4587255), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Peach Curry Chutney](https://en.wikibooks.org/w/index.php?title=Cookbook:Peach_Curry_Chutney&oldid=4517553), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Peach Pie](https://en.wikibooks.org/w/index.php?title=Cookbook:Peach_Pie&oldid=4541041), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Peach, Strawberry and Ice Cream Smoothie](https://en.wikibooks.org/w/index.php?title=Cookbook:Peach,_Strawberry_and_Ice_Cream_Smoothie&oldid=4517159), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Peanut Brittle](https://en.wikibooks.org/w/index.php?title=Cookbook:Peanut_Brittle&oldid=4517489), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Peanut Butter and Jelly Sandwich](https://en.wikibooks.org/w/index.php?title=Cookbook:Peanut_Butter_and_Jelly_Sandwich&oldid=4601840), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Peanut Butter Banana Oatmeal](https://en.wikibooks.org/w/index.php?title=Cookbook:Peanut_Butter_Banana_Oatmeal&oldid=4522503), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Peanut Butter Banana Smoothie](https://en.wikibooks.org/w/index.php?title=Cookbook:Peanut_Butter_Banana_Smoothie&oldid=4512229), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Peanut Butter Cookies](https://en.wikibooks.org/w/index.php?title=Cookbook:Peanut_Butter_Cookies&oldid=4525009), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Peanut Butter Cookies (Egg-Free)](https://en.wikibooks.org/w/index.php?title=Cookbook:Peanut_Butter_Cookies_(Egg-Free)&oldid=4517165), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Peanut Butter Fudge](https://en.wikibooks.org/w/index.php?title=Cookbook:Peanut_Butter_Fudge&oldid=4522501), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Peanut Butter Sandwich](https://en.wikibooks.org/w/index.php?title=Cookbook:Peanut_Butter_Sandwich&oldid=4518268), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Peanut Chicken Stir-Fry](https://en.wikibooks.org/w/index.php?title=Cookbook:Peanut_Chicken_Stir-Fry&oldid=4513031), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Peanut Curry Sauce](https://en.wikibooks.org/w/index.php?title=Cookbook:Peanut_Curry_Sauce&oldid=4518993), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Peanut Milk](https://en.wikibooks.org/w/index.php?title=Cookbook:Peanut_Milk&oldid=4512419), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Peanut Sauce (Saus Kacang)](https://en.wikibooks.org/w/index.php?title=Cookbook:Peanut_Sauce_(Saus_Kacang)&oldid=4518994), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Peanut Sauce (Vegan)](https://en.wikibooks.org/w/index.php?title=Cookbook:Peanut_Sauce_(Vegan)&oldid=4518992), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Pear and Almond Smoothie (Vegan)](https://en.wikibooks.org/w/index.php?title=Cookbook:Pear_and_Almond_Smoothie_(Vegan)&oldid=4512360), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Pear Chutney](https://en.wikibooks.org/w/index.php?title=Cookbook:Pear_Chutney&oldid=4508266), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Pear-Cranberry Crisp](https://en.wikibooks.org/w/index.php?title=Cookbook:Pear-Cranberry_Crisp&oldid=4587362), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Pear Pie](https://en.wikibooks.org/w/index.php?title=Cookbook:Pear_Pie&oldid=4517272), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Peas Supreme](https://en.wikibooks.org/w/index.php?title=Cookbook:Peas_Supreme&oldid=4517414), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Pease Pudding](https://en.wikibooks.org/w/index.php?title=Cookbook:Pease_Pudding&oldid=4517938), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Pecan Blondies](https://en.wikibooks.org/w/index.php?title=Cookbook:Pecan_Blondies&oldid=4587322), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Pecan Pie](https://en.wikibooks.org/w/index.php?title=Cookbook:Pecan_Pie&oldid=4603932), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Pecan Spinach Pasta](https://en.wikibooks.org/w/index.php?title=Cookbook:Pecan_Spinach_Pasta&oldid=4515086), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Pecan Sweet Potatoes](https://en.wikibooks.org/w/index.php?title=Cookbook:Pecan_Sweet_Potatoes&oldid=4587283), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Pedernales River Chili](https://en.wikibooks.org/w/index.php?title=Cookbook:Pedernales_River_Chili&oldid=4518559), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Penne alla Casa (Penne in Creamy Tomato Sauce)](https://en.wikibooks.org/w/index.php?title=Cookbook:Penne_alla_Casa_(Penne_in_Creamy_Tomato_Sauce)&oldid=4516481), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Penne with Hearty Meat Sauce](https://en.wikibooks.org/w/index.php?title=Cookbook:Penne_with_Hearty_Meat_Sauce&oldid=4525011), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Pepes Ikan (Indonesian Steamed Fish)](https://en.wikibooks.org/w/index.php?title=Cookbook:Pepes_Ikan_(Indonesian_Steamed_Fish)&oldid=4520355), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Pepper-Crusted Chicken](https://en.wikibooks.org/w/index.php?title=Cookbook:Pepper-Crusted_Chicken&oldid=4510209), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Pepper Crusted Flank Steak](https://en.wikibooks.org/w/index.php?title=Cookbook:Pepper_Crusted_Flank_Steak&oldid=4615157), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Pepper Soda](https://en.wikibooks.org/w/index.php?title=Cookbook:Pepper_Soda&oldid=4601588), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Pepper Soup](https://en.wikibooks.org/w/index.php?title=Cookbook:Pepper_Soup&oldid=4603865), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Peppercorn Strip Steaks with Cognac Cream Sauce](https://en.wikibooks.org/w/index.php?title=Cookbook:Peppercorn_Strip_Steaks_with_Cognac_Cream_Sauce&oldid=4518995), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Pepperoni Pasta Salad](https://en.wikibooks.org/w/index.php?title=Cookbook:Pepperoni_Pasta_Salad&oldid=4605251), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Percolator Punch](https://en.wikibooks.org/w/index.php?title=Cookbook:Percolator_Punch&oldid=4510858), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Perfect Three Course Dinner](https://en.wikibooks.org/w/index.php?title=Cookbook:Perfect_Three_Course_Dinner&oldid=4515088), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Peri-Peri Chicken](https://en.wikibooks.org/w/index.php?title=Cookbook:Peri-Peri_Chicken&oldid=4513999), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Persian Apple Dessert](https://en.wikibooks.org/w/index.php?title=Cookbook:Persian_Apple_Dessert&oldid=4587280), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Persian Rice with Pistachio Sauce](https://en.wikibooks.org/w/index.php?title=Cookbook:Persian_Rice_with_Pistachio_Sauce&oldid=4630239), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Pesto I](https://en.wikibooks.org/w/index.php?title=Cookbook:Pesto_I&oldid=4518820), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Pesto II](https://en.wikibooks.org/w/index.php?title=Cookbook:Pesto_II&oldid=4518821), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Pezzetti di Cavallo (Italian Horse and Tomato)](https://en.wikibooks.org/w/index.php?title=Cookbook:Pezzetti_di_Cavallo_(Italian_Horse_and_Tomato)&oldid=4520576), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Phở Bò (Vietnamese Beef Noodle Soup)](https://en.wikibooks.org/w/index.php?title=Cookbook:Ph%E1%BB%9F_B%C3%B2_(Vietnamese_Beef_Noodle_Soup)&oldid=4518483), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Philly Cheesesteak](https://en.wikibooks.org/w/index.php?title=Cookbook:Philly_Cheesesteak&oldid=4518271), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Philosopher's Stew](https://en.wikibooks.org/w/index.php?title=Cookbook:Philosopher's_Stew&oldid=4517417), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Phulourie (Split Pea Fritters)](https://en.wikibooks.org/w/index.php?title=Cookbook:Phulourie_(Split_Pea_Fritters)&oldid=4517758), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Piadina (Thin Italian Flatbread)](https://en.wikibooks.org/w/index.php?title=Cookbook:Piadina_(Thin_Italian_Flatbread)&oldid=4512746), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Picadillo (Beef with Potatoes and Tomatoes)](https://en.wikibooks.org/w/index.php?title=Cookbook:Picadillo_(Beef_with_Potatoes_and_Tomatoes)&oldid=4514075), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Picante Peach Cobbler](https://en.wikibooks.org/w/index.php?title=Cookbook:Picante_Peach_Cobbler&oldid=4587350), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Pickert (German Potato Dumpling)](https://en.wikibooks.org/w/index.php?title=Cookbook:Pickert_(German_Potato_Dumpling)&oldid=4522382), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Pickled Green Mango (Aavakaaya)](https://en.wikibooks.org/w/index.php?title=Cookbook:Pickled_Green_Mango_(Aavakaaya)&oldid=4615148), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Pickled Herring](https://en.wikibooks.org/w/index.php?title=Cookbook:Pickled_Herring&oldid=4613426), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Pickled Oysters](https://en.wikibooks.org/w/index.php?title=Cookbook:Pickled_Oysters&oldid=4630378), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Pico de Gallo](https://en.wikibooks.org/w/index.php?title=Cookbook:Pico_de_Gallo&oldid=4518154), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Pie Floater](https://en.wikibooks.org/w/index.php?title=Cookbook:Pie_Floater&oldid=4518485), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Pierogi I](https://en.wikibooks.org/w/index.php?title=Cookbook:Pierogi_I&oldid=4502870), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Pierogi II](https://en.wikibooks.org/w/index.php?title=Cookbook:Pierogi_II&oldid=4505491), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Pig's Trotters and Ginger Vinegar Stew](https://en.wikibooks.org/w/index.php?title=Cookbook:Pig's_Trotters_and_Ginger_Vinegar_Stew&oldid=4518669), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Pigeon Pea and Fenugreek Curry (Methi Tadka Dal)](https://en.wikibooks.org/w/index.php?title=Cookbook:Pigeon_Pea_and_Fenugreek_Curry_(Methi_Tadka_Dal)&oldid=4615199), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Pikelet (Australian Mini Pancakes)](https://en.wikibooks.org/w/index.php?title=Cookbook:Pikelet_(Australian_Mini_Pancakes)&oldid=4522725), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Pimento Cheese Spread I](https://en.wikibooks.org/w/index.php?title=Cookbook:Pimento_Cheese_Spread_I&oldid=4515181), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Pinakbet](https://en.wikibooks.org/w/index.php?title=Cookbook:Pinakbet&oldid=4499838), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Pineapple Curry](https://en.wikibooks.org/w/index.php?title=Cookbook:Pineapple_Curry&oldid=4541099), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Pineapple Fried Rice](https://en.wikibooks.org/w/index.php?title=Cookbook:Pineapple_Fried_Rice&oldid=4517691), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Pineapple Juice](https://en.wikibooks.org/w/index.php?title=Cookbook:Pineapple_Juice&oldid=4480740), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Pineapple Side Dish](https://en.wikibooks.org/w/index.php?title=Cookbook:Pineapple_Side_Dish&oldid=4525014), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Pineapple Tarts](https://en.wikibooks.org/w/index.php?title=Cookbook:Pineapple_Tarts&oldid=4587281), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Pineapple Teriyaki](https://en.wikibooks.org/w/index.php?title=Cookbook:Pineapple_Teriyaki&oldid=4610533), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Pineapple Upside-Down Cake in a Skillet](https://en.wikibooks.org/w/index.php?title=Cookbook:Pineapple_Upside-Down_Cake_in_a_Skillet&oldid=4517175), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Piñon (Spanish Stovetop Pot Pie)](https://en.wikibooks.org/w/index.php?title=Cookbook:Pi%C3%B1on_(Spanish_Stovetop_Pot_Pie)&oldid=4659008), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Pita](https://en.wikibooks.org/w/index.php?title=Cookbook:Pita&oldid=4503520), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Pizza Dough](https://en.wikibooks.org/w/index.php?title=Cookbook:Pizza_Dough&oldid=4517840), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Pizza-Flavored Omelet](https://en.wikibooks.org/w/index.php?title=Cookbook:Pizza-Flavored_Omelet&oldid=4605249), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Pizza Hot Dogs](https://en.wikibooks.org/w/index.php?title=Cookbook:Pizza_Hot_Dogs&oldid=4515000), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Pizza Rollups](https://en.wikibooks.org/w/index.php?title=Cookbook:Pizza_Rollups&oldid=4518270), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Pizza Soup](https://en.wikibooks.org/w/index.php?title=Cookbook:Pizza_Soup&oldid=4518486), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Pizza with Peppers](https://en.wikibooks.org/w/index.php?title=Cookbook:Pizza_with_Peppers&oldid=4671683), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Placenta Stew](https://en.wikibooks.org/w/index.php?title=Cookbook:Placenta_Stew&oldid=4518668), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Placenta with Broccoli](https://en.wikibooks.org/w/index.php?title=Cookbook:Placenta_with_Broccoli&oldid=4506239), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Plain Lassi](https://en.wikibooks.org/w/index.php?title=Cookbook:Plain_Lassi&oldid=4510881), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Plain Scones](https://en.wikibooks.org/w/index.php?title=Cookbook:Plain_Scones&oldid=4587477), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Plank-Grilled Salmon](https://en.wikibooks.org/w/index.php?title=Cookbook:Plank-Grilled_Salmon&oldid=4508856), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Ploughman's Sandwich](https://en.wikibooks.org/w/index.php?title=Cookbook:Ploughman's_Sandwich&oldid=4518272), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Ployes](https://en.wikibooks.org/w/index.php?title=Cookbook:Ployes&oldid=4613444), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Po' Boy](https://en.wikibooks.org/w/index.php?title=Cookbook:Po'_Boy&oldid=4523469), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Poached Egg](https://en.wikibooks.org/w/index.php?title=Cookbook:Poached_Egg&oldid=4500505), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Poached Salmon with wild Huckleberries](https://en.wikibooks.org/w/index.php?title=Cookbook:Poached_Salmon_with_wild_Huckleberries&oldid=4511878), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Pohe (Spiced Flattened Rice)](https://en.wikibooks.org/w/index.php?title=Cookbook:Pohe_(Spiced_Flattened_Rice)&oldid=4633573), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Polish Cauliflower with Breadcrumbs](https://en.wikibooks.org/w/index.php?title=Cookbook:Polish_Cauliflower_with_Breadcrumbs&oldid=4513535), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Polish Doughnuts (Paczki)](https://en.wikibooks.org/w/index.php?title=Cookbook:Polish_Doughnuts_(Paczki)&oldid=4587214), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Pollo Del Fungo (Chicken with Mushrooms)](https://en.wikibooks.org/w/index.php?title=Cookbook:Pollo_Del_Fungo_(Chicken_with_Mushrooms)&oldid=4525017), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Polvorones (Spanish Shortbread)](https://en.wikibooks.org/w/index.php?title=Cookbook:Polvorones_(Spanish_Shortbread)&oldid=4517181), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Ponche de Crème](https://en.wikibooks.org/w/index.php?title=Cookbook:Ponche_de_Cr%C3%A8me&oldid=4511305), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Popcorn](https://en.wikibooks.org/w/index.php?title=Cookbook:Popcorn&oldid=4502882), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Poppyseed Chicken](https://en.wikibooks.org/w/index.php?title=Cookbook:Poppyseed_Chicken&oldid=4515183), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Pork Aachi](https://en.wikibooks.org/w/index.php?title=Cookbook:Pork_Aachi&oldid=4513654), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Pork and Carrots in Sauce](https://en.wikibooks.org/w/index.php?title=Cookbook:Pork_and_Carrots_in_Sauce&oldid=4494446), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Pork and Lima Skillet](https://en.wikibooks.org/w/index.php?title=Cookbook:Pork_and_Lima_Skillet&oldid=4515447), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Pork Braised with Garlic and Onions of Indonesia (Babi Kecap)](https://en.wikibooks.org/w/index.php?title=Cookbook:Pork_Braised_with_Garlic_and_Onions_of_Indonesia_(Babi_Kecap)&oldid=4507094), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Pork Burritos with Green Pepper Sauce](https://en.wikibooks.org/w/index.php?title=Cookbook:Pork_Burritos_with_Green_Pepper_Sauce&oldid=4517384), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Pork Chops Cacciatore](https://en.wikibooks.org/w/index.php?title=Cookbook:Pork_Chops_Cacciatore&oldid=4497721), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Pork Gyoza](https://en.wikibooks.org/w/index.php?title=Cookbook:Pork_Gyoza&oldid=4613393), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Pork Marinade](https://en.wikibooks.org/w/index.php?title=Cookbook:Pork_Marinade&oldid=4514578), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Pork Pot Pie](https://en.wikibooks.org/w/index.php?title=Cookbook:Pork_Pot_Pie&oldid=4522449), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Pork Roast with Cayenne Apple Glaze](https://en.wikibooks.org/w/index.php?title=Cookbook:Pork_Roast_with_Cayenne_Apple_Glaze&oldid=4613387), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Pork Spare Rib Soup (Bah Kut Teh)](https://en.wikibooks.org/w/index.php?title=Cookbook:Pork_Spare_Rib_Soup_(Bah_Kut_Teh)&oldid=4610521), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Pork Stomach Filled with Meat and Vegetables (Saumagen)](https://en.wikibooks.org/w/index.php?title=Cookbook:Pork_Stomach_Filled_with_Meat_and_Vegetables_(Saumagen)&oldid=4494445), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Pork Tenderloin with Asparagus and Prosciutto](https://en.wikibooks.org/w/index.php?title=Cookbook:Pork_Tenderloin_with_Asparagus_and_Prosciutto&oldid=4511076), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Portable Eggs Benedict](https://en.wikibooks.org/w/index.php?title=Cookbook:Portable_Eggs_Benedict&oldid=4514769), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Portobello Eggs](https://en.wikibooks.org/w/index.php?title=Cookbook:Portobello_Eggs&oldid=4610398), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Portuguese Feijoada](https://en.wikibooks.org/w/index.php?title=Cookbook:Portuguese_Feijoada&oldid=4518670), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Posho (Ugandan Cornmeal Porridge)](https://en.wikibooks.org/w/index.php?title=Cookbook:Posho_(Ugandan_Cornmeal_Porridge)&oldid=4517863), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Potage Parmentier](https://en.wikibooks.org/w/index.php?title=Cookbook:Potage_Parmentier&oldid=4518488), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Potato-Almond Milk](https://en.wikibooks.org/w/index.php?title=Cookbook:Potato-Almond_Milk&oldid=4512362), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Potato and Cabbage Soup](https://en.wikibooks.org/w/index.php?title=Cookbook:Potato_and_Cabbage_Soup&oldid=4518489), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Potato and Cauliflower Curry (Aloo Gobi)](https://en.wikibooks.org/w/index.php?title=Cookbook:Potato_and_Cauliflower_Curry_(Aloo_Gobi)&oldid=4510216), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Potato and Garlic Ravioli Filling](https://en.wikibooks.org/w/index.php?title=Cookbook:Potato_and_Garlic_Ravioli_Filling&oldid=4516649), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Potato and Leek Soup](https://en.wikibooks.org/w/index.php?title=Cookbook:Potato_and_Leek_Soup&oldid=4608863), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Potato and Leek Soup II](https://en.wikibooks.org/w/index.php?title=Cookbook:Potato_and_Leek_Soup_II&oldid=4526000), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Potato and Sausage Casserole (Papa Turmada)](https://en.wikibooks.org/w/index.php?title=Cookbook:Potato_and_Sausage_Casserole_(Papa_Turmada)&oldid=4522443), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Potato Balls](https://en.wikibooks.org/w/index.php?title=Cookbook:Potato_Balls&oldid=4513539), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Potato Candy Pinwheel](https://en.wikibooks.org/w/index.php?title=Cookbook:Potato_Candy_Pinwheel&oldid=4517492), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Potato Casserole (Rakott Krumpli)](https://en.wikibooks.org/w/index.php?title=Cookbook:Potato_Casserole_(Rakott_Krumpli)&oldid=4592334), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Potato Castle](https://en.wikibooks.org/w/index.php?title=Cookbook:Potato_Castle&oldid=4517419), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Potato-Chickpea Curry](https://en.wikibooks.org/w/index.php?title=Cookbook:Potato-Chickpea_Curry&oldid=4518673), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Potato Chips](https://en.wikibooks.org/w/index.php?title=Cookbook:Potato_Chips&oldid=4503524), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Potato, Courgette, and Cavelo Nero Pancakes](https://en.wikibooks.org/w/index.php?title=Cookbook:Potato,_Courgette,_and_Cavelo_Nero_Pancakes&oldid=4519157), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Potato Curry (Aloo Masala)](https://en.wikibooks.org/w/index.php?title=Cookbook:Potato_Curry_(Aloo_Masala)&oldid=4615205), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Potato Gnocchi with Basil and Sun-dried Tomatoes](https://en.wikibooks.org/w/index.php?title=Cookbook:Potato_Gnocchi_with_Basil_and_Sun-dried_Tomatoes&oldid=4506620), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Potato Gratin](https://en.wikibooks.org/w/index.php?title=Cookbook:Potato_Gratin&oldid=4523312), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Potato Kugel](https://en.wikibooks.org/w/index.php?title=Cookbook:Potato_Kugel&oldid=4631630), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Potato Lángos](https://en.wikibooks.org/w/index.php?title=Cookbook:Potato_L%C3%A1ngos&oldid=4517761), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Potato Meat Loaf](https://en.wikibooks.org/w/index.php?title=Cookbook:Potato_Meat_Loaf&oldid=4662970), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Potato Omelet](https://en.wikibooks.org/w/index.php?title=Cookbook:Potato_Omelet&oldid=4522451), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Potato Pancakes](https://en.wikibooks.org/w/index.php?title=Cookbook:Potato_Pancakes&oldid=4666221), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Potato Pie](https://en.wikibooks.org/w/index.php?title=Cookbook:Potato_Pie&oldid=4517276), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Potato Pudding](https://en.wikibooks.org/w/index.php?title=Cookbook:Potato_Pudding&oldid=4587364), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Potato Salad](https://en.wikibooks.org/w/index.php?title=Cookbook:Potato_Salad&oldid=4525019), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Potato Salad (Southern Ontario Style)](https://en.wikibooks.org/w/index.php?title=Cookbook:Potato_Salad_(Southern_Ontario_Style)&oldid=4613369), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Potato Samosas (Aloo Pies)](https://en.wikibooks.org/w/index.php?title=Cookbook:Potato_Samosas_(Aloo_Pies)&oldid=4587215), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Potato Skins](https://en.wikibooks.org/w/index.php?title=Cookbook:Potato_Skins&oldid=4515186), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Potato Snow](https://en.wikibooks.org/w/index.php?title=Cookbook:Potato_Snow&oldid=4494742), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Potato Soup](https://en.wikibooks.org/w/index.php?title=Cookbook:Potato_Soup&oldid=4524034), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Potato Spelt Oat Burger](https://en.wikibooks.org/w/index.php?title=Cookbook:Potato_Spelt_Oat_Burger&oldid=4559562), CC-BY-SA-4.0
 - [Wikibooks Cookbook: Potatoes Anna](https://en.wikibooks.org/w/index.php?title=Cookbook:Potatoes_Anna&oldid=4502892), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Potatoes Colcannon](https://en.wikibooks.org/w/index.php?title=Cookbook:Potatoes_Colcannon&oldid=4502893), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Potatoes Excaloped](https://en.wikibooks.org/w/index.php?title=Cookbook:Potatoes_Excaloped&oldid=4513542), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Potatoes Fried Whole](https://en.wikibooks.org/w/index.php?title=Cookbook:Potatoes_Fried_Whole&oldid=4513543), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Potatoes on the Half-Shell](https://en.wikibooks.org/w/index.php?title=Cookbook:Potatoes_on_the_Half-Shell&oldid=4522804), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Potatoes Roasted under Meat](https://en.wikibooks.org/w/index.php?title=Cookbook:Potatoes_Roasted_under_Meat&oldid=4494732), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Potatoes with Green Sauce](https://en.wikibooks.org/w/index.php?title=Cookbook:Potatoes_with_Green_Sauce&oldid=4522763), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Pouch-Roasted Snapper](https://en.wikibooks.org/w/index.php?title=Cookbook:Pouch-Roasted_Snapper&oldid=4514575), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Poultry Shake](https://en.wikibooks.org/w/index.php?title=Cookbook:Poultry_Shake&oldid=4516615), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Pounded Yam](https://en.wikibooks.org/w/index.php?title=Cookbook:Pounded_Yam&oldid=4524336), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Pounded Yam (natively common in Igbo homes)](https://en.wikibooks.org/w/index.php?title=Cookbook:Pounded_Yam_(natively_common_in_Igbo_homes)&oldid=4638521), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Poundo Potato](https://en.wikibooks.org/w/index.php?title=Cookbook:Poundo_Potato&oldid=4518765), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Poundo Yam](https://en.wikibooks.org/w/index.php?title=Cookbook:Poundo_Yam&oldid=4518766), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Pralin](https://en.wikibooks.org/w/index.php?title=Cookbook:Pralin&oldid=4587147), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Prata](https://en.wikibooks.org/w/index.php?title=Cookbook:Prata&oldid=4505494), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Prawn Curry](https://en.wikibooks.org/w/index.php?title=Cookbook:Prawn_Curry&oldid=4517559), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Prekmurska Gibanica (Slovenian Layered Strudel Cake)](https://en.wikibooks.org/w/index.php?title=Cookbook:Prekmurska_Gibanica_(Slovenian_Layered_Strudel_Cake)&oldid=4587216), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Prepared White Mustard](https://en.wikibooks.org/w/index.php?title=Cookbook:Prepared_White_Mustard&oldid=4613382), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Preserved Lemon](https://en.wikibooks.org/w/index.php?title=Cookbook:Preserved_Lemon&oldid=4515706), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Pretzels (Soft)](https://en.wikibooks.org/w/index.php?title=Cookbook:Pretzels_(Soft)&oldid=4504072), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Prickly Pear Soda](https://en.wikibooks.org/w/index.php?title=Cookbook:Prickly_Pear_Soda&oldid=4598660), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Prime Rib Dinner](https://en.wikibooks.org/w/index.php?title=Cookbook:Prime_Rib_Dinner&oldid=4511159), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Prime Rib Seasoning](https://en.wikibooks.org/w/index.php?title=Cookbook:Prime_Rib_Seasoning&oldid=4516630), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Proja (Serbian Cornbread)](https://en.wikibooks.org/w/index.php?title=Cookbook:Proja_(Serbian_Cornbread)&oldid=4513135), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Pudding with Pistachios and Rose Water (Muhallebi)](https://en.wikibooks.org/w/index.php?title=Cookbook:Pudding_with_Pistachios_and_Rose_Water_(Muhallebi)&oldid=4525021), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Pudina Hilsa (Bengali Fish with Mint)](https://en.wikibooks.org/w/index.php?title=Cookbook:Pudina_Hilsa_(Bengali_Fish_with_Mint)&oldid=4630285), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Puerto Rican Sofrito](https://en.wikibooks.org/w/index.php?title=Cookbook:Puerto_Rican_Sofrito&oldid=4514000), CC-BY-SA-4.0
 - [Wikibooks Cookbook: Puff Pastry I](https://en.wikibooks.org/w/index.php?title=Cookbook:Puff_Pastry_I&oldid=4516150), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Puff Pastry with Nuts and Whipped Cream (Om Ali)](https://en.wikibooks.org/w/index.php?title=Cookbook:Puff_Pastry_with_Nuts_and_Whipped_Cream_(Om_Ali)&oldid=4587217), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Pufftaloons](https://en.wikibooks.org/w/index.php?title=Cookbook:Pufftaloons&oldid=4522788), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Pulikkachal (Tamil Spiced Tamarind Paste)](https://en.wikibooks.org/w/index.php?title=Cookbook:Pulikkachal_(Tamil_Spiced_Tamarind_Paste)&oldid=4518928), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Puliyodarai (South Indian Tamarind Rice)](https://en.wikibooks.org/w/index.php?title=Cookbook:Puliyodarai_(South_Indian_Tamarind_Rice)&oldid=4615204), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Pulse Chutney](https://en.wikibooks.org/w/index.php?title=Cookbook:Pulse_Chutney&oldid=4515443), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Pulut Durian (Durian with Sticky Rice)](https://en.wikibooks.org/w/index.php?title=Cookbook:Pulut_Durian_(Durian_with_Sticky_Rice)&oldid=4587308), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Pumpkin Bread I](https://en.wikibooks.org/w/index.php?title=Cookbook:Pumpkin_Bread_I&oldid=4515966), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Pumpkin Bread II](https://en.wikibooks.org/w/index.php?title=Cookbook:Pumpkin_Bread_II&oldid=4517191), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Pumpkin Bread III](https://en.wikibooks.org/w/index.php?title=Cookbook:Pumpkin_Bread_III&oldid=4517192), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Pumpkin Chips](https://en.wikibooks.org/w/index.php?title=Cookbook:Pumpkin_Chips&oldid=4507844), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Pumpkin Muffins](https://en.wikibooks.org/w/index.php?title=Cookbook:Pumpkin_Muffins&oldid=4523379), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Pumpkin Pie I](https://en.wikibooks.org/w/index.php?title=Cookbook:Pumpkin_Pie_I&oldid=4634152), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Pumpkin Pie II](https://en.wikibooks.org/w/index.php?title=Cookbook:Pumpkin_Pie_II&oldid=4587340), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Pumpkin Roll](https://en.wikibooks.org/w/index.php?title=Cookbook:Pumpkin_Roll&oldid=4587427), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Pumpkin Soufflé Casserole](https://en.wikibooks.org/w/index.php?title=Cookbook:Pumpkin_Souffl%C3%A9_Casserole&oldid=4595937), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Pumpkin Soup](https://en.wikibooks.org/w/index.php?title=Cookbook:Pumpkin_Soup&oldid=4584563), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Pumpkin Soup with Curry](https://en.wikibooks.org/w/index.php?title=Cookbook:Pumpkin_Soup_with_Curry&oldid=4518495), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Pumpkin Substitute](https://en.wikibooks.org/w/index.php?title=Cookbook:Pumpkin_Substitute&oldid=4496318), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Pupuru (Nigerian Cassava Swallow)](https://en.wikibooks.org/w/index.php?title=Cookbook:Pupuru_(Nigerian_Cassava_Swallow)&oldid=4518767), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Pupusas](https://en.wikibooks.org/w/index.php?title=Cookbook:Pupusas&oldid=4630343), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Purée Mongole](https://en.wikibooks.org/w/index.php?title=Cookbook:Pur%C3%A9e_Mongole&oldid=4518496), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Puri (Indian Fried Flatbread)](https://en.wikibooks.org/w/index.php?title=Cookbook:Puri_(Indian_Fried_Flatbread)&oldid=4503536), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Purple Plum Pie](https://en.wikibooks.org/w/index.php?title=Cookbook:Purple_Plum_Pie&oldid=4517280), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Puttanesca Sauce (Vegan)](https://en.wikibooks.org/w/index.php?title=Cookbook:Puttanesca_Sauce_(Vegan)&oldid=4518999), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Puttu (Steamed Rice Flour and Coconut)](https://en.wikibooks.org/w/index.php?title=Cookbook:Puttu_(Steamed_Rice_Flour_and_Coconut)&oldid=4526800), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Qabuli (Central Asian Rice Pilaf)](https://en.wikibooks.org/w/index.php?title=Cookbook:Qabuli_(Central_Asian_Rice_Pilaf)&oldid=4515561), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Quail Egg and Chili Jangjorim](https://en.wikibooks.org/w/index.php?title=Cookbook:Quail_Egg_and_Chili_Jangjorim&oldid=4511553), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Quaker Oat Swallow](https://en.wikibooks.org/w/index.php?title=Cookbook:Quaker_Oat_Swallow&oldid=4518768), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Queen of Puddings](https://en.wikibooks.org/w/index.php?title=Cookbook:Queen_of_Puddings&oldid=4587387), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Queen's Sauce (Hartshorne)](https://en.wikibooks.org/w/index.php?title=Cookbook:Queen's_Sauce_(Hartshorne)&oldid=4518998), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Queens Soup](https://en.wikibooks.org/w/index.php?title=Cookbook:Queens_Soup&oldid=4522462), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Quiche Batter](https://en.wikibooks.org/w/index.php?title=Cookbook:Quiche_Batter&oldid=4595930), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Quiche Lorraine](https://en.wikibooks.org/w/index.php?title=Cookbook:Quiche_Lorraine&oldid=4536093), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Quick and Delicious Pineapple Upside-Down Cake](https://en.wikibooks.org/w/index.php?title=Cookbook:Quick_and_Delicious_Pineapple_Upside-Down_Cake&oldid=4517196), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Quick and Easy Beef Stroganoff](https://en.wikibooks.org/w/index.php?title=Cookbook:Quick_and_Easy_Beef_Stroganoff&oldid=4525001), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Quick and Easy Queso Dip](https://en.wikibooks.org/w/index.php?title=Cookbook:Quick_and_Easy_Queso_Dip&oldid=4517650), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Quick Baked Beef-Pasta Dish](https://en.wikibooks.org/w/index.php?title=Cookbook:Quick_Baked_Beef-Pasta_Dish&oldid=4605248), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Quick Finnish Lemon Mead (Sima)](https://en.wikibooks.org/w/index.php?title=Cookbook:Quick_Finnish_Lemon_Mead_(Sima)&oldid=4510222), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Quick Guacamole I](https://en.wikibooks.org/w/index.php?title=Cookbook:Quick_Guacamole_I&oldid=4517634), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Quick Guacamole II](https://en.wikibooks.org/w/index.php?title=Cookbook:Quick_Guacamole_II&oldid=4517635), CC-BY-SA-4.0
 - [Wikibooks Cookbook: Quick Puff Pastry](https://en.wikibooks.org/w/index.php?title=Cookbook:Quick_Puff_Pastry&oldid=4605351), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Quick Risotto](https://en.wikibooks.org/w/index.php?title=Cookbook:Quick_Risotto&oldid=4517967), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Quick Sourdough Starter](https://en.wikibooks.org/w/index.php?title=Cookbook:Quick_Sourdough_Starter&oldid=4620885), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Quick Sparkling Lemonade](https://en.wikibooks.org/w/index.php?title=Cookbook:Quick_Sparkling_Lemonade&oldid=4504080), CC-BY-SA-4.0
 - [Wikibooks Cookbook: Quick Tomato Noodle Soup](https://en.wikibooks.org/w/index.php?title=Cookbook:Quick_Tomato_Noodle_Soup&oldid=4518498), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Quince Pudding](https://en.wikibooks.org/w/index.php?title=Cookbook:Quince_Pudding&oldid=4517941), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Quinoa, Shiitake Mushrooms and Adzuki Beans](https://en.wikibooks.org/w/index.php?title=Cookbook:Quinoa,_Shiitake_Mushrooms_and_Adzuki_Beans&oldid=4610400), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Quinoa Vegetable Slaw With Peanut Dressing (Gluten-Free)](https://en.wikibooks.org/w/index.php?title=Cookbook:Quinoa_Vegetable_Slaw_With_Peanut_Dressing_(Gluten-Free)&oldid=4630344), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Quorn Pitta](https://en.wikibooks.org/w/index.php?title=Cookbook:Quorn_Pitta&oldid=4518278), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Rabbit with Abbey Beer (Konijn met Paterbier)](https://en.wikibooks.org/w/index.php?title=Cookbook:Rabbit_with_Abbey_Beer_(Konijn_met_Paterbier)&oldid=4613401), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Racuszki (Polish Pancakes)](https://en.wikibooks.org/w/index.php?title=Cookbook:Racuszki_(Polish_Pancakes)&oldid=4525528), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Radish Pie](https://en.wikibooks.org/w/index.php?title=Cookbook:Radish_Pie&oldid=4517282), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Radish Stew](https://en.wikibooks.org/w/index.php?title=Cookbook:Radish_Stew&oldid=4518675), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Radish Tart](https://en.wikibooks.org/w/index.php?title=Cookbook:Radish_Tart&oldid=4517283), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Ragi Dosa (South Indian Millet and Rice Pancake)](https://en.wikibooks.org/w/index.php?title=Cookbook:Ragi_Dosa_(South_Indian_Millet_and_Rice_Pancake)&oldid=4526639), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Rainbow Cake](https://en.wikibooks.org/w/index.php?title=Cookbook:Rainbow_Cake&oldid=4587451), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Rainbow Jell-O](https://en.wikibooks.org/w/index.php?title=Cookbook:Rainbow_Jell-O&oldid=4587289), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Raisin Crumb Pie](https://en.wikibooks.org/w/index.php?title=Cookbook:Raisin_Crumb_Pie&oldid=4522753), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Raisin Oatmeal Muffins](https://en.wikibooks.org/w/index.php?title=Cookbook:Raisin_Oatmeal_Muffins&oldid=4515911), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Raita](https://en.wikibooks.org/w/index.php?title=Cookbook:Raita&oldid=4518927), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Rajma (Sindhi Kidney Bean Curry)](https://en.wikibooks.org/w/index.php?title=Cookbook:Rajma_(Sindhi_Kidney_Bean_Curry)&oldid=4515478), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Rasam (Tamarind and Tomato Soup)](https://en.wikibooks.org/w/index.php?title=Cookbook:Rasam_(Tamarind_and_Tomato_Soup)&oldid=4613714), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Rasmalai (Indian Cheese and Milk Dessert)](https://en.wikibooks.org/w/index.php?title=Cookbook:Rasmalai_(Indian_Cheese_and_Milk_Dessert)&oldid=4525530), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Raspberry Filled Pastry Strips (Alexandertorte)](https://en.wikibooks.org/w/index.php?title=Cookbook:Raspberry_Filled_Pastry_Strips_(Alexandertorte)&oldid=4587328), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Raspberry Ripple Cake](https://en.wikibooks.org/w/index.php?title=Cookbook:Raspberry_Ripple_Cake&oldid=4587452), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Raspberry Scones](https://en.wikibooks.org/w/index.php?title=Cookbook:Raspberry_Scones&oldid=4587480), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Raspberry Vinegar](https://en.wikibooks.org/w/index.php?title=Cookbook:Raspberry_Vinegar&oldid=4525533), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Rassolnik (Russian Barley and Kidney Soup)](https://en.wikibooks.org/w/index.php?title=Cookbook:Rassolnik_(Russian_Barley_and_Kidney_Soup)&oldid=4518500), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Ratatouille I](https://en.wikibooks.org/w/index.php?title=Cookbook:Ratatouille_I&oldid=4514115), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Ratatouille II](https://en.wikibooks.org/w/index.php?title=Cookbook:Ratatouille_II&oldid=4514080), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Rava Dosa (Indian Semolina Pancake)](https://en.wikibooks.org/w/index.php?title=Cookbook:Rava_Dosa_(Indian_Semolina_Pancake)&oldid=4519160), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Recaíto (Puerto Rican Culantro Sauce)](https://en.wikibooks.org/w/index.php?title=Cookbook:Reca%C3%ADto_(Puerto_Rican_Culantro_Sauce)&oldid=4519001), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Red and White Onion Tapenade](https://en.wikibooks.org/w/index.php?title=Cookbook:Red_and_White_Onion_Tapenade&oldid=4509971), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Red Bean Paste](https://en.wikibooks.org/w/index.php?title=Cookbook:Red_Bean_Paste&oldid=4541039), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Red Beet Food Coloring](https://en.wikibooks.org/w/index.php?title=Cookbook:Red_Beet_Food_Coloring&oldid=4540914), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Red Bell Peppers Stuffed with Cheese and Egg (Chushki Byurek)](https://en.wikibooks.org/w/index.php?title=Cookbook:Red_Bell_Peppers_Stuffed_with_Cheese_and_Egg_(Chushki_Byurek)&oldid=4514003), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Red Chile Sauce](https://en.wikibooks.org/w/index.php?title=Cookbook:Red_Chile_Sauce&oldid=4519003), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Red Cross Fudge](https://en.wikibooks.org/w/index.php?title=Cookbook:Red_Cross_Fudge&oldid=4517513), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Red Devils](https://en.wikibooks.org/w/index.php?title=Cookbook:Red_Devils&oldid=4518276), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Red Lentil Soup](https://en.wikibooks.org/w/index.php?title=Cookbook:Red_Lentil_Soup&oldid=4518501), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Refried Beans](https://en.wikibooks.org/w/index.php?title=Cookbook:Refried_Beans&oldid=4534235), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Reindling (Austrian Yeasted Easter Cake)](https://en.wikibooks.org/w/index.php?title=Cookbook:Reindling_(Austrian_Yeasted_Easter_Cake)&oldid=4587220), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Rendang (Indonesian Beef and Coconut Stew)](https://en.wikibooks.org/w/index.php?title=Cookbook:Rendang_(Indonesian_Beef_and_Coconut_Stew)&oldid=4541096), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Reuben Sandwich](https://en.wikibooks.org/w/index.php?title=Cookbook:Reuben_Sandwich&oldid=4518277), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Rhubarb Cake](https://en.wikibooks.org/w/index.php?title=Cookbook:Rhubarb_Cake&oldid=4494001), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Rhubarb Crumble I](https://en.wikibooks.org/w/index.php?title=Cookbook:Rhubarb_Crumble_I&oldid=4587314), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Rhubarb Crumble II](https://en.wikibooks.org/w/index.php?title=Cookbook:Rhubarb_Crumble_II&oldid=4587502), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Rhubarb Crumble III](https://en.wikibooks.org/w/index.php?title=Cookbook:Rhubarb_Crumble_III&oldid=4587503), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Rhubarb Fool](https://en.wikibooks.org/w/index.php?title=Cookbook:Rhubarb_Fool&oldid=4587375), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Rhubarb Juice](https://en.wikibooks.org/w/index.php?title=Cookbook:Rhubarb_Juice&oldid=4494004), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Rhubarb Marmalade](https://en.wikibooks.org/w/index.php?title=Cookbook:Rhubarb_Marmalade&oldid=4509434), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Rhubarb Pie](https://en.wikibooks.org/w/index.php?title=Cookbook:Rhubarb_Pie&oldid=4633556), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Rhubarb Pudding](https://en.wikibooks.org/w/index.php?title=Cookbook:Rhubarb_Pudding&oldid=4587342), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Rib Rub](https://en.wikibooks.org/w/index.php?title=Cookbook:Rib_Rub&oldid=4615160), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Rice an' Peas](https://en.wikibooks.org/w/index.php?title=Cookbook:Rice_an'_Peas&oldid=4533870), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Rice and Beef Soup](https://en.wikibooks.org/w/index.php?title=Cookbook:Rice_and_Beef_Soup&oldid=4518502), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Rice and Cabbage Minestrone](https://en.wikibooks.org/w/index.php?title=Cookbook:Rice_and_Cabbage_Minestrone&oldid=4518504), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Rice and Lentils (Mejadra)](https://en.wikibooks.org/w/index.php?title=Cookbook:Rice_and_Lentils_(Mejadra)&oldid=4656171), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Rice and Peas (Risi e Bisi)](https://en.wikibooks.org/w/index.php?title=Cookbook:Rice_and_Peas_(Risi_e_Bisi)&oldid=4512991), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Rice and Turnip Minestrone](https://en.wikibooks.org/w/index.php?title=Cookbook:Rice_and_Turnip_Minestrone&oldid=4518503), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Rice Bubble Cake](https://en.wikibooks.org/w/index.php?title=Cookbook:Rice_Bubble_Cake&oldid=4587299), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Rice Cooked in Tomato Meat Sauce (Ross il-Forn)](https://en.wikibooks.org/w/index.php?title=Cookbook:Rice_Cooked_in_Tomato_Meat_Sauce_(Ross_il-Forn)&oldid=4517422), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Rice in Fish Broth (Sayyadieh)](https://en.wikibooks.org/w/index.php?title=Cookbook:Rice_in_Fish_Broth_(Sayyadieh)&oldid=4512993), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Rice Milk](https://en.wikibooks.org/w/index.php?title=Cookbook:Rice_Milk&oldid=4512994), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Rice Modak (Coconut Pastries) I](https://en.wikibooks.org/w/index.php?title=Cookbook:Rice_Modak_(Coconut_Pastries)_I&oldid=4587505), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Rice Modak (Coconut Pastries) II](https://en.wikibooks.org/w/index.php?title=Cookbook:Rice_Modak_(Coconut_Pastries)_II&oldid=4587222), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Rice-Oat-Semolina Burger](https://en.wikibooks.org/w/index.php?title=Cookbook:Rice-Oat-Semolina_Burger&oldid=4518216), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Rice Pilaf](https://en.wikibooks.org/w/index.php?title=Cookbook:Rice_Pilaf&oldid=4494435), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Rice Pudding](https://en.wikibooks.org/w/index.php?title=Cookbook:Rice_Pudding&oldid=4522360), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Rice Tamale (Pastel de Arroz)](https://en.wikibooks.org/w/index.php?title=Cookbook:Rice_Tamale_(Pastel_de_Arroz)&oldid=4525535), CC-BY-SA-4.0
 - [Wikibooks Cookbook: Rice Water Porridge](https://en.wikibooks.org/w/index.php?title=Cookbook:Rice_Water_Porridge&oldid=4541055), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Rice Wheat Spread](https://en.wikibooks.org/w/index.php?title=Cookbook:Rice_Wheat_Spread&oldid=4613694), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Rice with Coconut (Arroz con Coco)](https://en.wikibooks.org/w/index.php?title=Cookbook:Rice_with_Coconut_(Arroz_con_Coco)&oldid=4513000), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Rice with Lemon Coconut and Eggplant (Vangibhat)](https://en.wikibooks.org/w/index.php?title=Cookbook:Rice_with_Lemon_Coconut_and_Eggplant_(Vangibhat)&oldid=4513001), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Rice with Milk (Arroz con Leche)](https://en.wikibooks.org/w/index.php?title=Cookbook:Rice_with_Milk_(Arroz_con_Leche)&oldid=4517890), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Rice with Tofu and Nuts](https://en.wikibooks.org/w/index.php?title=Cookbook:Rice_with_Tofu_and_Nuts&oldid=4513695), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Rich Brownies](https://en.wikibooks.org/w/index.php?title=Cookbook:Rich_Brownies&oldid=4587287), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Ricotta Lasagne](https://en.wikibooks.org/w/index.php?title=Cookbook:Ricotta_Lasagne&oldid=4605247), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Rigatoni Pasta with Ricotta in Tomato Cream Sauce](https://en.wikibooks.org/w/index.php?title=Cookbook:Rigatoni_Pasta_with_Ricotta_in_Tomato_Cream_Sauce&oldid=4523490), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Risengrød](https://en.wikibooks.org/w/index.php?title=Cookbook:Risengr%C3%B8d&oldid=4597644), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Risotto ai Funghi](https://en.wikibooks.org/w/index.php?title=Cookbook:Risotto_ai_Funghi&oldid=4610401), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Risotto alla Milanese](https://en.wikibooks.org/w/index.php?title=Cookbook:Risotto_alla_Milanese&oldid=4517968), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Risotto (Basic)](https://en.wikibooks.org/w/index.php?title=Cookbook:Risotto_(Basic)&oldid=4525537), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Risotto II](https://en.wikibooks.org/w/index.php?title=Cookbook:Risotto_II&oldid=4525538), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Rissoles](https://en.wikibooks.org/w/index.php?title=Cookbook:Rissoles&oldid=4513546), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Riz Gras (West African Fried Rice)](https://en.wikibooks.org/w/index.php?title=Cookbook:Riz_Gras_(West_African_Fried_Rice)&oldid=4513030), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Roast Beef](https://en.wikibooks.org/w/index.php?title=Cookbook:Roast_Beef&oldid=4513655), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Roast Beef Round with Au Jus](https://en.wikibooks.org/w/index.php?title=Cookbook:Roast_Beef_Round_with_Au_Jus&oldid=4514577), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Roast Butternut, Biltong and Brown Rice Salad](https://en.wikibooks.org/w/index.php?title=Cookbook:Roast_Butternut,_Biltong_and_Brown_Rice_Salad&oldid=4531807), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Roast Chicken](https://en.wikibooks.org/w/index.php?title=Cookbook:Roast_Chicken&oldid=4510624), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Roast Chicken on Salt](https://en.wikibooks.org/w/index.php?title=Cookbook:Roast_Chicken_on_Salt&oldid=4510625), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Roast Iguana with Birria Marinade](https://en.wikibooks.org/w/index.php?title=Cookbook:Roast_Iguana_with_Birria_Marinade&oldid=4499571), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Roast Leg of Lamb with Gravy](https://en.wikibooks.org/w/index.php?title=Cookbook:Roast_Leg_of_Lamb_with_Gravy&oldid=4613407), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Roast Pork](https://en.wikibooks.org/w/index.php?title=Cookbook:Roast_Pork&oldid=4505563), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Roast Pork Loin with Cranberry Stuffing](https://en.wikibooks.org/w/index.php?title=Cookbook:Roast_Pork_Loin_with_Cranberry_Stuffing&oldid=4605233), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Roast Pork Loin with Gravy](https://en.wikibooks.org/w/index.php?title=Cookbook:Roast_Pork_Loin_with_Gravy&oldid=4516425), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Roast Turkey with Stuffing](https://en.wikibooks.org/w/index.php?title=Cookbook:Roast_Turkey_with_Stuffing&oldid=4518719), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Roasted Brined Turkey II](https://en.wikibooks.org/w/index.php?title=Cookbook:Roasted_Brined_Turkey_II&oldid=4497455), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Roasted Brown Rice Mochi](https://en.wikibooks.org/w/index.php?title=Cookbook:Roasted_Brown_Rice_Mochi&oldid=4513032), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Roasted Brussels Sprouts](https://en.wikibooks.org/w/index.php?title=Cookbook:Roasted_Brussels_Sprouts&oldid=4505799), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Roasted Chicken Nachos With Green Chili-Cheese Sauce](https://en.wikibooks.org/w/index.php?title=Cookbook:Roasted_Chicken_Nachos_With_Green_Chili-Cheese_Sauce&oldid=4515039), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Roasted Meatballs (Kyufteta)](https://en.wikibooks.org/w/index.php?title=Cookbook:Roasted_Meatballs_(Kyufteta)&oldid=4500545), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Roasted Oysters with Madeira](https://en.wikibooks.org/w/index.php?title=Cookbook:Roasted_Oysters_with_Madeira&oldid=4630385), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Roasted Pork Shoulder (Pernil Asado)](https://en.wikibooks.org/w/index.php?title=Cookbook:Roasted_Pork_Shoulder_(Pernil_Asado)&oldid=4505979), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Roasted Pork with Potatoes and Onions (Schweinsbraten)](https://en.wikibooks.org/w/index.php?title=Cookbook:Roasted_Pork_with_Potatoes_and_Onions_(Schweinsbraten)&oldid=4508129), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Roasted Potatoes](https://en.wikibooks.org/w/index.php?title=Cookbook:Roasted_Potatoes&oldid=4494703), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Roasted Rabbit](https://en.wikibooks.org/w/index.php?title=Cookbook:Roasted_Rabbit&oldid=4510227), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Roasted Redskin Potatoes](https://en.wikibooks.org/w/index.php?title=Cookbook:Roasted_Redskin_Potatoes&oldid=4494704), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Roasted Spiced Chicken Drumsticks](https://en.wikibooks.org/w/index.php?title=Cookbook:Roasted_Spiced_Chicken_Drumsticks&oldid=4505876), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Roasted Vegetable Pasta](https://en.wikibooks.org/w/index.php?title=Cookbook:Roasted_Vegetable_Pasta&oldid=4605237), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Rock Cookies](https://en.wikibooks.org/w/index.php?title=Cookbook:Rock_Cookies&oldid=4515323), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Rocky Road Confectionery I](https://en.wikibooks.org/w/index.php?title=Cookbook:Rocky_Road_Confectionery_I&oldid=4523409), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Rocky Road Confectionery II](https://en.wikibooks.org/w/index.php?title=Cookbook:Rocky_Road_Confectionery_II&oldid=4517495), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Rocky Road Ice Cream](https://en.wikibooks.org/w/index.php?title=Cookbook:Rocky_Road_Ice_Cream&oldid=4522781), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Rojak (Salad with Sweet Chile Sauce)](https://en.wikibooks.org/w/index.php?title=Cookbook:Rojak_(Salad_with_Sweet_Chile_Sauce)&oldid=4587309), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Rolex (Ugandan Flatbread-Rolled Omelet)](https://en.wikibooks.org/w/index.php?title=Cookbook:Rolex_(Ugandan_Flatbread-Rolled_Omelet)&oldid=4506432), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Rolitos (Gibraltarian Beef Rolls)](https://en.wikibooks.org/w/index.php?title=Cookbook:Rolitos_(Gibraltarian_Beef_Rolls)&oldid=4516426), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Roman Sauce I](https://en.wikibooks.org/w/index.php?title=Cookbook:Roman_Sauce_I&oldid=4519007), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Roman Sauce II](https://en.wikibooks.org/w/index.php?title=Cookbook:Roman_Sauce_II&oldid=4519005), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Roman Soup](https://en.wikibooks.org/w/index.php?title=Cookbook:Roman_Soup&oldid=4540457), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Romanian Grilled Sausages (Mititei)](https://en.wikibooks.org/w/index.php?title=Cookbook:Romanian_Grilled_Sausages_(Mititei)&oldid=4497768), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Romanian Roasted Eggplant Spread I](https://en.wikibooks.org/w/index.php?title=Cookbook:Romanian_Roasted_Eggplant_Spread_I&oldid=4495365), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Romanian Roasted Eggplant Spread II](https://en.wikibooks.org/w/index.php?title=Cookbook:Romanian_Roasted_Eggplant_Spread_II&oldid=4505504), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Rooibos Tea](https://en.wikibooks.org/w/index.php?title=Cookbook:Rooibos_Tea&oldid=4523302), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Ropa Vieja (Caribbean Shredded Beef)](https://en.wikibooks.org/w/index.php?title=Cookbook:Ropa_Vieja_(Caribbean_Shredded_Beef)&oldid=4514579), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Rosehip Tea](https://en.wikibooks.org/w/index.php?title=Cookbook:Rosehip_Tea&oldid=4480667), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Rosemary and Citrus Cordial](https://en.wikibooks.org/w/index.php?title=Cookbook:Rosemary_and_Citrus_Cordial&oldid=4510647), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Rosemary Balsamic Chicken Wings](https://en.wikibooks.org/w/index.php?title=Cookbook:Rosemary_Balsamic_Chicken_Wings&oldid=4513140), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Rosemary Bread](https://en.wikibooks.org/w/index.php?title=Cookbook:Rosemary_Bread&oldid=4633931), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Rosemary Garlic Baked Potatoes](https://en.wikibooks.org/w/index.php?title=Cookbook:Rosemary_Garlic_Baked_Potatoes&oldid=4523492), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Rosemary Garlic Fish](https://en.wikibooks.org/w/index.php?title=Cookbook:Rosemary_Garlic_Fish&oldid=4516421), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Rosemary Garlic Oil](https://en.wikibooks.org/w/index.php?title=Cookbook:Rosemary_Garlic_Oil&oldid=4506023), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Rosemary Garlic Pork Roast](https://en.wikibooks.org/w/index.php?title=Cookbook:Rosemary_Garlic_Pork_Roast&oldid=4506024), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Rosemary Garlic Strip Steak](https://en.wikibooks.org/w/index.php?title=Cookbook:Rosemary_Garlic_Strip_Steak&oldid=4506025), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Rosemary Grilled Salmon Steaks](https://en.wikibooks.org/w/index.php?title=Cookbook:Rosemary_Grilled_Salmon_Steaks&oldid=4508858), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Rosogulla (Bengali Milk Balls in Syrup)](https://en.wikibooks.org/w/index.php?title=Cookbook:Rosogulla_(Bengali_Milk_Balls_in_Syrup)&oldid=4630286), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Rosół (Polish Meat Soup)](https://en.wikibooks.org/w/index.php?title=Cookbook:Ros%C3%B3%C5%82_(Polish_Meat_Soup)&oldid=4523434), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Rosti (Swiss Potato Patties)](https://en.wikibooks.org/w/index.php?title=Cookbook:Rosti_(Swiss_Potato_Patties)&oldid=4503543), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Rosto](https://en.wikibooks.org/w/index.php?title=Cookbook:Rosto&oldid=4541062), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Roti Jala (Malaysian Lacy Pancakes)](https://en.wikibooks.org/w/index.php?title=Cookbook:Roti_Jala_(Malaysian_Lacy_Pancakes)&oldid=4519161), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Royal Icing](https://en.wikibooks.org/w/index.php?title=Cookbook:Royal_Icing&oldid=4525542), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Roz bel Laban (Egyptian Rice Pudding)](https://en.wikibooks.org/w/index.php?title=Cookbook:Roz_bel_Laban_(Egyptian_Rice_Pudding)&oldid=4522786), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Rugelach](https://en.wikibooks.org/w/index.php?title=Cookbook:Rugelach&oldid=4603658), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Rum Truffles](https://en.wikibooks.org/w/index.php?title=Cookbook:Rum_Truffles&oldid=4587374), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Rumaki (Bacon-wrapped Chicken Liver and Water Chestnut)](https://en.wikibooks.org/w/index.php?title=Cookbook:Rumaki_(Bacon-wrapped_Chicken_Liver_and_Water_Chestnut)&oldid=4541027), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Russian Salad](https://en.wikibooks.org/w/index.php?title=Cookbook:Russian_Salad&oldid=4518159), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Russian-style Waffle Cake](https://en.wikibooks.org/w/index.php?title=Cookbook:Russian-style_Waffle_Cake&oldid=4587148), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Rustic Beer Bread](https://en.wikibooks.org/w/index.php?title=Cookbook:Rustic_Beer_Bread&oldid=4503226), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Rwandan Goat Brochette](https://en.wikibooks.org/w/index.php?title=Cookbook:Rwandan_Goat_Brochette&oldid=4510229), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Rye Bread](https://en.wikibooks.org/w/index.php?title=Cookbook:Rye_Bread&oldid=4501283), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Rye Bread Layer Cake](https://en.wikibooks.org/w/index.php?title=Cookbook:Rye_Bread_Layer_Cake&oldid=4587379), CC-BY-SA-4.0
+- [Wikibooks Cookbook: S'mores](https://en.wikibooks.org/w/index.php?title=Cookbook:S'mores&oldid=4637961), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Sabich (Vegetable and Pita Sandwich)](https://en.wikibooks.org/w/index.php?title=Cookbook:Sabich_(Vegetable_and_Pita_Sandwich)&oldid=4518279), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Sachertorte](https://en.wikibooks.org/w/index.php?title=Cookbook:Sachertorte&oldid=4515970), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Sachertorte (Duramecho Version)](https://en.wikibooks.org/w/index.php?title=Cookbook:Sachertorte_(Duramecho_Version)&oldid=4587338), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Sachertorte (Original Version)](https://en.wikibooks.org/w/index.php?title=Cookbook:Sachertorte_(Original_Version)&oldid=4587424), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Sadza (Zimbabwean Corn Porridge)](https://en.wikibooks.org/w/index.php?title=Cookbook:Sadza_(Zimbabwean_Corn_Porridge)&oldid=4517865), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Saffron Rice](https://en.wikibooks.org/w/index.php?title=Cookbook:Saffron_Rice&oldid=4599153), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Saffron Rice and Beans](https://en.wikibooks.org/w/index.php?title=Cookbook:Saffron_Rice_and_Beans&oldid=4515584), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Saffron Sweet Rice](https://en.wikibooks.org/w/index.php?title=Cookbook:Saffron_Sweet_Rice&oldid=4513041), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Sai Bhaji (Sindhi Vegetable Curry)](https://en.wikibooks.org/w/index.php?title=Cookbook:Sai_Bhaji_(Sindhi_Vegetable_Curry)&oldid=4515563), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Sailor's Sauce (Hartshorne)](https://en.wikibooks.org/w/index.php?title=Cookbook:Sailor's_Sauce_(Hartshorne)&oldid=4610529), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Saj Bread I](https://en.wikibooks.org/w/index.php?title=Cookbook:Saj_Bread_I&oldid=4505509), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Saj Bread II](https://en.wikibooks.org/w/index.php?title=Cookbook:Saj_Bread_II&oldid=4505510), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Saj Bread III](https://en.wikibooks.org/w/index.php?title=Cookbook:Saj_Bread_III&oldid=4512457), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Saka-Saka (Cassava Leaf Stew)](https://en.wikibooks.org/w/index.php?title=Cookbook:Saka-Saka_(Cassava_Leaf_Stew)&oldid=4518677), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Salad Shirazi](https://en.wikibooks.org/w/index.php?title=Cookbook:Salad_Shirazi&oldid=4531774), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Salade Frisee](https://en.wikibooks.org/w/index.php?title=Cookbook:Salade_Frisee&oldid=4518163), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Salată de Boeuf (Romanian Beef Salad)](https://en.wikibooks.org/w/index.php?title=Cookbook:Salat%C4%83_de_Boeuf_(Romanian_Beef_Salad)&oldid=4613705), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Salata Hara (Libyan Spicy Salad)](https://en.wikibooks.org/w/index.php?title=Cookbook:Salata_Hara_(Libyan_Spicy_Salad)&oldid=4518162), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Salmon Cakes](https://en.wikibooks.org/w/index.php?title=Cookbook:Salmon_Cakes&oldid=4513549), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Salmon Seasoning](https://en.wikibooks.org/w/index.php?title=Cookbook:Salmon_Seasoning&oldid=4516618), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Salmon Spaghetti](https://en.wikibooks.org/w/index.php?title=Cookbook:Salmon_Spaghetti&oldid=4525167), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Salmon with Rice and Sauce](https://en.wikibooks.org/w/index.php?title=Cookbook:Salmon_with_Rice_and_Sauce&oldid=4494430), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Salmorejo (Spanish Tomato Garlic Purée)](https://en.wikibooks.org/w/index.php?title=Cookbook:Salmorejo_(Spanish_Tomato_Garlic_Pur%C3%A9e)&oldid=4500855), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Salsa (Fermented)](https://en.wikibooks.org/w/index.php?title=Cookbook:Salsa_(Fermented)&oldid=4514118), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Salsa Fresca](https://en.wikibooks.org/w/index.php?title=Cookbook:Salsa_Fresca&oldid=4525168), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Salsa (recipe)](https://en.wikibooks.org/w/index.php?title=Cookbook:Salsa_(recipe)&oldid=4518825), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Salt Cod and Potato Casserole (Bacalhau à Gomes de Sá)](https://en.wikibooks.org/w/index.php?title=Cookbook:Salt_Cod_and_Potato_Casserole_(Bacalhau_%C3%A0_Gomes_de_S%C3%A1)&oldid=4517424), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Salt Cod and Potato Casserole (Bacalhau à Zé do Pipo)](https://en.wikibooks.org/w/index.php?title=Cookbook:Salt_Cod_and_Potato_Casserole_(Bacalhau_%C3%A0_Z%C3%A9_do_Pipo)&oldid=4523267), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Salted Fish Fried Rice](https://en.wikibooks.org/w/index.php?title=Cookbook:Salted_Fish_Fried_Rice&oldid=4517689), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Salted Mustard Greens and Shredded Meat Noodle Soup](https://en.wikibooks.org/w/index.php?title=Cookbook:Salted_Mustard_Greens_and_Shredded_Meat_Noodle_Soup&oldid=4613712), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Salty (Namkin) Lassi](https://en.wikibooks.org/w/index.php?title=Cookbook:Salty_(Namkin)_Lassi&oldid=4510234), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Salza Criolla (South American Onion Relish)](https://en.wikibooks.org/w/index.php?title=Cookbook:Salza_Criolla_(South_American_Onion_Relish)&oldid=4519006), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Salzburger Nockerl (Sweet Austrian Soufflé)](https://en.wikibooks.org/w/index.php?title=Cookbook:Salzburger_Nockerl_(Sweet_Austrian_Souffl%C3%A9)&oldid=4587380), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Sambal Tempoyak (Anchovies with Fermented Durian Chili Paste)](https://en.wikibooks.org/w/index.php?title=Cookbook:Sambal_Tempoyak_(Anchovies_with_Fermented_Durian_Chili_Paste)&oldid=4510823), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Sambar I](https://en.wikibooks.org/w/index.php?title=Cookbook:Sambar_I&oldid=4615171), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Sambar II (Kerala/Tamil style)](https://en.wikibooks.org/w/index.php?title=Cookbook:Sambar_II_(Kerala%2FTamil_style)&oldid=4615151), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Sambar III](https://en.wikibooks.org/w/index.php?title=Cookbook:Sambar_III&oldid=4615141), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Samosa](https://en.wikibooks.org/w/index.php?title=Cookbook:Samosa&oldid=4506436), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Samp and Beans](https://en.wikibooks.org/w/index.php?title=Cookbook:Samp_and_Beans&oldid=4513304), CC-BY-SA-4.0
+- [Wikibooks Cookbook: San Francisco Sourdough Bread](https://en.wikibooks.org/w/index.php?title=Cookbook:San_Francisco_Sourdough_Bread&oldid=4509450), CC-BY-SA-4.0
+- [Wikibooks Cookbook: San Francisco style Scallop Ceviche](https://en.wikibooks.org/w/index.php?title=Cookbook:San_Francisco_style_Scallop_Ceviche&oldid=4630376), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Sancocho (Dominican Meat and Vegetable Soup)](https://en.wikibooks.org/w/index.php?title=Cookbook:Sancocho_(Dominican_Meat_and_Vegetable_Soup)&oldid=4525169), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Sandwich Layer-Cake](https://en.wikibooks.org/w/index.php?title=Cookbook:Sandwich_Layer-Cake&oldid=4518280), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Sangah (Cameroonian Corn and Cassava Leaf)](https://en.wikibooks.org/w/index.php?title=Cookbook:Sangah_(Cameroonian_Corn_and_Cassava_Leaf)&oldid=4494267), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Sangría](https://en.wikibooks.org/w/index.php?title=Cookbook:Sangr%C3%ADa&oldid=4510628), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Sarmale (Romanian Cabbage Rolls)](https://en.wikibooks.org/w/index.php?title=Cookbook:Sarmale_(Romanian_Cabbage_Rolls)&oldid=4630347), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Sarsaparilla Soda](https://en.wikibooks.org/w/index.php?title=Cookbook:Sarsaparilla_Soda&oldid=4601574), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Sashimi](https://en.wikibooks.org/w/index.php?title=Cookbook:Sashimi&oldid=4509056), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Sauce Feuilles (Greens Stew)](https://en.wikibooks.org/w/index.php?title=Cookbook:Sauce_Feuilles_(Greens_Stew)&oldid=4518679), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Sauce Gombo (Okra Stew)](https://en.wikibooks.org/w/index.php?title=Cookbook:Sauce_Gombo_(Okra_Stew)&oldid=4518678), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Sauce Mornay](https://en.wikibooks.org/w/index.php?title=Cookbook:Sauce_Mornay&oldid=4519008), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Saucepan Fudge Crackle Cookies](https://en.wikibooks.org/w/index.php?title=Cookbook:Saucepan_Fudge_Crackle_Cookies&oldid=4515324), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Sauerkraut I](https://en.wikibooks.org/w/index.php?title=Cookbook:Sauerkraut_I&oldid=4525170), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Sauerkraut II](https://en.wikibooks.org/w/index.php?title=Cookbook:Sauerkraut_II&oldid=4494934), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Sauerkraut Pierogi Filling](https://en.wikibooks.org/w/index.php?title=Cookbook:Sauerkraut_Pierogi_Filling&oldid=4630349), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Sausage and Egg Breakfast Roll](https://en.wikibooks.org/w/index.php?title=Cookbook:Sausage_and_Egg_Breakfast_Roll&oldid=4518281), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Sausage and Tortellini Soup](https://en.wikibooks.org/w/index.php?title=Cookbook:Sausage_and_Tortellini_Soup&oldid=4525171), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Sausage-Egg Breakfast Dish](https://en.wikibooks.org/w/index.php?title=Cookbook:Sausage-Egg_Breakfast_Dish&oldid=4525172), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Sausage Sizzle](https://en.wikibooks.org/w/index.php?title=Cookbook:Sausage_Sizzle&oldid=4496905), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Sausagemeat Pie](https://en.wikibooks.org/w/index.php?title=Cookbook:Sausagemeat_Pie&oldid=4615165), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Sautéed Broccoli Rabe with Garlic and Olive Oil](https://en.wikibooks.org/w/index.php?title=Cookbook:Saut%C3%A9ed_Broccoli_Rabe_with_Garlic_and_Olive_Oil&oldid=4505804), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Sauteed Morels](https://en.wikibooks.org/w/index.php?title=Cookbook:Sauteed_Morels&oldid=4610451), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Savory Mustard Sauce](https://en.wikibooks.org/w/index.php?title=Cookbook:Savory_Mustard_Sauce&oldid=4613370), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Savory Pumpkin Scones](https://en.wikibooks.org/w/index.php?title=Cookbook:Savory_Pumpkin_Scones&oldid=4587224), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Savoury Rice Cake](https://en.wikibooks.org/w/index.php?title=Cookbook:Savoury_Rice_Cake&oldid=4605231), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Sayadeya (Egyptian Fish with Rice)](https://en.wikibooks.org/w/index.php?title=Cookbook:Sayadeya_(Egyptian_Fish_with_Rice)&oldid=4513040), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Sayur Asem (Indonesian Tamarind Vegetable Soup)](https://en.wikibooks.org/w/index.php?title=Cookbook:Sayur_Asem_(Indonesian_Tamarind_Vegetable_Soup)&oldid=4518511), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Scalloped Oysters](https://en.wikibooks.org/w/index.php?title=Cookbook:Scalloped_Oysters&oldid=4630383), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Scheiterhaufen (Austrian Bread Pudding)](https://en.wikibooks.org/w/index.php?title=Cookbook:Scheiterhaufen_(Austrian_Bread_Pudding)&oldid=4522750), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Scorched rice](https://en.wikibooks.org/w/index.php?title=Cookbook:Scorched_rice&oldid=4638776), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Scotch Bonnet Pepper Poppers](https://en.wikibooks.org/w/index.php?title=Cookbook:Scotch_Bonnet_Pepper_Poppers&oldid=4515015), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Scottish Porridge](https://en.wikibooks.org/w/index.php?title=Cookbook:Scottish_Porridge&oldid=4654622), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Scottish Wheat Bannock Bread](https://en.wikibooks.org/w/index.php?title=Cookbook:Scottish_Wheat_Bannock_Bread&oldid=4512570), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Scrambled Eggs with Herbs](https://en.wikibooks.org/w/index.php?title=Cookbook:Scrambled_Eggs_with_Herbs&oldid=4500564), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Scrambled Eggs with Sausage](https://en.wikibooks.org/w/index.php?title=Cookbook:Scrambled_Eggs_with_Sausage&oldid=4500565), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Scrambled Eggs with Vegetables](https://en.wikibooks.org/w/index.php?title=Cookbook:Scrambled_Eggs_with_Vegetables&oldid=4493922), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Scribbled Eggs](https://en.wikibooks.org/w/index.php?title=Cookbook:Scribbled_Eggs&oldid=4500566), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Seafood Bruschetta](https://en.wikibooks.org/w/index.php?title=Cookbook:Seafood_Bruschetta&oldid=4630356), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Seafood Cocktail Sauce](https://en.wikibooks.org/w/index.php?title=Cookbook:Seafood_Cocktail_Sauce&oldid=4519014), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Seafood Fried Rice](https://en.wikibooks.org/w/index.php?title=Cookbook:Seafood_Fried_Rice&oldid=4517693), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Seafood Gumbo](https://en.wikibooks.org/w/index.php?title=Cookbook:Seafood_Gumbo&oldid=4514119), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Seafood Kebabs with Zhoug Sauce](https://en.wikibooks.org/w/index.php?title=Cookbook:Seafood_Kebabs_with_Zhoug_Sauce&oldid=4630218), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Seafood Marinade](https://en.wikibooks.org/w/index.php?title=Cookbook:Seafood_Marinade&oldid=4514583), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Seafood Pizza](https://en.wikibooks.org/w/index.php?title=Cookbook:Seafood_Pizza&oldid=4630357), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Seafood Seasoning](https://en.wikibooks.org/w/index.php?title=Cookbook:Seafood_Seasoning&oldid=4516619), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Seared Chicken Breast with Brandy Cream Sauce](https://en.wikibooks.org/w/index.php?title=Cookbook:Seared_Chicken_Breast_with_Brandy_Cream_Sauce&oldid=4511164), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Seared Duck Breast with Pinot Noir Reduction](https://en.wikibooks.org/w/index.php?title=Cookbook:Seared_Duck_Breast_with_Pinot_Noir_Reduction&oldid=4514584), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Seasoned Bread and Butter Balls](https://en.wikibooks.org/w/index.php?title=Cookbook:Seasoned_Bread_and_Butter_Balls&oldid=4502952), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Seasoned Pepper](https://en.wikibooks.org/w/index.php?title=Cookbook:Seasoned_Pepper&oldid=4541084), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Seasoned Salt I](https://en.wikibooks.org/w/index.php?title=Cookbook:Seasoned_Salt_I&oldid=4516620), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Seasoned Salt II](https://en.wikibooks.org/w/index.php?title=Cookbook:Seasoned_Salt_II&oldid=4615129), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Seblak](https://en.wikibooks.org/w/index.php?title=Cookbook:Seblak&oldid=4630576), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Sega Wat (Spicy Ethiopian Beef Stew)](https://en.wikibooks.org/w/index.php?title=Cookbook:Sega_Wat_(Spicy_Ethiopian_Beef_Stew)&oldid=4518680), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Seitan Bratwurst](https://en.wikibooks.org/w/index.php?title=Cookbook:Seitan_Bratwurst&oldid=4513713), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Seitan Burger](https://en.wikibooks.org/w/index.php?title=Cookbook:Seitan_Burger&oldid=4513716), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Self-rising Flour](https://en.wikibooks.org/w/index.php?title=Cookbook:Self-rising_Flour&oldid=4330566), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Semmelknoedel (Bavarian Bread Dumplings)](https://en.wikibooks.org/w/index.php?title=Cookbook:Semmelknoedel_(Bavarian_Bread_Dumplings)&oldid=4511030), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Semo (Nigerian Cooked Semolina)](https://en.wikibooks.org/w/index.php?title=Cookbook:Semo_(Nigerian_Cooked_Semolina)&oldid=4636395), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Semolina Burger](https://en.wikibooks.org/w/index.php?title=Cookbook:Semolina_Burger&oldid=4518217), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Semolina Minestrone](https://en.wikibooks.org/w/index.php?title=Cookbook:Semolina_Minestrone&oldid=4518509), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Semolina Pudding](https://en.wikibooks.org/w/index.php?title=Cookbook:Semolina_Pudding&oldid=4587444), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Serbian Flatbread (Lepinja)](https://en.wikibooks.org/w/index.php?title=Cookbook:Serbian_Flatbread_(Lepinja)&oldid=4523273), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Sesame Ginger Marinade](https://en.wikibooks.org/w/index.php?title=Cookbook:Sesame_Ginger_Marinade&oldid=4511555), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Sesame Milk](https://en.wikibooks.org/w/index.php?title=Cookbook:Sesame_Milk&oldid=4505660), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Sesame Noodle Salad](https://en.wikibooks.org/w/index.php?title=Cookbook:Sesame_Noodle_Salad&oldid=4518097), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Sesame Shrimp Toast](https://en.wikibooks.org/w/index.php?title=Cookbook:Sesame_Shrimp_Toast&oldid=4508336), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Sese Plaintains (Cameroonian Plantain Stew)](https://en.wikibooks.org/w/index.php?title=Cookbook:Sese_Plaintains_(Cameroonian_Plantain_Stew)&oldid=4513658), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Sev Puri (Crispy Indian Snack with Potato)](https://en.wikibooks.org/w/index.php?title=Cookbook:Sev_Puri_(Crispy_Indian_Snack_with_Potato)&oldid=4507448), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Seven Minute Icing](https://en.wikibooks.org/w/index.php?title=Cookbook:Seven_Minute_Icing&oldid=4517725), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Seviyan Ji Khirni (Sindhi Vermicelli Pudding)](https://en.wikibooks.org/w/index.php?title=Cookbook:Seviyan_Ji_Khirni_(Sindhi_Vermicelli_Pudding)&oldid=4517946), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Shahan ful](https://en.wikibooks.org/w/index.php?title=Cookbook:Shahan_ful&oldid=4637543), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Shakshuka](https://en.wikibooks.org/w/index.php?title=Cookbook:Shakshuka&oldid=4634493), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Shakshuka bil Lahm (Libyan Meat Shakshuka)](https://en.wikibooks.org/w/index.php?title=Cookbook:Shakshuka_bil_Lahm_(Libyan_Meat_Shakshuka)&oldid=4518681), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Shakshuka I](https://en.wikibooks.org/w/index.php?title=Cookbook:Shakshuka_I&oldid=4514011), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Shakshuka II](https://en.wikibooks.org/w/index.php?title=Cookbook:Shakshuka_II&oldid=4514122), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Sharba Libya (Libyan Soup)](https://en.wikibooks.org/w/index.php?title=Cookbook:Sharba_Libya_(Libyan_Soup)&oldid=4518513), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Sharbat bil Loz](https://en.wikibooks.org/w/index.php?title=Cookbook:Sharbat_bil_Loz&oldid=4525176), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Shark Fin Soup](https://en.wikibooks.org/w/index.php?title=Cookbook:Shark_Fin_Soup&oldid=4614910), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Sharmoula bil Lahm (Libyan Marinated Meat Sharmoula)](https://en.wikibooks.org/w/index.php?title=Cookbook:Sharmoula_bil_Lahm_(Libyan_Marinated_Meat_Sharmoula)&oldid=4510239), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Shashlik (Russian Skewered Meat)](https://en.wikibooks.org/w/index.php?title=Cookbook:Shashlik_(Russian_Skewered_Meat)&oldid=4615168), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Sheer Khurma](https://en.wikibooks.org/w/index.php?title=Cookbook:Sheer_Khurma&oldid=4587249), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Shepherd's Pie I](https://en.wikibooks.org/w/index.php?title=Cookbook:Shepherd's_Pie_I&oldid=4605182), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Shepherd's Pie II](https://en.wikibooks.org/w/index.php?title=Cookbook:Shepherd's_Pie_II&oldid=4537924), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Shepherd's Pie III](https://en.wikibooks.org/w/index.php?title=Cookbook:Shepherd's_Pie_III&oldid=4524038), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Shikanjvi (Punjabi Spiced Lemonade)](https://en.wikibooks.org/w/index.php?title=Cookbook:Shikanjvi_(Punjabi_Spiced_Lemonade)&oldid=4519084), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Shirmal (Persian Saffron Flatbread)](https://en.wikibooks.org/w/index.php?title=Cookbook:Shirmal_(Persian_Saffron_Flatbread)&oldid=4522376), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Shiro (Ethiopian Spiced Chickpea or Lentil Stew)](https://en.wikibooks.org/w/index.php?title=Cookbook:Shiro_(Ethiopian_Spiced_Chickpea_or_Lentil_Stew)&oldid=4518683), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Shiro Wat (Ethiopian Pea Stew)](https://en.wikibooks.org/w/index.php?title=Cookbook:Shiro_Wat_(Ethiopian_Pea_Stew)&oldid=4518682), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Shirred Egg](https://en.wikibooks.org/w/index.php?title=Cookbook:Shirred_Egg&oldid=4513553), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Shitha](https://en.wikibooks.org/w/index.php?title=Cookbook:Shitha&oldid=4524417), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Shopska Salata (Tomato, Cucumber, and Bell Pepper Salad)](https://en.wikibooks.org/w/index.php?title=Cookbook:Shopska_Salata_(Tomato,_Cucumber,_and_Bell_Pepper_Salad)&oldid=4518166), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Shorba bil Lahm (Libyan Meat Soup)](https://en.wikibooks.org/w/index.php?title=Cookbook:Shorba_bil_Lahm_(Libyan_Meat_Soup)&oldid=4518515), CC-BY-SA-4.0
 - [Wikibooks Cookbook: Shortbread](https://en.wikibooks.org/w/index.php?title=Cookbook:Shortbread&oldid=4515326), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Shortcrust Pastry](https://en.wikibooks.org/w/index.php?title=Cookbook:Shortcrust_Pastry&oldid=4525177), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Shrewsbury Cakes](https://en.wikibooks.org/w/index.php?title=Cookbook:Shrewsbury_Cakes&oldid=4587404), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Shrimp and Cheese Grits](https://en.wikibooks.org/w/index.php?title=Cookbook:Shrimp_and_Cheese_Grits&oldid=4525178), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Shrimp and Sea Bass Ceviche](https://en.wikibooks.org/w/index.php?title=Cookbook:Shrimp_and_Sea_Bass_Ceviche&oldid=4510241), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Shrimp Curry](https://en.wikibooks.org/w/index.php?title=Cookbook:Shrimp_Curry&oldid=4512012), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Shrimp Fritters (Accra)](https://en.wikibooks.org/w/index.php?title=Cookbook:Shrimp_Fritters_(Accra)&oldid=4517764), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Shrimp Hooman (Goan Shrimp Curry)](https://en.wikibooks.org/w/index.php?title=Cookbook:Shrimp_Hooman_(Goan_Shrimp_Curry)&oldid=4517564), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Shrimp Scampi Angel Hair Pasta with Lemon and Pine Nuts](https://en.wikibooks.org/w/index.php?title=Cookbook:Shrimp_Scampi_Angel_Hair_Pasta_with_Lemon_and_Pine_Nuts&oldid=4525179), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Silog](https://en.wikibooks.org/w/index.php?title=Cookbook:Silog&oldid=4513044), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Silvash Gombotz (Hungarian Plum Dumplings)](https://en.wikibooks.org/w/index.php?title=Cookbook:Silvash_Gombotz_(Hungarian_Plum_Dumplings)&oldid=4567794), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Simmering Tofu Stir-fry](https://en.wikibooks.org/w/index.php?title=Cookbook:Simmering_Tofu_Stir-fry&oldid=4513697), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Simple Ayurvedic Sprout Salad](https://en.wikibooks.org/w/index.php?title=Cookbook:Simple_Ayurvedic_Sprout_Salad&oldid=4518169), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Simple Biryani](https://en.wikibooks.org/w/index.php?title=Cookbook:Simple_Biryani&oldid=4517372), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Simple Boiled Chickpeas](https://en.wikibooks.org/w/index.php?title=Cookbook:Simple_Boiled_Chickpeas&oldid=4515564), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Simple Buttercream](https://en.wikibooks.org/w/index.php?title=Cookbook:Simple_Buttercream&oldid=4517708), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Simple Chicken Salad](https://en.wikibooks.org/w/index.php?title=Cookbook:Simple_Chicken_Salad&oldid=4518168), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Simple Chocolate Cheese Pie](https://en.wikibooks.org/w/index.php?title=Cookbook:Simple_Chocolate_Cheese_Pie&oldid=4587298), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Simple Chocolate Fudge](https://en.wikibooks.org/w/index.php?title=Cookbook:Simple_Chocolate_Fudge&oldid=4517514), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Simple Flatbread](https://en.wikibooks.org/w/index.php?title=Cookbook:Simple_Flatbread&oldid=4502032), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Simple Italian Sausage Spaghetti Dinner](https://en.wikibooks.org/w/index.php?title=Cookbook:Simple_Italian_Sausage_Spaghetti_Dinner&oldid=4541054), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Simple Nachos](https://en.wikibooks.org/w/index.php?title=Cookbook:Simple_Nachos&oldid=4510918), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Simple Restaurant Miso Soup](https://en.wikibooks.org/w/index.php?title=Cookbook:Simple_Restaurant_Miso_Soup&oldid=4569942), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Simple Roasted Oysters](https://en.wikibooks.org/w/index.php?title=Cookbook:Simple_Roasted_Oysters&oldid=4630382), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Simple Spaghetti](https://en.wikibooks.org/w/index.php?title=Cookbook:Simple_Spaghetti&oldid=4525181), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Simple Syrup](https://en.wikibooks.org/w/index.php?title=Cookbook:Simple_Syrup&oldid=4504103), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Sinasir (Nigerian Rice Pancake)](https://en.wikibooks.org/w/index.php?title=Cookbook:Sinasir_(Nigerian_Rice_Pancake)&oldid=4540974), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Sincronizada (Fried Ham and Cheese Tortilla Sandwich)](https://en.wikibooks.org/w/index.php?title=Cookbook:Sincronizada_(Fried_Ham_and_Cheese_Tortilla_Sandwich)&oldid=4592091), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Sindhi Chickpea Confection](https://en.wikibooks.org/w/index.php?title=Cookbook:Sindhi_Chickpea_Confection&oldid=4517501), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Sindhi Fried Potatoes](https://en.wikibooks.org/w/index.php?title=Cookbook:Sindhi_Fried_Potatoes&oldid=4507558), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Sindhi Pulao](https://en.wikibooks.org/w/index.php?title=Cookbook:Sindhi_Pulao&oldid=4513046), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Sindhi Raitha](https://en.wikibooks.org/w/index.php?title=Cookbook:Sindhi_Raitha&oldid=4519013), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Sindhi Spiced Fish](https://en.wikibooks.org/w/index.php?title=Cookbook:Sindhi_Spiced_Fish&oldid=4510883), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Sindhi Spiced Moong Dal](https://en.wikibooks.org/w/index.php?title=Cookbook:Sindhi_Spiced_Moong_Dal&oldid=4608514), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Sindhi Vegetable Kofta](https://en.wikibooks.org/w/index.php?title=Cookbook:Sindhi_Vegetable_Kofta&oldid=4496306), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Sinigang (Philippine Sour Soup)](https://en.wikibooks.org/w/index.php?title=Cookbook:Sinigang_(Philippine_Sour_Soup)&oldid=4605288), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Sirene po Shopski (Bulgarian Cheese and Tomatoes)](https://en.wikibooks.org/w/index.php?title=Cookbook:Sirene_po_Shopski_(Bulgarian_Cheese_and_Tomatoes)&oldid=4514128), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Sirniki (Russian Cheese Fritters)](https://en.wikibooks.org/w/index.php?title=Cookbook:Sirniki_(Russian_Cheese_Fritters)&oldid=4655348), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Six Layer Casserole](https://en.wikibooks.org/w/index.php?title=Cookbook:Six_Layer_Casserole&oldid=4523448), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Sizzling Sisig (Filipino Pork Sauté)](https://en.wikibooks.org/w/index.php?title=Cookbook:Sizzling_Sisig_(Filipino_Pork_Saut%C3%A9)&oldid=4512101), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Skillet Cornbread](https://en.wikibooks.org/w/index.php?title=Cookbook:Skillet_Cornbread&oldid=4525182), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Skillet Lasagna](https://en.wikibooks.org/w/index.php?title=Cookbook:Skillet_Lasagna&oldid=4605246), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Śląsko Modro Kapusta (Red Cabbage with Onion and Bacon)](https://en.wikibooks.org/w/index.php?title=Cookbook:%C5%9Al%C4%85sko_Modro_Kapusta_(Red_Cabbage_with_Onion_and_Bacon)&oldid=4630353), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Slinger](https://en.wikibooks.org/w/index.php?title=Cookbook:Slinger&oldid=4518560), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Sloppy Joes](https://en.wikibooks.org/w/index.php?title=Cookbook:Sloppy_Joes&oldid=4518282), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Slow Cooker Baby Back Ribs](https://en.wikibooks.org/w/index.php?title=Cookbook:Slow_Cooker_Baby_Back_Ribs&oldid=4505247), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Slow Cooker Pork Chops](https://en.wikibooks.org/w/index.php?title=Cookbook:Slow_Cooker_Pork_Chops&oldid=4509218), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Slow-Roasted Strip Steak](https://en.wikibooks.org/w/index.php?title=Cookbook:Slow-Roasted_Strip_Steak&oldid=4514585), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Smoked Eulachons](https://en.wikibooks.org/w/index.php?title=Cookbook:Smoked_Eulachons&oldid=4509062), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Smoked Salmon Breakfast Burrito](https://en.wikibooks.org/w/index.php?title=Cookbook:Smoked_Salmon_Breakfast_Burrito&oldid=4523410), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Smoked Salmon Chowder](https://en.wikibooks.org/w/index.php?title=Cookbook:Smoked_Salmon_Chowder&oldid=4522739), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Smoked Salmon Dip](https://en.wikibooks.org/w/index.php?title=Cookbook:Smoked_Salmon_Dip&oldid=4517652), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Smoked Salmon Ravioli Filling](https://en.wikibooks.org/w/index.php?title=Cookbook:Smoked_Salmon_Ravioli_Filling&oldid=4516650), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Smokehouse Turkey Panini](https://en.wikibooks.org/w/index.php?title=Cookbook:Smokehouse_Turkey_Panini&oldid=4519277), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Smoking Shrimp Creole](https://en.wikibooks.org/w/index.php?title=Cookbook:Smoking_Shrimp_Creole&oldid=4514097), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Smoky Chipotle Glazed Hot Wings](https://en.wikibooks.org/w/index.php?title=Cookbook:Smoky_Chipotle_Glazed_Hot_Wings&oldid=4502968), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Smoky Chipotle Hot Sauce](https://en.wikibooks.org/w/index.php?title=Cookbook:Smoky_Chipotle_Hot_Sauce&oldid=4519012), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Smoky Chipotle Marinade](https://en.wikibooks.org/w/index.php?title=Cookbook:Smoky_Chipotle_Marinade&oldid=4512014), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Smoky Tuna Melts](https://en.wikibooks.org/w/index.php?title=Cookbook:Smoky_Tuna_Melts&oldid=4518284), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Smore (Eurasian Beef Stew)](https://en.wikibooks.org/w/index.php?title=Cookbook:Smore_(Eurasian_Beef_Stew)&oldid=4496872), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Smothered Okra](https://en.wikibooks.org/w/index.php?title=Cookbook:Smothered_Okra&oldid=4514094), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Snails with Garlic Butter (Escargots à la Bourguignonne)](https://en.wikibooks.org/w/index.php?title=Cookbook:Snails_with_Garlic_Butter_(Escargots_%C3%A0_la_Bourguignonne)&oldid=4502308), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Snappy Ginger Muffins](https://en.wikibooks.org/w/index.php?title=Cookbook:Snappy_Ginger_Muffins&oldid=4525185), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Snezhanka (Bulgarian Cucumber and Yogurt Salad)](https://en.wikibooks.org/w/index.php?title=Cookbook:Snezhanka_(Bulgarian_Cucumber_and_Yogurt_Salad)&oldid=4518170), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Snickerdoodles (Boston Globe)](https://en.wikibooks.org/w/index.php?title=Cookbook:Snickerdoodles_(Boston_Globe)&oldid=4523380), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Snickerdoodles I](https://en.wikibooks.org/w/index.php?title=Cookbook:Snickerdoodles_I&oldid=4519191), CC-BY-SA-4.0
 - [Wikibooks Cookbook: Snickerdoodles (Idaho Daily Statesman)](https://en.wikibooks.org/w/index.php?title=Cookbook:Snickerdoodles_(Idaho_Daily_Statesman)&oldid=4523381), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Snickerdoodles II](https://en.wikibooks.org/w/index.php?title=Cookbook:Snickerdoodles_II&oldid=4515332), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Snickerdoodles III](https://en.wikibooks.org/w/index.php?title=Cookbook:Snickerdoodles_III&oldid=4587456), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Snickerdoodles IV](https://en.wikibooks.org/w/index.php?title=Cookbook:Snickerdoodles_IV&oldid=4519193), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Socca (Italian Chickpea Flatbread)](https://en.wikibooks.org/w/index.php?title=Cookbook:Socca_(Italian_Chickpea_Flatbread)&oldid=4501211), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Sockerdricka (Swedish Ginger Drink)](https://en.wikibooks.org/w/index.php?title=Cookbook:Sockerdricka_(Swedish_Ginger_Drink)&oldid=4509982), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Soda from Extract](https://en.wikibooks.org/w/index.php?title=Cookbook:Soda_from_Extract&oldid=4601575), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Soft Spice Cookie](https://en.wikibooks.org/w/index.php?title=Cookbook:Soft_Spice_Cookie&oldid=4624413), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Soft Sugar Cookies](https://en.wikibooks.org/w/index.php?title=Cookbook:Soft_Sugar_Cookies&oldid=4540927), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Soji (Indian Wheat Pudding)](https://en.wikibooks.org/w/index.php?title=Cookbook:Soji_(Indian_Wheat_Pudding)&oldid=4522807), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Sopaipillas (Latin American Fried Dough)](https://en.wikibooks.org/w/index.php?title=Cookbook:Sopaipillas_(Latin_American_Fried_Dough)&oldid=4587367), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Soppa ta' l-Armla (Maltese Widow's Soup)](https://en.wikibooks.org/w/index.php?title=Cookbook:Soppa_ta'_l-Armla_(Maltese_Widow's_Soup)&oldid=4518519), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Soso (Coconut Rice)](https://en.wikibooks.org/w/index.php?title=Cookbook:Soso_(Coconut_Rice)&oldid=4513047), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Sosso-Ngondi (Ground Cassava Porridge)](https://en.wikibooks.org/w/index.php?title=Cookbook:Sosso-Ngondi_(Ground_Cassava_Porridge)&oldid=4517864), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Soto Ayam (Indonesian Chicken Noodle Soup)](https://en.wikibooks.org/w/index.php?title=Cookbook:Soto_Ayam_(Indonesian_Chicken_Noodle_Soup)&oldid=4520357), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Soup alla Canavese](https://en.wikibooks.org/w/index.php?title=Cookbook:Soup_alla_Canavese&oldid=4518520), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Soup alla Lombarda](https://en.wikibooks.org/w/index.php?title=Cookbook:Soup_alla_Lombarda&oldid=4518525), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Soup du Pecheur (Fisherman Soup)](https://en.wikibooks.org/w/index.php?title=Cookbook:Soup_du_Pecheur_(Fisherman_Soup)&oldid=4518524), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Soup Joumou (Haitian Beef and Squash Soup)](https://en.wikibooks.org/w/index.php?title=Cookbook:Soup_Joumou_(Haitian_Beef_and_Squash_Soup)&oldid=4630350), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Soup with Supplì](https://en.wikibooks.org/w/index.php?title=Cookbook:Soup_with_Suppl%C3%AC&oldid=4518527), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Sour Cream Chili Sauce](https://en.wikibooks.org/w/index.php?title=Cookbook:Sour_Cream_Chili_Sauce&oldid=4525189), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Sour Cream Dip](https://en.wikibooks.org/w/index.php?title=Cookbook:Sour_Cream_Dip&oldid=4517655), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Sour Mashed Sweet Potato](https://en.wikibooks.org/w/index.php?title=Cookbook:Sour_Mashed_Sweet_Potato&oldid=4494186), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Sour Mix (Vegan)](https://en.wikibooks.org/w/index.php?title=Cookbook:Sour_Mix_(Vegan)&oldid=4510247), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Sour Mix (With Egg)](https://en.wikibooks.org/w/index.php?title=Cookbook:Sour_Mix_(With_Egg)&oldid=4510248), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Sourdough Starter (recipe)](https://en.wikibooks.org/w/index.php?title=Cookbook:Sourdough_Starter_(recipe)&oldid=4612359), CC-BY-SA-4.0
+- [Wikibooks Cookbook: South African Curry and Rice](https://en.wikibooks.org/w/index.php?title=Cookbook:South_African_Curry_and_Rice&oldid=4525293), CC-BY-SA-4.0
+- [Wikibooks Cookbook: South Indian Millet Swallow (Mudde)](https://en.wikibooks.org/w/index.php?title=Cookbook:South_Indian_Millet_Swallow_(Mudde)&oldid=4518775), CC-BY-SA-4.0
+- [Wikibooks Cookbook: South Side Cocktail](https://en.wikibooks.org/w/index.php?title=Cookbook:South_Side_Cocktail&oldid=4509848), CC-BY-SA-4.0
+- [Wikibooks Cookbook: South Side Fizz](https://en.wikibooks.org/w/index.php?title=Cookbook:South_Side_Fizz&oldid=4509849), CC-BY-SA-4.0
+- [Wikibooks Cookbook: South Texan Pinto Beans](https://en.wikibooks.org/w/index.php?title=Cookbook:South_Texan_Pinto_Beans&oldid=4515437), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Southern Clam Chowder](https://en.wikibooks.org/w/index.php?title=Cookbook:Southern_Clam_Chowder&oldid=4525190), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Southern Cornbread](https://en.wikibooks.org/w/index.php?title=Cookbook:Southern_Cornbread&oldid=4525205), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Southern Fried Chicken Sliders](https://en.wikibooks.org/w/index.php?title=Cookbook:Southern_Fried_Chicken_Sliders&oldid=4518286), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Southern Style Greens](https://en.wikibooks.org/w/index.php?title=Cookbook:Southern_Style_Greens&oldid=4512016), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Southwest Pasta](https://en.wikibooks.org/w/index.php?title=Cookbook:Southwest_Pasta&oldid=4534228), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Southwestern Black Beans and Rice](https://en.wikibooks.org/w/index.php?title=Cookbook:Southwestern_Black_Beans_and_Rice&oldid=4525238), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Southwestern Dip](https://en.wikibooks.org/w/index.php?title=Cookbook:Southwestern_Dip&oldid=4517654), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Southwestern Scramble](https://en.wikibooks.org/w/index.php?title=Cookbook:Southwestern_Scramble&oldid=4523445), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Soy Ginger Barbecue Sauce](https://en.wikibooks.org/w/index.php?title=Cookbook:Soy_Ginger_Barbecue_Sauce&oldid=4511505), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Soy-Lentil-Vegetable Stew](https://en.wikibooks.org/w/index.php?title=Cookbook:Soy-Lentil-Vegetable_Stew&oldid=4518685), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Soy Milk I](https://en.wikibooks.org/w/index.php?title=Cookbook:Soy_Milk_I&oldid=4514343), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Soy Milk II](https://en.wikibooks.org/w/index.php?title=Cookbook:Soy_Milk_II&oldid=4326238), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Soy Mustard Lamb Chops](https://en.wikibooks.org/w/index.php?title=Cookbook:Soy_Mustard_Lamb_Chops&oldid=4613384), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Soy Protein Bread](https://en.wikibooks.org/w/index.php?title=Cookbook:Soy_Protein_Bread&oldid=4522442), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Soy Sauce Chicken](https://en.wikibooks.org/w/index.php?title=Cookbook:Soy_Sauce_Chicken&oldid=4514587), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Space Cake](https://en.wikibooks.org/w/index.php?title=Cookbook:Space_Cake&oldid=4516955), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Spaetzle](https://en.wikibooks.org/w/index.php?title=Cookbook:Spaetzle&oldid=4505525), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Spaghetti a la Monegasque](https://en.wikibooks.org/w/index.php?title=Cookbook:Spaghetti_a_la_Monegasque&oldid=4511398), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Spaghetti Aglio e Olio](https://en.wikibooks.org/w/index.php?title=Cookbook:Spaghetti_Aglio_e_Olio&oldid=4505815), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Spaghetti alla Carbonara](https://en.wikibooks.org/w/index.php?title=Cookbook:Spaghetti_alla_Carbonara&oldid=4640105), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Spaghetti alla Puttanesca](https://en.wikibooks.org/w/index.php?title=Cookbook:Spaghetti_alla_Puttanesca&oldid=4622379), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Spaghetti and Meatballs](https://en.wikibooks.org/w/index.php?title=Cookbook:Spaghetti_and_Meatballs&oldid=4515020), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Spaghetti Bake](https://en.wikibooks.org/w/index.php?title=Cookbook:Spaghetti_Bake&oldid=4525241), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Spaghetti Pie](https://en.wikibooks.org/w/index.php?title=Cookbook:Spaghetti_Pie&oldid=4605236), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Spaghetti Sauce](https://en.wikibooks.org/w/index.php?title=Cookbook:Spaghetti_Sauce&oldid=4610528), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Spaghetti with Bolognese Meat Sauce](https://en.wikibooks.org/w/index.php?title=Cookbook:Spaghetti_with_Bolognese_Meat_Sauce&oldid=4630833), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Spaghetti with Clams in White Wine Sauce](https://en.wikibooks.org/w/index.php?title=Cookbook:Spaghetti_with_Clams_in_White_Wine_Sauce&oldid=4630302), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Spaghetti with Meat Sauce (Naporitan)](https://en.wikibooks.org/w/index.php?title=Cookbook:Spaghetti_with_Meat_Sauce_(Naporitan)&oldid=4516488), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Spanakopita](https://en.wikibooks.org/w/index.php?title=Cookbook:Spanakopita&oldid=4587227), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Spanish Omelet](https://en.wikibooks.org/w/index.php?title=Cookbook:Spanish_Omelet&oldid=4517807), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Spanish Potato Omelette](https://en.wikibooks.org/w/index.php?title=Cookbook:Spanish_Potato_Omelette&oldid=4500599), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Spanish Rice](https://en.wikibooks.org/w/index.php?title=Cookbook:Spanish_Rice&oldid=4514109), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Sparkling Lemonade with Fresh Herbs](https://en.wikibooks.org/w/index.php?title=Cookbook:Sparkling_Lemonade_with_Fresh_Herbs&oldid=4510252), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Speculaas (Dutch Spiced Cookies)](https://en.wikibooks.org/w/index.php?title=Cookbook:Speculaas_(Dutch_Spiced_Cookies)&oldid=4515336), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Spelt Bread](https://en.wikibooks.org/w/index.php?title=Cookbook:Spelt_Bread&oldid=4504108), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Spelt Burger](https://en.wikibooks.org/w/index.php?title=Cookbook:Spelt_Burger&oldid=4518220), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Spelt Yellow Cake](https://en.wikibooks.org/w/index.php?title=Cookbook:Spelt_Yellow_Cake&oldid=4587302), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Spice Rub](https://en.wikibooks.org/w/index.php?title=Cookbook:Spice_Rub&oldid=4516624), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Spice Rub for Chicken](https://en.wikibooks.org/w/index.php?title=Cookbook:Spice_Rub_for_Chicken&oldid=4516622), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Spice Rubbed Grilled Chicken Breast](https://en.wikibooks.org/w/index.php?title=Cookbook:Spice_Rubbed_Grilled_Chicken_Breast&oldid=4613372), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Spiced Chicken with Sour Cream](https://en.wikibooks.org/w/index.php?title=Cookbook:Spiced_Chicken_with_Sour_Cream&oldid=4510778), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Spiced Crème Caramel](https://en.wikibooks.org/w/index.php?title=Cookbook:Spiced_Cr%C3%A8me_Caramel&oldid=4587150), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Spiced Flour](https://en.wikibooks.org/w/index.php?title=Cookbook:Spiced_Flour&oldid=4516629), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Spiced Kefir](https://en.wikibooks.org/w/index.php?title=Cookbook:Spiced_Kefir&oldid=4508052), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Spiced Oysters](https://en.wikibooks.org/w/index.php?title=Cookbook:Spiced_Oysters&oldid=4630387), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Spiced Pumpkin Soup](https://en.wikibooks.org/w/index.php?title=Cookbook:Spiced_Pumpkin_Soup&oldid=4523308), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Spicy Apple Glazed Ribs](https://en.wikibooks.org/w/index.php?title=Cookbook:Spicy_Apple_Glazed_Ribs&oldid=4505251), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Spicy Black Beans](https://en.wikibooks.org/w/index.php?title=Cookbook:Spicy_Black_Beans&oldid=4518171), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Spicy Carrot Aioli](https://en.wikibooks.org/w/index.php?title=Cookbook:Spicy_Carrot_Aioli&oldid=4613420), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Spicy Cheddar Dip with Olives](https://en.wikibooks.org/w/index.php?title=Cookbook:Spicy_Cheddar_Dip_with_Olives&oldid=4621658), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Spicy Chicken Cutlets](https://en.wikibooks.org/w/index.php?title=Cookbook:Spicy_Chicken_Cutlets&oldid=4525244), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Spicy Chicken Stew](https://en.wikibooks.org/w/index.php?title=Cookbook:Spicy_Chicken_Stew&oldid=4518687), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Spicy Chickpea Soup](https://en.wikibooks.org/w/index.php?title=Cookbook:Spicy_Chickpea_Soup&oldid=4518530), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Spicy Chickpeas](https://en.wikibooks.org/w/index.php?title=Cookbook:Spicy_Chickpeas&oldid=4613373), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Spicy Chilli Chicken](https://en.wikibooks.org/w/index.php?title=Cookbook:Spicy_Chilli_Chicken&oldid=4517565), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Spicy Corn Bread](https://en.wikibooks.org/w/index.php?title=Cookbook:Spicy_Corn_Bread&oldid=4541057), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Spicy Crab and Arugula Salad](https://en.wikibooks.org/w/index.php?title=Cookbook:Spicy_Crab_and_Arugula_Salad&oldid=4630325), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Spicy Crab Cakes](https://en.wikibooks.org/w/index.php?title=Cookbook:Spicy_Crab_Cakes&oldid=4630328), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Spicy Feta Burger](https://en.wikibooks.org/w/index.php?title=Cookbook:Spicy_Feta_Burger&oldid=4518219), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Spicy Fried Okra](https://en.wikibooks.org/w/index.php?title=Cookbook:Spicy_Fried_Okra&oldid=4503245), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Spicy Fried Rice](https://en.wikibooks.org/w/index.php?title=Cookbook:Spicy_Fried_Rice&oldid=4517692), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Spicy Fried Wings](https://en.wikibooks.org/w/index.php?title=Cookbook:Spicy_Fried_Wings&oldid=4513146), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Spicy Garlic Oil](https://en.wikibooks.org/w/index.php?title=Cookbook:Spicy_Garlic_Oil&oldid=4503625), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Spicy Grilled Duck Breasts](https://en.wikibooks.org/w/index.php?title=Cookbook:Spicy_Grilled_Duck_Breasts&oldid=4499470), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Spicy Mexican Omelet](https://en.wikibooks.org/w/index.php?title=Cookbook:Spicy_Mexican_Omelet&oldid=4517809), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Spicy Miso Udon](https://en.wikibooks.org/w/index.php?title=Cookbook:Spicy_Miso_Udon&oldid=4610540), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Spicy Placenta with Rice Noodles](https://en.wikibooks.org/w/index.php?title=Cookbook:Spicy_Placenta_with_Rice_Noodles&oldid=4514016), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Spicy Plantain Chips](https://en.wikibooks.org/w/index.php?title=Cookbook:Spicy_Plantain_Chips&oldid=4510470), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Spicy Roast Brisket](https://en.wikibooks.org/w/index.php?title=Cookbook:Spicy_Roast_Brisket&oldid=4615155), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Spicy Tomato Soup](https://en.wikibooks.org/w/index.php?title=Cookbook:Spicy_Tomato_Soup&oldid=4525247), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Spinach and Ricotta Gnocchi](https://en.wikibooks.org/w/index.php?title=Cookbook:Spinach_and_Ricotta_Gnocchi&oldid=4515023), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Spinach and Ricotta Lasagna](https://en.wikibooks.org/w/index.php?title=Cookbook:Spinach_and_Ricotta_Lasagna&oldid=4605245), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Spinach and Ricotta Ravioli Filling](https://en.wikibooks.org/w/index.php?title=Cookbook:Spinach_and_Ricotta_Ravioli_Filling&oldid=4516651), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Spinach Artichoke Dip](https://en.wikibooks.org/w/index.php?title=Cookbook:Spinach_Artichoke_Dip&oldid=4517656), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Spinach Calzones](https://en.wikibooks.org/w/index.php?title=Cookbook:Spinach_Calzones&oldid=4587228), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Spinach Fritters](https://en.wikibooks.org/w/index.php?title=Cookbook:Spinach_Fritters&oldid=4517768), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Spinach Mushroom Omelet](https://en.wikibooks.org/w/index.php?title=Cookbook:Spinach_Mushroom_Omelet&oldid=4606145), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Spinach Mushroom Pesto Spaghetti](https://en.wikibooks.org/w/index.php?title=Cookbook:Spinach_Mushroom_Pesto_Spaghetti&oldid=4610477), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Spinach Pesto Linguine](https://en.wikibooks.org/w/index.php?title=Cookbook:Spinach_Pesto_Linguine&oldid=4515093), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Spinach Pie (Pascualina)](https://en.wikibooks.org/w/index.php?title=Cookbook:Spinach_Pie_(Pascualina)&oldid=4517289), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Spinach Salad](https://en.wikibooks.org/w/index.php?title=Cookbook:Spinach_Salad&oldid=4615135), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Split Peas (Cooked)](https://en.wikibooks.org/w/index.php?title=Cookbook:Split_Peas_(Cooked)&oldid=4525248), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Sponge Cake I](https://en.wikibooks.org/w/index.php?title=Cookbook:Sponge_Cake_I&oldid=4516957), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Sponge Cake II](https://en.wikibooks.org/w/index.php?title=Cookbook:Sponge_Cake_II&oldid=4516958), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Spoonbread](https://en.wikibooks.org/w/index.php?title=Cookbook:Spoonbread&oldid=4525249), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Springerle](https://en.wikibooks.org/w/index.php?title=Cookbook:Springerle&oldid=4515337), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Spritzgeback (German Spritz Butter Cookies)](https://en.wikibooks.org/w/index.php?title=Cookbook:Spritzgeback_(German_Spritz_Butter_Cookies)&oldid=4587264), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Sprout Salad](https://en.wikibooks.org/w/index.php?title=Cookbook:Sprout_Salad&oldid=4518174), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Sriracha](https://en.wikibooks.org/w/index.php?title=Cookbook:Sriracha&oldid=4341411), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Sriracha Oatmeal and Lentils](https://en.wikibooks.org/w/index.php?title=Cookbook:Sriracha_Oatmeal_and_Lentils&oldid=4525250), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Stargazy Pie](https://en.wikibooks.org/w/index.php?title=Cookbook:Stargazy_Pie&oldid=4517116), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Steak and Ale Pie](https://en.wikibooks.org/w/index.php?title=Cookbook:Steak_and_Ale_Pie&oldid=4613702), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Steak and Kidney Pudding](https://en.wikibooks.org/w/index.php?title=Cookbook:Steak_and_Kidney_Pudding&oldid=4517947), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Steak and Mushrooms](https://en.wikibooks.org/w/index.php?title=Cookbook:Steak_and_Mushrooms&oldid=4610453), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Steak and Pepper Stir-Fry](https://en.wikibooks.org/w/index.php?title=Cookbook:Steak_and_Pepper_Stir-Fry&oldid=4514113), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Steak and Peppers](https://en.wikibooks.org/w/index.php?title=Cookbook:Steak_and_Peppers&oldid=4514134), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Steak and Wine Pie](https://en.wikibooks.org/w/index.php?title=Cookbook:Steak_and_Wine_Pie&oldid=4606171), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Steak au Poivre (Pepper Steak)](https://en.wikibooks.org/w/index.php?title=Cookbook:Steak_au_Poivre_(Pepper_Steak)&oldid=4511165), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Steak, Bacon, and Arugula Salad](https://en.wikibooks.org/w/index.php?title=Cookbook:Steak,_Bacon,_and_Arugula_Salad&oldid=4613418), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Steak, Bacon, and Gruyere Paninis](https://en.wikibooks.org/w/index.php?title=Cookbook:Steak,_Bacon,_and_Gruyere_Paninis&oldid=4519278), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Steak Enchiladas](https://en.wikibooks.org/w/index.php?title=Cookbook:Steak_Enchiladas&oldid=4517671), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Steak Melts](https://en.wikibooks.org/w/index.php?title=Cookbook:Steak_Melts&oldid=4518285), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Steak Rub](https://en.wikibooks.org/w/index.php?title=Cookbook:Steak_Rub&oldid=4525508), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Steak Tacos](https://en.wikibooks.org/w/index.php?title=Cookbook:Steak_Tacos&oldid=4518776), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Steak Tartare](https://en.wikibooks.org/w/index.php?title=Cookbook:Steak_Tartare&oldid=4613707), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Steakhouse Marinade](https://en.wikibooks.org/w/index.php?title=Cookbook:Steakhouse_Marinade&oldid=4512106), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Steamed Artichoke](https://en.wikibooks.org/w/index.php?title=Cookbook:Steamed_Artichoke&oldid=4510630), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Steamed Basmati Rice](https://en.wikibooks.org/w/index.php?title=Cookbook:Steamed_Basmati_Rice&oldid=4513052), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Steamed Buns with BBQ Pork](https://en.wikibooks.org/w/index.php?title=Cookbook:Steamed_Buns_with_BBQ_Pork&oldid=4512779), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Steamed Pork With Mustard Greens](https://en.wikibooks.org/w/index.php?title=Cookbook:Steamed_Pork_With_Mustard_Greens&oldid=4615122), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Steamed Rice](https://en.wikibooks.org/w/index.php?title=Cookbook:Steamed_Rice&oldid=4513053), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Steamed Salmon](https://en.wikibooks.org/w/index.php?title=Cookbook:Steamed_Salmon&oldid=4525510), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Steamed Sweet Rice](https://en.wikibooks.org/w/index.php?title=Cookbook:Steamed_Sweet_Rice&oldid=4513054), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Steamed Tuna Bao Buns](https://en.wikibooks.org/w/index.php?title=Cookbook:Steamed_Tuna_Bao_Buns&oldid=4629061), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Stewed Oysters I](https://en.wikibooks.org/w/index.php?title=Cookbook:Stewed_Oysters_I&oldid=4630388), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Stewed Oysters II](https://en.wikibooks.org/w/index.php?title=Cookbook:Stewed_Oysters_II&oldid=4630389), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Stewed Vegan Maki](https://en.wikibooks.org/w/index.php?title=Cookbook:Stewed_Vegan_Maki&oldid=4569938), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Sticky Date Pudding](https://en.wikibooks.org/w/index.php?title=Cookbook:Sticky_Date_Pudding&oldid=4587311), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Sticky Toffee Pudding (without dates)](https://en.wikibooks.org/w/index.php?title=Cookbook:Sticky_Toffee_Pudding_(without_dates)&oldid=4587460), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Stinging Nettle Pesto](https://en.wikibooks.org/w/index.php?title=Cookbook:Stinging_Nettle_Pesto&oldid=4634848), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Stir Fried Seafood with Noodles](https://en.wikibooks.org/w/index.php?title=Cookbook:Stir_Fried_Seafood_with_Noodles&oldid=4525512), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Stir-Fried Shrimp with Broccoli](https://en.wikibooks.org/w/index.php?title=Cookbook:Stir-Fried_Shrimp_with_Broccoli&oldid=4508343), CC-BY-SA-4.0
 - [Wikibooks Cookbook: Stir-fried tomato and scrambled eggs](https://en.wikibooks.org/w/index.php?title=Cookbook:Stir-fried_tomato_and_scrambled_eggs&oldid=4628963), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Stoofvlees (Flemish Beef Stew)](https://en.wikibooks.org/w/index.php?title=Cookbook:Stoofvlees_(Flemish_Beef_Stew)&oldid=4525513), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Stovetop Barley I](https://en.wikibooks.org/w/index.php?title=Cookbook:Stovetop_Barley_I&oldid=4620879), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Stovetop Barley II](https://en.wikibooks.org/w/index.php?title=Cookbook:Stovetop_Barley_II&oldid=4620881), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Stovetop Mac n' Cheese](https://en.wikibooks.org/w/index.php?title=Cookbook:Stovetop_Mac_n'_Cheese&oldid=4609401), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Stovies](https://en.wikibooks.org/w/index.php?title=Cookbook:Stovies&oldid=4506504), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Stracciatella I](https://en.wikibooks.org/w/index.php?title=Cookbook:Stracciatella_I&oldid=4518535), CC-BY-SA-4.0
 - [Wikibooks Cookbook: Stracciatella II](https://en.wikibooks.org/w/index.php?title=Cookbook:Stracciatella_II&oldid=4518534), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Strawberry And Banana Smoothie](https://en.wikibooks.org/w/index.php?title=Cookbook:Strawberry_And_Banana_Smoothie&oldid=4525514), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Strawberry and Yogurt Eton Mess](https://en.wikibooks.org/w/index.php?title=Cookbook:Strawberry_and_Yogurt_Eton_Mess&oldid=4587373), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Strawberry Cream Pie](https://en.wikibooks.org/w/index.php?title=Cookbook:Strawberry_Cream_Pie&oldid=4517291), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Strawberry Daiquiri](https://en.wikibooks.org/w/index.php?title=Cookbook:Strawberry_Daiquiri&oldid=4511089), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Strawberry Dumplings](https://en.wikibooks.org/w/index.php?title=Cookbook:Strawberry_Dumplings&oldid=4587381), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Strawberry Fromage Frais](https://en.wikibooks.org/w/index.php?title=Cookbook:Strawberry_Fromage_Frais&oldid=4587485), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Strawberry Frozen Yogurt](https://en.wikibooks.org/w/index.php?title=Cookbook:Strawberry_Frozen_Yogurt&oldid=4587425), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Strawberry Hibiscus Beverage](https://en.wikibooks.org/w/index.php?title=Cookbook:Strawberry_Hibiscus_Beverage&oldid=4509854), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Strawberry Italian Ice](https://en.wikibooks.org/w/index.php?title=Cookbook:Strawberry_Italian_Ice&oldid=4587486), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Strawberry Milkshake](https://en.wikibooks.org/w/index.php?title=Cookbook:Strawberry_Milkshake&oldid=4587165), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Strawberry Pie](https://en.wikibooks.org/w/index.php?title=Cookbook:Strawberry_Pie&oldid=4587447), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Strawberry Rhubarb Pie](https://en.wikibooks.org/w/index.php?title=Cookbook:Strawberry_Rhubarb_Pie&oldid=4587275), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Strawberry Shortcake](https://en.wikibooks.org/w/index.php?title=Cookbook:Strawberry_Shortcake&oldid=4587474), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Strawberry Shortcut Cake](https://en.wikibooks.org/w/index.php?title=Cookbook:Strawberry_Shortcut_Cake&oldid=4522836), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Strawberry-Vanilla Lassi](https://en.wikibooks.org/w/index.php?title=Cookbook:Strawberry-Vanilla_Lassi&oldid=4525517), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Strip Steaks with Pepper Cream Reduction](https://en.wikibooks.org/w/index.php?title=Cookbook:Strip_Steaks_with_Pepper_Cream_Reduction&oldid=4519019), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Strong Candied Sweet Potatoes](https://en.wikibooks.org/w/index.php?title=Cookbook:Strong_Candied_Sweet_Potatoes&oldid=4587291), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Stroopwafels](https://en.wikibooks.org/w/index.php?title=Cookbook:Stroopwafels&oldid=4515339), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Strudel](https://en.wikibooks.org/w/index.php?title=Cookbook:Strudel&oldid=4587229), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Struffoli (Neapolitan Honey Fried Dough)](https://en.wikibooks.org/w/index.php?title=Cookbook:Struffoli_(Neapolitan_Honey_Fried_Dough)&oldid=4517767), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Stuffed Crabs (Casquinha de Siri)](https://en.wikibooks.org/w/index.php?title=Cookbook:Stuffed_Crabs_(Casquinha_de_Siri)&oldid=4630330), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Stuffed Duck Breast with Cabbage and Dumplings](https://en.wikibooks.org/w/index.php?title=Cookbook:Stuffed_Duck_Breast_with_Cabbage_and_Dumplings&oldid=4630351), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Stuffed French Toast](https://en.wikibooks.org/w/index.php?title=Cookbook:Stuffed_French_Toast&oldid=4514788), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Stuffed Grape Leaves](https://en.wikibooks.org/w/index.php?title=Cookbook:Stuffed_Grape_Leaves&oldid=4630130), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Stuffed Grilled Chicken Breasts](https://en.wikibooks.org/w/index.php?title=Cookbook:Stuffed_Grilled_Chicken_Breasts&oldid=4613400), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Stuffed Kabocha Squash](https://en.wikibooks.org/w/index.php?title=Cookbook:Stuffed_Kabocha_Squash&oldid=4525520), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Stuffed Mushrooms with Crabmeat](https://en.wikibooks.org/w/index.php?title=Cookbook:Stuffed_Mushrooms_with_Crabmeat&oldid=4630332), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Stuffed Peppers](https://en.wikibooks.org/w/index.php?title=Cookbook:Stuffed_Peppers&oldid=4514024), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Stuffed Peppers (Vegetarian)](https://en.wikibooks.org/w/index.php?title=Cookbook:Stuffed_Peppers_(Vegetarian)&oldid=4514117), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Stuffed Pork Roast](https://en.wikibooks.org/w/index.php?title=Cookbook:Stuffed_Pork_Roast&oldid=4613403), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Stuffed Portabella Mushrooms](https://en.wikibooks.org/w/index.php?title=Cookbook:Stuffed_Portabella_Mushrooms&oldid=4610457), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Stuffed Squash](https://en.wikibooks.org/w/index.php?title=Cookbook:Stuffed_Squash&oldid=4514025), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Stuffed Tomatoes](https://en.wikibooks.org/w/index.php?title=Cookbook:Stuffed_Tomatoes&oldid=4498583), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Stuffed Zucchini](https://en.wikibooks.org/w/index.php?title=Cookbook:Stuffed_Zucchini&oldid=4610530), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Stuffing](https://en.wikibooks.org/w/index.php?title=Cookbook:Stuffing&oldid=4518726), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Succotash](https://en.wikibooks.org/w/index.php?title=Cookbook:Succotash&oldid=4515449), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Sudanese Ful Medames](https://en.wikibooks.org/w/index.php?title=Cookbook:Sudanese_Ful_Medames&oldid=4515491), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Sugar Pie](https://en.wikibooks.org/w/index.php?title=Cookbook:Sugar_Pie&oldid=4540928), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Sukiyaki](https://en.wikibooks.org/w/index.php?title=Cookbook:Sukiyaki&oldid=4630370), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Sukuma Wiki (East African Greens)](https://en.wikibooks.org/w/index.php?title=Cookbook:Sukuma_Wiki_(East_African_Greens)&oldid=4513662), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Summer Rolls](https://en.wikibooks.org/w/index.php?title=Cookbook:Summer_Rolls&oldid=4630369), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Sunglow Motel-Cafe Pickle Pie](https://en.wikibooks.org/w/index.php?title=Cookbook:Sunglow_Motel-Cafe_Pickle_Pie&oldid=4517293), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Sunshine Cake](https://en.wikibooks.org/w/index.php?title=Cookbook:Sunshine_Cake&oldid=4516961), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Super Foamy Milkshake](https://en.wikibooks.org/w/index.php?title=Cookbook:Super_Foamy_Milkshake&oldid=4522745), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Super Moist Corn Bread](https://en.wikibooks.org/w/index.php?title=Cookbook:Super_Moist_Corn_Bread&oldid=4525522), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Supercharger Tea](https://en.wikibooks.org/w/index.php?title=Cookbook:Supercharger_Tea&oldid=4606564), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Supu Ya Ndizi](https://en.wikibooks.org/w/index.php?title=Cookbook:Supu_Ya_Ndizi&oldid=4638751), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Suqaar (Somali Spiced Meat Stir-fry)](https://en.wikibooks.org/w/index.php?title=Cookbook:Suqaar_(Somali_Spiced_Meat_Stir-fry)&oldid=4514135), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Surinamese Cassava and Coconut Dessert (Bojo)](https://en.wikibooks.org/w/index.php?title=Cookbook:Surinamese_Cassava_and_Coconut_Dessert_(Bojo)&oldid=4587351), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Surinamese Chicken Pot Pie (Pastei)](https://en.wikibooks.org/w/index.php?title=Cookbook:Surinamese_Chicken_Pot_Pie_(Pastei)&oldid=4517120), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Sushi Rice](https://en.wikibooks.org/w/index.php?title=Cookbook:Sushi_Rice&oldid=4518740), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Svelekake (Norwegian Yogurt Pancakes)](https://en.wikibooks.org/w/index.php?title=Cookbook:Svelekake_(Norwegian_Yogurt_Pancakes)&oldid=4519163), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Swedish Cabbage Soup (Kålsoppa)](https://en.wikibooks.org/w/index.php?title=Cookbook:Swedish_Cabbage_Soup_(K%C3%A5lsoppa)&oldid=4630364), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Swedish Meatballs I](https://en.wikibooks.org/w/index.php?title=Cookbook:Swedish_Meatballs_I&oldid=4523303), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Swedish Meatballs II](https://en.wikibooks.org/w/index.php?title=Cookbook:Swedish_Meatballs_II&oldid=4522821), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Sweet and Sour Chinese Pork](https://en.wikibooks.org/w/index.php?title=Cookbook:Sweet_and_Sour_Chinese_Pork&oldid=4519023), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Sweet and Sour Fish Casserole](https://en.wikibooks.org/w/index.php?title=Cookbook:Sweet_and_Sour_Fish_Casserole&oldid=4517432), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Sweet and Sour Grilled Tuna](https://en.wikibooks.org/w/index.php?title=Cookbook:Sweet_and_Sour_Grilled_Tuna&oldid=4519020), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Sweet and Sour Pork Loin](https://en.wikibooks.org/w/index.php?title=Cookbook:Sweet_and_Sour_Pork_Loin&oldid=4519021), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Sweet and Sour Sauce](https://en.wikibooks.org/w/index.php?title=Cookbook:Sweet_and_Sour_Sauce&oldid=4519022), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Sweet and Spicy Asian Chicken](https://en.wikibooks.org/w/index.php?title=Cookbook:Sweet_and_Spicy_Asian_Chicken&oldid=4519025), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Sweet and Spicy Shrimp](https://en.wikibooks.org/w/index.php?title=Cookbook:Sweet_and_Spicy_Shrimp&oldid=4513149), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Sweet Carrot Juice](https://en.wikibooks.org/w/index.php?title=Cookbook:Sweet_Carrot_Juice&oldid=4494416), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Sweet Charoset](https://en.wikibooks.org/w/index.php?title=Cookbook:Sweet_Charoset&oldid=4630091), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Sweet Cornbread](https://en.wikibooks.org/w/index.php?title=Cookbook:Sweet_Cornbread&oldid=4523493), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Sweet Italian Sausage Skillet](https://en.wikibooks.org/w/index.php?title=Cookbook:Sweet_Italian_Sausage_Skillet&oldid=4605244), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Sweet Lassi](https://en.wikibooks.org/w/index.php?title=Cookbook:Sweet_Lassi&oldid=4513347), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Sweet Mango Lassi](https://en.wikibooks.org/w/index.php?title=Cookbook:Sweet_Mango_Lassi&oldid=4511034), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Sweet Maple Barbecue Chicken](https://en.wikibooks.org/w/index.php?title=Cookbook:Sweet_Maple_Barbecue_Chicken&oldid=4505139), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Sweet Masa Bites with Hazelnut Chocolate Dipping Sauce](https://en.wikibooks.org/w/index.php?title=Cookbook:Sweet_Masa_Bites_with_Hazelnut_Chocolate_Dipping_Sauce&oldid=4587401), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Sweet Mole with Vanilla Bean Ice Cream](https://en.wikibooks.org/w/index.php?title=Cookbook:Sweet_Mole_with_Vanilla_Bean_Ice_Cream&oldid=4587356), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Sweet Omelette](https://en.wikibooks.org/w/index.php?title=Cookbook:Sweet_Omelette&oldid=4540922), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Sweet Onion Ranch Dressing](https://en.wikibooks.org/w/index.php?title=Cookbook:Sweet_Onion_Ranch_Dressing&oldid=4615134), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Sweet Peach Cobbler](https://en.wikibooks.org/w/index.php?title=Cookbook:Sweet_Peach_Cobbler&oldid=4587386), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Sweet Pork Condiment](https://en.wikibooks.org/w/index.php?title=Cookbook:Sweet_Pork_Condiment&oldid=4519027), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Sweet Potato Crisp](https://en.wikibooks.org/w/index.php?title=Cookbook:Sweet_Potato_Crisp&oldid=4587285), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Sweet Potato Soup](https://en.wikibooks.org/w/index.php?title=Cookbook:Sweet_Potato_Soup&oldid=4629062), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Sweet Potatoes Sautéed with Honey](https://en.wikibooks.org/w/index.php?title=Cookbook:Sweet_Potatoes_Saut%C3%A9ed_with_Honey&oldid=4494190), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Sweet Pumpkin Scones](https://en.wikibooks.org/w/index.php?title=Cookbook:Sweet_Pumpkin_Scones&oldid=4587230), CC-BY-SA-4.0
 - [Wikibooks Cookbook: Sweet Rice Fritters](https://en.wikibooks.org/w/index.php?title=Cookbook:Sweet_Rice_Fritters&oldid=4517769), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Sweet Rice I](https://en.wikibooks.org/w/index.php?title=Cookbook:Sweet_Rice_I&oldid=4517887), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Sweet Rice II](https://en.wikibooks.org/w/index.php?title=Cookbook:Sweet_Rice_II&oldid=4587348), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Sweet Southern Chicken Salad](https://en.wikibooks.org/w/index.php?title=Cookbook:Sweet_Southern_Chicken_Salad&oldid=4525526), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Sweetened Mulling Spice Mix](https://en.wikibooks.org/w/index.php?title=Cookbook:Sweetened_Mulling_Spice_Mix&oldid=4516625), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Swiss Meringue](https://en.wikibooks.org/w/index.php?title=Cookbook:Swiss_Meringue&oldid=4515991), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Swiss Meringue Buttercream](https://en.wikibooks.org/w/index.php?title=Cookbook:Swiss_Meringue_Buttercream&oldid=4526004), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Swiss Pudding](https://en.wikibooks.org/w/index.php?title=Cookbook:Swiss_Pudding&oldid=4587241), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Switchel (Ginger Water)](https://en.wikibooks.org/w/index.php?title=Cookbook:Switchel_(Ginger_Water)&oldid=4525527), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Sydney Smith's Salad Dressing](https://en.wikibooks.org/w/index.php?title=Cookbook:Sydney_Smith's_Salad_Dressing&oldid=4613699), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Sylheti Beef Curry](https://en.wikibooks.org/w/index.php?title=Cookbook:Sylheti_Beef_Curry&oldid=4517567), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Sylheti Biryani](https://en.wikibooks.org/w/index.php?title=Cookbook:Sylheti_Biryani&oldid=4517374), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Sylheti Doner Kebab](https://en.wikibooks.org/w/index.php?title=Cookbook:Sylheti_Doner_Kebab&oldid=4630959), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Sylheti Fried Rice](https://en.wikibooks.org/w/index.php?title=Cookbook:Sylheti_Fried_Rice&oldid=4513063), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Sylheti Handesh](https://en.wikibooks.org/w/index.php?title=Cookbook:Sylheti_Handesh&oldid=4587506), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Sylheti Rice Pudding](https://en.wikibooks.org/w/index.php?title=Cookbook:Sylheti_Rice_Pudding&oldid=4587507), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Sylheti Tangy Curry](https://en.wikibooks.org/w/index.php?title=Cookbook:Sylheti_Tangy_Curry&oldid=4517568), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Szegedin Goulash](https://en.wikibooks.org/w/index.php?title=Cookbook:Szegedin_Goulash&oldid=4512108), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Tabbouleh I](https://en.wikibooks.org/w/index.php?title=Cookbook:Tabbouleh_I&oldid=4518079), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Tabbouleh II](https://en.wikibooks.org/w/index.php?title=Cookbook:Tabbouleh_II&oldid=4518078), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Tabbouleh III](https://en.wikibooks.org/w/index.php?title=Cookbook:Tabbouleh_III&oldid=4531767), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Tabbouleh IV](https://en.wikibooks.org/w/index.php?title=Cookbook:Tabbouleh_IV&oldid=4518081), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Tabbouleh VI](https://en.wikibooks.org/w/index.php?title=Cookbook:Tabbouleh_VI&oldid=4518082), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Table Point Boiled Beef and Vegetables (Tafelspitz)](https://en.wikibooks.org/w/index.php?title=Cookbook:Table_Point_Boiled_Beef_and_Vegetables_(Tafelspitz)&oldid=4494414), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Taboon Bread](https://en.wikibooks.org/w/index.php?title=Cookbook:Taboon_Bread&oldid=4525544), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Taco Casserole](https://en.wikibooks.org/w/index.php?title=Cookbook:Taco_Casserole&oldid=4525545), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Taco Meat](https://en.wikibooks.org/w/index.php?title=Cookbook:Taco_Meat&oldid=4499244), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Taco Salad](https://en.wikibooks.org/w/index.php?title=Cookbook:Taco_Salad&oldid=4518178), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Taco Sauce](https://en.wikibooks.org/w/index.php?title=Cookbook:Taco_Sauce&oldid=4499893), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Taco Soup](https://en.wikibooks.org/w/index.php?title=Cookbook:Taco_Soup&oldid=4515587), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Tadka Dhal (Spiced Lentil Curry) I](https://en.wikibooks.org/w/index.php?title=Cookbook:Tadka_Dhal_(Spiced_Lentil_Curry)_I&oldid=4615142), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Tadka Dhal (Spiced Lentil Curry) II](https://en.wikibooks.org/w/index.php?title=Cookbook:Tadka_Dhal_(Spiced_Lentil_Curry)_II&oldid=4615201), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Tagliatelle Bake](https://en.wikibooks.org/w/index.php?title=Cookbook:Tagliatelle_Bake&oldid=4525546), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Tahdiq (Crisped Persian Rice)](https://en.wikibooks.org/w/index.php?title=Cookbook:Tahdiq_(Crisped_Persian_Rice)&oldid=4513062), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Tahini Cookies](https://en.wikibooks.org/w/index.php?title=Cookbook:Tahini_Cookies&oldid=4515340), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Tahini Goddess Dressing](https://en.wikibooks.org/w/index.php?title=Cookbook:Tahini_Goddess_Dressing&oldid=4516398), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Tahini Yogurt Sauce](https://en.wikibooks.org/w/index.php?title=Cookbook:Tahini_Yogurt_Sauce&oldid=4519029), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Tahu Gejrot](https://en.wikibooks.org/w/index.php?title=Cookbook:Tahu_Gejrot&oldid=4656173), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Tajine bil Samak (Libyan Fish Tajine)](https://en.wikibooks.org/w/index.php?title=Cookbook:Tajine_bil_Samak_(Libyan_Fish_Tajine)&oldid=4518689), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Tall Quiche Shell](https://en.wikibooks.org/w/index.php?title=Cookbook:Tall_Quiche_Shell&oldid=4597429), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Tamate Ka Kut (Hyderabadi Tomato Curry)](https://en.wikibooks.org/w/index.php?title=Cookbook:Tamate_Ka_Kut_(Hyderabadi_Tomato_Curry)&oldid=4531787), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Tamil Spice Mix (Milagai Podi)](https://en.wikibooks.org/w/index.php?title=Cookbook:Tamil_Spice_Mix_(Milagai_Podi)&oldid=4516627), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Tamina (Algerian Semolina Honey Dessert)](https://en.wikibooks.org/w/index.php?title=Cookbook:Tamina_(Algerian_Semolina_Honey_Dessert)&oldid=4587445), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Tandoori Masala](https://en.wikibooks.org/w/index.php?title=Cookbook:Tandoori_Masala&oldid=4516628), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Tandoori Tofu](https://en.wikibooks.org/w/index.php?title=Cookbook:Tandoori_Tofu&oldid=4513703), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Tangerine Jelly](https://en.wikibooks.org/w/index.php?title=Cookbook:Tangerine_Jelly&oldid=4509880), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Tangy Fried Shrimp](https://en.wikibooks.org/w/index.php?title=Cookbook:Tangy_Fried_Shrimp&oldid=4510275), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Tangy Lemon Battered Fried Chicken](https://en.wikibooks.org/w/index.php?title=Cookbook:Tangy_Lemon_Battered_Fried_Chicken&oldid=4513152), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Tangy Lemon Mousse](https://en.wikibooks.org/w/index.php?title=Cookbook:Tangy_Lemon_Mousse&oldid=4587398), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Tanzanian Sweet Fried Spaghetti](https://en.wikibooks.org/w/index.php?title=Cookbook:Tanzanian_Sweet_Fried_Spaghetti&oldid=4508058), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Tapai Ketan (Indonesian Fermented Sticky Rice)](https://en.wikibooks.org/w/index.php?title=Cookbook:Tapai_Ketan_(Indonesian_Fermented_Sticky_Rice)&oldid=4513064), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Tapalapa (Gambian Bread)](https://en.wikibooks.org/w/index.php?title=Cookbook:Tapalapa_(Gambian_Bread)&oldid=4505047), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Tapenade](https://en.wikibooks.org/w/index.php?title=Cookbook:Tapenade&oldid=4509003), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Tapioca Pudding](https://en.wikibooks.org/w/index.php?title=Cookbook:Tapioca_Pudding&oldid=4517953), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Tarator (Bulgarian Cucumber Soup)](https://en.wikibooks.org/w/index.php?title=Cookbook:Tarator_(Bulgarian_Cucumber_Soup)&oldid=4510891), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Tarbes Salad](https://en.wikibooks.org/w/index.php?title=Cookbook:Tarbes_Salad&oldid=4630846), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Tarhana (Turkish Yogurt Soup)](https://en.wikibooks.org/w/index.php?title=Cookbook:Tarhana_(Turkish_Yogurt_Soup)&oldid=4525547), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Taro Fish](https://en.wikibooks.org/w/index.php?title=Cookbook:Taro_Fish&oldid=4525548), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Tarta de Santiago](https://en.wikibooks.org/w/index.php?title=Cookbook:Tarta_de_Santiago&oldid=4516963), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Tartar Sauce](https://en.wikibooks.org/w/index.php?title=Cookbook:Tartar_Sauce&oldid=4613693), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Tarte Tatin](https://en.wikibooks.org/w/index.php?title=Cookbook:Tarte_Tatin&oldid=4587346), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Tartiflette](https://en.wikibooks.org/w/index.php?title=Cookbook:Tartiflette&oldid=4517434), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Tater Tot Casserole](https://en.wikibooks.org/w/index.php?title=Cookbook:Tater_Tot_Casserole&oldid=4523451), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Tattie Scones](https://en.wikibooks.org/w/index.php?title=Cookbook:Tattie_Scones&oldid=4518310), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Tchakpolo (Togolese Meat and Vegetable Stew)](https://en.wikibooks.org/w/index.php?title=Cookbook:Tchakpolo_(Togolese_Meat_and_Vegetable_Stew)&oldid=4518690), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Tchari (Jollof Rice)](https://en.wikibooks.org/w/index.php?title=Cookbook:Tchari_(Jollof_Rice)&oldid=4514123), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Tea Eggs](https://en.wikibooks.org/w/index.php?title=Cookbook:Tea_Eggs&oldid=4523484), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Tea Extract](https://en.wikibooks.org/w/index.php?title=Cookbook:Tea_Extract&oldid=4611647), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Tegabino Shiro (Ethiopian Spiced Chickpea Dip)](https://en.wikibooks.org/w/index.php?title=Cookbook:Tegabino_Shiro_(Ethiopian_Spiced_Chickpea_Dip)&oldid=4507119), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Tekka (Japanese Root Vegetables in Miso)](https://en.wikibooks.org/w/index.php?title=Cookbook:Tekka_(Japanese_Root_Vegetables_in_Miso)&oldid=4494411), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Tembleque (Puerto Rican Coconut Pudding)](https://en.wikibooks.org/w/index.php?title=Cookbook:Tembleque_(Puerto_Rican_Coconut_Pudding)&oldid=4587431), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Tempe Mendoan I](https://en.wikibooks.org/w/index.php?title=Cookbook:Tempe_Mendoan_I&oldid=4514346), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Tempe Mendoan II](https://en.wikibooks.org/w/index.php?title=Cookbook:Tempe_Mendoan_II&oldid=4618207), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Tempoyak (Fermented Durian)](https://en.wikibooks.org/w/index.php?title=Cookbook:Tempoyak_(Fermented_Durian)&oldid=4518935), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Tempura](https://en.wikibooks.org/w/index.php?title=Cookbook:Tempura&oldid=4587100), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Tempura Baked Halibut with Cilantro Aioli](https://en.wikibooks.org/w/index.php?title=Cookbook:Tempura_Baked_Halibut_with_Cilantro_Aioli&oldid=4510279), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Tequeños (Venezuelan Breaded Cheese Sticks)](https://en.wikibooks.org/w/index.php?title=Cookbook:Teque%C3%B1os_(Venezuelan_Breaded_Cheese_Sticks)&oldid=4517773), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Tequila Lime Hot Wings](https://en.wikibooks.org/w/index.php?title=Cookbook:Tequila_Lime_Hot_Wings&oldid=4509855), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Tequila Lime Strip Steak](https://en.wikibooks.org/w/index.php?title=Cookbook:Tequila_Lime_Strip_Steak&oldid=4509856), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Teriyaki Grilled Salmon Steaks](https://en.wikibooks.org/w/index.php?title=Cookbook:Teriyaki_Grilled_Salmon_Steaks&oldid=4508862), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Teriyaki Salmon](https://en.wikibooks.org/w/index.php?title=Cookbook:Teriyaki_Salmon&oldid=4509987), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Teriyaki Sauce](https://en.wikibooks.org/w/index.php?title=Cookbook:Teriyaki_Sauce&oldid=4536305), CC-BY-SA-4.0
 - [Wikibooks Cookbook: Teurgoule (Norman Cinnamon Rice Pudding)](https://en.wikibooks.org/w/index.php?title=Cookbook:Teurgoule_(Norman_Cinnamon_Rice_Pudding)&oldid=4522390), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Tex-Mex Sliders](https://en.wikibooks.org/w/index.php?title=Cookbook:Tex-Mex_Sliders&oldid=4519270), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Texas Easy Chili](https://en.wikibooks.org/w/index.php?title=Cookbook:Texas_Easy_Chili&oldid=4518785), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Texas Style Barbecue Ribs](https://en.wikibooks.org/w/index.php?title=Cookbook:Texas_Style_Barbecue_Ribs&oldid=4505265), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Texas Style Chicken Fried Steak](https://en.wikibooks.org/w/index.php?title=Cookbook:Texas_Style_Chicken_Fried_Steak&oldid=4522835), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Thai Green Curry Paste](https://en.wikibooks.org/w/index.php?title=Cookbook:Thai_Green_Curry_Paste&oldid=4517570), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Thai Green Curry with Chicken](https://en.wikibooks.org/w/index.php?title=Cookbook:Thai_Green_Curry_with_Chicken&oldid=4599053), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Thai Grilled Chicken II](https://en.wikibooks.org/w/index.php?title=Cookbook:Thai_Grilled_Chicken_II&oldid=4509858), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Thai Lemonade](https://en.wikibooks.org/w/index.php?title=Cookbook:Thai_Lemonade&oldid=4509882), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Thai Peanut Fried Rice](https://en.wikibooks.org/w/index.php?title=Cookbook:Thai_Peanut_Fried_Rice&oldid=4517694), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Thai Red Curry Paste](https://en.wikibooks.org/w/index.php?title=Cookbook:Thai_Red_Curry_Paste&oldid=4517571), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Thai Rice Balls in Coconut Milk (Bua Loi)](https://en.wikibooks.org/w/index.php?title=Cookbook:Thai_Rice_Balls_in_Coconut_Milk_(Bua_Loi)&oldid=4587301), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Thai Shrimp](https://en.wikibooks.org/w/index.php?title=Cookbook:Thai_Shrimp&oldid=4514125), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Thalassery Biryani](https://en.wikibooks.org/w/index.php?title=Cookbook:Thalassery_Biryani&oldid=4531811), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Thick-Crust Pizza](https://en.wikibooks.org/w/index.php?title=Cookbook:Thick-Crust_Pizza&oldid=4517845), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Thiebou Yapp](https://en.wikibooks.org/w/index.php?title=Cookbook:Thiebou_Yapp&oldid=4525326), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Thin Fish Fillets](https://en.wikibooks.org/w/index.php?title=Cookbook:Thin_Fish_Fillets&oldid=4525551), CC-BY-SA-4.0
 - [Wikibooks Cookbook: Thin Waffles](https://en.wikibooks.org/w/index.php?title=Cookbook:Thin_Waffles&oldid=4519088), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Thobwa la Mtedza (Malawian Sesame Seed Drink)](https://en.wikibooks.org/w/index.php?title=Cookbook:Thobwa_la_Mtedza_(Malawian_Sesame_Seed_Drink)&oldid=4541074), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Thong Yib (Thai Candied Egg Yolks)](https://en.wikibooks.org/w/index.php?title=Cookbook:Thong_Yib_(Thai_Candied_Egg_Yolks)&oldid=4504131), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Thousand Island Dressing](https://en.wikibooks.org/w/index.php?title=Cookbook:Thousand_Island_Dressing&oldid=4636109), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Three Bean Confetti Salad](https://en.wikibooks.org/w/index.php?title=Cookbook:Three_Bean_Confetti_Salad&oldid=4525552), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Three Ginger Soup](https://en.wikibooks.org/w/index.php?title=Cookbook:Three_Ginger_Soup&oldid=4521787), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Three Sisters Soup](https://en.wikibooks.org/w/index.php?title=Cookbook:Three_Sisters_Soup&oldid=4535148), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Three Sisters Stew](https://en.wikibooks.org/w/index.php?title=Cookbook:Three_Sisters_Stew&oldid=4520342), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Thumbprint Jam Cookies](https://en.wikibooks.org/w/index.php?title=Cookbook:Thumbprint_Jam_Cookies&oldid=4587305), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Tibetan Meat Momos](https://en.wikibooks.org/w/index.php?title=Cookbook:Tibetan_Meat_Momos&oldid=4507577), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Tibs (Ethiopian Sauteed Meat and Vegetables)](https://en.wikibooks.org/w/index.php?title=Cookbook:Tibs_(Ethiopian_Sauteed_Meat_and_Vegetables)&oldid=4510280), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Timatim Fitfit (Ethiopian Tomato Salad)](https://en.wikibooks.org/w/index.php?title=Cookbook:Timatim_Fitfit_(Ethiopian_Tomato_Salad)&oldid=4613422), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Tipitapa Fish Topped with Salsa (Pescado a la Tipitapa)](https://en.wikibooks.org/w/index.php?title=Cookbook:Tipitapa_Fish_Topped_with_Salsa_(Pescado_a_la_Tipitapa)&oldid=4510634), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Tiramisù](https://en.wikibooks.org/w/index.php?title=Cookbook:Tiramis%C3%B9&oldid=4608624), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Tiramisu Mousse](https://en.wikibooks.org/w/index.php?title=Cookbook:Tiramisu_Mousse&oldid=4587403), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Tiramisu (Non-Alcoholic)](https://en.wikibooks.org/w/index.php?title=Cookbook:Tiramisu_(Non-Alcoholic)&oldid=4587396), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Tiramisu Paninis](https://en.wikibooks.org/w/index.php?title=Cookbook:Tiramisu_Paninis&oldid=4519279), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Tirana Fërgesë with Peppers](https://en.wikibooks.org/w/index.php?title=Cookbook:Tirana_F%C3%ABrges%C3%AB_with_Peppers&oldid=4515096), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Tirana Fërgesë with Veal](https://en.wikibooks.org/w/index.php?title=Cookbook:Tirana_F%C3%ABrges%C3%AB_with_Veal&oldid=4515095), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Tisane ma Louisa (Algerian Lemon Herb Tea)](https://en.wikibooks.org/w/index.php?title=Cookbook:Tisane_ma_Louisa_(Algerian_Lemon_Herb_Tea)&oldid=4510281), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Toad in the Hole](https://en.wikibooks.org/w/index.php?title=Cookbook:Toad_in_the_Hole&oldid=4496898), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Toast Sandwich](https://en.wikibooks.org/w/index.php?title=Cookbook:Toast_Sandwich&oldid=4669729), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Toasted Baguette Slices with Pecan Butter, Brie and Apples](https://en.wikibooks.org/w/index.php?title=Cookbook:Toasted_Baguette_Slices_with_Pecan_Butter,_Brie_and_Apples&oldid=4515198), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Toasted Coconut Flakes](https://en.wikibooks.org/w/index.php?title=Cookbook:Toasted_Coconut_Flakes&oldid=4510781), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Tod Mun (Thai Fish Cakes)](https://en.wikibooks.org/w/index.php?title=Cookbook:Tod_Mun_(Thai_Fish_Cakes)&oldid=4535142), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Tofu and Couscous](https://en.wikibooks.org/w/index.php?title=Cookbook:Tofu_and_Couscous&oldid=4514045), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Tofu Bacon (Vegan)](https://en.wikibooks.org/w/index.php?title=Cookbook:Tofu_Bacon_(Vegan)&oldid=4525554), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Tofu Chocolate Mousse](https://en.wikibooks.org/w/index.php?title=Cookbook:Tofu_Chocolate_Mousse&oldid=4587409), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Tofu in Spiced Coconut Sauce](https://en.wikibooks.org/w/index.php?title=Cookbook:Tofu_in_Spiced_Coconut_Sauce&oldid=4513707), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Tofu Saltado](https://en.wikibooks.org/w/index.php?title=Cookbook:Tofu_Saltado&oldid=4531780), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Tofu Scramble I](https://en.wikibooks.org/w/index.php?title=Cookbook:Tofu_Scramble_I&oldid=4528720), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Tofu Scramble II](https://en.wikibooks.org/w/index.php?title=Cookbook:Tofu_Scramble_II&oldid=4513709), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Tofu Tamale Pie](https://en.wikibooks.org/w/index.php?title=Cookbook:Tofu_Tamale_Pie&oldid=4525556), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Tokyo Pancake (Khanom Tokyo)](https://en.wikibooks.org/w/index.php?title=Cookbook:Tokyo_Pancake_(Khanom_Tokyo)&oldid=4522802), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Tom Kha Kai](https://en.wikibooks.org/w/index.php?title=Cookbook:Tom_Kha_Kai&oldid=4610527), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Tom Yum Gai](https://en.wikibooks.org/w/index.php?title=Cookbook:Tom_Yum_Gai&oldid=4610516), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Tomato and Onion Salad](https://en.wikibooks.org/w/index.php?title=Cookbook:Tomato_and_Onion_Salad&oldid=4518180), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Tomato Basil Sausage Pasta](https://en.wikibooks.org/w/index.php?title=Cookbook:Tomato_Basil_Sausage_Pasta&oldid=4522811), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Tomato Basil Soup with Garlic Toasts](https://en.wikibooks.org/w/index.php?title=Cookbook:Tomato_Basil_Soup_with_Garlic_Toasts&oldid=4512031), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Tomato Bredie](https://en.wikibooks.org/w/index.php?title=Cookbook:Tomato_Bredie&oldid=4573208), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Tomato Concassé](https://en.wikibooks.org/w/index.php?title=Cookbook:Tomato_Concass%C3%A9&oldid=4493892), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Tomato Curry](https://en.wikibooks.org/w/index.php?title=Cookbook:Tomato_Curry&oldid=4523275), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Tomato Juice](https://en.wikibooks.org/w/index.php?title=Cookbook:Tomato_Juice&oldid=4496294), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Tomato Ketchup](https://en.wikibooks.org/w/index.php?title=Cookbook:Tomato_Ketchup&oldid=4598705), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Tomato Pasta](https://en.wikibooks.org/w/index.php?title=Cookbook:Tomato_Pasta&oldid=4516489), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Tomato Pasta with Bacon, Onions, and Cheese](https://en.wikibooks.org/w/index.php?title=Cookbook:Tomato_Pasta_with_Bacon,_Onions,_and_Cheese&oldid=4525558), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Tomato Paste and Ham Sandwiches (Pan Tomaca)](https://en.wikibooks.org/w/index.php?title=Cookbook:Tomato_Paste_and_Ham_Sandwiches_(Pan_Tomaca)&oldid=4622761), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Tomato Pizza](https://en.wikibooks.org/w/index.php?title=Cookbook:Tomato_Pizza&oldid=4634662), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Tomato Salad](https://en.wikibooks.org/w/index.php?title=Cookbook:Tomato_Salad&oldid=4518182), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Tomato Sauce Piquante](https://en.wikibooks.org/w/index.php?title=Cookbook:Tomato_Sauce_Piquante&oldid=4519033), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Tomatoes with Cheese Stuffing](https://en.wikibooks.org/w/index.php?title=Cookbook:Tomatoes_with_Cheese_Stuffing&oldid=4523450), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Tonkatsu](https://en.wikibooks.org/w/index.php?title=Cookbook:Tonkatsu&oldid=4633386), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Torta de Acelga (Chard Pie)](https://en.wikibooks.org/w/index.php?title=Cookbook:Torta_de_Acelga_(Chard_Pie)&oldid=4587232), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Tortellini in Sweet Potato Sauce](https://en.wikibooks.org/w/index.php?title=Cookbook:Tortellini_in_Sweet_Potato_Sauce&oldid=4524006), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Tortilla Canaria](https://en.wikibooks.org/w/index.php?title=Cookbook:Tortilla_Canaria&oldid=4525559), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Tortilla de Patatas](https://en.wikibooks.org/w/index.php?title=Cookbook:Tortilla_de_Patatas&oldid=4517810), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Tortilla Española](https://en.wikibooks.org/w/index.php?title=Cookbook:Tortilla_Espa%C3%B1ola&oldid=4517812), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Tortilla Española de Patatas](https://en.wikibooks.org/w/index.php?title=Cookbook:Tortilla_Espa%C3%B1ola_de_Patatas&oldid=4505837), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Tortilla Soup](https://en.wikibooks.org/w/index.php?title=Cookbook:Tortilla_Soup&oldid=4600878), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Tortillas with Spicy Chocolate Sauce](https://en.wikibooks.org/w/index.php?title=Cookbook:Tortillas_with_Spicy_Chocolate_Sauce&oldid=4587400), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Tostón (Fried Plantains)](https://en.wikibooks.org/w/index.php?title=Cookbook:Tost%C3%B3n_(Fried_Plantains)&oldid=4480708), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Tostones (Fried Plantains)](https://en.wikibooks.org/w/index.php?title=Cookbook:Tostones_(Fried_Plantains)&oldid=4480709), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Toum (Lebanese Garlic Sauce)](https://en.wikibooks.org/w/index.php?title=Cookbook:Toum_(Lebanese_Garlic_Sauce)&oldid=4519034), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Traditional Beef Stroganoff](https://en.wikibooks.org/w/index.php?title=Cookbook:Traditional_Beef_Stroganoff&oldid=4613394), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Traditional British Brewed Tea](https://en.wikibooks.org/w/index.php?title=Cookbook:Traditional_British_Brewed_Tea&oldid=4523293), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Traditional Finnish Lemon Mead (Sima)](https://en.wikibooks.org/w/index.php?title=Cookbook:Traditional_Finnish_Lemon_Mead_(Sima)&oldid=4510635), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Traditional Lasagne](https://en.wikibooks.org/w/index.php?title=Cookbook:Traditional_Lasagne&oldid=4525561), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Traditional Pie Crust](https://en.wikibooks.org/w/index.php?title=Cookbook:Traditional_Pie_Crust&oldid=4524039), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Traditional Pilau Rice](https://en.wikibooks.org/w/index.php?title=Cookbook:Traditional_Pilau_Rice&oldid=4525562), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Traditional Pound Cake](https://en.wikibooks.org/w/index.php?title=Cookbook:Traditional_Pound_Cake&oldid=4516964), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Tres Leches Cake I](https://en.wikibooks.org/w/index.php?title=Cookbook:Tres_Leches_Cake_I&oldid=4516965), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Tres Leches Cake II](https://en.wikibooks.org/w/index.php?title=Cookbook:Tres_Leches_Cake_II&oldid=4516966), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Tri-Colored Autumn Rice Balls](https://en.wikibooks.org/w/index.php?title=Cookbook:Tri-Colored_Autumn_Rice_Balls&oldid=4513067), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Trifle](https://en.wikibooks.org/w/index.php?title=Cookbook:Trifle&oldid=4587330), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Tripes à la mode de Caen (Norman Stewed Tripe)](https://en.wikibooks.org/w/index.php?title=Cookbook:Tripes_%C3%A0_la_mode_de_Caen_(Norman_Stewed_Tripe)&oldid=4525565), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Triple Chocolate Chip Cookies](https://en.wikibooks.org/w/index.php?title=Cookbook:Triple_Chocolate_Chip_Cookies&oldid=4587453), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Tropical Sausage Combo](https://en.wikibooks.org/w/index.php?title=Cookbook:Tropical_Sausage_Combo&oldid=4503050), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Tropical Squares](https://en.wikibooks.org/w/index.php?title=Cookbook:Tropical_Squares&oldid=4515343), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Tub Tim Krob (Thai Water Chestnuts in Coconut)](https://en.wikibooks.org/w/index.php?title=Cookbook:Tub_Tim_Krob_(Thai_Water_Chestnuts_in_Coconut)&oldid=4618211), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Tubani (Nigerian Corn and Soybean Fritter)](https://en.wikibooks.org/w/index.php?title=Cookbook:Tubani_(Nigerian_Corn_and_Soybean_Fritter)&oldid=4505838), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Tuna and Herb Salad](https://en.wikibooks.org/w/index.php?title=Cookbook:Tuna_and_Herb_Salad&oldid=4613375), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Tuna Curry](https://en.wikibooks.org/w/index.php?title=Cookbook:Tuna_Curry&oldid=4517577), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Tuna Fish Cakes](https://en.wikibooks.org/w/index.php?title=Cookbook:Tuna_Fish_Cakes&oldid=4518294), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Tuna Fried Rice](https://en.wikibooks.org/w/index.php?title=Cookbook:Tuna_Fried_Rice&oldid=4525568), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Tuna Glop](https://en.wikibooks.org/w/index.php?title=Cookbook:Tuna_Glop&oldid=4508824), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Tuna Melt Fishcakes](https://en.wikibooks.org/w/index.php?title=Cookbook:Tuna_Melt_Fishcakes&oldid=4525570), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Tuna Noodle Casserole](https://en.wikibooks.org/w/index.php?title=Cookbook:Tuna_Noodle_Casserole&oldid=4525571), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Tuna Rice Casserole](https://en.wikibooks.org/w/index.php?title=Cookbook:Tuna_Rice_Casserole&oldid=4525572), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Tuna Salad (1940)](https://en.wikibooks.org/w/index.php?title=Cookbook:Tuna_Salad_(1940)&oldid=4518185), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Turkey and Bacon Salad](https://en.wikibooks.org/w/index.php?title=Cookbook:Turkey_and_Bacon_Salad&oldid=4525573), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Turkey and Lima Beans](https://en.wikibooks.org/w/index.php?title=Cookbook:Turkey_and_Lima_Beans&oldid=4515448), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Turkey & Barley Cabbage Rolls with Fresh Dill](https://en.wikibooks.org/w/index.php?title=Cookbook:Turkey_%26_Barley_Cabbage_Rolls_with_Fresh_Dill&oldid=4630352), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Turkey Biscuit](https://en.wikibooks.org/w/index.php?title=Cookbook:Turkey_Biscuit&oldid=4517124), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Turkey with Plantain Stuffing (Pavo Relleno de Mofongo)](https://en.wikibooks.org/w/index.php?title=Cookbook:Turkey_with_Plantain_Stuffing_(Pavo_Relleno_de_Mofongo)&oldid=4518727), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Turkey Wrap](https://en.wikibooks.org/w/index.php?title=Cookbook:Turkey_Wrap&oldid=4518297), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Turkish Delight](https://en.wikibooks.org/w/index.php?title=Cookbook:Turkish_Delight&oldid=4587329), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Turkish Dolma Pilav](https://en.wikibooks.org/w/index.php?title=Cookbook:Turkish_Dolma_Pilav&oldid=4531776), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Turmeric Chicken and Asparagus Stir-Fry](https://en.wikibooks.org/w/index.php?title=Cookbook:Turmeric_Chicken_and_Asparagus_Stir-Fry&oldid=4629085), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Turon (Filipino Plantain Spring Rolls)](https://en.wikibooks.org/w/index.php?title=Cookbook:Turon_(Filipino_Plantain_Spring_Rolls)&oldid=4510839), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Tuscan Bean Soup](https://en.wikibooks.org/w/index.php?title=Cookbook:Tuscan_Bean_Soup&oldid=4515570), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Tuscan Mushroom Risotto](https://en.wikibooks.org/w/index.php?title=Cookbook:Tuscan_Mushroom_Risotto&oldid=4610459), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Tuscan Roast Potatoes](https://en.wikibooks.org/w/index.php?title=Cookbook:Tuscan_Roast_Potatoes&oldid=4494726), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Tuscan Soup (Meatless)](https://en.wikibooks.org/w/index.php?title=Cookbook:Tuscan_Soup_(Meatless)&oldid=4525576), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Tuwo Alabo (Nigerian Cassava Swallow)](https://en.wikibooks.org/w/index.php?title=Cookbook:Tuwo_Alabo_(Nigerian_Cassava_Swallow)&oldid=4518772), CC-BY-SA-4.0
 - [Wikibooks Cookbook: Tuwo Alkama (Wheat Swallow)](https://en.wikibooks.org/w/index.php?title=Cookbook:Tuwo_Alkama_(Wheat_Swallow)&oldid=4518771), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Tuwo Masara (Nigerian Corn Fufu)](https://en.wikibooks.org/w/index.php?title=Cookbook:Tuwo_Masara_(Nigerian_Corn_Fufu)&oldid=4518769), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Tuwo Shinkafa (Nigerian Mashed Rice)](https://en.wikibooks.org/w/index.php?title=Cookbook:Tuwo_Shinkafa_(Nigerian_Mashed_Rice)&oldid=4603846), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Tuwon Dawa (Nigerian Sorghum Swallow)](https://en.wikibooks.org/w/index.php?title=Cookbook:Tuwon_Dawa_(Nigerian_Sorghum_Swallow)&oldid=4524349), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Tvorog (Russian Farmer Cheese)](https://en.wikibooks.org/w/index.php?title=Cookbook:Tvorog_(Russian_Farmer_Cheese)&oldid=4511475), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Twice-Baked Potatoes I](https://en.wikibooks.org/w/index.php?title=Cookbook:Twice-Baked_Potatoes_I&oldid=4525577), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Twice-Baked Potatoes II](https://en.wikibooks.org/w/index.php?title=Cookbook:Twice-Baked_Potatoes_II&oldid=4525578), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Two-Ingredient Brownies](https://en.wikibooks.org/w/index.php?title=Cookbook:Two-Ingredient_Brownies&oldid=4587472), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Tyropita (Greek Cheese Pie)](https://en.wikibooks.org/w/index.php?title=Cookbook:Tyropita_(Greek_Cheese_Pie)&oldid=4587234), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Tzatziki](https://en.wikibooks.org/w/index.php?title=Cookbook:Tzatziki&oldid=4519035), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Ugali (Maize Porridge)](https://en.wikibooks.org/w/index.php?title=Cookbook:Ugali_(Maize_Porridge)&oldid=4517867), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Ugali (Rwandan Cornmeal Porridge)](https://en.wikibooks.org/w/index.php?title=Cookbook:Ugali_(Rwandan_Cornmeal_Porridge)&oldid=4517868), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Ugba Stew](https://en.wikibooks.org/w/index.php?title=Cookbook:Ugba_Stew&oldid=4518693), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Ukazi Soup](https://en.wikibooks.org/w/index.php?title=Cookbook:Ukazi_Soup&oldid=4508924), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Ukpo Oka (Nigerian Corn Pudding)](https://en.wikibooks.org/w/index.php?title=Cookbook:Ukpo_Oka_(Nigerian_Corn_Pudding)&oldid=4508314), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Ukrainian Borscht](https://en.wikibooks.org/w/index.php?title=Cookbook:Ukrainian_Borscht&oldid=4671618), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Ukrainian Cabbage Soup (Kapusniak)](https://en.wikibooks.org/w/index.php?title=Cookbook:Ukrainian_Cabbage_Soup_(Kapusniak)&oldid=4637581), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Ukrainian Cornmeal Stuffing (Nachynka)](https://en.wikibooks.org/w/index.php?title=Cookbook:Ukrainian_Cornmeal_Stuffing_(Nachynka)&oldid=4518729), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Ultimate Kahlua Brownies](https://en.wikibooks.org/w/index.php?title=Cookbook:Ultimate_Kahlua_Brownies&oldid=4587405), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Ume-shu (Japanese Plum Juice)](https://en.wikibooks.org/w/index.php?title=Cookbook:Ume-shu_(Japanese_Plum_Juice)&oldid=4505270), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Upeseru (Indian Lentils with Greens)](https://en.wikibooks.org/w/index.php?title=Cookbook:Upeseru_(Indian_Lentils_with_Greens)&oldid=4615197), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Upma (Indian Semolina Porridge)](https://en.wikibooks.org/w/index.php?title=Cookbook:Upma_(Indian_Semolina_Porridge)&oldid=4615169), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Uppittu (Indian Semolina Porridge)](https://en.wikibooks.org/w/index.php?title=Cookbook:Uppittu_(Indian_Semolina_Porridge)&oldid=4615147), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Valencian-Inspired Paella](https://en.wikibooks.org/w/index.php?title=Cookbook:Valencian-Inspired_Paella&oldid=4534254), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Valentine's Day Chocolate Cake](https://en.wikibooks.org/w/index.php?title=Cookbook:Valentine's_Day_Chocolate_Cake&oldid=4525785), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Vancouver Cheesecake](https://en.wikibooks.org/w/index.php?title=Cookbook:Vancouver_Cheesecake&oldid=4525786), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Vanilla Coconut Caramel](https://en.wikibooks.org/w/index.php?title=Cookbook:Vanilla_Coconut_Caramel&oldid=4587369), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Vanilla Crisps](https://en.wikibooks.org/w/index.php?title=Cookbook:Vanilla_Crisps&oldid=4515344), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Vanilla Fudge I](https://en.wikibooks.org/w/index.php?title=Cookbook:Vanilla_Fudge_I&oldid=4517508), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Vanilla Fudge II](https://en.wikibooks.org/w/index.php?title=Cookbook:Vanilla_Fudge_II&oldid=4517509), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Vanilla Ice Cream (Custard-Based)](https://en.wikibooks.org/w/index.php?title=Cookbook:Vanilla_Ice_Cream_(Custard-Based)&oldid=4587166), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Vanilla Ice Cream (Egg-Free)](https://en.wikibooks.org/w/index.php?title=Cookbook:Vanilla_Ice_Cream_(Egg-Free)&oldid=4587327), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Vanilla Kifli](https://en.wikibooks.org/w/index.php?title=Cookbook:Vanilla_Kifli&oldid=4515345), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Veal with Lima Beans](https://en.wikibooks.org/w/index.php?title=Cookbook:Veal_with_Lima_Beans&oldid=4518696), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Vedhmi (Sweet Stuffed Flatbread)](https://en.wikibooks.org/w/index.php?title=Cookbook:Vedhmi_(Sweet_Stuffed_Flatbread)&oldid=4508061), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Vegan Gingerbread Cake](https://en.wikibooks.org/w/index.php?title=Cookbook:Vegan_Gingerbread_Cake&oldid=4608522), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Vegan Paprika Bratwurst](https://en.wikibooks.org/w/index.php?title=Cookbook:Vegan_Paprika_Bratwurst&oldid=4514140), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Vegan Pate](https://en.wikibooks.org/w/index.php?title=Cookbook:Vegan_Pate&oldid=4512160), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Vegemite Sandwich](https://en.wikibooks.org/w/index.php?title=Cookbook:Vegemite_Sandwich&oldid=4518298), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Vegetable Party Sandwiches](https://en.wikibooks.org/w/index.php?title=Cookbook:Vegetable_Party_Sandwiches&oldid=4525789), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Vegetable Salad](https://en.wikibooks.org/w/index.php?title=Cookbook:Vegetable_Salad&oldid=4613376), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Vegetable Soup](https://en.wikibooks.org/w/index.php?title=Cookbook:Vegetable_Soup&oldid=4523475), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Vegetable Spring Roll](https://en.wikibooks.org/w/index.php?title=Cookbook:Vegetable_Spring_Roll&oldid=4610531), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Vegetable Stew and Dumplings](https://en.wikibooks.org/w/index.php?title=Cookbook:Vegetable_Stew_and_Dumplings&oldid=4518694), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Vegetable Stuffed Mushrooms](https://en.wikibooks.org/w/index.php?title=Cookbook:Vegetable_Stuffed_Mushrooms&oldid=4610462), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Vegetarian Rassolnik](https://en.wikibooks.org/w/index.php?title=Cookbook:Vegetarian_Rassolnik&oldid=4494395), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Vegetarian Soft Tacos](https://en.wikibooks.org/w/index.php?title=Cookbook:Vegetarian_Soft_Tacos&oldid=4518777), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Veggie Pizza](https://en.wikibooks.org/w/index.php?title=Cookbook:Veggie_Pizza&oldid=4610465), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Veggie Salad](https://en.wikibooks.org/w/index.php?title=Cookbook:Veggie_Salad&oldid=4535145), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Velouté Sauce](https://en.wikibooks.org/w/index.php?title=Cookbook:Velout%C3%A9_Sauce&oldid=4584959), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Venetian Soup](https://en.wikibooks.org/w/index.php?title=Cookbook:Venetian_Soup&oldid=4503067), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Venison Bolognese Sauce](https://en.wikibooks.org/w/index.php?title=Cookbook:Venison_Bolognese_Sauce&oldid=4497856), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Venison Italian Style](https://en.wikibooks.org/w/index.php?title=Cookbook:Venison_Italian_Style&oldid=4525793), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Venison Pie](https://en.wikibooks.org/w/index.php?title=Cookbook:Venison_Pie&oldid=4523246), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Very Simple Cookies](https://en.wikibooks.org/w/index.php?title=Cookbook:Very_Simple_Cookies&oldid=4515346), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Vetkoek (South African Fried Dough)](https://en.wikibooks.org/w/index.php?title=Cookbook:Vetkoek_(South_African_Fried_Dough)&oldid=4527808), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Vichyssoise (Chilled Potato Leek Soup)](https://en.wikibooks.org/w/index.php?title=Cookbook:Vichyssoise_(Chilled_Potato_Leek_Soup)&oldid=4520463), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Victoria Sandwich](https://en.wikibooks.org/w/index.php?title=Cookbook:Victoria_Sandwich&oldid=4516968), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Victorian Butter](https://en.wikibooks.org/w/index.php?title=Cookbook:Victorian_Butter&oldid=4522766), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Vietnamese Caramel Sauce (Nước Maøu)](https://en.wikibooks.org/w/index.php?title=Cookbook:Vietnamese_Caramel_Sauce_(N%C6%B0%E1%BB%9Bc_Ma%C3%B8u)&oldid=4587152), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Vietnamese Fish Dipping Sauce (Nước mắm pha)](https://en.wikibooks.org/w/index.php?title=Cookbook:Vietnamese_Fish_Dipping_Sauce_(N%C6%B0%E1%BB%9Bc_m%E1%BA%AFm_pha)&oldid=4519041), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Vietnamese Rice Noodle and Beef Soup (Bún bò Huế)](https://en.wikibooks.org/w/index.php?title=Cookbook:Vietnamese_Rice_Noodle_and_Beef_Soup_(B%C3%BAn_b%C3%B2_Hu%E1%BA%BF)&oldid=4509883), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Vinegar-Pickled Eggs and Onions](https://en.wikibooks.org/w/index.php?title=Cookbook:Vinegar-Pickled_Eggs_and_Onions&oldid=4526117), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Violet Lemonade](https://en.wikibooks.org/w/index.php?title=Cookbook:Violet_Lemonade&oldid=4519083), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Vitello Tonnato (Veal with Tuna Sauce)](https://en.wikibooks.org/w/index.php?title=Cookbook:Vitello_Tonnato_(Veal_with_Tuna_Sauce)&oldid=4511104), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Vorschmack (Finnish Ground Meat)](https://en.wikibooks.org/w/index.php?title=Cookbook:Vorschmack_(Finnish_Ground_Meat)&oldid=4517441), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Waakye (Ghanian Rice and Beans)](https://en.wikibooks.org/w/index.php?title=Cookbook:Waakye_(Ghanian_Rice_and_Beans)&oldid=4513305), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Waakyne (Ghanaian Rice and Beans)](https://en.wikibooks.org/w/index.php?title=Cookbook:Waakyne_(Ghanaian_Rice_and_Beans)&oldid=4515516), CC-BY-SA-4.0
 - [Wikibooks Cookbook: Waffles](https://en.wikibooks.org/w/index.php?title=Cookbook:Waffles&oldid=4519091), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Wakeup Sausage Casserole](https://en.wikibooks.org/w/index.php?title=Cookbook:Wakeup_Sausage_Casserole&oldid=4662968), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Waldorf Salad](https://en.wikibooks.org/w/index.php?title=Cookbook:Waldorf_Salad&oldid=4525769), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Wali Wa Nazi](https://en.wikibooks.org/w/index.php?title=Cookbook:Wali_Wa_Nazi&oldid=4638517), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Wasawasa (Yam Couscous)](https://en.wikibooks.org/w/index.php?title=Cookbook:Wasawasa_(Yam_Couscous)&oldid=4494027), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Wassel](https://en.wikibooks.org/w/index.php?title=Cookbook:Wassel&oldid=4525770), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Watalappam (Sri Lankan Coconut Custard)](https://en.wikibooks.org/w/index.php?title=Cookbook:Watalappam_(Sri_Lankan_Coconut_Custard)&oldid=4587428), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Watermelon Smoothie](https://en.wikibooks.org/w/index.php?title=Cookbook:Watermelon_Smoothie&oldid=4480496), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Waterzooi](https://en.wikibooks.org/w/index.php?title=Cookbook:Waterzooi&oldid=4494372), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Welsh Cakes](https://en.wikibooks.org/w/index.php?title=Cookbook:Welsh_Cakes&oldid=4656763), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Welsh Fruit Bread (Bara Brith) I](https://en.wikibooks.org/w/index.php?title=Cookbook:Welsh_Fruit_Bread_(Bara_Brith)_I&oldid=4522779), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Welsh Fruit Bread (Bara Brith) II](https://en.wikibooks.org/w/index.php?title=Cookbook:Welsh_Fruit_Bread_(Bara_Brith)_II&oldid=4587323), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Welsh Fruit Bread (Bara Brith) III](https://en.wikibooks.org/w/index.php?title=Cookbook:Welsh_Fruit_Bread_(Bara_Brith)_III&oldid=4516972), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Welsh Rarebit](https://en.wikibooks.org/w/index.php?title=Cookbook:Welsh_Rarebit&oldid=4613377), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Wheat-Free Baking Mix](https://en.wikibooks.org/w/index.php?title=Cookbook:Wheat-Free_Baking_Mix&oldid=4618206), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Wheat Grass Juice](https://en.wikibooks.org/w/index.php?title=Cookbook:Wheat_Grass_Juice&oldid=4496289), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Wheat Modak (Coconut Pastries)](https://en.wikibooks.org/w/index.php?title=Cookbook:Wheat_Modak_(Coconut_Pastries)&oldid=4587235), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Whiskey Barbecue Sauce](https://en.wikibooks.org/w/index.php?title=Cookbook:Whiskey_Barbecue_Sauce&oldid=4519059), CC-BY-SA-4.0
+- [Wikibooks Cookbook: White Bean and Pumpkin Leaf Soup](https://en.wikibooks.org/w/index.php?title=Cookbook:White_Bean_and_Pumpkin_Leaf_Soup&oldid=4515418), CC-BY-SA-4.0
+- [Wikibooks Cookbook: White Bean Soup with Basil, Rosemary, and Garlic Croutons](https://en.wikibooks.org/w/index.php?title=Cookbook:White_Bean_Soup_with_Basil,_Rosemary,_and_Garlic_Croutons&oldid=4534251), CC-BY-SA-4.0
+- [Wikibooks Cookbook: White Chocolate Cheesecake](https://en.wikibooks.org/w/index.php?title=Cookbook:White_Chocolate_Cheesecake&oldid=4567737), CC-BY-SA-4.0
+- [Wikibooks Cookbook: White Fish Ceviche (Cebiche de Pescado)](https://en.wikibooks.org/w/index.php?title=Cookbook:White_Fish_Ceviche_(Cebiche_de_Pescado)&oldid=4509863), CC-BY-SA-4.0
+- [Wikibooks Cookbook: White House Honey Porter](https://en.wikibooks.org/w/index.php?title=Cookbook:White_House_Honey_Porter&oldid=4505274), CC-BY-SA-4.0
+- [Wikibooks Cookbook: White Russian Cocktail](https://en.wikibooks.org/w/index.php?title=Cookbook:White_Russian_Cocktail&oldid=4610746), CC-BY-SA-4.0
+- [Wikibooks Cookbook: White Sauce](https://en.wikibooks.org/w/index.php?title=Cookbook:White_Sauce&oldid=4615130), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Whole Wheat Bread (Vegan)](https://en.wikibooks.org/w/index.php?title=Cookbook:Whole_Wheat_Bread_(Vegan)&oldid=4541098), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Whole-Wheat Chocolate Cake with Nuts](https://en.wikibooks.org/w/index.php?title=Cookbook:Whole-Wheat_Chocolate_Cake_with_Nuts&oldid=4516887), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Whole Wheat Irish Soda Bread](https://en.wikibooks.org/w/index.php?title=Cookbook:Whole_Wheat_Irish_Soda_Bread&oldid=4512592), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Whole Wheat Pancakes](https://en.wikibooks.org/w/index.php?title=Cookbook:Whole_Wheat_Pancakes&oldid=4522764), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Whole Wheat Pancakes (Vegan)](https://en.wikibooks.org/w/index.php?title=Cookbook:Whole_Wheat_Pancakes_(Vegan)&oldid=4525775), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Whole Wheat Waffles](https://en.wikibooks.org/w/index.php?title=Cookbook:Whole_Wheat_Waffles&oldid=4524009), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Wiejska (Polish Pork and Veal Sausage)](https://en.wikibooks.org/w/index.php?title=Cookbook:Wiejska_(Polish_Pork_and_Veal_Sausage)&oldid=4615150), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Wild Spinach and Lemon Salad](https://en.wikibooks.org/w/index.php?title=Cookbook:Wild_Spinach_and_Lemon_Salad&oldid=4523435), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Wilted Greens](https://en.wikibooks.org/w/index.php?title=Cookbook:Wilted_Greens&oldid=4503080), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Windsor Pudding](https://en.wikibooks.org/w/index.php?title=Cookbook:Windsor_Pudding&oldid=4517955), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Wine Braised Shortribs](https://en.wikibooks.org/w/index.php?title=Cookbook:Wine_Braised_Shortribs&oldid=4518695), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Wine Glazed Pork Chops](https://en.wikibooks.org/w/index.php?title=Cookbook:Wine_Glazed_Pork_Chops&oldid=4514590), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Wine-Roasted Pork Roast](https://en.wikibooks.org/w/index.php?title=Cookbook:Wine-Roasted_Pork_Roast&oldid=4525777), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Wisconsin Ackawi Cheese Triangles](https://en.wikibooks.org/w/index.php?title=Cookbook:Wisconsin_Ackawi_Cheese_Triangles&oldid=4587236), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Wonjo Bissap (Gambian Hibiscus Beverage)](https://en.wikibooks.org/w/index.php?title=Cookbook:Wonjo_Bissap_(Gambian_Hibiscus_Beverage)&oldid=4510293), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Wonton Wrappers](https://en.wikibooks.org/w/index.php?title=Cookbook:Wonton_Wrappers&oldid=4516032), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Wow-Wow Sauce](https://en.wikibooks.org/w/index.php?title=Cookbook:Wow-Wow_Sauce&oldid=4613389), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Xarém (Porridge dish)](https://en.wikibooks.org/w/index.php?title=Cookbook:Xar%C3%A9m_(Porridge_dish)&oldid=4638739), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Xató (Catalan Endives and Fish)](https://en.wikibooks.org/w/index.php?title=Cookbook:Xat%C3%B3_(Catalan_Endives_and_Fish)&oldid=4518192), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Yam and Egg Sauce](https://en.wikibooks.org/w/index.php?title=Cookbook:Yam_and_Egg_Sauce&oldid=4494028), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Yam and Spicy Egg Sauce](https://en.wikibooks.org/w/index.php?title=Cookbook:Yam_and_Spicy_Egg_Sauce&oldid=4521637), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Yam Casserole](https://en.wikibooks.org/w/index.php?title=Cookbook:Yam_Casserole&oldid=4517443), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Yassa Poulet (Senegalese Chicken)](https://en.wikibooks.org/w/index.php?title=Cookbook:Yassa_Poulet_(Senegalese_Chicken)&oldid=4613409), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Yataklete Kilkil (Ethiopian Vegetable Stew)](https://en.wikibooks.org/w/index.php?title=Cookbook:Yataklete_Kilkil_(Ethiopian_Vegetable_Stew)&oldid=4535150), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Yeasted Cornbread](https://en.wikibooks.org/w/index.php?title=Cookbook:Yeasted_Cornbread&oldid=4513155), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Yeasted Kifli](https://en.wikibooks.org/w/index.php?title=Cookbook:Yeasted_Kifli&oldid=4587237), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Yeasted Rolls I](https://en.wikibooks.org/w/index.php?title=Cookbook:Yeasted_Rolls_I&oldid=4512462), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Yeasted Rolls II](https://en.wikibooks.org/w/index.php?title=Cookbook:Yeasted_Rolls_II&oldid=4522405), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Yeasted Vanilla Sponge Cake](https://en.wikibooks.org/w/index.php?title=Cookbook:Yeasted_Vanilla_Sponge_Cake&oldid=4516973), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Yellow Curry Paste](https://en.wikibooks.org/w/index.php?title=Cookbook:Yellow_Curry_Paste&oldid=4517579), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Yellow Saffron Food Coloring](https://en.wikibooks.org/w/index.php?title=Cookbook:Yellow_Saffron_Food_Coloring&oldid=4541049), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Yellow Split Pea Soup](https://en.wikibooks.org/w/index.php?title=Cookbook:Yellow_Split_Pea_Soup&oldid=4525778), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Yemenite Charoset I](https://en.wikibooks.org/w/index.php?title=Cookbook:Yemenite_Charoset_I&oldid=4630112), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Yemenite Charoset II](https://en.wikibooks.org/w/index.php?title=Cookbook:Yemenite_Charoset_II&oldid=4630221), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Yemiser Selatta (Ethiopian Lentil Salad)](https://en.wikibooks.org/w/index.php?title=Cookbook:Yemiser_Selatta_(Ethiopian_Lentil_Salad)&oldid=4531802), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Yerushalmi Kugel (Sweet Noodle Casserole)](https://en.wikibooks.org/w/index.php?title=Cookbook:Yerushalmi_Kugel_(Sweet_Noodle_Casserole)&oldid=4587153), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Yetakelt Alicha (Ethiopian Vegetable Stew)](https://en.wikibooks.org/w/index.php?title=Cookbook:Yetakelt_Alicha_(Ethiopian_Vegetable_Stew)&oldid=4518697), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Yetakelt Wot (Ethiopian Spiced Vegetable Stew)](https://en.wikibooks.org/w/index.php?title=Cookbook:Yetakelt_Wot_(Ethiopian_Spiced_Vegetable_Stew)&oldid=4535151), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Yetsom Beyaynetu (Ethiopian Vegan Platter)](https://en.wikibooks.org/w/index.php?title=Cookbook:Yetsom_Beyaynetu_(Ethiopian_Vegan_Platter)&oldid=4494321), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Yetsom Shiro (Ethiopian Vegan Chickpea Stew)](https://en.wikibooks.org/w/index.php?title=Cookbook:Yetsom_Shiro_(Ethiopian_Vegan_Chickpea_Stew)&oldid=4518700), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Yeung Chow Fried Rice](https://en.wikibooks.org/w/index.php?title=Cookbook:Yeung_Chow_Fried_Rice&oldid=4525780), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Yoda Soda](https://en.wikibooks.org/w/index.php?title=Cookbook:Yoda_Soda&oldid=4610745), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Yogi Tea](https://en.wikibooks.org/w/index.php?title=Cookbook:Yogi_Tea&oldid=4508066), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Yogurt Cupcakes (Vegan)](https://en.wikibooks.org/w/index.php?title=Cookbook:Yogurt_Cupcakes_(Vegan)&oldid=4587421), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Yogurt Curry Soup (Kadhi)](https://en.wikibooks.org/w/index.php?title=Cookbook:Yogurt_Curry_Soup_(Kadhi)&oldid=4615184), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Yogurt Dip](https://en.wikibooks.org/w/index.php?title=Cookbook:Yogurt_Dip&oldid=4531789), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Yorkshire Pudding](https://en.wikibooks.org/w/index.php?title=Cookbook:Yorkshire_Pudding&oldid=4615139), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Yubeshi (Japanese Walnut Mochi Confection)](https://en.wikibooks.org/w/index.php?title=Cookbook:Yubeshi_(Japanese_Walnut_Mochi_Confection)&oldid=4517505), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Yuvarlak (Greek Meatballs)](https://en.wikibooks.org/w/index.php?title=Cookbook:Yuvarlak_(Greek_Meatballs)&oldid=4510297), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Zacusca (Romanian Vegetable Spread)](https://en.wikibooks.org/w/index.php?title=Cookbook:Zacusca_(Romanian_Vegetable_Spread)&oldid=4514056), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Zalabiyeh (Sweet Fritters) II](https://en.wikibooks.org/w/index.php?title=Cookbook:Zalabiyeh_(Sweet_Fritters)_II&oldid=4517776), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Zambian Beans and Rice](https://en.wikibooks.org/w/index.php?title=Cookbook:Zambian_Beans_and_Rice&oldid=4534248), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Zambian Beef Stew](https://en.wikibooks.org/w/index.php?title=Cookbook:Zambian_Beef_Stew&oldid=4518701), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Zambian Fish Stew](https://en.wikibooks.org/w/index.php?title=Cookbook:Zambian_Fish_Stew&oldid=4518703), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Zambian Tomato and Onion Salad](https://en.wikibooks.org/w/index.php?title=Cookbook:Zambian_Tomato_and_Onion_Salad&oldid=4518194), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Zambian Vegetable Stir-Fry](https://en.wikibooks.org/w/index.php?title=Cookbook:Zambian_Vegetable_Stir-Fry&oldid=4494307), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Zelenchukova Supa (Bulgarian Vegetable Soup)](https://en.wikibooks.org/w/index.php?title=Cookbook:Zelenchukova_Supa_(Bulgarian_Vegetable_Soup)&oldid=4494292), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Zereshk Palau (Iranian Rice with Barberries) I](https://en.wikibooks.org/w/index.php?title=Cookbook:Zereshk_Palau_(Iranian_Rice_with_Barberries)_I&oldid=4525782), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Zereshk Palau (Iranian Rice with Barberries) II](https://en.wikibooks.org/w/index.php?title=Cookbook:Zereshk_Palau_(Iranian_Rice_with_Barberries)_II&oldid=4509488), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Zhug I](https://en.wikibooks.org/w/index.php?title=Cookbook:Zhug_I&oldid=4525783), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Zhug II](https://en.wikibooks.org/w/index.php?title=Cookbook:Zhug_II&oldid=4519068), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Zhug III](https://en.wikibooks.org/w/index.php?title=Cookbook:Zhug_III&oldid=4519069), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Zilzil Tibs (Spicy Ethiopian Beef Strips)](https://en.wikibooks.org/w/index.php?title=Cookbook:Zilzil_Tibs_(Spicy_Ethiopian_Beef_Strips)&oldid=4510298), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Zimbabwean Chicken and Vegetable Soup](https://en.wikibooks.org/w/index.php?title=Cookbook:Zimbabwean_Chicken_and_Vegetable_Soup&oldid=4521020), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Zimtsterne (German Cinnamon Star Cookies)](https://en.wikibooks.org/w/index.php?title=Cookbook:Zimtsterne_(German_Cinnamon_Star_Cookies)&oldid=4587443), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Zippuli (Italian Potato Cheese Fritters)](https://en.wikibooks.org/w/index.php?title=Cookbook:Zippuli_(Italian_Potato_Cheese_Fritters)&oldid=4517777), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Zitumbuwa (Malawian Banana Pancakes)](https://en.wikibooks.org/w/index.php?title=Cookbook:Zitumbuwa_(Malawian_Banana_Pancakes)&oldid=4522833), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Zucchini Bread](https://en.wikibooks.org/w/index.php?title=Cookbook:Zucchini_Bread&oldid=4502092), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Zucchini Pasta Bake](https://en.wikibooks.org/w/index.php?title=Cookbook:Zucchini_Pasta_Bake&oldid=4525784), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Zucchini Pie](https://en.wikibooks.org/w/index.php?title=Cookbook:Zucchini_Pie&oldid=4605243), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Zucchini Salad](https://en.wikibooks.org/w/index.php?title=Cookbook:Zucchini_Salad&oldid=4518195), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Zupa Ogórkowa (Polish Cucumber Soup)](https://en.wikibooks.org/w/index.php?title=Cookbook:Zupa_Og%C3%B3rkowa_(Polish_Cucumber_Soup)&oldid=4631505), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Zuppa alla Modenese](https://en.wikibooks.org/w/index.php?title=Cookbook:Zuppa_alla_Modenese&oldid=4503089), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Zuppa Toscana](https://en.wikibooks.org/w/index.php?title=Cookbook:Zuppa_Toscana&oldid=4523497), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Zwiebelrostbraten with Red Wine Onion Gravy](https://en.wikibooks.org/w/index.php?title=Cookbook:Zwiebelrostbraten_with_Red_Wine_Onion_Gravy&oldid=4613397), CC-BY-SA-4.0
 
 The data as a whole is available under CC-BY-SA-4.0 AND ODbL-1.0; see LICENSE-data.

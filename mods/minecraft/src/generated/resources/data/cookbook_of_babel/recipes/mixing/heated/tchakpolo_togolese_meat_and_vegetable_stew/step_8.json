@@ -1,0 +1,54 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/tchakpolo_togolese_meat_and_vegetable_stew_step_8"
+    }
+  ],
+  "heatRequirement": "heated",
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:tchakpolo_togolese_meat_and_vegetable_stew_step_7\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/tchakpolo_togolese_meat_and_vegetable_stew_step_7"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:carrot\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/carrot"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:carrot\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/carrot"
+      }
+    ]
+  ],
+  "processingTime": 350,
+  "results": [
+    {
+      "amount": 100,
+      "fluid": "cookbook_of_babel:liquid",
+      "nbt": "{substance:\"cookbook_of_babel:tchakpolo_togolese_meat_and_vegetable_stew_step_8\"}"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "type": "farmersdelight:cooking",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "farmersdelight"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/grits_with_cheese_step_4"
+    }
+  ],
+  "cookingtime": 110,
+  "experience": 0.1,
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:grits_with_cheese_step_3\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/grits_with_cheese_step_3"
+      }
+    ]
+  ],
+  "result": {
+    "item": "cookbook_of_babel:substance",
+    "nbt": "{substance:\"cookbook_of_babel:grits_with_cheese_step_4\"}"
+  }
+}

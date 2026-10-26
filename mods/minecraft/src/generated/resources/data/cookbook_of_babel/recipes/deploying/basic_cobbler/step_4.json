@@ -1,0 +1,50 @@
+{
+  "type": "create:deploying",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/basic_cobbler_step_4"
+    }
+  ],
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:portion",
+        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:liquid\",Tag:{substance:\"cookbook_of_babel:basic_cobbler_step_3\"}}}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/basic_cobbler_step_3"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:fruit\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/fruit"
+      }
+    ]
+  ],
+  "results": [
+    {
+      "count": 2,
+      "item": "cookbook_of_babel:portion",
+      "nbt": {
+        "Fluid": {
+          "Amount": 250,
+          "FluidName": "cookbook_of_babel:liquid",
+          "Tag": {
+            "substance": "cookbook_of_babel:basic_cobbler_step_4"
+          }
+        }
+      }
+    }
+  ]
+}

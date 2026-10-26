@@ -1,0 +1,41 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/ndole_cameroonian_bitter_leaf_and_peanut_soup_step_5"
+    }
+  ],
+  "heatRequirement": "heated",
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:ndole_cameroonian_bitter_leaf_and_peanut_soup_step_4\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/ndole_cameroonian_bitter_leaf_and_peanut_soup_step_4"
+      }
+    ],
+    {
+      "amount": 177,
+      "fluid": "cookbook_of_babel:bulk",
+      "nbt": {
+        "substance": "cookbook_of_babel:ground_crayfish"
+      }
+    }
+  ],
+  "processingTime": 200,
+  "results": [
+    {
+      "amount": 100,
+      "fluid": "cookbook_of_babel:liquid",
+      "nbt": "{substance:\"cookbook_of_babel:ndole_cameroonian_bitter_leaf_and_peanut_soup_step_5\"}"
+    }
+  ]
+}

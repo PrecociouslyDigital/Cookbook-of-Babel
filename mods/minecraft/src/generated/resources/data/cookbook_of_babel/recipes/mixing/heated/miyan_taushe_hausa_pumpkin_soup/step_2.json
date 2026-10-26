@@ -1,0 +1,65 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/miyan_taushe_hausa_pumpkin_soup_step_2"
+    }
+  ],
+  "heatRequirement": "heated",
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:miyan_taushe_hausa_pumpkin_soup_step_1\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/miyan_taushe_hausa_pumpkin_soup_step_1"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:pumpkin\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/pumpkin"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:pumpkin\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/pumpkin"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:pumpkin\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/pumpkin"
+      }
+    ]
+  ],
+  "processingTime": 250,
+  "results": [
+    {
+      "item": "cookbook_of_babel:substance",
+      "nbt": {
+        "substance": "cookbook_of_babel:miyan_taushe_hausa_pumpkin_soup_step_2"
+      }
+    }
+  ]
+}

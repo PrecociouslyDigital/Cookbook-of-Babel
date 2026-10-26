@@ -50,7 +50,7 @@ final class ItemModels extends ItemModelProvider {
         }
 
         Registration.DISHES.forEach((dish, item) -> getBuilder(item.getId().getPath())
-                .parent(new ModelFile.UncheckedModelFile(modLoc("item/substance/" + dish.form.getSerializedName()))));
+                .parent(new ModelFile.UncheckedModelFile(modLoc("item/substance/" + dish.form().getSerializedName()))));
     }
 
     private ItemModelBuilder flat(String name, ResourceLocation texture) {

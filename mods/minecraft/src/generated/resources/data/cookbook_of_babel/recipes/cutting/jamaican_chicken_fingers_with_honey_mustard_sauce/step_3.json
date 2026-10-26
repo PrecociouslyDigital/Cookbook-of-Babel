@@ -1,0 +1,35 @@
+{
+  "type": "create:cutting",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/jamaican_chicken_fingers_with_honey_mustard_sauce_step_3"
+    }
+  ],
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:jamaican_chicken_fingers_with_honey_mustard_sauce_step_2\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/jamaican_chicken_fingers_with_honey_mustard_sauce_step_2"
+      }
+    ]
+  ],
+  "processingTime": 50,
+  "results": [
+    {
+      "count": 6,
+      "item": "cookbook_of_babel:substance",
+      "nbt": {
+        "substance": "cookbook_of_babel:jamaican_chicken_fingers_with_honey_mustard_sauce_step_3"
+      }
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/goat_milk_caramel_sauce_step_2"
+    }
+  ],
+  "ingredients": [
+    {
+      "amount": 13,
+      "fluid": "cookbook_of_babel:bulk",
+      "nbt": {
+        "substance": "cookbook_of_babel:goat_milk_caramel_sauce_step_1"
+      }
+    },
+    {
+      "amount": 7,
+      "fluidTag": "minecraft:water"
+    }
+  ],
+  "processingTime": 20,
+  "results": [
+    {
+      "amount": 20,
+      "fluid": "cookbook_of_babel:liquid",
+      "nbt": "{substance:\"cookbook_of_babel:goat_milk_caramel_sauce_step_2\"}"
+    }
+  ]
+}

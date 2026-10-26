@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "conditions": [
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/glazed_sweet_potatoes"
+    }
+  ],
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:glazed_sweet_potatoes_step_2\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/glazed_sweet_potatoes_step_2"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:pecan\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/pecan"
+      }
+    ]
+  ],
+  "result": {
+    "item": "cookbook_of_babel:glazed_sweet_potatoes"
+  }
+}

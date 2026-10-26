@@ -1,0 +1,32 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/north_carolina_style_bbq_chicken"
+    }
+  ],
+  "heatRequirement": "heated",
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:north_carolina_style_bbq_chicken_step_6\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/north_carolina_style_bbq_chicken_step_6"
+      }
+    ]
+  ],
+  "processingTime": 100,
+  "results": [
+    {
+      "item": "cookbook_of_babel:north_carolina_style_bbq_chicken"
+    }
+  ]
+}

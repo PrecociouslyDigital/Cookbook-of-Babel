@@ -1,0 +1,62 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/homemade_fines_herbes"
+    }
+  ],
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:tarragon\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/tarragon"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:chervil\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/chervil"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:chive\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/chive"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:parsley\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/parsley"
+      }
+    ]
+  ],
+  "processingTime": 20,
+  "results": [
+    {
+      "count": 6,
+      "item": "cookbook_of_babel:homemade_fines_herbes"
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/shepherd_s_pie_iii_step_4"
+    }
+  ],
+  "heatRequirement": "heated",
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:shepherd_s_pie_iii_step_3\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/shepherd_s_pie_iii_step_3"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:carrot\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/carrot"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:pea\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/pea"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:corn\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/corn"
+      }
+    ],
+    {
+      "tag": "cookbook_of_babel:ingredients/albanian_mixed_vegetables"
+    },
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:ketchup\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/ketchup"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:dehydrated_broth\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/dehydrated_broth"
+      }
+    ]
+  ],
+  "processingTime": 100,
+  "results": [
+    {
+      "item": "cookbook_of_babel:substance",
+      "nbt": {
+        "substance": "cookbook_of_babel:shepherd_s_pie_iii_step_4"
+      }
+    }
+  ]
+}

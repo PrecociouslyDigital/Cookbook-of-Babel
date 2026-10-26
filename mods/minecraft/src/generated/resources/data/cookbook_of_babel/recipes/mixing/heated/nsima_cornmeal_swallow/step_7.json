@@ -1,0 +1,42 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/nsima_cornmeal_swallow"
+    }
+  ],
+  "heatRequirement": "heated",
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:nsima_cornmeal_swallow_step_6\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/nsima_cornmeal_swallow_step_6"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:nsima_cornmeal_swallow_step_6\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/nsima_cornmeal_swallow_step_6"
+      }
+    ]
+  ],
+  "processingTime": 250,
+  "results": [
+    {
+      "item": "cookbook_of_babel:nsima_cornmeal_swallow"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/luwombo_ugandan_steamed_meat_and_vegetables_step_9"
+    }
+  ],
+  "heatRequirement": "heated",
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:luwombo_ugandan_steamed_meat_and_vegetables_step_8\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/luwombo_ugandan_steamed_meat_and_vegetables_step_8"
+      }
+    ]
+  ],
+  "processingTime": 20,
+  "results": [
+    {
+      "count": 7,
+      "item": "cookbook_of_babel:substance",
+      "nbt": {
+        "substance": "cookbook_of_babel:luwombo_ugandan_steamed_meat_and_vegetables_step_9"
+      }
+    }
+  ]
+}

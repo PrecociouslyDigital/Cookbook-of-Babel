@@ -1,0 +1,40 @@
+{
+  "type": "create:deploying",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/kasnocken_austrian_cheese_dumplings"
+    }
+  ],
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:kasnocken_austrian_cheese_dumplings_step_6\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/kasnocken_austrian_cheese_dumplings_step_6"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:chive\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/chive"
+      }
+    ]
+  ],
+  "results": [
+    {
+      "item": "cookbook_of_babel:kasnocken_austrian_cheese_dumplings"
+    }
+  ]
+}

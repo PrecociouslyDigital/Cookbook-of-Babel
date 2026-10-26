@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "conditions": [
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/rainbow_cake"
+    }
+  ],
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:rainbow_cake_step_17\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/rainbow_cake_step_17"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:portion",
+        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:bulk\",Tag:{substance:\"cookbook_of_babel:sprinkles\"}}}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/sprinkles"
+      }
+    ]
+  ],
+  "result": {
+    "item": "cookbook_of_babel:rainbow_cake"
+  }
+}

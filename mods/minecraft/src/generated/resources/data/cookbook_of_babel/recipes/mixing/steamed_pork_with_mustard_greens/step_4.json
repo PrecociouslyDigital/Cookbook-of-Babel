@@ -1,0 +1,95 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/steamed_pork_with_mustard_greens_step_4"
+    }
+  ],
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:mustard_greens_rinse_boil_rinse\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/mustard_greens_rinse_boil_rinse"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:mustard_greens_rinse_boil_rinse\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/mustard_greens_rinse_boil_rinse"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:portion",
+        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:bulk\",Tag:{substance:\"cookbook_of_babel:starch\"}}}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/starch"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:portion",
+        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:bulk\",Tag:{substance:\"cookbook_of_babel:white_sugar\"}}}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/white_sugar"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:portion",
+        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:liquid\",Tag:{substance:\"cookbook_of_babel:soy_sauce\"}}}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/soy_sauce"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:portion",
+        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:liquid\",Tag:{substance:\"cookbook_of_babel:wine\"}}}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/wine"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:pork\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/pork"
+      }
+    ]
+  ],
+  "processingTime": 400,
+  "results": [
+    {
+      "count": 4,
+      "item": "cookbook_of_babel:substance",
+      "nbt": {
+        "substance": "cookbook_of_babel:steamed_pork_with_mustard_greens_step_4"
+      }
+    }
+  ]
+}

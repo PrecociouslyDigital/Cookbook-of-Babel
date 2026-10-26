@@ -1,0 +1,61 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/steamed_pork_with_mustard_greens_step_7"
+    }
+  ],
+  "heatRequirement": "heated",
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:steamed_pork_with_mustard_greens_step_6\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/steamed_pork_with_mustard_greens_step_6"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:steamed_pork_with_mustard_greens_step_6\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/steamed_pork_with_mustard_greens_step_6"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:steamed_pork_with_mustard_greens_step_6\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/steamed_pork_with_mustard_greens_step_6"
+      }
+    ],
+    {
+      "amount": 4,
+      "fluid": "minecraft:water",
+      "nbt": {}
+    }
+  ],
+  "processingTime": 90,
+  "results": [
+    {
+      "count": 3,
+      "item": "cookbook_of_babel:substance",
+      "nbt": {
+        "substance": "cookbook_of_babel:steamed_pork_with_mustard_greens_step_7"
+      }
+    }
+  ]
+}

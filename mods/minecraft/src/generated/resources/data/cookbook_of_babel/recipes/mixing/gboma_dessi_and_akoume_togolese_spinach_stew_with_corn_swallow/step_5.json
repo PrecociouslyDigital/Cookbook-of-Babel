@@ -1,0 +1,44 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/gboma_dessi_and_akoume_togolese_spinach_stew_with_corn_swallow_step_5"
+    }
+  ],
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:gboma_dessi_and_akoume_togolese_spinach_stew_with_corn_swallow_step_4\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/gboma_dessi_and_akoume_togolese_spinach_stew_with_corn_swallow_step_4"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:herbs_and_spices\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/herbs_and_spices"
+      }
+    ]
+  ],
+  "processingTime": 20,
+  "results": [
+    {
+      "item": "cookbook_of_babel:substance",
+      "nbt": {
+        "substance": "cookbook_of_babel:gboma_dessi_and_akoume_togolese_spinach_stew_with_corn_swallow_step_5"
+      }
+    }
+  ]
+}

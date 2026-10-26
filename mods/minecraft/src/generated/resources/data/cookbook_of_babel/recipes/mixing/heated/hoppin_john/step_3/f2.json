@@ -1,0 +1,56 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/hoppin_john_step_3"
+    }
+  ],
+  "heatRequirement": "heated",
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:hoppin_john_step_2\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/hoppin_john_step_2"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:black_eyed_peas\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/black_eyed_peas"
+      }
+    ],
+    {
+      "amount": 355,
+      "fluid": "minecraft:water",
+      "nbt": {}
+    },
+    {
+      "amount": 67,
+      "fluid": "cookbook_of_babel:bulk",
+      "nbt": {
+        "substance": "cookbook_of_babel:long_grain_rice"
+      }
+    }
+  ],
+  "processingTime": 400,
+  "results": [
+    {
+      "amount": 33,
+      "fluid": "cookbook_of_babel:bulk",
+      "nbt": "{substance:\"cookbook_of_babel:hoppin_john_step_3\"}"
+    }
+  ]
+}

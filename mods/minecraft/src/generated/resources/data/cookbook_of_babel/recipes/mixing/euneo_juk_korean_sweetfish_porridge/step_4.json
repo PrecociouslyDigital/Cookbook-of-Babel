@@ -1,0 +1,60 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/euneo_juk_korean_sweetfish_porridge_step_4"
+    }
+  ],
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:doenjang\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/doenjang"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:gochujang\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/gochujang"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:ginger\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/ginger"
+      }
+    ],
+    {
+      "amount": 74,
+      "fluid": "cookbook_of_babel:liquid",
+      "nbt": {
+        "substance": "cookbook_of_babel:euneo_juk_korean_sweetfish_porridge_step_3"
+      }
+    }
+  ],
+  "processingTime": 20,
+  "results": [
+    {
+      "amount": 74,
+      "fluid": "cookbook_of_babel:liquid",
+      "nbt": "{substance:\"cookbook_of_babel:euneo_juk_korean_sweetfish_porridge_step_4\"}"
+    }
+  ]
+}

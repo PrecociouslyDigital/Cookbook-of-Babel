@@ -1,0 +1,40 @@
+{
+  "type": "create:deploying",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/strawberry_fromage_frais"
+    }
+  ],
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:strawberry_fromage_frais_step_5\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/strawberry_fromage_frais_step_5"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:berry\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/berry"
+      }
+    ]
+  ],
+  "results": [
+    {
+      "item": "cookbook_of_babel:strawberry_fromage_frais"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "type": "create:deploying",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/zilzil_tibs_spicy_ethiopian_beef_strips"
+    }
+  ],
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:zilzil_tibs_spicy_ethiopian_beef_strips_step_6\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/zilzil_tibs_spicy_ethiopian_beef_strips_step_6"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:cilantro\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/cilantro"
+      }
+    ]
+  ],
+  "results": [
+    {
+      "item": "cookbook_of_babel:zilzil_tibs_spicy_ethiopian_beef_strips"
+    }
+  ]
+}

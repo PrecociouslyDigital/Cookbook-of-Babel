@@ -1,0 +1,47 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/bagel_toast_step_6"
+    }
+  ],
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:bagel_toast_step_5\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/bagel_toast_step_5"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:ketchup\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/ketchup"
+      }
+    ],
+    {
+      "tag": "cookbook_of_babel:ingredients/thousand_island_dressing"
+    }
+  ],
+  "processingTime": 20,
+  "results": [
+    {
+      "item": "cookbook_of_babel:substance",
+      "nbt": {
+        "substance": "cookbook_of_babel:bagel_toast_step_6"
+      }
+    }
+  ]
+}

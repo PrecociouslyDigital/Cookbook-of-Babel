@@ -1,0 +1,67 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/taco_salad_step_8"
+    }
+  ],
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:taco_salad_step_7\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/taco_salad_step_7"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:taco_salad_step_7\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/taco_salad_step_7"
+      }
+    ],
+    {
+      "tag": "cookbook_of_babel:ingredients/thousand_island_dressing"
+    },
+    {
+      "tag": "cookbook_of_babel:ingredients/thousand_island_dressing"
+    },
+    {
+      "tag": "cookbook_of_babel:ingredients/thousand_island_dressing"
+    },
+    {
+      "tag": "cookbook_of_babel:ingredients/thousand_island_dressing"
+    },
+    {
+      "tag": "cookbook_of_babel:ingredients/thousand_island_dressing"
+    },
+    {
+      "amount": 118,
+      "fluid": "cookbook_of_babel:liquid",
+      "nbt": {
+        "substance": "cookbook_of_babel:picante_sauce"
+      }
+    }
+  ],
+  "processingTime": 20,
+  "results": [
+    {
+      "count": 2,
+      "item": "cookbook_of_babel:substance",
+      "nbt": {
+        "substance": "cookbook_of_babel:taco_salad_step_8"
+      }
+    }
+  ]
+}

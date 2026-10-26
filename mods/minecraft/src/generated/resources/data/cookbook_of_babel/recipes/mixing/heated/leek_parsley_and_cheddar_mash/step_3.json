@@ -1,0 +1,82 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/leek_parsley_and_cheddar_mash_step_3"
+    }
+  ],
+  "heatRequirement": "heated",
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:potato_boil\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/potato_boil"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:potato_boil\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/potato_boil"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:potato_boil\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/potato_boil"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:potato_boil\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/potato_boil"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:leek\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/leek"
+      }
+    ],
+    {
+      "amount": 20,
+      "fluid": "cookbook_of_babel:liquid",
+      "nbt": {
+        "substance": "cookbook_of_babel:olive_oil"
+      }
+    }
+  ],
+  "processingTime": 200,
+  "results": [
+    {
+      "item": "cookbook_of_babel:substance",
+      "nbt": {
+        "substance": "cookbook_of_babel:leek_parsley_and_cheddar_mash_step_3"
+      }
+    }
+  ]
+}

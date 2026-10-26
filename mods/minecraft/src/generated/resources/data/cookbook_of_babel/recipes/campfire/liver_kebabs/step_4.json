@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "category": "food",
+  "conditions": [
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/liver_kebabs"
+    }
+  ],
+  "cookingtime": 200,
+  "experience": 0.1,
+  "ingredient": [
+    {
+      "type": "forge:partial_nbt",
+      "item": "cookbook_of_babel:substance",
+      "nbt": "{substance:\"cookbook_of_babel:liver_kebabs_step_3\"}"
+    },
+    {
+      "tag": "cookbook_of_babel:ingredients/liver_kebabs_step_3"
+    }
+  ],
+  "result": {
+    "item": "cookbook_of_babel:liver_kebabs"
+  }
+}

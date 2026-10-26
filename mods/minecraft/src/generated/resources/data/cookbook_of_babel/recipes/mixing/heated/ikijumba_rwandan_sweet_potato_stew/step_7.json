@@ -1,0 +1,55 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/ikijumba_rwandan_sweet_potato_stew_step_7"
+    }
+  ],
+  "heatRequirement": "heated",
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:ikijumba_rwandan_sweet_potato_stew_step_6\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/ikijumba_rwandan_sweet_potato_stew_step_6"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:tomato\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/tomato"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:tomato\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/tomato"
+      }
+    ]
+  ],
+  "processingTime": 100,
+  "results": [
+    {
+      "item": "cookbook_of_babel:substance",
+      "nbt": {
+        "substance": "cookbook_of_babel:ikijumba_rwandan_sweet_potato_stew_step_7"
+      }
+    }
+  ]
+}

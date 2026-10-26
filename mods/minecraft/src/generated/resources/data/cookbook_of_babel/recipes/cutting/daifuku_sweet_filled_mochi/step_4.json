@@ -1,0 +1,35 @@
+{
+  "type": "create:cutting",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/daifuku_sweet_filled_mochi_step_4"
+    }
+  ],
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:daifuku_sweet_filled_mochi_step_3\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/daifuku_sweet_filled_mochi_step_3"
+      }
+    ]
+  ],
+  "processingTime": 50,
+  "results": [
+    {
+      "count": 8,
+      "item": "cookbook_of_babel:substance",
+      "nbt": {
+        "substance": "cookbook_of_babel:daifuku_sweet_filled_mochi_step_4"
+      }
+    }
+  ]
+}

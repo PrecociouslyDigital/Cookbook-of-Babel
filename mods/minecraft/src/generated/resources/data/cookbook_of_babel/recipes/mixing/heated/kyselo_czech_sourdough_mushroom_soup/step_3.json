@@ -1,0 +1,51 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/kyselo_czech_sourdough_mushroom_soup_step_3"
+    }
+  ],
+  "heatRequirement": "heated",
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:porcini_mushroom\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/porcini_mushroom"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:caraway\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/caraway"
+      }
+    ],
+    {
+      "amount": 42,
+      "fluid": "cookbook_of_babel:liquid",
+      "nbt": {
+        "substance": "cookbook_of_babel:kyselo_czech_sourdough_mushroom_soup_step_2"
+      }
+    }
+  ],
+  "processingTime": 300,
+  "results": [
+    {
+      "amount": 43,
+      "fluid": "cookbook_of_babel:liquid",
+      "nbt": "{substance:\"cookbook_of_babel:kyselo_czech_sourdough_mushroom_soup_step_3\"}"
+    }
+  ]
+}

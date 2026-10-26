@@ -1,0 +1,54 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/potato_salad_step_7"
+    }
+  ],
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:potato_salad_step_6\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/potato_salad_step_6"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:hard_cooked_eggs\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/hard_cooked_eggs"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:hard_cooked_eggs\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/hard_cooked_eggs"
+      }
+    ]
+  ],
+  "processingTime": 20,
+  "results": [
+    {
+      "item": "cookbook_of_babel:substance",
+      "nbt": {
+        "substance": "cookbook_of_babel:potato_salad_step_7"
+      }
+    }
+  ]
+}

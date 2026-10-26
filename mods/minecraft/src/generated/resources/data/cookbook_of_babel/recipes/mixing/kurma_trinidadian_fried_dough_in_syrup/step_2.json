@@ -1,0 +1,77 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/kurma_trinidadian_fried_dough_in_syrup_step_2"
+    }
+  ],
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:portion",
+        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:bulk\",Tag:{substance:\"cookbook_of_babel:kurma_trinidadian_fried_dough_in_syrup_step_1\"}}}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/kurma_trinidadian_fried_dough_in_syrup_step_1"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:portion",
+        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:bulk\",Tag:{substance:\"cookbook_of_babel:kurma_trinidadian_fried_dough_in_syrup_step_1\"}}}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/kurma_trinidadian_fried_dough_in_syrup_step_1"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:coconut\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/coconut"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:portion",
+        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:liquid\",Tag:{substance:\"cookbook_of_babel:angostura_bitters\"}}}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/angostura_bitters"
+      }
+    ],
+    {
+      "amount": 500,
+      "fluid": "cookbook_of_babel:liquid",
+      "nbt": {
+        "substance": "cookbook_of_babel:condensed_milk"
+      }
+    },
+    {
+      "amount": 333,
+      "fluid": "cookbook_of_babel:liquid",
+      "nbt": {
+        "substance": "cookbook_of_babel:condensed_milk"
+      }
+    }
+  ],
+  "processingTime": 20,
+  "results": [
+    {
+      "amount": 500,
+      "fluid": "cookbook_of_babel:liquid",
+      "nbt": "{substance:\"cookbook_of_babel:kurma_trinidadian_fried_dough_in_syrup_step_2\"}"
+    }
+  ]
+}

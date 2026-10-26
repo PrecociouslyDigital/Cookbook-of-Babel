@@ -1,0 +1,64 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/potato_and_cabbage_soup_step_5"
+    }
+  ],
+  "heatRequirement": "heated",
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:potato_and_cabbage_soup_step_4\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/potato_and_cabbage_soup_step_4"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:cabbage\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/cabbage"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:cabbage\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/cabbage"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:cabbage\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/cabbage"
+      }
+    ]
+  ],
+  "processingTime": 20,
+  "results": [
+    {
+      "amount": 100,
+      "fluid": "cookbook_of_babel:liquid",
+      "nbt": "{substance:\"cookbook_of_babel:potato_and_cabbage_soup_step_5\"}"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "type": "create:deploying",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/firire_senegalese_fried_fish_with_sauce"
+    }
+  ],
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:firire_senegalese_fried_fish_with_sauce_step_8\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/firire_senegalese_fried_fish_with_sauce_step_8"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:tomato\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/tomato"
+      }
+    ]
+  ],
+  "results": [
+    {
+      "item": "cookbook_of_babel:firire_senegalese_fried_fish_with_sauce"
+    }
+  ]
+}

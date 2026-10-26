@@ -1,0 +1,39 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/arancini_italian_fried_rice_balls"
+    }
+  ],
+  "heatRequirement": "heated",
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:arancini_italian_fried_rice_balls_step_10\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/arancini_italian_fried_rice_balls_step_10"
+      }
+    ],
+    {
+      "amount": 473,
+      "fluid": "cookbook_of_babel:liquid",
+      "nbt": {
+        "substance": "cookbook_of_babel:marinara_sauce"
+      }
+    }
+  ],
+  "processingTime": 20,
+  "results": [
+    {
+      "item": "cookbook_of_babel:arancini_italian_fried_rice_balls"
+    }
+  ]
+}

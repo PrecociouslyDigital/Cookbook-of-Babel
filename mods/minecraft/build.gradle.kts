@@ -48,17 +48,20 @@ val exportDataset by tasks.registering(Exec::class) {
 }
 
 val generateDatasetSources by tasks.registering(cookbookofbabel.gradle.GenerateDatasetSources::class) {
-    description = "Generates the Java enums that mirror the dataset's forms and named dishes."
+    description = "Generates the dataset's forms as a Java enum and its named dishes as a resource."
     export = layout.file(exportDataset.map { datasetExport.get().asFile })
     output = layout.projectDirectory.dir("src/generated/java")
+    resources = layout.projectDirectory.dir("src/generated/dataset")
 }
 
 tasks.compileJava { mustRunAfter(generateDatasetSources) }
+tasks.processResources { mustRunAfter(generateDatasetSources) }
 
 sourceSets.main {
     java.srcDir("src/generated/java")
     resources {
         srcDir("src/generated/resources")
+        srcDir("src/generated/dataset")
         exclude(".cache/")
     }
 }

@@ -1,0 +1,41 @@
+{
+  "type": "create:deploying",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/ibirayi_n_ibinyomoro_rwandan_bean_soup_with_smoked_beef"
+    }
+  ],
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:portion",
+        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:liquid\",Tag:{substance:\"cookbook_of_babel:ibirayi_n_ibinyomoro_rwandan_bean_soup_with_smoked_beef_step_8\"}}}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/ibirayi_n_ibinyomoro_rwandan_bean_soup_with_smoked_beef_step_8"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:parsley\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/parsley"
+      }
+    ]
+  ],
+  "results": [
+    {
+      "count": 3,
+      "item": "cookbook_of_babel:ibirayi_n_ibinyomoro_rwandan_bean_soup_with_smoked_beef"
+    }
+  ]
+}

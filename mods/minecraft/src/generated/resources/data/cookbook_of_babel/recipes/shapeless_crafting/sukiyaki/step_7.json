@@ -1,0 +1,45 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "conditions": [
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/sukiyaki"
+    }
+  ],
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:sukiyaki_step_6\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/sukiyaki_step_6"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:tofu\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/tofu"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:noodle\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/noodle"
+      }
+    ]
+  ],
+  "result": {
+    "item": "cookbook_of_babel:sukiyaki"
+  }
+}

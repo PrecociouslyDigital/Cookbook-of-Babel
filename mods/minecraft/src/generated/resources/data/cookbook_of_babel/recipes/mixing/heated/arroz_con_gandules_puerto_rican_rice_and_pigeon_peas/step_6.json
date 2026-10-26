@@ -1,0 +1,39 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/arroz_con_gandules_puerto_rican_rice_and_pigeon_peas_step_6"
+    }
+  ],
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+      "amount": 100,
+      "fluid": "cookbook_of_babel:bulk",
+      "nbt": {
+        "substance": "cookbook_of_babel:arroz_con_gandules_puerto_rican_rice_and_pigeon_peas_step_5"
+      }
+    },
+    {
+      "amount": 369,
+      "fluid": "cookbook_of_babel:bulk",
+      "nbt": {
+        "substance": "cookbook_of_babel:pigeon_pea"
+      }
+    }
+  ],
+  "processingTime": 200,
+  "results": [
+    {
+      "item": "cookbook_of_babel:substance",
+      "nbt": {
+        "substance": "cookbook_of_babel:arroz_con_gandules_puerto_rican_rice_and_pigeon_peas_step_6"
+      }
+    }
+  ]
+}

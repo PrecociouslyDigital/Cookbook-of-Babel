@@ -1,0 +1,49 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/zelenchukova_supa_bulgarian_vegetable_soup"
+    }
+  ],
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:parsley\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/parsley"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:kashkaval\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/kashkaval"
+      }
+    ],
+    {
+      "amount": 400,
+      "fluid": "cookbook_of_babel:liquid",
+      "nbt": {
+        "substance": "cookbook_of_babel:zelenchukova_supa_bulgarian_vegetable_soup_step_6"
+      }
+    }
+  ],
+  "processingTime": 20,
+  "results": [
+    {
+      "count": 4,
+      "item": "cookbook_of_babel:zelenchukova_supa_bulgarian_vegetable_soup"
+    }
+  ]
+}

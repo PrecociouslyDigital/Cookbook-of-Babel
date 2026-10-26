@@ -1,0 +1,30 @@
+{
+  "type": "farmersdelight:cooking",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "farmersdelight"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/cold_potatoes_fried"
+    }
+  ],
+  "cookingtime": 100,
+  "experience": 0.1,
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:cold_potatoes_fried_step_2\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/cold_potatoes_fried_step_2"
+      }
+    ]
+  ],
+  "result": {
+    "item": "cookbook_of_babel:cold_potatoes_fried"
+  }
+}

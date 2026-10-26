@@ -1,0 +1,83 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/chicken_bacon_broccoli_alfredo_spaghetti_step_3"
+    }
+  ],
+  "heatRequirement": "heated",
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:spaghetti_boil\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/spaghetti_boil"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:spaghetti_boil\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/spaghetti_boil"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:spaghetti_boil\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/spaghetti_boil"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:chicken\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/chicken"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:chicken\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/chicken"
+      }
+    ],
+    {
+      "amount": 10,
+      "fluid": "cookbook_of_babel:liquid",
+      "nbt": {
+        "substance": "cookbook_of_babel:oil_and_fat"
+      }
+    }
+  ],
+  "processingTime": 80,
+  "results": [
+    {
+      "count": 9,
+      "item": "cookbook_of_babel:substance",
+      "nbt": {
+        "substance": "cookbook_of_babel:chicken_bacon_broccoli_alfredo_spaghetti_step_3"
+      }
+    }
+  ]
+}

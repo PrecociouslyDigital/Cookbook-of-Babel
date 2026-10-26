@@ -1,0 +1,40 @@
+{
+  "type": "create:deploying",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/pork_burritos_with_green_pepper_sauce"
+    }
+  ],
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:pork_burritos_with_green_pepper_sauce_step_14\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/pork_burritos_with_green_pepper_sauce_step_14"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:monterey_jack_cheese\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/monterey_jack_cheese"
+      }
+    ]
+  ],
+  "results": [
+    {
+      "item": "cookbook_of_babel:pork_burritos_with_green_pepper_sauce"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/nyama_yemombe_zimbabwean_beef_stew_step_7"
+    }
+  ],
+  "heatRequirement": "heated",
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:nyama_yemombe_zimbabwean_beef_stew_step_6\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/nyama_yemombe_zimbabwean_beef_stew_step_6"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:green_pepper\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/green_pepper"
+      }
+    ]
+  ],
+  "processingTime": 100,
+  "results": [
+    {
+      "item": "cookbook_of_babel:substance",
+      "nbt": {
+        "substance": "cookbook_of_babel:nyama_yemombe_zimbabwean_beef_stew_step_7"
+      }
+    }
+  ]
+}

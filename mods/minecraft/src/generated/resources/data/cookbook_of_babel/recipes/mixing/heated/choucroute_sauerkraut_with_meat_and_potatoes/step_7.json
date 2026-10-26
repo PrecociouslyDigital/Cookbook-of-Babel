@@ -1,0 +1,32 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/choucroute_sauerkraut_with_meat_and_potatoes"
+    }
+  ],
+  "heatRequirement": "heated",
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:choucroute_sauerkraut_with_meat_and_potatoes_step_6\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/choucroute_sauerkraut_with_meat_and_potatoes_step_6"
+      }
+    ]
+  ],
+  "processingTime": 20,
+  "results": [
+    {
+      "item": "cookbook_of_babel:choucroute_sauerkraut_with_meat_and_potatoes"
+    }
+  ]
+}

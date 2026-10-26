@@ -1,0 +1,64 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/genfo_ethiopian_porridge"
+    }
+  ],
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:genfo_ethiopian_porridge_step_5\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/genfo_ethiopian_porridge_step_5"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:genfo_ethiopian_porridge_step_5\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/genfo_ethiopian_porridge_step_5"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:portion",
+        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:liquid\",Tag:{substance:\"cookbook_of_babel:honey\"}}}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/honey"
+      }
+    ],
+    {
+      "tag": "cookbook_of_babel:ingredients/berbere"
+    },
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:nigella\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/nigella"
+      }
+    ]
+  ],
+  "processingTime": 20,
+  "results": [
+    {
+      "item": "cookbook_of_babel:genfo_ethiopian_porridge"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "type": "farmersdelight:cooking",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "farmersdelight"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/parson_s_sauce_hartshorne"
+    }
+  ],
+  "cookingtime": 250,
+  "experience": 0.1,
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:parson_s_sauce_hartshorne_step_1\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/parson_s_sauce_hartshorne_step_1"
+      }
+    ]
+  ],
+  "result": {
+    "item": "cookbook_of_babel:parson_s_sauce_hartshorne"
+  }
+}

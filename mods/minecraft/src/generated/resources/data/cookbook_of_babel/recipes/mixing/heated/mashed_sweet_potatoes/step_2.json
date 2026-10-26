@@ -1,0 +1,35 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/sweet_potato_boil_simmer"
+    }
+  ],
+  "heatRequirement": "heated",
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:sweet_potato_boil\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/sweet_potato_boil"
+      }
+    ]
+  ],
+  "processingTime": 350,
+  "results": [
+    {
+      "item": "cookbook_of_babel:substance",
+      "nbt": {
+        "substance": "cookbook_of_babel:sweet_potato_boil_simmer"
+      }
+    }
+  ]
+}

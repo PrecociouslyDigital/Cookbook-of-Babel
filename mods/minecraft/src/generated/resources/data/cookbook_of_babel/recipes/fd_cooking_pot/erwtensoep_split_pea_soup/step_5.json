@@ -1,0 +1,52 @@
+{
+  "type": "farmersdelight:cooking",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "farmersdelight"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/erwtensoep_split_pea_soup_step_5"
+    }
+  ],
+  "cookingtime": 300,
+  "experience": 0.1,
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:portion",
+        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:liquid\",Tag:{substance:\"cookbook_of_babel:erwtensoep_split_pea_soup_step_4\"}}}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/erwtensoep_split_pea_soup_step_4"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:portion",
+        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:liquid\",Tag:{substance:\"cookbook_of_babel:erwtensoep_split_pea_soup_step_4\"}}}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/erwtensoep_split_pea_soup_step_4"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:sausage\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/sausage"
+      }
+    ]
+  ],
+  "result": {
+    "count": 2,
+    "item": "cookbook_of_babel:portion",
+    "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:liquid\",Tag:{substance:\"cookbook_of_babel:erwtensoep_split_pea_soup_step_5\"}}}"
+  }
+}

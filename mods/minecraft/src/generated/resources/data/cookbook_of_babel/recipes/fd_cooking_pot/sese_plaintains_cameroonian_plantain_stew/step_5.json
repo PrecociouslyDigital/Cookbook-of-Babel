@@ -1,0 +1,40 @@
+{
+  "type": "farmersdelight:cooking",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "farmersdelight"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/sese_plaintains_cameroonian_plantain_stew"
+    }
+  ],
+  "cookingtime": 160,
+  "experience": 0.1,
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:sese_plaintains_cameroonian_plantain_stew_step_4\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/sese_plaintains_cameroonian_plantain_stew_step_4"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:kale\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/kale"
+      }
+    ]
+  ],
+  "result": {
+    "item": "cookbook_of_babel:sese_plaintains_cameroonian_plantain_stew"
+  }
+}

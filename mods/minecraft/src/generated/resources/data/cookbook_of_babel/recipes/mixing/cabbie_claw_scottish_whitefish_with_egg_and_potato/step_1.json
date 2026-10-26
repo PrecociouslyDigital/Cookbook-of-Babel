@@ -1,0 +1,42 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/cabbie_claw_scottish_whitefish_with_egg_and_potato_step_1"
+    }
+  ],
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:cod\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/cod"
+      }
+    ],
+    {
+      "amount": 5,
+      "fluid": "cookbook_of_babel:bulk",
+      "nbt": {
+        "substance": "cookbook_of_babel:salt"
+      }
+    }
+  ],
+  "processingTime": 400,
+  "results": [
+    {
+      "count": 3,
+      "item": "cookbook_of_babel:substance",
+      "nbt": {
+        "substance": "cookbook_of_babel:cabbie_claw_scottish_whitefish_with_egg_and_potato_step_1"
+      }
+    }
+  ]
+}

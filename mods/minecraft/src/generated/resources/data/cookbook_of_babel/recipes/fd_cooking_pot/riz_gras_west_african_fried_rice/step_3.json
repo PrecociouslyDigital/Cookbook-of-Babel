@@ -1,0 +1,31 @@
+{
+  "type": "farmersdelight:cooking",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "farmersdelight"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/rice_rinse_mix_simmer"
+    }
+  ],
+  "cookingtime": 350,
+  "experience": 0.1,
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:portion",
+        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:bulk\",Tag:{substance:\"cookbook_of_babel:rice_rinse_mix\"}}}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/rice_rinse_mix"
+      }
+    ]
+  ],
+  "result": {
+    "item": "cookbook_of_babel:portion",
+    "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:bulk\",Tag:{substance:\"cookbook_of_babel:rice_rinse_mix_simmer\"}}}"
+  }
+}

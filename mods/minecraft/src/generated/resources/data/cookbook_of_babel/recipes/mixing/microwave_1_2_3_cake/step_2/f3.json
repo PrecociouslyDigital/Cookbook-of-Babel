@@ -1,0 +1,58 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/microwave_1_2_3_cake_step_2"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:portion",
+        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:liquid\",Tag:{substance:\"cookbook_of_babel:egg_whisk\"}}}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/egg_whisk"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:portion",
+        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:liquid\",Tag:{substance:\"cookbook_of_babel:egg_whisk\"}}}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/egg_whisk"
+      }
+    ],
+    {
+      "amount": 74,
+      "fluid": "cookbook_of_babel:liquid",
+      "nbt": {
+        "substance": "cookbook_of_babel:honey"
+      }
+    },
+    {
+      "amount": 148,
+      "fluidTag": "forge:milk"
+    }
+  ],
+  "processingTime": 20,
+  "results": [
+    {
+      "amount": 500,
+      "fluid": "cookbook_of_babel:liquid",
+      "nbt": "{substance:\"cookbook_of_babel:microwave_1_2_3_cake_step_2\"}"
+    }
+  ]
+}

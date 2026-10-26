@@ -1,0 +1,45 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "conditions": [
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/philly_cheesesteak"
+    }
+  ],
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:philly_cheesesteak_step_2\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/philly_cheesesteak_step_2"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:hoagie_rolls\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/hoagie_rolls"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:processed_cheese\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/processed_cheese"
+      }
+    ]
+  ],
+  "result": {
+    "item": "cookbook_of_babel:philly_cheesesteak"
+  }
+}

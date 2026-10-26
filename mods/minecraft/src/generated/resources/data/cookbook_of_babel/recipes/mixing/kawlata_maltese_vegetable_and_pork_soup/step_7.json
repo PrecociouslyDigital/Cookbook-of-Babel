@@ -1,0 +1,55 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/kawlata_maltese_vegetable_and_pork_soup_step_7"
+    }
+  ],
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:kawlata_maltese_vegetable_and_pork_soup_step_6\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/kawlata_maltese_vegetable_and_pork_soup_step_6"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:kawlata_maltese_vegetable_and_pork_soup_step_6\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/kawlata_maltese_vegetable_and_pork_soup_step_6"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:tomato_paste\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/tomato_paste"
+      }
+    ]
+  ],
+  "processingTime": 20,
+  "results": [
+    {
+      "count": 2,
+      "item": "cookbook_of_babel:substance",
+      "nbt": {
+        "substance": "cookbook_of_babel:kawlata_maltese_vegetable_and_pork_soup_step_7"
+      }
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "conditions": [
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/mchemsho_tanzanian_cuisine"
+    }
+  ],
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:mchemsho_tanzanian_cuisine_step_15\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/mchemsho_tanzanian_cuisine_step_15"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:portion",
+        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:bulk\",Tag:{substance:\"cookbook_of_babel:coriander\"}}}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/coriander"
+      }
+    ]
+  ],
+  "result": {
+    "item": "cookbook_of_babel:mchemsho_tanzanian_cuisine"
+  }
+}

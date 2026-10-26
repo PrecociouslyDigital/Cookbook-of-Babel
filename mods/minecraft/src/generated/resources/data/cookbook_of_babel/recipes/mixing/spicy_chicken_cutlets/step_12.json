@@ -1,0 +1,63 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/spicy_chicken_cutlets_step_12"
+    }
+  ],
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:portion",
+        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:liquid\",Tag:{substance:\"cookbook_of_babel:spicy_chicken_cutlets_step_11\"}}}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/spicy_chicken_cutlets_step_11"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:portion",
+        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:liquid\",Tag:{substance:\"cookbook_of_babel:spicy_chicken_cutlets_step_11\"}}}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/spicy_chicken_cutlets_step_11"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:lime\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/lime"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:jalapeno\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/jalapeno"
+      }
+    ]
+  ],
+  "processingTime": 20,
+  "results": [
+    {
+      "amount": 500,
+      "fluid": "cookbook_of_babel:liquid",
+      "nbt": "{substance:\"cookbook_of_babel:spicy_chicken_cutlets_step_12\"}"
+    }
+  ]
+}

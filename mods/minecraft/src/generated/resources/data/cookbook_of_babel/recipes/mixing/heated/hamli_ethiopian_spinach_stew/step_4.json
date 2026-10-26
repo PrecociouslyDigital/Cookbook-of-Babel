@@ -1,0 +1,35 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/hamli_ethiopian_spinach_stew_step_4"
+    }
+  ],
+  "heatRequirement": "heated",
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:hamli_ethiopian_spinach_stew_step_3\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/hamli_ethiopian_spinach_stew_step_3"
+      }
+    ]
+  ],
+  "processingTime": 250,
+  "results": [
+    {
+      "item": "cookbook_of_babel:substance",
+      "nbt": {
+        "substance": "cookbook_of_babel:hamli_ethiopian_spinach_stew_step_4"
+      }
+    }
+  ]
+}

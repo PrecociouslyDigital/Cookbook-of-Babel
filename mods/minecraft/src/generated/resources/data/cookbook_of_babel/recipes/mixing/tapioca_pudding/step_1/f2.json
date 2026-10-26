@@ -1,0 +1,39 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/tapioca_pudding_step_1"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "ingredients": [
+    {
+      "amount": 15,
+      "fluid": "cookbook_of_babel:bulk",
+      "nbt": {
+        "substance": "cookbook_of_babel:tapioca_pearls"
+      }
+    },
+    {
+      "amount": 22,
+      "fluid": "minecraft:milk",
+      "nbt": {}
+    }
+  ],
+  "processingTime": 400,
+  "results": [
+    {
+      "amount": 38,
+      "fluid": "cookbook_of_babel:liquid",
+      "nbt": "{substance:\"cookbook_of_babel:tapioca_pudding_step_1\"}"
+    }
+  ]
+}

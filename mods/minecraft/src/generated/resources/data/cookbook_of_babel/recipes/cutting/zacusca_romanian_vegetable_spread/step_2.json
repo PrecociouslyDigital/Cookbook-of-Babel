@@ -1,0 +1,35 @@
+{
+  "type": "create:cutting",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/zacusca_romanian_vegetable_spread_step_2"
+    }
+  ],
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:zacusca_romanian_vegetable_spread_step_1\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/zacusca_romanian_vegetable_spread_step_1"
+      }
+    ]
+  ],
+  "processingTime": 50,
+  "results": [
+    {
+      "count": 6,
+      "item": "cookbook_of_babel:substance",
+      "nbt": {
+        "substance": "cookbook_of_babel:zacusca_romanian_vegetable_spread_step_2"
+      }
+    }
+  ]
+}

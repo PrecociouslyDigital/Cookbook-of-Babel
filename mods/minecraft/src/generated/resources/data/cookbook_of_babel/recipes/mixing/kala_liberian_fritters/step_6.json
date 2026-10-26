@@ -1,0 +1,55 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/kala_liberian_fritters_step_6"
+    }
+  ],
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:kala_liberian_fritters_step_5\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/kala_liberian_fritters_step_5"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:kala_liberian_fritters_step_5\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/kala_liberian_fritters_step_5"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:kala_liberian_fritters_step_5\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/kala_liberian_fritters_step_5"
+      }
+    ]
+  ],
+  "processingTime": 20,
+  "results": [
+    {
+      "count": 3,
+      "item": "cookbook_of_babel:substance",
+      "nbt": {
+        "substance": "cookbook_of_babel:kala_liberian_fritters_step_6"
+      }
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/menemen_eggs_with_onion_green_pepper_and_tomato_step_3"
+    }
+  ],
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:menemen_eggs_with_onion_green_pepper_and_tomato_step_2\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/menemen_eggs_with_onion_green_pepper_and_tomato_step_2"
+      }
+    ],
+    {
+      "amount": 7,
+      "fluid": "cookbook_of_babel:bulk",
+      "nbt": {
+        "substance": "cookbook_of_babel:oregano"
+      }
+    },
+    {
+      "amount": 7,
+      "fluid": "cookbook_of_babel:bulk",
+      "nbt": {
+        "substance": "cookbook_of_babel:paprika"
+      }
+    }
+  ],
+  "processingTime": 20,
+  "results": [
+    {
+      "item": "cookbook_of_babel:substance",
+      "nbt": {
+        "substance": "cookbook_of_babel:menemen_eggs_with_onion_green_pepper_and_tomato_step_3"
+      }
+    }
+  ]
+}

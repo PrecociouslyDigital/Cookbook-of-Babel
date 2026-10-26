@@ -1,0 +1,62 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/tuscan_bean_soup_step_1"
+    }
+  ],
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:cranberry\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/cranberry"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:cranberry\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/cranberry"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:cranberry\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/cranberry"
+      }
+    ],
+    {
+      "amount": 158,
+      "fluid": "cookbook_of_babel:bulk",
+      "nbt": {
+        "substance": "cookbook_of_babel:spelt"
+      }
+    }
+  ],
+  "processingTime": 400,
+  "results": [
+    {
+      "count": 4,
+      "item": "cookbook_of_babel:substance",
+      "nbt": {
+        "substance": "cookbook_of_babel:tuscan_bean_soup_step_1"
+      }
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/bacon_wrapped_scallops_step_5"
+    }
+  ],
+  "heatRequirement": "heated",
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:bacon_wrapped_scallops_step_4\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/bacon_wrapped_scallops_step_4"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:bacon_wrapped_scallops_step_4\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/bacon_wrapped_scallops_step_4"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:bacon_wrapped_scallops_step_4\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/bacon_wrapped_scallops_step_4"
+      }
+    ]
+  ],
+  "processingTime": 80,
+  "results": [
+    {
+      "count": 3,
+      "item": "cookbook_of_babel:substance",
+      "nbt": {
+        "substance": "cookbook_of_babel:bacon_wrapped_scallops_step_5"
+      }
+    }
+  ]
+}

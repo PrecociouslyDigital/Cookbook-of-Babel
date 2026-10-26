@@ -1,0 +1,51 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/hyderabadi_haleem_ground_meat_and_wheat"
+    }
+  ],
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:hyderabadi_haleem_ground_meat_and_wheat_step_5\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/hyderabadi_haleem_ground_meat_and_wheat_step_5"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:lime\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/lime"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:lime\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/lime"
+      }
+    ]
+  ],
+  "processingTime": 20,
+  "results": [
+    {
+      "item": "cookbook_of_babel:hyderabadi_haleem_ground_meat_and_wheat"
+    }
+  ]
+}

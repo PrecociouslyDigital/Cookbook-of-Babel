@@ -1,0 +1,43 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/paella_de_marisco"
+    }
+  ],
+  "heatRequirement": "heated",
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:portion",
+        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:liquid\",Tag:{substance:\"cookbook_of_babel:paella_de_marisco_step_16\"}}}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/paella_de_marisco_step_16"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:portion",
+        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:liquid\",Tag:{substance:\"cookbook_of_babel:paella_de_marisco_step_16\"}}}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/paella_de_marisco_step_16"
+      }
+    ]
+  ],
+  "processingTime": 400,
+  "results": [
+    {
+      "count": 5,
+      "item": "cookbook_of_babel:paella_de_marisco"
+    }
+  ]
+}

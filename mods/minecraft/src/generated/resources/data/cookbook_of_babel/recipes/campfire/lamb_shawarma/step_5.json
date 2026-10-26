@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "category": "food",
+  "conditions": [
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/lamb_shawarma"
+    }
+  ],
+  "cookingtime": 200,
+  "experience": 0.1,
+  "ingredient": [
+    {
+      "type": "forge:partial_nbt",
+      "item": "cookbook_of_babel:substance",
+      "nbt": "{substance:\"cookbook_of_babel:lamb_shawarma_step_4\"}"
+    },
+    {
+      "tag": "cookbook_of_babel:ingredients/lamb_shawarma_step_4"
+    }
+  ],
+  "result": {
+    "item": "cookbook_of_babel:lamb_shawarma"
+  }
+}

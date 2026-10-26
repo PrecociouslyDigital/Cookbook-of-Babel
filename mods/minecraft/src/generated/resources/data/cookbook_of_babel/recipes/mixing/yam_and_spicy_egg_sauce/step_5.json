@@ -1,0 +1,41 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/yam_and_spicy_egg_sauce_step_5"
+    }
+  ],
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:yam_and_spicy_egg_sauce_step_4\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/yam_and_spicy_egg_sauce_step_4"
+      }
+    ],
+    {
+      "amount": 4,
+      "fluid": "cookbook_of_babel:bulk",
+      "nbt": {
+        "substance": "cookbook_of_babel:seasoning"
+      }
+    }
+  ],
+  "processingTime": 20,
+  "results": [
+    {
+      "item": "cookbook_of_babel:substance",
+      "nbt": {
+        "substance": "cookbook_of_babel:yam_and_spicy_egg_sauce_step_5"
+      }
+    }
+  ]
+}

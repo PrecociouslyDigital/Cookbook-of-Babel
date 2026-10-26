@@ -1,0 +1,58 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/north_staffordshire_oatcakes_step_2"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:portion",
+        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:bulk\",Tag:{substance:\"cookbook_of_babel:yeast\"}}}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/yeast"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:portion",
+        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:bulk\",Tag:{substance:\"cookbook_of_babel:white_sugar\"}}}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/white_sugar"
+      }
+    ],
+    {
+      "amount": 14,
+      "fluid": "cookbook_of_babel:bulk",
+      "nbt": {
+        "substance": "cookbook_of_babel:north_staffordshire_oatcakes_step_1"
+      }
+    },
+    {
+      "amount": 27,
+      "fluidTag": "c:milk"
+    }
+  ],
+  "processingTime": 20,
+  "results": [
+    {
+      "amount": 42,
+      "fluid": "cookbook_of_babel:liquid",
+      "nbt": "{substance:\"cookbook_of_babel:north_staffordshire_oatcakes_step_2\"}"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/russian_style_waffle_cake_step_9"
+    }
+  ],
+  "heatRequirement": "heated",
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:russian_style_waffle_cake_step_7\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/russian_style_waffle_cake_step_7"
+      }
+    ]
+  ],
+  "processingTime": 400,
+  "results": [
+    {
+      "amount": 100,
+      "fluid": "cookbook_of_babel:liquid",
+      "nbt": "{substance:\"cookbook_of_babel:russian_style_waffle_cake_step_9\"}"
+    }
+  ]
+}

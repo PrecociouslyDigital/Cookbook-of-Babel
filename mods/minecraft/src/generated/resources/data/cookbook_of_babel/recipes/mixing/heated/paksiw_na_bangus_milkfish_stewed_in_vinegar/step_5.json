@@ -1,0 +1,32 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/paksiw_na_bangus_milkfish_stewed_in_vinegar"
+    }
+  ],
+  "heatRequirement": "heated",
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:paksiw_na_bangus_milkfish_stewed_in_vinegar_step_4\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/paksiw_na_bangus_milkfish_stewed_in_vinegar_step_4"
+      }
+    ]
+  ],
+  "processingTime": 180,
+  "results": [
+    {
+      "item": "cookbook_of_babel:paksiw_na_bangus_milkfish_stewed_in_vinegar"
+    }
+  ]
+}

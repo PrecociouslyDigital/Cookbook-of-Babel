@@ -15,7 +15,6 @@ import cookbookofbabel.minecraft.datagen.plan.Techniques;
 import java.io.IOException;
 import java.nio.file.Path;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 import java.util.Set;
 import java.util.stream.Collectors;
@@ -86,7 +85,7 @@ public final class DatagenContext {
                         .forEach(f -> problems.add(mapping.mod().id + " maps " + ingredient + " to a missing fluid " + f));
             });
         }
-        var dishes = Arrays.stream(NamedDish.values()).map(d -> d.id).collect(Collectors.toSet());
+        var dishes = NamedDish.values().stream().map(NamedDish::id).collect(Collectors.toSet());
         var named = export.ingredients().stream().filter(Ingredient::named).map(i -> i.id().value()).collect(Collectors.toSet());
         if (!dishes.equals(named)) {
             problems.add("NamedDish is out of date with the export; run generateDatasetSources");
