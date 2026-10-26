@@ -283,11 +283,13 @@ genSensitivity :: Gen Sensitivity
 genSensitivity = do
     lo <- Gen.double (Range.linearFrac 0 1)
     hi <- Gen.double (Range.linearFrac lo 1)
-    Sensitivity
-        <$> Gen.double (Range.linearFrac (-20) 60)
-        <*> Gen.double (Range.exponentialFloat 0.1 10)
+    ref <- Gen.double (Range.linearFrac (-20) 60)
+    Sensitivity ref
+        <$> Gen.double (Range.exponentialFloat 0.1 10)
         <*> Gen.maybe (pure lo)
         <*> Gen.maybe (pure hi)
+        <*> Gen.maybe (Gen.double (Range.linearFrac (ref - 60) ref))
+        <*> Gen.maybe (Gen.double (Range.linearFrac ref (ref + 60)))
 
 {- | Chains of fresh slugs ending at an existing ingredient, all at or
 before the dataset version.

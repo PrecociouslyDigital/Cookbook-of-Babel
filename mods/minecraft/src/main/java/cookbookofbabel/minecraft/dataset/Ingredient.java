@@ -12,6 +12,7 @@ public record Ingredient(
         List<IngredientId> parents,
         Form form,
         Optional<Double> densityGPerMl,
+        Optional<Double> waterActivity,
         boolean named) {
     private static final Codec<IngredientId> IS_A =
             RecordCodecBuilder.create(i -> i.group(IngredientId.CODEC.fieldOf("target").forGetter(t -> t)).apply(i, t -> t));
@@ -24,6 +25,7 @@ public record Ingredient(
                     IS_A.listOf().optionalFieldOf("parents", List.of()).forGetter(Ingredient::parents),
                     Form.CODEC.fieldOf("form").forGetter(Ingredient::form),
                     Codec.DOUBLE.optionalFieldOf("densityGPerMl").forGetter(Ingredient::densityGPerMl),
+                    Codec.DOUBLE.optionalFieldOf("waterActivity").forGetter(Ingredient::waterActivity),
                     Codec.BOOL.optionalFieldOf("named", false).forGetter(Ingredient::named))
             .apply(i, Ingredient::new));
 }

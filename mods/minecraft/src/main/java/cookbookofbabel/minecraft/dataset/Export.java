@@ -26,12 +26,7 @@ public record Export(
         Map<IngredientId, Nutrition> nutrition,
         List<Preparation> preparations,
         List<Unit> units,
-        double negligibleMassFraction) {
-    /** An input lighter than this share of a step's inputs is too small to matter. */
-    private static final Codec<Double> NEGLIGIBLE = RecordCodecBuilder.create(i -> i.group(
-                    Codec.DOUBLE.fieldOf("negligibleMassFraction").forGetter(d -> d))
-            .apply(i, d -> d));
-
+        Constants constants) {
     public static final Codec<Export> CODEC = RecordCodecBuilder.create(i -> i.group(
                     Codec.STRING.listOf().optionalFieldOf("licence", List.of()).forGetter(Export::licence),
                     Source.CODEC.listOf().optionalFieldOf("sources", List.of()).forGetter(Export::sources),
@@ -44,7 +39,7 @@ public record Export(
                             .forGetter(Export::nutrition),
                     Preparation.CODEC.listOf().optionalFieldOf("preparations", List.of()).forGetter(Export::preparations),
                     Unit.CODEC.listOf().optionalFieldOf("units", List.of()).forGetter(Export::units),
-                    NEGLIGIBLE.fieldOf("constants").forGetter(Export::negligibleMassFraction))
+                    Constants.CODEC.fieldOf("constants").forGetter(Export::constants))
             .apply(i, Export::new));
 
     public static Export read(Path path) throws IOException {

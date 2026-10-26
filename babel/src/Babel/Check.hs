@@ -212,6 +212,10 @@ recipeChecks w (Located{value = r, path = p}) =
               hi = fromMaybe 1 s.maxWaterActivity
         , not (0 <= lo && lo <= hi && hi <= 1)
         ]
+            -- The duration is measured at refTempC, so the step must happen there.
+            ++ [ err "temp-range" "sensitivity needs minTempC <= refTempC <= maxTempC"
+               | not (all (<= s.refTempC) s.minTempC && all (s.refTempC <=) s.maxTempC)
+               ]
             ++ [err "q10" "q10 must be positive" | s.q10 <= 0]
 
 measureChecks :: World -> Located Measure -> [Diagnostic]

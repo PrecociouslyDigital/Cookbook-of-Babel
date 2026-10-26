@@ -62,6 +62,6 @@ class ProposalsProperties {
     }
 
     private static Ingredient ingredient(String id, String label) {
-        return new Ingredient(new IngredientId(id), label, List.of(), List.of(), Form.PIECE, Optional.empty(), false);
+        return new Ingredient(new IngredientId(id), label, List.of(), List.of(), Form.PIECE, Optional.empty(), Optional.empty(), false);
     }
 }

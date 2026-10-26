@@ -43,10 +43,12 @@ spoilagePaths w ing = case w.constants of
 
 {- | How long a step of reference duration @d@ takes under these conditions,
 scaling by Q10 per 10 °C away from the reference temperature. 'Nothing'
-when the water activity is outside the step's bounds: it never happens.
+when the temperature or water activity is outside the step's bounds: it
+never happens.
 -}
 timeAt :: Conditions -> Sensitivity -> Double -> Maybe Double
 timeAt c s d
+    | any (c.tempC <) s.minTempC || any (c.tempC >) s.maxTempC = Nothing
     | Just aw <- c.waterActivity
     , aw < fromMaybe 0 s.minWaterActivity || aw > fromMaybe 1 s.maxWaterActivity =
         Nothing

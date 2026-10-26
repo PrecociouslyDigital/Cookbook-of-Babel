@@ -124,13 +124,15 @@ instance HasCodec Environment where codec = genericCodec
 
 {- | How a step's duration scales with conditions. The duration is measured
 at 'refTempC'; Q10 is the rate multiplier per 10 °C warmer. Outside the
-water-activity bounds the step does not happen at all.
+water-activity or temperature bounds the step does not happen at all.
 -}
 data Sensitivity = Sensitivity
     { refTempC :: Double
     , q10 :: Double
     , minWaterActivity :: Maybe Double
     , maxWaterActivity :: Maybe Double
+    , minTempC :: Maybe Double
+    , maxTempC :: Maybe Double
     }
     deriving stock (Eq, Generic, Show)
 

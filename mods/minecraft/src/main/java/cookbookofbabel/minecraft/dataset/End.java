@@ -9,7 +9,7 @@ import java.util.Optional;
 public sealed interface End {
     record ByCoreTemp(double coreTempC) implements End {}
 
-    record ByTime(Amount duration) implements End {}
+    record ByTime(Amount duration, Optional<Sensitivity> sensitivity) implements End {}
 
     record ByBoth(double coreTempC, Amount duration) implements End {}
 
@@ -25,7 +25,9 @@ public sealed interface End {
                     Codec.DOUBLE.fieldOf("coreTempC").forGetter(ByCoreTemp::coreTempC))
             .apply(i, ByCoreTemp::new));
 
-    Codec<ByTime> BY_TIME = RecordCodecBuilder.create(i -> i.group(Amount.CODEC.fieldOf("duration").forGetter(ByTime::duration))
+    Codec<ByTime> BY_TIME = RecordCodecBuilder.create(i -> i.group(
+                    Amount.CODEC.fieldOf("duration").forGetter(ByTime::duration),
+                    Sensitivity.CODEC.optionalFieldOf("sensitivity").forGetter(ByTime::sensitivity))
             .apply(i, ByTime::new));
 
     Codec<ByBoth> BY_BOTH = RecordCodecBuilder.create(i -> i.group(

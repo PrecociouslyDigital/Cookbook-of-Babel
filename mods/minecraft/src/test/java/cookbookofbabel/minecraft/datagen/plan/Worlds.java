@@ -2,6 +2,7 @@ package cookbookofbabel.minecraft.datagen.plan;
 
 import cookbookofbabel.minecraft.dataset.Amount;
 import cookbookofbabel.minecraft.dataset.Choice;
+import cookbookofbabel.minecraft.dataset.Constants;
 import cookbookofbabel.minecraft.dataset.End;
 import cookbookofbabel.minecraft.dataset.Export;
 import cookbookofbabel.minecraft.dataset.Form;
@@ -11,6 +12,7 @@ import cookbookofbabel.minecraft.dataset.Outcome;
 import cookbookofbabel.minecraft.dataset.Recipe;
 import cookbookofbabel.minecraft.dataset.Technique;
 import cookbookofbabel.minecraft.dataset.TechniqueId;
+import cookbookofbabel.minecraft.dataset.TempBands;
 import cookbookofbabel.minecraft.dataset.Unit;
 import java.util.ArrayList;
 import java.util.List;
@@ -35,11 +37,12 @@ final class Worlds {
     }
 
     static Ingredient solid(IngredientId id, List<IngredientId> parents) {
-        return new Ingredient(id, id.value(), List.of(), parents, Form.PIECE, Optional.empty(), false);
+        return new Ingredient(id, id.value(), List.of(), parents, Form.PIECE, Optional.empty(), Optional.empty(), false);
     }
 
     static Export export(List<Ingredient> ingredients, List<Technique> techniques, List<Recipe> recipes) {
-        return new Export(List.of(), List.of(), ingredients, techniques, recipes, List.of(), Map.of(), List.of(), UNITS, 0.02);
+        var constants = new Constants(new TempBands(List.of(), "any"), 0.02);
+        return new Export(List.of(), List.of(), ingredients, techniques, recipes, List.of(), Map.of(), List.of(), UNITS, constants);
     }
 
     /** An is-a DAG of {@code n} solid ingredients; each may have parents among the earlier ones. */
@@ -65,7 +68,7 @@ final class Worlds {
                 .map(o -> new Outcome.Output(o, new Amount(100, "g"), Outcome.Role.MAIN, Optional.empty()))
                 .toList();
         return new Recipe(id, "source", new TechniqueId(technique), new Choice.Select(Optional.empty(), Optional.empty(), leaves),
-                new Outcome.Outputs(outs), Optional.empty(), new End.ByTime(new Amount(60, "s")), List.of());
+                new Outcome.Outputs(outs), Optional.empty(), new End.ByTime(new Amount(60, "s"), Optional.empty()), List.of());
     }
 
     static Technique technique(String id, String... parents) {

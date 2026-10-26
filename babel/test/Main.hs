@@ -164,6 +164,7 @@ ruleProps =
     , rule "an outputs block that is all chance-gated" ["all-chance"] allChance
     , rule "an ambient time-based end without sensitivity" ["ambient-time"] ambientTime
     , rule "a water activity out of bounds" ["water-activity"] badWaterActivity
+    , rule "sensitivity temperature bounds that exclude the reference" ["temp-range"] badSensitivityTemp
     , rule "a source licence that doesn't match its folder" ["licence-mismatch"] licenceMismatch
     , rule "an origin folder that doesn't match the source" ["origin-mismatch"] originMismatch
     , rule "the same key in two folders of a layer" ["overlay-conflict"] overlayConflict
@@ -314,9 +315,20 @@ badWaterActivity t =
         , do
             lo <- Gen.double (Range.linearFrac 0 0.49)
             hi <- Gen.double (Range.linearFrac 0.5 1)
-            let s = Sensitivity 20 2 (Just hi) (Just lo)
+            let s = Sensitivity 20 2 (Just hi) (Just lo) Nothing Nothing
             onRecipe t $ \r -> pure r{end = ByTime (Amount 1 (UnitId "s")) (Just s)}
         ]
+
+badSensitivityTemp :: Tree -> Gen Tree
+badSensitivityTemp t = do
+    Sensitivity{..} <- genSensitivity
+    gap <- Gen.double (Range.linearFrac 0.001 30)
+    s <-
+        Gen.element
+            [ Sensitivity{minTempC = Just (refTempC + gap), ..}
+            , Sensitivity{maxTempC = Just (refTempC - gap), ..}
+            ]
+    onRecipe t $ \r -> pure r{end = ByTime (Amount 1 (UnitId "s")) (Just s)}
 
 other :: (Bounded a, Enum a, Eq a) => a -> Gen a
 other x = Gen.element [y | y <- universe, y /= x]
@@ -686,7 +698,8 @@ lawProps =
         d <- forAll (Gen.double (Range.exponentialFloat 1 1e7))
         timeAt (Conditions s.refTempC Nothing) s d === Just d
     , prop "timeAt scales by q10 per 10 degrees" $ property $ do
-        s <- forAll genSensitivity
+        Sensitivity{..} <- forAll genSensitivity
+        let s = Sensitivity{minTempC = Nothing, maxTempC = Nothing, ..}
         d <- forAll (Gen.double (Range.exponentialFloat 1 1e7))
         c <- forAll (Gen.double (Range.linearFrac (-30) 80))
         case (timeAt (Conditions c Nothing) s d, timeAt (Conditions (c + 10) Nothing) s d) of
@@ -696,7 +709,17 @@ lawProps =
         s <- forAll genSensitivity
         aw <- forAll (Gen.double (Range.linearFrac (-0.5) 1.5))
         let inside = aw >= fromMaybe 0 s.minWaterActivity && aw <= fromMaybe 1 s.maxWaterActivity
-        isJust (timeAt (Conditions 20 (Just aw)) s 1) === inside
+        isJust (timeAt (Conditions s.refTempC (Just aw)) s 1) === inside
+    , prop "timeAt happens at a temperature bound and not just past it" $ property $ do
+        s <- forAll genSensitivity
+        eps <- forAll (Gen.double (Range.linearFrac 0.001 1))
+        let happensAt c = isJust (timeAt (Conditions c Nothing) s 1)
+        for_ s.minTempC $ \lo -> do
+            assert (happensAt lo)
+            assert (not (happensAt (lo - eps)))
+        for_ s.maxTempC $ \hi -> do
+            assert (happensAt hi)
+            assert (not (happensAt (hi + eps)))
     , prop "bandFromCelsius picks the band whose range holds the temperature" $ property $ do
         bands <- forAll genTempBands
         c <- forAll (Gen.double (Range.linearFrac (-100) 400))

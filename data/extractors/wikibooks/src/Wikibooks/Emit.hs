@@ -347,7 +347,7 @@ dish env page answers = do
         let (amount, notes) = case duration s.text of
                 Just d -> (d.amount, d.notes)
                 Nothing -> (Amount 1 (UnitId "min"), ["no duration given; assumed 1 minute"])
-            sensitivity = Sensitivity 20 1 Nothing Nothing
+            sensitivity = Sensitivity 20 1 Nothing Nothing Nothing Nothing
          in ( ByTime amount (if ambient then Just sensitivity else Nothing)
             , map (estimate "end") notes
             )

@@ -36,7 +36,7 @@ public final class Dataset {
         techniques = export.techniques().stream().collect(Collectors.toMap(Technique::id, Function.identity()));
         units = export.units().stream().collect(Collectors.toMap(Unit::id, Function.identity()));
         nutrition = export.nutrition();
-        negligibleMassFraction = export.negligibleMassFraction();
+        negligibleMassFraction = export.constants().negligibleMassFraction();
         for (var ingredient : export.ingredients()) {
             for (var parent : ingredient.parents()) {
                 children.computeIfAbsent(parent, p -> new ArrayList<>()).add(ingredient.id());

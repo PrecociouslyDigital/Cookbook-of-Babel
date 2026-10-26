@@ -87,6 +87,6 @@ class PlannerProperties {
     }
 
     private static Ingredient ingredient(String id, Form form) {
-        return new Ingredient(new IngredientId(id), id, List.of(), List.of(), form, Optional.empty(), false);
+        return new Ingredient(new IngredientId(id), id, List.of(), List.of(), form, Optional.empty(), Optional.empty(), false);
     }
 }
