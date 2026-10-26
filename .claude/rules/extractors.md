@@ -22,3 +22,7 @@ paths:
   paid but cheap; questions about an ingredient need knowledge of the world, so
   they go to mammoth-1, which answers only about 1,000 a day for free; batch
   changes to ingredient questions.
+- An extractor that asks the decision models builds on `babel-decisions`
+  (`data/extractors/decisions/`): typed questions, request keys, dependent
+  decisions, and `decide.sh`, which answers its pending folder into its own
+  `decisions/`. Test it with `cd babel && cabal test babel-decisions`.

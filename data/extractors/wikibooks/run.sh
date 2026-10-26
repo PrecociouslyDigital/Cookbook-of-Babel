@@ -15,13 +15,16 @@ here=$(cd "$(dirname "$0")" && pwd)
 cd "$(git rev-parse --show-toplevel)"
 dump=$("$here/fetch-dump.sh")
 
-extract() { bzcat "$dump" | babel-wikibooks extract; }
-pending() { [[ -n $(ls -A .cache/wikibooks/pending) ]]; }
+decisions=$here/decisions
+pending=.cache/wikibooks/pending
+
+extract() { bzcat "$dump" | babel-wikibooks extract --decisions "$decisions" --pending "$pending"; }
+is_pending() { [[ -n $(ls -A "$pending") ]]; }
 
 extract
-while pending; do
+while is_pending; do
 	answered=true
-	"$here/decide.sh" || answered=false
+	"$here/../decisions/decide.sh" "$decisions" "$pending" || answered=false
 	extract
 	$answered || break
 done

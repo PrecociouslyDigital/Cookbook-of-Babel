@@ -4,7 +4,6 @@ depends on is answered; the requests still unanswered are returned so
 they can be sent.
 -}
 module Wikibooks.Extract (
-    Decisions,
     Status (..),
     Extraction (..),
     extract,
@@ -19,21 +18,18 @@ import Babel.Model.Recipe (Recipe)
 import Babel.Model.Source (Source (..))
 import Babel.Model.Technique (Technique (..))
 import Babel.Preparation (Preparation (..))
-import Data.Aeson (Value)
-import Data.ByteString.Lazy qualified as BL
 import Data.List.NonEmpty qualified as NE
 import Data.Map.Strict qualified as Map
 import Data.Set qualified as Set
 import Data.Text qualified as T
+import Decisions.Decide (Decided (..), Decisions, andThen, decide)
+import Decisions.Request (Judged (..), Key, Part (..), requestParts)
 import Wikibooks.Dump (Title, article, articles)
 import Wikibooks.Emit (Dish (..), Env (..), PreparedStep (..), baseIngredient, baseLabel, dish, ingredientFor, lexicon)
 import Wikibooks.Page (Line (..), RecipePage (..), recipePage)
 import Wikibooks.Quantity (IngredientLine (..))
-import Wikibooks.Questions (Judged (..), Key, Part (..), Request (..), answer, foodGroups, foodRequest, ingredientRequest, maxRequestBytes, pageRequest, requestParts)
+import Wikibooks.Questions (foodGroups, foodRequest, ingredientRequest, pageRequest)
 import Wikibooks.Wikitext (intro)
-
--- | The @answers@ object of every decision made so far, by request key.
-type Decisions = Map Key Value
 
 data Status = Emitted | Skipped Text | Pending
     deriving stock (Eq, Show)
@@ -51,27 +47,6 @@ data Extraction = Extraction
     , unknownUnits :: Map Text Int
     -- ^ Words read as pieces, with how many ingredient lines use them.
     }
-
--- | A decision this extraction needs: answered, with parts still to ask, or unusable.
-data Decided a = Answered a | Unasked [Part] | Unusable Text
-    deriving stock (Functor)
-
--- | A decision that can only be asked once an earlier one is answered.
-andThen :: Decided a -> (a -> Decided b) -> Decided b
-andThen d next = case d of
-    Answered a -> next a
-    Unasked ps -> Unasked ps
-    Unusable e -> Unusable e
-
-decide :: Decisions -> Request a -> Decided a
-decide decisions r
-    | Just big <- find ((> maxRequestBytes r.model) . BL.length . (.body)) parts =
-        Unusable ("the decision request is too large (" <> show (BL.length big.body) <> " bytes)")
-    | otherwise = case traverse (\p -> Map.lookup p.key decisions) parts of
-        Nothing -> Unasked [p | p <- parts, not (Map.member p.key decisions)]
-        Just answers -> either (\e -> Unusable ("decision: " <> e)) Answered (answer r answers)
-  where
-    parts = requestParts r
 
 -- | A page that reads as a recipe, before its ingredients are looked at.
 data Candidate = Waiting | Rejected Text | Ready Dish

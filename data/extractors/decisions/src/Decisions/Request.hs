@@ -1,0 +1,193 @@
+{- | Requests to OpenRouter's decision models. A request is a state and a
+set of typed questions; the model answers each with probabilities.
+An 'Ask' builds the questions and the decoder of their answers
+together, so decoding yields a complete typed record or says which
+answer is missing.
+-}
+module Decisions.Request (
+    Judged (..),
+    Ask,
+    noul,
+    choice,
+    score,
+    scoped,
+    refine,
+    questionNames,
+    Request (..),
+    Part (..),
+    requestParts,
+    Key,
+    keyText,
+    mkKey,
+    answer,
+    Model (..),
+    modelId,
+    maxRequestBytes,
+    maxOptions,
+)
+where
+
+import Crypto.Hash.SHA256 qualified as SHA256
+import Data.Aeson (Value (..), object, (.=))
+import Data.Aeson qualified as Aeson
+import Data.Aeson.Key qualified as Key
+import Data.Aeson.KeyMap qualified as KM
+import Data.ByteString.Builder (byteStringHex, toLazyByteString)
+import Data.List (lookup)
+import Data.Map.Strict qualified as Map
+import Data.Scientific (toRealFloat)
+import Data.Text qualified as T
+
+-- * Questions
+
+-- | An answer, and the probability the model gave it.
+data Judged a = Judged {value :: a, probability :: Double}
+    deriving stock (Eq, Show, Functor, Foldable, Traversable)
+
+{- | Questions, and how to read their answers back. Names are relative to
+the 'scoped' prefixes around them.
+-}
+newtype Ask a = Ask (Text -> ([Question], KM.KeyMap Value -> Either Text a))
+    deriving stock (Functor)
+
+-- | A question as sent, and how many options it offers the model.
+data Question = Question {name :: Text, body :: Value, options :: Int}
+
+instance Applicative Ask where
+    pure a = Ask (const ([], const (Right a)))
+    Ask f <*> Ask x = Ask $ \prefix ->
+        let (qf, df) = f prefix
+            (qx, dx) = x prefix
+         in (qf <> qx, \answers -> df answers <*> dx answers)
+
+-- | Prefix the names of every question inside.
+scoped :: Text -> Ask a -> Ask a
+scoped name (Ask f) = Ask (\prefix -> f (prefix <> name <> "__"))
+
+-- | Reject answers that decode but make no sense.
+refine :: (a -> Either Text b) -> Ask a -> Ask b
+refine check (Ask f) = Ask (second (>=> check) . f)
+
+questionNames :: Ask a -> [Text]
+questionNames (Ask f) = map (.name) (fst (f ""))
+
+question :: Text -> Int -> Value -> (KM.KeyMap Value -> Either Text a) -> Ask a
+question name options body decode = Ask $ \prefix ->
+    let full = prefix <> name
+     in ( [Question full body options]
+        , \answers -> case KM.lookup (Key.fromText full) answers of
+            Just (Object a) -> first (\e -> "answer " <> full <> ": " <> e) (decode a)
+            _ -> Left ("no answer to " <> full)
+        )
+
+-- | A yes/no question.
+noul :: Text -> Text -> Text -> Text -> Ask (Judged Bool)
+noul name instructions yes no =
+    question name 2 (object ["type" .= ("noul" :: Text), "instructions" .= instructions, "criteria" .= object ["true" .= yes, "false" .= no]]) $ \a -> do
+        p <- number "noul" a
+        pure (Judged (p >= 0.5) (max p (1 - p)))
+
+-- | Pick one option. Each option is a name, the value it stands for, and a description.
+choice :: Text -> Text -> NonEmpty (Text, a, Text) -> Ask (Judged a)
+choice name instructions options =
+    question name (length options) (object ["type" .= ("choice" :: Text), "instructions" .= instructions, "criteria" .= object [Key.fromText k .= d | (k, _, d) <- toList options]]) $ \a -> do
+        picked <- case KM.lookup "choice" a of
+            Just (String k) -> Right k
+            _ -> Left "no choice"
+        v <- maybeToRight ("unknown option " <> picked) (lookup picked [(k, v) | (k, v, _) <- toList options])
+        p <- probabilities a >>= maybeToRight "no probability for the choice" . Map.lookup picked
+        pure (Judged v p)
+
+{- | A level on an ordered scale, lowest first. The answer is the most
+probable level.
+-}
+score :: Text -> Text -> NonEmpty Text -> Ask (Judged Int)
+score name instructions levels =
+    question name (length levels) (object ["type" .= ("score" :: Text), "instructions" .= instructions, "criteria" .= toList levels]) $ \a -> do
+        ps <- probabilities a
+        let byLevel = [(i, p) | i <- [0 .. length levels - 1], Just p <- [Map.lookup (show i) ps]]
+        case sortOn (Down . snd) byLevel of
+            (i, p) : _ -> Right (Judged i p)
+            [] -> Left "no level probabilities"
+
+number :: Text -> KM.KeyMap Value -> Either Text Double
+number k a = case KM.lookup (Key.fromText k) a of
+    Just (Number n) -> Right (toRealFloat n)
+    _ -> Left ("no number " <> k)
+
+probabilities :: KM.KeyMap Value -> Either Text (Map Text Double)
+probabilities a = case KM.lookup "probabilities" a of
+    Just (Object ps) -> Right (Map.fromList [(Key.toText k, toRealFloat n) | (k, Number n) <- KM.toList ps])
+    _ -> Left "no probabilities"
+
+-- * Requests
+
+data Request a = Request {model :: Model, state :: Value, ask :: Ask a}
+
+data Model
+    = -- | Cheap and fast, for questions answered by the request itself.
+      Jev
+    | {- | For questions that need knowledge of the world; free, but only
+      1,000 requests a day.
+      -}
+      Mammoth
+    deriving stock (Eq, Show)
+
+modelId :: Model -> Text
+modelId = \case
+    Jev -> "typesafe/jev-1.14"
+    Mammoth -> "baseten/mammoth-1:free"
+
+{- | JSON runs at about 2.6 bytes a token. mammoth-1 reads at most 16k
+tokens, which leaves room for its own prompt; past about 32,000 bytes Jev
+switches to a slower, less accurate long-context mode.
+-}
+maxRequestBytes :: Model -> Int64
+maxRequestBytes = \case
+    Jev -> 32000
+    Mammoth -> 36000
+
+-- | The API takes at most this many options across a request's questions.
+maxOptions :: Int
+maxOptions = 512
+
+-- | One request as sent to the API, and the name of its answer file.
+data Part = Part {key :: Key, body :: LByteString}
+
+{- | The request as sent: as few parts as keep each within 'maxOptions',
+each with the whole state. Bodies are compact JSON with object keys in
+sorted order, so equal requests are equal bytes. Parts split on option
+counts alone, so rewording a question changes only the part it is in.
+-}
+requestParts :: Request a -> [Part]
+requestParts r = map part (pack [] 0 questions)
+  where
+    Ask f = r.ask
+    questions = fst (f "")
+    pack acc _ [] = [reverse acc | not (null acc)]
+    pack acc n (q : qs)
+        | n + q.options > maxOptions && not (null acc) = reverse acc : pack [q] q.options qs
+        | otherwise = pack (q : acc) (n + q.options) qs
+    part qs =
+        let body = Aeson.encode (object ["model" .= modelId r.model, "state" .= r.state, "questions" .= object [Key.fromText q.name .= q.body | q <- qs]])
+         in Part (Key (decodeUtf8 (toLazyByteString (byteStringHex (SHA256.hashlazy body))))) body
+
+-- | The SHA-256 of a request body, in hex: the name of its answer file.
+newtype Key = Key Text
+    deriving newtype (Eq, Ord, Show)
+
+keyText :: Key -> Text
+keyText (Key t) = t
+
+-- | A key from its hex text: 64 lower-case hex digits.
+mkKey :: Text -> Maybe Key
+mkKey t = Key t <$ guard (T.length t == 64 && T.all (`elem` ("0123456789abcdef" :: String)) t)
+
+-- | Read the @answers@ objects the API returned for the parts of this request.
+answer :: Request a -> [Value] -> Either Text a
+answer r parts = do
+    answers <- forM parts $ \case
+        Object a -> Right a
+        _ -> Left "answers are not an object"
+    let Ask f = r.ask
+    snd (f "") (foldl' KM.union KM.empty answers)

@@ -10,22 +10,20 @@ import Babel.Format (render)
 import Babel.Layout (Kind (..), Layer (..), Placement (..), placementFolders)
 import Babel.Load (loadWorld)
 import Babel.Model (Ingredient (..), IsId (..), Origin (..), Recipe (..), Source (..))
-import Data.Aeson qualified as Aeson
 import Data.ByteString.Lazy qualified as BL
 import Data.Map.Strict qualified as Map
-import Data.Set qualified as Set
 import Data.Text qualified as T
 import Data.Text.IO qualified as T
+import Decisions.Store (Store (..), readDecisions, writeRequests)
 import Options.Applicative (Parser, command, execParser, help, helper, hsubparser, info, long, metavar, progDesc, showDefault, strOption, value)
-import System.Directory (createDirectoryIfMissing, doesDirectoryExist, listDirectory, removeDirectoryRecursive, removeFile)
-import System.FilePath (joinPath, takeBaseName, takeDirectory, takeExtension, (</>))
+import System.Directory (createDirectoryIfMissing, doesDirectoryExist, removeDirectoryRecursive)
+import System.FilePath (joinPath, takeDirectory, (</>))
 import System.IO (hSetEncoding, utf8)
 import Wikibooks.Dump (readCookbook, titleText)
 import Wikibooks.Emit (mkEnv)
 import Wikibooks.Extract (Extraction (..), Status (..), extract)
-import Wikibooks.Questions (Key, keyText, mkKey)
 
-data Paths = Paths {dataRoot :: FilePath, decisions :: FilePath, pending :: FilePath, report :: FilePath}
+data Paths = Paths {dataRoot :: FilePath, store :: Store, report :: FilePath}
 
 main :: IO ()
 main = do
@@ -36,8 +34,10 @@ paths :: Parser Paths
 paths =
     Paths
         <$> path "data" "data" "Data root"
-        <*> path "decisions" "data/extractors/wikibooks/decisions" "Answered decisions, one <key>.json each"
-        <*> path "pending" ".cache/wikibooks/pending" "Where to write the requests still to send"
+        <*> ( Store
+                <$> path "decisions" "data/extractors/wikibooks/decisions" "Answered decisions, one <key>.json each"
+                <*> path "pending" ".cache/wikibooks/pending" "Where to write the requests still to send"
+            )
         <*> path "report" "data/extractors/wikibooks/report.tsv" "Where to write the report"
   where
     path name def h = strOption (long name <> metavar "PATH" <> value def <> showDefault <> help h)
@@ -47,28 +47,11 @@ run p = do
     cookbook <- readCookbook stdin
     (_, world) <- loadWorld False p.dataRoot
     env <- either (\e -> T.hPutStrLn stderr e >> exitFailure) pure (mkEnv cookbook world)
-    answered <- readDecisions p.decisions
+    answered <- readDecisions p.store
     let x = extract env answered
     writeLayer p.dataRoot x
-    replaceFolder p.pending
-    forM_ (Map.toList x.pending) $ \(k, body) -> BL.writeFile (p.pending </> keyFile k) body
-    -- Once nothing is pending, every decision is either used or stale.
-    when (Map.null x.pending) $
-        forM_ (Map.keys answered) $ \k ->
-            unless (Set.member k x.referenced) (removeFile (p.decisions </> keyFile k))
+    writeRequests p.store answered x.pending x.referenced
     writeFileText p.report (report x)
-
-keyFile :: Key -> FilePath
-keyFile k = toString (keyText k) <> ".json"
-
-readDecisions :: FilePath -> IO (Map Key Aeson.Value)
-readDecisions dir = do
-    exists <- doesDirectoryExist dir
-    names <- if exists then listDirectory dir else pure []
-    fmap Map.fromList . forM [n | n <- names, takeExtension n == ".json"] $ \n -> do
-        v <- either (\e -> die ("decision " <> n <> ": " <> e)) pure =<< Aeson.eitherDecodeFileStrict (dir </> n)
-        k <- maybe (die ("decision " <> n <> ": the file name is not a request key")) pure (mkKey (toText (takeBaseName n)))
-        pure (k, v)
 
 replaceFolder :: FilePath -> IO ()
 replaceFolder dir = do

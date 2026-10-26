@@ -9,11 +9,10 @@ import Babel.Load (World, loadWorld)
 import Babel.Model (Amount (..), FormId (..), Ingredient (..), IngredientId (..), IsId (..), Leaf (..), Outcome (..), Output (..), Recipe (..), Select (..), SourceRef (..), TechniqueId (..), UnitId (..))
 import Babel.Preparation (Preparation (..), determinesOutput, preparationOf)
 import Data.Aeson qualified as Aeson
-import Data.Aeson.Key qualified as Key
 import Data.Char (isNumber)
 import Data.List.NonEmpty qualified as NE
-import Data.Map.Strict qualified as Map
 import Data.Text qualified as T
+import Decisions.Request (Judged (..), Request (..), answer, questionNames)
 import Hedgehog (Gen, Property, PropertyT, annotateShow, assert, failure, forAll, property, (===))
 import Hedgehog.Gen qualified as Gen
 import Hedgehog.Range qualified as Range
@@ -24,7 +23,7 @@ import Wikibooks.Dump (Title, article, cookbookFromPages, mkTitle, readCookbook,
 import Wikibooks.Emit (Dish (..), Env (..), PreparedStep (..), dish, ingredientFor, lexicon, mkEnv, preparedId)
 import Wikibooks.Page (Line (..), RecipePage (..), Step (..), recipePage)
 import Wikibooks.Quantity (IngredientLine (..), Lexicon (..), ingredientLine, unitAliases)
-import Wikibooks.Questions (IngredientAnswers, Judged (..), PageAnswers (..), Part (..), Request (..), StepAnswers (..), Vocabulary (..), answer, ingredientRequest, pageRequest, questionNames, requestParts)
+import Wikibooks.Questions (PageAnswers (..), StepAnswers (..), Vocabulary (..), pageRequest)
 import Wikibooks.Wikitext (inlines)
 
 main :: IO ()
@@ -40,7 +39,6 @@ main = do
                 , prop "a food named by a line's words has no numbers in its name" namesHaveNoNumbers
                 , prop "each recipe takes in the output of the one before it" (chainConnected env)
                 , prop "every ingredient line with a first step is taken in exactly once" (takenOnce env)
-                , prop "request keys do not depend on the order of the state's keys" (keysIgnoreOrder env)
                 , prop "no two questions in a page request share a name" (namesUnique env)
                 , prop "a step that is a preparation makes the dataset's one item for it" (preparationsShared env)
                 ]
@@ -198,13 +196,6 @@ preparationsShared env = forDish env $ \_ d -> do
     forM_ (toList d.recipes) $ \r -> case preparationOf (determinesOutput env.world) r of
         Just (p, out) | p.ingredient `notElem` own -> out === preparedId env p
         _ -> pure ()
-
-keysIgnoreOrder :: Env -> Property
-keysIgnoreOrder env = property $ do
-    pairs <- forAll (Map.toList . Map.fromList <$> Gen.list (Range.linear 1 10) ((,) <$> Gen.text (Range.linear 1 5) Gen.alpha <*> Gen.text (Range.linear 0 10) Gen.alpha))
-    shuffled <- forAll (Gen.shuffle pairs)
-    let keys ps = map (.key) (requestParts ((ingredientRequest env.vocabulary "food" "description"){state = Aeson.object [Key.fromText k Aeson..= x | (k, x) <- ps]} :: Request IngredientAnswers))
-    keys pairs === keys shuffled
 
 namesUnique :: Env -> Property
 namesUnique env = property $ do

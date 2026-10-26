@@ -1,18 +1,17 @@
 #!/usr/bin/env bash
-# Sends every pending decision request to OpenRouter's Decisions API and
-# saves the answers object of each response to decisions/<key>.json, where
-# extract finds it: one line of sorted JSON, probabilities rounded to 4
-# decimals, score legends dropped since the request already holds them.
-# Needs the API key, so run it as
-#   secretspec run --reason "answer pending wikibooks decisions" -- ./decide.sh
+# Sends every request in an extractor's pending folder to OpenRouter's
+# Decisions API and saves the answers object of each response to
+# <decisions>/<key>.json, where the extractor finds it: one line of sorted
+# JSON, probabilities rounded to 4 decimals, score legends dropped since the
+# request already holds them. Needs the API key, so run it as
+#   secretspec run --reason "…" -- data/extractors/decisions/decide.sh DECISIONS PENDING
 # Requests already answered are skipped, so an interrupted run resumes. Once
 # a model's daily cap is reached its requests wait, the rest go on, and the
 # run fails; run it again the next day.
 set -euo pipefail
 
-root=$(git rev-parse --show-toplevel)
-pending=${PENDING:-$root/.cache/wikibooks/pending}
-export decisions=$root/data/extractors/wikibooks/decisions
+export decisions=${1:?usage: decide.sh DECISIONS PENDING}
+pending=${2:?usage: decide.sh DECISIONS PENDING}
 export compact='.answers | map_values(del(.legend)) | walk(if type == "number" then (. * 10000 | round) / 10000 else . end)'
 : "${OPENROUTER_API_KEY:?run this under secretspec run}"
 export capped

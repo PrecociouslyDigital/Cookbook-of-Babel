@@ -38,11 +38,12 @@ import Data.Char (isAlphaNum, isAscii, toLower)
 import Data.List (lookup)
 import Data.Map.Strict qualified as Map
 import Data.Text qualified as T
+import Decisions.Request (Judged (..))
 import Numeric (showHex)
 import Wikibooks.Dump (Cookbook, Title, article, resolve, titleText)
 import Wikibooks.Page (Line (..), RecipePage (..), Step (..))
 import Wikibooks.Quantity (Duration (..), IngredientLine (..), Lexicon (..), duration, temperatureC, unitAliases)
-import Wikibooks.Questions (IngredientAnswers (..), Judged (..), PageAnswers (..), StepAnswers (..), Vocabulary (..))
+import Wikibooks.Questions (IngredientAnswers (..), PageAnswers (..), StepAnswers (..), Vocabulary (..))
 import Wikibooks.Wikitext (PageKind (..), pageKind)
 
 -- | Answers less probable than this are flagged as uncertain.

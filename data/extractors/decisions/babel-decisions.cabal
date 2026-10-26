@@ -1,0 +1,62 @@
+cabal-version: 3.0
+name:          babel-decisions
+version:       0.1.0.0
+synopsis:
+  Asks OpenRouter's decision models typed questions, and keeps their answers
+
+build-type:    Simple
+
+-- Same language settings as babel/babel.cabal, which .hlint.yaml mirrors.
+common shared
+  default-language:   GHC2021
+  default-extensions:
+    DerivingStrategies
+    DuplicateRecordFields
+    LambdaCase
+    NoFieldSelectors
+    OverloadedRecordDot
+    OverloadedStrings
+
+  ghc-options:        -Wall -Wcompat
+  build-depends:
+    , base    >=4.18 && <5
+    , relude  >=1.2  && <1.3
+
+  mixins:
+    base hiding (Prelude),
+    relude (Relude as Prelude),
+    relude
+
+library
+  import:          shared
+  hs-source-dirs:  src
+  exposed-modules:
+    Decisions.Decide
+    Decisions.Request
+    Decisions.Store
+
+  build-depends:
+    , aeson
+    , bytestring
+    , containers
+    , cryptohash-sha256
+    , directory
+    , filepath
+    , scientific
+    , text
+
+test-suite babel-decisions-test
+  import:         shared
+  type:           exitcode-stdio-1.0
+  hs-source-dirs: test
+  main-is:        Main.hs
+  build-depends:
+    , aeson
+    , babel-decisions
+    , bytestring
+    , containers
+    , hedgehog
+    , tasty
+    , tasty-hedgehog
+    , tasty-hunit
+    , text

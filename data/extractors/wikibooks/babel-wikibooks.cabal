@@ -40,12 +40,12 @@ library
   build-depends:
     , aeson
     , babel
+    , babel-decisions
     , bytestring
     , conduit
     , containers
     , cryptohash-sha256
     , megaparsec
-    , scientific
     , text
     , xml-conduit
     , xml-types
@@ -55,9 +55,9 @@ executable babel-wikibooks
   hs-source-dirs: app
   main-is:        Main.hs
   build-depends:
-    , aeson
     , autodocodec
     , babel
+    , babel-decisions
     , babel-wikibooks
     , bytestring
     , containers
@@ -74,6 +74,7 @@ test-suite babel-wikibooks-test
   build-depends:
     , aeson
     , babel
+    , babel-decisions
     , babel-wikibooks
     , bytestring
     , containers
