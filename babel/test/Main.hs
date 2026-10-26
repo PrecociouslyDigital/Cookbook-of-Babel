@@ -176,6 +176,7 @@ ruleProps =
     , rule "a rename loop" ["rename-loop", "rename-to-missing"] renameLoop
     , rule "a rename to nothing" ["rename-to-missing"] renameToNothing
     , rule "a rename after the dataset version" ["rename-since"] renameSince
+    , rule "one technique done to one ingredient making two things" ["duplicate-preparation"] duplicatePreparation
     ]
 
 ingIds, techIds, formIds :: Tree -> Set Text
@@ -342,6 +343,37 @@ originMismatch t =
     moveSource p = do
         p' <- moveOrigin p
         pure p'{entity = let Source{..} = p'.entity in Source{licence = originLicence p'.originFolder, ..}}
+
+{- | Two new recipes do the same technique to the same ingredient and make
+different things. With no non-preparations, every technique counts.
+-}
+duplicatePreparation :: Tree -> Gen Tree
+duplicatePreparation t = do
+    placed <- Gen.element t.recs
+    input <- Gen.element (Set.toList (ingIds t))
+    first <- Gen.element (Set.toList (ingIds t))
+    second <- Gen.element (Set.toList (Set.delete first (ingIds t)))
+    ids <- Gen.filter (uncurry (/=)) ((,) <$> fresh <*> fresh)
+    let gram = Amount 1 (UnitId "g")
+        prepare rid out =
+            let Recipe{..} = placed.entity
+             in placed
+                    { entity =
+                        Recipe
+                            { id = RecipeId rid
+                            , sourceRef = Nothing
+                            , inputs = Select Nothing Nothing [Right (Leaf (IngredientId input) gram)]
+                            , outputs = Outputs (Output (IngredientId out) gram Main Nothing :| [])
+                            , ..
+                            }
+                    }
+    pure
+        t
+            { recs = t.recs ++ [prepare (fst ids) first, prepare (snd ids) second]
+            , consts = let Constants{..} = t.consts in Constants{nonPreparations = [], ..}
+            }
+  where
+    fresh = Gen.filter (`Set.notMember` Set.fromList [idText p.entity.id | p <- t.recs]) genDottedSlug
 
 badNegligible :: Tree -> Gen Tree
 badNegligible t = do

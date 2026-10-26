@@ -12,7 +12,9 @@ rather than by filtering:
   states at least one value;
 * select bounds are drawn inside @0..n@, and every output block has at
   least one output that is not chance-gated;
-* rename chains run from fresh slugs to an existing one.
+* rename chains run from fresh slugs to an existing one;
+* a recipe that does the same technique to the same ingredient as an
+  earlier recipe makes the same main output.
 -}
 module Gen (
     genSlug,
@@ -31,7 +33,8 @@ module Gen (
 where
 
 import Babel.Layout (Layer (..))
-import Babel.Model (Amount (..), AxisId (..), BandEntry (..), Branch (..), Constants (..), Dataset (..), Dimension (..), DottedSlug (..), End (..), EntityKind (..), Environment (..), FormId (..), Ingredient (..), IngredientId (..), IsA (..), IsId, Issue (..), KcalPerGram (..), Leaf (..), Measure (..), MeasureKey (..), MeasureValue (..), Medium (..), MediumId (..), Outcome (..), Output (..), Per100g (..), RatioBounds (..), Recipe (..), RecipeId (..), Rename (..), Select (..), Sensitivity (..), ServingTagId (..), Source (..), SourceId (..), SourceRef (..), TasteAttrId (..), Technique (..), TechniqueId (..), TempBandId (..), TempBands, TempRange (..), Term (..), TextureAttrId (..), Tolerance (..), Unit (..), UnitId (..), Version (..), mkIntensity, mkTempBands, originLicence, renderVersion)
+import Babel.Model (Amount (..), AxisId (..), BandEntry (..), Branch (..), Constants (..), Dataset (..), Dimension (..), DottedSlug (..), End (..), EntityKind (..), Environment (..), FormId (..), Ingredient (..), IngredientId (..), IsA (..), IsId, Issue (..), KcalPerGram (..), Leaf (..), Measure (..), MeasureKey (..), MeasureValue (..), Medium (..), MediumId (..), Outcome (..), Output (..), Per100g (..), RatioBounds (..), Recipe (..), RecipeId (..), Rename (..), Role (..), Select (..), Sensitivity (..), ServingTagId (..), Source (..), SourceId (..), SourceRef (..), TasteAttrId (..), Technique (..), TechniqueId (..), TempBandId (..), TempBands, TempRange (..), Term (..), TextureAttrId (..), Tolerance (..), Unit (..), UnitId (..), Version (..), mkIntensity, mkTempBands, originLicence, renderVersion)
+import Babel.Preparation (Preparation, preparationOf)
 import Data.Map.Strict qualified as Map
 import Data.Set qualified as Set
 import Data.Text qualified as T
@@ -158,11 +161,12 @@ genTree = do
     consts <- genConstants [t.entity.id | t <- techs]
     let tree0 = Tree{renameLog = [], recs = [], meas = [], ..}
     recIds <- Set.toList <$> Gen.set (Range.linear 1 6) genDottedSlug
-    recs <- forM (zip [1 ..] recIds) $ \(n, r) -> do
-        src <- Gen.element srcs
-        recipe <- genRecipe tree0 (RecipeId r) src.entity.id n
-        layer <- genLayer
-        pure (Placed layer src.originFolder recipe)
+    let genPlaced (placed, made) (n, r) = do
+            src <- Gen.element srcs
+            recipe <- samePreparation made <$> genRecipe tree0 (RecipeId r) src.entity.id n
+            layer <- genLayer
+            pure (Placed layer src.originFolder recipe : placed, maybe made (\(p, out) -> Map.insert p out made) (preparationOf (const True) recipe))
+    recs <- reverse . fst <$> foldlM genPlaced ([], Map.empty) (zip [1 ..] recIds)
 
     meas <- fmap concat . forM ings $ \i -> do
         keys <- subsetOf (NutritionKey : [GramsPerKey u.id | u <- unitReg, u.dimension == Count])
@@ -247,6 +251,21 @@ genRecipe t rid src n = do
         x : xs -> x :| xs
         [] -> error "fromList': generators never produce empty lists here"
 
+{- | A recipe that repeats an earlier one's preparation makes the same main
+output as that recipe. Treating every technique as determining its output
+is the strictest case the constants could produce, so the invariant holds
+for whatever 'genConstants' generates.
+-}
+samePreparation :: Map Preparation IngredientId -> Recipe -> Recipe
+samePreparation made r = case preparationOf (const True) r of
+    Just (p, _) | Just out <- Map.lookup p made -> withOutputs (mainIs out r.outputs) r
+    _ -> r
+  where
+    withOutputs o Recipe{id = rid, ..} = Recipe{id = rid, outputs = o, ..}
+    mainIs out = \case
+        Outputs os -> Outputs (fmap (\Output{..} -> Output{ingredient = if role == Main then out else ingredient, ..}) os)
+        oneOf -> oneOf
+
 -- | All four shapes of bounds that are valid for @n@ choices.
 genSelect :: Int -> Gen Leaf -> Gen Select
 genSelect depth leaf = do
@@ -294,6 +313,7 @@ genConstants :: [TechniqueId] -> Gen Constants
 genConstants techIds = do
     tempBands <- genTempBands
     spoilageTechnique <- Gen.element techIds
+    nonPreparations <- subsetOf techIds
     kcalPerGram <- KcalPerGram <$> positive <*> positive <*> positive
     calorieTolerance <- Tolerance <$> Gen.double (Range.linearFrac 0 100) <*> Gen.double (Range.linearFrac 0 1)
     lo <- positive

@@ -23,6 +23,7 @@ import Babel.Model.Recipe (Branch (..), End (..), Environment (..), Leaf (..), O
 import Babel.Model.Registry (Dimension (..), Unit (..))
 import Babel.Model.Source (Licence, Source (..), licenceSpdx, originLicence, originSlug, satisfies)
 import Babel.Model.Technique (Technique (..), TempRange (..))
+import Babel.Preparation (Preparation (..), preparations)
 import Data.List.NonEmpty qualified as NE
 import Data.Map.Strict qualified as Map
 import Data.Set qualified as Set
@@ -38,6 +39,7 @@ checkWorld w =
         , concatMap (measureChecks w) (Map.elems w.measures)
         , cycleChecks "ingredient" [(i.value.id, map (.target) i.value.parents) | i <- Map.elems w.ingredients] (fmap (.path) w.ingredients)
         , cycleChecks "technique" [(t.value.id, t.value.parents) | t <- Map.elems w.techniques] (fmap (.path) w.techniques)
+        , preparationChecks w
         , versionChecks w
         , maybe [] (constantsChecks w) w.constants
         ]
@@ -308,11 +310,30 @@ idsOf w = \case
     keys :: (IsId k) => Map k v -> Set Text
     keys = Set.fromList . map idText . Map.keys
 
+-- * Preparations
+
+-- | One technique done to one ingredient makes one thing.
+preparationChecks :: World -> [Diagnostic]
+preparationChecks w =
+    [ errorIn "duplicate-preparation" (path =<< viaNonEmpty head (concat (Map.elems makes))) $
+        idText p.technique
+            <> " done to "
+            <> idText p.ingredient
+            <> " makes "
+            <> T.intercalate ", " [idText i <> " (" <> T.intercalate ", " (map idText rs) <> ")" | (i, rs) <- Map.toList makes]
+            <> "; one technique done to one ingredient must make one thing"
+    | (p, makes) <- Map.toList (preparations w)
+    , Map.size makes > 1
+    ]
+  where
+    path r = (.path) <$> Map.lookup r w.recipes
+
 -- * Constants
 
 constantsChecks :: World -> Constants -> [Diagnostic]
 constantsChecks w c =
     ref p "spoilage technique" w.techniques c.spoilageTechnique
+        ++ concatMap (ref p "non-preparation technique" w.techniques) c.nonPreparations
         ++ [ errorIn "constants" (Just p) "massRatio needs 0 < min <= max"
            | not (0 < c.massRatio.min && c.massRatio.min <= c.massRatio.max)
            ]
