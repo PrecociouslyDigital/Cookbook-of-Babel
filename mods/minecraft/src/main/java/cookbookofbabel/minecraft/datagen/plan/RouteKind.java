@@ -33,7 +33,17 @@ public enum RouteKind {
     /** Farmer's Respite's kettle: one or two items brewed in a fluid make a fluid. */
     FR_KETTLE(Mod.FARMERS_RESPITE, new Constraints(2, 1, 0, 1, false, 200, 4800).needsFluid(), Nbt.IGNORED, Optional.empty()),
     /** Vintage Delight's fermenting jar: six items, one per slot, make one or two items. */
-    VD_FERMENTING_JAR(Mod.VINTAGE_DELIGHT, new Constraints(6, 0, 2, 0, false, 100, Ticks.LONGEST));
+    VD_FERMENTING_JAR(Mod.VINTAGE_DELIGHT, new Constraints(6, 0, 2, 0, false, 100, Ticks.LONGEST)),
+    /** PneumaticCraft's thermopneumatic processing plant: an item, a fluid or both make an item, a fluid or both, with or without heat. */
+    PNC_THERMO_PLANT(Mod.PNEUMATICCRAFT, new Constraints(1, 1, 1, 1, false, 0, 0)),
+    /**
+     * Thermal's multiservo press, without a die. Thermal machines take one item at a time here: a
+     * count above one wraps the ingredient in CoFH's IngredientWithCount, which can't read Forge's
+     * compound ingredients and crashes the server's tag reload.
+     */
+    THERMAL_PRESS(Mod.THERMAL_EXPANSION, new Constraints(1, 0, 1, 1, true, 20, 1200)),
+    /** Thermal's centrifugal separator. */
+    THERMAL_CENTRIFUGE(Mod.THERMAL_EXPANSION, new Constraints(1, 0, 4, 1, true, 20, 1200));
 
 
     public final Mod mod;

@@ -1,0 +1,30 @@
+{
+  "type": "thermal:press",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "thermal_expansion"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/wheat_grass_juice"
+    }
+  ],
+  "energy": 400,
+  "ingredient": [
+    {
+      "type": "forge:partial_nbt",
+      "item": "cookbook_of_babel:substance",
+      "nbt": "{substance:\"cookbook_of_babel:wheat_soak_sprout_sprout_sprout\"}"
+    },
+    {
+      "tag": "cookbook_of_babel:ingredients/wheat_soak_sprout_sprout_sprout"
+    }
+  ],
+  "result": [
+    {
+      "count": 2,
+      "item": "cookbook_of_babel:wheat_grass_juice"
+    }
+  ]
+}

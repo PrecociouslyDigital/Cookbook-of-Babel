@@ -160,6 +160,12 @@ dependencies {
     modRuntimeOnly(libs.vintagedelight)
     modRuntimeOnly(libs.rats)
     modRuntimeOnly(libs.citadel)
+    modRuntimeOnly(libs.pneumaticcraft)
+    modRuntimeOnly(libs.patchouli)
+    modRuntimeOnly(libs.thermal.expansion)
+    modRuntimeOnly(libs.thermal.cultivation)
+    modRuntimeOnly(libs.thermal.foundation)
+    modRuntimeOnly(libs.cofh.core)
 
     testImplementation(libs.jqwik)
     testImplementation(libs.assertj)

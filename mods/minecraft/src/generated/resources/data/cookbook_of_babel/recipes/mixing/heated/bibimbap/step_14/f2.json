@@ -1,0 +1,51 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/bibimbap_step_14"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "pneumaticcraft"
+    }
+  ],
+  "heatRequirement": "heated",
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:bibimbap_step_13\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/bibimbap_step_13"
+      }
+    ],
+    {
+      "amount": 15,
+      "fluid": "cookbook_of_babel:liquid",
+      "nbt": {
+        "substance": "cookbook_of_babel:olive_oil"
+      }
+    },
+    {
+      "amount": 15,
+      "fluid": "pneumaticcraft:vegetable_oil",
+      "nbt": {}
+    }
+  ],
+  "processingTime": 20,
+  "results": [
+    {
+      "item": "cookbook_of_babel:substance",
+      "nbt": {
+        "substance": "cookbook_of_babel:bibimbap_step_14"
+      }
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:mod_loaded",
+        "modid": "rats"
+      }
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/potato_pancakes"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "pneumaticcraft"
+    }
+  ],
+  "heatRequirement": "heated",
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:potato_pancakes_step_2\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/potato_pancakes_step_2"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:applesauce\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/applesauce"
+      }
+    ],
+    {
+      "amount": 30,
+      "fluid": "pneumaticcraft:vegetable_oil",
+      "nbt": {}
+    }
+  ],
+  "processingTime": 20,
+  "results": [
+    {
+      "item": "cookbook_of_babel:potato_pancakes"
+    }
+  ]
+}

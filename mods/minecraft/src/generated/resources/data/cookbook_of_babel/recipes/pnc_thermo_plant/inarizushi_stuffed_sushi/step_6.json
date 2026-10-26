@@ -1,0 +1,38 @@
+{
+  "type": "pneumaticcraft:thermo_plant",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "pneumaticcraft"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/inarizushi_stuffed_sushi_step_6"
+    }
+  ],
+  "fluid_input": {
+    "type": "pneumaticcraft:fluid",
+    "amount": 15,
+    "fluid": "cookbook_of_babel:liquid",
+    "fuzzyNBT": false,
+    "nbt": "{substance:\"cookbook_of_babel:oil_and_fat\"}"
+  },
+  "fluid_output": {
+    "amount": 100,
+    "fluid": "cookbook_of_babel:liquid",
+    "nbt": "{substance:\"cookbook_of_babel:inarizushi_stuffed_sushi_step_6\"}"
+  },
+  "item_input": [
+    {
+      "type": "forge:partial_nbt",
+      "item": "cookbook_of_babel:substance",
+      "nbt": "{substance:\"cookbook_of_babel:inarizushi_stuffed_sushi_step_4\"}"
+    },
+    {
+      "tag": "cookbook_of_babel:ingredients/inarizushi_stuffed_sushi_step_4"
+    }
+  ],
+  "temperature": {
+    "min_temp": 458
+  }
+}

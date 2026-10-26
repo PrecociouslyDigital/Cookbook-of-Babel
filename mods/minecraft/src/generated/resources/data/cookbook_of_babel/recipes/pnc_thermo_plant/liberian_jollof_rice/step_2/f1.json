@@ -1,0 +1,38 @@
+{
+  "type": "pneumaticcraft:thermo_plant",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "pneumaticcraft"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/liberian_jollof_rice_step_2"
+    }
+  ],
+  "fluid_input": {
+    "type": "pneumaticcraft:fluid",
+    "amount": 237,
+    "fluid": "cookbook_of_babel:liquid",
+    "fuzzyNBT": false,
+    "nbt": "{substance:\"cookbook_of_babel:vegetable_oil\"}"
+  },
+  "item_input": [
+    {
+      "type": "forge:partial_nbt",
+      "item": "cookbook_of_babel:substance",
+      "nbt": "{substance:\"cookbook_of_babel:liberian_jollof_rice_step_1\"}"
+    },
+    {
+      "tag": "cookbook_of_babel:ingredients/liberian_jollof_rice_step_1"
+    }
+  ],
+  "item_output": {
+    "count": 1,
+    "item": "cookbook_of_babel:substance",
+    "nbt": "{substance:\"cookbook_of_babel:liberian_jollof_rice_step_2\"}"
+  },
+  "temperature": {
+    "min_temp": 458
+  }
+}

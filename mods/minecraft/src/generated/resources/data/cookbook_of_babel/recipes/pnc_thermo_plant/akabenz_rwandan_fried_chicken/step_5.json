@@ -1,0 +1,30 @@
+{
+  "type": "pneumaticcraft:thermo_plant",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "pneumaticcraft"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/akabenz_rwandan_fried_chicken"
+    }
+  ],
+  "item_input": [
+    {
+      "type": "forge:partial_nbt",
+      "item": "cookbook_of_babel:substance",
+      "nbt": "{substance:\"cookbook_of_babel:akabenz_rwandan_fried_chicken_step_4\"}"
+    },
+    {
+      "tag": "cookbook_of_babel:ingredients/akabenz_rwandan_fried_chicken_step_4"
+    }
+  ],
+  "item_output": {
+    "count": 1,
+    "item": "cookbook_of_babel:akabenz_rwandan_fried_chicken"
+  },
+  "temperature": {
+    "min_temp": 347
+  }
+}

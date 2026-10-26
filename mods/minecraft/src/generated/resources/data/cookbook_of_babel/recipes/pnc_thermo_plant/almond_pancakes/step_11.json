@@ -1,0 +1,30 @@
+{
+  "type": "pneumaticcraft:thermo_plant",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "pneumaticcraft"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/almond_pancakes"
+    }
+  ],
+  "item_input": [
+    {
+      "type": "forge:partial_nbt",
+      "item": "cookbook_of_babel:substance",
+      "nbt": "{substance:\"cookbook_of_babel:almond_pancakes_step_10\"}"
+    },
+    {
+      "tag": "cookbook_of_babel:ingredients/almond_pancakes_step_10"
+    }
+  ],
+  "item_output": {
+    "count": 1,
+    "item": "cookbook_of_babel:almond_pancakes"
+  },
+  "temperature": {
+    "min_temp": 458
+  }
+}

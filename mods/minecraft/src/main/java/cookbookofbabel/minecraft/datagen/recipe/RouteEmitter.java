@@ -33,6 +33,8 @@ import cookbookofbabel.minecraft.datagen.plan.Quantize;
 import cookbookofbabel.minecraft.datagen.plan.RouteKind;
 import cookbookofbabel.minecraft.datagen.recipe.brewinandchewin.Keg;
 import cookbookofbabel.minecraft.datagen.recipe.farmersrespite.Kettle;
+import cookbookofbabel.minecraft.datagen.recipe.pneumaticcraft.ThermoPlant;
+import cookbookofbabel.minecraft.datagen.recipe.thermal.Thermal;
 import cookbookofbabel.minecraft.datagen.recipe.vintagedelight.FermentingJar;
 import cookbookofbabel.minecraft.datagen.recipe.Resolved.Exact;
 import cookbookofbabel.minecraft.datagen.recipe.Resolved.FluidInput;
@@ -157,6 +159,9 @@ public final class RouteEmitter {
             case BNC_KEG -> json(Keg::fermenting, p, path, items, counts, fluids, outputs, conditions, sink);
             case FR_KETTLE -> json(Kettle::brewing, p, path, items, counts, fluids, outputs, conditions, sink);
             case VD_FERMENTING_JAR -> json(FermentingJar::fermenting, p, path, items, counts, fluids, outputs, conditions, sink);
+            case PNC_THERMO_PLANT -> json(ThermoPlant::recipe, p, path, items, counts, fluids, outputs, conditions, sink);
+            case THERMAL_PRESS -> json(Thermal::press, p, path, items, counts, fluids, outputs, conditions, sink);
+            case THERMAL_CENTRIFUGE -> json(Thermal::centrifuge, p, path, items, counts, fluids, outputs, conditions, sink);
             case SHAPELESS_CRAFTING -> {
                 var result = (ItemStack) first(outputs);
                 var builder = ShapelessRecipeBuilder.shapeless(RecipeCategory.FOOD, result.getItem(), result.getCount());

@@ -1,0 +1,54 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/tadka_dhal_spiced_lentil_curry_ii_step_2"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "pneumaticcraft"
+    }
+  ],
+  "heatRequirement": "heated",
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:tadka_dhal_spiced_lentil_curry_ii_step_1\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/tadka_dhal_spiced_lentil_curry_ii_step_1"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:mustard_seed\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/mustard_seed"
+      }
+    ],
+    {
+      "amount": 6,
+      "fluid": "pneumaticcraft:vegetable_oil",
+      "nbt": {}
+    }
+  ],
+  "processingTime": 20,
+  "results": [
+    {
+      "item": "cookbook_of_babel:substance",
+      "nbt": {
+        "substance": "cookbook_of_babel:tadka_dhal_spiced_lentil_curry_ii_step_2"
+      }
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "type": "thermal:centrifuge",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "thermal_expansion"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/bacon_and_egg_stuffed_tomatoes_step_2"
+    }
+  ],
+  "energy": 400,
+  "ingredient": [
+    {
+      "type": "forge:partial_nbt",
+      "item": "cookbook_of_babel:substance",
+      "nbt": "{substance:\"cookbook_of_babel:tomato_chop\"}"
+    },
+    {
+      "tag": "cookbook_of_babel:ingredients/tomato_chop"
+    }
+  ],
+  "result": [
+    {
+      "count": 1,
+      "item": "cookbook_of_babel:substance",
+      "nbt": "{substance:\"cookbook_of_babel:bacon_and_egg_stuffed_tomatoes_step_2\"}"
+    }
+  ]
+}

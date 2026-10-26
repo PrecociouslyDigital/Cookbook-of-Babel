@@ -1,0 +1,31 @@
+{
+  "type": "thermal:press",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "thermal_expansion"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/tomato_concasse_step_4"
+    }
+  ],
+  "energy": 400,
+  "ingredient": [
+    {
+      "type": "forge:partial_nbt",
+      "item": "cookbook_of_babel:substance",
+      "nbt": "{substance:\"cookbook_of_babel:tomato_cut_boil\"}"
+    },
+    {
+      "tag": "cookbook_of_babel:ingredients/tomato_cut_boil"
+    }
+  ],
+  "result": [
+    {
+      "count": 5,
+      "item": "cookbook_of_babel:substance",
+      "nbt": "{substance:\"cookbook_of_babel:tomato_concasse_step_4\"}"
+    }
+  ]
+}

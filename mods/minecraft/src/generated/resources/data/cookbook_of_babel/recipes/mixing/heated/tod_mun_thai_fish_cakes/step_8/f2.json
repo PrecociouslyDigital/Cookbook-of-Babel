@@ -1,0 +1,41 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/tod_mun_thai_fish_cakes"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "pneumaticcraft"
+    }
+  ],
+  "heatRequirement": "heated",
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:tod_mun_thai_fish_cakes_step_6\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/tod_mun_thai_fish_cakes_step_6"
+      }
+    ],
+    {
+      "amount": 118,
+      "fluid": "pneumaticcraft:vegetable_oil",
+      "nbt": {}
+    }
+  ],
+  "processingTime": 20,
+  "results": [
+    {
+      "item": "cookbook_of_babel:tod_mun_thai_fish_cakes"
+    }
+  ]
+}

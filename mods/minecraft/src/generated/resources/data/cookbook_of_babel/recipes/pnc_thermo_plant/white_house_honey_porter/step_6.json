@@ -1,0 +1,35 @@
+{
+  "type": "pneumaticcraft:thermo_plant",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "pneumaticcraft"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/white_house_honey_porter_step_6"
+    }
+  ],
+  "fluid_input": {
+    "type": "pneumaticcraft:fluid",
+    "amount": 300,
+    "fluid": "cookbook_of_babel:liquid",
+    "fuzzyNBT": false,
+    "nbt": "{substance:\"cookbook_of_babel:white_house_honey_porter_step_5\"}"
+  },
+  "fluid_output": {
+    "amount": 300,
+    "fluid": "cookbook_of_babel:liquid",
+    "nbt": "{substance:\"cookbook_of_babel:white_house_honey_porter_step_6\"}"
+  },
+  "item_input": [
+    {
+      "type": "forge:partial_nbt",
+      "item": "cookbook_of_babel:portion",
+      "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:bulk\",Tag:{substance:\"cookbook_of_babel:yeast\"}}}"
+    },
+    {
+      "tag": "cookbook_of_babel:ingredients/yeast"
+    }
+  ]
+}

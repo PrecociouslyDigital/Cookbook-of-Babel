@@ -166,8 +166,8 @@ final class Reports implements DataProvider {
         for (var mod : Mod.values()) {
             var mapped = context.mappings.stream().filter(m -> m.mod() == mod).flatMap(m -> m.entries().keySet().stream()).collect(Collectors.toSet());
             var unmapped = context.dataset.ingredients().stream().filter(i -> !mapped.contains(i.id())).toList();
-            var itemMatches = Proposals.match(unmapped, items.stream().filter(i -> i.id().startsWith(mod.id + ":")).toList());
-            var fluidMatches = Proposals.match(unmapped, fluids.stream().filter(f -> f.id().startsWith(mod.id + ":")).toList());
+            var itemMatches = Proposals.match(unmapped, items.stream().filter(i -> i.id().startsWith(mod.namespace + ":")).toList());
+            var fluidMatches = Proposals.match(unmapped, fluids.stream().filter(f -> f.id().startsWith(mod.namespace + ":")).toList());
             var json = new JsonObject();
             for (var ingredient : unmapped) {
                 var entry = new JsonObject();

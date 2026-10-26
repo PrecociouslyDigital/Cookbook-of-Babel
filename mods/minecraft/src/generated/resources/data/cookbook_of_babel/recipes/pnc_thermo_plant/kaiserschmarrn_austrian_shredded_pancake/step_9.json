@@ -1,0 +1,37 @@
+{
+  "type": "pneumaticcraft:thermo_plant",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "pneumaticcraft"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/kaiserschmarrn_austrian_shredded_pancake"
+    }
+  ],
+  "fluid_input": {
+    "type": "pneumaticcraft:fluid",
+    "amount": 1,
+    "fluid": "cookbook_of_babel:bulk",
+    "fuzzyNBT": false,
+    "nbt": "{substance:\"cookbook_of_babel:white_sugar\"}"
+  },
+  "item_input": [
+    {
+      "type": "forge:partial_nbt",
+      "item": "cookbook_of_babel:substance",
+      "nbt": "{substance:\"cookbook_of_babel:kaiserschmarrn_austrian_shredded_pancake_step_8\"}"
+    },
+    {
+      "tag": "cookbook_of_babel:ingredients/kaiserschmarrn_austrian_shredded_pancake_step_8"
+    }
+  ],
+  "item_output": {
+    "count": 1,
+    "item": "cookbook_of_babel:kaiserschmarrn_austrian_shredded_pancake"
+  },
+  "temperature": {
+    "min_temp": 458
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "type": "pneumaticcraft:thermo_plant",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "pneumaticcraft"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/ibiwungu_rwandan_banana_beer_step_5"
+    }
+  ],
+  "fluid_input": {
+    "type": "pneumaticcraft:fluid",
+    "amount": 15,
+    "fluid": "cookbook_of_babel:bulk",
+    "fuzzyNBT": false,
+    "nbt": "{substance:\"cookbook_of_babel:yeast\"}"
+  },
+  "fluid_output": {
+    "amount": 300,
+    "fluid": "cookbook_of_babel:liquid",
+    "nbt": "{substance:\"cookbook_of_babel:ibiwungu_rwandan_banana_beer_step_5\"}"
+  },
+  "item_input": [
+    {
+      "type": "forge:partial_nbt",
+      "item": "cookbook_of_babel:portion",
+      "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:liquid\",Tag:{substance:\"cookbook_of_babel:ibiwungu_rwandan_banana_beer_step_4\"}}}"
+    },
+    {
+      "tag": "cookbook_of_babel:ingredients/ibiwungu_rwandan_banana_beer_step_4"
+    }
+  ]
+}

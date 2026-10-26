@@ -1,0 +1,38 @@
+{
+  "type": "pneumaticcraft:thermo_plant",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "pneumaticcraft"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/wilted_greens_step_3"
+    }
+  ],
+  "fluid_input": {
+    "type": "pneumaticcraft:fluid",
+    "amount": 1000,
+    "fluid": "cookbook_of_babel:liquid",
+    "fuzzyNBT": false,
+    "nbt": "{substance:\"cookbook_of_babel:wilted_greens_step_2\"}"
+  },
+  "item_input": [
+    {
+      "type": "forge:partial_nbt",
+      "item": "cookbook_of_babel:substance",
+      "nbt": "{substance:\"cookbook_of_babel:garlic\"}"
+    },
+    {
+      "tag": "cookbook_of_babel:ingredients/garlic"
+    }
+  ],
+  "item_output": {
+    "count": 10,
+    "item": "cookbook_of_babel:substance",
+    "nbt": "{substance:\"cookbook_of_babel:wilted_greens_step_3\"}"
+  },
+  "temperature": {
+    "min_temp": 458
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/black_bean_soup_with_tomato_tomatillo_salsa_step_3"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "pneumaticcraft"
+    }
+  ],
+  "heatRequirement": "heated",
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:common_bean_soak\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/common_bean_soak"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:common_bean_soak\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/common_bean_soak"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:common_bean_soak\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/common_bean_soak"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:onion\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/onion"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:onion\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/onion"
+      }
+    ],
+    {
+      "amount": 30,
+      "fluid": "pneumaticcraft:vegetable_oil",
+      "nbt": {}
+    }
+  ],
+  "processingTime": 100,
+  "results": [
+    {
+      "item": "cookbook_of_babel:substance",
+      "nbt": {
+        "substance": "cookbook_of_babel:black_bean_soup_with_tomato_tomatillo_salsa_step_3"
+      }
+    }
+  ]
+}

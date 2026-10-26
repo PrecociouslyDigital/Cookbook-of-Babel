@@ -1,0 +1,41 @@
+{
+  "type": "pneumaticcraft:thermo_plant",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "pneumaticcraft"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/frito_pie_chili_step_2"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "pneumaticcraft"
+    }
+  ],
+  "fluid_input": {
+    "type": "pneumaticcraft:fluid",
+    "amount": 7,
+    "fluid": "pneumaticcraft:vegetable_oil",
+    "fuzzyNBT": false
+  },
+  "item_input": [
+    {
+      "type": "forge:partial_nbt",
+      "item": "cookbook_of_babel:substance",
+      "nbt": "{substance:\"cookbook_of_babel:onion\"}"
+    },
+    {
+      "tag": "cookbook_of_babel:ingredients/onion"
+    }
+  ],
+  "item_output": {
+    "count": 5,
+    "item": "cookbook_of_babel:substance",
+    "nbt": "{substance:\"cookbook_of_babel:frito_pie_chili_step_2\"}"
+  },
+  "temperature": {
+    "min_temp": 458
+  }
+}

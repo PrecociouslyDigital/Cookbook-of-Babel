@@ -1,0 +1,28 @@
+{
+  "type": "pneumaticcraft:thermo_plant",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "pneumaticcraft"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/herb_bubble_bread_step_7"
+    }
+  ],
+  "item_input": [
+    {
+      "type": "forge:partial_nbt",
+      "item": "cookbook_of_babel:substance",
+      "nbt": "{substance:\"cookbook_of_babel:herb_bubble_bread_step_6\"}"
+    },
+    {
+      "tag": "cookbook_of_babel:ingredients/herb_bubble_bread_step_6"
+    }
+  ],
+  "item_output": {
+    "count": 1,
+    "item": "cookbook_of_babel:substance",
+    "nbt": "{substance:\"cookbook_of_babel:herb_bubble_bread_step_7\"}"
+  }
+}

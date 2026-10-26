@@ -1,0 +1,38 @@
+{
+  "type": "pneumaticcraft:thermo_plant",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "pneumaticcraft"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/spelt_burger_step_4"
+    }
+  ],
+  "fluid_input": {
+    "type": "pneumaticcraft:fluid",
+    "amount": 240,
+    "fluid": "cookbook_of_babel:liquid",
+    "fuzzyNBT": false,
+    "nbt": "{substance:\"cookbook_of_babel:oil_and_fat\"}"
+  },
+  "item_input": [
+    {
+      "type": "forge:partial_nbt",
+      "item": "cookbook_of_babel:substance",
+      "nbt": "{substance:\"cookbook_of_babel:spelt_burger_step_3\"}"
+    },
+    {
+      "tag": "cookbook_of_babel:ingredients/spelt_burger_step_3"
+    }
+  ],
+  "item_output": {
+    "count": 1,
+    "item": "cookbook_of_babel:substance",
+    "nbt": "{substance:\"cookbook_of_babel:spelt_burger_step_4\"}"
+  },
+  "temperature": {
+    "min_temp": 458
+  }
+}

@@ -30,7 +30,7 @@ Steps of each technique with a recipe in at least one machine; elided steps aren
 | dissolve | 193 | 187 |
 | dry | 9 | 0 |
 | evaporate | 210 | 204 |
-| ferment | 192 | 175 |
+| ferment | 192 | 177 |
 | fold | 242 | 238 |
 | freeze | 2 | 0 |
 | fry | 493 | 459 |
@@ -92,7 +92,6 @@ Used by some step, made by none, and provided by no mapped mod, so nothing in th
 - `almond_flour` (almond flour)
 - `almond_gum` (almond gum)
 - `almond_oil` (almond oil)
-- `amaranth` (amaranth)
 - `amba_sauce` (amba sauce)
 - `amchoor` (amchoor)
 - `ancho` (ancho)
@@ -151,7 +150,6 @@ Used by some step, made by none, and provided by no mapped mod, so nothing in th
 - `banga_spice_mix` (banga spice mix)
 - `baobab` (baobab)
 - `barberry` (barberry)
-- `barley` (barley)
 - `basic_pizza_crust` (basic pizza crust)
 - `basil` (basil)
 - `basmati` (basmati)
@@ -169,8 +167,6 @@ Used by some step, made by none, and provided by no mapped mod, so nothing in th
 - `beef_stock_cubes` (beef stock cubes)
 - `beef_with_bones` (beef with bones)
 - `beet` (beet)
-- `bell_pepper` (bell pepper)
-- `bell_peppers` (bell peppers)
 - `bengali_five_spice_mix_panch_puran` (panch puran)
 - `berbere_spice` (berbere spice)
 - `berries` (berries)
@@ -330,7 +326,6 @@ Used by some step, made by none, and provided by no mapped mod, so nothing in th
 - `chiltepin` (chiltepin)
 - `chinese_herbs` (chinese herbs)
 - `chinese_sweet_sausages` (chinese sweet sausages)
-- `chip` (chip)
 - `chipotle_pepper` (chipotle pepper)
 - `chipped_beef` (chipped beef)
 - `chive` (chive)
@@ -404,7 +399,6 @@ Used by some step, made by none, and provided by no mapped mod, so nothing in th
 - `cored_and_sliced_apples` (cored and sliced apples)
 - `coriander` (coriander)
 - `coriander_leaves` (coriander leaves)
-- `corn` (corn)
 - `corn_flakes` (corn flakes)
 - `corn_flour` (corn flour)
 - `corn_husks` (corn husks)
@@ -529,7 +523,6 @@ Used by some step, made by none, and provided by no mapped mod, so nothing in th
 - `eel` (eel)
 - `egg_noodles` (egg noodles)
 - `egg_whites` (egg whites)
-- `eggplant` (eggplant)
 - `einkorn` (einkorn)
 - `elephant_grass` (elephant grass)
 - `ementhaler` (ementhaler)
@@ -668,7 +661,6 @@ Used by some step, made by none, and provided by no mapped mod, so nothing in th
 - `gravy_granules` (gravy granules)
 - `gravy_powder` (gravy powder)
 - `gravy_spices` (gravy spices)
-- `green_bean` (green bean)
 - `green_onion` (green onion)
 - `green_pepper` (green pepper)
 - `grits` (grits)
@@ -742,7 +734,6 @@ Used by some step, made by none, and provided by no mapped mod, so nothing in th
 - `homemade_biscuit_mix` (biscuit mix)
 - `homi` (homi)
 - `hominy` (hominy)
-- `hops` (hops)
 - `horse` (horse)
 - `horseradish` (horseradish)
 - `hot_dog` (hot dog)
@@ -1086,7 +1077,6 @@ Used by some step, made by none, and provided by no mapped mod, so nothing in th
 - `peach` (peach)
 - `peach_nectar` (peach nectar)
 - `peach_schnapps` (peach schnapps)
-- `peanut_butter` (peanut butter)
 - `pear` (pear)
 - `pearl_onions` (pearl onions)
 - `pecan_halves` (pecan halves)
@@ -1198,7 +1188,6 @@ Used by some step, made by none, and provided by no mapped mod, so nothing in th
 - `quince` (quince)
 - `quinoa` (quinoa)
 - `quorn` (quorn)
-- `radish` (radish)
 - `raisin` (raisin)
 - `raspberries` (raspberries)
 - `raspberry` (raspberry)
@@ -1375,7 +1364,6 @@ Used by some step, made by none, and provided by no mapped mod, so nothing in th
 - `spek` (spek)
 - `spelt` (spelt)
 - `spiced_clarified_butter` (spiced clarified butter)
-- `spinach` (spinach)
 - `spinach_lentil_water` (spinach-lentil water)
 - `spirits` (spirits)
 - `spirulina` (spirulina)
@@ -1404,8 +1392,6 @@ Used by some step, made by none, and provided by no mapped mod, so nothing in th
 - `store_bought_gyoza_wonton_wrappers` (store-bought gyoza/wonton wrappers)
 - `store_bought_pizza_dough` (store-bought pizza dough)
 - `stout` (stout)
-- `strawberries` (strawberries)
-- `strawberry` (strawberry)
 - `strong_wholemeal_flour` (strong wholemeal flour)
 - `sucuk` (sucuk)
 - `suet` (suet)
@@ -1448,7 +1434,6 @@ Used by some step, made by none, and provided by no mapped mod, so nothing in th
 - `tatsoi` (tatsoi)
 - `taurine` (taurine)
 - `tea_bag` (tea bag)
-- `tea_leaf` (tea leaf)
 - `tea_leaves` (tea leaves)
 - `teff` (teff)
 - `tempeh` (tempeh)
@@ -1521,7 +1506,6 @@ Used by some step, made by none, and provided by no mapped mod, so nothing in th
 - `vegemite` (vegemite)
 - `vegetable` (vegetable)
 - `vegetable_leaf` (vegetable leaf)
-- `vegetable_oil` (vegetable oil)
 - `velveeta_cheese` (velveeta)
 - `venison` (venison)
 - `vermicelli` (vermicelli)
@@ -3585,6 +3569,7 @@ Rounding error is the largest relative error of any non-negligible amount; above
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `abula_nigerian_three_stews.step_2` (boil)
 
@@ -3628,6 +3613,7 @@ Rounding error is the largest relative error of any non-negligible amount; above
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 10%
+- thermal_press: 1 recipe, rounding 10%
 
 ### `accra_cassava_cameroonian_cassava_fritters.step_2` (blend)
 
@@ -3646,11 +3632,13 @@ Rounding error is the largest relative error of any non-negligible amount; above
 ### `accra_cassava_cameroonian_cassava_fritters.step_6` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 2 recipes, rounding 0%
 
 ### `accra_cassava_cameroonian_cassava_fritters.step_7` (strain)
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: 1 recipe, rounding 0%
 
 ### `acevichada_sauce.step_1` (assemble)
 
@@ -3747,16 +3735,19 @@ Rounding error is the largest relative error of any non-negligible amount; above
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `acorn_crusted_salmon.step_8` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `acorn_squash_with_orange_marmalade.step_2` (separate)
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: 1 recipe, rounding 0%
 
 ### `acorn_squash_with_orange_marmalade.step_3` (cut)
 
@@ -3806,6 +3797,7 @@ Rounding error is the largest relative error of any non-negligible amount; above
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 11%, estimated
+- thermal_centrifuge: none, whole items would distort it by 1636%
 
 ### `adoyo_nigerian_ogi_beverage.step_3` (heat)
 
@@ -3852,7 +3844,8 @@ Rounding error is the largest relative error of any non-negligible amount; above
 
 ### `aebleskiver_danish_spherical_pancakes.step_3` (pan_fry)
 
-- create_heated_mixing: 1 recipe, rounding 5%, estimated
+- create_heated_mixing: 2 recipes, rounding 5%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 6%, estimated
 
 ### `aebleskiver_danish_spherical_pancakes.step_4` (shape)
 
@@ -3862,6 +3855,7 @@ Rounding error is the largest relative error of any non-negligible amount; above
 ### `aebleskiver_danish_spherical_pancakes.step_5` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `affogato.step_1` (assemble)
 
@@ -3871,11 +3865,13 @@ Rounding error is the largest relative error of any non-negligible amount; above
 ### `african_cabbage_stew.step_1` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 1%
+- pnc_thermo_plant: 1 recipe, rounding 50% ⚠
 
 ### `african_cabbage_stew.step_2` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `african_cabbage_stew.step_3` (boil)
 
@@ -3970,6 +3966,7 @@ Rounding error is the largest relative error of any non-negligible amount; above
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: none, whole items would distort it by 8233%
+- thermal_centrifuge: none, whole items would distort it by 8233%
 
 ### `agbalumo_smoothie.step_2` (assemble)
 
@@ -3989,6 +3986,7 @@ Rounding error is the largest relative error of any non-negligible amount; above
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: none, whole items would distort it by 594%
+- thermal_centrifuge: none, whole items would distort it by 1636%
 
 ### `agbugbu_nigerian_pigeon_pea_and_yam_porridge.step_1` (soak)
 
@@ -3999,6 +3997,7 @@ Rounding error is the largest relative error of any non-negligible amount; above
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: none, whole items would distort it by 3025%
+- thermal_centrifuge: none, whole items would distort it by 5108%
 
 ### `agbugbu_nigerian_pigeon_pea_and_yam_porridge.step_3` (boil)
 
@@ -4014,6 +4013,7 @@ Rounding error is the largest relative error of any non-negligible amount; above
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: none, whole items would distort it by 421%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 6
 
 ### `agbugbu_nigerian_pigeon_pea_and_yam_porridge.step_6` (mix)
 
@@ -4034,6 +4034,7 @@ Rounding error is the largest relative error of any non-negligible amount; above
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 5%
+- thermal_press: 1 recipe, rounding 15% ⚠
 
 ### `agedashi_tofu.step_3` (boil)
 
@@ -4048,6 +4049,7 @@ Rounding error is the largest relative error of any non-negligible amount; above
 ### `agedashi_tofu.step_6` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 4%
+- pnc_thermo_plant: 1 recipe, rounding 4%
 
 ### `agedashi_tofu.step_8` (assemble)
 
@@ -4062,6 +4064,7 @@ Rounding error is the largest relative error of any non-negligible amount; above
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 13%, estimated
+- thermal_centrifuge: 1 recipe, rounding 15% ⚠, estimated
 
 ### `ager_soup.step_3` (heat)
 
@@ -4138,6 +4141,7 @@ Rounding error is the largest relative error of any non-negligible amount; above
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `akabenz_rwandan_fried_chicken.step_1` (mix)
 
@@ -4152,10 +4156,12 @@ Rounding error is the largest relative error of any non-negligible amount; above
 ### `akabenz_rwandan_fried_chicken.step_4` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 12%
+- pnc_thermo_plant: 2 recipes, rounding 12%
 
 ### `akabenz_rwandan_fried_chicken.step_5` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 12%
+- pnc_thermo_plant: 1 recipe, rounding 12%
 
 ### `akamu_nigerian_pudding.step_1` (assemble)
 
@@ -4188,12 +4194,14 @@ Rounding error is the largest relative error of any non-negligible amount; above
 
 ### `akarange_rwandan_tomato_sauce.step_2` (pan_fry)
 
-- create_heated_mixing: 1 recipe, rounding 1%
+- create_heated_mixing: 2 recipes, rounding 1%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `akarange_rwandan_tomato_sauce.step_3` (stir_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `akarange_rwandan_tomato_sauce.step_4` (mix)
 
@@ -4229,6 +4237,7 @@ Rounding error is the largest relative error of any non-negligible amount; above
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: none, whole items would distort it by 3025%
+- thermal_centrifuge: none, whole items would distort it by 3025%
 
 ### `akarubi_rwandan_grilled_banana.step_5` (season)
 
@@ -4254,11 +4263,13 @@ Rounding error is the largest relative error of any non-negligible amount; above
 
 - vd_fermenting_jar: 1 recipe, rounding 4%
 - bnc_keg: none, can't make the mod's own akpu_step_3, and no other mod provides it
+- pnc_thermo_plant: 1 recipe, rounding 4%
 
 ### `akpu.step_4` (separate)
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 4%
+- thermal_centrifuge: 1 recipe, rounding 4%
 
 ### `akpu.step_5` (grind)
 
@@ -4268,6 +4279,7 @@ Rounding error is the largest relative error of any non-negligible amount; above
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 4%
+- thermal_press: none, doesn't fit in 1 input items and 1000 mB tanks at any scale
 
 ### `akpu.step_7` (assemble)
 
@@ -4311,6 +4323,7 @@ Rounding error is the largest relative error of any non-negligible amount; above
 ### `albanian_fried_meatballs.step_4` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `albanian_meat_with_walnuts.step_1` (simmer)
 
@@ -4321,6 +4334,7 @@ Rounding error is the largest relative error of any non-negligible amount; above
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 6%
+- thermal_centrifuge: 1 recipe, rounding 6%
 
 ### `albanian_meat_with_walnuts.step_3` (toast)
 
@@ -4340,6 +4354,7 @@ Rounding error is the largest relative error of any non-negligible amount; above
 ### `albanian_meat_with_walnuts.step_6` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `albanian_mixed_vegetables.step_1` (cut)
 
@@ -4349,10 +4364,12 @@ Rounding error is the largest relative error of any non-negligible amount; above
 ### `albanian_mixed_vegetables.step_2` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 6%
+- pnc_thermo_plant: 1 recipe, rounding 22% ⚠
 
 ### `albanian_mixed_vegetables.step_3` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 7%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 6
 
 ### `albanian_mixed_vegetables.step_4` (simmer)
 
@@ -4426,11 +4443,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 7
 
 ### `ale_mustard_and_winter_vegetable_pie.step_7` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `ale_mustard_and_winter_vegetable_pie.step_8` (mix)
 
@@ -4485,6 +4504,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 12%
+- thermal_centrifuge: 1 recipe, rounding 12%
 
 ### `alfredo_sauce.step_4` (coat)
 
@@ -4510,6 +4530,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - vd_fermenting_jar: 1 recipe, rounding 0%, estimated
 - bnc_keg: none, can't make the mod's own algerian_baghrir_step_3, and no other mod provides it
+- pnc_thermo_plant: 1 recipe, rounding 4%, estimated
 
 ### `algerian_baghrir.step_4` (whisk)
 
@@ -4519,21 +4540,25 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 17% ⚠, estimated
 
 ### `algerian_baghrir.step_7` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 17% ⚠, estimated
 
 ### `algerian_baghrir.step_8` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `algerian_chakhchoukha_vegetable_and_flatbread_stew.step_2` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 13%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 8
 
 ### `algerian_chakhchoukha_vegetable_and_flatbread_stew.step_3` (simmer)
 
@@ -4564,6 +4589,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - vd_fermenting_jar: none, whole items would distort it by 793%
 - bnc_keg: none, can't make the mod's own algerian_coca_step_1, and no other mod provides it
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `algerian_coca.step_10` (assemble)
 
@@ -4598,11 +4624,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - vd_fermenting_jar: 1 recipe, rounding 2%
 - bnc_keg: none, can't make the mod's own algerian_coca_step_4, and no other mod provides it
+- pnc_thermo_plant: 1 recipe, rounding 2%
 
 ### `algerian_coca.step_5` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 2%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `algerian_coca.step_6` (season)
 
@@ -4613,6 +4641,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `algerian_coca.step_9` (shape)
 
@@ -4643,6 +4672,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 0%, estimated
 
 ### `algerian_couscous_with_meat_and_vegetables.step_14` (assemble)
 
@@ -4668,11 +4698,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 8%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `algerian_couscous_with_meat_and_vegetables.step_7` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `algerian_couscous_with_meat_and_vegetables.step_8` (season)
 
@@ -4698,6 +4730,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_press: 1 recipe, rounding 0%, estimated
 
 ### `algerian_lemonade.step_4` (boil)
 
@@ -4745,11 +4778,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 1%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `alicha_wot_mild_ethiopian_stew.step_3` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 1%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `alicha_wot_mild_ethiopian_stew.step_4` (season)
 
@@ -4794,11 +4829,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - vd_fermenting_jar: 1 recipe, rounding 5%
 - bnc_keg: none, can't make the mod's own alkubus_nigerian_steamed_bread_step_3, and no other mod provides it
+- pnc_thermo_plant: 1 recipe, rounding 5%
 
 ### `alkubus_nigerian_steamed_bread.step_4` (press)
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 5%
+- thermal_press: 1 recipe, rounding 5%
 
 ### `alkubus_nigerian_steamed_bread.step_5` (shape)
 
@@ -4814,6 +4851,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 2%
+- thermal_centrifuge: 1 recipe, rounding 2%
 
 ### `almond_cake.step_1` (mix)
 
@@ -4913,6 +4951,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 15%, estimated
+- thermal_centrifuge: 1 recipe, rounding 15%, estimated
 
 ### `almond_milk_ii.step_1` (soak)
 
@@ -4927,6 +4966,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 5%, estimated
+- thermal_centrifuge: 1 recipe, rounding 6%, estimated
 
 ### `almond_milk_ii.step_4` (blend)
 
@@ -4935,10 +4975,12 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `almond_pancakes.step_10` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 0%, estimated
 
 ### `almond_pancakes.step_11` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `almond_pancakes.step_2` (mix)
 
@@ -4966,6 +5008,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `almond_pancakes.step_8` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 4%, estimated
 
 ### `almond_toffee_blondies.step_1` (mix)
 
@@ -4999,6 +5042,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `aloo_tikki_spiced_potato_patties.step_2` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 2 recipes, rounding 0%
 
 ### `aloo_tikki_spiced_potato_patties.step_3` (shape)
 
@@ -5008,6 +5052,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `aloo_tikki_spiced_potato_patties.step_4` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `aloo_tikki_spiced_potato_patties.step_5` (season)
 
@@ -5023,6 +5068,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 4%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 5
 
 ### `alsatian_chicken_fricassee.step_5` (assemble)
 
@@ -5083,6 +5129,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: 1 recipe, rounding 0%
 
 ### `alsatian_fresh_noodles_nouilles_fraiches_a_l_alsacienne.step_9` (simmer)
 
@@ -5152,11 +5199,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `american_marinara_sauce_i.step_3` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 8%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 31% ⚠, estimated
 
 ### `american_marinara_sauce_i.step_5` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `american_marinara_sauce_i.step_6` (mix)
 
@@ -5182,6 +5231,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 6
 
 ### `american_marinara_sauce_ii.step_2` (mix)
 
@@ -5236,6 +5286,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 14%
+- thermal_centrifuge: 1 recipe, rounding 14%
 
 ### `american_potato_salad_i.step_6` (coat)
 
@@ -5266,6 +5317,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `american_potato_salad_ii.step_4` (assemble)
 
@@ -5300,6 +5352,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `americanized_eggplant_parmesan.step_13` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `americanized_eggplant_parmesan.step_14` (assemble)
 
@@ -5350,11 +5403,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_press: 1 recipe, rounding 0%
 
 ### `americanized_eggplant_parmesan.step_4` (press)
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_press: 1 recipe, rounding 0%
 
 ### `americanized_eggplant_parmesan.step_6` (dry)
 
@@ -5382,6 +5437,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 3 recipes, rounding 1%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 5
 
 ### `angels_on_horseback_bacon_wrapped_oysters.step_1` (soak)
 
@@ -5489,6 +5545,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - vd_fermenting_jar: 1 recipe, rounding 1%, estimated
 - bnc_keg: none, can't make the mod's own appam_fermented_rice_pancake_step_5, and no other mod provides it
+- pnc_thermo_plant: 1 recipe, rounding 1%, estimated
 
 ### `appam_fermented_rice_pancake.step_6` (chill)
 
@@ -5503,6 +5560,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 5%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 5%, estimated
 
 ### `apple_and_almond_cake.step_2` (heat)
 
@@ -5582,6 +5640,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `apple_brown_betty.step_2` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 13%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 15% ⚠, estimated
 
 ### `apple_brown_betty.step_3` (mix)
 
@@ -5613,7 +5672,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `apple_bundt_cake.step_3` (blend)
 
-- create_mixing: 1 recipe, rounding 0%, estimated
+- create_mixing: 2 recipes, rounding 0%, estimated
 
 ### `apple_bundt_cake.step_4` (mix)
 
@@ -5686,6 +5745,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 6%, estimated
 
 ### `apple_cider_syrup.step_6` (boil)
 
@@ -5839,6 +5899,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 5%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `apple_fritters.step_4` (coat)
 
@@ -5863,6 +5924,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 1%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `apple_parsnip_soup.step_2` (chop)
 
@@ -5977,6 +6039,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 2%
+- thermal_centrifuge: 1 recipe, rounding 32% ⚠
 
 ### `apple_pie_i.step_9` (mix)
 
@@ -6042,6 +6105,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: 1 recipe, rounding 0%
 
 ### `apple_pie_ii.step_8` (dissolve)
 
@@ -6235,6 +6299,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - vd_fermenting_jar: 1 recipe, rounding 0%, estimated
 - bnc_keg: none, can't make the mod's own apricot_wine_step_5, and no other mod provides it
+- pnc_thermo_plant: 1 recipe, rounding 4%, estimated
 
 ### `apricot_wine.step_6` (mix)
 
@@ -6245,6 +6310,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 17% ⚠, estimated
 
 ### `arancini_italian_fried_rice_balls.step_1` (boil)
 
@@ -6288,6 +6354,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `arancini_italian_fried_rice_balls.step_9` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 2 recipes, rounding 0%
 
 ### `arisa_malaysian_blended_chicken.step_1` (cut)
 
@@ -6298,6 +6365,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `arisa_malaysian_blended_chicken.step_11` (assemble)
 
@@ -6331,6 +6399,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 1%, estimated
+- thermal_centrifuge: none, takes one input, not 3
 
 ### `arisa_malaysian_blended_chicken.step_8` (mix)
 
@@ -6351,6 +6420,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 14%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `arisa_pitha_fried_indian_sweet_rice_pastry.step_3` (assemble)
 
@@ -6359,7 +6429,8 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `arisa_pitha_fried_indian_sweet_rice_pastry.step_4` (fry)
 
-- create_heated_mixing: 1 recipe, rounding 14%
+- create_heated_mixing: 2 recipes, rounding 14%
+- pnc_thermo_plant: 2 recipes, rounding 14%
 
 ### `arjoli_maltese_herbed_bread_dip.step_1` (soak)
 
@@ -6392,11 +6463,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 17% ⚠, estimated
 
 ### `arroz_con_gandules_puerto_rican_rice_and_pigeon_peas.step_4` (strain)
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: none, takes one input, not 3
 
 ### `arroz_con_gandules_puerto_rican_rice_and_pigeon_peas.step_5` (toast)
 
@@ -6412,6 +6485,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 33% ⚠, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 8
 
 ### `arroz_con_gandules_puerto_rican_rice_and_pigeon_peas.step_8` (season)
 
@@ -6451,6 +6525,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 1%, estimated
+- thermal_centrifuge: none, takes one input, not 2
 
 ### `arroz_con_maiz_rice_with_corn.step_4` (steep)
 
@@ -6462,6 +6537,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 17% ⚠, estimated
 
 ### `arroz_con_maiz_rice_with_corn.step_6` (toast)
 
@@ -6476,6 +6552,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 6%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 7
 
 ### `arroz_con_maiz_rice_with_corn.step_9` (coat)
 
@@ -6496,16 +6573,19 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 3%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `arroz_con_pollo_rice_and_chicken.step_4` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `arroz_con_pollo_rice_and_chicken.step_5` (stir_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 1%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 6
 
 ### `arroz_con_pollo_rice_and_chicken.step_6` (assemble)
 
@@ -6540,6 +6620,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `asaro.step_3` (season)
 
@@ -6595,6 +6676,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 13%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `ashoka_halwa_mung_bean_pudding.step_7` (mix)
 
@@ -6659,6 +6741,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 17% ⚠, estimated
 
 ### `asian_grilled_salmon.step_4` (grill)
 
@@ -6773,11 +6856,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `asparagus_frittata.step_4` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `asparagus_frittata.step_5` (coagulate)
 
@@ -6812,6 +6897,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 13%, estimated
+- thermal_centrifuge: none, takes one input, not 3
 
 ### `asparagus_soup.step_4` (blend)
 
@@ -6821,6 +6907,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 0%, estimated
 
 ### `asparagus_soup.step_6` (heat)
 
@@ -6841,6 +6928,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 17% ⚠, estimated
 
 ### `asparagus_with_sesame_seeds_and_soy_sauce.step_6` (season)
 
@@ -6914,6 +7002,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 5%, estimated
+- thermal_press: none, takes one input, not 3
 
 ### `atama_soup.step_3` (boil)
 
@@ -6941,12 +7030,14 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `atkilt_wat_ethiopian_cabbage_and_potato_stew.step_2` (pan_fry)
 
-- create_heated_mixing: 1 recipe, rounding 1%
+- create_heated_mixing: 2 recipes, rounding 1%
+- pnc_thermo_plant: 2 recipes, rounding 1%
 
 ### `atkilt_wat_ethiopian_cabbage_and_potato_stew.step_3` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 1%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `atkilt_wat_ethiopian_cabbage_and_potato_stew.step_4` (coat)
 
@@ -7174,6 +7265,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `austrian_apricot_dumplings_marillenknodel.step_7` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 1%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 5
 
 ### `austrian_apricot_dumplings_marillenknodel.step_8` (coat)
 
@@ -7194,6 +7286,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `austrian_meatloaf_faschierter_braten.step_4` (mix)
 
@@ -7219,6 +7312,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 4%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `austrian_napkin_dumpling_serviettenknodel.step_3` (soak)
 
@@ -7262,6 +7356,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: 1 recipe, rounding 100% ⚠
 
 ### `avocado_relish.step_2` (mix)
 
@@ -7275,11 +7370,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `awaze_tibs_spicy_ethiopian_meat_stir_fry.step_2` (stir_fry)
 
-- create_heated_mixing: 1 recipe, rounding 12%
+- create_heated_mixing: 2 recipes, rounding 12%
+- pnc_thermo_plant: 2 recipes, rounding 19% ⚠
 
 ### `awaze_tibs_spicy_ethiopian_meat_stir_fry.step_3` (stir_fry)
 
 - create_heated_mixing: 1 recipe, rounding 2%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `awaze_tibs_spicy_ethiopian_meat_stir_fry.step_4` (coat)
 
@@ -7299,6 +7396,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `awaze_tibs_spicy_ethiopian_meat_stir_fry.step_7` (stir_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `awaze_tibs_spicy_ethiopian_meat_stir_fry.step_8` (season)
 
@@ -7338,10 +7436,12 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `ayam_goreng_mentega_fried_chicken_in_sweet_butter_sauce.step_2` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `ayam_goreng_mentega_fried_chicken_in_sweet_butter_sauce.step_3` (stir_fry)
 
 - create_heated_mixing: 1 recipe, rounding 6%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 8
 
 ### `ayam_goreng_mentega_fried_chicken_in_sweet_butter_sauce.step_4` (coat)
 
@@ -7352,6 +7452,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 7%
+- pnc_thermo_plant: 1 recipe, rounding 7%
 
 ### `ayamase_jollof_rice.step_2` (blend)
 
@@ -7361,6 +7462,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `ayamase_jollof_rice.step_4` (season)
 
@@ -7409,16 +7511,19 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 10%
+- thermal_centrifuge: 1 recipe, rounding 10%
 
 ### `ayib_ethiopian_fresh_cheese.step_7` (press)
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 10%
+- thermal_press: 1 recipe, rounding 10%
 
 ### `ayib_ethiopian_fresh_cheese.step_8` (press)
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 10%
+- thermal_press: none, whole items would distort it by 488%
 
 ### `ayib_ethiopian_fresh_cheese.step_9` (season)
 
@@ -7458,6 +7563,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 6%
+- thermal_centrifuge: 1 recipe, rounding 21% ⚠
 
 ### `baba_ganoush.step_3` (blend)
 
@@ -7466,6 +7572,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `babi_panggang_sauce.step_1` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 1%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `babi_panggang_sauce.step_2` (mix)
 
@@ -7544,6 +7651,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: 1 recipe, rounding 0%
 
 ### `bacon_and_egg_stuffed_tomatoes.step_3` (chop)
 
@@ -7607,10 +7715,12 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `bacon_cheese_omelet.step_6` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 4%, estimated
 
 ### `bacon_cheese_omelet.step_7` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 0%, estimated
 
 ### `bacon_cheese_omelet.step_8` (assemble)
 
@@ -7640,6 +7750,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `bacon_wrapped_scallops.step_5` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 7%
+- pnc_thermo_plant: 1 recipe, rounding 17% ⚠
 
 ### `bacon_wrapped_scallops.step_6` (coat)
 
@@ -7660,6 +7771,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: 1 recipe, rounding 0%
 
 ### `bafa_cape_verdean_seafood_stew.step_13` (season)
 
@@ -7675,11 +7787,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: none, takes one input, not 2
 
 ### `bafa_cape_verdean_seafood_stew.step_2` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 1%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `bafa_cape_verdean_seafood_stew.step_3` (heat)
 
@@ -7769,11 +7883,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `baingan_bartha_south_indian_eggplant_with_chili_ii.step_2` (pan_fry)
 
 - create_heated_mixing: none, whole items would distort it by 470%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 6
 
 ### `baingan_bartha_south_indian_eggplant_with_chili_ii.step_3` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `baingan_bartha_south_indian_eggplant_with_chili_ii.step_4` (simmer)
 
@@ -7855,6 +7971,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `baked_cabbage_and_bacon.step_2` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `baked_cabbage_and_bacon.step_3` (mix)
 
@@ -7885,11 +8002,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `baked_chicken_with_onions_sumac_and_allspice_musakhan.step_3` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 3%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `baked_chicken_with_onions_sumac_and_allspice_musakhan.step_4` (season)
 
@@ -7964,6 +8083,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 32% ⚠, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 9
 
 ### `baked_eggplant.step_6` (grill)
 
@@ -8008,10 +8128,12 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `baked_leeks.step_2` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 8%
+- pnc_thermo_plant: 1 recipe, rounding 8%
 
 ### `baked_leeks.step_3` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 7%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `baked_leeks.step_4` (boil)
 
@@ -8052,6 +8174,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: 1 recipe, rounding 0%
 
 ### `baked_mac_n_cheese.step_3` (mix)
 
@@ -8316,6 +8439,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 16% ⚠, estimated
+- thermal_centrifuge: 1 recipe, rounding 16% ⚠, estimated
 
 ### `baklava_ii.step_6` (coat)
 
@@ -8659,6 +8783,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `banana_chocolate_bread_pudding.step_6` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 13%, estimated
+- pnc_thermo_plant: none, doesn't fit in 1 input items and 1000 mB tanks at any scale
 
 ### `banana_chocolate_bread_pudding.step_7` (assemble)
 
@@ -8899,6 +9024,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `banana_curry.step_3` (fry)
 
 - create_heated_mixing: none, whole items would distort it by 509%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `banana_curry.step_4` (mix)
 
@@ -8942,10 +9068,12 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `banana_nutmeg_pancakes.step_11` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `banana_nutmeg_pancakes.step_12` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `banana_nutmeg_pancakes.step_2` (mix)
 
@@ -8979,14 +9107,17 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `banana_nutmeg_pancakes.step_9` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 4%, estimated
 
 ### `banana_pancakes.step_10` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `banana_pancakes.step_11` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `banana_pancakes.step_2` (mix)
 
@@ -9015,10 +9146,12 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `banana_pancakes.step_8` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 4%, estimated
 
 ### `banana_pancakes.step_9` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 0%, estimated
 
 ### `banana_pudding.step_1` (heat)
 
@@ -9111,6 +9244,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: 1 recipe, rounding 0%
 
 ### `banana_spirulina_pancakes.step_1` (mix)
 
@@ -9120,10 +9254,11 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `banana_spirulina_pancakes.step_10` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `banana_spirulina_pancakes.step_2` (mix)
 
-- create_mixing: 1 recipe, rounding 5%, estimated
+- create_mixing: 2 recipes, rounding 5%, estimated
 - shapeless_crafting: none, whole items would distort it by 111%
 
 ### `banana_spirulina_pancakes.step_3` (mix)
@@ -9139,10 +9274,12 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `banana_spirulina_pancakes.step_6` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 4%, estimated
 
 ### `banana_spirulina_pancakes.step_8` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 0%, estimated
 
 ### `banana_spirulina_pancakes.step_9` (heat)
 
@@ -9212,6 +9349,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 5%, estimated
+- thermal_centrifuge: none, takes one input, not 2
 
 ### `banga_soup.step_2` (boil)
 
@@ -9236,10 +9374,12 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `bangers_and_mash.step_2` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 2 recipes, rounding 100% ⚠
 
 ### `bangers_and_mash.step_3` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `bangers_and_mash.step_4` (boil)
 
@@ -9250,6 +9390,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: 1 recipe, rounding 0%
 
 ### `bangers_and_mash.step_6` (mix)
 
@@ -9260,10 +9401,12 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: none, whole items would distort it by 300%
 
 ### `bangladesh_curry.step_2` (fry)
 
-- create_heated_mixing: 1 recipe, rounding 0%
+- create_heated_mixing: 2 recipes, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `bangladesh_curry.step_3` (chop)
 
@@ -9278,6 +9421,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `bangladesh_curry.step_5` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 90% ⚠, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 6
 
 ### `bangladesh_curry.step_6` (simmer)
 
@@ -9355,11 +9499,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 1%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 5
 
 ### `barbecue_fried_rice.step_2` (stir_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `barbecue_fried_rice.step_3` (mix)
 
@@ -9403,6 +9549,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `barbecue_potato_chips.step_2` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 2%
+- pnc_thermo_plant: 1 recipe, rounding 2%
 
 ### `barbecue_potato_chips.step_3` (season)
 
@@ -9588,6 +9735,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 17% ⚠, estimated
 
 ### `basic_chai.step_5` (mix)
 
@@ -9637,6 +9785,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 1%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `basic_indian_tomato_gravy.step_2` (mix)
 
@@ -9778,6 +9927,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 1%, estimated
+- thermal_centrifuge: 1 recipe, rounding 1%, estimated
 
 ### `basic_scrambled_eggs.step_2` (season)
 
@@ -9796,10 +9946,12 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `basic_scrambled_eggs.step_5` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 4%, estimated
 
 ### `basic_scrambled_eggs.step_6` (stir_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 0%, estimated
 
 ### `basic_scrambled_eggs.step_7` (coagulate)
 
@@ -9843,6 +9995,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `basin_ki_kadi_sindhi_chickpea_flour_curry.step_1` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 1%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `basin_ki_kadi_sindhi_chickpea_flour_curry.step_2` (toast)
 
@@ -9866,7 +10019,8 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `bassi_salte_senegalese_couscous_with_meat_and_vegetables.step_2` (pan_fry)
 
-- create_heated_mixing: 1 recipe, rounding 3%, estimated
+- create_heated_mixing: 2 recipes, rounding 3%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `bassi_salte_senegalese_couscous_with_meat_and_vegetables.step_3` (mix)
 
@@ -9917,11 +10071,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 1%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `bazeen_bil_lahm_libyan_meat_bazeen.step_3` (fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `bazeen_bil_lahm_libyan_meat_bazeen.step_4` (mix)
 
@@ -9972,6 +10128,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 13%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 10
 
 ### `bbq_pork_fried_rice.step_5` (mix)
 
@@ -9991,6 +10148,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 6%
+- thermal_centrifuge: none, takes one input, not 2
 
 ### `bean_and_bacon_bake.step_4` (assemble)
 
@@ -10020,6 +10178,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `bean_and_rice_bake.step_3` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 6%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `bean_and_rice_bake.step_4` (assemble)
 
@@ -10040,6 +10199,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 5%, estimated
+- thermal_centrifuge: 1 recipe, rounding 5%, estimated
 
 ### `bean_balls.step_2` (soak)
 
@@ -10050,6 +10210,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 5%
+- thermal_centrifuge: 1 recipe, rounding 5%
 
 ### `bean_balls.step_4` (rinse)
 
@@ -10069,11 +10230,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `bean_chili.step_2` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 1%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `bean_chili.step_3` (mix)
 
@@ -10109,6 +10272,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: none, whole items would distort it by 900%
+- pnc_thermo_plant: none, whole items would distort it by 900%
 
 ### `bean_soup_vegetarian.step_1` (assemble)
 
@@ -10184,6 +10348,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `beanburger.step_2` (grind)
 
@@ -10208,16 +10373,19 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `beans_and_rice.step_2` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 1%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 5
 
 ### `beans_and_rice.step_3` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `beans_and_rice.step_4` (mix)
 
@@ -10286,6 +10454,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 17% ⚠, estimated
 
 ### `bechamel_sauce_basic.step_6` (whisk)
 
@@ -10315,6 +10484,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: none, whole items would distort it by 534%
+- thermal_centrifuge: none, takes one input, not 4
 
 ### `bechamel_sauce_louisiannaise.step_1` (steep)
 
@@ -10359,11 +10529,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `beef_and_gizzard_sauce.step_3` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 2 recipes, rounding 0%
 
 ### `beef_and_gizzard_sauce.step_4` (fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 6
 
 ### `beef_and_gizzard_sauce.step_5` (simmer)
 
@@ -10389,11 +10561,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `beef_and_guinness_casserole.step_5` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 11%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 5
 
 ### `beef_and_guinness_casserole.step_6` (simmer)
 
@@ -10408,6 +10582,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `beef_burgers_with_onion.step_1` (pan_fry)
 
 - create_heated_mixing: none, whole items would distort it by 2118%
+- pnc_thermo_plant: none, whole items would distort it by 2118%
 
 ### `beef_burgers_with_onion.step_2` (mix)
 
@@ -10479,6 +10654,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 17% ⚠, estimated
 
 ### `beef_croquettes.step_3` (heat)
 
@@ -10502,6 +10678,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `beef_croquettes.step_7` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 2 recipes, rounding 0%
 
 ### `beef_curry.step_1` (chop)
 
@@ -10517,6 +10694,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 17% ⚠, estimated
 
 ### `beef_curry.step_13` (assemble)
 
@@ -10527,11 +10705,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 1%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `beef_curry.step_3` (fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `beef_curry.step_4` (mix)
 
@@ -10580,6 +10760,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `beef_fajitas.step_6` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `beef_fajitas.step_7` (cut)
 
@@ -10724,6 +10905,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 5
 
 ### `beef_skewers_with_baguette_slices.step_4` (mix)
 
@@ -10763,6 +10945,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `beef_stew_i.step_4` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 3%
+- pnc_thermo_plant: 1 recipe, rounding 22% ⚠
 
 ### `beef_stew_i.step_5` (assemble)
 
@@ -10788,6 +10971,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: 1 recipe, rounding 0%
 
 ### `beef_stew_ii.step_1` (mix)
 
@@ -10798,11 +10982,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `beef_stew_ii.step_3` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `beef_stew_ii.step_4` (mix)
 
@@ -10818,16 +11004,19 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 1%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `beef_stir_fry.step_2` (stir_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 1%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 5
 
 ### `beef_stir_fry.step_3` (stir_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 6%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 8
 
 ### `beef_stir_fry.step_4` (mix)
 
@@ -10858,6 +11047,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: 1 recipe, rounding 0%
 
 ### `beef_tenderloin_steak.step_5` (evaporate)
 
@@ -10882,11 +11072,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 5
 
 ### `beef_tongue_with_chiles_corn_and_tomato_lengua_de_res.step_4` (stir_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 6%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `beef_tongue_with_chiles_corn_and_tomato_lengua_de_res.step_5` (season)
 
@@ -10902,10 +11094,12 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - vd_fermenting_jar: 1 recipe, rounding 14%
 - bnc_keg: none, can't make the mod's own beef_yakiniku_pizza_step_2, and no other mod provides it
+- pnc_thermo_plant: 1 recipe, rounding 14%
 
 ### `beef_yakiniku_pizza.step_3` (stir_fry)
 
 - create_heated_mixing: 1 recipe, rounding 6%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `beef_yakiniku_pizza.step_4` (season)
 
@@ -10921,6 +11115,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: 1 recipe, rounding 0%
 
 ### `beef_yakiniku_pizza.step_7` (assemble)
 
@@ -10991,11 +11186,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: 1 recipe, rounding 0%
 
 ### `beer_can_chicken.step_6` (separate)
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 2 recipes, rounding 0%, estimated
+- thermal_centrifuge: none, takes one input, not 2
 
 ### `beer_can_chicken.step_7` (steep)
 
@@ -11017,6 +11214,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 6%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 5
 
 ### `beer_cheese_risotto.step_3` (simmer)
 
@@ -11047,10 +11245,12 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: 1 recipe, rounding 0%
 
 ### `beer_marinated_shrimp.step_5` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: none, doesn't fit in 1 input items and 1000 mB tanks at any scale
 
 ### `beet_and_cabbage_stew.step_1` (boil)
 
@@ -11091,6 +11291,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: 1 recipe, rounding 0%
 
 ### `beet_pickled_eggs.step_5` (assemble)
 
@@ -11141,6 +11342,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 9%
+- pnc_thermo_plant: 1 recipe, rounding 9%
 
 ### `bell_pepper_chili.step_3` (mix)
 
@@ -11151,6 +11353,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `bell_pepper_chili.step_5` (simmer)
 
@@ -11174,12 +11377,14 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `benachin_gambian_rice_with_meat_and_vegetables.step_2` (pan_fry)
 
-- create_heated_mixing: 1 recipe, rounding 1%
+- create_heated_mixing: 2 recipes, rounding 1%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `benachin_gambian_rice_with_meat_and_vegetables.step_3` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 10%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `benachin_gambian_rice_with_meat_and_vegetables.step_4` (season)
 
@@ -11210,6 +11415,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 17% ⚠, estimated
 
 ### `benechin_kunkujang_gambian_seasoned_rice_and_lamb.step_1` (rinse)
 
@@ -11226,20 +11432,24 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: none, takes one input, not 2
 
 ### `benechin_kunkujang_gambian_seasoned_rice_and_lamb.step_2` (pan_fry)
 
-- create_heated_mixing: 1 recipe, rounding 1%, estimated
+- create_heated_mixing: 2 recipes, rounding 1%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `benechin_kunkujang_gambian_seasoned_rice_and_lamb.step_3` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 1%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `benechin_kunkujang_gambian_seasoned_rice_and_lamb.step_4` (stir_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `benechin_kunkujang_gambian_seasoned_rice_and_lamb.step_5` (mix)
 
@@ -11436,6 +11646,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `bhuna_khichuri_bengali_rice_and_lentils.step_12` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 1%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `bhuna_khichuri_bengali_rice_and_lentils.step_13` (assemble)
 
@@ -11469,11 +11680,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `bhuna_khichuri_bengali_rice_and_lentils.step_7` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 13%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 6
 
 ### `bhuna_khichuri_bengali_rice_and_lentils.step_8` (stir_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 1%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `bhuna_khichuri_bengali_rice_and_lentils.step_9` (coat)
 
@@ -11494,6 +11707,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: 1 recipe, rounding 0%
 
 ### `bibimbap.step_12` (season)
 
@@ -11507,7 +11721,8 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `bibimbap.step_14` (stir_fry)
 
-- create_heated_mixing: 1 recipe, rounding 1%
+- create_heated_mixing: 2 recipes, rounding 1%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `bibimbap.step_15` (season)
 
@@ -11572,6 +11787,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_press: 1 recipe, rounding 0%
 
 ### `bibimbap.step_8` (cut)
 
@@ -11592,11 +11808,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 4%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `bigos_polish_cabbage_meat_stew.step_3` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 12%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `bigos_polish_cabbage_meat_stew.step_4` (simmer)
 
@@ -11627,10 +11845,12 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `binagoongan_sauteed_pork_with_shrimp_paste.step_1` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 6%
+- pnc_thermo_plant: 1 recipe, rounding 10%
 
 ### `binagoongan_sauteed_pork_with_shrimp_paste.step_2` (stir_fry)
 
 - create_heated_mixing: 1 recipe, rounding 2%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `binagoongan_sauteed_pork_with_shrimp_paste.step_3` (mix)
 
@@ -11659,7 +11879,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `bint_as_sa_n_yemenite_layered_pastry.step_2` (mix)
 
-- create_mixing: 1 recipe, rounding 1%, estimated
+- create_mixing: 2 recipes, rounding 1%, estimated
 - shapeless_crafting: none, whole items would distort it by 745%
 
 ### `bint_as_sa_n_yemenite_layered_pastry.step_3` (knead)
@@ -11671,6 +11891,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - vd_fermenting_jar: 1 recipe, rounding 0%
 - bnc_keg: none, can't make the mod's own bint_as_sa_n_yemenite_layered_pastry_step_4, and no other mod provides it
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `bint_as_sa_n_yemenite_layered_pastry.step_5` (shape)
 
@@ -11686,6 +11907,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - vd_fermenting_jar: 1 recipe, rounding 0%
 - bnc_keg: none, can't make the mod's own bint_as_sa_n_yemenite_layered_pastry_step_7, and no other mod provides it
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `bint_as_sa_n_yemenite_layered_pastry.step_9` (coat)
 
@@ -11716,6 +11938,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `biryani.step_2` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `biryani.step_3` (coat)
 
@@ -11741,6 +11964,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `biryani.step_8` (assemble)
 
@@ -11785,11 +12009,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 7%
+- pnc_thermo_plant: 1 recipe, rounding 20% ⚠
 
 ### `biscuits_and_gravy.step_5` (separate)
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 10%
+- thermal_centrifuge: 1 recipe, rounding 76% ⚠
 
 ### `biscuits_and_gravy.step_6` (heat)
 
@@ -11874,6 +12100,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 35% ⚠, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 7
 
 ### `bison_a_la_grecque.step_2` (simmer)
 
@@ -11884,6 +12111,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: 1 recipe, rounding 0%
 
 ### `bison_a_la_grecque.step_4` (mix)
 
@@ -11987,6 +12215,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `black_bean_chili.step_2` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 12
 
 ### `black_bean_chili.step_3` (simmer)
 
@@ -11997,6 +12226,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 6%, estimated
+- thermal_centrifuge: 1 recipe, rounding 6%, estimated
 
 ### `black_bean_soup.step_10` (mix)
 
@@ -12037,6 +12267,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 17% ⚠, estimated
 
 ### `black_bean_soup.step_9` (mix)
 
@@ -12064,7 +12295,8 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `black_bean_soup_with_tomato_tomatillo_salsa.step_3` (pan_fry)
 
-- create_heated_mixing: 1 recipe, rounding 1%
+- create_heated_mixing: 2 recipes, rounding 1%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `black_bean_soup_with_tomato_tomatillo_salsa.step_4` (mix)
 
@@ -12128,11 +12360,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `black_bean_stir_fry.step_7` (stir_fry)
 
-- create_heated_mixing: 1 recipe, rounding 7%, estimated
+- create_heated_mixing: 2 recipes, rounding 7%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `black_bean_stir_fry.step_8` (stir_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `black_bean_stir_fry.step_9` (steam)
 
@@ -12143,6 +12377,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 1%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `black_eyed_peas_and_kale.step_2` (simmer)
 
@@ -12177,6 +12412,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 1%
+- thermal_centrifuge: none, takes one input, not 2
 
 ### `black_forest_cake.step_14` (coat)
 
@@ -12339,6 +12575,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `black_pepper_beef_with_green_beans.step_5` (stir_fry)
 
 - create_heated_mixing: 1 recipe, rounding 1%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `black_pepper_beef_with_green_beans.step_6` (mix)
 
@@ -12364,6 +12601,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 6
 
 ### `black_peppered_chicken_spaghetti.step_4` (mix)
 
@@ -12423,6 +12661,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - vd_fermenting_jar: 1 recipe, rounding 3%
 - bnc_keg: none, can't make the mod's own bliny_step_3, and no other mod provides it
+- pnc_thermo_plant: 1 recipe, rounding 3%
 
 ### `bliny.step_4` (mix)
 
@@ -12433,14 +12672,17 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - vd_fermenting_jar: 1 recipe, rounding 0%, estimated
 - bnc_keg: none, can't make the mod's own bliny_step_5, and no other mod provides it
+- pnc_thermo_plant: 1 recipe, rounding 4%, estimated
 
 ### `bliny.step_6` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 1%, estimated
 
 ### `bliny.step_7` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 0%, estimated
 
 ### `blotkake_norwegian_berries_and_cream_cake.step_1` (whisk)
 
@@ -12480,6 +12722,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `blt_sandwich.step_3` (coat)
 
@@ -12568,6 +12811,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `blueberry_pancakes.step_4` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 0%, estimated
 
 ### `bo_bia.step_1` (roast)
 
@@ -12615,7 +12859,8 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `bo_bia.step_4` (pan_fry)
 
-- create_heated_mixing: 1 recipe, rounding 0%, estimated
+- create_heated_mixing: 2 recipes, rounding 0%, estimated
+- pnc_thermo_plant: 2 recipes, rounding 17% ⚠, estimated
 
 ### `bo_bia.step_5` (cut)
 
@@ -12625,15 +12870,18 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `bo_bia.step_6` (stir_fry)
 
 - create_heated_mixing: 1 recipe, rounding 90% ⚠, estimated
+- pnc_thermo_plant: none, doesn't fit in 1 input items and 1000 mB tanks at any scale
 
 ### `bo_bia.step_7` (stir_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 4%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `bo_bia.step_8` (fry)
 
-- create_heated_mixing: 1 recipe, rounding 1%, estimated
+- create_heated_mixing: 2 recipes, rounding 1%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `bo_bia.step_9` (simmer)
 
@@ -12648,11 +12896,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `bobotie.step_2` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 1%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `bobotie.step_3` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `bobotie.step_4` (season)
 
@@ -12687,6 +12937,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: none, whole items would distort it by 942%
+- thermal_centrifuge: none, whole items would distort it by 942%
 
 ### `bobozi_nigerian_soaked_cassava.step_4` (cut)
 
@@ -12765,6 +13016,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: none, takes one input, not 2
 
 ### `boiled_cocoyam.step_1` (cut)
 
@@ -12785,6 +13037,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: none, whole items would distort it by 212%
+- thermal_centrifuge: none, whole items would distort it by 212%
 
 ### `boiled_collard_greens.step_1` (rinse)
 
@@ -12795,6 +13048,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 6%
+- thermal_centrifuge: 1 recipe, rounding 6%
 
 ### `boiled_collard_greens.step_3` (chop)
 
@@ -12838,6 +13092,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `boiled_cucumber_and_grated_coconut_pachadi.step_5` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 1%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `boiled_cucumber_and_grated_coconut_pachadi.step_6` (simmer)
 
@@ -12921,6 +13176,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: none, whole items would distort it by 212%
+- thermal_centrifuge: none, whole items would distort it by 212%
 
 ### `boiled_potatoes.step_2` (assemble)
 
@@ -12960,6 +13216,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: none, whole items would distort it by 212%
+- thermal_centrifuge: none, whole items would distort it by 212%
 
 ### `boiled_yellow_split_peas.step_1` (soak)
 
@@ -13011,6 +13268,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_press: none, takes one input, not 2
 
 ### `boilo_hot_spiced_citrus_whiskey.step_2` (mix)
 
@@ -13026,6 +13284,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 0%, estimated
 
 ### `boilo_hot_spiced_citrus_whiskey.step_5` (mix)
 
@@ -13051,11 +13310,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `boliche_cuban_chorizo_stuffed_roast.step_4` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 11
 
 ### `boliche_cuban_chorizo_stuffed_roast.step_5` (simmer)
 
@@ -13095,6 +13356,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 17% ⚠, estimated
 
 ### `bolognese_sauce.step_8` (season)
 
@@ -13114,18 +13376,22 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `bonda_south_indian_vegetable_fritter.step_11` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `bonda_south_indian_vegetable_fritter.step_2` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 14%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `bonda_south_indian_vegetable_fritter.step_3` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, doesn't fit in 1 input items and 1000 mB tanks at any scale
 
 ### `bonda_south_indian_vegetable_fritter.step_4` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 90% ⚠, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `bonda_south_indian_vegetable_fritter.step_5` (fold)
 
@@ -13154,7 +13420,8 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `bonga_fish_domoda_gambian_fish_in_peanut_sauce.step_2` (stir_fry)
 
-- create_heated_mixing: 1 recipe, rounding 1%
+- create_heated_mixing: 2 recipes, rounding 1%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `bonga_fish_domoda_gambian_fish_in_peanut_sauce.step_3` (heat)
 
@@ -13195,6 +13462,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 0%, estimated
 
 ### `booyah_chicken_vegetable_stew.step_3` (mix)
 
@@ -13205,6 +13473,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: none, takes one input, not 2
 
 ### `booyah_chicken_vegetable_stew.step_5` (simmer)
 
@@ -13228,6 +13497,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `borscht.step_2` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 7%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `borscht.step_3` (simmer)
 
@@ -13243,11 +13513,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, whole items would distort it by 500%
 
 ### `boston_baked_beans.step_2` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 5%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `boston_baked_beans.step_3` (heat)
 
@@ -13273,6 +13545,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 17% ⚠, estimated
 
 ### `bouballe_sweetened_matzo_meal_omelette.step_4` (season)
 
@@ -13303,6 +13576,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `bouchee_a_la_reine.step_4` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 12%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `bouchee_a_la_reine.step_5` (mix)
 
@@ -13348,6 +13622,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 1%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 6
 
 ### `bouillabaisse.step_4` (simmer)
 
@@ -13377,6 +13652,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: 1 recipe, rounding 0%
 
 ### `boule_di_senegalese_fish_and_rice.step_1` (rinse)
 
@@ -13386,6 +13662,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `boule_di_senegalese_fish_and_rice.step_2` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 1%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `boule_di_senegalese_fish_and_rice.step_3` (mix)
 
@@ -13431,6 +13708,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `bourbon_apples.step_3` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `bourbon_apples.step_4` (boil)
 
@@ -13440,6 +13718,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `boxty_irish_potato_cakes.step_10` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 1%
+- pnc_thermo_plant: 1 recipe, rounding 1%
 
 ### `boxty_irish_potato_cakes.step_2` (mix)
 
@@ -13454,6 +13733,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 3%
+- thermal_press: 1 recipe, rounding 31% ⚠
 
 ### `boxty_irish_potato_cakes.step_5` (mix)
 
@@ -13473,14 +13753,16 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `boxty_irish_potato_cakes.step_8` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 1%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 1%, estimated
 
 ### `boxty_irish_potato_cakes.step_9` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 1%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 1%, estimated
 
 ### `braai_zambian_barbecue.step_1` (mix)
 
-- create_mixing: 1 recipe, rounding 1%, estimated
+- create_mixing: 2 recipes, rounding 1%, estimated
 - shapeless_crafting: none, whole items would distort it by 1168%
 
 ### `braai_zambian_barbecue.step_2` (coat)
@@ -13532,6 +13814,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 6%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `braised_beef_short_ribs.step_6` (mix)
 
@@ -13542,11 +13825,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 17% ⚠, estimated
 
 ### `braised_beef_short_ribs.step_8` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 6
 
 ### `braised_beef_short_ribs.step_9` (dissolve)
 
@@ -13572,11 +13857,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 3%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 6
 
 ### `braised_shortribs.step_2` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 1%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 6
 
 ### `braised_shortribs.step_3` (simmer)
 
@@ -13652,6 +13939,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `brazilian_feijoada.step_13` (season)
 
@@ -13672,16 +13960,19 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 1%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `brazilian_feijoada.step_17` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 1%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `brazilian_feijoada.step_18` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 0%, estimated
 
 ### `brazilian_feijoada.step_19` (mix)
 
@@ -13702,6 +13993,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `brazilian_feijoada.step_22` (season)
 
@@ -13717,6 +14009,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: none, takes one input, not 2
 
 ### `brazilian_feijoada.step_25` (cut)
 
@@ -13742,16 +14035,19 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `brazilian_feijoada.step_6` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `brazilian_feijoada.step_7` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 7
 
 ### `brazilian_feijoada.step_8` (simmer)
 
@@ -13823,6 +14119,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `bread_with_tomato_sauce_pappa_al_pomodoro.step_2` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `bread_with_tomato_sauce_pappa_al_pomodoro.step_3` (boil)
 
@@ -13853,11 +14150,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: none, whole items would distort it by 525%
+- pnc_thermo_plant: none, whole items would distort it by 525%
 
 ### `breaded_chicken_livers.step_4` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: none, whole items would distort it by 525%
+- pnc_thermo_plant: none, whole items would distort it by 525%
 
 ### `breaded_fried_oysters.step_2` (whisk)
 
@@ -13876,6 +14175,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `breaded_fried_oysters.step_6` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 2 recipes, rounding 0%
 
 ### `breaded_potato_wedges.step_1` (coat)
 
@@ -13885,10 +14185,12 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `breaded_potato_wedges.step_2` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `breaded_potato_wedges.step_3` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `breakfast_burrito.step_1` (assemble)
 
@@ -13938,6 +14240,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `breakfast_durum.step_3` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 6%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `breakfast_durum.step_4` (coagulate)
 
@@ -13946,6 +14249,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `breakfast_durum.step_5` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `breakfast_durum.step_6` (assemble)
 
@@ -13994,7 +14298,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `breakfast_waffles.step_3` (mix)
 
-- create_mixing: 1 recipe, rounding 0%, estimated
+- create_mixing: 2 recipes, rounding 0%, estimated
 - shapeless_crafting: 1 recipe, rounding 6%, estimated
 
 ### `breakfast_waffles.step_4` (fold)
@@ -14024,7 +14328,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `breakfast_waffles_gluten_free.step_3` (mix)
 
-- create_mixing: 1 recipe, rounding 0%, estimated
+- create_mixing: 2 recipes, rounding 0%, estimated
 - shapeless_crafting: 1 recipe, rounding 6%, estimated
 
 ### `breakfast_waffles_gluten_free.step_4` (fold)
@@ -14233,6 +14537,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `brown_gravy.step_1` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 7%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 5
 
 ### `brown_gravy.step_2` (simmer)
 
@@ -14243,6 +14548,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 9%, estimated
+- thermal_centrifuge: 1 recipe, rounding 14%, estimated
 
 ### `brown_rice_breakfast_bowl.step_1` (mix)
 
@@ -14278,15 +14584,17 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 8%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `brown_rice_with_ground_turkey.step_2` (season)
 
-- create_mixing: 1 recipe, rounding 12%, estimated
+- create_mixing: 2 recipes, rounding 12%, estimated
 - shapeless_crafting: none, whole items would distort it by 4768%
 
 ### `brown_rice_with_ground_turkey.step_3` (stir_fry)
 
 - create_heated_mixing: 1 recipe, rounding 1%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `brown_rice_with_ground_turkey.step_4` (mix)
 
@@ -14413,6 +14721,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `browned_rice.step_1` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, doesn't fit in 1 input items and 1000 mB tanks at any scale
 
 ### `browned_rice.step_2` (mix)
 
@@ -14453,6 +14762,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: 1 recipe, rounding 20% ⚠
 
 ### `bryndzove_halusky_slovak_dumplings_with_cheese.step_5` (coat)
 
@@ -14483,6 +14793,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 4%
+- thermal_centrifuge: 1 recipe, rounding 4%
 
 ### `bua_loi_rice_balls_in_sweet_coconut_milk.step_5` (assemble)
 
@@ -14498,6 +14809,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: 1 recipe, rounding 0%
 
 ### `buah_melaka_malaysian_palm_sugar_dumplings.step_11` (coat)
 
@@ -14508,6 +14820,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 6%, estimated
+- thermal_centrifuge: none, takes one input, not 3
 
 ### `buah_melaka_malaysian_palm_sugar_dumplings.step_3` (knead)
 
@@ -14547,6 +14860,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `bubble_and_squeak.step_1` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 1%
+- pnc_thermo_plant: 1 recipe, rounding 1%
 
 ### `bubble_and_squeak.step_2` (mix)
 
@@ -14556,6 +14870,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `bubble_and_squeak.step_3` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `bubble_tea.step_1` (assemble)
 
@@ -14659,6 +14974,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `buckwheat_crepes.step_11` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `buckwheat_crepes.step_2` (whisk)
 
@@ -14686,6 +15002,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `buckwheat_crepes.step_9` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 0%, estimated
 
 ### `buffalo_chicken_sandwich.step_2` (coat)
 
@@ -14695,6 +15012,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `buffalo_chicken_sandwich.step_3` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `buffalo_chicken_sandwich.step_4` (toast)
 
@@ -14719,6 +15037,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `buffalo_wings.step_2` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `buffalo_wings.step_3` (coat)
 
@@ -14739,6 +15058,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - vd_fermenting_jar: 1 recipe, rounding 4%
 - bnc_keg: none, can't make the mod's own bulgarian_fresh_sausage_kebapcheta_step_2, and no other mod provides it
+- pnc_thermo_plant: 1 recipe, rounding 15% ⚠
 
 ### `bulgarian_fresh_sausage_kebapcheta.step_3` (shape)
 
@@ -14823,6 +15143,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 17% ⚠, estimated
 
 ### `bulgarian_tripe_soup_shkembe_chorba.step_8` (season)
 
@@ -14842,6 +15163,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `bulgur_burgers.step_2` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `bulgur_burgers.step_3` (boil)
 
@@ -14861,6 +15183,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `bulgur_burgers.step_6` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `bulk_sausage.step_1` (mix)
 
@@ -14899,7 +15222,8 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `bunny_chow.step_2` (pan_fry)
 
-- create_heated_mixing: 1 recipe, rounding 1%
+- create_heated_mixing: 2 recipes, rounding 1%
+- pnc_thermo_plant: 2 recipes, rounding 1%
 
 ### `bunny_chow.step_3` (heat)
 
@@ -14915,6 +15239,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `bunny_chow.step_6` (heat)
 
@@ -14957,7 +15282,8 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `bunuelos_sweet_fried_pastry.step_5` (fry)
 
-- create_heated_mixing: 1 recipe, rounding 0%
+- create_heated_mixing: 2 recipes, rounding 0%
+- pnc_thermo_plant: 2 recipes, rounding 0%
 
 ### `bunuelos_sweet_fried_pastry.step_6` (coat)
 
@@ -14996,6 +15322,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `burmese_pork_curry.step_6` (simmer)
 
@@ -15021,6 +15348,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 0%, estimated
 
 ### `burple_nurples.step_3` (mix)
 
@@ -15046,6 +15374,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 3%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `burrito_mix.step_2` (simmer)
 
@@ -15105,6 +15434,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 1%, estimated
+- thermal_centrifuge: 1 recipe, rounding 1%, estimated
 
 ### `butter_tea.step_3` (blend)
 
@@ -15119,6 +15449,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 5%, estimated
 
 ### `butterbeer.step_3` (heat)
 
@@ -15148,6 +15479,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `buttermilk_curry_soup_kadi_pakora.step_4` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 5%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 5%, estimated
 
 ### `buttermilk_curry_soup_kadi_pakora.step_5` (mix)
 
@@ -15158,6 +15490,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 7
 
 ### `buttermilk_curry_soup_kadi_pakora.step_7` (simmer)
 
@@ -15187,11 +15520,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `buttermilk_fried_chicken_with_pan_gravy.step_5` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `buttermilk_fried_chicken_with_pan_gravy.step_7` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 5
 
 ### `buttermilk_fried_chicken_with_pan_gravy.step_8` (simmer)
 
@@ -15261,6 +15596,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: 1 recipe, rounding 0%
 
 ### `buttery_noodles_with_cheese.step_5` (mix)
 
@@ -15306,6 +15642,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: none, whole items would distort it by 3025%
+- thermal_centrifuge: none, whole items would distort it by 3025%
 
 ### `cabbage_fufu.step_2` (cut)
 
@@ -15320,6 +15657,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: none, whole items would distort it by 421%
+- thermal_centrifuge: none, whole items would distort it by 421%
 
 ### `cabbage_fufu.step_5` (heat)
 
@@ -15340,11 +15678,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - vd_fermenting_jar: 1 recipe, rounding 0%
 - bnc_keg: none, can't make the mod's own cabbage_kimchi_step_10, and no other mod provides it
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `cabbage_kimchi.step_11` (ferment)
 
 - vd_fermenting_jar: 1 recipe, rounding 0%
 - bnc_keg: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `cabbage_kimchi.step_2` (dissolve)
 
@@ -15439,11 +15779,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `cabbage_rolls_in_yogurt_sauce_sarmi.step_2` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `cabbage_rolls_in_yogurt_sauce_sarmi.step_3` (stir_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 8
 
 ### `cabbage_rolls_in_yogurt_sauce_sarmi.step_4` (simmer)
 
@@ -15472,7 +15814,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `cabbage_salad.step_2` (mix)
 
-- create_mixing: 1 recipe, rounding 10%
+- create_mixing: 2 recipes, rounding 10%
 - shapeless_crafting: none, whole items would distort it by 1590%
 
 ### `cabbie_claw_scottish_whitefish_with_egg_and_potato.step_1` (cure)
@@ -15489,11 +15831,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: 1 recipe, rounding 0%
 
 ### `cabbie_claw_scottish_whitefish_with_egg_and_potato.step_5` (separate)
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: 1 recipe, rounding 0%
 
 ### `cabbie_claw_scottish_whitefish_with_egg_and_potato.step_6` (mix)
 
@@ -15517,6 +15861,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `cachapa_venezuelan_corn_pancakes.step_2` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 0%, estimated
 
 ### `cachupa_cape_verdean_corn_stew.step_1` (season)
 
@@ -15542,11 +15887,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 1%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `cachupa_cape_verdean_corn_stew.step_4` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `cachupa_cape_verdean_corn_stew.step_5` (whisk)
 
@@ -15566,6 +15913,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 17% ⚠, estimated
 
 ### `cachupa_cape_verdean_corn_stew.step_9` (simmer)
 
@@ -15601,6 +15949,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 0%, estimated
 
 ### `cajun_red_beans_and_rice.step_5` (simmer)
 
@@ -15651,6 +16000,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_press: 1 recipe, rounding 0%, estimated
 
 ### `calamansi_juice_drink.step_3` (mix)
 
@@ -15669,11 +16019,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `california_curry_chicken.step_2` (fry)
 
 - create_heated_mixing: none, whole items would distort it by 204%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `california_curry_chicken.step_3` (stir_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 2%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `california_curry_chicken.step_4` (mix)
 
@@ -15714,6 +16066,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: none, whole items would distort it by 900%
 
 ### `callaloo_caribbean_stewed_greens.step_2` (cut)
 
@@ -15985,6 +16338,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 1%
+- pnc_thermo_plant: 1 recipe, rounding 1%
 
 ### `canjeero_somali_pancake.step_2` (mix)
 
@@ -16004,6 +16358,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - vd_fermenting_jar: 1 recipe, rounding 7%, estimated
 - bnc_keg: none, can't make the mod's own canjeero_somali_pancake_step_5, and no other mod provides it
+- pnc_thermo_plant: 1 recipe, rounding 0%, estimated
 
 ### `canjeero_somali_pancake.step_6` (season)
 
@@ -16019,6 +16374,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 1%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 1%, estimated
 
 ### `cannabutter.step_2` (mix)
 
@@ -16034,6 +16390,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 1%, estimated
+- thermal_centrifuge: 1 recipe, rounding 32% ⚠, estimated
 
 ### `cannoli.step_1` (bake)
 
@@ -16068,6 +16425,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `cantonese_crispy_fried_chicken.step_14` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `cantonese_crispy_fried_chicken.step_15` (chop)
 
@@ -16077,6 +16435,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `cantonese_crispy_fried_chicken.step_16` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: none, doesn't fit in 1 input items and 1000 mB tanks at any scale
 
 ### `cantonese_crispy_fried_chicken.step_17` (season)
 
@@ -16177,11 +16536,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 2%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 8
 
 ### `cao_l_u_vietnamese_pork_noodles_with_greens.step_3` (stir_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 3 recipes, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `cao_l_u_vietnamese_pork_noodles_with_greens.step_5` (boil)
 
@@ -16227,6 +16588,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 19% ⚠
+- thermal_centrifuge: none, takes one input, not 3
 
 ### `caponata_sicilian_eggplant_and_vegetables.step_3` (simmer)
 
@@ -16466,6 +16828,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `caramelized_sweet_and_sour_onion_marmalade.step_2` (dissolve)
 
@@ -16494,11 +16857,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 12%, estimated
+- thermal_centrifuge: none, takes one input, not 2
 
 ### `carbonara_pasta.step_3` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 1%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `carbonara_pasta.step_5` (season)
 
@@ -16593,6 +16958,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 10%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `carrot_and_coriander_soup.step_3` (season)
 
@@ -16703,6 +17069,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_press: 1 recipe, rounding 0%
 
 ### `carrot_fufu.step_3` (heat)
 
@@ -16732,6 +17099,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_press: none, takes one input, not 3
 
 ### `carrot_kugel.step_5` (mix)
 
@@ -16834,7 +17202,8 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `carrots_cooked_kinpira_style.step_2` (stir_fry)
 
-- create_heated_mixing: 1 recipe, rounding 14%
+- create_heated_mixing: 2 recipes, rounding 14%
+- pnc_thermo_plant: 2 recipes, rounding 20% ⚠
 
 ### `carrots_cooked_kinpira_style.step_3` (simmer)
 
@@ -16855,6 +17224,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 4 recipes, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 6
 
 ### `cashew_gravy.step_3` (dissolve)
 
@@ -16900,14 +17270,17 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 10%
+- thermal_centrifuge: 1 recipe, rounding 10%
 
 ### `cassoulet.step_3` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 10%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `cassoulet.step_4` (stir_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, doesn't fit in 1 input items and 1000 mB tanks at any scale
 
 ### `cassoulet.step_5` (dissolve)
 
@@ -16961,6 +17334,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `cauliflower_rice.step_4` (stir_fry)
 
 - create_heated_mixing: none, whole items would distort it by 160%
+- pnc_thermo_plant: none, whole items would distort it by 160%
 
 ### `cauliflower_rice.step_5` (season)
 
@@ -17046,6 +17420,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 3 recipes, rounding 2%
+- thermal_centrifuge: none, takes one input, not 2
 
 ### `central_texan_pinto_beans.step_3` (season)
 
@@ -17061,6 +17436,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: 1 recipe, rounding 0%
 
 ### `century_egg_with_ham_and_ginger.step_1` (rinse)
 
@@ -17124,6 +17500,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `chakalaka_south_african_vegetable_stew.step_2` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 1%
+- pnc_thermo_plant: none, whole items would distort it by 200%
 
 ### `chakalaka_south_african_vegetable_stew.step_3` (season)
 
@@ -17178,11 +17555,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 15% ⚠, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `chakarai_pongal_sweet_rice_and_black_gram_pudding.step_7` (fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 15% ⚠, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `chakarai_pongal_sweet_rice_and_black_gram_pudding.step_8` (mix)
 
@@ -17223,6 +17602,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 1%, estimated
+- thermal_centrifuge: 1 recipe, rounding 19% ⚠, estimated
 
 ### `champ_irish_mashed_potato_with_scallion.step_5` (mix)
 
@@ -17243,6 +17623,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_press: 1 recipe, rounding 0%
 
 ### `champagne_vinaigrette.step_2` (steep)
 
@@ -17287,6 +17668,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `chanterelle_goulash.step_4` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 11%
+- pnc_thermo_plant: none, doesn't fit in 1 input items and 1000 mB tanks at any scale
 
 ### `chanterelle_goulash.step_5` (season)
 
@@ -17345,6 +17727,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `chapati_za_maji_tanzanian_pancakes.step_10` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `chapati_za_maji_tanzanian_pancakes.step_2` (mix)
 
@@ -17368,11 +17751,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `chapati_za_maji_tanzanian_pancakes.step_8` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 0%, estimated
 
 ### `chapati_za_maji_tanzanian_pancakes.step_9` (separate)
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: 1 recipe, rounding 0%
 
 ### `chapman_nigerian_party_drink.step_1` (mix)
 
@@ -17492,6 +17877,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 13%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `chargrilled_asparagus_salad.step_5` (mix)
 
@@ -17594,6 +17980,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `cheese_dumplings.step_3` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `cheese_dumplings.step_4` (mix)
 
@@ -17608,6 +17995,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `cheese_dumplings.step_6` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `cheese_egg_toast.step_1` (whisk)
 
@@ -17626,6 +18014,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `cheese_egg_toast.step_4` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 0%, estimated
 
 ### `cheese_enchilada.step_2` (simmer)
 
@@ -17661,6 +18050,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `cheese_omelette.step_3` (fold)
 
@@ -17729,10 +18119,12 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `cheese_spaetzle.step_1` (pan_fry)
 
 - create_heated_mixing: none, whole items would distort it by 2118%
+- pnc_thermo_plant: none, doesn't fit in 1 input items and 1000 mB tanks at any scale
 
 ### `cheese_spaetzle.step_2` (pan_fry)
 
 - create_heated_mixing: none, whole items would distort it by 404%
+- pnc_thermo_plant: none, doesn't fit in 1 input items and 1000 mB tanks at any scale
 
 ### `cheese_spaetzle.step_3` (coat)
 
@@ -17862,6 +18254,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 12%
+- thermal_centrifuge: 1 recipe, rounding 12%
 
 ### `cheesy_chicken_pasta.step_3` (mix)
 
@@ -17896,11 +18289,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `cheesy_potato_soup.step_2` (pan_fry)
 
 - create_heated_mixing: none, whole items would distort it by 2118%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `cheesy_potato_soup.step_3` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `cheesy_potato_soup.step_4` (heat)
 
@@ -17950,6 +18345,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 17% ⚠, estimated
 
 ### `chereh_tamba_gambian_groundnut_stew.step_10` (season)
 
@@ -17967,7 +18363,8 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `chereh_tamba_gambian_groundnut_stew.step_5` (pan_fry)
 
-- create_heated_mixing: 1 recipe, rounding 6%
+- create_heated_mixing: 2 recipes, rounding 6%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `chereh_tamba_gambian_groundnut_stew.step_6` (mix)
 
@@ -17997,6 +18394,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `cherries_jubilee.step_2` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 13%, estimated
+- pnc_thermo_plant: none, doesn't fit in 1 input items and 1000 mB tanks at any scale
 
 ### `cherries_jubilee.step_3` (heat)
 
@@ -18007,6 +18405,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 5%, estimated
+- thermal_centrifuge: 1 recipe, rounding 5%, estimated
 
 ### `cherry_berry_jumble_fruit_pie.step_3` (mix)
 
@@ -18155,6 +18554,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 17% ⚠, estimated
 
 ### `cherry_soda.step_4` (mix)
 
@@ -18198,6 +18598,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: none, whole items would distort it by 3025%
+- thermal_centrifuge: none, whole items would distort it by 3025%
 
 ### `chestnut_puree.step_4` (simmer)
 
@@ -18208,6 +18609,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 5%
+- thermal_centrifuge: 1 recipe, rounding 5%
 
 ### `chestnut_puree.step_6` (season)
 
@@ -18262,6 +18664,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 1%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `chibwabwa_zambian_pumpkin_leaves_with_groundnut_sauce.step_3` (heat)
 
@@ -18306,11 +18709,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `chicago_sirloin_with_cabernet_balsamic_reduction.step_3` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `chicago_sirloin_with_cabernet_balsamic_reduction.step_4` (simmer)
 
@@ -18344,6 +18749,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 1%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 6
 
 ### `chicken_a_la_king.step_3` (heat)
 
@@ -18363,6 +18769,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `chicken_alfredo.step_2` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 7%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `chicken_alfredo.step_3` (mix)
 
@@ -18397,6 +18804,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `chicken_and_andouille_sausage_gumbo.step_1` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 7%
+- pnc_thermo_plant: 2 recipes, rounding 20% ⚠
 
 ### `chicken_and_andouille_sausage_gumbo.step_2` (toast)
 
@@ -18406,6 +18814,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `chicken_and_andouille_sausage_gumbo.step_3` (stir_fry)
 
 - create_heated_mixing: 1 recipe, rounding 1%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `chicken_and_andouille_sausage_gumbo.step_4` (simmer)
 
@@ -18434,7 +18843,8 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `chicken_and_black_eyed_pea_stew.step_2` (pan_fry)
 
-- create_heated_mixing: 1 recipe, rounding 5%
+- create_heated_mixing: 2 recipes, rounding 5%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 5
 
 ### `chicken_and_black_eyed_pea_stew.step_3` (season)
 
@@ -18468,7 +18878,8 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `chicken_and_corn_empanadas.step_1` (pan_fry)
 
-- create_heated_mixing: 1 recipe, rounding 7%, estimated
+- create_heated_mixing: 2 recipes, rounding 7%, estimated
+- pnc_thermo_plant: 2 recipes, rounding 7%, estimated
 
 ### `chicken_and_corn_empanadas.step_10` (assemble)
 
@@ -18606,6 +19017,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `chicken_bacon_broccoli_alfredo_spaghetti.step_3` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 13%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `chicken_bacon_broccoli_alfredo_spaghetti.step_4` (season)
 
@@ -18655,6 +19067,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `chicken_biryani.step_3` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `chicken_biryani.step_4` (assemble)
 
@@ -18690,6 +19103,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 0%, estimated
 
 ### `chicken_bog_i.step_12` (simmer)
 
@@ -18710,26 +19124,31 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 6%
+- thermal_centrifuge: 1 recipe, rounding 6%
 
 ### `chicken_bog_i.step_5` (separate)
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 6%, estimated
+- thermal_centrifuge: none, doesn't fit in 1 input items and 1000 mB tanks at any scale
 
 ### `chicken_bog_i.step_6` (fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 6%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `chicken_bog_i.step_7` (separate)
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 9%
+- thermal_centrifuge: none, doesn't fit in 1 input items and 1000 mB tanks at any scale
 
 ### `chicken_bog_i.step_8` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 50% ⚠
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `chicken_bog_i.step_9` (season)
 
@@ -18775,6 +19194,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 0%, estimated
 
 ### `chicken_bog_iii.step_5` (boil)
 
@@ -18790,6 +19210,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 17% ⚠, estimated
 
 ### `chicken_bog_iii.step_8` (mix)
 
@@ -18805,16 +19226,19 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 17% ⚠, estimated
 
 ### `chicken_broth_ii.step_3` (separate)
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 17% ⚠, estimated
 
 ### `chicken_broth_ii.step_4` (separate)
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 17% ⚠, estimated
 
 ### `chicken_brown_rice_soup.step_2` (assemble)
 
@@ -18848,7 +19272,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `chicken_cabbage_salad.step_4` (mix)
 
-- create_mixing: 1 recipe, rounding 0%, estimated
+- create_mixing: 2 recipes, rounding 0%, estimated
 - shapeless_crafting: 1 recipe, rounding 25% ⚠, estimated
 
 ### `chicken_cabbage_salad.step_5` (season)
@@ -18886,6 +19310,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: 1 recipe, rounding 0%
 
 ### `chicken_cockaigne.step_1` (shape)
 
@@ -18901,6 +19326,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: none, whole items would distort it by 212%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `chicken_cockaigne.step_5` (simmer)
 
@@ -18916,6 +19342,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: none, whole items would distort it by 140%
+- pnc_thermo_plant: none, whole items would distort it by 140%
 
 ### `chicken_curry.step_1` (mix)
 
@@ -18926,31 +19353,37 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 9%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 5
 
 ### `chicken_curry.step_3` (fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `chicken_curry.step_4` (fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `chicken_curry.step_5` (fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 4%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `chicken_curry.step_6` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `chicken_curry.step_7` (fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `chicken_curry.step_8` (simmer)
 
@@ -18986,6 +19419,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: none, whole items would distort it by 317%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 5
 
 ### `chicken_fajitas.step_4` (julienne)
 
@@ -18996,20 +19430,24 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `chicken_fried_rice.step_1` (stir_fry)
 
 - create_heated_mixing: 1 recipe, rounding 13%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `chicken_fried_rice.step_2` (stir_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 4%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `chicken_fried_rice.step_3` (stir_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 6%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 11
 
 ### `chicken_fried_steak.step_2` (cut)
 
@@ -19030,6 +19468,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `chicken_fried_steak.step_6` (bake)
 
@@ -19065,6 +19504,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `chicken_gyros.step_4` (assemble)
 
@@ -19079,6 +19519,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `chicken_karahi_pakistani_chicken_with_tomato_and_peppers.step_2` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 1%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `chicken_karahi_pakistani_chicken_with_tomato_and_peppers.step_3` (simmer)
 
@@ -19104,6 +19545,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `chicken_madras.step_5` (mix)
 
@@ -19149,6 +19591,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 1%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `chicken_marsala_ii.step_5` (evaporate)
 
@@ -19163,6 +19606,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: none, whole items would distort it by 3025%
+- thermal_centrifuge: none, whole items would distort it by 3025%
 
 ### `chicken_mull.step_4` (grind)
 
@@ -19187,6 +19631,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: none, whole items would distort it by 421%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `chicken_paprikash.step_10` (coat)
 
@@ -19197,6 +19642,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `chicken_paprikash.step_3` (simmer)
 
@@ -19261,6 +19707,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `chicken_parmesan.step_7` (assemble)
 
@@ -19310,6 +19757,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `chicken_parmigiana.step_5` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `chicken_parmigiana.step_8` (simmer)
 
@@ -19364,6 +19812,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `chicken_pot_pie_ii.step_4` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 7%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 30% ⚠, estimated
 
 ### `chicken_pot_pie_ii.step_5` (mix)
 
@@ -19393,6 +19842,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `chicken_quesadilla.step_12` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 1%, estimated
+- pnc_thermo_plant: none, doesn't fit in 1 input items and 1000 mB tanks at any scale
 
 ### `chicken_quesadilla.step_13` (cut)
 
@@ -19403,11 +19853,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 27% ⚠, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 5
 
 ### `chicken_quesadilla.step_3` (stir_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `chicken_quesadilla.step_4` (mix)
 
@@ -19418,6 +19870,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `chicken_quesadilla.step_6` (season)
 
@@ -19451,6 +19904,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `chicken_riggies.step_1` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 14%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 5
 
 ### `chicken_riggies.step_2` (simmer)
 
@@ -19460,6 +19914,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `chicken_sopas.step_1` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 13%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `chicken_sopas.step_2` (heat)
 
@@ -19475,6 +19930,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 17% ⚠, estimated
 
 ### `chicken_sopas.step_5` (season)
 
@@ -19535,6 +19991,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 7
 
 ### `chicken_soup_with_cream_and_lemon.step_2` (simmer)
 
@@ -19575,6 +20032,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 0%, estimated
 
 ### `chicken_soup_with_dumplings.step_15` (simmer)
 
@@ -19614,6 +20072,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 17% ⚠, estimated
 
 ### `chicken_soup_with_dumplings.step_5` (evaporate)
 
@@ -19672,10 +20131,12 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `chicken_soup_with_pasta.step_4` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 9%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 9%, estimated
 
 ### `chicken_soup_with_pasta.step_5` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 2%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 6
 
 ### `chicken_soup_with_pasta.step_6` (simmer)
 
@@ -19691,6 +20152,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_press: 1 recipe, rounding 0%
 
 ### `chicken_soup_with_pasta.step_9` (simmer)
 
@@ -19726,6 +20188,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 15%, estimated
 
 ### `chicken_stock.step_4` (simmer)
 
@@ -19736,6 +20199,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 17% ⚠, estimated
 
 ### `chicken_tagine_with_lemon_and_olives.step_1` (soak)
 
@@ -19766,16 +20230,19 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 14%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `chicken_tagine_with_lemon_and_olives.step_7` (separate)
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 13%
+- thermal_centrifuge: 1 recipe, rounding 13%
 
 ### `chicken_tagine_with_lemon_and_olives.step_8` (fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 4%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 5
 
 ### `chicken_tagine_with_lemon_and_olives.step_9` (assemble)
 
@@ -19810,6 +20277,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `chicken_tetrazzini.step_3` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 13%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `chicken_tetrazzini.step_4` (season)
 
@@ -19858,6 +20326,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 13%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `chicken_tikka_masala.step_3` (mix)
 
@@ -19868,6 +20337,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 4%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `chicken_tikka_masala.step_5` (simmer)
 
@@ -19901,11 +20371,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 17% ⚠, estimated
 
 ### `chicken_vindaloo.step_14` (stir_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `chicken_vindaloo.step_15` (simmer)
 
@@ -19931,21 +20403,25 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `chicken_vindaloo.step_4` (fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `chicken_vindaloo.step_5` (fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 1%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `chicken_vindaloo.step_6` (separate)
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: 1 recipe, rounding 0%
 
 ### `chicken_vindaloo.step_7` (blend)
 
@@ -19955,6 +20431,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: 1 recipe, rounding 0%
 
 ### `chicken_vindaloo.step_9` (chop)
 
@@ -19970,6 +20447,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `chicken_wings_asian_style.step_3` (coat)
 
@@ -20044,6 +20522,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `chickpea_curry_masaledaar_chole.step_3` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 1%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `chickpea_curry_masaledaar_chole.step_4` (season)
 
@@ -20054,6 +20533,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 5
 
 ### `chickpea_curry_masaledaar_chole.step_6` (mix)
 
@@ -20133,11 +20613,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 4%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `chickpea_omelette.step_5` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 4%
+- pnc_thermo_plant: 1 recipe, rounding 19% ⚠
 
 ### `chickpea_stew.step_2` (simmer)
 
@@ -20166,7 +20648,8 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `chikwanda_zambian_sweet_potato_stew.step_2` (pan_fry)
 
-- create_heated_mixing: 1 recipe, rounding 1%
+- create_heated_mixing: 2 recipes, rounding 1%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `chikwanda_zambian_sweet_potato_stew.step_3` (heat)
 
@@ -20225,18 +20708,22 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `chilaquiles.step_5` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `chilaquiles.step_6` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 0%, estimated
 
 ### `chilaquiles.step_7` (stir_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, doesn't fit in 1 input items and 1000 mB tanks at any scale
 
 ### `chilaquiles.step_8` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: none, doesn't fit in 1 input items and 1000 mB tanks at any scale
 
 ### `chilaquiles.step_9` (soak)
 
@@ -20261,10 +20748,12 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `chiles_en_nogada_stuffed_chile_peppers_with_almonds.step_2` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 10%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `chiles_en_nogada_stuffed_chile_peppers_with_almonds.step_3` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: none, doesn't fit in 1 input items and 1000 mB tanks at any scale
 
 ### `chiles_en_nogada_stuffed_chile_peppers_with_almonds.step_4` (toast)
 
@@ -20288,6 +20777,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `chiles_en_nogada_stuffed_chile_peppers_with_almonds.step_8` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 0%, estimated
 
 ### `chiles_en_nogada_stuffed_chile_peppers_with_almonds.step_9` (blend)
 
@@ -20312,6 +20802,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 1%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `chili_colorado.step_5` (boil)
 
@@ -20327,6 +20818,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 4%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 5
 
 ### `chili_con_bambi.step_2` (toast)
 
@@ -20337,6 +20829,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `chili_con_bambi.step_4` (mix)
 
@@ -20401,16 +20894,19 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 17% ⚠, estimated
 
 ### `chili_cornbread_casserole.step_4` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `chili_cornbread_casserole.step_5` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 6%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `chili_cornbread_casserole.step_7` (heat)
 
@@ -20444,7 +20940,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `chili_oil.step_2` (heat)
 
-- create_heated_mixing: 1 recipe, rounding 0%, estimated
+- create_heated_mixing: 2 recipes, rounding 0%, estimated
 - fd_cooking_pot: 1 recipe, rounding 25% ⚠, estimated
 
 ### `chili_oil.step_3` (steep)
@@ -20457,6 +20953,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 17% ⚠, estimated
 
 ### `chili_powder_i.step_1` (grind)
 
@@ -20480,11 +20977,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 12%
+- pnc_thermo_plant: 1 recipe, rounding 12%
 
 ### `chili_with_meat.step_2` (strain)
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 12%
+- thermal_centrifuge: none, whole items would distort it by 605%
 
 ### `chili_with_meat.step_3` (mix)
 
@@ -20504,10 +21003,12 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `chilli_crab.step_3` (stir_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `chilli_crab.step_4` (stir_fry)
 
 - create_heated_mixing: 1 recipe, rounding 6%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 5
 
 ### `chilli_crab.step_5` (coat)
 
@@ -20634,6 +21135,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: none, whole items would distort it by 942%
+- thermal_centrifuge: none, whole items would distort it by 942%
 
 ### `chip_butty.step_2` (coat)
 
@@ -20649,6 +21151,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: none, whole items would distort it by 1983%
+- thermal_press: none, whole items would distort it by 1983%
 
 ### `chipotle_bbq_chicken_nuggets.step_2` (season)
 
@@ -20663,6 +21166,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `chipotle_bbq_chicken_nuggets.step_4` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 2 recipes, rounding 0%
 
 ### `chipotle_bbq_chicken_nuggets.step_5` (season)
 
@@ -20743,6 +21247,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `chipotle_chili.step_7` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 8%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 5
 
 ### `chipotle_chili.step_8` (heat)
 
@@ -20775,6 +21280,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `chipotle_fish_n_chips.step_4` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `chipotle_fish_n_chips.step_5` (dry)
 
@@ -20799,11 +21305,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 1%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `chipotle_fried_chicken.step_5` (fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `chipotle_ketchup.step_1` (boil)
 
@@ -20833,6 +21341,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `chipotle_lime_hot_wings.step_2` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `chipotle_lime_hot_wings.step_3` (coat)
 
@@ -20847,6 +21356,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `chipotle_lime_tortilla_chips.step_3` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `chipotle_maple_glazed_pork_tenderloin.step_1` (season)
 
@@ -20857,6 +21367,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: 1 recipe, rounding 0%
 
 ### `chipotle_maple_glazed_pork_tenderloin.step_4` (grill)
 
@@ -20901,6 +21412,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `chipped_beef_on_toast.step_1` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 4%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 7%, estimated
 
 ### `chipped_beef_on_toast.step_2` (dissolve)
 
@@ -20949,19 +21461,23 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `chipsi_mayai.step_10` (pan_fry)
 
-- create_heated_mixing: 1 recipe, rounding 0%, estimated
+- create_heated_mixing: 2 recipes, rounding 0%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 6%, estimated
 
 ### `chipsi_mayai.step_11` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 0%, estimated
 
 ### `chipsi_mayai.step_12` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `chipsi_mayai.step_13` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `chipsi_mayai.step_14` (heat)
 
@@ -20982,6 +21498,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `chipsi_mayai.step_5` (whisk)
 
@@ -21004,7 +21521,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `chishimba_zambian_cassava_cake.step_2` (mix)
 
-- create_mixing: 1 recipe, rounding 5%, estimated
+- create_mixing: 2 recipes, rounding 5%, estimated
 - shapeless_crafting: none, whole items would distort it by 463%
 
 ### `chishimba_zambian_cassava_cake.step_3` (mix)
@@ -21036,6 +21553,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `chivito_uruguayan_beef_sandwich.step_3` (season)
 
@@ -21046,6 +21564,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `chivito_uruguayan_beef_sandwich.step_5` (assemble)
 
@@ -21141,6 +21660,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - vd_fermenting_jar: 1 recipe, rounding 0%
 - bnc_keg: none, can't make the mod's own chocolate_and_banana_bread_step_9, and no other mod provides it
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `chocolate_and_nut_covered_strawberries.step_1` (mix)
 
@@ -21176,6 +21696,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `chocolate_bananas_foster.step_3` (boil)
 
@@ -21239,6 +21760,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: 1 recipe, rounding 0%
 
 ### `chocolate_cake_with_coconut_topping_vegan.step_8` (coat)
 
@@ -21254,6 +21776,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 12%
+- thermal_centrifuge: 1 recipe, rounding 12%
 
 ### `chocolate_cheesecake.step_14` (heat)
 
@@ -21527,10 +22050,12 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `chocolate_chip_pancakes_i.step_10` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 3%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 3%, estimated
 
 ### `chocolate_chip_pancakes_i.step_11` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 3%
+- pnc_thermo_plant: 1 recipe, rounding 3%
 
 ### `chocolate_chip_pancakes_i.step_2` (heat)
 
@@ -21564,14 +22089,17 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `chocolate_chip_pancakes_i.step_9` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 1%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 1%, estimated
 
 ### `chocolate_chip_pancakes_ii.step_10` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 1%
+- pnc_thermo_plant: 1 recipe, rounding 1%
 
 ### `chocolate_chip_pancakes_ii.step_11` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 1%
+- pnc_thermo_plant: 1 recipe, rounding 1%
 
 ### `chocolate_chip_pancakes_ii.step_2` (mix)
 
@@ -21599,6 +22127,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `chocolate_chip_pancakes_ii.step_8` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 0%, estimated
 
 ### `chocolate_chip_pancakes_ii.step_9` (coat)
 
@@ -21667,7 +22196,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `chocolate_crinkles.step_1` (mix)
 
-- create_mixing: 1 recipe, rounding 12%, estimated
+- create_mixing: 2 recipes, rounding 12%, estimated
 - shapeless_crafting: 1 recipe, rounding 41% ⚠, estimated
 
 ### `chocolate_crinkles.step_2` (blend)
@@ -21855,6 +22384,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 1%, estimated
+- thermal_centrifuge: none, takes one input, not 2
 
 ### `chocolate_mousse.step_3` (whisk)
 
@@ -21905,7 +22435,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `chocolate_mousse_cake_vegan.step_3` (mix)
 
-- create_mixing: 3 recipes, rounding 7%, estimated
+- create_mixing: 4 recipes, rounding 7%, estimated
 - shapeless_crafting: none, whole items would distort it by 111%
 
 ### `chocolate_mousse_cake_vegan.step_4` (whisk)
@@ -22127,6 +22657,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 17% ⚠, estimated
 
 ### `chocolate_squares.step_6` (shape)
 
@@ -22239,6 +22770,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `chola_and_roti.step_3` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 8%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `chola_and_roti.step_4` (boil)
 
@@ -22258,6 +22790,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `cholley_chickpea_curry.step_3` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 7
 
 ### `cholley_chickpea_curry.step_4` (season)
 
@@ -22318,6 +22851,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `choucroute_sauerkraut_with_meat_and_potatoes.step_3` (season)
 
@@ -22362,14 +22896,17 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `chow_mein.step_4` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 2 recipes, rounding 0%
 
 ### `chow_mein.step_5` (stir_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `chow_mein.step_6` (stir_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `chow_mein.step_7` (mix)
 
@@ -22575,6 +23112,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 6%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `chuck_wagon_beans.step_2` (mix)
 
@@ -22643,7 +23181,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `chunky_cran_apple_bran_muffins.step_3` (mix)
 
-- create_mixing: 1 recipe, rounding 6%, estimated
+- create_mixing: 2 recipes, rounding 6%, estimated
 - shapeless_crafting: none, whole items would distort it by 217%
 
 ### `chunky_cran_apple_bran_muffins.step_4` (shape)
@@ -22670,11 +23208,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 6%
+- pnc_thermo_plant: 1 recipe, rounding 6%
 
 ### `chupaqueso.step_2` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 6%
+- pnc_thermo_plant: 1 recipe, rounding 6%
 
 ### `chupaqueso.step_3` (assemble)
 
@@ -22732,6 +23272,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `churros_i.step_6` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 1%
+- pnc_thermo_plant: 1 recipe, rounding 1%
 
 ### `churros_i.step_8` (coat)
 
@@ -22752,6 +23293,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - vd_fermenting_jar: 1 recipe, rounding 12%, estimated
 - bnc_keg: none, can't make the mod's own ciabatta_step_3, and no other mod provides it
+- pnc_thermo_plant: 1 recipe, rounding 12%, estimated
 
 ### `ciabatta.step_4` (fold)
 
@@ -22827,6 +23369,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 17% ⚠, estimated
 
 ### `cincinnati_style_chili.step_5` (heat)
 
@@ -22837,11 +23380,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 1%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `cinnamon_braised_chicken_kotopoulo_kapama.step_2` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 5
 
 ### `cinnamon_braised_chicken_kotopoulo_kapama.step_3` (simmer)
 
@@ -22857,16 +23402,19 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `cinnamon_chicken.step_3` (fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `cinnamon_chicken.step_4` (fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 4%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `cinnamon_chicken.step_5` (cut)
 
@@ -22902,6 +23450,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 1%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `cinnamon_croutons.step_4` (bake)
 
@@ -22912,6 +23461,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `cinnamon_glazed_apples.step_3` (mix)
 
@@ -22967,6 +23517,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - vd_fermenting_jar: 1 recipe, rounding 0%
 - bnc_keg: none, can't make the mod's own cinnamon_rolls_step_5, and no other mod provides it
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `cinnamon_rolls.step_6` (shape)
 
@@ -22997,11 +23548,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 3%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 6
 
 ### `cioppino_italian_seafood_stew.step_3` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `cioppino_italian_seafood_stew.step_4` (mix)
 
@@ -23032,6 +23585,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 17% ⚠, estimated
 
 ### `citrus_energy_drink.step_1` (steep)
 
@@ -23048,6 +23602,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 17% ⚠, estimated
 
 ### `citrus_energy_drink.step_4` (mix)
 
@@ -23078,6 +23633,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 11%
+- thermal_centrifuge: none, takes one input, not 3
 
 ### `classic_american_apple_pie.step_3` (evaporate)
 
@@ -23147,21 +23703,25 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 6%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `classic_pot_roast.step_3` (separate)
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 4%
+- thermal_centrifuge: 1 recipe, rounding 4%
 
 ### `classic_pot_roast.step_4` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 4%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `classic_pot_roast.step_5` (separate)
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: 1 recipe, rounding 0%
 
 ### `classic_pot_roast.step_6` (assemble)
 
@@ -23376,6 +23936,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 17% ⚠, estimated
 
 ### `coconut_chicken.step_9` (assemble)
 
@@ -23398,6 +23959,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `coconut_chutney_south_indian.step_3` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 14%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 5
 
 ### `coconut_chutney_south_indian.step_4` (mix)
 
@@ -23408,6 +23970,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: none, whole items would distort it by 500%
 
 ### `coconut_cream_and_pound_cake_with_moscatel_bienmesabe.step_2` (evaporate)
 
@@ -23647,6 +24210,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 17% ⚠, estimated
 
 ### `coconut_rice_indonesian.step_5` (coat)
 
@@ -23686,6 +24250,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `coconut_rum_battered_shrimp.step_3` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `coconut_rum_battered_shrimp.step_5` (season)
 
@@ -23726,11 +24291,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 12%
+- thermal_centrifuge: 1 recipe, rounding 12%
 
 ### `cod_olive_oil_and_cream_sauce_brandade_de_morue.step_5` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 7%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `cod_olive_oil_and_cream_sauce_brandade_de_morue.step_6` (blend)
 
@@ -23814,11 +24381,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 6%, estimated
 
 ### `coffee_concentrate.step_5` (strain)
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 6%, estimated
 
 ### `coffee_concentrate.step_6` (mix)
 
@@ -23852,6 +24421,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `coffee_rum_glazed_apples.step_1` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 13%, estimated
+- pnc_thermo_plant: none, doesn't fit in 1 input items and 1000 mB tanks at any scale
 
 ### `coffee_rum_glazed_apples.step_2` (heat)
 
@@ -23876,6 +24446,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 15%
+- pnc_thermo_plant: 1 recipe, rounding 15%
 
 ### `cognac_beef_stew.step_3` (boil)
 
@@ -23894,6 +24465,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `cognac_beef_stew.step_6` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 1%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `cognac_beef_stew.step_7` (bake)
 
@@ -23978,6 +24550,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 6%, estimated
+- thermal_centrifuge: none, takes one input, not 4
 
 ### `cola_i.step_5` (heat)
 
@@ -24043,6 +24616,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 17% ⚠, estimated
 
 ### `cola_v.step_3` (mix)
 
@@ -24072,6 +24646,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `colcannon.step_5` (stir_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, doesn't fit in 1 input items and 1000 mB tanks at any scale
 
 ### `colcannon.step_6` (mix)
 
@@ -24172,20 +24747,24 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: 1 recipe, rounding 0%
 
 ### `colonial_goose.step_7` (strain)
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: 1 recipe, rounding 0%
 
 ### `com_chien_vietnamese_fried_rice.step_1` (stir_fry)
 
 - create_heated_mixing: 1 recipe, rounding 1%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `com_chien_vietnamese_fried_rice.step_2` (stir_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 6
 
 ### `com_chien_vietnamese_fried_rice.step_3` (mix)
 
@@ -24211,6 +24790,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 17% ⚠, estimated
 
 ### `communion_wafers.step_2` (knead)
 
@@ -24221,11 +24801,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 9%
+- thermal_centrifuge: 1 recipe, rounding 18% ⚠
 
 ### `communion_wafers.step_4` (separate)
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 3%
+- thermal_centrifuge: 1 recipe, rounding 3%
 
 ### `communion_wafers.step_5` (shape)
 
@@ -24271,11 +24853,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 17% ⚠, estimated
 
 ### `consomme.step_11` (strain)
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 17% ⚠, estimated
 
 ### `consomme.step_12` (mix)
 
@@ -24401,11 +24985,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 4%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `coq_au_vin_i.step_3` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `coq_au_vin_i.step_4` (assemble)
 
@@ -24436,11 +25022,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 6%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `coq_au_vin_ii.step_4` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `coq_au_vin_ii.step_5` (assemble)
 
@@ -24456,6 +25044,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 0%, estimated
 
 ### `coq_au_vin_ii.step_9` (heat)
 
@@ -24475,16 +25064,19 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `coq_au_vin_iii.step_2` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `coq_au_vin_iii.step_3` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `coq_au_vin_iii.step_4` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 6%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 6
 
 ### `coq_au_vin_iii.step_5` (simmer)
 
@@ -24495,6 +25087,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 6
 
 ### `coq_au_vin_iii.step_8` (evaporate)
 
@@ -24547,6 +25140,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `corn_and_kelp_chowder.step_1` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 13%, estimated
+- pnc_thermo_plant: none, doesn't fit in 1 input items and 1000 mB tanks at any scale
 
 ### `corn_and_kelp_chowder.step_2` (mix)
 
@@ -24581,6 +25175,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `corn_and_shrimp_chowder.step_4` (mix)
 
@@ -24664,6 +25259,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `corn_chowder_i.step_1` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 2%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `corn_chowder_i.step_2` (mix)
 
@@ -24732,6 +25328,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `corn_dogs.step_5` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `corn_muffins.step_1` (mix)
 
@@ -24757,6 +25354,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: none, whole items would distort it by 3025%
+- thermal_centrifuge: none, whole items would distort it by 3025%
 
 ### `corn_on_the_cob_with_husks.step_2` (soak)
 
@@ -24781,10 +25379,12 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `corn_pancakes.step_11` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `corn_pancakes.step_12` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `corn_pancakes.step_2` (mix)
 
@@ -24818,6 +25418,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `corn_pancakes.step_9` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 4%, estimated
 
 ### `corn_pone.step_1` (mix)
 
@@ -24838,6 +25439,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - vd_fermenting_jar: 1 recipe, rounding 3%, estimated
 - bnc_keg: none, can't make the mod's own corn_pone_step_4, and no other mod provides it
+- pnc_thermo_plant: 1 recipe, rounding 2%, estimated
 
 ### `corn_pone.step_5` (shape)
 
@@ -24901,10 +25503,12 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `cornbread_and_chicken_casserole.step_1` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 13%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `cornbread_and_chicken_casserole.step_2` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 1%, estimated
+- pnc_thermo_plant: none, doesn't fit in 1 input items and 1000 mB tanks at any scale
 
 ### `cornbread_and_chicken_casserole.step_3` (mix)
 
@@ -24967,7 +25571,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `cornbread_ii.step_4` (mix)
 
-- create_mixing: 1 recipe, rounding 0%, estimated
+- create_mixing: 2 recipes, rounding 0%, estimated
 - shapeless_crafting: none, whole items would distort it by 111%
 
 ### `cornbread_ii.step_5` (shape)
@@ -24984,6 +25588,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: none, whole items would distort it by 200%
 
 ### `cornbread_stuffed_zucchini.step_2` (mix)
 
@@ -25088,6 +25693,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `cornmeal_fried_morels.step_2` (rinse)
 
@@ -25118,6 +25724,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: 1 recipe, rounding 0%
 
 ### `cornmeal_fried_morels.step_8` (coat)
 
@@ -25148,6 +25755,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 5%
+- pnc_thermo_plant: none, whole items would distort it by 458%
 
 ### `cornmeal_pancakes_arepa.step_6` (bake)
 
@@ -25226,6 +25834,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `coronation_chicken.step_3` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 3%, estimated
+- pnc_thermo_plant: none, whole items would distort it by 200%
 
 ### `coronation_chicken.step_4` (simmer)
 
@@ -25351,10 +25960,12 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `cottage_cheese_pancakes.step_2` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 4%, estimated
 
 ### `cottage_cheese_pancakes.step_3` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 0%, estimated
 
 ### `country_fried_chicken.step_1` (season)
 
@@ -25370,6 +25981,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 5%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `country_fried_chicken.step_5` (toast)
 
@@ -25423,11 +26035,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 1%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `couscous_bil_khodra_libyan_vegetable_couscous.step_2` (stir_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 5%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 6
 
 ### `couscous_bil_khodra_libyan_vegetable_couscous.step_3` (coat)
 
@@ -25491,7 +26105,8 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `crab_cakes.step_5` (pan_fry)
 
-- create_heated_mixing: 1 recipe, rounding 0%
+- create_heated_mixing: 2 recipes, rounding 0%
+- pnc_thermo_plant: 2 recipes, rounding 0%
 
 ### `crab_dip.step_1` (rinse)
 
@@ -25506,16 +26121,19 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 13%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `crab_fried_rice.step_2` (stir_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 9%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 6
 
 ### `crab_fried_rice.step_3` (stir_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `crab_fried_rice.step_4` (mix)
 
@@ -25526,6 +26144,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 1%
+- thermal_centrifuge: 1 recipe, rounding 1%
 
 ### `crab_meat_canape.step_10` (assemble)
 
@@ -25535,6 +26154,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `crab_meat_canape.step_2` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 13%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `crab_meat_canape.step_3` (fold)
 
@@ -25564,6 +26184,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `crab_meat_ravioli_filling.step_1` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 13%, estimated
+- pnc_thermo_plant: none, doesn't fit in 1 input items and 1000 mB tanks at any scale
 
 ### `crab_meat_ravioli_filling.step_2` (mix)
 
@@ -25589,6 +26210,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 33% ⚠
+- pnc_thermo_plant: none, takes at most 2 inputs, not 6
 
 ### `crab_quesadillas_with_mango_salsa.step_5` (mix)
 
@@ -25633,6 +26255,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 2%, estimated
+- thermal_centrifuge: 1 recipe, rounding 4%, estimated
 
 ### `cranberry_orange_squares.step_5` (shape)
 
@@ -25708,6 +26331,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 7%
+- thermal_centrifuge: 1 recipe, rounding 7%
 
 ### `cream_cheese_american_buttercream.step_1` (mix)
 
@@ -25782,6 +26406,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `cream_cheese_wontons.step_5` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `cream_cheese_wontons.step_6` (dry)
 
@@ -25813,6 +26438,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `cream_of_mushroom_soup.step_1` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 8%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `cream_of_mushroom_soup.step_2` (mix)
 
@@ -25846,6 +26472,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: 1 recipe, rounding 24% ⚠, estimated
 - create_mixing: 1 recipe, rounding 4%, estimated
+- thermal_centrifuge: 1 recipe, rounding 24% ⚠, estimated
 
 ### `cream_of_tartar.dissolve_argol` (dissolve)
 
@@ -25856,6 +26483,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - vd_fermenting_jar: 1 recipe, rounding 1%, estimated
 - bnc_keg: none, can't make the mod's own wine, and no other mod provides it
+- pnc_thermo_plant: 1 recipe, rounding 0%, estimated
 
 ### `cream_puff.step_1` (mix)
 
@@ -25949,6 +26577,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 4%
+- thermal_centrifuge: 1 recipe, rounding 4%
 
 ### `creamed_corn.step_2` (blend)
 
@@ -25973,6 +26602,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_press: 1 recipe, rounding 0%, estimated
 
 ### `creamy_aioli_salsa.step_2` (assemble)
 
@@ -26074,6 +26704,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 1%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `creamy_tomato_and_bean_soup.step_3` (simmer)
 
@@ -26131,6 +26762,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 17% ⚠, estimated
 
 ### `creme_brulee_cheesecake.step_10` (bake)
 
@@ -26141,6 +26773,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: 1 recipe, rounding 0%
 
 ### `creme_brulee_cheesecake.step_14` (coat)
 
@@ -26284,10 +26917,12 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `crepes_ii.step_5` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 4%, estimated
 
 ### `crepes_ii.step_6` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 0%, estimated
 
 ### `crepes_ii.step_7` (assemble)
 
@@ -26323,6 +26958,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 5%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `crispy_buffalo_shrimp.step_5` (coat)
 
@@ -26348,6 +26984,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 6%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `crispy_calamari.step_5` (season)
 
@@ -26399,6 +27036,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 5%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `crispy_fish_sandwich.step_4` (season)
 
@@ -26537,6 +27175,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `crispy_sweet_potato_fries.step_4` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 0%, estimated
 
 ### `crispy_sweet_potato_fries.step_5` (season)
 
@@ -26552,6 +27191,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 12%
+- thermal_centrifuge: 1 recipe, rounding 12%
 
 ### `crock_pot_beef_stew.step_2` (mix)
 
@@ -26567,6 +27207,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: 1 recipe, rounding 0%
 
 ### `crock_pot_potato_soup.step_1` (mix)
 
@@ -26596,11 +27237,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - vd_fermenting_jar: none, whole items would distort it by 182%
 - bnc_keg: none, can't make the mod's own croissant_step_1, and no other mod provides it
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `croissant.step_10` (ferment)
 
 - vd_fermenting_jar: 1 recipe, rounding 1%
 - bnc_keg: none, can't make the mod's own croissant_step_10, and no other mod provides it
+- pnc_thermo_plant: 1 recipe, rounding 1%
 
 ### `croissant.step_12` (coat)
 
@@ -26698,6 +27341,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: 1 recipe, rounding 0%
 
 ### `crotopo_soup.step_4` (coat)
 
@@ -26756,6 +27400,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `crullers_round.step_6` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `crullers_round.step_8` (coat)
 
@@ -26785,6 +27430,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `crullers_twisted.step_5` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `crullers_twisted.step_6` (cool)
 
@@ -26814,6 +27460,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 13%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 7
 
 ### `crushed_tomato_sauce.step_2` (mix)
 
@@ -26853,11 +27500,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 10%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `cuban_picadillo.step_2` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 7%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 5
 
 ### `cuban_picadillo.step_3` (boil)
 
@@ -26976,7 +27625,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `cucumber_and_tomato_salad.step_4` (mix)
 
-- create_mixing: 1 recipe, rounding 1%
+- create_mixing: 2 recipes, rounding 1%
 - shapeless_crafting: 1 recipe, rounding 13%
 
 ### `cucumber_and_tomato_salad.step_5` (season)
@@ -27058,6 +27707,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 12%
+- thermal_centrifuge: none, whole items would distort it by 164%
 
 ### `cullen_skink_haddock_and_potato_soup.step_4` (mix)
 
@@ -27078,6 +27728,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 17% ⚠, estimated
 
 ### `cullen_skink_haddock_and_potato_soup.step_8` (boil)
 
@@ -27116,11 +27767,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `curried_chiles_mirchi_ka_salan.step_2` (stir_fry)
 
 - create_heated_mixing: 1 recipe, rounding 6%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `curried_chiles_mirchi_ka_salan.step_3` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 4%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 6
 
 ### `curried_chiles_mirchi_ka_salan.step_4` (mix)
 
@@ -27140,6 +27793,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `curried_rice.step_2` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 13%, estimated
+- pnc_thermo_plant: none, doesn't fit in 1 input items and 1000 mB tanks at any scale
 
 ### `curried_rice.step_3` (season)
 
@@ -27170,6 +27824,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 6
 
 ### `curry_chicken_i.step_5` (season)
 
@@ -27180,6 +27835,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `curry_chicken_i.step_7` (mix)
 
@@ -27195,11 +27851,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 1%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `curry_chicken_ii.step_2` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `curry_chicken_ii.step_3` (season)
 
@@ -27219,11 +27877,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `curry_fried_rice.step_1` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 1%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `curry_fried_rice.step_2` (stir_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 13%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `curry_fried_rice.step_3` (mix)
 
@@ -27244,6 +27904,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - vd_fermenting_jar: 1 recipe, rounding 0%
 - bnc_keg: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `custard_creams.step_1` (mix)
 
@@ -27367,6 +28028,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_press: none, takes one input, not 2
 
 ### `dabo_kolo_ethiopian_spiced_bread_snacks.step_1` (mix)
 
@@ -27396,15 +28058,18 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `dabo_kolo_ethiopian_spiced_bread_snacks.step_7` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 10%
+- pnc_thermo_plant: 1 recipe, rounding 10%
 
 ### `dabo_kolo_ethiopian_spiced_bread_snacks.step_8` (strain)
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 10%
+- thermal_centrifuge: 1 recipe, rounding 10%
 
 ### `dahi_baingana_fried_eggplant_in_yogurt.step_1` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 50% ⚠
 
 ### `dahi_baingana_fried_eggplant_in_yogurt.step_2` (mix)
 
@@ -27415,6 +28080,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `dahi_baingana_fried_eggplant_in_yogurt.step_4` (mix)
 
@@ -27459,6 +28125,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `daigakuimo_japanese_candied_sweet_potato.step_2` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 10%
+- pnc_thermo_plant: 2 recipes, rounding 76% ⚠
 
 ### `daigakuimo_japanese_candied_sweet_potato.step_3` (mix)
 
@@ -27514,16 +28181,19 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 2%
+- thermal_centrifuge: 1 recipe, rounding 2%
 
 ### `dal_makhani_black_gram_with_cream.step_4` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 2%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 9
 
 ### `dal_makhani_black_gram_with_cream.step_5` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 1%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `dal_makhani_black_gram_with_cream.step_6` (mix)
 
@@ -27566,12 +28236,14 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `dambun_masara.step_3` (pan_fry)
 
-- create_heated_mixing: 1 recipe, rounding 1%, estimated
+- create_heated_mixing: 2 recipes, rounding 1%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `dambun_masara.step_4` (stir_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 1%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 5
 
 ### `damper_australian_campfire_bread.step_1` (season)
 
@@ -27597,6 +28269,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 5%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `daniel_webster_s_chowder.step_2` (assemble)
 
@@ -27826,6 +28499,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 1%, estimated
+- thermal_centrifuge: 1 recipe, rounding 6%, estimated
 
 ### `date_syrup.step_7` (evaporate)
 
@@ -27845,6 +28519,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - vd_fermenting_jar: 1 recipe, rounding 6%
 - bnc_keg: none, can't make the mod's own deep_dish_pizza_step_3, and no other mod provides it
+- pnc_thermo_plant: 1 recipe, rounding 20% ⚠
 
 ### `deep_dish_pizza.step_4` (shape)
 
@@ -27898,6 +28573,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `deep_fried_chickpea_dough_balls_chyueeam.step_8` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `deep_fried_chickpea_dough_curry_snacks_pakoda.step_1` (mix)
 
@@ -27917,6 +28593,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `deep_fried_chickpea_dough_curry_snacks_pakoda.step_5` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `deep_fried_chickpea_dough_with_lemon_panissa.step_1` (mix)
 
@@ -27942,6 +28619,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 4%
+- pnc_thermo_plant: none, doesn't fit in 1 input items and 1000 mB tanks at any scale
 
 ### `deep_fried_chiles_filled_with_chickpea_flour_mirchi_bhajji.step_2` (assemble)
 
@@ -27956,6 +28634,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `deep_fried_chiles_filled_with_chickpea_flour_mirchi_bhajji.step_5` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `deep_fried_chiles_stuffed_with_potato_mirchi_bada.step_1` (cut)
 
@@ -27981,6 +28660,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `deep_fried_lentil_dough_balls_punugu.step_1` (soak)
 
@@ -28005,11 +28685,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - vd_fermenting_jar: 1 recipe, rounding 17% ⚠, estimated
 - bnc_keg: none, can't make the mod's own deep_fried_lentil_dough_balls_punugu_step_5, and no other mod provides it
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `deep_fried_lentil_dough_balls_punugu.step_6` (fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 33% ⚠, estimated
 
 ### `deep_fried_mars_bar.step_2` (whisk)
 
@@ -28023,15 +28705,18 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `deep_fried_mars_bar.step_5` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `deep_fried_pretzels.step_3` (fry)
 
-- create_heated_mixing: 1 recipe, rounding 0%, estimated
+- create_heated_mixing: 2 recipes, rounding 0%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `deep_fried_turkey.step_1` (separate)
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: none, whole items would distort it by 900%
 
 ### `deep_fried_turkey.step_10` (heat)
 
@@ -28046,14 +28731,17 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `deep_fried_turkey.step_7` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 1%
+- pnc_thermo_plant: none, whole items would distort it by 1500%
 
 ### `deep_fried_turkey.step_8` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `deep_fried_turkey.step_9` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `deep_fried_urad_and_rice_flour_dough_balls_murukku.step_1` (roast)
 
@@ -28073,11 +28761,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `deep_fried_urad_and_rice_flour_dough_balls_murukku.step_5` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 11%
+- pnc_thermo_plant: 1 recipe, rounding 11%
 
 ### `deep_fried_urad_and_rice_flour_dough_balls_murukku.step_6` (strain)
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 11%
+- thermal_centrifuge: 1 recipe, rounding 11%
 
 ### `deep_fried_wheat_and_chickpea_flour_dough_balls_muthiya.step_1` (heat)
 
@@ -28097,6 +28787,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `deep_fried_wheat_and_chickpea_flour_dough_balls_muthiya.step_4` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 10%
+- pnc_thermo_plant: 1 recipe, rounding 20% ⚠
 
 ### `deluxe_burgers.step_1` (mix)
 
@@ -28170,6 +28861,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 5%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 7
 
 ### `denver_omelet.step_3` (whisk)
 
@@ -28183,10 +28875,12 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `denver_omelet.step_5` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 0%, estimated
 
 ### `denver_omelet.step_6` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `dereniowka_polish_dogwood_liqueur.step_1` (steep)
 
@@ -28198,6 +28892,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 4%, estimated
+- thermal_centrifuge: none, takes one input, not 2
 
 ### `dereniowka_polish_dogwood_liqueur.step_3` (age)
 
@@ -28223,6 +28918,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: none, whole items would distort it by 500%
 
 ### `deviled_eggs.step_2` (mix)
 
@@ -28261,6 +28957,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: none, whole items would distort it by 4067%
+- thermal_centrifuge: none, whole items would distort it by 4067%
 
 ### `dharwad_pedha_sweetened_paneer_cheese.step_4` (heat)
 
@@ -28271,6 +28968,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: none, whole items would distort it by 247%
+- pnc_thermo_plant: none, whole items would distort it by 247%
 
 ### `dharwad_pedha_sweetened_paneer_cheese.step_6` (mix)
 
@@ -28322,6 +29020,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - vd_fermenting_jar: 1 recipe, rounding 6%, estimated
 - bnc_keg: none, can't make the mod's own dhokla_steamed_black_gram_bread_step_4, and no other mod provides it
+- pnc_thermo_plant: 1 recipe, rounding 1%, estimated
 
 ### `dhokla_steamed_black_gram_bread.step_5` (blend)
 
@@ -28336,6 +29035,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 17% ⚠, estimated
 
 ### `dibi_senegalese_grilled_meat.step_1` (mix)
 
@@ -28396,10 +29096,12 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: none, takes one input, not 2
 
 ### `diri_na_njar_chadian_spiced_rice_with_vegetables.step_2` (pan_fry)
 
-- create_heated_mixing: 1 recipe, rounding 1%, estimated
+- create_heated_mixing: 2 recipes, rounding 1%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `diri_na_njar_chadian_spiced_rice_with_vegetables.step_3` (heat)
 
@@ -28484,6 +29186,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 17% ⚠, estimated
 
 ### `dirty_rice.step_2` (grind)
 
@@ -28493,6 +29196,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 6%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 5
 
 ### `dirty_rice.step_4` (season)
 
@@ -28507,6 +29211,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `dirty_rice.step_6` (stir_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 0%, estimated
 
 ### `dirty_rice.step_7` (simmer)
 
@@ -28535,11 +29240,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `dodo_ikire_fried_leftover_plantain.step_4` (fry)
 
 - create_heated_mixing: none, whole items would distort it by 1823%
+- pnc_thermo_plant: none, whole items would distort it by 1823%
 
 ### `dodo_ikire_fried_leftover_plantain.step_5` (strain)
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: none, whole items would distort it by 1823%
+- thermal_centrifuge: none, whole items would distort it by 1823%
 
 ### `dodo_ikire_fried_leftover_plantain.step_6` (shape)
 
@@ -28548,7 +29255,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `dog_biscuits.step_2` (mix)
 
-- create_mixing: 1 recipe, rounding 0%, estimated
+- create_mixing: 2 recipes, rounding 0%, estimated
 - shapeless_crafting: none, whole items would distort it by 111%
 
 ### `dog_biscuits.step_3` (mix)
@@ -28580,11 +29287,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - vd_fermenting_jar: 1 recipe, rounding 0%
 - bnc_keg: none, can't make the mod's own dokunu_fermented_corn_dumplings_step_2, and no other mod provides it
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `dokunu_fermented_corn_dumplings.step_3` (separate)
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: 1 recipe, rounding 0%
 
 ### `dokunu_fermented_corn_dumplings.step_4` (heat)
 
@@ -28610,6 +29319,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 0%, estimated
 
 ### `dole_pineapple_upside_down_cake.step_10` (bake)
 
@@ -28774,15 +29484,18 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 17% ⚠, estimated
 
 ### `domoda_gambian_peanut_stew.step_1` (pan_fry)
 
-- create_heated_mixing: 1 recipe, rounding 1%
+- create_heated_mixing: 2 recipes, rounding 1%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `domoda_gambian_peanut_stew.step_2` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `domoda_gambian_peanut_stew.step_3` (season)
 
@@ -28828,6 +29541,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `doro_dabo_ethiopian_chicken_with_spiced_bread.step_15` (simmer)
 
@@ -28857,6 +29571,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - vd_fermenting_jar: 1 recipe, rounding 2%
 - bnc_keg: none, can't make the mod's own doro_dabo_ethiopian_chicken_with_spiced_bread_step_4, and no other mod provides it
+- pnc_thermo_plant: 1 recipe, rounding 2%
 
 ### `doro_dabo_ethiopian_chicken_with_spiced_bread.step_6` (knead)
 
@@ -28922,16 +29637,19 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 1%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `doro_tibs_ethiopian_sauteed_chicken.step_4` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `doro_tibs_ethiopian_sauteed_chicken.step_5` (stir_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `doro_tibs_ethiopian_sauteed_chicken.step_6` (season)
 
@@ -28946,6 +29664,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `dorowot_fitfit_ethiopian_chicken_stew_salad.step_1` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 6%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `dorowot_fitfit_ethiopian_chicken_stew_salad.step_10` (soak)
 
@@ -28976,6 +29695,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 1%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `dorowot_fitfit_ethiopian_chicken_stew_salad.step_5` (simmer)
 
@@ -29011,6 +29731,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 17% ⚠, estimated
 
 ### `dosa_i.step_12` (steam)
 
@@ -29021,6 +29742,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `dosa_i.step_14` (fold)
 
@@ -29045,6 +29767,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - vd_fermenting_jar: 1 recipe, rounding 0%, estimated
 - bnc_keg: none, can't make the mod's own dosa_i_step_5, and no other mod provides it
+- pnc_thermo_plant: 1 recipe, rounding 4%, estimated
 
 ### `dosa_i.step_6` (season)
 
@@ -29069,6 +29792,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - vd_fermenting_jar: none, whole items would distort it by 4971%
 - bnc_keg: none, can't make the mod's own dosa_ii_step_3, and no other mod provides it
+- pnc_thermo_plant: 1 recipe, rounding 10%, estimated
 
 ### `dosa_ii.step_4` (mix)
 
@@ -29079,14 +29803,17 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 7%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 8%, estimated
 
 ### `dosa_ii.step_6` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 14%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 14%, estimated
 
 ### `dosa_ii.step_7` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 14%
+- pnc_thermo_plant: 1 recipe, rounding 14%
 
 ### `dosa_ii.step_8` (fold)
 
@@ -29196,6 +29923,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 4%
+- pnc_thermo_plant: 1 recipe, rounding 20% ⚠
 
 ### `double_hamburgers.step_5` (heat)
 
@@ -29236,6 +29964,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 4 recipes, rounding 1%, estimated
+- thermal_centrifuge: none, takes one input, not 2
 
 ### `dr_kitchener_s_pudding.step_2` (mix)
 
@@ -29301,6 +30030,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 3%
+- thermal_centrifuge: 1 recipe, rounding 16% ⚠
 
 ### `drunken_shrimp.step_1` (cool)
 
@@ -29390,11 +30120,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 12%
+- pnc_thermo_plant: 1 recipe, rounding 12%
 
 ### `dublin_lamb_stew.step_2` (stir_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 10%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 8
 
 ### `dublin_lamb_stew.step_3` (assemble)
 
@@ -29440,6 +30172,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 0%, estimated
 
 ### `duck_confit.step_12` (coat)
 
@@ -29465,6 +30198,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: 1 recipe, rounding 0%
 
 ### `duck_confit.step_7` (rinse)
 
@@ -29484,11 +30218,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `duck_fried_rice.step_1` (stir_fry)
 
 - create_heated_mixing: 1 recipe, rounding 13%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 6
 
 ### `duck_fried_rice.step_2` (stir_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 5
 
 ### `duck_fried_rice.step_3` (mix)
 
@@ -29504,6 +30240,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 5%, estimated
+- thermal_centrifuge: 1 recipe, rounding 16% ⚠, estimated
 
 ### `dud_patti_milk_tea.step_2` (steep)
 
@@ -29521,6 +30258,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 2%, estimated
+- thermal_centrifuge: 1 recipe, rounding 19% ⚠, estimated
 
 ### `dud_patti_milk_tea.step_5` (season)
 
@@ -29600,6 +30338,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - vd_fermenting_jar: none, whole items would distort it by 181%
 - bnc_keg: none, can't make the mod's own duonos_gira_lithuanian_rye_drink_step_2, and no other mod provides it
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `duonos_gira_lithuanian_rye_drink.step_3` (assemble)
 
@@ -29628,6 +30367,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `durian_pancake.step_5` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `dutch_apple_fritters_oliebollen.step_1` (dissolve)
 
@@ -29653,6 +30393,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - vd_fermenting_jar: 1 recipe, rounding 0%, estimated
 - bnc_keg: none, can't make the mod's own dutch_apple_fritters_oliebollen_step_4, and no other mod provides it
+- pnc_thermo_plant: 1 recipe, rounding 4%, estimated
 
 ### `dutch_apple_fritters_oliebollen.step_5` (mix)
 
@@ -29662,10 +30403,12 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `dutch_apple_fritters_oliebollen.step_7` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 4%, estimated
 
 ### `dutch_apple_fritters_oliebollen.step_8` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 0%, estimated
 
 ### `dutch_oven_beans.step_2` (chop)
 
@@ -29676,6 +30419,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 1%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `dutch_oven_beans.step_4` (mix)
 
@@ -29700,6 +30444,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `duxelles_minced_mushrooms_with_herbs.step_1` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 13%, estimated
+- pnc_thermo_plant: none, doesn't fit in 1 input items and 1000 mB tanks at any scale
 
 ### `duxelles_minced_mushrooms_with_herbs.step_2` (mix)
 
@@ -29722,7 +30467,8 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `dynamite_shrimp.step_3` (fry)
 
-- create_heated_mixing: 1 recipe, rounding 5%
+- create_heated_mixing: 2 recipes, rounding 5%
+- pnc_thermo_plant: 2 recipes, rounding 19% ⚠
 
 ### `dynamite_shrimp.step_4` (season)
 
@@ -29763,6 +30509,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: 1 recipe, rounding 0%
 
 ### `east_african_beef_pilaf.step_3` (toast)
 
@@ -29773,10 +30520,12 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `east_african_beef_pilaf.step_5` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 5%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `east_african_beef_pilaf.step_6` (mix)
 
@@ -29823,6 +30572,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 0%, estimated
 
 ### `east_frisian_tea.step_7` (assemble)
 
@@ -29940,6 +30690,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: none, whole items would distort it by 421%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `easy_pasta_sauce.step_5` (mix)
 
@@ -30166,6 +30917,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `eel_alla_milanese.step_1` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 12%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 8
 
 ### `eel_alla_milanese.step_2` (boil)
 
@@ -30176,11 +30928,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: 1 recipe, rounding 0%
 
 ### `eel_alla_milanese.step_4` (strain)
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 0%, estimated
 
 ### `eel_alla_milanese.step_5` (boil)
 
@@ -30230,11 +30984,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: 1 recipe, rounding 0%
 
 ### `eel_chowder.step_8` (strain)
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 0%, estimated
 
 ### `eel_chowder.step_9` (assemble)
 
@@ -30274,6 +31030,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 17% ⚠, estimated
 
 ### `efo_riro.step_6` (mix)
 
@@ -30583,6 +31340,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `egg_rice.step_3` (season)
 
@@ -30608,23 +31366,28 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 17% ⚠, estimated
 
 ### `egg_roast.step_1` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `egg_roast.step_2` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 13%, estimated
+- pnc_thermo_plant: none, doesn't fit in 1 input items and 1000 mB tanks at any scale
 
 ### `egg_roast.step_3` (stir_fry)
 
 - create_heated_mixing: 1 recipe, rounding 90% ⚠, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `egg_roast.step_4` (stir_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `egg_roast.step_5` (coat)
 
@@ -30635,6 +31398,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 6
 
 ### `egg_roll.step_10` (season)
 
@@ -30654,10 +31418,12 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `egg_roll.step_13` (stir_fry)
 
 - create_heated_mixing: 1 recipe, rounding 4%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 4%, estimated
 
 ### `egg_roll.step_14` (stir_fry)
 
 - create_heated_mixing: 1 recipe, rounding 4%
+- pnc_thermo_plant: 1 recipe, rounding 4%
 
 ### `egg_roll.step_15` (mix)
 
@@ -30707,14 +31473,17 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `egg_roll.step_26` (fry)
 
 - create_heated_mixing: none, whole items would distort it by 541%
+- pnc_thermo_plant: none, whole items would distort it by 541%
 
 ### `egg_roll.step_27` (fry)
 
 - create_heated_mixing: none, whole items would distort it by 541%
+- pnc_thermo_plant: none, whole items would distort it by 541%
 
 ### `egg_roll.step_28` (fry)
 
 - create_heated_mixing: none, whole items would distort it by 541%
+- pnc_thermo_plant: none, whole items would distort it by 541%
 
 ### `egg_roll.step_3` (chop)
 
@@ -30744,6 +31513,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `egg_roll.step_9` (stir_fry)
 
 - create_heated_mixing: none, whole items would distort it by 346%
+- pnc_thermo_plant: none, whole items would distort it by 346%
 
 ### `egg_soda.step_2` (mix)
 
@@ -30792,6 +31562,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `egg_with_cabbage_and_turkish_sausage.step_3` (mix)
 
@@ -30832,6 +31603,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 6
 
 ### `eggplant_and_chickpea_skillet.step_2` (simmer)
 
@@ -30856,6 +31628,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_press: none, takes one input, not 2
 
 ### `eggplant_parmesan_melanzane_alla_parmigiana_i.step_3` (coat)
 
@@ -30886,6 +31659,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 17% ⚠, estimated
 
 ### `eggplant_parmesan_melanzane_alla_parmigiana_ii.step_4` (assemble)
 
@@ -30906,16 +31680,19 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_press: 1 recipe, rounding 0%
 
 ### `eggplant_pasta.step_3` (fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 1%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `eggplant_pasta.step_4` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `eggplant_pasta.step_5` (simmer)
 
@@ -30966,6 +31743,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: 1 recipe, rounding 0%
 
 ### `egyptian_cabbage_rolls_mahshi_malfoof.step_3` (mix)
 
@@ -30996,6 +31774,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 1%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `egyptian_fish_tagine_samak_tajine.step_3` (toast)
 
@@ -31050,6 +31829,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: 1 recipe, rounding 0%
 
 ### `egyptian_grilled_pigeon_fattah_meshaltet.step_6` (grill)
 
@@ -31070,6 +31850,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 1%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `egyptian_lentil_soup.step_3` (heat)
 
@@ -31114,6 +31895,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `egyptian_lentil_stew.step_3` (mix)
 
@@ -31134,6 +31916,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_press: none, takes one input, not 2
 
 ### `egyptian_lentil_stew.step_8` (mix)
 
@@ -31169,6 +31952,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: 1 recipe, rounding 0%
 
 ### `egyptian_milk_pudding_mahalabiya.step_1` (dissolve)
 
@@ -31199,6 +31983,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 30% ⚠, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 5
 
 ### `egyptian_okra.step_3` (mix)
 
@@ -31217,7 +32002,8 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `egyptian_okra_stew.step_2` (pan_fry)
 
-- create_heated_mixing: 1 recipe, rounding 1%
+- create_heated_mixing: 2 recipes, rounding 1%
+- pnc_thermo_plant: 2 recipes, rounding 1%
 
 ### `egyptian_okra_stew.step_3` (heat)
 
@@ -31324,6 +32110,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: 1 recipe, rounding 0%
 
 ### `egyptian_stuffed_eggplant_mahshi_betinjan.step_4` (mix)
 
@@ -31359,6 +32146,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_press: 1 recipe, rounding 0%
 
 ### `egyptian_stuffed_grape_leaves_warak_enab_mahshi.step_11` (simmer)
 
@@ -31369,6 +32157,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: 1 recipe, rounding 0%
 
 ### `egyptian_stuffed_grape_leaves_warak_enab_mahshi.step_2` (mix)
 
@@ -31424,6 +32213,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: 1 recipe, rounding 0%
 
 ### `egyptian_sweet_rice_pudding_roz_bil_laban.step_7` (season)
 
@@ -31472,6 +32262,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 17% ⚠, estimated
 
 ### `ekpang_nkukwo.step_1` (rinse)
 
@@ -31574,11 +32365,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `ekwang_cameroonian_taro_leaf_stew.step_2` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 1%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 5
 
 ### `ekwang_cameroonian_taro_leaf_stew.step_3` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 1%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `ekwang_cameroonian_taro_leaf_stew.step_4` (mix)
 
@@ -31619,6 +32412,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: 1 recipe, rounding 0%
 
 ### `enchiladas_rojas.step_11` (mix)
 
@@ -31629,6 +32423,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `enchiladas_rojas.step_14` (coat)
 
@@ -31675,6 +32470,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `english_field_bean_pate.step_3` (grind)
 
@@ -31694,6 +32490,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 13%
+- thermal_centrifuge: none, takes one input, not 2
 
 ### `english_pea_salad.step_3` (rinse)
 
@@ -31723,11 +32520,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 2%
+- thermal_press: none, doesn't fit in 1 input items and 1000 mB tanks at any scale
 
 ### `english_style_aged_cheese.step_11` (separate)
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 2%
+- thermal_centrifuge: none, doesn't fit in 1 input items and 1000 mB tanks at any scale
 
 ### `english_style_aged_cheese.step_12` (age)
 
@@ -31747,6 +32546,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 2%
+- thermal_centrifuge: none, doesn't fit in 1 input items and 1000 mB tanks at any scale
 
 ### `english_style_aged_cheese.step_5` (cut)
 
@@ -31762,6 +32562,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 2%
+- thermal_centrifuge: none, doesn't fit in 1 input items and 1000 mB tanks at any scale
 
 ### `english_style_aged_cheese.step_8` (season)
 
@@ -31772,6 +32573,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 2%, estimated
+- thermal_press: none, takes one input, not 2
 
 ### `ensalada_de_pallares_peruvian_lima_bean_salad.step_1` (soak)
 
@@ -31787,6 +32589,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 1%
+- thermal_centrifuge: 1 recipe, rounding 1%
 
 ### `ensalada_de_pallares_peruvian_lima_bean_salad.step_4` (season)
 
@@ -31825,12 +32628,14 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `entula_ugandan_eggplant_stew.step_1` (pan_fry)
 
-- create_heated_mixing: 1 recipe, rounding 7%, estimated
+- create_heated_mixing: 2 recipes, rounding 7%, estimated
+- pnc_thermo_plant: 2 recipes, rounding 7%, estimated
 
 ### `entula_ugandan_eggplant_stew.step_2` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 4%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `entula_ugandan_eggplant_stew.step_3` (mix)
 
@@ -31896,6 +32701,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: none, whole items would distort it by 212%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `erwtensoep_split_pea_soup.step_3` (boil)
 
@@ -31978,6 +32784,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 17% ⚠, estimated
 
 ### `espagnole_sauce_mrs_w_g_waters.step_2` (heat)
 
@@ -31993,11 +32800,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 17% ⚠, estimated
 
 ### `espagnole_sauce_mrs_w_g_waters.step_6` (strain)
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 17% ⚠, estimated
 
 ### `espresso_brownies.step_3` (whisk)
 
@@ -32026,6 +32835,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `estofado_de_pollo_chicken_stew.step_1` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 8
 
 ### `estofado_de_pollo_chicken_stew.step_2` (simmer)
 
@@ -32051,6 +32861,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 1%, estimated
+- thermal_centrifuge: 1 recipe, rounding 1%, estimated
 
 ### `euneo_juk_korean_sweetfish_porridge.step_4` (season)
 
@@ -32128,6 +32939,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `ewa_aganyin_togolese_mashed_beans_and_special_sauce.step_6` (simmer)
 
@@ -32202,6 +33014,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 17% ⚠, estimated
 
 ### `fabes_con_almejas_spanish_beans_with_clams.step_8` (season)
 
@@ -32287,7 +33100,8 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `falafel.step_4` (pan_fry)
 
-- create_heated_mixing: 1 recipe, rounding 0%
+- create_heated_mixing: 2 recipes, rounding 0%
+- pnc_thermo_plant: 2 recipes, rounding 0%
 
 ### `falafel_salad.step_1` (mix)
 
@@ -32323,11 +33137,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 4%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 28% ⚠, estimated
 
 ### `falafel_salad.step_8` (strain)
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 13%
+- thermal_centrifuge: 1 recipe, rounding 13%
 
 ### `falafel_salad.step_9` (mix)
 
@@ -32352,6 +33168,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `falafel_seitan_bratwurst.step_4` (pan_fry)
 
 - create_heated_mixing: none, whole items would distort it by 1567%
+- pnc_thermo_plant: none, whole items would distort it by 1567%
 
 ### `fall_chanterelle_mushroom_frittata.step_2` (mix)
 
@@ -32403,10 +33220,12 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `fancy_crepes.step_7` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 4%, estimated
 
 ### `fancy_crepes.step_8` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 0%, estimated
 
 ### `fankasau_hausa_wheat_puff_puff.step_1` (mix)
 
@@ -32417,6 +33236,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - vd_fermenting_jar: 1 recipe, rounding 56% ⚠
 - bnc_keg: none, can't make the mod's own fankasau_hausa_wheat_puff_puff_step_2, and no other mod provides it
+- pnc_thermo_plant: none, whole items would distort it by 525%
 
 ### `fankasau_hausa_wheat_puff_puff.step_3` (mix)
 
@@ -32431,11 +33251,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `fankasau_hausa_wheat_puff_puff.step_5` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 11%
+- pnc_thermo_plant: none, whole items would distort it by 611%
 
 ### `fankasau_hausa_wheat_puff_puff.step_6` (strain)
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 11%
+- thermal_centrifuge: 1 recipe, rounding 11%
 
 ### `fanke_hausa_puff_puff.step_1` (mix)
 
@@ -32451,14 +33273,17 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - vd_fermenting_jar: 1 recipe, rounding 7%, estimated
 - bnc_keg: none, can't make the mod's own fanke_hausa_puff_puff_step_3, and no other mod provides it
+- pnc_thermo_plant: 1 recipe, rounding 1%, estimated
 
 ### `fanke_hausa_puff_puff.step_4` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 12%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 12%, estimated
 
 ### `fanke_hausa_puff_puff.step_5` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 12%
+- pnc_thermo_plant: 1 recipe, rounding 12%
 
 ### `farikal_norwegian_lamb_and_cabbage_stew.step_2` (assemble)
 
@@ -32482,12 +33307,14 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `farofa.step_1` (pan_fry)
 
-- create_heated_mixing: 1 recipe, rounding 3%, estimated
+- create_heated_mixing: 2 recipes, rounding 3%, estimated
+- pnc_thermo_plant: 2 recipes, rounding 3%, estimated
 
 ### `farofa.step_2` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 3%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `farofa.step_3` (season)
 
@@ -32508,6 +33335,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 1%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `fasolia_ethiopian_green_bean_stew.step_3` (heat)
 
@@ -32542,10 +33370,12 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `fast_food_french_fries.step_2` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 1%
+- pnc_thermo_plant: 2 recipes, rounding 1%
 
 ### `fast_food_french_fries.step_3` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 12%
+- pnc_thermo_plant: 1 recipe, rounding 12%
 
 ### `fast_food_french_fries.step_4` (season)
 
@@ -32636,6 +33466,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 7%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `feijao_tropeiro_brazilian_beans_and_sausage.step_3` (cut)
 
@@ -32646,6 +33477,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 50% ⚠
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `feijao_tropeiro_brazilian_beans_and_sausage.step_5` (julienne)
 
@@ -32676,11 +33508,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - vd_fermenting_jar: 1 recipe, rounding 13%, estimated
 - bnc_keg: none, can't make the mod's own fermented_soda_step_3, and no other mod provides it
+- pnc_thermo_plant: 1 recipe, rounding 0%, estimated
 
 ### `fermented_soda.step_4` (strain)
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 9%, estimated
+- thermal_centrifuge: 1 recipe, rounding 13%, estimated
 
 ### `feuerzangenbowle_german_wine_punch.step_1` (heat)
 
@@ -32717,6 +33551,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 17% ⚠, estimated
 
 ### `fiddlehead_portobello_linguine.step_1` (julienne)
 
@@ -32727,16 +33562,19 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 1%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 5
 
 ### `fiddlehead_portobello_linguine.step_3` (stir_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `fiddlehead_portobello_linguine.step_4` (stir_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `fiddlehead_portobello_linguine.step_5` (steam)
 
@@ -32882,6 +33720,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 6%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `filfel_chuma_libyan_spicy_tomato_sauce.step_3` (mix)
 
@@ -32929,26 +33768,31 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `filipino_style_spaghetti.step_2` (pan_fry)
 
-- create_heated_mixing: 1 recipe, rounding 8%
+- create_heated_mixing: 2 recipes, rounding 8%
+- pnc_thermo_plant: 2 recipes, rounding 8%
 
 ### `filipino_style_spaghetti.step_3` (separate)
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 10%
+- thermal_centrifuge: 1 recipe, rounding 10%
 
 ### `filipino_style_spaghetti.step_4` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 1%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `filipino_style_spaghetti.step_5` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `filipino_style_spaghetti.step_6` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `filipino_style_spaghetti.step_7` (evaporate)
 
@@ -33018,6 +33862,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: 1 recipe, rounding 0%
 
 ### `firecracker_marinade.step_1` (blend)
 
@@ -33052,6 +33897,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: 1 recipe, rounding 0%
 
 ### `firecracker_ribs.step_7` (evaporate)
 
@@ -33132,11 +33978,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 1%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `firfir_ethiopian_spicy_scrambled_eggs_with_injera.step_3` (stir_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `firfir_ethiopian_spicy_scrambled_eggs_with_injera.step_4` (heat)
 
@@ -33151,6 +33999,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 17% ⚠, estimated
 
 ### `firfir_ethiopian_spicy_scrambled_eggs_with_injera.step_7` (coagulate)
 
@@ -33175,18 +34024,22 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: 1 recipe, rounding 0%
 
 ### `firire_senegalese_fried_fish_with_sauce.step_4` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `firire_senegalese_fried_fish_with_sauce.step_5` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `firire_senegalese_fried_fish_with_sauce.step_6` (stir_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 0%, estimated
 
 ### `firire_senegalese_fried_fish_with_sauce.step_7` (mix)
 
@@ -33196,6 +34049,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `firire_senegalese_fried_fish_with_sauce.step_8` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: none, doesn't fit in 1 input items and 1000 mB tanks at any scale
 
 ### `firire_senegalese_fried_fish_with_sauce.step_9` (assemble)
 
@@ -33205,6 +34059,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `fish_and_chips.step_2` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, whole items would distort it by 200%
 
 ### `fish_and_chips.step_3` (season)
 
@@ -33223,6 +34078,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `fish_and_chips.step_6` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `fish_and_chips.step_8` (season)
 
@@ -33252,15 +34108,18 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `fish_biryani.step_4` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `fish_biryani.step_5` (fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `fish_biryani.step_6` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 6%, estimated
 
 ### `fish_biryani.step_7` (assemble)
 
@@ -33291,6 +34150,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: 1 recipe, rounding 0%
 
 ### `fish_pie.step_4` (boil)
 
@@ -33360,6 +34220,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 17% ⚠, estimated
 
 ### `fish_sticks.step_1` (mix)
 
@@ -33374,6 +34235,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `fish_sticks.step_3` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 13%
+- pnc_thermo_plant: 2 recipes, rounding 13%
 
 ### `fish_sticks.step_4` (bake)
 
@@ -33404,11 +34266,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 17% ⚠, estimated
 
 ### `fish_stock_fumet_de_poisson.step_7` (strain)
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 17% ⚠, estimated
 
 ### `fisherman_s_casserole.step_2` (boil)
 
@@ -33449,11 +34313,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 1%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `fit_fit_ethiopian_bread_salad.step_3` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `fit_fit_ethiopian_bread_salad.step_4` (coat)
 
@@ -33468,6 +34334,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `fit_fit_ethiopian_bread_salad.step_6` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `fit_fit_ethiopian_bread_salad.step_7` (season)
 
@@ -33592,6 +34459,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - vd_fermenting_jar: none, whole items would distort it by 182%
 - bnc_keg: none, can't make the mod's own flammekueche_bacon_and_onion_flatbread_step_1, and no other mod provides it
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `flammekueche_bacon_and_onion_flatbread.step_10` (shape)
 
@@ -33627,10 +34495,12 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - vd_fermenting_jar: 1 recipe, rounding 0%
 - bnc_keg: none, can't make the mod's own flammekueche_bacon_and_onion_flatbread_step_5, and no other mod provides it
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `flammekueche_bacon_and_onion_flatbread.step_6` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 6%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `flammekueche_bacon_and_onion_flatbread.step_7` (mix)
 
@@ -33641,6 +34511,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 4%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `flan_de_queso_cream_cheese_flan.step_2` (mix)
 
@@ -33763,6 +34634,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `fleischkrapfen_austrian_meat_pasties.step_3` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 15% ⚠, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 10
 
 ### `fleischkrapfen_austrian_meat_pasties.step_4` (assemble)
 
@@ -33772,6 +34644,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `fleischkrapfen_austrian_meat_pasties.step_5` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: none, doesn't fit in 1 input items and 1000 mB tanks at any scale
 
 ### `fleischnacka_alsatian_meat_and_pasta_roll.step_1` (mix)
 
@@ -33801,6 +34674,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `fleischnacka_alsatian_meat_and_pasta_roll.step_6` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `fleischnacka_alsatian_meat_and_pasta_roll.step_7` (simmer)
 
@@ -33830,10 +34704,12 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `florida_style_crab_cakes.step_7` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 13%, estimated
+- pnc_thermo_plant: none, doesn't fit in 1 input items and 1000 mB tanks at any scale
 
 ### `florida_style_crab_cakes.step_8` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `flourless_chocolate_cake.step_1` (heat)
 
@@ -33891,6 +34767,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 0%, estimated
 
 ### `food_coloring_from_cabbage.step_3` (mix)
 
@@ -33906,6 +34783,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 17% ⚠, estimated
 
 ### `food_coloring_from_cabbage.step_6` (evaporate)
 
@@ -33930,6 +34808,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 1%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `fool_s_gold_loaf.step_3` (bake)
 
@@ -34010,6 +34889,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 1%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 5
 
 ### `french_canadian_shepherd_s_pie_pate_chinois.step_3` (mix)
 
@@ -34043,6 +34923,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `french_fries.step_5` (fry)
 
 - create_heated_mixing: none, whole items would distort it by 421%
+- pnc_thermo_plant: none, whole items would distort it by 421%
 
 ### `french_fries.step_7` (season)
 
@@ -34052,15 +34933,18 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `french_fries_belgian.step_1` (fry)
 
 - create_heated_mixing: none, whole items would distort it by 2663%
+- pnc_thermo_plant: none, whole items would distort it by 2663%
 
 ### `french_fries_belgian.step_3` (fry)
 
 - create_heated_mixing: none, whole items would distort it by 160%
+- pnc_thermo_plant: none, whole items would distort it by 160%
 
 ### `french_fries_belgian.step_5` (strain)
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: none, whole items would distort it by 160%
+- thermal_centrifuge: none, whole items would distort it by 160%
 
 ### `french_martini.step_1` (mix)
 
@@ -34088,6 +34972,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `french_onion_soup.step_1` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 7%, estimated
+- pnc_thermo_plant: none, doesn't fit in 1 input items and 1000 mB tanks at any scale
 
 ### `french_onion_soup.step_2` (mix)
 
@@ -34146,11 +35031,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `french_toast.step_6` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 7
 
 ### `fresh_broadbeans_salad.step_1` (separate)
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: none, whole items would distort it by 3025%
+- thermal_centrifuge: none, whole items would distort it by 3025%
 
 ### `fresh_broadbeans_salad.step_2` (cut)
 
@@ -34417,11 +35304,13 @@ No routes: it yields one of several outcomes, which no route supports yet.
 ### `fribourg_omelet.step_3` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 1%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `fribourg_omelet.step_4` (stir_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `fribourg_omelet.step_6` (coagulate)
 
@@ -34455,6 +35344,7 @@ No routes: it yields one of several outcomes, which no route supports yet.
 ### `fried_apple_pies.step_11` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 6%
+- pnc_thermo_plant: 2 recipes, rounding 100% ⚠
 
 ### `fried_apple_pies.step_12` (coat)
 
@@ -34505,11 +35395,13 @@ No routes: it yields one of several outcomes, which no route supports yet.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `fried_bacon_and_egg_sandwich_homemade_egg_mcmuffin.step_4` (separate)
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 0%, estimated
 
 ### `fried_bacon_and_egg_sandwich_homemade_egg_mcmuffin.step_7` (toast)
 
@@ -34520,6 +35412,7 @@ No routes: it yields one of several outcomes, which no route supports yet.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `fried_bacon_and_egg_sandwich_homemade_egg_mcmuffin.step_9` (assemble)
 
@@ -34534,6 +35427,7 @@ No routes: it yields one of several outcomes, which no route supports yet.
 ### `fried_bananas.step_3` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `fried_bananas.step_4` (season)
 
@@ -34554,14 +35448,17 @@ No routes: it yields one of several outcomes, which no route supports yet.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: none, whole items would distort it by 2678%
+- pnc_thermo_plant: none, whole items would distort it by 2678%
 
 ### `fried_chicken_and_fried_potatoes.step_2` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 6%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `fried_chicken_and_fried_potatoes.step_3` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 6%
+- pnc_thermo_plant: none, doesn't fit in 1 input items and 1000 mB tanks at any scale
 
 ### `fried_chicken_and_fried_potatoes.step_4` (simmer)
 
@@ -34601,15 +35498,18 @@ No routes: it yields one of several outcomes, which no route supports yet.
 ### `fried_corn.step_6` (fry)
 
 - create_heated_mixing: none, whole items would distort it by 160%
+- pnc_thermo_plant: none, whole items would distort it by 644%
 
 ### `fried_eggs.step_2` (fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 1%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `fried_eggs.step_3` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `fried_eggs.step_4` (season)
 
@@ -34620,6 +35520,7 @@ No routes: it yields one of several outcomes, which no route supports yet.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 5
 
 ### `fried_fish.step_2` (heat)
 
@@ -34643,14 +35544,17 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `fried_fish.step_6` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 0%, estimated
 
 ### `fried_fish.step_7` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `fried_fish.step_8` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `fried_green_tomatoes.step_2` (season)
 
@@ -34660,10 +35564,12 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `fried_green_tomatoes.step_3` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `fried_green_tomatoes.step_4` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `fried_green_tomatoes_with_tomato_and_cheese.step_2` (whisk)
 
@@ -34687,6 +35593,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `fried_green_tomatoes_with_tomato_and_cheese.step_6` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `fried_green_tomatoes_with_tomato_and_cheese.step_7` (assemble)
 
@@ -34722,11 +35629,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 25% ⚠
+- pnc_thermo_plant: 1 recipe, rounding 25% ⚠
 
 ### `fried_okra.step_6` (strain)
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 25% ⚠
+- thermal_centrifuge: 1 recipe, rounding 25% ⚠
 
 ### `fried_onion_blooms.step_10` (coat)
 
@@ -34736,10 +35645,12 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `fried_onion_blooms.step_11` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `fried_onion_blooms.step_12` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `fried_onion_blooms.step_2` (cut)
 
@@ -34750,6 +35661,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: 1 recipe, rounding 0%
 
 ### `fried_onion_blooms.step_4` (cut)
 
@@ -34784,6 +35696,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `fried_pasta.step_3` (pan_fry)
 
 - create_heated_mixing: none, whole items would distort it by 2924%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `fried_pasta.step_4` (mix)
 
@@ -34793,6 +35706,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `fried_pasta.step_5` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 95% ⚠
+- pnc_thermo_plant: 1 recipe, rounding 95% ⚠
 
 ### `fried_pasta.step_6` (season)
 
@@ -34817,6 +35731,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `fried_pickle.step_4` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 2 recipes, rounding 0%
 
 ### `fried_pickle.step_5` (season)
 
@@ -34831,11 +35746,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `fried_pita_bread_with_eggs.step_3` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `fried_pita_bread_with_eggs.step_4` (stir_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `fried_pita_bread_with_eggs.step_5` (season)
 
@@ -34850,20 +35767,24 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `fried_plantain_and_egg.step_2` (pan_fry)
 
 - create_heated_mixing: none, whole items would distort it by 168%
+- pnc_thermo_plant: none, whole items would distort it by 168%
 
 ### `fried_plantain_and_egg.step_3` (pan_fry)
 
 - create_heated_mixing: none, whole items would distort it by 908%
+- pnc_thermo_plant: none, doesn't fit in 1 input items and 1000 mB tanks at any scale
 
 ### `fried_potato_slices.step_4` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: none, whole items would distort it by 212%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `fried_potato_slices.step_5` (strain)
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: none, whole items would distort it by 212%
+- thermal_centrifuge: none, whole items would distort it by 212%
 
 ### `fried_potato_slices.step_6` (season)
 
@@ -34884,6 +35805,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `fried_potatoes.step_1` (season)
 
@@ -34894,10 +35816,12 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: none, whole items would distort it by 168%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `fried_rice_vegetarian.step_1` (stir_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `fried_rice_vegetarian.step_2` (mix)
 
@@ -34931,6 +35855,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `fried_tiger_lily_pastries.step_6` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 2 recipes, rounding 0%
 
 ### `fried_unripe_plantain_nigerian_green_plantain.step_1` (season)
 
@@ -34939,12 +35864,14 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `fried_unripe_plantain_nigerian_green_plantain.step_3` (fry)
 
-- create_heated_mixing: 1 recipe, rounding 88% ⚠
+- create_heated_mixing: 2 recipes, rounding 88% ⚠
+- pnc_thermo_plant: 2 recipes, rounding 88% ⚠
 
 ### `fried_unripe_plantain_nigerian_green_plantain.step_4` (strain)
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 44% ⚠
+- thermal_centrifuge: 1 recipe, rounding 44% ⚠
 
 ### `fried_wheat_bread_balls_bhatoora.step_1` (mix)
 
@@ -34955,6 +35882,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - vd_fermenting_jar: 1 recipe, rounding 14%, estimated
 - bnc_keg: none, can't make the mod's own fried_wheat_bread_balls_bhatoora_step_2, and no other mod provides it
+- pnc_thermo_plant: 1 recipe, rounding 2%, estimated
 
 ### `fried_wheat_bread_balls_bhatoora.step_3` (knead)
 
@@ -34965,6 +35893,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - vd_fermenting_jar: 1 recipe, rounding 12%
 - bnc_keg: none, can't make the mod's own fried_wheat_bread_balls_bhatoora_step_4, and no other mod provides it
+- pnc_thermo_plant: 1 recipe, rounding 16% ⚠
 
 ### `fried_wheat_bread_balls_bhatoora.step_5` (heat)
 
@@ -34980,6 +35909,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 12%
+- pnc_thermo_plant: 1 recipe, rounding 16% ⚠
 
 ### `fried_wheat_bread_balls_bhatoora.step_8` (assemble)
 
@@ -34990,6 +35920,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 10%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `friggione_onion_and_tomato_relish.step_3` (boil)
 
@@ -35010,10 +35941,12 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 1%
+- thermal_centrifuge: 1 recipe, rounding 1%
 
 ### `frijoles_antioquenos_colombian_bean_stew.step_3` (fry)
 
 - create_heated_mixing: none, whole items would distort it by 154%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 7
 
 ### `frijoles_antioquenos_colombian_bean_stew.step_4` (boil)
 
@@ -35047,6 +35980,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `frikadeller_danish_meatballs.step_3` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: none, doesn't fit in 1 input items and 1000 mB tanks at any scale
 
 ### `frito_pie_baked.step_2` (assemble)
 
@@ -35080,7 +36014,8 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `frito_pie_chili.step_2` (pan_fry)
 
-- create_heated_mixing: 1 recipe, rounding 7%, estimated
+- create_heated_mixing: 2 recipes, rounding 7%, estimated
+- pnc_thermo_plant: 2 recipes, rounding 7%, estimated
 
 ### `frito_pie_chili.step_3` (season)
 
@@ -35091,6 +36026,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 20% ⚠, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 7
 
 ### `frito_pie_chili.step_5` (mix)
 
@@ -35146,11 +36082,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 2%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `frittaten_soup.step_4` (strain)
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: none, takes one input, not 6
 
 ### `frittaten_soup.step_5` (mix)
 
@@ -35160,6 +36098,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `frittaten_soup.step_7` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 0%, estimated
 
 ### `frittaten_soup.step_9` (assemble)
 
@@ -35170,6 +36109,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 6%, estimated
+- thermal_centrifuge: none, takes one input, not 3
 
 ### `frog_s_eye_salad.step_3` (boil)
 
@@ -35209,6 +36149,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `frog_s_legs_a_la_parisienne.step_9` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `froga_maltese_omelet.step_2` (mix)
 
@@ -35219,6 +36160,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `fruit_cake.step_1` (whisk)
 
@@ -35290,6 +36232,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: none, whole items would distort it by 1462%
+- thermal_centrifuge: none, whole items would distort it by 1462%
 
 ### `fruit_salad_with_orange_juice.step_1` (chop)
 
@@ -35300,6 +36243,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: none, whole items would distort it by 2924%
+- thermal_centrifuge: none, takes one input, not 2
 
 ### `fruit_salad_with_orange_juice.step_3` (cut)
 
@@ -35494,12 +36438,14 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `fuk_thong_pad_khai_thai_stir_fried_pumpkin.step_3` (fry)
 
-- create_heated_mixing: 1 recipe, rounding 0%
+- create_heated_mixing: 2 recipes, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `fuk_thong_pad_khai_thai_stir_fried_pumpkin.step_4` (stir_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `fuk_thong_pad_khai_thai_stir_fried_pumpkin.step_5` (mix)
 
@@ -35534,6 +36480,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 6%
+- thermal_centrifuge: 1 recipe, rounding 6%
 
 ### `ful_medames_egyptian_fava_beans.step_4` (season)
 
@@ -35564,6 +36511,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - vd_fermenting_jar: 1 recipe, rounding 8%, estimated
 - bnc_keg: none, can't make the mod's own funkaso_hausa_fritters_step_3, and no other mod provides it
+- pnc_thermo_plant: 1 recipe, rounding 10%, estimated
 
 ### `funkaso_hausa_fritters.step_4` (knead)
 
@@ -35578,15 +36526,18 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `funkaso_hausa_fritters.step_7` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 10%
+- pnc_thermo_plant: 1 recipe, rounding 10%
 
 ### `funkaso_hausa_fritters.step_8` (strain)
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 10%
+- thermal_centrifuge: 1 recipe, rounding 10%
 
 ### `gado_gado_indonesian_salad_with_peanut_sauce.step_1` (fry)
 
 - create_heated_mixing: none, whole items would distort it by 212%
+- pnc_thermo_plant: none, whole items would distort it by 212%
 
 ### `gado_gado_indonesian_salad_with_peanut_sauce.step_10` (boil)
 
@@ -35632,6 +36583,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 4%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `gado_gado_indonesian_salad_with_peanut_sauce.step_3` (grind)
 
@@ -35659,6 +36611,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `gado_gado_indonesian_salad_with_peanut_sauce.step_8` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, doesn't fit in 1 input items and 1000 mB tanks at any scale
 
 ### `gado_gado_indonesian_salad_with_peanut_sauce.step_9` (chop)
 
@@ -35751,11 +36704,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 7%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `galician_garbanzo_soup.step_4` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 1%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 7
 
 ### `galician_garbanzo_soup.step_5` (mix)
 
@@ -35791,11 +36746,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 5
 
 ### `gallo_pinto_costa_rican_rice_and_beans.step_3` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `gallo_pinto_costa_rican_rice_and_beans.step_4` (mix)
 
@@ -35825,11 +36782,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 6%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `gambas_al_ajillo_garlic_shrimp.step_2` (stir_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 6%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 6
 
 ### `gambas_al_ajillo_garlic_shrimp.step_3` (assemble)
 
@@ -35849,6 +36808,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 15% ⚠, estimated
 
 ### `gambian_baobab_juice_bouye.step_3` (mix)
 
@@ -35867,17 +36827,20 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `gambian_caldo_seafood_soup.step_2` (pan_fry)
 
-- create_heated_mixing: 1 recipe, rounding 1%
+- create_heated_mixing: 2 recipes, rounding 1%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `gambian_caldo_seafood_soup.step_3` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 1%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `gambian_caldo_seafood_soup.step_4` (stir_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 7
 
 ### `gambian_caldo_seafood_soup.step_5` (mix)
 
@@ -35901,7 +36864,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `gambian_chicken_with_lemon_and_mustard_yassa.step_1` (mix)
 
-- create_mixing: 1 recipe, rounding 1%, estimated
+- create_mixing: 2 recipes, rounding 1%, estimated
 - shapeless_crafting: none, whole items would distort it by 1590%
 
 ### `gambian_chicken_with_lemon_and_mustard_yassa.step_2` (soak)
@@ -35913,14 +36876,17 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: 1 recipe, rounding 0%
 
 ### `gambian_chicken_with_lemon_and_mustard_yassa.step_4` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `gambian_chicken_with_lemon_and_mustard_yassa.step_5` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `gambian_chicken_with_lemon_and_mustard_yassa.step_6` (simmer)
 
@@ -35941,6 +36907,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 1%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 5
 
 ### `gambian_mbamba_soup.step_3` (season)
 
@@ -35984,11 +36951,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `gambian_superkanja_soup.step_2` (pan_fry)
 
-- create_heated_mixing: 1 recipe, rounding 1%
+- create_heated_mixing: 2 recipes, rounding 1%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `gambian_superkanja_soup.step_3` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `gambian_superkanja_soup.step_4` (season)
 
@@ -36033,11 +37002,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `gambian_yassa_poulet.step_4` (separate)
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
-- create_mixing: 1 recipe, rounding 1%
+- create_mixing: 2 recipes, rounding 1%
+- thermal_centrifuge: none, takes one input, not 2
 
 ### `gambian_yassa_poulet.step_5` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `gambian_yassa_poulet.step_6` (season)
 
@@ -36058,6 +37029,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 2%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 7
 
 ### `garbanzo_bean_stew.step_3` (evaporate)
 
@@ -36086,6 +37058,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `garden_bulgur.step_1` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 1%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `garden_bulgur.step_2` (toast)
 
@@ -36115,6 +37088,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 6
 
 ### `garden_egg_stew.step_4` (simmer)
 
@@ -36130,6 +37104,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_press: none, takes one input, not 2
 
 ### `garlic_and_lemon_dressing.step_2` (assemble)
 
@@ -36180,11 +37155,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `garlic_asparagus.step_1` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 13%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `garlic_asparagus.step_2` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 1%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `garlic_asparagus.step_3` (season)
 
@@ -36195,6 +37172,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 1%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `garlic_bread.step_2` (cut)
 
@@ -36234,6 +37212,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `garlic_butter_sauce.step_1` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 13%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `garlic_butter_sauce.step_2` (heat)
 
@@ -36253,6 +37232,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `garlic_croutons_i.step_4` (bake)
 
@@ -36278,6 +37258,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `garlic_lemon_chicken.step_1` (mix)
 
@@ -36327,6 +37308,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_press: none, takes one input, not 2
 
 ### `garlic_lemon_dressing.step_2` (assemble)
 
@@ -36345,7 +37327,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `garlic_lemon_marinade.step_1` (blend)
 
-- create_mixing: 1 recipe, rounding 5%, estimated
+- create_mixing: 2 recipes, rounding 5%, estimated
 
 ### `garlic_mayonnaise_made_with_bread_and_fish_stock_rouille.step_1` (blend)
 
@@ -36399,6 +37381,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 6
 
 ### `garlic_pork_chops_with_black_mushrooms.step_4` (simmer)
 
@@ -36428,6 +37411,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `garlic_seared_halibut.step_3` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 13%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `garlic_seared_halibut.step_4` (evaporate)
 
@@ -36451,6 +37435,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `garlic_shrimp_scampi_pasta.step_5` (season)
 
@@ -36470,10 +37455,12 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `garlic_shrimp_with_lemon_butter_sauce.step_2` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 1%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `garlic_shrimp_with_lemon_butter_sauce.step_3` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 0%, estimated
 
 ### `garlic_shrimp_with_lemon_butter_sauce.step_4` (heat)
 
@@ -36499,6 +37486,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_press: none, takes one input, not 2
 
 ### `garlic_tomato_and_cheddar_sandwich.step_4` (coat)
 
@@ -36529,6 +37517,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 10%, estimated
+- thermal_centrifuge: 1 recipe, rounding 14%, estimated
 
 ### `garum_fermented.step_1` (cure)
 
@@ -36539,11 +37528,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - vd_fermenting_jar: none, whole items would distort it by 838%
 - bnc_keg: none, can't make the mod's own garum_fermented_step_2, and no other mod provides it
+- pnc_thermo_plant: none, whole items would distort it by 838%
 
 ### `garum_fermented.step_3` (strain)
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: none, whole items would distort it by 838%
+- thermal_centrifuge: none, whole items would distort it by 838%
 
 ### `gateau_nantais_nantes_cake.step_1` (mix)
 
@@ -36607,6 +37598,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 17% ⚠, estimated
 
 ### `gazpacho.step_5` (chop)
 
@@ -36661,6 +37653,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 1%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 5
 
 ### `gboma_dessi_and_akoume_togolese_spinach_stew_with_corn_swallow.step_10` (mix)
 
@@ -36696,6 +37689,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: 1 recipe, rounding 0%
 
 ### `gboma_dessi_and_akoume_togolese_spinach_stew_with_corn_swallow.step_5` (season)
 
@@ -36706,6 +37700,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `gboma_dessi_and_akoume_togolese_spinach_stew_with_corn_swallow.step_7` (boil)
 
@@ -36744,15 +37739,18 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `general_tso_s_chicken.step_6` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 100% ⚠, estimated
 
 ### `general_tso_s_chicken.step_8` (stir_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 1%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `general_tso_s_chicken.step_9` (stir_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `genfo_ethiopian_porridge.step_1` (whisk)
 
@@ -36797,6 +37795,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 0%, estimated
 
 ### `german_meatballs.step_12` (heat)
 
@@ -36807,6 +37806,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 4%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `german_meatballs.step_3` (soak)
 
@@ -36832,6 +37832,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: 1 recipe, rounding 0%
 
 ### `german_meatballs.step_8` (simmer)
 
@@ -36847,6 +37848,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 13%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `german_potato_salad.step_3` (mix)
 
@@ -36936,6 +37938,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: 1 recipe, rounding 0%
 
 ### `germknodel_plum_and_poppy_seed_dumpling.step_12` (coat)
 
@@ -36956,6 +37959,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - vd_fermenting_jar: 1 recipe, rounding 0%
 - bnc_keg: none, can't make the mod's own germknodel_plum_and_poppy_seed_dumpling_step_4, and no other mod provides it
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `germknodel_plum_and_poppy_seed_dumpling.step_5` (shape)
 
@@ -36971,6 +37975,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - vd_fermenting_jar: 1 recipe, rounding 0%
 - bnc_keg: none, can't make the mod's own germknodel_plum_and_poppy_seed_dumpling_step_7, and no other mod provides it
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `germknodel_plum_and_poppy_seed_dumpling.step_8` (boil)
 
@@ -37042,6 +38047,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 11%, estimated
+- thermal_centrifuge: none, whole items would distort it by 5108%
 
 ### `ghee_i.step_3` (evaporate)
 
@@ -37051,6 +38057,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: none, whole items would distort it by 1983%
+- thermal_centrifuge: none, whole items would distort it by 5108%
 
 ### `ghevar_rajasthani_honeycomb_fritter.step_1` (simmer)
 
@@ -37061,6 +38068,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 2%
+- pnc_thermo_plant: 1 recipe, rounding 2%
 
 ### `ghevar_rajasthani_honeycomb_fritter.step_11` (soak)
 
@@ -37071,6 +38079,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 2%
+- pnc_thermo_plant: 1 recipe, rounding 2%
 
 ### `ghevar_rajasthani_honeycomb_fritter.step_2` (heat)
 
@@ -37094,6 +38103,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 7%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 15% ⚠, estimated
 
 ### `ghevar_rajasthani_honeycomb_fritter.step_8` (shape)
 
@@ -37104,6 +38114,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 2%
+- pnc_thermo_plant: 1 recipe, rounding 2%
 
 ### `ghormeh_sabzi_iranian_herb_stew.step_10` (simmer)
 
@@ -37128,10 +38139,12 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `ghormeh_sabzi_iranian_herb_stew.step_3` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `ghormeh_sabzi_iranian_herb_stew.step_4` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `ghormeh_sabzi_iranian_herb_stew.step_5` (simmer)
 
@@ -37232,15 +38245,18 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: none, doesn't fit in 1 input items and 1000 mB tanks at any scale
 
 ### `giblet_soup.step_3` (strain)
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 2%, estimated
+- thermal_centrifuge: none, takes one input, not 2
 
 ### `giblet_soup.step_4` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 7
 
 ### `giblet_soup.step_5` (simmer)
 
@@ -37265,10 +38281,12 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `gimbap.step_4` (stir_fry)
 
 - create_heated_mixing: none, whole items would distort it by 2924%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `gimbap.step_5` (pan_fry)
 
 - create_heated_mixing: none, whole items would distort it by 908%
+- pnc_thermo_plant: none, doesn't fit in 1 input items and 1000 mB tanks at any scale
 
 ### `gimbap.step_6` (mix)
 
@@ -37294,6 +38312,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 13%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 10
 
 ### `gin_fried_rice.step_3` (heat)
 
@@ -37308,6 +38327,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 3 recipes, rounding 15% ⚠, estimated
+- thermal_centrifuge: none, takes one input, not 2
 
 ### `ginger_ale.step_2` (evaporate)
 
@@ -37342,6 +38362,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - vd_fermenting_jar: 1 recipe, rounding 0%, estimated
 - bnc_keg: none, can't make the mod's own ginger_beer_step_4, and no other mod provides it
+- pnc_thermo_plant: 1 recipe, rounding 4%, estimated
 
 ### `ginger_beer.step_5` (carbonate)
 
@@ -37384,14 +38405,17 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `ginger_pancakes.step_10` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `ginger_pancakes.step_11` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `ginger_pancakes.step_12` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `ginger_pancakes.step_2` (mix)
 
@@ -37419,6 +38443,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `ginger_pancakes.step_8` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 4%, estimated
 
 ### `ginger_pancakes.step_9` (season)
 
@@ -37512,6 +38537,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 11%, estimated
+- thermal_centrifuge: none, whole items would distort it by 2504%
 
 ### `ginger_tea.step_4` (season)
 
@@ -37621,10 +38647,12 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `gingerbread_pancakes_i.step_11` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 0%, estimated
 
 ### `gingerbread_pancakes_i.step_12` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `gingerbread_pancakes_i.step_2` (mix)
 
@@ -37658,6 +38686,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `gingerbread_pancakes_i.step_9` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 4%, estimated
 
 ### `gingerbread_pancakes_ii.step_1` (mix)
 
@@ -37677,6 +38706,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `gingerbread_pancakes_ii.step_5` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 4%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 4%, estimated
 
 ### `githeri.step_1` (soak)
 
@@ -37687,6 +38717,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 5%, estimated
+- thermal_centrifuge: 1 recipe, rounding 5%, estimated
 
 ### `githeri.step_3` (boil)
 
@@ -37695,12 +38726,14 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `githeri.step_5` (pan_fry)
 
-- create_heated_mixing: 1 recipe, rounding 5%
+- create_heated_mixing: 2 recipes, rounding 5%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `githeri.step_6` (stir_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 6
 
 ### `githeri.step_7` (season)
 
@@ -37734,6 +38767,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 6%, estimated
+- thermal_centrifuge: 1 recipe, rounding 15% ⚠, estimated
 
 ### `glazed_onion_canapes.step_2` (heat)
 
@@ -37743,6 +38777,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `glazed_onion_canapes.step_3` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `glazed_onion_canapes.step_4` (coat)
 
@@ -37817,6 +38852,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `gluten_veggie_meat.step_12` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `gluten_veggie_meat.step_2` (knead)
 
@@ -37847,6 +38883,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: 1 recipe, rounding 0%
 
 ### `gluten_veggie_meat.step_8` (mix)
 
@@ -37861,6 +38898,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `goat_cheese_cakes.step_11` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `goat_cheese_cakes.step_2` (heat)
 
@@ -37943,6 +38981,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `gobi_bhagi_spiced_cauliflower_stew.step_2` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 12%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `gobi_bhagi_spiced_cauliflower_stew.step_3` (steam)
 
@@ -37963,11 +39002,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 1%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `gomen_ethiopian_collard_greens.step_3` (stir_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `gomen_ethiopian_collard_greens.step_4` (mix)
 
@@ -37997,11 +39038,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `gonja_ugandan_fried_plantains.step_3` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 2 recipes, rounding 0%
 
 ### `gonja_ugandan_fried_plantains.step_4` (strain)
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: 1 recipe, rounding 0%
 
 ### `gonja_ugandan_fried_plantains.step_5` (season)
 
@@ -38082,6 +39125,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 4%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `gorgonzola_stuffed_chateaubriand.step_3` (evaporate)
 
@@ -38121,6 +39165,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `goulash.step_2` (assemble)
 
@@ -38145,10 +39190,12 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `goulash_soup.step_2` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 1%
+- pnc_thermo_plant: 1 recipe, rounding 1%
 
 ### `goulash_soup.step_3` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `goulash_soup.step_4` (mix)
 
@@ -38164,6 +39211,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 1%, estimated
+- thermal_centrifuge: 1 recipe, rounding 12%, estimated
 
 ### `gozleme_turkish_flatbread.step_10` (fold)
 
@@ -38183,10 +39231,12 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `gozleme_turkish_flatbread.step_14` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 4%
+- pnc_thermo_plant: none, doesn't fit in 1 input items and 1000 mB tanks at any scale
 
 ### `gozleme_turkish_flatbread.step_15` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 10%
+- pnc_thermo_plant: 1 recipe, rounding 10%
 
 ### `gozleme_turkish_flatbread.step_2` (mix)
 
@@ -38207,6 +39257,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - vd_fermenting_jar: 1 recipe, rounding 8%, estimated
 - bnc_keg: none, can't make the mod's own gozleme_turkish_flatbread_step_5, and no other mod provides it
+- pnc_thermo_plant: 1 recipe, rounding 0%, estimated
 
 ### `gozleme_turkish_flatbread.step_6` (knead)
 
@@ -38217,11 +39268,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - vd_fermenting_jar: 1 recipe, rounding 14%
 - bnc_keg: none, can't make the mod's own gozleme_turkish_flatbread_step_7, and no other mod provides it
+- pnc_thermo_plant: 1 recipe, rounding 14%
 
 ### `gozleme_turkish_flatbread.step_8` (separate)
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 14%
+- thermal_centrifuge: 1 recipe, rounding 14%
 
 ### `gozleme_turkish_flatbread.step_9` (shape)
 
@@ -38240,10 +39293,12 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `grand_union_bacon.step_3` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: none, doesn't fit in 1 input items and 1000 mB tanks at any scale
 
 ### `grand_union_bacon.step_4` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `grandma_s_pie_crust.step_1` (mix)
 
@@ -38436,11 +39491,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 17% ⚠, estimated
 
 ### `gravy_cakes_hartshorne.step_5` (separate)
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 17% ⚠, estimated
 
 ### `gravy_cakes_hartshorne.step_6` (evaporate)
 
@@ -38494,6 +39551,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 1%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 7
 
 ### `greek_moussaka.step_3` (evaporate)
 
@@ -38516,6 +39574,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `greek_moussaka.step_7` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 0%, estimated
 
 ### `greek_moussaka.step_8` (assemble)
 
@@ -38603,6 +39662,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `green_chicken_curry_with_coconut_milk.step_4` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `green_chicken_curry_with_coconut_milk.step_5` (season)
 
@@ -38611,16 +39671,19 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `green_chili_beef_stew.step_1` (pan_fry)
 
-- create_heated_mixing: 1 recipe, rounding 14%
+- create_heated_mixing: 2 recipes, rounding 14%
+- pnc_thermo_plant: 2 recipes, rounding 14%
 
 ### `green_chili_beef_stew.step_2` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 2%
+- pnc_thermo_plant: none, doesn't fit in 1 input items and 1000 mB tanks at any scale
 
 ### `green_chili_beef_stew.step_3` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `green_chili_beef_stew.step_4` (assemble)
 
@@ -38646,6 +39709,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: 1 recipe, rounding 0%
 
 ### `green_eggs_and_ham.step_5` (coat)
 
@@ -38656,6 +39720,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: none, takes one input, not 2
 
 ### `green_eggs_and_ham.step_7` (coagulate)
 
@@ -38674,6 +39739,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 6%, estimated
+- thermal_press: 1 recipe, rounding 17% ⚠, estimated
 
 ### `green_leaf_juice.step_2` (cut)
 
@@ -38684,21 +39750,25 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 2%, estimated
+- thermal_press: 1 recipe, rounding 2%, estimated
 
 ### `green_leaf_juice.step_4` (press)
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 5%, estimated
+- thermal_press: none, takes one input, not 2
 
 ### `green_leaf_juice.step_5` (press)
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 21% ⚠, estimated
+- thermal_press: none, takes one input, not 2
 
 ### `green_leaf_juice.step_6` (press)
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: none, whole items would distort it by 477%
+- thermal_press: none, takes one input, not 2
 
 ### `green_leaf_juice.step_7` (mix)
 
@@ -38727,6 +39797,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_press: 1 recipe, rounding 0%
 
 ### `green_mango_and_cumin_drink_aam_panna.step_7` (blend)
 
@@ -38749,6 +39820,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 8%, estimated
+- thermal_centrifuge: 1 recipe, rounding 8%, estimated
 
 ### `green_spinach_food_coloring.step_4` (mix)
 
@@ -38764,6 +39836,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 2%, estimated
 
 ### `green_spinach_food_coloring.step_7` (evaporate)
 
@@ -38791,6 +39864,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: 1 recipe, rounding 0%
 
 ### `green_tea_and_berry_pavlovas.step_16` (mix)
 
@@ -38905,16 +39979,19 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `green_turtle_soup.step_4` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `green_turtle_soup.step_5` (separate)
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: none, takes one input, not 2
 
 ### `green_turtle_soup.step_6` (strain)
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: none, takes one input, not 3
 
 ### `green_turtle_soup.step_7` (simmer)
 
@@ -39464,12 +40541,14 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `ground_beef_and_potato_taquitos.step_4` (pan_fry)
 
-- create_heated_mixing: 1 recipe, rounding 1%, estimated
+- create_heated_mixing: 2 recipes, rounding 1%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 6
 
 ### `ground_beef_and_potato_taquitos.step_6` (fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `ground_beef_and_potato_taquitos.step_7` (assemble)
 
@@ -39493,6 +40572,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `ground_tofu.step_4` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 2 recipes, rounding 0%
 
 ### `groundnut_soup.step_1` (cut)
 
@@ -39518,11 +40598,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 2%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `groundnut_soup.step_5` (fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 1%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `groundnut_soup.step_6` (mix)
 
@@ -39599,6 +40681,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: 1 recipe, rounding 0%
 
 ### `guacamole_i.step_4` (coat)
 
@@ -39677,11 +40760,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `gullisuwa_nigerian_milk_balls.step_4` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 6%
+- pnc_thermo_plant: 1 recipe, rounding 6%
 
 ### `gullisuwa_nigerian_milk_balls.step_5` (strain)
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 6%
+- thermal_centrifuge: 1 recipe, rounding 6%
 
 ### `gunkanmaki_topped_oval_sushi.step_1` (cut)
 
@@ -39717,6 +40802,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - vd_fermenting_jar: 1 recipe, rounding 2%, estimated
 - bnc_keg: none, can't make the mod's own gurasa_hausa_flatbread_with_vegetables_step_3, and no other mod provides it
+- pnc_thermo_plant: 1 recipe, rounding 1%, estimated
 
 ### `gurasa_hausa_flatbread_with_vegetables.step_5` (shape)
 
@@ -39726,10 +40812,12 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `gurasa_hausa_flatbread_with_vegetables.step_6` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 5%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 5%, estimated
 
 ### `gurasa_hausa_flatbread_with_vegetables.step_7` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 5%
+- pnc_thermo_plant: 1 recipe, rounding 18% ⚠
 
 ### `gurasa_hausa_flatbread_with_vegetables.step_8` (mix)
 
@@ -39745,6 +40833,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: 1 recipe, rounding 0%
 
 ### `gurudi_nigerian_coconut_biscuit.step_2` (mix)
 
@@ -39775,6 +40864,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 17% ⚠, estimated
 
 ### `gyudon_japanese_beef_and_rice_bowl.step_5` (boil)
 
@@ -39819,6 +40909,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `gyuvetch_bulgarian_casserole_i.step_1` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 11%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `gyuvetch_bulgarian_casserole_i.step_2` (season)
 
@@ -39829,6 +40920,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 4%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 8
 
 ### `gyuvetch_bulgarian_casserole_i.step_4` (bake)
 
@@ -39844,11 +40936,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `habas_con_jamon_broad_beans_with_ham.step_2` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `habet_hlawa_algerian_anise_beverage.step_1` (boil)
 
@@ -39865,6 +40959,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 4%, estimated
 
 ### `habet_hlawa_algerian_anise_beverage.step_4` (evaporate)
 
@@ -39874,6 +40969,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 4%, estimated
+- thermal_centrifuge: 1 recipe, rounding 16% ⚠, estimated
 
 ### `habichuela_con_dulce_dominican_sweet_beans.step_1` (blend)
 
@@ -39883,6 +40979,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 6%, estimated
+- thermal_centrifuge: 1 recipe, rounding 15% ⚠, estimated
 
 ### `habichuela_con_dulce_dominican_sweet_beans.step_3` (mix)
 
@@ -39903,6 +41000,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 17% ⚠, estimated
 
 ### `hachee_dutch_beef_stew.step_1` (coat)
 
@@ -39912,11 +41010,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `hachee_dutch_beef_stew.step_2` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 3%, estimated
+- pnc_thermo_plant: none, doesn't fit in 1 input items and 1000 mB tanks at any scale
 
 ### `hachee_dutch_beef_stew.step_3` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 14%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 5
 
 ### `hachee_dutch_beef_stew.step_4` (mix)
 
@@ -39982,16 +41082,19 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 4 recipes, rounding 4%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `halibut_cheek_stir_fry.step_3` (stir_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 1%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `halibut_cheek_stir_fry.step_4` (stir_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: none, whole items would distort it by 103%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `halibut_cheek_stir_fry.step_5` (simmer)
 
@@ -40047,11 +41150,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: none, takes one input, not 2
 
 ### `hallaca_venezuelan_stuffed_corn_dough.step_19` (separate)
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: none, takes one input, not 2
 
 ### `hallaca_venezuelan_stuffed_corn_dough.step_20` (toast)
 
@@ -40077,16 +41182,19 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: none, takes one input, not 2
 
 ### `hallaca_venezuelan_stuffed_corn_dough.step_25` (strain)
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: none, takes one input, not 2
 
 ### `hallaca_venezuelan_stuffed_corn_dough.step_26` (stir_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `hallaca_venezuelan_stuffed_corn_dough.step_27` (blend)
 
@@ -40137,6 +41245,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: none, whole items would distort it by 200%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 5
 
 ### `hallaca_venezuelan_stuffed_corn_dough.step_6` (mix)
 
@@ -40152,6 +41261,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 17% ⚠, estimated
 
 ### `hallaca_venezuelan_stuffed_corn_dough.step_9` (mix)
 
@@ -40241,10 +41351,12 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: 1 recipe, rounding 0%
 
 ### `ham_sauce_modern.step_1` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 12%
+- pnc_thermo_plant: none, doesn't fit in 1 input items and 1000 mB tanks at any scale
 
 ### `ham_sauce_modern.step_2` (mix)
 
@@ -40275,6 +41387,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 4%
+- pnc_thermo_plant: 1 recipe, rounding 20% ⚠
 
 ### `hamburger.step_5` (assemble)
 
@@ -40283,12 +41396,14 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `hamburger_fried_rice.step_1` (stir_fry)
 
-- create_heated_mixing: 1 recipe, rounding 1%
+- create_heated_mixing: 2 recipes, rounding 1%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 5
 
 ### `hamburger_fried_rice.step_2` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `hamburger_fried_rice.step_3` (mix)
 
@@ -40299,6 +41414,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 5%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 5
 
 ### `hamburger_skillet_dinner.step_3` (simmer)
 
@@ -40314,6 +41430,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 1%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `hamburger_stoup.step_3` (mix)
 
@@ -40334,6 +41451,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 1%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `hamli_ethiopian_spinach_stew.step_2` (coat)
 
@@ -40419,11 +41537,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 1%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `harissa_bil_djaj_libyan_chicken_harissa.step_3` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `harissa_bil_djaj_libyan_chicken_harissa.step_4` (coat)
 
@@ -40454,6 +41574,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 17% ⚠, estimated
 
 ### `hartshorne_catsup_for_sea_stores_ii.step_1` (mix)
 
@@ -40493,6 +41614,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: 1 recipe, rounding 0%
 
 ### `hash_browns.step_3` (mix)
 
@@ -40512,10 +41634,12 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `hash_browns.step_7` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `hash_browns.step_8` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `hasude_albanian_cornstarch_pudding.step_1` (mix)
 
@@ -40566,16 +41690,19 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 1%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `hawawshi_egyptian_meat_pies.step_3` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `hawawshi_egyptian_meat_pies.step_4` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `hawawshi_egyptian_meat_pies.step_5` (season)
 
@@ -40607,6 +41734,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: none, takes one input, not 3
 
 ### `hazelnut_and_black_raspberry_panna_cotta.step_1` (dissolve)
 
@@ -40654,10 +41782,12 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `hearty_beef_vegetable_soup.step_1` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 13%, estimated
+- pnc_thermo_plant: none, doesn't fit in 1 input items and 1000 mB tanks at any scale
 
 ### `hearty_beef_vegetable_soup.step_2` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 7%, estimated
+- pnc_thermo_plant: none, doesn't fit in 1 input items and 1000 mB tanks at any scale
 
 ### `hearty_beef_vegetable_soup.step_3` (mix)
 
@@ -40703,6 +41833,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `henry_thiele_s_pancake.step_3` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 1%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 15% ⚠, estimated
 
 ### `henry_thiele_s_pancake.step_4` (bake)
 
@@ -40728,6 +41859,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: 1 recipe, rounding 0%
 
 ### `herb_bubble_bread.step_3` (mix)
 
@@ -40748,6 +41880,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - vd_fermenting_jar: 1 recipe, rounding 0%
 - bnc_keg: none, can't make the mod's own herb_bubble_bread_step_7, and no other mod provides it
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `herb_bubble_bread.step_8` (bake)
 
@@ -40809,6 +41942,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 17% ⚠, estimated
 
 ### `herbal_energy_drink.step_4` (mix)
 
@@ -40858,6 +41992,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 7%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `herbed_tomato_soup.step_2` (mix)
 
@@ -40963,6 +42098,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 5%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `hickory_bbq_chicken_wings.step_5` (coat)
 
@@ -41007,6 +42143,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `hickory_maple_glazed_wings.step_3` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `hickory_maple_glazed_wings.step_4` (coat)
 
@@ -41027,6 +42164,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: 1 recipe, rounding 0%
 
 ### `hickory_smoked_pork_chops.step_4` (season)
 
@@ -41064,18 +42202,22 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `high_protein_pancakes.step_6` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 4%, estimated
 
 ### `high_protein_pancakes.step_7` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 0%, estimated
 
 ### `high_protein_pancakes.step_8` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `high_protein_pancakes.step_9` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `hilbah_fenugreek_condiment.step_1` (soak)
 
@@ -41105,6 +42247,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: none, whole items would distort it by 500%
 
 ### `hlib_tmer_algerian_date_milk.step_2` (boil)
 
@@ -41115,6 +42258,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 17% ⚠, estimated
 
 ### `hlib_tmer_algerian_date_milk.step_4` (mix)
 
@@ -41155,10 +42299,12 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: 1 recipe, rounding 0%
 
 ### `hogao_colombian_scallion_tomato_sauce.step_2` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 50% ⚠
 
 ### `hogao_colombian_scallion_tomato_sauce.step_3` (simmer)
 
@@ -41222,6 +42368,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 10%
+- thermal_centrifuge: 1 recipe, rounding 10%
 
 ### `holiday_pork_loin.step_4` (season)
 
@@ -41242,6 +42389,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 5%
+- thermal_centrifuge: 1 recipe, rounding 16% ⚠
 
 ### `holiday_soda.step_3` (soak)
 
@@ -41263,6 +42411,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 17% ⚠, estimated
 
 ### `holiday_soda.step_7` (mix)
 
@@ -41336,6 +42485,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 11%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `holzknechtnocken_with_strawberry_curd_au_gratin.step_1` (knead)
 
@@ -41415,6 +42565,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 11%, estimated
+- thermal_centrifuge: none, whole items would distort it by 5108%
 
 ### `homemade_aquafaba.step_6` (evaporate)
 
@@ -41428,6 +42579,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 4%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 13%, estimated
 
 ### `homemade_cider_vinegar.step_1` (rinse)
 
@@ -41438,36 +42590,43 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 10%, estimated
+- thermal_press: 1 recipe, rounding 10%, estimated
 
 ### `homemade_cider_vinegar.step_4` (ferment)
 
 - vd_fermenting_jar: 1 recipe, rounding 0%, estimated
 - bnc_keg: none, can't make the mod's own homemade_cider_vinegar_step_4, and no other mod provides it
+- pnc_thermo_plant: 1 recipe, rounding 0%, estimated
 
 ### `homemade_cider_vinegar.step_5` (separate)
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 0%, estimated
 
 ### `homemade_cider_vinegar.step_6` (ferment)
 
 - vd_fermenting_jar: 1 recipe, rounding 0%, estimated
 - bnc_keg: none, can't make the mod's own homemade_cider_vinegar_step_6, and no other mod provides it
+- pnc_thermo_plant: 1 recipe, rounding 0%, estimated
 
 ### `homemade_cider_vinegar.step_7` (separate)
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 20% ⚠, estimated
 
 ### `homemade_coconut_milk.step_1` (separate)
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: none, whole items would distort it by 2924%
+- thermal_centrifuge: none, whole items would distort it by 2924%
 
 ### `homemade_coconut_milk.step_2` (separate)
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: none, whole items would distort it by 942%
+- thermal_centrifuge: none, whole items would distort it by 5108%
 
 ### `homemade_coconut_milk.step_3` (blend)
 
@@ -41482,11 +42641,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: none, whole items would distort it by 421%
+- thermal_centrifuge: none, whole items would distort it by 421%
 
 ### `homemade_coconut_milk.step_6` (strain)
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 11%, estimated
+- thermal_centrifuge: none, whole items would distort it by 2504%
 
 ### `homemade_coconut_milk.step_7` (mix)
 
@@ -41518,6 +42679,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 17% ⚠, estimated
 
 ### `homemade_corn_tortillas.step_1` (mix)
 
@@ -41573,6 +42735,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_press: 1 recipe, rounding 0%
 
 ### `homemade_fines_herbes.step_1` (mix)
 
@@ -41592,6 +42755,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 17% ⚠, estimated
 
 ### `homemade_five_spice_powder.step_4` (mix)
 
@@ -41645,6 +42809,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 6%, estimated
+- thermal_centrifuge: none, doesn't fit in 1 input items and 1000 mB tanks at any scale
 
 ### `homemade_ketchup.step_2` (simmer)
 
@@ -41668,6 +42833,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: none, whole items would distort it by 594%
+- thermal_centrifuge: none, whole items would distort it by 1636%
 
 ### `homemade_pancake_mix.step_1` (mix)
 
@@ -41697,6 +42863,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `homemade_pancake_mix.step_8` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 0%, estimated
 
 ### `homemade_paneer.step_2` (coagulate)
 
@@ -41706,11 +42873,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 1%
+- thermal_centrifuge: none, doesn't fit in 1 input items and 1000 mB tanks at any scale
 
 ### `homemade_paneer.step_4` (press)
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 1%
+- thermal_press: none, doesn't fit in 1 input items and 1000 mB tanks at any scale
 
 ### `homemade_peanut_butter.step_1` (bake)
 
@@ -41723,7 +42892,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `homemade_peanut_butter.step_4` (blend)
 
-- create_mixing: 3 recipes, rounding 10%
+- create_mixing: 4 recipes, rounding 10%
 
 ### `homemade_phyllo_dough.step_1` (knead)
 
@@ -41793,21 +42962,25 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - vd_fermenting_jar: 1 recipe, rounding 0%
 - bnc_keg: none, can't make the mod's own homemade_red_wine_step_4, and no other mod provides it
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `homemade_red_wine.step_5` (strain)
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 0%, estimated
 
 ### `homemade_red_wine.step_6` (ferment)
 
 - vd_fermenting_jar: 1 recipe, rounding 0%, estimated
 - bnc_keg: none, can't make the mod's own homemade_red_wine_step_6, and no other mod provides it
+- pnc_thermo_plant: 1 recipe, rounding 4%, estimated
 
 ### `homemade_red_wine.step_7` (strain)
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 17% ⚠, estimated
 
 ### `homemade_red_wine.step_8` (heat)
 
@@ -41880,21 +43053,25 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - vd_fermenting_jar: 1 recipe, rounding 15%, estimated
 - bnc_keg: none, can't make the mod's own homemade_tempeh_step_11, and no other mod provides it
+- pnc_thermo_plant: 1 recipe, rounding 8%, estimated
 
 ### `homemade_tempeh.step_12` (ferment)
 
 - vd_fermenting_jar: 1 recipe, rounding 8%
 - bnc_keg: 1 recipe, rounding 8%
+- pnc_thermo_plant: 1 recipe, rounding 8%
 
 ### `homemade_tempeh.step_2` (separate)
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 12%
+- thermal_centrifuge: 1 recipe, rounding 12%
 
 ### `homemade_tempeh.step_3` (strain)
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 12%
+- thermal_centrifuge: 1 recipe, rounding 12%
 
 ### `homemade_tempeh.step_4` (boil)
 
@@ -41920,6 +43097,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - vd_fermenting_jar: 1 recipe, rounding 15%, estimated
 - bnc_keg: none, can't make the mod's own homemade_tempeh_step_9, and no other mod provides it
+- pnc_thermo_plant: 1 recipe, rounding 3%, estimated
 
 ### `homemade_tomato_paste.step_1` (simmer)
 
@@ -41930,6 +43108,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 11%
+- thermal_centrifuge: 1 recipe, rounding 21% ⚠
 
 ### `homemade_tomato_paste.step_3` (evaporate)
 
@@ -41963,14 +43142,17 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `homemade_tortilla_chips.step_7` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `homemade_tortilla_chips.step_8` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `homemade_tortilla_chips.step_9` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `homemade_wheat_tortillas.step_1` (mix)
 
@@ -42006,6 +43188,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 13%
+- pnc_thermo_plant: 1 recipe, rounding 13%
 
 ### `homemade_wheat_tortillas.step_9` (heat)
 
@@ -42050,11 +43233,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 10%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `homestyle_fried_potatoes.step_3` (fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 2%
+- pnc_thermo_plant: 1 recipe, rounding 32% ⚠
 
 ### `homestyle_fried_potatoes.step_4` (season)
 
@@ -42153,6 +43338,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `honey_bbq_hot_wings.step_3` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `honey_bbq_hot_wings.step_4` (mix)
 
@@ -42177,6 +43363,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `honey_garlic_chicken.step_4` (coat)
 
@@ -42187,6 +43374,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `honey_lime_chicken_wings.step_1` (coat)
 
@@ -42201,6 +43389,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `honey_lime_chicken_wings.step_3` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `honey_lime_chicken_wings.step_4` (coat)
 
@@ -42211,6 +43400,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 1%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `honey_lime_pork_loin.step_10` (evaporate)
 
@@ -42249,6 +43439,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 0%, estimated
 
 ### `honey_lime_pork_loin.step_8` (mix)
 
@@ -42292,7 +43483,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `honey_mustard_salad_dressing.step_2` (whisk)
 
-- create_mixing: 1 recipe, rounding 4%, estimated
+- create_mixing: 2 recipes, rounding 4%, estimated
 
 ### `honey_mustard_salmon.step_2` (cut)
 
@@ -42401,13 +43592,14 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `hongshao_rou_red_braised_pork_belly.step_1` (heat)
 
-- create_heated_mixing: 1 recipe, rounding 6%, estimated
+- create_heated_mixing: 2 recipes, rounding 6%, estimated
 - fd_cooking_pot: 1 recipe, rounding 6%, estimated
 
 ### `hongshao_rou_red_braised_pork_belly.step_2` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 5%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `hongshao_rou_red_braised_pork_belly.step_3` (season)
 
@@ -42437,6 +43629,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 4%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 5
 
 ### `hoppin_john.step_3` (simmer)
 
@@ -42457,11 +43650,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 12%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `hopping_john_with_pinto_or_great_northern_beans.step_4` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 24% ⚠, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `hopping_john_with_pinto_or_great_northern_beans.step_5` (mix)
 
@@ -42505,6 +43700,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 17% ⚠, estimated
 
 ### `horchata.step_8` (dissolve)
 
@@ -42592,6 +43788,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: none, whole items would distort it by 280%
+- thermal_centrifuge: none, takes one input, not 3
 
 ### `hot_chocolate_with_cayenne.step_2` (mix)
 
@@ -42666,6 +43863,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - vd_fermenting_jar: 1 recipe, rounding 0%, estimated
 - bnc_keg: none, can't make the mod's own hot_cross_bun_step_3, and no other mod provides it
+- pnc_thermo_plant: 1 recipe, rounding 4%, estimated
 
 ### `hot_cross_bun.step_4` (mix)
 
@@ -42681,6 +43879,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - vd_fermenting_jar: 1 recipe, rounding 0%
 - bnc_keg: none, can't make the mod's own hot_cross_bun_step_6, and no other mod provides it
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `hot_cross_bun.step_7` (knead)
 
@@ -42765,6 +43964,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 17% ⚠, estimated
 
 ### `hot_peach_drink.step_5` (mix)
 
@@ -42831,6 +44031,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `hot_wings.step_4` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `hot_wings.step_5` (coat)
 
@@ -42848,7 +44049,8 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `huevos_rancheros.step_1` (pan_fry)
 
-- create_heated_mixing: 1 recipe, rounding 1%
+- create_heated_mixing: 2 recipes, rounding 1%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `huevos_rancheros.step_2` (simmer)
 
@@ -42864,10 +44066,12 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `huevos_rancheros.step_5` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, doesn't fit in 1 input items and 1000 mB tanks at any scale
 
 ### `hummus_greek.step_2` (simmer)
 
@@ -42878,6 +44082,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 4%
+- thermal_centrifuge: 1 recipe, rounding 16% ⚠
 
 ### `hummus_greek.step_4` (rinse)
 
@@ -42922,6 +44127,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: 1 recipe, rounding 0%
 
 ### `hummus_i.step_6` (blend)
 
@@ -42978,10 +44184,12 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `hush_puppies.step_4` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 4%, estimated
 
 ### `hush_puppies.step_5` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 0%, estimated
 
 ### `hutspot_dutch_mashed_vegetables.step_2` (boil)
 
@@ -43005,10 +44213,12 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `hyderabad_biryani.step_3` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 14%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 10
 
 ### `hyderabad_biryani.step_4` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `hyderabad_biryani.step_5` (roast)
 
@@ -43029,6 +44239,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 6%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 7
 
 ### `hyderabad_biryani.step_9` (steam)
 
@@ -43039,6 +44250,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `hyderabadi_fried_bread_with_syrup_and_nuts_double_ka_meetha.step_3` (boil)
 
@@ -43077,6 +44289,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 6
 
 ### `hyderabadi_haleem_ground_meat_and_wheat.step_5` (simmer)
 
@@ -43100,12 +44313,14 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `ibihaza_n_ubwoko_rwandan_beans_with_mushroom.step_2` (pan_fry)
 
-- create_heated_mixing: 1 recipe, rounding 5%
+- create_heated_mixing: 2 recipes, rounding 5%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `ibihaza_n_ubwoko_rwandan_beans_with_mushroom.step_3` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 4%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `ibihaza_n_ubwoko_rwandan_beans_with_mushroom.step_4` (season)
 
@@ -43138,7 +44353,8 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `ibihaza_rwandan_beans.step_2` (pan_fry)
 
-- create_heated_mixing: 1 recipe, rounding 5%
+- create_heated_mixing: 2 recipes, rounding 5%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `ibihaza_rwandan_beans.step_3` (boil)
 
@@ -43162,12 +44378,14 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `ibijumba_n_ubwoko_rwandan_sweet_potato_and_mushroom_dish.step_2` (pan_fry)
 
-- create_heated_mixing: 1 recipe, rounding 1%
+- create_heated_mixing: 2 recipes, rounding 1%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `ibijumba_n_ubwoko_rwandan_sweet_potato_and_mushroom_dish.step_3` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 4%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `ibijumba_n_ubwoko_rwandan_sweet_potato_and_mushroom_dish.step_4` (season)
 
@@ -43196,7 +44414,8 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `ibirayi_n_ibinyomoro_rwandan_bean_soup_with_smoked_beef.step_1` (pan_fry)
 
-- create_heated_mixing: 1 recipe, rounding 1%
+- create_heated_mixing: 2 recipes, rounding 1%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `ibirayi_n_ibinyomoro_rwandan_bean_soup_with_smoked_beef.step_2` (heat)
 
@@ -43207,6 +44426,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 1%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `ibirayi_n_ibinyomoro_rwandan_bean_soup_with_smoked_beef.step_4` (coat)
 
@@ -43222,6 +44442,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 17% ⚠, estimated
 
 ### `ibirayi_n_ibinyomoro_rwandan_bean_soup_with_smoked_beef.step_7` (season)
 
@@ -43240,7 +44461,8 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `ibirayi_n_ibishyimbo_rwandan_bean_soup_with_fish.step_2` (stir_fry)
 
-- create_heated_mixing: 1 recipe, rounding 5%
+- create_heated_mixing: 2 recipes, rounding 5%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `ibirayi_n_ibishyimbo_rwandan_bean_soup_with_fish.step_3` (mix)
 
@@ -43271,6 +44493,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: none, takes one input, not 2
 
 ### `ibisuba_rwandan_bean_salad.step_1` (mix)
 
@@ -43305,6 +44528,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 17% ⚠, estimated
 
 ### `ibiwungu_rwandan_banana_beer.step_2` (simmer)
 
@@ -43320,6 +44544,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - vd_fermenting_jar: none, whole items would distort it by 323%
 - bnc_keg: none, can't make the mod's own ibiwungu_rwandan_banana_beer_step_5, and no other mod provides it
+- pnc_thermo_plant: 1 recipe, rounding 17% ⚠, estimated
 
 ### `ibiwungu_rwandan_banana_beer.step_6` (mix)
 
@@ -43330,16 +44555,19 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 17% ⚠, estimated
 
 ### `ibiwungu_rwandan_banana_beer.step_8` (ferment)
 
 - vd_fermenting_jar: 1 recipe, rounding 0%, estimated
 - bnc_keg: none, can't make the mod's own ibiwungu_rwandan_banana_beer_step_8, and no other mod provides it
+- pnc_thermo_plant: 1 recipe, rounding 4%, estimated
 
 ### `ibiwungu_rwandan_banana_beer.step_9` (ferment)
 
 - vd_fermenting_jar: 1 recipe, rounding 0%, estimated
 - bnc_keg: none, can't make the mod's own ibiwungu_rwandan_banana_beer_step_9, and no other mod provides it
+- pnc_thermo_plant: 1 recipe, rounding 4%, estimated
 
 ### `ice_cream_sandwich.step_1` (mix)
 
@@ -43454,6 +44682,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 4%
+- thermal_centrifuge: 1 recipe, rounding 4%
 
 ### `idli_steamed_rice_and_black_gram_bread.step_2` (soak)
 
@@ -43464,6 +44693,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 1%
+- thermal_centrifuge: 1 recipe, rounding 1%
 
 ### `idli_steamed_rice_and_black_gram_bread.step_4` (grind)
 
@@ -43487,15 +44717,18 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - vd_fermenting_jar: 1 recipe, rounding 10%, estimated
 - bnc_keg: none, can't make the mod's own idli_steamed_rice_and_black_gram_bread_step_8, and no other mod provides it
+- pnc_thermo_plant: 1 recipe, rounding 1%, estimated
 
 ### `ifisashi_n_ubwoko_rwandan_peanut_spinach_stew_with_mushroom.step_1` (stir_fry)
 
-- create_heated_mixing: 1 recipe, rounding 1%
+- create_heated_mixing: 2 recipes, rounding 1%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `ifisashi_n_ubwoko_rwandan_peanut_spinach_stew_with_mushroom.step_2` (stir_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 4%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `ifisashi_n_ubwoko_rwandan_peanut_spinach_stew_with_mushroom.step_3` (mix)
 
@@ -43533,12 +44766,14 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `ifisashi_zambian_peanut_and_spinach_stew.step_2` (stir_fry)
 
-- create_heated_mixing: 1 recipe, rounding 1%
+- create_heated_mixing: 2 recipes, rounding 1%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `ifisashi_zambian_peanut_and_spinach_stew.step_3` (stir_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 5
 
 ### `ifisashi_zambian_peanut_and_spinach_stew.step_4` (blend)
 
@@ -43582,10 +44817,12 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `ifumbe_rwandan_cassava_fritters.step_4` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 4%, estimated
 
 ### `ifumbe_rwandan_cassava_fritters.step_5` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 0%, estimated
 
 ### `igbouh_ahi_nigerian_roasted_bambara_nuts.step_1` (rinse)
 
@@ -43619,7 +44856,8 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `ikijumba_n_umutsima_rwandan_sweet_potato_stew_with_corn_and_bean_dish.step_1` (stir_fry)
 
-- create_heated_mixing: 1 recipe, rounding 1%
+- create_heated_mixing: 2 recipes, rounding 1%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `ikijumba_n_umutsima_rwandan_sweet_potato_stew_with_corn_and_bean_dish.step_2` (heat)
 
@@ -43658,7 +44896,8 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `ikijumba_rwandan_sweet_potato_stew.step_1` (pan_fry)
 
-- create_heated_mixing: 1 recipe, rounding 1%
+- create_heated_mixing: 2 recipes, rounding 1%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `ikijumba_rwandan_sweet_potato_stew.step_10` (season)
 
@@ -43702,7 +44941,8 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `ikinyomoro_n_ibishyimbo_rwandan_smoked_fish_with_beans.step_1` (stir_fry)
 
-- create_heated_mixing: 1 recipe, rounding 1%
+- create_heated_mixing: 2 recipes, rounding 1%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `ikinyomoro_n_ibishyimbo_rwandan_smoked_fish_with_beans.step_10` (assemble)
 
@@ -43733,6 +44973,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: 1 recipe, rounding 0%
 
 ### `ikinyomoro_n_ibishyimbo_rwandan_smoked_fish_with_beans.step_7` (mix)
 
@@ -43800,6 +45041,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 0%, estimated
 
 ### `inarizushi_stuffed_sushi.step_11` (shape)
 
@@ -43834,6 +45076,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 0%, estimated
 
 ### `inarizushi_stuffed_sushi.step_7` (shape)
 
@@ -43848,6 +45091,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `indian_baked_yoghurt_with_saffron_and_cardamom.step_2` (bake)
 
@@ -43897,10 +45141,12 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `indian_butter_chicken_i.step_4` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 1%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 9
 
 ### `indian_butter_chicken_i.step_5` (stir_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `indian_butter_chicken_i.step_6` (mix)
 
@@ -43926,6 +45172,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 1%, estimated
+- thermal_centrifuge: 1 recipe, rounding 18% ⚠, estimated
 
 ### `indian_curry_marinade.step_1` (grind)
 
@@ -43959,6 +45206,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `indian_hard_tack_baati.step_6` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 6%
+- pnc_thermo_plant: 1 recipe, rounding 20% ⚠
 
 ### `indian_hard_tack_baati.step_7` (toast)
 
@@ -43974,6 +45222,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 5%, estimated
+- thermal_press: 1 recipe, rounding 27% ⚠, estimated
 
 ### `indian_ice_cream.step_2` (mix)
 
@@ -44024,19 +45273,23 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `indian_omelet.step_3` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 4%, estimated
 
 ### `indian_omelet.step_4` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 0%, estimated
 
 ### `indian_omelet.step_5` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `indian_potatoes.step_1` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `indian_potatoes.step_2` (simmer)
 
@@ -44102,6 +45355,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 90% ⚠, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 5
 
 ### `indian_rice.step_3` (toast)
 
@@ -44120,22 +45374,26 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `indonesian_style_fried_rice.step_1` (stir_fry)
 
-- create_heated_mixing: 1 recipe, rounding 0%
+- create_heated_mixing: 2 recipes, rounding 0%
+- pnc_thermo_plant: none, whole items would distort it by 200%
 
 ### `indonesian_style_fried_rice.step_2` (fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `indonesian_style_fried_rice.step_3` (stir_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `indonesian_style_fried_rice.step_4` (stir_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 13%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 6
 
 ### `indonesian_style_fried_rice.step_5` (season)
 
@@ -44194,6 +45452,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: 1 recipe, rounding 0%
 
 ### `indulgent_chocolate_torte.step_21` (coat)
 
@@ -44242,11 +45501,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 1%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `inguday_tibs_ethiopian_mushroom_stir_fry.step_2` (stir_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 1%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `inguday_tibs_ethiopian_mushroom_stir_fry.step_3` (coat)
 
@@ -44257,6 +45518,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 1%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `inguday_tibs_ethiopian_mushroom_stir_fry.step_5` (coat)
 
@@ -44282,6 +45544,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - vd_fermenting_jar: 1 recipe, rounding 13%, estimated
 - bnc_keg: none, can't make the mod's own injera_ethiopian_teff_flatbread_step_2, and no other mod provides it
+- pnc_thermo_plant: 1 recipe, rounding 3%, estimated
 
 ### `injera_ethiopian_teff_flatbread.step_4` (shape)
 
@@ -44361,7 +45624,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `inyama_y_isugi_rwandan_grilled_pork.step_2` (mix)
 
-- create_mixing: 1 recipe, rounding 1%, estimated
+- create_mixing: 2 recipes, rounding 1%, estimated
 - shapeless_crafting: none, whole items would distort it by 2435%
 
 ### `inyama_y_isugi_rwandan_grilled_pork.step_3` (coat)
@@ -44393,6 +45656,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 1%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 6
 
 ### `iresi_eyin_yoruba_palm_oil_native_rice.step_4` (simmer)
 
@@ -44462,6 +45726,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `irish_soda_bread.step_3` (mix)
 
@@ -44524,7 +45789,8 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `isombe_na_kariyo_cassava_leaves_with_pumpkin.step_2` (pan_fry)
 
-- create_heated_mixing: 1 recipe, rounding 1%
+- create_heated_mixing: 2 recipes, rounding 1%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `isombe_na_kariyo_cassava_leaves_with_pumpkin.step_3` (heat)
 
@@ -44558,7 +45824,8 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `isombe_rwandan_cassava_leaves_with_eggplant.step_2` (pan_fry)
 
-- create_heated_mixing: 1 recipe, rounding 1%
+- create_heated_mixing: 2 recipes, rounding 1%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `isombe_rwandan_cassava_leaves_with_eggplant.step_3` (heat)
 
@@ -44619,11 +45886,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 3 recipes, rounding 3%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `italian_american_spaghetti_alla_puttanesca.step_5` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: none, whole items would distort it by 297%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `italian_american_spaghetti_alla_puttanesca.step_6` (mix)
 
@@ -44644,6 +45913,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: 1 recipe, rounding 0%
 
 ### `italian_braised_shortribs.step_1` (whisk)
 
@@ -44658,6 +45928,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 1%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `italian_braised_shortribs.step_4` (simmer)
 
@@ -44668,6 +45939,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: 1 recipe, rounding 0%
 
 ### `italian_braised_shortribs.step_6` (heat)
 
@@ -44731,7 +46003,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `italian_dressing_ii.step_1` (mix)
 
-- create_mixing: 1 recipe, rounding 27% ⚠, estimated
+- create_mixing: 2 recipes, rounding 27% ⚠, estimated
 - shapeless_crafting: none, whole items would distort it by 1168%
 
 ### `italian_dressing_ii.step_2` (mix)
@@ -44769,6 +46041,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: 1 recipe, rounding 0%
 
 ### `italian_marinated_chicken.step_5` (grill)
 
@@ -44789,6 +46062,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `italian_meatballs.step_5` (bake)
 
@@ -44826,6 +46100,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_press: none, takes one input, not 3
 
 ### `italian_mulled_wine.step_4` (mix)
 
@@ -44847,6 +46122,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: none, whole items would distort it by 238%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `italian_poached_salmon.step_3` (heat)
 
@@ -44862,6 +46138,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 19% ⚠
 
 ### `italian_poached_salmon.step_6` (simmer)
 
@@ -44907,6 +46184,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: 1 recipe, rounding 0%
 
 ### `italian_rice_pudding.step_8` (season)
 
@@ -44917,6 +46195,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 6%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `italian_rice_with_wild_mushrooms.step_3` (coat)
 
@@ -44957,6 +46236,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: 1 recipe, rounding 0%
 
 ### `italian_soup_with_poultry_quenelles.step_3` (shape)
 
@@ -45006,6 +46286,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: 1 recipe, rounding 0%
 
 ### `italian_white_bean_soup.step_5` (blend)
 
@@ -45090,6 +46371,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 17% ⚠, estimated
 
 ### `jal_jeera_cumin_mango_lemonade.step_1` (mix)
 
@@ -45115,6 +46397,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `jalapeno_eggs.step_4` (coat)
 
@@ -45125,11 +46408,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `jalapeno_eggs.step_7` (separate)
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: 1 recipe, rounding 0%
 
 ### `jalapeno_eggs.step_8` (season)
 
@@ -45152,15 +46437,18 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `jalapeno_glazed_seared_salmon.step_3` (pan_fry)
 
-- create_heated_mixing: 1 recipe, rounding 1%
+- create_heated_mixing: 2 recipes, rounding 1%
+- pnc_thermo_plant: 2 recipes, rounding 1%
 
 ### `jalapeno_glazed_seared_salmon.step_4` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `jalapeno_glazed_seared_salmon.step_5` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `jalapeno_glazed_seared_salmon.step_6` (coat)
 
@@ -45196,6 +46484,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - vd_fermenting_jar: 1 recipe, rounding 5%, estimated
 - bnc_keg: none, can't make the mod's own jalebi_fritters_in_syrup_step_2, and no other mod provides it
+- pnc_thermo_plant: 1 recipe, rounding 1%, estimated
 
 ### `jalebi_fritters_in_syrup.step_3` (mix)
 
@@ -45338,6 +46627,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `jamaican_banana_fritters.step_4` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 0%, estimated
 
 ### `jamaican_chicken_fingers_with_honey_mustard_sauce.step_3` (cut)
 
@@ -45457,6 +46747,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 17% ⚠, estimated
 
 ### `jamaican_sorrel_soda.step_3` (simmer)
 
@@ -45480,6 +46771,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `jambalaya_i.step_3` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 5%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `jambalaya_i.step_4` (assemble)
 
@@ -45495,21 +46787,25 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: 1 recipe, rounding 0%
 
 ### `jambalaya_ii.step_1` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 10%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `jambalaya_ii.step_2` (separate)
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 14%
+- thermal_centrifuge: none, doesn't fit in 1 input items and 1000 mB tanks at any scale
 
 ### `jambalaya_ii.step_3` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 27% ⚠, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 6
 
 ### `jambalaya_ii.step_4` (mix)
 
@@ -45565,6 +46861,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: none, whole items would distort it by 1239%
+- thermal_press: none, whole items would distort it by 2132%
 
 ### `japanese_pickled_plums_umeboshi.step_14` (assemble)
 
@@ -45580,6 +46877,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: none, whole items would distort it by 3025%
+- thermal_centrifuge: none, whole items would distort it by 3025%
 
 ### `japanese_pickled_plums_umeboshi.step_4` (soak)
 
@@ -45590,6 +46888,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: none, whole items would distort it by 3025%
+- thermal_centrifuge: none, whole items would distort it by 3025%
 
 ### `japanese_pickled_plums_umeboshi.step_6` (coat)
 
@@ -45600,6 +46899,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: none, whole items would distort it by 1239%
+- thermal_press: none, whole items would distort it by 1239%
 
 ### `japanese_pickled_plums_umeboshi.step_8` (cure)
 
@@ -45639,6 +46939,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `jerk_lobster.step_3` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 0%, estimated
 
 ### `jerk_lobster.step_4` (season)
 
@@ -45659,6 +46960,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: none, takes one input, not 2
 
 ### `jerk_lobster.step_8` (cut)
 
@@ -45689,11 +46991,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `jersey_breakfast_dog.step_4` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `jersey_breakfast_dog.step_5` (assemble)
 
@@ -45709,6 +47013,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `jersey_breakfast_dog.step_8` (heat)
 
@@ -45734,6 +47039,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: none, whole items would distort it by 2678%
+- pnc_thermo_plant: none, whole items would distort it by 2678%
 
 ### `jigarthanda_milk.step_1` (soak)
 
@@ -45835,7 +47141,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `ka_ak_savory_ring_shaped_biscuit.step_1` (mix)
 
-- create_mixing: 3 recipes, rounding 0%, estimated
+- create_mixing: 4 recipes, rounding 0%, estimated
 - shapeless_crafting: 1 recipe, rounding 15%, estimated
 
 ### `ka_ak_savory_ring_shaped_biscuit.step_10` (coat)
@@ -45862,6 +47168,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - vd_fermenting_jar: 1 recipe, rounding 2%
 - bnc_keg: none, can't make the mod's own ka_ak_savory_ring_shaped_biscuit_step_4, and no other mod provides it
+- pnc_thermo_plant: 1 recipe, rounding 2%
 
 ### `ka_ak_savory_ring_shaped_biscuit.step_5` (shape)
 
@@ -45920,15 +47227,18 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `kabalagala_ugandan_pancakes.step_4` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 4%, estimated
 
 ### `kabalagala_ugandan_pancakes.step_5` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 0%, estimated
 
 ### `kabalagala_ugandan_pancakes.step_6` (strain)
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: 1 recipe, rounding 0%
 
 ### `kachumbari.step_1` (mix)
 
@@ -45950,6 +47260,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: none, whole items would distort it by 200%
 
 ### `kaiserschmarrn_austrian_shredded_pancake.step_2` (whisk)
 
@@ -45973,18 +47284,22 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `kaiserschmarrn_austrian_shredded_pancake.step_6` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 11%, estimated
 
 ### `kaiserschmarrn_austrian_shredded_pancake.step_7` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 0%, estimated
 
 ### `kaiserschmarrn_austrian_shredded_pancake.step_8` (stir_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `kaiserschmarrn_austrian_shredded_pancake.step_9` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `kaju_barfi_indian_cashew_milk_confection.step_1` (boil)
 
@@ -46028,6 +47343,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `kal_kals_sweet_curled_fritters.step_3` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `kal_kals_sweet_curled_fritters.step_4` (coat)
 
@@ -46048,6 +47364,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - vd_fermenting_jar: 1 recipe, rounding 6%, estimated
 - bnc_keg: none, can't make the mod's own kala_liberian_fritters_step_3, and no other mod provides it
+- pnc_thermo_plant: 1 recipe, rounding 0%, estimated
 
 ### `kala_liberian_fritters.step_4` (heat)
 
@@ -46057,6 +47374,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `kala_liberian_fritters.step_5` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 4%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 15% ⚠, estimated
 
 ### `kala_liberian_fritters.step_7` (coat)
 
@@ -46072,6 +47390,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `kale_and_garlic_pasta.step_3` (boil)
 
@@ -46164,11 +47483,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `kanda_peanut_stew.step_3` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 1%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `kanda_peanut_stew.step_4` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 1%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `kanda_peanut_stew.step_5` (heat)
 
@@ -46272,7 +47593,8 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `kare_kare_oxtail_and_vegetables_in_peanut_sauce.step_7` (stir_fry)
 
-- create_heated_mixing: 1 recipe, rounding 0%
+- create_heated_mixing: 2 recipes, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `kare_kare_oxtail_and_vegetables_in_peanut_sauce.step_8` (boil)
 
@@ -46370,11 +47692,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `kari_ayam_indonesian_chicken_curry.step_4` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `kari_ayam_indonesian_chicken_curry.step_5` (stir_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 6
 
 ### `kari_ayam_indonesian_chicken_curry.step_6` (boil)
 
@@ -46416,6 +47740,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 17% ⚠, estimated
 
 ### `karkanji_chadian_spiced_hibiscus_drink.step_7` (dissolve)
 
@@ -46435,6 +47760,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `karma_free_diet.step_3` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `karma_free_diet.step_4` (heat)
 
@@ -46523,6 +47849,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `kashkaval_pane_bulgarian_fried_cheese.step_6` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `kashkaval_pane_bulgarian_fried_cheese.step_7` (dry)
 
@@ -46547,11 +47874,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `kashmiri_pulao.step_4` (stir_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 9
 
 ### `kashmiri_pulao.step_5` (season)
 
@@ -46608,6 +47937,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `kasnocken_austrian_cheese_dumplings.step_7` (assemble)
 
@@ -46662,11 +47992,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `katogo_ugandan_mixed_breakfast_vegetables.step_2` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `katogo_ugandan_mixed_breakfast_vegetables.step_3` (stir_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 5
 
 ### `katogo_ugandan_mixed_breakfast_vegetables.step_4` (mix)
 
@@ -46707,10 +48039,12 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: 1 recipe, rounding 0%
 
 ### `kawlata_maltese_vegetable_and_pork_soup.step_5` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `kawlata_maltese_vegetable_and_pork_soup.step_6` (steam)
 
@@ -46741,10 +48075,12 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 17% ⚠, estimated
 
 ### `kedgeree_rice_and_smoked_fish.step_3` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `kedgeree_rice_and_smoked_fish.step_4` (mix)
 
@@ -46800,6 +48136,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 4%
+- pnc_thermo_plant: 1 recipe, rounding 11%
 
 ### `kele_ka_halwa_fried_bananas_in_milk.step_3` (evaporate)
 
@@ -46814,6 +48151,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `kele_ka_halwa_fried_bananas_in_milk.step_6` (mix)
 
@@ -46849,6 +48187,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 5%
+- thermal_centrifuge: 1 recipe, rounding 5%
 
 ### `kerala_pachadi_coconut_mango_condiment.step_1` (season)
 
@@ -46867,6 +48206,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `kerala_pachadi_coconut_mango_condiment.step_4` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 1%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `kerala_pachadi_coconut_mango_condiment.step_5` (heat)
 
@@ -46877,6 +48217,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 10%
+- thermal_centrifuge: 1 recipe, rounding 10%
 
 ### `keralan_prawns.step_2` (boil)
 
@@ -46886,10 +48227,12 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `keralan_prawns.step_3` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 1%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 5
 
 ### `keralan_prawns.step_4` (stir_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 0%, estimated
 
 ### `keralan_prawns.step_5` (simmer)
 
@@ -46900,6 +48243,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_press: 1 recipe, rounding 0%, estimated
 
 ### `keralan_vegetable_stew.step_10` (season)
 
@@ -46910,6 +48254,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_press: 1 recipe, rounding 17% ⚠, estimated
 
 ### `keralan_vegetable_stew.step_3` (heat)
 
@@ -46920,6 +48265,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 14%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 6
 
 ### `keralan_vegetable_stew.step_5` (mix)
 
@@ -46965,11 +48311,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: none, whole items would distort it by 407%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `kesari_south_indian_semolina_pudding.step_7` (fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 1%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `kesari_south_indian_semolina_pudding.step_8` (mix)
 
@@ -47019,11 +48367,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `kesra_algerian_semolina_flatbread.step_8` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 8%
+- pnc_thermo_plant: 1 recipe, rounding 8%
 
 ### `key_wat_ethiopian_red_stew.step_2` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 1%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `key_wat_ethiopian_red_stew.step_3` (heat)
 
@@ -47039,6 +48389,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `key_wat_ethiopian_red_stew.step_6` (soak)
 
@@ -47079,6 +48430,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - vd_fermenting_jar: 1 recipe, rounding 0%
 - bnc_keg: none, can't make the mod's own khachapuri_georgian_cheese_bread_step_4, and no other mod provides it
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `khachapuri_georgian_cheese_bread.step_5` (mix)
 
@@ -47134,6 +48486,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 10%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 6
 
 ### `khaman_dhokla_steamed_gram_bread.step_9` (mix)
 
@@ -47171,7 +48524,8 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `khanom_mo_keang_thai_custard.step_1` (pan_fry)
 
-- create_heated_mixing: 1 recipe, rounding 0%
+- create_heated_mixing: 2 recipes, rounding 0%
+- pnc_thermo_plant: 2 recipes, rounding 0%
 
 ### `khanom_mo_keang_thai_custard.step_3` (heat)
 
@@ -47276,21 +48630,25 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `khao_pad_gai_thai_chicken_fried_rice.step_4` (stir_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `khao_pad_gai_thai_chicken_fried_rice.step_5` (stir_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 17% ⚠, estimated
 
 ### `khao_pad_gai_thai_chicken_fried_rice.step_6` (stir_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `khao_pad_gai_thai_chicken_fried_rice.step_7` (mix)
 
@@ -47309,17 +48667,20 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `khao_pad_thai_fried_rice.step_1` (stir_fry)
 
-- create_heated_mixing: 1 recipe, rounding 1%, estimated
+- create_heated_mixing: 2 recipes, rounding 1%, estimated
+- pnc_thermo_plant: 2 recipes, rounding 1%, estimated
 
 ### `khao_pad_thai_fried_rice.step_2` (stir_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 1%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `khao_pad_thai_fried_rice.step_3` (stir_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `khao_pad_thai_fried_rice.step_4` (season)
 
@@ -47330,6 +48691,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 1%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 5
 
 ### `khara_pongal_rice_and_mung_bean_porridge.step_1` (boil)
 
@@ -47340,6 +48702,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 1%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `khara_pongal_rice_and_mung_bean_porridge.step_3` (heat)
 
@@ -47364,14 +48727,17 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `khatti_dal_spiced_tamarind_pigeon_peas.step_2` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 6%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 5
 
 ### `khatti_dal_spiced_tamarind_pigeon_peas.step_3` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 9%
+- pnc_thermo_plant: none, doesn't fit in 1 input items and 1000 mB tanks at any scale
 
 ### `khatti_dal_spiced_tamarind_pigeon_peas.step_4` (fry)
 
 - create_heated_mixing: none, whole items would distort it by 280%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `khatti_dal_spiced_tamarind_pigeon_peas.step_5` (season)
 
@@ -47452,6 +48818,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 7%
+- pnc_thermo_plant: 1 recipe, rounding 7%
 
 ### `khubz_muluwah_yemenite_layered_flatbread.step_2` (mix)
 
@@ -47505,16 +48872,19 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `kibbeh.step_1` (fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 8%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `kibbeh.step_10` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `kibbeh.step_2` (mix)
 
@@ -47530,6 +48900,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_press: 1 recipe, rounding 17% ⚠, estimated
 
 ### `kibbeh.step_6` (knead)
 
@@ -47689,6 +49060,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 1%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 1%, estimated
 
 ### `killer_queso_dip.step_5` (heat)
 
@@ -47728,6 +49100,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `kipspek_bacon_wrapped_chicken.step_8` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `kisra_sudanese_bread.step_1` (mix)
 
@@ -47738,6 +49111,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - vd_fermenting_jar: 1 recipe, rounding 5%, estimated
 - bnc_keg: none, can't make the mod's own kisra_sudanese_bread_step_2, and no other mod provides it
+- pnc_thermo_plant: 1 recipe, rounding 1%, estimated
 
 ### `kisra_sudanese_bread.step_4` (shape)
 
@@ -47748,6 +49122,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 12%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 16% ⚠, estimated
 
 ### `kitfo_ethiopian_minced_raw_meat.step_1` (assemble)
 
@@ -47820,6 +49195,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: 1 recipe, rounding 0%
 
 ### `klepon_indonesian_sweet_boiled_rice_cake.step_6` (coat)
 
@@ -47844,6 +49220,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `knoephla_soup.step_1` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 7%, estimated
+- pnc_thermo_plant: none, doesn't fit in 1 input items and 1000 mB tanks at any scale
 
 ### `knoephla_soup.step_2` (boil)
 
@@ -47868,6 +49245,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `koeksisters_fried_braided_pastry_in_syrup.step_10` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `koeksisters_fried_braided_pastry_in_syrup.step_11` (soak)
 
@@ -47918,6 +49296,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - vd_fermenting_jar: 1 recipe, rounding 0%
 - bnc_keg: none, can't make the mod's own koesisters_with_coconut_step_3, and no other mod provides it
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `koesisters_with_coconut.step_4` (shape)
 
@@ -47927,6 +49306,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `koesisters_with_coconut.step_5` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `koesisters_with_coconut.step_6` (evaporate)
 
@@ -47946,15 +49326,18 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - vd_fermenting_jar: 1 recipe, rounding 6%
 - bnc_keg: none, can't make the mod's own koko_da_kosai_fermented_corn_porridge_and_bean_fritters_step_1, and no other mod provides it
+- pnc_thermo_plant: 1 recipe, rounding 5%
 
 ### `koko_da_kosai_fermented_corn_porridge_and_bean_fritters.step_10` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 0%, estimated
 
 ### `koko_da_kosai_fermented_corn_porridge_and_bean_fritters.step_11` (strain)
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: 1 recipe, rounding 0%
 
 ### `koko_da_kosai_fermented_corn_porridge_and_bean_fritters.step_2` (grind)
 
@@ -47964,6 +49347,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 13%, estimated
+- thermal_centrifuge: 1 recipe, rounding 13%, estimated
 
 ### `koko_da_kosai_fermented_corn_porridge_and_bean_fritters.step_4` (heat)
 
@@ -48012,16 +49396,19 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `kokoro_nigerian_cornmeal_snacks.step_7` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 6%
+- pnc_thermo_plant: 1 recipe, rounding 17% ⚠
 
 ### `kokoro_nigerian_cornmeal_snacks.step_8` (strain)
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 11%
+- thermal_centrifuge: 1 recipe, rounding 11%
 
 ### `komle_norwegian_potato_dumplings.step_2` (press)
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_press: 1 recipe, rounding 20% ⚠
 
 ### `komle_norwegian_potato_dumplings.step_3` (mix)
 
@@ -48060,7 +49447,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `korean_shortribs.step_1` (blend)
 
-- create_mixing: 1 recipe, rounding 1%, estimated
+- create_mixing: 2 recipes, rounding 1%, estimated
 
 ### `korean_shortribs.step_2` (coat)
 
@@ -48084,12 +49471,14 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `koshari_egyptian_rice_with_pasta_and_lentils.step_4` (fry)
 
-- create_heated_mixing: 1 recipe, rounding 1%
+- create_heated_mixing: 2 recipes, rounding 1%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `koshari_egyptian_rice_with_pasta_and_lentils.step_5` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `koshari_egyptian_rice_with_pasta_and_lentils.step_6` (mix)
 
@@ -48139,6 +49528,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `koshary_egyptian_pasta_salad_with_rice_and_lentils.step_4` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 6%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `koshary_egyptian_pasta_salad_with_rice_and_lentils.step_5` (mix)
 
@@ -48203,6 +49593,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 10%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 6
 
 ### `kroppkakor_swedish_potato_and_pork_dumplings.step_4` (shape)
 
@@ -48223,6 +49614,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: 1 recipe, rounding 0%
 
 ### `krummelpap_south_african_maize_porridge.step_1` (mix)
 
@@ -48268,6 +49660,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - vd_fermenting_jar: 1 recipe, rounding 14%, estimated
 - bnc_keg: none, can't make the mod's own kubaneh_yemenite_pull_apart_bread_step_2, and no other mod provides it
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `kubaneh_yemenite_pull_apart_bread.step_3` (knead)
 
@@ -48278,6 +49671,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - vd_fermenting_jar: 1 recipe, rounding 14%
 - bnc_keg: none, can't make the mod's own kubaneh_yemenite_pull_apart_bread_step_4, and no other mod provides it
+- pnc_thermo_plant: 1 recipe, rounding 14%
 
 ### `kubaneh_yemenite_pull_apart_bread.step_5` (knead)
 
@@ -48317,6 +49711,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `kuddi_spiced_yogurt_sauce.step_4` (fry)
 
 - create_heated_mixing: none, whole items would distort it by 280%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `kugelis_lithuanian_baked_potato_pudding.step_1` (mix)
 
@@ -48327,6 +49722,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 1%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `kugelis_lithuanian_baked_potato_pudding.step_3` (whisk)
 
@@ -48356,6 +49752,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 3%
+- thermal_centrifuge: 1 recipe, rounding 3%
 
 ### `kuih_bakul_malaysian_sweet_browned_rice_cake.step_11` (cut)
 
@@ -48395,6 +49792,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: none, takes one input, not 2
 
 ### `kuih_lapis_malaysian_layered_steamed_confection.step_4` (steam)
 
@@ -48479,6 +49877,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 17% ⚠, estimated
 
 ### `kuih_seri_muka_malaysian_sticky_rice_with_pandan_custard.step_8` (steam)
 
@@ -48519,6 +49918,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `kuku_paka.step_6` (mix)
 
@@ -48548,6 +49948,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: 1 recipe, rounding 0%
 
 ### `kuku_sabzi_with_potato_slices.step_2` (soak)
 
@@ -48557,11 +49958,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `kuku_sabzi_with_potato_slices.step_3` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 13%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `kuku_sabzi_with_potato_slices.step_4` (stir_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 1%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 7
 
 ### `kuku_sabzi_with_potato_slices.step_5` (coat)
 
@@ -48585,6 +49988,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `kuku_sabzi_with_potato_slices.step_9` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `kulfi_south_asian_frozen_custard.step_2` (evaporate)
 
@@ -48618,6 +50022,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 7%
+- thermal_press: 1 recipe, rounding 7%
 
 ### `kuli_kuli.step_5` (mix)
 
@@ -48638,6 +50043,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `kunafa_bil_ashta_egyptian_clotted_cream_pastry.step_10` (coat)
 
@@ -48702,15 +50108,18 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `kung_pao_chicken.step_6` (stir_fry)
 
 - create_heated_mixing: 1 recipe, rounding 6%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 5
 
 ### `kung_pao_chicken.step_7` (stir_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `kung_pao_chicken.step_8` (stir_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 6%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 7
 
 ### `kung_pao_chicken.step_9` (boil)
 
@@ -48730,6 +50139,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 17% ⚠, estimated
 
 ### `kunun_gyada_groundnut_and_rice_gruel.step_1` (soak)
 
@@ -48797,6 +50207,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 12%, estimated
+- thermal_centrifuge: 1 recipe, rounding 16% ⚠, estimated
 
 ### `kunun_tamba_finger_millet_porridge.step_4` (boil)
 
@@ -48874,10 +50285,12 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `kurma_trinidadian_fried_dough_in_syrup.step_7` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `kurma_trinidadian_fried_dough_in_syrup.step_8` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `kurma_trinidadian_fried_dough_in_syrup.step_9` (heat)
 
@@ -48893,6 +50306,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: none, whole items would distort it by 247%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `kuwese_u_logo_nigerian_fried_cassava.step_5` (season)
 
@@ -48964,6 +50378,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `kwek_kwek_deep_fried_quail_eggs.step_4` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 10%
+- pnc_thermo_plant: 2 recipes, rounding 17% ⚠
 
 ### `kyopulo_eggplant_with_peppers_and_tomatoes.step_1` (roast)
 
@@ -48994,6 +50409,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - vd_fermenting_jar: none, whole items would distort it by 275%
 - bnc_keg: none, can't make the mod's own kyselo_czech_sourdough_mushroom_soup_step_2, and no other mod provides it
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `kyselo_czech_sourdough_mushroom_soup.step_3` (boil)
 
@@ -49013,6 +50429,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `kyselo_czech_sourdough_mushroom_soup.step_6` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 9%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `kyselo_czech_sourdough_mushroom_soup.step_7` (coagulate)
 
@@ -49092,6 +50509,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - vd_fermenting_jar: 1 recipe, rounding 0%
 - bnc_keg: none, can't make the mod's own lady_arundel_s_manchet_step_6, and no other mod provides it
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `lady_arundel_s_manchet.step_7` (bake)
 
@@ -49171,14 +50589,17 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - vd_fermenting_jar: 1 recipe, rounding 11%, estimated
 - bnc_keg: none, can't make the mod's own lahoh_spongy_flatbread_i_step_6, and no other mod provides it
+- pnc_thermo_plant: 1 recipe, rounding 1%, estimated
 
 ### `lahoh_spongy_flatbread_i.step_8` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 1%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 1%, estimated
 
 ### `lahoh_spongy_flatbread_i.step_9` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 5%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 5%, estimated
 
 ### `lahoh_spongy_flatbread_ii.step_1` (mix)
 
@@ -49193,20 +50614,24 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - vd_fermenting_jar: 1 recipe, rounding 3%, estimated
 - bnc_keg: none, can't make the mod's own lahoh_spongy_flatbread_ii_step_3, and no other mod provides it
+- pnc_thermo_plant: 1 recipe, rounding 1%, estimated
 
 ### `lahoh_spongy_flatbread_ii.step_5` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 3%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 3%, estimated
 
 ### `lamb_and_okra_stew_khoresht_bamiye.step_1` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 14%
+- pnc_thermo_plant: none, whole items would distort it by 200%
 
 ### `lamb_and_okra_stew_khoresht_bamiye.step_2` (fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `lamb_and_okra_stew_khoresht_bamiye.step_3` (simmer)
 
@@ -49251,6 +50676,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `lamb_sausages_and_grilled_potatoes.step_4` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `lamb_sausages_and_grilled_potatoes.step_5` (mix)
 
@@ -49336,6 +50762,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: 1 recipe, rounding 0%
 
 ### `lancashire_corned_beef_hash.step_6` (mix)
 
@@ -49481,6 +50908,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 17% ⚠, estimated
 
 ### `langar_dal.step_5` (mix)
 
@@ -49511,6 +50939,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - vd_fermenting_jar: 1 recipe, rounding 0%, estimated
 - bnc_keg: none, can't make the mod's own langos_hungarian_fried_flatbread_step_3, and no other mod provides it
+- pnc_thermo_plant: none, doesn't fit in 1 input items and 1000 mB tanks at any scale
 
 ### `langos_hungarian_fried_flatbread.step_4` (fold)
 
@@ -49526,16 +50955,19 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `langos_hungarian_fried_flatbread.step_8` (fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `langos_hungarian_fried_flatbread.step_9` (strain)
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: 1 recipe, rounding 0%
 
 ### `lapis_legit_many_layered_spiced_cake.step_1` (mix)
 
@@ -49588,11 +51020,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 1%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 5
 
 ### `lasagne_with_bean_sauce.step_4` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 4%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `lasagne_with_bean_sauce.step_5` (simmer)
 
@@ -49658,6 +51092,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `lasagne_with_red_and_white_sauce.step_20` (bake)
 
@@ -49668,11 +51103,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 6
 
 ### `lasagne_with_red_and_white_sauce.step_4` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 1%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `lasagne_with_red_and_white_sauce.step_5` (season)
 
@@ -49702,11 +51139,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 1%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `latino_scramble.step_3` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 6%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `latino_scramble.step_4` (season)
 
@@ -49729,6 +51168,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_press: 1 recipe, rounding 0%
 
 ### `latkes.step_3` (mix)
 
@@ -49737,7 +51177,8 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `latkes.step_4` (pan_fry)
 
-- create_heated_mixing: 1 recipe, rounding 1%, estimated
+- create_heated_mixing: 2 recipes, rounding 1%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `latte_di_suocera_lemon_cream_liqueur.step_1` (assemble)
 
@@ -49760,6 +51201,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 17% ⚠, estimated
 
 ### `latte_di_suocera_lemon_cream_liqueur.step_5` (age)
 
@@ -49800,6 +51242,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `le_tourin_garlic_soup.step_2` (mix)
 
@@ -49837,6 +51280,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `leaf_masala_curry.step_1` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 10%
+- pnc_thermo_plant: 1 recipe, rounding 10%
 
 ### `leaf_masala_curry.step_2` (heat)
 
@@ -49846,6 +51290,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `leaf_masala_curry.step_3` (stir_fry)
 
 - create_heated_mixing: none, whole items would distort it by 154%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 5
 
 ### `leaf_masala_curry.step_4` (simmer)
 
@@ -49866,6 +51311,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - vd_fermenting_jar: 1 recipe, rounding 2%, estimated
 - bnc_keg: none, can't make the mod's own leben_middle_eastern_sour_milk_step_5, and no other mod provides it
+- pnc_thermo_plant: 1 recipe, rounding 0%, estimated
 
 ### `leben_middle_eastern_sour_milk.step_6` (mix)
 
@@ -49920,6 +51366,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `lefse_norwegian_potato_flatbread.step_5` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 14%
+- pnc_thermo_plant: 1 recipe, rounding 14%
 
 ### `lefse_norwegian_potato_flatbread.step_6` (assemble)
 
@@ -49954,10 +51401,12 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `lemon_blueberry_pancakes.step_11` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 0%, estimated
 
 ### `lemon_blueberry_pancakes.step_12` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `lemon_blueberry_pancakes.step_2` (mix)
 
@@ -49991,11 +51440,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `lemon_blueberry_pancakes.step_9` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 4%, estimated
 
 ### `lemon_cake_with_lemon_glaze.step_11` (separate)
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: 1 recipe, rounding 0%
 
 ### `lemon_cake_with_lemon_glaze.step_12` (coat)
 
@@ -50053,6 +51504,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `lemon_chicken_pasta.step_12` (assemble)
 
@@ -50073,26 +51525,31 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 11%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `lemon_chicken_pasta.step_6` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 11%
+- pnc_thermo_plant: 1 recipe, rounding 11%
 
 ### `lemon_chicken_pasta.step_7` (separate)
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 11%
+- thermal_centrifuge: 1 recipe, rounding 11%
 
 ### `lemon_chicken_pasta.step_8` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 11%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `lemon_chicken_pasta.step_9` (stir_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 3%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 7
 
 ### `lemon_cream_sauce.step_1` (evaporate)
 
@@ -50143,6 +51600,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 17% ⚠, estimated
 
 ### `lemon_curd.step_9` (assemble)
 
@@ -50173,6 +51631,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: 1 recipe, rounding 0%
 
 ### `lemon_custard_pastry_cups_pastel_de_nada.step_7` (grill)
 
@@ -50221,6 +51680,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 0%, estimated
 
 ### `lemon_icing.step_2` (whisk)
 
@@ -50282,6 +51742,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 17% ⚠, estimated
 
 ### `lemon_lime_soda_i.step_4` (mix)
 
@@ -50516,6 +51977,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - vd_fermenting_jar: 1 recipe, rounding 0%
 - bnc_keg: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `lemon_pickle_ii.step_2` (cure)
 
@@ -50585,10 +52047,12 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `lemon_poppy_seed_pancakes.step_10` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 0%, estimated
 
 ### `lemon_poppy_seed_pancakes.step_11` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `lemon_poppy_seed_pancakes.step_2` (mix)
 
@@ -50621,6 +52085,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `lemon_poppy_seed_pancakes.step_9` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 4%, estimated
 
 ### `lemon_popsicle.step_1` (dissolve)
 
@@ -50729,11 +52194,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 5%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `lemon_rice.step_3` (fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 5%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 6
 
 ### `lemon_rice.step_4` (season)
 
@@ -50872,6 +52339,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 2%, estimated
+- thermal_press: 1 recipe, rounding 2%, estimated
 
 ### `lemonade_extra_sour.step_2` (dissolve)
 
@@ -50926,6 +52394,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `lentil_potato_and_tomato_curry.step_2` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 1%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 6
 
 ### `lentil_potato_and_tomato_curry.step_3` (simmer)
 
@@ -50936,6 +52405,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 17% ⚠, estimated
 
 ### `lentil_rice_loaf.step_1` (simmer)
 
@@ -50966,11 +52436,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 5%
+- thermal_centrifuge: 1 recipe, rounding 27% ⚠
 
 ### `lentils_and_rice_mjeddrah.step_2` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 7%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 5
 
 ### `lentils_and_rice_mjeddrah.step_3` (toast)
 
@@ -51010,6 +52482,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `leong_s_cashew_chicken.step_6` (heat)
 
@@ -51049,6 +52522,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `liberian_butter_rice.step_3` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `liberian_butter_rice.step_4` (coat)
 
@@ -51079,16 +52553,19 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 1%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 6
 
 ### `liberian_cassava_leaf_soup.step_4` (stir_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `liberian_cassava_leaf_soup.step_5` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 1%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `liberian_cassava_leaf_soup.step_6` (simmer)
 
@@ -51119,6 +52596,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: 1 recipe, rounding 0%
 
 ### `liberian_chicken_gravy.step_3` (blend)
 
@@ -51126,7 +52604,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `liberian_chicken_gravy.step_4` (simmer)
 
-- create_heated_mixing: 1 recipe, rounding 1%, estimated
+- create_heated_mixing: 2 recipes, rounding 1%, estimated
 - fd_cooking_pot: 1 recipe, rounding 25% ⚠, estimated
 
 ### `liberian_chicken_gravy.step_5` (simmer)
@@ -51146,12 +52624,14 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `liberian_collard_greens_stew.step_2` (pan_fry)
 
-- create_heated_mixing: 1 recipe, rounding 1%
+- create_heated_mixing: 2 recipes, rounding 1%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `liberian_collard_greens_stew.step_3` (stir_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 5
 
 ### `liberian_collard_greens_stew.step_4` (mix)
 
@@ -51201,11 +52681,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 1%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `liberian_eggplant_stew.step_3` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 1%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `liberian_eggplant_stew.step_4` (simmer)
 
@@ -51250,19 +52732,23 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `liberian_fried_fish.step_6` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 3%
+- pnc_thermo_plant: 2 recipes, rounding 3%
 
 ### `liberian_fried_fish.step_7` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 3%
+- pnc_thermo_plant: 1 recipe, rounding 3%
 
 ### `liberian_fried_plantains_with_beans.step_3` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 2 recipes, rounding 0%
 
 ### `liberian_fried_plantains_with_beans.step_4` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `liberian_fried_plantains_with_beans.step_5` (mix)
 
@@ -51296,10 +52782,12 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `liberian_fried_sweet_potato_puffs.step_5` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: 2 recipes, rounding 0%, estimated
 
 ### `liberian_fried_sweet_potato_puffs.step_6` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 0%, estimated
 
 ### `liberian_fufu.step_2` (boil)
 
@@ -51315,6 +52803,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 12%
+- thermal_centrifuge: 1 recipe, rounding 12%
 
 ### `liberian_fufu.step_5` (blend)
 
@@ -51337,12 +52826,14 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `liberian_jollof_rice.step_2` (pan_fry)
 
-- create_heated_mixing: 1 recipe, rounding 0%
+- create_heated_mixing: 2 recipes, rounding 0%
+- pnc_thermo_plant: 2 recipes, rounding 0%
 
 ### `liberian_jollof_rice.step_3` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 1%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `liberian_jollof_rice.step_4` (simmer)
 
@@ -51358,16 +52849,19 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `liberian_palm_oil_stew.step_3` (stir_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 5
 
 ### `liberian_palm_oil_stew.step_4` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 1%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `liberian_palm_oil_stew.step_5` (simmer)
 
@@ -51393,16 +52887,19 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 1%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 5
 
 ### `liberian_pepper_soup.step_3` (stir_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `liberian_pepper_soup.step_4` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 1%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `liberian_pepper_soup.step_5` (simmer)
 
@@ -51432,10 +52929,12 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `liberian_potato_greens.step_2` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 1%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `liberian_potato_greens.step_3` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `liberian_potato_greens.step_4` (season)
 
@@ -51450,6 +52949,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: none, whole items would distort it by 3025%
+- thermal_centrifuge: none, whole items would distort it by 3025%
 
 ### `liberian_roasted_corn.step_3` (grill)
 
@@ -51465,10 +52965,12 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: none, whole items would distort it by 3025%
+- thermal_centrifuge: none, whole items would distort it by 3025%
 
 ### `light_fluffy_pancakes.step_10` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `light_fluffy_pancakes.step_2` (mix)
 
@@ -51496,10 +52998,12 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `light_fluffy_pancakes.step_8` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 4%, estimated
 
 ### `light_fluffy_pancakes.step_9` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 0%, estimated
 
 ### `lime_and_mascarpone_cheesecake.step_1` (shape)
 
@@ -51530,6 +53034,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 17% ⚠, estimated
 
 ### `limoncello_ii.step_2` (assemble)
 
@@ -51561,6 +53066,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 5%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `linguine_primavera_mediterranean.step_3` (mix)
 
@@ -51595,6 +53101,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `liver_and_onions.step_10` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `liver_and_onions.step_11` (assemble)
 
@@ -51614,6 +53121,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `liver_and_onions.step_2` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 5%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `liver_and_onions.step_3` (steam)
 
@@ -51628,6 +53136,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: 1 recipe, rounding 0%
 
 ### `liver_and_onions.step_9` (coat)
 
@@ -51652,6 +53161,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `liverpool_lamb_and_vegetable_soup_scouse.step_2` (pan_fry)
 
 - create_heated_mixing: none, whole items would distort it by 421%
+- pnc_thermo_plant: none, whole items would distort it by 421%
 
 ### `liverpool_lamb_and_vegetable_soup_scouse.step_3` (mix)
 
@@ -51672,26 +53182,31 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 7
 
 ### `lo_mein.step_4` (stir_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `lo_mein.step_5` (strain)
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: none, takes one input, not 2
 
 ### `lo_mein.step_6` (stir_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `lobster_bisque.step_1` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 1%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 5
 
 ### `lobster_bisque.step_2` (mix)
 
@@ -51726,6 +53241,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 6%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `lobster_thermidor.step_4` (mix)
 
@@ -51755,6 +53271,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 50% ⚠
 
 ### `loco_moco_rice_with_egg_and_hamburger.step_2` (heat)
 
@@ -51805,10 +53322,12 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 5%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `locrio_dominican_chicken_and_rice.step_4` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 27% ⚠, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `locrio_dominican_chicken_and_rice.step_5` (mix)
 
@@ -51882,6 +53401,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `lomo_saltado_peruvian_steak_stir_fry.step_2` (stir_fry)
 
 - create_heated_mixing: none, whole items would distort it by 407%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `lomo_saltado_peruvian_steak_stir_fry.step_3` (season)
 
@@ -51902,6 +53422,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `london_broil.step_1` (mix)
 
@@ -51948,6 +53469,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 17% ⚠, estimated
 
 ### `long_island_iced_tea.step_3` (assemble)
 
@@ -51992,10 +53514,12 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - vd_fermenting_jar: 1 recipe, rounding 0%, estimated
 - bnc_keg: none, can't make the mod's own loukoumas_greek_donuts_with_honey_i_step_4, and no other mod provides it
+- pnc_thermo_plant: 1 recipe, rounding 4%, estimated
 
 ### `loukoumas_greek_donuts_with_honey_i.step_6` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 0%, estimated
 
 ### `loukoumas_greek_donuts_with_honey_i.step_7` (coat)
 
@@ -52021,15 +53545,18 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - vd_fermenting_jar: 1 recipe, rounding 0%, estimated
 - bnc_keg: none, can't make the mod's own loukoumas_greek_donuts_with_honey_ii_step_4, and no other mod provides it
+- pnc_thermo_plant: 1 recipe, rounding 0%, estimated
 
 ### `loukoumas_greek_donuts_with_honey_ii.step_5` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 0%, estimated
 
 ### `loukoumas_greek_donuts_with_honey_ii.step_6` (strain)
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: 1 recipe, rounding 0%
 
 ### `loukoumas_greek_donuts_with_honey_ii.step_7` (coat)
 
@@ -52045,11 +53572,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `low_country_shrimp_and_grits.step_3` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 1%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `low_country_shrimp_and_grits.step_4` (dissolve)
 
@@ -52109,6 +53638,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - vd_fermenting_jar: 1 recipe, rounding 0%
 - bnc_keg: none, can't make the mod's own luciabullar_scandinavian_saffron_buns_step_6, and no other mod provides it
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `luciabullar_scandinavian_saffron_buns.step_7` (shape)
 
@@ -52119,6 +53649,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - vd_fermenting_jar: 1 recipe, rounding 0%
 - bnc_keg: none, can't make the mod's own luciabullar_scandinavian_saffron_buns_step_8, and no other mod provides it
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `luciabullar_scandinavian_saffron_buns.step_9` (bake)
 
@@ -52127,7 +53658,8 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `lumanda_zambian_okra_stew.step_2` (pan_fry)
 
-- create_heated_mixing: 1 recipe, rounding 0%, estimated
+- create_heated_mixing: 2 recipes, rounding 0%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `lumanda_zambian_okra_stew.step_3` (toast)
 
@@ -52173,6 +53705,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 0%, estimated
 
 ### `lumberjacks.step_5` (shape)
 
@@ -52221,7 +53754,8 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `lumpia_fried_filipino_spring_rolls.step_9` (fry)
 
-- create_heated_mixing: 1 recipe, rounding 0%
+- create_heated_mixing: 2 recipes, rounding 0%
+- pnc_thermo_plant: 2 recipes, rounding 0%
 
 ### `lumpiang_shanghai_filipino_pork_spring_rolls.step_1` (mix)
 
@@ -52256,6 +53790,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `lumpiang_shanghai_filipino_pork_spring_rolls.step_7` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 6%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `luwombo_ugandan_steamed_meat_and_vegetables.step_1` (season)
 
@@ -52271,11 +53806,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 8%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `luwombo_ugandan_steamed_meat_and_vegetables.step_3` (stir_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 7%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `luwombo_ugandan_steamed_meat_and_vegetables.step_4` (mix)
 
@@ -52304,7 +53841,8 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `m_batata_sweet_potato_and_peanut_soup.step_1` (pan_fry)
 
-- create_heated_mixing: 1 recipe, rounding 1%
+- create_heated_mixing: 2 recipes, rounding 1%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `m_batata_sweet_potato_and_peanut_soup.step_10` (season)
 
@@ -52407,6 +53945,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `m_semen_layered_algerian_flatbread.step_7` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 11%
+- pnc_thermo_plant: 1 recipe, rounding 11%
 
 ### `ma_amoul_arabian_filled_pastries.step_1` (mix)
 
@@ -52553,6 +54092,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 7%, estimated
+- thermal_centrifuge: 1 recipe, rounding 7%, estimated
 
 ### `macaroni_and_cheese_ii.step_4` (mix)
 
@@ -52639,6 +54179,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 12%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 7
 
 ### `macho_nachos.step_1` (mix)
 
@@ -52658,6 +54199,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `madbucha_north_african_peppers_and_tomatoes.step_2` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `madbucha_north_african_peppers_and_tomatoes.step_3` (season)
 
@@ -52678,6 +54220,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 17% ⚠, estimated
 
 ### `madbucha_north_african_peppers_and_tomatoes.step_7` (season)
 
@@ -52729,11 +54272,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `maffe_west_african_peanut_stew_i.step_1` (pan_fry)
 
-- create_heated_mixing: 1 recipe, rounding 10%
+- create_heated_mixing: 2 recipes, rounding 10%
+- pnc_thermo_plant: 2 recipes, rounding 10%
 
 ### `maffe_west_african_peanut_stew_i.step_2` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 4%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `maffe_west_african_peanut_stew_i.step_3` (dissolve)
 
@@ -52771,7 +54316,8 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `maffe_west_african_peanut_stew_ii.step_2` (stir_fry)
 
-- create_heated_mixing: 1 recipe, rounding 0%, estimated
+- create_heated_mixing: 2 recipes, rounding 0%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `maffe_west_african_peanut_stew_ii.step_3` (simmer)
 
@@ -52807,6 +54353,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `maffe_west_african_peanut_stew_iii.step_3` (blend)
 
@@ -52836,11 +54383,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 1%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 5
 
 ### `mafrum_bil_lahm_libyan_baked_meat_and_potatoes.step_3` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `mafrum_bil_lahm_libyan_baked_meat_and_potatoes.step_4` (toast)
 
@@ -52872,6 +54421,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 2%, estimated
 
 ### `magic_brownies.step_3` (mix)
 
@@ -52921,6 +54471,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `maharashtrian_deep_fried_chickpea_dough_curry_snacks_pakoda.step_5` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `mahshi_egyptian_stuffed_vegetables.step_2` (mix)
 
@@ -53031,6 +54582,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 1%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 7
 
 ### `maklubi_rice_with_meat_and_vegetables.step_2` (boil)
 
@@ -53065,6 +54617,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `malai_mixed_vegetable_curry.step_2` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 13%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `malai_mixed_vegetable_curry.step_3` (soak)
 
@@ -53079,6 +54632,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 5%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 6
 
 ### `malai_mixed_vegetable_curry.step_6` (simmer)
 
@@ -53112,16 +54666,19 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `malawach_flaky_flatbread.step_11` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 6%
+- pnc_thermo_plant: 1 recipe, rounding 17% ⚠
 
 ### `malawach_flaky_flatbread.step_2` (ferment)
 
 - vd_fermenting_jar: 1 recipe, rounding 7%
 - bnc_keg: none, can't make the mod's own malawach_flaky_flatbread_step_2, and no other mod provides it
+- pnc_thermo_plant: 1 recipe, rounding 7%
 
 ### `malawach_flaky_flatbread.step_3` (ferment)
 
 - vd_fermenting_jar: 1 recipe, rounding 7%
 - bnc_keg: none, can't make the mod's own malawach_flaky_flatbread_step_3, and no other mod provides it
+- pnc_thermo_plant: 1 recipe, rounding 7%
 
 ### `malawach_flaky_flatbread.step_4` (shape)
 
@@ -53137,6 +54694,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - vd_fermenting_jar: 1 recipe, rounding 6%
 - bnc_keg: none, can't make the mod's own malawach_flaky_flatbread_step_6, and no other mod provides it
+- pnc_thermo_plant: 1 recipe, rounding 17% ⚠
 
 ### `malawach_flaky_flatbread.step_7` (shape)
 
@@ -53147,6 +54705,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - vd_fermenting_jar: 1 recipe, rounding 6%
 - bnc_keg: none, can't make the mod's own malawach_flaky_flatbread_step_8, and no other mod provides it
+- pnc_thermo_plant: 1 recipe, rounding 17% ⚠
 
 ### `malpua_south_asian_sweet_pancake.step_1` (evaporate)
 
@@ -53171,11 +54730,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 7%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 7%, estimated
 
 ### `malpua_south_asian_sweet_pancake.step_6` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 7%
+- pnc_thermo_plant: 1 recipe, rounding 7%
 
 ### `malpua_south_asian_sweet_pancake.step_7` (soak)
 
@@ -53213,15 +54774,18 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `maltese_rabbit_stew_stuffat_tal_fenek.step_2` (pan_fry)
 
-- create_heated_mixing: 1 recipe, rounding 1%
+- create_heated_mixing: 2 recipes, rounding 1%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `maltese_rabbit_stew_stuffat_tal_fenek.step_3` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `maltese_rabbit_stew_stuffat_tal_fenek.step_4` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `maltese_rabbit_stew_stuffat_tal_fenek.step_5` (cut)
 
@@ -53255,10 +54819,12 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `malvani_chicken_curry.step_4` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `malvani_chicken_curry.step_5` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 90% ⚠, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 5
 
 ### `malvani_chicken_curry.step_6` (simmer)
 
@@ -53327,6 +54893,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `mandazi_east_african_doughnuts.step_8` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 2 recipes, rounding 0%
 
 ### `mandoca_fried_breaded_pepper.step_1` (coat)
 
@@ -53336,6 +54903,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `mandoca_fried_breaded_pepper.step_2` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `mango_and_yellow_split_pea_curry.step_2` (boil)
 
@@ -53351,6 +54919,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 5
 
 ### `mango_and_yellow_split_pea_curry.step_5` (toast)
 
@@ -53399,7 +54968,8 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `mango_chutney_smooth.step_2` (fry)
 
-- create_heated_mixing: 1 recipe, rounding 7%, estimated
+- create_heated_mixing: 2 recipes, rounding 7%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 5
 
 ### `mango_chutney_smooth.step_3` (grind)
 
@@ -53429,6 +54999,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 13%
+- thermal_centrifuge: 1 recipe, rounding 13%
 
 ### `manhattan_clam_chowder_i.step_2` (chop)
 
@@ -53449,6 +55020,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 8%, estimated
+- thermal_centrifuge: 1 recipe, rounding 8%, estimated
 
 ### `manhattan_clam_chowder_ii.step_10` (boil)
 
@@ -53463,11 +55035,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 12%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `manhattan_clam_chowder_ii.step_4` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 1%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `manhattan_clam_chowder_ii.step_5` (heat)
 
@@ -53513,6 +55087,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 11%
+- thermal_centrifuge: 1 recipe, rounding 33% ⚠
 
 ### `manx_smoked_salmon.step_4` (blend)
 
@@ -53571,6 +55146,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 17% ⚠, estimated
 
 ### `maple_beans.step_1` (boil)
 
@@ -53591,6 +55167,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 9%
+- thermal_centrifuge: 1 recipe, rounding 9%
 
 ### `maple_beans.step_5` (mix)
 
@@ -53672,7 +55249,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `maple_cream.step_3` (mix)
 
-- create_mixing: 1 recipe, rounding 11%, estimated
+- create_mixing: 2 recipes, rounding 11%, estimated
 - shapeless_crafting: none, whole items would distort it by 5108%
 
 ### `maple_cream.step_4` (boil)
@@ -53684,11 +55261,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: none, whole items would distort it by 421%
+- thermal_centrifuge: none, whole items would distort it by 2504%
 
 ### `maple_cream.step_7` (crystallize)
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: none, whole items would distort it by 421%
+- thermal_centrifuge: none, whole items would distort it by 421%
 
 ### `maple_cumin_glazed_grilled_bananas.step_1` (coat)
 
@@ -53781,11 +55360,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 4%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `mapo_tofu.step_3` (fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `mapo_tofu.step_4` (simmer)
 
@@ -53886,6 +55467,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: 1 recipe, rounding 0%
 
 ### `marsala_chicken_scallopini.step_1` (shape)
 
@@ -53900,11 +55482,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `marsala_chicken_scallopini.step_3` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 1%, estimated
+- pnc_thermo_plant: none, doesn't fit in 1 input items and 1000 mB tanks at any scale
 
 ### `marsala_chicken_scallopini.step_4` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 1%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `marsala_chicken_scallopini.step_5` (evaporate)
 
@@ -53993,6 +55577,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: 1 recipe, rounding 0%
 
 ### `marshmallows.step_9` (coat)
 
@@ -54100,11 +55685,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - vd_fermenting_jar: none, whole items would distort it by 534%
 - bnc_keg: none, can't make the mod's own masa_hausa_rice_pancake_step_4, and no other mod provides it
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `masa_hausa_rice_pancake.step_5` (ferment)
 
 - vd_fermenting_jar: 1 recipe, rounding 14%, estimated
 - bnc_keg: none, can't make the mod's own masa_hausa_rice_pancake_step_5, and no other mod provides it
+- pnc_thermo_plant: 1 recipe, rounding 1%, estimated
 
 ### `masa_hausa_rice_pancake.step_6` (season)
 
@@ -54114,6 +55701,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `masa_hausa_rice_pancake.step_7` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 3%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 3%, estimated
 
 ### `masala_chai_i.step_1` (grind)
 
@@ -54138,6 +55726,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 17% ⚠, estimated
 
 ### `masala_chai_ii.step_1` (steep)
 
@@ -54168,6 +55757,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `masala_dosa.step_12` (coat)
 
@@ -54183,19 +55773,23 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - vd_fermenting_jar: 1 recipe, rounding 2%, estimated
 - bnc_keg: none, can't make the mod's own masala_dosa_step_2, and no other mod provides it
+- pnc_thermo_plant: 1 recipe, rounding 2%, estimated
 
 ### `masala_dosa.step_4` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 8%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `masala_dosa.step_5` (stir_fry)
 
 - create_heated_mixing: 1 recipe, rounding 10%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `masala_dosa.step_6` (stir_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 6
 
 ### `masala_dosa.step_7` (mix)
 
@@ -54214,6 +55808,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `mascarpone_glazed_strawberries.step_1` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 13%, estimated
+- pnc_thermo_plant: none, doesn't fit in 1 input items and 1000 mB tanks at any scale
 
 ### `mascarpone_glazed_strawberries.step_2` (dissolve)
 
@@ -54246,15 +55841,18 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `mashed_plantains_and_pork_rinds_mofongo.step_2` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 2 recipes, rounding 0%
 
 ### `mashed_plantains_and_pork_rinds_mofongo.step_3` (press)
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_press: 1 recipe, rounding 0%
 
 ### `mashed_plantains_and_pork_rinds_mofongo.step_4` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `mashed_plantains_and_pork_rinds_mofongo.step_5` (mix)
 
@@ -54300,11 +55898,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: 1 recipe, rounding 0%
 
 ### `mashed_pumpkin.step_7` (separate)
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: 1 recipe, rounding 0%
 
 ### `mashed_pumpkin.step_8` (blend)
 
@@ -54332,10 +55932,12 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `masyaura_curry.step_1` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 13%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 25% ⚠, estimated
 
 ### `masyaura_curry.step_2` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 1%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `masyaura_curry.step_3` (simmer)
 
@@ -54371,6 +55973,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - vd_fermenting_jar: 1 recipe, rounding 13%
 - bnc_keg: none, can't make the mod's own masyaura_nepali_fermented_vegetable_balls_step_3, and no other mod provides it
+- pnc_thermo_plant: 1 recipe, rounding 13%
 
 ### `masyaura_nepali_fermented_vegetable_balls.step_4` (shape)
 
@@ -54385,6 +55988,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `matar_paneer.step_11` (fry)
 
 - create_heated_mixing: none, whole items would distort it by 280%
+- pnc_thermo_plant: none, doesn't fit in 1 input items and 1000 mB tanks at any scale
 
 ### `matar_paneer.step_12` (mix)
 
@@ -54424,11 +56028,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `matar_paneer.step_2` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 12%
+- pnc_thermo_plant: 1 recipe, rounding 12%
 
 ### `matar_paneer.step_3` (strain)
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 5%
+- thermal_centrifuge: 1 recipe, rounding 5%
 
 ### `matar_paneer.step_4` (mix)
 
@@ -54438,6 +56044,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `matar_paneer.step_5` (stir_fry)
 
 - create_heated_mixing: 1 recipe, rounding 8%, estimated
+- pnc_thermo_plant: none, doesn't fit in 1 input items and 1000 mB tanks at any scale
 
 ### `matar_paneer.step_6` (mix)
 
@@ -54484,6 +56091,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `matoke_and_beef_stew.step_2` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 7
 
 ### `matoke_and_beef_stew.step_3` (simmer)
 
@@ -54576,6 +56184,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 12%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 6
 
 ### `mazorca_desgranada_colombian_beef_salad.step_2` (heat)
 
@@ -54611,16 +56220,19 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 10%
+- thermal_centrifuge: 1 recipe, rounding 10%
 
 ### `mbahal_gambian_fish_and_okra.step_3` (stir_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 1%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 5
 
 ### `mbahal_gambian_fish_and_okra.step_4` (stir_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 5
 
 ### `mbahal_gambian_fish_and_okra.step_5` (mix)
 
@@ -54649,7 +56261,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `mbahal_kebb_gambian_chicken_skewers.step_1` (mix)
 
-- create_mixing: 1 recipe, rounding 13%, estimated
+- create_mixing: 2 recipes, rounding 13%, estimated
 - shapeless_crafting: none, whole items would distort it by 2435%
 
 ### `mbahal_kebb_gambian_chicken_skewers.step_2` (coat)
@@ -54671,6 +56283,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: 1 recipe, rounding 0%
 
 ### `mbahal_kebb_gambian_chicken_skewers.step_8` (season)
 
@@ -54700,15 +56313,18 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `mbatata_a_matenda_malawian_cassava_fritters.step_6` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `mbatata_a_matenda_malawian_cassava_fritters.step_7` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `mbong_tchobi_cameroonian_spicy_black_stew.step_1` (fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, whole items would distort it by 700%
 
 ### `mbong_tchobi_cameroonian_spicy_black_stew.step_2` (blend)
 
@@ -54716,7 +56332,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `mbong_tchobi_cameroonian_spicy_black_stew.step_3` (simmer)
 
-- create_heated_mixing: 1 recipe, rounding 0%, estimated
+- create_heated_mixing: 2 recipes, rounding 0%, estimated
 - fd_cooking_pot: 1 recipe, rounding 17% ⚠, estimated
 
 ### `mbong_tchobi_cameroonian_spicy_black_stew.step_4` (simmer)
@@ -54745,7 +56361,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `mbongo_tchobi_cameroonian_black_stew.step_4` (simmer)
 
-- create_heated_mixing: 1 recipe, rounding 0%, estimated
+- create_heated_mixing: 2 recipes, rounding 0%, estimated
 - fd_cooking_pot: none, whole items would distort it by 150%
 
 ### `mbongo_tchobi_cameroonian_black_stew.step_5` (simmer)
@@ -54772,6 +56388,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - vd_fermenting_jar: 1 recipe, rounding 6%, estimated
 - bnc_keg: none, can't make the mod's own mbulawu_malawian_fermented_millet_porridge_step_6, and no other mod provides it
+- pnc_thermo_plant: 1 recipe, rounding 16% ⚠, estimated
 
 ### `mbulawu_malawian_fermented_millet_porridge.step_7` (heat)
 
@@ -54837,20 +56454,24 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 0%, estimated
 
 ### `mchemsho_tanzanian_cuisine.step_6` (pan_fry)
 
-- create_heated_mixing: 1 recipe, rounding 0%, estimated
+- create_heated_mixing: 2 recipes, rounding 0%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 6%, estimated
 
 ### `mchemsho_tanzanian_cuisine.step_7` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `mchemsho_tanzanian_cuisine.step_8` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `mchemsho_tanzanian_cuisine.step_9` (season)
 
@@ -54944,6 +56565,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `meat_and_shrimp_potstickers.step_8` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 2 recipes, rounding 0%
 
 ### `meat_and_shrimp_potstickers.step_9` (steam)
 
@@ -54967,11 +56589,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `meat_ravioli_filling.step_1` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 13%, estimated
+- pnc_thermo_plant: none, doesn't fit in 1 input items and 1000 mB tanks at any scale
 
 ### `meat_ravioli_filling.step_2` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 12%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `meat_ravioli_filling.step_3` (mix)
 
@@ -55007,6 +56631,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 17% ⚠, estimated
 
 ### `meatballs_with_honey_lime_sauce.step_6` (heat)
 
@@ -55046,6 +56671,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_press: none, takes one input, not 2
 
 ### `meatloaf_i.step_6` (bake)
 
@@ -55080,6 +56706,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_press: 1 recipe, rounding 0%
 
 ### `meatloaf_iii.step_2` (grind)
 
@@ -55134,6 +56761,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 3%, estimated
+- thermal_centrifuge: 1 recipe, rounding 9%, estimated
 
 ### `meatloaf_v.step_3` (mix)
 
@@ -55154,11 +56782,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `mediterranean_beef_stew.step_2` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `mediterranean_beef_stew.step_3` (simmer)
 
@@ -55206,6 +56836,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `medu_vada_south_indian_savory_lentil_donut.step_6` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `memphis_style_bbq_ribs.step_1` (season)
 
@@ -55235,6 +56866,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 1%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 5
 
 ### `menemen_eggs_with_onion_green_pepper_and_tomato.step_3` (season)
 
@@ -55299,6 +56931,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 1%
+- thermal_centrifuge: none, takes one input, not 2
 
 ### `menudo_mexican_tripe_and_hominy_soup.step_19` (cut)
 
@@ -55339,11 +56972,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 17% ⚠, estimated
 
 ### `menudo_mexican_tripe_and_hominy_soup.step_28` (separate)
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 17% ⚠, estimated
 
 ### `menudo_mexican_tripe_and_hominy_soup.step_29` (heat)
 
@@ -55449,6 +57084,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 0%, estimated
 
 ### `meringata_with_ginger_and_cream.step_2` (mix)
 
@@ -55589,11 +57225,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 5%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `mesir_wat_spicy_ethiopian_lentil_stew.step_5` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `mesir_wat_spicy_ethiopian_lentil_stew.step_6` (season)
 
@@ -55790,11 +57428,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `mexican_rice_i.step_1` (fry)
 
-- create_heated_mixing: 1 recipe, rounding 6%, estimated
+- create_heated_mixing: 2 recipes, rounding 6%, estimated
+- pnc_thermo_plant: 2 recipes, rounding 6%, estimated
 
 ### `mexican_rice_i.step_2` (stir_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `mexican_rice_i.step_3` (simmer)
 
@@ -55804,6 +57444,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `mexican_rice_ii.step_1` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `mexican_rice_ii.step_2` (toast)
 
@@ -55829,6 +57470,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 17% ⚠, estimated
 
 ### `mexican_rice_pilaf.step_2` (toast)
 
@@ -55849,6 +57491,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 17% ⚠, estimated
 
 ### `mexican_seasoning.step_1` (mix)
 
@@ -55868,10 +57511,12 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `mhadjeb_algerian_stuffed_flatbread.step_10` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `mhadjeb_algerian_stuffed_flatbread.step_11` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `mhadjeb_algerian_stuffed_flatbread.step_2` (knead)
 
@@ -55892,6 +57537,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `mhadjeb_algerian_stuffed_flatbread.step_6` (simmer)
 
@@ -55952,6 +57598,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: 1 recipe, rounding 0%
 
 ### `microwave_applesauce.step_4` (blend)
 
@@ -56112,6 +57759,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `microwave_risotto.step_3` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 19% ⚠, estimated
+- pnc_thermo_plant: 1 recipe, rounding 22% ⚠, estimated
 
 ### `microwave_risotto.step_4` (toast)
 
@@ -56187,6 +57835,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: 1 recipe, rounding 0%
 
 ### `microwaved_artichoke.step_9` (cut)
 
@@ -56212,6 +57861,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 7%, estimated
+- thermal_centrifuge: 1 recipe, rounding 16% ⚠, estimated
 
 ### `microwaved_scrambled_egg.step_1` (assemble)
 
@@ -56242,6 +57892,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: 1 recipe, rounding 0%
 
 ### `middle_eastern_lamb_kabobs.step_3` (assemble)
 
@@ -56430,6 +58081,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `mince_pie_tartlets_with_pork.step_6` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `mince_pie_tartlets_with_pork.step_7` (mix)
 
@@ -56584,6 +58236,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `minestrone_alla_capucina.step_2` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `minestrone_alla_capucina.step_3` (season)
 
@@ -56639,6 +58292,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - vd_fermenting_jar: 1 recipe, rounding 13%
 - bnc_keg: none, can't make the mod's own mini_herb_baguettes_step_4, and no other mod provides it
+- pnc_thermo_plant: 1 recipe, rounding 15% ⚠
 
 ### `mini_herb_baguettes.step_5` (bake)
 
@@ -56709,6 +58363,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 17% ⚠, estimated
 
 ### `mirliton_casserole.step_1` (steam)
 
@@ -56718,11 +58373,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `mirliton_casserole.step_2` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 5
 
 ### `mirliton_casserole.step_3` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 1%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `mirliton_casserole.step_4` (simmer)
 
@@ -56767,6 +58424,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 3%, estimated
+- thermal_centrifuge: none, takes one input, not 2
 
 ### `mishti_doi_bengali_sweetened_yogurt.step_3` (evaporate)
 
@@ -56791,6 +58449,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - vd_fermenting_jar: 1 recipe, rounding 10%, estimated
 - bnc_keg: 1 recipe, rounding 10%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 10%, estimated
 
 ### `miso_soup.step_1` (heat)
 
@@ -56801,6 +58460,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `miso_soup.step_3` (boil)
 
@@ -56870,6 +58530,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `misro_indonesian_palm_sugar_cassava_fritters.step_7` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 14%
+- pnc_thermo_plant: 2 recipes, rounding 14%
 
 ### `mixed_pickled_vegetables_acar_campur.step_1` (blend)
 
@@ -57013,6 +58674,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 5
 
 ### `miyan_ridi_nigerian_sesame_soup.step_4` (simmer)
 
@@ -57088,6 +58750,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 5%, estimated
+- thermal_centrifuge: 1 recipe, rounding 5%, estimated
 
 ### `moambe_palm_nut_soup.step_10` (season)
 
@@ -57117,11 +58780,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 5
 
 ### `moambe_palm_nut_soup.step_5` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 3%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `moambe_palm_nut_soup.step_6` (season)
 
@@ -57274,6 +58939,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 2%, estimated
+- thermal_centrifuge: 1 recipe, rounding 2%, estimated
 
 ### `mock_hollandaise_sauce_i.step_3` (whisk)
 
@@ -57341,10 +59007,12 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `modern_reuben_sandwich.step_6` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `modern_reuben_sandwich.step_7` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `mofletta_maghrebi_pancake.step_1` (dissolve)
 
@@ -57370,6 +59038,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - vd_fermenting_jar: 1 recipe, rounding 1%
 - bnc_keg: none, can't make the mod's own mofletta_maghrebi_pancake_step_5, and no other mod provides it
+- pnc_thermo_plant: 1 recipe, rounding 1%
 
 ### `mofletta_maghrebi_pancake.step_6` (shape)
 
@@ -57380,6 +59049,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 1%
+- pnc_thermo_plant: 1 recipe, rounding 1%
 
 ### `mofletta_maghrebi_pancake.step_9` (heat)
 
@@ -57480,6 +59150,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 5%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 5
 
 ### `molokhia_egyptian_jute_mallow_soup.step_3` (mix)
 
@@ -57559,6 +59230,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `monte_cristo_sandwich.step_5` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: none, doesn't fit in 1 input items and 1000 mB tanks at any scale
 
 ### `monte_cristo_sandwich.step_6` (assemble)
 
@@ -57624,6 +59296,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 5%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `morel_mushroom_sauce.step_3` (season)
 
@@ -57658,6 +59331,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 17% ⚠, estimated
 
 ### `moroccan_salad.step_1` (chop)
 
@@ -57684,6 +59358,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 1%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `moroccan_soup.step_2` (simmer)
 
@@ -57693,6 +59368,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `moussaka_bulgarian.step_1` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `moussaka_bulgarian.step_2` (mix)
 
@@ -57713,16 +59389,19 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `mozzarella_sticks.step_11` (fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `mozzarella_sticks.step_12` (fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `mozzarella_sticks.step_2` (cut)
 
@@ -57752,6 +59431,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: 1 recipe, rounding 0%
 
 ### `mozzarella_sticks.step_9` (coat)
 
@@ -57852,6 +59532,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `msemmen.step_7` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 12%
+- pnc_thermo_plant: none, whole items would distort it by 602%
 
 ### `mtori_tanzanian_stew.step_1` (assemble)
 
@@ -57887,6 +59568,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 1%
+- thermal_centrifuge: none, doesn't fit in 1 input items and 1000 mB tanks at any scale
 
 ### `mtori_tanzanian_stew.step_4` (mix)
 
@@ -57924,7 +59606,8 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `muboora_zimbabwean_pumpkin_leaves_stew.step_2` (stir_fry)
 
-- create_heated_mixing: 1 recipe, rounding 0%
+- create_heated_mixing: 2 recipes, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `muboora_zimbabwean_pumpkin_leaves_stew.step_3` (heat)
 
@@ -57953,12 +59636,14 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `muceere_ugandan_pumpkin_stew.step_2` (pan_fry)
 
-- create_heated_mixing: 1 recipe, rounding 1%
+- create_heated_mixing: 2 recipes, rounding 1%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `muceere_ugandan_pumpkin_stew.step_3` (stir_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 5
 
 ### `muceere_ugandan_pumpkin_stew.step_4` (coat)
 
@@ -58028,6 +59713,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 10%
+- thermal_centrifuge: 1 recipe, rounding 27% ⚠
 
 ### `mukimo.step_5` (blend)
 
@@ -58051,6 +59737,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `mung_bean_and_brown_rice_curry.step_2` (pan_fry)
 
 - create_heated_mixing: none, whole items would distort it by 661%
+- pnc_thermo_plant: none, whole items would distort it by 661%
 
 ### `mung_bean_and_brown_rice_curry.step_3` (coat)
 
@@ -58095,6 +59782,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `muqmad.step_7` (heat)
 
@@ -58156,6 +59844,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `murgh_musallam_indian_stewed_spiced_chicken.step_8` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `murgh_musallam_indian_stewed_spiced_chicken.step_9` (simmer)
 
@@ -58176,11 +59865,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 4%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `murghi_korma_chicken_korma.step_3` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `murghi_korma_chicken_korma.step_4` (toast)
 
@@ -58235,25 +59926,30 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `mushroom_bao_buns.step_14` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `mushroom_bao_buns.step_15` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `mushroom_bao_buns.step_16` (separate)
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: 1 recipe, rounding 0%
 
 ### `mushroom_bao_buns.step_18` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 10%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `mushroom_bao_buns.step_19` (stir_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 10
 
 ### `mushroom_bao_buns.step_2` (mix)
 
@@ -58284,6 +59980,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - vd_fermenting_jar: 1 recipe, rounding 8%
 - bnc_keg: none, can't make the mod's own mushroom_bao_buns_step_4, and no other mod provides it
+- pnc_thermo_plant: 1 recipe, rounding 8%
 
 ### `mushroom_bao_buns.step_5` (shape)
 
@@ -58309,21 +60006,25 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - vd_fermenting_jar: 1 recipe, rounding 8%
 - bnc_keg: none, can't make the mod's own mushroom_bao_buns_step_9, and no other mod provides it
+- pnc_thermo_plant: 1 recipe, rounding 8%
 
 ### `mushroom_barley_bean_soup.step_2` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 4%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `mushroom_barley_bean_soup.step_3` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `mushroom_barley_bean_soup.step_4` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 1%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `mushroom_barley_bean_soup.step_5` (mix)
 
@@ -58348,6 +60049,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: 1 recipe, rounding 0%
 
 ### `mushroom_caps_stuffed_with_bacon_and_cheese.step_5` (mix)
 
@@ -58371,17 +60073,20 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `mushroom_fried_rice.step_1` (pan_fry)
 
-- create_heated_mixing: 1 recipe, rounding 0%
+- create_heated_mixing: 2 recipes, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `mushroom_fried_rice.step_2` (stir_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `mushroom_fried_rice.step_3` (stir_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 6%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 13
 
 ### `mushroom_ketchup.step_1` (cure)
 
@@ -58402,10 +60107,12 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_press: 1 recipe, rounding 17% ⚠, estimated
 
 ### `mushroom_sauce.step_1` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 6%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `mushroom_sauce.step_2` (mix)
 
@@ -58415,6 +60122,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `mushroom_sauce.step_3` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `mushroom_sauce.step_4` (evaporate)
 
@@ -58478,6 +60186,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `mushroom_soup.step_8` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 5%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `mushroom_soup.step_9` (coat)
 
@@ -58487,6 +60196,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `mushroom_soup_gabi_supa.step_1` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 6%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 15% ⚠, estimated
 
 ### `mushroom_soup_gabi_supa.step_2` (mix)
 
@@ -58525,11 +60235,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `mushroom_tofu_soup.step_4` (stir_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 1%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `mushroom_tofu_soup.step_5` (simmer)
 
@@ -58560,6 +60272,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 11%
+- thermal_centrifuge: 1 recipe, rounding 11%
 
 ### `mushy_peas.step_4` (season)
 
@@ -58584,6 +60297,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 8%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `muskrat_soup.step_10` (simmer)
 
@@ -58594,11 +60308,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 8%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `muskrat_soup.step_3` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 5%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `muskrat_soup.step_4` (season)
 
@@ -58637,6 +60353,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `mussels_in_onion_and_butter_sauce_moules_mariniere.step_1` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 13%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `mussels_in_onion_and_butter_sauce_moules_mariniere.step_2` (assemble)
 
@@ -58657,6 +60374,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: 1 recipe, rounding 0%
 
 ### `mussels_in_onion_and_butter_sauce_moules_mariniere.step_6` (assemble)
 
@@ -58682,11 +60400,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: 1 recipe, rounding 0%
 
 ### `mussels_with_potatoes.step_4` (separate)
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: 1 recipe, rounding 0%
 
 ### `mussels_with_potatoes.step_5` (mix)
 
@@ -58710,6 +60430,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `mustard_and_curry_leaf_lassi.step_3` (fry)
 
 - create_heated_mixing: none, whole items would distort it by 2924%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `mustard_and_curry_leaf_lassi.step_4` (mix)
 
@@ -58745,6 +60466,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 17% ⚠, estimated
 
 ### `mutura.step_10` (cut)
 
@@ -58760,6 +60482,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 6
 
 ### `mutura.step_4` (mix)
 
@@ -58814,6 +60537,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 5%
+- thermal_centrifuge: 1 recipe, rounding 5%
 
 ### `n_gakasse_groundnut_sauce.step_3` (blend)
 
@@ -58821,12 +60545,14 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `n_gakasse_groundnut_sauce.step_4` (pan_fry)
 
-- create_heated_mixing: 1 recipe, rounding 5%
+- create_heated_mixing: 2 recipes, rounding 5%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `n_gakasse_groundnut_sauce.step_5` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `n_gakasse_groundnut_sauce.step_6` (heat)
 
@@ -58857,6 +60583,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - vd_fermenting_jar: 1 recipe, rounding 9%
 - bnc_keg: none, can't make the mod's own naan_step_2, and no other mod provides it
+- pnc_thermo_plant: 1 recipe, rounding 9%
 
 ### `naan.step_3` (shape)
 
@@ -58887,6 +60614,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - vd_fermenting_jar: none, whole items would distort it by 217%
 - bnc_keg: none, can't make the mod's own naan_yeasted_step_2, and no other mod provides it
+- pnc_thermo_plant: none, whole items would distort it by 217%
 
 ### `naan_yeasted.step_3` (mix)
 
@@ -58902,6 +60630,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - vd_fermenting_jar: 1 recipe, rounding 7%
 - bnc_keg: none, can't make the mod's own naan_yeasted_step_5, and no other mod provides it
+- pnc_thermo_plant: 1 recipe, rounding 7%
 
 ### `naan_yeasted.step_6` (shape)
 
@@ -58939,11 +60668,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `nam_phrik_ong_thai_pork_and_tomato_dip.step_3` (stir_fry)
 
 - create_heated_mixing: 1 recipe, rounding 24% ⚠, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `nam_phrik_ong_thai_pork_and_tomato_dip.step_4` (stir_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `nam_phrik_ong_thai_pork_and_tomato_dip.step_5` (boil)
 
@@ -59012,16 +60743,19 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 4%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 6
 
 ### `nasi_goreng_indonesian_fried_rice.step_5` (stir_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `nasi_goreng_indonesian_fried_rice.step_6` (stir_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `nasi_goreng_indonesian_fried_rice.step_7` (mix)
 
@@ -59045,6 +60779,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `native_jollof_rice.step_4` (season)
 
@@ -59070,11 +60805,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 10%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `native_jollof_spaghetti.step_3` (stir_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 13%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 5
 
 ### `native_jollof_spaghetti.step_4` (evaporate)
 
@@ -59114,11 +60851,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: 1 recipe, rounding 0%
 
 ### `natto_japanese_fermented_soybeans.step_7` (ferment)
 
 - vd_fermenting_jar: 1 recipe, rounding 0%
 - bnc_keg: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `ndizi_na_nyama_tanzanian_green_bananas_with_beef.step_2` (simmer)
 
@@ -59176,6 +60915,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `ndole_cameroonian_bitter_leaf_and_peanut_soup.step_7` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 6%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `ndole_cameroonian_bitter_leaf_and_peanut_soup.step_8` (mix)
 
@@ -59195,10 +60935,12 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: none, takes one input, not 2
 
 ### `neapolitan_sauce.step_1` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `neapolitan_sauce.step_2` (mix)
 
@@ -59217,6 +60959,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 17% ⚠, estimated
 
 ### `neapolitan_sauce.step_6` (heat)
 
@@ -59296,21 +61039,25 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 1%, estimated
+- thermal_centrifuge: 1 recipe, rounding 1%, estimated
 
 ### `new_england_clam_chowder.step_2` (separate)
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 10%, estimated
+- thermal_centrifuge: 1 recipe, rounding 10%, estimated
 
 ### `new_england_clam_chowder.step_3` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 12%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `new_england_clam_chowder.step_4` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 2%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `new_england_clam_chowder.step_5` (mix)
 
@@ -59431,6 +61178,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - vd_fermenting_jar: 1 recipe, rounding 11%
 - bnc_keg: none, can't make the mod's own new_york_city_style_pizza_step_4, and no other mod provides it
+- pnc_thermo_plant: 1 recipe, rounding 11%
 
 ### `new_york_city_style_pizza.step_6` (shape)
 
@@ -59461,6 +61209,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: 1 recipe, rounding 0%
 
 ### `ngoundja_fried_plantains.step_4` (cut)
 
@@ -59470,6 +61219,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `ngoundja_fried_plantains.step_7` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 2 recipes, rounding 0%
 
 ### `ngoundja_fried_plantains.step_9` (season)
 
@@ -59539,6 +61289,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: none, whole items would distort it by 3025%
+- thermal_centrifuge: none, whole items would distort it by 3025%
 
 ### `nigerian_bean_porridge.step_2` (rinse)
 
@@ -59563,6 +61314,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `nigerian_bean_porridge.step_7` (simmer)
 
@@ -59598,6 +61350,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: none, whole items would distort it by 2924%
+- thermal_centrifuge: none, whole items would distort it by 2924%
 
 ### `nigerian_caramelized_coconut.step_2` (grind)
 
@@ -59660,11 +61413,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: 1 recipe, rounding 0%
 
 ### `nigerian_cauliflower_fufu.step_3` (press)
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_press: 1 recipe, rounding 0%
 
 ### `nigerian_cauliflower_fufu.step_4` (heat)
 
@@ -59689,10 +61444,12 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `nigerian_cheesy_sausage_masa.step_11` (pan_fry)
 
 - create_heated_mixing: none, whole items would distort it by 2678%
+- pnc_thermo_plant: none, whole items would distort it by 2678%
 
 ### `nigerian_cheesy_sausage_masa.step_12` (pan_fry)
 
 - create_heated_mixing: none, whole items would distort it by 2678%
+- pnc_thermo_plant: none, whole items would distort it by 2678%
 
 ### `nigerian_cheesy_sausage_masa.step_2` (mix)
 
@@ -59723,6 +61480,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `nigerian_coconut_rice.step_3` (season)
 
@@ -59737,6 +61495,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 0%, estimated
 
 ### `nigerian_coconut_rice.step_6` (mix)
 
@@ -59756,11 +61515,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `nigerian_cocoyam_chips.step_3` (fry)
 
 - create_heated_mixing: none, whole items would distort it by 168%
+- pnc_thermo_plant: none, whole items would distort it by 168%
 
 ### `nigerian_cocoyam_chips.step_4` (strain)
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 88% ⚠
+- thermal_centrifuge: 1 recipe, rounding 88% ⚠
 
 ### `nigerian_coleslaw.step_2` (julienne)
 
@@ -59775,11 +61536,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `nigerian_corned_beef_sauce.step_1` (stir_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 7
 
 ### `nigerian_corned_beef_sauce.step_2` (fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 8%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `nigerian_corned_beef_sauce.step_3` (season)
 
@@ -59808,12 +61571,14 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `nigerian_egg_pepper_soup.step_1` (pan_fry)
 
-- create_heated_mixing: 1 recipe, rounding 1%
+- create_heated_mixing: 2 recipes, rounding 1%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `nigerian_egg_pepper_soup.step_2` (stir_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `nigerian_egg_pepper_soup.step_3` (whisk)
 
@@ -59859,11 +61624,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `nigerian_egg_roll.step_6` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `nigerian_egg_stew.step_2` (stir_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 90% ⚠, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 6
 
 ### `nigerian_egg_stew.step_3` (whisk)
 
@@ -59905,11 +61672,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 1%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 5
 
 ### `nigerian_ewa_agoyin.step_4` (fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `nigerian_ewa_agoyin.step_5` (coat)
 
@@ -59920,6 +61689,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 4 recipes, rounding 11%, estimated
+- thermal_centrifuge: none, whole items would distort it by 4940%
 
 ### `nigerian_fried_cheese_curds_wara.step_2` (boil)
 
@@ -59934,10 +61704,12 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: none, whole items would distort it by 421%
+- thermal_centrifuge: none, whole items would distort it by 421%
 
 ### `nigerian_fried_cheese_curds_wara.step_5` (fry)
 
 - create_heated_mixing: none, whole items would distort it by 421%
+- pnc_thermo_plant: none, whole items would distort it by 421%
 
 ### `nigerian_fried_noodles.step_1` (boil)
 
@@ -59948,10 +61720,12 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: none, whole items would distort it by 421%
+- thermal_centrifuge: none, whole items would distort it by 5108%
 
 ### `nigerian_fried_noodles.step_3` (stir_fry)
 
 - create_heated_mixing: none, whole items would distort it by 2924%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 6
 
 ### `nigerian_fried_noodles.step_4` (season)
 
@@ -59961,10 +61735,12 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `nigerian_fried_noodles.step_5` (stir_fry)
 
 - create_heated_mixing: 1 recipe, rounding 49% ⚠, estimated
+- pnc_thermo_plant: 1 recipe, rounding 49% ⚠, estimated
 
 ### `nigerian_fried_noodles.step_6` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 1%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 1%, estimated
 
 ### `nigerian_fried_yam.step_1` (season)
 
@@ -59974,15 +61750,18 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `nigerian_fried_yam.step_2` (fry)
 
 - create_heated_mixing: none, whole items would distort it by 168%
+- pnc_thermo_plant: none, whole items would distort it by 168%
 
 ### `nigerian_fried_yam.step_3` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 56% ⚠
+- pnc_thermo_plant: 1 recipe, rounding 56% ⚠
 
 ### `nigerian_fried_yam.step_4` (strain)
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 56% ⚠
+- thermal_centrifuge: 1 recipe, rounding 56% ⚠
 
 ### `nigerian_fruit_skewer.step_1` (cut)
 
@@ -60002,11 +61781,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 7%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `nigerian_jollof_rice.step_4` (stir_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 4 recipes, rounding 0%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 5
 
 ### `nigerian_jollof_rice.step_5` (season)
 
@@ -60094,6 +61875,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: none, whole items would distort it by 1090%
+- thermal_centrifuge: none, whole items would distort it by 1090%
 
 ### `nigerian_oatmeal.step_1` (soak)
 
@@ -60119,6 +61901,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 10%, estimated
+- thermal_centrifuge: 1 recipe, rounding 10%, estimated
 
 ### `nigerian_ofe_akwu_palm_fruit_soup.step_2` (boil)
 
@@ -60183,6 +61966,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 6%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 5
 
 ### `nigerian_okra_soup_ila_asepo.step_3` (simmer)
 
@@ -60207,6 +61991,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 30% ⚠
+- thermal_centrifuge: 1 recipe, rounding 30% ⚠
 
 ### `nigerian_oto_mboro_recipe.step_13` (steam)
 
@@ -60251,6 +62036,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: none, whole items would distort it by 2924%
+- thermal_centrifuge: none, takes one input, not 2
 
 ### `nigerian_oto_mboro_recipe.step_5` (grind)
 
@@ -60302,7 +62088,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `nigerian_peppered_turkey_wings.step_4` (simmer)
 
-- create_heated_mixing: 1 recipe, rounding 1%
+- create_heated_mixing: 2 recipes, rounding 1%
 - fd_cooking_pot: none, whole items would distort it by 1590%
 
 ### `nigerian_peppered_turkey_wings.step_5` (coat)
@@ -60323,6 +62109,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 11%, estimated
+- thermal_centrifuge: none, whole items would distort it by 5108%
 
 ### `nigerian_pito.step_4` (boil)
 
@@ -60333,6 +62120,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - vd_fermenting_jar: none, whole items would distort it by 1983%
 - bnc_keg: none, can't make the mod's own nigerian_pito_step_5, and no other mod provides it
+- pnc_thermo_plant: none, whole items would distort it by 1983%
 
 ### `nigerian_pito.step_6` (boil)
 
@@ -60343,6 +62131,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: none, whole items would distort it by 1983%
+- thermal_centrifuge: none, whole items would distort it by 1983%
 
 ### `nigerian_pito.step_8` (season)
 
@@ -60368,21 +62157,25 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - vd_fermenting_jar: 1 recipe, rounding 12%, estimated
 - bnc_keg: none, can't make the mod's own nigerian_puff_puff_step_4, and no other mod provides it
+- pnc_thermo_plant: 1 recipe, rounding 12%, estimated
 
 ### `nigerian_puff_puff.step_7` (fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 4%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 34% ⚠, estimated
 
 ### `nigerian_puff_puff.step_8` (fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 4%
+- pnc_thermo_plant: 1 recipe, rounding 11%
 
 ### `nigerian_puff_puff.step_9` (strain)
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 11%
+- thermal_centrifuge: 1 recipe, rounding 11%
 
 ### `nigerian_rice_and_beans_jollof.step_2` (grind)
 
@@ -60390,7 +62183,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `nigerian_rice_and_beans_jollof.step_3` (simmer)
 
-- create_heated_mixing: 1 recipe, rounding 1%
+- create_heated_mixing: 2 recipes, rounding 1%
 - fd_cooking_pot: none, whole items would distort it by 2435%
 
 ### `nigerian_rice_and_beans_jollof.step_4` (mix)
@@ -60486,6 +62279,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 0%, estimated
 
 ### `nigerian_tiger_nut_milk_kunun_aya.step_4` (mix)
 
@@ -60501,6 +62295,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: none, whole items would distort it by 3025%
+- thermal_centrifuge: none, whole items would distort it by 3025%
 
 ### `nigerian_toasted_groundnuts.step_2` (soak)
 
@@ -60521,18 +62316,22 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: none, whole items would distort it by 1239%
+- thermal_centrifuge: none, whole items would distort it by 1239%
 
 ### `nigerian_tomato_omelette.step_1` (fry)
 
 - create_heated_mixing: none, whole items would distort it by 2380%
+- pnc_thermo_plant: none, whole items would distort it by 2380%
 
 ### `nigerian_tomato_omelette.step_2` (pan_fry)
 
 - create_heated_mixing: none, whole items would distort it by 2678%
+- pnc_thermo_plant: none, doesn't fit in 1 input items and 1000 mB tanks at any scale
 
 ### `nigerian_tomato_omelette.step_3` (pan_fry)
 
 - create_heated_mixing: none, whole items would distort it by 2678%
+- pnc_thermo_plant: none, whole items would distort it by 2678%
 
 ### `nigerian_turmeric_rice.step_1` (simmer)
 
@@ -60543,6 +62342,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: none, takes one input, not 2
 
 ### `nigerian_turmeric_rice.step_3` (boil)
 
@@ -60643,6 +62443,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `nigerian_yam_and_potato_porridge.step_12` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 0%, estimated
 
 ### `nigerian_yam_and_potato_porridge.step_13` (evaporate)
 
@@ -60674,17 +62475,19 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `nigerian_yam_and_potato_porridge.step_3` (heat)
 
-- create_heated_mixing: 1 recipe, rounding 0%, estimated
+- create_heated_mixing: 2 recipes, rounding 0%, estimated
 - fd_cooking_pot: 1 recipe, rounding 25% ⚠, estimated
 
 ### `nigerian_yam_and_potato_porridge.step_4` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `nigerian_yam_and_potato_porridge.step_5` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 1%
+- pnc_thermo_plant: 1 recipe, rounding 1%
 
 ### `nigerian_yam_and_potato_porridge.step_6` (simmer)
 
@@ -60798,10 +62601,12 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `nkhwani_wa_ndiwo_malawian_vegetable_fritters.step_6` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `nkhwani_wa_ndiwo_malawian_vegetable_fritters.step_7` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `nkwobi_nigerian_spicy_cow_foot.step_1` (cut)
 
@@ -61088,11 +62893,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - vd_fermenting_jar: 1 recipe, rounding 54% ⚠
 - bnc_keg: none, can't make the mod's own north_indian_fermented_bread_batooru_step_3, and no other mod provides it
+- pnc_thermo_plant: 1 recipe, rounding 54% ⚠
 
 ### `north_indian_fermented_bread_batooru.step_4` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 54% ⚠
+- pnc_thermo_plant: 1 recipe, rounding 54% ⚠
 
 ### `north_staffordshire_oatcakes.step_1` (mix)
 
@@ -61113,26 +62920,31 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - vd_fermenting_jar: 1 recipe, rounding 12%, estimated
 - bnc_keg: none, can't make the mod's own north_staffordshire_oatcakes_step_4, and no other mod provides it
+- pnc_thermo_plant: 1 recipe, rounding 0%, estimated
 
 ### `north_staffordshire_oatcakes.step_5` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 10%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 10%, estimated
 
 ### `north_staffordshire_oatcakes.step_6` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 10%
+- pnc_thermo_plant: 1 recipe, rounding 10%
 
 ### `not_quite_eggs_benedict.step_1` (separate)
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 4 recipes, rounding 1%, estimated
+- thermal_centrifuge: none, takes one input, not 5
 
 ### `not_quite_eggs_benedict.step_2` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `not_quite_eggs_benedict.step_3` (coagulate)
 
@@ -61251,6 +63063,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: none, takes one input, not 2
 
 ### `nuremberg_gingerbread.step_3` (mix)
 
@@ -61285,6 +63098,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `nut_roast.step_1` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 12%
+- pnc_thermo_plant: none, doesn't fit in 1 input items and 1000 mB tanks at any scale
 
 ### `nut_roast.step_10` (shape)
 
@@ -61343,10 +63157,12 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `nutella_crepes.step_2` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 2%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 13%, estimated
 
 ### `nutella_crepes.step_3` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 0%, estimated
 
 ### `nutella_crepes.step_5` (fold)
 
@@ -61365,7 +63181,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `nutty_brownie_bars.step_1` (mix)
 
-- create_mixing: 1 recipe, rounding 0%, estimated
+- create_mixing: 2 recipes, rounding 0%, estimated
 - shapeless_crafting: 1 recipe, rounding 13%, estimated
 
 ### `nutty_brownie_bars.step_2` (shape)
@@ -61455,10 +63271,12 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `nyama_yemombe_zimbabwean_beef_stew.step_2` (stir_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 5
 
 ### `nyama_yemombe_zimbabwean_beef_stew.step_3` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `nyama_yemombe_zimbabwean_beef_stew.step_4` (evaporate)
 
@@ -61525,6 +63343,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 13%, estimated
+- thermal_centrifuge: 1 recipe, rounding 13%, estimated
 
 ### `oat_porridge.step_1` (boil)
 
@@ -61853,7 +63672,8 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `obe_eja_kika_nigerian_smoked_fish_stew.step_2` (fry)
 
-- create_heated_mixing: 1 recipe, rounding 0%
+- create_heated_mixing: 2 recipes, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `obe_eja_kika_nigerian_smoked_fish_stew.step_3` (season)
 
@@ -61909,11 +63729,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 3 recipes, rounding 10%
+- thermal_press: none, takes one input, not 2
 
 ### `ofe_aku_igbo_palmnut_soup.step_3` (strain)
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 7%, estimated
+- thermal_centrifuge: 1 recipe, rounding 7%, estimated
 
 ### `ofe_aku_igbo_palmnut_soup.step_4` (boil)
 
@@ -61979,6 +63801,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 17% ⚠, estimated
 
 ### `ofe_egusi.step_6` (mix)
 
@@ -62117,6 +63940,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: none, whole items would distort it by 212%
+- thermal_centrifuge: none, whole items would distort it by 212%
 
 ### `ogolale_mashed_yam_and_plantain.step_3` (blend)
 
@@ -62146,16 +63970,19 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 17% ⚠, estimated
 
 ### `okonomiyaki_japanese_savory_pancake.step_5` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `okonomiyaki_japanese_savory_pancake.step_6` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 5
 
 ### `okpa_boiled_bambara_bean_pudding.step_2` (mix)
 
@@ -62243,11 +64070,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `olive_ascolane_stuffed_fried_olives.step_6` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 2 recipes, rounding 0%
 
 ### `olive_ascolane_stuffed_fried_olives.step_7` (strain)
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: 1 recipe, rounding 0%
 
 ### `olive_oil_bread.step_1` (mix)
 
@@ -62268,6 +64097,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - vd_fermenting_jar: 1 recipe, rounding 4%
 - bnc_keg: none, can't make the mod's own olive_oil_bread_step_4, and no other mod provides it
+- pnc_thermo_plant: 1 recipe, rounding 17% ⚠
 
 ### `olive_oil_bread.step_5` (shape)
 
@@ -62278,6 +64108,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - vd_fermenting_jar: 1 recipe, rounding 4%
 - bnc_keg: none, can't make the mod's own olive_oil_bread_step_6, and no other mod provides it
+- pnc_thermo_plant: 1 recipe, rounding 17% ⚠
 
 ### `olive_oil_bread.step_8` (bake)
 
@@ -62302,6 +64133,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `omo_tuo.step_1` (boil)
 
@@ -62358,6 +64190,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 17% ⚠, estimated
 
 ### `one_cup_chai.step_7` (mix)
 
@@ -62378,6 +64211,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 1%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `onion_chutney.step_3` (blend)
 
@@ -62417,14 +64251,17 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: 1 recipe, rounding 0%
 
 ### `onion_dip.step_1` (pan_fry)
 
-- create_heated_mixing: 1 recipe, rounding 1%
+- create_heated_mixing: 2 recipes, rounding 1%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `onion_dip.step_2` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `onion_dip.step_3` (simmer)
 
@@ -62445,6 +64282,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: none, whole items would distort it by 300%
 
 ### `onion_rings.step_2` (mix)
 
@@ -62465,6 +64303,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `onion_rings.step_8` (bake)
 
@@ -62524,10 +64363,12 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `orange_cardamom_pancakes.step_11` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 0%, estimated
 
 ### `orange_cardamom_pancakes.step_12` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `orange_cardamom_pancakes.step_2` (mix)
 
@@ -62561,6 +64402,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `orange_cardamom_pancakes.step_9` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 4%, estimated
 
 ### `orange_chocolate_chip_muffins.step_2` (mix)
 
@@ -62689,6 +64531,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: none, takes one input, not 2
 
 ### `orange_soda_ii.step_4` (mix)
 
@@ -62773,6 +64616,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 0%, estimated
 
 ### `original_texas_style_chili.step_5` (simmer)
 
@@ -62793,6 +64637,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 9%, estimated
+- thermal_centrifuge: 1 recipe, rounding 9%, estimated
 
 ### `orzo_salad.step_4` (mix)
 
@@ -62822,6 +64667,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `ossobuco_alla_milanese.step_4` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `ossobuco_alla_milanese.step_5` (evaporate)
 
@@ -62850,6 +64696,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 0%, estimated
 
 ### `osumade_soup.step_3` (cut)
 
@@ -62971,7 +64818,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `oven_pancakes.step_3` (mix)
 
-- create_mixing: 1 recipe, rounding 30% ⚠, estimated
+- create_mixing: 2 recipes, rounding 30% ⚠, estimated
 - shapeless_crafting: none, whole items would distort it by 534%
 
 ### `oven_pancakes.step_4` (mix)
@@ -62991,7 +64838,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `oven_pancakes_vegan.step_3` (mix)
 
-- create_mixing: 1 recipe, rounding 13%, estimated
+- create_mixing: 2 recipes, rounding 13%, estimated
 - shapeless_crafting: none, whole items would distort it by 407%
 
 ### `oven_pancakes_vegan.step_4` (mix)
@@ -63101,6 +64948,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 90% ⚠, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `pabellon_criollo_venezuelan_rice_and_beans_with_steak.step_2` (evaporate)
 
@@ -63119,15 +64967,18 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `pad_kra_pao_gai_thai_basil_chicken_stir_fry.step_2` (stir_fry)
 
 - create_heated_mixing: 1 recipe, rounding 7%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `pad_kra_pao_gai_thai_basil_chicken_stir_fry.step_3` (stir_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 10%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `pad_kra_pao_gai_thai_basil_chicken_stir_fry.step_4` (stir_fry)
 
 - create_heated_mixing: 1 recipe, rounding 10%
+- pnc_thermo_plant: none, doesn't fit in 1 input items and 1000 mB tanks at any scale
 
 ### `pad_kra_pao_gai_thai_basil_chicken_stir_fry.step_5` (season)
 
@@ -63151,21 +65002,25 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `pad_thai.step_3` (fry)
 
-- create_heated_mixing: 1 recipe, rounding 1%, estimated
+- create_heated_mixing: 2 recipes, rounding 1%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `pad_thai.step_4` (fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 1%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `pad_thai.step_5` (stir_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: none, doesn't fit in 1 input items and 1000 mB tanks at any scale
 
 ### `pad_thai.step_6` (stir_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `pad_thai.step_7` (season)
 
@@ -63176,10 +65031,12 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 2 recipes, rounding 13%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 7
 
 ### `pad_thai_sauce.step_1` (pan_fry)
 
-- create_heated_mixing: 1 recipe, rounding 1%, estimated
+- create_heated_mixing: 2 recipes, rounding 1%, estimated
+- pnc_thermo_plant: 2 recipes, rounding 1%, estimated
 
 ### `pad_thai_sauce.step_2` (mix)
 
@@ -63200,6 +65057,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 8%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `paella_de_marisco.step_11` (coat)
 
@@ -63240,6 +65098,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 17% ⚠, estimated
 
 ### `paella_de_marisco.step_4` (steam)
 
@@ -63255,21 +65114,25 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `paella_de_marisco.step_7` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 4%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `paella_de_marisco.step_8` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 4%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `paella_de_marisco.step_9` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `paella_roja.step_10` (toast)
 
@@ -63280,16 +65143,19 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 4%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `paella_roja.step_12` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `paella_roja.step_13` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 9%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 6
 
 ### `paella_roja.step_14` (mix)
 
@@ -63325,6 +65191,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 17% ⚠, estimated
 
 ### `paella_roja.step_20` (soak)
 
@@ -63345,6 +65212,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: 1 recipe, rounding 0%
 
 ### `paella_roja.step_4` (assemble)
 
@@ -63359,6 +65227,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 17% ⚠, estimated
 
 ### `paella_roja.step_7` (season)
 
@@ -63384,11 +65253,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 6%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `paella_valenciana.step_3` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 10%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `paella_valenciana.step_4` (evaporate)
 
@@ -63428,11 +65299,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - vd_fermenting_jar: 1 recipe, rounding 5%
 - bnc_keg: none, can't make the mod's own pain_au_levain_naturel_step_10, and no other mod provides it
+- pnc_thermo_plant: 1 recipe, rounding 5%
 
 ### `pain_au_levain_naturel.step_11` (separate)
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 5%
+- thermal_centrifuge: 1 recipe, rounding 5%
 
 ### `pain_au_levain_naturel.step_12` (shape)
 
@@ -63443,6 +65316,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - vd_fermenting_jar: 1 recipe, rounding 5%
 - bnc_keg: none, can't make the mod's own pain_au_levain_naturel_step_13, and no other mod provides it
+- pnc_thermo_plant: 1 recipe, rounding 5%
 
 ### `pain_au_levain_naturel.step_14` (cut)
 
@@ -63458,11 +65332,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - vd_fermenting_jar: 1 recipe, rounding 11%
 - bnc_keg: none, can't make the mod's own pain_au_levain_naturel_step_2, and no other mod provides it
+- pnc_thermo_plant: 1 recipe, rounding 11%
 
 ### `pain_au_levain_naturel.step_3` (ferment)
 
 - vd_fermenting_jar: 1 recipe, rounding 11%, estimated
 - bnc_keg: none, can't make the mod's own pain_au_levain_naturel_step_3, and no other mod provides it
+- pnc_thermo_plant: 1 recipe, rounding 11%, estimated
 
 ### `pain_au_levain_naturel.step_4` (mix)
 
@@ -63478,6 +65354,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - vd_fermenting_jar: 1 recipe, rounding 11%
 - bnc_keg: none, can't make the mod's own pain_au_levain_naturel_step_7, and no other mod provides it
+- pnc_thermo_plant: 1 recipe, rounding 11%
 
 ### `pain_au_levain_naturel.step_8` (mix)
 
@@ -63519,6 +65396,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 17% ⚠, estimated
 
 ### `pakistani_chai.step_7` (season)
 
@@ -63564,16 +65442,19 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 17% ⚠, estimated
 
 ### `palatschinken_czech_austrian_crepes.step_5` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `palatschinken_czech_austrian_crepes.step_6` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `palatschinken_with_sweetened_fruit.step_1` (mix)
 
@@ -63584,14 +65465,17 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 17% ⚠, estimated
 
 ### `palatschinken_with_sweetened_fruit.step_3` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 4%, estimated
 
 ### `palatschinken_with_sweetened_fruit.step_4` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 0%, estimated
 
 ### `palatschinken_with_sweetened_fruit.step_5` (boil)
 
@@ -63637,6 +65521,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - vd_fermenting_jar: none, whole items would distort it by 421%
 - bnc_keg: none, can't make the mod's own pan_de_jamon_step_1, and no other mod provides it
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `pan_de_jamon.step_10` (shape)
 
@@ -63657,6 +65542,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - vd_fermenting_jar: 1 recipe, rounding 0%
 - bnc_keg: none, can't make the mod's own pan_de_jamon_step_13, and no other mod provides it
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `pan_de_jamon.step_14` (bake)
 
@@ -63687,6 +65573,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - vd_fermenting_jar: 1 recipe, rounding 0%
 - bnc_keg: none, can't make the mod's own pan_de_jamon_step_5, and no other mod provides it
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `pan_de_jamon.step_6` (shape)
 
@@ -63732,11 +65619,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: none, whole items would distort it by 621%
+- pnc_thermo_plant: none, whole items would distort it by 621%
 
 ### `pan_fried_beef_steak.step_9` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: none, whole items would distort it by 1823%
+- pnc_thermo_plant: none, whole items would distort it by 1823%
 
 ### `pan_fried_ravioli.step_1` (mix)
 
@@ -63766,6 +65655,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `pan_fried_ravioli.step_6` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 0%, estimated
 
 ### `pan_fried_ravioli.step_8` (season)
 
@@ -63786,11 +65676,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 1%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `pan_fried_white_brined_cheese_saganaki.step_5` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `pan_seared_chicken_breast.step_1` (steep)
 
@@ -63802,6 +65694,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 17% ⚠, estimated
 
 ### `pan_seared_chicken_breast.step_3` (season)
 
@@ -63812,6 +65705,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `pan_seared_chicken_breast.step_5` (bake)
 
@@ -63827,6 +65721,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `pan_seared_duck_breast_with_cabernet_reduction.step_3` (roast)
 
@@ -63837,6 +65732,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 1%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `pan_seared_duck_breast_with_cabernet_reduction.step_5` (heat)
 
@@ -63856,6 +65752,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 3%
+- pnc_thermo_plant: 1 recipe, rounding 3%
 
 ### `pan_seared_filet_mignon.step_4` (bake)
 
@@ -63890,6 +65787,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 1%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `pan_seared_pork_chops.step_3` (bake)
 
@@ -63904,6 +65802,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `pan_seared_scallops_with_cayenne_chocolate_sauce.step_2` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 13%, estimated
+- pnc_thermo_plant: none, doesn't fit in 1 input items and 1000 mB tanks at any scale
 
 ### `pan_seared_scallops_with_cayenne_chocolate_sauce.step_3` (assemble)
 
@@ -63923,6 +65822,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 5
 
 ### `panamanian_ropa_vieja.step_4` (assemble)
 
@@ -63938,6 +65838,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: 1 recipe, rounding 0%
 
 ### `pancakes.add_milk` (mix)
 
@@ -63948,11 +65849,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 1%
+- thermal_centrifuge: none, takes one input, not 2
 
 ### `pancakes.cook` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 4%
+- pnc_thermo_plant: 1 recipe, rounding 4%
 
 ### `pancakes.fold_whites` (fold)
 
@@ -63968,6 +65871,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 17% ⚠, estimated
 
 ### `pancakes_vegan.step_1` (mix)
 
@@ -63982,10 +65886,12 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `pancakes_vegan.step_4` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 0%, estimated
 
 ### `pancakes_vegan.step_5` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 4%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 4%, estimated
 
 ### `pancakes_with_honey.step_1` (whisk)
 
@@ -64002,10 +65908,12 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `pancakes_with_honey.step_5` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 0%, estimated
 
 ### `pancakes_with_honey.step_6` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `pancakes_with_honey.step_7` (coat)
 
@@ -64021,10 +65929,12 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 10%
+- pnc_thermo_plant: 1 recipe, rounding 20% ⚠
 
 ### `pancetta_fusilli_with_herb_shallot_cream.step_2` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 13%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 5
 
 ### `pancetta_fusilli_with_herb_shallot_cream.step_3` (simmer)
 
@@ -64050,11 +65960,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `paneer_butter_masala.step_2` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 1%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 5
 
 ### `paneer_butter_masala.step_3` (mix)
 
@@ -64162,6 +66074,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `papadam_black_gram_flatbread.step_7` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 8%
+- pnc_thermo_plant: 1 recipe, rounding 19% ⚠
 
 ### `papaya_lassi.step_1` (mix)
 
@@ -64190,6 +66103,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `papri_chaat_crispy_indian_snack_with_potato.step_3` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 2%
+- pnc_thermo_plant: 1 recipe, rounding 2%
 
 ### `papri_chaat_crispy_indian_snack_with_potato.step_6` (mix)
 
@@ -64215,6 +66129,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 1%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `paprika_chicken.step_3` (season)
 
@@ -64356,6 +66271,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: 1 recipe, rounding 0%
 
 ### `passover_carrot_almond_cake.step_3` (whisk)
 
@@ -64432,6 +66348,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 5%
+- thermal_centrifuge: 1 recipe, rounding 5%
 
 ### `passover_hazelnut_chocolate_loaf.step_3` (chop)
 
@@ -64526,11 +66443,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 10%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `pasta_alla_gricia_pasta_with_guanciale.step_4` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 14%
+- pnc_thermo_plant: 1 recipe, rounding 14%
 
 ### `pasta_alla_gricia_pasta_with_guanciale.step_5` (mix)
 
@@ -64571,6 +66490,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: 1 recipe, rounding 0%
 
 ### `pasta_and_bean_soup_pasta_e_fagioli.step_8` (simmer)
 
@@ -64586,6 +66506,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 1%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `pasta_casserole_pastitsio.step_10` (simmer)
 
@@ -64611,6 +66532,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: 1 recipe, rounding 0%
 
 ### `pasta_casserole_pastitsio.step_16` (mix)
 
@@ -64631,6 +66553,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `pasta_casserole_pastitsio.step_20` (assemble)
 
@@ -64701,6 +66624,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 17% ⚠, estimated
 
 ### `pasta_in_gorgonzola_cheese_sauce_pasta_alla_gorgonzola.step_6` (mix)
 
@@ -64726,6 +66650,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 26% ⚠, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 7
 
 ### `pasta_meat_and_cheese_casserole_mostaccioli.step_3` (mix)
 
@@ -64821,6 +66746,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: 1 recipe, rounding 0%
 
 ### `pasta_with_corn_and_tuna.step_4` (coat)
 
@@ -64845,6 +66771,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 6%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `pasta_with_pancetta_and_cauliflower.step_3` (boil)
 
@@ -64855,6 +66782,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 7%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 7
 
 ### `pasta_with_pancetta_and_cauliflower.step_5` (whisk)
 
@@ -64864,6 +66792,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 17% ⚠, estimated
 
 ### `pasta_with_pancetta_and_cauliflower.step_7` (coat)
 
@@ -64919,6 +66848,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: 1 recipe, rounding 0%
 
 ### `pasta_with_sausage.step_5` (mix)
 
@@ -65084,11 +67014,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 1%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `pattaya_fried_rice.step_2` (stir_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 10%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 6
 
 ### `pattaya_fried_rice.step_3` (mix)
 
@@ -65099,11 +67031,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `pattaya_fried_rice.step_5` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `pattaya_fried_rice.step_6` (fold)
 
@@ -65171,11 +67105,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 17% ⚠, estimated
 
 ### `pea_soup_quebecois_style.step_6` (strain)
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 0%, estimated
 
 ### `pea_soup_quebecois_style.step_7` (mix)
 
@@ -65519,11 +67455,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 7%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `peanut_chicken_stir_fry.step_3` (stir_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 13%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `peanut_chicken_stir_fry.step_4` (simmer)
 
@@ -65575,11 +67513,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 21% ⚠, estimated
 
 ### `peanut_milk.step_6` (press)
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 5%, estimated
+- thermal_press: 1 recipe, rounding 21% ⚠, estimated
 
 ### `peanut_sauce_saus_kacang.step_1` (mix)
 
@@ -65635,6 +67575,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: 1 recipe, rounding 0%
 
 ### `pear_chutney.step_7` (boil)
 
@@ -65758,6 +67699,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: 1 recipe, rounding 0%
 
 ### `pease_pudding.step_5` (assemble)
 
@@ -65936,11 +67878,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `pecan_spinach_pasta.step_4` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 4%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `pecan_spinach_pasta.step_5` (heat)
 
@@ -65976,6 +67920,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 1%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `pedernales_river_chili.step_2` (simmer)
 
@@ -65986,11 +67931,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 17% ⚠, estimated
 
 ### `penne_alla_casa_penne_in_creamy_tomato_sauce.step_2` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 5%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `penne_alla_casa_penne_in_creamy_tomato_sauce.step_3` (boil)
 
@@ -66025,11 +67972,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 7%
+- thermal_centrifuge: none, whole items would distort it by 323%
 
 ### `penne_with_hearty_meat_sauce.step_2` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 6%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 6%, estimated
 
 ### `penne_with_hearty_meat_sauce.step_3` (mix)
 
@@ -66082,7 +68031,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `pepes_ikan_indonesian_steamed_fish.step_5` (mix)
 
-- create_mixing: 1 recipe, rounding 1%
+- create_mixing: 2 recipes, rounding 1%
 - shapeless_crafting: 1 recipe, rounding 6%
 
 ### `pepes_ikan_indonesian_steamed_fish.step_6` (coat)
@@ -66119,6 +68068,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `pepper_crusted_chicken.step_5` (bake)
 
@@ -66164,6 +68114,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: none, takes one input, not 2
 
 ### `pepper_soda.step_4` (mix)
 
@@ -66213,6 +68164,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `peppercorn_strip_steaks_with_cognac_cream_sauce.step_4` (heat)
 
@@ -66267,6 +68219,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - vd_fermenting_jar: 1 recipe, rounding 0%
 - bnc_keg: none, can't make the mod's own perfect_three_course_dinner_step_4, and no other mod provides it
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `perfect_three_course_dinner.step_5` (bake)
 
@@ -66354,6 +68307,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `pesto_i.step_5` (blend)
 
@@ -66383,6 +68337,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `pezzetti_di_cavallo_italian_horse_and_tomato.step_2` (mix)
 
@@ -66406,7 +68361,8 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `ph_bo_vietnamese_beef_noodle_soup.step_1` (fry)
 
-- create_heated_mixing: 1 recipe, rounding 1%
+- create_heated_mixing: 2 recipes, rounding 1%
+- pnc_thermo_plant: 2 recipes, rounding 50% ⚠
 
 ### `ph_bo_vietnamese_beef_noodle_soup.step_2` (simmer)
 
@@ -66422,6 +68378,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 17% ⚠, estimated
 
 ### `ph_bo_vietnamese_beef_noodle_soup.step_5` (assemble)
 
@@ -66432,11 +68389,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 12%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 5
 
 ### `philly_cheesesteak.step_2` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 1%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `philly_cheesesteak.step_3` (assemble)
 
@@ -66446,6 +68405,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `philosopher_s_stew.step_2` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `philosopher_s_stew.step_3` (assemble)
 
@@ -66485,6 +68445,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `phulourie_split_pea_fritters.step_4` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 0%, estimated
 
 ### `piadina_thin_italian_flatbread.step_1` (blend)
 
@@ -66493,10 +68454,12 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `piadina_thin_italian_flatbread.step_10` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 2%
+- pnc_thermo_plant: 1 recipe, rounding 15% ⚠
 
 ### `piadina_thin_italian_flatbread.step_11` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 2%
+- pnc_thermo_plant: 1 recipe, rounding 15% ⚠
 
 ### `piadina_thin_italian_flatbread.step_12` (fold)
 
@@ -66506,10 +68469,11 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `piadina_thin_italian_flatbread.step_13` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 2%
+- pnc_thermo_plant: 1 recipe, rounding 15% ⚠
 
 ### `piadina_thin_italian_flatbread.step_2` (blend)
 
-- create_mixing: 1 recipe, rounding 8%, estimated
+- create_mixing: 2 recipes, rounding 8%, estimated
 
 ### `piadina_thin_italian_flatbread.step_3` (mix)
 
@@ -66544,11 +68508,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `picadillo_beef_with_potatoes_and_tomatoes.step_1` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 1%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 7
 
 ### `picadillo_beef_with_potatoes_and_tomatoes.step_2` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 3%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `picadillo_beef_with_potatoes_and_tomatoes.step_3` (mix)
 
@@ -66623,10 +68589,12 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - vd_fermenting_jar: 1 recipe, rounding 0%
 - bnc_keg: none, can't make the mod's own pickert_german_potato_dumpling_step_3, and no other mod provides it
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `pickert_german_potato_dumpling.step_5` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `pickled_green_mango_aavakaaya.step_1` (soak)
 
@@ -66662,6 +68630,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: 1 recipe, rounding 0%
 
 ### `pickled_green_mango_aavakaaya.step_4` (cut)
 
@@ -66728,6 +68697,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: 1 recipe, rounding 0%
 
 ### `pickled_oysters.step_4` (boil)
 
@@ -66798,6 +68768,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `pierogi_i.step_13` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `pierogi_i.step_2` (mix)
 
@@ -66876,6 +68847,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `pierogi_ii.step_9` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: none, doesn't fit in 1 input items and 1000 mB tanks at any scale
 
 ### `pig_s_trotters_and_ginger_vinegar_stew.step_10` (age)
 
@@ -66891,6 +68863,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `pig_s_trotters_and_ginger_vinegar_stew.step_4` (heat)
 
@@ -66911,6 +68884,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `pig_s_trotters_and_ginger_vinegar_stew.step_8` (simmer)
 
@@ -66931,6 +68905,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 8
 
 ### `pigeon_pea_and_fenugreek_curry_methi_tadka_dal.step_3` (season)
 
@@ -66971,6 +68946,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - vd_fermenting_jar: 1 recipe, rounding 4%, estimated
 - bnc_keg: none, can't make the mod's own pikelet_australian_mini_pancakes_step_5, and no other mod provides it
+- pnc_thermo_plant: 1 recipe, rounding 1%, estimated
 
 ### `pikelet_australian_mini_pancakes.step_6` (dissolve)
 
@@ -66981,6 +68957,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 1%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 34% ⚠, estimated
 
 ### `pimento_cheese_spread_i.step_1` (mix)
 
@@ -66989,12 +68966,14 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `pinakbet.step_2` (pan_fry)
 
-- create_heated_mixing: 1 recipe, rounding 1%, estimated
+- create_heated_mixing: 2 recipes, rounding 1%, estimated
+- pnc_thermo_plant: 2 recipes, rounding 1%, estimated
 
 ### `pinakbet.step_3` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 3%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `pinakbet.step_4` (simmer)
 
@@ -67034,11 +69013,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `pineapple_fried_rice.step_1` (stir_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `pineapple_fried_rice.step_2` (stir_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 11%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 6
 
 ### `pineapple_fried_rice.step_3` (season)
 
@@ -67064,6 +69045,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: none, whole items would distort it by 942%
+- thermal_centrifuge: none, whole items would distort it by 942%
 
 ### `pineapple_side_dish.step_10` (coat)
 
@@ -67074,6 +69056,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 6%
+- thermal_centrifuge: 1 recipe, rounding 6%
 
 ### `pineapple_side_dish.step_4` (mix)
 
@@ -67134,11 +69117,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: 1 recipe, rounding 0%
 
 ### `pineapple_tarts.step_16` (separate)
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: 1 recipe, rounding 0%
 
 ### `pineapple_tarts.step_2` (cut)
 
@@ -67178,6 +69163,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `pineapple_teriyaki.step_3` (stir_fry)
 
 - create_heated_mixing: 1 recipe, rounding 6%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 8
 
 ### `pineapple_teriyaki.step_4` (mix)
 
@@ -67220,11 +69206,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `pinon_spanish_stovetop_pot_pie.step_3` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `pinon_spanish_stovetop_pot_pie.step_4` (fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `pinon_spanish_stovetop_pot_pie.step_5` (whisk)
 
@@ -67233,6 +69221,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `pinon_spanish_stovetop_pot_pie.step_6` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 0%, estimated
 
 ### `pinon_spanish_stovetop_pot_pie.step_7` (assemble)
 
@@ -67250,13 +69239,14 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `pita.step_1` (knead)
 
-- create_mixing: 1 recipe, rounding 1%
+- create_mixing: 2 recipes, rounding 1%
 - shapeless_crafting: none, whole items would distort it by 323%
 
 ### `pita.step_2` (ferment)
 
 - vd_fermenting_jar: 1 recipe, rounding 0%
 - bnc_keg: none, can't make the mod's own pita_step_2, and no other mod provides it
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `pita.step_3` (shape)
 
@@ -67272,6 +69262,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - vd_fermenting_jar: 1 recipe, rounding 0%
 - bnc_keg: none, can't make the mod's own pita_step_5, and no other mod provides it
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `pita.step_6` (bake)
 
@@ -67287,6 +69278,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - vd_fermenting_jar: 1 recipe, rounding 9%, estimated
 - bnc_keg: none, can't make the mod's own pizza_dough_step_2, and no other mod provides it
+- pnc_thermo_plant: 1 recipe, rounding 9%, estimated
 
 ### `pizza_dough.step_3` (shape)
 
@@ -67316,6 +69308,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `pizza_flavored_omelet.step_5` (coagulate)
 
@@ -67325,6 +69318,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `pizza_flavored_omelet.step_7` (heat)
 
@@ -67413,6 +69407,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `pizza_with_peppers.step_1` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `pizza_with_peppers.step_2` (shape)
 
@@ -67442,6 +69437,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `placenta_stew.step_2` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 8
 
 ### `placenta_stew.step_3` (simmer)
 
@@ -67465,6 +69461,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `placenta_with_broccoli.step_6` (stir_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `placenta_with_broccoli.step_7` (boil)
 
@@ -67561,6 +69558,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - vd_fermenting_jar: 1 recipe, rounding 14%, estimated
 - bnc_keg: none, can't make the mod's own ployes_step_4, and no other mod provides it
+- pnc_thermo_plant: 1 recipe, rounding 1%, estimated
 
 ### `ployes.step_6` (shape)
 
@@ -67571,6 +69569,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 3%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 37% ⚠, estimated
 
 ### `ployes.step_8` (assemble)
 
@@ -67591,6 +69590,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: none, whole items would distort it by 1567%
+- thermal_press: none, whole items would distort it by 1567%
 
 ### `poached_egg.step_4` (coagulate)
 
@@ -67623,15 +69623,18 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `pohe_spiced_flattened_rice.step_2` (fry)
 
 - create_heated_mixing: none, whole items would distort it by 154%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `pohe_spiced_flattened_rice.step_3` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 5%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `pohe_spiced_flattened_rice.step_4` (fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 6%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `pohe_spiced_flattened_rice.step_5` (steam)
 
@@ -67686,6 +69689,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - vd_fermenting_jar: 1 recipe, rounding 0%
 - bnc_keg: none, can't make the mod's own polish_doughnuts_paczki_step_3, and no other mod provides it
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `polish_doughnuts_paczki.step_4` (shape)
 
@@ -67696,10 +69700,12 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - vd_fermenting_jar: 1 recipe, rounding 0%
 - bnc_keg: none, can't make the mod's own polish_doughnuts_paczki_step_5, and no other mod provides it
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `polish_doughnuts_paczki.step_6` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `polish_doughnuts_paczki.step_7` (assemble)
 
@@ -67724,6 +69730,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 17% ⚠, estimated
 
 ### `pollo_del_fungo_chicken_with_mushrooms.step_6` (mix)
 
@@ -67734,6 +69741,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 17% ⚠, estimated
 
 ### `pollo_del_fungo_chicken_with_mushrooms.step_8` (mix)
 
@@ -67792,6 +69800,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 17% ⚠, estimated
 
 ### `popcorn.step_1` (heat)
 
@@ -67807,6 +69816,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 1%
+- thermal_centrifuge: 1 recipe, rounding 1%
 
 ### `popcorn.step_4` (coat)
 
@@ -67837,6 +69847,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 27% ⚠, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `pork_aachi.step_2` (simmer)
 
@@ -67847,11 +69858,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 1%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `pork_aachi.step_4` (stir_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 90% ⚠, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `pork_aachi.step_5` (season)
 
@@ -67886,6 +69899,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `pork_and_carrots_in_sauce.step_4` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `pork_and_carrots_in_sauce.step_5` (toast)
 
@@ -67905,6 +69919,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 17% ⚠, estimated
 
 ### `pork_and_carrots_in_sauce.step_9` (assemble)
 
@@ -67920,6 +69935,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 9%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `pork_and_lima_skillet.step_3` (mix)
 
@@ -67945,6 +69961,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 5%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 5
 
 ### `pork_braised_with_garlic_and_onions_of_indonesia_babi_kecap.step_3` (mix)
 
@@ -67989,6 +70006,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `pork_burritos_with_green_pepper_sauce.step_2` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `pork_burritos_with_green_pepper_sauce.step_3` (mix)
 
@@ -68009,11 +70027,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: 1 recipe, rounding 0%
 
 ### `pork_burritos_with_green_pepper_sauce.step_8` (separate)
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 12%, estimated
+- thermal_centrifuge: none, takes one input, not 2
 
 ### `pork_burritos_with_green_pepper_sauce.step_9` (boil)
 
@@ -68039,6 +70059,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 7%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `pork_chops_cacciatore.step_6` (blend)
 
@@ -68088,16 +70109,19 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 7%
+- pnc_thermo_plant: 1 recipe, rounding 20% ⚠
 
 ### `pork_gyoza.step_8` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 7%
+- pnc_thermo_plant: 1 recipe, rounding 20% ⚠
 
 ### `pork_gyoza.step_9` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 7%
+- pnc_thermo_plant: 1 recipe, rounding 20% ⚠
 
 ### `pork_marinade.step_1` (mix)
 
@@ -68122,6 +70146,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `pork_pot_pie.step_4` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 7%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 30% ⚠, estimated
 
 ### `pork_pot_pie.step_5` (mix)
 
@@ -68261,6 +70286,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: 1 recipe, rounding 0%
 
 ### `pork_tenderloin_with_asparagus_and_prosciutto.step_17` (assemble)
 
@@ -68276,6 +70302,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 10%
+- thermal_centrifuge: none, takes one input, not 2
 
 ### `pork_tenderloin_with_asparagus_and_prosciutto.step_5` (coat)
 
@@ -68286,16 +70313,19 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 6%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `pork_tenderloin_with_asparagus_and_prosciutto.step_7` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 14%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `pork_tenderloin_with_asparagus_and_prosciutto.step_8` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `pork_tenderloin_with_asparagus_and_prosciutto.step_9` (mix)
 
@@ -68358,7 +70388,8 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `portuguese_feijoada.step_5` (fry)
 
-- create_heated_mixing: 1 recipe, rounding 0%, estimated
+- create_heated_mixing: 2 recipes, rounding 0%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 7
 
 ### `portuguese_feijoada.step_6` (mix)
 
@@ -68437,6 +70468,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 17% ⚠, estimated
 
 ### `potato_almond_milk.step_6` (season)
 
@@ -68446,15 +70478,18 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `potato_and_cabbage_soup.step_1` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 1%
+- pnc_thermo_plant: 1 recipe, rounding 1%
 
 ### `potato_and_cabbage_soup.step_2` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `potato_and_cabbage_soup.step_3` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 1%
+- pnc_thermo_plant: 1 recipe, rounding 1%
 
 ### `potato_and_cabbage_soup.step_4` (heat)
 
@@ -68509,6 +70544,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `potato_and_garlic_ravioli_filling.step_4` (mix)
 
@@ -68524,6 +70560,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 1%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `potato_and_leek_soup.step_2` (season)
 
@@ -68577,6 +70614,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 14%, estimated
 
 ### `potato_and_leek_soup_ii.step_7` (season)
 
@@ -68621,6 +70659,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `potato_balls.step_4` (fry)
 
 - create_heated_mixing: none, whole items would distort it by 1686%
+- pnc_thermo_plant: none, whole items would distort it by 1686%
 
 ### `potato_candy_pinwheel.step_12` (mix)
 
@@ -68679,6 +70718,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: none, takes one input, not 2
 
 ### `potato_casserole_rakott_krumpli.step_3` (cut)
 
@@ -68709,6 +70749,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 4%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `potato_castle.step_3` (assemble)
 
@@ -68729,11 +70770,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `potato_chickpea_curry.step_2` (fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 1%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `potato_chickpea_curry.step_3` (simmer)
 
@@ -68759,19 +70802,23 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: none, whole items would distort it by 168%
+- thermal_centrifuge: none, whole items would distort it by 168%
 
 ### `potato_chips.step_7` (fry)
 
 - create_heated_mixing: none, whole items would distort it by 168%
+- pnc_thermo_plant: none, whole items would distort it by 168%
 
 ### `potato_chips.step_8` (strain)
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 88% ⚠
+- thermal_centrifuge: 1 recipe, rounding 88% ⚠
 
 ### `potato_chips.step_9` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 88% ⚠
+- pnc_thermo_plant: 1 recipe, rounding 88% ⚠
 
 ### `potato_courgette_and_cavelo_nero_pancakes.step_1` (grind)
 
@@ -68781,6 +70828,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 1%
+- thermal_press: none, takes one input, not 2
 
 ### `potato_courgette_and_cavelo_nero_pancakes.step_3` (grind)
 
@@ -68799,15 +70847,18 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `potato_courgette_and_cavelo_nero_pancakes.step_6` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 0%, estimated
 
 ### `potato_curry_aloo_masala.step_2` (fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 11%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 7
 
 ### `potato_curry_aloo_masala.step_3` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `potato_curry_aloo_masala.step_4` (mix)
 
@@ -68848,11 +70899,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 1%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `potato_gnocchi_with_basil_and_sun_dried_tomatoes.step_5` (stir_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `potato_gnocchi_with_basil_and_sun_dried_tomatoes.step_6` (mix)
 
@@ -68947,6 +71000,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - vd_fermenting_jar: 1 recipe, rounding 0%
 - bnc_keg: none, can't make the mod's own potato_langos_step_6, and no other mod provides it
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `potato_langos.step_7` (shape)
 
@@ -68961,6 +71015,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `potato_langos.step_9` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `potato_meat_loaf.step_2` (assemble)
 
@@ -68999,15 +71054,18 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `potato_omelet.step_4` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 10%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `potato_omelet.step_5` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `potato_omelet.step_6` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 0%, estimated
 
 ### `potato_omelet.step_7` (coagulate)
 
@@ -69034,7 +71092,8 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `potato_pancakes.step_3` (pan_fry)
 
-- create_heated_mixing: 2 recipes, rounding 1%, estimated
+- create_heated_mixing: 4 recipes, rounding 1%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `potato_pie.step_2` (assemble)
 
@@ -69119,6 +71178,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `potato_salad_southern_ontario_style.step_4` (assemble)
 
@@ -69167,6 +71227,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `potato_samosas_aloo_pies.step_8` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 15%
+- pnc_thermo_plant: 1 recipe, rounding 15%
 
 ### `potato_skins.step_1` (coat)
 
@@ -69186,6 +71247,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `potato_skins.step_4` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `potato_skins.step_5` (toast)
 
@@ -69201,6 +71263,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_press: 1 recipe, rounding 0%
 
 ### `potato_snow.step_2` (boil)
 
@@ -69216,10 +71279,12 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: none, whole items would distort it by 1983%
+- thermal_centrifuge: none, whole items would distort it by 1983%
 
 ### `potato_soup.step_1` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 13%, estimated
+- pnc_thermo_plant: none, doesn't fit in 1 input items and 1000 mB tanks at any scale
 
 ### `potato_soup.step_2` (simmer)
 
@@ -69245,6 +71310,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: none, whole items would distort it by 229%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `potato_spelt_oat_burger.step_4` (season)
 
@@ -69255,6 +71321,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: none, whole items would distort it by 614%
+- pnc_thermo_plant: none, whole items would distort it by 614%
 
 ### `potatoes_anna.step_3` (dry)
 
@@ -69283,6 +71350,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: none, whole items would distort it by 942%
+- thermal_press: none, whole items would distort it by 942%
 
 ### `potatoes_colcannon.step_4` (mix)
 
@@ -69323,6 +71391,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: none, whole items would distort it by 752%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `potatoes_on_the_half_shell.step_1` (bake)
 
@@ -69338,6 +71407,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: 1 recipe, rounding 0%
 
 ### `potatoes_on_the_half_shell.step_4` (blend)
 
@@ -69427,6 +71497,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: 1 recipe, rounding 0%
 
 ### `pounded_yam.step_5` (grind)
 
@@ -69461,6 +71532,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: none, whole items would distort it by 421%
+- thermal_centrifuge: none, whole items would distort it by 421%
 
 ### `pounded_yam_natively_common_in_igbo_homes.step_6` (grind)
 
@@ -69544,11 +71616,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 2%
+- pnc_thermo_plant: 1 recipe, rounding 2%
 
 ### `prata.step_12` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 2%
+- pnc_thermo_plant: 1 recipe, rounding 2%
 
 ### `prata.step_2` (mix)
 
@@ -69593,10 +71667,12 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `prawn_curry.step_1` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 6%
+- pnc_thermo_plant: 2 recipes, rounding 10%
 
 ### `prawn_curry.step_2` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 1%
+- pnc_thermo_plant: none, doesn't fit in 1 input items and 1000 mB tanks at any scale
 
 ### `prawn_curry.step_3` (simmer)
 
@@ -69619,7 +71695,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `prekmurska_gibanica_slovenian_layered_strudel_cake.step_1` (mix)
 
-- create_mixing: 1 recipe, rounding 1%, estimated
+- create_mixing: 2 recipes, rounding 1%, estimated
 - shapeless_crafting: none, whole items would distort it by 475%
 
 ### `prekmurska_gibanica_slovenian_layered_strudel_cake.step_10` (mix)
@@ -69716,6 +71792,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 1%, estimated
+- thermal_centrifuge: none, takes one input, not 2
 
 ### `prekmurska_gibanica_slovenian_layered_strudel_cake.step_5` (knead)
 
@@ -69892,6 +71969,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `prime_rib_seasoning.step_1` (mix)
 
@@ -70029,6 +72107,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `pufftaloons.step_4` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `pulikkachal_tamil_spiced_tamarind_paste.step_1` (roast)
 
@@ -70061,10 +72140,12 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `puliyodarai_south_indian_tamarind_rice.step_4` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 1%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `puliyodarai_south_indian_tamarind_rice.step_5` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 0%, estimated
 
 ### `puliyodarai_south_indian_tamarind_rice.step_6` (mix)
 
@@ -70197,7 +72278,8 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `pumpkin_chips.step_5` (fry)
 
-- create_heated_mixing: 1 recipe, rounding 44% ⚠
+- create_heated_mixing: 2 recipes, rounding 44% ⚠
+- pnc_thermo_plant: 2 recipes, rounding 44% ⚠
 
 ### `pumpkin_muffins.step_1` (mix)
 
@@ -70233,6 +72315,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: 1 recipe, rounding 0%
 
 ### `pumpkin_pie_i.step_2` (blend)
 
@@ -70276,6 +72359,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: 1 recipe, rounding 0%
 
 ### `pumpkin_roll.step_14` (shape)
 
@@ -70341,6 +72425,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: none, takes one input, not 2
 
 ### `pumpkin_souffle_casserole.step_2` (whisk)
 
@@ -70369,6 +72454,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `pumpkin_soup.step_1` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 5
 
 ### `pumpkin_soup.step_2` (mix)
 
@@ -70384,6 +72470,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 1%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `pumpkin_soup_with_curry.step_2` (mix)
 
@@ -70437,6 +72524,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: none, whole items would distort it by 4067%
+- thermal_centrifuge: none, whole items would distort it by 4067%
 
 ### `pupusas.step_3` (blend)
 
@@ -70446,6 +72534,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 14%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `pupusas.step_5` (grind)
 
@@ -70460,6 +72549,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `pupusas.step_8` (shape)
 
@@ -70470,6 +72560,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `puree_mongole.step_1` (assemble)
 
@@ -70523,7 +72614,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `puri_indian_fried_flatbread.step_2` (mix)
 
-- create_mixing: 1 recipe, rounding 3%, estimated
+- create_mixing: 2 recipes, rounding 3%, estimated
 - shapeless_crafting: 1 recipe, rounding 41% ⚠, estimated
 
 ### `puri_indian_fried_flatbread.step_3` (mix)
@@ -70554,11 +72645,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `puri_indian_fried_flatbread.step_8` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 7%
+- pnc_thermo_plant: 1 recipe, rounding 7%
 
 ### `puri_indian_fried_flatbread.step_9` (strain)
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 7%
+- thermal_centrifuge: 1 recipe, rounding 7%
 
 ### `purple_plum_pie.step_1` (mix)
 
@@ -70579,6 +72672,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 2%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `puttanesca_sauce_vegan.step_3` (simmer)
 
@@ -70652,6 +72746,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 7
 
 ### `qabuli_central_asian_rice_pilaf.step_6` (assemble)
 
@@ -70672,6 +72767,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: none, whole items would distort it by 3025%
+- thermal_centrifuge: none, whole items would distort it by 3025%
 
 ### `quail_egg_and_chili_jangjorim.step_4` (boil)
 
@@ -70771,6 +72867,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 12%, estimated
+- thermal_centrifuge: none, takes one input, not 2
 
 ### `queens_soup.step_4` (mix)
 
@@ -70870,11 +72967,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 1%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 5
 
 ### `quick_and_easy_beef_stroganoff.step_3` (strain)
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: 1 recipe, rounding 0%
 
 ### `quick_and_easy_beef_stroganoff.step_4` (mix)
 
@@ -70904,6 +73003,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 13%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `quick_baked_beef_pasta_dish.step_3` (mix)
 
@@ -70944,11 +73044,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - vd_fermenting_jar: 1 recipe, rounding 0%, estimated
 - bnc_keg: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 0%, estimated
 
 ### `quick_finnish_lemon_mead_sima.step_2` (press)
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_press: 1 recipe, rounding 0%, estimated
 
 ### `quick_finnish_lemon_mead_sima.step_4` (assemble)
 
@@ -70964,11 +73066,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - vd_fermenting_jar: 1 recipe, rounding 0%, estimated
 - bnc_keg: none, can't make the mod's own quick_finnish_lemon_mead_sima_step_7, and no other mod provides it
+- pnc_thermo_plant: 1 recipe, rounding 4%, estimated
 
 ### `quick_finnish_lemon_mead_sima.step_8` (ferment)
 
 - vd_fermenting_jar: 1 recipe, rounding 0%, estimated
 - bnc_keg: none, can't make the mod's own quick_finnish_lemon_mead_sima_step_8, and no other mod provides it
+- pnc_thermo_plant: 1 recipe, rounding 4%, estimated
 
 ### `quick_guacamole_i.step_1` (grind)
 
@@ -70993,6 +73097,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 3%, estimated
+- thermal_centrifuge: 1 recipe, rounding 14%, estimated
 
 ### `quick_puff_pastry.step_2` (mix)
 
@@ -71048,11 +73153,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - vd_fermenting_jar: 1 recipe, rounding 0%, estimated
 - bnc_keg: none, can't make the mod's own quick_sourdough_starter_step_2, and no other mod provides it
+- pnc_thermo_plant: 1 recipe, rounding 0%, estimated
 
 ### `quick_sourdough_starter.step_3` (ferment)
 
 - vd_fermenting_jar: 1 recipe, rounding 11%, estimated
 - bnc_keg: 1 recipe, rounding 11%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 6%, estimated
 
 ### `quick_sparkling_lemonade.step_1` (assemble)
 
@@ -71083,6 +73190,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: none, whole items would distort it by 3025%
+- thermal_centrifuge: none, whole items would distort it by 3025%
 
 ### `quince_pudding.step_3` (blend)
 
@@ -71107,6 +73215,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 1%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 5
 
 ### `quinoa_shiitake_mushrooms_and_adzuki_beans.step_2` (boil)
 
@@ -71170,11 +73279,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `rabbit_with_abbey_beer_konijn_met_paterbier.step_3` (fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `rabbit_with_abbey_beer_konijn_met_paterbier.step_4` (mix)
 
@@ -71205,11 +73316,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 1%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `racuszki_polish_pancakes.step_4` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 17% ⚠, estimated
 
 ### `radish_pie.step_2` (bake)
 
@@ -71219,6 +73332,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `radish_pie.step_4` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 13%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 5
 
 ### `radish_pie.step_5` (mix)
 
@@ -71278,6 +73392,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: 1 recipe, rounding 0%
 
 ### `radish_tart.step_2` (mix)
 
@@ -71322,6 +73437,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - vd_fermenting_jar: 1 recipe, rounding 5%, estimated
 - bnc_keg: none, can't make the mod's own ragi_dosa_south_indian_millet_and_rice_pancake_step_3, and no other mod provides it
+- pnc_thermo_plant: 1 recipe, rounding 0%, estimated
 
 ### `ragi_dosa_south_indian_millet_and_rice_pancake.step_4` (season)
 
@@ -71332,6 +73448,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 1%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 1%, estimated
 
 ### `rainbow_cake.step_11` (whisk)
 
@@ -71390,6 +73507,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 17% ⚠, estimated
 
 ### `rainbow_cake.step_6` (mix)
 
@@ -71480,6 +73598,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 6%, estimated
+- thermal_centrifuge: none, takes one input, not 9
 
 ### `raisin_oatmeal_muffins.step_4` (mix)
 
@@ -71500,6 +73619,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 1%, estimated
+- thermal_press: 1 recipe, rounding 1%, estimated
 
 ### `raita.step_2` (mix)
 
@@ -71534,6 +73654,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `rajma_sindhi_kidney_bean_curry.step_3` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 10%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 5
 
 ### `rajma_sindhi_kidney_bean_curry.step_4` (simmer)
 
@@ -71656,6 +73777,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 13%, estimated
+- thermal_centrifuge: none, takes one input, not 2
 
 ### `raspberry_filled_pastry_strips_alexandertorte.step_4` (shape)
 
@@ -71799,6 +73921,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 5%, estimated
+- thermal_centrifuge: 1 recipe, rounding 13%, estimated
 
 ### `rassolnik_russian_barley_and_kidney_soup.step_2` (rinse)
 
@@ -71813,6 +73936,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `rassolnik_russian_barley_and_kidney_soup.step_4` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 13%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `rassolnik_russian_barley_and_kidney_soup.step_5` (simmer)
 
@@ -71847,6 +73971,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `ratatouille_i.step_5` (chop)
 
@@ -71857,6 +73982,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `ratatouille_i.step_7` (simmer)
 
@@ -71877,11 +74003,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `ratatouille_ii.step_3` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 5
 
 ### `ratatouille_ii.step_4` (heat)
 
@@ -71902,6 +74030,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 17% ⚠, estimated
 
 ### `recaito_puerto_rican_culantro_sauce.step_1` (roast)
 
@@ -71912,6 +74041,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: 1 recipe, rounding 0%
 
 ### `recaito_puerto_rican_culantro_sauce.step_3` (assemble)
 
@@ -71955,6 +74085,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 12%
+- thermal_centrifuge: 1 recipe, rounding 12%
 
 ### `red_bean_paste.step_6` (grind)
 
@@ -71977,6 +74108,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 0%, estimated
 
 ### `red_beet_food_coloring.step_3` (mix)
 
@@ -71992,6 +74124,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 17% ⚠, estimated
 
 ### `red_beet_food_coloring.step_6` (evaporate)
 
@@ -72024,6 +74157,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `red_bell_peppers_stuffed_with_cheese_and_egg_chushki_byurek.step_5` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `red_chile_sauce.step_10` (season)
 
@@ -72034,6 +74168,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 12%
+- thermal_centrifuge: 1 recipe, rounding 12%
 
 ### `red_chile_sauce.step_3` (soak)
 
@@ -72044,6 +74179,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 7%, estimated
+- thermal_centrifuge: 1 recipe, rounding 7%, estimated
 
 ### `red_chile_sauce.step_5` (blend)
 
@@ -72052,6 +74188,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `red_chile_sauce.step_6` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 10%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 6
 
 ### `red_chile_sauce.step_7` (simmer)
 
@@ -72066,6 +74203,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 17% ⚠, estimated
 
 ### `red_cross_fudge.step_1` (mix)
 
@@ -72141,6 +74279,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 1%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 6
 
 ### `red_lentil_soup.step_3` (simmer)
 
@@ -72169,6 +74308,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `refried_beans.step_5` (fry)
 
 - create_heated_mixing: none, whole items would distort it by 942%
+- pnc_thermo_plant: none, whole items would distort it by 942%
 
 ### `reindling_austrian_yeasted_easter_cake.step_1` (mix)
 
@@ -72179,6 +74319,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - vd_fermenting_jar: 1 recipe, rounding 1%
 - bnc_keg: none, can't make the mod's own reindling_austrian_yeasted_easter_cake_step_2, and no other mod provides it
+- pnc_thermo_plant: 1 recipe, rounding 19% ⚠
 
 ### `reindling_austrian_yeasted_easter_cake.step_3` (knead)
 
@@ -72411,6 +74552,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 15%, estimated
+- thermal_centrifuge: 1 recipe, rounding 15%, estimated
 
 ### `rhubarb_juice.step_3` (mix)
 
@@ -72560,6 +74702,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 2%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `rice_and_lentils_mejadra.step_2` (season)
 
@@ -72575,6 +74718,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 15%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `rice_and_lentils_mejadra.step_5` (season)
 
@@ -72595,6 +74739,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `rice_and_lentils_mejadra.step_9` (mix)
 
@@ -72615,10 +74760,12 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_press: none, takes one input, not 2
 
 ### `rice_and_turnip_minestrone.step_2` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: none, doesn't fit in 1 input items and 1000 mB tanks at any scale
 
 ### `rice_and_turnip_minestrone.step_3` (mix)
 
@@ -72658,6 +74805,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `rice_cooked_in_tomato_meat_sauce_ross_il_forn.step_1` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `rice_cooked_in_tomato_meat_sauce_ross_il_forn.step_10` (mix)
 
@@ -72683,11 +74831,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 10%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `rice_cooked_in_tomato_meat_sauce_ross_il_forn.step_3` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 13%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `rice_cooked_in_tomato_meat_sauce_ross_il_forn.step_4` (simmer)
 
@@ -72702,11 +74852,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `rice_in_fish_broth_sayyadieh.step_2` (fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 7%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `rice_in_fish_broth_sayyadieh.step_3` (boil)
 
@@ -72831,11 +74983,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: none, whole items would distort it by 140%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 7
 
 ### `rice_oat_semolina_burger.step_5` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: none, whole items would distort it by 793%
+- pnc_thermo_plant: none, whole items would distort it by 793%
 
 ### `rice_oat_semolina_burger.step_6` (shape)
 
@@ -72846,6 +75000,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 5
 
 ### `rice_pilaf.step_3` (toast)
 
@@ -72871,6 +75026,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 17% ⚠, estimated
 
 ### `rice_pudding.step_2` (mix)
 
@@ -72995,10 +75151,12 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `rice_with_lemon_coconut_and_eggplant_vangibhat.step_3` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 13%, estimated
+- pnc_thermo_plant: none, doesn't fit in 1 input items and 1000 mB tanks at any scale
 
 ### `rice_with_lemon_coconut_and_eggplant_vangibhat.step_4` (stir_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 0%, estimated
 
 ### `rice_with_lemon_coconut_and_eggplant_vangibhat.step_5` (grind)
 
@@ -73052,21 +75210,25 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `rice_with_tofu_and_nuts.step_6` (separate)
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: 1 recipe, rounding 0%
 
 ### `rice_with_tofu_and_nuts.step_7` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 1%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 5
 
 ### `rice_with_tofu_and_nuts.step_9` (separate)
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 0%, estimated
 
 ### `rich_brownies.step_2` (heat)
 
@@ -73102,11 +75264,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 7%
+- thermal_centrifuge: 1 recipe, rounding 7%
 
 ### `ricotta_lasagne.step_2` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 1%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 5
 
 ### `ricotta_lasagne.step_3` (season)
 
@@ -73151,6 +75315,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `rigatoni_pasta_with_ricotta_in_tomato_cream_sauce.step_4` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 7%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `rigatoni_pasta_with_ricotta_in_tomato_cream_sauce.step_5` (mix)
 
@@ -73220,6 +75385,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `risotto_ai_funghi.step_3` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 10%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `risotto_ai_funghi.step_4` (coat)
 
@@ -73297,6 +75463,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `risotto_alla_milanese.step_5` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 0%, estimated
 
 ### `risotto_alla_milanese.step_6` (toast)
 
@@ -73320,6 +75487,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `risotto_basic.step_1` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, doesn't fit in 1 input items and 1000 mB tanks at any scale
 
 ### `risotto_basic.step_2` (toast)
 
@@ -73348,6 +75516,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 6%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `risotto_ii.step_3` (coat)
 
@@ -73401,10 +75570,12 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `riz_gras_west_african_fried_rice.step_10` (stir_fry)
 
 - create_heated_mixing: 1 recipe, rounding 5%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `riz_gras_west_african_fried_rice.step_11` (stir_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 0%, estimated
 
 ### `riz_gras_west_african_fried_rice.step_12` (coat)
 
@@ -73435,25 +75606,30 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 1%, estimated
+- thermal_centrifuge: 1 recipe, rounding 6%, estimated
 
 ### `riz_gras_west_african_fried_rice.step_6` (pan_fry)
 
-- create_heated_mixing: 1 recipe, rounding 1%, estimated
+- create_heated_mixing: 2 recipes, rounding 1%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `riz_gras_west_african_fried_rice.step_7` (separate)
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: 1 recipe, rounding 0%
 
 ### `riz_gras_west_african_fried_rice.step_9` (stir_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `roast_beef.step_10` (separate)
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: 1 recipe, rounding 0%
 
 ### `roast_beef.step_12` (evaporate)
 
@@ -73473,6 +75649,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 17% ⚠, estimated
 
 ### `roast_beef.step_16` (cut)
 
@@ -73503,6 +75680,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: 1 recipe, rounding 0%
 
 ### `roast_beef.step_22` (bake)
 
@@ -73518,6 +75696,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: 1 recipe, rounding 0%
 
 ### `roast_beef.step_25` (cut)
 
@@ -73533,6 +75712,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `roast_beef.step_5` (dissolve)
 
@@ -73583,6 +75763,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 1%, estimated
+- thermal_centrifuge: 1 recipe, rounding 1%, estimated
 
 ### `roast_beef_round_with_au_jus.step_7` (toast)
 
@@ -73597,6 +75778,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 1%, estimated
+- thermal_centrifuge: 1 recipe, rounding 19% ⚠, estimated
 
 ### `roast_butternut_biltong_and_brown_rice_salad.step_4` (coat)
 
@@ -73706,6 +75888,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 17% ⚠, estimated
 
 ### `roast_leg_of_lamb_with_gravy.step_2` (season)
 
@@ -73801,6 +75984,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: 1 recipe, rounding 0%
 
 ### `roast_pork_loin_with_gravy.step_5` (toast)
 
@@ -73841,6 +76025,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 1%, estimated
+- thermal_centrifuge: none, takes one input, not 2
 
 ### `roast_turkey_with_stuffing.step_4` (rinse)
 
@@ -73935,6 +76120,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: none, whole items would distort it by 140%
+- thermal_centrifuge: none, whole items would distort it by 140%
 
 ### `roasted_brussels_sprouts.step_7` (roast)
 
@@ -74009,6 +76195,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: 1 recipe, rounding 0%
 
 ### `roasted_oysters_with_madeira.step_4` (heat)
 
@@ -74299,7 +76486,8 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `rolex_ugandan_flatbread_rolled_omelet.step_3` (pan_fry)
 
-- create_heated_mixing: 1 recipe, rounding 0%, estimated
+- create_heated_mixing: 2 recipes, rounding 0%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 6%, estimated
 
 ### `rolex_ugandan_flatbread_rolled_omelet.step_4` (assemble)
 
@@ -74309,6 +76497,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `rolex_ugandan_flatbread_rolled_omelet.step_5` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `rolex_ugandan_flatbread_rolled_omelet.step_6` (shape)
 
@@ -74323,6 +76512,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `rolex_ugandan_flatbread_rolled_omelet.step_8` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `rolitos_gibraltarian_beef_rolls.step_1` (assemble)
 
@@ -74338,6 +76528,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `rolitos_gibraltarian_beef_rolls.step_5` (boil)
 
@@ -74372,6 +76563,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `roman_sauce_ii.step_1` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `roman_sauce_ii.step_2` (mix)
 
@@ -74436,6 +76628,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: none, whole items would distort it by 1462%
+- thermal_centrifuge: none, whole items would distort it by 1462%
 
 ### `romanian_roasted_eggplant_spread_i.step_4` (chop)
 
@@ -74451,6 +76644,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 6%
+- thermal_centrifuge: none, whole items would distort it by 112%
 
 ### `romanian_roasted_eggplant_spread_ii.step_3` (blend)
 
@@ -74458,7 +76652,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `romanian_roasted_eggplant_spread_ii.step_4` (mix)
 
-- create_mixing: 1 recipe, rounding 13%, estimated
+- create_mixing: 2 recipes, rounding 13%, estimated
 - shapeless_crafting: none, whole items would distort it by 1590%
 
 ### `rooibos_tea.step_2` (steep)
@@ -74486,6 +76680,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 6%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 6
 
 ### `ropa_vieja_caribbean_shredded_beef.step_4` (simmer)
 
@@ -74510,11 +76705,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_press: 1 recipe, rounding 0%, estimated
 
 ### `rosemary_and_citrus_cordial.step_3` (press)
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 6%, estimated
+- thermal_press: none, takes one input, not 2
 
 ### `rosemary_and_citrus_cordial.step_4` (mix)
 
@@ -74535,6 +76732,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 17% ⚠, estimated
 
 ### `rosemary_and_citrus_cordial.step_8` (mix)
 
@@ -74549,11 +76747,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `rosemary_balsamic_chicken_wings.step_2` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `rosemary_bread.step_1` (ferment)
 
 - vd_fermenting_jar: none, whole items would distort it by 323%
 - bnc_keg: none, can't make the mod's own rosemary_bread_step_1, and no other mod provides it
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `rosemary_bread.step_2` (knead)
 
@@ -74569,11 +76769,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - vd_fermenting_jar: 1 recipe, rounding 4%
 - bnc_keg: none, can't make the mod's own rosemary_bread_step_4, and no other mod provides it
+- pnc_thermo_plant: 1 recipe, rounding 4%
 
 ### `rosemary_bread.step_5` (separate)
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 4%
+- thermal_centrifuge: 1 recipe, rounding 4%
 
 ### `rosemary_bread.step_6` (season)
 
@@ -74614,11 +76816,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 1%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 5
 
 ### `rosemary_garlic_fish.step_3` (strain)
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: 1 recipe, rounding 0%
 
 ### `rosemary_garlic_fish.step_4` (mix)
 
@@ -74640,6 +76844,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 17% ⚠, estimated
 
 ### `rosemary_garlic_pork_roast.step_1` (season)
 
@@ -74705,11 +76910,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 0%, estimated
 
 ### `rosogulla_bengali_milk_balls_in_syrup.step_15` (strain)
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 0%, estimated
 
 ### `rosogulla_bengali_milk_balls_in_syrup.step_16` (boil)
 
@@ -74788,16 +76995,19 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 4%
+- thermal_centrifuge: 1 recipe, rounding 4%
 
 ### `rosogulla_bengali_milk_balls_in_syrup.step_7` (press)
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 4%
+- thermal_press: 1 recipe, rounding 4%
 
 ### `rosogulla_bengali_milk_balls_in_syrup.step_8` (press)
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 4%
+- thermal_press: none, whole items would distort it by 456%
 
 ### `rosogulla_bengali_milk_balls_in_syrup.step_9` (knead)
 
@@ -74813,6 +77023,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `rosol_polish_meat_soup.step_4` (simmer)
 
@@ -74833,16 +77044,19 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: none, takes one input, not 3
 
 ### `rosti_swiss_potato_patties.step_1` (press)
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_press: 1 recipe, rounding 0%
 
 ### `rosti_swiss_potato_patties.step_2` (separate)
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: 1 recipe, rounding 0%
 
 ### `rosti_swiss_potato_patties.step_4` (shape)
 
@@ -74852,6 +77066,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `rosti_swiss_potato_patties.step_5` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `rosti_swiss_potato_patties.step_6` (season)
 
@@ -74862,11 +77077,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `rosto.step_2` (fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 2%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `rosto.step_3` (mix)
 
@@ -74926,6 +77143,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 17% ⚠, estimated
 
 ### `roti_jala_malaysian_lacy_pancakes.step_8` (shape)
 
@@ -74936,6 +77154,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `royal_icing.step_2` (whisk)
 
@@ -75141,6 +77360,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - vd_fermenting_jar: 1 recipe, rounding 3%
 - bnc_keg: none, can't make the mod's own rustic_beer_bread_step_4, and no other mod provides it
+- pnc_thermo_plant: 1 recipe, rounding 3%
 
 ### `rustic_beer_bread.step_5` (bake)
 
@@ -75149,7 +77369,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `rwandan_goat_brochette.step_1` (mix)
 
-- create_mixing: 1 recipe, rounding 1%, estimated
+- create_mixing: 2 recipes, rounding 1%, estimated
 - shapeless_crafting: none, whole items would distort it by 1590%
 
 ### `rwandan_goat_brochette.step_2` (coat)
@@ -75191,6 +77411,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - vd_fermenting_jar: 1 recipe, rounding 4%, estimated
 - bnc_keg: none, can't make the mod's own rye_bread_step_4, and no other mod provides it
+- pnc_thermo_plant: 1 recipe, rounding 4%, estimated
 
 ### `rye_bread.step_5` (mix)
 
@@ -75201,6 +77422,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 1%, estimated
+- thermal_centrifuge: none, doesn't fit in 1 input items and 1000 mB tanks at any scale
 
 ### `rye_bread.step_7` (shape)
 
@@ -75292,6 +77514,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `sabich_vegetable_and_pita_sandwich.step_4` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `sabich_vegetable_and_pita_sandwich.step_5` (coat)
 
@@ -75367,6 +77590,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 2%, estimated
+- thermal_centrifuge: 1 recipe, rounding 2%, estimated
 
 ### `sachertorte_duramecho_version.step_3` (whisk)
 
@@ -75486,6 +77710,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 17% ⚠, estimated
 
 ### `saffron_rice.step_2` (steep)
 
@@ -75542,6 +77767,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 7
 
 ### `saffron_rice_and_beans.step_3` (season)
 
@@ -75610,11 +77836,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `sai_bhaji_sindhi_vegetable_curry.step_3` (stir_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 9
 
 ### `sai_bhaji_sindhi_vegetable_curry.step_4` (fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 6
 
 ### `sai_bhaji_sindhi_vegetable_curry.step_5` (mix)
 
@@ -75629,6 +77857,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `sailor_s_sauce_hartshorne.step_2` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 1%
+- pnc_thermo_plant: 1 recipe, rounding 1%
 
 ### `sailor_s_sauce_hartshorne.step_3` (simmer)
 
@@ -75639,6 +77868,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 17% ⚠, estimated
 
 ### `saj_bread_i.step_1` (knead)
 
@@ -75662,13 +77892,14 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `saj_bread_ii.step_1` (mix)
 
-- create_mixing: 3 recipes, rounding 5%
+- create_mixing: 4 recipes, rounding 5%
 - shapeless_crafting: none, whole items would distort it by 534%
 
 ### `saj_bread_ii.step_2` (ferment)
 
 - vd_fermenting_jar: 1 recipe, rounding 5%
 - bnc_keg: none, can't make the mod's own saj_bread_ii_step_2, and no other mod provides it
+- pnc_thermo_plant: 1 recipe, rounding 16% ⚠
 
 ### `saj_bread_ii.step_3` (shape)
 
@@ -75689,6 +77920,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - vd_fermenting_jar: 1 recipe, rounding 2%
 - bnc_keg: none, can't make the mod's own saj_bread_iii_step_2, and no other mod provides it
+- pnc_thermo_plant: 1 recipe, rounding 2%
 
 ### `saj_bread_iii.step_3` (shape)
 
@@ -75708,11 +77940,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 11%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 5
 
 ### `saka_saka_cassava_leaf_stew.step_4` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 1%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `saka_saka_cassava_leaf_stew.step_5` (mix)
 
@@ -75778,6 +78012,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: 1 recipe, rounding 0%
 
 ### `salata_de_boeuf_romanian_beef_salad.step_12` (coat)
 
@@ -75830,7 +78065,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `salata_de_boeuf_romanian_beef_salad.step_9` (whisk)
 
-- create_mixing: 1 recipe, rounding 0%, estimated
+- create_mixing: 2 recipes, rounding 0%, estimated
 
 ### `salata_hara_libyan_spicy_salad.step_1` (mix)
 
@@ -75868,6 +78103,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `salmon_cakes.step_4` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `salmon_seasoning.step_1` (mix)
 
@@ -75883,11 +78119,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 1%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `salmon_spaghetti.step_2` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 4%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `salmon_spaghetti.step_3` (mix)
 
@@ -75948,6 +78186,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 13%, estimated
+- thermal_centrifuge: 1 recipe, rounding 25% ⚠, estimated
 
 ### `salmon_with_rice_and_sauce.step_18` (assemble)
 
@@ -75988,6 +78227,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 1%, estimated
+- thermal_centrifuge: 1 recipe, rounding 9%, estimated
 
 ### `salmon_with_rice_and_sauce.step_6` (assemble)
 
@@ -76059,11 +78299,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - vd_fermenting_jar: 1 recipe, rounding 0%
 - bnc_keg: none, can't make the mod's own salsa_fermented_step_8, and no other mod provides it
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `salsa_fermented.step_9` (ferment)
 
 - vd_fermenting_jar: 1 recipe, rounding 0%
 - bnc_keg: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `salsa_fresca.step_1` (chop)
 
@@ -76117,6 +78359,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 5
 
 ### `salt_cod_and_potato_casserole_bacalhau_a_gomes_de_sa.step_5` (assemble)
 
@@ -76177,6 +78420,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 10%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 5
 
 ### `salt_cod_and_potato_casserole_bacalhau_a_ze_do_pipo.step_9` (assemble)
 
@@ -76186,11 +78430,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `salted_fish_fried_rice.step_1` (stir_fry)
 
 - create_heated_mixing: 1 recipe, rounding 6%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `salted_fish_fried_rice.step_2` (stir_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 5%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `salted_fish_fried_rice.step_3` (season)
 
@@ -76226,11 +78472,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 13%
+- pnc_thermo_plant: 1 recipe, rounding 13%
 
 ### `salted_mustard_greens_and_shredded_meat_noodle_soup.step_7` (stir_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 13%
+- pnc_thermo_plant: 1 recipe, rounding 13%
 
 ### `salted_mustard_greens_and_shredded_meat_noodle_soup.step_8` (simmer)
 
@@ -76287,6 +78535,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 2%
+- pnc_thermo_plant: 1 recipe, rounding 2%
 
 ### `sambal_tempoyak_anchovies_with_fermented_durian_chili_paste.step_2` (grind)
 
@@ -76295,6 +78544,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `sambal_tempoyak_anchovies_with_fermented_durian_chili_paste.step_3` (stir_fry)
 
 - create_heated_mixing: 1 recipe, rounding 1%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `sambal_tempoyak_anchovies_with_fermented_durian_chili_paste.step_4` (simmer)
 
@@ -76319,6 +78569,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `sambar_i.step_3` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 5
 
 ### `sambar_i.step_4` (simmer)
 
@@ -76333,10 +78584,12 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `sambar_ii_kerala_tamil_style.step_2` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 69% ⚠, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 6
 
 ### `sambar_ii_kerala_tamil_style.step_3` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 0%, estimated
 
 ### `sambar_ii_kerala_tamil_style.step_4` (boil)
 
@@ -76377,6 +78630,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 15% ⚠, estimated
+- thermal_centrifuge: none, takes one input, not 2
 
 ### `sambar_iii.step_3` (heat)
 
@@ -76387,11 +78641,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 1%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 7
 
 ### `sambar_iii.step_5` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 4%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `sambar_iii.step_6` (mix)
 
@@ -76422,11 +78678,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 5
 
 ### `samosa.step_3` (stir_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `samosa.step_4` (season)
 
@@ -76456,6 +78714,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `samosa.step_9` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 2 recipes, rounding 0%
 
 ### `samp_and_beans.step_1` (rinse)
 
@@ -76470,6 +78729,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `samp_and_beans.step_3` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 4%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `samp_and_beans.step_4` (simmer)
 
@@ -76490,11 +78750,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - vd_fermenting_jar: 1 recipe, rounding 1%
 - bnc_keg: none, can't make the mod's own grape_ferment, and no other mod provides it
+- pnc_thermo_plant: 1 recipe, rounding 32% ⚠
 
 ### `san_francisco_sourdough_bread.step_10` (ferment)
 
 - vd_fermenting_jar: 1 recipe, rounding 9%
 - bnc_keg: none, can't make the mod's own san_francisco_sourdough_bread_step_10, and no other mod provides it
+- pnc_thermo_plant: 1 recipe, rounding 9%
 
 ### `san_francisco_sourdough_bread.step_11` (shape)
 
@@ -76505,6 +78767,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - vd_fermenting_jar: 1 recipe, rounding 9%
 - bnc_keg: none, can't make the mod's own san_francisco_sourdough_bread_step_12, and no other mod provides it
+- pnc_thermo_plant: 1 recipe, rounding 9%
 
 ### `san_francisco_sourdough_bread.step_13` (coat)
 
@@ -76525,6 +78788,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 12%, estimated
+- thermal_centrifuge: 1 recipe, rounding 12%, estimated
 
 ### `san_francisco_sourdough_bread.step_3` (mix)
 
@@ -76535,16 +78799,19 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - vd_fermenting_jar: 1 recipe, rounding 17% ⚠, estimated
 - bnc_keg: none, can't make the mod's own san_francisco_sourdough_bread_step_4, and no other mod provides it
+- pnc_thermo_plant: 1 recipe, rounding 10%, estimated
 
 ### `san_francisco_sourdough_bread.step_5` (ferment)
 
 - vd_fermenting_jar: 1 recipe, rounding 6%, estimated
 - bnc_keg: none, can't make the mod's own san_francisco_sourdough_bread_step_5, and no other mod provides it
+- pnc_thermo_plant: 1 recipe, rounding 1%, estimated
 
 ### `san_francisco_sourdough_bread.step_6` (ferment)
 
 - vd_fermenting_jar: 1 recipe, rounding 6%, estimated
 - bnc_keg: none, can't make the mod's own san_francisco_sourdough_bread_step_6, and no other mod provides it
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `san_francisco_sourdough_bread.step_7` (mix)
 
@@ -76592,6 +78859,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `sancocho_dominican_meat_and_vegetable_soup.step_4` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 1%
+- pnc_thermo_plant: 1 recipe, rounding 1%
 
 ### `sancocho_dominican_meat_and_vegetable_soup.step_5` (boil)
 
@@ -76687,6 +78955,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 11%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 5
 
 ### `sarmale_romanian_cabbage_rolls.step_2` (mix)
 
@@ -76737,6 +79006,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 17% ⚠, estimated
 
 ### `sarsaparilla_soda.step_4` (mix)
 
@@ -76772,6 +79042,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 5
 
 ### `sauce_feuilles_greens_stew.step_5` (heat)
 
@@ -76782,6 +79053,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `sauce_feuilles_greens_stew.step_7` (simmer)
 
@@ -76816,11 +79088,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 5
 
 ### `sauce_gombo_okra_stew.step_4` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `sauce_gombo_okra_stew.step_5` (mix)
 
@@ -76911,6 +79185,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: 1 recipe, rounding 0%
 
 ### `sauerkraut_i.step_10` (age)
 
@@ -76926,6 +79201,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 14%
+- thermal_press: none, doesn't fit in 1 input items and 1000 mB tanks at any scale
 
 ### `sauerkraut_i.step_5` (season)
 
@@ -76936,26 +79212,31 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 13%
+- thermal_press: none, doesn't fit in 1 input items and 1000 mB tanks at any scale
 
 ### `sauerkraut_i.step_7` (press)
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 13%
+- thermal_press: none, doesn't fit in 1 input items and 1000 mB tanks at any scale
 
 ### `sauerkraut_i.step_8` (ferment)
 
 - vd_fermenting_jar: 1 recipe, rounding 13%
 - bnc_keg: none, can't make the mod's own sauerkraut_i_step_8, and no other mod provides it
+- pnc_thermo_plant: none, doesn't fit in 1 input items and 1000 mB tanks at any scale
 
 ### `sauerkraut_i.step_9` (ferment)
 
 - vd_fermenting_jar: 1 recipe, rounding 6%
 - bnc_keg: none, can't make the mod's own sauerkraut_i_step_9, and no other mod provides it
+- pnc_thermo_plant: none, doesn't fit in 1 input items and 1000 mB tanks at any scale
 
 ### `sauerkraut_ii.step_1` (separate)
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 6%
+- thermal_centrifuge: 1 recipe, rounding 6%
 
 ### `sauerkraut_ii.step_2` (cut)
 
@@ -76976,21 +79257,25 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 3%
+- thermal_press: none, doesn't fit in 1 input items and 1000 mB tanks at any scale
 
 ### `sauerkraut_ii.step_6` (press)
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 3%
+- thermal_press: none, doesn't fit in 1 input items and 1000 mB tanks at any scale
 
 ### `sauerkraut_ii.step_7` (ferment)
 
 - vd_fermenting_jar: 1 recipe, rounding 3%
 - bnc_keg: none, can't make the mod's own sauerkraut_ii_step_7, and no other mod provides it
+- pnc_thermo_plant: none, doesn't fit in 1 input items and 1000 mB tanks at any scale
 
 ### `sauerkraut_ii.step_8` (ferment)
 
 - vd_fermenting_jar: 1 recipe, rounding 3%
 - bnc_keg: 1 recipe, rounding 3%
+- pnc_thermo_plant: none, doesn't fit in 1 input items and 1000 mB tanks at any scale
 
 ### `sauerkraut_pierogi_filling.step_1` (boil)
 
@@ -77001,6 +79286,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_press: 1 recipe, rounding 0%
 
 ### `sauerkraut_pierogi_filling.step_3` (chop)
 
@@ -77010,6 +79296,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `sauerkraut_pierogi_filling.step_4` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 5
 
 ### `sauerkraut_pierogi_filling.step_5` (simmer)
 
@@ -77030,11 +79317,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 1%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `sausage_and_tortellini_soup.step_3` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 1%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `sausage_and_tortellini_soup.step_4` (assemble)
 
@@ -77045,6 +79334,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 2%
+- pnc_thermo_plant: 1 recipe, rounding 2%
 
 ### `sausage_and_tortellini_soup.step_6` (mix)
 
@@ -77065,6 +79355,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 1%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `sausage_egg_breakfast_dish.step_3` (whisk)
 
@@ -77184,6 +79475,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 1%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 7
 
 ### `sauteed_morels.step_1` (season)
 
@@ -77194,6 +79486,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 5%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `sauteed_morels.step_4` (coat)
 
@@ -77204,6 +79497,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 1%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `savory_mustard_sauce.step_2` (mix)
 
@@ -77273,6 +79567,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 5
 
 ### `sayadeya_egyptian_fish_with_rice.step_5` (coat)
 
@@ -77377,11 +79672,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 18% ⚠, estimated
 
 ### `scorched_rice.step_12` (separate)
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 1%, estimated
+- thermal_centrifuge: 1 recipe, rounding 32% ⚠, estimated
 
 ### `scorched_rice.step_2` (soak)
 
@@ -77491,11 +79788,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `scrambled_eggs_with_herbs.step_4` (separate)
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 1%, estimated
+- thermal_centrifuge: 1 recipe, rounding 1%, estimated
 
 ### `scrambled_eggs_with_herbs.step_5` (season)
 
@@ -77529,10 +79828,12 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `scrambled_eggs_with_vegetables.step_2` (stir_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `scrambled_eggs_with_vegetables.step_3` (whisk)
 
@@ -77541,14 +79842,17 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `scrambled_eggs_with_vegetables.step_4` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 0%, estimated
 
 ### `scribbled_eggs.step_2` (fry)
 
 - create_heated_mixing: none, whole items would distort it by 2380%
+- pnc_thermo_plant: none, whole items would distort it by 2380%
 
 ### `scribbled_eggs.step_3` (pan_fry)
 
 - create_heated_mixing: none, whole items would distort it by 421%
+- pnc_thermo_plant: none, doesn't fit in 1 input items and 1000 mB tanks at any scale
 
 ### `scribbled_eggs.step_4` (whisk)
 
@@ -77557,6 +79861,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `scribbled_eggs.step_5` (stir_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 0%, estimated
 
 ### `seafood_bruschetta.step_1` (mix)
 
@@ -77591,11 +79896,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `seafood_fried_rice.step_1` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 1%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 1%, estimated
 
 ### `seafood_fried_rice.step_2` (stir_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 13%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 6
 
 ### `seafood_fried_rice.step_3` (mix)
 
@@ -77616,6 +79923,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 6%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 7
 
 ### `seafood_gumbo.step_3` (whisk)
 
@@ -77663,6 +79971,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: 1 recipe, rounding 0%
 
 ### `seafood_kebabs_with_zhoug_sauce.step_6` (grill)
 
@@ -77717,6 +80026,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 7%
+- pnc_thermo_plant: 1 recipe, rounding 7%
 
 ### `seared_chicken_breast_with_brandy_cream_sauce.step_3` (bake)
 
@@ -77756,6 +80066,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 13%
+- pnc_thermo_plant: 1 recipe, rounding 13%
 
 ### `seared_duck_breast_with_pinot_noir_reduction.step_3` (bake)
 
@@ -77815,11 +80126,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `seblak.step_5` (stir_fry)
 
-- create_heated_mixing: 1 recipe, rounding 1%
+- create_heated_mixing: 2 recipes, rounding 1%
+- pnc_thermo_plant: 2 recipes, rounding 1%
 
 ### `seblak.step_6` (stir_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `seblak.step_7` (mix)
 
@@ -77845,11 +80158,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 1%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `sega_wat_spicy_ethiopian_beef_stew.step_3` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `sega_wat_spicy_ethiopian_beef_stew.step_4` (season)
 
@@ -77894,6 +80209,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `seitan_bratwurst.step_4` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 13%
+- pnc_thermo_plant: 2 recipes, rounding 13%
 
 ### `seitan_burger.step_1` (mix)
 
@@ -77929,6 +80245,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 4%
+- pnc_thermo_plant: 1 recipe, rounding 12%
 
 ### `self_rising_flour.step_1` (mix)
 
@@ -77938,6 +80255,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `semmelknoedel_bavarian_bread_dumplings.step_1` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 50% ⚠
 
 ### `semmelknoedel_bavarian_bread_dumplings.step_2` (mix)
 
@@ -77993,6 +80311,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: none, whole items would distort it by 421%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 5
 
 ### `semolina_burger.step_4` (shape)
 
@@ -78013,6 +80332,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: none, whole items would distort it by 635%
+- pnc_thermo_plant: none, whole items would distort it by 635%
 
 ### `semolina_minestrone.step_2` (mix)
 
@@ -78048,6 +80368,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - vd_fermenting_jar: 1 recipe, rounding 6%, estimated
 - bnc_keg: none, can't make the mod's own serbian_flatbread_lepinja_step_1, and no other mod provides it
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `serbian_flatbread_lepinja.step_2` (mix)
 
@@ -78063,6 +80384,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - vd_fermenting_jar: 1 recipe, rounding 6%
 - bnc_keg: none, can't make the mod's own serbian_flatbread_lepinja_step_4, and no other mod provides it
+- pnc_thermo_plant: 1 recipe, rounding 6%
 
 ### `serbian_flatbread_lepinja.step_5` (knead)
 
@@ -78149,7 +80471,8 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `sesame_shrimp_toast.step_9` (fry)
 
-- create_heated_mixing: 1 recipe, rounding 1%
+- create_heated_mixing: 2 recipes, rounding 1%
+- pnc_thermo_plant: 2 recipes, rounding 1%
 
 ### `sese_plaintains_cameroonian_plantain_stew.step_3` (boil)
 
@@ -78218,6 +80541,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 4%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `seviyan_ji_khirni_sindhi_vermicelli_pudding.step_2` (simmer)
 
@@ -78267,6 +80591,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 1%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `shahan_ful.step_7` (mix)
 
@@ -78287,6 +80612,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 1%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 5
 
 ### `shakshuka.step_2` (season)
 
@@ -78321,11 +80647,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 1%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `shakshuka_bil_lahm_libyan_meat_shakshuka.step_3` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `shakshuka_bil_lahm_libyan_meat_shakshuka.step_4` (mix)
 
@@ -78366,6 +80694,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 5
 
 ### `shakshuka_i.step_3` (boil)
 
@@ -78384,6 +80713,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `shakshuka_ii.step_1` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 1%
+- pnc_thermo_plant: 1 recipe, rounding 1%
 
 ### `shakshuka_ii.step_2` (mix)
 
@@ -78408,11 +80738,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 1%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `sharba_libya_libyan_soup.step_2` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `sharba_libya_libyan_soup.step_3` (mix)
 
@@ -78457,11 +80789,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 6%, estimated
 
 ### `sharbat_bil_loz.step_4` (press)
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_press: 1 recipe, rounding 6%, estimated
 
 ### `sharbat_bil_loz.step_5` (mix)
 
@@ -78511,11 +80845,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 17% ⚠, estimated
 
 ### `shark_fin_soup.step_7` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 1%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `shark_fin_soup.step_8` (boil)
 
@@ -78576,16 +80912,19 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 2%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `sheer_khurma.step_3` (separate)
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 1%
+- thermal_centrifuge: none, takes one input, not 2
 
 ### `sheer_khurma.step_4` (fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 13%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `sheer_khurma.step_5` (mix)
 
@@ -78625,6 +80964,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `shepherd_s_pie_i.step_2` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 1%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `shepherd_s_pie_i.step_3` (mix)
 
@@ -78685,6 +81025,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `shepherd_s_pie_iii.step_4` (simmer)
 
@@ -78790,11 +81131,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 1%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `shiro_ethiopian_spiced_chickpea_or_lentil_stew.step_3` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `shiro_ethiopian_spiced_chickpea_or_lentil_stew.step_4` (coat)
 
@@ -78824,6 +81167,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `shiro_wat_ethiopian_pea_stew.step_2` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 6%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `shiro_wat_ethiopian_pea_stew.step_3` (mix)
 
@@ -78862,7 +81206,8 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `shitha.step_2` (pan_fry)
 
-- create_heated_mixing: 1 recipe, rounding 5%, estimated
+- create_heated_mixing: 2 recipes, rounding 5%, estimated
+- pnc_thermo_plant: 2 recipes, rounding 5%, estimated
 
 ### `shitha.step_3` (heat)
 
@@ -78903,11 +81248,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 1%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `shorba_bil_lahm_libyan_meat_soup.step_3` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `shorba_bil_lahm_libyan_meat_soup.step_4` (toast)
 
@@ -79008,16 +81355,19 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: 1 recipe, rounding 0%
 
 ### `shrewsbury_cakes.step_9` (separate)
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: 1 recipe, rounding 0%
 
 ### `shrimp_and_cheese_grits.step_2` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 8
 
 ### `shrimp_and_cheese_grits.step_3` (simmer)
 
@@ -79033,6 +81383,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 1%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `shrimp_and_cheese_grits.step_6` (assemble)
 
@@ -79061,11 +81412,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `shrimp_curry.step_1` (pan_fry)
 
-- create_heated_mixing: 1 recipe, rounding 4%
+- create_heated_mixing: 2 recipes, rounding 4%
+- pnc_thermo_plant: 2 recipes, rounding 4%
 
 ### `shrimp_curry.step_2` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 1%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `shrimp_curry.step_3` (simmer)
 
@@ -79090,6 +81443,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `shrimp_fritters_accra.step_4` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 0%, estimated
 
 ### `shrimp_hooman_goan_shrimp_curry.step_1` (boil)
 
@@ -79119,11 +81473,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 12%
+- thermal_centrifuge: 1 recipe, rounding 12%
 
 ### `shrimp_scampi_angel_hair_pasta_with_lemon_and_pine_nuts.step_4` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 12%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `shrimp_scampi_angel_hair_pasta_with_lemon_and_pine_nuts.step_5` (season)
 
@@ -79203,11 +81559,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `simple_biryani.step_2` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 6
 
 ### `simple_biryani.step_3` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 13%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 5
 
 ### `simple_biryani.step_4` (mix)
 
@@ -79248,6 +81606,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: 1 recipe, rounding 0%
 
 ### `simple_boiled_chickpeas.step_5` (season)
 
@@ -79327,14 +81686,17 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `simple_flatbread.step_6` (pan_fry)
 
 - create_heated_mixing: none, whole items would distort it by 3025%
+- pnc_thermo_plant: none, whole items would distort it by 3025%
 
 ### `simple_flatbread.step_7` (pan_fry)
 
 - create_heated_mixing: none, whole items would distort it by 3025%
+- pnc_thermo_plant: none, whole items would distort it by 3025%
 
 ### `simple_flatbread.step_8` (pan_fry)
 
 - create_heated_mixing: none, whole items would distort it by 3025%
+- pnc_thermo_plant: none, whole items would distort it by 3025%
 
 ### `simple_italian_sausage_spaghetti_dinner.step_3` (chop)
 
@@ -79345,6 +81707,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 7%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `simple_italian_sausage_spaghetti_dinner.step_5` (dissolve)
 
@@ -79370,6 +81733,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: none, whole items would distort it by 154%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `simple_nachos.step_2` (simmer)
 
@@ -79440,6 +81804,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 1%, estimated
+- thermal_centrifuge: 1 recipe, rounding 5%, estimated
 
 ### `simple_spaghetti.step_7` (coat)
 
@@ -79469,6 +81834,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - vd_fermenting_jar: 1 recipe, rounding 6%, estimated
 - bnc_keg: none, can't make the mod's own sinasir_nigerian_rice_pancake_step_3, and no other mod provides it
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `sinasir_nigerian_rice_pancake.step_4` (mix)
 
@@ -79477,11 +81843,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `sinasir_nigerian_rice_pancake.step_6` (pan_fry)
 
-- create_heated_mixing: 1 recipe, rounding 0%, estimated
+- create_heated_mixing: 2 recipes, rounding 0%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 6%, estimated
 
 ### `sinasir_nigerian_rice_pancake.step_7` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `sincronizada_fried_ham_and_cheese_tortilla_sandwich.step_2` (assemble)
 
@@ -79491,10 +81859,12 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `sincronizada_fried_ham_and_cheese_tortilla_sandwich.step_3` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `sincronizada_fried_ham_and_cheese_tortilla_sandwich.step_4` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `sindhi_chickpea_confection.step_1` (toast)
 
@@ -79519,6 +81889,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `sindhi_fried_potatoes.step_2` (fry)
 
 - create_heated_mixing: none, whole items would distort it by 2663%
+- pnc_thermo_plant: none, whole items would distort it by 2663%
 
 ### `sindhi_fried_potatoes.step_4` (season)
 
@@ -79528,6 +81899,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `sindhi_pulao.step_1` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, whole items would distort it by 300%
 
 ### `sindhi_pulao.step_2` (season)
 
@@ -79547,6 +81919,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `sindhi_spiced_fish.step_1` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 50% ⚠
 
 ### `sindhi_spiced_fish.step_2` (mix)
 
@@ -79606,11 +81979,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `sindhi_vegetable_kofta.step_5` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `sindhi_vegetable_kofta.step_6` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 10%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `sindhi_vegetable_kofta.step_7` (boil)
 
@@ -79636,11 +82011,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `sinigang_philippine_sour_soup.step_3` (stir_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `sinigang_philippine_sour_soup.step_4` (boil)
 
@@ -79696,11 +82073,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `sirniki_russian_cheese_fritters.step_3` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `six_layer_casserole.step_1` (assemble)
 
@@ -79740,6 +82119,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `sizzling_sisig_filipino_pork_saute.step_4` (stir_fry)
 
 - create_heated_mixing: none, whole items would distort it by 154%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 6
 
 ### `sizzling_sisig_filipino_pork_saute.step_5` (season)
 
@@ -79789,6 +82169,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 1%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `skillet_lasagna.step_4` (mix)
 
@@ -79828,11 +82209,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 10%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `slasko_modro_kapusta_red_cabbage_with_onion_and_bacon.step_3` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `slasko_modro_kapusta_red_cabbage_with_onion_and_bacon.step_4` (mix)
 
@@ -79868,11 +82251,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 12%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `sloppy_joes.step_2` (strain)
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 5%
+- thermal_centrifuge: 1 recipe, rounding 5%
 
 ### `sloppy_joes.step_3` (heat)
 
@@ -79913,11 +82298,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `slow_cooker_pork_chops.step_3` (separate)
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: 1 recipe, rounding 0%
 
 ### `slow_cooker_pork_chops.step_4` (evaporate)
 
@@ -79951,6 +82338,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `slow_roasted_strip_steak.step_4` (bake)
 
@@ -80011,7 +82399,8 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `smoked_salmon_breakfast_burrito.step_2` (pan_fry)
 
-- create_heated_mixing: 1 recipe, rounding 0%, estimated
+- create_heated_mixing: 2 recipes, rounding 0%, estimated
+- pnc_thermo_plant: 2 recipes, rounding 17% ⚠, estimated
 
 ### `smoked_salmon_breakfast_burrito.step_3` (assemble)
 
@@ -80025,7 +82414,8 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `smoked_salmon_chowder.step_2` (pan_fry)
 
-- create_heated_mixing: 1 recipe, rounding 1%
+- create_heated_mixing: 2 recipes, rounding 1%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `smoked_salmon_chowder.step_3` (dissolve)
 
@@ -80090,6 +82480,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `smoking_shrimp_creole.step_2` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 5%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 5
 
 ### `smoking_shrimp_creole.step_3` (mix)
 
@@ -80114,6 +82505,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `smoky_chipotle_glazed_hot_wings.step_1` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, whole items would distort it by 2300%
 
 ### `smoky_chipotle_glazed_hot_wings.step_2` (coat)
 
@@ -80169,6 +82561,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: 1 recipe, rounding 0%
 
 ### `smore_eurasian_beef_stew.step_3` (season)
 
@@ -80192,10 +82585,12 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `smore_eurasian_beef_stew.step_7` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 1%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `smore_eurasian_beef_stew.step_8` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `smore_eurasian_beef_stew.step_9` (simmer)
 
@@ -80205,6 +82600,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `smothered_okra.step_2` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 1%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 6
 
 ### `smothered_okra.step_3` (mix)
 
@@ -80229,6 +82625,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `snails_with_garlic_butter_escargots_a_la_bourguignonne.step_5` (assemble)
 
@@ -80273,6 +82670,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 10%, estimated
+- thermal_centrifuge: none, takes one input, not 2
 
 ### `snezhanka_bulgarian_cucumber_and_yogurt_salad.step_2` (mix)
 
@@ -80527,11 +82925,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: none, doesn't fit in 1 input items and 1000 mB tanks at any scale
 
 ### `sockerdricka_swedish_ginger_drink.step_3` (ferment)
 
 - vd_fermenting_jar: 1 recipe, rounding 14%, estimated
 - bnc_keg: none, can't make the mod's own sockerdricka_swedish_ginger_drink_step_3, and no other mod provides it
+- pnc_thermo_plant: 1 recipe, rounding 0%, estimated
 
 ### `sockerdricka_swedish_ginger_drink.step_4` (assemble)
 
@@ -80623,10 +83023,12 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `soji_indian_wheat_pudding.step_4` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 1%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 13%, estimated
 
 ### `soji_indian_wheat_pudding.step_5` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 4%, estimated
 
 ### `soji_indian_wheat_pudding.step_6` (simmer)
 
@@ -80651,6 +83053,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `sopaipillas_latin_american_fried_dough.step_4` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 13%
+- pnc_thermo_plant: 2 recipes, rounding 13%
 
 ### `sopaipillas_latin_american_fried_dough.step_5` (coat)
 
@@ -80705,16 +83108,19 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 17% ⚠, estimated
 
 ### `sosso_ngondi_ground_cassava_porridge.step_1` (press)
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 3 recipes, rounding 5%, estimated
+- thermal_press: none, takes one input, not 2
 
 ### `sosso_ngondi_ground_cassava_porridge.step_2` (strain)
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 13%, estimated
+- thermal_centrifuge: none, doesn't fit in 1 input items and 1000 mB tanks at any scale
 
 ### `sosso_ngondi_ground_cassava_porridge.step_3` (blend)
 
@@ -80739,6 +83145,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 1%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 8
 
 ### `soto_ayam_indonesian_chicken_noodle_soup.step_2` (simmer)
 
@@ -80754,6 +83161,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: 1 recipe, rounding 0%
 
 ### `soto_ayam_indonesian_chicken_noodle_soup.step_6` (boil)
 
@@ -80763,11 +83171,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `soup_alla_canavese.step_2` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 12%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 6
 
 ### `soup_alla_canavese.step_3` (strain)
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: none, takes one input, not 2
 
 ### `soup_alla_canavese.step_4` (mix)
 
@@ -80788,6 +83198,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: none, whole items would distort it by 942%
+- thermal_centrifuge: none, whole items would distort it by 942%
 
 ### `soup_alla_lombarda.step_2` (mix)
 
@@ -80813,6 +83224,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `soup_du_pecheur_fisherman_soup.step_1` (boil)
 
@@ -80870,6 +83282,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: none, whole items would distort it by 2678%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `sour_cream_chili_sauce.step_1` (mix)
 
@@ -80913,11 +83326,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - vd_fermenting_jar: 1 recipe, rounding 0%
 - bnc_keg: none, can't make the mod's own sour_mashed_sweet_potato_step_7, and no other mod provides it
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `sour_mashed_sweet_potato.step_8` (ferment)
 
 - vd_fermenting_jar: 1 recipe, rounding 0%
 - bnc_keg: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `sour_mix_vegan.step_1` (mix)
 
@@ -80943,6 +83358,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - vd_fermenting_jar: 1 recipe, rounding 4%, estimated
 - bnc_keg: none, can't make the mod's own sourdough_starter_recipe_step_2, and no other mod provides it
+- pnc_thermo_plant: 1 recipe, rounding 2%, estimated
 
 ### `sourdough_starter_recipe.step_3` (mix)
 
@@ -80953,21 +83369,25 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - vd_fermenting_jar: 1 recipe, rounding 4%, estimated
 - bnc_keg: none, can't make the mod's own sourdough_starter_recipe_step_4, and no other mod provides it
+- pnc_thermo_plant: 1 recipe, rounding 2%, estimated
 
 ### `sourdough_starter_recipe.step_5` (ferment)
 
 - vd_fermenting_jar: 1 recipe, rounding 4%, estimated
 - bnc_keg: 1 recipe, rounding 4%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 10%, estimated
 
 ### `south_african_curry_and_rice.step_1` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 5%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `south_african_curry_and_rice.step_2` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `south_african_curry_and_rice.step_3` (boil)
 
@@ -81028,16 +83448,19 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_press: 1 recipe, rounding 17% ⚠, estimated
 
 ### `south_side_cocktail.step_4` (strain)
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 17% ⚠, estimated
 
 ### `south_side_fizz.step_1` (press)
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 18% ⚠
+- thermal_press: none, takes one input, not 3
 
 ### `south_side_fizz.step_2` (assemble)
 
@@ -81048,6 +83471,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 17% ⚠, estimated
 
 ### `south_side_fizz.step_5` (carbonate)
 
@@ -81062,6 +83486,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 3 recipes, rounding 2%
+- thermal_centrifuge: none, takes one input, not 2
 
 ### `south_texan_pinto_beans.step_3` (season)
 
@@ -81077,16 +83502,19 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: 1 recipe, rounding 0%
 
 ### `southern_clam_chowder.step_1` (separate)
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 5%, estimated
+- thermal_centrifuge: 1 recipe, rounding 5%, estimated
 
 ### `southern_clam_chowder.step_2` (fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 12%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `southern_clam_chowder.step_3` (mix)
 
@@ -81142,6 +83570,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 5%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `southern_fried_chicken_sliders.step_4` (assemble)
 
@@ -81152,6 +83581,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 1%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `southern_style_greens.step_3` (simmer)
 
@@ -81162,6 +83592,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 3%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 5
 
 ### `southwest_pasta.step_5` (heat)
 
@@ -81194,6 +83625,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `southwestern_scramble.step_2` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 5
 
 ### `southwestern_scramble.step_3` (coagulate)
 
@@ -81217,6 +83649,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `soy_lentil_vegetable_stew.step_3` (mix)
 
@@ -81247,6 +83680,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 1%
+- thermal_centrifuge: 1 recipe, rounding 1%
 
 ### `soy_milk_i.step_3` (blend)
 
@@ -81261,11 +83695,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_press: 1 recipe, rounding 10%, estimated
 
 ### `soy_milk_i.step_8` (press)
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 10%, estimated
+- thermal_press: 1 recipe, rounding 31% ⚠, estimated
 
 ### `soy_milk_ii.step_1` (soak)
 
@@ -81285,6 +83721,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: none, whole items would distort it by 421%
+- thermal_centrifuge: none, whole items would distort it by 421%
 
 ### `soy_milk_ii.step_5` (simmer)
 
@@ -81338,7 +83775,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `soy_protein_bread.step_2` (blend)
 
-- create_mixing: 1 recipe, rounding 1%, estimated
+- create_mixing: 2 recipes, rounding 1%, estimated
 
 ### `soy_protein_bread.step_3` (mix)
 
@@ -81354,6 +83791,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - vd_fermenting_jar: 1 recipe, rounding 0%
 - bnc_keg: none, can't make the mod's own soy_protein_bread_step_5, and no other mod provides it
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `soy_protein_bread.step_6` (shape)
 
@@ -81364,6 +83802,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - vd_fermenting_jar: 1 recipe, rounding 0%
 - bnc_keg: none, can't make the mod's own soy_protein_bread_step_7, and no other mod provides it
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `soy_protein_bread.step_8` (bake)
 
@@ -81378,6 +83817,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `soy_sauce_chicken.step_1` (pan_fry)
 
 - create_heated_mixing: none, whole items would distort it by 2924%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `soy_sauce_chicken.step_2` (season)
 
@@ -81432,6 +83872,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: 1 recipe, rounding 0%
 
 ### `spaghetti_a_la_monegasque.step_1` (simmer)
 
@@ -81461,11 +83902,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `spaghetti_aglio_e_olio.step_4` (separate)
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 17% ⚠, estimated
 
 ### `spaghetti_aglio_e_olio.step_5` (assemble)
 
@@ -81491,6 +83934,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 7%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `spaghetti_alla_carbonara.step_5` (whisk)
 
@@ -81560,16 +84004,19 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `spaghetti_and_meatballs.step_5` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `spaghetti_and_meatballs.step_6` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `spaghetti_and_meatballs.step_7` (boil)
 
@@ -81600,6 +84047,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 2%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 5
 
 ### `spaghetti_bake.step_3` (mix)
 
@@ -81635,11 +84083,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 11%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `spaghetti_pie.step_11` (separate)
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: 1 recipe, rounding 0%
 
 ### `spaghetti_pie.step_12` (mix)
 
@@ -81689,6 +84139,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 4%
+- thermal_centrifuge: 1 recipe, rounding 4%
 
 ### `spaghetti_pie.step_5` (mix)
 
@@ -81707,7 +84158,8 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `spaghetti_pie.step_9` (pan_fry)
 
-- create_heated_mixing: 1 recipe, rounding 0%
+- create_heated_mixing: 2 recipes, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `spaghetti_sauce.step_1` (grind)
 
@@ -81757,6 +84209,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: 1 recipe, rounding 0%
 
 ### `spaghetti_with_bolognese_meat_sauce.step_16` (assemble)
 
@@ -81767,6 +84220,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 7%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `spaghetti_with_bolognese_meat_sauce.step_3` (mix)
 
@@ -81781,6 +84235,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `spaghetti_with_bolognese_meat_sauce.step_5` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 15%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `spaghetti_with_bolognese_meat_sauce.step_6` (mix)
 
@@ -81854,6 +84309,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 17% ⚠, estimated
 
 ### `spaghetti_with_meat_sauce_naporitan.step_1` (boil)
 
@@ -81863,10 +84319,12 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `spaghetti_with_meat_sauce_naporitan.step_2` (stir_fry)
 
 - create_heated_mixing: 1 recipe, rounding 7%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 6
 
 ### `spaghetti_with_meat_sauce_naporitan.step_3` (stir_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `spaghetti_with_meat_sauce_naporitan.step_4` (mix)
 
@@ -81877,6 +84335,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 27% ⚠, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 10
 
 ### `spanakopita.step_4` (mix)
 
@@ -81911,14 +84370,17 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `spanish_omelet.step_10` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `spanish_omelet.step_11` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `spanish_omelet.step_12` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `spanish_omelet.step_13` (cut)
 
@@ -81928,10 +84390,12 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `spanish_omelet.step_3` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 12%
+- pnc_thermo_plant: 1 recipe, rounding 12%
 
 ### `spanish_omelet.step_4` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 1%
+- pnc_thermo_plant: none, doesn't fit in 1 input items and 1000 mB tanks at any scale
 
 ### `spanish_omelet.step_5` (whisk)
 
@@ -81946,14 +84410,17 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 17% ⚠, estimated
 
 ### `spanish_omelet.step_8` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `spanish_omelet.step_9` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `spanish_potato_omelette.step_1` (cut)
 
@@ -81964,11 +84431,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `spanish_potato_omelette.step_3` (fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `spanish_potato_omelette.step_4` (mix)
 
@@ -81979,16 +84448,19 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 17% ⚠, estimated
 
 ### `spanish_potato_omelette.step_7` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 17% ⚠, estimated
 
 ### `spanish_potato_omelette.step_8` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `spanish_rice.step_1` (toast)
 
@@ -82064,6 +84536,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - vd_fermenting_jar: 1 recipe, rounding 8%
 - bnc_keg: none, can't make the mod's own spelt_bread_step_4, and no other mod provides it
+- pnc_thermo_plant: 1 recipe, rounding 8%
 
 ### `spelt_bread.step_5` (bake)
 
@@ -82088,6 +84561,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 30% ⚠
+- pnc_thermo_plant: 1 recipe, rounding 30% ⚠
 
 ### `spelt_burger.step_5` (mix)
 
@@ -82098,6 +84572,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: none, whole items would distort it by 1090%
+- pnc_thermo_plant: none, whole items would distort it by 1090%
 
 ### `spelt_yellow_cake.step_2` (mix)
 
@@ -82177,11 +84652,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 7%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `spiced_chicken_with_sour_cream.step_4` (separate)
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: 1 recipe, rounding 0%
 
 ### `spiced_chicken_with_sour_cream.step_5` (coat)
 
@@ -82191,6 +84668,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `spiced_chicken_with_sour_cream.step_6` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `spiced_chicken_with_sour_cream.step_7` (mix)
 
@@ -82269,6 +84747,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `spiced_pumpkin_soup.step_1` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 13%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 6
 
 ### `spiced_pumpkin_soup.step_2` (simmer)
 
@@ -82312,6 +84791,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `spicy_black_beans.step_1` (stir_fry)
 
 - create_heated_mixing: 1 recipe, rounding 13%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 8
 
 ### `spicy_carrot_aioli.step_2` (blend)
 
@@ -82410,14 +84890,17 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: 1 recipe, rounding 0%
 
 ### `spicy_chicken_cutlets.step_6` (pan_fry)
 
-- create_heated_mixing: 1 recipe, rounding 1%
+- create_heated_mixing: 2 recipes, rounding 1%
+- pnc_thermo_plant: 2 recipes, rounding 1%
 
 ### `spicy_chicken_cutlets.step_7` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `spicy_chicken_cutlets.step_8` (heat)
 
@@ -82431,7 +84914,8 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `spicy_chicken_stew.step_2` (pan_fry)
 
-- create_heated_mixing: 1 recipe, rounding 10%
+- create_heated_mixing: 2 recipes, rounding 10%
+- pnc_thermo_plant: 2 recipes, rounding 17% ⚠
 
 ### `spicy_chicken_stew.step_3` (mix)
 
@@ -82461,10 +84945,12 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 10%, estimated
+- thermal_centrifuge: 1 recipe, rounding 20% ⚠, estimated
 
 ### `spicy_chickpeas.step_2` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 6%
+- pnc_thermo_plant: 1 recipe, rounding 20% ⚠
 
 ### `spicy_chickpeas.step_3` (mix)
 
@@ -82483,7 +84969,8 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `spicy_chilli_chicken.step_2` (fry)
 
-- create_heated_mixing: 1 recipe, rounding 13%
+- create_heated_mixing: 2 recipes, rounding 13%
+- pnc_thermo_plant: 2 recipes, rounding 13%
 
 ### `spicy_chilli_chicken.step_3` (cut)
 
@@ -82493,6 +84980,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `spicy_chilli_chicken.step_4` (stir_fry)
 
 - create_heated_mixing: 1 recipe, rounding 1%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 6
 
 ### `spicy_chilli_chicken.step_5` (heat)
 
@@ -82545,6 +85033,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `spicy_crab_cakes.step_3` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 5%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `spicy_feta_burger.step_1` (season)
 
@@ -82585,6 +85074,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 5%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `spicy_fried_okra.step_4` (season)
 
@@ -82594,10 +85084,12 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `spicy_fried_rice.step_1` (stir_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 6
 
 ### `spicy_fried_rice.step_2` (stir_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 8
 
 ### `spicy_fried_wings.step_1` (season)
 
@@ -82617,6 +85109,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `spicy_fried_wings.step_5` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `spicy_fried_wings.step_6` (season)
 
@@ -82625,7 +85118,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `spicy_garlic_oil.step_1` (mix)
 
-- create_mixing: 1 recipe, rounding 4%, estimated
+- create_mixing: 2 recipes, rounding 4%, estimated
 - shapeless_crafting: none, whole items would distort it by 1900%
 
 ### `spicy_garlic_oil.step_2` (steep)
@@ -82638,6 +85131,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 17% ⚠, estimated
 
 ### `spicy_grilled_duck_breasts.step_1` (season)
 
@@ -82671,6 +85165,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `spicy_mexican_omelet.step_4` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: none, doesn't fit in 1 input items and 1000 mB tanks at any scale
 
 ### `spicy_mexican_omelet.step_5` (fold)
 
@@ -82701,6 +85196,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 1%, estimated
+- thermal_centrifuge: 1 recipe, rounding 9%, estimated
 
 ### `spicy_miso_udon.step_3` (boil)
 
@@ -82711,6 +85207,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 5
 
 ### `spicy_miso_udon.step_5` (mix)
 
@@ -82741,6 +85238,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 1%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `spicy_placenta_with_rice_noodles.step_2` (mix)
 
@@ -82751,6 +85249,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 4%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `spicy_placenta_with_rice_noodles.step_4` (season)
 
@@ -82771,6 +85270,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 6%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `spicy_plantain_chips.step_3` (season)
 
@@ -82780,10 +85280,12 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `spicy_roast_brisket.step_1` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 1%
+- pnc_thermo_plant: 2 recipes, rounding 20% ⚠
 
 ### `spicy_roast_brisket.step_2` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 7%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `spicy_roast_brisket.step_3` (season)
 
@@ -82853,6 +85355,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `spinach_and_ricotta_lasagna.step_11` (boil)
 
@@ -82913,6 +85416,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: none, takes one input, not 2
 
 ### `spinach_and_ricotta_lasagna.step_7` (whisk)
 
@@ -82922,11 +85426,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 2%
+- thermal_press: none, takes one input, not 2
 
 ### `spinach_and_ricotta_ravioli_filling.step_1` (press)
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 6%
+- thermal_press: 1 recipe, rounding 29% ⚠
 
 ### `spinach_and_ricotta_ravioli_filling.step_2` (mix)
 
@@ -82991,11 +85497,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 17% ⚠, estimated
 
 ### `spinach_fritters.step_7` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `spinach_mushroom_omelet.step_1` (whisk)
 
@@ -83004,11 +85512,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `spinach_mushroom_omelet.step_3` (stir_fry)
 
 - create_heated_mixing: 1 recipe, rounding 6%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 5
 
 ### `spinach_mushroom_omelet.step_4` (stir_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `spinach_mushroom_omelet.step_6` (coagulate)
 
@@ -83033,11 +85543,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 6%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `spinach_mushroom_pesto_spaghetti.step_4` (stir_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 14%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 5
 
 ### `spinach_mushroom_pesto_spaghetti.step_5` (mix)
 
@@ -83058,6 +85570,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, whole items would distort it by 700%
 
 ### `spinach_pesto_linguine.step_2` (blend)
 
@@ -83077,6 +85590,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `spinach_pesto_linguine.step_6` (assemble)
 
@@ -83092,6 +85606,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `spinach_pie_pascualina.step_3` (mix)
 
@@ -83334,6 +85849,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: 1 recipe, rounding 0%
 
 ### `sprout_salad.step_7` (assemble)
 
@@ -83363,6 +85879,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 13%
+- thermal_centrifuge: 1 recipe, rounding 15% ⚠
 
 ### `sriracha_oatmeal_and_lentils.step_3` (grind)
 
@@ -83396,6 +85913,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: none, whole items would distort it by 2924%
+- thermal_centrifuge: none, whole items would distort it by 2924%
 
 ### `stargazy_pie.step_2` (season)
 
@@ -83434,10 +85952,12 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `steak_and_ale_pie.step_2` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `steak_and_ale_pie.step_3` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `steak_and_ale_pie.step_4` (coat)
 
@@ -83507,6 +86027,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `steak_and_mushrooms.step_3` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 24% ⚠, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 5
 
 ### `steak_and_pepper_stir_fry.step_1` (season)
 
@@ -83517,11 +86038,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 4 recipes, rounding 5%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `steak_and_pepper_stir_fry.step_3` (stir_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 27% ⚠, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 7
 
 ### `steak_and_pepper_stir_fry.step_4` (heat)
 
@@ -83532,6 +86055,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 6%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 9
 
 ### `steak_and_peppers.step_2` (simmer)
 
@@ -83562,6 +86086,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 0%, estimated
 
 ### `steak_and_wine_pie.step_13` (assemble)
 
@@ -83601,11 +86126,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `steak_and_wine_pie.step_7` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 0%, estimated
 
 ### `steak_and_wine_pie.step_8` (stir_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 8
 
 ### `steak_and_wine_pie.step_9` (mix)
 
@@ -83620,6 +86147,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `steak_au_poivre_pepper_steak.step_2` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 13%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `steak_au_poivre_pepper_steak.step_3` (heat)
 
@@ -83754,6 +86282,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: none, whole items would distort it by 421%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `steak_tacos.step_2` (heat)
 
@@ -83798,6 +86327,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 17% ⚠, estimated
 
 ### `steamed_artichoke.step_3` (coat)
 
@@ -83823,6 +86353,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: 1 recipe, rounding 0%
 
 ### `steamed_artichoke.step_9` (cut)
 
@@ -83868,6 +86399,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 4%, estimated
+- thermal_centrifuge: 1 recipe, rounding 16% ⚠, estimated
 
 ### `steamed_buns_with_bbq_pork.step_1` (assemble)
 
@@ -83883,6 +86415,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - vd_fermenting_jar: 1 recipe, rounding 11%
 - bnc_keg: none, can't make the mod's own steamed_buns_with_bbq_pork_step_11, and no other mod provides it
+- pnc_thermo_plant: 1 recipe, rounding 11%
 
 ### `steamed_buns_with_bbq_pork.step_12` (steam)
 
@@ -83897,6 +86430,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - vd_fermenting_jar: 1 recipe, rounding 41% ⚠, estimated
 - bnc_keg: none, can't make the mod's own steamed_buns_with_bbq_pork_step_3, and no other mod provides it
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `steamed_buns_with_bbq_pork.step_4` (mix)
 
@@ -83912,11 +86446,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - vd_fermenting_jar: 1 recipe, rounding 11%
 - bnc_keg: none, can't make the mod's own steamed_buns_with_bbq_pork_step_6, and no other mod provides it
+- pnc_thermo_plant: 1 recipe, rounding 11%
 
 ### `steamed_buns_with_bbq_pork.step_7` (separate)
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 11%
+- thermal_centrifuge: 1 recipe, rounding 11%
 
 ### `steamed_buns_with_bbq_pork.step_8` (shape)
 
@@ -83945,11 +86481,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `steamed_pork_with_mustard_greens.step_5` (stir_fry)
 
-- create_heated_mixing: 1 recipe, rounding 13%, estimated
+- create_heated_mixing: 2 recipes, rounding 13%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `steamed_pork_with_mustard_greens.step_6` (stir_fry)
 
 - create_heated_mixing: 1 recipe, rounding 12%
+- pnc_thermo_plant: 1 recipe, rounding 16% ⚠
 
 ### `steamed_pork_with_mustard_greens.step_7` (simmer)
 
@@ -84010,6 +86548,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 1%, estimated
+- thermal_centrifuge: 1 recipe, rounding 6%, estimated
 
 ### `steamed_sweet_rice.step_7` (steam)
 
@@ -84045,6 +86584,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - vd_fermenting_jar: 1 recipe, rounding 0%
 - bnc_keg: none, can't make the mod's own steamed_tuna_bao_buns_step_12, and no other mod provides it
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `steamed_tuna_bao_buns.step_13` (shape)
 
@@ -84085,11 +86625,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - vd_fermenting_jar: 1 recipe, rounding 0%
 - bnc_keg: none, can't make the mod's own steamed_tuna_bao_buns_step_6, and no other mod provides it
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `steamed_tuna_bao_buns.step_7` (ferment)
 
 - vd_fermenting_jar: 1 recipe, rounding 0%
 - bnc_keg: none, can't make the mod's own steamed_tuna_bao_buns_step_7, and no other mod provides it
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `steamed_tuna_bao_buns.step_8` (mix)
 
@@ -84105,6 +86647,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: none, whole items would distort it by 2300%
 
 ### `stewed_oysters_i.step_2` (season)
 
@@ -84125,6 +86668,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: none, whole items would distort it by 2300%
 
 ### `stewed_oysters_ii.step_2` (mix)
 
@@ -84280,40 +86824,48 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `stir_fried_potatoes.stir_fry` (stir_fry)
 
-- create_heated_mixing: 1 recipe, rounding 12%
+- create_heated_mixing: 2 recipes, rounding 12%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 5
 
 ### `stir_fried_seafood_with_noodles.step_1` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 1%
+- pnc_thermo_plant: 1 recipe, rounding 50% ⚠
 
 ### `stir_fried_seafood_with_noodles.step_2` (stir_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 13%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `stir_fried_seafood_with_noodles.step_3` (stir_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `stir_fried_seafood_with_noodles.step_4` (stir_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `stir_fried_seafood_with_noodles.step_5` (stir_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 7%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 8
 
 ### `stir_fried_shrimp_with_broccoli.step_1` (fry)
 
-- create_heated_mixing: 1 recipe, rounding 1%, estimated
+- create_heated_mixing: 2 recipes, rounding 1%, estimated
+- pnc_thermo_plant: 2 recipes, rounding 1%, estimated
 
 ### `stir_fried_shrimp_with_broccoli.step_2` (stir_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 76% ⚠, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 6
 
 ### `stir_fried_tomato_and_scrambled_eggs.step_1` (boil)
 
@@ -84332,10 +86884,12 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `stir_fried_tomato_and_scrambled_eggs.step_5` (stir_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, doesn't fit in 1 input items and 1000 mB tanks at any scale
 
 ### `stir_fried_tomato_and_scrambled_eggs.step_6` (stir_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `stir_fried_tomato_and_scrambled_eggs.step_7` (simmer)
 
@@ -84355,10 +86909,12 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `stoofvlees_flemish_beef_stew.step_3` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: none, doesn't fit in 1 input items and 1000 mB tanks at any scale
 
 ### `stoofvlees_flemish_beef_stew.step_4` (fry)
 
 - create_heated_mixing: 2 recipes, rounding 0%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `stoofvlees_flemish_beef_stew.step_5` (season)
 
@@ -84399,6 +86955,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 4%, estimated
+- thermal_centrifuge: 1 recipe, rounding 17% ⚠, estimated
 
 ### `stovetop_barley_ii.step_1` (rinse)
 
@@ -84424,6 +86981,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: none, whole items would distort it by 381%
+- thermal_centrifuge: none, whole items would distort it by 1102%
 
 ### `stovetop_mac_n_cheese.step_2` (heat)
 
@@ -84448,6 +87006,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `stovies.step_2` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `stovies.step_3` (steam)
 
@@ -84458,6 +87017,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 1%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 7
 
 ### `stracciatella_i.step_2` (mix)
 
@@ -84500,6 +87060,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: none, takes one input, not 2
 
 ### `strawberry_and_banana_smoothie.step_3` (blend)
 
@@ -84562,6 +87123,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: 1 recipe, rounding 0%
 
 ### `strawberry_dumplings.step_15` (boil)
 
@@ -84646,6 +87208,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `strawberry_frozen_yogurt.step_11` (churn)
 
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 17% ⚠, estimated
 
 ### `strawberry_frozen_yogurt.step_2` (cut)
 
@@ -84661,6 +87224,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 0%, estimated
 
 ### `strawberry_frozen_yogurt.step_5` (mix)
 
@@ -84696,6 +87260,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 8%, estimated
 
 ### `strawberry_hibiscus_beverage.step_4` (blend)
 
@@ -84817,6 +87382,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 10%
+- thermal_centrifuge: 1 recipe, rounding 10%
 
 ### `strawberry_shortcake.step_6` (shape)
 
@@ -84880,6 +87446,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `strip_steaks_with_pepper_cream_reduction.step_3` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 11%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 11%, estimated
 
 ### `strip_steaks_with_pepper_cream_reduction.step_4` (heat)
 
@@ -84933,6 +87500,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - vd_fermenting_jar: 1 recipe, rounding 0%, estimated
 - bnc_keg: none, can't make the mod's own stroopwafels_step_4, and no other mod provides it
+- pnc_thermo_plant: 1 recipe, rounding 0%, estimated
 
 ### `stroopwafels.step_5` (bake)
 
@@ -84991,7 +87559,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `struffoli_neapolitan_honey_fried_dough.step_1` (mix)
 
-- create_mixing: 1 recipe, rounding 6%
+- create_mixing: 2 recipes, rounding 6%
 - shapeless_crafting: none, whole items would distort it by 463%
 
 ### `struffoli_neapolitan_honey_fried_dough.step_2` (shape)
@@ -85002,6 +87570,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `struffoli_neapolitan_honey_fried_dough.step_3` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: none, doesn't fit in 1 input items and 1000 mB tanks at any scale
 
 ### `struffoli_neapolitan_honey_fried_dough.step_4` (coat)
 
@@ -85012,6 +87581,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 4%
+- pnc_thermo_plant: 1 recipe, rounding 4%
 
 ### `stuffed_crabs_casquinha_de_siri.step_2` (simmer)
 
@@ -85126,10 +87696,12 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `stuffed_french_toast.step_3` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 13%, estimated
+- pnc_thermo_plant: none, doesn't fit in 1 input items and 1000 mB tanks at any scale
 
 ### `stuffed_french_toast.step_4` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `stuffed_grape_leaves.step_1` (soak)
 
@@ -85195,6 +87767,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 4 recipes, rounding 6%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 9
 
 ### `stuffed_kabocha_squash.step_4` (bake)
 
@@ -85228,13 +87801,14 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `stuffed_peppers.step_5` (bake)
 
-- smelting: 1 recipe, rounding 0%
-- smoking: 1 recipe, rounding 0%
+- smelting: 2 recipes, rounding 0%
+- smoking: 2 recipes, rounding 0%
 
 ### `stuffed_peppers_vegetarian.step_2` (fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `stuffed_peppers_vegetarian.step_3` (mix)
 
@@ -85320,6 +87894,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 14%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 5
 
 ### `stuffed_squash.step_7` (toast)
 
@@ -85390,16 +87965,19 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: 1 recipe, rounding 0%
 
 ### `stuffed_zucchini.step_6` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 6%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 6
 
 ### `stuffed_zucchini.step_7` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 4%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `stuffed_zucchini.step_8` (mix)
 
@@ -85484,6 +88062,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `sukiyaki.step_6` (season)
 
@@ -85498,10 +88077,12 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `sukuma_wiki_east_african_greens.step_1` (stir_fry)
 
 - create_heated_mixing: 1 recipe, rounding 27% ⚠, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `sukuma_wiki_east_african_greens.step_2` (stir_fry)
 
 - create_heated_mixing: 1 recipe, rounding 6%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 5
 
 ### `sukuma_wiki_east_african_greens.step_3` (mix)
 
@@ -85511,6 +88092,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `sukuma_wiki_east_african_greens.step_4` (stir_fry)
 
 - create_heated_mixing: 1 recipe, rounding 6%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `sukuma_wiki_east_african_greens.step_5` (season)
 
@@ -85584,6 +88166,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: none, takes one input, not 2
 
 ### `sunshine_cake.step_5` (mix)
 
@@ -85649,11 +88232,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_press: 1 recipe, rounding 17% ⚠, estimated
 
 ### `supercharger_tea.step_5` (press)
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_press: 1 recipe, rounding 17% ⚠, estimated
 
 ### `supercharger_tea.step_6` (mix)
 
@@ -85705,7 +88290,8 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `supu_ya_ndizi.step_4` (pan_fry)
 
-- create_heated_mixing: 1 recipe, rounding 1%
+- create_heated_mixing: 2 recipes, rounding 1%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `supu_ya_ndizi.step_5` (heat)
 
@@ -85739,22 +88325,26 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `suqaar_somali_spiced_meat_stir_fry.step_2` (pan_fry)
 
-- create_heated_mixing: 1 recipe, rounding 1%
+- create_heated_mixing: 2 recipes, rounding 1%
+- pnc_thermo_plant: 2 recipes, rounding 1%
 
 ### `suqaar_somali_spiced_meat_stir_fry.step_3` (stir_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `suqaar_somali_spiced_meat_stir_fry.step_4` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 1%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `suqaar_somali_spiced_meat_stir_fry.step_5` (stir_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `suqaar_somali_spiced_meat_stir_fry.step_6` (coat)
 
@@ -85808,6 +88398,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 5
 
 ### `surinamese_chicken_pot_pie_pastei.step_11` (mix)
 
@@ -85873,6 +88464,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: 1 recipe, rounding 0%
 
 ### `surinamese_chicken_pot_pie_pastei.step_8` (mix)
 
@@ -85882,6 +88474,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `surinamese_chicken_pot_pie_pastei.step_9` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 0%, estimated
 
 ### `sushi_rice.step_10` (coat)
 
@@ -85932,6 +88525,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 17% ⚠, estimated
 
 ### `svelekake_norwegian_yogurt_pancakes.step_1` (mix)
 
@@ -85947,15 +88541,18 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 17% ⚠, estimated
 
 ### `swedish_cabbage_soup_kalsoppa.step_3` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: none, doesn't fit in 1 input items and 1000 mB tanks at any scale
 
 ### `swedish_cabbage_soup_kalsoppa.step_4` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 5%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `swedish_cabbage_soup_kalsoppa.step_5` (season)
 
@@ -85985,6 +88582,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `swedish_meatballs_i.step_4` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: none, doesn't fit in 1 input items and 1000 mB tanks at any scale
 
 ### `swedish_meatballs_ii.step_1` (mix)
 
@@ -85999,6 +88597,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `swedish_meatballs_ii.step_3` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 69% ⚠, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `swedish_meatballs_ii.step_4` (mix)
 
@@ -86013,6 +88612,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `swedish_meatballs_ii.step_6` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `swedish_meatballs_ii.step_7` (heat)
 
@@ -86043,6 +88643,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_press: 1 recipe, rounding 17% ⚠, estimated
 
 ### `sweet_and_sour_chinese_pork.step_4` (coat)
 
@@ -86053,26 +88654,31 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `sweet_and_sour_chinese_pork.step_6` (stir_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `sweet_and_sour_chinese_pork.step_7` (separate)
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: 1 recipe, rounding 0%
 
 ### `sweet_and_sour_chinese_pork.step_8` (stir_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 90% ⚠, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `sweet_and_sour_chinese_pork.step_9` (stir_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `sweet_and_sour_fish_casserole.step_1` (mix)
 
@@ -86091,12 +88697,14 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `sweet_and_sour_fish_casserole.step_3` (pan_fry)
 
-- create_heated_mixing: 1 recipe, rounding 0%, estimated
+- create_heated_mixing: 2 recipes, rounding 0%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `sweet_and_sour_fish_casserole.step_4` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `sweet_and_sour_fish_casserole.step_5` (assemble)
 
@@ -86112,6 +88720,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `sweet_and_sour_fish_casserole.step_8` (coat)
 
@@ -86186,6 +88795,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `sweet_and_spicy_asian_chicken.step_2` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `sweet_and_spicy_asian_chicken.step_3` (coat)
 
@@ -86201,6 +88811,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 4 recipes, rounding 2%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `sweet_and_spicy_shrimp.step_3` (coat)
 
@@ -86220,6 +88831,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: none, whole items would distort it by 594%
+- thermal_centrifuge: none, whole items would distort it by 594%
 
 ### `sweet_charoset.step_1` (mix)
 
@@ -86262,6 +88874,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `sweet_italian_sausage_skillet.step_2` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 7%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `sweet_italian_sausage_skillet.step_3` (simmer)
 
@@ -86343,6 +88956,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `sweet_masa_bites_with_hazelnut_chocolate_dipping_sauce.step_7` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 0%, estimated
 
 ### `sweet_mole_with_vanilla_bean_ice_cream.step_2` (blend)
 
@@ -86352,6 +88966,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: 1 recipe, rounding 0%
 
 ### `sweet_mole_with_vanilla_bean_ice_cream.step_4` (mix)
 
@@ -86367,6 +88982,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 17% ⚠, estimated
 
 ### `sweet_mole_with_vanilla_bean_ice_cream.step_7` (mix)
 
@@ -86377,6 +88993,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 0%, estimated
 
 ### `sweet_omelette.step_3` (whisk)
 
@@ -86391,6 +89008,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 17% ⚠, estimated
 
 ### `sweet_omelette.step_6` (bake)
 
@@ -86543,6 +89161,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `sweet_potatoes_sauteed_with_honey.step_7` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `sweet_pumpkin_scones.step_1` (mix)
 
@@ -86592,6 +89211,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `sweet_rice_fritters.step_2` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 5%
+- pnc_thermo_plant: none, whole items would distort it by 200%
 
 ### `sweet_rice_fritters.step_4` (coat)
 
@@ -86656,6 +89276,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: 1 recipe, rounding 0%
 
 ### `sweet_southern_chicken_salad.step_4` (cut)
 
@@ -86755,16 +89376,19 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `sylheti_beef_curry.step_4` (fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 5%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `sylheti_beef_curry.step_5` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `sylheti_beef_curry.step_6` (toast)
 
@@ -86795,11 +89419,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 4%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 11
 
 ### `sylheti_biryani.step_4` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `sylheti_biryani.step_5` (coat)
 
@@ -86855,6 +89481,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: 1 recipe, rounding 0%
 
 ### `sylheti_doner_kebab.step_8` (assemble)
 
@@ -86868,7 +89495,8 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `sylheti_fried_rice.step_2` (pan_fry)
 
-- create_heated_mixing: 1 recipe, rounding 1%
+- create_heated_mixing: 2 recipes, rounding 1%
+- pnc_thermo_plant: 2 recipes, rounding 1%
 
 ### `sylheti_fried_rice.step_3` (mix)
 
@@ -86883,6 +89511,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `sylheti_fried_rice.step_5` (stir_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 4%, estimated
 
 ### `sylheti_fried_rice.step_7` (assemble)
 
@@ -86903,6 +89532,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 13%
+- pnc_thermo_plant: none, whole items would distort it by 463%
 
 ### `sylheti_rice_pudding.step_2` (boil)
 
@@ -86932,15 +89562,18 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `sylheti_tangy_curry.step_2` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 5%, estimated
+- pnc_thermo_plant: 2 recipes, rounding 15% ⚠, estimated
 
 ### `sylheti_tangy_curry.step_3` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 13%, estimated
+- pnc_thermo_plant: none, doesn't fit in 1 input items and 1000 mB tanks at any scale
 
 ### `sylheti_tangy_curry.step_4` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 10%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `sylheti_tangy_curry.step_5` (season)
 
@@ -86956,11 +89589,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `szegedin_goulash.step_2` (fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `szegedin_goulash.step_3` (simmer)
 
@@ -87031,6 +89666,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 6%, estimated
+- thermal_centrifuge: 1 recipe, rounding 6%, estimated
 
 ### `tabbouleh_iii.step_3` (chop)
 
@@ -87107,6 +89743,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - vd_fermenting_jar: 1 recipe, rounding 4%
 - bnc_keg: none, can't make the mod's own taboon_bread_step_3, and no other mod provides it
+- pnc_thermo_plant: 1 recipe, rounding 17% ⚠
 
 ### `taboon_bread.step_4` (shape)
 
@@ -87122,6 +89759,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 12%
+- thermal_centrifuge: none, whole items would distort it by 605%
 
 ### `taco_casserole.step_3` (assemble)
 
@@ -87152,6 +89790,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 1%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `taco_meat.step_2` (mix)
 
@@ -87197,6 +89836,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 12%
+- pnc_thermo_plant: 1 recipe, rounding 12%
 
 ### `taco_salad.step_4` (season)
 
@@ -87255,19 +89895,23 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `taco_soup.step_1` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 12%
+- pnc_thermo_plant: none, whole items would distort it by 605%
 
 ### `taco_soup.step_2` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 12%
+- pnc_thermo_plant: 1 recipe, rounding 12%
 
 ### `taco_soup.step_3` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 10%
+- pnc_thermo_plant: 1 recipe, rounding 10%
 
 ### `taco_soup.step_4` (strain)
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 10%
+- thermal_centrifuge: 1 recipe, rounding 10%
 
 ### `taco_soup.step_5` (mix)
 
@@ -87296,18 +89940,20 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `tadka_dhal_spiced_lentil_curry_ii.step_2` (heat)
 
-- create_heated_mixing: 1 recipe, rounding 4%, estimated
+- create_heated_mixing: 2 recipes, rounding 4%, estimated
 - fd_cooking_pot: none, whole items would distort it by 914%
 
 ### `tadka_dhal_spiced_lentil_curry_ii.step_3` (fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 6%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 7
 
 ### `tadka_dhal_spiced_lentil_curry_ii.step_4` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 7
 
 ### `tadka_dhal_spiced_lentil_curry_ii.step_5` (mix)
 
@@ -87328,11 +89974,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 5
 
 ### `tagliatelle_bake.step_3` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `tagliatelle_bake.step_4` (evaporate)
 
@@ -87372,6 +90020,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 17% ⚠, estimated
 
 ### `tahdiq_crisped_persian_rice.step_4` (assemble)
 
@@ -87392,6 +90041,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 17% ⚠, estimated
 
 ### `tahini_cookies.step_2` (mix)
 
@@ -87448,6 +90098,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_press: none, takes one input, not 2
 
 ### `tahu_gejrot.step_5` (coat)
 
@@ -87458,11 +90109,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 1%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `tajine_bil_samak_libyan_fish_tajine.step_3` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `tajine_bil_samak_libyan_fish_tajine.step_4` (mix)
 
@@ -87552,10 +90205,12 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 0%, estimated
 
 ### `tamate_ka_kut_hyderabadi_tomato_curry.step_4` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 6
 
 ### `tamate_ka_kut_hyderabadi_tomato_curry.step_5` (season)
 
@@ -87620,7 +90275,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `tandoori_masala.step_2` (blend)
 
-- create_mixing: 1 recipe, rounding 1%, estimated
+- create_mixing: 2 recipes, rounding 1%, estimated
 
 ### `tandoori_masala.step_3` (mix)
 
@@ -87679,6 +90334,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `tangy_fried_shrimp.step_2` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 13%
+- pnc_thermo_plant: 2 recipes, rounding 13%
 
 ### `tangy_fried_shrimp.step_3` (season)
 
@@ -87709,11 +90365,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 17% ⚠, estimated
 
 ### `tangy_lemon_battered_fried_chicken.step_6` (fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `tangy_lemon_battered_fried_chicken.step_8` (season)
 
@@ -87734,6 +90392,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 12%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `tanzanian_sweet_fried_spaghetti.step_3` (mix)
 
@@ -87759,6 +90418,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - vd_fermenting_jar: 1 recipe, rounding 0%, estimated
 - bnc_keg: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 0%, estimated
 
 ### `tapalapa_gambian_bread.step_1` (mix)
 
@@ -87779,6 +90439,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - vd_fermenting_jar: 1 recipe, rounding 8%
 - bnc_keg: none, can't make the mod's own tapalapa_gambian_bread_step_4, and no other mod provides it
+- pnc_thermo_plant: 1 recipe, rounding 8%
 
 ### `tapalapa_gambian_bread.step_6` (knead)
 
@@ -87841,6 +90502,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 1%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `tarbes_salad.step_2` (rinse)
 
@@ -87880,6 +90542,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - vd_fermenting_jar: none, whole items would distort it by 2435%
 - bnc_keg: none, can't make the mod's own tarhana_turkish_yogurt_soup_step_5, and no other mod provides it
+- pnc_thermo_plant: none, takes at most 2 inputs, not 5
 
 ### `tarhana_turkish_yogurt_soup.step_6` (simmer)
 
@@ -87913,6 +90576,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `taro_fish.step_7` (stir_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 5
 
 ### `taro_fish.step_8` (season)
 
@@ -88034,11 +90698,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `tartiflette.step_4` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 13%, estimated
+- pnc_thermo_plant: none, doesn't fit in 1 input items and 1000 mB tanks at any scale
 
 ### `tartiflette.step_6` (strain)
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: none, takes one input, not 2
 
 ### `tartiflette.step_7` (evaporate)
 
@@ -88082,6 +90748,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `tattie_scones.step_4` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 20% ⚠
 
 ### `tattie_scones.step_5` (heat)
 
@@ -88090,7 +90757,8 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `tchakpolo_togolese_meat_and_vegetable_stew.step_1` (pan_fry)
 
-- create_heated_mixing: 1 recipe, rounding 1%
+- create_heated_mixing: 2 recipes, rounding 1%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `tchakpolo_togolese_meat_and_vegetable_stew.step_10` (cool)
 
@@ -88100,6 +90768,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `tchakpolo_togolese_meat_and_vegetable_stew.step_3` (heat)
 
@@ -88138,7 +90807,8 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `tchari_jollof_rice.step_1` (pan_fry)
 
-- create_heated_mixing: 1 recipe, rounding 1%
+- create_heated_mixing: 2 recipes, rounding 1%
+- pnc_thermo_plant: 2 recipes, rounding 1%
 
 ### `tchari_jollof_rice.step_10` (mix)
 
@@ -88160,6 +90830,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 17% ⚠, estimated
 
 ### `tchari_jollof_rice.step_2` (heat)
 
@@ -88236,6 +90907,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 17% ⚠, estimated
 
 ### `tea_extract.step_4` (evaporate)
 
@@ -88252,12 +90924,14 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `tegabino_shiro_ethiopian_spiced_chickpea_dip.step_3` (pan_fry)
 
-- create_heated_mixing: 1 recipe, rounding 1%
+- create_heated_mixing: 2 recipes, rounding 1%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `tegabino_shiro_ethiopian_spiced_chickpea_dip.step_4` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 1%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `tegabino_shiro_ethiopian_spiced_chickpea_dip.step_5` (coat)
 
@@ -88282,11 +90956,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 6%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `tekka_japanese_root_vegetables_in_miso.step_3` (stir_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 9%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `tekka_japanese_root_vegetables_in_miso.step_4` (simmer)
 
@@ -88340,15 +91016,18 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `tempe_mendoan_i.step_3` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `tempe_mendoan_i.step_4` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `tempe_mendoan_i.step_5` (strain)
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: 1 recipe, rounding 0%
 
 ### `tempe_mendoan_ii.step_1` (mix)
 
@@ -88374,6 +91053,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `tempoyak_fermented_durian.step_1` (mix)
 
@@ -88384,6 +91064,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - vd_fermenting_jar: 1 recipe, rounding 0%
 - bnc_keg: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `tempura.step_2` (whisk)
 
@@ -88397,6 +91078,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `tempura.step_4` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 0%, estimated
 
 ### `tempura_baked_halibut_with_cilantro_aioli.step_1` (whisk)
 
@@ -88429,6 +91111,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `tequenos_venezuelan_breaded_cheese_sticks.step_10` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `tequenos_venezuelan_breaded_cheese_sticks.step_2` (knead)
 
@@ -88478,6 +91161,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `tequila_lime_hot_wings.step_2` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `tequila_lime_hot_wings.step_3` (boil)
 
@@ -88592,6 +91276,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `texas_easy_chili.step_2` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 10%
+- pnc_thermo_plant: 1 recipe, rounding 18% ⚠
 
 ### `texas_easy_chili.step_3` (heat)
 
@@ -88662,6 +91347,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 1%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `texas_style_chicken_fried_steak.step_6` (heat)
 
@@ -88697,6 +91383,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `thai_green_curry_with_chicken.step_2` (stir_fry)
 
 - create_heated_mixing: 1 recipe, rounding 6%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `thai_green_curry_with_chicken.step_3` (coat)
 
@@ -88773,17 +91460,20 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `thai_peanut_fried_rice.step_2` (pan_fry)
 
-- create_heated_mixing: 1 recipe, rounding 1%, estimated
+- create_heated_mixing: 2 recipes, rounding 1%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `thai_peanut_fried_rice.step_3` (fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 4%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `thai_peanut_fried_rice.step_4` (stir_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 6%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 5
 
 ### `thai_red_curry_paste.step_1` (grind)
 
@@ -88837,11 +91527,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `thai_shrimp.step_3` (stir_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 5%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 5
 
 ### `thai_shrimp.step_4` (evaporate)
 
@@ -88886,6 +91578,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 1%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `thalassery_biryani.step_3` (mix)
 
@@ -88901,6 +91594,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 14%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 6
 
 ### `thalassery_biryani.step_6` (simmer)
 
@@ -88911,6 +91605,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 7%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 6
 
 ### `thalassery_biryani.step_8` (season)
 
@@ -88991,6 +91686,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - vd_fermenting_jar: 1 recipe, rounding 0%
 - bnc_keg: none, can't make the mod's own thick_crust_pizza_step_8, and no other mod provides it
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `thiebou_yapp.step_1` (cut)
 
@@ -89090,11 +91786,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 19% ⚠, estimated
 
 ### `thobwa_la_mtedza_malawian_sesame_seed_drink.step_6` (press)
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_press: 1 recipe, rounding 19% ⚠, estimated
 
 ### `thobwa_la_mtedza_malawian_sesame_seed_drink.step_7` (dissolve)
 
@@ -89130,6 +91828,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 7%, estimated
+- thermal_centrifuge: none, takes one input, not 2
 
 ### `thong_yib_thai_candied_egg_yolks.step_6` (whisk)
 
@@ -89158,6 +91857,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 3%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `three_ginger_soup.step_2` (heat)
 
@@ -89227,6 +91927,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 1%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 5
 
 ### `three_sisters_stew.step_5` (simmer)
 
@@ -89337,16 +92038,19 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 1%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `tibs_ethiopian_sauteed_meat_and_vegetables.step_3` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `tibs_ethiopian_sauteed_meat_and_vegetables.step_4` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `tibs_ethiopian_sauteed_meat_and_vegetables.step_5` (season)
 
@@ -89401,6 +92105,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 1%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `tipitapa_fish_topped_with_salsa_pescado_a_la_tipitapa.step_2` (simmer)
 
@@ -89411,6 +92116,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 6%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `tipitapa_fish_topped_with_salsa_pescado_a_la_tipitapa.step_4` (bake)
 
@@ -89421,6 +92127,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `tipitapa_fish_topped_with_salsa_pescado_a_la_tipitapa.step_6` (assemble)
 
@@ -89442,6 +92149,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: none, takes one input, not 3
 
 ### `tiramisu.step_3` (whisk)
 
@@ -89509,6 +92217,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: 1 recipe, rounding 0%
 
 ### `tiramisu_paninis.step_3` (toast)
 
@@ -89534,6 +92243,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 12%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `tirana_fergese_with_peppers.step_2` (chop)
 
@@ -89554,6 +92264,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 1%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `tirana_fergese_with_veal.step_2` (mix)
 
@@ -89585,6 +92296,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 1%, estimated
+- thermal_centrifuge: 1 recipe, rounding 1%, estimated
 
 ### `tisane_ma_louisa_algerian_lemon_herb_tea.step_5` (mix)
 
@@ -89644,6 +92356,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: none, whole items would distort it by 8233%
+- thermal_centrifuge: none, whole items would distort it by 8233%
 
 ### `toasted_coconut_flakes.step_2` (grind)
 
@@ -89690,12 +92403,14 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `tod_mun_thai_fish_cakes.step_8` (pan_fry)
 
-- create_heated_mixing: 1 recipe, rounding 0%
+- create_heated_mixing: 2 recipes, rounding 0%
+- pnc_thermo_plant: 2 recipes, rounding 0%
 
 ### `tofu_and_couscous.step_1` (stir_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 25% ⚠, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `tofu_and_couscous.step_2` (boil)
 
@@ -89709,7 +92424,8 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `tofu_bacon_vegan.step_2` (pan_fry)
 
-- create_heated_mixing: 1 recipe, rounding 1%
+- create_heated_mixing: 2 recipes, rounding 1%
+- pnc_thermo_plant: 2 recipes, rounding 1%
 
 ### `tofu_bacon_vegan.step_3` (season)
 
@@ -89738,6 +92454,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 14%, estimated
+- thermal_centrifuge: 1 recipe, rounding 14%, estimated
 
 ### `tofu_in_spiced_coconut_sauce.step_2` (toast)
 
@@ -89748,16 +92465,19 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `tofu_in_spiced_coconut_sauce.step_4` (separate)
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: 1 recipe, rounding 0%
 
 ### `tofu_in_spiced_coconut_sauce.step_5` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `tofu_in_spiced_coconut_sauce.step_6` (mix)
 
@@ -89768,6 +92488,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 4%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `tofu_in_spiced_coconut_sauce.step_8` (simmer)
 
@@ -89786,7 +92507,8 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `tofu_saltado.step_2` (pan_fry)
 
-- create_heated_mixing: 1 recipe, rounding 11%
+- create_heated_mixing: 2 recipes, rounding 11%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `tofu_saltado.step_3` (cut)
 
@@ -89796,6 +92518,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `tofu_saltado.step_4` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `tofu_saltado.step_5` (cut)
 
@@ -89805,11 +92528,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `tofu_saltado.step_6` (stir_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `tofu_saltado.step_7` (stir_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 1%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 6
 
 ### `tofu_saltado.step_8` (chop)
 
@@ -89825,6 +92550,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 5
 
 ### `tofu_scramble_i.step_2` (mix)
 
@@ -89839,11 +92565,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `tofu_scramble_ii.step_1` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 50% ⚠
 
 ### `tofu_scramble_ii.step_2` (press)
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_press: none, takes one input, not 2
 
 ### `tofu_scramble_ii.step_3` (mix)
 
@@ -89853,10 +92581,12 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `tofu_scramble_ii.step_4` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `tofu_scramble_ii.step_5` (stir_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `tofu_tamale_pie.step_2` (assemble)
 
@@ -89925,6 +92655,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `tokyo_pancake_khanom_tokyo.step_5` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 1%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `tokyo_pancake_khanom_tokyo.step_6` (season)
 
@@ -89934,6 +92665,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `tokyo_pancake_khanom_tokyo.step_8` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `tokyo_pancake_khanom_tokyo.step_9` (assemble)
 
@@ -90004,6 +92736,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 11%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `tomato_basil_sausage_pasta.step_3` (season)
 
@@ -90057,6 +92790,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `tomato_bredie.step_3` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 1%
+- pnc_thermo_plant: 1 recipe, rounding 1%
 
 ### `tomato_bredie.step_4` (simmer)
 
@@ -90077,6 +92811,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 1%
+- thermal_press: 1 recipe, rounding 1%
 
 ### `tomato_concasse.step_5` (chop)
 
@@ -90086,6 +92821,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `tomato_curry.step_1` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 12%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `tomato_curry.step_2` (mix)
 
@@ -90101,6 +92837,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `tomato_curry.step_5` (assemble)
 
@@ -90131,6 +92868,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 1%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 6
 
 ### `tomato_pasta.step_3` (assemble)
 
@@ -90151,11 +92889,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 50% ⚠
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `tomato_pasta_with_bacon_onions_and_cheese.step_3` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `tomato_pasta_with_bacon_onions_and_cheese.step_4` (heat)
 
@@ -90210,6 +92950,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - vd_fermenting_jar: 1 recipe, rounding 12%
 - bnc_keg: none, can't make the mod's own tomato_pizza_step_3, and no other mod provides it
+- pnc_thermo_plant: 1 recipe, rounding 12%
 
 ### `tomato_pizza.step_4` (heat)
 
@@ -90219,6 +92960,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `tomato_pizza.step_5` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 4%, estimated
 
 ### `tomato_pizza.step_6` (season)
 
@@ -90259,6 +93001,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: 1 recipe, rounding 0%
 
 ### `tomato_salad.step_6` (mix)
 
@@ -90273,6 +93016,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `tomato_sauce_piquante.step_1` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 6%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 9
 
 ### `tomato_sauce_piquante.step_2` (mix)
 
@@ -90283,6 +93027,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 17% ⚠, estimated
 
 ### `tomato_sauce_piquante.step_4` (mix)
 
@@ -90332,6 +93077,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `tonkatsu.step_8` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 0%, estimated
 
 ### `tonkatsu.step_9` (cut)
 
@@ -90342,6 +93088,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: none, whole items would distort it by 500%
 
 ### `torta_de_acelga_chard_pie.step_2` (boil)
 
@@ -90380,6 +93127,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `tortellini_in_sweet_potato_sauce.step_3` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 13%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `tortellini_in_sweet_potato_sauce.step_4` (mix)
 
@@ -90395,16 +93143,19 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 4%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 6
 
 ### `tortilla_canaria.step_2` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 3%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `tortilla_canaria.step_3` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `tortilla_canaria.step_4` (fold)
 
@@ -90420,6 +93171,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 5%
+- pnc_thermo_plant: none, doesn't fit in 1 input items and 1000 mB tanks at any scale
 
 ### `tortilla_de_patatas.step_3` (soak)
 
@@ -90430,25 +93182,30 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 17% ⚠, estimated
 
 ### `tortilla_de_patatas.step_5` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 17% ⚠, estimated
 
 ### `tortilla_espanola.step_1` (pan_fry)
 
-- create_heated_mixing: 1 recipe, rounding 1%, estimated
+- create_heated_mixing: 2 recipes, rounding 1%, estimated
+- pnc_thermo_plant: 2 recipes, rounding 1%, estimated
 
 ### `tortilla_espanola.step_3` (fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `tortilla_espanola.step_4` (strain)
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: 1 recipe, rounding 0%
 
 ### `tortilla_espanola.step_5` (whisk)
 
@@ -90462,11 +93219,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `tortilla_espanola.step_8` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 0%, estimated
 
 ### `tortilla_espanola_de_patatas.step_1` (stir_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 2%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `tortilla_espanola_de_patatas.step_2` (mix)
 
@@ -90477,11 +93236,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 17% ⚠, estimated
 
 ### `tortilla_espanola_de_patatas.step_4` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `tortilla_soup.step_1` (simmer)
 
@@ -90497,6 +93258,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 5
 
 ### `tortilla_soup.step_5` (simmer)
 
@@ -90530,6 +93292,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `toston_fried_plantains.step_2` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 50% ⚠
 
 ### `toston_fried_plantains.step_3` (shape)
 
@@ -90539,6 +93302,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `toston_fried_plantains.step_4` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `tostones_fried_plantains.step_2` (cut)
 
@@ -90549,6 +93313,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `toum_lebanese_garlic_sauce.step_1` (grind)
 
@@ -90567,6 +93332,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `traditional_beef_stroganoff.step_2` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 9%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `traditional_beef_stroganoff.step_3` (mix)
 
@@ -90608,11 +93374,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - vd_fermenting_jar: 1 recipe, rounding 17% ⚠, estimated
 - bnc_keg: none, can't make the mod's own traditional_finnish_lemon_mead_sima_step_10, and no other mod provides it
+- pnc_thermo_plant: 1 recipe, rounding 0%, estimated
 
 ### `traditional_finnish_lemon_mead_sima.step_11` (ferment)
 
 - vd_fermenting_jar: 1 recipe, rounding 0%, estimated
 - bnc_keg: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 0%, estimated
 
 ### `traditional_finnish_lemon_mead_sima.step_3` (cut)
 
@@ -90643,11 +93411,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - vd_fermenting_jar: 1 recipe, rounding 0%, estimated
 - bnc_keg: none, can't make the mod's own traditional_finnish_lemon_mead_sima_step_9, and no other mod provides it
+- pnc_thermo_plant: 1 recipe, rounding 4%, estimated
 
 ### `traditional_lasagne.step_1` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 13%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `traditional_lasagne.step_2` (evaporate)
 
@@ -90701,6 +93471,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `traditional_pilau_rice.step_2` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `traditional_pilau_rice.step_3` (chop)
 
@@ -90716,6 +93487,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `traditional_pilau_rice.step_6` (coat)
 
@@ -90852,6 +93624,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 13%, estimated
+- thermal_centrifuge: none, takes one input, not 2
 
 ### `tri_colored_autumn_rice_balls.step_4` (shape)
 
@@ -90897,6 +93670,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: none, takes one input, not 2
 
 ### `trifle.step_4` (coagulate)
 
@@ -91013,6 +93787,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_press: none, takes one input, not 2
 
 ### `tropical_squares.step_6` (mix)
 
@@ -91065,7 +93840,8 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `tubani_nigerian_corn_and_soybean_fritter.step_3` (fry)
 
-- create_heated_mixing: 1 recipe, rounding 1%
+- create_heated_mixing: 2 recipes, rounding 1%
+- pnc_thermo_plant: 2 recipes, rounding 1%
 
 ### `tuna_and_herb_salad.step_1` (whisk)
 
@@ -91085,6 +93861,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `tuna_curry.step_3` (mix)
 
@@ -91145,11 +93922,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `tuna_fried_rice.step_3` (stir_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 4%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `tuna_fried_rice.step_4` (season)
 
@@ -91180,6 +93959,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `tuna_glop.step_2` (mix)
 
@@ -91190,6 +93970,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 12%
+- thermal_centrifuge: none, takes one input, not 2
 
 ### `tuna_glop.step_4` (mix)
 
@@ -91270,6 +94051,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_press: 1 recipe, rounding 0%
 
 ### `tuna_salad_1940.step_2` (mix)
 
@@ -91290,6 +94072,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_press: 1 recipe, rounding 0%
 
 ### `turkey_and_bacon_salad.step_3` (chop)
 
@@ -91340,6 +94123,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 5%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 5
 
 ### `turkey_and_lima_beans.step_4` (season)
 
@@ -91350,6 +94134,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 10%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `turkey_and_lima_beans.step_6` (simmer)
 
@@ -91433,7 +94218,8 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `turkey_with_plantain_stuffing_pavo_relleno_de_mofongo.step_3` (fry)
 
-- create_heated_mixing: 1 recipe, rounding 0%
+- create_heated_mixing: 2 recipes, rounding 0%
+- pnc_thermo_plant: 2 recipes, rounding 0%
 
 ### `turkey_with_plantain_stuffing_pavo_relleno_de_mofongo.step_4` (shape)
 
@@ -91544,6 +94330,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `turkish_dolma_pilav.step_3` (season)
 
@@ -91589,11 +94376,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 7%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `turmeric_chicken_and_asparagus_stir_fry.step_4` (stir_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 3%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `turmeric_chicken_and_asparagus_stir_fry.step_5` (simmer)
 
@@ -91623,11 +94412,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `turon_filipino_plantain_spring_rolls.step_4` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `turon_filipino_plantain_spring_rolls.step_5` (strain)
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: 1 recipe, rounding 0%
 
 ### `turon_filipino_plantain_spring_rolls.step_6` (heat)
 
@@ -91673,16 +94464,19 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 5%
+- thermal_centrifuge: 1 recipe, rounding 5%
 
 ### `tuscan_bean_soup.step_4` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 6%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `tuscan_bean_soup.step_5` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 3%
+- pnc_thermo_plant: 1 recipe, rounding 3%
 
 ### `tuscan_bean_soup.step_6` (mix)
 
@@ -91748,6 +94542,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 1%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `tuscan_soup_meatless.step_2` (boil)
 
@@ -91773,6 +94568,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 11%, estimated
+- thermal_centrifuge: none, whole items would distort it by 4940%
 
 ### `tuwo_alabo_nigerian_cassava_swallow.step_2` (mix)
 
@@ -91798,6 +94594,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 3%, estimated
+- thermal_centrifuge: none, whole items would distort it by 4940%
 
 ### `tuwo_alkama_wheat_swallow.step_2` (mix)
 
@@ -91888,6 +94685,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - vd_fermenting_jar: 1 recipe, rounding 0%, estimated
 - bnc_keg: none, can't make the mod's own tvorog_russian_farmer_cheese_step_2, and no other mod provides it
+- pnc_thermo_plant: 1 recipe, rounding 4%, estimated
 
 ### `tvorog_russian_farmer_cheese.step_3` (coagulate)
 
@@ -91897,11 +94695,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: 1 recipe, rounding 0%
 
 ### `tvorog_russian_farmer_cheese.step_5` (press)
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_press: 1 recipe, rounding 0%
 
 ### `twice_baked_potatoes_i.step_11` (toast)
 
@@ -91922,6 +94722,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: 1 recipe, rounding 0%
 
 ### `twice_baked_potatoes_i.step_6` (blend)
 
@@ -91971,6 +94772,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 12%
+- thermal_centrifuge: 1 recipe, rounding 76% ⚠
 
 ### `twice_baked_potatoes_ii.step_8` (blend)
 
@@ -92060,11 +94862,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 13%, estimated
+- thermal_centrifuge: 1 recipe, rounding 13%, estimated
 
 ### `tzatziki.step_2` (strain)
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 1%
+- thermal_centrifuge: none, takes one input, not 3
 
 ### `tzatziki.step_3` (chill)
 
@@ -92123,6 +94927,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: 1 recipe, rounding 0%
 
 ### `ugba_stew.step_5` (simmer)
 
@@ -92152,6 +94957,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `ukazi_soup.step_3` (mix)
 
@@ -92186,6 +94992,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 5%, estimated
+- thermal_centrifuge: 1 recipe, rounding 15% ⚠, estimated
 
 ### `ukrainian_borscht.step_10` (blend)
 
@@ -92229,7 +95036,8 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `ukrainian_borscht.step_7` (pan_fry)
 
-- create_heated_mixing: 1 recipe, rounding 0%, estimated
+- create_heated_mixing: 2 recipes, rounding 0%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `ukrainian_borscht.step_8` (simmer)
 
@@ -92245,6 +95053,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 14%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `ukrainian_cabbage_soup_kapusniak.step_2` (boil)
 
@@ -92350,6 +95159,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 0%, estimated
 
 ### `ume_shu_japanese_plum_juice.step_6` (mix)
 
@@ -92359,6 +95169,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `upeseru_indian_lentils_with_greens.step_1` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 14%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 5
 
 ### `upeseru_indian_lentils_with_greens.step_2` (boil)
 
@@ -92369,6 +95180,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 17% ⚠, estimated
 
 ### `upeseru_indian_lentils_with_greens.step_4` (season)
 
@@ -92398,6 +95210,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 11%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 10
 
 ### `upma_indian_semolina_porridge.step_3` (simmer)
 
@@ -92427,10 +95240,12 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `uppittu_indian_semolina_porridge.step_2` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `uppittu_indian_semolina_porridge.step_3` (stir_fry)
 
 - create_heated_mixing: none, whole items would distort it by 204%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `uppittu_indian_semolina_porridge.step_4` (simmer)
 
@@ -92465,6 +95280,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 17% ⚠, estimated
 
 ### `valencian_inspired_paella.step_13` (simmer)
 
@@ -92490,31 +95306,37 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `valencian_inspired_paella.step_2` (separate)
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 17% ⚠, estimated
 
 ### `valencian_inspired_paella.step_20` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 10%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `valencian_inspired_paella.step_21` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `valencian_inspired_paella.step_22` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `valencian_inspired_paella.step_23` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 4%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `valencian_inspired_paella.step_24` (mix)
 
@@ -92600,11 +95422,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: 1 recipe, rounding 0%
 
 ### `valencian_inspired_paella.step_9` (separate)
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: 1 recipe, rounding 0%
 
 ### `valentine_s_day_chocolate_cake.step_10` (assemble)
 
@@ -92625,6 +95449,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: none, takes one input, not 2
 
 ### `valentine_s_day_chocolate_cake.step_15` (mix)
 
@@ -92640,6 +95465,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 17% ⚠, estimated
 
 ### `valentine_s_day_chocolate_cake.step_19` (coat)
 
@@ -92740,6 +95566,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 10%, estimated
+- thermal_centrifuge: none, takes one input, not 2
 
 ### `vancouver_cheesecake.step_9` (heat)
 
@@ -92857,6 +95684,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `vanilla_ice_cream_egg_free.step_2` (churn)
 
 - create_mixing: 1 recipe, rounding 4%, estimated
+- thermal_centrifuge: 1 recipe, rounding 38% ⚠, estimated
 
 ### `vanilla_kifli.step_1` (mix)
 
@@ -92881,6 +95709,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `veal_with_lima_beans.step_1` (stir_fry)
 
 - create_heated_mixing: 1 recipe, rounding 12%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `veal_with_lima_beans.step_2` (boil)
 
@@ -92905,6 +95734,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `vedhmi_sweet_stuffed_flatbread.step_10` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `vedhmi_sweet_stuffed_flatbread.step_11` (coat)
 
@@ -92915,6 +95745,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 10%, estimated
+- thermal_centrifuge: 1 recipe, rounding 20% ⚠, estimated
 
 ### `vedhmi_sweet_stuffed_flatbread.step_3` (grind)
 
@@ -92987,11 +95818,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `vegan_paprika_bratwurst.step_3` (fry)
 
 - create_heated_mixing: none, whole items would distort it by 1289%
+- pnc_thermo_plant: none, whole items would distort it by 1289%
 
 ### `vegan_pate.step_1` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 4%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `vegan_pate.step_2` (mix)
 
@@ -93100,32 +95933,39 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `vegetable_spring_roll.step_11` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `vegetable_spring_roll.step_2` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `vegetable_spring_roll.step_3` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 0%, estimated
 
 ### `vegetable_spring_roll.step_4` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `vegetable_spring_roll.step_5` (stir_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `vegetable_spring_roll.step_6` (stir_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 7%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 5
 
 ### `vegetable_spring_roll.step_7` (stir_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 4%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 6
 
 ### `vegetable_spring_roll.step_9` (assemble)
 
@@ -93201,6 +96041,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 4%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 5
 
 ### `vegetable_stuffed_mushrooms.step_4` (assemble)
 
@@ -93219,7 +96060,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `vegetarian_rassolnik.step_2` (mix)
 
-- create_mixing: 1 recipe, rounding 0%, estimated
+- create_mixing: 2 recipes, rounding 0%, estimated
 - shapeless_crafting: 1 recipe, rounding 41% ⚠, estimated
 
 ### `vegetarian_rassolnik.step_3` (boil)
@@ -93343,11 +96184,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 4%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 5
 
 ### `venison_bolognese_sauce.step_2` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `venison_bolognese_sauce.step_3` (mix)
 
@@ -93407,6 +96250,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `venison_italian_style.step_7` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 13%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `venison_italian_style.step_8` (simmer)
 
@@ -93417,16 +96261,19 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 2%
+- thermal_centrifuge: 1 recipe, rounding 32% ⚠
 
 ### `venison_pie.step_2` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 6
 
 ### `venison_pie.step_3` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `venison_pie.step_4` (assemble)
 
@@ -93497,18 +96344,22 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - vd_fermenting_jar: 1 recipe, rounding 0%
 - bnc_keg: none, can't make the mod's own vetkoek_south_african_fried_dough_step_4, and no other mod provides it
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `vetkoek_south_african_fried_dough.step_6` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `vetkoek_south_african_fried_dough.step_7` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `vichyssoise_chilled_potato_leek_soup.step_4` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 1%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `vichyssoise_chilled_potato_leek_soup.step_5` (simmer)
 
@@ -93562,6 +96413,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: none, whole items would distort it by 8233%
+- thermal_press: none, whole items would distort it by 8233%
 
 ### `victorian_butter.step_13` (season)
 
@@ -93572,38 +96424,46 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 4 recipes, rounding 11%, estimated
+- thermal_centrifuge: none, whole items would distort it by 4940%
 
 ### `victorian_butter.step_3` (separate)
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 11%, estimated
+- thermal_centrifuge: none, whole items would distort it by 5108%
 
 ### `victorian_butter.step_4` (churn)
 
 - create_mixing: 1 recipe, rounding 11%, estimated
+- thermal_centrifuge: none, whole items would distort it by 5108%
 
 ### `victorian_butter.step_5` (churn)
 
 - create_mixing: none, whole items would distort it by 942%
+- thermal_centrifuge: none, whole items would distort it by 5108%
 
 ### `victorian_butter.step_6` (churn)
 
 - create_mixing: none, whole items would distort it by 8233%
+- thermal_centrifuge: none, whole items would distort it by 8233%
 
 ### `victorian_butter.step_7` (strain)
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: none, whole items would distort it by 8233%
+- thermal_centrifuge: none, whole items would distort it by 8233%
 
 ### `victorian_butter.step_8` (separate)
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: none, whole items would distort it by 8233%
+- thermal_centrifuge: none, whole items would distort it by 8233%
 
 ### `victorian_butter.step_9` (press)
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: none, whole items would distort it by 8233%
+- thermal_press: none, whole items would distort it by 8233%
 
 ### `vietnamese_caramel_sauce_n_c_maou.step_1` (mix)
 
@@ -93658,6 +96518,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `vietnamese_rice_noodle_and_beef_soup_bun_bo_hu.step_2` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 1%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `vietnamese_rice_noodle_and_beef_soup_bun_bo_hu.step_3` (boil)
 
@@ -93668,11 +96529,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: none, takes one input, not 2
 
 ### `vietnamese_rice_noodle_and_beef_soup_bun_bo_hu.step_5` (strain)
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 17% ⚠, estimated
 
 ### `vietnamese_rice_noodle_and_beef_soup_bun_bo_hu.step_6` (simmer)
 
@@ -93851,6 +96714,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 17% ⚠, estimated
 
 ### `waffles.step_3` (whisk)
 
@@ -93858,7 +96722,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `waffles.step_4` (mix)
 
-- create_mixing: 1 recipe, rounding 1%, estimated
+- create_mixing: 2 recipes, rounding 1%, estimated
 - shapeless_crafting: 1 recipe, rounding 25% ⚠, estimated
 
 ### `waffles.step_5` (fold)
@@ -93970,11 +96834,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 5%, estimated
+- thermal_centrifuge: 1 recipe, rounding 16% ⚠, estimated
 
 ### `wasawasa_yam_couscous.step_2` (strain)
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: none, whole items would distort it by 2924%
+- thermal_centrifuge: none, takes one input, not 2
 
 ### `wasawasa_yam_couscous.step_3` (shape)
 
@@ -94033,6 +96899,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `waterzooi.step_1` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 6
 
 ### `waterzooi.step_2` (heat)
 
@@ -94097,11 +96964,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `welsh_cakes.step_8` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `welsh_fruit_bread_bara_brith_i.step_1` (ferment)
 
 - vd_fermenting_jar: none, whole items would distort it by 217%
 - bnc_keg: none, can't make the mod's own welsh_fruit_bread_bara_brith_i_step_1, and no other mod provides it
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `welsh_fruit_bread_bara_brith_i.step_2` (knead)
 
@@ -94117,6 +96986,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - vd_fermenting_jar: 1 recipe, rounding 0%
 - bnc_keg: none, can't make the mod's own welsh_fruit_bread_bara_brith_i_step_4, and no other mod provides it
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `welsh_fruit_bread_bara_brith_i.step_5` (bake)
 
@@ -94259,6 +97129,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 13%
+- thermal_press: 1 recipe, rounding 15% ⚠
 
 ### `wheat_modak_coconut_pastries.step_1` (mix)
 
@@ -94297,6 +97168,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `wheat_modak_coconut_pastries.step_9` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `whiskey_barbecue_sauce.step_1` (boil)
 
@@ -94411,11 +97283,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - vd_fermenting_jar: 1 recipe, rounding 0%, estimated
 - bnc_keg: none, can't make the mod's own white_house_honey_porter_step_6, and no other mod provides it
+- pnc_thermo_plant: 1 recipe, rounding 17% ⚠, estimated
 
 ### `white_house_honey_porter.step_7` (ferment)
 
 - vd_fermenting_jar: 1 recipe, rounding 0%, estimated
 - bnc_keg: none, can't make the mod's own white_house_honey_porter_step_7, and no other mod provides it
+- pnc_thermo_plant: 1 recipe, rounding 4%, estimated
 
 ### `white_house_honey_porter.step_8` (carbonate)
 
@@ -94454,6 +97328,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - vd_fermenting_jar: none, whole items would distort it by 111%
 - bnc_keg: none, can't make the mod's own whole_wheat_bread_vegan_step_1, and no other mod provides it
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `whole_wheat_bread_vegan.step_2` (mix)
 
@@ -94474,11 +97349,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - vd_fermenting_jar: 1 recipe, rounding 11%
 - bnc_keg: none, can't make the mod's own whole_wheat_bread_vegan_step_5, and no other mod provides it
+- pnc_thermo_plant: 1 recipe, rounding 18% ⚠
 
 ### `whole_wheat_bread_vegan.step_6` (ferment)
 
 - vd_fermenting_jar: 1 recipe, rounding 11%
 - bnc_keg: none, can't make the mod's own whole_wheat_bread_vegan_step_6, and no other mod provides it
+- pnc_thermo_plant: 1 recipe, rounding 18% ⚠
 
 ### `whole_wheat_bread_vegan.step_7` (coat)
 
@@ -94577,14 +97454,17 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `whole_wheat_pancakes.step_5` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 4%, estimated
 
 ### `whole_wheat_pancakes.step_6` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 0%, estimated
 
 ### `whole_wheat_pancakes.step_7` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `whole_wheat_pancakes_vegan.step_1` (mix)
 
@@ -94599,10 +97479,12 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `whole_wheat_pancakes_vegan.step_4` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 2%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 2%, estimated
 
 ### `whole_wheat_pancakes_vegan.step_5` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 4%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 16% ⚠, estimated
 
 ### `whole_wheat_waffles.step_2` (mix)
 
@@ -94686,10 +97568,12 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `wilted_greens.step_3` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 1%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 1%, estimated
 
 ### `wilted_greens.step_4` (stir_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `wilted_greens.step_5` (steam)
 
@@ -94725,6 +97609,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 10%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 5
 
 ### `wine_braised_shortribs.step_3` (assemble)
 
@@ -94740,6 +97625,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 1%, estimated
+- thermal_centrifuge: none, takes one input, not 2
 
 ### `wine_glazed_pork_chops.step_1` (season)
 
@@ -94768,11 +97654,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `wine_roasted_pork_roast.step_4` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `wine_roasted_pork_roast.step_5` (soak)
 
@@ -94819,6 +97707,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 6%, estimated
 
 ### `wonjo_bissap_gambian_hibiscus_beverage.step_5` (dissolve)
 
@@ -94879,6 +97768,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 0%, estimated
 
 ### `xarem_porridge_dish.step_11` (boil)
 
@@ -94914,16 +97804,19 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 10%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `xarem_porridge_dish.step_4` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 5%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `xarem_porridge_dish.step_5` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 1%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `xarem_porridge_dish.step_6` (heat)
 
@@ -94944,6 +97837,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: 1 recipe, rounding 0%
 
 ### `xato_catalan_endives_and_fish.step_1` (grind)
 
@@ -94992,6 +97886,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: none, whole items would distort it by 1216%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `yam_and_spicy_egg_sauce.step_2` (boil)
 
@@ -95001,6 +97896,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `yam_and_spicy_egg_sauce.step_4` (fry)
 
 - create_heated_mixing: none, whole items would distort it by 2924%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `yam_and_spicy_egg_sauce.step_5` (season)
 
@@ -95039,16 +97935,19 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: 1 recipe, rounding 0%
 
 ### `yassa_poulet_senegalese_chicken.step_4` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `yassa_poulet_senegalese_chicken.step_5` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `yassa_poulet_senegalese_chicken.step_6` (assemble)
 
@@ -95069,6 +97968,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 1%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `yataklete_kilkil_ethiopian_vegetable_stew.step_3` (coat)
 
@@ -95104,6 +98004,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - vd_fermenting_jar: none, whole items would distort it by 323%
 - bnc_keg: none, can't make the mod's own yeasted_cornbread_step_1, and no other mod provides it
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `yeasted_cornbread.step_2` (mix)
 
@@ -95148,6 +98049,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - vd_fermenting_jar: 1 recipe, rounding 0%
 - bnc_keg: none, can't make the mod's own yeasted_kifli_step_6, and no other mod provides it
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `yeasted_kifli.step_7` (shape)
 
@@ -95203,6 +98105,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - vd_fermenting_jar: 1 recipe, rounding 12%
 - bnc_keg: none, can't make the mod's own yeasted_rolls_ii_step_4, and no other mod provides it
+- pnc_thermo_plant: 1 recipe, rounding 12%
 
 ### `yeasted_rolls_ii.step_5` (shape)
 
@@ -95409,6 +98312,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 1%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `yetakelt_alicha_ethiopian_vegetable_stew.step_2` (heat)
 
@@ -95444,6 +98348,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 1%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `yetakelt_wot_ethiopian_spiced_vegetable_stew.step_2` (heat)
 
@@ -95489,11 +98394,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 6%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `yetsom_beyaynetu_ethiopian_vegan_platter.step_3` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `yetsom_beyaynetu_ethiopian_vegan_platter.step_4` (season)
 
@@ -95517,6 +98424,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `yetsom_beyaynetu_ethiopian_vegan_platter.step_9` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 0%, estimated
 
 ### `yetsom_shiro_ethiopian_vegan_chickpea_stew.step_1` (toast)
 
@@ -95527,6 +98435,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 1%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 5
 
 ### `yetsom_shiro_ethiopian_vegan_chickpea_stew.step_3` (coat)
 
@@ -95561,15 +98470,18 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `yeung_chow_fried_rice.step_1` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 1%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 1%, estimated
 
 ### `yeung_chow_fried_rice.step_2` (stir_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 5
 
 ### `yeung_chow_fried_rice.step_3` (stir_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `yeung_chow_fried_rice.step_4` (mix)
 
@@ -95616,6 +98528,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 17% ⚠, estimated
 
 ### `yogi_tea.step_8` (season)
 
@@ -95795,11 +98708,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `zacusca_romanian_vegetable_spread.step_3` (pan_fry)
 
-- create_heated_mixing: 1 recipe, rounding 12%
+- create_heated_mixing: 2 recipes, rounding 12%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `zacusca_romanian_vegetable_spread.step_4` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 4%
+- pnc_thermo_plant: none, doesn't fit in 1 input items and 1000 mB tanks at any scale
 
 ### `zacusca_romanian_vegetable_spread.step_5` (simmer)
 
@@ -95844,15 +98759,18 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `zalabiyeh_sweet_fritters_ii.step_7` (fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `zambian_beans_and_rice.step_2` (pan_fry)
 
-- create_heated_mixing: 1 recipe, rounding 1%
+- create_heated_mixing: 2 recipes, rounding 1%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `zambian_beans_and_rice.step_3` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `zambian_beans_and_rice.step_4` (mix)
 
@@ -95881,12 +98799,14 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `zambian_beef_stew.step_2` (pan_fry)
 
-- create_heated_mixing: 1 recipe, rounding 1%
+- create_heated_mixing: 2 recipes, rounding 1%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `zambian_beef_stew.step_3` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 1%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `zambian_beef_stew.step_4` (simmer)
 
@@ -95910,7 +98830,8 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `zambian_fish_stew.step_2` (pan_fry)
 
-- create_heated_mixing: 1 recipe, rounding 1%
+- create_heated_mixing: 2 recipes, rounding 1%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `zambian_fish_stew.step_3` (heat)
 
@@ -95975,17 +98896,20 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `zambian_vegetable_stir_fry.step_2` (stir_fry)
 
-- create_heated_mixing: 1 recipe, rounding 1%
+- create_heated_mixing: 2 recipes, rounding 1%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `zambian_vegetable_stir_fry.step_3` (stir_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 6
 
 ### `zambian_vegetable_stir_fry.step_4` (stir_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 5%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 5
 
 ### `zambian_vegetable_stir_fry.step_5` (season)
 
@@ -96000,6 +98924,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `zambian_vegetable_stir_fry.step_7` (stir_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `zelenchukova_supa_bulgarian_vegetable_soup.step_1` (boil)
 
@@ -96014,6 +98939,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `zelenchukova_supa_bulgarian_vegetable_soup.step_3` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 6
 
 ### `zelenchukova_supa_bulgarian_vegetable_soup.step_4` (simmer)
 
@@ -96043,6 +98969,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `zereshk_palau_iranian_rice_with_barberries_i.step_2` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `zereshk_palau_iranian_rice_with_barberries_i.step_3` (steam)
 
@@ -96053,6 +98980,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 0%, estimated
 
 ### `zereshk_palau_iranian_rice_with_barberries_i.step_5` (grind)
 
@@ -96087,10 +99015,12 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
+- thermal_centrifuge: 1 recipe, rounding 0%
 
 ### `zereshk_palau_iranian_rice_with_barberries_ii.step_5` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 1%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `zereshk_palau_iranian_rice_with_barberries_ii.step_6` (steep)
 
@@ -96157,11 +99087,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 1%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `zilzil_tibs_spicy_ethiopian_beef_strips.step_4` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `zilzil_tibs_spicy_ethiopian_beef_strips.step_5` (season)
 
@@ -96182,6 +99114,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 1%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `zimbabwean_chicken_and_vegetable_soup.step_2` (mix)
 
@@ -96212,6 +99145,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
+- thermal_centrifuge: 1 recipe, rounding 17% ⚠, estimated
 
 ### `zimtsterne_german_cinnamon_star_cookies.step_4` (knead)
 
@@ -96262,6 +99196,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `zitumbuwa_malawian_banana_pancakes.step_1` (mix)
 
@@ -96285,10 +99220,12 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `zitumbuwa_malawian_banana_pancakes.step_6` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 0%, estimated
 
 ### `zitumbuwa_malawian_banana_pancakes.step_7` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `zucchini_bread.step_2` (mix)
 
@@ -96362,6 +99299,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `zucchini_pie.step_4` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 20% ⚠, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `zucchini_pie.step_5` (season)
 
@@ -96406,6 +99344,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `zupa_ogorkowa_polish_cucumber_soup.step_4` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 13%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `zupa_ogorkowa_polish_cucumber_soup.step_5` (mix)
 
@@ -96434,6 +99373,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 12%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `zuppa_toscana.step_3` (simmer)
 
@@ -96453,6 +99393,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `zwiebelrostbraten_with_red_wine_onion_gravy.step_1` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `zwiebelrostbraten_with_red_wine_onion_gravy.step_2` (evaporate)
 
@@ -96470,6 +99411,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `zwiebelrostbraten_with_red_wine_onion_gravy.step_5` (pan_fry)
 
 - create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `zwiebelrostbraten_with_red_wine_onion_gravy.step_6` (soak)
 

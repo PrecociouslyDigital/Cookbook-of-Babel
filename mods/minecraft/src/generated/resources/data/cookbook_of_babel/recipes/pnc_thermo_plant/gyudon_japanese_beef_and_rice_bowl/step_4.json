@@ -1,0 +1,38 @@
+{
+  "type": "pneumaticcraft:thermo_plant",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "pneumaticcraft"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/gyudon_japanese_beef_and_rice_bowl_step_4"
+    }
+  ],
+  "fluid_input": {
+    "type": "pneumaticcraft:fluid",
+    "amount": 45,
+    "fluid": "cookbook_of_babel:liquid",
+    "fuzzyNBT": false,
+    "nbt": "{substance:\"cookbook_of_babel:oil_and_fat\"}"
+  },
+  "item_input": [
+    {
+      "type": "forge:partial_nbt",
+      "item": "cookbook_of_babel:portion",
+      "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:liquid\",Tag:{substance:\"cookbook_of_babel:gyudon_japanese_beef_and_rice_bowl_step_3\"}}}"
+    },
+    {
+      "tag": "cookbook_of_babel:ingredients/gyudon_japanese_beef_and_rice_bowl_step_3"
+    }
+  ],
+  "item_output": {
+    "count": 3,
+    "item": "cookbook_of_babel:substance",
+    "nbt": "{substance:\"cookbook_of_babel:gyudon_japanese_beef_and_rice_bowl_step_4\"}"
+  },
+  "temperature": {
+    "min_temp": 488
+  }
+}

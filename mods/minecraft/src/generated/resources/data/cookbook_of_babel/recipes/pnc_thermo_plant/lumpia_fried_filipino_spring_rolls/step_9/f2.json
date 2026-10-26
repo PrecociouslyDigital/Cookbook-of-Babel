@@ -1,0 +1,40 @@
+{
+  "type": "pneumaticcraft:thermo_plant",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "pneumaticcraft"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/lumpia_fried_filipino_spring_rolls"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "pneumaticcraft"
+    }
+  ],
+  "fluid_input": {
+    "type": "pneumaticcraft:fluid",
+    "amount": 946,
+    "fluid": "pneumaticcraft:vegetable_oil",
+    "fuzzyNBT": false
+  },
+  "item_input": [
+    {
+      "type": "forge:partial_nbt",
+      "item": "cookbook_of_babel:substance",
+      "nbt": "{substance:\"cookbook_of_babel:lumpia_fried_filipino_spring_rolls_step_7\"}"
+    },
+    {
+      "tag": "cookbook_of_babel:ingredients/lumpia_fried_filipino_spring_rolls_step_7"
+    }
+  ],
+  "item_output": {
+    "count": 1,
+    "item": "cookbook_of_babel:lumpia_fried_filipino_spring_rolls"
+  },
+  "temperature": {
+    "min_temp": 463
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "type": "pneumaticcraft:thermo_plant",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "pneumaticcraft"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/firire_senegalese_fried_fish_with_sauce_step_6"
+    }
+  ],
+  "fluid_input": {
+    "type": "pneumaticcraft:fluid",
+    "amount": 50,
+    "fluid": "cookbook_of_babel:bulk",
+    "fuzzyNBT": false,
+    "nbt": "{substance:\"cookbook_of_babel:pepper\"}"
+  },
+  "item_input": [
+    {
+      "type": "forge:partial_nbt",
+      "item": "cookbook_of_babel:substance",
+      "nbt": "{substance:\"cookbook_of_babel:firire_senegalese_fried_fish_with_sauce_step_5\"}"
+    },
+    {
+      "tag": "cookbook_of_babel:ingredients/firire_senegalese_fried_fish_with_sauce_step_5"
+    }
+  ],
+  "item_output": {
+    "count": 1,
+    "item": "cookbook_of_babel:substance",
+    "nbt": "{substance:\"cookbook_of_babel:firire_senegalese_fried_fish_with_sauce_step_6\"}"
+  },
+  "temperature": {
+    "min_temp": 488
+  }
+}

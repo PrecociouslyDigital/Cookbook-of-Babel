@@ -1,0 +1,38 @@
+{
+  "type": "pneumaticcraft:thermo_plant",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "pneumaticcraft"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/ghevar_rajasthani_honeycomb_fritter_step_10"
+    }
+  ],
+  "fluid_input": {
+    "type": "pneumaticcraft:fluid",
+    "amount": 10,
+    "fluid": "cookbook_of_babel:liquid",
+    "fuzzyNBT": false,
+    "nbt": "{substance:\"cookbook_of_babel:oil_and_fat\"}"
+  },
+  "item_input": [
+    {
+      "type": "forge:partial_nbt",
+      "item": "cookbook_of_babel:substance",
+      "nbt": "{substance:\"cookbook_of_babel:ghevar_rajasthani_honeycomb_fritter_step_9\"}"
+    },
+    {
+      "tag": "cookbook_of_babel:ingredients/ghevar_rajasthani_honeycomb_fritter_step_9"
+    }
+  ],
+  "item_output": {
+    "count": 1,
+    "item": "cookbook_of_babel:substance",
+    "nbt": "{substance:\"cookbook_of_babel:ghevar_rajasthani_honeycomb_fritter_step_10\"}"
+  },
+  "temperature": {
+    "min_temp": 463
+  }
+}

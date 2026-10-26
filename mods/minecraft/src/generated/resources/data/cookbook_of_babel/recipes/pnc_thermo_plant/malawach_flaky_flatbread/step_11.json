@@ -1,0 +1,30 @@
+{
+  "type": "pneumaticcraft:thermo_plant",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "pneumaticcraft"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/malawach_flaky_flatbread"
+    }
+  ],
+  "item_input": [
+    {
+      "type": "forge:partial_nbt",
+      "item": "cookbook_of_babel:substance",
+      "nbt": "{substance:\"cookbook_of_babel:malawach_flaky_flatbread_step_10\"}"
+    },
+    {
+      "tag": "cookbook_of_babel:ingredients/malawach_flaky_flatbread_step_10"
+    }
+  ],
+  "item_output": {
+    "count": 1,
+    "item": "cookbook_of_babel:malawach_flaky_flatbread"
+  },
+  "temperature": {
+    "min_temp": 458
+  }
+}

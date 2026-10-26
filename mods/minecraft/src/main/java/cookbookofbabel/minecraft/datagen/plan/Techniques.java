@@ -13,10 +13,13 @@ import static cookbookofbabel.minecraft.datagen.plan.RouteKind.CREATE_SPLASHING;
 import static cookbookofbabel.minecraft.datagen.plan.RouteKind.FD_COOKING_POT;
 import static cookbookofbabel.minecraft.datagen.plan.RouteKind.FD_CUTTING_BOARD;
 import static cookbookofbabel.minecraft.datagen.plan.RouteKind.FR_KETTLE;
+import static cookbookofbabel.minecraft.datagen.plan.RouteKind.PNC_THERMO_PLANT;
 import static cookbookofbabel.minecraft.datagen.plan.RouteKind.GARNISHED_FREEZING;
 import static cookbookofbabel.minecraft.datagen.plan.RouteKind.SHAPELESS_CRAFTING;
 import static cookbookofbabel.minecraft.datagen.plan.RouteKind.SMELTING;
 import static cookbookofbabel.minecraft.datagen.plan.RouteKind.SMOKING;
+import static cookbookofbabel.minecraft.datagen.plan.RouteKind.THERMAL_CENTRIFUGE;
+import static cookbookofbabel.minecraft.datagen.plan.RouteKind.THERMAL_PRESS;
 import static cookbookofbabel.minecraft.datagen.plan.RouteKind.VD_FERMENTING_JAR;
 
 import cookbookofbabel.minecraft.dataset.IngredientId;
@@ -42,7 +45,7 @@ public final class Techniques {
             bind("grill", CAMPFIRE, SMOKING),
             bind("smoke", SMOKING, CAMPFIRE),
             // Farmer's Delight's skillet takes one input, so it can't take the oil too.
-            bind("fry", CREATE_HEATED_MIXING),
+            bind("fry", CREATE_HEATED_MIXING, PNC_THERMO_PLANT),
             bind("cut", FD_CUTTING_BOARD, CREATE_CUTTING),
             bind("grind", CREATE_MILLING),
             // The dataset lists the water as an input and the starchy water as an output. A fan
@@ -50,8 +53,9 @@ public final class Techniques {
             bind("rinse", CREATE_MIXING, CREATE_SPLASHING),
             bind("soak", CREATE_MIXING, CREATE_SPLASHING),
             bind("steep", CREATE_MIXING, CREATE_SPLASHING, FR_KETTLE),
-            bind("separate", CREATE_ITEM_DRAIN, CREATE_MIXING),
-            bind("churn", CREATE_MIXING),
+            bind("separate", CREATE_ITEM_DRAIN, CREATE_MIXING, THERMAL_CENTRIFUGE),
+            bind("press", CREATE_ITEM_DRAIN, CREATE_MIXING, THERMAL_PRESS),
+            bind("churn", CREATE_MIXING, THERMAL_CENTRIFUGE),
             // A heated basin boils the wash and collects what comes off as a fluid.
             bind("distill", CREATE_HEATED_MIXING),
             bind("coagulate", CREATE_MIXING),
@@ -68,6 +72,7 @@ public final class Techniques {
             elide("freeze", GARNISHED_FREEZING),
             // Ageing, fermenting, curing and sprouting take a timed container.
             bind("age", VD_FERMENTING_JAR, BNC_KEG),
+            bind("ferment", VD_FERMENTING_JAR, BNC_KEG, PNC_THERMO_PLANT),
             Map.entry(new TechniqueId("spoil"), new Binding.Deferred("spoilage is something to prevent, not a recipe")));
 
     /**

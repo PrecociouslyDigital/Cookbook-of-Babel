@@ -1,0 +1,30 @@
+{
+  "type": "thermal:centrifuge",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "thermal_expansion"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/fish_stock_fumet_de_poisson"
+    }
+  ],
+  "energy": 400,
+  "ingredient": [
+    {
+      "type": "forge:partial_nbt",
+      "item": "cookbook_of_babel:portion",
+      "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:liquid\",Tag:{substance:\"cookbook_of_babel:fish_stock_fumet_de_poisson_step_6\"}}}"
+    },
+    {
+      "tag": "cookbook_of_babel:ingredients/fish_stock_fumet_de_poisson_step_6"
+    }
+  ],
+  "result": [
+    {
+      "count": 3,
+      "item": "cookbook_of_babel:fish_stock_fumet_de_poisson"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "type": "pneumaticcraft:thermo_plant",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "pneumaticcraft"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/cottage_cheese_pancakes"
+    }
+  ],
+  "fluid_input": {
+    "type": "pneumaticcraft:fluid",
+    "amount": 100,
+    "fluid": "cookbook_of_babel:liquid",
+    "fuzzyNBT": false,
+    "nbt": "{substance:\"cookbook_of_babel:cottage_cheese_pancakes_step_2\"}"
+  },
+  "item_output": {
+    "count": 1,
+    "item": "cookbook_of_babel:cottage_cheese_pancakes"
+  },
+  "temperature": {
+    "min_temp": 458
+  }
+}

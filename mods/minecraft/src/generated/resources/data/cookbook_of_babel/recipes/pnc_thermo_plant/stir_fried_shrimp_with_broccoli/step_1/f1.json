@@ -1,0 +1,38 @@
+{
+  "type": "pneumaticcraft:thermo_plant",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "pneumaticcraft"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/stir_fried_shrimp_with_broccoli_step_1"
+    }
+  ],
+  "fluid_input": {
+    "type": "pneumaticcraft:fluid",
+    "amount": 148,
+    "fluid": "cookbook_of_babel:liquid",
+    "fuzzyNBT": false,
+    "nbt": "{substance:\"cookbook_of_babel:vegetable_oil\"}"
+  },
+  "fluid_output": {
+    "amount": 284,
+    "fluid": "cookbook_of_babel:liquid",
+    "nbt": "{substance:\"cookbook_of_babel:stir_fried_shrimp_with_broccoli_step_1\"}"
+  },
+  "item_input": [
+    {
+      "type": "forge:partial_nbt",
+      "item": "cookbook_of_babel:substance",
+      "nbt": "{substance:\"cookbook_of_babel:garlic\"}"
+    },
+    {
+      "tag": "cookbook_of_babel:ingredients/garlic"
+    }
+  ],
+  "temperature": {
+    "min_temp": 463
+  }
+}

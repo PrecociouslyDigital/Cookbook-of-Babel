@@ -1,0 +1,30 @@
+{
+  "type": "thermal:press",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "thermal_expansion"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/homemade_corned_beef"
+    }
+  ],
+  "energy": 400,
+  "ingredient": [
+    {
+      "type": "forge:partial_nbt",
+      "item": "cookbook_of_babel:substance",
+      "nbt": "{substance:\"cookbook_of_babel:homemade_corned_beef_step_3\"}"
+    },
+    {
+      "tag": "cookbook_of_babel:ingredients/homemade_corned_beef_step_3"
+    }
+  ],
+  "result": [
+    {
+      "count": 1,
+      "item": "cookbook_of_babel:homemade_corned_beef"
+    }
+  ]
+}

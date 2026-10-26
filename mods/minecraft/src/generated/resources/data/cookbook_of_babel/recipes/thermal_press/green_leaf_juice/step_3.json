@@ -1,0 +1,31 @@
+{
+  "type": "thermal:press",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "thermal_expansion"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/green_leaf_juice_step_3"
+    }
+  ],
+  "energy": 400,
+  "ingredient": [
+    {
+      "type": "forge:partial_nbt",
+      "item": "cookbook_of_babel:substance",
+      "nbt": "{substance:\"cookbook_of_babel:green_leaf_juice_step_2\"}"
+    },
+    {
+      "tag": "cookbook_of_babel:ingredients/green_leaf_juice_step_2"
+    }
+  ],
+  "result": [
+    {
+      "amount": 51,
+      "fluid": "cookbook_of_babel:liquid",
+      "nbt": "{substance:\"cookbook_of_babel:green_leaf_juice_step_3\"}"
+    }
+  ]
+}

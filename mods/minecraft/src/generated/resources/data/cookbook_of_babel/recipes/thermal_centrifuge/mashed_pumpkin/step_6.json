@@ -1,0 +1,31 @@
+{
+  "type": "thermal:centrifuge",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "thermal_expansion"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/mashed_pumpkin_step_6"
+    }
+  ],
+  "energy": 400,
+  "ingredient": [
+    {
+      "type": "forge:partial_nbt",
+      "item": "cookbook_of_babel:substance",
+      "nbt": "{substance:\"cookbook_of_babel:pumpkin_rinse_bake_cool_chop\"}"
+    },
+    {
+      "tag": "cookbook_of_babel:ingredients/pumpkin_rinse_bake_cool_chop"
+    }
+  ],
+  "result": [
+    {
+      "count": 1,
+      "item": "cookbook_of_babel:substance",
+      "nbt": "{substance:\"cookbook_of_babel:mashed_pumpkin_step_6\"}"
+    }
+  ]
+}

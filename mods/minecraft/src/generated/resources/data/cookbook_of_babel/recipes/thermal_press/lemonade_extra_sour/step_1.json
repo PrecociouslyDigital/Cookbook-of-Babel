@@ -1,0 +1,31 @@
+{
+  "type": "thermal:press",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "thermal_expansion"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/lemonade_extra_sour_step_1"
+    }
+  ],
+  "energy": 400,
+  "ingredient": [
+    {
+      "type": "forge:partial_nbt",
+      "item": "cookbook_of_babel:substance",
+      "nbt": "{substance:\"cookbook_of_babel:lemon\"}"
+    },
+    {
+      "tag": "cookbook_of_babel:ingredients/lemon"
+    }
+  ],
+  "result": [
+    {
+      "amount": 17,
+      "fluid": "cookbook_of_babel:liquid",
+      "nbt": "{substance:\"cookbook_of_babel:lemonade_extra_sour_step_1\"}"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "type": "pneumaticcraft:thermo_plant",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "pneumaticcraft"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/apple_brown_betty_step_2"
+    }
+  ],
+  "fluid_input": {
+    "type": "pneumaticcraft:fluid",
+    "amount": 473,
+    "fluid": "cookbook_of_babel:bulk",
+    "fuzzyNBT": false,
+    "nbt": "{substance:\"cookbook_of_babel:bread_crumbs\"}"
+  },
+  "fluid_output": {
+    "amount": 532,
+    "fluid": "cookbook_of_babel:bulk",
+    "nbt": "{substance:\"cookbook_of_babel:apple_brown_betty_step_2\"}"
+  },
+  "item_input": [
+    {
+      "type": "forge:partial_nbt",
+      "item": "cookbook_of_babel:substance",
+      "nbt": "{substance:\"cookbook_of_babel:butter\"}"
+    },
+    {
+      "tag": "cookbook_of_babel:ingredients/butter"
+    }
+  ],
+  "temperature": {
+    "min_temp": 458
+  }
+}

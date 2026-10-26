@@ -1,0 +1,55 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/awaze_tibs_spicy_ethiopian_meat_stir_fry_step_2"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "pneumaticcraft"
+    }
+  ],
+  "heatRequirement": "heated",
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:beef\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/beef"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:beef\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/beef"
+      }
+    ],
+    {
+      "amount": 5,
+      "fluid": "pneumaticcraft:vegetable_oil",
+      "nbt": {}
+    }
+  ],
+  "processingTime": 70,
+  "results": [
+    {
+      "count": 4,
+      "item": "cookbook_of_babel:substance",
+      "nbt": {
+        "substance": "cookbook_of_babel:awaze_tibs_spicy_ethiopian_meat_stir_fry_step_2"
+      }
+    }
+  ]
+}

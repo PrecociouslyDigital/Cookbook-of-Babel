@@ -1,0 +1,54 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/deep_fried_pretzels"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "pneumaticcraft"
+    }
+  ],
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+      "tag": "cookbook_of_babel:ingredients/seasoned_salt_i"
+    },
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:handfuls_of_pretzels\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/handfuls_of_pretzels"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:handfuls_of_pretzels\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/handfuls_of_pretzels"
+      }
+    ],
+    {
+      "amount": 237,
+      "fluid": "pneumaticcraft:vegetable_oil",
+      "nbt": {}
+    }
+  ],
+  "processingTime": 20,
+  "results": [
+    {
+      "item": "cookbook_of_babel:deep_fried_pretzels"
+    }
+  ]
+}

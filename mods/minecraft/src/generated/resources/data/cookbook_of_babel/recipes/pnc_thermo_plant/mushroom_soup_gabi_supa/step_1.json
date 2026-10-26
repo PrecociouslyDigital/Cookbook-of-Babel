@@ -1,0 +1,38 @@
+{
+  "type": "pneumaticcraft:thermo_plant",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "pneumaticcraft"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/mushroom_soup_gabi_supa_step_1"
+    }
+  ],
+  "fluid_input": {
+    "type": "pneumaticcraft:fluid",
+    "amount": 59,
+    "fluid": "cookbook_of_babel:bulk",
+    "fuzzyNBT": false,
+    "nbt": "{substance:\"cookbook_of_babel:wheat_flour\"}"
+  },
+  "item_input": [
+    {
+      "type": "forge:partial_nbt",
+      "item": "cookbook_of_babel:substance",
+      "nbt": "{substance:\"cookbook_of_babel:butter\"}"
+    },
+    {
+      "tag": "cookbook_of_babel:ingredients/butter"
+    }
+  ],
+  "item_output": {
+    "count": 2,
+    "item": "cookbook_of_babel:substance",
+    "nbt": "{substance:\"cookbook_of_babel:mushroom_soup_gabi_supa_step_1\"}"
+  },
+  "temperature": {
+    "min_temp": 463
+  }
+}

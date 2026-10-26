@@ -1,0 +1,35 @@
+{
+  "type": "pneumaticcraft:thermo_plant",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "pneumaticcraft"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/fried_wheat_bread_balls_bhatoora_step_2"
+    }
+  ],
+  "fluid_input": {
+    "type": "pneumaticcraft:fluid",
+    "amount": 20,
+    "fluid": "cookbook_of_babel:bulk",
+    "fuzzyNBT": false,
+    "nbt": "{substance:\"cookbook_of_babel:fried_wheat_bread_balls_bhatoora_step_1\"}"
+  },
+  "fluid_output": {
+    "amount": 21,
+    "fluid": "cookbook_of_babel:liquid",
+    "nbt": "{substance:\"cookbook_of_babel:fried_wheat_bread_balls_bhatoora_step_2\"}"
+  },
+  "item_input": [
+    {
+      "type": "forge:partial_nbt",
+      "item": "cookbook_of_babel:portion",
+      "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:bulk\",Tag:{substance:\"cookbook_of_babel:yeast\"}}}"
+    },
+    {
+      "tag": "cookbook_of_babel:ingredients/yeast"
+    }
+  ]
+}
