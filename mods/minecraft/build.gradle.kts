@@ -168,6 +168,9 @@ tasks.test {
     useJUnitPlatform()
 }
 
+// The generated recipes alone are more files than a plain zip can index.
+tasks.withType<Zip>().configureEach { isZip64 = true }
+
 tasks.processResources {
     val properties = mapOf("version" to project.version, "minecraft" to gameVersion)
     inputs.properties(properties)
