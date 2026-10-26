@@ -61,10 +61,16 @@ public final class Registration {
             .title(Component.translatable("itemGroup." + CookbookOfBabel.ID))
             .icon(() -> new ItemStack(Items.BOOK))
             .displayItems((parameters, output) -> {
-                parameters.holders().lookup(Substance.REGISTRY).ifPresent(substances -> substances.listElements()
+                var registries = parameters.holders();
+                registries.lookup(Substance.REGISTRY).ifPresent(substances -> substances.listElements()
+                        .filter(s -> !BabelTags.providedElsewhere(registries, s.key().location().getPath()))
                         .sorted(Comparator.comparing((Holder.Reference<Substance> s) -> s.key().location()))
                         .forEach(s -> output.accept(Substances.stackOf(s, 1))));
-                DISHES.values().forEach(dish -> output.accept(dish.get()));
+                DISHES.forEach((dish, item) -> {
+                    if (!BabelTags.providedElsewhere(registries, dish.id())) {
+                        output.accept(item.get());
+                    }
+                });
             })
             .build());
 

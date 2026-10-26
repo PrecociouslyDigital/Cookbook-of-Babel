@@ -7,6 +7,7 @@ import com.simibubi.create.content.kinetics.base.KineticBlockEntity;
 import com.simibubi.create.content.kinetics.mixer.MixingRecipe;
 import com.simibubi.create.content.kinetics.motor.CreativeMotorBlockEntity;
 import com.simibubi.create.content.processing.recipe.HeatCondition;
+import cookbookofbabel.minecraft.BabelTags;
 import cookbookofbabel.minecraft.CookbookOfBabel;
 import cookbookofbabel.minecraft.substance.Carrier;
 import cookbookofbabel.minecraft.substance.Container;
@@ -173,6 +174,15 @@ public final class BabelGameTests {
             helper.fail("the basin hasn't made " + result + " with " + recipe.getId() + "; it holds " + contents
                     + " and the mixer turns at " + mixer.getSpeed() + " rpm");
         });
+    }
+
+    /** Farmer's Delight provides onions, so the mod's own onion is hidden; nothing provides baking soda. */
+    @GameTest(template = EMPTY)
+    public static void providedIngredientsAreHidden(GameTestHelper helper) {
+        var registries = helper.getLevel().registryAccess();
+        helper.assertTrue(BabelTags.providedElsewhere(registries, "onion"), "onion isn't provided elsewhere");
+        helper.assertFalse(BabelTags.providedElsewhere(registries, "baking_soda"), "baking soda is provided elsewhere");
+        helper.succeed();
     }
 
     /** A generated cutting board recipe cuts with a knife. */
