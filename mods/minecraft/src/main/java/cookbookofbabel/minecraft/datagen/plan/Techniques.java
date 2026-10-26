@@ -56,9 +56,9 @@ public final class Techniques {
             bind("ash", SMELTING, BLASTING, CREATE_HEATED_MIXING),
             bind("carbonate", CREATE_MIXING),
             bind("evaporate", CREATE_HEATED_MIXING),
-            Map.entry(new TechniqueId("cool"), new Binding.Elidable()),
-            Map.entry(new TechniqueId("chill"), new Binding.Elidable()),
-            Map.entry(new TechniqueId("dry"), new Binding.Elidable()),
+            elide("cool"),
+            elide("chill"),
+            elide("dry"),
             Map.entry(new TechniqueId("age"), new Binding.Deferred("time-based changes wait for a time mechanic")));
 
     /**
@@ -98,6 +98,10 @@ public final class Techniques {
     public static Set<TechniqueId> named() {
         return java.util.stream.Stream.concat(TABLE.keySet().stream(), MEDIA.keySet().stream())
                 .collect(java.util.stream.Collectors.toSet());
+    }
+
+    private static Map.Entry<TechniqueId, Binding> elide(String technique, RouteKind... routes) {
+        return Map.entry(new TechniqueId(technique), new Binding.Elidable(List.of(routes)));
     }
 
     private static Map.Entry<TechniqueId, Binding> bind(String technique, RouteKind... routes) {

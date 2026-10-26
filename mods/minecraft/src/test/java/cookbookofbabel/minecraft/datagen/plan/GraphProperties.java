@@ -138,7 +138,7 @@ class GraphProperties {
         var inputs = fatInStep ? List.of(shreds, butter) : List.of(shreds);
         var fry = Worlds.recipe("fry", "fry", inputs, List.of(fried));
         var dataset = new Dataset(Worlds.export(ingredients, List.of(Worlds.technique("fry"), Worlds.technique("cut")), List.of(upstream, fry)));
-        var planner = new Planner(dataset, new Techniques(dataset), List.of(upstream, fry));
+        var planner = new Planner(dataset, new Techniques(dataset), List.of(upstream, fry), Provided.NOTHING);
 
         var leaves = inputs.stream().map(i -> new Leaf(i, new Amount(i.equals(butter) ? 10 : 200, "g"))).toList();
         var hasFat = butterIsFat && (fatInStep || fatUpstream);

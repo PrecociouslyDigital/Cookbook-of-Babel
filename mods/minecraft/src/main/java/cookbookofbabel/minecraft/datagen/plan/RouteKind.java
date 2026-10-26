@@ -1,5 +1,8 @@
 package cookbookofbabel.minecraft.datagen.plan;
 
+import cookbookofbabel.minecraft.dataset.IngredientId;
+import java.util.Optional;
+
 /**
  * The machines a step can be done in, and what each one can take. Limits come from the machines
  * themselves, e.g. a Create basin's two fluid tanks and four output slots, or a smelter's one input.
@@ -22,28 +25,87 @@ public enum RouteKind {
     /** One item on the belt, one in the deployer's hand. */
     CREATE_DEPLOYING(Mod.CREATE, new Constraints(2, 0, 4, 0, true, 0, 0));
 
+    /** The longest wait any machine is given: twenty minutes, a day and night in the game. */
+    static final int LONGEST_TICKS = 24000;
+
     public final Mod mod;
     public final Constraints constraints;
+    public final Nbt nbt;
+    /** What the machine provides itself, like the water a fan blows through, so a step's input of it is left out. */
+    public final Optional<IngredientId> supplies;
 
     RouteKind(Mod mod, Constraints constraints) {
+        this(mod, constraints, Nbt.KEPT, Optional.empty());
+    }
+
+    RouteKind(Mod mod, Constraints constraints, Nbt nbt, Optional<IngredientId> supplies) {
+        // Only a step's main output can be another mod's (see Candidates).
+        if (nbt == Nbt.IGNORED && constraints.maxOutputs() != 1) {
+            throw new IllegalArgumentException(name() + " ignores NBT, so it can make only one thing");
+        }
         this.mod = mod;
         this.constraints = constraints;
+        this.nbt = nbt;
+        this.supplies = supplies;
     }
 
     /**
-     * {@code maxItemInputs} counts items, not slots. A duration range of 0 means the machine
-     * ignores durations.
+     * {@code maxItemInputs} counts items, not slots, and {@code itemKinds} the different items. A
+     * duration range of 0 means the machine ignores durations.
      */
     public record Constraints(
             int maxItemInputs,
+            int itemKinds,
+            int minFluidInputs,
             int maxFluidInputs,
             int maxItemOutputs,
             int maxFluidOutputs,
+            int maxOutputs,
             boolean chanceOutputs,
             int minTicks,
             int maxTicks) {
+        public Constraints(int maxItemInputs, int maxFluidInputs, int maxItemOutputs, int maxFluidOutputs, boolean chanceOutputs, int minTicks, int maxTicks) {
+            this(maxItemInputs, maxItemInputs, 0, maxFluidInputs, maxItemOutputs, maxFluidOutputs, maxItemOutputs + maxFluidOutputs, chanceOutputs, minTicks, maxTicks);
+        }
+
+        /** Takes a stack of one item, not several items. */
+        Constraints oneItemKind() {
+            return new Constraints(maxItemInputs, 1, minFluidInputs, maxFluidInputs, maxItemOutputs, maxFluidOutputs, maxOutputs, chanceOutputs, minTicks, maxTicks);
+        }
+
+        Constraints needsFluid() {
+            return new Constraints(maxItemInputs, itemKinds, 1, maxFluidInputs, maxItemOutputs, maxFluidOutputs, maxOutputs, chanceOutputs, minTicks, maxTicks);
+        }
+
+        /** Makes one thing, an item or a fluid. */
+        Constraints oneOutput() {
+            return new Constraints(maxItemInputs, itemKinds, minFluidInputs, maxFluidInputs, maxItemOutputs, maxFluidOutputs, 1, chanceOutputs, minTicks, maxTicks);
+        }
+
         public boolean takesDuration() {
             return maxTicks > 0;
+        }
+    }
+
+    /**
+     * The NBT a machine looks at. NBT alone tells the mod's own substances apart, so a machine that
+     * ignores it can't take or make them; it can still take items, since every machine reads item
+     * inputs as ingredients.
+     */
+    public enum Nbt {
+        /** Matches it on fluid inputs and keeps it on results. */
+        KEPT,
+        /** Keeps it on results, but takes any fluid of the right kind. */
+        ON_RESULTS,
+        /** Ignores it: only other mods' fluids go in, and only their things or named dishes come out. */
+        IGNORED;
+
+        public boolean onFluidInputs() {
+            return this == KEPT;
+        }
+
+        public boolean onResults() {
+            return this != IGNORED;
         }
     }
 

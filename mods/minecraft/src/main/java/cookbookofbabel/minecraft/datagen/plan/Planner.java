@@ -39,13 +39,15 @@ public final class Planner {
     private final Amounts amounts;
     private final Techniques techniques;
     private final Collection<Recipe> recipes;
+    private final Provided provided;
 
     /** @param recipes every recipe, to trace what went into an ingredient */
-    public Planner(Dataset dataset, Techniques techniques, Collection<Recipe> recipes) {
+    public Planner(Dataset dataset, Techniques techniques, Collection<Recipe> recipes, Provided provided) {
         this.dataset = dataset;
         this.amounts = new Amounts(dataset);
         this.techniques = techniques;
         this.recipes = recipes;
+        this.provided = provided;
     }
 
     public sealed interface Result permits Planned, Rejected {}
@@ -98,6 +100,12 @@ public final class Planner {
 
     public Result plan(Step step, RouteKind route) {
         var c = route.constraints;
+        var inputs = step.inputs().stream()
+                .filter(l -> route.supplies.filter(s -> dataset.isA(l.ingredient(), s)).isEmpty())
+                .toList();
+        if (inputs.isEmpty()) {
+            return new Rejected("takes nothing besides the " + route.supplies.orElseThrow() + " it supplies");
+        }
         var products = step.outputs().stream().filter(o -> o.role() != Role.BYPRODUCT).toList();
         var byproducts = step.outputs().stream().filter(o -> o.role() == Role.BYPRODUCT).toList();
         for (var product : products) {
@@ -109,24 +117,28 @@ public final class Planner {
         var fluidOutputs = new java.util.HashSet<IngredientId>();
         var dropped = new ArrayList<String>();
         for (var output : concat(products, byproducts)) {
-            var asFluid = dataset.container(output.ingredient()).isPresent() && fluidOutputs.size() < c.maxFluidOutputs();
-            var itemCount = outputs.size() - fluidOutputs.size();
-            var fits = asFluid || itemCount < c.maxItemOutputs();
+            var ingredient = output.ingredient();
+            var nbt = route.nbt.onResults();
+            var asFluid = dataset.container(ingredient).isPresent() && fluidOutputs.size() < c.maxFluidOutputs()
+                    && (nbt || provided.fluids().contains(ingredient));
+            var asItem = outputs.size() - fluidOutputs.size() < c.maxItemOutputs() && (nbt || provided.items().contains(ingredient));
+            var fits = (asFluid || asItem) && outputs.size() < c.maxOutputs();
             var rollable = output.chance().isEmpty() || c.chanceOutputs();
             if (fits && rollable) {
                 outputs.add(output);
                 if (asFluid) {
-                    fluidOutputs.add(output.ingredient());
+                    fluidOutputs.add(ingredient);
                 }
             } else if (output.role() == Role.BYPRODUCT) {
-                dropped.add(output.ingredient().value());
+                dropped.add(ingredient.value());
+            } else if (!nbt && !provided.items().contains(ingredient) && !provided.fluids().contains(ingredient)) {
+                return new Rejected("can't make the mod's own " + ingredient + ", and no other mod provides it");
             } else {
-                return new Rejected("makes " + products.size() + " things; at most "
-                        + (c.maxItemOutputs() + c.maxFluidOutputs()) + " fit");
+                return new Rejected("makes " + products.size() + " things; at most " + c.maxOutputs() + " fit");
             }
         }
 
-        var shape = shapeProblem(route, step.inputs(), outputs, fluidOutputs);
+        var shape = shapeProblem(route, inputs, outputs, fluidOutputs);
         if (shape.isPresent()) {
             return new Rejected(shape.get());
         }
@@ -141,9 +153,11 @@ public final class Planner {
             exactOut.add(new Exact(converted.value(), fluid ? Kind.MILLIBUCKETS : Kind.ITEMS, negligible(output.ingredient(), output.amount(), outputGrams)));
         }
 
-        var fit = bestFit(step.inputs(), exactOut, route);
+        var fit = bestFit(inputs, exactOut, route);
         if (fit.isEmpty()) {
-            return new Rejected("doesn't fit in " + c.maxItemInputs() + " input items and " + TANK_MB + " mB tanks at any scale");
+            return new Rejected(fluidsAllowed(inputs, route).size() < c.minFluidInputs()
+                    ? "needs a fluid it can take, and has none"
+                    : "doesn't fit in " + c.maxItemInputs() + " input items and " + TANK_MB + " mB tanks at any scale");
         }
         var fluidInputs = fit.get().fluids();
         var q = fit.get().quantized();
@@ -153,8 +167,8 @@ public final class Planner {
         estimated |= fit.get().estimated();
 
         var ins = new ArrayList<Planned.In>();
-        for (var i = 0; i < step.inputs().size(); i++) {
-            var id = step.inputs().get(i).ingredient();
+        for (var i = 0; i < inputs.size(); i++) {
+            var id = inputs.get(i).ingredient();
             ins.add(fluidInputs.contains(id) ? new FluidIn(id, q.inputs().get(i)) : new ItemIn(id, q.inputs().get(i)));
         }
         var outs = new ArrayList<Planned.Out>();
@@ -176,12 +190,15 @@ public final class Planner {
      */
     private Optional<Fit> bestFit(List<Leaf> inputs, List<Exact> outputs, RouteKind route) {
         var c = route.constraints;
-        var flowable = inputs.stream().map(Leaf::ingredient).filter(i -> dataset.container(i).isPresent()).distinct().toList();
+        var flowable = fluidsAllowed(inputs, route);
         var inputGrams = inputs.stream().mapToDouble(l -> amounts.grams(l.ingredient(), l.amount()).value()).sum();
         Optional<Fit> best = Optional.empty();
-        for (var size = 0; size <= Math.min(c.maxFluidInputs(), flowable.size()); size++) {
+        for (var size = c.minFluidInputs(); size <= Math.min(c.maxFluidInputs(), flowable.size()); size++) {
             for (var chosen : Selections.subsets(flowable.size(), size)) {
                 var fluids = chosen.stream().map(flowable::get).collect(Collectors.toSet());
+                if (inputs.stream().filter(l -> !fluids.contains(l.ingredient())).count() > c.itemKinds()) {
+                    continue;
+                }
                 var estimated = false;
                 var exact = new ArrayList<Exact>();
                 for (var leaf : inputs) {
@@ -197,6 +214,16 @@ public final class Planner {
             }
         }
         return best;
+    }
+
+    /** The inputs the machine could take as fluids: flowable ones, and only other mods' fluids where it ignores NBT. */
+    private List<IngredientId> fluidsAllowed(List<Leaf> inputs, RouteKind route) {
+        return inputs.stream()
+                .map(Leaf::ingredient)
+                .filter(i -> dataset.container(i).isPresent())
+                .filter(i -> route.nbt.onFluidInputs() || provided.fluids().contains(i))
+                .distinct()
+                .toList();
     }
 
     private boolean negligible(IngredientId ingredient, Amount amount, double totalGrams) {
@@ -217,11 +244,12 @@ public final class Planner {
         if (route == RouteKind.CREATE_DEPLOYING && inputs.size() != 2) {
             return Optional.of("deploying takes exactly two items");
         }
-        if (c.maxItemInputs() == 1 && inputs.size() != 1) {
+        var most = c.itemKinds() + c.maxFluidInputs();
+        if (most == 1 && inputs.size() != 1) {
             return Optional.of("takes one input, not " + inputs.size());
         }
-        if (c.maxFluidInputs() == 0 && c.maxItemInputs() < inputs.size()) {
-            return Optional.of("takes at most " + c.maxItemInputs() + " inputs, not " + inputs.size());
+        if (most < inputs.size()) {
+            return Optional.of("takes at most " + most + " inputs, not " + inputs.size());
         }
         return Optional.empty();
     }

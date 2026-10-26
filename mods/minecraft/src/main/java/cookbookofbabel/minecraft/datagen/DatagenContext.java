@@ -11,6 +11,7 @@ import cookbookofbabel.minecraft.datagen.plan.Elision;
 import cookbookofbabel.minecraft.datagen.plan.Mapping;
 import cookbookofbabel.minecraft.datagen.plan.Merging;
 import cookbookofbabel.minecraft.datagen.plan.Planner;
+import cookbookofbabel.minecraft.datagen.plan.Provided;
 import cookbookofbabel.minecraft.datagen.plan.Techniques;
 import java.io.IOException;
 import java.nio.file.Path;
@@ -45,7 +46,7 @@ public final class DatagenContext {
         this.techniques = new Techniques(dataset);
         this.merging = Merging.merge(export.recipes(), export.preparations(), techniques::machineOf);
         this.elision = Elision.elide(merging.recipes(), r -> techniques.bindingFor(r.technique()) instanceof Binding.Elidable);
-        this.planner = new Planner(dataset, techniques, elision.recipes());
+        this.planner = new Planner(dataset, techniques, elision.recipes(), Provided.of(mappings, dataset));
         this.coverage = new Coverage();
         this.coverageFile = coverageFile;
         this.candidatesDirectory = candidatesDirectory;

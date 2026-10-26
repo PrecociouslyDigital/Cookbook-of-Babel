@@ -55,7 +55,7 @@ public final class RecipesGen extends RecipeProvider {
     private void step(Recipe recipe, RouteEmitter emitter, Consumer<FinishedRecipe> sink) {
         var binding = context.techniques.bindingFor(recipe.technique());
         var technique = recipe.technique().value();
-        if (!(binding instanceof Binding.Routes routes)) {
+        if (binding.routes().isEmpty()) {
             var note = binding instanceof Binding.Deferred d
                     ? d.reason()
                     : binding instanceof Binding.Elidable
@@ -71,7 +71,7 @@ public final class RecipesGen extends RecipeProvider {
         var variants = new ArrayList<Coverage.Variant>();
         for (var step : ((Planner.Variants) context.planner.steps(recipe)).steps()) {
             var lines = new ArrayList<Coverage.Route>();
-            for (var route : routes.routes()) {
+            for (var route : binding.routes()) {
                 var result = context.planner.plan(step, route);
                 if (result instanceof Planned planned) {
                     var written = emitter.emit(planned, sink);
