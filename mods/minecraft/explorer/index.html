@@ -1,0 +1,891 @@
+<title>Babel Recipe Graph</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&family=Pixelify+Sans:wght@500;700&display=swap">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/dagre/0.8.5/dagre.min.js"></script>
+<style>
+:root {
+  --ground: #e2dfd8;
+  --canvas: #d3cfc6;
+  --grid: rgba(60, 52, 40, 0.07);
+  --panel: #c6c6c6;
+  --panel-hi: #ffffff;
+  --panel-lo: #555555;
+  --outline: #1b1b1b;
+  --slot: #8b8b8b;
+  --slot-hi: #ffffff;
+  --slot-lo: #373737;
+  --chip: #b3b3b3;
+  --ink: #2a2926;
+  --ink-soft: #57544d;
+  --line: #7d786e;
+  --accent: #2e5ba8;
+  --warn: #a8291f;
+  --ok: #3b7a29;
+  --dish: #c9a26b;
+  --field: #a9a9a9;
+  --font-display: "Pixelify Sans", "Courier New", monospace;
+  --font-body: "IBM Plex Sans", "Segoe UI", system-ui, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, Menlo, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    color-scheme: dark;
+    --ground: #141518;
+    --canvas: #1c1d21;
+    --grid: rgba(220, 225, 235, 0.045);
+    --panel: #2d2e33;
+    --panel-hi: #4b4c53;
+    --panel-lo: #0c0c0e;
+    --outline: #000000;
+    --slot: #1d1e21;
+    --slot-hi: #3d3e44;
+    --slot-lo: #08080a;
+    --chip: #3a3b41;
+    --ink: #ebe8e1;
+    --ink-soft: #a9a59b;
+    --line: #6f6b63;
+    --accent: #84aaf0;
+    --warn: #ec7064;
+    --ok: #8cc672;
+    --dish: #b88f57;
+    --field: #1d1e21;
+  }
+}
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --ground: #141518;
+  --canvas: #1c1d21;
+  --grid: rgba(220, 225, 235, 0.045);
+  --panel: #2d2e33;
+  --panel-hi: #4b4c53;
+  --panel-lo: #0c0c0e;
+  --outline: #000000;
+  --slot: #1d1e21;
+  --slot-hi: #3d3e44;
+  --slot-lo: #08080a;
+  --chip: #3a3b41;
+  --ink: #ebe8e1;
+  --ink-soft: #a9a59b;
+  --line: #6f6b63;
+  --accent: #84aaf0;
+  --warn: #ec7064;
+  --ok: #8cc672;
+  --dish: #b88f57;
+  --field: #1d1e21;
+}
+
+html, body { height: 100%; }
+body {
+  margin: 0;
+  background: var(--ground);
+  color: var(--ink);
+  font: 14px/1.45 var(--font-body);
+}
+button { font: inherit; color: inherit; }
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+.app {
+  height: 100%;
+  display: grid;
+  grid-template-columns: 300px minmax(0, 1fr) 360px;
+  grid-template-rows: auto minmax(0, 1fr);
+  grid-template-areas: "head head head" "side graph detail";
+  gap: 12px;
+  padding: 12px 16px;
+  box-sizing: border-box;
+}
+
+.bevel {
+  background: var(--panel);
+  border: 2px solid var(--outline);
+  border-radius: 3px;
+  box-shadow: inset 2px 2px 0 var(--panel-hi), inset -2px -2px 0 var(--panel-lo);
+}
+.slot {
+  flex: none;
+  position: relative;
+  width: 22px;
+  height: 22px;
+  background: var(--slot);
+  box-shadow: inset 2px 2px 0 var(--slot-lo), inset -2px -2px 0 var(--slot-hi);
+}
+.slot::after { content: ""; position: absolute; inset: 4px; background: var(--c, var(--dish)); }
+.slot.form-liquid::after, .slot.form-foam::after { top: 10px; }
+.slot.form-powder::after, .slot.form-granule::after {
+  background: radial-gradient(circle, var(--c) 45%, transparent 50%) 0 0 / 4px 4px;
+}
+.slot.form-external::after {
+  background: repeating-linear-gradient(45deg, var(--ink-soft) 0 2px, transparent 2px 5px);
+}
+
+header.head {
+  grid-area: head;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 6px 20px;
+}
+header.head h1 {
+  margin: 0;
+  font: 700 24px/1.1 var(--font-display);
+  letter-spacing: 0.02em;
+}
+.stats { display: flex; flex-wrap: wrap; gap: 4px 18px; color: var(--ink-soft); font-variant-numeric: tabular-nums; }
+.stats b { color: var(--ink); font-weight: 600; }
+.stats b.warn { color: var(--warn); }
+.stats b.ok { color: var(--ok); }
+
+.eyebrow {
+  margin: 0;
+  font: 500 13px/1 var(--font-display);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--ink-soft);
+}
+
+aside.side {
+  grid-area: side;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  min-height: 0;
+  padding: 12px;
+}
+.search {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 7px 9px;
+  font: 14px var(--font-body);
+  color: var(--ink);
+  background: var(--field);
+  border: 0;
+  box-shadow: inset 2px 2px 0 var(--slot-lo), inset -2px -2px 0 var(--slot-hi);
+}
+.search::placeholder { color: var(--ink-soft); }
+
+.seg { display: flex; gap: 4px; flex-wrap: wrap; }
+.seg button {
+  padding: 3px 9px;
+  font-size: 12.5px;
+  background: var(--chip);
+  border: 2px solid var(--outline);
+  box-shadow: inset 2px 2px 0 var(--panel-hi), inset -2px -2px 0 var(--panel-lo);
+  cursor: pointer;
+}
+.seg button[aria-pressed="true"] {
+  background: var(--accent);
+  color: var(--panel);
+  box-shadow: inset -2px -2px 0 rgba(255,255,255,.25), inset 2px 2px 0 rgba(0,0,0,.35);
+}
+
+.results { flex: 1; min-height: 0; overflow-y: auto; margin: 0 -4px; padding: 0 4px; }
+.results h3 { margin: 4px 0 6px; }
+.row {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  width: 100%;
+  padding: 5px 4px;
+  text-align: left;
+  background: none;
+  border: 0;
+  cursor: pointer;
+}
+.row:hover, .row[aria-current="true"] { background: var(--chip); }
+.row .txt { min-width: 0; }
+.row .lbl, .row .sub { display: block; }
+.row .lbl { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.row .sub { font-size: 12px; color: var(--ink-soft); }
+.warn { color: var(--warn); }
+.ok { color: var(--ok); }
+
+.mods { display: grid; gap: 3px; font-size: 12px; font-variant-numeric: tabular-nums; }
+.mods .mod { display: grid; grid-template-columns: 112px 1fr 44px; align-items: center; gap: 8px; }
+.mods .bar { height: 8px; background: var(--m); }
+.mods .n { text-align: right; color: var(--ink-soft); }
+
+main.graph {
+  grid-area: graph;
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+  overflow: hidden;
+}
+.graph-bar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px 14px;
+  padding: 9px 12px;
+  border-bottom: 2px solid var(--outline);
+}
+.graph-bar h2 { margin: 0; font: 600 16px/1.25 var(--font-body); flex: 1 1 200px; min-width: 0; text-wrap: balance; }
+.graph-bar .note { flex-basis: 100%; font-size: 12.5px; color: var(--ink-soft); }
+.graph-bar .note:empty { display: none; }
+.canvas {
+  position: relative;
+  flex: 1;
+  min-height: 0;
+  background-color: var(--canvas);
+  background-image:
+    linear-gradient(var(--grid) 1px, transparent 1px),
+    linear-gradient(90deg, var(--grid) 1px, transparent 1px);
+  background-size: 16px 16px;
+  cursor: grab;
+  touch-action: none;
+}
+.canvas.dragging { cursor: grabbing; }
+.canvas svg { position: absolute; inset: 0; width: 100%; height: 100%; }
+.canvas .status { position: absolute; inset: 0; display: grid; place-items: center; color: var(--ink-soft); }
+
+.edge { fill: none; stroke: var(--line); stroke-width: 1.6; }
+.edge.hot { stroke: var(--accent); stroke-width: 2.4; }
+.arrow { fill: var(--line); }
+.arrow-hot { fill: var(--accent); }
+.qty {
+  font: 500 11px var(--font-mono);
+  fill: var(--ink);
+  paint-order: stroke;
+  stroke: var(--canvas);
+  stroke-width: 4px;
+}
+
+.node {
+  box-sizing: border-box;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  padding: 6px 8px;
+  cursor: pointer;
+  background: var(--panel);
+  border: 2px solid var(--outline);
+  border-radius: 3px;
+  box-shadow: inset 2px 2px 0 var(--panel-hi), inset -2px -2px 0 var(--panel-lo);
+  font: 13px/1.3 var(--font-body);
+  color: var(--ink);
+}
+.node.sel { border-color: var(--accent); box-shadow: 0 0 0 2px var(--accent), inset 2px 2px 0 var(--panel-hi), inset -2px -2px 0 var(--panel-lo); }
+.node.root .lbl { font-weight: 600; }
+.node .txt, .detail .txt { flex: 1; min-width: 0; }
+.node .lbl { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.node .meta { display: flex; gap: 4px; align-items: center; white-space: nowrap; overflow: hidden; font-size: 11.5px; color: var(--ink-soft); }
+.node .toggle {
+  flex: none;
+  width: 22px;
+  height: 22px;
+  padding: 0;
+  font: 700 15px/1 var(--font-display);
+  background: var(--chip);
+  border: 2px solid var(--outline);
+  cursor: pointer;
+}
+
+.chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 0 5px;
+  font-size: 11.5px;
+  line-height: 17px;
+  white-space: nowrap;
+  background: var(--chip);
+  color: var(--ink);
+}
+.chip::before { content: ""; width: 7px; height: 7px; background: var(--m); }
+.mono { font-family: var(--font-mono); font-size: 0.92em; }
+
+aside.detail {
+  grid-area: detail;
+  min-height: 0;
+  overflow-y: auto;
+  padding: 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.detail .who { display: flex; gap: 10px; align-items: flex-start; }
+.detail .who .slot { width: 32px; height: 32px; }
+.detail h2 { margin: 0; font: 600 17px/1.25 var(--font-body); text-wrap: balance; overflow-wrap: anywhere; }
+.detail .id { font: 12px var(--font-mono); color: var(--ink-soft); overflow-wrap: anywhere; }
+.detail section { display: flex; flex-direction: column; gap: 8px; }
+.detail .callout { padding: 8px 10px; background: var(--chip); font-size: 13px; }
+.alt { padding: 8px 10px; background: var(--chip); display: flex; flex-direction: column; gap: 6px; }
+.alt.chosen { box-shadow: inset 3px 0 0 var(--accent); }
+.alt .machines { display: flex; flex-wrap: wrap; gap: 4px; align-items: center; }
+.alt .chip { background: var(--panel); }
+.alt ul, .used ul, .accepted { list-style: none; margin: 0; padding: 0; }
+.alt li .row, .used li .row { padding: 3px 2px; }
+.alt .row:hover, .used .row:hover { background: var(--panel); }
+.q { margin-left: auto; padding-left: 8px; font: 12px var(--font-mono); color: var(--ink-soft); white-space: nowrap; }
+.accepted li { font: 12.5px var(--font-mono); overflow-wrap: anywhere; }
+.btn {
+  align-self: flex-start;
+  padding: 3px 10px;
+  font-size: 12.5px;
+  background: var(--panel);
+  border: 2px solid var(--outline);
+  box-shadow: inset 2px 2px 0 var(--panel-hi), inset -2px -2px 0 var(--panel-lo);
+  cursor: pointer;
+}
+.btn:active { box-shadow: inset -2px -2px 0 var(--panel-hi), inset 2px 2px 0 var(--panel-lo); }
+.more { font-size: 12.5px; color: var(--ink-soft); }
+
+@media (max-width: 1180px) {
+  .app {
+    height: auto;
+    grid-template-columns: 280px minmax(0, 1fr);
+    grid-template-rows: auto 72vh auto;
+    grid-template-areas: "head head" "side graph" "detail detail";
+  }
+}
+@media (max-width: 760px) {
+  .app {
+    grid-template-columns: minmax(0, 1fr);
+    grid-template-rows: auto auto 68vh auto;
+    grid-template-areas: "head" "side" "graph" "detail";
+  }
+  aside.side .results { max-height: 36vh; }
+  .mods-block { display: none; }
+}
+</style>
+
+<div class="app">
+  <header class="head">
+    <h1>Babel Recipe Graph</h1>
+    <div class="stats" id="stats">Loading the recipe graph…</div>
+  </header>
+
+  <aside class="side bevel">
+    <label class="eyebrow" for="q">Find a dish or ingredient</label>
+    <input class="search" id="q" type="search" placeholder="e.g. sourdough, corn, tomato sauce" autocomplete="off">
+    <div class="seg" id="filter" role="group" aria-label="Search in">
+      <button type="button" data-filter="dish" aria-pressed="true">Dishes</button>
+      <button type="button" data-filter="ingredient" aria-pressed="false">Ingredients</button>
+      <button type="button" data-filter="all" aria-pressed="false">Everything</button>
+    </div>
+    <div class="results" id="results"></div>
+    <div class="mods-block">
+      <p class="eyebrow" style="margin-bottom:8px">Recipes per mod</p>
+      <div class="mods" id="mods"></div>
+    </div>
+  </aside>
+
+  <main class="graph bevel">
+    <div class="graph-bar">
+      <h2 id="root-title">…</h2>
+      <div class="seg" id="mode" role="group" aria-label="Direction">
+        <button type="button" data-mode="up" aria-pressed="true">Made from</button>
+        <button type="button" data-mode="down" aria-pressed="false">Used in</button>
+      </div>
+      <button type="button" class="btn" id="fit">Fit</button>
+      <div class="note" id="graph-note"></div>
+    </div>
+    <div class="canvas" id="canvas">
+      <svg id="svg" aria-label="Recipe graph">
+        <defs>
+          <marker id="arrow" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="7" markerHeight="7" orient="auto"><path class="arrow" d="M0,0L8,4L0,8z"/></marker>
+          <marker id="arrow-hot" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="7" markerHeight="7" orient="auto"><path class="arrow-hot" d="M0,0L8,4L0,8z"/></marker>
+        </defs>
+        <g id="viewport"></g>
+      </svg>
+      <div class="status" id="status">Loading…</div>
+    </div>
+  </main>
+
+  <aside class="detail bevel" id="detail"></aside>
+</div>
+
+<script>
+const MODS = {
+  create: ["Create", "#c98a2b"],
+  farmersdelight: ["Farmer's Delight", "#6e8b3d"],
+  minecraft: ["Minecraft", "#8a8a8a"],
+  pneumaticcraft: ["PneumaticCraft", "#2f8f8a"],
+  thermal: ["Thermal", "#c0453a"],
+  theurgy: ["Theurgy", "#7b5ea7"],
+  vintagedelight: ["Vintage Delight", "#a0527a"],
+  brewinandchewin: ["Brewin' and Chewin'", "#4f6db8"],
+};
+const MACHINES = {
+  "brewinandchewin:fermenting": "Keg",
+  "create:cutting": "Mechanical Saw",
+  "create:deploying": "Deployer",
+  "create:emptying": "Item Drain",
+  "create:filling": "Spout",
+  "create:milling": "Millstone",
+  "create:mixing": "Mixer",
+  "create:splashing": "Fan washing",
+  "farmersdelight:cooking": "Cooking Pot",
+  "farmersdelight:cutting": "Cutting Board",
+  "minecraft:blasting": "Blast Furnace",
+  "minecraft:campfire_cooking": "Campfire",
+  "minecraft:crafting_shapeless": "Crafting",
+  "minecraft:smelting": "Furnace",
+  "minecraft:smoking": "Smoker",
+  "pneumaticcraft:thermo_plant": "Thermopneumatic Plant",
+  "thermal:centrifuge": "Centrifugal Separator",
+  "thermal:press": "Multiservo Press",
+  "theurgy:calcination": "Calcination Oven",
+  "theurgy:fermentation": "Fermentation Vat",
+  "theurgy:liquefaction": "Liquefaction Cauldron",
+  "vintagedelight:fermenting": "Fermenting Jar",
+};
+const DEFAULT_ROOT = "steamed_buns_with_bbq_pork";
+const STEP = /_step_\d+$/;
+const NODE_W = 236, NODE_H = 56;
+const MAX_GRAPH_NODES = 400;
+/* Below this, node labels stop being readable; a long recipe opens at its first steps and pans instead. */
+const MIN_FIT_SCALE = 0.6;
+const MAX_DOWNSTREAM = 60;
+const SEARCH_LIMIT = 80;
+
+const $ = (id) => document.getElementById(id);
+const fmt = (n) => n.toLocaleString("en-US");
+const esc = (s) => String(s).replace(/[&<>"']/g, (c) => `&#${c.charCodeAt(0)};`);
+const capitalise = (s) => s.charAt(0).toUpperCase() + s.slice(1);
+
+let G;
+const view = { root: 0, selected: 0, mode: "up", toggled: new Set(), chosenAlt: new Map(), filter: "dish" };
+
+function machine(m) {
+  const [type, heat] = G.machines[m].split(" (");
+  const mod = type.split(":")[0];
+  return {
+    name: (MACHINES[type] ?? type) + (heat ? ` · ${heat.slice(0, -1)}` : ""),
+    mod,
+    color: MODS[mod]?.[1] ?? "var(--line)",
+  };
+}
+const chip = (m) => {
+  const { name, mod, color } = machine(m);
+  return `<span class="chip" style="--m:${color}" title="${esc(MODS[mod]?.[0] ?? mod)}">${esc(name)}</span>`;
+};
+
+function prepare(raw) {
+  const ids = raw.ids;
+  const index = new Map(ids.map((id, i) => [id, i]));
+  const recipes = new Map(Object.entries(raw.recipes).map(([k, v]) => [+k, v]));
+  const accepted = new Map(Object.entries(raw.accepted).map(([k, v]) => [+k, v]));
+  const consumers = ids.map(() => new Set());
+  for (const [out, alts] of recipes)
+    for (const [, , inputs] of alts) for (const [i] of inputs) consumers[i].add(out);
+
+  const kind = ids.map((id, i) => {
+    const form = raw.nodes[i][2];
+    if (form === "dish" || form === "external") return form;
+    if (STEP.test(id)) return "step";
+    return recipes.has(i) ? "made" : "raw";
+  });
+  const dishOf = ids.map((id, i) => {
+    if (kind[i] !== "step") return i;
+    return index.get(id.replace(STEP, "")) ?? i;
+  });
+  const stepCount = new Map();
+  ids.forEach((_, i) => kind[i] === "step" && stepCount.set(dishOf[i], (stepCount.get(dishOf[i]) ?? 0) + 1));
+
+  const nodes = raw.nodes.map(([label, color, form], i) => ({ label: capitalise(label), color, form }));
+  for (const [i, n] of nodes.entries()) {
+    if (kind[i] === "external") n.label = prettyExternal(ids[i]);
+    if (kind[i] === "dish" && recipes.has(i)) {
+      const last = recipes.get(i)[0][2].find(([c]) => dishOf[c] === i);
+      if (last) n.color = nodes[last[0]].color;
+    }
+  }
+  return { ...raw, nodes, index, recipes, accepted, consumers, kind, dishOf, stepCount };
+}
+
+function prettyExternal(id) {
+  const tag = id.startsWith("#");
+  const [ns, path] = id.replace("#", "").split(":");
+  const name = capitalise(path.split("/").pop().replace(/_/g, " "));
+  return tag ? `Any ${name.toLowerCase()} (${ns} tag)` : `${name} (${ns})`;
+}
+
+/* Labels are relative to the root: a step of the dish on screen is just "Step n". */
+function labelFor(i) {
+  if (G.kind[i] === "step" && G.dishOf[i] === G.dishOf[view.root]) return `Step ${G.ids[i].match(/\d+$/)[0]}`;
+  return G.nodes[i].label;
+}
+const slot = (i) => {
+  const n = G.nodes[i];
+  return `<span class="slot form-${n.form}" style="${n.color ? `--c:${n.color}` : ""}"></span>`;
+};
+
+function sourceNote(i) {
+  const items = G.accepted.get(i);
+  if (items) return `<span class="ok">in-game:</span> <span class="mono">${esc(items.find((x) => !x.startsWith("#")) ?? items[0])}</span>${items.length > 1 ? ` +${items.length - 1}` : ""}`;
+  return `<span class="warn">no in-game item</span>`;
+}
+
+const altIndex = (i) => view.chosenAlt.get(i) ?? 0;
+const chosenAlt = (i) => G.recipes.get(i)[altIndex(i)];
+const autoExpanded = (i) => i === view.root || (G.kind[i] === "step" && G.dishOf[i] === G.dishOf[view.root]);
+const isExpanded = (i) => G.recipes.has(i) && autoExpanded(i) !== view.toggled.has(i);
+
+/* Producers are shared so a step feeding two later steps appears once; leaves are copied per consumer so each step keeps its ingredients beside it. */
+function buildUpstream() {
+  const nodes = new Map(), edges = [];
+  let truncated = false;
+  const place = (i, consumerKey) => {
+    let open = isExpanded(i);
+    if (open && nodes.size >= MAX_GRAPH_NODES) { open = false; truncated = true; }
+    const key = open ? `n${i}` : `n${i}@${consumerKey}`;
+    if (nodes.has(key)) return key;
+    nodes.set(key, { i, open });
+    if (open) for (const [c, q, unit] of chosenAlt(i)[2]) edges.push({ from: place(c, key), to: key, label: unit ? `${q} ${unit}` : q > 1 ? `×${q}` : "" });
+    return key;
+  };
+  place(view.root, "root");
+  return { nodes, edges, note: truncated ? `Stopped expanding at ${MAX_GRAPH_NODES} nodes.` : "" };
+}
+
+function usedInDishes(i) {
+  const byDish = new Map();
+  for (const c of G.consumers[i]) {
+    const d = G.dishOf[c];
+    if (d !== i) byDish.set(d, [...(byDish.get(d) ?? []), c]);
+  }
+  return [...byDish].sort((a, b) => G.nodes[a[0]].label.localeCompare(G.nodes[b[0]].label));
+}
+
+function buildDownstream() {
+  const dishes = usedInDishes(view.root);
+  const nodes = new Map([[`n${view.root}`, { i: view.root, open: false }]]);
+  const edges = [];
+  for (const [d] of dishes.slice(0, MAX_DOWNSTREAM)) {
+    nodes.set(`n${d}`, { i: d, open: false });
+    edges.push({ from: `n${view.root}`, to: `n${d}`, label: "" });
+  }
+  const note = !dishes.length ? "Nothing in the graph uses this."
+    : dishes.length > MAX_DOWNSTREAM ? `Showing ${MAX_DOWNSTREAM} of ${fmt(dishes.length)} dishes. The full list is in the side panel.` : "";
+  return { nodes, edges, note };
+}
+
+function nodeMeta(i, open) {
+  const k = G.kind[i];
+  if (view.mode === "down" && i !== view.root) return `${fmt(G.stepCount.get(i) ?? 0)} steps`;
+  if (G.recipes.has(i)) {
+    const alts = G.recipes.get(i);
+    const ms = chosenAlt(i)[0];
+    const extra = ms.length > 2 ? `<span>+${ms.length - 2}</span>` : "";
+    const altNote = alts.length > 1 ? `<span title="Alternative recipes">${altIndex(i) + 1}/${alts.length}</span>` : "";
+    return ms.slice(0, 2).map(chip).join("") + extra + altNote;
+  }
+  if (k === "external") return `<span class="mono">${esc(G.ids[i])}</span>`;
+  if (k === "step") return `<span class="warn">no recipe makes this step</span>`;
+  return sourceNote(i);
+}
+
+function nodeHTML(key, { i, open }) {
+  const canToggle = view.mode === "up" && G.recipes.has(i) && i !== view.root;
+  const cls = ["node", i === view.selected && "sel", i === view.root && "root"].filter(Boolean).join(" ");
+  return `<div xmlns="http://www.w3.org/1999/xhtml" class="${cls}" data-i="${i}" tabindex="0" title="${esc(G.nodes[i].label)}">
+    ${slot(i)}
+    <div class="txt"><div class="lbl">${esc(labelFor(i))}</div><div class="meta">${nodeMeta(i, open)}</div></div>
+    ${canToggle ? `<button class="toggle" data-toggle="${i}" aria-label="${open ? "Collapse" : "Expand"} ${esc(G.nodes[i].label)}">${open ? "−" : "+"}</button>` : ""}
+  </div>`;
+}
+
+/* d3's curveBasis, so dagre's bend points become one smooth edge. */
+function basisPath(P) {
+  if (P.length < 3) return "M" + P.map((p) => `${p.x},${p.y}`).join("L");
+  const seg = (x0, y0, x1, y1, x, y) =>
+    `C${(2 * x0 + x1) / 3},${(2 * y0 + y1) / 3} ${(x0 + 2 * x1) / 3},${(y0 + 2 * y1) / 3} ${(x0 + 4 * x1 + x) / 6},${(y0 + 4 * y1 + y) / 6}`;
+  let [x0, y0, x1, y1] = [P[0].x, P[0].y, P[1].x, P[1].y];
+  let d = `M${x0},${y0}L${(5 * x0 + x1) / 6},${(5 * y0 + y1) / 6}`;
+  for (const p of P.slice(2)) { d += seg(x0, y0, x1, y1, p.x, p.y); [x0, y0, x1, y1] = [x1, y1, p.x, p.y]; }
+  return d + seg(x0, y0, x1, y1, x1, y1) + `L${x1},${y1}`;
+}
+
+let layout = null;
+function renderGraph({ refit }) {
+  const built = view.mode === "up" ? buildUpstream() : buildDownstream();
+  const g = new dagre.graphlib.Graph();
+  g.setGraph({ rankdir: "LR", nodesep: 12, ranksep: 64, edgesep: 10, marginx: 24, marginy: 24 });
+  g.setDefaultEdgeLabel(() => ({}));
+  for (const key of built.nodes.keys()) g.setNode(key, { width: NODE_W, height: NODE_H });
+  for (const e of built.edges) g.setEdge(e.from, e.to, e.label ? { width: e.label.length * 7 + 8, height: 14, labelpos: "c", label: e.label } : {});
+  dagre.layout(g);
+
+  const edgesSVG = g.edges().map((e) => {
+    const ed = g.edge(e);
+    const ends = `${built.nodes.get(e.v).i} ${built.nodes.get(e.w).i}`;
+    const label = ed.label ? `<text class="qty" x="${ed.x}" y="${ed.y + 4}" text-anchor="middle">${esc(ed.label)}</text>` : "";
+    return `<g data-ends="${ends}"><path class="edge" d="${basisPath(ed.points)}" marker-end="url(#arrow)"/>${label}</g>`;
+  }).join("");
+  const nodesSVG = g.nodes().map((key) => {
+    const n = g.node(key);
+    return `<foreignObject x="${n.x - NODE_W / 2}" y="${n.y - NODE_H / 2}" width="${NODE_W}" height="${NODE_H}">${nodeHTML(key, built.nodes.get(key))}</foreignObject>`;
+  }).join("");
+  $("viewport").innerHTML = edgesSVG + nodesSVG;
+  $("graph-note").textContent = built.note;
+  $("root-title").textContent = G.nodes[view.root].label;
+  for (const b of $("mode").children) b.setAttribute("aria-pressed", b.dataset.mode === view.mode);
+
+  layout = { width: g.graph().width, height: g.graph().height };
+  if (refit) fit();
+  highlight();
+}
+
+function highlight() {
+  for (const el of $("viewport").querySelectorAll("[data-ends]")) {
+    const hot = el.dataset.ends.split(" ").includes(String(view.selected));
+    const path = el.firstChild;
+    path.classList.toggle("hot", hot);
+    path.setAttribute("marker-end", hot ? "url(#arrow-hot)" : "url(#arrow)");
+  }
+  for (const el of $("viewport").querySelectorAll(".node")) el.classList.toggle("sel", +el.dataset.i === view.selected);
+}
+
+/* Pan and zoom */
+const cam = { x: 0, y: 0, k: 1 };
+const applyCam = () => $("viewport").setAttribute("transform", `translate(${cam.x},${cam.y}) scale(${cam.k})`);
+function fit() {
+  const box = $("canvas").getBoundingClientRect();
+  if (!layout || !box.width) return;
+  cam.k = Math.max(MIN_FIT_SCALE, Math.min(1, box.width / layout.width, box.height / layout.height));
+  const spare = (extent, size) => (size - extent * cam.k) / 2;
+  cam.x = Math.max(0, spare(layout.width, box.width));
+  cam.y = Math.max(0, spare(layout.height, box.height));
+  applyCam();
+}
+function zoomAt(px, py, factor) {
+  const k = Math.min(2.5, Math.max(0.08, cam.k * factor));
+  cam.x = px - ((px - cam.x) * k) / cam.k;
+  cam.y = py - ((py - cam.y) * k) / cam.k;
+  cam.k = k;
+  applyCam();
+}
+function bindCanvas() {
+  const canvas = $("canvas");
+  const pointers = new Map();
+  let dragged = 0, pinch = null;
+  canvas.addEventListener("wheel", (e) => {
+    e.preventDefault();
+    const r = canvas.getBoundingClientRect();
+    zoomAt(e.clientX - r.left, e.clientY - r.top, Math.exp(-e.deltaY * 0.0015));
+  }, { passive: false });
+  canvas.addEventListener("pointerdown", (e) => {
+    pointers.set(e.pointerId, { x: e.clientX, y: e.clientY });
+    dragged = 0;
+    if (pointers.size === 2) {
+      const [a, b] = [...pointers.values()];
+      pinch = Math.hypot(a.x - b.x, a.y - b.y);
+    }
+  });
+  canvas.addEventListener("pointermove", (e) => {
+    const prev = pointers.get(e.pointerId);
+    if (!prev) return;
+    const now = { x: e.clientX, y: e.clientY };
+    pointers.set(e.pointerId, now);
+    if (pointers.size === 2 && pinch) {
+      const [a, b] = [...pointers.values()];
+      const dist = Math.hypot(a.x - b.x, a.y - b.y);
+      const r = canvas.getBoundingClientRect();
+      zoomAt((a.x + b.x) / 2 - r.left, (a.y + b.y) / 2 - r.top, dist / pinch);
+      pinch = dist;
+      dragged = Infinity;
+      return;
+    }
+    dragged += Math.abs(now.x - prev.x) + Math.abs(now.y - prev.y);
+    if (dragged > 4) {
+      if (!canvas.hasPointerCapture(e.pointerId)) canvas.setPointerCapture(e.pointerId);
+      canvas.classList.add("dragging");
+      cam.x += now.x - prev.x;
+      cam.y += now.y - prev.y;
+      applyCam();
+    }
+  });
+  const release = (e) => {
+    pointers.delete(e.pointerId);
+    if (pointers.size < 2) pinch = null;
+    canvas.classList.remove("dragging");
+  };
+  canvas.addEventListener("pointerup", release);
+  canvas.addEventListener("pointercancel", release);
+  canvas.addEventListener("click", (e) => {
+    if (dragged > 4) return;
+    const toggle = e.target.closest("[data-toggle]");
+    if (toggle) {
+      const i = +toggle.dataset.toggle;
+      view.toggled.has(i) ? view.toggled.delete(i) : view.toggled.add(i);
+      return renderGraph({ refit: false });
+    }
+    const node = e.target.closest(".node");
+    if (node) select(+node.dataset.i);
+  });
+  canvas.addEventListener("dblclick", (e) => {
+    const node = e.target.closest(".node");
+    if (node && +node.dataset.i !== view.root) openRoot(+node.dataset.i);
+  });
+  canvas.addEventListener("keydown", (e) => {
+    const node = e.target.closest?.(".node");
+    if (node && e.key === "Enter") select(+node.dataset.i);
+  });
+  $("fit").addEventListener("click", fit);
+  $("mode").addEventListener("click", (e) => {
+    const mode = e.target.closest("[data-mode]")?.dataset.mode;
+    if (mode && mode !== view.mode) { view.mode = mode; renderGraph({ refit: true }); }
+  });
+  new ResizeObserver(() => fit()).observe(canvas);
+}
+
+/* Detail panel */
+function inputRow([c, q, unit]) {
+  return `<li><button class="row" data-select="${c}">${slot(c)}<span class="txt"><span class="lbl">${esc(labelFor(c))}</span></span><span class="q">${unit ? `${q} ${unit}` : `×${q}`}</span></button></li>`;
+}
+
+function renderDetail() {
+  const i = view.selected;
+  const n = G.nodes[i], k = G.kind[i];
+  const parts = [];
+  const kindText = { dish: "Finished dish", external: "From another mod or vanilla", step: "Intermediate step", made: "Made in a machine", raw: "Raw ingredient" }[k];
+  parts.push(`<div class="who">${slot(i)}<div class="txt"><h2>${esc(n.label)}</h2><div class="id">${esc(G.ids[i])}</div><div class="more">${kindText}${k !== "dish" && k !== "external" ? ` · ${esc(n.form)}` : ""}</div></div></div>`);
+  if (i !== view.root) parts.push(`<button class="btn" data-root="${i}">Open as the graph's root</button>`);
+
+  const items = G.accepted.get(i);
+  if (items) {
+    parts.push(`<section><p class="eyebrow">Counts as, in game</p><ul class="accepted">${items.map((x) => `<li>${esc(x)}</li>`).join("")}</ul></section>`);
+  } else if (k === "step" && !G.recipes.has(i)) {
+    parts.push(`<div class="callout"><span class="warn">No machine recipe makes this step,</span> so the chain toward ${esc(G.nodes[G.dishOf[i]].label)} breaks here.</div>`);
+  } else if (k === "raw") {
+    parts.push(`<div class="callout"><span class="warn">No recipe makes this, and no in-game item maps to it.</span> Its <span class="mono">cookbook_of_babel:ingredients/${esc(G.ids[i])}</span> tag is empty, so only the mod's own substance item satisfies it.</div>`);
+  }
+
+  const alts = G.recipes.get(i);
+  if (alts) {
+    const cards = alts.map(([ms, count, inputs], a) => {
+      const chosen = a === altIndex(i);
+      const show = view.mode === "up" && !chosen ? `<button class="btn" data-alt="${a}">Show this in the graph</button>` : "";
+      return `<div class="alt${chosen ? " chosen" : ""}"><div class="machines">${ms.map(chip).join("")}<span class="q">makes ×${count}</span></div><ul>${inputs.map(inputRow).join("")}</ul>${show}</div>`;
+    }).join("");
+    parts.push(`<section><p class="eyebrow">Made by ${alts.length > 1 ? `· ${alts.length} alternatives` : ""}</p>${cards}</section>`);
+  }
+
+  const used = usedInDishes(i);
+  if (used.length) {
+    const recipesUsing = G.consumers[i].size;
+    const list = used.slice(0, view.showAllUses ? undefined : 40).map(([d, via]) =>
+      `<li><button class="row" data-root="${d}" data-then="${via[0]}">${slot(d)}<span class="txt"><span class="lbl">${esc(G.nodes[d].label)}</span></span><span class="q">${via.length > 1 ? `${via.length} steps` : ""}</span></button></li>`).join("");
+    const more = used.length > 40 && !view.showAllUses ? `<button class="btn" data-more>Show all ${fmt(used.length)}</button>` : "";
+    parts.push(`<section class="used"><p class="eyebrow">Used in · ${fmt(recipesUsing)} recipes, ${fmt(used.length)} dishes</p><ul>${list}</ul>${more}</section>`);
+  }
+  $("detail").innerHTML = parts.join("");
+  $("detail").scrollTop = 0;
+}
+
+function bindDetail() {
+  $("detail").addEventListener("click", (e) => {
+    const t = e.target.closest("button");
+    if (!t) return;
+    if (t.dataset.alt) { view.chosenAlt.set(view.selected, +t.dataset.alt); renderGraph({ refit: false }); renderDetail(); }
+    else if (t.dataset.root) openRoot(+t.dataset.root, t.dataset.then ? +t.dataset.then : undefined);
+    else if (t.dataset.select) select(+t.dataset.select);
+    else if ("more" in t.dataset) { view.showAllUses = true; renderDetail(); }
+  });
+}
+
+function select(i) {
+  view.selected = i;
+  view.showAllUses = false;
+  highlight();
+  renderDetail();
+}
+
+function openRoot(i, thenSelect) {
+  view.root = i;
+  view.toggled.clear();
+  view.mode = G.recipes.has(i) ? "up" : "down";
+  view.selected = thenSelect ?? i;
+  view.showAllUses = false;
+  try { if (/^[\w.~-]+$/.test(G.ids[i])) history.replaceState(null, "", `#${G.ids[i]}`); } catch {}
+  renderGraph({ refit: true });
+  renderDetail();
+  renderResults();
+}
+
+/* Search */
+let searchable;
+function renderResults() {
+  const q = $("q").value.trim().toLowerCase();
+  const tokens = q.split(/\s+/).filter(Boolean);
+  const pool = searchable[view.filter];
+  const uses = (i) => G.consumers[i].size;
+  let hits;
+  if (tokens.length) {
+    hits = pool.filter((i) => tokens.every((t) => G.haystack[i].includes(t)));
+    hits.sort((a, b) => (G.haystack[b].startsWith(tokens[0]) - G.haystack[a].startsWith(tokens[0])) || uses(b) - uses(a));
+  } else {
+    hits = pool.slice().sort((a, b) => view.filter === "dish" ? (G.stepCount.get(b) ?? 0) - (G.stepCount.get(a) ?? 0) : uses(b) - uses(a));
+  }
+  const heading = tokens.length ? `${fmt(hits.length)} matches` : view.filter === "dish" ? "Longest recipes" : "Most used";
+  const rows = hits.slice(0, SEARCH_LIMIT).map((i) => {
+    const sub = G.kind[i] === "dish" ? `${fmt(G.stepCount.get(i) ?? 0)} steps`
+      : G.kind[i] === "raw" ? `in ${fmt(uses(i))} recipes · ${G.accepted.has(i) ? `<span class="ok">has in-game item</span>` : `<span class="warn">no in-game item</span>`}`
+      : `in ${fmt(uses(i))} recipes`;
+    return `<button class="row" data-root="${i}" ${i === view.root ? 'aria-current="true"' : ""}>${slot(i)}<span class="txt"><span class="lbl">${esc(G.nodes[i].label)}</span><span class="sub">${sub}</span></span></button>`;
+  }).join("");
+  $("results").innerHTML = `<h3 class="eyebrow">${heading}</h3>${rows}`;
+}
+
+function bindSearch() {
+  $("q").addEventListener("input", renderResults);
+  $("filter").addEventListener("click", (e) => {
+    const f = e.target.closest("[data-filter]")?.dataset.filter;
+    if (!f) return;
+    view.filter = f;
+    for (const b of $("filter").children) b.setAttribute("aria-pressed", b.dataset.filter === f);
+    renderResults();
+  });
+  $("results").addEventListener("click", (e) => {
+    const row = e.target.closest("[data-root]");
+    if (row) openRoot(+row.dataset.root);
+  });
+}
+
+function renderOverview() {
+  const count = (k) => G.kind.filter((x) => x === k).length;
+  const raw = G.ids.map((_, i) => i).filter((i) => G.kind[i] === "raw" && G.consumers[i].size);
+  const sourced = raw.filter((i) => G.accepted.has(i)).length;
+  const brokenSteps = G.ids.filter((_, i) => G.kind[i] === "step" && !G.recipes.has(i) && G.consumers[i].size).length;
+  const perMod = new Map();
+  for (const alts of G.recipes.values())
+    for (const [ms] of alts) for (const m of ms) { const mod = machine(m).mod; perMod.set(mod, (perMod.get(mod) ?? 0) + 1); }
+  const total = [...perMod.values()].reduce((a, b) => a + b, 0);
+  $("stats").innerHTML = [
+    `<span><b>${fmt(count("dish"))}</b> dishes</span>`,
+    `<span><b>${fmt(total)}</b> machine recipes</span>`,
+    `<span><b>${fmt(raw.length)}</b> raw ingredients, <b class="${sourced / raw.length < 0.5 ? "warn" : "ok"}">${fmt(sourced)}</b> with an in-game item</span>`,
+    `<span><b class="warn">${fmt(brokenSteps)}</b> steps no recipe makes</span>`,
+  ].join("");
+  const max = Math.max(...perMod.values());
+  $("mods").innerHTML = [...perMod].sort((a, b) => b[1] - a[1]).map(([mod, n]) =>
+    `<div class="mod" style="--m:${MODS[mod]?.[1] ?? "var(--line)"}"><span>${esc(MODS[mod]?.[0] ?? mod)}</span><span class="bar" style="width:${Math.max(2, (n / max) * 100)}%"></span><span class="n">${fmt(n)}</span></div>`).join("");
+}
+
+async function main() {
+  try {
+    G = prepare(await (await fetch("graph.json")).json());
+  } catch (err) {
+    $("status").textContent = `The recipe graph didn't load (${err.message}). Reload the page to try again.`;
+    return;
+  }
+  G.haystack = G.nodes.map((n, i) => `${n.label} ${G.ids[i]}`.toLowerCase());
+  const all = G.ids.map((_, i) => i);
+  searchable = {
+    dish: all.filter((i) => G.kind[i] === "dish"),
+    ingredient: all.filter((i) => G.kind[i] === "raw" || G.kind[i] === "made" || G.kind[i] === "external"),
+    all,
+  };
+  $("status").remove();
+  renderOverview();
+  bindCanvas();
+  bindDetail();
+  bindSearch();
+  const fromHash = G.index.get(decodeURIComponent(location.hash.slice(1)));
+  openRoot(fromHash ?? G.index.get(DEFAULT_ROOT));
+}
+main();
+</script>

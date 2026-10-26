@@ -25,3 +25,6 @@ paths:
   them by hand.
 - Regenerate them after changing `data/`, babel's export, or datagen code with
   `./gradlew runData`. It exports the dataset and regenerates the enums first.
+- `explorer/` reads `src/generated/resources` back into a recipe graph page. A
+  new recipe schema or machine in datagen needs its keys in
+  `explorer/extract.py` and its name in `explorer/index.html`'s `MACHINES`.

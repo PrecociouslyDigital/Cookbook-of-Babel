@@ -32,6 +32,7 @@ cd mods/minecraft
 ./gradlew runData            # re-export the dataset and regenerate the datapack
 ./gradlew runClient          # play it, with Create, Farmer's Delight and JEI
 ./gradlew runGameTestServer  # check the generated recipes load and run
+explorer/build.sh && python3 -m http.server -d build/explorer  # browse the recipe graph
 ```
 
 `mods/minecraft/coverage.md` lists what became of every dataset step.
