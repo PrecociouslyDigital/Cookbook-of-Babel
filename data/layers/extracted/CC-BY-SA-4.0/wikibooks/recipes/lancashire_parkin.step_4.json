@@ -1,0 +1,58 @@
+{
+  "id": "lancashire_parkin.step_4",
+  "source": "wikibooks_lancashire_parkin",
+  "sourceRef": {
+    "source": "wikibooks_lancashire_parkin",
+    "step": 4
+  },
+  "technique": "heat",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "lancashire_parkin_step_3",
+        "amount": {
+          "qty": 1359.7,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "lancashire_parkin_step_4",
+      "amount": {
+        "qty": 1359.7,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 180,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Empty the golden syrup into a saucepan, and warm it gently without boiling. You can balance the tin over the pan by using two chopsticks.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.45"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 180.0 °C for pan_contact"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

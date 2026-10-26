@@ -1,0 +1,93 @@
+{
+  "id": "barbecue_ribs.step_2",
+  "source": "wikibooks_barbecue_ribs",
+  "sourceRef": {
+    "source": "wikibooks_barbecue_ribs",
+    "step": 2
+  },
+  "technique": "evaporate",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "barbecue_ribs_step_1",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "cider_vinegar",
+        "amount": {
+          "qty": 0.5,
+          "unit": "cup"
+        }
+      },
+      {
+        "ingredient": "tomato_paste",
+        "amount": {
+          "qty": 0.5,
+          "unit": "cup"
+        }
+      },
+      {
+        "ingredient": "molasses",
+        "amount": {
+          "qty": 0.25,
+          "unit": "cup"
+        }
+      },
+      {
+        "ingredient": "light_molasses",
+        "amount": {
+          "qty": 0.25,
+          "unit": "cup"
+        }
+      },
+      {
+        "ingredient": "worcestershire_sauce",
+        "amount": {
+          "qty": 2,
+          "unit": "tbsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "barbecue_ribs_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 100,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Combine remaining ingredients except for hickory in a large saucepan, and bring to a boil over high heat until reduced by ½.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.58"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of evaporate's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

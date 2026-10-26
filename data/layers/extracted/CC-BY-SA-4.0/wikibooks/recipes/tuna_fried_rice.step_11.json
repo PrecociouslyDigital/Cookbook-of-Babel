@@ -1,0 +1,87 @@
+{
+  "id": "tuna_fried_rice.step_11",
+  "source": "wikibooks_tuna_fried_rice",
+  "sourceRef": {
+    "source": "wikibooks_tuna_fried_rice",
+    "step": 11
+  },
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "tuna_fried_rice_step_10",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "green_onion",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      },
+      {
+        "ingredient": "bonito_flakes",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "tuna_fried_rice",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Garnish with katsuobushi and scallions before serving.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.58"
+    },
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.44"
+    },
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Chopped scallions': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Katsuobushi': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    },
+    {
+      "field": "inputs",
+      "kind": "missing",
+      "note": "no step uses 'Salt, if needed' (p=1.0)"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "id": "beef_tenderloin_steak.step_3",
+  "source": "wikibooks_beef_tenderloin_steak",
+  "sourceRef": {
+    "source": "wikibooks_beef_tenderloin_steak",
+    "step": 3
+  },
+  "technique": "steam",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "beef_tenderloin_steak_step_2",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "onion",
+        "amount": {
+          "qty": 1,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "beef_tenderloin_steak_step_3",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 100,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 5,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Place a medium nonstick skillet coated with cooking spray over medium-high heat. Add onion to skillet; cover and cook 5 minutes, stirring occasionally.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.46"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of steam's typical range"
+    }
+  ]
+}

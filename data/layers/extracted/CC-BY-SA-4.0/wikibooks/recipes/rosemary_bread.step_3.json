@@ -1,0 +1,65 @@
+{
+  "id": "rosemary_bread.step_3",
+  "source": "wikibooks_rosemary_bread",
+  "sourceRef": {
+    "source": "wikibooks_rosemary_bread",
+    "step": 3
+  },
+  "technique": "ferment",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "rosemary_bread_step_2",
+        "amount": {
+          "qty": 613,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "olive_oil",
+        "amount": {
+          "qty": 1,
+          "unit": "tbsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "rosemary_bread_step_3",
+      "amount": {
+        "qty": 627.8,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Oil a bowl with olive oil and place dough in it covering with a towel.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.56"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for olive_oil"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

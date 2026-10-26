@@ -1,0 +1,48 @@
+{
+  "id": "mussels_with_potatoes.step_7",
+  "source": "wikibooks_mussels_with_potatoes",
+  "sourceRef": {
+    "source": "wikibooks_mussels_with_potatoes",
+    "step": 7
+  },
+  "technique": "chill",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "mussels_with_potatoes_step_6",
+        "amount": {
+          "qty": 909.8,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "mussels_with_potatoes",
+      "amount": {
+        "qty": 909.8,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Chill well before serving.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

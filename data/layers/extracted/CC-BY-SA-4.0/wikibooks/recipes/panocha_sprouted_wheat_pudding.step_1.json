@@ -1,0 +1,67 @@
+{
+  "id": "panocha_sprouted_wheat_pudding.step_1",
+  "source": "wikibooks_panocha_sprouted_wheat_pudding",
+  "sourceRef": {
+    "source": "wikibooks_panocha_sprouted_wheat_pudding",
+    "step": 1
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "sprouted_wheat_flour",
+        "amount": {
+          "qty": 2,
+          "unit": "cup"
+        }
+      },
+      {
+        "ingredient": "wheat_flour",
+        "amount": {
+          "qty": 1.5,
+          "unit": "cup"
+        }
+      },
+      {
+        "ingredient": "salt",
+        "amount": {
+          "qty": 3,
+          "unit": "dash"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "panocha_sprouted_wheat_pudding_step_1",
+      "amount": {
+        "qty": 663.5,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Combine the flours and salt.",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for sprouted_wheat_flour"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

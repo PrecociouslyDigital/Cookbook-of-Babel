@@ -1,0 +1,48 @@
+{
+  "id": "sauerkraut_i.step_2",
+  "source": "wikibooks_sauerkraut_i",
+  "sourceRef": {
+    "source": "wikibooks_sauerkraut_i",
+    "step": 2
+  },
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "cabbage",
+        "amount": {
+          "qty": 2.5,
+          "unit": "kg"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "sauerkraut_i_step_2",
+      "amount": {
+        "qty": 2500,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Quarter the cabbage and remove the core.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

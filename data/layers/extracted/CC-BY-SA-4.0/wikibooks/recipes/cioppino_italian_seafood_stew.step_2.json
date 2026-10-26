@@ -1,0 +1,86 @@
+{
+  "id": "cioppino_italian_seafood_stew.step_2",
+  "source": "wikibooks_cioppino_italian_seafood_stew",
+  "sourceRef": {
+    "source": "wikibooks_cioppino_italian_seafood_stew",
+    "step": 2
+  },
+  "technique": "stir_fry",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "olive_oil",
+        "amount": {
+          "qty": 3,
+          "unit": "tbsp"
+        }
+      },
+      {
+        "ingredient": "fennel",
+        "amount": {
+          "qty": 1,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "onion",
+        "amount": {
+          "qty": 6,
+          "unit": "oz"
+        }
+      },
+      {
+        "ingredient": "shallot",
+        "amount": {
+          "qty": 3,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "salt",
+        "amount": {
+          "qty": 2,
+          "unit": "tsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "cioppino_italian_seafood_stew_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 215,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Add the fennel, onion, shallots, and salt and sauté until the onion is translucent.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.38"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of stir_fry's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

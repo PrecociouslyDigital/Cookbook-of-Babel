@@ -1,0 +1,74 @@
+{
+  "id": "savory_mustard_sauce.step_3",
+  "source": "wikibooks_savory_mustard_sauce",
+  "sourceRef": {
+    "source": "wikibooks_savory_mustard_sauce",
+    "step": 3
+  },
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "savory_mustard_sauce_step_2",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "mustard",
+        "amount": {
+          "qty": 0.5,
+          "unit": "cup"
+        }
+      },
+      {
+        "ingredient": "salt",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      },
+      {
+        "ingredient": "pepper",
+        "amount": {
+          "qty": 0.25,
+          "unit": "tsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "savory_mustard_sauce_step_3",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 180,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Once shallot has cooked, add mustard, salt, and pepper to pan. Decrease heat to medium low heat.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 180.0 °C for pan_contact"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

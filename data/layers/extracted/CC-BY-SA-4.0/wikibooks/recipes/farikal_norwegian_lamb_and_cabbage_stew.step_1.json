@@ -1,0 +1,48 @@
+{
+  "id": "farikal_norwegian_lamb_and_cabbage_stew.step_1",
+  "source": "wikibooks_farikal_norwegian_lamb_and_cabbage_stew",
+  "sourceRef": {
+    "source": "wikibooks_farikal_norwegian_lamb_and_cabbage_stew",
+    "step": 1
+  },
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "cabbage",
+        "amount": {
+          "qty": 2,
+          "unit": "kg"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "farikal_norwegian_lamb_and_cabbage_stew_step_1",
+      "amount": {
+        "qty": 2000,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Cut the cabbage in half, then cut the halves into roughly even boat-shaped pieces.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

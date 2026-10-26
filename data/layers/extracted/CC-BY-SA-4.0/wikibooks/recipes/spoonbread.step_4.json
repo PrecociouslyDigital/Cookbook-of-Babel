@@ -1,0 +1,65 @@
+{
+  "id": "spoonbread.step_4",
+  "source": "wikibooks_spoonbread",
+  "sourceRef": {
+    "source": "wikibooks_spoonbread",
+    "step": 4
+  },
+  "technique": "heat",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "spoonbread_step_3",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "milk",
+        "amount": {
+          "qty": 3,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "spoonbread_step_4",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 180,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Heat milk in medium saucepan over medium heat until just barely bubbling at the edges.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.56"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 180.0 °C for pan_contact"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

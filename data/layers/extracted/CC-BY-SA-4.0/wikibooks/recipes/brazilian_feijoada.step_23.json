@@ -1,0 +1,53 @@
+{
+  "id": "brazilian_feijoada.step_23",
+  "source": "wikibooks_brazilian_feijoada",
+  "sourceRef": {
+    "source": "wikibooks_brazilian_feijoada",
+    "step": 23
+  },
+  "technique": "simmer",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "brazilian_feijoada_step_22",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "brazilian_feijoada_step_23",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 90,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 15,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Put the lid on and cook for 15 minutes, stirring occasionally.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.45"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of simmer's typical range"
+    }
+  ]
+}

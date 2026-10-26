@@ -1,0 +1,53 @@
+{
+  "id": "carbonara_pasta.step_1",
+  "source": "wikibooks_carbonara_pasta",
+  "sourceRef": {
+    "source": "wikibooks_carbonara_pasta",
+    "step": 1
+  },
+  "technique": "boil",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "pasta",
+        "amount": {
+          "qty": 12,
+          "unit": "oz"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "carbonara_pasta_step_1",
+      "amount": {
+        "qty": 340.2,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 100,
+    "medium": "boiling_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Put on the desired quantity of pasta to cook.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of boil's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

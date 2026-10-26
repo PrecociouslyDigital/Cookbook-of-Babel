@@ -1,0 +1,53 @@
+{
+  "id": "campfire_banana_boat.step_5",
+  "source": "wikibooks_campfire_banana_boat",
+  "sourceRef": {
+    "source": "wikibooks_campfire_banana_boat",
+    "step": 5
+  },
+  "technique": "grill",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "campfire_banana_boat_step_4",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "campfire_banana_boat",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 250,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 5,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Place on coals for about 5 minutes.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.43"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of grill's typical range"
+    }
+  ]
+}

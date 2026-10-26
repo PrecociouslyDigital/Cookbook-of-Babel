@@ -1,0 +1,53 @@
+{
+  "id": "imitation_cheese_vegan.step_1",
+  "source": "wikibooks_imitation_cheese_vegan",
+  "sourceRef": {
+    "source": "wikibooks_imitation_cheese_vegan",
+    "step": 1
+  },
+  "technique": "boil",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "hard_boiling_potatoes",
+        "amount": {
+          "qty": 5,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "imitation_cheese_vegan_step_1",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 100,
+    "medium": "boiling_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Boil potatoes until they are not quite done. If the potatoes are not completely done the resulting substance may be sliceable, although it will be easy to spread anyway.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of boil's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

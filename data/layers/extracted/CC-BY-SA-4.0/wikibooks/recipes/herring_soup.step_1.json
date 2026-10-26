@@ -1,0 +1,55 @@
+{
+  "id": "herring_soup.step_1",
+  "source": "wikibooks_herring_soup",
+  "sourceRef": {
+    "source": "wikibooks_herring_soup",
+    "step": 1
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "water",
+        "amount": {
+          "qty": 8,
+          "unit": "gal"
+        }
+      },
+      {
+        "ingredient": "barley",
+        "amount": {
+          "qty": 5,
+          "unit": "lb"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "herring_soup_step_1",
+      "amount": {
+        "qty": 32551.2,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Combine water and barley meal.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

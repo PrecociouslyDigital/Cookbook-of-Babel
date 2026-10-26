@@ -1,0 +1,60 @@
+{
+  "id": "tiramisu.step_10",
+  "source": "wikibooks_tiramisu",
+  "sourceRef": {
+    "source": "wikibooks_tiramisu",
+    "step": 10
+  },
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "tiramisu_step_9",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "chocolate",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "tiramisu",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Sprinkle unsweetened cocoa powder on top just before to serve.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Unsweetened cocoa powder': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

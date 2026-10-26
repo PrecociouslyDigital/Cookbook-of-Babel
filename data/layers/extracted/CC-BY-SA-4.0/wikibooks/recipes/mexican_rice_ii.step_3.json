@@ -1,0 +1,77 @@
+{
+  "id": "mexican_rice_ii.step_3",
+  "source": "wikibooks_mexican_rice_ii",
+  "sourceRef": {
+    "source": "wikibooks_mexican_rice_ii",
+    "step": 3
+  },
+  "technique": "boil",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "mexican_rice_ii_step_2",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "ancho_enchilada_sauce",
+        "amount": {
+          "qty": 5,
+          "unit": "tbsp"
+        }
+      },
+      {
+        "ingredient": "broth_and_stock",
+        "amount": {
+          "qty": 1.6666666666666665,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "mexican_rice_ii_step_3",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 100,
+    "medium": "boiling_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Mix chicken stock and chile sauce in another saucepan and bring to a boil. When mixed, make sure liquid mixture equals out to 2 cups of liquid.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.51"
+    },
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.56"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of boil's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

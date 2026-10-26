@@ -1,0 +1,101 @@
+{
+  "id": "sauerkraut_pierogi_filling.step_4",
+  "source": "wikibooks_sauerkraut_pierogi_filling",
+  "sourceRef": {
+    "source": "wikibooks_sauerkraut_pierogi_filling",
+    "step": 4
+  },
+  "technique": "fry",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "sauerkraut_pierogi_filling_step_3",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "onion",
+        "amount": {
+          "qty": 1,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "butter",
+        "amount": {
+          "qty": 1,
+          "unit": "stick"
+        }
+      },
+      {
+        "ingredient": "salt",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      },
+      {
+        "ingredient": "pepper",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "sauerkraut_pierogi_filling_step_4",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 190,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Fry the onion until it is translucent, then add the drained sauerkraut. Season with salt and pepper to taste.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.53"
+    },
+    {
+      "field": "inputs",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.51"
+    },
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Salt': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Black pepper': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of fry's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

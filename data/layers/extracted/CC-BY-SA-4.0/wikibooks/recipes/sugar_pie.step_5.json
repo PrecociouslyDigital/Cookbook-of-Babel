@@ -1,0 +1,63 @@
+{
+  "id": "sugar_pie.step_5",
+  "source": "wikibooks_sugar_pie",
+  "sourceRef": {
+    "source": "wikibooks_sugar_pie",
+    "step": 5
+  },
+  "technique": "toast",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "sugar_pie_step_4",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "sugar_pie",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 195,
+    "medium": "oven_air"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Optionally engage broiler for a few minutes to caramelize the top of the pie.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.49"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    },
+    {
+      "field": "inputs",
+      "kind": "missing",
+      "note": "no step uses '1 cup whipping cream' (p=0.97)"
+    },
+    {
+      "field": "inputs",
+      "kind": "missing",
+      "note": "no step uses 'Cinnamon or nutmeg to sprinkle on top of pie (optional)' (p=0.74)"
+    }
+  ]
+}

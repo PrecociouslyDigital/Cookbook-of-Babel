@@ -1,0 +1,48 @@
+{
+  "id": "cornmeal_fried_morels.step_8",
+  "source": "wikibooks_cornmeal_fried_morels",
+  "sourceRef": {
+    "source": "wikibooks_cornmeal_fried_morels",
+    "step": 8
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "cornmeal_fried_morels_step_7",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "cornmeal_fried_morels_step_8",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Drop the mushrooms into the bag of cornmeal. Hold your hand on the bottom of the bag so it doesn't break, and gently shake.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "id": "fairy_cakes.step_9",
+  "source": "wikibooks_fairy_cakes",
+  "sourceRef": {
+    "source": "wikibooks_fairy_cakes",
+    "step": 9
+  },
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "fairy_cakes_step_8",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "min": 0,
+        "max": 1,
+        "of": [
+          {
+            "ingredient": "white_sugar",
+            "amount": {
+              "qty": 1,
+              "unit": "pinch"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "fairy_cakes",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Dust with icing sugar before serving.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Icing sugar for dusting (optional)': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

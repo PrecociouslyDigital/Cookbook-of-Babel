@@ -1,0 +1,70 @@
+{
+  "id": "chokladboll_swedish_chocolate_balls.step_5",
+  "source": "wikibooks_chokladboll_swedish_chocolate_balls",
+  "sourceRef": {
+    "source": "wikibooks_chokladboll_swedish_chocolate_balls",
+    "step": 5
+  },
+  "technique": "knead",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "chokladboll_swedish_chocolate_balls_step_3",
+        "amount": {
+          "qty": 1113.5,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "coconut",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "chokladboll_swedish_chocolate_balls_step_5",
+      "amount": {
+        "qty": 1113.8,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "With your hands, roll the dough into 1-inch (3 cm) diameter balls.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.54"
+    },
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Flaked coconut or pearl sugar': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for coconut"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

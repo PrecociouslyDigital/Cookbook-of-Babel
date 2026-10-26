@@ -1,0 +1,74 @@
+{
+  "id": "shark_fin_soup.step_2",
+  "source": "wikibooks_shark_fin_soup",
+  "sourceRef": {
+    "source": "wikibooks_shark_fin_soup",
+    "step": 2
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "shark_fin_soup_step_1",
+        "amount": {
+          "qty": 400,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "shrimp",
+        "amount": {
+          "qty": 100,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "dongu_mushrooms",
+        "amount": {
+          "qty": 10,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "bamboo_shoot",
+        "amount": {
+          "qty": 50,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "shark_fin_soup_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 90,
+    "medium": "simmering_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 30,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Soak ground shrimp and dried mushrooms for 30 minutes in ¼ litre warm water. The water can then be discarded. The dried bamboo should also be soaked until soft, then cut into thin strips.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.26"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 90.0 °C for simmering_water"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": "dog_biscuits.step_7",
+  "source": "wikibooks_dog_biscuits",
+  "sourceRef": {
+    "source": "wikibooks_dog_biscuits",
+    "step": 7
+  },
+  "technique": "cool",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "dog_biscuits_step_6",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "dog_biscuits",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 8,
+      "unit": "h"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "For best results, allow biscuits to harden overnight.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.58"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "'overnight' read as 8 hours"
+    }
+  ]
+}

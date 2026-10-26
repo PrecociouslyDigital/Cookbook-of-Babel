@@ -1,0 +1,53 @@
+{
+  "id": "mint_tea.step_4",
+  "source": "wikibooks_mint_tea",
+  "sourceRef": {
+    "source": "wikibooks_mint_tea",
+    "step": 4
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "mint_tea_step_3",
+        "amount": {
+          "qty": 0.6,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "mint_tea",
+      "amount": {
+        "qty": 0.6,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 100,
+    "medium": "boiling_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Pour some hot tea in a cup and dilute with additional water. Even if it starts to look transparent, the taste is still there.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 100.0 °C for boiling_water"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

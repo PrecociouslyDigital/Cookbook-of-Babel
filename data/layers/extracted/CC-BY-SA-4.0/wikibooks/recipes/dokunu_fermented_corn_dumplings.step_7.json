@@ -1,0 +1,48 @@
+{
+  "id": "dokunu_fermented_corn_dumplings.step_7",
+  "source": "wikibooks_dokunu_fermented_corn_dumplings",
+  "sourceRef": {
+    "source": "wikibooks_dokunu_fermented_corn_dumplings",
+    "step": 7
+  },
+  "technique": "steam",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "dokunu_fermented_corn_dumplings_step_6",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "dokunu_fermented_corn_dumplings",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 100,
+    "medium": "steam"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "h"
+    }
+  },
+  "stateNote": "Heat water in a steamer. Add the wrapped dokunu, and steam for about 1 hour.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of steam's typical range"
+    }
+  ]
+}

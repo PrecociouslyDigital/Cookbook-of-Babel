@@ -1,0 +1,65 @@
+{
+  "id": "greek_salad.step_4",
+  "source": "wikibooks_greek_salad",
+  "sourceRef": {
+    "source": "wikibooks_greek_salad",
+    "step": 4
+  },
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "greek_salad_step_3",
+        "amount": {
+          "qty": 2.9,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "oregano",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "greek_salad",
+      "amount": {
+        "qty": 3.2,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Top with a sprig of oregano if desired.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Oregano': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for oregano"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

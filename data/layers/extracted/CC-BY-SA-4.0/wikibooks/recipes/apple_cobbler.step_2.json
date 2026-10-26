@@ -1,0 +1,65 @@
+{
+  "id": "apple_cobbler.step_2",
+  "source": "wikibooks_apple_cobbler",
+  "sourceRef": {
+    "source": "wikibooks_apple_cobbler",
+    "step": 2
+  },
+  "technique": "heat",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "apple_cobbler_step_1",
+        "amount": {
+          "qty": 1642.4,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "starch",
+        "amount": {
+          "qty": 1,
+          "unit": "tbsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "apple_cobbler_step_2",
+      "amount": {
+        "qty": 1650.5,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 180,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Add 2 Tbsp water and 1 Tbsp cornstarch. Cook, stirring, until thick and bubbly.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.3"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 180.0 °C for pan_contact"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

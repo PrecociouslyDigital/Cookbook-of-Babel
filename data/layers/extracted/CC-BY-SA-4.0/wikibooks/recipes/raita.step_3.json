@@ -1,0 +1,75 @@
+{
+  "id": "raita.step_3",
+  "source": "wikibooks_raita",
+  "sourceRef": {
+    "source": "wikibooks_raita",
+    "step": 3
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "raita_step_2",
+        "amount": {
+          "qty": 147.9,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "mint",
+        "amount": {
+          "qty": 2.5,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "cilantro",
+        "amount": {
+          "qty": 2,
+          "unit": "piece"
+        }
+      },
+      {
+        "min": 0,
+        "max": 1,
+        "of": [
+          {
+            "ingredient": "onion",
+            "amount": {
+              "qty": 1.5,
+              "unit": "tbsp"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "raita_step_3",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Add chopped mint, cilantro, and onion.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

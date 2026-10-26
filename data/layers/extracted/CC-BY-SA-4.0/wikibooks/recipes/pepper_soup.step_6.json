@@ -1,0 +1,53 @@
+{
+  "id": "pepper_soup.step_6",
+  "source": "wikibooks_pepper_soup",
+  "sourceRef": {
+    "source": "wikibooks_pepper_soup",
+    "step": 6
+  },
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "pepper_soup_step_5",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "pepper_soup",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 90,
+    "medium": "simmering_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Taste, adjust seasoning, and serve hot.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 90.0 °C for simmering_water"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

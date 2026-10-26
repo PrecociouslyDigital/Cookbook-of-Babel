@@ -1,0 +1,84 @@
+{
+  "id": "sauce_gombo_okra_stew.step_3",
+  "source": "wikibooks_sauce_gombo_okra_stew",
+  "sourceRef": {
+    "source": "wikibooks_sauce_gombo_okra_stew",
+    "step": 3
+  },
+  "technique": "pan_fry",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "sauce_gombo_okra_stew_step_2",
+        "amount": {
+          "qty": 1000.7,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "palm_oil",
+        "amount": {
+          "qty": 2,
+          "unit": "tbsp"
+        }
+      },
+      {
+        "ingredient": "onion",
+        "amount": {
+          "qty": 2,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "garlic",
+        "amount": {
+          "qty": 3,
+          "unit": "clove"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "sauce_gombo_okra_stew_step_3",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 185,
+    "medium": "frying_oil"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Heat the palm oil or vegetable oil in a large pot or Dutch oven over medium heat. Add the chopped onions and minced garlic, and sauté until they become translucent and fragrant.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.39"
+    },
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.56"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of pan_fry's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

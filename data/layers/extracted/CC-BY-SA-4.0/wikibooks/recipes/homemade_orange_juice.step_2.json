@@ -1,0 +1,72 @@
+{
+  "id": "homemade_orange_juice.step_2",
+  "source": "wikibooks_homemade_orange_juice",
+  "sourceRef": {
+    "source": "wikibooks_homemade_orange_juice",
+    "step": 2
+  },
+  "technique": "blend",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "homemade_orange_juice_step_1",
+        "amount": {
+          "qty": 0.3,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "white_sugar",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      },
+      {
+        "ingredient": "water",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "homemade_orange_juice_step_2",
+      "amount": {
+        "qty": 0.9,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "To the blender, add 1 tablespoon of sugar and either ice or water. Pulse several times very smooth.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Sugar': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Water': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

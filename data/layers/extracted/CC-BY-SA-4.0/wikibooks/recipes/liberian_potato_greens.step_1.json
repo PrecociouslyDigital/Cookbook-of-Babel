@@ -1,0 +1,48 @@
+{
+  "id": "liberian_potato_greens.step_1",
+  "source": "wikibooks_liberian_potato_greens",
+  "sourceRef": {
+    "source": "wikibooks_liberian_potato_greens",
+    "step": 1
+  },
+  "technique": "chop",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "sweet_potato_greens",
+        "amount": {
+          "qty": 3,
+          "unit": "bunch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "liberian_potato_greens_step_1",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Wash the potato greens very well, and remove the leaves from the stems. Chop the leaves into small pieces and set aside.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

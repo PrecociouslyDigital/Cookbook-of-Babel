@@ -1,0 +1,70 @@
+{
+  "id": "soup_with_suppli.step_3",
+  "source": "wikibooks_soup_with_suppli",
+  "sourceRef": {
+    "source": "wikibooks_soup_with_suppli",
+    "step": 3
+  },
+  "technique": "fry",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "soup_with_suppli_step_2",
+        "amount": {
+          "qty": 0.9,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "broth_and_stock",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "soup_with_suppli",
+      "amount": {
+        "qty": 1.2,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 190,
+    "medium": "frying_oil"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Fry the breaded risotto balls in butter, then drain them from the grease.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Clear or brown broth': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for broth_and_stock"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of fry's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

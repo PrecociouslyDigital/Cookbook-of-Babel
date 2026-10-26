@@ -1,0 +1,48 @@
+{
+  "id": "inarizushi_stuffed_sushi.step_3",
+  "source": "wikibooks_inarizushi_stuffed_sushi",
+  "sourceRef": {
+    "source": "wikibooks_inarizushi_stuffed_sushi",
+    "step": 3
+  },
+  "technique": "whisk",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "inarizushi_stuffed_sushi_step_2",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "inarizushi_stuffed_sushi_step_3",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Beat the mixture to produce a smooth, consistent texture, but not so much as to create a foam. If you accidentally get air bubbles, let the bowl sit for a few minutes while they pop.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "id": "granola_bars.step_5",
+  "source": "wikibooks_granola_bars",
+  "sourceRef": {
+    "source": "wikibooks_granola_bars",
+    "step": 5
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "granola_bars_step_4",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "oats",
+        "amount": {
+          "qty": 900,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "chocolate",
+        "amount": {
+          "qty": 240,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "granola_bars_step_5",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Stir in oats and chocolate chips.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

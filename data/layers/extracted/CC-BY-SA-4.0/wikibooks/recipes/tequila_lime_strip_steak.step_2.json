@@ -1,0 +1,55 @@
+{
+  "id": "tequila_lime_strip_steak.step_2",
+  "source": "wikibooks_tequila_lime_strip_steak",
+  "sourceRef": {
+    "source": "wikibooks_tequila_lime_strip_steak",
+    "step": 2
+  },
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "tequila_lime_strip_steak_step_1",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "steak_rub",
+        "amount": {
+          "qty": 3,
+          "unit": "tbsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "tequila_lime_strip_steak_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Remove steaks from marinade and discard extra. Place steak rub in a pie pan and add steaks, pressing lightly to help adhesion on both sides.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

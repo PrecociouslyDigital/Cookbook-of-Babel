@@ -1,0 +1,65 @@
+{
+  "id": "pumpkin_soup_with_curry.step_1",
+  "source": "wikibooks_pumpkin_soup_with_curry",
+  "sourceRef": {
+    "source": "wikibooks_pumpkin_soup_with_curry",
+    "step": 1
+  },
+  "technique": "pan_fry",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "onion",
+        "amount": {
+          "qty": 1,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "olive_oil",
+        "amount": {
+          "qty": 1.5,
+          "unit": "tbsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "pumpkin_soup_with_curry_step_1",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 185,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Sauté onions with olive oil until translucent.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'1 medium sweet onion, chopped': 'sweet' read as pieces"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of pan_fry's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

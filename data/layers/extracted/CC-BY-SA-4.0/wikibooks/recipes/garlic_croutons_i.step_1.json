@@ -1,0 +1,60 @@
+{
+  "id": "garlic_croutons_i.step_1",
+  "source": "wikibooks_garlic_croutons_i",
+  "sourceRef": {
+    "source": "wikibooks_garlic_croutons_i",
+    "step": 1
+  },
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "garlic",
+        "amount": {
+          "qty": 2,
+          "unit": "clove"
+        }
+      },
+      {
+        "ingredient": "olive_oil",
+        "amount": {
+          "qty": 4,
+          "unit": "tbsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "garlic_croutons_i_step_1",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Pour the olive oil into a shallow bowl over the garlic and let it soak. Soaking it longer will yield more garlic flavor.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.53"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

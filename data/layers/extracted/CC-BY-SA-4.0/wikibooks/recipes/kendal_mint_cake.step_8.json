@@ -1,0 +1,48 @@
+{
+  "id": "kendal_mint_cake.step_8",
+  "source": "wikibooks_kendal_mint_cake",
+  "sourceRef": {
+    "source": "wikibooks_kendal_mint_cake",
+    "step": 8
+  },
+  "technique": "separate",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "kendal_mint_cake_step_7",
+        "amount": {
+          "qty": 629.9,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "kendal_mint_cake",
+      "amount": {
+        "qty": 629.9,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Remove the confection from the baking tin, and break into individual pieces.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

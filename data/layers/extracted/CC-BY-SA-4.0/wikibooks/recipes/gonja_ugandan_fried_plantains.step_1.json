@@ -1,0 +1,48 @@
+{
+  "id": "gonja_ugandan_fried_plantains.step_1",
+  "source": "wikibooks_gonja_ugandan_fried_plantains",
+  "sourceRef": {
+    "source": "wikibooks_gonja_ugandan_fried_plantains",
+    "step": 1
+  },
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "plantain",
+        "amount": {
+          "qty": 2,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "gonja_ugandan_fried_plantains_step_1",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Begin by peeling the ripe plantains and cutting them into diagonal slices about ½ inch thick. You can choose to slice them straight or at an angle for a different presentation.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

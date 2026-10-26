@@ -1,0 +1,53 @@
+{
+  "id": "steamed_salmon.step_3",
+  "source": "wikibooks_steamed_salmon",
+  "sourceRef": {
+    "source": "wikibooks_steamed_salmon",
+    "step": 3
+  },
+  "technique": "steam",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "steamed_salmon_step_2",
+        "amount": {
+          "qty": 262.1,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "steamed_salmon",
+      "amount": {
+        "qty": 262.1,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 100,
+    "medium": "steam"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Cover the pot, and steam over low heat until the flesh is just cooked.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of steam's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

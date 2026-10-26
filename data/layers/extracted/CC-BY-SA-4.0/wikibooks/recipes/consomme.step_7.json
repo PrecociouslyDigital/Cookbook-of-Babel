@@ -1,0 +1,48 @@
+{
+  "id": "consomme.step_7",
+  "source": "wikibooks_consomme",
+  "sourceRef": {
+    "source": "wikibooks_consomme",
+    "step": 7
+  },
+  "technique": "simmer",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "consomme_step_6",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "consomme_step_7",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 90,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 5,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Move the pot to the edge of the flame, and continue heating over a low flame for 5 minutes.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of simmer's typical range"
+    }
+  ]
+}

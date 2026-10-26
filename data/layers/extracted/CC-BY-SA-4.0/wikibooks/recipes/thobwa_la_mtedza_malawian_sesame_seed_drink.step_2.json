@@ -1,0 +1,53 @@
+{
+  "id": "thobwa_la_mtedza_malawian_sesame_seed_drink.step_2",
+  "source": "wikibooks_thobwa_la_mtedza_malawian_sesame_seed_drink",
+  "sourceRef": {
+    "source": "wikibooks_thobwa_la_mtedza_malawian_sesame_seed_drink",
+    "step": 2
+  },
+  "technique": "cool",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "thobwa_la_mtedza_malawian_sesame_seed_drink_step_1",
+        "amount": {
+          "qty": 295.8,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "thobwa_la_mtedza_malawian_sesame_seed_drink_step_2",
+      "amount": {
+        "qty": 295.8,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Remove the pan from the heat and let the toasted seeds and peanuts cool for a few minutes.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.42"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

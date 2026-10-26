@@ -1,0 +1,48 @@
+{
+  "id": "sourdough_starter_recipe.step_4",
+  "source": "wikibooks_sourdough_starter_recipe",
+  "sourceRef": {
+    "source": "wikibooks_sourdough_starter_recipe",
+    "step": 4
+  },
+  "technique": "ferment",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "sourdough_starter_recipe_step_3",
+        "amount": {
+          "qty": 724,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "sourdough_starter_recipe_step_4",
+      "amount": {
+        "qty": 724,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "On the third day, the starter should have a lot of bubbles all over coming up from deep inside. Feed it again with ½ cup flour and water.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

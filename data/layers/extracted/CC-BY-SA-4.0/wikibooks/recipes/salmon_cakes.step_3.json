@@ -1,0 +1,48 @@
+{
+  "id": "salmon_cakes.step_3",
+  "source": "wikibooks_salmon_cakes",
+  "sourceRef": {
+    "source": "wikibooks_salmon_cakes",
+    "step": 3
+  },
+  "technique": "bake",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "salmon_cakes_step_2",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "salmon_cakes_step_3",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 176.66666666666666,
+    "medium": "oven_air"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Insert a probe thermometer into one of the cakes. Place on a greased baking pan and bake at 350°F until internal temperature reaches 130°F.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

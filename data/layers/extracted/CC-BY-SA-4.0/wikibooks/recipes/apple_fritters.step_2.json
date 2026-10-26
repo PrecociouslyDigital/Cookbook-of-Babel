@@ -1,0 +1,60 @@
+{
+  "id": "apple_fritters.step_2",
+  "source": "wikibooks_apple_fritters",
+  "sourceRef": {
+    "source": "wikibooks_apple_fritters",
+    "step": 2
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "apple_fritters_step_1",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "wheat_flour",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "apple_fritters_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 2.5,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Roll paste into 3-inch balls. Dredge balls in flour. Set aside for 2–3 minutes.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.5"
+    },
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Flour': no quantity given; assumed a pinch"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": "chicken_mull.step_2",
+  "source": "wikibooks_chicken_mull",
+  "sourceRef": {
+    "source": "wikibooks_chicken_mull",
+    "step": 2
+  },
+  "technique": "cool",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "chicken_mull_step_1",
+        "amount": {
+          "qty": 0.3,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "chicken_mull_step_2",
+      "amount": {
+        "qty": 0.3,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 90,
+    "medium": "simmering_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Turn heat to medium, then remove chicken from water and allow to cool.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.56"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 90.0 °C for simmering_water"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

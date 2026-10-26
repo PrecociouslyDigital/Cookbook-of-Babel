@@ -1,0 +1,48 @@
+{
+  "id": "homemade_cider_vinegar.step_2",
+  "source": "wikibooks_homemade_cider_vinegar",
+  "sourceRef": {
+    "source": "wikibooks_homemade_cider_vinegar",
+    "step": 2
+  },
+  "technique": "grind",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "homemade_cider_vinegar_step_1",
+        "amount": {
+          "qty": 4000,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "homemade_cider_vinegar_step_2",
+      "amount": {
+        "qty": 4000,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Crush the apples, or put them through a juice maker, and collect the juice in one of the fermenters.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

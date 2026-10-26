@@ -1,0 +1,48 @@
+{
+  "id": "agar_jelly.step_4",
+  "source": "wikibooks_agar_jelly",
+  "sourceRef": {
+    "source": "wikibooks_agar_jelly",
+    "step": 4
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "agar_jelly_step_3",
+        "amount": {
+          "qty": 682.5,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "agar_jelly_step_4",
+      "amount": {
+        "qty": 682.5,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Pour mixture into tin.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

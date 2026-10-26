@@ -1,0 +1,58 @@
+{
+  "id": "potato_and_garlic_ravioli_filling.step_6",
+  "source": "wikibooks_potato_and_garlic_ravioli_filling",
+  "sourceRef": {
+    "source": "wikibooks_potato_and_garlic_ravioli_filling",
+    "step": 6
+  },
+  "technique": "cool",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "potato_and_garlic_ravioli_filling_step_5",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "potato_and_garlic_ravioli_filling",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 20,
+    "medium": "still_air"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Cover and allow to cool while you prepare the pasta dough.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.58"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 20.0 °C for still_air"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

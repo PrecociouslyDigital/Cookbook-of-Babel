@@ -1,0 +1,98 @@
+{
+  "id": "mascarpone_mac_n_cheese.step_2",
+  "source": "wikibooks_mascarpone_mac_n_cheese",
+  "sourceRef": {
+    "source": "wikibooks_mascarpone_mac_n_cheese",
+    "step": 2
+  },
+  "technique": "boil",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "mascarpone_mac_n_cheese_step_1",
+        "amount": {
+          "qty": 90.5,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "mascarpone_cheese",
+        "amount": {
+          "qty": 1,
+          "unit": "cup"
+        }
+      },
+      {
+        "ingredient": "white_sugar",
+        "amount": {
+          "qty": 3,
+          "unit": "tbsp"
+        }
+      },
+      {
+        "ingredient": "salt",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      },
+      {
+        "ingredient": "cream",
+        "amount": {
+          "qty": 2,
+          "unit": "cup"
+        }
+      },
+      {
+        "ingredient": "heavy_whipping_cream",
+        "amount": {
+          "qty": 1,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "mascarpone_mac_n_cheese_step_2",
+      "amount": {
+        "qty": 1075,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 100,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Add remaining ingredients except for macaroni and whipped cream. Bring to a boil until reduced by half. Remove from heat and gently fold in cream.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.37"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for mascarpone_cheese, cream, heavy_whipping_cream"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of boil's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

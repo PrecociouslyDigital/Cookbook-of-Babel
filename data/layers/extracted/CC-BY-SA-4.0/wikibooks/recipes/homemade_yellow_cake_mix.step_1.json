@@ -1,0 +1,116 @@
+{
+  "id": "homemade_yellow_cake_mix.step_1",
+  "source": "wikibooks_homemade_yellow_cake_mix",
+  "sourceRef": {
+    "source": "wikibooks_homemade_yellow_cake_mix",
+    "step": 1
+  },
+  "technique": "whisk",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "wheat_flour",
+        "amount": {
+          "qty": 1,
+          "unit": "kg"
+        }
+      },
+      {
+        "ingredient": "white_sugar",
+        "amount": {
+          "qty": 1,
+          "unit": "kg"
+        }
+      },
+      {
+        "ingredient": "baking_soda",
+        "amount": {
+          "qty": 4,
+          "unit": "tbsp"
+        }
+      },
+      {
+        "ingredient": "salt",
+        "amount": {
+          "qty": 1,
+          "unit": "tbsp"
+        }
+      },
+      {
+        "ingredient": "butter",
+        "amount": {
+          "qty": 2,
+          "unit": "tbsp"
+        }
+      },
+      {
+        "ingredient": "cake_mix",
+        "amount": {
+          "qty": 1,
+          "unit": "cup"
+        }
+      },
+      {
+        "ingredient": "milk",
+        "amount": {
+          "qty": 0.3333333333333333,
+          "unit": "cup"
+        }
+      },
+      {
+        "ingredient": "vegetable_oil",
+        "amount": {
+          "qty": 1,
+          "unit": "tsp"
+        }
+      },
+      {
+        "ingredient": "vanilla",
+        "amount": {
+          "qty": 1,
+          "unit": "tsp"
+        }
+      },
+      {
+        "ingredient": "egg",
+        "amount": {
+          "qty": 1,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "homemade_yellow_cake_mix_step_1",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Combine all ingredients together in a very large container. Whisk together until evenly distributed.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.55"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

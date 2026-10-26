@@ -1,0 +1,70 @@
+{
+  "id": "scottish_porridge.step_3",
+  "source": "wikibooks_scottish_porridge",
+  "sourceRef": {
+    "source": "wikibooks_scottish_porridge",
+    "step": 3
+  },
+  "technique": "boil",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "scottish_porridge_step_2",
+        "amount": {
+          "qty": 444.7,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "fine_sea_salt",
+        "amount": {
+          "qty": 0.125,
+          "unit": "tsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "scottish_porridge_step_3",
+      "amount": {
+        "qty": 445.3,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 100,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Place the oats, salt and water into a small pan and gently bring it to a small boil, stirring occasionally until the porridge starts to thicken.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.42"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for fine_sea_salt"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of boil's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

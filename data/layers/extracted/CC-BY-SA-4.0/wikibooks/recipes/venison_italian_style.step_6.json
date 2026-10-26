@@ -1,0 +1,74 @@
+{
+  "id": "venison_italian_style.step_6",
+  "source": "wikibooks_venison_italian_style",
+  "sourceRef": {
+    "source": "wikibooks_venison_italian_style",
+    "step": 6
+  },
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "venison_italian_style_step_5",
+        "amount": {
+          "qty": 1054.4,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "wheat_flour",
+        "amount": {
+          "qty": 0.5,
+          "unit": "cup"
+        }
+      },
+      {
+        "ingredient": "salt",
+        "amount": {
+          "qty": 0.5,
+          "unit": "tsp"
+        }
+      },
+      {
+        "ingredient": "pepper",
+        "amount": {
+          "qty": 0.5,
+          "unit": "tsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "venison_italian_style_step_6",
+      "amount": {
+        "qty": 1122.5,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Mix flour, salt and pepper, then thoroughly coat venison slices.",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for pepper"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

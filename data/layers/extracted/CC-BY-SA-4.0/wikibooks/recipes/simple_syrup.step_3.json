@@ -1,0 +1,48 @@
+{
+  "id": "simple_syrup.step_3",
+  "source": "wikibooks_simple_syrup",
+  "sourceRef": {
+    "source": "wikibooks_simple_syrup",
+    "step": 3
+  },
+  "technique": "cool",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "simple_syrup_step_2",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "simple_syrup_step_3",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "When all of the sugar has dissolved, remove from the heat and allow to cool to room temperature. This should only take a few minutes.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

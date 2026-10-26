@@ -1,0 +1,65 @@
+{
+  "id": "tub_tim_krob_thai_water_chestnuts_in_coconut.step_4",
+  "source": "wikibooks_tub_tim_krob_thai_water_chestnuts_in_coconut",
+  "sourceRef": {
+    "source": "wikibooks_tub_tim_krob_thai_water_chestnuts_in_coconut",
+    "step": 4
+  },
+  "technique": "boil",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "tub_tim_krob_thai_water_chestnuts_in_coconut_step_3",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "water",
+        "amount": {
+          "qty": 0.25,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "tub_tim_krob_thai_water_chestnuts_in_coconut_step_4",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 100,
+    "medium": "boiling_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Boil them in hot water for several minutes or until the water chestnut cubes float to the top of the water.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.54"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of boil's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

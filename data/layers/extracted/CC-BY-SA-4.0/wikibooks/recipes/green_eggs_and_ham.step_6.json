@@ -1,0 +1,55 @@
+{
+  "id": "green_eggs_and_ham.step_6",
+  "source": "wikibooks_green_eggs_and_ham",
+  "sourceRef": {
+    "source": "wikibooks_green_eggs_and_ham",
+    "step": 6
+  },
+  "technique": "separate",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "green_eggs_and_ham_step_5",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "egg",
+        "amount": {
+          "qty": 2,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "green_eggs_and_ham_step_6",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Separate eggs into whites and yolks.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": "boiled_potatoes.step_5",
+  "source": "wikibooks_boiled_potatoes",
+  "sourceRef": {
+    "source": "wikibooks_boiled_potatoes",
+    "step": 5
+  },
+  "technique": "evaporate",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "boiled_potatoes_step_4",
+        "amount": {
+          "qty": 0.3,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "boiled_potatoes",
+      "amount": {
+        "qty": 0.3,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 100,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Drain away the water, uncover the saucepan, and place them over very low heat or in the oven to let the excess moisture evaporate.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.56"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of evaporate's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "id": "tarta_de_santiago.step_1",
+  "source": "wikibooks_tarta_de_santiago",
+  "sourceRef": {
+    "source": "wikibooks_tarta_de_santiago",
+    "step": 1
+  },
+  "technique": "whisk",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "egg",
+        "amount": {
+          "qty": 3,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "white_sugar",
+        "amount": {
+          "qty": 150,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "tarta_de_santiago_step_1",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Add eggs and sugar to a bowl, and whisk rapidly until mixture turns pale.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

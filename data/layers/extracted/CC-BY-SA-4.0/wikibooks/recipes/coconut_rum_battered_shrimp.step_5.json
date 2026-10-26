@@ -1,0 +1,65 @@
+{
+  "id": "coconut_rum_battered_shrimp.step_5",
+  "source": "wikibooks_coconut_rum_battered_shrimp",
+  "sourceRef": {
+    "source": "wikibooks_coconut_rum_battered_shrimp",
+    "step": 5
+  },
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "coconut_rum_battered_shrimp_step_4",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "lemon",
+        "amount": {
+          "qty": 1,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "coconut_rum_battered_shrimp",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 20,
+    "medium": "still_air"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Squeeze some lemon juice over and serve warm.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.55"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 20.0 °C for still_air"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

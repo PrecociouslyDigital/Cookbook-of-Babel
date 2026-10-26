@@ -1,0 +1,63 @@
+{
+  "id": "stuffed_peppers_vegetarian.step_1",
+  "source": "wikibooks_stuffed_peppers_vegetarian",
+  "sourceRef": {
+    "source": "wikibooks_stuffed_peppers_vegetarian",
+    "step": 1
+  },
+  "technique": "simmer",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "rice",
+        "amount": {
+          "qty": 1,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "stuffed_peppers_vegetarian_step_1",
+      "amount": {
+        "qty": 236.6,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 90,
+    "medium": "boiling_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Cook the rice.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.54"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for rice"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of simmer's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

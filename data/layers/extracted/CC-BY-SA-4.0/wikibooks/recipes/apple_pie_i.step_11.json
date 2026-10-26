@@ -1,0 +1,60 @@
+{
+  "id": "apple_pie_i.step_11",
+  "source": "wikibooks_apple_pie_i",
+  "sourceRef": {
+    "source": "wikibooks_apple_pie_i",
+    "step": 11
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "apple_pie_i_step_10",
+        "amount": {
+          "qty": 1465.5,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "butter",
+        "amount": {
+          "qty": 1,
+          "unit": "oz"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "apple_pie_i_step_11",
+      "amount": {
+        "qty": 1493.8,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Dot with butter.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.53"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

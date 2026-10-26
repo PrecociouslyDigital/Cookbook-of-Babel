@@ -1,0 +1,72 @@
+{
+  "id": "pohe_spiced_flattened_rice.step_3",
+  "source": "wikibooks_pohe_spiced_flattened_rice",
+  "sourceRef": {
+    "source": "wikibooks_pohe_spiced_flattened_rice",
+    "step": 3
+  },
+  "technique": "fry",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "pohe_spiced_flattened_rice_step_2",
+        "amount": {
+          "qty": 234.5,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "turmeric",
+        "amount": {
+          "qty": 0.25,
+          "unit": "tsp"
+        }
+      },
+      {
+        "ingredient": "asafoetida",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "pohe_spiced_flattened_rice_step_3",
+      "amount": {
+        "qty": 236,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 190,
+    "medium": "frying_oil"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Add the turmeric powder and asafoetida and fry for a few seconds (take care not to burn the turmeric).",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for turmeric, asafoetida"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of fry's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

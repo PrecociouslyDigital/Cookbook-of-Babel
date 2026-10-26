@@ -1,0 +1,62 @@
+{
+  "id": "irish_soda_bread.step_4",
+  "source": "wikibooks_irish_soda_bread",
+  "sourceRef": {
+    "source": "wikibooks_irish_soda_bread",
+    "step": 4
+  },
+  "technique": "blend",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "irish_soda_bread_step_3",
+        "amount": {
+          "qty": 425.5,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "egg",
+        "amount": {
+          "qty": 1,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "buttermilk",
+        "amount": {
+          "qty": 2,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "irish_soda_bread_step_4",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Blend egg and buttermilk together, and add all at once to the flour mixture.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "id": "groundnut_soup.step_5",
+  "source": "wikibooks_groundnut_soup",
+  "sourceRef": {
+    "source": "wikibooks_groundnut_soup",
+    "step": 5
+  },
+  "technique": "fry",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "groundnut_soup_step_4",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "pepper",
+        "amount": {
+          "qty": 1,
+          "unit": "tbsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "groundnut_soup_step_5",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 190,
+    "medium": "frying_oil"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 2,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Add the ground pepper and stir for about 2 minutes.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.52"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of fry's typical range"
+    }
+  ]
+}

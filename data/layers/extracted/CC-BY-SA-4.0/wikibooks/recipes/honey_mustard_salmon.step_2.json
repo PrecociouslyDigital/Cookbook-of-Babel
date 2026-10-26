@@ -1,0 +1,53 @@
+{
+  "id": "honey_mustard_salmon.step_2",
+  "source": "wikibooks_honey_mustard_salmon",
+  "sourceRef": {
+    "source": "wikibooks_honey_mustard_salmon",
+    "step": 2
+  },
+  "technique": "rinse",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "salmon",
+        "amount": {
+          "qty": 1,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "honey_mustard_salmon_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Wash and pat dry the salmon fillet. Remove the pin bones (if there are any), and cut salmon into portions if desired.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.5"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

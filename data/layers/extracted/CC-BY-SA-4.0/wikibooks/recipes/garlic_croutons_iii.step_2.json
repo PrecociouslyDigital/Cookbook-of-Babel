@@ -1,0 +1,91 @@
+{
+  "id": "garlic_croutons_iii.step_2",
+  "source": "wikibooks_garlic_croutons_iii",
+  "sourceRef": {
+    "source": "wikibooks_garlic_croutons_iii",
+    "step": 2
+  },
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "garlic_croutons_iii_step_1",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "olive_oil",
+        "amount": {
+          "qty": 0.25,
+          "unit": "cup"
+        }
+      },
+      {
+        "ingredient": "garlic_powder",
+        "amount": {
+          "qty": 2,
+          "unit": "tsp"
+        }
+      },
+      {
+        "ingredient": "salt",
+        "amount": {
+          "qty": 0.5,
+          "unit": "tsp"
+        }
+      },
+      {
+        "ingredient": "pepper",
+        "amount": {
+          "qty": 0.5,
+          "unit": "tsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "garlic_croutons_iii_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 180,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Heat olive oil in a skillet over medium heat. Add seasonings and combine with oil. Add bread cubes and toss to coat.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.46"
+    },
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.59"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 180.0 °C for pan_contact"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

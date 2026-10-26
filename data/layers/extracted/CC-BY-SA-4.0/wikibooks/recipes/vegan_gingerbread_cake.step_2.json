@@ -1,0 +1,88 @@
+{
+  "id": "vegan_gingerbread_cake.step_2",
+  "source": "wikibooks_vegan_gingerbread_cake",
+  "sourceRef": {
+    "source": "wikibooks_vegan_gingerbread_cake",
+    "step": 2
+  },
+  "technique": "whisk",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "vegan_gingerbread_cake_step_1",
+        "amount": {
+          "qty": 207,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "almond_milk_ii",
+        "amount": {
+          "qty": 0.5,
+          "unit": "cup"
+        }
+      },
+      {
+        "ingredient": "coconut_oil",
+        "amount": {
+          "qty": 2,
+          "unit": "tbsp"
+        }
+      },
+      {
+        "ingredient": "applesauce",
+        "amount": {
+          "qty": 0.25,
+          "unit": "cup"
+        }
+      },
+      {
+        "ingredient": "molasses",
+        "amount": {
+          "qty": 2,
+          "unit": "tbsp"
+        }
+      },
+      {
+        "ingredient": "vanilla",
+        "amount": {
+          "qty": 1,
+          "unit": "tsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "vegan_gingerbread_cake_step_2",
+      "amount": {
+        "qty": 448.5,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Whisk together the almond milk, coconut oil, applesauce, molasses, and vanilla in the medium bowl.",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for almond_milk_ii, coconut_oil, applesauce, molasses, vanilla"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "id": "tomato_curry.step_3",
+  "source": "wikibooks_tomato_curry",
+  "sourceRef": {
+    "source": "wikibooks_tomato_curry",
+    "step": 3
+  },
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "tomato_curry_step_2",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "salt",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      },
+      {
+        "ingredient": "pepper",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "tomato_curry_step_3",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Season with salt and pepper.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.47"
+    },
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Salt': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Black pepper': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

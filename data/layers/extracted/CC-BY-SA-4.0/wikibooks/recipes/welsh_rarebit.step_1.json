@@ -1,0 +1,70 @@
+{
+  "id": "welsh_rarebit.step_1",
+  "source": "wikibooks_welsh_rarebit",
+  "sourceRef": {
+    "source": "wikibooks_welsh_rarebit",
+    "step": 1
+  },
+  "technique": "whisk",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "butter",
+        "amount": {
+          "qty": 2,
+          "unit": "tbsp"
+        }
+      },
+      {
+        "ingredient": "wheat_flour",
+        "amount": {
+          "qty": 2,
+          "unit": "tbsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "welsh_rarebit_step_1",
+      "amount": {
+        "qty": 45.3,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 180,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "In a medium saucepan over low heat, melt the butter and whisk in the flour.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.39"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for butter"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 180.0 °C for pan_contact"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "id": "classic_salad.step_4",
+  "source": "wikibooks_classic_salad",
+  "sourceRef": {
+    "source": "wikibooks_classic_salad",
+    "step": 4
+  },
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "classic_salad_step_3",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "honey",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "classic_salad",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Drizzle the salad dressing over the salad.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Honey Dijon salad dressing': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

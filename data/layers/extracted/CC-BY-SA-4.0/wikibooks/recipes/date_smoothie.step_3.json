@@ -1,0 +1,94 @@
+{
+  "id": "date_smoothie.step_3",
+  "source": "wikibooks_date_smoothie",
+  "sourceRef": {
+    "source": "wikibooks_date_smoothie",
+    "step": 3
+  },
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "date_smoothie_step_2",
+        "amount": {
+          "qty": 0.3,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "cinnamon",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      },
+      {
+        "ingredient": "white_sugar",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      },
+      {
+        "ingredient": "ice_cubes",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "date_smoothie_step_3",
+      "amount": {
+        "qty": 1.2,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Add cinnamon, sugar to taste, and ice.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.57"
+    },
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Cinnamon powder': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Sugar': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Ice cubes': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for cinnamon, ice_cubes"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

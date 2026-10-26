@@ -1,0 +1,60 @@
+{
+  "id": "goat_milk_caramel_sauce.step_9",
+  "source": "wikibooks_goat_milk_caramel_sauce",
+  "sourceRef": {
+    "source": "wikibooks_goat_milk_caramel_sauce",
+    "step": 9
+  },
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "goat_milk_caramel_sauce_step_8",
+        "amount": {
+          "qty": 963.7,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "salt",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "goat_milk_caramel_sauce",
+      "amount": {
+        "qty": 964.1,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Season the caramel to taste with salt, then cool completely.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Salt to taste': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

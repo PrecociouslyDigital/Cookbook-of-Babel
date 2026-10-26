@@ -1,0 +1,60 @@
+{
+  "id": "pinon_spanish_stovetop_pot_pie.step_4",
+  "source": "wikibooks_pinon_spanish_stovetop_pot_pie",
+  "sourceRef": {
+    "source": "wikibooks_pinon_spanish_stovetop_pot_pie",
+    "step": 4
+  },
+  "technique": "fry",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "pinon_spanish_stovetop_pot_pie_step_3",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "potato",
+        "amount": {
+          "qty": 2,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "pinon_spanish_stovetop_pot_pie_step_4",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 190,
+    "medium": "frying_oil"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Peel the potatoes and cut them into french fries. Fry the potatoes in a skillet and some oil until they are golden. Remove from skillet and set aside.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of fry's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

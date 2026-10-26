@@ -1,0 +1,55 @@
+{
+  "id": "colcannon.step_7",
+  "source": "wikibooks_colcannon",
+  "sourceRef": {
+    "source": "wikibooks_colcannon",
+    "step": 7
+  },
+  "technique": "bake",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "colcannon_step_6",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "cheese",
+        "amount": {
+          "qty": 200,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "colcannon",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 200,
+    "medium": "oven_air"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 20,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Stir the gouda into the mix, leaving a little to coat the top. Put the bowl in an oven on 2/3 heat for 20 minutes or until the cheese is melted.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of bake's typical range"
+    }
+  ]
+}

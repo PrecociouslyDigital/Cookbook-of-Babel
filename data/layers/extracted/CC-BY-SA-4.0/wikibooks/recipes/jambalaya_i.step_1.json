@@ -1,0 +1,81 @@
+{
+  "id": "jambalaya_i.step_1",
+  "source": "wikibooks_jambalaya_i",
+  "sourceRef": {
+    "source": "wikibooks_jambalaya_i",
+    "step": 1
+  },
+  "technique": "grind",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "savory",
+        "amount": {
+          "qty": 0.5,
+          "unit": "tsp"
+        }
+      },
+      {
+        "ingredient": "salt",
+        "amount": {
+          "qty": 0.5,
+          "unit": "tsp"
+        }
+      },
+      {
+        "ingredient": "basil",
+        "amount": {
+          "qty": 1,
+          "unit": "tsp"
+        }
+      },
+      {
+        "ingredient": "thyme",
+        "amount": {
+          "qty": 1,
+          "unit": "tsp"
+        }
+      },
+      {
+        "ingredient": "cumin",
+        "amount": {
+          "qty": 1.5,
+          "unit": "tsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "jambalaya_i_step_1",
+      "amount": {
+        "qty": 22.7,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Mix the salt, savory, basil, thyme, and cumin together, then grind them to a powder.",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for savory, basil, thyme, cumin"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "id": "tod_mun_thai_fish_cakes.step_3",
+  "source": "wikibooks_tod_mun_thai_fish_cakes",
+  "sourceRef": {
+    "source": "wikibooks_tod_mun_thai_fish_cakes",
+    "step": 3
+  },
+  "technique": "grind",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "tod_mun_thai_fish_cakes_step_2",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "ground_fish",
+        "amount": {
+          "qty": 360,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "tod_mun_thai_fish_cakes_step_3",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Mince the fish.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

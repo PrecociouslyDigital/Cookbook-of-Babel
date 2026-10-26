@@ -1,0 +1,48 @@
+{
+  "id": "rhubarb_juice.step_2",
+  "source": "wikibooks_rhubarb_juice",
+  "sourceRef": {
+    "source": "wikibooks_rhubarb_juice",
+    "step": 2
+  },
+  "technique": "strain",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "rhubarb_juice_step_1",
+        "amount": {
+          "qty": 2090.2,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "rhubarb_juice_step_2",
+      "amount": {
+        "qty": 2090.2,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Strain the mixture well, reserving only the juice.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

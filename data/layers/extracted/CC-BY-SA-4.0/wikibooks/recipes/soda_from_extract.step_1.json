@@ -1,0 +1,72 @@
+{
+  "id": "soda_from_extract.step_1",
+  "source": "wikibooks_soda_from_extract",
+  "sourceRef": {
+    "source": "wikibooks_soda_from_extract",
+    "step": 1
+  },
+  "technique": "boil",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "soda_extract",
+        "amount": {
+          "qty": 0.5,
+          "unit": "tbsp"
+        }
+      },
+      {
+        "ingredient": "water",
+        "amount": {
+          "qty": 1,
+          "unit": "cup"
+        }
+      },
+      {
+        "ingredient": "white_sugar",
+        "amount": {
+          "qty": 1,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "soda_from_extract_step_1",
+      "amount": {
+        "qty": 445.1,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 100,
+    "medium": "boiling_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Boil the soda extract, water, and sugar together to make a syrup of about 10 oz (300 ml).",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for soda_extract"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of boil's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

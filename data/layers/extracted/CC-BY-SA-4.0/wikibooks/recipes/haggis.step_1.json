@@ -1,0 +1,53 @@
+{
+  "id": "haggis.step_1",
+  "source": "wikibooks_haggis",
+  "sourceRef": {
+    "source": "wikibooks_haggis",
+    "step": 1
+  },
+  "technique": "simmer",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "beef",
+        "amount": {
+          "qty": 1,
+          "unit": "lb"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "haggis_step_1",
+      "amount": {
+        "qty": 453.6,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 90,
+    "medium": "simmering_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "h"
+    }
+  },
+  "stateNote": "Place the beef heart in a 4-quart (about 3–3.5 litre) covered pot and just cover with cold water. Simmer, covered, for 1 hour and 10 minutes.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of simmer's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "the step names several durations; used the first"
+    }
+  ]
+}

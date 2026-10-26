@@ -1,0 +1,72 @@
+{
+  "id": "tom_kha_kai.step_6",
+  "source": "wikibooks_tom_kha_kai",
+  "sourceRef": {
+    "source": "wikibooks_tom_kha_kai",
+    "step": 6
+  },
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "tom_kha_kai_step_5",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "lime",
+        "amount": {
+          "qty": 3,
+          "unit": "tbsp"
+        }
+      },
+      {
+        "ingredient": "soy_sauce",
+        "amount": {
+          "qty": 2,
+          "unit": "tbsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "tom_kha_kai_step_6",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 90,
+    "medium": "simmering_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Stir in lime juice and soy sauce.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.39"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 90.0 °C for simmering_water"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

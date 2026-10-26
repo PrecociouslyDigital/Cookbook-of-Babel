@@ -1,0 +1,53 @@
+{
+  "id": "vedhmi_sweet_stuffed_flatbread.step_2",
+  "source": "wikibooks_vedhmi_sweet_stuffed_flatbread",
+  "sourceRef": {
+    "source": "wikibooks_vedhmi_sweet_stuffed_flatbread",
+    "step": 2
+  },
+  "technique": "strain",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "vedhmi_sweet_stuffed_flatbread_step_1",
+        "amount": {
+          "qty": 500.4,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "vedhmi_sweet_stuffed_flatbread_step_2",
+      "amount": {
+        "qty": 500.4,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Cool slightly and strain the dal using a strainer.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.44"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

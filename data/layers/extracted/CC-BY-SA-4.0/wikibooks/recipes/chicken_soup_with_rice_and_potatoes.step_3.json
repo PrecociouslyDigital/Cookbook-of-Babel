@@ -1,0 +1,72 @@
+{
+  "id": "chicken_soup_with_rice_and_potatoes.step_3",
+  "source": "wikibooks_chicken_soup_with_rice_and_potatoes",
+  "sourceRef": {
+    "source": "wikibooks_chicken_soup_with_rice_and_potatoes",
+    "step": 3
+  },
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "chicken_soup_with_rice_and_potatoes_step_2",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "parsley",
+        "amount": {
+          "qty": 1,
+          "unit": "tbsp"
+        }
+      },
+      {
+        "ingredient": "parsley",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "chicken_soup_with_rice_and_potatoes",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 90,
+    "medium": "simmering_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Add minced parsley, and adjust seasonings to taste.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Parsley for garnish': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 90.0 °C for simmering_water"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

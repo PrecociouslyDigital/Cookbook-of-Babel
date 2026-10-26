@@ -1,0 +1,93 @@
+{
+  "id": "fattoush.step_2",
+  "source": "wikibooks_fattoush",
+  "sourceRef": {
+    "source": "wikibooks_fattoush",
+    "step": 2
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "fattoush_step_1",
+        "amount": {
+          "qty": 121,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "lemon",
+        "amount": {
+          "qty": 0.3333333333333333,
+          "unit": "cup"
+        }
+      },
+      {
+        "ingredient": "garlic",
+        "amount": {
+          "qty": 2,
+          "unit": "clove"
+        }
+      },
+      {
+        "ingredient": "sumac",
+        "amount": {
+          "qty": 2,
+          "unit": "tsp"
+        }
+      },
+      {
+        "ingredient": "salt",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      },
+      {
+        "ingredient": "pepper",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "fattoush_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Remove from heat, and mix in lemon juice, garlic, sumac, salt, and pepper.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Salt to taste': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Ground black pepper to taste': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": "garlic_lemon_dressing.step_5",
+  "source": "wikibooks_garlic_lemon_dressing",
+  "sourceRef": {
+    "source": "wikibooks_garlic_lemon_dressing",
+    "step": 5
+  },
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "garlic_lemon_dressing_step_4",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "garlic_lemon_dressing",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Shake before serving. Drizzle on steamed vegetables, or seafood, pasta, potato salad, or other salads.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.48"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

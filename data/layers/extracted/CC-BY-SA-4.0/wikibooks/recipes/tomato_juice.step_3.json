@@ -1,0 +1,48 @@
+{
+  "id": "tomato_juice.step_3",
+  "source": "wikibooks_tomato_juice",
+  "sourceRef": {
+    "source": "wikibooks_tomato_juice",
+    "step": 3
+  },
+  "technique": "chill",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "tomato_juice_step_2",
+        "amount": {
+          "qty": 1286.5,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "tomato_juice",
+      "amount": {
+        "qty": 1286.5,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Serve or store several days in a suitable container in refrigerator.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

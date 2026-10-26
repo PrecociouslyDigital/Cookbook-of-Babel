@@ -1,0 +1,97 @@
+{
+  "id": "miyan_kubewa_okra_soup.step_1",
+  "source": "wikibooks_miyan_kubewa_okra_soup",
+  "sourceRef": {
+    "source": "wikibooks_miyan_kubewa_okra_soup",
+    "step": 1
+  },
+  "technique": "simmer",
+  "inputs": {
+    "of": [
+      {
+        "min": 0,
+        "max": 1,
+        "of": [
+          {
+            "ingredient": "beef",
+            "amount": {
+              "qty": 500,
+              "unit": "g"
+            }
+          }
+        ]
+      },
+      {
+        "ingredient": "onion",
+        "amount": {
+          "qty": 1,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "dehydrated_broth",
+        "amount": {
+          "qty": 2.5,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "salt",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      },
+      {
+        "ingredient": "water",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "miyan_kubewa_okra_soup_step_1",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 90,
+    "medium": "simmering_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "In a pot, combine your cleaned meat, chopped onions, seasoning cubes, and a pinch of salt. Add a little water and simmer until the meat is cooked through and tender to your taste. This can take a while for tough cuts of meat.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Salt (to taste)': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Water (as needed)': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of simmer's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

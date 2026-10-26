@@ -1,0 +1,77 @@
+{
+  "id": "applewood_bacon.step_1",
+  "source": "wikibooks_applewood_bacon",
+  "sourceRef": {
+    "source": "wikibooks_applewood_bacon",
+    "step": 1
+  },
+  "technique": "dissolve",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "salt",
+        "amount": {
+          "qty": 2,
+          "unit": "cup"
+        }
+      },
+      {
+        "ingredient": "white_sugar",
+        "amount": {
+          "qty": 2,
+          "unit": "cup"
+        }
+      },
+      {
+        "ingredient": "apple_cider",
+        "amount": {
+          "qty": 1,
+          "unit": "gal"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "applewood_bacon_step_1",
+      "amount": {
+        "qty": 4755.5,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "In a large pot, bring to apple cider to boil. Stir in salt and sugar until dissolved.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.59"
+    },
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.43"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for apple_cider"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

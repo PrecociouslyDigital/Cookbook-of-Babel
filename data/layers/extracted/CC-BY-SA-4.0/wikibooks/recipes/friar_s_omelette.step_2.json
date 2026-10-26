@@ -1,0 +1,84 @@
+{
+  "id": "friar_s_omelette.step_2",
+  "source": "wikibooks_friar_s_omelette",
+  "sourceRef": {
+    "source": "wikibooks_friar_s_omelette",
+    "step": 2
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "friar_s_omelette_step_1",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "butter",
+        "amount": {
+          "qty": 4,
+          "unit": "oz"
+        }
+      },
+      {
+        "ingredient": "white_sugar",
+        "amount": {
+          "qty": 2,
+          "unit": "oz"
+        }
+      },
+      {
+        "ingredient": "lemon",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "friar_s_omelette_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 90,
+    "medium": "simmering_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Cook until soft (similar to applesauce), then remove from heat and add butter, sugar and lemon juice; mix well.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.5"
+    },
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Squeeze of lemon juice': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 90.0 °C for simmering_water"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

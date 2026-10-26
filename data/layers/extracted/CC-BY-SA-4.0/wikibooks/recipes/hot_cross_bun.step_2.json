@@ -1,0 +1,67 @@
+{
+  "id": "hot_cross_bun.step_2",
+  "source": "wikibooks_hot_cross_bun",
+  "sourceRef": {
+    "source": "wikibooks_hot_cross_bun",
+    "step": 2
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "hot_cross_bun_step_1",
+        "amount": {
+          "qty": 263.4,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "yeast",
+        "amount": {
+          "qty": 1,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "wheat_flour",
+        "amount": {
+          "qty": 3,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "hot_cross_bun_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Crumble yeast. Mix with ½ cup (120 ml) flour. Stir in tepid milk/water and mix well.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'1 cake fresh yeast': 'cake' read as pieces"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

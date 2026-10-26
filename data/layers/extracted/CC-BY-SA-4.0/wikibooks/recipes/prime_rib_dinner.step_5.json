@@ -1,0 +1,91 @@
+{
+  "id": "prime_rib_dinner.step_5",
+  "source": "wikibooks_prime_rib_dinner",
+  "sourceRef": {
+    "source": "wikibooks_prime_rib_dinner",
+    "step": 5
+  },
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "prime_rib_dinner_step_4",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "beef",
+        "amount": {
+          "qty": 1,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "thyme",
+        "amount": {
+          "qty": 4,
+          "unit": "tsp"
+        }
+      },
+      {
+        "ingredient": "rosemary",
+        "amount": {
+          "qty": 2,
+          "unit": "tsp"
+        }
+      },
+      {
+        "ingredient": "garlic_powder",
+        "amount": {
+          "qty": 2,
+          "unit": "tsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "prime_rib_dinner_step_5",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 180,
+    "medium": "oven_air"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Brush rib roast with olive oil. Combine seasonings for prime rib and rub into meat. Insert a probe thermometer into the center of the roast.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.51"
+    },
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'1 prime-grade 4-bone standing rib roast from the loin end, bones removed': 'prime-grade' read as pieces"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 180.0 °C for oven_air"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

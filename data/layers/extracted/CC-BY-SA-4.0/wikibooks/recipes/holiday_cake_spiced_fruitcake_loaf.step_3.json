@@ -1,0 +1,72 @@
+{
+  "id": "holiday_cake_spiced_fruitcake_loaf.step_3",
+  "source": "wikibooks_holiday_cake_spiced_fruitcake_loaf",
+  "sourceRef": {
+    "source": "wikibooks_holiday_cake_spiced_fruitcake_loaf",
+    "step": 3
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "holiday_cake_spiced_fruitcake_loaf_step_1",
+        "amount": {
+          "qty": 828.1,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "butter",
+        "amount": {
+          "qty": 1,
+          "unit": "cup"
+        }
+      },
+      {
+        "ingredient": "brown_sugar",
+        "amount": {
+          "qty": 3,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "holiday_cake_spiced_fruitcake_loaf_step_3",
+      "amount": {
+        "qty": 1774.5,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Cream butter, add half of the sugar. Beat until fluffy.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.56"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for butter, brown_sugar"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

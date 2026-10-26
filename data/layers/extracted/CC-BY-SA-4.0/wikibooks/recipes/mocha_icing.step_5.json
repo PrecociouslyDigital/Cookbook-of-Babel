@@ -1,0 +1,53 @@
+{
+  "id": "mocha_icing.step_5",
+  "source": "wikibooks_mocha_icing",
+  "sourceRef": {
+    "source": "wikibooks_mocha_icing",
+    "step": 5
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "mocha_icing_step_4",
+        "amount": {
+          "qty": 609.2,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "mocha_icing",
+      "amount": {
+        "qty": 609.2,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Spread on a hot milk cake or other cake.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.46"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

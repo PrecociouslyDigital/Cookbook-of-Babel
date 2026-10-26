@@ -1,0 +1,48 @@
+{
+  "id": "swiss_meringue.step_3",
+  "source": "wikibooks_swiss_meringue",
+  "sourceRef": {
+    "source": "wikibooks_swiss_meringue",
+    "step": 3
+  },
+  "technique": "cool",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "swiss_meringue_step_2",
+        "amount": {
+          "qty": 680.4,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "swiss_meringue",
+      "amount": {
+        "qty": 680.4,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Remove the bowl from the heat and continue whipping until the meringue is completely cool.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

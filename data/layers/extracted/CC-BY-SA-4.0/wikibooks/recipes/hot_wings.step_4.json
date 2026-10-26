@@ -1,0 +1,48 @@
+{
+  "id": "hot_wings.step_4",
+  "source": "wikibooks_hot_wings",
+  "sourceRef": {
+    "source": "wikibooks_hot_wings",
+    "step": 4
+  },
+  "technique": "fry",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "hot_wings_step_3",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "hot_wings_step_4",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 190,
+    "medium": "frying_oil"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 11,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Fry wings in batches in oil for 11 minutes. Drain on a rack. Do not use paper towels—they will make the food greasy.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of fry's typical range"
+    }
+  ]
+}

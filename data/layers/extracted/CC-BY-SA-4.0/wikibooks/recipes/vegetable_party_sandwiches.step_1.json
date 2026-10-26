@@ -1,0 +1,55 @@
+{
+  "id": "vegetable_party_sandwiches.step_1",
+  "source": "wikibooks_vegetable_party_sandwiches",
+  "sourceRef": {
+    "source": "wikibooks_vegetable_party_sandwiches",
+    "step": 1
+  },
+  "technique": "dissolve",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "gelatin",
+        "amount": {
+          "qty": 0.25,
+          "unit": "oz"
+        }
+      },
+      {
+        "ingredient": "water",
+        "amount": {
+          "qty": 0.25,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "vegetable_party_sandwiches_step_1",
+      "amount": {
+        "qty": 66.2,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Dissolve gelatin in water according to directions.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

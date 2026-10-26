@@ -1,0 +1,84 @@
+{
+  "id": "murghi_korma_chicken_korma.step_7",
+  "source": "wikibooks_murghi_korma_chicken_korma",
+  "sourceRef": {
+    "source": "wikibooks_murghi_korma_chicken_korma",
+    "step": 7
+  },
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "murghi_korma_chicken_korma_step_6",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "salt",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      },
+      {
+        "ingredient": "white_sugar",
+        "amount": {
+          "qty": 1,
+          "unit": "tbsp"
+        }
+      },
+      {
+        "ingredient": "coconut",
+        "amount": {
+          "qty": 2,
+          "unit": "tbsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "murghi_korma_chicken_korma_step_7",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 180,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "When water starts to separate from the chicken, add coconut cream, salt and sugar.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.49"
+    },
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Salt, according to taste': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 180.0 °C for pan_contact"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

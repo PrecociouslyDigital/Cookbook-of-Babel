@@ -1,0 +1,63 @@
+{
+  "id": "sirniki_russian_cheese_fritters.step_3",
+  "source": "wikibooks_sirniki_russian_cheese_fritters",
+  "sourceRef": {
+    "source": "wikibooks_sirniki_russian_cheese_fritters",
+    "step": 3
+  },
+  "technique": "pan_fry",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "sirniki_russian_cheese_fritters_step_2",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "sirniki_russian_cheese_fritters",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 185,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Wait until it becomes gold colour and flip.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of pan_fry's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    },
+    {
+      "field": "inputs",
+      "kind": "missing",
+      "note": "no step uses 'Sour cream and sugar or jam, confiture.' (p=0.96)"
+    },
+    {
+      "field": "inputs",
+      "kind": "missing",
+      "note": "no step uses 'Apple sauce' (p=1.0)"
+    }
+  ]
+}

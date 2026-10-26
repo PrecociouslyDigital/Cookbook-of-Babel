@@ -1,0 +1,95 @@
+{
+  "id": "char_grilled_strip_steak.step_1",
+  "source": "wikibooks_char_grilled_strip_steak",
+  "sourceRef": {
+    "source": "wikibooks_char_grilled_strip_steak",
+    "step": 1
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "salt",
+        "amount": {
+          "qty": 0.5,
+          "unit": "tsp"
+        }
+      },
+      {
+        "ingredient": "pepper",
+        "amount": {
+          "qty": 1,
+          "unit": "tsp"
+        }
+      },
+      {
+        "ingredient": "rosemary",
+        "amount": {
+          "qty": 1.5,
+          "unit": "tsp"
+        }
+      },
+      {
+        "ingredient": "thyme",
+        "amount": {
+          "qty": 2,
+          "unit": "tsp"
+        }
+      },
+      {
+        "ingredient": "paprika",
+        "amount": {
+          "qty": 1,
+          "unit": "tbsp"
+        }
+      },
+      {
+        "ingredient": "chili_powder",
+        "amount": {
+          "qty": 1,
+          "unit": "tbsp"
+        }
+      },
+      {
+        "ingredient": "garlic_powder",
+        "amount": {
+          "qty": 1,
+          "unit": "tbsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "char_grilled_strip_steak_step_1",
+      "amount": {
+        "qty": 69.5,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Combine seasonings. Set aside.",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for pepper, rosemary, thyme, paprika, chili_powder, garlic_powder"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

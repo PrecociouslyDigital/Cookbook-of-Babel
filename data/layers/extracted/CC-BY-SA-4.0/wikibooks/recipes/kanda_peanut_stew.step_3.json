@@ -1,0 +1,72 @@
+{
+  "id": "kanda_peanut_stew.step_3",
+  "source": "wikibooks_kanda_peanut_stew",
+  "sourceRef": {
+    "source": "wikibooks_kanda_peanut_stew",
+    "step": 3
+  },
+  "technique": "pan_fry",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "kanda_peanut_stew_step_2",
+        "amount": {
+          "qty": 236.6,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "onion",
+        "amount": {
+          "qty": 2,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "oil_and_fat",
+        "amount": {
+          "qty": 2,
+          "unit": "tbsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "kanda_peanut_stew_step_3",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 185,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Heat oil in a large cooking pot over medium heat. Add the chopped onions and sauté until they become translucent.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.35"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of pan_fry's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

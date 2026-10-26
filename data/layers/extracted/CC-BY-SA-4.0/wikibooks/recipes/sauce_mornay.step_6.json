@@ -1,0 +1,53 @@
+{
+  "id": "sauce_mornay.step_6",
+  "source": "wikibooks_sauce_mornay",
+  "sourceRef": {
+    "source": "wikibooks_sauce_mornay",
+    "step": 6
+  },
+  "technique": "cool",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "sauce_mornay_step_5",
+        "amount": {
+          "qty": 474.4,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "sauce_mornay",
+      "amount": {
+        "qty": 474.4,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "If not served immediately, you may dot the surface with butter to prevent a skin from forming.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.56"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "gimbap.step_8",
+  "source": "wikibooks_gimbap",
+  "sourceRef": {
+    "source": "wikibooks_gimbap",
+    "step": 8
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "gimbap_step_7",
+        "amount": {
+          "qty": 3.7,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "gimbap_step_8",
+      "amount": {
+        "qty": 3.7,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Use the bamboo mat to tightly roll everything up, with the fillings on the inside and the seaweed on the outside.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

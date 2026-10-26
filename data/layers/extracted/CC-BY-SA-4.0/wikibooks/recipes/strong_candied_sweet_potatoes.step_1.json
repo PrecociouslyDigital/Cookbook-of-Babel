@@ -1,0 +1,60 @@
+{
+  "id": "strong_candied_sweet_potatoes.step_1",
+  "source": "wikibooks_strong_candied_sweet_potatoes",
+  "sourceRef": {
+    "source": "wikibooks_strong_candied_sweet_potatoes",
+    "step": 1
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "sweet_potato",
+        "amount": {
+          "qty": 5,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "cinnamon",
+        "amount": {
+          "qty": 1,
+          "unit": "stick"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "strong_candied_sweet_potatoes_step_1",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Slice the sweet potatoes and lay in a deep baking pan with the cinnamon stick.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.53"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

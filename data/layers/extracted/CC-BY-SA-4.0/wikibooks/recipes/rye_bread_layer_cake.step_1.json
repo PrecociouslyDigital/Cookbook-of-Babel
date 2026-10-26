@@ -1,0 +1,53 @@
+{
+  "id": "rye_bread_layer_cake.step_1",
+  "source": "wikibooks_rye_bread_layer_cake",
+  "sourceRef": {
+    "source": "wikibooks_rye_bread_layer_cake",
+    "step": 1
+  },
+  "technique": "evaporate",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "rye",
+        "amount": {
+          "qty": 125,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "rye_bread_layer_cake_step_1",
+      "amount": {
+        "qty": 125,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Leave a couple of slices of unwrapped rye bread to dry outside of the fridge.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.53"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

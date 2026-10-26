@@ -1,0 +1,48 @@
+{
+  "id": "out_of_salad_dressing_salad_dressing.step_3",
+  "source": "wikibooks_out_of_salad_dressing_salad_dressing",
+  "sourceRef": {
+    "source": "wikibooks_out_of_salad_dressing_salad_dressing",
+    "step": 3
+  },
+  "technique": "chill",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "out_of_salad_dressing_salad_dressing_step_2",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "out_of_salad_dressing_salad_dressing",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 8,
+      "unit": "h"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Cover and refrigerate 8 hours, or overnight.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "the step names several durations; used the first"
+    }
+  ]
+}

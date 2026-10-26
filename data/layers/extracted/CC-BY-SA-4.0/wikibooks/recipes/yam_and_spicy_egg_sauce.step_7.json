@@ -1,0 +1,53 @@
+{
+  "id": "yam_and_spicy_egg_sauce.step_7",
+  "source": "wikibooks_yam_and_spicy_egg_sauce",
+  "sourceRef": {
+    "source": "wikibooks_yam_and_spicy_egg_sauce",
+    "step": 7
+  },
+  "technique": "stir_fry",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "yam_and_spicy_egg_sauce_step_6",
+        "amount": {
+          "qty": 2.5,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "yam_and_spicy_egg_sauce",
+      "amount": {
+        "qty": 2.5,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 215,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 2,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Pour the eggs into the pan with the sauce. Cook, stirring, for about 2 minutes or until the egg is cooked.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.55"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of stir_fry's typical range"
+    }
+  ]
+}

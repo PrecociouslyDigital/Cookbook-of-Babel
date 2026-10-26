@@ -1,0 +1,74 @@
+{
+  "id": "chicken_fried_rice.step_1",
+  "source": "wikibooks_chicken_fried_rice",
+  "sourceRef": {
+    "source": "wikibooks_chicken_fried_rice",
+    "step": 1
+  },
+  "technique": "stir_fry",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "butter",
+        "amount": {
+          "qty": 2,
+          "unit": "tbsp"
+        }
+      },
+      {
+        "ingredient": "garlic",
+        "amount": {
+          "qty": 3,
+          "unit": "clove"
+        }
+      },
+      {
+        "ingredient": "chiles",
+        "amount": {
+          "qty": 2,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "green_onion",
+        "amount": {
+          "qty": 2,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "chicken_fried_rice_step_1",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 215,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 15,
+      "unit": "s"
+    }
+  },
+  "stateNote": "Melt the butter in a non-stick pan. Fry the garlic, chilli, and scallion, stirring, for 15 seconds.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.55"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of stir_fry's typical range"
+    }
+  ]
+}

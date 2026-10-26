@@ -1,0 +1,60 @@
+{
+  "id": "orzo_salad.step_2",
+  "source": "wikibooks_orzo_salad",
+  "sourceRef": {
+    "source": "wikibooks_orzo_salad",
+    "step": 2
+  },
+  "technique": "boil",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "orzo_salad_step_1",
+        "amount": {
+          "qty": 4.9,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "orzo",
+        "amount": {
+          "qty": 1,
+          "unit": "lb"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "orzo_salad_step_2",
+      "amount": {
+        "qty": 458.5,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 100,
+    "medium": "boiling_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Stir in the pasta, and boil until it is cooked to your taste.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of boil's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "id": "halibut_cheek_stir_fry.step_5",
+  "source": "wikibooks_halibut_cheek_stir_fry",
+  "sourceRef": {
+    "source": "wikibooks_halibut_cheek_stir_fry",
+    "step": 5
+  },
+  "technique": "simmer",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "halibut_cheek_stir_fry_step_4",
+        "amount": {
+          "qty": 557.2,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "soy_sauce",
+        "amount": {
+          "qty": 1,
+          "unit": "tbsp"
+        }
+      },
+      {
+        "ingredient": "fish_stock_fumet_de_poisson",
+        "amount": {
+          "qty": 1,
+          "unit": "tbsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "halibut_cheek_stir_fry_step_5",
+      "amount": {
+        "qty": 586.8,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 90,
+    "medium": "simmering_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Add soy sauce and fish stock. Stir and bring to simmer.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.56"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for soy_sauce, fish_stock_fumet_de_poisson"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of simmer's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

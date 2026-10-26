@@ -1,0 +1,62 @@
+{
+  "id": "ambrosia_fruit_salad.step_1",
+  "source": "wikibooks_ambrosia_fruit_salad",
+  "sourceRef": {
+    "source": "wikibooks_ambrosia_fruit_salad",
+    "step": 1
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "mandarin_orange",
+        "amount": {
+          "qty": 4,
+          "unit": "cup"
+        }
+      },
+      {
+        "ingredient": "pineapple",
+        "amount": {
+          "qty": 2,
+          "unit": "can"
+        }
+      },
+      {
+        "ingredient": "grape",
+        "amount": {
+          "qty": 2,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "ambrosia_fruit_salad_step_1",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Mix the mandarin oranges, pineapple, and grapes in a large bowl.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

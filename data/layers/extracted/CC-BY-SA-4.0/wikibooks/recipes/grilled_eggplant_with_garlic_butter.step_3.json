@@ -1,0 +1,60 @@
+{
+  "id": "grilled_eggplant_with_garlic_butter.step_3",
+  "source": "wikibooks_grilled_eggplant_with_garlic_butter",
+  "sourceRef": {
+    "source": "wikibooks_grilled_eggplant_with_garlic_butter",
+    "step": 3
+  },
+  "technique": "rinse",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "grilled_eggplant_with_garlic_butter_step_2",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "olive_oil",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "grilled_eggplant_with_garlic_butter_step_3",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Rinse eggplant. Pat dry with paper towels, and brush with olive oil.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Olive oil': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

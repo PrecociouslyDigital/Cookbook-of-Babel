@@ -1,0 +1,62 @@
+{
+  "id": "mussels_with_potatoes.step_5",
+  "source": "wikibooks_mussels_with_potatoes",
+  "sourceRef": {
+    "source": "wikibooks_mussels_with_potatoes",
+    "step": 5
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "mussels_with_potatoes_step_4",
+        "amount": {
+          "qty": 450,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "potato",
+        "amount": {
+          "qty": 225,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "carrot",
+        "amount": {
+          "qty": 175,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "mussels_with_potatoes_step_5",
+      "amount": {
+        "qty": 850,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Mix together the mussels, potatoes, and carrots and arrange on a suitable serving dish.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "id": "no_bake_cheesecake.step_1",
+  "source": "wikibooks_no_bake_cheesecake",
+  "sourceRef": {
+    "source": "wikibooks_no_bake_cheesecake",
+    "step": 1
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "butter",
+        "amount": {
+          "qty": 75,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "digestive_biscuit",
+        "amount": {
+          "qty": 200,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "no_bake_cheesecake_step_1",
+      "amount": {
+        "qty": 275,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Combine melted butter with biscuit crumbs. Press into a pie dish to make a crust.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

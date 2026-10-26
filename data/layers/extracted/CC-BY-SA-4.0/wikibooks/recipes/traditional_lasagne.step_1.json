@@ -1,0 +1,60 @@
+{
+  "id": "traditional_lasagne.step_1",
+  "source": "wikibooks_traditional_lasagne",
+  "sourceRef": {
+    "source": "wikibooks_traditional_lasagne",
+    "step": 1
+  },
+  "technique": "pan_fry",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "olive_oil",
+        "amount": {
+          "qty": 2,
+          "unit": "tbsp"
+        }
+      },
+      {
+        "ingredient": "beef",
+        "amount": {
+          "qty": 1.5,
+          "unit": "lb"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "traditional_lasagne_step_1",
+      "amount": {
+        "qty": 710,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 185,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 12.5,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Heat the olive oil in a Dutch oven over medium high heat until shimmering. Add in ground beef and cook, breaking it up with a wooden spoon, until all liquid had evaporated and meat begins to sizzle (10–15 minutes).",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for olive_oil"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of pan_fry's typical range"
+    }
+  ]
+}

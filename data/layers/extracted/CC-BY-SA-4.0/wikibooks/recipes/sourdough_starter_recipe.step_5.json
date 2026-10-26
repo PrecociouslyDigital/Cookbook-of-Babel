@@ -1,0 +1,53 @@
+{
+  "id": "sourdough_starter_recipe.step_5",
+  "source": "wikibooks_sourdough_starter_recipe",
+  "sourceRef": {
+    "source": "wikibooks_sourdough_starter_recipe",
+    "step": 5
+  },
+  "technique": "ferment",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "sourdough_starter_recipe_step_4",
+        "amount": {
+          "qty": 724,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "sourdough_starter_recipe",
+      "amount": {
+        "qty": 724,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "On the fourth day, it should be very bubbly. You can start making bread with it, and then feed the remaining starter again with flour and water.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.57"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "id": "corned_beef_pie.step_6",
+  "source": "wikibooks_corned_beef_pie",
+  "sourceRef": {
+    "source": "wikibooks_corned_beef_pie",
+    "step": 6
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "corned_beef_pie_step_5",
+        "amount": {
+          "qty": 986.1,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "corned_beef",
+        "amount": {
+          "qty": 1,
+          "unit": "can"
+        }
+      },
+      {
+        "ingredient": "onion",
+        "amount": {
+          "qty": 1,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "corned_beef_pie_step_6",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Add the chopped onion and corned beef.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

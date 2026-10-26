@@ -1,0 +1,53 @@
+{
+  "id": "tomatoes_with_cheese_stuffing.step_3",
+  "source": "wikibooks_tomatoes_with_cheese_stuffing",
+  "sourceRef": {
+    "source": "wikibooks_tomatoes_with_cheese_stuffing",
+    "step": 3
+  },
+  "technique": "bake",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "tomatoes_with_cheese_stuffing_step_2",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "tomatoes_with_cheese_stuffing",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 200,
+    "medium": "oven_air"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Fill the tomatoes with this stuffing, place in a pan, and bake in a moderate oven until the tomato can be pierced easily with a fork.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of bake's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

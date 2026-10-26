@@ -1,0 +1,48 @@
+{
+  "id": "spinach_pie_pascualina.step_6",
+  "source": "wikibooks_spinach_pie_pascualina",
+  "sourceRef": {
+    "source": "wikibooks_spinach_pie_pascualina",
+    "step": 6
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "spinach_pie_pascualina_step_5",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "spinach_pie_pascualina_step_6",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Crack eggs one by one and pour into the holes.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

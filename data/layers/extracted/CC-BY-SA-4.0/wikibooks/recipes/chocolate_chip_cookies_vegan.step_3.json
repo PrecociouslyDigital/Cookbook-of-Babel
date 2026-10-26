@@ -1,0 +1,55 @@
+{
+  "id": "chocolate_chip_cookies_vegan.step_3",
+  "source": "wikibooks_chocolate_chip_cookies_vegan",
+  "sourceRef": {
+    "source": "wikibooks_chocolate_chip_cookies_vegan",
+    "step": 3
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "chocolate_chip_cookies_vegan_step_2",
+        "amount": {
+          "qty": 473.2,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "banana",
+        "amount": {
+          "qty": 0.5,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "chocolate_chip_cookies_vegan_step_3",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Add banana to the sugar and butter mixture.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "id": "simple_buttercream.step_3",
+  "source": "wikibooks_simple_buttercream",
+  "sourceRef": {
+    "source": "wikibooks_simple_buttercream",
+    "step": 3
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "simple_buttercream_step_2",
+        "amount": {
+          "qty": 655,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "milk",
+        "amount": {
+          "qty": 30,
+          "unit": "ml"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "simple_buttercream",
+      "amount": {
+        "qty": 685.9,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "When all the sugar is incorporated, add milk and beat until incorporated.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

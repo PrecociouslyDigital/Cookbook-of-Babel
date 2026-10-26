@@ -1,0 +1,67 @@
+{
+  "id": "chili_cornbread_casserole.step_5",
+  "source": "wikibooks_chili_cornbread_casserole",
+  "sourceRef": {
+    "source": "wikibooks_chili_cornbread_casserole",
+    "step": 5
+  },
+  "technique": "pan_fry",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "chili_cornbread_casserole_step_4",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "hamburger_meat",
+        "amount": {
+          "qty": 1.25,
+          "unit": "lb"
+        }
+      },
+      {
+        "ingredient": "beef",
+        "amount": {
+          "qty": 1,
+          "unit": "lb"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "chili_cornbread_casserole_step_5",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 185,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 9,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Add beef pieces and hamburger meat, and cook until lightly done (maybe 8 or 10 minutes).",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.5"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of pan_fry's typical range"
+    }
+  ]
+}

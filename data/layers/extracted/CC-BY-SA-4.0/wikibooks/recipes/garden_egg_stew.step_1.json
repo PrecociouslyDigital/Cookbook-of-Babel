@@ -1,0 +1,70 @@
+{
+  "id": "garden_egg_stew.step_1",
+  "source": "wikibooks_garden_egg_stew",
+  "sourceRef": {
+    "source": "wikibooks_garden_egg_stew",
+    "step": 1
+  },
+  "technique": "boil",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "garden_egg",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      },
+      {
+        "ingredient": "salt",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "garden_egg_stew_step_1",
+      "amount": {
+        "qty": 0.7,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 100,
+    "medium": "boiling_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 12.5,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Wash the garden eggs with salt. Cut them into smaller pieces, and boil in salted water for 10–15 minutes until soft.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Garden eggs': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Salt': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for garden_egg"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of boil's typical range"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": "hickory_smoked_pork_chops.step_7",
+  "source": "wikibooks_hickory_smoked_pork_chops",
+  "sourceRef": {
+    "source": "wikibooks_hickory_smoked_pork_chops",
+    "step": 7
+  },
+  "technique": "heat",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "hickory_smoked_pork_chops_step_6",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "hickory_smoked_pork_chops_step_7",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 60,
+    "medium": "oven_air"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Move to smoker and insert a probe thermometer into one of the chopes. Cover and cook until internal temperature reaches 140°F for medium rare, 155°F for medium, and 165°F for toast. Carry-over will take it the last 5 degrees. Keep checking the temperature and microwave if needed to get above 145°F.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.33"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "raspberry_ripple_cake.step_7",
+  "source": "wikibooks_raspberry_ripple_cake",
+  "sourceRef": {
+    "source": "wikibooks_raspberry_ripple_cake",
+    "step": 7
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "raspberry_ripple_cake_step_6",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "raspberry_ripple_cake_step_7",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Pour the raspberry puree over the batter, and swirl the mixture with a skewer to create a rippled effect.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

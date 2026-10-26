@@ -1,0 +1,93 @@
+{
+  "id": "brown_sugar_mulling_spice_mix.step_1",
+  "source": "wikibooks_brown_sugar_mulling_spice_mix",
+  "sourceRef": {
+    "source": "wikibooks_brown_sugar_mulling_spice_mix",
+    "step": 1
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "brown_sugar",
+        "amount": {
+          "qty": 180,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "cinnamon",
+        "amount": {
+          "qty": 2,
+          "unit": "tsp"
+        }
+      },
+      {
+        "ingredient": "clove",
+        "amount": {
+          "qty": 1,
+          "unit": "tsp"
+        }
+      },
+      {
+        "ingredient": "orange",
+        "amount": {
+          "qty": 1,
+          "unit": "tsp"
+        }
+      },
+      {
+        "ingredient": "allspice",
+        "amount": {
+          "qty": 1,
+          "unit": "tsp"
+        }
+      },
+      {
+        "ingredient": "nutmeg",
+        "amount": {
+          "qty": 0.5,
+          "unit": "tsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "brown_sugar_mulling_spice_mix_step_1",
+      "amount": {
+        "qty": 207.1,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Combine all ingredients in a medium bowl.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.55"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for cinnamon, clove, orange, allspice, nutmeg"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

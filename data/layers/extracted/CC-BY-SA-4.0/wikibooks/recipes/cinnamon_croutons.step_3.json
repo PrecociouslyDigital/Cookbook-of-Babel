@@ -1,0 +1,67 @@
+{
+  "id": "cinnamon_croutons.step_3",
+  "source": "wikibooks_cinnamon_croutons",
+  "sourceRef": {
+    "source": "wikibooks_cinnamon_croutons",
+    "step": 3
+  },
+  "technique": "pan_fry",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "cinnamon_croutons_step_1",
+        "amount": {
+          "qty": 52.8,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "baguette",
+        "amount": {
+          "qty": 4,
+          "unit": "slice"
+        }
+      },
+      {
+        "ingredient": "walnut",
+        "amount": {
+          "qty": 4,
+          "unit": "tbsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "cinnamon_croutons_step_3",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 185,
+    "medium": "frying_oil"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Heat the walnut oil in a frying pan. Add the bread cubes, then fry them, tossing to coat with oil.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of pan_fry's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": "lamb_shawarma.step_5",
+  "source": "wikibooks_lamb_shawarma",
+  "sourceRef": {
+    "source": "wikibooks_lamb_shawarma",
+    "step": 5
+  },
+  "technique": "grill",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "lamb_shawarma_step_4",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "lamb_shawarma",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 250,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Drain meat, pat dry, and grill until golden brown.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of grill's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "id": "steamed_buns_with_bbq_pork.step_1",
+  "source": "wikibooks_steamed_buns_with_bbq_pork",
+  "sourceRef": {
+    "source": "wikibooks_steamed_buns_with_bbq_pork",
+    "step": 1
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "pork",
+        "amount": {
+          "qty": 8,
+          "unit": "oz"
+        }
+      },
+      {
+        "ingredient": "barbecue_sauce_i",
+        "amount": {
+          "qty": 0.5,
+          "unit": "cup"
+        }
+      },
+      {
+        "ingredient": "soy_sauce",
+        "amount": {
+          "qty": 1,
+          "unit": "tbsp"
+        }
+      },
+      {
+        "ingredient": "vegetable_oil",
+        "amount": {
+          "qty": 1,
+          "unit": "tbsp"
+        }
+      },
+      {
+        "ingredient": "white_sugar",
+        "amount": {
+          "qty": 1,
+          "unit": "tbsp"
+        }
+      },
+      {
+        "ingredient": "teriyaki_sauce",
+        "amount": {
+          "qty": 1,
+          "unit": "tbsp"
+        }
+      },
+      {
+        "ingredient": "chile_paste_and_sauce",
+        "amount": {
+          "qty": 1,
+          "unit": "tsp"
+        }
+      },
+      {
+        "ingredient": "five_spice_powder",
+        "amount": {
+          "qty": 0.25,
+          "unit": "tsp"
+        }
+      },
+      {
+        "ingredient": "sesame_oil",
+        "amount": {
+          "qty": 0.25,
+          "unit": "tsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "steamed_buns_with_bbq_pork_step_1",
+      "amount": {
+        "qty": 408.3,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Place all ingredients in food processor.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.54"
+    },
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.51"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for barbecue_sauce_i, soy_sauce, teriyaki_sauce, chile_paste_and_sauce, five_spice_powder, sesame_oil"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

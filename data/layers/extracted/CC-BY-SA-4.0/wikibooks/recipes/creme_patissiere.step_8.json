@@ -1,0 +1,48 @@
+{
+  "id": "creme_patissiere.step_8",
+  "source": "wikibooks_creme_patissiere",
+  "sourceRef": {
+    "source": "wikibooks_creme_patissiere",
+    "step": 8
+  },
+  "technique": "cool",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "creme_patissiere_step_7",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "creme_patissiere",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Cover the surface with a sheet of parchment paper to prevent a skin from forming and allow to cool.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

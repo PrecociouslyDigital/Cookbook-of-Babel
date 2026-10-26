@@ -1,0 +1,58 @@
+{
+  "id": "halo_halo_filipino_layered_dessert.step_1",
+  "source": "wikibooks_halo_halo_filipino_layered_dessert",
+  "sourceRef": {
+    "source": "wikibooks_halo_halo_filipino_layered_dessert",
+    "step": 1
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "shaved_ice",
+        "amount": {
+          "qty": 1.5,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "halo_halo_filipino_layered_dessert_step_1",
+      "amount": {
+        "qty": 354.9,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Cover the bottoms of two serving bowls or glasses with a layer of shaved ice.",
+  "issues": [
+    {
+      "field": "sourceRef",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.58"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for shaved_ice"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

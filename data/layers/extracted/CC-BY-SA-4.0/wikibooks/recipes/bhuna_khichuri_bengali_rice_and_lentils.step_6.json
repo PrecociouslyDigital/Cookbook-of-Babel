@@ -1,0 +1,67 @@
+{
+  "id": "bhuna_khichuri_bengali_rice_and_lentils.step_6",
+  "source": "wikibooks_bhuna_khichuri_bengali_rice_and_lentils",
+  "sourceRef": {
+    "source": "wikibooks_bhuna_khichuri_bengali_rice_and_lentils",
+    "step": 6
+  },
+  "technique": "grind",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "bhuna_khichuri_bengali_rice_and_lentils_step_5",
+        "amount": {
+          "qty": 591.5,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "cardamom",
+        "amount": {
+          "qty": 4,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "cinnamon",
+        "amount": {
+          "qty": 2,
+          "unit": "stick"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "bhuna_khichuri_bengali_rice_and_lentils_step_6",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Semi-crush cardamom, cinnamon, and cloves.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.57"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "lumberjacks.step_6",
+  "source": "wikibooks_lumberjacks",
+  "sourceRef": {
+    "source": "wikibooks_lumberjacks",
+    "step": 6
+  },
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "lumberjacks_step_5",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "lumberjacks_step_6",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Roll the cookie dough ball into the sugar and place on a greased cookie sheet.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

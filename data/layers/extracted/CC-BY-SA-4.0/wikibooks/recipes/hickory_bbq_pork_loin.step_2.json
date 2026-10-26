@@ -1,0 +1,53 @@
+{
+  "id": "hickory_bbq_pork_loin.step_2",
+  "source": "wikibooks_hickory_bbq_pork_loin",
+  "sourceRef": {
+    "source": "wikibooks_hickory_bbq_pork_loin",
+    "step": 2
+  },
+  "technique": "separate",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "hickory_bbq_pork_loin_step_1",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "hickory_bbq_pork_loin_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Remove pork from brine. Pat dry with paper towels and set aside.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.48"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

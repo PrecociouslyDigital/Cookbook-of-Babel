@@ -1,0 +1,84 @@
+{
+  "id": "beef_stir_fry.step_2",
+  "source": "wikibooks_beef_stir_fry",
+  "sourceRef": {
+    "source": "wikibooks_beef_stir_fry",
+    "step": 2
+  },
+  "technique": "stir_fry",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "beef_stir_fry_step_1",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "beef",
+        "amount": {
+          "qty": 7,
+          "unit": "oz"
+        }
+      },
+      {
+        "ingredient": "salt",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      },
+      {
+        "ingredient": "pepper",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "beef_stir_fry_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 215,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Sprinkle the beef slices with salt and freshly ground black pepper. Add 4 slices to the hot wok and stir-fry until well browned and no longer pink. Remove and repeat with the remaining beef.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Salt, to taste': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Freshly-ground black pepper': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of stir_fry's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

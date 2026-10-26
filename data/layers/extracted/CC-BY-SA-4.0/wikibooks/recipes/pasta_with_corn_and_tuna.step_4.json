@@ -1,0 +1,48 @@
+{
+  "id": "pasta_with_corn_and_tuna.step_4",
+  "source": "wikibooks_pasta_with_corn_and_tuna",
+  "sourceRef": {
+    "source": "wikibooks_pasta_with_corn_and_tuna",
+    "step": 4
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "pasta_with_corn_and_tuna_step_3",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "pasta_with_corn_and_tuna",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Stir through, so that everything becomes well coated.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

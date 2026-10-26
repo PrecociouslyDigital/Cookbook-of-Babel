@@ -1,0 +1,48 @@
+{
+  "id": "sweet_potatoes_sauteed_with_honey.step_1",
+  "source": "wikibooks_sweet_potatoes_sauteed_with_honey",
+  "sourceRef": {
+    "source": "wikibooks_sweet_potatoes_sauteed_with_honey",
+    "step": 1
+  },
+  "technique": "chop",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "sweet_potato",
+        "amount": {
+          "qty": 1,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "sweet_potatoes_sauteed_with_honey_step_1",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Peel the sweet potato, then chop it into 1 cm (0.4 in) cubes. The pieces of sweet potato don't need to be exactly 1 cm on each side, but they should all be around that size to ensure even cooking. Discard the peel.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

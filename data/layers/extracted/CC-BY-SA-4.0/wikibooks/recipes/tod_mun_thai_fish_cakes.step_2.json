@@ -1,0 +1,60 @@
+{
+  "id": "tod_mun_thai_fish_cakes.step_2",
+  "source": "wikibooks_tod_mun_thai_fish_cakes",
+  "sourceRef": {
+    "source": "wikibooks_tod_mun_thai_fish_cakes",
+    "step": 2
+  },
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "tod_mun_thai_fish_cakes_step_1",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "green_bean",
+        "amount": {
+          "qty": 120,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "tod_mun_thai_fish_cakes_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Slice the green beans into small (½ inch) pieces.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.54"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": "spice_rub_for_chicken.step_3",
+  "source": "wikibooks_spice_rub_for_chicken",
+  "sourceRef": {
+    "source": "wikibooks_spice_rub_for_chicken",
+    "step": 3
+  },
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "spice_rub_for_chicken_step_2",
+        "amount": {
+          "qty": 221.8,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "spice_rub_for_chicken",
+      "amount": {
+        "qty": 221.8,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Let stand for a few minutes before cooking per your usual directions.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.58"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

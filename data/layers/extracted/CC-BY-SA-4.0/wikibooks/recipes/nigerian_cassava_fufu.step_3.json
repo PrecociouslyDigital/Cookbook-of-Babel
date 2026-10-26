@@ -1,0 +1,53 @@
+{
+  "id": "nigerian_cassava_fufu.step_3",
+  "source": "wikibooks_nigerian_cassava_fufu",
+  "sourceRef": {
+    "source": "wikibooks_nigerian_cassava_fufu",
+    "step": 3
+  },
+  "technique": "evaporate",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "nigerian_cassava_fufu_step_2",
+        "amount": {
+          "qty": 0.6,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "nigerian_cassava_fufu_step_3",
+      "amount": {
+        "qty": 0.6,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 100,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 10,
+      "unit": "min"
+    }
+  },
+  "stateNote": "The water will dry out after 10 minutes or longer of stirring, and the paste will thicken. Stir thoroughly until all of the whitish paste has combined and turned into a thick creamy tint.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.46"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of evaporate's typical range"
+    }
+  ]
+}

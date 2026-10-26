@@ -1,0 +1,70 @@
+{
+  "id": "homemade_tempeh.step_1",
+  "source": "wikibooks_homemade_tempeh",
+  "sourceRef": {
+    "source": "wikibooks_homemade_tempeh",
+    "step": 1
+  },
+  "technique": "rinse",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "soy_bean",
+        "amount": {
+          "qty": 400,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "water",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "homemade_tempeh_step_1",
+      "amount": {
+        "qty": 400.3,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 8,
+      "unit": "h"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Cover soybeans with water, and soak overnight or at least 12 hours.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.57"
+    },
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Water': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "'overnight' read as 8 hours"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "the step names several durations; used the first"
+    }
+  ]
+}

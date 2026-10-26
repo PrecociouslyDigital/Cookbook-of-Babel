@@ -1,0 +1,67 @@
+{
+  "id": "chargrilled_asparagus_salad.step_4",
+  "source": "wikibooks_chargrilled_asparagus_salad",
+  "sourceRef": {
+    "source": "wikibooks_chargrilled_asparagus_salad",
+    "step": 4
+  },
+  "technique": "pan_fry",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "chargrilled_asparagus_salad_step_3",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "garlic",
+        "amount": {
+          "qty": 3,
+          "unit": "clove"
+        }
+      },
+      {
+        "ingredient": "caper",
+        "amount": {
+          "qty": 3,
+          "unit": "tbsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "chargrilled_asparagus_salad_step_4",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 185,
+    "medium": "frying_oil"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 2,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Add 2 tbsp of oil to the pan, then add the garlic and drained capers to the pan and fry for 2 minutes. Then add the garlic oil to the bowl with the asparagus.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.55"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of pan_fry's typical range"
+    }
+  ]
+}

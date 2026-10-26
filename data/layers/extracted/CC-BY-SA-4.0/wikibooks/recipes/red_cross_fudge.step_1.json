@@ -1,0 +1,84 @@
+{
+  "id": "red_cross_fudge.step_1",
+  "source": "wikibooks_red_cross_fudge",
+  "sourceRef": {
+    "source": "wikibooks_red_cross_fudge",
+    "step": 1
+  },
+  "technique": "boil",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "white_sugar",
+        "amount": {
+          "qty": 1,
+          "unit": "kg"
+        }
+      },
+      {
+        "ingredient": "butter",
+        "amount": {
+          "qty": 0.5,
+          "unit": "lb"
+        }
+      },
+      {
+        "ingredient": "condensed_milk",
+        "amount": {
+          "qty": 1.5,
+          "unit": "cup"
+        }
+      },
+      {
+        "ingredient": "vanilla",
+        "amount": {
+          "qty": 1,
+          "unit": "tbsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "red_cross_fudge_step_1",
+      "amount": {
+        "qty": 1596.5,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 100,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Combine sugar, butter, evaporated milk, and vanilla in a saucepan and bring to a rolling boil.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.55"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for condensed_milk, vanilla"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of boil's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

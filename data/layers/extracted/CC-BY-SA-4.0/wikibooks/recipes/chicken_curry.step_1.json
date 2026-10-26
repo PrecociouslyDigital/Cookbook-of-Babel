@@ -1,0 +1,158 @@
+{
+  "id": "chicken_curry.step_1",
+  "source": "wikibooks_chicken_curry",
+  "sourceRef": {
+    "source": "wikibooks_chicken_curry",
+    "step": 1
+  },
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "chicken",
+        "amount": {
+          "qty": 4,
+          "unit": "lb"
+        }
+      },
+      {
+        "ingredient": "salt",
+        "amount": {
+          "qty": 1.5,
+          "unit": "tsp"
+        }
+      },
+      {
+        "ingredient": "chiles",
+        "amount": {
+          "qty": 0.5,
+          "unit": "tsp"
+        }
+      },
+      {
+        "ingredient": "turmeric",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      },
+      {
+        "ingredient": "coconut_yogurt",
+        "amount": {
+          "qty": 100,
+          "unit": "ml"
+        }
+      },
+      {
+        "ingredient": "coriander",
+        "amount": {
+          "qty": 1.5,
+          "unit": "tsp"
+        }
+      },
+      {
+        "ingredient": "garlic",
+        "amount": {
+          "qty": 0.5,
+          "unit": "tsp"
+        }
+      },
+      {
+        "ingredient": "ginger",
+        "amount": {
+          "qty": 1.5,
+          "unit": "tsp"
+        }
+      },
+      {
+        "ingredient": "chile_powder",
+        "amount": {
+          "qty": 1,
+          "unit": "tsp"
+        }
+      },
+      {
+        "ingredient": "garam_masala",
+        "amount": {
+          "qty": 1,
+          "unit": "tsp"
+        }
+      },
+      {
+        "ingredient": "paprika",
+        "amount": {
+          "qty": 1,
+          "unit": "tsp"
+        }
+      },
+      {
+        "ingredient": "cumin",
+        "amount": {
+          "qty": 1,
+          "unit": "tsp"
+        }
+      },
+      {
+        "ingredient": "cinnamon",
+        "amount": {
+          "qty": 1,
+          "unit": "tsp"
+        }
+      },
+      {
+        "ingredient": "fenugreek",
+        "amount": {
+          "qty": 1,
+          "unit": "tsp"
+        }
+      },
+      {
+        "ingredient": "curry_powder",
+        "amount": {
+          "qty": 1,
+          "unit": "tsp"
+        }
+      },
+      {
+        "ingredient": "mint",
+        "amount": {
+          "qty": 0.5,
+          "unit": "tsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "chicken_curry_step_1",
+      "amount": {
+        "qty": 1980.2,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 30,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Clean the chicken and cut into small pieces. Combine with all the marinade ingredients and mix well. Set aside for 30 minutes to let flavors seep in.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.53"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for chiles, turmeric, coconut_yogurt, coriander, garlic, ginger, chile_powder, garam_masala, paprika, cumin, cinnamon, fenugreek, curry_powder, mint"
+    }
+  ]
+}

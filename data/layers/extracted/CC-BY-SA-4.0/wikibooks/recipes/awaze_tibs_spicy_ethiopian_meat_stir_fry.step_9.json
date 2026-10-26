@@ -1,0 +1,70 @@
+{
+  "id": "awaze_tibs_spicy_ethiopian_meat_stir_fry.step_9",
+  "source": "wikibooks_awaze_tibs_spicy_ethiopian_meat_stir_fry",
+  "sourceRef": {
+    "source": "wikibooks_awaze_tibs_spicy_ethiopian_meat_stir_fry",
+    "step": 9
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "awaze_tibs_spicy_ethiopian_meat_stir_fry_step_8",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "cilantro",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "awaze_tibs_spicy_ethiopian_meat_stir_fry",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 180,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Remove the skillet from the heat and garnish the with freshly chopped cilantro.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.55"
+    },
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Fresh cilantro, chopped, for garnish': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 180.0 °C for pan_contact"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

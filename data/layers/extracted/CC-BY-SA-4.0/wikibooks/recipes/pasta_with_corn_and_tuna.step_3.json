@@ -1,0 +1,53 @@
+{
+  "id": "pasta_with_corn_and_tuna.step_3",
+  "source": "wikibooks_pasta_with_corn_and_tuna",
+  "sourceRef": {
+    "source": "wikibooks_pasta_with_corn_and_tuna",
+    "step": 3
+  },
+  "technique": "strain",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "pasta_with_corn_and_tuna_step_2",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "pasta_with_corn_and_tuna_step_3",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 100,
+    "medium": "boiling_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "When the pasta is cooked, drain through a colander and add to the bowl.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 100.0 °C for boiling_water"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

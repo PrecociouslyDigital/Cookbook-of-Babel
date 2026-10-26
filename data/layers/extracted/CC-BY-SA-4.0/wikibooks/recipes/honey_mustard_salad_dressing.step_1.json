@@ -1,0 +1,81 @@
+{
+  "id": "honey_mustard_salad_dressing.step_1",
+  "source": "wikibooks_honey_mustard_salad_dressing",
+  "sourceRef": {
+    "source": "wikibooks_honey_mustard_salad_dressing",
+    "step": 1
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "mustard",
+        "amount": {
+          "qty": 1,
+          "unit": "tbsp"
+        }
+      },
+      {
+        "ingredient": "honey",
+        "amount": {
+          "qty": 2,
+          "unit": "tbsp"
+        }
+      },
+      {
+        "ingredient": "lemon",
+        "amount": {
+          "qty": 3,
+          "unit": "tbsp"
+        }
+      },
+      {
+        "ingredient": "salt",
+        "amount": {
+          "qty": 0.5,
+          "unit": "tsp"
+        }
+      },
+      {
+        "ingredient": "pepper",
+        "amount": {
+          "qty": 0.5,
+          "unit": "tsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "honey_mustard_salad_dressing_step_1",
+      "amount": {
+        "qty": 94.2,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Combine the mustard, honey, lemon juice, salt, and pepper.",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for mustard, honey, lemon, pepper"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

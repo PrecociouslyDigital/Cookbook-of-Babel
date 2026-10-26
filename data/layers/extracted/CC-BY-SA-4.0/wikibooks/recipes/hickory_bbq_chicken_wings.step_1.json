@@ -1,0 +1,60 @@
+{
+  "id": "hickory_bbq_chicken_wings.step_1",
+  "source": "wikibooks_hickory_bbq_chicken_wings",
+  "sourceRef": {
+    "source": "wikibooks_hickory_bbq_chicken_wings",
+    "step": 1
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "kansas_city_barbecue_sauce",
+        "amount": {
+          "qty": 10,
+          "unit": "tbsp"
+        }
+      },
+      {
+        "ingredient": "liquid_smoke",
+        "amount": {
+          "qty": 0.5,
+          "unit": "tsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "hickory_bbq_chicken_wings_step_1",
+      "amount": {
+        "qty": 150.4,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Combine sauce and liquid smoke. Set aside.",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for kansas_city_barbecue_sauce, liquid_smoke"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "id": "fireweed_scones.step_2",
+  "source": "wikibooks_fireweed_scones",
+  "sourceRef": {
+    "source": "wikibooks_fireweed_scones",
+    "step": 2
+  },
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "fireweed_scones_step_1",
+        "amount": {
+          "qty": 315.4,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "butter",
+        "amount": {
+          "qty": 5,
+          "unit": "tbsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "fireweed_scones_step_2",
+      "amount": {
+        "qty": 389.3,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Cut the butter into five pieces and cut into dry ingredients until crumbly.",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for butter"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

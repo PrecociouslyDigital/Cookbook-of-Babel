@@ -1,0 +1,84 @@
+{
+  "id": "boiled_custard.step_5",
+  "source": "wikibooks_boiled_custard",
+  "sourceRef": {
+    "source": "wikibooks_boiled_custard",
+    "step": 5
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "boiled_custard_step_4",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "min": 0,
+        "max": 1,
+        "of": [
+          {
+            "ingredient": "starch",
+            "amount": {
+              "qty": 1,
+              "unit": "tbsp"
+            }
+          }
+        ]
+      },
+      {
+        "min": 0,
+        "max": 1,
+        "of": [
+          {
+            "ingredient": "water",
+            "amount": {
+              "qty": 2,
+              "unit": "tbsp"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "boiled_custard_step_5",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 90,
+    "medium": "simmering_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Optionally, mix cornstarch and water and stir into custard.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.47"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 90.0 °C for simmering_water"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

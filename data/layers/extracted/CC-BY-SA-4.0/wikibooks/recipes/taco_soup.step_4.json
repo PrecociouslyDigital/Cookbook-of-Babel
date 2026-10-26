@@ -1,0 +1,53 @@
+{
+  "id": "taco_soup.step_4",
+  "source": "wikibooks_taco_soup",
+  "sourceRef": {
+    "source": "wikibooks_taco_soup",
+    "step": 4
+  },
+  "technique": "strain",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "taco_soup_step_3",
+        "amount": {
+          "qty": 453.9,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "taco_soup_step_4",
+      "amount": {
+        "qty": 453.9,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 180,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Remove the meat from the heat, and let the excess fat drain away.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 180.0 °C for pan_contact"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

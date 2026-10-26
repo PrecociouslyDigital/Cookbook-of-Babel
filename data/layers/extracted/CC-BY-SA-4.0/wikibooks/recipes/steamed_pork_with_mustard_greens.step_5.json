@@ -1,0 +1,72 @@
+{
+  "id": "steamed_pork_with_mustard_greens.step_5",
+  "source": "wikibooks_steamed_pork_with_mustard_greens",
+  "sourceRef": {
+    "source": "wikibooks_steamed_pork_with_mustard_greens",
+    "step": 5
+  },
+  "technique": "stir_fry",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "steamed_pork_with_mustard_greens_step_4",
+        "amount": {
+          "qty": 657.4,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "vegetable_oil",
+        "amount": {
+          "qty": 2,
+          "unit": "tbsp"
+        }
+      },
+      {
+        "ingredient": "black_bean_sauce",
+        "amount": {
+          "qty": 2,
+          "unit": "tbsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "steamed_pork_with_mustard_greens_step_5",
+      "amount": {
+        "qty": 714.2,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 215,
+    "medium": "frying_oil"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Heat oil in a preheated wok or large heavy skillet over medium heat. Add black bean sauce and stir-fry for 1 minute.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.53"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for black_bean_sauce"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of stir_fry's typical range"
+    }
+  ]
+}

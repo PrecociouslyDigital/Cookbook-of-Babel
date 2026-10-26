@@ -1,0 +1,65 @@
+{
+  "id": "boiled_chicken_with_broth.step_4",
+  "source": "wikibooks_boiled_chicken_with_broth",
+  "sourceRef": {
+    "source": "wikibooks_boiled_chicken_with_broth",
+    "step": 4
+  },
+  "technique": "strain",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "boiled_chicken_with_broth_step_3",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "clarified_butter",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "boiled_chicken_with_broth",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Strain the broth.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.42"
+    },
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Clarified butter, melted': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

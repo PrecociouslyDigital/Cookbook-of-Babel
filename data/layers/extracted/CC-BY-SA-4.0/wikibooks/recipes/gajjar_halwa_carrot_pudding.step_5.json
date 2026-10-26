@@ -1,0 +1,53 @@
+{
+  "id": "gajjar_halwa_carrot_pudding.step_5",
+  "source": "wikibooks_gajjar_halwa_carrot_pudding",
+  "sourceRef": {
+    "source": "wikibooks_gajjar_halwa_carrot_pudding",
+    "step": 5
+  },
+  "technique": "evaporate",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "gajjar_halwa_carrot_pudding_step_4",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "gajjar_halwa_carrot_pudding",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 100,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Cook until the milk has mostly evaporated.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of evaporate's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

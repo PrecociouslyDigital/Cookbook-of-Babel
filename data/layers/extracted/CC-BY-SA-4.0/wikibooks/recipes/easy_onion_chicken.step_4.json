@@ -1,0 +1,62 @@
+{
+  "id": "easy_onion_chicken.step_4",
+  "source": "wikibooks_easy_onion_chicken",
+  "sourceRef": {
+    "source": "wikibooks_easy_onion_chicken",
+    "step": 4
+  },
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "easy_onion_chicken_step_2",
+        "amount": {
+          "qty": 295.8,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "egg",
+        "amount": {
+          "qty": 1,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "chicken",
+        "amount": {
+          "qty": 1.25,
+          "unit": "lb"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "easy_onion_chicken_step_4",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Cut chicken breasts into halves.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

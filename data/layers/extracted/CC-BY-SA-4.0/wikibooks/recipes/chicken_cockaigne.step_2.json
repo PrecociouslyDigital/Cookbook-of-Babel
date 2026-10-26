@@ -1,0 +1,77 @@
+{
+  "id": "chicken_cockaigne.step_2",
+  "source": "wikibooks_chicken_cockaigne",
+  "sourceRef": {
+    "source": "wikibooks_chicken_cockaigne",
+    "step": 2
+  },
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "chicken_cockaigne_step_1",
+        "amount": {
+          "qty": 0.3,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "salt",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      },
+      {
+        "ingredient": "pepper",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "chicken_cockaigne_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Season or marinate the breasts as desired. If no seasoning is desired, or if you're after a neutral chicken taste, use a sprinkle of salt and pepper.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Salt': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Black pepper': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for pepper"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

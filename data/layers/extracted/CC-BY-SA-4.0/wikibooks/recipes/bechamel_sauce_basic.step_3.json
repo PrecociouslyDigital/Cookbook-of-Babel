@@ -1,0 +1,67 @@
+{
+  "id": "bechamel_sauce_basic.step_3",
+  "source": "wikibooks_bechamel_sauce_basic",
+  "sourceRef": {
+    "source": "wikibooks_bechamel_sauce_basic",
+    "step": 3
+  },
+  "technique": "heat",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "bechamel_sauce_basic_step_2",
+        "amount": {
+          "qty": 100,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "milk",
+        "amount": {
+          "qty": 1000,
+          "unit": "ml"
+        }
+      },
+      {
+        "ingredient": "onion",
+        "amount": {
+          "qty": 1,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "bechamel_sauce_basic_step_3",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 180,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "In a separate pot, begin heating the milk. Peel the onion, but do not cut it.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 180.0 °C for pan_contact"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

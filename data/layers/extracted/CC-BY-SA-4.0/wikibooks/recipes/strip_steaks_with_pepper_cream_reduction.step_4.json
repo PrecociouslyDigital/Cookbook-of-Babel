@@ -1,0 +1,58 @@
+{
+  "id": "strip_steaks_with_pepper_cream_reduction.step_4",
+  "source": "wikibooks_strip_steaks_with_pepper_cream_reduction",
+  "sourceRef": {
+    "source": "wikibooks_strip_steaks_with_pepper_cream_reduction",
+    "step": 4
+  },
+  "technique": "separate",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "strip_steaks_with_pepper_cream_reduction_step_3",
+        "amount": {
+          "qty": 449.1,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "strip_steaks_with_pepper_cream_reduction_step_4",
+      "amount": {
+        "qty": 449.1,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 180,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Remove steaks from pan and keep warm.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.49"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 180.0 °C for pan_contact"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

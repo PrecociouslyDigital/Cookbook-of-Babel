@@ -1,0 +1,60 @@
+{
+  "id": "gravy_vegetarian.step_3",
+  "source": "wikibooks_gravy_vegetarian",
+  "sourceRef": {
+    "source": "wikibooks_gravy_vegetarian",
+    "step": 3
+  },
+  "technique": "whisk",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "gravy_vegetarian_step_2",
+        "amount": {
+          "qty": 85.8,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "milk",
+        "amount": {
+          "qty": 2,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "gravy_vegetarian_step_3",
+      "amount": {
+        "qty": 573.2,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 180,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Slowly add milk, whisking continuously to remove any lumps.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 180.0 °C for pan_contact"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

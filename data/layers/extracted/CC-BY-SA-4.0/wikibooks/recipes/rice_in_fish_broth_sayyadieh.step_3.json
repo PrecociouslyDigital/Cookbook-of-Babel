@@ -1,0 +1,65 @@
+{
+  "id": "rice_in_fish_broth_sayyadieh.step_3",
+  "source": "wikibooks_rice_in_fish_broth_sayyadieh",
+  "sourceRef": {
+    "source": "wikibooks_rice_in_fish_broth_sayyadieh",
+    "step": 3
+  },
+  "technique": "boil",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "rice_in_fish_broth_sayyadieh_step_2",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "water",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "rice_in_fish_broth_sayyadieh_step_3",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 100,
+    "medium": "boiling_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 15,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Add the head, bones and skin of the fish to the fried onions and cook with 4 cups of water in a pressure cooker for 15 minutes, or for a longer time in an open pan.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.55"
+    },
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Water': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of boil's typical range"
+    }
+  ]
+}

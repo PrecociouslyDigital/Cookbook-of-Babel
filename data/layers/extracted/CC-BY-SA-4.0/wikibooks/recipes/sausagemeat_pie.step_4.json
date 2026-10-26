@@ -1,0 +1,65 @@
+{
+  "id": "sausagemeat_pie.step_4",
+  "source": "wikibooks_sausagemeat_pie",
+  "sourceRef": {
+    "source": "wikibooks_sausagemeat_pie",
+    "step": 4
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "sausagemeat_pie_step_3",
+        "amount": {
+          "qty": 341.2,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "butter",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "sausagemeat_pie_step_4",
+      "amount": {
+        "qty": 341.5,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Roll out the larger portion and use it to line a small buttered pie dish.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Butter': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for butter"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

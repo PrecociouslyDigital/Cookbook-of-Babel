@@ -1,0 +1,69 @@
+{
+  "id": "speculaas_dutch_spiced_cookies.step_2",
+  "source": "wikibooks_speculaas_dutch_spiced_cookies",
+  "sourceRef": {
+    "source": "wikibooks_speculaas_dutch_spiced_cookies",
+    "step": 2
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "speculaas_dutch_spiced_cookies_step_1",
+        "amount": {
+          "qty": 215.8,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "wheat_flour",
+        "amount": {
+          "qty": 100,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "self_raising_flour",
+        "amount": {
+          "qty": 100,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "egg",
+        "amount": {
+          "qty": 1,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "speculaas_dutch_spiced_cookies_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Add the egg and flours, and mix into a soft dough.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "id": "chipotle_ketchup.step_1",
+  "source": "wikibooks_chipotle_ketchup",
+  "sourceRef": {
+    "source": "wikibooks_chipotle_ketchup",
+    "step": 1
+  },
+  "technique": "boil",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "tomato_paste",
+        "amount": {
+          "qty": 36,
+          "unit": "oz"
+        }
+      },
+      {
+        "ingredient": "cider_vinegar",
+        "amount": {
+          "qty": 0.75,
+          "unit": "cup"
+        }
+      },
+      {
+        "ingredient": "chipotle_pepper",
+        "amount": {
+          "qty": 5,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "salt",
+        "amount": {
+          "qty": 1,
+          "unit": "tbsp"
+        }
+      },
+      {
+        "ingredient": "onion_powder",
+        "amount": {
+          "qty": 2,
+          "unit": "tbsp"
+        }
+      },
+      {
+        "ingredient": "garlic_powder",
+        "amount": {
+          "qty": 2,
+          "unit": "tbsp"
+        }
+      },
+      {
+        "ingredient": "adobo_sauce",
+        "amount": {
+          "qty": 0.25,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "chipotle_ketchup_step_1",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 100,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 0.5,
+      "unit": "h"
+    }
+  },
+  "stateNote": "Combine all ingredients in a large saucepan and bring to a boil over high heat. Cook, stirring occasionally, for ½ hour.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of boil's typical range"
+    }
+  ]
+}

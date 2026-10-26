@@ -1,0 +1,65 @@
+{
+  "id": "sweet_potato_soup.step_3",
+  "source": "wikibooks_sweet_potato_soup",
+  "sourceRef": {
+    "source": "wikibooks_sweet_potato_soup",
+    "step": 3
+  },
+  "technique": "blend",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "sweet_potato_soup_step_2",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "lime",
+        "amount": {
+          "qty": 1,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "sweet_potato_soup_step_3",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 90,
+    "medium": "simmering_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Transfer the contents of the pot to a blender along with the lime juice, and process until smooth. You may need to work in batches. Alternatively, you can use an immersion blender.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.48"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 90.0 °C for simmering_water"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

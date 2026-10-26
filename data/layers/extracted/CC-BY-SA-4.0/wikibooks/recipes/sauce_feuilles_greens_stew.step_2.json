@@ -1,0 +1,55 @@
+{
+  "id": "sauce_feuilles_greens_stew.step_2",
+  "source": "wikibooks_sauce_feuilles_greens_stew",
+  "sourceRef": {
+    "source": "wikibooks_sauce_feuilles_greens_stew",
+    "step": 2
+  },
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "sauce_feuilles_greens_stew_step_1",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "meat",
+        "amount": {
+          "qty": 1,
+          "unit": "lb"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "sauce_feuilles_greens_stew_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "If using meat, cut it into bite-sized pieces. If using smoked fish, remove any bones and shred into smaller pieces.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

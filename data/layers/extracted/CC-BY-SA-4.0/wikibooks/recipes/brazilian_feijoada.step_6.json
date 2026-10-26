@@ -1,0 +1,53 @@
+{
+  "id": "brazilian_feijoada.step_6",
+  "source": "wikibooks_brazilian_feijoada",
+  "sourceRef": {
+    "source": "wikibooks_brazilian_feijoada",
+    "step": 6
+  },
+  "technique": "pan_fry",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "brazilian_feijoada_step_5",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "brazilian_feijoada_step_6",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 185,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 12.5,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Put the lid on, and cook all together for 10–15 minutes over medium heat, stirring occasionally.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.45"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of pan_fry's typical range"
+    }
+  ]
+}

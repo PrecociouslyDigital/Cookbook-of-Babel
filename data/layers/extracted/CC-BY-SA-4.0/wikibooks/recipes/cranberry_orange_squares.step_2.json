@@ -1,0 +1,74 @@
+{
+  "id": "cranberry_orange_squares.step_2",
+  "source": "wikibooks_cranberry_orange_squares",
+  "sourceRef": {
+    "source": "wikibooks_cranberry_orange_squares",
+    "step": 2
+  },
+  "technique": "whisk",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "oats",
+        "amount": {
+          "qty": 240,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "wheat_flour",
+        "amount": {
+          "qty": 240,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "brown_sugar",
+        "amount": {
+          "qty": 180,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "baking_soda",
+        "amount": {
+          "qty": 0.75,
+          "unit": "tsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "cranberry_orange_squares_step_2",
+      "amount": {
+        "qty": 663.7,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "In a mixing bowl, combine the rolled oats, flour, sugar, and baking soda using a whisk.",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for baking_soda"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

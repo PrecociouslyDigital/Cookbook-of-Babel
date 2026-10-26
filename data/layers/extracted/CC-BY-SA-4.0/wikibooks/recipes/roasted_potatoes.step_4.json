@@ -1,0 +1,53 @@
+{
+  "id": "roasted_potatoes.step_4",
+  "source": "wikibooks_roasted_potatoes",
+  "sourceRef": {
+    "source": "wikibooks_roasted_potatoes",
+    "step": 4
+  },
+  "technique": "roast",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "roasted_potatoes_step_3",
+        "amount": {
+          "qty": 0.3,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "roasted_potatoes",
+      "amount": {
+        "qty": 0.3,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 195,
+    "medium": "oven_air"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Roast until cooked through.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of roast's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

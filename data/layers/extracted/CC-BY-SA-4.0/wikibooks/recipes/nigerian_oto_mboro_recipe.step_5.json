@@ -1,0 +1,48 @@
+{
+  "id": "nigerian_oto_mboro_recipe.step_5",
+  "source": "wikibooks_nigerian_oto_mboro_recipe",
+  "sourceRef": {
+    "source": "wikibooks_nigerian_oto_mboro_recipe",
+    "step": 5
+  },
+  "technique": "grind",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "nigerian_oto_mboro_recipe_step_4",
+        "amount": {
+          "qty": 1.5,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "nigerian_oto_mboro_recipe_step_5",
+      "amount": {
+        "qty": 1.5,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Grind the banana(20 pieces)with a grater",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

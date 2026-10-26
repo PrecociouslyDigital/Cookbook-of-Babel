@@ -1,0 +1,74 @@
+{
+  "id": "rissoles.step_1",
+  "source": "wikibooks_rissoles",
+  "sourceRef": {
+    "source": "wikibooks_rissoles",
+    "step": 1
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "beef",
+        "amount": {
+          "qty": 1,
+          "unit": "kg"
+        }
+      },
+      {
+        "ingredient": "bread_crumbs",
+        "amount": {
+          "qty": 40,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "egg",
+        "amount": {
+          "qty": 2,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "herbs_and_spices",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "rissoles_step_1",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Place beef mince in mixing bowl with eggs, breadcrumbs and your favourite meat herbs and seasonings.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Various herbs': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

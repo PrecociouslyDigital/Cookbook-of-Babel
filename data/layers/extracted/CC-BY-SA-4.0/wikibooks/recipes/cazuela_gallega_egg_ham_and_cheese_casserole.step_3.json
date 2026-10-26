@@ -1,0 +1,55 @@
+{
+  "id": "cazuela_gallega_egg_ham_and_cheese_casserole.step_3",
+  "source": "wikibooks_cazuela_gallega_egg_ham_and_cheese_casserole",
+  "sourceRef": {
+    "source": "wikibooks_cazuela_gallega_egg_ham_and_cheese_casserole",
+    "step": 3
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "ham",
+        "amount": {
+          "qty": 2,
+          "unit": "slice"
+        }
+      },
+      {
+        "ingredient": "butter",
+        "amount": {
+          "qty": 1,
+          "unit": "tbsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "cazuela_gallega_egg_ham_and_cheese_casserole_step_3",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Place one slice of ham in the bottom of the bowl. Cut the additional slice in three strips. With each strip, cover inside walls of aluminum bowl.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

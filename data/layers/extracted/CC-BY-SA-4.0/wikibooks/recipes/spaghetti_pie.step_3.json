@@ -1,0 +1,53 @@
+{
+  "id": "spaghetti_pie.step_3",
+  "source": "wikibooks_spaghetti_pie",
+  "sourceRef": {
+    "source": "wikibooks_spaghetti_pie",
+    "step": 3
+  },
+  "technique": "boil",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "spaghetti_pie_step_2",
+        "amount": {
+          "qty": 144.6,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "spaghetti_pie_step_3",
+      "amount": {
+        "qty": 144.6,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 100,
+    "medium": "boiling_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Boil the spaghetti in water until al dente.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of boil's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

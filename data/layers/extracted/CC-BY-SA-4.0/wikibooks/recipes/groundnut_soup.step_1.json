@@ -1,0 +1,68 @@
+{
+  "id": "groundnut_soup.step_1",
+  "source": "wikibooks_groundnut_soup",
+  "sourceRef": {
+    "source": "wikibooks_groundnut_soup",
+    "step": 1
+  },
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "goat",
+        "amount": {
+          "qty": 1,
+          "unit": "lb"
+        }
+      },
+      {
+        "ingredient": "stockfish",
+        "amount": {
+          "qty": 0.5,
+          "unit": "lb"
+        }
+      },
+      {
+        "min": 0,
+        "max": 1,
+        "of": [
+          {
+            "ingredient": "dryfish",
+            "amount": {
+              "qty": 0.5,
+              "unit": "lb"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "groundnut_soup_step_1",
+      "amount": {
+        "qty": 907.2,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Wash and cut the goat meat, stockfish, and dried fish into bite-sized pieces.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

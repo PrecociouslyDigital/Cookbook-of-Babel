@@ -1,0 +1,53 @@
+{
+  "id": "nshima.step_7",
+  "source": "wikibooks_nshima",
+  "sourceRef": {
+    "source": "wikibooks_nshima",
+    "step": 7
+  },
+  "technique": "separate",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "nshima_step_6",
+        "amount": {
+          "qty": 2064.7,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "nshima",
+      "amount": {
+        "qty": 2064.7,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 180,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 10,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Remove from the stove after the 10 minutes, and using a smooth serving spoon, scoop out the Nshima, one lump at a time and transfer into your serving dish.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.32"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 180.0 °C for pan_contact"
+    }
+  ]
+}

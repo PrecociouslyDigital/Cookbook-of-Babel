@@ -1,0 +1,58 @@
+{
+  "id": "kisra_sudanese_bread.step_6",
+  "source": "wikibooks_kisra_sudanese_bread",
+  "sourceRef": {
+    "source": "wikibooks_kisra_sudanese_bread",
+    "step": 6
+  },
+  "technique": "cool",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "kisra_sudanese_bread_step_5",
+        "amount": {
+          "qty": 954.8,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "kisra_sudanese_bread",
+      "amount": {
+        "qty": 954.8,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Stack the cooked kisra on a plate or wrap them in a clean kitchen towel to keep them soft and pliable. They can be stored at room temperature for a few days or in the refrigerator for a longer shelf life.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.44"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    },
+    {
+      "field": "inputs",
+      "kind": "missing",
+      "note": "no step uses 'Vegetable oil' (p=0.98)"
+    }
+  ]
+}

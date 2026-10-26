@@ -1,0 +1,48 @@
+{
+  "id": "sour_mashed_sweet_potato.step_7",
+  "source": "wikibooks_sour_mashed_sweet_potato",
+  "sourceRef": {
+    "source": "wikibooks_sour_mashed_sweet_potato",
+    "step": 7
+  },
+  "technique": "ferment",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "sour_mashed_sweet_potato_step_6",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "sour_mashed_sweet_potato_step_7",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Fill a strong plastic bag with water, seal (knot or zip-lock) and place on top of the mash. Because the plastic bag is flexible, it will fit to the surface of the mash and exclude air, which prevents mould.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

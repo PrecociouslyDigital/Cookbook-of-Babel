@@ -1,0 +1,70 @@
+{
+  "id": "beef_burgers_with_onion.step_1",
+  "source": "wikibooks_beef_burgers_with_onion",
+  "sourceRef": {
+    "source": "wikibooks_beef_burgers_with_onion",
+    "step": 1
+  },
+  "technique": "pan_fry",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "vegetable_oil",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      },
+      {
+        "ingredient": "onion",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "beef_burgers_with_onion_step_1",
+      "amount": {
+        "qty": 0.6,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 185,
+    "medium": "frying_oil"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 5,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Heat a thin layer of vegetable oil in a frying pan. Add the onion, and fry for about 5 minutes until softened. Remove from the heat and cool.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Vegetable oil': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Onion, chopped': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for onion"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of pan_fry's typical range"
+    }
+  ]
+}

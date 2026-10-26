@@ -1,0 +1,48 @@
+{
+  "id": "date_smoothie.step_2",
+  "source": "wikibooks_date_smoothie",
+  "sourceRef": {
+    "source": "wikibooks_date_smoothie",
+    "step": 2
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "date_smoothie_step_1",
+        "amount": {
+          "qty": 0.3,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "date_smoothie_step_2",
+      "amount": {
+        "qty": 0.3,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Place the soaked dates in the blender, and add a small amount of water.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

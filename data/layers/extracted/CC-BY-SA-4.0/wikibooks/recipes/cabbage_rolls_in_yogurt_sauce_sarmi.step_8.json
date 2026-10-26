@@ -1,0 +1,53 @@
+{
+  "id": "cabbage_rolls_in_yogurt_sauce_sarmi.step_8",
+  "source": "wikibooks_cabbage_rolls_in_yogurt_sauce_sarmi",
+  "sourceRef": {
+    "source": "wikibooks_cabbage_rolls_in_yogurt_sauce_sarmi",
+    "step": 8
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "cabbage_rolls_in_yogurt_sauce_sarmi_step_7",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "cabbage_rolls_in_yogurt_sauce_sarmi",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "When rolls are done, allow to cool a bit, gently transfer to a dish, and add the yogurt mixture to coat.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.39"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

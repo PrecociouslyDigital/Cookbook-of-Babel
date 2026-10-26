@@ -1,0 +1,67 @@
+{
+  "id": "sponge_cake_ii.step_3",
+  "source": "wikibooks_sponge_cake_ii",
+  "sourceRef": {
+    "source": "wikibooks_sponge_cake_ii",
+    "step": 3
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "sponge_cake_ii_step_2",
+        "amount": {
+          "qty": 400,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "egg",
+        "amount": {
+          "qty": 200,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "vanilla",
+        "amount": {
+          "qty": 1.5,
+          "unit": "tsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "sponge_cake_ii_step_3",
+      "amount": {
+        "qty": 607.4,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Add both eggs and vanilla, and mix well.",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for vanilla"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "id": "chinese_rice_porridge_congee.step_4",
+  "source": "wikibooks_chinese_rice_porridge_congee",
+  "sourceRef": {
+    "source": "wikibooks_chinese_rice_porridge_congee",
+    "step": 4
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "chinese_rice_porridge_congee_step_3",
+        "amount": {
+          "qty": 2720.9,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "green_onion",
+        "amount": {
+          "qty": 3,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "cilantro",
+        "amount": {
+          "qty": 4,
+          "unit": "tbsp"
+        }
+      },
+      {
+        "ingredient": "sesame_seed",
+        "amount": {
+          "qty": 2,
+          "unit": "tbsp"
+        }
+      },
+      {
+        "ingredient": "ginger",
+        "amount": {
+          "qty": 30,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "chinese_rice_porridge_congee",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Finally, add the toppings according to personal preference.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.5"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

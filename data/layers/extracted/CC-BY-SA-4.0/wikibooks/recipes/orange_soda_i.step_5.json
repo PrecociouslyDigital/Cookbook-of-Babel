@@ -1,0 +1,65 @@
+{
+  "id": "orange_soda_i.step_5",
+  "source": "wikibooks_orange_soda_i",
+  "sourceRef": {
+    "source": "wikibooks_orange_soda_i",
+    "step": 5
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "orange_soda_i_step_4",
+        "amount": {
+          "qty": 1113.8,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "carbonated_water",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "orange_soda_i",
+      "amount": {
+        "qty": 1114.1,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "To make the finished syrup, mix one volume of syrup with one volume of carbonated water.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Carbonated water, as needed': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for carbonated_water"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

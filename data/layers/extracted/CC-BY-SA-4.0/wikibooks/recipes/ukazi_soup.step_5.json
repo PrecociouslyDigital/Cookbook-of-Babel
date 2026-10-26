@@ -1,0 +1,55 @@
+{
+  "id": "ukazi_soup.step_5",
+  "source": "wikibooks_ukazi_soup",
+  "sourceRef": {
+    "source": "wikibooks_ukazi_soup",
+    "step": 5
+  },
+  "technique": "simmer",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "ukazi_soup_step_4",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "afang",
+        "amount": {
+          "qty": 40,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "ukazi_soup",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 90,
+    "medium": "simmering_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 3,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Stir in the okazi leaf, and cook for 3 minutes.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of simmer's typical range"
+    }
+  ]
+}

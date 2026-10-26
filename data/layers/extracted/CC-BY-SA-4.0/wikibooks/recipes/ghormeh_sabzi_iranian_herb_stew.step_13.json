@@ -1,0 +1,88 @@
+{
+  "id": "ghormeh_sabzi_iranian_herb_stew.step_13",
+  "source": "wikibooks_ghormeh_sabzi_iranian_herb_stew",
+  "sourceRef": {
+    "source": "wikibooks_ghormeh_sabzi_iranian_herb_stew",
+    "step": 13
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "ghormeh_sabzi_iranian_herb_stew_step_12",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "saffron",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      },
+      {
+        "min": 0,
+        "max": 1,
+        "of": [
+          {
+            "ingredient": "white_sugar",
+            "amount": {
+              "qty": 1,
+              "unit": "pinch"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "ghormeh_sabzi_iranian_herb_stew",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 100,
+    "medium": "boiling_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Grind the saffron and sugar together in a mortar. Add about 1 tablespoon boiling water. Toss some of the cooked rice with the saffron water to color it.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.47"
+    },
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Saffron': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Sugar (optional)': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 100.0 °C for boiling_water"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

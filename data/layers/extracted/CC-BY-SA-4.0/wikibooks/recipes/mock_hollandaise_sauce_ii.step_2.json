@@ -1,0 +1,62 @@
+{
+  "id": "mock_hollandaise_sauce_ii.step_2",
+  "source": "wikibooks_mock_hollandaise_sauce_ii",
+  "sourceRef": {
+    "source": "wikibooks_mock_hollandaise_sauce_ii",
+    "step": 2
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "mock_hollandaise_sauce_ii_step_1",
+        "amount": {
+          "qty": 200,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "cream",
+        "amount": {
+          "qty": 200,
+          "unit": "ml"
+        }
+      },
+      {
+        "ingredient": "egg",
+        "amount": {
+          "qty": 7,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "mock_hollandaise_sauce_ii_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Add the cream and the egg yolks.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

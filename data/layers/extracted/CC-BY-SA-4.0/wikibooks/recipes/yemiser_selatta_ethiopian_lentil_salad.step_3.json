@@ -1,0 +1,88 @@
+{
+  "id": "yemiser_selatta_ethiopian_lentil_salad.step_3",
+  "source": "wikibooks_yemiser_selatta_ethiopian_lentil_salad",
+  "sourceRef": {
+    "source": "wikibooks_yemiser_selatta_ethiopian_lentil_salad",
+    "step": 3
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "yemiser_selatta_ethiopian_lentil_salad_step_2",
+        "amount": {
+          "qty": 712.8,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "tomato",
+        "amount": {
+          "qty": 1,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "onion",
+        "amount": {
+          "qty": 1,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "cucumber",
+        "amount": {
+          "qty": 1,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "parsley",
+        "amount": {
+          "qty": 0.5,
+          "unit": "cup"
+        }
+      },
+      {
+        "ingredient": "mint",
+        "amount": {
+          "qty": 0.25,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "yemiser_selatta_ethiopian_lentil_salad_step_3",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "In a mixing bowl, combine the cooked lentils, diced tomato, chopped red onion, diced cucumber, chopped parsley, and chopped mint.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.51"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

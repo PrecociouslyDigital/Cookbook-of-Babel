@@ -1,0 +1,80 @@
+{
+  "id": "maffe_west_african_peanut_stew_iii.step_3",
+  "source": "wikibooks_maffe_west_african_peanut_stew_iii",
+  "sourceRef": {
+    "source": "wikibooks_maffe_west_african_peanut_stew_iii",
+    "step": 3
+  },
+  "technique": "blend",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "maffe_west_african_peanut_stew_iii_step_2",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "pepper",
+        "amount": {
+          "qty": 1,
+          "unit": "tsp"
+        }
+      },
+      {
+        "ingredient": "tomato_paste",
+        "amount": {
+          "qty": 2,
+          "unit": "tbsp"
+        }
+      },
+      {
+        "min": 0,
+        "max": 1,
+        "of": [
+          {
+            "ingredient": "garlic",
+            "amount": {
+              "qty": 1,
+              "unit": "pinch"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "maffe_west_african_peanut_stew_iii_step_3",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Blend together the tomato, pepper, and garlic until smooth.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Garlic (optional)': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

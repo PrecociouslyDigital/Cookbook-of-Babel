@@ -1,0 +1,48 @@
+{
+  "id": "malawach_flaky_flatbread.step_8",
+  "source": "wikibooks_malawach_flaky_flatbread",
+  "sourceRef": {
+    "source": "wikibooks_malawach_flaky_flatbread",
+    "step": 8
+  },
+  "technique": "ferment",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "malawach_flaky_flatbread_step_7",
+        "amount": {
+          "qty": 1920,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "malawach_flaky_flatbread_step_8",
+      "amount": {
+        "qty": 1920,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Allow the dough to rest once more while covered until it rises.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

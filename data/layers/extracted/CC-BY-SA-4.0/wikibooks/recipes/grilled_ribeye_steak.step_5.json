@@ -1,0 +1,48 @@
+{
+  "id": "grilled_ribeye_steak.step_5",
+  "source": "wikibooks_grilled_ribeye_steak",
+  "sourceRef": {
+    "source": "wikibooks_grilled_ribeye_steak",
+    "step": 5
+  },
+  "technique": "grill",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "grilled_ribeye_steak_step_3",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "grilled_ribeye_steak_step_5",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 250,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 2.5,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Place steaks on grill and cook 2–3 minutes per side.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of grill's typical range"
+    }
+  ]
+}

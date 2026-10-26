@@ -1,0 +1,53 @@
+{
+  "id": "quick_sparkling_lemonade.step_1",
+  "source": "wikibooks_quick_sparkling_lemonade",
+  "sourceRef": {
+    "source": "wikibooks_quick_sparkling_lemonade",
+    "step": 1
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "carbonated_water",
+        "amount": {
+          "qty": 7,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "quick_sparkling_lemonade_step_1",
+      "amount": {
+        "qty": 1656.2,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Pour the carbonated water into a 2-quart pitcher.",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for carbonated_water"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

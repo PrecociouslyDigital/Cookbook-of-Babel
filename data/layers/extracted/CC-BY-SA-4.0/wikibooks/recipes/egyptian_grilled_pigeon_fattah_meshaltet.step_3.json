@@ -1,0 +1,53 @@
+{
+  "id": "egyptian_grilled_pigeon_fattah_meshaltet.step_3",
+  "source": "wikibooks_egyptian_grilled_pigeon_fattah_meshaltet",
+  "sourceRef": {
+    "source": "wikibooks_egyptian_grilled_pigeon_fattah_meshaltet",
+    "step": 3
+  },
+  "technique": "chill",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "egyptian_grilled_pigeon_fattah_meshaltet_step_2",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "egyptian_grilled_pigeon_fattah_meshaltet_step_3",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 2,
+      "unit": "h"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Cover the bowl with plastic wrap and let the pigeons marinate in the refrigerator for at least 2 hours or overnight to allow the flavors to penetrate the meat.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.56"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "the step names several durations; used the first"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "id": "nanaimo_bars_i.step_2",
+  "source": "wikibooks_nanaimo_bars_i",
+  "sourceRef": {
+    "source": "wikibooks_nanaimo_bars_i",
+    "step": 2
+  },
+  "technique": "coagulate",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "nanaimo_bars_i_step_1",
+        "amount": {
+          "qty": 242.5,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "egg",
+        "amount": {
+          "qty": 1,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "nanaimo_bars_i_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 90,
+    "medium": "simmering_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Add egg and stir to cook and thicken.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.35"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 90.0 °C for simmering_water"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

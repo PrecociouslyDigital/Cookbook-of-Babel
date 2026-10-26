@@ -1,0 +1,77 @@
+{
+  "id": "lamington.step_3",
+  "source": "wikibooks_lamington",
+  "sourceRef": {
+    "source": "wikibooks_lamington",
+    "step": 3
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "lamington_step_1",
+        "amount": {
+          "qty": 0.3,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "frosting_and_icing",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      },
+      {
+        "ingredient": "coconut",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "lamington_step_3",
+      "amount": {
+        "qty": 0.9,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Dip the sponge cake cubes into chocolate icing.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Chocolate icing': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Dessicated coconut': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for frosting_and_icing, coconut"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

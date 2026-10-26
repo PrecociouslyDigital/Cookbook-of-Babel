@@ -1,0 +1,67 @@
+{
+  "id": "maitorieska_finnish_barley_flatbread.step_2",
+  "source": "wikibooks_maitorieska_finnish_barley_flatbread",
+  "sourceRef": {
+    "source": "wikibooks_maitorieska_finnish_barley_flatbread",
+    "step": 2
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "milk",
+        "amount": {
+          "qty": 250,
+          "unit": "ml"
+        }
+      },
+      {
+        "ingredient": "salt",
+        "amount": {
+          "qty": 0.3333333333333333,
+          "unit": "tsp"
+        }
+      },
+      {
+        "ingredient": "barley",
+        "amount": {
+          "qty": 290,
+          "unit": "ml"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "maitorieska_finnish_barley_flatbread_step_2",
+      "amount": {
+        "qty": 549.5,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Combine milk and salt, and add flour. Mix the ingredients well to make a dough.",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for barley"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

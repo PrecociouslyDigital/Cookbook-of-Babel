@@ -1,0 +1,116 @@
+{
+  "id": "haggis.step_3",
+  "source": "wikibooks_haggis",
+  "sourceRef": {
+    "source": "wikibooks_haggis",
+    "step": 3
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "haggis_step_2",
+        "amount": {
+          "qty": 1134,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "onion",
+        "amount": {
+          "qty": 1.5,
+          "unit": "cup"
+        }
+      },
+      {
+        "ingredient": "whiskey",
+        "amount": {
+          "qty": 4,
+          "unit": "tbsp"
+        }
+      },
+      {
+        "ingredient": "eggnog",
+        "amount": {
+          "qty": 1,
+          "unit": "tbsp"
+        }
+      },
+      {
+        "ingredient": "oatmeal",
+        "amount": {
+          "qty": 2,
+          "unit": "cup"
+        }
+      },
+      {
+        "ingredient": "salt",
+        "amount": {
+          "qty": 2,
+          "unit": "tsp"
+        }
+      },
+      {
+        "ingredient": "freshly_ground_black_pepper",
+        "amount": {
+          "qty": 0.5,
+          "unit": "tsp"
+        }
+      },
+      {
+        "ingredient": "thyme",
+        "amount": {
+          "qty": 1,
+          "unit": "tsp"
+        }
+      },
+      {
+        "ingredient": "rosemary",
+        "amount": {
+          "qty": 0.5,
+          "unit": "tsp"
+        }
+      },
+      {
+        "ingredient": "freshly_grated_nutmeg",
+        "amount": {
+          "qty": 0.25,
+          "unit": "tsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "haggis_step_3",
+      "amount": {
+        "qty": 2059,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "In a large bowl mix all of the ingredients except for the beef caps, vinegar, and salt for soaking. Mix well and set aside.",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for onion, whiskey, eggnog, oatmeal, freshly_ground_black_pepper, thyme, rosemary, freshly_grated_nutmeg"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

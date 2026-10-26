@@ -1,0 +1,48 @@
+{
+  "id": "steak_and_wine_pie.step_2",
+  "source": "wikibooks_steak_and_wine_pie",
+  "sourceRef": {
+    "source": "wikibooks_steak_and_wine_pie",
+    "step": 2
+  },
+  "technique": "knead",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "steak_and_wine_pie_step_1",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "steak_and_wine_pie_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Dust a work surface and the dough ball with a little flour to prevent sticking. Flatten dough with a rolling pin until it forms a thin disk large enough to be draped over the pie plate or bowl.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": "skillet_lasagna.step_8",
+  "source": "wikibooks_skillet_lasagna",
+  "sourceRef": {
+    "source": "wikibooks_skillet_lasagna",
+    "step": 8
+  },
+  "technique": "heat",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "skillet_lasagna_step_7",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "skillet_lasagna_step_8",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 180,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 5,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Cover and let stand under low heat for 5 minutes.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.52"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 180.0 °C for pan_contact"
+    }
+  ]
+}

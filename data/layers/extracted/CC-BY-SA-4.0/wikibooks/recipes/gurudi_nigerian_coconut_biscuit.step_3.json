@@ -1,0 +1,48 @@
+{
+  "id": "gurudi_nigerian_coconut_biscuit.step_3",
+  "source": "wikibooks_gurudi_nigerian_coconut_biscuit",
+  "sourceRef": {
+    "source": "wikibooks_gurudi_nigerian_coconut_biscuit",
+    "step": 3
+  },
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "gurudi_nigerian_coconut_biscuit_step_2",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "gurudi_nigerian_coconut_biscuit_step_3",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Roll out the dough until thin. Cut out square biscuits, and transfer them to a buttered baking tray.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

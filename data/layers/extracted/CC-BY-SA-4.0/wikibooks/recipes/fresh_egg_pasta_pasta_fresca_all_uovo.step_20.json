@@ -1,0 +1,48 @@
+{
+  "id": "fresh_egg_pasta_pasta_fresca_all_uovo.step_20",
+  "source": "wikibooks_fresh_egg_pasta_pasta_fresca_all_uovo",
+  "sourceRef": {
+    "source": "wikibooks_fresh_egg_pasta_pasta_fresca_all_uovo",
+    "step": 20
+  },
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "fresh_egg_pasta_pasta_fresca_all_uovo_step_19",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "fresh_egg_pasta_pasta_fresca_all_uovo_step_20",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Use the appropriate attachment to cut the pasta into strips.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

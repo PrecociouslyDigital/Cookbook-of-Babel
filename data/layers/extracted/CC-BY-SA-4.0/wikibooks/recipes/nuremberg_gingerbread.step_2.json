@@ -1,0 +1,55 @@
+{
+  "id": "nuremberg_gingerbread.step_2",
+  "source": "wikibooks_nuremberg_gingerbread",
+  "sourceRef": {
+    "source": "wikibooks_nuremberg_gingerbread",
+    "step": 2
+  },
+  "technique": "strain",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "nuremberg_gingerbread_step_1",
+        "amount": {
+          "qty": 750,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "wheat_flour",
+        "amount": {
+          "qty": 150,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "nuremberg_gingerbread_step_2",
+      "amount": {
+        "qty": 900,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Sift the flour into a bowl.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "id": "pear_cranberry_crisp.step_2",
+  "source": "wikibooks_pear_cranberry_crisp",
+  "sourceRef": {
+    "source": "wikibooks_pear_cranberry_crisp",
+    "step": 2
+  },
+  "technique": "blend",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "pear",
+        "amount": {
+          "qty": 2.5,
+          "unit": "lb"
+        }
+      },
+      {
+        "ingredient": "cranberry",
+        "amount": {
+          "qty": 12,
+          "unit": "oz"
+        }
+      },
+      {
+        "ingredient": "white_sugar",
+        "amount": {
+          "qty": 0.3333333333333333,
+          "unit": "cup"
+        }
+      },
+      {
+        "ingredient": "cinnamon",
+        "amount": {
+          "qty": 0.5,
+          "unit": "tsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "pear_cranberry_crisp_step_2",
+      "amount": {
+        "qty": 1543.7,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Toss pears, cranberries, sugar, and ¼ teaspoon cinnamon in a 9x9-inch baking dish until blended.",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for cinnamon"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

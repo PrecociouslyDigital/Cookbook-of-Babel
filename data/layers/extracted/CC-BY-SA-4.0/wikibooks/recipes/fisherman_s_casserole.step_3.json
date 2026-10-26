@@ -1,0 +1,95 @@
+{
+  "id": "fisherman_s_casserole.step_3",
+  "source": "wikibooks_fisherman_s_casserole",
+  "sourceRef": {
+    "source": "wikibooks_fisherman_s_casserole",
+    "step": 3
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "fisherman_s_casserole_step_2",
+        "amount": {
+          "qty": 226.8,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "cheddar_cheese",
+        "amount": {
+          "qty": 0.5,
+          "unit": "lb"
+        }
+      },
+      {
+        "ingredient": "milk",
+        "amount": {
+          "qty": 0.6666666666666666,
+          "unit": "cup"
+        }
+      },
+      {
+        "ingredient": "mustard",
+        "amount": {
+          "qty": 0.5,
+          "unit": "tsp"
+        }
+      },
+      {
+        "ingredient": "onion",
+        "amount": {
+          "qty": 0.5,
+          "unit": "cup"
+        }
+      },
+      {
+        "ingredient": "celery",
+        "amount": {
+          "qty": 10.75,
+          "unit": "oz"
+        }
+      },
+      {
+        "ingredient": "salt",
+        "amount": {
+          "qty": 1,
+          "unit": "tsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "fisherman_s_casserole_step_3",
+      "amount": {
+        "qty": 1047.5,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "In a large bowl, combine cheese, macaroni, milk, dry mustard, onion, soup, and salt.",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for mustard, onion"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

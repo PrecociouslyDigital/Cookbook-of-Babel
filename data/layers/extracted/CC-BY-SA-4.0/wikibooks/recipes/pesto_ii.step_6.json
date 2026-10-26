@@ -1,0 +1,60 @@
+{
+  "id": "pesto_ii.step_6",
+  "source": "wikibooks_pesto_ii",
+  "sourceRef": {
+    "source": "wikibooks_pesto_ii",
+    "step": 6
+  },
+  "technique": "blend",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "pesto_ii_step_5",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "parmesan_cheese",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "pesto_ii",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Once you begin to run out of basil leaves and nuts, add a handful of Parmesan cheese (though not too much; remember the taste should be predominantly of basil). The end result should be a wondrous smelling, glutinous mass of green, which should be then emptied out of the blender into its own container.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Freshly grated Parmesan cheese (not Pecorino)': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

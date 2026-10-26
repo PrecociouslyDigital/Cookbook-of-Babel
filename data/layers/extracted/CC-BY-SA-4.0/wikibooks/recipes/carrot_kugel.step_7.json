@@ -1,0 +1,48 @@
+{
+  "id": "carrot_kugel.step_7",
+  "source": "wikibooks_carrot_kugel",
+  "sourceRef": {
+    "source": "wikibooks_carrot_kugel",
+    "step": 7
+  },
+  "technique": "fold",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "carrot_kugel_step_6",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "carrot_kugel_step_7",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Whip the egg whites until they are very stiff, and fold into carrot mixture.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

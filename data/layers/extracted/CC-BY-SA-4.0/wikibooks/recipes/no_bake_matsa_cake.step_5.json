@@ -1,0 +1,48 @@
+{
+  "id": "no_bake_matsa_cake.step_5",
+  "source": "wikibooks_no_bake_matsa_cake",
+  "sourceRef": {
+    "source": "wikibooks_no_bake_matsa_cake",
+    "step": 5
+  },
+  "technique": "chill",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "no_bake_matsa_cake_step_4",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "no_bake_matsa_cake",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Refrigerate for several hours.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

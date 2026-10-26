@@ -1,0 +1,55 @@
+{
+  "id": "almond_toffee_blondies.step_3",
+  "source": "wikibooks_almond_toffee_blondies",
+  "sourceRef": {
+    "source": "wikibooks_almond_toffee_blondies",
+    "step": 3
+  },
+  "technique": "blend",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "almond_toffee_blondies_step_2",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "almond",
+        "amount": {
+          "qty": 240,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "almond_toffee_blondies_step_3",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Blend in dry ingredients. Stir in chopped almond toffee.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

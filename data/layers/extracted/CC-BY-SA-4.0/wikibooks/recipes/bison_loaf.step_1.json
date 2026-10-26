@@ -1,0 +1,117 @@
+{
+  "id": "bison_loaf.step_1",
+  "source": "wikibooks_bison_loaf",
+  "sourceRef": {
+    "source": "wikibooks_bison_loaf",
+    "step": 1
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "bison",
+        "amount": {
+          "qty": 2,
+          "unit": "lb"
+        }
+      },
+      {
+        "ingredient": "bread_crumbs",
+        "amount": {
+          "qty": 1.5,
+          "unit": "cup"
+        }
+      },
+      {
+        "ingredient": "egg",
+        "amount": {
+          "qty": 1,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "milk",
+        "amount": {
+          "qty": 0.5,
+          "unit": "cup"
+        }
+      },
+      {
+        "ingredient": "onion",
+        "amount": {
+          "qty": 0.5,
+          "unit": "cup"
+        }
+      },
+      {
+        "ingredient": "green_pepper",
+        "amount": {
+          "qty": 0.5,
+          "unit": "piece"
+        }
+      },
+      {
+        "min": 0,
+        "max": 1,
+        "of": [
+          {
+            "ingredient": "worcestershire_sauce",
+            "amount": {
+              "qty": 2,
+              "unit": "tsp"
+            }
+          }
+        ]
+      },
+      {
+        "ingredient": "garlic_powder",
+        "amount": {
+          "qty": 1,
+          "unit": "tsp"
+        }
+      },
+      {
+        "ingredient": "salt",
+        "amount": {
+          "qty": 0.5,
+          "unit": "tsp"
+        }
+      },
+      {
+        "ingredient": "pepper",
+        "amount": {
+          "qty": 0.5,
+          "unit": "tsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "bison_loaf_step_1",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "In a large bowl, mix all ingredients together.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

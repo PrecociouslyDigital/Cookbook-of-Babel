@@ -1,0 +1,48 @@
+{
+  "id": "christmas_cake.step_2",
+  "source": "wikibooks_christmas_cake",
+  "sourceRef": {
+    "source": "wikibooks_christmas_cake",
+    "step": 2
+  },
+  "technique": "age",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "christmas_cake_step_1",
+        "amount": {
+          "qty": 2050,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "christmas_cake_step_2",
+      "amount": {
+        "qty": 2050,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Cover the bowl in foil and leave in a cool place.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

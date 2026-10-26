@@ -1,0 +1,48 @@
+{
+  "id": "mpt_mozzarella_pasta_with_tomato_and_basil.step_5",
+  "source": "wikibooks_mpt_mozzarella_pasta_with_tomato_and_basil",
+  "sourceRef": {
+    "source": "wikibooks_mpt_mozzarella_pasta_with_tomato_and_basil",
+    "step": 5
+  },
+  "technique": "age",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "mpt_mozzarella_pasta_with_tomato_and_basil_step_4",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "mpt_mozzarella_pasta_with_tomato_and_basil_step_5",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 30,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Let rest for at least 30 minutes.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.49"
+    }
+  ]
+}

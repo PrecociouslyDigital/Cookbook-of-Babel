@@ -1,0 +1,48 @@
+{
+  "id": "vanilla_ice_cream_custard_based.step_6",
+  "source": "wikibooks_vanilla_ice_cream_custard_based",
+  "sourceRef": {
+    "source": "wikibooks_vanilla_ice_cream_custard_based",
+    "step": 6
+  },
+  "technique": "chill",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "vanilla_ice_cream_custard_based_step_5",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "vanilla_ice_cream_custard_based_step_6",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Stir occasionally, then chill in the fridge.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": "surinamese_chicken_pot_pie_pastei.step_7",
+  "source": "wikibooks_surinamese_chicken_pot_pie_pastei",
+  "sourceRef": {
+    "source": "wikibooks_surinamese_chicken_pot_pie_pastei",
+    "step": 7
+  },
+  "technique": "separate",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "surinamese_chicken_pot_pie_pastei_step_6",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "surinamese_chicken_pot_pie_pastei_step_7",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Remove the chicken, and strip it into little pieces, discarding the bones.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.44"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

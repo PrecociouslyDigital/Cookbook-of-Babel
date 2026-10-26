@@ -1,0 +1,77 @@
+{
+  "id": "gingerbread_pancakes_i.step_4",
+  "source": "wikibooks_gingerbread_pancakes_i",
+  "sourceRef": {
+    "source": "wikibooks_gingerbread_pancakes_i",
+    "step": 4
+  },
+  "technique": "heat",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "gingerbread_pancakes_i_step_3",
+        "amount": {
+          "qty": 142.3,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "buttermilk",
+        "amount": {
+          "qty": 0.75,
+          "unit": "cup"
+        }
+      },
+      {
+        "ingredient": "milk",
+        "amount": {
+          "qty": 0.25,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "gingerbread_pancakes_i_step_4",
+      "amount": {
+        "qty": 380.7,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 20,
+    "medium": "still_air"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Combine buttermilk and milk, and bring to room temperature by microwaving or heating gently on the stove.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.43"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for buttermilk"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 20.0 °C for still_air"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

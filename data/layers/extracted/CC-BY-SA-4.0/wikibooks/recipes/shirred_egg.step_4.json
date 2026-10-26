@@ -1,0 +1,94 @@
+{
+  "id": "shirred_egg.step_4",
+  "source": "wikibooks_shirred_egg",
+  "sourceRef": {
+    "source": "wikibooks_shirred_egg",
+    "step": 4
+  },
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "shirred_egg_step_3",
+        "amount": {
+          "qty": 1.3,
+          "unit": "g"
+        }
+      },
+      {
+        "min": 0,
+        "max": 1,
+        "of": [
+          {
+            "ingredient": "cheese",
+            "amount": {
+              "qty": 1,
+              "unit": "pinch"
+            }
+          }
+        ]
+      },
+      {
+        "min": 0,
+        "max": 1,
+        "of": [
+          {
+            "ingredient": "bread_crumbs",
+            "amount": {
+              "qty": 1,
+              "unit": "pinch"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "shirred_egg_step_4",
+      "amount": {
+        "qty": 1.9,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Optionally, sprinkle with shredded cheese and/or bread crumbs.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.5"
+    },
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Cheese (optional)': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Bread crumbs (optional)': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for cheese, bread_crumbs"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

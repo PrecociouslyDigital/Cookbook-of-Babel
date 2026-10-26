@@ -1,0 +1,48 @@
+{
+  "id": "tofu_in_spiced_coconut_sauce.step_1",
+  "source": "wikibooks_tofu_in_spiced_coconut_sauce",
+  "sourceRef": {
+    "source": "wikibooks_tofu_in_spiced_coconut_sauce",
+    "step": 1
+  },
+  "technique": "separate",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "cardamom",
+        "amount": {
+          "qty": 7,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "tofu_in_spiced_coconut_sauce_step_1",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Crack open the cardamom pods. Reserve the seeds; discard the shells.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

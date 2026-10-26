@@ -1,0 +1,65 @@
+{
+  "id": "frog_s_legs_a_la_parisienne.step_2",
+  "source": "wikibooks_frog_s_legs_a_la_parisienne",
+  "sourceRef": {
+    "source": "wikibooks_frog_s_legs_a_la_parisienne",
+    "step": 2
+  },
+  "technique": "toast",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "frog_s_legs_a_la_parisienne_step_1",
+        "amount": {
+          "qty": 29.6,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "wheat_flour",
+        "amount": {
+          "qty": 2,
+          "unit": "tbsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "frog_s_legs_a_la_parisienne_step_2",
+      "amount": {
+        "qty": 45.3,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 185,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Stir flour into melted butter. Cook for a few minutes, stirring, until the mixture loses its floury taste. Do not let the mixture brown.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.3"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of toast's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

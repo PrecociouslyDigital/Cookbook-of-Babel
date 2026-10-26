@@ -1,0 +1,79 @@
+{
+  "id": "latino_scramble.step_5",
+  "source": "wikibooks_latino_scramble",
+  "sourceRef": {
+    "source": "wikibooks_latino_scramble",
+    "step": 5
+  },
+  "technique": "whisk",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "latino_scramble_step_4",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "egg",
+        "amount": {
+          "qty": 6,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "mozzarella_cheese",
+        "amount": {
+          "qty": 100,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "ketchup",
+        "amount": {
+          "qty": 1,
+          "unit": "tbsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "latino_scramble_step_5",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 180,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Beat the eggs with ketchup, and add to frying pan. Immediately add mozzarella cheese.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.53"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 180.0 °C for pan_contact"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

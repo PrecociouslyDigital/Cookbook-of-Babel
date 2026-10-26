@@ -1,0 +1,48 @@
+{
+  "id": "albanian_vegetable_pie.step_3",
+  "source": "wikibooks_albanian_vegetable_pie",
+  "sourceRef": {
+    "source": "wikibooks_albanian_vegetable_pie",
+    "step": 3
+  },
+  "technique": "fold",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "albanian_vegetable_pie_step_2",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "albanian_vegetable_pie_step_3",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Roll the hanging edges of the bottom leaves over the pie (think of a pizza crust).",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

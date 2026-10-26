@@ -1,0 +1,65 @@
+{
+  "id": "cheese_puffs_pao_de_queijo.step_1",
+  "source": "wikibooks_cheese_puffs_pao_de_queijo",
+  "sourceRef": {
+    "source": "wikibooks_cheese_puffs_pao_de_queijo",
+    "step": 1
+  },
+  "technique": "boil",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "milk",
+        "amount": {
+          "qty": 0.6666666666666666,
+          "unit": "cup"
+        }
+      },
+      {
+        "ingredient": "oil_and_fat",
+        "amount": {
+          "qty": 0.3333333333333333,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "cheese_puffs_pao_de_queijo_step_1",
+      "amount": {
+        "qty": 241.3,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 100,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Mix the milk and oil together in a saucepan, and boil until a white foam appears.",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for oil_and_fat"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of boil's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

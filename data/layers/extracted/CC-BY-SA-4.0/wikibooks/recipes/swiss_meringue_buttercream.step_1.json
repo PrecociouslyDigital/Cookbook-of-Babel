@@ -1,0 +1,55 @@
+{
+  "id": "swiss_meringue_buttercream.step_1",
+  "source": "wikibooks_swiss_meringue_buttercream",
+  "sourceRef": {
+    "source": "wikibooks_swiss_meringue_buttercream",
+    "step": 1
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "egg_white",
+        "amount": {
+          "qty": 4,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "white_sugar",
+        "amount": {
+          "qty": 300,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "swiss_meringue_buttercream_step_1",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Combine the egg whites and sugar in a heat-proof bowl.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

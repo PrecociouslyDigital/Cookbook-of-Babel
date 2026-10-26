@@ -1,0 +1,60 @@
+{
+  "id": "mpt_mozzarella_pasta_with_tomato_and_basil.step_3",
+  "source": "wikibooks_mpt_mozzarella_pasta_with_tomato_and_basil",
+  "sourceRef": {
+    "source": "wikibooks_mpt_mozzarella_pasta_with_tomato_and_basil",
+    "step": 3
+  },
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "mpt_mozzarella_pasta_with_tomato_and_basil_step_2",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "olive_oil",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "mpt_mozzarella_pasta_with_tomato_and_basil_step_3",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Drizzle on lots of extra virgin olive oil (at least 3 tablespoons).",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Olive oil': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

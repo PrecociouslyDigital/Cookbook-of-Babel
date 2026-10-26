@@ -1,0 +1,58 @@
+{
+  "id": "chocolate_truffles.step_2",
+  "source": "wikibooks_chocolate_truffles",
+  "sourceRef": {
+    "source": "wikibooks_chocolate_truffles",
+    "step": 2
+  },
+  "technique": "heat",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "chocolate_truffles_step_1",
+        "amount": {
+          "qty": 226.8,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "chocolate_truffles_step_2",
+      "amount": {
+        "qty": 226.8,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 100,
+    "medium": "steam"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Heat until melted and smooth, stirring occasionally.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.53"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 100.0 °C for steam"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

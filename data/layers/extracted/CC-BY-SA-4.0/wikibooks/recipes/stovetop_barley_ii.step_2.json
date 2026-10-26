@@ -1,0 +1,89 @@
+{
+  "id": "stovetop_barley_ii.step_2",
+  "source": "wikibooks_stovetop_barley_ii",
+  "sourceRef": {
+    "source": "wikibooks_stovetop_barley_ii",
+    "step": 2
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "stovetop_barley_ii_step_1",
+        "amount": {
+          "qty": 0.6,
+          "unit": "g"
+        }
+      },
+      {
+        "min": 0,
+        "max": 1,
+        "of": [
+          {
+            "ingredient": "salt",
+            "amount": {
+              "qty": 1,
+              "unit": "pinch"
+            }
+          }
+        ]
+      },
+      {
+        "min": 0,
+        "max": 1,
+        "of": [
+          {
+            "ingredient": "vegetable_oil",
+            "amount": {
+              "qty": 1,
+              "unit": "pinch"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "stovetop_barley_ii_step_2",
+      "amount": {
+        "qty": 1.3,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Place the barley in a pot, and add enough water to cover the barley by several inches. Add salt and oil.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.49"
+    },
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Salt (optional)': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Neutral cooking oil (optional, to reduce foaming)': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

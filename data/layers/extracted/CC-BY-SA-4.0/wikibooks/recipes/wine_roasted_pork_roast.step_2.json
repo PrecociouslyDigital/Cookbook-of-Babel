@@ -1,0 +1,67 @@
+{
+  "id": "wine_roasted_pork_roast.step_2",
+  "source": "wikibooks_wine_roasted_pork_roast",
+  "sourceRef": {
+    "source": "wikibooks_wine_roasted_pork_roast",
+    "step": 2
+  },
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "olive_oil",
+        "amount": {
+          "qty": 2,
+          "unit": "tbsp"
+        }
+      },
+      {
+        "ingredient": "montreal_steak_seasoning",
+        "amount": {
+          "qty": 2,
+          "unit": "tbsp"
+        }
+      },
+      {
+        "ingredient": "pork",
+        "amount": {
+          "qty": 4.5,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "wine_roasted_pork_roast_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Rub seasoning on roast.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'4 to 5-pound boneless pork loin roast': '-pound' read as pieces"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

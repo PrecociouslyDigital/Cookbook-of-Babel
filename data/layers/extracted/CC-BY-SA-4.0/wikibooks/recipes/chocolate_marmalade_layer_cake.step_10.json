@@ -1,0 +1,60 @@
+{
+  "id": "chocolate_marmalade_layer_cake.step_10",
+  "source": "wikibooks_chocolate_marmalade_layer_cake",
+  "sourceRef": {
+    "source": "wikibooks_chocolate_marmalade_layer_cake",
+    "step": 10
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "chocolate_marmalade_layer_cake_step_9",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "marmalade",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "chocolate_marmalade_layer_cake_step_10",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "When completely cool, cover one cake layer with a generous, even layer of marmalade. Place the second cake on top.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Marmalade': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "id": "spicy_cheddar_dip_with_olives.step_5",
+  "source": "wikibooks_spicy_cheddar_dip_with_olives",
+  "sourceRef": {
+    "source": "wikibooks_spicy_cheddar_dip_with_olives",
+    "step": 5
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "spicy_cheddar_dip_with_olives_step_4",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "tomato",
+        "amount": {
+          "qty": 1,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "green_onion",
+        "amount": {
+          "qty": 2,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "spicy_cheddar_dip_with_olives",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Garnish the dip with the remaining olives, green onions, and tomatoes. Standard garnishing technique calls for arranging the remaining black olives, green onions, and diced tomatoes into a bulls-eye pattern.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "quick_finnish_lemon_mead_sima.step_8",
+  "source": "wikibooks_quick_finnish_lemon_mead_sima",
+  "sourceRef": {
+    "source": "wikibooks_quick_finnish_lemon_mead_sima",
+    "step": 8
+  },
+  "technique": "ferment",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "quick_finnish_lemon_mead_sima_step_7",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "quick_finnish_lemon_mead_sima_step_8",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 8,
+      "unit": "h"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Let it stand overnight.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "'overnight' read as 8 hours"
+    }
+  ]
+}

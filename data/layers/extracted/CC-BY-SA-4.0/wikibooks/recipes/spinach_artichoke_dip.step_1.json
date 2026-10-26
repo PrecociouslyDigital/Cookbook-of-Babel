@@ -1,0 +1,83 @@
+{
+  "id": "spinach_artichoke_dip.step_1",
+  "source": "wikibooks_spinach_artichoke_dip",
+  "sourceRef": {
+    "source": "wikibooks_spinach_artichoke_dip",
+    "step": 1
+  },
+  "technique": "blend",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "cream_cheese",
+        "amount": {
+          "qty": 16,
+          "unit": "oz"
+        }
+      },
+      {
+        "ingredient": "cream",
+        "amount": {
+          "qty": 0.75,
+          "unit": "cup"
+        }
+      },
+      {
+        "ingredient": "parmesan_cheese",
+        "amount": {
+          "qty": 0.3333333333333333,
+          "unit": "cup"
+        }
+      },
+      {
+        "ingredient": "garlic",
+        "amount": {
+          "qty": 0.25,
+          "unit": "tsp"
+        }
+      },
+      {
+        "ingredient": "spinach",
+        "amount": {
+          "qty": 16,
+          "unit": "oz"
+        }
+      },
+      {
+        "ingredient": "artichoke",
+        "amount": {
+          "qty": 1,
+          "unit": "can"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "spinach_artichoke_dip_step_1",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "In a food processor fitted with a metal blade, process the cream cheese, cream, Parmesan cheese, and garlic powder until smooth and creamy. Add the spinach and process until thoroughly mixed. Add the artichokes and process just until coarsely chopped.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

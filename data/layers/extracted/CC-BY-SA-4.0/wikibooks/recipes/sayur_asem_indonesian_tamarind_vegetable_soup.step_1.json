@@ -1,0 +1,88 @@
+{
+  "id": "sayur_asem_indonesian_tamarind_vegetable_soup.step_1",
+  "source": "wikibooks_sayur_asem_indonesian_tamarind_vegetable_soup",
+  "sourceRef": {
+    "source": "wikibooks_sayur_asem_indonesian_tamarind_vegetable_soup",
+    "step": 1
+  },
+  "technique": "grind",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "chiles",
+        "amount": {
+          "qty": 1,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "shallot",
+        "amount": {
+          "qty": 2,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "shrimp_paste",
+        "amount": {
+          "qty": 2,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "salt",
+        "amount": {
+          "qty": 0.5,
+          "unit": "tbsp"
+        }
+      },
+      {
+        "ingredient": "galangal",
+        "amount": {
+          "qty": 105,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "peanut",
+        "amount": {
+          "qty": 50,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "sayur_asem_indonesian_tamarind_vegetable_soup_step_1",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Grind together all the ingredients for the spice paste until smooth.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.5"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

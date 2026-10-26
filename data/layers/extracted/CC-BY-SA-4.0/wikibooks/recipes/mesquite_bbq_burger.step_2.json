@@ -1,0 +1,84 @@
+{
+  "id": "mesquite_bbq_burger.step_2",
+  "source": "wikibooks_mesquite_bbq_burger",
+  "sourceRef": {
+    "source": "wikibooks_mesquite_bbq_burger",
+    "step": 2
+  },
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "mesquite_smoke_powder",
+        "amount": {
+          "qty": 0.5,
+          "unit": "tsp"
+        }
+      },
+      {
+        "ingredient": "salt",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      },
+      {
+        "ingredient": "pepper",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      },
+      {
+        "ingredient": "garlic_powder",
+        "amount": {
+          "qty": 1,
+          "unit": "tsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "mesquite_bbq_burger_step_2",
+      "amount": {
+        "qty": 8.1,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Combine garlic, smoke powder, and 4 heavy pinches each of salt and freshly ground black pepper. Set aside.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Salt': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Freshly-ground black pepper': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for mesquite_smoke_powder, pepper, garlic_powder"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

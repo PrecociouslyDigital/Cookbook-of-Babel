@@ -1,0 +1,48 @@
+{
+  "id": "honey_mug_cake.step_3",
+  "source": "wikibooks_honey_mug_cake",
+  "sourceRef": {
+    "source": "wikibooks_honey_mug_cake",
+    "step": 3
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "honey_mug_cake_step_2",
+        "amount": {
+          "qty": 65.9,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "honey_mug_cake_step_3",
+      "amount": {
+        "qty": 65.9,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Add a small amount of water, and until incorporated.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

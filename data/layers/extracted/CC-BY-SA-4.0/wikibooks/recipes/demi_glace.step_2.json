@@ -1,0 +1,53 @@
+{
+  "id": "demi_glace.step_2",
+  "source": "wikibooks_demi_glace",
+  "sourceRef": {
+    "source": "wikibooks_demi_glace",
+    "step": 2
+  },
+  "technique": "evaporate",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "demi_glace_step_1",
+        "amount": {
+          "qty": 1656.2,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "demi_glace_step_2",
+      "amount": {
+        "qty": 1656.2,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 100,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Set over low heat and reduce by two-thirds.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of evaporate's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

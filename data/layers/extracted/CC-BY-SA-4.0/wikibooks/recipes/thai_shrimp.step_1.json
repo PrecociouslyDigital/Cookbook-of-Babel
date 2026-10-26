@@ -1,0 +1,95 @@
+{
+  "id": "thai_shrimp.step_1",
+  "source": "wikibooks_thai_shrimp",
+  "sourceRef": {
+    "source": "wikibooks_thai_shrimp",
+    "step": 1
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "soy_sauce",
+        "amount": {
+          "qty": 0.25,
+          "unit": "cup"
+        }
+      },
+      {
+        "ingredient": "thai_chili_paste",
+        "amount": {
+          "qty": 2.5,
+          "unit": "tbsp"
+        }
+      },
+      {
+        "ingredient": "vinegar",
+        "amount": {
+          "qty": 2,
+          "unit": "tbsp"
+        }
+      },
+      {
+        "ingredient": "white_sugar",
+        "amount": {
+          "qty": 1,
+          "unit": "tbsp"
+        }
+      },
+      {
+        "ingredient": "starch",
+        "amount": {
+          "qty": 2,
+          "unit": "tsp"
+        }
+      },
+      {
+        "ingredient": "sesame_oil",
+        "amount": {
+          "qty": 2,
+          "unit": "tsp"
+        }
+      },
+      {
+        "ingredient": "broth_and_stock",
+        "amount": {
+          "qty": 0.5,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "thai_shrimp_step_1",
+      "amount": {
+        "qty": 271.9,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Combine soy sauce, chili paste, vinegar, sugar, cornstarch, sesame oil and broth. Set aside.",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for soy_sauce, thai_chili_paste, vinegar, sesame_oil, broth_and_stock"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

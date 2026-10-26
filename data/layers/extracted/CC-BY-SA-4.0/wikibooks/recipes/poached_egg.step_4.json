@@ -1,0 +1,81 @@
+{
+  "id": "poached_egg.step_4",
+  "source": "wikibooks_poached_egg",
+  "sourceRef": {
+    "source": "wikibooks_poached_egg",
+    "step": 4
+  },
+  "technique": "coagulate",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "egg",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      },
+      {
+        "min": 0,
+        "max": 1,
+        "of": [
+          {
+            "ingredient": "vinegar",
+            "amount": {
+              "qty": 1,
+              "unit": "pinch"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "poached_egg_step_4",
+      "amount": {
+        "qty": 0.6,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 90,
+    "medium": "simmering_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 2.5,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Crack an egg into a strainer and gently shake it to drain the excess liquid whites. Then, lower the strainer into the water and gently roll out the egg. The yolks should set in around 2–3 minutes.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.38"
+    },
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Eggs': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Vinegar (optional)': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for egg, vinegar"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 90.0 °C for simmering_water"
+    }
+  ]
+}

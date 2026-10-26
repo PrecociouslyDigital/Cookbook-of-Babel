@@ -1,0 +1,58 @@
+{
+  "id": "fresh_broadbeans_salad.step_1",
+  "source": "wikibooks_fresh_broadbeans_salad",
+  "sourceRef": {
+    "source": "wikibooks_fresh_broadbeans_salad",
+    "step": 1
+  },
+  "technique": "separate",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "fava_bean",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "fresh_broadbeans_salad_step_1",
+      "amount": {
+        "qty": 0.3,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Peel the broad beans, and discard any nasty looking peas.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Fresh broad beans': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for fava_bean"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

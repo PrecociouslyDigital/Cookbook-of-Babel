@@ -1,0 +1,62 @@
+{
+  "id": "sandwich_layer_cake.step_3",
+  "source": "wikibooks_sandwich_layer_cake",
+  "sourceRef": {
+    "source": "wikibooks_sandwich_layer_cake",
+    "step": 3
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "sandwich_layer_cake_step_2",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "mayonnaise",
+        "amount": {
+          "qty": 4,
+          "unit": "dl"
+        }
+      },
+      {
+        "ingredient": "sour_cream",
+        "amount": {
+          "qty": 1,
+          "unit": "dl"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "sandwich_layer_cake_step_3",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Mix 1 dl mayonnaise with 1 dl sour cream in a cup or bowl, place in the refrigerator.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

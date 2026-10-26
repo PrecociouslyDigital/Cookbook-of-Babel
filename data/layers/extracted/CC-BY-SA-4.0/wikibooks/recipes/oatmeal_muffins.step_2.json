@@ -1,0 +1,95 @@
+{
+  "id": "oatmeal_muffins.step_2",
+  "source": "wikibooks_oatmeal_muffins",
+  "sourceRef": {
+    "source": "wikibooks_oatmeal_muffins",
+    "step": 2
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "oatmeal_muffins_step_1",
+        "amount": {
+          "qty": 473.2,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "wheat_flour",
+        "amount": {
+          "qty": 1,
+          "unit": "cup"
+        }
+      },
+      {
+        "ingredient": "baking_powder",
+        "amount": {
+          "qty": 1,
+          "unit": "tsp"
+        }
+      },
+      {
+        "ingredient": "baking_soda",
+        "amount": {
+          "qty": 0.5,
+          "unit": "tsp"
+        }
+      },
+      {
+        "ingredient": "salt",
+        "amount": {
+          "qty": 0.25,
+          "unit": "tsp"
+        }
+      },
+      {
+        "ingredient": "brown_sugar",
+        "amount": {
+          "qty": 0.75,
+          "unit": "cup"
+        }
+      },
+      {
+        "ingredient": "coconut",
+        "amount": {
+          "qty": 0.25,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "oatmeal_muffins_step_2",
+      "amount": {
+        "qty": 843.6,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Combine flour, coconut, brown sugar, baking powder, baking soda, and salt in another mixing bowl. Stir together to mix. Make a well in the center.",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for baking_soda, brown_sugar, coconut"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

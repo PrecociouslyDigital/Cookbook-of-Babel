@@ -1,0 +1,70 @@
+{
+  "id": "kwek_kwek_deep_fried_quail_eggs.step_2",
+  "source": "wikibooks_kwek_kwek_deep_fried_quail_eggs",
+  "sourceRef": {
+    "source": "wikibooks_kwek_kwek_deep_fried_quail_eggs",
+    "step": 2
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "kwek_kwek_deep_fried_quail_eggs_step_1",
+        "amount": {
+          "qty": 362,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "hard_cooked_eggs",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "kwek_kwek_deep_fried_quail_eggs_step_2",
+      "amount": {
+        "qty": 362.3,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Dip the eggs in the batter to coat them completely.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.59"
+    },
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Hard-cooked quail eggs, peeled': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for hard_cooked_eggs"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

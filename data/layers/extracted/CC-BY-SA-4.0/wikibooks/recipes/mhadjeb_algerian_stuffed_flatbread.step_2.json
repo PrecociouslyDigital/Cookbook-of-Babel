@@ -1,0 +1,53 @@
+{
+  "id": "mhadjeb_algerian_stuffed_flatbread.step_2",
+  "source": "wikibooks_mhadjeb_algerian_stuffed_flatbread",
+  "sourceRef": {
+    "source": "wikibooks_mhadjeb_algerian_stuffed_flatbread",
+    "step": 2
+  },
+  "technique": "age",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "mhadjeb_algerian_stuffed_flatbread_step_1",
+        "amount": {
+          "qty": 300,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "mhadjeb_algerian_stuffed_flatbread_step_2",
+      "amount": {
+        "qty": 300,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Wet a plastic bag in warm water, cover the dough while still dripping, and let it rest. Afterwards, uncover the dough and knead lightly for a few minutes.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.55"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

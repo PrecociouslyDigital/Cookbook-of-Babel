@@ -1,0 +1,70 @@
+{
+  "id": "thiebou_yapp.step_4",
+  "source": "wikibooks_thiebou_yapp",
+  "sourceRef": {
+    "source": "wikibooks_thiebou_yapp",
+    "step": 4
+  },
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "thiebou_yapp_step_3",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "dehydrated_broth",
+        "amount": {
+          "qty": 6,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "thiebou_yapp_step_4",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 90,
+    "medium": "simmering_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 2,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Add salt and seasoning cube, cover and allow to cook for 2 minutes.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.51"
+    },
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.51"
+    },
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'6 cubes of bouillon': 'cubes' read as pieces"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 90.0 °C for simmering_water"
+    }
+  ]
+}

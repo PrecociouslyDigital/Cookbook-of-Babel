@@ -1,0 +1,65 @@
+{
+  "id": "hearty_beef_vegetable_soup.step_1",
+  "source": "wikibooks_hearty_beef_vegetable_soup",
+  "sourceRef": {
+    "source": "wikibooks_hearty_beef_vegetable_soup",
+    "step": 1
+  },
+  "technique": "pan_fry",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "beef",
+        "amount": {
+          "qty": 1,
+          "unit": "lb"
+        }
+      },
+      {
+        "ingredient": "margarine",
+        "amount": {
+          "qty": 1,
+          "unit": "tbsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "hearty_beef_vegetable_soup_step_1",
+      "amount": {
+        "qty": 468.4,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 185,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "In a 4-quart saucepan over medium-high heat, brown beef in margarine.",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for margarine"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of pan_fry's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "id": "mushroom_tofu_soup.step_4",
+  "source": "wikibooks_mushroom_tofu_soup",
+  "sourceRef": {
+    "source": "wikibooks_mushroom_tofu_soup",
+    "step": 4
+  },
+  "technique": "stir_fry",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "mushroom_tofu_soup_step_3",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "mushroom",
+        "amount": {
+          "qty": 8,
+          "unit": "oz"
+        }
+      },
+      {
+        "ingredient": "thyme",
+        "amount": {
+          "qty": 1,
+          "unit": "tsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "mushroom_tofu_soup_step_4",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 215,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 5,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Add mushrooms and thyme, and sauté 5 minutes more.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.52"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of stir_fry's typical range"
+    }
+  ]
+}

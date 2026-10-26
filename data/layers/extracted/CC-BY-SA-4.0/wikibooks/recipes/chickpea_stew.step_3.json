@@ -1,0 +1,83 @@
+{
+  "id": "chickpea_stew.step_3",
+  "source": "wikibooks_chickpea_stew",
+  "sourceRef": {
+    "source": "wikibooks_chickpea_stew",
+    "step": 3
+  },
+  "technique": "simmer",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "chickpea_stew_step_2",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "zucchini",
+        "amount": {
+          "qty": 2.5,
+          "unit": "cup"
+        }
+      },
+      {
+        "ingredient": "tomato",
+        "amount": {
+          "qty": 7,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "bell_pepper",
+        "amount": {
+          "qty": 1,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "chiles",
+        "amount": {
+          "qty": 1,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "garlic",
+        "amount": {
+          "qty": 5,
+          "unit": "clove"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "chickpea_stew_step_3",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 90,
+    "medium": "simmering_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 12.5,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Add zucchini, tomatoes, bell pepper, chili pepper, and garlic and cook for 10–15 minutes, until peppers and zucchini are soft.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of simmer's typical range"
+    }
+  ]
+}

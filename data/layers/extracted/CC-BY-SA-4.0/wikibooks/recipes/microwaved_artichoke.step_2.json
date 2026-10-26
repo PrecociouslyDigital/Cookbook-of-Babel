@@ -1,0 +1,48 @@
+{
+  "id": "microwaved_artichoke.step_2",
+  "source": "wikibooks_microwaved_artichoke",
+  "sourceRef": {
+    "source": "wikibooks_microwaved_artichoke",
+    "step": 2
+  },
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "microwaved_artichoke_step_1",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "microwaved_artichoke_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Remove base leaves and cut off the tips of the higher leaves.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

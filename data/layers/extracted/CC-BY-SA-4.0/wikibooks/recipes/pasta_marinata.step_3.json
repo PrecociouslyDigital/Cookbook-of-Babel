@@ -1,0 +1,48 @@
+{
+  "id": "pasta_marinata.step_3",
+  "source": "wikibooks_pasta_marinata",
+  "sourceRef": {
+    "source": "wikibooks_pasta_marinata",
+    "step": 3
+  },
+  "technique": "fold",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "pasta_marinata_step_2",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "pasta_marinata",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Whip the egg whites to soft peaks, and fold into the batter.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

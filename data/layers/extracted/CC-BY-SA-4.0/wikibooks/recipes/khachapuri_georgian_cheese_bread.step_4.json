@@ -1,0 +1,53 @@
+{
+  "id": "khachapuri_georgian_cheese_bread.step_4",
+  "source": "wikibooks_khachapuri_georgian_cheese_bread",
+  "sourceRef": {
+    "source": "wikibooks_khachapuri_georgian_cheese_bread",
+    "step": 4
+  },
+  "technique": "ferment",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "khachapuri_georgian_cheese_bread_step_3",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "khachapuri_georgian_cheese_bread_step_4",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 20,
+    "medium": "still_air"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 30,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Let dough rise in greased bowl for 30 minutes in a warm place or until doubled in size. Punch down dough, and let it rise again.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.55"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 20.0 °C for still_air"
+    }
+  ]
+}

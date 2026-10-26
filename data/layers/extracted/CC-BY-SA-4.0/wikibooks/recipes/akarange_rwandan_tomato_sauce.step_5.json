@@ -1,0 +1,77 @@
+{
+  "id": "akarange_rwandan_tomato_sauce.step_5",
+  "source": "wikibooks_akarange_rwandan_tomato_sauce",
+  "sourceRef": {
+    "source": "wikibooks_akarange_rwandan_tomato_sauce",
+    "step": 5
+  },
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "akarange_rwandan_tomato_sauce_step_4",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "salt",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      },
+      {
+        "ingredient": "water",
+        "amount": {
+          "qty": 1,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "akarange_rwandan_tomato_sauce_step_5",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 180,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Pour in the water and season with salt to taste. Stir again to ensure the spices are evenly distributed.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.59"
+    },
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Salt, to taste': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 180.0 °C for pan_contact"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

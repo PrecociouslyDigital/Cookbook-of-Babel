@@ -1,0 +1,48 @@
+{
+  "id": "american_potato_salad_i.step_1",
+  "source": "wikibooks_american_potato_salad_i",
+  "sourceRef": {
+    "source": "wikibooks_american_potato_salad_i",
+    "step": 1
+  },
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "potato",
+        "amount": {
+          "qty": 2,
+          "unit": "lb"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "american_potato_salad_i_step_1",
+      "amount": {
+        "qty": 907.2,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Peel and cut potatoes into ¾ inch cubes.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

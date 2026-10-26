@@ -1,0 +1,67 @@
+{
+  "id": "italian_chicken_rolls.step_1",
+  "source": "wikibooks_italian_chicken_rolls",
+  "sourceRef": {
+    "source": "wikibooks_italian_chicken_rolls",
+    "step": 1
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "ricotta",
+        "amount": {
+          "qty": 2,
+          "unit": "oz"
+        }
+      },
+      {
+        "ingredient": "cream_cheese",
+        "amount": {
+          "qty": 2,
+          "unit": "oz"
+        }
+      },
+      {
+        "ingredient": "mozzarella_cheese",
+        "amount": {
+          "qty": 1,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "italian_chicken_rolls_step_1",
+      "amount": {
+        "qty": 350,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Combine ricotta, cream cheese, and ½ cup mozzarella cheese. Set aside.",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for mozzarella_cheese"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

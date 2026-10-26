@@ -1,0 +1,69 @@
+{
+  "id": "cream_puff.step_10",
+  "source": "wikibooks_cream_puff",
+  "sourceRef": {
+    "source": "wikibooks_cream_puff",
+    "step": 10
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "cream_puff_step_9",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "white_sugar",
+        "amount": {
+          "qty": 240,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "starch",
+        "amount": {
+          "qty": 80,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "salt",
+        "amount": {
+          "qty": 0.3333333333333333,
+          "unit": "tsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "cream_puff_step_10",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Mix dry sugar, cornstarch, and salt together.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

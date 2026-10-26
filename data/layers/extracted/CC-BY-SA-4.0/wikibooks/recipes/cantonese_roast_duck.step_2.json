@@ -1,0 +1,60 @@
+{
+  "id": "cantonese_roast_duck.step_2",
+  "source": "wikibooks_cantonese_roast_duck",
+  "sourceRef": {
+    "source": "wikibooks_cantonese_roast_duck",
+    "step": 2
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "cantonese_roast_duck_step_1",
+        "amount": {
+          "qty": 562.1,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "dark_soy_sauce",
+        "amount": {
+          "qty": 2,
+          "unit": "tbsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "cantonese_roast_duck_step_2",
+      "amount": {
+        "qty": 591.7,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Mix all glaze ingredients together.",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for dark_soy_sauce"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

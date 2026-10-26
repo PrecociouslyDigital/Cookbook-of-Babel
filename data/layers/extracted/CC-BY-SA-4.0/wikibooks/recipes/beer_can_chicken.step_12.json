@@ -1,0 +1,48 @@
+{
+  "id": "beer_can_chicken.step_12",
+  "source": "wikibooks_beer_can_chicken",
+  "sourceRef": {
+    "source": "wikibooks_beer_can_chicken",
+    "step": 12
+  },
+  "technique": "cool",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "beer_can_chicken_step_11",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "beer_can_chicken",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 20,
+    "medium": "still_air"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 15,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Rest chicken upright 15 minutes before removing beer can.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 20.0 °C for still_air"
+    }
+  ]
+}

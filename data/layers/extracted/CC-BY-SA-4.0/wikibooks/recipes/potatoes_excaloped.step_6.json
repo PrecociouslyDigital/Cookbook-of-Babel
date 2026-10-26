@@ -1,0 +1,53 @@
+{
+  "id": "potatoes_excaloped.step_6",
+  "source": "wikibooks_potatoes_excaloped",
+  "sourceRef": {
+    "source": "wikibooks_potatoes_excaloped",
+    "step": 6
+  },
+  "technique": "bake",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "potatoes_excaloped_step_5",
+        "amount": {
+          "qty": 0.9,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "potatoes_excaloped",
+      "amount": {
+        "qty": 0.9,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 200,
+    "medium": "oven_air"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Bake in the oven until browned on top. Carefully remove the potatoes from the molds, and bake to brown the other side.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of bake's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

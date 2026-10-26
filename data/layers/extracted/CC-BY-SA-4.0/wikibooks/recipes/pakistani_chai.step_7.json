@@ -1,0 +1,48 @@
+{
+  "id": "pakistani_chai.step_7",
+  "source": "wikibooks_pakistani_chai",
+  "sourceRef": {
+    "source": "wikibooks_pakistani_chai",
+    "step": 7
+  },
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "pakistani_chai_step_6",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "pakistani_chai",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Sweeten with sugar if desired.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

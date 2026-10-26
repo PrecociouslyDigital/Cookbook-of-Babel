@@ -1,0 +1,55 @@
+{
+  "id": "lapis_legit_many_layered_spiced_cake.step_4",
+  "source": "wikibooks_lapis_legit_many_layered_spiced_cake",
+  "sourceRef": {
+    "source": "wikibooks_lapis_legit_many_layered_spiced_cake",
+    "step": 4
+  },
+  "technique": "whisk",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "lapis_legit_many_layered_spiced_cake_step_3",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "egg_white",
+        "amount": {
+          "qty": 4,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "lapis_legit_many_layered_spiced_cake_step_4",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Whip egg whites in separate mixing bowl until fluffy, then mix with egg yolks.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

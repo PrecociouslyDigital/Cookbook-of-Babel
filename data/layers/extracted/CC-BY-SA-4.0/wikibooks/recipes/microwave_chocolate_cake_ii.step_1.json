@@ -1,0 +1,67 @@
+{
+  "id": "microwave_chocolate_cake_ii.step_1",
+  "source": "wikibooks_microwave_chocolate_cake_ii",
+  "sourceRef": {
+    "source": "wikibooks_microwave_chocolate_cake_ii",
+    "step": 1
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "wheat_flour",
+        "amount": {
+          "qty": 4,
+          "unit": "tbsp"
+        }
+      },
+      {
+        "ingredient": "white_sugar",
+        "amount": {
+          "qty": 4,
+          "unit": "tbsp"
+        }
+      },
+      {
+        "ingredient": "chocolate",
+        "amount": {
+          "qty": 2,
+          "unit": "tbsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "microwave_chocolate_cake_ii_step_1",
+      "amount": {
+        "qty": 111.2,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Mix all the dry ingredients directly in a microwave-safe mug or bowl.",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for chocolate"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

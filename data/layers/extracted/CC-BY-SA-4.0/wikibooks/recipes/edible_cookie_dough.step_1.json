@@ -1,0 +1,48 @@
+{
+  "id": "edible_cookie_dough.step_1",
+  "source": "wikibooks_edible_cookie_dough",
+  "sourceRef": {
+    "source": "wikibooks_edible_cookie_dough",
+    "step": 1
+  },
+  "technique": "bake",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "wheat_flour",
+        "amount": {
+          "qty": 140,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "edible_cookie_dough_step_1",
+      "amount": {
+        "qty": 140,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 200,
+    "medium": "oven_air"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 5,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Preheat the oven to 200 °C (392 °F). Line a baking pan and spread flour onto it. Cook in oven for 5 minutes to kill any harmful bacteria. Alternatively, you can microwave the flour in intervals of 20 seconds, stirring between each interval, until the temperature reaches 75°C (167°F).",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "the step names several durations; used the first"
+    }
+  ]
+}

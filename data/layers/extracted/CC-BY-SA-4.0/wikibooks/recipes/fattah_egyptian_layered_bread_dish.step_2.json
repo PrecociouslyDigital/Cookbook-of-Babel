@@ -1,0 +1,48 @@
+{
+  "id": "fattah_egyptian_layered_bread_dish.step_2",
+  "source": "wikibooks_fattah_egyptian_layered_bread_dish",
+  "sourceRef": {
+    "source": "wikibooks_fattah_egyptian_layered_bread_dish",
+    "step": 2
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "pita_bread",
+        "amount": {
+          "qty": 5,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "fattah_egyptian_layered_bread_dish_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Tear the pita bread or flatbread into bite-sized pieces and spread them in an even layer at the bottom of a baking dish.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

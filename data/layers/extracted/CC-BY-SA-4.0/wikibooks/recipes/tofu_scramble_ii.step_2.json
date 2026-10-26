@@ -1,0 +1,60 @@
+{
+  "id": "tofu_scramble_ii.step_2",
+  "source": "wikibooks_tofu_scramble_ii",
+  "sourceRef": {
+    "source": "wikibooks_tofu_scramble_ii",
+    "step": 2
+  },
+  "technique": "grind",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "tofu_scramble_ii_step_1",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "tofu",
+        "amount": {
+          "qty": 0.5,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "tofu_scramble_ii_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Press as much water from the tofu as possible, then use a cheese grater to grate the tofu into semi-small chunks. You could probably mash it a bit with a fork instead, but grating is a lot quicker.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'½ large block of firm tofu': 'block' read as pieces"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

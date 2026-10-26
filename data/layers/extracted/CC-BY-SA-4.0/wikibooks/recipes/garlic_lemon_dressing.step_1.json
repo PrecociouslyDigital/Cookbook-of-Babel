@@ -1,0 +1,55 @@
+{
+  "id": "garlic_lemon_dressing.step_1",
+  "source": "wikibooks_garlic_lemon_dressing",
+  "sourceRef": {
+    "source": "wikibooks_garlic_lemon_dressing",
+    "step": 1
+  },
+  "technique": "grind",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "garlic",
+        "amount": {
+          "qty": 1,
+          "unit": "clove"
+        }
+      },
+      {
+        "ingredient": "rosemary",
+        "amount": {
+          "qty": 1,
+          "unit": "sprig"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "garlic_lemon_dressing_step_1",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Place the garlic and rosemary on a cutting board and lightly crush with the flat side of a heavy knife.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

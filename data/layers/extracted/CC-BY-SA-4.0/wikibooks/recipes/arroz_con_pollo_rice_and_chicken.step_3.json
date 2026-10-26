@@ -1,0 +1,70 @@
+{
+  "id": "arroz_con_pollo_rice_and_chicken.step_3",
+  "source": "wikibooks_arroz_con_pollo_rice_and_chicken",
+  "sourceRef": {
+    "source": "wikibooks_arroz_con_pollo_rice_and_chicken",
+    "step": 3
+  },
+  "technique": "pan_fry",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "arroz_con_pollo_rice_and_chicken_step_1",
+        "amount": {
+          "qty": 1550.7,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "olive_oil",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "arroz_con_pollo_rice_and_chicken_step_3",
+      "amount": {
+        "qty": 1551,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 185,
+    "medium": "frying_oil"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Sauté chicken in oil until brown. There are two ways to proceed from here: either remove the chicken from the skillet or keep it there.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Olive oil': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for olive_oil"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of pan_fry's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

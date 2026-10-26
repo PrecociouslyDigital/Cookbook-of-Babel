@@ -1,0 +1,48 @@
+{
+  "id": "mushroom_tofu_soup.step_2",
+  "source": "wikibooks_mushroom_tofu_soup",
+  "sourceRef": {
+    "source": "wikibooks_mushroom_tofu_soup",
+    "step": 2
+  },
+  "technique": "blend",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "mushroom_tofu_soup_step_1",
+        "amount": {
+          "qty": 652.6,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "mushroom_tofu_soup_step_2",
+      "amount": {
+        "qty": 652.6,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Add remaining ¾ cup water and process until blended.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

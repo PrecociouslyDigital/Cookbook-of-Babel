@@ -1,0 +1,48 @@
+{
+  "id": "fried_chicken_and_fried_potatoes.step_1",
+  "source": "wikibooks_fried_chicken_and_fried_potatoes",
+  "sourceRef": {
+    "source": "wikibooks_fried_chicken_and_fried_potatoes",
+    "step": 1
+  },
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "potato",
+        "amount": {
+          "qty": 8,
+          "unit": "lb"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "fried_chicken_and_fried_potatoes_step_1",
+      "amount": {
+        "qty": 3628.7,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Peel potatoes, and slice into small or large wedges.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

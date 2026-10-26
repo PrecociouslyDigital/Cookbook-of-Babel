@@ -1,0 +1,48 @@
+{
+  "id": "pizza_rollups.step_6",
+  "source": "wikibooks_pizza_rollups",
+  "sourceRef": {
+    "source": "wikibooks_pizza_rollups",
+    "step": 6
+  },
+  "technique": "bake",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "pizza_rollups_step_5",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "pizza_rollups",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 176.66666666666666,
+    "medium": "oven_air"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 13.5,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Bake 12–15 minutes.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "missing",
+      "note": "no step uses 'Pizza spices as desired (anise, basil, fennel, garlic, oregano, etc.)' (p=0.99)"
+    }
+  ]
+}

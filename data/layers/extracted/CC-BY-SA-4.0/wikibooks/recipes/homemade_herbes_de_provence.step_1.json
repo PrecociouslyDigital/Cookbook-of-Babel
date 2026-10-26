@@ -1,0 +1,116 @@
+{
+  "id": "homemade_herbes_de_provence.step_1",
+  "source": "wikibooks_homemade_herbes_de_provence",
+  "sourceRef": {
+    "source": "wikibooks_homemade_herbes_de_provence",
+    "step": 1
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "basil",
+        "amount": {
+          "qty": 1,
+          "unit": "tbsp"
+        }
+      },
+      {
+        "ingredient": "marjoram",
+        "amount": {
+          "qty": 1,
+          "unit": "tbsp"
+        }
+      },
+      {
+        "ingredient": "rosemary",
+        "amount": {
+          "qty": 0.5,
+          "unit": "tbsp"
+        }
+      },
+      {
+        "ingredient": "savory",
+        "amount": {
+          "qty": 1,
+          "unit": "tbsp"
+        }
+      },
+      {
+        "ingredient": "thyme",
+        "amount": {
+          "qty": 1,
+          "unit": "tbsp"
+        }
+      },
+      {
+        "ingredient": "bay_leaf",
+        "amount": {
+          "qty": 1,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "lavender",
+        "amount": {
+          "qty": 2.5,
+          "unit": "piece"
+        }
+      },
+      {
+        "min": 0,
+        "max": 1,
+        "of": [
+          {
+            "ingredient": "fennel",
+            "amount": {
+              "qty": 1,
+              "unit": "tsp"
+            }
+          }
+        ]
+      },
+      {
+        "min": 0,
+        "max": 1,
+        "of": [
+          {
+            "ingredient": "sage",
+            "amount": {
+              "qty": 1,
+              "unit": "tsp"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "homemade_herbes_de_provence",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Combine all ingredients, and mix until blended.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "id": "dr_kitchener_s_pudding.step_1",
+  "source": "wikibooks_dr_kitchener_s_pudding",
+  "sourceRef": {
+    "source": "wikibooks_dr_kitchener_s_pudding",
+    "step": 1
+  },
+  "technique": "strain",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "egg",
+        "amount": {
+          "qty": 3,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "milk",
+        "amount": {
+          "qty": 0.5,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "dr_kitchener_s_pudding_step_1",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Beat the eggs, strain them through a sieve, then gradually stir them into the milk.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.58"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

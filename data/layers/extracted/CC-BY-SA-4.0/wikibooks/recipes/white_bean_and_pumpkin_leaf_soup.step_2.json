@@ -1,0 +1,53 @@
+{
+  "id": "white_bean_and_pumpkin_leaf_soup.step_2",
+  "source": "wikibooks_white_bean_and_pumpkin_leaf_soup",
+  "sourceRef": {
+    "source": "wikibooks_white_bean_and_pumpkin_leaf_soup",
+    "step": 2
+  },
+  "technique": "strain",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "white_bean_and_pumpkin_leaf_soup_step_1",
+        "amount": {
+          "qty": 1419.6,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "white_bean_and_pumpkin_leaf_soup_step_2",
+      "amount": {
+        "qty": 1419.6,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Soak for several hours. Drain, then add fresh water.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.5"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

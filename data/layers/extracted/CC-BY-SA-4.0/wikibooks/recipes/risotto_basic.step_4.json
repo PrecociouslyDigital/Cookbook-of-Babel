@@ -1,0 +1,55 @@
+{
+  "id": "risotto_basic.step_4",
+  "source": "wikibooks_risotto_basic",
+  "sourceRef": {
+    "source": "wikibooks_risotto_basic",
+    "step": 4
+  },
+  "technique": "simmer",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "risotto_basic_step_3",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "broth_and_stock",
+        "amount": {
+          "qty": 1,
+          "unit": "l"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "risotto_basic_step_4",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 90,
+    "medium": "simmering_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 17.5,
+      "unit": "min"
+    }
+  },
+  "stateNote": "As the wine cooks away you will see the remaining liquid getting thicker as it's absorbing the starch from the rice. When it's more or less gone, add some stock. Do not add too much stock. The rice should never be submerged in stock. Keep stirring it and keep adding more stock as it cooks away. This should take about 15–20 minutes.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of simmer's typical range"
+    }
+  ]
+}

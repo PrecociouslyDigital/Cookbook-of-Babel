@@ -1,0 +1,60 @@
+{
+  "id": "cappelletti_pasta_soup_cappelletti_in_brodo.step_2",
+  "source": "wikibooks_cappelletti_pasta_soup_cappelletti_in_brodo",
+  "sourceRef": {
+    "source": "wikibooks_cappelletti_pasta_soup_cappelletti_in_brodo",
+    "step": 2
+  },
+  "technique": "boil",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "cappelletti_pasta_soup_cappelletti_in_brodo_step_1",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "pasta",
+        "amount": {
+          "qty": 250,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "cappelletti_pasta_soup_cappelletti_in_brodo_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 100,
+    "medium": "boiling_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Add the Cappelletti pasta, and cook according to the instructions on the packet.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of boil's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

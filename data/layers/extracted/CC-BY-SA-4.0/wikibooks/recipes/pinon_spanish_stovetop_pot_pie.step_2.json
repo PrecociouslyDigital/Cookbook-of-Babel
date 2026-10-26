@@ -1,0 +1,60 @@
+{
+  "id": "pinon_spanish_stovetop_pot_pie.step_2",
+  "source": "wikibooks_pinon_spanish_stovetop_pot_pie",
+  "sourceRef": {
+    "source": "wikibooks_pinon_spanish_stovetop_pot_pie",
+    "step": 2
+  },
+  "technique": "boil",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "pinon_spanish_stovetop_pot_pie_step_1",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "green_bean",
+        "amount": {
+          "qty": 1,
+          "unit": "lb"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "pinon_spanish_stovetop_pot_pie_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 100,
+    "medium": "boiling_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Cook the string beans in boiling water till they are crisp-tender. Drain and set aside. Or you can use canned French-style string beans, drained and set aside.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of boil's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

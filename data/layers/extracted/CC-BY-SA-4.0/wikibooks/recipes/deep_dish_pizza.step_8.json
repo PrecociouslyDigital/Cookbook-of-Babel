@@ -1,0 +1,58 @@
+{
+  "id": "deep_dish_pizza.step_8",
+  "source": "wikibooks_deep_dish_pizza",
+  "sourceRef": {
+    "source": "wikibooks_deep_dish_pizza",
+    "step": 8
+  },
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "deep_dish_pizza_step_7",
+        "amount": {
+          "qty": 1691.6,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "deep_dish_pizza",
+      "amount": {
+        "qty": 1691.6,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 218.33333333333334,
+    "medium": "oven_air"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "When removing from the oven, cut into about 8 triangular, pie shaped slices for serving. A pizza cutter with a circular wheel does this nicely.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.52"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    },
+    {
+      "field": "inputs",
+      "kind": "missing",
+      "note": "no step uses '4 tbsp cornmeal (optional)' (p=0.85)"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "id": "lolly_cake.step_7",
+  "source": "wikibooks_lolly_cake",
+  "sourceRef": {
+    "source": "wikibooks_lolly_cake",
+    "step": 7
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "lolly_cake_step_6",
+        "amount": {
+          "qty": 750.3,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "coconut",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "lolly_cake_step_7",
+      "amount": {
+        "qty": 750.6,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Roll the log or balls in the shredded coconut until completely covered.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Shredded coconut': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for coconut"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

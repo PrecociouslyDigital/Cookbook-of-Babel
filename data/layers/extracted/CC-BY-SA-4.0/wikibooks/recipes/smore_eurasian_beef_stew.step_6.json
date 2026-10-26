@@ -1,0 +1,62 @@
+{
+  "id": "smore_eurasian_beef_stew.step_6",
+  "source": "wikibooks_smore_eurasian_beef_stew",
+  "sourceRef": {
+    "source": "wikibooks_smore_eurasian_beef_stew",
+    "step": 6
+  },
+  "technique": "rinse",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "smore_eurasian_beef_stew_step_5",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "carrot",
+        "amount": {
+          "qty": 100,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "potato",
+        "amount": {
+          "qty": 3,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "smore_eurasian_beef_stew_step_6",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Soak carrots and potatoes in water.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

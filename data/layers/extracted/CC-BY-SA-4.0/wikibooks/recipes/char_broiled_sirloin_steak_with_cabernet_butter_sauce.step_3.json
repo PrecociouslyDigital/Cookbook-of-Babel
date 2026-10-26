@@ -1,0 +1,63 @@
+{
+  "id": "char_broiled_sirloin_steak_with_cabernet_butter_sauce.step_3",
+  "source": "wikibooks_char_broiled_sirloin_steak_with_cabernet_butter_sauce",
+  "sourceRef": {
+    "source": "wikibooks_char_broiled_sirloin_steak_with_cabernet_butter_sauce",
+    "step": 3
+  },
+  "technique": "grill",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "char_broiled_sirloin_steak_with_cabernet_butter_sauce_step_1",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "char_broiled_sirloin_steak_with_cabernet_butter_sauce_step_3",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 250,
+    "medium": "oven_air"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Place the steak on the upper rack. Insert a probe thermometer into the center of the steak and keep the oven door open with a tube of aluminum foil.",
+  "issues": [
+    {
+      "field": "sourceRef",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.55"
+    },
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.43"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of grill's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

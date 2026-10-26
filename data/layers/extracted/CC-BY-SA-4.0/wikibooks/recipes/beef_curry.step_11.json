@@ -1,0 +1,55 @@
+{
+  "id": "beef_curry.step_11",
+  "source": "wikibooks_beef_curry",
+  "sourceRef": {
+    "source": "wikibooks_beef_curry",
+    "step": 11
+  },
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "beef_curry_step_10",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "lemon",
+        "amount": {
+          "qty": 1,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "beef_curry_step_11",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Add lemon juice to the rice.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

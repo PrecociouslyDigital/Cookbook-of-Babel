@@ -1,0 +1,77 @@
+{
+  "id": "kasnocken_austrian_cheese_dumplings.step_4",
+  "source": "wikibooks_kasnocken_austrian_cheese_dumplings",
+  "sourceRef": {
+    "source": "wikibooks_kasnocken_austrian_cheese_dumplings",
+    "step": 4
+  },
+  "technique": "pan_fry",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "kasnocken_austrian_cheese_dumplings_step_3",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "butter",
+        "amount": {
+          "qty": 70,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "pepper",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "kasnocken_austrian_cheese_dumplings_step_4",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 185,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Melt the butter in a pan, add the dumplings, and season them with salt and pepper.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.34"
+    },
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Pepper': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of pan_fry's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

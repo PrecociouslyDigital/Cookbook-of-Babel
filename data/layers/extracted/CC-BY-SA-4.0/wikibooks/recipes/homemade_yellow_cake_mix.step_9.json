@@ -1,0 +1,48 @@
+{
+  "id": "homemade_yellow_cake_mix.step_9",
+  "source": "wikibooks_homemade_yellow_cake_mix",
+  "sourceRef": {
+    "source": "wikibooks_homemade_yellow_cake_mix",
+    "step": 9
+  },
+  "technique": "cool",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "homemade_yellow_cake_mix_step_8",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "homemade_yellow_cake_mix",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Transfer to a wire rack and leave to cool.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

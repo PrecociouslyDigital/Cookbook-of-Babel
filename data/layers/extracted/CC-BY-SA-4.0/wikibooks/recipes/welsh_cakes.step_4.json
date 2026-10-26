@@ -1,0 +1,48 @@
+{
+  "id": "welsh_cakes.step_4",
+  "source": "wikibooks_welsh_cakes",
+  "sourceRef": {
+    "source": "wikibooks_welsh_cakes",
+    "step": 4
+  },
+  "technique": "knead",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "welsh_cakes_step_3",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "welsh_cakes_step_4",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Knead for two to three minutes until dough becomes cohesive and slightly elastic.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

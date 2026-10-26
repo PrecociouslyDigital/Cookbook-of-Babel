@@ -1,0 +1,62 @@
+{
+  "id": "bean_chili.step_4",
+  "source": "wikibooks_bean_chili",
+  "sourceRef": {
+    "source": "wikibooks_bean_chili",
+    "step": 4
+  },
+  "technique": "simmer",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "bean_chili_step_3",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "common_bean",
+        "amount": {
+          "qty": 1,
+          "unit": "can"
+        }
+      },
+      {
+        "ingredient": "common_bean",
+        "amount": {
+          "qty": 1,
+          "unit": "can"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "bean_chili",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 90,
+    "medium": "simmering_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "h"
+    }
+  },
+  "stateNote": "When mixture is bubbling, reduce heat to simmer and add beans. Cover and simmer for at least 1 hour, stirring occasionally. The longer it simmers, the better it tastes.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of simmer's typical range"
+    }
+  ]
+}

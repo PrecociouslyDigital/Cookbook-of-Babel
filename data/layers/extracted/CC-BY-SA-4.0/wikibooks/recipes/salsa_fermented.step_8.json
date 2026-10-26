@@ -1,0 +1,48 @@
+{
+  "id": "salsa_fermented.step_8",
+  "source": "wikibooks_salsa_fermented",
+  "sourceRef": {
+    "source": "wikibooks_salsa_fermented",
+    "step": 8
+  },
+  "technique": "ferment",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "salsa_fermented_step_7",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "salsa_fermented_step_8",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Cover the jar with a cloth or cling-wrap. Sit the jar in a bowl or on a plate, so that any juice that might overflow will be collected and won't make a mess. Leave to ferment at room temperature.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

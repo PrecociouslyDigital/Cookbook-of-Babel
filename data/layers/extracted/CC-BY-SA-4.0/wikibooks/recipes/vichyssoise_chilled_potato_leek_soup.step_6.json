@@ -1,0 +1,58 @@
+{
+  "id": "vichyssoise_chilled_potato_leek_soup.step_6",
+  "source": "wikibooks_vichyssoise_chilled_potato_leek_soup",
+  "sourceRef": {
+    "source": "wikibooks_vichyssoise_chilled_potato_leek_soup",
+    "step": 6
+  },
+  "technique": "whisk",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "vichyssoise_chilled_potato_leek_soup_step_5",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "vichyssoise_chilled_potato_leek_soup_step_6",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 90,
+    "medium": "simmering_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Add mashed potatoes and whisk vigorously; if the soup is too thick add some of the potato water.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.44"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 90.0 °C for simmering_water"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

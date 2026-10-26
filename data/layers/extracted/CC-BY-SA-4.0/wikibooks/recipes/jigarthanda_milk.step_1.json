@@ -1,0 +1,65 @@
+{
+  "id": "jigarthanda_milk.step_1",
+  "source": "wikibooks_jigarthanda_milk",
+  "sourceRef": {
+    "source": "wikibooks_jigarthanda_milk",
+    "step": 1
+  },
+  "technique": "dissolve",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "almond_gum",
+        "amount": {
+          "qty": 2,
+          "unit": "tbsp"
+        }
+      },
+      {
+        "ingredient": "water",
+        "amount": {
+          "qty": 1,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "jigarthanda_milk_step_1",
+      "amount": {
+        "qty": 266.2,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 3.5,
+      "unit": "h"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Wash and soak almond gum in the water for 3–4 hours or overnight. It should expand in size and form a jelly.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.38"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for almond_gum"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "the step names several durations; used the first"
+    }
+  ]
+}

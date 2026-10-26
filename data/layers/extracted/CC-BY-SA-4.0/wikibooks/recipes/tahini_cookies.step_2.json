@@ -1,0 +1,67 @@
+{
+  "id": "tahini_cookies.step_2",
+  "source": "wikibooks_tahini_cookies",
+  "sourceRef": {
+    "source": "wikibooks_tahini_cookies",
+    "step": 2
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "tahini",
+        "amount": {
+          "qty": 6,
+          "unit": "tbsp"
+        }
+      },
+      {
+        "ingredient": "honey",
+        "amount": {
+          "qty": 0.5,
+          "unit": "cup"
+        }
+      },
+      {
+        "ingredient": "cinnamon",
+        "amount": {
+          "qty": 0.5,
+          "unit": "tsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "tahini_cookies_step_2",
+      "amount": {
+        "qty": 209.5,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "In a medium bowl, stir together the tahini, honey, and cinnamon.",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for tahini, honey, cinnamon"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

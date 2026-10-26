@@ -1,0 +1,58 @@
+{
+  "id": "black_bean_stir_fry.step_9",
+  "source": "wikibooks_black_bean_stir_fry",
+  "sourceRef": {
+    "source": "wikibooks_black_bean_stir_fry",
+    "step": 9
+  },
+  "technique": "stir_fry",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "black_bean_stir_fry_step_8",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "black_bean_stir_fry_step_9",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 215,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 3.5,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Add stock-based sauce and cook for 2 to 5 minutes, or until seafood is cooked; if necessary to prevent mixture from sticking to pan, add remaining stock. (If steaming clams, tightly cover wok.)",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.53"
+    },
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.54"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of stir_fry's typical range"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "id": "fruit_for_the_day_smoothie.step_2",
+  "source": "wikibooks_fruit_for_the_day_smoothie",
+  "sourceRef": {
+    "source": "wikibooks_fruit_for_the_day_smoothie",
+    "step": 2
+  },
+  "technique": "blend",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "fruit_for_the_day_smoothie_step_1",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "fruit_for_the_day_smoothie_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 30,
+      "unit": "s"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Hold down the lid, and blend on low speed for 30 seconds."
+}

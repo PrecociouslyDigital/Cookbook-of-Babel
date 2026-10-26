@@ -1,0 +1,74 @@
+{
+  "id": "callaloo_caribbean_stewed_greens.step_4",
+  "source": "wikibooks_callaloo_caribbean_stewed_greens",
+  "sourceRef": {
+    "source": "wikibooks_callaloo_caribbean_stewed_greens",
+    "step": 4
+  },
+  "technique": "chop",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "callaloo_caribbean_stewed_greens_step_3",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "okra",
+        "amount": {
+          "qty": 8,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "chive",
+        "amount": {
+          "qty": 4,
+          "unit": "stalk"
+        }
+      },
+      {
+        "ingredient": "thyme",
+        "amount": {
+          "qty": 2,
+          "unit": "sprig"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "callaloo_caribbean_stewed_greens_step_4",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Cut okra, chives and thyme into small pieces.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.53"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

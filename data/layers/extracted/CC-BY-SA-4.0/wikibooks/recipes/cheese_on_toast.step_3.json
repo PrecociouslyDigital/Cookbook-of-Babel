@@ -1,0 +1,53 @@
+{
+  "id": "cheese_on_toast.step_3",
+  "source": "wikibooks_cheese_on_toast",
+  "sourceRef": {
+    "source": "wikibooks_cheese_on_toast",
+    "step": 3
+  },
+  "technique": "grill",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "cheese_on_toast_step_2",
+        "amount": {
+          "qty": 0.9,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "cheese_on_toast",
+      "amount": {
+        "qty": 0.9,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 250,
+    "medium": "oven_air"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Broil the cheesy side of the bread until the cheese is bubbling and brown.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of grill's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "id": "cuban_sandwich_ii.step_3",
+  "source": "wikibooks_cuban_sandwich_ii",
+  "sourceRef": {
+    "source": "wikibooks_cuban_sandwich_ii",
+    "step": 3
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "cuban_sandwich_ii_step_2",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "emmental_cheese",
+        "amount": {
+          "qty": 1,
+          "unit": "slice"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "cuban_sandwich_ii_step_3",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Place 1 slice of Swiss cheese on top of the pickles.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

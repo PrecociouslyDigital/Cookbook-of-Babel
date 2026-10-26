@@ -1,0 +1,60 @@
+{
+  "id": "vinegar_pickled_eggs_and_onions.step_6",
+  "source": "wikibooks_vinegar_pickled_eggs_and_onions",
+  "sourceRef": {
+    "source": "wikibooks_vinegar_pickled_eggs_and_onions",
+    "step": 6
+  },
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "vinegar_pickled_eggs_and_onions_step_5",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "onion",
+        "amount": {
+          "qty": 2,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "vinegar_pickled_eggs_and_onions_step_6",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Cut onions into rings 5 mm thick.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'2 medium red or brown onions': 'or' read as pieces"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

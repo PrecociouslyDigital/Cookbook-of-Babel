@@ -1,0 +1,53 @@
+{
+  "id": "memphis_style_bbq_ribs.step_6",
+  "source": "wikibooks_memphis_style_bbq_ribs",
+  "sourceRef": {
+    "source": "wikibooks_memphis_style_bbq_ribs",
+    "step": 6
+  },
+  "technique": "grill",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "memphis_style_bbq_ribs_step_5",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "memphis_style_bbq_ribs_step_6",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 250,
+    "medium": "convection_air"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 4.5,
+      "unit": "h"
+    }
+  },
+  "stateNote": "Place spareribs into smoker or grill for 4–5 hours, basting occasionally with sauce.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.41"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of grill's typical range"
+    }
+  ]
+}

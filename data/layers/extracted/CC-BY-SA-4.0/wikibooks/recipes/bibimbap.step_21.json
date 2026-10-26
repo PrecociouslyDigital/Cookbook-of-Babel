@@ -1,0 +1,58 @@
+{
+  "id": "bibimbap.step_21",
+  "source": "wikibooks_bibimbap",
+  "sourceRef": {
+    "source": "wikibooks_bibimbap",
+    "step": 21
+  },
+  "technique": "fry",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "bibimbap_step_20",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "bibimbap_step_21",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 190,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Cover the dolsots and cook over medium-high heat. Watch carefully near the end to avoid burning the rice on the bottom. To test, use a spoon to scrape the rice from the side. Remember that the bottom cooks more than the sides and that the rice keeps cooking after you remove it from the heat. Do not preheat the dolsots.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.26"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of fry's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

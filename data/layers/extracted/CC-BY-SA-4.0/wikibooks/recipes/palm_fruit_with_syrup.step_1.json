@@ -1,0 +1,48 @@
+{
+  "id": "palm_fruit_with_syrup.step_1",
+  "source": "wikibooks_palm_fruit_with_syrup",
+  "sourceRef": {
+    "source": "wikibooks_palm_fruit_with_syrup",
+    "step": 1
+  },
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "palmyra_palm_fruit",
+        "amount": {
+          "qty": 1,
+          "unit": "kg"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "palm_fruit_with_syrup_step_1",
+      "amount": {
+        "qty": 1000,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Peel the palm fruit, and slice it.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

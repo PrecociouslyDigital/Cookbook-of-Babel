@@ -1,0 +1,72 @@
+{
+  "id": "chicago_sirloin_with_cabernet_balsamic_reduction.step_3",
+  "source": "wikibooks_chicago_sirloin_with_cabernet_balsamic_reduction",
+  "sourceRef": {
+    "source": "wikibooks_chicago_sirloin_with_cabernet_balsamic_reduction",
+    "step": 3
+  },
+  "technique": "pan_fry",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "chicago_sirloin_with_cabernet_balsamic_reduction_step_2",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "garlic",
+        "amount": {
+          "qty": 9,
+          "unit": "clove"
+        }
+      },
+      {
+        "ingredient": "shallot",
+        "amount": {
+          "qty": 4,
+          "unit": "clove"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "chicago_sirloin_with_cabernet_balsamic_reduction_step_3",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 185,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Add the shallots and garlic to the pan and sauté for a few minutes more. Make sure all ingredients are lightly crisped.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.59"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of pan_fry's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

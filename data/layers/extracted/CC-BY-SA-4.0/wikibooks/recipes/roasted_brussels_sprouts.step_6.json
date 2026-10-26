@@ -1,0 +1,53 @@
+{
+  "id": "roasted_brussels_sprouts.step_6",
+  "source": "wikibooks_roasted_brussels_sprouts",
+  "sourceRef": {
+    "source": "wikibooks_roasted_brussels_sprouts",
+    "step": 6
+  },
+  "technique": "separate",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "roasted_brussels_sprouts_step_5",
+        "amount": {
+          "qty": 1.3,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "roasted_brussels_sprouts_step_6",
+      "amount": {
+        "qty": 1.3,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Spread the sprouts on baking sheets so that they're all in a single layer—double-layering them will cause them to steam not brown.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.55"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

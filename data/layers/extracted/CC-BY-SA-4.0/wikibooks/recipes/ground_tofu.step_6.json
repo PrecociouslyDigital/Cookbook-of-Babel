@@ -1,0 +1,53 @@
+{
+  "id": "ground_tofu.step_6",
+  "source": "wikibooks_ground_tofu",
+  "sourceRef": {
+    "source": "wikibooks_ground_tofu",
+    "step": 6
+  },
+  "technique": "chill",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "ground_tofu_step_5",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "ground_tofu",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 3,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Store the ground tofu in the refrigerator. It can be reheated by heating it through in a skillet for whatever application you desire. It can be used as a filling for tacos, sloppy joes, meat sauces for pasta, and the like.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of chill's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

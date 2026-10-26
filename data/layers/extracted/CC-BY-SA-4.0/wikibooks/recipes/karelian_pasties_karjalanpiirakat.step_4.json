@@ -1,0 +1,81 @@
+{
+  "id": "karelian_pasties_karjalanpiirakat.step_4",
+  "source": "wikibooks_karelian_pasties_karjalanpiirakat",
+  "sourceRef": {
+    "source": "wikibooks_karelian_pasties_karjalanpiirakat",
+    "step": 4
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "karelian_pasties_karjalanpiirakat_step_3",
+        "amount": {
+          "qty": 1735.9,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "water",
+        "amount": {
+          "qty": 200,
+          "unit": "ml"
+        }
+      },
+      {
+        "ingredient": "salt",
+        "amount": {
+          "qty": 1.5,
+          "unit": "tsp"
+        }
+      },
+      {
+        "ingredient": "rye",
+        "amount": {
+          "qty": 350,
+          "unit": "ml"
+        }
+      },
+      {
+        "ingredient": "wheat",
+        "amount": {
+          "qty": 150,
+          "unit": "ml"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "karelian_pasties_karjalanpiirakat_step_4",
+      "amount": {
+        "qty": 2444.8,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Mix the flours and salt into the cold water.",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for rye, wheat"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "id": "chipped_beef_on_toast.step_1",
+  "source": "wikibooks_chipped_beef_on_toast",
+  "sourceRef": {
+    "source": "wikibooks_chipped_beef_on_toast",
+    "step": 1
+  },
+  "technique": "fry",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "oil_and_fat",
+        "amount": {
+          "qty": 1.5,
+          "unit": "lb"
+        }
+      },
+      {
+        "ingredient": "wheat_flour",
+        "amount": {
+          "qty": 1.25,
+          "unit": "lb"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "chipped_beef_on_toast_step_1",
+      "amount": {
+        "qty": 1247.4,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 190,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Brown the flour in the melted fat.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.43"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of fry's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

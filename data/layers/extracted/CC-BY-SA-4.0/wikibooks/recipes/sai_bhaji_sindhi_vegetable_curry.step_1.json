@@ -1,0 +1,53 @@
+{
+  "id": "sai_bhaji_sindhi_vegetable_curry.step_1",
+  "source": "wikibooks_sai_bhaji_sindhi_vegetable_curry",
+  "sourceRef": {
+    "source": "wikibooks_sai_bhaji_sindhi_vegetable_curry",
+    "step": 1
+  },
+  "technique": "strain",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "chickpea",
+        "amount": {
+          "qty": 150,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "sai_bhaji_sindhi_vegetable_curry_step_1",
+      "amount": {
+        "qty": 150,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 8,
+      "unit": "h"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Soak the chana dal overnight. Drain and transfer dal to a pot.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.41"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "'overnight' read as 8 hours"
+    }
+  ]
+}

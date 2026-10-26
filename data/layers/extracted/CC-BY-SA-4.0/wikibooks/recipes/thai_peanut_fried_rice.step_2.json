@@ -1,0 +1,77 @@
+{
+  "id": "thai_peanut_fried_rice.step_2",
+  "source": "wikibooks_thai_peanut_fried_rice",
+  "sourceRef": {
+    "source": "wikibooks_thai_peanut_fried_rice",
+    "step": 2
+  },
+  "technique": "pan_fry",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "thai_peanut_fried_rice_step_1",
+        "amount": {
+          "qty": 78.9,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "vegetable_oil",
+        "amount": {
+          "qty": 3,
+          "unit": "tbsp"
+        }
+      },
+      {
+        "ingredient": "egg",
+        "amount": {
+          "qty": 2,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "thai_peanut_fried_rice_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 185,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "In a pan, heat 1 tbsp oil. Fry eggs, then chop them up and remove from the pan.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.54"
+    },
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.54"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of pan_fry's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

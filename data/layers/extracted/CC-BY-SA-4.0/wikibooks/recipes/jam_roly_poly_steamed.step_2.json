@@ -1,0 +1,55 @@
+{
+  "id": "jam_roly_poly_steamed.step_2",
+  "source": "wikibooks_jam_roly_poly_steamed",
+  "sourceRef": {
+    "source": "wikibooks_jam_roly_poly_steamed",
+    "step": 2
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "jam_roly_poly_steamed_step_1",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "fruit_preserves",
+        "amount": {
+          "qty": 200,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "jam_roly_poly_steamed_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Roll out to a rectangle about 25 x 20.5 cm (10 x 8 in) and spread jam to within 2.5 cm (1 in) of the edges. Roll up starting from a short end and seal the edges well with a little water.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": "sylheti_handesh.step_6",
+  "source": "wikibooks_sylheti_handesh",
+  "sourceRef": {
+    "source": "wikibooks_sylheti_handesh",
+    "step": 6
+  },
+  "technique": "cool",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "sylheti_handesh_step_5",
+        "amount": {
+          "qty": 710.1,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "sylheti_handesh",
+      "amount": {
+        "qty": 710.1,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Allow the handesh to cool slightly before serving. They can be enjoyed warm or at room temperature.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.58"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

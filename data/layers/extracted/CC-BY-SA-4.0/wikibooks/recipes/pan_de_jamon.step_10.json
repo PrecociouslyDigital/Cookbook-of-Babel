@@ -1,0 +1,48 @@
+{
+  "id": "pan_de_jamon.step_10",
+  "source": "wikibooks_pan_de_jamon",
+  "sourceRef": {
+    "source": "wikibooks_pan_de_jamon",
+    "step": 10
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "pan_de_jamon_step_9",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "pan_de_jamon_step_10",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Wet the uncovered strip of dough and roll the loaf until the edge is directly on the bottom. This allows the dough to stick to itself and form a tight seal. Pinch and twist the ends of the loaf with wet fingers to seal.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

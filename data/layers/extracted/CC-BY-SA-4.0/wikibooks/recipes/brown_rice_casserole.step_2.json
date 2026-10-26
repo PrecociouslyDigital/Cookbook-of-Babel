@@ -1,0 +1,74 @@
+{
+  "id": "brown_rice_casserole.step_2",
+  "source": "wikibooks_brown_rice_casserole",
+  "sourceRef": {
+    "source": "wikibooks_brown_rice_casserole",
+    "step": 2
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "cheese",
+        "amount": {
+          "qty": 8,
+          "unit": "oz"
+        }
+      },
+      {
+        "ingredient": "mushroom",
+        "amount": {
+          "qty": 4,
+          "unit": "oz"
+        }
+      },
+      {
+        "ingredient": "pea",
+        "amount": {
+          "qty": 15,
+          "unit": "oz"
+        }
+      },
+      {
+        "ingredient": "rice",
+        "amount": {
+          "qty": 3,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "brown_rice_casserole_step_2",
+      "amount": {
+        "qty": 1475.2,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Combine cheese, mushrooms, peas, and rice in large bowl.",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for rice"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

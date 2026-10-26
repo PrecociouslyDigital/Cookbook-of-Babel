@@ -1,0 +1,74 @@
+{
+  "id": "thai_grilled_chicken_ii.step_2",
+  "source": "wikibooks_thai_grilled_chicken_ii",
+  "sourceRef": {
+    "source": "wikibooks_thai_grilled_chicken_ii",
+    "step": 2
+  },
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "thai_grilled_chicken_ii_step_1",
+        "amount": {
+          "qty": 567,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "garlic",
+        "amount": {
+          "qty": 1,
+          "unit": "tsp"
+        }
+      },
+      {
+        "ingredient": "soy_sauce",
+        "amount": {
+          "qty": 0.25,
+          "unit": "cup"
+        }
+      },
+      {
+        "ingredient": "cayenne_pepper",
+        "amount": {
+          "qty": 0.5,
+          "unit": "tsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "thai_grilled_chicken_ii_step_2",
+      "amount": {
+        "qty": 633.5,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Combine soy sauce, garlic and pepper flakes in measuring cup. Pour over chicken, turning to coat.",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for garlic, soy_sauce, cayenne_pepper"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

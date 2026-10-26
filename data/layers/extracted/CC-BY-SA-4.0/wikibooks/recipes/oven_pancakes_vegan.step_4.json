@@ -1,0 +1,65 @@
+{
+  "id": "oven_pancakes_vegan.step_4",
+  "source": "wikibooks_oven_pancakes_vegan",
+  "sourceRef": {
+    "source": "wikibooks_oven_pancakes_vegan",
+    "step": 4
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "oven_pancakes_vegan_step_3",
+        "amount": {
+          "qty": 438.5,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "cider_vinegar",
+        "amount": {
+          "qty": 1,
+          "unit": "tbsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "oven_pancakes_vegan_step_4",
+      "amount": {
+        "qty": 453.3,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 230,
+    "medium": "oven_air"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Stir in the apple cider vinegar, mix well, and pour immediately into the skillet.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.43"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for cider_vinegar"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

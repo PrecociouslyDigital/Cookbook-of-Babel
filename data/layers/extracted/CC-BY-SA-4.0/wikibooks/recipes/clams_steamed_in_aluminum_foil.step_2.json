@@ -1,0 +1,48 @@
+{
+  "id": "clams_steamed_in_aluminum_foil.step_2",
+  "source": "wikibooks_clams_steamed_in_aluminum_foil",
+  "sourceRef": {
+    "source": "wikibooks_clams_steamed_in_aluminum_foil",
+    "step": 2
+  },
+  "technique": "rinse",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "clam",
+        "amount": {
+          "qty": 2,
+          "unit": "lb"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "clams_steamed_in_aluminum_foil_step_2",
+      "amount": {
+        "qty": 907.2,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Clean clams.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

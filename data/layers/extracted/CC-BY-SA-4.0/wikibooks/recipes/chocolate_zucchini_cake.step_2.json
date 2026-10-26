@@ -1,0 +1,69 @@
+{
+  "id": "chocolate_zucchini_cake.step_2",
+  "source": "wikibooks_chocolate_zucchini_cake",
+  "sourceRef": {
+    "source": "wikibooks_chocolate_zucchini_cake",
+    "step": 2
+  },
+  "technique": "blend",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "chocolate_zucchini_cake_step_1",
+        "amount": {
+          "qty": 575.4,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "egg",
+        "amount": {
+          "qty": 2,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "milk",
+        "amount": {
+          "qty": 120,
+          "unit": "ml"
+        }
+      },
+      {
+        "ingredient": "vanilla",
+        "amount": {
+          "qty": 5,
+          "unit": "ml"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "chocolate_zucchini_cake_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Add eggs, sour milk, and vanilla. Blend well.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

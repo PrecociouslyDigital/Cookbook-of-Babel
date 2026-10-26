@@ -1,0 +1,88 @@
+{
+  "id": "asida_sudanese_porridge.step_5",
+  "source": "wikibooks_asida_sudanese_porridge",
+  "sourceRef": {
+    "source": "wikibooks_asida_sudanese_porridge",
+    "step": 5
+  },
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "asida_sudanese_porridge_step_4",
+        "amount": {
+          "qty": 725.5,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "honey",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      },
+      {
+        "min": 0,
+        "max": 1,
+        "of": [
+          {
+            "ingredient": "cinnamon",
+            "amount": {
+              "qty": 1,
+              "unit": "pinch"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "asida_sudanese_porridge_step_5",
+      "amount": {
+        "qty": 726.1,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Make a small well in the center of the asida and fill it with honey or place a few dates. Sprinkle ground cinnamon or cardamom over the top for additional flavor, if desired.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.45"
+    },
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Honey or dates': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Ground cinnamon or cardamom (optional)': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for honey, cinnamon"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

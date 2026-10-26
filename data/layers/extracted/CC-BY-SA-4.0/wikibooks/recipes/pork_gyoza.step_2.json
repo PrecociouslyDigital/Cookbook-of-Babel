@@ -1,0 +1,70 @@
+{
+  "id": "pork_gyoza.step_2",
+  "source": "wikibooks_pork_gyoza",
+  "sourceRef": {
+    "source": "wikibooks_pork_gyoza",
+    "step": 2
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "pork_gyoza_step_1",
+        "amount": {
+          "qty": 281,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "wonton_wrappers",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "pork_gyoza_step_2",
+      "amount": {
+        "qty": 281.3,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Get out your dumpling skins, and cover them with a damp tea-towel or paper towel to prevent them from drying out.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.46"
+    },
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'At least 50 round wonton wrappers or other round dumpling skins (see note below)': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for wonton_wrappers"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

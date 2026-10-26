@@ -1,0 +1,97 @@
+{
+  "id": "eggplant_parmesan_melanzane_alla_parmigiana_i.step_4",
+  "source": "wikibooks_eggplant_parmesan_melanzane_alla_parmigiana_i",
+  "sourceRef": {
+    "source": "wikibooks_eggplant_parmesan_melanzane_alla_parmigiana_i",
+    "step": 4
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "eggplant_parmesan_melanzane_alla_parmigiana_i_step_3",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "tomato_sauce",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      },
+      {
+        "ingredient": "mozzarella_cheese",
+        "amount": {
+          "qty": 250,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "parmesan_cheese",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      },
+      {
+        "min": 0,
+        "max": 1,
+        "of": [
+          {
+            "ingredient": "basil",
+            "amount": {
+              "qty": 1,
+              "unit": "pinch"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "eggplant_parmesan_melanzane_alla_parmigiana_i_step_4",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Layer the eggplant slices, tomato sauce, then mozzarella and Parmesan cheese in a baking dish. Some cooks add fresh basil leaves. Make as many layers as you wish, but 3 or 4 should be enough.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Tomato sauce': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Grated Parmesan cheese': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Fresh basil (optional)': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

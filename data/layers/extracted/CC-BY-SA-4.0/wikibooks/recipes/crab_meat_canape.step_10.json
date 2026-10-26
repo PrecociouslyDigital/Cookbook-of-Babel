@@ -1,0 +1,72 @@
+{
+  "id": "crab_meat_canape.step_10",
+  "source": "wikibooks_crab_meat_canape",
+  "sourceRef": {
+    "source": "wikibooks_crab_meat_canape",
+    "step": 10
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "crab_meat_canape_step_9",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "parsley",
+        "amount": {
+          "qty": 1,
+          "unit": "tsp"
+        }
+      },
+      {
+        "ingredient": "lemon",
+        "amount": {
+          "qty": 1,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "crab_meat_canape",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Garnish each serving with flat-leaf parsley and a wedge of lemon.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    },
+    {
+      "field": "inputs",
+      "kind": "missing",
+      "note": "no step uses 'Salt to taste' (p=0.98)"
+    },
+    {
+      "field": "inputs",
+      "kind": "missing",
+      "note": "no step uses 'White pepper to taste' (p=0.78)"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": "nigerian_oto_mboro_recipe.step_11",
+  "source": "wikibooks_nigerian_oto_mboro_recipe",
+  "sourceRef": {
+    "source": "wikibooks_nigerian_oto_mboro_recipe",
+    "step": 11
+  },
+  "technique": "separate",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "nigerian_oto_mboro_recipe_step_10",
+        "amount": {
+          "qty": 2.4,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "nigerian_oto_mboro_recipe_step_11",
+      "amount": {
+        "qty": 2.4,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 100,
+    "medium": "steam"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Turn your steamed meat into a clean bowl",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.43"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 100.0 °C for steam"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

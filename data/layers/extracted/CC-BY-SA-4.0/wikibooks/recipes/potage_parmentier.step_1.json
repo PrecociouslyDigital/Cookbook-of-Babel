@@ -1,0 +1,53 @@
+{
+  "id": "potage_parmentier.step_1",
+  "source": "wikibooks_potage_parmentier",
+  "sourceRef": {
+    "source": "wikibooks_potage_parmentier",
+    "step": 1
+  },
+  "technique": "rinse",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "leek",
+        "amount": {
+          "qty": 3.5,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "potage_parmentier_step_1",
+      "amount": {
+        "qty": 828.1,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "If using leeks, remove the roots and dark green leaves; wash twice as long as you think necessary to remove the grit.",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for leek"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

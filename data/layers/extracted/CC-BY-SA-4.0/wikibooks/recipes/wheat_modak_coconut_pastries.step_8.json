@@ -1,0 +1,48 @@
+{
+  "id": "wheat_modak_coconut_pastries.step_8",
+  "source": "wikibooks_wheat_modak_coconut_pastries",
+  "sourceRef": {
+    "source": "wikibooks_wheat_modak_coconut_pastries",
+    "step": 8
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "wheat_modak_coconut_pastries_step_7",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "wheat_modak_coconut_pastries_step_8",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Put a tablespoon-sized lump of filling in the middle (it should be hardening well by now), wet the edges with a finger, and fold up the sides, crimping the dough into a peak at the top to completely seal in the filling.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

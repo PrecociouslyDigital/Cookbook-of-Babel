@@ -1,0 +1,58 @@
+{
+  "id": "deluxe_burgers.step_5",
+  "source": "wikibooks_deluxe_burgers",
+  "sourceRef": {
+    "source": "wikibooks_deluxe_burgers",
+    "step": 5
+  },
+  "technique": "grill",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "deluxe_burgers_step_4",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "deluxe_burgers",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 250,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 3,
+      "unit": "min"
+    }
+  },
+  "stateNote": "During the last 3 minutes, put ¼ cup cheese mixture on top of each burger.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.51"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of grill's typical range"
+    },
+    {
+      "field": "inputs",
+      "kind": "missing",
+      "note": "no step uses '6 split hamburger buns' (p=0.99)"
+    }
+  ]
+}

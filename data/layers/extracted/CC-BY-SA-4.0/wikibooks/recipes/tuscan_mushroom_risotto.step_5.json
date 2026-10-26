@@ -1,0 +1,67 @@
+{
+  "id": "tuscan_mushroom_risotto.step_5",
+  "source": "wikibooks_tuscan_mushroom_risotto",
+  "sourceRef": {
+    "source": "wikibooks_tuscan_mushroom_risotto",
+    "step": 5
+  },
+  "technique": "simmer",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "tuscan_mushroom_risotto_step_4",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "broth_and_stock",
+        "amount": {
+          "qty": 5,
+          "unit": "cup"
+        }
+      },
+      {
+        "ingredient": "cream",
+        "amount": {
+          "qty": 0.25,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "tuscan_mushroom_risotto_step_5",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 90,
+    "medium": "simmering_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 25,
+      "unit": "min"
+    }
+  },
+  "stateNote": "With lid off, add chicken or vegetable broth, add cream, and let simmer on low until liquid is absorbed, approximately 25 minutes, stirring regularly.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.59"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of simmer's typical range"
+    }
+  ]
+}

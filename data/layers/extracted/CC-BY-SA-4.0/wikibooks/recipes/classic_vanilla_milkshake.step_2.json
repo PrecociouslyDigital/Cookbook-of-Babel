@@ -1,0 +1,67 @@
+{
+  "id": "classic_vanilla_milkshake.step_2",
+  "source": "wikibooks_classic_vanilla_milkshake",
+  "sourceRef": {
+    "source": "wikibooks_classic_vanilla_milkshake",
+    "step": 2
+  },
+  "technique": "blend",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "classic_vanilla_milkshake_step_1",
+        "amount": {
+          "qty": 776,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "white_sugar",
+        "amount": {
+          "qty": 35,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "vanilla",
+        "amount": {
+          "qty": 0.125,
+          "unit": "tsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "classic_vanilla_milkshake",
+      "amount": {
+        "qty": 811.6,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Add the sugar and flavoring, and blend until thoroughly mixed.",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for vanilla"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "id": "apple_streusel_muffins.step_4",
+  "source": "wikibooks_apple_streusel_muffins",
+  "sourceRef": {
+    "source": "wikibooks_apple_streusel_muffins",
+    "step": 4
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "apple_streusel_muffins_step_3",
+        "amount": {
+          "qty": 526.5,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "egg",
+        "amount": {
+          "qty": 1,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "milk",
+        "amount": {
+          "qty": 0.6666666666666666,
+          "unit": "cup"
+        }
+      },
+      {
+        "ingredient": "oil_and_fat",
+        "amount": {
+          "qty": 0.25,
+          "unit": "cup"
+        }
+      },
+      {
+        "ingredient": "apple",
+        "amount": {
+          "qty": 1,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "apple_streusel_muffins_step_4",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Beat egg, milk, and oil in a small bowl. Stir in apple. Pour into well. Stir until just moistened.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'1 grated apple': 'grated' read as pieces"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

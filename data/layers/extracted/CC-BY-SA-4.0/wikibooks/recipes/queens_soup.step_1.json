@@ -1,0 +1,65 @@
+{
+  "id": "queens_soup.step_1",
+  "source": "wikibooks_queens_soup",
+  "sourceRef": {
+    "source": "wikibooks_queens_soup",
+    "step": 1
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "rice",
+        "amount": {
+          "qty": 1,
+          "unit": "tbsp"
+        }
+      },
+      {
+        "ingredient": "milk",
+        "amount": {
+          "qty": 0.5,
+          "unit": "pt"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "queens_soup_step_1",
+      "amount": {
+        "qty": 258.5,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Put the ground rice into a saucepan. Gradually add the milk.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.41"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for rice"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

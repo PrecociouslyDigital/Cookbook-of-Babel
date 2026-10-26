@@ -1,0 +1,48 @@
+{
+  "id": "thick_crust_pizza.step_6",
+  "source": "wikibooks_thick_crust_pizza",
+  "sourceRef": {
+    "source": "wikibooks_thick_crust_pizza",
+    "step": 6
+  },
+  "technique": "knead",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "thick_crust_pizza_step_5",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "thick_crust_pizza_step_6",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Spread out parchment paper, and sprinkle with flour. Transfer dough from mixing bowl onto parchment paper. Knead. Repeatedly add more flour until dough feels fairly dry and consistent.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

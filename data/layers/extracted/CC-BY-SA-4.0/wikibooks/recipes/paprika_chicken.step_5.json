@@ -1,0 +1,89 @@
+{
+  "id": "paprika_chicken.step_5",
+  "source": "wikibooks_paprika_chicken",
+  "sourceRef": {
+    "source": "wikibooks_paprika_chicken",
+    "step": 5
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "paprika_chicken_step_4",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "sour_cream",
+        "amount": {
+          "qty": 1,
+          "unit": "cup"
+        }
+      },
+      {
+        "ingredient": "cream",
+        "amount": {
+          "qty": 0.375,
+          "unit": "cup"
+        }
+      },
+      {
+        "ingredient": "parsley",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "paprika_chicken",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 180,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Add the sour cream and heavy cream to the gravy and stir. Add fresh chopped parsley on the top.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.52"
+    },
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Fresh green parsley': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 180.0 °C for pan_contact"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    },
+    {
+      "field": "inputs",
+      "kind": "missing",
+      "note": "no step uses '1 onion (optional), thinly sliced' (p=0.63)"
+    }
+  ]
+}

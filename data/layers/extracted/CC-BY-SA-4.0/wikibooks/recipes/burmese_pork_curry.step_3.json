@@ -1,0 +1,62 @@
+{
+  "id": "burmese_pork_curry.step_3",
+  "source": "wikibooks_burmese_pork_curry",
+  "sourceRef": {
+    "source": "wikibooks_burmese_pork_curry",
+    "step": 3
+  },
+  "technique": "grind",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "burmese_pork_curry_step_2",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "shrimp_paste",
+        "amount": {
+          "qty": 15,
+          "unit": "ml"
+        }
+      },
+      {
+        "ingredient": "brown_sugar",
+        "amount": {
+          "qty": 30,
+          "unit": "ml"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "burmese_pork_curry_step_3",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Add the shrimp paste and fine sugar, and continue grinding to a dark grainy paste.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

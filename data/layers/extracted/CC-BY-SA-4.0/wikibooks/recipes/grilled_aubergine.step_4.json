@@ -1,0 +1,84 @@
+{
+  "id": "grilled_aubergine.step_4",
+  "source": "wikibooks_grilled_aubergine",
+  "sourceRef": {
+    "source": "wikibooks_grilled_aubergine",
+    "step": 4
+  },
+  "technique": "simmer",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "grilled_aubergine_step_3",
+        "amount": {
+          "qty": 375.3,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "miso",
+        "amount": {
+          "qty": 2,
+          "unit": "tbsp"
+        }
+      },
+      {
+        "ingredient": "white_sugar",
+        "amount": {
+          "qty": 1.5,
+          "unit": "tbsp"
+        }
+      },
+      {
+        "ingredient": "broth_and_stock",
+        "amount": {
+          "qty": 2,
+          "unit": "tbsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "grilled_aubergine_step_4",
+      "amount": {
+        "qty": 453.3,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 90,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "In a small saucepan combine the miso, sugar, and soup stock. Cook, stirring, over low heat until the mixture is smooth and hot. Do not let it boil.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.53"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for miso, broth_and_stock"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of simmer's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

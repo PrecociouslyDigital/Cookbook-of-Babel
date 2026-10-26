@@ -1,0 +1,53 @@
+{
+  "id": "traditional_pie_crust.step_4",
+  "source": "wikibooks_traditional_pie_crust",
+  "sourceRef": {
+    "source": "wikibooks_traditional_pie_crust",
+    "step": 4
+  },
+  "technique": "cool",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "traditional_pie_crust_step_3",
+        "amount": {
+          "qty": 560.7,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "traditional_pie_crust",
+      "amount": {
+        "qty": 560.7,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Roll out the dough in a cool place, and use in your recipe.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.4"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

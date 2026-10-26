@@ -1,0 +1,62 @@
+{
+  "id": "marzipan_cake.step_11",
+  "source": "wikibooks_marzipan_cake",
+  "sourceRef": {
+    "source": "wikibooks_marzipan_cake",
+    "step": 11
+  },
+  "technique": "whisk",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "marzipan_cake_step_10",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "pectin",
+        "amount": {
+          "qty": 2,
+          "unit": "package"
+        }
+      },
+      {
+        "ingredient": "cream",
+        "amount": {
+          "qty": 600,
+          "unit": "ml"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "marzipan_cake_step_11",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Whip the cream with pectin stiffly according to the package instructions. Mix in the marzipan.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

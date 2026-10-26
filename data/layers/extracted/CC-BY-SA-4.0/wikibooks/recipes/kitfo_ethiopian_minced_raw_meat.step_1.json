@@ -1,0 +1,48 @@
+{
+  "id": "kitfo_ethiopian_minced_raw_meat.step_1",
+  "source": "wikibooks_kitfo_ethiopian_minced_raw_meat",
+  "sourceRef": {
+    "source": "wikibooks_kitfo_ethiopian_minced_raw_meat",
+    "step": 1
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "beef",
+        "amount": {
+          "qty": 500,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "kitfo_ethiopian_minced_raw_meat_step_1",
+      "amount": {
+        "qty": 500,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Place the minced beef in a large bowl.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": "soy_lentil_vegetable_stew.step_6",
+  "source": "wikibooks_soy_lentil_vegetable_stew",
+  "sourceRef": {
+    "source": "wikibooks_soy_lentil_vegetable_stew",
+    "step": 6
+  },
+  "technique": "simmer",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "soy_lentil_vegetable_stew_step_5",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "soy_lentil_vegetable_stew",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 90,
+    "medium": "simmering_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 6.5,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Simmer the mixture until the lentils are soft (usually 5–8 minutes).",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of simmer's typical range"
+    },
+    {
+      "field": "inputs",
+      "kind": "missing",
+      "note": "no step uses '8 g nutritional yeast flakes' (p=0.94)"
+    }
+  ]
+}

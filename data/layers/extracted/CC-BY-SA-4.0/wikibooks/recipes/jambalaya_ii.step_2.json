@@ -1,0 +1,48 @@
+{
+  "id": "jambalaya_ii.step_2",
+  "source": "wikibooks_jambalaya_ii",
+  "sourceRef": {
+    "source": "wikibooks_jambalaya_ii",
+    "step": 2
+  },
+  "technique": "separate",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "jambalaya_ii_step_1",
+        "amount": {
+          "qty": 1407.6,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "jambalaya_ii_step_2",
+      "amount": {
+        "qty": 1407.6,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Remove chicken from skillet.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

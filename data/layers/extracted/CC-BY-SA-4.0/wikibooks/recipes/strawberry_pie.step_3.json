@@ -1,0 +1,60 @@
+{
+  "id": "strawberry_pie.step_3",
+  "source": "wikibooks_strawberry_pie",
+  "sourceRef": {
+    "source": "wikibooks_strawberry_pie",
+    "step": 3
+  },
+  "technique": "bake",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "strawberry_pie_step_2",
+        "amount": {
+          "qty": 444.9,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "whipped_cream",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "strawberry_pie",
+      "amount": {
+        "qty": 445.2,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 176.66666666666666,
+    "medium": "oven_air"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 60,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Bake in the oven at 350°F for 60 minutes or until golden brown. Remove pie, and let it cool.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Whipped cream': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for whipped_cream"
+    }
+  ]
+}

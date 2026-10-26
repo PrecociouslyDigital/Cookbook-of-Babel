@@ -1,0 +1,62 @@
+{
+  "id": "dahi_baingana_fried_eggplant_in_yogurt.step_2",
+  "source": "wikibooks_dahi_baingana_fried_eggplant_in_yogurt",
+  "sourceRef": {
+    "source": "wikibooks_dahi_baingana_fried_eggplant_in_yogurt",
+    "step": 2
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "dahi_baingana_fried_eggplant_in_yogurt_step_1",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "yogurt",
+        "amount": {
+          "qty": 2,
+          "unit": "tbsp"
+        }
+      },
+      {
+        "ingredient": "water",
+        "amount": {
+          "qty": 250,
+          "unit": "ml"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "dahi_baingana_fried_eggplant_in_yogurt_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Mix dahi with water.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": "american_marinara_sauce_i.step_12",
+  "source": "wikibooks_american_marinara_sauce_i",
+  "sourceRef": {
+    "source": "wikibooks_american_marinara_sauce_i",
+    "step": 12
+  },
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "american_marinara_sauce_i_step_11",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "american_marinara_sauce_i",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Taste and season accordingly. You do not want the sauce to be salty, just not unsalty. You do not want the sauce to be sweet, just not sour. Season by adding the remaining salt and sugar a little at a time, stirring completely between tastes.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.38"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

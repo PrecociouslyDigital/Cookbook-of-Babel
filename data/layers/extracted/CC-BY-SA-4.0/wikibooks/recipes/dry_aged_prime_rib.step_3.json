@@ -1,0 +1,48 @@
+{
+  "id": "dry_aged_prime_rib.step_3",
+  "source": "wikibooks_dry_aged_prime_rib",
+  "sourceRef": {
+    "source": "wikibooks_dry_aged_prime_rib",
+    "step": 3
+  },
+  "technique": "bake",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "dry_aged_prime_rib_step_2",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "dry_aged_prime_rib_step_3",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 93.33333333333333,
+    "medium": "oven_air"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Insert an oven-safe probe thermometer into the roast. Bake at 200°F until internal temperature reaches 118°F.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

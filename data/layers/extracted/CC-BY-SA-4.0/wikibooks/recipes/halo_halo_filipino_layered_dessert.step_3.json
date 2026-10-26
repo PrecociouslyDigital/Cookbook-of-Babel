@@ -1,0 +1,74 @@
+{
+  "id": "halo_halo_filipino_layered_dessert.step_3",
+  "source": "wikibooks_halo_halo_filipino_layered_dessert",
+  "sourceRef": {
+    "source": "wikibooks_halo_halo_filipino_layered_dessert",
+    "step": 3
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "halo_halo_filipino_layered_dessert_step_2",
+        "amount": {
+          "qty": 744.3,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "ice_cream",
+        "amount": {
+          "qty": 2,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "inch_cubes_leche_flan",
+        "amount": {
+          "qty": 2,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "condensed_milk",
+        "amount": {
+          "qty": 0.5,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "halo_halo_filipino_layered_dessert_step_3",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Top with ube ice cream and leche flan, then pour the evaporated milk over everything.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'2 scoops ube ice cream': 'scoops' read as pieces"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

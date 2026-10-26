@@ -1,0 +1,53 @@
+{
+  "id": "red_cross_fudge.step_6",
+  "source": "wikibooks_red_cross_fudge",
+  "sourceRef": {
+    "source": "wikibooks_red_cross_fudge",
+    "step": 6
+  },
+  "technique": "chill",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "red_cross_fudge_step_5",
+        "amount": {
+          "qty": 2176.7,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "red_cross_fudge",
+      "amount": {
+        "qty": 2176.7,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Store in an air-tight container.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.5"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

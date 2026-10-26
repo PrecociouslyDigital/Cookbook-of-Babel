@@ -1,0 +1,79 @@
+{
+  "id": "herrencreme_german_custard_dessert.step_1",
+  "source": "wikibooks_herrencreme_german_custard_dessert",
+  "sourceRef": {
+    "source": "wikibooks_herrencreme_german_custard_dessert",
+    "step": 1
+  },
+  "technique": "heat",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "milk",
+        "amount": {
+          "qty": 1,
+          "unit": "l"
+        }
+      },
+      {
+        "ingredient": "white_sugar",
+        "amount": {
+          "qty": 6,
+          "unit": "tbsp"
+        }
+      },
+      {
+        "ingredient": "custard_powder",
+        "amount": {
+          "qty": 88,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "salt",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "herrencreme_german_custard_dessert_step_1",
+      "amount": {
+        "qty": 1193.8,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 180,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Combine milk, sugar, salt, and custard powder in a saucepan. Cook, stirring, over medium heat until it has thickened.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.52"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 180.0 °C for pan_contact"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "id": "kashkaval_pane_bulgarian_fried_cheese.step_7",
+  "source": "wikibooks_kashkaval_pane_bulgarian_fried_cheese",
+  "sourceRef": {
+    "source": "wikibooks_kashkaval_pane_bulgarian_fried_cheese",
+    "step": 7
+  },
+  "technique": "strain",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "kashkaval_pane_bulgarian_fried_cheese_step_6",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "parsley",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "kashkaval_pane_bulgarian_fried_cheese",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 20,
+    "medium": "still_air"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Drain on paper towels and serve hot, garnished with parsley. Enjoy!",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.46"
+    },
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Flat-leaf parsley to garnish': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 20.0 °C for still_air"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

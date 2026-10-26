@@ -1,0 +1,65 @@
+{
+  "id": "nigerian_turmeric_rice.step_2",
+  "source": "wikibooks_nigerian_turmeric_rice",
+  "sourceRef": {
+    "source": "wikibooks_nigerian_turmeric_rice",
+    "step": 2
+  },
+  "technique": "rinse",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "nigerian_turmeric_rice_step_1",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "rice",
+        "amount": {
+          "qty": 1.5,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "nigerian_turmeric_rice_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 100,
+    "medium": "boiling_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 10,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Parboil the rice for about 10 minutes. Drain the rice in a sieve, and immediately rinse with cold water.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.43"
+    },
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'1½ de Rica can of long-grain rice': 'de' read as pieces"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 100.0 °C for boiling_water"
+    }
+  ]
+}

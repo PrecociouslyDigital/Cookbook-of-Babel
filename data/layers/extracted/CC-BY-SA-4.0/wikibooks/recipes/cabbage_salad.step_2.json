@@ -1,0 +1,81 @@
+{
+  "id": "cabbage_salad.step_2",
+  "source": "wikibooks_cabbage_salad",
+  "sourceRef": {
+    "source": "wikibooks_cabbage_salad",
+    "step": 2
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "cabbage_salad_step_1",
+        "amount": {
+          "qty": 500,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "vegetable_oil",
+        "amount": {
+          "qty": 100,
+          "unit": "ml"
+        }
+      },
+      {
+        "ingredient": "vinegar",
+        "amount": {
+          "qty": 2,
+          "unit": "tbsp"
+        }
+      },
+      {
+        "ingredient": "salt",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      },
+      {
+        "ingredient": "pepper",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "cabbage_salad_step_2",
+      "amount": {
+        "qty": 622.3,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Make a dressing of oil, vinegar, salt, and pepper. Toss the cabbage with the dressing.",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for vinegar, pepper"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

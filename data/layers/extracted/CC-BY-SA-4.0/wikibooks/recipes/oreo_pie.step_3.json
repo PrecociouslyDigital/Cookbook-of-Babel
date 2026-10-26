@@ -1,0 +1,55 @@
+{
+  "id": "oreo_pie.step_3",
+  "source": "wikibooks_oreo_pie",
+  "sourceRef": {
+    "source": "wikibooks_oreo_pie",
+    "step": 3
+  },
+  "technique": "grind",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "oreo_pie_step_2",
+        "amount": {
+          "qty": 2232.9,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "cookie",
+        "amount": {
+          "qty": 1,
+          "unit": "package"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "oreo_pie_step_3",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Crumble the Oreos. This can be done by putting the Oreos into a plastic bag and crushing them with a rolling pin.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

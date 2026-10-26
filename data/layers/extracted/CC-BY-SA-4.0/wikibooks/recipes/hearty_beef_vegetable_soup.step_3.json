@@ -1,0 +1,91 @@
+{
+  "id": "hearty_beef_vegetable_soup.step_3",
+  "source": "wikibooks_hearty_beef_vegetable_soup",
+  "sourceRef": {
+    "source": "wikibooks_hearty_beef_vegetable_soup",
+    "step": 3
+  },
+  "technique": "boil",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "hearty_beef_vegetable_soup_step_2",
+        "amount": {
+          "qty": 586.7,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "broth_and_stock",
+        "amount": {
+          "qty": 28,
+          "unit": "oz"
+        }
+      },
+      {
+        "ingredient": "water",
+        "amount": {
+          "qty": 4,
+          "unit": "cup"
+        }
+      },
+      {
+        "ingredient": "celery",
+        "amount": {
+          "qty": 0.5,
+          "unit": "cup"
+        }
+      },
+      {
+        "ingredient": "basil",
+        "amount": {
+          "qty": 2,
+          "unit": "tsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "hearty_beef_vegetable_soup_step_3",
+      "amount": {
+        "qty": 2455.1,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 100,
+    "medium": "boiling_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Stir in beef broth, water, celery, and basil; bring to a boil.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.58"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for celery, basil"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of boil's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

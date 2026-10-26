@@ -1,0 +1,65 @@
+{
+  "id": "friggione_onion_and_tomato_relish.step_2",
+  "source": "wikibooks_friggione_onion_and_tomato_relish",
+  "sourceRef": {
+    "source": "wikibooks_friggione_onion_and_tomato_relish",
+    "step": 2
+  },
+  "technique": "pan_fry",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "friggione_onion_and_tomato_relish_step_1",
+        "amount": {
+          "qty": 0.3,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "onion",
+        "amount": {
+          "qty": 1,
+          "unit": "kg"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "friggione_onion_and_tomato_relish_step_2",
+      "amount": {
+        "qty": 1000.3,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 185,
+    "medium": "frying_oil"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "h"
+    }
+  },
+  "stateNote": "Cook the onions in the oil over low heat for at least 1 hour, until they are soft. Stir occasionally to keep them from sticking, and add a little more oil if necessary.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.39"
+    },
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.55"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of pan_fry's typical range"
+    }
+  ]
+}

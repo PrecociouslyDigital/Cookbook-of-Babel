@@ -1,0 +1,55 @@
+{
+  "id": "cucumber_and_radish_salad.step_1",
+  "source": "wikibooks_cucumber_and_radish_salad",
+  "sourceRef": {
+    "source": "wikibooks_cucumber_and_radish_salad",
+    "step": 1
+  },
+  "technique": "chop",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "cucumber",
+        "amount": {
+          "qty": 1,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "radish",
+        "amount": {
+          "qty": 3.5,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "cucumber_and_radish_salad_step_1",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Chop cucumbers and radishes into small cubes (about ¼ inch on the side).",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

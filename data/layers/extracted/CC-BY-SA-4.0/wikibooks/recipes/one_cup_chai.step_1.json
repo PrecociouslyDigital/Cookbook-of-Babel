@@ -1,0 +1,53 @@
+{
+  "id": "one_cup_chai.step_1",
+  "source": "wikibooks_one_cup_chai",
+  "sourceRef": {
+    "source": "wikibooks_one_cup_chai",
+    "step": 1
+  },
+  "technique": "heat",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "water",
+        "amount": {
+          "qty": 0.75,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "one_cup_chai_step_1",
+      "amount": {
+        "qty": 177.4,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 180,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Place the water in a pot on the stovetop on the lowest setting, or just below a boil. The more you let evaporate, the stronger the chai's flavor will be.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 180.0 °C for pan_contact"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

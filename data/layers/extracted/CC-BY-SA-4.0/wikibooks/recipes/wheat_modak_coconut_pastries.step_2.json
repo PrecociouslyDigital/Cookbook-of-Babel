@@ -1,0 +1,60 @@
+{
+  "id": "wheat_modak_coconut_pastries.step_2",
+  "source": "wikibooks_wheat_modak_coconut_pastries",
+  "sourceRef": {
+    "source": "wikibooks_wheat_modak_coconut_pastries",
+    "step": 2
+  },
+  "technique": "age",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "wheat_modak_coconut_pastries_step_1",
+        "amount": {
+          "qty": 599.3,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "oil_and_fat",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "wheat_modak_coconut_pastries_step_2",
+      "amount": {
+        "qty": 599.6,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "h"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Grease the dough with oil and leave covered for 1 hour.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Oil for frying': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for oil_and_fat"
+    }
+  ]
+}

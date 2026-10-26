@@ -1,0 +1,53 @@
+{
+  "id": "hot_pepper_sauce.step_2",
+  "source": "wikibooks_hot_pepper_sauce",
+  "sourceRef": {
+    "source": "wikibooks_hot_pepper_sauce",
+    "step": 2
+  },
+  "technique": "simmer",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "hot_pepper_sauce_step_1",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "hot_pepper_sauce_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 90,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 17.5,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Heat to boiling and simmer for 15–20 minutes.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.47"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of simmer's typical range"
+    }
+  ]
+}

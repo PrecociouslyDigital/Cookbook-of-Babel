@@ -1,0 +1,55 @@
+{
+  "id": "no_bake_matsa_cake.step_2",
+  "source": "wikibooks_no_bake_matsa_cake",
+  "sourceRef": {
+    "source": "wikibooks_no_bake_matsa_cake",
+    "step": 2
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "no_bake_matsa_cake_step_1",
+        "amount": {
+          "qty": 538.6,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "matzo",
+        "amount": {
+          "qty": 7,
+          "unit": "sheet"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "no_bake_matsa_cake_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Add this mixture to the crumbled matzah and mix well.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

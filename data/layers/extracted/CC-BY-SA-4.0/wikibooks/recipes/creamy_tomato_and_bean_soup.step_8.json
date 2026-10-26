@@ -1,0 +1,70 @@
+{
+  "id": "creamy_tomato_and_bean_soup.step_8",
+  "source": "wikibooks_creamy_tomato_and_bean_soup",
+  "sourceRef": {
+    "source": "wikibooks_creamy_tomato_and_bean_soup",
+    "step": 8
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "creamy_tomato_and_bean_soup_step_7",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "basil",
+        "amount": {
+          "qty": 15,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "creamy_tomato_and_bean_soup",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 90,
+    "medium": "simmering_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Just before serving, stir in fresh basil leaves, reserving a handful to garnish each bowl.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.52"
+    },
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'10–20 leaves of fresh basil, chiffonaded or torn to strips by hand': 'leaves' read as pieces"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 90.0 °C for simmering_water"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

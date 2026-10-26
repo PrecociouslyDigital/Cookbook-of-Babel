@@ -1,0 +1,65 @@
+{
+  "id": "simple_spaghetti.step_2",
+  "source": "wikibooks_simple_spaghetti",
+  "sourceRef": {
+    "source": "wikibooks_simple_spaghetti",
+    "step": 2
+  },
+  "technique": "boil",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "simple_spaghetti_step_1",
+        "amount": {
+          "qty": 2250.7,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "spaghetti",
+        "amount": {
+          "qty": 8,
+          "unit": "oz"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "simple_spaghetti_step_2",
+      "amount": {
+        "qty": 2477.5,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 100,
+    "medium": "boiling_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Reduce heat to medium and add the pasta.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.54"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of boil's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

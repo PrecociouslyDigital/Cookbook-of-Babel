@@ -1,0 +1,53 @@
+{
+  "id": "grilled_pork_chops.step_7",
+  "source": "wikibooks_grilled_pork_chops",
+  "sourceRef": {
+    "source": "wikibooks_grilled_pork_chops",
+    "step": 7
+  },
+  "technique": "grill",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "grilled_pork_chops_step_5",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "grilled_pork_chops_step_7",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 250,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 2,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Grill pork chops, covered, 2 minutes. Rotate 90 degrees, and cook for another 2 minutes. Flip and repeat this process on the other side.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of grill's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "the step names several durations; used the first"
+    }
+  ]
+}

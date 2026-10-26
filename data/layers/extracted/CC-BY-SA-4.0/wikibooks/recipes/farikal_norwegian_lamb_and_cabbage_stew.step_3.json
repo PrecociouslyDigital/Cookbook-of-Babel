@@ -1,0 +1,67 @@
+{
+  "id": "farikal_norwegian_lamb_and_cabbage_stew.step_3",
+  "source": "wikibooks_farikal_norwegian_lamb_and_cabbage_stew",
+  "sourceRef": {
+    "source": "wikibooks_farikal_norwegian_lamb_and_cabbage_stew",
+    "step": 3
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "farikal_norwegian_lamb_and_cabbage_stew_step_2",
+        "amount": {
+          "qty": 4000,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "pepper",
+        "amount": {
+          "qty": 5,
+          "unit": "tsp"
+        }
+      },
+      {
+        "ingredient": "salt",
+        "amount": {
+          "qty": 3,
+          "unit": "tsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "farikal_norwegian_lamb_and_cabbage_stew_step_3",
+      "amount": {
+        "qty": 4042.4,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Add a layer of cabbage on top of the meat, then another layer of meat on top of the cabbage. Add salt and pepper between each layer. Continue until you have placed all the cabbage and meat into the pot.",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for pepper"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

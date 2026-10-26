@@ -1,0 +1,53 @@
+{
+  "id": "vegetable_stew_and_dumplings.step_13",
+  "source": "wikibooks_vegetable_stew_and_dumplings",
+  "sourceRef": {
+    "source": "wikibooks_vegetable_stew_and_dumplings",
+    "step": 13
+  },
+  "technique": "simmer",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "vegetable_stew_and_dumplings_step_12",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "vegetable_stew_and_dumplings",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 90,
+    "medium": "steam"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 22.5,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Replace the lid and cook for a further 20–25 minutes, at which time you should have large, light and fluffy dumplings.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.59"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of simmer's typical range"
+    }
+  ]
+}

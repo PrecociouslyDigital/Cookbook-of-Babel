@@ -1,0 +1,74 @@
+{
+  "id": "sugar_pie.step_3",
+  "source": "wikibooks_sugar_pie",
+  "sourceRef": {
+    "source": "wikibooks_sugar_pie",
+    "step": 3
+  },
+  "technique": "dissolve",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "sugar_pie_step_2",
+        "amount": {
+          "qty": 243.7,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "butter",
+        "amount": {
+          "qty": 0.5,
+          "unit": "cup"
+        }
+      },
+      {
+        "ingredient": "starch",
+        "amount": {
+          "qty": 0.25,
+          "unit": "cup"
+        }
+      },
+      {
+        "ingredient": "white_sugar",
+        "amount": {
+          "qty": 1,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "sugar_pie_step_3",
+      "amount": {
+        "qty": 595.6,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 180,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 5,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Dissolve sugar, cornstarch and butter into milk. Stir gently and allow to thicken for about 5 minutes.",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for butter"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 180.0 °C for pan_contact"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "fruit_ice_pops.step_2",
+  "source": "wikibooks_fruit_ice_pops",
+  "sourceRef": {
+    "source": "wikibooks_fruit_ice_pops",
+    "step": 2
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "fruit_ice_pops_step_1",
+        "amount": {
+          "qty": 1.6,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "fruit_ice_pops_step_2",
+      "amount": {
+        "qty": 1.6,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Divide the fruit mixture between ice pop molds, and insert the sticks.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

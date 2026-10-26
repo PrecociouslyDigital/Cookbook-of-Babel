@@ -1,0 +1,75 @@
+{
+  "id": "pasta_romanov.step_3",
+  "source": "wikibooks_pasta_romanov",
+  "sourceRef": {
+    "source": "wikibooks_pasta_romanov",
+    "step": 3
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "pasta_romanov_step_2",
+        "amount": {
+          "qty": 0.9,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "vodka",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "pasta_romanov_step_3",
+      "amount": {
+        "qty": 1.2,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 180,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Add a slug (a couple tablespoons) of vodka to the melted cheese.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.46"
+    },
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Vodka': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for vodka"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 180.0 °C for pan_contact"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

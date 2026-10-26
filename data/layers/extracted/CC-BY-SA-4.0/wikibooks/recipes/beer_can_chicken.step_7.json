@@ -1,0 +1,55 @@
+{
+  "id": "beer_can_chicken.step_7",
+  "source": "wikibooks_beer_can_chicken",
+  "sourceRef": {
+    "source": "wikibooks_beer_can_chicken",
+    "step": 7
+  },
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "beer_can_chicken_step_6",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "bay_leaf",
+        "amount": {
+          "qty": 2,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "beer_can_chicken_step_7",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Crumble bay leaves into beer, in beer can.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

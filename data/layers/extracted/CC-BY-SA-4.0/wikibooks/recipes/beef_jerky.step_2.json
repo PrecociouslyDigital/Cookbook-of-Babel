@@ -1,0 +1,55 @@
+{
+  "id": "beef_jerky.step_2",
+  "source": "wikibooks_beef_jerky",
+  "sourceRef": {
+    "source": "wikibooks_beef_jerky",
+    "step": 2
+  },
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "beef_jerky_step_1",
+        "amount": {
+          "qty": 52.5,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "beef",
+        "amount": {
+          "qty": 1,
+          "unit": "lb"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "beef_jerky_step_2",
+      "amount": {
+        "qty": 506.1,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Slice beef into ¼-inch thick strips. Small chunks (about ¾-inch) of stewing beef may also be used. If possible, cut along the grain of the meat rather than across it. It may be easier to freeze the meat before attempting to cut it, as this will stop the meat pulling and deforming so easily.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

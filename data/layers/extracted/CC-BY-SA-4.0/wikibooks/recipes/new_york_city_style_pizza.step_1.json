@@ -1,0 +1,60 @@
+{
+  "id": "new_york_city_style_pizza.step_1",
+  "source": "wikibooks_new_york_city_style_pizza",
+  "sourceRef": {
+    "source": "wikibooks_new_york_city_style_pizza",
+    "step": 1
+  },
+  "technique": "dissolve",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "yeast",
+        "amount": {
+          "qty": 1,
+          "unit": "tsp"
+        }
+      },
+      {
+        "ingredient": "water",
+        "amount": {
+          "qty": 0.6666666666666666,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "new_york_city_style_pizza_step_1",
+      "amount": {
+        "qty": 162.7,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Sprinkle the yeast over the surface of the warm water in a large bowl. Let stand for 1 minute, then stir to dissolve.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.54"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for yeast"
+    }
+  ]
+}

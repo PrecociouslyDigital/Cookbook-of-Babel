@@ -1,0 +1,69 @@
+{
+  "id": "cheese_dumplings.step_4",
+  "source": "wikibooks_cheese_dumplings",
+  "sourceRef": {
+    "source": "wikibooks_cheese_dumplings",
+    "step": 4
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "cheese_dumplings_step_3",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "cheese",
+        "amount": {
+          "qty": 250,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "salt",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      },
+      {
+        "ingredient": "wheat_flour",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "cheese_dumplings_step_4",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 10,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Add the cooked onions, salt, pepper, parsley, caraway seeds, and grated cheese to the white bread. Add the flour and let the mixture rest for a further 10 minutes.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Flour': no quantity given; assumed a pinch"
+    }
+  ]
+}

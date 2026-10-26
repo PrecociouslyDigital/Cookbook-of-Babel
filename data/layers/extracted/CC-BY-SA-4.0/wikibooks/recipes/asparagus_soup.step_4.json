@@ -1,0 +1,48 @@
+{
+  "id": "asparagus_soup.step_4",
+  "source": "wikibooks_asparagus_soup",
+  "sourceRef": {
+    "source": "wikibooks_asparagus_soup",
+    "step": 4
+  },
+  "technique": "blend",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "asparagus_soup_step_3",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "asparagus_soup_step_4",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Purée the solids in a food processor with enough of the reserved liquid to allow the mixture to purée smoothly.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

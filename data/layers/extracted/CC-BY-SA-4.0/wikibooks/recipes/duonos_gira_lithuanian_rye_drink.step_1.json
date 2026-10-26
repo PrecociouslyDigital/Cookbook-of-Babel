@@ -1,0 +1,60 @@
+{
+  "id": "duonos_gira_lithuanian_rye_drink.step_1",
+  "source": "wikibooks_duonos_gira_lithuanian_rye_drink",
+  "sourceRef": {
+    "source": "wikibooks_duonos_gira_lithuanian_rye_drink",
+    "step": 1
+  },
+  "technique": "boil",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "water",
+        "amount": {
+          "qty": 5,
+          "unit": "qt"
+        }
+      },
+      {
+        "ingredient": "rye",
+        "amount": {
+          "qty": 1,
+          "unit": "lb"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "duonos_gira_lithuanian_rye_drink_step_1",
+      "amount": {
+        "qty": 5185.3,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 100,
+    "medium": "boiling_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 24,
+      "unit": "h"
+    }
+  },
+  "stateNote": "Boil water and pour over the cubed bread. Let soak for 24 hours.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.57"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of boil's typical range"
+    }
+  ]
+}

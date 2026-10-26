@@ -1,0 +1,89 @@
+{
+  "id": "hamburger_skillet_dinner.step_2",
+  "source": "wikibooks_hamburger_skillet_dinner",
+  "sourceRef": {
+    "source": "wikibooks_hamburger_skillet_dinner",
+    "step": 2
+  },
+  "technique": "pan_fry",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "hamburger_skillet_dinner_step_1",
+        "amount": {
+          "qty": 236.6,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "beef",
+        "amount": {
+          "qty": 1,
+          "unit": "lb"
+        }
+      },
+      {
+        "ingredient": "garlic_salt",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      },
+      {
+        "ingredient": "onion",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "hamburger_skillet_dinner_step_2",
+      "amount": {
+        "qty": 690.8,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 185,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "While pasta is cooking, sprinkle a 10-inch (25 cm) skillet with garlic salt and minced onion, and brown beef.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'a sprinkle of garlic salt': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'a sprinkle of minced onion': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for garlic_salt, onion"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of pan_fry's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

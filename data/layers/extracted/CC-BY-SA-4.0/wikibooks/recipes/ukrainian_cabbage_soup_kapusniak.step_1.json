@@ -1,0 +1,77 @@
+{
+  "id": "ukrainian_cabbage_soup_kapusniak.step_1",
+  "source": "wikibooks_ukrainian_cabbage_soup_kapusniak",
+  "sourceRef": {
+    "source": "wikibooks_ukrainian_cabbage_soup_kapusniak",
+    "step": 1
+  },
+  "technique": "fry",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "olive_oil",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      },
+      {
+        "ingredient": "onion",
+        "amount": {
+          "qty": 2,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "garlic",
+        "amount": {
+          "qty": 3.5,
+          "unit": "clove"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "ukrainian_cabbage_soup_kapusniak_step_1",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 190,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 9,
+      "unit": "min"
+    }
+  },
+  "stateNote": "In a large cooking pot heat about 3–4 tablespoons of olive oil. Add the onions and garlic, along with more olive oil if necessary. Let the onions and garlic cook over medium or low heat for 8–10 minutes.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.55"
+    },
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.51"
+    },
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Olive oil': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of fry's typical range"
+    }
+  ]
+}

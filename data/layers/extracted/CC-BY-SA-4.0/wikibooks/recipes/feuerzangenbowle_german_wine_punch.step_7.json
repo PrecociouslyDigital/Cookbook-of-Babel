@@ -1,0 +1,53 @@
+{
+  "id": "feuerzangenbowle_german_wine_punch.step_7",
+  "source": "wikibooks_feuerzangenbowle_german_wine_punch",
+  "sourceRef": {
+    "source": "wikibooks_feuerzangenbowle_german_wine_punch",
+    "step": 7
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "feuerzangenbowle_german_wine_punch_step_6",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "feuerzangenbowle_german_wine_punch_step_7",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "When the sugar has completely dissolved, remove the feuerzange and add another ladle of unburnt rum to the bowl.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.49"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

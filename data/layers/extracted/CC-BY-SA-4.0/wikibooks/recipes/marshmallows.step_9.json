@@ -1,0 +1,48 @@
+{
+  "id": "marshmallows.step_9",
+  "source": "wikibooks_marshmallows",
+  "sourceRef": {
+    "source": "wikibooks_marshmallows",
+    "step": 9
+  },
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "marshmallows_step_8",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "marshmallows",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "With a large knife trim edges of marshmallow and cut marshmallows into roughly 1-inch cubes. Sift remaining confectioners' sugar into a large bowl and add marshmallows in batches, tossing to evenly coat.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

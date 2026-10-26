@@ -1,0 +1,67 @@
+{
+  "id": "banana_cream_pie_i.step_9",
+  "source": "wikibooks_banana_cream_pie_i",
+  "sourceRef": {
+    "source": "wikibooks_banana_cream_pie_i",
+    "step": 9
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "banana_cream_pie_i_step_8",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "banana",
+        "amount": {
+          "qty": 4,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "lemon",
+        "amount": {
+          "qty": 0.25,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "banana_cream_pie_i_step_9",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Slice 2 bananas. Dip slices in lemon juice, shake off excess and distribute banana slices in the bottom of baked pie shell.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.56"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

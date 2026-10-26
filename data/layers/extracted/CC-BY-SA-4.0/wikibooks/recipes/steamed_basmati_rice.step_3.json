@@ -1,0 +1,85 @@
+{
+  "id": "steamed_basmati_rice.step_3",
+  "source": "wikibooks_steamed_basmati_rice",
+  "sourceRef": {
+    "source": "wikibooks_steamed_basmati_rice",
+    "step": 3
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "steamed_basmati_rice_step_2",
+        "amount": {
+          "qty": 400.3,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "water",
+        "amount": {
+          "qty": 600,
+          "unit": "ml"
+        }
+      },
+      {
+        "min": 0,
+        "max": 1,
+        "of": [
+          {
+            "ingredient": "butter",
+            "amount": {
+              "qty": 1,
+              "unit": "tbsp"
+            }
+          }
+        ]
+      },
+      {
+        "ingredient": "salt",
+        "amount": {
+          "qty": 2,
+          "unit": "tsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "steamed_basmati_rice_step_3",
+      "amount": {
+        "qty": 1026.9,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Add the water, rice, butter, and salt to a pot.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.57"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for butter"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

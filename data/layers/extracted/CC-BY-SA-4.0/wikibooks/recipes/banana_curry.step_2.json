@@ -1,0 +1,100 @@
+{
+  "id": "banana_curry.step_2",
+  "source": "wikibooks_banana_curry",
+  "sourceRef": {
+    "source": "wikibooks_banana_curry",
+    "step": 2
+  },
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "banana_curry_step_1",
+        "amount": {
+          "qty": 750,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "garam_masala",
+        "amount": {
+          "qty": 0.5,
+          "unit": "tsp"
+        }
+      },
+      {
+        "ingredient": "lemon",
+        "amount": {
+          "qty": 2,
+          "unit": "tsp"
+        }
+      },
+      {
+        "ingredient": "milk",
+        "amount": {
+          "qty": 0.5,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "cream",
+        "amount": {
+          "qty": 4,
+          "unit": "tbsp"
+        }
+      },
+      {
+        "ingredient": "chiles",
+        "amount": {
+          "qty": 0.5,
+          "unit": "tsp"
+        }
+      },
+      {
+        "ingredient": "salt",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "banana_curry_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Add milk, cream, garam masala (or curry) powder, chili, and lemon (add some salt) to the bananas.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'½ glass of milk': 'glass' read as pieces"
+    },
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'some salt': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

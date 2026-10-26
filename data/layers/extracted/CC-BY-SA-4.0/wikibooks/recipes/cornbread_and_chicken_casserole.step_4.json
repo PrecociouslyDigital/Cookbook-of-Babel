@@ -1,0 +1,55 @@
+{
+  "id": "cornbread_and_chicken_casserole.step_4",
+  "source": "wikibooks_cornbread_and_chicken_casserole",
+  "sourceRef": {
+    "source": "wikibooks_cornbread_and_chicken_casserole",
+    "step": 4
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "cornbread_and_chicken_casserole_step_3",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "cornbread_disambiguation",
+        "amount": {
+          "qty": 3,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "cornbread_and_chicken_casserole_step_4",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Place enough cornbread in the bottom of a parchment-lined high-sided roasting pan to lightly coat the bottom. Place a layer of chicken mixture on top and repeat until all has been used up.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

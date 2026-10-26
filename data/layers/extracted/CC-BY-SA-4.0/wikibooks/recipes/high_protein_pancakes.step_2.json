@@ -1,0 +1,88 @@
+{
+  "id": "high_protein_pancakes.step_2",
+  "source": "wikibooks_high_protein_pancakes",
+  "sourceRef": {
+    "source": "wikibooks_high_protein_pancakes",
+    "step": 2
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "high_protein_pancakes_step_1",
+        "amount": {
+          "qty": 50,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "vanilla_flavored_protein_powder",
+        "amount": {
+          "qty": 30,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "coconut",
+        "amount": {
+          "qty": 1,
+          "unit": "tbsp"
+        }
+      },
+      {
+        "ingredient": "baking_powder",
+        "amount": {
+          "qty": 1,
+          "unit": "tsp"
+        }
+      },
+      {
+        "ingredient": "cinnamon",
+        "amount": {
+          "qty": 1,
+          "unit": "tsp"
+        }
+      },
+      {
+        "ingredient": "salt",
+        "amount": {
+          "qty": 0.125,
+          "unit": "tsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "high_protein_pancakes_step_2",
+      "amount": {
+        "qty": 104.9,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Combine the ground oats in a mixing bowl with the protein powder, coconut flour, baking powder, cinnamon, and salt.",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for coconut, cinnamon"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

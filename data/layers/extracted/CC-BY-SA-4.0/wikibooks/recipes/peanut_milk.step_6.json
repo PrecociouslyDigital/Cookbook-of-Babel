@@ -1,0 +1,48 @@
+{
+  "id": "peanut_milk.step_6",
+  "source": "wikibooks_peanut_milk",
+  "sourceRef": {
+    "source": "wikibooks_peanut_milk",
+    "step": 6
+  },
+  "technique": "strain",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "peanut_milk_step_5",
+        "amount": {
+          "qty": 10101.2,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "peanut_milk",
+      "amount": {
+        "qty": 10101.2,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "When the filter starts clogging with peanut flour, squeeze out the milk, and rinse the filter. You can also use a spoon or something similar in the filter to help most of the milk get through before squeezing.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

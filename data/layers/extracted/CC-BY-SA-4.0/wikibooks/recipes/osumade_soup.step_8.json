@@ -1,0 +1,91 @@
+{
+  "id": "osumade_soup.step_8",
+  "source": "wikibooks_osumade_soup",
+  "sourceRef": {
+    "source": "wikibooks_osumade_soup",
+    "step": 8
+  },
+  "technique": "simmer",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "osumade_soup_step_7",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "stockfish",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      },
+      {
+        "ingredient": "ground_crayfish",
+        "amount": {
+          "qty": 2.5,
+          "unit": "tbsp"
+        }
+      },
+      {
+        "ingredient": "ogiri",
+        "amount": {
+          "qty": 1,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "palm_oil",
+        "amount": {
+          "qty": 0.25,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "osumade_soup_step_8",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 90,
+    "medium": "boiling_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 15,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Add the osumade water, stockfish, ground crayfish, ogili, palm oil, and seasoning cube to the boiling meat. Stir, then cover and cook for 15 minutes. Add additional water as necessary.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.56"
+    },
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Stockfish': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'1 medium ball ogili': 'ball' read as pieces"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of simmer's typical range"
+    }
+  ]
+}

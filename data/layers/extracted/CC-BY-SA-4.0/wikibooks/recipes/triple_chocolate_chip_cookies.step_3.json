@@ -1,0 +1,67 @@
+{
+  "id": "triple_chocolate_chip_cookies.step_3",
+  "source": "wikibooks_triple_chocolate_chip_cookies",
+  "sourceRef": {
+    "source": "wikibooks_triple_chocolate_chip_cookies",
+    "step": 3
+  },
+  "technique": "whisk",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "triple_chocolate_chip_cookies_step_2",
+        "amount": {
+          "qty": 261.4,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "butter",
+        "amount": {
+          "qty": 110,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "brown_sugar",
+        "amount": {
+          "qty": 180,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "triple_chocolate_chip_cookies_step_3",
+      "amount": {
+        "qty": 551.4,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Beat the butter and sugar in a mixing bowl until soft and fluffy.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.46"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

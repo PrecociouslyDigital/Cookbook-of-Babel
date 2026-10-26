@@ -1,0 +1,88 @@
+{
+  "id": "herbal_energy_drink.step_2",
+  "source": "wikibooks_herbal_energy_drink",
+  "sourceRef": {
+    "source": "wikibooks_herbal_energy_drink",
+    "step": 2
+  },
+  "technique": "boil",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "herbal_energy_drink_step_1",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "water",
+        "amount": {
+          "qty": 1,
+          "unit": "cup"
+        }
+      },
+      {
+        "ingredient": "lemon",
+        "amount": {
+          "qty": 0.5,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "licorice",
+        "amount": {
+          "qty": 0.125,
+          "unit": "oz"
+        }
+      },
+      {
+        "ingredient": "ginger",
+        "amount": {
+          "qty": 0.25,
+          "unit": "oz"
+        }
+      },
+      {
+        "ingredient": "ginseng",
+        "amount": {
+          "qty": 0.5,
+          "unit": "oz"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "herbal_energy_drink_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 100,
+    "medium": "boiling_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Bring the water to a boil, then stir in the sugar-zest mixture, lemon juice, licorice root, ginger, and ginseng. Boil until you get a thick syrup.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of boil's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

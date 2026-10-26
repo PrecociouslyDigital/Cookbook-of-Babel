@@ -1,0 +1,53 @@
+{
+  "id": "manhattan_clam_chowder_ii.step_2",
+  "source": "wikibooks_manhattan_clam_chowder_ii",
+  "sourceRef": {
+    "source": "wikibooks_manhattan_clam_chowder_ii",
+    "step": 2
+  },
+  "technique": "grind",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "manhattan_clam_chowder_ii_step_1",
+        "amount": {
+          "qty": 652.1,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "manhattan_clam_chowder_ii_step_2",
+      "amount": {
+        "qty": 652.1,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Put the clams through food chopper, using the coarse blade.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.55"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

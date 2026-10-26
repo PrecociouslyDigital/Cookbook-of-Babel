@@ -1,0 +1,92 @@
+{
+  "id": "sukuma_wiki_east_african_greens.step_4",
+  "source": "wikibooks_sukuma_wiki_east_african_greens",
+  "sourceRef": {
+    "source": "wikibooks_sukuma_wiki_east_african_greens",
+    "step": 4
+  },
+  "technique": "stir_fry",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "sukuma_wiki_east_african_greens_step_3",
+        "amount": {
+          "qty": 424.6,
+          "unit": "g"
+        }
+      },
+      {
+        "min": 0,
+        "max": 1,
+        "of": [
+          {
+            "ingredient": "kale",
+            "amount": {
+              "qty": 1,
+              "unit": "bunch"
+            }
+          }
+        ]
+      },
+      {
+        "min": 0,
+        "max": 1,
+        "of": [
+          {
+            "ingredient": "cayenne_pepper",
+            "amount": {
+              "qty": 0.5,
+              "unit": "tsp"
+            }
+          }
+        ]
+      },
+      {
+        "min": 0,
+        "max": 1,
+        "of": [
+          {
+            "ingredient": "lemon",
+            "amount": {
+              "qty": 0.5,
+              "unit": "piece"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "sukuma_wiki_east_african_greens_step_4",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 215,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 7.5,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Add the greens, cayenne, and lemon juice. Cook, stirring, for 5–10 minutes until the greens are done.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.58"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of stir_fry's typical range"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "id": "chicken_tetrazzini.step_9",
+  "source": "wikibooks_chicken_tetrazzini",
+  "sourceRef": {
+    "source": "wikibooks_chicken_tetrazzini",
+    "step": 9
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "chicken_tetrazzini_step_8",
+        "amount": {
+          "qty": 1407.5,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "parmesan_cheese",
+        "amount": {
+          "qty": 0.75,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "chicken_tetrazzini_step_9",
+      "amount": {
+        "qty": 1585,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 180,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Remove from the heat, then stir in the Parmesan cheese with the salt and pepper.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.41"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for parmesan_cheese"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 180.0 °C for pan_contact"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

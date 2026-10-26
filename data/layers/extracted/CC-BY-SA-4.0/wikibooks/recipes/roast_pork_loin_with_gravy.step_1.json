@@ -1,0 +1,90 @@
+{
+  "id": "roast_pork_loin_with_gravy.step_1",
+  "source": "wikibooks_roast_pork_loin_with_gravy",
+  "sourceRef": {
+    "source": "wikibooks_roast_pork_loin_with_gravy",
+    "step": 1
+  },
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "pork",
+        "amount": {
+          "qty": 1,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "salt",
+        "amount": {
+          "qty": 1,
+          "unit": "cup"
+        }
+      },
+      {
+        "ingredient": "honey",
+        "amount": {
+          "qty": 0.75,
+          "unit": "cup"
+        }
+      },
+      {
+        "ingredient": "pepper",
+        "amount": {
+          "qty": 2,
+          "unit": "tbsp"
+        }
+      },
+      {
+        "ingredient": "cider_vinegar",
+        "amount": {
+          "qty": 2,
+          "unit": "cup"
+        }
+      },
+      {
+        "ingredient": "thyme",
+        "amount": {
+          "qty": 10,
+          "unit": "sprig"
+        }
+      },
+      {
+        "ingredient": "ice",
+        "amount": {
+          "qty": 2,
+          "unit": "lb"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "roast_pork_loin_with_gravy_step_1",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 3.25,
+      "unit": "h"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Combine salt, honey, vinegar, peppercorns, thyme, and ice. Pour into a gallon-size zip-top bag and add roast. Refrigerate 3–3½ hours.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.52"
+    }
+  ]
+}

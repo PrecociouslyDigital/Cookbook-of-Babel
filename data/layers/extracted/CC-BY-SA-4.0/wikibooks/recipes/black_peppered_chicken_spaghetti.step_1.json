@@ -1,0 +1,67 @@
+{
+  "id": "black_peppered_chicken_spaghetti.step_1",
+  "source": "wikibooks_black_peppered_chicken_spaghetti",
+  "sourceRef": {
+    "source": "wikibooks_black_peppered_chicken_spaghetti",
+    "step": 1
+  },
+  "technique": "boil",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "spaghetti",
+        "amount": {
+          "qty": 800,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "water",
+        "amount": {
+          "qty": 1,
+          "unit": "l"
+        }
+      },
+      {
+        "ingredient": "oil_and_fat",
+        "amount": {
+          "qty": 5,
+          "unit": "tbsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "black_peppered_chicken_spaghetti_step_1",
+      "amount": {
+        "qty": 1874,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 100,
+    "medium": "boiling_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 10,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Bring the water to a boil in a pot. Add the spaghetti and 2 tbsp oil. Boil for 10 minutes, then drain the spaghetti, reserving some cooking water.",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for oil_and_fat"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of boil's typical range"
+    }
+  ]
+}

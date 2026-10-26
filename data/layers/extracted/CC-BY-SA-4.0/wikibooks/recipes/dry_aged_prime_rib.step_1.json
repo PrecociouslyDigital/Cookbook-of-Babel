@@ -1,0 +1,48 @@
+{
+  "id": "dry_aged_prime_rib.step_1",
+  "source": "wikibooks_dry_aged_prime_rib",
+  "sourceRef": {
+    "source": "wikibooks_dry_aged_prime_rib",
+    "step": 1
+  },
+  "technique": "age",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "beef",
+        "amount": {
+          "qty": 1,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "dry_aged_prime_rib_step_1",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 3,
+      "unit": "d"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Place roast in a paper towel-lined perforated box with a lid. Cover and refrigerate for 3 days, changing towels halfway.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'1 prime grade standing rib roast (4 bone)': 'prime' read as pieces"
+    }
+  ]
+}

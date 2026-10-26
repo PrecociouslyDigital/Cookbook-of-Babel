@@ -1,0 +1,55 @@
+{
+  "id": "sourdough_starter_recipe.step_1",
+  "source": "wikibooks_sourdough_starter_recipe",
+  "sourceRef": {
+    "source": "wikibooks_sourdough_starter_recipe",
+    "step": 1
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "wheat_flour",
+        "amount": {
+          "qty": 2,
+          "unit": "cup"
+        }
+      },
+      {
+        "ingredient": "water",
+        "amount": {
+          "qty": 2,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "sourdough_starter_recipe_step_1",
+      "amount": {
+        "qty": 724,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Mix ½ cup of the water with ½ cup of the flour in a bowl until smooth.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

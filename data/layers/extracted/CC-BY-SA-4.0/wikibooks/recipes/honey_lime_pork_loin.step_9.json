@@ -1,0 +1,72 @@
+{
+  "id": "honey_lime_pork_loin.step_9",
+  "source": "wikibooks_honey_lime_pork_loin",
+  "sourceRef": {
+    "source": "wikibooks_honey_lime_pork_loin",
+    "step": 9
+  },
+  "technique": "toast",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "honey_lime_pork_loin_step_8",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "wheat_flour",
+        "amount": {
+          "qty": 2,
+          "unit": "tbsp"
+        }
+      },
+      {
+        "ingredient": "butter",
+        "amount": {
+          "qty": 2,
+          "unit": "tbsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "honey_lime_pork_loin_step_9",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 185,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Melt butter over medium heat in a large saucepan. Whisk in flour and cook, stirring constantly until light blonde color is achieved.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.53"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of toast's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

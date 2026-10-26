@@ -1,0 +1,48 @@
+{
+  "id": "basic_lasagna.step_5",
+  "source": "wikibooks_basic_lasagna",
+  "sourceRef": {
+    "source": "wikibooks_basic_lasagna",
+    "step": 5
+  },
+  "technique": "bake",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "basic_lasagna_step_4",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "basic_lasagna_step_5",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 190.55555555555554,
+    "medium": "oven_air"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 15,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Cover with aluminum foil and bake at 375°F for 15 minutes. Remove foil and bake for another 20 minutes.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "the step names several durations; used the first"
+    }
+  ]
+}

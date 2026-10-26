@@ -1,0 +1,58 @@
+{
+  "id": "hot_fudge_sauce.step_3",
+  "source": "wikibooks_hot_fudge_sauce",
+  "sourceRef": {
+    "source": "wikibooks_hot_fudge_sauce",
+    "step": 3
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "hot_fudge_sauce_step_2",
+        "amount": {
+          "qty": 508.4,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "hot_fudge_sauce",
+      "amount": {
+        "qty": 508.4,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 180,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Let rest for a couple minutes until butter is melted. Beat with a spoon and serve.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.44"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 180.0 °C for pan_contact"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

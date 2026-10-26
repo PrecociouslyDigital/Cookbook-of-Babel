@@ -1,0 +1,74 @@
+{
+  "id": "tapalapa_gambian_bread.step_1",
+  "source": "wikibooks_tapalapa_gambian_bread",
+  "sourceRef": {
+    "source": "wikibooks_tapalapa_gambian_bread",
+    "step": 1
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "wheat_flour",
+        "amount": {
+          "qty": 500,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "yeast",
+        "amount": {
+          "qty": 2,
+          "unit": "tsp"
+        }
+      },
+      {
+        "ingredient": "salt",
+        "amount": {
+          "qty": 1,
+          "unit": "tsp"
+        }
+      },
+      {
+        "ingredient": "white_sugar",
+        "amount": {
+          "qty": 2,
+          "unit": "tbsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "tapalapa_gambian_bread_step_1",
+      "amount": {
+        "qty": 540.9,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "In a mixing bowl, combine the all-purpose flour, instant yeast, salt, and sugar. Mix well to evenly distribute the dry ingredients.",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for yeast"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

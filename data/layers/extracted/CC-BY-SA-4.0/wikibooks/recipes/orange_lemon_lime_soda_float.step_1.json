@@ -1,0 +1,65 @@
+{
+  "id": "orange_lemon_lime_soda_float.step_1",
+  "source": "wikibooks_orange_lemon_lime_soda_float",
+  "sourceRef": {
+    "source": "wikibooks_orange_lemon_lime_soda_float",
+    "step": 1
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "orange",
+        "amount": {
+          "qty": 235,
+          "unit": "ml"
+        }
+      },
+      {
+        "ingredient": "vanilla_ice_cream_egg_free",
+        "amount": {
+          "qty": 130,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "orange_lemon_lime_soda_float_step_1",
+      "amount": {
+        "qty": 365,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Place orange juice and ice cream in a blender.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.55"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for orange"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

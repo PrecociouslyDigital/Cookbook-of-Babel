@@ -1,0 +1,69 @@
+{
+  "id": "masala_chai_i.step_4",
+  "source": "wikibooks_masala_chai_i",
+  "sourceRef": {
+    "source": "wikibooks_masala_chai_i",
+    "step": 4
+  },
+  "technique": "boil",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "masala_chai_i_step_3",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "white_sugar",
+        "amount": {
+          "qty": 1.5,
+          "unit": "tsp"
+        }
+      },
+      {
+        "ingredient": "tea",
+        "amount": {
+          "qty": 0.75,
+          "unit": "tsp"
+        }
+      },
+      {
+        "ingredient": "masala_mixture",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "masala_chai_i_step_4",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 100,
+    "medium": "boiling_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 7.5,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Add sugar, tea leaves, and masala. Boil until the mixture becomes dark (about 5–10 minutes); the longer you boil, the stronger the chai.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of boil's typical range"
+    }
+  ]
+}

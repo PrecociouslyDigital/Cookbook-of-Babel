@@ -1,0 +1,48 @@
+{
+  "id": "baba_ganoush.step_2",
+  "source": "wikibooks_baba_ganoush",
+  "sourceRef": {
+    "source": "wikibooks_baba_ganoush",
+    "step": 2
+  },
+  "technique": "separate",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "baba_ganoush_step_1",
+        "amount": {
+          "qty": 567,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "baba_ganoush_step_2",
+      "amount": {
+        "qty": 567,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Scrape off the eggplant skin. It's alright if you miss a few burned bits.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

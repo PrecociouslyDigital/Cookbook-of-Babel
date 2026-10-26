@@ -1,0 +1,62 @@
+{
+  "id": "sticky_date_pudding.step_10",
+  "source": "wikibooks_sticky_date_pudding",
+  "sourceRef": {
+    "source": "wikibooks_sticky_date_pudding",
+    "step": 10
+  },
+  "technique": "fold",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "sticky_date_pudding_step_9",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "vegetable_oil",
+        "amount": {
+          "qty": 1,
+          "unit": "cup"
+        }
+      },
+      {
+        "ingredient": "vanilla",
+        "amount": {
+          "qty": 2,
+          "unit": "tsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "sticky_date_pudding_step_10",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Fold in oil and vanilla essence, but don’t over-mix this as you’ll lose all the air in the egg mixture.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

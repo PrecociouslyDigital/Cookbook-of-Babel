@@ -1,0 +1,48 @@
+{
+  "id": "gajjar_halwa_carrot_pudding.step_1",
+  "source": "wikibooks_gajjar_halwa_carrot_pudding",
+  "sourceRef": {
+    "source": "wikibooks_gajjar_halwa_carrot_pudding",
+    "step": 1
+  },
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "carrot",
+        "amount": {
+          "qty": 2.5,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "gajjar_halwa_carrot_pudding_step_1",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Cut off the blemished ends of the carrots, wash them, and then peel them.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

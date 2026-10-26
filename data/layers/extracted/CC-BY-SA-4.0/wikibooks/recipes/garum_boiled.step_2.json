@@ -1,0 +1,53 @@
+{
+  "id": "garum_boiled.step_2",
+  "source": "wikibooks_garum_boiled",
+  "sourceRef": {
+    "source": "wikibooks_garum_boiled",
+    "step": 2
+  },
+  "technique": "boil",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "garum_boiled_step_1",
+        "amount": {
+          "qty": 2191.7,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "garum_boiled_step_2",
+      "amount": {
+        "qty": 2191.7,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 100,
+    "medium": "boiling_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Boil the mixture until thick.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of boil's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

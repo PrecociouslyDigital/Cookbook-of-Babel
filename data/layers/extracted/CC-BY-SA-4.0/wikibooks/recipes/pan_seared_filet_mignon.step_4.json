@@ -1,0 +1,53 @@
+{
+  "id": "pan_seared_filet_mignon.step_4",
+  "source": "wikibooks_pan_seared_filet_mignon",
+  "sourceRef": {
+    "source": "wikibooks_pan_seared_filet_mignon",
+    "step": 4
+  },
+  "technique": "roast",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "pan_seared_filet_mignon_step_3",
+        "amount": {
+          "qty": 871,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "pan_seared_filet_mignon_step_4",
+      "amount": {
+        "qty": 871,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 190.55555555555554,
+    "medium": "oven_air"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Place the pan in a 375°F oven and cook until internal temperature reaches 140°F.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.58"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "id": "neapolitan_anchovy_sauce.step_2",
+  "source": "wikibooks_neapolitan_anchovy_sauce",
+  "sourceRef": {
+    "source": "wikibooks_neapolitan_anchovy_sauce",
+    "step": 2
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "neapolitan_anchovy_sauce_step_1",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "parsley",
+        "amount": {
+          "qty": 1,
+          "unit": "tsp"
+        }
+      },
+      {
+        "ingredient": "marjoram",
+        "amount": {
+          "qty": 1,
+          "unit": "tsp"
+        }
+      },
+      {
+        "ingredient": "wheat_flour",
+        "amount": {
+          "qty": 1,
+          "unit": "tsp"
+        }
+      },
+      {
+        "ingredient": "lemon",
+        "amount": {
+          "qty": 1,
+          "unit": "dash"
+        }
+      },
+      {
+        "ingredient": "cream",
+        "amount": {
+          "qty": 0.5,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "fish",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "neapolitan_anchovy_sauce_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Mix in parsley and marjoram, a squeeze of lemon juice, flour, cream, and the bones of the fish for which you will use this sauce.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'½ gill cream, boiled': 'gill' read as pieces"
+    },
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Bones of 1 fish': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

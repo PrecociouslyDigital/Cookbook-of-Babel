@@ -1,0 +1,55 @@
+{
+  "id": "chocolate_chip_cookies_i.step_3",
+  "source": "wikibooks_chocolate_chip_cookies_i",
+  "sourceRef": {
+    "source": "wikibooks_chocolate_chip_cookies_i",
+    "step": 3
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "chocolate_chip_cookies_i_step_2",
+        "amount": {
+          "qty": 555.1,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "egg",
+        "amount": {
+          "qty": 100,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "chocolate_chip_cookies_i_step_3",
+      "amount": {
+        "qty": 655.1,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Add eggs one at a time, beating until fully incorporated.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

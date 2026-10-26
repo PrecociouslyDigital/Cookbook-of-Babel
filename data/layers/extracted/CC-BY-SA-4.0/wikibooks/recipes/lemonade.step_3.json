@@ -1,0 +1,48 @@
+{
+  "id": "lemonade.step_3",
+  "source": "wikibooks_lemonade",
+  "sourceRef": {
+    "source": "wikibooks_lemonade",
+    "step": 3
+  },
+  "technique": "chill",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "lemonade_step_2",
+        "amount": {
+          "qty": 1730.4,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "lemonade",
+      "amount": {
+        "qty": 1730.4,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Chill and/or serve over ice.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

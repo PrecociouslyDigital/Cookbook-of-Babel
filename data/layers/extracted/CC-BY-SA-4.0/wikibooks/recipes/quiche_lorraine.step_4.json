@@ -1,0 +1,86 @@
+{
+  "id": "quiche_lorraine.step_4",
+  "source": "wikibooks_quiche_lorraine",
+  "sourceRef": {
+    "source": "wikibooks_quiche_lorraine",
+    "step": 4
+  },
+  "technique": "heat",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "quiche_lorraine_step_2",
+        "amount": {
+          "qty": 340.2,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "onion_confit",
+        "amount": {
+          "qty": 1.5,
+          "unit": "cup"
+        }
+      },
+      {
+        "ingredient": "salt",
+        "amount": {
+          "qty": 0.75,
+          "unit": "tsp"
+        }
+      },
+      {
+        "ingredient": "pepper",
+        "amount": {
+          "qty": 0.25,
+          "unit": "tsp"
+        }
+      },
+      {
+        "ingredient": "thyme",
+        "amount": {
+          "qty": 2,
+          "unit": "tsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "quiche_lorraine_step_4",
+      "amount": {
+        "qty": 710.6,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 180,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 4,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Add onion confit, pork, salt, pepper, and thyme to the frying pan over medium heat. Allow to warm up for 4 minutes. Drain on paper towels.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.59"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for onion_confit, pepper, thyme"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 180.0 °C for pan_contact"
+    }
+  ]
+}

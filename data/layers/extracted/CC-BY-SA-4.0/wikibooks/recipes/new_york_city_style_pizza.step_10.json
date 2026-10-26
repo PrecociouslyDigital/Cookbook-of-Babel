@@ -1,0 +1,53 @@
+{
+  "id": "new_york_city_style_pizza.step_10",
+  "source": "wikibooks_new_york_city_style_pizza",
+  "sourceRef": {
+    "source": "wikibooks_new_york_city_style_pizza",
+    "step": 10
+  },
+  "technique": "cool",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "new_york_city_style_pizza_step_9",
+        "amount": {
+          "qty": 1383.3,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "new_york_city_style_pizza",
+      "amount": {
+        "qty": 1383.3,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 20,
+    "medium": "still_air"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 5,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Cool for about 5 minutes before slicing and serving.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.49"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 20.0 °C for still_air"
+    }
+  ]
+}

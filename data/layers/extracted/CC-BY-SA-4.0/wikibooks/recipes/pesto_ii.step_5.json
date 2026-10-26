@@ -1,0 +1,55 @@
+{
+  "id": "pesto_ii.step_5",
+  "source": "wikibooks_pesto_ii",
+  "sourceRef": {
+    "source": "wikibooks_pesto_ii",
+    "step": 5
+  },
+  "technique": "blend",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "pesto_ii_step_4",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "garlic",
+        "amount": {
+          "qty": 7,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "pesto_ii_step_5",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "When the developing pesto sticks and becomes too thick, simply add more olive oil until the whole lot starts to mulch again. Continue adding basil leaves, nuts and the garlic cloves, always making sure the mixture remains fluid.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

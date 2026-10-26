@@ -1,0 +1,53 @@
+{
+  "id": "arroz_con_maiz_rice_with_corn.step_12",
+  "source": "wikibooks_arroz_con_maiz_rice_with_corn",
+  "sourceRef": {
+    "source": "wikibooks_arroz_con_maiz_rice_with_corn",
+    "step": 12
+  },
+  "technique": "simmer",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "arroz_con_maiz_rice_with_corn_step_11",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "arroz_con_maiz_rice_with_corn_step_12",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 90,
+    "medium": "simmering_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 20,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Remove the banana leaf, give the rice a big stir, and put leaf back on top. Reduce the heat to low, cover the pot with lid, and cook until the water has been absorbed and the rice is tender (about 20 minutes).",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.44"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of simmer's typical range"
+    }
+  ]
+}

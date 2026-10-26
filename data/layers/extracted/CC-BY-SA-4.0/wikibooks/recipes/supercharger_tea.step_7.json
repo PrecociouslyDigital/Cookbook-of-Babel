@@ -1,0 +1,67 @@
+{
+  "id": "supercharger_tea.step_7",
+  "source": "wikibooks_supercharger_tea",
+  "sourceRef": {
+    "source": "wikibooks_supercharger_tea",
+    "step": 7
+  },
+  "technique": "cool",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "supercharger_tea_step_6",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "min": 0,
+        "max": 1,
+        "of": [
+          {
+            "ingredient": "milk",
+            "amount": {
+              "qty": 2,
+              "unit": "tbsp"
+            }
+          }
+        ]
+      },
+      {
+        "min": 0,
+        "max": 1,
+        "of": [
+          {
+            "ingredient": "ice",
+            "amount": {
+              "qty": 0.5,
+              "unit": "cup"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "supercharger_tea",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 70,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Let tea cool to room temperature. Serve over ice, or place open pot in freezer for 70 minutes for quicker cooling. Stir in milk or citrus juice before serving."
+}

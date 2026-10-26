@@ -1,0 +1,48 @@
+{
+  "id": "komle_norwegian_potato_dumplings.step_1",
+  "source": "wikibooks_komle_norwegian_potato_dumplings",
+  "sourceRef": {
+    "source": "wikibooks_komle_norwegian_potato_dumplings",
+    "step": 1
+  },
+  "technique": "chop",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "potato",
+        "amount": {
+          "qty": 2,
+          "unit": "kg"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "komle_norwegian_potato_dumplings_step_1",
+      "amount": {
+        "qty": 2000,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Chop the potatoes in a food processor.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

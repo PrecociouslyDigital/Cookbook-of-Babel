@@ -1,0 +1,58 @@
+{
+  "id": "chicago_sirloin_with_cabernet_balsamic_reduction.step_10",
+  "source": "wikibooks_chicago_sirloin_with_cabernet_balsamic_reduction",
+  "sourceRef": {
+    "source": "wikibooks_chicago_sirloin_with_cabernet_balsamic_reduction",
+    "step": 10
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "chicago_sirloin_with_cabernet_balsamic_reduction_step_9",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "chicago_sirloin_with_cabernet_balsamic_reduction",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Place the steaks on your plates, cover with the sauce and serve!",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.32"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    },
+    {
+      "field": "inputs",
+      "kind": "missing",
+      "note": "no step uses '2 tbsp extra-virgin olive oil' (p=0.86)"
+    }
+  ]
+}

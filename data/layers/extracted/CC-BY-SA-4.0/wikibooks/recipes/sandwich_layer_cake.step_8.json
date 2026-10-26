@@ -1,0 +1,48 @@
+{
+  "id": "sandwich_layer_cake.step_8",
+  "source": "wikibooks_sandwich_layer_cake",
+  "sourceRef": {
+    "source": "wikibooks_sandwich_layer_cake",
+    "step": 8
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "sandwich_layer_cake_step_7",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "sandwich_layer_cake_step_8",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Take the mayonnaise/sour cream mix out of the refrigerator and spread it thinly and evenly on the sides of and on top of the cake.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

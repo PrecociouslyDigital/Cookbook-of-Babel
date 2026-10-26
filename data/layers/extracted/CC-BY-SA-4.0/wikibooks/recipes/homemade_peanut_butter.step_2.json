@@ -1,0 +1,48 @@
+{
+  "id": "homemade_peanut_butter.step_2",
+  "source": "wikibooks_homemade_peanut_butter",
+  "sourceRef": {
+    "source": "wikibooks_homemade_peanut_butter",
+    "step": 2
+  },
+  "technique": "cool",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "homemade_peanut_butter_step_1",
+        "amount": {
+          "qty": 250,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "homemade_peanut_butter_step_2",
+      "amount": {
+        "qty": 250,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Let peanuts cool. You can shake the peanuts to peel its skin.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

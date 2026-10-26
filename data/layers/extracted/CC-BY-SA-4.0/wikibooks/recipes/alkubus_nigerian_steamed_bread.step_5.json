@@ -1,0 +1,70 @@
+{
+  "id": "alkubus_nigerian_steamed_bread.step_5",
+  "source": "wikibooks_alkubus_nigerian_steamed_bread",
+  "sourceRef": {
+    "source": "wikibooks_alkubus_nigerian_steamed_bread",
+    "step": 5
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "alkubus_nigerian_steamed_bread_step_4",
+        "amount": {
+          "qty": 381.4,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "peanut_oil",
+        "amount": {
+          "qty": 2,
+          "unit": "tsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "alkubus_nigerian_steamed_bread_step_5",
+      "amount": {
+        "qty": 391.3,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Grease a cooking mold, and transfer the dough to the mold.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.51"
+    },
+    {
+      "field": "inputs",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.54"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for peanut_oil"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

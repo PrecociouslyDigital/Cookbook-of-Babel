@@ -1,0 +1,62 @@
+{
+  "id": "bouillabaisse.step_6",
+  "source": "wikibooks_bouillabaisse",
+  "sourceRef": {
+    "source": "wikibooks_bouillabaisse",
+    "step": 6
+  },
+  "technique": "boil",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "bouillabaisse_step_5",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "sea_urchin",
+        "amount": {
+          "qty": 10,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "potato",
+        "amount": {
+          "qty": 1,
+          "unit": "kg"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "bouillabaisse_step_6",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 100,
+    "medium": "boiling_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 17.5,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Cook the potatoes in salted water for 15 to 20 minutes. Open the sea urchins with a pair of scissors and remove the roe with a small spoon.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of boil's typical range"
+    }
+  ]
+}

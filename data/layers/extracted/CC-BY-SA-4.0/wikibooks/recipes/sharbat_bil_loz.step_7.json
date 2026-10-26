@@ -1,0 +1,65 @@
+{
+  "id": "sharbat_bil_loz.step_7",
+  "source": "wikibooks_sharbat_bil_loz",
+  "sourceRef": {
+    "source": "wikibooks_sharbat_bil_loz",
+    "step": 7
+  },
+  "technique": "cool",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "sharbat_bil_loz_step_6",
+        "amount": {
+          "qty": 2496.1,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "orange_flower_water",
+        "amount": {
+          "qty": 0.25,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "sharbat_bil_loz_step_7",
+      "amount": {
+        "qty": 2555.2,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Turn off the heat, add the orange flower water, and let the syrup cool.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.53"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for orange_flower_water"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

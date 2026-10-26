@@ -1,0 +1,58 @@
+{
+  "id": "deep_fried_turkey.step_1",
+  "source": "wikibooks_deep_fried_turkey",
+  "sourceRef": {
+    "source": "wikibooks_deep_fried_turkey",
+    "step": 1
+  },
+  "technique": "separate",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "turkey",
+        "amount": {
+          "qty": 14,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "deep_fried_turkey_step_1",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "If frozen, thaw turkey in the fridge for several days. Remove giblets bag from cavity.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.56"
+    },
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'10–18-pound whole turkey': '-pound' read as pieces"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

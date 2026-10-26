@@ -1,0 +1,53 @@
+{
+  "id": "sharbat_bil_loz.step_1",
+  "source": "wikibooks_sharbat_bil_loz",
+  "sourceRef": {
+    "source": "wikibooks_sharbat_bil_loz",
+    "step": 1
+  },
+  "technique": "grind",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "almond",
+        "amount": {
+          "qty": 4,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "sharbat_bil_loz_step_1",
+      "amount": {
+        "qty": 946.4,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Grind the almonds finely in blender.",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for almond"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": "inarizushi_stuffed_sushi.step_8",
+  "source": "wikibooks_inarizushi_stuffed_sushi",
+  "sourceRef": {
+    "source": "wikibooks_inarizushi_stuffed_sushi",
+    "step": 8
+  },
+  "technique": "coagulate",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "inarizushi_stuffed_sushi_step_7",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "inarizushi_stuffed_sushi_step_8",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 180,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 30,
+      "unit": "s"
+    }
+  },
+  "stateNote": "Allow the mixture to cook until the edges start to dry out. Remove the pan from the heat, and let the egg mixture continue to cook for 30 seconds from the heat in the pan.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.54"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 180.0 °C for pan_contact"
+    }
+  ]
+}

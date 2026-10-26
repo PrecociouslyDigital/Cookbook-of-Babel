@@ -1,0 +1,62 @@
+{
+  "id": "germknodel_plum_and_poppy_seed_dumpling.step_2",
+  "source": "wikibooks_germknodel_plum_and_poppy_seed_dumpling",
+  "sourceRef": {
+    "source": "wikibooks_germknodel_plum_and_poppy_seed_dumpling",
+    "step": 2
+  },
+  "technique": "dissolve",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "germknodel_plum_and_poppy_seed_dumpling_step_1",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "yeast",
+        "amount": {
+          "qty": 2,
+          "unit": "tbsp"
+        }
+      },
+      {
+        "ingredient": "milk",
+        "amount": {
+          "qty": 1,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "germknodel_plum_and_poppy_seed_dumpling_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "In another bowl, mix the lukewarm milk with the yeast, and stir until all of the yeast has dissolved.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "fried_onion_blooms.step_5",
+  "source": "wikibooks_fried_onion_blooms",
+  "sourceRef": {
+    "source": "wikibooks_fried_onion_blooms",
+    "step": 5
+  },
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "fried_onion_blooms_step_4",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "fried_onion_blooms_step_5",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Repeat cuts radially (across the center, like a clock face) for a total of 6 or 8 cuts.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

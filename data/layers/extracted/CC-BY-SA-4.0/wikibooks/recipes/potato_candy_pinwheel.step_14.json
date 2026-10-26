@@ -1,0 +1,48 @@
+{
+  "id": "potato_candy_pinwheel.step_14",
+  "source": "wikibooks_potato_candy_pinwheel",
+  "sourceRef": {
+    "source": "wikibooks_potato_candy_pinwheel",
+    "step": 14
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "potato_candy_pinwheel_step_13",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "potato_candy_pinwheel_step_14",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "After the dough is chilled, bring it out from the fridge and spread the filling on top of the dough until the spreading reaches the corners of the rolled-out dough.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

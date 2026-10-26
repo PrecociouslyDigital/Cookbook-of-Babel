@@ -1,0 +1,53 @@
+{
+  "id": "chili_with_meat.step_4",
+  "source": "wikibooks_chili_with_meat",
+  "sourceRef": {
+    "source": "wikibooks_chili_with_meat",
+    "step": 4
+  },
+  "technique": "simmer",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "chili_with_meat_step_3",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "chili_with_meat",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 90,
+    "medium": "simmering_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 2.5,
+      "unit": "h"
+    }
+  },
+  "stateNote": "Reduce to low heat and simmer for 2 to 3 hours, stir every 15 minutes.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of simmer's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "the step names several durations; used the first"
+    }
+  ]
+}

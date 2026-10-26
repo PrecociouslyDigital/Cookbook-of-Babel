@@ -1,0 +1,55 @@
+{
+  "id": "tequenos_venezuelan_breaded_cheese_sticks.step_4",
+  "source": "wikibooks_tequenos_venezuelan_breaded_cheese_sticks",
+  "sourceRef": {
+    "source": "wikibooks_tequenos_venezuelan_breaded_cheese_sticks",
+    "step": 4
+  },
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "tequenos_venezuelan_breaded_cheese_sticks_step_3",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "cheese",
+        "amount": {
+          "qty": 1,
+          "unit": "kg"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "tequenos_venezuelan_breaded_cheese_sticks_step_4",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "While the dough is resting, cut the cheese into finger-like strips, roughly 1 x 1 x 7 cm (½ x ½ x 3 inches).",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

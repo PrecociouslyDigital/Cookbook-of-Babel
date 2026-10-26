@@ -1,0 +1,69 @@
+{
+  "id": "skillet_cornbread.step_5",
+  "source": "wikibooks_skillet_cornbread",
+  "sourceRef": {
+    "source": "wikibooks_skillet_cornbread",
+    "step": 5
+  },
+  "technique": "whisk",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "skillet_cornbread_step_4",
+        "amount": {
+          "qty": 424.2,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "egg",
+        "amount": {
+          "qty": 1,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "butter",
+        "amount": {
+          "qty": 2.5,
+          "unit": "tbsp"
+        }
+      },
+      {
+        "ingredient": "milk",
+        "amount": {
+          "qty": 1,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "skillet_cornbread_step_5",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "In a second bowl, beat the egg well. Add the melted butter (or pan drippings) and the milk and continue to beat until well mixed.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

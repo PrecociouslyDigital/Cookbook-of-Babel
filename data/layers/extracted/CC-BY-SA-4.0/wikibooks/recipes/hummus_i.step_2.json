@@ -1,0 +1,48 @@
+{
+  "id": "hummus_i.step_2",
+  "source": "wikibooks_hummus_i",
+  "sourceRef": {
+    "source": "wikibooks_hummus_i",
+    "step": 2
+  },
+  "technique": "rinse",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "hummus_i_step_1",
+        "amount": {
+          "qty": 241.8,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "hummus_i_step_2",
+      "amount": {
+        "qty": 241.8,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Rinse.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "id": "nigerian_yanrin.step_2",
+  "source": "wikibooks_nigerian_yanrin",
+  "sourceRef": {
+    "source": "wikibooks_nigerian_yanrin",
+    "step": 2
+  },
+  "technique": "blend",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "nigerian_yanrin_step_1",
+        "amount": {
+          "qty": 473.2,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "pepper",
+        "amount": {
+          "qty": 3,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "nigerian_yanrin_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Blend or pound the peppers roughly.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

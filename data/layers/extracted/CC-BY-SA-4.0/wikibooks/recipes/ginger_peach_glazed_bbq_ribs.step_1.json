@@ -1,0 +1,55 @@
+{
+  "id": "ginger_peach_glazed_bbq_ribs.step_1",
+  "source": "wikibooks_ginger_peach_glazed_bbq_ribs",
+  "sourceRef": {
+    "source": "wikibooks_ginger_peach_glazed_bbq_ribs",
+    "step": 1
+  },
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "pork",
+        "amount": {
+          "qty": 2,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "barbecue_rub",
+        "amount": {
+          "qty": 6,
+          "unit": "tbsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "ginger_peach_glazed_bbq_ribs_step_1",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "h"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Season ribs with the Barbecue Rub. Refrigerate for at least 1 hour.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'2 slabs St. Louis style/cut pork spareribs': 'slabs' read as pieces"
+    }
+  ]
+}

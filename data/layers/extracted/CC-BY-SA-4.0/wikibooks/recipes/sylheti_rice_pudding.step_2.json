@@ -1,0 +1,66 @@
+{
+  "id": "sylheti_rice_pudding.step_2",
+  "source": "wikibooks_sylheti_rice_pudding",
+  "sourceRef": {
+    "source": "wikibooks_sylheti_rice_pudding",
+    "step": 2
+  },
+  "technique": "boil",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "sylheti_rice_pudding_step_1",
+        "amount": {
+          "qty": 236.6,
+          "unit": "g"
+        }
+      },
+      {
+        "min": 0,
+        "max": 1,
+        "of": [
+          {
+            "ingredient": "milk",
+            "amount": {
+              "qty": 1,
+              "unit": "cup"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "sylheti_rice_pudding_step_2",
+      "amount": {
+        "qty": 480.3,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 100,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "In a large, heavy-bottomed pot, bring the milk (if using) to a boil.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of boil's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "id": "tortillas_with_spicy_chocolate_sauce.step_4",
+  "source": "wikibooks_tortillas_with_spicy_chocolate_sauce",
+  "sourceRef": {
+    "source": "wikibooks_tortillas_with_spicy_chocolate_sauce",
+    "step": 4
+  },
+  "technique": "coagulate",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "tortillas_with_spicy_chocolate_sauce_step_2",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "egg",
+        "amount": {
+          "qty": 3,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "tortillas_with_spicy_chocolate_sauce_step_4",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 90,
+    "medium": "simmering_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Remove bowl from pot and add egg yolks, whisking continuously, and place back on top of the pot. Cook, whisking continuously, until eggs fall off of whisk in a ribbon.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.55"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 90.0 °C for simmering_water"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

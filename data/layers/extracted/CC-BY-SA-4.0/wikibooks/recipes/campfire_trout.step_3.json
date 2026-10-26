@@ -1,0 +1,60 @@
+{
+  "id": "campfire_trout.step_3",
+  "source": "wikibooks_campfire_trout",
+  "sourceRef": {
+    "source": "wikibooks_campfire_trout",
+    "step": 3
+  },
+  "technique": "grill",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "campfire_trout_step_2",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "lemon",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "campfire_trout",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 250,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 3.5,
+      "unit": "min"
+    }
+  },
+  "stateNote": "After the trout has cooked for a few minutes (5–7 depending on the size of the fish), check the inside. If the side close to the fire is white and flakes easily, the fish is ready to turn. Flip the fish, and continue cooking the other side for 3–4 minutes until done.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Lemon': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of grill's typical range"
+    }
+  ]
+}

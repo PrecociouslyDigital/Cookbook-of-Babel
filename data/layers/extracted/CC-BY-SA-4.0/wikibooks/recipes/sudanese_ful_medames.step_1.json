@@ -1,0 +1,65 @@
+{
+  "id": "sudanese_ful_medames.step_1",
+  "source": "wikibooks_sudanese_ful_medames",
+  "sourceRef": {
+    "source": "wikibooks_sudanese_ful_medames",
+    "step": 1
+  },
+  "technique": "rinse",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "fava_bean",
+        "amount": {
+          "qty": 2,
+          "unit": "cup"
+        }
+      },
+      {
+        "ingredient": "water",
+        "amount": {
+          "qty": 4,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "sudanese_ful_medames_step_1",
+      "amount": {
+        "qty": 1419.6,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 8,
+      "unit": "h"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Rinse the dried fava beans under cold water and then place them in a large pot. Add 4 cups of water to the pot and let the beans soak overnight, or for at least 8 hours. This helps soften the beans and reduce the cooking time.",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for fava_bean"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "'overnight' read as 8 hours"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "the step names several durations; used the first"
+    }
+  ]
+}

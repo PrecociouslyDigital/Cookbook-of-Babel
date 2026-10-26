@@ -1,0 +1,53 @@
+{
+  "id": "salmon_with_rice_and_sauce.step_4",
+  "source": "wikibooks_salmon_with_rice_and_sauce",
+  "sourceRef": {
+    "source": "wikibooks_salmon_with_rice_and_sauce",
+    "step": 4
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "salmon_with_rice_and_sauce_step_3",
+        "amount": {
+          "qty": 550,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "salmon_with_rice_and_sauce_step_4",
+      "amount": {
+        "qty": 550,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Fill the pot with cold water so the rice gets covered.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.5"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "id": "maja_blanca_coconut_milk_pudding.step_1",
+  "source": "wikibooks_maja_blanca_coconut_milk_pudding",
+  "sourceRef": {
+    "source": "wikibooks_maja_blanca_coconut_milk_pudding",
+    "step": 1
+  },
+  "technique": "dissolve",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "starch",
+        "amount": {
+          "qty": 2,
+          "unit": "cup"
+        }
+      },
+      {
+        "ingredient": "coconut",
+        "amount": {
+          "qty": 4,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "maja_blanca_coconut_milk_pudding_step_1",
+      "amount": {
+        "qty": 1206.7,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "In a bowl, dissolve cornstarch in 1 cup of coconut milk. Set aside.",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for coconut"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

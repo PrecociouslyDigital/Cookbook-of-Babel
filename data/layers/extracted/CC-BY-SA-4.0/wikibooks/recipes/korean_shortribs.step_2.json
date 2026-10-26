@@ -1,0 +1,48 @@
+{
+  "id": "korean_shortribs.step_2",
+  "source": "wikibooks_korean_shortribs",
+  "sourceRef": {
+    "source": "wikibooks_korean_shortribs",
+    "step": 2
+  },
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "korean_shortribs_step_1",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "korean_shortribs_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 8,
+      "unit": "h"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Toss to coat the meat in the marinade, and refrigerate overnight. Note that this flavors but does not tenderize the meat.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "'overnight' read as 8 hours"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "id": "prawn_curry.step_1",
+  "source": "wikibooks_prawn_curry",
+  "sourceRef": {
+    "source": "wikibooks_prawn_curry",
+    "step": 1
+  },
+  "technique": "pan_fry",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "vegetable_oil",
+        "amount": {
+          "qty": 1,
+          "unit": "cup"
+        }
+      },
+      {
+        "ingredient": "shrimp",
+        "amount": {
+          "qty": 1,
+          "unit": "kg"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "prawn_curry_step_1",
+      "amount": {
+        "qty": 1217.7,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 185,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 2,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Heat a tablespoon of oil in a pan and sauté prawns over medium-high heat for 2 minutes only, just until that their water dries out and they turn pink in color. Don't try to cook prawns for more than that because they will become rubbery and hard to chew.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.56"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of pan_fry's typical range"
+    }
+  ]
+}

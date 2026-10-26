@@ -1,0 +1,55 @@
+{
+  "id": "langos_hungarian_fried_flatbread.step_2",
+  "source": "wikibooks_langos_hungarian_fried_flatbread",
+  "sourceRef": {
+    "source": "wikibooks_langos_hungarian_fried_flatbread",
+    "step": 2
+  },
+  "technique": "knead",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "langos_hungarian_fried_flatbread_step_1",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "salt",
+        "amount": {
+          "qty": 2,
+          "unit": "tsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "langos_hungarian_fried_flatbread_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Add the salt, and knead until the dough is pliant and not too sticky, adding more flour or yogurt as necessary. The correct texture is really a matter of trial-and-error. It's not unlike an egg pasta dough, but it's rather less stiff.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

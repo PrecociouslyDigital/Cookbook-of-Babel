@@ -1,0 +1,70 @@
+{
+  "id": "matar_paneer.step_4",
+  "source": "wikibooks_matar_paneer",
+  "sourceRef": {
+    "source": "wikibooks_matar_paneer",
+    "step": 4
+  },
+  "technique": "fry",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "matar_paneer_step_3",
+        "amount": {
+          "qty": 315.5,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "ginger_garlic_paste",
+        "amount": {
+          "qty": 1,
+          "unit": "tsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "matar_paneer_step_4",
+      "amount": {
+        "qty": 320.4,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 190,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Remove excess oil from the same pan, and add ginger-garlic paste.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.37"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for ginger_garlic_paste"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of fry's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

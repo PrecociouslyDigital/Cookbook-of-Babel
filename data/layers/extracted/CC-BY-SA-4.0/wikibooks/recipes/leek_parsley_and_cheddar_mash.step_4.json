@@ -1,0 +1,53 @@
+{
+  "id": "leek_parsley_and_cheddar_mash.step_4",
+  "source": "wikibooks_leek_parsley_and_cheddar_mash",
+  "sourceRef": {
+    "source": "wikibooks_leek_parsley_and_cheddar_mash",
+    "step": 4
+  },
+  "technique": "strain",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "leek_parsley_and_cheddar_mash_step_3",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "leek_parsley_and_cheddar_mash_step_4",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 100,
+    "medium": "steam"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 5,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Drain the potatoes and leave for 5 minutes to steam-dry.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.49"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 100.0 °C for steam"
+    }
+  ]
+}

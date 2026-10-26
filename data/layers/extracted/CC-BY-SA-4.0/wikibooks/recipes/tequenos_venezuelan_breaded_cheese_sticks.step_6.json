@@ -1,0 +1,53 @@
+{
+  "id": "tequenos_venezuelan_breaded_cheese_sticks.step_6",
+  "source": "wikibooks_tequenos_venezuelan_breaded_cheese_sticks",
+  "sourceRef": {
+    "source": "wikibooks_tequenos_venezuelan_breaded_cheese_sticks",
+    "step": 6
+  },
+  "technique": "knead",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "tequenos_venezuelan_breaded_cheese_sticks_step_5",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "tequenos_venezuelan_breaded_cheese_sticks_step_6",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Roll them out until they are ½ cm (¼–0.125 inch) thick.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.41"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "id": "table_point_boiled_beef_and_vegetables_tafelspitz.step_2",
+  "source": "wikibooks_table_point_boiled_beef_and_vegetables_tafelspitz",
+  "sourceRef": {
+    "source": "wikibooks_table_point_boiled_beef_and_vegetables_tafelspitz",
+    "step": 2
+  },
+  "technique": "boil",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "beef",
+        "amount": {
+          "qty": 2.5,
+          "unit": "lb"
+        }
+      },
+      {
+        "ingredient": "garlic",
+        "amount": {
+          "qty": 3,
+          "unit": "clove"
+        }
+      },
+      {
+        "ingredient": "pepper",
+        "amount": {
+          "qty": 3,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "juniper_berry",
+        "amount": {
+          "qty": 2,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "table_point_boiled_beef_and_vegetables_tafelspitz_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 100,
+    "medium": "boiling_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "When the water boils, add meat, garlic, peppercorns, and juniper berries, then cover the pot.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'3 whole green (freeze dried) or white peppercorns': '(freeze' read as pieces"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of boil's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

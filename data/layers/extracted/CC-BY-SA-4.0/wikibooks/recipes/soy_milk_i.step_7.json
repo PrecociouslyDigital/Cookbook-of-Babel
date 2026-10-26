@@ -1,0 +1,53 @@
+{
+  "id": "soy_milk_i.step_7",
+  "source": "wikibooks_soy_milk_i",
+  "sourceRef": {
+    "source": "wikibooks_soy_milk_i",
+    "step": 7
+  },
+  "technique": "strain",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "soy_milk_i_step_5",
+        "amount": {
+          "qty": 3625,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "soy_milk_i_step_7",
+      "amount": {
+        "qty": 3625,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Carefully pour the cooked, unfiltered milk into the can. Then fold the cheesecloth together at the top and lift it up out of the can so that the filtered milk drips into the can. Rotate the bottom of the cloth against the top and use your hands to exert additional pressure upon the soy mass. Be careful not to burn yourself.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.54"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

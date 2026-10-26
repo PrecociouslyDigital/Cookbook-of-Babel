@@ -1,0 +1,53 @@
+{
+  "id": "double_chocolate_cheesecake.step_1",
+  "source": "wikibooks_double_chocolate_cheesecake",
+  "sourceRef": {
+    "source": "wikibooks_double_chocolate_cheesecake",
+    "step": 1
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "finely_crushed_chocolate_wafers",
+        "amount": {
+          "qty": 1.5,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "double_chocolate_cheesecake_step_1",
+      "amount": {
+        "qty": 354.9,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Stir together crushed wafers and butter.",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for finely_crushed_chocolate_wafers"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

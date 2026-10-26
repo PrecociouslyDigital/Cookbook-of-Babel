@@ -1,0 +1,81 @@
+{
+  "id": "yemenite_charoset_ii.step_2",
+  "source": "wikibooks_yemenite_charoset_ii",
+  "sourceRef": {
+    "source": "wikibooks_yemenite_charoset_ii",
+    "step": 2
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "yemenite_charoset_ii_step_1",
+        "amount": {
+          "qty": 450.3,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "date",
+        "amount": {
+          "qty": 300,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "raisin",
+        "amount": {
+          "qty": 300,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "fig",
+        "amount": {
+          "qty": 100,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "pomegranate",
+        "amount": {
+          "qty": 1,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "yemenite_charoset_ii_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Mix all dry ingredients together (walnuts, almonds, sesame seeds, etc.), then mix all wet ingredients together (raisins, dates, figs, etc.).",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.51"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

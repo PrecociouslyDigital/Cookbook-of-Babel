@@ -1,0 +1,58 @@
+{
+  "id": "rice_an_peas.step_5",
+  "source": "wikibooks_rice_an_peas",
+  "sourceRef": {
+    "source": "wikibooks_rice_an_peas",
+    "step": 5
+  },
+  "technique": "steam",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "rice_an_peas_step_4",
+        "amount": {
+          "qty": 946.4,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "rice_an_peas",
+      "amount": {
+        "qty": 946.4,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 100,
+    "medium": "steam"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 30,
+      "unit": "min"
+    }
+  },
+  "stateNote": "In about 30 minutes your rice cooker will finish cooking the rice. Open, stir, and serve.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.41"
+    },
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.46"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of steam's typical range"
+    }
+  ]
+}

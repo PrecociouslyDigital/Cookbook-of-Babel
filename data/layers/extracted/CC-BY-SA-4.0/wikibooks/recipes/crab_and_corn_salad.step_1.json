@@ -1,0 +1,55 @@
+{
+  "id": "crab_and_corn_salad.step_1",
+  "source": "wikibooks_crab_and_corn_salad",
+  "sourceRef": {
+    "source": "wikibooks_crab_and_corn_salad",
+    "step": 1
+  },
+  "technique": "chop",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "imitation_crab",
+        "amount": {
+          "qty": 8,
+          "unit": "oz"
+        }
+      },
+      {
+        "ingredient": "green_onion",
+        "amount": {
+          "qty": 1.5,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "crab_and_corn_salad_step_1",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Chop imitation crab meat and green onions.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

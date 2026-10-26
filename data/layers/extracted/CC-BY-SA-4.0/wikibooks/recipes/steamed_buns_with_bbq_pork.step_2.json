@@ -1,0 +1,48 @@
+{
+  "id": "steamed_buns_with_bbq_pork.step_2",
+  "source": "wikibooks_steamed_buns_with_bbq_pork",
+  "sourceRef": {
+    "source": "wikibooks_steamed_buns_with_bbq_pork",
+    "step": 2
+  },
+  "technique": "blend",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "steamed_buns_with_bbq_pork_step_1",
+        "amount": {
+          "qty": 408.3,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "steamed_buns_with_bbq_pork_step_2",
+      "amount": {
+        "qty": 408.3,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Process until ingredients are blended and chopped fine.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

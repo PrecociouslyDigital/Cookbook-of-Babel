@@ -1,0 +1,48 @@
+{
+  "id": "christmas_ham.step_9",
+  "source": "wikibooks_christmas_ham",
+  "sourceRef": {
+    "source": "wikibooks_christmas_ham",
+    "step": 9
+  },
+  "technique": "cool",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "christmas_ham_step_8",
+        "amount": {
+          "qty": 8500.6,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "christmas_ham",
+      "amount": {
+        "qty": 8500.6,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "The ham is ready to eat when it has cooled down a bit. This makes about enough for 3 or 4 people for a week, but if you think you will not eat it all within a week, freeze the rest.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

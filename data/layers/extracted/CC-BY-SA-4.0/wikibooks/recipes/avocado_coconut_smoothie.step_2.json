@@ -1,0 +1,65 @@
+{
+  "id": "avocado_coconut_smoothie.step_2",
+  "source": "wikibooks_avocado_coconut_smoothie",
+  "sourceRef": {
+    "source": "wikibooks_avocado_coconut_smoothie",
+    "step": 2
+  },
+  "technique": "chill",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "avocado_coconut_smoothie_step_1",
+        "amount": {
+          "qty": 1.2,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "ice_cream",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "avocado_coconut_smoothie",
+      "amount": {
+        "qty": 1.5,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Add ice and serve chilled.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Ice': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for ice_cream"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

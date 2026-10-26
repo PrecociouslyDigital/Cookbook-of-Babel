@@ -1,0 +1,53 @@
+{
+  "id": "froga_maltese_omelet.step_3",
+  "source": "wikibooks_froga_maltese_omelet",
+  "sourceRef": {
+    "source": "wikibooks_froga_maltese_omelet",
+    "step": 3
+  },
+  "technique": "pan_fry",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "froga_maltese_omelet_step_2",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "froga_maltese_omelet",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 185,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Heat some oil in a frying pan. Add 3 large spoonfuls of the mixture to the frying pan, and flatten them out to around 1 cm thick. Cook until golden brown.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of pan_fry's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

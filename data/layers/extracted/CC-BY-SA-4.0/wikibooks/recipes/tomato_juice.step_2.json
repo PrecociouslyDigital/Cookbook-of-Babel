@@ -1,0 +1,48 @@
+{
+  "id": "tomato_juice.step_2",
+  "source": "wikibooks_tomato_juice",
+  "sourceRef": {
+    "source": "wikibooks_tomato_juice",
+    "step": 2
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "tomato_juice_step_1",
+        "amount": {
+          "qty": 1286.5,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "tomato_juice_step_2",
+      "amount": {
+        "qty": 1286.5,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Shake or stir vigorously.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "soy_milk_i.step_2",
+  "source": "wikibooks_soy_milk_i",
+  "sourceRef": {
+    "source": "wikibooks_soy_milk_i",
+    "step": 2
+  },
+  "technique": "separate",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "soy_milk_i_step_1",
+        "amount": {
+          "qty": 3625,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "soy_milk_i_step_2",
+      "amount": {
+        "qty": 3625,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Strip the soaked beans of their hulls by rubbing or crushing them between your fingers. Remove the hulls and pour away the excess water. While the hulls have about the same density as the beans and bean splinters, you can exploit their high flow resistance for separating the two: Fill some water into the bowl, then pour it away quickly enough to drag the hulls with it, but not so quickly that the beans will follow. This process resembles the winnowing of dry chaff from seeds. It's no problem if a few hulls remain.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

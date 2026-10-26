@@ -1,0 +1,48 @@
+{
+  "id": "salsa_fermented.step_2",
+  "source": "wikibooks_salsa_fermented",
+  "sourceRef": {
+    "source": "wikibooks_salsa_fermented",
+    "step": 2
+  },
+  "technique": "chop",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "tomato",
+        "amount": {
+          "qty": 1,
+          "unit": "kg"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "salsa_fermented_step_2",
+      "amount": {
+        "qty": 1000,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Dice the tomatoes",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

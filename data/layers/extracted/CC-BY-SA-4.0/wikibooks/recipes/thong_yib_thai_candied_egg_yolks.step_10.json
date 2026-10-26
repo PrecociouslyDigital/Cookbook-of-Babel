@@ -1,0 +1,53 @@
+{
+  "id": "thong_yib_thai_candied_egg_yolks.step_10",
+  "source": "wikibooks_thong_yib_thai_candied_egg_yolks",
+  "sourceRef": {
+    "source": "wikibooks_thong_yib_thai_candied_egg_yolks",
+    "step": 10
+  },
+  "technique": "cool",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "thong_yib_thai_candied_egg_yolks_step_9",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "thong_yib_thai_candied_egg_yolks_step_10",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Spoon the cooked yolks into the cooled syrup. Cool slightly, then crimp it into flower-like shape of 3, 4, or 5 petals.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.5"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

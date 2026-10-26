@@ -1,0 +1,48 @@
+{
+  "id": "chocolate_mousse.step_6",
+  "source": "wikibooks_chocolate_mousse",
+  "sourceRef": {
+    "source": "wikibooks_chocolate_mousse",
+    "step": 6
+  },
+  "technique": "fold",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "chocolate_mousse_step_5",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "chocolate_mousse_step_6",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "With a whisk (from now on do not use the mixer) add the egg whites in three parts to the chocolate mixture, followed by the whipped cream.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "egg_noodles_iii.step_5",
+  "source": "wikibooks_egg_noodles_iii",
+  "sourceRef": {
+    "source": "wikibooks_egg_noodles_iii",
+    "step": 5
+  },
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "egg_noodles_iii_step_4",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "egg_noodles_iii",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Shape the noodles through one of the following methods: Divide dough into manageable sections. Select one section at a time and keep the rest covered. Roll each section to desired thickness and cut into noodles with a knife. Divide dough into manageable sections. Select one section at a time and keep the rest covered. Roll dough through smooth rollers repeatedly at progressively thinner settings. When the dough reaches desired thickness, cut with grooved rollers.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

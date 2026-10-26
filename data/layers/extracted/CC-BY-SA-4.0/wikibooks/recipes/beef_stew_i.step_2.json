@@ -1,0 +1,55 @@
+{
+  "id": "beef_stew_i.step_2",
+  "source": "wikibooks_beef_stew_i",
+  "sourceRef": {
+    "source": "wikibooks_beef_stew_i",
+    "step": 2
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "beef_stew_i_step_1",
+        "amount": {
+          "qty": 907.2,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "wheat_flour",
+        "amount": {
+          "qty": 0.5,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "beef_stew_i_step_2",
+      "amount": {
+        "qty": 969.9,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Put the beef and flour in a container, such as a plastic bag, and shake or squish until the beef is well-coated. Use more flour for a thicker stew, or less for a thinner stew.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "eclairs.step_19",
+  "source": "wikibooks_eclairs",
+  "sourceRef": {
+    "source": "wikibooks_eclairs",
+    "step": 19
+  },
+  "technique": "cool",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "eclairs_step_18",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "eclairs",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Leave the éclairs on the wire rack until the icing has set. In the unlikely event that you're not going to eat them straight away, you can put them in the fridge for a few hours.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

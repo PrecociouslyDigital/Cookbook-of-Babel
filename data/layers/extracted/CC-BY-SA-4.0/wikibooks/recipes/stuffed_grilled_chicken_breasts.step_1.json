@@ -1,0 +1,48 @@
+{
+  "id": "stuffed_grilled_chicken_breasts.step_1",
+  "source": "wikibooks_stuffed_grilled_chicken_breasts",
+  "sourceRef": {
+    "source": "wikibooks_stuffed_grilled_chicken_breasts",
+    "step": 1
+  },
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "chicken",
+        "amount": {
+          "qty": 4,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "stuffed_grilled_chicken_breasts_step_1",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Using a narrow boning knife, make a slit along the side of one of the chicken breasts, almost cutting through all the way through the side. Repeat with remaining chicken.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

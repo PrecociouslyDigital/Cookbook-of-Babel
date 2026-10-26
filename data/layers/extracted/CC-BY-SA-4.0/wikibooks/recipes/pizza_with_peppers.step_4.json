@@ -1,0 +1,62 @@
+{
+  "id": "pizza_with_peppers.step_4",
+  "source": "wikibooks_pizza_with_peppers",
+  "sourceRef": {
+    "source": "wikibooks_pizza_with_peppers",
+    "step": 4
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "pizza_with_peppers_step_3",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "mozzarella_cheese",
+        "amount": {
+          "qty": 120,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "comte",
+        "amount": {
+          "qty": 50,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "pizza_with_peppers_step_4",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Scatter the cheeses evenly over top, then arrange the 4 reserved pepper rings decoratively on top.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

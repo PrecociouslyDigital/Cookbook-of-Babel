@@ -1,0 +1,48 @@
+{
+  "id": "baked_eggplant.step_2",
+  "source": "wikibooks_baked_eggplant",
+  "sourceRef": {
+    "source": "wikibooks_baked_eggplant",
+    "step": 2
+  },
+  "technique": "chop",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "baked_eggplant_step_1",
+        "amount": {
+          "qty": 907.2,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "baked_eggplant_step_2",
+      "amount": {
+        "qty": 907.2,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Scoop out flesh using a curved serrated grapefruit knife, and coarsely chop it.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

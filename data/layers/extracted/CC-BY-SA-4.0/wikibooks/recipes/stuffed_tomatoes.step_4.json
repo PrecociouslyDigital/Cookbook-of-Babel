@@ -1,0 +1,69 @@
+{
+  "id": "stuffed_tomatoes.step_4",
+  "source": "wikibooks_stuffed_tomatoes",
+  "sourceRef": {
+    "source": "wikibooks_stuffed_tomatoes",
+    "step": 4
+  },
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "stuffed_tomatoes_step_3",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "pepper",
+        "amount": {
+          "qty": 2,
+          "unit": "dash"
+        }
+      },
+      {
+        "ingredient": "garlic_powder",
+        "amount": {
+          "qty": 1,
+          "unit": "dash"
+        }
+      },
+      {
+        "ingredient": "salt",
+        "amount": {
+          "qty": 1,
+          "unit": "dash"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "stuffed_tomatoes_step_4",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "In the open ring sprinkle the dried spices.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": "palatschinken_with_sweetened_fruit.step_6",
+  "source": "wikibooks_palatschinken_with_sweetened_fruit",
+  "sourceRef": {
+    "source": "wikibooks_palatschinken_with_sweetened_fruit",
+    "step": 6
+  },
+  "technique": "fold",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "palatschinken_with_sweetened_fruit_step_5",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "palatschinken_with_sweetened_fruit_step_6",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Put 2 tbsp fruit mixture on each pancake, and fold over to enclose the filling.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.53"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

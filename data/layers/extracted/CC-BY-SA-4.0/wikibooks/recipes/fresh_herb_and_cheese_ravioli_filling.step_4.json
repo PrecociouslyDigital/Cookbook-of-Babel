@@ -1,0 +1,48 @@
+{
+  "id": "fresh_herb_and_cheese_ravioli_filling.step_4",
+  "source": "wikibooks_fresh_herb_and_cheese_ravioli_filling",
+  "sourceRef": {
+    "source": "wikibooks_fresh_herb_and_cheese_ravioli_filling",
+    "step": 4
+  },
+  "technique": "chill",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "fresh_herb_and_cheese_ravioli_filling_step_3",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "fresh_herb_and_cheese_ravioli_filling",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Refrigerate until the pasta dough is rolled out.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "zambian_tomato_and_onion_salad.step_5",
+  "source": "wikibooks_zambian_tomato_and_onion_salad",
+  "sourceRef": {
+    "source": "wikibooks_zambian_tomato_and_onion_salad",
+    "step": 5
+  },
+  "technique": "age",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "zambian_tomato_and_onion_salad_step_4",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "zambian_tomato_and_onion_salad_step_5",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Let the salad sit for a few minutes to allow the flavors to meld together.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

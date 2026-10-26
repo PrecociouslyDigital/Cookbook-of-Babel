@@ -1,0 +1,53 @@
+{
+  "id": "steamed_rice.step_4",
+  "source": "wikibooks_steamed_rice",
+  "sourceRef": {
+    "source": "wikibooks_steamed_rice",
+    "step": 4
+  },
+  "technique": "steam",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "steamed_rice_step_3",
+        "amount": {
+          "qty": 711.3,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "steamed_rice",
+      "amount": {
+        "qty": 711.3,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 100,
+    "medium": "steam"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 12,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Reduce heat to low and cover the pot. Cook on low for 12 minutes.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.45"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of steam's typical range"
+    }
+  ]
+}

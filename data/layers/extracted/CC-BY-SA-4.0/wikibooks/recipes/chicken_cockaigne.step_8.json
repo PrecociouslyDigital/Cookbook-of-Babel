@@ -1,0 +1,58 @@
+{
+  "id": "chicken_cockaigne.step_8",
+  "source": "wikibooks_chicken_cockaigne",
+  "sourceRef": {
+    "source": "wikibooks_chicken_cockaigne",
+    "step": 8
+  },
+  "technique": "pan_fry",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "chicken_cockaigne_step_6",
+        "amount": {
+          "qty": 1.3,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "chicken_cockaigne",
+      "amount": {
+        "qty": 1.3,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 185,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "If the chicken is not cooked after sitting, or if the lid is opened, return to the range, flip the breasts over, and continue cooking covered on medium heat until the safe temperature is reached.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.41"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of pan_fry's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

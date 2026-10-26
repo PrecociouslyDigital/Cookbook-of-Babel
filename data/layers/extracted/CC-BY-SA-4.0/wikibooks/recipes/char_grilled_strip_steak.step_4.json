@@ -1,0 +1,53 @@
+{
+  "id": "char_grilled_strip_steak.step_4",
+  "source": "wikibooks_char_grilled_strip_steak",
+  "sourceRef": {
+    "source": "wikibooks_char_grilled_strip_steak",
+    "step": 4
+  },
+  "technique": "grill",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "char_grilled_strip_steak_step_3",
+        "amount": {
+          "qty": 863.6,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "char_grilled_strip_steak_step_4",
+      "amount": {
+        "qty": 863.6,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 60,
+    "medium": "still_air"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Move steaks to medium heat and cook, turning often, until internal temperature reaches 140°F for medium-rare.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.37"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

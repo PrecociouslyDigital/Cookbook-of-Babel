@@ -1,0 +1,53 @@
+{
+  "id": "almond_cake.step_8",
+  "source": "wikibooks_almond_cake",
+  "sourceRef": {
+    "source": "wikibooks_almond_cake",
+    "step": 8
+  },
+  "technique": "cool",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "almond_cake_step_7",
+        "amount": {
+          "qty": 1236.7,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "almond_cake_step_8",
+      "amount": {
+        "qty": 1236.7,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Cool the cake in the pan. Use a knife to loosen the sides of the cake from the pan, if necessary. Unmold the cake from the pan, and peel off the parchment if it is attached to the cake.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.53"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

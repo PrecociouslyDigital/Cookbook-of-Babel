@@ -1,0 +1,69 @@
+{
+  "id": "apple_pie_i.step_1",
+  "source": "wikibooks_apple_pie_i",
+  "sourceRef": {
+    "source": "wikibooks_apple_pie_i",
+    "step": 1
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "wheat_flour",
+        "amount": {
+          "qty": 8,
+          "unit": "oz"
+        }
+      },
+      {
+        "ingredient": "margarine",
+        "amount": {
+          "qty": 4,
+          "unit": "oz"
+        }
+      },
+      {
+        "ingredient": "lard",
+        "amount": {
+          "qty": 2,
+          "unit": "oz"
+        }
+      },
+      {
+        "ingredient": "salt",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "apple_pie_i_step_1",
+      "amount": {
+        "qty": 397.3,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Rub flour, margarine, lard, and salt together until the mixture has the consistency of fine breadcrumbs.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

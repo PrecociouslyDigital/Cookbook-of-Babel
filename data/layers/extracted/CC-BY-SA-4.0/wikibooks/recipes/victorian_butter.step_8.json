@@ -1,0 +1,48 @@
+{
+  "id": "victorian_butter.step_8",
+  "source": "wikibooks_victorian_butter",
+  "sourceRef": {
+    "source": "wikibooks_victorian_butter",
+    "step": 8
+  },
+  "technique": "separate",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "victorian_butter_step_7",
+        "amount": {
+          "qty": 0.3,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "victorian_butter_step_8",
+      "amount": {
+        "qty": 0.3,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Remove the paddle from the churn, and scoop out all of the butter.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

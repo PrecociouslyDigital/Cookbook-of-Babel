@@ -1,0 +1,62 @@
+{
+  "id": "venison_pie.step_3",
+  "source": "wikibooks_venison_pie",
+  "sourceRef": {
+    "source": "wikibooks_venison_pie",
+    "step": 3
+  },
+  "technique": "pan_fry",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "venison_pie_step_2",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "venison",
+        "amount": {
+          "qty": 1,
+          "unit": "kg"
+        }
+      },
+      {
+        "ingredient": "wheat_flour",
+        "amount": {
+          "qty": 100,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "venison_pie_step_3",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 185,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 7.5,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Add some more olive oil to your now empty frying pan, and bring it up to a medium-high heat (think about 70–80% of max). Then, take each piece of venison and coat it lightly in the plain flour, before putting it in the frying pan. Once all the pieces are cooking away, move them around using your spatula to get them evenly cooked. You're only trying to cook the outer edges of the meat (searing it), so don't fry them for more than 5–10 minutes.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of pan_fry's typical range"
+    }
+  ]
+}

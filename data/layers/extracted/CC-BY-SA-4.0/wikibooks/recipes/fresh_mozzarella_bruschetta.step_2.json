@@ -1,0 +1,53 @@
+{
+  "id": "fresh_mozzarella_bruschetta.step_2",
+  "source": "wikibooks_fresh_mozzarella_bruschetta",
+  "sourceRef": {
+    "source": "wikibooks_fresh_mozzarella_bruschetta",
+    "step": 2
+  },
+  "technique": "toast",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "fresh_mozzarella_bruschetta_step_1",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "fresh_mozzarella_bruschetta_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 185,
+    "medium": "oven_air"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Lightly toast bread in the oven on both sides.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of toast's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

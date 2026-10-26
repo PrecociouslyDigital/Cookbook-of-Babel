@@ -1,0 +1,48 @@
+{
+  "id": "braai_zambian_barbecue.step_5",
+  "source": "wikibooks_braai_zambian_barbecue",
+  "sourceRef": {
+    "source": "wikibooks_braai_zambian_barbecue",
+    "step": 5
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "braai_zambian_barbecue_step_2",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "braai_zambian_barbecue_step_5",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Thread the marinated beef pieces onto the skewers, ensuring they are evenly spaced.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

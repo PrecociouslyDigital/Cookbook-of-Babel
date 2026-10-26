@@ -1,0 +1,48 @@
+{
+  "id": "homemade_yellow_cake_mix.step_4",
+  "source": "wikibooks_homemade_yellow_cake_mix",
+  "sourceRef": {
+    "source": "wikibooks_homemade_yellow_cake_mix",
+    "step": 4
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "homemade_yellow_cake_mix_step_2",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "homemade_yellow_cake_mix_step_4",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1.5,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Beat the butter in a mixing bowl until soft (1–2 minutes using mixer or 3–4 minutes by hand).",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "the step names several durations; used the first"
+    }
+  ]
+}

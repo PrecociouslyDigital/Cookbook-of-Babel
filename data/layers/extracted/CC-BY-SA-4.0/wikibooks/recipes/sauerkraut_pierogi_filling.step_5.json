@@ -1,0 +1,53 @@
+{
+  "id": "sauerkraut_pierogi_filling.step_5",
+  "source": "wikibooks_sauerkraut_pierogi_filling",
+  "sourceRef": {
+    "source": "wikibooks_sauerkraut_pierogi_filling",
+    "step": 5
+  },
+  "technique": "simmer",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "sauerkraut_pierogi_filling_step_4",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "sauerkraut_pierogi_filling",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 90,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 15,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Simmer for 15 minutes and let it cool before using. For best results, refrigerate a few hours before using to fill pierogi.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.47"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of simmer's typical range"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": "soy_mustard_lamb_chops.step_7",
+  "source": "wikibooks_soy_mustard_lamb_chops",
+  "sourceRef": {
+    "source": "wikibooks_soy_mustard_lamb_chops",
+    "step": 7
+  },
+  "technique": "grill",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "soy_mustard_lamb_chops_step_6",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "soy_mustard_lamb_chops_step_7",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 250,
+    "medium": "convection_air"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Remove the chops, dip in the marinade, and return to fire for 1 minute on lower heat with the grill hood closed.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.45"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of grill's typical range"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "liberian_cassava_leaf_soup.step_1",
+  "source": "wikibooks_liberian_cassava_leaf_soup",
+  "sourceRef": {
+    "source": "wikibooks_liberian_cassava_leaf_soup",
+    "step": 1
+  },
+  "technique": "rinse",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "cassava",
+        "amount": {
+          "qty": 2,
+          "unit": "lb"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "liberian_cassava_leaf_soup_step_1",
+      "amount": {
+        "qty": 907.2,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "If using fresh cassava leaves, wash them thoroughly and remove any tough stems. If using frozen cassava leaves, thaw them according to the package instructions.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

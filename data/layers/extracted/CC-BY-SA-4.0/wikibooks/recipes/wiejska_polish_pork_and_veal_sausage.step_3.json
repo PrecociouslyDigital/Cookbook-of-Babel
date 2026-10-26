@@ -1,0 +1,53 @@
+{
+  "id": "wiejska_polish_pork_and_veal_sausage.step_3",
+  "source": "wikibooks_wiejska_polish_pork_and_veal_sausage",
+  "sourceRef": {
+    "source": "wikibooks_wiejska_polish_pork_and_veal_sausage",
+    "step": 3
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "wiejska_polish_pork_and_veal_sausage_step_2",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "wiejska_polish_pork_and_veal_sausage_step_3",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Knot the end and roll the sausage gently on a firm surface to distribute the filling evenly.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.44"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "id": "traditional_british_brewed_tea.step_5",
+  "source": "wikibooks_traditional_british_brewed_tea",
+  "sourceRef": {
+    "source": "wikibooks_traditional_british_brewed_tea",
+    "step": 5
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "traditional_british_brewed_tea_step_4",
+        "amount": {
+          "qty": 0.3,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "milk",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "traditional_british_brewed_tea_step_5",
+      "amount": {
+        "qty": 0.6,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 100,
+    "medium": "boiling_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Add milk to taste. If you are familiar with the strength of tea you make and the size of the cups, you can follow the 'milk in first' technique. Otherwise, add milk to the tea, to ensure you get the right colour.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.58"
+    },
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Milk (traditionally full-fat, but semi-skimmed will do)': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 100.0 °C for boiling_water"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

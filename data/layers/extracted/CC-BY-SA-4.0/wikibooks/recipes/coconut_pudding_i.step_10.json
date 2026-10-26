@@ -1,0 +1,48 @@
+{
+  "id": "coconut_pudding_i.step_10",
+  "source": "wikibooks_coconut_pudding_i",
+  "sourceRef": {
+    "source": "wikibooks_coconut_pudding_i",
+    "step": 10
+  },
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "coconut_pudding_i_step_9",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "coconut_pudding_i",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Using a knife, gently cut the pudding and serve it in dessert bowls.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": "lemon_meringue_pie_american.step_13",
+  "source": "wikibooks_lemon_meringue_pie_american",
+  "sourceRef": {
+    "source": "wikibooks_lemon_meringue_pie_american",
+    "step": 13
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "lemon_meringue_pie_american_step_12",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "lemon_meringue_pie_american_step_13",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Spread meringue over pie, starting on lemon pie filling, using rubber spatula. Spread over edges of crust, completely sealing in the lemon pie filling.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.55"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

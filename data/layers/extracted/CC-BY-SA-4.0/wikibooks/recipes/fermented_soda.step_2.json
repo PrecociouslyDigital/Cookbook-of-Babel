@@ -1,0 +1,74 @@
+{
+  "id": "fermented_soda.step_2",
+  "source": "wikibooks_fermented_soda",
+  "sourceRef": {
+    "source": "wikibooks_fermented_soda",
+    "step": 2
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "yeast",
+        "amount": {
+          "qty": 0.125,
+          "unit": "tsp"
+        }
+      },
+      {
+        "ingredient": "soda_extract",
+        "amount": {
+          "qty": 0.5,
+          "unit": "tbsp"
+        }
+      },
+      {
+        "ingredient": "white_sugar",
+        "amount": {
+          "qty": 1,
+          "unit": "cup"
+        }
+      },
+      {
+        "ingredient": "water",
+        "amount": {
+          "qty": 2,
+          "unit": "l"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "fermented_soda_step_2",
+      "amount": {
+        "qty": 2209.1,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Combine all of the ingredients in a container suitable for fermentation. Note that gas will be produced during the fermentation.",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for yeast, soda_extract"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

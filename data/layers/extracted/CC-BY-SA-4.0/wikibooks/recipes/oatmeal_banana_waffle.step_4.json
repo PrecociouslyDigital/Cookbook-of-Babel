@@ -1,0 +1,53 @@
+{
+  "id": "oatmeal_banana_waffle.step_4",
+  "source": "wikibooks_oatmeal_banana_waffle",
+  "sourceRef": {
+    "source": "wikibooks_oatmeal_banana_waffle",
+    "step": 4
+  },
+  "technique": "bake",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "oatmeal_banana_waffle_step_2",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "oatmeal_banana_waffle",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 200,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 10,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Pour some of the batter onto the waffle iron. Cook for about 10 minutes. Repeat until you are out of batter.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.44"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of bake's typical range"
+    }
+  ]
+}

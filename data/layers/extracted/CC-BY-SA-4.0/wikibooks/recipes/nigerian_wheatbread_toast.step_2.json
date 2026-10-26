@@ -1,0 +1,77 @@
+{
+  "id": "nigerian_wheatbread_toast.step_2",
+  "source": "wikibooks_nigerian_wheatbread_toast",
+  "sourceRef": {
+    "source": "wikibooks_nigerian_wheatbread_toast",
+    "step": 2
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "nigerian_wheatbread_toast_step_1",
+        "amount": {
+          "qty": 0.7,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "bread",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      },
+      {
+        "ingredient": "butter",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "nigerian_wheatbread_toast_step_2",
+      "amount": {
+        "qty": 1.3,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Spread some butter on the bread slices.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Sliced wheat bread': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Butter': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for bread, butter"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

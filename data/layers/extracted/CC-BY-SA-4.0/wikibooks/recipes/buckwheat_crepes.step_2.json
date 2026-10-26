@@ -1,0 +1,68 @@
+{
+  "id": "buckwheat_crepes.step_2",
+  "source": "wikibooks_buckwheat_crepes",
+  "sourceRef": {
+    "source": "wikibooks_buckwheat_crepes",
+    "step": 2
+  },
+  "technique": "whisk",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "buckwheat_crepes_step_1",
+        "amount": {
+          "qty": 505.9,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "water",
+        "amount": {
+          "qty": 1,
+          "unit": "l"
+        }
+      },
+      {
+        "min": 0,
+        "max": 1,
+        "of": [
+          {
+            "ingredient": "egg",
+            "amount": {
+              "qty": 1,
+              "unit": "piece"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "buckwheat_crepes_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Whisk in the egg and half the water to make a batter.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

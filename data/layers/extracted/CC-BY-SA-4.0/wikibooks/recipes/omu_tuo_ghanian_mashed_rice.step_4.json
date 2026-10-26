@@ -1,0 +1,58 @@
+{
+  "id": "omu_tuo_ghanian_mashed_rice.step_4",
+  "source": "wikibooks_omu_tuo_ghanian_mashed_rice",
+  "sourceRef": {
+    "source": "wikibooks_omu_tuo_ghanian_mashed_rice",
+    "step": 4
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "omu_tuo_ghanian_mashed_rice_step_3",
+        "amount": {
+          "qty": 732.4,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "omu_tuo_ghanian_mashed_rice",
+      "amount": {
+        "qty": 732.4,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Transfer the mashed rice to a moistened bowl and gently swirl it until a bowl shape is formed.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.39"
+    },
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.57"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

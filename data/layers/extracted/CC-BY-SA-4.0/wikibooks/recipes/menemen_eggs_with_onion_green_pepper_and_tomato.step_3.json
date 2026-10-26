@@ -1,0 +1,79 @@
+{
+  "id": "menemen_eggs_with_onion_green_pepper_and_tomato.step_3",
+  "source": "wikibooks_menemen_eggs_with_onion_green_pepper_and_tomato",
+  "sourceRef": {
+    "source": "wikibooks_menemen_eggs_with_onion_green_pepper_and_tomato",
+    "step": 3
+  },
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "menemen_eggs_with_onion_green_pepper_and_tomato_step_2",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "min": 0,
+        "max": 1,
+        "of": [
+          {
+            "ingredient": "oregano",
+            "amount": {
+              "qty": 1.5,
+              "unit": "tsp"
+            }
+          }
+        ]
+      },
+      {
+        "min": 0,
+        "max": 1,
+        "of": [
+          {
+            "ingredient": "paprika",
+            "amount": {
+              "qty": 1.5,
+              "unit": "tsp"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "menemen_eggs_with_onion_green_pepper_and_tomato_step_3",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 180,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Add the oregano and paprika, if using.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 180.0 °C for pan_contact"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": "hummus_with_sprouted_chickpea.step_1",
+  "source": "wikibooks_hummus_with_sprouted_chickpea",
+  "sourceRef": {
+    "source": "wikibooks_hummus_with_sprouted_chickpea",
+    "step": 1
+  },
+  "technique": "rinse",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "chickpea",
+        "amount": {
+          "qty": 2,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "hummus_with_sprouted_chickpea_step_1",
+      "amount": {
+        "qty": 473.2,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 18,
+      "unit": "h"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Soak chickpeas for 12–24 hours then let sprout for 1–2 days. Make sure to rinse three times a day while sprouting.",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for chickpea"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "the step names several durations; used the first"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "id": "simple_chocolate_cheese_pie.step_4",
+  "source": "wikibooks_simple_chocolate_cheese_pie",
+  "sourceRef": {
+    "source": "wikibooks_simple_chocolate_cheese_pie",
+    "step": 4
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "simple_chocolate_cheese_pie_step_3",
+        "amount": {
+          "qty": 572.8,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "graham_cracker",
+        "amount": {
+          "qty": 1,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "simple_chocolate_cheese_pie_step_4",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Pour mixture into the into ready-made crust",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'1 ready-made graham cracker crumb crust': 'ready-made' read as pieces"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "id": "american_potato_salad_ii.step_5",
+  "source": "wikibooks_american_potato_salad_ii",
+  "sourceRef": {
+    "source": "wikibooks_american_potato_salad_ii",
+    "step": 5
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "american_potato_salad_ii_step_4",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "lemon",
+        "amount": {
+          "qty": 0.5,
+          "unit": "cup"
+        }
+      },
+      {
+        "ingredient": "olive_oil",
+        "amount": {
+          "qty": 0.5,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "american_potato_salad_ii",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 30,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "In a small bowl add the lemon juice while whisking in olive oil slowly. Add to the potatoes, mix all ingredients. Chill for 30 minutes before eating.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.58"
+    },
+    {
+      "field": "inputs",
+      "kind": "missing",
+      "note": "no step uses '2 tbsp chopped sweet basil leaves' (p=0.93)"
+    }
+  ]
+}

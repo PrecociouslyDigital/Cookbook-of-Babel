@@ -1,0 +1,65 @@
+{
+  "id": "easy_wedding_soup.step_2",
+  "source": "wikibooks_easy_wedding_soup",
+  "sourceRef": {
+    "source": "wikibooks_easy_wedding_soup",
+    "step": 2
+  },
+  "technique": "boil",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "easy_wedding_soup_step_1",
+        "amount": {
+          "qty": 1892.8,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "spinach",
+        "amount": {
+          "qty": 10,
+          "unit": "oz"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "easy_wedding_soup_step_2",
+      "amount": {
+        "qty": 2176.3,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 100,
+    "medium": "boiling_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Add frozen spinach.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.43"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of boil's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "sweet_pork_condiment.step_3",
+  "source": "wikibooks_sweet_pork_condiment",
+  "sourceRef": {
+    "source": "wikibooks_sweet_pork_condiment",
+    "step": 3
+  },
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "sweet_pork_condiment_step_2",
+        "amount": {
+          "qty": 483.1,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "sweet_pork_condiment_step_3",
+      "amount": {
+        "qty": 483.1,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Slice the pork into pieces.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

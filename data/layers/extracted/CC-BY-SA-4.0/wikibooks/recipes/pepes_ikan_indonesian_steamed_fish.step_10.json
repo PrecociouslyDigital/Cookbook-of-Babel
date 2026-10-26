@@ -1,0 +1,68 @@
+{
+  "id": "pepes_ikan_indonesian_steamed_fish.step_10",
+  "source": "wikibooks_pepes_ikan_indonesian_steamed_fish",
+  "sourceRef": {
+    "source": "wikibooks_pepes_ikan_indonesian_steamed_fish",
+    "step": 10
+  },
+  "technique": "grill",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "pepes_ikan_indonesian_steamed_fish_step_9",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "pepes_ikan_indonesian_steamed_fish",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 250,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Let it cool and grill the wrapped fish over charcoal fire.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.46"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of grill's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    },
+    {
+      "field": "inputs",
+      "kind": "missing",
+      "note": "no step uses '1 chopped tomato' (p=0.62)"
+    },
+    {
+      "field": "inputs",
+      "kind": "missing",
+      "note": "no step uses '1 stalk green onion' (p=0.59)"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "id": "potato_pie.step_4",
+  "source": "wikibooks_potato_pie",
+  "sourceRef": {
+    "source": "wikibooks_potato_pie",
+    "step": 4
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "potato_pie_step_3",
+        "amount": {
+          "qty": 532.2,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "puff_pastry",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "potato_pie_step_4",
+      "amount": {
+        "qty": 532.5,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Cover the filling with the rolled-out puff pastry.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Puff pastry, rolled out ⅛ inch thick': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for puff_pastry"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

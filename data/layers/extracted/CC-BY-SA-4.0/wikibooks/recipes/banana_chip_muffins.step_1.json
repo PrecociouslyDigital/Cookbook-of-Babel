@@ -1,0 +1,69 @@
+{
+  "id": "banana_chip_muffins.step_1",
+  "source": "wikibooks_banana_chip_muffins",
+  "sourceRef": {
+    "source": "wikibooks_banana_chip_muffins",
+    "step": 1
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "wheat_flour",
+        "amount": {
+          "qty": 250,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "white_sugar",
+        "amount": {
+          "qty": 110,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "baking_powder",
+        "amount": {
+          "qty": 1,
+          "unit": "tbsp"
+        }
+      },
+      {
+        "ingredient": "chocolate",
+        "amount": {
+          "qty": 40,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "banana_chip_muffins_step_1",
+      "amount": {
+        "qty": 413.3,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Measure flour, sugar, baking powder, salt, and chocolate chips into a mixing bowl. Make a well in the center.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

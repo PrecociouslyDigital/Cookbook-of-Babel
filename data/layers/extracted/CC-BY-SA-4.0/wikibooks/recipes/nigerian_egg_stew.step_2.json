@@ -1,0 +1,86 @@
+{
+  "id": "nigerian_egg_stew.step_2",
+  "source": "wikibooks_nigerian_egg_stew",
+  "sourceRef": {
+    "source": "wikibooks_nigerian_egg_stew",
+    "step": 2
+  },
+  "technique": "stir_fry",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "nigerian_egg_stew_step_1",
+        "amount": {
+          "qty": 29.6,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "chiles",
+        "amount": {
+          "qty": 1,
+          "unit": "tsp"
+        }
+      },
+      {
+        "ingredient": "onion",
+        "amount": {
+          "qty": 0.5,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "dehydrated_broth",
+        "amount": {
+          "qty": 1,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "salt",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "nigerian_egg_stew_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 215,
+    "medium": "frying_oil"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 2.5,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Add the chile pepper, chopped onion, crushed Maggi cube, and salt. Stir and cook for 2–3 minutes.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.59"
+    },
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Salt, to taste': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of stir_fry's typical range"
+    }
+  ]
+}

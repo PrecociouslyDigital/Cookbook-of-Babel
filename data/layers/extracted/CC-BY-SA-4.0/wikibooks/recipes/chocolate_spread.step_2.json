@@ -1,0 +1,55 @@
+{
+  "id": "chocolate_spread.step_2",
+  "source": "wikibooks_chocolate_spread",
+  "sourceRef": {
+    "source": "wikibooks_chocolate_spread",
+    "step": 2
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "chocolate_spread_step_1",
+        "amount": {
+          "qty": 122,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "milk",
+        "amount": {
+          "qty": 200,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "chocolate_spread_step_2",
+      "amount": {
+        "qty": 322,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Stir in part of the milk, then add the rest.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

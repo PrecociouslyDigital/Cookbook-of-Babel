@@ -1,0 +1,70 @@
+{
+  "id": "saffron_rice.step_2",
+  "source": "wikibooks_saffron_rice",
+  "sourceRef": {
+    "source": "wikibooks_saffron_rice",
+    "step": 2
+  },
+  "technique": "dissolve",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "saffron_rice_step_1",
+        "amount": {
+          "qty": 236.6,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "saffron",
+        "amount": {
+          "qty": 0.5,
+          "unit": "tsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "saffron_rice_step_2",
+      "amount": {
+        "qty": 239.1,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 100,
+    "medium": "boiling_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Place the saffron threads in a teaspoon or tablespoon of boiling water to soak.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.56"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for saffron"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 100.0 °C for boiling_water"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "id": "chicken_marsala_ii.step_1",
+  "source": "wikibooks_chicken_marsala_ii",
+  "sourceRef": {
+    "source": "wikibooks_chicken_marsala_ii",
+    "step": 1
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "rosemary",
+        "amount": {
+          "qty": 3,
+          "unit": "sprig"
+        }
+      },
+      {
+        "ingredient": "thyme",
+        "amount": {
+          "qty": 6,
+          "unit": "sprig"
+        }
+      },
+      {
+        "ingredient": "wheat_flour",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "chicken_marsala_ii_step_1",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Combine ¼–½ cup (depending on how thick you like it) all-purpose flour with rosemary and thyme in a gallon size zip-top bag. Set aside.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'All-purpose flour': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "id": "potatoes_excaloped.step_4",
+  "source": "wikibooks_potatoes_excaloped",
+  "sourceRef": {
+    "source": "wikibooks_potatoes_excaloped",
+    "step": 4
+  },
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "potatoes_excaloped_step_3",
+        "amount": {
+          "qty": 0.6,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "bread_crumbs",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "potatoes_excaloped_step_4",
+      "amount": {
+        "qty": 0.9,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Make a cross in the top of the potatoes, and sprinkle with breadcrumbs.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.42"
+    },
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Fine breadcrumbs': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for bread_crumbs"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

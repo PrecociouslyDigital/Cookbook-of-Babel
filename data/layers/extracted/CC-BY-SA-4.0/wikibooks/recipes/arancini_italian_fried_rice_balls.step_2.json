@@ -1,0 +1,79 @@
+{
+  "id": "arancini_italian_fried_rice_balls.step_2",
+  "source": "wikibooks_arancini_italian_fried_rice_balls",
+  "sourceRef": {
+    "source": "wikibooks_arancini_italian_fried_rice_balls",
+    "step": 2
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "arancini_italian_fried_rice_balls_step_1",
+        "amount": {
+          "qty": 453.6,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "mozzarella_cheese",
+        "amount": {
+          "qty": 4,
+          "unit": "oz"
+        }
+      },
+      {
+        "ingredient": "parmesan_cheese",
+        "amount": {
+          "qty": 0.25,
+          "unit": "cup"
+        }
+      },
+      {
+        "ingredient": "pepper",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "arancini_italian_fried_rice_balls_step_2",
+      "amount": {
+        "qty": 626.5,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Mix in the grated cheese and some freshly ground black pepper. Let it cool.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Ground black pepper': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for parmesan_cheese, pepper"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

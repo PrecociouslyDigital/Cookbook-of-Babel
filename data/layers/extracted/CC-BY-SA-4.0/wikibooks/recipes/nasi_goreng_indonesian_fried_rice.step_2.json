@@ -1,0 +1,55 @@
+{
+  "id": "nasi_goreng_indonesian_fried_rice.step_2",
+  "source": "wikibooks_nasi_goreng_indonesian_fried_rice",
+  "sourceRef": {
+    "source": "wikibooks_nasi_goreng_indonesian_fried_rice",
+    "step": 2
+  },
+  "technique": "grind",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "nasi_goreng_indonesian_fried_rice_step_1",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "garlic",
+        "amount": {
+          "qty": 1,
+          "unit": "clove"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "nasi_goreng_indonesian_fried_rice_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Crush garlic, peel of the skin, and mince well.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

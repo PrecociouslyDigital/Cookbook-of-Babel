@@ -1,0 +1,80 @@
+{
+  "id": "cappelletti_pasta_soup_cappelletti_in_brodo.step_5",
+  "source": "wikibooks_cappelletti_pasta_soup_cappelletti_in_brodo",
+  "sourceRef": {
+    "source": "wikibooks_cappelletti_pasta_soup_cappelletti_in_brodo",
+    "step": 5
+  },
+  "technique": "cool",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "cappelletti_pasta_soup_cappelletti_in_brodo_step_4",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "parmesan_cheese",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "cappelletti_pasta_soup_cappelletti_in_brodo",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 90,
+    "medium": "simmering_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Let stand for a few minutes.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.58"
+    },
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Freshly-grated Parmesan to serve': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 90.0 °C for simmering_water"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    },
+    {
+      "field": "inputs",
+      "kind": "missing",
+      "note": "no step uses '1 pinch of ground black pepper' (p=0.97)"
+    },
+    {
+      "field": "inputs",
+      "kind": "missing",
+      "note": "no step uses '1 dash of olive oil' (p=0.99)"
+    }
+  ]
+}

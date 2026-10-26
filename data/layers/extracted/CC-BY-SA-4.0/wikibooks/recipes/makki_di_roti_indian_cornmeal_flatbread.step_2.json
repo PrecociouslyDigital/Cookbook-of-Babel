@@ -1,0 +1,48 @@
+{
+  "id": "makki_di_roti_indian_cornmeal_flatbread.step_2",
+  "source": "wikibooks_makki_di_roti_indian_cornmeal_flatbread",
+  "sourceRef": {
+    "source": "wikibooks_makki_di_roti_indian_cornmeal_flatbread",
+    "step": 2
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "makki_di_roti_indian_cornmeal_flatbread_step_1",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "makki_di_roti_indian_cornmeal_flatbread_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Start to mix the cornmeal and water into a dough. The dough should remain moist but not become sticky. Add water in small quantities to retain a moist feel. The final dough should not be sticky (sprinkle some extra cornmeal if needed to help soak up excess moisture).",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

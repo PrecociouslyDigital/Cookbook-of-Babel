@@ -1,0 +1,53 @@
+{
+  "id": "pig_s_trotters_and_ginger_vinegar_stew.step_1",
+  "source": "wikibooks_pig_s_trotters_and_ginger_vinegar_stew",
+  "sourceRef": {
+    "source": "wikibooks_pig_s_trotters_and_ginger_vinegar_stew",
+    "step": 1
+  },
+  "technique": "boil",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "egg",
+        "amount": {
+          "qty": 12,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "pig_s_trotters_and_ginger_vinegar_stew_step_1",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 100,
+    "medium": "boiling_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Hard boil the eggs, refresh and set aside to cool",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of boil's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

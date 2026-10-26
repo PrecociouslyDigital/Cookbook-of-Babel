@@ -1,0 +1,70 @@
+{
+  "id": "potato_skins.step_1",
+  "source": "wikibooks_potato_skins",
+  "sourceRef": {
+    "source": "wikibooks_potato_skins",
+    "step": 1
+  },
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "potato",
+        "amount": {
+          "qty": 8,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "vegetable_oil",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "potato_skins_step_1",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Scrub potatoes and rub skins with oil. Prick each potato several times with a fork.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.57"
+    },
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'8 small baking potatoes': 'baking' read as pieces"
+    },
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Vegetable oil': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

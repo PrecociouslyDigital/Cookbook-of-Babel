@@ -1,0 +1,65 @@
+{
+  "id": "slow_cooker_baby_back_ribs.step_1",
+  "source": "wikibooks_slow_cooker_baby_back_ribs",
+  "sourceRef": {
+    "source": "wikibooks_slow_cooker_baby_back_ribs",
+    "step": 1
+  },
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "pork",
+        "amount": {
+          "qty": 2.5,
+          "unit": "lb"
+        }
+      },
+      {
+        "ingredient": "rib_rub",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "slow_cooker_baby_back_ribs_step_1",
+      "amount": {
+        "qty": 1134.3,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 8,
+      "unit": "h"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Season ribs liberally with rib rub. Refrigerate overnight.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Rib rub': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for rib_rub"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "'overnight' read as 8 hours"
+    }
+  ]
+}

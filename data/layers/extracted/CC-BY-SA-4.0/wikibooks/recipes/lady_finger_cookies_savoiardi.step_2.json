@@ -1,0 +1,55 @@
+{
+  "id": "lady_finger_cookies_savoiardi.step_2",
+  "source": "wikibooks_lady_finger_cookies_savoiardi",
+  "sourceRef": {
+    "source": "wikibooks_lady_finger_cookies_savoiardi",
+    "step": 2
+  },
+  "technique": "fold",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "lady_finger_cookies_savoiardi_step_1",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "wheat_flour",
+        "amount": {
+          "qty": 400,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "lady_finger_cookies_savoiardi_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Slowly fold in flour with a wooden spoon, continually adding until you have a very thick batter (you may need more or less flour).",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

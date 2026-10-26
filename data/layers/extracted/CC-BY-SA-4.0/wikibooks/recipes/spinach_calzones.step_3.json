@@ -1,0 +1,55 @@
+{
+  "id": "spinach_calzones.step_3",
+  "source": "wikibooks_spinach_calzones",
+  "sourceRef": {
+    "source": "wikibooks_spinach_calzones",
+    "step": 3
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "spinach_calzones_step_2",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "dough",
+        "amount": {
+          "qty": 908,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "spinach_calzones_step_3",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Divide the bread dough into 8 pieces and roll each piece out to about an 8-inch circle. Spoon about ½ cup of the ricotta filling onto each circle, fold over and seal the edges. Place onto a greased cookie sheet.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

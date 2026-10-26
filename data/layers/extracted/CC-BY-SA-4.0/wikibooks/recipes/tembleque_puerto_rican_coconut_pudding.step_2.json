@@ -1,0 +1,72 @@
+{
+  "id": "tembleque_puerto_rican_coconut_pudding.step_2",
+  "source": "wikibooks_tembleque_puerto_rican_coconut_pudding",
+  "sourceRef": {
+    "source": "wikibooks_tembleque_puerto_rican_coconut_pudding",
+    "step": 2
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "tembleque_puerto_rican_coconut_pudding_step_1",
+        "amount": {
+          "qty": 1058.4,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "cream",
+        "amount": {
+          "qty": 0.5,
+          "unit": "cup"
+        }
+      },
+      {
+        "ingredient": "starch",
+        "amount": {
+          "qty": 0.25,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "tembleque_puerto_rican_coconut_pudding_step_2",
+      "amount": {
+        "qty": 1209.2,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Mix 3 tablespoons or more of cold heavy whipping cream into the corn starch. Whip until all the cornstarch is diluted but still thick. You want a smooth thick paste with no lumps.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.59"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for cream"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

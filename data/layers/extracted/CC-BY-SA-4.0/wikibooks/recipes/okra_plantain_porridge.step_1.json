@@ -1,0 +1,60 @@
+{
+  "id": "okra_plantain_porridge.step_1",
+  "source": "wikibooks_okra_plantain_porridge",
+  "sourceRef": {
+    "source": "wikibooks_okra_plantain_porridge",
+    "step": 1
+  },
+  "technique": "simmer",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "plantain",
+        "amount": {
+          "qty": 1,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "water",
+        "amount": {
+          "qty": 1,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "okra_plantain_porridge_step_1",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 90,
+    "medium": "simmering_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 4,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Combine the plantain and water in a saucepan. Bring to a boil, then simmer for 3–5 minutes.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'1 unripe plantain, peeled and diced': 'unripe' read as pieces"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of simmer's typical range"
+    }
+  ]
+}

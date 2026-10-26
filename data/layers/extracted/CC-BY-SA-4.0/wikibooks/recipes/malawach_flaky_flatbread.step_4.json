@@ -1,0 +1,53 @@
+{
+  "id": "malawach_flaky_flatbread.step_4",
+  "source": "wikibooks_malawach_flaky_flatbread",
+  "sourceRef": {
+    "source": "wikibooks_malawach_flaky_flatbread",
+    "step": 4
+  },
+  "technique": "knead",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "malawach_flaky_flatbread_step_3",
+        "amount": {
+          "qty": 1720,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "malawach_flaky_flatbread_step_4",
+      "amount": {
+        "qty": 1720,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Grease a work surface with oil. Roll out each piece of dough with a rolling pin to get very large, almost paper-thin, rounds of dough.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.48"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

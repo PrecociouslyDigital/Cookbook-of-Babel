@@ -1,0 +1,62 @@
+{
+  "id": "quick_sparkling_lemonade.step_2",
+  "source": "wikibooks_quick_sparkling_lemonade",
+  "sourceRef": {
+    "source": "wikibooks_quick_sparkling_lemonade",
+    "step": 2
+  },
+  "technique": "dissolve",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "quick_sparkling_lemonade_step_1",
+        "amount": {
+          "qty": 1656.2,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "white_sugar",
+        "amount": {
+          "qty": 225,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "lemonade_flavored_kool_aid",
+        "amount": {
+          "qty": 1,
+          "unit": "package"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "quick_sparkling_lemonade",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Add sugar and Kool-Aid or drink mix. Stir thoroughly.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "id": "rosol_polish_meat_soup.step_2",
+  "source": "wikibooks_rosol_polish_meat_soup",
+  "sourceRef": {
+    "source": "wikibooks_rosol_polish_meat_soup",
+    "step": 2
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "rosol_polish_meat_soup_step_1",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "leek",
+        "amount": {
+          "qty": 1,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "carrot",
+        "amount": {
+          "qty": 2,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "celery_root",
+        "amount": {
+          "qty": 0.5,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "celery",
+        "amount": {
+          "qty": 2.5,
+          "unit": "sprig"
+        }
+      },
+      {
+        "ingredient": "parsley_roots",
+        "amount": {
+          "qty": 1.5,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "cabbage",
+        "amount": {
+          "qty": 0.125,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "garlic",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "rosol_polish_meat_soup_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 90,
+    "medium": "simmering_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Add peeled garlic clove, carrots, celery root, parsley root similarly prepared, and other vegetables previously washed.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.44"
+    },
+    {
+      "field": "inputs",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.58"
+    },
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'⅛ sweet cabbage': 'sweet' read as pieces"
+    },
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Garlic, to taste': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 90.0 °C for simmering_water"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

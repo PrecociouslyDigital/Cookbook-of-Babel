@@ -1,0 +1,48 @@
+{
+  "id": "coronet_cupcakes.step_14",
+  "source": "wikibooks_coronet_cupcakes",
+  "sourceRef": {
+    "source": "wikibooks_coronet_cupcakes",
+    "step": 14
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "coronet_cupcakes_step_12",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "coronet_cupcakes_step_14",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Using the bag with the larger hole, pipe a mound of frosting on top of each cupcake, starting near the edge and moving towards the center.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

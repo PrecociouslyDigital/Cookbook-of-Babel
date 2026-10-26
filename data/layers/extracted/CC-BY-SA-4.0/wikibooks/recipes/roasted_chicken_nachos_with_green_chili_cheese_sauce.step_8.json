@@ -1,0 +1,70 @@
+{
+  "id": "roasted_chicken_nachos_with_green_chili_cheese_sauce.step_8",
+  "source": "wikibooks_roasted_chicken_nachos_with_green_chili_cheese_sauce",
+  "sourceRef": {
+    "source": "wikibooks_roasted_chicken_nachos_with_green_chili_cheese_sauce",
+    "step": 8
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "roasted_chicken_nachos_with_green_chili_cheese_sauce_step_7",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "sour_cream",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "roasted_chicken_nachos_with_green_chili_cheese_sauce",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Spoon the tomato salsa over the top of the nachos and serve with the sour cream on the side.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.58"
+    },
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Sour cream and guacamole, for serving': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    },
+    {
+      "field": "inputs",
+      "kind": "missing",
+      "note": "no step uses '2 handfuls fresh cilantro leaves, hand shredded' (p=0.6)"
+    }
+  ]
+}

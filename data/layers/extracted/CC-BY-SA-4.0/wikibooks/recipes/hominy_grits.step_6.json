@@ -1,0 +1,71 @@
+{
+  "id": "hominy_grits.step_6",
+  "source": "wikibooks_hominy_grits",
+  "sourceRef": {
+    "source": "wikibooks_hominy_grits",
+    "step": 6
+  },
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "hominy_grits_step_5",
+        "amount": {
+          "qty": 1434.4,
+          "unit": "g"
+        }
+      },
+      {
+        "min": 0,
+        "max": 1,
+        "of": [
+          {
+            "ingredient": "honey",
+            "amount": {
+              "qty": 1,
+              "unit": "tbsp"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "hominy_grits",
+      "amount": {
+        "qty": 1449.2,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "If desired, sweeten with honey, brown sugar, maple syrup, or jelly.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.33"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for honey"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

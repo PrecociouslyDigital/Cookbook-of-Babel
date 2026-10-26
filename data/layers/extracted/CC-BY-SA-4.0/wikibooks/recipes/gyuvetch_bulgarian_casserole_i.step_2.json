@@ -1,0 +1,67 @@
+{
+  "id": "gyuvetch_bulgarian_casserole_i.step_2",
+  "source": "wikibooks_gyuvetch_bulgarian_casserole_i",
+  "sourceRef": {
+    "source": "wikibooks_gyuvetch_bulgarian_casserole_i",
+    "step": 2
+  },
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "gyuvetch_bulgarian_casserole_i_step_1",
+        "amount": {
+          "qty": 900.6,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "eggplant",
+        "amount": {
+          "qty": 3,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "salt",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "gyuvetch_bulgarian_casserole_i_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Sprinkle eggplants with salt and leave for a while to remove any bitterness. Quarter each slice after wiping off moisture.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Salt to taste': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

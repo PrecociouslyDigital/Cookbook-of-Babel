@@ -1,0 +1,48 @@
+{
+  "id": "apple_bars.step_7",
+  "source": "wikibooks_apple_bars",
+  "sourceRef": {
+    "source": "wikibooks_apple_bars",
+    "step": 7
+  },
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "apple_bars_step_6",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "apple_bars_step_7",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Toss most of the spice mix with the apples. Reserve the remaining spice mix.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "beer_can_chicken.step_1",
+  "source": "wikibooks_beer_can_chicken",
+  "sourceRef": {
+    "source": "wikibooks_beer_can_chicken",
+    "step": 1
+  },
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "chicken",
+        "amount": {
+          "qty": 3.5,
+          "unit": "lb"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "beer_can_chicken_step_1",
+      "amount": {
+        "qty": 1587.6,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Poke holes all over chicken to let fat run out during cooking.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": "simple_boiled_chickpeas.step_1",
+  "source": "wikibooks_simple_boiled_chickpeas",
+  "sourceRef": {
+    "source": "wikibooks_simple_boiled_chickpeas",
+    "step": 1
+  },
+  "technique": "strain",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "chickpea",
+        "amount": {
+          "qty": 2,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "simple_boiled_chickpeas_step_1",
+      "amount": {
+        "qty": 473.2,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 8,
+      "unit": "h"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Cover the chickpeas completely with water, and let them soak overnight. Drain the chickpeas.",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for chickpea"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "'overnight' read as 8 hours"
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "id": "chili_con_bambi.step_5",
+  "source": "wikibooks_chili_con_bambi",
+  "sourceRef": {
+    "source": "wikibooks_chili_con_bambi",
+    "step": 5
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "chili_con_bambi_step_4",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "tomato_paste",
+        "amount": {
+          "qty": 60,
+          "unit": "ml"
+        }
+      },
+      {
+        "ingredient": "carrot",
+        "amount": {
+          "qty": 250,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "celery",
+        "amount": {
+          "qty": 150,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "bay_leaf",
+        "amount": {
+          "qty": 5,
+          "unit": "piece"
+        }
+      },
+      {
+        "min": 0,
+        "max": 1,
+        "of": [
+          {
+            "ingredient": "dehydrated_broth",
+            "amount": {
+              "qty": 1,
+              "unit": "piece"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "chili_con_bambi_step_5",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 180,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Add the stock cube (only if you are using cider), bay leaves, chopped celery, grated carrot and tomato purée, and stir well.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.44"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 180.0 °C for pan_contact"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

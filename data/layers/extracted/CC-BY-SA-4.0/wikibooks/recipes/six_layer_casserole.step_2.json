@@ -1,0 +1,62 @@
+{
+  "id": "six_layer_casserole.step_2",
+  "source": "wikibooks_six_layer_casserole",
+  "sourceRef": {
+    "source": "wikibooks_six_layer_casserole",
+    "step": 2
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "six_layer_casserole_step_1",
+        "amount": {
+          "qty": 1437.8,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "tomato",
+        "amount": {
+          "qty": 10,
+          "unit": "oz"
+        }
+      },
+      {
+        "ingredient": "water",
+        "amount": {
+          "qty": 2,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "six_layer_casserole_step_2",
+      "amount": {
+        "qty": 2194.5,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Mix the soup and water and pour over all.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

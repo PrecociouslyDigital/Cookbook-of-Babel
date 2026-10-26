@@ -1,0 +1,48 @@
+{
+  "id": "cheese_puffs_pao_de_queijo.step_3",
+  "source": "wikibooks_cheese_puffs_pao_de_queijo",
+  "sourceRef": {
+    "source": "wikibooks_cheese_puffs_pao_de_queijo",
+    "step": 3
+  },
+  "technique": "cool",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "cheese_puffs_pao_de_queijo_step_2",
+        "amount": {
+          "qty": 691.3,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "cheese_puffs_pao_de_queijo_step_3",
+      "amount": {
+        "qty": 691.3,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 15,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Let the dough rest for 15 minutes.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.58"
+    }
+  ]
+}

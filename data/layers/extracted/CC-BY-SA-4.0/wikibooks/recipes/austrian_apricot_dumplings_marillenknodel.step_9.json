@@ -1,0 +1,70 @@
+{
+  "id": "austrian_apricot_dumplings_marillenknodel.step_9",
+  "source": "wikibooks_austrian_apricot_dumplings_marillenknodel",
+  "sourceRef": {
+    "source": "wikibooks_austrian_apricot_dumplings_marillenknodel",
+    "step": 9
+  },
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "austrian_apricot_dumplings_marillenknodel_step_8",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "white_sugar",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "austrian_apricot_dumplings_marillenknodel",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Serve the Marillenknödel together with the remaining bread crumbs, and coat them with much powdered sugar.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.56"
+    },
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.5"
+    },
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Powdered sugar': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

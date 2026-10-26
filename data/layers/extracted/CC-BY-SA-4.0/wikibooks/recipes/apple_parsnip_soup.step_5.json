@@ -1,0 +1,48 @@
+{
+  "id": "apple_parsnip_soup.step_5",
+  "source": "wikibooks_apple_parsnip_soup",
+  "sourceRef": {
+    "source": "wikibooks_apple_parsnip_soup",
+    "step": 5
+  },
+  "technique": "blend",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "apple_parsnip_soup_step_4",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "apple_parsnip_soup",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Put the soup into a blender, and blend it up until it is smooth; there should not be any lumps in it.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

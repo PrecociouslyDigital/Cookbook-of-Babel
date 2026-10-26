@@ -1,0 +1,74 @@
+{
+  "id": "ricotta_lasagne.step_2",
+  "source": "wikibooks_ricotta_lasagne",
+  "sourceRef": {
+    "source": "wikibooks_ricotta_lasagne",
+    "step": 2
+  },
+  "technique": "pan_fry",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "ricotta_lasagne_step_1",
+        "amount": {
+          "qty": 453.6,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "beef",
+        "amount": {
+          "qty": 0.5,
+          "unit": "lb"
+        }
+      },
+      {
+        "ingredient": "onion",
+        "amount": {
+          "qty": 0.5,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "garlic",
+        "amount": {
+          "qty": 2,
+          "unit": "clove"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "ricotta_lasagne_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 185,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Sauté sausage and ground beef in 5-quart (4.7 L) saucepan or Dutch oven over medium heat with onion and garlic until the meat is browned.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of pan_fry's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

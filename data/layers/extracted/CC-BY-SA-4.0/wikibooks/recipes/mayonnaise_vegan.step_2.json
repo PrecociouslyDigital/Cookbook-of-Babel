@@ -1,0 +1,60 @@
+{
+  "id": "mayonnaise_vegan.step_2",
+  "source": "wikibooks_mayonnaise_vegan",
+  "sourceRef": {
+    "source": "wikibooks_mayonnaise_vegan",
+    "step": 2
+  },
+  "technique": "blend",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "mayonnaise_vegan_step_1",
+        "amount": {
+          "qty": 170.1,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "olive_oil",
+        "amount": {
+          "qty": 3,
+          "unit": "tbsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "mayonnaise_vegan_step_2",
+      "amount": {
+        "qty": 214.5,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Add the oil slowly and gradually to the blended tofu while the blender is still running. This emulsifies the mixture.",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for olive_oil"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "gochujang_imitation.step_2",
+  "source": "wikibooks_gochujang_imitation",
+  "sourceRef": {
+    "source": "wikibooks_gochujang_imitation",
+    "step": 2
+  },
+  "technique": "chill",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "gochujang_imitation_step_1",
+        "amount": {
+          "qty": 43.1,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "gochujang_imitation",
+      "amount": {
+        "qty": 43.1,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Refrigerate any leftover portions.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

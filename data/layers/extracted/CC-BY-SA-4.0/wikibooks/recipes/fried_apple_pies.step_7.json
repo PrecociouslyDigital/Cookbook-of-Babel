@@ -1,0 +1,53 @@
+{
+  "id": "fried_apple_pies.step_7",
+  "source": "wikibooks_fried_apple_pies",
+  "sourceRef": {
+    "source": "wikibooks_fried_apple_pies",
+    "step": 7
+  },
+  "technique": "knead",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "fried_apple_pies_step_6",
+        "amount": {
+          "qty": 1336.3,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "fried_apple_pies_step_7",
+      "amount": {
+        "qty": 1336.3,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Lightly flour your hands and the countertop and turn the dough out onto the countertop.",
+  "issues": [
+    {
+      "field": "sourceRef",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.53"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

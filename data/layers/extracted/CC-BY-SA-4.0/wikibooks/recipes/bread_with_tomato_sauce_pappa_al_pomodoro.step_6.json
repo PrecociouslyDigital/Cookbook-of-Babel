@@ -1,0 +1,77 @@
+{
+  "id": "bread_with_tomato_sauce_pappa_al_pomodoro.step_6",
+  "source": "wikibooks_bread_with_tomato_sauce_pappa_al_pomodoro",
+  "sourceRef": {
+    "source": "wikibooks_bread_with_tomato_sauce_pappa_al_pomodoro",
+    "step": 6
+  },
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "bread_with_tomato_sauce_pappa_al_pomodoro_step_4",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "basil",
+        "amount": {
+          "qty": 1,
+          "unit": "handful"
+        }
+      },
+      {
+        "ingredient": "pepper",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "bread_with_tomato_sauce_pappa_al_pomodoro",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 20,
+    "medium": "still_air"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Remove from heat and serve hot in a bowl, seasoned with a drizzle of olive oil, pepper and a basil leaf.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.33"
+    },
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Pepper to taste': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 20.0 °C for still_air"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

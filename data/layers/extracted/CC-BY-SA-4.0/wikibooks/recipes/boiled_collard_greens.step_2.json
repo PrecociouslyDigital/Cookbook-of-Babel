@@ -1,0 +1,48 @@
+{
+  "id": "boiled_collard_greens.step_2",
+  "source": "wikibooks_boiled_collard_greens",
+  "sourceRef": {
+    "source": "wikibooks_boiled_collard_greens",
+    "step": 2
+  },
+  "technique": "separate",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "boiled_collard_greens_step_1",
+        "amount": {
+          "qty": 1134,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "boiled_collard_greens_step_2",
+      "amount": {
+        "qty": 1134,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Leaves may be stripped from stems or left on if preferred. If left on, cut stems in small length (under 1 inch / 2.5 cm) for ease.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

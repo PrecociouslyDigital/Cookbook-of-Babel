@@ -1,0 +1,53 @@
+{
+  "id": "homemade_pie_crust.step_7",
+  "source": "wikibooks_homemade_pie_crust",
+  "sourceRef": {
+    "source": "wikibooks_homemade_pie_crust",
+    "step": 7
+  },
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "homemade_pie_crust_step_6",
+        "amount": {
+          "qty": 488,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "homemade_pie_crust",
+      "amount": {
+        "qty": 488,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Trim around perimeter for 2 cm (1 inch) overhang to fold under and crimp as desired (see pie crust edges below).",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.59"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

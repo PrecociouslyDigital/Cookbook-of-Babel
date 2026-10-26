@@ -1,0 +1,53 @@
+{
+  "id": "asparagus_frittata.step_5",
+  "source": "wikibooks_asparagus_frittata",
+  "sourceRef": {
+    "source": "wikibooks_asparagus_frittata",
+    "step": 5
+  },
+  "technique": "coagulate",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "asparagus_frittata_step_4",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "asparagus_frittata_step_5",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 180,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 4,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Pour the egg mixture into the skillet and cook about 4 minutes or until bubbles begin to form in the center of the eggs.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.43"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 180.0 °C for pan_contact"
+    }
+  ]
+}

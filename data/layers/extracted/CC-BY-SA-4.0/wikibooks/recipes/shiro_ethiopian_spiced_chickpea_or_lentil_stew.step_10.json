@@ -1,0 +1,70 @@
+{
+  "id": "shiro_ethiopian_spiced_chickpea_or_lentil_stew.step_10",
+  "source": "wikibooks_shiro_ethiopian_spiced_chickpea_or_lentil_stew",
+  "sourceRef": {
+    "source": "wikibooks_shiro_ethiopian_spiced_chickpea_or_lentil_stew",
+    "step": 10
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "shiro_ethiopian_spiced_chickpea_or_lentil_stew_step_9",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "parsley",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "shiro_ethiopian_spiced_chickpea_or_lentil_stew",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Garnish the shiro with fresh chopped parsley or cilantro. Serve hot with injera or bread for dipping.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.47"
+    },
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.4"
+    },
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Fresh parsley or cilantro, chopped, for garnish': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

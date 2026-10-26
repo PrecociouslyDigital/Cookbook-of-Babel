@@ -1,0 +1,60 @@
+{
+  "id": "tartiflette.step_3",
+  "source": "wikibooks_tartiflette",
+  "sourceRef": {
+    "source": "wikibooks_tartiflette",
+    "step": 3
+  },
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "tartiflette_step_2",
+        "amount": {
+          "qty": 793.8,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "bacon",
+        "amount": {
+          "qty": 5.5,
+          "unit": "oz"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "tartiflette_step_3",
+      "amount": {
+        "qty": 949.7,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "While the potatoes are cooking, slice the slab bacon or salt pork into slices about ¼-inch thick. Then cut into lardons about ¼-inch across.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.43"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

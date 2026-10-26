@@ -1,0 +1,53 @@
+{
+  "id": "victoria_sandwich.step_4",
+  "source": "wikibooks_victoria_sandwich",
+  "sourceRef": {
+    "source": "wikibooks_victoria_sandwich",
+    "step": 4
+  },
+  "technique": "separate",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "victoria_sandwich_step_3",
+        "amount": {
+          "qty": 684.9,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "victoria_sandwich_step_4",
+      "amount": {
+        "qty": 684.9,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 200,
+    "medium": "oven_air"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Divide the mixture between the two greased cake pans.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.44"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

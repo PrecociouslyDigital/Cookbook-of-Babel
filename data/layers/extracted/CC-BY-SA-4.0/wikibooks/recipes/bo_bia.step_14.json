@@ -1,0 +1,94 @@
+{
+  "id": "bo_bia.step_14",
+  "source": "wikibooks_bo_bia",
+  "sourceRef": {
+    "source": "wikibooks_bo_bia",
+    "step": 14
+  },
+  "technique": "rinse",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "bo_bia_step_10",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "rice_wafer",
+        "amount": {
+          "qty": 9,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "lettuce",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      },
+      {
+        "ingredient": "peanut",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "bo_bia_step_14",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 90,
+    "medium": "simmering_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 2,
+      "unit": "s"
+    }
+  },
+  "stateNote": "To soften the rice paper, quickly dip it into a bowl of warm water (the dipping motion should take no more than 2 seconds). Gently shake off excess water and lay it on the flat surface.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.39"
+    },
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.53"
+    },
+    {
+      "field": "inputs",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.55"
+    },
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Lettuce, Thai basil, fresh chili': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Crushed peanuts, fried shallot': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 90.0 °C for simmering_water"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "fancy_crepes.step_4",
+  "source": "wikibooks_fancy_crepes",
+  "sourceRef": {
+    "source": "wikibooks_fancy_crepes",
+    "step": 4
+  },
+  "technique": "chill",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "fancy_crepes_step_3",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "fancy_crepes_step_4",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "h"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Pour the rest of the wet mixture in, and whisk to combine. Cover and refrigerate for at least 1 hour, preferably overnight. This is when the flavor and the rest of the gluten develops.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "the step names several durations; used the first"
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "id": "binagoongan_sauteed_pork_with_shrimp_paste.step_2",
+  "source": "wikibooks_binagoongan_sauteed_pork_with_shrimp_paste",
+  "sourceRef": {
+    "source": "wikibooks_binagoongan_sauteed_pork_with_shrimp_paste",
+    "step": 2
+  },
+  "technique": "stir_fry",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "binagoongan_sauteed_pork_with_shrimp_paste_step_1",
+        "amount": {
+          "qty": 512.7,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "garlic",
+        "amount": {
+          "qty": 0.5,
+          "unit": "head"
+        }
+      },
+      {
+        "ingredient": "onion",
+        "amount": {
+          "qty": 1,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "tomato",
+        "amount": {
+          "qty": 1,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "binagoongan_sauteed_pork_with_shrimp_paste_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 215,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Sauté garlic, onions and tomatoes after pork has browned.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.56"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of stir_fry's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

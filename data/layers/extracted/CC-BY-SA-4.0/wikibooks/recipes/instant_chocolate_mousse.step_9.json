@@ -1,0 +1,48 @@
+{
+  "id": "instant_chocolate_mousse.step_9",
+  "source": "wikibooks_instant_chocolate_mousse",
+  "sourceRef": {
+    "source": "wikibooks_instant_chocolate_mousse",
+    "step": 9
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "instant_chocolate_mousse_step_8",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "instant_chocolate_mousse_step_9",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Squeeze the bag to pipe the mousse into the chocolate cups.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

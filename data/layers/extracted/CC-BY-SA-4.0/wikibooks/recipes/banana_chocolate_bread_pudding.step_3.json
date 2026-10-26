@@ -1,0 +1,55 @@
+{
+  "id": "banana_chocolate_bread_pudding.step_3",
+  "source": "wikibooks_banana_chocolate_bread_pudding",
+  "sourceRef": {
+    "source": "wikibooks_banana_chocolate_bread_pudding",
+    "step": 3
+  },
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "banana_chocolate_bread_pudding_step_2",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "baguette",
+        "amount": {
+          "qty": 16,
+          "unit": "oz"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "banana_chocolate_bread_pudding_step_3",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Slice the bread, trim off the crusts and cut it into strips. Divide the bread strips into three parts.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

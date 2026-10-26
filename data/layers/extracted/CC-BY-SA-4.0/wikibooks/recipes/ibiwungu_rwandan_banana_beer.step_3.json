@@ -1,0 +1,53 @@
+{
+  "id": "ibiwungu_rwandan_banana_beer.step_3",
+  "source": "wikibooks_ibiwungu_rwandan_banana_beer",
+  "sourceRef": {
+    "source": "wikibooks_ibiwungu_rwandan_banana_beer",
+    "step": 3
+  },
+  "technique": "cool",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "ibiwungu_rwandan_banana_beer_step_2",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "ibiwungu_rwandan_banana_beer_step_3",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Remove the pot from the heat and let the banana mixture cool to room temperature.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.52"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

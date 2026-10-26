@@ -1,0 +1,48 @@
+{
+  "id": "pasta_casserole_pastitsio.step_18",
+  "source": "wikibooks_pasta_casserole_pastitsio",
+  "sourceRef": {
+    "source": "wikibooks_pasta_casserole_pastitsio",
+    "step": 18
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "pasta_casserole_pastitsio_step_16",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "pasta_casserole_pastitsio_step_18",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Press pasta mix into base of pan.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

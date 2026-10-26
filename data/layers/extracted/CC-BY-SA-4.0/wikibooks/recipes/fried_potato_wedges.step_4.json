@@ -1,0 +1,48 @@
+{
+  "id": "fried_potato_wedges.step_4",
+  "source": "wikibooks_fried_potato_wedges",
+  "sourceRef": {
+    "source": "wikibooks_fried_potato_wedges",
+    "step": 4
+  },
+  "technique": "cool",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "fried_potato_wedges_step_3",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "fried_potato_wedges",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Put in a plastic container and put in fridge (or just put on a cooling area if eating immediately).",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "id": "basin_ki_kadi_sindhi_chickpea_flour_curry.step_3",
+  "source": "wikibooks_basin_ki_kadi_sindhi_chickpea_flour_curry",
+  "sourceRef": {
+    "source": "wikibooks_basin_ki_kadi_sindhi_chickpea_flour_curry",
+    "step": 3
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "basin_ki_kadi_sindhi_chickpea_flour_curry_step_2",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "water",
+        "amount": {
+          "qty": 500,
+          "unit": "ml"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "basin_ki_kadi_sindhi_chickpea_flour_curry_step_3",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 90,
+    "medium": "simmering_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 5,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Mix in the water, and continue stirring for at least 5 minutes.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.5"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 90.0 °C for simmering_water"
+    }
+  ]
+}

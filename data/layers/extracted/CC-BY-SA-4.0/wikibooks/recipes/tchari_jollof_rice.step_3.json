@@ -1,0 +1,86 @@
+{
+  "id": "tchari_jollof_rice.step_3",
+  "source": "wikibooks_tchari_jollof_rice",
+  "sourceRef": {
+    "source": "wikibooks_tchari_jollof_rice",
+    "step": 3
+  },
+  "technique": "evaporate",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "tchari_jollof_rice_step_2",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "tomato",
+        "amount": {
+          "qty": 3.5,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "bell_pepper",
+        "amount": {
+          "qty": 1,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "bell_pepper",
+        "amount": {
+          "qty": 1,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "chiles",
+        "amount": {
+          "qty": 2.5,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "tchari_jollof_rice_step_3",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 100,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 12.5,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Stir in the blended or finely chopped tomatoes, red and green bell peppers, and blended Scotch bonnet peppers. Cook the mixture for 10–15 minutes, stirring occasionally, until the sauce thickens and the oil starts to separate.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.36"
+    },
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'2–3 Scotch bonnet or habanero peppers': 'Scotch' read as pieces"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of evaporate's typical range"
+    }
+  ]
+}

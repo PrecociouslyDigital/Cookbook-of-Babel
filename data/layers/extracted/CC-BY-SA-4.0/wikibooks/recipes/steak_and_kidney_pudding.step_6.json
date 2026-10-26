@@ -1,0 +1,58 @@
+{
+  "id": "steak_and_kidney_pudding.step_6",
+  "source": "wikibooks_steak_and_kidney_pudding",
+  "sourceRef": {
+    "source": "wikibooks_steak_and_kidney_pudding",
+    "step": 6
+  },
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "steak_and_kidney_pudding_step_5",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "steak_and_kidney_pudding",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 100,
+    "medium": "boiling_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "When the cloth is removed, cut out a round piece in the top of the crust, to prevent the pudding bursting, and send it to table in the basin, either in an ornamental dish or with a napkin pinned round it. Serve quickly.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.37"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 100.0 °C for boiling_water"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

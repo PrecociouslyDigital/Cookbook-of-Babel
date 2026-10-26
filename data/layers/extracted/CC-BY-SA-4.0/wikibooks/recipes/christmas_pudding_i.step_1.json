@@ -1,0 +1,83 @@
+{
+  "id": "christmas_pudding_i.step_1",
+  "source": "wikibooks_christmas_pudding_i",
+  "sourceRef": {
+    "source": "wikibooks_christmas_pudding_i",
+    "step": 1
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "raisin",
+        "amount": {
+          "qty": 250,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "currant",
+        "amount": {
+          "qty": 250,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "candied_fruit_peel",
+        "amount": {
+          "qty": 25,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "apple",
+        "amount": {
+          "qty": 1,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "orange",
+        "amount": {
+          "qty": 1,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "lemon",
+        "amount": {
+          "qty": 1,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "christmas_pudding_i_step_1",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "h"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "In a mixing bowl, combine the raisins, currants, candied peel, and apple with zest and juice from the lemon and orange. Stir well and leave in the bowl for an hour for the flavours to combine.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'1 small cooking apple, chopped': 'cooking' read as pieces"
+    }
+  ]
+}

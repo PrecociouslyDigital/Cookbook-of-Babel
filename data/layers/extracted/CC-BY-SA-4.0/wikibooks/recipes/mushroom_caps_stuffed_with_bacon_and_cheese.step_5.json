@@ -1,0 +1,62 @@
+{
+  "id": "mushroom_caps_stuffed_with_bacon_and_cheese.step_5",
+  "source": "wikibooks_mushroom_caps_stuffed_with_bacon_and_cheese",
+  "sourceRef": {
+    "source": "wikibooks_mushroom_caps_stuffed_with_bacon_and_cheese",
+    "step": 5
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "mushroom_caps_stuffed_with_bacon_and_cheese_step_4",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "bread_crumbs",
+        "amount": {
+          "qty": 40,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "butter",
+        "amount": {
+          "qty": 1,
+          "unit": "tbsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "mushroom_caps_stuffed_with_bacon_and_cheese_step_5",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Mix bread crumbs with just enough butter to hold together.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

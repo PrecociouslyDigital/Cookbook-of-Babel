@@ -1,0 +1,48 @@
+{
+  "id": "lemon_lime_soda_ii.step_2",
+  "source": "wikibooks_lemon_lime_soda_ii",
+  "sourceRef": {
+    "source": "wikibooks_lemon_lime_soda_ii",
+    "step": 2
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "lemon_lime_soda_ii_step_1",
+        "amount": {
+          "qty": 5.2,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "lemon_lime_soda_ii_step_2",
+      "amount": {
+        "qty": 5.2,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Transfer this mixture into a larger container.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "id": "succotash.step_2",
+  "source": "wikibooks_succotash",
+  "sourceRef": {
+    "source": "wikibooks_succotash",
+    "step": 2
+  },
+  "technique": "simmer",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "succotash_step_1",
+        "amount": {
+          "qty": 453.6,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "lima_bean",
+        "amount": {
+          "qty": 2,
+          "unit": "qt"
+        }
+      },
+      {
+        "ingredient": "corn",
+        "amount": {
+          "qty": 24,
+          "unit": "piece"
+        }
+      },
+      {
+        "min": 0,
+        "max": 1,
+        "of": [
+          {
+            "ingredient": "white_sugar",
+            "amount": {
+              "qty": 2,
+              "unit": "tbsp"
+            }
+          }
+        ]
+      },
+      {
+        "min": 0,
+        "max": 1,
+        "of": [
+          {
+            "ingredient": "butter",
+            "amount": {
+              "qty": 2,
+              "unit": "tbsp"
+            }
+          }
+        ]
+      },
+      {
+        "ingredient": "pepper",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "succotash",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 90,
+    "medium": "simmering_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Add beans, then corn, sugar, butter, and pepper to taste. After corn is added, watch carefully to keep from scorching.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.47"
+    },
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.49"
+    },
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'24 ears of corn cut off the cob': 'ears' read as pieces"
+    },
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Pepper': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of simmer's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

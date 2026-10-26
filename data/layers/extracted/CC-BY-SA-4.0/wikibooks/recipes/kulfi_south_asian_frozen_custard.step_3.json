@@ -1,0 +1,92 @@
+{
+  "id": "kulfi_south_asian_frozen_custard.step_3",
+  "source": "wikibooks_kulfi_south_asian_frozen_custard",
+  "sourceRef": {
+    "source": "wikibooks_kulfi_south_asian_frozen_custard",
+    "step": 3
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "kulfi_south_asian_frozen_custard_step_2",
+        "amount": {
+          "qty": 974.8,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "white_sugar",
+        "amount": {
+          "qty": 8,
+          "unit": "tsp"
+        }
+      },
+      {
+        "ingredient": "cardamom",
+        "amount": {
+          "qty": 0.5,
+          "unit": "tsp"
+        }
+      },
+      {
+        "ingredient": "pistachio",
+        "amount": {
+          "qty": 1,
+          "unit": "tbsp"
+        }
+      },
+      {
+        "min": 0,
+        "max": 1,
+        "of": [
+          {
+            "ingredient": "almond",
+            "amount": {
+              "qty": 1,
+              "unit": "tbsp"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "kulfi_south_asian_frozen_custard_step_3",
+      "amount": {
+        "qty": 1040.4,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Stir in the sugar, nuts, and cardamom powder. Set aside to cool.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.55"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for cardamom, pistachio, almond"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

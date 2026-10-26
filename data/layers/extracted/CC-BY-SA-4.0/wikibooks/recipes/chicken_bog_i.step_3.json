@@ -1,0 +1,53 @@
+{
+  "id": "chicken_bog_i.step_3",
+  "source": "wikibooks_chicken_bog_i",
+  "sourceRef": {
+    "source": "wikibooks_chicken_bog_i",
+    "step": 3
+  },
+  "technique": "cool",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "chicken_bog_i_step_2",
+        "amount": {
+          "qty": 3401.9,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "chicken_bog_i_step_3",
+      "amount": {
+        "qty": 3401.9,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "When chicken is very tender, remove pot from stove and let cool until the chicken can be handled.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.39"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

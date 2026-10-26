@@ -1,0 +1,66 @@
+{
+  "id": "simple_spaghetti.step_3",
+  "source": "wikibooks_simple_spaghetti",
+  "sourceRef": {
+    "source": "wikibooks_simple_spaghetti",
+    "step": 3
+  },
+  "technique": "heat",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "simple_spaghetti_step_2",
+        "amount": {
+          "qty": 2477.5,
+          "unit": "g"
+        }
+      },
+      {
+        "min": 0,
+        "max": 1,
+        "of": [
+          {
+            "ingredient": "pasta_sauce",
+            "amount": {
+              "qty": 24,
+              "unit": "oz"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "simple_spaghetti_step_3",
+      "amount": {
+        "qty": 3157.9,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 180,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "While the spaghetti is cooking, pour desired amount of sauce into pan and set stove to medium.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 180.0 °C for pan_contact"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

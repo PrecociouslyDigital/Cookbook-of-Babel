@@ -1,0 +1,48 @@
+{
+  "id": "spaghetti_alla_carbonara.step_1",
+  "source": "wikibooks_spaghetti_alla_carbonara",
+  "sourceRef": {
+    "source": "wikibooks_spaghetti_alla_carbonara",
+    "step": 1
+  },
+  "technique": "chop",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "pancetta",
+        "amount": {
+          "qty": 362.5,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "spaghetti_alla_carbonara_step_1",
+      "amount": {
+        "qty": 362.5,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Dice the guanciale or pancetta into 2.5 cm (1-inch) pieces.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

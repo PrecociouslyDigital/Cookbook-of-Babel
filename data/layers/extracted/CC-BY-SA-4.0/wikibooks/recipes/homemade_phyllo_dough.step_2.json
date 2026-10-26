@@ -1,0 +1,48 @@
+{
+  "id": "homemade_phyllo_dough.step_2",
+  "source": "wikibooks_homemade_phyllo_dough",
+  "sourceRef": {
+    "source": "wikibooks_homemade_phyllo_dough",
+    "step": 2
+  },
+  "technique": "chill",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "homemade_phyllo_dough_step_1",
+        "amount": {
+          "qty": 1400,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "homemade_phyllo_dough_step_2",
+      "amount": {
+        "qty": 1400,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Let the dough rest for a few hours, preferably in the fridge wrapped in plastic.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

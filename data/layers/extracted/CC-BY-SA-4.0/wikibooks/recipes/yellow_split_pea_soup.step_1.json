@@ -1,0 +1,53 @@
+{
+  "id": "yellow_split_pea_soup.step_1",
+  "source": "wikibooks_yellow_split_pea_soup",
+  "sourceRef": {
+    "source": "wikibooks_yellow_split_pea_soup",
+    "step": 1
+  },
+  "technique": "rinse",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "boiled_yellow_split_peas",
+        "amount": {
+          "qty": 1,
+          "unit": "lb"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "yellow_split_pea_soup_step_1",
+      "amount": {
+        "qty": 453.6,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Soak split peas up to six hours in cold water if you wish. This is not necessary, but will shorten cooking time.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.39"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

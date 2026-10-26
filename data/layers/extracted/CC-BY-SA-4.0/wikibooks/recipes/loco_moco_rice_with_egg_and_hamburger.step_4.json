@@ -1,0 +1,58 @@
+{
+  "id": "loco_moco_rice_with_egg_and_hamburger.step_4",
+  "source": "wikibooks_loco_moco_rice_with_egg_and_hamburger",
+  "sourceRef": {
+    "source": "wikibooks_loco_moco_rice_with_egg_and_hamburger",
+    "step": 4
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "loco_moco_rice_with_egg_and_hamburger_step_3",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "loco_moco_rice_with_egg_and_hamburger",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 20,
+    "medium": "still_air"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Assemble the components in the following order: Rice on bottom; Hamburger on top of rice; Eggs; Gravy.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.44"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 20.0 °C for still_air"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

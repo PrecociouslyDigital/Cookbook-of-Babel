@@ -1,0 +1,48 @@
+{
+  "id": "seafood_cocktail_sauce.step_4",
+  "source": "wikibooks_seafood_cocktail_sauce",
+  "sourceRef": {
+    "source": "wikibooks_seafood_cocktail_sauce",
+    "step": 4
+  },
+  "technique": "chill",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "seafood_cocktail_sauce_step_3",
+        "amount": {
+          "qty": 294.9,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "seafood_cocktail_sauce",
+      "amount": {
+        "qty": 294.9,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Refrigerate until cold.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

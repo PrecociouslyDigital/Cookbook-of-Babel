@@ -1,0 +1,58 @@
+{
+  "id": "risotto_ii.step_1",
+  "source": "wikibooks_risotto_ii",
+  "sourceRef": {
+    "source": "wikibooks_risotto_ii",
+    "step": 1
+  },
+  "technique": "simmer",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "broth_and_stock",
+        "amount": {
+          "qty": 6,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "risotto_ii_step_1",
+      "amount": {
+        "qty": 1419.6,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 90,
+    "medium": "simmering_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Bring the stock to a simmer in a saucepan. Keep the temperature as high as possible throughout the cooking process, without letting the stock boil. The surface of the stock should just be moving a little.",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for broth_and_stock"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of simmer's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

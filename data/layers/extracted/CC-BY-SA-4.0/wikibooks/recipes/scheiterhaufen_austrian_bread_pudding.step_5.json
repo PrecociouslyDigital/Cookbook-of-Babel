@@ -1,0 +1,53 @@
+{
+  "id": "scheiterhaufen_austrian_bread_pudding.step_5",
+  "source": "wikibooks_scheiterhaufen_austrian_bread_pudding",
+  "sourceRef": {
+    "source": "wikibooks_scheiterhaufen_austrian_bread_pudding",
+    "step": 5
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "scheiterhaufen_austrian_bread_pudding_step_4",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "scheiterhaufen_austrian_bread_pudding_step_5",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Grease an ovenproof dish, then layer the slices, bread, and fruit alternately in the dish. Sprinkle a bit of the sugar-cinnamon mixture on top of every layer. For the best result, start and end with a layer of bread. You can decide whether you want an apple and a peach layer or whether you would like to mix the different kinds of fruit.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.55"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

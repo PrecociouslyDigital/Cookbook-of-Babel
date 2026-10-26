@@ -1,0 +1,55 @@
+{
+  "id": "sancocho_dominican_meat_and_vegetable_soup.step_2",
+  "source": "wikibooks_sancocho_dominican_meat_and_vegetable_soup",
+  "sourceRef": {
+    "source": "wikibooks_sancocho_dominican_meat_and_vegetable_soup",
+    "step": 2
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "sancocho_dominican_meat_and_vegetable_soup_step_1",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "chicken",
+        "amount": {
+          "qty": 1,
+          "unit": "lb"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "sancocho_dominican_meat_and_vegetable_soup_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Pour mixture into a non-reactive bowl, add chicken and stir to combine.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

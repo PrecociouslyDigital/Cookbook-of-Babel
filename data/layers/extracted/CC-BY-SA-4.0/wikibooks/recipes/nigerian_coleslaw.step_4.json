@@ -1,0 +1,48 @@
+{
+  "id": "nigerian_coleslaw.step_4",
+  "source": "wikibooks_nigerian_coleslaw",
+  "sourceRef": {
+    "source": "wikibooks_nigerian_coleslaw",
+    "step": 4
+  },
+  "technique": "chill",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "nigerian_coleslaw_step_3",
+        "amount": {
+          "qty": 0.9,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "nigerian_coleslaw",
+      "amount": {
+        "qty": 0.9,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Refrigerate until cold before serving.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

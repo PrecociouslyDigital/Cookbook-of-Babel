@@ -1,0 +1,55 @@
+{
+  "id": "sprout_salad.step_10",
+  "source": "wikibooks_sprout_salad",
+  "sourceRef": {
+    "source": "wikibooks_sprout_salad",
+    "step": 10
+  },
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "sprout_salad_step_9",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "vinegar",
+        "amount": {
+          "qty": 0.3333333333333333,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "sprout_salad",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Sprinkle vinegar over everything.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

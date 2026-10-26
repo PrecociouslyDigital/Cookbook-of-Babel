@@ -1,0 +1,81 @@
+{
+  "id": "ground_beef_and_potato_taquitos.step_2",
+  "source": "wikibooks_ground_beef_and_potato_taquitos",
+  "sourceRef": {
+    "source": "wikibooks_ground_beef_and_potato_taquitos",
+    "step": 2
+  },
+  "technique": "boil",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "ground_beef_and_potato_taquitos_step_1",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "tomato",
+        "amount": {
+          "qty": 5,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "jalapeno",
+        "amount": {
+          "qty": 4,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "serrano_peppers",
+        "amount": {
+          "qty": 2,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "onion",
+        "amount": {
+          "qty": 1,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "ground_beef_and_potato_taquitos_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 100,
+    "medium": "boiling_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 12.5,
+      "unit": "min"
+    }
+  },
+  "stateNote": "In a medium saucepan, combine the 4 whole tomatoes, jalapeño peppers, serrano peppers, and the half of the onion left whole. Cover with water and bring to a boil. Cook until the tomatoes and peppers are soft, about 10–15 minutes.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'5 Roma tomatoes, divided (4 whole, one chopped)': 'Roma' read as pieces"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of boil's typical range"
+    }
+  ]
+}

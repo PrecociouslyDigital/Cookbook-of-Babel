@@ -1,0 +1,62 @@
+{
+  "id": "haggis.step_2",
+  "source": "wikibooks_haggis",
+  "sourceRef": {
+    "source": "wikibooks_haggis",
+    "step": 2
+  },
+  "technique": "simmer",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "haggis_step_1",
+        "amount": {
+          "qty": 453.6,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "liver",
+        "amount": {
+          "qty": 1,
+          "unit": "lb"
+        }
+      },
+      {
+        "ingredient": "lamb_and_mutton",
+        "amount": {
+          "qty": 0.5,
+          "unit": "lb"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "haggis_step_2",
+      "amount": {
+        "qty": 1134,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 90,
+    "medium": "simmering_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 20,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Add the beef liver and lamb stew meat, cover, and simmer for 20 minutes. Remove the contents of the pot and cool. Reserve 1 cup of the liquid. Grind all the meat coarsely.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of simmer's typical range"
+    }
+  ]
+}

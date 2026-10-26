@@ -1,0 +1,60 @@
+{
+  "id": "quick_finnish_lemon_mead_sima.step_7",
+  "source": "wikibooks_quick_finnish_lemon_mead_sima",
+  "sourceRef": {
+    "source": "wikibooks_quick_finnish_lemon_mead_sima",
+    "step": 7
+  },
+  "technique": "ferment",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "quick_finnish_lemon_mead_sima_step_6",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "yeast",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "quick_finnish_lemon_mead_sima_step_7",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Add a very small amount of yeast (up to ¼ teaspoon).",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Small amount of dry yeast': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

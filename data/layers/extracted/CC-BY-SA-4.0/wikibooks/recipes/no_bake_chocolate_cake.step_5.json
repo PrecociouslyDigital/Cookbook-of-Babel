@@ -1,0 +1,55 @@
+{
+  "id": "no_bake_chocolate_cake.step_5",
+  "source": "wikibooks_no_bake_chocolate_cake",
+  "sourceRef": {
+    "source": "wikibooks_no_bake_chocolate_cake",
+    "step": 5
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "no_bake_chocolate_cake_step_4",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "graham_cracker",
+        "amount": {
+          "qty": 2.5,
+          "unit": "package"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "no_bake_chocolate_cake_step_5",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Add crumbled graham crackers. Mix well until all crackers are covered.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

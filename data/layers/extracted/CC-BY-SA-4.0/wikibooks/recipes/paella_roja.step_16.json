@@ -1,0 +1,58 @@
+{
+  "id": "paella_roja.step_16",
+  "source": "wikibooks_paella_roja",
+  "sourceRef": {
+    "source": "wikibooks_paella_roja",
+    "step": 16
+  },
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "paella_roja_step_15",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "paella_roja_step_16",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 90,
+    "medium": "simmering_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Taste the broth and invite your dinner guests to do so as well—this is a custom in Spain. The broth should have a very lightly salted flavor.",
+  "issues": [
+    {
+      "field": "sourceRef",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.54"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 90.0 °C for simmering_water"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

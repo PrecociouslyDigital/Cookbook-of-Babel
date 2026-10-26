@@ -1,0 +1,74 @@
+{
+  "id": "chokladboll_swedish_chocolate_balls.step_1",
+  "source": "wikibooks_chokladboll_swedish_chocolate_balls",
+  "sourceRef": {
+    "source": "wikibooks_chokladboll_swedish_chocolate_balls",
+    "step": 1
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "oats",
+        "amount": {
+          "qty": 500,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "white_sugar",
+        "amount": {
+          "qty": 275,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "chocolate",
+        "amount": {
+          "qty": 75,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "vanilla",
+        "amount": {
+          "qty": 1,
+          "unit": "tbsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "chokladboll_swedish_chocolate_balls_step_1",
+      "amount": {
+        "qty": 864.8,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Mix oats, sugar, vanilla sugar, and cocoa in a large bowl.",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for vanilla"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

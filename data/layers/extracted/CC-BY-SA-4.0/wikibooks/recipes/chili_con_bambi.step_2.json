@@ -1,0 +1,67 @@
+{
+  "id": "chili_con_bambi.step_2",
+  "source": "wikibooks_chili_con_bambi",
+  "sourceRef": {
+    "source": "wikibooks_chili_con_bambi",
+    "step": 2
+  },
+  "technique": "toast",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "chili_con_bambi_step_1",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "paprika",
+        "amount": {
+          "qty": 4,
+          "unit": "tsp"
+        }
+      },
+      {
+        "ingredient": "cumin",
+        "amount": {
+          "qty": 5,
+          "unit": "tsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "chili_con_bambi_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 185,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 60,
+      "unit": "s"
+    }
+  },
+  "stateNote": "Add the powdered spices and cook for about 60 seconds.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.53"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of toast's typical range"
+    }
+  ]
+}

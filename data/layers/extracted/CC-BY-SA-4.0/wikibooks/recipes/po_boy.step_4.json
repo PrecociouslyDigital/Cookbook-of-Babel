@@ -1,0 +1,48 @@
+{
+  "id": "po_boy.step_4",
+  "source": "wikibooks_po_boy",
+  "sourceRef": {
+    "source": "wikibooks_po_boy",
+    "step": 4
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "po_boy_step_3",
+        "amount": {
+          "qty": 1.5,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "po_boy",
+      "amount": {
+        "qty": 1.5,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Close the bread (as you would a book) and mash it down.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

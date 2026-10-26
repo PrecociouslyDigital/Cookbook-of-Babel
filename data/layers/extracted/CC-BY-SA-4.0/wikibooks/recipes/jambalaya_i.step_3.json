@@ -1,0 +1,72 @@
+{
+  "id": "jambalaya_i.step_3",
+  "source": "wikibooks_jambalaya_i",
+  "sourceRef": {
+    "source": "wikibooks_jambalaya_i",
+    "step": 3
+  },
+  "technique": "pan_fry",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "jambalaya_i_step_2",
+        "amount": {
+          "qty": 433.8,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "celery",
+        "amount": {
+          "qty": 0.3333333333333333,
+          "unit": "cup"
+        }
+      },
+      {
+        "ingredient": "butter",
+        "amount": {
+          "qty": 0.5,
+          "unit": "tbsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "jambalaya_i_step_3",
+      "amount": {
+        "qty": 520.1,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 185,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Heat a wide pan with a lid. Lightly fry the celery in the butter. Soften the celery but do not brown it.",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for celery, butter"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of pan_fry's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

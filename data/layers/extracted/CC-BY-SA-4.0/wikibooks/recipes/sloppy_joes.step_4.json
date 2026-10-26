@@ -1,0 +1,86 @@
+{
+  "id": "sloppy_joes.step_4",
+  "source": "wikibooks_sloppy_joes",
+  "sourceRef": {
+    "source": "wikibooks_sloppy_joes",
+    "step": 4
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "sloppy_joes_step_3",
+        "amount": {
+          "qty": 571.9,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "ketchup",
+        "amount": {
+          "qty": 1,
+          "unit": "cup"
+        }
+      },
+      {
+        "ingredient": "barbecue_sauce_i",
+        "amount": {
+          "qty": 1,
+          "unit": "cup"
+        }
+      },
+      {
+        "ingredient": "garlic_powder",
+        "amount": {
+          "qty": 1,
+          "unit": "tbsp"
+        }
+      },
+      {
+        "ingredient": "chili_powder",
+        "amount": {
+          "qty": 1,
+          "unit": "tbsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "sloppy_joes_step_4",
+      "amount": {
+        "qty": 1074.7,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 180,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "While on medium heat mix in the ketchup, barbecue sauce, garlic powder, and chili powder in any order.",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for ketchup, barbecue_sauce_i, garlic_powder, chili_powder"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 180.0 °C for pan_contact"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

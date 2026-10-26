@@ -1,0 +1,55 @@
+{
+  "id": "nuremberg_gingerbread.step_4",
+  "source": "wikibooks_nuremberg_gingerbread",
+  "sourceRef": {
+    "source": "wikibooks_nuremberg_gingerbread",
+    "step": 4
+  },
+  "technique": "knead",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "nuremberg_gingerbread_step_3",
+        "amount": {
+          "qty": 1230.5,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "baking_powder",
+        "amount": {
+          "qty": 1,
+          "unit": "package"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "nuremberg_gingerbread_step_4",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Pour the honey mixture, then the baking powder into the flour. Stir and knead the dough until it cools down.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

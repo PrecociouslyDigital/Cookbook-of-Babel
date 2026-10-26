@@ -1,0 +1,60 @@
+{
+  "id": "krummelpap_south_african_maize_porridge.step_1",
+  "source": "wikibooks_krummelpap_south_african_maize_porridge",
+  "sourceRef": {
+    "source": "wikibooks_krummelpap_south_african_maize_porridge",
+    "step": 1
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "salt",
+        "amount": {
+          "qty": 1,
+          "unit": "tsp"
+        }
+      },
+      {
+        "ingredient": "cornmeal",
+        "amount": {
+          "qty": 700,
+          "unit": "ml"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "krummelpap_south_african_maize_porridge_step_1",
+      "amount": {
+        "qty": 705.9,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Combine maize and salt in a large pot (like the one used for rice).",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for cornmeal"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "roasted_oysters_with_madeira.step_3",
+  "source": "wikibooks_roasted_oysters_with_madeira",
+  "sourceRef": {
+    "source": "wikibooks_roasted_oysters_with_madeira",
+    "step": 3
+  },
+  "technique": "separate",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "roasted_oysters_with_madeira_step_2",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "roasted_oysters_with_madeira_step_3",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Remove the oysters from the shell onto a plate, without any of their liquor. Discard any oysters that failed to open.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

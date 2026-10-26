@@ -1,0 +1,69 @@
+{
+  "id": "frito_pie_no_bake.step_3",
+  "source": "wikibooks_frito_pie_no_bake",
+  "sourceRef": {
+    "source": "wikibooks_frito_pie_no_bake",
+    "step": 3
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "frito_pie_no_bake_step_2",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "monterey_jack_cheese",
+        "amount": {
+          "qty": 350,
+          "unit": "ml"
+        }
+      },
+      {
+        "ingredient": "sour_cream",
+        "amount": {
+          "qty": 6,
+          "unit": "tbsp"
+        }
+      },
+      {
+        "ingredient": "jalapeno",
+        "amount": {
+          "qty": 1,
+          "unit": "jar"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "frito_pie_no_bake",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Garnish with the grated cheese, sour cream, and jalapeños.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

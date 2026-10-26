@@ -1,0 +1,53 @@
+{
+  "id": "homemade_cider_vinegar.step_5",
+  "source": "wikibooks_homemade_cider_vinegar",
+  "sourceRef": {
+    "source": "wikibooks_homemade_cider_vinegar",
+    "step": 5
+  },
+  "technique": "separate",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "homemade_cider_vinegar_step_4",
+        "amount": {
+          "qty": 4000,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "homemade_cider_vinegar_step_5",
+      "amount": {
+        "qty": 4000,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "When the fermentation is slowing down and not bubbling so vigorously, siphon into the other fermenter carefully. Try not to get too much of the gunk that has settled to the bottom, or the froth on top—the aim is to get a clear cider without too many floating chunks!",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.54"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

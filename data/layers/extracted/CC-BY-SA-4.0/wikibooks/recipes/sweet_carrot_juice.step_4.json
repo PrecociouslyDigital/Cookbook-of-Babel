@@ -1,0 +1,48 @@
+{
+  "id": "sweet_carrot_juice.step_4",
+  "source": "wikibooks_sweet_carrot_juice",
+  "sourceRef": {
+    "source": "wikibooks_sweet_carrot_juice",
+    "step": 4
+  },
+  "technique": "strain",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "sweet_carrot_juice_step_3",
+        "amount": {
+          "qty": 0.9,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "sweet_carrot_juice_step_4",
+      "amount": {
+        "qty": 0.9,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Strain the carrot purée to obtain a pure juice.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

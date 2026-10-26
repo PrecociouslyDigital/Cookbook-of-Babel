@@ -1,0 +1,60 @@
+{
+  "id": "a_nice_cup_of_tea.step_3",
+  "source": "wikibooks_a_nice_cup_of_tea",
+  "sourceRef": {
+    "source": "wikibooks_a_nice_cup_of_tea",
+    "step": 3
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "a_nice_cup_of_tea_step_1",
+        "amount": {
+          "qty": 946.2,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "tea",
+        "amount": {
+          "qty": 4,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "a_nice_cup_of_tea_step_3",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "If using loose tea, place it into an infuser, then into the teapot. If using teabags, place them into the teapot.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'3–5 measures of loose tea leaves or 3–5 tea bags': 'measures' read as pieces"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

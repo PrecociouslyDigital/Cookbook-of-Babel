@@ -1,0 +1,48 @@
+{
+  "id": "gravy_cakes_hartshorne.step_7",
+  "source": "wikibooks_gravy_cakes_hartshorne",
+  "sourceRef": {
+    "source": "wikibooks_gravy_cakes_hartshorne",
+    "step": 7
+  },
+  "technique": "evaporate",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "gravy_cakes_hartshorne_step_6",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "gravy_cakes_hartshorne",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Put them in an airy place till as dry as leather, put them in paper bags, and keep in a dry place.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

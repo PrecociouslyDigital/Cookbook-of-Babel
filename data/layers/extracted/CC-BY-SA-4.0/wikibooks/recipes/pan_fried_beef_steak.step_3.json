@@ -1,0 +1,48 @@
+{
+  "id": "pan_fried_beef_steak.step_3",
+  "source": "wikibooks_pan_fried_beef_steak",
+  "sourceRef": {
+    "source": "wikibooks_pan_fried_beef_steak",
+    "step": 3
+  },
+  "technique": "rinse",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "pan_fried_beef_steak_step_2",
+        "amount": {
+          "qty": 0.3,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "pan_fried_beef_steak_step_3",
+      "amount": {
+        "qty": 0.3,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Rinse the meat with cold water and dry it with a paper towel.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

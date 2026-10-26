@@ -1,0 +1,65 @@
+{
+  "id": "rich_brownies.step_2",
+  "source": "wikibooks_rich_brownies",
+  "sourceRef": {
+    "source": "wikibooks_rich_brownies",
+    "step": 2
+  },
+  "technique": "heat",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "chocolate",
+        "amount": {
+          "qty": 4,
+          "unit": "oz"
+        }
+      },
+      {
+        "ingredient": "margarine",
+        "amount": {
+          "qty": 160,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "rich_brownies_step_2",
+      "amount": {
+        "qty": 273.4,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 90,
+    "medium": "simmering_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Melt chocolate and margarine in a double boiler, or (carefully) in a saucepan on low heat, stirring often.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.44"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 90.0 °C for simmering_water"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

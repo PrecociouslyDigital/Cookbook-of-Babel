@@ -1,0 +1,48 @@
+{
+  "id": "banana_pancakes.step_9",
+  "source": "wikibooks_banana_pancakes",
+  "sourceRef": {
+    "source": "wikibooks_banana_pancakes",
+    "step": 9
+  },
+  "technique": "pan_fry",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "banana_pancakes_step_8",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "banana_pancakes_step_9",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 185,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 3,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Cook the pancakes on on medium-low heat for about 3 minutes on each side until the side is lightly browned. You can tell if it's time to turn the pancake if you can see bubbles on the other side.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of pan_fry's typical range"
+    }
+  ]
+}

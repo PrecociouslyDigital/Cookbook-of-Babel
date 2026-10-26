@@ -1,0 +1,108 @@
+{
+  "id": "pea_soup_quebecois_style.step_2",
+  "source": "wikibooks_pea_soup_quebecois_style",
+  "sourceRef": {
+    "source": "wikibooks_pea_soup_quebecois_style",
+    "step": 2
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "pea_soup_quebecois_style_step_1",
+        "amount": {
+          "qty": 793.8,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "onion",
+        "amount": {
+          "qty": 1,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "carrot",
+        "amount": {
+          "qty": 1,
+          "unit": "piece"
+        }
+      },
+      {
+        "min": 0,
+        "max": 1,
+        "of": [
+          {
+            "ingredient": "celery",
+            "amount": {
+              "qty": 1,
+              "unit": "stalk"
+            }
+          }
+        ]
+      },
+      {
+        "ingredient": "thyme",
+        "amount": {
+          "qty": 2,
+          "unit": "sprig"
+        }
+      },
+      {
+        "ingredient": "bay_leaf",
+        "amount": {
+          "qty": 1,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "pepper",
+        "amount": {
+          "qty": 9,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "water",
+        "amount": {
+          "qty": 10,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "pea_soup_quebecois_style_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "In a large pot, combine roasted ham hocks, onion, carrot, celery, thyme, bay leaf, peppercorns, and water.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.51"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

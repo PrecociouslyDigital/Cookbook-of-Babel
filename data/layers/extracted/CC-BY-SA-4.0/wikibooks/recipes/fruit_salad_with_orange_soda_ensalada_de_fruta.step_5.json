@@ -1,0 +1,55 @@
+{
+  "id": "fruit_salad_with_orange_soda_ensalada_de_fruta.step_5",
+  "source": "wikibooks_fruit_salad_with_orange_soda_ensalada_de_fruta",
+  "sourceRef": {
+    "source": "wikibooks_fruit_salad_with_orange_soda_ensalada_de_fruta",
+    "step": 5
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "fruit_salad_with_orange_soda_ensalada_de_fruta_step_4",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "soda_pop",
+        "amount": {
+          "qty": 1.25,
+          "unit": "l"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "fruit_salad_with_orange_soda_ensalada_de_fruta",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Prior to serving, mix lightly and cover with chilled Fanta.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

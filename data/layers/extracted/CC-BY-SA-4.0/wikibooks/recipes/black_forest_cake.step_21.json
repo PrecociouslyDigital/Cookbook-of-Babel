@@ -1,0 +1,58 @@
+{
+  "id": "black_forest_cake.step_21",
+  "source": "wikibooks_black_forest_cake",
+  "sourceRef": {
+    "source": "wikibooks_black_forest_cake",
+    "step": 21
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "black_forest_cake_step_20",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "black_forest_cake",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Decorate the top with piped rosettes of cream and the reserved whole black cherries.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    },
+    {
+      "field": "inputs",
+      "kind": "missing",
+      "note": "no step uses '1 egg yolk' (p=0.52)"
+    },
+    {
+      "field": "inputs",
+      "kind": "missing",
+      "note": "no step uses 'a few drops of vanilla essence' (p=0.54)"
+    }
+  ]
+}

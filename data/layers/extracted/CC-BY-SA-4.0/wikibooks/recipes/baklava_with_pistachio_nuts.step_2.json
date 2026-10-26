@@ -1,0 +1,60 @@
+{
+  "id": "baklava_with_pistachio_nuts.step_2",
+  "source": "wikibooks_baklava_with_pistachio_nuts",
+  "sourceRef": {
+    "source": "wikibooks_baklava_with_pistachio_nuts",
+    "step": 2
+  },
+  "technique": "chop",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "pistachio",
+        "amount": {
+          "qty": 1.5,
+          "unit": "lb"
+        }
+      },
+      {
+        "ingredient": "cinnamon_powder",
+        "amount": {
+          "qty": 2,
+          "unit": "tsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "baklava_with_pistachio_nuts_step_2",
+      "amount": {
+        "qty": 690.2,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Chop the nuts with the powdered cinnamon in a food processor. You want a fine chop, not powder.",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for cinnamon_powder"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

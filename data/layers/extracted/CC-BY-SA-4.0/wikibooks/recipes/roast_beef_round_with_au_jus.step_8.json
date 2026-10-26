@@ -1,0 +1,65 @@
+{
+  "id": "roast_beef_round_with_au_jus.step_8",
+  "source": "wikibooks_roast_beef_round_with_au_jus",
+  "sourceRef": {
+    "source": "wikibooks_roast_beef_round_with_au_jus",
+    "step": 8
+  },
+  "technique": "evaporate",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "roast_beef_round_with_au_jus_step_7",
+        "amount": {
+          "qty": 1223,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "wine",
+        "amount": {
+          "qty": 1,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "roast_beef_round_with_au_jus",
+      "amount": {
+        "qty": 1457.2,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 100,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Add reserved drippings and wine to pan and deglaze. Bring to a boil and cook until reduced by ⅓.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.57"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of evaporate's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

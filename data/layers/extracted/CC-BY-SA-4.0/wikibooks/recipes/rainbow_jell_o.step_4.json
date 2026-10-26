@@ -1,0 +1,48 @@
+{
+  "id": "rainbow_jell_o.step_4",
+  "source": "wikibooks_rainbow_jell_o",
+  "sourceRef": {
+    "source": "wikibooks_rainbow_jell_o",
+    "step": 4
+  },
+  "technique": "coagulate",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "rainbow_jell_o_step_3",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "rainbow_jell_o_step_4",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 15,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Refrigerate for about 15 minutes, until the gelatin sets but is not yet firm: the gelatin should stick to your finger when you touch it. The aim is for the layers to stick, but not mix.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.49"
+    }
+  ]
+}

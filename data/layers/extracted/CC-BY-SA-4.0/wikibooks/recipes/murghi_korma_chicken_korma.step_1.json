@@ -1,0 +1,106 @@
+{
+  "id": "murghi_korma_chicken_korma.step_1",
+  "source": "wikibooks_murghi_korma_chicken_korma",
+  "sourceRef": {
+    "source": "wikibooks_murghi_korma_chicken_korma",
+    "step": 1
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "chicken",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      },
+      {
+        "ingredient": "ginger",
+        "amount": {
+          "qty": 1,
+          "unit": "tbsp"
+        }
+      },
+      {
+        "ingredient": "garlic",
+        "amount": {
+          "qty": 1,
+          "unit": "tbsp"
+        }
+      },
+      {
+        "ingredient": "coriander",
+        "amount": {
+          "qty": 1.5,
+          "unit": "tsp"
+        }
+      },
+      {
+        "ingredient": "cumin",
+        "amount": {
+          "qty": 1.5,
+          "unit": "tsp"
+        }
+      },
+      {
+        "min": 0,
+        "max": 1,
+        "of": [
+          {
+            "ingredient": "nutmeg",
+            "amount": {
+              "qty": 0.5,
+              "unit": "tsp"
+            }
+          }
+        ]
+      },
+      {
+        "ingredient": "yogurt",
+        "amount": {
+          "qty": 1,
+          "unit": "tbsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "murghi_korma_chicken_korma_step_1",
+      "amount": {
+        "qty": 61.9,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 2,
+      "unit": "h"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Combine the chicken with all the marinade ingredients, cover the bowl with cling film, and leave in the fridge to marinate for 1–3 hours.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.46"
+    },
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Whole chicken, skinned and cut into medium pieces; ideally into 6 pieces if using baby chicken': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for chicken, ginger, garlic, coriander, cumin, nutmeg, yogurt"
+    }
+  ]
+}

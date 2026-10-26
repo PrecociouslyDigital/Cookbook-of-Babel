@@ -1,0 +1,48 @@
+{
+  "id": "sauerkraut_i.step_10",
+  "source": "wikibooks_sauerkraut_i",
+  "sourceRef": {
+    "source": "wikibooks_sauerkraut_i",
+    "step": 10
+  },
+  "technique": "age",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "sauerkraut_i_step_9",
+        "amount": {
+          "qty": 2544.4,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "sauerkraut_i",
+      "amount": {
+        "qty": 2544.4,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "The sauerkraut will be fermented in three days to about a week. Wipe any excess liquid from around the jar, and put the lid on tightly before moving it to a cool place (e.g. the refrigerator) to mature. It is ready to eat after the first week, but it will improve with age as the bacteria slowly consume the more complex sugars in the cabbage.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

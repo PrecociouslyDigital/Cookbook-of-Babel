@@ -1,0 +1,72 @@
+{
+  "id": "orange_cardamom_pancakes.step_3",
+  "source": "wikibooks_orange_cardamom_pancakes",
+  "sourceRef": {
+    "source": "wikibooks_orange_cardamom_pancakes",
+    "step": 3
+  },
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "orange_cardamom_pancakes_step_2",
+        "amount": {
+          "qty": 140.2,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "orange",
+        "amount": {
+          "qty": 1,
+          "unit": "tsp"
+        }
+      },
+      {
+        "ingredient": "cardamom",
+        "amount": {
+          "qty": 0.25,
+          "unit": "tsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "orange_cardamom_pancakes_step_3",
+      "amount": {
+        "qty": 146.4,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Whisk orange zest and ground cardamom into dry ingredients.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.45"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for orange, cardamom"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

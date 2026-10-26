@@ -1,0 +1,53 @@
+{
+  "id": "zacusca_romanian_vegetable_spread.step_2",
+  "source": "wikibooks_zacusca_romanian_vegetable_spread",
+  "sourceRef": {
+    "source": "wikibooks_zacusca_romanian_vegetable_spread",
+    "step": 2
+  },
+  "technique": "chop",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "zacusca_romanian_vegetable_spread_step_1",
+        "amount": {
+          "qty": 5000,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "zacusca_romanian_vegetable_spread_step_2",
+      "amount": {
+        "qty": 5000,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Dice the eggplants and peppers in 1–2 cm cubes. The peppers will retain their shape, but the eggplant flesh is mushy so don't worry if your cubes aren't perfect shapes, they will disintegrate more when cooking and that is the goal.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.56"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

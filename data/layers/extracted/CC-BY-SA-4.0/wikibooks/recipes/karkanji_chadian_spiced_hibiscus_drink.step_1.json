@@ -1,0 +1,53 @@
+{
+  "id": "karkanji_chadian_spiced_hibiscus_drink.step_1",
+  "source": "wikibooks_karkanji_chadian_spiced_hibiscus_drink",
+  "sourceRef": {
+    "source": "wikibooks_karkanji_chadian_spiced_hibiscus_drink",
+    "step": 1
+  },
+  "technique": "rinse",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "roselle",
+        "amount": {
+          "qty": 1,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "karkanji_chadian_spiced_hibiscus_drink_step_1",
+      "amount": {
+        "qty": 236.6,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Rinse the dried hibiscus petals under cold water to remove any dust or debris.",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for roselle"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

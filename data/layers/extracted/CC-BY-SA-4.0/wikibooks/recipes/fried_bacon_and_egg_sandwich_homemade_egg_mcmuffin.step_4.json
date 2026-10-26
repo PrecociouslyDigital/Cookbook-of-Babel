@@ -1,0 +1,53 @@
+{
+  "id": "fried_bacon_and_egg_sandwich_homemade_egg_mcmuffin.step_4",
+  "source": "wikibooks_fried_bacon_and_egg_sandwich_homemade_egg_mcmuffin",
+  "sourceRef": {
+    "source": "wikibooks_fried_bacon_and_egg_sandwich_homemade_egg_mcmuffin",
+    "step": 4
+  },
+  "technique": "separate",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "fried_bacon_and_egg_sandwich_homemade_egg_mcmuffin_step_3",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "fried_bacon_and_egg_sandwich_homemade_egg_mcmuffin_step_4",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Pour most of the remaining fat from the pan into a teacup, leaving most of the brown bits in the pan.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.46"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": "dolma_stuffed_grape_leaves.step_10",
+  "source": "wikibooks_dolma_stuffed_grape_leaves",
+  "sourceRef": {
+    "source": "wikibooks_dolma_stuffed_grape_leaves",
+    "step": 10
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "dolma_stuffed_grape_leaves_step_9",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "dolma_stuffed_grape_leaves_step_10",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Layer the stuffed vegetables in a pot, alternating grape leaves and vegetables. The top layer should be grape leaves.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.57"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

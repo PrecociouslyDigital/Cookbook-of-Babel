@@ -1,0 +1,48 @@
+{
+  "id": "classic_american_apple_pie.step_6",
+  "source": "wikibooks_classic_american_apple_pie",
+  "sourceRef": {
+    "source": "wikibooks_classic_american_apple_pie",
+    "step": 6
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "classic_american_apple_pie_step_5",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "classic_american_apple_pie_step_6",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Add apples to the crust in a concentric circle, starting from the outside and working to the inside, making the center slightly taller than the outside. Pour any liquid in the bottom of the bowl over the apples.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

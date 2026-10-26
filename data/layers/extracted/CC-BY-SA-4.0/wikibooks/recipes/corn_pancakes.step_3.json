@@ -1,0 +1,60 @@
+{
+  "id": "corn_pancakes.step_3",
+  "source": "wikibooks_corn_pancakes",
+  "sourceRef": {
+    "source": "wikibooks_corn_pancakes",
+    "step": 3
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "corn_pancakes_step_2",
+        "amount": {
+          "qty": 108.8,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "cornmeal",
+        "amount": {
+          "qty": 0.5,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "corn_pancakes_step_3",
+      "amount": {
+        "qty": 227.1,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Whisk corn meal into dry ingredients.",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for cornmeal"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

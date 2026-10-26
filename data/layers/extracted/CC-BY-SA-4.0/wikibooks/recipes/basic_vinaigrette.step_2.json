@@ -1,0 +1,60 @@
+{
+  "id": "basic_vinaigrette.step_2",
+  "source": "wikibooks_basic_vinaigrette",
+  "sourceRef": {
+    "source": "wikibooks_basic_vinaigrette",
+    "step": 2
+  },
+  "technique": "whisk",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "basic_vinaigrette_step_1",
+        "amount": {
+          "qty": 39.4,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "olive_oil",
+        "amount": {
+          "qty": 6,
+          "unit": "tbsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "basic_vinaigrette_step_2",
+      "amount": {
+        "qty": 128.1,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Slowly stream in oil while whisking continuously.",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for olive_oil"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

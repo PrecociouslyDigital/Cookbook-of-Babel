@@ -1,0 +1,48 @@
+{
+  "id": "cabbage_rolls_in_tomato_sauce_holubtsi.step_5",
+  "source": "wikibooks_cabbage_rolls_in_tomato_sauce_holubtsi",
+  "sourceRef": {
+    "source": "wikibooks_cabbage_rolls_in_tomato_sauce_holubtsi",
+    "step": 5
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "cabbage_rolls_in_tomato_sauce_holubtsi_step_4",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "cabbage_rolls_in_tomato_sauce_holubtsi_step_5",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Roll leaf around filling and fasten with toothpick.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

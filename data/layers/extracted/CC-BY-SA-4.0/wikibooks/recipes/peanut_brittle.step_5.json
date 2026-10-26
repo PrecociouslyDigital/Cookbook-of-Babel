@@ -1,0 +1,65 @@
+{
+  "id": "peanut_brittle.step_5",
+  "source": "wikibooks_peanut_brittle",
+  "sourceRef": {
+    "source": "wikibooks_peanut_brittle",
+    "step": 5
+  },
+  "technique": "boil",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "peanut_brittle_step_4",
+        "amount": {
+          "qty": 380,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "peanut",
+        "amount": {
+          "qty": 1,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "peanut_brittle_step_5",
+      "amount": {
+        "qty": 616.6,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 150,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Add raw peanuts to the mixture. Continue heating and stirring gently until temperature reaches 300°F (150°C).",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.36"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for peanut"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

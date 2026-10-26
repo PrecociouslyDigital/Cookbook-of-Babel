@@ -1,0 +1,67 @@
+{
+  "id": "mediterranean_beef_stew.step_3",
+  "source": "wikibooks_mediterranean_beef_stew",
+  "sourceRef": {
+    "source": "wikibooks_mediterranean_beef_stew",
+    "step": 3
+  },
+  "technique": "simmer",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "mediterranean_beef_stew_step_2",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "olive",
+        "amount": {
+          "qty": 600,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "tomato",
+        "amount": {
+          "qty": 6,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "mediterranean_beef_stew",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 90,
+    "medium": "simmering_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Add the olives and tomatoes to the pan and simmer gently for two hours with the lid on.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of simmer's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

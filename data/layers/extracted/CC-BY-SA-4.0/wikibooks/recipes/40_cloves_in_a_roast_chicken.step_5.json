@@ -1,0 +1,88 @@
+{
+  "id": "40_cloves_in_a_roast_chicken.step_5",
+  "source": "wikibooks_40_cloves_in_a_roast_chicken",
+  "sourceRef": {
+    "source": "wikibooks_40_cloves_in_a_roast_chicken",
+    "step": 5
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "40_cloves_in_a_roast_chicken_step_4",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "olive_oil",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      },
+      {
+        "ingredient": "lemon",
+        "amount": {
+          "qty": 1,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "thyme",
+        "amount": {
+          "qty": 0.5,
+          "unit": "bunch"
+        }
+      },
+      {
+        "ingredient": "rosemary",
+        "amount": {
+          "qty": 5,
+          "unit": "sprig"
+        }
+      },
+      {
+        "ingredient": "parsley",
+        "amount": {
+          "qty": 0.5,
+          "unit": "bunch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "40_cloves_in_a_roast_chicken_step_5",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Coat chicken with olive oil. Place herbs in the bottom of a roasting pan and put lemon slices on top.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Olive oil': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

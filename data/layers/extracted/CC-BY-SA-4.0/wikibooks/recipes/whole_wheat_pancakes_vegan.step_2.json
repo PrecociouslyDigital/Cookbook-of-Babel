@@ -1,0 +1,60 @@
+{
+  "id": "whole_wheat_pancakes_vegan.step_2",
+  "source": "wikibooks_whole_wheat_pancakes_vegan",
+  "sourceRef": {
+    "source": "wikibooks_whole_wheat_pancakes_vegan",
+    "step": 2
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "whole_wheat_pancakes_vegan_step_1",
+        "amount": {
+          "qty": 505,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "soy_milk_i",
+        "amount": {
+          "qty": 2,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "whole_wheat_pancakes_vegan_step_2",
+      "amount": {
+        "qty": 978.2,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Mix soy milk into the dry mixture.",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for soy_milk_i"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

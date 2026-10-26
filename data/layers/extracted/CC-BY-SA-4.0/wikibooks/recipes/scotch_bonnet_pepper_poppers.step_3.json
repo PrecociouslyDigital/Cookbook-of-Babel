@@ -1,0 +1,74 @@
+{
+  "id": "scotch_bonnet_pepper_poppers.step_3",
+  "source": "wikibooks_scotch_bonnet_pepper_poppers",
+  "sourceRef": {
+    "source": "wikibooks_scotch_bonnet_pepper_poppers",
+    "step": 3
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "scotch_bonnet_pepper_poppers_step_2",
+        "amount": {
+          "qty": 113.4,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "ricotta",
+        "amount": {
+          "qty": 1,
+          "unit": "cup"
+        }
+      },
+      {
+        "ingredient": "parmesan_cheese",
+        "amount": {
+          "qty": 0.5,
+          "unit": "cup"
+        }
+      },
+      {
+        "ingredient": "onion",
+        "amount": {
+          "qty": 0.25,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "scotch_bonnet_pepper_poppers_step_3",
+      "amount": {
+        "qty": 527.4,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "In a bowl, mix ricotta, Parmesan, and onion with sausage to form the filling.",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for ricotta, parmesan_cheese, onion"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

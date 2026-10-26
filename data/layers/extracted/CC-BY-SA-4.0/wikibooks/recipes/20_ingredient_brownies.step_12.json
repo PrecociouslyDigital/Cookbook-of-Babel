@@ -1,0 +1,48 @@
+{
+  "id": "20_ingredient_brownies.step_12",
+  "source": "wikibooks_20_ingredient_brownies",
+  "sourceRef": {
+    "source": "wikibooks_20_ingredient_brownies",
+    "step": 12
+  },
+  "technique": "cool",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "20_ingredient_brownies_step_11",
+        "amount": {
+          "qty": 2739.2,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "20_ingredient_brownies_step_12",
+      "amount": {
+        "qty": 2739.2,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Take the brownie out of the oven and leave it to cool.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

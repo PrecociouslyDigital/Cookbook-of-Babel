@@ -1,0 +1,100 @@
+{
+  "id": "soto_ayam_indonesian_chicken_noodle_soup.step_2",
+  "source": "wikibooks_soto_ayam_indonesian_chicken_noodle_soup",
+  "sourceRef": {
+    "source": "wikibooks_soto_ayam_indonesian_chicken_noodle_soup",
+    "step": 2
+  },
+  "technique": "simmer",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "soto_ayam_indonesian_chicken_noodle_soup_step_1",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "chicken",
+        "amount": {
+          "qty": 1,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "chicken_stock",
+        "amount": {
+          "qty": 1.8,
+          "unit": "l"
+        }
+      },
+      {
+        "ingredient": "kaffir_lime",
+        "amount": {
+          "qty": 3,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "lemongrass",
+        "amount": {
+          "qty": 0.5,
+          "unit": "stalk"
+        }
+      },
+      {
+        "ingredient": "bay_leaf",
+        "amount": {
+          "qty": 2,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "galangal",
+        "amount": {
+          "qty": 25,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "soto_ayam_indonesian_chicken_noodle_soup_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 90,
+    "medium": "simmering_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 30,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Make soup by cooking the whole chicken with spice paste, galangal, lime leaves, lemon grass, and bay leaves in a pot for at least 30 minutes until the meat is tender. Use a pressure cooker for faster cooking time and better broth. For a traditional method, bring soup to boil, cover, and turn off heat, then let steep for 30–40 minutes—this makes the meat more tender.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.53"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of simmer's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "the step names several durations; used the first"
+    }
+  ]
+}

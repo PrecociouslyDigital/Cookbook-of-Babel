@@ -1,0 +1,70 @@
+{
+  "id": "maffe_west_african_peanut_stew_i.step_9",
+  "source": "wikibooks_maffe_west_african_peanut_stew_i",
+  "sourceRef": {
+    "source": "wikibooks_maffe_west_african_peanut_stew_i",
+    "step": 9
+  },
+  "technique": "cool",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "maffe_west_african_peanut_stew_i_step_8",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "cilantro",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "maffe_west_african_peanut_stew_i",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 180,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Remove the pot from heat and let it sit for a few minutes. This allows the stew to thicken slightly. Serve hot, garnished with fresh cilantro or parsley.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.39"
+    },
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Fresh cilantro or parsley, chopped (for garnish)': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 180.0 °C for pan_contact"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

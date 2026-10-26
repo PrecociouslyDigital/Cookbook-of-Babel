@@ -1,0 +1,68 @@
+{
+  "id": "miyan_kubewa_okra_soup.step_2",
+  "source": "wikibooks_miyan_kubewa_okra_soup",
+  "sourceRef": {
+    "source": "wikibooks_miyan_kubewa_okra_soup",
+    "step": 2
+  },
+  "technique": "simmer",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "miyan_kubewa_okra_soup_step_1",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "min": 0,
+        "max": 1,
+        "of": [
+          {
+            "ingredient": "dryfish",
+            "amount": {
+              "qty": 1.5,
+              "unit": "piece"
+            }
+          }
+        ]
+      },
+      {
+        "ingredient": "iru",
+        "amount": {
+          "qty": 1.5,
+          "unit": "tbsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "miyan_kubewa_okra_soup_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 90,
+    "medium": "simmering_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 7.5,
+      "unit": "min"
+    }
+  },
+  "stateNote": "If using smoked or dried fish, add it along with the ground locust beans (dawadawa). Allow it to simmer for 5–10 minutes.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of simmer's typical range"
+    }
+  ]
+}

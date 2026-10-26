@@ -1,0 +1,48 @@
+{
+  "id": "homemade_phyllo_dough.step_3",
+  "source": "wikibooks_homemade_phyllo_dough",
+  "sourceRef": {
+    "source": "wikibooks_homemade_phyllo_dough",
+    "step": 3
+  },
+  "technique": "fold",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "homemade_phyllo_dough_step_2",
+        "amount": {
+          "qty": 1400,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "homemade_phyllo_dough",
+      "amount": {
+        "qty": 1400,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Cut into small pieces. Flatten each piece using a pasta maker. Follow the same procedure of your machine as for pasta: pass it several times in the machine size 1, folding, it in two until you get a nicely shaped dough. Then increment each time the size on the machine until you reached the desired size. You can alternatively use a rolling pin with a lot of courage. The dough should be extremely thin.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

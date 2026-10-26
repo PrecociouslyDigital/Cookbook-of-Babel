@@ -1,0 +1,53 @@
+{
+  "id": "sharbat_bil_loz.step_4",
+  "source": "wikibooks_sharbat_bil_loz",
+  "sourceRef": {
+    "source": "wikibooks_sharbat_bil_loz",
+    "step": 4
+  },
+  "technique": "separate",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "sharbat_bil_loz_step_3",
+        "amount": {
+          "qty": 1892.8,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "sharbat_bil_loz_step_4",
+      "amount": {
+        "qty": 1892.8,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "When drained, squeeze the remaining pulp to extract as much liquid as possible. Discard the pulp.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.58"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "id": "buckwheat_crepes.step_5",
+  "source": "wikibooks_buckwheat_crepes",
+  "sourceRef": {
+    "source": "wikibooks_buckwheat_crepes",
+    "step": 5
+  },
+  "technique": "heat",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "buckwheat_crepes_step_4",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "fillings",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "buckwheat_crepes_step_5",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Prepare your desired fillings in advance. Anything that requires more than 1 minute to cook (e.g. onions, mushrooms, meat, etc.) should be pre-cooked.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.55"
+    },
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Fillings as desired': no quantity given; assumed a pinch"
+    }
+  ]
+}

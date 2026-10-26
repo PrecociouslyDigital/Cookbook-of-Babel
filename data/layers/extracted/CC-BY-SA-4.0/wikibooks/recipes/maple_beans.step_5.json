@@ -1,0 +1,88 @@
+{
+  "id": "maple_beans.step_5",
+  "source": "wikibooks_maple_beans",
+  "sourceRef": {
+    "source": "wikibooks_maple_beans",
+    "step": 5
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "maple_beans_step_4",
+        "amount": {
+          "qty": 2625,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "onion",
+        "amount": {
+          "qty": 1,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "maple_syrup_and_sugar",
+        "amount": {
+          "qty": 250,
+          "unit": "ml"
+        }
+      },
+      {
+        "ingredient": "mustard",
+        "amount": {
+          "qty": 2,
+          "unit": "ml"
+        }
+      },
+      {
+        "ingredient": "pepper",
+        "amount": {
+          "qty": 5,
+          "unit": "ml"
+        }
+      },
+      {
+        "ingredient": "salt",
+        "amount": {
+          "qty": 5,
+          "unit": "ml"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "maple_beans_step_5",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Combine the onion, salt, mustard, and maple syrup. Add 625 ml (2 ½ cups) of the aforementioned bean-water to the mix and blend well.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'1 large sweet onion, finely diced': 'sweet' read as pieces"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

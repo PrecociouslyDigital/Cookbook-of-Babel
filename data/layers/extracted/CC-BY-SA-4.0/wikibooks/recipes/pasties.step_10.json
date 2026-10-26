@@ -1,0 +1,48 @@
+{
+  "id": "pasties.step_10",
+  "source": "wikibooks_pasties",
+  "sourceRef": {
+    "source": "wikibooks_pasties",
+    "step": 10
+  },
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "pasties_step_9",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "pasties_step_10",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Use pastry trimmings to make the intended eater's initial(s) on one end of the pasty. This is the Cornish housewife's traditional way of making and identifying individual pasties to suit each family member e.g. less seasoning for young children or more meat for a hard-working son or anaemic daughter. Also, it enabled tin-miners and fishermen to identify their pasties if they had had to put them down somewhere half-eaten to attend to some urgent work.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

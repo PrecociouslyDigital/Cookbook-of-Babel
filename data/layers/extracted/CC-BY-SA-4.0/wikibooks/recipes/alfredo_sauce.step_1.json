@@ -1,0 +1,55 @@
+{
+  "id": "alfredo_sauce.step_1",
+  "source": "wikibooks_alfredo_sauce",
+  "sourceRef": {
+    "source": "wikibooks_alfredo_sauce",
+    "step": 1
+  },
+  "technique": "whisk",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "butter",
+        "amount": {
+          "qty": 8,
+          "unit": "oz"
+        }
+      },
+      {
+        "ingredient": "parmesan_cheese",
+        "amount": {
+          "qty": 0.5,
+          "unit": "lb"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "alfredo_sauce_step_1",
+      "amount": {
+        "qty": 453.6,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Whisk together the butter and grated Parmesan-Reggiano cheese until it is creamy. Both ingredients combined should be on the thick side.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

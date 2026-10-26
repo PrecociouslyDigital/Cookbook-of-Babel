@@ -1,0 +1,65 @@
+{
+  "id": "veloute_sauce.step_1",
+  "source": "wikibooks_veloute_sauce",
+  "sourceRef": {
+    "source": "wikibooks_veloute_sauce",
+    "step": 1
+  },
+  "technique": "toast",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "butter",
+        "amount": {
+          "qty": 0.25,
+          "unit": "cup"
+        }
+      },
+      {
+        "ingredient": "wheat_flour",
+        "amount": {
+          "qty": 60,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "veloute_sauce_step_1",
+      "amount": {
+        "qty": 119.2,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 185,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 2,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Make a white roux: melt the butter in a sauce pan over low heat until the foam subsides. Whisk in the flour and cook slowly, while stirring until the mixture froths up for about 2 minutes. The flour should lose its raw smell but not its color.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.49"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for butter"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of toast's typical range"
+    }
+  ]
+}

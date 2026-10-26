@@ -1,0 +1,48 @@
+{
+  "id": "pumpkin_roll.step_15",
+  "source": "wikibooks_pumpkin_roll",
+  "sourceRef": {
+    "source": "wikibooks_pumpkin_roll",
+    "step": 15
+  },
+  "technique": "cool",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "pumpkin_roll_step_14",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "pumpkin_roll_step_15",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Loosely roll cake, then cool completely to allow cake to set.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

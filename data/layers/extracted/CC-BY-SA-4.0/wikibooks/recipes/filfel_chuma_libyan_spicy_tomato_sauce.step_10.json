@@ -1,0 +1,60 @@
+{
+  "id": "filfel_chuma_libyan_spicy_tomato_sauce.step_10",
+  "source": "wikibooks_filfel_chuma_libyan_spicy_tomato_sauce",
+  "sourceRef": {
+    "source": "wikibooks_filfel_chuma_libyan_spicy_tomato_sauce",
+    "step": 10
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "filfel_chuma_libyan_spicy_tomato_sauce_step_9",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "parsley",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "filfel_chuma_libyan_spicy_tomato_sauce",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Garnish with chopped parsley or cilantro before serving.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Fresh parsley or cilantro, chopped, for garnish': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

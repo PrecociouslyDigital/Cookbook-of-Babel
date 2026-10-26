@@ -1,0 +1,55 @@
+{
+  "id": "peanut_milk.step_4",
+  "source": "wikibooks_peanut_milk",
+  "sourceRef": {
+    "source": "wikibooks_peanut_milk",
+    "step": 4
+  },
+  "technique": "chill",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "peanut_milk_step_3",
+        "amount": {
+          "qty": 10100,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "salt",
+        "amount": {
+          "qty": 1,
+          "unit": "ml"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "peanut_milk_step_4",
+      "amount": {
+        "qty": 10101.2,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Pour into a bottle, add the salt, shake, and put in the fridge for a few hours.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

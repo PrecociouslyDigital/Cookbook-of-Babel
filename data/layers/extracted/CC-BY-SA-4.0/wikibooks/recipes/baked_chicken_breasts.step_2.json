@@ -1,0 +1,48 @@
+{
+  "id": "baked_chicken_breasts.step_2",
+  "source": "wikibooks_baked_chicken_breasts",
+  "sourceRef": {
+    "source": "wikibooks_baked_chicken_breasts",
+    "step": 2
+  },
+  "technique": "bake",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "baked_chicken_breasts_step_1",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "baked_chicken_breasts_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 200,
+    "medium": "oven_air"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Place chicken on a 13x9-inch baking pan. Insert a probe thermometer into one of the chicken breasts and bake in the center of a 400°F (200°C) oven until internal temperature reaches 165°F (75°C).",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

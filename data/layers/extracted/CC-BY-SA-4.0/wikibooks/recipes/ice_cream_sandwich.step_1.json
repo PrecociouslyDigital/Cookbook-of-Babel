@@ -1,0 +1,74 @@
+{
+  "id": "ice_cream_sandwich.step_1",
+  "source": "wikibooks_ice_cream_sandwich",
+  "sourceRef": {
+    "source": "wikibooks_ice_cream_sandwich",
+    "step": 1
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "wheat_flour",
+        "amount": {
+          "qty": 180,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "chocolate",
+        "amount": {
+          "qty": 20,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "baking_soda",
+        "amount": {
+          "qty": 1,
+          "unit": "tsp"
+        }
+      },
+      {
+        "ingredient": "salt",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "ice_cream_sandwich_step_1",
+      "amount": {
+        "qty": 205.3,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Mix the flour, cocoa, bicarbonate of soda, and salt in a bowl.",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for baking_soda"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "white_house_honey_porter.step_7",
+  "source": "wikibooks_white_house_honey_porter",
+  "sourceRef": {
+    "source": "wikibooks_white_house_honey_porter",
+    "step": 7
+  },
+  "technique": "ferment",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "white_house_honey_porter_step_6",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "white_house_honey_porter_step_7",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 5.5,
+      "unit": "d"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Siphon over to a secondary glass fermenter for another 4–7 days.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.54"
+    }
+  ]
+}

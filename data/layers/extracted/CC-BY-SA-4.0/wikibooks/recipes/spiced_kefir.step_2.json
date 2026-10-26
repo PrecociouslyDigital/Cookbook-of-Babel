@@ -1,0 +1,48 @@
+{
+  "id": "spiced_kefir.step_2",
+  "source": "wikibooks_spiced_kefir",
+  "sourceRef": {
+    "source": "wikibooks_spiced_kefir",
+    "step": 2
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "spiced_kefir_step_1",
+        "amount": {
+          "qty": 21.3,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "spiced_kefir",
+      "amount": {
+        "qty": 21.3,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Stir well and serve.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

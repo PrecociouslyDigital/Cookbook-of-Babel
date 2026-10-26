@@ -1,0 +1,55 @@
+{
+  "id": "flaky_pie_crust.step_4",
+  "source": "wikibooks_flaky_pie_crust",
+  "sourceRef": {
+    "source": "wikibooks_flaky_pie_crust",
+    "step": 4
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "flaky_pie_crust_step_3",
+        "amount": {
+          "qty": 545,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "water",
+        "amount": {
+          "qty": 95,
+          "unit": "ml"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "flaky_pie_crust_step_4",
+      "amount": {
+        "qty": 640,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Add cold water; cut the water into the flour-butter mixture with the edge of a rubber spatula until it is evenly moistened and will hold together when pressed.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

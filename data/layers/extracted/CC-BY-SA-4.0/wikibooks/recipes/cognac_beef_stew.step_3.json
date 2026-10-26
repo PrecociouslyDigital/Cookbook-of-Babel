@@ -1,0 +1,70 @@
+{
+  "id": "cognac_beef_stew.step_3",
+  "source": "wikibooks_cognac_beef_stew",
+  "sourceRef": {
+    "source": "wikibooks_cognac_beef_stew",
+    "step": 3
+  },
+  "technique": "boil",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "cognac_beef_stew_step_2",
+        "amount": {
+          "qty": 936.9,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "cognac",
+        "amount": {
+          "qty": 0.5,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "cognac_beef_stew_step_3",
+      "amount": {
+        "qty": 1055.2,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 100,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Remove beef and add cognac. Bring to a boil and ignite.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.53"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for cognac"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of boil's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

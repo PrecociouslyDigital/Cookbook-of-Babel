@@ -1,0 +1,58 @@
+{
+  "id": "basic_whipped_cream.step_5",
+  "source": "wikibooks_basic_whipped_cream",
+  "sourceRef": {
+    "source": "wikibooks_basic_whipped_cream",
+    "step": 5
+  },
+  "technique": "chill",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "basic_whipped_cream_step_4",
+        "amount": {
+          "qty": 236.6,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "basic_whipped_cream",
+      "amount": {
+        "qty": 236.6,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Refrigerate until use.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    },
+    {
+      "field": "inputs",
+      "kind": "missing",
+      "note": "no step uses '1–2 tbsp granulated or powdered sugar to taste (optional)' (p=0.97)"
+    },
+    {
+      "field": "inputs",
+      "kind": "missing",
+      "note": "no step uses 'Flavoring of choice (e.g. vanilla; optional)' (p=0.98)"
+    }
+  ]
+}

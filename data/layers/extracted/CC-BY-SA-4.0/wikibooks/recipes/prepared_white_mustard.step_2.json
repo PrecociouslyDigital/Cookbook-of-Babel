@@ -1,0 +1,48 @@
+{
+  "id": "prepared_white_mustard.step_2",
+  "source": "wikibooks_prepared_white_mustard",
+  "sourceRef": {
+    "source": "wikibooks_prepared_white_mustard",
+    "step": 2
+  },
+  "technique": "grind",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "prepared_white_mustard_step_1",
+        "amount": {
+          "qty": 88.7,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "prepared_white_mustard_step_2",
+      "amount": {
+        "qty": 88.7,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Pound the seeds with a mortar and pestle.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

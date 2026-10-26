@@ -1,0 +1,53 @@
+{
+  "id": "biscuits_ii.step_6",
+  "source": "wikibooks_biscuits_ii",
+  "sourceRef": {
+    "source": "wikibooks_biscuits_ii",
+    "step": 6
+  },
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "biscuits_ii_step_5",
+        "amount": {
+          "qty": 288.4,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "biscuits_ii_step_6",
+      "amount": {
+        "qty": 288.4,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Cut out biscuits with a small cutter and place biscuits onto a greased pan.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.48"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

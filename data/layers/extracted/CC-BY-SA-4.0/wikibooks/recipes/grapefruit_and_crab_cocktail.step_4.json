@@ -1,0 +1,67 @@
+{
+  "id": "grapefruit_and_crab_cocktail.step_4",
+  "source": "wikibooks_grapefruit_and_crab_cocktail",
+  "sourceRef": {
+    "source": "wikibooks_grapefruit_and_crab_cocktail",
+    "step": 4
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "grapefruit_and_crab_cocktail_step_3",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "mayonnaise",
+        "amount": {
+          "qty": 4,
+          "unit": "tsp"
+        }
+      },
+      {
+        "ingredient": "parsley",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "grapefruit_and_crab_cocktail",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "To decorate, put 1 teaspoon mayonnaise on each portion, and garnish with parsley.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Chopped parsley': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

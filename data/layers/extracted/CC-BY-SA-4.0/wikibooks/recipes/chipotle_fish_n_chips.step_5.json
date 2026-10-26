@@ -1,0 +1,65 @@
+{
+  "id": "chipotle_fish_n_chips.step_5",
+  "source": "wikibooks_chipotle_fish_n_chips",
+  "sourceRef": {
+    "source": "wikibooks_chipotle_fish_n_chips",
+    "step": 5
+  },
+  "technique": "bake",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "chipotle_fish_n_chips_step_4",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "fast_food_french_fries",
+        "amount": {
+          "qty": 1,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "chipotle_fish_n_chips",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 176.66666666666666,
+    "medium": "oven_air"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Drain fish pieces on a cooling rack suspended above a baking pan. If inside is undercooked, finish in a 350°F oven.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.45"
+    },
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'1 recipe French fries, instead of black pepper use chipotle powder': 'recipe' read as pieces"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

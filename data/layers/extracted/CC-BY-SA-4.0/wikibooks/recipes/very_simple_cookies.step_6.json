@@ -1,0 +1,48 @@
+{
+  "id": "very_simple_cookies.step_6",
+  "source": "wikibooks_very_simple_cookies",
+  "sourceRef": {
+    "source": "wikibooks_very_simple_cookies",
+    "step": 6
+  },
+  "technique": "bake",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "very_simple_cookies_step_5",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "very_simple_cookies",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 200,
+    "medium": "oven_air"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 10,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Put the cookies in the oven. Bake until the cookies are a golden colour and are hard (probably 8–12 minutes, depending on size), and then take them out.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of bake's typical range"
+    }
+  ]
+}

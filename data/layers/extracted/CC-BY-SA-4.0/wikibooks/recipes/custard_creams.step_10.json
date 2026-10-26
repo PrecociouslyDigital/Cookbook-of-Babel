@@ -1,0 +1,53 @@
+{
+  "id": "custard_creams.step_10",
+  "source": "wikibooks_custard_creams",
+  "sourceRef": {
+    "source": "wikibooks_custard_creams",
+    "step": 10
+  },
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "custard_creams_step_9",
+        "amount": {
+          "qty": 465.2,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "custard_creams_step_10",
+      "amount": {
+        "qty": 465.2,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Cut out into 24 circles with a cookie cutter.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.59"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "id": "simple_chocolate_fudge.step_2",
+  "source": "wikibooks_simple_chocolate_fudge",
+  "sourceRef": {
+    "source": "wikibooks_simple_chocolate_fudge",
+    "step": 2
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "simple_chocolate_fudge_step_1",
+        "amount": {
+          "qty": 510.3,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "condensed_milk",
+        "amount": {
+          "qty": 14,
+          "unit": "oz"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "simple_chocolate_fudge_step_2",
+      "amount": {
+        "qty": 907.2,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 90,
+    "medium": "simmering_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Add the sweetened condensed milk. Stir until mixed.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.48"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 90.0 °C for simmering_water"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

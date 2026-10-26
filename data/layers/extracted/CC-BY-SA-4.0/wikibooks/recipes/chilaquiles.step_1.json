@@ -1,0 +1,58 @@
+{
+  "id": "chilaquiles.step_1",
+  "source": "wikibooks_chilaquiles",
+  "sourceRef": {
+    "source": "wikibooks_chilaquiles",
+    "step": 1
+  },
+  "technique": "roast",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "tomatillo",
+        "amount": {
+          "qty": 1,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "chilaquiles_step_1",
+      "amount": {
+        "qty": 236.6,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 195,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Roast the tomatillos by wrapping them in heavy duty aluminum foil and placing them on a comal (cast iron skillet) over your stovetop (this does not need to be done in the oven; it never is in Mexico).",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for tomatillo"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of roast's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

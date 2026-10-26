@@ -1,0 +1,60 @@
+{
+  "id": "ayran_turkish_yogurt_drink.step_1",
+  "source": "wikibooks_ayran_turkish_yogurt_drink",
+  "sourceRef": {
+    "source": "wikibooks_ayran_turkish_yogurt_drink",
+    "step": 1
+  },
+  "technique": "blend",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "yogurt",
+        "amount": {
+          "qty": 1.3333333333333333,
+          "unit": "cup"
+        }
+      },
+      {
+        "ingredient": "water",
+        "amount": {
+          "qty": 1.6666666666666665,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "ayran_turkish_yogurt_drink_step_1",
+      "amount": {
+        "qty": 709.8,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Pour yoghurt into a bowl and beat until smooth. Add water and continue beating until thoroughly blended. Alternatively, combine in an electric blender and blend until smooth.",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for yogurt"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

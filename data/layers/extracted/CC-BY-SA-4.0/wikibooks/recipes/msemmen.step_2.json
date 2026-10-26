@@ -1,0 +1,55 @@
+{
+  "id": "msemmen.step_2",
+  "source": "wikibooks_msemmen",
+  "sourceRef": {
+    "source": "wikibooks_msemmen",
+    "step": 2
+  },
+  "technique": "knead",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "msemmen_step_1",
+        "amount": {
+          "qty": 502.4,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "water",
+        "amount": {
+          "qty": 1.25,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "msemmen_step_2",
+      "amount": {
+        "qty": 798.2,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Gradually add warm water and knead until a smooth dough forms.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

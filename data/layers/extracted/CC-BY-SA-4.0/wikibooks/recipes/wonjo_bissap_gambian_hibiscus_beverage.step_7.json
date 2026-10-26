@@ -1,0 +1,83 @@
+{
+  "id": "wonjo_bissap_gambian_hibiscus_beverage.step_7",
+  "source": "wikibooks_wonjo_bissap_gambian_hibiscus_beverage",
+  "sourceRef": {
+    "source": "wikibooks_wonjo_bissap_gambian_hibiscus_beverage",
+    "step": 7
+  },
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "wonjo_bissap_gambian_hibiscus_beverage_step_6",
+        "amount": {
+          "qty": 2567.1,
+          "unit": "g"
+        }
+      },
+      {
+        "min": 0,
+        "max": 1,
+        "of": [
+          {
+            "ingredient": "juice_of_fresh_lemons",
+            "amount": {
+              "qty": 1,
+              "unit": "pinch"
+            }
+          }
+        ]
+      },
+      {
+        "ingredient": "ice_cubes",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "wonjo_bissap_gambian_hibiscus_beverage",
+      "amount": {
+        "qty": 2567.7,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Once chilled, you can add the freshly squeezed lemon juice for an extra tangy flavor, if desired.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Juice of 1–2 fresh lemons (optional, for added tanginess)': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Ice cubes (for serving)': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for juice_of_fresh_lemons, ice_cubes"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

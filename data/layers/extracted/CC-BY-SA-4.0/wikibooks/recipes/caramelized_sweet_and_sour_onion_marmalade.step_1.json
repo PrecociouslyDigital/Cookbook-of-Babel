@@ -1,0 +1,70 @@
+{
+  "id": "caramelized_sweet_and_sour_onion_marmalade.step_1",
+  "source": "wikibooks_caramelized_sweet_and_sour_onion_marmalade",
+  "sourceRef": {
+    "source": "wikibooks_caramelized_sweet_and_sour_onion_marmalade",
+    "step": 1
+  },
+  "technique": "pan_fry",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "olive_oil",
+        "amount": {
+          "qty": 4,
+          "unit": "tbsp"
+        }
+      },
+      {
+        "ingredient": "onion",
+        "amount": {
+          "qty": 4,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "caramelized_sweet_and_sour_onion_marmalade_step_1",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 185,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 15,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Heat oil in a large frying pan over medium heat. Add onions, and sauté, stirring, for about 15 minutes, or until they begin to brown. Do not cook over high heat, as the outside of the onions will char too quickly before the insides have softened and sweetened.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.49"
+    },
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.59"
+    },
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'4 large yellow or white onions, sliced into thin strips': 'or' read as pieces"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of pan_fry's typical range"
+    }
+  ]
+}

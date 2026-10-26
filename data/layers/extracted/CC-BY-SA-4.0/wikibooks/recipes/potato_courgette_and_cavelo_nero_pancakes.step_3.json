@@ -1,0 +1,60 @@
+{
+  "id": "potato_courgette_and_cavelo_nero_pancakes.step_3",
+  "source": "wikibooks_potato_courgette_and_cavelo_nero_pancakes",
+  "sourceRef": {
+    "source": "wikibooks_potato_courgette_and_cavelo_nero_pancakes",
+    "step": 3
+  },
+  "technique": "grind",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "potato_courgette_and_cavelo_nero_pancakes_step_2",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "potato",
+        "amount": {
+          "qty": 3,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "potato_courgette_and_cavelo_nero_pancakes_step_3",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Finely grate the potatoes with the fine grating side of a cheese grater. Alternatively, first coarsely shred the potato in the food processor, then use the knife blade sparingly to make it slightly chopped. Remove moisture with a cheesecloth or fine mesh.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.56"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

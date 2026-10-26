@@ -1,0 +1,53 @@
+{
+  "id": "pig_s_trotters_and_ginger_vinegar_stew.step_3",
+  "source": "wikibooks_pig_s_trotters_and_ginger_vinegar_stew",
+  "sourceRef": {
+    "source": "wikibooks_pig_s_trotters_and_ginger_vinegar_stew",
+    "step": 3
+  },
+  "technique": "fry",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "pig_s_trotters_and_ginger_vinegar_stew_step_2",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "pig_s_trotters_and_ginger_vinegar_stew_step_3",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 190,
+    "medium": "frying_oil"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 5,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Fry the ginger at high heat with oil and salt for about 5 minutes. Set aside.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.55"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of fry's typical range"
+    }
+  ]
+}

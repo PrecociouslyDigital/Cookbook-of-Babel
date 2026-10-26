@@ -1,0 +1,55 @@
+{
+  "id": "lumpia_fried_filipino_spring_rolls.step_3",
+  "source": "wikibooks_lumpia_fried_filipino_spring_rolls",
+  "sourceRef": {
+    "source": "wikibooks_lumpia_fried_filipino_spring_rolls",
+    "step": 3
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "lumpia_fried_filipino_spring_rolls_step_1",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "egg_roll",
+        "amount": {
+          "qty": 2,
+          "unit": "package"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "lumpia_fried_filipino_spring_rolls_step_3",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Place about 1 tablespoon of the meat mixture in the center of the wrapper.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

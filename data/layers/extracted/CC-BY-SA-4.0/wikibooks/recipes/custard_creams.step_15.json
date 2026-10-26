@@ -1,0 +1,48 @@
+{
+  "id": "custard_creams.step_15",
+  "source": "wikibooks_custard_creams",
+  "sourceRef": {
+    "source": "wikibooks_custard_creams",
+    "step": 15
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "custard_creams_step_14",
+        "amount": {
+          "qty": 645.2,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "custard_creams",
+      "amount": {
+        "qty": 645.2,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Repeat the biscuit assembly, using remaining biscuits and custard.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

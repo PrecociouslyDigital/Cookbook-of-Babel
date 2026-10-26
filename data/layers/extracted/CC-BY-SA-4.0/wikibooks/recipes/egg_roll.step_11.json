@@ -1,0 +1,70 @@
+{
+  "id": "egg_roll.step_11",
+  "source": "wikibooks_egg_roll",
+  "sourceRef": {
+    "source": "wikibooks_egg_roll",
+    "step": 11
+  },
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "egg_roll_step_10",
+        "amount": {
+          "qty": 2.4,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "soy_sauce",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "egg_roll_step_11",
+      "amount": {
+        "qty": 2.7,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 175,
+    "medium": "frying_oil"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Add soy sauce. For a typical wok full of food, add a tablespoon.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Soy sauce': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for soy_sauce"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 175.0 °C for frying_oil"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

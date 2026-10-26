@@ -1,0 +1,55 @@
+{
+  "id": "homemade_coffee_liqueur.step_3",
+  "source": "wikibooks_homemade_coffee_liqueur",
+  "sourceRef": {
+    "source": "wikibooks_homemade_coffee_liqueur",
+    "step": 3
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "homemade_coffee_liqueur_step_2",
+        "amount": {
+          "qty": 1821.8,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "vanilla",
+        "amount": {
+          "qty": 2,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "homemade_coffee_liqueur_step_3",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "If using vanilla beans, scrape out the seeds and add both the seeds and the pods to the mixture. If using vanilla extract, add and stir it in.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

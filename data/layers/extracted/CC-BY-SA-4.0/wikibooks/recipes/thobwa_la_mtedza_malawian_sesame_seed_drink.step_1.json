@@ -1,0 +1,65 @@
+{
+  "id": "thobwa_la_mtedza_malawian_sesame_seed_drink.step_1",
+  "source": "wikibooks_thobwa_la_mtedza_malawian_sesame_seed_drink",
+  "sourceRef": {
+    "source": "wikibooks_thobwa_la_mtedza_malawian_sesame_seed_drink",
+    "step": 1
+  },
+  "technique": "toast",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "sesame_seed",
+        "amount": {
+          "qty": 1,
+          "unit": "cup"
+        }
+      },
+      {
+        "ingredient": "peanut",
+        "amount": {
+          "qty": 0.25,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "thobwa_la_mtedza_malawian_sesame_seed_drink_step_1",
+      "amount": {
+        "qty": 295.8,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 185,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "In a dry frying pan or skillet, toast the sesame seeds and peanut over medium heat. Stir them continuously to prevent burning until they turn golden brown and release their aroma.",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for sesame_seed, peanut"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of toast's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

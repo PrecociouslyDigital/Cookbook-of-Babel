@@ -1,0 +1,53 @@
+{
+  "id": "spicy_tomato_soup.step_2",
+  "source": "wikibooks_spicy_tomato_soup",
+  "sourceRef": {
+    "source": "wikibooks_spicy_tomato_soup",
+    "step": 2
+  },
+  "technique": "boil",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "spicy_tomato_soup_step_1",
+        "amount": {
+          "qty": 1902.8,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "spicy_tomato_soup_step_2",
+      "amount": {
+        "qty": 1902.8,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 100,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Transfer soup to a saucepan and bring to a boil over high heat.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of boil's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

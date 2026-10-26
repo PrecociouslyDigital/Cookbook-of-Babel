@@ -1,0 +1,58 @@
+{
+  "id": "middle_eastern_lamb_kabobs.step_4",
+  "source": "wikibooks_middle_eastern_lamb_kabobs",
+  "sourceRef": {
+    "source": "wikibooks_middle_eastern_lamb_kabobs",
+    "step": 4
+  },
+  "technique": "grill",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "middle_eastern_lamb_kabobs_step_3",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "middle_eastern_lamb_kabobs",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 250,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 15,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Fire up a charcoal grill for 15 minutes. Add lamb and cook 8 minutes per side for medium rare.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.56"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of grill's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "the step names several durations; used the first"
+    }
+  ]
+}

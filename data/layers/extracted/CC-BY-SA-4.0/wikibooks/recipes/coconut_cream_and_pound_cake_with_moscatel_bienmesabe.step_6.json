@@ -1,0 +1,67 @@
+{
+  "id": "coconut_cream_and_pound_cake_with_moscatel_bienmesabe.step_6",
+  "source": "wikibooks_coconut_cream_and_pound_cake_with_moscatel_bienmesabe",
+  "sourceRef": {
+    "source": "wikibooks_coconut_cream_and_pound_cake_with_moscatel_bienmesabe",
+    "step": 6
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "coconut_cream_and_pound_cake_with_moscatel_bienmesabe_step_5",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "traditional_pound_cake",
+        "amount": {
+          "qty": 3.5,
+          "unit": "lb"
+        }
+      },
+      {
+        "ingredient": "wine",
+        "amount": {
+          "qty": 1,
+          "unit": "bottle"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "coconut_cream_and_pound_cake_with_moscatel_bienmesabe_step_6",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Soak the cake pieces in wine.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.32"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

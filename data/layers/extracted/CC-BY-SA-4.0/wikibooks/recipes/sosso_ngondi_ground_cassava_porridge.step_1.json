@@ -1,0 +1,60 @@
+{
+  "id": "sosso_ngondi_ground_cassava_porridge.step_1",
+  "source": "wikibooks_sosso_ngondi_ground_cassava_porridge",
+  "sourceRef": {
+    "source": "wikibooks_sosso_ngondi_ground_cassava_porridge",
+    "step": 1
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "cassava",
+        "amount": {
+          "qty": 2,
+          "unit": "cup"
+        }
+      },
+      {
+        "ingredient": "water",
+        "amount": {
+          "qty": 4,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "sosso_ngondi_ground_cassava_porridge_step_1",
+      "amount": {
+        "qty": 1419.6,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Place the grated cassava in a large bowl and add water. Use your hands to mix and squeeze the cassava to release the starch. Continue this process until the water becomes cloudy, and the cassava particles settle at the bottom of the bowl.",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for cassava"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

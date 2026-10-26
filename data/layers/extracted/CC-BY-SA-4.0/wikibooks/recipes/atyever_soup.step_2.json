@@ -1,0 +1,74 @@
+{
+  "id": "atyever_soup.step_2",
+  "source": "wikibooks_atyever_soup",
+  "sourceRef": {
+    "source": "wikibooks_atyever_soup",
+    "step": 2
+  },
+  "technique": "simmer",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "atyever_soup_step_1",
+        "amount": {
+          "qty": 946.4,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "palm_oil",
+        "amount": {
+          "qty": 2,
+          "unit": "tbsp"
+        }
+      },
+      {
+        "ingredient": "dryfish",
+        "amount": {
+          "qty": 1,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "chile_tomato_puree",
+        "amount": {
+          "qty": 2,
+          "unit": "tbsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "atyever_soup_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 90,
+    "medium": "simmering_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 4.5,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Stir in the palm oil, catfish, chile pepper and tomatoes. Cook for 4–5 minutes.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.56"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of simmer's typical range"
+    }
+  ]
+}

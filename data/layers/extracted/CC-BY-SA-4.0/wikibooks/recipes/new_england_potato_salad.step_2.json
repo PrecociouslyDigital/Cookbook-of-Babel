@@ -1,0 +1,48 @@
+{
+  "id": "new_england_potato_salad.step_2",
+  "source": "wikibooks_new_england_potato_salad",
+  "sourceRef": {
+    "source": "wikibooks_new_england_potato_salad",
+    "step": 2
+  },
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "new_england_potato_salad_step_1",
+        "amount": {
+          "qty": 1360.8,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "new_england_potato_salad_step_2",
+      "amount": {
+        "qty": 1360.8,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Peel the potatoes by scraping them lightly with a knife and cut them into ½ inch (1.25 cm) cubes.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

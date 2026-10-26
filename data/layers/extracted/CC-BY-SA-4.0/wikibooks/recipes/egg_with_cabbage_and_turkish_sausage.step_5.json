@@ -1,0 +1,53 @@
+{
+  "id": "egg_with_cabbage_and_turkish_sausage.step_5",
+  "source": "wikibooks_egg_with_cabbage_and_turkish_sausage",
+  "sourceRef": {
+    "source": "wikibooks_egg_with_cabbage_and_turkish_sausage",
+    "step": 5
+  },
+  "technique": "steam",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "egg_with_cabbage_and_turkish_sausage_step_4",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "egg_with_cabbage_and_turkish_sausage_step_5",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 100,
+    "medium": "steam"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 7.5,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Cover lid and cook for around 5–10 minutes, depending on how crispy you want the cabbage.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.56"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of steam's typical range"
+    }
+  ]
+}

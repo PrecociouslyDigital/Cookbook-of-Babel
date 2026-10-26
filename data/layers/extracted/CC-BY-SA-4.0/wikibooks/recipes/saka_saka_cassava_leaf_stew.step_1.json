@@ -1,0 +1,48 @@
+{
+  "id": "saka_saka_cassava_leaf_stew.step_1",
+  "source": "wikibooks_saka_saka_cassava_leaf_stew",
+  "sourceRef": {
+    "source": "wikibooks_saka_saka_cassava_leaf_stew",
+    "step": 1
+  },
+  "technique": "rinse",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "cassava",
+        "amount": {
+          "qty": 2,
+          "unit": "lb"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "saka_saka_cassava_leaf_stew_step_1",
+      "amount": {
+        "qty": 907.2,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Wash the cassava leaves thoroughly in a bowl of water to remove any dirt or debris. Drain and set aside.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

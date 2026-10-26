@@ -1,0 +1,79 @@
+{
+  "id": "spaghetti_alla_carbonara.step_5",
+  "source": "wikibooks_spaghetti_alla_carbonara",
+  "sourceRef": {
+    "source": "wikibooks_spaghetti_alla_carbonara",
+    "step": 5
+  },
+  "technique": "whisk",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "spaghetti_alla_carbonara_step_4",
+        "amount": {
+          "qty": 864.7,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "egg",
+        "amount": {
+          "qty": 5,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "pecorino_romano_cheese",
+        "amount": {
+          "qty": 178,
+          "unit": "ml"
+        }
+      },
+      {
+        "ingredient": "parmesan_cheese",
+        "amount": {
+          "qty": 178,
+          "unit": "ml"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "spaghetti_alla_carbonara_step_5",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 100,
+    "medium": "boiling_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "In a bowl, slowly whisk about ½ cup of the pasta water into the egg yolks. Add the grated cheese and mix thoroughly with a fork.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.41"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 100.0 °C for boiling_water"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

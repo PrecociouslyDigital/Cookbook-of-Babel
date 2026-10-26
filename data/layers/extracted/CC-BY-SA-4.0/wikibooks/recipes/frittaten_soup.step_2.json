@@ -1,0 +1,62 @@
+{
+  "id": "frittaten_soup.step_2",
+  "source": "wikibooks_frittaten_soup",
+  "sourceRef": {
+    "source": "wikibooks_frittaten_soup",
+    "step": 2
+  },
+  "technique": "simmer",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "frittaten_soup_step_1",
+        "amount": {
+          "qty": 300,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "water",
+        "amount": {
+          "qty": 2.5,
+          "unit": "l"
+        }
+      },
+      {
+        "ingredient": "beef",
+        "amount": {
+          "qty": 400,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "frittaten_soup_step_2",
+      "amount": {
+        "qty": 3200,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 90,
+    "medium": "simmering_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1.5,
+      "unit": "h"
+    }
+  },
+  "stateNote": "Put the meat and bones in cold water and heat. Simmer for 1½ hours at low temperature. Skim the foam off the top of the soup from time to time and add more water if necessary.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of simmer's typical range"
+    }
+  ]
+}

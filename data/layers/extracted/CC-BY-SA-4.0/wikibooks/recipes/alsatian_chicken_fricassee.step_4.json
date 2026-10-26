@@ -1,0 +1,79 @@
+{
+  "id": "alsatian_chicken_fricassee.step_4",
+  "source": "wikibooks_alsatian_chicken_fricassee",
+  "sourceRef": {
+    "source": "wikibooks_alsatian_chicken_fricassee",
+    "step": 4
+  },
+  "technique": "fry",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "alsatian_chicken_fricassee_step_2",
+        "amount": {
+          "qty": 2000,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "bacon",
+        "amount": {
+          "qty": 125,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "onion",
+        "amount": {
+          "qty": 10,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "olive_oil",
+        "amount": {
+          "qty": 1,
+          "unit": "tsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "alsatian_chicken_fricassee_step_4",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 190,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Render the bacon and add the onions.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.57"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of fry's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

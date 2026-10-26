@@ -1,0 +1,53 @@
+{
+  "id": "okonomiyaki_japanese_savory_pancake.step_4",
+  "source": "wikibooks_okonomiyaki_japanese_savory_pancake",
+  "sourceRef": {
+    "source": "wikibooks_okonomiyaki_japanese_savory_pancake",
+    "step": 4
+  },
+  "technique": "pan_fry",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "okonomiyaki_japanese_savory_pancake_step_2",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "okonomiyaki_japanese_savory_pancake_step_4",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 185,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 2.5,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Add ⅓ cup of batter and flatten slightly. Fry for 2–3 minutes.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.59"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of pan_fry's typical range"
+    }
+  ]
+}

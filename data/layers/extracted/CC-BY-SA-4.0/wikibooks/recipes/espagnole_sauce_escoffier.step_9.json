@@ -1,0 +1,48 @@
+{
+  "id": "espagnole_sauce_escoffier.step_9",
+  "source": "wikibooks_espagnole_sauce_escoffier",
+  "sourceRef": {
+    "source": "wikibooks_espagnole_sauce_escoffier",
+    "step": 9
+  },
+  "technique": "chill",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "espagnole_sauce_escoffier_step_8",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "espagnole_sauce_escoffier",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Refrigerate or freeze if not using immediately.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

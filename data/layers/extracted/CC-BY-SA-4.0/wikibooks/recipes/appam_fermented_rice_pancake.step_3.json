@@ -1,0 +1,60 @@
+{
+  "id": "appam_fermented_rice_pancake.step_3",
+  "source": "wikibooks_appam_fermented_rice_pancake",
+  "sourceRef": {
+    "source": "wikibooks_appam_fermented_rice_pancake",
+    "step": 3
+  },
+  "technique": "grind",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "appam_fermented_rice_pancake_step_2",
+        "amount": {
+          "qty": 355.2,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "coconut",
+        "amount": {
+          "qty": 1.5,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "appam_fermented_rice_pancake_step_3",
+      "amount": {
+        "qty": 710.1,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Add the grated coconut along with a little water and continue grinding.",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for coconut"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

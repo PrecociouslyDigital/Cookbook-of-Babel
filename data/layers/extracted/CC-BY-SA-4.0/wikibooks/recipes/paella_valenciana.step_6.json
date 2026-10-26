@@ -1,0 +1,53 @@
+{
+  "id": "paella_valenciana.step_6",
+  "source": "wikibooks_paella_valenciana",
+  "sourceRef": {
+    "source": "wikibooks_paella_valenciana",
+    "step": 6
+  },
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "paella_valenciana_step_5",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "paella_valenciana_step_6",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 100,
+    "medium": "boiling_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 10,
+      "unit": "min"
+    }
+  },
+  "stateNote": "After 10 minutes have passed, you should have a flavorful broth. It's customary at this point to allow your dinner guests to taste it. The purpose is to determine if the broth needs more salt. If so, add more salt, a pinch at a time, until everybody is satisfied.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.56"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 100.0 °C for boiling_water"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "id": "salmon_with_rice_and_sauce.step_3",
+  "source": "wikibooks_salmon_with_rice_and_sauce",
+  "sourceRef": {
+    "source": "wikibooks_salmon_with_rice_and_sauce",
+    "step": 3
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "salmon_with_rice_and_sauce_step_1",
+        "amount": {
+          "qty": 250,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "rice",
+        "amount": {
+          "qty": 3,
+          "unit": "dl"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "salmon_with_rice_and_sauce_step_3",
+      "amount": {
+        "qty": 550,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Place uncooked rice in stock pot.",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for rice"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

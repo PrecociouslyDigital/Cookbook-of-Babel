@@ -1,0 +1,55 @@
+{
+  "id": "calzone.step_3",
+  "source": "wikibooks_calzone",
+  "sourceRef": {
+    "source": "wikibooks_calzone",
+    "step": 3
+  },
+  "technique": "knead",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "calzone_step_2",
+        "amount": {
+          "qty": 596.5,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "store_bought_pizza_dough",
+        "amount": {
+          "qty": 1,
+          "unit": "package"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "calzone_step_3",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Roll the pizza dough between 2 pieces of waxed paper.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

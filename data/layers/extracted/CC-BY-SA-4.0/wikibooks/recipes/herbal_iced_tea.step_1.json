@@ -1,0 +1,65 @@
+{
+  "id": "herbal_iced_tea.step_1",
+  "source": "wikibooks_herbal_iced_tea",
+  "sourceRef": {
+    "source": "wikibooks_herbal_iced_tea",
+    "step": 1
+  },
+  "technique": "dissolve",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "rosehip_tea",
+        "amount": {
+          "qty": 0.75,
+          "unit": "l"
+        }
+      },
+      {
+        "ingredient": "honey",
+        "amount": {
+          "qty": 3,
+          "unit": "tbsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "herbal_iced_tea_step_1",
+      "amount": {
+        "qty": 794.4,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Sweeten the rosehip tea with the honey and allow to chill.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.51"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for rosehip_tea, honey"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

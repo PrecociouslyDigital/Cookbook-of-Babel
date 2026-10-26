@@ -1,0 +1,48 @@
+{
+  "id": "orange_soda_iii.step_2",
+  "source": "wikibooks_orange_soda_iii",
+  "sourceRef": {
+    "source": "wikibooks_orange_soda_iii",
+    "step": 2
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "orange_soda_iii_step_1",
+        "amount": {
+          "qty": 5.2,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "orange_soda_iii_step_2",
+      "amount": {
+        "qty": 5.2,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Transfer this mixture into a larger container.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

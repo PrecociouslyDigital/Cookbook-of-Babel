@@ -1,0 +1,48 @@
+{
+  "id": "beer_marinated_shrimp.step_4",
+  "source": "wikibooks_beer_marinated_shrimp",
+  "sourceRef": {
+    "source": "wikibooks_beer_marinated_shrimp",
+    "step": 4
+  },
+  "technique": "strain",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "beer_marinated_shrimp_step_3",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "beer_marinated_shrimp_step_4",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Remove shrimp from marinade, and discard marinade.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

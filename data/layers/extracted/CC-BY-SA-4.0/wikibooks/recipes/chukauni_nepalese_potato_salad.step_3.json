@@ -1,0 +1,55 @@
+{
+  "id": "chukauni_nepalese_potato_salad.step_3",
+  "source": "wikibooks_chukauni_nepalese_potato_salad",
+  "sourceRef": {
+    "source": "wikibooks_chukauni_nepalese_potato_salad",
+    "step": 3
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "chukauni_nepalese_potato_salad_step_2",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "yogurt",
+        "amount": {
+          "qty": 200,
+          "unit": "ml"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "chukauni_nepalese_potato_salad_step_3",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Pour the yoghurt over the potatoes.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

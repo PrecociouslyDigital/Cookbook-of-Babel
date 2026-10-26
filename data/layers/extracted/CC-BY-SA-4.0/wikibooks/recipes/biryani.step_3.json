@@ -1,0 +1,62 @@
+{
+  "id": "biryani.step_3",
+  "source": "wikibooks_biryani",
+  "sourceRef": {
+    "source": "wikibooks_biryani",
+    "step": 3
+  },
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "biryani_step_2",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "chicken",
+        "amount": {
+          "qty": 1.5,
+          "unit": "kg"
+        }
+      },
+      {
+        "ingredient": "ginger",
+        "amount": {
+          "qty": 0.5,
+          "unit": "tsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "biryani_step_3",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Wash the chicken pieces, and place in large bowl. Rub the saffron, ginger, and garlic over the meat pieces by tossing it around with a spoon.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

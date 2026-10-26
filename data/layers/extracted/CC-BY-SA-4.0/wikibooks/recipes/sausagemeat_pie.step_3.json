@@ -1,0 +1,48 @@
+{
+  "id": "sausagemeat_pie.step_3",
+  "source": "wikibooks_sausagemeat_pie",
+  "sourceRef": {
+    "source": "wikibooks_sausagemeat_pie",
+    "step": 3
+  },
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "sausagemeat_pie_step_2",
+        "amount": {
+          "qty": 341.2,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "sausagemeat_pie_step_3",
+      "amount": {
+        "qty": 341.2,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Cut the pastry into two portions one slightly larger than the other.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

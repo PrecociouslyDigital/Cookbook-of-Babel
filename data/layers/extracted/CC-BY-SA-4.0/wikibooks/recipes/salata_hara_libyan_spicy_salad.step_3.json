@@ -1,0 +1,48 @@
+{
+  "id": "salata_hara_libyan_spicy_salad.step_3",
+  "source": "wikibooks_salata_hara_libyan_spicy_salad",
+  "sourceRef": {
+    "source": "wikibooks_salata_hara_libyan_spicy_salad",
+    "step": 3
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "salata_hara_libyan_spicy_salad_step_2",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "salata_hara_libyan_spicy_salad_step_3",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Pour the dressing over the vegetables and toss well to coat all the ingredients.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

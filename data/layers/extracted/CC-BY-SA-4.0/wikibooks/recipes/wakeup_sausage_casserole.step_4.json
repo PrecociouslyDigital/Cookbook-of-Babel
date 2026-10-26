@@ -1,0 +1,90 @@
+{
+  "id": "wakeup_sausage_casserole.step_4",
+  "source": "wikibooks_wakeup_sausage_casserole",
+  "sourceRef": {
+    "source": "wikibooks_wakeup_sausage_casserole",
+    "step": 4
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "wakeup_sausage_casserole_step_3",
+        "amount": {
+          "qty": 1892.8,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "egg",
+        "amount": {
+          "qty": 8,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "garlic_powder",
+        "amount": {
+          "qty": 0.25,
+          "unit": "tsp"
+        }
+      },
+      {
+        "ingredient": "green_onion",
+        "amount": {
+          "qty": 2,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "condensed_milk",
+        "amount": {
+          "qty": 24,
+          "unit": "oz"
+        }
+      },
+      {
+        "ingredient": "onion_powder",
+        "amount": {
+          "qty": 0.5,
+          "unit": "tsp"
+        }
+      },
+      {
+        "ingredient": "mustard",
+        "amount": {
+          "qty": 1,
+          "unit": "tsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "wakeup_sausage_casserole_step_4",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Combine eggs, garlic powder, green onion tops, evaporated milk, onion powder, and mustard.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

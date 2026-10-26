@@ -1,0 +1,79 @@
+{
+  "id": "denver_crunch.step_4",
+  "source": "wikibooks_denver_crunch",
+  "sourceRef": {
+    "source": "wikibooks_denver_crunch",
+    "step": 4
+  },
+  "technique": "whisk",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "denver_crunch_step_3",
+        "amount": {
+          "qty": 1197.2,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "cream_cheese",
+        "amount": {
+          "qty": 11,
+          "unit": "oz"
+        }
+      },
+      {
+        "ingredient": "white_sugar",
+        "amount": {
+          "qty": 1,
+          "unit": "cup"
+        }
+      },
+      {
+        "ingredient": "vanilla",
+        "amount": {
+          "qty": 1,
+          "unit": "tsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "denver_crunch_step_4",
+      "amount": {
+        "qty": 1715.1,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Beat cream cheese, sugar, and vanilla until fluffy.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.43"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for vanilla"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

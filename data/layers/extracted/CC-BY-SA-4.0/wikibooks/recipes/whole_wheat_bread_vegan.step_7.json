@@ -1,0 +1,53 @@
+{
+  "id": "whole_wheat_bread_vegan.step_7",
+  "source": "wikibooks_whole_wheat_bread_vegan",
+  "sourceRef": {
+    "source": "wikibooks_whole_wheat_bread_vegan",
+    "step": 7
+  },
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "whole_wheat_bread_vegan_step_6",
+        "amount": {
+          "qty": 2025.7,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "whole_wheat_bread_vegan_step_7",
+      "amount": {
+        "qty": 2025.7,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Brush tops of loaves with melted margarine (keeps them from drying out) and dust with cinnamon, uncooked oatmeal, or white flour (aesthetics).",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.57"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

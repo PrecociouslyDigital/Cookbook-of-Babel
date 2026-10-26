@@ -1,0 +1,58 @@
+{
+  "id": "crispy_salmon.step_4",
+  "source": "wikibooks_crispy_salmon",
+  "sourceRef": {
+    "source": "wikibooks_crispy_salmon",
+    "step": 4
+  },
+  "technique": "grill",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "crispy_salmon_step_3",
+        "amount": {
+          "qty": 1075.5,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "crispy_salmon",
+      "amount": {
+        "qty": 1075.5,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 250,
+    "medium": "oven_air"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Remove from oven, and heat up the broiler. Place salmon under broiler and cook until deeply browned.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.47"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of grill's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

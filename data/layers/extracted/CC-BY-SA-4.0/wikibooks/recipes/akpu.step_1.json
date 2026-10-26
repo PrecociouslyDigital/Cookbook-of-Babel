@@ -1,0 +1,48 @@
+{
+  "id": "akpu.step_1",
+  "source": "wikibooks_akpu",
+  "sourceRef": {
+    "source": "wikibooks_akpu",
+    "step": 1
+  },
+  "technique": "rinse",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "cassava_tubers",
+        "amount": {
+          "qty": 5,
+          "unit": "kg"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "akpu_step_1",
+      "amount": {
+        "qty": 5000,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Peel the cassava tubers and wash thoroughly.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

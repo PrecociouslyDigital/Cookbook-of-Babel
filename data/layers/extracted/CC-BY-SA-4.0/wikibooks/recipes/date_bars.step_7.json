@@ -1,0 +1,48 @@
+{
+  "id": "date_bars.step_7",
+  "source": "wikibooks_date_bars",
+  "sourceRef": {
+    "source": "wikibooks_date_bars",
+    "step": 7
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "date_bars_step_6",
+        "amount": {
+          "qty": 1855.5,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "date_bars_step_7",
+      "amount": {
+        "qty": 1855.5,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Spread the date filling on top.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

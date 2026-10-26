@@ -1,0 +1,100 @@
+{
+  "id": "windsor_pudding.step_2",
+  "source": "wikibooks_windsor_pudding",
+  "sourceRef": {
+    "source": "wikibooks_windsor_pudding",
+    "step": 2
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "windsor_pudding_step_1",
+        "amount": {
+          "qty": 227.7,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "apple",
+        "amount": {
+          "qty": 0.5,
+          "unit": "lb"
+        }
+      },
+      {
+        "ingredient": "currant",
+        "amount": {
+          "qty": 0.5,
+          "unit": "lb"
+        }
+      },
+      {
+        "ingredient": "raisin",
+        "amount": {
+          "qty": 0.5,
+          "unit": "lb"
+        }
+      },
+      {
+        "ingredient": "wine",
+        "amount": {
+          "qty": 1,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "egg",
+        "amount": {
+          "qty": 5,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "salt",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "windsor_pudding_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Mix in half a pound of apples, currants, raisins, stoned and chopped, wine, eggs, and a pinch of salt.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'1 glass rich, sweet wine': 'glass' read as pieces"
+    },
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Salt': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "id": "brown_butter_biscuits.step_4",
+  "source": "wikibooks_brown_butter_biscuits",
+  "sourceRef": {
+    "source": "wikibooks_brown_butter_biscuits",
+    "step": 4
+  },
+  "technique": "dissolve",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "brown_butter_biscuits_step_3",
+        "amount": {
+          "qty": 125,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "white_sugar",
+        "amount": {
+          "qty": 110,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "brown_butter_biscuits_step_4",
+      "amount": {
+        "qty": 235,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Whisk in the sugar until dissolved.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.52"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

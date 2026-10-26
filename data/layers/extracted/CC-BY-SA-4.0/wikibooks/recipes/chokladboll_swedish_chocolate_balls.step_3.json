@@ -1,0 +1,60 @@
+{
+  "id": "chokladboll_swedish_chocolate_balls.step_3",
+  "source": "wikibooks_chokladboll_swedish_chocolate_balls",
+  "sourceRef": {
+    "source": "wikibooks_chokladboll_swedish_chocolate_balls",
+    "step": 3
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "chokladboll_swedish_chocolate_balls_step_2",
+        "amount": {
+          "qty": 1024.8,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "coffee",
+        "amount": {
+          "qty": 6,
+          "unit": "tbsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "chokladboll_swedish_chocolate_balls_step_3",
+      "amount": {
+        "qty": 1113.5,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Add the coffee and mix until incorporated.",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for coffee"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "id": "polish_doughnuts_paczki.step_8",
+  "source": "wikibooks_polish_doughnuts_paczki",
+  "sourceRef": {
+    "source": "wikibooks_polish_doughnuts_paczki",
+    "step": 8
+  },
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "polish_doughnuts_paczki_step_7",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "min": 0,
+        "max": 1,
+        "of": [
+          {
+            "ingredient": "white_sugar",
+            "amount": {
+              "qty": 1,
+              "unit": "pinch"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "polish_doughnuts_paczki",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Sprinkle some powdered sugar on top, to taste. If the pączki are still warm, the powdered sugar may melt a bit.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Powdered sugar, for dusting (optional)': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

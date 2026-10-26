@@ -1,0 +1,67 @@
+{
+  "id": "imitation_caramel_sauce_vegan.step_1",
+  "source": "wikibooks_imitation_caramel_sauce_vegan",
+  "sourceRef": {
+    "source": "wikibooks_imitation_caramel_sauce_vegan",
+    "step": 1
+  },
+  "technique": "whisk",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "vegan_cuisine",
+        "amount": {
+          "qty": 0.75,
+          "unit": "cup"
+        }
+      },
+      {
+        "ingredient": "white_sugar",
+        "amount": {
+          "qty": 0.75,
+          "unit": "cup"
+        }
+      },
+      {
+        "ingredient": "maple_syrup_and_sugar",
+        "amount": {
+          "qty": 0.3333333333333333,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "imitation_caramel_sauce_vegan_step_1",
+      "amount": {
+        "qty": 407.1,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "In a small saucepan, combine the soy milk, turbinado sugar, and maple syrup. Whisk well to combine.",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for vegan_cuisine, maple_syrup_and_sugar"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

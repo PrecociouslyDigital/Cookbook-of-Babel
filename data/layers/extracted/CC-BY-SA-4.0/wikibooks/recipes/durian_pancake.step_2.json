@@ -1,0 +1,83 @@
+{
+  "id": "durian_pancake.step_2",
+  "source": "wikibooks_durian_pancake",
+  "sourceRef": {
+    "source": "wikibooks_durian_pancake",
+    "step": 2
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "durian_pancake_step_1",
+        "amount": {
+          "qty": 252.2,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "banana",
+        "amount": {
+          "qty": 2,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "durian",
+        "amount": {
+          "qty": 50,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "white_sugar",
+        "amount": {
+          "qty": 170,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "egg",
+        "amount": {
+          "qty": 1,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "coconut",
+        "amount": {
+          "qty": 250,
+          "unit": "ml"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "durian_pancake_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "In a separate bowl, mash the bananas and durian together. Add palm sugar, egg, and coconut cream, and mix thoroughly.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

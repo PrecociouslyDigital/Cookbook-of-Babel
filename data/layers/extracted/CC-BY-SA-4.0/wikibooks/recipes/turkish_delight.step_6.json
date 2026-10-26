@@ -1,0 +1,53 @@
+{
+  "id": "turkish_delight.step_6",
+  "source": "wikibooks_turkish_delight",
+  "sourceRef": {
+    "source": "wikibooks_turkish_delight",
+    "step": 6
+  },
+  "technique": "cool",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "turkish_delight_step_4",
+        "amount": {
+          "qty": 854.3,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "turkish_delight_step_6",
+      "amount": {
+        "qty": 854.3,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Pour the thickened hot mixture into the pan or form and allow to set.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.43"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

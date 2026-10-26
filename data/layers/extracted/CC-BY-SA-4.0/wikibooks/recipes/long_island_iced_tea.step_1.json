@@ -1,0 +1,89 @@
+{
+  "id": "long_island_iced_tea.step_1",
+  "source": "wikibooks_long_island_iced_tea",
+  "sourceRef": {
+    "source": "wikibooks_long_island_iced_tea",
+    "step": 1
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "vodka",
+        "amount": {
+          "qty": 0.25,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "rum",
+        "amount": {
+          "qty": 0.25,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "gin",
+        "amount": {
+          "qty": 0.25,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "lemon",
+        "amount": {
+          "qty": 1,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "long_island_iced_tea_step_1",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Shake all the ingredients except the cola with ice in a cocktail shaker.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'¼ part vodka': 'part' read as pieces"
+    },
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'¼ part white rum': 'part' read as pieces"
+    },
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'¼ part gin': 'part' read as pieces"
+    },
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'1 part sweet and sour mix OR lemon/lime juice to taste': 'part' read as pieces"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

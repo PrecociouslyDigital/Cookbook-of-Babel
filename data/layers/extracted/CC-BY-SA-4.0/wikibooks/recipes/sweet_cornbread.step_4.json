@@ -1,0 +1,55 @@
+{
+  "id": "sweet_cornbread.step_4",
+  "source": "wikibooks_sweet_cornbread",
+  "sourceRef": {
+    "source": "wikibooks_sweet_cornbread",
+    "step": 4
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "sweet_cornbread_step_3",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "wheat_flour",
+        "amount": {
+          "qty": 275,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "sweet_cornbread_step_4",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Slowly add the flour as needed to reach a proper cake batter texture. This should be softer than a cookie dough, able to stick to the mixing spoon and come off in blobs. You may not need all of the flour, or may even need a little more based on your eggs and how closely you measured.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "apple_bars.step_12",
+  "source": "wikibooks_apple_bars",
+  "sourceRef": {
+    "source": "wikibooks_apple_bars",
+    "step": 12
+  },
+  "technique": "cool",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "apple_bars_step_11",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "apple_bars",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "After allowing it to cool, you can lift the slice out of the baking pan by the corners of the parchment paper and put it on a plate for easy slicing.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

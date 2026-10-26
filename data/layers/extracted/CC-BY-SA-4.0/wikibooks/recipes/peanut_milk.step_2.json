@@ -1,0 +1,48 @@
+{
+  "id": "peanut_milk.step_2",
+  "source": "wikibooks_peanut_milk",
+  "sourceRef": {
+    "source": "wikibooks_peanut_milk",
+    "step": 2
+  },
+  "technique": "blend",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "peanut_milk_step_1",
+        "amount": {
+          "qty": 100,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "water",
+        "amount": {
+          "qty": 10,
+          "unit": "l"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "peanut_milk_step_2",
+      "amount": {
+        "qty": 10100,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1.5,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Place peanuts in blender with half of the water, and blend on high speed for about 1–2 minutes."
+}

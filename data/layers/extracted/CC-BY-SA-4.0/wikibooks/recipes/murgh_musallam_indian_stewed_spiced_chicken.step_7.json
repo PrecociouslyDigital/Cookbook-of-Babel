@@ -1,0 +1,65 @@
+{
+  "id": "murgh_musallam_indian_stewed_spiced_chicken.step_7",
+  "source": "wikibooks_murgh_musallam_indian_stewed_spiced_chicken",
+  "sourceRef": {
+    "source": "wikibooks_murgh_musallam_indian_stewed_spiced_chicken",
+    "step": 7
+  },
+  "technique": "grind",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "murgh_musallam_indian_stewed_spiced_chicken_step_6",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "onion",
+        "amount": {
+          "qty": 2,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "murgh_musallam_indian_stewed_spiced_chicken_step_7",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 175,
+    "medium": "frying_oil"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Heat 2–3 tsp oil in a pan or wok. Add chopped onion, and sauté until golden brown. Allow to cool, then grind into a paste, trying not to add water.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.54"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 175.0 °C for frying_oil"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

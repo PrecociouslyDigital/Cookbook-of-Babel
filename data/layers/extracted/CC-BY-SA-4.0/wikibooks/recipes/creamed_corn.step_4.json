@@ -1,0 +1,79 @@
+{
+  "id": "creamed_corn.step_4",
+  "source": "wikibooks_creamed_corn",
+  "sourceRef": {
+    "source": "wikibooks_creamed_corn",
+    "step": 4
+  },
+  "technique": "heat",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "creamed_corn_step_3",
+        "amount": {
+          "qty": 432.3,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "bell_pepper",
+        "amount": {
+          "qty": 0.5,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "butter",
+        "amount": {
+          "qty": 30,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "cream",
+        "amount": {
+          "qty": 0.25,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "creamed_corn_step_4",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 180,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Add the diced bell pepper, butter, and cream, then heat over medium heat, stirring occasionally. You can add more cream or milk if it's not creamy enough.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.49"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 180.0 °C for pan_contact"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

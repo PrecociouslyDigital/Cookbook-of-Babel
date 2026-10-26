@@ -1,0 +1,67 @@
+{
+  "id": "meat_and_shrimp_potstickers.step_4",
+  "source": "wikibooks_meat_and_shrimp_potstickers",
+  "sourceRef": {
+    "source": "wikibooks_meat_and_shrimp_potstickers",
+    "step": 4
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "meat_and_shrimp_potstickers_step_1",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "store_bought_gyoza_wonton_wrappers",
+        "amount": {
+          "qty": 1,
+          "unit": "package"
+        }
+      },
+      {
+        "ingredient": "starch",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "meat_and_shrimp_potstickers_step_4",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Dip your finger in the water and moisten the edges of the wrapper.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Cornstarch': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

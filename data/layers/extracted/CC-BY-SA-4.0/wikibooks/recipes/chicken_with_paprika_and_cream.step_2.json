@@ -1,0 +1,48 @@
+{
+  "id": "chicken_with_paprika_and_cream.step_2",
+  "source": "wikibooks_chicken_with_paprika_and_cream",
+  "sourceRef": {
+    "source": "wikibooks_chicken_with_paprika_and_cream",
+    "step": 2
+  },
+  "technique": "bake",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "chicken_with_paprika_and_cream_step_1",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "chicken_with_paprika_and_cream",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 205,
+    "medium": "oven_air"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Bake at 400°F (205°C) until internal temperature of the chicken breasts reaches 165°F (74°C).",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

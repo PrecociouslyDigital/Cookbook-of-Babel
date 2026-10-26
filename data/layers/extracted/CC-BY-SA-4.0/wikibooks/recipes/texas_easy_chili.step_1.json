@@ -1,0 +1,48 @@
+{
+  "id": "texas_easy_chili.step_1",
+  "source": "wikibooks_texas_easy_chili",
+  "sourceRef": {
+    "source": "wikibooks_texas_easy_chili",
+    "step": 1
+  },
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "chuck_roast",
+        "amount": {
+          "qty": 3,
+          "unit": "lb"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "texas_easy_chili_step_1",
+      "amount": {
+        "qty": 1360.8,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Cut chuck roast into bite-size pieces or form ground beef into small meatballs (1 inch / 25 mm in size).",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "id": "macaroni_and_cheese_microwaved.step_4",
+  "source": "wikibooks_macaroni_and_cheese_microwaved",
+  "sourceRef": {
+    "source": "wikibooks_macaroni_and_cheese_microwaved",
+    "step": 4
+  },
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "macaroni_and_cheese_microwaved_step_3",
+        "amount": {
+          "qty": 123.5,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "chive",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "macaroni_and_cheese_microwaved",
+      "amount": {
+        "qty": 123.8,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Add chives for garnish",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.56"
+    },
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Chives, chopped': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for chive"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

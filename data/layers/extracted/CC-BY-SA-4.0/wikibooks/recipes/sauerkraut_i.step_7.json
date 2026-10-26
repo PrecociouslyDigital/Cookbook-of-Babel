@@ -1,0 +1,53 @@
+{
+  "id": "sauerkraut_i.step_7",
+  "source": "wikibooks_sauerkraut_i",
+  "sourceRef": {
+    "source": "wikibooks_sauerkraut_i",
+    "step": 7
+  },
+  "technique": "ferment",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "sauerkraut_i_step_6",
+        "amount": {
+          "qty": 2544.4,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "sauerkraut_i_step_7",
+      "amount": {
+        "qty": 2544.4,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Juice should rise to top of jar as you tightly pack the cabbage in; if not, add a little chlorine-free water.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.42"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "id": "greek_salad.step_3",
+  "source": "wikibooks_greek_salad",
+  "sourceRef": {
+    "source": "wikibooks_greek_salad",
+    "step": 3
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "greek_salad_step_2",
+        "amount": {
+          "qty": 2.6,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "feta_cheese",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "greek_salad_step_3",
+      "amount": {
+        "qty": 2.9,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Place a feta cheese slice on top and season with a splash of olive oil.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.56"
+    },
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Feta cheese': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for feta_cheese"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

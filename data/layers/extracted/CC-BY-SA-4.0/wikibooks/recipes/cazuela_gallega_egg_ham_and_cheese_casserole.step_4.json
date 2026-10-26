@@ -1,0 +1,55 @@
+{
+  "id": "cazuela_gallega_egg_ham_and_cheese_casserole.step_4",
+  "source": "wikibooks_cazuela_gallega_egg_ham_and_cheese_casserole",
+  "sourceRef": {
+    "source": "wikibooks_cazuela_gallega_egg_ham_and_cheese_casserole",
+    "step": 4
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "cazuela_gallega_egg_ham_and_cheese_casserole_step_3",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "egg",
+        "amount": {
+          "qty": 2,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "cazuela_gallega_egg_ham_and_cheese_casserole_step_4",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Add both eggs to the bowl.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

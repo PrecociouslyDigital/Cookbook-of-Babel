@@ -1,0 +1,55 @@
+{
+  "id": "venison_italian_style.step_2",
+  "source": "wikibooks_venison_italian_style",
+  "sourceRef": {
+    "source": "wikibooks_venison_italian_style",
+    "step": 2
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "venison_italian_style_step_1",
+        "amount": {
+          "qty": 567,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "milk",
+        "amount": {
+          "qty": 2,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "venison_italian_style_step_2",
+      "amount": {
+        "qty": 1054.4,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Combine with 1 cup of milk in shallow dish.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

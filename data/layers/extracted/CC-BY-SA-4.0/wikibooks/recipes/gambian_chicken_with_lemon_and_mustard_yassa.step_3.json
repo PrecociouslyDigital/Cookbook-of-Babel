@@ -1,0 +1,48 @@
+{
+  "id": "gambian_chicken_with_lemon_and_mustard_yassa.step_3",
+  "source": "wikibooks_gambian_chicken_with_lemon_and_mustard_yassa",
+  "sourceRef": {
+    "source": "wikibooks_gambian_chicken_with_lemon_and_mustard_yassa",
+    "step": 3
+  },
+  "technique": "separate",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "gambian_chicken_with_lemon_and_mustard_yassa_step_2",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "gambian_chicken_with_lemon_and_mustard_yassa_step_3",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Remove the chicken or fish from the marinade, reserving the marinade for later use.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

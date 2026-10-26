@@ -1,0 +1,53 @@
+{
+  "id": "inarizushi_stuffed_sushi.step_10",
+  "source": "wikibooks_inarizushi_stuffed_sushi",
+  "sourceRef": {
+    "source": "wikibooks_inarizushi_stuffed_sushi",
+    "step": 10
+  },
+  "technique": "cool",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "inarizushi_stuffed_sushi_step_9",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "inarizushi_stuffed_sushi_step_10",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Remove the omelet from the pan, and allow it to cool. You can store these omelets in the refrigerator for a few days.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.58"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

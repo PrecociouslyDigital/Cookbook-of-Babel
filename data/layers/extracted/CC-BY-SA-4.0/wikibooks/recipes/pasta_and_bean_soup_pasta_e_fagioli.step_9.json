@@ -1,0 +1,65 @@
+{
+  "id": "pasta_and_bean_soup_pasta_e_fagioli.step_9",
+  "source": "wikibooks_pasta_and_bean_soup_pasta_e_fagioli",
+  "sourceRef": {
+    "source": "wikibooks_pasta_and_bean_soup_pasta_e_fagioli",
+    "step": 9
+  },
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "pasta_and_bean_soup_pasta_e_fagioli_step_8",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "parsley",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "pasta_and_bean_soup_pasta_e_fagioli",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Garnish with red pepper to taste and parsley.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.44"
+    },
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Fresh parsley': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

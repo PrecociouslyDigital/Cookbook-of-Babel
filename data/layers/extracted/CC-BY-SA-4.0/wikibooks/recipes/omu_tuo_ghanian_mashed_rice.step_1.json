@@ -1,0 +1,53 @@
+{
+  "id": "omu_tuo_ghanian_mashed_rice.step_1",
+  "source": "wikibooks_omu_tuo_ghanian_mashed_rice",
+  "sourceRef": {
+    "source": "wikibooks_omu_tuo_ghanian_mashed_rice",
+    "step": 1
+  },
+  "technique": "rinse",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "rice",
+        "amount": {
+          "qty": 1,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "omu_tuo_ghanian_mashed_rice_step_1",
+      "amount": {
+        "qty": 236.6,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "If desired, rinse the rice well to eliminate excess starch. This step is optional as the starch contributes to the desired stickiness of the rice.",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for rice"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

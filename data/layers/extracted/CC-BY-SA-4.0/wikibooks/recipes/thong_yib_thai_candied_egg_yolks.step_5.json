@@ -1,0 +1,55 @@
+{
+  "id": "thong_yib_thai_candied_egg_yolks.step_5",
+  "source": "wikibooks_thong_yib_thai_candied_egg_yolks",
+  "sourceRef": {
+    "source": "wikibooks_thong_yib_thai_candied_egg_yolks",
+    "step": 5
+  },
+  "technique": "separate",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "thong_yib_thai_candied_egg_yolks_step_4",
+        "amount": {
+          "qty": 2827.4,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "duck",
+        "amount": {
+          "qty": 15,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "thong_yib_thai_candied_egg_yolks_step_5",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Separate the egg yolks from egg white.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

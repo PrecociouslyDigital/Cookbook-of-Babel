@@ -1,0 +1,63 @@
+{
+  "id": "surinamese_chicken_pot_pie_pastei.step_17",
+  "source": "wikibooks_surinamese_chicken_pot_pie_pastei",
+  "sourceRef": {
+    "source": "wikibooks_surinamese_chicken_pot_pie_pastei",
+    "step": 17
+  },
+  "technique": "bake",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "surinamese_chicken_pot_pie_pastei_step_16",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "surinamese_chicken_pot_pie_pastei",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 200,
+    "medium": "oven_air"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "A few minutes before you take it out of the oven, you can lightly brush the top with some whisked egg to make the top shiny and a little crisp.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.57"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of bake's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    },
+    {
+      "field": "inputs",
+      "kind": "missing",
+      "note": "no step uses '1 tbsp piccalilli (mustard can be substituted)' (p=0.68)"
+    }
+  ]
+}

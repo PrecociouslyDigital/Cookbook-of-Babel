@@ -1,0 +1,53 @@
+{
+  "id": "thai_green_curry_with_chicken.step_7",
+  "source": "wikibooks_thai_green_curry_with_chicken",
+  "sourceRef": {
+    "source": "wikibooks_thai_green_curry_with_chicken",
+    "step": 7
+  },
+  "technique": "cool",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "thai_green_curry_with_chicken_step_6",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "thai_green_curry_with_chicken",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Leave the curry to sit for a few minutes so the sauce becomes creamier. You will also taste the true flavours of the curry paste ingredients when it's slightly cooler.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.37"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

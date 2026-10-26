@@ -1,0 +1,48 @@
+{
+  "id": "khachapuri_georgian_cheese_bread.step_7",
+  "source": "wikibooks_khachapuri_georgian_cheese_bread",
+  "sourceRef": {
+    "source": "wikibooks_khachapuri_georgian_cheese_bread",
+    "step": 7
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "khachapuri_georgian_cheese_bread_step_5",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "khachapuri_georgian_cheese_bread_step_7",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "When dough is ready, divide in half. With a rolling pin, flatten dough until it is the size and shape of your cookie sheet. Carefully lay flattened dough on greased cookie sheet.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

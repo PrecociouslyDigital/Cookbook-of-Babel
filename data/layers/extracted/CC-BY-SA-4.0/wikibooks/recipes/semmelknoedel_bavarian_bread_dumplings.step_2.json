@@ -1,0 +1,55 @@
+{
+  "id": "semmelknoedel_bavarian_bread_dumplings.step_2",
+  "source": "wikibooks_semmelknoedel_bavarian_bread_dumplings",
+  "sourceRef": {
+    "source": "wikibooks_semmelknoedel_bavarian_bread_dumplings",
+    "step": 2
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "semmelknoedel_bavarian_bread_dumplings_step_1",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "bread_rolls",
+        "amount": {
+          "qty": 10,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "semmelknoedel_bavarian_bread_dumplings_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Combine the bread cubes and the cooked onions.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

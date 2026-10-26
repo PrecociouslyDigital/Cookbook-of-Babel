@@ -1,0 +1,65 @@
+{
+  "id": "pan_seared_filet_mignon.step_6",
+  "source": "wikibooks_pan_seared_filet_mignon",
+  "sourceRef": {
+    "source": "wikibooks_pan_seared_filet_mignon",
+    "step": 6
+  },
+  "technique": "heat",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "pan_seared_filet_mignon_step_5",
+        "amount": {
+          "qty": 871,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "cognac",
+        "amount": {
+          "qty": 1,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "pan_seared_filet_mignon_step_6",
+      "amount": {
+        "qty": 1107.6,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 180,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 4,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Heat pan over high heat 4 minutes. Turn off the heat and add the cognac. If the pan is hot enough, the alcohol will ignite by itself. If not, carefully light with a long match or firestick. Shake pan until flames die.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.56"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for cognac"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 180.0 °C for pan_contact"
+    }
+  ]
+}

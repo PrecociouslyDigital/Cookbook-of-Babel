@@ -1,0 +1,62 @@
+{
+  "id": "meatloaf_ii.step_3",
+  "source": "wikibooks_meatloaf_ii",
+  "sourceRef": {
+    "source": "wikibooks_meatloaf_ii",
+    "step": 3
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "meatloaf_ii_step_2",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "beef",
+        "amount": {
+          "qty": 2,
+          "unit": "lb"
+        }
+      },
+      {
+        "ingredient": "stuffing",
+        "amount": {
+          "qty": 8,
+          "unit": "oz"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "meatloaf_ii_step_3",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Get a large bowl and mix the ground beef and stuffing together. Make sure to use your hands and combine the mixture well, as this is the most important step.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "id": "traditional_lasagne.step_5",
+  "source": "wikibooks_traditional_lasagne",
+  "sourceRef": {
+    "source": "wikibooks_traditional_lasagne",
+    "step": 5
+  },
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "traditional_lasagne_step_3",
+        "amount": {
+          "qty": 1726.6,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "basil",
+        "amount": {
+          "qty": 12.5,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "oregano",
+        "amount": {
+          "qty": 0.5,
+          "unit": "tsp"
+        }
+      },
+      {
+        "ingredient": "pepper",
+        "amount": {
+          "qty": 0.25,
+          "unit": "tsp"
+        }
+      },
+      {
+        "ingredient": "salt",
+        "amount": {
+          "qty": 1,
+          "unit": "tsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "traditional_lasagne_step_5",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 180,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Mix the basil, oregano, salt, and pepper into the ragu.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.54"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 180.0 °C for pan_contact"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

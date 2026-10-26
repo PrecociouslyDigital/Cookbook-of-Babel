@@ -1,0 +1,53 @@
+{
+  "id": "oat_porridge.step_2",
+  "source": "wikibooks_oat_porridge",
+  "sourceRef": {
+    "source": "wikibooks_oat_porridge",
+    "step": 2
+  },
+  "technique": "simmer",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "oat_porridge_step_1",
+        "amount": {
+          "qty": 222.4,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "oat_porridge_step_2",
+      "amount": {
+        "qty": 222.4,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 90,
+    "medium": "simmering_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Once bubbling, stir and reduce temperature to the lowest possible to maintain simmering. Replace lid and watch carefully to prevent boiling over.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of simmer's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "id": "dud_patti_milk_tea.step_2",
+  "source": "wikibooks_dud_patti_milk_tea",
+  "sourceRef": {
+    "source": "wikibooks_dud_patti_milk_tea",
+    "step": 2
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "dud_patti_milk_tea_step_1",
+        "amount": {
+          "qty": 609.2,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "tea_leaves",
+        "amount": {
+          "qty": 2,
+          "unit": "tsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "dud_patti_milk_tea_step_2",
+      "amount": {
+        "qty": 619.1,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 90,
+    "medium": "simmering_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "When it is nearly boiling, add the tea.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.58"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for tea_leaves"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 90.0 °C for simmering_water"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

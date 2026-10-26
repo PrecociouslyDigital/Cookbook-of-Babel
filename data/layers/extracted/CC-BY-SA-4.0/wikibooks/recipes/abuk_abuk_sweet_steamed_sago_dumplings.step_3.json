@@ -1,0 +1,80 @@
+{
+  "id": "abuk_abuk_sweet_steamed_sago_dumplings.step_3",
+  "source": "wikibooks_abuk_abuk_sweet_steamed_sago_dumplings",
+  "sourceRef": {
+    "source": "wikibooks_abuk_abuk_sweet_steamed_sago_dumplings",
+    "step": 3
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "abuk_abuk_sweet_steamed_sago_dumplings_step_2",
+        "amount": {
+          "qty": 120,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "coconut",
+        "amount": {
+          "qty": 60,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "salt",
+        "amount": {
+          "qty": 0.25,
+          "unit": "tsp"
+        }
+      },
+      {
+        "min": 0,
+        "max": 1,
+        "of": [
+          {
+            "ingredient": "food_coloring",
+            "amount": {
+              "qty": 0.5,
+              "unit": "tsp"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "abuk_abuk_sweet_steamed_sago_dumplings_step_3",
+      "amount": {
+        "qty": 183.9,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Transfer the sago to a bowl, then mix in the coconut, salt, and food coloring.",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for food_coloring"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

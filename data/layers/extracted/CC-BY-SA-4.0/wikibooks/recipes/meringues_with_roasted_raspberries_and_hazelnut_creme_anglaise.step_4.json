@@ -1,0 +1,60 @@
+{
+  "id": "meringues_with_roasted_raspberries_and_hazelnut_creme_anglaise.step_4",
+  "source": "wikibooks_meringues_with_roasted_raspberries_and_hazelnut_creme_anglaise",
+  "sourceRef": {
+    "source": "wikibooks_meringues_with_roasted_raspberries_and_hazelnut_creme_anglaise",
+    "step": 4
+  },
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "meringues_with_roasted_raspberries_and_hazelnut_creme_anglaise_step_3",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "cinnamon",
+        "amount": {
+          "qty": 0.125,
+          "unit": "tsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "meringues_with_roasted_raspberries_and_hazelnut_creme_anglaise_step_4",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Whip in cinnamon.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.36"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

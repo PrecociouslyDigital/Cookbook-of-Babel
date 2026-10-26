@@ -1,0 +1,89 @@
+{
+  "id": "grilled_filet_mignon.step_2",
+  "source": "wikibooks_grilled_filet_mignon",
+  "sourceRef": {
+    "source": "wikibooks_grilled_filet_mignon",
+    "step": 2
+  },
+  "technique": "grill",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "beef",
+        "amount": {
+          "qty": 24,
+          "unit": "oz"
+        }
+      },
+      {
+        "ingredient": "montreal_steak_seasoning",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      },
+      {
+        "ingredient": "olive_oil",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      },
+      {
+        "ingredient": "untreated_mesquite_chips",
+        "amount": {
+          "qty": 0.6666666666666666,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "grilled_filet_mignon_step_2",
+      "amount": {
+        "qty": 838.8,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 250,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 0.5,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Brush steaks with olive oil. Season both sides liberally with seasoning. Place on hottest part of grill and cook ½ minute. Rotate 90 degrees, and cook for another ½ minute. Flip and repeat 1 more time.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Montreal Steak Seasoning': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Olive oil': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for montreal_steak_seasoning, olive_oil, untreated_mesquite_chips"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of grill's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "the step names several durations; used the first"
+    }
+  ]
+}

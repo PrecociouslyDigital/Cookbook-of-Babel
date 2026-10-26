@@ -1,0 +1,55 @@
+{
+  "id": "rye_bread_layer_cake.step_4",
+  "source": "wikibooks_rye_bread_layer_cake",
+  "sourceRef": {
+    "source": "wikibooks_rye_bread_layer_cake",
+    "step": 4
+  },
+  "technique": "whisk",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "rye_bread_layer_cake_step_2",
+        "amount": {
+          "qty": 125,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "egg",
+        "amount": {
+          "qty": 6,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "rye_bread_layer_cake_step_4",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Separate the eggs and whip the egg whites to stiff peaks.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

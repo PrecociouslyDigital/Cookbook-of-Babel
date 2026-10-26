@@ -1,0 +1,79 @@
+{
+  "id": "buttermilk_fried_chicken_with_pan_gravy.step_7",
+  "source": "wikibooks_buttermilk_fried_chicken_with_pan_gravy",
+  "sourceRef": {
+    "source": "wikibooks_buttermilk_fried_chicken_with_pan_gravy",
+    "step": 7
+  },
+  "technique": "pan_fry",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "buttermilk_fried_chicken_with_pan_gravy_step_6",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "onion",
+        "amount": {
+          "qty": 1,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "garlic",
+        "amount": {
+          "qty": 1,
+          "unit": "clove"
+        }
+      },
+      {
+        "ingredient": "wheat_flour",
+        "amount": {
+          "qty": 3.5,
+          "unit": "tbsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "buttermilk_fried_chicken_with_pan_gravy_step_7",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 185,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Pour off the accumulated oil from the pan, reserving 3–4 tablespoons and all the flour and chicken residue. Keeping the pan on medium flame, add the chopped onion and garlic. Sauté for a few minutes. Whisk in 3–4 tablespoons of flour, and keep stirring until the mixture becomes light to medium brown. Do not burn.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.3"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of pan_fry's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

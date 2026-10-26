@@ -1,0 +1,71 @@
+{
+  "id": "dabeli_potato_stuffed_buns_with_chutney.step_8",
+  "source": "wikibooks_dabeli_potato_stuffed_buns_with_chutney",
+  "sourceRef": {
+    "source": "wikibooks_dabeli_potato_stuffed_buns_with_chutney",
+    "step": 8
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "dabeli_potato_stuffed_buns_with_chutney_step_7",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "min": 0,
+        "max": 1,
+        "of": [
+          {
+            "ingredient": "pomegranate",
+            "amount": {
+              "qty": 1,
+              "unit": "handful"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "dabeli_potato_stuffed_buns_with_chutney",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 20,
+    "medium": "still_air"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Press down the bun from both side, and garnish with pomegranate seeds, and roasted peanuts.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.47"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 20.0 °C for still_air"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

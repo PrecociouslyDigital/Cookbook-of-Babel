@@ -1,0 +1,53 @@
+{
+  "id": "microwave_risotto.step_5",
+  "source": "wikibooks_microwave_risotto",
+  "sourceRef": {
+    "source": "wikibooks_microwave_risotto",
+    "step": 5
+  },
+  "technique": "simmer",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "microwave_risotto_step_4",
+        "amount": {
+          "qty": 987.6,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "microwave_risotto_step_5",
+      "amount": {
+        "qty": 987.6,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 90,
+    "medium": "simmering_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 9,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Pour simmering chicken broth into the dish and stir well. Microwave 9 minutes.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.48"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of simmer's typical range"
+    }
+  ]
+}

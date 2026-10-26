@@ -1,0 +1,67 @@
+{
+  "id": "creme_brulee_cheesecake.step_2",
+  "source": "wikibooks_creme_brulee_cheesecake",
+  "sourceRef": {
+    "source": "wikibooks_creme_brulee_cheesecake",
+    "step": 2
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "vanilla_wafer_crumbs",
+        "amount": {
+          "qty": 3,
+          "unit": "cup"
+        }
+      },
+      {
+        "ingredient": "butter",
+        "amount": {
+          "qty": 0.75,
+          "unit": "cup"
+        }
+      },
+      {
+        "ingredient": "white_sugar",
+        "amount": {
+          "qty": 6,
+          "unit": "tbsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "creme_brulee_cheesecake_step_2",
+      "amount": {
+        "qty": 962.7,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "In a bowl, mix vanilla wafer crumbs, butter and brown sugar until well-blended.",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for vanilla_wafer_crumbs, butter"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

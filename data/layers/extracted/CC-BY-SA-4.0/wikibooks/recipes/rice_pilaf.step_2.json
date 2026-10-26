@@ -1,0 +1,79 @@
+{
+  "id": "rice_pilaf.step_2",
+  "source": "wikibooks_rice_pilaf",
+  "sourceRef": {
+    "source": "wikibooks_rice_pilaf",
+    "step": 2
+  },
+  "technique": "pan_fry",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "rice_pilaf_step_1",
+        "amount": {
+          "qty": 88.7,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "garlic",
+        "amount": {
+          "qty": 4,
+          "unit": "clove"
+        }
+      },
+      {
+        "ingredient": "onion",
+        "amount": {
+          "qty": 1,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "carrot",
+        "amount": {
+          "qty": 2,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "rice_pilaf_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 185,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Add vegetables and let them be lightly cooked without coloring; using the vegetables would mean you omit the orzo pasta.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.5"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of pan_fry's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

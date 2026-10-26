@@ -1,0 +1,48 @@
+{
+  "id": "cornbread_stuffed_zucchini.step_4",
+  "source": "wikibooks_cornbread_stuffed_zucchini",
+  "sourceRef": {
+    "source": "wikibooks_cornbread_stuffed_zucchini",
+    "step": 4
+  },
+  "technique": "fold",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "cornbread_stuffed_zucchini_step_3",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "cornbread_stuffed_zucchini_step_4",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Gently fold in remaining egg whites. Place enough mixture to fill the column in the zucchini.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

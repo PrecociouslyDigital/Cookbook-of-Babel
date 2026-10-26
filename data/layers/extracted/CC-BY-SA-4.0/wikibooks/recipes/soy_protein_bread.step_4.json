@@ -1,0 +1,48 @@
+{
+  "id": "soy_protein_bread.step_4",
+  "source": "wikibooks_soy_protein_bread",
+  "sourceRef": {
+    "source": "wikibooks_soy_protein_bread",
+    "step": 4
+  },
+  "technique": "knead",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "soy_protein_bread_step_3",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "soy_protein_bread_step_4",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Work the bread with your hands all the time, always keeping it smooth. You may have to add some extra flour while you work with it. Keep doing this until the bread stops being sticky.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

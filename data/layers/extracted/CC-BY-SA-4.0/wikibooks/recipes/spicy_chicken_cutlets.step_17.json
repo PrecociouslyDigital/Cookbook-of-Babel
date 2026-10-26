@@ -1,0 +1,53 @@
+{
+  "id": "spicy_chicken_cutlets.step_17",
+  "source": "wikibooks_spicy_chicken_cutlets",
+  "sourceRef": {
+    "source": "wikibooks_spicy_chicken_cutlets",
+    "step": 17
+  },
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "spicy_chicken_cutlets_step_16",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "spicy_chicken_cutlets_step_17",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Stir in remaining lime juice.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.36"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

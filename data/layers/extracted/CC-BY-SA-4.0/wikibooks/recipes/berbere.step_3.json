@@ -1,0 +1,53 @@
+{
+  "id": "berbere.step_3",
+  "source": "wikibooks_berbere",
+  "sourceRef": {
+    "source": "wikibooks_berbere",
+    "step": 3
+  },
+  "technique": "age",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "berbere_step_2",
+        "amount": {
+          "qty": 532.1,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "berbere",
+      "amount": {
+        "qty": 532.1,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Store in a glass jar, away from sunlight.",
+  "issues": [
+    {
+      "field": "sourceRef",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.51"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

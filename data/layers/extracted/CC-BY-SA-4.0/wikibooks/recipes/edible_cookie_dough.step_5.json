@@ -1,0 +1,55 @@
+{
+  "id": "edible_cookie_dough.step_5",
+  "source": "wikibooks_edible_cookie_dough",
+  "sourceRef": {
+    "source": "wikibooks_edible_cookie_dough",
+    "step": 5
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "edible_cookie_dough_step_4",
+        "amount": {
+          "qty": 442.8,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "milk",
+        "amount": {
+          "qty": 2,
+          "unit": "tbsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "edible_cookie_dough",
+      "amount": {
+        "qty": 473.3,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Gradually add milk, mixing to form a soft dough.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

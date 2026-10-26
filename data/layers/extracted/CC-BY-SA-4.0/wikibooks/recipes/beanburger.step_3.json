@@ -1,0 +1,62 @@
+{
+  "id": "beanburger.step_3",
+  "source": "wikibooks_beanburger",
+  "sourceRef": {
+    "source": "wikibooks_beanburger",
+    "step": 3
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "beanburger_step_2",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "carrot",
+        "amount": {
+          "qty": 2.5,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "rolled_oats",
+        "amount": {
+          "qty": 40,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "beanburger_step_3",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Add the carrot, onion, pepper and oats to the mashed beans and mix until well combined.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

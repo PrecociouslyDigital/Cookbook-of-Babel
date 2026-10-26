@@ -1,0 +1,53 @@
+{
+  "id": "mato_de_pedralbes_spanish_maize_custard.step_5",
+  "source": "wikibooks_mato_de_pedralbes_spanish_maize_custard",
+  "sourceRef": {
+    "source": "wikibooks_mato_de_pedralbes_spanish_maize_custard",
+    "step": 5
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "mato_de_pedralbes_spanish_maize_custard_step_4",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "mato_de_pedralbes_spanish_maize_custard",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "To serve, unmold the custards and serve with jam or some rosemary honey.",
+  "issues": [
+    {
+      "field": "sourceRef",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.55"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

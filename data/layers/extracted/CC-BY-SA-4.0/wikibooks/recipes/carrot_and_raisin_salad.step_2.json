@@ -1,0 +1,62 @@
+{
+  "id": "carrot_and_raisin_salad.step_2",
+  "source": "wikibooks_carrot_and_raisin_salad",
+  "sourceRef": {
+    "source": "wikibooks_carrot_and_raisin_salad",
+    "step": 2
+  },
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "carrot_and_raisin_salad_step_1",
+        "amount": {
+          "qty": 290,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "lemon",
+        "amount": {
+          "qty": 1,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "orange",
+        "amount": {
+          "qty": 1,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "carrot_and_raisin_salad_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Add approximately 1 teaspoon of finely-grated lemon and orange zest, then add the juices.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

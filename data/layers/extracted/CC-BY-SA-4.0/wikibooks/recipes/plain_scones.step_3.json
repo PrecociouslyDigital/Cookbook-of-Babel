@@ -1,0 +1,62 @@
+{
+  "id": "plain_scones.step_3",
+  "source": "wikibooks_plain_scones",
+  "sourceRef": {
+    "source": "wikibooks_plain_scones",
+    "step": 3
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "plain_scones_step_2",
+        "amount": {
+          "qty": 573.5,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "egg",
+        "amount": {
+          "qty": 1,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "cream",
+        "amount": {
+          "qty": 150,
+          "unit": "ml"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "plain_scones_step_3",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Add the egg and just enough cream to form a slightly sticky dough. If it’s too sticky, add a little flour, but very little; it should still stick a little to your hands.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

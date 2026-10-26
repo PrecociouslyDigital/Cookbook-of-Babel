@@ -1,0 +1,53 @@
+{
+  "id": "balangu_nigerian_spiced_ram_meat.step_2",
+  "source": "wikibooks_balangu_nigerian_spiced_ram_meat",
+  "sourceRef": {
+    "source": "wikibooks_balangu_nigerian_spiced_ram_meat",
+    "step": 2
+  },
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "balangu_nigerian_spiced_ram_meat_step_1",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "balangu_nigerian_spiced_ram_meat_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Cut the cooked meat into pieces of your desired size.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.55"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "indian_ice_cream.step_4",
+  "source": "wikibooks_indian_ice_cream",
+  "sourceRef": {
+    "source": "wikibooks_indian_ice_cream",
+    "step": 4
+  },
+  "technique": "whisk",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "indian_ice_cream_step_3",
+        "amount": {
+          "qty": 946.7,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "indian_ice_cream",
+      "amount": {
+        "qty": 946.7,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Whip it with a whisk until foamy, similar in texture to whipped cream.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

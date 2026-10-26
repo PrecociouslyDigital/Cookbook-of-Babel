@@ -1,0 +1,53 @@
+{
+  "id": "garden_egg_stew.step_2",
+  "source": "wikibooks_garden_egg_stew",
+  "sourceRef": {
+    "source": "wikibooks_garden_egg_stew",
+    "step": 2
+  },
+  "technique": "grind",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "garden_egg_stew_step_1",
+        "amount": {
+          "qty": 0.7,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "garden_egg_stew_step_2",
+      "amount": {
+        "qty": 0.7,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Drain the garden egg, and mash it.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.46"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

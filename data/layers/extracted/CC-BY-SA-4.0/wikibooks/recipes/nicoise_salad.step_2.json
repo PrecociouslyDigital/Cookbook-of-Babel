@@ -1,0 +1,88 @@
+{
+  "id": "nicoise_salad.step_2",
+  "source": "wikibooks_nicoise_salad",
+  "sourceRef": {
+    "source": "wikibooks_nicoise_salad",
+    "step": 2
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "nicoise_salad_step_1",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "fava_bean",
+        "amount": {
+          "qty": 200,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "artichoke",
+        "amount": {
+          "qty": 12,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "garlic",
+        "amount": {
+          "qty": 1,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "olive",
+        "amount": {
+          "qty": 100,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "caper",
+        "amount": {
+          "qty": 1,
+          "unit": "handful"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "nicoise_salad_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Cut the garlic in two and rub the sides and bottom of a large salad bowl with it. Toss all the ingredients except the tomatoes into the bowl.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.54"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

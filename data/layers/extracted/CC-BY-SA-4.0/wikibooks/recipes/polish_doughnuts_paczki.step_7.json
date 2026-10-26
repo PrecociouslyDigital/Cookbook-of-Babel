@@ -1,0 +1,61 @@
+{
+  "id": "polish_doughnuts_paczki.step_7",
+  "source": "wikibooks_polish_doughnuts_paczki",
+  "sourceRef": {
+    "source": "wikibooks_polish_doughnuts_paczki",
+    "step": 7
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "polish_doughnuts_paczki_step_6",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "min": 0,
+        "max": 1,
+        "of": [
+          {
+            "ingredient": "fruit_preserves",
+            "amount": {
+              "qty": 2.5,
+              "unit": "cup"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "polish_doughnuts_paczki_step_7",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "While the pączki cool, spoon some fruit jelly, jam, or custard in a pastry bag with a long, narrow point. Fill the pączki by pushing the point into their sides.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

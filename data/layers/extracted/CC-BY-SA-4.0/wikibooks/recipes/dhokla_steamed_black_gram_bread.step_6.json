@@ -1,0 +1,48 @@
+{
+  "id": "dhokla_steamed_black_gram_bread.step_6",
+  "source": "wikibooks_dhokla_steamed_black_gram_bread",
+  "sourceRef": {
+    "source": "wikibooks_dhokla_steamed_black_gram_bread",
+    "step": 6
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "dhokla_steamed_black_gram_bread_step_5",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "dhokla_steamed_black_gram_bread_step_6",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Once fermented, mix the ginger-green chilli paste with the batter.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "id": "cochinita_pibil_mexican_braised_pork.step_2",
+  "source": "wikibooks_cochinita_pibil_mexican_braised_pork",
+  "sourceRef": {
+    "source": "wikibooks_cochinita_pibil_mexican_braised_pork",
+    "step": 2
+  },
+  "technique": "chop",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "cochinita_pibil_mexican_braised_pork_step_1",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "chiles",
+        "amount": {
+          "qty": 2,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "cochinita_pibil_mexican_braised_pork_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Remove the seeds and veins from the habanero chiles and chop coarsely. If you want a hotter dish, leave some of the veins and seeds in.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

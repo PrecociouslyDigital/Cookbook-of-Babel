@@ -1,0 +1,94 @@
+{
+  "id": "zupa_ogorkowa_polish_cucumber_soup.step_2",
+  "source": "wikibooks_zupa_ogorkowa_polish_cucumber_soup",
+  "sourceRef": {
+    "source": "wikibooks_zupa_ogorkowa_polish_cucumber_soup",
+    "step": 2
+  },
+  "technique": "boil",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "zupa_ogorkowa_polish_cucumber_soup_step_1",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "leek",
+        "amount": {
+          "qty": 1,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "carrot",
+        "amount": {
+          "qty": 2,
+          "unit": "piece"
+        }
+      },
+      {
+        "min": 0,
+        "max": 1,
+        "of": [
+          {
+            "ingredient": "celery_root",
+            "amount": {
+              "qty": 0.5,
+              "unit": "piece"
+            }
+          }
+        ]
+      },
+      {
+        "ingredient": "parsnip",
+        "amount": {
+          "qty": 1,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "potato",
+        "amount": {
+          "qty": 3,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "zupa_ogorkowa_polish_cucumber_soup_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 100,
+    "medium": "boiling_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Add the peeled carrots, celery root, parsnip root, and leek, and boil it for 10 more minutes. During that time peel the potatoes and dice them into 6 mm x 6 mm/quarter inch cubes (0.25 x 0.25 inches).",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of boil's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "chokladboll_swedish_chocolate_balls.step_7",
+  "source": "wikibooks_chokladboll_swedish_chocolate_balls",
+  "sourceRef": {
+    "source": "wikibooks_chokladboll_swedish_chocolate_balls",
+    "step": 7
+  },
+  "technique": "chill",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "chokladboll_swedish_chocolate_balls_step_6",
+        "amount": {
+          "qty": 1113.8,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "chokladboll_swedish_chocolate_balls",
+      "amount": {
+        "qty": 1113.8,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Chill chocolate balls for at least one hour before serving.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

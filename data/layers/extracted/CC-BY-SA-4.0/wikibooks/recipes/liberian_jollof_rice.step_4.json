@@ -1,0 +1,94 @@
+{
+  "id": "liberian_jollof_rice.step_4",
+  "source": "wikibooks_liberian_jollof_rice",
+  "sourceRef": {
+    "source": "wikibooks_liberian_jollof_rice",
+    "step": 4
+  },
+  "technique": "simmer",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "liberian_jollof_rice_step_3",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "vegetable",
+        "amount": {
+          "qty": 2,
+          "unit": "bag"
+        }
+      },
+      {
+        "ingredient": "tomato_paste",
+        "amount": {
+          "qty": 2,
+          "unit": "can"
+        }
+      },
+      {
+        "ingredient": "dehydrated_broth",
+        "amount": {
+          "qty": 4,
+          "unit": "piece"
+        }
+      },
+      {
+        "min": 0,
+        "max": 1,
+        "of": [
+          {
+            "ingredient": "shrimp",
+            "amount": {
+              "qty": 3,
+              "unit": "lb"
+            }
+          }
+        ]
+      },
+      {
+        "ingredient": "bell_pepper",
+        "amount": {
+          "qty": 2,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "liberian_jollof_rice_step_4",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 90,
+    "medium": "simmering_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 10,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Combine the mixed vegetables, tomato paste, bouillon cubes, salt to taste, shrimp, and bell pepper. Leave to simmer for about 10 minutes.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'4 chicken bouillon cubes, crushed': 'chicken' read as pieces"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of simmer's typical range"
+    }
+  ]
+}

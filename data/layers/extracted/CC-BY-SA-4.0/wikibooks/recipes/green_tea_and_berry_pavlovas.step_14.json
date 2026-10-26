@@ -1,0 +1,48 @@
+{
+  "id": "green_tea_and_berry_pavlovas.step_14",
+  "source": "wikibooks_green_tea_and_berry_pavlovas",
+  "sourceRef": {
+    "source": "wikibooks_green_tea_and_berry_pavlovas",
+    "step": 14
+  },
+  "technique": "strain",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "green_tea_and_berry_pavlovas_step_13",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "green_tea_and_berry_pavlovas_step_14",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Strain the curd and let cool.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

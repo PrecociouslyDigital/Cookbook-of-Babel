@@ -1,0 +1,53 @@
+{
+  "id": "traditional_british_brewed_tea.step_4",
+  "source": "wikibooks_traditional_british_brewed_tea",
+  "sourceRef": {
+    "source": "wikibooks_traditional_british_brewed_tea",
+    "step": 4
+  },
+  "technique": "heat",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "traditional_british_brewed_tea_step_3",
+        "amount": {
+          "qty": 0.3,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "traditional_british_brewed_tea_step_4",
+      "amount": {
+        "qty": 0.3,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 100,
+    "medium": "boiling_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 5,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Add the water as soon as it boils, and leave it to stand for 5 minutes (and no longer) before serving.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.58"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 100.0 °C for boiling_water"
+    }
+  ]
+}

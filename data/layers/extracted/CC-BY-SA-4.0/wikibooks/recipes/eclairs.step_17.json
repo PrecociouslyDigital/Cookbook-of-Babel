@@ -1,0 +1,48 @@
+{
+  "id": "eclairs.step_17",
+  "source": "wikibooks_eclairs",
+  "sourceRef": {
+    "source": "wikibooks_eclairs",
+    "step": 17
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "eclairs_step_16",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "eclairs_step_17",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "When the buns are cool, use a teaspoon or a piping bag to fill the inside of each éclair with whipped cream (you may need to enlarge the slit you made before).",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

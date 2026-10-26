@@ -1,0 +1,67 @@
+{
+  "id": "braised_beef_short_ribs.step_6",
+  "source": "wikibooks_braised_beef_short_ribs",
+  "sourceRef": {
+    "source": "wikibooks_braised_beef_short_ribs",
+    "step": 6
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "braised_beef_short_ribs_step_5",
+        "amount": {
+          "qty": 1701.9,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "tomato_paste",
+        "amount": {
+          "qty": 1,
+          "unit": "can"
+        }
+      },
+      {
+        "ingredient": "wine",
+        "amount": {
+          "qty": 1,
+          "unit": "bottle"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "braised_beef_short_ribs_step_6",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "While meat is browning mix tomato paste with enough wine to thin (⅓ bottle)",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.57"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

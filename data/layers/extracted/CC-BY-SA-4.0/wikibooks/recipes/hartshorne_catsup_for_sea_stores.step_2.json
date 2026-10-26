@@ -1,0 +1,48 @@
+{
+  "id": "hartshorne_catsup_for_sea_stores.step_2",
+  "source": "wikibooks_hartshorne_catsup_for_sea_stores",
+  "sourceRef": {
+    "source": "wikibooks_hartshorne_catsup_for_sea_stores",
+    "step": 2
+  },
+  "technique": "strain",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "hartshorne_catsup_for_sea_stores_step_1",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "hartshorne_catsup_for_sea_stores",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Strain through cloth, and cool.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

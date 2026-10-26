@@ -1,0 +1,53 @@
+{
+  "id": "shakshuka.step_6",
+  "source": "wikibooks_shakshuka",
+  "sourceRef": {
+    "source": "wikibooks_shakshuka",
+    "step": 6
+  },
+  "technique": "coagulate",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "shakshuka_step_5",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "shakshuka_step_6",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 180,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 7,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Cover the pan with a lid. Cook 6–8 minutes until egg whites are set but yolks are still runny, or longer if firmer yolks are preferred.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.52"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 180.0 °C for pan_contact"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "id": "toasted_baguette_slices_with_pecan_butter_brie_and_apples.step_3",
+  "source": "wikibooks_toasted_baguette_slices_with_pecan_butter_brie_and_apples",
+  "sourceRef": {
+    "source": "wikibooks_toasted_baguette_slices_with_pecan_butter_brie_and_apples",
+    "step": 3
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "toasted_baguette_slices_with_pecan_butter_brie_and_apples_step_2",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "cream_cheese",
+        "amount": {
+          "qty": 4,
+          "unit": "oz"
+        }
+      },
+      {
+        "ingredient": "apple",
+        "amount": {
+          "qty": 1,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "brie_cheese",
+        "amount": {
+          "qty": 8,
+          "unit": "oz"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "toasted_baguette_slices_with_pecan_butter_brie_and_apples_step_3",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Spread cream cheese on toasted bread, then top with apple slices and brie slices.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

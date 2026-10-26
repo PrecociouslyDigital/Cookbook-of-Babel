@@ -1,0 +1,65 @@
+{
+  "id": "rocky_road_confectionery_ii.step_2",
+  "source": "wikibooks_rocky_road_confectionery_ii",
+  "sourceRef": {
+    "source": "wikibooks_rocky_road_confectionery_ii",
+    "step": 2
+  },
+  "technique": "fold",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "rocky_road_confectionery_ii_step_1",
+        "amount": {
+          "qty": 405,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "marshmallow",
+        "amount": {
+          "qty": 350,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "rocky_road_confectionery_ii_step_2",
+      "amount": {
+        "qty": 755,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 20,
+    "medium": "still_air"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Let cool slightly, then fold in the marshmallows.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.58"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 20.0 °C for still_air"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

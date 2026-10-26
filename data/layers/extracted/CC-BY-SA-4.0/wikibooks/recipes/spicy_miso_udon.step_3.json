@@ -1,0 +1,60 @@
+{
+  "id": "spicy_miso_udon.step_3",
+  "source": "wikibooks_spicy_miso_udon",
+  "sourceRef": {
+    "source": "wikibooks_spicy_miso_udon",
+    "step": 3
+  },
+  "technique": "boil",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "spicy_miso_udon_step_2",
+        "amount": {
+          "qty": 411.6,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "udon",
+        "amount": {
+          "qty": 1,
+          "unit": "package"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "spicy_miso_udon_step_3",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 100,
+    "medium": "boiling_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Cook the udon noodles in salted water until al dente. Drain them, rinse with cold water, and set aside.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of boil's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

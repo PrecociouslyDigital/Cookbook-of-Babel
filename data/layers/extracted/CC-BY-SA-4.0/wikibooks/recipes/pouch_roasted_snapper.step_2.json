@@ -1,0 +1,88 @@
+{
+  "id": "pouch_roasted_snapper.step_2",
+  "source": "wikibooks_pouch_roasted_snapper",
+  "sourceRef": {
+    "source": "wikibooks_pouch_roasted_snapper",
+    "step": 2
+  },
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "pouch_roasted_snapper_step_1",
+        "amount": {
+          "qty": 473.6,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "red_snapper",
+        "amount": {
+          "qty": 2,
+          "unit": "lb"
+        }
+      },
+      {
+        "ingredient": "pepper",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      },
+      {
+        "ingredient": "dill",
+        "amount": {
+          "qty": 0.5,
+          "unit": "bunch"
+        }
+      },
+      {
+        "ingredient": "rosemary",
+        "amount": {
+          "qty": 1.5,
+          "unit": "sprig"
+        }
+      },
+      {
+        "ingredient": "lemon",
+        "amount": {
+          "qty": 2,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "pouch_roasted_snapper_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Lay the fish diagonally on a parchment-lined baking pan. Sprinkle liberally with salt and black pepper, inside and out. Stuff with the herbs and several slices of lemon. Place remaining lemon slices under fish.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Freshly ground black pepper': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

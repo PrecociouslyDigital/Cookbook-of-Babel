@@ -1,0 +1,53 @@
+{
+  "id": "natto_japanese_fermented_soybeans.step_8",
+  "source": "wikibooks_natto_japanese_fermented_soybeans",
+  "sourceRef": {
+    "source": "wikibooks_natto_japanese_fermented_soybeans",
+    "step": 8
+  },
+  "technique": "chill",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "natto_japanese_fermented_soybeans_step_7",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "natto_japanese_fermented_soybeans",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 8,
+      "unit": "h"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "At the conclusion of the fermentation period, let the natto cool for a couple of hours, then remove the lid and the cloth, replace the lid, and store the containers in the refrigerator at least overnight. The Natto can be consumed as early as the next morning and are often served as a Japanese-style breakfast.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.58"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "'overnight' read as 8 hours"
+    }
+  ]
+}

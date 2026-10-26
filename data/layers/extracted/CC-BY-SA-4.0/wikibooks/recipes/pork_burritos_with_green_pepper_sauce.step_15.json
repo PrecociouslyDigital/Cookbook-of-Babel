@@ -1,0 +1,60 @@
+{
+  "id": "pork_burritos_with_green_pepper_sauce.step_15",
+  "source": "wikibooks_pork_burritos_with_green_pepper_sauce",
+  "sourceRef": {
+    "source": "wikibooks_pork_burritos_with_green_pepper_sauce",
+    "step": 15
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "pork_burritos_with_green_pepper_sauce_step_14",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "monterey_jack_cheese",
+        "amount": {
+          "qty": 8,
+          "unit": "oz"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "pork_burritos_with_green_pepper_sauce",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Cover burritos with rest of green chile sauce and cheese.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.48"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

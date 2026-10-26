@@ -1,0 +1,48 @@
+{
+  "id": "crown_roast_of_lamb.step_2",
+  "source": "wikibooks_crown_roast_of_lamb",
+  "sourceRef": {
+    "source": "wikibooks_crown_roast_of_lamb",
+    "step": 2
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "crown_roast_of_lamb_step_1",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "crown_roast_of_lamb_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Place both racks in a bundt pan and tie the end bones together with butcher's twine.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

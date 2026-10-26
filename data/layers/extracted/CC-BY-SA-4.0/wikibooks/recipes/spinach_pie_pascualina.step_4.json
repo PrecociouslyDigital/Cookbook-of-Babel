@@ -1,0 +1,55 @@
+{
+  "id": "spinach_pie_pascualina.step_4",
+  "source": "wikibooks_spinach_pie_pascualina",
+  "sourceRef": {
+    "source": "wikibooks_spinach_pie_pascualina",
+    "step": 4
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "spinach_pie_pascualina_step_3",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "puff_pastry",
+        "amount": {
+          "qty": 4,
+          "unit": "sheet"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "spinach_pie_pascualina_step_4",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Line a rectangular tray with puff pastry ensuring the pastry reaches right up to the edge of the tray.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": "nutty_buddy_chocolate_cookie_bars.step_10",
+  "source": "wikibooks_nutty_buddy_chocolate_cookie_bars",
+  "sourceRef": {
+    "source": "wikibooks_nutty_buddy_chocolate_cookie_bars",
+    "step": 10
+  },
+  "technique": "cool",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "nutty_buddy_chocolate_cookie_bars_step_9",
+        "amount": {
+          "qty": 1939.8,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "nutty_buddy_chocolate_cookie_bars",
+      "amount": {
+        "qty": 1939.8,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Store at room temperature, covered with foil.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.54"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "id": "quick_and_delicious_pineapple_upside_down_cake.step_2",
+  "source": "wikibooks_quick_and_delicious_pineapple_upside_down_cake",
+  "sourceRef": {
+    "source": "wikibooks_quick_and_delicious_pineapple_upside_down_cake",
+    "step": 2
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "quick_and_delicious_pineapple_upside_down_cake_step_1",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "pineapple",
+        "amount": {
+          "qty": 1,
+          "unit": "can"
+        }
+      },
+      {
+        "ingredient": "cherry",
+        "amount": {
+          "qty": 10,
+          "unit": "piece"
+        }
+      },
+      {
+        "min": 0,
+        "max": 1,
+        "of": [
+          {
+            "ingredient": "pecan",
+            "amount": {
+              "qty": 0.25,
+              "unit": "cup"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "quick_and_delicious_pineapple_upside_down_cake_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 180,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Arrange pineapple slices in the pan, and place a maraschino cherry in each of the holes in the pineapple rings. Sprinkle the crushed pecans over the pineapple slices.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.54"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 180.0 °C for pan_contact"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

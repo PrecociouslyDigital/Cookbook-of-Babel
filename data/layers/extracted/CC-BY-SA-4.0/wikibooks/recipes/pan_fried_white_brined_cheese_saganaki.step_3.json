@@ -1,0 +1,71 @@
+{
+  "id": "pan_fried_white_brined_cheese_saganaki.step_3",
+  "source": "wikibooks_pan_fried_white_brined_cheese_saganaki",
+  "sourceRef": {
+    "source": "wikibooks_pan_fried_white_brined_cheese_saganaki",
+    "step": 3
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "pan_fried_white_brined_cheese_saganaki_step_2",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "min": 0,
+        "max": 1,
+        "of": [
+          {
+            "ingredient": "wheat_flour",
+            "amount": {
+              "qty": 1,
+              "unit": "pinch"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "pan_fried_white_brined_cheese_saganaki_step_3",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Optionally, dredge the slices in flour—this will create a darker and slightly crispier crust, but is an optional step as the cheese will acquire a very slight crust on its own by virtue of the oil and high heat. It will also reduce the spitting somewhat.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.48"
+    },
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'A small amount of flour (optional)': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "rice_an_peas.step_2",
+  "source": "wikibooks_rice_an_peas",
+  "sourceRef": {
+    "source": "wikibooks_rice_an_peas",
+    "step": 2
+  },
+  "technique": "rinse",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "rice_an_peas_step_1",
+        "amount": {
+          "qty": 236.6,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "rice_an_peas_step_2",
+      "amount": {
+        "qty": 236.6,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Drain and rinse the beans (even canned beans) prior to use.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

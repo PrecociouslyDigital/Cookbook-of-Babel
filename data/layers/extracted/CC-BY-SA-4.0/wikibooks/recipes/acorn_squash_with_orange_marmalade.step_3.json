@@ -1,0 +1,48 @@
+{
+  "id": "acorn_squash_with_orange_marmalade.step_3",
+  "source": "wikibooks_acorn_squash_with_orange_marmalade",
+  "sourceRef": {
+    "source": "wikibooks_acorn_squash_with_orange_marmalade",
+    "step": 3
+  },
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "acorn_squash_with_orange_marmalade_step_2",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "acorn_squash_with_orange_marmalade_step_3",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Cut a small piece off outside of each half to make a flat space on which the half can stand level.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

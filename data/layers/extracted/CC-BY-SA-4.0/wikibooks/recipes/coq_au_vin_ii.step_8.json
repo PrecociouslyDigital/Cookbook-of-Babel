@@ -1,0 +1,58 @@
+{
+  "id": "coq_au_vin_ii.step_8",
+  "source": "wikibooks_coq_au_vin_ii",
+  "sourceRef": {
+    "source": "wikibooks_coq_au_vin_ii",
+    "step": 8
+  },
+  "technique": "strain",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "coq_au_vin_ii_step_7",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "coq_au_vin_ii_step_8",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 180,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Once the chicken is done, remove it to a heatproof container, cover, and place it in the oven to keep warm. Strain the sauce in a colander and remove the carrots, onion, celery, thyme, rosemary, garlic, and bay leaf. Discard. Return the sauce to the pot, place over medium heat, and reduce by half.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.58"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 180.0 °C for pan_contact"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

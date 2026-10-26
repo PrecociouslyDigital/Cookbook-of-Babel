@@ -1,0 +1,53 @@
+{
+  "id": "maklubi_rice_with_meat_and_vegetables.step_4",
+  "source": "wikibooks_maklubi_rice_with_meat_and_vegetables",
+  "sourceRef": {
+    "source": "wikibooks_maklubi_rice_with_meat_and_vegetables",
+    "step": 4
+  },
+  "technique": "steam",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "maklubi_rice_with_meat_and_vegetables_step_3",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "maklubi_rice_with_meat_and_vegetables_step_4",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 100,
+    "medium": "steam"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 15,
+      "unit": "min"
+    }
+  },
+  "stateNote": "When most of the water has evaporated and the surface of the rice becomes pitted, put the lid on tight. Cook on low heat for 15 minutes.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.46"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of steam's typical range"
+    }
+  ]
+}

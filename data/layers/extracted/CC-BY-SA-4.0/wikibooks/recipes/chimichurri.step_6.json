@@ -1,0 +1,53 @@
+{
+  "id": "chimichurri.step_6",
+  "source": "wikibooks_chimichurri",
+  "sourceRef": {
+    "source": "wikibooks_chimichurri",
+    "step": 6
+  },
+  "technique": "age",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "chimichurri_step_5",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "chimichurri_step_6",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 8,
+      "unit": "h"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Transfer to an air-tight container and refrigerate overnight at least, or better, for a few days.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.55"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "'overnight' read as 8 hours"
+    }
+  ]
+}

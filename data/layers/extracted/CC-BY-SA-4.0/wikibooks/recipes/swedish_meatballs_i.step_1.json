@@ -1,0 +1,55 @@
+{
+  "id": "swedish_meatballs_i.step_1",
+  "source": "wikibooks_swedish_meatballs_i",
+  "sourceRef": {
+    "source": "wikibooks_swedish_meatballs_i",
+    "step": 1
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "water",
+        "amount": {
+          "qty": 250,
+          "unit": "ml"
+        }
+      },
+      {
+        "ingredient": "bread_crumbs",
+        "amount": {
+          "qty": 50,
+          "unit": "ml"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "swedish_meatballs_i_step_1",
+      "amount": {
+        "qty": 300,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 7.5,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Combine the liquid and bread crumbs in a bowl, and let it sit for 7–8 minutes.",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for bread_crumbs"
+    }
+  ]
+}

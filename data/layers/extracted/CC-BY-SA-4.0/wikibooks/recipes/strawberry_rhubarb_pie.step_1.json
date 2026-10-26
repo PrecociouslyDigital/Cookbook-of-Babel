@@ -1,0 +1,48 @@
+{
+  "id": "strawberry_rhubarb_pie.step_1",
+  "source": "wikibooks_strawberry_rhubarb_pie",
+  "sourceRef": {
+    "source": "wikibooks_strawberry_rhubarb_pie",
+    "step": 1
+  },
+  "technique": "chill",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "flaky_pie_crust",
+        "amount": {
+          "qty": 1,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "strawberry_rhubarb_pie_step_1",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Prepare the flaky pie crust and refrigerate while preparing the filling.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

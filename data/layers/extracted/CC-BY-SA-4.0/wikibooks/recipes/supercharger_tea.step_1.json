@@ -1,0 +1,62 @@
+{
+  "id": "supercharger_tea.step_1",
+  "source": "wikibooks_supercharger_tea",
+  "sourceRef": {
+    "source": "wikibooks_supercharger_tea",
+    "step": 1
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "tea_leaves",
+        "amount": {
+          "qty": 2,
+          "unit": "bag"
+        }
+      },
+      {
+        "ingredient": "oolong_tea",
+        "amount": {
+          "qty": 2,
+          "unit": "bag"
+        }
+      },
+      {
+        "ingredient": "yerba_mate",
+        "amount": {
+          "qty": 2,
+          "unit": "bag"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "supercharger_tea_step_1",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Place tea bags in French press or coffee pot. Make sure to keep the strings taut to prevent the paper weights from falling in.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

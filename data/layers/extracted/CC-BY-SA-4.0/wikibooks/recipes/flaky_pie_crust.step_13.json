@@ -1,0 +1,48 @@
+{
+  "id": "flaky_pie_crust.step_13",
+  "source": "wikibooks_flaky_pie_crust",
+  "sourceRef": {
+    "source": "wikibooks_flaky_pie_crust",
+    "step": 13
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "flaky_pie_crust_step_12",
+        "amount": {
+          "qty": 640,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "flaky_pie_crust_step_13",
+      "amount": {
+        "qty": 640,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Working around the pie, hold the bottom and top crust overhangs together and tuck the combined overhang into the pie dish behind the bottom crust.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

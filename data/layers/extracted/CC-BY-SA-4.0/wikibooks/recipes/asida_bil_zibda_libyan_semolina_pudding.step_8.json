@@ -1,0 +1,89 @@
+{
+  "id": "asida_bil_zibda_libyan_semolina_pudding.step_8",
+  "source": "wikibooks_asida_bil_zibda_libyan_semolina_pudding",
+  "sourceRef": {
+    "source": "wikibooks_asida_bil_zibda_libyan_semolina_pudding",
+    "step": 8
+  },
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "asida_bil_zibda_libyan_semolina_pudding_step_7",
+        "amount": {
+          "qty": 1159.5,
+          "unit": "g"
+        }
+      },
+      {
+        "min": 0,
+        "max": 1,
+        "of": [
+          {
+            "ingredient": "cinnamon",
+            "amount": {
+              "qty": 1,
+              "unit": "pinch"
+            }
+          }
+        ]
+      },
+      {
+        "min": 0,
+        "max": 1,
+        "of": [
+          {
+            "ingredient": "nuts_and_seeds",
+            "amount": {
+              "qty": 1,
+              "unit": "pinch"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "asida_bil_zibda_libyan_semolina_pudding",
+      "amount": {
+        "qty": 1160.1,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "If desired, sprinkle ground cinnamon and chopped nuts on top for garnish. Serve warm or at room temperature.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Ground cinnamon, for garnish (optional)': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Chopped nuts, for garnish (optional)': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for cinnamon, nuts_and_seeds"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

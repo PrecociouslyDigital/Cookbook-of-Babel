@@ -1,0 +1,65 @@
+{
+  "id": "maple_butter_tart.step_3",
+  "source": "wikibooks_maple_butter_tart",
+  "sourceRef": {
+    "source": "wikibooks_maple_butter_tart",
+    "step": 3
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "maple_butter_tart_step_2",
+        "amount": {
+          "qty": 332,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "butter",
+        "amount": {
+          "qty": 1,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "maple_butter_tart_step_3",
+      "amount": {
+        "qty": 568.6,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Cut in the cold butter and mix with a series of short pulses, until the mixture resembles pea-meal. The crust will have a flakier texture if you avoid mixing the butter in too much.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.55"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for butter"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

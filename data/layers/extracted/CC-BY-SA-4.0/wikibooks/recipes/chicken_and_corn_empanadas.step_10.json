@@ -1,0 +1,48 @@
+{
+  "id": "chicken_and_corn_empanadas.step_10",
+  "source": "wikibooks_chicken_and_corn_empanadas",
+  "sourceRef": {
+    "source": "wikibooks_chicken_and_corn_empanadas",
+    "step": 10
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "chicken_and_corn_empanadas_step_9",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "chicken_and_corn_empanadas_step_10",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Spoon ¼ cup filling into center of each circle, leaving a 1-inch border.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

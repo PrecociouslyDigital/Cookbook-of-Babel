@@ -1,0 +1,60 @@
+{
+  "id": "south_side_fizz.step_5",
+  "source": "wikibooks_south_side_fizz",
+  "sourceRef": {
+    "source": "wikibooks_south_side_fizz",
+    "step": 5
+  },
+  "technique": "carbonate",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "south_side_fizz_step_4",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "carbonated_water",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "south_side_fizz",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Fill with club soda and garnish with another mint sprig.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Club soda': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

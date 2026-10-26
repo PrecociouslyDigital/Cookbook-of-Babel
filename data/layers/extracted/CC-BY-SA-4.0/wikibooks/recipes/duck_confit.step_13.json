@@ -1,0 +1,48 @@
+{
+  "id": "duck_confit.step_13",
+  "source": "wikibooks_duck_confit",
+  "sourceRef": {
+    "source": "wikibooks_duck_confit",
+    "step": 13
+  },
+  "technique": "chill",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "duck_confit_step_12",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "duck_confit",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Store in the refrigerator for up to 1 month. The excess oil can be stored in an airtight container in the refrigerator and used like butter for cooking. The tinge of duck taste in the oil is wonderful.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

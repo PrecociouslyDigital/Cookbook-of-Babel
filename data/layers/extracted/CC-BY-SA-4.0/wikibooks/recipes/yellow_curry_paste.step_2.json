@@ -1,0 +1,76 @@
+{
+  "id": "yellow_curry_paste.step_2",
+  "source": "wikibooks_yellow_curry_paste",
+  "sourceRef": {
+    "source": "wikibooks_yellow_curry_paste",
+    "step": 2
+  },
+  "technique": "grind",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "yellow_curry_paste_step_1",
+        "amount": {
+          "qty": 59.2,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "lemongrass",
+        "amount": {
+          "qty": 3,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "ginger",
+        "amount": {
+          "qty": 1,
+          "unit": "tbsp"
+        }
+      },
+      {
+        "ingredient": "chiles",
+        "amount": {
+          "qty": 6,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "salt",
+        "amount": {
+          "qty": 1,
+          "unit": "tbsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "yellow_curry_paste_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 4,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Grind lemongrass and ginger in a mortar, add chilli-peppers and salt, and grind for 4 minutes.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'3 branches lemongrass, chopped': 'branches' read as pieces"
+    }
+  ]
+}

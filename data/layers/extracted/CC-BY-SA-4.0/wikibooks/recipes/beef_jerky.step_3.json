@@ -1,0 +1,53 @@
+{
+  "id": "beef_jerky.step_3",
+  "source": "wikibooks_beef_jerky",
+  "sourceRef": {
+    "source": "wikibooks_beef_jerky",
+    "step": 3
+  },
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "beef_jerky_step_2",
+        "amount": {
+          "qty": 506.1,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "beef_jerky_step_3",
+      "amount": {
+        "qty": 506.1,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 8,
+      "unit": "h"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Marinate meat in overnight, or at least for an hour or two.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "'overnight' read as 8 hours"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "the step names several durations; used the first"
+    }
+  ]
+}

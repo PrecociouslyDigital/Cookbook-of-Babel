@@ -1,0 +1,48 @@
+{
+  "id": "surinamese_cassava_and_coconut_dessert_bojo.step_3",
+  "source": "wikibooks_surinamese_cassava_and_coconut_dessert_bojo",
+  "sourceRef": {
+    "source": "wikibooks_surinamese_cassava_and_coconut_dessert_bojo",
+    "step": 3
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "surinamese_cassava_and_coconut_dessert_bojo_step_2",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "surinamese_cassava_and_coconut_dessert_bojo_step_3",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Combine the eggs and sugar with the grated coconut and cassava.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

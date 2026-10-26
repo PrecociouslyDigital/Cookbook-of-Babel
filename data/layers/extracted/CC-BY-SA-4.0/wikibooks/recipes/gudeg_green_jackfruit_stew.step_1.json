@@ -1,0 +1,48 @@
+{
+  "id": "gudeg_green_jackfruit_stew.step_1",
+  "source": "wikibooks_gudeg_green_jackfruit_stew",
+  "sourceRef": {
+    "source": "wikibooks_gudeg_green_jackfruit_stew",
+    "step": 1
+  },
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "jackfruit",
+        "amount": {
+          "qty": 0.5,
+          "unit": "lb"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "gudeg_green_jackfruit_stew_step_1",
+      "amount": {
+        "qty": 226.8,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Cut jackfruit into 1 inch-thick pieces and wash.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

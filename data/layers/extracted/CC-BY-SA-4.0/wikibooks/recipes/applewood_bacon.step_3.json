@@ -1,0 +1,55 @@
+{
+  "id": "applewood_bacon.step_3",
+  "source": "wikibooks_applewood_bacon",
+  "sourceRef": {
+    "source": "wikibooks_applewood_bacon",
+    "step": 3
+  },
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "applewood_bacon_step_2",
+        "amount": {
+          "qty": 8540.9,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "pork",
+        "amount": {
+          "qty": 1,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "applewood_bacon_step_3",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Once ice has melted and brine is cool enough, submerge the pork belly in the brine.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

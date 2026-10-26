@@ -1,0 +1,53 @@
+{
+  "id": "grilled_fruit_pouches.step_4",
+  "source": "wikibooks_grilled_fruit_pouches",
+  "sourceRef": {
+    "source": "wikibooks_grilled_fruit_pouches",
+    "step": 4
+  },
+  "technique": "grill",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "grilled_fruit_pouches_step_3",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "grilled_fruit_pouches",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 250,
+    "medium": "convection_air"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 7,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Place pouches in the hot coal area of a kettle grill. Cook 7 minutes. Serve warm.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.32"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of grill's typical range"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "id": "instant_chocolate_mousse.step_8",
+  "source": "wikibooks_instant_chocolate_mousse",
+  "sourceRef": {
+    "source": "wikibooks_instant_chocolate_mousse",
+    "step": 8
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "instant_chocolate_mousse_step_6",
+        "amount": {
+          "qty": 701.1,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "chocolate_cups",
+        "amount": {
+          "qty": 6,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "instant_chocolate_mousse_step_8",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Arrange the chocolate cups on serving plates. If the cups don't sit flat, place a dollop of mousse under them.",
+  "issues": [
+    {
+      "field": "sourceRef",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.54"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

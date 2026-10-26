@@ -1,0 +1,69 @@
+{
+  "id": "manhattan_clam_chowder_i.step_2",
+  "source": "wikibooks_manhattan_clam_chowder_i",
+  "sourceRef": {
+    "source": "wikibooks_manhattan_clam_chowder_i",
+    "step": 2
+  },
+  "technique": "chop",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "manhattan_clam_chowder_i_step_1",
+        "amount": {
+          "qty": 793.8,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "potato",
+        "amount": {
+          "qty": 15,
+          "unit": "oz"
+        }
+      },
+      {
+        "ingredient": "clam",
+        "amount": {
+          "qty": 6.5,
+          "unit": "oz"
+        }
+      },
+      {
+        "ingredient": "celery",
+        "amount": {
+          "qty": 2,
+          "unit": "stalk"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "manhattan_clam_chowder_i_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Chop all non-clam ingredients to match the clams in size.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

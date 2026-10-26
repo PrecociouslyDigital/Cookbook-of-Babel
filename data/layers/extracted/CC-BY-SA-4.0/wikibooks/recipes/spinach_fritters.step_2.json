@@ -1,0 +1,55 @@
+{
+  "id": "spinach_fritters.step_2",
+  "source": "wikibooks_spinach_fritters",
+  "sourceRef": {
+    "source": "wikibooks_spinach_fritters",
+    "step": 2
+  },
+  "technique": "chop",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "spinach_fritters_step_1",
+        "amount": {
+          "qty": 382.4,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "spinach",
+        "amount": {
+          "qty": 3,
+          "unit": "handful"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "spinach_fritters_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Chop the spinach and rocket leaves, and add them to the mixing bowl.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "mazorca_desgranada_colombian_beef_salad.step_4",
+  "source": "wikibooks_mazorca_desgranada_colombian_beef_salad",
+  "sourceRef": {
+    "source": "wikibooks_mazorca_desgranada_colombian_beef_salad",
+    "step": 4
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "mazorca_desgranada_colombian_beef_salad_step_3",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "mazorca_desgranada_colombian_beef_salad_step_4",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Place corn over the lettuce.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

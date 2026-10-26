@@ -1,0 +1,48 @@
+{
+  "id": "rice_tamale_pastel_de_arroz.step_5",
+  "source": "wikibooks_rice_tamale_pastel_de_arroz",
+  "sourceRef": {
+    "source": "wikibooks_rice_tamale_pastel_de_arroz",
+    "step": 5
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "rice_tamale_pastel_de_arroz_step_4",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "rice_tamale_pastel_de_arroz_step_5",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Place one unit of each meat evenly through the pastel.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

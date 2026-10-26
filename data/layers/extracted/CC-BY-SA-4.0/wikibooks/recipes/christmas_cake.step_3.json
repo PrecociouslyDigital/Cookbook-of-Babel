@@ -1,0 +1,48 @@
+{
+  "id": "christmas_cake.step_3",
+  "source": "wikibooks_christmas_cake",
+  "sourceRef": {
+    "source": "wikibooks_christmas_cake",
+    "step": 3
+  },
+  "technique": "age",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "christmas_cake_step_2",
+        "amount": {
+          "qty": 2050,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "christmas_cake_step_3",
+      "amount": {
+        "qty": 2050,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Mix and stir the fruit every day for at least three days; after a fortnight most of the alcohol will have soaked in and further soaking has no benefit.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

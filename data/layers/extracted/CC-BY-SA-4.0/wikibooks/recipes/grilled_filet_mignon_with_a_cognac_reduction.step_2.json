@@ -1,0 +1,62 @@
+{
+  "id": "grilled_filet_mignon_with_a_cognac_reduction.step_2",
+  "source": "wikibooks_grilled_filet_mignon_with_a_cognac_reduction",
+  "sourceRef": {
+    "source": "wikibooks_grilled_filet_mignon_with_a_cognac_reduction",
+    "step": 2
+  },
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "grilled_filet_mignon_with_a_cognac_reduction_step_1",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "pepper",
+        "amount": {
+          "qty": 2,
+          "unit": "tbsp"
+        }
+      },
+      {
+        "ingredient": "mustard",
+        "amount": {
+          "qty": 2,
+          "unit": "tbsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "grilled_filet_mignon_with_a_cognac_reduction_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Coat filet mignons with mustard on both sides and press into the black pepper, pressing lightly to help adhesion.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

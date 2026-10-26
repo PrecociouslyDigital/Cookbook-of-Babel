@@ -1,0 +1,55 @@
+{
+  "id": "klepon_indonesian_sweet_boiled_rice_cake.step_3",
+  "source": "wikibooks_klepon_indonesian_sweet_boiled_rice_cake",
+  "sourceRef": {
+    "source": "wikibooks_klepon_indonesian_sweet_boiled_rice_cake",
+    "step": 3
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "klepon_indonesian_sweet_boiled_rice_cake_step_2",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "white_sugar",
+        "amount": {
+          "qty": 150,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "klepon_indonesian_sweet_boiled_rice_cake_step_3",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Shape the dough into small balls about 2–3 cm in diameter. Make a small hole in the balls with your finger. Fill the hole with palm sugar, and seal the dough to enclose the sugar. Gently reshape it into a ball if necessary.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

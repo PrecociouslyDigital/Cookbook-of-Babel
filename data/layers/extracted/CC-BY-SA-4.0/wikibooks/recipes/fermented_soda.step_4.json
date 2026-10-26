@@ -1,0 +1,48 @@
+{
+  "id": "fermented_soda.step_4",
+  "source": "wikibooks_fermented_soda",
+  "sourceRef": {
+    "source": "wikibooks_fermented_soda",
+    "step": 4
+  },
+  "technique": "strain",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "fermented_soda_step_3",
+        "amount": {
+          "qty": 2209.1,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "fermented_soda",
+      "amount": {
+        "qty": 2209.1,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "If desired, strain the finished product. Store in the fridge.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

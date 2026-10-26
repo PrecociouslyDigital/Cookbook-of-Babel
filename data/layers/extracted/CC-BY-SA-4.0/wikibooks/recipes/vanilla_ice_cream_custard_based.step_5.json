@@ -1,0 +1,48 @@
+{
+  "id": "vanilla_ice_cream_custard_based.step_5",
+  "source": "wikibooks_vanilla_ice_cream_custard_based",
+  "sourceRef": {
+    "source": "wikibooks_vanilla_ice_cream_custard_based",
+    "step": 5
+  },
+  "technique": "cool",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "vanilla_ice_cream_custard_based_step_4",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "vanilla_ice_cream_custard_based_step_5",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Pour into a bowl and place in sink half-filled with cold water to cool.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": "tarhana_turkish_yogurt_soup.step_5",
+  "source": "wikibooks_tarhana_turkish_yogurt_soup",
+  "sourceRef": {
+    "source": "wikibooks_tarhana_turkish_yogurt_soup",
+    "step": 5
+  },
+  "technique": "evaporate",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "tarhana_turkish_yogurt_soup_step_4",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "tarhana_turkish_yogurt_soup_step_5",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Rub the dough between your hands onto a tray covered with parchment paper so that it forms small pieces. Cover the tray with cheesecloth or other protective mesh and leave to dry in a cool, well ventilated place. As it dries, break the dough into smaller pieces eventually crumbling it as small as you can. When it is completely dry (a week or more) pulverize in a blender, a little at a time. Store in freezer bags or large jars. Store in a cool place or refrigerate. May be kept up to 12 months.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.56"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

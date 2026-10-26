@@ -1,0 +1,74 @@
+{
+  "id": "spicy_garlic_oil.step_1",
+  "source": "wikibooks_spicy_garlic_oil",
+  "sourceRef": {
+    "source": "wikibooks_spicy_garlic_oil",
+    "step": 1
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "vegetable_oil",
+        "amount": {
+          "qty": 0.5,
+          "unit": "gal"
+        }
+      },
+      {
+        "ingredient": "garlic",
+        "amount": {
+          "qty": 40,
+          "unit": "clove"
+        }
+      },
+      {
+        "ingredient": "chiles",
+        "amount": {
+          "qty": 8,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "salt",
+        "amount": {
+          "qty": 0.5,
+          "unit": "tsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "spicy_garlic_oil_step_1",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Combine all ingredients in a large stockpot.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'8 Thai bird chiles, stemmed and halved': 'Thai' read as pieces"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

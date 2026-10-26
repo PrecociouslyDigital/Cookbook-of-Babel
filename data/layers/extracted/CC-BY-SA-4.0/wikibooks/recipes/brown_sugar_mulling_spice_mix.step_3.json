@@ -1,0 +1,53 @@
+{
+  "id": "brown_sugar_mulling_spice_mix.step_3",
+  "source": "wikibooks_brown_sugar_mulling_spice_mix",
+  "sourceRef": {
+    "source": "wikibooks_brown_sugar_mulling_spice_mix",
+    "step": 3
+  },
+  "technique": "age",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "brown_sugar_mulling_spice_mix_step_2",
+        "amount": {
+          "qty": 207.1,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "brown_sugar_mulling_spice_mix",
+      "amount": {
+        "qty": 207.1,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Store in an airtight container in a cool place.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.45"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

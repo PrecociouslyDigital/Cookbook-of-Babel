@@ -1,0 +1,53 @@
+{
+  "id": "german_puff_pastry.step_4",
+  "source": "wikibooks_german_puff_pastry",
+  "sourceRef": {
+    "source": "wikibooks_german_puff_pastry",
+    "step": 4
+  },
+  "technique": "chill",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "german_puff_pastry_step_3",
+        "amount": {
+          "qty": 1650,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "german_puff_pastry_step_4",
+      "amount": {
+        "qty": 1650,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 8,
+      "unit": "h"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Take each end of the \"cross\", lift it, and fold it on the top of the butter cube, literally wrapping it up like a gift. Cover in plastic wrap and refrigerate overnight.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.55"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "'overnight' read as 8 hours"
+    }
+  ]
+}

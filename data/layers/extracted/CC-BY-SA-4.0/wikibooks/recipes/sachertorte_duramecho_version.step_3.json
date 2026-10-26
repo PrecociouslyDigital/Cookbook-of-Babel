@@ -1,0 +1,55 @@
+{
+  "id": "sachertorte_duramecho_version.step_3",
+  "source": "wikibooks_sachertorte_duramecho_version",
+  "sourceRef": {
+    "source": "wikibooks_sachertorte_duramecho_version",
+    "step": 3
+  },
+  "technique": "whisk",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "sachertorte_duramecho_version_step_2",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "white_sugar",
+        "amount": {
+          "qty": 200,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "sachertorte_duramecho_version_step_3",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Whisk the whites until fairly stiff and foamy. Add three quarters of the sugar. Whip until fully stiff and foamy, incorporating as much air as possible.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

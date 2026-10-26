@@ -1,0 +1,60 @@
+{
+  "id": "wheat_modak_coconut_pastries.step_4",
+  "source": "wikibooks_wheat_modak_coconut_pastries",
+  "sourceRef": {
+    "source": "wikibooks_wheat_modak_coconut_pastries",
+    "step": 4
+  },
+  "technique": "evaporate",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "wheat_modak_coconut_pastries_step_3",
+        "amount": {
+          "qty": 954.5,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "coconut",
+        "amount": {
+          "qty": 1,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "wheat_modak_coconut_pastries_step_4",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 100,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 17.5,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Add coconut. Sauté for 15–20 minutes, until the mixture becomes very thick and almost dry.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.45"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of evaporate's typical range"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": "spanish_omelet.step_10",
+  "source": "wikibooks_spanish_omelet",
+  "sourceRef": {
+    "source": "wikibooks_spanish_omelet",
+    "step": 10
+  },
+  "technique": "pan_fry",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "spanish_omelet_step_9",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "spanish_omelet_step_10",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 185,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "You should now have an up-side-down omelette on your plate, cooked on top and raw underneath. Check the pan is clean and scrape any bits that have stuck in the pan off and add a bit of oil if it is looking dry. Now slide the omelette back into the pan to cook the bottom.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of pan_fry's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "id": "sweet_and_sour_sauce.step_4",
+  "source": "wikibooks_sweet_and_sour_sauce",
+  "sourceRef": {
+    "source": "wikibooks_sweet_and_sour_sauce",
+    "step": 4
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "sweet_and_sour_sauce_step_3",
+        "amount": {
+          "qty": 220.1,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "pineapple",
+        "amount": {
+          "qty": 20,
+          "unit": "oz"
+        }
+      },
+      {
+        "ingredient": "maraschino_cherry",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      },
+      {
+        "ingredient": "celery",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      },
+      {
+        "min": 0,
+        "max": 1,
+        "of": [
+          {
+            "ingredient": "chicken",
+            "amount": {
+              "qty": 1,
+              "unit": "pinch"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "sweet_and_sour_sauce_step_4",
+      "amount": {
+        "qty": 788,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 90,
+    "medium": "simmering_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Reduce heat, then add pineapple chunks, cherries, celery, and cooked meat.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.52"
+    },
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Maraschino cherries': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Celery, chopped': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Cooked meat (suggested: chicken or pork) or fish (optional)': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for maraschino_cherry, celery, chicken"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 90.0 °C for simmering_water"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

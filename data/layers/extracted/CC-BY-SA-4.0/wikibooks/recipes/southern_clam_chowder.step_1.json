@@ -1,0 +1,53 @@
+{
+  "id": "southern_clam_chowder.step_1",
+  "source": "wikibooks_southern_clam_chowder",
+  "sourceRef": {
+    "source": "wikibooks_southern_clam_chowder",
+    "step": 1
+  },
+  "technique": "separate",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "clam",
+        "amount": {
+          "qty": 1,
+          "unit": "qt"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "southern_clam_chowder_step_1",
+      "amount": {
+        "qty": 946.4,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Remove black parts from clams, saving the liquor.",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for clam"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

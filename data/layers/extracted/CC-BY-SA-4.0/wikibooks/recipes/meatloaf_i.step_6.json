@@ -1,0 +1,48 @@
+{
+  "id": "meatloaf_i.step_6",
+  "source": "wikibooks_meatloaf_i",
+  "sourceRef": {
+    "source": "wikibooks_meatloaf_i",
+    "step": 6
+  },
+  "technique": "bake",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "meatloaf_i_step_5",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "meatloaf_i",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 200,
+    "medium": "oven_air"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1.75,
+      "unit": "h"
+    }
+  },
+  "stateNote": "Bake another 1.5–2 hours until cooked through.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of bake's typical range"
+    }
+  ]
+}

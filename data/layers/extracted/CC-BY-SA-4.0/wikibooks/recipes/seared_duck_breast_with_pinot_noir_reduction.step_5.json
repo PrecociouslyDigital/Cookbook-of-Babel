@@ -1,0 +1,58 @@
+{
+  "id": "seared_duck_breast_with_pinot_noir_reduction.step_5",
+  "source": "wikibooks_seared_duck_breast_with_pinot_noir_reduction",
+  "sourceRef": {
+    "source": "wikibooks_seared_duck_breast_with_pinot_noir_reduction",
+    "step": 5
+  },
+  "technique": "evaporate",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "seared_duck_breast_with_pinot_noir_reduction_step_4",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "seared_duck_breast_with_pinot_noir_reduction",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 100,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Cook wine until reduced by ⅔. Slice duck on the bias and drizzle with sauce. Serve immediately.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of evaporate's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    },
+    {
+      "field": "inputs",
+      "kind": "missing",
+      "note": "no step uses '1 tbsp olive oil' (p=0.79)"
+    }
+  ]
+}

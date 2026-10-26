@@ -1,0 +1,83 @@
+{
+  "id": "snezhanka_bulgarian_cucumber_and_yogurt_salad.step_2",
+  "source": "wikibooks_snezhanka_bulgarian_cucumber_and_yogurt_salad",
+  "sourceRef": {
+    "source": "wikibooks_snezhanka_bulgarian_cucumber_and_yogurt_salad",
+    "step": 2
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "snezhanka_bulgarian_cucumber_and_yogurt_salad_step_1",
+        "amount": {
+          "qty": 1500,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "oil_and_fat",
+        "amount": {
+          "qty": 1.5,
+          "unit": "tbsp"
+        }
+      },
+      {
+        "ingredient": "vinegar",
+        "amount": {
+          "qty": 1,
+          "unit": "tbsp"
+        }
+      },
+      {
+        "ingredient": "salt",
+        "amount": {
+          "qty": 1,
+          "unit": "tsp"
+        }
+      },
+      {
+        "ingredient": "dill",
+        "amount": {
+          "qty": 2.5,
+          "unit": "tbsp"
+        }
+      },
+      {
+        "ingredient": "garlic",
+        "amount": {
+          "qty": 2.5,
+          "unit": "clove"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "snezhanka_bulgarian_cucumber_and_yogurt_salad_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Mix all the ingredients except for the walnuts.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

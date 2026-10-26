@@ -1,0 +1,60 @@
+{
+  "id": "coffee_mousse.step_1",
+  "source": "wikibooks_coffee_mousse",
+  "sourceRef": {
+    "source": "wikibooks_coffee_mousse",
+    "step": 1
+  },
+  "technique": "dissolve",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "gelatin",
+        "amount": {
+          "qty": 10,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "cream",
+        "amount": {
+          "qty": 2.5,
+          "unit": "tbsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "coffee_mousse_step_1",
+      "amount": {
+        "qty": 47,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Sprinkle the powdered gelatin over the cream. Let sit for a few minutes to bloom the gelatin.",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for cream"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

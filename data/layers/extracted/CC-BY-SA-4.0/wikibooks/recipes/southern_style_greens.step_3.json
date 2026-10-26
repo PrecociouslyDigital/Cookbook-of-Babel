@@ -1,0 +1,80 @@
+{
+  "id": "southern_style_greens.step_3",
+  "source": "wikibooks_southern_style_greens",
+  "sourceRef": {
+    "source": "wikibooks_southern_style_greens",
+    "step": 3
+  },
+  "technique": "simmer",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "southern_style_greens_step_2",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "min": 0,
+        "max": 1,
+        "of": [
+          {
+            "ingredient": "salt",
+            "amount": {
+              "qty": 1.5,
+              "unit": "tsp"
+            }
+          }
+        ]
+      },
+      {
+        "ingredient": "pepper",
+        "amount": {
+          "qty": 1.5,
+          "unit": "tsp"
+        }
+      },
+      {
+        "ingredient": "broth_and_stock",
+        "amount": {
+          "qty": 0.5,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "southern_style_greens",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 90,
+    "medium": "simmering_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 45,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Add remaining ingredients and lower heat to medium low. Cook for 45 minutes. Defat if needed.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.59"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of simmer's typical range"
+    }
+  ]
+}

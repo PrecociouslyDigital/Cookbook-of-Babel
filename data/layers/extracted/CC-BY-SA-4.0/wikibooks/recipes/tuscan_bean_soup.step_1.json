@@ -1,0 +1,65 @@
+{
+  "id": "tuscan_bean_soup.step_1",
+  "source": "wikibooks_tuscan_bean_soup",
+  "sourceRef": {
+    "source": "wikibooks_tuscan_bean_soup",
+    "step": 1
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "cranberry",
+        "amount": {
+          "qty": 3,
+          "unit": "cup"
+        }
+      },
+      {
+        "ingredient": "spelt",
+        "amount": {
+          "qty": 1,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "tuscan_bean_soup_step_1",
+      "amount": {
+        "qty": 946.4,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 8,
+      "unit": "h"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Soak beans and spelt overnight in separate bowls of cold water.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.41"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for cranberry, spelt"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "'overnight' read as 8 hours"
+    }
+  ]
+}

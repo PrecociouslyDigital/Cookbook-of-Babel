@@ -1,0 +1,48 @@
+{
+  "id": "dominican_flan.step_4",
+  "source": "wikibooks_dominican_flan",
+  "sourceRef": {
+    "source": "wikibooks_dominican_flan",
+    "step": 4
+  },
+  "technique": "cool",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "dominican_flan_step_3",
+        "amount": {
+          "qty": 109.4,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "dominican_flan_step_4",
+      "amount": {
+        "qty": 109.4,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Set it aside, and let it cool.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "id": "rosemary_and_citrus_cordial.step_3",
+  "source": "wikibooks_rosemary_and_citrus_cordial",
+  "sourceRef": {
+    "source": "wikibooks_rosemary_and_citrus_cordial",
+    "step": 3
+  },
+  "technique": "grind",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "rosemary_and_citrus_cordial_step_2",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "rosemary",
+        "amount": {
+          "qty": 20,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "rosemary_and_citrus_cordial_step_3",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Using a rolling pin, roll over the rosemary sprigs a few times on a chopping board to release the oils.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

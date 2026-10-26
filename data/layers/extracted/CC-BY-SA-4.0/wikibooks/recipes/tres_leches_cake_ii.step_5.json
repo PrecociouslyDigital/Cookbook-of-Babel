@@ -1,0 +1,48 @@
+{
+  "id": "tres_leches_cake_ii.step_5",
+  "source": "wikibooks_tres_leches_cake_ii",
+  "sourceRef": {
+    "source": "wikibooks_tres_leches_cake_ii",
+    "step": 5
+  },
+  "technique": "chill",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "tres_leches_cake_ii_step_4",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "tres_leches_cake_ii_step_5",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 8,
+      "unit": "h"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Cover the cake, and refrigerate it for 8 hours or overnight.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "the step names several durations; used the first"
+    }
+  ]
+}

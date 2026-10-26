@@ -1,0 +1,55 @@
+{
+  "id": "general_tso_s_chicken.step_3",
+  "source": "wikibooks_general_tso_s_chicken",
+  "sourceRef": {
+    "source": "wikibooks_general_tso_s_chicken",
+    "step": 3
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "general_tso_s_chicken_step_2",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "starch",
+        "amount": {
+          "qty": 2.5,
+          "unit": "tbsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "general_tso_s_chicken_step_3",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Add the chicken pieces to the egg mixture, and stir in the cornstarch to thicken the mixture.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

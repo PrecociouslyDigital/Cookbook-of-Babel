@@ -1,0 +1,62 @@
+{
+  "id": "frog_s_eye_salad.step_2",
+  "source": "wikibooks_frog_s_eye_salad",
+  "sourceRef": {
+    "source": "wikibooks_frog_s_eye_salad",
+    "step": 2
+  },
+  "technique": "strain",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "frog_s_eye_salad_step_1",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "pineapple",
+        "amount": {
+          "qty": 35,
+          "unit": "oz"
+        }
+      },
+      {
+        "ingredient": "mandarin_orange",
+        "amount": {
+          "qty": 35,
+          "unit": "oz"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "frog_s_eye_salad_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Drain cans of pineapple and oranges, reserving juice.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

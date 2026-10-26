@@ -1,0 +1,65 @@
+{
+  "id": "egg_roll.step_7",
+  "source": "wikibooks_egg_roll",
+  "sourceRef": {
+    "source": "wikibooks_egg_roll",
+    "step": 7
+  },
+  "technique": "rinse",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "egg_roll_step_6",
+        "amount": {
+          "qty": 1.8,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "bean_sprout",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "egg_roll_step_7",
+      "amount": {
+        "qty": 2.1,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Wash the bean sprouts, discarding any that are not white and crisp.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Bean sprouts': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for bean_sprout"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

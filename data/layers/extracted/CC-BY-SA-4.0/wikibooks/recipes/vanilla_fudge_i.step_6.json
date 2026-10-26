@@ -1,0 +1,48 @@
+{
+  "id": "vanilla_fudge_i.step_6",
+  "source": "wikibooks_vanilla_fudge_i",
+  "sourceRef": {
+    "source": "wikibooks_vanilla_fudge_i",
+    "step": 6
+  },
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "vanilla_fudge_i_step_5",
+        "amount": {
+          "qty": 1081.4,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "vanilla_fudge_i",
+      "amount": {
+        "qty": 1081.4,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Cut fudge into pieces.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

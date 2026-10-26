@@ -1,0 +1,48 @@
+{
+  "id": "pastries_filled_with_jam_marmeladetascherl.step_7",
+  "source": "wikibooks_pastries_filled_with_jam_marmeladetascherl",
+  "sourceRef": {
+    "source": "wikibooks_pastries_filled_with_jam_marmeladetascherl",
+    "step": 7
+  },
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "pastries_filled_with_jam_marmeladetascherl_step_6",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "pastries_filled_with_jam_marmeladetascherl",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Before serving, dust some sugar onto the tascherl to add some extra flavour.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

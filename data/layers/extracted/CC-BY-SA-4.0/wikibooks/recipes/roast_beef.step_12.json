@@ -1,0 +1,60 @@
+{
+  "id": "roast_beef.step_12",
+  "source": "wikibooks_roast_beef",
+  "sourceRef": {
+    "source": "wikibooks_roast_beef",
+    "step": 12
+  },
+  "technique": "evaporate",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "roast_beef_step_11",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "glass_of_red_wine",
+        "amount": {
+          "qty": 1,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "roast_beef_step_12",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 100,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Place the roasting dish on the stove (if need be light 2 rings, one for either end) and allow the juice to heat up a little. Add the red wine to the dish, and thoroughly deglaze the dish on a high heat. This will also evaporate the alcohol from the wine.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of evaporate's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

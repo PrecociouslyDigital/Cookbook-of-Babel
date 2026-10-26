@@ -1,0 +1,53 @@
+{
+  "id": "cauliflower_cheese.step_2",
+  "source": "wikibooks_cauliflower_cheese",
+  "sourceRef": {
+    "source": "wikibooks_cauliflower_cheese",
+    "step": 2
+  },
+  "technique": "boil",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "cauliflower_cheese_step_1",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "cauliflower_cheese_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 100,
+    "medium": "boiling_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Drain florets, and add them to a saucepan of salted boiling water. Cook, uncovered, regularly checking the feel of the cauliflower with a knife to see when they are ready. Your knife should go smoothly, but with some firmness to the cauliflower still.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of boil's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

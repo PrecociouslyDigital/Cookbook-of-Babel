@@ -1,0 +1,104 @@
+{
+  "id": "nigerian_palm_oil_boiled_yam_ji_mmanu.step_2",
+  "source": "wikibooks_nigerian_palm_oil_boiled_yam_ji_mmanu",
+  "sourceRef": {
+    "source": "wikibooks_nigerian_palm_oil_boiled_yam_ji_mmanu",
+    "step": 2
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "nigerian_palm_oil_boiled_yam_ji_mmanu_step_1",
+        "amount": {
+          "qty": 0.7,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "palm_oil",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      },
+      {
+        "ingredient": "chiles",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      },
+      {
+        "ingredient": "utazi",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "nigerian_palm_oil_boiled_yam_ji_mmanu",
+      "amount": {
+        "qty": 1.6,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Drain the yam pieces. Toss the yam with palm oil, salt, fresh pepper, and utazi leaves.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.58"
+    },
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.57"
+    },
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Fresh palm oil': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Fresh chile pepper, blended to paste': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Utazi leaves, shredded': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for palm_oil, chiles, utazi"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    },
+    {
+      "field": "inputs",
+      "kind": "missing",
+      "note": "no step uses 'Onion (optional)' (p=0.9)"
+    }
+  ]
+}

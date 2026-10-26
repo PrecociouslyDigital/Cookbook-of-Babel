@@ -1,0 +1,48 @@
+{
+  "id": "creamed_corn.step_2",
+  "source": "wikibooks_creamed_corn",
+  "sourceRef": {
+    "source": "wikibooks_creamed_corn",
+    "step": 2
+  },
+  "technique": "blend",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "creamed_corn_step_1",
+        "amount": {
+          "qty": 432.3,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "creamed_corn_step_2",
+      "amount": {
+        "qty": 432.3,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Put half of the corn into a bowl and purée it with a wand blender, adding some liquid from the can if necessary to keep it from getting too dry.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

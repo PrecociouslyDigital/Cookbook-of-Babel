@@ -1,0 +1,53 @@
+{
+  "id": "carpetbag_steak.step_1",
+  "source": "wikibooks_carpetbag_steak",
+  "sourceRef": {
+    "source": "wikibooks_carpetbag_steak",
+    "step": 1
+  },
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "pan_fried_beef_steak",
+        "amount": {
+          "qty": 1,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "carpetbag_steak_step_1",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Cut a small pocket, approximately 6 cm (2.5 inches) in length and about the same depth, in the edge of the thick steak.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'1 Scotch fillet steak (thickly-cut)': 'Scotch' read as pieces"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

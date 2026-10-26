@@ -1,0 +1,48 @@
+{
+  "id": "blueberry_pancakes.step_3",
+  "source": "wikibooks_blueberry_pancakes",
+  "sourceRef": {
+    "source": "wikibooks_blueberry_pancakes",
+    "step": 3
+  },
+  "technique": "fold",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "blueberry_pancakes_step_2",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "blueberry_pancakes_step_3",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Whip egg whites in a small bowl until stiff, but do not let dry peaks form. Fold into pancake batter.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

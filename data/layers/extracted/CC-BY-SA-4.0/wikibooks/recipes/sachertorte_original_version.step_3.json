@@ -1,0 +1,72 @@
+{
+  "id": "sachertorte_original_version.step_3",
+  "source": "wikibooks_sachertorte_original_version",
+  "sourceRef": {
+    "source": "wikibooks_sachertorte_original_version",
+    "step": 3
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "sachertorte_original_version_step_2",
+        "amount": {
+          "qty": 170,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "chocolate",
+        "amount": {
+          "qty": 6.5,
+          "unit": "oz"
+        }
+      },
+      {
+        "ingredient": "white_sugar",
+        "amount": {
+          "qty": 170,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "sachertorte_original_version_step_3",
+      "amount": {
+        "qty": 524.3,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 180,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Melt chocolate. Add sugar and chocolate to butter; stir.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.52"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 180.0 °C for pan_contact"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

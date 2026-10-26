@@ -1,0 +1,60 @@
+{
+  "id": "cherries_jubilee.step_2",
+  "source": "wikibooks_cherries_jubilee",
+  "sourceRef": {
+    "source": "wikibooks_cherries_jubilee",
+    "step": 2
+  },
+  "technique": "pan_fry",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "cherries_jubilee_step_1",
+        "amount": {
+          "qty": 340.9,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "butter",
+        "amount": {
+          "qty": 2,
+          "unit": "tbsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "cherries_jubilee_step_2",
+      "amount": {
+        "qty": 370.5,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 185,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 4.5,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Melt butter in a large skillet over medium heat. Add cherries and sauté until slightly browned, 4–5 minutes.",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for butter"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of pan_fry's typical range"
+    }
+  ]
+}

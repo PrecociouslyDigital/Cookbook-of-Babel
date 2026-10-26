@@ -1,0 +1,75 @@
+{
+  "id": "okonomiyaki_japanese_savory_pancake.step_2",
+  "source": "wikibooks_okonomiyaki_japanese_savory_pancake",
+  "sourceRef": {
+    "source": "wikibooks_okonomiyaki_japanese_savory_pancake",
+    "step": 2
+  },
+  "technique": "fold",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "okonomiyaki_japanese_savory_pancake_step_1",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "cabbage",
+        "amount": {
+          "qty": 0.75,
+          "unit": "cup"
+        }
+      },
+      {
+        "ingredient": "green_onion",
+        "amount": {
+          "qty": 2.5,
+          "unit": "piece"
+        }
+      },
+      {
+        "min": 0,
+        "max": 1,
+        "of": [
+          {
+            "ingredient": "mozzarella_cheese",
+            "amount": {
+              "qty": 0.25,
+              "unit": "cup"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "okonomiyaki_japanese_savory_pancake_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Gently fold in cabbage, green onions and cheese.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

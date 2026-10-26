@@ -1,0 +1,55 @@
+{
+  "id": "almond_milk_ii.step_4",
+  "source": "wikibooks_almond_milk_ii",
+  "sourceRef": {
+    "source": "wikibooks_almond_milk_ii",
+    "step": 4
+  },
+  "technique": "blend",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "almond_milk_ii_step_3",
+        "amount": {
+          "qty": 236.9,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "date",
+        "amount": {
+          "qty": 3,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "almond_milk_ii_step_4",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Return the strained almond milk into the blender. Add the dates and blend until there is no longer any visible change in color or consistency.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

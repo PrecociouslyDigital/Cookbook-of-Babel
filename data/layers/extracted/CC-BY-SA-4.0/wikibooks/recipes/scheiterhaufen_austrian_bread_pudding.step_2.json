@@ -1,0 +1,55 @@
+{
+  "id": "scheiterhaufen_austrian_bread_pudding.step_2",
+  "source": "wikibooks_scheiterhaufen_austrian_bread_pudding",
+  "sourceRef": {
+    "source": "wikibooks_scheiterhaufen_austrian_bread_pudding",
+    "step": 2
+  },
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "scheiterhaufen_austrian_bread_pudding_step_1",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "bread",
+        "amount": {
+          "qty": 17.5,
+          "unit": "oz"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "scheiterhaufen_austrian_bread_pudding_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Cut the bread into slices about the same size as the fruit.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

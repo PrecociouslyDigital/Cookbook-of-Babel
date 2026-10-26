@@ -1,0 +1,79 @@
+{
+  "id": "chalupa.step_2",
+  "source": "wikibooks_chalupa",
+  "sourceRef": {
+    "source": "wikibooks_chalupa",
+    "step": 2
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "chalupa_step_1",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "south_texan_pinto_beans",
+        "amount": {
+          "qty": 6,
+          "unit": "cup"
+        }
+      },
+      {
+        "ingredient": "queso_fresco",
+        "amount": {
+          "qty": 0.5,
+          "unit": "lb"
+        }
+      },
+      {
+        "ingredient": "onion",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "chalupa_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 175,
+    "medium": "frying_oil"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Fry the tortilla completely flat in the oil, on both sides, until very crisp. Drain and keep the fried tortilla warm on a newspaper or paper towel-covered cookie sheet in a warm oven. Spread a layer of refried beans on each fried tortilla, about ¼ inch thick. Top with a generous amount of grated cheddar cheese and about 1 tablespoon of chopped onion.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Chopped onion': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 175.0 °C for frying_oil"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

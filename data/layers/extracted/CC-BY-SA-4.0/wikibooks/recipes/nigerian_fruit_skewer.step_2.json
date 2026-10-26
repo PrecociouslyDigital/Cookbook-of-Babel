@@ -1,0 +1,48 @@
+{
+  "id": "nigerian_fruit_skewer.step_2",
+  "source": "wikibooks_nigerian_fruit_skewer",
+  "sourceRef": {
+    "source": "wikibooks_nigerian_fruit_skewer",
+    "step": 2
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "nigerian_fruit_skewer_step_1",
+        "amount": {
+          "qty": 1.9,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "nigerian_fruit_skewer",
+      "amount": {
+        "qty": 1.9,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Thread the fruit chunks onto a skewer.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

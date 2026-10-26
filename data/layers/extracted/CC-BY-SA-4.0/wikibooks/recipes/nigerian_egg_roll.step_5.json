@@ -1,0 +1,55 @@
+{
+  "id": "nigerian_egg_roll.step_5",
+  "source": "wikibooks_nigerian_egg_roll",
+  "sourceRef": {
+    "source": "wikibooks_nigerian_egg_roll",
+    "step": 5
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "nigerian_egg_roll_step_4",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "hard_cooked_eggs",
+        "amount": {
+          "qty": 6,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "nigerian_egg_roll_step_5",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Flatten each piece of dough with your hands. Place one boiled egg on the dough, and wrap the dough around the egg to completely enclose it. Pinch the dough to tightly seal it around the egg. Repeat this process until all the eggs are wrapped.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

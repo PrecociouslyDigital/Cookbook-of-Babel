@@ -1,0 +1,53 @@
+{
+  "id": "grilled_filet_mignon.step_3",
+  "source": "wikibooks_grilled_filet_mignon",
+  "sourceRef": {
+    "source": "wikibooks_grilled_filet_mignon",
+    "step": 3
+  },
+  "technique": "grill",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "grilled_filet_mignon_step_2",
+        "amount": {
+          "qty": 838.8,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "grilled_filet_mignon_step_3",
+      "amount": {
+        "qty": 838.8,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 62.77777777777778,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Move steaks to a cooler part of grill and cook, turning often, until internal temperature reaches 145°F for medium rare.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.33"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

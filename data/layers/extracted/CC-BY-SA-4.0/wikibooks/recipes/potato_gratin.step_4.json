@@ -1,0 +1,53 @@
+{
+  "id": "potato_gratin.step_4",
+  "source": "wikibooks_potato_gratin",
+  "sourceRef": {
+    "source": "wikibooks_potato_gratin",
+    "step": 4
+  },
+  "technique": "evaporate",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "potato_gratin_step_3",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "potato_gratin_step_4",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Pour away the water and place the potatoes on a wooden surface. Then pat dry with a paper towel or kitchen towel, which is important because otherwise the remaining water will mix with the cream, causing curdling problems.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.35"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

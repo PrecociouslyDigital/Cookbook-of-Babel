@@ -1,0 +1,48 @@
+{
+  "id": "khanom_mo_keang_thai_custard.step_7",
+  "source": "wikibooks_khanom_mo_keang_thai_custard",
+  "sourceRef": {
+    "source": "wikibooks_khanom_mo_keang_thai_custard",
+    "step": 7
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "khanom_mo_keang_thai_custard_step_6",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "khanom_mo_keang_thai_custard",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Put some of the fried shallots over the top of the custard.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

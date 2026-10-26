@@ -1,0 +1,53 @@
+{
+  "id": "apple_cider_syrup.step_8",
+  "source": "wikibooks_apple_cider_syrup",
+  "sourceRef": {
+    "source": "wikibooks_apple_cider_syrup",
+    "step": 8
+  },
+  "technique": "cool",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "apple_cider_syrup_step_7",
+        "amount": {
+          "qty": 3785.4,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "apple_cider_syrup",
+      "amount": {
+        "qty": 3785.4,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Remove from the heat, and transfer to clean jars. Let cool.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.54"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

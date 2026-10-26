@@ -1,0 +1,75 @@
+{
+  "id": "barbecue_potato_chips.step_3",
+  "source": "wikibooks_barbecue_potato_chips",
+  "sourceRef": {
+    "source": "wikibooks_barbecue_potato_chips",
+    "step": 3
+  },
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "barbecue_potato_chips_step_2",
+        "amount": {
+          "qty": 453.9,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "barbecue_rub",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "barbecue_potato_chips",
+      "amount": {
+        "qty": 454.2,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 20,
+    "medium": "still_air"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Once all potatoes have been fried, sprinkle liberally with the barbecue rub.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.49"
+    },
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Barbecue Rub': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for barbecue_rub"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 20.0 °C for still_air"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

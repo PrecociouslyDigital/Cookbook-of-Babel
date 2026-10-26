@@ -1,0 +1,48 @@
+{
+  "id": "dumboy_and_pepper_soup.step_3",
+  "source": "wikibooks_dumboy_and_pepper_soup",
+  "sourceRef": {
+    "source": "wikibooks_dumboy_and_pepper_soup",
+    "step": 3
+  },
+  "technique": "grind",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "dumboy_and_pepper_soup_step_2",
+        "amount": {
+          "qty": 0.3,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "dumboy_and_pepper_soup_step_3",
+      "amount": {
+        "qty": 0.3,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Mash the cassava in a mortar until it begins to form a sticky dough. Occasionally, you can moisten the pestle with a little water if necessary.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

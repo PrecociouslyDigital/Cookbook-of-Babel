@@ -1,0 +1,53 @@
+{
+  "id": "kale_and_garlic_pasta.step_4",
+  "source": "wikibooks_kale_and_garlic_pasta",
+  "sourceRef": {
+    "source": "wikibooks_kale_and_garlic_pasta",
+    "step": 4
+  },
+  "technique": "evaporate",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "kale_and_garlic_pasta_step_3",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "kale_and_garlic_pasta_step_4",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 100,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Cook the kale and garlic over medium heat, stirring, until most or all of the liquid evaporates. The greens should become very dark and soft. Add a splash of water or olive oil if they stick to the pan too much.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of evaporate's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

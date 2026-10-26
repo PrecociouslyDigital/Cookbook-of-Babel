@@ -1,0 +1,48 @@
+{
+  "id": "molasses_glazed_pork_chops.step_5",
+  "source": "wikibooks_molasses_glazed_pork_chops",
+  "sourceRef": {
+    "source": "wikibooks_molasses_glazed_pork_chops",
+    "step": 5
+  },
+  "technique": "grill",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "molasses_glazed_pork_chops_step_4",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "molasses_glazed_pork_chops",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 10,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Flip to the other side and repeat. Remove from grill and let rest for 10 minutes. Serve with additional marinade.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.4"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "id": "denver_crunch.step_6",
+  "source": "wikibooks_denver_crunch",
+  "sourceRef": {
+    "source": "wikibooks_denver_crunch",
+    "step": 6
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "denver_crunch_step_5",
+        "amount": {
+          "qty": 1715.1,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "fruit_filling",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "denver_crunch",
+      "amount": {
+        "qty": 1715.4,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Top with your favorite fruit filling.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Fruit filling of choice': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for fruit_filling"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

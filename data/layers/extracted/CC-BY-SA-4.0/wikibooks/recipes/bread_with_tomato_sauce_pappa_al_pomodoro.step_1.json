@@ -1,0 +1,53 @@
+{
+  "id": "bread_with_tomato_sauce_pappa_al_pomodoro.step_1",
+  "source": "wikibooks_bread_with_tomato_sauce_pappa_al_pomodoro",
+  "sourceRef": {
+    "source": "wikibooks_bread_with_tomato_sauce_pappa_al_pomodoro",
+    "step": 1
+  },
+  "technique": "rinse",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "bread",
+        "amount": {
+          "qty": 0.5,
+          "unit": "loaf"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "bread_with_tomato_sauce_pappa_al_pomodoro_step_1",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Dip the bread in water for a short time, so that you can crush it with your hands. It should not be soaked.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.43"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

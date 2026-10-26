@@ -1,0 +1,81 @@
+{
+  "id": "goong_ten_raw_shrimp_salad.step_3",
+  "source": "wikibooks_goong_ten_raw_shrimp_salad",
+  "sourceRef": {
+    "source": "wikibooks_goong_ten_raw_shrimp_salad",
+    "step": 3
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "goong_ten_raw_shrimp_salad_step_2",
+        "amount": {
+          "qty": 236.6,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "fish_sauce",
+        "amount": {
+          "qty": 2,
+          "unit": "tbsp"
+        }
+      },
+      {
+        "ingredient": "white_sugar",
+        "amount": {
+          "qty": 2,
+          "unit": "tbsp"
+        }
+      },
+      {
+        "ingredient": "chiles",
+        "amount": {
+          "qty": 1,
+          "unit": "tbsp"
+        }
+      },
+      {
+        "ingredient": "lime",
+        "amount": {
+          "qty": 1,
+          "unit": "tbsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "goong_ten_raw_shrimp_salad_step_3",
+      "amount": {
+        "qty": 320.9,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Make the spicy sauce by combining the fish sauce, sugar, chili, and lime juice together. Test and flavor it as desired. Add more chili for a more spicy taste or add more lime for a more sour taste.",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for fish_sauce, chiles, lime"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "id": "prata.step_2",
+  "source": "wikibooks_prata",
+  "sourceRef": {
+    "source": "wikibooks_prata",
+    "step": 2
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "prata_step_1",
+        "amount": {
+          "qty": 515.9,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "clarified_butter",
+        "amount": {
+          "qty": 2,
+          "unit": "tbsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "prata_step_2",
+      "amount": {
+        "qty": 545.5,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Add the ghee and mix well.",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for clarified_butter"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

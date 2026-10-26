@@ -1,0 +1,99 @@
+{
+  "id": "brazilian_feijoada.step_3",
+  "source": "wikibooks_brazilian_feijoada",
+  "sourceRef": {
+    "source": "wikibooks_brazilian_feijoada",
+    "step": 3
+  },
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "brazilian_feijoada_step_2",
+        "amount": {
+          "qty": 227.2,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "beef",
+        "amount": {
+          "qty": 2,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "sausage",
+        "amount": {
+          "qty": 1,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "ham_steak",
+        "amount": {
+          "qty": 0.25,
+          "unit": "lb"
+        }
+      },
+      {
+        "ingredient": "smoked_pork_chops",
+        "amount": {
+          "qty": 1,
+          "unit": "package"
+        }
+      },
+      {
+        "min": 0,
+        "max": 1,
+        "of": [
+          {
+            "ingredient": "jerked_beef",
+            "amount": {
+              "qty": 1,
+              "unit": "pinch"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "brazilian_feijoada_step_3",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "On the day of cooking and serving, cut the filet mignon into 1-inch cubes. Slice the smoked sausage as thick as you wish. Cut the bacon into small cubes. Cut the ham steak into 1-inch cubes. Cut the smoked pork chops into small pieces. Do not cast away the bone yet; leave some meat on it to be cooked altogether. If you are also using jerked beef, cut the pieces proportionally to the rest of the meat. If any part of the meat has bones, leave part of the meat on the bones to be cooked altogether.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'1 smoked sausage': 'smoked' read as pieces"
+    },
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Jerked beef (optional)': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

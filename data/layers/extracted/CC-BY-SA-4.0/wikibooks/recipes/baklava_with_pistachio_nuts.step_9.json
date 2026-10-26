@@ -1,0 +1,53 @@
+{
+  "id": "baklava_with_pistachio_nuts.step_9",
+  "source": "wikibooks_baklava_with_pistachio_nuts",
+  "sourceRef": {
+    "source": "wikibooks_baklava_with_pistachio_nuts",
+    "step": 9
+  },
+  "technique": "strain",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "baklava_with_pistachio_nuts_step_8",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "baklava_with_pistachio_nuts",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 10,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Let it sit for about 5–15 minutes, then drain off the excess syrup by tilting the pan as much as 45 degrees. Let it cool to near room temperature before eating.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.5"
+    },
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.42"
+    }
+  ]
+}

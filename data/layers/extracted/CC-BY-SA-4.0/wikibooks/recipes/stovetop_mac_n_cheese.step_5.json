@@ -1,0 +1,58 @@
+{
+  "id": "stovetop_mac_n_cheese.step_5",
+  "source": "wikibooks_stovetop_mac_n_cheese",
+  "sourceRef": {
+    "source": "wikibooks_stovetop_mac_n_cheese",
+    "step": 5
+  },
+  "technique": "fold",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "stovetop_mac_n_cheese_step_4",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "stovetop_mac_n_cheese",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 180,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Fold in macaroni and serve warm.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 180.0 °C for pan_contact"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    },
+    {
+      "field": "inputs",
+      "kind": "missing",
+      "note": "no step uses '6 ounces heavy cream' (p=0.77)"
+    }
+  ]
+}

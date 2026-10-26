@@ -1,0 +1,48 @@
+{
+  "id": "native_jollof_spaghetti.step_1",
+  "source": "wikibooks_native_jollof_spaghetti",
+  "sourceRef": {
+    "source": "wikibooks_native_jollof_spaghetti",
+    "step": 1
+  },
+  "technique": "boil",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "pasta",
+        "amount": {
+          "qty": 300,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "native_jollof_spaghetti_step_1",
+      "amount": {
+        "qty": 300,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 100,
+    "medium": "boiling_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 5,
+      "unit": "min"
+    }
+  },
+  "stateNote": "In a medium-size pot, bring water to a boil. Add the spaghetti, and boil for 5 minutes. Drain in a sieve, and rinse with cold water.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of boil's typical range"
+    }
+  ]
+}

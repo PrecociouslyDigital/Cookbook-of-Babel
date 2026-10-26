@@ -1,0 +1,53 @@
+{
+  "id": "yemiser_selatta_ethiopian_lentil_salad.step_1",
+  "source": "wikibooks_yemiser_selatta_ethiopian_lentil_salad",
+  "sourceRef": {
+    "source": "wikibooks_yemiser_selatta_ethiopian_lentil_salad",
+    "step": 1
+  },
+  "technique": "rinse",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "lentil",
+        "amount": {
+          "qty": 1,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "yemiser_selatta_ethiopian_lentil_salad_step_1",
+      "amount": {
+        "qty": 236.6,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Rinse the lentils thoroughly to remove any impurities.",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for lentil"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

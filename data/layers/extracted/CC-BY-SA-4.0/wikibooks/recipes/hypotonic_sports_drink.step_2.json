@@ -1,0 +1,67 @@
+{
+  "id": "hypotonic_sports_drink.step_2",
+  "source": "wikibooks_hypotonic_sports_drink",
+  "sourceRef": {
+    "source": "wikibooks_hypotonic_sports_drink",
+    "step": 2
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "hypotonic_sports_drink_step_1",
+        "amount": {
+          "qty": 450,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "salt",
+        "amount": {
+          "qty": 0.125,
+          "unit": "tsp"
+        }
+      },
+      {
+        "ingredient": "cordial",
+        "amount": {
+          "qty": 50,
+          "unit": "ml"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "hypotonic_sports_drink_step_2",
+      "amount": {
+        "qty": 500.7,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Stir in the salt until fully dissolved, then mix in the cordial. Stir thoroughly until evenly mixed.",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for cordial"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "id": "saffron_sweet_rice.step_5",
+  "source": "wikibooks_saffron_sweet_rice",
+  "sourceRef": {
+    "source": "wikibooks_saffron_sweet_rice",
+    "step": 5
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "saffron_sweet_rice_step_4",
+        "amount": {
+          "qty": 580.3,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "almond",
+        "amount": {
+          "qty": 0.375,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "saffron_sweet_rice_step_5",
+      "amount": {
+        "qty": 669,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 180,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Add almonds.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.51"
+    },
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.5"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for almond"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 180.0 °C for pan_contact"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

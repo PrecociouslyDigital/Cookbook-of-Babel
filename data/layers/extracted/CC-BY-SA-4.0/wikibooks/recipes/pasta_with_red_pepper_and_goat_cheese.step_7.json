@@ -1,0 +1,53 @@
+{
+  "id": "pasta_with_red_pepper_and_goat_cheese.step_7",
+  "source": "wikibooks_pasta_with_red_pepper_and_goat_cheese",
+  "sourceRef": {
+    "source": "wikibooks_pasta_with_red_pepper_and_goat_cheese",
+    "step": 7
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "pasta_with_red_pepper_and_goat_cheese_step_6",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "pasta_with_red_pepper_and_goat_cheese",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "As soon as the pasta and sauce are ready, toss them and the goat cheese together in your serving dish. You have to do this fast, so the goat cheese will melt through the sauce and over the pasta. Stirring the goat cheese into the sauce could result in burned sauce.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.28"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "baked_cabbage_and_bacon.step_4",
+  "source": "wikibooks_baked_cabbage_and_bacon",
+  "sourceRef": {
+    "source": "wikibooks_baked_cabbage_and_bacon",
+    "step": 4
+  },
+  "technique": "bake",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "baked_cabbage_and_bacon_step_3",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "baked_cabbage_and_bacon",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 200,
+    "medium": "oven_air"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 15,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Transfer mixture to a glass baking dish. Bake 15 minutes at 180˚C.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of bake's typical range"
+    }
+  ]
+}

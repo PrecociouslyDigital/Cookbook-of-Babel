@@ -1,0 +1,58 @@
+{
+  "id": "roast_beef_round_with_au_jus.step_5",
+  "source": "wikibooks_roast_beef_round_with_au_jus",
+  "sourceRef": {
+    "source": "wikibooks_roast_beef_round_with_au_jus",
+    "step": 5
+  },
+  "technique": "heat",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "roast_beef_round_with_au_jus_step_4",
+        "amount": {
+          "qty": 1211.2,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "roast_beef_round_with_au_jus_step_5",
+      "amount": {
+        "qty": 1211.2,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 180,
+    "medium": "oven_air"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Remove roast from pan and keep warm.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.35"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 180.0 °C for oven_air"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

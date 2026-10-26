@@ -1,0 +1,48 @@
+{
+  "id": "mayonnaise_vegan.step_1",
+  "source": "wikibooks_mayonnaise_vegan",
+  "sourceRef": {
+    "source": "wikibooks_mayonnaise_vegan",
+    "step": 1
+  },
+  "technique": "blend",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "tofu",
+        "amount": {
+          "qty": 6,
+          "unit": "oz"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "mayonnaise_vegan_step_1",
+      "amount": {
+        "qty": 170.1,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Drain the tofu and blend in a food processor/blender until smooth.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

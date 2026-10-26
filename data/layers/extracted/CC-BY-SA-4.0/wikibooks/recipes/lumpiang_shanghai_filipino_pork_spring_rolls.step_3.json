@@ -1,0 +1,55 @@
+{
+  "id": "lumpiang_shanghai_filipino_pork_spring_rolls.step_3",
+  "source": "wikibooks_lumpiang_shanghai_filipino_pork_spring_rolls",
+  "sourceRef": {
+    "source": "wikibooks_lumpiang_shanghai_filipino_pork_spring_rolls",
+    "step": 3
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "lumpiang_shanghai_filipino_pork_spring_rolls_step_2",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "lumpia_fried_filipino_spring_rolls",
+        "amount": {
+          "qty": 1,
+          "unit": "package"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "lumpiang_shanghai_filipino_pork_spring_rolls_step_3",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Lay one wrapper flat on your work surface. Place a small amount of the filling mixture on it, shaped like a log.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

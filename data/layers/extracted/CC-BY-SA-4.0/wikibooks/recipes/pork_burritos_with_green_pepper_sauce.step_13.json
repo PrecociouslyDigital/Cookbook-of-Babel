@@ -1,0 +1,53 @@
+{
+  "id": "pork_burritos_with_green_pepper_sauce.step_13",
+  "source": "wikibooks_pork_burritos_with_green_pepper_sauce",
+  "sourceRef": {
+    "source": "wikibooks_pork_burritos_with_green_pepper_sauce",
+    "step": 13
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "pork_burritos_with_green_pepper_sauce_step_12",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "pork_burritos_with_green_pepper_sauce_step_13",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Top with 2 tablespoons green chile sauce.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.43"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "tzatziki.step_1",
+  "source": "wikibooks_tzatziki",
+  "sourceRef": {
+    "source": "wikibooks_tzatziki",
+    "step": 1
+  },
+  "technique": "strain",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "yogurt",
+        "amount": {
+          "qty": 1.5,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "tzatziki_step_1",
+      "amount": {
+        "qty": 354.9,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 3,
+      "unit": "h"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Drain yogurt in a sieve or a cheesecloth for about 3 hours prior to using it.",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for yogurt"
+    }
+  ]
+}

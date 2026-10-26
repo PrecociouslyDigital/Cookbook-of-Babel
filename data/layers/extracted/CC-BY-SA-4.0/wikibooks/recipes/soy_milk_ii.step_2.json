@@ -1,0 +1,48 @@
+{
+  "id": "soy_milk_ii.step_2",
+  "source": "wikibooks_soy_milk_ii",
+  "sourceRef": {
+    "source": "wikibooks_soy_milk_ii",
+    "step": 2
+  },
+  "technique": "rinse",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "soy_milk_ii_step_1",
+        "amount": {
+          "qty": 0.6,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "soy_milk_ii_step_2",
+      "amount": {
+        "qty": 0.6,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Drain the soaking water, and replace it with fresh water. Rub the beans between your palms to remove the skin, which should come off easily. Rinse with clean water to remove any remnants of skin.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

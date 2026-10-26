@@ -1,0 +1,70 @@
+{
+  "id": "classic_mince_pies.step_4",
+  "source": "wikibooks_classic_mince_pies",
+  "sourceRef": {
+    "source": "wikibooks_classic_mince_pies",
+    "step": 4
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "classic_mince_pies_step_3",
+        "amount": {
+          "qty": 6839.2,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "dough",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "classic_mince_pies_step_4",
+      "amount": {
+        "qty": 6839.5,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Form pies with the pastry dough and filling.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.52"
+    },
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Pie dough': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for dough"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "recaito_puerto_rican_culantro_sauce.step_4",
+  "source": "wikibooks_recaito_puerto_rican_culantro_sauce",
+  "sourceRef": {
+    "source": "wikibooks_recaito_puerto_rican_culantro_sauce",
+    "step": 4
+  },
+  "technique": "blend",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "recaito_puerto_rican_culantro_sauce_step_3",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "recaito_puerto_rican_culantro_sauce",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Pulse 15 times or until consistency is almost smooth.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

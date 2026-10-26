@@ -1,0 +1,55 @@
+{
+  "id": "lemon_cake_with_lemon_glaze.step_5",
+  "source": "wikibooks_lemon_cake_with_lemon_glaze",
+  "sourceRef": {
+    "source": "wikibooks_lemon_cake_with_lemon_glaze",
+    "step": 5
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "lemon_cake_with_lemon_glaze_step_4",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "milk",
+        "amount": {
+          "qty": 0.5,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "lemon_cake_with_lemon_glaze_step_5",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Gradually add the dry mixture to the wet mixture, alternating with the milk. Begin and end with the dry mixture. Mix until just combined.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

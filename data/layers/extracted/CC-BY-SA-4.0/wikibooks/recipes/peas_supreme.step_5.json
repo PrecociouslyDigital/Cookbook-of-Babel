@@ -1,0 +1,60 @@
+{
+  "id": "peas_supreme.step_5",
+  "source": "wikibooks_peas_supreme",
+  "sourceRef": {
+    "source": "wikibooks_peas_supreme",
+    "step": 5
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "peas_supreme_step_4",
+        "amount": {
+          "qty": 604.4,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "water_chestnut",
+        "amount": {
+          "qty": 8,
+          "unit": "oz"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "peas_supreme_step_5",
+      "amount": {
+        "qty": 831.2,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Add mixture to peas, then add water chestnuts and mushrooms.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.46"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

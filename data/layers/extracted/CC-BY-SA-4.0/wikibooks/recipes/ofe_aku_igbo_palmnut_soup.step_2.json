@@ -1,0 +1,65 @@
+{
+  "id": "ofe_aku_igbo_palmnut_soup.step_2",
+  "source": "wikibooks_ofe_aku_igbo_palmnut_soup",
+  "sourceRef": {
+    "source": "wikibooks_ofe_aku_igbo_palmnut_soup",
+    "step": 2
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "ofe_aku_igbo_palmnut_soup_step_1",
+        "amount": {
+          "qty": 1000,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "water",
+        "amount": {
+          "qty": 2,
+          "unit": "l"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "ofe_aku_igbo_palmnut_soup_step_2",
+      "amount": {
+        "qty": 3000,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 100,
+    "medium": "boiling_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Pound or mash the cooked fruits and mix with warm water to extract the palm j",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.5"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 100.0 °C for boiling_water"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "id": "coq_au_vin_ii.step_5",
+  "source": "wikibooks_coq_au_vin_ii",
+  "sourceRef": {
+    "source": "wikibooks_coq_au_vin_ii",
+    "step": 5
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "coq_au_vin_ii_step_4",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "bay_leaf",
+        "amount": {
+          "qty": 3,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "wine",
+        "amount": {
+          "qty": 2,
+          "unit": "bottle"
+        }
+      },
+      {
+        "ingredient": "onion",
+        "amount": {
+          "qty": 1,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "celery",
+        "amount": {
+          "qty": 2,
+          "unit": "stalk"
+        }
+      },
+      {
+        "ingredient": "carrot",
+        "amount": {
+          "qty": 2,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "thyme",
+        "amount": {
+          "qty": 12,
+          "unit": "sprig"
+        }
+      },
+      {
+        "ingredient": "rosemary",
+        "amount": {
+          "qty": 5,
+          "unit": "sprig"
+        }
+      },
+      {
+        "ingredient": "garlic",
+        "amount": {
+          "qty": 7,
+          "unit": "clove"
+        }
+      },
+      {
+        "ingredient": "broth_and_stock",
+        "amount": {
+          "qty": 2,
+          "unit": "cup"
+        }
+      },
+      {
+        "ingredient": "tomato_paste",
+        "amount": {
+          "qty": 2,
+          "unit": "tbsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "coq_au_vin_ii_step_5",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 8,
+      "unit": "h"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Pour off remaining fat. Deglaze with 1 cup of wine. Pour this along with remaining ingredients into Dutch oven and refrigerate overnight.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.36"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "'overnight' read as 8 hours"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "silvash_gombotz_hungarian_plum_dumplings.step_4",
+  "source": "wikibooks_silvash_gombotz_hungarian_plum_dumplings",
+  "sourceRef": {
+    "source": "wikibooks_silvash_gombotz_hungarian_plum_dumplings",
+    "step": 4
+  },
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "silvash_gombotz_hungarian_plum_dumplings_step_3",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "silvash_gombotz_hungarian_plum_dumplings_step_4",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Knead the potato dough, then roll it out into a thin sheet (about 5 mm thick), and cut into squares.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

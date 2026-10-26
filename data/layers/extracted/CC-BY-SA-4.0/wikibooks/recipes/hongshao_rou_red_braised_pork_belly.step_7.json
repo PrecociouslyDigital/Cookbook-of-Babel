@@ -1,0 +1,48 @@
+{
+  "id": "hongshao_rou_red_braised_pork_belly.step_7",
+  "source": "wikibooks_hongshao_rou_red_braised_pork_belly",
+  "sourceRef": {
+    "source": "wikibooks_hongshao_rou_red_braised_pork_belly",
+    "step": 7
+  },
+  "technique": "age",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "hongshao_rou_red_braised_pork_belly_step_6",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "hongshao_rou_red_braised_pork_belly",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "The dish may be served now, but if possible, refrigerate for a day to allow the flavours to develop.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

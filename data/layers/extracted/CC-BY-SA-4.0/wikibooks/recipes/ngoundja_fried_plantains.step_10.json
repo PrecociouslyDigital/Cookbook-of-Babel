@@ -1,0 +1,53 @@
+{
+  "id": "ngoundja_fried_plantains.step_10",
+  "source": "wikibooks_ngoundja_fried_plantains",
+  "sourceRef": {
+    "source": "wikibooks_ngoundja_fried_plantains",
+    "step": 10
+  },
+  "technique": "cool",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "ngoundja_fried_plantains_step_9",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "ngoundja_fried_plantains",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Allow the ngoundja to cool for a few minutes before serving to avoid burning your mouth. Serve as a side dish alongside your favorite main course, or enjoy them as a tasty snack on their own.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.46"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

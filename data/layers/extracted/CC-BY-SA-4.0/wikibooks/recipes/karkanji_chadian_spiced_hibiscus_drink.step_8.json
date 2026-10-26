@@ -1,0 +1,53 @@
+{
+  "id": "karkanji_chadian_spiced_hibiscus_drink.step_8",
+  "source": "wikibooks_karkanji_chadian_spiced_hibiscus_drink",
+  "sourceRef": {
+    "source": "wikibooks_karkanji_chadian_spiced_hibiscus_drink",
+    "step": 8
+  },
+  "technique": "chill",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "karkanji_chadian_spiced_hibiscus_drink_step_7",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "karkanji_chadian_spiced_hibiscus_drink",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Allow the drink to cool completely. Refrigerate until chilled or serve over ice.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    },
+    {
+      "field": "inputs",
+      "kind": "missing",
+      "note": "no step uses 'A few slices of lemon (optional)' (p=0.98)"
+    }
+  ]
+}

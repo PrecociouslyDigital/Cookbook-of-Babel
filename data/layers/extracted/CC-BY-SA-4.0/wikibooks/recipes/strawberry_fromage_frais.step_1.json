@@ -1,0 +1,48 @@
+{
+  "id": "strawberry_fromage_frais.step_1",
+  "source": "wikibooks_strawberry_fromage_frais",
+  "sourceRef": {
+    "source": "wikibooks_strawberry_fromage_frais",
+    "step": 1
+  },
+  "technique": "dissolve",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "gelatin",
+        "amount": {
+          "qty": 6,
+          "unit": "sheet"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "strawberry_fromage_frais_step_1",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Soak gelatin sheets in cold water to hydrate them.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

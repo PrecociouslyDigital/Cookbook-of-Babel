@@ -1,0 +1,53 @@
+{
+  "id": "white_house_honey_porter.step_5",
+  "source": "wikibooks_white_house_honey_porter",
+  "sourceRef": {
+    "source": "wikibooks_white_house_honey_porter",
+    "step": 5
+  },
+  "technique": "cool",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "white_house_honey_porter_step_4",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "white_house_honey_porter_step_5",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Place 2 gallons of chilled water into the primary fermenter and add the hot wort into it. Top with more water to total 5 gallons if necessary. Place into an ice bath to cool down to 70-80°F.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.59"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

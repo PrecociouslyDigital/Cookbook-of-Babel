@@ -1,0 +1,60 @@
+{
+  "id": "traditional_finnish_lemon_mead_sima.step_10",
+  "source": "wikibooks_traditional_finnish_lemon_mead_sima",
+  "sourceRef": {
+    "source": "wikibooks_traditional_finnish_lemon_mead_sima",
+    "step": 10
+  },
+  "technique": "ferment",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "traditional_finnish_lemon_mead_sima_step_9",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "raisin",
+        "amount": {
+          "qty": 1,
+          "unit": "handful"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "traditional_finnish_lemon_mead_sima_step_10",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Bottle it on the next day: add one spoonful of sugar and a few raisins to each bottle before you pour the sima in.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.4"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

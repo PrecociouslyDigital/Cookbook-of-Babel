@@ -1,0 +1,60 @@
+{
+  "id": "herrencreme_german_custard_dessert.step_4",
+  "source": "wikibooks_herrencreme_german_custard_dessert",
+  "sourceRef": {
+    "source": "wikibooks_herrencreme_german_custard_dessert",
+    "step": 4
+  },
+  "technique": "fold",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "herrencreme_german_custard_dessert_step_3",
+        "amount": {
+          "qty": 1194.4,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "whipped_cream",
+        "amount": {
+          "qty": 0.25,
+          "unit": "l"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "herrencreme_german_custard_dessert_step_4",
+      "amount": {
+        "qty": 1444.4,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Fold in the whipped cream.",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for whipped_cream"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

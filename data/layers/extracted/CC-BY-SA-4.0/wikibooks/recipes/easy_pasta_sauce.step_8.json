@@ -1,0 +1,70 @@
+{
+  "id": "easy_pasta_sauce.step_8",
+  "source": "wikibooks_easy_pasta_sauce",
+  "sourceRef": {
+    "source": "wikibooks_easy_pasta_sauce",
+    "step": 8
+  },
+  "technique": "simmer",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "easy_pasta_sauce_step_7",
+        "amount": {
+          "qty": 1.6,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "cream",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "easy_pasta_sauce_step_8",
+      "amount": {
+        "qty": 1.9,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 90,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 30,
+      "unit": "s"
+    }
+  },
+  "stateNote": "When tomatoes are almost done, add fresh cream to taste. Cook for about 30 seconds.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.57"
+    },
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Fresh cream': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for cream"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of simmer's typical range"
+    }
+  ]
+}

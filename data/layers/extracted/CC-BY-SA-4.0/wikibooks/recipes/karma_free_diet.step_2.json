@@ -1,0 +1,120 @@
+{
+  "id": "karma_free_diet.step_2",
+  "source": "wikibooks_karma_free_diet",
+  "sourceRef": {
+    "source": "wikibooks_karma_free_diet",
+    "step": 2
+  },
+  "technique": "fry",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "karma_free_diet_step_1",
+        "amount": {
+          "qty": 255,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "cumin",
+        "amount": {
+          "qty": 5,
+          "unit": "ml"
+        }
+      },
+      {
+        "ingredient": "mustard_seed",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      },
+      {
+        "ingredient": "ginger",
+        "amount": {
+          "qty": 5,
+          "unit": "ml"
+        }
+      },
+      {
+        "ingredient": "asafoetida",
+        "amount": {
+          "qty": 3,
+          "unit": "ml"
+        }
+      },
+      {
+        "ingredient": "oil_and_fat",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      },
+      {
+        "ingredient": "curry_leaf",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "karma_free_diet_step_2",
+      "amount": {
+        "qty": 268.9,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 190,
+    "medium": "frying_oil"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Heat oil in a pan. Add jeera, mustard seed, ginger, curry leaves and hing.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.41"
+    },
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Mustard seed': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Oil': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Curry leaves': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for cumin, mustard_seed, ginger, asafoetida, oil_and_fat, curry_leaf"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of fry's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

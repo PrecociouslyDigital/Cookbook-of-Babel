@@ -1,0 +1,48 @@
+{
+  "id": "victorian_butter.step_6",
+  "source": "wikibooks_victorian_butter",
+  "sourceRef": {
+    "source": "wikibooks_victorian_butter",
+    "step": 6
+  },
+  "technique": "separate",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "victorian_butter_step_5",
+        "amount": {
+          "qty": 0.3,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "victorian_butter_step_6",
+      "amount": {
+        "qty": 0.3,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "With continued churning, one reaches the third stage, when buttermilk and butter begin to separate. This can be recognized by the distinct sound that the churning action makes, besides being harder to churn.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

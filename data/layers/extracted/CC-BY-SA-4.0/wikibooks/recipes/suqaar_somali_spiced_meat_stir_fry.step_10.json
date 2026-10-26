@@ -1,0 +1,70 @@
+{
+  "id": "suqaar_somali_spiced_meat_stir_fry.step_10",
+  "source": "wikibooks_suqaar_somali_spiced_meat_stir_fry",
+  "sourceRef": {
+    "source": "wikibooks_suqaar_somali_spiced_meat_stir_fry",
+    "step": 10
+  },
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "suqaar_somali_spiced_meat_stir_fry_step_9",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "cilantro",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "suqaar_somali_spiced_meat_stir_fry",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Garnish with freshly chopped cilantro or parsley before serving.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.58"
+    },
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.52"
+    },
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Fresh cilantro or parsley, chopped, for garnish': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

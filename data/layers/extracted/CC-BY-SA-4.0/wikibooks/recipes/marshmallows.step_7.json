@@ -1,0 +1,48 @@
+{
+  "id": "marshmallows.step_7",
+  "source": "wikibooks_marshmallows",
+  "sourceRef": {
+    "source": "wikibooks_marshmallows",
+    "step": 7
+  },
+  "technique": "cool",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "marshmallows_step_6",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "marshmallows_step_7",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 3,
+      "unit": "h"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Pour mixture into baking pan and sift ¼ cup confectioners' sugar evenly over top. Cool marshmallow, uncovered, until firm (at least 3 hours and up to 1 day).",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "the step names several durations; used the first"
+    }
+  ]
+}

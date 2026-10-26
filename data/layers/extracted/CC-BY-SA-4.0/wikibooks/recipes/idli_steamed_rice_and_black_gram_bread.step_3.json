@@ -1,0 +1,48 @@
+{
+  "id": "idli_steamed_rice_and_black_gram_bread.step_3",
+  "source": "wikibooks_idli_steamed_rice_and_black_gram_bread",
+  "sourceRef": {
+    "source": "wikibooks_idli_steamed_rice_and_black_gram_bread",
+    "step": 3
+  },
+  "technique": "strain",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "idli_steamed_rice_and_black_gram_bread_step_2",
+        "amount": {
+          "qty": 1187.9,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "idli_steamed_rice_and_black_gram_bread_step_3",
+      "amount": {
+        "qty": 1187.9,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Drain the rice and urad dal. Do not discard the dal soaking water, but do discard the rice soaking water.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

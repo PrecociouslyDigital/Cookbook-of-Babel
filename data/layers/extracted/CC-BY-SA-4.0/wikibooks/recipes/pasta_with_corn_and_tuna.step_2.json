@@ -1,0 +1,88 @@
+{
+  "id": "pasta_with_corn_and_tuna.step_2",
+  "source": "wikibooks_pasta_with_corn_and_tuna",
+  "sourceRef": {
+    "source": "wikibooks_pasta_with_corn_and_tuna",
+    "step": 2
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "pasta_with_corn_and_tuna_step_1",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "cream_cheese",
+        "amount": {
+          "qty": 400,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "corn",
+        "amount": {
+          "qty": 410,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "tuna",
+        "amount": {
+          "qty": 1,
+          "unit": "can"
+        }
+      },
+      {
+        "ingredient": "pesto",
+        "amount": {
+          "qty": 3,
+          "unit": "tsp"
+        }
+      },
+      {
+        "ingredient": "pepper",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "pasta_with_corn_and_tuna_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "In a mixing bowl combine all the rest of the ingredients.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'A little ground pepper': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

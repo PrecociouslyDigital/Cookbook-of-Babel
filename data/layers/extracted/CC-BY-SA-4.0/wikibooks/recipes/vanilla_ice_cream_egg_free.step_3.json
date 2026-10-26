@@ -1,0 +1,48 @@
+{
+  "id": "vanilla_ice_cream_egg_free.step_3",
+  "source": "wikibooks_vanilla_ice_cream_egg_free",
+  "sourceRef": {
+    "source": "wikibooks_vanilla_ice_cream_egg_free",
+    "step": 3
+  },
+  "technique": "chill",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "vanilla_ice_cream_egg_free_step_2",
+        "amount": {
+          "qty": 1157.4,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "vanilla_ice_cream_egg_free",
+      "amount": {
+        "qty": 1157.4,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Transfer ice cream to a container, and freeze for a few hours until solid.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

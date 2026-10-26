@@ -1,0 +1,67 @@
+{
+  "id": "chicken_soup_with_pasta.step_2",
+  "source": "wikibooks_chicken_soup_with_pasta",
+  "sourceRef": {
+    "source": "wikibooks_chicken_soup_with_pasta",
+    "step": 2
+  },
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "chicken_soup_with_pasta_step_1",
+        "amount": {
+          "qty": 15,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "wheat_flour",
+        "amount": {
+          "qty": 60,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "chicken",
+        "amount": {
+          "qty": 1.25,
+          "unit": "lb"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "chicken_soup_with_pasta_step_2",
+      "amount": {
+        "qty": 642,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Place the flour in a shallow bowl. Dredge each piece of chicken through the flour to lightly coat on all sides. Set aside.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.59"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

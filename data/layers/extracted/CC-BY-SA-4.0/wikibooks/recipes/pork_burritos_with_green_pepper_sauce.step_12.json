@@ -1,0 +1,55 @@
+{
+  "id": "pork_burritos_with_green_pepper_sauce.step_12",
+  "source": "wikibooks_pork_burritos_with_green_pepper_sauce",
+  "sourceRef": {
+    "source": "wikibooks_pork_burritos_with_green_pepper_sauce",
+    "step": 12
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "pork_burritos_with_green_pepper_sauce_step_11",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "homemade_wheat_tortillas",
+        "amount": {
+          "qty": 12,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "pork_burritos_with_green_pepper_sauce_step_12",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Spoon a cup of shredded pork down center of each tortilla.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

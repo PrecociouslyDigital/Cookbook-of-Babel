@@ -1,0 +1,48 @@
+{
+  "id": "potato_candy_pinwheel.step_7",
+  "source": "wikibooks_potato_candy_pinwheel",
+  "sourceRef": {
+    "source": "wikibooks_potato_candy_pinwheel",
+    "step": 7
+  },
+  "technique": "knead",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "potato_candy_pinwheel_step_6",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "potato_candy_pinwheel_step_7",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Once the dough is formed, roll it out onto a table dusted with powdered sugar and knead the dough, frequently covering it with powdered sugar whenever it gets sticky, until it no longer sticks to your hands. Frequently reapply powdered sugar to the work surface and to your hands to ensure that the dough doesn’t stick to either.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "id": "no_bake_cheesecake.step_2",
+  "source": "wikibooks_no_bake_cheesecake",
+  "sourceRef": {
+    "source": "wikibooks_no_bake_cheesecake",
+    "step": 2
+  },
+  "technique": "whisk",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "no_bake_cheesecake_step_1",
+        "amount": {
+          "qty": 275,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "cream_cheese",
+        "amount": {
+          "qty": 540,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "no_bake_cheesecake_step_2",
+      "amount": {
+        "qty": 815,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Beat cream cheese until smooth and fluffy.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

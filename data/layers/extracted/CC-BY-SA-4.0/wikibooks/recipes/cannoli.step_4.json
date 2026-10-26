@@ -1,0 +1,58 @@
+{
+  "id": "cannoli.step_4",
+  "source": "wikibooks_cannoli",
+  "sourceRef": {
+    "source": "wikibooks_cannoli",
+    "step": 4
+  },
+  "technique": "cool",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "cannoli_step_3",
+        "amount": {
+          "qty": 72,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "cannoli",
+      "amount": {
+        "qty": 72,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Cool cannoli in the fridge before serving.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.56"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    },
+    {
+      "field": "inputs",
+      "kind": "missing",
+      "note": "no step uses '½ tablespoon icing' (p=0.99)"
+    }
+  ]
+}

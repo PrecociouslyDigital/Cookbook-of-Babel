@@ -1,0 +1,53 @@
+{
+  "id": "obuwunga_ugandan_traditional_bread.step_7",
+  "source": "wikibooks_obuwunga_ugandan_traditional_bread",
+  "sourceRef": {
+    "source": "wikibooks_obuwunga_ugandan_traditional_bread",
+    "step": 7
+  },
+  "technique": "cool",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "obuwunga_ugandan_traditional_bread_step_6",
+        "amount": {
+          "qty": 254.1,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "obuwunga_ugandan_traditional_bread",
+      "amount": {
+        "qty": 254.1,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Remove the bread from the pot and let it cool for a few minutes before serving.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.42"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

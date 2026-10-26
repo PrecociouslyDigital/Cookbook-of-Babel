@@ -1,0 +1,41 @@
+{
+  "id": "steakhouse_marinade.step_3",
+  "source": "wikibooks_steakhouse_marinade",
+  "sourceRef": {
+    "source": "wikibooks_steakhouse_marinade",
+    "step": 3
+  },
+  "technique": "strain",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "steakhouse_marinade_step_2",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "steakhouse_marinade",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 10.5,
+      "unit": "d"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Strain, cool and place into a gallon size zip-top bag. Keep refrigerated for up to 1½ weeks."
+}

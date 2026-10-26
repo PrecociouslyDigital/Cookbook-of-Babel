@@ -1,0 +1,86 @@
+{
+  "id": "homemade_applesauce.step_1",
+  "source": "wikibooks_homemade_applesauce",
+  "sourceRef": {
+    "source": "wikibooks_homemade_applesauce",
+    "step": 1
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "apple",
+        "amount": {
+          "qty": 3,
+          "unit": "lb"
+        }
+      },
+      {
+        "ingredient": "water",
+        "amount": {
+          "qty": 0.5,
+          "unit": "cup"
+        }
+      },
+      {
+        "ingredient": "white_sugar",
+        "amount": {
+          "qty": 6,
+          "unit": "tbsp"
+        }
+      },
+      {
+        "ingredient": "sugar_substitute",
+        "amount": {
+          "qty": 6,
+          "unit": "tbsp"
+        }
+      },
+      {
+        "ingredient": "lemon",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "homemade_applesauce_step_1",
+      "amount": {
+        "qty": 1643.5,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Put chopped apples in a large non-stick saucepan. Stir in water, sugar, sugar substitute, and lemon juice.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Juice from 1 lemon (about 1 tablespoon)': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for sugar_substitute, lemon"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

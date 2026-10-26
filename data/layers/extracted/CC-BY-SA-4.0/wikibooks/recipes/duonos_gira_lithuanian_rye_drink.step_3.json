@@ -1,0 +1,60 @@
+{
+  "id": "duonos_gira_lithuanian_rye_drink.step_3",
+  "source": "wikibooks_duonos_gira_lithuanian_rye_drink",
+  "sourceRef": {
+    "source": "wikibooks_duonos_gira_lithuanian_rye_drink",
+    "step": 3
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "duonos_gira_lithuanian_rye_drink_step_2",
+        "amount": {
+          "qty": 5658.6,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "raisin",
+        "amount": {
+          "qty": 1,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "duonos_gira_lithuanian_rye_drink_step_3",
+      "amount": {
+        "qty": 5895.2,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Transfer liquid to bottles. Add raisins or other dried fruit and close off bottles.",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for raisin"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

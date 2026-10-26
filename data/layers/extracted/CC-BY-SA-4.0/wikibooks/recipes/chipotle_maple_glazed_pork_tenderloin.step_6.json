@@ -1,0 +1,58 @@
+{
+  "id": "chipotle_maple_glazed_pork_tenderloin.step_6",
+  "source": "wikibooks_chipotle_maple_glazed_pork_tenderloin",
+  "sourceRef": {
+    "source": "wikibooks_chipotle_maple_glazed_pork_tenderloin",
+    "step": 6
+  },
+  "technique": "steam",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "chipotle_maple_glazed_pork_tenderloin_step_5",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "chipotle_maple_glazed_pork_tenderloin",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 100,
+    "medium": "still_air"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 15,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Make a foil pouch and place cooked pork inside. Pour maple mixture over and tightly seal. Let rest 15 minutes and serve warm.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.59"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of steam's typical range"
+    },
+    {
+      "field": "inputs",
+      "kind": "missing",
+      "note": "no step uses '1 tbsp finely-grated lime zest' (p=0.89)"
+    }
+  ]
+}

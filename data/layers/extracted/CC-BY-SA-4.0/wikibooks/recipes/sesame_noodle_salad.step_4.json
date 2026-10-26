@@ -1,0 +1,48 @@
+{
+  "id": "sesame_noodle_salad.step_4",
+  "source": "wikibooks_sesame_noodle_salad",
+  "sourceRef": {
+    "source": "wikibooks_sesame_noodle_salad",
+    "step": 4
+  },
+  "technique": "chill",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "sesame_noodle_salad_step_3",
+        "amount": {
+          "qty": 1211,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "sesame_noodle_salad",
+      "amount": {
+        "qty": 1211,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Chill before serving.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

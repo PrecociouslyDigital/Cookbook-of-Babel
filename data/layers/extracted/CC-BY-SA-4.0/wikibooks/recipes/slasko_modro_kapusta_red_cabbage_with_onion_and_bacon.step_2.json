@@ -1,0 +1,65 @@
+{
+  "id": "slasko_modro_kapusta_red_cabbage_with_onion_and_bacon.step_2",
+  "source": "wikibooks_slasko_modro_kapusta_red_cabbage_with_onion_and_bacon",
+  "sourceRef": {
+    "source": "wikibooks_slasko_modro_kapusta_red_cabbage_with_onion_and_bacon",
+    "step": 2
+  },
+  "technique": "fry",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "slasko_modro_kapusta_red_cabbage_with_onion_and_bacon_step_1",
+        "amount": {
+          "qty": 1000.4,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "bacon",
+        "amount": {
+          "qty": 150,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "slasko_modro_kapusta_red_cabbage_with_onion_and_bacon_step_2",
+      "amount": {
+        "qty": 1150.4,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 190,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Dice bacon and fry it in a pan.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.5"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of fry's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "hawawshi_egyptian_meat_pies.step_8",
+  "source": "wikibooks_hawawshi_egyptian_meat_pies",
+  "sourceRef": {
+    "source": "wikibooks_hawawshi_egyptian_meat_pies",
+    "step": 8
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "hawawshi_egyptian_meat_pies_step_7",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "hawawshi_egyptian_meat_pies_step_8",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Place a generous amount of the meat mixture onto one side of each bread piece, leaving some space around the edges.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

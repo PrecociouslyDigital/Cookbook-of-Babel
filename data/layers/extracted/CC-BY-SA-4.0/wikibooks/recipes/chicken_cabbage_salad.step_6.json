@@ -1,0 +1,53 @@
+{
+  "id": "chicken_cabbage_salad.step_6",
+  "source": "wikibooks_chicken_cabbage_salad",
+  "sourceRef": {
+    "source": "wikibooks_chicken_cabbage_salad",
+    "step": 6
+  },
+  "technique": "age",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "chicken_cabbage_salad_step_5",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "chicken_cabbage_salad",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "h"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Leave salad to sit and absorb flavor for an hour for best taste.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "missing",
+      "note": "no step uses '2 cooked chicken breasts' (p=0.99)"
+    },
+    {
+      "field": "inputs",
+      "kind": "missing",
+      "note": "no step uses 'Sugar to taste' (p=0.89)"
+    }
+  ]
+}

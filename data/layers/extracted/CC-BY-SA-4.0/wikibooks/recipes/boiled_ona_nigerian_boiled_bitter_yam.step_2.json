@@ -1,0 +1,60 @@
+{
+  "id": "boiled_ona_nigerian_boiled_bitter_yam.step_2",
+  "source": "wikibooks_boiled_ona_nigerian_boiled_bitter_yam",
+  "sourceRef": {
+    "source": "wikibooks_boiled_ona_nigerian_boiled_bitter_yam",
+    "step": 2
+  },
+  "technique": "rinse",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "boiled_ona_nigerian_boiled_bitter_yam_step_1",
+        "amount": {
+          "qty": 0.3,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "water",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "boiled_ona_nigerian_boiled_bitter_yam_step_2",
+      "amount": {
+        "qty": 0.6,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Rinse the yam chunks, then transfer to a pot and cover with water.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Water': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

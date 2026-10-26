@@ -1,0 +1,53 @@
+{
+  "id": "romanian_roasted_eggplant_spread_i.step_3",
+  "source": "wikibooks_romanian_roasted_eggplant_spread_i",
+  "sourceRef": {
+    "source": "wikibooks_romanian_roasted_eggplant_spread_i",
+    "step": 3
+  },
+  "technique": "separate",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "romanian_roasted_eggplant_spread_i_step_2",
+        "amount": {
+          "qty": 0.6,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "romanian_roasted_eggplant_spread_i_step_3",
+      "amount": {
+        "qty": 0.6,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Cut the eggplant in half lengthwise. Keep the flesh and discard the burnt skin.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.53"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

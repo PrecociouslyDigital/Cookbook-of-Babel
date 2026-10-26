@@ -1,0 +1,48 @@
+{
+  "id": "roast_turkey_with_stuffing.step_4",
+  "source": "wikibooks_roast_turkey_with_stuffing",
+  "sourceRef": {
+    "source": "wikibooks_roast_turkey_with_stuffing",
+    "step": 4
+  },
+  "technique": "rinse",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "roast_turkey_with_stuffing_step_3",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "roast_turkey_with_stuffing_step_4",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Rinse the turkey and pat it dry with paper towels.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

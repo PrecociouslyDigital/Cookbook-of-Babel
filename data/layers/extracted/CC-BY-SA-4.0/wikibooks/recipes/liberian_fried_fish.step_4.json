@@ -1,0 +1,60 @@
+{
+  "id": "liberian_fried_fish.step_4",
+  "source": "wikibooks_liberian_fried_fish",
+  "sourceRef": {
+    "source": "wikibooks_liberian_fried_fish",
+    "step": 4
+  },
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "liberian_fried_fish_step_2",
+        "amount": {
+          "qty": 1050.8,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "buttermilk",
+        "amount": {
+          "qty": 0.5,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "liberian_fried_fish_step_4",
+      "amount": {
+        "qty": 1169.1,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Dip each fish into the buttermilk, allowing any excess to drip off, and then coat the fish with the seasoned flour mixture, pressing the flour onto the fish to adhere.",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for buttermilk"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

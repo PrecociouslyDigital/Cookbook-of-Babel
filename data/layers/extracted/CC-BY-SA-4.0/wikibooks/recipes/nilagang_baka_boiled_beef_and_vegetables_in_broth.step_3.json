@@ -1,0 +1,75 @@
+{
+  "id": "nilagang_baka_boiled_beef_and_vegetables_in_broth.step_3",
+  "source": "wikibooks_nilagang_baka_boiled_beef_and_vegetables_in_broth",
+  "sourceRef": {
+    "source": "wikibooks_nilagang_baka_boiled_beef_and_vegetables_in_broth",
+    "step": 3
+  },
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "nilagang_baka_boiled_beef_and_vegetables_in_broth_step_2",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "saba",
+        "amount": {
+          "qty": 2,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "nilagang_baka_boiled_beef_and_vegetables_in_broth",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 100,
+    "medium": "boiling_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Slice saba into half. Add to the boiling beef.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.4"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 100.0 °C for boiling_water"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    },
+    {
+      "field": "inputs",
+      "kind": "missing",
+      "note": "no step uses '1 cabbage, quartered' (p=0.99)"
+    },
+    {
+      "field": "inputs",
+      "kind": "missing",
+      "note": "no step uses '2 pieces of Chinese cabbage' (p=0.98)"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "strawberry_dumplings.step_7",
+  "source": "wikibooks_strawberry_dumplings",
+  "sourceRef": {
+    "source": "wikibooks_strawberry_dumplings",
+    "step": 7
+  },
+  "technique": "age",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "strawberry_dumplings_step_6",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "strawberry_dumplings_step_7",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 5,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Let the dough rest for about 5 minutes. If the dough is too moist, which sometimes happens due to the salt, add some more flour.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.54"
+    }
+  ]
+}

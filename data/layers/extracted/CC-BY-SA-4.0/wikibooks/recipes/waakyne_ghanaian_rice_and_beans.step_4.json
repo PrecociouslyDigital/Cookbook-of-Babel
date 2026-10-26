@@ -1,0 +1,53 @@
+{
+  "id": "waakyne_ghanaian_rice_and_beans.step_4",
+  "source": "wikibooks_waakyne_ghanaian_rice_and_beans",
+  "sourceRef": {
+    "source": "wikibooks_waakyne_ghanaian_rice_and_beans",
+    "step": 4
+  },
+  "technique": "steam",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "waakyne_ghanaian_rice_and_beans_step_3",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "waakyne_ghanaian_rice_and_beans_step_4",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 100,
+    "medium": "steam"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 15,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Once it has reached its full pressure, reduce the heat and leave for an additional 15 minutes for the beans to cook.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.43"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of steam's typical range"
+    }
+  ]
+}

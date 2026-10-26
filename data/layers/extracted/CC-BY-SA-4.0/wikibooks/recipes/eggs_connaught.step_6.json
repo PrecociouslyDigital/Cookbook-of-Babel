@@ -1,0 +1,55 @@
+{
+  "id": "eggs_connaught.step_6",
+  "source": "wikibooks_eggs_connaught",
+  "sourceRef": {
+    "source": "wikibooks_eggs_connaught",
+    "step": 6
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "eggs_connaught_step_5",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "watercress",
+        "amount": {
+          "qty": 0.5,
+          "unit": "bunch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "eggs_connaught",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Scatter over the remaining prawns (split in half if large) and dust with paprika. Place the watercress in the middle and serve brown bread and butter separately.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

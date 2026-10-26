@@ -1,0 +1,55 @@
+{
+  "id": "banana_bread_with_walnuts.step_4",
+  "source": "wikibooks_banana_bread_with_walnuts",
+  "sourceRef": {
+    "source": "wikibooks_banana_bread_with_walnuts",
+    "step": 4
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "banana_bread_with_walnuts_step_3",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "banana",
+        "amount": {
+          "qty": 950,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "banana_bread_with_walnuts_step_4",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Mix in one third of the flour mixture, followed by half the banana. Continue alternating in this way until all the dry mixture and mashed banana is incorporated.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

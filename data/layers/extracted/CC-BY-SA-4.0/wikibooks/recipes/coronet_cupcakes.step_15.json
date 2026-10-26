@@ -1,0 +1,60 @@
+{
+  "id": "coronet_cupcakes.step_15",
+  "source": "wikibooks_coronet_cupcakes",
+  "sourceRef": {
+    "source": "wikibooks_coronet_cupcakes",
+    "step": 15
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "coronet_cupcakes_step_14",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "mini_gem_candies",
+        "amount": {
+          "qty": 60,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "coronet_cupcakes_step_15",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Top each cupcake with 4 gold trimmings, standing them upright. Space them evenly around the edges, and press them into the frosting to adhere them. It should look like 4 fans sticking out of the frosting to give the appearance of a crown.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.51"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

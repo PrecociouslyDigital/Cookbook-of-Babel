@@ -1,0 +1,48 @@
+{
+  "id": "smore_eurasian_beef_stew.step_2",
+  "source": "wikibooks_smore_eurasian_beef_stew",
+  "sourceRef": {
+    "source": "wikibooks_smore_eurasian_beef_stew",
+    "step": 2
+  },
+  "technique": "strain",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "smore_eurasian_beef_stew_step_1",
+        "amount": {
+          "qty": 300,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "smore_eurasian_beef_stew_step_2",
+      "amount": {
+        "qty": 300,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Drain in colander.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

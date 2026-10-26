@@ -1,0 +1,53 @@
+{
+  "id": "habet_hlawa_algerian_anise_beverage.step_2",
+  "source": "wikibooks_habet_hlawa_algerian_anise_beverage",
+  "sourceRef": {
+    "source": "wikibooks_habet_hlawa_algerian_anise_beverage",
+    "step": 2
+  },
+  "technique": "age",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "habet_hlawa_algerian_anise_beverage_step_1",
+        "amount": {
+          "qty": 1436.6,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "habet_hlawa_algerian_anise_beverage_step_2",
+      "amount": {
+        "qty": 1436.6,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 100,
+    "medium": "boiling_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 30,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Turn off the heat, cover, and leave to infuse for 30 minutes.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.42"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 100.0 °C for boiling_water"
+    }
+  ]
+}

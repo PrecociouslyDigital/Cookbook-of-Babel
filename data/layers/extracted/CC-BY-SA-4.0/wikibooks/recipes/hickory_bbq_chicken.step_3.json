@@ -1,0 +1,55 @@
+{
+  "id": "hickory_bbq_chicken.step_3",
+  "source": "wikibooks_hickory_bbq_chicken",
+  "sourceRef": {
+    "source": "wikibooks_hickory_bbq_chicken",
+    "step": 3
+  },
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "hickory_bbq_chicken_step_1",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "hickory_bbq_rub",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "hickory_bbq_chicken_step_3",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "h"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Drain chicken and discard mixture. Pat dry with paper towels and season chicken liberally on both sides with rub. Gently pat into meat and refrigerate for at least 1 hour (more rub will stick if you wear gloves).",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Hickory BBQ Rub': no quantity given; assumed a pinch"
+    }
+  ]
+}

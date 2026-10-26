@@ -1,0 +1,48 @@
+{
+  "id": "char_siu_chinese_bbq_pork.step_1",
+  "source": "wikibooks_char_siu_chinese_bbq_pork",
+  "sourceRef": {
+    "source": "wikibooks_char_siu_chinese_bbq_pork",
+    "step": 1
+  },
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "pork",
+        "amount": {
+          "qty": 1,
+          "unit": "kg"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "char_siu_chinese_bbq_pork_step_1",
+      "amount": {
+        "qty": 1000,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Slice the meat into strips about 1 inch (2.5 cm) wide by 6 inches (15 cm) long. A long thin strip like this will keep its shape better when hanging.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

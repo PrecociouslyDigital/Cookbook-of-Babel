@@ -1,0 +1,60 @@
+{
+  "id": "breakfast_durum.step_1",
+  "source": "wikibooks_breakfast_durum",
+  "sourceRef": {
+    "source": "wikibooks_breakfast_durum",
+    "step": 1
+  },
+  "technique": "toast",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "lavash",
+        "amount": {
+          "qty": 1,
+          "unit": "sheet"
+        }
+      },
+      {
+        "ingredient": "water",
+        "amount": {
+          "qty": 1,
+          "unit": "tbsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "breakfast_durum_step_1",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 185,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Brush the flatbread with the tablespoon of water to keep it soft. Toast the bread using a skillet or in a toaster oven until brown on edges. Set aside.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of toast's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

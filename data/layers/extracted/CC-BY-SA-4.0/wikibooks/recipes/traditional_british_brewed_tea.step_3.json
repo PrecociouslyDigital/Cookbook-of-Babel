@@ -1,0 +1,58 @@
+{
+  "id": "traditional_british_brewed_tea.step_3",
+  "source": "wikibooks_traditional_british_brewed_tea",
+  "sourceRef": {
+    "source": "wikibooks_traditional_british_brewed_tea",
+    "step": 3
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "tea_leaves",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "traditional_british_brewed_tea_step_3",
+      "amount": {
+        "qty": 0.3,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Add the tea, measured according to the size of the teapot and the strength of tea you prefer. In a large teapot (serving 4 cups), 2 teaspoons will give a fairly weak tea, perhaps enough to console one for a lost umbrella on a rainy day, and 2 should be strong enough for being stood up on a Friday night. A broken heart may need 6.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Loose-leaf tea': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for tea_leaves"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

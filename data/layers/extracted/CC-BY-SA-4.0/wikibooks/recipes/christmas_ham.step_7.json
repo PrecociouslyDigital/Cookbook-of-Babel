@@ -1,0 +1,48 @@
+{
+  "id": "christmas_ham.step_7",
+  "source": "wikibooks_christmas_ham",
+  "sourceRef": {
+    "source": "wikibooks_christmas_ham",
+    "step": 7
+  },
+  "technique": "cool",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "christmas_ham_step_6",
+        "amount": {
+          "qty": 8500,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "christmas_ham_step_7",
+      "amount": {
+        "qty": 8500,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "After you take the ham out of the oven, wait a little while before removing the thermometer. It is recommended you do not pour the liquid from the bag or baking tray down the drain.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

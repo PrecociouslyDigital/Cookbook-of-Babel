@@ -1,0 +1,48 @@
+{
+  "id": "roast_leg_of_lamb_with_gravy.step_4",
+  "source": "wikibooks_roast_leg_of_lamb_with_gravy",
+  "sourceRef": {
+    "source": "wikibooks_roast_leg_of_lamb_with_gravy",
+    "step": 4
+  },
+  "technique": "chill",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "roast_leg_of_lamb_with_gravy_step_3",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "roast_leg_of_lamb_with_gravy_step_4",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 8,
+      "unit": "h"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Place the leg in the fridge and let it rest overnight. Remember to turn the leg occasionally so the herbs infuse into all parts of the joint.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "'overnight' read as 8 hours"
+    }
+  ]
+}

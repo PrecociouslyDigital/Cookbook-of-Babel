@@ -1,0 +1,67 @@
+{
+  "id": "chicken_with_orange_spinach_and_cherry_tomatoes.step_4",
+  "source": "wikibooks_chicken_with_orange_spinach_and_cherry_tomatoes",
+  "sourceRef": {
+    "source": "wikibooks_chicken_with_orange_spinach_and_cherry_tomatoes",
+    "step": 4
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "chicken_with_orange_spinach_and_cherry_tomatoes_step_3",
+        "amount": {
+          "qty": 98.1,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "tomato",
+        "amount": {
+          "qty": 4,
+          "unit": "cup"
+        }
+      },
+      {
+        "ingredient": "olive_oil",
+        "amount": {
+          "qty": 1,
+          "unit": "tbsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "chicken_with_orange_spinach_and_cherry_tomatoes_step_4",
+      "amount": {
+        "qty": 1059.3,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Combine tomatoes, oil and 1 teaspoon dill mixture in small bowl.",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for tomato, olive_oil"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

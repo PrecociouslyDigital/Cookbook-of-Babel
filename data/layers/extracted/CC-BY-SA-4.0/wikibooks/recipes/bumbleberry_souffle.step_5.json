@@ -1,0 +1,48 @@
+{
+  "id": "bumbleberry_souffle.step_5",
+  "source": "wikibooks_bumbleberry_souffle",
+  "sourceRef": {
+    "source": "wikibooks_bumbleberry_souffle",
+    "step": 5
+  },
+  "technique": "bake",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "bumbleberry_souffle_step_4",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "bumbleberry_souffle",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 165,
+    "medium": "oven_air"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 45,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Bake for 45 minutes to 1 hour.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "the step names several durations; used the first"
+    }
+  ]
+}

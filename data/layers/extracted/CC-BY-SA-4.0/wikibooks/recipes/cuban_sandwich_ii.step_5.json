@@ -1,0 +1,62 @@
+{
+  "id": "cuban_sandwich_ii.step_5",
+  "source": "wikibooks_cuban_sandwich_ii",
+  "sourceRef": {
+    "source": "wikibooks_cuban_sandwich_ii",
+    "step": 5
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "cuban_sandwich_ii_step_4",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "roast_pork",
+        "amount": {
+          "qty": 2,
+          "unit": "slice"
+        }
+      },
+      {
+        "ingredient": "salami",
+        "amount": {
+          "qty": 2,
+          "unit": "slice"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "cuban_sandwich_ii_step_5",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Fold each slice of ham in half and place evenly on bottom of bread. On top of the ham, place slices of roast pork and salami.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

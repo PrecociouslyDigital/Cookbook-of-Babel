@@ -1,0 +1,48 @@
+{
+  "id": "whole_wheat_chocolate_cake_with_nuts.step_3",
+  "source": "wikibooks_whole_wheat_chocolate_cake_with_nuts",
+  "sourceRef": {
+    "source": "wikibooks_whole_wheat_chocolate_cake_with_nuts",
+    "step": 3
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "whole_wheat_chocolate_cake_with_nuts_step_2",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "whole_wheat_chocolate_cake_with_nuts_step_3",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 2,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Beat with a fork until smooth and creamy (about 2 minutes).",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.52"
+    }
+  ]
+}

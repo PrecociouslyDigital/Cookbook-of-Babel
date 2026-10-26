@@ -1,0 +1,86 @@
+{
+  "id": "white_fish_ceviche_cebiche_de_pescado.step_3",
+  "source": "wikibooks_white_fish_ceviche_cebiche_de_pescado",
+  "sourceRef": {
+    "source": "wikibooks_white_fish_ceviche_cebiche_de_pescado",
+    "step": 3
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "white_fish_ceviche_cebiche_de_pescado_step_2",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "onion",
+        "amount": {
+          "qty": 3,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "lettuce",
+        "amount": {
+          "qty": 3,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "corn",
+        "amount": {
+          "qty": 20,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "sweet_potato",
+        "amount": {
+          "qty": 5.5,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "white_fish_ceviche_cebiche_de_pescado",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Add the onion and mix gently.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    },
+    {
+      "field": "inputs",
+      "kind": "missing",
+      "note": "no step uses '1 bunch finely-chopped cilantro' (p=0.99)"
+    },
+    {
+      "field": "inputs",
+      "kind": "missing",
+      "note": "no step uses '1 clove garlic, chopped' (p=0.94)"
+    }
+  ]
+}

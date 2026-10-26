@@ -1,0 +1,48 @@
+{
+  "id": "pickled_herring.step_5",
+  "source": "wikibooks_pickled_herring",
+  "sourceRef": {
+    "source": "wikibooks_pickled_herring",
+    "step": 5
+  },
+  "technique": "age",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "pickled_herring_step_4",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "pickled_herring",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Pour over the cooled pickling liquid and seal the jars. Wait at least a day before eating. Store in the fridge for up to 1 month.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

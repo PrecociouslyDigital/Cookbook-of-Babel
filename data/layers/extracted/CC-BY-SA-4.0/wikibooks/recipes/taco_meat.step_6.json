@@ -1,0 +1,48 @@
+{
+  "id": "taco_meat.step_6",
+  "source": "wikibooks_taco_meat",
+  "sourceRef": {
+    "source": "wikibooks_taco_meat",
+    "step": 6
+  },
+  "technique": "simmer",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "taco_meat_step_5",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "taco_meat",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 90,
+    "medium": "simmering_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 20,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Cover and simmer for 20 minutes, or less if the mixture begins to dry out.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of simmer's typical range"
+    }
+  ]
+}

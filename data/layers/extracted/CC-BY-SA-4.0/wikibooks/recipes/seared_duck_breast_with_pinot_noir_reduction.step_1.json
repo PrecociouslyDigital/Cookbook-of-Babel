@@ -1,0 +1,77 @@
+{
+  "id": "seared_duck_breast_with_pinot_noir_reduction.step_1",
+  "source": "wikibooks_seared_duck_breast_with_pinot_noir_reduction",
+  "sourceRef": {
+    "source": "wikibooks_seared_duck_breast_with_pinot_noir_reduction",
+    "step": 1
+  },
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "duck",
+        "amount": {
+          "qty": 28,
+          "unit": "oz"
+        }
+      },
+      {
+        "ingredient": "salt",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      },
+      {
+        "ingredient": "pepper",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "seared_duck_breast_with_pinot_noir_reduction_step_1",
+      "amount": {
+        "qty": 794.5,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Score skin of duck in a diamond pattern, being careful not to cut into the meat. Sprinkle on both sides liberally with salt and freshly ground black pepper.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Salt': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Freshly-ground black pepper': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for pepper"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

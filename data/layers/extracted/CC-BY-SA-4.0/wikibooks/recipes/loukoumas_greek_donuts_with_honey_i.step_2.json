@@ -1,0 +1,55 @@
+{
+  "id": "loukoumas_greek_donuts_with_honey_i.step_2",
+  "source": "wikibooks_loukoumas_greek_donuts_with_honey_i",
+  "sourceRef": {
+    "source": "wikibooks_loukoumas_greek_donuts_with_honey_i",
+    "step": 2
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "loukoumas_greek_donuts_with_honey_i_step_1",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "yeast",
+        "amount": {
+          "qty": 4,
+          "unit": "tsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "loukoumas_greek_donuts_with_honey_i_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Mix the yeast and water together.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

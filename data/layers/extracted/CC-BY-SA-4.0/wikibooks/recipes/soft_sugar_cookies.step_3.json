@@ -1,0 +1,62 @@
+{
+  "id": "soft_sugar_cookies.step_3",
+  "source": "wikibooks_soft_sugar_cookies",
+  "sourceRef": {
+    "source": "wikibooks_soft_sugar_cookies",
+    "step": 3
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "soft_sugar_cookies_step_2",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "baking_powder",
+        "amount": {
+          "qty": 10,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "wheat_flour",
+        "amount": {
+          "qty": 312.5,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "soft_sugar_cookies_step_3",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Add the baking powder, then slowly add the flour as needed to reach a proper doughy state (in essence, able to be shaped without sticking to one's hands too much). You may not need all of the flour, or you may even need a little more based on your eggs and how closely you measured.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

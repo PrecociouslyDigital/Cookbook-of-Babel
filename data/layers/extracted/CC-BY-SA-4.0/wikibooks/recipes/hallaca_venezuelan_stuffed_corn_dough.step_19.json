@@ -1,0 +1,60 @@
+{
+  "id": "hallaca_venezuelan_stuffed_corn_dough.step_19",
+  "source": "wikibooks_hallaca_venezuelan_stuffed_corn_dough",
+  "sourceRef": {
+    "source": "wikibooks_hallaca_venezuelan_stuffed_corn_dough",
+    "step": 19
+  },
+  "technique": "separate",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "hallaca_venezuelan_stuffed_corn_dough_step_18",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "mustard",
+        "amount": {
+          "qty": 1,
+          "unit": "jar"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "hallaca_venezuelan_stuffed_corn_dough_step_19",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Set pickles aside in a small bowl.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.58"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

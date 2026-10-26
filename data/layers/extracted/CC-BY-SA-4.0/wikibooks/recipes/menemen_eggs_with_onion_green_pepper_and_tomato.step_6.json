@@ -1,0 +1,65 @@
+{
+  "id": "menemen_eggs_with_onion_green_pepper_and_tomato.step_6",
+  "source": "wikibooks_menemen_eggs_with_onion_green_pepper_and_tomato",
+  "sourceRef": {
+    "source": "wikibooks_menemen_eggs_with_onion_green_pepper_and_tomato",
+    "step": 6
+  },
+  "technique": "coagulate",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "menemen_eggs_with_onion_green_pepper_and_tomato_step_5",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "egg",
+        "amount": {
+          "qty": 4,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "menemen_eggs_with_onion_green_pepper_and_tomato",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 180,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Beat the eggs and pour over the mixture in the pan. Stir until cooked.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.57"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 180.0 °C for pan_contact"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

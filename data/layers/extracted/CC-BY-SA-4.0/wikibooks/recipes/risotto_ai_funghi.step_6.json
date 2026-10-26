@@ -1,0 +1,60 @@
+{
+  "id": "risotto_ai_funghi.step_6",
+  "source": "wikibooks_risotto_ai_funghi",
+  "sourceRef": {
+    "source": "wikibooks_risotto_ai_funghi",
+    "step": 6
+  },
+  "technique": "simmer",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "risotto_ai_funghi_step_5",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "broth_and_stock",
+        "amount": {
+          "qty": 0.5,
+          "unit": "l"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "risotto_ai_funghi_step_6",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 90,
+    "medium": "simmering_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Add about half the stock slowly, one ladle at a time. Some feel slowly adding the stock is nonsense because they are off doing something else risking the rice \"catching\" and burning. Some feel it makes no discernible difference to the taste. Most would agree that this doesn't affect the taste, but does change the texture.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of simmer's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

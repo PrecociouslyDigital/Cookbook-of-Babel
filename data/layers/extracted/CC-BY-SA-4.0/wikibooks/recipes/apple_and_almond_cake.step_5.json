@@ -1,0 +1,60 @@
+{
+  "id": "apple_and_almond_cake.step_5",
+  "source": "wikibooks_apple_and_almond_cake",
+  "sourceRef": {
+    "source": "wikibooks_apple_and_almond_cake",
+    "step": 5
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "apple_and_almond_cake_step_4",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "apple",
+        "amount": {
+          "qty": 0.75,
+          "unit": "lb"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "apple_and_almond_cake_step_5",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Immediately afterwards, peel, core and slice the apples and arrange on top of the mixture in the tin. Cover these with the remainder of the cake mixture. At this stage, the cake may appear \"untidy\", but the cooking process eliminates most unevenness or gaps in the surface.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.55"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

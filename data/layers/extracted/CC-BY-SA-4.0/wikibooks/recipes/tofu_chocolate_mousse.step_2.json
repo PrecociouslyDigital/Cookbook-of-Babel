@@ -1,0 +1,55 @@
+{
+  "id": "tofu_chocolate_mousse.step_2",
+  "source": "wikibooks_tofu_chocolate_mousse",
+  "sourceRef": {
+    "source": "wikibooks_tofu_chocolate_mousse",
+    "step": 2
+  },
+  "technique": "blend",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "tofu_chocolate_mousse_step_1",
+        "amount": {
+          "qty": 340,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "tofu",
+        "amount": {
+          "qty": 349,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "tofu_chocolate_mousse_step_2",
+      "amount": {
+        "qty": 689,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Empty the tofu into the blender and pulse several times.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

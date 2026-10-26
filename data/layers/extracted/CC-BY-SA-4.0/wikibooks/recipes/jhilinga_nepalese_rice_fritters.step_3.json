@@ -1,0 +1,53 @@
+{
+  "id": "jhilinga_nepalese_rice_fritters.step_3",
+  "source": "wikibooks_jhilinga_nepalese_rice_fritters",
+  "sourceRef": {
+    "source": "wikibooks_jhilinga_nepalese_rice_fritters",
+    "step": 3
+  },
+  "technique": "julienne",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "jhilinga_nepalese_rice_fritters_step_2",
+        "amount": {
+          "qty": 0.9,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "jhilinga_nepalese_rice_fritters_step_3",
+      "amount": {
+        "qty": 0.9,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "After it is cooked, process the dough through a noodle machine that can make really thin strips.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.48"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "id": "pudding_with_pistachios_and_rose_water_muhallebi.step_4",
+  "source": "wikibooks_pudding_with_pistachios_and_rose_water_muhallebi",
+  "sourceRef": {
+    "source": "wikibooks_pudding_with_pistachios_and_rose_water_muhallebi",
+    "step": 4
+  },
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "pudding_with_pistachios_and_rose_water_muhallebi_step_3",
+        "amount": {
+          "qty": 2303.3,
+          "unit": "g"
+        }
+      },
+      {
+        "min": 0,
+        "max": 1,
+        "of": [
+          {
+            "ingredient": "rosewater",
+            "amount": {
+              "qty": 0.5,
+              "unit": "cup"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "pudding_with_pistachios_and_rose_water_muhallebi_step_4",
+      "amount": {
+        "qty": 2421.6,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Stir in the rose water or orange flower water.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.54"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for rosewater"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

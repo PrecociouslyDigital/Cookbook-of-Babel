@@ -1,0 +1,53 @@
+{
+  "id": "chargrilled_asparagus_salad.step_1",
+  "source": "wikibooks_chargrilled_asparagus_salad",
+  "sourceRef": {
+    "source": "wikibooks_chargrilled_asparagus_salad",
+    "step": 1
+  },
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "asparagus",
+        "amount": {
+          "qty": 1,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "chargrilled_asparagus_salad_step_1",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Snap the ends off of the asparagus, then snap the remaining stalks in half. Rinse them well.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'1 bundle (about 500 g whole, 350 g trimmed) asparagus': 'bundle' read as pieces"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "id": "chocolate_and_banana_bread.step_2",
+  "source": "wikibooks_chocolate_and_banana_bread",
+  "sourceRef": {
+    "source": "wikibooks_chocolate_and_banana_bread",
+    "step": 2
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "wheat_flour",
+        "amount": {
+          "qty": 1,
+          "unit": "kg"
+        }
+      },
+      {
+        "ingredient": "yeast",
+        "amount": {
+          "qty": 21,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "tepid_water",
+        "amount": {
+          "qty": 650,
+          "unit": "ml"
+        }
+      },
+      {
+        "ingredient": "salt",
+        "amount": {
+          "qty": 2,
+          "unit": "tsp"
+        }
+      },
+      {
+        "ingredient": "white_sugar",
+        "amount": {
+          "qty": 35,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "chocolate_and_banana_bread_step_2",
+      "amount": {
+        "qty": 1717.8,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Mix all the dry ingredients together, add the water, and mix well with your hands.",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for tepid_water"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "id": "tartiflette.step_11",
+  "source": "wikibooks_tartiflette",
+  "sourceRef": {
+    "source": "wikibooks_tartiflette",
+    "step": 11
+  },
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "tartiflette_step_10",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "reblochon_cheese",
+        "amount": {
+          "qty": 0.5,
+          "unit": "lb"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "tartiflette_step_11",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Cut the Reblochon in two down across the top so that you have two pieces in the shape of a half-moon. Put one of the pieces away for another use. Use a sharp knife to lightly score the crust of the remaining half-cheese about every inch, including its side. Then, carefully slice horizontally through its center so that you now have two half-moon pieces.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

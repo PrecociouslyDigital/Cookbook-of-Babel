@@ -1,0 +1,81 @@
+{
+  "id": "peanut_butter_banana_oatmeal.step_3",
+  "source": "wikibooks_peanut_butter_banana_oatmeal",
+  "sourceRef": {
+    "source": "wikibooks_peanut_butter_banana_oatmeal",
+    "step": 3
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "peanut_butter_banana_oatmeal_step_2",
+        "amount": {
+          "qty": 236.6,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "milk",
+        "amount": {
+          "qty": 0.5,
+          "unit": "cup"
+        }
+      },
+      {
+        "ingredient": "banana",
+        "amount": {
+          "qty": 1,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "peanut_butter",
+        "amount": {
+          "qty": 1.5,
+          "unit": "tbsp"
+        }
+      },
+      {
+        "ingredient": "honey",
+        "amount": {
+          "qty": 0.5,
+          "unit": "tbsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "peanut_butter_banana_oatmeal_step_3",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Add milk, peanut butter, honey and sliced banana.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.52"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

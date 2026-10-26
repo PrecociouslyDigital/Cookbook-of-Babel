@@ -1,0 +1,55 @@
+{
+  "id": "nigerian_barbecued_chicken_wings.step_2",
+  "source": "wikibooks_nigerian_barbecued_chicken_wings",
+  "sourceRef": {
+    "source": "wikibooks_nigerian_barbecued_chicken_wings",
+    "step": 2
+  },
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "nigerian_barbecued_chicken_wings_step_1",
+        "amount": {
+          "qty": 175.7,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "chicken",
+        "amount": {
+          "qty": 10,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "nigerian_barbecued_chicken_wings_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Add the chicken pieces, and rub the mixture into them well so they are completely coated.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

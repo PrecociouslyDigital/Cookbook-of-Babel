@@ -1,0 +1,65 @@
+{
+  "id": "tuna_glop.step_2",
+  "source": "wikibooks_tuna_glop",
+  "sourceRef": {
+    "source": "wikibooks_tuna_glop",
+    "step": 2
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "tuna_glop_step_1",
+        "amount": {
+          "qty": 473.2,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "cream_of_mushroom_soup",
+        "amount": {
+          "qty": 10,
+          "unit": "oz"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "tuna_glop_step_2",
+      "amount": {
+        "qty": 756.7,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 180,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Add cream of mushroom soup.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.39"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 180.0 °C for pan_contact"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

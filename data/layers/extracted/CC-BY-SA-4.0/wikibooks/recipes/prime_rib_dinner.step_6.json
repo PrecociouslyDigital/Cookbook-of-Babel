@@ -1,0 +1,53 @@
+{
+  "id": "prime_rib_dinner.step_6",
+  "source": "wikibooks_prime_rib_dinner",
+  "sourceRef": {
+    "source": "wikibooks_prime_rib_dinner",
+    "step": 6
+  },
+  "technique": "roast",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "prime_rib_dinner_step_5",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "prime_rib_dinner_step_6",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 93.33333333333333,
+    "medium": "oven_air"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Bake at 200°F until internal temperature reaches 118°F. Remove from oven while oven heats back up to 500°F.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.59"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "id": "whole_wheat_bread_vegan.step_3",
+  "source": "wikibooks_whole_wheat_bread_vegan",
+  "sourceRef": {
+    "source": "wikibooks_whole_wheat_bread_vegan",
+    "step": 3
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "whole_wheat_bread_vegan_step_2",
+        "amount": {
+          "qty": 1294.6,
+          "unit": "g"
+        }
+      },
+      {
+        "min": 0,
+        "max": 1,
+        "of": [
+          {
+            "ingredient": "walnut",
+            "amount": {
+              "qty": 1.5,
+              "unit": "cup"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "whole_wheat_bread_vegan_step_3",
+      "amount": {
+        "qty": 1649.5,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Add the yeast mixture, which should be foamy by now, and the walnuts.",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for walnut"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

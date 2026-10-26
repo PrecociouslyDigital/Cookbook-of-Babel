@@ -1,0 +1,48 @@
+{
+  "id": "pizza_rollups.step_2",
+  "source": "wikibooks_pizza_rollups",
+  "sourceRef": {
+    "source": "wikibooks_pizza_rollups",
+    "step": 2
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "croissant_roll_dough",
+        "amount": {
+          "qty": 8,
+          "unit": "oz"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "pizza_rollups_step_2",
+      "amount": {
+        "qty": 226.8,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Unroll 2 croissant rolls and place together on ungreased cookie sheet, pointing in opposite directions, forming a rectangle by pinching sides together.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

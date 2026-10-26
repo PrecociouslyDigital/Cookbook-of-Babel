@@ -1,0 +1,74 @@
+{
+  "id": "kunun_aduwa_nigerian_tiger_nut_milk.step_2",
+  "source": "wikibooks_kunun_aduwa_nigerian_tiger_nut_milk",
+  "sourceRef": {
+    "source": "wikibooks_kunun_aduwa_nigerian_tiger_nut_milk",
+    "step": 2
+  },
+  "technique": "blend",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "kunun_aduwa_nigerian_tiger_nut_milk_step_1",
+        "amount": {
+          "qty": 473.5,
+          "unit": "g"
+        }
+      },
+      {
+        "min": 0,
+        "max": 1,
+        "of": [
+          {
+            "ingredient": "ginger",
+            "amount": {
+              "qty": 1,
+              "unit": "piece"
+            }
+          }
+        ]
+      },
+      {
+        "min": 0,
+        "max": 1,
+        "of": [
+          {
+            "ingredient": "date",
+            "amount": {
+              "qty": 6,
+              "unit": "piece"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "kunun_aduwa_nigerian_tiger_nut_milk_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "In a blender, combine the tiger nuts, ginger, and dates. Blend until smooth and creamy, adding water as needed to aid blending.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

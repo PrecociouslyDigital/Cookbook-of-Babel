@@ -1,0 +1,48 @@
+{
+  "id": "bean_balls.step_2",
+  "source": "wikibooks_bean_balls",
+  "sourceRef": {
+    "source": "wikibooks_bean_balls",
+    "step": 2
+  },
+  "technique": "rinse",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "bean_balls_step_1",
+        "amount": {
+          "qty": 473.2,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "bean_balls_step_2",
+      "amount": {
+        "qty": 473.2,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 35,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Soak the beans in lukewarm water for 30–40 minutes, then drain.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.28"
+    }
+  ]
+}

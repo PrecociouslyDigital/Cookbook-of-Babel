@@ -1,0 +1,95 @@
+{
+  "id": "classic_mince_pies.step_1",
+  "source": "wikibooks_classic_mince_pies",
+  "sourceRef": {
+    "source": "wikibooks_classic_mince_pies",
+    "step": 1
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "beef",
+        "amount": {
+          "qty": 4,
+          "unit": "lb"
+        }
+      },
+      {
+        "ingredient": "suet",
+        "amount": {
+          "qty": 1,
+          "unit": "lb"
+        }
+      },
+      {
+        "ingredient": "white_sugar",
+        "amount": {
+          "qty": 2,
+          "unit": "lb"
+        }
+      },
+      {
+        "ingredient": "raisin",
+        "amount": {
+          "qty": 2,
+          "unit": "lb"
+        }
+      },
+      {
+        "ingredient": "apple",
+        "amount": {
+          "qty": 4,
+          "unit": "lb"
+        }
+      },
+      {
+        "ingredient": "wine",
+        "amount": {
+          "qty": 1,
+          "unit": "pt"
+        }
+      },
+      {
+        "ingredient": "hard_cider",
+        "amount": {
+          "qty": 1,
+          "unit": "pt"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "classic_mince_pies_step_1",
+      "amount": {
+        "qty": 6838.3,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Combine beef, suet, sugar, raisins, apples, wine, and cider until thin enough.",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for hard_cider"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

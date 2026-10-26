@@ -1,0 +1,60 @@
+{
+  "id": "egg_roll.step_21",
+  "source": "wikibooks_egg_roll",
+  "sourceRef": {
+    "source": "wikibooks_egg_roll",
+    "step": 21
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "egg_roll_step_20",
+        "amount": {
+          "qty": 3.6,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "egg_white",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "egg_roll_step_21",
+      "amount": {
+        "qty": 3.9,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Paint some egg white onto this corner to act as glue.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Egg white': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

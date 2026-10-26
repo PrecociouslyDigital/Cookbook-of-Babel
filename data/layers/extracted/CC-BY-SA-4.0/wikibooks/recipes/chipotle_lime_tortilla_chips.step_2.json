@@ -1,0 +1,48 @@
+{
+  "id": "chipotle_lime_tortilla_chips.step_2",
+  "source": "wikibooks_chipotle_lime_tortilla_chips",
+  "sourceRef": {
+    "source": "wikibooks_chipotle_lime_tortilla_chips",
+    "step": 2
+  },
+  "technique": "evaporate",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "chipotle_lime_tortilla_chips_step_1",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "chipotle_lime_tortilla_chips_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 2,
+      "unit": "h"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Remove to a cooling rack and let dry for 2 hours.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.52"
+    }
+  ]
+}

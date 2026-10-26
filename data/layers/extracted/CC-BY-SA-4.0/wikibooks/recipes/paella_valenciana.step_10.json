@@ -1,0 +1,48 @@
+{
+  "id": "paella_valenciana.step_10",
+  "source": "wikibooks_paella_valenciana",
+  "sourceRef": {
+    "source": "wikibooks_paella_valenciana",
+    "step": 10
+  },
+  "technique": "steam",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "paella_valenciana_step_9",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "paella_valenciana",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 100,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 5,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Remove the pan from the heat when the rice is almost dry, and place the unused rosemary branches on top. Cover with a clean, white towel (a white towel prevents dye from leeching onto the paella) and wait 5 minutes before serving to allow the rice to absorb the remaining broth.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of steam's typical range"
+    }
+  ]
+}

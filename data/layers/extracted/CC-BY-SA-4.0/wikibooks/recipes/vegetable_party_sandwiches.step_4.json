@@ -1,0 +1,48 @@
+{
+  "id": "vegetable_party_sandwiches.step_4",
+  "source": "wikibooks_vegetable_party_sandwiches",
+  "sourceRef": {
+    "source": "wikibooks_vegetable_party_sandwiches",
+    "step": 4
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "vegetable_party_sandwiches_step_3",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "vegetable_party_sandwiches_step_4",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "If the mixture becomes too jelled to spread well, add ⅓ to ½ cup more mayonnaise.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

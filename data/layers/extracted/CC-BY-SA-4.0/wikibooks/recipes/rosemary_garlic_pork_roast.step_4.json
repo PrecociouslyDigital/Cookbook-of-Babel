@@ -1,0 +1,48 @@
+{
+  "id": "rosemary_garlic_pork_roast.step_4",
+  "source": "wikibooks_rosemary_garlic_pork_roast",
+  "sourceRef": {
+    "source": "wikibooks_rosemary_garlic_pork_roast",
+    "step": 4
+  },
+  "technique": "cool",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "rosemary_garlic_pork_roast_step_3",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "rosemary_garlic_pork_roast",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 10,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Remove and let rest for 10 minutes. Serve.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.51"
+    }
+  ]
+}

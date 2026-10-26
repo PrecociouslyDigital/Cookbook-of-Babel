@@ -1,0 +1,60 @@
+{
+  "id": "hot_cocoa.step_1",
+  "source": "wikibooks_hot_cocoa",
+  "sourceRef": {
+    "source": "wikibooks_hot_cocoa",
+    "step": 1
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "malted_chocolate_mix",
+        "amount": {
+          "qty": 4.5,
+          "unit": "tbsp"
+        }
+      },
+      {
+        "ingredient": "chocolate",
+        "amount": {
+          "qty": 1,
+          "unit": "tsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "hot_cocoa_step_1",
+      "amount": {
+        "qty": 71.5,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Mix the Ovaltine and cocoa powder together.",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for malted_chocolate_mix, chocolate"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

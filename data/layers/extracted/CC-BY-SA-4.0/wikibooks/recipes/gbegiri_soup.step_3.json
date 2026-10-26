@@ -1,0 +1,53 @@
+{
+  "id": "gbegiri_soup.step_3",
+  "source": "wikibooks_gbegiri_soup",
+  "sourceRef": {
+    "source": "wikibooks_gbegiri_soup",
+    "step": 3
+  },
+  "technique": "blend",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "gbegiri_soup_step_2",
+        "amount": {
+          "qty": 473.5,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "gbegiri_soup_step_3",
+      "amount": {
+        "qty": 473.5,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Blend or mash the cooked beans into a smooth paste (optional for extra smooth texture).",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.48"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

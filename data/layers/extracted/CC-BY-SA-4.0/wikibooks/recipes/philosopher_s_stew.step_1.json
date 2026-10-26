@@ -1,0 +1,48 @@
+{
+  "id": "philosopher_s_stew.step_1",
+  "source": "wikibooks_philosopher_s_stew",
+  "sourceRef": {
+    "source": "wikibooks_philosopher_s_stew",
+    "step": 1
+  },
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "beef",
+        "amount": {
+          "qty": 350,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "philosopher_s_stew_step_1",
+      "amount": {
+        "qty": 350,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Cut the meat into small pieces (about 5 mm).",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

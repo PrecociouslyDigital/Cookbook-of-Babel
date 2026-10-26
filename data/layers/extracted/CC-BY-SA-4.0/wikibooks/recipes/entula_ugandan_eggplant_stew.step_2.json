@@ -1,0 +1,77 @@
+{
+  "id": "entula_ugandan_eggplant_stew.step_2",
+  "source": "wikibooks_entula_ugandan_eggplant_stew",
+  "sourceRef": {
+    "source": "wikibooks_entula_ugandan_eggplant_stew",
+    "step": 2
+  },
+  "technique": "stir_fry",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "entula_ugandan_eggplant_stew_step_1",
+        "amount": {
+          "qty": 263.8,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "garlic",
+        "amount": {
+          "qty": 3,
+          "unit": "clove"
+        }
+      },
+      {
+        "ingredient": "ginger",
+        "amount": {
+          "qty": 1,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "entula_ugandan_eggplant_stew_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 215,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Stir in the minced garlic and grated ginger, and sauté for another minute until the mixture becomes aromatic.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.4"
+    },
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'1-inch piece of ginger, grated': '-inch' read as pieces"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of stir_fry's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

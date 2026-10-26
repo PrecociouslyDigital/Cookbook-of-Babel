@@ -1,0 +1,55 @@
+{
+  "id": "steamed_tuna_bao_buns.step_10",
+  "source": "wikibooks_steamed_tuna_bao_buns",
+  "sourceRef": {
+    "source": "wikibooks_steamed_tuna_bao_buns",
+    "step": 10
+  },
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "steamed_tuna_bao_buns_step_9",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "canned_pineapple_juice",
+        "amount": {
+          "qty": 1,
+          "unit": "tbsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "steamed_tuna_bao_buns_step_10",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Optionally add 1 tbsp pineapple juice, which will make it sweet.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

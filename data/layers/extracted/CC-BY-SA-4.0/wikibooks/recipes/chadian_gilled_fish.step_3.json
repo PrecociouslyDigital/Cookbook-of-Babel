@@ -1,0 +1,55 @@
+{
+  "id": "chadian_gilled_fish.step_3",
+  "source": "wikibooks_chadian_gilled_fish",
+  "sourceRef": {
+    "source": "wikibooks_chadian_gilled_fish",
+    "step": 3
+  },
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "chadian_gilled_fish_step_2",
+        "amount": {
+          "qty": 52.5,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "fish",
+        "amount": {
+          "qty": 2,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "chadian_gilled_fish_step_3",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Pat dry the fish with paper towels and place them on a plate or tray. Using a basting brush, generously coat both sides of the fish with the marinade. Make sure to cover the fish thoroughly for maximum flavor.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

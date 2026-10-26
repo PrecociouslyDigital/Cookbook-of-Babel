@@ -1,0 +1,53 @@
+{
+  "id": "apple_glazed_pork_chops.step_4",
+  "source": "wikibooks_apple_glazed_pork_chops",
+  "sourceRef": {
+    "source": "wikibooks_apple_glazed_pork_chops",
+    "step": 4
+  },
+  "technique": "cool",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "apple_glazed_pork_chops_step_3",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "apple_glazed_pork_chops",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 20,
+    "medium": "still_air"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 7,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Remove and let rest for 7 minutes. Serve with remaining cider mixture.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.59"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 20.0 °C for still_air"
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "id": "cheese_stuffed_crust_pizza.step_8",
+  "source": "wikibooks_cheese_stuffed_crust_pizza",
+  "sourceRef": {
+    "source": "wikibooks_cheese_stuffed_crust_pizza",
+    "step": 8
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "cheese_stuffed_crust_pizza_step_7",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "pepperoni",
+        "amount": {
+          "qty": 24,
+          "unit": "slice"
+        }
+      },
+      {
+        "ingredient": "sausage",
+        "amount": {
+          "qty": 1,
+          "unit": "cup"
+        }
+      },
+      {
+        "ingredient": "cheese",
+        "amount": {
+          "qty": 2,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "cheese_stuffed_crust_pizza_step_8",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Scatter on the sauce the pepperoni, sausage, and shredded Italian cheese.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.49"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

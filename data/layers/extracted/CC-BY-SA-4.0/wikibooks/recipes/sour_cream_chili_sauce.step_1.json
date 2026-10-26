@@ -1,0 +1,74 @@
+{
+  "id": "sour_cream_chili_sauce.step_1",
+  "source": "wikibooks_sour_cream_chili_sauce",
+  "sourceRef": {
+    "source": "wikibooks_sour_cream_chili_sauce",
+    "step": 1
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "mayonnaise",
+        "amount": {
+          "qty": 6,
+          "unit": "oz"
+        }
+      },
+      {
+        "ingredient": "sour_cream",
+        "amount": {
+          "qty": 6,
+          "unit": "oz"
+        }
+      },
+      {
+        "ingredient": "chile_paste_and_sauce",
+        "amount": {
+          "qty": 1.75,
+          "unit": "oz"
+        }
+      },
+      {
+        "ingredient": "cayenne_pepper",
+        "amount": {
+          "qty": 0.16666666666666666,
+          "unit": "tsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "sour_cream_chili_sauce",
+      "amount": {
+        "qty": 390.6,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Stir all ingredients together well.",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for cayenne_pepper"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

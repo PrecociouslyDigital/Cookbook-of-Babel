@@ -1,0 +1,53 @@
+{
+  "id": "turkey_and_bacon_salad.step_5",
+  "source": "wikibooks_turkey_and_bacon_salad",
+  "sourceRef": {
+    "source": "wikibooks_turkey_and_bacon_salad",
+    "step": 5
+  },
+  "technique": "julienne",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "turkey_and_bacon_salad_step_4",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "turkey_and_bacon_salad_step_5",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Shred lettuce either by hand or with a knife.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.57"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

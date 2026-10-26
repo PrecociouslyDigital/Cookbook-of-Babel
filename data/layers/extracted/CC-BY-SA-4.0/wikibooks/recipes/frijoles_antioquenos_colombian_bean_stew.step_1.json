@@ -1,0 +1,48 @@
+{
+  "id": "frijoles_antioquenos_colombian_bean_stew.step_1",
+  "source": "wikibooks_frijoles_antioquenos_colombian_bean_stew",
+  "sourceRef": {
+    "source": "wikibooks_frijoles_antioquenos_colombian_bean_stew",
+    "step": 1
+  },
+  "technique": "rinse",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "common_bean",
+        "amount": {
+          "qty": 1,
+          "unit": "lb"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "frijoles_antioquenos_colombian_bean_stew_step_1",
+      "amount": {
+        "qty": 453.6,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 8,
+      "unit": "h"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Wash beans and let hydrate overnight by covering with twice its volume of water.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "'overnight' read as 8 hours"
+    }
+  ]
+}

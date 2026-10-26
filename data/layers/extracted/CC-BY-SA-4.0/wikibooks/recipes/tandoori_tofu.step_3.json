@@ -1,0 +1,81 @@
+{
+  "id": "tandoori_tofu.step_3",
+  "source": "wikibooks_tandoori_tofu",
+  "sourceRef": {
+    "source": "wikibooks_tandoori_tofu",
+    "step": 3
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "tandoori_tofu_step_2",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "yogurt",
+        "amount": {
+          "qty": 2.5,
+          "unit": "tbsp"
+        }
+      },
+      {
+        "ingredient": "tomato_sauce",
+        "amount": {
+          "qty": 120,
+          "unit": "ml"
+        }
+      },
+      {
+        "ingredient": "olive_oil",
+        "amount": {
+          "qty": 2,
+          "unit": "tbsp"
+        }
+      },
+      {
+        "ingredient": "turmeric",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "tandoori_tofu_step_3",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Mix the spices, tomato sauce, yogurt, and oil in a bowl.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Preferred seasonings (suggested seasonings: turmeric, pepper, hot sauce, salt)': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

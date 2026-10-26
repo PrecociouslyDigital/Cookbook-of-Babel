@@ -1,0 +1,55 @@
+{
+  "id": "orange_soda_ii.step_2",
+  "source": "wikibooks_orange_soda_ii",
+  "sourceRef": {
+    "source": "wikibooks_orange_soda_ii",
+    "step": 2
+  },
+  "technique": "age",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "orange_soda_ii_step_1",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "white_sugar",
+        "amount": {
+          "qty": 0.5,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "orange_soda_ii_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 24,
+      "unit": "h"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Combine the sugar and orange zest in a container, and let this sit in the fridge for 24 hours. The sugar will extract the liquid from the citrus peels and produce a syrupy liquid.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.52"
+    }
+  ]
+}

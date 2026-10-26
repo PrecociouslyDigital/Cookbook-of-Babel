@@ -1,0 +1,71 @@
+{
+  "id": "traditional_pilau_rice.step_9",
+  "source": "wikibooks_traditional_pilau_rice",
+  "sourceRef": {
+    "source": "wikibooks_traditional_pilau_rice",
+    "step": 9
+  },
+  "technique": "steam",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "traditional_pilau_rice_step_8",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "min": 0,
+        "max": 1,
+        "of": [
+          {
+            "ingredient": "pea",
+            "amount": {
+              "qty": 1,
+              "unit": "pinch"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "traditional_pilau_rice",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 100,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 25,
+      "unit": "min"
+    }
+  },
+  "stateNote": "After 25 minutes, remove the lid, add the peas, cover with a clean teatowel (optional) and replace the lid. Turn off the heat and leave to rest for 5 minutes; the peas will cook in the residual heat and the teatowel will absorb excess moisture/condensation.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Frozen petits pois (optional)': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of steam's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "the step names several durations; used the first"
+    }
+  ]
+}

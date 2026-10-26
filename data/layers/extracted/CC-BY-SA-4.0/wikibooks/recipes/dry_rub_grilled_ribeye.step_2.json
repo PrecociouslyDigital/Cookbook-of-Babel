@@ -1,0 +1,65 @@
+{
+  "id": "dry_rub_grilled_ribeye.step_2",
+  "source": "wikibooks_dry_rub_grilled_ribeye",
+  "sourceRef": {
+    "source": "wikibooks_dry_rub_grilled_ribeye",
+    "step": 2
+  },
+  "technique": "grill",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "dry_rub_grilled_ribeye_step_1",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "worcestershire_sauce",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "dry_rub_grilled_ribeye_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 250,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1.5,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Quickly wipe the towel on the grate of a preheated charcoal grill. Add steaks to the hottest part and cook 1 ½ minutes, then rotate 90° and cook for another 1 ½ minutes. Flip and repeat 1 more time. If flare-ups appear close to meat, spray with Worcestershire sauce. If not, leave alone.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Worcestershire sauce in a spray bottle': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of grill's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "the step names several durations; used the first"
+    }
+  ]
+}

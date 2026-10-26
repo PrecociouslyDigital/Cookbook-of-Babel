@@ -1,0 +1,55 @@
+{
+  "id": "chicken_curry_mediterranean_inspired.step_2",
+  "source": "wikibooks_chicken_curry_mediterranean_inspired",
+  "sourceRef": {
+    "source": "wikibooks_chicken_curry_mediterranean_inspired",
+    "step": 2
+  },
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "chicken_curry_mediterranean_inspired_step_1",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "chicken",
+        "amount": {
+          "qty": 2,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "chicken_curry_mediterranean_inspired_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 0.75,
+      "unit": "h"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Marinate the chicken in the marinade for about ½-1 hour.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'2 whole bone-in chicken thighs': 'bone-in' read as pieces"
+    }
+  ]
+}

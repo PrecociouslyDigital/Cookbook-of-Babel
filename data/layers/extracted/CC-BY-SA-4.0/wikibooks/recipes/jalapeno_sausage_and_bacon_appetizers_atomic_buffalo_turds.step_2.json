@@ -1,0 +1,77 @@
+{
+  "id": "jalapeno_sausage_and_bacon_appetizers_atomic_buffalo_turds.step_2",
+  "source": "wikibooks_jalapeno_sausage_and_bacon_appetizers_atomic_buffalo_turds",
+  "sourceRef": {
+    "source": "wikibooks_jalapeno_sausage_and_bacon_appetizers_atomic_buffalo_turds",
+    "step": 2
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "jalapeno_sausage_and_bacon_appetizers_atomic_buffalo_turds_step_1",
+        "amount": {
+          "qty": 0.3,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "cream_cheese",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      },
+      {
+        "ingredient": "sausage",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "jalapeno_sausage_and_bacon_appetizers_atomic_buffalo_turds_step_2",
+      "amount": {
+        "qty": 0.9,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Fill the peppers with cream cheese, and then place a cocktail sausage on top of the cream cheese.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Cream cheese': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Cocktail sausages': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for cream_cheese, sausage"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

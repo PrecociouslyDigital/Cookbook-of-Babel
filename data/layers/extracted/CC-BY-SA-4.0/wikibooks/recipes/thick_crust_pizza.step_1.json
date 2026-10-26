@@ -1,0 +1,48 @@
+{
+  "id": "thick_crust_pizza.step_1",
+  "source": "wikibooks_thick_crust_pizza",
+  "sourceRef": {
+    "source": "wikibooks_thick_crust_pizza",
+    "step": 1
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "tomato_sauce",
+        "amount": {
+          "qty": 12,
+          "unit": "oz"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "thick_crust_pizza_step_1",
+      "amount": {
+        "qty": 340.2,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Pour can of tomato sauce into a mixing bowl.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

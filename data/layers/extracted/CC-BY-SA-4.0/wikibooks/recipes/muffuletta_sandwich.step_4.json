@@ -1,0 +1,48 @@
+{
+  "id": "muffuletta_sandwich.step_4",
+  "source": "wikibooks_muffuletta_sandwich",
+  "sourceRef": {
+    "source": "wikibooks_muffuletta_sandwich",
+    "step": 4
+  },
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "muffuletta_sandwich_step_3",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "muffuletta_sandwich",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Quarter the muffuletta and serve or wrap the muffuletta tightly in plastic wrap to save for later.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "salza_criolla_south_american_onion_relish.step_1",
+  "source": "wikibooks_salza_criolla_south_american_onion_relish",
+  "sourceRef": {
+    "source": "wikibooks_salza_criolla_south_american_onion_relish",
+    "step": 1
+  },
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "onion",
+        "amount": {
+          "qty": 1,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "salza_criolla_south_american_onion_relish_step_1",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Cleave the onion from top to bottom, along the grain, then slice it fine across the grain, forming half-rings.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

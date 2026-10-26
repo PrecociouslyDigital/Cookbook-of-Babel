@@ -1,0 +1,53 @@
+{
+  "id": "dokunu_fermented_corn_dumplings.step_4",
+  "source": "wikibooks_dokunu_fermented_corn_dumplings",
+  "sourceRef": {
+    "source": "wikibooks_dokunu_fermented_corn_dumplings",
+    "step": 4
+  },
+  "technique": "simmer",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "dokunu_fermented_corn_dumplings_step_3",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "dokunu_fermented_corn_dumplings_step_4",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 90,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 12.5,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Heat a pot over medium heat. Add one half of the dough, and cook for about 10–15 minutes, stirring regularly.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.27"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of simmer's typical range"
+    }
+  ]
+}

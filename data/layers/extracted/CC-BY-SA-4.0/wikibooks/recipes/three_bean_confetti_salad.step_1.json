@@ -1,0 +1,102 @@
+{
+  "id": "three_bean_confetti_salad.step_1",
+  "source": "wikibooks_three_bean_confetti_salad",
+  "sourceRef": {
+    "source": "wikibooks_three_bean_confetti_salad",
+    "step": 1
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "common_bean",
+        "amount": {
+          "qty": 15,
+          "unit": "oz"
+        }
+      },
+      {
+        "ingredient": "common_bean",
+        "amount": {
+          "qty": 15,
+          "unit": "oz"
+        }
+      },
+      {
+        "ingredient": "common_bean",
+        "amount": {
+          "qty": 12,
+          "unit": "oz"
+        }
+      },
+      {
+        "ingredient": "corn",
+        "amount": {
+          "qty": 8.75,
+          "unit": "oz"
+        }
+      },
+      {
+        "ingredient": "tomato",
+        "amount": {
+          "qty": 14.5,
+          "unit": "oz"
+        }
+      },
+      {
+        "ingredient": "fat_free_italian_salad_dressing",
+        "amount": {
+          "qty": 0.5,
+          "unit": "cup"
+        }
+      },
+      {
+        "ingredient": "italian_seasoning",
+        "amount": {
+          "qty": 2,
+          "unit": "tsp"
+        }
+      },
+      {
+        "ingredient": "pepper",
+        "amount": {
+          "qty": 0.25,
+          "unit": "tsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "three_bean_confetti_salad",
+      "amount": {
+        "qty": 1979.2,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "In a bowl, mix together beans, corn, tomatoes, Italian salad dressing, Italian seasoning and pepper.",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for fat_free_italian_salad_dressing, italian_seasoning, pepper"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

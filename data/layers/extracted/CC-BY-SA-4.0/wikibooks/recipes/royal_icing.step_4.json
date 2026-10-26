@@ -1,0 +1,53 @@
+{
+  "id": "royal_icing.step_4",
+  "source": "wikibooks_royal_icing",
+  "sourceRef": {
+    "source": "wikibooks_royal_icing",
+    "step": 4
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "royal_icing_step_3",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "royal_icing",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 2,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Continue to mix until the icing holds a stiff peak and is dull in appearance, about 2 minutes. The icing is ready to use for piping lines.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.52"
+    },
+    {
+      "field": "inputs",
+      "kind": "missing",
+      "note": "no step uses 'Liquid or paste food coloring' (p=0.99)"
+    }
+  ]
+}

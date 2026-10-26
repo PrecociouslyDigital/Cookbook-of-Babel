@@ -1,0 +1,48 @@
+{
+  "id": "date_syrup.step_6",
+  "source": "wikibooks_date_syrup",
+  "sourceRef": {
+    "source": "wikibooks_date_syrup",
+    "step": 6
+  },
+  "technique": "strain",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "date_syrup_step_5",
+        "amount": {
+          "qty": 946.4,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "date_syrup_step_6",
+      "amount": {
+        "qty": 946.4,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Strain the mixture through several layers of cheesecloth or a nut milk bag.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

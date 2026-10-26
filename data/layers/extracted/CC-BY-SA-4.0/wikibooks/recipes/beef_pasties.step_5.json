@@ -1,0 +1,48 @@
+{
+  "id": "beef_pasties.step_5",
+  "source": "wikibooks_beef_pasties",
+  "sourceRef": {
+    "source": "wikibooks_beef_pasties",
+    "step": 5
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "beef_pasties_step_4",
+        "amount": {
+          "qty": 1158.4,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "beef_pasties_step_5",
+      "amount": {
+        "qty": 1158.4,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Moisten edge of pastry with water.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

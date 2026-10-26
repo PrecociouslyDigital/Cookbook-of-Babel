@@ -1,0 +1,53 @@
+{
+  "id": "chocolate_noodles_with_vanilla_sauce.step_8",
+  "source": "wikibooks_chocolate_noodles_with_vanilla_sauce",
+  "sourceRef": {
+    "source": "wikibooks_chocolate_noodles_with_vanilla_sauce",
+    "step": 8
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "chocolate_noodles_with_vanilla_sauce_step_7",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "chocolate_noodles_with_vanilla_sauce_step_8",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Warm the milk and cream and stir gently, then pour the warm mixture onto the egg mix.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.48"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

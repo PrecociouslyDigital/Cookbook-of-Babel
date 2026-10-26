@@ -1,0 +1,53 @@
+{
+  "id": "mincemeat.step_3",
+  "source": "wikibooks_mincemeat",
+  "sourceRef": {
+    "source": "wikibooks_mincemeat",
+    "step": 3
+  },
+  "technique": "evaporate",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "mincemeat_step_2",
+        "amount": {
+          "qty": 4762.7,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "mincemeat_step_3",
+      "amount": {
+        "qty": 4762.7,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 100,
+    "medium": "simmering_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Remove meat and cook the stock down to the amount needed, or thicken slightly with cornstarch.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of evaporate's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "id": "kesari_south_indian_semolina_pudding.step_4",
+  "source": "wikibooks_kesari_south_indian_semolina_pudding",
+  "sourceRef": {
+    "source": "wikibooks_kesari_south_indian_semolina_pudding",
+    "step": 4
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "kesari_south_indian_semolina_pudding_step_3",
+        "amount": {
+          "qty": 1188.4,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "jaggery",
+        "amount": {
+          "qty": 0.75,
+          "unit": "cup"
+        }
+      },
+      {
+        "min": 0,
+        "max": 1,
+        "of": [
+          {
+            "ingredient": "pineapple",
+            "amount": {
+              "qty": 0.25,
+              "unit": "cup"
+            }
+          }
+        ]
+      },
+      {
+        "ingredient": "cardamom",
+        "amount": {
+          "qty": 1,
+          "unit": "tbsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "kesari_south_indian_semolina_pudding_step_4",
+      "amount": {
+        "qty": 1439.8,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 90,
+    "medium": "simmering_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Add the sugar, pineapple, and cardamom to the mix while stirring.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.59"
+    },
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.47"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for jaggery, pineapple, cardamom"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 90.0 °C for simmering_water"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

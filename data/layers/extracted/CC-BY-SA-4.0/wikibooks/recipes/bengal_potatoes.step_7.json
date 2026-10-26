@@ -1,0 +1,58 @@
+{
+  "id": "bengal_potatoes.step_7",
+  "source": "wikibooks_bengal_potatoes",
+  "sourceRef": {
+    "source": "wikibooks_bengal_potatoes",
+    "step": 7
+  },
+  "technique": "steam",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "bengal_potatoes_step_6",
+        "amount": {
+          "qty": 918,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "bengal_potatoes",
+      "amount": {
+        "qty": 918,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 100,
+    "medium": "steam"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Do one of the following: Put on the lid, turn down the heat, and allow the potatoes to cook in their own steam until cooked through. A little extra water can be added if necessary, but as little as possible should be used. The potatoes should not boil. Put the spiced potatoes on a tray in a hot oven until cooked through.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.5"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of steam's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

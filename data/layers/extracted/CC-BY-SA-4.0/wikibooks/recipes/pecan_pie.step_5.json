@@ -1,0 +1,53 @@
+{
+  "id": "pecan_pie.step_5",
+  "source": "wikibooks_pecan_pie",
+  "sourceRef": {
+    "source": "wikibooks_pecan_pie",
+    "step": 5
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "pecan_pie_step_4",
+        "amount": {
+          "qty": 727.8,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "pecan_pie_step_5",
+      "amount": {
+        "qty": 727.8,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Add the butter and shortening, and pulse 8–12 times until the butter is the size of peas.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.28"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

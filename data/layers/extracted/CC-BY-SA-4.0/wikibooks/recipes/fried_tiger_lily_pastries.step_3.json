@@ -1,0 +1,65 @@
+{
+  "id": "fried_tiger_lily_pastries.step_3",
+  "source": "wikibooks_fried_tiger_lily_pastries",
+  "sourceRef": {
+    "source": "wikibooks_fried_tiger_lily_pastries",
+    "step": 3
+  },
+  "technique": "dissolve",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "fried_tiger_lily_pastries_step_2",
+        "amount": {
+          "qty": 378.4,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "white_sugar",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "fried_tiger_lily_pastries_step_3",
+      "amount": {
+        "qty": 378.7,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Remove from heat and stir in sugar until it dissolves. Let cool.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.46"
+    },
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Sugar': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

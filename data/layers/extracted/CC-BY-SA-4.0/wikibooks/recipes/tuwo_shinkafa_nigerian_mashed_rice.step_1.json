@@ -1,0 +1,48 @@
+{
+  "id": "tuwo_shinkafa_nigerian_mashed_rice.step_1",
+  "source": "wikibooks_tuwo_shinkafa_nigerian_mashed_rice",
+  "sourceRef": {
+    "source": "wikibooks_tuwo_shinkafa_nigerian_mashed_rice",
+    "step": 1
+  },
+  "technique": "rinse",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "rice",
+        "amount": {
+          "qty": 500,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "tuwo_shinkafa_nigerian_mashed_rice_step_1",
+      "amount": {
+        "qty": 500,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Wash the rice thoroughly, then drain.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "id": "baked_pork_chops.step_3",
+  "source": "wikibooks_baked_pork_chops",
+  "sourceRef": {
+    "source": "wikibooks_baked_pork_chops",
+    "step": 3
+  },
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "baked_pork_chops_step_2",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "pork",
+        "amount": {
+          "qty": 3.5,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "garlic_salt",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "baked_pork_chops_step_3",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Season meat with garlic salt and pepper; spread top of meat with Dijon",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'3–4 bone-in pork chops, ¼ inch (6 mm) thin': 'bone-in' read as pieces"
+    },
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Garlic salt, black pepper, and Dijon mustard, to taste': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

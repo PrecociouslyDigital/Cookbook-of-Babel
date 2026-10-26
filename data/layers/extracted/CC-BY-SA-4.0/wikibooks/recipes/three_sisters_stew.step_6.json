@@ -1,0 +1,65 @@
+{
+  "id": "three_sisters_stew.step_6",
+  "source": "wikibooks_three_sisters_stew",
+  "sourceRef": {
+    "source": "wikibooks_three_sisters_stew",
+    "step": 6
+  },
+  "technique": "age",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "three_sisters_stew_step_5",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "cilantro",
+        "amount": {
+          "qty": 3.5,
+          "unit": "tbsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "three_sisters_stew",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 90,
+    "medium": "simmering_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1.5,
+      "unit": "h"
+    }
+  },
+  "stateNote": "If time allows, let the stew stand for 1–2 hours before serving, then heat through as needed. Just before serving, stir in the cilantro. The stew should be thick and very moist but not soupy; add additional stock or water if needed. Serve in shallow bowls.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.36"
+    },
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.3"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 90.0 °C for simmering_water"
+    }
+  ]
+}

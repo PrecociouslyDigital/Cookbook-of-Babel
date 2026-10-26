@@ -1,0 +1,48 @@
+{
+  "id": "creamy_aioli_salsa.step_4",
+  "source": "wikibooks_creamy_aioli_salsa",
+  "sourceRef": {
+    "source": "wikibooks_creamy_aioli_salsa",
+    "step": 4
+  },
+  "technique": "blend",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "creamy_aioli_salsa_step_3",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "creamy_aioli_salsa",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Gradually blend in more olive oil, tasting, until the mixture reaches your desired creaminess.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

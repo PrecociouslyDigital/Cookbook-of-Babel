@@ -1,0 +1,62 @@
+{
+  "id": "lasagne_with_bean_sauce.step_6",
+  "source": "wikibooks_lasagne_with_bean_sauce",
+  "sourceRef": {
+    "source": "wikibooks_lasagne_with_bean_sauce",
+    "step": 6
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "lasagne_with_bean_sauce_step_5",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "cottage_cheese",
+        "amount": {
+          "qty": 240,
+          "unit": "ml"
+        }
+      },
+      {
+        "ingredient": "mozzarella_cheese",
+        "amount": {
+          "qty": 135,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "lasagne_with_bean_sauce_step_6",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "In a 30 x 20 cm (13 x 9 in) baking dish, form a layer using half the noodles, sauce, cottage cheese, and mozzarella. Repeat to form a second layer.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

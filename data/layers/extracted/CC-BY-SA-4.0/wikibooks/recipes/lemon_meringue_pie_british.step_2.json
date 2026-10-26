@@ -1,0 +1,55 @@
+{
+  "id": "lemon_meringue_pie_british.step_2",
+  "source": "wikibooks_lemon_meringue_pie_british",
+  "sourceRef": {
+    "source": "wikibooks_lemon_meringue_pie_british",
+    "step": 2
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "lemon_meringue_pie_british_step_1",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "butter",
+        "amount": {
+          "qty": 36,
+          "unit": "ml"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "lemon_meringue_pie_british_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Add sufficient melted butter to the crumbs to make the mixture cohesive. Mix well, then press it into the bottom of a 10 inch (25 cm) diameter, 1 inch deep pie dish. Press down firmly with the tip of a spoon to make the base.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

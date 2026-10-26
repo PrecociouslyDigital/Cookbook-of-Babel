@@ -1,0 +1,48 @@
+{
+  "id": "puliyodarai_south_indian_tamarind_rice.step_2",
+  "source": "wikibooks_puliyodarai_south_indian_tamarind_rice",
+  "sourceRef": {
+    "source": "wikibooks_puliyodarai_south_indian_tamarind_rice",
+    "step": 2
+  },
+  "technique": "grind",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "puliyodarai_south_indian_tamarind_rice_step_1",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "puliyodarai_south_indian_tamarind_rice_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Grind to a fine powder after the mix cools down.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

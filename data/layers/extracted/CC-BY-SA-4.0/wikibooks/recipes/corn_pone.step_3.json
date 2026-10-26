@@ -1,0 +1,48 @@
+{
+  "id": "corn_pone.step_3",
+  "source": "wikibooks_corn_pone",
+  "sourceRef": {
+    "source": "wikibooks_corn_pone",
+    "step": 3
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "corn_pone_step_2",
+        "amount": {
+          "qty": 975.4,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "corn_pone_step_3",
+      "amount": {
+        "qty": 975.4,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "When the batter is lukewarm, stir in enough corn meal to make it quite thick.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

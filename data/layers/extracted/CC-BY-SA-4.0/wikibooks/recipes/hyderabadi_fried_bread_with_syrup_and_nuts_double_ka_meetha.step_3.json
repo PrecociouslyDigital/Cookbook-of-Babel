@@ -1,0 +1,79 @@
+{
+  "id": "hyderabadi_fried_bread_with_syrup_and_nuts_double_ka_meetha.step_3",
+  "source": "wikibooks_hyderabadi_fried_bread_with_syrup_and_nuts_double_ka_meetha",
+  "sourceRef": {
+    "source": "wikibooks_hyderabadi_fried_bread_with_syrup_and_nuts_double_ka_meetha",
+    "step": 3
+  },
+  "technique": "boil",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "hyderabadi_fried_bread_with_syrup_and_nuts_double_ka_meetha_step_2",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "milk",
+        "amount": {
+          "qty": 1,
+          "unit": "l"
+        }
+      },
+      {
+        "ingredient": "white_sugar",
+        "amount": {
+          "qty": 500,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "water",
+        "amount": {
+          "qty": 500,
+          "unit": "ml"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "hyderabadi_fried_bread_with_syrup_and_nuts_double_ka_meetha_step_3",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 100,
+    "medium": "boiling_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Make a sugar syrup by adding half a litre of water to the sugar. Add the milk to the sugar syrup. Boil until the syrup starts thickening.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.53"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of boil's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": "roast_beef.step_21",
+  "source": "wikibooks_roast_beef",
+  "sourceRef": {
+    "source": "wikibooks_roast_beef",
+    "step": 21
+  },
+  "technique": "separate",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "roast_beef_step_20",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "roast_beef_step_21",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 200,
+    "medium": "oven_air"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "When they have all been in the frying pan, drain the oil from the pan, and separate the potatoes a little, or move them carefully onto a rack above a roasting dish in the oven. Don't place them flat onto a roasting dish or they will tend to become soggy. There should be a gap of about 1 inch (2.5cm) between each potato. This is vital to let air to circulate thus enabling them to become crispy.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.49"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

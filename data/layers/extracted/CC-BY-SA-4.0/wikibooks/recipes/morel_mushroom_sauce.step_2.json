@@ -1,0 +1,65 @@
+{
+  "id": "morel_mushroom_sauce.step_2",
+  "source": "wikibooks_morel_mushroom_sauce",
+  "sourceRef": {
+    "source": "wikibooks_morel_mushroom_sauce",
+    "step": 2
+  },
+  "technique": "pan_fry",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "morel_mushroom_sauce_step_1",
+        "amount": {
+          "qty": 44.4,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "mushroom",
+        "amount": {
+          "qty": 3,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "morel_mushroom_sauce_step_2",
+      "amount": {
+        "qty": 754.2,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 185,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 17.5,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Add the morels and sauté, stirring occasionally, for 15–20 minutes until slightly crispy.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.58"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for mushroom"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of pan_fry's typical range"
+    }
+  ]
+}

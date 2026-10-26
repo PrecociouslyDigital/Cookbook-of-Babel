@@ -1,0 +1,58 @@
+{
+  "id": "bacon_cheese_omelet.step_7",
+  "source": "wikibooks_bacon_cheese_omelet",
+  "sourceRef": {
+    "source": "wikibooks_bacon_cheese_omelet",
+    "step": 7
+  },
+  "technique": "pan_fry",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "bacon_cheese_omelet_step_6",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "bacon_cheese_omelet_step_7",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 185,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Continue rotating until the edges become thick, then use a spatula to lift side of the now cooked egg, allowing the remaining liquid egg from the centre to flow underneath on to the pan and start cooking. Continue to rotate the pan and move the spatula to adjacent areas until most of the liquid egg is cooked.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.42"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of pan_fry's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

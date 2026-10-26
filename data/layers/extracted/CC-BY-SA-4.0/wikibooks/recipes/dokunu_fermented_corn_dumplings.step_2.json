@@ -1,0 +1,53 @@
+{
+  "id": "dokunu_fermented_corn_dumplings.step_2",
+  "source": "wikibooks_dokunu_fermented_corn_dumplings",
+  "sourceRef": {
+    "source": "wikibooks_dokunu_fermented_corn_dumplings",
+    "step": 2
+  },
+  "technique": "ferment",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "dokunu_fermented_corn_dumplings_step_1",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "dokunu_fermented_corn_dumplings_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 20,
+    "medium": "still_air"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 2,
+      "unit": "d"
+    }
+  },
+  "stateNote": "Cover the mixture with a clean cloth, and let rest in a warm place for 2 days. It should smell sour, like sourdough.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.54"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 20.0 °C for still_air"
+    }
+  ]
+}

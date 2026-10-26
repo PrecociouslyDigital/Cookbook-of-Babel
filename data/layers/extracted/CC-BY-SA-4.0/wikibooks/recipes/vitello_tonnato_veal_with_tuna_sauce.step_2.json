@@ -1,0 +1,53 @@
+{
+  "id": "vitello_tonnato_veal_with_tuna_sauce.step_2",
+  "source": "wikibooks_vitello_tonnato_veal_with_tuna_sauce",
+  "sourceRef": {
+    "source": "wikibooks_vitello_tonnato_veal_with_tuna_sauce",
+    "step": 2
+  },
+  "technique": "cool",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "vitello_tonnato_veal_with_tuna_sauce_step_1",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "vitello_tonnato_veal_with_tuna_sauce_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 3,
+      "unit": "h"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Remove from the water once cooked, wrap it in either clingfilm or aluminium foil, and place in the fridge for 3 hours until quite cool, or preferably overnight. It is important you don't try to do this whilst the veal is even slightly warm as it will mess up the sauce.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.51"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "the step names several durations; used the first"
+    }
+  ]
+}

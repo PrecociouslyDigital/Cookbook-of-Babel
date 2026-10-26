@@ -1,0 +1,55 @@
+{
+  "id": "apple_pie_i.step_5",
+  "source": "wikibooks_apple_pie_i",
+  "sourceRef": {
+    "source": "wikibooks_apple_pie_i",
+    "step": 5
+  },
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "apple_pie_i_step_4",
+        "amount": {
+          "qty": 426.9,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "apple",
+        "amount": {
+          "qty": 1,
+          "unit": "lb"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "apple_pie_i_step_5",
+      "amount": {
+        "qty": 880.5,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Peel and slice apples into ⅛ to ¼-inch (about 5 mm) thick segments.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

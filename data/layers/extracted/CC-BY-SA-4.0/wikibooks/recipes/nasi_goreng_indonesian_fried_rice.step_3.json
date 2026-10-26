@@ -1,0 +1,55 @@
+{
+  "id": "nasi_goreng_indonesian_fried_rice.step_3",
+  "source": "wikibooks_nasi_goreng_indonesian_fried_rice",
+  "sourceRef": {
+    "source": "wikibooks_nasi_goreng_indonesian_fried_rice",
+    "step": 3
+  },
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "nasi_goreng_indonesian_fried_rice_step_2",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "bitter_bean",
+        "amount": {
+          "qty": 20,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "nasi_goreng_indonesian_fried_rice_step_3",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Slice stinky beans in half, or as desired.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

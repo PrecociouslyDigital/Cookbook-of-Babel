@@ -1,0 +1,48 @@
+{
+  "id": "pork_spare_rib_soup_bah_kut_teh.step_3",
+  "source": "wikibooks_pork_spare_rib_soup_bah_kut_teh",
+  "sourceRef": {
+    "source": "wikibooks_pork_spare_rib_soup_bah_kut_teh",
+    "step": 3
+  },
+  "technique": "rinse",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "pork_spare_rib_soup_bah_kut_teh_step_2",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "pork_spare_rib_soup_bah_kut_teh_step_3",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Drain, briefly rinse spareribs under cold running water, and drain again.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

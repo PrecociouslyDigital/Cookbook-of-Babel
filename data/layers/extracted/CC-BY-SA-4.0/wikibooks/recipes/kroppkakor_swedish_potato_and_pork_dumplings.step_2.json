@@ -1,0 +1,74 @@
+{
+  "id": "kroppkakor_swedish_potato_and_pork_dumplings.step_2",
+  "source": "wikibooks_kroppkakor_swedish_potato_and_pork_dumplings",
+  "sourceRef": {
+    "source": "wikibooks_kroppkakor_swedish_potato_and_pork_dumplings",
+    "step": 2
+  },
+  "technique": "knead",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "kroppkakor_swedish_potato_and_pork_dumplings_step_1",
+        "amount": {
+          "qty": 1000,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "egg",
+        "amount": {
+          "qty": 2,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "wheat_flour",
+        "amount": {
+          "qty": 1.25,
+          "unit": "cup"
+        }
+      },
+      {
+        "ingredient": "salt",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "kroppkakor_swedish_potato_and_pork_dumplings_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Put yolks, flour, and salt in the indentation, and quickly work into a dough. Too much kneading will make the dough tough. Let it rest for a few minutes.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Salt': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

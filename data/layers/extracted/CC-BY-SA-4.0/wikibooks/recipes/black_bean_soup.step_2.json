@@ -1,0 +1,48 @@
+{
+  "id": "black_bean_soup.step_2",
+  "source": "wikibooks_black_bean_soup",
+  "sourceRef": {
+    "source": "wikibooks_black_bean_soup",
+    "step": 2
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "black_bean_soup_step_1",
+        "amount": {
+          "qty": 1419.6,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "black_bean_soup_step_2",
+      "amount": {
+        "qty": 1419.6,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Place in large bean pot and add water to cover by at least 2 inches (~5 cm).",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

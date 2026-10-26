@@ -1,0 +1,55 @@
+{
+  "id": "beef_heart_kabobs_anticuchos.step_2",
+  "source": "wikibooks_beef_heart_kabobs_anticuchos",
+  "sourceRef": {
+    "source": "wikibooks_beef_heart_kabobs_anticuchos",
+    "step": 2
+  },
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "beef_heart_kabobs_anticuchos_step_1",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "beef",
+        "amount": {
+          "qty": 1,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "beef_heart_kabobs_anticuchos_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 10,
+      "unit": "h"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Clean the heart, removing all fat. Cut into bite-sized cubes. Place the heart pieces into the marinade mixture, and leave to marinate for about 10 hours or overnight. The heart should be completely covered by the marinade.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "the step names several durations; used the first"
+    }
+  ]
+}

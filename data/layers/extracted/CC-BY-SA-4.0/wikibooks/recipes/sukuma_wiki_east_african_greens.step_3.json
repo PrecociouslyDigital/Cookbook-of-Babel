@@ -1,0 +1,84 @@
+{
+  "id": "sukuma_wiki_east_african_greens.step_3",
+  "source": "wikibooks_sukuma_wiki_east_african_greens",
+  "sourceRef": {
+    "source": "wikibooks_sukuma_wiki_east_african_greens",
+    "step": 3
+  },
+  "technique": "stir_fry",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "sukuma_wiki_east_african_greens_step_2",
+        "amount": {
+          "qty": 54.9,
+          "unit": "g"
+        }
+      },
+      {
+        "min": 0,
+        "max": 1,
+        "of": [
+          {
+            "ingredient": "beef",
+            "amount": {
+              "qty": 1.5,
+              "unit": "cup"
+            }
+          }
+        ]
+      },
+      {
+        "min": 0,
+        "max": 1,
+        "of": [
+          {
+            "ingredient": "dehydrated_broth",
+            "amount": {
+              "qty": 1,
+              "unit": "tbsp"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "sukuma_wiki_east_african_greens_step_3",
+      "amount": {
+        "qty": 424.6,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 215,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 5,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Stir in the meat and bouillon powder until well-mixed. Cook for at least 5 minutes.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.37"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for beef, dehydrated_broth"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of stir_fry's typical range"
+    }
+  ]
+}

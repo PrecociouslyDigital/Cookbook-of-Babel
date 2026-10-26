@@ -1,0 +1,60 @@
+{
+  "id": "stewed_vegan_maki.step_4",
+  "source": "wikibooks_stewed_vegan_maki",
+  "sourceRef": {
+    "source": "wikibooks_stewed_vegan_maki",
+    "step": 4
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "stewed_vegan_maki_step_3",
+        "amount": {
+          "qty": 441.2,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "rice_vinegar",
+        "amount": {
+          "qty": 0.5,
+          "unit": "tsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "stewed_vegan_maki_step_4",
+      "amount": {
+        "qty": 443.7,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Pour the sauce over the vegetables and mix thoroughly. Let cool, then mix in vinegar.",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for rice_vinegar"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

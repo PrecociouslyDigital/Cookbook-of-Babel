@@ -1,0 +1,62 @@
+{
+  "id": "dill_cucumber_salad.step_2",
+  "source": "wikibooks_dill_cucumber_salad",
+  "sourceRef": {
+    "source": "wikibooks_dill_cucumber_salad",
+    "step": 2
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "dill_cucumber_salad_step_1",
+        "amount": {
+          "qty": 162.4,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "cucumber",
+        "amount": {
+          "qty": 3,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "onion",
+        "amount": {
+          "qty": 0.5,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "dill_cucumber_salad_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Add cucumbers and onion, and toss to coat.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": "pickled_green_mango_aavakaaya.step_13",
+  "source": "wikibooks_pickled_green_mango_aavakaaya",
+  "sourceRef": {
+    "source": "wikibooks_pickled_green_mango_aavakaaya",
+    "step": 13
+  },
+  "technique": "age",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "pickled_green_mango_aavakaaya_step_12",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "pickled_green_mango_aavakaaya",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Transfer the contents to glass, plastic, or porcelain jars.",
+  "issues": [
+    {
+      "field": "sourceRef",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.57"
+    },
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.48"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

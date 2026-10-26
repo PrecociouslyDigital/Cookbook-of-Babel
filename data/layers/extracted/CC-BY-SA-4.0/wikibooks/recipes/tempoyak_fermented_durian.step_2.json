@@ -1,0 +1,41 @@
+{
+  "id": "tempoyak_fermented_durian.step_2",
+  "source": "wikibooks_tempoyak_fermented_durian",
+  "sourceRef": {
+    "source": "wikibooks_tempoyak_fermented_durian",
+    "step": 2
+  },
+  "technique": "ferment",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "tempoyak_fermented_durian_step_1",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "tempoyak_fermented_durian_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 7,
+      "unit": "d"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Close the jar tightly and leave it to ferment for 1 week."
+}

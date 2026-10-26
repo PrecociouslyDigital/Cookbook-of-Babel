@@ -1,0 +1,62 @@
+{
+  "id": "balsamic_steak_and_brie_paninis.step_4",
+  "source": "wikibooks_balsamic_steak_and_brie_paninis",
+  "sourceRef": {
+    "source": "wikibooks_balsamic_steak_and_brie_paninis",
+    "step": 4
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "balsamic_steak_and_brie_paninis_step_3",
+        "amount": {
+          "qty": 397.9,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "bread",
+        "amount": {
+          "qty": 12,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "brie_cheese",
+        "amount": {
+          "qty": 6,
+          "unit": "slice"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "balsamic_steak_and_brie_paninis_step_4",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Place one slice of cheese on the bottom of half of the bread slices. Place some steak strips, enough to cover the cheese, on the slice, then top with another slices of bread. Repeat with remaining bread slices. Eat any remaining steak.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

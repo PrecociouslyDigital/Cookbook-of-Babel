@@ -1,0 +1,48 @@
+{
+  "id": "tokyo_pancake_khanom_tokyo.step_11",
+  "source": "wikibooks_tokyo_pancake_khanom_tokyo",
+  "sourceRef": {
+    "source": "wikibooks_tokyo_pancake_khanom_tokyo",
+    "step": 11
+  },
+  "technique": "fold",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "tokyo_pancake_khanom_tokyo_step_10",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "tokyo_pancake_khanom_tokyo",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Roll the pancake up and serve.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": "biscuits_and_gravy.step_11",
+  "source": "wikibooks_biscuits_and_gravy",
+  "sourceRef": {
+    "source": "wikibooks_biscuits_and_gravy",
+    "step": 11
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "biscuits_and_gravy_step_10",
+        "amount": {
+          "qty": 1260.4,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "biscuits_and_gravy_step_11",
+      "amount": {
+        "qty": 1260.4,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 180,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Add the browned sausage held in reserve.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.46"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 180.0 °C for pan_contact"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

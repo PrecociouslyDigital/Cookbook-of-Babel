@@ -1,0 +1,58 @@
+{
+  "id": "yellow_saffron_food_coloring.step_4",
+  "source": "wikibooks_yellow_saffron_food_coloring",
+  "sourceRef": {
+    "source": "wikibooks_yellow_saffron_food_coloring",
+    "step": 4
+  },
+  "technique": "simmer",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "yellow_saffron_food_coloring_step_3",
+        "amount": {
+          "qty": 161.6,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "yellow_saffron_food_coloring_step_4",
+      "amount": {
+        "qty": 161.6,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 90,
+    "medium": "simmering_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Simmer until the liquid reduces to a single-thread consistency.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.54"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of simmer's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

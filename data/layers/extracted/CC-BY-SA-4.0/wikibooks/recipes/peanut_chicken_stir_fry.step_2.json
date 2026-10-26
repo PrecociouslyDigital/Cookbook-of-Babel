@@ -1,0 +1,72 @@
+{
+  "id": "peanut_chicken_stir_fry.step_2",
+  "source": "wikibooks_peanut_chicken_stir_fry",
+  "sourceRef": {
+    "source": "wikibooks_peanut_chicken_stir_fry",
+    "step": 2
+  },
+  "technique": "stir_fry",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "peanut_chicken_stir_fry_step_1",
+        "amount": {
+          "qty": 29.6,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "celery",
+        "amount": {
+          "qty": 0.75,
+          "unit": "cup"
+        }
+      },
+      {
+        "ingredient": "onion",
+        "amount": {
+          "qty": 0.25,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "peanut_chicken_stir_fry_step_2",
+      "amount": {
+        "qty": 266.2,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 215,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Stir-fry celery and onions.",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for celery, onion"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of stir_fry's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

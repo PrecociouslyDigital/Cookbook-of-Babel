@@ -1,0 +1,60 @@
+{
+  "id": "lumpiang_shanghai_filipino_pork_spring_rolls.step_5",
+  "source": "wikibooks_lumpiang_shanghai_filipino_pork_spring_rolls",
+  "sourceRef": {
+    "source": "wikibooks_lumpiang_shanghai_filipino_pork_spring_rolls",
+    "step": 5
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "lumpiang_shanghai_filipino_pork_spring_rolls_step_4",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "water",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "lumpiang_shanghai_filipino_pork_spring_rolls_step_5",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Moisten the edge of the wrapper and press it against the roll to seal and prevent it from unwrapping.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Water': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

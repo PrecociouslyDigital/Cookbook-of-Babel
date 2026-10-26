@@ -1,0 +1,70 @@
+{
+  "id": "rice_modak_coconut_pastries_i.step_3",
+  "source": "wikibooks_rice_modak_coconut_pastries_i",
+  "sourceRef": {
+    "source": "wikibooks_rice_modak_coconut_pastries_i",
+    "step": 3
+  },
+  "technique": "simmer",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "rice_modak_coconut_pastries_i_step_2",
+        "amount": {
+          "qty": 1144,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "rice_flour",
+        "amount": {
+          "qty": 2,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "rice_modak_coconut_pastries_i_step_3",
+      "amount": {
+        "qty": 1617.2,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 90,
+    "medium": "boiling_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "As the water starts boiling, add rice flour to the water. Lower heat. Mix well. The mixture should be a smooth paste; there should be no lumps. If mixture is becoming too dry then add the remaining ½ cup water. Keep heating on low heat until rice flour is cooked.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.45"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for rice_flour"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of simmer's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

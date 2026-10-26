@@ -1,0 +1,48 @@
+{
+  "id": "pear_and_almond_smoothie_vegan.step_1",
+  "source": "wikibooks_pear_and_almond_smoothie_vegan",
+  "sourceRef": {
+    "source": "wikibooks_pear_and_almond_smoothie_vegan",
+    "step": 1
+  },
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "pear",
+        "amount": {
+          "qty": 1,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "pear_and_almond_smoothie_vegan_step_1",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Cut the pear into chunks, discarding the core. Place the chunks of pear in a blender.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

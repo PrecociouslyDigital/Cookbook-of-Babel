@@ -1,0 +1,48 @@
+{
+  "id": "alkubus_nigerian_steamed_bread.step_8",
+  "source": "wikibooks_alkubus_nigerian_steamed_bread",
+  "sourceRef": {
+    "source": "wikibooks_alkubus_nigerian_steamed_bread",
+    "step": 8
+  },
+  "technique": "separate",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "alkubus_nigerian_steamed_bread_step_7",
+        "amount": {
+          "qty": 391.3,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "alkubus_nigerian_steamed_bread",
+      "amount": {
+        "qty": 391.3,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Unmold the steamed bread and serve.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

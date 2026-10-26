@@ -1,0 +1,53 @@
+{
+  "id": "duonos_gira_lithuanian_rye_drink.step_4",
+  "source": "wikibooks_duonos_gira_lithuanian_rye_drink",
+  "sourceRef": {
+    "source": "wikibooks_duonos_gira_lithuanian_rye_drink",
+    "step": 4
+  },
+  "technique": "age",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "duonos_gira_lithuanian_rye_drink_step_3",
+        "amount": {
+          "qty": 5895.2,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "duonos_gira_lithuanian_rye_drink",
+      "amount": {
+        "qty": 5895.2,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "The duonos gira is now ready to drink. Store bottles in cool place for up to 2 months.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.43"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

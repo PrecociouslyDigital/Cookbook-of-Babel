@@ -1,0 +1,74 @@
+{
+  "id": "rhubarb_fool.step_2",
+  "source": "wikibooks_rhubarb_fool",
+  "sourceRef": {
+    "source": "wikibooks_rhubarb_fool",
+    "step": 2
+  },
+  "technique": "boil",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "rhubarb_fool_step_1",
+        "amount": {
+          "qty": 500,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "water",
+        "amount": {
+          "qty": 4,
+          "unit": "dl"
+        }
+      },
+      {
+        "ingredient": "white_sugar",
+        "amount": {
+          "qty": 1,
+          "unit": "dl"
+        }
+      },
+      {
+        "ingredient": "potato_starch",
+        "amount": {
+          "qty": 3,
+          "unit": "tbsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "rhubarb_fool_step_2",
+      "amount": {
+        "qty": 1029.4,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 100,
+    "medium": "boiling_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 4,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Bring the water and sugar to a boil. Add the rhubarb and boil until soft, about 3–5 minutes. Meanwhile, mix the starch with a bit of water until it dissolves.",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for potato_starch"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of boil's typical range"
+    }
+  ]
+}

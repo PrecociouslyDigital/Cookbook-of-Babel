@@ -1,0 +1,48 @@
+{
+  "id": "sese_plaintains_cameroonian_plantain_stew.step_2",
+  "source": "wikibooks_sese_plaintains_cameroonian_plantain_stew",
+  "sourceRef": {
+    "source": "wikibooks_sese_plaintains_cameroonian_plantain_stew",
+    "step": 2
+  },
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "sese_plaintains_cameroonian_plantain_stew_step_1",
+        "amount": {
+          "qty": 2268,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "sese_plaintains_cameroonian_plantain_stew_step_2",
+      "amount": {
+        "qty": 2268,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Slice the plantains into thick rounds.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

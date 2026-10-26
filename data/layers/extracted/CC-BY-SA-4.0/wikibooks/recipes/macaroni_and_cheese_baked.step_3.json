@@ -1,0 +1,65 @@
+{
+  "id": "macaroni_and_cheese_baked.step_3",
+  "source": "wikibooks_macaroni_and_cheese_baked",
+  "sourceRef": {
+    "source": "wikibooks_macaroni_and_cheese_baked",
+    "step": 3
+  },
+  "technique": "heat",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "macaroni_and_cheese_baked_step_2",
+        "amount": {
+          "qty": 226.8,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "butter",
+        "amount": {
+          "qty": 3,
+          "unit": "tbsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "macaroni_and_cheese_baked_step_3",
+      "amount": {
+        "qty": 271.2,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 180,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "While the pasta is cooking, melt the butter in a separate pot.",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for butter"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 180.0 °C for pan_contact"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

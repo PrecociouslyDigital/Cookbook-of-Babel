@@ -1,0 +1,77 @@
+{
+  "id": "grilled_peaches_with_vanilla_maple_sauce.step_2",
+  "source": "wikibooks_grilled_peaches_with_vanilla_maple_sauce",
+  "sourceRef": {
+    "source": "wikibooks_grilled_peaches_with_vanilla_maple_sauce",
+    "step": 2
+  },
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "grilled_peaches_with_vanilla_maple_sauce_step_1",
+        "amount": {
+          "qty": 251.8,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "peach",
+        "amount": {
+          "qty": 4,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "white_sugar",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "grilled_peaches_with_vanilla_maple_sauce_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 90,
+    "medium": "simmering_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Dip cut side of peaches into hot mixture. Sprinkle cut side liberally with sugar.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.48"
+    },
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Granulated sugar': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 90.0 °C for simmering_water"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

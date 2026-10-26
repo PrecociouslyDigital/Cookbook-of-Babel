@@ -1,0 +1,62 @@
+{
+  "id": "tarhana_turkish_yogurt_soup.step_1",
+  "source": "wikibooks_tarhana_turkish_yogurt_soup",
+  "sourceRef": {
+    "source": "wikibooks_tarhana_turkish_yogurt_soup",
+    "step": 1
+  },
+  "technique": "dissolve",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "yeast",
+        "amount": {
+          "qty": 1,
+          "unit": "tsp"
+        }
+      },
+      {
+        "ingredient": "water",
+        "amount": {
+          "qty": 0.5,
+          "unit": "cup"
+        }
+      },
+      {
+        "ingredient": "white_sugar",
+        "amount": {
+          "qty": 1,
+          "unit": "tsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "tarhana_turkish_yogurt_soup_step_1",
+      "amount": {
+        "qty": 127.4,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 5,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Dissolve the sugar in the tepid water and sprinkle the dried yeast on top. Allow to soften 5 minutes or so and stir.",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for yeast"
+    }
+  ]
+}

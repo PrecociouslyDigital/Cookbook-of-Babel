@@ -1,0 +1,65 @@
+{
+  "id": "steak_and_pepper_stir_fry.step_2",
+  "source": "wikibooks_steak_and_pepper_stir_fry",
+  "sourceRef": {
+    "source": "wikibooks_steak_and_pepper_stir_fry",
+    "step": 2
+  },
+  "technique": "stir_fry",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "steak_and_pepper_stir_fry_step_1",
+        "amount": {
+          "qty": 170.8,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "peanut_oil",
+        "amount": {
+          "qty": 1,
+          "unit": "tbsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "steak_and_pepper_stir_fry_step_2",
+      "amount": {
+        "qty": 185.6,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 215,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Preheat a large stainless steel or cast iron skillet, or a wok, over medium high heat. Add peanut oil and seasoned beef and cook, tossing often, until meat is browned and slightly charred on both sides. Remove and keep warm.",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for peanut_oil"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of stir_fry's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

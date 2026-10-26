@@ -1,0 +1,55 @@
+{
+  "id": "soji_indian_wheat_pudding.step_1",
+  "source": "wikibooks_soji_indian_wheat_pudding",
+  "sourceRef": {
+    "source": "wikibooks_soji_indian_wheat_pudding",
+    "step": 1
+  },
+  "technique": "rinse",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "cashew",
+        "amount": {
+          "qty": 120,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "raisin",
+        "amount": {
+          "qty": 120,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "soji_indian_wheat_pudding_step_1",
+      "amount": {
+        "qty": 240,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Wash the cashews and raisins and keep them ready.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

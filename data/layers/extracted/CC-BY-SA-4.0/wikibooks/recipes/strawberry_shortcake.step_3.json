@@ -1,0 +1,60 @@
+{
+  "id": "strawberry_shortcake.step_3",
+  "source": "wikibooks_strawberry_shortcake",
+  "sourceRef": {
+    "source": "wikibooks_strawberry_shortcake",
+    "step": 3
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "strawberry_shortcake_step_2",
+        "amount": {
+          "qty": 304.1,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "butter",
+        "amount": {
+          "qty": 0.25,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "strawberry_shortcake_step_3",
+      "amount": {
+        "qty": 363.2,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Rub the butter into the flour mixture with your fingers until the mixture resembles breadcrumbs.",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for butter"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

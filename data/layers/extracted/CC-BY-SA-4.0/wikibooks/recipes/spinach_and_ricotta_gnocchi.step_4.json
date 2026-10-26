@@ -1,0 +1,53 @@
+{
+  "id": "spinach_and_ricotta_gnocchi.step_4",
+  "source": "wikibooks_spinach_and_ricotta_gnocchi",
+  "sourceRef": {
+    "source": "wikibooks_spinach_and_ricotta_gnocchi",
+    "step": 4
+  },
+  "technique": "knead",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "spinach_and_ricotta_gnocchi_step_3",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "spinach_and_ricotta_gnocchi_step_4",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Gently shape dough into small rounds and roll them in a very small amount of flour.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.45"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

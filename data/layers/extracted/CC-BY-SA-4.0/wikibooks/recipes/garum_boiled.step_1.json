@@ -1,0 +1,60 @@
+{
+  "id": "garum_boiled.step_1",
+  "source": "wikibooks_garum_boiled",
+  "sourceRef": {
+    "source": "wikibooks_garum_boiled",
+    "step": 1
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "anchovy",
+        "amount": {
+          "qty": 2.3333333333333335,
+          "unit": "cup"
+        }
+      },
+      {
+        "ingredient": "wine",
+        "amount": {
+          "qty": 7,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "garum_boiled_step_1",
+      "amount": {
+        "qty": 2191.7,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Add anchovies and wine to a pot.",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for anchovy"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

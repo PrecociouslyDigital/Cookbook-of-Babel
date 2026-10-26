@@ -1,0 +1,55 @@
+{
+  "id": "cochinita_pibil_mexican_braised_pork.step_4",
+  "source": "wikibooks_cochinita_pibil_mexican_braised_pork",
+  "sourceRef": {
+    "source": "wikibooks_cochinita_pibil_mexican_braised_pork",
+    "step": 4
+  },
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "cochinita_pibil_mexican_braised_pork_step_3",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "pork",
+        "amount": {
+          "qty": 5,
+          "unit": "lb"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "cochinita_pibil_mexican_braised_pork_step_4",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Cut the pork into 2-inch (5 cm) chunks. Leave the fat on the meat, to keep the pork moist while roasting; you can remove it after cooking if you wish.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

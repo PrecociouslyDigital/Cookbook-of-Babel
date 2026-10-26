@@ -1,0 +1,63 @@
+{
+  "id": "liverpool_lamb_and_vegetable_soup_scouse.step_1",
+  "source": "wikibooks_liverpool_lamb_and_vegetable_soup_scouse",
+  "sourceRef": {
+    "source": "wikibooks_liverpool_lamb_and_vegetable_soup_scouse",
+    "step": 1
+  },
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "lamb_and_mutton",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "liverpool_lamb_and_vegetable_soup_scouse_step_1",
+      "amount": {
+        "qty": 0.3,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Remove the meat from the bone (if needed), and dice it.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.41"
+    },
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'A cheap cut of lamb or mutton (such as breast or forequarter)': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for lamb_and_mutton"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

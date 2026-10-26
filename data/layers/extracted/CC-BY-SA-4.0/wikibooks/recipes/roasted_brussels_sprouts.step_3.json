@@ -1,0 +1,48 @@
+{
+  "id": "roasted_brussels_sprouts.step_3",
+  "source": "wikibooks_roasted_brussels_sprouts",
+  "sourceRef": {
+    "source": "wikibooks_roasted_brussels_sprouts",
+    "step": 3
+  },
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "roasted_brussels_sprouts_step_2",
+        "amount": {
+          "qty": 0.3,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "roasted_brussels_sprouts_step_3",
+      "amount": {
+        "qty": 0.3,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Halve the sprouts with a sharp knife—you can quarter any really big ones—and transfer them to a mixing bowl.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

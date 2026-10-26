@@ -1,0 +1,67 @@
+{
+  "id": "cream_cheese_mints.step_1",
+  "source": "wikibooks_cream_cheese_mints",
+  "sourceRef": {
+    "source": "wikibooks_cream_cheese_mints",
+    "step": 1
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "cream_cheese",
+        "amount": {
+          "qty": 4,
+          "unit": "oz"
+        }
+      },
+      {
+        "ingredient": "white_sugar",
+        "amount": {
+          "qty": 3.5,
+          "unit": "cup"
+        }
+      },
+      {
+        "ingredient": "mint",
+        "amount": {
+          "qty": 0.125,
+          "unit": "tsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "cream_cheese_mints_step_1",
+      "amount": {
+        "qty": 817.9,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Combine cream cheese, icing sugar and peppermint flavouring in large bowl. Stir until mixed.",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for mint"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "id": "sarmale_romanian_cabbage_rolls.step_3",
+  "source": "wikibooks_sarmale_romanian_cabbage_rolls",
+  "sourceRef": {
+    "source": "wikibooks_sarmale_romanian_cabbage_rolls",
+    "step": 3
+  },
+  "technique": "steam",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "sarmale_romanian_cabbage_rolls_step_2",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "cabbage",
+        "amount": {
+          "qty": 2,
+          "unit": "head"
+        }
+      },
+      {
+        "ingredient": "water",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "sarmale_romanian_cabbage_rolls_step_3",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 100,
+    "medium": "steam"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Begin to boil water in a very large pot, then reduce to a simmer. Make several deep incisions into the cabbage around the stem: this makes it easier to remove the leaves. Submerge the cabbage into the simmering water and cover; allow to steam until the cabbage turns a bright green. Do this for both cabbages. Do not use the tough or too-small innermost leaves; they may be chopped and added to the roasting pan.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.59"
+    },
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Water': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of steam's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

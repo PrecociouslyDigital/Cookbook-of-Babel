@@ -1,0 +1,53 @@
+{
+  "id": "liberian_roasted_corn.step_4",
+  "source": "wikibooks_liberian_roasted_corn",
+  "sourceRef": {
+    "source": "wikibooks_liberian_roasted_corn",
+    "step": 4
+  },
+  "technique": "roast",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "liberian_roasted_corn_step_3",
+        "amount": {
+          "qty": 0.3,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "liberian_roasted_corn_step_4",
+      "amount": {
+        "qty": 0.3,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 195,
+    "medium": "convection_air"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 12.5,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Rotating the corn occasionally to ensure even cooking and prevent burning, roast the corn for about 10–15 minutes or until the kernels are tender and have developed a slightly charred appearance.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.35"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of roast's typical range"
+    }
+  ]
+}

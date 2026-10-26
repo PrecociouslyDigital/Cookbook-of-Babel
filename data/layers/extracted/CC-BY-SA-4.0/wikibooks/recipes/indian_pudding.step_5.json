@@ -1,0 +1,74 @@
+{
+  "id": "indian_pudding.step_5",
+  "source": "wikibooks_indian_pudding",
+  "sourceRef": {
+    "source": "wikibooks_indian_pudding",
+    "step": 5
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "indian_pudding_step_4",
+        "amount": {
+          "qty": 1303,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "molasses",
+        "amount": {
+          "qty": 1,
+          "unit": "cup"
+        }
+      },
+      {
+        "ingredient": "baking_soda",
+        "amount": {
+          "qty": 1,
+          "unit": "tsp"
+        }
+      },
+      {
+        "ingredient": "brown_sugar",
+        "amount": {
+          "qty": 3,
+          "unit": "tbsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "indian_pudding_step_5",
+      "amount": {
+        "qty": 1588.9,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "In a small bowl, mix molasses with baking soda, the ½ cup cold milk, and brown sugar.",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for molasses, baking_soda, brown_sugar"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

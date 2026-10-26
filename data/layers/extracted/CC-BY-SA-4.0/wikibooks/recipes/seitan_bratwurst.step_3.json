@@ -1,0 +1,66 @@
+{
+  "id": "seitan_bratwurst.step_3",
+  "source": "wikibooks_seitan_bratwurst",
+  "sourceRef": {
+    "source": "wikibooks_seitan_bratwurst",
+    "step": 3
+  },
+  "technique": "knead",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "seitan_bratwurst_step_2",
+        "amount": {
+          "qty": 533,
+          "unit": "g"
+        }
+      },
+      {
+        "min": 0,
+        "max": 1,
+        "of": [
+          {
+            "ingredient": "tofu",
+            "amount": {
+              "qty": 1,
+              "unit": "pinch"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "seitan_bratwurst_step_3",
+      "amount": {
+        "qty": 533.3,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 10,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Combine the wet and dry ingredient mixtures. Add the tofu, and knead the dough until it is well combined. Allow it to rest for 10 minutes.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Tofu (optional)': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for tofu"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "beef_heart_kabobs_anticuchos.step_3",
+  "source": "wikibooks_beef_heart_kabobs_anticuchos",
+  "sourceRef": {
+    "source": "wikibooks_beef_heart_kabobs_anticuchos",
+    "step": 3
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "beef_heart_kabobs_anticuchos_step_2",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "beef_heart_kabobs_anticuchos_step_3",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "After marinating, thread the meat onto skewers. If desired, at this stage some additional ingredients such as bell peppers (capsicum) or corn-on-cob (cut to a similar size to the heart) may be also added to the skewers.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

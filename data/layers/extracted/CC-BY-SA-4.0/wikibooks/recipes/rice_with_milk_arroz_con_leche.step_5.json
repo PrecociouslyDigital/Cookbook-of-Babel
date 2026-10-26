@@ -1,0 +1,65 @@
+{
+  "id": "rice_with_milk_arroz_con_leche.step_5",
+  "source": "wikibooks_rice_with_milk_arroz_con_leche",
+  "sourceRef": {
+    "source": "wikibooks_rice_with_milk_arroz_con_leche",
+    "step": 5
+  },
+  "technique": "chill",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "rice_with_milk_arroz_con_leche_step_4",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "cinnamon_powder",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "rice_with_milk_arroz_con_leche",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Take the rice mixture off the heat and place it in a deep glass dish, sprinkle with cinnamon powder, and refrigerate.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Cinnamon powder': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    },
+    {
+      "field": "inputs",
+      "kind": "missing",
+      "note": "no step uses 'Mint leaves (optional, for garnish)' (p=0.99)"
+    }
+  ]
+}

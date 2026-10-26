@@ -1,0 +1,60 @@
+{
+  "id": "fresh_pasta_with_mozzarella_tomato_and_basil.step_2",
+  "source": "wikibooks_fresh_pasta_with_mozzarella_tomato_and_basil",
+  "sourceRef": {
+    "source": "wikibooks_fresh_pasta_with_mozzarella_tomato_and_basil",
+    "step": 2
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "fresh_pasta_with_mozzarella_tomato_and_basil_step_1",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "basil",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "fresh_pasta_with_mozzarella_tomato_and_basil_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Tear up the basil, and sprinkle it over the mozzarella and tomatoes.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'A good handful (about 15–20) of basil leaves': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

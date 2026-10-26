@@ -1,0 +1,53 @@
+{
+  "id": "char_broiled_sirloin_steak_with_cabernet_butter_sauce.step_4",
+  "source": "wikibooks_char_broiled_sirloin_steak_with_cabernet_butter_sauce",
+  "sourceRef": {
+    "source": "wikibooks_char_broiled_sirloin_steak_with_cabernet_butter_sauce",
+    "step": 4
+  },
+  "technique": "heat",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "char_broiled_sirloin_steak_with_cabernet_butter_sauce_step_3",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "char_broiled_sirloin_steak_with_cabernet_butter_sauce_step_4",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 60,
+    "medium": "oven_air"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Cook until internal temperature reaches 140°F for medium rare, 155°F for medium, and 165°F for toast (carry-over will take it 5 degrees).",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.37"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "id": "ciabatta.step_2",
+  "source": "wikibooks_ciabatta",
+  "sourceRef": {
+    "source": "wikibooks_ciabatta",
+    "step": 2
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "ciabatta_step_1",
+        "amount": {
+          "qty": 290.8,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "wheat_flour",
+        "amount": {
+          "qty": 350,
+          "unit": "g"
+        }
+      },
+      {
+        "min": 0,
+        "max": 1,
+        "of": [
+          {
+            "ingredient": "olive_oil",
+            "amount": {
+              "qty": 38,
+              "unit": "g"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "ciabatta_step_2",
+      "amount": {
+        "qty": 678.8,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Add sifted wheat flour and olive oil into lukewarm water. Mix.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

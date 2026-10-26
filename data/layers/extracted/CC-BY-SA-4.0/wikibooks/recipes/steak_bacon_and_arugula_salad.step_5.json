@@ -1,0 +1,74 @@
+{
+  "id": "steak_bacon_and_arugula_salad.step_5",
+  "source": "wikibooks_steak_bacon_and_arugula_salad",
+  "sourceRef": {
+    "source": "wikibooks_steak_bacon_and_arugula_salad",
+    "step": 5
+  },
+  "technique": "whisk",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "steak_bacon_and_arugula_salad_step_4",
+        "amount": {
+          "qty": 575,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "vinegar",
+        "amount": {
+          "qty": 0.25,
+          "unit": "cup"
+        }
+      },
+      {
+        "ingredient": "mustard",
+        "amount": {
+          "qty": 1.25,
+          "unit": "tsp"
+        }
+      },
+      {
+        "ingredient": "rendered_bacon_fat",
+        "amount": {
+          "qty": 2,
+          "unit": "tbsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "steak_bacon_and_arugula_salad_step_5",
+      "amount": {
+        "qty": 669.9,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Combine remaining oil and bacon fat. In another bowl, combine mustard and vinegar. Slowly stream in olive oil while whisking continuously.",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for vinegar, mustard, rendered_bacon_fat"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

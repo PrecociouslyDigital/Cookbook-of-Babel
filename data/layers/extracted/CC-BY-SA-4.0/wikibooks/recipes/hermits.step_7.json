@@ -1,0 +1,48 @@
+{
+  "id": "hermits.step_7",
+  "source": "wikibooks_hermits",
+  "sourceRef": {
+    "source": "wikibooks_hermits",
+    "step": 7
+  },
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "hermits_step_6",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "hermits",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Move the hermits (still on their parchment) to a counter for portioning and removal from parchment. Cut hermits into 1.5 in wide strips (a pizza cutter should work well) then carefully scrape them away from the parchment with a good thin spatula.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

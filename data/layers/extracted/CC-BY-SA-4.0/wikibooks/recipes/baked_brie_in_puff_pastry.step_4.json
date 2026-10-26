@@ -1,0 +1,58 @@
+{
+  "id": "baked_brie_in_puff_pastry.step_4",
+  "source": "wikibooks_baked_brie_in_puff_pastry",
+  "sourceRef": {
+    "source": "wikibooks_baked_brie_in_puff_pastry",
+    "step": 4
+  },
+  "technique": "cool",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "baked_brie_in_puff_pastry_step_3",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "baked_brie_in_puff_pastry",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 10,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Cool 10 minutes and serve.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.59"
+    },
+    {
+      "field": "inputs",
+      "kind": "missing",
+      "note": "no step uses '1 tsp salt' (p=0.97)"
+    },
+    {
+      "field": "inputs",
+      "kind": "missing",
+      "note": "no step uses '1 tsp freshly-ground black pepper' (p=0.97)"
+    }
+  ]
+}

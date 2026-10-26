@@ -1,0 +1,48 @@
+{
+  "id": "venison_italian_style.step_1",
+  "source": "wikibooks_venison_italian_style",
+  "sourceRef": {
+    "source": "wikibooks_venison_italian_style",
+    "step": 1
+  },
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "venison",
+        "amount": {
+          "qty": 1.25,
+          "unit": "lb"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "venison_italian_style_step_1",
+      "amount": {
+        "qty": 567,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Slice loin across grain into ¼-inch or thinner slices, or pound flat between two pieces of waxed paper.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

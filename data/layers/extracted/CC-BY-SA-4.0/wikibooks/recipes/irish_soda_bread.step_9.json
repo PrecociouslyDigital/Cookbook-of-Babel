@@ -1,0 +1,48 @@
+{
+  "id": "irish_soda_bread.step_9",
+  "source": "wikibooks_irish_soda_bread",
+  "sourceRef": {
+    "source": "wikibooks_irish_soda_bread",
+    "step": 9
+  },
+  "technique": "age",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "irish_soda_bread_step_8",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "irish_soda_bread",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 8,
+      "unit": "h"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Wrap in tea-towel or foil several hours or overnight for best flavor.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "'overnight' read as 8 hours"
+    }
+  ]
+}

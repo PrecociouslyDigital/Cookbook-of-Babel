@@ -1,0 +1,55 @@
+{
+  "id": "fried_tiger_lily_pastries.step_4",
+  "source": "wikibooks_fried_tiger_lily_pastries",
+  "sourceRef": {
+    "source": "wikibooks_fried_tiger_lily_pastries",
+    "step": 4
+  },
+  "technique": "whisk",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "fried_tiger_lily_pastries_step_3",
+        "amount": {
+          "qty": 378.7,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "egg",
+        "amount": {
+          "qty": 3,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "fried_tiger_lily_pastries_step_4",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Once cooled, beat in eggs.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

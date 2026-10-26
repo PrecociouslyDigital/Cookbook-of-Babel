@@ -1,0 +1,48 @@
+{
+  "id": "sachertorte_duramecho_version.step_14",
+  "source": "wikibooks_sachertorte_duramecho_version",
+  "sourceRef": {
+    "source": "wikibooks_sachertorte_duramecho_version",
+    "step": 14
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "sachertorte_duramecho_version_step_13",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "sachertorte_duramecho_version_step_14",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Reassemble the cake, with cut surfaces together. Allow the surface to cool again.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

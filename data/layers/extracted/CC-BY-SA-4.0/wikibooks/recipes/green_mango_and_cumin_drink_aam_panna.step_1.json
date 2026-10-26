@@ -1,0 +1,48 @@
+{
+  "id": "green_mango_and_cumin_drink_aam_panna.step_1",
+  "source": "wikibooks_green_mango_and_cumin_drink_aam_panna",
+  "sourceRef": {
+    "source": "wikibooks_green_mango_and_cumin_drink_aam_panna",
+    "step": 1
+  },
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "mango",
+        "amount": {
+          "qty": 4,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "green_mango_and_cumin_drink_aam_panna_step_1",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Cut mangoes into 3 slices each—2 from either side of the seed and 1 with the seed in it.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

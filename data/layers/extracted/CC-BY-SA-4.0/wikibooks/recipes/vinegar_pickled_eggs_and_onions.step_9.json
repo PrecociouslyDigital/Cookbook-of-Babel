@@ -1,0 +1,48 @@
+{
+  "id": "vinegar_pickled_eggs_and_onions.step_9",
+  "source": "wikibooks_vinegar_pickled_eggs_and_onions",
+  "sourceRef": {
+    "source": "wikibooks_vinegar_pickled_eggs_and_onions",
+    "step": 9
+  },
+  "technique": "age",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "vinegar_pickled_eggs_and_onions_step_8",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "vinegar_pickled_eggs_and_onions",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Refrigerate for two weeks before serving.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

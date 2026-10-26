@@ -1,0 +1,53 @@
+{
+  "id": "maltese_rabbit_stew_stuffat_tal_fenek.step_1",
+  "source": "wikibooks_maltese_rabbit_stew_stuffat_tal_fenek",
+  "sourceRef": {
+    "source": "wikibooks_maltese_rabbit_stew_stuffat_tal_fenek",
+    "step": 1
+  },
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "rabbit",
+        "amount": {
+          "qty": 1,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "maltese_rabbit_stew_stuffat_tal_fenek_step_1",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Cut up the rabbit at the joints. Cut the rib section into 3–4 pieces, and divide the legs at all the joints. Split the head of the rabbit in half. The whole animal should be cut into about 10–12 pieces so they are large and chunky, but small enough that they can be easily manipulated with large spoon. Remove and keep internal organs apart.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'1 large (about 2 kg) whole rabbit': '(about' read as pieces"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

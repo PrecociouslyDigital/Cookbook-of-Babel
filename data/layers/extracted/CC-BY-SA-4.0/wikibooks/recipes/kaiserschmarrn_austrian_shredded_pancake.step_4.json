@@ -1,0 +1,55 @@
+{
+  "id": "kaiserschmarrn_austrian_shredded_pancake.step_4",
+  "source": "wikibooks_kaiserschmarrn_austrian_shredded_pancake",
+  "sourceRef": {
+    "source": "wikibooks_kaiserschmarrn_austrian_shredded_pancake",
+    "step": 4
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "kaiserschmarrn_austrian_shredded_pancake_step_3",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "raisin",
+        "amount": {
+          "qty": 1,
+          "unit": "tbsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "kaiserschmarrn_austrian_shredded_pancake_step_4",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Add the raisins to the mixture.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

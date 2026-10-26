@@ -1,0 +1,48 @@
+{
+  "id": "quick_finnish_lemon_mead_sima.step_13",
+  "source": "wikibooks_quick_finnish_lemon_mead_sima",
+  "sourceRef": {
+    "source": "wikibooks_quick_finnish_lemon_mead_sima",
+    "step": 13
+  },
+  "technique": "chill",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "quick_finnish_lemon_mead_sima_step_12",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "quick_finnish_lemon_mead_sima",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Move the bottle into the refrigerator; the sima is ready.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

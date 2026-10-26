@@ -1,0 +1,55 @@
+{
+  "id": "pumpkin_substitute.step_2",
+  "source": "wikibooks_pumpkin_substitute",
+  "sourceRef": {
+    "source": "wikibooks_pumpkin_substitute",
+    "step": 2
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "pumpkin_substitute_step_1",
+        "amount": {
+          "qty": 1000,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "yogurt",
+        "amount": {
+          "qty": 500,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "pumpkin_substitute",
+      "amount": {
+        "qty": 1500,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Add the yogurt.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

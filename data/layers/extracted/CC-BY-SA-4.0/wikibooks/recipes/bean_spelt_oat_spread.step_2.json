@@ -1,0 +1,48 @@
+{
+  "id": "bean_spelt_oat_spread.step_2",
+  "source": "wikibooks_bean_spelt_oat_spread",
+  "sourceRef": {
+    "source": "wikibooks_bean_spelt_oat_spread",
+    "step": 2
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "bean_spelt_oat_spread_step_1",
+        "amount": {
+          "qty": 550.3,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "bean_spelt_oat_spread_step_2",
+      "amount": {
+        "qty": 550.3,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Mash the beans and mix the ingredients.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

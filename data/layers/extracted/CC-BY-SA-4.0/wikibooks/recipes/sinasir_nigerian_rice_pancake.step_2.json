@@ -1,0 +1,53 @@
+{
+  "id": "sinasir_nigerian_rice_pancake.step_2",
+  "source": "wikibooks_sinasir_nigerian_rice_pancake",
+  "sourceRef": {
+    "source": "wikibooks_sinasir_nigerian_rice_pancake",
+    "step": 2
+  },
+  "technique": "blend",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "sinasir_nigerian_rice_pancake_step_1",
+        "amount": {
+          "qty": 710.1,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "sinasir_nigerian_rice_pancake_step_2",
+      "amount": {
+        "qty": 710.1,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Blend the soaked and parboiled rice in a blender until you get a smooth batter, adding water as necessary.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.58"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

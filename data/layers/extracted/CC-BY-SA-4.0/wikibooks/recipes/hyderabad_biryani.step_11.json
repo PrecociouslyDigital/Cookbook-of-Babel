@@ -1,0 +1,58 @@
+{
+  "id": "hyderabad_biryani.step_11",
+  "source": "wikibooks_hyderabad_biryani",
+  "sourceRef": {
+    "source": "wikibooks_hyderabad_biryani",
+    "step": 11
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "hyderabad_biryani_step_10",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "hyderabad_biryani",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Before serving, mix the medley from the bottom. Serve with boiled egg halves. Enjoy.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.45"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    },
+    {
+      "field": "inputs",
+      "kind": "missing",
+      "note": "no step uses '6–10 green chiles, ground to paste' (p=0.97)"
+    }
+  ]
+}

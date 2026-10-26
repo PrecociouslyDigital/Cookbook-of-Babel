@@ -1,0 +1,48 @@
+{
+  "id": "oreo_milkshake.step_2",
+  "source": "wikibooks_oreo_milkshake",
+  "sourceRef": {
+    "source": "wikibooks_oreo_milkshake",
+    "step": 2
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "oreo_milkshake_step_1",
+        "amount": {
+          "qty": 716.9,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "oreo_milkshake_step_2",
+      "amount": {
+        "qty": 716.9,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Mix with a spoon until smooth. If your cup is not filled to your desire add more ice cream and milk.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

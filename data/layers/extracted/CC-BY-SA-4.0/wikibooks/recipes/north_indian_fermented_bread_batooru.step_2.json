@@ -1,0 +1,60 @@
+{
+  "id": "north_indian_fermented_bread_batooru.step_2",
+  "source": "wikibooks_north_indian_fermented_bread_batooru",
+  "sourceRef": {
+    "source": "wikibooks_north_indian_fermented_bread_batooru",
+    "step": 2
+  },
+  "technique": "knead",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "north_indian_fermented_bread_batooru_step_1",
+        "amount": {
+          "qty": 15.9,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "water",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "north_indian_fermented_bread_batooru_step_2",
+      "amount": {
+        "qty": 16.2,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Add water in small amounts and knead well until the dough becomes soft and pliable.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Water': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

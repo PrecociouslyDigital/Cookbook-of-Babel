@@ -1,0 +1,67 @@
+{
+  "id": "garlic_mayonnaise_made_with_bread_and_fish_stock_rouille.step_1",
+  "source": "wikibooks_garlic_mayonnaise_made_with_bread_and_fish_stock_rouille",
+  "sourceRef": {
+    "source": "wikibooks_garlic_mayonnaise_made_with_bread_and_fish_stock_rouille",
+    "step": 1
+  },
+  "technique": "blend",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "bread",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      },
+      {
+        "ingredient": "egg",
+        "amount": {
+          "qty": 1,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "fish_stock_fumet_de_poisson",
+        "amount": {
+          "qty": 6,
+          "unit": "tbsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "garlic_mayonnaise_made_with_bread_and_fish_stock_rouille_step_1",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Blend the bread, fish stock, and egg yolk together into a paste.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Baguette bread': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

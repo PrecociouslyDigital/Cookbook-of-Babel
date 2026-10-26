@@ -1,0 +1,48 @@
+{
+  "id": "potato_almond_milk.step_6",
+  "source": "wikibooks_potato_almond_milk",
+  "sourceRef": {
+    "source": "wikibooks_potato_almond_milk",
+    "step": 6
+  },
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "potato_almond_milk_step_5",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "potato_almond_milk_step_6",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "When strained, taste the milk. Adjust by adding more water, vanilla, salt, or maple syrup as needed, depending on your taste.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

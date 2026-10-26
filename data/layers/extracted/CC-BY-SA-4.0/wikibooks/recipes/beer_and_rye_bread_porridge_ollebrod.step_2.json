@@ -1,0 +1,78 @@
+{
+  "id": "beer_and_rye_bread_porridge_ollebrod.step_2",
+  "source": "wikibooks_beer_and_rye_bread_porridge_ollebrod",
+  "sourceRef": {
+    "source": "wikibooks_beer_and_rye_bread_porridge_ollebrod",
+    "step": 2
+  },
+  "technique": "simmer",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "beer_and_rye_bread_porridge_ollebrod_step_1",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "white_sugar",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      },
+      {
+        "min": 0,
+        "max": 1,
+        "of": [
+          {
+            "ingredient": "lemon",
+            "amount": {
+              "qty": 1,
+              "unit": "pinch"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "beer_and_rye_bread_porridge_ollebrod_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 90,
+    "medium": "simmering_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "h"
+    }
+  },
+  "stateNote": "Bring the mixture to a boil, and simmer slowly for about 1 hour. Add more beer if it's too dry; the consistency should be like that of oatmeal. If you want it sweet you can mix in some sweetener. For a fresher taste, add a touch of lemon.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Sweetener, as desired (e.g. sugar or honey)': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Lemon juice (optional)': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of simmer's typical range"
+    }
+  ]
+}

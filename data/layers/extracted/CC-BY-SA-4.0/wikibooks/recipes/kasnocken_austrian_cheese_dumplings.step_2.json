@@ -1,0 +1,53 @@
+{
+  "id": "kasnocken_austrian_cheese_dumplings.step_2",
+  "source": "wikibooks_kasnocken_austrian_cheese_dumplings",
+  "sourceRef": {
+    "source": "wikibooks_kasnocken_austrian_cheese_dumplings",
+    "step": 2
+  },
+  "technique": "boil",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "kasnocken_austrian_cheese_dumplings_step_1",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "kasnocken_austrian_cheese_dumplings_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 100,
+    "medium": "boiling_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Pass the dough through a special press for dumplings into boiling, salted water.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of boil's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

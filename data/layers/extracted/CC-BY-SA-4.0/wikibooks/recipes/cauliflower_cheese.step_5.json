@@ -1,0 +1,58 @@
+{
+  "id": "cauliflower_cheese.step_5",
+  "source": "wikibooks_cauliflower_cheese",
+  "sourceRef": {
+    "source": "wikibooks_cauliflower_cheese",
+    "step": 5
+  },
+  "technique": "bake",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "cauliflower_cheese_step_4",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "cauliflower_cheese",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 200,
+    "medium": "oven_air"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 20,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Place your dish into the oven for about 20 minutes, or until golden brown.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.55"
+    },
+    {
+      "field": "inputs",
+      "kind": "missing",
+      "note": "no step uses '30 g (1.1 oz) unsalted butter' (p=0.97)"
+    },
+    {
+      "field": "inputs",
+      "kind": "missing",
+      "note": "no step uses '1 tbsp pepper' (p=0.95)"
+    }
+  ]
+}

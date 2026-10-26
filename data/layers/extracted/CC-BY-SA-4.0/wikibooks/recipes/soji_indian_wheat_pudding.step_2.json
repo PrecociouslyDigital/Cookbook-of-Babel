@@ -1,0 +1,67 @@
+{
+  "id": "soji_indian_wheat_pudding.step_2",
+  "source": "wikibooks_soji_indian_wheat_pudding",
+  "sourceRef": {
+    "source": "wikibooks_soji_indian_wheat_pudding",
+    "step": 2
+  },
+  "technique": "grind",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "soji_indian_wheat_pudding_step_1",
+        "amount": {
+          "qty": 240,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "cardamom",
+        "amount": {
+          "qty": 4,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "cream_of_wheat",
+        "amount": {
+          "qty": 3,
+          "unit": "tbsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "soji_indian_wheat_pudding_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Crush the cardamom pods to remove the contents and discard the husks. Pound the contents of the pods into a black powder, and mix with the cream of wheat.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'4 pods cardamom': 'pods' read as pieces"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

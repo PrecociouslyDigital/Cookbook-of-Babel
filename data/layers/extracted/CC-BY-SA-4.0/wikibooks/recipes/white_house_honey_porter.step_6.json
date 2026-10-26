@@ -1,0 +1,55 @@
+{
+  "id": "white_house_honey_porter.step_6",
+  "source": "wikibooks_white_house_honey_porter",
+  "sourceRef": {
+    "source": "wikibooks_white_house_honey_porter",
+    "step": 6
+  },
+  "technique": "ferment",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "white_house_honey_porter_step_5",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "yeast",
+        "amount": {
+          "qty": 1,
+          "unit": "package"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "white_house_honey_porter_step_6",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 15,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Activate dry yeast in 1 cup of sterilized water at 75–90°F for 15 minutes. Pitch yeast into the fermenter. Fill airlock halfway with water. Ferment at room temp (64–68°F) for 3–4 days.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "the step names several durations; used the first"
+    }
+  ]
+}

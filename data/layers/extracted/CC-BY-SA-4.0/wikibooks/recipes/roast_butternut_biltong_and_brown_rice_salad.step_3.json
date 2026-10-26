@@ -1,0 +1,53 @@
+{
+  "id": "roast_butternut_biltong_and_brown_rice_salad.step_3",
+  "source": "wikibooks_roast_butternut_biltong_and_brown_rice_salad",
+  "sourceRef": {
+    "source": "wikibooks_roast_butternut_biltong_and_brown_rice_salad",
+    "step": 3
+  },
+  "technique": "strain",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "roast_butternut_biltong_and_brown_rice_salad_step_2",
+        "amount": {
+          "qty": 315.5,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "roast_butternut_biltong_and_brown_rice_salad_step_3",
+      "amount": {
+        "qty": 315.5,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Drain and set aside.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.43"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "chocolate_jalapeno_truffles.step_10",
+  "source": "wikibooks_chocolate_jalapeno_truffles",
+  "sourceRef": {
+    "source": "wikibooks_chocolate_jalapeno_truffles",
+    "step": 10
+  },
+  "technique": "chill",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "chocolate_jalapeno_truffles_step_9",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "chocolate_jalapeno_truffles",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Keep refrigerated until ready to serve.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

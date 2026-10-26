@@ -1,0 +1,48 @@
+{
+  "id": "pizza_flavored_omelet.step_9",
+  "source": "wikibooks_pizza_flavored_omelet",
+  "sourceRef": {
+    "source": "wikibooks_pizza_flavored_omelet",
+    "step": 9
+  },
+  "technique": "steam",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "pizza_flavored_omelet_step_8",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "pizza_flavored_omelet",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 100,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 2,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Cover skillet. Cook another 2 minutes. Cheese should be melted.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of steam's typical range"
+    }
+  ]
+}

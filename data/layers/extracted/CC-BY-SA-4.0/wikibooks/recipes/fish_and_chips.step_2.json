@@ -1,0 +1,55 @@
+{
+  "id": "fish_and_chips.step_2",
+  "source": "wikibooks_fish_and_chips",
+  "sourceRef": {
+    "source": "wikibooks_fish_and_chips",
+    "step": 2
+  },
+  "technique": "fry",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "potato",
+        "amount": {
+          "qty": 4,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "vegetable_oil",
+        "amount": {
+          "qty": 1,
+          "unit": "l"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "fish_and_chips_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 190,
+    "medium": "frying_oil"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 7,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Peel the potatoes and cut into thick wedges. Deep-fry the potatoes in batches for 6–8 minutes or until they are crisp and golden.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of fry's typical range"
+    }
+  ]
+}

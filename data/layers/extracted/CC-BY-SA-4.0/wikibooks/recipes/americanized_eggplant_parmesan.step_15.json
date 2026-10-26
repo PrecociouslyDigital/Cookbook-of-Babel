@@ -1,0 +1,48 @@
+{
+  "id": "americanized_eggplant_parmesan.step_15",
+  "source": "wikibooks_americanized_eggplant_parmesan",
+  "sourceRef": {
+    "source": "wikibooks_americanized_eggplant_parmesan",
+    "step": 15
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "americanized_eggplant_parmesan_step_14",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "americanized_eggplant_parmesan_step_15",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "When the eggplant is done, place the slices on top of the pasta sauce in the baking pan.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

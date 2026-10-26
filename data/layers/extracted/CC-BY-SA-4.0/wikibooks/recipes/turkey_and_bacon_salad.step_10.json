@@ -1,0 +1,48 @@
+{
+  "id": "turkey_and_bacon_salad.step_10",
+  "source": "wikibooks_turkey_and_bacon_salad",
+  "sourceRef": {
+    "source": "wikibooks_turkey_and_bacon_salad",
+    "step": 10
+  },
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "turkey_and_bacon_salad_step_9",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "turkey_and_bacon_salad",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Top off with your favorite dressing.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

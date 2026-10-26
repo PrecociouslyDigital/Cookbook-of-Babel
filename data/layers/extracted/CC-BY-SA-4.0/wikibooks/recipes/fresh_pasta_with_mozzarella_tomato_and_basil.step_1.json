@@ -1,0 +1,55 @@
+{
+  "id": "fresh_pasta_with_mozzarella_tomato_and_basil.step_1",
+  "source": "wikibooks_fresh_pasta_with_mozzarella_tomato_and_basil",
+  "sourceRef": {
+    "source": "wikibooks_fresh_pasta_with_mozzarella_tomato_and_basil",
+    "step": 1
+  },
+  "technique": "chop",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "mozzarella_cheese",
+        "amount": {
+          "qty": 2,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "tomato",
+        "amount": {
+          "qty": 12.5,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "fresh_pasta_with_mozzarella_tomato_and_basil_step_1",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Chop the mozzarella and the tomatoes roughly, and put them in a large dish. You're looking to create small cube shapes between 1 cm and 1 inch.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

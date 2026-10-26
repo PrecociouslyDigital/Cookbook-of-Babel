@@ -1,0 +1,48 @@
+{
+  "id": "creme_brulee_cheesecake.step_13",
+  "source": "wikibooks_creme_brulee_cheesecake",
+  "sourceRef": {
+    "source": "wikibooks_creme_brulee_cheesecake",
+    "step": 13
+  },
+  "technique": "separate",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "creme_brulee_cheesecake_step_12",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "creme_brulee_cheesecake_step_13",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Remove cake from the springform pan.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

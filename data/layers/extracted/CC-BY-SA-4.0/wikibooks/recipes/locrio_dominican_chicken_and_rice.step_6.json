@@ -1,0 +1,58 @@
+{
+  "id": "locrio_dominican_chicken_and_rice.step_6",
+  "source": "wikibooks_locrio_dominican_chicken_and_rice",
+  "sourceRef": {
+    "source": "wikibooks_locrio_dominican_chicken_and_rice",
+    "step": 6
+  },
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "locrio_dominican_chicken_and_rice_step_5",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "locrio_dominican_chicken_and_rice_step_6",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 100,
+    "medium": "boiling_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Check the seasoning. If the salt level is good, add an extra ½ tsp of salt. This is because the rice will absorb some of the salt, and it will come out a bit flat in the end unless you add extra salt.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.36"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 100.0 °C for boiling_water"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

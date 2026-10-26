@@ -1,0 +1,53 @@
+{
+  "id": "bubur_ketan_hitam_sweet_black_rice_with_coconut_milk.step_5",
+  "source": "wikibooks_bubur_ketan_hitam_sweet_black_rice_with_coconut_milk",
+  "sourceRef": {
+    "source": "wikibooks_bubur_ketan_hitam_sweet_black_rice_with_coconut_milk",
+    "step": 5
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "bubur_ketan_hitam_sweet_black_rice_with_coconut_milk_step_4",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "bubur_ketan_hitam_sweet_black_rice_with_coconut_milk",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Serve the black rice pudding in a bowl, and pour coconut milk sauce on top.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.54"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

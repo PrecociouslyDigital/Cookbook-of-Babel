@@ -1,0 +1,53 @@
+{
+  "id": "fresh_tomato_galette.step_8",
+  "source": "wikibooks_fresh_tomato_galette",
+  "sourceRef": {
+    "source": "wikibooks_fresh_tomato_galette",
+    "step": 8
+  },
+  "technique": "fold",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "fresh_tomato_galette_step_7",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "fresh_tomato_galette_step_8",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Sprinkle the remaining breadcrumbs and Parmesan on top, season with a little pepper if you like, and carefully fold the leftover dough over the tomatoes.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.48"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

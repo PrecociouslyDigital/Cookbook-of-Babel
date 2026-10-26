@@ -1,0 +1,60 @@
+{
+  "id": "pork_and_lima_skillet.step_2",
+  "source": "wikibooks_pork_and_lima_skillet",
+  "sourceRef": {
+    "source": "wikibooks_pork_and_lima_skillet",
+    "step": 2
+  },
+  "technique": "pan_fry",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "pork_and_lima_skillet_step_1",
+        "amount": {
+          "qty": 283.5,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "pork",
+        "amount": {
+          "qty": 5.5,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "pork_and_lima_skillet_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 185,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "In skillet, brown chops over medium heat. Remove chops from skillet. Pour off all but 1 tablespoon drippings.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of pan_fry's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

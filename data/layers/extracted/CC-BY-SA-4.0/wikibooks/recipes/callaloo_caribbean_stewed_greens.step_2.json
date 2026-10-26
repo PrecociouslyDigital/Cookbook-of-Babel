@@ -1,0 +1,48 @@
+{
+  "id": "callaloo_caribbean_stewed_greens.step_2",
+  "source": "wikibooks_callaloo_caribbean_stewed_greens",
+  "sourceRef": {
+    "source": "wikibooks_callaloo_caribbean_stewed_greens",
+    "step": 2
+  },
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "callaloo_caribbean_stewed_greens_step_1",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "callaloo_caribbean_stewed_greens_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Wash and cut leaves and soft stalks, discarding remainder.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

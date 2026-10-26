@@ -1,0 +1,48 @@
+{
+  "id": "manhattan_clam_chowder_ii.step_1",
+  "source": "wikibooks_manhattan_clam_chowder_ii",
+  "sourceRef": {
+    "source": "wikibooks_manhattan_clam_chowder_ii",
+    "step": 1
+  },
+  "technique": "strain",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "clam",
+        "amount": {
+          "qty": 23,
+          "unit": "oz"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "manhattan_clam_chowder_ii_step_1",
+      "amount": {
+        "qty": 652.1,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Strain the clam juice.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

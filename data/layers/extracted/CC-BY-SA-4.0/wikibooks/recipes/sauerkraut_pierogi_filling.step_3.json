@@ -1,0 +1,48 @@
+{
+  "id": "sauerkraut_pierogi_filling.step_3",
+  "source": "wikibooks_sauerkraut_pierogi_filling",
+  "sourceRef": {
+    "source": "wikibooks_sauerkraut_pierogi_filling",
+    "step": 3
+  },
+  "technique": "chop",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "sauerkraut_pierogi_filling_step_2",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "sauerkraut_pierogi_filling_step_3",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Place the sauerkraut on a large cutting board and chop fine with a large, flat-bladed knife.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

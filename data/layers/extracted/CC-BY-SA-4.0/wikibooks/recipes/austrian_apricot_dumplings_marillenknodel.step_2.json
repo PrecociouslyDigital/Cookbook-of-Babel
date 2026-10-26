@@ -1,0 +1,60 @@
+{
+  "id": "austrian_apricot_dumplings_marillenknodel.step_2",
+  "source": "wikibooks_austrian_apricot_dumplings_marillenknodel",
+  "sourceRef": {
+    "source": "wikibooks_austrian_apricot_dumplings_marillenknodel",
+    "step": 2
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "austrian_apricot_dumplings_marillenknodel_step_1",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "wheat_flour",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "austrian_apricot_dumplings_marillenknodel_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 20,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Wait for about 20 minutes to allow the semolina to soak. Then, mix in as much flour as is necessary to make a smooth dough. In order to form fine dumplings later on, it is very important that the dough is not sticky. Again, wait for about 10 minutes.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'at least 5 tablespoons all-purpose flour': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "the step names several durations; used the first"
+    }
+  ]
+}

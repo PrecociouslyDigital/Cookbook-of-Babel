@@ -1,0 +1,60 @@
+{
+  "id": "yellow_curry_paste.step_1",
+  "source": "wikibooks_yellow_curry_paste",
+  "sourceRef": {
+    "source": "wikibooks_yellow_curry_paste",
+    "step": 1
+  },
+  "technique": "toast",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "coriander",
+        "amount": {
+          "qty": 2,
+          "unit": "tbsp"
+        }
+      },
+      {
+        "ingredient": "cumin",
+        "amount": {
+          "qty": 2,
+          "unit": "tbsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "yellow_curry_paste_step_1",
+      "amount": {
+        "qty": 59.2,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 185,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 3.5,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Toast the cumin and coriander seeds in a pan for 3–4 minutes. Set aside.",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for coriander, cumin"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of toast's typical range"
+    }
+  ]
+}

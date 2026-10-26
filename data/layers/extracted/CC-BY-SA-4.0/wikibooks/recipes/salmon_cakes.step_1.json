@@ -1,0 +1,48 @@
+{
+  "id": "salmon_cakes.step_1",
+  "source": "wikibooks_salmon_cakes",
+  "sourceRef": {
+    "source": "wikibooks_salmon_cakes",
+    "step": 1
+  },
+  "technique": "grind",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "salmon",
+        "amount": {
+          "qty": 1.25,
+          "unit": "lb"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "salmon_cakes_step_1",
+      "amount": {
+        "qty": 567,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Run salmon through a meat grinder on medium setting. If you don't have a grinder, ask your butcher to do so, but ask for it to be clean before they do.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

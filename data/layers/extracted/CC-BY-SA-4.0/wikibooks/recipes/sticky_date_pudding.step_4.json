@@ -1,0 +1,77 @@
+{
+  "id": "sticky_date_pudding.step_4",
+  "source": "wikibooks_sticky_date_pudding",
+  "sourceRef": {
+    "source": "wikibooks_sticky_date_pudding",
+    "step": 4
+  },
+  "technique": "chop",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "sticky_date_pudding_step_3",
+        "amount": {
+          "qty": 709.8,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "date",
+        "amount": {
+          "qty": 1,
+          "unit": "cup"
+        }
+      },
+      {
+        "ingredient": "baking_soda",
+        "amount": {
+          "qty": 1,
+          "unit": "tsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "sticky_date_pudding_step_4",
+      "amount": {
+        "qty": 951.3,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 180,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Chop dates roughly, place in saucepan, and add sodium bicarbonate along with just enough water to cover everything.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.54"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for date, baking_soda"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 180.0 °C for pan_contact"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

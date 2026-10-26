@@ -1,0 +1,63 @@
+{
+  "id": "garlic_seared_halibut.step_5",
+  "source": "wikibooks_garlic_seared_halibut",
+  "sourceRef": {
+    "source": "wikibooks_garlic_seared_halibut",
+    "step": 5
+  },
+  "technique": "whisk",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "garlic_seared_halibut_step_4",
+        "amount": {
+          "qty": 1054.9,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "garlic_seared_halibut",
+      "amount": {
+        "qty": 1054.9,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 180,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Whisk in butter 1 tbsp at a time, waiting until the tbsp before it is melted before adding a new one. Spoon sauce over halibut and serve warm.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.37"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 180.0 °C for pan_contact"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    },
+    {
+      "field": "inputs",
+      "kind": "missing",
+      "note": "no step uses '1 tbsp lemon zest, finely grated' (p=0.93)"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "id": "chilaquiles.step_8",
+  "source": "wikibooks_chilaquiles",
+  "sourceRef": {
+    "source": "wikibooks_chilaquiles",
+    "step": 8
+  },
+  "technique": "stir_fry",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "chilaquiles_step_7",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "onion",
+        "amount": {
+          "qty": 0.25,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "chilaquiles_step_8",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 215,
+    "medium": "frying_oil"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Add some of the oil that was taken out of the pan earlier back into it and heat it up again. To this add the diced onion, and allow it to soften for a few minutes. Add the salsa de chile de árbol to the oil and onions and sauté it for a minute or two. Add a little bit of water to dilute it if it becomes too thick.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.42"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of stir_fry's typical range"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "id": "hobo_burgers.step_3",
+  "source": "wikibooks_hobo_burgers",
+  "sourceRef": {
+    "source": "wikibooks_hobo_burgers",
+    "step": 3
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "hobo_burgers_step_1",
+        "amount": {
+          "qty": 468.4,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "cabbage",
+        "amount": {
+          "qty": 8,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "hobo_burgers_step_3",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Shape beef into 4 patties and place onto cabbage leaves.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

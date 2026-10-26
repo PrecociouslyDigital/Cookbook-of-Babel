@@ -1,0 +1,55 @@
+{
+  "id": "firecracker_grilled_shrimp.step_1",
+  "source": "wikibooks_firecracker_grilled_shrimp",
+  "sourceRef": {
+    "source": "wikibooks_firecracker_grilled_shrimp",
+    "step": 1
+  },
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "peeled_and_deveined_shrimp",
+        "amount": {
+          "qty": 36,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "firecracker_marinade",
+        "amount": {
+          "qty": 0.5,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "firecracker_grilled_shrimp_step_1",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 30,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Pour marinade into a gallon size zip-top bag. Add shrimp and toss to coat. Refrigerate for at least 30 minutes.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'½ recipe Firecracker Marinade': 'recipe' read as pieces"
+    }
+  ]
+}

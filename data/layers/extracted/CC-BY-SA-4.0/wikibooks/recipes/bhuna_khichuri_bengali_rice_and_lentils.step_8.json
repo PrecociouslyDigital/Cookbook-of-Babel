@@ -1,0 +1,84 @@
+{
+  "id": "bhuna_khichuri_bengali_rice_and_lentils.step_8",
+  "source": "wikibooks_bhuna_khichuri_bengali_rice_and_lentils",
+  "sourceRef": {
+    "source": "wikibooks_bhuna_khichuri_bengali_rice_and_lentils",
+    "step": 8
+  },
+  "technique": "stir_fry",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "bhuna_khichuri_bengali_rice_and_lentils_step_7",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "min": 0,
+        "max": 1,
+        "of": [
+          {
+            "ingredient": "pea",
+            "amount": {
+              "qty": 0.5,
+              "unit": "cup"
+            }
+          }
+        ]
+      },
+      {
+        "min": 0,
+        "max": 1,
+        "of": [
+          {
+            "ingredient": "chiles",
+            "amount": {
+              "qty": 2,
+              "unit": "piece"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "bhuna_khichuri_bengali_rice_and_lentils_step_8",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 215,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Add green chili and garden peas, and stir once or twice.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.59"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of stir_fry's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

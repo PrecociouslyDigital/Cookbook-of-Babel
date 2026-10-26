@@ -1,0 +1,48 @@
+{
+  "id": "mozzarella_sticks.step_2",
+  "source": "wikibooks_mozzarella_sticks",
+  "sourceRef": {
+    "source": "wikibooks_mozzarella_sticks",
+    "step": 2
+  },
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "mozzarella_cheese",
+        "amount": {
+          "qty": 0.25,
+          "unit": "lb"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "mozzarella_sticks_step_2",
+      "amount": {
+        "qty": 113.4,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Slice mozzarella into sticks 1–3 cm in diameter.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

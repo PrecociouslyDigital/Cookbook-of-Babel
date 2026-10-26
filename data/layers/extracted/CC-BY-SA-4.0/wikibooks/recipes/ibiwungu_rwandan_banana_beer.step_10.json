@@ -1,0 +1,53 @@
+{
+  "id": "ibiwungu_rwandan_banana_beer.step_10",
+  "source": "wikibooks_ibiwungu_rwandan_banana_beer",
+  "sourceRef": {
+    "source": "wikibooks_ibiwungu_rwandan_banana_beer",
+    "step": 10
+  },
+  "technique": "separate",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "ibiwungu_rwandan_banana_beer_step_9",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "ibiwungu_rwandan_banana_beer_step_10",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Once fermentation is complete, transfer the ibiwungu into clean bottles or containers for storage.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.47"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "carrots_cooked_kinpira_style.step_1",
+  "source": "wikibooks_carrots_cooked_kinpira_style",
+  "sourceRef": {
+    "source": "wikibooks_carrots_cooked_kinpira_style",
+    "step": 1
+  },
+  "technique": "julienne",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "carrot",
+        "amount": {
+          "qty": 250,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "carrots_cooked_kinpira_style_step_1",
+      "amount": {
+        "qty": 250,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Cut the carrots into thin matchstick pieces (sen-giri, or julienned)",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

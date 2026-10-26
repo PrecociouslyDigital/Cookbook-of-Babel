@@ -1,0 +1,53 @@
+{
+  "id": "spaghetti_and_meatballs.step_6",
+  "source": "wikibooks_spaghetti_and_meatballs",
+  "sourceRef": {
+    "source": "wikibooks_spaghetti_and_meatballs",
+    "step": 6
+  },
+  "technique": "pan_fry",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "spaghetti_and_meatballs_step_5",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "spaghetti_and_meatballs_step_6",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 185,
+    "medium": "frying_oil"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "When the meatballs are browned well on all sides, remove from the pan and drain on paper towels. Then add the next batch to the pan and continue until all are cooked.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of pan_fry's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

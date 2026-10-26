@@ -1,0 +1,67 @@
+{
+  "id": "breakfast_durum.step_5",
+  "source": "wikibooks_breakfast_durum",
+  "sourceRef": {
+    "source": "wikibooks_breakfast_durum",
+    "step": 5
+  },
+  "technique": "pan_fry",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "breakfast_durum_step_4",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "onion",
+        "amount": {
+          "qty": 0.5,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "beef",
+        "amount": {
+          "qty": 5,
+          "unit": "slice"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "breakfast_durum_step_5",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 185,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Heat the remaining butter in the skillet. Turn the heat to high, then add the potatoes, onions, and steak, evenly and fully covering the bottom of the skillet. Season to taste, then let them sear to your desired brownness and crunch, taking care to turn them over. Remove from the heat.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of pan_fry's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

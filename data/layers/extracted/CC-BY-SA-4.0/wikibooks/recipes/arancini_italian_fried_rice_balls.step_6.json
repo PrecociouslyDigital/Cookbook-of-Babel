@@ -1,0 +1,48 @@
+{
+  "id": "arancini_italian_fried_rice_balls.step_6",
+  "source": "wikibooks_arancini_italian_fried_rice_balls",
+  "sourceRef": {
+    "source": "wikibooks_arancini_italian_fried_rice_balls",
+    "step": 6
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "arancini_italian_fried_rice_balls_step_5",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "arancini_italian_fried_rice_balls_step_6",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Spread a spoonful of the cooled rice it in your hand. Add some filling in the middle, and use your other hand to close the rice over the filling. Set aside.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

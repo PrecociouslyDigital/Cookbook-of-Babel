@@ -1,0 +1,48 @@
+{
+  "id": "fish_pie.step_7",
+  "source": "wikibooks_fish_pie",
+  "sourceRef": {
+    "source": "wikibooks_fish_pie",
+    "step": 7
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "fish_pie_step_6",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "fish_pie_step_7",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Spread the mashed potato over the top of the fish to a height of about 1½ inches (38 mm) making sure it is flat, and not piled up in the middle. Using a fork, ridge the top of the potato as this will make it colour up nicely in the oven.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "id": "chicken_and_corn_empanadas.step_2",
+  "source": "wikibooks_chicken_and_corn_empanadas",
+  "sourceRef": {
+    "source": "wikibooks_chicken_and_corn_empanadas",
+    "step": 2
+  },
+  "technique": "stir_fry",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "chicken_and_corn_empanadas_step_1",
+        "amount": {
+          "qty": 263.8,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "bell_pepper",
+        "amount": {
+          "qty": 1,
+          "unit": "piece"
+        }
+      },
+      {
+        "min": 0,
+        "max": 1,
+        "of": [
+          {
+            "ingredient": "chile_flakes",
+            "amount": {
+              "qty": 1,
+              "unit": "tsp"
+            }
+          }
+        ]
+      },
+      {
+        "ingredient": "corn",
+        "amount": {
+          "qty": 1.5,
+          "unit": "cup"
+        }
+      },
+      {
+        "ingredient": "oregano",
+        "amount": {
+          "qty": 2,
+          "unit": "tsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "chicken_and_corn_empanadas_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 215,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 5,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Add pepper, crushed red peppers, corn, and oregano. Cook 5 minutes over moderate heat or until liquid has mostly cooked away.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.56"
+    },
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'1 diced red bell pepper': 'diced' read as pieces"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of stir_fry's typical range"
+    }
+  ]
+}

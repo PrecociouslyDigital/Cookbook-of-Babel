@@ -1,0 +1,48 @@
+{
+  "id": "steak_enchiladas.step_2",
+  "source": "wikibooks_steak_enchiladas",
+  "sourceRef": {
+    "source": "wikibooks_steak_enchiladas",
+    "step": 2
+  },
+  "technique": "grill",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "steak_enchiladas_step_1",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "steak_enchiladas_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 250,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 60,
+      "unit": "s"
+    }
+  },
+  "stateNote": "Heat a charcoal grill, but use a chimney or else you will have a solvent flavored steak. Ditch the grate and place the steak right on the coals and cook 60 seconds per side for medium rare.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of grill's typical range"
+    }
+  ]
+}

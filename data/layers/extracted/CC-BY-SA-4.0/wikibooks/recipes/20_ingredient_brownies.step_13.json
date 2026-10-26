@@ -1,0 +1,69 @@
+{
+  "id": "20_ingredient_brownies.step_13",
+  "source": "wikibooks_20_ingredient_brownies",
+  "sourceRef": {
+    "source": "wikibooks_20_ingredient_brownies",
+    "step": 13
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "20_ingredient_brownies_step_12",
+        "amount": {
+          "qty": 2739.2,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "chocolate",
+        "amount": {
+          "qty": 11,
+          "unit": "oz"
+        }
+      },
+      {
+        "ingredient": "cream",
+        "amount": {
+          "qty": 11,
+          "unit": "oz"
+        }
+      },
+      {
+        "ingredient": "salt",
+        "amount": {
+          "qty": 1,
+          "unit": "tsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "20_ingredient_brownies_step_13",
+      "amount": {
+        "qty": 3368.8,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Make the ganache by mixing together the chocolate, hot cream and salt in a bowl until melted.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

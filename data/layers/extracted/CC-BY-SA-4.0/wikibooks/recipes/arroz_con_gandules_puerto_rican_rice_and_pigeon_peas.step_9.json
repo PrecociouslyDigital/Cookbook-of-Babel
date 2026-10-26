@@ -1,0 +1,85 @@
+{
+  "id": "arroz_con_gandules_puerto_rican_rice_and_pigeon_peas.step_9",
+  "source": "wikibooks_arroz_con_gandules_puerto_rican_rice_and_pigeon_peas",
+  "sourceRef": {
+    "source": "wikibooks_arroz_con_gandules_puerto_rican_rice_and_pigeon_peas",
+    "step": 9
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "arroz_con_gandules_puerto_rican_rice_and_pigeon_peas_step_8",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "rice",
+        "amount": {
+          "qty": 6,
+          "unit": "cup"
+        }
+      },
+      {
+        "ingredient": "broth_and_stock",
+        "amount": {
+          "qty": 7,
+          "unit": "cup"
+        }
+      },
+      {
+        "min": 0,
+        "max": 1,
+        "of": [
+          {
+            "ingredient": "banana",
+            "amount": {
+              "qty": 1,
+              "unit": "piece"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "arroz_con_gandules_puerto_rican_rice_and_pigeon_peas_step_9",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 100,
+    "medium": "boiling_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Stir in the rice and peas until everything is mixed together and rice is coated with oil all over. Stir in enough broth or water to cover the rice by the width of two fingers. Top with banana leaf (or pan lid), folding it up as necessary to fit over rice or can cut what ever sticks out pot.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.51"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 100.0 °C for boiling_water"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

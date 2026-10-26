@@ -1,0 +1,48 @@
+{
+  "id": "horchata.step_4",
+  "source": "wikibooks_horchata",
+  "sourceRef": {
+    "source": "wikibooks_horchata",
+    "step": 4
+  },
+  "technique": "age",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "horchata_step_3",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "horchata_step_4",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 6,
+      "unit": "h"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Cover and let stand at least 6 hours or overnight.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "the step names several durations; used the first"
+    }
+  ]
+}

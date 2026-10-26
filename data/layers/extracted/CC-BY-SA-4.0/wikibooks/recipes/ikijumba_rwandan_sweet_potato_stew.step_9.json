@@ -1,0 +1,53 @@
+{
+  "id": "ikijumba_rwandan_sweet_potato_stew.step_9",
+  "source": "wikibooks_ikijumba_rwandan_sweet_potato_stew",
+  "sourceRef": {
+    "source": "wikibooks_ikijumba_rwandan_sweet_potato_stew",
+    "step": 9
+  },
+  "technique": "cool",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "ikijumba_rwandan_sweet_potato_stew_step_8",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "ikijumba_rwandan_sweet_potato_stew_step_9",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Remove the pot from the heat, and let the ikijumba rest for a few minutes before serving.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.28"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

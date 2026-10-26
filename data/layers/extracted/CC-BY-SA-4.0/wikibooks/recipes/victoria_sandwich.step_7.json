@@ -1,0 +1,77 @@
+{
+  "id": "victoria_sandwich.step_7",
+  "source": "wikibooks_victoria_sandwich",
+  "sourceRef": {
+    "source": "wikibooks_victoria_sandwich",
+    "step": 7
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "victoria_sandwich_step_6",
+        "amount": {
+          "qty": 684.9,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "fruit_preserves",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      },
+      {
+        "ingredient": "whipped_cream",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "victoria_sandwich_step_7",
+      "amount": {
+        "qty": 685.5,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Turn one cake upside down and spread jam and whipped cream over it. Then, place the second cake on top.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Fruit jam': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Whipped cream or buttercream': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for fruit_preserves, whipped_cream"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

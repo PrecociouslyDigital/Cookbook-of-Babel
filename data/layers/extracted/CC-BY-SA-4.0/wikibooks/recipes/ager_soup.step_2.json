@@ -1,0 +1,48 @@
+{
+  "id": "ager_soup.step_2",
+  "source": "wikibooks_ager_soup",
+  "sourceRef": {
+    "source": "wikibooks_ager_soup",
+    "step": 2
+  },
+  "technique": "strain",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "ager_soup_step_1",
+        "amount": {
+          "qty": 236.6,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "ager_soup_step_2",
+      "amount": {
+        "qty": 236.6,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Squeeze the pulp in a small amount of water to extract the slippery juice. Sieve this product to separate the juice from the fibres.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

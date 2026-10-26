@@ -1,0 +1,53 @@
+{
+  "id": "whole_wheat_irish_soda_bread.step_4",
+  "source": "wikibooks_whole_wheat_irish_soda_bread",
+  "sourceRef": {
+    "source": "wikibooks_whole_wheat_irish_soda_bread",
+    "step": 4
+  },
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "whole_wheat_irish_soda_bread_step_3",
+        "amount": {
+          "qty": 734.8,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "whole_wheat_irish_soda_bread_step_4",
+      "amount": {
+        "qty": 734.8,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Form a cavity in the middle.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.48"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "whiskey_barbecue_sauce.step_2",
+  "source": "wikibooks_whiskey_barbecue_sauce",
+  "sourceRef": {
+    "source": "wikibooks_whiskey_barbecue_sauce",
+    "step": 2
+  },
+  "technique": "chill",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "whiskey_barbecue_sauce_step_1",
+        "amount": {
+          "qty": 946.4,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "whiskey_barbecue_sauce",
+      "amount": {
+        "qty": 946.4,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Refrigerate in a nonreactive container for up to 2 months.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

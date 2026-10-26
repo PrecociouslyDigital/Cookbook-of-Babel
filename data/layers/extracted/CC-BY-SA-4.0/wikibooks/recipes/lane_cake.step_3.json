@@ -1,0 +1,55 @@
+{
+  "id": "lane_cake.step_3",
+  "source": "wikibooks_lane_cake",
+  "sourceRef": {
+    "source": "wikibooks_lane_cake",
+    "step": 3
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "lane_cake_step_2",
+        "amount": {
+          "qty": 1250.3,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "milk",
+        "amount": {
+          "qty": 1,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "lane_cake_step_3",
+      "amount": {
+        "qty": 1494,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Mix the milk and flour mixture into the butter, beginning with the flour and alternating between the two until fully incorporated. Do not overmix, or the cake will be tough.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

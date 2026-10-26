@@ -1,0 +1,48 @@
+{
+  "id": "mahshi_egyptian_stuffed_vegetables.step_5",
+  "source": "wikibooks_mahshi_egyptian_stuffed_vegetables",
+  "sourceRef": {
+    "source": "wikibooks_mahshi_egyptian_stuffed_vegetables",
+    "step": 5
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "mahshi_egyptian_stuffed_vegetables_step_4",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "mahshi_egyptian_stuffed_vegetables_step_5",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Use the reserved vegetable flesh to fill any empty spaces between the stuffed vegetables. This helps to prevent them from shifting during cooking.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "id": "baklava_with_pistachio_nuts.step_6",
+  "source": "wikibooks_baklava_with_pistachio_nuts",
+  "sourceRef": {
+    "source": "wikibooks_baklava_with_pistachio_nuts",
+    "step": 6
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "baklava_with_pistachio_nuts_step_4",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "phyllo_dough",
+        "amount": {
+          "qty": 1,
+          "unit": "lb"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "baklava_with_pistachio_nuts_step_6",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Open the phyllo and unfold it. Brush the inside of the baking pan with melted butter. While assembling, cover the unused phyllo with a damp towel to prevent it from drying out. Make sure your butter is very liquid when you start. Put 6 sheets of phyllo in the pan, brushing each sheet with melted butter. Set aside another 6 sheets which will be used for the top layers.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.55"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

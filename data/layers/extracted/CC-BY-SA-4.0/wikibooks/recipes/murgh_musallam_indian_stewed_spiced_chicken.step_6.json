@@ -1,0 +1,48 @@
+{
+  "id": "murgh_musallam_indian_stewed_spiced_chicken.step_6",
+  "source": "wikibooks_murgh_musallam_indian_stewed_spiced_chicken",
+  "sourceRef": {
+    "source": "wikibooks_murgh_musallam_indian_stewed_spiced_chicken",
+    "step": 6
+  },
+  "technique": "grind",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "murgh_musallam_indian_stewed_spiced_chicken_step_5",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "murgh_musallam_indian_stewed_spiced_chicken_step_6",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Grind the almonds and cashews into a smooth paste, adding 1–2 tbsp water if required.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

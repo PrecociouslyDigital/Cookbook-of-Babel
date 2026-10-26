@@ -1,0 +1,48 @@
+{
+  "id": "torta_de_acelga_chard_pie.step_1",
+  "source": "wikibooks_torta_de_acelga_chard_pie",
+  "sourceRef": {
+    "source": "wikibooks_torta_de_acelga_chard_pie",
+    "step": 1
+  },
+  "technique": "separate",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "chard",
+        "amount": {
+          "qty": 6,
+          "unit": "bunch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "torta_de_acelga_chard_pie_step_1",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Remove the stems of the acelga (these stems will become useful for another recipe called Potaje de acelga).",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

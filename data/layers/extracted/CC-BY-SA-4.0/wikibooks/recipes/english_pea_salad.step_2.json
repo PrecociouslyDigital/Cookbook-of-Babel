@@ -1,0 +1,55 @@
+{
+  "id": "english_pea_salad.step_2",
+  "source": "wikibooks_english_pea_salad",
+  "sourceRef": {
+    "source": "wikibooks_english_pea_salad",
+    "step": 2
+  },
+  "technique": "strain",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "english_pea_salad_step_1",
+        "amount": {
+          "qty": 22.2,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "can_english_peas",
+        "amount": {
+          "qty": 15,
+          "unit": "oz"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "english_pea_salad_step_2",
+      "amount": {
+        "qty": 447.4,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Drain the English peas, and either discard the liquid or use for some other purpose.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

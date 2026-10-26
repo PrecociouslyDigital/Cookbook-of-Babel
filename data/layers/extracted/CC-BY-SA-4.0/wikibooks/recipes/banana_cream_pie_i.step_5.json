@@ -1,0 +1,58 @@
+{
+  "id": "banana_cream_pie_i.step_5",
+  "source": "wikibooks_banana_cream_pie_i",
+  "sourceRef": {
+    "source": "wikibooks_banana_cream_pie_i",
+    "step": 5
+  },
+  "technique": "simmer",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "banana_cream_pie_i_step_4",
+        "amount": {
+          "qty": 758.1,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "banana_cream_pie_i_step_5",
+      "amount": {
+        "qty": 758.1,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 90,
+    "medium": "steam"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Place lid on mixture and continue cooking for 10 more minutes, stirring occasionally.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.54"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of simmer's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

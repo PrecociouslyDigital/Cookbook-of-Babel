@@ -1,0 +1,74 @@
+{
+  "id": "dhokla_steamed_black_gram_bread.step_10",
+  "source": "wikibooks_dhokla_steamed_black_gram_bread",
+  "sourceRef": {
+    "source": "wikibooks_dhokla_steamed_black_gram_bread",
+    "step": 10
+  },
+  "technique": "carbonate",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "dhokla_steamed_black_gram_bread_step_9",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "baking_soda",
+        "amount": {
+          "qty": 0.5,
+          "unit": "tsp"
+        }
+      },
+      {
+        "ingredient": "lemon",
+        "amount": {
+          "qty": 1,
+          "unit": "tbsp"
+        }
+      },
+      {
+        "ingredient": "oil_and_fat",
+        "amount": {
+          "qty": 2,
+          "unit": "tbsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "dhokla_steamed_black_gram_bread_step_10",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "In a small bowl, combine ¼ tsp soda bicarbonate, ½ tsp oil, and ½ tbsp lemon juice. Add this to the batter and mix well. Repeat this for the remaining batter just before putting it in the steamer.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.54"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

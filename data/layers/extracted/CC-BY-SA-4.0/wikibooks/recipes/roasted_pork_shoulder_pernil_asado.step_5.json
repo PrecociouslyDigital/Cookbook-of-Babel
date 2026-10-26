@@ -1,0 +1,48 @@
+{
+  "id": "roasted_pork_shoulder_pernil_asado.step_5",
+  "source": "wikibooks_roasted_pork_shoulder_pernil_asado",
+  "sourceRef": {
+    "source": "wikibooks_roasted_pork_shoulder_pernil_asado",
+    "step": 5
+  },
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "roasted_pork_shoulder_pernil_asado_step_4",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "roasted_pork_shoulder_pernil_asado_step_5",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Fill the incisions of the pork with the ground mixture. Whatever is left over rub on the outside of the pork.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

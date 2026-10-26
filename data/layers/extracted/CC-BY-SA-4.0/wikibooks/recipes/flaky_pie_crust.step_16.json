@@ -1,0 +1,53 @@
+{
+  "id": "flaky_pie_crust.step_16",
+  "source": "wikibooks_flaky_pie_crust",
+  "sourceRef": {
+    "source": "wikibooks_flaky_pie_crust",
+    "step": 16
+  },
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "flaky_pie_crust_step_15",
+        "amount": {
+          "qty": 640,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "flaky_pie_crust_step_16",
+      "amount": {
+        "qty": 640,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Cut vents in the top crust so that steam can escape.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.49"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

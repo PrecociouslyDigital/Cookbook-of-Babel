@@ -1,0 +1,48 @@
+{
+  "id": "honey_peppered_salmon.step_2",
+  "source": "wikibooks_honey_peppered_salmon",
+  "sourceRef": {
+    "source": "wikibooks_honey_peppered_salmon",
+    "step": 2
+  },
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "honey_peppered_salmon_step_1",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "salmon",
+        "amount": {
+          "qty": 170,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "honey_peppered_salmon_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 30,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Add salmon and let marinate at room temperature for 30 minutes."
+}

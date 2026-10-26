@@ -1,0 +1,53 @@
+{
+  "id": "red_chile_sauce.step_2",
+  "source": "wikibooks_red_chile_sauce",
+  "sourceRef": {
+    "source": "wikibooks_red_chile_sauce",
+    "step": 2
+  },
+  "technique": "separate",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "red_chile_sauce_step_1",
+        "amount": {
+          "qty": 85.1,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "red_chile_sauce_step_2",
+      "amount": {
+        "qty": 85.1,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Break off stems, and remove seeds.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.46"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

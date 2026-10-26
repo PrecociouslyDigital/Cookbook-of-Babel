@@ -1,0 +1,48 @@
+{
+  "id": "orange_glazed_sweet_potatoes.step_1",
+  "source": "wikibooks_orange_glazed_sweet_potatoes",
+  "sourceRef": {
+    "source": "wikibooks_orange_glazed_sweet_potatoes",
+    "step": 1
+  },
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "sweet_potato",
+        "amount": {
+          "qty": 1,
+          "unit": "lb"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "orange_glazed_sweet_potatoes_step_1",
+      "amount": {
+        "qty": 453.6,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Slice sweet potatoes about ⅛ inch thick and spread evenly in an 8-inch square baking dish.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

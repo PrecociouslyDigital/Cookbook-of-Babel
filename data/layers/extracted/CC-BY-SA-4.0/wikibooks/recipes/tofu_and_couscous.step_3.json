@@ -1,0 +1,60 @@
+{
+  "id": "tofu_and_couscous.step_3",
+  "source": "wikibooks_tofu_and_couscous",
+  "sourceRef": {
+    "source": "wikibooks_tofu_and_couscous",
+    "step": 3
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "tofu_and_couscous_step_2",
+        "amount": {
+          "qty": 1537.9,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "olive_oil",
+        "amount": {
+          "qty": 1,
+          "unit": "tsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "tofu_and_couscous",
+      "amount": {
+        "qty": 1542.8,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Combine the tofu mixture with couscous and olive oil. Flavor to taste with curry or other mixed spices.",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for olive_oil"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

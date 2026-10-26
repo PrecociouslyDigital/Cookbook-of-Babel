@@ -1,0 +1,58 @@
+{
+  "id": "pinon_spanish_stovetop_pot_pie.step_6",
+  "source": "wikibooks_pinon_spanish_stovetop_pot_pie",
+  "sourceRef": {
+    "source": "wikibooks_pinon_spanish_stovetop_pot_pie",
+    "step": 6
+  },
+  "technique": "pan_fry",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "pinon_spanish_stovetop_pot_pie_step_5",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "pinon_spanish_stovetop_pot_pie_step_6",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 185,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "In a large (14-inch) nonstick lidded skillet over medium heat, pour in some oil (enough to coat the bottom but not by much). Add the first bowl of eggs. Swirl the pan around until the bottom of the pan is coated. Cook until the eggs start to set, and remove from the heat.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.49"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of pan_fry's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

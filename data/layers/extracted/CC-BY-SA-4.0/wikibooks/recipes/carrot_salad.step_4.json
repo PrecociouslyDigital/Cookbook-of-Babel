@@ -1,0 +1,75 @@
+{
+  "id": "carrot_salad.step_4",
+  "source": "wikibooks_carrot_salad",
+  "sourceRef": {
+    "source": "wikibooks_carrot_salad",
+    "step": 4
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "carrot_salad_step_3",
+        "amount": {
+          "qty": 1.6,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "pine_nut",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "carrot_salad",
+      "amount": {
+        "qty": 1.9,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Add a hefty serving of pine nuts.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Pine nuts': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for pine_nut"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    },
+    {
+      "field": "inputs",
+      "kind": "missing",
+      "note": "no step uses 'Fresh greens like matzumi or baby Chinese mustard, or even Boston lettuce (optional)' (p=1.0)"
+    },
+    {
+      "field": "inputs",
+      "kind": "missing",
+      "note": "no step uses 'Chives (optional)' (p=1.0)"
+    }
+  ]
+}

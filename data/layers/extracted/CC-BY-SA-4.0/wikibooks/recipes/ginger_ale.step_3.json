@@ -1,0 +1,60 @@
+{
+  "id": "ginger_ale.step_3",
+  "source": "wikibooks_ginger_ale",
+  "sourceRef": {
+    "source": "wikibooks_ginger_ale",
+    "step": 3
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "ginger_ale_step_2",
+        "amount": {
+          "qty": 573.8,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "lime",
+        "amount": {
+          "qty": 1.5,
+          "unit": "tsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "ginger_ale_step_3",
+      "amount": {
+        "qty": 581.2,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Combine the ginger liquid, the syrup, and the lime juice.",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for lime"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

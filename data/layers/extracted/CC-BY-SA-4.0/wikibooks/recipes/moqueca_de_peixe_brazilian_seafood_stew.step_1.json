@@ -1,0 +1,62 @@
+{
+  "id": "moqueca_de_peixe_brazilian_seafood_stew.step_1",
+  "source": "wikibooks_moqueca_de_peixe_brazilian_seafood_stew",
+  "sourceRef": {
+    "source": "wikibooks_moqueca_de_peixe_brazilian_seafood_stew",
+    "step": 1
+  },
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "fish",
+        "amount": {
+          "qty": 1,
+          "unit": "kg"
+        }
+      },
+      {
+        "ingredient": "lemon",
+        "amount": {
+          "qty": 1,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "pepper",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "moqueca_de_peixe_brazilian_seafood_stew_step_1",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "h"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Leave the fish in a marinade made out of lemon juice and fine powdered pepper for at least 1 hour.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Pepper': no quantity given; assumed a pinch"
+    }
+  ]
+}

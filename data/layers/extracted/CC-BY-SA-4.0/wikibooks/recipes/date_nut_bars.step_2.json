@@ -1,0 +1,55 @@
+{
+  "id": "date_nut_bars.step_2",
+  "source": "wikibooks_date_nut_bars",
+  "sourceRef": {
+    "source": "wikibooks_date_nut_bars",
+    "step": 2
+  },
+  "technique": "whisk",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "date_nut_bars_step_1",
+        "amount": {
+          "qty": 573.8,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "egg_white",
+        "amount": {
+          "qty": 3,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "date_nut_bars_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "In another bowl, whip egg whites until stiff.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

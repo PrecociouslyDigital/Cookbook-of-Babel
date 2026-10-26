@@ -1,0 +1,53 @@
+{
+  "id": "gozleme_turkish_flatbread.step_12",
+  "source": "wikibooks_gozleme_turkish_flatbread",
+  "sourceRef": {
+    "source": "wikibooks_gozleme_turkish_flatbread",
+    "step": 12
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "gozleme_turkish_flatbread_step_11",
+        "amount": {
+          "qty": 1026,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "gozleme_turkish_flatbread_step_12",
+      "amount": {
+        "qty": 1026,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Seal edges well, pressing slightly.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.52"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

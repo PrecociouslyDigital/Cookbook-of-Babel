@@ -1,0 +1,58 @@
+{
+  "id": "north_indian_fermented_bread_batooru.step_4",
+  "source": "wikibooks_north_indian_fermented_bread_batooru",
+  "sourceRef": {
+    "source": "wikibooks_north_indian_fermented_bread_batooru",
+    "step": 4
+  },
+  "technique": "pan_fry",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "north_indian_fermented_bread_batooru_step_3",
+        "amount": {
+          "qty": 16.2,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "north_indian_fermented_bread_batooru",
+      "amount": {
+        "qty": 16.2,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 185,
+    "medium": "frying_oil"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "The next morning, take the batooru out from cloth and shallow fry them like a parantha.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.51"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of pan_fry's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

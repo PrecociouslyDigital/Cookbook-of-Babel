@@ -1,0 +1,53 @@
+{
+  "id": "creamy_cornstarch_scrambled_eggs.step_5",
+  "source": "wikibooks_creamy_cornstarch_scrambled_eggs",
+  "sourceRef": {
+    "source": "wikibooks_creamy_cornstarch_scrambled_eggs",
+    "step": 5
+  },
+  "technique": "coagulate",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "creamy_cornstarch_scrambled_eggs_step_4",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "creamy_cornstarch_scrambled_eggs_step_5",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 180,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 11.5,
+      "unit": "s"
+    }
+  },
+  "stateNote": "Remove the skillet from the heat. Start stirring the eggs, making 1 full circle per second, for about 11–12 seconds. The eggs will have absorbed all the butter but remain partially undercooked. Do not wait until they look fully cooked!",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.46"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 180.0 °C for pan_contact"
+    }
+  ]
+}

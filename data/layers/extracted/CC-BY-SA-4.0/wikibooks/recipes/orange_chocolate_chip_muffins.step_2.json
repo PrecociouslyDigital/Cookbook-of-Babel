@@ -1,0 +1,55 @@
+{
+  "id": "orange_chocolate_chip_muffins.step_2",
+  "source": "wikibooks_orange_chocolate_chip_muffins",
+  "sourceRef": {
+    "source": "wikibooks_orange_chocolate_chip_muffins",
+    "step": 2
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "self_rising_flour",
+        "amount": {
+          "qty": 400,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "butter",
+        "amount": {
+          "qty": 60,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "orange_chocolate_chip_muffins_step_2",
+      "amount": {
+        "qty": 460,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Sift flour into bowl, then rub in butter.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

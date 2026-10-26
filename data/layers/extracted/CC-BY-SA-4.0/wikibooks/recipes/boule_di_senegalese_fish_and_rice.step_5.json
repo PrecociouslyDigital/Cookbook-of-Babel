@@ -1,0 +1,60 @@
+{
+  "id": "boule_di_senegalese_fish_and_rice.step_5",
+  "source": "wikibooks_boule_di_senegalese_fish_and_rice",
+  "sourceRef": {
+    "source": "wikibooks_boule_di_senegalese_fish_and_rice",
+    "step": 5
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "boule_di_senegalese_fish_and_rice_step_4",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "rice",
+        "amount": {
+          "qty": 2,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "boule_di_senegalese_fish_and_rice_step_5",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Gently place the fish chunks on top of the vegetable mixture. Then add the rice, spreading it evenly over the fish and vegetables.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.42"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

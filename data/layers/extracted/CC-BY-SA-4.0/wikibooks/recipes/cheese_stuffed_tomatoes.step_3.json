@@ -1,0 +1,60 @@
+{
+  "id": "cheese_stuffed_tomatoes.step_3",
+  "source": "wikibooks_cheese_stuffed_tomatoes",
+  "sourceRef": {
+    "source": "wikibooks_cheese_stuffed_tomatoes",
+    "step": 3
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "cheese_stuffed_tomatoes_step_2",
+        "amount": {
+          "qty": 182.9,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "tomato",
+        "amount": {
+          "qty": 30,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "cheese_stuffed_tomatoes_step_3",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Fill tomatoes about ¾ full.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'30 cherry tomatoes, with the very top removed': 'cherry' read as pieces"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

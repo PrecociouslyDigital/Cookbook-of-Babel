@@ -1,0 +1,86 @@
+{
+  "id": "pulut_durian_durian_with_sticky_rice.step_2",
+  "source": "wikibooks_pulut_durian_durian_with_sticky_rice",
+  "sourceRef": {
+    "source": "wikibooks_pulut_durian_durian_with_sticky_rice",
+    "step": 2
+  },
+  "technique": "boil",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "pulut_durian_durian_with_sticky_rice_step_1",
+        "amount": {
+          "qty": 1000.4,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "durian",
+        "amount": {
+          "qty": 1,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "coconut",
+        "amount": {
+          "qty": 500,
+          "unit": "ml"
+        }
+      },
+      {
+        "ingredient": "white_sugar",
+        "amount": {
+          "qty": 300,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "pandan",
+        "amount": {
+          "qty": 2,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "pulut_durian_durian_with_sticky_rice",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 100,
+    "medium": "boiling_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Combine the flesh of durian with coconut milk, sugar, salt and screwpine leaves. Boil them together until the sauce thickens.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.39"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of boil's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

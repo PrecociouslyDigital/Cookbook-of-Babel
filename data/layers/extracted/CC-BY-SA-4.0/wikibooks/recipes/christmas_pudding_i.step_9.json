@@ -1,0 +1,70 @@
+{
+  "id": "christmas_pudding_i.step_9",
+  "source": "wikibooks_christmas_pudding_i",
+  "sourceRef": {
+    "source": "wikibooks_christmas_pudding_i",
+    "step": 9
+  },
+  "technique": "heat",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "christmas_pudding_i_step_8",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "brandy_butter",
+        "amount": {
+          "qty": 350,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "christmas_pudding_i",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 20,
+    "medium": "still_air"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "To flame, warm a small amount of brandy in a pan, pour it over the hot pudding once at the table and light it with a matchstick or other easily used flame. Place your bowl of brandy butter on the table for people to enjoy with your pudding.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.5"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 20.0 °C for still_air"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    },
+    {
+      "field": "inputs",
+      "kind": "missing",
+      "note": "no step uses '3 tbsp brandy, rum, or sherry and some extra for flaming' (p=0.52)"
+    }
+  ]
+}

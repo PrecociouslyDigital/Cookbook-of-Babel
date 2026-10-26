@@ -1,0 +1,53 @@
+{
+  "id": "steak_and_kidney_pudding.step_4",
+  "source": "wikibooks_steak_and_kidney_pudding",
+  "sourceRef": {
+    "source": "wikibooks_steak_and_kidney_pudding",
+    "step": 4
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "steak_and_kidney_pudding_step_3",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "steak_and_kidney_pudding_step_4",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Moisten the edges of the crust, cover the pudding over, press the two crusts together, so that the gravy does not escape, and turn up the overhanging pastry.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.53"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

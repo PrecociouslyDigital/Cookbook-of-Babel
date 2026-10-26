@@ -1,0 +1,80 @@
+{
+  "id": "appam_fermented_rice_pancake.step_4",
+  "source": "wikibooks_appam_fermented_rice_pancake",
+  "sourceRef": {
+    "source": "wikibooks_appam_fermented_rice_pancake",
+    "step": 4
+  },
+  "technique": "grind",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "appam_fermented_rice_pancake_step_3",
+        "amount": {
+          "qty": 710.1,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "white_sugar",
+        "amount": {
+          "qty": 1,
+          "unit": "tbsp"
+        }
+      },
+      {
+        "ingredient": "rice",
+        "amount": {
+          "qty": 2,
+          "unit": "tbsp"
+        }
+      },
+      {
+        "min": 0,
+        "max": 1,
+        "of": [
+          {
+            "ingredient": "yeast",
+            "amount": {
+              "qty": 0.5,
+              "unit": "tsp"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "appam_fermented_rice_pancake_step_4",
+      "amount": {
+        "qty": 754.7,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Add the sugar, cooked rice and yeast or kefir, and keep grinding until the whole mixture becomes smooth. It should be thinner than pancake batter.",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for rice, yeast"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "rhubarb_fool.step_1",
+  "source": "wikibooks_rhubarb_fool",
+  "sourceRef": {
+    "source": "wikibooks_rhubarb_fool",
+    "step": 1
+  },
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "rhubarb",
+        "amount": {
+          "qty": 500,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "rhubarb_fool_step_1",
+      "amount": {
+        "qty": 500,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Rinse the rhubarb and cut it into smaller pieces, about 1–3 cm in length. If the rhubarb is coarse or of low quality, it may be necessary to peel it first.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

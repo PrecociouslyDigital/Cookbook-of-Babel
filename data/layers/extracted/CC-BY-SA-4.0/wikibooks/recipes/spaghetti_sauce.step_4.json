@@ -1,0 +1,68 @@
+{
+  "id": "spaghetti_sauce.step_4",
+  "source": "wikibooks_spaghetti_sauce",
+  "sourceRef": {
+    "source": "wikibooks_spaghetti_sauce",
+    "step": 4
+  },
+  "technique": "cool",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "spaghetti_sauce_step_3",
+        "amount": {
+          "qty": 840.2,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "spaghetti_sauce",
+      "amount": {
+        "qty": 840.2,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 180,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Immediately remove from the heat and serve. Hot tomato products lose tomato flavor, so don't delay.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.52"
+    },
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.53"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 180.0 °C for pan_contact"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    },
+    {
+      "field": "inputs",
+      "kind": "missing",
+      "note": "no step uses 'Cooked ground beef or bits of steak (optional, may be added at the table)' (p=0.75)"
+    }
+  ]
+}

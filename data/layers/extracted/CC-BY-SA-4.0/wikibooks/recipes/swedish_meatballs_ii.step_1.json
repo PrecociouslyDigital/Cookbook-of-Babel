@@ -1,0 +1,62 @@
+{
+  "id": "swedish_meatballs_ii.step_1",
+  "source": "wikibooks_swedish_meatballs_ii",
+  "sourceRef": {
+    "source": "wikibooks_swedish_meatballs_ii",
+    "step": 1
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "beef",
+        "amount": {
+          "qty": 0.75,
+          "unit": "lb"
+        }
+      },
+      {
+        "ingredient": "veal",
+        "amount": {
+          "qty": 0.5,
+          "unit": "lb"
+        }
+      },
+      {
+        "ingredient": "pork",
+        "amount": {
+          "qty": 0.25,
+          "unit": "lb"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "swedish_meatballs_ii_step_1",
+      "amount": {
+        "qty": 680.4,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Combine the ground beef, veal, and pork.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

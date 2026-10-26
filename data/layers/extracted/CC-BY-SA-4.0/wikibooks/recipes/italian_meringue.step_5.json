@@ -1,0 +1,53 @@
+{
+  "id": "italian_meringue.step_5",
+  "source": "wikibooks_italian_meringue",
+  "sourceRef": {
+    "source": "wikibooks_italian_meringue",
+    "step": 5
+  },
+  "technique": "whisk",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "italian_meringue_step_4",
+        "amount": {
+          "qty": 793.8,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "italian_meringue",
+      "amount": {
+        "qty": 793.8,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Continue whipping until the meringue is completely cool and forms firm peaks.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.55"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

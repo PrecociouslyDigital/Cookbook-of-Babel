@@ -1,0 +1,48 @@
+{
+  "id": "chipotle_chili.step_1",
+  "source": "wikibooks_chipotle_chili",
+  "sourceRef": {
+    "source": "wikibooks_chipotle_chili",
+    "step": 1
+  },
+  "technique": "grind",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "leftover_hamburger_patties",
+        "amount": {
+          "qty": 3.5,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "chipotle_chili_step_1",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Using a food processor, grind the leftover hamburger patties into a coarse powder.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "id": "dominican_flan.step_6",
+  "source": "wikibooks_dominican_flan",
+  "sourceRef": {
+    "source": "wikibooks_dominican_flan",
+    "step": 6
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "dominican_flan_step_5",
+        "amount": {
+          "qty": 509.4,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "condensed_milk",
+        "amount": {
+          "qty": 2,
+          "unit": "can"
+        }
+      },
+      {
+        "ingredient": "condensed_milk",
+        "amount": {
+          "qty": 0.5,
+          "unit": "can"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "dominican_flan_step_6",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Mix the sweetened condensed milk and the evaporated milk into the eggs. Make sure it's mixed thoroughly.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

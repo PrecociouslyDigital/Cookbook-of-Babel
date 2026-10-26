@@ -1,0 +1,53 @@
+{
+  "id": "doro_dabo_ethiopian_chicken_with_spiced_bread.step_11",
+  "source": "wikibooks_doro_dabo_ethiopian_chicken_with_spiced_bread",
+  "sourceRef": {
+    "source": "wikibooks_doro_dabo_ethiopian_chicken_with_spiced_bread",
+    "step": 11
+  },
+  "technique": "cool",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "doro_dabo_ethiopian_chicken_with_spiced_bread_step_10",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "doro_dabo_ethiopian_chicken_with_spiced_bread_step_11",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Remove the bread from the oven and let it cool for a few minutes.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.46"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

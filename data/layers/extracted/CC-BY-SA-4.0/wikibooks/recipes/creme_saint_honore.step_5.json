@@ -1,0 +1,53 @@
+{
+  "id": "creme_saint_honore.step_5",
+  "source": "wikibooks_creme_saint_honore",
+  "sourceRef": {
+    "source": "wikibooks_creme_saint_honore",
+    "step": 5
+  },
+  "technique": "fold",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "creme_saint_honore_step_4",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "creme_saint_honore",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Fold the rest of the egg whites in and chill before use.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    },
+    {
+      "field": "inputs",
+      "kind": "missing",
+      "note": "no step uses 'a few drops lemon juice' (p=0.54)"
+    }
+  ]
+}

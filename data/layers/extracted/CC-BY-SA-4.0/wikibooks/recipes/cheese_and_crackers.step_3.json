@@ -1,0 +1,48 @@
+{
+  "id": "cheese_and_crackers.step_3",
+  "source": "wikibooks_cheese_and_crackers",
+  "sourceRef": {
+    "source": "wikibooks_cheese_and_crackers",
+    "step": 3
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "cheese_and_crackers_step_2",
+        "amount": {
+          "qty": 0.6,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "cheese_and_crackers_step_3",
+      "amount": {
+        "qty": 0.6,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Place cheese on a cracker (or spread with a knife if using cream cheese).",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

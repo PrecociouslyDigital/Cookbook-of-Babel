@@ -1,0 +1,48 @@
+{
+  "id": "coffee_concentrate.step_3",
+  "source": "wikibooks_coffee_concentrate",
+  "sourceRef": {
+    "source": "wikibooks_coffee_concentrate",
+    "step": 3
+  },
+  "technique": "age",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "coffee_concentrate_step_2",
+        "amount": {
+          "qty": 3765.8,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "coffee_concentrate_step_3",
+      "amount": {
+        "qty": 3765.8,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 11,
+      "unit": "h"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Let mixture stand for 10–12 hours (best to let it sit over night).",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.57"
+    }
+  ]
+}

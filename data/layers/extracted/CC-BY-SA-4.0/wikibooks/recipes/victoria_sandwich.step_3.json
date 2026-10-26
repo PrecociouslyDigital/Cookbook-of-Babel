@@ -1,0 +1,74 @@
+{
+  "id": "victoria_sandwich.step_3",
+  "source": "wikibooks_victoria_sandwich",
+  "sourceRef": {
+    "source": "wikibooks_victoria_sandwich",
+    "step": 3
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "victoria_sandwich_step_2",
+        "amount": {
+          "qty": 340,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "self_rising_flour",
+        "amount": {
+          "qty": 170,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "egg",
+        "amount": {
+          "qty": 170,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "vanilla",
+        "amount": {
+          "qty": 1,
+          "unit": "tsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "victoria_sandwich_step_3",
+      "amount": {
+        "qty": 684.9,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Add the 3 eggs, the vanilla essence, and the flour and mix until smooth.",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for vanilla"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

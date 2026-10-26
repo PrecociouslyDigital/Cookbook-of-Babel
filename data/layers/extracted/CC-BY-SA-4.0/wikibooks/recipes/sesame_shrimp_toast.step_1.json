@@ -1,0 +1,53 @@
+{
+  "id": "sesame_shrimp_toast.step_1",
+  "source": "wikibooks_sesame_shrimp_toast",
+  "sourceRef": {
+    "source": "wikibooks_sesame_shrimp_toast",
+    "step": 1
+  },
+  "technique": "chop",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "shrimp",
+        "amount": {
+          "qty": 20,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "sesame_shrimp_toast_step_1",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Remove shells and tails from shrimp. Remove back veins from shrimp. Cut down back of shrimp with sharp knife. Chop shrimp into a very small dice.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'20 fresh uncooked large shrimp': 'uncooked' read as pieces"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "basic_vinaigrette.step_4",
+  "source": "wikibooks_basic_vinaigrette",
+  "sourceRef": {
+    "source": "wikibooks_basic_vinaigrette",
+    "step": 4
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "basic_vinaigrette_step_3",
+        "amount": {
+          "qty": 128.8,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "basic_vinaigrette",
+      "amount": {
+        "qty": 128.8,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Toss with salad greens and serve.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

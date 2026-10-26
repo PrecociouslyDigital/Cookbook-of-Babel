@@ -1,0 +1,70 @@
+{
+  "id": "karelian_pasties_karjalanpiirakat.step_1",
+  "source": "wikibooks_karelian_pasties_karjalanpiirakat",
+  "sourceRef": {
+    "source": "wikibooks_karelian_pasties_karjalanpiirakat",
+    "step": 1
+  },
+  "technique": "boil",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "water",
+        "amount": {
+          "qty": 500,
+          "unit": "ml"
+        }
+      },
+      {
+        "ingredient": "rice",
+        "amount": {
+          "qty": 300,
+          "unit": "ml"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "karelian_pasties_karjalanpiirakat_step_1",
+      "amount": {
+        "qty": 800,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 100,
+    "medium": "boiling_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Mix the rice into the boiling water. Boil until the water has saturated the rice.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.52"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for rice"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of boil's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

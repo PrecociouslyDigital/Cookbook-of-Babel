@@ -1,0 +1,53 @@
+{
+  "id": "lobster_thermidor.step_9",
+  "source": "wikibooks_lobster_thermidor",
+  "sourceRef": {
+    "source": "wikibooks_lobster_thermidor",
+    "step": 9
+  },
+  "technique": "grill",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "lobster_thermidor_step_8",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "lobster_thermidor",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 250,
+    "medium": "oven_air"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 5.5,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Place the filled shell underneath the open flame and broil for 3–8 minutes, or until the cheese melts and turns a golden brown.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.55"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of grill's typical range"
+    }
+  ]
+}

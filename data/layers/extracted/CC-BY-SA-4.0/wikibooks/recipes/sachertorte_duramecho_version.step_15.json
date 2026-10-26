@@ -1,0 +1,72 @@
+{
+  "id": "sachertorte_duramecho_version.step_15",
+  "source": "wikibooks_sachertorte_duramecho_version",
+  "sourceRef": {
+    "source": "wikibooks_sachertorte_duramecho_version",
+    "step": 15
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "sachertorte_duramecho_version_step_14",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "golden_syrup",
+        "amount": {
+          "qty": 150,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "chocolate",
+        "amount": {
+          "qty": 150,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "sachertorte_duramecho_version_step_15",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 25,
+    "medium": "still_air"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Microwave the golden syrup and chocolate together until the syrup just starts to bubble. Stir until they are smoothly mixed, then cool to about 25°C. This mixture should be spreadable and able to support a thickness of about 2 mm on a vertical surface (test on the wall of the bowl) yet return to shiny soon after being spread. If it is too hard or soft, add more golden syrup or chocolate and go back to the microwaving stage.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.4"
+    },
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.51"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": "fry_bread_i.step_7",
+  "source": "wikibooks_fry_bread_i",
+  "sourceRef": {
+    "source": "wikibooks_fry_bread_i",
+    "step": 7
+  },
+  "technique": "grill",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "fry_bread_i_step_6",
+        "amount": {
+          "qty": 452.9,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "fry_bread_i_step_7",
+      "amount": {
+        "qty": 452.9,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 250,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Brush one side of each disk with melted margarine and place on a barbecue over a 3 Mississippi fire.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.48"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of grill's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

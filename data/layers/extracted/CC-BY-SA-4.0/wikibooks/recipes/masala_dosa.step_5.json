@@ -1,0 +1,79 @@
+{
+  "id": "masala_dosa.step_5",
+  "source": "wikibooks_masala_dosa",
+  "sourceRef": {
+    "source": "wikibooks_masala_dosa",
+    "step": 5
+  },
+  "technique": "stir_fry",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "masala_dosa_step_4",
+        "amount": {
+          "qty": 683,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "chiles",
+        "amount": {
+          "qty": 4.5,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "chickpea",
+        "amount": {
+          "qty": 1,
+          "unit": "tsp"
+        }
+      },
+      {
+        "ingredient": "curry_leaf",
+        "amount": {
+          "qty": 1,
+          "unit": "tsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "masala_dosa_step_5",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 215,
+    "medium": "frying_oil"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "When the spluttering starts to recede, add chopped green chilies, curry leaves, and channa dal. Stir until the channa dal turns brown. Be careful, as channa dal can go from browned to burnt within seconds.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.5"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of stir_fry's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

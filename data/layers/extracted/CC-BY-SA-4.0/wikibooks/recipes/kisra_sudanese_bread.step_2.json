@@ -1,0 +1,71 @@
+{
+  "id": "kisra_sudanese_bread.step_2",
+  "source": "wikibooks_kisra_sudanese_bread",
+  "sourceRef": {
+    "source": "wikibooks_kisra_sudanese_bread",
+    "step": 2
+  },
+  "technique": "ferment",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "kisra_sudanese_bread_step_1",
+        "amount": {
+          "qty": 952.3,
+          "unit": "g"
+        }
+      },
+      {
+        "min": 0,
+        "max": 1,
+        "of": [
+          {
+            "ingredient": "yeast",
+            "amount": {
+              "qty": 0.5,
+              "unit": "tsp"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "kisra_sudanese_bread_step_2",
+      "amount": {
+        "qty": 954.8,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 20,
+    "medium": "still_air"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 10,
+      "unit": "h"
+    }
+  },
+  "stateNote": "If fermenting the batter, mix in the yeast. Cover the bowl with a clean kitchen towel and let it rest in a warm place for 8–12 hours. This allows the batter to ferment and develop flavor. If you prefer non-fermented kisra, skip this step.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.54"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for yeast"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 20.0 °C for still_air"
+    }
+  ]
+}

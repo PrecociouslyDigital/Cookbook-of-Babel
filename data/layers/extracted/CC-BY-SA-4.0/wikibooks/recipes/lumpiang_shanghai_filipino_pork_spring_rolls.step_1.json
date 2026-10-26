@@ -1,0 +1,62 @@
+{
+  "id": "lumpiang_shanghai_filipino_pork_spring_rolls.step_1",
+  "source": "wikibooks_lumpiang_shanghai_filipino_pork_spring_rolls",
+  "sourceRef": {
+    "source": "wikibooks_lumpiang_shanghai_filipino_pork_spring_rolls",
+    "step": 1
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "pork",
+        "amount": {
+          "qty": 0.5,
+          "unit": "kg"
+        }
+      },
+      {
+        "ingredient": "garlic",
+        "amount": {
+          "qty": 1,
+          "unit": "clove"
+        }
+      },
+      {
+        "ingredient": "carrot",
+        "amount": {
+          "qty": 1,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "lumpiang_shanghai_filipino_pork_spring_rolls_step_1",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Combine the pork, garlic, and carrot in a mixing bowl.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

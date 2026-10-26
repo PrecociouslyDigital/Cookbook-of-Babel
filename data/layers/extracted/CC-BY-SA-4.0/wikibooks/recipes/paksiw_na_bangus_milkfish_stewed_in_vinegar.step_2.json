@@ -1,0 +1,76 @@
+{
+  "id": "paksiw_na_bangus_milkfish_stewed_in_vinegar.step_2",
+  "source": "wikibooks_paksiw_na_bangus_milkfish_stewed_in_vinegar",
+  "sourceRef": {
+    "source": "wikibooks_paksiw_na_bangus_milkfish_stewed_in_vinegar",
+    "step": 2
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "paksiw_na_bangus_milkfish_stewed_in_vinegar_step_1",
+        "amount": {
+          "qty": 1000,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "carrot",
+        "amount": {
+          "qty": 1,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "bitter_melon",
+        "amount": {
+          "qty": 1,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "garlic",
+        "amount": {
+          "qty": 2,
+          "unit": "head"
+        }
+      },
+      {
+        "ingredient": "chiles",
+        "amount": {
+          "qty": 3,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "paksiw_na_bangus_milkfish_stewed_in_vinegar_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Combine the carrots, bitter melon, garlic, and chilies in a heavy pot.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

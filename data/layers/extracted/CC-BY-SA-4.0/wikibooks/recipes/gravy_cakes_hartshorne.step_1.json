@@ -1,0 +1,60 @@
+{
+  "id": "gravy_cakes_hartshorne.step_1",
+  "source": "wikibooks_gravy_cakes_hartshorne",
+  "sourceRef": {
+    "source": "wikibooks_gravy_cakes_hartshorne",
+    "step": 1
+  },
+  "technique": "simmer",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "beef",
+        "amount": {
+          "qty": 2,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "water",
+        "amount": {
+          "qty": 700,
+          "unit": "ml"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "gravy_cakes_hartshorne_step_1",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 90,
+    "medium": "simmering_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 24,
+      "unit": "h"
+    }
+  },
+  "stateNote": "Chop 2 legs of beef in pieces, put them into a pot of water, and slow cook for 24 hours.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'2 legs of beef': 'legs' read as pieces"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of simmer's typical range"
+    }
+  ]
+}

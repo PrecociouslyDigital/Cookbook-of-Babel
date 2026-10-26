@@ -1,0 +1,53 @@
+{
+  "id": "seafood_kebabs_with_zhoug_sauce.step_5",
+  "source": "wikibooks_seafood_kebabs_with_zhoug_sauce",
+  "sourceRef": {
+    "source": "wikibooks_seafood_kebabs_with_zhoug_sauce",
+    "step": 5
+  },
+  "technique": "strain",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "seafood_kebabs_with_zhoug_sauce_step_4",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "seafood_kebabs_with_zhoug_sauce_step_5",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Remove the seafood from the marinade and drain in a colander. Save the marinade for basting the kebabs later. Thread the seafood onto skewers or satay sticks.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.59"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

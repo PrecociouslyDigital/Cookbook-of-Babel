@@ -1,0 +1,63 @@
+{
+  "id": "basic_polenta.step_4",
+  "source": "wikibooks_basic_polenta",
+  "sourceRef": {
+    "source": "wikibooks_basic_polenta",
+    "step": 4
+  },
+  "technique": "cool",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "basic_polenta_step_3",
+        "amount": {
+          "qty": 968.1,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "basic_polenta",
+      "amount": {
+        "qty": 968.1,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 90,
+    "medium": "simmering_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 20,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Polenta can be kept on low heat for up to 20 minutes or allowed to cool for future use.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.4"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 90.0 °C for simmering_water"
+    },
+    {
+      "field": "inputs",
+      "kind": "missing",
+      "note": "no step uses 'Butter and/or olive oil to taste (likely in the range of 1–2 tablespoons / 15–30 mL)' (p=1.0)"
+    },
+    {
+      "field": "inputs",
+      "kind": "missing",
+      "note": "no step uses 'Parmesan cheese, to taste' (p=1.0)"
+    }
+  ]
+}

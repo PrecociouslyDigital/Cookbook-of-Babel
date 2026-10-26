@@ -1,0 +1,62 @@
+{
+  "id": "reuben_sandwich.step_2",
+  "source": "wikibooks_reuben_sandwich",
+  "sourceRef": {
+    "source": "wikibooks_reuben_sandwich",
+    "step": 2
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "reuben_sandwich_step_1",
+        "amount": {
+          "qty": 89,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "creamy_russian_dressing",
+        "amount": {
+          "qty": 2,
+          "unit": "tbsp"
+        }
+      },
+      {
+        "ingredient": "rye",
+        "amount": {
+          "qty": 2,
+          "unit": "slice"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "reuben_sandwich_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Spread the dressing on two slices bread.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

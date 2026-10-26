@@ -1,0 +1,48 @@
+{
+  "id": "fried_apple_pies.step_3",
+  "source": "wikibooks_fried_apple_pies",
+  "sourceRef": {
+    "source": "wikibooks_fried_apple_pies",
+    "step": 3
+  },
+  "technique": "cool",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "fried_apple_pies_step_2",
+        "amount": {
+          "qty": 800,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "fried_apple_pies_step_3",
+      "amount": {
+        "qty": 800,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Transfer to a bowl, and place in refrigerator to cool completely before using as filling.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

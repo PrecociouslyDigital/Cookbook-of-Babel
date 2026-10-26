@@ -1,0 +1,53 @@
+{
+  "id": "orange_soda_iii.step_4",
+  "source": "wikibooks_orange_soda_iii",
+  "sourceRef": {
+    "source": "wikibooks_orange_soda_iii",
+    "step": 4
+  },
+  "technique": "carbonate",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "orange_soda_iii_step_3",
+        "amount": {
+          "qty": 638.8,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "orange_soda_iii",
+      "amount": {
+        "qty": 638.8,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "To make the finished soda, combine 1 volume of syrup with 5 volumes of carbonated water.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.59"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

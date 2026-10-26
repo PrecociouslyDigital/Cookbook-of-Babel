@@ -1,0 +1,55 @@
+{
+  "id": "ghormeh_sabzi_iranian_herb_stew.step_2",
+  "source": "wikibooks_ghormeh_sabzi_iranian_herb_stew",
+  "sourceRef": {
+    "source": "wikibooks_ghormeh_sabzi_iranian_herb_stew",
+    "step": 2
+  },
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "ghormeh_sabzi_iranian_herb_stew_step_1",
+        "amount": {
+          "qty": 200,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "beef",
+        "amount": {
+          "qty": 800,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "ghormeh_sabzi_iranian_herb_stew_step_2",
+      "amount": {
+        "qty": 1000,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Remove unnecessary fat from the meat, and cut the meat into smaller pieces.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

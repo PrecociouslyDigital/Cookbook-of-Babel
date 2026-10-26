@@ -1,0 +1,48 @@
+{
+  "id": "egyptian_meatballs_kofta.step_2",
+  "source": "wikibooks_egyptian_meatballs_kofta",
+  "sourceRef": {
+    "source": "wikibooks_egyptian_meatballs_kofta",
+    "step": 2
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "egyptian_meatballs_kofta_step_1",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "egyptian_meatballs_kofta_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Take a small portion of the meat mixture and shape it into a cylindrical or oval meatball shape. Repeat the process with the remaining meat mixture, shaping them into uniform-sized meatballs.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

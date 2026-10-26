@@ -1,0 +1,48 @@
+{
+  "id": "deep_fried_mars_bar.step_1",
+  "source": "wikibooks_deep_fried_mars_bar",
+  "sourceRef": {
+    "source": "wikibooks_deep_fried_mars_bar",
+    "step": 1
+  },
+  "technique": "chill",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "mars_bar",
+        "amount": {
+          "qty": 1,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "deep_fried_mars_bar_step_1",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Chill, but do not freeze, the Mars bar by leaving it in a fridge or freezer for a short while.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

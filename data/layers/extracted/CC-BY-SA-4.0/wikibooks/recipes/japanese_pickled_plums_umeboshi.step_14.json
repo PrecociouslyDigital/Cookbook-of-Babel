@@ -1,0 +1,53 @@
+{
+  "id": "japanese_pickled_plums_umeboshi.step_14",
+  "source": "wikibooks_japanese_pickled_plums_umeboshi",
+  "sourceRef": {
+    "source": "wikibooks_japanese_pickled_plums_umeboshi",
+    "step": 14
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "japanese_pickled_plums_umeboshi_step_13",
+        "amount": {
+          "qty": 0.7,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "japanese_pickled_plums_umeboshi",
+      "amount": {
+        "qty": 0.7,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Put the plums, shiso, and boiled liquid back into a clean jar, and store in the fridge.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.52"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

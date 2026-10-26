@@ -1,0 +1,48 @@
+{
+  "id": "spice_rub_for_chicken.step_2",
+  "source": "wikibooks_spice_rub_for_chicken",
+  "sourceRef": {
+    "source": "wikibooks_spice_rub_for_chicken",
+    "step": 2
+  },
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "spice_rub_for_chicken_step_1",
+        "amount": {
+          "qty": 221.8,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "spice_rub_for_chicken_step_2",
+      "amount": {
+        "qty": 221.8,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Rub on chicken, inside and outside.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

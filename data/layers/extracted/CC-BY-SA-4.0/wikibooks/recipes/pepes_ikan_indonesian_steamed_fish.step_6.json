@@ -1,0 +1,48 @@
+{
+  "id": "pepes_ikan_indonesian_steamed_fish.step_6",
+  "source": "wikibooks_pepes_ikan_indonesian_steamed_fish",
+  "sourceRef": {
+    "source": "wikibooks_pepes_ikan_indonesian_steamed_fish",
+    "step": 6
+  },
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "pepes_ikan_indonesian_steamed_fish_step_5",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "pepes_ikan_indonesian_steamed_fish_step_6",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Coat fish with spice paste.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

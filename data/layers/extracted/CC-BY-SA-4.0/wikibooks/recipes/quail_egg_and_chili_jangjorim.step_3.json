@@ -1,0 +1,48 @@
+{
+  "id": "quail_egg_and_chili_jangjorim.step_3",
+  "source": "wikibooks_quail_egg_and_chili_jangjorim",
+  "sourceRef": {
+    "source": "wikibooks_quail_egg_and_chili_jangjorim",
+    "step": 3
+  },
+  "technique": "separate",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "quail_egg_and_chili_jangjorim_step_2",
+        "amount": {
+          "qty": 0.3,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "quail_egg_and_chili_jangjorim_step_3",
+      "amount": {
+        "qty": 0.3,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Peel the cooled eggs.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

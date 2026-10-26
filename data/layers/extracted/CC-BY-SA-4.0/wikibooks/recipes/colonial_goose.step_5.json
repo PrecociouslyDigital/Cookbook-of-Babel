@@ -1,0 +1,48 @@
+{
+  "id": "colonial_goose.step_5",
+  "source": "wikibooks_colonial_goose",
+  "sourceRef": {
+    "source": "wikibooks_colonial_goose",
+    "step": 5
+  },
+  "technique": "bake",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "colonial_goose_step_4",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "colonial_goose_step_5",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 180,
+    "medium": "oven_air"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 2,
+      "unit": "h"
+    }
+  },
+  "stateNote": "Bake mutton in oven at 180 °C for 2 hours, checking on progress at 90 minutes. If the meat looks like it is over-browning, it can be covered by foil.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "the step names several durations; used the first"
+    }
+  ]
+}

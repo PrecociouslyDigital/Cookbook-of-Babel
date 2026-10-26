@@ -1,0 +1,74 @@
+{
+  "id": "sindhi_chickpea_confection.step_4",
+  "source": "wikibooks_sindhi_chickpea_confection",
+  "sourceRef": {
+    "source": "wikibooks_sindhi_chickpea_confection",
+    "step": 4
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "sindhi_chickpea_confection_step_3",
+        "amount": {
+          "qty": 900,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "cashew",
+        "amount": {
+          "qty": 12.5,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "almond",
+        "amount": {
+          "qty": 12.5,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "pistachio",
+        "amount": {
+          "qty": 7.5,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "sindhi_chickpea_confection",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Transfer mixture to a bowl, and garnish with nuts.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.4"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

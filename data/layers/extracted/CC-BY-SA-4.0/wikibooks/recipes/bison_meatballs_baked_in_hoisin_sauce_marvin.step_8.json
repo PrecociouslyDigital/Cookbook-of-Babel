@@ -1,0 +1,60 @@
+{
+  "id": "bison_meatballs_baked_in_hoisin_sauce_marvin.step_8",
+  "source": "wikibooks_bison_meatballs_baked_in_hoisin_sauce_marvin",
+  "sourceRef": {
+    "source": "wikibooks_bison_meatballs_baked_in_hoisin_sauce_marvin",
+    "step": 8
+  },
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "bison_meatballs_baked_in_hoisin_sauce_marvin_step_7",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "hoisin_sauce",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "bison_meatballs_baked_in_hoisin_sauce_marvin_step_8",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Coat the Marvins with hoisin sauce.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Hoisin sauce': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

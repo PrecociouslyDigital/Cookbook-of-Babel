@@ -1,0 +1,60 @@
+{
+  "id": "coq_au_vin_ii.step_2",
+  "source": "wikibooks_coq_au_vin_ii",
+  "sourceRef": {
+    "source": "wikibooks_coq_au_vin_ii",
+    "step": 2
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "coq_au_vin_ii_step_1",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "wheat_flour",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "coq_au_vin_ii_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Place some flour into a gallon size zip-top bag. Add chicken pieces and toss to coat. It's fun for the whole family!",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'All-purpose flour': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

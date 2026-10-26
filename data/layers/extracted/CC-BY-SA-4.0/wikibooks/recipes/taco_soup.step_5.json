@@ -1,0 +1,93 @@
+{
+  "id": "taco_soup.step_5",
+  "source": "wikibooks_taco_soup",
+  "sourceRef": {
+    "source": "wikibooks_taco_soup",
+    "step": 5
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "taco_soup_step_4",
+        "amount": {
+          "qty": 453.9,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "tomato",
+        "amount": {
+          "qty": 29,
+          "unit": "oz"
+        }
+      },
+      {
+        "ingredient": "corn",
+        "amount": {
+          "qty": 30.5,
+          "unit": "oz"
+        }
+      },
+      {
+        "ingredient": "pulses",
+        "amount": {
+          "qty": 31,
+          "unit": "oz"
+        }
+      },
+      {
+        "ingredient": "taco_mix",
+        "amount": {
+          "qty": 1,
+          "unit": "oz"
+        }
+      },
+      {
+        "ingredient": "water",
+        "amount": {
+          "qty": 2,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "taco_soup_step_5",
+      "amount": {
+        "qty": 3521.1,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "In stock pot, combine the tomatoes, corn, beans, taco mix, water, and meat.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.51"
+    },
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.42"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

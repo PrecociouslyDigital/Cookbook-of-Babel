@@ -1,0 +1,65 @@
+{
+  "id": "modeling_chocolate.step_3",
+  "source": "wikibooks_modeling_chocolate",
+  "sourceRef": {
+    "source": "wikibooks_modeling_chocolate",
+    "step": 3
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "modeling_chocolate_step_2",
+        "amount": {
+          "qty": 450,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "glucose",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "modeling_chocolate_step_3",
+      "amount": {
+        "qty": 450.3,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Combine in syrup, slowly mixing well to thicken the mixture.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Glucose, corn, or golden syrup as indicated by the below table, plus more as needed': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for glucose"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

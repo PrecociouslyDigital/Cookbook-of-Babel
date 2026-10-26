@@ -1,0 +1,55 @@
+{
+  "id": "roasted_spiced_chicken_drumsticks.step_4",
+  "source": "wikibooks_roasted_spiced_chicken_drumsticks",
+  "sourceRef": {
+    "source": "wikibooks_roasted_spiced_chicken_drumsticks",
+    "step": 4
+  },
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "roasted_spiced_chicken_drumsticks_step_3",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "olive_oil",
+        "amount": {
+          "qty": 1,
+          "unit": "tsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "roasted_spiced_chicken_drumsticks_step_4",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Coat the chicken with oil and the prepared spice blend, ensuring all sides are well-coated. Transfer to a baking dish.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

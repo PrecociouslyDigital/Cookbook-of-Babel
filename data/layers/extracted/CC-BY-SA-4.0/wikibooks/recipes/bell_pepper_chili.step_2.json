@@ -1,0 +1,53 @@
+{
+  "id": "bell_pepper_chili.step_2",
+  "source": "wikibooks_bell_pepper_chili",
+  "sourceRef": {
+    "source": "wikibooks_bell_pepper_chili",
+    "step": 2
+  },
+  "technique": "fry",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "bell_pepper_chili_step_1",
+        "amount": {
+          "qty": 1474.2,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "bell_pepper_chili_step_2",
+      "amount": {
+        "qty": 1474.2,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 190,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Fry on medium, breaking up the beef, until it turns brown. Drain grease.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of fry's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

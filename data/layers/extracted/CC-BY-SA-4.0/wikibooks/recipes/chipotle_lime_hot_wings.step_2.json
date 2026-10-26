@@ -1,0 +1,48 @@
+{
+  "id": "chipotle_lime_hot_wings.step_2",
+  "source": "wikibooks_chipotle_lime_hot_wings",
+  "sourceRef": {
+    "source": "wikibooks_chipotle_lime_hot_wings",
+    "step": 2
+  },
+  "technique": "fry",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "chipotle_lime_hot_wings_step_1",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "chipotle_lime_hot_wings_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 190,
+    "medium": "frying_oil"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 12,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Fry wingettes in batches for 12 minutes. Drain on a cooling rack.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of fry's typical range"
+    }
+  ]
+}

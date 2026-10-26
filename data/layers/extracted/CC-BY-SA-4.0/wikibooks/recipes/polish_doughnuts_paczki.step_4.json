@@ -1,0 +1,48 @@
+{
+  "id": "polish_doughnuts_paczki.step_4",
+  "source": "wikibooks_polish_doughnuts_paczki",
+  "sourceRef": {
+    "source": "wikibooks_polish_doughnuts_paczki",
+    "step": 4
+  },
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "polish_doughnuts_paczki_step_3",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "polish_doughnuts_paczki_step_4",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Pat the dough on a lightly floured surface, and roll the dough until it's about ½ inch thick. Cut out circles of dough and set aside. The exact size the circles should be is entirely up to your preference; the final product will have only a slightly larger diameter. You can roll out the excess dough again to cut more pączki.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "id": "bigos_polish_cabbage_meat_stew.step_2",
+  "source": "wikibooks_bigos_polish_cabbage_meat_stew",
+  "sourceRef": {
+    "source": "wikibooks_bigos_polish_cabbage_meat_stew",
+    "step": 2
+  },
+  "technique": "fry",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "bigos_polish_cabbage_meat_stew_step_1",
+        "amount": {
+          "qty": 4501.3,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "bacon",
+        "amount": {
+          "qty": 250,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "bigos_polish_cabbage_meat_stew_step_2",
+      "amount": {
+        "qty": 4751.3,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 190,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Chop the bacon and let it melt in a frying pan.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.45"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of fry's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

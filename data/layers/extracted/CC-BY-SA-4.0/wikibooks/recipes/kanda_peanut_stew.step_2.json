@@ -1,0 +1,53 @@
+{
+  "id": "kanda_peanut_stew.step_2",
+  "source": "wikibooks_kanda_peanut_stew",
+  "sourceRef": {
+    "source": "wikibooks_kanda_peanut_stew",
+    "step": 2
+  },
+  "technique": "grind",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "kanda_peanut_stew_step_1",
+        "amount": {
+          "qty": 236.6,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "kanda_peanut_stew_step_2",
+      "amount": {
+        "qty": 236.6,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "In a blender or food processor, grind the peanuts until they form a fine powder. Set aside.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.53"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

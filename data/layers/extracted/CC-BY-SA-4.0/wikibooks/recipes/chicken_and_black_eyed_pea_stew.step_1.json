@@ -1,0 +1,53 @@
+{
+  "id": "chicken_and_black_eyed_pea_stew.step_1",
+  "source": "wikibooks_chicken_and_black_eyed_pea_stew",
+  "sourceRef": {
+    "source": "wikibooks_chicken_and_black_eyed_pea_stew",
+    "step": 1
+  },
+  "technique": "boil",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "cowpea",
+        "amount": {
+          "qty": 1,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "chicken_and_black_eyed_pea_stew_step_1",
+      "amount": {
+        "qty": 236.6,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 100,
+    "medium": "boiling_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 20,
+      "unit": "min"
+    }
+  },
+  "stateNote": "If using dry black-eyed peas, wash them, then cook for 20 minutes or until al dente. When done, drain.",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for cowpea"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of boil's typical range"
+    }
+  ]
+}

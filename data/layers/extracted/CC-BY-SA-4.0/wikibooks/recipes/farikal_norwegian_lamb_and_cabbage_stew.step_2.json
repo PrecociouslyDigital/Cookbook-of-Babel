@@ -1,0 +1,55 @@
+{
+  "id": "farikal_norwegian_lamb_and_cabbage_stew.step_2",
+  "source": "wikibooks_farikal_norwegian_lamb_and_cabbage_stew",
+  "sourceRef": {
+    "source": "wikibooks_farikal_norwegian_lamb_and_cabbage_stew",
+    "step": 2
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "farikal_norwegian_lamb_and_cabbage_stew_step_1",
+        "amount": {
+          "qty": 2000,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "lamb_and_mutton",
+        "amount": {
+          "qty": 2,
+          "unit": "kg"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "farikal_norwegian_lamb_and_cabbage_stew_step_2",
+      "amount": {
+        "qty": 4000,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Cover the bottom of the pot with a layer of meat, laying it with the fattier side down.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

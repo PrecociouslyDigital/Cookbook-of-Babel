@@ -1,0 +1,48 @@
+{
+  "id": "pickled_green_mango_aavakaaya.step_4",
+  "source": "wikibooks_pickled_green_mango_aavakaaya",
+  "sourceRef": {
+    "source": "wikibooks_pickled_green_mango_aavakaaya",
+    "step": 4
+  },
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "pickled_green_mango_aavakaaya_step_3",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "pickled_green_mango_aavakaaya_step_4",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Cut each half of the sliced mango into 4–5 pieces. Each and every piece should contain a portion of the stone, without which the piece will soften too quickly.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

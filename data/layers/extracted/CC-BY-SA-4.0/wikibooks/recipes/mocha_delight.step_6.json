@@ -1,0 +1,53 @@
+{
+  "id": "mocha_delight.step_6",
+  "source": "wikibooks_mocha_delight",
+  "sourceRef": {
+    "source": "wikibooks_mocha_delight",
+    "step": 6
+  },
+  "technique": "cool",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "mocha_delight_step_5",
+        "amount": {
+          "qty": 933.7,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "mocha_delight_step_6",
+      "amount": {
+        "qty": 933.7,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Remove from oven to a wire rack; cool completely and remove from pan.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.41"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

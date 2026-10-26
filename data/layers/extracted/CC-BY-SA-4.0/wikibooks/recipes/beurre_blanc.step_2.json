@@ -1,0 +1,53 @@
+{
+  "id": "beurre_blanc.step_2",
+  "source": "wikibooks_beurre_blanc",
+  "sourceRef": {
+    "source": "wikibooks_beurre_blanc",
+    "step": 2
+  },
+  "technique": "evaporate",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "beurre_blanc_step_1",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "beurre_blanc_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 100,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Cook this mixture until reduced to about 2 tablespoons, and don't be shy about letting it boil—it will not adversely affect the sauce. Once reduced, the shallot should still be fairly moist. If you're looking at a dry pan, there's a good chance your sauce won't hold.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of evaporate's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

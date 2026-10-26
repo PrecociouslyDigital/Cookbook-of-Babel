@@ -1,0 +1,48 @@
+{
+  "id": "avocado_relish.step_3",
+  "source": "wikibooks_avocado_relish",
+  "sourceRef": {
+    "source": "wikibooks_avocado_relish",
+    "step": 3
+  },
+  "technique": "age",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "avocado_relish_step_2",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "avocado_relish",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 7.5,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Let rest 5–10 minutes before serving.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.52"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": "herb_grilled_strip_steaks.step_6",
+  "source": "wikibooks_herb_grilled_strip_steaks",
+  "sourceRef": {
+    "source": "wikibooks_herb_grilled_strip_steaks",
+    "step": 6
+  },
+  "technique": "grill",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "herb_grilled_strip_steaks_step_5",
+        "amount": {
+          "qty": 556.1,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "herb_grilled_strip_steaks_step_6",
+      "amount": {
+        "qty": 556.1,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 60,
+    "medium": "still_air"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Move steak to a cooler part of the grill and cook, turning often, until desired doneness (140°F for medium rare, 155°F for medium, 165°F for toast).",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.4"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

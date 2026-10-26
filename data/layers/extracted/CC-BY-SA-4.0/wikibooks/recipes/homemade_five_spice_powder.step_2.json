@@ -1,0 +1,60 @@
+{
+  "id": "homemade_five_spice_powder.step_2",
+  "source": "wikibooks_homemade_five_spice_powder",
+  "sourceRef": {
+    "source": "wikibooks_homemade_five_spice_powder",
+    "step": 2
+  },
+  "technique": "grind",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "homemade_five_spice_powder_step_1",
+        "amount": {
+          "qty": 9.9,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "star_anise",
+        "amount": {
+          "qty": 8,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "homemade_five_spice_powder_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Grind the peppercorns in a pepper grinder or coffee grinder together with the star anise pods.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.54"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

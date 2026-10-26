@@ -1,0 +1,53 @@
+{
+  "id": "potato_candy_pinwheel.step_8",
+  "source": "wikibooks_potato_candy_pinwheel",
+  "sourceRef": {
+    "source": "wikibooks_potato_candy_pinwheel",
+    "step": 8
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "potato_candy_pinwheel_step_7",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "potato_candy_pinwheel_step_8",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "You can tell that you added too much powdered sugar if the dough is too dry and cracks begin to appear. If this occurs, add the dough back to the bowl and add a tablespoon of mashed potatoes (if there are extra), a couple teaspoons of cream or milk, or a couple teaspoons of water and remix and re-knead.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.52"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

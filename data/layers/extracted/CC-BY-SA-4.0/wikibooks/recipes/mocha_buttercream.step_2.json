@@ -1,0 +1,53 @@
+{
+  "id": "mocha_buttercream.step_2",
+  "source": "wikibooks_mocha_buttercream",
+  "sourceRef": {
+    "source": "wikibooks_mocha_buttercream",
+    "step": 2
+  },
+  "technique": "whisk",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "mocha_buttercream_step_1",
+        "amount": {
+          "qty": 1182,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "mocha_buttercream_step_2",
+      "amount": {
+        "qty": 1182,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Beat at high speed with an electric mixer until uniform and fluffy.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.51"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

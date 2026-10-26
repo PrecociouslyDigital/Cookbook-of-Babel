@@ -1,0 +1,60 @@
+{
+  "id": "bouchee_a_la_reine.step_1",
+  "source": "wikibooks_bouchee_a_la_reine",
+  "sourceRef": {
+    "source": "wikibooks_bouchee_a_la_reine",
+    "step": 1
+  },
+  "technique": "boil",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "bouquet_garni",
+        "amount": {
+          "qty": 1,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "chicken_stock",
+        "amount": {
+          "qty": 12,
+          "unit": "oz"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "bouchee_a_la_reine_step_1",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 100,
+    "medium": "boiling_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 10.5,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Place the chicken stock and the bouquet garni in a saucepan. Bring to a boil and allow to infuse 10–11 minutes",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.59"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of boil's typical range"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": "boiled_cucumber_and_grated_coconut_pachadi.step_7",
+  "source": "wikibooks_boiled_cucumber_and_grated_coconut_pachadi",
+  "sourceRef": {
+    "source": "wikibooks_boiled_cucumber_and_grated_coconut_pachadi",
+    "step": 7
+  },
+  "technique": "boil",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "boiled_cucumber_and_grated_coconut_pachadi_step_6",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "boiled_cucumber_and_grated_coconut_pachadi",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 100,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "As the mixture starts to boil, take it off the stove. Serve.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.31"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of boil's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

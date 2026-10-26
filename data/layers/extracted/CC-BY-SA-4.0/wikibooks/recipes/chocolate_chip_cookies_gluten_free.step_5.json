@@ -1,0 +1,65 @@
+{
+  "id": "chocolate_chip_cookies_gluten_free.step_5",
+  "source": "wikibooks_chocolate_chip_cookies_gluten_free",
+  "sourceRef": {
+    "source": "wikibooks_chocolate_chip_cookies_gluten_free",
+    "step": 5
+  },
+  "technique": "fold",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "chocolate_chip_cookies_gluten_free_step_4",
+        "amount": {
+          "qty": 746.1,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "chocolate",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "chocolate_chip_cookies_gluten_free_step_5",
+      "amount": {
+        "qty": 746.4,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Fold in the chocolate chips.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Chocolate chips (as many as you like)': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for chocolate"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

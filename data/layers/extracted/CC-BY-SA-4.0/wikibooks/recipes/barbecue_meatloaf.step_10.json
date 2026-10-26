@@ -1,0 +1,48 @@
+{
+  "id": "barbecue_meatloaf.step_10",
+  "source": "wikibooks_barbecue_meatloaf",
+  "sourceRef": {
+    "source": "wikibooks_barbecue_meatloaf",
+    "step": 10
+  },
+  "technique": "cool",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "barbecue_meatloaf_step_9",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "barbecue_meatloaf",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 68.33333333333333,
+    "medium": "oven_air"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 9,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Once the meatloaf has reached 155°F, take it out of the oven and let it sit for about 8–10 minutes before serving.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.48"
+    }
+  ]
+}

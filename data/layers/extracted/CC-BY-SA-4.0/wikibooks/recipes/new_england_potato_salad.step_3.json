@@ -1,0 +1,48 @@
+{
+  "id": "new_england_potato_salad.step_3",
+  "source": "wikibooks_new_england_potato_salad",
+  "sourceRef": {
+    "source": "wikibooks_new_england_potato_salad",
+    "step": 3
+  },
+  "technique": "cool",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "new_england_potato_salad_step_2",
+        "amount": {
+          "qty": 1360.8,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "new_england_potato_salad_step_3",
+      "amount": {
+        "qty": 1360.8,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Place potatoes in a large bowl and let them come to room temperature.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

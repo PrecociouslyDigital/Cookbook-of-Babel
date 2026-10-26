@@ -1,0 +1,53 @@
+{
+  "id": "pineapple_side_dish.step_6",
+  "source": "wikibooks_pineapple_side_dish",
+  "sourceRef": {
+    "source": "wikibooks_pineapple_side_dish",
+    "step": 6
+  },
+  "technique": "fold",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "pineapple_side_dish_step_5",
+        "amount": {
+          "qty": 1105.2,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "pineapple_side_dish_step_6",
+      "amount": {
+        "qty": 1105.2,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Gently stir in pineapple.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.59"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

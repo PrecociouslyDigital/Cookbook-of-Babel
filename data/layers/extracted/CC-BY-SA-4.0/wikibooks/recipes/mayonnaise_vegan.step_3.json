@@ -1,0 +1,48 @@
+{
+  "id": "mayonnaise_vegan.step_3",
+  "source": "wikibooks_mayonnaise_vegan",
+  "sourceRef": {
+    "source": "wikibooks_mayonnaise_vegan",
+    "step": 3
+  },
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "mayonnaise_vegan_step_2",
+        "amount": {
+          "qty": 214.5,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "mayonnaise_vegan",
+      "amount": {
+        "qty": 214.5,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Add additional spices (e.g. salt, black pepper, etc.) to taste.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

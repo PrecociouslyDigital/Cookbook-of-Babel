@@ -1,0 +1,58 @@
+{
+  "id": "nsima_cornmeal_swallow.step_8",
+  "source": "wikibooks_nsima_cornmeal_swallow",
+  "sourceRef": {
+    "source": "wikibooks_nsima_cornmeal_swallow",
+    "step": 8
+  },
+  "technique": "cool",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "nsima_cornmeal_swallow_step_7",
+        "amount": {
+          "qty": 1419.6,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "nsima_cornmeal_swallow",
+      "amount": {
+        "qty": 1419.6,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 20,
+    "medium": "still_air"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Once the nsima is cooked to your liking, remove it from the heat and let it sit for a few minutes to cool slightly before serving.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.48"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 20.0 °C for still_air"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

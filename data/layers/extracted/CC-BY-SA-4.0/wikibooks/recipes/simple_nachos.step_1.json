@@ -1,0 +1,72 @@
+{
+  "id": "simple_nachos.step_1",
+  "source": "wikibooks_simple_nachos",
+  "sourceRef": {
+    "source": "wikibooks_simple_nachos",
+    "step": 1
+  },
+  "technique": "pan_fry",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "beef",
+        "amount": {
+          "qty": 1,
+          "unit": "lb"
+        }
+      },
+      {
+        "ingredient": "cumin",
+        "amount": {
+          "qty": 2,
+          "unit": "tsp"
+        }
+      },
+      {
+        "ingredient": "mexican_seasoning",
+        "amount": {
+          "qty": 1,
+          "unit": "dash"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "simple_nachos_step_1",
+      "amount": {
+        "qty": 464.1,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 185,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "In a skillet, brown ground beef with Mexican seasoning and Taco Mix.",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for cumin, mexican_seasoning"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of pan_fry's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

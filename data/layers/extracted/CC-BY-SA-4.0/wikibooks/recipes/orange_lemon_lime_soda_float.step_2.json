@@ -1,0 +1,48 @@
+{
+  "id": "orange_lemon_lime_soda_float.step_2",
+  "source": "wikibooks_orange_lemon_lime_soda_float",
+  "sourceRef": {
+    "source": "wikibooks_orange_lemon_lime_soda_float",
+    "step": 2
+  },
+  "technique": "blend",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "orange_lemon_lime_soda_float_step_1",
+        "amount": {
+          "qty": 365,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "orange_lemon_lime_soda_float_step_2",
+      "amount": {
+        "qty": 365,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Cover and process until smooth.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "hyderabadi_haleem_ground_meat_and_wheat.step_1",
+  "source": "wikibooks_hyderabadi_haleem_ground_meat_and_wheat",
+  "sourceRef": {
+    "source": "wikibooks_hyderabadi_haleem_ground_meat_and_wheat",
+    "step": 1
+  },
+  "technique": "rinse",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "wheat",
+        "amount": {
+          "qty": 200,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "hyderabadi_haleem_ground_meat_and_wheat_step_1",
+      "amount": {
+        "qty": 200,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 2,
+      "unit": "h"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "De-bran the wheat, wash, and soak for 2 hours.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.55"
+    }
+  ]
+}

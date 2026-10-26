@@ -1,0 +1,60 @@
+{
+  "id": "peach_and_tomato_gazpacho.step_3",
+  "source": "wikibooks_peach_and_tomato_gazpacho",
+  "sourceRef": {
+    "source": "wikibooks_peach_and_tomato_gazpacho",
+    "step": 3
+  },
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "peach_and_tomato_gazpacho_step_2",
+        "amount": {
+          "qty": 946.4,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "peach",
+        "amount": {
+          "qty": 2,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "peach_and_tomato_gazpacho_step_3",
+      "amount": {
+        "qty": 1419.6,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Cut the pitted peaches into sections, place ½ into the blender, and set the other ½ to the side in the small bowl.",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for peach"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

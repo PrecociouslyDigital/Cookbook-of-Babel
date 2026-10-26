@@ -1,0 +1,53 @@
+{
+  "id": "raspberry_scones.step_6",
+  "source": "wikibooks_raspberry_scones",
+  "sourceRef": {
+    "source": "wikibooks_raspberry_scones",
+    "step": 6
+  },
+  "technique": "knead",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "raspberry_scones_step_4",
+        "amount": {
+          "qty": 632.5,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "raspberry_scones_step_6",
+      "amount": {
+        "qty": 632.5,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Turn the dough onto a floured surface.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.54"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

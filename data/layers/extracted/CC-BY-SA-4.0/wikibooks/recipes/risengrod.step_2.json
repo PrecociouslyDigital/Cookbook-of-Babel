@@ -1,0 +1,55 @@
+{
+  "id": "risengrod.step_2",
+  "source": "wikibooks_risengrod",
+  "sourceRef": {
+    "source": "wikibooks_risengrod",
+    "step": 2
+  },
+  "technique": "simmer",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "risengrod_step_1",
+        "amount": {
+          "qty": 480,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "milk",
+        "amount": {
+          "qty": 1,
+          "unit": "l"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "risengrod_step_2",
+      "amount": {
+        "qty": 1510,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 90,
+    "medium": "simmering_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 10,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Add milk and return to a boil. Simmer over low heat, stirring actively for approximately 10 minutes.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of simmer's typical range"
+    }
+  ]
+}

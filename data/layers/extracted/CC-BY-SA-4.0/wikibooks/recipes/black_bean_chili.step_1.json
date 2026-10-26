@@ -1,0 +1,63 @@
+{
+  "id": "black_bean_chili.step_1",
+  "source": "wikibooks_black_bean_chili",
+  "sourceRef": {
+    "source": "wikibooks_black_bean_chili",
+    "step": 1
+  },
+  "technique": "simmer",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "common_bean",
+        "amount": {
+          "qty": 3.5,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "black_bean_chili_step_1",
+      "amount": {
+        "qty": 828.1,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 90,
+    "medium": "simmering_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 8,
+      "unit": "h"
+    }
+  },
+  "stateNote": "Place beans in a large pot, add with enough water to cover by 2 inches (2.5 cm), and allow to soak overnight. Drain beans and cover again with fresh water. Bring to boil, reduce heat, and simmer for 2 hours.",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for common_bean"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of simmer's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "'overnight' read as 8 hours"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "the step names several durations; used the first"
+    }
+  ]
+}

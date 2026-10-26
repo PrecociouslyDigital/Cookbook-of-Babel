@@ -1,0 +1,48 @@
+{
+  "id": "baked_tilapia_with_white_wine.step_1",
+  "source": "wikibooks_baked_tilapia_with_white_wine",
+  "sourceRef": {
+    "source": "wikibooks_baked_tilapia_with_white_wine",
+    "step": 1
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "tilapia",
+        "amount": {
+          "qty": 2,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "baked_tilapia_with_white_wine_step_1",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Arrange the tilapia side-by-side in a lightly oiled roasting tin or ovenproof dish.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "green_leaf_juice.step_7",
+  "source": "wikibooks_green_leaf_juice",
+  "sourceRef": {
+    "source": "wikibooks_green_leaf_juice",
+    "step": 7
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "green_leaf_juice_step_6",
+        "amount": {
+          "qty": 998,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "green_leaf_juice",
+      "amount": {
+        "qty": 998,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Stir the juice mixture well, and serve the green juice over ice.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

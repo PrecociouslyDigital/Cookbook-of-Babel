@@ -1,0 +1,58 @@
+{
+  "id": "coq_au_vin_i.step_6",
+  "source": "wikibooks_coq_au_vin_i",
+  "sourceRef": {
+    "source": "wikibooks_coq_au_vin_i",
+    "step": 6
+  },
+  "technique": "simmer",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "coq_au_vin_i_step_5",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "coq_au_vin_i",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 90,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1.25,
+      "unit": "h"
+    }
+  },
+  "stateNote": "Cover the casserole, cook until chicken is ready (1–1.5 hours), stirring occasionally.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.38"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of simmer's typical range"
+    },
+    {
+      "field": "inputs",
+      "kind": "missing",
+      "note": "no step uses '1 tsp fresh or dried thyme' (p=0.96)"
+    }
+  ]
+}

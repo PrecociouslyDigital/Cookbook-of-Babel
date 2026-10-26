@@ -1,0 +1,65 @@
+{
+  "id": "kunun_gyada_groundnut_and_rice_gruel.step_2",
+  "source": "wikibooks_kunun_gyada_groundnut_and_rice_gruel",
+  "sourceRef": {
+    "source": "wikibooks_kunun_gyada_groundnut_and_rice_gruel",
+    "step": 2
+  },
+  "technique": "grind",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "kunun_gyada_groundnut_and_rice_gruel_step_1",
+        "amount": {
+          "qty": 356.1,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "water",
+        "amount": {
+          "qty": 0.3333333333333333,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "kunun_gyada_groundnut_and_rice_gruel_step_2",
+      "amount": {
+        "qty": 435,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Drain the groundnuts. Grind them in a blender with some water and strain the resulting groundnut milk.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.57"
+    },
+    {
+      "field": "inputs",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.53"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

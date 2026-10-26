@@ -1,0 +1,48 @@
+{
+  "id": "campfire_banana_boat.step_1",
+  "source": "wikibooks_campfire_banana_boat",
+  "sourceRef": {
+    "source": "wikibooks_campfire_banana_boat",
+    "step": 1
+  },
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "banana",
+        "amount": {
+          "qty": 1,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "campfire_banana_boat_step_1",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Peel back a 1 ½ inch (4 cm) wide strip of peel from the inside curve of the banana, leaving one end attached to the banana.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "sesame_milk.step_3",
+  "source": "wikibooks_sesame_milk",
+  "sourceRef": {
+    "source": "wikibooks_sesame_milk",
+    "step": 3
+  },
+  "technique": "chill",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "sesame_milk_step_2",
+        "amount": {
+          "qty": 602.3,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "sesame_milk_step_3",
+      "amount": {
+        "qty": 602.3,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Chill for several hours.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

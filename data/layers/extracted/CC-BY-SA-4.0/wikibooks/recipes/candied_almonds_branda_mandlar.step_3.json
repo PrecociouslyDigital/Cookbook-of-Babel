@@ -1,0 +1,76 @@
+{
+  "id": "candied_almonds_branda_mandlar.step_3",
+  "source": "wikibooks_candied_almonds_branda_mandlar",
+  "sourceRef": {
+    "source": "wikibooks_candied_almonds_branda_mandlar",
+    "step": 3
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "candied_almonds_branda_mandlar_step_2",
+        "amount": {
+          "qty": 325,
+          "unit": "g"
+        }
+      },
+      {
+        "min": 0,
+        "max": 1,
+        "of": [
+          {
+            "ingredient": "food_coloring",
+            "amount": {
+              "qty": 1,
+              "unit": "drop"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "candied_almonds_branda_mandlar_step_3",
+      "amount": {
+        "qty": 325,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 180,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Add the colouring. Stir in the almonds so that they get a nice coating.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.57"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for food_coloring"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 180.0 °C for pan_contact"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

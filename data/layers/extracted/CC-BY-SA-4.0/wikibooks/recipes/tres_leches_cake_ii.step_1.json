@@ -1,0 +1,53 @@
+{
+  "id": "tres_leches_cake_ii.step_1",
+  "source": "wikibooks_tres_leches_cake_ii",
+  "sourceRef": {
+    "source": "wikibooks_tres_leches_cake_ii",
+    "step": 1
+  },
+  "technique": "bake",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "cake_mix",
+        "amount": {
+          "qty": 1,
+          "unit": "box"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "tres_leches_cake_ii_step_1",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 200,
+    "medium": "oven_air"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Prepare cake mix as directed on the package. Transfer to a greased baking dish or cake pan, and bake per the directions.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of bake's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

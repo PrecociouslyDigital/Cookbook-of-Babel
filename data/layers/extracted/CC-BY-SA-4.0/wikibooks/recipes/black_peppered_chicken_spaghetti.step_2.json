@@ -1,0 +1,67 @@
+{
+  "id": "black_peppered_chicken_spaghetti.step_2",
+  "source": "wikibooks_black_peppered_chicken_spaghetti",
+  "sourceRef": {
+    "source": "wikibooks_black_peppered_chicken_spaghetti",
+    "step": 2
+  },
+  "technique": "boil",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "black_peppered_chicken_spaghetti_step_1",
+        "amount": {
+          "qty": 1874,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "chicken",
+        "amount": {
+          "qty": 6,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "salt",
+        "amount": {
+          "qty": 2,
+          "unit": "tbsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "black_peppered_chicken_spaghetti_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 100,
+    "medium": "boiling_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Boil the chicken in salted water until the color changes. Drain the chicken.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of boil's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

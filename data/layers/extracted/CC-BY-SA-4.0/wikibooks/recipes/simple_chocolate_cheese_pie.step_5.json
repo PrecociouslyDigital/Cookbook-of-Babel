@@ -1,0 +1,48 @@
+{
+  "id": "simple_chocolate_cheese_pie.step_5",
+  "source": "wikibooks_simple_chocolate_cheese_pie",
+  "sourceRef": {
+    "source": "wikibooks_simple_chocolate_cheese_pie",
+    "step": 5
+  },
+  "technique": "chill",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "simple_chocolate_cheese_pie_step_4",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "simple_chocolate_cheese_pie",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Cover and place in a refrigerator/freezer. Remove when solid.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

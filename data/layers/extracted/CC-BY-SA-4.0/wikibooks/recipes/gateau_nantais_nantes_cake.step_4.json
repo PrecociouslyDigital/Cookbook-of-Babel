@@ -1,0 +1,62 @@
+{
+  "id": "gateau_nantais_nantes_cake.step_4",
+  "source": "wikibooks_gateau_nantais_nantes_cake",
+  "sourceRef": {
+    "source": "wikibooks_gateau_nantais_nantes_cake",
+    "step": 4
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "gateau_nantais_nantes_cake_step_3",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "wheat_flour",
+        "amount": {
+          "qty": 40,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "rum",
+        "amount": {
+          "qty": 2,
+          "unit": "tbsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "gateau_nantais_nantes_cake_step_4",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Add the flour and 2 tablespoons of rum.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

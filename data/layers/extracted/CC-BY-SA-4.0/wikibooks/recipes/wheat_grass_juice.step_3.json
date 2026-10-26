@@ -1,0 +1,48 @@
+{
+  "id": "wheat_grass_juice.step_3",
+  "source": "wikibooks_wheat_grass_juice",
+  "sourceRef": {
+    "source": "wikibooks_wheat_grass_juice",
+    "step": 3
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "wheat_grass_juice_step_2",
+        "amount": {
+          "qty": 354.9,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "wheat_grass_juice_step_3",
+      "amount": {
+        "qty": 354.9,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Spread the potting soil on the tray, and then gently spread the sprouts on top.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

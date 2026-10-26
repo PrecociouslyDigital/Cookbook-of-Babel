@@ -1,0 +1,53 @@
+{
+  "id": "kik_alicha_yellow_split_pea_stew.step_1",
+  "source": "wikibooks_kik_alicha_yellow_split_pea_stew",
+  "sourceRef": {
+    "source": "wikibooks_kik_alicha_yellow_split_pea_stew",
+    "step": 1
+  },
+  "technique": "rinse",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "split_pea",
+        "amount": {
+          "qty": 1,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "kik_alicha_yellow_split_pea_stew_step_1",
+      "amount": {
+        "qty": 236.6,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Rinse the yellow split peas under cold water in a strainer to remove any dirt or debris. Drain in a strainer.",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for split_pea"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

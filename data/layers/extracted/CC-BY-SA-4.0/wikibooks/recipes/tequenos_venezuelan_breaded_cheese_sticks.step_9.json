@@ -1,0 +1,48 @@
+{
+  "id": "tequenos_venezuelan_breaded_cheese_sticks.step_9",
+  "source": "wikibooks_tequenos_venezuelan_breaded_cheese_sticks",
+  "sourceRef": {
+    "source": "wikibooks_tequenos_venezuelan_breaded_cheese_sticks",
+    "step": 9
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "tequenos_venezuelan_breaded_cheese_sticks_step_8",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "tequenos_venezuelan_breaded_cheese_sticks_step_9",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Make sure you cover all the cheese and seal it inside the dough, because otherwise the cheese will leak out of the dough when frying.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

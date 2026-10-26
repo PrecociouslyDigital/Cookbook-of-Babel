@@ -1,0 +1,58 @@
+{
+  "id": "miso_soup_traditional.step_1",
+  "source": "wikibooks_miso_soup_traditional",
+  "sourceRef": {
+    "source": "wikibooks_miso_soup_traditional",
+    "step": 1
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "dashi_japanese_soup_stock",
+        "amount": {
+          "qty": 92,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "miso_soup_traditional_step_1",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Put dashi in a pot.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'90–94% by volume dashi (consider using instant dashi mix)': '%' read as pieces"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    },
+    {
+      "field": "source",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.56"
+    }
+  ]
+}

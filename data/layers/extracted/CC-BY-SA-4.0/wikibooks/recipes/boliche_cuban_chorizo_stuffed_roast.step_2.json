@@ -1,0 +1,55 @@
+{
+  "id": "boliche_cuban_chorizo_stuffed_roast.step_2",
+  "source": "wikibooks_boliche_cuban_chorizo_stuffed_roast",
+  "sourceRef": {
+    "source": "wikibooks_boliche_cuban_chorizo_stuffed_roast",
+    "step": 2
+  },
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "boliche_cuban_chorizo_stuffed_roast_step_1",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "goya_adobo_seasoning",
+        "amount": {
+          "qty": 2,
+          "unit": "tbsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "boliche_cuban_chorizo_stuffed_roast_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Lightly rub meat with adobo seasoning.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

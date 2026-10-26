@@ -1,0 +1,72 @@
+{
+  "id": "sweet_peach_cobbler.step_3",
+  "source": "wikibooks_sweet_peach_cobbler",
+  "sourceRef": {
+    "source": "wikibooks_sweet_peach_cobbler",
+    "step": 3
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "sweet_peach_cobbler_step_2",
+        "amount": {
+          "qty": 108.7,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "peach",
+        "amount": {
+          "qty": 4,
+          "unit": "cup"
+        }
+      },
+      {
+        "ingredient": "lemon",
+        "amount": {
+          "qty": 1,
+          "unit": "tsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "sweet_peach_cobbler_step_3",
+      "amount": {
+        "qty": 1060,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Stir in peaches and lemon juice to make a sugary-brown syrup.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.58"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for peach, lemon"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

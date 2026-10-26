@@ -1,0 +1,48 @@
+{
+  "id": "fool_s_gold_loaf.step_4",
+  "source": "wikibooks_fool_s_gold_loaf",
+  "sourceRef": {
+    "source": "wikibooks_fool_s_gold_loaf",
+    "step": 4
+  },
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "fool_s_gold_loaf_step_3",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "fool_s_gold_loaf_step_4",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Slice the loaf lengthwise and hollow out the interior, leaving as much bread along the walls as desired.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

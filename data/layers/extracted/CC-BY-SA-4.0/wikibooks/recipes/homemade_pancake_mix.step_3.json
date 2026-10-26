@@ -1,0 +1,53 @@
+{
+  "id": "homemade_pancake_mix.step_3",
+  "source": "wikibooks_homemade_pancake_mix",
+  "sourceRef": {
+    "source": "wikibooks_homemade_pancake_mix",
+    "step": 3
+  },
+  "technique": "age",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "homemade_pancake_mix_step_2",
+        "amount": {
+          "qty": 1348.3,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "homemade_pancake_mix_step_3",
+      "amount": {
+        "qty": 1348.3,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Store at room temperature, and use within 3 months.",
+  "issues": [
+    {
+      "field": "sourceRef",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.56"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

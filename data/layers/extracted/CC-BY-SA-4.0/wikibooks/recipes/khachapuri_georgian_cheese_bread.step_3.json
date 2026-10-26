@@ -1,0 +1,48 @@
+{
+  "id": "khachapuri_georgian_cheese_bread.step_3",
+  "source": "wikibooks_khachapuri_georgian_cheese_bread",
+  "sourceRef": {
+    "source": "wikibooks_khachapuri_georgian_cheese_bread",
+    "step": 3
+  },
+  "technique": "knead",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "khachapuri_georgian_cheese_bread_step_2",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "khachapuri_georgian_cheese_bread_step_3",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Knead with hands until smooth, approximately five minutes, on floured surface. Add flour as needed if dough sticks to your hands.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

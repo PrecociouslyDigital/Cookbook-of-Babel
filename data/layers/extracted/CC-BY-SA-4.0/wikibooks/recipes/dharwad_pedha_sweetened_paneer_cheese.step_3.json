@@ -1,0 +1,53 @@
+{
+  "id": "dharwad_pedha_sweetened_paneer_cheese.step_3",
+  "source": "wikibooks_dharwad_pedha_sweetened_paneer_cheese",
+  "sourceRef": {
+    "source": "wikibooks_dharwad_pedha_sweetened_paneer_cheese",
+    "step": 3
+  },
+  "technique": "strain",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "dharwad_pedha_sweetened_paneer_cheese_step_2",
+        "amount": {
+          "qty": 0.6,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "dharwad_pedha_sweetened_paneer_cheese_step_3",
+      "amount": {
+        "qty": 0.6,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Strain this mixture through cloth, and reserve the solid curds. This is paneer.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.54"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

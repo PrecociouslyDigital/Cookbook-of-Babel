@@ -1,0 +1,48 @@
+{
+  "id": "banana_cream_pie_i.step_16",
+  "source": "wikibooks_banana_cream_pie_i",
+  "sourceRef": {
+    "source": "wikibooks_banana_cream_pie_i",
+    "step": 16
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "banana_cream_pie_i_step_15",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "banana_cream_pie_i",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Spread whipped cream mixture over pie filling on chilled pie. Keep chilled until served.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

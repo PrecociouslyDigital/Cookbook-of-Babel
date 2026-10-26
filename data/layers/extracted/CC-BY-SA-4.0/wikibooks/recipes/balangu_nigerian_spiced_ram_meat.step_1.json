@@ -1,0 +1,53 @@
+{
+  "id": "balangu_nigerian_spiced_ram_meat.step_1",
+  "source": "wikibooks_balangu_nigerian_spiced_ram_meat",
+  "sourceRef": {
+    "source": "wikibooks_balangu_nigerian_spiced_ram_meat",
+    "step": 1
+  },
+  "technique": "boil",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "lamb_and_mutton",
+        "amount": {
+          "qty": 2,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "balangu_nigerian_spiced_ram_meat_step_1",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 100,
+    "medium": "boiling_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 2,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Boil the mutton for 2 minutes in a pot with a small amount of water. Drain.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'2 large chunks of mutton': 'chunks' read as pieces"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of boil's typical range"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "jigarthanda_milk.step_2",
+  "source": "wikibooks_jigarthanda_milk",
+  "sourceRef": {
+    "source": "wikibooks_jigarthanda_milk",
+    "step": 2
+  },
+  "technique": "chill",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "jigarthanda_milk_step_1",
+        "amount": {
+          "qty": 266.2,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "jigarthanda_milk_step_2",
+      "amount": {
+        "qty": 266.2,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Keep it in an airtight container in the fridge.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "id": "italian_marinated_chicken.step_2",
+  "source": "wikibooks_italian_marinated_chicken",
+  "sourceRef": {
+    "source": "wikibooks_italian_marinated_chicken",
+    "step": 2
+  },
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "italian_marinated_chicken_step_1",
+        "amount": {
+          "qty": 443.4,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "chicken_breast_halves",
+        "amount": {
+          "qty": 6,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "italian_marinated_chicken_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Add chicken to remaining marinade and turn to coat.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

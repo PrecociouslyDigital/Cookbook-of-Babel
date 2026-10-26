@@ -1,0 +1,53 @@
+{
+  "id": "sauce_feuilles_greens_stew.step_7",
+  "source": "wikibooks_sauce_feuilles_greens_stew",
+  "sourceRef": {
+    "source": "wikibooks_sauce_feuilles_greens_stew",
+    "step": 7
+  },
+  "technique": "simmer",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "sauce_feuilles_greens_stew_step_6",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "sauce_feuilles_greens_stew_step_7",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 90,
+    "medium": "steam"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 12.5,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Add the chopped spinach, kale (or collard greens), and bitterleaf to the pot. Stir well to combine with the meat or fish and aromatics. If the pot is too dry, you can add a little water to prevent sticking. Cover the pot and let the greens cook down for about 10–15 minutes or until they are wilted and tender.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.37"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of simmer's typical range"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": "croissant.step_9",
+  "source": "wikibooks_croissant",
+  "sourceRef": {
+    "source": "wikibooks_croissant",
+    "step": 9
+  },
+  "technique": "fold",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "croissant_step_8",
+        "amount": {
+          "qty": 1187.8,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "croissant_step_9",
+      "amount": {
+        "qty": 1187.8,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Roll each triangle from the base to the tip to form a croissant shape.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.52"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

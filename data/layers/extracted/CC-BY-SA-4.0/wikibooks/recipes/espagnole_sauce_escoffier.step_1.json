@@ -1,0 +1,60 @@
+{
+  "id": "espagnole_sauce_escoffier.step_1",
+  "source": "wikibooks_espagnole_sauce_escoffier",
+  "sourceRef": {
+    "source": "wikibooks_espagnole_sauce_escoffier",
+    "step": 1
+  },
+  "technique": "dissolve",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "brown_roux",
+        "amount": {
+          "qty": 1,
+          "unit": "lb"
+        }
+      },
+      {
+        "ingredient": "brown_stock",
+        "amount": {
+          "qty": 6,
+          "unit": "qt"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "espagnole_sauce_escoffier_step_1",
+      "amount": {
+        "qty": 6131.7,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Dissolve the cold roux in a bowl by stirring in some of the cold brown stock.",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for brown_stock"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "chicken_tikka.step_3",
+  "source": "wikibooks_chicken_tikka",
+  "sourceRef": {
+    "source": "wikibooks_chicken_tikka",
+    "step": 3
+  },
+  "technique": "chill",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "chicken_tikka_step_2",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "chicken_tikka_step_3",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 24,
+      "unit": "h"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Ideally, the chicken should now be left in a refrigerator to marinate for at least 24 hours. It may not be safe to leave chicken which has previously been frozen for longer than 24 hours, but fresh chicken should be left to marinate for 48 hours for best results. If you do not wish to leave the chicken to marinate, simply continue to the next step.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "the step names several durations; used the first"
+    }
+  ]
+}

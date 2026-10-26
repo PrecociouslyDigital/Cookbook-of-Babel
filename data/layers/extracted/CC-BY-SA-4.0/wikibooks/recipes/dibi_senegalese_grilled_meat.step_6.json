@@ -1,0 +1,53 @@
+{
+  "id": "dibi_senegalese_grilled_meat.step_6",
+  "source": "wikibooks_dibi_senegalese_grilled_meat",
+  "sourceRef": {
+    "source": "wikibooks_dibi_senegalese_grilled_meat",
+    "step": 6
+  },
+  "technique": "chill",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "dibi_senegalese_grilled_meat_step_5",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "dibi_senegalese_grilled_meat_step_6",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 2,
+      "unit": "h"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Let the meat marinate in the fridge for at least 2 hours (or overnight for better flavor).",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.57"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "the step names several durations; used the first"
+    }
+  ]
+}

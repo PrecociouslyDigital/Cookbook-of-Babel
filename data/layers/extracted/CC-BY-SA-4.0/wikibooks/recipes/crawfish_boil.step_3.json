@@ -1,0 +1,53 @@
+{
+  "id": "crawfish_boil.step_3",
+  "source": "wikibooks_crawfish_boil",
+  "sourceRef": {
+    "source": "wikibooks_crawfish_boil",
+    "step": 3
+  },
+  "technique": "simmer",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "crawfish_boil_step_2",
+        "amount": {
+          "qty": 2586.9,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "crawfish_boil_step_3",
+      "amount": {
+        "qty": 2586.9,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 90,
+    "medium": "boiling_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 8,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Turn off the heat and leave on the burner for 8 minutes. This allows the crawfish to soak in and absorb the flavorful broth without overcooking.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.5"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of simmer's typical range"
+    }
+  ]
+}

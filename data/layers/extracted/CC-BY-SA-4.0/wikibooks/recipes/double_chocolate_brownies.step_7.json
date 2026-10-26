@@ -1,0 +1,53 @@
+{
+  "id": "double_chocolate_brownies.step_7",
+  "source": "wikibooks_double_chocolate_brownies",
+  "sourceRef": {
+    "source": "wikibooks_double_chocolate_brownies",
+    "step": 7
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "double_chocolate_brownies_step_6",
+        "amount": {
+          "qty": 830.8,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "double_chocolate_brownies_step_7",
+      "amount": {
+        "qty": 830.8,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Add eggs one at a time, beating well after each addition.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.54"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

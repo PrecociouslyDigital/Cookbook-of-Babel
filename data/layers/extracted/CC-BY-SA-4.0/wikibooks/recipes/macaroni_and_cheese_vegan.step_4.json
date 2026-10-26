@@ -1,0 +1,70 @@
+{
+  "id": "macaroni_and_cheese_vegan.step_4",
+  "source": "wikibooks_macaroni_and_cheese_vegan",
+  "sourceRef": {
+    "source": "wikibooks_macaroni_and_cheese_vegan",
+    "step": 4
+  },
+  "technique": "simmer",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "macaroni_and_cheese_vegan_step_3",
+        "amount": {
+          "qty": 1508.9,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "nutritional_yeast",
+        "amount": {
+          "qty": 1,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "macaroni_and_cheese_vegan_step_4",
+      "amount": {
+        "qty": 1745.5,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 90,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "The sauce should cook until it thickens and bubbles. When that happens, beat in nutritional yeast flakes; if the sauce is too thick, add more water.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.59"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for nutritional_yeast"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of simmer's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

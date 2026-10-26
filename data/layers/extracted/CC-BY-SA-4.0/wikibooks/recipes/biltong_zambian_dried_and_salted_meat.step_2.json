@@ -1,0 +1,67 @@
+{
+  "id": "biltong_zambian_dried_and_salted_meat.step_2",
+  "source": "wikibooks_biltong_zambian_dried_and_salted_meat",
+  "sourceRef": {
+    "source": "wikibooks_biltong_zambian_dried_and_salted_meat",
+    "step": 2
+  },
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "biltong_zambian_dried_and_salted_meat_step_1",
+        "amount": {
+          "qty": 149.9,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "beef",
+        "amount": {
+          "qty": 1,
+          "unit": "lb"
+        }
+      },
+      {
+        "ingredient": "vinegar",
+        "amount": {
+          "qty": 0.25,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "biltong_zambian_dried_and_salted_meat_step_2",
+      "amount": {
+        "qty": 662.6,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Dip each slice of meat in the vinegar, then coat them with the spice blend. Make sure each slice is evenly covered with the spices.",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for vinegar"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

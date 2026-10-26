@@ -1,0 +1,72 @@
+{
+  "id": "kanafeh_egyptian_sweet_cheese_pastry.step_11",
+  "source": "wikibooks_kanafeh_egyptian_sweet_cheese_pastry",
+  "sourceRef": {
+    "source": "wikibooks_kanafeh_egyptian_sweet_cheese_pastry",
+    "step": 11
+  },
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "kanafeh_egyptian_sweet_cheese_pastry_step_10",
+        "amount": {
+          "qty": 1513.6,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "rosewater",
+        "amount": {
+          "qty": 1,
+          "unit": "tsp"
+        }
+      },
+      {
+        "ingredient": "orange_flower_water",
+        "amount": {
+          "qty": 0.5,
+          "unit": "tsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "kanafeh_egyptian_sweet_cheese_pastry_step_11",
+      "amount": {
+        "qty": 1521,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "When the pastry is ready, add the rose water and orange blossom water to the syrup.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.57"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for rosewater, orange_flower_water"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "id": "grape_lassi.step_2",
+  "source": "wikibooks_grape_lassi",
+  "sourceRef": {
+    "source": "wikibooks_grape_lassi",
+    "step": 2
+  },
+  "technique": "grind",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "grape_lassi_step_1",
+        "amount": {
+          "qty": 1021.5,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "ice_cubes",
+        "amount": {
+          "qty": 6,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "grape_lassi_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Crush ice-cubes, divide it into 4 portions, and divide between 4 glasses.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.45"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

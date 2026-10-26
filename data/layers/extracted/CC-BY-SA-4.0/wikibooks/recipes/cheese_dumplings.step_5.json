@@ -1,0 +1,48 @@
+{
+  "id": "cheese_dumplings.step_5",
+  "source": "wikibooks_cheese_dumplings",
+  "sourceRef": {
+    "source": "wikibooks_cheese_dumplings",
+    "step": 5
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "cheese_dumplings_step_4",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "cheese_dumplings_step_5",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Form dumplings that are approximately the size of a golf ball, then press them flat (about 2–3 cm / 0.8–1.2 inch thick). Forming them is easiest when your hands are slightly wet.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "id": "potatoes_fried_whole.step_3",
+  "source": "wikibooks_potatoes_fried_whole",
+  "sourceRef": {
+    "source": "wikibooks_potatoes_fried_whole",
+    "step": 3
+  },
+  "technique": "pan_fry",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "potatoes_fried_whole_step_2",
+        "amount": {
+          "qty": 1.1,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "dripping",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "potatoes_fried_whole",
+      "amount": {
+        "qty": 1.4,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 185,
+    "medium": "frying_oil"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Heat the drippings in a pan. Add the potatoes, and fry until brown and crisp, shaking regularly to prevent burning.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Beef drippings': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for dripping"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of pan_fry's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

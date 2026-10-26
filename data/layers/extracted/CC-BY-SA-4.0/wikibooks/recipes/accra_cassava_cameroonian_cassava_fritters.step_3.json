@@ -1,0 +1,55 @@
+{
+  "id": "accra_cassava_cameroonian_cassava_fritters.step_3",
+  "source": "wikibooks_accra_cassava_cameroonian_cassava_fritters",
+  "sourceRef": {
+    "source": "wikibooks_accra_cassava_cameroonian_cassava_fritters",
+    "step": 3
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "accra_cassava_cameroonian_cassava_fritters_step_2",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "salt",
+        "amount": {
+          "qty": 1,
+          "unit": "tsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "accra_cassava_cameroonian_cassava_fritters_step_3",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Add the cassava and salt to the mashed banana in a medium sized bowl, and mix them together very well. The mixture should be firm enough that it can be rolled into balls.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "id": "microwave_oat_porridge.step_1",
+  "source": "wikibooks_microwave_oat_porridge",
+  "sourceRef": {
+    "source": "wikibooks_microwave_oat_porridge",
+    "step": 1
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "water",
+        "amount": {
+          "qty": 250,
+          "unit": "ml"
+        }
+      },
+      {
+        "ingredient": "oats",
+        "amount": {
+          "qty": 100,
+          "unit": "ml"
+        }
+      },
+      {
+        "ingredient": "salt",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "microwave_oat_porridge_step_1",
+      "amount": {
+        "qty": 350.4,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Mix water, oat flakes, and salt in a bowl.",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for oats"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

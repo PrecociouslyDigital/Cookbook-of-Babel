@@ -1,0 +1,48 @@
+{
+  "id": "soy_milk_i.step_1",
+  "source": "wikibooks_soy_milk_i",
+  "sourceRef": {
+    "source": "wikibooks_soy_milk_i",
+    "step": 1
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "soy_bean",
+        "amount": {
+          "qty": 125,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "water",
+        "amount": {
+          "qty": 3.5,
+          "unit": "l"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "soy_milk_i_step_1",
+      "amount": {
+        "qty": 3625,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 10,
+      "unit": "h"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Put the soybeans and 1 L of water into the pot, and let them soak for 8–12 hours."
+}

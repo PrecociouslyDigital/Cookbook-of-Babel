@@ -1,0 +1,60 @@
+{
+  "id": "fabes_con_almejas_spanish_beans_with_clams.step_2",
+  "source": "wikibooks_fabes_con_almejas_spanish_beans_with_clams",
+  "sourceRef": {
+    "source": "wikibooks_fabes_con_almejas_spanish_beans_with_clams",
+    "step": 2
+  },
+  "technique": "rinse",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "fabes_con_almejas_spanish_beans_with_clams_step_1",
+        "amount": {
+          "qty": 453.6,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "clam",
+        "amount": {
+          "qty": 24,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "fabes_con_almejas_spanish_beans_with_clams_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Scrub the clams clean and rinse.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'24 live littleneck or mahogany clams': 'live' read as pieces"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "id": "rhubarb_pudding.step_4",
+  "source": "wikibooks_rhubarb_pudding",
+  "sourceRef": {
+    "source": "wikibooks_rhubarb_pudding",
+    "step": 4
+  },
+  "technique": "whisk",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "rhubarb_pudding_step_3",
+        "amount": {
+          "qty": 523.8,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "egg_white",
+        "amount": {
+          "qty": 2,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "white_sugar",
+        "amount": {
+          "qty": 0.5,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "rhubarb_pudding_step_4",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Make a meringue of the egg whites by whipping until very stiff, gradually beating in the ½ cup sugar.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

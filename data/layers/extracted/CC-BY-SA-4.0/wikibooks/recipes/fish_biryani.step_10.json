@@ -1,0 +1,68 @@
+{
+  "id": "fish_biryani.step_10",
+  "source": "wikibooks_fish_biryani",
+  "sourceRef": {
+    "source": "wikibooks_fish_biryani",
+    "step": 10
+  },
+  "technique": "simmer",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "fish_biryani_step_9",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "fish_biryani",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 90,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 35,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Sprinkle 1/4 cup water over rice, close lid tightly and put on heat. when pot starts sizzling lower heat and simmer for 30-40 minutes.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.48"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of simmer's typical range"
+    },
+    {
+      "field": "inputs",
+      "kind": "missing",
+      "note": "no step uses '8 small potatoes' (p=0.85)"
+    },
+    {
+      "field": "inputs",
+      "kind": "missing",
+      "note": "no step uses '4 whole green chillies' (p=0.89)"
+    },
+    {
+      "field": "inputs",
+      "kind": "missing",
+      "note": "no step uses '4 elachi (green cardamom) pods' (p=0.6)"
+    }
+  ]
+}

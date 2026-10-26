@@ -1,0 +1,55 @@
+{
+  "id": "green_leaf_juice.step_6",
+  "source": "wikibooks_green_leaf_juice",
+  "sourceRef": {
+    "source": "wikibooks_green_leaf_juice",
+    "step": 6
+  },
+  "technique": "strain",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "green_leaf_juice_step_5",
+        "amount": {
+          "qty": 972,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "ginger",
+        "amount": {
+          "qty": 26,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "green_leaf_juice_step_6",
+      "amount": {
+        "qty": 998,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Run the ginger root through the juice extractor.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

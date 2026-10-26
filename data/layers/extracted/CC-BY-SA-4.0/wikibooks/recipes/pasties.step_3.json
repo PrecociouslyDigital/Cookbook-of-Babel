@@ -1,0 +1,70 @@
+{
+  "id": "pasties.step_3",
+  "source": "wikibooks_pasties",
+  "sourceRef": {
+    "source": "wikibooks_pasties",
+    "step": 3
+  },
+  "technique": "separate",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "pasties_step_2",
+        "amount": {
+          "qty": 922.3,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "pastry_for_cornish_pasties",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "pasties_step_3",
+      "amount": {
+        "qty": 922.6,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Divide the pastry into 4 equal portions. Roll each into circles.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.53"
+    },
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Pastry for Cornish Pasties': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for pastry_for_cornish_pasties"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

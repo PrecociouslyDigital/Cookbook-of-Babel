@@ -1,0 +1,58 @@
+{
+  "id": "lemon_pickle_i.step_7",
+  "source": "wikibooks_lemon_pickle_i",
+  "sourceRef": {
+    "source": "wikibooks_lemon_pickle_i",
+    "step": 7
+  },
+  "technique": "ferment",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "lemon_pickle_i_step_6",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "lemon_pickle_i",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Sit the jar where it will get the heat of the sun. Bring the jar inside in the evening, and put it back out in the morning. Do this for at least a month in summer, two months in winter. The warmth of the sun will help the pickle to ferment.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.49"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    },
+    {
+      "field": "inputs",
+      "kind": "missing",
+      "note": "no step uses '1 large or 2 small lemons, juiced' (p=0.91)"
+    }
+  ]
+}

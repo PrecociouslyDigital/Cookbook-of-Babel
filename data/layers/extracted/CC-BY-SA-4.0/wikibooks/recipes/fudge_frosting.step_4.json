@@ -1,0 +1,53 @@
+{
+  "id": "fudge_frosting.step_4",
+  "source": "wikibooks_fudge_frosting",
+  "sourceRef": {
+    "source": "wikibooks_fudge_frosting",
+    "step": 4
+  },
+  "technique": "cool",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "fudge_frosting_step_3",
+        "amount": {
+          "qty": 749.5,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "fudge_frosting",
+      "amount": {
+        "qty": 749.5,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "While still hot, spread the mixture on cake or brownies. Mixture will stiffen.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.59"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

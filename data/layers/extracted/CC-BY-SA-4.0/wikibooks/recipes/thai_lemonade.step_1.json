@@ -1,0 +1,74 @@
+{
+  "id": "thai_lemonade.step_1",
+  "source": "wikibooks_thai_lemonade",
+  "sourceRef": {
+    "source": "wikibooks_thai_lemonade",
+    "step": 1
+  },
+  "technique": "boil",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "water",
+        "amount": {
+          "qty": 125,
+          "unit": "ml"
+        }
+      },
+      {
+        "ingredient": "white_sugar",
+        "amount": {
+          "qty": 100,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "lemongrass",
+        "amount": {
+          "qty": 2,
+          "unit": "stalk"
+        }
+      },
+      {
+        "ingredient": "ginger",
+        "amount": {
+          "qty": 2,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "thai_lemonade_step_1",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 100,
+    "medium": "boiling_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 20,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Bring the water to a boil with the sugar, lemon grass, and ginger. Boil for 20 minutes.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'2 cm piece of ginger, peeled and cut into pieces': 'cm' read as pieces"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of boil's typical range"
+    }
+  ]
+}

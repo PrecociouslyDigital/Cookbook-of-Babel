@@ -1,0 +1,60 @@
+{
+  "id": "violet_lemonade.step_2",
+  "source": "wikibooks_violet_lemonade",
+  "sourceRef": {
+    "source": "wikibooks_violet_lemonade",
+    "step": 2
+  },
+  "technique": "dissolve",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "violet_lemonade_step_1",
+        "amount": {
+          "qty": 709.8,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "white_sugar",
+        "amount": {
+          "qty": 1,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "violet_lemonade_step_2",
+      "amount": {
+        "qty": 910.9,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Stir the sugar into the violet tea until dissolved to create a simple syrup.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.47"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "id": "tahini_cookies.step_3",
+  "source": "wikibooks_tahini_cookies",
+  "sourceRef": {
+    "source": "wikibooks_tahini_cookies",
+    "step": 3
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "tahini_cookies_step_2",
+        "amount": {
+          "qty": 209.5,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "oats",
+        "amount": {
+          "qty": 1.5,
+          "unit": "cup"
+        }
+      },
+      {
+        "ingredient": "walnut",
+        "amount": {
+          "qty": 0.5,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "tahini_cookies_step_3",
+      "amount": {
+        "qty": 682.7,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Mix in walnuts and oats until well blended.",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for oats, walnut"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

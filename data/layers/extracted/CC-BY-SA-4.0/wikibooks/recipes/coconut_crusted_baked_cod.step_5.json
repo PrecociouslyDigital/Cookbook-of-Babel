@@ -1,0 +1,72 @@
+{
+  "id": "coconut_crusted_baked_cod.step_5",
+  "source": "wikibooks_coconut_crusted_baked_cod",
+  "sourceRef": {
+    "source": "wikibooks_coconut_crusted_baked_cod",
+    "step": 5
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "coconut_crusted_baked_cod_step_4",
+        "amount": {
+          "qty": 617.4,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "mint",
+        "amount": {
+          "qty": 1,
+          "unit": "tbsp"
+        }
+      },
+      {
+        "ingredient": "coconut",
+        "amount": {
+          "qty": 1,
+          "unit": "tbsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "coconut_crusted_baked_cod",
+      "amount": {
+        "qty": 647,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Garnish with coconut flakes and fresh mint.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.55"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for mint, coconut"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

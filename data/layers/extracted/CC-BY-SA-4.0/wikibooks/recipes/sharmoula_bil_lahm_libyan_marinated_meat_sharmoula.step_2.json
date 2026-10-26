@@ -1,0 +1,60 @@
+{
+  "id": "sharmoula_bil_lahm_libyan_marinated_meat_sharmoula.step_2",
+  "source": "wikibooks_sharmoula_bil_lahm_libyan_marinated_meat_sharmoula",
+  "sourceRef": {
+    "source": "wikibooks_sharmoula_bil_lahm_libyan_marinated_meat_sharmoula",
+    "step": 2
+  },
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "sharmoula_bil_lahm_libyan_marinated_meat_sharmoula_step_1",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "beef",
+        "amount": {
+          "qty": 1,
+          "unit": "kg"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "sharmoula_bil_lahm_libyan_marinated_meat_sharmoula_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Add the beef or lamb cubes to the marinade and toss them until they are evenly coated. Ensure that each piece of meat is well covered with the marinade.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.51"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

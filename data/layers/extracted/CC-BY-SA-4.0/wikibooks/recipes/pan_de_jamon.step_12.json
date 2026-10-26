@@ -1,0 +1,53 @@
+{
+  "id": "pan_de_jamon.step_12",
+  "source": "wikibooks_pan_de_jamon",
+  "sourceRef": {
+    "source": "wikibooks_pan_de_jamon",
+    "step": 12
+  },
+  "technique": "whisk",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "pan_de_jamon_step_11",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "pan_de_jamon_step_12",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Beat the remaining egg with the remaining 1 teaspoon of brown sugar. Evenly brush the outside of the loaf with the mixture, taking care to wipe away any puddles that form.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.46"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": "chupaqueso.step_1",
+  "source": "wikibooks_chupaqueso",
+  "sourceRef": {
+    "source": "wikibooks_chupaqueso",
+    "step": 1
+  },
+  "technique": "pan_fry",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "cheddar_cheese",
+        "amount": {
+          "qty": 3,
+          "unit": "oz"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "chupaqueso_step_1",
+      "amount": {
+        "qty": 85.1,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 185,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "In a medium-large non-stick or cast-iron skillet, sprinkle the \"shell\" cheese evenly. It will melt and bubble, and eventually form a layer of cheese.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of pan_fry's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

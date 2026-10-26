@@ -1,0 +1,77 @@
+{
+  "id": "khara_pongal_rice_and_mung_bean_porridge.step_2",
+  "source": "wikibooks_khara_pongal_rice_and_mung_bean_porridge",
+  "sourceRef": {
+    "source": "wikibooks_khara_pongal_rice_and_mung_bean_porridge",
+    "step": 2
+  },
+  "technique": "fry",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "khara_pongal_rice_and_mung_bean_porridge_step_1",
+        "amount": {
+          "qty": 953.8,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "cashew",
+        "amount": {
+          "qty": 0.25,
+          "unit": "cup"
+        }
+      },
+      {
+        "ingredient": "clarified_butter",
+        "amount": {
+          "qty": 1,
+          "unit": "tbsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "khara_pongal_rice_and_mung_bean_porridge_step_2",
+      "amount": {
+        "qty": 1027.7,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 190,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Heat a little ghee in a large pan and brown the cashew nuts. Remove them from the pan.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.39"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for cashew, clarified_butter"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of fry's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

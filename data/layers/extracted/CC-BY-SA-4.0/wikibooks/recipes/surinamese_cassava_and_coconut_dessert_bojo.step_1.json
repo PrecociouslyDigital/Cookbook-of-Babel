@@ -1,0 +1,55 @@
+{
+  "id": "surinamese_cassava_and_coconut_dessert_bojo.step_1",
+  "source": "wikibooks_surinamese_cassava_and_coconut_dessert_bojo",
+  "sourceRef": {
+    "source": "wikibooks_surinamese_cassava_and_coconut_dessert_bojo",
+    "step": 1
+  },
+  "technique": "grind",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "cassava",
+        "amount": {
+          "qty": 1,
+          "unit": "kg"
+        }
+      },
+      {
+        "ingredient": "coconut",
+        "amount": {
+          "qty": 1,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "surinamese_cassava_and_coconut_dessert_bojo_step_1",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Peel and grate the cassava. Grate the white coconut meat.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

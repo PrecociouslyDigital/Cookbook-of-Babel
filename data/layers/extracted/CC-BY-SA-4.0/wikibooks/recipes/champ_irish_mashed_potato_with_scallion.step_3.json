@@ -1,0 +1,72 @@
+{
+  "id": "champ_irish_mashed_potato_with_scallion.step_3",
+  "source": "wikibooks_champ_irish_mashed_potato_with_scallion",
+  "sourceRef": {
+    "source": "wikibooks_champ_irish_mashed_potato_with_scallion",
+    "step": 3
+  },
+  "technique": "simmer",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "champ_irish_mashed_potato_with_scallion_step_2",
+        "amount": {
+          "qty": 453.6,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "green_onion",
+        "amount": {
+          "qty": 2,
+          "unit": "oz"
+        }
+      },
+      {
+        "ingredient": "milk",
+        "amount": {
+          "qty": 0.25,
+          "unit": "pt"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "champ_irish_mashed_potato_with_scallion_step_3",
+      "amount": {
+        "qty": 632.1,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 90,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Pour the milk into a saucepan, add the chopped scallions and cook vigorously.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.42"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of simmer's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

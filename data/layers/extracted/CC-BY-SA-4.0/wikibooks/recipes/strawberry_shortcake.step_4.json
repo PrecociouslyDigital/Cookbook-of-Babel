@@ -1,0 +1,55 @@
+{
+  "id": "strawberry_shortcake.step_4",
+  "source": "wikibooks_strawberry_shortcake",
+  "sourceRef": {
+    "source": "wikibooks_strawberry_shortcake",
+    "step": 4
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "strawberry_shortcake_step_3",
+        "amount": {
+          "qty": 363.2,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "milk",
+        "amount": {
+          "qty": 0.75,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "strawberry_shortcake_step_4",
+      "amount": {
+        "qty": 546,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Add milk gradually to the mixture, mixing to make a soft dough.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

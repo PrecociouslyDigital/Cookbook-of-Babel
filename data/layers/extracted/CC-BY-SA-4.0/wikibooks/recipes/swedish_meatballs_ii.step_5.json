@@ -1,0 +1,53 @@
+{
+  "id": "swedish_meatballs_ii.step_5",
+  "source": "wikibooks_swedish_meatballs_ii",
+  "sourceRef": {
+    "source": "wikibooks_swedish_meatballs_ii",
+    "step": 5
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "swedish_meatballs_ii_step_4",
+        "amount": {
+          "qty": 1605.2,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "swedish_meatballs_ii_step_5",
+      "amount": {
+        "qty": 1605.2,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Shape the mixture into meatballs, about 1 inch in diameter.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.45"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

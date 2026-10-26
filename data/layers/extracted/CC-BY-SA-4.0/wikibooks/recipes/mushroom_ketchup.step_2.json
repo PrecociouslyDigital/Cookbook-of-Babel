@@ -1,0 +1,48 @@
+{
+  "id": "mushroom_ketchup.step_2",
+  "source": "wikibooks_mushroom_ketchup",
+  "sourceRef": {
+    "source": "wikibooks_mushroom_ketchup",
+    "step": 2
+  },
+  "technique": "age",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "mushroom_ketchup_step_1",
+        "amount": {
+          "qty": 960.4,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "mushroom_ketchup_step_2",
+      "amount": {
+        "qty": 960.4,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 8,
+      "unit": "h"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Transfer mushrooms to a non-metal container, such as a ceramic crock. Cover and let sit overnight.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "'overnight' read as 8 hours"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "salmorejo_spanish_tomato_garlic_puree.step_4",
+  "source": "wikibooks_salmorejo_spanish_tomato_garlic_puree",
+  "sourceRef": {
+    "source": "wikibooks_salmorejo_spanish_tomato_garlic_puree",
+    "step": 4
+  },
+  "technique": "blend",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "salmorejo_spanish_tomato_garlic_puree_step_3",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "salmorejo_spanish_tomato_garlic_puree_step_4",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Add half of the bread and blend until smooth.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "id": "meringue_cookies_i.step_3",
+  "source": "wikibooks_meringue_cookies_i",
+  "sourceRef": {
+    "source": "wikibooks_meringue_cookies_i",
+    "step": 3
+  },
+  "technique": "dissolve",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "meringue_cookies_i_step_2",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "white_sugar",
+        "amount": {
+          "qty": 1,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "meringue_cookies_i_step_3",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Gradually add sugar and continue beating until mixture holds shape and is very shiny. Test to make sure the sugar is wholly solved and no grains remain (this can take longer or shorter depending on the sugar used).",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

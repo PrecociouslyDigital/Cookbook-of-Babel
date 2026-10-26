@@ -1,0 +1,55 @@
+{
+  "id": "green_leaf_juice.step_2",
+  "source": "wikibooks_green_leaf_juice",
+  "sourceRef": {
+    "source": "wikibooks_green_leaf_juice",
+    "step": 2
+  },
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "green_leaf_juice_step_1",
+        "amount": {
+          "qty": 120,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "pineapple",
+        "amount": {
+          "qty": 490,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "green_leaf_juice_step_2",
+      "amount": {
+        "qty": 610,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Cut the pineapple, removing the outer spiny flesh, the top, the bottom and the pithy core.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

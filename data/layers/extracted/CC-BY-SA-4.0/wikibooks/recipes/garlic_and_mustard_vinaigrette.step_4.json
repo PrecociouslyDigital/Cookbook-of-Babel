@@ -1,0 +1,48 @@
+{
+  "id": "garlic_and_mustard_vinaigrette.step_4",
+  "source": "wikibooks_garlic_and_mustard_vinaigrette",
+  "sourceRef": {
+    "source": "wikibooks_garlic_and_mustard_vinaigrette",
+    "step": 4
+  },
+  "technique": "age",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "garlic_and_mustard_vinaigrette_step_3",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "garlic_and_mustard_vinaigrette",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Let stand; the longer the herbs and mustard soak in the oil, the better-blended the flavor will be. You may need to quickly remix the vinaigrette just before dressing the salad if the oil and vinegar have separated while standing.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

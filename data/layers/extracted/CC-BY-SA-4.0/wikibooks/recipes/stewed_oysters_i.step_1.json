@@ -1,0 +1,48 @@
+{
+  "id": "stewed_oysters_i.step_1",
+  "source": "wikibooks_stewed_oysters_i",
+  "sourceRef": {
+    "source": "wikibooks_stewed_oysters_i",
+    "step": 1
+  },
+  "technique": "separate",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "oyster",
+        "amount": {
+          "qty": 2,
+          "unit": "dozen"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "stewed_oysters_i_step_1",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Shuck the oysters, saving any liquid in the oyster.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

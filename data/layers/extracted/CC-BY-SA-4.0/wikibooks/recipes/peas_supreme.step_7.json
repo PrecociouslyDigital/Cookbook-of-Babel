@@ -1,0 +1,78 @@
+{
+  "id": "peas_supreme.step_7",
+  "source": "wikibooks_peas_supreme",
+  "sourceRef": {
+    "source": "wikibooks_peas_supreme",
+    "step": 7
+  },
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "peas_supreme_step_5",
+        "amount": {
+          "qty": 831.2,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "cooking_spray",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      },
+      {
+        "min": 0,
+        "max": 1,
+        "of": [
+          {
+            "ingredient": "bread_crumbs",
+            "amount": {
+              "qty": 0.25,
+              "unit": "cup"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "peas_supreme_step_7",
+      "amount": {
+        "qty": 890.7,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 176.66666666666666,
+    "medium": "oven_air"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Sprinkle breadcrumbs on top if desired.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Cooking spray': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for cooking_spray, bread_crumbs"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

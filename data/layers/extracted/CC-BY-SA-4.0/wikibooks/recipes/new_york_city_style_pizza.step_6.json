@@ -1,0 +1,53 @@
+{
+  "id": "new_york_city_style_pizza.step_6",
+  "source": "wikibooks_new_york_city_style_pizza",
+  "sourceRef": {
+    "source": "wikibooks_new_york_city_style_pizza",
+    "step": 6
+  },
+  "technique": "knead",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "new_york_city_style_pizza_step_4",
+        "amount": {
+          "qty": 449,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "new_york_city_style_pizza_step_6",
+      "amount": {
+        "qty": 449,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "When the dough has risen, flatten it out on a lightly floured surface.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.37"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

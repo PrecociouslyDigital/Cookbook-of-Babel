@@ -1,0 +1,53 @@
+{
+  "id": "chicken_alfredo.step_6",
+  "source": "wikibooks_chicken_alfredo",
+  "sourceRef": {
+    "source": "wikibooks_chicken_alfredo",
+    "step": 6
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "chicken_alfredo_step_5",
+        "amount": {
+          "qty": 1057.1,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "chicken_alfredo_step_6",
+      "amount": {
+        "qty": 1057.1,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Keep stirring until a smooth consistency is achieved. Pour sauce over chicken in casserole dish.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.33"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

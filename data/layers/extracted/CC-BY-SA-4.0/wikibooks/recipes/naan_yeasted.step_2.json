@@ -1,0 +1,60 @@
+{
+  "id": "naan_yeasted.step_2",
+  "source": "wikibooks_naan_yeasted",
+  "sourceRef": {
+    "source": "wikibooks_naan_yeasted",
+    "step": 2
+  },
+  "technique": "ferment",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "yeast",
+        "amount": {
+          "qty": 1,
+          "unit": "tsp"
+        }
+      },
+      {
+        "ingredient": "white_sugar",
+        "amount": {
+          "qty": 1,
+          "unit": "tsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "naan_yeasted_step_2",
+      "amount": {
+        "qty": 9.1,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 5,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "In a small bowl, mix the yeast with 1 tablespoon of warm water. Stir in the sugar and leave it in a warm place for 5 minutes until the yeast is covered with froth. This will show that the yeast is ready to use.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.52"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for yeast"
+    }
+  ]
+}

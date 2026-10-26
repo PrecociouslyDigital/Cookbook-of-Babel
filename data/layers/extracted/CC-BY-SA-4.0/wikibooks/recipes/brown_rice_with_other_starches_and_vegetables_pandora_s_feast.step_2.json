@@ -1,0 +1,65 @@
+{
+  "id": "brown_rice_with_other_starches_and_vegetables_pandora_s_feast.step_2",
+  "source": "wikibooks_brown_rice_with_other_starches_and_vegetables_pandora_s_feast",
+  "sourceRef": {
+    "source": "wikibooks_brown_rice_with_other_starches_and_vegetables_pandora_s_feast",
+    "step": 2
+  },
+  "technique": "rinse",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "brown_rice_with_other_starches_and_vegetables_pandora_s_feast_step_1",
+        "amount": {
+          "qty": 709.8,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "common_bean",
+        "amount": {
+          "qty": 1,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "brown_rice_with_other_starches_and_vegetables_pandora_s_feast_step_2",
+      "amount": {
+        "qty": 946.4,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Drain, rinse, and add the beans to the rice cooker.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.53"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for common_bean"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

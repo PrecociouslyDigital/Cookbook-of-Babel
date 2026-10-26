@@ -1,0 +1,53 @@
+{
+  "id": "abacha_mmiri_soaked_cassava_flakes.step_2",
+  "source": "wikibooks_abacha_mmiri_soaked_cassava_flakes",
+  "sourceRef": {
+    "source": "wikibooks_abacha_mmiri_soaked_cassava_flakes",
+    "step": 2
+  },
+  "technique": "boil",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "abacha_mmiri_soaked_cassava_flakes_step_1",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "abacha_mmiri_soaked_cassava_flakes_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 100,
+    "medium": "boiling_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Boil the cassava in a large pot of water until cooked through.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of boil's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

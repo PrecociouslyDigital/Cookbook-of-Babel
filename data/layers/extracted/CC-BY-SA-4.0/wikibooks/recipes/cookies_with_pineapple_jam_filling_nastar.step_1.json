@@ -1,0 +1,48 @@
+{
+  "id": "cookies_with_pineapple_jam_filling_nastar.step_1",
+  "source": "wikibooks_cookies_with_pineapple_jam_filling_nastar",
+  "sourceRef": {
+    "source": "wikibooks_cookies_with_pineapple_jam_filling_nastar",
+    "step": 1
+  },
+  "technique": "blend",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "pineapple",
+        "amount": {
+          "qty": 2,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "cookies_with_pineapple_jam_filling_nastar_step_1",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Peel pineapple, wash, and blend into a purée.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

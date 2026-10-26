@@ -1,0 +1,53 @@
+{
+  "id": "french_fries_belgian.step_5",
+  "source": "wikibooks_french_fries_belgian",
+  "sourceRef": {
+    "source": "wikibooks_french_fries_belgian",
+    "step": 5
+  },
+  "technique": "strain",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "french_fries_belgian_step_4",
+        "amount": {
+          "qty": 0.6,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "french_fries_belgian",
+      "amount": {
+        "qty": 0.6,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Sturdily toss, centrifuge by spinning around in a container, and toss a second time to remove excessive fat.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    },
+    {
+      "field": "inputs",
+      "kind": "missing",
+      "note": "no step uses 'Salt' (p=0.98)"
+    }
+  ]
+}

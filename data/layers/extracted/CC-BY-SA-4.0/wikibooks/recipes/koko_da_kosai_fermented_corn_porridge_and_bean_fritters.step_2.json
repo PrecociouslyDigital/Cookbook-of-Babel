@@ -1,0 +1,60 @@
+{
+  "id": "koko_da_kosai_fermented_corn_porridge_and_bean_fritters.step_2",
+  "source": "wikibooks_koko_da_kosai_fermented_corn_porridge_and_bean_fritters",
+  "sourceRef": {
+    "source": "wikibooks_koko_da_kosai_fermented_corn_porridge_and_bean_fritters",
+    "step": 2
+  },
+  "technique": "grind",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "koko_da_kosai_fermented_corn_porridge_and_bean_fritters_step_1",
+        "amount": {
+          "qty": 236.9,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "water",
+        "amount": {
+          "qty": 2,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "koko_da_kosai_fermented_corn_porridge_and_bean_fritters_step_2",
+      "amount": {
+        "qty": 710.1,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Rinse and drain the millet, then use a blender or other suitable tool to grind it to a smooth paste with the 2 cups of water.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.56"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "spaghetti_and_meatballs.step_3",
+  "source": "wikibooks_spaghetti_and_meatballs",
+  "sourceRef": {
+    "source": "wikibooks_spaghetti_and_meatballs",
+    "step": 3
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "spaghetti_and_meatballs_step_2",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "spaghetti_and_meatballs_step_3",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Form meat mixture into meatballs, using an ice cream scoop or your hands, pressing lightly, just enough so that meat holds together, but not so much that the meat is very compressed or the meatballs will be tough and dry.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

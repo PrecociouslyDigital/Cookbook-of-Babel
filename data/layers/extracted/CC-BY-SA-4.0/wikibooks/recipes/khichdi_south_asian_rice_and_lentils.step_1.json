@@ -1,0 +1,60 @@
+{
+  "id": "khichdi_south_asian_rice_and_lentils.step_1",
+  "source": "wikibooks_khichdi_south_asian_rice_and_lentils",
+  "sourceRef": {
+    "source": "wikibooks_khichdi_south_asian_rice_and_lentils",
+    "step": 1
+  },
+  "technique": "rinse",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "rice",
+        "amount": {
+          "qty": 1,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "dal",
+        "amount": {
+          "qty": 1,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "khichdi_south_asian_rice_and_lentils_step_1",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 12.5,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Wash rice and lentils and soak them for 10–15 minutes in water.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'1 teacup rice': 'teacup' read as pieces"
+    },
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'1 teacup dal (e.g. moong dhal, arhar dal or masoor dal or combination thereof)': 'teacup' read as pieces"
+    }
+  ]
+}

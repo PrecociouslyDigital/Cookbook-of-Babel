@@ -1,0 +1,53 @@
+{
+  "id": "christmas_ham.step_1",
+  "source": "wikibooks_christmas_ham",
+  "sourceRef": {
+    "source": "wikibooks_christmas_ham",
+    "step": 1
+  },
+  "technique": "chill",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "ham",
+        "amount": {
+          "qty": 8.5,
+          "unit": "kg"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "christmas_ham_step_1",
+      "amount": {
+        "qty": 8500,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 3,
+      "unit": "d"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "If ham is frozen, thaw it in its plastic package, for 3 days in the refrigerator for a 7kg ham, 5 days for a 10kg ham.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.51"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "the step names several durations; used the first"
+    }
+  ]
+}

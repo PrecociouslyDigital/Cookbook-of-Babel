@@ -1,0 +1,55 @@
+{
+  "id": "chicken_bog_i.step_2",
+  "source": "wikibooks_chicken_bog_i",
+  "sourceRef": {
+    "source": "wikibooks_chicken_bog_i",
+    "step": 2
+  },
+  "technique": "rinse",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "chicken_bog_i_step_1",
+        "amount": {
+          "qty": 2494.7,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "rice",
+        "amount": {
+          "qty": 2,
+          "unit": "lb"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "chicken_bog_i_step_2",
+      "amount": {
+        "qty": 3401.9,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "While the chicken is cooking, put 4 cups of rice into a bowl, cover with cold water, and let soak.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

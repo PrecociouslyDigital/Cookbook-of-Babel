@@ -1,0 +1,92 @@
+{
+  "id": "paprika_chicken.step_4",
+  "source": "wikibooks_paprika_chicken",
+  "sourceRef": {
+    "source": "wikibooks_paprika_chicken",
+    "step": 4
+  },
+  "technique": "simmer",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "paprika_chicken_step_3",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "min": 0,
+        "max": 1,
+        "of": [
+          {
+            "ingredient": "bell_pepper",
+            "amount": {
+              "qty": 1,
+              "unit": "piece"
+            }
+          }
+        ]
+      },
+      {
+        "min": 0,
+        "max": 1,
+        "of": [
+          {
+            "ingredient": "bell_pepper",
+            "amount": {
+              "qty": 0.5,
+              "unit": "piece"
+            }
+          }
+        ]
+      },
+      {
+        "min": 0,
+        "max": 1,
+        "of": [
+          {
+            "ingredient": "carrot",
+            "amount": {
+              "qty": 1,
+              "unit": "piece"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "paprika_chicken_step_4",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 90,
+    "medium": "simmering_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 10,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Simmer over low heat. If using, add peppers and carrots after 10 minutes of simmering. Stir occasionally until the chicken is tender. If necessary add more water, but very sparingly. Do not boil the chicken—it should be almost fried in the end. This takes about 45–50 minutes. During the last 15 minutes, stop adding water and wait until the liquid is almost boiled off. Keep about a half finger's width of gravy on the bottom of the pan",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of simmer's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "the step names several durations; used the first"
+    }
+  ]
+}

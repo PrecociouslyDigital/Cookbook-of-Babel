@@ -1,0 +1,67 @@
+{
+  "id": "oatmeal_stout_brownies.step_5",
+  "source": "wikibooks_oatmeal_stout_brownies",
+  "sourceRef": {
+    "source": "wikibooks_oatmeal_stout_brownies",
+    "step": 5
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "oatmeal_stout_brownies_step_4",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "beer",
+        "amount": {
+          "qty": 10,
+          "unit": "oz"
+        }
+      },
+      {
+        "ingredient": "chocolate",
+        "amount": {
+          "qty": 1,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "oatmeal_stout_brownies_step_5",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Beat reserved flour mixture into melted chocolate mixture. Whisk in stout beer. The batter will seem a bit thin. Pour into prepared baking pan. Drop semisweet chocolate chips evenly on top of batter (some will sink in).",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.48"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

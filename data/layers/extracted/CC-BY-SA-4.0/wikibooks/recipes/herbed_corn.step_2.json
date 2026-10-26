@@ -1,0 +1,60 @@
+{
+  "id": "herbed_corn.step_2",
+  "source": "wikibooks_herbed_corn",
+  "sourceRef": {
+    "source": "wikibooks_herbed_corn",
+    "step": 2
+  },
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "herbed_corn_step_1",
+        "amount": {
+          "qty": 186.6,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "corn",
+        "amount": {
+          "qty": 7,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "herbed_corn_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Measure about 1 tablespoon of the mixture and spread over each ear of corn.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'7 ears sweet corn, husks and silks carefully removed': 'ears' read as pieces"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

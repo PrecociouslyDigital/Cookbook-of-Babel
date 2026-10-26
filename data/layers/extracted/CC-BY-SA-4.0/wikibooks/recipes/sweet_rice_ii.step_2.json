@@ -1,0 +1,48 @@
+{
+  "id": "sweet_rice_ii.step_2",
+  "source": "wikibooks_sweet_rice_ii",
+  "sourceRef": {
+    "source": "wikibooks_sweet_rice_ii",
+    "step": 2
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "sweet_rice_ii_step_1",
+        "amount": {
+          "qty": 354.9,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "sweet_rice_ii_step_2",
+      "amount": {
+        "qty": 354.9,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Add enough water to cover rice with water equal to the depth of the rice.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "id": "island_ceviche.step_2",
+  "source": "wikibooks_island_ceviche",
+  "sourceRef": {
+    "source": "wikibooks_island_ceviche",
+    "step": 2
+  },
+  "technique": "coagulate",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "island_ceviche_step_1",
+        "amount": {
+          "qty": 365.7,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "pompano",
+        "amount": {
+          "qty": 8,
+          "unit": "oz"
+        }
+      },
+      {
+        "ingredient": "mahi_mahi",
+        "amount": {
+          "qty": 7,
+          "unit": "oz"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "island_ceviche",
+      "amount": {
+        "qty": 791,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 8,
+      "unit": "h"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Pour into a gallon-size zip-top bag and add fish. Refrigerate overnight.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "'overnight' read as 8 hours"
+    }
+  ]
+}

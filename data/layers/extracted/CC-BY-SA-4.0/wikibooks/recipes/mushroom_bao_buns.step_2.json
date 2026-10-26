@@ -1,0 +1,62 @@
+{
+  "id": "mushroom_bao_buns.step_2",
+  "source": "wikibooks_mushroom_bao_buns",
+  "sourceRef": {
+    "source": "wikibooks_mushroom_bao_buns",
+    "step": 2
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "mushroom_bao_buns_step_1",
+        "amount": {
+          "qty": 565,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "water",
+        "amount": {
+          "qty": 150,
+          "unit": "ml"
+        }
+      },
+      {
+        "ingredient": "milk",
+        "amount": {
+          "qty": 150,
+          "unit": "ml"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "mushroom_bao_buns_step_2",
+      "amount": {
+        "qty": 869.5,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Add the water and milk. Mix until you get a sticky dough.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

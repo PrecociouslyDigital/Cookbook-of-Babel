@@ -1,0 +1,53 @@
+{
+  "id": "paella_roja.step_21",
+  "source": "wikibooks_paella_roja",
+  "sourceRef": {
+    "source": "wikibooks_paella_roja",
+    "step": 21
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "paella_roja_step_20",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "paella_roja_step_21",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 180,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 30,
+      "unit": "s"
+    }
+  },
+  "stateNote": "Remove the towel, place the mussels around the edge of the paellera with the round edges facing down, and push them down into the rice. If your mussels have become very cold from sitting in the fridge then heat them in a microwave oven for no more than 30 seconds.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.52"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 180.0 °C for pan_contact"
+    }
+  ]
+}

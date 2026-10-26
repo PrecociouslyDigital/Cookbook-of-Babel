@@ -1,0 +1,53 @@
+{
+  "id": "wine_glazed_pork_chops.step_4",
+  "source": "wikibooks_wine_glazed_pork_chops",
+  "sourceRef": {
+    "source": "wikibooks_wine_glazed_pork_chops",
+    "step": 4
+  },
+  "technique": "grill",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "wine_glazed_pork_chops_step_3",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "wine_glazed_pork_chops_step_4",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 250,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 2,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Grill pork chops over high heat 2 minutes, brushing with wine mixture, then rotate 90° and cook for 2 minutes, brushing. Flip to the other side and repeat 1 more time.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of grill's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "the step names several durations; used the first"
+    }
+  ]
+}

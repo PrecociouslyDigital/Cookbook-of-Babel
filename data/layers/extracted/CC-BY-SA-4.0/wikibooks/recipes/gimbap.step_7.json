@@ -1,0 +1,77 @@
+{
+  "id": "gimbap.step_7",
+  "source": "wikibooks_gimbap",
+  "sourceRef": {
+    "source": "wikibooks_gimbap",
+    "step": 7
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "gimbap_step_6",
+        "amount": {
+          "qty": 3.1,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "nori",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      },
+      {
+        "ingredient": "tuna",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "gimbap_step_7",
+      "amount": {
+        "qty": 3.7,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Place the mat on a flat surface and place a sheet of seaweed on top. Spread a layer of seasoned rice on top of the seaweed, and arrange the eggs, carrots, spinach, radish, and meat on top of that in long strips.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Gim seaweed': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Tuna, ham, sausage, or any other kind of cooked meat': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for nori, tuna"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

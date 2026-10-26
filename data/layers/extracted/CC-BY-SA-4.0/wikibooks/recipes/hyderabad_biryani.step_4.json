@@ -1,0 +1,53 @@
+{
+  "id": "hyderabad_biryani.step_4",
+  "source": "wikibooks_hyderabad_biryani",
+  "sourceRef": {
+    "source": "wikibooks_hyderabad_biryani",
+    "step": 4
+  },
+  "technique": "pan_fry",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "hyderabad_biryani_step_3",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "hyderabad_biryani_step_4",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 185,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 25,
+      "unit": "min"
+    }
+  },
+  "stateNote": "When onions turn slightly brown, add marinated chicken and cook for about 20–30 minutes. It should not be fully cooked at this stage.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.38"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of pan_fry's typical range"
+    }
+  ]
+}

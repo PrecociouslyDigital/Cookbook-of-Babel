@@ -1,0 +1,53 @@
+{
+  "id": "hyderabad_biryani.step_7",
+  "source": "wikibooks_hyderabad_biryani",
+  "sourceRef": {
+    "source": "wikibooks_hyderabad_biryani",
+    "step": 7
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "hyderabad_biryani_step_6",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "hyderabad_biryani_step_7",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Place about half the semi-cooked rice in it a heat-safe pot or dish about 12 inches (300 mm) in diameter. Next, layer half of the chicken on it, and top with half the remaining rice. Add the remaining chicken, then the rest of the rice.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.55"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

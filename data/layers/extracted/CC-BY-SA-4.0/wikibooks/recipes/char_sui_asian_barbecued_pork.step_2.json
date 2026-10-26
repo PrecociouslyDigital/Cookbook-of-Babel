@@ -1,0 +1,53 @@
+{
+  "id": "char_sui_asian_barbecued_pork.step_2",
+  "source": "wikibooks_char_sui_asian_barbecued_pork",
+  "sourceRef": {
+    "source": "wikibooks_char_sui_asian_barbecued_pork",
+    "step": 2
+  },
+  "technique": "grill",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "char_sui_asian_barbecued_pork_step_1",
+        "amount": {
+          "qty": 2037.4,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "char_sui_asian_barbecued_pork",
+      "amount": {
+        "qty": 2037.4,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 250,
+    "medium": "oven_air"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Barbecue the meat until done.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of grill's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

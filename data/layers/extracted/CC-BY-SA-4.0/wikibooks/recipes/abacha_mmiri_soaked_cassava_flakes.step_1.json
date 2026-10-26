@@ -1,0 +1,53 @@
+{
+  "id": "abacha_mmiri_soaked_cassava_flakes.step_1",
+  "source": "wikibooks_abacha_mmiri_soaked_cassava_flakes",
+  "sourceRef": {
+    "source": "wikibooks_abacha_mmiri_soaked_cassava_flakes",
+    "step": 1
+  },
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "cassava",
+        "amount": {
+          "qty": 1,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "abacha_mmiri_soaked_cassava_flakes_step_1",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Peel the cassava, then cut into slices 1 cm thick. Rinse well.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'1 tuber of cassava': 'tuber' read as pieces"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

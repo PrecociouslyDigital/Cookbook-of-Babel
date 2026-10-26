@@ -1,0 +1,53 @@
+{
+  "id": "chapati.step_3",
+  "source": "wikibooks_chapati",
+  "sourceRef": {
+    "source": "wikibooks_chapati",
+    "step": 3
+  },
+  "technique": "knead",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "chapati_step_2",
+        "amount": {
+          "qty": 710.5,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "chapati_step_3",
+      "amount": {
+        "qty": 710.5,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Divide dough into balls and roll out into disks, slightly thicker than denim material; sprinkle with flour as you roll.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.38"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "pohe_spiced_flattened_rice.step_1",
+  "source": "wikibooks_pohe_spiced_flattened_rice",
+  "sourceRef": {
+    "source": "wikibooks_pohe_spiced_flattened_rice",
+    "step": 1
+  },
+  "technique": "rinse",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "rice",
+        "amount": {
+          "qty": 200,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "pohe_spiced_flattened_rice_step_1",
+      "amount": {
+        "qty": 200,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Moisten the pohe with cold water by putting in a bowl and holding under a slow running tap. Mix by hand, then drain excess water and set aside (take care not to soak too long or the pohe would turn pasty).",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "spicy_garlic_oil.step_3",
+  "source": "wikibooks_spicy_garlic_oil",
+  "sourceRef": {
+    "source": "wikibooks_spicy_garlic_oil",
+    "step": 3
+  },
+  "technique": "strain",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "spicy_garlic_oil_step_2",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "spicy_garlic_oil",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Strain, cool, and store in the refrigerator until oil smells off, looks smoky, or tastes rancid.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

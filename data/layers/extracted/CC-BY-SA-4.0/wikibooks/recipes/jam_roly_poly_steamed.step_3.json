@@ -1,0 +1,58 @@
+{
+  "id": "jam_roly_poly_steamed.step_3",
+  "source": "wikibooks_jam_roly_poly_steamed",
+  "sourceRef": {
+    "source": "wikibooks_jam_roly_poly_steamed",
+    "step": 3
+  },
+  "technique": "steam",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "jam_roly_poly_steamed_step_2",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "jam_roly_poly_steamed_step_3",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 100,
+    "medium": "steam"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Set the roll on a sheet of well buttered foil and wrap, making sure you seal the ends well. If you are feeling traditional use cheesecloth or a shirt sleeve to steam in.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.51"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of steam's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

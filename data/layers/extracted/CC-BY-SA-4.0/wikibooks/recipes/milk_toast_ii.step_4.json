@@ -1,0 +1,65 @@
+{
+  "id": "milk_toast_ii.step_4",
+  "source": "wikibooks_milk_toast_ii",
+  "sourceRef": {
+    "source": "wikibooks_milk_toast_ii",
+    "step": 4
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "milk_toast_ii_step_3",
+        "amount": {
+          "qty": 598.7,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "dry_toast",
+        "amount": {
+          "qty": 6,
+          "unit": "slice"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "milk_toast_ii",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 90,
+    "medium": "simmering_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Dip slices of toast separately in sauce; when soft, remove to serving dish. Pour remaining sauce over all.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.43"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 90.0 °C for simmering_water"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

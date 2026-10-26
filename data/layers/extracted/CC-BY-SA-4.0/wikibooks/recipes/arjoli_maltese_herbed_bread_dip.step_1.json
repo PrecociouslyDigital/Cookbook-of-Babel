@@ -1,0 +1,48 @@
+{
+  "id": "arjoli_maltese_herbed_bread_dip.step_1",
+  "source": "wikibooks_arjoli_maltese_herbed_bread_dip",
+  "sourceRef": {
+    "source": "wikibooks_arjoli_maltese_herbed_bread_dip",
+    "step": 1
+  },
+  "technique": "dissolve",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "maltese_galletti",
+        "amount": {
+          "qty": 2,
+          "unit": "package"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "arjoli_maltese_herbed_bread_dip_step_1",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 8,
+      "unit": "h"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Let the galletti soak in water overnight to soften.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "'overnight' read as 8 hours"
+    }
+  ]
+}

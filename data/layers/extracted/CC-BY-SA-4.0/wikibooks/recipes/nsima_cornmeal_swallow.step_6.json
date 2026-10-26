@@ -1,0 +1,58 @@
+{
+  "id": "nsima_cornmeal_swallow.step_6",
+  "source": "wikibooks_nsima_cornmeal_swallow",
+  "sourceRef": {
+    "source": "wikibooks_nsima_cornmeal_swallow",
+    "step": 6
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "nsima_cornmeal_swallow_step_5",
+        "amount": {
+          "qty": 1419.6,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "nsima_cornmeal_swallow_step_6",
+      "amount": {
+        "qty": 1419.6,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 90,
+    "medium": "simmering_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Remove the lid and stir the mixture again, making sure to scrape the sides and bottom of the pot to prevent sticking or burning.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.59"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 90.0 °C for simmering_water"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

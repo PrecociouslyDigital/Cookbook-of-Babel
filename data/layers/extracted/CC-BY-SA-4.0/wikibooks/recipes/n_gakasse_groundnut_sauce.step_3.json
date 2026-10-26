@@ -1,0 +1,53 @@
+{
+  "id": "n_gakasse_groundnut_sauce.step_3",
+  "source": "wikibooks_n_gakasse_groundnut_sauce",
+  "sourceRef": {
+    "source": "wikibooks_n_gakasse_groundnut_sauce",
+    "step": 3
+  },
+  "technique": "blend",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "n_gakasse_groundnut_sauce_step_2",
+        "amount": {
+          "qty": 473.2,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "n_gakasse_groundnut_sauce_step_3",
+      "amount": {
+        "qty": 473.2,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Place the roasted and peeled peanuts in a blender or food processor. Blend until you achieve a smooth paste consistency. Set aside.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.55"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

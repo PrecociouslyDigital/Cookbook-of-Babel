@@ -1,0 +1,53 @@
+{
+  "id": "homemade_corned_beef.step_4",
+  "source": "wikibooks_homemade_corned_beef",
+  "sourceRef": {
+    "source": "wikibooks_homemade_corned_beef",
+    "step": 4
+  },
+  "technique": "chill",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "homemade_corned_beef_step_3",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "homemade_corned_beef",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Serve it cold on Christmas. Since there is no need to slave in the kitchen this day, the brisket should be removed and pressed between 2 dishes with a weight on top, reserving the juice for hot topping gravy; other days you can serve hot.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    },
+    {
+      "field": "inputs",
+      "kind": "missing",
+      "note": "no step uses 'Mixed herbs' (p=0.84)"
+    }
+  ]
+}

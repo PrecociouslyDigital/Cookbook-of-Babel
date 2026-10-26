@@ -1,0 +1,48 @@
+{
+  "id": "goat_milk_caramel_sauce.step_1",
+  "source": "wikibooks_goat_milk_caramel_sauce",
+  "sourceRef": {
+    "source": "wikibooks_goat_milk_caramel_sauce",
+    "step": 1
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "white_sugar",
+        "amount": {
+          "qty": 2,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "goat_milk_caramel_sauce_step_1",
+      "amount": {
+        "qty": 402.2,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Place the sugar in a heavy-bottomed pot.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

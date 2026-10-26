@@ -1,0 +1,48 @@
+{
+  "id": "yemiser_selatta_ethiopian_lentil_salad.step_8",
+  "source": "wikibooks_yemiser_selatta_ethiopian_lentil_salad",
+  "sourceRef": {
+    "source": "wikibooks_yemiser_selatta_ethiopian_lentil_salad",
+    "step": 8
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "yemiser_selatta_ethiopian_lentil_salad_step_7",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "yemiser_selatta_ethiopian_lentil_salad",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Before serving, give the salad a gentle stir and adjust the seasoning if desired.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

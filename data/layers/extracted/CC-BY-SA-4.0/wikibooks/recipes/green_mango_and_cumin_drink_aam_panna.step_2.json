@@ -1,0 +1,58 @@
+{
+  "id": "green_mango_and_cumin_drink_aam_panna.step_2",
+  "source": "wikibooks_green_mango_and_cumin_drink_aam_panna",
+  "sourceRef": {
+    "source": "wikibooks_green_mango_and_cumin_drink_aam_panna",
+    "step": 2
+  },
+  "technique": "steam",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "green_mango_and_cumin_drink_aam_panna_step_1",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "green_mango_and_cumin_drink_aam_panna_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 100,
+    "medium": "steam"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Pressure cook mangoes with one small cup of water. Turn off heat as soon as the pressure cooker whistles once.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.53"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of steam's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

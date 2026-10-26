@@ -1,0 +1,67 @@
+{
+  "id": "imitation_cheese_vegan.step_3",
+  "source": "wikibooks_imitation_cheese_vegan",
+  "sourceRef": {
+    "source": "wikibooks_imitation_cheese_vegan",
+    "step": 3
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "imitation_cheese_vegan_step_2",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "margarine",
+        "amount": {
+          "qty": 20,
+          "unit": "ml"
+        }
+      },
+      {
+        "ingredient": "corn_flour",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "imitation_cheese_vegan_step_3",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Mix in some margarine and cornflour. The substance should take on the consistency of peanut butter but have more the color of cheese than anything else.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Corn flour or breading mixture': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

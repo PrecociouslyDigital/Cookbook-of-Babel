@@ -1,0 +1,67 @@
+{
+  "id": "durian_pancake.step_1",
+  "source": "wikibooks_durian_pancake",
+  "sourceRef": {
+    "source": "wikibooks_durian_pancake",
+    "step": 1
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "coconut",
+        "amount": {
+          "qty": 90,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "rice_flour",
+        "amount": {
+          "qty": 140,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "arrowroot",
+        "amount": {
+          "qty": 1.5,
+          "unit": "tbsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "durian_pancake_step_1",
+      "amount": {
+        "qty": 252.2,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Mix coconut flesh with the rice flour and arrowroot flour.",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for arrowroot"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

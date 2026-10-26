@@ -1,0 +1,60 @@
+{
+  "id": "strawberry_dumplings.step_17",
+  "source": "wikibooks_strawberry_dumplings",
+  "sourceRef": {
+    "source": "wikibooks_strawberry_dumplings",
+    "step": 17
+  },
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "strawberry_dumplings_step_16",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "white_sugar",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "strawberry_dumplings",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Serve the dumplings together with a little of the roasted crumbs, and sprinkle them with icing sugar",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Icing sugar': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

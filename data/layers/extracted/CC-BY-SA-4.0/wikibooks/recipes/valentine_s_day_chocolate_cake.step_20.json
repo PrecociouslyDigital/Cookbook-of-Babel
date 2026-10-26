@@ -1,0 +1,48 @@
+{
+  "id": "valentine_s_day_chocolate_cake.step_20",
+  "source": "wikibooks_valentine_s_day_chocolate_cake",
+  "sourceRef": {
+    "source": "wikibooks_valentine_s_day_chocolate_cake",
+    "step": 20
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "valentine_s_day_chocolate_cake_step_19",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "valentine_s_day_chocolate_cake",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Decorate with reserved chocolate hearts.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": "date_bars.step_8",
+  "source": "wikibooks_date_bars",
+  "sourceRef": {
+    "source": "wikibooks_date_bars",
+    "step": 8
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "date_bars_step_7",
+        "amount": {
+          "qty": 1855.5,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "date_bars_step_8",
+      "amount": {
+        "qty": 1855.5,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Evenly place remaining crumble mixture into the pan, pressing lightly.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.49"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

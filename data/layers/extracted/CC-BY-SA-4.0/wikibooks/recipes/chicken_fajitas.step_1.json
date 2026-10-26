@@ -1,0 +1,48 @@
+{
+  "id": "chicken_fajitas.step_1",
+  "source": "wikibooks_chicken_fajitas",
+  "sourceRef": {
+    "source": "wikibooks_chicken_fajitas",
+    "step": 1
+  },
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "chicken",
+        "amount": {
+          "qty": 1.5,
+          "unit": "lb"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "chicken_fajitas_step_1",
+      "amount": {
+        "qty": 680.4,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Cut chicken into roughly 1x1-inch (2.5 x 2.5 cm) pieces.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

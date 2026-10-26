@@ -1,0 +1,53 @@
+{
+  "id": "pizza_dough.step_2",
+  "source": "wikibooks_pizza_dough",
+  "sourceRef": {
+    "source": "wikibooks_pizza_dough",
+    "step": 2
+  },
+  "technique": "ferment",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "pizza_dough_step_1",
+        "amount": {
+          "qty": 491.3,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "pizza_dough_step_2",
+      "amount": {
+        "qty": 491.3,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 90,
+    "medium": "simmering_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 25,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Set the mixing bowl so it is sitting in warm water, or place on top of a warm oven. Let rise for 20–30 minutes. Don't worry if it only rises 10% or 20%—it'll still work.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.31"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 90.0 °C for simmering_water"
+    }
+  ]
+}

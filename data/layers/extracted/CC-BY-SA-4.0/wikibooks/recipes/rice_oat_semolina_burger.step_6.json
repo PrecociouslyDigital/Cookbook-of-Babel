@@ -1,0 +1,63 @@
+{
+  "id": "rice_oat_semolina_burger.step_6",
+  "source": "wikibooks_rice_oat_semolina_burger",
+  "sourceRef": {
+    "source": "wikibooks_rice_oat_semolina_burger",
+    "step": 6
+  },
+  "technique": "pan_fry",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "rice_oat_semolina_burger_step_5",
+        "amount": {
+          "qty": 2.8,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "rice_oat_semolina_burger",
+      "amount": {
+        "qty": 2.8,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 185,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "You may want to flatten the patties a bit with the spatula.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.51"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of pan_fry's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    },
+    {
+      "field": "inputs",
+      "kind": "missing",
+      "note": "no step uses 'Soy sauce (optional)' (p=0.85)"
+    }
+  ]
+}

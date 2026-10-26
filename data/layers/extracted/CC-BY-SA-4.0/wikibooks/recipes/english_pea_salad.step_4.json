@@ -1,0 +1,62 @@
+{
+  "id": "english_pea_salad.step_4",
+  "source": "wikibooks_english_pea_salad",
+  "sourceRef": {
+    "source": "wikibooks_english_pea_salad",
+    "step": 4
+  },
+  "technique": "chop",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "english_pea_salad_step_3",
+        "amount": {
+          "qty": 447.4,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "mayonnaise",
+        "amount": {
+          "qty": 1.5,
+          "unit": "tbsp"
+        }
+      },
+      {
+        "ingredient": "hard_cooked_eggs",
+        "amount": {
+          "qty": 1,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "english_pea_salad_step_4",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Chop the egg into about ¼ inch (0.5 cm) pieces. If desired, mash the diced hard-boiled egg yolk and mix it thoroughly with the mayonnaise.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

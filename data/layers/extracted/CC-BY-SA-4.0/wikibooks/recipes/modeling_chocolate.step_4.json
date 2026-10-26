@@ -1,0 +1,48 @@
+{
+  "id": "modeling_chocolate.step_4",
+  "source": "wikibooks_modeling_chocolate",
+  "sourceRef": {
+    "source": "wikibooks_modeling_chocolate",
+    "step": 4
+  },
+  "technique": "cool",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "modeling_chocolate_step_3",
+        "amount": {
+          "qty": 450.3,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "modeling_chocolate_step_4",
+      "amount": {
+        "qty": 450.3,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Transfer to a cling film, wrap and flatten, and leave to cool completely.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

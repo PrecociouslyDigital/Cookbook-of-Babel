@@ -1,0 +1,60 @@
+{
+  "id": "lentil_rice_loaf.step_2",
+  "source": "wikibooks_lentil_rice_loaf",
+  "sourceRef": {
+    "source": "wikibooks_lentil_rice_loaf",
+    "step": 2
+  },
+  "technique": "simmer",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "lentil_rice_loaf_step_1",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "rice",
+        "amount": {
+          "qty": 0.5,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "lentil_rice_loaf_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 90,
+    "medium": "boiling_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 50,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Meanwhile, cook the brown rice in 1 cup of the stock: bring the stock to a boil, add rice, reduce heat to low, cover, and cook at the lowest heat for 50 minutes.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.45"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of simmer's typical range"
+    }
+  ]
+}

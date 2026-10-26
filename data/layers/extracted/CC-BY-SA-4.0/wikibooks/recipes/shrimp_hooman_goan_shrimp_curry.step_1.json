@@ -1,0 +1,79 @@
+{
+  "id": "shrimp_hooman_goan_shrimp_curry.step_1",
+  "source": "wikibooks_shrimp_hooman_goan_shrimp_curry",
+  "sourceRef": {
+    "source": "wikibooks_shrimp_hooman_goan_shrimp_curry",
+    "step": 1
+  },
+  "technique": "simmer",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "onion",
+        "amount": {
+          "qty": 0.5,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "drumstick",
+        "amount": {
+          "qty": 1,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "shrimp",
+        "amount": {
+          "qty": 12.5,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "asafoetida",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "shrimp_hooman_goan_shrimp_curry_step_1",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 90,
+    "medium": "simmering_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Put the shrimp, onion, drumsticks, and asafoetida in a saucepan. Add a little water and cook until the shrimp and drumsticks are done. If using white fish instead of shrimp, then omit the shrimp at this stage.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.54"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of simmer's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

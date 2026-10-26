@@ -1,0 +1,55 @@
+{
+  "id": "bacon_cheese_omelet.step_2",
+  "source": "wikibooks_bacon_cheese_omelet",
+  "sourceRef": {
+    "source": "wikibooks_bacon_cheese_omelet",
+    "step": 2
+  },
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "bacon_cheese_omelet_step_1",
+        "amount": {
+          "qty": 283.5,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "cheese",
+        "amount": {
+          "qty": 2,
+          "unit": "slice"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "bacon_cheese_omelet_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Cut or break slices of cheese into 1-inch wide strips.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

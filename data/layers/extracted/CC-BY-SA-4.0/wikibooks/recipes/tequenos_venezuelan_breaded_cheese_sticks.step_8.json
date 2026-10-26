@@ -1,0 +1,48 @@
+{
+  "id": "tequenos_venezuelan_breaded_cheese_sticks.step_8",
+  "source": "wikibooks_tequenos_venezuelan_breaded_cheese_sticks",
+  "sourceRef": {
+    "source": "wikibooks_tequenos_venezuelan_breaded_cheese_sticks",
+    "step": 8
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "tequenos_venezuelan_breaded_cheese_sticks_step_7",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "tequenos_venezuelan_breaded_cheese_sticks_step_8",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Wrap the cheese strips with the dough strips.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

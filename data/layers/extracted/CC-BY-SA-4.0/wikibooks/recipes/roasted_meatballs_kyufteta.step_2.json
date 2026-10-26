@@ -1,0 +1,48 @@
+{
+  "id": "roasted_meatballs_kyufteta.step_2",
+  "source": "wikibooks_roasted_meatballs_kyufteta",
+  "sourceRef": {
+    "source": "wikibooks_roasted_meatballs_kyufteta",
+    "step": 2
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "roasted_meatballs_kyufteta_step_1",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "roasted_meatballs_kyufteta_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Form the mixture into balls approximately 1 inch (2.5 cm) in diameter and flatten them until ½ inch (1.5 cm) thick.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "id": "risotto_ai_funghi.step_4",
+  "source": "wikibooks_risotto_ai_funghi",
+  "sourceRef": {
+    "source": "wikibooks_risotto_ai_funghi",
+    "step": 4
+  },
+  "technique": "toast",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "risotto_ai_funghi_step_3",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "rice",
+        "amount": {
+          "qty": 250,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "risotto_ai_funghi_step_4",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 185,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 30,
+      "unit": "s"
+    }
+  },
+  "stateNote": "Now add the rice and swirl it around in the pan until it is also coated in the butter. Leave for about 30 seconds. Again it should not even come close to burning.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of toast's typical range"
+    }
+  ]
+}

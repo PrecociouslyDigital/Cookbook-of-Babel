@@ -1,0 +1,53 @@
+{
+  "id": "ghevar_rajasthani_honeycomb_fritter.step_2",
+  "source": "wikibooks_ghevar_rajasthani_honeycomb_fritter",
+  "sourceRef": {
+    "source": "wikibooks_ghevar_rajasthani_honeycomb_fritter",
+    "step": 2
+  },
+  "technique": "heat",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "ghevar_rajasthani_honeycomb_fritter_step_1",
+        "amount": {
+          "qty": 319.4,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "ghevar_rajasthani_honeycomb_fritter_step_2",
+      "amount": {
+        "qty": 319.4,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Remove from the heat and keep warm.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.52"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

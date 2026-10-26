@@ -1,0 +1,48 @@
+{
+  "id": "oat_milk_homemade.step_3",
+  "source": "wikibooks_oat_milk_homemade",
+  "sourceRef": {
+    "source": "wikibooks_oat_milk_homemade",
+    "step": 3
+  },
+  "technique": "strain",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "oat_milk_homemade_step_2",
+        "amount": {
+          "qty": 2118.3,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "oat_milk_homemade",
+      "amount": {
+        "qty": 2118.3,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Strain the mixture into a jug, and add the rest of the water.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

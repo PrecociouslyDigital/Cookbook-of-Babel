@@ -1,0 +1,58 @@
+{
+  "id": "asun_goat_in_pepper_sauce.step_2",
+  "source": "wikibooks_asun_goat_in_pepper_sauce",
+  "sourceRef": {
+    "source": "wikibooks_asun_goat_in_pepper_sauce",
+    "step": 2
+  },
+  "technique": "grill",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "asun_goat_in_pepper_sauce_step_1",
+        "amount": {
+          "qty": 1,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "asun_goat_in_pepper_sauce_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 250,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Place the marinated goat meat on an electric barbecue grill or oven grill. Rub some vegetable oil on the meat.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.55"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of grill's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": "ogolale_mashed_yam_and_plantain.step_3",
+  "source": "wikibooks_ogolale_mashed_yam_and_plantain",
+  "sourceRef": {
+    "source": "wikibooks_ogolale_mashed_yam_and_plantain",
+    "step": 3
+  },
+  "technique": "grind",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "ogolale_mashed_yam_and_plantain_step_2",
+        "amount": {
+          "qty": 1,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "ogolale_mashed_yam_and_plantain_step_3",
+      "amount": {
+        "qty": 1,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Use a spoon or spatula to mash the yam and plantain.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.53"
+    },
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.52"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

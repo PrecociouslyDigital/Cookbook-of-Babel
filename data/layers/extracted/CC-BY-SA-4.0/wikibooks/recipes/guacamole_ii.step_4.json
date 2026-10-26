@@ -1,0 +1,53 @@
+{
+  "id": "guacamole_ii.step_4",
+  "source": "wikibooks_guacamole_ii",
+  "sourceRef": {
+    "source": "wikibooks_guacamole_ii",
+    "step": 4
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "guacamole_ii_step_3",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "guacamole_ii",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Roughly chop the reserved avocado, and add to paste to give chunky texture. Resulting dip will keep for several days in a fridge, and it shouldn't brown too much if covered (the lime juice will act as an antioxidant as well as giving a nice flavour). In general, it will be found to disappear very rapidly by enthusiastic consumers!",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.52"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

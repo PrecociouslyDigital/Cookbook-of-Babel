@@ -1,0 +1,53 @@
+{
+  "id": "hallaca_venezuelan_stuffed_corn_dough.step_23",
+  "source": "wikibooks_hallaca_venezuelan_stuffed_corn_dough",
+  "sourceRef": {
+    "source": "wikibooks_hallaca_venezuelan_stuffed_corn_dough",
+    "step": 23
+  },
+  "technique": "separate",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "hallaca_venezuelan_stuffed_corn_dough_step_22",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "hallaca_venezuelan_stuffed_corn_dough_step_23",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Put the capers in a small bowl.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.52"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

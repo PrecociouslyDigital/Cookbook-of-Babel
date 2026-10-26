@@ -1,0 +1,48 @@
+{
+  "id": "fool_s_gold_loaf.step_6",
+  "source": "wikibooks_fool_s_gold_loaf",
+  "sourceRef": {
+    "source": "wikibooks_fool_s_gold_loaf",
+    "step": 6
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "fool_s_gold_loaf_step_5",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "fool_s_gold_loaf",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Arrange the bacon slices inside the cavity, or, if desired, layer the bacon slivers between the peanut butter and jelly. Close the loaf, slice and eat.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

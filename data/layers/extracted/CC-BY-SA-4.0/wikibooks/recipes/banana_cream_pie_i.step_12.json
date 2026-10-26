@@ -1,0 +1,48 @@
+{
+  "id": "banana_cream_pie_i.step_12",
+  "source": "wikibooks_banana_cream_pie_i",
+  "sourceRef": {
+    "source": "wikibooks_banana_cream_pie_i",
+    "step": 12
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "banana_cream_pie_i_step_11",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "banana_cream_pie_i_step_12",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Pour remainder of pie filling over second layer of bananas in pie shell. Cover all bananas with filling.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

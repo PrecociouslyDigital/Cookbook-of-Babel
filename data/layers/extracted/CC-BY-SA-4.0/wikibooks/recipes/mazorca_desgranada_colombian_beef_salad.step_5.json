@@ -1,0 +1,55 @@
+{
+  "id": "mazorca_desgranada_colombian_beef_salad.step_5",
+  "source": "wikibooks_mazorca_desgranada_colombian_beef_salad",
+  "sourceRef": {
+    "source": "wikibooks_mazorca_desgranada_colombian_beef_salad",
+    "step": 5
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "mazorca_desgranada_colombian_beef_salad_step_4",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "monterey_jack_cheese",
+        "amount": {
+          "qty": 0.25,
+          "unit": "lb"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "mazorca_desgranada_colombian_beef_salad_step_5",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Add shredded cheese on top of the corn.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

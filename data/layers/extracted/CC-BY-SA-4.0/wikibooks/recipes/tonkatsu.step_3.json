@@ -1,0 +1,60 @@
+{
+  "id": "tonkatsu.step_3",
+  "source": "wikibooks_tonkatsu",
+  "sourceRef": {
+    "source": "wikibooks_tonkatsu",
+    "step": 3
+  },
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "tonkatsu_step_2",
+        "amount": {
+          "qty": 1.2,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "pork_cutlets",
+        "amount": {
+          "qty": 2,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "tonkatsu_step_3",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Pound pork with meat mallet until thin, perhaps ¼ inch (a little more than 0.5 cm) thick. To reduce splatter you should put the meat in an open ziplock bag.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.39"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

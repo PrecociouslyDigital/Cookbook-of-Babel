@@ -1,0 +1,53 @@
+{
+  "id": "ghormeh_sabzi_iranian_herb_stew.step_11",
+  "source": "wikibooks_ghormeh_sabzi_iranian_herb_stew",
+  "sourceRef": {
+    "source": "wikibooks_ghormeh_sabzi_iranian_herb_stew",
+    "step": 11
+  },
+  "technique": "age",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "ghormeh_sabzi_iranian_herb_stew_step_10",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "ghormeh_sabzi_iranian_herb_stew_step_11",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "If desired, for the best taste, let the stew cool down and store it in a fridge. The taste is better over the next two days.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.43"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

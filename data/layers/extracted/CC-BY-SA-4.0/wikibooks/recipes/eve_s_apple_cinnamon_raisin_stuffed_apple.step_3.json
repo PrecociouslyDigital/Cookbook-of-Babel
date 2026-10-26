@@ -1,0 +1,58 @@
+{
+  "id": "eve_s_apple_cinnamon_raisin_stuffed_apple.step_3",
+  "source": "wikibooks_eve_s_apple_cinnamon_raisin_stuffed_apple",
+  "sourceRef": {
+    "source": "wikibooks_eve_s_apple_cinnamon_raisin_stuffed_apple",
+    "step": 3
+  },
+  "technique": "steam",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "eve_s_apple_cinnamon_raisin_stuffed_apple_step_2",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "eve_s_apple_cinnamon_raisin_stuffed_apple_step_3",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 100,
+    "medium": "steam"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Cover apple with plastic wrap. Pierce plastic to allow for steam.",
+  "issues": [
+    {
+      "field": "sourceRef",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.53"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of steam's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

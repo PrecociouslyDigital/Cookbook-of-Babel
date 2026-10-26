@@ -1,0 +1,53 @@
+{
+  "id": "karkanji_chadian_spiced_hibiscus_drink.step_5",
+  "source": "wikibooks_karkanji_chadian_spiced_hibiscus_drink",
+  "sourceRef": {
+    "source": "wikibooks_karkanji_chadian_spiced_hibiscus_drink",
+    "step": 5
+  },
+  "technique": "simmer",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "karkanji_chadian_spiced_hibiscus_drink_step_4",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "karkanji_chadian_spiced_hibiscus_drink_step_5",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 90,
+    "medium": "boiling_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 10,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Remove the saucepan from heat and let it steep for another 10 minutes for a stronger flavor.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.34"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of simmer's typical range"
+    }
+  ]
+}

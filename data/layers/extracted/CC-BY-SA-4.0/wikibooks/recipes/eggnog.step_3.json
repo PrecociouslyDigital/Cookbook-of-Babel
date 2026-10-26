@@ -1,0 +1,76 @@
+{
+  "id": "eggnog.step_3",
+  "source": "wikibooks_eggnog",
+  "sourceRef": {
+    "source": "wikibooks_eggnog",
+    "step": 3
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "eggnog_step_2",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "brandy",
+        "amount": {
+          "qty": 180,
+          "unit": "ml"
+        }
+      },
+      {
+        "ingredient": "rum",
+        "amount": {
+          "qty": 80,
+          "unit": "ml"
+        }
+      },
+      {
+        "ingredient": "cream",
+        "amount": {
+          "qty": 480,
+          "unit": "ml"
+        }
+      },
+      {
+        "ingredient": "milk",
+        "amount": {
+          "qty": 480,
+          "unit": "ml"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "eggnog_step_3",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Turn the mixer off and stir in the cold brandy, rum, whipping cream, and milk.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

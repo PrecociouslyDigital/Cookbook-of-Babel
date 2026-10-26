@@ -1,0 +1,60 @@
+{
+  "id": "pastries_filled_with_jam_marmeladetascherl.step_4",
+  "source": "wikibooks_pastries_filled_with_jam_marmeladetascherl",
+  "sourceRef": {
+    "source": "wikibooks_pastries_filled_with_jam_marmeladetascherl",
+    "step": 4
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "pastries_filled_with_jam_marmeladetascherl_step_3",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "fruit_preserves",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "pastries_filled_with_jam_marmeladetascherl_step_4",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Put a blob of jam in the middle of each square, and fold them diagonally. Press the edges to seal the tascherl.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Jam (or nut cream)': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

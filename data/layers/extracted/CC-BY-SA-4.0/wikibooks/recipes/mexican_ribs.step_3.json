@@ -1,0 +1,65 @@
+{
+  "id": "mexican_ribs.step_3",
+  "source": "wikibooks_mexican_ribs",
+  "sourceRef": {
+    "source": "wikibooks_mexican_ribs",
+    "step": 3
+  },
+  "technique": "roast",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "mexican_ribs_step_2",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "mesquite_chunks",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "mexican_ribs_step_3",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 93.33333333333333,
+    "medium": "convection_air"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 7,
+      "unit": "h"
+    }
+  },
+  "stateNote": "Place enough mesquite chunks in a smoker to keep the temperature at 200°F. Place ribs in smoker and cook 7 hours, basting every hour with sauce mixture.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.38"
+    },
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.48"
+    },
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Large mesquite chunks': no quantity given; assumed a pinch"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": "nutty_buddy_chocolate_cookie_bars.step_2",
+  "source": "wikibooks_nutty_buddy_chocolate_cookie_bars",
+  "sourceRef": {
+    "source": "wikibooks_nutty_buddy_chocolate_cookie_bars",
+    "step": 2
+  },
+  "technique": "heat",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "butter",
+        "amount": {
+          "qty": 0.75,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "nutty_buddy_chocolate_cookie_bars_step_2",
+      "amount": {
+        "qty": 177.4,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 20,
+    "medium": "still_air"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 45,
+      "unit": "s"
+    }
+  },
+  "stateNote": "Place butter in microwave-safe dish, cover with a paper towel and microwave on high, for about 45 seconds, or until melted. Remove carefully and stir to melt completely.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.55"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for butter"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 20.0 °C for still_air"
+    }
+  ]
+}

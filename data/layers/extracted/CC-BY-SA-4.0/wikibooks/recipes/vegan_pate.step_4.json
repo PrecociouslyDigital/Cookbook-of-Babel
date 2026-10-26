@@ -1,0 +1,48 @@
+{
+  "id": "vegan_pate.step_4",
+  "source": "wikibooks_vegan_pate",
+  "sourceRef": {
+    "source": "wikibooks_vegan_pate",
+    "step": 4
+  },
+  "technique": "blend",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "vegan_pate_step_3",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "vegan_pate",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Turn off the heat and let cool. Purée with a hand-held blender or in food processor until you achieve a creamy, though slightly nutty texture similar to that of pate or dip.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

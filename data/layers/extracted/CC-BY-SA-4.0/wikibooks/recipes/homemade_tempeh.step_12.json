@@ -1,0 +1,53 @@
+{
+  "id": "homemade_tempeh.step_12",
+  "source": "wikibooks_homemade_tempeh",
+  "sourceRef": {
+    "source": "wikibooks_homemade_tempeh",
+    "step": 12
+  },
+  "technique": "ferment",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "homemade_tempeh_step_11",
+        "amount": {
+          "qty": 434.8,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "homemade_tempeh_step_12",
+      "amount": {
+        "qty": 434.8,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Monitor periodically from then on, and remove when the beans are totally consumed by fluffy white tempeh with no gaps.",
+  "issues": [
+    {
+      "field": "sourceRef",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.59"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

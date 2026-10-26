@@ -1,0 +1,53 @@
+{
+  "id": "brown_butter_toffee_chocolate_chip_cookies.step_11",
+  "source": "wikibooks_brown_butter_toffee_chocolate_chip_cookies",
+  "sourceRef": {
+    "source": "wikibooks_brown_butter_toffee_chocolate_chip_cookies",
+    "step": 11
+  },
+  "technique": "chop",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "brown_butter_toffee_chocolate_chip_cookies_step_10",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "brown_butter_toffee_chocolate_chip_cookies_step_11",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Remove the toffee from the freezer and break into chunks. Put into a zippable bag and break into bits using a rolling pin.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.52"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

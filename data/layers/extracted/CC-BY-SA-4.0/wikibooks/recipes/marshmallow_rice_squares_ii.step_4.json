@@ -1,0 +1,60 @@
+{
+  "id": "marshmallow_rice_squares_ii.step_4",
+  "source": "wikibooks_marshmallow_rice_squares_ii",
+  "sourceRef": {
+    "source": "wikibooks_marshmallow_rice_squares_ii",
+    "step": 4
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "marshmallow_rice_squares_ii_step_3",
+        "amount": {
+          "qty": 415.7,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "breakfast_cereal",
+        "amount": {
+          "qty": 1,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "marshmallow_rice_squares_ii_step_4",
+      "amount": {
+        "qty": 652.3,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Add the puffed cereal, and mix for 1 more minute.",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for breakfast_cereal"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

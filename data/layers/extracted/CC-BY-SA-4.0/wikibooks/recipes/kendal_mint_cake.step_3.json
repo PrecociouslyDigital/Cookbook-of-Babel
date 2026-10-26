@@ -1,0 +1,53 @@
+{
+  "id": "kendal_mint_cake.step_3",
+  "source": "wikibooks_kendal_mint_cake",
+  "sourceRef": {
+    "source": "wikibooks_kendal_mint_cake",
+    "step": 3
+  },
+  "technique": "boil",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "kendal_mint_cake_step_2",
+        "amount": {
+          "qty": 615.1,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "kendal_mint_cake_step_3",
+      "amount": {
+        "qty": 615.1,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 150,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Increase the heat to medium-high, and put a candy thermometer into the mixture. Cook, without stirring, until the mixture reaches about 150°C (300°F).",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.53"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

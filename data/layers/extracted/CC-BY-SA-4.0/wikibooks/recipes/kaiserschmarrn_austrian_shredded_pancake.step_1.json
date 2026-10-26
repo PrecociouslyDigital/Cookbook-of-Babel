@@ -1,0 +1,48 @@
+{
+  "id": "kaiserschmarrn_austrian_shredded_pancake.step_1",
+  "source": "wikibooks_kaiserschmarrn_austrian_shredded_pancake",
+  "sourceRef": {
+    "source": "wikibooks_kaiserschmarrn_austrian_shredded_pancake",
+    "step": 1
+  },
+  "technique": "separate",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "egg",
+        "amount": {
+          "qty": 3,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "kaiserschmarrn_austrian_shredded_pancake_step_1",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Separate the whites from the yolks.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": "traditional_pilau_rice.step_1",
+  "source": "wikibooks_traditional_pilau_rice",
+  "sourceRef": {
+    "source": "wikibooks_traditional_pilau_rice",
+    "step": 1
+  },
+  "technique": "rinse",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "rice",
+        "amount": {
+          "qty": 425,
+          "unit": "ml"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "traditional_pilau_rice_step_1",
+      "amount": {
+        "qty": 425,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Wash the rice in several changes of water and leave it to soak while you prepare the other ingredients, changing the water whenever you have a spare moment.",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for rice"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

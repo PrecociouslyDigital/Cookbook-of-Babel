@@ -1,0 +1,48 @@
+{
+  "id": "san_francisco_sourdough_bread.step_1",
+  "source": "wikibooks_san_francisco_sourdough_bread",
+  "sourceRef": {
+    "source": "wikibooks_san_francisco_sourdough_bread",
+    "step": 1
+  },
+  "technique": "ferment",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "grape",
+        "amount": {
+          "qty": 1,
+          "unit": "lb"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "san_francisco_sourdough_bread_step_1",
+      "amount": {
+        "qty": 453.6,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 48,
+      "unit": "h"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Mash the grapes thoroughly and place in a loosely-covered container. Allow to stand at room temperature for 48 hours.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.56"
+    }
+  ]
+}

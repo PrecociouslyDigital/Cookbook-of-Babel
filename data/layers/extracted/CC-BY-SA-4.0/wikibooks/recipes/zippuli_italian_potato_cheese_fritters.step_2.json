@@ -1,0 +1,60 @@
+{
+  "id": "zippuli_italian_potato_cheese_fritters.step_2",
+  "source": "wikibooks_zippuli_italian_potato_cheese_fritters",
+  "sourceRef": {
+    "source": "wikibooks_zippuli_italian_potato_cheese_fritters",
+    "step": 2
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "zippuli_italian_potato_cheese_fritters_step_1",
+        "amount": {
+          "qty": 394.8,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "potato",
+        "amount": {
+          "qty": 5,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "zippuli_italian_potato_cheese_fritters_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Mash in the potatoes, and mix together into a crumbly paste.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.56"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

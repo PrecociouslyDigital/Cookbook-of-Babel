@@ -1,0 +1,48 @@
+{
+  "id": "mushroom_soup_gabi_supa.step_4",
+  "source": "wikibooks_mushroom_soup_gabi_supa",
+  "sourceRef": {
+    "source": "wikibooks_mushroom_soup_gabi_supa",
+    "step": 4
+  },
+  "technique": "boil",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "mushroom_soup_gabi_supa_step_3",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "mushroom_soup_gabi_supa_step_4",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 100,
+    "medium": "boiling_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 10,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Boil for less than 10 minutes or until the mushrooms are cooked but not soft.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of boil's typical range"
+    }
+  ]
+}

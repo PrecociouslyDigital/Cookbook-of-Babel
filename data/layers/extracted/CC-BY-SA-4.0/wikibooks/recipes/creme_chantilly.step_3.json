@@ -1,0 +1,48 @@
+{
+  "id": "creme_chantilly.step_3",
+  "source": "wikibooks_creme_chantilly",
+  "sourceRef": {
+    "source": "wikibooks_creme_chantilly",
+    "step": 3
+  },
+  "technique": "chill",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "creme_chantilly_step_2",
+        "amount": {
+          "qty": 269.1,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "creme_chantilly",
+      "amount": {
+        "qty": 269.1,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Refrigerate until ready to use.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

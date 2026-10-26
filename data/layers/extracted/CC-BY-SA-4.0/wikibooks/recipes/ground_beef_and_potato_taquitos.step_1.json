@@ -1,0 +1,53 @@
+{
+  "id": "ground_beef_and_potato_taquitos.step_1",
+  "source": "wikibooks_ground_beef_and_potato_taquitos",
+  "sourceRef": {
+    "source": "wikibooks_ground_beef_and_potato_taquitos",
+    "step": 1
+  },
+  "technique": "boil",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "potato",
+        "amount": {
+          "qty": 3,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "ground_beef_and_potato_taquitos_step_1",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 100,
+    "medium": "boiling_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 30,
+      "unit": "min"
+    }
+  },
+  "stateNote": "In a small pot over medium heat, add the potatoes and cover with water. Boil for about 30 minutes or until fork-tender. Drain, mash, and set aside.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'3 large russet potatoes, rinsed': 'russet' read as pieces"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of boil's typical range"
+    }
+  ]
+}

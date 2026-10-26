@@ -1,0 +1,48 @@
+{
+  "id": "gluten_veggie_meat.step_2",
+  "source": "wikibooks_gluten_veggie_meat",
+  "sourceRef": {
+    "source": "wikibooks_gluten_veggie_meat",
+    "step": 2
+  },
+  "technique": "knead",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "gluten_veggie_meat_step_1",
+        "amount": {
+          "qty": 834.4,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "gluten_veggie_meat_step_2",
+      "amount": {
+        "qty": 834.4,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 2,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Knead for about 2 minutes, cover, and set aside for 10 minutes.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "the step names several durations; used the first"
+    }
+  ]
+}

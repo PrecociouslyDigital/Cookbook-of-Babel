@@ -1,0 +1,55 @@
+{
+  "id": "lemon_lime_soda_i.step_4",
+  "source": "wikibooks_lemon_lime_soda_i",
+  "sourceRef": {
+    "source": "wikibooks_lemon_lime_soda_i",
+    "step": 4
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "lemon_lime_soda_i_step_3",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "juice",
+        "amount": {
+          "qty": 4,
+          "unit": "tsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "lemon_lime_soda_i_step_4",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Mix the peel and sugar mixture with lime juice. This should produce slightly under ½ cup (120 ml) of syrup.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

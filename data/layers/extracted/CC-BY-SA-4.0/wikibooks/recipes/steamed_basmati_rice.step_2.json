@@ -1,0 +1,48 @@
+{
+  "id": "steamed_basmati_rice.step_2",
+  "source": "wikibooks_steamed_basmati_rice",
+  "sourceRef": {
+    "source": "wikibooks_steamed_basmati_rice",
+    "step": 2
+  },
+  "technique": "rinse",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "steamed_basmati_rice_step_1",
+        "amount": {
+          "qty": 0.3,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "rice",
+        "amount": {
+          "qty": 400,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "steamed_basmati_rice_step_2",
+      "amount": {
+        "qty": 400.3,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 6,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Rinse the rice in a sieve for 5–7 minutes under cold running water."
+}

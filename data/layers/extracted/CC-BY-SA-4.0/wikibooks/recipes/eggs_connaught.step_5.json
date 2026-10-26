@@ -1,0 +1,48 @@
+{
+  "id": "eggs_connaught.step_5",
+  "source": "wikibooks_eggs_connaught",
+  "sourceRef": {
+    "source": "wikibooks_eggs_connaught",
+    "step": 5
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "eggs_connaught_step_4",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "eggs_connaught_step_5",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Spoon a drop of filling onto the dish to hold each egg white in position, arrange them in a circle and then fill each with the mixture—you can use a piping bag with a ½-inch (about 1.25 cm) plain nozzle.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

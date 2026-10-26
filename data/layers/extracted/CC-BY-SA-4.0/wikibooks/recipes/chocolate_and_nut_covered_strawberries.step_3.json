@@ -1,0 +1,91 @@
+{
+  "id": "chocolate_and_nut_covered_strawberries.step_3",
+  "source": "wikibooks_chocolate_and_nut_covered_strawberries",
+  "sourceRef": {
+    "source": "wikibooks_chocolate_and_nut_covered_strawberries",
+    "step": 3
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "chocolate_and_nut_covered_strawberries_step_1",
+        "amount": {
+          "qty": 252.8,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "strawberry",
+        "amount": {
+          "qty": 50,
+          "unit": "piece"
+        }
+      },
+      {
+        "min": 0,
+        "max": 1,
+        "of": [
+          {
+            "ingredient": "hazelnut",
+            "amount": {
+              "qty": 1,
+              "unit": "pinch"
+            }
+          }
+        ]
+      },
+      {
+        "min": 0,
+        "max": 1,
+        "of": [
+          {
+            "ingredient": "gingersnap_cookies",
+            "amount": {
+              "qty": 1,
+              "unit": "pinch"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "chocolate_and_nut_covered_strawberries_step_3",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Add strawberries to chocolate mixture and toss to coat. If using nuts or cookies, roll strawberries in them.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Chopped hazelnuts, pecans, walnuts, or almonds (optional)': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Crushed gingersnap cookies (optional)': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

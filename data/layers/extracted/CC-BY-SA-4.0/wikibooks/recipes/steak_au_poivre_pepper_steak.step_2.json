@@ -1,0 +1,67 @@
+{
+  "id": "steak_au_poivre_pepper_steak.step_2",
+  "source": "wikibooks_steak_au_poivre_pepper_steak",
+  "sourceRef": {
+    "source": "wikibooks_steak_au_poivre_pepper_steak",
+    "step": 2
+  },
+  "technique": "pan_fry",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "steak_au_poivre_pepper_steak_step_1",
+        "amount": {
+          "qty": 823.8,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "butter",
+        "amount": {
+          "qty": 0.25,
+          "unit": "cup"
+        }
+      },
+      {
+        "ingredient": "olive_oil",
+        "amount": {
+          "qty": 2,
+          "unit": "tsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "steak_au_poivre_pepper_steak_step_2",
+      "amount": {
+        "qty": 892.8,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 185,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 5,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Melt 1 tbsp butter with oil in a large stainless steel skillet over medium high heat. Add steaks and cook 5 minutes per side for medium rare, 6 for medium, and 7 for well done. Remove from pan and keep warm.",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for butter, olive_oil"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of pan_fry's typical range"
+    }
+  ]
+}

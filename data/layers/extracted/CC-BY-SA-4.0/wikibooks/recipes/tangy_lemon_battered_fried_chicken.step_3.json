@@ -1,0 +1,55 @@
+{
+  "id": "tangy_lemon_battered_fried_chicken.step_3",
+  "source": "wikibooks_tangy_lemon_battered_fried_chicken",
+  "sourceRef": {
+    "source": "wikibooks_tangy_lemon_battered_fried_chicken",
+    "step": 3
+  },
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "tangy_lemon_battered_fried_chicken_step_2",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "cornmeal",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "tangy_lemon_battered_fried_chicken_step_3",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 2.5,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Dredge chicken in cornmeal and let rest 2–3 minutes only.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Cornmeal as needed for dredging': no quantity given; assumed a pinch"
+    }
+  ]
+}

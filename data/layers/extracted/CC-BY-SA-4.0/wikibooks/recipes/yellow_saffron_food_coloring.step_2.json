@@ -1,0 +1,55 @@
+{
+  "id": "yellow_saffron_food_coloring.step_2",
+  "source": "wikibooks_yellow_saffron_food_coloring",
+  "sourceRef": {
+    "source": "wikibooks_yellow_saffron_food_coloring",
+    "step": 2
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "yellow_saffron_food_coloring_step_1",
+        "amount": {
+          "qty": 102.5,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "water",
+        "amount": {
+          "qty": 0.25,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "yellow_saffron_food_coloring_step_2",
+      "amount": {
+        "qty": 161.6,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Combine the powder in a saucepan with the water and the rest of the sugar.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "id": "char_grilled_strip_steak.step_2",
+  "source": "wikibooks_char_grilled_strip_steak",
+  "sourceRef": {
+    "source": "wikibooks_char_grilled_strip_steak",
+    "step": 2
+  },
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "char_grilled_strip_steak_step_1",
+        "amount": {
+          "qty": 69.5,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "beef",
+        "amount": {
+          "qty": 28,
+          "unit": "oz"
+        }
+      },
+      {
+        "ingredient": "olive_oil",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "char_grilled_strip_steak_step_2",
+      "amount": {
+        "qty": 863.6,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 37.5,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Brush steaks liberally with olive oil. Rub each side of steaks with seasoning mixture. Leave at room temperature for 30–45 minutes before continuing.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Extra-virgin olive oil': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for olive_oil"
+    }
+  ]
+}

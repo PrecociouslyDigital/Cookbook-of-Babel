@@ -1,0 +1,53 @@
+{
+  "id": "potatoes_on_the_half_shell.step_3",
+  "source": "wikibooks_potatoes_on_the_half_shell",
+  "sourceRef": {
+    "source": "wikibooks_potatoes_on_the_half_shell",
+    "step": 3
+  },
+  "technique": "separate",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "potatoes_on_the_half_shell_step_2",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "potatoes_on_the_half_shell_step_3",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Cut potatoes in half lengthwise and carefully scoop out the insides. Put the potato skins in a baking dish (any kind will work as long as it is big enough to fit all of them). Put the insides into a bowl (if you want to use a microwave) or a saucepan to make the filling on the stove.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.59"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

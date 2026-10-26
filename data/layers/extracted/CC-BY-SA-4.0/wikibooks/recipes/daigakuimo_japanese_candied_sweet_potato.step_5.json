@@ -1,0 +1,65 @@
+{
+  "id": "daigakuimo_japanese_candied_sweet_potato.step_5",
+  "source": "wikibooks_daigakuimo_japanese_candied_sweet_potato",
+  "sourceRef": {
+    "source": "wikibooks_daigakuimo_japanese_candied_sweet_potato",
+    "step": 5
+  },
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "daigakuimo_japanese_candied_sweet_potato_step_4",
+        "amount": {
+          "qty": 555.4,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "sesame_seed",
+        "amount": {
+          "qty": 1,
+          "unit": "tsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "daigakuimo_japanese_candied_sweet_potato",
+      "amount": {
+        "qty": 560.3,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Sprinkle sesame seeds over the coated sweet potatoes.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.44"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for sesame_seed"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

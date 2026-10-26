@@ -1,0 +1,48 @@
+{
+  "id": "oven_fried_chicken_breasts.step_5",
+  "source": "wikibooks_oven_fried_chicken_breasts",
+  "sourceRef": {
+    "source": "wikibooks_oven_fried_chicken_breasts",
+    "step": 5
+  },
+  "technique": "bake",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "oven_fried_chicken_breasts_step_4",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "oven_fried_chicken_breasts_step_5",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 204.44444444444446,
+    "medium": "oven_air"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Bake at 400 °F until internal temperature reaches 165 °F.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

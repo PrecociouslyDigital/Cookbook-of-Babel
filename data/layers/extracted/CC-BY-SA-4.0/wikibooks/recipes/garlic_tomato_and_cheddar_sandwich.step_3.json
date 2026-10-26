@@ -1,0 +1,60 @@
+{
+  "id": "garlic_tomato_and_cheddar_sandwich.step_3",
+  "source": "wikibooks_garlic_tomato_and_cheddar_sandwich",
+  "sourceRef": {
+    "source": "wikibooks_garlic_tomato_and_cheddar_sandwich",
+    "step": 3
+  },
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "garlic_tomato_and_cheddar_sandwich_step_2",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "tomato",
+        "amount": {
+          "qty": 1,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "garlic_tomato_and_cheddar_sandwich_step_3",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Cut the tomato in two, and crush each side on the same piece of bread. Then spread the juice, cut what's left of the tomato, and put it on the bread.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.54"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": "polish_doughnuts_paczki.step_3",
+  "source": "wikibooks_polish_doughnuts_paczki",
+  "sourceRef": {
+    "source": "wikibooks_polish_doughnuts_paczki",
+    "step": 3
+  },
+  "technique": "ferment",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "polish_doughnuts_paczki_step_2",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "polish_doughnuts_paczki_step_3",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 20,
+    "medium": "still_air"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 5,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Knead the dough for about 5 minutes. Put it back in the bowl, cover, and let it rise somewhere warm until it's twice its original size—this should take about 1½ hours.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.5"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 20.0 °C for still_air"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "the step names several durations; used the first"
+    }
+  ]
+}

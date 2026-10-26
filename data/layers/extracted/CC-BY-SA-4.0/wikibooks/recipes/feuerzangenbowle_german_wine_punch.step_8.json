@@ -1,0 +1,48 @@
+{
+  "id": "feuerzangenbowle_german_wine_punch.step_8",
+  "source": "wikibooks_feuerzangenbowle_german_wine_punch",
+  "sourceRef": {
+    "source": "wikibooks_feuerzangenbowle_german_wine_punch",
+    "step": 8
+  },
+  "technique": "strain",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "feuerzangenbowle_german_wine_punch_step_7",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "feuerzangenbowle_german_wine_punch",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Remove all solids (oranges, lemons, cloves, and cinnamon stick) from the bowl from the drink.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

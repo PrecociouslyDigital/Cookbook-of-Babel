@@ -1,0 +1,53 @@
+{
+  "id": "buah_melaka_malaysian_palm_sugar_dumplings.step_4",
+  "source": "wikibooks_buah_melaka_malaysian_palm_sugar_dumplings",
+  "sourceRef": {
+    "source": "wikibooks_buah_melaka_malaysian_palm_sugar_dumplings",
+    "step": 4
+  },
+  "technique": "separate",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "buah_melaka_malaysian_palm_sugar_dumplings_step_3",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "buah_melaka_malaysian_palm_sugar_dumplings_step_4",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Pinch off pieces of the dough, and roll them into balls. They should be about 1–2 inches (2.5–5 cm) in diameter.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.37"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

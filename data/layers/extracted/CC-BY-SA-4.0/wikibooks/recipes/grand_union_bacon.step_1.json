@@ -1,0 +1,55 @@
+{
+  "id": "grand_union_bacon.step_1",
+  "source": "wikibooks_grand_union_bacon",
+  "sourceRef": {
+    "source": "wikibooks_grand_union_bacon",
+    "step": 1
+  },
+  "technique": "whisk",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "egg",
+        "amount": {
+          "qty": 1,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "hot_sauce",
+        "amount": {
+          "qty": 3,
+          "unit": "drop"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "grand_union_bacon_step_1",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Beat the egg with the Tabasco sauce.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

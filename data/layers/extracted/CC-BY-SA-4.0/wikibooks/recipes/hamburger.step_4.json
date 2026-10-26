@@ -1,0 +1,53 @@
+{
+  "id": "hamburger.step_4",
+  "source": "wikibooks_hamburger",
+  "sourceRef": {
+    "source": "wikibooks_hamburger",
+    "step": 4
+  },
+  "technique": "cool",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "hamburger_step_3",
+        "amount": {
+          "qty": 500.6,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "hamburger_step_4",
+      "amount": {
+        "qty": 500.6,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Let the burger rest for several minutes before serving to let the juices cool down and not burst out at first bite.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.48"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

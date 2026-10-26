@@ -1,0 +1,72 @@
+{
+  "id": "bigos_polish_cabbage_meat_stew.step_3",
+  "source": "wikibooks_bigos_polish_cabbage_meat_stew",
+  "sourceRef": {
+    "source": "wikibooks_bigos_polish_cabbage_meat_stew",
+    "step": 3
+  },
+  "technique": "pan_fry",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "bigos_polish_cabbage_meat_stew_step_2",
+        "amount": {
+          "qty": 4751.3,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "pork",
+        "amount": {
+          "qty": 500,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "sausage",
+        "amount": {
+          "qty": 250,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "bigos_polish_cabbage_meat_stew_step_3",
+      "amount": {
+        "qty": 5501.3,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 185,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Fry the chopped meat and sausage in the bacon grease.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.5"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of pan_fry's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

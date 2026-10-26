@@ -1,0 +1,53 @@
+{
+  "id": "menudo_mexican_tripe_and_hominy_soup.step_21",
+  "source": "wikibooks_menudo_mexican_tripe_and_hominy_soup",
+  "sourceRef": {
+    "source": "wikibooks_menudo_mexican_tripe_and_hominy_soup",
+    "step": 21
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "menudo_mexican_tripe_and_hominy_soup_step_20",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "menudo_mexican_tripe_and_hominy_soup_step_21",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Place cut tripe into the pressure cooker on top of the patas (feet).",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.5"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

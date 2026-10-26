@@ -1,0 +1,76 @@
+{
+  "id": "rye_bread_layer_cake.step_5",
+  "source": "wikibooks_rye_bread_layer_cake",
+  "sourceRef": {
+    "source": "wikibooks_rye_bread_layer_cake",
+    "step": 5
+  },
+  "technique": "fold",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "rye_bread_layer_cake_step_4",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "white_sugar",
+        "amount": {
+          "qty": 250,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "chocolate",
+        "amount": {
+          "qty": 15,
+          "unit": "ml"
+        }
+      },
+      {
+        "ingredient": "potato_flour",
+        "amount": {
+          "qty": 15,
+          "unit": "ml"
+        }
+      },
+      {
+        "ingredient": "baking_powder",
+        "amount": {
+          "qty": 5,
+          "unit": "ml"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "rye_bread_layer_cake_step_5",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "In a separate bowl, whip the egg yolk with sugar, cocoa, potato flour, baking powder, and grated rye bread. Carefully fold in the beaten whites with a spoon.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

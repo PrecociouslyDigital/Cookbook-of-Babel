@@ -1,0 +1,48 @@
+{
+  "id": "prata.step_8",
+  "source": "wikibooks_prata",
+  "sourceRef": {
+    "source": "wikibooks_prata",
+    "step": 8
+  },
+  "technique": "fold",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "prata_step_7",
+        "amount": {
+          "qty": 782.4,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "prata_step_8",
+      "amount": {
+        "qty": 782.4,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Fold one side of the dough to the center, then fold the opposite side over it. You should now have a long, thin strip of dough.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

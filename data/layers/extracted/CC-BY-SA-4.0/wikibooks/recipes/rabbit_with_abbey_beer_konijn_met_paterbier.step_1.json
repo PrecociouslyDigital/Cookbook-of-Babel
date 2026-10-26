@@ -1,0 +1,48 @@
+{
+  "id": "rabbit_with_abbey_beer_konijn_met_paterbier.step_1",
+  "source": "wikibooks_rabbit_with_abbey_beer_konijn_met_paterbier",
+  "sourceRef": {
+    "source": "wikibooks_rabbit_with_abbey_beer_konijn_met_paterbier",
+    "step": 1
+  },
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "rabbit",
+        "amount": {
+          "qty": 1,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "rabbit_with_abbey_beer_konijn_met_paterbier_step_1",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Divide the rabbit into practical pieces.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

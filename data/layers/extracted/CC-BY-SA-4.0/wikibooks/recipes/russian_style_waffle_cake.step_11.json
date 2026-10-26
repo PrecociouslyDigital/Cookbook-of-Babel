@@ -1,0 +1,48 @@
+{
+  "id": "russian_style_waffle_cake.step_11",
+  "source": "wikibooks_russian_style_waffle_cake",
+  "sourceRef": {
+    "source": "wikibooks_russian_style_waffle_cake",
+    "step": 11
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "russian_style_waffle_cake_step_10",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "russian_style_waffle_cake_step_11",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Place one waffle on a sheet of foil or plastic wrap. Spread some caramel on the waffle, then place another waffle on top. Repeat this process until you have used up all the waffles and caramel.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

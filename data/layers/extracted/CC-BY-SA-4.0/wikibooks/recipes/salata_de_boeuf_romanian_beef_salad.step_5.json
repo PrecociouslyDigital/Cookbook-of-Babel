@@ -1,0 +1,48 @@
+{
+  "id": "salata_de_boeuf_romanian_beef_salad.step_5",
+  "source": "wikibooks_salata_de_boeuf_romanian_beef_salad",
+  "sourceRef": {
+    "source": "wikibooks_salata_de_boeuf_romanian_beef_salad",
+    "step": 5
+  },
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "salata_de_boeuf_romanian_beef_salad_step_4",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "salata_de_boeuf_romanian_beef_salad_step_5",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Cube the potatoes, carrots, and beef about 5 mm across—essentially, everything should be about the size of the peas.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

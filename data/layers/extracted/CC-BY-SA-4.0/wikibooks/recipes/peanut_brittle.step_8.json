@@ -1,0 +1,71 @@
+{
+  "id": "peanut_brittle.step_8",
+  "source": "wikibooks_peanut_brittle",
+  "sourceRef": {
+    "source": "wikibooks_peanut_brittle",
+    "step": 8
+  },
+  "technique": "carbonate",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "peanut_brittle_step_7",
+        "amount": {
+          "qty": 651.1,
+          "unit": "g"
+        }
+      },
+      {
+        "min": 0,
+        "max": 1,
+        "of": [
+          {
+            "ingredient": "baking_soda",
+            "amount": {
+              "qty": 1,
+              "unit": "tsp"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "peanut_brittle_step_8",
+      "amount": {
+        "qty": 656,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 180,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Add baking soda and stir very quickly. The volume of the mixture will double as bubbles form throughout. Be sure the soda is evenly mixed in and does not collect in one spot.",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for baking_soda"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 180.0 °C for pan_contact"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "chipotle_fried_chicken.step_5",
+  "source": "wikibooks_chipotle_fried_chicken",
+  "sourceRef": {
+    "source": "wikibooks_chipotle_fried_chicken",
+    "step": 5
+  },
+  "technique": "fry",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "chipotle_fried_chicken_step_4",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "chipotle_fried_chicken",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 190,
+    "medium": "frying_oil"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 12,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Cook for 12 minutes per side. Drain on a cooling rack and serve.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of fry's typical range"
+    }
+  ]
+}

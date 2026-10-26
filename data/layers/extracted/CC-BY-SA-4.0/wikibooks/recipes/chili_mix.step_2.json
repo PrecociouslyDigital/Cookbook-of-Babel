@@ -1,0 +1,53 @@
+{
+  "id": "chili_mix.step_2",
+  "source": "wikibooks_chili_mix",
+  "sourceRef": {
+    "source": "wikibooks_chili_mix",
+    "step": 2
+  },
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "chili_mix_step_1",
+        "amount": {
+          "qty": 89.2,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "chili_mix",
+      "amount": {
+        "qty": 89.2,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Use 1–3 tablespoons of Chili Mix per 1 lb of meat (to taste).",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.49"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

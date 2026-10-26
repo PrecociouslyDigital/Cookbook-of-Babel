@@ -1,0 +1,60 @@
+{
+  "id": "coq_au_vin_iii.step_3",
+  "source": "wikibooks_coq_au_vin_iii",
+  "sourceRef": {
+    "source": "wikibooks_coq_au_vin_iii",
+    "step": 3
+  },
+  "technique": "pan_fry",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "coq_au_vin_iii_step_2",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "chicken",
+        "amount": {
+          "qty": 1.5,
+          "unit": "kg"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "coq_au_vin_iii_step_3",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 185,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "To the skillet, add the seasoned chicken pieces skin side down and fry until honey-coloured, then flip. This is vital for the flavour; the skillet must be left sticky. There won't be enough room to do it in one go, so take it in turns. Remove, leaving the pork belly behind, snipped into pieces.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of pan_fry's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

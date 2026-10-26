@@ -1,0 +1,71 @@
+{
+  "id": "shopska_salata_tomato_cucumber_and_bell_pepper_salad.step_3",
+  "source": "wikibooks_shopska_salata_tomato_cucumber_and_bell_pepper_salad",
+  "sourceRef": {
+    "source": "wikibooks_shopska_salata_tomato_cucumber_and_bell_pepper_salad",
+    "step": 3
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "shopska_salata_tomato_cucumber_and_bell_pepper_salad_step_2",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "min": 0,
+        "max": 1,
+        "of": [
+          {
+            "ingredient": "feta_cheese",
+            "amount": {
+              "qty": 0.5,
+              "unit": "lb"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "shopska_salata_tomato_cucumber_and_bell_pepper_salad",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Serve with white cheese grated on top. Enjoy!",
+  "issues": [
+    {
+      "field": "sourceRef",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.56"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    },
+    {
+      "field": "inputs",
+      "kind": "missing",
+      "note": "no step uses 'Some olives (optional)' (p=0.99)"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": "fleischnacka_alsatian_meat_and_pasta_roll.step_4",
+  "source": "wikibooks_fleischnacka_alsatian_meat_and_pasta_roll",
+  "sourceRef": {
+    "source": "wikibooks_fleischnacka_alsatian_meat_and_pasta_roll",
+    "step": 4
+  },
+  "technique": "knead",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "fleischnacka_alsatian_meat_and_pasta_roll_step_3",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "fleischnacka_alsatian_meat_and_pasta_roll_step_4",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Roll out the dough into a rectangle.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.37"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

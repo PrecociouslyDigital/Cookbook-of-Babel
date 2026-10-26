@@ -1,0 +1,48 @@
+{
+  "id": "pashofa_chickasaw_pork_and_corn.step_1",
+  "source": "wikibooks_pashofa_chickasaw_pork_and_corn",
+  "sourceRef": {
+    "source": "wikibooks_pashofa_chickasaw_pork_and_corn",
+    "step": 1
+  },
+  "technique": "rinse",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "corn",
+        "amount": {
+          "qty": 900,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "pashofa_chickasaw_pork_and_corn_step_1",
+      "amount": {
+        "qty": 900,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Rinse the corn a number of times; pick out floating hulls.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

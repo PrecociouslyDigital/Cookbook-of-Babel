@@ -1,0 +1,65 @@
+{
+  "id": "alsatian_fresh_noodles_nouilles_fraiches_a_l_alsacienne.step_10",
+  "source": "wikibooks_alsatian_fresh_noodles_nouilles_fraiches_a_l_alsacienne",
+  "sourceRef": {
+    "source": "wikibooks_alsatian_fresh_noodles_nouilles_fraiches_a_l_alsacienne",
+    "step": 10
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "alsatian_fresh_noodles_nouilles_fraiches_a_l_alsacienne_step_9",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "butter",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "alsatian_fresh_noodles_nouilles_fraiches_a_l_alsacienne",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Drain the noodles and toss with melted butter.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.41"
+    },
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Melted butter': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

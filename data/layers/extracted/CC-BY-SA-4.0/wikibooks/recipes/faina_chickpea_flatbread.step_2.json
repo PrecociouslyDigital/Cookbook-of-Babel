@@ -1,0 +1,58 @@
+{
+  "id": "faina_chickpea_flatbread.step_2",
+  "source": "wikibooks_faina_chickpea_flatbread",
+  "sourceRef": {
+    "source": "wikibooks_faina_chickpea_flatbread",
+    "step": 2
+  },
+  "technique": "bake",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "faina_chickpea_flatbread_step_1",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "faina_chickpea_flatbread_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 200,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Place some oil in a round baking dish (approx 45 cm in diameter) and preheat this in the oven for a few minutes. Remove dish from oven and pour the faina mixture into the hot dish.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.59"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of bake's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

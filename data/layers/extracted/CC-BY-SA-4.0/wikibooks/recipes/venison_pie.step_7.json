@@ -1,0 +1,65 @@
+{
+  "id": "venison_pie.step_7",
+  "source": "wikibooks_venison_pie",
+  "sourceRef": {
+    "source": "wikibooks_venison_pie",
+    "step": 7
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "venison_pie_step_6",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "puff_pastry",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "venison_pie_step_7",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Make sure the puff pastry is rolled out about as thick as a £1 or 1 euro coin. Drape the puff pastry over the dish, covering your cooked pie innards. Trim the excess pastry off with a knife, and make some pretty decoration on the top of the pie if you want to. Make sure to pierce the pastry in 2 or 3 places to allow steam to escape.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.56"
+    },
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Puff pastry': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

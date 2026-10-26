@@ -1,0 +1,48 @@
+{
+  "id": "breakfast_casserole.step_2",
+  "source": "wikibooks_breakfast_casserole",
+  "sourceRef": {
+    "source": "wikibooks_breakfast_casserole",
+    "step": 2
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "breakfast_casserole_step_1",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "breakfast_casserole_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "In a greased large roasting pan, place just enough cornbread mixture to cover the bottom. Add just enough meat mixture to cover that layer, and repeat the layering until all mixtures have been used.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "id": "cherry_cobbler_in_a_crock_pot.step_2",
+  "source": "wikibooks_cherry_cobbler_in_a_crock_pot",
+  "sourceRef": {
+    "source": "wikibooks_cherry_cobbler_in_a_crock_pot",
+    "step": 2
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "cherry_cobbler_in_a_crock_pot_step_1",
+        "amount": {
+          "qty": 453.6,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "cake_mix",
+        "amount": {
+          "qty": 1,
+          "unit": "cup"
+        }
+      },
+      {
+        "ingredient": "butter",
+        "amount": {
+          "qty": 0.125,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "cherry_cobbler_in_a_crock_pot_step_2",
+      "amount": {
+        "qty": 719.8,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "In a medium-size bowl, combine cake mix and butter until the mixture is crumbly.",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for cake_mix, butter"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

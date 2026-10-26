@@ -1,0 +1,53 @@
+{
+  "id": "denver_crunch.step_3",
+  "source": "wikibooks_denver_crunch",
+  "sourceRef": {
+    "source": "wikibooks_denver_crunch",
+    "step": 3
+  },
+  "technique": "chop",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "denver_crunch_step_2",
+        "amount": {
+          "qty": 1197.2,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "denver_crunch_step_3",
+      "amount": {
+        "qty": 1197.2,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Take fork and crumble into small pieces. Some may be reserved for topping if you choose.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.52"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

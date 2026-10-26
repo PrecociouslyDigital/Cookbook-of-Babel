@@ -1,0 +1,65 @@
+{
+  "id": "brown_butter_toffee_chocolate_chip_cookies.step_6",
+  "source": "wikibooks_brown_butter_toffee_chocolate_chip_cookies",
+  "sourceRef": {
+    "source": "wikibooks_brown_butter_toffee_chocolate_chip_cookies",
+    "step": 6
+  },
+  "technique": "cool",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "brown_butter_toffee_chocolate_chip_cookies_step_5",
+        "amount": {
+          "qty": 472.8,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "ice_cubes",
+        "amount": {
+          "qty": 4,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "brown_butter_toffee_chocolate_chip_cookies_step_6",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Add an ice cube to the butter and let it melt. Repeat with remaining ice cubes.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.37"
+    },
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.46"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

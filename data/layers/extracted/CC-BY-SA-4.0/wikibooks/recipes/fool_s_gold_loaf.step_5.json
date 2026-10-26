@@ -1,0 +1,62 @@
+{
+  "id": "fool_s_gold_loaf.step_5",
+  "source": "wikibooks_fool_s_gold_loaf",
+  "sourceRef": {
+    "source": "wikibooks_fool_s_gold_loaf",
+    "step": 5
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "fool_s_gold_loaf_step_4",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "peanut_butter",
+        "amount": {
+          "qty": 1,
+          "unit": "jar"
+        }
+      },
+      {
+        "ingredient": "fruit_preserves",
+        "amount": {
+          "qty": 1,
+          "unit": "jar"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "fool_s_gold_loaf_step_5",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Slather a thick layer of peanut butter in the cavity of the loaf and follow with another thick layer of grape jelly. Use lots of both.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": "basic_polenta.step_1",
+  "source": "wikibooks_basic_polenta",
+  "sourceRef": {
+    "source": "wikibooks_basic_polenta",
+    "step": 1
+  },
+  "technique": "boil",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "milk",
+        "amount": {
+          "qty": 3,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "basic_polenta_step_1",
+      "amount": {
+        "qty": 731.1,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 100,
+    "medium": "boiling_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Bring the liquid to a boil in a heavy pot. If you're using milk, keep an eye on it: it can easily boil over and make a mess all over the place in seconds.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of boil's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": "boiled_yellow_split_peas.step_2",
+  "source": "wikibooks_boiled_yellow_split_peas",
+  "sourceRef": {
+    "source": "wikibooks_boiled_yellow_split_peas",
+    "step": 2
+  },
+  "technique": "boil",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "boiled_yellow_split_peas_step_1",
+        "amount": {
+          "qty": 1054.9,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "boiled_yellow_split_peas_step_2",
+      "amount": {
+        "qty": 1054.9,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 100,
+    "medium": "boiling_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Boil for two minutes.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of boil's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

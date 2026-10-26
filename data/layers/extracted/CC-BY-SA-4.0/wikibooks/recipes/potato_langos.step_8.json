@@ -1,0 +1,48 @@
+{
+  "id": "potato_langos.step_8",
+  "source": "wikibooks_potato_langos",
+  "sourceRef": {
+    "source": "wikibooks_potato_langos",
+    "step": 8
+  },
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "potato_langos_step_7",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "potato_langos_step_8",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Cut the dough into squares, and with the tip of a knife, make 2–3 small incisions in each, nicking the surface only and not cutting through the dough. Let it rest again.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

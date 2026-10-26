@@ -1,0 +1,48 @@
+{
+  "id": "matzah_lasagne.step_2",
+  "source": "wikibooks_matzah_lasagne",
+  "sourceRef": {
+    "source": "wikibooks_matzah_lasagne",
+    "step": 2
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "marinara_sauce",
+        "amount": {
+          "qty": 32,
+          "unit": "oz"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "matzah_lasagne_step_2",
+      "amount": {
+        "qty": 907.2,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Spread about ½ cup sauce in the pan to cover the bottom.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

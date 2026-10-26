@@ -1,0 +1,53 @@
+{
+  "id": "steamed_sweet_rice.step_3",
+  "source": "wikibooks_steamed_sweet_rice",
+  "sourceRef": {
+    "source": "wikibooks_steamed_sweet_rice",
+    "step": 3
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "steamed_sweet_rice_step_2",
+        "amount": {
+          "qty": 355.2,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "steamed_sweet_rice_step_3",
+      "amount": {
+        "qty": 355.2,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 6,
+      "unit": "h"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Add 3 cups (720 ml) water to the rice. Soak for 6 hours or overnight.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.5"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "the step names several durations; used the first"
+    }
+  ]
+}

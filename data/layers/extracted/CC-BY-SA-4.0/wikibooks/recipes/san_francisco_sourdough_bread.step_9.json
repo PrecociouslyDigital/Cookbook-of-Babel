@@ -1,0 +1,62 @@
+{
+  "id": "san_francisco_sourdough_bread.step_9",
+  "source": "wikibooks_san_francisco_sourdough_bread",
+  "sourceRef": {
+    "source": "wikibooks_san_francisco_sourdough_bread",
+    "step": 9
+  },
+  "technique": "knead",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "san_francisco_sourdough_bread_step_8",
+        "amount": {
+          "qty": 1285.6,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "wheat_flour",
+        "amount": {
+          "qty": 1,
+          "unit": "lb"
+        }
+      },
+      {
+        "ingredient": "salt",
+        "amount": {
+          "qty": 1,
+          "unit": "tbsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "san_francisco_sourdough_bread_step_9",
+      "amount": {
+        "qty": 1756.9,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 10,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Add the remaining flour and the salt. Knead the dough until it is soft and elastic, 10 minutes or more.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.4"
+    }
+  ]
+}

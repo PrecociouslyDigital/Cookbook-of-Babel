@@ -1,0 +1,48 @@
+{
+  "id": "ozark_pudding.step_4",
+  "source": "wikibooks_ozark_pudding",
+  "sourceRef": {
+    "source": "wikibooks_ozark_pudding",
+    "step": 4
+  },
+  "technique": "bake",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "ozark_pudding_step_3",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "ozark_pudding_step_4",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 200,
+    "medium": "oven_air"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 35,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Bake for about 35 minutes.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of bake's typical range"
+    }
+  ]
+}

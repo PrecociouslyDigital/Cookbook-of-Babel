@@ -1,0 +1,53 @@
+{
+  "id": "oat_porridge.step_5",
+  "source": "wikibooks_oat_porridge",
+  "sourceRef": {
+    "source": "wikibooks_oat_porridge",
+    "step": 5
+  },
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "oat_porridge_step_4",
+        "amount": {
+          "qty": 405.2,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "oat_porridge",
+      "amount": {
+        "qty": 405.2,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Serve and add raisins, sugar, brown sugar, maple syrup, a pinch of salt, honey or inverted sugar syrup to taste.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.39"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

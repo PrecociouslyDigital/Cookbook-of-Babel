@@ -1,0 +1,41 @@
+{
+  "id": "lamb_shawarma.step_3",
+  "source": "wikibooks_lamb_shawarma",
+  "sourceRef": {
+    "source": "wikibooks_lamb_shawarma",
+    "step": 3
+  },
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "lamb_shawarma_step_2",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "lamb_shawarma_step_3",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 2,
+      "unit": "h"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Marinate for 2 hours or more."
+}

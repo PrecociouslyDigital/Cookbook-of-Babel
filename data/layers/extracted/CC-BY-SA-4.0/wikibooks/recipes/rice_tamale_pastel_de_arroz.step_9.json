@@ -1,0 +1,60 @@
+{
+  "id": "rice_tamale_pastel_de_arroz.step_9",
+  "source": "wikibooks_rice_tamale_pastel_de_arroz",
+  "sourceRef": {
+    "source": "wikibooks_rice_tamale_pastel_de_arroz",
+    "step": 9
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "rice_tamale_pastel_de_arroz_step_8",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "banana",
+        "amount": {
+          "qty": 24,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "rice_tamale_pastel_de_arroz_step_9",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Place one washed lobster claw / banana leaf in a plain working area. Carefully put the pastel over the leaf and roll firmly. Cover with a second leaf and roll firmly. Tie with thread.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'24 large \"lobster claw\" leaves (can be replaced with banana plant leaves)': '\"lobster' read as pieces"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

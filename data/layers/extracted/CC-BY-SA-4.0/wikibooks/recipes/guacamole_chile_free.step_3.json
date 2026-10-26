@@ -1,0 +1,48 @@
+{
+  "id": "guacamole_chile_free.step_3",
+  "source": "wikibooks_guacamole_chile_free",
+  "sourceRef": {
+    "source": "wikibooks_guacamole_chile_free",
+    "step": 3
+  },
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "guacamole_chile_free_step_2",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "guacamole_chile_free_step_3",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Taste the mixture and add anything you think necessary (be aware that the flavors, especially the lime, will soften a little by the time it is served).",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

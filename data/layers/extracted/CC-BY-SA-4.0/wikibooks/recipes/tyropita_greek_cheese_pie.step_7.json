@@ -1,0 +1,48 @@
+{
+  "id": "tyropita_greek_cheese_pie.step_7",
+  "source": "wikibooks_tyropita_greek_cheese_pie",
+  "sourceRef": {
+    "source": "wikibooks_tyropita_greek_cheese_pie",
+    "step": 7
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "tyropita_greek_cheese_pie_step_6",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "tyropita_greek_cheese_pie_step_7",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Carefully cut remaining phyllo to fit pan. Brush each sheet with butter before placing on pita.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "id": "tuna_glop.step_3",
+  "source": "wikibooks_tuna_glop",
+  "sourceRef": {
+    "source": "wikibooks_tuna_glop",
+    "step": 3
+  },
+  "technique": "strain",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "tuna_glop_step_2",
+        "amount": {
+          "qty": 756.7,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "tuna",
+        "amount": {
+          "qty": 6,
+          "unit": "oz"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "tuna_glop_step_3",
+      "amount": {
+        "qty": 926.8,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Drain tuna and add.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "id": "south_side_fizz.step_1",
+  "source": "wikibooks_south_side_fizz",
+  "sourceRef": {
+    "source": "wikibooks_south_side_fizz",
+    "step": 1
+  },
+  "technique": "grind",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "lime",
+        "amount": {
+          "qty": 0.5,
+          "unit": "oz"
+        }
+      },
+      {
+        "ingredient": "simple_syrup",
+        "amount": {
+          "qty": 0.5,
+          "unit": "oz"
+        }
+      },
+      {
+        "ingredient": "mint",
+        "amount": {
+          "qty": 2,
+          "unit": "sprig"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "south_side_fizz_step_1",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "In a shaker, muddle the mint, lime juice and simple syrup.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.48"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

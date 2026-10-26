@@ -1,0 +1,48 @@
+{
+  "id": "liberian_fried_sweet_potato_puffs.step_3",
+  "source": "wikibooks_liberian_fried_sweet_potato_puffs",
+  "sourceRef": {
+    "source": "wikibooks_liberian_fried_sweet_potato_puffs",
+    "step": 3
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "liberian_fried_sweet_potato_puffs_step_2",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "liberian_fried_sweet_potato_puffs_step_3",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Gradually add the dry ingredients to the sweet potato mixture, stirring until well combined.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

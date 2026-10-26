@@ -1,0 +1,65 @@
+{
+  "id": "nigerian_oto_mboro_recipe.step_7",
+  "source": "wikibooks_nigerian_oto_mboro_recipe",
+  "sourceRef": {
+    "source": "wikibooks_nigerian_oto_mboro_recipe",
+    "step": 7
+  },
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "nigerian_oto_mboro_recipe_step_6",
+        "amount": {
+          "qty": 1.5,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "dehydrated_broth",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "nigerian_oto_mboro_recipe_step_7",
+      "amount": {
+        "qty": 1.8,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Add 3 cubes of Maggi and a teaspoon of salt",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Maggi': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for dehydrated_broth"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

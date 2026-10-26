@@ -1,0 +1,53 @@
+{
+  "id": "deluxe_burgers.step_2",
+  "source": "wikibooks_deluxe_burgers",
+  "sourceRef": {
+    "source": "wikibooks_deluxe_burgers",
+    "step": 2
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "deluxe_burgers_step_1",
+        "amount": {
+          "qty": 729.7,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "deluxe_burgers_step_2",
+      "amount": {
+        "qty": 729.7,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Shape hamburger mixture into 6 patties, about ¾-inch thick.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.55"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

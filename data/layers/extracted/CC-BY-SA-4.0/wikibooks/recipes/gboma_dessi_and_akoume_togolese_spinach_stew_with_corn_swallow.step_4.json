@@ -1,0 +1,53 @@
+{
+  "id": "gboma_dessi_and_akoume_togolese_spinach_stew_with_corn_swallow.step_4",
+  "source": "wikibooks_gboma_dessi_and_akoume_togolese_spinach_stew_with_corn_swallow",
+  "sourceRef": {
+    "source": "wikibooks_gboma_dessi_and_akoume_togolese_spinach_stew_with_corn_swallow",
+    "step": 4
+  },
+  "technique": "separate",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "gboma_dessi_and_akoume_togolese_spinach_stew_with_corn_swallow_step_3",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "gboma_dessi_and_akoume_togolese_spinach_stew_with_corn_swallow_step_4",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Remove the meat from the pressure cooker, drain it and put it in a bowl. Keep the broth in the pot.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.41"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "guacamole_ii.step_1",
+  "source": "wikibooks_guacamole_ii",
+  "sourceRef": {
+    "source": "wikibooks_guacamole_ii",
+    "step": 1
+  },
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "avocado",
+        "amount": {
+          "qty": 3,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "guacamole_ii_step_1",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Prepare avocados by halving and removing the stone. The simplest way to do this is to hold the avocado in the palm of your hand and strike the stone squarely and firmly with a chef's knife—the knife will then pull the stone out easily. If it doesn't come out easily, the avocado isn't ripe enough.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

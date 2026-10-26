@@ -1,0 +1,60 @@
+{
+  "id": "puliyodarai_south_indian_tamarind_rice.step_7",
+  "source": "wikibooks_puliyodarai_south_indian_tamarind_rice",
+  "sourceRef": {
+    "source": "wikibooks_puliyodarai_south_indian_tamarind_rice",
+    "step": 7
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "puliyodarai_south_indian_tamarind_rice_step_6",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "curry_leaf",
+        "amount": {
+          "qty": 4.5,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "puliyodarai_south_indian_tamarind_rice",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Add the garnishing powder and curry leaves and mix well.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.52"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

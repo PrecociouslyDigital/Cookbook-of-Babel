@@ -1,0 +1,60 @@
+{
+  "id": "austrian_napkin_dumpling_serviettenknodel.step_4",
+  "source": "wikibooks_austrian_napkin_dumpling_serviettenknodel",
+  "sourceRef": {
+    "source": "wikibooks_austrian_napkin_dumpling_serviettenknodel",
+    "step": 4
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "austrian_napkin_dumpling_serviettenknodel_step_3",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "butter",
+        "amount": {
+          "qty": 60,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "austrian_napkin_dumpling_serviettenknodel_step_4",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Wet a fresh cotton dishcloth, tea towel, or cloth napkin. Some cooks brush the top side of the cloth with melted butter for more flavor, but this is not necessary. Completely unfold the dishcloth and place the bread mass in the middle of the cloth.",
+  "issues": [
+    {
+      "field": "sourceRef",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.56"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

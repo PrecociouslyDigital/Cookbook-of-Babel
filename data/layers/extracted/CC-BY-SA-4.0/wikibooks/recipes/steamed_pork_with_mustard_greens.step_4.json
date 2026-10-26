@@ -1,0 +1,88 @@
+{
+  "id": "steamed_pork_with_mustard_greens.step_4",
+  "source": "wikibooks_steamed_pork_with_mustard_greens",
+  "sourceRef": {
+    "source": "wikibooks_steamed_pork_with_mustard_greens",
+    "step": 4
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "steamed_pork_with_mustard_greens_step_3",
+        "amount": {
+          "qty": 297.7,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "starch",
+        "amount": {
+          "qty": 1,
+          "unit": "tsp"
+        }
+      },
+      {
+        "ingredient": "white_sugar",
+        "amount": {
+          "qty": 0.5,
+          "unit": "tsp"
+        }
+      },
+      {
+        "ingredient": "soy_sauce",
+        "amount": {
+          "qty": 2,
+          "unit": "tsp"
+        }
+      },
+      {
+        "ingredient": "wine",
+        "amount": {
+          "qty": 1,
+          "unit": "tsp"
+        }
+      },
+      {
+        "ingredient": "pork",
+        "amount": {
+          "qty": 0.75,
+          "unit": "lb"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "steamed_pork_with_mustard_greens_step_4",
+      "amount": {
+        "qty": 657.4,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 20,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "In a medium bowl, combine cornstarch and water. Stir in sugar, soy sauce and rice wine. Cut pork into thin slices and add to the mixture. Marinate about 20 minutes, stirring occasionally.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.49"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for soy_sauce"
+    }
+  ]
+}

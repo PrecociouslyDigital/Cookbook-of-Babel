@@ -1,0 +1,48 @@
+{
+  "id": "lemon_pickle_i.step_6",
+  "source": "wikibooks_lemon_pickle_i",
+  "sourceRef": {
+    "source": "wikibooks_lemon_pickle_i",
+    "step": 6
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "lemon_pickle_i_step_5",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "lemon_pickle_i_step_6",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Pack the mixture into a 2 litre (2 quart) jar, or use a couple of smaller jars. Don't fill quite to the top—allow at least 1 cm space.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

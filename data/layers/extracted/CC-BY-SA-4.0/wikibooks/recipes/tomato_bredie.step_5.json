@@ -1,0 +1,66 @@
+{
+  "id": "tomato_bredie.step_5",
+  "source": "wikibooks_tomato_bredie",
+  "sourceRef": {
+    "source": "wikibooks_tomato_bredie",
+    "step": 5
+  },
+  "technique": "simmer",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "tomato_bredie_step_4",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "min": 0,
+        "max": 1,
+        "of": [
+          {
+            "ingredient": "potato",
+            "amount": {
+              "qty": 2,
+              "unit": "piece"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "tomato_bredie",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 90,
+    "medium": "simmering_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 45,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Stir in potatoes; continue cooking until potatoes are cooked and meat is tender, about 45 minutes more.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of simmer's typical range"
+    },
+    {
+      "field": "inputs",
+      "kind": "missing",
+      "note": "no step uses '1 tablespoon white vinegar' (p=0.78)"
+    }
+  ]
+}

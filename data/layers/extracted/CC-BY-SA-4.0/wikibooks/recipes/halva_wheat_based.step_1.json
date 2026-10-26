@@ -1,0 +1,65 @@
+{
+  "id": "halva_wheat_based.step_1",
+  "source": "wikibooks_halva_wheat_based",
+  "sourceRef": {
+    "source": "wikibooks_halva_wheat_based",
+    "step": 1
+  },
+  "technique": "toast",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "wheat_flour",
+        "amount": {
+          "qty": 1,
+          "unit": "cup"
+        }
+      },
+      {
+        "ingredient": "butter",
+        "amount": {
+          "qty": 1,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "halva_wheat_based_step_1",
+      "amount": {
+        "qty": 362,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 185,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 40,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Heat the margarine very gently in a saucepan. Add the flour, and cook for 40 minutes over low to moderate heat until golden brown.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.57"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for butter"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of toast's typical range"
+    }
+  ]
+}

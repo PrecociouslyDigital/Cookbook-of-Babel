@@ -1,0 +1,60 @@
+{
+  "id": "cookies_with_pineapple_jam_filling_nastar.step_11",
+  "source": "wikibooks_cookies_with_pineapple_jam_filling_nastar",
+  "sourceRef": {
+    "source": "wikibooks_cookies_with_pineapple_jam_filling_nastar",
+    "step": 11
+  },
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "cookies_with_pineapple_jam_filling_nastar_step_10",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "raisin",
+        "amount": {
+          "qty": 0.5,
+          "unit": "oz"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "cookies_with_pineapple_jam_filling_nastar_step_11",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Halve raisins, then put on top of the cookies.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.55"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

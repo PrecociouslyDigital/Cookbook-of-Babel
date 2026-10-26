@@ -1,0 +1,58 @@
+{
+  "id": "bacon_wrapped_scallops.step_6",
+  "source": "wikibooks_bacon_wrapped_scallops",
+  "sourceRef": {
+    "source": "wikibooks_bacon_wrapped_scallops",
+    "step": 6
+  },
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "bacon_wrapped_scallops_step_5",
+        "amount": {
+          "qty": 1931.1,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "bacon_wrapped_scallops",
+      "amount": {
+        "qty": 1931.1,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 175,
+    "medium": "frying_oil"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Remove from oil, drain briefly and toss in the soy-teriyaki sauce.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.47"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 175.0 °C for frying_oil"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "id": "ham_and_cheese_crepes.step_3",
+  "source": "wikibooks_ham_and_cheese_crepes",
+  "sourceRef": {
+    "source": "wikibooks_ham_and_cheese_crepes",
+    "step": 3
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "ham_and_cheese_crepes_step_2",
+        "amount": {
+          "qty": 508.8,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "crepes",
+        "amount": {
+          "qty": 12,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "ham",
+        "amount": {
+          "qty": 12,
+          "unit": "slice"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "ham_and_cheese_crepes_step_3",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Lay one slice of ham on each crêpe.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'12 prepared crêpes': 'prepared' read as pieces"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

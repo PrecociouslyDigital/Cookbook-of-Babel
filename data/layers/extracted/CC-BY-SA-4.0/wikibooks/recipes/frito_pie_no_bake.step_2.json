@@ -1,0 +1,70 @@
+{
+  "id": "frito_pie_no_bake.step_2",
+  "source": "wikibooks_frito_pie_no_bake",
+  "sourceRef": {
+    "source": "wikibooks_frito_pie_no_bake",
+    "step": 2
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "frito_pie_no_bake_step_1",
+        "amount": {
+          "qty": 283.5,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "frito_pie_chili",
+        "amount": {
+          "qty": 1,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "frito_pie_no_bake_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 90,
+    "medium": "simmering_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Spoon the Frito Pie Chili over the chips.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.33"
+    },
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'1 recipe of home-made Frito Pie Chili, hot': 'recipe' read as pieces"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 90.0 °C for simmering_water"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

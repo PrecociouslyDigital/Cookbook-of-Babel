@@ -1,0 +1,55 @@
+{
+  "id": "mini_three_cheese_english_muffin_pizzas.step_5",
+  "source": "wikibooks_mini_three_cheese_english_muffin_pizzas",
+  "sourceRef": {
+    "source": "wikibooks_mini_three_cheese_english_muffin_pizzas",
+    "step": 5
+  },
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "mini_three_cheese_english_muffin_pizzas_step_4",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "hot_dog",
+        "amount": {
+          "qty": 6,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "mini_three_cheese_english_muffin_pizzas_step_5",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Cut frankfurters crosswise in ¼-inch slices; arrange on muffins.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "damper_australian_campfire_bread.step_5",
+  "source": "wikibooks_damper_australian_campfire_bread",
+  "sourceRef": {
+    "source": "wikibooks_damper_australian_campfire_bread",
+    "step": 5
+  },
+  "technique": "bake",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "damper_australian_campfire_bread_step_4",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "damper_australian_campfire_bread",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 200,
+    "medium": "oven_air"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 40,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Cook in the hole for a maximum of 40 minutes. If undercooked it will be flat and rubbery.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of bake's typical range"
+    }
+  ]
+}

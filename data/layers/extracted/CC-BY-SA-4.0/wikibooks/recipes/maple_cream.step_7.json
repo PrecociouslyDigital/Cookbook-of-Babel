@@ -1,0 +1,53 @@
+{
+  "id": "maple_cream.step_7",
+  "source": "wikibooks_maple_cream",
+  "sourceRef": {
+    "source": "wikibooks_maple_cream",
+    "step": 7
+  },
+  "technique": "crystallize",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "maple_cream_step_6",
+        "amount": {
+          "qty": 0.6,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "maple_cream",
+      "amount": {
+        "qty": 0.6,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Once the mixture loses its gloss, stop stirring, and immediately transfer it to a jar or other container. If you wait too long, the mixture will become hard to work with.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.54"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

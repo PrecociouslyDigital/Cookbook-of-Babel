@@ -1,0 +1,48 @@
+{
+  "id": "homemade_coffee_liqueur.step_4",
+  "source": "wikibooks_homemade_coffee_liqueur",
+  "sourceRef": {
+    "source": "wikibooks_homemade_coffee_liqueur",
+    "step": 4
+  },
+  "technique": "age",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "homemade_coffee_liqueur_step_3",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "homemade_coffee_liqueur_step_4",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Transfer the mixture to a glass bottle or jar and seal tightly. Store it in a cool, dark place for at least one week, gently shaking the bottle daily.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

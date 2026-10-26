@@ -1,0 +1,53 @@
+{
+  "id": "red_bean_paste.step_6",
+  "source": "wikibooks_red_bean_paste",
+  "sourceRef": {
+    "source": "wikibooks_red_bean_paste",
+    "step": 6
+  },
+  "technique": "grind",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "red_bean_paste_step_5",
+        "amount": {
+          "qty": 200.3,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "red_bean_paste_step_6",
+      "amount": {
+        "qty": 200.3,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Depending on the desired texture, mash the beans by hand (coarse) or in a blender (fine) until they are as you want. Note that the paste is very thick, so if using a blender, it is easier to do it a bit at a time.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.56"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

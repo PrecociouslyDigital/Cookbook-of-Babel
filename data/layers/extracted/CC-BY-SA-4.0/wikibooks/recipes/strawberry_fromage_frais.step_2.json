@@ -1,0 +1,62 @@
+{
+  "id": "strawberry_fromage_frais.step_2",
+  "source": "wikibooks_strawberry_fromage_frais",
+  "sourceRef": {
+    "source": "wikibooks_strawberry_fromage_frais",
+    "step": 2
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "strawberry_fromage_frais_step_1",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "fromage_frais",
+        "amount": {
+          "qty": 6,
+          "unit": "dl"
+        }
+      },
+      {
+        "ingredient": "strawberry",
+        "amount": {
+          "qty": 1.5,
+          "unit": "tsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "strawberry_fromage_frais_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Beat fromage frais and strawberry jam until well-combined.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

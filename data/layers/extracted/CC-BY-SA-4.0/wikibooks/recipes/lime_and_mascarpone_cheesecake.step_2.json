@@ -1,0 +1,55 @@
+{
+  "id": "lime_and_mascarpone_cheesecake.step_2",
+  "source": "wikibooks_lime_and_mascarpone_cheesecake",
+  "sourceRef": {
+    "source": "wikibooks_lime_and_mascarpone_cheesecake",
+    "step": 2
+  },
+  "technique": "whisk",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "lime_and_mascarpone_cheesecake_step_1",
+        "amount": {
+          "qty": 250,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "mascarpone_cheese",
+        "amount": {
+          "qty": 500,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "lime_and_mascarpone_cheesecake_step_2",
+      "amount": {
+        "qty": 750,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Put the mascarpone in a bowl and beat until firm.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "twice_baked_potatoes_ii.step_11",
+  "source": "wikibooks_twice_baked_potatoes_ii",
+  "sourceRef": {
+    "source": "wikibooks_twice_baked_potatoes_ii",
+    "step": 11
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "twice_baked_potatoes_ii_step_10",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "twice_baked_potatoes_ii_step_11",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Spoon or pipe the mixture into the empty potato shells.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

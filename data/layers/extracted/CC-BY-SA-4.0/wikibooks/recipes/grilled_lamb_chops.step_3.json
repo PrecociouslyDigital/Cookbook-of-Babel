@@ -1,0 +1,48 @@
+{
+  "id": "grilled_lamb_chops.step_3",
+  "source": "wikibooks_grilled_lamb_chops",
+  "sourceRef": {
+    "source": "wikibooks_grilled_lamb_chops",
+    "step": 3
+  },
+  "technique": "grill",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "grilled_lamb_chops_step_2",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "grilled_lamb_chops_step_3",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 60,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Move meat to medium heat and cook, turning often, until internal temperature reaches 140°F for medium rare.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

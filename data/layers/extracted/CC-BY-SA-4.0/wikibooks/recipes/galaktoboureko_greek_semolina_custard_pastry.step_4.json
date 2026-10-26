@@ -1,0 +1,53 @@
+{
+  "id": "galaktoboureko_greek_semolina_custard_pastry.step_4",
+  "source": "wikibooks_galaktoboureko_greek_semolina_custard_pastry",
+  "sourceRef": {
+    "source": "wikibooks_galaktoboureko_greek_semolina_custard_pastry",
+    "step": 4
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "galaktoboureko_greek_semolina_custard_pastry_step_3",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "galaktoboureko_greek_semolina_custard_pastry_step_4",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Butter a pan, and place half the phyllo in it sheet by sheet. Pour the cooled semolina custard over the pastry, and cover with the remaining buttered phyllo.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.41"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

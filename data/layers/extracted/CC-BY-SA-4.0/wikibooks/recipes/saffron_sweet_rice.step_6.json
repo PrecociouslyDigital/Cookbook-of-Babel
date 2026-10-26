@@ -1,0 +1,53 @@
+{
+  "id": "saffron_sweet_rice.step_6",
+  "source": "wikibooks_saffron_sweet_rice",
+  "sourceRef": {
+    "source": "wikibooks_saffron_sweet_rice",
+    "step": 6
+  },
+  "technique": "steam",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "saffron_sweet_rice_step_5",
+        "amount": {
+          "qty": 669,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "saffron_sweet_rice",
+      "amount": {
+        "qty": 669,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 100,
+    "medium": "steam"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 20,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Cover tightly and let stand for 20 minutes.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.48"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of steam's typical range"
+    }
+  ]
+}

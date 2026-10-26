@@ -1,0 +1,48 @@
+{
+  "id": "espagnole_sauce_escoffier.step_8",
+  "source": "wikibooks_espagnole_sauce_escoffier",
+  "sourceRef": {
+    "source": "wikibooks_espagnole_sauce_escoffier",
+    "step": 8
+  },
+  "technique": "strain",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "espagnole_sauce_escoffier_step_7",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "espagnole_sauce_escoffier_step_8",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Adjust the seasoning to taste. Strain and degrease thoroughly.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

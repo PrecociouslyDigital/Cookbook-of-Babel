@@ -1,0 +1,72 @@
+{
+  "id": "adult_macaroni_and_cheese.step_2",
+  "source": "wikibooks_adult_macaroni_and_cheese",
+  "sourceRef": {
+    "source": "wikibooks_adult_macaroni_and_cheese",
+    "step": 2
+  },
+  "technique": "toast",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "adult_macaroni_and_cheese_step_1",
+        "amount": {
+          "qty": 229.8,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "butter",
+        "amount": {
+          "qty": 150,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "wheat_flour",
+        "amount": {
+          "qty": 2,
+          "unit": "tbsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "adult_macaroni_and_cheese_step_2",
+      "amount": {
+        "qty": 395.5,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 185,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "While pasta is cooking, in a heavy saucepan, melt 2 tbsp butter over medium heat. Once bubbling ceases, whisk in flour and cook, whisking continuously, until blonde.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.56"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of toast's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

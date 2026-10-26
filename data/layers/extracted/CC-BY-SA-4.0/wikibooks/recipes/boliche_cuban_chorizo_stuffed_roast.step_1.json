@@ -1,0 +1,60 @@
+{
+  "id": "boliche_cuban_chorizo_stuffed_roast.step_1",
+  "source": "wikibooks_boliche_cuban_chorizo_stuffed_roast",
+  "sourceRef": {
+    "source": "wikibooks_boliche_cuban_chorizo_stuffed_roast",
+    "step": 1
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "beef",
+        "amount": {
+          "qty": 4,
+          "unit": "lb"
+        }
+      },
+      {
+        "ingredient": "chorizo",
+        "amount": {
+          "qty": 4,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "boliche_cuban_chorizo_stuffed_roast_step_1",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Cut slits into eye round roast, and stuff with quartered chorizos (follow the grain of meat).",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'4 Goya chorizos, quartered lengthwise': 'Goya' read as pieces"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

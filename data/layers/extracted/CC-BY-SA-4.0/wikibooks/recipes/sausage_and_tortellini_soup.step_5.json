@@ -1,0 +1,58 @@
+{
+  "id": "sausage_and_tortellini_soup.step_5",
+  "source": "wikibooks_sausage_and_tortellini_soup",
+  "sourceRef": {
+    "source": "wikibooks_sausage_and_tortellini_soup",
+    "step": 5
+  },
+  "technique": "stir_fry",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "sausage_and_tortellini_soup_step_4",
+        "amount": {
+          "qty": 1843,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "sausage_and_tortellini_soup_step_5",
+      "amount": {
+        "qty": 1843,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 215,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Cook, stirring occasionally, until spinach is lightly sautéed.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.51"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of stir_fry's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

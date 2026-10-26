@@ -1,0 +1,61 @@
+{
+  "id": "coquitos_coconut_macaroons.step_3",
+  "source": "wikibooks_coquitos_coconut_macaroons",
+  "sourceRef": {
+    "source": "wikibooks_coquitos_coconut_macaroons",
+    "step": 3
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "coquitos_coconut_macaroons_step_2",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "min": 0,
+        "max": 1,
+        "of": [
+          {
+            "ingredient": "water",
+            "amount": {
+              "qty": 2,
+              "unit": "tbsp"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "coquitos_coconut_macaroons_step_3",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "If your paste is too thick to pipe with a large piping tip, then add the water, and keep adding one tablespoon of water at a time until you get a consistency you can pipe. If your eggs are extra large, you may not need the extra water.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

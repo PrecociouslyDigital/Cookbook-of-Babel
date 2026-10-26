@@ -1,0 +1,55 @@
+{
+  "id": "scheiterhaufen_austrian_bread_pudding.step_1",
+  "source": "wikibooks_scheiterhaufen_austrian_bread_pudding",
+  "sourceRef": {
+    "source": "wikibooks_scheiterhaufen_austrian_bread_pudding",
+    "step": 1
+  },
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "apple",
+        "amount": {
+          "qty": 2,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "peach",
+        "amount": {
+          "qty": 2,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "scheiterhaufen_austrian_bread_pudding_step_1",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Wash the apples and peaches, and peel them if desired. Cut them into slices approximately ¼ inch (1 cm) thick.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

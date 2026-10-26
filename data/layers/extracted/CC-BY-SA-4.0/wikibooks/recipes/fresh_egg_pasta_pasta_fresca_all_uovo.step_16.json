@@ -1,0 +1,53 @@
+{
+  "id": "fresh_egg_pasta_pasta_fresca_all_uovo.step_16",
+  "source": "wikibooks_fresh_egg_pasta_pasta_fresca_all_uovo",
+  "sourceRef": {
+    "source": "wikibooks_fresh_egg_pasta_pasta_fresca_all_uovo",
+    "step": 16
+  },
+  "technique": "fold",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "fresh_egg_pasta_pasta_fresca_all_uovo_step_15",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "fresh_egg_pasta_pasta_fresca_all_uovo_step_16",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "On its widest setting, feed each piece of dough through the machine 5 or 6 times, folding it in thirds between each rolling, until smooth, shiny and elastic.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.52"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

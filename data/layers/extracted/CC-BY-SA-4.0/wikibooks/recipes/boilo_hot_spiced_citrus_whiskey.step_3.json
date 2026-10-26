@@ -1,0 +1,53 @@
+{
+  "id": "boilo_hot_spiced_citrus_whiskey.step_3",
+  "source": "wikibooks_boilo_hot_spiced_citrus_whiskey",
+  "sourceRef": {
+    "source": "wikibooks_boilo_hot_spiced_citrus_whiskey",
+    "step": 3
+  },
+  "technique": "simmer",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "boilo_hot_spiced_citrus_whiskey_step_2",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "boilo_hot_spiced_citrus_whiskey_step_3",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 90,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 3,
+      "unit": "h"
+    }
+  },
+  "stateNote": "Start the crock pot, and let the mixture cook for about 2–4 hours. Stir occasionally. It's complete when the fruit pulp gets cooked down.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.46"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of simmer's typical range"
+    }
+  ]
+}

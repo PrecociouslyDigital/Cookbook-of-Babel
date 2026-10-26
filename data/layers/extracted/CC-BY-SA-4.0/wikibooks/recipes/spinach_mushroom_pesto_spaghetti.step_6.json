@@ -1,0 +1,58 @@
+{
+  "id": "spinach_mushroom_pesto_spaghetti.step_6",
+  "source": "wikibooks_spinach_mushroom_pesto_spaghetti",
+  "sourceRef": {
+    "source": "wikibooks_spinach_mushroom_pesto_spaghetti",
+    "step": 6
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "spinach_mushroom_pesto_spaghetti_step_5",
+        "amount": {
+          "qty": 940.4,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "spinach_mushroom_pesto_spaghetti_step_6",
+      "amount": {
+        "qty": 940.4,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 100,
+    "medium": "boiling_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Drain the pasta in a colander and stir into the sauce.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.4"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 100.0 °C for boiling_water"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

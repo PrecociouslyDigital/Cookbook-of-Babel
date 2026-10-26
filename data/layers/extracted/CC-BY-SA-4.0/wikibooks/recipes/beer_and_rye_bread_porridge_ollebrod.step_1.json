@@ -1,0 +1,55 @@
+{
+  "id": "beer_and_rye_bread_porridge_ollebrod.step_1",
+  "source": "wikibooks_beer_and_rye_bread_porridge_ollebrod",
+  "sourceRef": {
+    "source": "wikibooks_beer_and_rye_bread_porridge_ollebrod",
+    "step": 1
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "rye_bread",
+        "amount": {
+          "qty": 1,
+          "unit": "loaf"
+        }
+      },
+      {
+        "ingredient": "beer",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "beer_and_rye_bread_porridge_ollebrod_step_1",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 9,
+      "unit": "h"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Put the rye bread to soak in beer for 6–12 hours.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Malt beer (preferably a sweet dark stout)': no quantity given; assumed a pinch"
+    }
+  ]
+}

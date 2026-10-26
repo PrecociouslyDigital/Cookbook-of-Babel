@@ -1,0 +1,61 @@
+{
+  "id": "kubaneh_yemenite_pull_apart_bread.step_3",
+  "source": "wikibooks_kubaneh_yemenite_pull_apart_bread",
+  "sourceRef": {
+    "source": "wikibooks_kubaneh_yemenite_pull_apart_bread",
+    "step": 3
+  },
+  "technique": "knead",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "kubaneh_yemenite_pull_apart_bread_step_2",
+        "amount": {
+          "qty": 674.1,
+          "unit": "g"
+        }
+      },
+      {
+        "min": 0,
+        "max": 1,
+        "of": [
+          {
+            "ingredient": "wheat_flour",
+            "amount": {
+              "qty": 3,
+              "unit": "cup"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "kubaneh_yemenite_pull_apart_bread_step_3",
+      "amount": {
+        "qty": 1050.3,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Add yeast mixture to flour, and knead to form a dough.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "table_point_boiled_beef_and_vegetables_tafelspitz.step_6",
+  "source": "wikibooks_table_point_boiled_beef_and_vegetables_tafelspitz",
+  "sourceRef": {
+    "source": "wikibooks_table_point_boiled_beef_and_vegetables_tafelspitz",
+    "step": 6
+  },
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "table_point_boiled_beef_and_vegetables_tafelspitz_step_5",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "table_point_boiled_beef_and_vegetables_tafelspitz",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Remove the meat from the broth and cut meat across the grain when you serve it.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

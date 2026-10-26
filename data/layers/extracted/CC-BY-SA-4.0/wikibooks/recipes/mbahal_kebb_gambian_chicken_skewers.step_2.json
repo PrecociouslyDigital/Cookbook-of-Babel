@@ -1,0 +1,60 @@
+{
+  "id": "mbahal_kebb_gambian_chicken_skewers.step_2",
+  "source": "wikibooks_mbahal_kebb_gambian_chicken_skewers",
+  "sourceRef": {
+    "source": "wikibooks_mbahal_kebb_gambian_chicken_skewers",
+    "step": 2
+  },
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "mbahal_kebb_gambian_chicken_skewers_step_1",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "chicken",
+        "amount": {
+          "qty": 2,
+          "unit": "lb"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "mbahal_kebb_gambian_chicken_skewers_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 2,
+      "unit": "h"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Add the chicken pieces to the marinade, ensuring they are well coated. Cover the bowl and let the chicken marinate for at least 2 hours, or preferably overnight in the refrigerator, to allow the flavors to develop.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.57"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "the step names several durations; used the first"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": "self_rising_flour.step_2",
+  "source": "wikibooks_self_rising_flour",
+  "sourceRef": {
+    "source": "wikibooks_self_rising_flour",
+    "step": 2
+  },
+  "technique": "age",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "self_rising_flour_step_1",
+        "amount": {
+          "qty": 229.6,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "self_rising_flour",
+      "amount": {
+        "qty": 229.6,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Store in an air-tight container in a cool, dry environment.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.48"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

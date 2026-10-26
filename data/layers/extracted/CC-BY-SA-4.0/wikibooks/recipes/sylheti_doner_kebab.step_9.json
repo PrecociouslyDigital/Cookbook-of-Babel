@@ -1,0 +1,53 @@
+{
+  "id": "sylheti_doner_kebab.step_9",
+  "source": "wikibooks_sylheti_doner_kebab",
+  "sourceRef": {
+    "source": "wikibooks_sylheti_doner_kebab",
+    "step": 9
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "sylheti_doner_kebab_step_8",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "sylheti_doner_kebab",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Roll up the bread to encase the filling, and enjoy your sylheti doner kebab!",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    },
+    {
+      "field": "inputs",
+      "kind": "missing",
+      "note": "no step uses 'Garlic, tomato, and naga sauce (extremely spicy)' (p=0.93)"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "strawberry_frozen_yogurt.step_4",
+  "source": "wikibooks_strawberry_frozen_yogurt",
+  "sourceRef": {
+    "source": "wikibooks_strawberry_frozen_yogurt",
+    "step": 4
+  },
+  "technique": "strain",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "strawberry_frozen_yogurt_step_3",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "strawberry_frozen_yogurt_step_4",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Roll a lemon on a counter while applying pressure with the palm of one hand. Cut lemon in half and squeeze both halves through a strainer into the strawberry mixture.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

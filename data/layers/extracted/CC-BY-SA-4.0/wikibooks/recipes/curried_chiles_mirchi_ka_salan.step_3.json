@@ -1,0 +1,86 @@
+{
+  "id": "curried_chiles_mirchi_ka_salan.step_3",
+  "source": "wikibooks_curried_chiles_mirchi_ka_salan",
+  "sourceRef": {
+    "source": "wikibooks_curried_chiles_mirchi_ka_salan",
+    "step": 3
+  },
+  "technique": "fry",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "curried_chiles_mirchi_ka_salan_step_2",
+        "amount": {
+          "qty": 692.6,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "chiles",
+        "amount": {
+          "qty": 6,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "fenugreek",
+        "amount": {
+          "qty": 6,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "curry_leaf",
+        "amount": {
+          "qty": 6.5,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "onion",
+        "amount": {
+          "qty": 4,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "curried_chiles_mirchi_ka_salan_step_3",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 190,
+    "medium": "frying_oil"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Heat some oil in a pan. Add the red chiles, fenugreek seeds, and a couple of curry leaves, and heat until popping. Add chopped onions, and fry until golden brown.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.41"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of fry's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

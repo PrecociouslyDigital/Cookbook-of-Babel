@@ -1,0 +1,74 @@
+{
+  "id": "ma_amoul_arabian_filled_pastries.step_2",
+  "source": "wikibooks_ma_amoul_arabian_filled_pastries",
+  "sourceRef": {
+    "source": "wikibooks_ma_amoul_arabian_filled_pastries",
+    "step": 2
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "ma_amoul_arabian_filled_pastries_step_1",
+        "amount": {
+          "qty": 355,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "walnut",
+        "amount": {
+          "qty": 0.5,
+          "unit": "lb"
+        }
+      },
+      {
+        "ingredient": "white_sugar",
+        "amount": {
+          "qty": 0.25,
+          "unit": "lb"
+        }
+      },
+      {
+        "ingredient": "cinnamon",
+        "amount": {
+          "qty": 1,
+          "unit": "tbsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "ma_amoul_arabian_filled_pastries_step_2",
+      "amount": {
+        "qty": 710,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Mix chopped walnuts with sugar and cinnamon.",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for cinnamon"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

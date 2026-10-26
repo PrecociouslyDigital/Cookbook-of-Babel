@@ -1,0 +1,48 @@
+{
+  "id": "magic_brownies.step_2",
+  "source": "wikibooks_magic_brownies",
+  "sourceRef": {
+    "source": "wikibooks_magic_brownies",
+    "step": 2
+  },
+  "technique": "strain",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "magic_brownies_step_1",
+        "amount": {
+          "qty": 64,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "magic_brownies_step_2",
+      "amount": {
+        "qty": 64,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "If desired, strain the butter to remove the cannabis solids.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

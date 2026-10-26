@@ -1,0 +1,62 @@
+{
+  "id": "traditional_lasagne.step_6",
+  "source": "wikibooks_traditional_lasagne",
+  "sourceRef": {
+    "source": "wikibooks_traditional_lasagne",
+    "step": 6
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "traditional_lasagne_step_5",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "pasta",
+        "amount": {
+          "qty": 1,
+          "unit": "package"
+        }
+      },
+      {
+        "ingredient": "bechamel_sauce",
+        "amount": {
+          "qty": 1.5,
+          "unit": "pt"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "traditional_lasagne_step_6",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Place a thin layer of ragu in the base of the ovenproof dish and cover with a single layer of pasta sheets. Spread a layer of béchamel sauce over the pasta. Repeat this until you run out of meat, making sure that you have enough béchamel sauce left to cover the top layer of pasta.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

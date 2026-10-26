@@ -1,0 +1,72 @@
+{
+  "id": "greek_chicken_wrap.step_2",
+  "source": "wikibooks_greek_chicken_wrap",
+  "sourceRef": {
+    "source": "wikibooks_greek_chicken_wrap",
+    "step": 2
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "greek_chicken_wrap_step_1",
+        "amount": {
+          "qty": 1301.3,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "tortilla",
+        "amount": {
+          "qty": 4,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "olive_oil",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "greek_chicken_wrap_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Brush one side of each tortilla with olive oil. Add ¼ of chicken mixture and roll the longer side up.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'4 flour tortillas': 'flour' read as pieces"
+    },
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Olive oil': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "flaky_pastry_dough.step_5",
+  "source": "wikibooks_flaky_pastry_dough",
+  "sourceRef": {
+    "source": "wikibooks_flaky_pastry_dough",
+    "step": 5
+  },
+  "technique": "fold",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "flaky_pastry_dough_step_4",
+        "amount": {
+          "qty": 907.5,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "flaky_pastry_dough_step_5",
+      "amount": {
+        "qty": 907.5,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Flake the dough with part of the butter.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

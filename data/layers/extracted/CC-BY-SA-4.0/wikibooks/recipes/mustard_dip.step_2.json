@@ -1,0 +1,48 @@
+{
+  "id": "mustard_dip.step_2",
+  "source": "wikibooks_mustard_dip",
+  "sourceRef": {
+    "source": "wikibooks_mustard_dip",
+    "step": 2
+  },
+  "technique": "chill",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "mustard_dip_step_1",
+        "amount": {
+          "qty": 192.2,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "mustard_dip",
+      "amount": {
+        "qty": 192.2,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Store refrigerated for up to a few days.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

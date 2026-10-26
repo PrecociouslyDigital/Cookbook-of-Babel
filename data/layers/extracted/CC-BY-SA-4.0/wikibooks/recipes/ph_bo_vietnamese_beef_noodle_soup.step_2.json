@@ -1,0 +1,60 @@
+{
+  "id": "ph_bo_vietnamese_beef_noodle_soup.step_2",
+  "source": "wikibooks_ph_bo_vietnamese_beef_noodle_soup",
+  "sourceRef": {
+    "source": "wikibooks_ph_bo_vietnamese_beef_noodle_soup",
+    "step": 2
+  },
+  "technique": "simmer",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "ph_bo_vietnamese_beef_noodle_soup_step_1",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "beef",
+        "amount": {
+          "qty": 5,
+          "unit": "lb"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "ph_bo_vietnamese_beef_noodle_soup_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 90,
+    "medium": "simmering_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 12.5,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Rinse the beef bones, place in a stockpot, cover with cold water, and bring slowly to a boil. Reduce heat and simmer, uncovered, for 10–15 minutes. For a clear broth skim off foam.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.56"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of simmer's typical range"
+    }
+  ]
+}

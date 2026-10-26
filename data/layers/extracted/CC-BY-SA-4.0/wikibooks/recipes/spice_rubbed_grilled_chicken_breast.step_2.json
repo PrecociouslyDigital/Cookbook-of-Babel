@@ -1,0 +1,62 @@
+{
+  "id": "spice_rubbed_grilled_chicken_breast.step_2",
+  "source": "wikibooks_spice_rubbed_grilled_chicken_breast",
+  "sourceRef": {
+    "source": "wikibooks_spice_rubbed_grilled_chicken_breast",
+    "step": 2
+  },
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "spice_rubbed_grilled_chicken_breast_step_1",
+        "amount": {
+          "qty": 195.2,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "chicken",
+        "amount": {
+          "qty": 5,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "mustard",
+        "amount": {
+          "qty": 1,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "spice_rubbed_grilled_chicken_breast_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Rub mustard all over chicken. Apply seasoning mixture, and press lightly to aid adhesion.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

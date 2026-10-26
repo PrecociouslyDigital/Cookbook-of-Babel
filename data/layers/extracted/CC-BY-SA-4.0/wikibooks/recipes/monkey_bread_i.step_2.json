@@ -1,0 +1,55 @@
+{
+  "id": "monkey_bread_i.step_2",
+  "source": "wikibooks_monkey_bread_i",
+  "sourceRef": {
+    "source": "wikibooks_monkey_bread_i",
+    "step": 2
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "monkey_bread_i_step_1",
+        "amount": {
+          "qty": 155.8,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "biscuit_dough",
+        "amount": {
+          "qty": 4,
+          "unit": "can"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "monkey_bread_i_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Roll biscuit sections in sugar mixture, placing in greased bundt pan or high-sided cake pan. Do not pack tightly.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

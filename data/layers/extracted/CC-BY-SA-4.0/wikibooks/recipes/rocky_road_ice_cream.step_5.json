@@ -1,0 +1,60 @@
+{
+  "id": "rocky_road_ice_cream.step_5",
+  "source": "wikibooks_rocky_road_ice_cream",
+  "sourceRef": {
+    "source": "wikibooks_rocky_road_ice_cream",
+    "step": 5
+  },
+  "technique": "grind",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "rocky_road_ice_cream_step_4",
+        "amount": {
+          "qty": 1225.8,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "chocolate",
+        "amount": {
+          "qty": 1,
+          "unit": "oz"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "rocky_road_ice_cream_step_5",
+      "amount": {
+        "qty": 1254.1,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Shred chocolate with coarse side of grater.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.47"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

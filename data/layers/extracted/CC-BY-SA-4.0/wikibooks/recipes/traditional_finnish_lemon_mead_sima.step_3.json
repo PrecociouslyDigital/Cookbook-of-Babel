@@ -1,0 +1,60 @@
+{
+  "id": "traditional_finnish_lemon_mead_sima.step_3",
+  "source": "wikibooks_traditional_finnish_lemon_mead_sima",
+  "sourceRef": {
+    "source": "wikibooks_traditional_finnish_lemon_mead_sima",
+    "step": 3
+  },
+  "technique": "separate",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "traditional_finnish_lemon_mead_sima_step_2",
+        "amount": {
+          "qty": 8000,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "lemon",
+        "amount": {
+          "qty": 2.5,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "traditional_finnish_lemon_mead_sima_step_3",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Wash the lemons well and peel the zest, being careful not to include the bitter white pith. Put the zest into your container.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.45"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

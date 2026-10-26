@@ -1,0 +1,93 @@
+{
+  "id": "one_cup_chai.step_2",
+  "source": "wikibooks_one_cup_chai",
+  "sourceRef": {
+    "source": "wikibooks_one_cup_chai",
+    "step": 2
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "one_cup_chai_step_1",
+        "amount": {
+          "qty": 177.4,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "honey",
+        "amount": {
+          "qty": 1,
+          "unit": "tbsp"
+        }
+      },
+      {
+        "ingredient": "cardamom",
+        "amount": {
+          "qty": 6,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "clove",
+        "amount": {
+          "qty": 8,
+          "unit": "clove"
+        }
+      },
+      {
+        "ingredient": "pepper",
+        "amount": {
+          "qty": 3,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "cinnamon",
+        "amount": {
+          "qty": 1,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "one_cup_chai_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 90,
+    "medium": "simmering_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "If you have a mortar and pestle, mash the cardamom seeds, cloves, and black pepper corns together. If you do not have a mortar and pestle, then de-shell the cardamom seeds and consider using a pepper grinder. If you have cinnamon stick, break it into four pieces, if you have cinnamon sugar, put it in the water now. Put all of the spices in the water, as well as the honey. Mix well so that the honey dissolves into the water.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.41"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 90.0 °C for simmering_water"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

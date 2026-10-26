@@ -1,0 +1,48 @@
+{
+  "id": "cherbet_meliana_algerian_cherry_beverage.step_3",
+  "source": "wikibooks_cherbet_meliana_algerian_cherry_beverage",
+  "sourceRef": {
+    "source": "wikibooks_cherbet_meliana_algerian_cherry_beverage",
+    "step": 3
+  },
+  "technique": "strain",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "cherbet_meliana_algerian_cherry_beverage_step_2",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "cherbet_meliana_algerian_cherry_beverage",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Remove from heat and strain. Bottle. Serve with sparkling or still water.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

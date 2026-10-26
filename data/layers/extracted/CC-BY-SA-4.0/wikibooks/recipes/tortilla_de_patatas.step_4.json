@@ -1,0 +1,53 @@
+{
+  "id": "tortilla_de_patatas.step_4",
+  "source": "wikibooks_tortilla_de_patatas",
+  "sourceRef": {
+    "source": "wikibooks_tortilla_de_patatas",
+    "step": 4
+  },
+  "technique": "pan_fry",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "tortilla_de_patatas_step_3",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "tortilla_de_patatas_step_4",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 185,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Heat 1 tablespoon of the olive oil in a frying pan and, when it's smoking hot, add the potato and egg mixture. Use a smaller frying pan so you will get a thicker and well-rounded omelette. Shake the pan to avoid the omelette sticking or burning.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of pan_fry's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "quick_and_delicious_pineapple_upside_down_cake.step_7",
+  "source": "wikibooks_quick_and_delicious_pineapple_upside_down_cake",
+  "sourceRef": {
+    "source": "wikibooks_quick_and_delicious_pineapple_upside_down_cake",
+    "step": 7
+  },
+  "technique": "cool",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "quick_and_delicious_pineapple_upside_down_cake_step_6",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "quick_and_delicious_pineapple_upside_down_cake",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Allow to cool before serving.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

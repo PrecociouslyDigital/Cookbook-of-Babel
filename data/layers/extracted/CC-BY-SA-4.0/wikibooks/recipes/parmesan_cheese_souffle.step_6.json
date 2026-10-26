@@ -1,0 +1,55 @@
+{
+  "id": "parmesan_cheese_souffle.step_6",
+  "source": "wikibooks_parmesan_cheese_souffle",
+  "sourceRef": {
+    "source": "wikibooks_parmesan_cheese_souffle",
+    "step": 6
+  },
+  "technique": "whisk",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "parmesan_cheese_souffle_step_5",
+        "amount": {
+          "qty": 1260.5,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "egg",
+        "amount": {
+          "qty": 5,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "parmesan_cheese_souffle_step_6",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Add the egg yolks, one at a time, whisking after each addition.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

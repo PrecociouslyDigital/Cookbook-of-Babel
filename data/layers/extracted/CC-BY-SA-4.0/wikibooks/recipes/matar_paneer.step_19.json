@@ -1,0 +1,58 @@
+{
+  "id": "matar_paneer.step_19",
+  "source": "wikibooks_matar_paneer",
+  "sourceRef": {
+    "source": "wikibooks_matar_paneer",
+    "step": 19
+  },
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "matar_paneer_step_18",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "matar_paneer",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 175,
+    "medium": "frying_oil"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Turn off the gas and add to the matar paneer while serving.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 175.0 °C for frying_oil"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    },
+    {
+      "field": "inputs",
+      "kind": "missing",
+      "note": "no step uses '1 tablespoon chopped coriander' (p=0.99)"
+    }
+  ]
+}

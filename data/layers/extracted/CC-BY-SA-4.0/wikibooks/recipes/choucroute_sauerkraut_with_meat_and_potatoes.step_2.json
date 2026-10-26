@@ -1,0 +1,60 @@
+{
+  "id": "choucroute_sauerkraut_with_meat_and_potatoes.step_2",
+  "source": "wikibooks_choucroute_sauerkraut_with_meat_and_potatoes",
+  "sourceRef": {
+    "source": "wikibooks_choucroute_sauerkraut_with_meat_and_potatoes",
+    "step": 2
+  },
+  "technique": "pan_fry",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "choucroute_sauerkraut_with_meat_and_potatoes_step_1",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "onion",
+        "amount": {
+          "qty": 1,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "choucroute_sauerkraut_with_meat_and_potatoes_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 185,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 5,
+      "unit": "min"
+    }
+  },
+  "stateNote": "When hot, add the onions and sauté until translucent (about 5 minutes or so).",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.56"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of pan_fry's typical range"
+    }
+  ]
+}

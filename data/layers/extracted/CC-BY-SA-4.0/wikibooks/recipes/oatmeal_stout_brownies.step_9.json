@@ -1,0 +1,48 @@
+{
+  "id": "oatmeal_stout_brownies.step_9",
+  "source": "wikibooks_oatmeal_stout_brownies",
+  "sourceRef": {
+    "source": "wikibooks_oatmeal_stout_brownies",
+    "step": 9
+  },
+  "technique": "cool",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "oatmeal_stout_brownies_step_8",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "oatmeal_stout_brownies",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Let brownies cool, uncovered, to room temperature. Dust with confectioners' sugar before serving if desired.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

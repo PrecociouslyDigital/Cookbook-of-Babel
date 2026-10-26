@@ -1,0 +1,48 @@
+{
+  "id": "roast_pork.step_5",
+  "source": "wikibooks_roast_pork",
+  "sourceRef": {
+    "source": "wikibooks_roast_pork",
+    "step": 5
+  },
+  "technique": "roast",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "roast_pork_step_4",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "roast_pork_step_5",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 220,
+    "medium": "oven_air"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "If you have removed the skin, place the skin on a open rack at the top of the oven, with nothing underneath it, and leave it hanging there until cooked and crispy.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": "mushroom_bao_buns.step_7",
+  "source": "wikibooks_mushroom_bao_buns",
+  "sourceRef": {
+    "source": "wikibooks_mushroom_bao_buns",
+    "step": 7
+  },
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "mushroom_bao_buns_step_6",
+        "amount": {
+          "qty": 869.5,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "mushroom_bao_buns_step_7",
+      "amount": {
+        "qty": 869.5,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Roll each piece into a ball, then flatten and roll with a rolling pin into an oval. The oval should not be too much longer than it is wide.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.36"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

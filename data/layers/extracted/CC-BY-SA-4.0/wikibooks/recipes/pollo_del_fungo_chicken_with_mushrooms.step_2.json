@@ -1,0 +1,55 @@
+{
+  "id": "pollo_del_fungo_chicken_with_mushrooms.step_2",
+  "source": "wikibooks_pollo_del_fungo_chicken_with_mushrooms",
+  "sourceRef": {
+    "source": "wikibooks_pollo_del_fungo_chicken_with_mushrooms",
+    "step": 2
+  },
+  "technique": "grind",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "pollo_del_fungo_chicken_with_mushrooms_step_1",
+        "amount": {
+          "qty": 400,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "mushroom",
+        "amount": {
+          "qty": 3,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "pollo_del_fungo_chicken_with_mushrooms_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Wash and dry mushrooms. Mince the mushrooms until very fine.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": "ibiwungu_rwandan_banana_beer.step_11",
+  "source": "wikibooks_ibiwungu_rwandan_banana_beer",
+  "sourceRef": {
+    "source": "wikibooks_ibiwungu_rwandan_banana_beer",
+    "step": 11
+  },
+  "technique": "chill",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "ibiwungu_rwandan_banana_beer_step_10",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "ibiwungu_rwandan_banana_beer",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Seal the bottles or containers tightly and refrigerate for a few hours before serving. This will help to enhance the flavors and carbonation.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    },
+    {
+      "field": "inputs",
+      "kind": "missing",
+      "note": "no step uses 'Banana leaves, for wrapping (optional)' (p=1.0)"
+    }
+  ]
+}

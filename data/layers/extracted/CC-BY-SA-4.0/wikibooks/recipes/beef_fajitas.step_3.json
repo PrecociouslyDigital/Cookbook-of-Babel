@@ -1,0 +1,53 @@
+{
+  "id": "beef_fajitas.step_3",
+  "source": "wikibooks_beef_fajitas",
+  "sourceRef": {
+    "source": "wikibooks_beef_fajitas",
+    "step": 3
+  },
+  "technique": "grill",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "beef_fajitas_step_2",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "beef_fajitas_step_3",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 51,
+    "medium": "convection_air"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Remove steak from marinade and place down as close as possible to coals of a preheated charcoal grill. Cook one side until the internal temperature is 125°F (51°C). Flip and allow to cook until the internal temperature is at least 145°F (63°C) in the thickest part. These temperatures are enough to safely cook the meat, you may like it more well done.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.37"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "id": "fruit_salad_with_orange_soda_ensalada_de_fruta.step_1",
+  "source": "wikibooks_fruit_salad_with_orange_soda_ensalada_de_fruta",
+  "sourceRef": {
+    "source": "wikibooks_fruit_salad_with_orange_soda_ensalada_de_fruta",
+    "step": 1
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "peach",
+        "amount": {
+          "qty": 400,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "pineapple",
+        "amount": {
+          "qty": 150,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "fruit_salad_with_orange_soda_ensalada_de_fruta_step_1",
+      "amount": {
+        "qty": 550,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Place canned fruit in a large bowl along with its juice, making sure you cut the peaches into small pieces.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.57"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

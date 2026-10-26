@@ -1,0 +1,48 @@
+{
+  "id": "green_eggs_and_ham.step_2",
+  "source": "wikibooks_green_eggs_and_ham",
+  "sourceRef": {
+    "source": "wikibooks_green_eggs_and_ham",
+    "step": 2
+  },
+  "technique": "simmer",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "green_eggs_and_ham_step_1",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "green_eggs_and_ham_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 90,
+    "medium": "simmering_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 75,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Bring to the boil and simmer for 60–90 minutes.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of simmer's typical range"
+    }
+  ]
+}

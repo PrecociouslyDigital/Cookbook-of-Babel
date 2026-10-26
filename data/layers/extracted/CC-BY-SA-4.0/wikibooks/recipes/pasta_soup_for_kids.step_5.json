@@ -1,0 +1,79 @@
+{
+  "id": "pasta_soup_for_kids.step_5",
+  "source": "wikibooks_pasta_soup_for_kids",
+  "sourceRef": {
+    "source": "wikibooks_pasta_soup_for_kids",
+    "step": 5
+  },
+  "technique": "simmer",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "pasta_soup_for_kids_step_4",
+        "amount": {
+          "qty": 1419.6,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "pea",
+        "amount": {
+          "qty": 0.5,
+          "unit": "cup"
+        }
+      },
+      {
+        "ingredient": "tofu",
+        "amount": {
+          "qty": 0.5,
+          "unit": "cup"
+        }
+      },
+      {
+        "ingredient": "pasta",
+        "amount": {
+          "qty": 1.25,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "pasta_soup_for_kids_step_5",
+      "amount": {
+        "qty": 1952,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 90,
+    "medium": "simmering_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 5,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Simmer for 5 minutes, then stir in peas, tofu, and cooked pasta.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.5"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for pea, tofu, pasta"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of simmer's typical range"
+    }
+  ]
+}

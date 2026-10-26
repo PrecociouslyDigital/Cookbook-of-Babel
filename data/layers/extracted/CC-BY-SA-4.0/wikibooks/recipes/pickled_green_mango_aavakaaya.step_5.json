@@ -1,0 +1,48 @@
+{
+  "id": "pickled_green_mango_aavakaaya.step_5",
+  "source": "wikibooks_pickled_green_mango_aavakaaya",
+  "sourceRef": {
+    "source": "wikibooks_pickled_green_mango_aavakaaya",
+    "step": 5
+  },
+  "technique": "rinse",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "pickled_green_mango_aavakaaya_step_4",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "pickled_green_mango_aavakaaya_step_5",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Clean the cut pieces with dry cloth. Transfer the cleaned pieces to a basin.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

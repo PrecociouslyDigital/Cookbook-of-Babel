@@ -1,0 +1,60 @@
+{
+  "id": "behari_kabab.step_3",
+  "source": "wikibooks_behari_kabab",
+  "sourceRef": {
+    "source": "wikibooks_behari_kabab",
+    "step": 3
+  },
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "behari_kabab_step_2",
+        "amount": {
+          "qty": 163.7,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "beef",
+        "amount": {
+          "qty": 1,
+          "unit": "lb"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "behari_kabab_step_3",
+      "amount": {
+        "qty": 617.3,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 4,
+      "unit": "h"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Place the meat in a large bowl and pour the marinade over it. Mix well to coat the meat with the marinade. Cover the bowl with plastic wrap and refrigerate for at least 4 hours or overnight.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.59"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "the step names several durations; used the first"
+    }
+  ]
+}

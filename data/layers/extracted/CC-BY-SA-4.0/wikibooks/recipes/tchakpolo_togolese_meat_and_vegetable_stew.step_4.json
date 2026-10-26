@@ -1,0 +1,65 @@
+{
+  "id": "tchakpolo_togolese_meat_and_vegetable_stew.step_4",
+  "source": "wikibooks_tchakpolo_togolese_meat_and_vegetable_stew",
+  "sourceRef": {
+    "source": "wikibooks_tchakpolo_togolese_meat_and_vegetable_stew",
+    "step": 4
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "tchakpolo_togolese_meat_and_vegetable_stew_step_3",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "tomato_paste",
+        "amount": {
+          "qty": 2,
+          "unit": "tbsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "tchakpolo_togolese_meat_and_vegetable_stew_step_4",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 180,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "In a small bowl, mix the tomato paste with a little water to form a smooth paste. Add the tomato paste mixture to the pot and stir well to combine with the meat and vegetables.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.51"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 180.0 °C for pan_contact"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

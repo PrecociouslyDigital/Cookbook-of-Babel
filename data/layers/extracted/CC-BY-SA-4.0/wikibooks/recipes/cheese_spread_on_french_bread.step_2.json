@@ -1,0 +1,74 @@
+{
+  "id": "cheese_spread_on_french_bread.step_2",
+  "source": "wikibooks_cheese_spread_on_french_bread",
+  "sourceRef": {
+    "source": "wikibooks_cheese_spread_on_french_bread",
+    "step": 2
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "cheese_spread_on_french_bread_step_1",
+        "amount": {
+          "qty": 32,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "apple",
+        "amount": {
+          "qty": 0.25,
+          "unit": "cup"
+        }
+      },
+      {
+        "ingredient": "cheddar_cheese",
+        "amount": {
+          "qty": 2,
+          "unit": "cup"
+        }
+      },
+      {
+        "ingredient": "pepper",
+        "amount": {
+          "qty": 0.5,
+          "unit": "tsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "cheese_spread_on_french_bread_step_2",
+      "amount": {
+        "qty": 566.8,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Add the apple juice, cheddar cheese, and pepper, then stir well.",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for apple, cheddar_cheese, pepper"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

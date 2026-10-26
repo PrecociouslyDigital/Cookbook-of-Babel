@@ -1,0 +1,48 @@
+{
+  "id": "tangerine_jelly.step_1",
+  "source": "wikibooks_tangerine_jelly",
+  "sourceRef": {
+    "source": "wikibooks_tangerine_jelly",
+    "step": 1
+  },
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "tangerine",
+        "amount": {
+          "qty": 1,
+          "unit": "dozen"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "tangerine_jelly_step_1",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Cut the tangerines into small pieces, leaving the peel, but removing the seeds.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

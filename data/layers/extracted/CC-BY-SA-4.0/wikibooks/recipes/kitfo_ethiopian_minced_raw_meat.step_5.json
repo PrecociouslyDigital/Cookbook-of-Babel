@@ -1,0 +1,71 @@
+{
+  "id": "kitfo_ethiopian_minced_raw_meat.step_5",
+  "source": "wikibooks_kitfo_ethiopian_minced_raw_meat",
+  "sourceRef": {
+    "source": "wikibooks_kitfo_ethiopian_minced_raw_meat",
+    "step": 5
+  },
+  "technique": "heat",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "kitfo_ethiopian_minced_raw_meat_step_4",
+        "amount": {
+          "qty": 560.2,
+          "unit": "g"
+        }
+      },
+      {
+        "min": 0,
+        "max": 1,
+        "of": [
+          {
+            "ingredient": "spiced_clarified_butter",
+            "amount": {
+              "qty": 1,
+              "unit": "tbsp"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "kitfo_ethiopian_minced_raw_meat_step_5",
+      "amount": {
+        "qty": 575,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 180,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "If using niter qibe, add it to the skillet and let it melt with the clarified butter or olive oil.",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for spiced_clarified_butter"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 180.0 °C for pan_contact"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

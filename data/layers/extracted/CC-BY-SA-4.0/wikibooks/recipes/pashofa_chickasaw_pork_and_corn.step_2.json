@@ -1,0 +1,58 @@
+{
+  "id": "pashofa_chickasaw_pork_and_corn.step_2",
+  "source": "wikibooks_pashofa_chickasaw_pork_and_corn",
+  "sourceRef": {
+    "source": "wikibooks_pashofa_chickasaw_pork_and_corn",
+    "step": 2
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "pashofa_chickasaw_pork_and_corn_step_1",
+        "amount": {
+          "qty": 900,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "pashofa_chickasaw_pork_and_corn_step_2",
+      "amount": {
+        "qty": 900,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Put rinsed corn into a nice, large pot and add enough water to cover by 3–4 inches (7.5–10 cm).",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.39"
+    },
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.54"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

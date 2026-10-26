@@ -1,0 +1,48 @@
+{
+  "id": "ma_amoul_arabian_filled_pastries.step_10",
+  "source": "wikibooks_ma_amoul_arabian_filled_pastries",
+  "sourceRef": {
+    "source": "wikibooks_ma_amoul_arabian_filled_pastries",
+    "step": 10
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "ma_amoul_arabian_filled_pastries_step_9",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "ma_amoul_arabian_filled_pastries_step_10",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Repeat the assembly steps until all the dough and the filling is used. If at any stage the remaining dough shows signs of drying out, knead in a little more water or milk.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

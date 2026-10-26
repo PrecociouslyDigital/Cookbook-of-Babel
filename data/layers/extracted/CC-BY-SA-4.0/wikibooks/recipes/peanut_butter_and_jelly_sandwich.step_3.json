@@ -1,0 +1,48 @@
+{
+  "id": "peanut_butter_and_jelly_sandwich.step_3",
+  "source": "wikibooks_peanut_butter_and_jelly_sandwich",
+  "sourceRef": {
+    "source": "wikibooks_peanut_butter_and_jelly_sandwich",
+    "step": 3
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "peanut_butter_and_jelly_sandwich_step_2",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "peanut_butter_and_jelly_sandwich",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "After applying the jelly, put one of the slices on a plate (jelly side up) and place the other slice on top of the first (jelly side down).",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

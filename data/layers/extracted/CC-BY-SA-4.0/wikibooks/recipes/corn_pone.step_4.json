@@ -1,0 +1,48 @@
+{
+  "id": "corn_pone.step_4",
+  "source": "wikibooks_corn_pone",
+  "sourceRef": {
+    "source": "wikibooks_corn_pone",
+    "step": 4
+  },
+  "technique": "ferment",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "corn_pone_step_3",
+        "amount": {
+          "qty": 975.4,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "corn_pone_step_4",
+      "amount": {
+        "qty": 975.4,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 8,
+      "unit": "h"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Let rise overnight.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "'overnight' read as 8 hours"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "algerian_couscous_with_meat_and_vegetables.step_14",
+  "source": "wikibooks_algerian_couscous_with_meat_and_vegetables",
+  "sourceRef": {
+    "source": "wikibooks_algerian_couscous_with_meat_and_vegetables",
+    "step": 14
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "algerian_couscous_with_meat_and_vegetables_step_13",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "algerian_couscous_with_meat_and_vegetables",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 90,
+    "medium": "simmering_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Place the couscous on a large platter, arrange the meat and vegetables on top, and pour some of the broth over everything.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.47"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 90.0 °C for simmering_water"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    },
+    {
+      "field": "inputs",
+      "kind": "missing",
+      "note": "no step uses '1 green bell pepper, cut into chunks' (p=0.92)"
+    }
+  ]
+}

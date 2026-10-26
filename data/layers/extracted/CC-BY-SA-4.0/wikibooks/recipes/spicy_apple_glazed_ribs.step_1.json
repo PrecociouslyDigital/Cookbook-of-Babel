@@ -1,0 +1,55 @@
+{
+  "id": "spicy_apple_glazed_ribs.step_1",
+  "source": "wikibooks_spicy_apple_glazed_ribs",
+  "sourceRef": {
+    "source": "wikibooks_spicy_apple_glazed_ribs",
+    "step": 1
+  },
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "pork",
+        "amount": {
+          "qty": 1,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "barbecue_rub",
+        "amount": {
+          "qty": 0.25,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "spicy_apple_glazed_ribs_step_1",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "h"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Season pork with barbecue rub, and refrigerate for at least 1 hour.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'1 slab pork spareribs': 'slab' read as pieces"
+    }
+  ]
+}

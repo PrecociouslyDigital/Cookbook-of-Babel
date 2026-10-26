@@ -1,0 +1,74 @@
+{
+  "id": "spaghetti_with_bolognese_meat_sauce.step_1",
+  "source": "wikibooks_spaghetti_with_bolognese_meat_sauce",
+  "sourceRef": {
+    "source": "wikibooks_spaghetti_with_bolognese_meat_sauce",
+    "step": 1
+  },
+  "technique": "chop",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "onion",
+        "amount": {
+          "qty": 1,
+          "unit": "cup"
+        }
+      },
+      {
+        "ingredient": "celery",
+        "amount": {
+          "qty": 0.25,
+          "unit": "cup"
+        }
+      },
+      {
+        "ingredient": "carrot",
+        "amount": {
+          "qty": 0.25,
+          "unit": "cup"
+        }
+      },
+      {
+        "ingredient": "fennel",
+        "amount": {
+          "qty": 0.25,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "spaghetti_with_bolognese_meat_sauce_step_1",
+      "amount": {
+        "qty": 414,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Mix the coarsely chopped onion, carrot, celery and fennel (optional) together and finely chop them (this is called a battuto in Italian, or a finely chopped mixture of vegetables and herbs to flavour a dish).",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for onion, celery, carrot, fennel"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

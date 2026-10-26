@@ -1,0 +1,65 @@
+{
+  "id": "charoset_iraqi.step_2",
+  "source": "wikibooks_charoset_iraqi",
+  "sourceRef": {
+    "source": "wikibooks_charoset_iraqi",
+    "step": 2
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "charoset_iraqi_step_1",
+        "amount": {
+          "qty": 500.7,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "walnut",
+        "amount": {
+          "qty": 125,
+          "unit": "ml"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "charoset_iraqi",
+      "amount": {
+        "qty": 625.7,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Mix in finely chopped nuts.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.36"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for walnut"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

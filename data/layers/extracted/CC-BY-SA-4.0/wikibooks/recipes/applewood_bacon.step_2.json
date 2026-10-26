@@ -1,0 +1,60 @@
+{
+  "id": "applewood_bacon.step_2",
+  "source": "wikibooks_applewood_bacon",
+  "sourceRef": {
+    "source": "wikibooks_applewood_bacon",
+    "step": 2
+  },
+  "technique": "cool",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "applewood_bacon_step_1",
+        "amount": {
+          "qty": 4755.5,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "iced_water",
+        "amount": {
+          "qty": 1,
+          "unit": "gal"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "applewood_bacon_step_2",
+      "amount": {
+        "qty": 8540.9,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Transfer cider mixture to a very large container, and add iced water.",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for iced_water"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

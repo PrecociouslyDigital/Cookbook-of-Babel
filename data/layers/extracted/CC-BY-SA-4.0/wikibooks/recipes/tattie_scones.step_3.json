@@ -1,0 +1,65 @@
+{
+  "id": "tattie_scones.step_3",
+  "source": "wikibooks_tattie_scones",
+  "sourceRef": {
+    "source": "wikibooks_tattie_scones",
+    "step": 3
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "tattie_scones_step_2",
+        "amount": {
+          "qty": 1000.7,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "wheat_flour",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "tattie_scones_step_3",
+      "amount": {
+        "qty": 1000.9,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "When the potatoes are cold, stir in flour and a little more melted butter to make a smooth dough. Roll out to a thickness of about 5 mm, and cut into 3-inch (7.5 cm) wedges.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.59"
+    },
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Flour': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

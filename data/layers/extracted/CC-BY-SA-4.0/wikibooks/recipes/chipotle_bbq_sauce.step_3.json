@@ -1,0 +1,41 @@
+{
+  "id": "chipotle_bbq_sauce.step_3",
+  "source": "wikibooks_chipotle_bbq_sauce",
+  "sourceRef": {
+    "source": "wikibooks_chipotle_bbq_sauce",
+    "step": 3
+  },
+  "technique": "blend",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "chipotle_bbq_sauce_step_2",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "chipotle_bbq_sauce_step_3",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 15,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Cool for 15 minutes and purée in batches until smooth."
+}

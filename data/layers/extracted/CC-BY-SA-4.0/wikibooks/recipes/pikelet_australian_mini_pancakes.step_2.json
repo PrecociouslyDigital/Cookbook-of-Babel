@@ -1,0 +1,67 @@
+{
+  "id": "pikelet_australian_mini_pancakes.step_2",
+  "source": "wikibooks_pikelet_australian_mini_pancakes",
+  "sourceRef": {
+    "source": "wikibooks_pikelet_australian_mini_pancakes",
+    "step": 2
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "pikelet_australian_mini_pancakes_step_1",
+        "amount": {
+          "qty": 260.4,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "yeast",
+        "amount": {
+          "qty": 8,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "water",
+        "amount": {
+          "qty": 250,
+          "unit": "ml"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "pikelet_australian_mini_pancakes_step_2",
+      "amount": {
+        "qty": 518.4,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Crumble the yeast into a small bowl and slowly add the water until you have a brown paste.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.53"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

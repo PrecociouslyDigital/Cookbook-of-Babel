@@ -1,0 +1,66 @@
+{
+  "id": "cola_iii.step_3",
+  "source": "wikibooks_cola_iii",
+  "sourceRef": {
+    "source": "wikibooks_cola_iii",
+    "step": 3
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "cola_iii_step_2",
+        "amount": {
+          "qty": 560.4,
+          "unit": "g"
+        }
+      },
+      {
+        "min": 0,
+        "max": 1,
+        "of": [
+          {
+            "ingredient": "caffeine",
+            "amount": {
+              "qty": 25,
+              "unit": "mg"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "cola_iii_step_3",
+      "amount": {
+        "qty": 560.4,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Remove the syrup from the heat, and stir in the caffeine and oil mixture. Let cool.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.44"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

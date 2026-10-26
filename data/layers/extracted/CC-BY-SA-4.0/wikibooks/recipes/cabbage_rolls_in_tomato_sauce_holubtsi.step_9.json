@@ -1,0 +1,58 @@
+{
+  "id": "cabbage_rolls_in_tomato_sauce_holubtsi.step_9",
+  "source": "wikibooks_cabbage_rolls_in_tomato_sauce_holubtsi",
+  "sourceRef": {
+    "source": "wikibooks_cabbage_rolls_in_tomato_sauce_holubtsi",
+    "step": 9
+  },
+  "technique": "separate",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "cabbage_rolls_in_tomato_sauce_holubtsi_step_8",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "cabbage_rolls_in_tomato_sauce_holubtsi_step_9",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Remove cabbage rolls from pan, and take out toothpicks. Place on the serving dish",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.55"
+    },
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.32"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

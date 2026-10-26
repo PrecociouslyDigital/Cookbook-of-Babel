@@ -1,0 +1,74 @@
+{
+  "id": "sincronizada_fried_ham_and_cheese_tortilla_sandwich.step_2",
+  "source": "wikibooks_sincronizada_fried_ham_and_cheese_tortilla_sandwich",
+  "sourceRef": {
+    "source": "wikibooks_sincronizada_fried_ham_and_cheese_tortilla_sandwich",
+    "step": 2
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "tortilla",
+        "amount": {
+          "qty": 2,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "ham",
+        "amount": {
+          "qty": 1,
+          "unit": "slice"
+        }
+      },
+      {
+        "ingredient": "queso_fresco",
+        "amount": {
+          "qty": 1,
+          "unit": "slice"
+        }
+      },
+      {
+        "ingredient": "oil_and_fat",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "sincronizada_fried_ham_and_cheese_tortilla_sandwich_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "On a cutting board, with two tortillas, place a slice of deli ham and then queso fresco in the middle, and place another tortilla on top.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Oil': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

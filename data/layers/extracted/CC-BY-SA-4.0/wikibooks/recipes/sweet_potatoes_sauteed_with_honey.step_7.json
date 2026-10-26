@@ -1,0 +1,58 @@
+{
+  "id": "sweet_potatoes_sauteed_with_honey.step_7",
+  "source": "wikibooks_sweet_potatoes_sauteed_with_honey",
+  "sourceRef": {
+    "source": "wikibooks_sweet_potatoes_sauteed_with_honey",
+    "step": 7
+  },
+  "technique": "stir_fry",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "sweet_potatoes_sauteed_with_honey_step_6",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "sweet_potatoes_sauteed_with_honey",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 215,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 10,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Cook for about 10 minutes, stirring the sweet potatoes every other minute. It's important to stir the potato pieces in order to prevent them from burning on one side, but stirring them too frequently won't allow them to brown sufficiently, which is why it's important to stir once every 2 minutes or so.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.52"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of stir_fry's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "the step names several durations; used the first"
+    }
+  ]
+}

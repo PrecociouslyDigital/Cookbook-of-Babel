@@ -1,0 +1,48 @@
+{
+  "id": "potato_skins.step_7",
+  "source": "wikibooks_potato_skins",
+  "sourceRef": {
+    "source": "wikibooks_potato_skins",
+    "step": 7
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "potato_skins_step_6",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "potato_skins",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Press green chiles between paper towels to remove excess moisture. Combine chilies, sour cream and red pepper in a small bowl; stir well. Top with remaining 1 tablespoon chives. Serve with potato skins.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

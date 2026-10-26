@@ -1,0 +1,81 @@
+{
+  "id": "bbq_pork_fried_rice.step_1",
+  "source": "wikibooks_bbq_pork_fried_rice",
+  "sourceRef": {
+    "source": "wikibooks_bbq_pork_fried_rice",
+    "step": 1
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "barbecue_sauce_i",
+        "amount": {
+          "qty": 50,
+          "unit": "ml"
+        }
+      },
+      {
+        "ingredient": "soy_sauce",
+        "amount": {
+          "qty": 15,
+          "unit": "ml"
+        }
+      },
+      {
+        "ingredient": "hoisin_sauce",
+        "amount": {
+          "qty": 30,
+          "unit": "ml"
+        }
+      },
+      {
+        "ingredient": "white_sugar",
+        "amount": {
+          "qty": 5,
+          "unit": "tbsp"
+        }
+      },
+      {
+        "ingredient": "salt",
+        "amount": {
+          "qty": 2.5,
+          "unit": "tbsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "bbq_pork_fried_rice_step_1",
+      "amount": {
+        "qty": 202.2,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Combine the barbecue sauce, soy sauce, hoisin sauce, sugar, and salt to make the marinade.",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for barbecue_sauce_i, soy_sauce, hoisin_sauce"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

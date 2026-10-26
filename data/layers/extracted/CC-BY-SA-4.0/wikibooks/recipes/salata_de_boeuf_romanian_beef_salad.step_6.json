@@ -1,0 +1,60 @@
+{
+  "id": "salata_de_boeuf_romanian_beef_salad.step_6",
+  "source": "wikibooks_salata_de_boeuf_romanian_beef_salad",
+  "sourceRef": {
+    "source": "wikibooks_salata_de_boeuf_romanian_beef_salad",
+    "step": 6
+  },
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "salata_de_boeuf_romanian_beef_salad_step_5",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "pickle",
+        "amount": {
+          "qty": 350,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "salata_de_boeuf_romanian_beef_salad_step_6",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Cut the gherkins very finely by cutting 3 mm (⅛ inch) thick slices and then cutting them at 3 mm intervals again along the length and width.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.38"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

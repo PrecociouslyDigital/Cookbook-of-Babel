@@ -1,0 +1,48 @@
+{
+  "id": "fancy_crepes.step_3",
+  "source": "wikibooks_fancy_crepes",
+  "sourceRef": {
+    "source": "wikibooks_fancy_crepes",
+    "step": 3
+  },
+  "technique": "whisk",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "fancy_crepes_step_2",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "fancy_crepes_step_3",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Pour half of the wet mixture into the dry ingredients bowl, and whisk very well. This is where some gluten develops, so experiment with more or less whisking to your taste.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

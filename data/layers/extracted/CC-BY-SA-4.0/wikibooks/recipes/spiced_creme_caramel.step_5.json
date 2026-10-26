@@ -1,0 +1,62 @@
+{
+  "id": "spiced_creme_caramel.step_5",
+  "source": "wikibooks_spiced_creme_caramel",
+  "sourceRef": {
+    "source": "wikibooks_spiced_creme_caramel",
+    "step": 5
+  },
+  "technique": "blend",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "spiced_creme_caramel_step_4",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "bread",
+        "amount": {
+          "qty": 2.5,
+          "unit": "slice"
+        }
+      },
+      {
+        "ingredient": "milk",
+        "amount": {
+          "qty": 250,
+          "unit": "ml"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "spiced_creme_caramel_step_5",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Grind the bread in a blender until powdered. Add cold milk, and blend until smooth. Make sure there are no lumps.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

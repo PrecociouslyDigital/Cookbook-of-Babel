@@ -1,0 +1,60 @@
+{
+  "id": "chocolate_cheesecake.step_15",
+  "source": "wikibooks_chocolate_cheesecake",
+  "sourceRef": {
+    "source": "wikibooks_chocolate_cheesecake",
+    "step": 15
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "chocolate_cheesecake_step_14",
+        "amount": {
+          "qty": 1997.7,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "sour_cream",
+        "amount": {
+          "qty": 0.5,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "chocolate_cheesecake_step_15",
+      "amount": {
+        "qty": 2116,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Mix with sour cream.",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for sour_cream"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

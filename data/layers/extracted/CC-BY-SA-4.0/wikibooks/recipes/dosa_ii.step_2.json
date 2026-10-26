@@ -1,0 +1,48 @@
+{
+  "id": "dosa_ii.step_2",
+  "source": "wikibooks_dosa_ii",
+  "sourceRef": {
+    "source": "wikibooks_dosa_ii",
+    "step": 2
+  },
+  "technique": "grind",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "dosa_ii_step_1",
+        "amount": {
+          "qty": 452.5,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "dosa_ii_step_2",
+      "amount": {
+        "qty": 452.5,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Grind the soaked rice, dal, and fenugreek together to a very smooth consistency; use a blender for best results.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

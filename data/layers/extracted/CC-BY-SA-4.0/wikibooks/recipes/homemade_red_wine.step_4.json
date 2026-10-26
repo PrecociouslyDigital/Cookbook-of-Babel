@@ -1,0 +1,41 @@
+{
+  "id": "homemade_red_wine.step_4",
+  "source": "wikibooks_homemade_red_wine",
+  "sourceRef": {
+    "source": "wikibooks_homemade_red_wine",
+    "step": 4
+  },
+  "technique": "ferment",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "homemade_red_wine_step_3",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "homemade_red_wine_step_4",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 21,
+      "unit": "d"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Cover with an airtight lid, and let ferment in a cool place for 21 days, stirring well every other day."
+}

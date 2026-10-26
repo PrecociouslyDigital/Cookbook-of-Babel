@@ -1,0 +1,72 @@
+{
+  "id": "almond_pancakes.step_3",
+  "source": "wikibooks_almond_pancakes",
+  "sourceRef": {
+    "source": "wikibooks_almond_pancakes",
+    "step": 3
+  },
+  "technique": "heat",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "almond_pancakes_step_2",
+        "amount": {
+          "qty": 164.8,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "buttermilk",
+        "amount": {
+          "qty": 0.75,
+          "unit": "cup"
+        }
+      },
+      {
+        "ingredient": "milk",
+        "amount": {
+          "qty": 0.25,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "almond_pancakes_step_3",
+      "amount": {
+        "qty": 403.2,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 20,
+    "medium": "still_air"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 25,
+      "unit": "s"
+    }
+  },
+  "stateNote": "Microwave buttermilk and milk in a 2-cup Pyrex measuring cup to room temperature, 20 to 30 seconds.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.59"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for buttermilk"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 20.0 °C for still_air"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": "thalassery_biryani.step_14",
+  "source": "wikibooks_thalassery_biryani",
+  "sourceRef": {
+    "source": "wikibooks_thalassery_biryani",
+    "step": 14
+  },
+  "technique": "steam",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "thalassery_biryani_step_13",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "thalassery_biryani",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 100,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Place hot coals or charcoal on the lid while cooking. The flame need to be in a simmer mode in this stage of preparation.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of steam's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    },
+    {
+      "field": "inputs",
+      "kind": "missing",
+      "note": "no step uses 'Table salt to taste' (p=0.92)"
+    }
+  ]
+}

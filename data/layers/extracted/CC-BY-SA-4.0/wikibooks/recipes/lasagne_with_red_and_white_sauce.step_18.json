@@ -1,0 +1,53 @@
+{
+  "id": "lasagne_with_red_and_white_sauce.step_18",
+  "source": "wikibooks_lasagne_with_red_and_white_sauce",
+  "sourceRef": {
+    "source": "wikibooks_lasagne_with_red_and_white_sauce",
+    "step": 18
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "lasagne_with_red_and_white_sauce_step_17",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "lasagne_with_red_and_white_sauce_step_18",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Layer on some Bolognese sauce and bechamel sauce. Keep on layering lasagna noodles, Bolognese sauce, and bechamel sauce until you reach the rim of the dish.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.52"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "puttu_steamed_rice_flour_and_coconut.step_1",
+  "source": "wikibooks_puttu_steamed_rice_flour_and_coconut",
+  "sourceRef": {
+    "source": "wikibooks_puttu_steamed_rice_flour_and_coconut",
+    "step": 1
+  },
+  "technique": "grind",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "coconut",
+        "amount": {
+          "qty": 1,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "puttu_steamed_rice_flour_and_coconut_step_1",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Grate the coconut flesh finely.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

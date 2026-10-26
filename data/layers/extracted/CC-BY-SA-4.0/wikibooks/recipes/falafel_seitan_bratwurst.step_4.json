@@ -1,0 +1,58 @@
+{
+  "id": "falafel_seitan_bratwurst.step_4",
+  "source": "wikibooks_falafel_seitan_bratwurst",
+  "sourceRef": {
+    "source": "wikibooks_falafel_seitan_bratwurst",
+    "step": 4
+  },
+  "technique": "pan_fry",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "falafel_seitan_bratwurst_step_3",
+        "amount": {
+          "qty": 1.5,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "falafel_seitan_bratwurst",
+      "amount": {
+        "qty": 1.5,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 185,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Roll the dough into sausages and fry them in an oiled non-stick pan.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of pan_fry's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    },
+    {
+      "field": "inputs",
+      "kind": "missing",
+      "note": "no step uses 'Chili powder (optional)' (p=1.0)"
+    }
+  ]
+}

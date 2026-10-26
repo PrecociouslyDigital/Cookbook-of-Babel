@@ -1,0 +1,58 @@
+{
+  "id": "sweetened_mulling_spice_mix.step_2",
+  "source": "wikibooks_sweetened_mulling_spice_mix",
+  "sourceRef": {
+    "source": "wikibooks_sweetened_mulling_spice_mix",
+    "step": 2
+  },
+  "technique": "age",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "sweetened_mulling_spice_mix_step_1",
+        "amount": {
+          "qty": 475.9,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "sweetened_mulling_spice_mix",
+      "amount": {
+        "qty": 475.9,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Store in an airtight container.",
+  "issues": [
+    {
+      "field": "sourceRef",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.57"
+    },
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.54"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

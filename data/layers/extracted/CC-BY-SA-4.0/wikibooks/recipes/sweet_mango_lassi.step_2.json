@@ -1,0 +1,67 @@
+{
+  "id": "sweet_mango_lassi.step_2",
+  "source": "wikibooks_sweet_mango_lassi",
+  "sourceRef": {
+    "source": "wikibooks_sweet_mango_lassi",
+    "step": 2
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "sweet_mango_lassi_step_1",
+        "amount": {
+          "qty": 1212.5,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "yogurt",
+        "amount": {
+          "qty": 500,
+          "unit": "ml"
+        }
+      },
+      {
+        "ingredient": "milk",
+        "amount": {
+          "qty": 500,
+          "unit": "ml"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "sweet_mango_lassi_step_2",
+      "amount": {
+        "qty": 2227.5,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Gradually add the milk to the yoghurt.",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for yogurt"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

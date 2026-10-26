@@ -1,0 +1,65 @@
+{
+  "id": "spiced_pumpkin_soup.step_5",
+  "source": "wikibooks_spiced_pumpkin_soup",
+  "sourceRef": {
+    "source": "wikibooks_spiced_pumpkin_soup",
+    "step": 5
+  },
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "spiced_pumpkin_soup_step_4",
+        "amount": {
+          "qty": 1980.6,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "lime",
+        "amount": {
+          "qty": 1,
+          "unit": "tbsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "spiced_pumpkin_soup",
+      "amount": {
+        "qty": 1995.4,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Remove from heat and add lime juice.",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for lime"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    },
+    {
+      "field": "inputs",
+      "kind": "missing",
+      "note": "no step uses '2 garlic cloves, crushed' (p=0.87)"
+    }
+  ]
+}

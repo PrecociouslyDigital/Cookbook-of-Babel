@@ -1,0 +1,60 @@
+{
+  "id": "cornish_fairing.step_4",
+  "source": "wikibooks_cornish_fairing",
+  "sourceRef": {
+    "source": "wikibooks_cornish_fairing",
+    "step": 4
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "cornish_fairing_step_3",
+        "amount": {
+          "qty": 249.2,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "golden_syrup",
+        "amount": {
+          "qty": 2,
+          "unit": "tsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "cornish_fairing_step_4",
+      "amount": {
+        "qty": 259.1,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Add the syrup to the mixture, then stir in until it becomes a dough.",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for golden_syrup"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

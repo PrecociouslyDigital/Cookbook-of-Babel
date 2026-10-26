@@ -1,0 +1,67 @@
+{
+  "id": "bua_loi_rice_balls_in_sweet_coconut_milk.step_1",
+  "source": "wikibooks_bua_loi_rice_balls_in_sweet_coconut_milk",
+  "sourceRef": {
+    "source": "wikibooks_bua_loi_rice_balls_in_sweet_coconut_milk",
+    "step": 1
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "rice_flour",
+        "amount": {
+          "qty": 2,
+          "unit": "cup"
+        }
+      },
+      {
+        "ingredient": "taro_root",
+        "amount": {
+          "qty": 1,
+          "unit": "cup"
+        }
+      },
+      {
+        "ingredient": "water",
+        "amount": {
+          "qty": 0.25,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "bua_loi_rice_balls_in_sweet_coconut_milk_step_1",
+      "amount": {
+        "qty": 768.9,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Combine rice flour, mashed taro, and water to make a dough.",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for rice_flour, taro_root"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

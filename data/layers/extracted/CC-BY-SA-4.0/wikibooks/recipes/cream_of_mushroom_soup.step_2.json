@@ -1,0 +1,60 @@
+{
+  "id": "cream_of_mushroom_soup.step_2",
+  "source": "wikibooks_cream_of_mushroom_soup",
+  "sourceRef": {
+    "source": "wikibooks_cream_of_mushroom_soup",
+    "step": 2
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "cream_of_mushroom_soup_step_1",
+        "amount": {
+          "qty": 85,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "wheat_flour",
+        "amount": {
+          "qty": 10,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "cream_of_mushroom_soup_step_2",
+      "amount": {
+        "qty": 95,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 180,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Add flour, and stir to make roux. Don't let it brown.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 180.0 °C for pan_contact"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

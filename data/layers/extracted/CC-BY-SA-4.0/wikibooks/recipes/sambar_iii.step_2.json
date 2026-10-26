@@ -1,0 +1,65 @@
+{
+  "id": "sambar_iii.step_2",
+  "source": "wikibooks_sambar_iii",
+  "sourceRef": {
+    "source": "wikibooks_sambar_iii",
+    "step": 2
+  },
+  "technique": "strain",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "sambar_iii_step_1",
+        "amount": {
+          "qty": 950.3,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "tamarind",
+        "amount": {
+          "qty": 0.5,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "sambar_iii_step_2",
+      "amount": {
+        "qty": 1068.6,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "To prepare the tamarind pulp, mix the tamarind mass with twice the amount of water, then work with a fork to remove pits; later strain the pulp.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.56"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for tamarind"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

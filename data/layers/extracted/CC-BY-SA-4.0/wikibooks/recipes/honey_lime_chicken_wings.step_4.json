@@ -1,0 +1,88 @@
+{
+  "id": "honey_lime_chicken_wings.step_4",
+  "source": "wikibooks_honey_lime_chicken_wings",
+  "sourceRef": {
+    "source": "wikibooks_honey_lime_chicken_wings",
+    "step": 4
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "honey_lime_chicken_wings_step_3",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "lime",
+        "amount": {
+          "qty": 0.5,
+          "unit": "cup"
+        }
+      },
+      {
+        "ingredient": "honey",
+        "amount": {
+          "qty": 3,
+          "unit": "tbsp"
+        }
+      },
+      {
+        "ingredient": "smoky_chipotle_hot_sauce",
+        "amount": {
+          "qty": 0.25,
+          "unit": "cup"
+        }
+      },
+      {
+        "ingredient": "garlic",
+        "amount": {
+          "qty": 5,
+          "unit": "clove"
+        }
+      },
+      {
+        "ingredient": "food_coloring",
+        "amount": {
+          "qty": 4.5,
+          "unit": "drop"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "honey_lime_chicken_wings",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Meanwhile, combine remaining ingredients in a large nonreactive bowl. Add wings and toss to coat. Serve warm.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.46"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

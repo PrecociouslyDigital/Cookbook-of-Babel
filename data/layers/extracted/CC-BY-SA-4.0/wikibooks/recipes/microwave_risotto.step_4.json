@@ -1,0 +1,65 @@
+{
+  "id": "microwave_risotto.step_4",
+  "source": "wikibooks_microwave_risotto",
+  "sourceRef": {
+    "source": "wikibooks_microwave_risotto",
+    "step": 4
+  },
+  "technique": "toast",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "microwave_risotto_step_3",
+        "amount": {
+          "qty": 862.6,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "rice",
+        "amount": {
+          "qty": 125,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "microwave_risotto_step_4",
+      "amount": {
+        "qty": 987.6,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 185,
+    "medium": "still_air"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 4,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Add uncooked rice to the dish, stir to coat with oil, and cook in microwave for another 4 minutes.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.58"
+    },
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.43"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of toast's typical range"
+    }
+  ]
+}

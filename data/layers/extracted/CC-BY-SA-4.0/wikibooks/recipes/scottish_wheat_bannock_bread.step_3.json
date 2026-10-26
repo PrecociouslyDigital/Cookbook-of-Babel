@@ -1,0 +1,60 @@
+{
+  "id": "scottish_wheat_bannock_bread.step_3",
+  "source": "wikibooks_scottish_wheat_bannock_bread",
+  "sourceRef": {
+    "source": "wikibooks_scottish_wheat_bannock_bread",
+    "step": 3
+  },
+  "technique": "knead",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "scottish_wheat_bannock_bread_step_2",
+        "amount": {
+          "qty": 677.1,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "buttermilk",
+        "amount": {
+          "qty": 1.5,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "scottish_wheat_bannock_bread_step_3",
+      "amount": {
+        "qty": 1032,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Mix in buttermilk to make a soft, workable dough. Knead dough briefly.",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for buttermilk"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

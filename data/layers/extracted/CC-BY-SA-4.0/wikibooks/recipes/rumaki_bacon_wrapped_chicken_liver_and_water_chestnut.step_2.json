@@ -1,0 +1,55 @@
+{
+  "id": "rumaki_bacon_wrapped_chicken_liver_and_water_chestnut.step_2",
+  "source": "wikibooks_rumaki_bacon_wrapped_chicken_liver_and_water_chestnut",
+  "sourceRef": {
+    "source": "wikibooks_rumaki_bacon_wrapped_chicken_liver_and_water_chestnut",
+    "step": 2
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "rumaki_bacon_wrapped_chicken_liver_and_water_chestnut_step_1",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "bacon",
+        "amount": {
+          "qty": 12,
+          "unit": "slice"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "rumaki_bacon_wrapped_chicken_liver_and_water_chestnut_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Place 1 chicken liver piece and 1 chestnut piece in the center of each bacon piece, wrap, and secure with a toothpick.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

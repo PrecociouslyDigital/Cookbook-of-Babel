@@ -1,0 +1,48 @@
+{
+  "id": "egg_noodles_i.step_7",
+  "source": "wikibooks_egg_noodles_i",
+  "sourceRef": {
+    "source": "wikibooks_egg_noodles_i",
+    "step": 7
+  },
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "egg_noodles_i_step_6",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "egg_noodles_i_step_7",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Roll into a large ball and cut into quarters. Overturn the mixing bowl over the cut pieces to protect from dust and drying out.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

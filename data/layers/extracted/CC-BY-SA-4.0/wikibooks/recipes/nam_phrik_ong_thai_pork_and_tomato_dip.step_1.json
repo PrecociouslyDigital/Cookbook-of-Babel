@@ -1,0 +1,67 @@
+{
+  "id": "nam_phrik_ong_thai_pork_and_tomato_dip.step_1",
+  "source": "wikibooks_nam_phrik_ong_thai_pork_and_tomato_dip",
+  "sourceRef": {
+    "source": "wikibooks_nam_phrik_ong_thai_pork_and_tomato_dip",
+    "step": 1
+  },
+  "technique": "grind",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "chiles",
+        "amount": {
+          "qty": 20,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "shallot",
+        "amount": {
+          "qty": 20,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "garlic",
+        "amount": {
+          "qty": 10,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "nam_phrik_ong_thai_pork_and_tomato_dip_step_1",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Pound together the peppers, shallots, and garlic.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'20 dried paprika chile peppers': 'paprika' read as pieces"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

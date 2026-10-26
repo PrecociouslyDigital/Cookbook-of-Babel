@@ -1,0 +1,48 @@
+{
+  "id": "flaky_pie_crust.step_5",
+  "source": "wikibooks_flaky_pie_crust",
+  "sourceRef": {
+    "source": "wikibooks_flaky_pie_crust",
+    "step": 5
+  },
+  "technique": "knead",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "flaky_pie_crust_step_4",
+        "amount": {
+          "qty": 640,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "flaky_pie_crust_step_5",
+      "amount": {
+        "qty": 640,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Form the dough into a ball with your hands, kneading in any loose flour. This should be done as quickly as possible to avoid melting the butter in the dough.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

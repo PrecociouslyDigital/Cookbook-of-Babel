@@ -1,0 +1,55 @@
+{
+  "id": "bacon_wrapped_scallops.step_3",
+  "source": "wikibooks_bacon_wrapped_scallops",
+  "sourceRef": {
+    "source": "wikibooks_bacon_wrapped_scallops",
+    "step": 3
+  },
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "bacon_wrapped_scallops_step_2",
+        "amount": {
+          "qty": 1250.7,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "bacon",
+        "amount": {
+          "qty": 0.5,
+          "unit": "lb"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "bacon_wrapped_scallops_step_3",
+      "amount": {
+        "qty": 1477.5,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Cut bacon strips in half lengthwise.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

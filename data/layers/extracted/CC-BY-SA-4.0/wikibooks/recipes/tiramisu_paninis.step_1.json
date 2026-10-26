@@ -1,0 +1,55 @@
+{
+  "id": "tiramisu_paninis.step_1",
+  "source": "wikibooks_tiramisu_paninis",
+  "sourceRef": {
+    "source": "wikibooks_tiramisu_paninis",
+    "step": 1
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "bread",
+        "amount": {
+          "qty": 8,
+          "unit": "slice"
+        }
+      },
+      {
+        "ingredient": "coffee",
+        "amount": {
+          "qty": 1.25,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "tiramisu_paninis_step_1",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 0.5,
+      "unit": "h"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "In a 13x9-inch roasting pan, pour in coffee. Add bread slices and add a weight if they float. Let sit for ½ hour.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.38"
+    }
+  ]
+}

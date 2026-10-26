@@ -1,0 +1,72 @@
+{
+  "id": "agar_jelly.step_7",
+  "source": "wikibooks_agar_jelly",
+  "sourceRef": {
+    "source": "wikibooks_agar_jelly",
+    "step": 7
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "agar_jelly_step_6",
+        "amount": {
+          "qty": 682.5,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "fruit_cocktail",
+        "amount": {
+          "qty": 6,
+          "unit": "tbsp"
+        }
+      },
+      {
+        "ingredient": "syrup",
+        "amount": {
+          "qty": 150,
+          "unit": "ml"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "agar_jelly",
+      "amount": {
+        "qty": 921.2,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Serve with fruit cocktail and syrup in a glass bowl.",
+  "issues": [
+    {
+      "field": "sourceRef",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.5"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for fruit_cocktail, syrup"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

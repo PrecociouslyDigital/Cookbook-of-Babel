@@ -1,0 +1,55 @@
+{
+  "id": "rasam_tamarind_and_tomato_soup.step_3",
+  "source": "wikibooks_rasam_tamarind_and_tomato_soup",
+  "sourceRef": {
+    "source": "wikibooks_rasam_tamarind_and_tomato_soup",
+    "step": 3
+  },
+  "technique": "rinse",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "rasam_tamarind_and_tomato_soup_step_2",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "pigeon_pea",
+        "amount": {
+          "qty": 14,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "rasam_tamarind_and_tomato_soup_step_3",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Wash the toovar dhal thoroughly until the water runs clear.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

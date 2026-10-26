@@ -1,0 +1,48 @@
+{
+  "id": "pork_stomach_filled_with_meat_and_vegetables_saumagen.step_1",
+  "source": "wikibooks_pork_stomach_filled_with_meat_and_vegetables_saumagen",
+  "sourceRef": {
+    "source": "wikibooks_pork_stomach_filled_with_meat_and_vegetables_saumagen",
+    "step": 1
+  },
+  "technique": "rinse",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "pork",
+        "amount": {
+          "qty": 1,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "pork_stomach_filled_with_meat_and_vegetables_saumagen_step_1",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 8,
+      "unit": "h"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Soak the pork stomach overnight and use twine to close two of the three apertures.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "'overnight' read as 8 hours"
+    }
+  ]
+}

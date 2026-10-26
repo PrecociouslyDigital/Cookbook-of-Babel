@@ -1,0 +1,55 @@
+{
+  "id": "eclairs.step_4",
+  "source": "wikibooks_eclairs",
+  "sourceRef": {
+    "source": "wikibooks_eclairs",
+    "step": 4
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "eclairs_step_3",
+        "amount": {
+          "qty": 375.4,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "egg",
+        "amount": {
+          "qty": 3,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "eclairs_step_4",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 3.5,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Let the mixture cool for 3–4 minutes. Pour in a little of the beaten egg into the flour mixture and beat it in well. Keep adding and beating in the egg, a little at a time, until the dough looks thick, smooth and shiny and still holds its shape well. You may not need the last two or three tablespoonfuls of egg if your eggs are large.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.54"
+    }
+  ]
+}

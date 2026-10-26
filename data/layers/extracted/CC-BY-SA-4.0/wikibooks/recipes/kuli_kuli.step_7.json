@@ -1,0 +1,53 @@
+{
+  "id": "kuli_kuli.step_7",
+  "source": "wikibooks_kuli_kuli",
+  "sourceRef": {
+    "source": "wikibooks_kuli_kuli",
+    "step": 7
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "kuli_kuli_step_6",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "kuli_kuli_step_7",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Take teaspoonfuls of the dough and roll them into small balls or form them into flat discs, depending on your preference. You can also shape them into small cylinders or oval shapes, like traditional kuli-kuli. You can experiment with different shapes.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.45"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

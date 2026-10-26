@@ -1,0 +1,55 @@
+{
+  "id": "potato_pie.step_3",
+  "source": "wikibooks_potato_pie",
+  "sourceRef": {
+    "source": "wikibooks_potato_pie",
+    "step": 3
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "potato_pie_step_2",
+        "amount": {
+          "qty": 475.5,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "butter",
+        "amount": {
+          "qty": 2,
+          "unit": "oz"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "potato_pie_step_3",
+      "amount": {
+        "qty": 532.2,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Add a dash of water to the potatoes, and scatter the chopped butter over top.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

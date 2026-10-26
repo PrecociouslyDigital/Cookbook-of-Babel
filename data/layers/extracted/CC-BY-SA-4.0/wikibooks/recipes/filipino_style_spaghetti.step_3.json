@@ -1,0 +1,58 @@
+{
+  "id": "filipino_style_spaghetti.step_3",
+  "source": "wikibooks_filipino_style_spaghetti",
+  "sourceRef": {
+    "source": "wikibooks_filipino_style_spaghetti",
+    "step": 3
+  },
+  "technique": "separate",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "filipino_style_spaghetti_step_2",
+        "amount": {
+          "qty": 327.2,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "filipino_style_spaghetti_step_3",
+      "amount": {
+        "qty": 327.2,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 175,
+    "medium": "frying_oil"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Transfer hot dogs to a plate using a slotted spoon, leaving the oil behind.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.54"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 175.0 °C for frying_oil"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

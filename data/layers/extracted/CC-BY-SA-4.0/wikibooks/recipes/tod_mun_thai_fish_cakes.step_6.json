@@ -1,0 +1,48 @@
+{
+  "id": "tod_mun_thai_fish_cakes.step_6",
+  "source": "wikibooks_tod_mun_thai_fish_cakes",
+  "sourceRef": {
+    "source": "wikibooks_tod_mun_thai_fish_cakes",
+    "step": 6
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "tod_mun_thai_fish_cakes_step_5",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "tod_mun_thai_fish_cakes_step_6",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Add the green beans and lime leaves to the mixture and stir again.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

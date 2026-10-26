@@ -1,0 +1,48 @@
+{
+  "id": "chestnut_puree.step_5",
+  "source": "wikibooks_chestnut_puree",
+  "sourceRef": {
+    "source": "wikibooks_chestnut_puree",
+    "step": 5
+  },
+  "technique": "strain",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "chestnut_puree_step_4",
+        "amount": {
+          "qty": 946.6,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "chestnut_puree_step_5",
+      "amount": {
+        "qty": 946.6,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Pass the cooked chestnuts through a fine sieve.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

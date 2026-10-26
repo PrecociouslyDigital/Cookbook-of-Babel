@@ -1,0 +1,48 @@
+{
+  "id": "qabuli_central_asian_rice_pilaf.step_1",
+  "source": "wikibooks_qabuli_central_asian_rice_pilaf",
+  "sourceRef": {
+    "source": "wikibooks_qabuli_central_asian_rice_pilaf",
+    "step": 1
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "chickpea",
+        "amount": {
+          "qty": 500,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "qabuli_central_asian_rice_pilaf_step_1",
+      "amount": {
+        "qty": 500,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 30,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Soak the chickpeas for half an hour.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.32"
+    }
+  ]
+}

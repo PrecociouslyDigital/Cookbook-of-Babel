@@ -1,0 +1,53 @@
+{
+  "id": "pasta_meat_and_cheese_casserole_mostaccioli.step_6",
+  "source": "wikibooks_pasta_meat_and_cheese_casserole_mostaccioli",
+  "sourceRef": {
+    "source": "wikibooks_pasta_meat_and_cheese_casserole_mostaccioli",
+    "step": 6
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "pasta_meat_and_cheese_casserole_mostaccioli_step_5",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "pasta_meat_and_cheese_casserole_mostaccioli_step_6",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Spread cheese mixture evenly over the top. cover with remaining pasta.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.54"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

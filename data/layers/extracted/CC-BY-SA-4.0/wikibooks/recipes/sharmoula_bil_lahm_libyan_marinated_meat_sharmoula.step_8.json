@@ -1,0 +1,53 @@
+{
+  "id": "sharmoula_bil_lahm_libyan_marinated_meat_sharmoula.step_8",
+  "source": "wikibooks_sharmoula_bil_lahm_libyan_marinated_meat_sharmoula",
+  "sourceRef": {
+    "source": "wikibooks_sharmoula_bil_lahm_libyan_marinated_meat_sharmoula",
+    "step": 8
+  },
+  "technique": "cool",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "sharmoula_bil_lahm_libyan_marinated_meat_sharmoula_step_7",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "sharmoula_bil_lahm_libyan_marinated_meat_sharmoula_step_8",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Once cooked, remove the skewers from the grill and let them rest for a few minutes.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.42"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

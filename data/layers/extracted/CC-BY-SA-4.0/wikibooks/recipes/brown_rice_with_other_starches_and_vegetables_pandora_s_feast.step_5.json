@@ -1,0 +1,63 @@
+{
+  "id": "brown_rice_with_other_starches_and_vegetables_pandora_s_feast.step_5",
+  "source": "wikibooks_brown_rice_with_other_starches_and_vegetables_pandora_s_feast",
+  "sourceRef": {
+    "source": "wikibooks_brown_rice_with_other_starches_and_vegetables_pandora_s_feast",
+    "step": 5
+  },
+  "technique": "heat",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "brown_rice_with_other_starches_and_vegetables_pandora_s_feast_step_4",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "brown_rice_with_other_starches_and_vegetables_pandora_s_feast_step_5",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 90,
+    "medium": "simmering_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "If using a fuzzy logic (i.e. programmable) cooker, set the cooker to the brown rice setting and turn it on. If using an on/off cooker, simply turn it on.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.52"
+    },
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.43"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 90.0 °C for simmering_water"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

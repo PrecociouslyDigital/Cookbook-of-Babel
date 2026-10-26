@@ -1,0 +1,48 @@
+{
+  "id": "fry_sauce.step_2",
+  "source": "wikibooks_fry_sauce",
+  "sourceRef": {
+    "source": "wikibooks_fry_sauce",
+    "step": 2
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "fry_sauce_step_1",
+        "amount": {
+          "qty": 14.8,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "fry_sauce",
+      "amount": {
+        "qty": 14.8,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Mix until the sauce is a strong pink colour.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

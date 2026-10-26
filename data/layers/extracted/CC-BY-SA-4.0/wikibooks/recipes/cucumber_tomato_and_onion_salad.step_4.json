@@ -1,0 +1,63 @@
+{
+  "id": "cucumber_tomato_and_onion_salad.step_4",
+  "source": "wikibooks_cucumber_tomato_and_onion_salad",
+  "sourceRef": {
+    "source": "wikibooks_cucumber_tomato_and_onion_salad",
+    "step": 4
+  },
+  "technique": "chill",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "cucumber_tomato_and_onion_salad_step_3",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "cucumber_tomato_and_onion_salad",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Refrigerate, then serve cool to cold, while the ingredients are still crisp.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    },
+    {
+      "field": "inputs",
+      "kind": "missing",
+      "note": "no step uses '1 small white onion, diced (perhaps a sliced green onion could be substituted)' (p=0.58)"
+    },
+    {
+      "field": "inputs",
+      "kind": "missing",
+      "note": "no step uses '1 (or more, if in season) tomato, diced or wedged (optional, adds color)' (p=0.74)"
+    },
+    {
+      "field": "inputs",
+      "kind": "missing",
+      "note": "no step uses 'Additional seasoning as you may desire (e.g. salt)' (p=0.79)"
+    }
+  ]
+}

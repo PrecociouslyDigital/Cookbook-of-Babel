@@ -1,0 +1,55 @@
+{
+  "id": "egg_cheese_and_phyllo_casserole_banitsa.step_2",
+  "source": "wikibooks_egg_cheese_and_phyllo_casserole_banitsa",
+  "sourceRef": {
+    "source": "wikibooks_egg_cheese_and_phyllo_casserole_banitsa",
+    "step": 2
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "egg_cheese_and_phyllo_casserole_banitsa_step_1",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "phyllo_dough",
+        "amount": {
+          "qty": 2,
+          "unit": "package"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "egg_cheese_and_phyllo_casserole_banitsa_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "In a buttered pan, lay a layer of the phyllo dough, spread a layer of the mixture, and continue alternating layers so that the phyllo and the mixture are finished about the same time.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

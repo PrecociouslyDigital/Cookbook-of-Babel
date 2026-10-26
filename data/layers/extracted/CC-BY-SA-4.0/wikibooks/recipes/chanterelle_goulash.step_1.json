@@ -1,0 +1,48 @@
+{
+  "id": "chanterelle_goulash.step_1",
+  "source": "wikibooks_chanterelle_goulash",
+  "sourceRef": {
+    "source": "wikibooks_chanterelle_goulash",
+    "step": 1
+  },
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "mushroom",
+        "amount": {
+          "qty": 800,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "chanterelle_goulash_step_1",
+      "amount": {
+        "qty": 800,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Cut the big mushrooms into halves. All of them should have approximately the same size, which averages 2–3 cm.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

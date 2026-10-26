@@ -1,0 +1,55 @@
+{
+  "id": "cornstarch_slurry.step_2",
+  "source": "wikibooks_cornstarch_slurry",
+  "sourceRef": {
+    "source": "wikibooks_cornstarch_slurry",
+    "step": 2
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "cornstarch_slurry_step_1",
+        "amount": {
+          "qty": 8.1,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "water",
+        "amount": {
+          "qty": 2,
+          "unit": "tbsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "cornstarch_slurry",
+      "amount": {
+        "qty": 37.7,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Add water and mix thoroughly with a fork. Re-mix as needed to keep the cornstarch in suspension.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

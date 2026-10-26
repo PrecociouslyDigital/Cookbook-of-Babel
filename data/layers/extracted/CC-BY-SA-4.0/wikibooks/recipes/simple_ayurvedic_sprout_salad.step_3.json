@@ -1,0 +1,67 @@
+{
+  "id": "simple_ayurvedic_sprout_salad.step_3",
+  "source": "wikibooks_simple_ayurvedic_sprout_salad",
+  "sourceRef": {
+    "source": "wikibooks_simple_ayurvedic_sprout_salad",
+    "step": 3
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "simple_ayurvedic_sprout_salad_step_2",
+        "amount": {
+          "qty": 503.5,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "cilantro",
+        "amount": {
+          "qty": 1,
+          "unit": "tbsp"
+        }
+      },
+      {
+        "ingredient": "sunflower_seeds",
+        "amount": {
+          "qty": 1,
+          "unit": "tbsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "simple_ayurvedic_sprout_salad",
+      "amount": {
+        "qty": 533.1,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Garnish with the cilantro and sunflower seeds, and serve at room temperature or cool.",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for cilantro, sunflower_seeds"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

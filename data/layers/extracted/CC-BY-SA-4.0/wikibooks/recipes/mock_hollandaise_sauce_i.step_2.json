@@ -1,0 +1,58 @@
+{
+  "id": "mock_hollandaise_sauce_i.step_2",
+  "source": "wikibooks_mock_hollandaise_sauce_i",
+  "sourceRef": {
+    "source": "wikibooks_mock_hollandaise_sauce_i",
+    "step": 2
+  },
+  "technique": "separate",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "mock_hollandaise_sauce_i_step_1",
+        "amount": {
+          "qty": 170,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "mock_hollandaise_sauce_i_step_2",
+      "amount": {
+        "qty": 170,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 180,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Skim off the milk solids, and keep the clarified butter warm/liquid (in a hot cup will do fine).",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.41"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 180.0 °C for pan_contact"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

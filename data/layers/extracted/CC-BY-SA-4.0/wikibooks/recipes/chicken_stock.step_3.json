@@ -1,0 +1,53 @@
+{
+  "id": "chicken_stock.step_3",
+  "source": "wikibooks_chicken_stock",
+  "sourceRef": {
+    "source": "wikibooks_chicken_stock",
+    "step": 3
+  },
+  "technique": "separate",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "chicken_stock_step_2",
+        "amount": {
+          "qty": 9385.2,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "chicken_stock_step_3",
+      "amount": {
+        "qty": 9385.2,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 90,
+    "medium": "simmering_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Scum will begin to rise to the surface. As it does so, skim it off with a perforated spoon.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 90.0 °C for simmering_water"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

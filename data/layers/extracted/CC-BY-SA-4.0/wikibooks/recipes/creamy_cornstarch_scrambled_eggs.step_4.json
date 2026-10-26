@@ -1,0 +1,53 @@
+{
+  "id": "creamy_cornstarch_scrambled_eggs.step_4",
+  "source": "wikibooks_creamy_cornstarch_scrambled_eggs",
+  "sourceRef": {
+    "source": "wikibooks_creamy_cornstarch_scrambled_eggs",
+    "step": 4
+  },
+  "technique": "coagulate",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "creamy_cornstarch_scrambled_eggs_step_3",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "creamy_cornstarch_scrambled_eggs_step_4",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 180,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 3,
+      "unit": "s"
+    }
+  },
+  "stateNote": "Wait until the butter’s melted and bubbly, but before it browns. Add the beaten eggs. Wait without stirring anything, until the edges of the eggs start to bubble up (about 3 seconds).",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.38"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 180.0 °C for pan_contact"
+    }
+  ]
+}

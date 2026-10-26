@@ -1,0 +1,65 @@
+{
+  "id": "chicken_alfredo.step_8",
+  "source": "wikibooks_chicken_alfredo",
+  "sourceRef": {
+    "source": "wikibooks_chicken_alfredo",
+    "step": 8
+  },
+  "technique": "boil",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "chicken_alfredo_step_7",
+        "amount": {
+          "qty": 1057.1,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "pasta",
+        "amount": {
+          "qty": 2,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "chicken_alfredo",
+      "amount": {
+        "qty": 1530.3,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 100,
+    "medium": "boiling_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "While chicken is cooking, prepare pasta. When chicken is done, serve immediately.",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for pasta"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of boil's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

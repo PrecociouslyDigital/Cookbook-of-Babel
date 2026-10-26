@@ -1,0 +1,53 @@
+{
+  "id": "snails_with_garlic_butter_escargots_a_la_bourguignonne.step_2",
+  "source": "wikibooks_snails_with_garlic_butter_escargots_a_la_bourguignonne",
+  "sourceRef": {
+    "source": "wikibooks_snails_with_garlic_butter_escargots_a_la_bourguignonne",
+    "step": 2
+  },
+  "technique": "rinse",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "snail",
+        "amount": {
+          "qty": 24,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "snails_with_garlic_butter_escargots_a_la_bourguignonne_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Drain and rinse the snails.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'24 canned snails': 'canned' read as pieces"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

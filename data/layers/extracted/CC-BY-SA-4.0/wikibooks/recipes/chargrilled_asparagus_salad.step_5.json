@@ -1,0 +1,62 @@
+{
+  "id": "chargrilled_asparagus_salad.step_5",
+  "source": "wikibooks_chargrilled_asparagus_salad",
+  "sourceRef": {
+    "source": "wikibooks_chargrilled_asparagus_salad",
+    "step": 5
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "chargrilled_asparagus_salad_step_4",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "lemon",
+        "amount": {
+          "qty": 4,
+          "unit": "tsp"
+        }
+      },
+      {
+        "ingredient": "chickpea",
+        "amount": {
+          "qty": 230,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "chargrilled_asparagus_salad_step_5",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Drain and rinse the chickpeas, and add to bowl along with the lemon juice. Toss well to combine.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

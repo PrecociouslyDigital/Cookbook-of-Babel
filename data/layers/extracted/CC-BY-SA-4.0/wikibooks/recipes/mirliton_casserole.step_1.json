@@ -1,0 +1,53 @@
+{
+  "id": "mirliton_casserole.step_1",
+  "source": "wikibooks_mirliton_casserole",
+  "sourceRef": {
+    "source": "wikibooks_mirliton_casserole",
+    "step": 1
+  },
+  "technique": "steam",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "squash",
+        "amount": {
+          "qty": 6,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "mirliton_casserole_step_1",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 175,
+    "medium": "steam"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 10,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Place mirliton halves seed-side up in a microwave- or oven-safe dish with approximately 1 inch (2.5cm) of water in the dish. Cover with foil (for oven) or plastic wrap (for microwave) and cook in oven (350°F/175°C) or microwave (high at 10 minute intervals) until mirliton are soft enough to stick a fork or knife through easily. Allow mirliton to cool enough to be handled and dice into large pieces.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.41"
+    },
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'6 medium mirliton (chayote squash), halved lengthwise': 'mirliton' read as pieces"
+    }
+  ]
+}

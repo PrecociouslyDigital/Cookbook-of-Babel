@@ -1,0 +1,48 @@
+{
+  "id": "yeasted_kifli.step_5",
+  "source": "wikibooks_yeasted_kifli",
+  "sourceRef": {
+    "source": "wikibooks_yeasted_kifli",
+    "step": 5
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "yeasted_kifli_step_4",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "yeasted_kifli_step_5",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Mix the wet ingredients with the dry ingredients. You should get a dough with the consistency of peanut butter cookie dough. Add additional flour if the dough is too sticky.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

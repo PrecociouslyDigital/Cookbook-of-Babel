@@ -1,0 +1,60 @@
+{
+  "id": "soda_from_extract.step_2",
+  "source": "wikibooks_soda_from_extract",
+  "sourceRef": {
+    "source": "wikibooks_soda_from_extract",
+    "step": 2
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "soda_from_extract_step_1",
+        "amount": {
+          "qty": 445.1,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "carbonated_water",
+        "amount": {
+          "qty": 2,
+          "unit": "l"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "soda_from_extract",
+      "amount": {
+        "qty": 2445.1,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Mix the syrup with the carbonated water to make the finished soda.",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for carbonated_water"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

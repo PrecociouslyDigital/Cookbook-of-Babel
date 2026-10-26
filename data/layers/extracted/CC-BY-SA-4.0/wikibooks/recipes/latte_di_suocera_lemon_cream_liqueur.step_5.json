@@ -1,0 +1,48 @@
+{
+  "id": "latte_di_suocera_lemon_cream_liqueur.step_5",
+  "source": "wikibooks_latte_di_suocera_lemon_cream_liqueur",
+  "sourceRef": {
+    "source": "wikibooks_latte_di_suocera_lemon_cream_liqueur",
+    "step": 5
+  },
+  "technique": "age",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "latte_di_suocera_lemon_cream_liqueur_step_4",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "latte_di_suocera_lemon_cream_liqueur",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Stopper the bottle, put it in a cool dark place, and let it rest for a month before serving.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

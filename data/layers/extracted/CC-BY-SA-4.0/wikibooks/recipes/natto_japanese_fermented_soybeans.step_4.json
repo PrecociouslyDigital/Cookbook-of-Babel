@@ -1,0 +1,53 @@
+{
+  "id": "natto_japanese_fermented_soybeans.step_4",
+  "source": "wikibooks_natto_japanese_fermented_soybeans",
+  "sourceRef": {
+    "source": "wikibooks_natto_japanese_fermented_soybeans",
+    "step": 4
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "natto_japanese_fermented_soybeans_step_3",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "natto_japanese_fermented_soybeans_step_4",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Immediately pour the nattomoto solution over the beans while the beans are still warm. Stir the beans and water mixture together carefully using a sterilized spoon.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.44"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

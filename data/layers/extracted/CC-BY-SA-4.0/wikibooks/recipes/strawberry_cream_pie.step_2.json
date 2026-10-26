@@ -1,0 +1,55 @@
+{
+  "id": "strawberry_cream_pie.step_2",
+  "source": "wikibooks_strawberry_cream_pie",
+  "sourceRef": {
+    "source": "wikibooks_strawberry_cream_pie",
+    "step": 2
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "strawberry_cream_pie_step_1",
+        "amount": {
+          "qty": 523.5,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "pie_crust",
+        "amount": {
+          "qty": 1,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "strawberry_cream_pie_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Spread whipped cream in pie crust.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

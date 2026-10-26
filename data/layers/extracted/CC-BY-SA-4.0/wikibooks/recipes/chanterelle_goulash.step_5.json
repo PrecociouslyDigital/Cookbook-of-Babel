@@ -1,0 +1,77 @@
+{
+  "id": "chanterelle_goulash.step_5",
+  "source": "wikibooks_chanterelle_goulash",
+  "sourceRef": {
+    "source": "wikibooks_chanterelle_goulash",
+    "step": 5
+  },
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "chanterelle_goulash_step_4",
+        "amount": {
+          "qty": 960,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "paprika",
+        "amount": {
+          "qty": 10,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "vinegar",
+        "amount": {
+          "qty": 3.5,
+          "unit": "tbsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "chanterelle_goulash_step_5",
+      "amount": {
+        "qty": 1021.8,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 180,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Add the paprika. Stir well and immediately deglaze it with the white wine vinegar. It is important that the paprika powder does not get too hot because it turns bitter at a certain temperature.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.35"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for vinegar"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 180.0 °C for pan_contact"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

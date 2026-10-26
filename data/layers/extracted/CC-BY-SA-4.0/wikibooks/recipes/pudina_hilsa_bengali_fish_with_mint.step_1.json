@@ -1,0 +1,48 @@
+{
+  "id": "pudina_hilsa_bengali_fish_with_mint.step_1",
+  "source": "wikibooks_pudina_hilsa_bengali_fish_with_mint",
+  "sourceRef": {
+    "source": "wikibooks_pudina_hilsa_bengali_fish_with_mint",
+    "step": 1
+  },
+  "technique": "rinse",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "hilsa_fish",
+        "amount": {
+          "qty": 1,
+          "unit": "kg"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "pudina_hilsa_bengali_fish_with_mint_step_1",
+      "amount": {
+        "qty": 1000,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Wash the fish thoroughly in water.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

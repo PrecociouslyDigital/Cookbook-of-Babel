@@ -1,0 +1,86 @@
+{
+  "id": "sarmale_romanian_cabbage_rolls.step_2",
+  "source": "wikibooks_sarmale_romanian_cabbage_rolls",
+  "sourceRef": {
+    "source": "wikibooks_sarmale_romanian_cabbage_rolls",
+    "step": 2
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "sarmale_romanian_cabbage_rolls_step_1",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "rice",
+        "amount": {
+          "qty": 0.875,
+          "unit": "cup"
+        }
+      },
+      {
+        "ingredient": "pork",
+        "amount": {
+          "qty": 1.25,
+          "unit": "kg"
+        }
+      },
+      {
+        "ingredient": "salt",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      },
+      {
+        "ingredient": "pepper",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "sarmale_romanian_cabbage_rolls_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "In a medium to large bowl, mix ground meat together. Add the onion mixture after it has cooled. Add dry rice, salt and pepper. Let this cool, as it is easier to work with cold meat.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Salt to taste': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Pepper to taste': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

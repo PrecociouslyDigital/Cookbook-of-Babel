@@ -1,0 +1,53 @@
+{
+  "id": "salsa_recipe.step_6",
+  "source": "wikibooks_salsa_recipe",
+  "sourceRef": {
+    "source": "wikibooks_salsa_recipe",
+    "step": 6
+  },
+  "technique": "blend",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "salsa_recipe_step_5",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "salsa_recipe",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Blend slowly, to thoroughly mix ingredients; do not completely blend.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    },
+    {
+      "field": "inputs",
+      "kind": "missing",
+      "note": "no step uses '1 pinch of pepper and/or garlic to taste (optional)' (p=0.88)"
+    }
+  ]
+}

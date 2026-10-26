@@ -1,0 +1,48 @@
+{
+  "id": "coronet_cupcakes.step_16",
+  "source": "wikibooks_coronet_cupcakes",
+  "sourceRef": {
+    "source": "wikibooks_coronet_cupcakes",
+    "step": 16
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "coronet_cupcakes_step_15",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "coronet_cupcakes_step_16",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Arrange the non-yellow gems on the frosting between the fans, pressing gently to make sure they stick.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "id": "fish_pie.step_4",
+  "source": "wikibooks_fish_pie",
+  "sourceRef": {
+    "source": "wikibooks_fish_pie",
+    "step": 4
+  },
+  "technique": "boil",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "fish_pie_step_3",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "potato",
+        "amount": {
+          "qty": 2,
+          "unit": "lb"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "fish_pie_step_4",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 100,
+    "medium": "boiling_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 20,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Peel and boil the potatoes until they are soft enough to mash. This will take at least 20 minutes of boiling, otherwise the mash may remain lumpy. The potato needs to be mashed very well indeed, and an electric whisk is recommended after the initial crushing of the potatoes.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of boil's typical range"
+    }
+  ]
+}

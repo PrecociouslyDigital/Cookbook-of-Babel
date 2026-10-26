@@ -1,0 +1,48 @@
+{
+  "id": "turon_filipino_plantain_spring_rolls.step_3",
+  "source": "wikibooks_turon_filipino_plantain_spring_rolls",
+  "sourceRef": {
+    "source": "wikibooks_turon_filipino_plantain_spring_rolls",
+    "step": 3
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "turon_filipino_plantain_spring_rolls_step_2",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "turon_filipino_plantain_spring_rolls_step_3",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Repeat the filling and rolling steps to make a total of 10 rolls.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

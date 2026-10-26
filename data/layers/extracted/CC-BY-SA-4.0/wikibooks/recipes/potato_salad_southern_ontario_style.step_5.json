@@ -1,0 +1,67 @@
+{
+  "id": "potato_salad_southern_ontario_style.step_5",
+  "source": "wikibooks_potato_salad_southern_ontario_style",
+  "sourceRef": {
+    "source": "wikibooks_potato_salad_southern_ontario_style",
+    "step": 5
+  },
+  "technique": "chill",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "potato_salad_southern_ontario_style_step_4",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "lemon",
+        "amount": {
+          "qty": 1,
+          "unit": "cup"
+        }
+      },
+      {
+        "ingredient": "olive_oil",
+        "amount": {
+          "qty": 2,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "potato_salad_southern_ontario_style",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 3,
+      "unit": "h"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "In a small bowl add the lemon juice while whisking in olive oil slowly. Add to the potatoes, mix all ingredients. Chill for 3 hours, cover with extra HP sauce, enjoy.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.44"
+    },
+    {
+      "field": "inputs",
+      "kind": "missing",
+      "note": "no step uses '2 tbsp chopped sweet basil leaves' (p=0.93)"
+    }
+  ]
+}

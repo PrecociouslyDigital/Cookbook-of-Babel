@@ -1,0 +1,55 @@
+{
+  "id": "baked_brie_in_puff_pastry.step_2",
+  "source": "wikibooks_baked_brie_in_puff_pastry",
+  "sourceRef": {
+    "source": "wikibooks_baked_brie_in_puff_pastry",
+    "step": 2
+  },
+  "technique": "fold",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "baked_brie_in_puff_pastry_step_1",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "egg",
+        "amount": {
+          "qty": 1,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "baked_brie_in_puff_pastry_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Trim off about ½ inch of pastry, and fold pastry over cheese. When you reach the last fold, brush the fold with beaten egg to seal the pastry together.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "id": "sauce_feuilles_greens_stew.step_1",
+  "source": "wikibooks_sauce_feuilles_greens_stew",
+  "sourceRef": {
+    "source": "wikibooks_sauce_feuilles_greens_stew",
+    "step": 1
+  },
+  "technique": "rinse",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "spinach",
+        "amount": {
+          "qty": 1,
+          "unit": "bunch"
+        }
+      },
+      {
+        "ingredient": "kale",
+        "amount": {
+          "qty": 1,
+          "unit": "bunch"
+        }
+      },
+      {
+        "ingredient": "bitterleaf",
+        "amount": {
+          "qty": 1,
+          "unit": "bunch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "sauce_feuilles_greens_stew_step_1",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Wash the spinach, kale (or collard greens), and bitterleaf thoroughly to remove any dirt or grit. Remove any tough stems from the greens and chop them into small pieces. Set aside.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

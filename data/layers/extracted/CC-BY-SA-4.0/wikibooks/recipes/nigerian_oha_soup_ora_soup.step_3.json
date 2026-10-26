@@ -1,0 +1,79 @@
+{
+  "id": "nigerian_oha_soup_ora_soup.step_3",
+  "source": "wikibooks_nigerian_oha_soup_ora_soup",
+  "sourceRef": {
+    "source": "wikibooks_nigerian_oha_soup_ora_soup",
+    "step": 3
+  },
+  "technique": "boil",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "nigerian_oha_soup_ora_soup_step_2",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "palm_oil",
+        "amount": {
+          "qty": 0.3,
+          "unit": "cup"
+        }
+      },
+      {
+        "ingredient": "scotch_bonnet_pepper",
+        "amount": {
+          "qty": 3,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "ogiri_okpei",
+        "amount": {
+          "qty": 1,
+          "unit": "tbsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "nigerian_oha_soup_ora_soup_step_3",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 100,
+    "medium": "boiling_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Build the soup base: Pour reserved meat stock into a pot. Add 0.3 cups palm oil and bring to a boil. Add 1 tablespoons ogiri okpei (fermented locust bean paste) and blended 3 scotch bonnet pepper (rodo). Stir well.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.57"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of boil's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

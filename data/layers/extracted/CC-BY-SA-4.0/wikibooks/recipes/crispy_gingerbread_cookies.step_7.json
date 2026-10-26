@@ -1,0 +1,48 @@
+{
+  "id": "crispy_gingerbread_cookies.step_7",
+  "source": "wikibooks_crispy_gingerbread_cookies",
+  "sourceRef": {
+    "source": "wikibooks_crispy_gingerbread_cookies",
+    "step": 7
+  },
+  "technique": "knead",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "crispy_gingerbread_cookies_step_5",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "crispy_gingerbread_cookies_step_7",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Roll out until thin on lightly-floured surface.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

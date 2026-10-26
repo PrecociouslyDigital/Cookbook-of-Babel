@@ -1,0 +1,55 @@
+{
+  "id": "serbian_flatbread_lepinja.step_2",
+  "source": "wikibooks_serbian_flatbread_lepinja",
+  "sourceRef": {
+    "source": "wikibooks_serbian_flatbread_lepinja",
+    "step": 2
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "serbian_flatbread_lepinja_step_1",
+        "amount": {
+          "qty": 60.6,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "wheat_flour",
+        "amount": {
+          "qty": 350,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "serbian_flatbread_lepinja_step_2",
+      "amount": {
+        "qty": 410.6,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Mix the yeast mixture into the flour.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

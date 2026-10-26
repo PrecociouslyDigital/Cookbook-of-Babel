@@ -1,0 +1,55 @@
+{
+  "id": "gateau_nantais_nantes_cake.step_3",
+  "source": "wikibooks_gateau_nantais_nantes_cake",
+  "sourceRef": {
+    "source": "wikibooks_gateau_nantais_nantes_cake",
+    "step": 3
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "gateau_nantais_nantes_cake_step_2",
+        "amount": {
+          "qty": 375,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "egg",
+        "amount": {
+          "qty": 3,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "gateau_nantais_nantes_cake_step_3",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "In a large bowl, beat the eggs with a fork. Incorporate them into the butter and sugar mixture.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "id": "mincemeat.step_2",
+  "source": "wikibooks_mincemeat",
+  "sourceRef": {
+    "source": "wikibooks_mincemeat",
+    "step": 2
+  },
+  "technique": "simmer",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "mincemeat_step_1",
+        "amount": {
+          "qty": 3175.1,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "beef",
+        "amount": {
+          "qty": 3.5,
+          "unit": "lb"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "mincemeat_step_2",
+      "amount": {
+        "qty": 4762.7,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 90,
+    "medium": "simmering_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "h"
+    }
+  },
+  "stateNote": "Cube meat and cover with water. Simmer until tender; this may take up to an hour.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of simmer's typical range"
+    }
+  ]
+}

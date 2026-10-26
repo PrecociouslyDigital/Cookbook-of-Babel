@@ -1,0 +1,63 @@
+{
+  "id": "bhuna_khichuri_bengali_rice_and_lentils.step_14",
+  "source": "wikibooks_bhuna_khichuri_bengali_rice_and_lentils",
+  "sourceRef": {
+    "source": "wikibooks_bhuna_khichuri_bengali_rice_and_lentils",
+    "step": 14
+  },
+  "technique": "steam",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "bhuna_khichuri_bengali_rice_and_lentils_step_13",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "bhuna_khichuri_bengali_rice_and_lentils",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 100,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Turn down the heat to the lowest and cover until served which should not take long.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.48"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of steam's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    },
+    {
+      "field": "inputs",
+      "kind": "missing",
+      "note": "no step uses '½ teaspoon turmeric powder' (p=0.84)"
+    }
+  ]
+}

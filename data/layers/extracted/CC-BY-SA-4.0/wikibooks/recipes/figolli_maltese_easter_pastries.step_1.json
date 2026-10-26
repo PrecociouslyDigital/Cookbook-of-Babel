@@ -1,0 +1,55 @@
+{
+  "id": "figolli_maltese_easter_pastries.step_1",
+  "source": "wikibooks_figolli_maltese_easter_pastries",
+  "sourceRef": {
+    "source": "wikibooks_figolli_maltese_easter_pastries",
+    "step": 1
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "wheat_flour",
+        "amount": {
+          "qty": 800,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "margarine",
+        "amount": {
+          "qty": 200,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "figolli_maltese_easter_pastries_step_1",
+      "amount": {
+        "qty": 1000,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Sift the flour into a bowl, and rub in the margarine until the mixture returns to a powdery consistency.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

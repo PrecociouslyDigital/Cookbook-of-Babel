@@ -1,0 +1,48 @@
+{
+  "id": "loukoumas_greek_donuts_with_honey_i.step_3",
+  "source": "wikibooks_loukoumas_greek_donuts_with_honey_i",
+  "sourceRef": {
+    "source": "wikibooks_loukoumas_greek_donuts_with_honey_i",
+    "step": 3
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "loukoumas_greek_donuts_with_honey_i_step_2",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "loukoumas_greek_donuts_with_honey_i_step_3",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Add the yeast mixture to the other ingredients and stir. The mixture should look like smooth cake batter.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

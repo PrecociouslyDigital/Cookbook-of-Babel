@@ -1,0 +1,62 @@
+{
+  "id": "classic_american_apple_pie.step_2",
+  "source": "wikibooks_classic_american_apple_pie",
+  "sourceRef": {
+    "source": "wikibooks_classic_american_apple_pie",
+    "step": 2
+  },
+  "technique": "strain",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "classic_american_apple_pie_step_1",
+        "amount": {
+          "qty": 674.2,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "apple",
+        "amount": {
+          "qty": 6,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "white_sugar",
+        "amount": {
+          "qty": 0.5,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "classic_american_apple_pie_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1.5,
+      "unit": "h"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Toss apples with ¼ cup sugar and place in a colander set over a large bowl. Let drain for 1 ½ hours.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'6 Honeycrisp apples, peeled, cored, and cut into 12ths': 'Honeycrisp' read as pieces"
+    }
+  ]
+}

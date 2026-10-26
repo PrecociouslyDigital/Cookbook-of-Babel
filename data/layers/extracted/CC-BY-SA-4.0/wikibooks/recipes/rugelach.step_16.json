@@ -1,0 +1,53 @@
+{
+  "id": "rugelach.step_16",
+  "source": "wikibooks_rugelach",
+  "sourceRef": {
+    "source": "wikibooks_rugelach",
+    "step": 16
+  },
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "rugelach_step_15",
+        "amount": {
+          "qty": 1383.2,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "rugelach",
+      "amount": {
+        "qty": 1383.2,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 180,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 30,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Take out of the oven, cool in the pan on a wire rack for 30 minutes. Transfer cylinders to a cutting board and cut slices from the cylinders to make rugelach.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.38"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 180.0 °C for pan_contact"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": "bean_semolina_burger.step_4",
+  "source": "wikibooks_bean_semolina_burger",
+  "sourceRef": {
+    "source": "wikibooks_bean_semolina_burger",
+    "step": 4
+  },
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "bean_semolina_burger_step_3",
+        "amount": {
+          "qty": 2.5,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "bean_semolina_burger_step_4",
+      "amount": {
+        "qty": 2.5,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Dip both sides of the patties in the breading mix in order to coat completely. Shake off any excess breading.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.51"
+    },
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.56"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

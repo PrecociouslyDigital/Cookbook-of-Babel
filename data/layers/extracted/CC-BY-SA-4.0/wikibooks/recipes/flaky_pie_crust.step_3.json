@@ -1,0 +1,48 @@
+{
+  "id": "flaky_pie_crust.step_3",
+  "source": "wikibooks_flaky_pie_crust",
+  "sourceRef": {
+    "source": "wikibooks_flaky_pie_crust",
+    "step": 3
+  },
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "flaky_pie_crust_step_2",
+        "amount": {
+          "qty": 545,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "flaky_pie_crust_step_3",
+      "amount": {
+        "qty": 545,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Using a pastry blender or two butter knives, cut the butter into the flour until the butter is in small pea-sized pieces.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

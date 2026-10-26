@@ -1,0 +1,48 @@
+{
+  "id": "russian_style_waffle_cake.step_13",
+  "source": "wikibooks_russian_style_waffle_cake",
+  "sourceRef": {
+    "source": "wikibooks_russian_style_waffle_cake",
+    "step": 13
+  },
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "russian_style_waffle_cake_step_12",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "russian_style_waffle_cake",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Slice the cake along the lines made by the waffle-iron, and serve!",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

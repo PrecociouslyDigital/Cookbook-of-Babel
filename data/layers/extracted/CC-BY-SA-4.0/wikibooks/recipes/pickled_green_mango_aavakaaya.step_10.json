@@ -1,0 +1,48 @@
+{
+  "id": "pickled_green_mango_aavakaaya.step_10",
+  "source": "wikibooks_pickled_green_mango_aavakaaya",
+  "sourceRef": {
+    "source": "wikibooks_pickled_green_mango_aavakaaya",
+    "step": 10
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "pickled_green_mango_aavakaaya_step_9",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "pickled_green_mango_aavakaaya_step_10",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Mix the paste well with the mango pieces. Add the remaining oil to the pieces and mix well.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

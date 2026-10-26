@@ -1,0 +1,53 @@
+{
+  "id": "spicy_feta_burger.step_2",
+  "source": "wikibooks_spicy_feta_burger",
+  "sourceRef": {
+    "source": "wikibooks_spicy_feta_burger",
+    "step": 2
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "spicy_feta_burger_step_1",
+        "amount": {
+          "qty": 474.3,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "spicy_feta_burger_step_2",
+      "amount": {
+        "qty": 474.3,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Form 8 small balls of meat, then press into very flat pancake shapes.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.56"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "id": "pierogi_i.step_8",
+  "source": "wikibooks_pierogi_i",
+  "sourceRef": {
+    "source": "wikibooks_pierogi_i",
+    "step": 8
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "pierogi_i_step_7",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "sauerkraut_pierogi_filling",
+        "amount": {
+          "qty": 1,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "pierogi_i_step_8",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Carefully lift each circle of dough from the table (a spatula helps) and put between 1 tsp and 1 tbsp of filling in its center. The amount varies depending on the size of the glass that was used to cut the dough.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'1 recipe sauerkraut filling or cheese filling': 'recipe' read as pieces"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": "kedgeree_rice_and_smoked_fish.step_2",
+  "source": "wikibooks_kedgeree_rice_and_smoked_fish",
+  "sourceRef": {
+    "source": "wikibooks_kedgeree_rice_and_smoked_fish",
+    "step": 2
+  },
+  "technique": "separate",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "kedgeree_rice_and_smoked_fish_step_1",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "kedgeree_rice_and_smoked_fish_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Remove the haddock, and flake with forks to get rid of every last trace of bone. Place the haddock back with the rice.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.51"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

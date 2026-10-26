@@ -1,0 +1,53 @@
+{
+  "id": "apple_cider_syrup.step_5",
+  "source": "wikibooks_apple_cider_syrup",
+  "sourceRef": {
+    "source": "wikibooks_apple_cider_syrup",
+    "step": 5
+  },
+  "technique": "strain",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "apple_cider_syrup_step_3",
+        "amount": {
+          "qty": 3785.4,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "apple_cider_syrup_step_5",
+      "amount": {
+        "qty": 3785.4,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Strain the cider through the cheesecloth to remove the large particles.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.45"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

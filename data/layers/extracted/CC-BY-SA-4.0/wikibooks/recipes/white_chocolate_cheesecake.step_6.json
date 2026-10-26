@@ -1,0 +1,69 @@
+{
+  "id": "white_chocolate_cheesecake.step_6",
+  "source": "wikibooks_white_chocolate_cheesecake",
+  "sourceRef": {
+    "source": "wikibooks_white_chocolate_cheesecake",
+    "step": 6
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "white_chocolate_cheesecake_step_5",
+        "amount": {
+          "qty": 600,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "cream_cheese",
+        "amount": {
+          "qty": 1.5,
+          "unit": "kg"
+        }
+      },
+      {
+        "ingredient": "soft_light_cream_cheese",
+        "amount": {
+          "qty": 250,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "egg",
+        "amount": {
+          "qty": 5,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "white_chocolate_cheesecake_step_6",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Mix together cream cheeses, then add eggs, one at a time.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

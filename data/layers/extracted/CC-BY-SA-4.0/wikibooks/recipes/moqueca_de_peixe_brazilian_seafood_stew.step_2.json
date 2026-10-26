@@ -1,0 +1,89 @@
+{
+  "id": "moqueca_de_peixe_brazilian_seafood_stew.step_2",
+  "source": "wikibooks_moqueca_de_peixe_brazilian_seafood_stew",
+  "sourceRef": {
+    "source": "wikibooks_moqueca_de_peixe_brazilian_seafood_stew",
+    "step": 2
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "moqueca_de_peixe_brazilian_seafood_stew_step_1",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "onion",
+        "amount": {
+          "qty": 2,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "bell_pepper",
+        "amount": {
+          "qty": 2,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "garlic",
+        "amount": {
+          "qty": 1,
+          "unit": "clove"
+        }
+      },
+      {
+        "min": 0,
+        "max": 1,
+        "of": [
+          {
+            "ingredient": "tomato",
+            "amount": {
+              "qty": 4,
+              "unit": "piece"
+            }
+          }
+        ]
+      },
+      {
+        "ingredient": "cilantro",
+        "amount": {
+          "qty": 4,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "moqueca_de_peixe_brazilian_seafood_stew_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Put the fish, onions, bell peppers, garlic, tomatoes and the cilantro in numerous layers into a pot.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "id": "homemade_hominy.step_1",
+  "source": "wikibooks_homemade_hominy",
+  "sourceRef": {
+    "source": "wikibooks_homemade_hominy",
+    "step": 1
+  },
+  "technique": "dissolve",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "water",
+        "amount": {
+          "qty": 2,
+          "unit": "qt"
+        }
+      },
+      {
+        "ingredient": "food_grade_lye",
+        "amount": {
+          "qty": 1,
+          "unit": "tbsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "homemade_hominy_step_1",
+      "amount": {
+        "qty": 1907.5,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Put the water into a large kettle or saucepan, and stir in the lye.",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for food_grade_lye"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

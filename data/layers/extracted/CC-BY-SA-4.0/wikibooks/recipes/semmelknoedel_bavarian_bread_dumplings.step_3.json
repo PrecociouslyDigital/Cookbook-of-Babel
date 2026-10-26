@@ -1,0 +1,62 @@
+{
+  "id": "semmelknoedel_bavarian_bread_dumplings.step_3",
+  "source": "wikibooks_semmelknoedel_bavarian_bread_dumplings",
+  "sourceRef": {
+    "source": "wikibooks_semmelknoedel_bavarian_bread_dumplings",
+    "step": 3
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "semmelknoedel_bavarian_bread_dumplings_step_2",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "egg",
+        "amount": {
+          "qty": 4,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "milk",
+        "amount": {
+          "qty": 3,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "semmelknoedel_bavarian_bread_dumplings_step_3",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Mix the eggs with the milk, and pour it over the bread and the onions. Mix to make a dough.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

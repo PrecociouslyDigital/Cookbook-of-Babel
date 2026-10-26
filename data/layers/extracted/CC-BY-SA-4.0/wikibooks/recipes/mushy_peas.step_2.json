@@ -1,0 +1,48 @@
+{
+  "id": "mushy_peas.step_2",
+  "source": "wikibooks_mushy_peas",
+  "sourceRef": {
+    "source": "wikibooks_mushy_peas",
+    "step": 2
+  },
+  "technique": "age",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "mushy_peas_step_1",
+        "amount": {
+          "qty": 10.5,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "mushy_peas_step_2",
+      "amount": {
+        "qty": 10.5,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 8,
+      "unit": "h"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Leave to soak overnight.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "'overnight' read as 8 hours"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "lemon_poppy_seed_muffins_glazed.step_5",
+  "source": "wikibooks_lemon_poppy_seed_muffins_glazed",
+  "sourceRef": {
+    "source": "wikibooks_lemon_poppy_seed_muffins_glazed",
+    "step": 5
+  },
+  "technique": "fold",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "lemon_poppy_seed_muffins_glazed_step_4",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "lemon_poppy_seed_muffins_glazed_step_5",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Fold the dry ingredients into the wet mixture in three steps. Take care not to over-mix the batter.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

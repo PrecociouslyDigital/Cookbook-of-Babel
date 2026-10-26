@@ -1,0 +1,60 @@
+{
+  "id": "salted_mustard_greens_and_shredded_meat_noodle_soup.step_2",
+  "source": "wikibooks_salted_mustard_greens_and_shredded_meat_noodle_soup",
+  "sourceRef": {
+    "source": "wikibooks_salted_mustard_greens_and_shredded_meat_noodle_soup",
+    "step": 2
+  },
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "salted_mustard_greens_and_shredded_meat_noodle_soup_step_1",
+        "amount": {
+          "qty": 0.3,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "salt",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "salted_mustard_greens_and_shredded_meat_noodle_soup_step_2",
+      "amount": {
+        "qty": 0.7,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Add salt to the greens.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Salt': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

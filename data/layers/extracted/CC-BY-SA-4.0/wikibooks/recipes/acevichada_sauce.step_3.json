@@ -1,0 +1,109 @@
+{
+  "id": "acevichada_sauce.step_3",
+  "source": "wikibooks_acevichada_sauce",
+  "sourceRef": {
+    "source": "wikibooks_acevichada_sauce",
+    "step": 3
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "acevichada_sauce_step_2",
+        "amount": {
+          "qty": 120,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "onion",
+        "amount": {
+          "qty": 20,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "aji_amarillo",
+        "amount": {
+          "qty": 20,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "aji_limo",
+        "amount": {
+          "qty": 10,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "garlic",
+        "amount": {
+          "qty": 10,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "cilantro",
+        "amount": {
+          "qty": 5,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "dehydrated_broth",
+        "amount": {
+          "qty": 5,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "pepper",
+        "amount": {
+          "qty": 5,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "togarashi_pepper_powder",
+        "amount": {
+          "qty": 5,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "acevichada_sauce_step_3",
+      "amount": {
+        "qty": 200,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Add the onions, chiles, garlic, cilantro, hondashi, black pepper, and togarashi.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.47"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "id": "40_cloves_in_a_roast_chicken.step_1",
+  "source": "wikibooks_40_cloves_in_a_roast_chicken",
+  "sourceRef": {
+    "source": "wikibooks_40_cloves_in_a_roast_chicken",
+    "step": 1
+  },
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "chicken",
+        "amount": {
+          "qty": 3.5,
+          "unit": "lb"
+        }
+      },
+      {
+        "ingredient": "country_roast_chicken_seasoning",
+        "amount": {
+          "qty": 0.25,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "40_cloves_in_a_roast_chicken_step_1",
+      "amount": {
+        "qty": 1646.7,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "h"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Rub the Country Roast Chicken Seasoning under the skin of the chicken. Refrigerate for at least 1 hour.",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for country_roast_chicken_seasoning"
+    }
+  ]
+}

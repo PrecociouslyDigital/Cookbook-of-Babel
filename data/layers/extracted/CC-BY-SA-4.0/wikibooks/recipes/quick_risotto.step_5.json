@@ -1,0 +1,53 @@
+{
+  "id": "quick_risotto.step_5",
+  "source": "wikibooks_quick_risotto",
+  "sourceRef": {
+    "source": "wikibooks_quick_risotto",
+    "step": 5
+  },
+  "technique": "steam",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "quick_risotto_step_4",
+        "amount": {
+          "qty": 1.2,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "quick_risotto",
+      "amount": {
+        "qty": 1.2,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 100,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 6,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Leave alone for 5–7 minutes, then serve.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.4"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of steam's typical range"
+    }
+  ]
+}

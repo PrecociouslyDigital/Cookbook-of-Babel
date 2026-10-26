@@ -1,0 +1,48 @@
+{
+  "id": "pumpkin_bread_ii.step_10",
+  "source": "wikibooks_pumpkin_bread_ii",
+  "sourceRef": {
+    "source": "wikibooks_pumpkin_bread_ii",
+    "step": 10
+  },
+  "technique": "cool",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "pumpkin_bread_ii_step_9",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "pumpkin_bread_ii",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 7.5,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Allow loaves to cool in the pans for 5–10 minutes before unmolding, then allow loaves to cool on a wire rack to room temperature before cutting or wrapping.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.42"
+    }
+  ]
+}

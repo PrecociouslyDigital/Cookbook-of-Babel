@@ -1,0 +1,55 @@
+{
+  "id": "garlic_tomato_and_cheddar_sandwich.step_4",
+  "source": "wikibooks_garlic_tomato_and_cheddar_sandwich",
+  "sourceRef": {
+    "source": "wikibooks_garlic_tomato_and_cheddar_sandwich",
+    "step": 4
+  },
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "garlic_tomato_and_cheddar_sandwich_step_3",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "olive_oil",
+        "amount": {
+          "qty": 1,
+          "unit": "tbsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "garlic_tomato_and_cheddar_sandwich_step_4",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Add the olive oil, by being careful not to add more oil than there is bread.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

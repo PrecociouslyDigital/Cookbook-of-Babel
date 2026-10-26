@@ -1,0 +1,53 @@
+{
+  "id": "cherry_cobbler_in_a_crock_pot.step_3",
+  "source": "wikibooks_cherry_cobbler_in_a_crock_pot",
+  "sourceRef": {
+    "source": "wikibooks_cherry_cobbler_in_a_crock_pot",
+    "step": 3
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "cherry_cobbler_in_a_crock_pot_step_2",
+        "amount": {
+          "qty": 719.8,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "cherry_cobbler_in_a_crock_pot_step_3",
+      "amount": {
+        "qty": 719.8,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Sprinkle evenly over cherries.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.56"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

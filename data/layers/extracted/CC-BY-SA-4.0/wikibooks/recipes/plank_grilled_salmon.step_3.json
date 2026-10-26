@@ -1,0 +1,53 @@
+{
+  "id": "plank_grilled_salmon.step_3",
+  "source": "wikibooks_plank_grilled_salmon",
+  "sourceRef": {
+    "source": "wikibooks_plank_grilled_salmon",
+    "step": 3
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "plank_grilled_salmon_step_2",
+        "amount": {
+          "qty": 418.9,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "plank_grilled_salmon_step_3",
+      "amount": {
+        "qty": 418.9,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Remove the salmon from the marinade, and place on the plank skin side down. It should not hang over the edge.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.59"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

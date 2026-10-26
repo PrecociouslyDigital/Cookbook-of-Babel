@@ -1,0 +1,72 @@
+{
+  "id": "kashkaval_pane_bulgarian_fried_cheese.step_5",
+  "source": "wikibooks_kashkaval_pane_bulgarian_fried_cheese",
+  "sourceRef": {
+    "source": "wikibooks_kashkaval_pane_bulgarian_fried_cheese",
+    "step": 5
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "kashkaval_pane_bulgarian_fried_cheese_step_3",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "wheat_flour",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      },
+      {
+        "ingredient": "bread_crumbs",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "kashkaval_pane_bulgarian_fried_cheese_step_5",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Press the yellow cheese slices into the flour, coating them evenly with a thin layer of flour, shaking off any excess flour. Dip them into the egg, then into the bread crumbs, then once more into the egg, then again into the bread crumbs, covering the whole slice.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Flour seasoned with salt and freshly ground black pepper': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Bread crumbs': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

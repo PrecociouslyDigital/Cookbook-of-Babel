@@ -1,0 +1,48 @@
+{
+  "id": "mushroom_ketchup.step_4",
+  "source": "wikibooks_mushroom_ketchup",
+  "sourceRef": {
+    "source": "wikibooks_mushroom_ketchup",
+    "step": 4
+  },
+  "technique": "strain",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "mushroom_ketchup_step_3",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "mushroom_ketchup",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Drape a clean cloth over a bowl. Pour the mixture over the cloth, and squeeze to extract all the liquid. The liquid is the mushroom ketchup.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

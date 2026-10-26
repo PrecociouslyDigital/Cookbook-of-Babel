@@ -1,0 +1,48 @@
+{
+  "id": "karkanji_chadian_spiced_hibiscus_drink.step_6",
+  "source": "wikibooks_karkanji_chadian_spiced_hibiscus_drink",
+  "sourceRef": {
+    "source": "wikibooks_karkanji_chadian_spiced_hibiscus_drink",
+    "step": 6
+  },
+  "technique": "strain",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "karkanji_chadian_spiced_hibiscus_drink_step_5",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "karkanji_chadian_spiced_hibiscus_drink_step_6",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Strain the liquid using a sieve into a clean jug or bowl to remove the solids.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

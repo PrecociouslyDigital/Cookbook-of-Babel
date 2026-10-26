@@ -1,0 +1,53 @@
+{
+  "id": "placenta_with_broccoli.step_1",
+  "source": "wikibooks_placenta_with_broccoli",
+  "sourceRef": {
+    "source": "wikibooks_placenta_with_broccoli",
+    "step": 1
+  },
+  "technique": "rinse",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "placenta",
+        "amount": {
+          "qty": 0.3333333333333333,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "placenta_with_broccoli_step_1",
+      "amount": {
+        "qty": 78.9,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Wash the placenta well, in a colander, then shake it to drain. (it will still leak juices)",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for placenta"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": "nni_ede_nigerian_pounded_cocoyam.step_4",
+  "source": "wikibooks_nni_ede_nigerian_pounded_cocoyam",
+  "sourceRef": {
+    "source": "wikibooks_nni_ede_nigerian_pounded_cocoyam",
+    "step": 4
+  },
+  "technique": "grind",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "nni_ede_nigerian_pounded_cocoyam_step_3",
+        "amount": {
+          "qty": 0.9,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "nni_ede_nigerian_pounded_cocoyam",
+      "amount": {
+        "qty": 0.9,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Pound together the cassava balls and cocoyam until smooth and lump-free.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.39"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

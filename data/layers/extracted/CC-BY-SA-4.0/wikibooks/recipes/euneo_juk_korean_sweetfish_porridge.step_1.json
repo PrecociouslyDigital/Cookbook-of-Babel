@@ -1,0 +1,53 @@
+{
+  "id": "euneo_juk_korean_sweetfish_porridge.step_1",
+  "source": "wikibooks_euneo_juk_korean_sweetfish_porridge",
+  "sourceRef": {
+    "source": "wikibooks_euneo_juk_korean_sweetfish_porridge",
+    "step": 1
+  },
+  "technique": "rinse",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "rice",
+        "amount": {
+          "qty": 180,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "euneo_juk_korean_sweetfish_porridge_step_1",
+      "amount": {
+        "qty": 180,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Soak rice in cold water.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.57"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

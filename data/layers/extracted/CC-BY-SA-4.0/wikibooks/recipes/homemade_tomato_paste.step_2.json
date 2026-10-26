@@ -1,0 +1,48 @@
+{
+  "id": "homemade_tomato_paste.step_2",
+  "source": "wikibooks_homemade_tomato_paste",
+  "sourceRef": {
+    "source": "wikibooks_homemade_tomato_paste",
+    "step": 2
+  },
+  "technique": "strain",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "homemade_tomato_paste_step_1",
+        "amount": {
+          "qty": 4030.9,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "homemade_tomato_paste_step_2",
+      "amount": {
+        "qty": 4030.9,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Pass the mixture through a food mill several times starting with the coarsest grid and progressing to the finest.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

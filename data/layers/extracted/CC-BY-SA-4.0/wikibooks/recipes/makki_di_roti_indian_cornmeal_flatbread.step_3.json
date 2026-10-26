@@ -1,0 +1,60 @@
+{
+  "id": "makki_di_roti_indian_cornmeal_flatbread.step_3",
+  "source": "wikibooks_makki_di_roti_indian_cornmeal_flatbread",
+  "sourceRef": {
+    "source": "wikibooks_makki_di_roti_indian_cornmeal_flatbread",
+    "step": 3
+  },
+  "technique": "knead",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "makki_di_roti_indian_cornmeal_flatbread_step_2",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "butter",
+        "amount": {
+          "qty": 1,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "makki_di_roti_indian_cornmeal_flatbread_step_3",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Add the soft butter (makhan) at the end and give it a final kneading.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'1 spoonful unsalted butter, softened': 'spoonful' read as pieces"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

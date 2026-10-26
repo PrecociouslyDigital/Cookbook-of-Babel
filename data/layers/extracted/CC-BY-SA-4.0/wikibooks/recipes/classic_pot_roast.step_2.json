@@ -1,0 +1,65 @@
+{
+  "id": "classic_pot_roast.step_2",
+  "source": "wikibooks_classic_pot_roast",
+  "sourceRef": {
+    "source": "wikibooks_classic_pot_roast",
+    "step": 2
+  },
+  "technique": "pan_fry",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "classic_pot_roast_step_1",
+        "amount": {
+          "qty": 1134.7,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "olive_oil",
+        "amount": {
+          "qty": 0.5,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "classic_pot_roast_step_2",
+      "amount": {
+        "qty": 1253,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 185,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "In a 6-quart (6-liter) Dutch oven, heat ¼ cup olive oil over medium-high heat. Add roast and cook until browned on all sides.",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for olive_oil"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of pan_fry's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

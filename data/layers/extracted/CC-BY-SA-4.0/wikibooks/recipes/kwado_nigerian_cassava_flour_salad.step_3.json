@@ -1,0 +1,48 @@
+{
+  "id": "kwado_nigerian_cassava_flour_salad.step_3",
+  "source": "wikibooks_kwado_nigerian_cassava_flour_salad",
+  "sourceRef": {
+    "source": "wikibooks_kwado_nigerian_cassava_flour_salad",
+    "step": 3
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "kwado_nigerian_cassava_flour_salad_step_2",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "kwado_nigerian_cassava_flour_salad",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Stir the ingredients together and serve.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

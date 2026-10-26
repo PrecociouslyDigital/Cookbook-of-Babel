@@ -1,0 +1,60 @@
+{
+  "id": "peppercorn_strip_steaks_with_cognac_cream_sauce.step_1",
+  "source": "wikibooks_peppercorn_strip_steaks_with_cognac_cream_sauce",
+  "sourceRef": {
+    "source": "wikibooks_peppercorn_strip_steaks_with_cognac_cream_sauce",
+    "step": 1
+  },
+  "technique": "grind",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "garlic",
+        "amount": {
+          "qty": 2,
+          "unit": "clove"
+        }
+      },
+      {
+        "ingredient": "salt",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "peppercorn_strip_steaks_with_cognac_cream_sauce_step_1",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Sprinkle garlic with salt. Rub with the side of the knife repeatedly until garlic forms a thick paste.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Salt': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

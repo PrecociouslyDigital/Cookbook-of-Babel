@@ -1,0 +1,53 @@
+{
+  "id": "atomic_fudge_cake.step_12",
+  "source": "wikibooks_atomic_fudge_cake",
+  "sourceRef": {
+    "source": "wikibooks_atomic_fudge_cake",
+    "step": 12
+  },
+  "technique": "heat",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "atomic_fudge_cake_step_11",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "atomic_fudge_cake",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 180,
+    "medium": "convection_air"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 20,
+      "unit": "s"
+    }
+  },
+  "stateNote": "Serve warm after refrigeration. To serve, slice a piece and microwave it for about 20 seconds. The fudge will melt and soak into the cake. Serve with ice cream if you so desire.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.42"
+    },
+    {
+      "field": "inputs",
+      "kind": "missing",
+      "note": "no step uses '1/16 cup (15 ml) powdered sugar' (p=0.68)"
+    }
+  ]
+}

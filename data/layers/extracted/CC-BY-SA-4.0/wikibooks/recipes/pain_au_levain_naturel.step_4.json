@@ -1,0 +1,48 @@
+{
+  "id": "pain_au_levain_naturel.step_4",
+  "source": "wikibooks_pain_au_levain_naturel",
+  "sourceRef": {
+    "source": "wikibooks_pain_au_levain_naturel",
+    "step": 4
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "pain_au_levain_naturel_step_3",
+        "amount": {
+          "qty": 150.3,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "pain_au_levain_naturel_step_4",
+      "amount": {
+        "qty": 150.3,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Add flour and water to the yeast culture",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

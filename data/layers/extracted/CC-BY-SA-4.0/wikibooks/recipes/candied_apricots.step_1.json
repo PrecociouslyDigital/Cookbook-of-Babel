@@ -1,0 +1,48 @@
+{
+  "id": "candied_apricots.step_1",
+  "source": "wikibooks_candied_apricots",
+  "sourceRef": {
+    "source": "wikibooks_candied_apricots",
+    "step": 1
+  },
+  "technique": "rinse",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "apricot",
+        "amount": {
+          "qty": 8,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "candied_apricots_step_1",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 10,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Soak dried apricots in a large volume of water for around 10 minutes.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'6–10+ dried apricots': '+' read as pieces"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "id": "chicken_parmigiana.step_2",
+  "source": "wikibooks_chicken_parmigiana",
+  "sourceRef": {
+    "source": "wikibooks_chicken_parmigiana",
+    "step": 2
+  },
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "chicken",
+        "amount": {
+          "qty": 2,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "vegetable_oil",
+        "amount": {
+          "qty": 0.5,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "chicken_parmigiana_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "While the oil is heating, use a tenderizing mallet (or the ball of your hand) to pound the chicken breasts to about ½ inch thick. This step is important to ensure the chicken is tender and more importantly to ensure the chicken cooks thoroughly.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'½ a cup of canola oil (see below if you wish to use olive oil)': 'a' read as pieces"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

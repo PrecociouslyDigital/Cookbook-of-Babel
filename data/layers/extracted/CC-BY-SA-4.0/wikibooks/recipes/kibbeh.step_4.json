@@ -1,0 +1,79 @@
+{
+  "id": "kibbeh.step_4",
+  "source": "wikibooks_kibbeh",
+  "sourceRef": {
+    "source": "wikibooks_kibbeh",
+    "step": 4
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "kibbeh_step_3",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "bulgur",
+        "amount": {
+          "qty": 0.5,
+          "unit": "kg"
+        }
+      },
+      {
+        "ingredient": "coarse_bulgur",
+        "amount": {
+          "qty": 0.5,
+          "unit": "kg"
+        }
+      },
+      {
+        "ingredient": "water",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "kibbeh_step_4",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 90,
+    "medium": "simmering_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "h"
+    }
+  },
+  "stateNote": "Combine the fine and coarse bulgur in a bowl. Cover the bulgur with a few centimeters of warm water. Let the bulgur soak for about 1 hour until it has absorbed some water.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.55"
+    },
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Water as needed': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 90.0 °C for simmering_water"
+    }
+  ]
+}

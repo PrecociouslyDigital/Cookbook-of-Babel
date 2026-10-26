@@ -1,0 +1,62 @@
+{
+  "id": "rosemary_garlic_pork_roast.step_2",
+  "source": "wikibooks_rosemary_garlic_pork_roast",
+  "sourceRef": {
+    "source": "wikibooks_rosemary_garlic_pork_roast",
+    "step": 2
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "rosemary_garlic_pork_roast_step_1",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "rosemary",
+        "amount": {
+          "qty": 1,
+          "unit": "sprig"
+        }
+      },
+      {
+        "ingredient": "garlic",
+        "amount": {
+          "qty": 5,
+          "unit": "clove"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "rosemary_garlic_pork_roast_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Place rosemary in the bottom of a roasting pan and place garlic in a circle around it. Place pork on top. Some may wish to be a bit bolder and make slits in the meat to insert the rosemary and garlic into the roast.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

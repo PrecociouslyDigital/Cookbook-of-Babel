@@ -1,0 +1,67 @@
+{
+  "id": "buah_melaka_malaysian_palm_sugar_dumplings.step_2",
+  "source": "wikibooks_buah_melaka_malaysian_palm_sugar_dumplings",
+  "sourceRef": {
+    "source": "wikibooks_buah_melaka_malaysian_palm_sugar_dumplings",
+    "step": 2
+  },
+  "technique": "blend",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "buah_melaka_malaysian_palm_sugar_dumplings_step_1",
+        "amount": {
+          "qty": 0.7,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "pandan",
+        "amount": {
+          "qty": 15,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "water",
+        "amount": {
+          "qty": 3,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "buah_melaka_malaysian_palm_sugar_dumplings_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Use a blender or mortar to grind together the pandan leaves and water. Strain the mixture and discard the solids.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.38"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

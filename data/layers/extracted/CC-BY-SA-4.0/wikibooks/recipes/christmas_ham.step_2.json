@@ -1,0 +1,48 @@
+{
+  "id": "christmas_ham.step_2",
+  "source": "wikibooks_christmas_ham",
+  "sourceRef": {
+    "source": "wikibooks_christmas_ham",
+    "step": 2
+  },
+  "technique": "heat",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "christmas_ham_step_1",
+        "amount": {
+          "qty": 8500,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "christmas_ham_step_2",
+      "amount": {
+        "qty": 8500,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Before putting the ham in the oven, take it out from the refrigerator and let come closer to room temperature. If you intend to put the ham in the oven in the evening, take it out during the early morning. The ham should be about 10 °C (50 °F) when you put it in the oven.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

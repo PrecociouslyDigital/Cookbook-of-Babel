@@ -1,0 +1,48 @@
+{
+  "id": "applewood_bacon.step_9",
+  "source": "wikibooks_applewood_bacon",
+  "sourceRef": {
+    "source": "wikibooks_applewood_bacon",
+    "step": 9
+  },
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "applewood_bacon_step_8",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "applewood_bacon",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 21,
+      "unit": "d"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Slice bacon as thick or as thin as you like, and cook or refrigerate for up to 3 weeks.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.5"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "sweet_mango_lassi.step_3",
+  "source": "wikibooks_sweet_mango_lassi",
+  "sourceRef": {
+    "source": "wikibooks_sweet_mango_lassi",
+    "step": 3
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "sweet_mango_lassi_step_2",
+        "amount": {
+          "qty": 2227.5,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "sweet_mango_lassi",
+      "amount": {
+        "qty": 2227.5,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Mix together the mango and yoghurt mixtures.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

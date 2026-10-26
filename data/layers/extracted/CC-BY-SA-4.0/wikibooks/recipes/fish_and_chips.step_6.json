@@ -1,0 +1,48 @@
+{
+  "id": "fish_and_chips.step_6",
+  "source": "wikibooks_fish_and_chips",
+  "sourceRef": {
+    "source": "wikibooks_fish_and_chips",
+    "step": 6
+  },
+  "technique": "fry",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "fish_and_chips_step_5",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "fish_and_chips_step_6",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 190,
+    "medium": "frying_oil"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 5.5,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Deep fry the fish in batches for 5–6 minutes, depending on the size of the fish. Remove and drain on kitchen paper.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of fry's typical range"
+    }
+  ]
+}

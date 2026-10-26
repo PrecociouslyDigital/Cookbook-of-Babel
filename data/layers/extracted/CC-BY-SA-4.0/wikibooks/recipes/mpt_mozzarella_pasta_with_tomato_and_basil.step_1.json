@@ -1,0 +1,55 @@
+{
+  "id": "mpt_mozzarella_pasta_with_tomato_and_basil.step_1",
+  "source": "wikibooks_mpt_mozzarella_pasta_with_tomato_and_basil",
+  "sourceRef": {
+    "source": "wikibooks_mpt_mozzarella_pasta_with_tomato_and_basil",
+    "step": 1
+  },
+  "technique": "chop",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "mozzarella_cheese",
+        "amount": {
+          "qty": 2,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "tomato",
+        "amount": {
+          "qty": 12.5,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "mpt_mozzarella_pasta_with_tomato_and_basil_step_1",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Roughly chop the mozzarella and the tomatoes and put them in a big salad-type bowl.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

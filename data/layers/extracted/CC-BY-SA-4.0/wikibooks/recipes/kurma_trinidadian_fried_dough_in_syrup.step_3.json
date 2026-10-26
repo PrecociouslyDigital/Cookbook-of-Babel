@@ -1,0 +1,48 @@
+{
+  "id": "kurma_trinidadian_fried_dough_in_syrup.step_3",
+  "source": "wikibooks_kurma_trinidadian_fried_dough_in_syrup",
+  "sourceRef": {
+    "source": "wikibooks_kurma_trinidadian_fried_dough_in_syrup",
+    "step": 3
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "kurma_trinidadian_fried_dough_in_syrup_step_2",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "kurma_trinidadian_fried_dough_in_syrup_step_3",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Pour the liquid mixture into the mixture of dry ingredients a little bit at a time. Mix until a dough forms. The dough should be \"tough;\" that is, not stretchy.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

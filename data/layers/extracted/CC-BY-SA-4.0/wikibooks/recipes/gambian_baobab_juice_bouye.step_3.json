@@ -1,0 +1,80 @@
+{
+  "id": "gambian_baobab_juice_bouye.step_3",
+  "source": "wikibooks_gambian_baobab_juice_bouye",
+  "sourceRef": {
+    "source": "wikibooks_gambian_baobab_juice_bouye",
+    "step": 3
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "gambian_baobab_juice_bouye_step_2",
+        "amount": {
+          "qty": 1183,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "condensed_milk",
+        "amount": {
+          "qty": 1,
+          "unit": "cup"
+        }
+      },
+      {
+        "ingredient": "white_sugar",
+        "amount": {
+          "qty": 0.25,
+          "unit": "cup"
+        }
+      },
+      {
+        "min": 0,
+        "max": 1,
+        "of": [
+          {
+            "ingredient": "vitamin_c_powder",
+            "amount": {
+              "qty": 0.5,
+              "unit": "tsp"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "gambian_baobab_juice_bouye_step_3",
+      "amount": {
+        "qty": 1472.3,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Add the evaporated milk or condensed milk to the pitcher, along with the sugar and vitamin C powder (if using). Stir well until the sugar is dissolved and the ingredients are thoroughly mixed.",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for condensed_milk, vitamin_c_powder"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

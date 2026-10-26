@@ -1,0 +1,61 @@
+{
+  "id": "mazagran_algerian_iced_coffee.step_4",
+  "source": "wikibooks_mazagran_algerian_iced_coffee",
+  "sourceRef": {
+    "source": "wikibooks_mazagran_algerian_iced_coffee",
+    "step": 4
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "mazagran_algerian_iced_coffee_step_3",
+        "amount": {
+          "qty": 237.5,
+          "unit": "g"
+        }
+      },
+      {
+        "min": 0,
+        "max": 1,
+        "of": [
+          {
+            "ingredient": "lemon_slice",
+            "amount": {
+              "qty": 1,
+              "unit": "piece"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "mazagran_algerian_iced_coffee",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Add the lemon slice or wedge as a final touch if desired.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

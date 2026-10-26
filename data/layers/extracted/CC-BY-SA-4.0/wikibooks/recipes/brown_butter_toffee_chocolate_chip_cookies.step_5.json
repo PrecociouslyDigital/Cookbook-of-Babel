@@ -1,0 +1,70 @@
+{
+  "id": "brown_butter_toffee_chocolate_chip_cookies.step_5",
+  "source": "wikibooks_brown_butter_toffee_chocolate_chip_cookies",
+  "sourceRef": {
+    "source": "wikibooks_brown_butter_toffee_chocolate_chip_cookies",
+    "step": 5
+  },
+  "technique": "heat",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "brown_butter_toffee_chocolate_chip_cookies_step_3",
+        "amount": {
+          "qty": 236.2,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "unsalted_butter",
+        "amount": {
+          "qty": 1,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "brown_butter_toffee_chocolate_chip_cookies_step_5",
+      "amount": {
+        "qty": 472.8,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 180,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Melt the butter in a saucepan and cook until it turns dark brown. Remove from the heat.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.51"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for unsalted_butter"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 180.0 °C for pan_contact"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

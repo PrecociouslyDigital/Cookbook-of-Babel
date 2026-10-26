@@ -1,0 +1,53 @@
+{
+  "id": "sriracha_oatmeal_and_lentils.step_2",
+  "source": "wikibooks_sriracha_oatmeal_and_lentils",
+  "sourceRef": {
+    "source": "wikibooks_sriracha_oatmeal_and_lentils",
+    "step": 2
+  },
+  "technique": "strain",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "sriracha_oatmeal_and_lentils_step_1",
+        "amount": {
+          "qty": 177.4,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "sriracha_oatmeal_and_lentils_step_2",
+      "amount": {
+        "qty": 177.4,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "If there is any remaining water, strain the lentils.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.56"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

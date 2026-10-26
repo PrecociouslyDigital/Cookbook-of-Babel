@@ -1,0 +1,60 @@
+{
+  "id": "soft_spice_cookie.step_1",
+  "source": "wikibooks_soft_spice_cookie",
+  "sourceRef": {
+    "source": "wikibooks_soft_spice_cookie",
+    "step": 1
+  },
+  "technique": "whisk",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "egg",
+        "amount": {
+          "qty": 3,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "shortening",
+        "amount": {
+          "qty": 230,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "soft_spice_cookie_step_1",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "In a large bowl, beat eggs lightly to break the yolks as one would for scrambled eggs, then mix in the shortening. If using butter, soften it slightly beforehand by heating it a little. The shortening/egg mixture should be loose.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.53"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": "drover_s_damper.step_7",
+  "source": "wikibooks_drover_s_damper",
+  "sourceRef": {
+    "source": "wikibooks_drover_s_damper",
+    "step": 7
+  },
+  "technique": "separate",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "drover_s_damper_step_6",
+        "amount": {
+          "qty": 519.2,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "drover_s_damper",
+      "amount": {
+        "qty": 519.2,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Discard burnt outside and eat the inside.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.46"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

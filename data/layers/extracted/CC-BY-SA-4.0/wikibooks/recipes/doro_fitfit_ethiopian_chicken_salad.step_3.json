@@ -1,0 +1,53 @@
+{
+  "id": "doro_fitfit_ethiopian_chicken_salad.step_3",
+  "source": "wikibooks_doro_fitfit_ethiopian_chicken_salad",
+  "sourceRef": {
+    "source": "wikibooks_doro_fitfit_ethiopian_chicken_salad",
+    "step": 3
+  },
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "doro_fitfit_ethiopian_chicken_salad_step_2",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "doro_fitfit_ethiopian_chicken_salad_step_3",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Pour the dressing over the salad ingredients in the mixing bowl.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.58"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

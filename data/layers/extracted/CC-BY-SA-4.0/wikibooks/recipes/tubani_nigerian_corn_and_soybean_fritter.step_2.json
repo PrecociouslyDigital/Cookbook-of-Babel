@@ -1,0 +1,48 @@
+{
+  "id": "tubani_nigerian_corn_and_soybean_fritter.step_2",
+  "source": "wikibooks_tubani_nigerian_corn_and_soybean_fritter",
+  "sourceRef": {
+    "source": "wikibooks_tubani_nigerian_corn_and_soybean_fritter",
+    "step": 2
+  },
+  "technique": "knead",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "tubani_nigerian_corn_and_soybean_fritter_step_1",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "tubani_nigerian_corn_and_soybean_fritter_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Mold the dough into your desired shape.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

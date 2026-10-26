@@ -1,0 +1,48 @@
+{
+  "id": "komle_norwegian_potato_dumplings.step_2",
+  "source": "wikibooks_komle_norwegian_potato_dumplings",
+  "sourceRef": {
+    "source": "wikibooks_komle_norwegian_potato_dumplings",
+    "step": 2
+  },
+  "technique": "strain",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "komle_norwegian_potato_dumplings_step_1",
+        "amount": {
+          "qty": 2000,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "komle_norwegian_potato_dumplings_step_2",
+      "amount": {
+        "qty": 2000,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Squeeze the potato mass to discard the water.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

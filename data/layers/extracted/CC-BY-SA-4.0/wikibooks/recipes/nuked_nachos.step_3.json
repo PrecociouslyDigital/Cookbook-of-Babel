@@ -1,0 +1,48 @@
+{
+  "id": "nuked_nachos.step_3",
+  "source": "wikibooks_nuked_nachos",
+  "sourceRef": {
+    "source": "wikibooks_nuked_nachos",
+    "step": 3
+  },
+  "technique": "heat",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "nuked_nachos_step_2",
+        "amount": {
+          "qty": 100.3,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "nuked_nachos",
+      "amount": {
+        "qty": 100.3,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 20,
+    "medium": "still_air"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 30,
+      "unit": "s"
+    }
+  },
+  "stateNote": "Microwave for 30 seconds, or until the cheese has melted. If the cheese melts onto the plate, just rip it off the plate and put it on the nachos.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 20.0 °C for still_air"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "id": "yataklete_kilkil_ethiopian_vegetable_stew.step_2",
+  "source": "wikibooks_yataklete_kilkil_ethiopian_vegetable_stew",
+  "sourceRef": {
+    "source": "wikibooks_yataklete_kilkil_ethiopian_vegetable_stew",
+    "step": 2
+  },
+  "technique": "pan_fry",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "yataklete_kilkil_ethiopian_vegetable_stew_step_1",
+        "amount": {
+          "qty": 29.6,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "onion",
+        "amount": {
+          "qty": 1,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "yataklete_kilkil_ethiopian_vegetable_stew_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 185,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Add the finely chopped onion to the skillet and sauté until it becomes translucent.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.52"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of pan_fry's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

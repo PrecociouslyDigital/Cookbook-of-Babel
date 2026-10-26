@@ -1,0 +1,54 @@
+{
+  "id": "camotes_enmielados_mexican_sweet_yams.step_1",
+  "source": "wikibooks_camotes_enmielados_mexican_sweet_yams",
+  "sourceRef": {
+    "source": "wikibooks_camotes_enmielados_mexican_sweet_yams",
+    "step": 1
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "min": 0,
+        "max": 1,
+        "of": [
+          {
+            "ingredient": "yam",
+            "amount": {
+              "qty": 1,
+              "unit": "piece"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "camotes_enmielados_mexican_sweet_yams_step_1",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Place whole or thickly-sliced yams in a large baking dish.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

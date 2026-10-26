@@ -1,0 +1,63 @@
+{
+  "id": "soup_du_pecheur_fisherman_soup.step_5",
+  "source": "wikibooks_soup_du_pecheur_fisherman_soup",
+  "sourceRef": {
+    "source": "wikibooks_soup_du_pecheur_fisherman_soup",
+    "step": 5
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "soup_du_pecheur_fisherman_soup_step_4",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "soup_du_pecheur_fisherman_soup",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 100,
+    "medium": "steam"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "When the cassava couscous is hot, add the remaining red oil and salt to your desire taste. Mix it very well until the couscous turns orange.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.27"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 100.0 °C for steam"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    },
+    {
+      "field": "inputs",
+      "kind": "missing",
+      "note": "no step uses '2 lb crayfish' (p=0.65)"
+    }
+  ]
+}

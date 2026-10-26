@@ -1,0 +1,60 @@
+{
+  "id": "salty_namkin_lassi.step_2",
+  "source": "wikibooks_salty_namkin_lassi",
+  "sourceRef": {
+    "source": "wikibooks_salty_namkin_lassi",
+    "step": 2
+  },
+  "technique": "blend",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "salty_namkin_lassi_step_1",
+        "amount": {
+          "qty": 1717.6,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "ice",
+        "amount": {
+          "qty": 1,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "salty_namkin_lassi",
+      "amount": {
+        "qty": 1954.2,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Add ice and continue blending until frothy.",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for ice"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

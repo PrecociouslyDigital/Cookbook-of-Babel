@@ -1,0 +1,62 @@
+{
+  "id": "tagliatelle_bake.step_4",
+  "source": "wikibooks_tagliatelle_bake",
+  "sourceRef": {
+    "source": "wikibooks_tagliatelle_bake",
+    "step": 4
+  },
+  "technique": "evaporate",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "tagliatelle_bake_step_3",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "parsley",
+        "amount": {
+          "qty": 1,
+          "unit": "handful"
+        }
+      },
+      {
+        "ingredient": "wine",
+        "amount": {
+          "qty": 0.375,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "tagliatelle_bake_step_4",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 100,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 5,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Add the parsley. Pour in the white wine and cook for 5 minutes to burn off the alcohol.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of evaporate's typical range"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": "chow_mein.step_6",
+  "source": "wikibooks_chow_mein",
+  "sourceRef": {
+    "source": "wikibooks_chow_mein",
+    "step": 6
+  },
+  "technique": "stir_fry",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "chow_mein_step_5",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "chow_mein_step_6",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 215,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Cook the rest of the vegetables separately, except for the green onion, seasoning each with a bit of salt while stir-frying if desired. When cooking the bok choy or broccoli, add ¼ cup of water and cover while cooking. Remove each of the vegetables from the pan when finished stir-frying. Add more oil as needed.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of stir_fry's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

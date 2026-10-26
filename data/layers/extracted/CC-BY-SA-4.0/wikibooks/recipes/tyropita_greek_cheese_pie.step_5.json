@@ -1,0 +1,48 @@
+{
+  "id": "tyropita_greek_cheese_pie.step_5",
+  "source": "wikibooks_tyropita_greek_cheese_pie",
+  "sourceRef": {
+    "source": "wikibooks_tyropita_greek_cheese_pie",
+    "step": 5
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "tyropita_greek_cheese_pie_step_4",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "tyropita_greek_cheese_pie_step_5",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Pour in the cheese-egg mixture, spreading evenly.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

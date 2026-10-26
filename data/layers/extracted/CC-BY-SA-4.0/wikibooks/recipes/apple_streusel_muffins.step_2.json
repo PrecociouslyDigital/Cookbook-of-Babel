@@ -1,0 +1,48 @@
+{
+  "id": "apple_streusel_muffins.step_2",
+  "source": "wikibooks_apple_streusel_muffins",
+  "sourceRef": {
+    "source": "wikibooks_apple_streusel_muffins",
+    "step": 2
+  },
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "apple_streusel_muffins_step_1",
+        "amount": {
+          "qty": 152.1,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "apple_streusel_muffins_step_2",
+      "amount": {
+        "qty": 152.1,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Cut in until mixture resembles coarse crumbs. Set aside.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

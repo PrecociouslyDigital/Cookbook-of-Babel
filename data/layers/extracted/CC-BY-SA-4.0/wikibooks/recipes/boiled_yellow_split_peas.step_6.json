@@ -1,0 +1,53 @@
+{
+  "id": "boiled_yellow_split_peas.step_6",
+  "source": "wikibooks_boiled_yellow_split_peas",
+  "sourceRef": {
+    "source": "wikibooks_boiled_yellow_split_peas",
+    "step": 6
+  },
+  "technique": "cool",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "boiled_yellow_split_peas_step_5",
+        "amount": {
+          "qty": 1054.9,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "boiled_yellow_split_peas_step_6",
+      "amount": {
+        "qty": 1054.9,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Pick over beans, then add cold water.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.31"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

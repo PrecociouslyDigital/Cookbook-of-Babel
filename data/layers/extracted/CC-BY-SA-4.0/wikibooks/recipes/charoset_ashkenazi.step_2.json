@@ -1,0 +1,48 @@
+{
+  "id": "charoset_ashkenazi.step_2",
+  "source": "wikibooks_charoset_ashkenazi",
+  "sourceRef": {
+    "source": "wikibooks_charoset_ashkenazi",
+    "step": 2
+  },
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "charoset_ashkenazi_step_1",
+        "amount": {
+          "qty": 603.8,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "charoset_ashkenazi",
+      "amount": {
+        "qty": 603.8,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Adjust seasoning, if necessary, after it's chilled.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

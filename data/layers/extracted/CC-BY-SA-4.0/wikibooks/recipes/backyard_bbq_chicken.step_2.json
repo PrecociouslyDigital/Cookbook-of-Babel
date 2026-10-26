@@ -1,0 +1,41 @@
+{
+  "id": "backyard_bbq_chicken.step_2",
+  "source": "wikibooks_backyard_bbq_chicken",
+  "sourceRef": {
+    "source": "wikibooks_backyard_bbq_chicken",
+    "step": 2
+  },
+  "technique": "chill",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "backyard_bbq_chicken_step_1",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "backyard_bbq_chicken_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "h"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Refrigerate 1 hour."
+}

@@ -1,0 +1,48 @@
+{
+  "id": "firecracker_grilled_shrimp.step_2",
+  "source": "wikibooks_firecracker_grilled_shrimp",
+  "sourceRef": {
+    "source": "wikibooks_firecracker_grilled_shrimp",
+    "step": 2
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "firecracker_grilled_shrimp_step_1",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "firecracker_grilled_shrimp_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Drain shrimp and discard remaining marinade. Thread 4 shrimp onto each skewer.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

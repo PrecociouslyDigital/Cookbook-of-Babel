@@ -1,0 +1,74 @@
+{
+  "id": "rugelach.step_11",
+  "source": "wikibooks_rugelach",
+  "sourceRef": {
+    "source": "wikibooks_rugelach",
+    "step": 11
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "rugelach_step_10",
+        "amount": {
+          "qty": 796.3,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "raisin",
+        "amount": {
+          "qty": 1,
+          "unit": "cup"
+        }
+      },
+      {
+        "ingredient": "walnut",
+        "amount": {
+          "qty": 0.25,
+          "unit": "lb"
+        }
+      },
+      {
+        "ingredient": "apricot",
+        "amount": {
+          "qty": 1,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "rugelach_step_11",
+      "amount": {
+        "qty": 1382.9,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Take one dough quarter out of the fridge and spread ¼ cup of the jam over the dough with a spatula. Over the dough, scatter ¼ cup of raisins and then walnuts, finally 2 tablespoons of the whisked cinnamon sugar.",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for raisin, apricot"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

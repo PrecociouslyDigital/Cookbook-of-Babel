@@ -1,0 +1,48 @@
+{
+  "id": "yemiser_selatta_ethiopian_lentil_salad.step_6",
+  "source": "wikibooks_yemiser_selatta_ethiopian_lentil_salad",
+  "sourceRef": {
+    "source": "wikibooks_yemiser_selatta_ethiopian_lentil_salad",
+    "step": 6
+  },
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "yemiser_selatta_ethiopian_lentil_salad_step_5",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "yemiser_selatta_ethiopian_lentil_salad_step_6",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Taste and adjust the seasoning with salt and pepper if needed.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

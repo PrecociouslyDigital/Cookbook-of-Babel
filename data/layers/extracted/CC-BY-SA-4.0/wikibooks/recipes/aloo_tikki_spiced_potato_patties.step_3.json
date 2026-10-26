@@ -1,0 +1,48 @@
+{
+  "id": "aloo_tikki_spiced_potato_patties.step_3",
+  "source": "wikibooks_aloo_tikki_spiced_potato_patties",
+  "sourceRef": {
+    "source": "wikibooks_aloo_tikki_spiced_potato_patties",
+    "step": 3
+  },
+  "technique": "knead",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "aloo_tikki_spiced_potato_patties_step_2",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "aloo_tikki_spiced_potato_patties_step_3",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Using the palm of your hand, flatten out the potatoes on a board with a light hand.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

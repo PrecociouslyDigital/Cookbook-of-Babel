@@ -1,0 +1,48 @@
+{
+  "id": "nuked_nachos.step_2",
+  "source": "wikibooks_nuked_nachos",
+  "sourceRef": {
+    "source": "wikibooks_nuked_nachos",
+    "step": 2
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "nuked_nachos_step_1",
+        "amount": {
+          "qty": 100.3,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "nuked_nachos_step_2",
+      "amount": {
+        "qty": 100.3,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Top the chips with any other desired microwave-safe toppings.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

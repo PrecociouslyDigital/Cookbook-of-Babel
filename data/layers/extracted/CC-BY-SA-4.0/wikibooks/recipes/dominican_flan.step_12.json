@@ -1,0 +1,48 @@
+{
+  "id": "dominican_flan.step_12",
+  "source": "wikibooks_dominican_flan",
+  "sourceRef": {
+    "source": "wikibooks_dominican_flan",
+    "step": 12
+  },
+  "technique": "separate",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "dominican_flan_step_11",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "dominican_flan_step_12",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Take a large plate, put it on top of the pot, and flip the pot over. The flan should drop from the pot onto the plate. Carefully remove the pot, making sure that the flan stays in one piece.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

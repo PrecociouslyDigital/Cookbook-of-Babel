@@ -1,0 +1,65 @@
+{
+  "id": "fuk_thong_pad_khai_thai_stir_fried_pumpkin.step_4",
+  "source": "wikibooks_fuk_thong_pad_khai_thai_stir_fried_pumpkin",
+  "sourceRef": {
+    "source": "wikibooks_fuk_thong_pad_khai_thai_stir_fried_pumpkin",
+    "step": 4
+  },
+  "technique": "stir_fry",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "fuk_thong_pad_khai_thai_stir_fried_pumpkin_step_3",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "pork",
+        "amount": {
+          "qty": 150,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "fuk_thong_pad_khai_thai_stir_fried_pumpkin_step_4",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 215,
+    "medium": "frying_oil"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Add the minced pork to the pan, and let cook until the pork is nearly cooked through.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.52"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of stir_fry's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

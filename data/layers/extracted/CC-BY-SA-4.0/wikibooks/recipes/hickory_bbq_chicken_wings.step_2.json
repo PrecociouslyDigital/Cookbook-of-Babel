@@ -1,0 +1,62 @@
+{
+  "id": "hickory_bbq_chicken_wings.step_2",
+  "source": "wikibooks_hickory_bbq_chicken_wings",
+  "sourceRef": {
+    "source": "wikibooks_hickory_bbq_chicken_wings",
+    "step": 2
+  },
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "hickory_bbq_chicken_wings_step_1",
+        "amount": {
+          "qty": 150.4,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "chicken",
+        "amount": {
+          "qty": 24,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "hickory_bbq_rub",
+        "amount": {
+          "qty": 3,
+          "unit": "tbsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "hickory_bbq_chicken_wings_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Season chicken evenly with seasoning. Set aside.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

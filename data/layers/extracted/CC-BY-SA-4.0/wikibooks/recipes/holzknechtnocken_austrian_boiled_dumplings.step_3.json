@@ -1,0 +1,75 @@
+{
+  "id": "holzknechtnocken_austrian_boiled_dumplings.step_3",
+  "source": "wikibooks_holzknechtnocken_austrian_boiled_dumplings",
+  "sourceRef": {
+    "source": "wikibooks_holzknechtnocken_austrian_boiled_dumplings",
+    "step": 3
+  },
+  "technique": "pan_fry",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "holzknechtnocken_austrian_boiled_dumplings_step_2",
+        "amount": {
+          "qty": 504.3,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "lard",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "holzknechtnocken_austrian_boiled_dumplings",
+      "amount": {
+        "qty": 504.6,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 185,
+    "medium": "frying_oil"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Melt lard in a heavy-bottomed skillet with deep sides. Add dumplings, and fry until they are golden.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.59"
+    },
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Lard': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for lard"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of pan_fry's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

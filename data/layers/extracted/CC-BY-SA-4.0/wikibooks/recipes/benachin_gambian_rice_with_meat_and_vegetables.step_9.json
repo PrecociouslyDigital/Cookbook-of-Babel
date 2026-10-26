@@ -1,0 +1,58 @@
+{
+  "id": "benachin_gambian_rice_with_meat_and_vegetables.step_9",
+  "source": "wikibooks_benachin_gambian_rice_with_meat_and_vegetables",
+  "sourceRef": {
+    "source": "wikibooks_benachin_gambian_rice_with_meat_and_vegetables",
+    "step": 9
+  },
+  "technique": "separate",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "benachin_gambian_rice_with_meat_and_vegetables_step_8",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "benachin_gambian_rice_with_meat_and_vegetables_step_9",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 90,
+    "medium": "simmering_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Once the rice is cooked, gently fluff it with a fork.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.28"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 90.0 °C for simmering_water"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

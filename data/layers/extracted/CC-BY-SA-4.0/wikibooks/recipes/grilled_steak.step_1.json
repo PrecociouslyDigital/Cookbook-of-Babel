@@ -1,0 +1,48 @@
+{
+  "id": "grilled_steak.step_1",
+  "source": "wikibooks_grilled_steak",
+  "sourceRef": {
+    "source": "wikibooks_grilled_steak",
+    "step": 1
+  },
+  "technique": "heat",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "beef",
+        "amount": {
+          "qty": 2,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "grilled_steak_step_1",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "h"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "If steaks are frozen, thaw for about an hour before cooking.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'2 sirloin-cut beef steaks': 'sirloin-cut' read as pieces"
+    }
+  ]
+}

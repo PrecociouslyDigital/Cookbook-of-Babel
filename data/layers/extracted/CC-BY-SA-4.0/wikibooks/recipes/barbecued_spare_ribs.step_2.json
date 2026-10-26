@@ -1,0 +1,58 @@
+{
+  "id": "barbecued_spare_ribs.step_2",
+  "source": "wikibooks_barbecued_spare_ribs",
+  "sourceRef": {
+    "source": "wikibooks_barbecued_spare_ribs",
+    "step": 2
+  },
+  "technique": "roast",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "barbecued_spare_ribs_step_1",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "barbecued_spare_ribs_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 190.55555555555554,
+    "medium": "oven_air"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Preheat the oven to 375 °F. Place a large, shallow roasting pan on the oven bottom. Fill with 0.5 in water. Place spare ribs on a roasting rack.",
+  "issues": [
+    {
+      "field": "sourceRef",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.53"
+    },
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.53"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

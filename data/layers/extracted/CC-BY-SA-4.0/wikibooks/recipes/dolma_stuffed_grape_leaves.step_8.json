@@ -1,0 +1,48 @@
+{
+  "id": "dolma_stuffed_grape_leaves.step_8",
+  "source": "wikibooks_dolma_stuffed_grape_leaves",
+  "sourceRef": {
+    "source": "wikibooks_dolma_stuffed_grape_leaves",
+    "step": 8
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "dolma_stuffed_grape_leaves_step_7",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "dolma_stuffed_grape_leaves_step_8",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Stuff the tomatoes and green pepper, and replace their tops.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

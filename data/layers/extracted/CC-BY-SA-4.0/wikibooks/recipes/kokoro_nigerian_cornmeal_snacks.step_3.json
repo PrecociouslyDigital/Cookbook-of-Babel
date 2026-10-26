@@ -1,0 +1,58 @@
+{
+  "id": "kokoro_nigerian_cornmeal_snacks.step_3",
+  "source": "wikibooks_kokoro_nigerian_cornmeal_snacks",
+  "sourceRef": {
+    "source": "wikibooks_kokoro_nigerian_cornmeal_snacks",
+    "step": 3
+  },
+  "technique": "cool",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "kokoro_nigerian_cornmeal_snacks_step_2",
+        "amount": {
+          "qty": 600.7,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "kokoro_nigerian_cornmeal_snacks_step_3",
+      "amount": {
+        "qty": 600.7,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 20,
+    "medium": "still_air"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Remove the pot from the heat, and let the dough cool down.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.52"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 20.0 °C for still_air"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

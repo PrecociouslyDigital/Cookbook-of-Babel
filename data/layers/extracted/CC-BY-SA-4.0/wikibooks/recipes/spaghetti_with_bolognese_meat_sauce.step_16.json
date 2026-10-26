@@ -1,0 +1,60 @@
+{
+  "id": "spaghetti_with_bolognese_meat_sauce.step_16",
+  "source": "wikibooks_spaghetti_with_bolognese_meat_sauce",
+  "sourceRef": {
+    "source": "wikibooks_spaghetti_with_bolognese_meat_sauce",
+    "step": 16
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "spaghetti_with_bolognese_meat_sauce_step_15",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "parmesan_cheese",
+        "amount": {
+          "qty": 1,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "spaghetti_with_bolognese_meat_sauce",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Remove the bay leaf and lemon rind, then spoon the Bolognese sauce over the pasta and have guests garnish with the grated Parmesan cheese.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.38"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

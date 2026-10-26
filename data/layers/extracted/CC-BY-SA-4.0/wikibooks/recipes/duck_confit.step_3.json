@@ -1,0 +1,48 @@
+{
+  "id": "duck_confit.step_3",
+  "source": "wikibooks_duck_confit",
+  "sourceRef": {
+    "source": "wikibooks_duck_confit",
+    "step": 3
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "duck_confit_step_2",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "duck_confit_step_3",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Put the fat from the ducks in the bottom of a glass or plastic container. Top with the sandwiched leg portions, and sprinkle with the remaining ⅛ teaspoon salt.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

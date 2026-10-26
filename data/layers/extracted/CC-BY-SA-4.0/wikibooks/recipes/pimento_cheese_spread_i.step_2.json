@@ -1,0 +1,48 @@
+{
+  "id": "pimento_cheese_spread_i.step_2",
+  "source": "wikibooks_pimento_cheese_spread_i",
+  "sourceRef": {
+    "source": "wikibooks_pimento_cheese_spread_i",
+    "step": 2
+  },
+  "technique": "chill",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "pimento_cheese_spread_i_step_1",
+        "amount": {
+          "qty": 768.1,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "pimento_cheese_spread_i",
+      "amount": {
+        "qty": 768.1,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Store in well-sealed container in refrigerator.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

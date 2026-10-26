@@ -1,0 +1,48 @@
+{
+  "id": "egyptian_meatballs_kofta.step_5",
+  "source": "wikibooks_egyptian_meatballs_kofta",
+  "sourceRef": {
+    "source": "wikibooks_egyptian_meatballs_kofta",
+    "step": 5
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "egyptian_meatballs_kofta_step_2",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "egyptian_meatballs_kofta_step_5",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Thread the meatballs onto the skewers, leaving a bit of space between each meatball.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "id": "indian_hard_tack_baati.step_2",
+  "source": "wikibooks_indian_hard_tack_baati",
+  "sourceRef": {
+    "source": "wikibooks_indian_hard_tack_baati",
+    "step": 2
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "indian_hard_tack_baati_step_1",
+        "amount": {
+          "qty": 456.5,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "oil_and_fat",
+        "amount": {
+          "qty": 3,
+          "unit": "tbsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "indian_hard_tack_baati_step_2",
+      "amount": {
+        "qty": 500.9,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Put about 1 cup of flour mixture in a small bowl and add a little oil, mixing it in well and breaking up any lumps.",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for oil_and_fat"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

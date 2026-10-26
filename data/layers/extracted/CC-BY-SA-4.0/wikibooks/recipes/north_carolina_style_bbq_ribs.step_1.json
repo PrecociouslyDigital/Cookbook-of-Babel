@@ -1,0 +1,55 @@
+{
+  "id": "north_carolina_style_bbq_ribs.step_1",
+  "source": "wikibooks_north_carolina_style_bbq_ribs",
+  "sourceRef": {
+    "source": "wikibooks_north_carolina_style_bbq_ribs",
+    "step": 1
+  },
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "pork",
+        "amount": {
+          "qty": 1,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "rib_rub",
+        "amount": {
+          "qty": 6,
+          "unit": "tbsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "north_carolina_style_bbq_ribs_step_1",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "h"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Season ribs with Rib Rub and refrigerate for at least 1 hour.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'1 slab pork spareribs': 'slab' read as pieces"
+    }
+  ]
+}

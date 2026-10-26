@@ -1,0 +1,58 @@
+{
+  "id": "steak_au_poivre_pepper_steak.step_6",
+  "source": "wikibooks_steak_au_poivre_pepper_steak",
+  "sourceRef": {
+    "source": "wikibooks_steak_au_poivre_pepper_steak",
+    "step": 6
+  },
+  "technique": "whisk",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "steak_au_poivre_pepper_steak_step_5",
+        "amount": {
+          "qty": 1208.3,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "steak_au_poivre_pepper_steak",
+      "amount": {
+        "qty": 1208.3,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 180,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Slowly whisk in butter, 1 tbsp at a time. Spoon sauce over steaks and serve warm.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.44"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 180.0 °C for pan_contact"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

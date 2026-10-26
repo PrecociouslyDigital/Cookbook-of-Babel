@@ -1,0 +1,81 @@
+{
+  "id": "pad_thai.step_2",
+  "source": "wikibooks_pad_thai",
+  "sourceRef": {
+    "source": "wikibooks_pad_thai",
+    "step": 2
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "pad_thai_step_1",
+        "amount": {
+          "qty": 226.8,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "fish_sauce",
+        "amount": {
+          "qty": 0.25,
+          "unit": "cup"
+        }
+      },
+      {
+        "ingredient": "vinegar",
+        "amount": {
+          "qty": 50,
+          "unit": "ml"
+        }
+      },
+      {
+        "ingredient": "tamarind",
+        "amount": {
+          "qty": 0.25,
+          "unit": "cup"
+        }
+      },
+      {
+        "ingredient": "white_sugar",
+        "amount": {
+          "qty": 0.25,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "pad_thai_step_2",
+      "amount": {
+        "qty": 445.4,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Mix the fish sauce with the vinegar, sugar and tamarind juice together in a small bowl.",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for fish_sauce, vinegar, tamarind"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

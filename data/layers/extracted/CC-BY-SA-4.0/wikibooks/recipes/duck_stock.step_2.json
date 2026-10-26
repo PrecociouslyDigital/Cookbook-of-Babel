@@ -1,0 +1,53 @@
+{
+  "id": "duck_stock.step_2",
+  "source": "wikibooks_duck_stock",
+  "sourceRef": {
+    "source": "wikibooks_duck_stock",
+    "step": 2
+  },
+  "technique": "strain",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "duck_stock_step_1",
+        "amount": {
+          "qty": 1428.9,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "duck_stock",
+      "amount": {
+        "qty": 1428.9,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Drain and reserve liquid, discarding bones and reserving any meat.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.59"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

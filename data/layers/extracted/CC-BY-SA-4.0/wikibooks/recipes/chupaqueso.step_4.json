@@ -1,0 +1,58 @@
+{
+  "id": "chupaqueso.step_4",
+  "source": "wikibooks_chupaqueso",
+  "sourceRef": {
+    "source": "wikibooks_chupaqueso",
+    "step": 4
+  },
+  "technique": "fold",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "chupaqueso_step_3",
+        "amount": {
+          "qty": 115,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "chupaqueso",
+      "amount": {
+        "qty": 115,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 180,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Fold the shell over, and let it cook long enough to melt the filler cheese if desired.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 180.0 °C for pan_contact"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    },
+    {
+      "field": "inputs",
+      "kind": "missing",
+      "note": "no step uses 'Marinara sauce' (p=0.53)"
+    }
+  ]
+}

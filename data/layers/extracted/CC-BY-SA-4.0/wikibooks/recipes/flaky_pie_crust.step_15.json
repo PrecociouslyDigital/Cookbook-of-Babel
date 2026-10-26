@@ -1,0 +1,48 @@
+{
+  "id": "flaky_pie_crust.step_15",
+  "source": "wikibooks_flaky_pie_crust",
+  "sourceRef": {
+    "source": "wikibooks_flaky_pie_crust",
+    "step": 15
+  },
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "flaky_pie_crust_step_14",
+        "amount": {
+          "qty": 640,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "flaky_pie_crust_step_15",
+      "amount": {
+        "qty": 640,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Brush the top of the pie with milk, and sprinkle with sugar.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

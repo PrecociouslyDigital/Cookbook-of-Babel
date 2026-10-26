@@ -1,0 +1,53 @@
+{
+  "id": "hamli_ethiopian_spinach_stew.step_4",
+  "source": "wikibooks_hamli_ethiopian_spinach_stew",
+  "sourceRef": {
+    "source": "wikibooks_hamli_ethiopian_spinach_stew",
+    "step": 4
+  },
+  "technique": "steam",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "hamli_ethiopian_spinach_stew_step_3",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "hamli_ethiopian_spinach_stew_step_4",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 100,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 12.5,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Cover the saucepan and let the spinach cook for about 10–15 minutes, or until it wilts down and becomes tender. Stir occasionally to ensure even cooking.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.51"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of steam's typical range"
+    }
+  ]
+}

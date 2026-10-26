@@ -1,0 +1,53 @@
+{
+  "id": "chocolate_balls.step_6",
+  "source": "wikibooks_chocolate_balls",
+  "sourceRef": {
+    "source": "wikibooks_chocolate_balls",
+    "step": 6
+  },
+  "technique": "cool",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "chocolate_balls_step_5",
+        "amount": {
+          "qty": 769.2,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "chocolate_balls",
+      "amount": {
+        "qty": 769.2,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Allow the chocolate balls to cool in the freezer or fridge before consumption.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.56"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

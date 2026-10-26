@@ -1,0 +1,53 @@
+{
+  "id": "tangy_lemon_battered_fried_chicken.step_6",
+  "source": "wikibooks_tangy_lemon_battered_fried_chicken",
+  "sourceRef": {
+    "source": "wikibooks_tangy_lemon_battered_fried_chicken",
+    "step": 6
+  },
+  "technique": "fry",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "tangy_lemon_battered_fried_chicken_step_5",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "tangy_lemon_battered_fried_chicken_step_6",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 190,
+    "medium": "frying_oil"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 12,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Fry for 12 minutes, then flip to the other side and fry another 12 minutes.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of fry's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "the step names several durations; used the first"
+    }
+  ]
+}

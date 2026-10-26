@@ -1,0 +1,53 @@
+{
+  "id": "apple_cider_syrup.step_2",
+  "source": "wikibooks_apple_cider_syrup",
+  "sourceRef": {
+    "source": "wikibooks_apple_cider_syrup",
+    "step": 2
+  },
+  "technique": "boil",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "apple_cider_syrup_step_1",
+        "amount": {
+          "qty": 3785.4,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "apple_cider_syrup_step_2",
+      "amount": {
+        "qty": 3785.4,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 100,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Bring the cider to a gentle boil, skimming off the scum that rises to the surface.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of boil's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

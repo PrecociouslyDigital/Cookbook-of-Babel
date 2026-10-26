@@ -1,0 +1,69 @@
+{
+  "id": "jambons.step_3",
+  "source": "wikibooks_jambons",
+  "sourceRef": {
+    "source": "wikibooks_jambons",
+    "step": 3
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "jambons_step_2",
+        "amount": {
+          "qty": 280.1,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "puff_pastry",
+        "amount": {
+          "qty": 1,
+          "unit": "sheet"
+        }
+      },
+      {
+        "ingredient": "ham",
+        "amount": {
+          "qty": 200,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "cheese",
+        "amount": {
+          "qty": 150,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "jambons_step_3",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Cut your pre-prepared puff pastry into squares and spoon a generous amount of the mixture onto each square. Sprinkle some ham and grated cheese on top.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "id": "maltese_almond_cookies_biskuttini_tal_lewz.step_2",
+  "source": "wikibooks_maltese_almond_cookies_biskuttini_tal_lewz",
+  "sourceRef": {
+    "source": "wikibooks_maltese_almond_cookies_biskuttini_tal_lewz",
+    "step": 2
+  },
+  "technique": "whisk",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "maltese_almond_cookies_biskuttini_tal_lewz_step_1",
+        "amount": {
+          "qty": 564.9,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "egg_white",
+        "amount": {
+          "qty": 2,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "maltese_almond_cookies_biskuttini_tal_lewz_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Whip the egg whites until stiff, then add to the almond mixture. Mix well to make a dough.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.52"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

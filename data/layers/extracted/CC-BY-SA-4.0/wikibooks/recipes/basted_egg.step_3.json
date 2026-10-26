@@ -1,0 +1,48 @@
+{
+  "id": "basted_egg.step_3",
+  "source": "wikibooks_basted_egg",
+  "sourceRef": {
+    "source": "wikibooks_basted_egg",
+    "step": 3
+  },
+  "technique": "steam",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "basted_egg_step_2",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "basted_egg",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 100,
+    "medium": "steam"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 2.5,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Allow the egg to cook only briefly before adding approximately 1 tablespoon of water. Immediately cover the pan with a lid, and allow the egg to cook for 2–3 minutes, depending on how well done you desire the egg.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of steam's typical range"
+    }
+  ]
+}

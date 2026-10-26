@@ -1,0 +1,48 @@
+{
+  "id": "baked_beans.step_5",
+  "source": "wikibooks_baked_beans",
+  "sourceRef": {
+    "source": "wikibooks_baked_beans",
+    "step": 5
+  },
+  "technique": "bake",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "baked_beans_step_4",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "baked_beans",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 175,
+    "medium": "oven_air"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 2.5,
+      "unit": "h"
+    }
+  },
+  "stateNote": "Bake 2½ hours. Check after an hour for moisture level, add more water as needed to keep appropriate moistness. If beans have too much liquid, remove lid and cook a bit longer.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "the step names several durations; used the first"
+    }
+  ]
+}

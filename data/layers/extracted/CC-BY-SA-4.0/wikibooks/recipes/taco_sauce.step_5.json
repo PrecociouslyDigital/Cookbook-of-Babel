@@ -1,0 +1,58 @@
+{
+  "id": "taco_sauce.step_5",
+  "source": "wikibooks_taco_sauce",
+  "sourceRef": {
+    "source": "wikibooks_taco_sauce",
+    "step": 5
+  },
+  "technique": "boil",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "taco_sauce_step_4",
+        "amount": {
+          "qty": 971.8,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "taco_sauce",
+      "amount": {
+        "qty": 971.8,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 100,
+    "medium": "boiling_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 3,
+      "unit": "d"
+    }
+  },
+  "stateNote": "For short-term storage, refrigerate for no more than 3 days. To store this for longer than 3 days or to store without a refrigerator, pour into 4-ounce mason jars leaving ¼ inch headspace and process for 20 minutes in a boiling water canner.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.58"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of boil's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "the step names several durations; used the first"
+    }
+  ]
+}

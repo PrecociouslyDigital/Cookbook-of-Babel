@@ -1,0 +1,48 @@
+{
+  "id": "bacon_and_egg_pie.step_2",
+  "source": "wikibooks_bacon_and_egg_pie",
+  "sourceRef": {
+    "source": "wikibooks_bacon_and_egg_pie",
+    "step": 2
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "shortcrust_pastry",
+        "amount": {
+          "qty": 225,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "bacon_and_egg_pie_step_2",
+      "amount": {
+        "qty": 225,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Divide the pastry into two equal portions, roll it out, and line a 20 cm (8-inch) oven-proof dish with one portion.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "espagnole_sauce_mrs_w_g_waters.step_4",
+  "source": "wikibooks_espagnole_sauce_mrs_w_g_waters",
+  "sourceRef": {
+    "source": "wikibooks_espagnole_sauce_mrs_w_g_waters",
+    "step": 4
+  },
+  "technique": "strain",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "espagnole_sauce_mrs_w_g_waters_step_3",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "espagnole_sauce_mrs_w_g_waters_step_4",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Strain through a tamis, then remove excess grease.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

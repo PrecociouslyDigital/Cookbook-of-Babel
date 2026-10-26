@@ -1,0 +1,60 @@
+{
+  "id": "piadina_thin_italian_flatbread.step_3",
+  "source": "wikibooks_piadina_thin_italian_flatbread",
+  "sourceRef": {
+    "source": "wikibooks_piadina_thin_italian_flatbread",
+    "step": 3
+  },
+  "technique": "blend",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "piadina_thin_italian_flatbread_step_2",
+        "amount": {
+          "qty": 373.7,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "water",
+        "amount": {
+          "qty": 0.625,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "piadina_thin_italian_flatbread_step_3",
+      "amount": {
+        "qty": 521.6,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Start the processor and add the water a little at a time until the dough comes together.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.53"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

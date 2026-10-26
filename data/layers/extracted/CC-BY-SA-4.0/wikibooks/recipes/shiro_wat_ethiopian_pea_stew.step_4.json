@@ -1,0 +1,65 @@
+{
+  "id": "shiro_wat_ethiopian_pea_stew.step_4",
+  "source": "wikibooks_shiro_wat_ethiopian_pea_stew",
+  "sourceRef": {
+    "source": "wikibooks_shiro_wat_ethiopian_pea_stew",
+    "step": 4
+  },
+  "technique": "simmer",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "shiro_wat_ethiopian_pea_stew_step_3",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "pea",
+        "amount": {
+          "qty": 4,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "shiro_wat_ethiopian_pea_stew_step_4",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 90,
+    "medium": "simmering_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 5,
+      "unit": "min"
+    }
+  },
+  "stateNote": "When the water boils, add the shiro, carefully stirring it in the pan; it should not make lumps. Then cook it for 5 minutes, stirring it regularly.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.59"
+    },
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'4 spoons shiro powder (made from different cereals and beans, typically split green peas)': 'spoons' read as pieces"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of simmer's typical range"
+    }
+  ]
+}

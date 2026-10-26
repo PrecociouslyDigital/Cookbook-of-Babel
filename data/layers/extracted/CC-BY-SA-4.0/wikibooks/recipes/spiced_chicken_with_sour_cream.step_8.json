@@ -1,0 +1,75 @@
+{
+  "id": "spiced_chicken_with_sour_cream.step_8",
+  "source": "wikibooks_spiced_chicken_with_sour_cream",
+  "sourceRef": {
+    "source": "wikibooks_spiced_chicken_with_sour_cream",
+    "step": 8
+  },
+  "technique": "simmer",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "spiced_chicken_with_sour_cream_step_7",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "sour_cream",
+        "amount": {
+          "qty": 1,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "spiced_chicken_with_sour_cream",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 90,
+    "medium": "simmering_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Add sour cream (or mixture of sour cream and yogurt) and simmer until chicken is tender and sauce has cooked down a little.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.59"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of simmer's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    },
+    {
+      "field": "inputs",
+      "kind": "missing",
+      "note": "no step uses '¼–⅓ cup slivered almonds (toasted if you prefer)' (p=0.93)"
+    },
+    {
+      "field": "inputs",
+      "kind": "missing",
+      "note": "no step uses '2 tbsp shredded (or chipped) coconut (also toasted)' (p=0.93)"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "falafel_seitan_bratwurst.step_3",
+  "source": "wikibooks_falafel_seitan_bratwurst",
+  "sourceRef": {
+    "source": "wikibooks_falafel_seitan_bratwurst",
+    "step": 3
+  },
+  "technique": "knead",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "falafel_seitan_bratwurst_step_2",
+        "amount": {
+          "qty": 1.5,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "falafel_seitan_bratwurst_step_3",
+      "amount": {
+        "qty": 1.5,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Form a dough from the dry mixture and the liquid mixture.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

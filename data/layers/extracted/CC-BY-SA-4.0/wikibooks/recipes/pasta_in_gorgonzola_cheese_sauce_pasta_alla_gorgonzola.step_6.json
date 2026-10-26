@@ -1,0 +1,58 @@
+{
+  "id": "pasta_in_gorgonzola_cheese_sauce_pasta_alla_gorgonzola.step_6",
+  "source": "wikibooks_pasta_in_gorgonzola_cheese_sauce_pasta_alla_gorgonzola",
+  "sourceRef": {
+    "source": "wikibooks_pasta_in_gorgonzola_cheese_sauce_pasta_alla_gorgonzola",
+    "step": 6
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "pasta_in_gorgonzola_cheese_sauce_pasta_alla_gorgonzola_step_5",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "pasta_in_gorgonzola_cheese_sauce_pasta_alla_gorgonzola",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Add the Gorgonzola sauce and, using a wooden spoon, mix well.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.48"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    },
+    {
+      "field": "inputs",
+      "kind": "missing",
+      "note": "no step uses 'Zest of 1 lemon' (p=0.99)"
+    }
+  ]
+}

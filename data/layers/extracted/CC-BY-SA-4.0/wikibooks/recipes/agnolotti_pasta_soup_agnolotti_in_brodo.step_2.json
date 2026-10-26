@@ -1,0 +1,60 @@
+{
+  "id": "agnolotti_pasta_soup_agnolotti_in_brodo.step_2",
+  "source": "wikibooks_agnolotti_pasta_soup_agnolotti_in_brodo",
+  "sourceRef": {
+    "source": "wikibooks_agnolotti_pasta_soup_agnolotti_in_brodo",
+    "step": 2
+  },
+  "technique": "boil",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "agnolotti_pasta_soup_agnolotti_in_brodo_step_1",
+        "amount": {
+          "qty": 500,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "pasta",
+        "amount": {
+          "qty": 250,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "agnolotti_pasta_soup_agnolotti_in_brodo_step_2",
+      "amount": {
+        "qty": 750,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 100,
+    "medium": "boiling_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Add the agnolotti and cook according to the instructions on the package.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of boil's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

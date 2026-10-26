@@ -1,0 +1,74 @@
+{
+  "id": "canjeero_somali_pancake.step_2",
+  "source": "wikibooks_canjeero_somali_pancake",
+  "sourceRef": {
+    "source": "wikibooks_canjeero_somali_pancake",
+    "step": 2
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "canjeero_somali_pancake_step_1",
+        "amount": {
+          "qty": 487.4,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "yeast",
+        "amount": {
+          "qty": 1,
+          "unit": "tsp"
+        }
+      },
+      {
+        "ingredient": "white_sugar",
+        "amount": {
+          "qty": 1,
+          "unit": "tbsp"
+        }
+      },
+      {
+        "ingredient": "water",
+        "amount": {
+          "qty": 3,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "canjeero_somali_pancake_step_2",
+      "amount": {
+        "qty": 1214.7,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "In a separate small bowl, mix the active dry yeast and sugar with 1 cup of lukewarm water. Let it sit for a few minutes to activate the yeast; it should become frothy.",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for yeast"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

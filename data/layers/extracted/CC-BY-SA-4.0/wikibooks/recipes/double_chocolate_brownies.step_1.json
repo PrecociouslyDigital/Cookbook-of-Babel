@@ -1,0 +1,55 @@
+{
+  "id": "double_chocolate_brownies.step_1",
+  "source": "wikibooks_double_chocolate_brownies",
+  "sourceRef": {
+    "source": "wikibooks_double_chocolate_brownies",
+    "step": 1
+  },
+  "technique": "heat",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "butter",
+        "amount": {
+          "qty": 0.3333333333333333,
+          "unit": "cup"
+        }
+      },
+      {
+        "ingredient": "egg",
+        "amount": {
+          "qty": 100,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "double_chocolate_brownies_step_1",
+      "amount": {
+        "qty": 178.9,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 30,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Let the eggs and butter sit out for 30 minutes to bring to room temperature.",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for butter"
+    }
+  ]
+}

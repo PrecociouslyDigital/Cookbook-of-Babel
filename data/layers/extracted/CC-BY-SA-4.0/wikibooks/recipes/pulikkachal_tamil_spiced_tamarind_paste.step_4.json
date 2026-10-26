@@ -1,0 +1,58 @@
+{
+  "id": "pulikkachal_tamil_spiced_tamarind_paste.step_4",
+  "source": "wikibooks_pulikkachal_tamil_spiced_tamarind_paste",
+  "sourceRef": {
+    "source": "wikibooks_pulikkachal_tamil_spiced_tamarind_paste",
+    "step": 4
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "pulikkachal_tamil_spiced_tamarind_paste_step_3",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "pulikkachal_tamil_spiced_tamarind_paste",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "You can mix this with cooked rice and serve.",
+  "issues": [
+    {
+      "field": "sourceRef",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.55"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    },
+    {
+      "field": "inputs",
+      "kind": "missing",
+      "note": "no step uses 'Peanuts (optional)' (p=0.99)"
+    }
+  ]
+}

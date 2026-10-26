@@ -1,0 +1,48 @@
+{
+  "id": "pickled_green_mango_aavakaaya.step_1",
+  "source": "wikibooks_pickled_green_mango_aavakaaya",
+  "sourceRef": {
+    "source": "wikibooks_pickled_green_mango_aavakaaya",
+    "step": 1
+  },
+  "technique": "rinse",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "mango",
+        "amount": {
+          "qty": 12,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "pickled_green_mango_aavakaaya_step_1",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 10,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Soak the raw mangoes in water for 10 minutes and dry them with a clean cloth.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'12 medium-sized raw sour mangoes': 'raw' read as pieces"
+    }
+  ]
+}

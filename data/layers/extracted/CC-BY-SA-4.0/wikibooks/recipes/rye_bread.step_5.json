@@ -1,0 +1,48 @@
+{
+  "id": "rye_bread.step_5",
+  "source": "wikibooks_rye_bread",
+  "sourceRef": {
+    "source": "wikibooks_rye_bread",
+    "step": 5
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "rye_bread_step_4",
+        "amount": {
+          "qty": 4829.6,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "rye_bread_step_5",
+      "amount": {
+        "qty": 4829.6,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "If the resulting dough feels dry, add a bit of water. The result should be just dry enough to retain an approximate shape, but no drier.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

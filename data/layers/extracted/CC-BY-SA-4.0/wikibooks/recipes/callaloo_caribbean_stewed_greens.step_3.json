@@ -1,0 +1,61 @@
+{
+  "id": "callaloo_caribbean_stewed_greens.step_3",
+  "source": "wikibooks_callaloo_caribbean_stewed_greens",
+  "sourceRef": {
+    "source": "wikibooks_callaloo_caribbean_stewed_greens",
+    "step": 3
+  },
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "callaloo_caribbean_stewed_greens_step_2",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "min": 0,
+        "max": 1,
+        "of": [
+          {
+            "ingredient": "beef",
+            "amount": {
+              "qty": 0.25,
+              "unit": "lb"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "callaloo_caribbean_stewed_greens_step_3",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Soak salted beef or salted pork, and cut into bite-sized pieces.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

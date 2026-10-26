@@ -1,0 +1,55 @@
+{
+  "id": "sev_puri_crispy_indian_snack_with_potato.step_2",
+  "source": "wikibooks_sev_puri_crispy_indian_snack_with_potato",
+  "sourceRef": {
+    "source": "wikibooks_sev_puri_crispy_indian_snack_with_potato",
+    "step": 2
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "sev_puri_crispy_indian_snack_with_potato_step_1",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "potato",
+        "amount": {
+          "qty": 0.5,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "sev_puri_crispy_indian_snack_with_potato_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Fill with a few chopped boiled potato cubes.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

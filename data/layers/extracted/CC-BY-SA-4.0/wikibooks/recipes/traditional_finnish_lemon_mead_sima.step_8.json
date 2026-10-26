@@ -1,0 +1,60 @@
+{
+  "id": "traditional_finnish_lemon_mead_sima.step_8",
+  "source": "wikibooks_traditional_finnish_lemon_mead_sima",
+  "sourceRef": {
+    "source": "wikibooks_traditional_finnish_lemon_mead_sima",
+    "step": 8
+  },
+  "technique": "dissolve",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "traditional_finnish_lemon_mead_sima_step_7",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "yeast",
+        "amount": {
+          "qty": 0.25,
+          "unit": "tsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "traditional_finnish_lemon_mead_sima_step_8",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "When the temperature is right, add the yeast. One way is to take a small cup of the mixture from the container, dissolve the yeast in it and then mix it back. Just dropping a crumb of fresh yeast into the container will also work.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.39"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

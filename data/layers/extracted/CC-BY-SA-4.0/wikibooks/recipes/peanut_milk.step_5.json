@@ -1,0 +1,48 @@
+{
+  "id": "peanut_milk.step_5",
+  "source": "wikibooks_peanut_milk",
+  "sourceRef": {
+    "source": "wikibooks_peanut_milk",
+    "step": 5
+  },
+  "technique": "strain",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "peanut_milk_step_4",
+        "amount": {
+          "qty": 10101.2,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "peanut_milk_step_5",
+      "amount": {
+        "qty": 10101.2,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "When most of the peanut flour has settled at the bottom of the bottle, pour carefully through a filter into another bottle.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

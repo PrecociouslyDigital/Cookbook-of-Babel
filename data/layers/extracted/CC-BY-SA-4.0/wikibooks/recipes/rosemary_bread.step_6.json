@@ -1,0 +1,60 @@
+{
+  "id": "rosemary_bread.step_6",
+  "source": "wikibooks_rosemary_bread",
+  "sourceRef": {
+    "source": "wikibooks_rosemary_bread",
+    "step": 6
+  },
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "rosemary_bread_step_5",
+        "amount": {
+          "qty": 627.8,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "butter",
+        "amount": {
+          "qty": 2,
+          "unit": "tbsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "rosemary_bread_step_6",
+      "amount": {
+        "qty": 657.4,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Melt butter and brush over tops of loaves. Sprinkle remaining rosemary over loaves and gently press into surface. Sprinkle lightly with salt.",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for butter"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

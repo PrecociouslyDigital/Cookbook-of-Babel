@@ -1,0 +1,53 @@
+{
+  "id": "twice_baked_potatoes_ii.step_6",
+  "source": "wikibooks_twice_baked_potatoes_ii",
+  "sourceRef": {
+    "source": "wikibooks_twice_baked_potatoes_ii",
+    "step": 6
+  },
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "twice_baked_potatoes_ii_step_5",
+        "amount": {
+          "qty": 226.8,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "twice_baked_potatoes_ii_step_6",
+      "amount": {
+        "qty": 226.8,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Cut potatoes at top ⅓ lengthwise and remove tops.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.43"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

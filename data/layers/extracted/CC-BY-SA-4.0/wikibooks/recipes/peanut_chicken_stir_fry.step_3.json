@@ -1,0 +1,67 @@
+{
+  "id": "peanut_chicken_stir_fry.step_3",
+  "source": "wikibooks_peanut_chicken_stir_fry",
+  "sourceRef": {
+    "source": "wikibooks_peanut_chicken_stir_fry",
+    "step": 3
+  },
+  "technique": "stir_fry",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "peanut_chicken_stir_fry_step_2",
+        "amount": {
+          "qty": 266.2,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "chicken",
+        "amount": {
+          "qty": 2,
+          "unit": "cup"
+        }
+      },
+      {
+        "ingredient": "mushroom",
+        "amount": {
+          "qty": 9,
+          "unit": "oz"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "peanut_chicken_stir_fry_step_3",
+      "amount": {
+        "qty": 994.6,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 215,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 5,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Add chicken and mushrooms and stir over lowered heat 5 minutes.",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for chicken"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of stir_fry's typical range"
+    }
+  ]
+}

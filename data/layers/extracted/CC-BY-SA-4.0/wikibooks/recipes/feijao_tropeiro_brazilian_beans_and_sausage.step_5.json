@@ -1,0 +1,55 @@
+{
+  "id": "feijao_tropeiro_brazilian_beans_and_sausage.step_5",
+  "source": "wikibooks_feijao_tropeiro_brazilian_beans_and_sausage",
+  "sourceRef": {
+    "source": "wikibooks_feijao_tropeiro_brazilian_beans_and_sausage",
+    "step": 5
+  },
+  "technique": "julienne",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "feijao_tropeiro_brazilian_beans_and_sausage_step_4",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "collard_greens",
+        "amount": {
+          "qty": 1,
+          "unit": "bunch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "feijao_tropeiro_brazilian_beans_and_sausage_step_5",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Slice collard green into small (⅛-inch) strips.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

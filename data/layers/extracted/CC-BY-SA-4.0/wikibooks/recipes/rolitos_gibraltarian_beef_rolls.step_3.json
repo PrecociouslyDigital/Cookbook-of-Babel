@@ -1,0 +1,48 @@
+{
+  "id": "rolitos_gibraltarian_beef_rolls.step_3",
+  "source": "wikibooks_rolitos_gibraltarian_beef_rolls",
+  "sourceRef": {
+    "source": "wikibooks_rolitos_gibraltarian_beef_rolls",
+    "step": 3
+  },
+  "technique": "chill",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "rolitos_gibraltarian_beef_rolls_step_2",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "rolitos_gibraltarian_beef_rolls_step_3",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Place rolls on a plate and store in a cool place or fridge.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

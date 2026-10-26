@@ -1,0 +1,53 @@
+{
+  "id": "chocolate_cheesecake.step_13",
+  "source": "wikibooks_chocolate_cheesecake",
+  "sourceRef": {
+    "source": "wikibooks_chocolate_cheesecake",
+    "step": 13
+  },
+  "technique": "separate",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "chocolate_cheesecake_step_11",
+        "amount": {
+          "qty": 1827.6,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "chocolate_cheesecake_step_13",
+      "amount": {
+        "qty": 1827.6,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Uncover cheesecake; carefully remove side of pan.",
+  "issues": [
+    {
+      "field": "sourceRef",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.54"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

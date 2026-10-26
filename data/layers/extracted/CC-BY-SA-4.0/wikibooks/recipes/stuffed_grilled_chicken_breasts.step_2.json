@@ -1,0 +1,67 @@
+{
+  "id": "stuffed_grilled_chicken_breasts.step_2",
+  "source": "wikibooks_stuffed_grilled_chicken_breasts",
+  "sourceRef": {
+    "source": "wikibooks_stuffed_grilled_chicken_breasts",
+    "step": 2
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "stuffed_grilled_chicken_breasts_step_1",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "mustard",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      },
+      {
+        "ingredient": "poultry_stuffing",
+        "amount": {
+          "qty": 1.5,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "stuffed_grilled_chicken_breasts_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Place stuffing inside a gallon size zip-top bag. Snip a small hole in one of the corners. Squeeze to dispense. Stuff each chicken breast until slit fills up halfway. Brush opening edge with Dijon mustard and press down lightly.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Dijon mustard': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

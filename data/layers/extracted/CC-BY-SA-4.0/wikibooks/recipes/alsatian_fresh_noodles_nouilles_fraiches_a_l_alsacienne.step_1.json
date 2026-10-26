@@ -1,0 +1,62 @@
+{
+  "id": "alsatian_fresh_noodles_nouilles_fraiches_a_l_alsacienne.step_1",
+  "source": "wikibooks_alsatian_fresh_noodles_nouilles_fraiches_a_l_alsacienne",
+  "sourceRef": {
+    "source": "wikibooks_alsatian_fresh_noodles_nouilles_fraiches_a_l_alsacienne",
+    "step": 1
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "egg",
+        "amount": {
+          "qty": 8,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "salt",
+        "amount": {
+          "qty": 10,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "vinegar",
+        "amount": {
+          "qty": 1,
+          "unit": "tsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "alsatian_fresh_noodles_nouilles_fraiches_a_l_alsacienne_step_1",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Break the eggs and place in a large bowl. Mix in salt and vinegar.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "hypotonic_sports_drink.step_3",
+  "source": "wikibooks_hypotonic_sports_drink",
+  "sourceRef": {
+    "source": "wikibooks_hypotonic_sports_drink",
+    "step": 3
+  },
+  "technique": "chill",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "hypotonic_sports_drink_step_2",
+        "amount": {
+          "qty": 500.7,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "hypotonic_sports_drink",
+      "amount": {
+        "qty": 500.7,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Chill the mixture in the fridge until cool.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

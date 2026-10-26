@@ -1,0 +1,60 @@
+{
+  "id": "homemade_pie_crust.step_2",
+  "source": "wikibooks_homemade_pie_crust",
+  "sourceRef": {
+    "source": "wikibooks_homemade_pie_crust",
+    "step": 2
+  },
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "homemade_pie_crust_step_1",
+        "amount": {
+          "qty": 228,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "shortening",
+        "amount": {
+          "qty": 230,
+          "unit": "ml"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "homemade_pie_crust_step_2",
+      "amount": {
+        "qty": 458,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Cut in vegetable shortening with a pastry blender or two knives, until mixture is crumbly.",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for shortening"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": "grotten_hans_steamed_sweet_bread.step_3",
+  "source": "wikibooks_grotten_hans_steamed_sweet_bread",
+  "sourceRef": {
+    "source": "wikibooks_grotten_hans_steamed_sweet_bread",
+    "step": 3
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "grotten_hans_steamed_sweet_bread_step_2",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "grotten_hans_steamed_sweet_bread_step_3",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 100,
+    "medium": "steam"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Pour batter into a well-greased 2-pound coffee can or other heat-safe mold. A piece parchment paper on the bottom of the can works well to prevent sticking. Cover with foil, and tie this on with a string.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.33"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 100.0 °C for steam"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

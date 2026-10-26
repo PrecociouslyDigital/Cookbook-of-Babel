@@ -1,0 +1,69 @@
+{
+  "id": "grilled_radicchio_with_bacon_dressing.step_3",
+  "source": "wikibooks_grilled_radicchio_with_bacon_dressing",
+  "sourceRef": {
+    "source": "wikibooks_grilled_radicchio_with_bacon_dressing",
+    "step": 3
+  },
+  "technique": "whisk",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "grilled_radicchio_with_bacon_dressing_step_2",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "vinegar",
+        "amount": {
+          "qty": 2,
+          "unit": "tbsp"
+        }
+      },
+      {
+        "ingredient": "mustard",
+        "amount": {
+          "qty": 1,
+          "unit": "tsp"
+        }
+      },
+      {
+        "ingredient": "bacon",
+        "amount": {
+          "qty": 2,
+          "unit": "tbsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "grilled_radicchio_with_bacon_dressing_step_3",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Meanwhile, whisk together vinegar and mustard. In another bowl, combine remaining olive oil and bacon fat. Slowly stream oil mixture into vinegar mixture while whisking continuously.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

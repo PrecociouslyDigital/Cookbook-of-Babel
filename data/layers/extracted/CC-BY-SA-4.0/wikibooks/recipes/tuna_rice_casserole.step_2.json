@@ -1,0 +1,67 @@
+{
+  "id": "tuna_rice_casserole.step_2",
+  "source": "wikibooks_tuna_rice_casserole",
+  "sourceRef": {
+    "source": "wikibooks_tuna_rice_casserole",
+    "step": 2
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "tuna",
+        "amount": {
+          "qty": 12,
+          "unit": "oz"
+        }
+      },
+      {
+        "ingredient": "pea",
+        "amount": {
+          "qty": 10,
+          "unit": "oz"
+        }
+      },
+      {
+        "ingredient": "rice",
+        "amount": {
+          "qty": 3,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "tuna_rice_casserole_step_2",
+      "amount": {
+        "qty": 1333.5,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "In large bowl, combine tuna, peas, and rice, and mix well.",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for rice"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "id": "puri_indian_fried_flatbread.step_3",
+  "source": "wikibooks_puri_indian_fried_flatbread",
+  "sourceRef": {
+    "source": "wikibooks_puri_indian_fried_flatbread",
+    "step": 3
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "puri_indian_fried_flatbread_step_2",
+        "amount": {
+          "qty": 185.2,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "water",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "puri_indian_fried_flatbread_step_3",
+      "amount": {
+        "qty": 185.5,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Gradually mix in enough water to get a stiff dough.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Water to mix the dough': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

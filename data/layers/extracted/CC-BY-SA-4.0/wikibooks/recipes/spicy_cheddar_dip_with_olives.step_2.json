@@ -1,0 +1,53 @@
+{
+  "id": "spicy_cheddar_dip_with_olives.step_2",
+  "source": "wikibooks_spicy_cheddar_dip_with_olives",
+  "sourceRef": {
+    "source": "wikibooks_spicy_cheddar_dip_with_olives",
+    "step": 2
+  },
+  "technique": "toast",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "spicy_cheddar_dip_with_olives_step_1",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "spicy_cheddar_dip_with_olives_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 185,
+    "medium": "oven_air"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Toast in oven until golden brown, but not dark and bitter. This results in novel chips used to scoop the dip.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of toast's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

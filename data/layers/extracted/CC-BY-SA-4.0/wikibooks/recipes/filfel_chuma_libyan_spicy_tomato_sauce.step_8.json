@@ -1,0 +1,55 @@
+{
+  "id": "filfel_chuma_libyan_spicy_tomato_sauce.step_8",
+  "source": "wikibooks_filfel_chuma_libyan_spicy_tomato_sauce",
+  "sourceRef": {
+    "source": "wikibooks_filfel_chuma_libyan_spicy_tomato_sauce",
+    "step": 8
+  },
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "filfel_chuma_libyan_spicy_tomato_sauce_step_7",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "lemon",
+        "amount": {
+          "qty": 1,
+          "unit": "tbsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "filfel_chuma_libyan_spicy_tomato_sauce_step_8",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Stir in the fresh lemon juice to brighten the flavors.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

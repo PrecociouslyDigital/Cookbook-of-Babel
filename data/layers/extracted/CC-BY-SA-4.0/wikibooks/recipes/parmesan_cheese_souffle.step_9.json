@@ -1,0 +1,48 @@
+{
+  "id": "parmesan_cheese_souffle.step_9",
+  "source": "wikibooks_parmesan_cheese_souffle",
+  "sourceRef": {
+    "source": "wikibooks_parmesan_cheese_souffle",
+    "step": 9
+  },
+  "technique": "fold",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "parmesan_cheese_souffle_step_8",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "parmesan_cheese_souffle_step_9",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Gently fold egg whites into the sour cream mixture.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

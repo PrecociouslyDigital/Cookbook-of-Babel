@@ -1,0 +1,60 @@
+{
+  "id": "steak_enchiladas.step_7",
+  "source": "wikibooks_steak_enchiladas",
+  "sourceRef": {
+    "source": "wikibooks_steak_enchiladas",
+    "step": 7
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "steak_enchiladas_step_6",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "tortilla",
+        "amount": {
+          "qty": 24,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "steak_enchiladas_step_7",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Slice steak as thinly as possible across the grain. Place a nice handful into each tortilla and top with some cheese sauce. Roll and place seam side down on a parchment-lined sheet pan. Repeat until all tortillas have been used up. While you're at it, eat any remaining steak.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'24 corn tortillas': 'corn' read as pieces"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

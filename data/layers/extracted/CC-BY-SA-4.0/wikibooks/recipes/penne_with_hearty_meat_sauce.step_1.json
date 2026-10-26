@@ -1,0 +1,48 @@
+{
+  "id": "penne_with_hearty_meat_sauce.step_1",
+  "source": "wikibooks_penne_with_hearty_meat_sauce",
+  "sourceRef": {
+    "source": "wikibooks_penne_with_hearty_meat_sauce",
+    "step": 1
+  },
+  "technique": "separate",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "sausage",
+        "amount": {
+          "qty": 20,
+          "unit": "oz"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "penne_with_hearty_meat_sauce_step_1",
+      "amount": {
+        "qty": 567,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Remove casings from sausages.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

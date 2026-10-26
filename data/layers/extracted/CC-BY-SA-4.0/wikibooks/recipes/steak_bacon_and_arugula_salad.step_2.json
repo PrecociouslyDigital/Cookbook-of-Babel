@@ -1,0 +1,53 @@
+{
+  "id": "steak_bacon_and_arugula_salad.step_2",
+  "source": "wikibooks_steak_bacon_and_arugula_salad",
+  "sourceRef": {
+    "source": "wikibooks_steak_bacon_and_arugula_salad",
+    "step": 2
+  },
+  "technique": "grill",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "steak_bacon_and_arugula_salad_step_1",
+        "amount": {
+          "qty": 575,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "steak_bacon_and_arugula_salad_step_2",
+      "amount": {
+        "qty": 575,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 250,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Grill over very high heat 1 minute. Rotate 90 degrees, cook for another 1 minute, then flip and repeat 1 more time.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of grill's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "the step names several durations; used the first"
+    }
+  ]
+}

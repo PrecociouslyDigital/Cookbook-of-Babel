@@ -1,0 +1,48 @@
+{
+  "id": "pork_roast_with_cayenne_apple_glaze.step_3",
+  "source": "wikibooks_pork_roast_with_cayenne_apple_glaze",
+  "sourceRef": {
+    "source": "wikibooks_pork_roast_with_cayenne_apple_glaze",
+    "step": 3
+  },
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "pork_roast_with_cayenne_apple_glaze_step_2",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "pork_roast_with_cayenne_apple_glaze_step_3",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Spread remaining mustard all over roasts. Apply dry powder mixture.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

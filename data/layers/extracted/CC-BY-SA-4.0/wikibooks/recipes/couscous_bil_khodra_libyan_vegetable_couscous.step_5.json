@@ -1,0 +1,65 @@
+{
+  "id": "couscous_bil_khodra_libyan_vegetable_couscous.step_5",
+  "source": "wikibooks_couscous_bil_khodra_libyan_vegetable_couscous",
+  "sourceRef": {
+    "source": "wikibooks_couscous_bil_khodra_libyan_vegetable_couscous",
+    "step": 5
+  },
+  "technique": "steam",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "couscous_bil_khodra_libyan_vegetable_couscous_step_4",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "couscous",
+        "amount": {
+          "qty": 2,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "couscous_bil_khodra_libyan_vegetable_couscous_step_5",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 100,
+    "medium": "boiling_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Meanwhile, prepare the couscous according to the package instructions. Typically, couscous is steamed or soaked in hot water until it becomes fluffy and tender. Fluff the cooked couscous with a fork.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.5"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of steam's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": "tea_eggs.step_5",
+  "source": "wikibooks_tea_eggs",
+  "sourceRef": {
+    "source": "wikibooks_tea_eggs",
+    "step": 5
+  },
+  "technique": "age",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "tea_eggs_step_4",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "tea_eggs",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 90,
+    "medium": "simmering_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Reduce to low heat and allow eggs to sit in brine until served.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 90.0 °C for simmering_water"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

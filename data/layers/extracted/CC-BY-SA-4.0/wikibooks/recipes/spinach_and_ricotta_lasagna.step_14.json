@@ -1,0 +1,48 @@
+{
+  "id": "spinach_and_ricotta_lasagna.step_14",
+  "source": "wikibooks_spinach_and_ricotta_lasagna",
+  "sourceRef": {
+    "source": "wikibooks_spinach_and_ricotta_lasagna",
+    "step": 14
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "spinach_and_ricotta_lasagna_step_13",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "spinach_and_ricotta_lasagna_step_14",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Sparsely deposit spinach onto the noodles and apply cheese mixture with a rubber spatula.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

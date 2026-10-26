@@ -1,0 +1,62 @@
+{
+  "id": "bread_filled_with_potato_curry_pani_puri.step_4",
+  "source": "wikibooks_bread_filled_with_potato_curry_pani_puri",
+  "sourceRef": {
+    "source": "wikibooks_bread_filled_with_potato_curry_pani_puri",
+    "step": 4
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "bread_filled_with_potato_curry_pani_puri_step_3",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "coriander",
+        "amount": {
+          "qty": 1,
+          "unit": "tbsp"
+        }
+      },
+      {
+        "ingredient": "puri_indian_fried_flatbread",
+        "amount": {
+          "qty": 15,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "bread_filled_with_potato_curry_pani_puri_step_4",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Break the puris from the top, put the potatoes, moong, chopped coriander, chutney and chilled water",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

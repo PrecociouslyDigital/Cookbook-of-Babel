@@ -1,0 +1,72 @@
+{
+  "id": "khao_pad_gai_thai_chicken_fried_rice.step_6",
+  "source": "wikibooks_khao_pad_gai_thai_chicken_fried_rice",
+  "sourceRef": {
+    "source": "wikibooks_khao_pad_gai_thai_chicken_fried_rice",
+    "step": 6
+  },
+  "technique": "stir_fry",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "khao_pad_gai_thai_chicken_fried_rice_step_5",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "onion",
+        "amount": {
+          "qty": 0.5,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "tomato",
+        "amount": {
+          "qty": 0.75,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "khao_pad_gai_thai_chicken_fried_rice_step_6",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 215,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 5,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Push the eggs/chicken to the side, add some more oil, and throw in the tomato and onion. Stir-fry for about 5 minutes. They will not look done, but in the end, they will be fine.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.54"
+    },
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'¾ roma tomato, cut into strips': 'roma' read as pieces"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of stir_fry's typical range"
+    }
+  ]
+}

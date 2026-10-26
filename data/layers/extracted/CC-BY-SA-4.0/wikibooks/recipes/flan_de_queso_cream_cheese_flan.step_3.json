@@ -1,0 +1,55 @@
+{
+  "id": "flan_de_queso_cream_cheese_flan.step_3",
+  "source": "wikibooks_flan_de_queso_cream_cheese_flan",
+  "sourceRef": {
+    "source": "wikibooks_flan_de_queso_cream_cheese_flan",
+    "step": 3
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "flan_de_queso_cream_cheese_flan_step_2",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "white_sugar",
+        "amount": {
+          "qty": 1,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "flan_de_queso_cream_cheese_flan_step_3",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Place the sugar in the bottom of a small circular baking pan. Add the flan mixture on top without mixing the two layers.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": "stovetop_barley_i.step_3",
+  "source": "wikibooks_stovetop_barley_i",
+  "sourceRef": {
+    "source": "wikibooks_stovetop_barley_i",
+    "step": 3
+  },
+  "technique": "boil",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "stovetop_barley_i_step_2",
+        "amount": {
+          "qty": 958.4,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "stovetop_barley_i_step_3",
+      "amount": {
+        "qty": 958.4,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 100,
+    "medium": "boiling_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Bring to a boil, skimming off any foam that forms.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of boil's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

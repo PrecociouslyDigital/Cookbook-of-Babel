@@ -1,0 +1,55 @@
+{
+  "id": "north_carolina_style_bbq_chicken.step_1",
+  "source": "wikibooks_north_carolina_style_bbq_chicken",
+  "sourceRef": {
+    "source": "wikibooks_north_carolina_style_bbq_chicken",
+    "step": 1
+  },
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "chicken",
+        "amount": {
+          "qty": 3,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "barbecue_rub",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "north_carolina_style_bbq_chicken_step_1",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "h"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Season chicken liberally with the barbecue rub. Gently massage into meat and refrigerate for at least 1 hour.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Barbecue rub': no quantity given; assumed a pinch"
+    }
+  ]
+}

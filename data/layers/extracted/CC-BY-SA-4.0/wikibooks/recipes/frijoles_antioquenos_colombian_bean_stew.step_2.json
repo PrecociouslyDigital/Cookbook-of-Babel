@@ -1,0 +1,48 @@
+{
+  "id": "frijoles_antioquenos_colombian_bean_stew.step_2",
+  "source": "wikibooks_frijoles_antioquenos_colombian_bean_stew",
+  "sourceRef": {
+    "source": "wikibooks_frijoles_antioquenos_colombian_bean_stew",
+    "step": 2
+  },
+  "technique": "separate",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "frijoles_antioquenos_colombian_bean_stew_step_1",
+        "amount": {
+          "qty": 453.6,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "frijoles_antioquenos_colombian_bean_stew_step_2",
+      "amount": {
+        "qty": 453.6,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "The next day, remove any floating beans.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

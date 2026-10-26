@@ -1,0 +1,48 @@
+{
+  "id": "stovies.step_1",
+  "source": "wikibooks_stovies",
+  "sourceRef": {
+    "source": "wikibooks_stovies",
+    "step": 1
+  },
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "potato",
+        "amount": {
+          "qty": 1,
+          "unit": "kg"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "stovies_step_1",
+      "amount": {
+        "qty": 1000,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Peel potatoes if they are \"main crop\", but leave the skins on new potatoes. Slice about 5 mm (¼-inch) thick. Or, slice roughly in different thickness so that the thin make a mush when cooked, while the others stay whole.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "id": "pork_roast_with_cayenne_apple_glaze.step_2",
+  "source": "wikibooks_pork_roast_with_cayenne_apple_glaze",
+  "sourceRef": {
+    "source": "wikibooks_pork_roast_with_cayenne_apple_glaze",
+    "step": 2
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "pork_roast_with_cayenne_apple_glaze_step_1",
+        "amount": {
+          "qty": 62.1,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "pork",
+        "amount": {
+          "qty": 2,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "mustard",
+        "amount": {
+          "qty": 0.25,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "pork_roast_with_cayenne_apple_glaze_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Smear mustard as needed on one end of each roast. Attach mustard ends of roasts together.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "id": "silvash_gombotz_hungarian_plum_dumplings.step_3",
+  "source": "wikibooks_silvash_gombotz_hungarian_plum_dumplings",
+  "sourceRef": {
+    "source": "wikibooks_silvash_gombotz_hungarian_plum_dumplings",
+    "step": 3
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "silvash_gombotz_hungarian_plum_dumplings_step_2",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "wheat_flour",
+        "amount": {
+          "qty": 0.6666666666666666,
+          "unit": "lb"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "silvash_gombotz_hungarian_plum_dumplings_step_3",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Gradually mix in the flour to make a smooth dough. You may need a little more or less than the listed quantity.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

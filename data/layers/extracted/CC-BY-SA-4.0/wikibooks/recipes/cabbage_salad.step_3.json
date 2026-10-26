@@ -1,0 +1,48 @@
+{
+  "id": "cabbage_salad.step_3",
+  "source": "wikibooks_cabbage_salad",
+  "sourceRef": {
+    "source": "wikibooks_cabbage_salad",
+    "step": 3
+  },
+  "technique": "chill",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "cabbage_salad_step_2",
+        "amount": {
+          "qty": 622.3,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "cabbage_salad",
+      "amount": {
+        "qty": 622.3,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 8,
+      "unit": "h"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Put the salad in the fridge overnight.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "'overnight' read as 8 hours"
+    }
+  ]
+}

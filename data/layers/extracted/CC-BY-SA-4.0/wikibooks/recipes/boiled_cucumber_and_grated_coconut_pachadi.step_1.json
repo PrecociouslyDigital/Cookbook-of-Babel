@@ -1,0 +1,48 @@
+{
+  "id": "boiled_cucumber_and_grated_coconut_pachadi.step_1",
+  "source": "wikibooks_boiled_cucumber_and_grated_coconut_pachadi",
+  "sourceRef": {
+    "source": "wikibooks_boiled_cucumber_and_grated_coconut_pachadi",
+    "step": 1
+  },
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "cucumber",
+        "amount": {
+          "qty": 1,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "boiled_cucumber_and_grated_coconut_pachadi_step_1",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Skin the cucumber. Cut in half along the length and remove the central core of seeds. Discard the seeds.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

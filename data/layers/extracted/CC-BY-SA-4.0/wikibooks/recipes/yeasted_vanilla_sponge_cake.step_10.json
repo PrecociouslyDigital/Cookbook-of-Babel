@@ -1,0 +1,53 @@
+{
+  "id": "yeasted_vanilla_sponge_cake.step_10",
+  "source": "wikibooks_yeasted_vanilla_sponge_cake",
+  "sourceRef": {
+    "source": "wikibooks_yeasted_vanilla_sponge_cake",
+    "step": 10
+  },
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "yeasted_vanilla_sponge_cake_step_9",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "yeasted_vanilla_sponge_cake",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Unmold the cake, and cut into squares.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    },
+    {
+      "field": "inputs",
+      "kind": "missing",
+      "note": "no step uses 'A dash of vanilla extract (adjust to taste, optional)' (p=0.98)"
+    }
+  ]
+}

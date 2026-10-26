@@ -1,0 +1,48 @@
+{
+  "id": "frito_pie_no_bake.step_1",
+  "source": "wikibooks_frito_pie_no_bake",
+  "sourceRef": {
+    "source": "wikibooks_frito_pie_no_bake",
+    "step": 1
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "fritos_corn_chips",
+        "amount": {
+          "qty": 10,
+          "unit": "oz"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "frito_pie_no_bake_step_1",
+      "amount": {
+        "qty": 283.5,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Place a handful of the chips in each of 8 shallow bowls.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

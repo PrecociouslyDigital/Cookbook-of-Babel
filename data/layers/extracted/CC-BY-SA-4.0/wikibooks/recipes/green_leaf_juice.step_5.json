@@ -1,0 +1,55 @@
+{
+  "id": "green_leaf_juice.step_5",
+  "source": "wikibooks_green_leaf_juice",
+  "sourceRef": {
+    "source": "wikibooks_green_leaf_juice",
+    "step": 5
+  },
+  "technique": "strain",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "green_leaf_juice_step_4",
+        "amount": {
+          "qty": 848,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "cilantro",
+        "amount": {
+          "qty": 124,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "green_leaf_juice_step_5",
+      "amount": {
+        "qty": 972,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Run the cilantro through the juice extractor.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

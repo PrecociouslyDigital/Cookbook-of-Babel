@@ -1,0 +1,53 @@
+{
+  "id": "tapalapa_gambian_bread.step_6",
+  "source": "wikibooks_tapalapa_gambian_bread",
+  "sourceRef": {
+    "source": "wikibooks_tapalapa_gambian_bread",
+    "step": 6
+  },
+  "technique": "knead",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "tapalapa_gambian_bread_step_4",
+        "amount": {
+          "qty": 868.1,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "tapalapa_gambian_bread_step_6",
+      "amount": {
+        "qty": 868.1,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Once the dough has risen, gently punch it down to release the air.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.52"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

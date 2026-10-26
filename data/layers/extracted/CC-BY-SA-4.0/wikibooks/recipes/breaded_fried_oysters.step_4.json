@@ -1,0 +1,48 @@
+{
+  "id": "breaded_fried_oysters.step_4",
+  "source": "wikibooks_breaded_fried_oysters",
+  "sourceRef": {
+    "source": "wikibooks_breaded_fried_oysters",
+    "step": 4
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "breaded_fried_oysters_step_3",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "breaded_fried_oysters_step_4",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "With a fork, dip each oyster individually in the egg, then in the crumbs. With the back of a spoon, pat the crumbs to adhere them to the oysters.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

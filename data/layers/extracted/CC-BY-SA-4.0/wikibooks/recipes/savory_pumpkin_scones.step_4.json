@@ -1,0 +1,48 @@
+{
+  "id": "savory_pumpkin_scones.step_4",
+  "source": "wikibooks_savory_pumpkin_scones",
+  "sourceRef": {
+    "source": "wikibooks_savory_pumpkin_scones",
+    "step": 4
+  },
+  "technique": "knead",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "savory_pumpkin_scones_step_3",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "savory_pumpkin_scones_step_4",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Pat out the mixture onto a lightly floured board and roll out to a thickness of about ⅝ inch.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

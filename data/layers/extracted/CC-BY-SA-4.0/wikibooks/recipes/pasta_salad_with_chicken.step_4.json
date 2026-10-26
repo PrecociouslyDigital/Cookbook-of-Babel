@@ -1,0 +1,48 @@
+{
+  "id": "pasta_salad_with_chicken.step_4",
+  "source": "wikibooks_pasta_salad_with_chicken",
+  "sourceRef": {
+    "source": "wikibooks_pasta_salad_with_chicken",
+    "step": 4
+  },
+  "technique": "chill",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "pasta_salad_with_chicken_step_3",
+        "amount": {
+          "qty": 3.7,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "pasta_salad_with_chicken",
+      "amount": {
+        "qty": 3.7,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Allow to chill a few hours before serving.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

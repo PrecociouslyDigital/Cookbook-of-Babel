@@ -1,0 +1,55 @@
+{
+  "id": "south_texan_pinto_beans.step_2",
+  "source": "wikibooks_south_texan_pinto_beans",
+  "sourceRef": {
+    "source": "wikibooks_south_texan_pinto_beans",
+    "step": 2
+  },
+  "technique": "strain",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "south_texan_pinto_beans_step_1",
+        "amount": {
+          "qty": 2346.4,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "water",
+        "amount": {
+          "qty": 5,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "south_texan_pinto_beans_step_2",
+      "amount": {
+        "qty": 3529.4,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Drain and refill with 5 cups of water.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

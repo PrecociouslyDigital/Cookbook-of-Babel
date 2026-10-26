@@ -1,0 +1,53 @@
+{
+  "id": "shortcrust_pastry.step_3",
+  "source": "wikibooks_shortcrust_pastry",
+  "sourceRef": {
+    "source": "wikibooks_shortcrust_pastry",
+    "step": 3
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "shortcrust_pastry_step_2",
+        "amount": {
+          "qty": 494.9,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "shortcrust_pastry_step_3",
+      "amount": {
+        "qty": 494.9,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Make a well in the center of the mound and add the creamed mixture.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.52"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

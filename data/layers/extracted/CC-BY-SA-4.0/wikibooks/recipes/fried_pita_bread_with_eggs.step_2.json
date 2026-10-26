@@ -1,0 +1,65 @@
+{
+  "id": "fried_pita_bread_with_eggs.step_2",
+  "source": "wikibooks_fried_pita_bread_with_eggs",
+  "sourceRef": {
+    "source": "wikibooks_fried_pita_bread_with_eggs",
+    "step": 2
+  },
+  "technique": "fry",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "fried_pita_bread_with_eggs_step_1",
+        "amount": {
+          "qty": 14.8,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "pita",
+        "amount": {
+          "qty": 1,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "fried_pita_bread_with_eggs_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 190,
+    "medium": "frying_oil"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Tear the pita into small pieces, and add to the hot oil.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.35"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of fry's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "id": "jahnun_yemenite_layered_pastry.step_1",
+  "source": "wikibooks_jahnun_yemenite_layered_pastry",
+  "sourceRef": {
+    "source": "wikibooks_jahnun_yemenite_layered_pastry",
+    "step": 1
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "wheat_flour",
+        "amount": {
+          "qty": 1,
+          "unit": "kg"
+        }
+      },
+      {
+        "min": 0,
+        "max": 1,
+        "of": [
+          {
+            "ingredient": "baking_powder",
+            "amount": {
+              "qty": 10,
+              "unit": "g"
+            }
+          }
+        ]
+      },
+      {
+        "ingredient": "white_sugar",
+        "amount": {
+          "qty": 2.5,
+          "unit": "tbsp"
+        }
+      },
+      {
+        "ingredient": "salt",
+        "amount": {
+          "qty": 1,
+          "unit": "tbsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "jahnun_yemenite_layered_pastry_step_1",
+      "amount": {
+        "qty": 1059.2,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Combine the flour, baking powder, sugar, and salt. Make a well in the center.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.56"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

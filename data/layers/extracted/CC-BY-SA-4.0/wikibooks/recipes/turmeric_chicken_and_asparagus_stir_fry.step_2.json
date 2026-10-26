@@ -1,0 +1,81 @@
+{
+  "id": "turmeric_chicken_and_asparagus_stir_fry.step_2",
+  "source": "wikibooks_turmeric_chicken_and_asparagus_stir_fry",
+  "sourceRef": {
+    "source": "wikibooks_turmeric_chicken_and_asparagus_stir_fry",
+    "step": 2
+  },
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "turmeric_chicken_and_asparagus_stir_fry_step_1",
+        "amount": {
+          "qty": 110.2,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "wheat_flour",
+        "amount": {
+          "qty": 2,
+          "unit": "tbsp"
+        }
+      },
+      {
+        "ingredient": "turmeric",
+        "amount": {
+          "qty": 1.5,
+          "unit": "tsp"
+        }
+      },
+      {
+        "ingredient": "kosher_salt",
+        "amount": {
+          "qty": 1,
+          "unit": "tsp"
+        }
+      },
+      {
+        "ingredient": "chicken",
+        "amount": {
+          "qty": 1,
+          "unit": "lb"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "turmeric_chicken_and_asparagus_stir_fry_step_2",
+      "amount": {
+        "qty": 591.8,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Combine the flour, turmeric, and salt together. Sprinkle over the chicken, and immediately toss to coat the chicken well.",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for turmeric, kosher_salt"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

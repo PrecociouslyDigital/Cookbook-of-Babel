@@ -1,0 +1,53 @@
+{
+  "id": "nkhwani_wa_ndiwo_malawian_vegetable_fritters.step_8",
+  "source": "wikibooks_nkhwani_wa_ndiwo_malawian_vegetable_fritters",
+  "sourceRef": {
+    "source": "wikibooks_nkhwani_wa_ndiwo_malawian_vegetable_fritters",
+    "step": 8
+  },
+  "technique": "cool",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "nkhwani_wa_ndiwo_malawian_vegetable_fritters_step_7",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "nkhwani_wa_ndiwo_malawian_vegetable_fritters",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Allow the fritters to cool slightly before serving.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.59"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

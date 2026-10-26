@@ -1,0 +1,48 @@
+{
+  "id": "switchel_ginger_water.step_3",
+  "source": "wikibooks_switchel_ginger_water",
+  "sourceRef": {
+    "source": "wikibooks_switchel_ginger_water",
+    "step": 3
+  },
+  "technique": "chill",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "switchel_ginger_water_step_2",
+        "amount": {
+          "qty": 5524.3,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "switchel_ginger_water",
+      "amount": {
+        "qty": 5524.3,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Chill or serve over ice cubes. Shake well before serving.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

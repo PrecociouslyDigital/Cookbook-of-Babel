@@ -1,0 +1,88 @@
+{
+  "id": "deep_dish_pizza.step_6",
+  "source": "wikibooks_deep_dish_pizza",
+  "sourceRef": {
+    "source": "wikibooks_deep_dish_pizza",
+    "step": 6
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "deep_dish_pizza_step_4",
+        "amount": {
+          "qty": 1004.1,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "basic_pizza_sauce",
+        "amount": {
+          "qty": 197.5,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "mozzarella_cheese",
+        "amount": {
+          "qty": 450,
+          "unit": "g"
+        }
+      },
+      {
+        "min": 0,
+        "max": 1,
+        "of": [
+          {
+            "ingredient": "romano_cheese",
+            "amount": {
+              "qty": 20,
+              "unit": "g"
+            }
+          }
+        ]
+      },
+      {
+        "min": 0,
+        "max": 1,
+        "of": [
+          {
+            "ingredient": "parmesan_cheese",
+            "amount": {
+              "qty": 20,
+              "unit": "g"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "deep_dish_pizza_step_6",
+      "amount": {
+        "qty": 1691.6,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Spread the pizza sauce on the dough, leaving the edge crust uncoated. Add any optional toppings (pepperoni, sausage, green pepper, etc.). Sprinkle the grated mozzarella cheese evenly across the pizza, leaving the edge crust untouched. If desired, sprinkle the grated Parmesan and Romano cheeses evenly over the toppings.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

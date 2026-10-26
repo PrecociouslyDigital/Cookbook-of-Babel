@@ -1,0 +1,55 @@
+{
+  "id": "sharbat_bil_loz.step_2",
+  "source": "wikibooks_sharbat_bil_loz",
+  "sourceRef": {
+    "source": "wikibooks_sharbat_bil_loz",
+    "step": 2
+  },
+  "technique": "blend",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "sharbat_bil_loz_step_1",
+        "amount": {
+          "qty": 946.4,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "water",
+        "amount": {
+          "qty": 4,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "sharbat_bil_loz_step_2",
+      "amount": {
+        "qty": 1892.8,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Add the water and continue to grind.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

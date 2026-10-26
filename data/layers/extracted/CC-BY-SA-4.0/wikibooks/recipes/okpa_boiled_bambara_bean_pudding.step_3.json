@@ -1,0 +1,55 @@
+{
+  "id": "okpa_boiled_bambara_bean_pudding.step_3",
+  "source": "wikibooks_okpa_boiled_bambara_bean_pudding",
+  "sourceRef": {
+    "source": "wikibooks_okpa_boiled_bambara_bean_pudding",
+    "step": 3
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "okpa_boiled_bambara_bean_pudding_step_2",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "water",
+        "amount": {
+          "qty": 1.2,
+          "unit": "l"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "okpa_boiled_bambara_bean_pudding_step_3",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Start adding the lukewarm water to the mixed okpa flour, mixing very well until there are no lumps. After ensuring that there are no lumps, add enough lukewarm water so that the okpa will not be hard as stone when it is done.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "sweet_and_sour_chinese_pork.step_3",
+  "source": "wikibooks_sweet_and_sour_chinese_pork",
+  "sourceRef": {
+    "source": "wikibooks_sweet_and_sour_chinese_pork",
+    "step": 3
+  },
+  "technique": "strain",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "sweet_and_sour_chinese_pork_step_2",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "sweet_and_sour_chinese_pork_step_3",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Remove pork from refrigerator and remove excess liquid (if any).",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

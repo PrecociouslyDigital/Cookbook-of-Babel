@@ -1,0 +1,58 @@
+{
+  "id": "bangladesh_curry.step_1",
+  "source": "wikibooks_bangladesh_curry",
+  "sourceRef": {
+    "source": "wikibooks_bangladesh_curry",
+    "step": 1
+  },
+  "technique": "separate",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "tomato",
+        "amount": {
+          "qty": 5,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "bangladesh_curry_step_1",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 100,
+    "medium": "boiling_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "To skin the tomatoes, nick the skin of each tomato with the point of a sharp knife, then put the tomatoes in a bowl next to the sink and pour over some very hot water from the kettle to cover. Count to 20, then carefully pour away the water. When the tomatoes are cool enough to handle, peel away the skin, halve the tomatoes, squeeze out most of the pips and juice into an empty bowl, and discard. Chop the flesh roughly and put it down on a plate to one side.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.53"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 100.0 °C for boiling_water"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "id": "matar_paneer.step_8",
+  "source": "wikibooks_matar_paneer",
+  "sourceRef": {
+    "source": "wikibooks_matar_paneer",
+    "step": 8
+  },
+  "technique": "blend",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "matar_paneer_step_7",
+        "amount": {
+          "qty": 793.6,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "chile",
+        "amount": {
+          "qty": 3,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "matar_paneer_step_8",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Transfer mixture to a blender, and add the chiles.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.39"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

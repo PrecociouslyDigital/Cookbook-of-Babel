@@ -1,0 +1,60 @@
+{
+  "id": "apple_glazed_pork_chops.step_1",
+  "source": "wikibooks_apple_glazed_pork_chops",
+  "sourceRef": {
+    "source": "wikibooks_apple_glazed_pork_chops",
+    "step": 1
+  },
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "pork",
+        "amount": {
+          "qty": 4,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "grill_seasoning",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "apple_glazed_pork_chops_step_1",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 30,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Rub seasoning on pork chops. Refrigerate for 30 minutes.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'4 thick-cut bone-in pork rib chops': 'thick-cut' read as pieces"
+    },
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Grill Seasoning for Chops, as needed': no quantity given; assumed a pinch"
+    }
+  ]
+}

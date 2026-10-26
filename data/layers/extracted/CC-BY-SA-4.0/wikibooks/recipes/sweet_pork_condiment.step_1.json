@@ -1,0 +1,62 @@
+{
+  "id": "sweet_pork_condiment.step_1",
+  "source": "wikibooks_sweet_pork_condiment",
+  "sourceRef": {
+    "source": "wikibooks_sweet_pork_condiment",
+    "step": 1
+  },
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "brown_sugar",
+        "amount": {
+          "qty": 1,
+          "unit": "tbsp"
+        }
+      },
+      {
+        "ingredient": "soy_sauce",
+        "amount": {
+          "qty": 0.5,
+          "unit": "cup"
+        }
+      },
+      {
+        "ingredient": "pork",
+        "amount": {
+          "qty": 350,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "sweet_pork_condiment_step_1",
+      "amount": {
+        "qty": 483.1,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 42,
+      "unit": "h"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Mix the light soy sauce and sugar together in a bowl. Add pork and marinate in the refrigerator for at least 36–48 hours, in order to maintain the quality and the taste of the pork.",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for brown_sugar, soy_sauce"
+    }
+  ]
+}

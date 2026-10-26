@@ -1,0 +1,81 @@
+{
+  "id": "chicken_riggies.step_1",
+  "source": "wikibooks_chicken_riggies",
+  "sourceRef": {
+    "source": "wikibooks_chicken_riggies",
+    "step": 1
+  },
+  "technique": "pan_fry",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "margarine",
+        "amount": {
+          "qty": 1,
+          "unit": "stick"
+        }
+      },
+      {
+        "ingredient": "onion",
+        "amount": {
+          "qty": 1,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "garlic",
+        "amount": {
+          "qty": 3.5,
+          "unit": "clove"
+        }
+      },
+      {
+        "ingredient": "sweet_peppers",
+        "amount": {
+          "qty": 20,
+          "unit": "oz"
+        }
+      },
+      {
+        "ingredient": "cherry_peppers",
+        "amount": {
+          "qty": 3,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "chicken_riggies_step_1",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 185,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Sauté onion, peppers, and garlic in the margarine slowly over low/medium heat until the onions are clear.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of pan_fry's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": "blueberry_pancakes.step_4",
+  "source": "wikibooks_blueberry_pancakes",
+  "sourceRef": {
+    "source": "wikibooks_blueberry_pancakes",
+    "step": 4
+  },
+  "technique": "pan_fry",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "blueberry_pancakes_step_3",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "blueberry_pancakes",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 185,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Heat a large pan or griddle over medium heat. Lightly spray or brush with vegetable oil. Ladle in a ¼ cup of batter for each pancake; cook until set and bubbly on the top. Turn pancake over, then cook for 1 more minute.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of pan_fry's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    },
+    {
+      "field": "inputs",
+      "kind": "missing",
+      "note": "no step uses '1 tsp vanilla extract' (p=0.64)"
+    }
+  ]
+}

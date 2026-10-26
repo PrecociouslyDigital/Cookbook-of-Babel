@@ -1,0 +1,58 @@
+{
+  "id": "dhokla_steamed_black_gram_bread.step_2",
+  "source": "wikibooks_dhokla_steamed_black_gram_bread",
+  "sourceRef": {
+    "source": "wikibooks_dhokla_steamed_black_gram_bread",
+    "step": 2
+  },
+  "technique": "grind",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "dhokla_steamed_black_gram_bread_step_1",
+        "amount": {
+          "qty": 295.8,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "dhokla_steamed_black_gram_bread_step_2",
+      "amount": {
+        "qty": 295.8,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 180,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Allow it to cool, then grind into a semi-coarse powder. Put the powder in a bowl.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.56"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 180.0 °C for pan_contact"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

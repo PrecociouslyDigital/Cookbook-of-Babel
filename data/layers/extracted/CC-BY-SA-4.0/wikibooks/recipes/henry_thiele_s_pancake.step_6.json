@@ -1,0 +1,53 @@
+{
+  "id": "henry_thiele_s_pancake.step_6",
+  "source": "wikibooks_henry_thiele_s_pancake",
+  "sourceRef": {
+    "source": "wikibooks_henry_thiele_s_pancake",
+    "step": 6
+  },
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "henry_thiele_s_pancake_step_5",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "henry_thiele_s_pancake",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Remove from oven; add generous amount of lemon juice and small amount maple syrup. Roll pancake into a cigar shape. Add lemon juice, maple syrup, and powdered sugar in that order. Eat.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.5"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "id": "holiday_soda.step_3",
+  "source": "wikibooks_holiday_soda",
+  "sourceRef": {
+    "source": "wikibooks_holiday_soda",
+    "step": 3
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "holiday_soda_step_2",
+        "amount": {
+          "qty": 118.6,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "white_sugar",
+        "amount": {
+          "qty": 1,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "holiday_soda_step_3",
+      "amount": {
+        "qty": 319.7,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 24,
+      "unit": "h"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Mix the pine needles and clementine peels with the sugar in a container, and let this sit in the fridge for 24 hours. The sugar will extract the liquid from the citrus peels and produce a syrupy liquid.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.39"
+    }
+  ]
+}

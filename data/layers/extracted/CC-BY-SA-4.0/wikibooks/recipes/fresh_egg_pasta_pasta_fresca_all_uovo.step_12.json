@@ -1,0 +1,48 @@
+{
+  "id": "fresh_egg_pasta_pasta_fresca_all_uovo.step_12",
+  "source": "wikibooks_fresh_egg_pasta_pasta_fresca_all_uovo",
+  "sourceRef": {
+    "source": "wikibooks_fresh_egg_pasta_pasta_fresca_all_uovo",
+    "step": 12
+  },
+  "technique": "age",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "fresh_egg_pasta_pasta_fresca_all_uovo_step_11",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "fresh_egg_pasta_pasta_fresca_all_uovo_step_12",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 10,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Dust the rectangle of rolled dough lightly and let it rest for 10 minutes.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.38"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "natto_japanese_fermented_soybeans.step_5",
+  "source": "wikibooks_natto_japanese_fermented_soybeans",
+  "sourceRef": {
+    "source": "wikibooks_natto_japanese_fermented_soybeans",
+    "step": 5
+  },
+  "technique": "separate",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "natto_japanese_fermented_soybeans_step_4",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "natto_japanese_fermented_soybeans_step_5",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Place a thin layer of beans in each of the 3–4 containers. If at any point during the process some beans are spilled on the counter, etc., discard the spilled beans as they can contaminate the other beans if added back in to the batch.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

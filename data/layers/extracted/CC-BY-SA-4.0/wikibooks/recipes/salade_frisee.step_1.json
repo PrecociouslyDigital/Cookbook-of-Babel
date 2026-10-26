@@ -1,0 +1,60 @@
+{
+  "id": "salade_frisee.step_1",
+  "source": "wikibooks_salade_frisee",
+  "sourceRef": {
+    "source": "wikibooks_salade_frisee",
+    "step": 1
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "chicory",
+        "amount": {
+          "qty": 16,
+          "unit": "cup"
+        }
+      },
+      {
+        "ingredient": "champagne_vinaigrette",
+        "amount": {
+          "qty": 0.5,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "salade_frisee_step_1",
+      "amount": {
+        "qty": 3903.9,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "In a large mixing bowl, toss frisee with the Champagne Vinaigrette.",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for chicory, champagne_vinaigrette"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

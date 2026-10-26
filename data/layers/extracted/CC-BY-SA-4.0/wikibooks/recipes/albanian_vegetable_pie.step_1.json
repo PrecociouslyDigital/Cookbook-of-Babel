@@ -1,0 +1,55 @@
+{
+  "id": "albanian_vegetable_pie.step_1",
+  "source": "wikibooks_albanian_vegetable_pie",
+  "sourceRef": {
+    "source": "wikibooks_albanian_vegetable_pie",
+    "step": 1
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "oil_and_fat",
+        "amount": {
+          "qty": 1,
+          "unit": "cup"
+        }
+      },
+      {
+        "ingredient": "phyllo_dough",
+        "amount": {
+          "qty": 1.5,
+          "unit": "package"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "albanian_vegetable_pie_step_1",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Brush a medium-sized baking pan with some of the oil, and start layering the pastry leaves inside. First, lay two leaves, sprinkle or brush with oil, then lay two more leaves, and repeat the procedure until half of the leaves are in place. Make sure that they cover the pan by hanging them about one inch over the edges of the pan.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": "kitfo_ethiopian_minced_raw_meat.step_6",
+  "source": "wikibooks_kitfo_ethiopian_minced_raw_meat",
+  "sourceRef": {
+    "source": "wikibooks_kitfo_ethiopian_minced_raw_meat",
+    "step": 6
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "kitfo_ethiopian_minced_raw_meat_step_5",
+        "amount": {
+          "qty": 575,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "kitfo_ethiopian_minced_raw_meat_step_6",
+      "amount": {
+        "qty": 575,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Pour the melted butter or oil over the seasoned minced beef. Mix thoroughly until all the ingredients are well combined.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.56"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

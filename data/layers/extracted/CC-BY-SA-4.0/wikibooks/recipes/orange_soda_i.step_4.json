@@ -1,0 +1,53 @@
+{
+  "id": "orange_soda_i.step_4",
+  "source": "wikibooks_orange_soda_i",
+  "sourceRef": {
+    "source": "wikibooks_orange_soda_i",
+    "step": 4
+  },
+  "technique": "cool",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "orange_soda_i_step_3",
+        "amount": {
+          "qty": 1113.8,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "orange_soda_i_step_4",
+      "amount": {
+        "qty": 1113.8,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Using a funnel, transfer the syrup to an empty bottle and let it cool.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.59"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

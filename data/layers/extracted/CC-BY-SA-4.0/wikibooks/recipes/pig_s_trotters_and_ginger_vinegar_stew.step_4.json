@@ -1,0 +1,65 @@
+{
+  "id": "pig_s_trotters_and_ginger_vinegar_stew.step_4",
+  "source": "wikibooks_pig_s_trotters_and_ginger_vinegar_stew",
+  "sourceRef": {
+    "source": "wikibooks_pig_s_trotters_and_ginger_vinegar_stew",
+    "step": 4
+  },
+  "technique": "heat",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "pig_s_trotters_and_ginger_vinegar_stew_step_3",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "pigs_trotters",
+        "amount": {
+          "qty": 4,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "pig_s_trotters_and_ginger_vinegar_stew_step_4",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 20,
+    "medium": "still_air"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Remove the hair from trotters (singe with an open flame and then scrape away with a knife, if you have a chef's blowtorch use that; otherwise carefully use a gas hob).",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.46"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 20.0 °C for still_air"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

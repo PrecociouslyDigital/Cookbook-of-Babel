@@ -1,0 +1,65 @@
+{
+  "id": "ayib_ethiopian_fresh_cheese.step_3",
+  "source": "wikibooks_ayib_ethiopian_fresh_cheese",
+  "sourceRef": {
+    "source": "wikibooks_ayib_ethiopian_fresh_cheese",
+    "step": 3
+  },
+  "technique": "coagulate",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "ayib_ethiopian_fresh_cheese_step_2",
+        "amount": {
+          "qty": 1030,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "lemon",
+        "amount": {
+          "qty": 0.25,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "ayib_ethiopian_fresh_cheese_step_3",
+      "amount": {
+        "qty": 1089.2,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 180,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Once the milk is simmering, reduce the heat to low and slowly add the lemon juice or vinegar while stirring continuously. The acid will cause the milk to curdle and separate into curds and whey.",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for lemon"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 180.0 °C for pan_contact"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

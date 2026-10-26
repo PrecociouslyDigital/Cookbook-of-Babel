@@ -1,0 +1,71 @@
+{
+  "id": "idli_steamed_rice_and_black_gram_bread.step_7",
+  "source": "wikibooks_idli_steamed_rice_and_black_gram_bread",
+  "sourceRef": {
+    "source": "wikibooks_idli_steamed_rice_and_black_gram_bread",
+    "step": 7
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "idli_steamed_rice_and_black_gram_bread_step_6",
+        "amount": {
+          "qty": 1672.9,
+          "unit": "g"
+        }
+      },
+      {
+        "min": 0,
+        "max": 1,
+        "of": [
+          {
+            "ingredient": "fermentation_starter",
+            "amount": {
+              "qty": 1,
+              "unit": "pinch"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "idli_steamed_rice_and_black_gram_bread_step_7",
+      "amount": {
+        "qty": 1673.2,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "If desired, stir in the fermentation starter and mix well (see note).",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Fermentation starter (optional; see note)': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for fermentation_starter"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

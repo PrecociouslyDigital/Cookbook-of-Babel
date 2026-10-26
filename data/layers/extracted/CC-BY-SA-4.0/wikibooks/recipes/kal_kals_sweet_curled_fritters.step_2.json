@@ -1,0 +1,53 @@
+{
+  "id": "kal_kals_sweet_curled_fritters.step_2",
+  "source": "wikibooks_kal_kals_sweet_curled_fritters",
+  "sourceRef": {
+    "source": "wikibooks_kal_kals_sweet_curled_fritters",
+    "step": 2
+  },
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "kal_kals_sweet_curled_fritters_step_1",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "kal_kals_sweet_curled_fritters_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Flatten teaspoon-sized balls of dough on the back of a fork (preferably with rounded tines) and roll off, forming small snail-shell-like curls.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.51"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

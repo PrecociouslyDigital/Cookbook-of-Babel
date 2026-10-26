@@ -1,0 +1,48 @@
+{
+  "id": "christmas_ham.step_3",
+  "source": "wikibooks_christmas_ham",
+  "sourceRef": {
+    "source": "wikibooks_christmas_ham",
+    "step": 3
+  },
+  "technique": "rinse",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "christmas_ham_step_2",
+        "amount": {
+          "qty": 8500,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "christmas_ham_step_3",
+      "amount": {
+        "qty": 8500,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Use a wet paper towel to clean the ham a bit; then dry it.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": "vinegar_pickled_eggs_and_onions.step_5",
+  "source": "wikibooks_vinegar_pickled_eggs_and_onions",
+  "sourceRef": {
+    "source": "wikibooks_vinegar_pickled_eggs_and_onions",
+    "step": 5
+  },
+  "technique": "cool",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "vinegar_pickled_eggs_and_onions_step_4",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "vinegar_pickled_eggs_and_onions_step_5",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Drain the hot water from the eggs, and transfer the eggs to ice-cold water to stop the cooking. Crack and peel off shells, making sure to remove the membrane between the egg and the shell.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.55"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "id": "picadillo_beef_with_potatoes_and_tomatoes.step_2",
+  "source": "wikibooks_picadillo_beef_with_potatoes_and_tomatoes",
+  "sourceRef": {
+    "source": "wikibooks_picadillo_beef_with_potatoes_and_tomatoes",
+    "step": 2
+  },
+  "technique": "pan_fry",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "picadillo_beef_with_potatoes_and_tomatoes_step_1",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "beef",
+        "amount": {
+          "qty": 1.25,
+          "unit": "lb"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "picadillo_beef_with_potatoes_and_tomatoes_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 185,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 7,
+      "unit": "min"
+    }
+  },
+  "stateNote": "When the bell pepper starts to discolor, add the ground beef, stirring to break up large pieces. Brown evenly, cooking for about 7 minutes.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.57"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of pan_fry's typical range"
+    }
+  ]
+}

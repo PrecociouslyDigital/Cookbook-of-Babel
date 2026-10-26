@@ -1,0 +1,55 @@
+{
+  "id": "chokladboll_swedish_chocolate_balls.step_2",
+  "source": "wikibooks_chokladboll_swedish_chocolate_balls",
+  "sourceRef": {
+    "source": "wikibooks_chokladboll_swedish_chocolate_balls",
+    "step": 2
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "chokladboll_swedish_chocolate_balls_step_1",
+        "amount": {
+          "qty": 864.8,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "butter",
+        "amount": {
+          "qty": 160,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "chokladboll_swedish_chocolate_balls_step_2",
+      "amount": {
+        "qty": 1024.8,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Using your hands or a potato masher, incorporate the butter into the dry ingredients until the dough has an even consistency.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

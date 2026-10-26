@@ -1,0 +1,60 @@
+{
+  "id": "chicken_tagine_with_lemon_and_olives.step_1",
+  "source": "wikibooks_chicken_tagine_with_lemon_and_olives",
+  "sourceRef": {
+    "source": "wikibooks_chicken_tagine_with_lemon_and_olives",
+    "step": 1
+  },
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "lemon",
+        "amount": {
+          "qty": 2,
+          "unit": "tbsp"
+        }
+      },
+      {
+        "ingredient": "chicken",
+        "amount": {
+          "qty": 1,
+          "unit": "lb"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "chicken_tagine_with_lemon_and_olives_step_1",
+      "amount": {
+        "qty": 483.2,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 30,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "In a large zip-close plastic bag, combine the juice and chicken. Seal and marinate in the refrigerator 30 minutes.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.58"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for lemon"
+    }
+  ]
+}

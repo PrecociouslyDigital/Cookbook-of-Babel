@@ -1,0 +1,58 @@
+{
+  "id": "microwave_salmon_in_a_parchment_envelope.step_4",
+  "source": "wikibooks_microwave_salmon_in_a_parchment_envelope",
+  "sourceRef": {
+    "source": "wikibooks_microwave_salmon_in_a_parchment_envelope",
+    "step": 4
+  },
+  "technique": "steam",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "microwave_salmon_in_a_parchment_envelope_step_3",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "microwave_salmon_in_a_parchment_envelope_step_4",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Fold other side of heart over fish and starting at top of heart shape, fold up both edges of parchment, overlapping folds as you move along. Once you reach the end tip, twist several times to secure tightly.",
+  "issues": [
+    {
+      "field": "sourceRef",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.52"
+    },
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.53"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

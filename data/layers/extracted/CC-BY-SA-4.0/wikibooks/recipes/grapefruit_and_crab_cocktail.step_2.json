@@ -1,0 +1,48 @@
+{
+  "id": "grapefruit_and_crab_cocktail.step_2",
+  "source": "wikibooks_grapefruit_and_crab_cocktail",
+  "sourceRef": {
+    "source": "wikibooks_grapefruit_and_crab_cocktail",
+    "step": 2
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "grapefruit_and_crab_cocktail_step_1",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "grapefruit_and_crab_cocktail_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Divide the chopped grapefruit between 4 grapefruit hulls or 4 serving glasses",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

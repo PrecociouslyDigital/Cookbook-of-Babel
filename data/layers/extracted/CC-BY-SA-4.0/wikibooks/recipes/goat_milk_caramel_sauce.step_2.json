@@ -1,0 +1,60 @@
+{
+  "id": "goat_milk_caramel_sauce.step_2",
+  "source": "wikibooks_goat_milk_caramel_sauce",
+  "sourceRef": {
+    "source": "wikibooks_goat_milk_caramel_sauce",
+    "step": 2
+  },
+  "technique": "dissolve",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "goat_milk_caramel_sauce_step_1",
+        "amount": {
+          "qty": 402.2,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "water",
+        "amount": {
+          "qty": 1,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "goat_milk_caramel_sauce_step_2",
+      "amount": {
+        "qty": 638.8,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Pour the water around the sides of the sugar. The goal is to prevent sugar crystals from sticking to the sides of the pot.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.55"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

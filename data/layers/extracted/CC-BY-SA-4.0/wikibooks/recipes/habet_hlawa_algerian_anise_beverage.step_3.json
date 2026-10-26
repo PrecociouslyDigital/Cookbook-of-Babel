@@ -1,0 +1,48 @@
+{
+  "id": "habet_hlawa_algerian_anise_beverage.step_3",
+  "source": "wikibooks_habet_hlawa_algerian_anise_beverage",
+  "sourceRef": {
+    "source": "wikibooks_habet_hlawa_algerian_anise_beverage",
+    "step": 3
+  },
+  "technique": "strain",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "habet_hlawa_algerian_anise_beverage_step_2",
+        "amount": {
+          "qty": 1436.6,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "habet_hlawa_algerian_anise_beverage_step_3",
+      "amount": {
+        "qty": 1436.6,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Filter out the seeds.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

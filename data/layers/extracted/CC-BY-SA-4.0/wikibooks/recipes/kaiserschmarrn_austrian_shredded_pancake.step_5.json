@@ -1,0 +1,48 @@
+{
+  "id": "kaiserschmarrn_austrian_shredded_pancake.step_5",
+  "source": "wikibooks_kaiserschmarrn_austrian_shredded_pancake",
+  "sourceRef": {
+    "source": "wikibooks_kaiserschmarrn_austrian_shredded_pancake",
+    "step": 5
+  },
+  "technique": "fold",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "kaiserschmarrn_austrian_shredded_pancake_step_4",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "kaiserschmarrn_austrian_shredded_pancake_step_5",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Whisk the whites until they are stiff and then fold them into the mixture.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": "steamed_sweet_rice.step_4",
+  "source": "wikibooks_steamed_sweet_rice",
+  "sourceRef": {
+    "source": "wikibooks_steamed_sweet_rice",
+    "step": 4
+  },
+  "technique": "strain",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "steamed_sweet_rice_step_3",
+        "amount": {
+          "qty": 355.2,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "steamed_sweet_rice_step_4",
+      "amount": {
+        "qty": 355.2,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Drain well, spread rice evenly in a round, 8–9 inch (20 cm) shallow baking pan, and add ⅓ cup (80 ml) water.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.47"
+    },
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.4"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

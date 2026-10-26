@@ -1,0 +1,48 @@
+{
+  "id": "breakfast_durum.step_6",
+  "source": "wikibooks_breakfast_durum",
+  "sourceRef": {
+    "source": "wikibooks_breakfast_durum",
+    "step": 6
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "breakfast_durum_step_5",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "breakfast_durum",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Assemble the dürüm by laying the bread sheet flat, with the longer edges to the left and right sides. Spreading the hummus evenly on the half of the bread farthest from you. Pile the potato mixture and the omelet evenly on the nearest half. Pinch and fold the nearest edge over, then roll into a 5-cm (2-inch) thick cylinder and serve.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

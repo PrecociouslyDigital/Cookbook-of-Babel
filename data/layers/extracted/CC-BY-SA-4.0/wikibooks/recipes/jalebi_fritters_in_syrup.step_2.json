@@ -1,0 +1,58 @@
+{
+  "id": "jalebi_fritters_in_syrup.step_2",
+  "source": "wikibooks_jalebi_fritters_in_syrup",
+  "sourceRef": {
+    "source": "wikibooks_jalebi_fritters_in_syrup",
+    "step": 2
+  },
+  "technique": "age",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "jalebi_fritters_in_syrup_step_1",
+        "amount": {
+          "qty": 791.4,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "jalebi_fritters_in_syrup_step_2",
+      "amount": {
+        "qty": 791.4,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 8,
+      "unit": "h"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Let the batter sit unrefrigerated and uncovered overnight (about 12 hours).",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.53"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "'overnight' read as 8 hours"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "the step names several durations; used the first"
+    }
+  ]
+}

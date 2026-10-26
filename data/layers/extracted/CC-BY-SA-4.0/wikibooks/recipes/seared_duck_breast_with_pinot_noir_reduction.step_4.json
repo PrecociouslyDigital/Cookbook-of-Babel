@@ -1,0 +1,72 @@
+{
+  "id": "seared_duck_breast_with_pinot_noir_reduction.step_4",
+  "source": "wikibooks_seared_duck_breast_with_pinot_noir_reduction",
+  "sourceRef": {
+    "source": "wikibooks_seared_duck_breast_with_pinot_noir_reduction",
+    "step": 4
+  },
+  "technique": "evaporate",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "seared_duck_breast_with_pinot_noir_reduction_step_3",
+        "amount": {
+          "qty": 794.5,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "wine",
+        "amount": {
+          "qty": 1.5,
+          "unit": "cup"
+        }
+      },
+      {
+        "ingredient": "shallot",
+        "amount": {
+          "qty": 1,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "seared_duck_breast_with_pinot_noir_reduction_step_4",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 100,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Pour most of the fat out, leaving 2 tbsp. Place pan back on medium high heat, add shallot, and sauté until translucent. Deglaze pan with wine and ignite carefully with a firestick, if desired. If you ignited it, wait until flames die before continuing. Bring to a boil.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.54"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of evaporate's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

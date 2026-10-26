@@ -1,0 +1,62 @@
+{
+  "id": "corned_beef_pie.step_2",
+  "source": "wikibooks_corned_beef_pie",
+  "sourceRef": {
+    "source": "wikibooks_corned_beef_pie",
+    "step": 2
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "wheat_flour",
+        "amount": {
+          "qty": 12,
+          "unit": "oz"
+        }
+      },
+      {
+        "ingredient": "lard",
+        "amount": {
+          "qty": 3,
+          "unit": "oz"
+        }
+      },
+      {
+        "ingredient": "margarine",
+        "amount": {
+          "qty": 3,
+          "unit": "oz"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "corned_beef_pie_step_2",
+      "amount": {
+        "qty": 510.3,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Sift the flour into a bowl. Rub in the lard and margarine.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

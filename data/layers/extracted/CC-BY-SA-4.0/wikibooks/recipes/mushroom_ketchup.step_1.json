@@ -1,0 +1,48 @@
+{
+  "id": "mushroom_ketchup.step_1",
+  "source": "wikibooks_mushroom_ketchup",
+  "sourceRef": {
+    "source": "wikibooks_mushroom_ketchup",
+    "step": 1
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "mushroom",
+        "amount": {
+          "qty": 2,
+          "unit": "lb"
+        }
+      },
+      {
+        "ingredient": "salt",
+        "amount": {
+          "qty": 3,
+          "unit": "tbsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "mushroom_ketchup_step_1",
+      "amount": {
+        "qty": 960.4,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 10,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Combine the mushrooms and salt. Stir, smash well, and let rest 10 minutes."
+}

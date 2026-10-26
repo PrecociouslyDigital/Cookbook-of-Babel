@@ -1,0 +1,41 @@
+{
+  "id": "fruit_for_the_day_smoothie.step_3",
+  "source": "wikibooks_fruit_for_the_day_smoothie",
+  "sourceRef": {
+    "source": "wikibooks_fruit_for_the_day_smoothie",
+    "step": 3
+  },
+  "technique": "blend",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "fruit_for_the_day_smoothie_step_2",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "fruit_for_the_day_smoothie",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Blend on high speed for 1 minute."
+}

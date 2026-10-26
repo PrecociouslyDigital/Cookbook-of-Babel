@@ -1,0 +1,48 @@
+{
+  "id": "miyan_shuwaka_hausa_bitter_leaf_soup.step_1",
+  "source": "wikibooks_miyan_shuwaka_hausa_bitter_leaf_soup",
+  "sourceRef": {
+    "source": "wikibooks_miyan_shuwaka_hausa_bitter_leaf_soup",
+    "step": 1
+  },
+  "technique": "rinse",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "bitterleaf",
+        "amount": {
+          "qty": 100,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "miyan_shuwaka_hausa_bitter_leaf_soup_step_1",
+      "amount": {
+        "qty": 100,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "If using fresh bitter leaf, wash with salt and squeeze to reduce the bitterness.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

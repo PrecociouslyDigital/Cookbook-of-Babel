@@ -1,0 +1,81 @@
+{
+  "id": "gingerbread.step_2",
+  "source": "wikibooks_gingerbread",
+  "sourceRef": {
+    "source": "wikibooks_gingerbread",
+    "step": 2
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "gingerbread_step_1",
+        "amount": {
+          "qty": 440,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "wheat_flour",
+        "amount": {
+          "qty": 220,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "baking_powder",
+        "amount": {
+          "qty": 5,
+          "unit": "ml"
+        }
+      },
+      {
+        "ingredient": "homemade_mixed_spice",
+        "amount": {
+          "qty": 5,
+          "unit": "ml"
+        }
+      },
+      {
+        "ingredient": "ginger",
+        "amount": {
+          "qty": 10,
+          "unit": "ml"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "gingerbread_step_2",
+      "amount": {
+        "qty": 679.5,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Place the dry ingredients in a bowl. Pour the melted butter mixture into the bowl, and beat thoroughly.",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for homemade_mixed_spice, ginger"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

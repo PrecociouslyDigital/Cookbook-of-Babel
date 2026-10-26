@@ -1,0 +1,76 @@
+{
+  "id": "gazpacho.step_1",
+  "source": "wikibooks_gazpacho",
+  "sourceRef": {
+    "source": "wikibooks_gazpacho",
+    "step": 1
+  },
+  "technique": "dissolve",
+  "inputs": {
+    "of": [
+      {
+        "min": 0,
+        "max": 1,
+        "of": [
+          {
+            "ingredient": "day_old_white_bread",
+            "amount": {
+              "qty": 2,
+              "unit": "oz"
+            }
+          }
+        ]
+      },
+      {
+        "ingredient": "bread",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "gazpacho_step_1",
+      "amount": {
+        "qty": 57,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 30,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "If using, tear up the bread, and soak it in water for 30 minutes. Squeeze it dry.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.46"
+    },
+    {
+      "field": "inputs",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.5"
+    },
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'bread': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for bread"
+    }
+  ]
+}

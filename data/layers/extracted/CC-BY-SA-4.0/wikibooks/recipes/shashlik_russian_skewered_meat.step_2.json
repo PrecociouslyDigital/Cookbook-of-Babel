@@ -1,0 +1,65 @@
+{
+  "id": "shashlik_russian_skewered_meat.step_2",
+  "source": "wikibooks_shashlik_russian_skewered_meat",
+  "sourceRef": {
+    "source": "wikibooks_shashlik_russian_skewered_meat",
+    "step": 2
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "shashlik_russian_skewered_meat_step_1",
+        "amount": {
+          "qty": 1144.4,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "onion",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "shashlik_russian_skewered_meat_step_2",
+      "amount": {
+        "qty": 1144.7,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Arrange the meat pieces on wooden or metal skewers, putting some pieces of bacon, sausage, pepper, onion, mushrooms, cucumber, according to your preference, between the pieces of meat.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Pieces of onion, red or green bell pepper, bacon, sausage, cucumber, baby mushrooms': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for onion"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

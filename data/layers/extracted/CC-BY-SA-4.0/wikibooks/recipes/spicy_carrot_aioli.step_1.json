@@ -1,0 +1,48 @@
+{
+  "id": "spicy_carrot_aioli.step_1",
+  "source": "wikibooks_spicy_carrot_aioli",
+  "sourceRef": {
+    "source": "wikibooks_spicy_carrot_aioli",
+    "step": 1
+  },
+  "technique": "julienne",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "carrot",
+        "amount": {
+          "qty": 1,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "spicy_carrot_aioli_step_1",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Cut carrots extremely fine (i.e. 1 mm slivers) so that blender can handle it.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "id": "spinach_mushroom_pesto_spaghetti.step_4",
+  "source": "wikibooks_spinach_mushroom_pesto_spaghetti",
+  "sourceRef": {
+    "source": "wikibooks_spinach_mushroom_pesto_spaghetti",
+    "step": 4
+  },
+  "technique": "stir_fry",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "spinach_mushroom_pesto_spaghetti_step_3",
+        "amount": {
+          "qty": 394.6,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "mushroom",
+        "amount": {
+          "qty": 200,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "salt",
+        "amount": {
+          "qty": 1,
+          "unit": "tsp"
+        }
+      },
+      {
+        "ingredient": "pepper",
+        "amount": {
+          "qty": 1,
+          "unit": "tsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "spinach_mushroom_pesto_spaghetti_step_4",
+      "amount": {
+        "qty": 605.4,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 215,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 3,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Add the mushrooms, salt, and pepper and cook for a further 3 minutes, stirring occasionally.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.51"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for pepper"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of stir_fry's typical range"
+    }
+  ]
+}

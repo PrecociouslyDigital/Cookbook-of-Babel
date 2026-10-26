@@ -1,0 +1,55 @@
+{
+  "id": "sweet_mole_with_vanilla_bean_ice_cream.step_7",
+  "source": "wikibooks_sweet_mole_with_vanilla_bean_ice_cream",
+  "sourceRef": {
+    "source": "wikibooks_sweet_mole_with_vanilla_bean_ice_cream",
+    "step": 7
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "sweet_mole_with_vanilla_bean_ice_cream_step_6",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "vanilla",
+        "amount": {
+          "qty": 2,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "sweet_mole_with_vanilla_bean_ice_cream",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "To serve, allow vanilla ice cream to soften slightly in a bowl and stir in mole.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

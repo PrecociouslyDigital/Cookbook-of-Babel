@@ -1,0 +1,96 @@
+{
+  "id": "kiwi_and_asian_pear_in_lemon_dressing.step_2",
+  "source": "wikibooks_kiwi_and_asian_pear_in_lemon_dressing",
+  "sourceRef": {
+    "source": "wikibooks_kiwi_and_asian_pear_in_lemon_dressing",
+    "step": 2
+  },
+  "technique": "chill",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "kiwi_and_asian_pear_in_lemon_dressing_step_1",
+        "amount": {
+          "qty": 88.5,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "kiwifruit",
+        "amount": {
+          "qty": 2,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "asian_pear",
+        "amount": {
+          "qty": 1,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "bell_pepper",
+        "amount": {
+          "qty": 0.5,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "cucumber",
+        "amount": {
+          "qty": 0.5,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "kiwi_and_asian_pear_in_lemon_dressing",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "h"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Add the fruit to the bowl of lemon dressing. Toss, cover, and chill for about an hour.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.53"
+    },
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'1 crisp Asian pear, sliced, and cut into thin strips (crisp Anjou pear may be substituted)': 'crisp' read as pieces"
+    },
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'½ yellow or red bell pepper, cut into thin strips': 'or' read as pieces"
+    },
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'½ European cucumber, halved, seeded, and cut into thin strips': 'European' read as pieces"
+    },
+    {
+      "field": "inputs",
+      "kind": "missing",
+      "note": "no step uses '1 tbsp lightly-roasted black sesame seeds' (p=0.45)"
+    }
+  ]
+}

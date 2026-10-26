@@ -1,0 +1,58 @@
+{
+  "id": "qabuli_central_asian_rice_pilaf.step_3",
+  "source": "wikibooks_qabuli_central_asian_rice_pilaf",
+  "sourceRef": {
+    "source": "wikibooks_qabuli_central_asian_rice_pilaf",
+    "step": 3
+  },
+  "technique": "evaporate",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "qabuli_central_asian_rice_pilaf_step_2",
+        "amount": {
+          "qty": 503.1,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "qabuli_central_asian_rice_pilaf_step_3",
+      "amount": {
+        "qty": 503.1,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 100,
+    "medium": "simmering_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "If there is water remaining, continue cooking until the water has been mostly absorbed.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.54"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of evaporate's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

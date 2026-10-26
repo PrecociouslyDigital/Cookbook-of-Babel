@@ -1,0 +1,53 @@
+{
+  "id": "friggione_onion_and_tomato_relish.step_4",
+  "source": "wikibooks_friggione_onion_and_tomato_relish",
+  "sourceRef": {
+    "source": "wikibooks_friggione_onion_and_tomato_relish",
+    "step": 4
+  },
+  "technique": "chop",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "friggione_onion_and_tomato_relish_step_3",
+        "amount": {
+          "qty": 1500.3,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "friggione_onion_and_tomato_relish_step_4",
+      "amount": {
+        "qty": 1500.3,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Roughly chop the tomatoes into a few large pieces.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.55"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

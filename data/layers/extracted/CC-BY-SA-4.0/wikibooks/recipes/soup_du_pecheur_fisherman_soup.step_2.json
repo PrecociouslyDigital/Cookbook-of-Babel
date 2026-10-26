@@ -1,0 +1,60 @@
+{
+  "id": "soup_du_pecheur_fisherman_soup.step_2",
+  "source": "wikibooks_soup_du_pecheur_fisherman_soup",
+  "sourceRef": {
+    "source": "wikibooks_soup_du_pecheur_fisherman_soup",
+    "step": 2
+  },
+  "technique": "grind",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "soup_du_pecheur_fisherman_soup_step_1",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "tilapia_fish",
+        "amount": {
+          "qty": 4,
+          "unit": "lb"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "soup_du_pecheur_fisherman_soup_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 90,
+    "medium": "simmering_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Remove and grind the tomatoes, onions, djansang seeds, and garlic. Return them to the pot along with the fish.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 90.0 °C for simmering_water"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "id": "tomato_pasta_with_bacon_onions_and_cheese.step_4",
+  "source": "wikibooks_tomato_pasta_with_bacon_onions_and_cheese",
+  "sourceRef": {
+    "source": "wikibooks_tomato_pasta_with_bacon_onions_and_cheese",
+    "step": 4
+  },
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "tomato_pasta_with_bacon_onions_and_cheese_step_3",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "chile_flakes",
+        "amount": {
+          "qty": 0.5,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "tomato_pasta_with_bacon_onions_and_cheese_step_4",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 180,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 2.5,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Add crushed red pepper and cook 2–3 minutes more.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.28"
+    },
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'½ teaspoon–1 tablespoon crushed red pepper': 'teaspoon–1' read as pieces"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 180.0 °C for pan_contact"
+    }
+  ]
+}

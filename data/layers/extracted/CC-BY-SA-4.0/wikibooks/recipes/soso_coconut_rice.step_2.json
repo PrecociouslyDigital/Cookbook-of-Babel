@@ -1,0 +1,88 @@
+{
+  "id": "soso_coconut_rice.step_2",
+  "source": "wikibooks_soso_coconut_rice",
+  "sourceRef": {
+    "source": "wikibooks_soso_coconut_rice",
+    "step": 2
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "soso_coconut_rice_step_1",
+        "amount": {
+          "qty": 473.5,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "coconut",
+        "amount": {
+          "qty": 1,
+          "unit": "can"
+        }
+      },
+      {
+        "ingredient": "salt",
+        "amount": {
+          "qty": 1,
+          "unit": "tsp"
+        }
+      },
+      {
+        "min": 0,
+        "max": 1,
+        "of": [
+          {
+            "ingredient": "pandan",
+            "amount": {
+              "qty": 2.5,
+              "unit": "piece"
+            }
+          }
+        ]
+      },
+      {
+        "min": 0,
+        "max": 1,
+        "of": [
+          {
+            "ingredient": "vegetable_oil",
+            "amount": {
+              "qty": 1.5,
+              "unit": "tbsp"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "soso_coconut_rice_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "In a large pot, combine the rinsed rice, coconut milk, water, salt, and pandan leaves (if using). Stir well to combine. If desired, you can add vegetable oil at this stage to prevent the rice from sticking together.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

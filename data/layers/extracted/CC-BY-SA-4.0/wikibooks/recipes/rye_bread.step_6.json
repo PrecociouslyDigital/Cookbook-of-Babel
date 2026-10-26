@@ -1,0 +1,48 @@
+{
+  "id": "rye_bread.step_6",
+  "source": "wikibooks_rye_bread",
+  "sourceRef": {
+    "source": "wikibooks_rye_bread",
+    "step": 6
+  },
+  "technique": "separate",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "rye_bread_step_5",
+        "amount": {
+          "qty": 4829.6,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "rye_bread_step_6",
+      "amount": {
+        "qty": 4829.6,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Take out 300 ml of dough to act as the starter next time you make this recipe.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

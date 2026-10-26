@@ -1,0 +1,55 @@
+{
+  "id": "south_side_cocktail.step_2",
+  "source": "wikibooks_south_side_cocktail",
+  "sourceRef": {
+    "source": "wikibooks_south_side_cocktail",
+    "step": 2
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "south_side_cocktail_step_1",
+        "amount": {
+          "qty": 99.2,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "mint",
+        "amount": {
+          "qty": 11,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "south_side_cocktail_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Open shaker and add mint, leaving 1 mint leaf around the size of your thumb for garnish.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

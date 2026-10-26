@@ -1,0 +1,70 @@
+{
+  "id": "turmeric_chicken_and_asparagus_stir_fry.step_3",
+  "source": "wikibooks_turmeric_chicken_and_asparagus_stir_fry",
+  "sourceRef": {
+    "source": "wikibooks_turmeric_chicken_and_asparagus_stir_fry",
+    "step": 3
+  },
+  "technique": "pan_fry",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "turmeric_chicken_and_asparagus_stir_fry_step_2",
+        "amount": {
+          "qty": 591.8,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "coconut_oil",
+        "amount": {
+          "qty": 2,
+          "unit": "tbsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "turmeric_chicken_and_asparagus_stir_fry_step_3",
+      "amount": {
+        "qty": 621.4,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 185,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Heat the oil in your pan over medium-high heat. Add the chicken, and cook, tossing as needed, until golden brown all over. If it starts darkening too quickly, lower the heat.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.56"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for coconut_oil"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of pan_fry's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

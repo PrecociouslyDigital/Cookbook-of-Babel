@@ -1,0 +1,48 @@
+{
+  "id": "chili_oil.step_5",
+  "source": "wikibooks_chili_oil",
+  "sourceRef": {
+    "source": "wikibooks_chili_oil",
+    "step": 5
+  },
+  "technique": "strain",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "chili_oil_step_4",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "chili_oil",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "In higher-class restaurants in China and abroad, the oil is frequently strained or \"poured off\" of the layer of solids, which clarifies it somewhat; this step is optional. Many prefer the more rustic look (and texture!) of home-made oil, which will develop a darker colour over time from the solids below.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

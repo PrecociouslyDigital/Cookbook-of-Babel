@@ -1,0 +1,55 @@
+{
+  "id": "germknodel_plum_and_poppy_seed_dumpling.step_6",
+  "source": "wikibooks_germknodel_plum_and_poppy_seed_dumpling",
+  "sourceRef": {
+    "source": "wikibooks_germknodel_plum_and_poppy_seed_dumpling",
+    "step": 6
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "germknodel_plum_and_poppy_seed_dumpling_step_5",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "plum",
+        "amount": {
+          "qty": 1.25,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "germknodel_plum_and_poppy_seed_dumpling_step_6",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Fill each of the pieces of dough with a tablespoon of the plum jam, and carefully form round dumplings. Make sure that the seam is completely closed.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

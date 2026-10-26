@@ -1,0 +1,53 @@
+{
+  "id": "potato_and_leek_soup_ii.step_7",
+  "source": "wikibooks_potato_and_leek_soup_ii",
+  "sourceRef": {
+    "source": "wikibooks_potato_and_leek_soup_ii",
+    "step": 7
+  },
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "potato_and_leek_soup_ii_step_6",
+        "amount": {
+          "qty": 4650.7,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "potato_and_leek_soup_ii",
+      "amount": {
+        "qty": 4650.7,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Taste the soup, and season to taste with additional salt and pepper.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.52"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

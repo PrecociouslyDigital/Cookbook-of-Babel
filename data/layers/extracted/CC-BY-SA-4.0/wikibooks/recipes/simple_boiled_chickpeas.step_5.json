@@ -1,0 +1,48 @@
+{
+  "id": "simple_boiled_chickpeas.step_5",
+  "source": "wikibooks_simple_boiled_chickpeas",
+  "sourceRef": {
+    "source": "wikibooks_simple_boiled_chickpeas",
+    "step": 5
+  },
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "simple_boiled_chickpeas_step_4",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "simple_boiled_chickpeas",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Use the cooked chickpeas as you would canned chickpeas. Alternatively, you can season them with salt, pepper, and a dash of olive oil and vinegar if you would like to eat them plain.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "fruit_ice_pops.step_3",
+  "source": "wikibooks_fruit_ice_pops",
+  "sourceRef": {
+    "source": "wikibooks_fruit_ice_pops",
+    "step": 3
+  },
+  "technique": "chill",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "fruit_ice_pops_step_2",
+        "amount": {
+          "qty": 1.6,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "fruit_ice_pops_step_3",
+      "amount": {
+        "qty": 1.6,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Freeze the molds until completely solid.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

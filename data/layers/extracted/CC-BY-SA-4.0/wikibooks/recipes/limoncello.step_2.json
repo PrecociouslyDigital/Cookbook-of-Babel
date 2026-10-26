@@ -1,0 +1,55 @@
+{
+  "id": "limoncello.step_2",
+  "source": "wikibooks_limoncello",
+  "sourceRef": {
+    "source": "wikibooks_limoncello",
+    "step": 2
+  },
+  "technique": "age",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "limoncello_step_1",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "vodka",
+        "amount": {
+          "qty": 1.5,
+          "unit": "l"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "limoncello_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 10,
+      "unit": "d"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "In a 1-gallon glass jar, combine half the vodka and the lemon zest. Cover the jar and let sit at room temperature for at least 10 days, and up to 40 days in a cool dark place.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "the step names several durations; used the first"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "id": "pasta_romanov.step_4",
+  "source": "wikibooks_pasta_romanov",
+  "sourceRef": {
+    "source": "wikibooks_pasta_romanov",
+    "step": 4
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "pasta_romanov_step_3",
+        "amount": {
+          "qty": 1.2,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "caviar",
+        "amount": {
+          "qty": 1,
+          "unit": "tsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "pasta_romanov_step_4",
+      "amount": {
+        "qty": 6.1,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Add caviar to the cheese and toss the drained pasta in it to coat.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.55"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for caviar"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

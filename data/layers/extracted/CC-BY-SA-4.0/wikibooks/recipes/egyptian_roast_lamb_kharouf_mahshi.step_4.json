@@ -1,0 +1,48 @@
+{
+  "id": "egyptian_roast_lamb_kharouf_mahshi.step_4",
+  "source": "wikibooks_egyptian_roast_lamb_kharouf_mahshi",
+  "sourceRef": {
+    "source": "wikibooks_egyptian_roast_lamb_kharouf_mahshi",
+    "step": 4
+  },
+  "technique": "chill",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "egyptian_roast_lamb_kharouf_mahshi_step_3",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "egyptian_roast_lamb_kharouf_mahshi_step_4",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 2,
+      "unit": "h"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Cover the roasting pan with foil and let the lamb marinate in the refrigerator for at least 2 hours, or overnight for maximum flavor.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "the step names several durations; used the first"
+    }
+  ]
+}

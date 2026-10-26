@@ -1,0 +1,48 @@
+{
+  "id": "egg_noodles_iii.step_1",
+  "source": "wikibooks_egg_noodles_iii",
+  "sourceRef": {
+    "source": "wikibooks_egg_noodles_iii",
+    "step": 1
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "wheat_flour",
+        "amount": {
+          "qty": 1,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "egg_noodles_iii_step_1",
+      "amount": {
+        "qty": 125.4,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "On a smooth surface, heap the flour. Push a hole in the center of the flour (it should look like a volcano).",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

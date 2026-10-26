@@ -1,0 +1,53 @@
+{
+  "id": "khaman_dhokla_steamed_gram_bread.step_9",
+  "source": "wikibooks_khaman_dhokla_steamed_gram_bread",
+  "sourceRef": {
+    "source": "wikibooks_khaman_dhokla_steamed_gram_bread",
+    "step": 9
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "khaman_dhokla_steamed_gram_bread_step_8",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "khaman_dhokla_steamed_gram_bread_step_9",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Remove mixture from the flame, then add 2 tbsp of water and mix well.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.45"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

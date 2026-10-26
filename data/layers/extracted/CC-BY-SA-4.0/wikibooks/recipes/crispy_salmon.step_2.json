@@ -1,0 +1,72 @@
+{
+  "id": "crispy_salmon.step_2",
+  "source": "wikibooks_crispy_salmon",
+  "sourceRef": {
+    "source": "wikibooks_crispy_salmon",
+    "step": 2
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "crispy_salmon_step_1",
+        "amount": {
+          "qty": 394.8,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "salmon",
+        "amount": {
+          "qty": 24,
+          "unit": "oz"
+        }
+      },
+      {
+        "ingredient": "olive_oil",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "crispy_salmon_step_2",
+      "amount": {
+        "qty": 1075.5,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Using wet-hand dry-hand, dredge salmon into flour then into lemon, then into panko. Coat with olive oil and place on a sheet pan.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Olive oil': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for olive_oil"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

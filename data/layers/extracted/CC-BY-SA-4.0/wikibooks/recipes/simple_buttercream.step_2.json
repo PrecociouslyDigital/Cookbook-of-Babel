@@ -1,0 +1,55 @@
+{
+  "id": "simple_buttercream.step_2",
+  "source": "wikibooks_simple_buttercream",
+  "sourceRef": {
+    "source": "wikibooks_simple_buttercream",
+    "step": 2
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "simple_buttercream_step_1",
+        "amount": {
+          "qty": 205,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "white_sugar",
+        "amount": {
+          "qty": 450,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "simple_buttercream_step_2",
+      "amount": {
+        "qty": 655,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Beat in powdered sugar one cup at a time, scraping sides and bottom of bowl regularly. Mixture will be very dry.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

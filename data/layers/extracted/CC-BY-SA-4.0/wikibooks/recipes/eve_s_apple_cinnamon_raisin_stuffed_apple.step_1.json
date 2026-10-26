@@ -1,0 +1,53 @@
+{
+  "id": "eve_s_apple_cinnamon_raisin_stuffed_apple.step_1",
+  "source": "wikibooks_eve_s_apple_cinnamon_raisin_stuffed_apple",
+  "sourceRef": {
+    "source": "wikibooks_eve_s_apple_cinnamon_raisin_stuffed_apple",
+    "step": 1
+  },
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "apple",
+        "amount": {
+          "qty": 1,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "eve_s_apple_cinnamon_raisin_stuffed_apple_step_1",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Core apple almost to, but not through, the bottom.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'1 small baking apple': 'baking' read as pieces"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

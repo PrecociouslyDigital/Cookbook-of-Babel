@@ -1,0 +1,62 @@
+{
+  "id": "nigerian_white_soup_ofe_nsala.step_1",
+  "source": "wikibooks_nigerian_white_soup_ofe_nsala",
+  "sourceRef": {
+    "source": "wikibooks_nigerian_white_soup_ofe_nsala",
+    "step": 1
+  },
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "catfish",
+        "amount": {
+          "qty": 1,
+          "unit": "kg"
+        }
+      },
+      {
+        "ingredient": "onion",
+        "amount": {
+          "qty": 1,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "seasoning_cubes",
+        "amount": {
+          "qty": 2,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "nigerian_white_soup_ofe_nsala_step_1",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Prepare the protein: Wash and clean 1 kilograms fresh catfish (or chicken/goat meat), cleaned and cut thoroughly. Season lightly with diced 1 onion, a pinch of 1 teaspoons salt, and 1 of 2 seasoning cubes. Set aside. If using goat meat or chicken, cook until nearly tender and reserve the stock.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

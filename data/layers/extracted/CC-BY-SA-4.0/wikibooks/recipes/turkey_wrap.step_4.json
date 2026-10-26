@@ -1,0 +1,48 @@
+{
+  "id": "turkey_wrap.step_4",
+  "source": "wikibooks_turkey_wrap",
+  "sourceRef": {
+    "source": "wikibooks_turkey_wrap",
+    "step": 4
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "turkey_wrap_step_3",
+        "amount": {
+          "qty": 340.5,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "turkey_wrap_step_4",
+      "amount": {
+        "qty": 340.5,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Mix in turkey, adding as much as will be covered by the paste.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

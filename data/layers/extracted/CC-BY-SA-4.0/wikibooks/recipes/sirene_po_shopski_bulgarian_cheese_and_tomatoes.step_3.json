@@ -1,0 +1,60 @@
+{
+  "id": "sirene_po_shopski_bulgarian_cheese_and_tomatoes.step_3",
+  "source": "wikibooks_sirene_po_shopski_bulgarian_cheese_and_tomatoes",
+  "sourceRef": {
+    "source": "wikibooks_sirene_po_shopski_bulgarian_cheese_and_tomatoes",
+    "step": 3
+  },
+  "technique": "bake",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "sirene_po_shopski_bulgarian_cheese_and_tomatoes_step_2",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "egg",
+        "amount": {
+          "qty": 2,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "sirene_po_shopski_bulgarian_cheese_and_tomatoes",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 200,
+    "medium": "oven_air"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Break an egg on top of each dish, and cook until the egg is the consistency you like.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of bake's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

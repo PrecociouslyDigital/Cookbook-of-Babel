@@ -1,0 +1,55 @@
+{
+  "id": "kaiserschmarrn_austrian_shredded_pancake.step_3",
+  "source": "wikibooks_kaiserschmarrn_austrian_shredded_pancake",
+  "sourceRef": {
+    "source": "wikibooks_kaiserschmarrn_austrian_shredded_pancake",
+    "step": 3
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "kaiserschmarrn_austrian_shredded_pancake_step_2",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "wheat_flour",
+        "amount": {
+          "qty": 350,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "kaiserschmarrn_austrian_shredded_pancake_step_3",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Fold in the flour while stirring thoroughly until the mass is pasty.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "montreal_russian_borscht.step_3",
+  "source": "wikibooks_montreal_russian_borscht",
+  "sourceRef": {
+    "source": "wikibooks_montreal_russian_borscht",
+    "step": 3
+  },
+  "technique": "simmer",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "montreal_russian_borscht_step_2",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "montreal_russian_borscht",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 90,
+    "medium": "boiling_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1.5,
+      "unit": "h"
+    }
+  },
+  "stateNote": "Return to a boil and cook for 1.5 hours",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of simmer's typical range"
+    }
+  ]
+}

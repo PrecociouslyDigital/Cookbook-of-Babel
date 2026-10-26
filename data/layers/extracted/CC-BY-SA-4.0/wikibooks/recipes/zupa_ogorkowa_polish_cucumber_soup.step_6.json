@@ -1,0 +1,66 @@
+{
+  "id": "zupa_ogorkowa_polish_cucumber_soup.step_6",
+  "source": "wikibooks_zupa_ogorkowa_polish_cucumber_soup",
+  "sourceRef": {
+    "source": "wikibooks_zupa_ogorkowa_polish_cucumber_soup",
+    "step": 6
+  },
+  "technique": "boil",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "zupa_ogorkowa_polish_cucumber_soup_step_5",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "min": 0,
+        "max": 1,
+        "of": [
+          {
+            "ingredient": "cream",
+            "amount": {
+              "qty": 1.5,
+              "unit": "tbsp"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "zupa_ogorkowa_polish_cucumber_soup",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 100,
+    "medium": "simmering_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 4,
+      "unit": "min"
+    }
+  },
+  "stateNote": "When the potatoes are cooked, add the prepared sour cucumber preparation to the stock pot and mix them well. Boil for 3–5 minutes and season the soup to taste. If you like, mix some soup with cream or sour cream in a small cup and add it to the pan, or a smaller amount to each individual serving.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.46"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of boil's typical range"
+    }
+  ]
+}

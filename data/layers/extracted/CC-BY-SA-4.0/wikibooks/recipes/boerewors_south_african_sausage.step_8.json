@@ -1,0 +1,60 @@
+{
+  "id": "boerewors_south_african_sausage.step_8",
+  "source": "wikibooks_boerewors_south_african_sausage",
+  "sourceRef": {
+    "source": "wikibooks_boerewors_south_african_sausage",
+    "step": 8
+  },
+  "technique": "rinse",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "boerewors_south_african_sausage_step_7",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "sausage_casing",
+        "amount": {
+          "qty": 2.25,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "boerewors_south_african_sausage_step_8",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 2,
+      "unit": "h"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "While the meat is resting, soak the sausage casings in water for the same 2 hours.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.58"
+    },
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'2¼-inch wide sausage casings': '-inch' read as pieces"
+    }
+  ]
+}

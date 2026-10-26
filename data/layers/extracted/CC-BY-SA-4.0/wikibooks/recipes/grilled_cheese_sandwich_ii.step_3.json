@@ -1,0 +1,48 @@
+{
+  "id": "grilled_cheese_sandwich_ii.step_3",
+  "source": "wikibooks_grilled_cheese_sandwich_ii",
+  "sourceRef": {
+    "source": "wikibooks_grilled_cheese_sandwich_ii",
+    "step": 3
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "grilled_cheese_sandwich_ii_step_2",
+        "amount": {
+          "qty": 0.9,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "grilled_cheese_sandwich_ii_step_3",
+      "amount": {
+        "qty": 0.9,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Cover a bread slice with cheese, over the unbuttered side. If you leave gaps, distribute them evenly throughout the middle.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

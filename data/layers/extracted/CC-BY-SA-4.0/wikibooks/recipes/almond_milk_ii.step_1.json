@@ -1,0 +1,65 @@
+{
+  "id": "almond_milk_ii.step_1",
+  "source": "wikibooks_almond_milk_ii",
+  "sourceRef": {
+    "source": "wikibooks_almond_milk_ii",
+    "step": 1
+  },
+  "technique": "chill",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "almond",
+        "amount": {
+          "qty": 1,
+          "unit": "cup"
+        }
+      },
+      {
+        "ingredient": "water",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "almond_milk_ii_step_1",
+      "amount": {
+        "qty": 236.9,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 8,
+      "unit": "h"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Put the almonds into a bowl, and cover them with at least one 1 inch (2.5 cm) of water. Leave them in the refrigerator overnight, and then drain the water. This is called sprouting or steeping.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'pure water, such as rosewater, orange blossom water, spring water, distilled water, or iodized water': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for almond"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "'overnight' read as 8 hours"
+    }
+  ]
+}

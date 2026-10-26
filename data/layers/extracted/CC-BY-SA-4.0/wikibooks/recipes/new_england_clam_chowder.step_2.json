@@ -1,0 +1,48 @@
+{
+  "id": "new_england_clam_chowder.step_2",
+  "source": "wikibooks_new_england_clam_chowder",
+  "sourceRef": {
+    "source": "wikibooks_new_england_clam_chowder",
+    "step": 2
+  },
+  "technique": "separate",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "new_england_clam_chowder_step_1",
+        "amount": {
+          "qty": 453.6,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "new_england_clam_chowder_step_2",
+      "amount": {
+        "qty": 453.6,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Cut hard parts away and keep them separate.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

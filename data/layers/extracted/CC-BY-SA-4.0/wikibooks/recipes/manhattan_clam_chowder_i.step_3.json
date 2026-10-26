@@ -1,0 +1,53 @@
+{
+  "id": "manhattan_clam_chowder_i.step_3",
+  "source": "wikibooks_manhattan_clam_chowder_i",
+  "sourceRef": {
+    "source": "wikibooks_manhattan_clam_chowder_i",
+    "step": 3
+  },
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "manhattan_clam_chowder_i_step_2",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "manhattan_clam_chowder_i_step_3",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "If desired add spices. Suggestions offered include dill seed, basil, thyme, celery seed, tarragon, marjoram, and/or fresh cilantro. Alternatively, oregano can be used in lieu of the marjoram.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.58"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

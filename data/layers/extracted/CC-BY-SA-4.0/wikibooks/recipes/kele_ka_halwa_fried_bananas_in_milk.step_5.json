@@ -1,0 +1,58 @@
+{
+  "id": "kele_ka_halwa_fried_bananas_in_milk.step_5",
+  "source": "wikibooks_kele_ka_halwa_fried_bananas_in_milk",
+  "sourceRef": {
+    "source": "wikibooks_kele_ka_halwa_fried_bananas_in_milk",
+    "step": 5
+  },
+  "technique": "fry",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "kele_ka_halwa_fried_bananas_in_milk_step_4",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "kele_ka_halwa_fried_bananas_in_milk_step_5",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 190,
+    "medium": "frying_oil"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Heat the 250 g ghee in a skillet. Add the bananas, and fry until they turn brown. Remove the fried bananas from the hot oil.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.51"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of fry's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

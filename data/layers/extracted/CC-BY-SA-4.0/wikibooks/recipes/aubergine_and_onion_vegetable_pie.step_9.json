@@ -1,0 +1,53 @@
+{
+  "id": "aubergine_and_onion_vegetable_pie.step_9",
+  "source": "wikibooks_aubergine_and_onion_vegetable_pie",
+  "sourceRef": {
+    "source": "wikibooks_aubergine_and_onion_vegetable_pie",
+    "step": 9
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "aubergine_and_onion_vegetable_pie_step_8",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "aubergine_and_onion_vegetable_pie_step_9",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Take the crust out of the oven, and arrange the vegetables over the crust in whatever arrangement pleases you.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.56"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "id": "lasagne_with_red_and_white_sauce.step_17",
+  "source": "wikibooks_lasagne_with_red_and_white_sauce",
+  "sourceRef": {
+    "source": "wikibooks_lasagne_with_red_and_white_sauce",
+    "step": 17
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "lasagne_with_red_and_white_sauce_step_16",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "min": 0,
+        "max": 1,
+        "of": [
+          {
+            "ingredient": "noodle",
+            "amount": {
+              "qty": 1,
+              "unit": "lb"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "lasagne_with_red_and_white_sauce_step_17",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Cover with a layer of lasagna noodles, breaking or cutting to fit if necessary.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

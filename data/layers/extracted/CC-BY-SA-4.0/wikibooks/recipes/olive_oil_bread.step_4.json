@@ -1,0 +1,48 @@
+{
+  "id": "olive_oil_bread.step_4",
+  "source": "wikibooks_olive_oil_bread",
+  "sourceRef": {
+    "source": "wikibooks_olive_oil_bread",
+    "step": 4
+  },
+  "technique": "ferment",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "olive_oil_bread_step_3",
+        "amount": {
+          "qty": 512.2,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "olive_oil_bread_step_4",
+      "amount": {
+        "qty": 512.2,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Place kneaded dough in a medium size greased bowl. Cover and let rise until doubled in size.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

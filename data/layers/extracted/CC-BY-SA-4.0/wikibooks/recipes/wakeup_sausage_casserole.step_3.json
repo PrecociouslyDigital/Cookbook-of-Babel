@@ -1,0 +1,53 @@
+{
+  "id": "wakeup_sausage_casserole.step_3",
+  "source": "wikibooks_wakeup_sausage_casserole",
+  "sourceRef": {
+    "source": "wikibooks_wakeup_sausage_casserole",
+    "step": 3
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "french_bread",
+        "amount": {
+          "qty": 8,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "wakeup_sausage_casserole_step_3",
+      "amount": {
+        "qty": 1892.8,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Place bread cubes in the pan evenly.",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for french_bread"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

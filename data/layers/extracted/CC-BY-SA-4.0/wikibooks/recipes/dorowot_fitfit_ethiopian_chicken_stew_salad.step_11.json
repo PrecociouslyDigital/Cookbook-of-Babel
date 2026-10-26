@@ -1,0 +1,53 @@
+{
+  "id": "dorowot_fitfit_ethiopian_chicken_stew_salad.step_11",
+  "source": "wikibooks_dorowot_fitfit_ethiopian_chicken_stew_salad",
+  "sourceRef": {
+    "source": "wikibooks_dorowot_fitfit_ethiopian_chicken_stew_salad",
+    "step": 11
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "dorowot_fitfit_ethiopian_chicken_stew_salad_step_10",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "dorowot_fitfit_ethiopian_chicken_stew_salad_step_11",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Let sit for a few minutes to allow the injera to soak up the flavors of the stew.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.37"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

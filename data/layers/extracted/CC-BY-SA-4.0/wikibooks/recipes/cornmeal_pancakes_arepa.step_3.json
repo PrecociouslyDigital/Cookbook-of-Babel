@@ -1,0 +1,53 @@
+{
+  "id": "cornmeal_pancakes_arepa.step_3",
+  "source": "wikibooks_cornmeal_pancakes_arepa",
+  "sourceRef": {
+    "source": "wikibooks_cornmeal_pancakes_arepa",
+    "step": 3
+  },
+  "technique": "separate",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "cornmeal_pancakes_arepa_step_2",
+        "amount": {
+          "qty": 1147.1,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "cornmeal_pancakes_arepa_step_3",
+      "amount": {
+        "qty": 1147.1,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Divide the dough into 10 pieces and form each piece into a ball. Flatten the ball slightly.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.45"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

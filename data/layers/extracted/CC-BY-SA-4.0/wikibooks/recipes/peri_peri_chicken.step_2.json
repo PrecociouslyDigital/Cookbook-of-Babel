@@ -1,0 +1,55 @@
+{
+  "id": "peri_peri_chicken.step_2",
+  "source": "wikibooks_peri_peri_chicken",
+  "sourceRef": {
+    "source": "wikibooks_peri_peri_chicken",
+    "step": 2
+  },
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "peri_peri_chicken_step_1",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "chicken",
+        "amount": {
+          "qty": 2.5,
+          "unit": "lb"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "peri_peri_chicken_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "h"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Pour the marinade over the chicken in a large bowl. Use your hands to massage the marinade into the chicken, then cover the bowl and leave it in the fridge for at least 1 hour and up to overnight. The longer it marinates, the better the flavor.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "the step names several durations; used the first"
+    }
+  ]
+}

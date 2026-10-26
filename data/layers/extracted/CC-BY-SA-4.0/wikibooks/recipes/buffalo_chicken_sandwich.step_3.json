@@ -1,0 +1,48 @@
+{
+  "id": "buffalo_chicken_sandwich.step_3",
+  "source": "wikibooks_buffalo_chicken_sandwich",
+  "sourceRef": {
+    "source": "wikibooks_buffalo_chicken_sandwich",
+    "step": 3
+  },
+  "technique": "fry",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "buffalo_chicken_sandwich_step_2",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "buffalo_chicken_sandwich_step_3",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 190,
+    "medium": "frying_oil"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 10,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Deep fry chicken in oil for 10 minutes or until golden brown. Drain on a rack.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of fry's typical range"
+    }
+  ]
+}

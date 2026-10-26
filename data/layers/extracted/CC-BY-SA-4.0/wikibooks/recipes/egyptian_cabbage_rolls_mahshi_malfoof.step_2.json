@@ -1,0 +1,53 @@
+{
+  "id": "egyptian_cabbage_rolls_mahshi_malfoof.step_2",
+  "source": "wikibooks_egyptian_cabbage_rolls_mahshi_malfoof",
+  "sourceRef": {
+    "source": "wikibooks_egyptian_cabbage_rolls_mahshi_malfoof",
+    "step": 2
+  },
+  "technique": "separate",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "egyptian_cabbage_rolls_mahshi_malfoof_step_1",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "egyptian_cabbage_rolls_mahshi_malfoof_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Gently peel off the softened cabbage leaves, being careful not to tear them. Set aside.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.5"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

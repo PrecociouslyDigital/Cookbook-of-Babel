@@ -1,0 +1,55 @@
+{
+  "id": "bo_bia.step_2",
+  "source": "wikibooks_bo_bia",
+  "sourceRef": {
+    "source": "wikibooks_bo_bia",
+    "step": 2
+  },
+  "technique": "boil",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "bo_bia_step_1",
+        "amount": {
+          "qty": 59.2,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "chinese_sweet_sausages",
+        "amount": {
+          "qty": 3,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "bo_bia_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 100,
+    "medium": "boiling_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 10,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Clean the pan, fill about half full with water and bring to a boil. Cook 2 Chinese sausages for about 10 minutes to soften and remove some of the fat. Rinse the sausages well, let them cool and slide them thinly on a diagonal.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of boil's typical range"
+    }
+  ]
+}

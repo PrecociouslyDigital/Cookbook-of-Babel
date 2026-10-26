@@ -1,0 +1,48 @@
+{
+  "id": "ossobuco_alla_milanese.step_2",
+  "source": "wikibooks_ossobuco_alla_milanese",
+  "sourceRef": {
+    "source": "wikibooks_ossobuco_alla_milanese",
+    "step": 2
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "veal",
+        "amount": {
+          "qty": 4,
+          "unit": "slice"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "ossobuco_alla_milanese_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "If the butcher has not done so, tie the shanks around the middle with kitchen twine; this will keep them from falling apart during cooking.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "ngoundja_fried_plantains.step_2",
+  "source": "wikibooks_ngoundja_fried_plantains",
+  "sourceRef": {
+    "source": "wikibooks_ngoundja_fried_plantains",
+    "step": 2
+  },
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "ngoundja_fried_plantains_step_1",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "ngoundja_fried_plantains_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Make a shallow lengthwise incision along the skin of each plantain, being careful not to cut into the flesh.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

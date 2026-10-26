@@ -1,0 +1,48 @@
+{
+  "id": "french_fries_belgian.step_2",
+  "source": "wikibooks_french_fries_belgian",
+  "sourceRef": {
+    "source": "wikibooks_french_fries_belgian",
+    "step": 2
+  },
+  "technique": "cool",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "french_fries_belgian_step_1",
+        "amount": {
+          "qty": 0.6,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "french_fries_belgian_step_2",
+      "amount": {
+        "qty": 0.6,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 30,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Remove fries from oil, toss to avoid clumping, and allow to cool down and dry for at least 30 minutes to make the fries more crispy and less greasy later. This intermediate product can be either frozen for 'instant' deep-frying later, or as several batches of 'pre-fried' fries prepared for rapid frying and almost serving later.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.52"
+    }
+  ]
+}

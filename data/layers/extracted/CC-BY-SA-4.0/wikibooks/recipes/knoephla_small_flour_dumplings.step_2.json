@@ -1,0 +1,48 @@
+{
+  "id": "knoephla_small_flour_dumplings.step_2",
+  "source": "wikibooks_knoephla_small_flour_dumplings",
+  "sourceRef": {
+    "source": "wikibooks_knoephla_small_flour_dumplings",
+    "step": 2
+  },
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "knoephla_small_flour_dumplings_step_1",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "knoephla_small_flour_dumplings_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Roll pieces of dough between the hands to the length of a pencil (6 in / 15 cm). Snip off small pieces with a knife or scissors.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

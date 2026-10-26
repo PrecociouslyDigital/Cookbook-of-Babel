@@ -1,0 +1,53 @@
+{
+  "id": "stargazy_pie.step_7",
+  "source": "wikibooks_stargazy_pie",
+  "sourceRef": {
+    "source": "wikibooks_stargazy_pie",
+    "step": 7
+  },
+  "technique": "bake",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "stargazy_pie_step_6",
+        "amount": {
+          "qty": 32.4,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "stargazy_pie",
+      "amount": {
+        "qty": 32.4,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 200,
+    "medium": "oven_air"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Bake in a hot oven.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of bake's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

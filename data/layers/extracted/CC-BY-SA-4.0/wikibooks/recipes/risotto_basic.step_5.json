@@ -1,0 +1,58 @@
+{
+  "id": "risotto_basic.step_5",
+  "source": "wikibooks_risotto_basic",
+  "sourceRef": {
+    "source": "wikibooks_risotto_basic",
+    "step": 5
+  },
+  "technique": "simmer",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "risotto_basic_step_4",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "risotto_basic_step_5",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 90,
+    "medium": "simmering_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Taste to see if the rice is done. The rice should be soft, but have enough bite to it to feel the individual grains of rice. The choice between a liquid risotto or a firmer one is a matter of personal preference. When put on a plate, it should spread out slowly. If it sits still, it needs some more stock; if there's liquid coming from the risotto, it needs to cook down a bit more.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.52"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of simmer's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

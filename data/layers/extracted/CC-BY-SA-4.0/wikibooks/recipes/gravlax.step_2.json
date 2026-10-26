@@ -1,0 +1,48 @@
+{
+  "id": "gravlax.step_2",
+  "source": "wikibooks_gravlax",
+  "sourceRef": {
+    "source": "wikibooks_gravlax",
+    "step": 2
+  },
+  "technique": "chill",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "gravlax_step_1",
+        "amount": {
+          "qty": 800,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "gravlax_step_2",
+      "amount": {
+        "qty": 800,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 8,
+      "unit": "h"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "After deep freezing the salmon remove it from the freezer and let it thaw, preferably overnight in the refrigerator. The salmon does not have to be completely thawed for the next steps.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "'overnight' read as 8 hours"
+    }
+  ]
+}

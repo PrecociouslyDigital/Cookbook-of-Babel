@@ -1,0 +1,53 @@
+{
+  "id": "soy_milk_i.step_5",
+  "source": "wikibooks_soy_milk_i",
+  "sourceRef": {
+    "source": "wikibooks_soy_milk_i",
+    "step": 5
+  },
+  "technique": "cool",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "soy_milk_i_step_4",
+        "amount": {
+          "qty": 3625,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "soy_milk_i_step_5",
+      "amount": {
+        "qty": 3625,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "The bitter odor of the raw milk should now be gone. Remove the pot from the stove and add 1 liter of cold water.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.48"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

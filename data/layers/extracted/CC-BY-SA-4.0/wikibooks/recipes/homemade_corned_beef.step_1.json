@@ -1,0 +1,62 @@
+{
+  "id": "homemade_corned_beef.step_1",
+  "source": "wikibooks_homemade_corned_beef",
+  "sourceRef": {
+    "source": "wikibooks_homemade_corned_beef",
+    "step": 1
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "round_brisket_of_corned_beef",
+        "amount": {
+          "qty": 6,
+          "unit": "lb"
+        }
+      },
+      {
+        "ingredient": "carrot",
+        "amount": {
+          "qty": 3,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "onion",
+        "amount": {
+          "qty": 3,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "homemade_corned_beef_step_1",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Put the brisket on a bed of the carrots and onions in a large saucepan.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

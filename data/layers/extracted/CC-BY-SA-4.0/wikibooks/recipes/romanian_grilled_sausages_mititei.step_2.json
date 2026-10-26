@@ -1,0 +1,53 @@
+{
+  "id": "romanian_grilled_sausages_mititei.step_2",
+  "source": "wikibooks_romanian_grilled_sausages_mititei",
+  "sourceRef": {
+    "source": "wikibooks_romanian_grilled_sausages_mititei",
+    "step": 2
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "romanian_grilled_sausages_mititei_step_1",
+        "amount": {
+          "qty": 1.2,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "romanian_grilled_sausages_mititei_step_2",
+      "amount": {
+        "qty": 1.2,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Shape meat mixture by hand into 7–8 x 2–2.5 cm (3 x 1 inch) sausage shapes. Each should be about 50 grams.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.58"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

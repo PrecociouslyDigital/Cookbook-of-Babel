@@ -1,0 +1,48 @@
+{
+  "id": "rassolnik_russian_barley_and_kidney_soup.step_1",
+  "source": "wikibooks_rassolnik_russian_barley_and_kidney_soup",
+  "sourceRef": {
+    "source": "wikibooks_rassolnik_russian_barley_and_kidney_soup",
+    "step": 1
+  },
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "beef",
+        "amount": {
+          "qty": 500,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "rassolnik_russian_barley_and_kidney_soup_step_1",
+      "amount": {
+        "qty": 500,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Trim fat from kidneys, and cut into pieces. Rinse them well.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

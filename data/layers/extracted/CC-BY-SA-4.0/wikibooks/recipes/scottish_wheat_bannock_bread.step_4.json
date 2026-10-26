@@ -1,0 +1,53 @@
+{
+  "id": "scottish_wheat_bannock_bread.step_4",
+  "source": "wikibooks_scottish_wheat_bannock_bread",
+  "sourceRef": {
+    "source": "wikibooks_scottish_wheat_bannock_bread",
+    "step": 4
+  },
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "scottish_wheat_bannock_bread_step_3",
+        "amount": {
+          "qty": 1032,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "scottish_wheat_bannock_bread_step_4",
+      "amount": {
+        "qty": 1032,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Make dough into a disc about 3 inches thick. Cut an X shape in dough with a knife (1 cm or so deep). Transfer to an oiled or parchment-lined baking sheet.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.51"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": "chilli_crab.step_2",
+  "source": "wikibooks_chilli_crab",
+  "sourceRef": {
+    "source": "wikibooks_chilli_crab",
+    "step": 2
+  },
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "chilli_crab_step_1",
+        "amount": {
+          "qty": 1000,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "chilli_crab_step_2",
+      "amount": {
+        "qty": 1000,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Break the crab into pieces, making sure to retain the flavorful juices. First, pull off the apron/flap on the underside, then pull off and discard the top of the shell. Pull out and discard the gills. Break off and reserve the claws. Use your hands or a knife to break the body in two down the mid-line. If desired, halve each half again so you're left with four body-leg chunks. If needed, give the pieces a rinse. Use the back of a knife or a specialized cracker to slightly crack the shell of the legs and claws for easier meat extraction when eating.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.54"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

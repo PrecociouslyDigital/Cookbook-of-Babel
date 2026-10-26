@@ -1,0 +1,53 @@
+{
+  "id": "biltong_zambian_dried_and_salted_meat.step_6",
+  "source": "wikibooks_biltong_zambian_dried_and_salted_meat",
+  "sourceRef": {
+    "source": "wikibooks_biltong_zambian_dried_and_salted_meat",
+    "step": 6
+  },
+  "technique": "age",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "biltong_zambian_dried_and_salted_meat_step_5",
+        "amount": {
+          "qty": 662.6,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "biltong_zambian_dried_and_salted_meat",
+      "amount": {
+        "qty": 662.6,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Once the biltong is dried to your preference, store it in an airtight container to maintain its freshness.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    },
+    {
+      "field": "inputs",
+      "kind": "missing",
+      "note": "no step uses '¼ cup water' (p=1.0)"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "id": "san_francisco_style_scallop_ceviche.step_4",
+  "source": "wikibooks_san_francisco_style_scallop_ceviche",
+  "sourceRef": {
+    "source": "wikibooks_san_francisco_style_scallop_ceviche",
+    "step": 4
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "san_francisco_style_scallop_ceviche_step_3",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "avocado",
+        "amount": {
+          "qty": 1,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "san_francisco_style_scallop_ceviche",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "To serve, spoon the sauce onto individual plates, drain the scallops, and place them on the sauce. Garnish with slices of avocado.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

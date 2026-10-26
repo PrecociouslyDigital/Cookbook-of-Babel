@@ -1,0 +1,48 @@
+{
+  "id": "beef_yakiniku_pizza.step_8",
+  "source": "wikibooks_beef_yakiniku_pizza",
+  "sourceRef": {
+    "source": "wikibooks_beef_yakiniku_pizza",
+    "step": 8
+  },
+  "technique": "bake",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "beef_yakiniku_pizza_step_7",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "beef_yakiniku_pizza",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 220,
+    "medium": "oven_air"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 20,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Bake pizza in the oven at 220°C for 20 minutes.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "missing",
+      "note": "no step uses '5 tbsp tomato sauce' (p=0.93)"
+    }
+  ]
+}

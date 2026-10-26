@@ -1,0 +1,48 @@
+{
+  "id": "corned_beef_pie.step_4",
+  "source": "wikibooks_corned_beef_pie",
+  "sourceRef": {
+    "source": "wikibooks_corned_beef_pie",
+    "step": 4
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "corned_beef_pie_step_3",
+        "amount": {
+          "qty": 510.3,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "corned_beef_pie_step_4",
+      "amount": {
+        "qty": 510.3,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Roll out half the dough and use it to line a large flan or quiche dish.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

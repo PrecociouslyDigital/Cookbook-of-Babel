@@ -1,0 +1,60 @@
+{
+  "id": "gambian_baobab_juice_bouye.step_1",
+  "source": "wikibooks_gambian_baobab_juice_bouye",
+  "sourceRef": {
+    "source": "wikibooks_gambian_baobab_juice_bouye",
+    "step": 1
+  },
+  "technique": "blend",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "baobab",
+        "amount": {
+          "qty": 1,
+          "unit": "cup"
+        }
+      },
+      {
+        "ingredient": "water",
+        "amount": {
+          "qty": 4,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "gambian_baobab_juice_bouye_step_1",
+      "amount": {
+        "qty": 1183,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "In a blender, combine the baobab fruit pulp and water. Blend on high speed until the mixture is smooth and well-combined.",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for baobab"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

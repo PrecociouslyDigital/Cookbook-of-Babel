@@ -1,0 +1,60 @@
+{
+  "id": "cheese_tart.step_2",
+  "source": "wikibooks_cheese_tart",
+  "sourceRef": {
+    "source": "wikibooks_cheese_tart",
+    "step": 2
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "cheese_tart_step_1",
+        "amount": {
+          "qty": 515,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "classic_american_apple_pie",
+        "amount": {
+          "qty": 0.5,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "cheese_tart_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Roll out dough into a rough circle. Place dough in a 10-inch tart pan to make a tart shell, and remove the excess dough from the edges.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'½ dough from Classic American Apple Pie, made with mascarpone cheese instead of applejack': 'dough' read as pieces"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

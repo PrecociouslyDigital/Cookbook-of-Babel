@@ -1,0 +1,63 @@
+{
+  "id": "bread_filled_with_potato_curry_pani_puri.step_5",
+  "source": "wikibooks_bread_filled_with_potato_curry_pani_puri",
+  "sourceRef": {
+    "source": "wikibooks_bread_filled_with_potato_curry_pani_puri",
+    "step": 5
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "bread_filled_with_potato_curry_pani_puri_step_4",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "bread_filled_with_potato_curry_pani_puri",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Garnish with chopped coriander and serve.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    },
+    {
+      "field": "inputs",
+      "kind": "missing",
+      "note": "no step uses '1 pinch of hing' (p=0.8)"
+    },
+    {
+      "field": "inputs",
+      "kind": "missing",
+      "note": "no step uses '½ tablespoon of black pepper' (p=0.87)"
+    },
+    {
+      "field": "inputs",
+      "kind": "missing",
+      "note": "no step uses '50 grams boondi' (p=0.75)"
+    }
+  ]
+}

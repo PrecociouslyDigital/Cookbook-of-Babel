@@ -1,0 +1,48 @@
+{
+  "id": "fruit_ice_pops.step_4",
+  "source": "wikibooks_fruit_ice_pops",
+  "sourceRef": {
+    "source": "wikibooks_fruit_ice_pops",
+    "step": 4
+  },
+  "technique": "separate",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "fruit_ice_pops_step_3",
+        "amount": {
+          "qty": 1.6,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "fruit_ice_pops",
+      "amount": {
+        "qty": 1.6,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Unmold the ice pops, and serve immediately",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

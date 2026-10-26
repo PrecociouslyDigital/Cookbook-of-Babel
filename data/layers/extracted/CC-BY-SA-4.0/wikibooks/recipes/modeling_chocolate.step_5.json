@@ -1,0 +1,48 @@
+{
+  "id": "modeling_chocolate.step_5",
+  "source": "wikibooks_modeling_chocolate",
+  "sourceRef": {
+    "source": "wikibooks_modeling_chocolate",
+    "step": 5
+  },
+  "technique": "knead",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "modeling_chocolate_step_4",
+        "amount": {
+          "qty": 450.3,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "modeling_chocolate",
+      "amount": {
+        "qty": 450.3,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Knead the modeling chocolate until pliable and smooth.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": "akamu_nigerian_pudding.step_2",
+  "source": "wikibooks_akamu_nigerian_pudding",
+  "sourceRef": {
+    "source": "wikibooks_akamu_nigerian_pudding",
+    "step": 2
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "akamu_nigerian_pudding_step_1",
+        "amount": {
+          "qty": 0.3,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "akamu_nigerian_pudding_step_2",
+      "amount": {
+        "qty": 0.3,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Crush the ogi lumps with a spoon into very little pieces. Mix in small amounts of cold water until the mixture is smooth and has the consistency of evaporated milk.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.51"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

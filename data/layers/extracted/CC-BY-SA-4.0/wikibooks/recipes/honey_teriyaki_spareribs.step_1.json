@@ -1,0 +1,60 @@
+{
+  "id": "honey_teriyaki_spareribs.step_1",
+  "source": "wikibooks_honey_teriyaki_spareribs",
+  "sourceRef": {
+    "source": "wikibooks_honey_teriyaki_spareribs",
+    "step": 1
+  },
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "pork",
+        "amount": {
+          "qty": 1,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "grill_seasoning",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "honey_teriyaki_spareribs_step_1",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "h"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Shake the grill seasoning on ribs and gently massage into meat. Refrigerate for at least 1 hour.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'1 slab pork spareribs': 'slab' read as pieces"
+    },
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Grill Seasoning for Chops, as needed': no quantity given; assumed a pinch"
+    }
+  ]
+}

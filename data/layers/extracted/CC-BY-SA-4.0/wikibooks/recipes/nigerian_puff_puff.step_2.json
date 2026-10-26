@@ -1,0 +1,53 @@
+{
+  "id": "nigerian_puff_puff.step_2",
+  "source": "wikibooks_nigerian_puff_puff",
+  "sourceRef": {
+    "source": "wikibooks_nigerian_puff_puff",
+    "step": 2
+  },
+  "technique": "dissolve",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "nigerian_puff_puff_step_1",
+        "amount": {
+          "qty": 447.7,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "nigerian_puff_puff_step_2",
+      "amount": {
+        "qty": 447.7,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "If using fresh or active-dry yeast, dissolve it in a small amount of warm water with a pinch of sugar. Let it get foamy before mixing it into the flour. If using instant yeast, mix it directly into the flour mixture.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.54"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

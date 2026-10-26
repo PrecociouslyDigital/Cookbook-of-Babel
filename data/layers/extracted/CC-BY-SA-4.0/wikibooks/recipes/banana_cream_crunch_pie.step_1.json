@@ -1,0 +1,73 @@
+{
+  "id": "banana_cream_crunch_pie.step_1",
+  "source": "wikibooks_banana_cream_crunch_pie",
+  "sourceRef": {
+    "source": "wikibooks_banana_cream_crunch_pie",
+    "step": 1
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "pudding_mix",
+        "amount": {
+          "qty": 3.4,
+          "unit": "oz"
+        }
+      },
+      {
+        "ingredient": "milk",
+        "amount": {
+          "qty": 1,
+          "unit": "cup"
+        }
+      },
+      {
+        "min": 0,
+        "max": 1,
+        "of": [
+          {
+            "ingredient": "coffee_liqueur",
+            "amount": {
+              "qty": 5,
+              "unit": "tbsp"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "banana_cream_crunch_pie_step_1",
+      "amount": {
+        "qty": 414,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Combine pudding mix, milk, and 4 tablespoons liqueur in a medium bowl.",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for coffee_liqueur"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

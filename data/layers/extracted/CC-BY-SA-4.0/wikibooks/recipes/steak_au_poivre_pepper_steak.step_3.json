@@ -1,0 +1,70 @@
+{
+  "id": "steak_au_poivre_pepper_steak.step_3",
+  "source": "wikibooks_steak_au_poivre_pepper_steak",
+  "sourceRef": {
+    "source": "wikibooks_steak_au_poivre_pepper_steak",
+    "step": 3
+  },
+  "technique": "heat",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "steak_au_poivre_pepper_steak_step_2",
+        "amount": {
+          "qty": 892.8,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "cognac",
+        "amount": {
+          "qty": 0.3333333333333333,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "steak_au_poivre_pepper_steak_step_3",
+      "amount": {
+        "qty": 971.7,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 180,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Raise heat in pan to high. Turn off the heat, then deglaze pan with cognac. Carefully ignite with a firestick or kitchen lighter, then swirl the pan until flames die.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.51"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for cognac"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 180.0 °C for pan_contact"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

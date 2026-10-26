@@ -1,0 +1,48 @@
+{
+  "id": "strawberry_frozen_yogurt.step_5",
+  "source": "wikibooks_strawberry_frozen_yogurt",
+  "sourceRef": {
+    "source": "wikibooks_strawberry_frozen_yogurt",
+    "step": 5
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "strawberry_frozen_yogurt_step_4",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "strawberry_frozen_yogurt_step_5",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Remove any remaining seeds from the lemon halves and add them, with the rind, to the strawberry mixture.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

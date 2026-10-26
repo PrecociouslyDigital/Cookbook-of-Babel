@@ -1,0 +1,53 @@
+{
+  "id": "zupa_ogorkowa_polish_cucumber_soup.step_3",
+  "source": "wikibooks_zupa_ogorkowa_polish_cucumber_soup",
+  "sourceRef": {
+    "source": "wikibooks_zupa_ogorkowa_polish_cucumber_soup",
+    "step": 3
+  },
+  "technique": "boil",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "zupa_ogorkowa_polish_cucumber_soup_step_2",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "zupa_ogorkowa_polish_cucumber_soup_step_3",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 100,
+    "medium": "boiling_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 11,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Take out the leek, and add the potatoes to the pot. Boil them for 10–12 minutes and make sure the potatoes are cooked through.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.51"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of boil's typical range"
+    }
+  ]
+}

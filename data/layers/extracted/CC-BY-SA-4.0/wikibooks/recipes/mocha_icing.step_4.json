@@ -1,0 +1,53 @@
+{
+  "id": "mocha_icing.step_4",
+  "source": "wikibooks_mocha_icing",
+  "sourceRef": {
+    "source": "wikibooks_mocha_icing",
+    "step": 4
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "mocha_icing_step_3",
+        "amount": {
+          "qty": 609.2,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "mocha_icing_step_4",
+      "amount": {
+        "qty": 609.2,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Stop at spreading consistency even if you have not used all the sugar.",
+  "issues": [
+    {
+      "field": "sourceRef",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.57"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "id": "san_francisco_sourdough_bread.step_7",
+  "source": "wikibooks_san_francisco_sourdough_bread",
+  "sourceRef": {
+    "source": "wikibooks_san_francisco_sourdough_bread",
+    "step": 7
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "san_francisco_sourdough_bread_step_6",
+        "amount": {
+          "qty": 1049,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "sourdough_starter",
+        "amount": {
+          "qty": 1,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "san_francisco_sourdough_bread_step_7",
+      "amount": {
+        "qty": 1285.6,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "In a bowl, combine the rest of the water with the sourdough starter.",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for sourdough_starter"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

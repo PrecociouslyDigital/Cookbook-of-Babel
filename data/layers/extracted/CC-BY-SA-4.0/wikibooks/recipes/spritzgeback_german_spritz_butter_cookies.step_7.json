@@ -1,0 +1,53 @@
+{
+  "id": "spritzgeback_german_spritz_butter_cookies.step_7",
+  "source": "wikibooks_spritzgeback_german_spritz_butter_cookies",
+  "sourceRef": {
+    "source": "wikibooks_spritzgeback_german_spritz_butter_cookies",
+    "step": 7
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "spritzgeback_german_spritz_butter_cookies_step_6",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "spritzgeback_german_spritz_butter_cookies_step_7",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Shape cookies onto a greased baking sheet.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.55"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

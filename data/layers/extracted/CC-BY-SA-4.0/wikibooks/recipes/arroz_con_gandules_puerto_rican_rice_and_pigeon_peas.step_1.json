@@ -1,0 +1,48 @@
+{
+  "id": "arroz_con_gandules_puerto_rican_rice_and_pigeon_peas.step_1",
+  "source": "wikibooks_arroz_con_gandules_puerto_rican_rice_and_pigeon_peas",
+  "sourceRef": {
+    "source": "wikibooks_arroz_con_gandules_puerto_rican_rice_and_pigeon_peas",
+    "step": 1
+  },
+  "technique": "blend",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "onion",
+        "amount": {
+          "qty": 2,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "arroz_con_gandules_puerto_rican_rice_and_pigeon_peas_step_1",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Add chopped onions to blender, and blend until liquefied.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

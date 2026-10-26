@@ -1,0 +1,48 @@
+{
+  "id": "katchi_biryani.step_4",
+  "source": "wikibooks_katchi_biryani",
+  "sourceRef": {
+    "source": "wikibooks_katchi_biryani",
+    "step": 4
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "katchi_biryani_step_3",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "katchi_biryani_step_4",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Add a very thin layer of rice on the bottom of the pot to prevent the meat from sticking. Add the marinated chicken on top. Top the chicken with the remaining drained rice.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "french_fries_belgian.step_3",
+  "source": "wikibooks_french_fries_belgian",
+  "sourceRef": {
+    "source": "wikibooks_french_fries_belgian",
+    "step": 3
+  },
+  "technique": "fry",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "french_fries_belgian_step_2",
+        "amount": {
+          "qty": 0.6,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "french_fries_belgian_step_3",
+      "amount": {
+        "qty": 0.6,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 185,
+    "medium": "frying_oil"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 3.5,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Deep-fry for about 2–5 minutes in 175–195 °C fat, depending on the initial temperature of the fries. Work in small enough batches to keep the oil at 125–160 °C for the first 30 seconds of frying. You want to have enough cooking time (7–16 minutes) without allowing the fries to become too greasy.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "the step names several durations; used the first"
+    }
+  ]
+}

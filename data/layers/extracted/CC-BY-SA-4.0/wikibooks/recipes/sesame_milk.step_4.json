@@ -1,0 +1,48 @@
+{
+  "id": "sesame_milk.step_4",
+  "source": "wikibooks_sesame_milk",
+  "sourceRef": {
+    "source": "wikibooks_sesame_milk",
+    "step": 4
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "sesame_milk_step_3",
+        "amount": {
+          "qty": 602.3,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "sesame_milk",
+      "amount": {
+        "qty": 602.3,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Stir before serving.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

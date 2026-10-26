@@ -1,0 +1,48 @@
+{
+  "id": "bacon_and_egg_pie.step_4",
+  "source": "wikibooks_bacon_and_egg_pie",
+  "sourceRef": {
+    "source": "wikibooks_bacon_and_egg_pie",
+    "step": 4
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "bacon_and_egg_pie_step_3",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "bacon_and_egg_pie_step_4",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Pour the egg mixture into the lined dish. Moisten the edge of the pastry then cover the dish with the second portion of rolled-out pastry.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

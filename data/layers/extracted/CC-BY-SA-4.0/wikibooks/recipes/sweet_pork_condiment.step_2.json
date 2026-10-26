@@ -1,0 +1,53 @@
+{
+  "id": "sweet_pork_condiment.step_2",
+  "source": "wikibooks_sweet_pork_condiment",
+  "sourceRef": {
+    "source": "wikibooks_sweet_pork_condiment",
+    "step": 2
+  },
+  "technique": "steam",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "sweet_pork_condiment_step_1",
+        "amount": {
+          "qty": 483.1,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "sweet_pork_condiment_step_2",
+      "amount": {
+        "qty": 483.1,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 100,
+    "medium": "steam"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 20,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Steam the pork over boiling water for about 20 minutes. After the steaming is finished, let the pork rest for about 10 minutes.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of steam's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "the step names several durations; used the first"
+    }
+  ]
+}

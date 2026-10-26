@@ -1,0 +1,66 @@
+{
+  "id": "mexican_chocolate_cake_with_mocha_buttercream.step_17",
+  "source": "wikibooks_mexican_chocolate_cake_with_mocha_buttercream",
+  "sourceRef": {
+    "source": "wikibooks_mexican_chocolate_cake_with_mocha_buttercream",
+    "step": 17
+  },
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "mexican_chocolate_cake_with_mocha_buttercream_step_16",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "min": 0,
+        "max": 1,
+        "of": [
+          {
+            "ingredient": "chocolate",
+            "amount": {
+              "qty": 1,
+              "unit": "pinch"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "mexican_chocolate_cake_with_mocha_buttercream",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Artfully sprinkle the top with extra cinnamon, cocoa, and confectioner's sugar, if desired.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Cinnamon, unsweetened cocoa, and confectioner's sugar, optional toppings': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

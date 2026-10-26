@@ -1,0 +1,55 @@
+{
+  "id": "mhadjeb_algerian_stuffed_flatbread.step_4",
+  "source": "wikibooks_mhadjeb_algerian_stuffed_flatbread",
+  "sourceRef": {
+    "source": "wikibooks_mhadjeb_algerian_stuffed_flatbread",
+    "step": 4
+  },
+  "technique": "chop",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "mhadjeb_algerian_stuffed_flatbread_step_3",
+        "amount": {
+          "qty": 300.3,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "tomato",
+        "amount": {
+          "qty": 2,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "mhadjeb_algerian_stuffed_flatbread_step_4",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Peel the tomatoes, then dice them into small pieces.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "pita.step_3",
+  "source": "wikibooks_pita",
+  "sourceRef": {
+    "source": "wikibooks_pita",
+    "step": 3
+  },
+  "technique": "separate",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "pita_step_2",
+        "amount": {
+          "qty": 797.9,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "pita_step_3",
+      "amount": {
+        "qty": 797.9,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Divide the risen dough into 8 pieces and shape them into balls.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

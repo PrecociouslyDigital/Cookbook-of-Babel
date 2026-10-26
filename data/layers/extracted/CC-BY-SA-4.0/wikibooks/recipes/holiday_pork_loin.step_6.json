@@ -1,0 +1,53 @@
+{
+  "id": "holiday_pork_loin.step_6",
+  "source": "wikibooks_holiday_pork_loin",
+  "sourceRef": {
+    "source": "wikibooks_holiday_pork_loin",
+    "step": 6
+  },
+  "technique": "cool",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "holiday_pork_loin_step_5",
+        "amount": {
+          "qty": 3413.6,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "holiday_pork_loin",
+      "amount": {
+        "qty": 3413.6,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 20,
+    "medium": "still_air"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 10,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Remove to a plate and let rest 10 minutes before carving. Serve warm.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.46"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 20.0 °C for still_air"
+    }
+  ]
+}

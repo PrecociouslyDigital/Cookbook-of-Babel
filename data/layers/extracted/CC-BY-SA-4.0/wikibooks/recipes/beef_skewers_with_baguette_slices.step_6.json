@@ -1,0 +1,48 @@
+{
+  "id": "beef_skewers_with_baguette_slices.step_6",
+  "source": "wikibooks_beef_skewers_with_baguette_slices",
+  "sourceRef": {
+    "source": "wikibooks_beef_skewers_with_baguette_slices",
+    "step": 6
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "beef_skewers_with_baguette_slices_step_5",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "beef_skewers_with_baguette_slices_step_6",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Form small oblong balls of the mixture and thread on wooden skewers.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

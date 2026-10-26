@@ -1,0 +1,48 @@
+{
+  "id": "corn_on_the_cob_with_husks.step_2",
+  "source": "wikibooks_corn_on_the_cob_with_husks",
+  "sourceRef": {
+    "source": "wikibooks_corn_on_the_cob_with_husks",
+    "step": 2
+  },
+  "technique": "chill",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "corn_on_the_cob_with_husks_step_1",
+        "amount": {
+          "qty": 0.3,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "corn_on_the_cob_with_husks_step_2",
+      "amount": {
+        "qty": 0.3,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 0.5,
+      "unit": "h"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Replace husks and soak ears in cold water for ½ hour.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.46"
+    }
+  ]
+}

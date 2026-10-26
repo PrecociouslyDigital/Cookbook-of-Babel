@@ -1,0 +1,48 @@
+{
+  "id": "rice_and_lentils_mejadra.step_9",
+  "source": "wikibooks_rice_and_lentils_mejadra",
+  "sourceRef": {
+    "source": "wikibooks_rice_and_lentils_mejadra",
+    "step": 9
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "rice_and_lentils_mejadra_step_8",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "rice_and_lentils_mejadra",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Mix the lentils and rice, and top with the fried onion. Use 2 parts lentils to 1 part rice for a moist consistency.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

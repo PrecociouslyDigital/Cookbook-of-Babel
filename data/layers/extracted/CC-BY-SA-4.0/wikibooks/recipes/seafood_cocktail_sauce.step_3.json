@@ -1,0 +1,65 @@
+{
+  "id": "seafood_cocktail_sauce.step_3",
+  "source": "wikibooks_seafood_cocktail_sauce",
+  "sourceRef": {
+    "source": "wikibooks_seafood_cocktail_sauce",
+    "step": 3
+  },
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "seafood_cocktail_sauce_step_2",
+        "amount": {
+          "qty": 257.9,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "horseradish",
+        "amount": {
+          "qty": 2.5,
+          "unit": "tbsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "seafood_cocktail_sauce_step_3",
+      "amount": {
+        "qty": 294.9,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Add a tablespoon at a time to get it to the taste you prefer. If your grated horseradish is fresh (a fresh bottle from the store), the recipe amount may be too much for your liking; if it is older, the recipe amount may not be enough.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.54"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for horseradish"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

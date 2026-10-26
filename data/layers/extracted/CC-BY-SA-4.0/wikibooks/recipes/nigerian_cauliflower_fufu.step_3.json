@@ -1,0 +1,48 @@
+{
+  "id": "nigerian_cauliflower_fufu.step_3",
+  "source": "wikibooks_nigerian_cauliflower_fufu",
+  "sourceRef": {
+    "source": "wikibooks_nigerian_cauliflower_fufu",
+    "step": 3
+  },
+  "technique": "strain",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "nigerian_cauliflower_fufu_step_2",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "nigerian_cauliflower_fufu_step_3",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Squeeze the sieve cloth to drain more water until relatively dry and a dough is formed.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

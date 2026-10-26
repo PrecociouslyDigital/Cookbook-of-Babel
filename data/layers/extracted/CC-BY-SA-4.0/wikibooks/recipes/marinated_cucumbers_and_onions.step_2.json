@@ -1,0 +1,55 @@
+{
+  "id": "marinated_cucumbers_and_onions.step_2",
+  "source": "wikibooks_marinated_cucumbers_and_onions",
+  "sourceRef": {
+    "source": "wikibooks_marinated_cucumbers_and_onions",
+    "step": 2
+  },
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "marinated_cucumbers_and_onions_step_1",
+        "amount": {
+          "qty": 492.4,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "cucumber",
+        "amount": {
+          "qty": 2,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "marinated_cucumbers_and_onions_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Trim the ends from the cucumbers, peel them, and slice them.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

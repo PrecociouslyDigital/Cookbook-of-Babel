@@ -1,0 +1,48 @@
+{
+  "id": "falafel.step_1",
+  "source": "wikibooks_falafel",
+  "sourceRef": {
+    "source": "wikibooks_falafel",
+    "step": 1
+  },
+  "technique": "rinse",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "chickpea",
+        "amount": {
+          "qty": 480,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "falafel_step_1",
+      "amount": {
+        "qty": 480,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "The night before, place the chickpeas in a bowl and cover with water (they will expand, so cover with at least a couple of inches). Drain, rinse, and dry before using. This will be about 4 cups' worth, all of which gets used.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

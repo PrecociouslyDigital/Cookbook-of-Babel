@@ -1,0 +1,53 @@
+{
+  "id": "roasted_oysters_with_madeira.step_2",
+  "source": "wikibooks_roasted_oysters_with_madeira",
+  "sourceRef": {
+    "source": "wikibooks_roasted_oysters_with_madeira",
+    "step": 2
+  },
+  "technique": "roast",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "roasted_oysters_with_madeira_step_1",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "roasted_oysters_with_madeira_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 195,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Roast the oysters in their shells in a large pot over medium high heat until they are done and dry, but not scorched.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of roast's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

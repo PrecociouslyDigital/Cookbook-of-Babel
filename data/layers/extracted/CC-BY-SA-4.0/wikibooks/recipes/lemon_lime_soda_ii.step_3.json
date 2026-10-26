@@ -1,0 +1,74 @@
+{
+  "id": "lemon_lime_soda_ii.step_3",
+  "source": "wikibooks_lemon_lime_soda_ii",
+  "sourceRef": {
+    "source": "wikibooks_lemon_lime_soda_ii",
+    "step": 3
+  },
+  "technique": "dissolve",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "lemon_lime_soda_ii_step_2",
+        "amount": {
+          "qty": 5.2,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "citric_acid",
+        "amount": {
+          "qty": 1,
+          "unit": "tsp"
+        }
+      },
+      {
+        "ingredient": "water",
+        "amount": {
+          "qty": 4,
+          "unit": "tsp"
+        }
+      },
+      {
+        "ingredient": "white_sugar",
+        "amount": {
+          "qty": 1.5,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "lemon_lime_soda_ii_step_3",
+      "amount": {
+        "qty": 331.5,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Put the citric acid, water, and white sugar into the container. Stir well.",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for citric_acid"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

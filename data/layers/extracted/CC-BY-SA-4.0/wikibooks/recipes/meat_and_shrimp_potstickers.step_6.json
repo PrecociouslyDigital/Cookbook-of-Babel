@@ -1,0 +1,48 @@
+{
+  "id": "meat_and_shrimp_potstickers.step_6",
+  "source": "wikibooks_meat_and_shrimp_potstickers",
+  "sourceRef": {
+    "source": "wikibooks_meat_and_shrimp_potstickers",
+    "step": 6
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "meat_and_shrimp_potstickers_step_5",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "meat_and_shrimp_potstickers_step_6",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Fold the gyoza wrapper over the filling and pinch the edges to seal it shut.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

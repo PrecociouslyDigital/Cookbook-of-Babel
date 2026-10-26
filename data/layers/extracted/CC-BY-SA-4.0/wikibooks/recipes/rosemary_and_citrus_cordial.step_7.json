@@ -1,0 +1,48 @@
+{
+  "id": "rosemary_and_citrus_cordial.step_7",
+  "source": "wikibooks_rosemary_and_citrus_cordial",
+  "sourceRef": {
+    "source": "wikibooks_rosemary_and_citrus_cordial",
+    "step": 7
+  },
+  "technique": "strain",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "rosemary_and_citrus_cordial_step_6",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "rosemary_and_citrus_cordial_step_7",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Strain the cordial syrup through a sieve into a bowl or jug. Transfer to a bottle.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

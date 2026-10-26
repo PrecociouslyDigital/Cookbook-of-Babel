@@ -1,0 +1,55 @@
+{
+  "id": "mini_three_cheese_english_muffin_pizzas.step_4",
+  "source": "wikibooks_mini_three_cheese_english_muffin_pizzas",
+  "sourceRef": {
+    "source": "wikibooks_mini_three_cheese_english_muffin_pizzas",
+    "step": 4
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "mini_three_cheese_english_muffin_pizzas_step_3",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "cheddar_cheese",
+        "amount": {
+          "qty": 6,
+          "unit": "oz"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "mini_three_cheese_english_muffin_pizzas_step_4",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Place 1½ tablespoons of shredded cheddar cheese on each muffin.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

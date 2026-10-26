@@ -1,0 +1,48 @@
+{
+  "id": "butterbeer.step_2",
+  "source": "wikibooks_butterbeer",
+  "sourceRef": {
+    "source": "wikibooks_butterbeer",
+    "step": 2
+  },
+  "technique": "separate",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "butterbeer_step_1",
+        "amount": {
+          "qty": 1572.3,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "butterbeer_step_2",
+      "amount": {
+        "qty": 1572.3,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Divide between mugs.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

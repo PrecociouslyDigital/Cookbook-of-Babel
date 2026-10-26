@@ -1,0 +1,53 @@
+{
+  "id": "smoked_eulachons.step_7",
+  "source": "wikibooks_smoked_eulachons",
+  "sourceRef": {
+    "source": "wikibooks_smoked_eulachons",
+    "step": 7
+  },
+  "technique": "evaporate",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "smoked_eulachons_step_6",
+        "amount": {
+          "qty": 0.7,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "smoked_eulachons",
+      "amount": {
+        "qty": 0.7,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 100,
+    "medium": "convection_air"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 4,
+      "unit": "d"
+    }
+  },
+  "stateNote": "Smoke the eulachon for 2–6 days. Smoke longer to make drier fish.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.48"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of evaporate's typical range"
+    }
+  ]
+}

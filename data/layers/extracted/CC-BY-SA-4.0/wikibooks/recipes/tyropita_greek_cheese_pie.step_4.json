@@ -1,0 +1,72 @@
+{
+  "id": "tyropita_greek_cheese_pie.step_4",
+  "source": "wikibooks_tyropita_greek_cheese_pie",
+  "sourceRef": {
+    "source": "wikibooks_tyropita_greek_cheese_pie",
+    "step": 4
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "tyropita_greek_cheese_pie_step_3",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "phyllo_dough",
+        "amount": {
+          "qty": 0.75,
+          "unit": "lb"
+        }
+      },
+      {
+        "ingredient": "butter",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "tyropita_greek_cheese_pie_step_4",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Butter a pan about 2 inches (5 cm) smaller than the phyllo sheets. Use a little more than half of the phyllo sheets to make the bottom layer of the pie. Brush each with melted butter and place it in the pan letting the edges hang over the pan.",
+  "issues": [
+    {
+      "field": "sourceRef",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.55"
+    },
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Butter, melted': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

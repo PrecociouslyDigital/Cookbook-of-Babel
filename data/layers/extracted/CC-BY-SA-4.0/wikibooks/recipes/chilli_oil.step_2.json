@@ -1,0 +1,65 @@
+{
+  "id": "chilli_oil.step_2",
+  "source": "wikibooks_chilli_oil",
+  "sourceRef": {
+    "source": "wikibooks_chilli_oil",
+    "step": 2
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "chilli_oil_step_1",
+        "amount": {
+          "qty": 53,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "peanut_oil",
+        "amount": {
+          "qty": 0.5,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "chilli_oil_step_2",
+      "amount": {
+        "qty": 171.3,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Mix 1 tablespoon of the oil into the chile flake/salt mixture. This will prevent the chile from scorching when hot oil is added later.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.55"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for peanut_oil"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

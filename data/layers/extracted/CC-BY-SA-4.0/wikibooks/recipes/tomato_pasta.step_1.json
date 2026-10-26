@@ -1,0 +1,60 @@
+{
+  "id": "tomato_pasta.step_1",
+  "source": "wikibooks_tomato_pasta",
+  "sourceRef": {
+    "source": "wikibooks_tomato_pasta",
+    "step": 1
+  },
+  "technique": "boil",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "pasta",
+        "amount": {
+          "qty": 300,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "salt",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "tomato_pasta_step_1",
+      "amount": {
+        "qty": 300.4,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 100,
+    "medium": "boiling_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 11,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Cook dry pasta in plenty of salted boiling water for 10–12 minutes. Proper cooking time should be indicated on the pasta box itself. If it's not, taste one pasta piece from time to time, and stop the cooking when it's still crispy but not tough (it should be al dente). Prepare the sauce while the pasta is cooking:",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Salt, to taste': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of boil's typical range"
+    }
+  ]
+}

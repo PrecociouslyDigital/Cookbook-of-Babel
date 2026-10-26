@@ -1,0 +1,48 @@
+{
+  "id": "traditional_finnish_lemon_mead_sima.step_4",
+  "source": "wikibooks_traditional_finnish_lemon_mead_sima",
+  "sourceRef": {
+    "source": "wikibooks_traditional_finnish_lemon_mead_sima",
+    "step": 4
+  },
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "traditional_finnish_lemon_mead_sima_step_3",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "traditional_finnish_lemon_mead_sima_step_4",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Slice the lemons and remove the white pith from around the slices. Add the slices into the container.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

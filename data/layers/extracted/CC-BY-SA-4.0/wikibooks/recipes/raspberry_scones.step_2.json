@@ -1,0 +1,73 @@
+{
+  "id": "raspberry_scones.step_2",
+  "source": "wikibooks_raspberry_scones",
+  "sourceRef": {
+    "source": "wikibooks_raspberry_scones",
+    "step": 2
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "raspberry_scones_step_1",
+        "amount": {
+          "qty": 356.5,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "plus_teaspoons_pink_lemonade",
+        "amount": {
+          "qty": 0.5,
+          "unit": "cup"
+        }
+      },
+      {
+        "min": 0,
+        "max": 1,
+        "of": [
+          {
+            "ingredient": "cream",
+            "amount": {
+              "qty": 0.6666666666666666,
+              "unit": "cup"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "raspberry_scones_step_2",
+      "amount": {
+        "qty": 632.5,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Mix ½ cup (125 ml) lemonade and ½ cup (125 ml) heavy cream in a jug.",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for plus_teaspoons_pink_lemonade, cream"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

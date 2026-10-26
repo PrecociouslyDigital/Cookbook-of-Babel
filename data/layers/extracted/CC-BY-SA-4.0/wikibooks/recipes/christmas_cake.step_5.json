@@ -1,0 +1,67 @@
+{
+  "id": "christmas_cake.step_5",
+  "source": "wikibooks_christmas_cake",
+  "sourceRef": {
+    "source": "wikibooks_christmas_cake",
+    "step": 5
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "christmas_cake_step_4",
+        "amount": {
+          "qty": 2750,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "almond",
+        "amount": {
+          "qty": 100,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "treacle",
+        "amount": {
+          "qty": 2,
+          "unit": "tbsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "christmas_cake_step_5",
+      "amount": {
+        "qty": 2879.6,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Add the almonds and black treacle, and mix further.",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for treacle"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

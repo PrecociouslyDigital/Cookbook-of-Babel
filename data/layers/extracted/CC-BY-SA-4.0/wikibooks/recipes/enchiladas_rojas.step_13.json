@@ -1,0 +1,60 @@
+{
+  "id": "enchiladas_rojas.step_13",
+  "source": "wikibooks_enchiladas_rojas",
+  "sourceRef": {
+    "source": "wikibooks_enchiladas_rojas",
+    "step": 13
+  },
+  "technique": "pan_fry",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "enchiladas_rojas_step_11",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "tortilla",
+        "amount": {
+          "qty": 12,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "enchiladas_rojas_step_13",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 185,
+    "medium": "frying_oil"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "In a heavy frying pan, fry the tortillas, one at a time, in very hot olive oil as follows: Dip a tortilla in the tomato sauce. Fry for a minute each side in the pan. Remove the tortilla to a warm plate and place about ¼ cup of sausage mixture in the centre. Roll up the tortilla with the filling inside.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.37"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of pan_fry's typical range"
+    }
+  ]
+}

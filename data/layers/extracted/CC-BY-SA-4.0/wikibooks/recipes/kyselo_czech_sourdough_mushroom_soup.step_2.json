@@ -1,0 +1,62 @@
+{
+  "id": "kyselo_czech_sourdough_mushroom_soup.step_2",
+  "source": "wikibooks_kyselo_czech_sourdough_mushroom_soup",
+  "sourceRef": {
+    "source": "wikibooks_kyselo_czech_sourdough_mushroom_soup",
+    "step": 2
+  },
+  "technique": "ferment",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "kyselo_czech_sourdough_mushroom_soup_step_1",
+        "amount": {
+          "qty": 0.3,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "sourdough_starter",
+        "amount": {
+          "qty": 100,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "water",
+        "amount": {
+          "qty": 1250,
+          "unit": "ml"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "kyselo_czech_sourdough_mushroom_soup_step_2",
+      "amount": {
+        "qty": 1350.3,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 30,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Put 250 ml tepid water into a bowl. Stir in the sourdough starter. Cover with a clean cloth, and let rest at room temperature for 30 minutes to 3 hours.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "the step names several durations; used the first"
+    }
+  ]
+}

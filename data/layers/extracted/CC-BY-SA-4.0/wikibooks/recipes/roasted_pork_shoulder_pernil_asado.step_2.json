@@ -1,0 +1,48 @@
+{
+  "id": "roasted_pork_shoulder_pernil_asado.step_2",
+  "source": "wikibooks_roasted_pork_shoulder_pernil_asado",
+  "sourceRef": {
+    "source": "wikibooks_roasted_pork_shoulder_pernil_asado",
+    "step": 2
+  },
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "roasted_pork_shoulder_pernil_asado_step_1",
+        "amount": {
+          "qty": 2500,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "roasted_pork_shoulder_pernil_asado_step_2",
+      "amount": {
+        "qty": 2500,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Skin side down, use a sharp knife to make incisions in different places of the pork shoulder.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

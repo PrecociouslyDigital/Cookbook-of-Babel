@@ -1,0 +1,62 @@
+{
+  "id": "flammekueche_bacon_and_onion_flatbread.step_3",
+  "source": "wikibooks_flammekueche_bacon_and_onion_flatbread",
+  "sourceRef": {
+    "source": "wikibooks_flammekueche_bacon_and_onion_flatbread",
+    "step": 3
+  },
+  "technique": "knead",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "flammekueche_bacon_and_onion_flatbread_step_2",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "wheat_flour",
+        "amount": {
+          "qty": 2,
+          "unit": "cup"
+        }
+      },
+      {
+        "ingredient": "salt",
+        "amount": {
+          "qty": 1,
+          "unit": "tsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "flammekueche_bacon_and_onion_flatbread_step_3",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Put the flour and salt into a food processor, then, with the motor running, add the yeast mixture through the feeding tube. Process the dough until it forms a ball. Add very small amounts of additional flour or milk if necessary.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

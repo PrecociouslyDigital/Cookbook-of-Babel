@@ -1,0 +1,48 @@
+{
+  "id": "thai_grilled_chicken_ii.step_1",
+  "source": "wikibooks_thai_grilled_chicken_ii",
+  "sourceRef": {
+    "source": "wikibooks_thai_grilled_chicken_ii",
+    "step": 1
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "chicken",
+        "amount": {
+          "qty": 1.25,
+          "unit": "lb"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "thai_grilled_chicken_ii_step_1",
+      "amount": {
+        "qty": 567,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Prepare grill. Place chicken in shallow dish.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

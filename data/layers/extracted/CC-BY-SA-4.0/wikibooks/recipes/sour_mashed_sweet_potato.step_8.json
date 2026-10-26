@@ -1,0 +1,53 @@
+{
+  "id": "sour_mashed_sweet_potato.step_8",
+  "source": "wikibooks_sour_mashed_sweet_potato",
+  "sourceRef": {
+    "source": "wikibooks_sour_mashed_sweet_potato",
+    "step": 8
+  },
+  "technique": "ferment",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "sour_mashed_sweet_potato_step_7",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "sour_mashed_sweet_potato_step_8",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 20,
+    "medium": "still_air"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 48,
+      "unit": "h"
+    }
+  },
+  "stateNote": "Set aside in a warm (not hot!) place for 48 hours to ferment.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.51"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 20.0 °C for still_air"
+    }
+  ]
+}

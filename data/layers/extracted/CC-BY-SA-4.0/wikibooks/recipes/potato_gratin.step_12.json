@@ -1,0 +1,53 @@
+{
+  "id": "potato_gratin.step_12",
+  "source": "wikibooks_potato_gratin",
+  "sourceRef": {
+    "source": "wikibooks_potato_gratin",
+    "step": 12
+  },
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "potato_gratin_step_11",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "potato_gratin",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "For a final flourish before serving, grate a goodly amount of fresh nutmeg over the cheese.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    },
+    {
+      "field": "inputs",
+      "kind": "missing",
+      "note": "no step uses 'Fried pancetta, bacon cubes, or other cooked pork (optional)' (p=1.0)"
+    }
+  ]
+}

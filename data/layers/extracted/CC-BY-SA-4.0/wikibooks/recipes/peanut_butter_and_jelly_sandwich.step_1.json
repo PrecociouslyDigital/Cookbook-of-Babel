@@ -1,0 +1,60 @@
+{
+  "id": "peanut_butter_and_jelly_sandwich.step_1",
+  "source": "wikibooks_peanut_butter_and_jelly_sandwich",
+  "sourceRef": {
+    "source": "wikibooks_peanut_butter_and_jelly_sandwich",
+    "step": 1
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "white_bread",
+        "amount": {
+          "qty": 2,
+          "unit": "slice"
+        }
+      },
+      {
+        "ingredient": "peanut_butter",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "peanut_butter_and_jelly_sandwich_step_1",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Using a spreading knife, spread an even coat of peanut butter on one side of each slice of bread.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Peanut butter': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

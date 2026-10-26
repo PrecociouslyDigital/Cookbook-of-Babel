@@ -1,0 +1,65 @@
+{
+  "id": "beef_pasties.step_3",
+  "source": "wikibooks_beef_pasties",
+  "sourceRef": {
+    "source": "wikibooks_beef_pasties",
+    "step": 3
+  },
+  "technique": "knead",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "beef_pasties_step_2",
+        "amount": {
+          "qty": 1158.1,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "pastry_dough",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "beef_pasties_step_3",
+      "amount": {
+        "qty": 1158.4,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "On a lightly floured surface, roll out ¼ of the pastry into an 8-inch (20 cm) circle.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Pastry for double crust pie (9-inch or 22 cm)': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for pastry_dough"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

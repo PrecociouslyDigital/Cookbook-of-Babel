@@ -1,0 +1,53 @@
+{
+  "id": "steamed_artichoke.step_6",
+  "source": "wikibooks_steamed_artichoke",
+  "sourceRef": {
+    "source": "wikibooks_steamed_artichoke",
+    "step": 6
+  },
+  "technique": "boil",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "steamed_artichoke_step_5",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "steamed_artichoke_step_6",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 100,
+    "medium": "steam"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 37.5,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Boil on low 30–45 minutes until the artichoke bottom can be punctured without resistance.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.45"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of boil's typical range"
+    }
+  ]
+}

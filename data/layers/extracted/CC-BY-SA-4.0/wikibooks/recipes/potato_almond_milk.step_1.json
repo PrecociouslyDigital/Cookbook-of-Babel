@@ -1,0 +1,48 @@
+{
+  "id": "potato_almond_milk.step_1",
+  "source": "wikibooks_potato_almond_milk",
+  "sourceRef": {
+    "source": "wikibooks_potato_almond_milk",
+    "step": 1
+  },
+  "technique": "rinse",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "almond",
+        "amount": {
+          "qty": 40,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "potato_almond_milk_step_1",
+      "amount": {
+        "qty": 40,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "h"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Pre-soak your almonds in water for 1 hour and then drain.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.45"
+    }
+  ]
+}

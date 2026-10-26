@@ -1,0 +1,48 @@
+{
+  "id": "sourdough_starter_recipe.step_2",
+  "source": "wikibooks_sourdough_starter_recipe",
+  "sourceRef": {
+    "source": "wikibooks_sourdough_starter_recipe",
+    "step": 2
+  },
+  "technique": "ferment",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "sourdough_starter_recipe_step_1",
+        "amount": {
+          "qty": 724,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "sourdough_starter_recipe_step_2",
+      "amount": {
+        "qty": 724,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Cover the bowl with a dish towel in a warm place (~70–80 °F; 20–27 °C) and place in an open, clean spot on the counter to catch wild yeast floating in the air.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

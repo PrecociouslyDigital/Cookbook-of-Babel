@@ -1,0 +1,48 @@
+{
+  "id": "buckwheat_crepes.step_4",
+  "source": "wikibooks_buckwheat_crepes",
+  "sourceRef": {
+    "source": "wikibooks_buckwheat_crepes",
+    "step": 4
+  },
+  "technique": "whisk",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "buckwheat_crepes_step_3",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "buckwheat_crepes_step_4",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Gradually whisk in the remaining water as needed to get the correct consistency. It needs to be thin enough to flow and coat the pan, but not so watery that the pancake will not bind during cooking. You may not need to add all the water.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

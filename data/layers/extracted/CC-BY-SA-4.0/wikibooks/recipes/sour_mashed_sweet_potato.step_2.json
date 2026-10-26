@@ -1,0 +1,48 @@
+{
+  "id": "sour_mashed_sweet_potato.step_2",
+  "source": "wikibooks_sour_mashed_sweet_potato",
+  "sourceRef": {
+    "source": "wikibooks_sour_mashed_sweet_potato",
+    "step": 2
+  },
+  "technique": "cool",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "sour_mashed_sweet_potato_step_1",
+        "amount": {
+          "qty": 500,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "sour_mashed_sweet_potato_step_2",
+      "amount": {
+        "qty": 500,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Allow the vegetables to cool to about room temperature.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "id": "yorkshire_pudding.step_4",
+  "source": "wikibooks_yorkshire_pudding",
+  "sourceRef": {
+    "source": "wikibooks_yorkshire_pudding",
+    "step": 4
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "yorkshire_pudding_step_3",
+        "amount": {
+          "qty": 340.3,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "milk",
+        "amount": {
+          "qty": 200,
+          "unit": "ml"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "yorkshire_pudding_step_4",
+      "amount": {
+        "qty": 546.3,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Slowly add the milk in stages, beating as you go until well-mixed.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

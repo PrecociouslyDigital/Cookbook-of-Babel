@@ -1,0 +1,48 @@
+{
+  "id": "basic_pizza_sauce.step_1",
+  "source": "wikibooks_basic_pizza_sauce",
+  "sourceRef": {
+    "source": "wikibooks_basic_pizza_sauce",
+    "step": 1
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "smooth_tomato_spaghetti_sauce",
+        "amount": {
+          "qty": 1,
+          "unit": "can"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "basic_pizza_sauce_step_1",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "After rolling out dough, ladle on sauce as directed by the pizza recipe.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "id": "orange_lemon_lime_soda_float.step_3",
+  "source": "wikibooks_orange_lemon_lime_soda_float",
+  "sourceRef": {
+    "source": "wikibooks_orange_lemon_lime_soda_float",
+    "step": 3
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "orange_lemon_lime_soda_float_step_2",
+        "amount": {
+          "qty": 365,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "soda",
+        "amount": {
+          "qty": 235,
+          "unit": "ml"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "orange_lemon_lime_soda_float",
+      "amount": {
+        "qty": 600,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Stir in soda.",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for soda"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

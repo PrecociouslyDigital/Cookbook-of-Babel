@@ -1,0 +1,53 @@
+{
+  "id": "champ_irish_mashed_potato_with_scallion.step_4",
+  "source": "wikibooks_champ_irish_mashed_potato_with_scallion",
+  "sourceRef": {
+    "source": "wikibooks_champ_irish_mashed_potato_with_scallion",
+    "step": 4
+  },
+  "technique": "strain",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "champ_irish_mashed_potato_with_scallion_step_3",
+        "amount": {
+          "qty": 632.1,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "champ_irish_mashed_potato_with_scallion_step_4",
+      "amount": {
+        "qty": 632.1,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "When cooked, sieve the scallions and set the milk aside.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.36"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

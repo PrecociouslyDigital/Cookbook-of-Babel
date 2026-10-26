@@ -1,0 +1,48 @@
+{
+  "id": "spicy_fried_wings.step_5",
+  "source": "wikibooks_spicy_fried_wings",
+  "sourceRef": {
+    "source": "wikibooks_spicy_fried_wings",
+    "step": 5
+  },
+  "technique": "fry",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "spicy_fried_wings_step_4",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "spicy_fried_wings_step_5",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 190,
+    "medium": "frying_oil"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 11.5,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Fry in batches for 11–12 minutes. Drain on a rack. Please don't use paper towels unless you want greasy chicken.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of fry's typical range"
+    }
+  ]
+}

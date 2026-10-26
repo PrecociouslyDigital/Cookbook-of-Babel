@@ -1,0 +1,62 @@
+{
+  "id": "quiche_lorraine.step_5",
+  "source": "wikibooks_quiche_lorraine",
+  "sourceRef": {
+    "source": "wikibooks_quiche_lorraine",
+    "step": 5
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "quiche_lorraine_step_4",
+        "amount": {
+          "qty": 710.6,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "tall_quiche_shell",
+        "amount": {
+          "qty": 1,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "comte_cheese",
+        "amount": {
+          "qty": 0.5,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "quiche_lorraine_step_5",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Arrange ¼ cup cheese and half the pork mixture in the bottom of the quiche shell.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

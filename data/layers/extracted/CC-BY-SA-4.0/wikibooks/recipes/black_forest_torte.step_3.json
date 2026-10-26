@@ -1,0 +1,53 @@
+{
+  "id": "black_forest_torte.step_3",
+  "source": "wikibooks_black_forest_torte",
+  "sourceRef": {
+    "source": "wikibooks_black_forest_torte",
+    "step": 3
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "black_forest_torte_step_2",
+        "amount": {
+          "qty": 405.2,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "black_forest_torte_step_3",
+      "amount": {
+        "qty": 405.2,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Press onto the bottom and up the sides of a lightly greased 11-inch (30 cm) tart pan with removable bottom.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.57"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

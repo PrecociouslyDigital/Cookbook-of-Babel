@@ -1,0 +1,53 @@
+{
+  "id": "chicken_soup_i.step_2",
+  "source": "wikibooks_chicken_soup_i",
+  "sourceRef": {
+    "source": "wikibooks_chicken_soup_i",
+    "step": 2
+  },
+  "technique": "chop",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "chicken_soup_i_step_1",
+        "amount": {
+          "qty": 0.6,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "chicken_soup_i_step_2",
+      "amount": {
+        "qty": 0.6,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Remove chicken thighs from the pot and chop them into roughly bite-size pieces on a chopping board. The chicken may tend to fall apart anyway as you handle it. While chicken is out of the pot, it's a good time to clear the broth further if desired.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.43"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

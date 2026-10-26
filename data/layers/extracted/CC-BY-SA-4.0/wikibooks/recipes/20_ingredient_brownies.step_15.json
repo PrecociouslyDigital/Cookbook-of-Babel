@@ -1,0 +1,65 @@
+{
+  "id": "20_ingredient_brownies.step_15",
+  "source": "wikibooks_20_ingredient_brownies",
+  "sourceRef": {
+    "source": "wikibooks_20_ingredient_brownies",
+    "step": 15
+  },
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "20_ingredient_brownies_step_14",
+        "amount": {
+          "qty": 3368.8,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "flaky_salt",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "20_ingredient_brownies_step_15",
+      "amount": {
+        "qty": 3369.1,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Sprinkle the brownie with a light sprinkle of salt.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Flaky salt to garnish': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for flaky_salt"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

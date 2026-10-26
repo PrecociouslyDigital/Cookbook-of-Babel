@@ -1,0 +1,77 @@
+{
+  "id": "gored_gored_ethiopian_raw_beef.step_5",
+  "source": "wikibooks_gored_gored_ethiopian_raw_beef",
+  "sourceRef": {
+    "source": "wikibooks_gored_gored_ethiopian_raw_beef",
+    "step": 5
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "gored_gored_ethiopian_raw_beef_step_4",
+        "amount": {
+          "qty": 523.6,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "parsley",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      },
+      {
+        "ingredient": "injera_ethiopian_teff_flatbread",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "gored_gored_ethiopian_raw_beef",
+      "amount": {
+        "qty": 524.2,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Garnish with freshly chopped parsley or cilantro.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Fresh parsley or cilantro, chopped, for garnish': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Injera (Ethiopian flatbread), for serving': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for parsley, injera_ethiopian_teff_flatbread"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

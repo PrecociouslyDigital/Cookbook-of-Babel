@@ -1,0 +1,95 @@
+{
+  "id": "cola_ii.step_1",
+  "source": "wikibooks_cola_ii",
+  "sourceRef": {
+    "source": "wikibooks_cola_ii",
+    "step": 1
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "spirits",
+        "amount": {
+          "qty": 2,
+          "unit": "oz"
+        }
+      },
+      {
+        "ingredient": "coriander",
+        "amount": {
+          "qty": 1,
+          "unit": "drop"
+        }
+      },
+      {
+        "ingredient": "cinnamon",
+        "amount": {
+          "qty": 3,
+          "unit": "drop"
+        }
+      },
+      {
+        "ingredient": "neroli_oil",
+        "amount": {
+          "qty": 3,
+          "unit": "drop"
+        }
+      },
+      {
+        "ingredient": "nutmeg",
+        "amount": {
+          "qty": 3,
+          "unit": "drop"
+        }
+      },
+      {
+        "ingredient": "orange",
+        "amount": {
+          "qty": 5,
+          "unit": "drop"
+        }
+      },
+      {
+        "ingredient": "lemon",
+        "amount": {
+          "qty": 8,
+          "unit": "drop"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "cola_ii_step_1",
+      "amount": {
+        "qty": 57.8,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Combine the spirit or gum arabic water and oils together in a small cup, mixing well. Set aside.",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for coriander, cinnamon, neroli_oil, nutmeg, orange, lemon"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

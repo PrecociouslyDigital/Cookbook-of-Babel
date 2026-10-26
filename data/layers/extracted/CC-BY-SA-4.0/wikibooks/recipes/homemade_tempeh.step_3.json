@@ -1,0 +1,48 @@
+{
+  "id": "homemade_tempeh.step_3",
+  "source": "wikibooks_homemade_tempeh",
+  "sourceRef": {
+    "source": "wikibooks_homemade_tempeh",
+    "step": 3
+  },
+  "technique": "strain",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "homemade_tempeh_step_2",
+        "amount": {
+          "qty": 400.3,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "homemade_tempeh_step_3",
+      "amount": {
+        "qty": 400.3,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Skim off most of the hulls either by washing them away or by using a skimmer or strainer. Some hulls may be left behind without affecting tempeh quality.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

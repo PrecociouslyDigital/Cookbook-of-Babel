@@ -1,0 +1,48 @@
+{
+  "id": "rustic_beer_bread.step_2",
+  "source": "wikibooks_rustic_beer_bread",
+  "sourceRef": {
+    "source": "wikibooks_rustic_beer_bread",
+    "step": 2
+  },
+  "technique": "cool",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "rustic_beer_bread_step_1",
+        "amount": {
+          "qty": 776.2,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "rustic_beer_bread_step_2",
+      "amount": {
+        "qty": 776.2,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Remove when cycle is complete. Cool and enjoy.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

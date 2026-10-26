@@ -1,0 +1,65 @@
+{
+  "id": "mishti_doi_bengali_sweetened_yogurt.step_6",
+  "source": "wikibooks_mishti_doi_bengali_sweetened_yogurt",
+  "sourceRef": {
+    "source": "wikibooks_mishti_doi_bengali_sweetened_yogurt",
+    "step": 6
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "mishti_doi_bengali_sweetened_yogurt_step_5",
+        "amount": {
+          "qty": 896.7,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "yogurt",
+        "amount": {
+          "qty": 1,
+          "unit": "tbsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "mishti_doi_bengali_sweetened_yogurt_step_6",
+      "amount": {
+        "qty": 911.5,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Once milk cools off, add the whisked yoghurt, stir well and pour the mixture into earthen pots.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.56"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for yogurt"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

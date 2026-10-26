@@ -1,0 +1,48 @@
+{
+  "id": "tarator_bulgarian_cucumber_soup.step_2",
+  "source": "wikibooks_tarator_bulgarian_cucumber_soup",
+  "sourceRef": {
+    "source": "wikibooks_tarator_bulgarian_cucumber_soup",
+    "step": 2
+  },
+  "technique": "chill",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "tarator_bulgarian_cucumber_soup_step_1",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "tarator_bulgarian_cucumber_soup",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Serve cold in a soup dish, adding a couple ice cubes if it's not cold.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

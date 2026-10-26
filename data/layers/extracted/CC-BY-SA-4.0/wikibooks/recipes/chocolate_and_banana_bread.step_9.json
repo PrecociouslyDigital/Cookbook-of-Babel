@@ -1,0 +1,53 @@
+{
+  "id": "chocolate_and_banana_bread.step_9",
+  "source": "wikibooks_chocolate_and_banana_bread",
+  "sourceRef": {
+    "source": "wikibooks_chocolate_and_banana_bread",
+    "step": 9
+  },
+  "technique": "ferment",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "chocolate_and_banana_bread_step_8",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "chocolate_and_banana_bread_step_9",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 20,
+    "medium": "still_air"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 30,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Brush lightly with olive oil. Sprinkle with more chopped nuts if desired. Leave loaf aside in warm place to proof for 30 minutes.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.54"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 20.0 °C for still_air"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "id": "orange_soda_i.step_3",
+  "source": "wikibooks_orange_soda_i",
+  "sourceRef": {
+    "source": "wikibooks_orange_soda_i",
+    "step": 3
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "orange_soda_i_step_2",
+        "amount": {
+          "qty": 1085.4,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "orange_juice_concentrate",
+        "amount": {
+          "qty": 1,
+          "unit": "oz"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "orange_soda_i_step_3",
+      "amount": {
+        "qty": 1113.8,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Stir the orange juice concentrate into the syrup.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

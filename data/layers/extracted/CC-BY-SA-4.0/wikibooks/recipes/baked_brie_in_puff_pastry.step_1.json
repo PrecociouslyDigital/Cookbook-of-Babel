@@ -1,0 +1,55 @@
+{
+  "id": "baked_brie_in_puff_pastry.step_1",
+  "source": "wikibooks_baked_brie_in_puff_pastry",
+  "sourceRef": {
+    "source": "wikibooks_baked_brie_in_puff_pastry",
+    "step": 1
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "brie_cheese",
+        "amount": {
+          "qty": 10,
+          "unit": "oz"
+        }
+      },
+      {
+        "ingredient": "puff_pastry",
+        "amount": {
+          "qty": 1,
+          "unit": "sheet"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "baked_brie_in_puff_pastry_step_1",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Place block of cheese in the middle of sheet of pastry.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

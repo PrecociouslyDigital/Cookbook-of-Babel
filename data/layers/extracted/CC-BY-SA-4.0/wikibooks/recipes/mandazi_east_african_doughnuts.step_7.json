@@ -1,0 +1,48 @@
+{
+  "id": "mandazi_east_african_doughnuts.step_7",
+  "source": "wikibooks_mandazi_east_african_doughnuts",
+  "sourceRef": {
+    "source": "wikibooks_mandazi_east_african_doughnuts",
+    "step": 7
+  },
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "mandazi_east_african_doughnuts_step_6",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "mandazi_east_african_doughnuts_step_7",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Cut the dough into 10 equal squares, then roll each square into a ball.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

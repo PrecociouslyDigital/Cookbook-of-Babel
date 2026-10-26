@@ -1,0 +1,53 @@
+{
+  "id": "a_nice_cup_of_tea.step_4",
+  "source": "wikibooks_a_nice_cup_of_tea",
+  "sourceRef": {
+    "source": "wikibooks_a_nice_cup_of_tea",
+    "step": 4
+  },
+  "technique": "heat",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "a_nice_cup_of_tea_step_3",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "a_nice_cup_of_tea_step_4",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 100,
+    "medium": "boiling_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "When the water reaches the preferred temperature, pour it from the tea kettle into the teapot. As you pour, try to avoid pouring directly onto the tea (especially important for green and white teas) to avoid scalding the leaves.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 100.0 °C for boiling_water"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

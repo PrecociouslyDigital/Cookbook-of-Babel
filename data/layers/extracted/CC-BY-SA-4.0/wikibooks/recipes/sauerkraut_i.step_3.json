@@ -1,0 +1,53 @@
+{
+  "id": "sauerkraut_i.step_3",
+  "source": "wikibooks_sauerkraut_i",
+  "sourceRef": {
+    "source": "wikibooks_sauerkraut_i",
+    "step": 3
+  },
+  "technique": "chop",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "sauerkraut_i_step_2",
+        "amount": {
+          "qty": 2500,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "sauerkraut_i_step_3",
+      "amount": {
+        "qty": 2500,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Slice the cabbage finely or thickly, as you prefer.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.43"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

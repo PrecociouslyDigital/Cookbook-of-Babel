@@ -1,0 +1,76 @@
+{
+  "id": "ikinyomoro_n_ibishyimbo_rwandan_smoked_fish_with_beans.step_10",
+  "source": "wikibooks_ikinyomoro_n_ibishyimbo_rwandan_smoked_fish_with_beans",
+  "sourceRef": {
+    "source": "wikibooks_ikinyomoro_n_ibishyimbo_rwandan_smoked_fish_with_beans",
+    "step": 10
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "ikinyomoro_n_ibishyimbo_rwandan_smoked_fish_with_beans_step_9",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "min": 0,
+        "max": 1,
+        "of": [
+          {
+            "ingredient": "cilantro",
+            "amount": {
+              "qty": 1,
+              "unit": "pinch"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "ikinyomoro_n_ibishyimbo_rwandan_smoked_fish_with_beans",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Remove from heat and transfer to a serving dish. Garnish with fresh cilantro leaves, if desired, before serving.",
+  "issues": [
+    {
+      "field": "sourceRef",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.58"
+    },
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.37"
+    },
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Fresh cilantro leaves, for garnish (optional)': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

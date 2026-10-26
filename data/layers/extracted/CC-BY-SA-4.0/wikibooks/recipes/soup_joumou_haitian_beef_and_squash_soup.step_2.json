@@ -1,0 +1,48 @@
+{
+  "id": "soup_joumou_haitian_beef_and_squash_soup.step_2",
+  "source": "wikibooks_soup_joumou_haitian_beef_and_squash_soup",
+  "sourceRef": {
+    "source": "wikibooks_soup_joumou_haitian_beef_and_squash_soup",
+    "step": 2
+  },
+  "technique": "separate",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "soup_joumou_haitian_beef_and_squash_soup_step_1",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "soup_joumou_haitian_beef_and_squash_soup_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Remove beef from marinade and dry with paper towels; set aside.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

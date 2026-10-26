@@ -1,0 +1,58 @@
+{
+  "id": "omo_tuo.step_3",
+  "source": "wikibooks_omo_tuo",
+  "sourceRef": {
+    "source": "wikibooks_omo_tuo",
+    "step": 3
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "omo_tuo_step_2",
+        "amount": {
+          "qty": 1662.1,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "omo_tuo",
+      "amount": {
+        "qty": 1662.1,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Pour cold water into a cup and place it near the pan. Transfer the rice to a serving dish after scooping it with wet hands and rolling it into balls.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.54"
+    },
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.58"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

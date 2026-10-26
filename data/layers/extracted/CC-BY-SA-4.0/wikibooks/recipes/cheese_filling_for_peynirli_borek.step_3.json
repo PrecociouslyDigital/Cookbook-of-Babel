@@ -1,0 +1,48 @@
+{
+  "id": "cheese_filling_for_peynirli_borek.step_3",
+  "source": "wikibooks_cheese_filling_for_peynirli_borek",
+  "sourceRef": {
+    "source": "wikibooks_cheese_filling_for_peynirli_borek",
+    "step": 3
+  },
+  "technique": "chill",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "cheese_filling_for_peynirli_borek_step_2",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "cheese_filling_for_peynirli_borek",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Place in a plastic covered container and refrigerate until ready to use.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

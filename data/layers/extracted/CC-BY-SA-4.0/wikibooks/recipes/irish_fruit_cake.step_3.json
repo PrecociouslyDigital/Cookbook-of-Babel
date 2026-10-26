@@ -1,0 +1,62 @@
+{
+  "id": "irish_fruit_cake.step_3",
+  "source": "wikibooks_irish_fruit_cake",
+  "sourceRef": {
+    "source": "wikibooks_irish_fruit_cake",
+    "step": 3
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "irish_fruit_cake_step_2",
+        "amount": {
+          "qty": 456.2,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "white_sugar",
+        "amount": {
+          "qty": 6,
+          "unit": "oz"
+        }
+      },
+      {
+        "ingredient": "butter",
+        "amount": {
+          "qty": 6,
+          "unit": "oz"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "irish_fruit_cake_step_3",
+      "amount": {
+        "qty": 796.4,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 7.5,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Cream together butter and sugar; this may take 5–10 minutes.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.58"
+    }
+  ]
+}

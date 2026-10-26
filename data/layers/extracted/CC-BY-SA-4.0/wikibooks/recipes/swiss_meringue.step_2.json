@@ -1,0 +1,53 @@
+{
+  "id": "swiss_meringue.step_2",
+  "source": "wikibooks_swiss_meringue",
+  "sourceRef": {
+    "source": "wikibooks_swiss_meringue",
+    "step": 2
+  },
+  "technique": "whisk",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "swiss_meringue_step_1",
+        "amount": {
+          "qty": 680.4,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "swiss_meringue_step_2",
+      "amount": {
+        "qty": 680.4,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 50,
+    "medium": "simmering_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Place the bowl over simmering water and whip with a wire whisk until the mixture is 120°F (50°C).",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.48"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

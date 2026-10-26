@@ -1,0 +1,60 @@
+{
+  "id": "bhel_puri_indian_puffed_rice_and_vegetable_snack.step_5",
+  "source": "wikibooks_bhel_puri_indian_puffed_rice_and_vegetable_snack",
+  "sourceRef": {
+    "source": "wikibooks_bhel_puri_indian_puffed_rice_and_vegetable_snack",
+    "step": 5
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "bhel_puri_indian_puffed_rice_and_vegetable_snack_step_4",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "puri_indian_fried_flatbread",
+        "amount": {
+          "qty": 1,
+          "unit": "package"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "bhel_puri_indian_puffed_rice_and_vegetable_snack",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Garnish with coriander leaves. Serve with crunchy puris.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    },
+    {
+      "field": "inputs",
+      "kind": "missing",
+      "note": "no step uses 'Salt to taste' (p=0.52)"
+    }
+  ]
+}

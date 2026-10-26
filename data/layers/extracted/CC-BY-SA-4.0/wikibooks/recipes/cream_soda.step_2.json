@@ -1,0 +1,53 @@
+{
+  "id": "cream_soda.step_2",
+  "source": "wikibooks_cream_soda",
+  "sourceRef": {
+    "source": "wikibooks_cream_soda",
+    "step": 2
+  },
+  "technique": "evaporate",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "cream_soda_step_1",
+        "amount": {
+          "qty": 226.2,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "cream_soda_step_2",
+      "amount": {
+        "qty": 226.2,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 100,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Boil the mixture until it reduces to about 5 oz (150 ml) syrup.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of evaporate's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

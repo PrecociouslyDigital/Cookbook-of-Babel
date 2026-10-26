@@ -1,0 +1,48 @@
+{
+  "id": "choco_crunch_bites.step_2",
+  "source": "wikibooks_choco_crunch_bites",
+  "sourceRef": {
+    "source": "wikibooks_choco_crunch_bites",
+    "step": 2
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "choco_crunch_bites_step_1",
+        "amount": {
+          "qty": 500,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "choco_crunch_bites_step_2",
+      "amount": {
+        "qty": 500,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Form into 1-inch balls by pressing the mixture firmly together with clean hands.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

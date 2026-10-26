@@ -1,0 +1,48 @@
+{
+  "id": "teriyaki_sauce.step_2",
+  "source": "wikibooks_teriyaki_sauce",
+  "sourceRef": {
+    "source": "wikibooks_teriyaki_sauce",
+    "step": 2
+  },
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "teriyaki_sauce_step_1",
+        "amount": {
+          "qty": 158,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "teriyaki_sauce",
+      "amount": {
+        "qty": 158,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 8,
+      "unit": "h"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Use sauce to marinate some raw meat or vegetables overnight in the refrigerator.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "'overnight' read as 8 hours"
+    }
+  ]
+}

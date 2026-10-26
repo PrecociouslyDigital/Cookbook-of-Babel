@@ -1,0 +1,55 @@
+{
+  "id": "tub_tim_krob_thai_water_chestnuts_in_coconut.step_2",
+  "source": "wikibooks_tub_tim_krob_thai_water_chestnuts_in_coconut",
+  "sourceRef": {
+    "source": "wikibooks_tub_tim_krob_thai_water_chestnuts_in_coconut",
+    "step": 2
+  },
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "tub_tim_krob_thai_water_chestnuts_in_coconut_step_1",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "food_coloring",
+        "amount": {
+          "qty": 5,
+          "unit": "drop"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "tub_tim_krob_thai_water_chestnuts_in_coconut_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Soak the water chestnut cubes in red food coloring until their color changes to red.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

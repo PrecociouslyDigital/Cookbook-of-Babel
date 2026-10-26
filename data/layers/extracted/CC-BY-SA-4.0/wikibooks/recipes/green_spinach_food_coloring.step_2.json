@@ -1,0 +1,55 @@
+{
+  "id": "green_spinach_food_coloring.step_2",
+  "source": "wikibooks_green_spinach_food_coloring",
+  "sourceRef": {
+    "source": "wikibooks_green_spinach_food_coloring",
+    "step": 2
+  },
+  "technique": "blend",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "green_spinach_food_coloring_step_1",
+        "amount": {
+          "qty": 100,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "water",
+        "amount": {
+          "qty": 0.5,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "green_spinach_food_coloring_step_2",
+      "amount": {
+        "qty": 218.3,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Drain the spinach and blend it to a purée with the ½ cup (125 ml) water.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

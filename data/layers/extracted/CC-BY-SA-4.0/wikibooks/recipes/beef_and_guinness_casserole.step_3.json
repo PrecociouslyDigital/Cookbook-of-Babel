@@ -1,0 +1,69 @@
+{
+  "id": "beef_and_guinness_casserole.step_3",
+  "source": "wikibooks_beef_and_guinness_casserole",
+  "sourceRef": {
+    "source": "wikibooks_beef_and_guinness_casserole",
+    "step": 3
+  },
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "beef_and_guinness_casserole_step_2",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "wheat_flour",
+        "amount": {
+          "qty": 0.25,
+          "unit": "cup"
+        }
+      },
+      {
+        "ingredient": "pepper",
+        "amount": {
+          "qty": 2,
+          "unit": "tbsp"
+        }
+      },
+      {
+        "ingredient": "salt",
+        "amount": {
+          "qty": 1,
+          "unit": "tsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "beef_and_guinness_casserole_step_3",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Freshly grind your pepper to a fine powder in a pestle and mortar. Take your time with this. Then add a teaspoon of salt, and set half of this aside for your champ potato. Then add the other half to the ¼ cup of flour and mix well to get seasoned flour. Then mix this in a big bowl with your beef.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

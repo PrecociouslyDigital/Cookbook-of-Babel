@@ -1,0 +1,48 @@
+{
+  "id": "curtido_spicy_cabbage_slaw.step_3",
+  "source": "wikibooks_curtido_spicy_cabbage_slaw",
+  "sourceRef": {
+    "source": "wikibooks_curtido_spicy_cabbage_slaw",
+    "step": 3
+  },
+  "technique": "ferment",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "curtido_spicy_cabbage_slaw_step_2",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "curtido_spicy_cabbage_slaw",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Put the container in the refrigerator, and let it rest for a week so that the ingredients pickle.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

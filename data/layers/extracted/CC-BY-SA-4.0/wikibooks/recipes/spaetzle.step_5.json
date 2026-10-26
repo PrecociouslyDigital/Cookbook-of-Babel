@@ -1,0 +1,53 @@
+{
+  "id": "spaetzle.step_5",
+  "source": "wikibooks_spaetzle",
+  "sourceRef": {
+    "source": "wikibooks_spaetzle",
+    "step": 5
+  },
+  "technique": "boil",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "spaetzle_step_3",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "spaetzle_step_5",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 100,
+    "medium": "boiling_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "If using only a board, sweep a spoon of dough over the kitchen board with the grater. Cut/grate small pieces of the dough with the grater into the hot water. If using a spaetzle-maker, put a spoon of dough into the maker and press through the holes into the water. The spaetzle are done when they rise and swim on the water surface.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of boil's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

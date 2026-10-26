@@ -1,0 +1,53 @@
+{
+  "id": "dry_rub_grilled_ribeye.step_3",
+  "source": "wikibooks_dry_rub_grilled_ribeye",
+  "sourceRef": {
+    "source": "wikibooks_dry_rub_grilled_ribeye",
+    "step": 3
+  },
+  "technique": "grill",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "dry_rub_grilled_ribeye_step_2",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "dry_rub_grilled_ribeye_step_3",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": -12.222222222222221,
+    "medium": "still_air"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Move to a cooler part of the grill and cook, turning often until 10°F below your desired doneness.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.46"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

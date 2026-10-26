@@ -1,0 +1,48 @@
+{
+  "id": "steak_bacon_and_arugula_salad.step_4",
+  "source": "wikibooks_steak_bacon_and_arugula_salad",
+  "sourceRef": {
+    "source": "wikibooks_steak_bacon_and_arugula_salad",
+    "step": 4
+  },
+  "technique": "chill",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "steak_bacon_and_arugula_salad_step_3",
+        "amount": {
+          "qty": 575,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "steak_bacon_and_arugula_salad_step_4",
+      "amount": {
+        "qty": 575,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Refrigerate steaks until chilled.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

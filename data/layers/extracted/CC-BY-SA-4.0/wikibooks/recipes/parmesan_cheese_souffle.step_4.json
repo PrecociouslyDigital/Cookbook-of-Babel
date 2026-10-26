@@ -1,0 +1,65 @@
+{
+  "id": "parmesan_cheese_souffle.step_4",
+  "source": "wikibooks_parmesan_cheese_souffle",
+  "sourceRef": {
+    "source": "wikibooks_parmesan_cheese_souffle",
+    "step": 4
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "parmesan_cheese_souffle_step_3",
+        "amount": {
+          "qty": 724.6,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "sour_cream",
+        "amount": {
+          "qty": 2,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "parmesan_cheese_souffle_step_4",
+      "amount": {
+        "qty": 1197.8,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Place the sour cream in a large mixing bowl.",
+  "issues": [
+    {
+      "field": "sourceRef",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.52"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for sour_cream"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

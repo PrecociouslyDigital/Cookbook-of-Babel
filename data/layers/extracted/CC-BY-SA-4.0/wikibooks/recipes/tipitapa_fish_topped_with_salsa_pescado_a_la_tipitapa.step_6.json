@@ -1,0 +1,58 @@
+{
+  "id": "tipitapa_fish_topped_with_salsa_pescado_a_la_tipitapa.step_6",
+  "source": "wikibooks_tipitapa_fish_topped_with_salsa_pescado_a_la_tipitapa",
+  "sourceRef": {
+    "source": "wikibooks_tipitapa_fish_topped_with_salsa_pescado_a_la_tipitapa",
+    "step": 6
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "tipitapa_fish_topped_with_salsa_pescado_a_la_tipitapa_step_5",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "tipitapa_fish_topped_with_salsa_pescado_a_la_tipitapa",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Add the salsa on top of the fish, and serve.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.55"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    },
+    {
+      "field": "inputs",
+      "kind": "missing",
+      "note": "no step uses 'Lemon' (p=1.0)"
+    }
+  ]
+}

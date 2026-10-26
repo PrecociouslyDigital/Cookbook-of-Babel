@@ -1,0 +1,81 @@
+{
+  "id": "menudo_mexican_tripe_and_hominy_soup.step_22",
+  "source": "wikibooks_menudo_mexican_tripe_and_hominy_soup",
+  "sourceRef": {
+    "source": "wikibooks_menudo_mexican_tripe_and_hominy_soup",
+    "step": 22
+  },
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "menudo_mexican_tripe_and_hominy_soup_step_21",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "oregano",
+        "amount": {
+          "qty": 2,
+          "unit": "tbsp"
+        }
+      },
+      {
+        "ingredient": "garlic",
+        "amount": {
+          "qty": 1,
+          "unit": "clove"
+        }
+      },
+      {
+        "ingredient": "bay_leaf",
+        "amount": {
+          "qty": 2,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "mexican_oregano",
+        "amount": {
+          "qty": 2,
+          "unit": "tbsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "menudo_mexican_tripe_and_hominy_soup_step_22",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Add the garlic, bay leaves, and Mexican oregano.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.43"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

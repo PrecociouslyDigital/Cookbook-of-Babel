@@ -1,0 +1,58 @@
+{
+  "id": "tabbouleh_iii.step_1",
+  "source": "wikibooks_tabbouleh_iii",
+  "sourceRef": {
+    "source": "wikibooks_tabbouleh_iii",
+    "step": 1
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "bulgur",
+        "amount": {
+          "qty": 0.5,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "tabbouleh_iii_step_1",
+      "amount": {
+        "qty": 118.3,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Soak the bulghur wheat in at least three times its volume of cold water. Fine grind only needs a half hour of soaking. Medium grind needs longer. Bulghur wheat has already been parboiled before cracking or grinding, so it doesn’t need further cooking to be edible in tabbouli.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.5"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for bulgur"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

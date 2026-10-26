@@ -1,0 +1,59 @@
+{
+  "id": "pesto_i.step_2",
+  "source": "wikibooks_pesto_i",
+  "sourceRef": {
+    "source": "wikibooks_pesto_i",
+    "step": 2
+  },
+  "technique": "toast",
+  "inputs": {
+    "of": [
+      {
+        "min": 0,
+        "max": 1,
+        "of": [
+          {
+            "ingredient": "pine_nut",
+            "amount": {
+              "qty": 0.25,
+              "unit": "cup"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "pesto_i_step_2",
+      "amount": {
+        "qty": 59.2,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 220,
+    "medium": "oven_air"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 12.5,
+      "unit": "min"
+    }
+  },
+  "stateNote": "If using, toast the pine nuts in an ovenproof pan for 10–15 minutes, checking every 5 minutes to prevent excessive browning or burning.",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for pine_nut"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "the step names several durations; used the first"
+    }
+  ]
+}

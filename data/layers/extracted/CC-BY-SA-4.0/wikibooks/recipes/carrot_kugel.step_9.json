@@ -1,0 +1,48 @@
+{
+  "id": "carrot_kugel.step_9",
+  "source": "wikibooks_carrot_kugel",
+  "sourceRef": {
+    "source": "wikibooks_carrot_kugel",
+    "step": 9
+  },
+  "technique": "bake",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "carrot_kugel_step_8",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "carrot_kugel",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 190,
+    "medium": "oven_air"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 35,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Bake for 35 minutes or until golden brown.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "missing",
+      "note": "no step uses '25 grams butter' (p=0.9)"
+    }
+  ]
+}

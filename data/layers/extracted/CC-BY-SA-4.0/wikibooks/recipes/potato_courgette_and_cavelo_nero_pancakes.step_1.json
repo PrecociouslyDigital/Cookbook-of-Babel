@@ -1,0 +1,48 @@
+{
+  "id": "potato_courgette_and_cavelo_nero_pancakes.step_1",
+  "source": "wikibooks_potato_courgette_and_cavelo_nero_pancakes",
+  "sourceRef": {
+    "source": "wikibooks_potato_courgette_and_cavelo_nero_pancakes",
+    "step": 1
+  },
+  "technique": "grind",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "zucchini",
+        "amount": {
+          "qty": 1,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "potato_courgette_and_cavelo_nero_pancakes_step_1",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "In a food processor, coarsely grate the courgette. Alternatively, use the coarse grating side of a cheese grater.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

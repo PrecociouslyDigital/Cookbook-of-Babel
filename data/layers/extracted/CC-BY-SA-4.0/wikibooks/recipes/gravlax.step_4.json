@@ -1,0 +1,66 @@
+{
+  "id": "gravlax.step_4",
+  "source": "wikibooks_gravlax",
+  "sourceRef": {
+    "source": "wikibooks_gravlax",
+    "step": 4
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "gravlax_step_3",
+        "amount": {
+          "qty": 941.5,
+          "unit": "g"
+        }
+      },
+      {
+        "min": 0,
+        "max": 1,
+        "of": [
+          {
+            "ingredient": "gin",
+            "amount": {
+              "qty": 300,
+              "unit": "ml"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "gravlax_step_4",
+      "amount": {
+        "qty": 1241.5,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Put one salmon piece on top of another, flesh side to flesh side so the skin it outside on both pieces, and place in a plastic bag. Add any leftover ingredients to the bag along with the gin.",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for gin"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

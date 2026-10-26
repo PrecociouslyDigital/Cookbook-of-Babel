@@ -1,0 +1,70 @@
+{
+  "id": "chocolate_mousse_cake_vegan.step_15",
+  "source": "wikibooks_chocolate_mousse_cake_vegan",
+  "sourceRef": {
+    "source": "wikibooks_chocolate_mousse_cake_vegan",
+    "step": 15
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "chocolate_mousse_cake_vegan_step_14",
+        "amount": {
+          "qty": 1615.7,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "coconut",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "chocolate_mousse_cake_vegan",
+      "amount": {
+        "qty": 1616,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Garnish with coconut.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.58"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for coconut"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    },
+    {
+      "field": "inputs",
+      "kind": "missing",
+      "note": "no step uses '½ cup (40 g / 1.4 oz) walnuts (optional)' (p=0.95)"
+    }
+  ]
+}

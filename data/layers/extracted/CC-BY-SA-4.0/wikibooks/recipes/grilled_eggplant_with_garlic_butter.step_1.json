@@ -1,0 +1,55 @@
+{
+  "id": "grilled_eggplant_with_garlic_butter.step_1",
+  "source": "wikibooks_grilled_eggplant_with_garlic_butter",
+  "sourceRef": {
+    "source": "wikibooks_grilled_eggplant_with_garlic_butter",
+    "step": 1
+  },
+  "technique": "fold",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "garlic",
+        "amount": {
+          "qty": 1,
+          "unit": "tbsp"
+        }
+      },
+      {
+        "ingredient": "butter",
+        "amount": {
+          "qty": 1,
+          "unit": "stick"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "grilled_eggplant_with_garlic_butter_step_1",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Fold garlic into butter. Shape into a narrow log using parchment or wax paper, and refrigerate until needed.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

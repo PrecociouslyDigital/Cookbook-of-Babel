@@ -1,0 +1,48 @@
+{
+  "id": "vegetable_stew_and_dumplings.step_9",
+  "source": "wikibooks_vegetable_stew_and_dumplings",
+  "sourceRef": {
+    "source": "wikibooks_vegetable_stew_and_dumplings",
+    "step": 9
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "vegetable_stew_and_dumplings_step_8",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "vegetable_stew_and_dumplings_step_9",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Add a very small quantity of cold water and pinch-mix with your fingers (you can always add more later), just enough to make a strong, sticky dough.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

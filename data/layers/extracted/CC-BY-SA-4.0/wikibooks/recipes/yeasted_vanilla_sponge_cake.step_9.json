@@ -1,0 +1,48 @@
+{
+  "id": "yeasted_vanilla_sponge_cake.step_9",
+  "source": "wikibooks_yeasted_vanilla_sponge_cake",
+  "sourceRef": {
+    "source": "wikibooks_yeasted_vanilla_sponge_cake",
+    "step": 9
+  },
+  "technique": "cool",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "yeasted_vanilla_sponge_cake_step_8",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "yeasted_vanilla_sponge_cake_step_9",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Remove the cake pan, and let it cool.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

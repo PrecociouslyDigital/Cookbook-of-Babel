@@ -1,0 +1,84 @@
+{
+  "id": "soppa_ta_l_armla_maltese_widow_s_soup.step_4",
+  "source": "wikibooks_soppa_ta_l_armla_maltese_widow_s_soup",
+  "sourceRef": {
+    "source": "wikibooks_soppa_ta_l_armla_maltese_widow_s_soup",
+    "step": 4
+  },
+  "technique": "coagulate",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "soppa_ta_l_armla_maltese_widow_s_soup_step_3",
+        "amount": {
+          "qty": 700.7,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "ricotta",
+        "amount": {
+          "qty": 200,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "egg",
+        "amount": {
+          "qty": 4,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "cheeselets",
+        "amount": {
+          "qty": 4,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "soppa_ta_l_armla_maltese_widow_s_soup",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 90,
+    "medium": "simmering_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "In the last few minutes of cooking, add the eggs, ricotta, and cheeselets.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.52"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 90.0 °C for simmering_water"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    },
+    {
+      "field": "inputs",
+      "kind": "missing",
+      "note": "no step uses '50 g tomato paste' (p=0.94)"
+    }
+  ]
+}

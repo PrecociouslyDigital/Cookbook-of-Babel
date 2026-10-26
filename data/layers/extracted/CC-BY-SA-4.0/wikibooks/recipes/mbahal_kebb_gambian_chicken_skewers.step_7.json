@@ -1,0 +1,53 @@
+{
+  "id": "mbahal_kebb_gambian_chicken_skewers.step_7",
+  "source": "wikibooks_mbahal_kebb_gambian_chicken_skewers",
+  "sourceRef": {
+    "source": "wikibooks_mbahal_kebb_gambian_chicken_skewers",
+    "step": 7
+  },
+  "technique": "separate",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "mbahal_kebb_gambian_chicken_skewers_step_6",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "mbahal_kebb_gambian_chicken_skewers_step_7",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Once the chicken is cooked, remove it from the grill and transfer it to a serving dish.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.35"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "id": "agedashi_tofu.step_3",
+  "source": "wikibooks_agedashi_tofu",
+  "sourceRef": {
+    "source": "wikibooks_agedashi_tofu",
+    "step": 3
+  },
+  "technique": "boil",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "agedashi_tofu_step_2",
+        "amount": {
+          "qty": 141.8,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "dashi_japanese_soup_stock",
+        "amount": {
+          "qty": 0.5,
+          "unit": "cup"
+        }
+      },
+      {
+        "ingredient": "soy_sauce",
+        "amount": {
+          "qty": 2,
+          "unit": "tbsp"
+        }
+      },
+      {
+        "ingredient": "mirin",
+        "amount": {
+          "qty": 1.5,
+          "unit": "tbsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "agedashi_tofu_step_3",
+      "amount": {
+        "qty": 311.9,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 100,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "In pan, mix sauce ingredients, and heat in a pan until boiling. Turn off the heat.",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for dashi_japanese_soup_stock, soy_sauce, mirin"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of boil's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

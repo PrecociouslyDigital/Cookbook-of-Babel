@@ -1,0 +1,60 @@
+{
+  "id": "carbonara_pasta.step_2",
+  "source": "wikibooks_carbonara_pasta",
+  "sourceRef": {
+    "source": "wikibooks_carbonara_pasta",
+    "step": 2
+  },
+  "technique": "separate",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "carbonara_pasta_step_1",
+        "amount": {
+          "qty": 340.2,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "egg",
+        "amount": {
+          "qty": 4,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "carbonara_pasta_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Crack the eggs carefully, and separate the yolks from the whites—a good way of doing this is to run the egg through the almost closed fingers of your upturned palm, so as the white runs away through the fingers, and the yolk remains in your hand. Keep the yolks in a large bowl, and use the whites for another purpose. Remember to pick out the pesky little white bit that always remains behind on the yolk.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'4 free-range eggs with large yolks': 'free-range' read as pieces"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

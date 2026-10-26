@@ -1,0 +1,74 @@
+{
+  "id": "easy_chili.step_1",
+  "source": "wikibooks_easy_chili",
+  "sourceRef": {
+    "source": "wikibooks_easy_chili",
+    "step": 1
+  },
+  "technique": "simmer",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "common_bean",
+        "amount": {
+          "qty": 30,
+          "unit": "oz"
+        }
+      },
+      {
+        "ingredient": "tomato",
+        "amount": {
+          "qty": 30,
+          "unit": "oz"
+        }
+      },
+      {
+        "ingredient": "beef",
+        "amount": {
+          "qty": 0.75,
+          "unit": "lb"
+        }
+      },
+      {
+        "ingredient": "chili_powder",
+        "amount": {
+          "qty": 2,
+          "unit": "tsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "easy_chili",
+      "amount": {
+        "qty": 2051.1,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 90,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 15,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Combine all ingredients in a pot. Cook on medium heat for 15 minutes.",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for chili_powder"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of simmer's typical range"
+    }
+  ]
+}

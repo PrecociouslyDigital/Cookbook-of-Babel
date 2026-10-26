@@ -1,0 +1,48 @@
+{
+  "id": "americanized_eggplant_parmesan.step_3",
+  "source": "wikibooks_americanized_eggplant_parmesan",
+  "sourceRef": {
+    "source": "wikibooks_americanized_eggplant_parmesan",
+    "step": 3
+  },
+  "technique": "strain",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "americanized_eggplant_parmesan_step_2",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "americanized_eggplant_parmesan_step_3",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Weight the eggplant slices down with something heavy, such as a cast-iron frying pan, an encyclopedia, or an obese cat.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

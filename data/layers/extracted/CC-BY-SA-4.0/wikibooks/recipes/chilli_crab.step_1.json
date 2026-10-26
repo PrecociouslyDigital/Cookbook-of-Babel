@@ -1,0 +1,53 @@
+{
+  "id": "chilli_crab.step_1",
+  "source": "wikibooks_chilli_crab",
+  "sourceRef": {
+    "source": "wikibooks_chilli_crab",
+    "step": 1
+  },
+  "technique": "chill",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "crab",
+        "amount": {
+          "qty": 1,
+          "unit": "kg"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "chilli_crab_step_1",
+      "amount": {
+        "qty": 1000,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 3,
+    "medium": "still_air"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 20,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Place the crab in the freezer for about 20 minutes to sedate it. Swiftly spike the crab to kill it before proceeding.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.53"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of chill's typical range"
+    }
+  ]
+}

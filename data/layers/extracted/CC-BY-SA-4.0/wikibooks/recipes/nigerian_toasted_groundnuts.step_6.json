@@ -1,0 +1,58 @@
+{
+  "id": "nigerian_toasted_groundnuts.step_6",
+  "source": "wikibooks_nigerian_toasted_groundnuts",
+  "sourceRef": {
+    "source": "wikibooks_nigerian_toasted_groundnuts",
+    "step": 6
+  },
+  "technique": "cool",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "nigerian_toasted_groundnuts_step_5",
+        "amount": {
+          "qty": 0.7,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "nigerian_toasted_groundnuts_step_6",
+      "amount": {
+        "qty": 0.7,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 180,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Remove from the heat and wait a few minutes for it to cool down. When cool, start picking the groundnuts out of the sand and placing them in a dry tray or basin to cool fully.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.4"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 180.0 °C for pan_contact"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

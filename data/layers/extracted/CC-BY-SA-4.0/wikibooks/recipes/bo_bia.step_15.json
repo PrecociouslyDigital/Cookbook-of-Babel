@@ -1,0 +1,48 @@
+{
+  "id": "bo_bia.step_15",
+  "source": "wikibooks_bo_bia",
+  "sourceRef": {
+    "source": "wikibooks_bo_bia",
+    "step": 15
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "bo_bia_step_14",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "bo_bia_step_15",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Place a piece of lettuce and a few basil leaves at one end of the paper, then continue to add some of the stir-fried jicama, few slices of the Chinese sausages, few omelette strips, some roasted small dried shrimps, some fried shallots and crushed peanuts.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

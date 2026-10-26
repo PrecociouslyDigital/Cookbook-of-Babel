@@ -1,0 +1,48 @@
+{
+  "id": "homemade_tempeh.step_2",
+  "source": "wikibooks_homemade_tempeh",
+  "sourceRef": {
+    "source": "wikibooks_homemade_tempeh",
+    "step": 2
+  },
+  "technique": "separate",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "homemade_tempeh_step_1",
+        "amount": {
+          "qty": 400.3,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "homemade_tempeh_step_2",
+      "amount": {
+        "qty": 400.3,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Remove the hulls (i.e. skins) from the beans by rubbing between both hands (see notes).",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "homemade_cider_vinegar.step_4",
+  "source": "wikibooks_homemade_cider_vinegar",
+  "sourceRef": {
+    "source": "wikibooks_homemade_cider_vinegar",
+    "step": 4
+  },
+  "technique": "ferment",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "homemade_cider_vinegar_step_2",
+        "amount": {
+          "qty": 4000,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "homemade_cider_vinegar_step_4",
+      "amount": {
+        "qty": 4000,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Set aside somewhere to ferment not too warm or too cool (about 18–22 °C / 64–72 °F). It should start getting bubbly within a couple of days. Note the progress, so that you can tell when fermentation has peaked and is slowing down.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

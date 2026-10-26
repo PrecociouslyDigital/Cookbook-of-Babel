@@ -1,0 +1,48 @@
+{
+  "id": "kabab_barg_persian_grilled_meat.step_3",
+  "source": "wikibooks_kabab_barg_persian_grilled_meat",
+  "sourceRef": {
+    "source": "wikibooks_kabab_barg_persian_grilled_meat",
+    "step": 3
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "kabab_barg_persian_grilled_meat_step_2",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "kabab_barg_persian_grilled_meat_step_3",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Thread the lamb onto metal skewers.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "id": "grilled_aubergine.step_6",
+  "source": "wikibooks_grilled_aubergine",
+  "sourceRef": {
+    "source": "wikibooks_grilled_aubergine",
+    "step": 6
+  },
+  "technique": "toast",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "grilled_aubergine_step_5",
+        "amount": {
+          "qty": 453.3,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "sesame_seed",
+        "amount": {
+          "qty": 1,
+          "unit": "tsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "grilled_aubergine",
+      "amount": {
+        "qty": 458.2,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 185,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "In a small frying pan toast the sesame seeds until they jump, then sprinkle them over the aubergine.",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for sesame_seed"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of toast's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

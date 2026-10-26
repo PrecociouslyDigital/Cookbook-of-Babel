@@ -1,0 +1,48 @@
+{
+  "id": "saj_bread_i.step_5",
+  "source": "wikibooks_saj_bread_i",
+  "sourceRef": {
+    "source": "wikibooks_saj_bread_i",
+    "step": 5
+  },
+  "technique": "cool",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "saj_bread_i_step_4",
+        "amount": {
+          "qty": 318.6,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "saj_bread_i",
+      "amount": {
+        "qty": 318.6,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Remove from griddle and allow to cool. Fold and store.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": "boiled_yellow_split_peas.step_7",
+  "source": "wikibooks_boiled_yellow_split_peas",
+  "sourceRef": {
+    "source": "wikibooks_boiled_yellow_split_peas",
+    "step": 7
+  },
+  "technique": "chill",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "boiled_yellow_split_peas_step_6",
+        "amount": {
+          "qty": 1054.9,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "boiled_yellow_split_peas_step_7",
+      "amount": {
+        "qty": 1054.9,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 8,
+      "unit": "h"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Soak overnight, or 6 hours minimum.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.37"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "'overnight' read as 8 hours"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "the step names several durations; used the first"
+    }
+  ]
+}

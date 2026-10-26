@@ -1,0 +1,48 @@
+{
+  "id": "isombe_rwandan_cassava_leaves_with_eggplant.step_1",
+  "source": "wikibooks_isombe_rwandan_cassava_leaves_with_eggplant",
+  "sourceRef": {
+    "source": "wikibooks_isombe_rwandan_cassava_leaves_with_eggplant",
+    "step": 1
+  },
+  "technique": "chop",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "cassava",
+        "amount": {
+          "qty": 2,
+          "unit": "bunch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "isombe_rwandan_cassava_leaves_with_eggplant_step_1",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Remove the tough stems from the cassava leaves, and wash them thoroughly under running water. Chop the leaves into smaller pieces.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

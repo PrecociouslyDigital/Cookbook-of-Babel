@@ -1,0 +1,48 @@
+{
+  "id": "strawberry_frozen_yogurt.step_8",
+  "source": "wikibooks_strawberry_frozen_yogurt",
+  "sourceRef": {
+    "source": "wikibooks_strawberry_frozen_yogurt",
+    "step": 8
+  },
+  "technique": "blend",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "strawberry_frozen_yogurt_step_7",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "strawberry_frozen_yogurt_step_8",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Use a blender or food processor to reduce the strawberry mixture to a purée, but don't over-blend.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

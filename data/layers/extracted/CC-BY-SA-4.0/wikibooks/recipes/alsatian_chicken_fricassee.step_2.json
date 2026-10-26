@@ -1,0 +1,48 @@
+{
+  "id": "alsatian_chicken_fricassee.step_2",
+  "source": "wikibooks_alsatian_chicken_fricassee",
+  "sourceRef": {
+    "source": "wikibooks_alsatian_chicken_fricassee",
+    "step": 2
+  },
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "chicken",
+        "amount": {
+          "qty": 2,
+          "unit": "kg"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "alsatian_chicken_fricassee_step_2",
+      "amount": {
+        "qty": 2000,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Remove the skin from the chicken. Season all the pieces.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

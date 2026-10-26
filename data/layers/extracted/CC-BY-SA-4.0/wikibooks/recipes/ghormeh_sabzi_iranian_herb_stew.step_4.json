@@ -1,0 +1,53 @@
+{
+  "id": "ghormeh_sabzi_iranian_herb_stew.step_4",
+  "source": "wikibooks_ghormeh_sabzi_iranian_herb_stew",
+  "sourceRef": {
+    "source": "wikibooks_ghormeh_sabzi_iranian_herb_stew",
+    "step": 4
+  },
+  "technique": "fry",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "ghormeh_sabzi_iranian_herb_stew_step_3",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "ghormeh_sabzi_iranian_herb_stew_step_4",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 190,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1.5,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Stir in the meat, and cook for another 1–2 minutes.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.42"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of fry's typical range"
+    }
+  ]
+}

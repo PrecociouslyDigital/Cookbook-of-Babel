@@ -1,0 +1,53 @@
+{
+  "id": "cabbage_rolls_in_tomato_sauce_holubtsi.step_11",
+  "source": "wikibooks_cabbage_rolls_in_tomato_sauce_holubtsi",
+  "sourceRef": {
+    "source": "wikibooks_cabbage_rolls_in_tomato_sauce_holubtsi",
+    "step": 11
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "cabbage_rolls_in_tomato_sauce_holubtsi_step_10",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "cabbage_rolls_in_tomato_sauce_holubtsi",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Pour the completed sauce over the rolls on the serving dish.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.54"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": "bhuna_khichuri_bengali_rice_and_lentils.step_2",
+  "source": "wikibooks_bhuna_khichuri_bengali_rice_and_lentils",
+  "sourceRef": {
+    "source": "wikibooks_bhuna_khichuri_bengali_rice_and_lentils",
+    "step": 2
+  },
+  "technique": "evaporate",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "bhuna_khichuri_bengali_rice_and_lentils_step_1",
+        "amount": {
+          "qty": 591.5,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "bhuna_khichuri_bengali_rice_and_lentils_step_2",
+      "amount": {
+        "qty": 591.5,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Dry rice in a colander or on a flat surface.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.53"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

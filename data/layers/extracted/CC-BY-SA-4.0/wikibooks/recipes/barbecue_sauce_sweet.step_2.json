@@ -1,0 +1,48 @@
+{
+  "id": "barbecue_sauce_sweet.step_2",
+  "source": "wikibooks_barbecue_sauce_sweet",
+  "sourceRef": {
+    "source": "wikibooks_barbecue_sauce_sweet",
+    "step": 2
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "barbecue_sauce_sweet_step_1",
+        "amount": {
+          "qty": 797.4,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "barbecue_sauce_sweet_step_2",
+      "amount": {
+        "qty": 797.4,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Arrange chicken pieces or pork chops in a greased baking dish.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

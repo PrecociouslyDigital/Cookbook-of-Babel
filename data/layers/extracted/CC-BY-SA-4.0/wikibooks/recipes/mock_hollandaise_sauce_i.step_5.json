@@ -1,0 +1,53 @@
+{
+  "id": "mock_hollandaise_sauce_i.step_5",
+  "source": "wikibooks_mock_hollandaise_sauce_i",
+  "sourceRef": {
+    "source": "wikibooks_mock_hollandaise_sauce_i",
+    "step": 5
+  },
+  "technique": "whisk",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "mock_hollandaise_sauce_i_step_4",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "mock_hollandaise_sauce_i_step_5",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 180,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 8,
+      "unit": "min"
+    }
+  },
+  "stateNote": "When the whisk forms streaks in the bottom of the pan (around 8 minutes), add clarified butter, one teaspoon at a time to begin with, adding more as it combines. Adding the butter too quickly will make the sauce split, and you will have to start over. The sauce should thicken as butter is added—when it is the desired thickness, remove from the heat.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.4"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 180.0 °C for pan_contact"
+    }
+  ]
+}

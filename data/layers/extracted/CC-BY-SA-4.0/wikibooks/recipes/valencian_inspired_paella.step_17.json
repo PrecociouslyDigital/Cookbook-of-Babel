@@ -1,0 +1,48 @@
+{
+  "id": "valencian_inspired_paella.step_17",
+  "source": "wikibooks_valencian_inspired_paella",
+  "sourceRef": {
+    "source": "wikibooks_valencian_inspired_paella",
+    "step": 17
+  },
+  "technique": "separate",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "valencian_inspired_paella_step_16",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "valencian_inspired_paella_step_17",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Cut the leaves from the artichoke hearts and scoop out the spiny threads. You will use the hearts and stems in the paella. Save the leaves for another day.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

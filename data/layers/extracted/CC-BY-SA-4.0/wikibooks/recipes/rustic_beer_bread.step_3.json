@@ -1,0 +1,48 @@
+{
+  "id": "rustic_beer_bread.step_3",
+  "source": "wikibooks_rustic_beer_bread",
+  "sourceRef": {
+    "source": "wikibooks_rustic_beer_bread",
+    "step": 3
+  },
+  "technique": "knead",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "rustic_beer_bread_step_2",
+        "amount": {
+          "qty": 776.2,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "rustic_beer_bread_step_3",
+      "amount": {
+        "qty": 776.2,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Mix the ingredients above into a dough, and knead on an unfloured surface until an smooth elastic dough is formed.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

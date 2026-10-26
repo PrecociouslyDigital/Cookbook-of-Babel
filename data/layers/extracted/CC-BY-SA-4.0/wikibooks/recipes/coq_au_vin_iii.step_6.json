@@ -1,0 +1,48 @@
+{
+  "id": "coq_au_vin_iii.step_6",
+  "source": "wikibooks_coq_au_vin_iii",
+  "sourceRef": {
+    "source": "wikibooks_coq_au_vin_iii",
+    "step": 6
+  },
+  "technique": "chill",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "coq_au_vin_iii_step_5",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "coq_au_vin_iii_step_6",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 30,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Remove the chicken pieces to the pyrex lid and pour the skillet sauce into the jug; put the jug in the freezer for 30 minutes and then remove the fat. At this stage, it is recommended that you refrigerate the whole dish overnight.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "the step names several durations; used the first"
+    }
+  ]
+}

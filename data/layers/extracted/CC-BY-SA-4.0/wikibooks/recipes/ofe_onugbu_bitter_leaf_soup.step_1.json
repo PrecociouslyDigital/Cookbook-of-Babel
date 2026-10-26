@@ -1,0 +1,53 @@
+{
+  "id": "ofe_onugbu_bitter_leaf_soup.step_1",
+  "source": "wikibooks_ofe_onugbu_bitter_leaf_soup",
+  "sourceRef": {
+    "source": "wikibooks_ofe_onugbu_bitter_leaf_soup",
+    "step": 1
+  },
+  "technique": "rinse",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "bitterleaf",
+        "amount": {
+          "qty": 1.5,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "ofe_onugbu_bitter_leaf_soup_step_1",
+      "amount": {
+        "qty": 354.9,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Wash the bitter leaves thoroughly, squeezing and rinsing several times to reduce the bitterness. Set aside.",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for bitterleaf"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

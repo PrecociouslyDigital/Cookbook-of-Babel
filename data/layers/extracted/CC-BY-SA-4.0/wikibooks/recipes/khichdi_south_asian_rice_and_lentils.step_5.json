@@ -1,0 +1,48 @@
+{
+  "id": "khichdi_south_asian_rice_and_lentils.step_5",
+  "source": "wikibooks_khichdi_south_asian_rice_and_lentils",
+  "sourceRef": {
+    "source": "wikibooks_khichdi_south_asian_rice_and_lentils",
+    "step": 5
+  },
+  "technique": "cool",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "khichdi_south_asian_rice_and_lentils_step_4",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "khichdi_south_asian_rice_and_lentils",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Allow to cool. Serve with ghee or buttermilk.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

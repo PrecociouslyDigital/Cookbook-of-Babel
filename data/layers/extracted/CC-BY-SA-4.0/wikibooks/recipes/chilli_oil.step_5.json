@@ -1,0 +1,48 @@
+{
+  "id": "chilli_oil.step_5",
+  "source": "wikibooks_chilli_oil",
+  "sourceRef": {
+    "source": "wikibooks_chilli_oil",
+    "step": 5
+  },
+  "technique": "cool",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "chilli_oil_step_4",
+        "amount": {
+          "qty": 171.3,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "chilli_oil",
+      "amount": {
+        "qty": 171.3,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Allow to cool and store in a container.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

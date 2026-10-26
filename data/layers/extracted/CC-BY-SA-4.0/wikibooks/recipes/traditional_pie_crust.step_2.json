@@ -1,0 +1,55 @@
+{
+  "id": "traditional_pie_crust.step_2",
+  "source": "wikibooks_traditional_pie_crust",
+  "sourceRef": {
+    "source": "wikibooks_traditional_pie_crust",
+    "step": 2
+  },
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "traditional_pie_crust_step_1",
+        "amount": {
+          "qty": 450.4,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "lard",
+        "amount": {
+          "qty": 110,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "traditional_pie_crust_step_2",
+      "amount": {
+        "qty": 560.4,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Add the lard, and cut it into the dry mixture.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

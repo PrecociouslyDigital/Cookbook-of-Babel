@@ -1,0 +1,87 @@
+{
+  "id": "potage_parmentier.step_2",
+  "source": "wikibooks_potage_parmentier",
+  "sourceRef": {
+    "source": "wikibooks_potage_parmentier",
+    "step": 2
+  },
+  "technique": "simmer",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "potage_parmentier_step_1",
+        "amount": {
+          "qty": 828.1,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "potato",
+        "amount": {
+          "qty": 800,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "water",
+        "amount": {
+          "qty": 2,
+          "unit": "qt"
+        }
+      },
+      {
+        "ingredient": "salt",
+        "amount": {
+          "qty": 2,
+          "unit": "tbsp"
+        }
+      },
+      {
+        "min": 0,
+        "max": 1,
+        "of": [
+          {
+            "ingredient": "vegetable",
+            "amount": {
+              "qty": 1.5,
+              "unit": "cup"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "potage_parmentier_step_2",
+      "amount": {
+        "qty": 3911.2,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 90,
+    "medium": "simmering_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 47.5,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Place the vegetables, water and salt in a pot and bring to a boil. Lower the heat and gently simmer (partially covered) for 45–50 minutes. The soup is done when you can easily mash the vegetables against the side of the pot.",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for vegetable"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of simmer's typical range"
+    }
+  ]
+}

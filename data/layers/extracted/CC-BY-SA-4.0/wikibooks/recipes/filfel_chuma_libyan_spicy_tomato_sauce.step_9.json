@@ -1,0 +1,48 @@
+{
+  "id": "filfel_chuma_libyan_spicy_tomato_sauce.step_9",
+  "source": "wikibooks_filfel_chuma_libyan_spicy_tomato_sauce",
+  "sourceRef": {
+    "source": "wikibooks_filfel_chuma_libyan_spicy_tomato_sauce",
+    "step": 9
+  },
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "filfel_chuma_libyan_spicy_tomato_sauce_step_8",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "filfel_chuma_libyan_spicy_tomato_sauce_step_9",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Taste and adjust the seasoning according to your preference.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

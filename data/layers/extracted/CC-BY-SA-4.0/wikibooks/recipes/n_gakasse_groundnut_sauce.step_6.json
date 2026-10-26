@@ -1,0 +1,72 @@
+{
+  "id": "n_gakasse_groundnut_sauce.step_6",
+  "source": "wikibooks_n_gakasse_groundnut_sauce",
+  "sourceRef": {
+    "source": "wikibooks_n_gakasse_groundnut_sauce",
+    "step": 6
+  },
+  "technique": "stir_fry",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "n_gakasse_groundnut_sauce_step_5",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "tomato",
+        "amount": {
+          "qty": 2,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "pepper",
+        "amount": {
+          "qty": 1,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "n_gakasse_groundnut_sauce_step_6",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 215,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 5,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Stir in the chopped tomatoes and diced bell pepper. Cook the mixture for about 5 minutes until the vegetables soften.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.37"
+    },
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'1 bell pepper, diced': 'bell' read as pieces"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of stir_fry's typical range"
+    }
+  ]
+}

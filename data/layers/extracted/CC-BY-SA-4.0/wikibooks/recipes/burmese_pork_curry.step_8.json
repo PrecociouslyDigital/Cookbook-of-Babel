@@ -1,0 +1,93 @@
+{
+  "id": "burmese_pork_curry.step_8",
+  "source": "wikibooks_burmese_pork_curry",
+  "sourceRef": {
+    "source": "wikibooks_burmese_pork_curry",
+    "step": 8
+  },
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "burmese_pork_curry_step_7",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "brown_sugar",
+        "amount": {
+          "qty": 5,
+          "unit": "ml"
+        }
+      },
+      {
+        "ingredient": "tamarind",
+        "amount": {
+          "qty": 45,
+          "unit": "ml"
+        }
+      },
+      {
+        "ingredient": "garlic",
+        "amount": {
+          "qty": 15,
+          "unit": "ml"
+        }
+      },
+      {
+        "ingredient": "shallot",
+        "amount": {
+          "qty": 4,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "fish_sauce",
+        "amount": {
+          "qty": 15,
+          "unit": "ml"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "burmese_pork_curry_step_8",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 90,
+    "medium": "simmering_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Stir the sugar, tamarind, garlic, shallots, and fish sauce into the meat until the sugar and tamarind are dissolved.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.55"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 90.0 °C for simmering_water"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

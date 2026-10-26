@@ -1,0 +1,48 @@
+{
+  "id": "classic_pot_roast.step_7",
+  "source": "wikibooks_classic_pot_roast",
+  "sourceRef": {
+    "source": "wikibooks_classic_pot_roast",
+    "step": 7
+  },
+  "technique": "roast",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "classic_pot_roast_step_6",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "classic_pot_roast",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 110,
+    "medium": "oven_air"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 6,
+      "unit": "h"
+    }
+  },
+  "stateNote": "Cover and place into a 225°F (110°C) oven and cook 6 hours.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.54"
+    }
+  ]
+}

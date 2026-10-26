@@ -1,0 +1,58 @@
+{
+  "id": "cioppino_italian_seafood_stew.step_10",
+  "source": "wikibooks_cioppino_italian_seafood_stew",
+  "sourceRef": {
+    "source": "wikibooks_cioppino_italian_seafood_stew",
+    "step": 10
+  },
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "cioppino_italian_seafood_stew_step_9",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "cioppino_italian_seafood_stew",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 90,
+    "medium": "simmering_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Season the soup to taste with more salt and red pepper flakes.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 90.0 °C for simmering_water"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    },
+    {
+      "field": "inputs",
+      "kind": "missing",
+      "note": "no step uses '2 loaves of San Francisco sourdough bread or any other bread with a chewy crust' (p=1.0)"
+    }
+  ]
+}

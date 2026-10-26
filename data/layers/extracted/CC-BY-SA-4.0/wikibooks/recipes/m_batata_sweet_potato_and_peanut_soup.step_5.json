@@ -1,0 +1,53 @@
+{
+  "id": "m_batata_sweet_potato_and_peanut_soup.step_5",
+  "source": "wikibooks_m_batata_sweet_potato_and_peanut_soup",
+  "sourceRef": {
+    "source": "wikibooks_m_batata_sweet_potato_and_peanut_soup",
+    "step": 5
+  },
+  "technique": "blend",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "m_batata_sweet_potato_and_peanut_soup_step_4",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "m_batata_sweet_potato_and_peanut_soup_step_5",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Transfer the toasted peanuts to a blender or food processor and process them until they form a smooth peanut butter-like consistency. You may need to scrape down the sides of the blender or food processor a few times to ensure everything is well blended.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.53"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

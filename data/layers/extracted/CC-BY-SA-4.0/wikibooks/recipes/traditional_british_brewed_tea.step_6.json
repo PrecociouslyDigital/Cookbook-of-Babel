@@ -1,0 +1,48 @@
+{
+  "id": "traditional_british_brewed_tea.step_6",
+  "source": "wikibooks_traditional_british_brewed_tea",
+  "sourceRef": {
+    "source": "wikibooks_traditional_british_brewed_tea",
+    "step": 6
+  },
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "traditional_british_brewed_tea_step_5",
+        "amount": {
+          "qty": 0.6,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "traditional_british_brewed_tea",
+      "amount": {
+        "qty": 0.6,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Add sugar according to taste and the extent of the emotional crisis you are trying to overcome.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

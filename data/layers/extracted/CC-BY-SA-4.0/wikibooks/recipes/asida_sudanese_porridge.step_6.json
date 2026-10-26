@@ -1,0 +1,70 @@
+{
+  "id": "asida_sudanese_porridge.step_6",
+  "source": "wikibooks_asida_sudanese_porridge",
+  "sourceRef": {
+    "source": "wikibooks_asida_sudanese_porridge",
+    "step": 6
+  },
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "asida_sudanese_porridge_step_5",
+        "amount": {
+          "qty": 726.1,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "clarified_butter",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "asida_sudanese_porridge",
+      "amount": {
+        "qty": 726.4,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Transfer the asida to a serving dish or individual plates. Drizzle a little clarified butter or vegetable oil over the top for added richness and shine. Asida is traditionally eaten by tearing off a piece of the porridge with your fingers, rolling it into a small ball, and dipping it into the honey or date filling. It can be enjoyed warm or at room temperature.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.53"
+    },
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Clarified butter or vegetable oil': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for clarified_butter"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

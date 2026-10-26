@@ -1,0 +1,93 @@
+{
+  "id": "wassel.step_1",
+  "source": "wikibooks_wassel",
+  "sourceRef": {
+    "source": "wikibooks_wassel",
+    "step": 1
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "apple",
+        "amount": {
+          "qty": 1.5,
+          "unit": "gal"
+        }
+      },
+      {
+        "ingredient": "cranberry",
+        "amount": {
+          "qty": 128,
+          "unit": "oz"
+        }
+      },
+      {
+        "ingredient": "grape",
+        "amount": {
+          "qty": 128,
+          "unit": "oz"
+        }
+      },
+      {
+        "ingredient": "orange",
+        "amount": {
+          "qty": 2,
+          "unit": "cup"
+        }
+      },
+      {
+        "ingredient": "basic_mulling_spice",
+        "amount": {
+          "qty": 6,
+          "unit": "oz"
+        }
+      },
+      {
+        "ingredient": "orange",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "wassel_step_1",
+      "amount": {
+        "qty": 13579.3,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Mix together liquid ingredients, then stir in mulling spices and orange slices.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Sliced oranges': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for apple, orange, orange"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

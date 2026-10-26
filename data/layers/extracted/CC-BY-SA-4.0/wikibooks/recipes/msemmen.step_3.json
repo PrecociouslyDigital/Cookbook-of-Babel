@@ -1,0 +1,48 @@
+{
+  "id": "msemmen.step_3",
+  "source": "wikibooks_msemmen",
+  "sourceRef": {
+    "source": "wikibooks_msemmen",
+    "step": 3
+  },
+  "technique": "separate",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "msemmen_step_2",
+        "amount": {
+          "qty": 798.2,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "msemmen_step_3",
+      "amount": {
+        "qty": 798.2,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 30,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Divide the dough into small balls and let rest for 30 minutes.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.58"
+    }
+  ]
+}

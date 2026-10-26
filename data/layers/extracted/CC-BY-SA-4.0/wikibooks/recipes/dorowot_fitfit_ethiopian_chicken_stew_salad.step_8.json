@@ -1,0 +1,55 @@
+{
+  "id": "dorowot_fitfit_ethiopian_chicken_stew_salad.step_8",
+  "source": "wikibooks_dorowot_fitfit_ethiopian_chicken_stew_salad",
+  "sourceRef": {
+    "source": "wikibooks_dorowot_fitfit_ethiopian_chicken_stew_salad",
+    "step": 8
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "dorowot_fitfit_ethiopian_chicken_stew_salad_step_7",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "injera_ethiopian_teff_flatbread",
+        "amount": {
+          "qty": 5,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "dorowot_fitfit_ethiopian_chicken_stew_salad_step_8",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "In a large bowl, place the torn pieces of injera.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

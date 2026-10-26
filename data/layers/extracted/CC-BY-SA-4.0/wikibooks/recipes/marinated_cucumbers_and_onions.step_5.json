@@ -1,0 +1,48 @@
+{
+  "id": "marinated_cucumbers_and_onions.step_5",
+  "source": "wikibooks_marinated_cucumbers_and_onions",
+  "sourceRef": {
+    "source": "wikibooks_marinated_cucumbers_and_onions",
+    "step": 5
+  },
+  "technique": "chill",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "marinated_cucumbers_and_onions_step_4",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "marinated_cucumbers_and_onions",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Let it sit in a cool place or refrigerator for at least two hours, stirring occasionally.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

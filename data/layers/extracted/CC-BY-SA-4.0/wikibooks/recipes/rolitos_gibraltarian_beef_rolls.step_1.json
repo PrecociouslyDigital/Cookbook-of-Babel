@@ -1,0 +1,69 @@
+{
+  "id": "rolitos_gibraltarian_beef_rolls.step_1",
+  "source": "wikibooks_rolitos_gibraltarian_beef_rolls",
+  "sourceRef": {
+    "source": "wikibooks_rolitos_gibraltarian_beef_rolls",
+    "step": 1
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "veal",
+        "amount": {
+          "qty": 8,
+          "unit": "slice"
+        }
+      },
+      {
+        "ingredient": "ham",
+        "amount": {
+          "qty": 4,
+          "unit": "slice"
+        }
+      },
+      {
+        "ingredient": "hard_cooked_eggs",
+        "amount": {
+          "qty": 2,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "olive",
+        "amount": {
+          "qty": 8,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "rolitos_gibraltarian_beef_rolls_step_1",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Lay out one slice of veal on worktop; place on it half a slice of ham, quarter egg and 2 olive halves.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

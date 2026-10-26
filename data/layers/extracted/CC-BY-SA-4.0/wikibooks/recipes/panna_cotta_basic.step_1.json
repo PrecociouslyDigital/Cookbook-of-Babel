@@ -1,0 +1,55 @@
+{
+  "id": "panna_cotta_basic.step_1",
+  "source": "wikibooks_panna_cotta_basic",
+  "sourceRef": {
+    "source": "wikibooks_panna_cotta_basic",
+    "step": 1
+  },
+  "technique": "dissolve",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "gelatin",
+        "amount": {
+          "qty": 0.75,
+          "unit": "tsp"
+        }
+      },
+      {
+        "ingredient": "cream",
+        "amount": {
+          "qty": 2,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "panna_cotta_basic_step_1",
+      "amount": {
+        "qty": 476.9,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 5,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Allow the gelatin to bloom in 1 Tbsp of the cream for about 5 minutes.",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for gelatin, cream"
+    }
+  ]
+}

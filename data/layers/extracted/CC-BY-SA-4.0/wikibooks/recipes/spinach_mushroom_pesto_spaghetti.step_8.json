@@ -1,0 +1,53 @@
+{
+  "id": "spinach_mushroom_pesto_spaghetti.step_8",
+  "source": "wikibooks_spinach_mushroom_pesto_spaghetti",
+  "sourceRef": {
+    "source": "wikibooks_spinach_mushroom_pesto_spaghetti",
+    "step": 8
+  },
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "spinach_mushroom_pesto_spaghetti_step_6",
+        "amount": {
+          "qty": 940.4,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "spinach_mushroom_pesto_spaghetti",
+      "amount": {
+        "qty": 940.4,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "To serve, sprinkle with some extra cheese.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.52"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "id": "kek_batik_malaysian_tiffin.step_3",
+  "source": "wikibooks_kek_batik_malaysian_tiffin",
+  "sourceRef": {
+    "source": "wikibooks_kek_batik_malaysian_tiffin",
+    "step": 3
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "kek_batik_malaysian_tiffin_step_2",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "marie_biscuits",
+        "amount": {
+          "qty": 2,
+          "unit": "package"
+        }
+      },
+      {
+        "ingredient": "nestum_cereal_flakes",
+        "amount": {
+          "qty": 1,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "kek_batik_malaysian_tiffin_step_3",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 180,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Remove from the heat, and stir in the biscuit pieces and cereal flakes so everything is well coated with the chocolate mixture.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.48"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 180.0 °C for pan_contact"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

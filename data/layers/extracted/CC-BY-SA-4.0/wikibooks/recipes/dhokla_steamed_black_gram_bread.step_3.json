@@ -1,0 +1,67 @@
+{
+  "id": "dhokla_steamed_black_gram_bread.step_3",
+  "source": "wikibooks_dhokla_steamed_black_gram_bread",
+  "sourceRef": {
+    "source": "wikibooks_dhokla_steamed_black_gram_bread",
+    "step": 3
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "dhokla_steamed_black_gram_bread_step_2",
+        "amount": {
+          "qty": 295.8,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "yogurt",
+        "amount": {
+          "qty": 0.25,
+          "unit": "cup"
+        }
+      },
+      {
+        "ingredient": "water",
+        "amount": {
+          "qty": 1.5,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "dhokla_steamed_black_gram_bread_step_3",
+      "amount": {
+        "qty": 709.8,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Mix yoghurt and warm water into the powder. Mix thoroughly so that no lumps are formed and the batter is of pouring consistency.",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for yogurt"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

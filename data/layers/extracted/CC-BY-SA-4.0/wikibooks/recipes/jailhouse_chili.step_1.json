@@ -1,0 +1,55 @@
+{
+  "id": "jailhouse_chili.step_1",
+  "source": "wikibooks_jailhouse_chili",
+  "sourceRef": {
+    "source": "wikibooks_jailhouse_chili",
+    "step": 1
+  },
+  "technique": "simmer",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "beef",
+        "amount": {
+          "qty": 25,
+          "unit": "lb"
+        }
+      },
+      {
+        "ingredient": "chiles",
+        "amount": {
+          "qty": 2,
+          "unit": "handful"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "jailhouse_chili_step_1",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 90,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 30,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Sear beef in a little cooking oil (not lard) until lightly browned. Drop the seared beef and chili peppers in a large stock pot, and add enough water to keep the meat from burning. Bring to a boil, then lower heat, cover, and simmer about 30 minutes.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of simmer's typical range"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": "spinach_calzones.step_4",
+  "source": "wikibooks_spinach_calzones",
+  "sourceRef": {
+    "source": "wikibooks_spinach_calzones",
+    "step": 4
+  },
+  "technique": "bake",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "spinach_calzones_step_3",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "spinach_calzones",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 200,
+    "medium": "oven_air"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 30,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Bake for 30 minutes in the preheated oven, or until nicely browned on the tops and bottoms.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "missing",
+      "note": "no step uses 'Salt to taste' (p=0.86)"
+    },
+    {
+      "field": "inputs",
+      "kind": "missing",
+      "note": "no step uses 'Pepper to taste' (p=0.88)"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "beet_pickled_eggs.step_2",
+  "source": "wikibooks_beet_pickled_eggs",
+  "sourceRef": {
+    "source": "wikibooks_beet_pickled_eggs",
+    "step": 2
+  },
+  "technique": "boil",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "beet_pickled_eggs_step_1",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "beet_pickled_eggs_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 100,
+    "medium": "boiling_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 12,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Boil uncovered for 12 minutes.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of boil's typical range"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "plain_scones.step_4",
+  "source": "wikibooks_plain_scones",
+  "sourceRef": {
+    "source": "wikibooks_plain_scones",
+    "step": 4
+  },
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "plain_scones_step_3",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "plain_scones_step_4",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Turn the dough onto a lightly floured surface and knead once or twice, then press it into a 2 cm (¾ inch) thick circle. Cut out 5 cm (2 inch) rounds with a biscuit cutter or glass.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

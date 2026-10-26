@@ -1,0 +1,65 @@
+{
+  "id": "khaman_dhokla_steamed_gram_bread.step_3",
+  "source": "wikibooks_khaman_dhokla_steamed_gram_bread",
+  "sourceRef": {
+    "source": "wikibooks_khaman_dhokla_steamed_gram_bread",
+    "step": 3
+  },
+  "technique": "carbonate",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "khaman_dhokla_steamed_gram_bread_step_2",
+        "amount": {
+          "qty": 281.2,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "fruit_salt",
+        "amount": {
+          "qty": 1.5,
+          "unit": "tsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "khaman_dhokla_steamed_gram_bread_step_3",
+      "amount": {
+        "qty": 288.6,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Add the fruit salt and 2 tsp water. Wait for the bubbles to form, then mix gently to distribute the leavening through the batter.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.58"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for fruit_salt"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

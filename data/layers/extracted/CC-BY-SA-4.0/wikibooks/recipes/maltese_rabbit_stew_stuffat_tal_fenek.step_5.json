@@ -1,0 +1,55 @@
+{
+  "id": "maltese_rabbit_stew_stuffat_tal_fenek.step_5",
+  "source": "wikibooks_maltese_rabbit_stew_stuffat_tal_fenek",
+  "sourceRef": {
+    "source": "wikibooks_maltese_rabbit_stew_stuffat_tal_fenek",
+    "step": 5
+  },
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "maltese_rabbit_stew_stuffat_tal_fenek_step_4",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "potato",
+        "amount": {
+          "qty": 300,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "maltese_rabbit_stew_stuffat_tal_fenek_step_5",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Cut the potatoes into large irregular chunks, slightly smaller than the pieces of meat.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

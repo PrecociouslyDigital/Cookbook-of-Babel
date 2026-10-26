@@ -1,0 +1,75 @@
+{
+  "id": "chow_mein.step_7",
+  "source": "wikibooks_chow_mein",
+  "sourceRef": {
+    "source": "wikibooks_chow_mein",
+    "step": 7
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "chow_mein_step_6",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "sesame_seed",
+        "amount": {
+          "qty": 0.25,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "chow_mein",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 180,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Give the sauce a quick re-stir. Add all the ingredients back into the wok, making a \"well\" in the middle of the wok for the sauce. Add the sauce and any remaining marinade, stirring quickly to thicken. Mix everything together. Stir in the green onions. Pour the cooked vegetable and sauce mixture on top of the noodles. Garnish the chow mein with the toasted sesame seeds. Serve hot.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.37"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 180.0 °C for pan_contact"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    },
+    {
+      "field": "inputs",
+      "kind": "missing",
+      "note": "no step uses '¼ cup finely-chopped shiitake mushrooms' (p=0.59)"
+    },
+    {
+      "field": "inputs",
+      "kind": "missing",
+      "note": "no step uses '2 teaspoons sesame oil' (p=0.63)"
+    }
+  ]
+}

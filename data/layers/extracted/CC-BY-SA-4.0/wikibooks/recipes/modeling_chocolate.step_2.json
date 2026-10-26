@@ -1,0 +1,48 @@
+{
+  "id": "modeling_chocolate.step_2",
+  "source": "wikibooks_modeling_chocolate",
+  "sourceRef": {
+    "source": "wikibooks_modeling_chocolate",
+    "step": 2
+  },
+  "technique": "cool",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "modeling_chocolate_step_1",
+        "amount": {
+          "qty": 450,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "modeling_chocolate_step_2",
+      "amount": {
+        "qty": 450,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 35,
+    "medium": "still_air"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Leave to cool slightly to temperature around 35 °C (95 °F).",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

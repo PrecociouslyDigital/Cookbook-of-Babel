@@ -1,0 +1,58 @@
+{
+  "id": "steamed_pork_with_mustard_greens.step_3",
+  "source": "wikibooks_steamed_pork_with_mustard_greens",
+  "sourceRef": {
+    "source": "wikibooks_steamed_pork_with_mustard_greens",
+    "step": 3
+  },
+  "technique": "rinse",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "steamed_pork_with_mustard_greens_step_2",
+        "amount": {
+          "qty": 297.7,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "steamed_pork_with_mustard_greens_step_3",
+      "amount": {
+        "qty": 297.7,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Drain greens and rinse with cold water to stop the cooking. Drain again, then cut greens into long diagonal strips.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.4"
+    },
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.51"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

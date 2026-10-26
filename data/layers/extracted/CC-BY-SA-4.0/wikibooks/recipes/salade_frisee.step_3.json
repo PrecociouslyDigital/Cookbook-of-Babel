@@ -1,0 +1,55 @@
+{
+  "id": "salade_frisee.step_3",
+  "source": "wikibooks_salade_frisee",
+  "sourceRef": {
+    "source": "wikibooks_salade_frisee",
+    "step": 3
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "salade_frisee_step_1",
+        "amount": {
+          "qty": 3903.9,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "goat_cheese_cakes",
+        "amount": {
+          "qty": 8,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "salade_frisee_step_3",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Top each salad with a goat cheese cake.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "id": "lolly_cake.step_4",
+  "source": "wikibooks_lolly_cake",
+  "sourceRef": {
+    "source": "wikibooks_lolly_cake",
+    "step": 4
+  },
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "lolly_cake_step_3",
+        "amount": {
+          "qty": 570.3,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "fruit_puffs",
+        "amount": {
+          "qty": 180,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "lolly_cake_step_4",
+      "amount": {
+        "qty": 750.3,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Cut the fruit puffs in half if you want or leave them whole.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

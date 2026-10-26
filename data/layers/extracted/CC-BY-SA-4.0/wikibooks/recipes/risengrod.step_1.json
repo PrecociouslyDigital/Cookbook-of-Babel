@@ -1,0 +1,55 @@
+{
+  "id": "risengrod.step_1",
+  "source": "wikibooks_risengrod",
+  "sourceRef": {
+    "source": "wikibooks_risengrod",
+    "step": 1
+  },
+  "technique": "boil",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "water",
+        "amount": {
+          "qty": 3,
+          "unit": "dl"
+        }
+      },
+      {
+        "ingredient": "rice",
+        "amount": {
+          "qty": 180,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "risengrod_step_1",
+      "amount": {
+        "qty": 480,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 100,
+    "medium": "boiling_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 2,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Bring water and rice to a boil in a deep pot. Boil the rice at steady heat and with active stirring for approximately 2 minutes.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of boil's typical range"
+    }
+  ]
+}

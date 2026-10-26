@@ -1,0 +1,77 @@
+{
+  "id": "dosa_ii.step_1",
+  "source": "wikibooks_dosa_ii",
+  "sourceRef": {
+    "source": "wikibooks_dosa_ii",
+    "step": 1
+  },
+  "technique": "ferment",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "rice",
+        "amount": {
+          "qty": 360,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "urad_bean",
+        "amount": {
+          "qty": 90,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "fenugreek",
+        "amount": {
+          "qty": 0.5,
+          "unit": "tsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "dosa_ii_step_1",
+      "amount": {
+        "qty": 452.5,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 8,
+      "unit": "h"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Soak rice, dal, and fenugreek seeds separately overnight. Don't soak the dal longer than 3-4 hours. Do soak the rice for at least 6-8 hours.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.35"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for fenugreek"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "'overnight' read as 8 hours"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "the step names several durations; used the first"
+    }
+  ]
+}

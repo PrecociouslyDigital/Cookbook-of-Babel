@@ -1,0 +1,65 @@
+{
+  "id": "karkanji_chadian_spiced_hibiscus_drink.step_7",
+  "source": "wikibooks_karkanji_chadian_spiced_hibiscus_drink",
+  "sourceRef": {
+    "source": "wikibooks_karkanji_chadian_spiced_hibiscus_drink",
+    "step": 7
+  },
+  "technique": "dissolve",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "karkanji_chadian_spiced_hibiscus_drink_step_6",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "white_sugar",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "karkanji_chadian_spiced_hibiscus_drink_step_7",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Stir in sugar while the drink is still warm, adjusting to your preferred sweetness level.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.43"
+    },
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Sugar, to taste (start with ½ cup)': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

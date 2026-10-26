@@ -1,0 +1,48 @@
+{
+  "id": "steamed_tuna_bao_buns.step_12",
+  "source": "wikibooks_steamed_tuna_bao_buns",
+  "sourceRef": {
+    "source": "wikibooks_steamed_tuna_bao_buns",
+    "step": 12
+  },
+  "technique": "ferment",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "steamed_tuna_bao_buns_step_11",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "steamed_tuna_bao_buns_step_12",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 2,
+      "unit": "h"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Let rest, uncovered, for around 2 hours",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.58"
+    }
+  ]
+}

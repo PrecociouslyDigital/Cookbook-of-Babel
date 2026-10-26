@@ -1,0 +1,67 @@
+{
+  "id": "kashkaval_pane_bulgarian_fried_cheese.step_3",
+  "source": "wikibooks_kashkaval_pane_bulgarian_fried_cheese",
+  "sourceRef": {
+    "source": "wikibooks_kashkaval_pane_bulgarian_fried_cheese",
+    "step": 3
+  },
+  "technique": "whisk",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "kashkaval_pane_bulgarian_fried_cheese_step_1",
+        "amount": {
+          "qty": 340.2,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "oil_and_fat",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      },
+      {
+        "ingredient": "egg",
+        "amount": {
+          "qty": 2,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "kashkaval_pane_bulgarian_fried_cheese_step_3",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Beat the eggs in a shallow bowl, while the oil is heating.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Oil for deep frying': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

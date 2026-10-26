@@ -1,0 +1,82 @@
+{
+  "id": "atama_soup.step_3",
+  "source": "wikibooks_atama_soup",
+  "sourceRef": {
+    "source": "wikibooks_atama_soup",
+    "step": 3
+  },
+  "technique": "boil",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "atama_soup_step_2",
+        "amount": {
+          "qty": 237.6,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "potash",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      },
+      {
+        "ingredient": "snail",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "atama_soup_step_3",
+      "amount": {
+        "qty": 238.2,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 100,
+    "medium": "boiling_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Remove unwanted bits of snails, add 2 tbsp salt, and knead to remove the slime. Use lime to wash snail thoroughly to remove the remaining slime. Season and boil snail until it’s cooked.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Small piece of lime/alum': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Medium-sized snails': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for potash, snail"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of boil's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

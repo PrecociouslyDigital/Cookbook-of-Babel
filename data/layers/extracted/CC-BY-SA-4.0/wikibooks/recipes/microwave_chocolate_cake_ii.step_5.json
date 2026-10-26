@@ -1,0 +1,58 @@
+{
+  "id": "microwave_chocolate_cake_ii.step_5",
+  "source": "wikibooks_microwave_chocolate_cake_ii",
+  "sourceRef": {
+    "source": "wikibooks_microwave_chocolate_cake_ii",
+    "step": 5
+  },
+  "technique": "bake",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "microwave_chocolate_cake_ii_step_4",
+        "amount": {
+          "qty": 272,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "microwave_chocolate_cake_ii_step_5",
+      "amount": {
+        "qty": 272,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 200,
+    "medium": "still_air"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 3,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Microwave for 3 minutes at 1000w / 4 minutes at 700w / 3:30 minutes at 750w.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.55"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of bake's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "the step names several durations; used the first"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "id": "ikijumba_n_umutsima_rwandan_sweet_potato_stew_with_corn_and_bean_dish.step_8",
+  "source": "wikibooks_ikijumba_n_umutsima_rwandan_sweet_potato_stew_with_corn_and_bean_dish",
+  "sourceRef": {
+    "source": "wikibooks_ikijumba_n_umutsima_rwandan_sweet_potato_stew_with_corn_and_bean_dish",
+    "step": 8
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "ikijumba_n_umutsima_rwandan_sweet_potato_stew_with_corn_and_bean_dish_step_7",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "min": 0,
+        "max": 1,
+        "of": [
+          {
+            "ingredient": "cilantro",
+            "amount": {
+              "qty": 1,
+              "unit": "pinch"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "ikijumba_n_umutsima_rwandan_sweet_potato_stew_with_corn_and_bean_dish",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Remove from heat and transfer to a serving dish. Garnish with fresh cilantro leaves, if desired, before serving.",
+  "issues": [
+    {
+      "field": "sourceRef",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.55"
+    },
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.35"
+    },
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Fresh cilantro leaves, for garnish (optional)': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

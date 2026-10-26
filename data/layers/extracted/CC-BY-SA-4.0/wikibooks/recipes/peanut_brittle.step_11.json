@@ -1,0 +1,48 @@
+{
+  "id": "peanut_brittle.step_11",
+  "source": "wikibooks_peanut_brittle",
+  "sourceRef": {
+    "source": "wikibooks_peanut_brittle",
+    "step": 11
+  },
+  "technique": "cool",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "peanut_brittle_step_10",
+        "amount": {
+          "qty": 656,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "peanut_brittle_step_11",
+      "amount": {
+        "qty": 656,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Allow to cool to room temperature.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

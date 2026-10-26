@@ -1,0 +1,67 @@
+{
+  "id": "shepherd_s_pie_ii.step_3",
+  "source": "wikibooks_shepherd_s_pie_ii",
+  "sourceRef": {
+    "source": "wikibooks_shepherd_s_pie_ii",
+    "step": 3
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "shepherd_s_pie_ii_step_2",
+        "amount": {
+          "qty": 453.6,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "mashed_potatoes",
+        "amount": {
+          "qty": 3.5,
+          "unit": "cup"
+        }
+      },
+      {
+        "ingredient": "creamed_corn",
+        "amount": {
+          "qty": 12,
+          "unit": "oz"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "shepherd_s_pie_ii_step_3",
+      "amount": {
+        "qty": 1621.9,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "In a medium baking pan, evenly layer the meat on the bottom, then corn. Spread a layer of potatoes.",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for mashed_potatoes"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

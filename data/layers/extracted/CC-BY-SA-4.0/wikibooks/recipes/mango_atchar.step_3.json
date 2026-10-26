@@ -1,0 +1,41 @@
+{
+  "id": "mango_atchar.step_3",
+  "source": "wikibooks_mango_atchar",
+  "sourceRef": {
+    "source": "wikibooks_mango_atchar",
+    "step": 3
+  },
+  "technique": "chill",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "mango_atchar_step_2",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "mango_atchar",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 12,
+      "unit": "h"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Cool and refrigerate for at least 12 hours."
+}

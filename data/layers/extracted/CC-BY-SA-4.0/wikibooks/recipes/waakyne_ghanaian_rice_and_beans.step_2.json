@@ -1,0 +1,60 @@
+{
+  "id": "waakyne_ghanaian_rice_and_beans.step_2",
+  "source": "wikibooks_waakyne_ghanaian_rice_and_beans",
+  "sourceRef": {
+    "source": "wikibooks_waakyne_ghanaian_rice_and_beans",
+    "step": 2
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "waakyne_ghanaian_rice_and_beans_step_1",
+        "amount": {
+          "qty": 709.8,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "millet_stalk_leaves",
+        "amount": {
+          "qty": 4,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "waakyne_ghanaian_rice_and_beans_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Add the dried millet stalk leaves along with enough water to fully cover the beans by a couple inches.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.59"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

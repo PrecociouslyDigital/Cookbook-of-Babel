@@ -1,0 +1,53 @@
+{
+  "id": "speculaas_dutch_spiced_cookies.step_7",
+  "source": "wikibooks_speculaas_dutch_spiced_cookies",
+  "sourceRef": {
+    "source": "wikibooks_speculaas_dutch_spiced_cookies",
+    "step": 7
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "speculaas_dutch_spiced_cookies_step_6",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "speculaas_dutch_spiced_cookies_step_7",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Arrange the speculaas on a well-buttered baking sheet, leaving enough space between them to allow for spreading.",
+  "issues": [
+    {
+      "field": "sourceRef",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.58"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

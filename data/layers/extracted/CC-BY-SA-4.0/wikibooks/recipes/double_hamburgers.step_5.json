@@ -1,0 +1,53 @@
+{
+  "id": "double_hamburgers.step_5",
+  "source": "wikibooks_double_hamburgers",
+  "sourceRef": {
+    "source": "wikibooks_double_hamburgers",
+    "step": 5
+  },
+  "technique": "heat",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "double_hamburgers_step_4",
+        "amount": {
+          "qty": 500.6,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "double_hamburgers_step_5",
+      "amount": {
+        "qty": 500.6,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Ensure your burgers are fully cooked through before serving. If your burgers are quite thick or if you are unsure, you can cut one open to ensure the insides are browned. If the insides are red, there is a chance that the meat is not fully cooked. Alternately, you can insert a meat thermometer into the center of the burger, if the temperature reads less than 71°C (160°F), your burger is undercooked.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.52"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

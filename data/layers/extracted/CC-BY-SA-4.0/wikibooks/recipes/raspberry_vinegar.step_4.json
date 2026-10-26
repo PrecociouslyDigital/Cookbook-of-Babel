@@ -1,0 +1,48 @@
+{
+  "id": "raspberry_vinegar.step_4",
+  "source": "wikibooks_raspberry_vinegar",
+  "sourceRef": {
+    "source": "wikibooks_raspberry_vinegar",
+    "step": 4
+  },
+  "technique": "strain",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "raspberry_vinegar_step_3",
+        "amount": {
+          "qty": 2287.9,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "raspberry_vinegar",
+      "amount": {
+        "qty": 2287.9,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Strain and bottle.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "id": "akabenz_rwandan_fried_chicken.step_2",
+  "source": "wikibooks_akabenz_rwandan_fried_chicken",
+  "sourceRef": {
+    "source": "wikibooks_akabenz_rwandan_fried_chicken",
+    "step": 2
+  },
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "akabenz_rwandan_fried_chicken_step_1",
+        "amount": {
+          "qty": 160.9,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "chicken",
+        "amount": {
+          "qty": 2,
+          "unit": "lb"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "akabenz_rwandan_fried_chicken_step_2",
+      "amount": {
+        "qty": 1068.1,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Coat each piece of chicken with the seasoned flour mixture, making sure to shake off any excess.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

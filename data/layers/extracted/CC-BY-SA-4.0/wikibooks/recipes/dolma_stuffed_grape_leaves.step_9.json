@@ -1,0 +1,48 @@
+{
+  "id": "dolma_stuffed_grape_leaves.step_9",
+  "source": "wikibooks_dolma_stuffed_grape_leaves",
+  "sourceRef": {
+    "source": "wikibooks_dolma_stuffed_grape_leaves",
+    "step": 9
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "dolma_stuffed_grape_leaves_step_8",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "dolma_stuffed_grape_leaves_step_9",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Stuff the other vegetables, placing the zucchini and squash on their side and onions (rolled tightly) and tomatoes upright.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

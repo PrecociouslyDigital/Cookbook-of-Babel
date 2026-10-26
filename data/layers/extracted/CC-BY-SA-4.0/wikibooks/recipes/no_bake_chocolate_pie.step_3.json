@@ -1,0 +1,73 @@
+{
+  "id": "no_bake_chocolate_pie.step_3",
+  "source": "wikibooks_no_bake_chocolate_pie",
+  "sourceRef": {
+    "source": "wikibooks_no_bake_chocolate_pie",
+    "step": 3
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "no_bake_chocolate_pie_step_2",
+        "amount": {
+          "qty": 968.7,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "cookie",
+        "amount": {
+          "qty": 2.5,
+          "unit": "package"
+        }
+      },
+      {
+        "min": 0,
+        "max": 1,
+        "of": [
+          {
+            "ingredient": "coffee",
+            "amount": {
+              "qty": 1,
+              "unit": "pinch"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "no_bake_chocolate_pie_step_3",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Dip biscuits in the coffee, and arrange them in the bottom of the dish to make a single layer. Spread the chocolate mixture on top of the biscuits. Repeat this step until you run out of biscuits and chocolate.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Cold brewed black coffee or other taste makers (optional)': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

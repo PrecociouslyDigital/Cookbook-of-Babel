@@ -1,0 +1,70 @@
+{
+  "id": "basic_cobbler.step_4",
+  "source": "wikibooks_basic_cobbler",
+  "sourceRef": {
+    "source": "wikibooks_basic_cobbler",
+    "step": 4
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "basic_cobbler_step_3",
+        "amount": {
+          "qty": 693.3,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "fruit",
+        "amount": {
+          "qty": 1,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "basic_cobbler_step_4",
+      "amount": {
+        "qty": 929.9,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 180,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Remove pan from oven. Pour batter into dish on top of melted butter. Do not stir. Spoon the fresh fruit out evenly across the top, but again, do not stir.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.57"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for fruit"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 180.0 °C for pan_contact"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

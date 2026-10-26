@@ -1,0 +1,65 @@
+{
+  "id": "sockerdricka_swedish_ginger_drink.step_4",
+  "source": "wikibooks_sockerdricka_swedish_ginger_drink",
+  "sourceRef": {
+    "source": "wikibooks_sockerdricka_swedish_ginger_drink",
+    "step": 4
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "sockerdricka_swedish_ginger_drink_step_3",
+        "amount": {
+          "qty": 21085.3,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "raisin",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "sockerdricka_swedish_ginger_drink_step_4",
+      "amount": {
+        "qty": 21085.6,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Put the drink in bottles, and add a raisin to each bottle.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Raisins': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for raisin"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

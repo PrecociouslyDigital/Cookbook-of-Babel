@@ -1,0 +1,48 @@
+{
+  "id": "tres_leches_cake_i.step_10",
+  "source": "wikibooks_tres_leches_cake_i",
+  "sourceRef": {
+    "source": "wikibooks_tres_leches_cake_i",
+    "step": 10
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "tres_leches_cake_i_step_9",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "tres_leches_cake_i_step_10",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Slowly pour the milk mixture over the cake. Since you greased the cake pan the milk will flow around and under the cake. The cake will absorb most of the milk.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

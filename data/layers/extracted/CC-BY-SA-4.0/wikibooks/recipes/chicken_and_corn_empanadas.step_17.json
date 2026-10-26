@@ -1,0 +1,48 @@
+{
+  "id": "chicken_and_corn_empanadas.step_17",
+  "source": "wikibooks_chicken_and_corn_empanadas",
+  "sourceRef": {
+    "source": "wikibooks_chicken_and_corn_empanadas",
+    "step": 17
+  },
+  "technique": "chill",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "chicken_and_corn_empanadas_step_16",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "chicken_and_corn_empanadas_step_17",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Refrigerate until ready to bake, up to two days ahead of time.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

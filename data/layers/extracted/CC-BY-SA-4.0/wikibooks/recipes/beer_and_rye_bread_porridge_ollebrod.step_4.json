@@ -1,0 +1,48 @@
+{
+  "id": "beer_and_rye_bread_porridge_ollebrod.step_4",
+  "source": "wikibooks_beer_and_rye_bread_porridge_ollebrod",
+  "sourceRef": {
+    "source": "wikibooks_beer_and_rye_bread_porridge_ollebrod",
+    "step": 4
+  },
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "beer_and_rye_bread_porridge_ollebrod_step_2",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "beer_and_rye_bread_porridge_ollebrod_step_4",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "In the evening, cut away the crust from the rye bread, and cut it into cubes.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "gambian_mbamba_soup.step_1",
+  "source": "wikibooks_gambian_mbamba_soup",
+  "sourceRef": {
+    "source": "wikibooks_gambian_mbamba_soup",
+    "step": 1
+  },
+  "technique": "separate",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "catfish",
+        "amount": {
+          "qty": 200,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "gambian_mbamba_soup_step_1",
+      "amount": {
+        "qty": 200,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 30,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Soak the dried fish in water for at least 30 minutes to rehydrate it. Once rehydrated, remove the bones and break the fish into smaller pieces. Set aside.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.47"
+    }
+  ]
+}

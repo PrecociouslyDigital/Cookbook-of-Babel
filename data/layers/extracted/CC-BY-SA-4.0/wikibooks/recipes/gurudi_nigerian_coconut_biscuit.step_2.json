@@ -1,0 +1,69 @@
+{
+  "id": "gurudi_nigerian_coconut_biscuit.step_2",
+  "source": "wikibooks_gurudi_nigerian_coconut_biscuit",
+  "sourceRef": {
+    "source": "wikibooks_gurudi_nigerian_coconut_biscuit",
+    "step": 2
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "gurudi_nigerian_coconut_biscuit_step_1",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "white_sugar",
+        "amount": {
+          "qty": 65,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "tapioca_starch",
+        "amount": {
+          "qty": 80,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "nutmeg",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "gurudi_nigerian_coconut_biscuit_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Combine the grated coconut, sugar, cassava starch, and nutmeg. Stir in water until it forms a dough ball.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

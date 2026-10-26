@@ -1,0 +1,83 @@
+{
+  "id": "bouillabaisse.step_1",
+  "source": "wikibooks_bouillabaisse",
+  "sourceRef": {
+    "source": "wikibooks_bouillabaisse",
+    "step": 1
+  },
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "sea_robin",
+        "amount": {
+          "qty": 660,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "scorpionfish",
+        "amount": {
+          "qty": 660,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "red_gurnard",
+        "amount": {
+          "qty": 660,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "conger",
+        "amount": {
+          "qty": 660,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "monkfish",
+        "amount": {
+          "qty": 660,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "john_dory",
+        "amount": {
+          "qty": 660,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "bouillabaisse_step_1",
+      "amount": {
+        "qty": 3960,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Scale the fish and wash them, if possible, in sea water. Cut them into large slices, leaving the bones.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

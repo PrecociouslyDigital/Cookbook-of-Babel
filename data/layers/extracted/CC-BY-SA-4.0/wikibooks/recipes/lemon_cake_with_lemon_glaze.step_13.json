@@ -1,0 +1,48 @@
+{
+  "id": "lemon_cake_with_lemon_glaze.step_13",
+  "source": "wikibooks_lemon_cake_with_lemon_glaze",
+  "sourceRef": {
+    "source": "wikibooks_lemon_cake_with_lemon_glaze",
+    "step": 13
+  },
+  "technique": "cool",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "lemon_cake_with_lemon_glaze_step_12",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "lemon_cake_with_lemon_glaze",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Let the cake cool completely before cutting it into squares.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

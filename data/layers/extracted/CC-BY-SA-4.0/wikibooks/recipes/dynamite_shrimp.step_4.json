@@ -1,0 +1,53 @@
+{
+  "id": "dynamite_shrimp.step_4",
+  "source": "wikibooks_dynamite_shrimp",
+  "sourceRef": {
+    "source": "wikibooks_dynamite_shrimp",
+    "step": 4
+  },
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "dynamite_shrimp_step_3",
+        "amount": {
+          "qty": 3003.3,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "dynamite_shrimp",
+      "amount": {
+        "qty": 3003.3,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Once all shrimp has been fried, toss with seasoning mixture. Serve immediately.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.37"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

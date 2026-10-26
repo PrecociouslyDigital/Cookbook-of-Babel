@@ -1,0 +1,48 @@
+{
+  "id": "homestyle_fried_potatoes.step_1",
+  "source": "wikibooks_homestyle_fried_potatoes",
+  "sourceRef": {
+    "source": "wikibooks_homestyle_fried_potatoes",
+    "step": 1
+  },
+  "technique": "rinse",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "potato",
+        "amount": {
+          "qty": 1,
+          "unit": "lb"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "homestyle_fried_potatoes_step_1",
+      "amount": {
+        "qty": 453.6,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Place potatoes into a container of very cold water. Let sit until potatoes, when rinsed, give off clear water.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

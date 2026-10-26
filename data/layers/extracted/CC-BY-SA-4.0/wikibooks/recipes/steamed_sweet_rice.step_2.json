@@ -1,0 +1,60 @@
+{
+  "id": "steamed_sweet_rice.step_2",
+  "source": "wikibooks_steamed_sweet_rice",
+  "sourceRef": {
+    "source": "wikibooks_steamed_sweet_rice",
+    "step": 2
+  },
+  "technique": "rinse",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "steamed_sweet_rice_step_1",
+        "amount": {
+          "qty": 354.9,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "water",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "steamed_sweet_rice_step_2",
+      "amount": {
+        "qty": 355.2,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Wash rice thoroughly in cool water, rinsing and repeating until water is clear, drain, then return rice to bowl.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Water': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "id": "vancouver_cheesecake.step_5",
+  "source": "wikibooks_vancouver_cheesecake",
+  "sourceRef": {
+    "source": "wikibooks_vancouver_cheesecake",
+    "step": 5
+  },
+  "technique": "fold",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "vancouver_cheesecake_step_4",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "vanilla",
+        "amount": {
+          "qty": 1,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "vancouver_cheesecake_step_5",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "To add the bean, using a sharp knife, slice down the length of the bean, peel open and scrape down the bean to collect the contents. Using a spatula or second knife, scrape the contents of the bean into the mixture. Fold in.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

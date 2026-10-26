@@ -1,0 +1,74 @@
+{
+  "id": "oven_pancakes_vegan.step_3",
+  "source": "wikibooks_oven_pancakes_vegan",
+  "sourceRef": {
+    "source": "wikibooks_oven_pancakes_vegan",
+    "step": 3
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "oven_pancakes_vegan_step_2",
+        "amount": {
+          "qty": 164.8,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "soy_milk_i",
+        "amount": {
+          "qty": 1,
+          "unit": "cup"
+        }
+      },
+      {
+        "ingredient": "vegetable_oil",
+        "amount": {
+          "qty": 2,
+          "unit": "tbsp"
+        }
+      },
+      {
+        "ingredient": "vanilla",
+        "amount": {
+          "qty": 2,
+          "unit": "tsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "oven_pancakes_vegan_step_3",
+      "amount": {
+        "qty": 438.5,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Add the soy milk, vegetable oil, and vanilla; stir well.",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for soy_milk_i, vanilla"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "id": "sausagemeat_pie.step_2",
+  "source": "wikibooks_sausagemeat_pie",
+  "sourceRef": {
+    "source": "wikibooks_sausagemeat_pie",
+    "step": 2
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "sausagemeat_pie_step_1",
+        "amount": {
+          "qty": 227.5,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "suet",
+        "amount": {
+          "qty": 4,
+          "unit": "oz"
+        }
+      },
+      {
+        "ingredient": "water",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "sausagemeat_pie_step_2",
+      "amount": {
+        "qty": 341.2,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Mix together the suet and flour with enough water to make a doughy consistency.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Water': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

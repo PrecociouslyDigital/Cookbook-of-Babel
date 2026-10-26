@@ -1,0 +1,48 @@
+{
+  "id": "hot_cocoa.step_2",
+  "source": "wikibooks_hot_cocoa",
+  "sourceRef": {
+    "source": "wikibooks_hot_cocoa",
+    "step": 2
+  },
+  "technique": "grind",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "hot_cocoa_step_1",
+        "amount": {
+          "qty": 71.5,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "hot_cocoa_step_2",
+      "amount": {
+        "qty": 71.5,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Pound with a spoon until very fine—this will help reduce stirring time.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

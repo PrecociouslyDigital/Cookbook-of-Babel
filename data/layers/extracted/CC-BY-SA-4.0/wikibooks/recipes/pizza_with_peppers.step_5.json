@@ -1,0 +1,55 @@
+{
+  "id": "pizza_with_peppers.step_5",
+  "source": "wikibooks_pizza_with_peppers",
+  "sourceRef": {
+    "source": "wikibooks_pizza_with_peppers",
+    "step": 5
+  },
+  "technique": "bake",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "pizza_with_peppers_step_4",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "chorizo",
+        "amount": {
+          "qty": 10,
+          "unit": "slice"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "pizza_with_peppers",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 220,
+    "medium": "oven_air"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 10,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Bake for 10 minutes at 220°C (430°F), then top with the chorizo and bake for another 5 minutes.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "the step names several durations; used the first"
+    }
+  ]
+}

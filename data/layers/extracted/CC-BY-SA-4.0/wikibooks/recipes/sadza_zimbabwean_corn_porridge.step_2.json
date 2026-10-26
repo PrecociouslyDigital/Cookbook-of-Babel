@@ -1,0 +1,67 @@
+{
+  "id": "sadza_zimbabwean_corn_porridge.step_2",
+  "source": "wikibooks_sadza_zimbabwean_corn_porridge",
+  "sourceRef": {
+    "source": "wikibooks_sadza_zimbabwean_corn_porridge",
+    "step": 2
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "sadza_zimbabwean_corn_porridge_step_1",
+        "amount": {
+          "qty": 946.4,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "maize_meal",
+        "amount": {
+          "qty": 2,
+          "unit": "cup"
+        }
+      },
+      {
+        "ingredient": "water",
+        "amount": {
+          "qty": 1,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "sadza_zimbabwean_corn_porridge_step_2",
+      "amount": {
+        "qty": 1656.2,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "In a separate bowl, mix the maize meal with the cold water. Stir until you have a smooth, lump-free paste.",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for maize_meal"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "ham_sauce_historic.step_1",
+  "source": "wikibooks_ham_sauce_historic",
+  "sourceRef": {
+    "source": "wikibooks_ham_sauce_historic",
+    "step": 1
+  },
+  "technique": "grind",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "ham",
+        "amount": {
+          "qty": 28,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "ham_sauce_historic_step_1",
+      "amount": {
+        "qty": 28,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Cut up ham, and pound it in a mortar.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

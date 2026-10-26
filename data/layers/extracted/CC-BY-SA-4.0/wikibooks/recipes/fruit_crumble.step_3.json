@@ -1,0 +1,48 @@
+{
+  "id": "fruit_crumble.step_3",
+  "source": "wikibooks_fruit_crumble",
+  "sourceRef": {
+    "source": "wikibooks_fruit_crumble",
+    "step": 3
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "fruit_crumble_step_2",
+        "amount": {
+          "qty": 255.6,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "fruit_crumble_step_3",
+      "amount": {
+        "qty": 255.6,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Sprinkle a thick layer of the crumble over the fruit.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

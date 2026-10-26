@@ -1,0 +1,48 @@
+{
+  "id": "romanian_roasted_eggplant_spread_i.step_6",
+  "source": "wikibooks_romanian_roasted_eggplant_spread_i",
+  "sourceRef": {
+    "source": "wikibooks_romanian_roasted_eggplant_spread_i",
+    "step": 6
+  },
+  "technique": "chill",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "romanian_roasted_eggplant_spread_i_step_5",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "romanian_roasted_eggplant_spread_i",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Chill in the fridge until serving.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "id": "shashlik_russian_skewered_meat.step_1",
+  "source": "wikibooks_shashlik_russian_skewered_meat",
+  "sourceRef": {
+    "source": "wikibooks_shashlik_russian_skewered_meat",
+    "step": 1
+  },
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "pork",
+        "amount": {
+          "qty": 1,
+          "unit": "kg"
+        }
+      },
+      {
+        "ingredient": "vodka",
+        "amount": {
+          "qty": 100,
+          "unit": "ml"
+        }
+      },
+      {
+        "ingredient": "honey",
+        "amount": {
+          "qty": 1,
+          "unit": "tbsp"
+        }
+      },
+      {
+        "ingredient": "pepper",
+        "amount": {
+          "qty": 1,
+          "unit": "tbsp"
+        }
+      },
+      {
+        "ingredient": "mustard",
+        "amount": {
+          "qty": 1,
+          "unit": "tbsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "shashlik_russian_skewered_meat_step_1",
+      "amount": {
+        "qty": 1144.4,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 3,
+      "unit": "h"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Mix the honey, mustard, vodka, salt and pepper in a deep bowl and soak the meat pieces in it. Leave the bowl in the refrigerator for 3 hours.",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for vodka, honey, pepper, mustard"
+    }
+  ]
+}

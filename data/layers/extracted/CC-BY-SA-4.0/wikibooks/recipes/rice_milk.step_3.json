@@ -1,0 +1,48 @@
+{
+  "id": "rice_milk.step_3",
+  "source": "wikibooks_rice_milk",
+  "sourceRef": {
+    "source": "wikibooks_rice_milk",
+    "step": 3
+  },
+  "technique": "chill",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "rice_milk_step_2",
+        "amount": {
+          "qty": 1183,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "rice_milk",
+      "amount": {
+        "qty": 1183,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 4,
+      "unit": "h"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Refrigerate at least 4 hours or overnight if possible, and use within 5 days.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "the step names several durations; used the first"
+    }
+  ]
+}

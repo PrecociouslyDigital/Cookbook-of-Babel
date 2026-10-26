@@ -1,0 +1,48 @@
+{
+  "id": "saucepan_fudge_crackle_cookies.step_5",
+  "source": "wikibooks_saucepan_fudge_crackle_cookies",
+  "sourceRef": {
+    "source": "wikibooks_saucepan_fudge_crackle_cookies",
+    "step": 5
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "saucepan_fudge_crackle_cookies_step_4",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "saucepan_fudge_crackle_cookies_step_5",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Mix the flour mixture into the chocolate mixture.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

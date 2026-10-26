@@ -1,0 +1,41 @@
+{
+  "id": "grilled_ribeye_steak.step_3",
+  "source": "wikibooks_grilled_ribeye_steak",
+  "sourceRef": {
+    "source": "wikibooks_grilled_ribeye_steak",
+    "step": 3
+  },
+  "technique": "chill",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "grilled_ribeye_steak_step_2",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "grilled_ribeye_steak_step_3",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 30,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Refrigerate for 30 minutes."
+}

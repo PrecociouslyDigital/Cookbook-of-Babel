@@ -1,0 +1,55 @@
+{
+  "id": "almond_cake.step_3",
+  "source": "wikibooks_almond_cake",
+  "sourceRef": {
+    "source": "wikibooks_almond_cake",
+    "step": 3
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "almond_cake_step_2",
+        "amount": {
+          "qty": 831.7,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "almond_flour",
+        "amount": {
+          "qty": 300,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "almond_cake_step_3",
+      "amount": {
+        "qty": 1131.7,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Mix in the almond meal on low speed.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": "broiled_sirloin_steak.step_3",
+  "source": "wikibooks_broiled_sirloin_steak",
+  "sourceRef": {
+    "source": "wikibooks_broiled_sirloin_steak",
+    "step": 3
+  },
+  "technique": "grill",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "broiled_sirloin_steak_step_2",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "broiled_sirloin_steak_step_3",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 60,
+    "medium": "oven_air"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Place the steak on the upper rack. Insert a probe thermometer into the thickest part of the steak. Keep the oven door slightly open with a tube of foil and cook until internal temperature reaches 140°F for medium rare, 155°F for medium, and 165°F for toast.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.53"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

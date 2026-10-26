@@ -1,0 +1,60 @@
+{
+  "id": "tropical_squares.step_2",
+  "source": "wikibooks_tropical_squares",
+  "sourceRef": {
+    "source": "wikibooks_tropical_squares",
+    "step": 2
+  },
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "tropical_squares_step_1",
+        "amount": {
+          "qty": 253.7,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "margarine",
+        "amount": {
+          "qty": 60,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "tropical_squares_step_2",
+      "amount": {
+        "qty": 313.7,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Cut in the margarine until the mixture looks like fine crumbs.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.56"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

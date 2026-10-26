@@ -1,0 +1,62 @@
+{
+  "id": "south_side_cocktail.step_1",
+  "source": "wikibooks_south_side_cocktail",
+  "sourceRef": {
+    "source": "wikibooks_south_side_cocktail",
+    "step": 1
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "gin",
+        "amount": {
+          "qty": 2,
+          "unit": "oz"
+        }
+      },
+      {
+        "ingredient": "lime",
+        "amount": {
+          "qty": 0.75,
+          "unit": "oz"
+        }
+      },
+      {
+        "ingredient": "simple_syrup",
+        "amount": {
+          "qty": 0.75,
+          "unit": "oz"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "south_side_cocktail_step_1",
+      "amount": {
+        "qty": 99.2,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Combine all ingredients except mint into a cocktail shaker, fill shaker with ice, and shake well.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

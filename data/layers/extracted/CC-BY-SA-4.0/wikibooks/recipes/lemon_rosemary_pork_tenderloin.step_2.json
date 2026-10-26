@@ -1,0 +1,53 @@
+{
+  "id": "lemon_rosemary_pork_tenderloin.step_2",
+  "source": "wikibooks_lemon_rosemary_pork_tenderloin",
+  "sourceRef": {
+    "source": "wikibooks_lemon_rosemary_pork_tenderloin",
+    "step": 2
+  },
+  "technique": "chill",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "lemon_rosemary_pork_tenderloin_step_1",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "lemon_rosemary_pork_tenderloin_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Let the tenderloins marinate, refrigerated, for as long as you want, or just immediately proceed with cooking.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.48"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

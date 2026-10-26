@@ -1,0 +1,58 @@
+{
+  "id": "microwaved_basmati_rice.step_5",
+  "source": "wikibooks_microwaved_basmati_rice",
+  "sourceRef": {
+    "source": "wikibooks_microwaved_basmati_rice",
+    "step": 5
+  },
+  "technique": "bake",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "microwaved_basmati_rice_step_4",
+        "amount": {
+          "qty": 357.4,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "microwaved_basmati_rice",
+      "amount": {
+        "qty": 357.4,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 200,
+    "medium": "oven_air"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Spread the rice onto an oven paper-lined tray and warming it at a very low setting in a conventional oven. Turn the rice gently from time to time.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.36"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of bake's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

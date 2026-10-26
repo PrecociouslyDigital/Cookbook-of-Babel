@@ -1,0 +1,76 @@
+{
+  "id": "ibirayi_n_ibinyomoro_rwandan_bean_soup_with_smoked_beef.step_9",
+  "source": "wikibooks_ibirayi_n_ibinyomoro_rwandan_bean_soup_with_smoked_beef",
+  "sourceRef": {
+    "source": "wikibooks_ibirayi_n_ibinyomoro_rwandan_bean_soup_with_smoked_beef",
+    "step": 9
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "ibirayi_n_ibinyomoro_rwandan_bean_soup_with_smoked_beef_step_8",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "min": 0,
+        "max": 1,
+        "of": [
+          {
+            "ingredient": "parsley",
+            "amount": {
+              "qty": 1,
+              "unit": "pinch"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "ibirayi_n_ibinyomoro_rwandan_bean_soup_with_smoked_beef",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Remove from heat and transfer to serving bowls. Garnish with fresh parsley or cilantro leaves, if desired, before serving.",
+  "issues": [
+    {
+      "field": "sourceRef",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.52"
+    },
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.42"
+    },
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Fresh parsley or cilantro leaves, for garnish (optional)': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

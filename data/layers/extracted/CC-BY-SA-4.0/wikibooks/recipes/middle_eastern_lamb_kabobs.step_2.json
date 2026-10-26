@@ -1,0 +1,48 @@
+{
+  "id": "middle_eastern_lamb_kabobs.step_2",
+  "source": "wikibooks_middle_eastern_lamb_kabobs",
+  "sourceRef": {
+    "source": "wikibooks_middle_eastern_lamb_kabobs",
+    "step": 2
+  },
+  "technique": "strain",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "middle_eastern_lamb_kabobs_step_1",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "middle_eastern_lamb_kabobs_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "The next day, drain lamb and discard marinade.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

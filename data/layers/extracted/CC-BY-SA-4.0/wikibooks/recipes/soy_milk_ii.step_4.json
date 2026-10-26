@@ -1,0 +1,48 @@
+{
+  "id": "soy_milk_ii.step_4",
+  "source": "wikibooks_soy_milk_ii",
+  "sourceRef": {
+    "source": "wikibooks_soy_milk_ii",
+    "step": 4
+  },
+  "technique": "strain",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "soy_milk_ii_step_3",
+        "amount": {
+          "qty": 0.6,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "soy_milk_ii_step_4",
+      "amount": {
+        "qty": 0.6,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Place a clean cloth or cheesecloth over a pot, and strain the blended mixture into the pot. Squeeze to extract as much milk as possible.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

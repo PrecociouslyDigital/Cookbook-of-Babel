@@ -1,0 +1,58 @@
+{
+  "id": "palm_fruit_with_syrup.step_3",
+  "source": "wikibooks_palm_fruit_with_syrup",
+  "sourceRef": {
+    "source": "wikibooks_palm_fruit_with_syrup",
+    "step": 3
+  },
+  "technique": "heat",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "palm_fruit_with_syrup_step_2",
+        "amount": {
+          "qty": 2919.6,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "palm_fruit_with_syrup_step_3",
+      "amount": {
+        "qty": 2919.6,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 90,
+    "medium": "simmering_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Add the palm fruit to the syrup, and heat it again.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.59"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 90.0 °C for simmering_water"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

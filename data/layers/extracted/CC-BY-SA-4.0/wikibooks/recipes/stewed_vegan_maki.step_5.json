@@ -1,0 +1,69 @@
+{
+  "id": "stewed_vegan_maki.step_5",
+  "source": "wikibooks_stewed_vegan_maki",
+  "sourceRef": {
+    "source": "wikibooks_stewed_vegan_maki",
+    "step": 5
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "stewed_vegan_maki_step_4",
+        "amount": {
+          "qty": 443.7,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "wasabi",
+        "amount": {
+          "qty": 0.5,
+          "unit": "tsp"
+        }
+      },
+      {
+        "ingredient": "sushi_rice",
+        "amount": {
+          "qty": 1.5,
+          "unit": "cup"
+        }
+      },
+      {
+        "ingredient": "nori",
+        "amount": {
+          "qty": 2,
+          "unit": "sheet"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "stewed_vegan_maki",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Evenly spread rice over nori, dab half the wasabi across each, then place the vegetable mix across this. Roll tightly.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

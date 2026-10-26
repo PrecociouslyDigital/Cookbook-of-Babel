@@ -1,0 +1,65 @@
+{
+  "id": "lancashire_parkin.step_5",
+  "source": "wikibooks_lancashire_parkin",
+  "sourceRef": {
+    "source": "wikibooks_lancashire_parkin",
+    "step": 5
+  },
+  "technique": "dissolve",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "lancashire_parkin_step_4",
+        "amount": {
+          "qty": 1359.7,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "margarine",
+        "amount": {
+          "qty": 220,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "lancashire_parkin_step_5",
+      "amount": {
+        "qty": 1579.7,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 180,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Melt the margarine into the syrup.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.53"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 180.0 °C for pan_contact"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

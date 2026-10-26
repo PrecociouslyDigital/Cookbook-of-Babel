@@ -1,0 +1,55 @@
+{
+  "id": "angels_on_horseback_bacon_wrapped_oysters.step_3",
+  "source": "wikibooks_angels_on_horseback_bacon_wrapped_oysters",
+  "sourceRef": {
+    "source": "wikibooks_angels_on_horseback_bacon_wrapped_oysters",
+    "step": 3
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "angels_on_horseback_bacon_wrapped_oysters_step_1",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "bacon",
+        "amount": {
+          "qty": 6,
+          "unit": "slice"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "angels_on_horseback_bacon_wrapped_oysters_step_3",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Cut each bacon slice in half and wrap each oyster with a piece of bacon, securing with a toothpick.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

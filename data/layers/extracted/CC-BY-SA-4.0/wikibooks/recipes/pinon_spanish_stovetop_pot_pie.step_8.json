@@ -1,0 +1,58 @@
+{
+  "id": "pinon_spanish_stovetop_pot_pie.step_8",
+  "source": "wikibooks_pinon_spanish_stovetop_pot_pie",
+  "sourceRef": {
+    "source": "wikibooks_pinon_spanish_stovetop_pot_pie",
+    "step": 8
+  },
+  "technique": "coagulate",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "pinon_spanish_stovetop_pot_pie_step_7",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "pinon_spanish_stovetop_pot_pie_step_8",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 180,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Pour the other bowl of eggs on top. Cover, and cook over medium low heat until the eggs on top have expanded and set.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.56"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 180.0 °C for pan_contact"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

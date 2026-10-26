@@ -1,0 +1,58 @@
+{
+  "id": "mushroom_bao_buns.step_14",
+  "source": "wikibooks_mushroom_bao_buns",
+  "sourceRef": {
+    "source": "wikibooks_mushroom_bao_buns",
+    "step": 14
+  },
+  "technique": "pan_fry",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "mushroom_bao_buns_step_13",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "mushroom_bao_buns_step_14",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 185,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Cover the pan, and turn the heat down to medium-low. Let the onions cook, stirring occasionally. As they cook, they should wilt and start to soften. Keep stirring every couple minutes to distribute the browning that accumulates at the bottom of the skillet and prevent burning.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.48"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of pan_fry's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

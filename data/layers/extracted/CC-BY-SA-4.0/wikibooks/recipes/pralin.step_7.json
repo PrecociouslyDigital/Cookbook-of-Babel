@@ -1,0 +1,53 @@
+{
+  "id": "pralin.step_7",
+  "source": "wikibooks_pralin",
+  "sourceRef": {
+    "source": "wikibooks_pralin",
+    "step": 7
+  },
+  "technique": "age",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "pralin_step_6",
+        "amount": {
+          "qty": 248.4,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "pralin",
+      "amount": {
+        "qty": 248.4,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Store in an air-tight container but use within a relatively short time period as it tends to solidify over time.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.38"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

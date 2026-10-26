@@ -1,0 +1,53 @@
+{
+  "id": "french_omelette.step_5",
+  "source": "wikibooks_french_omelette",
+  "sourceRef": {
+    "source": "wikibooks_french_omelette",
+    "step": 5
+  },
+  "technique": "coagulate",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "french_omelette_step_4",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "french_omelette_step_5",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 180,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "With a spoon or spatula, pull the solidified edges towards the center and tilt the pan to let the egg mixture fill the gap again. Keep repeating this (quickly) until there's not enough liquid egg left to fill the gap. The top of the omelette should still be liquid.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 180.0 °C for pan_contact"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

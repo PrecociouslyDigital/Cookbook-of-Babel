@@ -1,0 +1,48 @@
+{
+  "id": "callaloo_caribbean_stewed_greens.step_1",
+  "source": "wikibooks_callaloo_caribbean_stewed_greens",
+  "sourceRef": {
+    "source": "wikibooks_callaloo_caribbean_stewed_greens",
+    "step": 1
+  },
+  "technique": "separate",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "taro_root",
+        "amount": {
+          "qty": 12,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "callaloo_caribbean_stewed_greens_step_1",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Strip the stalks and midribs from the taro leaves.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

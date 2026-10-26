@@ -1,0 +1,53 @@
+{
+  "id": "caramelized_pineapple.step_2",
+  "source": "wikibooks_caramelized_pineapple",
+  "sourceRef": {
+    "source": "wikibooks_caramelized_pineapple",
+    "step": 2
+  },
+  "technique": "simmer",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "caramelized_pineapple_step_1",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "caramelized_pineapple_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 90,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 22.5,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Heat over medium heat until sugar is dissolved and has thickened slightly, 15–30 minutes.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.5"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of simmer's typical range"
+    }
+  ]
+}

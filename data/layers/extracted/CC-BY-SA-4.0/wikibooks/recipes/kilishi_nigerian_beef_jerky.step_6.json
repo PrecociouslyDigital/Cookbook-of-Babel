@@ -1,0 +1,48 @@
+{
+  "id": "kilishi_nigerian_beef_jerky.step_6",
+  "source": "wikibooks_kilishi_nigerian_beef_jerky",
+  "sourceRef": {
+    "source": "wikibooks_kilishi_nigerian_beef_jerky",
+    "step": 6
+  },
+  "technique": "cool",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "kilishi_nigerian_beef_jerky_step_5",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "kilishi_nigerian_beef_jerky",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Remove from the oven and let cool before serving or storing.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

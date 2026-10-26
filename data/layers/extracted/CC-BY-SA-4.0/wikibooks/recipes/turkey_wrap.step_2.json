@@ -1,0 +1,65 @@
+{
+  "id": "turkey_wrap.step_2",
+  "source": "wikibooks_turkey_wrap",
+  "sourceRef": {
+    "source": "wikibooks_turkey_wrap",
+    "step": 2
+  },
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "turkey_wrap_step_1",
+        "amount": {
+          "qty": 170.1,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "turkey",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "turkey_wrap_step_2",
+      "amount": {
+        "qty": 170.4,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Cut the turkey into ¾-inch chunks.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Several cups of cooked turkey': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for turkey"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

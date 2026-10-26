@@ -1,0 +1,60 @@
+{
+  "id": "jersey_breakfast_dog.step_8",
+  "source": "wikibooks_jersey_breakfast_dog",
+  "sourceRef": {
+    "source": "wikibooks_jersey_breakfast_dog",
+    "step": 8
+  },
+  "technique": "heat",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "jersey_breakfast_dog_step_7",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "cheddar_cheese",
+        "amount": {
+          "qty": 1,
+          "unit": "slice"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "jersey_breakfast_dog_step_8",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 20,
+    "medium": "still_air"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 8.5,
+      "unit": "s"
+    }
+  },
+  "stateNote": "Place slice of cheese onto egg and microwave for 7-10 seconds.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.42"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 20.0 °C for still_air"
+    }
+  ]
+}

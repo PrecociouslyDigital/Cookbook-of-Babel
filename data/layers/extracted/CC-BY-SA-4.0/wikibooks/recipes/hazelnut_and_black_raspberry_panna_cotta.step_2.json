@@ -1,0 +1,48 @@
+{
+  "id": "hazelnut_and_black_raspberry_panna_cotta.step_2",
+  "source": "wikibooks_hazelnut_and_black_raspberry_panna_cotta",
+  "sourceRef": {
+    "source": "wikibooks_hazelnut_and_black_raspberry_panna_cotta",
+    "step": 2
+  },
+  "technique": "chill",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "hazelnut_and_black_raspberry_panna_cotta_step_1",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "hazelnut_and_black_raspberry_panna_cotta",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 6,
+      "unit": "h"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Pour into ramekins, and chill until set (usually 6 hours, but they are better left overnight).",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "the step names several durations; used the first"
+    }
+  ]
+}

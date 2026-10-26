@@ -1,0 +1,48 @@
+{
+  "id": "german_puff_pastry.step_2",
+  "source": "wikibooks_german_puff_pastry",
+  "sourceRef": {
+    "source": "wikibooks_german_puff_pastry",
+    "step": 2
+  },
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "german_puff_pastry_step_1",
+        "amount": {
+          "qty": 1650,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "german_puff_pastry_step_2",
+      "amount": {
+        "qty": 1650,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Roll dough into a ball. Make a deep cut through the middle, and a second cut at a right angle again through the middle. Roll out the resulting four ends to about half the thickness of the base. It should now have the form of an equilateral cross.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

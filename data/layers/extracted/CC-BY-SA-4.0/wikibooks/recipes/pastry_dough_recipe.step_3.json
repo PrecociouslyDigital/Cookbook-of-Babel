@@ -1,0 +1,41 @@
+{
+  "id": "pastry_dough_recipe.step_3",
+  "source": "wikibooks_pastry_dough_recipe",
+  "sourceRef": {
+    "source": "wikibooks_pastry_dough_recipe",
+    "step": 3
+  },
+  "technique": "chill",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "pastry_dough_recipe_step_2",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "pastry_dough_recipe",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 30,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Wrap dough tightly in plastic wrap and chill for at least 30 minutes before rolling out."
+}

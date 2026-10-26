@@ -1,0 +1,55 @@
+{
+  "id": "lomo_saltado_peruvian_steak_stir_fry.step_1",
+  "source": "wikibooks_lomo_saltado_peruvian_steak_stir_fry",
+  "sourceRef": {
+    "source": "wikibooks_lomo_saltado_peruvian_steak_stir_fry",
+    "step": 1
+  },
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "beef",
+        "amount": {
+          "qty": 3,
+          "unit": "lb"
+        }
+      },
+      {
+        "ingredient": "wine",
+        "amount": {
+          "qty": 0.25,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "lomo_saltado_peruvian_steak_stir_fry_step_1",
+      "amount": {
+        "qty": 1419.3,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "h"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Cut the meat into thin strips and marinate them in the wine for 1 hour.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.46"
+    }
+  ]
+}

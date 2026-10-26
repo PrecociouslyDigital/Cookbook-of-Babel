@@ -1,0 +1,55 @@
+{
+  "id": "honey_mustard_salad_dressing.step_2",
+  "source": "wikibooks_honey_mustard_salad_dressing",
+  "sourceRef": {
+    "source": "wikibooks_honey_mustard_salad_dressing",
+    "step": 2
+  },
+  "technique": "whisk",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "honey_mustard_salad_dressing_step_1",
+        "amount": {
+          "qty": 94.2,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "vegetable_oil",
+        "amount": {
+          "qty": 0.75,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "honey_mustard_salad_dressing",
+      "amount": {
+        "qty": 257.5,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Gradually whisk the safflower oil into the mixture to form a creamy dressing.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

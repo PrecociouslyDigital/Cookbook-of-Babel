@@ -1,0 +1,84 @@
+{
+  "id": "bean_soup_vegetarian.step_3",
+  "source": "wikibooks_bean_soup_vegetarian",
+  "sourceRef": {
+    "source": "wikibooks_bean_soup_vegetarian",
+    "step": 3
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "bean_soup_vegetarian_step_2",
+        "amount": {
+          "qty": 1030.4,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "albanian_mixed_vegetables",
+        "amount": {
+          "qty": 1,
+          "unit": "lb"
+        }
+      },
+      {
+        "ingredient": "stew",
+        "amount": {
+          "qty": 14.5,
+          "unit": "oz"
+        }
+      },
+      {
+        "ingredient": "pasta",
+        "amount": {
+          "qty": 0.3333333333333333,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "bean_soup_vegetarian_step_3",
+      "amount": {
+        "qty": 1973.9,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "While liquid is heating, add frozen vegetables, stewed tomatoes with their juices and uncooked pasta.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.57"
+    },
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.39"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for pasta"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

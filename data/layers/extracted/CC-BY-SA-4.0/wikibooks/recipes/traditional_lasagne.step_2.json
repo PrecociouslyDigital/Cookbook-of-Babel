@@ -1,0 +1,65 @@
+{
+  "id": "traditional_lasagne.step_2",
+  "source": "wikibooks_traditional_lasagne",
+  "sourceRef": {
+    "source": "wikibooks_traditional_lasagne",
+    "step": 2
+  },
+  "technique": "evaporate",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "traditional_lasagne_step_1",
+        "amount": {
+          "qty": 710,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "wine",
+        "amount": {
+          "qty": 225,
+          "unit": "ml"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "traditional_lasagne_step_2",
+      "amount": {
+        "qty": 932.8,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 100,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Stir in wine, scraping the pot to loosen the fond. Simmer until wine has evaporated.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.54"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of evaporate's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

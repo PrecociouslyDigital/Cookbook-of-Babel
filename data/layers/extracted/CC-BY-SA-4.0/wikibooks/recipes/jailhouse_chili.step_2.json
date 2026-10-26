@@ -1,0 +1,76 @@
+{
+  "id": "jailhouse_chili.step_2",
+  "source": "wikibooks_jailhouse_chili",
+  "sourceRef": {
+    "source": "wikibooks_jailhouse_chili",
+    "step": 2
+  },
+  "technique": "simmer",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "jailhouse_chili_step_1",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "cumin",
+        "amount": {
+          "qty": 0.5,
+          "unit": "lb"
+        }
+      },
+      {
+        "ingredient": "chili_powder",
+        "amount": {
+          "qty": 0.25,
+          "unit": "lb"
+        }
+      },
+      {
+        "ingredient": "paprika",
+        "amount": {
+          "qty": 0.125,
+          "unit": "lb"
+        }
+      },
+      {
+        "ingredient": "garlic",
+        "amount": {
+          "qty": 0.5,
+          "unit": "lb"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "jailhouse_chili_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 90,
+    "medium": "simmering_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 90,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Take pot off the stove and add spices and garlic. Put back on the stove, bring to a boil again, lower heat, and simmer another 90 minutes, keeping the lid on as much as possible. Stir when necessary, but remember that too much stirring will tear the meat. Add a little more water if anything seems seriously in danger of burning (but as little water as possible).",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of simmer's typical range"
+    }
+  ]
+}

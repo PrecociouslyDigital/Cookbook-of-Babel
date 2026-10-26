@@ -1,0 +1,48 @@
+{
+  "id": "americanized_eggplant_parmesan.step_10",
+  "source": "wikibooks_americanized_eggplant_parmesan",
+  "sourceRef": {
+    "source": "wikibooks_americanized_eggplant_parmesan",
+    "step": 10
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "americanized_eggplant_parmesan_step_9",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "americanized_eggplant_parmesan_step_10",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Dredge the eggplant slices first in flour, then in the egg/milk mixture, then in the panko.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

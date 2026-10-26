@@ -1,0 +1,55 @@
+{
+  "id": "boilo_hot_spiced_citrus_whiskey.step_5",
+  "source": "wikibooks_boilo_hot_spiced_citrus_whiskey",
+  "sourceRef": {
+    "source": "wikibooks_boilo_hot_spiced_citrus_whiskey",
+    "step": 5
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "boilo_hot_spiced_citrus_whiskey_step_4",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "whiskey",
+        "amount": {
+          "qty": 12,
+          "unit": "oz"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "boilo_hot_spiced_citrus_whiskey_step_5",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Add the whiskey to the pitcher and stir. If you cook the whiskey, even for a short time, the alcohol will start to evaporate. Taste, and add more whiskey to your liking.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": "dolma_stuffed_grape_leaves.step_13",
+  "source": "wikibooks_dolma_stuffed_grape_leaves",
+  "sourceRef": {
+    "source": "wikibooks_dolma_stuffed_grape_leaves",
+    "step": 13
+  },
+  "technique": "boil",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "dolma_stuffed_grape_leaves_step_11",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "dolma_stuffed_grape_leaves_step_13",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 100,
+    "medium": "boiling_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 10,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Cover the pot, and cook over high heat for 10 minutes or until it boils.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.38"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of boil's typical range"
+    }
+  ]
+}

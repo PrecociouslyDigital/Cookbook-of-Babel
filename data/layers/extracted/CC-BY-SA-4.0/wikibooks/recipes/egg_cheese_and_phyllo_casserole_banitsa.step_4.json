@@ -1,0 +1,48 @@
+{
+  "id": "egg_cheese_and_phyllo_casserole_banitsa.step_4",
+  "source": "wikibooks_egg_cheese_and_phyllo_casserole_banitsa",
+  "sourceRef": {
+    "source": "wikibooks_egg_cheese_and_phyllo_casserole_banitsa",
+    "step": 4
+  },
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "egg_cheese_and_phyllo_casserole_banitsa_step_3",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "egg_cheese_and_phyllo_casserole_banitsa_step_4",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Cut the banitsa into serving pieces.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

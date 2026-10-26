@@ -1,0 +1,63 @@
+{
+  "id": "espresso_brownies.step_8",
+  "source": "wikibooks_espresso_brownies",
+  "sourceRef": {
+    "source": "wikibooks_espresso_brownies",
+    "step": 8
+  },
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "espresso_brownies_step_7",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "espresso_brownies",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Trim the brownie and cut into 20 squares.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    },
+    {
+      "field": "inputs",
+      "kind": "missing",
+      "note": "no step uses '¾ cup (90 g / 3 oz) dutch-processed cocoa powder' (p=0.91)"
+    },
+    {
+      "field": "inputs",
+      "kind": "missing",
+      "note": "no step uses '¾ cup (90 g / 3 oz) instant espresso powder' (p=0.98)"
+    },
+    {
+      "field": "inputs",
+      "kind": "missing",
+      "note": "no step uses '2½ sticks (310 g / 11 oz) butter, melted' (p=0.75)"
+    }
+  ]
+}

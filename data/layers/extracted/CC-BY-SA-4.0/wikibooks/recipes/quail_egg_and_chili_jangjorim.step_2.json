@@ -1,0 +1,48 @@
+{
+  "id": "quail_egg_and_chili_jangjorim.step_2",
+  "source": "wikibooks_quail_egg_and_chili_jangjorim",
+  "sourceRef": {
+    "source": "wikibooks_quail_egg_and_chili_jangjorim",
+    "step": 2
+  },
+  "technique": "cool",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "quail_egg_and_chili_jangjorim_step_1",
+        "amount": {
+          "qty": 0.3,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "quail_egg_and_chili_jangjorim_step_2",
+      "amount": {
+        "qty": 0.3,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Carefully drain the eggs, and cool in cold water.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "id": "figolli_maltese_easter_pastries.step_5",
+  "source": "wikibooks_figolli_maltese_easter_pastries",
+  "sourceRef": {
+    "source": "wikibooks_figolli_maltese_easter_pastries",
+    "step": 5
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "figolli_maltese_easter_pastries_step_4",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "water",
+        "amount": {
+          "qty": 2.5,
+          "unit": "tbsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "figolli_maltese_easter_pastries_step_5",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "If necessary mix in some water to help the mixture form a dough. Add the water very carefully, drop by drop, as you will only need a little bit, and too much will ruin the pastry.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": "microwave_peanut_brittle.step_7",
+  "source": "wikibooks_microwave_peanut_brittle",
+  "sourceRef": {
+    "source": "wikibooks_microwave_peanut_brittle",
+    "step": 7
+  },
+  "technique": "separate",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "microwave_peanut_brittle_step_6",
+        "amount": {
+          "qty": 570.8,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "microwave_peanut_brittle",
+      "amount": {
+        "qty": 570.8,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "When cool, break into small pieces and store in airtight container.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.45"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

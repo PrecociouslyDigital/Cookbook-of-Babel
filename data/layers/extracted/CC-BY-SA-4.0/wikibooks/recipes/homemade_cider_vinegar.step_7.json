@@ -1,0 +1,53 @@
+{
+  "id": "homemade_cider_vinegar.step_7",
+  "source": "wikibooks_homemade_cider_vinegar",
+  "sourceRef": {
+    "source": "wikibooks_homemade_cider_vinegar",
+    "step": 7
+  },
+  "technique": "separate",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "homemade_cider_vinegar_step_6",
+        "amount": {
+          "qty": 4000,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "homemade_cider_vinegar",
+      "amount": {
+        "qty": 4000,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "After a couple of months, you can draw off two thirds of the vinegar for use, and top up with fresh, clear cider made in the first fermenter.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.36"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

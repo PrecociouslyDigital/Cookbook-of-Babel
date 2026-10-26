@@ -1,0 +1,48 @@
+{
+  "id": "pizza_dough.step_4",
+  "source": "wikibooks_pizza_dough",
+  "sourceRef": {
+    "source": "wikibooks_pizza_dough",
+    "step": 4
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "pizza_dough_step_3",
+        "amount": {
+          "qty": 491.9,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "pizza_dough_step_4",
+      "amount": {
+        "qty": 491.9,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Top dough with pizza toppings as desired—see pizza article.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

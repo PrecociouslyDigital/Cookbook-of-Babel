@@ -1,0 +1,53 @@
+{
+  "id": "spiced_pumpkin_soup.step_3",
+  "source": "wikibooks_spiced_pumpkin_soup",
+  "sourceRef": {
+    "source": "wikibooks_spiced_pumpkin_soup",
+    "step": 3
+  },
+  "technique": "blend",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "spiced_pumpkin_soup_step_2",
+        "amount": {
+          "qty": 1736.9,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "spiced_pumpkin_soup_step_3",
+      "amount": {
+        "qty": 1736.9,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Place half of the pumpkin mixture in a blender and process until smooth. Using a strainer, pour soup back into pan. Repeat with rest of soup.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.53"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

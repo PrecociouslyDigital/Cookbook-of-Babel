@@ -1,0 +1,60 @@
+{
+  "id": "klepon_indonesian_sweet_boiled_rice_cake.step_1",
+  "source": "wikibooks_klepon_indonesian_sweet_boiled_rice_cake",
+  "sourceRef": {
+    "source": "wikibooks_klepon_indonesian_sweet_boiled_rice_cake",
+    "step": 1
+  },
+  "technique": "grind",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "pandan",
+        "amount": {
+          "qty": 9,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "water",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "klepon_indonesian_sweet_boiled_rice_cake_step_1",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "If using whole pandan leaves, grind them to a smooth paste with a little water if necessary.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Water': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

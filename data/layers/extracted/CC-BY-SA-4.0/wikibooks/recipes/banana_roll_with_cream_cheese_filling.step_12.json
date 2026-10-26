@@ -1,0 +1,53 @@
+{
+  "id": "banana_roll_with_cream_cheese_filling.step_12",
+  "source": "wikibooks_banana_roll_with_cream_cheese_filling",
+  "sourceRef": {
+    "source": "wikibooks_banana_roll_with_cream_cheese_filling",
+    "step": 12
+  },
+  "technique": "chill",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "banana_roll_with_cream_cheese_filling_step_11",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "banana_roll_with_cream_cheese_filling_step_12",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "h"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "When cake has cooled completely, unroll and spread with filling, then re-roll cake. Wrap rolled cake in plastic wrap then refrigerate at least 1 hour (but overnight is best).",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.58"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "the step names several durations; used the first"
+    }
+  ]
+}

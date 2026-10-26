@@ -1,0 +1,48 @@
+{
+  "id": "red_chile_sauce.step_9",
+  "source": "wikibooks_red_chile_sauce",
+  "sourceRef": {
+    "source": "wikibooks_red_chile_sauce",
+    "step": 9
+  },
+  "technique": "strain",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "red_chile_sauce_step_8",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "red_chile_sauce_step_9",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Pour sauce through a sieve. Use a spoon to stir and press the mixture against the sieve to extract all the sauce.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

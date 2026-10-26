@@ -1,0 +1,67 @@
+{
+  "id": "chocolate_cake_with_coconut_topping_vegan.step_4",
+  "source": "wikibooks_chocolate_cake_with_coconut_topping_vegan",
+  "sourceRef": {
+    "source": "wikibooks_chocolate_cake_with_coconut_topping_vegan",
+    "step": 4
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "chocolate_cake_with_coconut_topping_vegan_step_2",
+        "amount": {
+          "qty": 2358.9,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "coconut",
+        "amount": {
+          "qty": 75,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "apple",
+        "amount": {
+          "qty": 2,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "chocolate_cake_with_coconut_topping_vegan_step_4",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Add the wet mixture and the add-ins to the dry mixture. Stir briefly until smooth. Do not over-mix, since this will cause the batter to deflate and become tough.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.46"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

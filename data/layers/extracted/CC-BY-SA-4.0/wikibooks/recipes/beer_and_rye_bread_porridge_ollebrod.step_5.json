@@ -1,0 +1,53 @@
+{
+  "id": "beer_and_rye_bread_porridge_ollebrod.step_5",
+  "source": "wikibooks_beer_and_rye_bread_porridge_ollebrod",
+  "sourceRef": {
+    "source": "wikibooks_beer_and_rye_bread_porridge_ollebrod",
+    "step": 5
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "beer_and_rye_bread_porridge_ollebrod_step_4",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "beer_and_rye_bread_porridge_ollebrod_step_5",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Put the bread in a pot and cover it with beer (or water) and a lid. Set aside.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.39"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

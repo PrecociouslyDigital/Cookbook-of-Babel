@@ -1,0 +1,48 @@
+{
+  "id": "steamed_tuna_bao_buns.step_4",
+  "source": "wikibooks_steamed_tuna_bao_buns",
+  "sourceRef": {
+    "source": "wikibooks_steamed_tuna_bao_buns",
+    "step": 4
+  },
+  "technique": "knead",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "steamed_tuna_bao_buns_step_3",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "steamed_tuna_bao_buns_step_4",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Begin kneading—it will be sticky—and continue adding flour. Oil on hands will help.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

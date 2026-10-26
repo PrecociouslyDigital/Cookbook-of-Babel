@@ -1,0 +1,55 @@
+{
+  "id": "hickory_smoked_pork_chops.step_2",
+  "source": "wikibooks_hickory_smoked_pork_chops",
+  "sourceRef": {
+    "source": "wikibooks_hickory_smoked_pork_chops",
+    "step": 2
+  },
+  "technique": "chill",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "hickory_smoked_pork_chops_step_1",
+        "amount": {
+          "qty": 1841.8,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "pork",
+        "amount": {
+          "qty": 4,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "hickory_smoked_pork_chops_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1.5,
+      "unit": "h"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Insert pork chops and brine in the refrigerator for 1–2 hours.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'4 thick-cut pork rib chops': 'thick-cut' read as pieces"
+    }
+  ]
+}

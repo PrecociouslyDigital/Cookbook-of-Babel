@@ -1,0 +1,58 @@
+{
+  "id": "riz_gras_west_african_fried_rice.step_2",
+  "source": "wikibooks_riz_gras_west_african_fried_rice",
+  "sourceRef": {
+    "source": "wikibooks_riz_gras_west_african_fried_rice",
+    "step": 2
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "riz_gras_west_african_fried_rice_step_1",
+        "amount": {
+          "qty": 473.2,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "riz_gras_west_african_fried_rice_step_2",
+      "amount": {
+        "qty": 473.2,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 100,
+    "medium": "boiling_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "In a pot, add the rinsed rice and the appropriate amount of water, following the package instructions.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.56"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 100.0 °C for boiling_water"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

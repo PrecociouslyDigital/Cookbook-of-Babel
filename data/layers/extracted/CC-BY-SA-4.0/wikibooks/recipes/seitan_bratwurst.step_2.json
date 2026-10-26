@@ -1,0 +1,72 @@
+{
+  "id": "seitan_bratwurst.step_2",
+  "source": "wikibooks_seitan_bratwurst",
+  "sourceRef": {
+    "source": "wikibooks_seitan_bratwurst",
+    "step": 2
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "seitan_bratwurst_step_1",
+        "amount": {
+          "qty": 296.1,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "gluten",
+        "amount": {
+          "qty": 1,
+          "unit": "cup"
+        }
+      },
+      {
+        "ingredient": "coriander",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "seitan_bratwurst_step_2",
+      "amount": {
+        "qty": 533,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Mix solid ingredients (e.g. spices) with the flour. It is much easier to mix solid and liquid ingredients separately than adding ingredients to the gluten dough later, as it is very rubbery and sticky.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Additional spices, e.g., coriander, cardamom, thyme and oregano': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for gluten, coriander"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

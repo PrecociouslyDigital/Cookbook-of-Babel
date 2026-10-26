@@ -1,0 +1,48 @@
+{
+  "id": "chicken_fajitas.step_2",
+  "source": "wikibooks_chicken_fajitas",
+  "sourceRef": {
+    "source": "wikibooks_chicken_fajitas",
+    "step": 2
+  },
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "chicken_fajitas_step_1",
+        "amount": {
+          "qty": 680.4,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "chicken_fajitas_step_2",
+      "amount": {
+        "qty": 680.4,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Marinate the chicken with a spoonful of turmeric, salt and black pepper.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

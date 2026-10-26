@@ -1,0 +1,62 @@
+{
+  "id": "quick_baked_beef_pasta_dish.step_3",
+  "source": "wikibooks_quick_baked_beef_pasta_dish",
+  "sourceRef": {
+    "source": "wikibooks_quick_baked_beef_pasta_dish",
+    "step": 3
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "quick_baked_beef_pasta_dish_step_2",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "pasta",
+        "amount": {
+          "qty": 1,
+          "unit": "lb"
+        }
+      },
+      {
+        "ingredient": "spaghetti_sauce",
+        "amount": {
+          "qty": 32,
+          "unit": "oz"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "quick_baked_beef_pasta_dish_step_3",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "In a large bowl, combine meat mixture and spaghetti sauce and mix well. Add cooked pasta and mix well.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

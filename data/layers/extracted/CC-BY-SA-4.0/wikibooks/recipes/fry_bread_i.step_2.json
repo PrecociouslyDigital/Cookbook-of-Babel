@@ -1,0 +1,60 @@
+{
+  "id": "fry_bread_i.step_2",
+  "source": "wikibooks_fry_bread_i",
+  "sourceRef": {
+    "source": "wikibooks_fry_bread_i",
+    "step": 2
+  },
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "fry_bread_i_step_1",
+        "amount": {
+          "qty": 265.6,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "shortening",
+        "amount": {
+          "qty": 2,
+          "unit": "tbsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "fry_bread_i_step_2",
+      "amount": {
+        "qty": 295.2,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Use a pastry blender (or two butter knives) to cut the shortening into the flour.",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for shortening"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

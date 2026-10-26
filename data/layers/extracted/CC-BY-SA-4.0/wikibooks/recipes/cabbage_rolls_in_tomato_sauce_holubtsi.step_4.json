@@ -1,0 +1,48 @@
+{
+  "id": "cabbage_rolls_in_tomato_sauce_holubtsi.step_4",
+  "source": "wikibooks_cabbage_rolls_in_tomato_sauce_holubtsi",
+  "sourceRef": {
+    "source": "wikibooks_cabbage_rolls_in_tomato_sauce_holubtsi",
+    "step": 4
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "cabbage_rolls_in_tomato_sauce_holubtsi_step_3",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "cabbage_rolls_in_tomato_sauce_holubtsi_step_4",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Place 1 meat portion on each cabbage leaf.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

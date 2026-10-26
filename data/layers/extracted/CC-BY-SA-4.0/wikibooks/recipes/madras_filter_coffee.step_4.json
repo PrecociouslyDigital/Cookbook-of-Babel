@@ -1,0 +1,58 @@
+{
+  "id": "madras_filter_coffee.step_4",
+  "source": "wikibooks_madras_filter_coffee",
+  "sourceRef": {
+    "source": "wikibooks_madras_filter_coffee",
+    "step": 4
+  },
+  "technique": "whisk",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "madras_filter_coffee_step_3",
+        "amount": {
+          "qty": 248.4,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "madras_filter_coffee_step_4",
+      "amount": {
+        "qty": 248.4,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 100,
+    "medium": "boiling_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "While the coffee is still boiling hot, pour it into a mug or, preferably, a stainless steel tumbler. While pouring the coffee, slowly raise the saucepan so the coffee falls into the mug from a height of about 1–1½ ft. This will cause the coffee to froth like espresso.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.52"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 100.0 °C for boiling_water"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

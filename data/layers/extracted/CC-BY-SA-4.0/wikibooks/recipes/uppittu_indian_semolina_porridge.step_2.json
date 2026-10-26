@@ -1,0 +1,72 @@
+{
+  "id": "uppittu_indian_semolina_porridge.step_2",
+  "source": "wikibooks_uppittu_indian_semolina_porridge",
+  "sourceRef": {
+    "source": "wikibooks_uppittu_indian_semolina_porridge",
+    "step": 2
+  },
+  "technique": "fry",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "uppittu_indian_semolina_porridge_step_1",
+        "amount": {
+          "qty": 295.8,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "mustard_seed",
+        "amount": {
+          "qty": 1,
+          "unit": "tsp"
+        }
+      },
+      {
+        "ingredient": "onion",
+        "amount": {
+          "qty": 1,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "uppittu_indian_semolina_porridge_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 190,
+    "medium": "frying_oil"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "In the same wok or another suitable pan, heat the remaining oil. When hot, add the mustard seeds and wait until the seeds start crackling. When the crackling starts tapering off, add the onions and fry until golden brown.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.56"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of fry's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

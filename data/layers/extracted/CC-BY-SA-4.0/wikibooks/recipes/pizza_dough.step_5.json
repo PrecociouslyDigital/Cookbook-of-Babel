@@ -1,0 +1,53 @@
+{
+  "id": "pizza_dough.step_5",
+  "source": "wikibooks_pizza_dough",
+  "sourceRef": {
+    "source": "wikibooks_pizza_dough",
+    "step": 5
+  },
+  "technique": "bake",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "pizza_dough_step_4",
+        "amount": {
+          "qty": 491.9,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "pizza_dough",
+      "amount": {
+        "qty": 491.9,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 218.33333333333334,
+    "medium": "oven_air"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 17.5,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Bake at 425°F for about 15–20 minutes. Rotate every 5 minutes and move to upper or lower shelves as necessary. After 10 minutes slide a large knife under the crust. If it is dark brown, move it to a higher shelf so it doesn't burn while the top finishes cooking. If it is white or light tan, move to lower shelf so you get a crispy crust before the cheese starts turning brown on top.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "the step names several durations; used the first"
+    },
+    {
+      "field": "inputs",
+      "kind": "missing",
+      "note": "no step uses '1 tbsp white granulated sugar' (p=0.57)"
+    }
+  ]
+}

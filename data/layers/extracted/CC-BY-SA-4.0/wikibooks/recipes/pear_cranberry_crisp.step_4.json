@@ -1,0 +1,53 @@
+{
+  "id": "pear_cranberry_crisp.step_4",
+  "source": "wikibooks_pear_cranberry_crisp",
+  "sourceRef": {
+    "source": "wikibooks_pear_cranberry_crisp",
+    "step": 4
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "pear_cranberry_crisp_step_3",
+        "amount": {
+          "qty": 2280.3,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "pear_cranberry_crisp_step_4",
+      "amount": {
+        "qty": 2280.3,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Sprinkle crumble over fruit and pat down lightly.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.58"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

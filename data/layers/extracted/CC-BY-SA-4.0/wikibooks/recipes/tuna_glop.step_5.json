@@ -1,0 +1,60 @@
+{
+  "id": "tuna_glop.step_5",
+  "source": "wikibooks_tuna_glop",
+  "sourceRef": {
+    "source": "wikibooks_tuna_glop",
+    "step": 5
+  },
+  "technique": "heat",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "tuna_glop_step_4",
+        "amount": {
+          "qty": 1400,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "potato_chips",
+        "amount": {
+          "qty": 1,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "tuna_glop",
+      "amount": {
+        "qty": 1636.6,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 180,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 5,
+      "unit": "min"
+    }
+  },
+  "stateNote": "If you prefer crunchy vegetables, heat for 5 minutes over low heat, stirring frequently. Heat longer if you prefer softer vegetables.",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for potato_chips"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 180.0 °C for pan_contact"
+    }
+  ]
+}

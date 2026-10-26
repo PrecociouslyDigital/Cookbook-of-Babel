@@ -1,0 +1,67 @@
+{
+  "id": "ricotta_lasagne.step_8",
+  "source": "wikibooks_ricotta_lasagne",
+  "sourceRef": {
+    "source": "wikibooks_ricotta_lasagne",
+    "step": 8
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "ricotta_lasagne_step_7",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "mozzarella_cheese",
+        "amount": {
+          "qty": 16,
+          "unit": "oz"
+        }
+      },
+      {
+        "ingredient": "parmesan_cheese",
+        "amount": {
+          "qty": 3,
+          "unit": "tbsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "ricotta_lasagne_step_8",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 135,
+    "medium": "oven_air"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Assemble your lasagna in a inch roasting pan (listed bottom to top): Bottom layer of sauce (approx. 1½ cups / 375 g / 13.2 oz) Layer of pasta (overlapping slightly) Layer of ½ the ricotta mixture Layer of ⅓ of the mozzarella Sauce layer (again, about 1½ cups / 375 g / 13.2 oz) Layer of grated Parmesan sprinkled over sauce (not so much that the sauce layer is covered entirely) Layer of pasta Layer of remaining ricotta Layer of ⅓ of the mozzarella Layer of remaining sauce Layer of sprinkled Parmesan Layer of remaining mozzarella",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.5"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

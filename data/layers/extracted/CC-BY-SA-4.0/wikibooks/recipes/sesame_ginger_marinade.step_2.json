@@ -1,0 +1,48 @@
+{
+  "id": "sesame_ginger_marinade.step_2",
+  "source": "wikibooks_sesame_ginger_marinade",
+  "sourceRef": {
+    "source": "wikibooks_sesame_ginger_marinade",
+    "step": 2
+  },
+  "technique": "chill",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "sesame_ginger_marinade_step_1",
+        "amount": {
+          "qty": 290.8,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "sesame_ginger_marinade",
+      "amount": {
+        "qty": 290.8,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Refrigerate for up to two weeks.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

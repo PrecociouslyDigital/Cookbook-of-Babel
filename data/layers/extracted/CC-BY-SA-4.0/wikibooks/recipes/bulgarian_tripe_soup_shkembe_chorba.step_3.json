@@ -1,0 +1,55 @@
+{
+  "id": "bulgarian_tripe_soup_shkembe_chorba.step_3",
+  "source": "wikibooks_bulgarian_tripe_soup_shkembe_chorba",
+  "sourceRef": {
+    "source": "wikibooks_bulgarian_tripe_soup_shkembe_chorba",
+    "step": 3
+  },
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "bulgarian_tripe_soup_shkembe_chorba_step_2",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "tripe",
+        "amount": {
+          "qty": 1.5,
+          "unit": "lb"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "bulgarian_tripe_soup_shkembe_chorba_step_3",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Cut tripe into thin strips.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "boiled_collard_greens.step_1",
+  "source": "wikibooks_boiled_collard_greens",
+  "sourceRef": {
+    "source": "wikibooks_boiled_collard_greens",
+    "step": 1
+  },
+  "technique": "rinse",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "collard_greens",
+        "amount": {
+          "qty": 2.5,
+          "unit": "lb"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "boiled_collard_greens_step_1",
+      "amount": {
+        "qty": 1134,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Thoroughly wash the collard greens with very slightly soapy water, and rinse clean with plain water. Rinse at least twice to ensure removal of all grit and soap.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

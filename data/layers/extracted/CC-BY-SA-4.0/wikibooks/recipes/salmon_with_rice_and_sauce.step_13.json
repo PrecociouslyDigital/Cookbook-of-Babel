@@ -1,0 +1,53 @@
+{
+  "id": "salmon_with_rice_and_sauce.step_13",
+  "source": "wikibooks_salmon_with_rice_and_sauce",
+  "sourceRef": {
+    "source": "wikibooks_salmon_with_rice_and_sauce",
+    "step": 13
+  },
+  "technique": "separate",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "salmon_with_rice_and_sauce_step_12",
+        "amount": {
+          "qty": 1225,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "salmon_with_rice_and_sauce_step_13",
+      "amount": {
+        "qty": 1225,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Peel the carrots.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.44"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

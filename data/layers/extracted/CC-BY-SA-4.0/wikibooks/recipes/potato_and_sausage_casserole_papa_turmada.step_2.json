@@ -1,0 +1,62 @@
+{
+  "id": "potato_and_sausage_casserole_papa_turmada.step_2",
+  "source": "wikibooks_potato_and_sausage_casserole_papa_turmada",
+  "sourceRef": {
+    "source": "wikibooks_potato_and_sausage_casserole_papa_turmada",
+    "step": 2
+  },
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "potato_and_sausage_casserole_papa_turmada_step_1",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "white_bread",
+        "amount": {
+          "qty": 3,
+          "unit": "slice"
+        }
+      },
+      {
+        "ingredient": "milk",
+        "amount": {
+          "qty": 0.5,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "potato_and_sausage_casserole_papa_turmada_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Cut bread into small squares and wet with milk.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

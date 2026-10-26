@@ -1,0 +1,74 @@
+{
+  "id": "christmas_cake.step_6",
+  "source": "wikibooks_christmas_cake",
+  "sourceRef": {
+    "source": "wikibooks_christmas_cake",
+    "step": 6
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "christmas_cake_step_5",
+        "amount": {
+          "qty": 2879.6,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "self_rising_flour",
+        "amount": {
+          "qty": 100,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "wheat_flour",
+        "amount": {
+          "qty": 200,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "homemade_mixed_spice",
+        "amount": {
+          "qty": 2,
+          "unit": "tsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "christmas_cake_step_6",
+      "amount": {
+        "qty": 3189.5,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Sieve the flours and the mixed spice into the mixture, beating until a smooth mixture results.",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for homemade_mixed_spice"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

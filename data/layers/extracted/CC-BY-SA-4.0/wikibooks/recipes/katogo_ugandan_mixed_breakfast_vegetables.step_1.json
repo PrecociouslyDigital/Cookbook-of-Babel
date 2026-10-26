@@ -1,0 +1,48 @@
+{
+  "id": "katogo_ugandan_mixed_breakfast_vegetables.step_1",
+  "source": "wikibooks_katogo_ugandan_mixed_breakfast_vegetables",
+  "sourceRef": {
+    "source": "wikibooks_katogo_ugandan_mixed_breakfast_vegetables",
+    "step": 1
+  },
+  "technique": "chop",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "banana",
+        "amount": {
+          "qty": 500,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "katogo_ugandan_mixed_breakfast_vegetables_step_1",
+      "amount": {
+        "qty": 500,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Chop the green bananas and set aside.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

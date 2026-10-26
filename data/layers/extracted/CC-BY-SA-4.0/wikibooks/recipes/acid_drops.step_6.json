@@ -1,0 +1,48 @@
+{
+  "id": "acid_drops.step_6",
+  "source": "wikibooks_acid_drops",
+  "sourceRef": {
+    "source": "wikibooks_acid_drops",
+    "step": 6
+  },
+  "technique": "cool",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "acid_drops_step_5",
+        "amount": {
+          "qty": 656.4,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "acid_drops",
+      "amount": {
+        "qty": 656.4,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Allow to cool and harden completely. Store in an air-tight container.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

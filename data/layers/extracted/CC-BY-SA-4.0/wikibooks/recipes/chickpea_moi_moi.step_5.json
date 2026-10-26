@@ -1,0 +1,48 @@
+{
+  "id": "chickpea_moi_moi.step_5",
+  "source": "wikibooks_chickpea_moi_moi",
+  "sourceRef": {
+    "source": "wikibooks_chickpea_moi_moi",
+    "step": 5
+  },
+  "technique": "steam",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "chickpea_moi_moi_step_4",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "chickpea_moi_moi",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 100,
+    "medium": "steam"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 40,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Steam for 40 minutes. Remove from the steamer and unmold.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of steam's typical range"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "id": "peach_cobbler.step_2",
+  "source": "wikibooks_peach_cobbler",
+  "sourceRef": {
+    "source": "wikibooks_peach_cobbler",
+    "step": 2
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "peach_cobbler_step_1",
+        "amount": {
+          "qty": 304.6,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "peach",
+        "amount": {
+          "qty": 15,
+          "unit": "oz"
+        }
+      },
+      {
+        "ingredient": "white_sugar",
+        "amount": {
+          "qty": 0.5,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "peach_cobbler_step_2",
+      "amount": {
+        "qty": 830.4,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Pour peaches in 9x13-inch baking pan. Sprinkle sugar on top.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

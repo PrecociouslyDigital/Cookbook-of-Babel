@@ -1,0 +1,53 @@
+{
+  "id": "grilled_lamb_chops.step_2",
+  "source": "wikibooks_grilled_lamb_chops",
+  "sourceRef": {
+    "source": "wikibooks_grilled_lamb_chops",
+    "step": 2
+  },
+  "technique": "grill",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "grilled_lamb_chops_step_1",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "grilled_lamb_chops_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 250,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1.5,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Grill chops over high heat for 1 ½ minutes. Rotate 90° and cook for another 1 ½ minutes. Flip and repeat these steps on the other side of the chops.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of grill's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "the step names several durations; used the first"
+    }
+  ]
+}

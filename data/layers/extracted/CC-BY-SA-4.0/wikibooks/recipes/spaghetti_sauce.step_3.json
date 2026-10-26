@@ -1,0 +1,53 @@
+{
+  "id": "spaghetti_sauce.step_3",
+  "source": "wikibooks_spaghetti_sauce",
+  "sourceRef": {
+    "source": "wikibooks_spaghetti_sauce",
+    "step": 3
+  },
+  "technique": "boil",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "spaghetti_sauce_step_2",
+        "amount": {
+          "qty": 840.2,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "spaghetti_sauce_step_3",
+      "amount": {
+        "qty": 840.2,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 100,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Bring to a boil while stirring to prevent the sauce from burning to the bottom of the pan.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of boil's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

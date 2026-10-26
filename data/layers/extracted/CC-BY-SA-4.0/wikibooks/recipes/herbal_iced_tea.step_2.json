@@ -1,0 +1,62 @@
+{
+  "id": "herbal_iced_tea.step_2",
+  "source": "wikibooks_herbal_iced_tea",
+  "sourceRef": {
+    "source": "wikibooks_herbal_iced_tea",
+    "step": 2
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "herbal_iced_tea_step_1",
+        "amount": {
+          "qty": 794.4,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "orange",
+        "amount": {
+          "qty": 2,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "orange_flower_water",
+        "amount": {
+          "qty": 5,
+          "unit": "drop"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "herbal_iced_tea_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Add orange juice and orange flower extract.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

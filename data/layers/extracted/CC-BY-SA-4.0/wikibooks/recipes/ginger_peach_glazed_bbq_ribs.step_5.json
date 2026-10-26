@@ -1,0 +1,58 @@
+{
+  "id": "ginger_peach_glazed_bbq_ribs.step_5",
+  "source": "wikibooks_ginger_peach_glazed_bbq_ribs",
+  "sourceRef": {
+    "source": "wikibooks_ginger_peach_glazed_bbq_ribs",
+    "step": 5
+  },
+  "technique": "grill",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "ginger_peach_glazed_bbq_ribs_step_4",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "ginger_peach_glazed_bbq_ribs_step_5",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 250,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Brush ribs generously with preserve mixture and place on a medium high grill and cook, repeatedly brushing side facing you, until well browned. Repeat one more time.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.45"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of grill's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

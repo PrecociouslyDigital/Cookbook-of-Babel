@@ -1,0 +1,48 @@
+{
+  "id": "banoffee_pie.step_1",
+  "source": "wikibooks_banoffee_pie",
+  "sourceRef": {
+    "source": "wikibooks_banoffee_pie",
+    "step": 1
+  },
+  "technique": "grind",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "digestive_biscuit",
+        "amount": {
+          "qty": 9,
+          "unit": "oz"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "banoffee_pie_step_1",
+      "amount": {
+        "qty": 255.2,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Crush the biscuits into crumbs with the end of a rolling pin. This is best done inside a freezer bag to avoid spillage and loss.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

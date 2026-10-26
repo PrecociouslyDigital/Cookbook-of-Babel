@@ -1,0 +1,48 @@
+{
+  "id": "meatballs_with_honey_lime_sauce.step_3",
+  "source": "wikibooks_meatballs_with_honey_lime_sauce",
+  "sourceRef": {
+    "source": "wikibooks_meatballs_with_honey_lime_sauce",
+    "step": 3
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "meatballs_with_honey_lime_sauce_step_2",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "meatballs_with_honey_lime_sauce_step_3",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Shape into 1-ounce balls and dredge meatballs in remaining breadcrumbs.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

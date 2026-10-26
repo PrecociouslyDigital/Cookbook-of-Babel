@@ -1,0 +1,48 @@
+{
+  "id": "egyptian_grilled_pigeon_fattah_meshaltet.step_5",
+  "source": "wikibooks_egyptian_grilled_pigeon_fattah_meshaltet",
+  "sourceRef": {
+    "source": "wikibooks_egyptian_grilled_pigeon_fattah_meshaltet",
+    "step": 5
+  },
+  "technique": "strain",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "egyptian_grilled_pigeon_fattah_meshaltet_step_3",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "egyptian_grilled_pigeon_fattah_meshaltet_step_5",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Remove the pigeons from the marinade and shake off any excess. Reserve the marinade for basting.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

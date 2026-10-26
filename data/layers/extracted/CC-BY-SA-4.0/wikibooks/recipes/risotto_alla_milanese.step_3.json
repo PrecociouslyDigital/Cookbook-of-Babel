@@ -1,0 +1,58 @@
+{
+  "id": "risotto_alla_milanese.step_3",
+  "source": "wikibooks_risotto_alla_milanese",
+  "sourceRef": {
+    "source": "wikibooks_risotto_alla_milanese",
+    "step": 3
+  },
+  "technique": "dissolve",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "risotto_alla_milanese_step_2",
+        "amount": {
+          "qty": 888.4,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "risotto_alla_milanese_step_3",
+      "amount": {
+        "qty": 888.4,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 90,
+    "medium": "simmering_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Stir ½ cup broth into saffron to dissolve; set aside. Keep remaining broth hot.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.51"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 90.0 °C for simmering_water"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

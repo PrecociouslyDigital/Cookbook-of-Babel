@@ -1,0 +1,48 @@
+{
+  "id": "almond_milk_i.step_4",
+  "source": "wikibooks_almond_milk_i",
+  "sourceRef": {
+    "source": "wikibooks_almond_milk_i",
+    "step": 4
+  },
+  "technique": "chill",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "almond_milk_i_step_3",
+        "amount": {
+          "qty": 1047.1,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "almond_milk_i",
+      "amount": {
+        "qty": 1047.1,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Use the almond milk immediately or chill.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

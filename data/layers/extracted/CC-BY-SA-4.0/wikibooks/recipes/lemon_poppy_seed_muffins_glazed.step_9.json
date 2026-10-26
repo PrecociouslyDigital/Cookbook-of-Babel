@@ -1,0 +1,48 @@
+{
+  "id": "lemon_poppy_seed_muffins_glazed.step_9",
+  "source": "wikibooks_lemon_poppy_seed_muffins_glazed",
+  "sourceRef": {
+    "source": "wikibooks_lemon_poppy_seed_muffins_glazed",
+    "step": 9
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "lemon_poppy_seed_muffins_glazed_step_8",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "lemon_poppy_seed_muffins_glazed_step_9",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Drizzle muffins with glaze.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "id": "spinach_artichoke_dip.step_3",
+  "source": "wikibooks_spinach_artichoke_dip",
+  "sourceRef": {
+    "source": "wikibooks_spinach_artichoke_dip",
+    "step": 3
+  },
+  "technique": "heat",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "spinach_artichoke_dip_step_2",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "monterey_jack_cheese",
+        "amount": {
+          "qty": 0.6666666666666666,
+          "unit": "cup"
+        }
+      },
+      {
+        "ingredient": "salsa",
+        "amount": {
+          "qty": 1,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "spinach_artichoke_dip_step_3",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 180,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1.375,
+      "unit": "h"
+    }
+  },
+  "stateNote": "Cover and cook on the high heat setting for 1¼–1½ hours, until hot in the center. Sprinkle the top evenly with the Jack cheese and spoon the salsa in a ring around the inside edges of the slow cooker. Cover and continue heating on high 15 minutes longer, or until the cheese is melted.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.46"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 180.0 °C for pan_contact"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "the step names several durations; used the first"
+    }
+  ]
+}

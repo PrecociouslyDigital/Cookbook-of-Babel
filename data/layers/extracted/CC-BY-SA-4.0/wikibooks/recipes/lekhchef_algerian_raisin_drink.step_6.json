@@ -1,0 +1,48 @@
+{
+  "id": "lekhchef_algerian_raisin_drink.step_6",
+  "source": "wikibooks_lekhchef_algerian_raisin_drink",
+  "sourceRef": {
+    "source": "wikibooks_lekhchef_algerian_raisin_drink",
+    "step": 6
+  },
+  "technique": "chill",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "lekhchef_algerian_raisin_drink_step_5",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "lekhchef_algerian_raisin_drink",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Put the beverage in the refrigerator and serve very cold with or without raisins.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

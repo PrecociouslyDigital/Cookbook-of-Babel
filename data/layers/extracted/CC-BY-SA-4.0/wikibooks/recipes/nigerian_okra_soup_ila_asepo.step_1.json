@@ -1,0 +1,79 @@
+{
+  "id": "nigerian_okra_soup_ila_asepo.step_1",
+  "source": "wikibooks_nigerian_okra_soup_ila_asepo",
+  "sourceRef": {
+    "source": "wikibooks_nigerian_okra_soup_ila_asepo",
+    "step": 1
+  },
+  "technique": "simmer",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "assorted_meat",
+        "amount": {
+          "qty": 700,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "stockfish",
+        "amount": {
+          "qty": 200,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "onion",
+        "amount": {
+          "qty": 1,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "seasoning_cubes",
+        "amount": {
+          "qty": 2,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "nigerian_okra_soup_ila_asepo_step_1",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 90,
+    "medium": "simmering_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Cook the meats: Season 700 grams assorted meat (beef, shaki, ponmo, cow leg) with diced 1 onion, 1 of 2 seasoning cubes, and a pinch of 1 teaspoons salt. Add 200 grams stockfish (panla), soaked and cleaned midway through cooking. Cook on medium heat until tender. Reserve the meat stock.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.45"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of simmer's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "spanakopita.step_2",
+  "source": "wikibooks_spanakopita",
+  "sourceRef": {
+    "source": "wikibooks_spanakopita",
+    "step": 2
+  },
+  "technique": "steam",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "spinach",
+        "amount": {
+          "qty": 900,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "spanakopita_step_2",
+      "amount": {
+        "qty": 900,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 100,
+    "medium": "steam"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 2,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Wash the spinach, remove large stems, and chop. Place in a steamer over boiling water and steam for 2 minutes, or until wilted and reduced in volume. Drain, pressing out any liquid with the back of a spoon.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of steam's typical range"
+    }
+  ]
+}

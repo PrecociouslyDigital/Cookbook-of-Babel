@@ -1,0 +1,58 @@
+{
+  "id": "chicken_with_orange_spinach_and_cherry_tomatoes.step_10",
+  "source": "wikibooks_chicken_with_orange_spinach_and_cherry_tomatoes",
+  "sourceRef": {
+    "source": "wikibooks_chicken_with_orange_spinach_and_cherry_tomatoes",
+    "step": 10
+  },
+  "technique": "steam",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "chicken_with_orange_spinach_and_cherry_tomatoes_step_9",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "chicken_with_orange_spinach_and_cherry_tomatoes_step_10",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Fold foil over, enclosing contents completely and crimping edges tightly to seal.",
+  "issues": [
+    {
+      "field": "sourceRef",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.57"
+    },
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.43"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

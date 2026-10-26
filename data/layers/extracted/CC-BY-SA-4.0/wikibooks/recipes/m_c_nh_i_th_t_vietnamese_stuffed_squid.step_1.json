@@ -1,0 +1,62 @@
+{
+  "id": "m_c_nh_i_th_t_vietnamese_stuffed_squid.step_1",
+  "source": "wikibooks_m_c_nh_i_th_t_vietnamese_stuffed_squid",
+  "sourceRef": {
+    "source": "wikibooks_m_c_nh_i_th_t_vietnamese_stuffed_squid",
+    "step": 1
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "squid_tentacles",
+        "amount": {
+          "qty": 6,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "pork_fat",
+        "amount": {
+          "qty": 250,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "garlic",
+        "amount": {
+          "qty": 2,
+          "unit": "clove"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "m_c_nh_i_th_t_vietnamese_stuffed_squid_step_1",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Combine chopped squid tentacles, minced pork fat, and garlic.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

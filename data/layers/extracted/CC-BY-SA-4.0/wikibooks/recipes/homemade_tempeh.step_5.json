@@ -1,0 +1,48 @@
+{
+  "id": "homemade_tempeh.step_5",
+  "source": "wikibooks_homemade_tempeh",
+  "sourceRef": {
+    "source": "wikibooks_homemade_tempeh",
+    "step": 5
+  },
+  "technique": "evaporate",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "homemade_tempeh_step_4",
+        "amount": {
+          "qty": 400.3,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "homemade_tempeh_step_5",
+      "amount": {
+        "qty": 400.3,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Drain beans, and spread to dry somewhere with airflow (see notes).",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

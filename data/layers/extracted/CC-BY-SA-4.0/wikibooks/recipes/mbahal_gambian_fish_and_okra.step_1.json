@@ -1,0 +1,48 @@
+{
+  "id": "mbahal_gambian_fish_and_okra.step_1",
+  "source": "wikibooks_mbahal_gambian_fish_and_okra",
+  "sourceRef": {
+    "source": "wikibooks_mbahal_gambian_fish_and_okra",
+    "step": 1
+  },
+  "technique": "separate",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "catfish",
+        "amount": {
+          "qty": 500,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "mbahal_gambian_fish_and_okra_step_1",
+      "amount": {
+        "qty": 500,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "If the smoked fish still has bones, carefully debone it and flake the flesh into small pieces. Set aside.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

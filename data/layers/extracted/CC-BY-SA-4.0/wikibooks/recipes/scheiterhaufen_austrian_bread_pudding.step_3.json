@@ -1,0 +1,62 @@
+{
+  "id": "scheiterhaufen_austrian_bread_pudding.step_3",
+  "source": "wikibooks_scheiterhaufen_austrian_bread_pudding",
+  "sourceRef": {
+    "source": "wikibooks_scheiterhaufen_austrian_bread_pudding",
+    "step": 3
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "scheiterhaufen_austrian_bread_pudding_step_2",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "milk",
+        "amount": {
+          "qty": 2,
+          "unit": "cup"
+        }
+      },
+      {
+        "ingredient": "egg",
+        "amount": {
+          "qty": 4,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "scheiterhaufen_austrian_bread_pudding_step_3",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Pour the milk into a bowl and add the eggs. Mix well. Then take the slices of bread and let them soak in the mixture for a few seconds. This will take longer if you use stale rather than fresh bread.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

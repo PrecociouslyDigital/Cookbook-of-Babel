@@ -1,0 +1,93 @@
+{
+  "id": "cola_iii.step_2",
+  "source": "wikibooks_cola_iii",
+  "sourceRef": {
+    "source": "wikibooks_cola_iii",
+    "step": 2
+  },
+  "technique": "boil",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "cola_iii_step_1",
+        "amount": {
+          "qty": 4.7,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "phosphoric_acid",
+        "amount": {
+          "qty": 0.25,
+          "unit": "tsp"
+        }
+      },
+      {
+        "ingredient": "caramel",
+        "amount": {
+          "qty": 0.75,
+          "unit": "tsp"
+        }
+      },
+      {
+        "ingredient": "lime",
+        "amount": {
+          "qty": 0.75,
+          "unit": "tsp"
+        }
+      },
+      {
+        "ingredient": "water",
+        "amount": {
+          "qty": 10,
+          "unit": "fl_oz"
+        }
+      },
+      {
+        "ingredient": "white_sugar",
+        "amount": {
+          "qty": 10,
+          "unit": "fl_oz"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "cola_iii_step_2",
+      "amount": {
+        "qty": 560.4,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 100,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Combine the phosphoric acid, caramel color, lime juice, water, and sugar in a saucepan. Bring to a boil, then boil until it becomes a thick syrup.",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for phosphoric_acid, caramel, lime"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of boil's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

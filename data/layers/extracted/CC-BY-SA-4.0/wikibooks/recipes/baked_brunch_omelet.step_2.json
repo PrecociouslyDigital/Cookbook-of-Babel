@@ -1,0 +1,62 @@
+{
+  "id": "baked_brunch_omelet.step_2",
+  "source": "wikibooks_baked_brunch_omelet",
+  "sourceRef": {
+    "source": "wikibooks_baked_brunch_omelet",
+    "step": 2
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "bread",
+        "amount": {
+          "qty": 1,
+          "unit": "lb"
+        }
+      },
+      {
+        "ingredient": "cheddar_cheese",
+        "amount": {
+          "qty": 680,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "ham",
+        "amount": {
+          "qty": 135,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "baked_brunch_omelet_step_2",
+      "amount": {
+        "qty": 1268.6,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Place half of the bread cubes on bottom of baking pan. Sprinkle with half of the ham and then half of the cheese; repeat.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

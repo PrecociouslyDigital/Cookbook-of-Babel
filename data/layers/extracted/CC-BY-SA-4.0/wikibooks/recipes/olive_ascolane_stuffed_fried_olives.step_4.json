@@ -1,0 +1,60 @@
+{
+  "id": "olive_ascolane_stuffed_fried_olives.step_4",
+  "source": "wikibooks_olive_ascolane_stuffed_fried_olives",
+  "sourceRef": {
+    "source": "wikibooks_olive_ascolane_stuffed_fried_olives",
+    "step": 4
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "olive_ascolane_stuffed_fried_olives_step_3",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "olive",
+        "amount": {
+          "qty": 50,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "olive_ascolane_stuffed_fried_olives_step_4",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Remove the mixture from refrigerator and roll meat into balls about the size of a small walnut. Put half of an olive on each side of the rolled ball.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'About 50 large pitted green olives, halved': 'pitted' read as pieces"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

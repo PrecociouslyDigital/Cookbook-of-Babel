@@ -1,0 +1,53 @@
+{
+  "id": "kunun_tamba_finger_millet_porridge.step_1",
+  "source": "wikibooks_kunun_tamba_finger_millet_porridge",
+  "sourceRef": {
+    "source": "wikibooks_kunun_tamba_finger_millet_porridge",
+    "step": 1
+  },
+  "technique": "rinse",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "millet",
+        "amount": {
+          "qty": 0.25,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "kunun_tamba_finger_millet_porridge_step_1",
+      "amount": {
+        "qty": 59.2,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Wash the tamba and dry with a clean cloth.",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for millet"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

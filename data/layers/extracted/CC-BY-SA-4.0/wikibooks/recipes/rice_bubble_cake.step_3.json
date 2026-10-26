@@ -1,0 +1,65 @@
+{
+  "id": "rice_bubble_cake.step_3",
+  "source": "wikibooks_rice_bubble_cake",
+  "sourceRef": {
+    "source": "wikibooks_rice_bubble_cake",
+    "step": 3
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "rice_bubble_cake_step_2",
+        "amount": {
+          "qty": 195.1,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "breakfast_cereal",
+        "amount": {
+          "qty": 5,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "rice_bubble_cake_step_3",
+      "amount": {
+        "qty": 1378.1,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 180,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Remove from the heat and add the rice cereal. Stir well to evenly mix everything together",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for breakfast_cereal"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 180.0 °C for pan_contact"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

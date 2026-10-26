@@ -1,0 +1,67 @@
+{
+  "id": "arancini_italian_fried_rice_balls.step_3",
+  "source": "wikibooks_arancini_italian_fried_rice_balls",
+  "sourceRef": {
+    "source": "wikibooks_arancini_italian_fried_rice_balls",
+    "step": 3
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "arancini_italian_fried_rice_balls_step_2",
+        "amount": {
+          "qty": 626.5,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "ham",
+        "amount": {
+          "qty": 4,
+          "unit": "oz"
+        }
+      },
+      {
+        "ingredient": "butter",
+        "amount": {
+          "qty": 1,
+          "unit": "tbsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "arancini_italian_fried_rice_balls_step_3",
+      "amount": {
+        "qty": 754.7,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Prepare filling by combining chopped ham and butter.",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for butter"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

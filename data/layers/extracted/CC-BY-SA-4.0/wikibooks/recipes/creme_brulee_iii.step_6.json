@@ -1,0 +1,53 @@
+{
+  "id": "creme_brulee_iii.step_6",
+  "source": "wikibooks_creme_brulee_iii",
+  "sourceRef": {
+    "source": "wikibooks_creme_brulee_iii",
+    "step": 6
+  },
+  "technique": "bake",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "creme_brulee_iii_step_5",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "creme_brulee_iii_step_6",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 200,
+    "medium": "simmering_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 40,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Pour into ramekins (depending on size, may fill 1 to 4). Put ramekins in pan with a bit of water in the bottom, and bake for around 40 minutes or until the custard is set.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.48"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of bake's typical range"
+    }
+  ]
+}

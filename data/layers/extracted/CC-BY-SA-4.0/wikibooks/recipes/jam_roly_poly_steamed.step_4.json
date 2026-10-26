@@ -1,0 +1,53 @@
+{
+  "id": "jam_roly_poly_steamed.step_4",
+  "source": "wikibooks_jam_roly_poly_steamed",
+  "sourceRef": {
+    "source": "wikibooks_jam_roly_poly_steamed",
+    "step": 4
+  },
+  "technique": "steam",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "jam_roly_poly_steamed_step_3",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "jam_roly_poly_steamed",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 100,
+    "medium": "steam"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 2,
+      "unit": "h"
+    }
+  },
+  "stateNote": "Set in a steamer and steam for 2 hours.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of steam's typical range"
+    },
+    {
+      "field": "inputs",
+      "kind": "missing",
+      "note": "no step uses 'Custard or cream to serve.' (p=1.0)"
+    }
+  ]
+}

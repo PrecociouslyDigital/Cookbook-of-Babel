@@ -1,0 +1,48 @@
+{
+  "id": "garum_boiled.step_3",
+  "source": "wikibooks_garum_boiled",
+  "sourceRef": {
+    "source": "wikibooks_garum_boiled",
+    "step": 3
+  },
+  "technique": "strain",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "garum_boiled_step_2",
+        "amount": {
+          "qty": 2191.7,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "garum_boiled",
+      "amount": {
+        "qty": 2191.7,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Strain the fluid through a sieve, and bottle for future use.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

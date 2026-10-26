@@ -1,0 +1,41 @@
+{
+  "id": "dry_aged_prime_rib.step_5",
+  "source": "wikibooks_dry_aged_prime_rib",
+  "sourceRef": {
+    "source": "wikibooks_dry_aged_prime_rib",
+    "step": 5
+  },
+  "technique": "cool",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "dry_aged_prime_rib_step_4",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "dry_aged_prime_rib",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 10,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Remove, let rest 10 minutes, and serve."
+}

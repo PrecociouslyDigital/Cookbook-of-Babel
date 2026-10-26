@@ -1,0 +1,55 @@
+{
+  "id": "white_russian_cocktail.step_3",
+  "source": "wikibooks_white_russian_cocktail",
+  "sourceRef": {
+    "source": "wikibooks_white_russian_cocktail",
+    "step": 3
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "white_russian_cocktail_step_2",
+        "amount": {
+          "qty": 85.1,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "cream",
+        "amount": {
+          "qty": 1,
+          "unit": "oz"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "white_russian_cocktail",
+      "amount": {
+        "qty": 113.4,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Top with heavy cream or milk. Gently stir to mix.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

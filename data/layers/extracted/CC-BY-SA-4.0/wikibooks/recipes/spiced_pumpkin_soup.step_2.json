@@ -1,0 +1,86 @@
+{
+  "id": "spiced_pumpkin_soup.step_2",
+  "source": "wikibooks_spiced_pumpkin_soup",
+  "sourceRef": {
+    "source": "wikibooks_spiced_pumpkin_soup",
+    "step": 2
+  },
+  "technique": "simmer",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "spiced_pumpkin_soup_step_1",
+        "amount": {
+          "qty": 279.8,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "sweet_potato",
+        "amount": {
+          "qty": 1,
+          "unit": "cup"
+        }
+      },
+      {
+        "ingredient": "salt",
+        "amount": {
+          "qty": 0.25,
+          "unit": "tsp"
+        }
+      },
+      {
+        "ingredient": "broth_and_stock",
+        "amount": {
+          "qty": 28,
+          "unit": "oz"
+        }
+      },
+      {
+        "ingredient": "pumpkin",
+        "amount": {
+          "qty": 15,
+          "unit": "oz"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "spiced_pumpkin_soup_step_2",
+      "amount": {
+        "qty": 1736.9,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 90,
+    "medium": "simmering_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 22.5,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Add sweet potato, salt, chicken broth, and pumpkin, and bring to a boil. Reduce heat to medium-low and simmer, partially covered for about 20–25 minutes or until sweet potatoes are cooked through and softened. Remove from heat and let stand for 10 minutes to cool.",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for sweet_potato"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of simmer's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "the step names several durations; used the first"
+    }
+  ]
+}

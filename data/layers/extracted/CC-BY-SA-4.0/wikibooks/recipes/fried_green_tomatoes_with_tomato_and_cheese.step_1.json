@@ -1,0 +1,48 @@
+{
+  "id": "fried_green_tomatoes_with_tomato_and_cheese.step_1",
+  "source": "wikibooks_fried_green_tomatoes_with_tomato_and_cheese",
+  "sourceRef": {
+    "source": "wikibooks_fried_green_tomatoes_with_tomato_and_cheese",
+    "step": 1
+  },
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "tomato",
+        "amount": {
+          "qty": 5,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "fried_green_tomatoes_with_tomato_and_cheese_step_1",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Slice the green tomatoes into ¼-inch (0.75 cm) slices.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

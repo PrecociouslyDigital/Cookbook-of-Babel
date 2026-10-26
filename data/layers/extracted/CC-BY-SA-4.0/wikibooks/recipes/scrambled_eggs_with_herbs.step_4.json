@@ -1,0 +1,48 @@
+{
+  "id": "scrambled_eggs_with_herbs.step_4",
+  "source": "wikibooks_scrambled_eggs_with_herbs",
+  "sourceRef": {
+    "source": "wikibooks_scrambled_eggs_with_herbs",
+    "step": 4
+  },
+  "technique": "separate",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "egg",
+        "amount": {
+          "qty": 3,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "scrambled_eggs_with_herbs_step_4",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Get a small bowl. Crack eggs on countertop, then split them so the whites and yolks fall into the bowl. Make sure no shell fragments get in; if they do, remove them.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "id": "hasude_albanian_cornstarch_pudding.step_2",
+  "source": "wikibooks_hasude_albanian_cornstarch_pudding",
+  "sourceRef": {
+    "source": "wikibooks_hasude_albanian_cornstarch_pudding",
+    "step": 2
+  },
+  "technique": "heat",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "hasude_albanian_cornstarch_pudding_step_1",
+        "amount": {
+          "qty": 396.1,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "white_sugar",
+        "amount": {
+          "qty": 240,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "hasude_albanian_cornstarch_pudding_step_2",
+      "amount": {
+        "qty": 636.1,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 180,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Once all the cornstarch is added, cook until the mass becomes yellow. Sweeten with some sugar.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.52"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 180.0 °C for pan_contact"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

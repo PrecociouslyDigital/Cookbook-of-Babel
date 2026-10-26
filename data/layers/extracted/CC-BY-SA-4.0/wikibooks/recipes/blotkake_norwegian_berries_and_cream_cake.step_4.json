@@ -1,0 +1,60 @@
+{
+  "id": "blotkake_norwegian_berries_and_cream_cake.step_4",
+  "source": "wikibooks_blotkake_norwegian_berries_and_cream_cake",
+  "sourceRef": {
+    "source": "wikibooks_blotkake_norwegian_berries_and_cream_cake",
+    "step": 4
+  },
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "blotkake_norwegian_berries_and_cream_cake_step_3",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "peach",
+        "amount": {
+          "qty": 1,
+          "unit": "can"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "blotkake_norwegian_berries_and_cream_cake_step_4",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Slice the cake horizontally into 3 layers. Sprinkle each slice with some of the peach juice from the tin.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.52"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

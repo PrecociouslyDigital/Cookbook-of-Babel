@@ -1,0 +1,48 @@
+{
+  "id": "nigerian_bean_porridge.step_3",
+  "source": "wikibooks_nigerian_bean_porridge",
+  "sourceRef": {
+    "source": "wikibooks_nigerian_bean_porridge",
+    "step": 3
+  },
+  "technique": "boil",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "nigerian_bean_porridge_step_2",
+        "amount": {
+          "qty": 0.3,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "nigerian_bean_porridge_step_3",
+      "amount": {
+        "qty": 0.3,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 100,
+    "medium": "boiling_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 5,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Boil water in a pot, and add the beans. Boil for 5 minutes, then strain and let run under cold water. Fully drain the beans.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of boil's typical range"
+    }
+  ]
+}

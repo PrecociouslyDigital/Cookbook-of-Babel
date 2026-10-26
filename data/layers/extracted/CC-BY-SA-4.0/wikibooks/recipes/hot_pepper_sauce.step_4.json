@@ -1,0 +1,48 @@
+{
+  "id": "hot_pepper_sauce.step_4",
+  "source": "wikibooks_hot_pepper_sauce",
+  "sourceRef": {
+    "source": "wikibooks_hot_pepper_sauce",
+    "step": 4
+  },
+  "technique": "age",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "hot_pepper_sauce_step_3",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "hot_pepper_sauce",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Leave the jar in a cool, dark place for one month (at least) to develop a good flavour.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

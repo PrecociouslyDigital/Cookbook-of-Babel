@@ -1,0 +1,53 @@
+{
+  "id": "ekuru_white_bean_pudding.step_7",
+  "source": "wikibooks_ekuru_white_bean_pudding",
+  "sourceRef": {
+    "source": "wikibooks_ekuru_white_bean_pudding",
+    "step": 7
+  },
+  "technique": "separate",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "ekuru_white_bean_pudding_step_6",
+        "amount": {
+          "qty": 1.3,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "ekuru_white_bean_pudding",
+      "amount": {
+        "qty": 1.3,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Unwrap/unmold the ekuru, and serve with stew.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.52"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

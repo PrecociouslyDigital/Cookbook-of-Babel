@@ -1,0 +1,58 @@
+{
+  "id": "dominican_flan.step_3",
+  "source": "wikibooks_dominican_flan",
+  "sourceRef": {
+    "source": "wikibooks_dominican_flan",
+    "step": 3
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "dominican_flan_step_2",
+        "amount": {
+          "qty": 109.4,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "dominican_flan_step_3",
+      "amount": {
+        "qty": 109.4,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 180,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Once the caramel is ready, swirl the pot, making sure that the caramel is well-distributed in the pot. You may want to use a towel or oven mitts since it's very hot.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.56"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 180.0 °C for pan_contact"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

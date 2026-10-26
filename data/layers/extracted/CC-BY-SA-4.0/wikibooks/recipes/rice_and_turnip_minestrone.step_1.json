@@ -1,0 +1,55 @@
+{
+  "id": "rice_and_turnip_minestrone.step_1",
+  "source": "wikibooks_rice_and_turnip_minestrone",
+  "sourceRef": {
+    "source": "wikibooks_rice_and_turnip_minestrone",
+    "step": 1
+  },
+  "technique": "strain",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "turnip",
+        "amount": {
+          "qty": 3,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "salt",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "rice_and_turnip_minestrone_step_1",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 2,
+      "unit": "h"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Arrange the turnip slices on a rack over a cookie sheet. Sprinkle with salt, cover them with a dish, and let them stand for about 2 hours until the water has run out of them.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Salt': no quantity given; assumed a pinch"
+    }
+  ]
+}

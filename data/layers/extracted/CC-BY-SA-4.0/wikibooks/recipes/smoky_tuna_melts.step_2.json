@@ -1,0 +1,62 @@
+{
+  "id": "smoky_tuna_melts.step_2",
+  "source": "wikibooks_smoky_tuna_melts",
+  "sourceRef": {
+    "source": "wikibooks_smoky_tuna_melts",
+    "step": 2
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "smoky_tuna_melts_step_1",
+        "amount": {
+          "qty": 157.5,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "bread",
+        "amount": {
+          "qty": 4,
+          "unit": "slice"
+        }
+      },
+      {
+        "ingredient": "mozzarella_cheese",
+        "amount": {
+          "qty": 2,
+          "unit": "slice"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "smoky_tuna_melts_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Spread some of the tuna mixture on each slice of bread. Top with cheese.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

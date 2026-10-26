@@ -1,0 +1,48 @@
+{
+  "id": "rosemary_grilled_salmon_steaks.step_2",
+  "source": "wikibooks_rosemary_grilled_salmon_steaks",
+  "sourceRef": {
+    "source": "wikibooks_rosemary_grilled_salmon_steaks",
+    "step": 2
+  },
+  "technique": "grill",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "rosemary_grilled_salmon_steaks_step_1",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "rosemary_grilled_salmon_steaks",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 250,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 3,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Place the steaks on a hot grill, cooking on each side for 3 minutes until flaky.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of grill's typical range"
+    }
+  ]
+}

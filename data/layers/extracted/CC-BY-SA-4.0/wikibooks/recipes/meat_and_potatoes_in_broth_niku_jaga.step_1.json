@@ -1,0 +1,48 @@
+{
+  "id": "meat_and_potatoes_in_broth_niku_jaga.step_1",
+  "source": "wikibooks_meat_and_potatoes_in_broth_niku_jaga",
+  "sourceRef": {
+    "source": "wikibooks_meat_and_potatoes_in_broth_niku_jaga",
+    "step": 1
+  },
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "potato",
+        "amount": {
+          "qty": 4,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "meat_and_potatoes_in_broth_niku_jaga_step_1",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Cut potatoes into bite-sized pieces. Set aside to soak in cold water.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

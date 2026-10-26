@@ -1,0 +1,70 @@
+{
+  "id": "agedashi_tofu.step_4",
+  "source": "wikibooks_agedashi_tofu",
+  "sourceRef": {
+    "source": "wikibooks_agedashi_tofu",
+    "step": 4
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "agedashi_tofu_step_3",
+        "amount": {
+          "qty": 311.9,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "potato_starch",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "agedashi_tofu_step_4",
+      "amount": {
+        "qty": 312.2,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Sprinkle starch on a plate. Arrange the tofu slices on it. Sprinkle more starch over the tofu.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.47"
+    },
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Potato starch or corn starch': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for potato_starch"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

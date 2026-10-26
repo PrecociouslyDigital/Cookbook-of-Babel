@@ -1,0 +1,58 @@
+{
+  "id": "plank_grilled_salmon.step_5",
+  "source": "wikibooks_plank_grilled_salmon",
+  "sourceRef": {
+    "source": "wikibooks_plank_grilled_salmon",
+    "step": 5
+  },
+  "technique": "separate",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "plank_grilled_salmon_step_4",
+        "amount": {
+          "qty": 418.9,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "plank_grilled_salmon",
+      "amount": {
+        "qty": 418.9,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 180,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Remove the plank to onto a baking pan when the fish is cooked to the desired \"doneness\", and transfer to plates or a serving platter.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.45"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 180.0 °C for pan_contact"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

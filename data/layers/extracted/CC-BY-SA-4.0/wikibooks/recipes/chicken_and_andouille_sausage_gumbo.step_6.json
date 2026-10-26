@@ -1,0 +1,60 @@
+{
+  "id": "chicken_and_andouille_sausage_gumbo.step_6",
+  "source": "wikibooks_chicken_and_andouille_sausage_gumbo",
+  "sourceRef": {
+    "source": "wikibooks_chicken_and_andouille_sausage_gumbo",
+    "step": 6
+  },
+  "technique": "simmer",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "chicken_and_andouille_sausage_gumbo_step_5",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "sausage",
+        "amount": {
+          "qty": 0.5,
+          "unit": "lb"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "chicken_and_andouille_sausage_gumbo_step_6",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 90,
+    "medium": "simmering_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 0.5,
+      "unit": "h"
+    }
+  },
+  "stateNote": "Slice up sausage and add ½ hour after the chicken.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.59"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of simmer's typical range"
+    }
+  ]
+}

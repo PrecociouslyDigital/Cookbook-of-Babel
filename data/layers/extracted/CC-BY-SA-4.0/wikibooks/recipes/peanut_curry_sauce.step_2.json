@@ -1,0 +1,72 @@
+{
+  "id": "peanut_curry_sauce.step_2",
+  "source": "wikibooks_peanut_curry_sauce",
+  "sourceRef": {
+    "source": "wikibooks_peanut_curry_sauce",
+    "step": 2
+  },
+  "technique": "heat",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "peanut_curry_sauce_step_1",
+        "amount": {
+          "qty": 177.4,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "coconut",
+        "amount": {
+          "qty": 4,
+          "unit": "cup"
+        }
+      },
+      {
+        "ingredient": "thai_red_curry_paste",
+        "amount": {
+          "qty": 2,
+          "unit": "tbsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "peanut_curry_sauce_step_2",
+      "amount": {
+        "qty": 1153.4,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 180,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 11,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Heat half the coconut milk in a medium saucepan on high heat, and add red curry paste. Stir until curry paste is dissolved and then continue to heat on high for 10–12 minutes (not stirring) until the oil from the coconut milk has risen to the top.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.55"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for coconut, thai_red_curry_paste"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 180.0 °C for pan_contact"
+    }
+  ]
+}

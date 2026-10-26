@@ -1,0 +1,53 @@
+{
+  "id": "jamaican_jerk_spice_ii.step_2",
+  "source": "wikibooks_jamaican_jerk_spice_ii",
+  "sourceRef": {
+    "source": "wikibooks_jamaican_jerk_spice_ii",
+    "step": 2
+  },
+  "technique": "age",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "jamaican_jerk_spice_ii_step_1",
+        "amount": {
+          "qty": 111.9,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "jamaican_jerk_spice_ii",
+      "amount": {
+        "qty": 111.9,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Store in an airtight container.",
+  "issues": [
+    {
+      "field": "sourceRef",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.59"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

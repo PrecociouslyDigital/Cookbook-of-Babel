@@ -1,0 +1,66 @@
+{
+  "id": "maja_blanca_coconut_milk_pudding.step_6",
+  "source": "wikibooks_maja_blanca_coconut_milk_pudding",
+  "sourceRef": {
+    "source": "wikibooks_maja_blanca_coconut_milk_pudding",
+    "step": 6
+  },
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "maja_blanca_coconut_milk_pudding_step_5",
+        "amount": {
+          "qty": 2373.8,
+          "unit": "g"
+        }
+      },
+      {
+        "min": 0,
+        "max": 1,
+        "of": [
+          {
+            "ingredient": "coconut",
+            "amount": {
+              "qty": 0.25,
+              "unit": "cup"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "maja_blanca_coconut_milk_pudding",
+      "amount": {
+        "qty": 2433,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Once set, slice the pudding into squares and sprinkle toasted coconut flakes on top before serving.",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for coconut"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

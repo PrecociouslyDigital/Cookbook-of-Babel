@@ -1,0 +1,97 @@
+{
+  "id": "nibbles.step_2",
+  "source": "wikibooks_nibbles",
+  "sourceRef": {
+    "source": "wikibooks_nibbles",
+    "step": 2
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "nibbles_step_1",
+        "amount": {
+          "qty": 462.5,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "cereal",
+        "amount": {
+          "qty": 2,
+          "unit": "box"
+        }
+      },
+      {
+        "ingredient": "wheat_chex_cereal",
+        "amount": {
+          "qty": 1,
+          "unit": "box"
+        }
+      },
+      {
+        "ingredient": "cheerios",
+        "amount": {
+          "qty": 0.6666666666666666,
+          "unit": "box"
+        }
+      },
+      {
+        "ingredient": "pretzels",
+        "amount": {
+          "qty": 1,
+          "unit": "bag"
+        }
+      },
+      {
+        "ingredient": "peanut",
+        "amount": {
+          "qty": 1,
+          "unit": "lb"
+        }
+      },
+      {
+        "ingredient": "pecan",
+        "amount": {
+          "qty": 1,
+          "unit": "lb"
+        }
+      },
+      {
+        "ingredient": "cashew",
+        "amount": {
+          "qty": 1,
+          "unit": "can"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "nibbles_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Combine all dry ingredients except salt in a large canning pot.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": "basic_scrambled_eggs.step_7",
+  "source": "wikibooks_basic_scrambled_eggs",
+  "sourceRef": {
+    "source": "wikibooks_basic_scrambled_eggs",
+    "step": 7
+  },
+  "technique": "coagulate",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "basic_scrambled_eggs_step_6",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "basic_scrambled_eggs_step_7",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 180,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Cook until just before you feel that they are done, since the eggs will continue to cook after being removed from the pan. The eggs are done when the sheen disappears; stop cooking just before this happens.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 180.0 °C for pan_contact"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

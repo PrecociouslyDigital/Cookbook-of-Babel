@@ -1,0 +1,53 @@
+{
+  "id": "recaito_puerto_rican_culantro_sauce.step_2",
+  "source": "wikibooks_recaito_puerto_rican_culantro_sauce",
+  "sourceRef": {
+    "source": "wikibooks_recaito_puerto_rican_culantro_sauce",
+    "step": 2
+  },
+  "technique": "separate",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "recaito_puerto_rican_culantro_sauce_step_1",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "recaito_puerto_rican_culantro_sauce_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Remove the roasted garlic from the oven and simply pop the individual cloves out of the roasted paper outers. They should come out easily.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.5"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

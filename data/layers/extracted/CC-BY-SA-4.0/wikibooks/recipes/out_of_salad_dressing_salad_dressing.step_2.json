@@ -1,0 +1,55 @@
+{
+  "id": "out_of_salad_dressing_salad_dressing.step_2",
+  "source": "wikibooks_out_of_salad_dressing_salad_dressing",
+  "sourceRef": {
+    "source": "wikibooks_out_of_salad_dressing_salad_dressing",
+    "step": 2
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "out_of_salad_dressing_salad_dressing_step_1",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "milk",
+        "amount": {
+          "qty": 1,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "out_of_salad_dressing_salad_dressing_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Stir in milk, adjusting the amount or adding a little water, to make the dressing as thin or thick as you like.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

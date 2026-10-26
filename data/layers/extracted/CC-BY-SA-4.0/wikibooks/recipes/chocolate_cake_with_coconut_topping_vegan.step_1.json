@@ -1,0 +1,86 @@
+{
+  "id": "chocolate_cake_with_coconut_topping_vegan.step_1",
+  "source": "wikibooks_chocolate_cake_with_coconut_topping_vegan",
+  "sourceRef": {
+    "source": "wikibooks_chocolate_cake_with_coconut_topping_vegan",
+    "step": 1
+  },
+  "technique": "whisk",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "margarine",
+        "amount": {
+          "qty": 200,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "white_sugar",
+        "amount": {
+          "qty": 400,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "zest",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      },
+      {
+        "ingredient": "soy_milk_i",
+        "amount": {
+          "qty": 250,
+          "unit": "ml"
+        }
+      },
+      {
+        "ingredient": "soy_milk_i",
+        "amount": {
+          "qty": 450,
+          "unit": "ml"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "chocolate_cake_with_coconut_topping_vegan_step_1",
+      "amount": {
+        "qty": 1300.3,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 10,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Beat all wet ingredients together for 10 minutes until creamy, adding the soy milk gradually to the other ingredients.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.52"
+    },
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Zest of a lemon or grated ginger': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for zest, soy_milk_i, soy_milk_i"
+    }
+  ]
+}

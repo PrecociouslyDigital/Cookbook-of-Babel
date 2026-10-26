@@ -1,0 +1,53 @@
+{
+  "id": "jerk_lobster.step_12",
+  "source": "wikibooks_jerk_lobster",
+  "sourceRef": {
+    "source": "wikibooks_jerk_lobster",
+    "step": 12
+  },
+  "technique": "grill",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "jerk_lobster_step_11",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "jerk_lobster",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 250,
+    "medium": "oven_air"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 2,
+      "unit": "min"
+    }
+  },
+  "stateNote": "If you want a more smoked taste, cook for 2 minutes on each side in the oven, then place on a barbecue grill for 3 minutes. You may need to add more jerk sauce if using a grill.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of grill's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "the step names several durations; used the first"
+    }
+  ]
+}

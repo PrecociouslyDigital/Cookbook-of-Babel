@@ -1,0 +1,53 @@
+{
+  "id": "taco_soup.step_2",
+  "source": "wikibooks_taco_soup",
+  "sourceRef": {
+    "source": "wikibooks_taco_soup",
+    "step": 2
+  },
+  "technique": "pan_fry",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "taco_soup_step_1",
+        "amount": {
+          "qty": 453.9,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "taco_soup_step_2",
+      "amount": {
+        "qty": 453.9,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 185,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Break the meat up into a few large chunks, but otherwise leave it alone until it has cooked and developed some color.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of pan_fry's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

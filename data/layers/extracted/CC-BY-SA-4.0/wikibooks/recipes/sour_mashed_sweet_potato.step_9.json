@@ -1,0 +1,48 @@
+{
+  "id": "sour_mashed_sweet_potato.step_9",
+  "source": "wikibooks_sour_mashed_sweet_potato",
+  "sourceRef": {
+    "source": "wikibooks_sour_mashed_sweet_potato",
+    "step": 9
+  },
+  "technique": "chill",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "sour_mashed_sweet_potato_step_8",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "sour_mashed_sweet_potato",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "After fermenting, remove the plastic bag and close the crock or jar with a lid, then place in a refrigerator to keep fresh.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

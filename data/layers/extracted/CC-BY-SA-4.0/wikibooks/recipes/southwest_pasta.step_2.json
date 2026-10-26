@@ -1,0 +1,48 @@
+{
+  "id": "southwest_pasta.step_2",
+  "source": "wikibooks_southwest_pasta",
+  "sourceRef": {
+    "source": "wikibooks_southwest_pasta",
+    "step": 2
+  },
+  "technique": "boil",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "pasta",
+        "amount": {
+          "qty": 12,
+          "unit": "oz"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "southwest_pasta_step_2",
+      "amount": {
+        "qty": 340.2,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 100,
+    "medium": "boiling_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 9,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Add pasta and cook for 8–10 minutes until pasta is al dente; drain water.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of boil's typical range"
+    }
+  ]
+}

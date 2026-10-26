@@ -1,0 +1,53 @@
+{
+  "id": "fireweed_vinegar.step_4",
+  "source": "wikibooks_fireweed_vinegar",
+  "sourceRef": {
+    "source": "wikibooks_fireweed_vinegar",
+    "step": 4
+  },
+  "technique": "chill",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "fireweed_vinegar_step_3",
+        "amount": {
+          "qty": 709.8,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "fireweed_vinegar",
+      "amount": {
+        "qty": 709.8,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 3,
+    "medium": "boiling_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 5,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Store in the refrigerator. For longer storage, process in a boiling water bath for 5 minutes.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.48"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of chill's typical range"
+    }
+  ]
+}

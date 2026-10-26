@@ -1,0 +1,55 @@
+{
+  "id": "jigarthanda_milk.step_3",
+  "source": "wikibooks_jigarthanda_milk",
+  "sourceRef": {
+    "source": "wikibooks_jigarthanda_milk",
+    "step": 3
+  },
+  "technique": "grind",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "jigarthanda_milk_step_2",
+        "amount": {
+          "qty": 266.2,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "sarsaparilla",
+        "amount": {
+          "qty": 25,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "jigarthanda_milk_step_3",
+      "amount": {
+        "qty": 291.2,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Wash and crush the sarsaparilla root.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

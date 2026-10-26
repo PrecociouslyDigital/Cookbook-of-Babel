@@ -1,0 +1,48 @@
+{
+  "id": "hyderabadi_fried_bread_with_syrup_and_nuts_double_ka_meetha.step_1",
+  "source": "wikibooks_hyderabadi_fried_bread_with_syrup_and_nuts_double_ka_meetha",
+  "sourceRef": {
+    "source": "wikibooks_hyderabadi_fried_bread_with_syrup_and_nuts_double_ka_meetha",
+    "step": 1
+  },
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "bread",
+        "amount": {
+          "qty": 1,
+          "unit": "loaf"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "hyderabadi_fried_bread_with_syrup_and_nuts_double_ka_meetha_step_1",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Trim the edges of the bread slices and cut each slice into four.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

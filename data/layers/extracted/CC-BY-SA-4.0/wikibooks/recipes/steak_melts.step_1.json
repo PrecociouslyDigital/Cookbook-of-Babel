@@ -1,0 +1,55 @@
+{
+  "id": "steak_melts.step_1",
+  "source": "wikibooks_steak_melts",
+  "sourceRef": {
+    "source": "wikibooks_steak_melts",
+    "step": 1
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "beef",
+        "amount": {
+          "qty": 14,
+          "unit": "oz"
+        }
+      },
+      {
+        "ingredient": "bread",
+        "amount": {
+          "qty": 4,
+          "unit": "slice"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "steak_melts_step_1",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Slice steaks thinly across the grain on the bias. Place ¼ of the strips onto each slice bread.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

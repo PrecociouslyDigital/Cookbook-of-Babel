@@ -1,0 +1,53 @@
+{
+  "id": "crock_pot_potato_soup.step_2",
+  "source": "wikibooks_crock_pot_potato_soup",
+  "sourceRef": {
+    "source": "wikibooks_crock_pot_potato_soup",
+    "step": 2
+  },
+  "technique": "simmer",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "crock_pot_potato_soup_step_1",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "crock_pot_potato_soup_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 90,
+    "medium": "simmering_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 10,
+      "unit": "h"
+    }
+  },
+  "stateNote": "Cook until done -- on low heat, 9 to 11 hours, or on high heat, 3 to 4 hours.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of simmer's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "the step names several durations; used the first"
+    }
+  ]
+}

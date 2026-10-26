@@ -1,0 +1,48 @@
+{
+  "id": "tomato_concasse.step_5",
+  "source": "wikibooks_tomato_concasse",
+  "sourceRef": {
+    "source": "wikibooks_tomato_concasse",
+    "step": 5
+  },
+  "technique": "chop",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "tomato_concasse_step_4",
+        "amount": {
+          "qty": 453.6,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "tomato_concasse",
+      "amount": {
+        "qty": 453.6,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Lay the tomato carcasses flat on a cutting board and dice into ⅜ inch (0.75 cm) pieces.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

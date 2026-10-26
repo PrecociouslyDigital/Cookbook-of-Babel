@@ -1,0 +1,75 @@
+{
+  "id": "tembleque_puerto_rican_coconut_pudding.step_7",
+  "source": "wikibooks_tembleque_puerto_rican_coconut_pudding",
+  "sourceRef": {
+    "source": "wikibooks_tembleque_puerto_rican_coconut_pudding",
+    "step": 7
+  },
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "tembleque_puerto_rican_coconut_pudding_step_6",
+        "amount": {
+          "qty": 1209.2,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "cinnamon",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "tembleque_puerto_rican_coconut_pudding",
+      "amount": {
+        "qty": 1209.5,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "To serve, flip the pudding bowls onto a plate to remove the pudding, then sprinkle cinnamon on top.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.42"
+    },
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Ground cinnamon for garnish': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for cinnamon"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    },
+    {
+      "field": "inputs",
+      "kind": "missing",
+      "note": "no step uses '½ tsp orange blossom water (optional)' (p=1.0)"
+    }
+  ]
+}

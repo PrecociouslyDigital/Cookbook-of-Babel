@@ -1,0 +1,58 @@
+{
+  "id": "kaju_barfi_indian_cashew_milk_confection.step_2",
+  "source": "wikibooks_kaju_barfi_indian_cashew_milk_confection",
+  "sourceRef": {
+    "source": "wikibooks_kaju_barfi_indian_cashew_milk_confection",
+    "step": 2
+  },
+  "technique": "evaporate",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "kaju_barfi_indian_cashew_milk_confection_step_1",
+        "amount": {
+          "qty": 177.7,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "kaju_barfi_indian_cashew_milk_confection_step_2",
+      "amount": {
+        "qty": 177.7,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 100,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Add saffron to the solution and cook it till it forms a syrup of three-thread consistency.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.42"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of evaporate's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

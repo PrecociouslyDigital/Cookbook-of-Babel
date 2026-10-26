@@ -1,0 +1,58 @@
+{
+  "id": "turkish_dolma_pilav.step_8",
+  "source": "wikibooks_turkish_dolma_pilav",
+  "sourceRef": {
+    "source": "wikibooks_turkish_dolma_pilav",
+    "step": 8
+  },
+  "technique": "steam",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "turkish_dolma_pilav_step_7",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "turkish_dolma_pilav",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 100,
+    "medium": "steam"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "If needed, use paper towel and a pan with a closed lid to steam the rice until it is finished cooking.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of steam's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    },
+    {
+      "field": "inputs",
+      "kind": "missing",
+      "note": "no step uses 'Butter' (p=0.8)"
+    }
+  ]
+}

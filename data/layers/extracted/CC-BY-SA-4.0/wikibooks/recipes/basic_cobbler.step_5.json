@@ -1,0 +1,48 @@
+{
+  "id": "basic_cobbler.step_5",
+  "source": "wikibooks_basic_cobbler",
+  "sourceRef": {
+    "source": "wikibooks_basic_cobbler",
+    "step": 5
+  },
+  "technique": "bake",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "basic_cobbler_step_4",
+        "amount": {
+          "qty": 929.9,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "basic_cobbler",
+      "amount": {
+        "qty": 929.9,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 175,
+    "medium": "oven_air"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Place cobbler in oven and bake uncovered until golden brown.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

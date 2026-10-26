@@ -1,0 +1,48 @@
+{
+  "id": "tapalapa_gambian_bread.step_10",
+  "source": "wikibooks_tapalapa_gambian_bread",
+  "sourceRef": {
+    "source": "wikibooks_tapalapa_gambian_bread",
+    "step": 10
+  },
+  "technique": "cool",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "tapalapa_gambian_bread_step_9",
+        "amount": {
+          "qty": 868.1,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "tapalapa_gambian_bread",
+      "amount": {
+        "qty": 868.1,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Remove the bread from the oven and let it cool on a wire rack before slicing or serving.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

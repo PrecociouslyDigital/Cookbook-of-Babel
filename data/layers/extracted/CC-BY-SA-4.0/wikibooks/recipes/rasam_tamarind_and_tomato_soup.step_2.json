@@ -1,0 +1,48 @@
+{
+  "id": "rasam_tamarind_and_tomato_soup.step_2",
+  "source": "wikibooks_rasam_tamarind_and_tomato_soup",
+  "sourceRef": {
+    "source": "wikibooks_rasam_tamarind_and_tomato_soup",
+    "step": 2
+  },
+  "technique": "grind",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "rasam_tamarind_and_tomato_soup_step_1",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "rasam_tamarind_and_tomato_soup_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Grind everything to a powder. Note that coriander seed is very difficult to powder.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

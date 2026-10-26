@@ -1,0 +1,48 @@
+{
+  "id": "brandy_butter.step_3",
+  "source": "wikibooks_brandy_butter",
+  "sourceRef": {
+    "source": "wikibooks_brandy_butter",
+    "step": 3
+  },
+  "technique": "chill",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "brandy_butter_step_2",
+        "amount": {
+          "qty": 179.6,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "brandy_butter",
+      "amount": {
+        "qty": 179.6,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Chill before serving.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

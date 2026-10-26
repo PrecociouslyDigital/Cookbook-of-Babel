@@ -1,0 +1,48 @@
+{
+  "id": "wonton_wrappers.step_6",
+  "source": "wikibooks_wonton_wrappers",
+  "sourceRef": {
+    "source": "wikibooks_wonton_wrappers",
+    "step": 6
+  },
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "wonton_wrappers_step_5",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "wonton_wrappers_step_6",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Cut dough in 2–3-inch (5–7.5 cm) strips, flour lightly, then stack one on top of the other and cut the strips into 2–3-inch (5–7.5 cm) squares.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

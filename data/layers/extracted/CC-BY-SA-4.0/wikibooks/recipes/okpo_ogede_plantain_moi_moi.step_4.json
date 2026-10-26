@@ -1,0 +1,53 @@
+{
+  "id": "okpo_ogede_plantain_moi_moi.step_4",
+  "source": "wikibooks_okpo_ogede_plantain_moi_moi",
+  "sourceRef": {
+    "source": "wikibooks_okpo_ogede_plantain_moi_moi",
+    "step": 4
+  },
+  "technique": "steam",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "okpo_ogede_plantain_moi_moi_step_3",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "okpo_ogede_plantain_moi_moi",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 100,
+    "medium": "steam"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Place the filled molds in a steamer basket over boiling water. Cook until set.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of steam's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

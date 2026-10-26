@@ -1,0 +1,70 @@
+{
+  "id": "microwave_peanut_brittle.step_3",
+  "source": "wikibooks_microwave_peanut_brittle",
+  "sourceRef": {
+    "source": "wikibooks_microwave_peanut_brittle",
+    "step": 3
+  },
+  "technique": "heat",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "microwave_peanut_brittle_step_2",
+        "amount": {
+          "qty": 319.4,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "peanut",
+        "amount": {
+          "qty": 1,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "microwave_peanut_brittle_step_3",
+      "amount": {
+        "qty": 556,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 20,
+    "medium": "still_air"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 4,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Stir in peanuts. Microwave on high for 3–5 minutes or until light brown.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.39"
+    },
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.41"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for peanut"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 20.0 °C for still_air"
+    }
+  ]
+}

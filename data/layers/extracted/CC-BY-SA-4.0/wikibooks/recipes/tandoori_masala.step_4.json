@@ -1,0 +1,53 @@
+{
+  "id": "tandoori_masala.step_4",
+  "source": "wikibooks_tandoori_masala",
+  "sourceRef": {
+    "source": "wikibooks_tandoori_masala",
+    "step": 4
+  },
+  "technique": "grill",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "tandoori_masala_step_3",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "tandoori_masala",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 250,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 8,
+      "unit": "h"
+    }
+  },
+  "stateNote": "Marinate meat or fish for 8 hours (or bathe first in white distilled vinegar for shorter marination time). Tofu, vegetables or paneer can be tossed into the marinade just before grilling. Use the marinade to baste over the grill.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.47"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of grill's typical range"
+    }
+  ]
+}

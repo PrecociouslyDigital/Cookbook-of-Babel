@@ -1,0 +1,48 @@
+{
+  "id": "fried_green_tomatoes_with_tomato_and_cheese.step_5",
+  "source": "wikibooks_fried_green_tomatoes_with_tomato_and_cheese",
+  "sourceRef": {
+    "source": "wikibooks_fried_green_tomatoes_with_tomato_and_cheese",
+    "step": 5
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "fried_green_tomatoes_with_tomato_and_cheese_step_4",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "fried_green_tomatoes_with_tomato_and_cheese_step_5",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Dip each tomato slice into the egg mixture. Coat with the flour mixture. Dip again into the egg mixture, then finally coat it in the breadcrumb mixture.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

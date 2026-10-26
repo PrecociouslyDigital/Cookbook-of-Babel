@@ -1,0 +1,55 @@
+{
+  "id": "sabich_vegetable_and_pita_sandwich.step_6",
+  "source": "wikibooks_sabich_vegetable_and_pita_sandwich",
+  "sourceRef": {
+    "source": "wikibooks_sabich_vegetable_and_pita_sandwich",
+    "step": 6
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "sabich_vegetable_and_pita_sandwich_step_5",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "hard_cooked_eggs",
+        "amount": {
+          "qty": 4,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "sabich_vegetable_and_pita_sandwich_step_6",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Stuff the pitas with the slices of fried eggplants and the boiled eggs.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "id": "idli_steamed_rice_and_black_gram_bread.step_2",
+  "source": "wikibooks_idli_steamed_rice_and_black_gram_bread",
+  "sourceRef": {
+    "source": "wikibooks_idli_steamed_rice_and_black_gram_bread",
+    "step": 2
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "idli_steamed_rice_and_black_gram_bread_step_1",
+        "amount": {
+          "qty": 1183,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "fenugreek",
+        "amount": {
+          "qty": 1,
+          "unit": "tsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "idli_steamed_rice_and_black_gram_bread_step_2",
+      "amount": {
+        "qty": 1187.9,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 2,
+      "unit": "h"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Soak the rice and urad dal in separate bowls for no more than 2 hours. Soak methi seeds along with the urad dal. You will need about twice as much water in the bowl as urad dal, as it expands as it soaks up water.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.33"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for fenugreek"
+    }
+  ]
+}

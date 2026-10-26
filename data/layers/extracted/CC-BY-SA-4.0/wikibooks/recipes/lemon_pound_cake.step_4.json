@@ -1,0 +1,75 @@
+{
+  "id": "lemon_pound_cake.step_4",
+  "source": "wikibooks_lemon_pound_cake",
+  "sourceRef": {
+    "source": "wikibooks_lemon_pound_cake",
+    "step": 4
+  },
+  "technique": "heat",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "lemon_pound_cake_step_3",
+        "amount": {
+          "qty": 218.1,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "unsalted_butter",
+        "amount": {
+          "qty": 16,
+          "unit": "tbsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "lemon_pound_cake_step_4",
+      "amount": {
+        "qty": 454.7,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 20,
+    "medium": "still_air"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "In glass measuring cup or microwave-safe bowl, microwave butter, covered with plastic wrap, in 30-second bursts until melted. Whisk melted butter thoroughly.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.57"
+    },
+    {
+      "field": "inputs",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.56"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for unsalted_butter"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 20.0 °C for still_air"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

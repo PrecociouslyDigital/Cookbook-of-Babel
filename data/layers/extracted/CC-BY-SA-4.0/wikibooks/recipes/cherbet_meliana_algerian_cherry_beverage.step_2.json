@@ -1,0 +1,53 @@
+{
+  "id": "cherbet_meliana_algerian_cherry_beverage.step_2",
+  "source": "wikibooks_cherbet_meliana_algerian_cherry_beverage",
+  "sourceRef": {
+    "source": "wikibooks_cherbet_meliana_algerian_cherry_beverage",
+    "step": 2
+  },
+  "technique": "boil",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "cherbet_meliana_algerian_cherry_beverage_step_1",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "cherbet_meliana_algerian_cherry_beverage_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 100,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Bring to a boil over high heat while skimming until the syrup drips into a thin stream.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of boil's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

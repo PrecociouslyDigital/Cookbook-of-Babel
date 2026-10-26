@@ -1,0 +1,72 @@
+{
+  "id": "shepherd_s_pie_i.step_7",
+  "source": "wikibooks_shepherd_s_pie_i",
+  "sourceRef": {
+    "source": "wikibooks_shepherd_s_pie_i",
+    "step": 7
+  },
+  "technique": "boil",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "shepherd_s_pie_i_step_6",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "potato",
+        "amount": {
+          "qty": 3,
+          "unit": "lb"
+        }
+      },
+      {
+        "ingredient": "milk",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "shepherd_s_pie_i_step_7",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 100,
+    "medium": "boiling_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 20,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Meanwhile: Peel, chop and boil the potatoes for 20 minutes until cooked. Once the meat is cooked, skim off the excess fat, then reduce the savoury mince until the liquid is level with the mince and onions. Drain the potatoes until completely dry. Mash until smooth and free of any lumps. Add butter to the mashed potato, taste and add seasoning as required. Slowly add milk whilst mashing until the mash is soft and creamy (heavy mash will not float properly on top of the mince).",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.36"
+    },
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Milk': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of boil's typical range"
+    }
+  ]
+}

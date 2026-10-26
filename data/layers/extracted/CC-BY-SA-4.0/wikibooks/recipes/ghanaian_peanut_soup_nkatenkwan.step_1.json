@@ -1,0 +1,55 @@
+{
+  "id": "ghanaian_peanut_soup_nkatenkwan.step_1",
+  "source": "wikibooks_ghanaian_peanut_soup_nkatenkwan",
+  "sourceRef": {
+    "source": "wikibooks_ghanaian_peanut_soup_nkatenkwan",
+    "step": 1
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "chicken",
+        "amount": {
+          "qty": 3,
+          "unit": "lb"
+        }
+      },
+      {
+        "ingredient": "onion",
+        "amount": {
+          "qty": 2,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "ghanaian_peanut_soup_nkatenkwan_step_1",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Start by placing the chicken pieces in a pot. Leave the onions whole, but trim off the top and bottom edges before adding them to the pot.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

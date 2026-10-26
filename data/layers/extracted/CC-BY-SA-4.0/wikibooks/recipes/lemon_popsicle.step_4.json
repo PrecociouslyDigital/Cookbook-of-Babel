@@ -1,0 +1,48 @@
+{
+  "id": "lemon_popsicle.step_4",
+  "source": "wikibooks_lemon_popsicle",
+  "sourceRef": {
+    "source": "wikibooks_lemon_popsicle",
+    "step": 4
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "lemon_popsicle_step_3",
+        "amount": {
+          "qty": 1730.4,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "lemon_popsicle_step_4",
+      "amount": {
+        "qty": 1730.4,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Pour into popsicle molds / tray.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

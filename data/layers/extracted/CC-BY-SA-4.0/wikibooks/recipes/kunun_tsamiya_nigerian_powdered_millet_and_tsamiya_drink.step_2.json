@@ -1,0 +1,70 @@
+{
+  "id": "kunun_tsamiya_nigerian_powdered_millet_and_tsamiya_drink.step_2",
+  "source": "wikibooks_kunun_tsamiya_nigerian_powdered_millet_and_tsamiya_drink",
+  "sourceRef": {
+    "source": "wikibooks_kunun_tsamiya_nigerian_powdered_millet_and_tsamiya_drink",
+    "step": 2
+  },
+  "technique": "boil",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "kunun_tsamiya_nigerian_powdered_millet_and_tsamiya_drink_step_1",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "tamarind",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "kunun_tsamiya_nigerian_powdered_millet_and_tsamiya_drink_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 100,
+    "medium": "boiling_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Combine the tamarind and water in a pot. Set on fire, and allow to boil for few minutes.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.52"
+    },
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Tamarind': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of boil's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

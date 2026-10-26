@@ -1,0 +1,48 @@
+{
+  "id": "germknodel_plum_and_poppy_seed_dumpling.step_4",
+  "source": "wikibooks_germknodel_plum_and_poppy_seed_dumpling",
+  "sourceRef": {
+    "source": "wikibooks_germknodel_plum_and_poppy_seed_dumpling",
+    "step": 4
+  },
+  "technique": "ferment",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "germknodel_plum_and_poppy_seed_dumpling_step_3",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "germknodel_plum_and_poppy_seed_dumpling_step_4",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Cover the dough and leave it to rise for one hour until it has doubled its size.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

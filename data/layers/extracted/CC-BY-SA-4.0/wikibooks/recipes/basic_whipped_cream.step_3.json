@@ -1,0 +1,48 @@
+{
+  "id": "basic_whipped_cream.step_3",
+  "source": "wikibooks_basic_whipped_cream",
+  "sourceRef": {
+    "source": "wikibooks_basic_whipped_cream",
+    "step": 3
+  },
+  "technique": "whisk",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "basic_whipped_cream_step_2",
+        "amount": {
+          "qty": 236.6,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "basic_whipped_cream_step_3",
+      "amount": {
+        "qty": 236.6,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Continue whipping until you notice the cream thickening around the beaters and leaving visible traces. This is your sign to watch it carefully, as it's easy to overwhip.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

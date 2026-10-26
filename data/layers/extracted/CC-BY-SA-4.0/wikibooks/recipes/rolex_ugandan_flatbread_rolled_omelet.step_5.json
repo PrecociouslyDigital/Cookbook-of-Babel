@@ -1,0 +1,53 @@
+{
+  "id": "rolex_ugandan_flatbread_rolled_omelet.step_5",
+  "source": "wikibooks_rolex_ugandan_flatbread_rolled_omelet",
+  "sourceRef": {
+    "source": "wikibooks_rolex_ugandan_flatbread_rolled_omelet",
+    "step": 5
+  },
+  "technique": "toast",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "rolex_ugandan_flatbread_rolled_omelet_step_4",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "rolex_ugandan_flatbread_rolled_omelet_step_5",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 185,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 2,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Flip the omelette and chapati over so the chapati is at the bottom. Allow the chapati to warm for 2 minutes.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.33"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of toast's typical range"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "rabbit_with_abbey_beer_konijn_met_paterbier.step_7",
+  "source": "wikibooks_rabbit_with_abbey_beer_konijn_met_paterbier",
+  "sourceRef": {
+    "source": "wikibooks_rabbit_with_abbey_beer_konijn_met_paterbier",
+    "step": 7
+  },
+  "technique": "cool",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "rabbit_with_abbey_beer_konijn_met_paterbier_step_6",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "rabbit_with_abbey_beer_konijn_met_paterbier",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Cool the stew and serve it the following day.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

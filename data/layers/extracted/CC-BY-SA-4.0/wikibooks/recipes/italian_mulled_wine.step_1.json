@@ -1,0 +1,53 @@
+{
+  "id": "italian_mulled_wine.step_1",
+  "source": "wikibooks_italian_mulled_wine",
+  "sourceRef": {
+    "source": "wikibooks_italian_mulled_wine",
+    "step": 1
+  },
+  "technique": "heat",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "wine",
+        "amount": {
+          "qty": 1,
+          "unit": "bottle"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "italian_mulled_wine_step_1",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 180,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Pour wine into stock pot and turn heat to medium-high.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 180.0 °C for pan_contact"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

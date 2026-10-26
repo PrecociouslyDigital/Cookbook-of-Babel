@@ -1,0 +1,48 @@
+{
+  "id": "edible_cookie_dough.step_4",
+  "source": "wikibooks_edible_cookie_dough",
+  "sourceRef": {
+    "source": "wikibooks_edible_cookie_dough",
+    "step": 4
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "edible_cookie_dough_step_3",
+        "amount": {
+          "qty": 442.8,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "edible_cookie_dough_step_4",
+      "amount": {
+        "qty": 442.8,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Add the flour, and mix in until you get a breadcrumb consistency.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "roasted_pork_shoulder_pernil_asado.step_6",
+  "source": "wikibooks_roasted_pork_shoulder_pernil_asado",
+  "sourceRef": {
+    "source": "wikibooks_roasted_pork_shoulder_pernil_asado",
+    "step": 6
+  },
+  "technique": "chill",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "roasted_pork_shoulder_pernil_asado_step_5",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "roasted_pork_shoulder_pernil_asado_step_6",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 3,
+      "unit": "d"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Put away in the refrigerator for 3 days. If you planned to cook it the same day, prepare the pork at least 1 hour ahead of time.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "the step names several durations; used the first"
+    }
+  ]
+}

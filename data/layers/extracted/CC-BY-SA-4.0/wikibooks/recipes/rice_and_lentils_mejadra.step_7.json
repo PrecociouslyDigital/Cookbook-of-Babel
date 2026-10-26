@@ -1,0 +1,60 @@
+{
+  "id": "rice_and_lentils_mejadra.step_7",
+  "source": "wikibooks_rice_and_lentils_mejadra",
+  "sourceRef": {
+    "source": "wikibooks_rice_and_lentils_mejadra",
+    "step": 7
+  },
+  "technique": "julienne",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "rice_and_lentils_mejadra_step_6",
+        "amount": {
+          "qty": 1128.3,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "onion",
+        "amount": {
+          "qty": 1,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "rice_and_lentils_mejadra_step_7",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Cut the onion into thin strips (about 0.5x4 cm / 0.2x1.6 in).",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'1 medium sized onion': 'sized' read as pieces"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

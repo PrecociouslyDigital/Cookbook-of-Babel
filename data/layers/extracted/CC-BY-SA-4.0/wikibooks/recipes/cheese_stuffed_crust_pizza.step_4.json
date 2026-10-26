@@ -1,0 +1,55 @@
+{
+  "id": "cheese_stuffed_crust_pizza.step_4",
+  "source": "wikibooks_cheese_stuffed_crust_pizza",
+  "sourceRef": {
+    "source": "wikibooks_cheese_stuffed_crust_pizza",
+    "step": 4
+  },
+  "technique": "fold",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "cheese_stuffed_crust_pizza_step_3",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "mozzarella_cheese",
+        "amount": {
+          "qty": 7,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "cheese_stuffed_crust_pizza_step_4",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Fold the hanging edge of the dough back toward the middle, placing the sticks of string cheese in the pouch, all the way around the circle.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

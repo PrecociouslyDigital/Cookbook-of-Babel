@@ -1,0 +1,48 @@
+{
+  "id": "tabbouleh_iv.step_1",
+  "source": "wikibooks_tabbouleh_iv",
+  "sourceRef": {
+    "source": "wikibooks_tabbouleh_iv",
+    "step": 1
+  },
+  "technique": "strain",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "bulgur",
+        "amount": {
+          "qty": 1,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "tabbouleh_iv_step_1",
+      "amount": {
+        "qty": 236.6,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 15,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Soak bulgur in water for 15 minutes. Drain and squeeze out as much water as possible.",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for bulgur"
+    }
+  ]
+}

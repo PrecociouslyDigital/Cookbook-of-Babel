@@ -1,0 +1,53 @@
+{
+  "id": "mashed_plantains_and_pork_rinds_mofongo.step_1",
+  "source": "wikibooks_mashed_plantains_and_pork_rinds_mofongo",
+  "sourceRef": {
+    "source": "wikibooks_mashed_plantains_and_pork_rinds_mofongo",
+    "step": 1
+  },
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "plantain",
+        "amount": {
+          "qty": 3,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "mashed_plantains_and_pork_rinds_mofongo_step_1",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Peel the plantains and cut into 1-inch diagonal pieces.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'3 very green plantains': 'very' read as pieces"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "id": "super_foamy_milkshake.step_1",
+  "source": "wikibooks_super_foamy_milkshake",
+  "sourceRef": {
+    "source": "wikibooks_super_foamy_milkshake",
+    "step": 1
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "locust_bean_gum_powder",
+        "amount": {
+          "qty": 2,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "inulin_powder",
+        "amount": {
+          "qty": 10,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "whey",
+        "amount": {
+          "qty": 10,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "super_foamy_milkshake_step_1",
+      "amount": {
+        "qty": 22,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Mix the locust bean gum powder, inulin powder, and sweet whey powder together.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

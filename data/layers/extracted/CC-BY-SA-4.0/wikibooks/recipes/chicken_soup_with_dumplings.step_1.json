@@ -1,0 +1,55 @@
+{
+  "id": "chicken_soup_with_dumplings.step_1",
+  "source": "wikibooks_chicken_soup_with_dumplings",
+  "sourceRef": {
+    "source": "wikibooks_chicken_soup_with_dumplings",
+    "step": 1
+  },
+  "technique": "rinse",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "chicken",
+        "amount": {
+          "qty": 5,
+          "unit": "lb"
+        }
+      },
+      {
+        "ingredient": "chicken_feet",
+        "amount": {
+          "qty": 1,
+          "unit": "lb"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "chicken_soup_with_dumplings_step_1",
+      "amount": {
+        "qty": 2721.5,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Wash blood and organs off of all the chicken parts.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

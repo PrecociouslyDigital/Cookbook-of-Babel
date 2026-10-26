@@ -1,0 +1,48 @@
+{
+  "id": "cholley_chickpea_curry.step_1",
+  "source": "wikibooks_cholley_chickpea_curry",
+  "sourceRef": {
+    "source": "wikibooks_cholley_chickpea_curry",
+    "step": 1
+  },
+  "technique": "rinse",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "chickpea",
+        "amount": {
+          "qty": 250,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "cholley_chickpea_curry_step_1",
+      "amount": {
+        "qty": 250,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 8,
+      "unit": "h"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Wash the chickpeas, then soak overnight in water, allowing them to soften somewhat. Make sure that the chickpeas are well-immersed with at least a few inches of water above them, as they will expand significantly while soaking.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "'overnight' read as 8 hours"
+    }
+  ]
+}

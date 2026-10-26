@@ -1,0 +1,48 @@
+{
+  "id": "tomato_paste_and_ham_sandwiches_pan_tomaca.step_4",
+  "source": "wikibooks_tomato_paste_and_ham_sandwiches_pan_tomaca",
+  "sourceRef": {
+    "source": "wikibooks_tomato_paste_and_ham_sandwiches_pan_tomaca",
+    "step": 4
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "tomato_paste_and_ham_sandwiches_pan_tomaca_step_3",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "tomato_paste_and_ham_sandwiches_pan_tomaca",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Either top each slice with a second slice of bread to make a sandwich, or leave as an open-faced slice.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

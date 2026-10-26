@@ -1,0 +1,48 @@
+{
+  "id": "red_chile_sauce.step_1",
+  "source": "wikibooks_red_chile_sauce",
+  "sourceRef": {
+    "source": "wikibooks_red_chile_sauce",
+    "step": 1
+  },
+  "technique": "rinse",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "chiles",
+        "amount": {
+          "qty": 3,
+          "unit": "oz"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "red_chile_sauce_step_1",
+      "amount": {
+        "qty": 85.1,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Wipe chile peppers with a damp cloth to clean. See warning for handling instructions.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

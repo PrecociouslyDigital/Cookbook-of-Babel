@@ -1,0 +1,48 @@
+{
+  "id": "victoria_sandwich.step_8",
+  "source": "wikibooks_victoria_sandwich",
+  "sourceRef": {
+    "source": "wikibooks_victoria_sandwich",
+    "step": 8
+  },
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "victoria_sandwich_step_7",
+        "amount": {
+          "qty": 685.5,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "victoria_sandwich",
+      "amount": {
+        "qty": 685.5,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Cut into wedges, and serve.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

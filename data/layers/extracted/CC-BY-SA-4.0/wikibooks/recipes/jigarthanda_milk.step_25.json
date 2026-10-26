@@ -1,0 +1,53 @@
+{
+  "id": "jigarthanda_milk.step_25",
+  "source": "wikibooks_jigarthanda_milk",
+  "sourceRef": {
+    "source": "wikibooks_jigarthanda_milk",
+    "step": 25
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "jigarthanda_milk_step_24",
+        "amount": {
+          "qty": 3574.6,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "jigarthanda_milk",
+      "amount": {
+        "qty": 3574.6,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Top with the collected malai, and serve immediately.",
+  "issues": [
+    {
+      "field": "sourceRef",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.55"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

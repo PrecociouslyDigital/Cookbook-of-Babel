@@ -1,0 +1,58 @@
+{
+  "id": "sev_puri_crispy_indian_snack_with_potato.step_1",
+  "source": "wikibooks_sev_puri_crispy_indian_snack_with_potato",
+  "sourceRef": {
+    "source": "wikibooks_sev_puri_crispy_indian_snack_with_potato",
+    "step": 1
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "puri_indian_fried_flatbread",
+        "amount": {
+          "qty": 10,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "sev_puri_crispy_indian_snack_with_potato_step_1",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Arrange the puris on a plate, and make a hole in the center of each puri.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.51"
+    },
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'10 flat, crisp puris': 'flat,' read as pieces"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "id": "veloute_sauce.step_2",
+  "source": "wikibooks_veloute_sauce",
+  "sourceRef": {
+    "source": "wikibooks_veloute_sauce",
+    "step": 2
+  },
+  "technique": "whisk",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "veloute_sauce_step_1",
+        "amount": {
+          "qty": 119.2,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "white_stock",
+        "amount": {
+          "qty": 2,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "veloute_sauce_step_2",
+      "amount": {
+        "qty": 592.4,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 100,
+    "medium": "boiling_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Remove from the heat. When the roux has stopped bubbling, slowly incorporate the stock, whisking quickly but smoothly to create a smooth mixture.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.36"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for white_stock"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 100.0 °C for boiling_water"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

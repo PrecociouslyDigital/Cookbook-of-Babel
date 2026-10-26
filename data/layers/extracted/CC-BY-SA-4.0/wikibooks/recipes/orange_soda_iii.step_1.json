@@ -1,0 +1,60 @@
+{
+  "id": "orange_soda_iii.step_1",
+  "source": "wikibooks_orange_soda_iii",
+  "sourceRef": {
+    "source": "wikibooks_orange_soda_iii",
+    "step": 1
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "orange_oil",
+        "amount": {
+          "qty": 6,
+          "unit": "drop"
+        }
+      },
+      {
+        "ingredient": "spirits",
+        "amount": {
+          "qty": 1,
+          "unit": "tsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "orange_soda_iii_step_1",
+      "amount": {
+        "qty": 5.2,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Combine the spirit or gum arabic water and oils together in a small cup, mixing well. Set aside.",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for orange_oil, spirits"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

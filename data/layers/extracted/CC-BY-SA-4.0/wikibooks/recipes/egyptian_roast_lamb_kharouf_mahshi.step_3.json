@@ -1,0 +1,55 @@
+{
+  "id": "egyptian_roast_lamb_kharouf_mahshi.step_3",
+  "source": "wikibooks_egyptian_roast_lamb_kharouf_mahshi",
+  "sourceRef": {
+    "source": "wikibooks_egyptian_roast_lamb_kharouf_mahshi",
+    "step": 3
+  },
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "egyptian_roast_lamb_kharouf_mahshi_step_2",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "lamb_and_mutton",
+        "amount": {
+          "qty": 1,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "egyptian_roast_lamb_kharouf_mahshi_step_3",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Place the leg of lamb in a roasting pan and generously rub the marinade all over the lamb, ensuring it is evenly coated.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

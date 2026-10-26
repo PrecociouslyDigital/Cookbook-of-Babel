@@ -1,0 +1,101 @@
+{
+  "id": "kitfo_ethiopian_minced_raw_meat.step_10",
+  "source": "wikibooks_kitfo_ethiopian_minced_raw_meat",
+  "sourceRef": {
+    "source": "wikibooks_kitfo_ethiopian_minced_raw_meat",
+    "step": 10
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "kitfo_ethiopian_minced_raw_meat_step_8",
+        "amount": {
+          "qty": 575,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "injera_ethiopian_teff_flatbread",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      },
+      {
+        "min": 0,
+        "max": 1,
+        "of": [
+          {
+            "ingredient": "collard_greens",
+            "amount": {
+              "qty": 1,
+              "unit": "pinch"
+            }
+          }
+        ]
+      },
+      {
+        "min": 0,
+        "max": 1,
+        "of": [
+          {
+            "ingredient": "ayib",
+            "amount": {
+              "qty": 1,
+              "unit": "pinch"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "kitfo_ethiopian_minced_raw_meat",
+      "amount": {
+        "qty": 575.9,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "To eat, tear off a piece of injera, scoop a small portion of kitfo onto it, and wrap it before taking a bite.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Injera, for serving': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Collard greens, blanched and chopped, for serving (optional)': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Ayib (Ethiopian cheese), crumbled, for serving (optional)': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for injera_ethiopian_teff_flatbread, collard_greens, ayib"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

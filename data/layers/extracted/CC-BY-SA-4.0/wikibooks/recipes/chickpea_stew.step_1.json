@@ -1,0 +1,53 @@
+{
+  "id": "chickpea_stew.step_1",
+  "source": "wikibooks_chickpea_stew",
+  "sourceRef": {
+    "source": "wikibooks_chickpea_stew",
+    "step": 1
+  },
+  "technique": "boil",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "chickpea",
+        "amount": {
+          "qty": 150,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "chickpea_stew_step_1",
+      "amount": {
+        "qty": 150,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 100,
+    "medium": "boiling_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 12,
+      "unit": "h"
+    }
+  },
+  "stateNote": "If using dry chickpeas, wash, then soak for 12 hours, then cook 40–50 minutes until soft or for 8–10 minutes in a pressure cooker. If using a pressure cooker, do not depressurize but let the cool down; depressurizing causes the chickpeas to break open.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of boil's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "the step names several durations; used the first"
+    }
+  ]
+}

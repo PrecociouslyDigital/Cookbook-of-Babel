@@ -1,0 +1,84 @@
+{
+  "id": "focaccia_with_onion_marmalade_blue_cheese_and_walnuts.step_2",
+  "source": "wikibooks_focaccia_with_onion_marmalade_blue_cheese_and_walnuts",
+  "sourceRef": {
+    "source": "wikibooks_focaccia_with_onion_marmalade_blue_cheese_and_walnuts",
+    "step": 2
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "focaccia_genovese",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      },
+      {
+        "ingredient": "caramelized_sweet_and_sour_onion_marmalade",
+        "amount": {
+          "qty": 1.5,
+          "unit": "cup"
+        }
+      },
+      {
+        "ingredient": "blue_cheese",
+        "amount": {
+          "qty": 0.25,
+          "unit": "lb"
+        }
+      },
+      {
+        "ingredient": "walnut",
+        "amount": {
+          "qty": 1,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "focaccia_with_onion_marmalade_blue_cheese_and_walnuts_step_2",
+      "amount": {
+        "qty": 705.2,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "When the focaccia is fully risen and ready to bake, gently spread onion marmalade evenly over surface. Evenly distribute blue cheese over onion marmalade and scatter walnuts over the top.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.58"
+    },
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Focaccia Genovese Dough': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for focaccia_genovese, caramelized_sweet_and_sour_onion_marmalade, walnut"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

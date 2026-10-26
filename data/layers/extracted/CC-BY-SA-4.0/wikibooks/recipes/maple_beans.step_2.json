@@ -1,0 +1,58 @@
+{
+  "id": "maple_beans.step_2",
+  "source": "wikibooks_maple_beans",
+  "sourceRef": {
+    "source": "wikibooks_maple_beans",
+    "step": 2
+  },
+  "technique": "heat",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "maple_beans_step_1",
+        "amount": {
+          "qty": 2625,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "maple_beans_step_2",
+      "amount": {
+        "qty": 2625,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 100,
+    "medium": "boiling_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 5,
+      "unit": "min"
+    }
+  },
+  "stateNote": "When water has reached the boiling point, time for 5 minutes and remove from heat. Let sit for 1 hour, covered.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.39"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 100.0 °C for boiling_water"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "the step names several durations; used the first"
+    }
+  ]
+}

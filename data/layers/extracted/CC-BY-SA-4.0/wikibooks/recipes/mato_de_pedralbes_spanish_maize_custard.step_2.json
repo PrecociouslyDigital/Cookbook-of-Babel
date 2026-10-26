@@ -1,0 +1,67 @@
+{
+  "id": "mato_de_pedralbes_spanish_maize_custard.step_2",
+  "source": "wikibooks_mato_de_pedralbes_spanish_maize_custard",
+  "sourceRef": {
+    "source": "wikibooks_mato_de_pedralbes_spanish_maize_custard",
+    "step": 2
+  },
+  "technique": "whisk",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "mato_de_pedralbes_spanish_maize_custard_step_1",
+        "amount": {
+          "qty": 1130,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "white_sugar",
+        "amount": {
+          "qty": 0.25,
+          "unit": "kg"
+        }
+      },
+      {
+        "ingredient": "egg",
+        "amount": {
+          "qty": 10,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "mato_de_pedralbes_spanish_maize_custard_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Put the rest of milk in a saucepan, add sugar and yolks, and beat together until blended.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.44"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

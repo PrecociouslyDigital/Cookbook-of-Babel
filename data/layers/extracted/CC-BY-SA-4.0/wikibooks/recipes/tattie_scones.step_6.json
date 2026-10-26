@@ -1,0 +1,53 @@
+{
+  "id": "tattie_scones.step_6",
+  "source": "wikibooks_tattie_scones",
+  "sourceRef": {
+    "source": "wikibooks_tattie_scones",
+    "step": 6
+  },
+  "technique": "toast",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "tattie_scones_step_5",
+        "amount": {
+          "qty": 1000.9,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "tattie_scones",
+      "amount": {
+        "qty": 1000.9,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Some people are content to eat them cold with butter, or heat them in a toaster for buttering. They also freeze very, very well.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.3"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

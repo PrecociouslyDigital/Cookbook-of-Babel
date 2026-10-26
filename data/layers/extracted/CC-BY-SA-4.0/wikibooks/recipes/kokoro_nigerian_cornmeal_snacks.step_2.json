@@ -1,0 +1,58 @@
+{
+  "id": "kokoro_nigerian_cornmeal_snacks.step_2",
+  "source": "wikibooks_kokoro_nigerian_cornmeal_snacks",
+  "sourceRef": {
+    "source": "wikibooks_kokoro_nigerian_cornmeal_snacks",
+    "step": 2
+  },
+  "technique": "simmer",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "kokoro_nigerian_cornmeal_snacks_step_1",
+        "amount": {
+          "qty": 600.7,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "kokoro_nigerian_cornmeal_snacks_step_2",
+      "amount": {
+        "qty": 600.7,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 90,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Set the pot on the stove over medium heat. Cook, stirring, until the mixture bubbles and thickens to a dough.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.51"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of simmer's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

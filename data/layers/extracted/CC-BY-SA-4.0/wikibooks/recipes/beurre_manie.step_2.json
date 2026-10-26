@@ -1,0 +1,48 @@
+{
+  "id": "beurre_manie.step_2",
+  "source": "wikibooks_beurre_manie",
+  "sourceRef": {
+    "source": "wikibooks_beurre_manie",
+    "step": 2
+  },
+  "technique": "knead",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "beurre_manie_step_1",
+        "amount": {
+          "qty": 90,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "beurre_manie_step_2",
+      "amount": {
+        "qty": 90,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Use your hands or a small utensil such as a fork/spoon to knead the flour into the butter until fully and evenly incorporated.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "cannoli.step_3",
+  "source": "wikibooks_cannoli",
+  "sourceRef": {
+    "source": "wikibooks_cannoli",
+    "step": 3
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "cannoli_step_2",
+        "amount": {
+          "qty": 72,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "cannoli_step_3",
+      "amount": {
+        "qty": 72,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Fill shells with the ricotta mixture. A piping bag works well here.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

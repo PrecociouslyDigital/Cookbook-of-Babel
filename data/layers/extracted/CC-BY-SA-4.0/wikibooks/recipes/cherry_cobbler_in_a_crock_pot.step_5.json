@@ -1,0 +1,70 @@
+{
+  "id": "cherry_cobbler_in_a_crock_pot.step_5",
+  "source": "wikibooks_cherry_cobbler_in_a_crock_pot",
+  "sourceRef": {
+    "source": "wikibooks_cherry_cobbler_in_a_crock_pot",
+    "step": 5
+  },
+  "technique": "bake",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "cherry_cobbler_in_a_crock_pot_step_4",
+        "amount": {
+          "qty": 778.9,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "ice_cream",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "cherry_cobbler_in_a_crock_pot",
+      "amount": {
+        "qty": 779.2,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 200,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 3,
+      "unit": "h"
+    }
+  },
+  "stateNote": "Set slow cooker on low, cover and allow to cook for 3 hours.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.4"
+    },
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Ice cream, as desired': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for ice_cream"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of bake's typical range"
+    }
+  ]
+}

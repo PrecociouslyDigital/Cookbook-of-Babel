@@ -1,0 +1,65 @@
+{
+  "id": "kunun_tamba_finger_millet_porridge.step_2",
+  "source": "wikibooks_kunun_tamba_finger_millet_porridge",
+  "sourceRef": {
+    "source": "wikibooks_kunun_tamba_finger_millet_porridge",
+    "step": 2
+  },
+  "technique": "grind",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "kunun_tamba_finger_millet_porridge_step_1",
+        "amount": {
+          "qty": 59.2,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "ginger",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "kunun_tamba_finger_millet_porridge_step_2",
+      "amount": {
+        "qty": 59.5,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Mix tamba with ginger. Grind the mixture until smooth.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Ginger': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for ginger"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

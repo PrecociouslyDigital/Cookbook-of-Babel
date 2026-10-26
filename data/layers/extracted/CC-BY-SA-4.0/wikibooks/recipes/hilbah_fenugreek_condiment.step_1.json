@@ -1,0 +1,60 @@
+{
+  "id": "hilbah_fenugreek_condiment.step_1",
+  "source": "wikibooks_hilbah_fenugreek_condiment",
+  "sourceRef": {
+    "source": "wikibooks_hilbah_fenugreek_condiment",
+    "step": 1
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "fenugreek",
+        "amount": {
+          "qty": 3,
+          "unit": "tbsp"
+        }
+      },
+      {
+        "ingredient": "water",
+        "amount": {
+          "qty": 1,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "hilbah_fenugreek_condiment_step_1",
+      "amount": {
+        "qty": 281,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 3,
+      "unit": "h"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Soak ground fenugreek in the water for 3 hours until expanded.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.48"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for fenugreek"
+    }
+  ]
+}

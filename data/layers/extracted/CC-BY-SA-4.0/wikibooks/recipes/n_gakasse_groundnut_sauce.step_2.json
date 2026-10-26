@@ -1,0 +1,53 @@
+{
+  "id": "n_gakasse_groundnut_sauce.step_2",
+  "source": "wikibooks_n_gakasse_groundnut_sauce",
+  "sourceRef": {
+    "source": "wikibooks_n_gakasse_groundnut_sauce",
+    "step": 2
+  },
+  "technique": "separate",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "n_gakasse_groundnut_sauce_step_1",
+        "amount": {
+          "qty": 473.2,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "n_gakasse_groundnut_sauce_step_2",
+      "amount": {
+        "qty": 473.2,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Remove the skins from the roasted peanuts by rubbing them together in a clean kitchen towel.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.48"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

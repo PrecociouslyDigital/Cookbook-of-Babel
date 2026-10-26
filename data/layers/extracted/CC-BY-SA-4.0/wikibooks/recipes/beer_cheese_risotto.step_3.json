@@ -1,0 +1,72 @@
+{
+  "id": "beer_cheese_risotto.step_3",
+  "source": "wikibooks_beer_cheese_risotto",
+  "sourceRef": {
+    "source": "wikibooks_beer_cheese_risotto",
+    "step": 3
+  },
+  "technique": "simmer",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "beer_cheese_risotto_step_2",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "broth_and_stock",
+        "amount": {
+          "qty": 1.5,
+          "unit": "cup"
+        }
+      },
+      {
+        "ingredient": "beer",
+        "amount": {
+          "qty": 0.5,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "beer_cheese_risotto_step_3",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 90,
+    "medium": "simmering_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Add the beer and heat to simmer, stirring constantly. When the beer is mostly absorbed, add around ⅓ to ½ cup of hot stock. Stir constantly while simmering. Repeat procedure for around twenty minutes—most of the stock should be consumed and the rice should be tender to the taste before proceeding. The rice will produce a thick, creamy sauce in the course of cooking (see risotto).",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.54"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of simmer's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

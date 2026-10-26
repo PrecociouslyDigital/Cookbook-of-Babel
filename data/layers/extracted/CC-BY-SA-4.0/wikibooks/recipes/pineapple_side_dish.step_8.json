@@ -1,0 +1,65 @@
+{
+  "id": "pineapple_side_dish.step_8",
+  "source": "wikibooks_pineapple_side_dish",
+  "sourceRef": {
+    "source": "wikibooks_pineapple_side_dish",
+    "step": 8
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "pineapple_side_dish_step_7",
+        "amount": {
+          "qty": 1105.2,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "saltine_cracker",
+        "amount": {
+          "qty": 0.6666666666666666,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "pineapple_side_dish_step_8",
+      "amount": {
+        "qty": 1262.9,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Sprinkle crushed crackers on top; drizzle with reserved pineapple juice.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.54"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for saltine_cracker"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

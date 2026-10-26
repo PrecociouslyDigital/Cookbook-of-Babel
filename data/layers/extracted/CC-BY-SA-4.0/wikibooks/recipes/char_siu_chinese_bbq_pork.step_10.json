@@ -1,0 +1,48 @@
+{
+  "id": "char_siu_chinese_bbq_pork.step_10",
+  "source": "wikibooks_char_siu_chinese_bbq_pork",
+  "sourceRef": {
+    "source": "wikibooks_char_siu_chinese_bbq_pork",
+    "step": 10
+  },
+  "technique": "chill",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "char_siu_chinese_bbq_pork_step_9",
+        "amount": {
+          "qty": 1209.2,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "char_siu_chinese_bbq_pork",
+      "amount": {
+        "qty": 1209.2,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Cover and refrigerate until needed.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

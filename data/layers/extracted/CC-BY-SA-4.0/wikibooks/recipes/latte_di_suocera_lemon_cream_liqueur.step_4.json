@@ -1,0 +1,48 @@
+{
+  "id": "latte_di_suocera_lemon_cream_liqueur.step_4",
+  "source": "wikibooks_latte_di_suocera_lemon_cream_liqueur",
+  "sourceRef": {
+    "source": "wikibooks_latte_di_suocera_lemon_cream_liqueur",
+    "step": 4
+  },
+  "technique": "strain",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "latte_di_suocera_lemon_cream_liqueur_step_3",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "latte_di_suocera_lemon_cream_liqueur_step_4",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Filter the liquid and bottle it.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

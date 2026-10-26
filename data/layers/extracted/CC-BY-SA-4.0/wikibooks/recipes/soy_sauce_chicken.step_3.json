@@ -1,0 +1,53 @@
+{
+  "id": "soy_sauce_chicken.step_3",
+  "source": "wikibooks_soy_sauce_chicken",
+  "sourceRef": {
+    "source": "wikibooks_soy_sauce_chicken",
+    "step": 3
+  },
+  "technique": "simmer",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "soy_sauce_chicken_step_2",
+        "amount": {
+          "qty": 75.4,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "soy_sauce_chicken",
+      "amount": {
+        "qty": 75.4,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 90,
+    "medium": "simmering_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Simmer, uncovered, over low heat until most of the liquid has evaporated.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of simmer's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

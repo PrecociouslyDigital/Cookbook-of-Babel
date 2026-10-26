@@ -1,0 +1,67 @@
+{
+  "id": "acorn_crusted_salmon.step_2",
+  "source": "wikibooks_acorn_crusted_salmon",
+  "sourceRef": {
+    "source": "wikibooks_acorn_crusted_salmon",
+    "step": 2
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "acorn_crusted_salmon_step_1",
+        "amount": {
+          "qty": 354.9,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "salmon",
+        "amount": {
+          "qty": 2,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "egg_white",
+        "amount": {
+          "qty": 2,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "acorn_crusted_salmon_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Place the egg whites in a shallow dish. Coat each salmon fillet in egg white.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.53"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

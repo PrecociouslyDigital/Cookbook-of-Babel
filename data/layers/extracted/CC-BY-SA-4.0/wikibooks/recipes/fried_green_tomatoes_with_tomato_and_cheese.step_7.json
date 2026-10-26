@@ -1,0 +1,62 @@
+{
+  "id": "fried_green_tomatoes_with_tomato_and_cheese.step_7",
+  "source": "wikibooks_fried_green_tomatoes_with_tomato_and_cheese",
+  "sourceRef": {
+    "source": "wikibooks_fried_green_tomatoes_with_tomato_and_cheese",
+    "step": 7
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "fried_green_tomatoes_with_tomato_and_cheese_step_6",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "tomatoes",
+        "amount": {
+          "qty": 5,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "parmesan_cheese",
+        "amount": {
+          "qty": 0.5,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "fried_green_tomatoes_with_tomato_and_cheese_step_7",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Serve by placing one slice of fried green tomato on a small serving plate and generously sprinkling with Parmesan cheese, and top the Parmesan cheese layer with one slice of chilled red tomato.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

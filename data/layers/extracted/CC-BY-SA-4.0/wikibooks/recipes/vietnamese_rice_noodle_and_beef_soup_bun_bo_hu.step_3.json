@@ -1,0 +1,65 @@
+{
+  "id": "vietnamese_rice_noodle_and_beef_soup_bun_bo_hu.step_3",
+  "source": "wikibooks_vietnamese_rice_noodle_and_beef_soup_bun_bo_hu",
+  "sourceRef": {
+    "source": "wikibooks_vietnamese_rice_noodle_and_beef_soup_bun_bo_hu",
+    "step": 3
+  },
+  "technique": "boil",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "vietnamese_rice_noodle_and_beef_soup_bun_bo_hu_step_2",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "pork",
+        "amount": {
+          "qty": 2,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "vietnamese_rice_noodle_and_beef_soup_bun_bo_hu_step_3",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 100,
+    "medium": "simmering_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "In a stockpot, combine the cooked onion and pig feet with 2 L water. Slowly bring it to the boil over medium heat.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.5"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of boil's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

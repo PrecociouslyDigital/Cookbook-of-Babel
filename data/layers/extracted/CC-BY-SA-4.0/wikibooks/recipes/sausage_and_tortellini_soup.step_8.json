@@ -1,0 +1,78 @@
+{
+  "id": "sausage_and_tortellini_soup.step_8",
+  "source": "wikibooks_sausage_and_tortellini_soup",
+  "sourceRef": {
+    "source": "wikibooks_sausage_and_tortellini_soup",
+    "step": 8
+  },
+  "technique": "simmer",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "sausage_and_tortellini_soup_step_7",
+        "amount": {
+          "qty": 4529.5,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "pasta",
+        "amount": {
+          "qty": 1.75,
+          "unit": "lb"
+        }
+      },
+      {
+        "min": 0,
+        "max": 1,
+        "of": [
+          {
+            "ingredient": "parmesan_cheese",
+            "amount": {
+              "qty": 1,
+              "unit": "pinch"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "sausage_and_tortellini_soup",
+      "amount": {
+        "qty": 5323.6,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 90,
+    "medium": "simmering_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 12.5,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Add tortellini and simmer on low for 10–15 minutes until the pasta is cooked.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Grated Parmesan cheese for garnish (optional)': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for parmesan_cheese"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of simmer's typical range"
+    }
+  ]
+}

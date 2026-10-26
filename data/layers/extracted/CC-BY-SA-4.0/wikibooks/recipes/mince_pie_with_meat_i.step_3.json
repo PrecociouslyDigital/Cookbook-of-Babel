@@ -1,0 +1,55 @@
+{
+  "id": "mince_pie_with_meat_i.step_3",
+  "source": "wikibooks_mince_pie_with_meat_i",
+  "sourceRef": {
+    "source": "wikibooks_mince_pie_with_meat_i",
+    "step": 3
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "mince_pie_with_meat_i_step_2",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "pastry_dough",
+        "amount": {
+          "qty": 5,
+          "unit": "package"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "mince_pie_with_meat_i_step_3",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Use the pastry dough to line 3 deep, greased pie pans (or 5 greased muffin pans, for tartlets) and create pie shells.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

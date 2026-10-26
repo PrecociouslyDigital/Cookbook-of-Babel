@@ -1,0 +1,62 @@
+{
+  "id": "grilled_eggplant_with_garlic_butter.step_2",
+  "source": "wikibooks_grilled_eggplant_with_garlic_butter",
+  "sourceRef": {
+    "source": "wikibooks_grilled_eggplant_with_garlic_butter",
+    "step": 2
+  },
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "grilled_eggplant_with_garlic_butter_step_1",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "eggplant",
+        "amount": {
+          "qty": 2,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "salt",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "grilled_eggplant_with_garlic_butter_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 15,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Sprinkle all sides of eggplant with salt. Let sit 15 minutes or until it \"sweats\". Leave it without touching.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Salt': no quantity given; assumed a pinch"
+    }
+  ]
+}

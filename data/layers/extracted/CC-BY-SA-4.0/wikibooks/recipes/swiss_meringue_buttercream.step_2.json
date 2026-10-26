@@ -1,0 +1,58 @@
+{
+  "id": "swiss_meringue_buttercream.step_2",
+  "source": "wikibooks_swiss_meringue_buttercream",
+  "sourceRef": {
+    "source": "wikibooks_swiss_meringue_buttercream",
+    "step": 2
+  },
+  "technique": "dissolve",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "swiss_meringue_buttercream_step_1",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "swiss_meringue_buttercream_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 90,
+    "medium": "simmering_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Set the bowl over a pan of simmering water. Stir the mixture until the egg whites have warmed and the sugar is dissolved—rub a bit of the mixture between your fingers to make sure there are no grains of sugar left. Be careful not to let the egg whites cook.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.37"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 90.0 °C for simmering_water"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": "fried_corn.step_4",
+  "source": "wikibooks_fried_corn",
+  "sourceRef": {
+    "source": "wikibooks_fried_corn",
+    "step": 4
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "fried_corn_step_3",
+        "amount": {
+          "qty": 2.1,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "fried_corn_step_4",
+      "amount": {
+        "qty": 2.1,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Move corn from the egg wash, and toss with the flour mixture until well-coated.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.55"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "id": "beef_and_guinness_casserole.step_2",
+  "source": "wikibooks_beef_and_guinness_casserole",
+  "sourceRef": {
+    "source": "wikibooks_beef_and_guinness_casserole",
+    "step": 2
+  },
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "beef_and_guinness_casserole_step_1",
+        "amount": {
+          "qty": 1000,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "carrot",
+        "amount": {
+          "qty": 4.5,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "beef_and_guinness_casserole_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Cut your vegetables into small, similarly sized pieces. Keep the carrots big enough (about ½-inch cuts), and none so big as you wouldn't want to find it later and think \"that's a bloody big bit of carrot\".",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

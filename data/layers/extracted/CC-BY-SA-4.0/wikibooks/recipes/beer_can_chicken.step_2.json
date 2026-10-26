@@ -1,0 +1,60 @@
+{
+  "id": "beer_can_chicken.step_2",
+  "source": "wikibooks_beer_can_chicken",
+  "sourceRef": {
+    "source": "wikibooks_beer_can_chicken",
+    "step": 2
+  },
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "beer_can_chicken_step_1",
+        "amount": {
+          "qty": 1587.6,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "spice_rub_for_chicken",
+        "amount": {
+          "qty": 1,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "beer_can_chicken_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Rub chicken thoroughly with spice rub: inside and out, and then under skin as far as you can reach",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'1 recipe spice rub (or use your own recipe)': 'recipe' read as pieces"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

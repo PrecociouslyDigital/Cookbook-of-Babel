@@ -1,0 +1,48 @@
+{
+  "id": "grilled_aubergine.step_1",
+  "source": "wikibooks_grilled_aubergine",
+  "sourceRef": {
+    "source": "wikibooks_grilled_aubergine",
+    "step": 1
+  },
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "eggplant",
+        "amount": {
+          "qty": 375,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "grilled_aubergine_step_1",
+      "amount": {
+        "qty": 375,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Wash the aubergine, and cut it into 2.5 cm slices lengthwise.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

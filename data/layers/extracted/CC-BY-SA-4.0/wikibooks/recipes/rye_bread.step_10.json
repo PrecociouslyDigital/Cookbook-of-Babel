@@ -1,0 +1,58 @@
+{
+  "id": "rye_bread.step_10",
+  "source": "wikibooks_rye_bread",
+  "sourceRef": {
+    "source": "wikibooks_rye_bread",
+    "step": 10
+  },
+  "technique": "age",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "rye_bread_step_9",
+        "amount": {
+          "qty": 4829.6,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "rye_bread",
+      "amount": {
+        "qty": 4829.6,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "The loaves can keep for about a week in a plastic bag. Do not refrigerate.",
+  "issues": [
+    {
+      "field": "sourceRef",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.51"
+    },
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.53"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

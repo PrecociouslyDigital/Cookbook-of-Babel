@@ -1,0 +1,58 @@
+{
+  "id": "adoyo_nigerian_ogi_beverage.step_5",
+  "source": "wikibooks_adoyo_nigerian_ogi_beverage",
+  "sourceRef": {
+    "source": "wikibooks_adoyo_nigerian_ogi_beverage",
+    "step": 5
+  },
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "adoyo_nigerian_ogi_beverage_step_4",
+        "amount": {
+          "qty": 1.2,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "adoyo_nigerian_ogi_beverage",
+      "amount": {
+        "qty": 1.2,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Sweeten the strained liquid with the caramel sauce, and serve.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.59"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    },
+    {
+      "field": "inputs",
+      "kind": "missing",
+      "note": "no step uses 'Lemons or oranges' (p=1.0)"
+    }
+  ]
+}

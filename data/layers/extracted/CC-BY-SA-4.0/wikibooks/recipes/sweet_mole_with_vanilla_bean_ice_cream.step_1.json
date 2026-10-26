@@ -1,0 +1,53 @@
+{
+  "id": "sweet_mole_with_vanilla_bean_ice_cream.step_1",
+  "source": "wikibooks_sweet_mole_with_vanilla_bean_ice_cream",
+  "sourceRef": {
+    "source": "wikibooks_sweet_mole_with_vanilla_bean_ice_cream",
+    "step": 1
+  },
+  "technique": "rinse",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "chiles",
+        "amount": {
+          "qty": 1,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "sweet_mole_with_vanilla_bean_ice_cream_step_1",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Wash, devein, and remove seeds from chile ancho.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'1 whole dried ancho chile': 'ancho' read as pieces"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "wali_wa_nazi.step_9",
+  "source": "wikibooks_wali_wa_nazi",
+  "sourceRef": {
+    "source": "wikibooks_wali_wa_nazi",
+    "step": 9
+  },
+  "technique": "separate",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "wali_wa_nazi_step_8",
+        "amount": {
+          "qty": 1425.5,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "wali_wa_nazi",
+      "amount": {
+        "qty": 1425.5,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 20,
+    "medium": "still_air"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Fluff the rice gently with a fork before serving.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.48"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 20.0 °C for still_air"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    },
+    {
+      "field": "inputs",
+      "kind": "missing",
+      "note": "no step uses '1 tbsp vegetable oil (optional)' (p=1.0)"
+    }
+  ]
+}

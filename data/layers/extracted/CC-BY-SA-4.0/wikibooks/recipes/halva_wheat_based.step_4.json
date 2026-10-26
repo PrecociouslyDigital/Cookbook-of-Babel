@@ -1,0 +1,53 @@
+{
+  "id": "halva_wheat_based.step_4",
+  "source": "wikibooks_halva_wheat_based",
+  "sourceRef": {
+    "source": "wikibooks_halva_wheat_based",
+    "step": 4
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "halva_wheat_based_step_3",
+        "amount": {
+          "qty": 1796.4,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "halva_wheat_based",
+      "amount": {
+        "qty": 1796.4,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Scoop out small portions of halva with a wooden spoon, form into balls, and place on a serving plate.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.43"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "chocolate_chip_cookies_iv.step_7",
+  "source": "wikibooks_chocolate_chip_cookies_iv",
+  "sourceRef": {
+    "source": "wikibooks_chocolate_chip_cookies_iv",
+    "step": 7
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "chocolate_chip_cookies_iv_step_5",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "chocolate_chip_cookies_iv_step_7",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Scoop the dough onto the baking sheets, making sure the cookies are at least 4 inches (10 cm) apart from each other.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

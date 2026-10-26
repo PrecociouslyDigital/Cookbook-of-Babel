@@ -1,0 +1,62 @@
+{
+  "id": "vitello_tonnato_veal_with_tuna_sauce.step_3",
+  "source": "wikibooks_vitello_tonnato_veal_with_tuna_sauce",
+  "sourceRef": {
+    "source": "wikibooks_vitello_tonnato_veal_with_tuna_sauce",
+    "step": 3
+  },
+  "technique": "blend",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "vitello_tonnato_veal_with_tuna_sauce_step_2",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "mayonnaise",
+        "amount": {
+          "qty": 400,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "tuna",
+        "amount": {
+          "qty": 200,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "vitello_tonnato_veal_with_tuna_sauce_step_3",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Turn the mayonnaise and the tin of tuna into a blender and blend until it is a smooth paste",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

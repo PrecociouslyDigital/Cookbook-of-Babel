@@ -1,0 +1,53 @@
+{
+  "id": "mushy_peas.step_6",
+  "source": "wikibooks_mushy_peas",
+  "sourceRef": {
+    "source": "wikibooks_mushy_peas",
+    "step": 6
+  },
+  "technique": "evaporate",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "mushy_peas_step_5",
+        "amount": {
+          "qty": 14.7,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "mushy_peas_step_6",
+      "amount": {
+        "qty": 14.7,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 100,
+    "medium": "simmering_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Add water or reduce to the desired consistency.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of evaporate's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

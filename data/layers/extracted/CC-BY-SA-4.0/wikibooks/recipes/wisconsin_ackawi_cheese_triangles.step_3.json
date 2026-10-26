@@ -1,0 +1,48 @@
+{
+  "id": "wisconsin_ackawi_cheese_triangles.step_3",
+  "source": "wikibooks_wisconsin_ackawi_cheese_triangles",
+  "sourceRef": {
+    "source": "wikibooks_wisconsin_ackawi_cheese_triangles",
+    "step": 3
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "wisconsin_ackawi_cheese_triangles_step_2",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "wisconsin_ackawi_cheese_triangles_step_3",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Place 1 tablespoon (15 ml) cheese mixture on each square; fold pastry over each filling, forming a triangle. Seal edges with tines of a fork; place on an ungreased baking sheet.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

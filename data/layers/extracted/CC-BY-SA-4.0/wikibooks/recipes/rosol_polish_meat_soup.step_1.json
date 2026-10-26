@@ -1,0 +1,48 @@
+{
+  "id": "rosol_polish_meat_soup.step_1",
+  "source": "wikibooks_rosol_polish_meat_soup",
+  "sourceRef": {
+    "source": "wikibooks_rosol_polish_meat_soup",
+    "step": 1
+  },
+  "technique": "simmer",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "chicken",
+        "amount": {
+          "qty": 1,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "rosol_polish_meat_soup_step_1",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 90,
+    "medium": "simmering_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 37.5,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Quarter the chicken and place in a stock pot with ~1.5 cold water. Do not add salt at this time, as this may harden some meats. Bring to a boil on high heat, then simmer for 30–45 minutes. At this time, remove (skim) the surface flotsam (a mix of protein and some fat).",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of simmer's typical range"
+    }
+  ]
+}

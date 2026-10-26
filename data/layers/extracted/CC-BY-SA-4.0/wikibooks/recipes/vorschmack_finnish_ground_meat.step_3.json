@@ -1,0 +1,62 @@
+{
+  "id": "vorschmack_finnish_ground_meat.step_3",
+  "source": "wikibooks_vorschmack_finnish_ground_meat",
+  "sourceRef": {
+    "source": "wikibooks_vorschmack_finnish_ground_meat",
+    "step": 3
+  },
+  "technique": "grind",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "vorschmack_finnish_ground_meat_step_2",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "anchovy",
+        "amount": {
+          "qty": 2,
+          "unit": "oz"
+        }
+      },
+      {
+        "ingredient": "garlic",
+        "amount": {
+          "qty": 5,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "vorschmack_finnish_ground_meat_step_3",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Let the dish cool, and then grind the contents with the herring and anchovy using a meat grinder. In a large bowl, add some water to the mixture to give it the consistency of thick porridge. Season with white pepper and garlic.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

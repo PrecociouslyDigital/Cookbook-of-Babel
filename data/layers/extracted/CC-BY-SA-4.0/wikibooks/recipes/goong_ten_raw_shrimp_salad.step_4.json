@@ -1,0 +1,88 @@
+{
+  "id": "goong_ten_raw_shrimp_salad.step_4",
+  "source": "wikibooks_goong_ten_raw_shrimp_salad",
+  "sourceRef": {
+    "source": "wikibooks_goong_ten_raw_shrimp_salad",
+    "step": 4
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "goong_ten_raw_shrimp_salad_step_3",
+        "amount": {
+          "qty": 320.9,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "cilantro",
+        "amount": {
+          "qty": 2,
+          "unit": "tbsp"
+        }
+      },
+      {
+        "min": 0,
+        "max": 1,
+        "of": [
+          {
+            "ingredient": "peppermint",
+            "amount": {
+              "qty": 1,
+              "unit": "pinch"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "goong_ten_raw_shrimp_salad",
+      "amount": {
+        "qty": 350.8,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Shake the shrimp with the spicy sauce in a bag to mix it well.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Peppermint leaves (optional)': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for cilantro, peppermint"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    },
+    {
+      "field": "inputs",
+      "kind": "missing",
+      "note": "no step uses '3 shallots, chopped' (p=0.94)"
+    },
+    {
+      "field": "inputs",
+      "kind": "missing",
+      "note": "no step uses '3 tablespoons sliced lemongrass' (p=0.88)"
+    }
+  ]
+}

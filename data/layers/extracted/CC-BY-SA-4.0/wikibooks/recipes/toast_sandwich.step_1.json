@@ -1,0 +1,48 @@
+{
+  "id": "toast_sandwich.step_1",
+  "source": "wikibooks_toast_sandwich",
+  "sourceRef": {
+    "source": "wikibooks_toast_sandwich",
+    "step": 1
+  },
+  "technique": "toast",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "bread",
+        "amount": {
+          "qty": 3,
+          "unit": "slice"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "toast_sandwich_step_1",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 185,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Toast one of the bread slices. If using a pan, put butter and a light oil in a pan over medium heat. Once pan begins to smoke, place the bread in. If needed, add additional oil or butter to the pan, and don't forget to flip after a minute or until toasted to preferred amount.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of toast's typical range"
+    }
+  ]
+}

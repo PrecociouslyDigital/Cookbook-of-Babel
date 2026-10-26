@@ -1,0 +1,48 @@
+{
+  "id": "red_bean_paste.step_5",
+  "source": "wikibooks_red_bean_paste",
+  "sourceRef": {
+    "source": "wikibooks_red_bean_paste",
+    "step": 5
+  },
+  "technique": "strain",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "red_bean_paste_step_4",
+        "amount": {
+          "qty": 200.3,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "red_bean_paste_step_5",
+      "amount": {
+        "qty": 200.3,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Drain away the water.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

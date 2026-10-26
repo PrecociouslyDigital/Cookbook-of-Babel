@@ -1,0 +1,48 @@
+{
+  "id": "picante_peach_cobbler.step_11",
+  "source": "wikibooks_picante_peach_cobbler",
+  "sourceRef": {
+    "source": "wikibooks_picante_peach_cobbler",
+    "step": 11
+  },
+  "technique": "bake",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "picante_peach_cobbler_step_10",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "picante_peach_cobbler",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 200,
+    "medium": "oven_air"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 40,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Bake for 40 minutes or until crust is golden brown.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of bake's typical range"
+    }
+  ]
+}

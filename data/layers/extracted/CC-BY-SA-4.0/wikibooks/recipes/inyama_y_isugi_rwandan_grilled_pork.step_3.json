@@ -1,0 +1,55 @@
+{
+  "id": "inyama_y_isugi_rwandan_grilled_pork.step_3",
+  "source": "wikibooks_inyama_y_isugi_rwandan_grilled_pork",
+  "sourceRef": {
+    "source": "wikibooks_inyama_y_isugi_rwandan_grilled_pork",
+    "step": 3
+  },
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "inyama_y_isugi_rwandan_grilled_pork_step_2",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "pork",
+        "amount": {
+          "qty": 2,
+          "unit": "lb"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "inyama_y_isugi_rwandan_grilled_pork_step_3",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Rub the spice paste all over the pork loin or pork chops, ensuring they are well coated.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

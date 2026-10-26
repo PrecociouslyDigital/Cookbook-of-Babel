@@ -1,0 +1,48 @@
+{
+  "id": "barbecue_sauce_sweet.step_4",
+  "source": "wikibooks_barbecue_sauce_sweet",
+  "sourceRef": {
+    "source": "wikibooks_barbecue_sauce_sweet",
+    "step": 4
+  },
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "barbecue_sauce_sweet_step_3",
+        "amount": {
+          "qty": 797.4,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "barbecue_sauce_sweet",
+      "amount": {
+        "qty": 797.4,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Pour remaining sauce over before serving.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

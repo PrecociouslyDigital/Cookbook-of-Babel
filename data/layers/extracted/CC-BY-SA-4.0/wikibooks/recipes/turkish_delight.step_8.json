@@ -1,0 +1,63 @@
+{
+  "id": "turkish_delight.step_8",
+  "source": "wikibooks_turkish_delight",
+  "sourceRef": {
+    "source": "wikibooks_turkish_delight",
+    "step": 8
+  },
+  "technique": "age",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "turkish_delight_step_7",
+        "amount": {
+          "qty": 854.6,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "turkish_delight",
+      "amount": {
+        "qty": 854.6,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Store at room temperature in airtight container.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.56"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    },
+    {
+      "field": "inputs",
+      "kind": "missing",
+      "note": "no step uses 'Food coloring' (p=0.78)"
+    },
+    {
+      "field": "inputs",
+      "kind": "missing",
+      "note": "no step uses '½ cup chopped toasted pistachios or almonds (optional)' (p=0.97)"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "cornbread_stuffed_zucchini.step_1",
+  "source": "wikibooks_cornbread_stuffed_zucchini",
+  "sourceRef": {
+    "source": "wikibooks_cornbread_stuffed_zucchini",
+    "step": 1
+  },
+  "technique": "separate",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "zucchini",
+        "amount": {
+          "qty": 4,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "cornbread_stuffed_zucchini_step_1",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Scoop out the column of seeds in zucchini halves using a teaspoon or a grapefruit spoon. Set aside.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

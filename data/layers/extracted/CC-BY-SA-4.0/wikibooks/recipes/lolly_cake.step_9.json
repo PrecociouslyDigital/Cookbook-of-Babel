@@ -1,0 +1,48 @@
+{
+  "id": "lolly_cake.step_9",
+  "source": "wikibooks_lolly_cake",
+  "sourceRef": {
+    "source": "wikibooks_lolly_cake",
+    "step": 9
+  },
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "lolly_cake_step_8",
+        "amount": {
+          "qty": 750.6,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "lolly_cake",
+      "amount": {
+        "qty": 750.6,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Cut cake while still cold before it warms up again",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "crullers_twisted.step_3",
+  "source": "wikibooks_crullers_twisted",
+  "sourceRef": {
+    "source": "wikibooks_crullers_twisted",
+    "step": 3
+  },
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "crullers_twisted_step_2",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "crullers_twisted_step_3",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Roll dough out ¼ inch (0.75 cm) thick. Cut dough into strips measuring 1 x 8 inches (2.5 x 20 cm).",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "chocolate_mousse_vegan.step_2",
+  "source": "wikibooks_chocolate_mousse_vegan",
+  "sourceRef": {
+    "source": "wikibooks_chocolate_mousse_vegan",
+    "step": 2
+  },
+  "technique": "blend",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "chocolate_mousse_vegan_step_1",
+        "amount": {
+          "qty": 0.3,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "chocolate_mousse_vegan_step_2",
+      "amount": {
+        "qty": 0.3,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Break down the fleshy parts of the avocados using a fork or mixer; depending on the desired texture.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

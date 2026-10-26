@@ -1,0 +1,60 @@
+{
+  "id": "salata_de_boeuf_romanian_beef_salad.step_2",
+  "source": "wikibooks_salata_de_boeuf_romanian_beef_salad",
+  "sourceRef": {
+    "source": "wikibooks_salata_de_boeuf_romanian_beef_salad",
+    "step": 2
+  },
+  "technique": "boil",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "salata_de_boeuf_romanian_beef_salad_step_1",
+        "amount": {
+          "qty": 1000,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "carrot",
+        "amount": {
+          "qty": 350,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "salata_de_boeuf_romanian_beef_salad_step_2",
+      "amount": {
+        "qty": 1350,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 100,
+    "medium": "boiling_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Boil the carrots until tender.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of boil's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

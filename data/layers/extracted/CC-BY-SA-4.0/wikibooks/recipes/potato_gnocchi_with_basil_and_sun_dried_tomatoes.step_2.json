@@ -1,0 +1,55 @@
+{
+  "id": "potato_gnocchi_with_basil_and_sun_dried_tomatoes.step_2",
+  "source": "wikibooks_potato_gnocchi_with_basil_and_sun_dried_tomatoes",
+  "sourceRef": {
+    "source": "wikibooks_potato_gnocchi_with_basil_and_sun_dried_tomatoes",
+    "step": 2
+  },
+  "technique": "chop",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "potato_gnocchi_with_basil_and_sun_dried_tomatoes_step_1",
+        "amount": {
+          "qty": 500,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "sun_dried_tomatoes",
+        "amount": {
+          "qty": 4,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "potato_gnocchi_with_basil_and_sun_dried_tomatoes_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Finely dice the sun-dried tomatoes.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

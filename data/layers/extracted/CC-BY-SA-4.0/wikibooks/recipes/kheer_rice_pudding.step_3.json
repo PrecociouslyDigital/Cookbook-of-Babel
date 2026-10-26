@@ -1,0 +1,74 @@
+{
+  "id": "kheer_rice_pudding.step_3",
+  "source": "wikibooks_kheer_rice_pudding",
+  "sourceRef": {
+    "source": "wikibooks_kheer_rice_pudding",
+    "step": 3
+  },
+  "technique": "simmer",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "kheer_rice_pudding_step_2",
+        "amount": {
+          "qty": 1280,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "white_sugar",
+        "amount": {
+          "qty": 125,
+          "unit": "ml"
+        }
+      },
+      {
+        "ingredient": "raisin",
+        "amount": {
+          "qty": 65,
+          "unit": "ml"
+        }
+      },
+      {
+        "ingredient": "cardamom",
+        "amount": {
+          "qty": 6,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "kheer_rice_pudding_step_3",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 90,
+    "medium": "simmering_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 5,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Stir in the sugar, sultanas, and the ground cardamom seeds. Cook for 5 minutes.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.51"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of simmer's typical range"
+    }
+  ]
+}

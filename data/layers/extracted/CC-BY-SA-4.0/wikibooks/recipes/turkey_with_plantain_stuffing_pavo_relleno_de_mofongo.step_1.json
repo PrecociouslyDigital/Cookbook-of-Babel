@@ -1,0 +1,53 @@
+{
+  "id": "turkey_with_plantain_stuffing_pavo_relleno_de_mofongo.step_1",
+  "source": "wikibooks_turkey_with_plantain_stuffing_pavo_relleno_de_mofongo",
+  "sourceRef": {
+    "source": "wikibooks_turkey_with_plantain_stuffing_pavo_relleno_de_mofongo",
+    "step": 1
+  },
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "plantain",
+        "amount": {
+          "qty": 3,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "turkey_with_plantain_stuffing_pavo_relleno_de_mofongo_step_1",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Peel plantains and slice into 1-inch chunks.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'3 medium to large green plantains': 'to' read as pieces"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": "asondo_nigerian_dried_sweet_potatoes.step_3",
+  "source": "wikibooks_asondo_nigerian_dried_sweet_potatoes",
+  "sourceRef": {
+    "source": "wikibooks_asondo_nigerian_dried_sweet_potatoes",
+    "step": 3
+  },
+  "technique": "evaporate",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "asondo_nigerian_dried_sweet_potatoes_step_2",
+        "amount": {
+          "qty": 0.6,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "asondo_nigerian_dried_sweet_potatoes",
+      "amount": {
+        "qty": 0.6,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 100,
+    "medium": "still_air"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 2.5,
+      "unit": "d"
+    }
+  },
+  "stateNote": "Dry in the sun for 2 to 3 days or dehydrate using a dehydrator until crispy.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.57"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of evaporate's typical range"
+    }
+  ]
+}

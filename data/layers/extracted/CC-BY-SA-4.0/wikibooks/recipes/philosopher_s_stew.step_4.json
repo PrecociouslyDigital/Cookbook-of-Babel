@@ -1,0 +1,67 @@
+{
+  "id": "philosopher_s_stew.step_4",
+  "source": "wikibooks_philosopher_s_stew",
+  "sourceRef": {
+    "source": "wikibooks_philosopher_s_stew",
+    "step": 4
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "philosopher_s_stew_step_3",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "skimmed_gravy",
+        "amount": {
+          "qty": 3.5,
+          "unit": "dl"
+        }
+      },
+      {
+        "ingredient": "bread",
+        "amount": {
+          "qty": 4,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "philosopher_s_stew_step_4",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Pour the gravy over the top layer and scatter the bread crumbs over it all.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'4 spoonfuls of crushed white bread (stale)': 'spoonfuls' read as pieces"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

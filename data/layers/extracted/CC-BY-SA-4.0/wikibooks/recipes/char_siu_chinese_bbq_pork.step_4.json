@@ -1,0 +1,48 @@
+{
+  "id": "char_siu_chinese_bbq_pork.step_4",
+  "source": "wikibooks_char_siu_chinese_bbq_pork",
+  "sourceRef": {
+    "source": "wikibooks_char_siu_chinese_bbq_pork",
+    "step": 4
+  },
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "char_siu_chinese_bbq_pork_step_3",
+        "amount": {
+          "qty": 1209.2,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "char_siu_chinese_bbq_pork_step_4",
+      "amount": {
+        "qty": 1209.2,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Place pork strips in a tray and cover with marinade. Ensure strips are covered completely in marinade.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

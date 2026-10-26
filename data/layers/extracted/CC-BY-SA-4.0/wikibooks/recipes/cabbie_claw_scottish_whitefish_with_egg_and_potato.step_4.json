@@ -1,0 +1,53 @@
+{
+  "id": "cabbie_claw_scottish_whitefish_with_egg_and_potato.step_4",
+  "source": "wikibooks_cabbie_claw_scottish_whitefish_with_egg_and_potato",
+  "sourceRef": {
+    "source": "wikibooks_cabbie_claw_scottish_whitefish_with_egg_and_potato",
+    "step": 4
+  },
+  "technique": "separate",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "cabbie_claw_scottish_whitefish_with_egg_and_potato_step_3",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "cabbie_claw_scottish_whitefish_with_egg_and_potato_step_4",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Remove the fish from the broth, reserving the broth.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.48"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "croissant.step_5",
+  "source": "wikibooks_croissant",
+  "sourceRef": {
+    "source": "wikibooks_croissant",
+    "step": 5
+  },
+  "technique": "fold",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "croissant_step_4",
+        "amount": {
+          "qty": 1187.8,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "croissant_step_5",
+      "amount": {
+        "qty": 1187.8,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Place the butter sheet on half of the dough rectangle and fold the other half over it.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

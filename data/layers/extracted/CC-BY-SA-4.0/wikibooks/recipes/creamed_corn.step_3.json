@@ -1,0 +1,53 @@
+{
+  "id": "creamed_corn.step_3",
+  "source": "wikibooks_creamed_corn",
+  "sourceRef": {
+    "source": "wikibooks_creamed_corn",
+    "step": 3
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "creamed_corn_step_2",
+        "amount": {
+          "qty": 432.3,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "creamed_corn_step_3",
+      "amount": {
+        "qty": 432.3,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Pour puréed corn into a saucepan and add remaining whole corn kernels.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.54"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

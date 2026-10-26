@@ -1,0 +1,58 @@
+{
+  "id": "beurre_a_la_bourguignonne_garlic_scallion_butter.step_1",
+  "source": "wikibooks_beurre_a_la_bourguignonne_garlic_scallion_butter",
+  "sourceRef": {
+    "source": "wikibooks_beurre_a_la_bourguignonne_garlic_scallion_butter",
+    "step": 1
+  },
+  "technique": "whisk",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "butter",
+        "amount": {
+          "qty": 0.5,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "beurre_a_la_bourguignonne_garlic_scallion_butter_step_1",
+      "amount": {
+        "qty": 118.3,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Cream the butter until it is very soft.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.48"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for butter"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

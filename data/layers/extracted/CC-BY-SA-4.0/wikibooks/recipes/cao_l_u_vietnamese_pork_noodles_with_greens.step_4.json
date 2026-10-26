@@ -1,0 +1,53 @@
+{
+  "id": "cao_l_u_vietnamese_pork_noodles_with_greens.step_4",
+  "source": "wikibooks_cao_l_u_vietnamese_pork_noodles_with_greens",
+  "sourceRef": {
+    "source": "wikibooks_cao_l_u_vietnamese_pork_noodles_with_greens",
+    "step": 4
+  },
+  "technique": "cool",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "cao_l_u_vietnamese_pork_noodles_with_greens_step_3",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "cao_l_u_vietnamese_pork_noodles_with_greens_step_4",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Remove from heat, and set aside.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.55"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

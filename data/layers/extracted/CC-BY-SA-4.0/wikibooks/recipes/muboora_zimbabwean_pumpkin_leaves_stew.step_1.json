@@ -1,0 +1,48 @@
+{
+  "id": "muboora_zimbabwean_pumpkin_leaves_stew.step_1",
+  "source": "wikibooks_muboora_zimbabwean_pumpkin_leaves_stew",
+  "sourceRef": {
+    "source": "wikibooks_muboora_zimbabwean_pumpkin_leaves_stew",
+    "step": 1
+  },
+  "technique": "chop",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "pumpkin",
+        "amount": {
+          "qty": 1,
+          "unit": "bunch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "muboora_zimbabwean_pumpkin_leaves_stew_step_1",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Wash the pumpkin leaves thoroughly and remove any tough stems or veins. Chop the leaves into small pieces and set them aside.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "classic_american_apple_pie.step_7",
+  "source": "wikibooks_classic_american_apple_pie",
+  "sourceRef": {
+    "source": "wikibooks_classic_american_apple_pie",
+    "step": 7
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "classic_american_apple_pie_step_6",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "classic_american_apple_pie_step_7",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Top with the second sheet of dough, and seal the edges. Crimp the edges if desired, then snip 3 incisions in the center. Brush top with reduced apple liquid.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

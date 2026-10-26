@@ -1,0 +1,53 @@
+{
+  "id": "molokhia_egyptian_jute_mallow_soup.step_1",
+  "source": "wikibooks_molokhia_egyptian_jute_mallow_soup",
+  "sourceRef": {
+    "source": "wikibooks_molokhia_egyptian_jute_mallow_soup",
+    "step": 1
+  },
+  "technique": "rinse",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "jute",
+        "amount": {
+          "qty": 2,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "molokhia_egyptian_jute_mallow_soup_step_1",
+      "amount": {
+        "qty": 473.2,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "If using fresh molokhia leaves, remove any tough stems and wash the leaves thoroughly. If using frozen molokhia, thaw it according to the package instructions.",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for jute"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

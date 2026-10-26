@@ -1,0 +1,55 @@
+{
+  "id": "bulk_sausage.step_2",
+  "source": "wikibooks_bulk_sausage",
+  "sourceRef": {
+    "source": "wikibooks_bulk_sausage",
+    "step": 2
+  },
+  "technique": "knead",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "bulk_sausage_step_1",
+        "amount": {
+          "qty": 46.3,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "pork",
+        "amount": {
+          "qty": 1,
+          "unit": "kg"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "bulk_sausage",
+      "amount": {
+        "qty": 1046.3,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Knead the seasoning mixture into the raw ground pork until it is distributed evenly.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

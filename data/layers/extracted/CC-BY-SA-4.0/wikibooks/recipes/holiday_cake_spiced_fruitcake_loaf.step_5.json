@@ -1,0 +1,48 @@
+{
+  "id": "holiday_cake_spiced_fruitcake_loaf.step_5",
+  "source": "wikibooks_holiday_cake_spiced_fruitcake_loaf",
+  "sourceRef": {
+    "source": "wikibooks_holiday_cake_spiced_fruitcake_loaf",
+    "step": 5
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "holiday_cake_spiced_fruitcake_loaf_step_4",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "holiday_cake_spiced_fruitcake_loaf_step_5",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Combine the two mixtures and beat together.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

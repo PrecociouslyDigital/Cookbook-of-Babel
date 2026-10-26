@@ -1,0 +1,53 @@
+{
+  "id": "creme_anglaise.step_3",
+  "source": "wikibooks_creme_anglaise",
+  "sourceRef": {
+    "source": "wikibooks_creme_anglaise",
+    "step": 3
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "creme_anglaise_step_2",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "creme_anglaise_step_3",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 180,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "When the milk simmers, remove from heat and slowly pour about half of it into the egg mixture, mixing continuously. Pour the egg/milk mixture back into the saucepan with the remaining milk, stirring continuously, and return the saucepan to the stove.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 180.0 °C for pan_contact"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

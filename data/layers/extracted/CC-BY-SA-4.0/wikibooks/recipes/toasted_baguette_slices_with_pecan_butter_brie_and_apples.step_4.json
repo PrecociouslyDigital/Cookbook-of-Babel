@@ -1,0 +1,55 @@
+{
+  "id": "toasted_baguette_slices_with_pecan_butter_brie_and_apples.step_4",
+  "source": "wikibooks_toasted_baguette_slices_with_pecan_butter_brie_and_apples",
+  "sourceRef": {
+    "source": "wikibooks_toasted_baguette_slices_with_pecan_butter_brie_and_apples",
+    "step": 4
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "toasted_baguette_slices_with_pecan_butter_brie_and_apples_step_3",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "pecan_halves",
+        "amount": {
+          "qty": 24,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "toasted_baguette_slices_with_pecan_butter_brie_and_apples_step_4",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Spread pecan butter over top of each one. Top with pecan half.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

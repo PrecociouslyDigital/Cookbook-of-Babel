@@ -1,0 +1,48 @@
+{
+  "id": "tod_mun_thai_fish_cakes.step_1",
+  "source": "wikibooks_tod_mun_thai_fish_cakes",
+  "sourceRef": {
+    "source": "wikibooks_tod_mun_thai_fish_cakes",
+    "step": 1
+  },
+  "technique": "julienne",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "kaffir_lime",
+        "amount": {
+          "qty": 3,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "tod_mun_thai_fish_cakes_step_1",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Stack the lime leaves and roll them together into a tube shape. Slice them into thin strips.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

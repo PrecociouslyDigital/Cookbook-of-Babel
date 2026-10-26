@@ -1,0 +1,48 @@
+{
+  "id": "kunun_gyada_groundnut_and_rice_gruel.step_3",
+  "source": "wikibooks_kunun_gyada_groundnut_and_rice_gruel",
+  "sourceRef": {
+    "source": "wikibooks_kunun_gyada_groundnut_and_rice_gruel",
+    "step": 3
+  },
+  "technique": "grind",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "kunun_gyada_groundnut_and_rice_gruel_step_2",
+        "amount": {
+          "qty": 435,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "kunun_gyada_groundnut_and_rice_gruel_step_3",
+      "amount": {
+        "qty": 435,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Drain the rice and grind with a little water.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

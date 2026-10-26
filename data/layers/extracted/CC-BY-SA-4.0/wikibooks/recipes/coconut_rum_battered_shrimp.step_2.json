@@ -1,0 +1,60 @@
+{
+  "id": "coconut_rum_battered_shrimp.step_2",
+  "source": "wikibooks_coconut_rum_battered_shrimp",
+  "sourceRef": {
+    "source": "wikibooks_coconut_rum_battered_shrimp",
+    "step": 2
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "coconut_rum_battered_shrimp_step_1",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "coconut",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "coconut_rum_battered_shrimp_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 2.5,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Dredge shrimp in coconut. Let rest at room temperature 2–3 minutes.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.42"
+    },
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Sweetened shredded coconut, or shredded fresh coconut': no quantity given; assumed a pinch"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "id": "welsh_fruit_bread_bara_brith_ii.step_1",
+  "source": "wikibooks_welsh_fruit_bread_bara_brith_ii",
+  "sourceRef": {
+    "source": "wikibooks_welsh_fruit_bread_bara_brith_ii",
+    "step": 1
+  },
+  "technique": "age",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "assorted_fruit",
+        "amount": {
+          "qty": 1,
+          "unit": "lb"
+        }
+      },
+      {
+        "ingredient": "tea",
+        "amount": {
+          "qty": 1.5,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "welsh_fruit_bread_bara_brith_ii_step_1",
+      "amount": {
+        "qty": 808.5,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 24,
+      "unit": "h"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Soak the fruit in the tea for 24 hours",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for tea"
+    }
+  ]
+}

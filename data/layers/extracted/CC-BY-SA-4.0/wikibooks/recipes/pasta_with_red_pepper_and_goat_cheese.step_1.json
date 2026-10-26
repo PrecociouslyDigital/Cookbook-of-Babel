@@ -1,0 +1,48 @@
+{
+  "id": "pasta_with_red_pepper_and_goat_cheese.step_1",
+  "source": "wikibooks_pasta_with_red_pepper_and_goat_cheese",
+  "sourceRef": {
+    "source": "wikibooks_pasta_with_red_pepper_and_goat_cheese",
+    "step": 1
+  },
+  "technique": "chop",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "bell_pepper",
+        "amount": {
+          "qty": 2,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "pasta_with_red_pepper_and_goat_cheese_step_1",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Skin and finely chop or process the red peppers.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

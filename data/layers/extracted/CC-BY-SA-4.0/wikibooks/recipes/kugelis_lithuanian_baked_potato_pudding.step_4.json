@@ -1,0 +1,48 @@
+{
+  "id": "kugelis_lithuanian_baked_potato_pudding.step_4",
+  "source": "wikibooks_kugelis_lithuanian_baked_potato_pudding",
+  "sourceRef": {
+    "source": "wikibooks_kugelis_lithuanian_baked_potato_pudding",
+    "step": 4
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "kugelis_lithuanian_baked_potato_pudding_step_3",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "kugelis_lithuanian_baked_potato_pudding_step_4",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Mix the egg mixture into the potato mixture.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

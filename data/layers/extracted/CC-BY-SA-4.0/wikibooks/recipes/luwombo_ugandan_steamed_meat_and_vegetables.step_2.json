@@ -1,0 +1,70 @@
+{
+  "id": "luwombo_ugandan_steamed_meat_and_vegetables.step_2",
+  "source": "wikibooks_luwombo_ugandan_steamed_meat_and_vegetables",
+  "sourceRef": {
+    "source": "wikibooks_luwombo_ugandan_steamed_meat_and_vegetables",
+    "step": 2
+  },
+  "technique": "pan_fry",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "luwombo_ugandan_steamed_meat_and_vegetables_step_1",
+        "amount": {
+          "qty": 557.8,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "palm_oil",
+        "amount": {
+          "qty": 2,
+          "unit": "tbsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "luwombo_ugandan_steamed_meat_and_vegetables_step_2",
+      "amount": {
+        "qty": 587.4,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 185,
+    "medium": "frying_oil"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Heat palm oil or groundnut oil in a large pot or skillet over medium-high heat. Add the marinated meat and cook until beautifully browned on all sides, releasing an enticing aroma.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.53"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for palm_oil"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of pan_fry's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

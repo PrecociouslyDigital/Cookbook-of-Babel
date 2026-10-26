@@ -1,0 +1,53 @@
+{
+  "id": "boiled_cucumber_and_grated_coconut_pachadi.step_2",
+  "source": "wikibooks_boiled_cucumber_and_grated_coconut_pachadi",
+  "sourceRef": {
+    "source": "wikibooks_boiled_cucumber_and_grated_coconut_pachadi",
+    "step": 2
+  },
+  "technique": "chop",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "boiled_cucumber_and_grated_coconut_pachadi_step_1",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "boiled_cucumber_and_grated_coconut_pachadi_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Grate the cucumber. Alternatively, cut into very small pieces.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.43"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

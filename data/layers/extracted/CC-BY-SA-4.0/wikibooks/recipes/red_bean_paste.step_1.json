@@ -1,0 +1,65 @@
+{
+  "id": "red_bean_paste.step_1",
+  "source": "wikibooks_red_bean_paste",
+  "sourceRef": {
+    "source": "wikibooks_red_bean_paste",
+    "step": 1
+  },
+  "technique": "rinse",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "azuki_bean",
+        "amount": {
+          "qty": 200,
+          "unit": "ml"
+        }
+      },
+      {
+        "ingredient": "water",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "red_bean_paste_step_1",
+      "amount": {
+        "qty": 200.3,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 4,
+      "unit": "h"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Wash the beans, checking for and removing any that are damaged or diseased. Soak the beans in cold water for at least 4 hours or, preferably, overnight. This softens the beans slightly and reduces the cooking time greatly.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Water as needed for soaking and boiling': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for azuki_bean"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "the step names several durations; used the first"
+    }
+  ]
+}

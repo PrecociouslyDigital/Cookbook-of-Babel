@@ -1,0 +1,76 @@
+{
+  "id": "perfect_three_course_dinner.step_2",
+  "source": "wikibooks_perfect_three_course_dinner",
+  "sourceRef": {
+    "source": "wikibooks_perfect_three_course_dinner",
+    "step": 2
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "perfect_three_course_dinner_step_1",
+        "amount": {
+          "qty": 1000,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "water",
+        "amount": {
+          "qty": 625,
+          "unit": "ml"
+        }
+      },
+      {
+        "ingredient": "yeast",
+        "amount": {
+          "qty": 2,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "salt",
+        "amount": {
+          "qty": 30,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "white_sugar",
+        "amount": {
+          "qty": 30,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "perfect_three_course_dinner_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Pour half of the water into this hole, then add the yeast, sugar and salt. Take a fork and start stirring, gradually bringing in the flour from the sides and swirling it into the liquid. Keep stirring and add the water little by little. Be careful not to pour too much water into the flour hole at a time, otherwise you might get your clothes stained.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

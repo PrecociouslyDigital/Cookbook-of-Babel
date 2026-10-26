@@ -1,0 +1,65 @@
+{
+  "id": "pickled_herring.step_2",
+  "source": "wikibooks_pickled_herring",
+  "sourceRef": {
+    "source": "wikibooks_pickled_herring",
+    "step": 2
+  },
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "pickled_herring_step_1",
+        "amount": {
+          "qty": 1254,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "herring",
+        "amount": {
+          "qty": 1,
+          "unit": "lb"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "pickled_herring_step_2",
+      "amount": {
+        "qty": 1707.6,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 8,
+      "unit": "h"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Submerge the herring fillets in the brine and refrigerate overnight, or up to 24 hours.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.51"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "'overnight' read as 8 hours"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "the step names several durations; used the first"
+    }
+  ]
+}

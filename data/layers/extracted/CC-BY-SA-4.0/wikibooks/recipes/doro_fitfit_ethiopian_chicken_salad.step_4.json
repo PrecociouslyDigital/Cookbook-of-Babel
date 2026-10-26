@@ -1,0 +1,48 @@
+{
+  "id": "doro_fitfit_ethiopian_chicken_salad.step_4",
+  "source": "wikibooks_doro_fitfit_ethiopian_chicken_salad",
+  "sourceRef": {
+    "source": "wikibooks_doro_fitfit_ethiopian_chicken_salad",
+    "step": 4
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "doro_fitfit_ethiopian_chicken_salad_step_3",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "doro_fitfit_ethiopian_chicken_salad_step_4",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Gently toss the salad until all the ingredients are well coated with the dressing.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

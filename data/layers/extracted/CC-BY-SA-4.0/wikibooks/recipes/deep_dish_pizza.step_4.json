@@ -1,0 +1,53 @@
+{
+  "id": "deep_dish_pizza.step_4",
+  "source": "wikibooks_deep_dish_pizza",
+  "sourceRef": {
+    "source": "wikibooks_deep_dish_pizza",
+    "step": 4
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "deep_dish_pizza_step_3",
+        "amount": {
+          "qty": 1004.1,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "deep_dish_pizza_step_4",
+      "amount": {
+        "qty": 1004.1,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Transfer dough to a floured flat surface. Roll or shape the dough to the shape of a pizza pan and make an edge up the side of the pan for the crust. Roll the dough thicker for Deep Dish Pizza and thinner for a crisper and more traditional pizza crust.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.55"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

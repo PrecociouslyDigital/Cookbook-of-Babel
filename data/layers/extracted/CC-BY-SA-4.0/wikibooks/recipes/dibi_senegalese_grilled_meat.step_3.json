@@ -1,0 +1,48 @@
+{
+  "id": "dibi_senegalese_grilled_meat.step_3",
+  "source": "wikibooks_dibi_senegalese_grilled_meat",
+  "sourceRef": {
+    "source": "wikibooks_dibi_senegalese_grilled_meat",
+    "step": 3
+  },
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "dibi_senegalese_grilled_meat_step_2",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "dibi_senegalese_grilled_meat_step_3",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Taste and adjust seasoning as needed.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

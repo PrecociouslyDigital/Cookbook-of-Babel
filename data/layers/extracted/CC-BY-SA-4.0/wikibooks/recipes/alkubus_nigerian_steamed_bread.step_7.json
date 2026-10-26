@@ -1,0 +1,53 @@
+{
+  "id": "alkubus_nigerian_steamed_bread.step_7",
+  "source": "wikibooks_alkubus_nigerian_steamed_bread",
+  "sourceRef": {
+    "source": "wikibooks_alkubus_nigerian_steamed_bread",
+    "step": 7
+  },
+  "technique": "cool",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "alkubus_nigerian_steamed_bread_step_6",
+        "amount": {
+          "qty": 391.3,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "alkubus_nigerian_steamed_bread_step_7",
+      "amount": {
+        "qty": 391.3,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Remove from the heat and let cool.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.45"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

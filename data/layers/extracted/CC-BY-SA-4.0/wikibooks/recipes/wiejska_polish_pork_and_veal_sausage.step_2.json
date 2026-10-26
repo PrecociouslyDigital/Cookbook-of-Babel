@@ -1,0 +1,60 @@
+{
+  "id": "wiejska_polish_pork_and_veal_sausage.step_2",
+  "source": "wikibooks_wiejska_polish_pork_and_veal_sausage",
+  "sourceRef": {
+    "source": "wikibooks_wiejska_polish_pork_and_veal_sausage",
+    "step": 2
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "wiejska_polish_pork_and_veal_sausage_step_1",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "sausage_casing",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "wiejska_polish_pork_and_veal_sausage_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Stuff the meat mixture into the casing. When making sausage by hand, tie a knot about 3 inches (76 mm) from one end of a cleaned sausage casing and fix the open end over the spout of a wide-based funnel, easing most of the casing up onto the spout. Then spoon the mixture into the funnel and push it through into the casing with your fingers.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Sausage casing': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

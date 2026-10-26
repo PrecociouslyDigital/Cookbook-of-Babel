@@ -1,0 +1,65 @@
+{
+  "id": "spaghetti_with_bolognese_meat_sauce.step_9",
+  "source": "wikibooks_spaghetti_with_bolognese_meat_sauce",
+  "sourceRef": {
+    "source": "wikibooks_spaghetti_with_bolognese_meat_sauce",
+    "step": 9
+  },
+  "technique": "chop",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "spaghetti_with_bolognese_meat_sauce_step_8",
+        "amount": {
+          "qty": 1704.4,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "tomato",
+        "amount": {
+          "qty": 1,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "spaghetti_with_bolognese_meat_sauce_step_9",
+      "amount": {
+        "qty": 1941,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Drain and coarsely chop the plum tomatoes and add them to the pot.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.48"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for tomato"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "cheese_stuffed_tomatoes.step_2",
+  "source": "wikibooks_cheese_stuffed_tomatoes",
+  "sourceRef": {
+    "source": "wikibooks_cheese_stuffed_tomatoes",
+    "step": 2
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "cheese_stuffed_tomatoes_step_1",
+        "amount": {
+          "qty": 182.9,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "cheese_stuffed_tomatoes_step_2",
+      "amount": {
+        "qty": 182.9,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Place filling into a gallon-size zip-top bag with a small hole snipped in one of the bottom corners.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

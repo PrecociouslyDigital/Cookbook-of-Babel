@@ -1,0 +1,55 @@
+{
+  "id": "super_foamy_milkshake.step_2",
+  "source": "wikibooks_super_foamy_milkshake",
+  "sourceRef": {
+    "source": "wikibooks_super_foamy_milkshake",
+    "step": 2
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "super_foamy_milkshake_step_1",
+        "amount": {
+          "qty": 22,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "milk",
+        "amount": {
+          "qty": 200,
+          "unit": "ml"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "super_foamy_milkshake_step_2",
+      "amount": {
+        "qty": 228,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Add the resulting powder to the skimmed milk.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

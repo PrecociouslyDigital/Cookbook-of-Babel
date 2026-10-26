@@ -1,0 +1,55 @@
+{
+  "id": "cheese_spread_on_french_bread.step_6",
+  "source": "wikibooks_cheese_spread_on_french_bread",
+  "sourceRef": {
+    "source": "wikibooks_cheese_spread_on_french_bread",
+    "step": 6
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "cheese_spread_on_french_bread_step_5",
+        "amount": {
+          "qty": 793.6,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "baguette",
+        "amount": {
+          "qty": 1,
+          "unit": "loaf"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "cheese_spread_on_french_bread",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Spread on bread and serve with milk.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": "espagnole_sauce_escoffier.step_2",
+  "source": "wikibooks_espagnole_sauce_escoffier",
+  "sourceRef": {
+    "source": "wikibooks_espagnole_sauce_escoffier",
+    "step": 2
+  },
+  "technique": "boil",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "espagnole_sauce_escoffier_step_1",
+        "amount": {
+          "qty": 6131.7,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "espagnole_sauce_escoffier_step_2",
+      "amount": {
+        "qty": 6131.7,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 100,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Heat the rest of the stock in a deep, thick saucepan over a medium-high flame and bring to a boil. Lower the heat.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.49"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of boil's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "vichyssoise_chilled_potato_leek_soup.step_2",
+  "source": "wikibooks_vichyssoise_chilled_potato_leek_soup",
+  "sourceRef": {
+    "source": "wikibooks_vichyssoise_chilled_potato_leek_soup",
+    "step": 2
+  },
+  "technique": "boil",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "vichyssoise_chilled_potato_leek_soup_step_1",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "vichyssoise_chilled_potato_leek_soup_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 100,
+    "medium": "boiling_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 20,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Boil potatoes for 20 minutes or until the interiors are soft when stuck with a knife. Do not overcook potatoes.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of boil's typical range"
+    }
+  ]
+}

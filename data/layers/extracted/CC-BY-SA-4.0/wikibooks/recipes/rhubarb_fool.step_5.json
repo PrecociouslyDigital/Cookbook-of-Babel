@@ -1,0 +1,65 @@
+{
+  "id": "rhubarb_fool.step_5",
+  "source": "wikibooks_rhubarb_fool",
+  "sourceRef": {
+    "source": "wikibooks_rhubarb_fool",
+    "step": 5
+  },
+  "technique": "chill",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "rhubarb_fool_step_4",
+        "amount": {
+          "qty": 1029.4,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "milk",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "rhubarb_fool",
+      "amount": {
+        "qty": 1029.7,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Pour the rhubarb fool into serving bowls and sprinkle some sugar on top to prevent a skin from forming. Leave to cool off and then refrigerate.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.53"
+    },
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Milk, or a mixture of milk and cream, for serving': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

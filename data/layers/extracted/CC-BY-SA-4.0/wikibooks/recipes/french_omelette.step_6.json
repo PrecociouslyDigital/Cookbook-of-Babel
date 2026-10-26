@@ -1,0 +1,53 @@
+{
+  "id": "french_omelette.step_6",
+  "source": "wikibooks_french_omelette",
+  "sourceRef": {
+    "source": "wikibooks_french_omelette",
+    "step": 6
+  },
+  "technique": "fold",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "french_omelette_step_5",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "french_omelette",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 180,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Turn the heat down a little lower to fold the egg. Use a spatula to pry the edges loose from the pan. When the omelette is completely loose from the pan. Fold one part over the other. You can fold half of the omelette over the other half, or fold one third of the omelette inwards and then fold the remaining flap over that, to create a thicker, less wide omelette.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 180.0 °C for pan_contact"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

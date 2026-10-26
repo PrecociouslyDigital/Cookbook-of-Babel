@@ -1,0 +1,70 @@
+{
+  "id": "toad_in_the_hole.step_3",
+  "source": "wikibooks_toad_in_the_hole",
+  "sourceRef": {
+    "source": "wikibooks_toad_in_the_hole",
+    "step": 3
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "toad_in_the_hole_step_2",
+        "amount": {
+          "qty": 264.8,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "yorkshire_pudding",
+        "amount": {
+          "qty": 1,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "toad_in_the_hole_step_3",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 180,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Add batter to the hot pan. The oil should sizzle as the cold batter is added to the pan.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.44"
+    },
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'1 recipe Yorkshire pudding batter, uncooked': 'recipe' read as pieces"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 180.0 °C for pan_contact"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

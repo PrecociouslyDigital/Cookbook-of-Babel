@@ -1,0 +1,53 @@
+{
+  "id": "holiday_pork_loin.step_5",
+  "source": "wikibooks_holiday_pork_loin",
+  "sourceRef": {
+    "source": "wikibooks_holiday_pork_loin",
+    "step": 5
+  },
+  "technique": "roast",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "holiday_pork_loin_step_4",
+        "amount": {
+          "qty": 3413.6,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "holiday_pork_loin_step_5",
+      "amount": {
+        "qty": 3413.6,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 210,
+    "medium": "oven_air"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Place roast on a roasting rack in a roasting pan. Insert a probe thermometer into the center and bake at 410°F until internal temperature reaches 140°F for medium rare.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.59"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

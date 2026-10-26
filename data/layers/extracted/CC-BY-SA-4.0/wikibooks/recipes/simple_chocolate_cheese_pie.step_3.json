@@ -1,0 +1,55 @@
+{
+  "id": "simple_chocolate_cheese_pie.step_3",
+  "source": "wikibooks_simple_chocolate_cheese_pie",
+  "sourceRef": {
+    "source": "wikibooks_simple_chocolate_cheese_pie",
+    "step": 3
+  },
+  "technique": "fold",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "simple_chocolate_cheese_pie_step_2",
+        "amount": {
+          "qty": 346,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "imitation_whipped_cream",
+        "amount": {
+          "qty": 8,
+          "unit": "oz"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "simple_chocolate_cheese_pie_step_3",
+      "amount": {
+        "qty": 572.8,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Fold in the whipped topping.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

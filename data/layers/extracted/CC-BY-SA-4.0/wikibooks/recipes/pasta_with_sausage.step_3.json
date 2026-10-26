@@ -1,0 +1,55 @@
+{
+  "id": "pasta_with_sausage.step_3",
+  "source": "wikibooks_pasta_with_sausage",
+  "sourceRef": {
+    "source": "wikibooks_pasta_with_sausage",
+    "step": 3
+  },
+  "technique": "boil",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "pasta_with_sausage_step_2",
+        "amount": {
+          "qty": 152.7,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "sausage",
+        "amount": {
+          "qty": 3,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "pasta_with_sausage_step_3",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 100,
+    "medium": "boiling_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 5,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Add sausages to pasta, and boil for 5 minutes.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of boil's typical range"
+    }
+  ]
+}

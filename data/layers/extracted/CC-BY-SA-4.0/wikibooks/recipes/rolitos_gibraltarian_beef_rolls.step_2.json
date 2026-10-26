@@ -1,0 +1,48 @@
+{
+  "id": "rolitos_gibraltarian_beef_rolls.step_2",
+  "source": "wikibooks_rolitos_gibraltarian_beef_rolls",
+  "sourceRef": {
+    "source": "wikibooks_rolitos_gibraltarian_beef_rolls",
+    "step": 2
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "rolitos_gibraltarian_beef_rolls_step_1",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "rolitos_gibraltarian_beef_rolls_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Carefully roll up the veal to make a package or roll with everything inside. Use two toothpicks to hold the roll together.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

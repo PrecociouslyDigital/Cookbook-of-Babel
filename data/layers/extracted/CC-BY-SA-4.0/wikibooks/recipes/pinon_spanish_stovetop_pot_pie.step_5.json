@@ -1,0 +1,55 @@
+{
+  "id": "pinon_spanish_stovetop_pot_pie.step_5",
+  "source": "wikibooks_pinon_spanish_stovetop_pot_pie",
+  "sourceRef": {
+    "source": "wikibooks_pinon_spanish_stovetop_pot_pie",
+    "step": 5
+  },
+  "technique": "whisk",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "pinon_spanish_stovetop_pot_pie_step_4",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "egg",
+        "amount": {
+          "qty": 6,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "pinon_spanish_stovetop_pot_pie_step_5",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Beat 3 eggs in a bowl and add a pinch of salt and pepper. Beat the other 3 eggs in a separate bowl, adding salt and pepper to taste as well. Set both bowls aside.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

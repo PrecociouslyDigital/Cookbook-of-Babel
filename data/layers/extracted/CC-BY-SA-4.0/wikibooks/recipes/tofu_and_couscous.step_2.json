@@ -1,0 +1,72 @@
+{
+  "id": "tofu_and_couscous.step_2",
+  "source": "wikibooks_tofu_and_couscous",
+  "sourceRef": {
+    "source": "wikibooks_tofu_and_couscous",
+    "step": 2
+  },
+  "technique": "steam",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "tofu_and_couscous_step_1",
+        "amount": {
+          "qty": 591.5,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "water",
+        "amount": {
+          "qty": 2,
+          "unit": "cup"
+        }
+      },
+      {
+        "ingredient": "couscous",
+        "amount": {
+          "qty": 2,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "tofu_and_couscous_step_2",
+      "amount": {
+        "qty": 1537.9,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 100,
+    "medium": "boiling_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 5,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Bring the water to a boil, stir in the couscous, cover, remove from the heat, and let rest for 5 minutes until the water is absorbed. Fluff the couscous with a fork.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.46"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for couscous"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of steam's typical range"
+    }
+  ]
+}

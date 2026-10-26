@@ -1,0 +1,58 @@
+{
+  "id": "macaroni_and_cheese_vegan.step_5",
+  "source": "wikibooks_macaroni_and_cheese_vegan",
+  "sourceRef": {
+    "source": "wikibooks_macaroni_and_cheese_vegan",
+    "step": 5
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "macaroni_and_cheese_vegan_step_4",
+        "amount": {
+          "qty": 1745.5,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "macaroni_and_cheese_vegan",
+      "amount": {
+        "qty": 1745.5,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "When the macaroni is cooked, drain and add the sauce. Serve immediately.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.5"
+    },
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.39"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

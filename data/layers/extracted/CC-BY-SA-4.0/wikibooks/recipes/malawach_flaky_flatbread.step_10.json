@@ -1,0 +1,53 @@
+{
+  "id": "malawach_flaky_flatbread.step_10",
+  "source": "wikibooks_malawach_flaky_flatbread",
+  "sourceRef": {
+    "source": "wikibooks_malawach_flaky_flatbread",
+    "step": 10
+  },
+  "technique": "knead",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "malawach_flaky_flatbread_step_8",
+        "amount": {
+          "qty": 1920,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "malawach_flaky_flatbread_step_10",
+      "amount": {
+        "qty": 1920,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Use your hands to flatten out the dough coils on a greased surface.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.53"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

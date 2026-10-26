@@ -1,0 +1,58 @@
+{
+  "id": "crawfish_boil.step_4",
+  "source": "wikibooks_crawfish_boil",
+  "sourceRef": {
+    "source": "wikibooks_crawfish_boil",
+    "step": 4
+  },
+  "technique": "strain",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "crawfish_boil_step_3",
+        "amount": {
+          "qty": 2586.9,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "crawfish_boil",
+      "amount": {
+        "qty": 2586.9,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Drain through a colander and serve.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.45"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    },
+    {
+      "field": "inputs",
+      "kind": "missing",
+      "note": "no step uses 'Lemon zest' (p=0.53)"
+    }
+  ]
+}

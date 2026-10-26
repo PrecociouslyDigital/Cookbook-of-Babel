@@ -1,0 +1,48 @@
+{
+  "id": "bacon_and_egg_stuffed_tomatoes.step_7",
+  "source": "wikibooks_bacon_and_egg_stuffed_tomatoes",
+  "sourceRef": {
+    "source": "wikibooks_bacon_and_egg_stuffed_tomatoes",
+    "step": 7
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "bacon_and_egg_stuffed_tomatoes_step_6",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "bacon_and_egg_stuffed_tomatoes_step_7",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Fill tomato shell with bacon and egg mixture.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

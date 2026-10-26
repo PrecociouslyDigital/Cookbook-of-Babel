@@ -1,0 +1,48 @@
+{
+  "id": "lemon_blueberry_pancakes.step_7",
+  "source": "wikibooks_lemon_blueberry_pancakes",
+  "sourceRef": {
+    "source": "wikibooks_lemon_blueberry_pancakes",
+    "step": 7
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "lemon_blueberry_pancakes_step_6",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "lemon_blueberry_pancakes_step_7",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Return batter to measuring cup, stirring in a teaspoon or two of water if necessary, to make a thick, but pourable batter.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

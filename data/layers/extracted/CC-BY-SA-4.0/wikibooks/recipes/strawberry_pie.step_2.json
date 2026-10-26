@@ -1,0 +1,65 @@
+{
+  "id": "strawberry_pie.step_2",
+  "source": "wikibooks_strawberry_pie",
+  "sourceRef": {
+    "source": "wikibooks_strawberry_pie",
+    "step": 2
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "strawberry_pie_step_1",
+        "amount": {
+          "qty": 444.6,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "pie_crust",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "strawberry_pie_step_2",
+      "amount": {
+        "qty": 444.9,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Arrange the pie crust in a pie pan (unless the pie crust comes with a pan). Pour filling into the pie crust.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Pillsbury pie crust': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for pie_crust"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

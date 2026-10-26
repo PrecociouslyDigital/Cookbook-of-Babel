@@ -1,0 +1,53 @@
+{
+  "id": "mock_bearnaise_sauce.step_6",
+  "source": "wikibooks_mock_bearnaise_sauce",
+  "sourceRef": {
+    "source": "wikibooks_mock_bearnaise_sauce",
+    "step": 6
+  },
+  "technique": "heat",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "mock_bearnaise_sauce_step_5",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "mock_bearnaise_sauce",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 180,
+    "medium": "oven_air"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 6,
+      "unit": "s"
+    }
+  },
+  "stateNote": "Test the temperature; if it is not warm enough, heat it for 6 seconds at a time in the microwave, stirring each time. Do not overheat or it might separate; it should be warm not hot.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.4"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 180.0 °C for oven_air"
+    }
+  ]
+}

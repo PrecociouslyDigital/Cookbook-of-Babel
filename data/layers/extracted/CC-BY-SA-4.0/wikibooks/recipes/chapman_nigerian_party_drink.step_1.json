@@ -1,0 +1,60 @@
+{
+  "id": "chapman_nigerian_party_drink.step_1",
+  "source": "wikibooks_chapman_nigerian_party_drink",
+  "sourceRef": {
+    "source": "wikibooks_chapman_nigerian_party_drink",
+    "step": 1
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "boom_blackcurrant_beverage",
+        "amount": {
+          "qty": 2,
+          "unit": "bottle"
+        }
+      },
+      {
+        "ingredient": "water",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "chapman_nigerian_party_drink_step_1",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Pour the blackcurrant beverage into the bowl. While stirring, dilute with water until it reaches your desired flavor.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Water': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "enchiladas_rojas.step_16",
+  "source": "wikibooks_enchiladas_rojas",
+  "sourceRef": {
+    "source": "wikibooks_enchiladas_rojas",
+    "step": 16
+  },
+  "technique": "bake",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "enchiladas_rojas_step_15",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "enchiladas_rojas",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 200,
+    "medium": "oven_air"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 15,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Bake for about 15 minutes or until the cheese has melted and the top has browned lightly.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of bake's typical range"
+    }
+  ]
+}

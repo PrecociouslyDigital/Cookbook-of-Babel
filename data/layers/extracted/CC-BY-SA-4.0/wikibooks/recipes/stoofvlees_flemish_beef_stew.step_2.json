@@ -1,0 +1,55 @@
+{
+  "id": "stoofvlees_flemish_beef_stew.step_2",
+  "source": "wikibooks_stoofvlees_flemish_beef_stew",
+  "sourceRef": {
+    "source": "wikibooks_stoofvlees_flemish_beef_stew",
+    "step": 2
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "stoofvlees_flemish_beef_stew_step_1",
+        "amount": {
+          "qty": 0.8,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "beef",
+        "amount": {
+          "qty": 500,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "stoofvlees_flemish_beef_stew_step_2",
+      "amount": {
+        "qty": 500.8,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Dice the meat into 2 cm cubes. Mix the meat with the flour until it's lightly coated.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

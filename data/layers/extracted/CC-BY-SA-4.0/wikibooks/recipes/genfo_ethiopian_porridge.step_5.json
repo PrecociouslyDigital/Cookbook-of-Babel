@@ -1,0 +1,58 @@
+{
+  "id": "genfo_ethiopian_porridge.step_5",
+  "source": "wikibooks_genfo_ethiopian_porridge",
+  "sourceRef": {
+    "source": "wikibooks_genfo_ethiopian_porridge",
+    "step": 5
+  },
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "genfo_ethiopian_porridge_step_4",
+        "amount": {
+          "qty": 740.9,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "genfo_ethiopian_porridge_step_5",
+      "amount": {
+        "qty": 740.9,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 180,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Taste and adjust the salt if needed.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.42"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 180.0 °C for pan_contact"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

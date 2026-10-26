@@ -1,0 +1,60 @@
+{
+  "id": "jam_roly_poly.step_4",
+  "source": "wikibooks_jam_roly_poly",
+  "sourceRef": {
+    "source": "wikibooks_jam_roly_poly",
+    "step": 4
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "jam_roly_poly_step_3",
+        "amount": {
+          "qty": 480.4,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "fruit_preserves",
+        "amount": {
+          "qty": 4,
+          "unit": "tbsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "jam_roly_poly_step_4",
+      "amount": {
+        "qty": 539.6,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Brush the pastry with the warmed jam, leaving a 1 cm (½ inch) border all around.",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for fruit_preserves"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

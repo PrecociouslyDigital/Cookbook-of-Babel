@@ -1,0 +1,53 @@
+{
+  "id": "rice_and_turnip_minestrone.step_4",
+  "source": "wikibooks_rice_and_turnip_minestrone",
+  "sourceRef": {
+    "source": "wikibooks_rice_and_turnip_minestrone",
+    "step": 4
+  },
+  "technique": "boil",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "rice_and_turnip_minestrone_step_3",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "rice_and_turnip_minestrone",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 100,
+    "medium": "boiling_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 30,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Boil for 30 minutes. Serve hot.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of boil's typical range"
+    },
+    {
+      "field": "inputs",
+      "kind": "missing",
+      "note": "no step uses '⅓ cup white rice, washed' (p=0.84)"
+    }
+  ]
+}

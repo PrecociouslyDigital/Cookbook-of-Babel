@@ -1,0 +1,53 @@
+{
+  "id": "a_nice_cup_of_tea.step_5",
+  "source": "wikibooks_a_nice_cup_of_tea",
+  "sourceRef": {
+    "source": "wikibooks_a_nice_cup_of_tea",
+    "step": 5
+  },
+  "technique": "strain",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "a_nice_cup_of_tea_step_4",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "a_nice_cup_of_tea_step_5",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 100,
+    "medium": "boiling_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Allow the tea to infuse quietly (i.e. do not stir the teapot or \"dunk the teabag\"). Agitating the tea releases more of the bitter compounds and degrades the taste. Watch the time to avoid over-infusion, and remove the infuser or tea bag when the time is up.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 100.0 °C for boiling_water"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

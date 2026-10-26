@@ -1,0 +1,55 @@
+{
+  "id": "double_chocolate_cheesecake.step_4",
+  "source": "wikibooks_double_chocolate_cheesecake",
+  "sourceRef": {
+    "source": "wikibooks_double_chocolate_cheesecake",
+    "step": 4
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "double_chocolate_cheesecake_step_3",
+        "amount": {
+          "qty": 1471,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "egg",
+        "amount": {
+          "qty": 4,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "double_chocolate_cheesecake_step_4",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Add eggs all at once. Beat with electric mixer on low speed until just mixed. Do not overbeat.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

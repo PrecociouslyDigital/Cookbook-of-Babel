@@ -1,0 +1,125 @@
+{
+  "id": "cola_ii.step_2",
+  "source": "wikibooks_cola_ii",
+  "sourceRef": {
+    "source": "wikibooks_cola_ii",
+    "step": 2
+  },
+  "technique": "dissolve",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "cola_ii_step_1",
+        "amount": {
+          "qty": 57.8,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "water",
+        "amount": {
+          "qty": 0.6666666666666666,
+          "unit": "cup"
+        }
+      },
+      {
+        "min": 0,
+        "max": 1,
+        "of": [
+          {
+            "ingredient": "caffeine",
+            "amount": {
+              "qty": 25,
+              "unit": "mg"
+            }
+          }
+        ]
+      },
+      {
+        "ingredient": "caramel",
+        "amount": {
+          "qty": 3,
+          "unit": "drop"
+        }
+      },
+      {
+        "ingredient": "tea_extract",
+        "amount": {
+          "qty": 4,
+          "unit": "drop"
+        }
+      },
+      {
+        "ingredient": "vanilla",
+        "amount": {
+          "qty": 2,
+          "unit": "drop"
+        }
+      },
+      {
+        "ingredient": "lime",
+        "amount": {
+          "qty": 1.5,
+          "unit": "tsp"
+        }
+      },
+      {
+        "ingredient": "citric_acid",
+        "amount": {
+          "qty": 0.25,
+          "unit": "tsp"
+        }
+      },
+      {
+        "ingredient": "white_sugar",
+        "amount": {
+          "qty": 10,
+          "unit": "fl_oz"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "cola_ii_step_2",
+      "amount": {
+        "qty": 476,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 100,
+    "medium": "boiling_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Combine the hot water, caffeine, caramel coloring, green tea extract, vanilla extract, lime juice, citric acid, sugar, and ¼ tsp (1.25 ml) of the oil mixture in a heat-safe container. Stir well to dissolve and make a syrup.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.56"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for caramel, tea_extract, vanilla, lime, citric_acid"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 100.0 °C for boiling_water"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

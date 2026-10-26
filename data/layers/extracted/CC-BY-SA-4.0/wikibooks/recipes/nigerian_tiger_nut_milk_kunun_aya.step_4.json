@@ -1,0 +1,48 @@
+{
+  "id": "nigerian_tiger_nut_milk_kunun_aya.step_4",
+  "source": "wikibooks_nigerian_tiger_nut_milk_kunun_aya",
+  "sourceRef": {
+    "source": "wikibooks_nigerian_tiger_nut_milk_kunun_aya",
+    "step": 4
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "nigerian_tiger_nut_milk_kunun_aya_step_3",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "nigerian_tiger_nut_milk_kunun_aya_step_4",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Dilute the extracted milk with the remaining water to the desired consistency.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

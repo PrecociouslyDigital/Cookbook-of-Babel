@@ -1,0 +1,48 @@
+{
+  "id": "gurudi_nigerian_coconut_biscuit.step_5",
+  "source": "wikibooks_gurudi_nigerian_coconut_biscuit",
+  "sourceRef": {
+    "source": "wikibooks_gurudi_nigerian_coconut_biscuit",
+    "step": 5
+  },
+  "technique": "cool",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "gurudi_nigerian_coconut_biscuit_step_4",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "gurudi_nigerian_coconut_biscuit",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Remove the biscuits from the oven, and let cool.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

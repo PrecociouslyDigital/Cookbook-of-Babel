@@ -1,0 +1,48 @@
+{
+  "id": "seitan_burger.step_5",
+  "source": "wikibooks_seitan_burger",
+  "sourceRef": {
+    "source": "wikibooks_seitan_burger",
+    "step": 5
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "seitan_burger_step_4",
+        "amount": {
+          "qty": 533.7,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "seitan_burger_step_5",
+      "amount": {
+        "qty": 533.7,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Shape the seitan dough into patties.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

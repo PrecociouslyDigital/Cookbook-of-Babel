@@ -1,0 +1,58 @@
+{
+  "id": "semolina_burger.step_7",
+  "source": "wikibooks_semolina_burger",
+  "sourceRef": {
+    "source": "wikibooks_semolina_burger",
+    "step": 7
+  },
+  "technique": "pan_fry",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "semolina_burger_step_6",
+        "amount": {
+          "qty": 3.4,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "semolina_burger",
+      "amount": {
+        "qty": 3.4,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 185,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Fry the patties in a hot, oiled pan, flattening them with a spatula to sear well. If you use too much oil the patties will be soaked in fat; if you use too little the breading mix will not be fried. It's probably best to add a little bit of oil and then shuffle the patties around in the pan. The patties very quickly become robust enough so you can easily pick them up and turn them with a spatula to see if the other side had enough oil.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.52"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of pan_fry's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

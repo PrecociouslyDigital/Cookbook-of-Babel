@@ -1,0 +1,58 @@
+{
+  "id": "alabama_white_sauce.step_2",
+  "source": "wikibooks_alabama_white_sauce",
+  "sourceRef": {
+    "source": "wikibooks_alabama_white_sauce",
+    "step": 2
+  },
+  "technique": "grill",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "alabama_white_sauce_step_1",
+        "amount": {
+          "qty": 1779.4,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "alabama_white_sauce",
+      "amount": {
+        "qty": 1779.4,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 250,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Use when grilling chicken or other poultry or meat; brush lightly over the chicken (or meat) during the last few minutes of grilling. This sauce is also great for dipping; set some sauce aside for passing at the table.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.58"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of grill's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

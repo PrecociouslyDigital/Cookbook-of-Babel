@@ -1,0 +1,91 @@
+{
+  "id": "luwombo_ugandan_steamed_meat_and_vegetables.step_4",
+  "source": "wikibooks_luwombo_ugandan_steamed_meat_and_vegetables",
+  "sourceRef": {
+    "source": "wikibooks_luwombo_ugandan_steamed_meat_and_vegetables",
+    "step": 4
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "luwombo_ugandan_steamed_meat_and_vegetables_step_3",
+        "amount": {
+          "qty": 824,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "sweet_potato",
+        "amount": {
+          "qty": 1,
+          "unit": "cup"
+        }
+      },
+      {
+        "ingredient": "cassava",
+        "amount": {
+          "qty": 1,
+          "unit": "cup"
+        }
+      },
+      {
+        "ingredient": "banana",
+        "amount": {
+          "qty": 1,
+          "unit": "cup"
+        }
+      },
+      {
+        "ingredient": "eggplant",
+        "amount": {
+          "qty": 1,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "luwombo_ugandan_steamed_meat_and_vegetables_step_4",
+      "amount": {
+        "qty": 1770.4,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 180,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Add the diced sweet potatoes, cassava, green bananas, and eggplant to the pot.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.57"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for sweet_potato, cassava, banana, eggplant"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 180.0 °C for pan_contact"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

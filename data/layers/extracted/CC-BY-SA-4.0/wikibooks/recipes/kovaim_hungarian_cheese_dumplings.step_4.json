@@ -1,0 +1,48 @@
+{
+  "id": "kovaim_hungarian_cheese_dumplings.step_4",
+  "source": "wikibooks_kovaim_hungarian_cheese_dumplings",
+  "sourceRef": {
+    "source": "wikibooks_kovaim_hungarian_cheese_dumplings",
+    "step": 4
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "kovaim_hungarian_cheese_dumplings_step_3",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "kovaim_hungarian_cheese_dumplings_step_4",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Roll the dough out into a sheet as thin as possible (about 3 mm thick). Cut into squares, and fill each square with some filling. Fold the dough over the filling diagonally to make a triangular dumpling.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

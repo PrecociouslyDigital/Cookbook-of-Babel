@@ -1,0 +1,55 @@
+{
+  "id": "crawfish_boil.step_2",
+  "source": "wikibooks_crawfish_boil",
+  "sourceRef": {
+    "source": "wikibooks_crawfish_boil",
+    "step": 2
+  },
+  "technique": "boil",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "crawfish_boil_step_1",
+        "amount": {
+          "qty": 2133.3,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "crawfish",
+        "amount": {
+          "qty": 1,
+          "unit": "lb"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "crawfish_boil_step_2",
+      "amount": {
+        "qty": 2586.9,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 100,
+    "medium": "boiling_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 7,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Add crawfish, making sure to leave any dead ones behind. Cook for 7 minutes.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of boil's typical range"
+    }
+  ]
+}

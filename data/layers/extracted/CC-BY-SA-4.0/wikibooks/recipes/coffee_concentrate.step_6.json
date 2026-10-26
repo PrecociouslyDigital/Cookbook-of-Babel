@@ -1,0 +1,48 @@
+{
+  "id": "coffee_concentrate.step_6",
+  "source": "wikibooks_coffee_concentrate",
+  "sourceRef": {
+    "source": "wikibooks_coffee_concentrate",
+    "step": 6
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "coffee_concentrate_step_5",
+        "amount": {
+          "qty": 3765.8,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "coffee_concentrate",
+      "amount": {
+        "qty": 3765.8,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "To prepare coffee from concentrate, use a ratio of concentrate:water of 1:2 or 1:3 depending on taste.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

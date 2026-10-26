@@ -1,0 +1,53 @@
+{
+  "id": "grenadine.step_2",
+  "source": "wikibooks_grenadine",
+  "sourceRef": {
+    "source": "wikibooks_grenadine",
+    "step": 2
+  },
+  "technique": "boil",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "grenadine_step_1",
+        "amount": {
+          "qty": 218.9,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "grenadine_step_2",
+      "amount": {
+        "qty": 218.9,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 100,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Boil the juice and sugar, stirring constantly, until it becomes a thick and viscous syrup resembling dark honey.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of boil's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "creme_anglaise.step_7",
+  "source": "wikibooks_creme_anglaise",
+  "sourceRef": {
+    "source": "wikibooks_creme_anglaise",
+    "step": 7
+  },
+  "technique": "cool",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "creme_anglaise_step_6",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "creme_anglaise",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "To complete cooling quickly, place the bowl in a larger bowl of ice and stir the crème until cool. If you have more time, you can place the bowl in the freezer, stirring periodically until it's cool. If you don't use one of these methods, a skin will form on top of the creme.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

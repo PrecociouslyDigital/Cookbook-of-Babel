@@ -1,0 +1,62 @@
+{
+  "id": "paksiw_na_bangus_milkfish_stewed_in_vinegar.step_3",
+  "source": "wikibooks_paksiw_na_bangus_milkfish_stewed_in_vinegar",
+  "sourceRef": {
+    "source": "wikibooks_paksiw_na_bangus_milkfish_stewed_in_vinegar",
+    "step": 3
+  },
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "paksiw_na_bangus_milkfish_stewed_in_vinegar_step_2",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "salt",
+        "amount": {
+          "qty": 1,
+          "unit": "tbsp"
+        }
+      },
+      {
+        "ingredient": "pepper",
+        "amount": {
+          "qty": 1,
+          "unit": "tsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "paksiw_na_bangus_milkfish_stewed_in_vinegar_step_3",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Arrange the sliced milkfish on top of the veggies. Sprinkle with salt and peppercorns.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

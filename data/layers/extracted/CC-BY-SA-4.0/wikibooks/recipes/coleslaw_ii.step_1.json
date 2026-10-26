@@ -1,0 +1,62 @@
+{
+  "id": "coleslaw_ii.step_1",
+  "source": "wikibooks_coleslaw_ii",
+  "sourceRef": {
+    "source": "wikibooks_coleslaw_ii",
+    "step": 1
+  },
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "cabbage",
+        "amount": {
+          "qty": 0.25,
+          "unit": "head"
+        }
+      },
+      {
+        "ingredient": "cabbage",
+        "amount": {
+          "qty": 0.25,
+          "unit": "head"
+        }
+      },
+      {
+        "ingredient": "salt",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "coleslaw_ii_step_1",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 2,
+      "unit": "h"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Toss cabbage with a few big handfuls of kosher salt. Place in a colander in a bowl and let sit at room temperature 2 hours.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Salt': no quantity given; assumed a pinch"
+    }
+  ]
+}

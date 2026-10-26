@@ -1,0 +1,48 @@
+{
+  "id": "vitello_tonnato_veal_with_tuna_sauce.step_6",
+  "source": "wikibooks_vitello_tonnato_veal_with_tuna_sauce",
+  "sourceRef": {
+    "source": "wikibooks_vitello_tonnato_veal_with_tuna_sauce",
+    "step": 6
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "vitello_tonnato_veal_with_tuna_sauce_step_5",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "vitello_tonnato_veal_with_tuna_sauce_step_6",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Take the sauce and pour it over the veal so that the veal becomes completely covered in the sauce. Not too thick, not too thin.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

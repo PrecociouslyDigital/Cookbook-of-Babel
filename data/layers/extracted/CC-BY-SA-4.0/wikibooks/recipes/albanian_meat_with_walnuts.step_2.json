@@ -1,0 +1,48 @@
+{
+  "id": "albanian_meat_with_walnuts.step_2",
+  "source": "wikibooks_albanian_meat_with_walnuts",
+  "sourceRef": {
+    "source": "wikibooks_albanian_meat_with_walnuts",
+    "step": 2
+  },
+  "technique": "separate",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "albanian_meat_with_walnuts_step_1",
+        "amount": {
+          "qty": 1134,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "albanian_meat_with_walnuts_step_2",
+      "amount": {
+        "qty": 1134,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Remove the meat, and set it aside in a dish while leaving the remaining juices in the saucepan.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

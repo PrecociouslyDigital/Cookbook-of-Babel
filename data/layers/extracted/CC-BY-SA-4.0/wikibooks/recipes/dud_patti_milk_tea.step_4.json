@@ -1,0 +1,58 @@
+{
+  "id": "dud_patti_milk_tea.step_4",
+  "source": "wikibooks_dud_patti_milk_tea",
+  "sourceRef": {
+    "source": "wikibooks_dud_patti_milk_tea",
+    "step": 4
+  },
+  "technique": "strain",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "dud_patti_milk_tea_step_3",
+        "amount": {
+          "qty": 619.1,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "dud_patti_milk_tea_step_4",
+      "amount": {
+        "qty": 619.1,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 100,
+    "medium": "boiling_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Take it off the heat when it boils over and pour it into a cup through a strainer.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.31"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 100.0 °C for boiling_water"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

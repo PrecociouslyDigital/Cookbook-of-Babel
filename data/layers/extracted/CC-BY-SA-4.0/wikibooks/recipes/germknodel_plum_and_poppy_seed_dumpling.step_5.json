@@ -1,0 +1,53 @@
+{
+  "id": "germknodel_plum_and_poppy_seed_dumpling.step_5",
+  "source": "wikibooks_germknodel_plum_and_poppy_seed_dumpling",
+  "sourceRef": {
+    "source": "wikibooks_germknodel_plum_and_poppy_seed_dumpling",
+    "step": 5
+  },
+  "technique": "separate",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "germknodel_plum_and_poppy_seed_dumpling_step_4",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "germknodel_plum_and_poppy_seed_dumpling_step_5",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Divide the dough into 8 pieces. Pat them flat and round on a board until they are about 4 inches in diameter.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.55"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

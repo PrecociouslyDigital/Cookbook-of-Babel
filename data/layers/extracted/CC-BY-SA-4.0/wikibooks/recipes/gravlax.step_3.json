@@ -1,0 +1,88 @@
+{
+  "id": "gravlax.step_3",
+  "source": "wikibooks_gravlax",
+  "sourceRef": {
+    "source": "wikibooks_gravlax",
+    "step": 3
+  },
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "gravlax_step_2",
+        "amount": {
+          "qty": 800,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "salt",
+        "amount": {
+          "qty": 30,
+          "unit": "ml"
+        }
+      },
+      {
+        "ingredient": "white_sugar",
+        "amount": {
+          "qty": 30,
+          "unit": "ml"
+        }
+      },
+      {
+        "ingredient": "juniper_berry",
+        "amount": {
+          "qty": 45,
+          "unit": "ml"
+        }
+      },
+      {
+        "ingredient": "pepper",
+        "amount": {
+          "qty": 5,
+          "unit": "ml"
+        }
+      },
+      {
+        "ingredient": "dill",
+        "amount": {
+          "qty": 30,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "gravlax_step_3",
+      "amount": {
+        "qty": 941.5,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Combine the salt and sugar. Place the salmon, skin down, on a table. Rub the salt and sugar mix onto the pieces, then apply the juniper berries and pepper. Finally, cover with dill.",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for juniper_berry, pepper"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

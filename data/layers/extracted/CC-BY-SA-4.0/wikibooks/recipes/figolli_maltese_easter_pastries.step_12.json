@@ -1,0 +1,48 @@
+{
+  "id": "figolli_maltese_easter_pastries.step_12",
+  "source": "wikibooks_figolli_maltese_easter_pastries",
+  "sourceRef": {
+    "source": "wikibooks_figolli_maltese_easter_pastries",
+    "step": 12
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "figolli_maltese_easter_pastries_step_11",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "figolli_maltese_easter_pastries_step_12",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Place the second identical shape on top of the first, making sure to align both shapes properly.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

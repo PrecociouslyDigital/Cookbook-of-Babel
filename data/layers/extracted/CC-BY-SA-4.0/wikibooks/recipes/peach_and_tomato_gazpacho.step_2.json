@@ -1,0 +1,48 @@
+{
+  "id": "peach_and_tomato_gazpacho.step_2",
+  "source": "wikibooks_peach_and_tomato_gazpacho",
+  "sourceRef": {
+    "source": "wikibooks_peach_and_tomato_gazpacho",
+    "step": 2
+  },
+  "technique": "blend",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "peach_and_tomato_gazpacho_step_1",
+        "amount": {
+          "qty": 946.4,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "peach_and_tomato_gazpacho_step_2",
+      "amount": {
+        "qty": 946.4,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Run the blender on high speed to purée the tomatoes.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

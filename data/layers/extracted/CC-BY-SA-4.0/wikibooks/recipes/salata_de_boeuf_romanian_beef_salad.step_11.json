@@ -1,0 +1,48 @@
+{
+  "id": "salata_de_boeuf_romanian_beef_salad.step_11",
+  "source": "wikibooks_salata_de_boeuf_romanian_beef_salad",
+  "sourceRef": {
+    "source": "wikibooks_salata_de_boeuf_romanian_beef_salad",
+    "step": 11
+  },
+  "technique": "separate",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "salata_de_boeuf_romanian_beef_salad_step_10",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "salata_de_boeuf_romanian_beef_salad_step_11",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Reserve a small quantity of mayonnaise for garnish.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

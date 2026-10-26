@@ -1,0 +1,55 @@
+{
+  "id": "roasted_spiced_chicken_drumsticks.step_3",
+  "source": "wikibooks_roasted_spiced_chicken_drumsticks",
+  "sourceRef": {
+    "source": "wikibooks_roasted_spiced_chicken_drumsticks",
+    "step": 3
+  },
+  "technique": "evaporate",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "roasted_spiced_chicken_drumsticks_step_1",
+        "amount": {
+          "qty": 20.7,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "chicken",
+        "amount": {
+          "qty": 6,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "roasted_spiced_chicken_drumsticks_step_3",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Pat the chicken dry with paper towels.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "kek_batik_malaysian_tiffin.step_6",
+  "source": "wikibooks_kek_batik_malaysian_tiffin",
+  "sourceRef": {
+    "source": "wikibooks_kek_batik_malaysian_tiffin",
+    "step": 6
+  },
+  "technique": "cool",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "kek_batik_malaysian_tiffin_step_5",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "kek_batik_malaysian_tiffin",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Let cool completely, then unmold and cut into slices.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

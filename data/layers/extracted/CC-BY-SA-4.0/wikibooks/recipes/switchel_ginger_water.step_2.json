@@ -1,0 +1,67 @@
+{
+  "id": "switchel_ginger_water.step_2",
+  "source": "wikibooks_switchel_ginger_water",
+  "sourceRef": {
+    "source": "wikibooks_switchel_ginger_water",
+    "step": 2
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "switchel_ginger_water_step_1",
+        "amount": {
+          "qty": 5130,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "cider_vinegar",
+        "amount": {
+          "qty": 1,
+          "unit": "cup"
+        }
+      },
+      {
+        "ingredient": "homemade_cider_vinegar",
+        "amount": {
+          "qty": 0.6666666666666666,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "switchel_ginger_water_step_2",
+      "amount": {
+        "qty": 5524.3,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Stir in the apple cider vinegar",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for cider_vinegar, homemade_cider_vinegar"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

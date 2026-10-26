@@ -1,0 +1,70 @@
+{
+  "id": "habet_hlawa_algerian_anise_beverage.step_1",
+  "source": "wikibooks_habet_hlawa_algerian_anise_beverage",
+  "sourceRef": {
+    "source": "wikibooks_habet_hlawa_algerian_anise_beverage",
+    "step": 1
+  },
+  "technique": "boil",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "anise",
+        "amount": {
+          "qty": 1,
+          "unit": "cup"
+        }
+      },
+      {
+        "ingredient": "water",
+        "amount": {
+          "qty": 12,
+          "unit": "dl"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "habet_hlawa_algerian_anise_beverage_step_1",
+      "amount": {
+        "qty": 1436.6,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 100,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Pour water into a saucepan, add anise seeds, and bring to a boil over medium heat.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.55"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for anise"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of boil's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

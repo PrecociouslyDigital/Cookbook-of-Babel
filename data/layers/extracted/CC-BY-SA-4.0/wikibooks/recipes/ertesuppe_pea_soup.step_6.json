@@ -1,0 +1,48 @@
+{
+  "id": "ertesuppe_pea_soup.step_6",
+  "source": "wikibooks_ertesuppe_pea_soup",
+  "sourceRef": {
+    "source": "wikibooks_ertesuppe_pea_soup",
+    "step": 6
+  },
+  "technique": "simmer",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "ertesuppe_pea_soup_step_5",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "ertesuppe_pea_soup",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 90,
+    "medium": "simmering_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 5,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Cook for at least 5 minutes together, adding water from the meat if the stock is too thick. Cook longer if it is too thin.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of simmer's typical range"
+    }
+  ]
+}

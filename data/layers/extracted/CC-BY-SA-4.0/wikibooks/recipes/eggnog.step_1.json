@@ -1,0 +1,41 @@
+{
+  "id": "eggnog.step_1",
+  "source": "wikibooks_eggnog",
+  "sourceRef": {
+    "source": "wikibooks_eggnog",
+    "step": 1
+  },
+  "technique": "whisk",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "egg",
+        "amount": {
+          "qty": 6,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "eggnog_step_1",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 2.5,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Whip the eggs for 2 or 3 minutes with an electric mixer at medium speed until very frothy."
+}

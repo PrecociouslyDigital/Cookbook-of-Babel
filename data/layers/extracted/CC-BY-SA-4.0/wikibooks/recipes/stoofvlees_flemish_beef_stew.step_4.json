@@ -1,0 +1,79 @@
+{
+  "id": "stoofvlees_flemish_beef_stew.step_4",
+  "source": "wikibooks_stoofvlees_flemish_beef_stew",
+  "sourceRef": {
+    "source": "wikibooks_stoofvlees_flemish_beef_stew",
+    "step": 4
+  },
+  "technique": "fry",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "stoofvlees_flemish_beef_stew_step_3",
+        "amount": {
+          "qty": 501.1,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "onion",
+        "amount": {
+          "qty": 2,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "beer",
+        "amount": {
+          "qty": 1,
+          "unit": "bottle"
+        }
+      },
+      {
+        "ingredient": "cherry_beer",
+        "amount": {
+          "qty": 1,
+          "unit": "bottle"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "stoofvlees_flemish_beef_stew_step_4",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 190,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Fry the onion in a pot with butter. When it changes colour, add the meat and pour in the beers.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.54"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of fry's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

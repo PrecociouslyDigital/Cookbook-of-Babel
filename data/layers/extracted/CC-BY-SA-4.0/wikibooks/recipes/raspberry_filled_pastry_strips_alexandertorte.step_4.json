@@ -1,0 +1,53 @@
+{
+  "id": "raspberry_filled_pastry_strips_alexandertorte.step_4",
+  "source": "wikibooks_raspberry_filled_pastry_strips_alexandertorte",
+  "sourceRef": {
+    "source": "wikibooks_raspberry_filled_pastry_strips_alexandertorte",
+    "step": 4
+  },
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "raspberry_filled_pastry_strips_alexandertorte_step_2",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "raspberry_filled_pastry_strips_alexandertorte_step_4",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Cut the chilled pastry in half and shape each half into a rectangle. One half at a time, roll the pastry between two sheets of lightly floured wax paper into a rectangle approximately 10 inches wide and 15 inches long.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.49"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

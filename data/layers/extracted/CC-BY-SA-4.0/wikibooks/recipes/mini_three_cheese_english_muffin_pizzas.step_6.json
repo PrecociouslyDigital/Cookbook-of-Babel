@@ -1,0 +1,67 @@
+{
+  "id": "mini_three_cheese_english_muffin_pizzas.step_6",
+  "source": "wikibooks_mini_three_cheese_english_muffin_pizzas",
+  "sourceRef": {
+    "source": "wikibooks_mini_three_cheese_english_muffin_pizzas",
+    "step": 6
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "mini_three_cheese_english_muffin_pizzas_step_5",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "basic_pizza_sauce",
+        "amount": {
+          "qty": 10.5,
+          "unit": "oz"
+        }
+      },
+      {
+        "ingredient": "mozzarella_cheese",
+        "amount": {
+          "qty": 4,
+          "unit": "oz"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "mini_three_cheese_english_muffin_pizzas_step_6",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Top each with about 2 tablespoons of pizza sauce, and sprinkle with 1 tablespoon of mozzarella cheese.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.5"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

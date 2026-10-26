@@ -1,0 +1,53 @@
+{
+  "id": "tuna_rice_casserole.step_5",
+  "source": "wikibooks_tuna_rice_casserole",
+  "sourceRef": {
+    "source": "wikibooks_tuna_rice_casserole",
+    "step": 5
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "tuna_rice_casserole_step_4",
+        "amount": {
+          "qty": 1787.1,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "tuna_rice_casserole_step_5",
+      "amount": {
+        "qty": 1787.1,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Place combined mixture in greased casserole dish.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.5"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

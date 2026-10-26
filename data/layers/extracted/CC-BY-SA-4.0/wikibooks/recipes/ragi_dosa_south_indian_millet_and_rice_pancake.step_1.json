@@ -1,0 +1,67 @@
+{
+  "id": "ragi_dosa_south_indian_millet_and_rice_pancake.step_1",
+  "source": "wikibooks_ragi_dosa_south_indian_millet_and_rice_pancake",
+  "sourceRef": {
+    "source": "wikibooks_ragi_dosa_south_indian_millet_and_rice_pancake",
+    "step": 1
+  },
+  "technique": "dissolve",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "millet",
+        "amount": {
+          "qty": 2,
+          "unit": "cup"
+        }
+      },
+      {
+        "ingredient": "rice",
+        "amount": {
+          "qty": 2,
+          "unit": "cup"
+        }
+      },
+      {
+        "ingredient": "urad_bean",
+        "amount": {
+          "qty": 1,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "ragi_dosa_south_indian_millet_and_rice_pancake_step_1",
+      "amount": {
+        "qty": 1183,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 5,
+      "unit": "h"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Soak ragi, rice and urad dal separately in water for 5 hours.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.31"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for millet, rice, urad_bean"
+    }
+  ]
+}

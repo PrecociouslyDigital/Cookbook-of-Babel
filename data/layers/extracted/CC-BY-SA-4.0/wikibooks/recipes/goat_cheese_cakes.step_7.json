@@ -1,0 +1,53 @@
+{
+  "id": "goat_cheese_cakes.step_7",
+  "source": "wikibooks_goat_cheese_cakes",
+  "sourceRef": {
+    "source": "wikibooks_goat_cheese_cakes",
+    "step": 7
+  },
+  "technique": "separate",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "goat_cheese_cakes_step_6",
+        "amount": {
+          "qty": 661.4,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "goat_cheese_cakes_step_7",
+      "amount": {
+        "qty": 661.4,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "When cheese mixture is firm, divide it into 8 equal portions and form each portion into a cake about ¾-inch thick.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.55"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

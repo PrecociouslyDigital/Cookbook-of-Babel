@@ -1,0 +1,65 @@
+{
+  "id": "nutty_buddy_chocolate_cookie_bars.step_3",
+  "source": "wikibooks_nutty_buddy_chocolate_cookie_bars",
+  "sourceRef": {
+    "source": "wikibooks_nutty_buddy_chocolate_cookie_bars",
+    "step": 3
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "nutty_buddy_chocolate_cookie_bars_step_2",
+        "amount": {
+          "qty": 177.4,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "graham_cracker",
+        "amount": {
+          "qty": 3,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "nutty_buddy_chocolate_cookie_bars_step_3",
+      "amount": {
+        "qty": 887.2,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Place the graham-cracker crumbs in a metal 13-by-9-inch baking pan.",
+  "issues": [
+    {
+      "field": "sourceRef",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.56"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for graham_cracker"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

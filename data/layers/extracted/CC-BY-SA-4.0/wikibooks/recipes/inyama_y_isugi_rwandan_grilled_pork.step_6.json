@@ -1,0 +1,58 @@
+{
+  "id": "inyama_y_isugi_rwandan_grilled_pork.step_6",
+  "source": "wikibooks_inyama_y_isugi_rwandan_grilled_pork",
+  "sourceRef": {
+    "source": "wikibooks_inyama_y_isugi_rwandan_grilled_pork",
+    "step": 6
+  },
+  "technique": "cool",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "inyama_y_isugi_rwandan_grilled_pork_step_5",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "inyama_y_isugi_rwandan_grilled_pork_step_6",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 20,
+    "medium": "still_air"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Once cooked, remove the pork from the grill and let it rest for a few minutes before slicing.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.54"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 20.0 °C for still_air"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

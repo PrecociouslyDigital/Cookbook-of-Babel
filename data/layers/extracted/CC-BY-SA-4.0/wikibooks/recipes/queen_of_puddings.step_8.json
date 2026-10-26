@@ -1,0 +1,48 @@
+{
+  "id": "queen_of_puddings.step_8",
+  "source": "wikibooks_queen_of_puddings",
+  "sourceRef": {
+    "source": "wikibooks_queen_of_puddings",
+    "step": 8
+  },
+  "technique": "bake",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "queen_of_puddings_step_7",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "queen_of_puddings",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 200,
+    "medium": "oven_air"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 15,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Spread the meringue over the top of the pudding. Return to the oven and bake for 15 minutes until the meringue has browned.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of bake's typical range"
+    }
+  ]
+}

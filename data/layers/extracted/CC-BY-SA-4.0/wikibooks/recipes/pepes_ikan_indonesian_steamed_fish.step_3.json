@@ -1,0 +1,48 @@
+{
+  "id": "pepes_ikan_indonesian_steamed_fish.step_3",
+  "source": "wikibooks_pepes_ikan_indonesian_steamed_fish",
+  "sourceRef": {
+    "source": "wikibooks_pepes_ikan_indonesian_steamed_fish",
+    "step": 3
+  },
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "pepes_ikan_indonesian_steamed_fish_step_2",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "pepes_ikan_indonesian_steamed_fish_step_3",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Make three diagonal slashes on each side of the fish for spice paste flavor to immerse.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

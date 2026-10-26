@@ -1,0 +1,62 @@
+{
+  "id": "murgh_musallam_indian_stewed_spiced_chicken.step_5",
+  "source": "wikibooks_murgh_musallam_indian_stewed_spiced_chicken",
+  "sourceRef": {
+    "source": "wikibooks_murgh_musallam_indian_stewed_spiced_chicken",
+    "step": 5
+  },
+  "technique": "separate",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "murgh_musallam_indian_stewed_spiced_chicken_step_4",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "almond",
+        "amount": {
+          "qty": 8,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "cashew",
+        "amount": {
+          "qty": 10,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "murgh_musallam_indian_stewed_spiced_chicken_step_5",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 12.5,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Soak almonds and cashews in water for 10–15 minutes. Peel almonds.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.39"
+    }
+  ]
+}

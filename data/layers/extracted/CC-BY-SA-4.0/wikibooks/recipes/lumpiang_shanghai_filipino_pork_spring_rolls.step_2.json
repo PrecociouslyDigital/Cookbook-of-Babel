@@ -1,0 +1,55 @@
+{
+  "id": "lumpiang_shanghai_filipino_pork_spring_rolls.step_2",
+  "source": "wikibooks_lumpiang_shanghai_filipino_pork_spring_rolls",
+  "sourceRef": {
+    "source": "wikibooks_lumpiang_shanghai_filipino_pork_spring_rolls",
+    "step": 2
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "lumpiang_shanghai_filipino_pork_spring_rolls_step_1",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "egg",
+        "amount": {
+          "qty": 1,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "lumpiang_shanghai_filipino_pork_spring_rolls_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Add the egg, and mix well to combine.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

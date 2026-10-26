@@ -1,0 +1,58 @@
+{
+  "id": "banana_spirulina_pancakes.step_9",
+  "source": "wikibooks_banana_spirulina_pancakes",
+  "sourceRef": {
+    "source": "wikibooks_banana_spirulina_pancakes",
+    "step": 9
+  },
+  "technique": "heat",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "banana_spirulina_pancakes_step_8",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "banana_spirulina_pancakes",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 180,
+    "medium": "oven_air"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Remove the pancake, and put it in the toaster oven on warm while you cook the remaining batter (or find some way of keeping it warm).",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 180.0 °C for oven_air"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    },
+    {
+      "field": "inputs",
+      "kind": "missing",
+      "note": "no step uses 'Maple syrup' (p=1.0)"
+    }
+  ]
+}

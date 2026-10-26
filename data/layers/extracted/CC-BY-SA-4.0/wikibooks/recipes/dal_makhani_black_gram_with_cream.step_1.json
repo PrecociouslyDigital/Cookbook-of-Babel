@@ -1,0 +1,60 @@
+{
+  "id": "dal_makhani_black_gram_with_cream.step_1",
+  "source": "wikibooks_dal_makhani_black_gram_with_cream",
+  "sourceRef": {
+    "source": "wikibooks_dal_makhani_black_gram_with_cream",
+    "step": 1
+  },
+  "technique": "rinse",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "urad_bean",
+        "amount": {
+          "qty": 1,
+          "unit": "cup"
+        }
+      },
+      {
+        "ingredient": "common_bean",
+        "amount": {
+          "qty": 0.3333333333333333,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "dal_makhani_black_gram_with_cream_step_1",
+      "amount": {
+        "qty": 315.5,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 8,
+      "unit": "h"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Wash and soak black urad dal and red kidney beans overnight in an adequate amount of lukewarm water.",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for urad_bean, common_bean"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "'overnight' read as 8 hours"
+    }
+  ]
+}

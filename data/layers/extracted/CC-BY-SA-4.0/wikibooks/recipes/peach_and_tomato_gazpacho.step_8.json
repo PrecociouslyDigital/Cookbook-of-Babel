@@ -1,0 +1,60 @@
+{
+  "id": "peach_and_tomato_gazpacho.step_8",
+  "source": "wikibooks_peach_and_tomato_gazpacho",
+  "sourceRef": {
+    "source": "wikibooks_peach_and_tomato_gazpacho",
+    "step": 8
+  },
+  "technique": "blend",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "peach_and_tomato_gazpacho_step_7",
+        "amount": {
+          "qty": 1509.4,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "ice",
+        "amount": {
+          "qty": 0.25,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "peach_and_tomato_gazpacho_step_8",
+      "amount": {
+        "qty": 1568.6,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 30,
+      "unit": "s"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Add crushed ice into the blender and purée for 30 seconds on highest power.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.59"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for ice"
+    }
+  ]
+}

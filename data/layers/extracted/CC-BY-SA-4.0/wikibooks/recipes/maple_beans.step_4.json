@@ -1,0 +1,53 @@
+{
+  "id": "maple_beans.step_4",
+  "source": "wikibooks_maple_beans",
+  "sourceRef": {
+    "source": "wikibooks_maple_beans",
+    "step": 4
+  },
+  "technique": "strain",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "maple_beans_step_3",
+        "amount": {
+          "qty": 2625,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "maple_beans_step_4",
+      "amount": {
+        "qty": 2625,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Strain beans and water through a colander, collecting the liquids in a bowl for later use.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.53"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

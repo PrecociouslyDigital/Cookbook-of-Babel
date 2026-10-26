@@ -1,0 +1,65 @@
+{
+  "id": "atama_soup.step_4",
+  "source": "wikibooks_atama_soup",
+  "sourceRef": {
+    "source": "wikibooks_atama_soup",
+    "step": 4
+  },
+  "technique": "grind",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "atama_soup_step_3",
+        "amount": {
+          "qty": 238.2,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "atama",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "atama_soup_step_4",
+      "amount": {
+        "qty": 238.5,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Cut and finely grind the atama leaves.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Small bunch of atama leaves': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for atama"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

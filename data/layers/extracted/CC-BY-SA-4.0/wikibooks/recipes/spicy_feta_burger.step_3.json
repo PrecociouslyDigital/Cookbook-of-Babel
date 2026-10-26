@@ -1,0 +1,60 @@
+{
+  "id": "spicy_feta_burger.step_3",
+  "source": "wikibooks_spicy_feta_burger",
+  "sourceRef": {
+    "source": "wikibooks_spicy_feta_burger",
+    "step": 3
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "spicy_feta_burger_step_2",
+        "amount": {
+          "qty": 474.3,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "feta_cheese",
+        "amount": {
+          "qty": 0.5,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "spicy_feta_burger_step_3",
+      "amount": {
+        "qty": 592.6,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Top four with about 2 tbsp crumbled feta cheese, then cover with the other four.",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for feta_cheese"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

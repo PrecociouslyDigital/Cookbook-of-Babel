@@ -1,0 +1,48 @@
+{
+  "id": "fermented_soda.step_3",
+  "source": "wikibooks_fermented_soda",
+  "sourceRef": {
+    "source": "wikibooks_fermented_soda",
+    "step": 3
+  },
+  "technique": "ferment",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "fermented_soda_step_2",
+        "amount": {
+          "qty": 2209.1,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "fermented_soda_step_3",
+      "amount": {
+        "qty": 2209.1,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 3,
+      "unit": "d"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Put the container in a warm place, and allow it to ferment for 3 days.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.52"
+    }
+  ]
+}

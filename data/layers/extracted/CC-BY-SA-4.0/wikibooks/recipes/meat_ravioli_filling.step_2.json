@@ -1,0 +1,65 @@
+{
+  "id": "meat_ravioli_filling.step_2",
+  "source": "wikibooks_meat_ravioli_filling",
+  "sourceRef": {
+    "source": "wikibooks_meat_ravioli_filling",
+    "step": 2
+  },
+  "technique": "pan_fry",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "meat_ravioli_filling_step_1",
+        "amount": {
+          "qty": 103.5,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "veal",
+        "amount": {
+          "qty": 0.75,
+          "unit": "lb"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "meat_ravioli_filling_step_2",
+      "amount": {
+        "qty": 443.7,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 185,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Add the minced meat and cook, stirring constantly, until any trace of pink has gone and all liquid has evaporated.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.48"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of pan_fry's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "greek_moussaka.step_8",
+  "source": "wikibooks_greek_moussaka",
+  "sourceRef": {
+    "source": "wikibooks_greek_moussaka",
+    "step": 8
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "greek_moussaka_step_7",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "greek_moussaka_step_8",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "In a large casserole dish, lay slices of eggplant to cover the bottom. Cover with a layer of the meat sauce. Repeat layering eggplant and meat sauce until within 3 cm of the top of the dish.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

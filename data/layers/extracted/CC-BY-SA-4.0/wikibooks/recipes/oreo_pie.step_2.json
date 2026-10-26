@@ -1,0 +1,55 @@
+{
+  "id": "oreo_pie.step_2",
+  "source": "wikibooks_oreo_pie",
+  "sourceRef": {
+    "source": "wikibooks_oreo_pie",
+    "step": 2
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "oreo_pie_step_1",
+        "amount": {
+          "qty": 1892.7,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "imitation_whipped_cream",
+        "amount": {
+          "qty": 12,
+          "unit": "oz"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "oreo_pie_step_2",
+      "amount": {
+        "qty": 2232.9,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Mix the softened ice cream with the Cool Whip.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

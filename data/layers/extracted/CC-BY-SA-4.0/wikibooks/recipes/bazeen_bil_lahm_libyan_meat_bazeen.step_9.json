@@ -1,0 +1,53 @@
+{
+  "id": "bazeen_bil_lahm_libyan_meat_bazeen.step_9",
+  "source": "wikibooks_bazeen_bil_lahm_libyan_meat_bazeen",
+  "sourceRef": {
+    "source": "wikibooks_bazeen_bil_lahm_libyan_meat_bazeen",
+    "step": 9
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "bazeen_bil_lahm_libyan_meat_bazeen_step_8",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "bazeen_bil_lahm_libyan_meat_bazeen_step_9",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Once the stew is ready, shape the dough into small balls and place them in the serving bowls.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.48"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

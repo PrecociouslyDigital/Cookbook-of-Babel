@@ -1,0 +1,62 @@
+{
+  "id": "klepon_indonesian_sweet_boiled_rice_cake.step_2",
+  "source": "wikibooks_klepon_indonesian_sweet_boiled_rice_cake",
+  "sourceRef": {
+    "source": "wikibooks_klepon_indonesian_sweet_boiled_rice_cake",
+    "step": 2
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "klepon_indonesian_sweet_boiled_rice_cake_step_1",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "rice_flour",
+        "amount": {
+          "qty": 300,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "sago",
+        "amount": {
+          "qty": 30,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "klepon_indonesian_sweet_boiled_rice_cake_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Combine the glutinous rice flour and sago flour until well-mixed. Stir in the pandan paste, then gradually mix in water until it forms a soft green dough.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

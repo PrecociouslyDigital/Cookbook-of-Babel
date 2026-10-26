@@ -1,0 +1,60 @@
+{
+  "id": "homemade_coffee_liqueur.step_2",
+  "source": "wikibooks_homemade_coffee_liqueur",
+  "sourceRef": {
+    "source": "wikibooks_homemade_coffee_liqueur",
+    "step": 2
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "homemade_coffee_liqueur_step_1",
+        "amount": {
+          "qty": 1348.6,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "vodka",
+        "amount": {
+          "qty": 2,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "homemade_coffee_liqueur_step_2",
+      "amount": {
+        "qty": 1821.8,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Once cooled, stir in the vodka or rum.",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for vodka"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

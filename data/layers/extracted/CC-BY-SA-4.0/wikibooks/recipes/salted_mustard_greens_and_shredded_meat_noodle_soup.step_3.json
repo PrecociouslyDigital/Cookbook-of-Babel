@@ -1,0 +1,53 @@
+{
+  "id": "salted_mustard_greens_and_shredded_meat_noodle_soup.step_3",
+  "source": "wikibooks_salted_mustard_greens_and_shredded_meat_noodle_soup",
+  "sourceRef": {
+    "source": "wikibooks_salted_mustard_greens_and_shredded_meat_noodle_soup",
+    "step": 3
+  },
+  "technique": "ferment",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "salted_mustard_greens_and_shredded_meat_noodle_soup_step_2",
+        "amount": {
+          "qty": 0.7,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "salted_mustard_greens_and_shredded_meat_noodle_soup_step_3",
+      "amount": {
+        "qty": 0.7,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Seal in a plastic bag and store in the refrigerator for several days.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.53"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

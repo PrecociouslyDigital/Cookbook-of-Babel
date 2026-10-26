@@ -1,0 +1,55 @@
+{
+  "id": "hawawshi_egyptian_meat_pies.step_7",
+  "source": "wikibooks_hawawshi_egyptian_meat_pies",
+  "sourceRef": {
+    "source": "wikibooks_hawawshi_egyptian_meat_pies",
+    "step": 7
+  },
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "hawawshi_egyptian_meat_pies_step_5",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "soft_flatbread",
+        "amount": {
+          "qty": 5,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "hawawshi_egyptian_meat_pies_step_7",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Cut the flatbread or pita bread into square or triangular shapes, depending on your preference.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

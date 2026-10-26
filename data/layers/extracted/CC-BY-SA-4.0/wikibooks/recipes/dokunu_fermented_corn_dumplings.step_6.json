@@ -1,0 +1,60 @@
+{
+  "id": "dokunu_fermented_corn_dumplings.step_6",
+  "source": "wikibooks_dokunu_fermented_corn_dumplings",
+  "sourceRef": {
+    "source": "wikibooks_dokunu_fermented_corn_dumplings",
+    "step": 6
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "dokunu_fermented_corn_dumplings_step_5",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "corn_husks",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "dokunu_fermented_corn_dumplings_step_6",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Portion out small pieces of dough, and roll into balls. Wrap each piece in a corn husk or plantain leaf, and secure with string.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Corn husks or plantain leaves': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

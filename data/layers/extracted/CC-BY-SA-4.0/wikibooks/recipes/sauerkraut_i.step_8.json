@@ -1,0 +1,53 @@
+{
+  "id": "sauerkraut_i.step_8",
+  "source": "wikibooks_sauerkraut_i",
+  "sourceRef": {
+    "source": "wikibooks_sauerkraut_i",
+    "step": 8
+  },
+  "technique": "ferment",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "sauerkraut_i_step_7",
+        "amount": {
+          "qty": 2544.4,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "sauerkraut_i_step_8",
+      "amount": {
+        "qty": 2544.4,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Cover the jar with a clean cloth or cling-wrap. Set the jar in a bowl or on a plate, so that any juice that might overflow will be collected and won't make a mess. Don't seal the jar while it is fermenting, as it will build up gas pressure and might break the jar.",
+  "issues": [
+    {
+      "field": "sourceRef",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.56"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

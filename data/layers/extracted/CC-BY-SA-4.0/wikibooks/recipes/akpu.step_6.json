@@ -1,0 +1,48 @@
+{
+  "id": "akpu.step_6",
+  "source": "wikibooks_akpu",
+  "sourceRef": {
+    "source": "wikibooks_akpu",
+    "step": 6
+  },
+  "technique": "strain",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "akpu_step_5",
+        "amount": {
+          "qty": 5000.3,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "akpu_step_6",
+      "amount": {
+        "qty": 5000.3,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Suspend the paste in a clean cloth or sack and allow excess water to drain.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

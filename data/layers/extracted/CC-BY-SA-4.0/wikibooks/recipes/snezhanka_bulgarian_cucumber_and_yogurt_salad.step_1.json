@@ -1,0 +1,60 @@
+{
+  "id": "snezhanka_bulgarian_cucumber_and_yogurt_salad.step_1",
+  "source": "wikibooks_snezhanka_bulgarian_cucumber_and_yogurt_salad",
+  "sourceRef": {
+    "source": "wikibooks_snezhanka_bulgarian_cucumber_and_yogurt_salad",
+    "step": 1
+  },
+  "technique": "strain",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "yogurt",
+        "amount": {
+          "qty": 1,
+          "unit": "l"
+        }
+      },
+      {
+        "ingredient": "pickle",
+        "amount": {
+          "qty": 0.5,
+          "unit": "kg"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "snezhanka_bulgarian_cucumber_and_yogurt_salad_step_1",
+      "amount": {
+        "qty": 1500,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Strain the yogurt, and cut the pickles/cucumbers into tiny cubes.",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for yogurt"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

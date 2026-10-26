@@ -1,0 +1,48 @@
+{
+  "id": "pralin.step_6",
+  "source": "wikibooks_pralin",
+  "sourceRef": {
+    "source": "wikibooks_pralin",
+    "step": 6
+  },
+  "technique": "grind",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "pralin_step_5",
+        "amount": {
+          "qty": 248.4,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "pralin_step_6",
+      "amount": {
+        "qty": 248.4,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Pulverize in a blender or clean coffee grinder a few pieces at a time.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

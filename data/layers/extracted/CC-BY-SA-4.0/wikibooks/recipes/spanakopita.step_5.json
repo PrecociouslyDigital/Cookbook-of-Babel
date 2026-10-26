@@ -1,0 +1,62 @@
+{
+  "id": "spanakopita.step_5",
+  "source": "wikibooks_spanakopita",
+  "sourceRef": {
+    "source": "wikibooks_spanakopita",
+    "step": 5
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "spanakopita_step_4",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "phyllo_dough",
+        "amount": {
+          "qty": 16,
+          "unit": "sheet"
+        }
+      },
+      {
+        "ingredient": "clarified_butter",
+        "amount": {
+          "qty": 0.6666666666666666,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "spanakopita_step_5",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Brush a 9x12-inch baking dish with some of the butter. Lay a sheet of phyllo dough across the bottom of the dish, covering the entire surface and letting the edges fold upward against the sides. Brush with butter, and place another sheet on top. Continue layering the phyllo (brushing each sheet) until the bottom of the dish is covered with about 8 sheets.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

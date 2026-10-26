@@ -1,0 +1,53 @@
+{
+  "id": "liberian_country_beans_torborgee.step_2",
+  "source": "wikibooks_liberian_country_beans_torborgee",
+  "sourceRef": {
+    "source": "wikibooks_liberian_country_beans_torborgee",
+    "step": 2
+  },
+  "technique": "grind",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "liberian_country_beans_torborgee_step_1",
+        "amount": {
+          "qty": 1360.8,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "liberian_country_beans_torborgee_step_2",
+      "amount": {
+        "qty": 1360.8,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Drain and mash the beans to your preferred consistency.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.52"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

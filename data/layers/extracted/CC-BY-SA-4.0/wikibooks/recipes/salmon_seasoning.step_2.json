@@ -1,0 +1,53 @@
+{
+  "id": "salmon_seasoning.step_2",
+  "source": "wikibooks_salmon_seasoning",
+  "sourceRef": {
+    "source": "wikibooks_salmon_seasoning",
+    "step": 2
+  },
+  "technique": "age",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "salmon_seasoning_step_1",
+        "amount": {
+          "qty": 546.4,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "salmon_seasoning",
+      "amount": {
+        "qty": 546.4,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Transfer to an airtight container with a shaker lid, and store in a cool dark place.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.46"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

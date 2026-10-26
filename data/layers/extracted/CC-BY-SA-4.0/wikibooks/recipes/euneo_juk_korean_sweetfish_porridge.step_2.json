@@ -1,0 +1,67 @@
+{
+  "id": "euneo_juk_korean_sweetfish_porridge.step_2",
+  "source": "wikibooks_euneo_juk_korean_sweetfish_porridge",
+  "sourceRef": {
+    "source": "wikibooks_euneo_juk_korean_sweetfish_porridge",
+    "step": 2
+  },
+  "technique": "boil",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "euneo_juk_korean_sweetfish_porridge_step_1",
+        "amount": {
+          "qty": 180,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "sweetfish",
+        "amount": {
+          "qty": 200,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "water",
+        "amount": {
+          "qty": 2,
+          "unit": "l"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "euneo_juk_korean_sweetfish_porridge_step_2",
+      "amount": {
+        "qty": 2380,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 100,
+    "medium": "boiling_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Remove fish viscera, and wash fish well in cold water. Place fish in a pot and cover with water. Boil until the fish is cooked through.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of boil's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

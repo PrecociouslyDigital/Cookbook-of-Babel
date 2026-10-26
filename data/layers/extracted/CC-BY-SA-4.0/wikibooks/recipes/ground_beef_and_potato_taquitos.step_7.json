@@ -1,0 +1,48 @@
+{
+  "id": "ground_beef_and_potato_taquitos.step_7",
+  "source": "wikibooks_ground_beef_and_potato_taquitos",
+  "sourceRef": {
+    "source": "wikibooks_ground_beef_and_potato_taquitos",
+    "step": 7
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "ground_beef_and_potato_taquitos_step_6",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "ground_beef_and_potato_taquitos",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "To assemble, spread mashed potato on a tortilla, add a spoonful of the cooked beef mixture, and roll it up. Repeat with remaining ingredients.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

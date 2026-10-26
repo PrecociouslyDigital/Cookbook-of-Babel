@@ -1,0 +1,48 @@
+{
+  "id": "croissant.step_4",
+  "source": "wikibooks_croissant",
+  "sourceRef": {
+    "source": "wikibooks_croissant",
+    "step": 4
+  },
+  "technique": "knead",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "croissant_step_3",
+        "amount": {
+          "qty": 1187.8,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "croissant_step_4",
+      "amount": {
+        "qty": 1187.8,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Roll out the dough on a floured surface into a large rectangle.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

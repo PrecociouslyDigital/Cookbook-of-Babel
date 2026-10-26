@@ -1,0 +1,53 @@
+{
+  "id": "chow_mein.step_5",
+  "source": "wikibooks_chow_mein",
+  "sourceRef": {
+    "source": "wikibooks_chow_mein",
+    "step": 5
+  },
+  "technique": "stir_fry",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "chow_mein_step_4",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "chow_mein_step_5",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 215,
+    "medium": "frying_oil"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Heat 2 tablespoons oil. Add the onion and the seitan, keeping remaining marinade aside for later use. Let the seitan brown briefly, then stir-fry until the redness is gone and the seitan is nearly cooked through. Remove the cooked seitan and onion from the pan.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of stir_fry's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

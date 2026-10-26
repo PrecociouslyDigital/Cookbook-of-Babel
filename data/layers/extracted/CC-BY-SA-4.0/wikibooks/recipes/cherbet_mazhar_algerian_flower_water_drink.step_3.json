@@ -1,0 +1,58 @@
+{
+  "id": "cherbet_mazhar_algerian_flower_water_drink.step_3",
+  "source": "wikibooks_cherbet_mazhar_algerian_flower_water_drink",
+  "sourceRef": {
+    "source": "wikibooks_cherbet_mazhar_algerian_flower_water_drink",
+    "step": 3
+  },
+  "technique": "cool",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "cherbet_mazhar_algerian_flower_water_drink_step_2",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "cherbet_mazhar_algerian_flower_water_drink",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "When the sugar is completely dissolved, transfer the drink to a pitcher and let it cool in the fridge. Serve with quince jam or seasonal fruit.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.58"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    },
+    {
+      "field": "inputs",
+      "kind": "missing",
+      "note": "no step uses '1 stick of cinnamon' (p=0.98)"
+    }
+  ]
+}

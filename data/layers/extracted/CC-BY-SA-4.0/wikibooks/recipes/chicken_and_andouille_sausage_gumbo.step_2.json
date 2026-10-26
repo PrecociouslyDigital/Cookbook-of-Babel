@@ -1,0 +1,65 @@
+{
+  "id": "chicken_and_andouille_sausage_gumbo.step_2",
+  "source": "wikibooks_chicken_and_andouille_sausage_gumbo",
+  "sourceRef": {
+    "source": "wikibooks_chicken_and_andouille_sausage_gumbo",
+    "step": 2
+  },
+  "technique": "toast",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "chicken_and_andouille_sausage_gumbo_step_1",
+        "amount": {
+          "qty": 1124.9,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "wheat_flour",
+        "amount": {
+          "qty": 240,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "chicken_and_andouille_sausage_gumbo_step_2",
+      "amount": {
+        "qty": 1364.9,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 185,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Make a roux from the flour in a large saucepan.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.4"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of toast's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

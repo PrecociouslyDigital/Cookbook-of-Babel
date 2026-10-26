@@ -1,0 +1,55 @@
+{
+  "id": "cantonese_roast_duck.step_3",
+  "source": "wikibooks_cantonese_roast_duck",
+  "sourceRef": {
+    "source": "wikibooks_cantonese_roast_duck",
+    "step": 3
+  },
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "cantonese_roast_duck_step_2",
+        "amount": {
+          "qty": 591.7,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "duck",
+        "amount": {
+          "qty": 4.5,
+          "unit": "lb"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "cantonese_roast_duck_step_3",
+      "amount": {
+        "qty": 2632.9,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Brush the marinade mixture all over the duck, inside and outside.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

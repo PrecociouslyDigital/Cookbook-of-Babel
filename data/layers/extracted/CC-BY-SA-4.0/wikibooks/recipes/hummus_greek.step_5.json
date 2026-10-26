@@ -1,0 +1,62 @@
+{
+  "id": "hummus_greek.step_5",
+  "source": "wikibooks_hummus_greek",
+  "sourceRef": {
+    "source": "wikibooks_hummus_greek",
+    "step": 5
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "hummus_greek_step_4",
+        "amount": {
+          "qty": 2871.7,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "tahini",
+        "amount": {
+          "qty": 175,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "lemon",
+        "amount": {
+          "qty": 175,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "hummus_greek_step_5",
+      "amount": {
+        "qty": 3221.7,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Using a food processor (or other means), mix the lemon juice with the tahini.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

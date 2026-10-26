@@ -1,0 +1,63 @@
+{
+  "id": "killer_queso_dip.step_6",
+  "source": "wikibooks_killer_queso_dip",
+  "sourceRef": {
+    "source": "wikibooks_killer_queso_dip",
+    "step": 6
+  },
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "killer_queso_dip_step_5",
+        "amount": {
+          "qty": 1190.7,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "killer_queso_dip",
+      "amount": {
+        "qty": 1190.7,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 20,
+    "medium": "still_air"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Add browned sausage. Stir until well melted and mixed.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.47"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 20.0 °C for still_air"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    },
+    {
+      "field": "inputs",
+      "kind": "missing",
+      "note": "no step uses 'Tortilla chips or fritos for serving' (p=1.0)"
+    }
+  ]
+}

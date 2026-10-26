@@ -1,0 +1,67 @@
+{
+  "id": "fresh_egg_pasta_pasta_fresca_all_uovo.step_2",
+  "source": "wikibooks_fresh_egg_pasta_pasta_fresca_all_uovo",
+  "sourceRef": {
+    "source": "wikibooks_fresh_egg_pasta_pasta_fresca_all_uovo",
+    "step": 2
+  },
+  "technique": "blend",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "fresh_egg_pasta_pasta_fresca_all_uovo_step_1",
+        "amount": {
+          "qty": 305.9,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "egg",
+        "amount": {
+          "qty": 3,
+          "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "olive_oil",
+        "amount": {
+          "qty": 1,
+          "unit": "tbsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "fresh_egg_pasta_pasta_fresca_all_uovo_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Beat the eggs with the oil. With the processor running, slowly pour the egg through the feed tube.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.51"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": "campfire_barbecue_chicken_wings.step_3",
+  "source": "wikibooks_campfire_barbecue_chicken_wings",
+  "sourceRef": {
+    "source": "wikibooks_campfire_barbecue_chicken_wings",
+    "step": 3
+  },
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "campfire_barbecue_chicken_wings_step_2",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "campfire_barbecue_chicken_wings_step_3",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Brush wings on all sides with about ¾ of the sauce (or just put ¾ of the sauce in a ziplock with the wings) and refrigerate as long as possible.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.55"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

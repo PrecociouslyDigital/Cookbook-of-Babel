@@ -1,0 +1,48 @@
+{
+  "id": "choco_crunch_bites.step_4",
+  "source": "wikibooks_choco_crunch_bites",
+  "sourceRef": {
+    "source": "wikibooks_choco_crunch_bites",
+    "step": 4
+  },
+  "technique": "chill",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "choco_crunch_bites_step_3",
+        "amount": {
+          "qty": 560,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "choco_crunch_bites",
+      "amount": {
+        "qty": 560,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Cover and refrigerate any leftovers.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

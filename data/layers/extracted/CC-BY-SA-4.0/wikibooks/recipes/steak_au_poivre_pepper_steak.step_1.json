@@ -1,0 +1,67 @@
+{
+  "id": "steak_au_poivre_pepper_steak.step_1",
+  "source": "wikibooks_steak_au_poivre_pepper_steak",
+  "sourceRef": {
+    "source": "wikibooks_steak_au_poivre_pepper_steak",
+    "step": 1
+  },
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "salt",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      },
+      {
+        "ingredient": "beef",
+        "amount": {
+          "qty": 28,
+          "unit": "oz"
+        }
+      },
+      {
+        "ingredient": "pepper",
+        "amount": {
+          "qty": 2,
+          "unit": "tbsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "steak_au_poivre_pepper_steak_step_1",
+      "amount": {
+        "qty": 823.8,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 30,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Sprinkle steaks on both sides liberally with kosher salt. Press peppercorns into both sides of each steak. Let sit for 30 minutes or until room temperature.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Kosher salt': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for pepper"
+    }
+  ]
+}

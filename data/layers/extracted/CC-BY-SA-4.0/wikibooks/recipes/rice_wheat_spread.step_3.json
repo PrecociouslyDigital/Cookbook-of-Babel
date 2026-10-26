@@ -1,0 +1,48 @@
+{
+  "id": "rice_wheat_spread.step_3",
+  "source": "wikibooks_rice_wheat_spread",
+  "sourceRef": {
+    "source": "wikibooks_rice_wheat_spread",
+    "step": 3
+  },
+  "technique": "age",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "rice_wheat_spread_step_2",
+        "amount": {
+          "qty": 552.8,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "rice_wheat_spread",
+      "amount": {
+        "qty": 552.8,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Let rest to absorb the flavor of the herbs.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

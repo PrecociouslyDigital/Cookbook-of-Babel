@@ -1,0 +1,48 @@
+{
+  "id": "wheat_grass_juice.step_5",
+  "source": "wikibooks_wheat_grass_juice",
+  "sourceRef": {
+    "source": "wikibooks_wheat_grass_juice",
+    "step": 5
+  },
+  "technique": "strain",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "wheat_grass_juice_step_4",
+        "amount": {
+          "qty": 354.9,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "wheat_grass_juice",
+      "amount": {
+        "qty": 354.9,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Use an electric or manual juicer to juice the wheat grass.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

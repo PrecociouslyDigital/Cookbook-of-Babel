@@ -1,0 +1,53 @@
+{
+  "id": "estofado_de_pollo_chicken_stew.step_4",
+  "source": "wikibooks_estofado_de_pollo_chicken_stew",
+  "sourceRef": {
+    "source": "wikibooks_estofado_de_pollo_chicken_stew",
+    "step": 4
+  },
+  "technique": "simmer",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "estofado_de_pollo_chicken_stew_step_3",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "estofado_de_pollo_chicken_stew",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 90,
+    "medium": "simmering_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 5,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Add just enough water to simmer vegetables if needed. Once vegetables are done, remove from heat and allow to sit uncovered for 5 minutes.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of simmer's typical range"
+    },
+    {
+      "field": "inputs",
+      "kind": "missing",
+      "note": "no step uses '1 yellow chile pepper (aji amarillo), seeded and thinly sliced lengthwise' (p=1.0)"
+    }
+  ]
+}

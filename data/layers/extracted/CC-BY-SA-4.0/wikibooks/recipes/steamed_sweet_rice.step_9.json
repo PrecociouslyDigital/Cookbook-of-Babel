@@ -1,0 +1,58 @@
+{
+  "id": "steamed_sweet_rice.step_9",
+  "source": "wikibooks_steamed_sweet_rice",
+  "sourceRef": {
+    "source": "wikibooks_steamed_sweet_rice",
+    "step": 9
+  },
+  "technique": "steam",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "steamed_sweet_rice_step_8",
+        "amount": {
+          "qty": 355.2,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "steamed_sweet_rice",
+      "amount": {
+        "qty": 355.2,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 100,
+    "medium": "steam"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "When tender, remove steamer tray from wok.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.42"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of steam's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

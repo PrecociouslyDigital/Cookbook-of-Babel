@@ -1,0 +1,55 @@
+{
+  "id": "egyptian_grilled_pigeon_fattah_meshaltet.step_2",
+  "source": "wikibooks_egyptian_grilled_pigeon_fattah_meshaltet",
+  "sourceRef": {
+    "source": "wikibooks_egyptian_grilled_pigeon_fattah_meshaltet",
+    "step": 2
+  },
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "egyptian_grilled_pigeon_fattah_meshaltet_step_1",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "pigeon",
+        "amount": {
+          "qty": 4,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "egyptian_grilled_pigeon_fattah_meshaltet_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Place the cleaned and gutted pigeons in the marinade, ensuring they are evenly coated. Massage the marinade into the birds, ensuring they are thoroughly seasoned.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "id": "jambalaya_i.step_2",
+  "source": "wikibooks_jambalaya_i",
+  "sourceRef": {
+    "source": "wikibooks_jambalaya_i",
+    "step": 2
+  },
+  "technique": "chop",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "jambalaya_i_step_1",
+        "amount": {
+          "qty": 22.7,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "tomato",
+        "amount": {
+          "qty": 14.5,
+          "unit": "oz"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "jambalaya_i_step_2",
+      "amount": {
+        "qty": 433.8,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Prepare the canned tomatoes: tear them up, remove the stem ends, remove the seeds, etc. Keep the juice.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.37"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "kilishi_nigerian_beef_jerky.step_4",
+  "source": "wikibooks_kilishi_nigerian_beef_jerky",
+  "sourceRef": {
+    "source": "wikibooks_kilishi_nigerian_beef_jerky",
+    "step": 4
+  },
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "kilishi_nigerian_beef_jerky_step_3",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "kilishi_nigerian_beef_jerky_step_4",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Rub the marinade onto the partially baked meat slices, coating them well.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

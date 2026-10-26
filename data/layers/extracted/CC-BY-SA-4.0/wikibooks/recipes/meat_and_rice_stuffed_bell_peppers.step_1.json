@@ -1,0 +1,48 @@
+{
+  "id": "meat_and_rice_stuffed_bell_peppers.step_1",
+  "source": "wikibooks_meat_and_rice_stuffed_bell_peppers",
+  "sourceRef": {
+    "source": "wikibooks_meat_and_rice_stuffed_bell_peppers",
+    "step": 1
+  },
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "bell_pepper",
+        "amount": {
+          "qty": 3,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "meat_and_rice_stuffed_bell_peppers_step_1",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Wash peppers. Use a thin and sharp knife to carefully cut around the stem end and form a 5 cm (2 in) circle to open the pepper. Save this piece. Use a spoon or knife cut inside to remove remaining seeds and white membrane. Then rinse again inside and out, and put aside.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

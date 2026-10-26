@@ -1,0 +1,48 @@
+{
+  "id": "steamed_pork_with_mustard_greens.step_1",
+  "source": "wikibooks_steamed_pork_with_mustard_greens",
+  "sourceRef": {
+    "source": "wikibooks_steamed_pork_with_mustard_greens",
+    "step": 1
+  },
+  "technique": "rinse",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "mustard_greens",
+        "amount": {
+          "qty": 10.5,
+          "unit": "oz"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "steamed_pork_with_mustard_greens_step_1",
+      "amount": {
+        "qty": 297.7,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Wash greens and discard tough stems.",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}
