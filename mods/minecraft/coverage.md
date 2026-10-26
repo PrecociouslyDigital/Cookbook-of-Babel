@@ -104,7 +104,6 @@ Used by some step, made by none, and provided by no mapped mod, so nothing in th
 - `animal_blood` (animal blood)
 - `anise` (anise)
 - `annatto` (annatto)
-- `apple` (apple)
 - `apple_juice` (apple juice)
 - `applesauce` (applesauce)
 - `applewood_chunks` (applewood chunks)
@@ -128,7 +127,6 @@ Used by some step, made by none, and provided by no mapped mod, so nothing in th
 - `awaze_sauce` (awaze sauce)
 - `ayib` (ayib)
 - `azuki_bean` (azuki bean)
-- `bacon` (bacon)
 - `bacon_drippings` (bacon drippings)
 - `bacon_fat` (bacon fat)
 - `bacon_grease` (bacon grease)
@@ -162,7 +160,6 @@ Used by some step, made by none, and provided by no mapped mod, so nothing in th
 - `bazeen_dough` (bazeen dough)
 - `bean_sprout` (bean sprout)
 - `bechamel_sauce` (béchamel sauce)
-- `beef` (beef)
 - `beef_bones` (beef bones)
 - `beef_bouillon_cubes` (beef bouillon cubes)
 - `beef_caps` (beef caps)
@@ -241,7 +238,6 @@ Used by some step, made by none, and provided by no mapped mod, so nothing in th
 - `buttercream` (buttercream)
 - `buttermilk` (buttermilk)
 - `butternut_squash` (butternut squash)
-- `cabbage` (cabbage)
 - `caffeine` (caffeine)
 - `cajun_seasoning` (cajun seasoning)
 - `cake` (cake)
@@ -273,9 +269,7 @@ Used by some step, made by none, and provided by no mapped mod, so nothing in th
 - `carbonated_water` (carbonated water)
 - `cardamom` (cardamom)
 - `carp` (carp)
-- `carrot` (carrot)
 - `carrot_powder` (carrot powder)
-- `carrots` (carrots)
 - `cascabel` (cascabel)
 - `cashew_butter` (cashew butter)
 - `cassava` (cassava)
@@ -306,7 +300,6 @@ Used by some step, made by none, and provided by no mapped mod, so nothing in th
 - `cherry_pie_filling` (cherry pie filling)
 - `chervil` (chervil)
 - `chibwabwa` (chibwabwa)
-- `chicken` (chicken)
 - `chicken_and_herb_seasoning` ("chicken and herb" seasoning)
 - `chicken_breast` (chicken breast)
 - `chicken_breast_halves` (chicken breast halves)
@@ -391,7 +384,6 @@ Used by some step, made by none, and provided by no mapped mod, so nothing in th
 - `coconut_yogurt` (coconut yogurt)
 - `cocoyam_leaves` (cocoyam leaves)
 - `cocoyams` (cocoyams)
-- `cod` (cod)
 - `coffee_liqueur` (coffee liqueur)
 - `cognac` (cognac)
 - `cola` (cola)
@@ -402,9 +394,7 @@ Used by some step, made by none, and provided by no mapped mod, so nothing in th
 - `comte_cheese` (comté cheese)
 - `condensed_milk` (condensed milk)
 - `conger` (conger)
-- `cooked_chicken` (cooked chicken)
 - `cooked_green_peas` (cooked green peas)
-- `cooked_rice` (cooked rice)
 - `cookie` (cookie)
 - `cooking_bananas` (cooking bananas)
 - `cooking_oil` (cooking oil)
@@ -507,7 +497,6 @@ Used by some step, made by none, and provided by no mapped mod, so nothing in th
 - `dongu_mushrooms` (dongu mushrooms)
 - `dorowot` (dorowot)
 - `douchi` (douchi)
-- `dough` (dough)
 - `dragees` (dragées)
 - `dressing` (dressing)
 - `dried_chili` (dried chili)
@@ -607,7 +596,6 @@ Used by some step, made by none, and provided by no mapped mod, so nothing in th
 - `freshly_ground_black_pepper` (freshly ground black pepper)
 - `freshly_ground_white_pepper` (freshly-ground white pepper)
 - `fried_chicken` (fried chicken)
-- `fried_egg` (fried egg)
 - `fried_ghormeh_sabzi_herbs` (fried ghormeh sabzi herbs)
 - `fried_onion` (fried onion)
 - `fritos_corn_chips` (fritos corn chips)
@@ -718,7 +706,6 @@ Used by some step, made by none, and provided by no mapped mod, so nothing in th
 - `hake` (hake)
 - `halibut` (halibut)
 - `hallertaur_aroma_hops` (hallertaur aroma hops)
-- `ham` (ham)
 - `ham_bone` (ham bone)
 - `ham_hock` (ham hock)
 - `ham_steak` (ham steak)
@@ -763,7 +750,6 @@ Used by some step, made by none, and provided by no mapped mod, so nothing in th
 - `hp_bold_steak_sauce` (hp bold steak sauce)
 - `huckleberry` (huckleberry)
 - `hummus` (hummus)
-- `ice` (ice)
 - `ice_cold_water` (ice cold water)
 - `ice_cream` (ice cream)
 - `ice_cream_topping` (ice cream topping)
@@ -817,7 +803,6 @@ Used by some step, made by none, and provided by no mapped mod, so nothing in th
 - `kashkaval` (kashkaval)
 - `kataifi_pastry` (kataifi pastry)
 - `kefir` (kefir)
-- `kelp` (kelp)
 - `ketchup` (ketchup)
 - `khoa` (khoa)
 - `khova` (khova)
@@ -1136,7 +1121,6 @@ Used by some step, made by none, and provided by no mapped mod, so nothing in th
 - `pickling_salt` (pickling salt)
 - `pickling_spices` (pickling spices)
 - `pie` (pie)
-- `pie_crust` (pie crust)
 - `pieces_of_meat` (pieces of meat)
 - `pigeon` (pigeon)
 - `pigeon_pea` (pigeon pea)
@@ -1204,9 +1188,7 @@ Used by some step, made by none, and provided by no mapped mod, so nothing in th
 - `puffed_rice` (puffed rice)
 - `puffed_rice_cereal` (puffed rice cereal)
 - `pulses` (bean)
-- `pumpkin` (pumpkin)
 - `pumpkin_leaves` (pumpkin leaves)
-- `pumpkin_seed` (pumpkin seed)
 - `pureed_tomato` (puréed tomato)
 - `purslane` (purslane)
 - `quail` (quail)
@@ -1216,7 +1198,6 @@ Used by some step, made by none, and provided by no mapped mod, so nothing in th
 - `quince` (quince)
 - `quinoa` (quinoa)
 - `quorn` (quorn)
-- `rabbit` (rabbit)
 - `radish` (radish)
 - `raisin` (raisin)
 - `raspberries` (raspberries)
@@ -1267,7 +1248,6 @@ Used by some step, made by none, and provided by no mapped mod, so nothing in th
 - `sake` (sake)
 - `salad` (salad)
 - `salami` (salami)
-- `salmon` (salmon)
 - `salsa` (salsa)
 - `salt_and_black_pepper` (salt and black pepper)
 - `salt_and_pepper` (salt and pepper)
@@ -1467,7 +1447,6 @@ Used by some step, made by none, and provided by no mapped mod, so nothing in th
 - `tater_tots` (tater tots)
 - `tatsoi` (tatsoi)
 - `taurine` (taurine)
-- `tea` (tea)
 - `tea_bag` (tea bag)
 - `tea_leaf` (tea leaf)
 - `tea_leaves` (tea leaves)
@@ -1499,8 +1478,6 @@ Used by some step, made by none, and provided by no mapped mod, so nothing in th
 - `tomato_pasta_sauce` (tomato pasta sauce)
 - `tomato_paste` (tomato paste)
 - `tomato_puree` (tomato purée)
-- `tomato_sauce` (tomato sauce)
-- `tomatoes` (tomatoes)
 - `topping` (topping)
 - `torn_mixed_greens` (torn mixed greens)
 - `tortellini` (tortellini)
@@ -1565,7 +1542,6 @@ Used by some step, made by none, and provided by no mapped mod, so nothing in th
 - `watercress` (watercress)
 - `waterleaf` (waterleaf)
 - `watermelon` (watermelon)
-- `wheat` (wheat)
 - `wheat_bran` (wheat bran)
 - `wheat_chex_cereal` (wheat chex cereal)
 - `wheat_germ` (wheat germ)
@@ -4006,7 +3982,7 @@ Rounding error is the largest relative error of any non-negligible amount; above
 
 ### `agbalumo_smoothie.step_4` (season)
 
-- create_mixing: 2 recipes, rounding 11%, estimated
+- create_mixing: 3 recipes, rounding 11%, estimated
 - shapeless_crafting: none, whole items would distort it by 4940%
 
 ### `agbalumo_smoothie.step_5` (strain)
@@ -5405,7 +5381,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `ancient_roman_pancakes_ova_sfongia_ex_lacte.step_2` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 2 recipes, rounding 1%, estimated
+- create_heated_mixing: 3 recipes, rounding 1%, estimated
 
 ### `angels_on_horseback_bacon_wrapped_oysters.step_1` (soak)
 
@@ -6227,7 +6203,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `apricot_chicken_salad.step_2` (season)
 
-- create_mixing: 2 recipes, rounding 1%, estimated
+- create_mixing: 3 recipes, rounding 1%, estimated
 - shapeless_crafting: none, whole items would distort it by 182%
 
 ### `apricot_chicken_salad.step_3` (mix)
@@ -6656,7 +6632,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `asian_barbecue_ribs.step_3` (boil)
 
-- create_heated_mixing: 2 recipes, rounding 6%, estimated
+- create_heated_mixing: 3 recipes, rounding 6%, estimated
 - fd_cooking_pot: none, takes at most 6 inputs, not 7
 
 ### `asian_barbecue_ribs.step_4` (smoke)
@@ -7527,7 +7503,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `backyard_bbq_chicken.step_3` (evaporate)
 
-- create_heated_mixing: 2 recipes, rounding 13%, estimated
+- create_heated_mixing: 3 recipes, rounding 13%, estimated
 
 ### `backyard_bbq_chicken.step_4` (grill)
 
@@ -9358,7 +9334,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `barbecue_chicken.step_2` (evaporate)
 
-- create_heated_mixing: 2 recipes, rounding 6%, estimated
+- create_heated_mixing: 3 recipes, rounding 6%, estimated
 
 ### `barbecue_chicken.step_4` (season)
 
@@ -13038,7 +13014,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `boilo_hot_spiced_citrus_whiskey.step_2` (mix)
 
-- create_mixing: 2 recipes, rounding 0%, estimated
+- create_mixing: 3 recipes, rounding 0%, estimated
 - shapeless_crafting: 1 recipe, rounding 10%, estimated
 
 ### `boilo_hot_spiced_citrus_whiskey.step_3` (simmer)
@@ -14087,7 +14063,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `brioche_stuffing.step_1` (mix)
 
-- create_mixing: 2 recipes, rounding 24% ⚠, estimated
+- create_mixing: 3 recipes, rounding 24% ⚠, estimated
 - shapeless_crafting: none, takes at most 9 inputs, not 12
 
 ### `brioche_stuffing.step_2` (bake)
@@ -17534,7 +17510,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `charoset_ashkenazi.step_1` (mix)
 
-- create_mixing: 2 recipes, rounding 11%
+- create_mixing: 3 recipes, rounding 11%
 - shapeless_crafting: none, whole items would distort it by 463%
 
 ### `charoset_ashkenazi.step_2` (season)
@@ -17563,7 +17539,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `charoset_maghrebi.step_3` (mix)
 
-- create_mixing: 2 recipes, rounding 1%
+- create_mixing: 3 recipes, rounding 1%
 - shapeless_crafting: 1 recipe, rounding 41% ⚠
 
 ### `cheese_and_crackers.step_2` (cut)
@@ -19146,7 +19122,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `chicken_marinade.step_1` (mix)
 
-- create_mixing: 2 recipes, rounding 6%, estimated
+- create_mixing: 3 recipes, rounding 6%, estimated
 - shapeless_crafting: none, takes at most 9 inputs, not 13
 
 ### `chicken_marinade.step_3` (soak)
@@ -20269,7 +20245,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `chile_lime_marinade.step_1` (mix)
 
-- create_mixing: 2 recipes, rounding 6%, estimated
+- create_mixing: 3 recipes, rounding 6%, estimated
 - shapeless_crafting: none, whole items would distort it by 745%
 
 ### `chiles_en_nogada_stuffed_chile_peppers_with_almonds.step_1` (chop)
@@ -20836,7 +20812,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `chipotle_lime_grilled_chicken.step_1` (soak)
 
-- create_mixing: 2 recipes, rounding 10%, estimated
+- create_mixing: 3 recipes, rounding 10%, estimated
 - create_splashing: none, takes one input, not 5
 
 ### `chipotle_lime_grilled_chicken.step_2` (season)
@@ -26081,7 +26057,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `creamy_mustard_vinaigrette.step_1` (mix)
 
-- create_mixing: 2 recipes, rounding 13%, estimated
+- create_mixing: 3 recipes, rounding 13%, estimated
 - shapeless_crafting: none, whole items would distort it by 534%
 
 ### `creamy_mustard_vinaigrette.step_2` (mix)
@@ -29860,7 +29836,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `eastern_north_carolina_barbecue_sauce.step_2` (mix)
 
-- create_mixing: 2 recipes, rounding 6%, estimated
+- create_mixing: 3 recipes, rounding 6%, estimated
 - shapeless_crafting: none, whole items would distort it by 217%
 
 ### `eastern_north_carolina_barbecue_sauce.step_3` (simmer)
@@ -34637,8 +34613,8 @@ No routes: it yields one of several outcomes, which no route supports yet.
 
 ### `fried_eggs.step_4` (season)
 
-- create_mixing: 1 recipe, rounding 0%
-- shapeless_crafting: 1 recipe, rounding 0%
+- create_mixing: 2 recipes, rounding 0%
+- shapeless_crafting: 2 recipes, rounding 0%
 
 ### `fried_eggs_olive_oil_basted.step_2` (pan_fry)
 
@@ -37490,7 +37466,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `ginger_peach_glazed_ham.step_5` (evaporate)
 
-- create_heated_mixing: 2 recipes, rounding 6%, estimated
+- create_heated_mixing: 3 recipes, rounding 6%, estimated
 
 ### `ginger_peach_glazed_ham.step_6` (coat)
 
@@ -40302,7 +40278,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `hamburger.step_5` (assemble)
 
-- shapeless_crafting: 1 recipe, rounding 7%, estimated
+- shapeless_crafting: 2 recipes, rounding 7%, estimated
 - create_deploying: none, deploying takes exactly two items
 
 ### `hamburger_fried_rice.step_1` (stir_fry)
@@ -40955,7 +40931,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `hickory_bbq_chicken.step_1` (soak)
 
-- create_mixing: 2 recipes, rounding 6%, estimated
+- create_mixing: 3 recipes, rounding 6%, estimated
 - create_splashing: none, takes one input, not 5
 
 ### `hickory_bbq_chicken.step_3` (season)
@@ -40995,7 +40971,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `hickory_bbq_pork_loin.step_1` (soak)
 
-- create_mixing: 2 recipes, rounding 6%
+- create_mixing: 3 recipes, rounding 6%
 - create_splashing: none, takes one input, not 6
 
 ### `hickory_bbq_pork_loin.step_3` (season)
@@ -41039,7 +41015,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `hickory_smoked_pork_chops.step_1` (mix)
 
-- create_mixing: 2 recipes, rounding 6%, estimated
+- create_mixing: 3 recipes, rounding 6%, estimated
 - shapeless_crafting: none, whole items would distort it by 745%
 
 ### `hickory_smoked_pork_chops.step_2` (soak)
@@ -41747,7 +41723,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `homemade_peanut_butter.step_4` (blend)
 
-- create_mixing: 2 recipes, rounding 10%
+- create_mixing: 3 recipes, rounding 10%
 
 ### `homemade_phyllo_dough.step_1` (knead)
 
@@ -42151,7 +42127,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `honey_apple_glazed_pork.step_6` (mix)
 
-- create_mixing: 2 recipes, rounding 15% ⚠, estimated
+- create_mixing: 3 recipes, rounding 15% ⚠, estimated
 - shapeless_crafting: none, whole items would distort it by 217%
 
 ### `honey_apple_glazed_pork.step_7` (coat)
@@ -42194,7 +42170,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `honey_bourbon_marinade.step_1` (mix)
 
-- create_mixing: 2 recipes, rounding 6%
+- create_mixing: 3 recipes, rounding 6%
 - shapeless_crafting: 1 recipe, rounding 69% ⚠
 
 ### `honey_garlic_chicken.step_3` (pan_fry)
@@ -42276,7 +42252,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `honey_lime_pork_loin.step_8` (mix)
 
-- create_mixing: 2 recipes, rounding 0%, estimated
+- create_mixing: 3 recipes, rounding 0%, estimated
 - shapeless_crafting: 1 recipe, rounding 41% ⚠, estimated
 
 ### `honey_lime_pork_loin.step_9` (toast)
@@ -42325,7 +42301,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `honey_mustard_salmon.step_3` (mix)
 
-- create_mixing: 2 recipes, rounding 0%, estimated
+- create_mixing: 3 recipes, rounding 0%, estimated
 - shapeless_crafting: 1 recipe, rounding 17% ⚠, estimated
 
 ### `honey_mustard_salmon.step_4` (coat)
@@ -42345,7 +42321,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `honey_peppered_salmon.step_1` (mix)
 
-- create_mixing: 2 recipes, rounding 1%, estimated
+- create_mixing: 3 recipes, rounding 1%, estimated
 - shapeless_crafting: none, whole items would distort it by 2435%
 
 ### `honey_peppered_salmon.step_2` (soak)
@@ -42658,8 +42634,8 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `hot_cocoa.step_5` (season)
 
-- create_mixing: 1 recipe, rounding 3%, estimated
-- shapeless_crafting: 1 recipe, rounding 8%, estimated
+- create_mixing: 2 recipes, rounding 3%, estimated
+- shapeless_crafting: 2 recipes, rounding 8%, estimated
 
 ### `hot_cross_bun.step_1` (heat)
 
@@ -42835,7 +42811,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `hot_sauce_homemade.step_4` (blend)
 
-- create_mixing: 2 recipes, rounding 0%, estimated
+- create_mixing: 3 recipes, rounding 0%, estimated
 
 ### `hot_wing_dip.step_1` (mix)
 
@@ -45370,7 +45346,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `jamaican_chicken_fingers_with_honey_mustard_sauce.step_4` (whisk)
 
-- create_mixing: 2 recipes, rounding 12%, estimated
+- create_mixing: 3 recipes, rounding 12%, estimated
 
 ### `jamaican_chicken_fingers_with_honey_mustard_sauce.step_5` (mix)
 
@@ -50934,7 +50910,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `lentil_and_sausage_stew.step_6` (season)
 
-- create_mixing: 2 recipes, rounding 15% ⚠, estimated
+- create_mixing: 3 recipes, rounding 15% ⚠, estimated
 - shapeless_crafting: none, whole items would distort it by 534%
 
 ### `lentil_and_sausage_stew.step_7` (mix)
@@ -55039,7 +55015,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `meatballs_with_honey_lime_sauce.step_7` (evaporate)
 
-- create_heated_mixing: 2 recipes, rounding 1%, estimated
+- create_heated_mixing: 3 recipes, rounding 1%, estimated
 
 ### `meatballs_with_honey_lime_sauce.step_8` (coat)
 
@@ -61060,7 +61036,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `north_carolina_style_bbq_chicken.step_2` (mix)
 
-- create_mixing: 2 recipes, rounding 6%, estimated
+- create_mixing: 3 recipes, rounding 6%, estimated
 - shapeless_crafting: 1 recipe, rounding 69% ⚠, estimated
 
 ### `north_carolina_style_bbq_chicken.step_5` (grill)
@@ -61080,7 +61056,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `north_carolina_style_bbq_ribs.step_2` (mix)
 
-- create_mixing: 2 recipes, rounding 6%, estimated
+- create_mixing: 3 recipes, rounding 6%, estimated
 - shapeless_crafting: none, whole items would distort it by 182%
 
 ### `north_carolina_style_bbq_ribs.step_3` (smoke)
@@ -70401,8 +70377,8 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `pumpkin_soup.step_3` (simmer)
 
-- create_heated_mixing: 1 recipe, rounding 0%
-- fd_cooking_pot: 1 recipe, rounding 0%
+- create_heated_mixing: 2 recipes, rounding 0%
+- fd_cooking_pot: 2 recipes, rounding 0%
 
 ### `pumpkin_soup_with_curry.step_1` (pan_fry)
 
@@ -72656,7 +72632,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `rice_bubble_cake.step_1` (heat)
 
-- create_heated_mixing: 2 recipes, rounding 1%, estimated
+- create_heated_mixing: 3 recipes, rounding 1%, estimated
 - fd_cooking_pot: none, whole items would distort it by 534%
 
 ### `rice_bubble_cake.step_2` (boil)
@@ -73654,8 +73630,8 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `roast_chicken.step_4` (roast)
 
-- smelting: 1 recipe, rounding 0%
-- smoking: 1 recipe, rounding 0%
+- smelting: 2 recipes, rounding 0%
+- smoking: 2 recipes, rounding 0%
 
 ### `roast_chicken_on_salt.step_1` (season)
 
@@ -79920,7 +79896,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `slow_cooker_baby_back_ribs.step_2` (mix)
 
-- create_mixing: 2 recipes, rounding 6%
+- create_mixing: 3 recipes, rounding 6%
 - shapeless_crafting: none, whole items would distort it by 4971%
 
 ### `slow_cooker_baby_back_ribs.step_3` (simmer)
@@ -82753,7 +82729,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `spicy_miso_udon.step_8` (season)
 
-- create_mixing: 2 recipes, rounding 1%, estimated
+- create_mixing: 3 recipes, rounding 1%, estimated
 - shapeless_crafting: none, whole items would distort it by 238%
 
 ### `spicy_miso_udon.step_9` (simmer)
@@ -84052,7 +84028,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `steamed_tuna_bao_buns.step_1` (mix)
 
-- create_mixing: 2 recipes, rounding 0%, estimated
+- create_mixing: 3 recipes, rounding 0%, estimated
 - shapeless_crafting: 1 recipe, rounding 6%, estimated
 
 ### `steamed_tuna_bao_buns.step_10` (season)
@@ -84527,7 +84503,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `strawberry_and_banana_smoothie.step_3` (blend)
 
-- create_mixing: 2 recipes, rounding 13%, estimated
+- create_mixing: 3 recipes, rounding 13%, estimated
 
 ### `strawberry_and_banana_smoothie.step_4` (season)
 
@@ -85272,7 +85248,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `stuffed_pork_roast.step_1` (dissolve)
 
-- create_mixing: 2 recipes, rounding 6%, estimated
+- create_mixing: 3 recipes, rounding 6%, estimated
 - shapeless_crafting: none, whole items would distort it by 323%
 
 ### `stuffed_pork_roast.step_2` (cure)
@@ -87614,7 +87590,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `tamina_algerian_semolina_honey_dessert.step_2` (heat)
 
-- create_heated_mixing: 2 recipes, rounding 10%, estimated
+- create_heated_mixing: 3 recipes, rounding 10%, estimated
 - fd_cooking_pot: 1 recipe, rounding 50% ⚠, estimated
 
 ### `tamina_algerian_semolina_honey_dessert.step_3` (mix)
@@ -89122,7 +89098,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `thobwa_la_mtedza_malawian_sesame_seed_drink.step_7` (dissolve)
 
-- create_mixing: 2 recipes, rounding 8%, estimated
+- create_mixing: 3 recipes, rounding 8%, estimated
 - shapeless_crafting: none, whole items would distort it by 463%
 
 ### `thobwa_la_mtedza_malawian_sesame_seed_drink.step_9` (mix)
@@ -89404,7 +89380,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `timatim_fitfit_ethiopian_tomato_salad.step_2` (whisk)
 
-- create_mixing: 2 recipes, rounding 1%, estimated
+- create_mixing: 3 recipes, rounding 1%, estimated
 
 ### `timatim_fitfit_ethiopian_tomato_salad.step_3` (coat)
 
@@ -91187,7 +91163,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `tuna_fried_rice.step_6` (mix)
 
-- create_mixing: 2 recipes, rounding 1%, estimated
+- create_mixing: 3 recipes, rounding 1%, estimated
 - shapeless_crafting: none, whole items would distort it by 170%
 
 ### `tuna_fried_rice.step_7` (season)
@@ -93108,7 +93084,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `vegetable_soup.step_2` (soak)
 
-- create_mixing: 1 recipe, rounding 0%, estimated
+- create_mixing: 2 recipes, rounding 0%, estimated
 - create_splashing: none, takes one input, not 2
 
 ### `vegetable_spring_roll.step_1` (mix)
@@ -94423,7 +94399,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `white_house_honey_porter.step_2` (mix)
 
-- create_mixing: 2 recipes, rounding 5%, estimated
+- create_mixing: 3 recipes, rounding 5%, estimated
 - shapeless_crafting: none, whole items would distort it by 150%
 
 ### `white_house_honey_porter.step_3` (boil)

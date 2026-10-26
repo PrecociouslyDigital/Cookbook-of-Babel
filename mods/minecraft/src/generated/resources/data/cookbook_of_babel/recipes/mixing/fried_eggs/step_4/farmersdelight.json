@@ -1,10 +1,13 @@
 {
-  "type": "minecraft:crafting_shapeless",
-  "category": "misc",
+  "type": "create:mixing",
   "conditions": [
     {
-      "type": "forge:tag_empty",
-      "tag": "cookbook_of_babel:external/fried_eggs"
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "farmersdelight"
     }
   ],
   "ingredients": [
@@ -39,7 +42,10 @@
       }
     ]
   ],
-  "result": {
-    "item": "cookbook_of_babel:fried_eggs"
-  }
+  "processingTime": 20,
+  "results": [
+    {
+      "item": "farmersdelight:fried_egg"
+    }
+  ]
 }

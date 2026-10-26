@@ -1,17 +1,23 @@
 {
-  "type": "farmersdelight:cooking",
+  "type": "create:mixing",
   "conditions": [
     {
       "type": "forge:mod_loaded",
-      "modid": "farmersdelight"
+      "modid": "create"
+    },
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:mod_loaded",
+        "modid": "farmersdelight"
+      }
     },
     {
       "type": "forge:tag_empty",
       "tag": "cookbook_of_babel:external/pumpkin_soup"
     }
   ],
-  "cookingtime": 100,
-  "experience": 0.1,
+  "heatRequirement": "heated",
   "ingredients": [
     [
       {
@@ -34,7 +40,10 @@
       }
     ]
   ],
-  "result": {
-    "item": "cookbook_of_babel:pumpkin_soup"
-  }
+  "processingTime": 20,
+  "results": [
+    {
+      "item": "cookbook_of_babel:pumpkin_soup"
+    }
+  ]
 }

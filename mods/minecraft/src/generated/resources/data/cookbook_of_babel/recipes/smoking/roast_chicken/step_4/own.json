@@ -1,13 +1,20 @@
 {
-  "type": "minecraft:smelting",
-  "category": "misc",
+  "type": "minecraft:smoking",
+  "category": "food",
   "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:mod_loaded",
+        "modid": "farmersdelight"
+      }
+    },
     {
       "type": "forge:tag_empty",
       "tag": "cookbook_of_babel:external/roast_chicken"
     }
   ],
-  "cookingtime": 400,
+  "cookingtime": 300,
   "experience": 0.1,
   "ingredient": [
     {
