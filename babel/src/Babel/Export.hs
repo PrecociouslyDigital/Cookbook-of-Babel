@@ -9,7 +9,8 @@ rendered through "Babel.Format", so exporting the same data twice gives the
 same bytes.
 
 The export also carries each ingredient's nutrition, stated or inferred via
-"Babel.Nutrition", so consumers don't have to re-derive it.
+"Babel.Nutrition", and every preparation ("Babel.Preparation"), so
+consumers don't have to re-derive them.
 -}
 module Babel.Export (
     Export (..),
@@ -30,6 +31,7 @@ import Babel.Model.Registry (Medium, Term, Unit)
 import Babel.Model.Source (Licence, Source)
 import Babel.Model.Technique (Technique)
 import Babel.Nutrition (derivedPer100g, nutritionOf)
+import Babel.Preparation (Prepared, prepared)
 import Data.Map.Strict qualified as Map
 import Data.Set qualified as Set
 
@@ -44,6 +46,7 @@ data Export = Export
     , measures :: [Measure]
     , nutrition :: Map IngredientId Per100g
     -- ^ One entry per ingredient with known nutrition, stated or inferred.
+    , preparations :: [Prepared]
     , units :: [Unit]
     , forms :: [Term FormId]
     , media :: [Medium]
@@ -74,6 +77,7 @@ exportWorld licences w = do
             , recipes = values w.recipes
             , measures = values w.measures
             , nutrition = Map.mapMaybeWithKey (\i _ -> derivedPer100g <$> nutritionOf w i) w.ingredients
+            , preparations = prepared w
             , units = Map.elems w.units
             , forms = Map.elems w.forms
             , media = Map.elems w.media

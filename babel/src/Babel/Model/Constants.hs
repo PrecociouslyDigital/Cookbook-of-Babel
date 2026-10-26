@@ -24,6 +24,8 @@ data Constants = Constants
     { tempBands :: TempBands
     , spoilageTechnique :: TechniqueId
     -- ^ Recipes whose technique is this one or below it are spoilage.
+    , nonPreparations :: [TechniqueId]
+    -- ^ Recipes whose technique is one of these, or below one, are not preparations ("Babel.Preparation").
     , kcalPerGram :: KcalPerGram
     , calorieTolerance :: Tolerance
     -- ^ How far kcal may stray from the macros before a warning.

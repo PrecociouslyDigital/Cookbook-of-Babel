@@ -11,6 +11,7 @@ module Babel.Spoilage (
 )
 where
 
+import Babel.Lineage (ancestors)
 import Babel.Load (Located (..), World (..))
 import Babel.Model.Common (Amount (..))
 import Babel.Model.Constants (Constants (..))
@@ -18,9 +19,7 @@ import Babel.Model.Id (IngredientId)
 import Babel.Model.Ingredient (Ingredient (..))
 import Babel.Model.Recipe (End (..), Leaf (..), Recipe (..), Sensitivity (..), leaves)
 import Babel.Model.Registry (Dimension (..), Unit (..))
-import Babel.Model.Technique (Technique (..))
 import Data.Map.Strict qualified as Map
-import Data.Set qualified as Set
 
 data Conditions = Conditions
     { tempC :: Double
@@ -38,18 +37,9 @@ spoilagePaths w ing = case w.constants of
     Just c ->
         [ r.value
         | r <- Map.elems w.recipes
-        , c.spoilageTechnique `Set.member` ancestors r.value.technique
+        , c.spoilageTechnique `elem` ancestors w r.value.technique
         , ing `elem` map (.ingredient) (leaves r.value.inputs)
         ]
-  where
-    ancestors t0 = go Set.empty [t0]
-    go seen = \case
-        [] -> seen
-        t : rest
-            | t `Set.member` seen -> go seen rest
-            | otherwise ->
-                let ps = maybe [] (\l -> l.value.parents) (Map.lookup t w.techniques)
-                 in go (Set.insert t seen) (ps ++ rest)
 
 {- | How long a step of reference duration @d@ takes under these conditions,
 scaling by Q10 per 10 °C away from the reference temperature. 'Nothing'
