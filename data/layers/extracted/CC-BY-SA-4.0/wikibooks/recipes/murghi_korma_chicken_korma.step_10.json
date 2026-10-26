@@ -14,12 +14,38 @@
           "qty": 1,
           "unit": "batch"
         }
+      },
+      {
+        "min": 0,
+        "max": 1,
+        "of": [
+          {
+            "ingredient": "rosewater",
+            "amount": {
+              "qty": 1,
+              "unit": "pinch"
+            }
+          }
+        ]
+      },
+      {
+        "min": 0,
+        "max": 1,
+        "of": [
+          {
+            "ingredient": "almond",
+            "amount": {
+              "qty": 1,
+              "unit": "tbsp"
+            }
+          }
+        ]
       }
     ]
   },
   "outputs": [
     {
-      "ingredient": "murghi_korma_chicken_korma_step_10",
+      "ingredient": "murghi_korma_chicken_korma",
       "amount": {
         "qty": 1,
         "unit": "batch"
@@ -39,6 +65,11 @@
   },
   "stateNote": "Stir in cream when almost cooked.",
   "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'A few drops rosewater (optional)': no quantity given; assumed a pinch"
+    },
     {
       "field": "environment",
       "kind": "estimate",

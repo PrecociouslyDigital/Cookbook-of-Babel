@@ -16,6 +16,13 @@
         }
       },
       {
+        "ingredient": "carrots",
+        "amount": {
+          "qty": 1.5,
+          "unit": "cup"
+        }
+      },
+      {
         "ingredient": "cooked_chicken",
         "amount": {
           "qty": 2,
@@ -53,6 +60,11 @@
   },
   "stateNote": "Add dumplings, chicken, carrots, celery, and chives to the soup.",
   "issues": [
+    {
+      "field": "inputs",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.28"
+    },
     {
       "field": "environment",
       "kind": "estimate",

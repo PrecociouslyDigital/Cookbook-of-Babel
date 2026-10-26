@@ -5,7 +5,7 @@
     "source": "wikibooks_chilli_crab",
     "step": 1
   },
-  "technique": "chill",
+  "technique": "freeze",
   "inputs": {
     "of": [
       {
@@ -19,7 +19,7 @@
   },
   "outputs": [
     {
-      "ingredient": "crab_chill",
+      "ingredient": "crab_freeze",
       "amount": {
         "qty": 1000,
         "unit": "g"
@@ -27,7 +27,7 @@
     }
   ],
   "environment": {
-    "temperatureC": 3,
+    "temperatureC": -20,
     "medium": "still_air"
   },
   "end": {
@@ -41,13 +41,8 @@
   "issues": [
     {
       "field": "environment",
-      "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.53"
-    },
-    {
-      "field": "environment",
       "kind": "estimate",
-      "note": "no temperature given; used the middle of chill's typical range"
+      "note": "no temperature given; used the middle of freeze's typical range"
     }
   ]
 }

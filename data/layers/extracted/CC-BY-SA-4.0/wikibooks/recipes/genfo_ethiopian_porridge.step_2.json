@@ -5,7 +5,7 @@
     "source": "wikibooks_genfo_ethiopian_porridge",
     "step": 2
   },
-  "technique": "simmer",
+  "technique": "heat",
   "inputs": {
     "of": [
       {
@@ -27,7 +27,7 @@
     }
   ],
   "environment": {
-    "temperatureC": 90,
+    "temperatureC": 180,
     "medium": "pan_contact"
   },
   "end": {
@@ -40,14 +40,9 @@
   "stateNote": "Place the pot over medium heat and cook the mixture, stirring constantly, until it thickens and reaches a porridge-like consistency. This usually takes about 10–15 minutes. Keep stirring the mixture constantly while cooking to prevent lumps from forming.",
   "issues": [
     {
-      "field": "technique",
-      "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.54"
-    },
-    {
       "field": "environment",
       "kind": "estimate",
-      "note": "no temperature given; used the middle of simmer's typical range"
+      "note": "no temperature given; assumed 180.0 °C for pan_contact"
     }
   ]
 }

@@ -54,15 +54,15 @@
       }
     }
   ],
-  "environment": {
-    "temperatureC": 100,
-    "medium": "boiling_water"
-  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
     }
   },
   "stateNote": "Cut carrots into desired bite-sized shapes. Cut green beans into short, even lengths. Separate cauliflower into bite-sized florets. Peel seeded cucumber and cut into bite-sized cubes. Cut cabbage into bite-sized pieces.",
@@ -70,12 +70,7 @@
     {
       "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.58"
-    },
-    {
-      "field": "environment",
-      "kind": "estimate",
-      "note": "no temperature given; assumed 100.0 °C for boiling_water"
+      "note": "the decision model gave this answer a probability of 0.5"
     },
     {
       "field": "end",

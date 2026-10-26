@@ -26,15 +26,15 @@
       }
     }
   ],
+  "environment": {
+    "temperatureC": 90,
+    "medium": "simmering_water"
+  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
-    },
-    "sensitivity": {
-      "refTempC": 20,
-      "q10": 1
     }
   },
   "stateNote": "If you have cooked the dumpling mixture using the towel method, remove the large dumpling from the dishtowel, cut it into generous slices, and arrange them nicely on a plate. Otherwise, transfer the drained cooked dumplings to a dish.",
@@ -42,12 +42,17 @@
     {
       "field": "technique",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.58"
+      "note": "the decision model gave this answer a probability of 0.56"
     },
     {
       "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.43"
+      "note": "the decision model gave this answer a probability of 0.51"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 90.0 °C for simmering_water"
     },
     {
       "field": "end",
@@ -57,7 +62,7 @@
     {
       "field": "inputs",
       "kind": "missing",
-      "note": "no step uses 'Parsley' (p=0.55)"
+      "note": "no step uses 'Parsley' (p=0.67)"
     }
   ]
 }

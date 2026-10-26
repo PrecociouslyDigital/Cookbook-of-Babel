@@ -5,14 +5,21 @@
     "source": "wikibooks_malawach_flaky_flatbread",
     "step": 10
   },
-  "technique": "knead",
+  "technique": "shape",
   "inputs": {
     "of": [
       {
         "ingredient": "malawach_flaky_flatbread_step_8",
         "amount": {
-          "qty": 1920,
+          "qty": 1919.7,
           "unit": "g"
+        }
+      },
+      {
+        "ingredient": "vegetable_oil",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
         }
       }
     ]
@@ -40,9 +47,14 @@
   "stateNote": "Use your hands to flatten out the dough coils on a greased surface.",
   "issues": [
     {
-      "field": "technique",
+      "field": "inputs",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.53"
+      "note": "the decision model gave this answer a probability of 0.57"
+    },
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Vegetable oil (sufficient for lining skillet)': no quantity given; assumed a pinch"
     },
     {
       "field": "end",

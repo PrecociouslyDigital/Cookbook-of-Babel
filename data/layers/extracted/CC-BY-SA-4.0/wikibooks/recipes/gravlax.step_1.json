@@ -5,7 +5,7 @@
     "source": "wikibooks_gravlax",
     "step": 1
   },
-  "technique": "cut",
+  "technique": "freeze",
   "inputs": {
     "of": [
       {
@@ -19,35 +19,30 @@
   },
   "outputs": [
     {
-      "ingredient": "salmon_cut",
+      "ingredient": "salmon_freeze",
       "amount": {
         "qty": 800,
         "unit": "g"
       }
     }
   ],
-  "environment": {
-    "temperatureC": 18,
-    "medium": "still_air"
-  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 4,
       "unit": "d"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
     }
   },
   "stateNote": "Cut the salmon filet into two equally-sized parts (if you are making gravlax for many people it is fine to use two filets instead). Freeze the salmon for at least 4 days at -18°C or colder to kill any parasites.",
   "issues": [
     {
-      "field": "technique",
-      "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.51"
-    },
-    {
       "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.52"
+      "note": "the decision model gave this answer a probability of 0.57"
     }
   ]
 }

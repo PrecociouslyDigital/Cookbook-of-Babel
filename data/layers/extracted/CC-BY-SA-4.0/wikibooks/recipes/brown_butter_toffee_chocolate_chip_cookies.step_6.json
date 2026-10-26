@@ -5,7 +5,7 @@
     "source": "wikibooks_brown_butter_toffee_chocolate_chip_cookies",
     "step": 6
   },
-  "technique": "cool",
+  "technique": "dissolve",
   "inputs": {
     "of": [
       {
@@ -33,15 +33,15 @@
       }
     }
   ],
+  "environment": {
+    "temperatureC": 180,
+    "medium": "pan_contact"
+  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
-    },
-    "sensitivity": {
-      "refTempC": 20,
-      "q10": 1
     }
   },
   "stateNote": "Add an ice cube to the butter and let it melt. Repeat with remaining ice cubes.",
@@ -49,12 +49,17 @@
     {
       "field": "technique",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.37"
+      "note": "the decision model gave this answer a probability of 0.54"
     },
     {
       "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.46"
+      "note": "the decision model gave this answer a probability of 0.53"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 180.0 °C for pan_contact"
     },
     {
       "field": "end",

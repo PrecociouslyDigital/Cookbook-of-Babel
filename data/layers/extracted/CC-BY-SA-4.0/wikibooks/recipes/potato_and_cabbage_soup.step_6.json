@@ -5,7 +5,7 @@
     "source": "wikibooks_potato_and_cabbage_soup",
     "step": 6
   },
-  "technique": "simmer",
+  "technique": "boil",
   "inputs": {
     "of": [
       {
@@ -48,7 +48,7 @@
     }
   ],
   "environment": {
-    "temperatureC": 90,
+    "temperatureC": 100,
     "medium": "simmering_water"
   },
   "end": {
@@ -61,9 +61,14 @@
   "stateNote": "Add vinegar and cook for 15 minutes, then add potatoes and beet roots and cook for another 5 minutes.",
   "issues": [
     {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.5"
+    },
+    {
       "field": "environment",
       "kind": "estimate",
-      "note": "no temperature given; used the middle of simmer's typical range"
+      "note": "no temperature given; used the middle of boil's typical range"
     },
     {
       "field": "end",

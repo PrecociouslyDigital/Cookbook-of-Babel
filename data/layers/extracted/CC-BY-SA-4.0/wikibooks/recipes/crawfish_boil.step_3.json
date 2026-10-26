@@ -5,13 +5,13 @@
     "source": "wikibooks_crawfish_boil",
     "step": 3
   },
-  "technique": "simmer",
+  "technique": "soak",
   "inputs": {
     "of": [
       {
         "ingredient": "crawfish_boil_step_2",
         "amount": {
-          "qty": 2586.9,
+          "qty": 2587.2,
           "unit": "g"
         }
       }
@@ -21,14 +21,14 @@
     {
       "ingredient": "crawfish_boil_step_3",
       "amount": {
-        "qty": 2586.9,
+        "qty": 2587.2,
         "unit": "g"
       }
     }
   ],
   "environment": {
     "temperatureC": 90,
-    "medium": "boiling_water"
+    "medium": "simmering_water"
   },
   "end": {
     "by": "time",
@@ -42,12 +42,12 @@
     {
       "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.5"
+      "note": "the decision model gave this answer a probability of 0.51"
     },
     {
       "field": "environment",
       "kind": "estimate",
-      "note": "no temperature given; used the middle of simmer's typical range"
+      "note": "no temperature given; assumed 90.0 °C for simmering_water"
     }
   ]
 }

@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "chickpea_mix",
+        "ingredient": "chickpea_soak",
         "amount": {
           "qty": 118.3,
           "unit": "g"
@@ -19,22 +19,22 @@
   },
   "outputs": [
     {
-      "ingredient": "chickpea_mix_rinse",
+      "ingredient": "chickpea_soak_rinse",
       "amount": {
         "qty": 118.3,
         "unit": "g"
       }
     }
   ],
+  "environment": {
+    "temperatureC": 90,
+    "medium": "simmering_water"
+  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
-    },
-    "sensitivity": {
-      "refTempC": 20,
-      "q10": 1
     }
   },
   "stateNote": "Drain, rinse, and place chickpeas in saucepan. Just barely cover with water.",
@@ -42,7 +42,12 @@
     {
       "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.51"
+      "note": "the decision model gave this answer a probability of 0.43"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 90.0 °C for simmering_water"
     },
     {
       "field": "end",

@@ -1,0 +1,53 @@
+{
+  "id": "koshary_egyptian_pasta_salad_with_rice_and_lentils.step_1",
+  "source": "wikibooks_koshary_egyptian_pasta_salad_with_rice_and_lentils",
+  "sourceRef": {
+    "source": "wikibooks_koshary_egyptian_pasta_salad_with_rice_and_lentils",
+    "step": 1
+  },
+  "technique": "soak",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "lentil",
+        "amount": {
+          "qty": 1,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "lentil_soak",
+      "amount": {
+        "qty": 236.6,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 8,
+      "unit": "h"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "If using dried chickpeas and lentils, soak them in water overnight.",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for lentil"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "'overnight' read as 8 hours"
+    }
+  ]
+}

@@ -5,7 +5,7 @@
     "source": "wikibooks_krummelpap_south_african_maize_porridge",
     "step": 5
   },
-  "technique": "simmer",
+  "technique": "steam",
   "inputs": {
     "of": [
       {
@@ -27,7 +27,7 @@
     }
   ],
   "environment": {
-    "temperatureC": 90,
+    "temperatureC": 100,
     "medium": "steam"
   },
   "end": {
@@ -40,14 +40,19 @@
   "stateNote": "Taste after 35 minutes to test if it is done. If it still tastes like maize, continue cooking—the wonder of this porridge is that you can't overcook it, though you can burn it. It takes approximately 50 minutes to cook.",
   "issues": [
     {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.42"
+    },
+    {
       "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.48"
+      "note": "the decision model gave this answer a probability of 0.47"
     },
     {
       "field": "environment",
       "kind": "estimate",
-      "note": "no temperature given; used the middle of simmer's typical range"
+      "note": "no temperature given; used the middle of steam's typical range"
     },
     {
       "field": "end",

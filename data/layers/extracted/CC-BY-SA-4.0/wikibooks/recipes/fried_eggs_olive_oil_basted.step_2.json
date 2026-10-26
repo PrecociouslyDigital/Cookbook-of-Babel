@@ -21,12 +21,26 @@
           "qty": 1,
           "unit": "piece"
         }
+      },
+      {
+        "ingredient": "salt",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      },
+      {
+        "ingredient": "pepper",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
       }
     ]
   },
   "outputs": [
     {
-      "ingredient": "fried_eggs_olive_oil_basted_step_2",
+      "ingredient": "fried_eggs_olive_oil_basted",
       "amount": {
         "qty": 1,
         "unit": "batch"
@@ -47,9 +61,14 @@
   "stateNote": "Crack open one egg into the pan. Let fry while basting the yolk with hot oil in order to cook the top. If the egg begins to bubble, lower the heat.",
   "issues": [
     {
-      "field": "technique",
-      "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.58"
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Salt': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Pepper': no quantity given; assumed a pinch"
     },
     {
       "field": "environment",

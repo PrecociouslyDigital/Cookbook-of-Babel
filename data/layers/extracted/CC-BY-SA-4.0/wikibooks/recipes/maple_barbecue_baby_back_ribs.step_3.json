@@ -5,7 +5,7 @@
     "source": "wikibooks_maple_barbecue_baby_back_ribs",
     "step": 3
   },
-  "technique": "heat",
+  "technique": "smoke",
   "inputs": {
     "of": [
       {
@@ -41,8 +41,8 @@
     }
   ],
   "environment": {
-    "temperatureC": 180,
-    "medium": "convection_air"
+    "temperatureC": 80,
+    "medium": "still_air"
   },
   "end": {
     "by": "time",
@@ -54,14 +54,9 @@
   "stateNote": "Place ribs in smoker and cook, brushing with barbecue sauce every 1½ hours for 4 hours or until very tender, changing chunks as needed.",
   "issues": [
     {
-      "field": "technique",
-      "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.54"
-    },
-    {
       "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.38"
+      "note": "the decision model gave this answer a probability of 0.52"
     },
     {
       "field": "inputs",
@@ -76,7 +71,7 @@
     {
       "field": "environment",
       "kind": "estimate",
-      "note": "no temperature given; assumed 180.0 °C for convection_air"
+      "note": "no temperature given; used the middle of smoke's typical range"
     },
     {
       "field": "end",

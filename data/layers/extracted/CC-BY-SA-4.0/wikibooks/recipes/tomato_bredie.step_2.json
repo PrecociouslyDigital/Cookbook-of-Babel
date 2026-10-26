@@ -5,7 +5,7 @@
     "source": "wikibooks_tomato_bredie",
     "step": 2
   },
-  "technique": "mix",
+  "technique": "coat",
   "inputs": {
     "of": [
       {
@@ -40,15 +40,15 @@
       }
     }
   ],
-  "environment": {
-    "temperatureC": 175,
-    "medium": "frying_oil"
-  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
     }
   },
   "stateNote": "Dredge lamb in flour; shake off excess.",
@@ -56,12 +56,7 @@
     {
       "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.37"
-    },
-    {
-      "field": "environment",
-      "kind": "estimate",
-      "note": "no temperature given; assumed 175.0 °C for frying_oil"
+      "note": "the decision model gave this answer a probability of 0.41"
     },
     {
       "field": "end",

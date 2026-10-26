@@ -5,7 +5,7 @@
     "source": "wikibooks_indian_ice_cream",
     "step": 1
   },
-  "technique": "grind",
+  "technique": "press",
   "inputs": {
     "of": [
       {
@@ -19,7 +19,7 @@
   },
   "outputs": [
     {
-      "ingredient": "buffaloberry_grind",
+      "ingredient": "indian_ice_cream_step_1",
       "amount": {
         "qty": 473.2,
         "unit": "g"
@@ -39,6 +39,11 @@
   },
   "stateNote": "Crush berries to release the liquid/juice.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.55"
+    },
     {
       "field": "outputs",
       "kind": "estimate",

@@ -5,7 +5,7 @@
     "source": "wikibooks_huevos_rancheros",
     "step": 5
   },
-  "technique": "assemble",
+  "technique": "pan_fry",
   "inputs": {
     "of": [
       {
@@ -34,8 +34,8 @@
     }
   ],
   "environment": {
-    "temperatureC": 175,
-    "medium": "frying_oil"
+    "temperatureC": 185,
+    "medium": "pan_contact"
   },
   "end": {
     "by": "time",
@@ -49,7 +49,7 @@
     {
       "field": "technique",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.5"
+      "note": "the decision model gave this answer a probability of 0.51"
     },
     {
       "field": "environment",
@@ -59,7 +59,7 @@
     {
       "field": "environment",
       "kind": "estimate",
-      "note": "no temperature given; assumed 175.0 °C for frying_oil"
+      "note": "no temperature given; used the middle of pan_fry's typical range"
     },
     {
       "field": "end",
@@ -69,7 +69,7 @@
     {
       "field": "inputs",
       "kind": "missing",
-      "note": "no step uses '½ teaspoon sugar' (p=0.94)"
+      "note": "no step uses '½ teaspoon sugar' (p=0.91)"
     }
   ]
 }

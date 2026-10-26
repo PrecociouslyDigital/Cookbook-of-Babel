@@ -5,7 +5,7 @@
     "source": "wikibooks_habet_hlawa_algerian_anise_beverage",
     "step": 4
   },
-  "technique": "simmer",
+  "technique": "evaporate",
   "inputs": {
     "of": [
       {
@@ -34,7 +34,7 @@
     }
   ],
   "environment": {
-    "temperatureC": 90,
+    "temperatureC": 100,
     "medium": "simmering_water"
   },
   "end": {
@@ -47,6 +47,16 @@
   "stateNote": "Add the sugar as desired, and bring to boil again over medium heat. Simmer until the syrup drips into a thin stream.",
   "issues": [
     {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.47"
+    },
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.59"
+    },
+    {
       "field": "inputs",
       "kind": "estimate",
       "note": "'Sugar': no quantity given; assumed a pinch"
@@ -54,7 +64,7 @@
     {
       "field": "environment",
       "kind": "estimate",
-      "note": "no temperature given; used the middle of simmer's typical range"
+      "note": "no temperature given; used the middle of evaporate's typical range"
     },
     {
       "field": "end",

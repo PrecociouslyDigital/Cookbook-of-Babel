@@ -5,7 +5,7 @@
     "source": "wikibooks_poundo_yam",
     "step": 3
   },
-  "technique": "simmer",
+  "technique": "heat",
   "inputs": {
     "of": [
       {
@@ -27,8 +27,8 @@
     }
   ],
   "environment": {
-    "temperatureC": 90,
-    "medium": "simmering_water"
+    "temperatureC": 100,
+    "medium": "boiling_water"
   },
   "end": {
     "by": "time",
@@ -40,14 +40,19 @@
   "stateNote": "Add a small quantity of water and cook for few minutes.",
   "issues": [
     {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.5"
+    },
+    {
       "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.45"
+      "note": "the decision model gave this answer a probability of 0.37"
     },
     {
       "field": "environment",
       "kind": "estimate",
-      "note": "no temperature given; used the middle of simmer's typical range"
+      "note": "no temperature given; assumed 100.0 °C for boiling_water"
     },
     {
       "field": "end",

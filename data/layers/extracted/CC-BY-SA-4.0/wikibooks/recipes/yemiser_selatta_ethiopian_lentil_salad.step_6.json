@@ -14,6 +14,13 @@
           "qty": 1,
           "unit": "batch"
         }
+      },
+      {
+        "ingredient": "salt",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
       }
     ]
   },
@@ -39,6 +46,16 @@
   },
   "stateNote": "Taste and adjust the seasoning with salt and pepper if needed.",
   "issues": [
+    {
+      "field": "inputs",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.55"
+    },
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Salt to taste': no quantity given; assumed a pinch"
+    },
     {
       "field": "end",
       "kind": "estimate",

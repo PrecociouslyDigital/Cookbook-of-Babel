@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "chocolate_steam_heat",
+        "ingredient": "chocolate_heat_heat",
         "amount": {
           "qty": 226.8,
           "unit": "g"
@@ -19,22 +19,22 @@
   },
   "outputs": [
     {
-      "ingredient": "chocolate_steam_heat_cool",
+      "ingredient": "chocolate_heat_heat_cool",
       "amount": {
         "qty": 226.8,
         "unit": "g"
       }
     }
   ],
+  "environment": {
+    "temperatureC": 90,
+    "medium": "simmering_water"
+  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
-    },
-    "sensitivity": {
-      "refTempC": 20,
-      "q10": 1
     }
   },
   "stateNote": "Remove from the pot of hot water.",
@@ -42,7 +42,12 @@
     {
       "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.37"
+      "note": "the decision model gave this answer a probability of 0.4"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 90.0 °C for simmering_water"
     },
     {
       "field": "end",

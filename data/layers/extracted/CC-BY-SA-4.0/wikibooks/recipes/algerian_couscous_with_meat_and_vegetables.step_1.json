@@ -5,7 +5,7 @@
     "source": "wikibooks_algerian_couscous_with_meat_and_vegetables",
     "step": 1
   },
-  "technique": "mix",
+  "technique": "soak",
   "inputs": {
     "of": [
       {
@@ -40,15 +40,15 @@
       }
     }
   ],
+  "environment": {
+    "temperatureC": 100,
+    "medium": "boiling_water"
+  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 10,
       "unit": "min"
-    },
-    "sensitivity": {
-      "refTempC": 20,
-      "q10": 1
     }
   },
   "stateNote": "To hydrate the couscous, mix the couscous with olive oil and a little salt in a large bowl. Rub the grains between your hands to coat them evenly with oil. Gradually add the warm water while stirring to moisten the couscous. Let it sit for 10 minutes to absorb the water.",
@@ -56,12 +56,17 @@
     {
       "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.4"
+      "note": "the decision model gave this answer a probability of 0.41"
     },
     {
       "field": "outputs",
       "kind": "estimate",
       "note": "assumed 1 g/ml for olive_oil"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 100.0 °C for boiling_water"
     }
   ]
 }

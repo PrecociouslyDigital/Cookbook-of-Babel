@@ -56,6 +56,19 @@
           "qty": 3.5,
           "unit": "piece"
         }
+      },
+      {
+        "min": 0,
+        "max": 1,
+        "of": [
+          {
+            "ingredient": "mushroom",
+            "amount": {
+              "qty": 2.5,
+              "unit": "piece"
+            }
+          }
+        ]
       }
     ]
   },
@@ -81,6 +94,11 @@
   },
   "stateNote": "Mix in other ingredients (including sliced mushrooms), lower heat, and simmer for 5–10 minutes.",
   "issues": [
+    {
+      "field": "inputs",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.52"
+    },
     {
       "field": "environment",
       "kind": "estimate",

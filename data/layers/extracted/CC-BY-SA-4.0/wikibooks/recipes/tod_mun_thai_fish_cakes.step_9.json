@@ -5,7 +5,7 @@
     "source": "wikibooks_tod_mun_thai_fish_cakes",
     "step": 9
   },
-  "technique": "strain",
+  "technique": "dry",
   "inputs": {
     "of": [
       {
@@ -27,7 +27,7 @@
     }
   ],
   "environment": {
-    "temperatureC": 175,
+    "temperatureC": 55,
     "medium": "frying_oil"
   },
   "end": {
@@ -40,14 +40,19 @@
   "stateNote": "When cooked on both sides, place on a paper towel to drain any extra oil. Continue with the rest of the mixture.",
   "issues": [
     {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.45"
+    },
+    {
       "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.48"
+      "note": "the decision model gave this answer a probability of 0.53"
     },
     {
       "field": "environment",
       "kind": "estimate",
-      "note": "no temperature given; assumed 175.0 °C for frying_oil"
+      "note": "no temperature given; used the middle of dry's typical range"
     },
     {
       "field": "end",

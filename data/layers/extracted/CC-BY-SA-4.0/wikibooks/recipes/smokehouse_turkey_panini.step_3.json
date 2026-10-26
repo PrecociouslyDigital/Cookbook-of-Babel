@@ -5,7 +5,7 @@
     "source": "wikibooks_smokehouse_turkey_panini",
     "step": 3
   },
-  "technique": "grill",
+  "technique": "coat",
   "inputs": {
     "of": [
       {
@@ -34,7 +34,7 @@
     }
   ],
   "environment": {
-    "temperatureC": 250,
+    "temperatureC": 180,
     "medium": "pan_contact"
   },
   "end": {
@@ -47,6 +47,11 @@
   "stateNote": "Brush both sides of sandwiches with oil then place on grill.",
   "issues": [
     {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.56"
+    },
+    {
       "field": "inputs",
       "kind": "estimate",
       "note": "'Olive oil': no quantity given; assumed a pinch"
@@ -54,7 +59,7 @@
     {
       "field": "environment",
       "kind": "estimate",
-      "note": "no temperature given; used the middle of grill's typical range"
+      "note": "no temperature given; assumed 180.0 °C for pan_contact"
     },
     {
       "field": "end",

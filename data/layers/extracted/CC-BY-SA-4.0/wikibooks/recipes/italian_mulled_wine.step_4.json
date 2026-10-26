@@ -5,7 +5,7 @@
     "source": "wikibooks_italian_mulled_wine",
     "step": 4
   },
-  "technique": "simmer",
+  "technique": "mix",
   "inputs": {
     "of": [
       {
@@ -20,6 +20,13 @@
         "amount": {
           "qty": 1,
           "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "rosemary",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
         }
       },
       {
@@ -143,12 +150,22 @@
     {
       "field": "technique",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.56"
+      "note": "the decision model gave this answer a probability of 0.3"
+    },
+    {
+      "field": "inputs",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.51"
+    },
+    {
+      "field": "inputs",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.59"
     },
     {
       "field": "environment",
       "kind": "estimate",
-      "note": "no temperature given; used the middle of simmer's typical range"
+      "note": "no temperature given; assumed 90.0 °C for simmering_water"
     },
     {
       "field": "end",

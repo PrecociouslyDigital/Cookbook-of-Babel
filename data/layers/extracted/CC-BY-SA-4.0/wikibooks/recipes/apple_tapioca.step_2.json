@@ -5,7 +5,7 @@
     "source": "wikibooks_apple_tapioca",
     "step": 2
   },
-  "technique": "simmer",
+  "technique": "steam",
   "inputs": {
     "of": [
       {
@@ -27,7 +27,7 @@
     }
   ],
   "environment": {
-    "temperatureC": 90,
+    "temperatureC": 100,
     "medium": "boiling_water"
   },
   "end": {
@@ -40,14 +40,19 @@
   "stateNote": "Cook in a double boiler until the tapioca is entirely transparent.",
   "issues": [
     {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.45"
+    },
+    {
       "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.43"
+      "note": "the decision model gave this answer a probability of 0.41"
     },
     {
       "field": "environment",
       "kind": "estimate",
-      "note": "no temperature given; used the middle of simmer's typical range"
+      "note": "no temperature given; used the middle of steam's typical range"
     },
     {
       "field": "end",

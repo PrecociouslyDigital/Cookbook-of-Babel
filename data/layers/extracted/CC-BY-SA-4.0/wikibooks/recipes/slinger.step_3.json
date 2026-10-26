@@ -5,7 +5,7 @@
     "source": "wikibooks_slinger",
     "step": 3
   },
-  "technique": "simmer",
+  "technique": "heat",
   "inputs": {
     "of": [
       {
@@ -47,6 +47,16 @@
   "stateNote": "Cook the chili.",
   "issues": [
     {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.56"
+    },
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.58"
+    },
+    {
       "field": "inputs",
       "kind": "estimate",
       "note": "'Chili': no quantity given; assumed a pinch"
@@ -54,7 +64,7 @@
     {
       "field": "environment",
       "kind": "estimate",
-      "note": "no temperature given; used the middle of simmer's typical range"
+      "note": "no temperature given; assumed 90.0 °C for simmering_water"
     },
     {
       "field": "end",

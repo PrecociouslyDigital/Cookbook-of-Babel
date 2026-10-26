@@ -5,7 +5,7 @@
     "source": "wikibooks_honey_lime_chicken_wings",
     "step": 4
   },
-  "technique": "mix",
+  "technique": "coat",
   "inputs": {
     "of": [
       {
@@ -61,15 +61,15 @@
       }
     }
   ],
+  "environment": {
+    "temperatureC": 20,
+    "medium": "still_air"
+  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
-    },
-    "sensitivity": {
-      "refTempC": 20,
-      "q10": 1
     }
   },
   "stateNote": "Meanwhile, combine remaining ingredients in a large nonreactive bowl. Add wings and toss to coat. Serve warm.",
@@ -77,7 +77,12 @@
     {
       "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.46"
+      "note": "the decision model gave this answer a probability of 0.42"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 20.0 °C for still_air"
     },
     {
       "field": "end",

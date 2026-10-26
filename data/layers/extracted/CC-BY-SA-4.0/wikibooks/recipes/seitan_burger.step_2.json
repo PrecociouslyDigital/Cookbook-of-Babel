@@ -41,6 +41,13 @@
             }
           }
         ]
+      },
+      {
+        "ingredient": "cumin",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
       }
     ]
   },
@@ -48,7 +55,7 @@
     {
       "ingredient": "seitan_burger_step_2",
       "amount": {
-        "qty": 533.4,
+        "qty": 533.7,
         "unit": "g"
       }
     }
@@ -68,6 +75,11 @@
   "issues": [
     {
       "field": "inputs",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.49"
+    },
+    {
+      "field": "inputs",
       "kind": "estimate",
       "note": "'Salt': no quantity given; assumed a pinch"
     },
@@ -77,9 +89,14 @@
       "note": "'Spices (e.g. garlic powder, optional)': no quantity given; assumed a pinch"
     },
     {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Cumin': no quantity given; assumed a pinch"
+    },
+    {
       "field": "outputs",
       "kind": "estimate",
-      "note": "assumed 1 g/ml for gluten, garlic_powder"
+      "note": "assumed 1 g/ml for gluten, garlic_powder, cumin"
     },
     {
       "field": "end",

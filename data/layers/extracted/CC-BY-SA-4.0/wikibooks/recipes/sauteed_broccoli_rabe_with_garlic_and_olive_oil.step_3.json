@@ -5,11 +5,11 @@
     "source": "wikibooks_sauteed_broccoli_rabe_with_garlic_and_olive_oil",
     "step": 3
   },
-  "technique": "stir_fry",
+  "technique": "pan_fry",
   "inputs": {
     "of": [
       {
-        "ingredient": "sauteed_broccoli_rabe_with_garlic_and_olive_oil_step_2",
+        "ingredient": "broccoli_rabe_rinse_boil",
         "amount": {
           "qty": 1,
           "unit": "batch"
@@ -42,6 +42,13 @@
           "qty": 1,
           "unit": "pinch"
         }
+      },
+      {
+        "ingredient": "salt",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
       }
     ]
   },
@@ -55,7 +62,7 @@
     }
   ],
   "environment": {
-    "temperatureC": 215,
+    "temperatureC": 185,
     "medium": "pan_contact"
   },
   "end": {
@@ -68,14 +75,24 @@
   "stateNote": "Meanwhile, heat the extra-virgin olive oil in a sauté pan over medium heat. Add the garlic and crushed red pepper. Sauté the garlic until brown. Add the broccoli rabe to the pan and toss to coat with the garlic/pepper mixture and heat through. Season to taste with salt and freshly ground black pepper, if desired.",
   "issues": [
     {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.47"
+    },
+    {
       "field": "inputs",
       "kind": "estimate",
       "note": "'Freshly-ground black pepper': no quantity given; assumed a pinch"
     },
     {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Salt to taste': no quantity given; assumed a pinch"
+    },
+    {
       "field": "environment",
       "kind": "estimate",
-      "note": "no temperature given; used the middle of stir_fry's typical range"
+      "note": "no temperature given; used the middle of pan_fry's typical range"
     },
     {
       "field": "end",

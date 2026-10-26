@@ -5,7 +5,7 @@
     "source": "wikibooks_kek_batik_malaysian_tiffin",
     "step": 3
   },
-  "technique": "mix",
+  "technique": "coat",
   "inputs": {
     "of": [
       {
@@ -40,15 +40,15 @@
       }
     }
   ],
-  "environment": {
-    "temperatureC": 180,
-    "medium": "pan_contact"
-  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
     }
   },
   "stateNote": "Remove from the heat, and stir in the biscuit pieces and cereal flakes so everything is well coated with the chocolate mixture.",
@@ -56,12 +56,7 @@
     {
       "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.48"
-    },
-    {
-      "field": "environment",
-      "kind": "estimate",
-      "note": "no temperature given; assumed 180.0 °C for pan_contact"
+      "note": "the decision model gave this answer a probability of 0.53"
     },
     {
       "field": "end",

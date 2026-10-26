@@ -5,7 +5,7 @@
     "source": "wikibooks_tiramisu",
     "step": 1
   },
-  "technique": "cool",
+  "technique": "steep",
   "inputs": {
     "of": [
       {
@@ -19,7 +19,7 @@
   },
   "outputs": [
     {
-      "ingredient": "coffee_cool",
+      "ingredient": "coffee_steep",
       "amount": {
         "qty": 1,
         "unit": "batch"
@@ -27,7 +27,7 @@
     }
   ],
   "environment": {
-    "temperatureC": 100,
+    "temperatureC": 85,
     "medium": "boiling_water"
   },
   "end": {
@@ -40,11 +40,6 @@
   "stateNote": "Make espresso coffee, and let it cool a bit.",
   "issues": [
     {
-      "field": "technique",
-      "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.47"
-    },
-    {
       "field": "inputs",
       "kind": "estimate",
       "note": "'4 small coffee cups espresso coffee': 'coffee' read as pieces"
@@ -52,7 +47,7 @@
     {
       "field": "environment",
       "kind": "estimate",
-      "note": "no temperature given; assumed 100.0 °C for boiling_water"
+      "note": "no temperature given; used the middle of steep's typical range"
     },
     {
       "field": "end",

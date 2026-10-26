@@ -5,11 +5,11 @@
     "source": "wikibooks_mint_tea",
     "step": 3
   },
-  "technique": "simmer",
+  "technique": "steep",
   "inputs": {
     "of": [
       {
-        "ingredient": "water_boil",
+        "ingredient": "mint_tea_step_2",
         "amount": {
           "qty": 0.3,
           "unit": "g"
@@ -34,7 +34,7 @@
     }
   ],
   "environment": {
-    "temperatureC": 90,
+    "temperatureC": 85,
     "medium": "boiling_water"
   },
   "end": {
@@ -46,11 +46,6 @@
   },
   "stateNote": "Put the mint leaves in the teapot. Let steep for several minutes.",
   "issues": [
-    {
-      "field": "technique",
-      "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.31"
-    },
     {
       "field": "inputs",
       "kind": "estimate",
@@ -64,7 +59,7 @@
     {
       "field": "environment",
       "kind": "estimate",
-      "note": "no temperature given; used the middle of simmer's typical range"
+      "note": "no temperature given; used the middle of steep's typical range"
     },
     {
       "field": "end",

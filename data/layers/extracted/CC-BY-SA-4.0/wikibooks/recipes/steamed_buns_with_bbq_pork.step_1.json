@@ -82,15 +82,15 @@
       }
     }
   ],
+  "environment": {
+    "temperatureC": 100,
+    "medium": "steam"
+  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
-    },
-    "sensitivity": {
-      "refTempC": 20,
-      "q10": 1
     }
   },
   "stateNote": "Place all ingredients in food processor.",
@@ -98,17 +98,17 @@
     {
       "field": "technique",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.54"
-    },
-    {
-      "field": "environment",
-      "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.51"
+      "note": "the decision model gave this answer a probability of 0.52"
     },
     {
       "field": "outputs",
       "kind": "estimate",
       "note": "assumed 1 g/ml for barbecue_sauce_i, soy_sauce, teriyaki_sauce, chile_paste_and_sauce, five_spice_powder, sesame_oil"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 100.0 °C for steam"
     },
     {
       "field": "end",

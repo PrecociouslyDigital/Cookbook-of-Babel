@@ -5,13 +5,13 @@
     "source": "wikibooks_kele_ka_halwa_fried_bananas_in_milk",
     "step": 3
   },
-  "technique": "simmer",
+  "technique": "evaporate",
   "inputs": {
     "of": [
       {
         "ingredient": "kele_ka_halwa_fried_bananas_in_milk_step_2",
         "amount": {
-          "qty": 280,
+          "qty": 30,
           "unit": "g"
         }
       },
@@ -28,13 +28,13 @@
     {
       "ingredient": "kele_ka_halwa_fried_bananas_in_milk_step_3",
       "amount": {
-        "qty": 795,
+        "qty": 545,
         "unit": "g"
       }
     }
   ],
   "environment": {
-    "temperatureC": 90,
+    "temperatureC": 100,
     "medium": "pan_contact"
   },
   "end": {
@@ -47,9 +47,14 @@
   "stateNote": "Simmer the milk until reduced and very thick.",
   "issues": [
     {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.52"
+    },
+    {
       "field": "environment",
       "kind": "estimate",
-      "note": "no temperature given; used the middle of simmer's typical range"
+      "note": "no temperature given; used the middle of evaporate's typical range"
     },
     {
       "field": "end",

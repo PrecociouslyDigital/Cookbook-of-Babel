@@ -5,7 +5,7 @@
     "source": "wikibooks_sweet_and_sour_chinese_pork",
     "step": 10
   },
-  "technique": "stir_fry",
+  "technique": "coat",
   "inputs": {
     "of": [
       {
@@ -27,7 +27,7 @@
     }
   ],
   "environment": {
-    "temperatureC": 215,
+    "temperatureC": 180,
     "medium": "pan_contact"
   },
   "end": {
@@ -40,14 +40,9 @@
   "stateNote": "Stir meat and sauce until meat is well covered, serve immediately.",
   "issues": [
     {
-      "field": "technique",
-      "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.54"
-    },
-    {
       "field": "environment",
       "kind": "estimate",
-      "note": "no temperature given; used the middle of stir_fry's typical range"
+      "note": "no temperature given; assumed 180.0 °C for pan_contact"
     },
     {
       "field": "end",

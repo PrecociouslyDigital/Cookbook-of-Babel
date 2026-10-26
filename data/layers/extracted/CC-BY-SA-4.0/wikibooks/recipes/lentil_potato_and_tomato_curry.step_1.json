@@ -5,7 +5,7 @@
     "source": "wikibooks_lentil_potato_and_tomato_curry",
     "step": 1
   },
-  "technique": "simmer",
+  "technique": "boil",
   "inputs": {
     "of": [
       {
@@ -48,7 +48,7 @@
     }
   ],
   "environment": {
-    "temperatureC": 90,
+    "temperatureC": 100,
     "medium": "simmering_water"
   },
   "end": {
@@ -61,14 +61,19 @@
   "stateNote": "In a large pot, combine and cook water, lentils, salt and bay leaf.",
   "issues": [
     {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.51"
+    },
+    {
       "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.59"
+      "note": "the decision model gave this answer a probability of 0.56"
     },
     {
       "field": "environment",
       "kind": "estimate",
-      "note": "no temperature given; used the middle of simmer's typical range"
+      "note": "no temperature given; used the middle of boil's typical range"
     },
     {
       "field": "end",

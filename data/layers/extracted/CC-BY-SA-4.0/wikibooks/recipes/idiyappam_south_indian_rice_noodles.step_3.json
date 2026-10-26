@@ -5,7 +5,7 @@
     "source": "wikibooks_idiyappam_south_indian_rice_noodles",
     "step": 3
   },
-  "technique": "strain",
+  "technique": "shape",
   "inputs": {
     "of": [
       {
@@ -33,33 +33,33 @@
       }
     }
   ],
+  "environment": {
+    "temperatureC": 100,
+    "medium": "steam"
+  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
-    },
-    "sensitivity": {
-      "refTempC": 20,
-      "q10": 1
     }
   },
   "stateNote": "Press the dough through an idiyappam presser or sieve onto banana leaves on which a little grated coconut has been sprinkled. Alternatively, press it directly onto an idli pan without banana leaves.",
   "issues": [
     {
-      "field": "technique",
-      "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.45"
-    },
-    {
       "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.4"
+      "note": "the decision model gave this answer a probability of 0.45"
     },
     {
       "field": "outputs",
       "kind": "estimate",
       "note": "assumed 1 g/ml for coconut"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 100.0 °C for steam"
     },
     {
       "field": "end",

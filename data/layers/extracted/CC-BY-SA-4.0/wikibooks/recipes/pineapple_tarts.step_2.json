@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "puff_pastry_knead",
+        "ingredient": "pineapple_tarts_step_1",
         "amount": {
           "qty": 226.8,
           "unit": "g"
@@ -19,7 +19,7 @@
   },
   "outputs": [
     {
-      "ingredient": "puff_pastry_knead_cut",
+      "ingredient": "pineapple_tarts_step_2",
       "amount": {
         "qty": 226.8,
         "unit": "g"
@@ -39,6 +39,11 @@
   },
   "stateNote": "Using a 4-inch plate as a guide, or a cutter, cut our 4 disks of pastry.",
   "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.56"
+    },
     {
       "field": "end",
       "kind": "estimate",

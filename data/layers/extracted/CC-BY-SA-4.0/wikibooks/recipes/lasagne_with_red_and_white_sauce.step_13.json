@@ -23,6 +23,13 @@
         }
       },
       {
+        "ingredient": "pepper",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      },
+      {
         "ingredient": "thyme",
         "amount": {
           "qty": 4.5,
@@ -47,15 +54,15 @@
       }
     }
   ],
-  "environment": {
-    "temperatureC": 180,
-    "medium": "pan_contact"
-  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
     }
   },
   "stateNote": "Stir in the salt, pepper, thyme, and nutmeg.",
@@ -67,18 +74,23 @@
     },
     {
       "field": "inputs",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.54"
+    },
+    {
+      "field": "inputs",
       "kind": "estimate",
       "note": "'Salt': no quantity given; assumed a pinch"
     },
     {
       "field": "inputs",
       "kind": "estimate",
-      "note": "'Nutmeg': no quantity given; assumed a pinch"
+      "note": "'Pepper': no quantity given; assumed a pinch"
     },
     {
-      "field": "environment",
+      "field": "inputs",
       "kind": "estimate",
-      "note": "no temperature given; assumed 180.0 °C for pan_contact"
+      "note": "'Nutmeg': no quantity given; assumed a pinch"
     },
     {
       "field": "end",

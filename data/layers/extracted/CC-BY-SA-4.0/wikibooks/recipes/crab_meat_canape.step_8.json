@@ -5,7 +5,7 @@
     "source": "wikibooks_crab_meat_canape",
     "step": 8
   },
-  "technique": "season",
+  "technique": "coat",
   "inputs": {
     "of": [
       {
@@ -33,28 +33,23 @@
       }
     }
   ],
-  "environment": {
-    "temperatureC": 190,
-    "medium": "oven_air"
-  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
     }
   },
   "stateNote": "Sprinkle canapés with breadcrumbs and Parmesan cheese mixture. Dot each canapé with soft butter.",
   "issues": [
     {
-      "field": "technique",
-      "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.58"
-    },
-    {
       "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.52"
+      "note": "the decision model gave this answer a probability of 0.56"
     },
     {
       "field": "end",

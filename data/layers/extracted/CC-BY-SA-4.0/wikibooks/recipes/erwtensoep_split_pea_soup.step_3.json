@@ -5,7 +5,7 @@
     "source": "wikibooks_erwtensoep_split_pea_soup",
     "step": 3
   },
-  "technique": "simmer",
+  "technique": "boil",
   "inputs": {
     "of": [
       {
@@ -27,7 +27,7 @@
     }
   ],
   "environment": {
-    "temperatureC": 90,
+    "temperatureC": 100,
     "medium": "simmering_water"
   },
   "end": {
@@ -40,19 +40,14 @@
   "stateNote": "Cook the peas in enough water for about 30 minutes. Make sure to remove foam from the pan with a spoon.",
   "issues": [
     {
-      "field": "technique",
-      "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.57"
-    },
-    {
       "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.55"
+      "note": "the decision model gave this answer a probability of 0.51"
     },
     {
       "field": "environment",
       "kind": "estimate",
-      "note": "no temperature given; used the middle of simmer's typical range"
+      "note": "no temperature given; used the middle of boil's typical range"
     }
   ]
 }

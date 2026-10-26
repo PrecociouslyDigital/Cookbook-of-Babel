@@ -5,11 +5,11 @@
     "source": "wikibooks_lemon_popsicle",
     "step": 6
   },
-  "technique": "cool",
+  "technique": "freeze",
   "inputs": {
     "of": [
       {
-        "ingredient": "lemon_popsicle_step_4",
+        "ingredient": "lemon_popsicle_step_5",
         "amount": {
           "qty": 1730.4,
           "unit": "g"
@@ -26,15 +26,15 @@
       }
     }
   ],
+  "environment": {
+    "temperatureC": -20,
+    "medium": "still_air"
+  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 5,
       "unit": "h"
-    },
-    "sensitivity": {
-      "refTempC": 20,
-      "q10": 1
     }
   },
   "stateNote": "Put the popsicle molds / tray into the freezer, and let it cool for at least 5 hours.",
@@ -42,7 +42,12 @@
     {
       "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.52"
+      "note": "the decision model gave this answer a probability of 0.58"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of freeze's typical range"
     }
   ]
 }

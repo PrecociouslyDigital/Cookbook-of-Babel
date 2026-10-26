@@ -48,6 +48,13 @@
           "qty": 1,
           "unit": "lb"
         }
+      },
+      {
+        "ingredient": "onion",
+        "amount": {
+          "qty": 1,
+          "unit": "piece"
+        }
       }
     ]
   },
@@ -73,6 +80,16 @@
   },
   "stateNote": "Layer the salad ingredients in the order listed.",
   "issues": [
+    {
+      "field": "inputs",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.52"
+    },
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'1 small to medium-sized onion, minced': 'to' read as pieces"
+    },
     {
       "field": "end",
       "kind": "estimate",

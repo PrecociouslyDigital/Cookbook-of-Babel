@@ -47,15 +47,15 @@
       }
     }
   ],
+  "environment": {
+    "temperatureC": 180,
+    "medium": "pan_contact"
+  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
-    },
-    "sensitivity": {
-      "refTempC": 20,
-      "q10": 1
     }
   },
   "stateNote": "Lightly toast the hamburger buns. Sandwich the patties in the buns, topping with lettuce, tomato, and ketchup as desired.",
@@ -63,7 +63,7 @@
     {
       "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.41"
+      "note": "the decision model gave this answer a probability of 0.36"
     },
     {
       "field": "inputs",
@@ -84,6 +84,11 @@
       "field": "outputs",
       "kind": "estimate",
       "note": "assumed 1 g/ml for lettuce, tomato, ketchup"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 180.0 °C for pan_contact"
     },
     {
       "field": "end",

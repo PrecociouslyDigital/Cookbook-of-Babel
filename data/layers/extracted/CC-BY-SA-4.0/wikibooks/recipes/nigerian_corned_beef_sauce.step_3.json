@@ -5,7 +5,7 @@
     "source": "wikibooks_nigerian_corned_beef_sauce",
     "step": 3
   },
-  "technique": "simmer",
+  "technique": "season",
   "inputs": {
     "of": [
       {
@@ -41,7 +41,7 @@
     }
   ],
   "environment": {
-    "temperatureC": 90,
+    "temperatureC": 180,
     "medium": "pan_contact"
   },
   "end": {
@@ -53,6 +53,11 @@
   },
   "stateNote": "Add salt and seasoning cube to taste. Stir, then cover and cook for a few minutes.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.54"
+    },
     {
       "field": "inputs",
       "kind": "estimate",
@@ -66,7 +71,7 @@
     {
       "field": "environment",
       "kind": "estimate",
-      "note": "no temperature given; used the middle of simmer's typical range"
+      "note": "no temperature given; assumed 180.0 °C for pan_contact"
     },
     {
       "field": "end",

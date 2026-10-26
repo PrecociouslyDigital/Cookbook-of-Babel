@@ -5,7 +5,7 @@
     "source": "wikibooks_smoked_eulachons",
     "step": 5
   },
-  "technique": "separate",
+  "technique": "smoke",
   "inputs": {
     "of": [
       {
@@ -27,7 +27,7 @@
     }
   ],
   "environment": {
-    "temperatureC": 20,
+    "temperatureC": 80,
     "medium": "still_air"
   },
   "end": {
@@ -40,14 +40,19 @@
   "stateNote": "Hang the sticks from the rafters in a smokehouse, making sure the fish are not touching each other. There needs to be enough space between each rack and the fish so that the smoke is even.",
   "issues": [
     {
-      "field": "environment",
+      "field": "technique",
       "kind": "uncertain",
       "note": "the decision model gave this answer a probability of 0.55"
     },
     {
       "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.52"
+    },
+    {
+      "field": "environment",
       "kind": "estimate",
-      "note": "no temperature given; assumed 20.0 °C for still_air"
+      "note": "no temperature given; used the middle of smoke's typical range"
     },
     {
       "field": "end",

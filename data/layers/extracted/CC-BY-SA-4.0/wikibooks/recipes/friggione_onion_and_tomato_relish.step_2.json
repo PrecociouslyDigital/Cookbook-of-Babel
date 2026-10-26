@@ -9,17 +9,17 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "olive_oil_heat",
-        "amount": {
-          "qty": 0.3,
-          "unit": "g"
-        }
-      },
-      {
         "ingredient": "onion",
         "amount": {
           "qty": 1,
           "unit": "kg"
+        }
+      },
+      {
+        "ingredient": "olive_oil",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
         }
       }
     ]
@@ -49,12 +49,22 @@
     {
       "field": "technique",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.39"
+      "note": "the decision model gave this answer a probability of 0.42"
     },
     {
       "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.55"
+      "note": "the decision model gave this answer a probability of 0.54"
+    },
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Olive oil': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for olive_oil"
     },
     {
       "field": "environment",

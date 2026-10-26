@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "chickpea_mix",
+        "ingredient": "chickpea_soak",
         "amount": {
           "qty": 250,
           "unit": "g"
@@ -19,7 +19,7 @@
   },
   "outputs": [
     {
-      "ingredient": "chickpea_mix_boil",
+      "ingredient": "chickpea_soak_boil",
       "amount": {
         "qty": 250,
         "unit": "g"
@@ -39,6 +39,11 @@
   },
   "stateNote": "Drain the chana dal, and pressure cook them until tender. Drain.",
   "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.59"
+    },
     {
       "field": "environment",
       "kind": "estimate",

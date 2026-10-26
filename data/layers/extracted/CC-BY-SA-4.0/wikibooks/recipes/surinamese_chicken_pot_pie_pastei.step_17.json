@@ -5,7 +5,7 @@
     "source": "wikibooks_surinamese_chicken_pot_pie_pastei",
     "step": 17
   },
-  "technique": "bake",
+  "technique": "coat",
   "inputs": {
     "of": [
       {
@@ -27,7 +27,7 @@
     }
   ],
   "environment": {
-    "temperatureC": 200,
+    "temperatureC": 180,
     "medium": "oven_air"
   },
   "end": {
@@ -40,14 +40,9 @@
   "stateNote": "A few minutes before you take it out of the oven, you can lightly brush the top with some whisked egg to make the top shiny and a little crisp.",
   "issues": [
     {
-      "field": "technique",
-      "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.57"
-    },
-    {
       "field": "environment",
       "kind": "estimate",
-      "note": "no temperature given; used the middle of bake's typical range"
+      "note": "no temperature given; assumed 180.0 °C for oven_air"
     },
     {
       "field": "end",
@@ -57,7 +52,7 @@
     {
       "field": "inputs",
       "kind": "missing",
-      "note": "no step uses '1 tbsp piccalilli (mustard can be substituted)' (p=0.68)"
+      "note": "no step uses '1 tbsp piccalilli (mustard can be substituted)' (p=0.63)"
     }
   ]
 }

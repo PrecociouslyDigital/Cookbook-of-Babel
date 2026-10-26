@@ -5,7 +5,7 @@
     "source": "wikibooks_supercharger_tea",
     "step": 3
   },
-  "technique": "heat",
+  "technique": "steep",
   "inputs": {
     "of": [
       {
@@ -27,7 +27,7 @@
     }
   ],
   "environment": {
-    "temperatureC": 100,
+    "temperatureC": 85,
     "medium": "boiling_water"
   },
   "end": {
@@ -40,14 +40,9 @@
   "stateNote": "Let the tea steep for 5 minutes.",
   "issues": [
     {
-      "field": "technique",
-      "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.29"
-    },
-    {
       "field": "environment",
       "kind": "estimate",
-      "note": "no temperature given; assumed 100.0 °C for boiling_water"
+      "note": "no temperature given; used the middle of steep's typical range"
     }
   ]
 }

@@ -14,14 +14,21 @@
           "qty": 4,
           "unit": "tbsp"
         }
+      },
+      {
+        "ingredient": "shrimp_paste",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
       }
     ]
   },
   "outputs": [
     {
-      "ingredient": "shrimp_paste_dissolve",
+      "ingredient": "vietnamese_rice_noodle_and_beef_soup_bun_bo_hu_step_1",
       "amount": {
-        "qty": 59.2,
+        "qty": 59.5,
         "unit": "g"
       }
     }
@@ -40,9 +47,24 @@
   "stateNote": "Add the shrimp paste to a large 2.5 L bowl, and gradually mix in cold water while vigorously stirring the paste. Keep adding water and stirring until you’ve almost reached the rim of the bowl. Don’t let it spill over. Let the paste mixture rest in the bowl for 1.5 hours to allow the mixture to settle.",
   "issues": [
     {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.38"
+    },
+    {
+      "field": "inputs",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.52"
+    },
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Shrimp paste': no quantity given; assumed a pinch"
+    },
+    {
       "field": "outputs",
       "kind": "estimate",
-      "note": "assumed 1 g/ml for shrimp_paste"
+      "note": "assumed 1 g/ml for shrimp_paste, shrimp_paste"
     }
   ]
 }

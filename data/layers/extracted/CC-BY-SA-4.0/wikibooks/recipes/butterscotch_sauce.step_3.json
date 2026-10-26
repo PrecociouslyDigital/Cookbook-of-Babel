@@ -5,7 +5,7 @@
     "source": "wikibooks_butterscotch_sauce",
     "step": 3
   },
-  "technique": "simmer",
+  "technique": "boil",
   "inputs": {
     "of": [
       {
@@ -27,7 +27,7 @@
     }
   ],
   "environment": {
-    "temperatureC": 90,
+    "temperatureC": 100,
     "medium": "pan_contact"
   },
   "end": {
@@ -40,9 +40,14 @@
   "stateNote": "Once the cream has been mixed in, turn up to a medium heat. Stirring gently, wait until the sauce is bubbling and hot, then take it off the heat.",
   "issues": [
     {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.44"
+    },
+    {
       "field": "environment",
       "kind": "estimate",
-      "note": "no temperature given; used the middle of simmer's typical range"
+      "note": "no temperature given; used the middle of boil's typical range"
     },
     {
       "field": "end",

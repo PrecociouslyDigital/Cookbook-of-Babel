@@ -47,15 +47,15 @@
       }
     }
   ],
+  "environment": {
+    "temperatureC": 185,
+    "medium": "convection_air"
+  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
-    },
-    "sensitivity": {
-      "refTempC": 20,
-      "q10": 1
     }
   },
   "stateNote": "Meanwhile, toast buns. Combine mayonnaise and diced chipotles. Spread mayonnaise mixture on each bun.",
@@ -63,7 +63,12 @@
     {
       "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.23"
+      "note": "the decision model gave this answer a probability of 0.28"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of toast's typical range"
     },
     {
       "field": "end",

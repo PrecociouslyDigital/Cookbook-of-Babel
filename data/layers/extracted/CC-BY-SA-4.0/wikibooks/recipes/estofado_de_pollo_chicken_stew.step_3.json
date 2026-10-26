@@ -5,7 +5,7 @@
     "source": "wikibooks_estofado_de_pollo_chicken_stew",
     "step": 3
   },
-  "technique": "simmer",
+  "technique": "season",
   "inputs": {
     "of": [
       {
@@ -61,9 +61,14 @@
   "stateNote": "Add the carrots, potatoes, and peas. Taste broth, as more cumin or salt and pepper may be needed.",
   "issues": [
     {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.43"
+    },
+    {
       "field": "environment",
       "kind": "estimate",
-      "note": "no temperature given; used the middle of simmer's typical range"
+      "note": "no temperature given; assumed 90.0 °C for simmering_water"
     },
     {
       "field": "end",

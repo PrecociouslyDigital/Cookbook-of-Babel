@@ -47,15 +47,15 @@
       }
     }
   ],
+  "environment": {
+    "temperatureC": 175,
+    "medium": "frying_oil"
+  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
-    },
-    "sensitivity": {
-      "refTempC": 20,
-      "q10": 1
     }
   },
   "stateNote": "Transfer the blended mixture to a bowl and add the cornmeal. Pour in the heated oil and mix thoroughly. Add salt and stock cube, then continue mixing.",
@@ -64,6 +64,11 @@
       "field": "environment",
       "kind": "uncertain",
       "note": "the decision model gave this answer a probability of 0.49"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 175.0 °C for frying_oil"
     },
     {
       "field": "end",

@@ -26,23 +26,33 @@
       }
     }
   ],
+  "environment": {
+    "temperatureC": 100,
+    "medium": "boiling_water"
+  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
-    },
-    "sensitivity": {
-      "refTempC": 20,
-      "q10": 1
     }
   },
   "stateNote": "As soon as the pasta and sauce are ready, toss them and the goat cheese together in your serving dish. You have to do this fast, so the goat cheese will melt through the sauce and over the pasta. Stirring the goat cheese into the sauce could result in burned sauce.",
   "issues": [
     {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.56"
+    },
+    {
       "field": "environment",
       "kind": "uncertain",
       "note": "the decision model gave this answer a probability of 0.28"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 100.0 °C for boiling_water"
     },
     {
       "field": "end",

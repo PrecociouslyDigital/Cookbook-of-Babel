@@ -5,7 +5,7 @@
     "source": "wikibooks_chocolate_mousse_vegan",
     "step": 1
   },
-  "technique": "separate",
+  "technique": "cut",
   "inputs": {
     "of": [
       {
@@ -19,7 +19,7 @@
   },
   "outputs": [
     {
-      "ingredient": "chocolate_mousse_vegan_step_1",
+      "ingredient": "avocado_cut",
       "amount": {
         "qty": 0.3,
         "unit": "g"
@@ -39,6 +39,11 @@
   },
   "stateNote": "Peel the avocados and remove the pit.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.53"
+    },
     {
       "field": "inputs",
       "kind": "estimate",

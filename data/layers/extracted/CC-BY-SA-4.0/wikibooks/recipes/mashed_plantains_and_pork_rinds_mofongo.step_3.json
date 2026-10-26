@@ -5,7 +5,7 @@
     "source": "wikibooks_mashed_plantains_and_pork_rinds_mofongo",
     "step": 3
   },
-  "technique": "grind",
+  "technique": "press",
   "inputs": {
     "of": [
       {
@@ -27,8 +27,8 @@
     }
   ],
   "environment": {
-    "temperatureC": 180,
-    "medium": "pan_contact"
+    "temperatureC": 20,
+    "medium": "still_air"
   },
   "end": {
     "by": "time",
@@ -40,14 +40,19 @@
   "stateNote": "Remove the plantains from the pan and flatten the plantains by placing a plate over the fried plantains and pressing down.",
   "issues": [
     {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.52"
+    },
+    {
       "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.32"
+      "note": "the decision model gave this answer a probability of 0.34"
     },
     {
       "field": "environment",
       "kind": "estimate",
-      "note": "no temperature given; assumed 180.0 °C for pan_contact"
+      "note": "no temperature given; assumed 20.0 °C for still_air"
     },
     {
       "field": "end",

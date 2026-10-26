@@ -5,7 +5,7 @@
     "source": "wikibooks_khara_pongal_rice_and_mung_bean_porridge",
     "step": 1
   },
-  "technique": "simmer",
+  "technique": "boil",
   "inputs": {
     "of": [
       {
@@ -48,7 +48,7 @@
     }
   ],
   "environment": {
-    "temperatureC": 90,
+    "temperatureC": 100,
     "medium": "boiling_water"
   },
   "end": {
@@ -61,6 +61,16 @@
   "stateNote": "Cook the rice and dhal together with turmeric powder in a pot or pressure cooker until mushy.",
   "issues": [
     {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.54"
+    },
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.58"
+    },
+    {
       "field": "outputs",
       "kind": "estimate",
       "note": "assumed 1 g/ml for rice, mung_bean, turmeric"
@@ -68,7 +78,7 @@
     {
       "field": "environment",
       "kind": "estimate",
-      "note": "no temperature given; used the middle of simmer's typical range"
+      "note": "no temperature given; used the middle of boil's typical range"
     },
     {
       "field": "end",

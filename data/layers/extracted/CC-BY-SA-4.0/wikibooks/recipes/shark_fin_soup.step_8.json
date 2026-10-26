@@ -5,7 +5,7 @@
     "source": "wikibooks_shark_fin_soup",
     "step": 8
   },
-  "technique": "simmer",
+  "technique": "boil",
   "inputs": {
     "of": [
       {
@@ -48,7 +48,7 @@
     }
   ],
   "environment": {
-    "temperatureC": 90,
+    "temperatureC": 100,
     "medium": "simmering_water"
   },
   "end": {
@@ -61,6 +61,11 @@
   "stateNote": "Sauté for 1 minute, then add soy sauce, wine, broth, fish stock, and fins. Boil over low heat, stirring frequently, for 20 minutes.",
   "issues": [
     {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.56"
+    },
+    {
       "field": "inputs",
       "kind": "estimate",
       "note": "'Fish stock from red-boiled fins': no quantity given; assumed a pinch"
@@ -68,7 +73,7 @@
     {
       "field": "environment",
       "kind": "estimate",
-      "note": "no temperature given; used the middle of simmer's typical range"
+      "note": "no temperature given; used the middle of boil's typical range"
     },
     {
       "field": "end",

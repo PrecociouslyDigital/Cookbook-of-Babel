@@ -5,7 +5,7 @@
     "source": "wikibooks_beef_and_gizzard_sauce",
     "step": 1
   },
-  "technique": "simmer",
+  "technique": "boil",
   "inputs": {
     "of": [
       {
@@ -69,7 +69,7 @@
     }
   ],
   "environment": {
-    "temperatureC": 90,
+    "temperatureC": 100,
     "medium": "simmering_water"
   },
   "end": {
@@ -82,6 +82,11 @@
   "stateNote": "Cook the gizzard with salt, onions, beef seasoning, curry, and thyme. Add water, stir, and cook until soft.",
   "issues": [
     {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.51"
+    },
+    {
       "field": "inputs",
       "kind": "estimate",
       "note": "'2 beef stock cubes': 'beef' read as pieces"
@@ -89,7 +94,7 @@
     {
       "field": "environment",
       "kind": "estimate",
-      "note": "no temperature given; used the middle of simmer's typical range"
+      "note": "no temperature given; used the middle of boil's typical range"
     },
     {
       "field": "end",

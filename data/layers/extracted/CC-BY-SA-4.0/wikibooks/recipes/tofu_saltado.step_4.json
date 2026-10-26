@@ -5,7 +5,7 @@
     "source": "wikibooks_tofu_saltado",
     "step": 4
   },
-  "technique": "fry",
+  "technique": "pan_fry",
   "inputs": {
     "of": [
       {
@@ -27,8 +27,8 @@
     }
   ],
   "environment": {
-    "temperatureC": 190,
-    "medium": "frying_oil"
+    "temperatureC": 185,
+    "medium": "pan_contact"
   },
   "end": {
     "by": "time",
@@ -40,19 +40,14 @@
   "stateNote": "In the same pan, fry the tofu for 10 minutes then, remove and drain on kitchen roll.",
   "issues": [
     {
-      "field": "technique",
-      "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.51"
-    },
-    {
       "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.52"
+      "note": "the decision model gave this answer a probability of 0.54"
     },
     {
       "field": "environment",
       "kind": "estimate",
-      "note": "no temperature given; used the middle of fry's typical range"
+      "note": "no temperature given; used the middle of pan_fry's typical range"
     }
   ]
 }

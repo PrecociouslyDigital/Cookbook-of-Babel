@@ -14,6 +14,13 @@
           "qty": 550,
           "unit": "g"
         }
+      },
+      {
+        "ingredient": "strawberry",
+        "amount": {
+          "qty": 1,
+          "unit": "package"
+        }
       }
     ]
   },
@@ -21,8 +28,8 @@
     {
       "ingredient": "fruit_salad_with_orange_soda_ensalada_de_fruta_step_2",
       "amount": {
-        "qty": 550,
-        "unit": "g"
+        "qty": 1,
+        "unit": "batch"
       }
     }
   ],
@@ -39,6 +46,11 @@
   },
   "stateNote": "Wash remaining fruit thoroughly.",
   "issues": [
+    {
+      "field": "inputs",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.58"
+    },
     {
       "field": "end",
       "kind": "estimate",

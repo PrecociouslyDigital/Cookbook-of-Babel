@@ -1,0 +1,60 @@
+{
+  "id": "lancashire_corned_beef_hash.step_2",
+  "source": "wikibooks_lancashire_corned_beef_hash",
+  "sourceRef": {
+    "source": "wikibooks_lancashire_corned_beef_hash",
+    "step": 2
+  },
+  "technique": "soak",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "lancashire_corned_beef_hash_step_1",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "water",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "lancashire_corned_beef_hash_step_2",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Add water until almost covering the ingredients.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Water': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

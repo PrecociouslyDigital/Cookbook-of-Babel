@@ -47,28 +47,23 @@
       }
     }
   ],
-  "environment": {
-    "temperatureC": 100,
-    "medium": "steam"
-  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
     }
   },
   "stateNote": "Add active dry yeast and honey to around 8 oz warm water and milk. If using instant yeast there is no need to bloom the yeast.",
   "issues": [
     {
-      "field": "technique",
-      "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.55"
-    },
-    {
       "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.47"
+      "note": "the decision model gave this answer a probability of 0.46"
     },
     {
       "field": "inputs",
@@ -79,11 +74,6 @@
       "field": "inputs",
       "kind": "estimate",
       "note": "'Lukewarm water (~100°F)': no quantity given; assumed a pinch"
-    },
-    {
-      "field": "environment",
-      "kind": "estimate",
-      "note": "no temperature given; assumed 100.0 °C for steam"
     },
     {
       "field": "end",

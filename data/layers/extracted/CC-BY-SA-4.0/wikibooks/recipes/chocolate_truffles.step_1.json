@@ -5,7 +5,7 @@
     "source": "wikibooks_chocolate_truffles",
     "step": 1
   },
-  "technique": "steam",
+  "technique": "heat",
   "inputs": {
     "of": [
       {
@@ -19,7 +19,7 @@
   },
   "outputs": [
     {
-      "ingredient": "chocolate_steam",
+      "ingredient": "chocolate_heat",
       "amount": {
         "qty": 226.8,
         "unit": "g"
@@ -28,7 +28,7 @@
   ],
   "environment": {
     "temperatureC": 100,
-    "medium": "simmering_water"
+    "medium": "steam"
   },
   "end": {
     "by": "time",
@@ -42,17 +42,17 @@
     {
       "field": "technique",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.5"
+      "note": "the decision model gave this answer a probability of 0.53"
     },
     {
       "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.45"
+      "note": "the decision model gave this answer a probability of 0.42"
     },
     {
       "field": "environment",
       "kind": "estimate",
-      "note": "no temperature given; used the middle of steam's typical range"
+      "note": "no temperature given; assumed 100.0 °C for steam"
     },
     {
       "field": "end",

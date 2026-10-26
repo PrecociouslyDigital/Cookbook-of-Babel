@@ -70,6 +70,13 @@
           "qty": 1,
           "unit": "piece"
         }
+      },
+      {
+        "ingredient": "carrot",
+        "amount": {
+          "qty": 250,
+          "unit": "g"
+        }
       }
     ]
   },
@@ -95,6 +102,11 @@
   },
   "stateNote": "To prepare the stuffing, melt the butter and honey over low heat, add the other ingredients, and combine well.",
   "issues": [
+    {
+      "field": "inputs",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.48"
+    },
     {
       "field": "inputs",
       "kind": "estimate",

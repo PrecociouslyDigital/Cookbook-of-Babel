@@ -41,8 +41,8 @@
     }
   ],
   "environment": {
-    "temperatureC": 175,
-    "medium": "frying_oil"
+    "temperatureC": 180,
+    "medium": "pan_contact"
   },
   "end": {
     "by": "time",
@@ -54,6 +54,11 @@
   "stateNote": "Heat the oil and annatto seeds in a small skillet over medium heat just until the seeds give off a lively, steady sizzle. Don't overheat the mixture or the seeds will turn black and the oil green. Once they're sizzling, pull the pan from the heat and let stand until the sizzling stops. Strain as much of the oil as you can into a heavy 5-quart pot or Dutch oven and let it stand for at least 5 minutes.",
   "issues": [
     {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.55"
+    },
+    {
       "field": "environment",
       "kind": "uncertain",
       "note": "the decision model gave this answer a probability of 0.51"
@@ -61,7 +66,7 @@
     {
       "field": "environment",
       "kind": "estimate",
-      "note": "no temperature given; assumed 175.0 °C for frying_oil"
+      "note": "no temperature given; assumed 180.0 °C for pan_contact"
     }
   ]
 }

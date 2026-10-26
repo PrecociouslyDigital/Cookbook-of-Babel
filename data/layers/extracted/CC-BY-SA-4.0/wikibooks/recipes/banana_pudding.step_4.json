@@ -5,7 +5,7 @@
     "source": "wikibooks_banana_pudding",
     "step": 4
   },
-  "technique": "simmer",
+  "technique": "heat",
   "inputs": {
     "of": [
       {
@@ -34,7 +34,7 @@
     }
   ],
   "environment": {
-    "temperatureC": 90,
+    "temperatureC": 180,
     "medium": "pan_contact"
   },
   "end": {
@@ -47,14 +47,9 @@
   "stateNote": "Add 2 tablespoons of cold water to the cornstarch and stir until smooth; then whisk it into the milk mixture and cook until thickened, stirring constantly so it doesn’t burn.",
   "issues": [
     {
-      "field": "technique",
-      "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.29"
-    },
-    {
       "field": "environment",
       "kind": "estimate",
-      "note": "no temperature given; used the middle of simmer's typical range"
+      "note": "no temperature given; assumed 180.0 °C for pan_contact"
     },
     {
       "field": "end",

@@ -5,7 +5,7 @@
     "source": "wikibooks_hallaca_venezuelan_stuffed_corn_dough",
     "step": 28
   },
-  "technique": "simmer",
+  "technique": "season",
   "inputs": {
     "of": [
       {
@@ -48,7 +48,7 @@
     }
   ],
   "environment": {
-    "temperatureC": 90,
+    "temperatureC": 180,
     "medium": "pan_contact"
   },
   "end": {
@@ -60,6 +60,11 @@
   },
   "stateNote": "Add soy sauce, chili sauce, and ground cumin to season. Add some cooking wine if you want. Let it simmer for another minute.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.55"
+    },
     {
       "field": "inputs",
       "kind": "estimate",
@@ -78,7 +83,7 @@
     {
       "field": "environment",
       "kind": "estimate",
-      "note": "no temperature given; used the middle of simmer's typical range"
+      "note": "no temperature given; assumed 180.0 °C for pan_contact"
     },
     {
       "field": "end",

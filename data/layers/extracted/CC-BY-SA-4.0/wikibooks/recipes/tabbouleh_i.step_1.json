@@ -5,7 +5,7 @@
     "source": "wikibooks_tabbouleh_i",
     "step": 1
   },
-  "technique": "boil",
+  "technique": "soak",
   "inputs": {
     "of": [
       {
@@ -19,7 +19,7 @@
   },
   "outputs": [
     {
-      "ingredient": "bulgur_boil",
+      "ingredient": "bulgur_soak",
       "amount": {
         "qty": 236.6,
         "unit": "g"
@@ -40,6 +40,11 @@
   "stateNote": "Cover the wheat in boiling water and let stand for 5 minutes; drain.",
   "issues": [
     {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.47"
+    },
+    {
       "field": "outputs",
       "kind": "estimate",
       "note": "assumed 1 g/ml for bulgur"
@@ -47,7 +52,7 @@
     {
       "field": "environment",
       "kind": "estimate",
-      "note": "no temperature given; used the middle of boil's typical range"
+      "note": "no temperature given; assumed 100.0 °C for boiling_water"
     }
   ]
 }

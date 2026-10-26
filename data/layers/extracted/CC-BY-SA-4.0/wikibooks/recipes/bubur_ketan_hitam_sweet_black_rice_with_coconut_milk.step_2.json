@@ -9,10 +9,17 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "bubur_ketan_hitam_sweet_black_rice_with_coconut_milk_step_1",
+        "ingredient": "rice_soak",
         "amount": {
-          "qty": 1750,
+          "qty": 250,
           "unit": "g"
+        }
+      },
+      {
+        "ingredient": "water",
+        "amount": {
+          "qty": 1.5,
+          "unit": "l"
         }
       },
       {
@@ -46,6 +53,16 @@
   },
   "stateNote": "Drain the rice. Cook with water and pandan leaves until soft and thick.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.59"
+    },
+    {
+      "field": "inputs",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.51"
+    },
     {
       "field": "environment",
       "kind": "estimate",

@@ -41,8 +41,8 @@
     }
   ],
   "environment": {
-    "temperatureC": 20,
-    "medium": "still_air"
+    "temperatureC": 180,
+    "medium": "pan_contact"
   },
   "end": {
     "by": "time",
@@ -54,14 +54,19 @@
   "stateNote": "Stir in chopped parsley and sprinkle grated Parmesan cheese over top.",
   "issues": [
     {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.49"
+    },
+    {
       "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.34"
+      "note": "the decision model gave this answer a probability of 0.37"
     },
     {
       "field": "environment",
       "kind": "estimate",
-      "note": "no temperature given; assumed 20.0 °C for still_air"
+      "note": "no temperature given; assumed 180.0 °C for pan_contact"
     },
     {
       "field": "end",

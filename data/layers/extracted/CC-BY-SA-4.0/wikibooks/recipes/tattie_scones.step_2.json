@@ -9,14 +9,21 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "tattie_scones_step_1",
+        "ingredient": "potato_boil",
         "amount": {
-          "qty": 1000.4,
+          "qty": 1000,
           "unit": "g"
         }
       },
       {
         "ingredient": "butter",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      },
+      {
+        "ingredient": "salt",
         "amount": {
           "qty": 1,
           "unit": "pinch"
@@ -47,14 +54,29 @@
   "stateNote": "Mash them well with lots of butter and salt and pepper, but no milk or other liquid. Let them cool.",
   "issues": [
     {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.58"
+    },
+    {
       "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.38"
+      "note": "the decision model gave this answer a probability of 0.47"
+    },
+    {
+      "field": "inputs",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.51"
     },
     {
       "field": "inputs",
       "kind": "estimate",
       "note": "'Butter': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Salt and pepper': no quantity given; assumed a pinch"
     },
     {
       "field": "outputs",

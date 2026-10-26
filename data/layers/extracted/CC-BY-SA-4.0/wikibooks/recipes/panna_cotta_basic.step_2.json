@@ -5,7 +5,7 @@
     "source": "wikibooks_panna_cotta_basic",
     "step": 2
   },
-  "technique": "simmer",
+  "technique": "heat",
   "inputs": {
     "of": [
       {
@@ -48,7 +48,7 @@
     }
   ],
   "environment": {
-    "temperatureC": 90,
+    "temperatureC": 180,
     "medium": "pan_contact"
   },
   "end": {
@@ -61,6 +61,11 @@
   "stateNote": "Combine the remaining ingredients in a medium saucepan over medium heat, and stir occasionally until the sugar dissolves and tiny bubbles appear around the edge of your pan.",
   "issues": [
     {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.43"
+    },
+    {
       "field": "outputs",
       "kind": "estimate",
       "note": "assumed 1 g/ml for vanilla"
@@ -68,7 +73,7 @@
     {
       "field": "environment",
       "kind": "estimate",
-      "note": "no temperature given; used the middle of simmer's typical range"
+      "note": "no temperature given; assumed 180.0 °C for pan_contact"
     },
     {
       "field": "end",

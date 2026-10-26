@@ -5,7 +5,7 @@
     "source": "wikibooks_soy_protein_bread",
     "step": 6
   },
-  "technique": "separate",
+  "technique": "shape",
   "inputs": {
     "of": [
       {
@@ -26,29 +26,19 @@
       }
     }
   ],
-  "environment": {
-    "temperatureC": 20,
-    "medium": "still_air"
-  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
     }
   },
   "stateNote": "Separate out several small balls of bread of about 1 inches (2.5 cm) in diameter and half that in height.",
   "issues": [
-    {
-      "field": "environment",
-      "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.5"
-    },
-    {
-      "field": "environment",
-      "kind": "estimate",
-      "note": "no temperature given; assumed 20.0 °C for still_air"
-    },
     {
       "field": "end",
       "kind": "estimate",

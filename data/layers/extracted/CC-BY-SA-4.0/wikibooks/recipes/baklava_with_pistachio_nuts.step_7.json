@@ -5,7 +5,7 @@
     "source": "wikibooks_baklava_with_pistachio_nuts",
     "step": 7
   },
-  "technique": "cut",
+  "technique": "assemble",
   "inputs": {
     "of": [
       {
@@ -26,23 +26,28 @@
       }
     }
   ],
+  "environment": {
+    "temperatureC": 180,
+    "medium": "oven_air"
+  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
-    },
-    "sensitivity": {
-      "refTempC": 20,
-      "q10": 1
     }
   },
   "stateNote": "After the first 6 sheets, sprinkle a handful of the nut mixture over the last sheet. Add another sheet and repeat the process until you get to the last 6 sheets. Place the last 6 sheets on top of the rest, brushing each with butter. With a very sharp knife, cut the pastry into diamond shapes, all the way through. Sprinkle the top with water.",
   "issues": [
     {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.54"
+    },
+    {
       "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.56"
+      "note": "the decision model gave this answer a probability of 0.49"
     },
     {
       "field": "end",

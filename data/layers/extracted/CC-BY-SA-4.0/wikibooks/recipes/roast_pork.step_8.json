@@ -5,7 +5,7 @@
     "source": "wikibooks_roast_pork",
     "step": 8
   },
-  "technique": "roast",
+  "technique": "cool",
   "inputs": {
     "of": [
       {
@@ -27,7 +27,7 @@
     }
   ],
   "environment": {
-    "temperatureC": 195,
+    "temperatureC": 20,
     "medium": "still_air"
   },
   "end": {
@@ -42,12 +42,17 @@
     {
       "field": "technique",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.47"
+      "note": "the decision model gave this answer a probability of 0.55"
+    },
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.56"
     },
     {
       "field": "environment",
       "kind": "estimate",
-      "note": "no temperature given; used the middle of roast's typical range"
+      "note": "no temperature given; assumed 20.0 °C for still_air"
     },
     {
       "field": "end",

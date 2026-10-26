@@ -5,7 +5,7 @@
     "source": "wikibooks_semo_nigerian_cooked_semolina",
     "step": 4
   },
-  "technique": "simmer",
+  "technique": "steam",
   "inputs": {
     "of": [
       {
@@ -27,7 +27,7 @@
     }
   ],
   "environment": {
-    "temperatureC": 90,
+    "temperatureC": 100,
     "medium": "simmering_water"
   },
   "end": {
@@ -40,14 +40,19 @@
   "stateNote": "Once you have a smooth mixture, add a small amount of water to bring it to the desired consistency. Cover the pot, and cook for about 3 minutes.",
   "issues": [
     {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.51"
+    },
+    {
       "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.41"
+      "note": "the decision model gave this answer a probability of 0.42"
     },
     {
       "field": "environment",
       "kind": "estimate",
-      "note": "no temperature given; used the middle of simmer's typical range"
+      "note": "no temperature given; used the middle of steam's typical range"
     }
   ]
 }

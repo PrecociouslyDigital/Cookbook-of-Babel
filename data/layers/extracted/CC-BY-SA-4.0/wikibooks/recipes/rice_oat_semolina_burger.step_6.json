@@ -5,7 +5,7 @@
     "source": "wikibooks_rice_oat_semolina_burger",
     "step": 6
   },
-  "technique": "pan_fry",
+  "technique": "shape",
   "inputs": {
     "of": [
       {
@@ -27,7 +27,7 @@
     }
   ],
   "environment": {
-    "temperatureC": 185,
+    "temperatureC": 180,
     "medium": "pan_contact"
   },
   "end": {
@@ -40,14 +40,9 @@
   "stateNote": "You may want to flatten the patties a bit with the spatula.",
   "issues": [
     {
-      "field": "technique",
-      "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.51"
-    },
-    {
       "field": "environment",
       "kind": "estimate",
-      "note": "no temperature given; used the middle of pan_fry's typical range"
+      "note": "no temperature given; assumed 180.0 °C for pan_contact"
     },
     {
       "field": "end",
@@ -57,7 +52,7 @@
     {
       "field": "inputs",
       "kind": "missing",
-      "note": "no step uses 'Soy sauce (optional)' (p=0.85)"
+      "note": "no step uses 'Soy sauce (optional)' (p=0.88)"
     }
   ]
 }

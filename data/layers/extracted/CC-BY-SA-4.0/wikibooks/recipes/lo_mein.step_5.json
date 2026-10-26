@@ -14,6 +14,13 @@
           "qty": 1,
           "unit": "batch"
         }
+      },
+      {
+        "ingredient": "noodle",
+        "amount": {
+          "qty": 1,
+          "unit": "piece"
+        }
       }
     ]
   },
@@ -39,6 +46,26 @@
   },
   "stateNote": "Strain noodles and add them to the stir fry.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.4"
+    },
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.54"
+    },
+    {
+      "field": "inputs",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.53"
+    },
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'1 part cooked lo mein noodles': 'part' read as pieces"
+    },
     {
       "field": "environment",
       "kind": "estimate",

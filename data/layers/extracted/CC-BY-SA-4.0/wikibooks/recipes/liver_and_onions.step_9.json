@@ -5,7 +5,7 @@
     "source": "wikibooks_liver_and_onions",
     "step": 9
   },
-  "technique": "pan_fry",
+  "technique": "coat",
   "inputs": {
     "of": [
       {
@@ -13,13 +13,6 @@
         "amount": {
           "qty": 1,
           "unit": "batch"
-        }
-      },
-      {
-        "ingredient": "lamb_and_mutton",
-        "amount": {
-          "qty": 500,
-          "unit": "g"
         }
       }
     ]
@@ -34,7 +27,7 @@
     }
   ],
   "environment": {
-    "temperatureC": 185,
+    "temperatureC": 180,
     "medium": "pan_contact"
   },
   "end": {
@@ -47,14 +40,9 @@
   "stateNote": "Start the process of dusting the slices of liver with flour on both sides and adding them to the hot pan. This needs to be done as quickly as possible and can be quite messy. Do not over-crowd the pan—if you find the liver takes up more surface-space than is available then leave the remains on one side and fry in a second batch.",
   "issues": [
     {
-      "field": "inputs",
-      "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.34"
-    },
-    {
       "field": "environment",
       "kind": "estimate",
-      "note": "no temperature given; used the middle of pan_fry's typical range"
+      "note": "no temperature given; assumed 180.0 °C for pan_contact"
     },
     {
       "field": "end",

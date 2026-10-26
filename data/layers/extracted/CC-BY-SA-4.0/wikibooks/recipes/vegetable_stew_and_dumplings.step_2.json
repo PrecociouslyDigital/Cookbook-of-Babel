@@ -5,7 +5,7 @@
     "source": "wikibooks_vegetable_stew_and_dumplings",
     "step": 2
   },
-  "technique": "fry",
+  "technique": "coat",
   "inputs": {
     "of": [
       {
@@ -69,7 +69,7 @@
     }
   ],
   "environment": {
-    "temperatureC": 190,
+    "temperatureC": 180,
     "medium": "pan_contact"
   },
   "end": {
@@ -82,9 +82,9 @@
   "stateNote": "On low heat, heat the margarine in a large saucepan. Add the potatoes, carrots, onions, celery, and bell peppers. Stir, making sure all vegetables get a good coating of the oil.",
   "issues": [
     {
-      "field": "technique",
+      "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.39"
+      "note": "the decision model gave this answer a probability of 0.55"
     },
     {
       "field": "inputs",
@@ -99,7 +99,7 @@
     {
       "field": "environment",
       "kind": "estimate",
-      "note": "no temperature given; used the middle of fry's typical range"
+      "note": "no temperature given; assumed 180.0 °C for pan_contact"
     },
     {
       "field": "end",

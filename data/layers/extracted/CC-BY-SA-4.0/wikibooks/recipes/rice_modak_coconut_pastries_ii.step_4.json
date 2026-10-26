@@ -5,7 +5,7 @@
     "source": "wikibooks_rice_modak_coconut_pastries_ii",
     "step": 4
   },
-  "technique": "boil",
+  "technique": "mix",
   "inputs": {
     "of": [
       {
@@ -75,9 +75,14 @@
   "stateNote": "Boil the water. Add ghee, salt, and oil. Immediately add rice flour and stir well.",
   "issues": [
     {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.46"
+    },
+    {
       "field": "environment",
       "kind": "estimate",
-      "note": "no temperature given; used the middle of boil's typical range"
+      "note": "no temperature given; assumed 100.0 °C for boiling_water"
     },
     {
       "field": "end",

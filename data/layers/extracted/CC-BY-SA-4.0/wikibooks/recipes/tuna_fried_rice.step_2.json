@@ -5,7 +5,7 @@
     "source": "wikibooks_tuna_fried_rice",
     "step": 2
   },
-  "technique": "stir_fry",
+  "technique": "pan_fry",
   "inputs": {
     "of": [
       {
@@ -34,7 +34,7 @@
     }
   ],
   "environment": {
-    "temperatureC": 215,
+    "temperatureC": 185,
     "medium": "pan_contact"
   },
   "end": {
@@ -47,6 +47,11 @@
   "stateNote": "Sauté the onion in 1 tbsp olive oil.",
   "issues": [
     {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.48"
+    },
+    {
       "field": "inputs",
       "kind": "estimate",
       "note": "'Olive oil': no quantity given; assumed a pinch"
@@ -54,7 +59,7 @@
     {
       "field": "environment",
       "kind": "estimate",
-      "note": "no temperature given; used the middle of stir_fry's typical range"
+      "note": "no temperature given; used the middle of pan_fry's typical range"
     },
     {
       "field": "end",

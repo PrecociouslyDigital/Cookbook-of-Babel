@@ -5,7 +5,7 @@
     "source": "wikibooks_hickory_bbq_chicken_wings",
     "step": 4
   },
-  "technique": "strain",
+  "technique": "dry",
   "inputs": {
     "of": [
       {
@@ -27,8 +27,8 @@
     }
   ],
   "environment": {
-    "temperatureC": 175,
-    "medium": "frying_oil"
+    "temperatureC": 55,
+    "medium": "still_air"
   },
   "end": {
     "by": "time",
@@ -40,14 +40,19 @@
   "stateNote": "Remove chicken and drain on a cooling rack.",
   "issues": [
     {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.56"
+    },
+    {
       "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.41"
+      "note": "the decision model gave this answer a probability of 0.44"
     },
     {
       "field": "environment",
       "kind": "estimate",
-      "note": "no temperature given; assumed 175.0 °C for frying_oil"
+      "note": "no temperature given; used the middle of dry's typical range"
     },
     {
       "field": "end",

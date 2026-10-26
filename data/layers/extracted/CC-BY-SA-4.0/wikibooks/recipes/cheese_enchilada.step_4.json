@@ -5,7 +5,7 @@
     "source": "wikibooks_cheese_enchilada",
     "step": 4
   },
-  "technique": "assemble",
+  "technique": "coat",
   "inputs": {
     "of": [
       {
@@ -26,15 +26,15 @@
       }
     }
   ],
+  "environment": {
+    "temperatureC": 175,
+    "medium": "oven_air"
+  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
-    },
-    "sensitivity": {
-      "refTempC": 20,
-      "q10": 1
     }
   },
   "stateNote": "Cover the enchiladas with the remaining cheese, onions, and chili gravy.",
@@ -42,7 +42,7 @@
     {
       "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.43"
+      "note": "the decision model gave this answer a probability of 0.4"
     },
     {
       "field": "end",

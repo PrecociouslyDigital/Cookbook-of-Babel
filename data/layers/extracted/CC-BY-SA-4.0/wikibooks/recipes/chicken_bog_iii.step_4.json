@@ -26,15 +26,15 @@
       }
     }
   ],
-  "environment": {
-    "temperatureC": 90,
-    "medium": "simmering_water"
-  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
     }
   },
   "stateNote": "Remove chicken to a platter to cool. Strain broth from pot (you should have about 8 cups; if you have more, set aside for another use).",
@@ -43,11 +43,6 @@
       "field": "environment",
       "kind": "uncertain",
       "note": "the decision model gave this answer a probability of 0.32"
-    },
-    {
-      "field": "environment",
-      "kind": "estimate",
-      "note": "no temperature given; assumed 90.0 °C for simmering_water"
     },
     {
       "field": "end",

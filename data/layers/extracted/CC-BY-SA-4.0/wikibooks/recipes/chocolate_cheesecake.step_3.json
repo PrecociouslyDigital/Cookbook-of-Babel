@@ -9,17 +9,17 @@
   "inputs": {
     "of": [
       {
+        "ingredient": "cookie_grind",
+        "amount": {
+          "qty": 473.2,
+          "unit": "g"
+        }
+      },
+      {
         "ingredient": "butter",
         "amount": {
           "qty": 5,
           "unit": "tbsp"
-        }
-      },
-      {
-        "ingredient": "cookie",
-        "amount": {
-          "qty": 2,
-          "unit": "cup"
         }
       }
     ]
@@ -47,14 +47,9 @@
   "stateNote": "Mix together chocolate crumbs and melted butter.",
   "issues": [
     {
-      "field": "inputs",
-      "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.51"
-    },
-    {
       "field": "outputs",
       "kind": "estimate",
-      "note": "assumed 1 g/ml for butter, cookie"
+      "note": "assumed 1 g/ml for butter"
     },
     {
       "field": "end",

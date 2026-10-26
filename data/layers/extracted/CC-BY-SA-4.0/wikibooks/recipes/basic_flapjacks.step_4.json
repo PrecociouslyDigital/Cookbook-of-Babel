@@ -5,7 +5,7 @@
     "source": "wikibooks_basic_flapjacks",
     "step": 4
   },
-  "technique": "assemble",
+  "technique": "shape",
   "inputs": {
     "of": [
       {
@@ -26,15 +26,15 @@
       }
     }
   ],
-  "environment": {
-    "temperatureC": 150,
-    "medium": "oven_air"
-  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
     }
   },
   "stateNote": "Press the mixture out over the base of a lightly-greased 7½-inch (19 cm) square baking tin.",
@@ -42,7 +42,7 @@
     {
       "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.55"
+      "note": "the decision model gave this answer a probability of 0.5"
     },
     {
       "field": "end",

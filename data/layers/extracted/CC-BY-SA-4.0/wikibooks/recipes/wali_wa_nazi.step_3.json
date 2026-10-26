@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "wali_wa_nazi_step_2",
+        "ingredient": "grains_rinse_soak",
         "amount": {
           "qty": 473.2,
           "unit": "g"
@@ -47,15 +47,15 @@
       }
     }
   ],
+  "environment": {
+    "temperatureC": 180,
+    "medium": "pan_contact"
+  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
-    },
-    "sensitivity": {
-      "refTempC": 20,
-      "q10": 1
     }
   },
   "stateNote": "In a cooking pot, combine the coconut milk, water, and salt.",
@@ -63,12 +63,17 @@
     {
       "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.46"
+      "note": "the decision model gave this answer a probability of 0.42"
     },
     {
       "field": "outputs",
       "kind": "estimate",
       "note": "assumed 1 g/ml for coconut_milk"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 180.0 °C for pan_contact"
     },
     {
       "field": "end",

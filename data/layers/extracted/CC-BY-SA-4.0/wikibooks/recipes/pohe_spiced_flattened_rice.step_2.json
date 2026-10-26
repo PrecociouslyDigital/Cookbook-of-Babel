@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "rice_rinse",
+        "ingredient": "rice_soak",
         "amount": {
           "qty": 200,
           "unit": "g"
@@ -53,6 +53,11 @@
   },
   "stateNote": "Heat the oil in a frying pan until medium hot. Add the mustard seeds and let them crackle for a few seconds",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.55"
+    },
     {
       "field": "outputs",
       "kind": "estimate",

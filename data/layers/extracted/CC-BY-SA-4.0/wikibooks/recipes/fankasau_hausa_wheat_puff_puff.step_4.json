@@ -5,7 +5,7 @@
     "source": "wikibooks_fankasau_hausa_wheat_puff_puff",
     "step": 4
   },
-  "technique": "separate",
+  "technique": "shape",
   "inputs": {
     "of": [
       {
@@ -33,38 +33,28 @@
       }
     }
   ],
-  "environment": {
-    "temperatureC": 175,
-    "medium": "frying_oil"
-  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
     }
   },
   "stateNote": "Divide the dough into suitably sized portions. Dip your hands in oil, and shape the dough portions into rounds with a hole in the center.",
   "issues": [
     {
-      "field": "technique",
-      "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.5"
-    },
-    {
       "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.54"
+      "note": "the decision model gave this answer a probability of 0.48"
     },
     {
       "field": "inputs",
       "kind": "estimate",
       "note": "'Vegetable oil for frying': no quantity given; assumed a pinch"
-    },
-    {
-      "field": "environment",
-      "kind": "estimate",
-      "note": "no temperature given; assumed 175.0 °C for frying_oil"
     },
     {
       "field": "end",

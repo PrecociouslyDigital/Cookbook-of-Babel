@@ -5,7 +5,7 @@
     "source": "wikibooks_applewood_bacon",
     "step": 7
   },
-  "technique": "heat",
+  "technique": "smoke",
   "inputs": {
     "of": [
       {
@@ -34,8 +34,8 @@
     }
   ],
   "environment": {
-    "temperatureC": 180,
-    "medium": "convection_air"
+    "temperatureC": 80,
+    "medium": "still_air"
   },
   "end": {
     "by": "time",
@@ -49,7 +49,7 @@
     {
       "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.45"
+      "note": "the decision model gave this answer a probability of 0.44"
     },
     {
       "field": "inputs",
@@ -59,7 +59,7 @@
     {
       "field": "environment",
       "kind": "estimate",
-      "note": "no temperature given; assumed 180.0 °C for convection_air"
+      "note": "no temperature given; used the middle of smoke's typical range"
     }
   ]
 }

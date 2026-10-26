@@ -5,7 +5,7 @@
     "source": "wikibooks_meat_and_potatoes_in_broth_niku_jaga",
     "step": 1
   },
-  "technique": "cut",
+  "technique": "soak",
   "inputs": {
     "of": [
       {
@@ -19,7 +19,7 @@
   },
   "outputs": [
     {
-      "ingredient": "potato_cut",
+      "ingredient": "potato_soak",
       "amount": {
         "qty": 1,
         "unit": "batch"
@@ -39,6 +39,11 @@
   },
   "stateNote": "Cut potatoes into bite-sized pieces. Set aside to soak in cold water.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.55"
+    },
     {
       "field": "end",
       "kind": "estimate",

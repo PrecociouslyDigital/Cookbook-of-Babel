@@ -5,11 +5,11 @@
     "source": "wikibooks_potato_snow",
     "step": 4
   },
-  "technique": "evaporate",
+  "technique": "dry",
   "inputs": {
     "of": [
       {
-        "ingredient": "potato_boil_boil_boil",
+        "ingredient": "potato_soak_boil_boil",
         "amount": {
           "qty": 0.3,
           "unit": "g"
@@ -19,7 +19,7 @@
   },
   "outputs": [
     {
-      "ingredient": "potato_boil_boil_boil_evaporate",
+      "ingredient": "potato_soak_boil_boil_dry",
       "amount": {
         "qty": 0.3,
         "unit": "g"
@@ -27,7 +27,7 @@
     }
   ],
   "environment": {
-    "temperatureC": 100,
+    "temperatureC": 55,
     "medium": "oven_air"
   },
   "end": {
@@ -42,7 +42,7 @@
     {
       "field": "environment",
       "kind": "estimate",
-      "note": "no temperature given; used the middle of evaporate's typical range"
+      "note": "no temperature given; used the middle of dry's typical range"
     },
     {
       "field": "end",

@@ -5,7 +5,7 @@
     "source": "wikibooks_sylheti_handesh",
     "step": 3
   },
-  "technique": "assemble",
+  "technique": "shape",
   "inputs": {
     "of": [
       {
@@ -33,28 +33,23 @@
       }
     }
   ],
+  "environment": {
+    "temperatureC": 175,
+    "medium": "frying_oil"
+  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
-    },
-    "sensitivity": {
-      "refTempC": 20,
-      "q10": 1
     }
   },
   "stateNote": "Take small portions of the dough and shape them into round or oval discs, about the size of your palm.",
   "issues": [
     {
-      "field": "technique",
-      "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.39"
-    },
-    {
       "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.53"
+      "note": "the decision model gave this answer a probability of 0.51"
     },
     {
       "field": "inputs",
@@ -65,6 +60,11 @@
       "field": "outputs",
       "kind": "estimate",
       "note": "assumed 1 g/ml for cooking_oil"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 175.0 °C for frying_oil"
     },
     {
       "field": "end",

@@ -9,10 +9,10 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "vegetable_oil",
+        "ingredient": "vegetable_oil_heat",
         "amount": {
-          "qty": 2,
-          "unit": "tbsp"
+          "qty": 27.2,
+          "unit": "g"
         }
       },
       {
@@ -53,6 +53,11 @@
   },
   "stateNote": "Add the chopped onion and minced garlic to the pot. Sauté until the onions are soft and translucent.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.41"
+    },
     {
       "field": "environment",
       "kind": "estimate",

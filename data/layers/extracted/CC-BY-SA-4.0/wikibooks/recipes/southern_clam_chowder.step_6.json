@@ -55,8 +55,8 @@
     }
   ],
   "environment": {
-    "temperatureC": 90,
-    "medium": "simmering_water"
+    "temperatureC": 180,
+    "medium": "pan_contact"
   },
   "end": {
     "by": "time",
@@ -68,9 +68,14 @@
   "stateNote": "Remove chowder from heat and let stand for few minutes, then add hot milk, the clam liquor and seasoning to taste. If seasonings are added before hot milk, the chowder may curdle.",
   "issues": [
     {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.58"
+    },
+    {
       "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.3"
+      "note": "the decision model gave this answer a probability of 0.33"
     },
     {
       "field": "inputs",
@@ -90,7 +95,7 @@
     {
       "field": "environment",
       "kind": "estimate",
-      "note": "no temperature given; assumed 90.0 °C for simmering_water"
+      "note": "no temperature given; assumed 180.0 °C for pan_contact"
     },
     {
       "field": "end",

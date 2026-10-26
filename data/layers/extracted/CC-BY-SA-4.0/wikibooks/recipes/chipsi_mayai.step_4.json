@@ -5,7 +5,7 @@
     "source": "wikibooks_chipsi_mayai",
     "step": 4
   },
-  "technique": "strain",
+  "technique": "dry",
   "inputs": {
     "of": [
       {
@@ -19,7 +19,7 @@
   },
   "outputs": [
     {
-      "ingredient": "chipsi_mayai_step_4",
+      "ingredient": "potato_cut_fry_dry",
       "amount": {
         "qty": 1,
         "unit": "batch"
@@ -27,7 +27,7 @@
     }
   ],
   "environment": {
-    "temperatureC": 175,
+    "temperatureC": 55,
     "medium": "frying_oil"
   },
   "end": {
@@ -40,6 +40,11 @@
   "stateNote": "Remove the fries and drain on paper towels.",
   "issues": [
     {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.52"
+    },
+    {
       "field": "environment",
       "kind": "uncertain",
       "note": "the decision model gave this answer a probability of 0.47"
@@ -47,7 +52,7 @@
     {
       "field": "environment",
       "kind": "estimate",
-      "note": "no temperature given; assumed 175.0 °C for frying_oil"
+      "note": "no temperature given; used the middle of dry's typical range"
     },
     {
       "field": "end",

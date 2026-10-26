@@ -5,7 +5,7 @@
     "source": "wikibooks_pabellon_criollo_venezuelan_rice_and_beans_with_steak",
     "step": 2
   },
-  "technique": "simmer",
+  "technique": "evaporate",
   "inputs": {
     "of": [
       {
@@ -48,7 +48,7 @@
     }
   ],
   "environment": {
-    "temperatureC": 90,
+    "temperatureC": 100,
     "medium": "pan_contact"
   },
   "end": {
@@ -61,9 +61,14 @@
   "stateNote": "Add the tomatoes, cumin and salt, mix well, reduce the heat to low and cook uncovered, for about 30 minutes, stirring often, until the tomato juices evaporate and the sauce becomes thick.",
   "issues": [
     {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.55"
+    },
+    {
       "field": "environment",
       "kind": "estimate",
-      "note": "no temperature given; used the middle of simmer's typical range"
+      "note": "no temperature given; used the middle of evaporate's typical range"
     }
   ]
 }

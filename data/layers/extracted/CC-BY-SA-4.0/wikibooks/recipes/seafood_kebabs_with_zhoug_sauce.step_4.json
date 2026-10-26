@@ -5,7 +5,7 @@
     "source": "wikibooks_seafood_kebabs_with_zhoug_sauce",
     "step": 4
   },
-  "technique": "simmer",
+  "technique": "evaporate",
   "inputs": {
     "of": [
       {
@@ -27,7 +27,7 @@
     }
   ],
   "environment": {
-    "temperatureC": 90,
+    "temperatureC": 100,
     "medium": "pan_contact"
   },
   "end": {
@@ -40,9 +40,14 @@
   "stateNote": "Transfer the paste into a saucepan, heat until it starts bubbling, then reduce the heat and simmer, stirring constantly, until the water is evaporated. Cool, transfer to an airtight container and chill.",
   "issues": [
     {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.54"
+    },
+    {
       "field": "environment",
       "kind": "estimate",
-      "note": "no temperature given; used the middle of simmer's typical range"
+      "note": "no temperature given; used the middle of evaporate's typical range"
     },
     {
       "field": "end",

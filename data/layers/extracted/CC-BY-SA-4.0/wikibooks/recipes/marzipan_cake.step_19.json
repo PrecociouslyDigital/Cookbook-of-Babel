@@ -5,7 +5,7 @@
     "source": "wikibooks_marzipan_cake",
     "step": 19
   },
-  "technique": "assemble",
+  "technique": "shape",
   "inputs": {
     "of": [
       {
@@ -20,6 +20,13 @@
         "amount": {
           "qty": 200,
           "unit": "ml"
+        }
+      },
+      {
+        "ingredient": "starch_based_creamer",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
         }
       }
     ]
@@ -47,9 +54,24 @@
   "stateNote": "Prepare cream and transfer to a piping bag. Decorate the cake with cream.",
   "issues": [
     {
-      "field": "inputs",
+      "field": "technique",
       "kind": "uncertain",
       "note": "the decision model gave this answer a probability of 0.54"
+    },
+    {
+      "field": "inputs",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.58"
+    },
+    {
+      "field": "inputs",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.55"
+    },
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'starch-based creamer': no quantity given; assumed a pinch"
     },
     {
       "field": "end",

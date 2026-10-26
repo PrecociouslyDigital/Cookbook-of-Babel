@@ -35,6 +35,13 @@
           "qty": 100,
           "unit": "piece"
         }
+      },
+      {
+        "ingredient": "onion",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
       }
     ]
   },
@@ -62,8 +69,18 @@
   "issues": [
     {
       "field": "inputs",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.43"
+    },
+    {
+      "field": "inputs",
       "kind": "estimate",
       "note": "'100 mm fresh ginger': 'mm' read as pieces"
+    },
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Onions, chopped': no quantity given; assumed a pinch"
     },
     {
       "field": "end",

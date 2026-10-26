@@ -5,14 +5,14 @@
     "source": "wikibooks_kashmiri_pulao",
     "step": 2
   },
-  "technique": "fry",
+  "technique": "season",
   "inputs": {
     "of": [
       {
-        "ingredient": "clarified_butter",
+        "ingredient": "clarified_butter_heat",
         "amount": {
-          "qty": 3,
-          "unit": "tbsp"
+          "qty": 44.4,
+          "unit": "g"
         }
       },
       {
@@ -48,7 +48,7 @@
     }
   ],
   "environment": {
-    "temperatureC": 190,
+    "temperatureC": 180,
     "medium": "pan_contact"
   },
   "end": {
@@ -63,7 +63,12 @@
     {
       "field": "technique",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.3"
+      "note": "the decision model gave this answer a probability of 0.34"
+    },
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.56"
     },
     {
       "field": "inputs",
@@ -73,7 +78,7 @@
     {
       "field": "environment",
       "kind": "estimate",
-      "note": "no temperature given; used the middle of fry's typical range"
+      "note": "no temperature given; assumed 180.0 °C for pan_contact"
     },
     {
       "field": "end",

@@ -5,7 +5,7 @@
     "source": "wikibooks_victoria_sandwich",
     "step": 4
   },
-  "technique": "separate",
+  "technique": "shape",
   "inputs": {
     "of": [
       {
@@ -26,23 +26,28 @@
       }
     }
   ],
-  "environment": {
-    "temperatureC": 200,
-    "medium": "oven_air"
-  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
     }
   },
   "stateNote": "Divide the mixture between the two greased cake pans.",
   "issues": [
     {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.52"
+    },
+    {
       "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.44"
+      "note": "the decision model gave this answer a probability of 0.53"
     },
     {
       "field": "end",

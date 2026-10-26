@@ -5,7 +5,7 @@
     "source": "wikibooks_flammekueche_bacon_and_onion_flatbread",
     "step": 10
   },
-  "technique": "assemble",
+  "technique": "shape",
   "inputs": {
     "of": [
       {
@@ -26,15 +26,15 @@
       }
     }
   ],
-  "environment": {
-    "temperatureC": 220,
-    "medium": "oven_air"
-  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
     }
   },
   "stateNote": "Lightly oil a 14 x 16 inch (35 x 40 cm) baking sheet. Roll the dough until slightly smaller than the baking sheet. Place it on the sheet. If using a pizza stone you may roll the dough onto a sheet of parchment paper.",
@@ -42,7 +42,7 @@
     {
       "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.5"
+      "note": "the decision model gave this answer a probability of 0.52"
     },
     {
       "field": "end",

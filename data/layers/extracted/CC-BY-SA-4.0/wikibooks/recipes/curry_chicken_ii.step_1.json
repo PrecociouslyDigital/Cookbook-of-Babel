@@ -5,7 +5,7 @@
     "source": "wikibooks_curry_chicken_ii",
     "step": 1
   },
-  "technique": "stir_fry",
+  "technique": "pan_fry",
   "inputs": {
     "of": [
       {
@@ -34,7 +34,7 @@
     }
   ],
   "environment": {
-    "temperatureC": 215,
+    "temperatureC": 185,
     "medium": "pan_contact"
   },
   "end": {
@@ -47,14 +47,19 @@
   "stateNote": "In a cooking vessel over medium-high heat, add oil and chopped onion, and sauté until light brown.",
   "issues": [
     {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.56"
+    },
+    {
       "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.52"
+      "note": "the decision model gave this answer a probability of 0.55"
     },
     {
       "field": "environment",
       "kind": "estimate",
-      "note": "no temperature given; used the middle of stir_fry's typical range"
+      "note": "no temperature given; used the middle of pan_fry's typical range"
     },
     {
       "field": "end",

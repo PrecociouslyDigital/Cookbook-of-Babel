@@ -5,7 +5,7 @@
     "source": "wikibooks_coconut_pudding_i",
     "step": 8
   },
-  "technique": "chill",
+  "technique": "freeze",
   "inputs": {
     "of": [
       {
@@ -26,15 +26,15 @@
       }
     }
   ],
-  "environment": {
-    "temperatureC": 3,
-    "medium": "still_air"
-  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 15,
       "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
     }
   },
   "stateNote": "Place the pudding in the freezer for about 15 minutes or until it begins to set.",
@@ -42,12 +42,7 @@
     {
       "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.53"
-    },
-    {
-      "field": "environment",
-      "kind": "estimate",
-      "note": "no temperature given; used the middle of chill's typical range"
+      "note": "the decision model gave this answer a probability of 0.56"
     }
   ]
 }

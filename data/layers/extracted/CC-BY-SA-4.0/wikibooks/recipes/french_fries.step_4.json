@@ -5,7 +5,7 @@
     "source": "wikibooks_french_fries",
     "step": 4
   },
-  "technique": "strain",
+  "technique": "dry",
   "inputs": {
     "of": [
       {
@@ -19,7 +19,7 @@
   },
   "outputs": [
     {
-      "ingredient": "french_fries_step_4",
+      "ingredient": "potato_shreds_rinse_simmer_dry",
       "amount": {
         "qty": 0.3,
         "unit": "g"
@@ -27,7 +27,7 @@
     }
   ],
   "environment": {
-    "temperatureC": 20,
+    "temperatureC": 55,
     "medium": "still_air"
   },
   "end": {
@@ -41,8 +41,13 @@
   "issues": [
     {
       "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.58"
+    },
+    {
+      "field": "environment",
       "kind": "estimate",
-      "note": "no temperature given; assumed 20.0 °C for still_air"
+      "note": "no temperature given; used the middle of dry's typical range"
     },
     {
       "field": "end",

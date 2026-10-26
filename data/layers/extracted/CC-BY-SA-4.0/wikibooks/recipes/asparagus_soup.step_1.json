@@ -5,7 +5,7 @@
     "source": "wikibooks_asparagus_soup",
     "step": 1
   },
-  "technique": "separate",
+  "technique": "cut",
   "inputs": {
     "of": [
       {
@@ -19,7 +19,7 @@
   },
   "outputs": [
     {
-      "ingredient": "asparagus_soup_step_1",
+      "ingredient": "asparagus_cut",
       "amount": {
         "qty": 1,
         "unit": "batch"
@@ -39,6 +39,11 @@
   },
   "stateNote": "Snap the tough ends off the asparagus spears.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.5"
+    },
     {
       "field": "end",
       "kind": "estimate",

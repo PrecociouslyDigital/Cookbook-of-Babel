@@ -1,0 +1,53 @@
+{
+  "id": "filo_puff_pastry.step_8",
+  "source": "wikibooks_filo_puff_pastry",
+  "sourceRef": {
+    "source": "wikibooks_filo_puff_pastry",
+    "step": 8
+  },
+  "technique": "shape",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "filo_puff_pastry_step_7",
+        "amount": {
+          "qty": 1293.1,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "filo_puff_pastry_step_8",
+      "amount": {
+        "qty": 1293.1,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Draw a sheet of plastic food wrap large enough to cover one side of the flattened pastry. Invert the kneading board.",
+  "issues": [
+    {
+      "field": "sourceRef",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.54"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

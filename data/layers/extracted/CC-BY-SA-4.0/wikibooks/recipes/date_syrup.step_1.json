@@ -5,7 +5,7 @@
     "source": "wikibooks_date_syrup",
     "step": 1
   },
-  "technique": "boil",
+  "technique": "steep",
   "inputs": {
     "of": [
       {
@@ -34,7 +34,7 @@
     }
   ],
   "environment": {
-    "temperatureC": 100,
+    "temperatureC": 85,
     "medium": "boiling_water"
   },
   "end": {
@@ -47,6 +47,11 @@
   "stateNote": "Bring the water to a boil, and pour it over the dates in a heat-proof bowl.",
   "issues": [
     {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.45"
+    },
+    {
       "field": "outputs",
       "kind": "estimate",
       "note": "assumed 1 g/ml for date"
@@ -54,7 +59,7 @@
     {
       "field": "environment",
       "kind": "estimate",
-      "note": "no temperature given; used the middle of boil's typical range"
+      "note": "no temperature given; used the middle of steep's typical range"
     },
     {
       "field": "end",

@@ -5,7 +5,7 @@
     "source": "wikibooks_traditional_british_brewed_tea",
     "step": 4
   },
-  "technique": "heat",
+  "technique": "steep",
   "inputs": {
     "of": [
       {
@@ -27,7 +27,7 @@
     }
   ],
   "environment": {
-    "temperatureC": 100,
+    "temperatureC": 85,
     "medium": "boiling_water"
   },
   "end": {
@@ -40,14 +40,9 @@
   "stateNote": "Add the water as soon as it boils, and leave it to stand for 5 minutes (and no longer) before serving.",
   "issues": [
     {
-      "field": "technique",
-      "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.58"
-    },
-    {
       "field": "environment",
       "kind": "estimate",
-      "note": "no temperature given; assumed 100.0 °C for boiling_water"
+      "note": "no temperature given; used the middle of steep's typical range"
     }
   ]
 }

@@ -5,14 +5,21 @@
     "source": "wikibooks_au_jus_sandwich",
     "step": 3
   },
-  "technique": "separate",
+  "technique": "coat",
   "inputs": {
     "of": [
       {
-        "ingredient": "au_jus_sandwich_step_2",
+        "ingredient": "au_jus_sandwich_step_1",
         "amount": {
           "qty": 1,
           "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "french_sandwich_hoagie_rolls",
+        "amount": {
+          "qty": 4,
+          "unit": "piece"
         }
       }
     ]
@@ -26,15 +33,15 @@
       }
     }
   ],
-  "environment": {
-    "temperatureC": 90,
-    "medium": "simmering_water"
-  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
     }
   },
   "stateNote": "You can either pre-dip the sandwich, or serve with a bowl of meat drippings. When serving the drippings separately, remove the beef shreds from the juices and serve with a small bowl of meat drippings on the side. Dip the sandwiches in the drippings as you eat.",
@@ -42,17 +49,12 @@
     {
       "field": "technique",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.48"
+      "note": "the decision model gave this answer a probability of 0.39"
     },
     {
       "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.49"
-    },
-    {
-      "field": "environment",
-      "kind": "estimate",
-      "note": "no temperature given; assumed 90.0 °C for simmering_water"
+      "note": "the decision model gave this answer a probability of 0.4"
     },
     {
       "field": "end",
