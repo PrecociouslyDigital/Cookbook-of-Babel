@@ -1,0 +1,53 @@
+{
+  "type": "hexerei:mixingcauldron",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "hexerei"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/oreo_milkshake_step_1"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "fluidLevelsConsumed": 237,
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:portion",
+        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:liquid\",Tag:{substance:\"cookbook_of_babel:ice_cream\"}}}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/ice_cream"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:portion",
+        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:liquid\",Tag:{substance:\"cookbook_of_babel:ice_cream\"}}}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/ice_cream"
+      }
+    ]
+  ],
+  "liquid": {
+    "amount": 237,
+    "fluid": "minecraft:milk"
+  },
+  "liquidOutput": {
+    "amount": 237,
+    "fluid": "minecraft:milk"
+  },
+  "output": {
+    "count": 3,
+    "item": "cookbook_of_babel:portion",
+    "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:liquid\",Tag:{substance:\"cookbook_of_babel:oreo_milkshake_step_1\"}}}"
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "type": "hexerei:mixingcauldron",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "hexerei"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/steamed_tuna_bao_buns_step_1"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "fluidLevelsConsumed": 74,
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:portion",
+        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:bulk\",Tag:{substance:\"cookbook_of_babel:yeast\"}}}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/yeast"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:portion",
+        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:liquid\",Tag:{substance:\"cookbook_of_babel:milk\"}}}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/milk"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:portion",
+        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:liquid\",Tag:{substance:\"cookbook_of_babel:water\"}}}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/water"
+      }
+    ]
+  ],
+  "liquid": {
+    "amount": 74,
+    "fluid": "create:honey"
+  },
+  "liquidOutput": {
+    "amount": 74,
+    "fluid": "create:honey"
+  },
+  "output": {
+    "count": 2,
+    "item": "cookbook_of_babel:portion",
+    "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:liquid\",Tag:{substance:\"cookbook_of_babel:steamed_tuna_bao_buns_step_1\"}}}"
+  }
+}

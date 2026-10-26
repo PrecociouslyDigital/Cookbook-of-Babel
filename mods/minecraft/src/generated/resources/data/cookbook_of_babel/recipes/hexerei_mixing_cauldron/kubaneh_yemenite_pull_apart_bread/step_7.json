@@ -1,0 +1,43 @@
+{
+  "type": "hexerei:mixingcauldron",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "hexerei"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/kubaneh_yemenite_pull_apart_bread_step_7"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "pneumaticcraft"
+    }
+  ],
+  "fluidLevelsConsumed": 10,
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:kubaneh_yemenite_pull_apart_bread_step_5\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/kubaneh_yemenite_pull_apart_bread_step_5"
+      }
+    ]
+  ],
+  "liquid": {
+    "amount": 10,
+    "fluid": "pneumaticcraft:vegetable_oil"
+  },
+  "liquidOutput": {
+    "amount": 10,
+    "fluid": "pneumaticcraft:vegetable_oil"
+  },
+  "output": {
+    "count": 7,
+    "item": "cookbook_of_babel:substance",
+    "nbt": "{substance:\"cookbook_of_babel:kubaneh_yemenite_pull_apart_bread_step_7\"}"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "type": "hexerei:mixingcauldron",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "hexerei"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/agidi_nigerian_cornstarch_swallow_step_1"
+    }
+  ],
+  "fluidLevelsConsumed": 700,
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:portion",
+        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:bulk\",Tag:{substance:\"cookbook_of_babel:starch\"}}}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/starch"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:portion",
+        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:bulk\",Tag:{substance:\"cookbook_of_babel:white_sugar\"}}}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/white_sugar"
+      }
+    ]
+  ],
+  "liquid": {
+    "amount": 700,
+    "fluid": "minecraft:water"
+  },
+  "liquidOutput": {
+    "amount": 700,
+    "fluid": "minecraft:water"
+  },
+  "output": {
+    "count": 3,
+    "item": "cookbook_of_babel:portion",
+    "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:liquid\",Tag:{substance:\"cookbook_of_babel:agidi_nigerian_cornstarch_swallow_step_1\"}}}"
+  }
+}

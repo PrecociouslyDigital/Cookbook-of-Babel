@@ -3,6 +3,7 @@ package cookbookofbabel.minecraft.datagen.plan;
 import static cookbookofbabel.minecraft.datagen.plan.RouteKind.BLASTING;
 import static cookbookofbabel.minecraft.datagen.plan.RouteKind.BNC_KEG;
 import static cookbookofbabel.minecraft.datagen.plan.RouteKind.CAMPFIRE;
+import static cookbookofbabel.minecraft.datagen.plan.RouteKind.CREATE_COMPACTING;
 import static cookbookofbabel.minecraft.datagen.plan.RouteKind.CREATE_CUTTING;
 import static cookbookofbabel.minecraft.datagen.plan.RouteKind.CREATE_DEPLOYING;
 import static cookbookofbabel.minecraft.datagen.plan.RouteKind.CREATE_HEATED_MIXING;
@@ -14,13 +15,18 @@ import static cookbookofbabel.minecraft.datagen.plan.RouteKind.FD_COOKING_POT;
 import static cookbookofbabel.minecraft.datagen.plan.RouteKind.FD_CUTTING_BOARD;
 import static cookbookofbabel.minecraft.datagen.plan.RouteKind.FR_KETTLE;
 import static cookbookofbabel.minecraft.datagen.plan.RouteKind.HEXEREI_DRYING_RACK;
+import static cookbookofbabel.minecraft.datagen.plan.RouteKind.HEXEREI_MIXING_CAULDRON;
+import static cookbookofbabel.minecraft.datagen.plan.RouteKind.HEXEREI_PESTLE_AND_MORTAR;
 import static cookbookofbabel.minecraft.datagen.plan.RouteKind.PNC_THERMO_PLANT;
 import static cookbookofbabel.minecraft.datagen.plan.RouteKind.GARNISHED_FREEZING;
 import static cookbookofbabel.minecraft.datagen.plan.RouteKind.SHAPELESS_CRAFTING;
 import static cookbookofbabel.minecraft.datagen.plan.RouteKind.SMELTING;
 import static cookbookofbabel.minecraft.datagen.plan.RouteKind.SMOKING;
+import static cookbookofbabel.minecraft.datagen.plan.RouteKind.THERMAL_BOTTLER;
 import static cookbookofbabel.minecraft.datagen.plan.RouteKind.THERMAL_CENTRIFUGE;
+import static cookbookofbabel.minecraft.datagen.plan.RouteKind.THERMAL_CHILLER;
 import static cookbookofbabel.minecraft.datagen.plan.RouteKind.THERMAL_PRESS;
+import static cookbookofbabel.minecraft.datagen.plan.RouteKind.THERMAL_SMELTER;
 import static cookbookofbabel.minecraft.datagen.plan.RouteKind.THEURGY_CALCINATION;
 import static cookbookofbabel.minecraft.datagen.plan.RouteKind.THEURGY_FERMENTATION;
 import static cookbookofbabel.minecraft.datagen.plan.RouteKind.THEURGY_LIQUEFACTION;
@@ -28,6 +34,7 @@ import static cookbookofbabel.minecraft.datagen.plan.RouteKind.VD_FERMENTING_JAR
 
 import cookbookofbabel.minecraft.dataset.IngredientId;
 import cookbookofbabel.minecraft.dataset.TechniqueId;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 import java.util.Optional;
@@ -38,20 +45,23 @@ import java.util.Set;
  * ancestor, so {@code pan_fry} is done like {@code fry} and {@code chop} like {@code cut}.
  */
 public final class Techniques {
+    /** Coating and shaping are kinds of assembly, each with a machine of its own besides. */
+    private static final List<RouteKind> ASSEMBLY = List.of(SHAPELESS_CRAFTING, CREATE_DEPLOYING, HEXEREI_MIXING_CAULDRON);
+
     static final Map<TechniqueId, Binding> TABLE = Map.ofEntries(
-            bind("mix", CREATE_MIXING, SHAPELESS_CRAFTING),
+            bind("mix", CREATE_MIXING, SHAPELESS_CRAFTING, HEXEREI_MIXING_CAULDRON),
             bind("whisk", CREATE_MIXING),
             bind("blend", CREATE_MIXING),
             bind("heat", CREATE_HEATED_MIXING, FD_COOKING_POT),
             bind("bake", SMELTING, SMOKING),
-            bind("roast", SMELTING, SMOKING),
-            bind("toast", SMELTING, SMOKING),
+            bind("roast", SMELTING, SMOKING, THERMAL_SMELTER),
+            bind("toast", SMELTING, SMOKING, THERMAL_SMELTER),
             bind("grill", CAMPFIRE, SMOKING),
             bind("smoke", SMOKING, CAMPFIRE),
             // Farmer's Delight's skillet takes one input, so it can't take the oil too.
             bind("fry", CREATE_HEATED_MIXING, PNC_THERMO_PLANT),
             bind("cut", FD_CUTTING_BOARD, CREATE_CUTTING),
-            bind("grind", CREATE_MILLING),
+            bind("grind", CREATE_MILLING, HEXEREI_PESTLE_AND_MORTAR),
             // The dataset lists the water as an input and the starchy water as an output. A fan
             // blowing through water supplies its own.
             bind("rinse", CREATE_MIXING, CREATE_SPLASHING),
@@ -63,7 +73,9 @@ public final class Techniques {
             // A heated basin boils the wash and collects what comes off as a fluid.
             bind("distill", CREATE_HEATED_MIXING),
             bind("coagulate", CREATE_MIXING),
-            bind("assemble", SHAPELESS_CRAFTING, CREATE_DEPLOYING),
+            bind("assemble", ASSEMBLY),
+            bind("coat", ASSEMBLY, THERMAL_BOTTLER),
+            bind("shape", ASSEMBLY, CREATE_COMPACTING),
             // Calcining gives off a gas, which only a basin can collect.
             bind("calcine", CREATE_HEATED_MIXING, BLASTING, THEURGY_CALCINATION),
             // Ash needs far more input than a furnace takes at once, so a basin too.
@@ -71,9 +83,9 @@ public final class Techniques {
             bind("carbonate", CREATE_MIXING),
             bind("evaporate", CREATE_HEATED_MIXING),
             elide("cool"),
-            elide("chill"),
+            elide("chill", THERMAL_CHILLER),
             elide("dry", HEXEREI_DRYING_RACK),
-            elide("freeze", GARNISHED_FREEZING),
+            elide("freeze", GARNISHED_FREEZING, THERMAL_CHILLER),
             // Ageing, fermenting, curing and sprouting take a timed container.
             bind("age", VD_FERMENTING_JAR, BNC_KEG),
             bind("ferment", VD_FERMENTING_JAR, BNC_KEG, PNC_THERMO_PLANT, THEURGY_FERMENTATION),
@@ -123,6 +135,12 @@ public final class Techniques {
     }
 
     private static Map.Entry<TechniqueId, Binding> bind(String technique, RouteKind... routes) {
-        return Map.entry(new TechniqueId(technique), new Binding.Routes(List.of(routes)));
+        return bind(technique, List.of(), routes);
+    }
+
+    private static Map.Entry<TechniqueId, Binding> bind(String technique, List<RouteKind> shared, RouteKind... own) {
+        var routes = new ArrayList<>(shared);
+        routes.addAll(List.of(own));
+        return Map.entry(new TechniqueId(technique), new Binding.Routes(List.copyOf(routes)));
     }
 }

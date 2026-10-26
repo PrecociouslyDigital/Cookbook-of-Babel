@@ -1,0 +1,53 @@
+{
+  "type": "hexerei:mixingcauldron",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "hexerei"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/mincemeat_tart_step_8"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "fluidLevelsConsumed": 1,
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:mincemeat_tart_step_7\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/mincemeat_tart_step_7"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:egg\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/egg"
+      }
+    ]
+  ],
+  "liquid": {
+    "amount": 1,
+    "fluid": "minecraft:milk"
+  },
+  "liquidOutput": {
+    "amount": 1,
+    "fluid": "minecraft:milk"
+  },
+  "output": {
+    "count": 9,
+    "item": "cookbook_of_babel:substance",
+    "nbt": "{substance:\"cookbook_of_babel:mincemeat_tart_step_8\"}"
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "type": "hexerei:mixingcauldron",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "hexerei"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/dalgona_coffee"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "fluidLevelsConsumed": 2,
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:portion",
+        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:liquid\",Tag:{substance:\"cookbook_of_babel:dalgona_coffee_step_2\"}}}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/dalgona_coffee_step_2"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:portion",
+        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:liquid\",Tag:{substance:\"cookbook_of_babel:dalgona_coffee_step_2\"}}}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/dalgona_coffee_step_2"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:ice_cubes\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/ice_cubes"
+      }
+    ]
+  ],
+  "liquid": {
+    "amount": 2,
+    "fluid": "minecraft:milk"
+  },
+  "liquidOutput": {
+    "amount": 2,
+    "fluid": "minecraft:milk"
+  },
+  "output": {
+    "count": 5,
+    "item": "cookbook_of_babel:dalgona_coffee"
+  }
+}

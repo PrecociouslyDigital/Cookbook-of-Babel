@@ -1,0 +1,45 @@
+{
+  "type": "create:compacting",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/homemade_pie_crust_step_6"
+    }
+  ],
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:homemade_pie_crust_step_5\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/homemade_pie_crust_step_5"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:homemade_pie_crust_step_5\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/homemade_pie_crust_step_5"
+      }
+    ]
+  ],
+  "processingTime": 20,
+  "results": [
+    {
+      "count": 2,
+      "item": "cookbook_of_babel:substance",
+      "nbt": {
+        "substance": "cookbook_of_babel:homemade_pie_crust_step_6"
+      }
+    }
+  ]
+}

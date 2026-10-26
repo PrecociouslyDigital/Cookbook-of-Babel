@@ -1,0 +1,69 @@
+{
+  "type": "hexerei:mixingcauldron",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "hexerei"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/english_style_aged_cheese_step_2"
+    }
+  ],
+  "fluidLevelsConsumed": 2,
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:portion",
+        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:liquid\",Tag:{substance:\"cookbook_of_babel:milk_boil\"}}}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/milk_boil"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:portion",
+        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:liquid\",Tag:{substance:\"cookbook_of_babel:milk_boil\"}}}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/milk_boil"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:portion",
+        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:liquid\",Tag:{substance:\"cookbook_of_babel:milk_boil\"}}}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/milk_boil"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:portion",
+        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:liquid\",Tag:{substance:\"cookbook_of_babel:rennet\"}}}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/rennet"
+      }
+    ]
+  ],
+  "liquid": {
+    "amount": 2,
+    "fluid": "minecraft:water"
+  },
+  "liquidOutput": {
+    "amount": 2,
+    "fluid": "minecraft:water"
+  },
+  "output": {
+    "count": 3,
+    "item": "cookbook_of_babel:portion",
+    "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:liquid\",Tag:{substance:\"cookbook_of_babel:english_style_aged_cheese_step_2\"}}}"
+  }
+}

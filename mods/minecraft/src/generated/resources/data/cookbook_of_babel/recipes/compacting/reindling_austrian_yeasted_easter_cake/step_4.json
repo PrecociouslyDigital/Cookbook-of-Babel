@@ -1,0 +1,34 @@
+{
+  "type": "create:compacting",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/reindling_austrian_yeasted_easter_cake_step_4"
+    }
+  ],
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:reindling_austrian_yeasted_easter_cake_step_3\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/reindling_austrian_yeasted_easter_cake_step_3"
+      }
+    ]
+  ],
+  "processingTime": 200,
+  "results": [
+    {
+      "item": "cookbook_of_babel:substance",
+      "nbt": {
+        "substance": "cookbook_of_babel:reindling_austrian_yeasted_easter_cake_step_4"
+      }
+    }
+  ]
+}

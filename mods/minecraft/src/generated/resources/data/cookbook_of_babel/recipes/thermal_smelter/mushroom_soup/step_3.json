@@ -1,0 +1,35 @@
+{
+  "type": "thermal:smelter",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "thermal_expansion"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/mushroom_soup_step_3"
+    }
+  ],
+  "energy": 2000,
+  "ingredients": [
+    {
+      "value": [
+        {
+          "type": "forge:partial_nbt",
+          "item": "cookbook_of_babel:substance",
+          "nbt": "{substance:\"cookbook_of_babel:mushroom_soup_step_2\"}"
+        },
+        {
+          "tag": "cookbook_of_babel:ingredients/mushroom_soup_step_2"
+        }
+      ]
+    }
+  ],
+  "result": [
+    {
+      "count": 1,
+      "item": "cookbook_of_babel:substance",
+      "nbt": "{substance:\"cookbook_of_babel:mushroom_soup_step_3\"}"
+    }
+  ]
+}

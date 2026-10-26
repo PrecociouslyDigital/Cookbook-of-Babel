@@ -1,0 +1,34 @@
+{
+  "type": "create:compacting",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/austrian_meatloaf_faschierter_braten_step_5"
+    }
+  ],
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:austrian_meatloaf_faschierter_braten_step_4\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/austrian_meatloaf_faschierter_braten_step_4"
+      }
+    ]
+  ],
+  "processingTime": 20,
+  "results": [
+    {
+      "item": "cookbook_of_babel:substance",
+      "nbt": {
+        "substance": "cookbook_of_babel:austrian_meatloaf_faschierter_braten_step_5"
+      }
+    }
+  ]
+}

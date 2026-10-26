@@ -23,8 +23,9 @@ STEP_LABEL = re.compile(r"(.+), after step \d+$")
 STEP_ID = re.compile(r"_step_\d+$")
 
 LIST_INPUTS = "ingredients"
-SINGLE_INPUTS = ("ingredient", "item_input", "fluid_input", "tool", "solvent", "fluid")
-AMOUNT_KEYS = {"solvent": "solvent_amount", "fluid": "fluidAmount"}
+SINGLE_INPUTS = ("ingredient", "item_input", "fluid_input", "tool", "solvent", "fluid", "liquid")
+AMOUNT_KEYS = {"solvent": "solvent_amount", "fluid": "fluidAmount", "liquid": "fluidLevelsConsumed"}
+# Hexerei's cauldron also names a liquidOutput: what's left of its liquid, not a product.
 OUTPUTS = ("result", "results", "output", "item_output", "fluid_output", "secondaryOutput")
 
 
@@ -55,7 +56,13 @@ def ref(entry):
     return babel_ref(entry) or foreign_ref(entry)
 
 
+def unwrapped(ingredient):
+    """CoFH wraps an item ingredient as {"value": ..., "count": n} to give it a count."""
+    return ingredient["value"] if isinstance(ingredient, dict) and "value" in ingredient else ingredient
+
+
 def resolve(ingredient):
+    ingredient = unwrapped(ingredient)
     alternatives = ingredient if isinstance(ingredient, list) else [ingredient]
     return next(filter(None, map(babel_ref, alternatives)), None) or foreign_ref(alternatives[0])
 
@@ -65,6 +72,8 @@ def quantity(ingredient, recipe, key):
         return recipe[AMOUNT_KEYS[key]], "mB"
     if isinstance(ingredient, dict) and "amount" in ingredient:
         return ingredient["amount"], "mB"
+    if isinstance(ingredient, dict) and "value" in ingredient:
+        return ingredient.get("count", 1), ""
     return 1, ""
 
 

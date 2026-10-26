@@ -1,0 +1,63 @@
+{
+  "type": "hexerei:mixingcauldron",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "hexerei"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/boilo_hot_spiced_citrus_whiskey_step_2"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "fluidLevelsConsumed": 227,
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:boilo_hot_spiced_citrus_whiskey_step_1\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/boilo_hot_spiced_citrus_whiskey_step_1"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:raisin\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/raisin"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:portion",
+        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:bulk\",Tag:{substance:\"cookbook_of_babel:cinnamon\"}}}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/cinnamon"
+      }
+    ]
+  ],
+  "liquid": {
+    "amount": 227,
+    "fluid": "create:honey"
+  },
+  "liquidOutput": {
+    "amount": 227,
+    "fluid": "create:honey"
+  },
+  "output": {
+    "count": 1,
+    "item": "cookbook_of_babel:substance",
+    "nbt": "{substance:\"cookbook_of_babel:boilo_hot_spiced_citrus_whiskey_step_2\"}"
+  }
+}

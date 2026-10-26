@@ -1,0 +1,42 @@
+{
+  "type": "thermal:bottler",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "thermal_expansion"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/loukoumas_greek_donuts_with_honey_i"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "energy": 400,
+  "ingredients": [
+    {
+      "value": [
+        {
+          "type": "forge:partial_nbt",
+          "item": "cookbook_of_babel:substance",
+          "nbt": "{substance:\"cookbook_of_babel:loukoumas_greek_donuts_with_honey_i_step_6\"}"
+        },
+        {
+          "tag": "cookbook_of_babel:ingredients/loukoumas_greek_donuts_with_honey_i_step_6"
+        }
+      ]
+    },
+    {
+      "amount": 1,
+      "fluid": "create:honey"
+    }
+  ],
+  "result": [
+    {
+      "count": 1,
+      "item": "cookbook_of_babel:loukoumas_greek_donuts_with_honey_i"
+    }
+  ]
+}

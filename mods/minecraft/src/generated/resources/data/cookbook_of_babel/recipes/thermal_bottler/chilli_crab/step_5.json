@@ -1,0 +1,39 @@
+{
+  "type": "thermal:bottler",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "thermal_expansion"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/chilli_crab_step_5"
+    }
+  ],
+  "energy": 400,
+  "ingredients": [
+    {
+      "value": [
+        {
+          "type": "forge:partial_nbt",
+          "item": "cookbook_of_babel:substance",
+          "nbt": "{substance:\"cookbook_of_babel:chilli_crab_step_4\"}"
+        },
+        {
+          "tag": "cookbook_of_babel:ingredients/chilli_crab_step_4"
+        }
+      ]
+    },
+    {
+      "amount": 237,
+      "fluid": "minecraft:water"
+    }
+  ],
+  "result": [
+    {
+      "count": 1,
+      "item": "cookbook_of_babel:substance",
+      "nbt": "{substance:\"cookbook_of_babel:chilli_crab_step_5\"}"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "type": "create:compacting",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/omu_tuo_ghanian_mashed_rice"
+    }
+  ],
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:omu_tuo_ghanian_mashed_rice_step_3\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/omu_tuo_ghanian_mashed_rice_step_3"
+      }
+    ]
+  ],
+  "processingTime": 20,
+  "results": [
+    {
+      "item": "cookbook_of_babel:omu_tuo_ghanian_mashed_rice"
+    }
+  ]
+}

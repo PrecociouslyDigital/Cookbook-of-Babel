@@ -1,0 +1,39 @@
+{
+  "type": "hexerei:mixingcauldron",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "hexerei"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/kuli_kuli_step_3"
+    }
+  ],
+  "fluidLevelsConsumed": 1,
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:peanut_toast_grind\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/peanut_toast_grind"
+      }
+    ]
+  ],
+  "liquid": {
+    "amount": 1,
+    "fluid": "minecraft:water"
+  },
+  "liquidOutput": {
+    "amount": 1,
+    "fluid": "minecraft:water"
+  },
+  "output": {
+    "count": 1,
+    "item": "cookbook_of_babel:substance",
+    "nbt": "{substance:\"cookbook_of_babel:kuli_kuli_step_3\"}"
+  }
+}

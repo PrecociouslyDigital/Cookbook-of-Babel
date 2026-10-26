@@ -1,0 +1,43 @@
+{
+  "type": "thermal:bottler",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "thermal_expansion"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/chapati_za_maji_tanzanian_pancakes_step_7"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "pneumaticcraft"
+    }
+  ],
+  "energy": 400,
+  "ingredients": [
+    {
+      "value": [
+        {
+          "type": "forge:partial_nbt",
+          "item": "cookbook_of_babel:portion",
+          "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:liquid\",Tag:{substance:\"cookbook_of_babel:chapati_za_maji_tanzanian_pancakes_step_4\"}}}"
+        },
+        {
+          "tag": "cookbook_of_babel:ingredients/chapati_za_maji_tanzanian_pancakes_step_4"
+        }
+      ]
+    },
+    {
+      "amount": 1,
+      "fluid": "pneumaticcraft:vegetable_oil"
+    }
+  ],
+  "result": [
+    {
+      "count": 1,
+      "item": "cookbook_of_babel:portion",
+      "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:liquid\",Tag:{substance:\"cookbook_of_babel:chapati_za_maji_tanzanian_pancakes_step_7\"}}}"
+    }
+  ]
+}

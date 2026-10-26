@@ -1,0 +1,44 @@
+{
+  "type": "hexerei:mixingcauldron",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "hexerei"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/bacon_and_egg_pie_step_5"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "fluidLevelsConsumed": 1,
+  "heatRequirement": "heated",
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:bacon_and_egg_pie_step_4\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/bacon_and_egg_pie_step_4"
+      }
+    ]
+  ],
+  "liquid": {
+    "amount": 1,
+    "fluid": "minecraft:milk"
+  },
+  "liquidOutput": {
+    "amount": 1,
+    "fluid": "minecraft:milk"
+  },
+  "output": {
+    "count": 1,
+    "item": "cookbook_of_babel:substance",
+    "nbt": "{substance:\"cookbook_of_babel:bacon_and_egg_pie_step_5\"}"
+  }
+}

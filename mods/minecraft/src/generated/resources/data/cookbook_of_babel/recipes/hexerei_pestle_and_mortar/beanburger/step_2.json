@@ -1,0 +1,51 @@
+{
+  "type": "hexerei:pestle_and_mortar",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "hexerei"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/beanburger_step_2"
+    }
+  ],
+  "grindingTime": 20,
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:beanburger_step_1\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/beanburger_step_1"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:pulses\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/pulses"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:pulses\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/pulses"
+      }
+    ]
+  ],
+  "output": {
+    "count": 1,
+    "item": "cookbook_of_babel:substance",
+    "nbt": "{substance:\"cookbook_of_babel:beanburger_step_2\"}"
+  }
+}

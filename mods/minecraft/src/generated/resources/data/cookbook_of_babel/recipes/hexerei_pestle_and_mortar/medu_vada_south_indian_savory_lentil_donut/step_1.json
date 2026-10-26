@@ -1,0 +1,31 @@
+{
+  "type": "hexerei:pestle_and_mortar",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "hexerei"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/urad_bean_grind"
+    }
+  ],
+  "grindingTime": 1200,
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:urad_bean\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/urad_bean"
+      }
+    ]
+  ],
+  "output": {
+    "count": 3,
+    "item": "cookbook_of_babel:substance",
+    "nbt": "{substance:\"cookbook_of_babel:urad_bean_grind\"}"
+  }
+}

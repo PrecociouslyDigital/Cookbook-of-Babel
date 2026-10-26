@@ -1,0 +1,50 @@
+{
+  "type": "hexerei:mixingcauldron",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "hexerei"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/karelian_pasties_karjalanpiirakat_step_1"
+    }
+  ],
+  "fluidLevelsConsumed": 750,
+  "heatRequirement": "heated",
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:portion",
+        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:bulk\",Tag:{substance:\"cookbook_of_babel:rice\"}}}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/rice"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:portion",
+        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:bulk\",Tag:{substance:\"cookbook_of_babel:rice\"}}}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/rice"
+      }
+    ]
+  ],
+  "liquid": {
+    "amount": 750,
+    "fluid": "minecraft:water"
+  },
+  "liquidOutput": {
+    "amount": 750,
+    "fluid": "minecraft:water"
+  },
+  "output": {
+    "count": 5,
+    "item": "cookbook_of_babel:portion",
+    "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:bulk\",Tag:{substance:\"cookbook_of_babel:karelian_pasties_karjalanpiirakat_step_1\"}}}"
+  }
+}

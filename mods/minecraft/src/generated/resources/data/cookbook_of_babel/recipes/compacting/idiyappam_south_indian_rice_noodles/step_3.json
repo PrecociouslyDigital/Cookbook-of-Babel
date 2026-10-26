@@ -1,0 +1,55 @@
+{
+  "type": "create:compacting",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/idiyappam_south_indian_rice_noodles_step_3"
+    }
+  ],
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:idiyappam_south_indian_rice_noodles_step_2\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/idiyappam_south_indian_rice_noodles_step_2"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:idiyappam_south_indian_rice_noodles_step_2\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/idiyappam_south_indian_rice_noodles_step_2"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:coconut\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/coconut"
+      }
+    ]
+  ],
+  "processingTime": 20,
+  "results": [
+    {
+      "count": 36,
+      "item": "cookbook_of_babel:substance",
+      "nbt": {
+        "substance": "cookbook_of_babel:idiyappam_south_indian_rice_noodles_step_3"
+      }
+    }
+  ]
+}

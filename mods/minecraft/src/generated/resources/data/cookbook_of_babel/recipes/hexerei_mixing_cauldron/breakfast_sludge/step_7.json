@@ -1,0 +1,53 @@
+{
+  "type": "hexerei:mixingcauldron",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "hexerei"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/breakfast_sludge"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "fluidLevelsConsumed": 2,
+  "heatRequirement": "heated",
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:portion",
+        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:liquid\",Tag:{substance:\"cookbook_of_babel:breakfast_sludge_step_6\"}}}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/breakfast_sludge_step_6"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:portion",
+        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:liquid\",Tag:{substance:\"cookbook_of_babel:breakfast_sludge_step_6\"}}}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/breakfast_sludge_step_6"
+      }
+    ]
+  ],
+  "liquid": {
+    "amount": 2,
+    "fluid": "minecraft:milk"
+  },
+  "liquidOutput": {
+    "amount": 2,
+    "fluid": "minecraft:milk"
+  },
+  "output": {
+    "count": 5,
+    "item": "cookbook_of_babel:breakfast_sludge"
+  }
+}

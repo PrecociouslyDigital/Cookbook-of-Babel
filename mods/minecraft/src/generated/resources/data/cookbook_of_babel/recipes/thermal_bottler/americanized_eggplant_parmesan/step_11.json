@@ -1,0 +1,43 @@
+{
+  "type": "thermal:bottler",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "thermal_expansion"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/americanized_eggplant_parmesan_step_11"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "pneumaticcraft"
+    }
+  ],
+  "energy": 400,
+  "ingredients": [
+    {
+      "value": [
+        {
+          "type": "forge:partial_nbt",
+          "item": "cookbook_of_babel:substance",
+          "nbt": "{substance:\"cookbook_of_babel:americanized_eggplant_parmesan_step_10\"}"
+        },
+        {
+          "tag": "cookbook_of_babel:ingredients/americanized_eggplant_parmesan_step_10"
+        }
+      ]
+    },
+    {
+      "amount": 1,
+      "fluid": "pneumaticcraft:vegetable_oil"
+    }
+  ],
+  "result": [
+    {
+      "count": 1,
+      "item": "cookbook_of_babel:substance",
+      "nbt": "{substance:\"cookbook_of_babel:americanized_eggplant_parmesan_step_11\"}"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "type": "hexerei:mixingcauldron",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "hexerei"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/rabbit_with_abbey_beer_konijn_met_paterbier_step_4"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "brewinandchewin"
+    }
+  ],
+  "fluidLevelsConsumed": 150,
+  "heatRequirement": "heated",
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:rabbit_with_abbey_beer_konijn_met_paterbier_step_3\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/rabbit_with_abbey_beer_konijn_met_paterbier_step_3"
+      }
+    ]
+  ],
+  "liquid": {
+    "amount": 150,
+    "fluid": "brewinandchewin:beer"
+  },
+  "liquidOutput": {
+    "amount": 150,
+    "fluid": "brewinandchewin:beer"
+  },
+  "output": {
+    "count": 1,
+    "item": "cookbook_of_babel:substance",
+    "nbt": "{substance:\"cookbook_of_babel:rabbit_with_abbey_beer_konijn_met_paterbier_step_4\"}"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "type": "hexerei:pestle_and_mortar",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "hexerei"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/grape_rinse_grind"
+    }
+  ],
+  "grindingTime": 20,
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:grape_rinse\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/grape_rinse"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:grape_rinse\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/grape_rinse"
+      }
+    ]
+  ],
+  "output": {
+    "count": 3,
+    "item": "cookbook_of_babel:substance",
+    "nbt": "{substance:\"cookbook_of_babel:grape_rinse_grind\"}"
+  }
+}

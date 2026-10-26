@@ -28,6 +28,8 @@ public final class Planner {
     static final double TICKS_PER_REAL_SECOND = 20.0 / 60;
     /** Where a machine takes a duration and the step gives none. */
     static final double DEFAULT_TICKS = 200;
+    /** Below this a step is at room temperature, and needn't be heated. */
+    public static final double WARM_FROM_C = 30;
     static final double SUPERHEATED_FROM_C = 250;
     /** A tablespoon, added where a technique needs a medium the step didn't list. */
     static final Amount MEDIUM_AMOUNT = new Amount(15, "ml");
@@ -157,7 +159,7 @@ public final class Planner {
         if (fit.isEmpty()) {
             return new Rejected(fluidsAllowed(inputs, route).size() < c.minFluidInputs()
                     ? "needs a fluid it can take, and has none"
-                    : "doesn't fit in " + c.maxItemInputs() + " input items and " + TANK_MB + " mB tanks at any scale");
+                    : limits(route).exceeded());
         }
         var fluidInputs = fit.get().fluids();
         var q = fit.get().quantized();
@@ -208,7 +210,7 @@ public final class Planner {
                     estimated |= converted.estimated();
                     exact.add(new Exact(converted.value(), fluid ? Kind.MILLIBUCKETS : Kind.ITEMS, negligible(leaf.ingredient(), leaf.amount(), inputGrams)));
                 }
-                if (Quantize.quantize(exact, outputs, new Quantize.Limits(c.maxItemInputs(), TANK_MB)) instanceof Quantize.Quantized q
+                if (Quantize.quantize(exact, outputs, limits(route)) instanceof Quantize.Quantized q
                         && (best.isEmpty() || q.maxError() < best.get().quantized().maxError())) {
                     best = Optional.of(new Fit(fluids, q, estimated));
                 }
@@ -242,6 +244,9 @@ public final class Planner {
                     ? Optional.empty()
                     : Optional.of("the item drain takes one item and yields one item and one fluid");
         }
+        if (route == RouteKind.HEXEREI_MIXING_CAULDRON && (outputs.size() != 1 || !fluidOutputs.isEmpty())) {
+            return Optional.of("the mixing cauldron makes exactly one item");
+        }
         if (route == RouteKind.CREATE_DEPLOYING && inputs.size() != 2) {
             return Optional.of("deploying takes exactly two items");
         }
@@ -264,12 +269,19 @@ public final class Planner {
         return (int) Math.max(c.minTicks(), Math.min(c.maxTicks(), Math.round(ticks)));
     }
 
+    private static Quantize.Limits limits(RouteKind route) {
+        return new Quantize.Limits(route.constraints.maxItemInputs(), route.constraints.maxOfEachItem(), TANK_MB);
+    }
+
     private Heat heat(RouteKind route, Recipe recipe) {
-        if (!route.heated()) {
-            return Heat.NONE;
-        }
         var temperature = recipe.temperatureC().or(() -> dataset.typicalTempC(recipe.technique()));
-        return temperature.filter(t -> t >= SUPERHEATED_FROM_C).isPresent() ? Heat.SUPERHEATED : Heat.HEATED;
+        var superheated = temperature.filter(t -> t >= SUPERHEATED_FROM_C).isPresent();
+        var warm = temperature.filter(t -> t >= WARM_FROM_C).isPresent();
+        return switch (route.heating()) {
+            case NEVER -> Heat.NONE;
+            case ALWAYS -> superheated ? Heat.SUPERHEATED : Heat.HEATED;
+            case WHEN_WARM -> superheated ? Heat.SUPERHEATED : warm ? Heat.HEATED : Heat.NONE;
+        };
     }
 
     private static <T> List<T> concat(List<T> a, List<T> b) {

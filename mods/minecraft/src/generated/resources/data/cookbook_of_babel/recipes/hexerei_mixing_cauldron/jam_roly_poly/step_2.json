@@ -1,0 +1,78 @@
+{
+  "type": "hexerei:mixingcauldron",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "hexerei"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/jam_roly_poly_step_2"
+    }
+  ],
+  "fluidLevelsConsumed": 105,
+  "ingredients": [
+    {
+      "tag": "cookbook_of_babel:ingredients/self_rising_flour"
+    },
+    {
+      "tag": "cookbook_of_babel:ingredients/self_rising_flour"
+    },
+    {
+      "tag": "cookbook_of_babel:ingredients/self_rising_flour"
+    },
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:portion",
+        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:bulk\",Tag:{substance:\"cookbook_of_babel:salt\"}}}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/salt"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:suet\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/suet"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:suet\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/suet"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:suet\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/suet"
+      }
+    ]
+  ],
+  "liquid": {
+    "amount": 105,
+    "fluid": "minecraft:water"
+  },
+  "liquidOutput": {
+    "amount": 105,
+    "fluid": "minecraft:water"
+  },
+  "output": {
+    "count": 1,
+    "item": "cookbook_of_babel:substance",
+    "nbt": "{substance:\"cookbook_of_babel:jam_roly_poly_step_2\"}"
+  }
+}

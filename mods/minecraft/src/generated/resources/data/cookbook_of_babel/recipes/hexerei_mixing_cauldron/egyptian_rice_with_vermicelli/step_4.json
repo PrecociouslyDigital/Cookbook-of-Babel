@@ -1,0 +1,50 @@
+{
+  "type": "hexerei:mixingcauldron",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "hexerei"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/egyptian_rice_with_vermicelli_step_4"
+    }
+  ],
+  "fluidLevelsConsumed": 315,
+  "heatRequirement": "heated",
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:portion",
+        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:bulk\",Tag:{substance:\"cookbook_of_babel:egyptian_rice_with_vermicelli_step_3\"}}}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/egyptian_rice_with_vermicelli_step_3"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:portion",
+        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:bulk\",Tag:{substance:\"cookbook_of_babel:salt\"}}}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/salt"
+      }
+    ]
+  ],
+  "liquid": {
+    "amount": 315,
+    "fluid": "minecraft:water"
+  },
+  "liquidOutput": {
+    "amount": 315,
+    "fluid": "minecraft:water"
+  },
+  "output": {
+    "count": 2,
+    "item": "cookbook_of_babel:portion",
+    "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:liquid\",Tag:{substance:\"cookbook_of_babel:egyptian_rice_with_vermicelli_step_4\"}}}"
+  }
+}

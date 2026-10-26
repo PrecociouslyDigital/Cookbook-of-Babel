@@ -29,8 +29,13 @@ public final class Quantize {
     /** {@code negligible}: a small enough share of the step that rounding it up doesn't matter. */
     public record Exact(double value, Kind kind, boolean negligible) {}
 
-    /** {@code maxItemInputs} counts items across all inputs; a tank holds one fluid. */
-    public record Limits(int maxItemInputs, int tankMillibuckets) {}
+    /** {@code maxItemInputs} counts items across all inputs, {@code maxOfEachItem} within one; a tank holds one fluid. */
+    public record Limits(int maxItemInputs, int maxOfEachItem, int tankMillibuckets) {
+        String exceeded() {
+            return "doesn't fit in " + maxItemInputs + " input items, " + maxOfEachItem + " of each, and "
+                    + tankMillibuckets + " mB tanks at any scale";
+        }
+    }
 
     public sealed interface Result {}
 
@@ -58,8 +63,7 @@ public final class Quantize {
             }
         }
         return best.<Result>map(q -> q)
-                .orElseGet(() -> new TooLarge("doesn't fit in " + limits.maxItemInputs() + " input items and "
-                        + limits.tankMillibuckets() + " mB tanks at any scale"));
+                .orElseGet(() -> new TooLarge(limits.exceeded()));
     }
 
     static Quantized at(double factor, List<Exact> inputs, List<Exact> outputs) {
@@ -86,6 +90,9 @@ public final class Quantize {
         var items = 0;
         for (var i = 0; i < inputs.size(); i++) {
             if (inputs.get(i).kind() == Kind.ITEMS) {
+                if (q.inputs().get(i) > limits.maxOfEachItem()) {
+                    return false;
+                }
                 items += q.inputs().get(i);
             } else if (q.inputs().get(i) > limits.tankMillibuckets()) {
                 return false;

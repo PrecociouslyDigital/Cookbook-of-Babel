@@ -1,0 +1,42 @@
+{
+  "type": "create:compacting",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/alkubus_nigerian_steamed_bread_step_5"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "garnished"
+    }
+  ],
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:alkubus_nigerian_steamed_bread_step_4\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/alkubus_nigerian_steamed_bread_step_4"
+      }
+    ],
+    {
+      "amount": 10,
+      "fluidTag": "forge:peanut_oil"
+    }
+  ],
+  "processingTime": 20,
+  "results": [
+    {
+      "item": "cookbook_of_babel:substance",
+      "nbt": {
+        "substance": "cookbook_of_babel:alkubus_nigerian_steamed_bread_step_5"
+      }
+    }
+  ]
+}

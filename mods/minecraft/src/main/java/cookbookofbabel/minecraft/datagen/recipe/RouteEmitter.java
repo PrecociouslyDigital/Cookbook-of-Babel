@@ -5,6 +5,7 @@ import com.google.gson.JsonObject;
 import com.simibubi.create.content.kinetics.deployer.DeployerApplicationRecipe;
 import com.simibubi.create.content.kinetics.fan.processing.SplashingRecipe;
 import com.simibubi.create.content.kinetics.millstone.MillingRecipe;
+import com.simibubi.create.content.kinetics.mixer.CompactingRecipe;
 import com.simibubi.create.content.kinetics.mixer.MixingRecipe;
 import com.simibubi.create.content.kinetics.saw.CuttingRecipe;
 import com.simibubi.create.content.processing.recipe.HeatCondition;
@@ -35,6 +36,8 @@ import cookbookofbabel.minecraft.datagen.recipe.brewinandchewin.Keg;
 import cookbookofbabel.minecraft.datagen.recipe.farmersrespite.Kettle;
 import cookbookofbabel.minecraft.datagen.recipe.pneumaticcraft.ThermoPlant;
 import cookbookofbabel.minecraft.datagen.recipe.hexerei.DryingRack;
+import cookbookofbabel.minecraft.datagen.recipe.hexerei.MixingCauldron;
+import cookbookofbabel.minecraft.datagen.recipe.hexerei.PestleAndMortar;
 import cookbookofbabel.minecraft.datagen.recipe.thermal.Thermal;
 import cookbookofbabel.minecraft.datagen.recipe.theurgy.Theurgy;
 import cookbookofbabel.minecraft.datagen.recipe.vintagedelight.FermentingJar;
@@ -148,35 +151,42 @@ public final class RouteEmitter {
             outputs.add(stack(p.outputs().get(i), i == 0 ? Optional.of(mainTarget) : Optional.empty()));
         }
         var route = p.route();
-        switch (route) {
-            case CREATE_MIXING, CREATE_HEATED_MIXING -> create(MixingRecipe::new, route == RouteKind.CREATE_HEATED_MIXING ? "heated/" + path : path, p, items, counts, fluids, outputs, conditions, sink);
-            case CREATE_MILLING -> create(MillingRecipe::new, path, p, items, counts, fluids, outputs, conditions, sink);
-            case CREATE_CUTTING -> create(CuttingRecipe::new, path, p, items, counts, fluids, outputs, conditions, sink);
-            case CREATE_ITEM_DRAIN -> create(EmptyingRecipe::new, path, p, items, counts, fluids, outputs, conditions, sink);
-            case CREATE_DEPLOYING -> create(DeployerApplicationRecipe::new, path, p, items, counts, fluids, outputs, conditions, sink);
-            case CREATE_SPLASHING -> create(SplashingRecipe::new, path, p, items, counts, fluids, outputs, conditions, sink);
+        // An expression, so that a route without a case here doesn't compile.
+        Runnable emit = switch (route) {
+            case CREATE_MIXING, CREATE_HEATED_MIXING -> () -> create(MixingRecipe::new, route == RouteKind.CREATE_HEATED_MIXING ? "heated/" + path : path, p, items, counts, fluids, outputs, conditions, sink);
+            case CREATE_COMPACTING -> () -> create(CompactingRecipe::new, path, p, items, counts, fluids, outputs, conditions, sink);
+            case CREATE_MILLING -> () -> create(MillingRecipe::new, path, p, items, counts, fluids, outputs, conditions, sink);
+            case CREATE_CUTTING -> () -> create(CuttingRecipe::new, path, p, items, counts, fluids, outputs, conditions, sink);
+            case CREATE_ITEM_DRAIN -> () -> create(EmptyingRecipe::new, path, p, items, counts, fluids, outputs, conditions, sink);
+            case CREATE_DEPLOYING -> () -> create(DeployerApplicationRecipe::new, path, p, items, counts, fluids, outputs, conditions, sink);
+            case CREATE_SPLASHING -> () -> create(SplashingRecipe::new, path, p, items, counts, fluids, outputs, conditions, sink);
             // Garnished's fan recipes are Create processing recipes of a type of their own.
-            case GARNISHED_FREEZING -> create(SplashingRecipe::new, path, p, items, counts, fluids, outputs, List.of(),
+            case GARNISHED_FREEZING -> () -> create(SplashingRecipe::new, path, p, items, counts, fluids, outputs, List.of(),
                     retyped("garnished:freezing", id(route, path), conditions, sink));
-            case BNC_KEG -> json(Keg::fermenting, p, path, items, counts, fluids, outputs, conditions, sink);
-            case FR_KETTLE -> json(Kettle::brewing, p, path, items, counts, fluids, outputs, conditions, sink);
-            case VD_FERMENTING_JAR -> json(FermentingJar::fermenting, p, path, items, counts, fluids, outputs, conditions, sink);
-            case PNC_THERMO_PLANT -> json(ThermoPlant::recipe, p, path, items, counts, fluids, outputs, conditions, sink);
-            case THERMAL_PRESS -> json(Thermal::press, p, path, items, counts, fluids, outputs, conditions, sink);
-            case THERMAL_CENTRIFUGE -> json(Thermal::centrifuge, p, path, items, counts, fluids, outputs, conditions, sink);
-            case THEURGY_CALCINATION -> json(Theurgy::calcination, p, path, items, counts, fluids, outputs, conditions, sink);
-            case THEURGY_FERMENTATION -> json(Theurgy::fermentation, p, path, items, counts, fluids, outputs, conditions, sink);
-            case THEURGY_LIQUEFACTION -> json(Theurgy::liquefaction, p, path, items, counts, fluids, outputs, conditions, sink);
-            case HEXEREI_DRYING_RACK -> json(DryingRack::recipe, p, path, items, counts, fluids, outputs, conditions, sink);
-            case SHAPELESS_CRAFTING -> {
+            case BNC_KEG -> () -> json(Keg::fermenting, p, path, items, counts, fluids, outputs, conditions, sink);
+            case FR_KETTLE -> () -> json(Kettle::brewing, p, path, items, counts, fluids, outputs, conditions, sink);
+            case VD_FERMENTING_JAR -> () -> json(FermentingJar::fermenting, p, path, items, counts, fluids, outputs, conditions, sink);
+            case PNC_THERMO_PLANT -> () -> json(ThermoPlant::recipe, p, path, items, counts, fluids, outputs, conditions, sink);
+            case THERMAL_PRESS -> () -> json(Thermal::press, p, path, items, counts, fluids, outputs, conditions, sink);
+            case THERMAL_CENTRIFUGE -> () -> json(Thermal::centrifuge, p, path, items, counts, fluids, outputs, conditions, sink);
+            case THERMAL_SMELTER -> () -> json(Thermal::smelter, p, path, items, counts, fluids, outputs, conditions, sink);
+            case THERMAL_BOTTLER -> () -> json(Thermal::bottler, p, path, items, counts, fluids, outputs, conditions, sink);
+            case THERMAL_CHILLER -> () -> json(Thermal::chiller, p, path, items, counts, fluids, outputs, conditions, sink);
+            case THEURGY_CALCINATION -> () -> json(Theurgy::calcination, p, path, items, counts, fluids, outputs, conditions, sink);
+            case THEURGY_FERMENTATION -> () -> json(Theurgy::fermentation, p, path, items, counts, fluids, outputs, conditions, sink);
+            case THEURGY_LIQUEFACTION -> () -> json(Theurgy::liquefaction, p, path, items, counts, fluids, outputs, conditions, sink);
+            case HEXEREI_DRYING_RACK -> () -> json(DryingRack::recipe, p, path, items, counts, fluids, outputs, conditions, sink);
+            case HEXEREI_PESTLE_AND_MORTAR -> () -> json(PestleAndMortar::recipe, p, path, items, counts, fluids, outputs, conditions, sink);
+            case HEXEREI_MIXING_CAULDRON -> () -> json(MixingCauldron::recipe, p, path, items, counts, fluids, outputs, conditions, sink);
+            case SHAPELESS_CRAFTING -> () -> {
                 var result = (ItemStack) first(outputs);
                 var builder = ShapelessRecipeBuilder.shapeless(RecipeCategory.FOOD, result.getItem(), result.getCount());
                 for (var i = 0; i < items.size(); i++) {
                     builder.requires(items.get(i), counts.get(i));
                 }
                 builder.unlockedBy("unused", UNUSED).save(patched(sink, conditions, Finished.result("result", result)), id(route, path));
-            }
-            case SMELTING, SMOKING, BLASTING, CAMPFIRE -> {
+            };
+            case SMELTING, SMOKING, BLASTING, CAMPFIRE -> () -> {
                 var result = (ItemStack) first(outputs);
                 var builder = switch (route) {
                     case SMELTING -> SimpleCookingRecipeBuilder.smelting(items.get(0), RecipeCategory.FOOD, result.getItem(), EXPERIENCE, p.ticks());
@@ -185,16 +195,16 @@ public final class RouteEmitter {
                     default -> SimpleCookingRecipeBuilder.campfireCooking(items.get(0), RecipeCategory.FOOD, result.getItem(), EXPERIENCE, p.ticks());
                 };
                 builder.unlockedBy("unused", UNUSED).save(patched(sink, conditions, Finished.result("result", result)), id(route, path));
-            }
-            case FD_COOKING_POT -> {
+            };
+            case FD_COOKING_POT -> () -> {
                 var result = (ItemStack) first(outputs);
                 var builder = CookingPotRecipeBuilder.cookingPotRecipe(result.getItem(), result.getCount(), p.ticks(), EXPERIENCE);
                 for (var i = 0; i < items.size(); i++) {
                     builder.addIngredient(items.get(i), counts.get(i));
                 }
                 builder.unlockedBy("unused", UNUSED).save(patched(sink, conditions, Finished.result("result", result)), id(route, path));
-            }
-            case FD_CUTTING_BOARD -> {
+            };
+            case FD_CUTTING_BOARD -> () -> {
                 var stacks = outputs.stream().map(o -> (ItemStack) o).toList();
                 var chances = p.outputs().stream().map(o -> ((ItemOut) o).chance().orElse(1.0).floatValue()).toList();
                 var builder = CuttingBoardRecipeBuilder.cuttingRecipe(items.get(0), Ingredient.of(KNIVES), stacks.get(0).getItem(), stacks.get(0).getCount(), chances.get(0));
@@ -202,8 +212,9 @@ public final class RouteEmitter {
                     builder.addResultWithChance(stacks.get(i).getItem(), chances.get(i), stacks.get(i).getCount());
                 }
                 builder.save(patched(sink, conditions, Finished.results("result", stacks)), id(route, path));
-            }
-        }
+            };
+        };
+        emit.run();
     }
 
     private <T extends ProcessingRecipe<?>> void create(

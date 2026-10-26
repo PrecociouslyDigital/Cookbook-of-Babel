@@ -1,11 +1,12 @@
 package cookbookofbabel.minecraft.gametest;
 
+import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
 import com.simibubi.create.AllBlocks;
 import com.simibubi.create.AllRecipeTypes;
 import com.simibubi.create.content.kinetics.base.KineticBlockEntity;
-import com.simibubi.create.content.kinetics.mixer.MixingRecipe;
 import com.simibubi.create.content.kinetics.motor.CreativeMotorBlockEntity;
+import com.simibubi.create.content.processing.basin.BasinRecipe;
 import com.simibubi.create.content.processing.recipe.HeatCondition;
 import cookbookofbabel.minecraft.BabelTags;
 import cookbookofbabel.minecraft.CookbookOfBabel;
@@ -19,9 +20,13 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collection;
 import java.util.Comparator;
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Optional;
+import java.util.TreeMap;
+import java.util.function.Function;
+import java.util.function.Supplier;
 import java.util.stream.Collectors;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
@@ -39,7 +44,10 @@ import net.minecraft.world.level.block.state.properties.BlockStateProperties;
 import net.minecraftforge.common.capabilities.ForgeCapabilities;
 import net.minecraftforge.common.crafting.CraftingHelper;
 import net.minecraftforge.common.crafting.conditions.ICondition;
+import net.minecraftforge.fluids.FluidStack;
 import net.minecraftforge.fluids.capability.IFluidHandler.FluidAction;
+import net.minecraftforge.items.IItemHandler;
+import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.gametest.GameTestHolder;
 import net.minecraftforge.gametest.PrefixGameTestTemplate;
 import vectorwing.farmersdelight.common.block.entity.CuttingBoardBlockEntity;
@@ -65,28 +73,30 @@ public final class BabelGameTests {
     @GameTest(template = EMPTY)
     public static void everyGeneratedRecipeLoads(GameTestHelper helper) throws IOException {
         var server = helper.getLevel().getServer();
+        var applicable = applicableRecipes(server, "recipes");
+        var missing = applicable.keySet().stream().filter(id -> server.getRecipeManager().byKey(id).isEmpty()).toList();
+        helper.assertTrue(!applicable.isEmpty(), "no generated recipe's conditions held");
+        helper.assertTrue(missing.isEmpty(), missing.size() + " of " + applicable.size() + " generated recipes didn't load, e.g. "
+                + missing.stream().limit(5).map(Object::toString).collect(Collectors.joining(", ")));
+        helper.succeed();
+    }
+
+    /** The JSON of each generated recipe under {@code directory} whose conditions hold, by recipe ID. */
+    private static Map<ResourceLocation, JsonObject> applicableRecipes(MinecraftServer server, String directory) throws IOException {
         var context = tags(server);
-        var missing = new ArrayList<ResourceLocation>();
-        var checked = 0;
-        var files = server.getResourceManager().listResources("recipes", id -> id.getNamespace().equals(CookbookOfBabel.ID));
+        var applicable = new TreeMap<ResourceLocation, JsonObject>();
+        var files = server.getResourceManager().listResources(directory,
+                id -> id.getNamespace().equals(CookbookOfBabel.ID) && id.getPath().endsWith(".json"));
         for (var file : files.entrySet()) {
             try (var reader = file.getValue().openAsReader()) {
                 var json = JsonParser.parseReader(reader).getAsJsonObject();
-                if (!CraftingHelper.processConditions(json, "conditions", context)) {
-                    continue;
+                if (CraftingHelper.processConditions(json, "conditions", context)) {
+                    var path = file.getKey().getPath();
+                    applicable.put(new ResourceLocation(CookbookOfBabel.ID, path.substring("recipes/".length(), path.length() - ".json".length())), json);
                 }
             }
-            var path = file.getKey().getPath();
-            var id = new ResourceLocation(CookbookOfBabel.ID, path.substring("recipes/".length(), path.length() - ".json".length()));
-            checked++;
-            if (server.getRecipeManager().byKey(id).isEmpty()) {
-                missing.add(id);
-            }
         }
-        helper.assertTrue(checked > 0, "no generated recipe's conditions held");
-        helper.assertTrue(missing.isEmpty(), missing.size() + " of " + checked + " generated recipes didn't load, e.g. "
-                + missing.stream().limit(5).map(Object::toString).collect(Collectors.joining(", ")));
-        helper.succeed();
+        return applicable;
     }
 
     /**
@@ -146,40 +156,99 @@ public final class BabelGameTests {
     /** A generated unheated mixing recipe runs in a basin under a mixer turned by a creative motor. */
     @GameTest(template = EMPTY, timeoutTicks = 600)
     public static void createMixingRuns(GameTestHelper helper) {
+        var recipe = plainBasinRecipe(helper, AllRecipeTypes.MIXING.getType());
+        var basin = new BlockPos(2, 1, 2);
+        var mixer = basin.above(2);
+        helper.setBlock(basin, AllBlocks.BASIN.getDefaultState());
+        // The mixer is a cog: a cogwheel beside it, turned by the motor above, drives it.
+        helper.setBlock(mixer, AllBlocks.MECHANICAL_MIXER.getDefaultState());
+        helper.setBlock(mixer.east(), AllBlocks.COGWHEEL.getDefaultState());
+        helper.setBlock(mixer.above().east(), AllBlocks.CREATIVE_MOTOR.getDefaultState().setValue(BlockStateProperties.FACING, Direction.DOWN));
+        // The mixer won't run below medium speed.
+        ((CreativeMotorBlockEntity) helper.getBlockEntity(mixer.above().east())).generatedSpeed.setValue(64);
+        var inventory = helper.getBlockEntity(basin).getCapability(ForgeCapabilities.ITEM_HANDLER).orElseThrow(IllegalStateException::new);
+        makes(helper, inventory, recipe.getIngredients(), recipe.getRollableResults().get(0).getStack(), recipe.getId(),
+                () -> "the mixer turns at " + ((KineticBlockEntity) helper.getBlockEntity(mixer)).getSpeed() + " rpm");
+    }
+
+    /** A generated unheated compacting recipe runs in a basin under a press turned by a creative motor. */
+    @GameTest(template = EMPTY, timeoutTicks = 600)
+    public static void createCompactingRuns(GameTestHelper helper) {
+        var recipe = plainBasinRecipe(helper, AllRecipeTypes.COMPACTING.getType());
+        var basin = new BlockPos(2, 1, 2);
+        var press = basin.above(2);
+        helper.setBlock(basin, AllBlocks.BASIN.getDefaultState());
+        // The press turns about the axis it faces along, so the motor drives it from in front.
+        helper.setBlock(press, AllBlocks.MECHANICAL_PRESS.getDefaultState().setValue(BlockStateProperties.HORIZONTAL_FACING, Direction.NORTH));
+        helper.setBlock(press.north(), AllBlocks.CREATIVE_MOTOR.getDefaultState().setValue(BlockStateProperties.FACING, Direction.SOUTH));
+        ((CreativeMotorBlockEntity) helper.getBlockEntity(press.north())).generatedSpeed.setValue(64);
+        var inventory = helper.getBlockEntity(basin).getCapability(ForgeCapabilities.ITEM_HANDLER).orElseThrow(IllegalStateException::new);
+        makes(helper, inventory, recipe.getIngredients(), recipe.getRollableResults().get(0).getStack(), recipe.getId(),
+                () -> "the press turns at " + ((KineticBlockEntity) helper.getBlockEntity(press)).getSpeed() + " rpm");
+    }
+
+    /**
+     * A generated mixing cauldron recipe that needs no fire runs in Hexerei's cauldron. Hexerei is
+     * only on the runtime classpath, so the recipe's liquid is read back from its generated JSON.
+     */
+    @GameTest(template = EMPTY, timeoutTicks = 400)
+    public static void hexereiMixingCauldronRuns(GameTestHelper helper) throws IOException {
         var level = helper.getLevel();
-        RecipeType<MixingRecipe> mixing = AllRecipeTypes.MIXING.getType();
-        var generated = level.getRecipeManager().getAllRecipesFor(mixing).stream()
+        var manager = level.getRecipeManager();
+        var unheated = applicableRecipes(level.getServer(), "recipes/hexerei_mixing_cauldron").entrySet().stream()
+                .filter(e -> !e.getValue().has("heatRequirement"))
+                .filter(e -> manager.byKey(e.getKey()).map(r -> r.getIngredients().stream().allMatch(i -> i.isEmpty() || ownStack(i).isPresent())).orElse(false))
+                .toList();
+        // Two pages can do the same step, and the cauldron then picks either recipe.
+        Function<Map.Entry<ResourceLocation, JsonObject>, String> inputs = e -> e.getValue().get("ingredients") + " in " + e.getValue().get("liquid");
+        var sharingInputs = unheated.stream().collect(Collectors.groupingBy(inputs, Collectors.counting()));
+        var chosen = unheated.stream()
+                .filter(e -> sharingInputs.get(inputs.apply(e)) == 1)
+                .findFirst()
+                .orElseThrow(() -> new IllegalStateException("no unheated generated mixing cauldron recipe of the mod's own items"));
+        var recipe = manager.byKey(chosen.getKey()).orElseThrow();
+
+        var pos = new BlockPos(2, 1, 2);
+        helper.setBlock(pos, ForgeRegistries.BLOCKS.getValue(new ResourceLocation("hexerei", "mixing_cauldron")));
+        var cauldron = helper.getBlockEntity(pos);
+        var liquid = ForgeRegistries.FLUIDS.getValue(new ResourceLocation(chosen.getValue().getAsJsonObject("liquid").get("fluid").getAsString()));
+        var tank = cauldron.getCapability(ForgeCapabilities.FLUID_HANDLER).orElseThrow(IllegalStateException::new);
+        helper.assertTrue(tank.fill(new FluidStack(liquid, 1000), FluidAction.EXECUTE) == 1000, "the cauldron didn't take a bucket of " + liquid);
+        var inventory = cauldron.getCapability(ForgeCapabilities.ITEM_HANDLER).orElseThrow(IllegalStateException::new);
+        makes(helper, inventory, recipe.getIngredients(), recipe.getResultItem(level.registryAccess()), recipe.getId(),
+                () -> "its tank holds " + tank.getFluidInTank(0).getAmount() + " mB of " + tank.getFluidInTank(0).getFluid());
+    }
+
+    /** The first of a basin machine's generated recipes with no heat, no fluids and one result, whose inputs no other recipe shares. */
+    private static <T extends BasinRecipe> T plainBasinRecipe(GameTestHelper helper, RecipeType<T> type) {
+        var generated = helper.getLevel().getRecipeManager().getAllRecipesFor(type).stream()
                 .filter(r -> r.getId().getNamespace().equals(CookbookOfBabel.ID))
                 .toList();
         // Two pages can do the same step, and the basin then picks either recipe.
         var sharingInputs = generated.stream().collect(Collectors.groupingBy(BabelGameTests::inputs, Collectors.counting()));
-        var recipe = generated.stream()
+        return generated.stream()
                 .filter(r -> sharingInputs.get(inputs(r)) == 1)
                 .filter(r -> r.getRequiredHeat() == HeatCondition.NONE && r.getFluidIngredients().isEmpty())
                 .filter(r -> r.getRollableResults().size() == 1 && r.getFluidResults().isEmpty())
                 .min(Comparator.comparing(r -> r.getId().toString()))
-                .orElseThrow(() -> new IllegalStateException("no plain generated mixing recipe"));
+                .orElseThrow(() -> new IllegalStateException("no plain generated " + type + " recipe"));
+    }
 
-        var basin = new BlockPos(2, 1, 2);
-        helper.setBlock(basin, AllBlocks.BASIN.getDefaultState());
-        // The mixer is a cog: a cogwheel beside it, turned by the motor above, drives it.
-        helper.setBlock(basin.above(2), AllBlocks.MECHANICAL_MIXER.getDefaultState());
-        helper.setBlock(basin.above(2).east(), AllBlocks.COGWHEEL.getDefaultState());
-        helper.setBlock(basin.above(3).east(), AllBlocks.CREATIVE_MOTOR.getDefaultState().setValue(BlockStateProperties.FACING, Direction.DOWN));
-        // The mixer won't run below medium speed.
-        ((CreativeMotorBlockEntity) helper.getBlockEntity(basin.above(3).east())).generatedSpeed.setValue(64);
-
-        // The mixer only looks at the basin when its contents change, so fill it once the mixer turns.
-        var inventory = helper.getBlockEntity(basin).getCapability(ForgeCapabilities.ITEM_HANDLER).orElseThrow(IllegalStateException::new);
+    /**
+     * Puts the mod's own stack for each ingredient into a machine's inventory, and succeeds once the
+     * result turns up in it. A machine may only look at its inventory when it changes, so the items
+     * go in once the machine has had a second to start.
+     */
+    private static void makes(GameTestHelper helper, IItemHandler inventory, List<Ingredient> ingredients, ItemStack result,
+            ResourceLocation recipe, Supplier<String> machineState) {
         helper.runAfterDelay(20, () -> {
-            for (var ingredient : recipe.getIngredients()) {
+            for (var ingredient : ingredients.stream().filter(i -> !i.isEmpty()).toList()) {
                 var stack = matching(ingredient);
                 for (var slot = 0; slot < inventory.getSlots() && !stack.isEmpty(); slot++) {
                     stack = inventory.insertItem(slot, stack, false);
                 }
             }
         });
-        var result = recipe.getRollableResults().get(0).getStack();
         helper.succeedWhen(() -> {
             for (var slot = 0; slot < inventory.getSlots(); slot++) {
                 if (ItemStack.isSameItemSameTags(inventory.getStackInSlot(slot), result)) {
@@ -192,9 +261,7 @@ public final class BabelGameTests {
                     contents.add(inventory.getStackInSlot(slot) + " " + inventory.getStackInSlot(slot).getTag());
                 }
             }
-            var mixer = (KineticBlockEntity) helper.getBlockEntity(basin.above(2));
-            helper.fail("the basin hasn't made " + result + " with " + recipe.getId() + "; it holds " + contents
-                    + " and the mixer turns at " + mixer.getSpeed() + " rpm");
+            helper.fail("hasn't made " + result + " with " + recipe + "; it holds " + contents + " and " + machineState.get());
         });
     }
 
@@ -226,29 +293,33 @@ public final class BabelGameTests {
         helper.succeed();
     }
 
-    private static List<String> inputs(MixingRecipe recipe) {
+    private static List<String> inputs(BasinRecipe recipe) {
         return recipe.getIngredients().stream().map(i -> i.toJson().toString()).sorted().toList();
     }
 
     /** The mod's own stack an ingredient accepts; its tags may be empty in a test world. */
     private static ItemStack matching(Ingredient ingredient) {
-        return Arrays.stream(ingredient.getItems())
-                .filter(s -> s.hasTag() && ingredient.test(s))
-                .findFirst()
+        return ownStack(ingredient)
                 .orElseThrow(() -> new IllegalStateException("no stack of the mod's own matches " + ingredient.toJson()))
                 .copy();
     }
 
+    private static Optional<ItemStack> ownStack(Ingredient ingredient) {
+        return Arrays.stream(ingredient.getItems()).filter(s -> s.hasTag() && ingredient.test(s)).findFirst();
+    }
+
+    /** Each registry's tags, collected once: every recipe's conditions look them up. */
     private static ICondition.IContext tags(MinecraftServer server) {
+        var collected = new HashMap<ResourceKey<?>, Map<ResourceLocation, ?>>();
         return new ICondition.IContext() {
             @Override
             @SuppressWarnings({"unchecked", "rawtypes"})
             public <T> Map<ResourceLocation, Collection<Holder<T>>> getAllTags(ResourceKey<? extends Registry<T>> key) {
-                return server.registryAccess().registry(key)
+                return (Map<ResourceLocation, Collection<Holder<T>>>) collected.computeIfAbsent(key, k -> server.registryAccess().registry(key)
                         .map(registry -> registry.getTags().collect(Collectors.toMap(
                                 pair -> pair.getFirst().location(),
                                 pair -> (Collection<Holder<T>>) (Collection) pair.getSecond().stream().toList())))
-                        .orElse(Map.of());
+                        .orElse(Map.of()));
             }
         };
     }

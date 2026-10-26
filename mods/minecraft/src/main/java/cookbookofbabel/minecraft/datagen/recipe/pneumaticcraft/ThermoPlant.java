@@ -1,6 +1,7 @@
 package cookbookofbabel.minecraft.datagen.recipe.pneumaticcraft;
 
 import com.google.gson.JsonObject;
+import cookbookofbabel.minecraft.datagen.plan.Planner;
 import cookbookofbabel.minecraft.datagen.recipe.Resolved;
 import cookbookofbabel.minecraft.datagen.recipe.Resolved.Exact;
 import cookbookofbabel.minecraft.datagen.recipe.Resolved.FluidOutput;
@@ -12,8 +13,6 @@ import cookbookofbabel.minecraft.datagen.recipe.Resolved.Tagged;
  * fluid or both, above a temperature in kelvin.
  */
 public final class ThermoPlant {
-    /** Below this a step is at room temperature, and the plant needn't be heated. */
-    private static final double WARM_FROM_C = 30;
     private static final double KELVIN = 273.15;
 
     private ThermoPlant() {}
@@ -30,7 +29,7 @@ public final class ThermoPlant {
                 json.add("fluid_output", Resolved.json(((FluidOutput) output).stack(), "amount"));
             }
         }
-        r.planned().step().recipe().temperatureC().filter(c -> c >= WARM_FROM_C).ifPresent(c -> {
+        r.planned().step().recipe().temperatureC().filter(c -> c >= Planner.WARM_FROM_C).ifPresent(c -> {
             var temperature = new JsonObject();
             temperature.addProperty("min_temp", (int) Math.round(c + KELVIN));
             json.add("temperature", temperature);

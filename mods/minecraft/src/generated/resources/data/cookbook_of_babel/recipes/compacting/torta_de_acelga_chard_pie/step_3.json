@@ -1,0 +1,44 @@
+{
+  "type": "create:compacting",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/torta_de_acelga_chard_pie_step_3"
+    }
+  ],
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:torta_de_acelga_chard_pie_step_2\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/torta_de_acelga_chard_pie_step_2"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:puff_pastry\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/puff_pastry"
+      }
+    ]
+  ],
+  "processingTime": 20,
+  "results": [
+    {
+      "item": "cookbook_of_babel:substance",
+      "nbt": {
+        "substance": "cookbook_of_babel:torta_de_acelga_chard_pie_step_3"
+      }
+    }
+  ]
+}

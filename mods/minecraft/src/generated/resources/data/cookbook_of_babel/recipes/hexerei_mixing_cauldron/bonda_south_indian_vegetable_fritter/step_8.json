@@ -1,0 +1,53 @@
+{
+  "type": "hexerei:mixingcauldron",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "hexerei"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/bonda_south_indian_vegetable_fritter_step_8"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "brewinandchewin"
+    }
+  ],
+  "fluidLevelsConsumed": 2,
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:portion",
+        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:bulk\",Tag:{substance:\"cookbook_of_babel:bonda_south_indian_vegetable_fritter_step_7\"}}}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/bonda_south_indian_vegetable_fritter_step_7"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:portion",
+        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:bulk\",Tag:{substance:\"cookbook_of_babel:bonda_south_indian_vegetable_fritter_step_7\"}}}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/bonda_south_indian_vegetable_fritter_step_7"
+      }
+    ]
+  ],
+  "liquid": {
+    "amount": 2,
+    "fluid": "brewinandchewin:beer"
+  },
+  "liquidOutput": {
+    "amount": 2,
+    "fluid": "brewinandchewin:beer"
+  },
+  "output": {
+    "count": 2,
+    "item": "cookbook_of_babel:portion",
+    "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:liquid\",Tag:{substance:\"cookbook_of_babel:bonda_south_indian_vegetable_fritter_step_8\"}}}"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "type": "hexerei:mixingcauldron",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "hexerei"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/rice_water_porridge"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "fluidLevelsConsumed": 5,
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:rice_water_porridge_step_4\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/rice_water_porridge_step_4"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:rice_water_porridge_step_4\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/rice_water_porridge_step_4"
+      }
+    ]
+  ],
+  "liquid": {
+    "amount": 5,
+    "fluid": "minecraft:milk"
+  },
+  "liquidOutput": {
+    "amount": 5,
+    "fluid": "minecraft:milk"
+  },
+  "output": {
+    "count": 1,
+    "item": "cookbook_of_babel:rice_water_porridge"
+  }
+}

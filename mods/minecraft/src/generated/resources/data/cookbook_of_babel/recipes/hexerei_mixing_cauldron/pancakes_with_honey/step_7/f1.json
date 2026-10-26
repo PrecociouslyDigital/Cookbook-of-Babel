@@ -1,0 +1,43 @@
+{
+  "type": "hexerei:mixingcauldron",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "hexerei"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/pancakes_with_honey_step_7"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "brewinandchewin"
+    }
+  ],
+  "fluidLevelsConsumed": 1,
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:pancakes_with_honey_step_6\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/pancakes_with_honey_step_6"
+      }
+    ]
+  ],
+  "liquid": {
+    "amount": 1,
+    "fluid": "brewinandchewin:honey"
+  },
+  "liquidOutput": {
+    "amount": 1,
+    "fluid": "brewinandchewin:honey"
+  },
+  "output": {
+    "count": 1,
+    "item": "cookbook_of_babel:substance",
+    "nbt": "{substance:\"cookbook_of_babel:pancakes_with_honey_step_7\"}"
+  }
+}

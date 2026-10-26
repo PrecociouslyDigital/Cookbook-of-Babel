@@ -23,7 +23,7 @@ class QuantizeProperties {
                         Arbitraries.of(Kind.values()),
                         Arbitraries.of(true, false, false, false))
                 .as(Exact::new);
-        var limits = Combinators.combine(Arbitraries.integers().between(1, 64), Arbitraries.of(1000))
+        var limits = Combinators.combine(Arbitraries.integers().between(1, 64), Arbitraries.of(1, Quantize.MAX_STACK), Arbitraries.of(1000))
                 .as(Quantize.Limits::new);
         return Combinators.combine(exact.list().ofMinSize(1).ofMaxSize(6), exact.list().ofMinSize(1).ofMaxSize(4), limits)
                 .as(Case::new);
@@ -38,6 +38,7 @@ class QuantizeProperties {
         for (var i = 0; i < c.inputs().size(); i++) {
             assertThat(q.inputs().get(i)).isPositive();
             if (c.inputs().get(i).kind() == Kind.ITEMS) {
+                assertThat(q.inputs().get(i)).isLessThanOrEqualTo(c.limits().maxOfEachItem());
                 items += q.inputs().get(i);
             } else {
                 assertThat(q.inputs().get(i)).isLessThanOrEqualTo(c.limits().tankMillibuckets());
