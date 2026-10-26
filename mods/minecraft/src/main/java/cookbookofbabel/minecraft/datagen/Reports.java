@@ -3,31 +3,33 @@ package cookbookofbabel.minecraft.datagen;
 import com.google.gson.GsonBuilder;
 import com.google.gson.JsonArray;
 import com.google.gson.JsonObject;
-import cookbookofbabel.minecraft.CookbookOfBabel;
+import com.google.gson.JsonParser;
 import cookbookofbabel.minecraft.dataset.Ingredient;
 import cookbookofbabel.minecraft.dataset.IngredientId;
+import cookbookofbabel.minecraft.datagen.plan.Mod;
+import cookbookofbabel.minecraft.datagen.plan.Proposals;
 import cookbookofbabel.minecraft.datagen.plan.Quantize;
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
-import java.nio.file.Path;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
-import java.util.Locale;
-import java.util.Set;
+import java.util.Map;
+import java.util.Optional;
 import java.util.TreeMap;
-import java.util.TreeSet;
 import java.util.concurrent.CompletableFuture;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 import net.minecraft.data.CachedOutput;
 import net.minecraft.data.DataProvider;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraftforge.fml.ModList;
 import net.minecraftforge.registries.ForgeRegistries;
 
 /**
  * What datagen made of the dataset, for whoever curates it: {@code coverage.md}, committed, and
- * {@code candidates.json}, a starting point for new mappings. Runs after the recipes.
+ * {@code candidates/<mod>.json}, proposed mappings. Runs after the recipes.
  */
 final class Reports implements DataProvider {
     private final DatagenContext context;
@@ -39,10 +41,8 @@ final class Reports implements DataProvider {
     @Override
     public CompletableFuture<?> run(CachedOutput output) {
         try {
-            var leaves = unmappedLeaves();
-            Files.writeString(context.coverageFile, coverage(leaves), StandardCharsets.UTF_8);
-            Files.createDirectories(context.candidatesFile.getParent());
-            Files.writeString(context.candidatesFile, candidates(leaves), StandardCharsets.UTF_8);
+            Files.writeString(context.coverageFile, coverage(unmappedLeaves()), StandardCharsets.UTF_8);
+            proposals();
             return CompletableFuture.completedFuture(null);
         } catch (IOException e) {
             return CompletableFuture.failedFuture(e);
@@ -77,7 +77,7 @@ final class Reports implements DataProvider {
 
         out.append("\n## Unmapped leaves\n\n");
         out.append("Used by some step, made by none, and provided by no mapped mod, so nothing in the game produces them. ");
-        out.append("`build/babel/candidates.json` lists items and tags that might.\n\n");
+        out.append("`build/babel/candidates/<mod>.json` proposes mappings for them and for anything else that a mod's items or fluids name.\n\n");
         leaves.forEach(i -> out.append("- `").append(i.id()).append("` (").append(i.label()).append(")\n"));
         if (leaves.isEmpty()) {
             out.append("None.\n");
@@ -149,60 +149,77 @@ final class Reports implements DataProvider {
         return out.toString();
     }
 
-    /** Other mods' items and tags whose IDs mention an unmapped leaf's ID, label or aliases. */
-    private String candidates(List<Ingredient> leaves) throws IOException {
-        var items = ForgeRegistries.ITEMS.getKeys().stream().map(Object::toString).sorted().toList();
-        var tags = itemTags();
-        var json = new JsonObject();
-        for (var leaf : leaves) {
-            var words = words(leaf);
-            var entry = new JsonObject();
-            entry.add("items", array(items.stream().filter(id -> matches(id, words))));
-            entry.add("itemTags", array(tags.stream().filter(id -> matches(id, words))));
-            json.add(leaf.id().value(), entry);
+    /**
+     * For each mod, the ingredients it doesn't map yet that one of its items or fluids names, in the
+     * format of {@code mappings/<mod>.json}.
+     */
+    private void proposals() throws IOException {
+        Files.createDirectories(context.candidatesDirectory);
+        var names = englishNames();
+        var items = ForgeRegistries.ITEMS.getKeys().stream()
+                .map(id -> new Proposals.Named(id.toString(), names.firstOf("item." + lang(id), "block." + lang(id))))
+                .toList();
+        var fluids = ForgeRegistries.FLUIDS.getKeys().stream()
+                .filter(id -> !id.getPath().startsWith("flowing_"))
+                .map(id -> new Proposals.Named(id.toString(), names.firstOf("fluid_type." + lang(id), "fluid." + lang(id))))
+                .toList();
+        for (var mod : Mod.values()) {
+            var mapped = context.mappings.stream().filter(m -> m.mod() == mod).flatMap(m -> m.entries().keySet().stream()).collect(Collectors.toSet());
+            var unmapped = context.dataset.ingredients().stream().filter(i -> !mapped.contains(i.id())).toList();
+            var itemMatches = Proposals.match(unmapped, items.stream().filter(i -> i.id().startsWith(mod.id + ":")).toList());
+            var fluidMatches = Proposals.match(unmapped, fluids.stream().filter(f -> f.id().startsWith(mod.id + ":")).toList());
+            var json = new JsonObject();
+            for (var ingredient : unmapped) {
+                var entry = new JsonObject();
+                Optional.ofNullable(itemMatches.get(ingredient.id())).ifPresent(ids -> {
+                    var array = new JsonArray();
+                    ids.forEach(id -> {
+                        var item = new JsonObject();
+                        item.addProperty("id", id);
+                        array.add(item);
+                    });
+                    entry.add("items", array);
+                });
+                Optional.ofNullable(fluidMatches.get(ingredient.id())).ifPresent(ids -> entry.add("fluids", array(ids.stream())));
+                if (entry.size() > 0) {
+                    json.add(ingredient.id().value(), entry);
+                }
+            }
+            var file = context.candidatesDirectory.resolve(mod.id + ".json");
+            Files.writeString(file, new GsonBuilder().setPrettyPrinting().create().toJson(json) + "\n", StandardCharsets.UTF_8);
         }
-        return new GsonBuilder().setPrettyPrinting().create().toJson(json) + "\n";
     }
 
-    private static Set<String> words(Ingredient ingredient) {
-        var words = new TreeSet<String>();
-        words.add(ingredient.id().value());
-        Stream.concat(Stream.of(ingredient.label()), ingredient.aliases().stream())
-                .map(s -> s.toLowerCase(Locale.ROOT).replaceAll("[^a-z0-9]+", "_").replaceAll("^_|_$", ""))
-                .filter(s -> !s.isEmpty())
-                .forEach(words::add);
-        return words;
+    private static String lang(ResourceLocation id) {
+        return id.getNamespace() + "." + id.getPath();
     }
 
-    private static boolean matches(String id, Set<String> words) {
-        if (id.startsWith(CookbookOfBabel.ID + ":")) {
-            return false;
+    private record Lang(Map<String, String> entries) {
+        Optional<String> firstOf(String... keys) {
+            return Stream.of(keys).flatMap(k -> Optional.ofNullable(entries.get(k)).stream()).findFirst();
         }
-        var path = id.substring(id.indexOf(':') + 1);
-        return words.stream().anyMatch(path::contains);
     }
 
-    /** Tags aren't loaded during datagen, so read their files from every mod. */
-    private static List<String> itemTags() throws IOException {
-        var tags = new TreeSet<String>();
+    /** Language files aren't loaded during datagen, so read every mod's English one. */
+    private static Lang englishNames() throws IOException {
+        var entries = new HashMap<String, String>();
         for (var modFile : ModList.get().getModFiles()) {
-            var data = modFile.getFile().findResource("data");
-            if (!Files.isDirectory(data)) {
+            var assets = modFile.getFile().findResource("assets");
+            if (!Files.isDirectory(assets)) {
                 continue;
             }
-            try (var files = Files.walk(data)) {
-                files.filter(p -> p.toString().endsWith(".json")).forEach(p -> tagId(data, p).ifPresent(tags::add));
+            try (var namespaces = Files.list(assets)) {
+                for (var namespace : namespaces.toList()) {
+                    var file = namespace.resolve("lang/en_us.json");
+                    if (Files.isRegularFile(file)) {
+                        JsonParser.parseString(Files.readString(file, StandardCharsets.UTF_8)).getAsJsonObject().entrySet().stream()
+                                .filter(e -> e.getValue().isJsonPrimitive())
+                                .forEach(e -> entries.putIfAbsent(e.getKey(), e.getValue().getAsString()));
+                    }
+                }
             }
         }
-        return new ArrayList<>(tags);
-    }
-
-    private static java.util.Optional<String> tagId(Path data, Path file) {
-        var parts = data.relativize(file).toString().replace('\\', '/').split("/", 4);
-        if (parts.length < 4 || !parts[1].equals("tags") || !parts[2].equals("items")) {
-            return java.util.Optional.empty();
-        }
-        return java.util.Optional.of(parts[0] + ":" + parts[3].substring(0, parts[3].length() - ".json".length()));
+        return new Lang(entries);
     }
 
     private static JsonArray array(Stream<String> values) {

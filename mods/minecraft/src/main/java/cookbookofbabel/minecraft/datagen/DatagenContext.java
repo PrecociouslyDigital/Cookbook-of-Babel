@@ -36,9 +36,9 @@ public final class DatagenContext {
     public final Planner planner;
     public final Coverage coverage;
     public final Path coverageFile;
-    public final Path candidatesFile;
+    public final Path candidatesDirectory;
 
-    private DatagenContext(Export export, List<Mapping> mappings, Path coverageFile, Path candidatesFile) {
+    private DatagenContext(Export export, List<Mapping> mappings, Path coverageFile, Path candidatesDirectory) {
         this.export = export;
         this.dataset = new Dataset(export);
         this.mappings = mappings;
@@ -48,7 +48,7 @@ public final class DatagenContext {
         this.planner = new Planner(dataset, techniques, elision.recipes());
         this.coverage = new Coverage();
         this.coverageFile = coverageFile;
-        this.candidatesFile = candidatesFile;
+        this.candidatesDirectory = candidatesDirectory;
     }
 
     static DatagenContext load() throws IOException {

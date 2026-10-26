@@ -98,7 +98,7 @@ legacyForge {
             systemProperty("cookbook_of_babel.export", datasetExport.get().asFile.absolutePath)
             systemProperty("cookbook_of_babel.mappings", file("mappings").absolutePath)
             systemProperty("cookbook_of_babel.coverage", file("coverage.md").absolutePath)
-            systemProperty("cookbook_of_babel.candidates", layout.buildDirectory.file("babel/candidates.json").get().asFile.absolutePath)
+            systemProperty("cookbook_of_babel.candidates", layout.buildDirectory.dir("babel/candidates").get().asFile.absolutePath)
             programArguments.addAll(
                 "--mod", modId,
                 "--all",

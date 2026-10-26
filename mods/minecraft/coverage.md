@@ -61,7 +61,7 @@ Steps of each technique with a recipe in at least one machine; elided steps aren
 
 ## Unmapped leaves
 
-Used by some step, made by none, and provided by no mapped mod, so nothing in the game produces them. `build/babel/candidates.json` lists items and tags that might.
+Used by some step, made by none, and provided by no mapped mod, so nothing in the game produces them. `build/babel/candidates/<mod>.json` proposes mappings for them and for anything else that a mod's items or fluids name.
 
 - `ackawi` (ackawi)
 - `acorn` (acorn)
