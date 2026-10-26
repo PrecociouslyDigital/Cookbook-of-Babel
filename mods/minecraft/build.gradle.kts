@@ -155,6 +155,11 @@ dependencies {
     modCompileOnly(libs.jei.forge.api)
     modRuntimeOnly(libs.jei.forge)
     modRuntimeOnly(libs.garnished)
+    modRuntimeOnly(libs.brewinandchewin)
+    modRuntimeOnly(libs.farmersrespite)
+    modRuntimeOnly(libs.vintagedelight)
+    modRuntimeOnly(libs.rats)
+    modRuntimeOnly(libs.citadel)
 
     testImplementation(libs.jqwik)
     testImplementation(libs.assertj)

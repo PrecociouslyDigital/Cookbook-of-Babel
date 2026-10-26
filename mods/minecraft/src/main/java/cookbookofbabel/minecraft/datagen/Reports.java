@@ -141,7 +141,7 @@ final class Reports implements DataProvider {
 
         out.append("\n## Deferred\n\n");
         Stream.of(
-                        "Passive, time-based changes (cool, chill, age, ferment, spoil and the rest) need a time mechanic.",
+                        "Cooling and chilling steps that can't be skipped need a time mechanic; spoilage isn't made at all.",
                         "Water as a medium that boiling, simmering and steaming use up.",
                         "A real sieve for sifting-type strain steps.",
                         "Outputs that are one of several outcomes.")
@@ -211,10 +211,15 @@ final class Reports implements DataProvider {
             try (var namespaces = Files.list(assets)) {
                 for (var namespace : namespaces.toList()) {
                     var file = namespace.resolve("lang/en_us.json");
-                    if (Files.isRegularFile(file)) {
+                    if (!Files.isRegularFile(file)) {
+                        continue;
+                    }
+                    try {
                         JsonParser.parseString(Files.readString(file, StandardCharsets.UTF_8)).getAsJsonObject().entrySet().stream()
                                 .filter(e -> e.getValue().isJsonPrimitive())
                                 .forEach(e -> entries.putIfAbsent(e.getKey(), e.getValue().getAsString()));
+                    } catch (RuntimeException e) {
+                        // A mod's malformed language file only costs its names in the proposals.
                     }
                 }
             }

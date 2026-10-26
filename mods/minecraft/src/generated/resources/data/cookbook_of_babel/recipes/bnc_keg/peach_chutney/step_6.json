@@ -1,0 +1,32 @@
+{
+  "type": "brewinandchewin:fermenting",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "brewinandchewin"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/peach_chutney"
+    }
+  ],
+  "experience": 0.1,
+  "fermentingtime": 300,
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:peach_chutney_step_5\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/peach_chutney_step_5"
+      }
+    ]
+  ],
+  "result": {
+    "count": 1,
+    "item": "cookbook_of_babel:peach_chutney"
+  },
+  "temperature": 5
+}

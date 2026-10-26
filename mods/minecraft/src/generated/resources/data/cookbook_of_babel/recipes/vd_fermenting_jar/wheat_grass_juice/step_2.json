@@ -1,0 +1,41 @@
+{
+  "type": "vintagedelight:fermenting",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "vintagedelight"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/wheat_soak_sprout"
+    }
+  ],
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:portion",
+        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:bulk\",Tag:{substance:\"cookbook_of_babel:wheat_soak\"}}}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/wheat_soak"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:portion",
+        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:bulk\",Tag:{substance:\"cookbook_of_babel:wheat_soak\"}}}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/wheat_soak"
+      }
+    ]
+  ],
+  "output": {
+    "count": 4,
+    "item": "cookbook_of_babel:substance",
+    "nbt": "{substance:\"cookbook_of_babel:wheat_soak_sprout\"}"
+  },
+  "processingTime": 100
+}

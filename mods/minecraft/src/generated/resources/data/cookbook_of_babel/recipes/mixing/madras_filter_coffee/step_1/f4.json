@@ -1,0 +1,37 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/madras_filter_coffee_step_1"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "farmersrespite"
+    }
+  ],
+  "ingredients": [
+    {
+      "amount": 10,
+      "fluid": "minecraft:water",
+      "nbt": {}
+    },
+    {
+      "amount": 1,
+      "fluid": "farmersrespite:coffee",
+      "nbt": {}
+    }
+  ],
+  "processingTime": 20,
+  "results": [
+    {
+      "amount": 11,
+      "fluid": "cookbook_of_babel:liquid",
+      "nbt": "{substance:\"cookbook_of_babel:madras_filter_coffee_step_1\"}"
+    }
+  ]
+}

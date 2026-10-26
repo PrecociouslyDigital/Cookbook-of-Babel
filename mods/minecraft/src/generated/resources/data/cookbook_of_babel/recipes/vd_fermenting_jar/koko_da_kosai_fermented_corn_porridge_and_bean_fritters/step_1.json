@@ -1,0 +1,51 @@
+{
+  "type": "vintagedelight:fermenting",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "vintagedelight"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/koko_da_kosai_fermented_corn_porridge_and_bean_fritters_step_1"
+    }
+  ],
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:portion",
+        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:bulk\",Tag:{substance:\"cookbook_of_babel:millet\"}}}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/millet"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:portion",
+        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:bulk\",Tag:{substance:\"cookbook_of_babel:millet\"}}}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/millet"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:portion",
+        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:liquid\",Tag:{substance:\"cookbook_of_babel:water\"}}}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/water"
+      }
+    ]
+  ],
+  "output": {
+    "count": 3,
+    "item": "cookbook_of_babel:substance",
+    "nbt": "{substance:\"cookbook_of_babel:koko_da_kosai_fermented_corn_porridge_and_bean_fritters_step_1\"}"
+  },
+  "processingTime": 24000
+}

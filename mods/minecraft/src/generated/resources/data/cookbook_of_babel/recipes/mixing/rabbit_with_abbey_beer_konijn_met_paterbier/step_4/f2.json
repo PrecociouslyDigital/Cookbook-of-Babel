@@ -1,0 +1,43 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/rabbit_with_abbey_beer_konijn_met_paterbier_step_4"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "brewinandchewin"
+    }
+  ],
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:rabbit_with_abbey_beer_konijn_met_paterbier_step_3\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/rabbit_with_abbey_beer_konijn_met_paterbier_step_3"
+      }
+    ],
+    {
+      "amount": 150,
+      "fluid": "brewinandchewin:beer",
+      "nbt": {}
+    }
+  ],
+  "processingTime": 20,
+  "results": [
+    {
+      "item": "cookbook_of_babel:substance",
+      "nbt": {
+        "substance": "cookbook_of_babel:rabbit_with_abbey_beer_konijn_met_paterbier_step_4"
+      }
+    }
+  ]
+}

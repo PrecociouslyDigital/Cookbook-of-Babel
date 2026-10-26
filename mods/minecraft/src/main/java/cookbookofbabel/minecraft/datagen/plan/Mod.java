@@ -5,6 +5,10 @@ import java.util.Optional;
 
 /** The mods recipes are written for, in order of preference for a mapped output. */
 public enum Mod {
+    BREWIN_AND_CHEWIN("brewinandchewin"),
+    FARMERS_RESPITE("farmersrespite"),
+    VINTAGE_DELIGHT("vintagedelight"),
+    RATS("rats"),
     FARMERS_DELIGHT("farmersdelight"),
     GARNISHED("garnished"),
     CREATE("create"),

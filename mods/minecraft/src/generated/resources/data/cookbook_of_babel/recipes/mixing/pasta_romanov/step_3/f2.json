@@ -1,0 +1,39 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/pasta_romanov_step_3"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "brewinandchewin"
+    }
+  ],
+  "ingredients": [
+    {
+      "amount": 3,
+      "fluid": "cookbook_of_babel:liquid",
+      "nbt": {
+        "substance": "cookbook_of_babel:pasta_romanov_step_2"
+      }
+    },
+    {
+      "amount": 1,
+      "fluid": "brewinandchewin:vodka",
+      "nbt": {}
+    }
+  ],
+  "processingTime": 20,
+  "results": [
+    {
+      "amount": 4,
+      "fluid": "cookbook_of_babel:liquid",
+      "nbt": "{substance:\"cookbook_of_babel:pasta_romanov_step_3\"}"
+    }
+  ]
+}

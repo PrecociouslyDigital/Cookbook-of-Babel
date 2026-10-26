@@ -1,0 +1,41 @@
+{
+  "type": "vintagedelight:fermenting",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "vintagedelight"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/grape_ferment"
+    }
+  ],
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:grape\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/grape"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:grape\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/grape"
+      }
+    ]
+  ],
+  "output": {
+    "count": 3,
+    "item": "cookbook_of_babel:substance",
+    "nbt": "{substance:\"cookbook_of_babel:grape_ferment\"}"
+  },
+  "processingTime": 24000
+}

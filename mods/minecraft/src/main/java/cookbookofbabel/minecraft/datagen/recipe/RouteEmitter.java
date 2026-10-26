@@ -16,6 +16,7 @@ import cookbookofbabel.minecraft.BabelTags;
 import cookbookofbabel.minecraft.CookbookOfBabel;
 import cookbookofbabel.minecraft.dataset.Amount;
 import cookbookofbabel.minecraft.dataset.IngredientId;
+import cookbookofbabel.minecraft.dataset.NamedDish;
 import cookbookofbabel.minecraft.datagen.plan.Amounts;
 import cookbookofbabel.minecraft.datagen.plan.Candidates;
 import cookbookofbabel.minecraft.datagen.plan.Candidates.Target;
@@ -30,12 +31,19 @@ import cookbookofbabel.minecraft.datagen.plan.Planned.ItemIn;
 import cookbookofbabel.minecraft.datagen.plan.Planned.ItemOut;
 import cookbookofbabel.minecraft.datagen.plan.Quantize;
 import cookbookofbabel.minecraft.datagen.plan.RouteKind;
+import cookbookofbabel.minecraft.datagen.recipe.brewinandchewin.Keg;
+import cookbookofbabel.minecraft.datagen.recipe.farmersrespite.Kettle;
+import cookbookofbabel.minecraft.datagen.recipe.vintagedelight.FermentingJar;
+import cookbookofbabel.minecraft.datagen.recipe.Resolved.Exact;
+import cookbookofbabel.minecraft.datagen.recipe.Resolved.FluidInput;
+import cookbookofbabel.minecraft.datagen.recipe.Resolved.Tagged;
 import cookbookofbabel.minecraft.substance.Container;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Locale;
 import java.util.Optional;
 import java.util.function.Consumer;
+import java.util.function.Function;
 import net.minecraft.advancements.critereon.InventoryChangeTrigger;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.data.recipes.FinishedRecipe;
@@ -83,15 +91,18 @@ public final class RouteEmitter {
     }
 
     /** One of the fluids a fluid input can be filled with, and when it can. */
-    private record FluidChoice(FluidIngredient ingredient, List<Condition> conditions) {}
+    private record FluidChoice(FluidInput input, List<Condition> conditions) {}
 
     /** @return how many recipes it wrote */
     public int emit(Planned planned, Consumer<FinishedRecipe> sink) {
         var main = planned.outputs().get(0);
         var external = BabelTags.externalItems(main.ingredient().value()).location().toString();
-        var candidates = main instanceof ItemOut
-                ? Candidates.of(main.ingredient(), mappings, Candidates::items, external)
-                : Candidates.of(main.ingredient(), mappings, Candidates::fluids, external);
+        var candidates = (main instanceof ItemOut
+                        ? Candidates.of(main.ingredient(), mappings, Candidates::items, external)
+                        : Candidates.of(main.ingredient(), mappings, Candidates::fluids, external))
+                .stream()
+                .filter(c -> planned.route().nbt.onResults() || withoutNbt(c.target(), main))
+                .toList();
         var fluidVariants = fluidVariants(planned);
         var written = 0;
         for (var candidate : candidates) {
@@ -106,7 +117,7 @@ public final class RouteEmitter {
                 conditions.addAll(candidate.conditions());
                 var fluids = fluidVariants.get(v);
                 fluids.forEach(f -> conditions.addAll(f.conditions()));
-                write(planned, path, candidate.target(), fluids.stream().map(FluidChoice::ingredient).toList(),
+                write(planned, path, candidate.target(), fluids.stream().map(FluidChoice::input).toList(),
                         forge(conditions), sink);
                 written++;
             }
@@ -114,7 +125,12 @@ public final class RouteEmitter {
         return written;
     }
 
-    private void write(Planned p, String path, Target mainTarget, List<FluidIngredient> fluids, List<ICondition> conditions, Consumer<FinishedRecipe> sink) {
+    /** Whether a machine that ignores NBT makes the target: another mod's thing, or a named dish's item. */
+    private static boolean withoutNbt(Target target, Planned.Out main) {
+        return target instanceof Target.External || (main instanceof ItemOut && NamedDish.byId(main.ingredient().value()).isPresent());
+    }
+
+    private void write(Planned p, String path, Target mainTarget, List<FluidInput> fluids, List<ICondition> conditions, Consumer<FinishedRecipe> sink) {
         var items = new ArrayList<Ingredient>();
         var counts = new ArrayList<Integer>();
         for (var in : p.inputs()) {
@@ -138,6 +154,9 @@ public final class RouteEmitter {
             // Garnished's fan recipes are Create processing recipes of a type of their own.
             case GARNISHED_FREEZING -> create(SplashingRecipe::new, path, p, items, counts, fluids, outputs, List.of(),
                     retyped("garnished:freezing", id(route, path), conditions, sink));
+            case BNC_KEG -> json(Keg::fermenting, p, path, items, counts, fluids, outputs, conditions, sink);
+            case FR_KETTLE -> json(Kettle::brewing, p, path, items, counts, fluids, outputs, conditions, sink);
+            case VD_FERMENTING_JAR -> json(FermentingJar::fermenting, p, path, items, counts, fluids, outputs, conditions, sink);
             case SHAPELESS_CRAFTING -> {
                 var result = (ItemStack) first(outputs);
                 var builder = ShapelessRecipeBuilder.shapeless(RecipeCategory.FOOD, result.getItem(), result.getCount());
@@ -182,7 +201,7 @@ public final class RouteEmitter {
             Planned p,
             List<Ingredient> items,
             List<Integer> counts,
-            List<FluidIngredient> fluids,
+            List<FluidInput> fluids,
             List<Object> outputs,
             List<ICondition> conditions,
             Consumer<FinishedRecipe> sink) {
@@ -192,7 +211,9 @@ public final class RouteEmitter {
                 builder.require(items.get(i));
             }
         }
-        fluids.forEach(builder::require);
+        fluids.forEach(f -> builder.require(f instanceof Exact exact
+                ? FluidIngredient.fromFluidStack(exact.stack())
+                : FluidIngredient.fromTag(((Tagged) f).tag(), f.millibuckets())));
         for (var i = 0; i < outputs.size(); i++) {
             if (outputs.get(i) instanceof ItemStack stack) {
                 var chance = ((ItemOut) p.outputs().get(i)).chance().orElse(1.0).floatValue();
@@ -210,6 +231,30 @@ public final class RouteEmitter {
             case SUPERHEATED -> HeatCondition.SUPERHEATED;
         });
         builder.build(patched(sink, conditions, json -> {}));
+    }
+
+    private void json(
+            Function<Resolved, JsonObject> recipe,
+            Planned p,
+            String path,
+            List<Ingredient> items,
+            List<Integer> counts,
+            List<FluidInput> fluids,
+            List<Object> outputs,
+            List<ICondition> conditions,
+            Consumer<FinishedRecipe> sink) {
+        var resolvedItems = new ArrayList<Resolved.Item>();
+        for (var i = 0; i < items.size(); i++) {
+            resolvedItems.add(new Resolved.Item(items.get(i), counts.get(i)));
+        }
+        var resolvedOutputs = new ArrayList<Resolved.Output>();
+        for (var i = 0; i < outputs.size(); i++) {
+            resolvedOutputs.add(outputs.get(i) instanceof ItemStack stack
+                    ? new Resolved.ItemOutput(stack, ((ItemOut) p.outputs().get(i)).chance())
+                    : new Resolved.FluidOutput((FluidStack) outputs.get(i)));
+        }
+        var json = recipe.apply(new Resolved(p, resolvedItems, fluids, resolvedOutputs));
+        sink.accept(new Finished(new JsonRecipe(id(p.route(), path), json), conditions, j -> {}));
     }
 
     /**
@@ -271,7 +316,7 @@ public final class RouteEmitter {
             if (!(in instanceof FluidIn fluid)) {
                 continue;
             }
-            var choices = fluidChoices(fluid);
+            var choices = fluidChoices(fluid, planned.route());
             var next = new ArrayList<List<FluidChoice>>();
             for (var prefix : variants) {
                 for (var choice : choices) {
@@ -287,16 +332,25 @@ public final class RouteEmitter {
         return variants;
     }
 
-    private List<FluidChoice> fluidChoices(FluidIn in) {
+    /**
+     * The mod's own fluid, where the machine matches NBT, and other mods' fluids for the
+     * ingredient; their tags too, where it matches NBT, since a tag says nothing about it.
+     */
+    private List<FluidChoice> fluidChoices(FluidIn in, RouteKind route) {
         var choices = new ArrayList<FluidChoice>();
-        choices.add(new FluidChoice(FluidIngredient.fromFluidStack(carriers.ownFluid(in.ingredient(), in.millibuckets())), List.of()));
+        var nbt = route.nbt.onFluidInputs();
+        if (nbt) {
+            choices.add(new FluidChoice(new Exact(carriers.ownFluid(in.ingredient(), in.millibuckets())), List.of()));
+        }
         for (var mapping : mappings) {
             var gate = mapping.mod().alwaysLoaded() ? List.<Condition>of() : List.<Condition>of(new Condition.ModLoaded(mapping.mod()));
             mapping.entry(in.ingredient()).ifPresent(entry -> {
                 entry.fluids().forEach(f -> choices.add(new FluidChoice(
-                        FluidIngredient.fromFluid(registered(ForgeRegistries.FLUIDS, f), in.millibuckets()), gate)));
-                Mapping.withMirrors(entry.fluidTags()).forEach(t -> choices.add(new FluidChoice(
-                        FluidIngredient.fromTag(TagKey.create(Registries.FLUID, new ResourceLocation(t)), in.millibuckets()), gate)));
+                        new Exact(new FluidStack(registered(ForgeRegistries.FLUIDS, f), in.millibuckets())), gate)));
+                if (nbt) {
+                    Mapping.withMirrors(entry.fluidTags()).forEach(t -> choices.add(new FluidChoice(
+                            new Tagged(TagKey.create(Registries.FLUID, new ResourceLocation(t)), in.millibuckets()), gate)));
+                }
             });
         }
         return choices;

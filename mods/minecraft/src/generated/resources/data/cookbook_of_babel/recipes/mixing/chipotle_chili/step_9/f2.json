@@ -1,0 +1,42 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/chipotle_chili_step_9"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "brewinandchewin"
+    }
+  ],
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:chipotle_chili_step_8\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/chipotle_chili_step_8"
+      }
+    ],
+    {
+      "amount": 340,
+      "fluid": "brewinandchewin:beer",
+      "nbt": {}
+    }
+  ],
+  "processingTime": 20,
+  "results": [
+    {
+      "amount": 100,
+      "fluid": "cookbook_of_babel:liquid",
+      "nbt": "{substance:\"cookbook_of_babel:chipotle_chili_step_9\"}"
+    }
+  ]
+}

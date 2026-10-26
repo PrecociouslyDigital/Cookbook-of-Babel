@@ -9,6 +9,7 @@ import com.simibubi.create.content.kinetics.motor.CreativeMotorBlockEntity;
 import com.simibubi.create.content.processing.recipe.HeatCondition;
 import cookbookofbabel.minecraft.BabelTags;
 import cookbookofbabel.minecraft.CookbookOfBabel;
+import cookbookofbabel.minecraft.Registration;
 import cookbookofbabel.minecraft.substance.Carrier;
 import cookbookofbabel.minecraft.substance.Container;
 import cookbookofbabel.minecraft.substance.Substance;
@@ -85,6 +86,27 @@ public final class BabelGameTests {
         helper.assertTrue(checked > 0, "no generated recipe's conditions held");
         helper.assertTrue(missing.isEmpty(), missing.size() + " of " + checked + " generated recipes didn't load, e.g. "
                 + missing.stream().limit(5).map(Object::toString).collect(Collectors.joining(", ")));
+        helper.succeed();
+    }
+
+    /**
+     * Every generated recipe that makes the mod's own substance item or portion names its substance.
+     * A machine that drops a result's NBT would make a bare one, which is no substance at all.
+     */
+    @GameTest(template = EMPTY)
+    public static void generatedResultsNameTheirSubstance(GameTestHelper helper) {
+        var registries = helper.getLevel().registryAccess();
+        var bare = helper.getLevel().getRecipeManager().getRecipes().stream()
+                .filter(r -> r.getId().getNamespace().equals(CookbookOfBabel.ID))
+                .filter(r -> {
+                    var result = r.getResultItem(registries);
+                    return (result.is(Registration.SUBSTANCE_ITEM.get()) || result.is(Registration.PORTION.get()))
+                            && Substances.of(result, registries).isEmpty();
+                })
+                .map(r -> r.getId().toString())
+                .toList();
+        helper.assertTrue(bare.isEmpty(), bare.size() + " generated recipes make a bare substance, e.g. "
+                + bare.stream().limit(5).collect(Collectors.joining(", ")));
         helper.succeed();
     }
 

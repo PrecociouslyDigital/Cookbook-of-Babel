@@ -10,7 +10,7 @@ Steps of each technique with a recipe in at least one machine; elided steps aren
 
 | Technique | Steps | With a recipe |
 |---|---|---|
-| age | 73 | 0 |
+| age | 73 | 71 |
 | ash | 1 | 1 |
 | assemble | 1433 | 1178 |
 | bake | 889 | 780 |
@@ -25,12 +25,12 @@ Steps of each technique with a recipe in at least one machine; elided steps aren
 | coat | 924 | 747 |
 | cool | 48 | 0 |
 | crystallize | 3 | 1 |
-| cure | 41 | 0 |
+| cure | 41 | 26 |
 | cut | 554 | 333 |
 | dissolve | 193 | 187 |
 | dry | 9 | 0 |
 | evaporate | 210 | 204 |
-| ferment | 192 | 0 |
+| ferment | 192 | 175 |
 | fold | 242 | 238 |
 | freeze | 2 | 0 |
 | fry | 493 | 459 |
@@ -51,7 +51,7 @@ Steps of each technique with a recipe in at least one machine; elided steps aren
 | simmer | 1317 | 1285 |
 | smoke | 22 | 12 |
 | soak | 365 | 341 |
-| sprout | 5 | 0 |
+| sprout | 5 | 5 |
 | steam | 214 | 205 |
 | steep | 110 | 104 |
 | stir_fry | 292 | 281 |
@@ -171,7 +171,6 @@ Used by some step, made by none, and provided by no mapped mod, so nothing in th
 - `beef_stock` (fond brun de boeuf)
 - `beef_stock_cubes` (beef stock cubes)
 - `beef_with_bones` (beef with bones)
-- `beer` (beer)
 - `beet` (beet)
 - `bell_pepper` (bell pepper)
 - `bell_peppers` (bell peppers)
@@ -195,7 +194,6 @@ Used by some step, made by none, and provided by no mapped mod, so nothing in th
 - `blackberry` (blackberry)
 - `blackstrap_molasses` (blackstrap molasses)
 - `blood_orange` (blood orange)
-- `blue_cheese` (blue cheese)
 - `blue_cheese_dressing` (blue cheese dressing)
 - `blue_food_coloring` (blue food coloring)
 - `blueberry` (blueberry)
@@ -300,7 +298,6 @@ Used by some step, made by none, and provided by no mapped mod, so nothing in th
 - `chayote` (chayote)
 - `cheddar_cheese` (cheddar cheese)
 - `cheerios` (cheerios)
-- `cheese` (cheese)
 - `cheeselets` (cheeselets)
 - `cherry` (cherry)
 - `cherry_beer` (cherry beer)
@@ -395,8 +392,6 @@ Used by some step, made by none, and provided by no mapped mod, so nothing in th
 - `cocoyam_leaves` (cocoyam leaves)
 - `cocoyams` (cocoyams)
 - `cod` (cod)
-- `coffee` (coffee)
-- `coffee_beans` (coffee beans)
 - `coffee_liqueur` (coffee liqueur)
 - `cognac` (cognac)
 - `cola` (cola)
@@ -467,7 +462,6 @@ Used by some step, made by none, and provided by no mapped mod, so nothing in th
 - `cubanelle_pepper` (cubanelle pepper)
 - `cubanelle_peppers` (cubanelle peppers)
 - `cubes_of_mushroom_base` (cubes of mushroom base)
-- `cucumber` (cucumber)
 - `cuisine_of_california` (california cuisine)
 - `cuisine_of_italy` (cuisine of italy)
 - `culantro` (culantro)
@@ -761,7 +755,6 @@ Used by some step, made by none, and provided by no mapped mod, so nothing in th
 - `homemade_biscuit_mix` (biscuit mix)
 - `homi` (homi)
 - `hominy` (hominy)
-- `honey` (honey)
 - `hops` (hops)
 - `horse` (horse)
 - `horseradish` (horseradish)
@@ -829,8 +822,6 @@ Used by some step, made by none, and provided by no mapped mod, so nothing in th
 - `khoa` (khoa)
 - `khova` (khova)
 - `kidney` (kidney)
-- `kimchi` (kimchi)
-- `kipper` (kipper)
 - `kirsch` (kirsch)
 - `kismis` (kismis)
 - `kiwifruit` (kiwifruit)
@@ -1020,8 +1011,6 @@ Used by some step, made by none, and provided by no mapped mod, so nothing in th
 - `nyore` (nyore)
 - `oat_flour` (oat flour)
 - `oat_milk` (oat milk)
-- `oatmeal` (oatmeal)
-- `oats` (oats)
 - `octopus` (octopus)
 - `of_butter` (of butter)
 - `ogi_water` (ogi water)
@@ -1142,9 +1131,7 @@ Used by some step, made by none, and provided by no mapped mod, so nothing in th
 - `phosphoric_acid` (phosphoric acid)
 - `phyllo_dough` (phyllo dough)
 - `picante_sauce` (picante sauce)
-- `pickle` (pickle)
 - `pickled_cucumbers` (pickled cucumbers)
-- `pickles` (pickles)
 - `pickling_onions` (pickling onions)
 - `pickling_salt` (pickling salt)
 - `pickling_spices` (pickling spices)
@@ -1282,7 +1269,6 @@ Used by some step, made by none, and provided by no mapped mod, so nothing in th
 - `salami` (salami)
 - `salmon` (salmon)
 - `salsa` (salsa)
-- `salt` (salt)
 - `salt_and_black_pepper` (salt and black pepper)
 - `salt_and_pepper` (salt and pepper)
 - `salt_cod` (salt cod)
@@ -1521,7 +1507,6 @@ Used by some step, made by none, and provided by no mapped mod, so nothing in th
 - `tortilla` (tortilla)
 - `tortilla_chip` (tortilla chip)
 - `tortilla_chips` (tortilla chips)
-- `treacle` (treacle)
 - `tripe` (shaki)
 - `trout` (trout)
 - `truffle` (truffle)
@@ -1568,7 +1553,6 @@ Used by some step, made by none, and provided by no mapped mod, so nothing in th
 - `vienna_sausages` (vienna sausages)
 - `vinegar` (balsamic vinegar)
 - `vitamin_c_powder` (vitamin c powder)
-- `vodka` (vodka)
 - `vol_au_vent_shells` (vol-au-vent shells)
 - `wafer_paper` (wafer paper)
 - `wakame` (wakame)
@@ -3529,11 +3513,13 @@ Rounding error is the largest relative error of any non-negligible amount; above
 
 - create_mixing: 1 recipe, rounding 0%, estimated
 - create_splashing: 1 recipe, rounding 17% ⚠, estimated
+- fr_kettle: none, can't make the mod's own a_nice_cup_of_tea_step_4, and no other mod provides it
 
 ### `a_nice_cup_of_tea.step_5` (steep)
 
 - create_mixing: 1 recipe, rounding 0%, estimated
 - create_splashing: 1 recipe, rounding 17% ⚠, estimated
+- fr_kettle: none, can't make the mod's own a_nice_cup_of_tea_step_5, and no other mod provides it
 
 ### `a_nice_cup_of_tea.step_6` (season)
 
@@ -3709,6 +3695,7 @@ Rounding error is the largest relative error of any non-negligible amount; above
 
 - create_mixing: 1 recipe, rounding 4%, estimated
 - create_splashing: 1 recipe, rounding 17% ⚠, estimated
+- fr_kettle: none, can't make the mod's own acevichada_sauce_step_4, and no other mod provides it
 
 ### `acevichada_sauce.step_5` (blend)
 
@@ -4019,7 +4006,7 @@ Rounding error is the largest relative error of any non-negligible amount; above
 
 ### `agbalumo_smoothie.step_4` (season)
 
-- create_mixing: 1 recipe, rounding 11%, estimated
+- create_mixing: 2 recipes, rounding 11%, estimated
 - shapeless_crafting: none, whole items would distort it by 4940%
 
 ### `agbalumo_smoothie.step_5` (strain)
@@ -4154,6 +4141,7 @@ Rounding error is the largest relative error of any non-negligible amount; above
 
 - create_mixing: 1 recipe, rounding 0%, estimated
 - create_splashing: none, takes one input, not 2
+- fr_kettle: none, makes 1 things; at most 1 fit
 
 ### `air_fried_zucchini.step_1` (chop)
 
@@ -4288,7 +4276,8 @@ Rounding error is the largest relative error of any non-negligible amount; above
 
 ### `akpu.step_3` (ferment)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 4%
+- bnc_keg: none, can't make the mod's own akpu_step_3, and no other mod provides it
 
 ### `akpu.step_4` (separate)
 
@@ -4543,7 +4532,8 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `algerian_baghrir.step_3` (ferment)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 0%, estimated
+- bnc_keg: none, can't make the mod's own algerian_baghrir_step_3, and no other mod provides it
 
 ### `algerian_baghrir.step_4` (whisk)
 
@@ -4596,7 +4586,8 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `algerian_coca.step_1` (ferment)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: none, whole items would distort it by 793%
+- bnc_keg: none, can't make the mod's own algerian_coca_step_1, and no other mod provides it
 
 ### `algerian_coca.step_10` (assemble)
 
@@ -4629,7 +4620,8 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `algerian_coca.step_4` (ferment)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 2%
+- bnc_keg: none, can't make the mod's own algerian_coca_step_4, and no other mod provides it
 
 ### `algerian_coca.step_5` (pan_fry)
 
@@ -4760,11 +4752,13 @@ No routes: time-based changes wait for a time mechanic.
 
 - create_mixing: 1 recipe, rounding 2%, estimated
 - create_splashing: none, takes one input, not 2
+- fr_kettle: none, can't make the mod's own algerian_mint_tea_step_4, and no other mod provides it
 
 ### `algerian_mint_tea.step_5` (steep)
 
 - create_mixing: 1 recipe, rounding 2%, estimated
 - create_splashing: none, takes one input, not 2
+- fr_kettle: none, can't make the mod's own algerian_mint_tea_step_5, and no other mod provides it
 
 ### `algerian_mint_tea.step_6` (boil)
 
@@ -4822,7 +4816,8 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `alkubus_nigerian_steamed_bread.step_3` (ferment)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 5%
+- bnc_keg: none, can't make the mod's own alkubus_nigerian_steamed_bread_step_3, and no other mod provides it
 
 ### `alkubus_nigerian_steamed_bread.step_4` (press)
 
@@ -5095,7 +5090,8 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `alsatian_fresh_noodles_nouilles_fraiches_a_l_alsacienne.step_4` (age)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 0%
+- bnc_keg: none, can't make the mod's own alsatian_fresh_noodles_nouilles_fraiches_a_l_alsacienne_step_4, and no other mod provides it
 
 ### `alsatian_fresh_noodles_nouilles_fraiches_a_l_alsacienne.step_5` (shape)
 
@@ -5409,7 +5405,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 ### `ancient_roman_pancakes_ova_sfongia_ex_lacte.step_2` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 1%, estimated
+- create_heated_mixing: 2 recipes, rounding 1%, estimated
 
 ### `angels_on_horseback_bacon_wrapped_oysters.step_1` (soak)
 
@@ -5515,7 +5511,8 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `appam_fermented_rice_pancake.step_5` (ferment)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 1%, estimated
+- bnc_keg: none, can't make the mod's own appam_fermented_rice_pancake_step_5, and no other mod provides it
 
 ### `appam_fermented_rice_pancake.step_6` (chill)
 
@@ -6210,7 +6207,8 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `applewood_bacon.step_4` (cure)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 0%
+- bnc_keg: none, can't make the mod's own applewood_bacon_step_5, and no other mod provides it
 
 ### `applewood_bacon.step_7` (smoke)
 
@@ -6229,7 +6227,7 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `apricot_chicken_salad.step_2` (season)
 
-- create_mixing: 1 recipe, rounding 1%, estimated
+- create_mixing: 2 recipes, rounding 1%, estimated
 - shapeless_crafting: none, whole items would distort it by 182%
 
 ### `apricot_chicken_salad.step_3` (mix)
@@ -6259,7 +6257,8 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `apricot_wine.step_5` (ferment)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 0%, estimated
+- bnc_keg: none, can't make the mod's own apricot_wine_step_5, and no other mod provides it
 
 ### `apricot_wine.step_6` (mix)
 
@@ -6481,6 +6480,7 @@ No routes: time-based changes wait for a time mechanic.
 
 - create_mixing: 1 recipe, rounding 1%, estimated
 - create_splashing: none, takes one input, not 3
+- fr_kettle: none, can't make the mod's own arroz_con_maiz_rice_with_corn_step_4, and no other mod provides it
 
 ### `arroz_con_maiz_rice_with_corn.step_5` (strain)
 
@@ -6656,7 +6656,7 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `asian_barbecue_ribs.step_3` (boil)
 
-- create_heated_mixing: 1 recipe, rounding 6%, estimated
+- create_heated_mixing: 2 recipes, rounding 6%, estimated
 - fd_cooking_pot: none, takes at most 6 inputs, not 7
 
 ### `asian_barbecue_ribs.step_4` (smoke)
@@ -7097,7 +7097,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `au_jus_sandwich.step_1` (simmer)
 
-- create_heated_mixing: 1 recipe, rounding 6%, estimated
+- create_heated_mixing: 2 recipes, rounding 6%, estimated
 - fd_cooking_pot: none, takes at most 6 inputs, not 8
 
 ### `au_jus_sandwich.step_3` (coat)
@@ -7294,7 +7294,8 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `avocado_relish.step_3` (age)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 0%
+- bnc_keg: 1 recipe, rounding 0%
 
 ### `awaze_tibs_spicy_ethiopian_meat_stir_fry.step_2` (stir_fry)
 
@@ -7526,7 +7527,7 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `backyard_bbq_chicken.step_3` (evaporate)
 
-- create_heated_mixing: 1 recipe, rounding 13%, estimated
+- create_heated_mixing: 2 recipes, rounding 13%, estimated
 
 ### `backyard_bbq_chicken.step_4` (grill)
 
@@ -9357,7 +9358,7 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `barbecue_chicken.step_2` (evaporate)
 
-- create_heated_mixing: 1 recipe, rounding 6%, estimated
+- create_heated_mixing: 2 recipes, rounding 6%, estimated
 
 ### `barbecue_chicken.step_4` (season)
 
@@ -9600,6 +9601,7 @@ No routes: time-based changes wait for a time mechanic.
 
 - create_mixing: 1 recipe, rounding 0%, estimated
 - create_splashing: none, takes one input, not 2
+- fr_kettle: none, can't make the mod's own basic_chai_step_2, and no other mod provides it
 
 ### `basic_chai.step_3` (boil)
 
@@ -9748,7 +9750,8 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `basic_mulling_spice.step_4` (age)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 0%
+- bnc_keg: 1 recipe, rounding 0%
 
 ### `basic_pizza_sauce.step_1` (coat)
 
@@ -10301,6 +10304,7 @@ No routes: time-based changes wait for a time mechanic.
 
 - create_mixing: 1 recipe, rounding 0%, estimated
 - create_splashing: none, takes one input, not 2
+- fr_kettle: none, can't make the mod's own bechamel_sauce_basic_step_4, and no other mod provides it
 
 ### `bechamel_sauce_basic.step_5` (strain)
 
@@ -10340,6 +10344,7 @@ No routes: time-based changes wait for a time mechanic.
 
 - create_mixing: 4 recipes, rounding 0%, estimated
 - create_splashing: none, takes one input, not 3
+- fr_kettle: none, can't make the mod's own bechamel_sauce_louisiannaise_step_1, and no other mod provides it
 
 ### `bechamel_sauce_louisiannaise.step_2` (heat)
 
@@ -10462,6 +10467,7 @@ No routes: time-based changes wait for a time mechanic.
 
 - create_mixing: 1 recipe, rounding 2%
 - create_splashing: 1 recipe, rounding 2%
+- fr_kettle: none, can't make the mod's own beef_carpaccio_i_step_4, and no other mod provides it
 
 ### `beef_carpaccio_i.step_5` (toast)
 
@@ -10656,7 +10662,8 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `beef_jerky.step_3` (cure)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 11%
+- bnc_keg: 1 recipe, rounding 11%
 
 ### `beef_muchomo_ugandan_beef_skewers.step_1` (whisk)
 
@@ -10917,7 +10924,8 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `beef_yakiniku_pizza.step_2` (ferment)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 14%
+- bnc_keg: none, can't make the mod's own beef_yakiniku_pizza_step_2, and no other mod provides it
 
 ### `beef_yakiniku_pizza.step_3` (stir_fry)
 
@@ -10985,7 +10993,7 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `beer_batter.step_2` (mix)
 
-- create_mixing: 1 recipe, rounding 3%, estimated
+- create_mixing: 2 recipes, rounding 3%, estimated
 - shapeless_crafting: 1 recipe, rounding 10%, estimated
 
 ### `beer_batter.step_3` (mix)
@@ -11011,12 +11019,13 @@ No routes: time-based changes wait for a time mechanic.
 ### `beer_can_chicken.step_6` (separate)
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
-- create_mixing: 1 recipe, rounding 0%, estimated
+- create_mixing: 2 recipes, rounding 0%, estimated
 
 ### `beer_can_chicken.step_7` (steep)
 
 - create_mixing: 1 recipe, rounding 0%, estimated
 - create_splashing: none, takes one input, not 2
+- fr_kettle: none, can't make the mod's own beer_can_chicken_step_7, and no other mod provides it
 
 ### `beer_can_chicken.step_8` (assemble)
 
@@ -11035,7 +11044,7 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `beer_cheese_risotto.step_3` (simmer)
 
-- create_heated_mixing: 1 recipe, rounding 0%, estimated
+- create_heated_mixing: 2 recipes, rounding 0%, estimated
 - fd_cooking_pot: 1 recipe, rounding 15% ⚠, estimated
 
 ### `beer_cheese_risotto.step_4` (dissolve)
@@ -11045,7 +11054,7 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `beer_marinated_shrimp.step_1` (mix)
 
-- create_mixing: 1 recipe, rounding 1%, estimated
+- create_mixing: 2 recipes, rounding 1%, estimated
 - shapeless_crafting: none, whole items would distort it by 275%
 
 ### `beer_marinated_shrimp.step_2` (season)
@@ -11235,6 +11244,7 @@ No routes: time-based changes wait for a time mechanic.
 
 - create_mixing: 1 recipe, rounding 0%, estimated
 - create_splashing: 1 recipe, rounding 17% ⚠, estimated
+- fr_kettle: none, can't make the mod's own benechin_kunkujang_gambian_seasoned_rice_and_lamb_step_10, and no other mod provides it
 
 ### `benechin_kunkujang_gambian_seasoned_rice_and_lamb.step_11` (separate)
 
@@ -11631,10 +11641,12 @@ No routes: time-based changes wait for a time mechanic.
 
 - create_mixing: 1 recipe, rounding 9%
 - create_splashing: 1 recipe, rounding 9%
+- fr_kettle: none, can't make the mod's own biltong_zambian_dried_and_salted_meat_step_5, and no other mod provides it
 
 ### `biltong_zambian_dried_and_salted_meat.step_6` (age)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 9%
+- bnc_keg: 1 recipe, rounding 9%
 
 ### `binagoongan_sauteed_pork_with_shrimp_paste.step_1` (fry)
 
@@ -11681,7 +11693,8 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `bint_as_sa_n_yemenite_layered_pastry.step_4` (ferment)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 0%
+- bnc_keg: none, can't make the mod's own bint_as_sa_n_yemenite_layered_pastry_step_4, and no other mod provides it
 
 ### `bint_as_sa_n_yemenite_layered_pastry.step_5` (shape)
 
@@ -11695,7 +11708,8 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `bint_as_sa_n_yemenite_layered_pastry.step_7` (ferment)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 0%
+- bnc_keg: none, can't make the mod's own bint_as_sa_n_yemenite_layered_pastry_step_7, and no other mod provides it
 
 ### `bint_as_sa_n_yemenite_layered_pastry.step_9` (coat)
 
@@ -11706,6 +11720,7 @@ No routes: time-based changes wait for a time mechanic.
 
 - create_mixing: none, whole items would distort it by 154%
 - create_splashing: none, whole items would distort it by 322%
+- fr_kettle: none, can't make the mod's own saffron_steep, and no other mod provides it
 
 ### `biryani.step_10` (assemble)
 
@@ -12239,7 +12254,7 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `black_forest_cake.step_4` (fold)
 
-- create_mixing: 1 recipe, rounding 1%, estimated
+- create_mixing: 2 recipes, rounding 1%, estimated
 - shapeless_crafting: 1 recipe, rounding 88% ⚠, estimated
 
 ### `black_forest_cake.step_5` (bake)
@@ -12430,7 +12445,8 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `bliny.step_3` (ferment)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 3%
+- bnc_keg: none, can't make the mod's own bliny_step_3, and no other mod provides it
 
 ### `bliny.step_4` (mix)
 
@@ -12439,7 +12455,8 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `bliny.step_5` (ferment)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 0%, estimated
+- bnc_keg: none, can't make the mod's own bliny_step_5, and no other mod provides it
 
 ### `bliny.step_6` (pan_fry)
 
@@ -12982,6 +12999,7 @@ No routes: time-based changes wait for a time mechanic.
 
 - create_mixing: 1 recipe, rounding 14%
 - create_splashing: 1 recipe, rounding 14%
+- fr_kettle: none, can't make the mod's own boiled_yellow_split_peas_step_3, and no other mod provides it
 
 ### `boiled_yellow_split_peas.step_4` (rinse)
 
@@ -13020,7 +13038,7 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `boilo_hot_spiced_citrus_whiskey.step_2` (mix)
 
-- create_mixing: 1 recipe, rounding 0%, estimated
+- create_mixing: 2 recipes, rounding 0%, estimated
 - shapeless_crafting: 1 recipe, rounding 10%, estimated
 
 ### `boilo_hot_spiced_citrus_whiskey.step_3` (simmer)
@@ -13289,6 +13307,7 @@ No routes: time-based changes wait for a time mechanic.
 
 - create_mixing: 1 recipe, rounding 12%, estimated
 - create_splashing: none, takes one input, not 2
+- fr_kettle: none, can't make the mod's own bouchee_a_la_reine_step_1, and no other mod provides it
 
 ### `bouchee_a_la_reine.step_10` (assemble)
 
@@ -13421,6 +13440,7 @@ No routes: time-based changes wait for a time mechanic.
 
 - create_mixing: 1 recipe, rounding 0%, estimated
 - create_splashing: none, takes one input, not 2
+- fr_kettle: none, makes 1 things; at most 1 fit
 
 ### `bourbon_apples.step_1` (coat)
 
@@ -13639,7 +13659,8 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `brazilian_feijoada.step_1` (cure)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 1%
+- bnc_keg: none, can't make the mod's own brazilian_feijoada_step_1, and no other mod provides it
 
 ### `brazilian_feijoada.step_10` (simmer)
 
@@ -13773,7 +13794,7 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `bread.mold` (mold)
 
-No routes: time-based changes wait for a time mechanic.
+No routes: spoilage is something to prevent, not a recipe.
 
 ### `bread_filled_with_potato_curry_pani_puri.step_1` (blend)
 
@@ -13973,6 +13994,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_mixing: 1 recipe, rounding 0%, estimated
 - create_splashing: 1 recipe, rounding 17% ⚠, estimated
+- fr_kettle: none, can't make the mod's own breakfast_sludge_step_5, and no other mod provides it
 
 ### `breakfast_sludge.step_6` (mix)
 
@@ -14065,7 +14087,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `brioche_stuffing.step_1` (mix)
 
-- create_mixing: 1 recipe, rounding 24% ⚠, estimated
+- create_mixing: 2 recipes, rounding 24% ⚠, estimated
 - shapeless_crafting: none, takes at most 9 inputs, not 12
 
 ### `brioche_stuffing.step_2` (bake)
@@ -14389,7 +14411,8 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `brown_sugar_mulling_spice_mix.step_3` (age)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 9%, estimated
+- bnc_keg: 1 recipe, rounding 9%, estimated
 
 ### `brown_sugar_nutmeg_cookies.step_1` (mix)
 
@@ -14667,7 +14690,8 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `buckwheat_crepes.step_3` (age)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 0%, estimated
+- bnc_keg: none, can't make the mod's own buckwheat_crepes_step_3, and no other mod provides it
 
 ### `buckwheat_crepes.step_4` (whisk)
 
@@ -14737,7 +14761,8 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `bulgarian_fresh_sausage_kebapcheta.step_2` (ferment)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 4%
+- bnc_keg: none, can't make the mod's own bulgarian_fresh_sausage_kebapcheta_step_2, and no other mod provides it
 
 ### `bulgarian_fresh_sausage_kebapcheta.step_3` (shape)
 
@@ -15337,11 +15362,13 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `cabbage_kimchi.step_10` (ferment)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 0%
+- bnc_keg: none, can't make the mod's own cabbage_kimchi_step_10, and no other mod provides it
 
 ### `cabbage_kimchi.step_11` (ferment)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 0%
+- bnc_keg: 1 recipe, rounding 0%
 
 ### `cabbage_kimchi.step_2` (dissolve)
 
@@ -15474,7 +15501,8 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `cabbie_claw_scottish_whitefish_with_egg_and_potato.step_1` (cure)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: none, whole items would distort it by 1168%
+- bnc_keg: none, can't make the mod's own cabbie_claw_scottish_whitefish_with_egg_and_potato_step_2, and no other mod provides it
 
 ### `cabbie_claw_scottish_whitefish_with_egg_and_potato.step_3` (simmer)
 
@@ -15570,7 +15598,7 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `cafe_au_lait.step_1` (mix)
 
-- create_mixing: 1 recipe, rounding 1%, estimated
+- create_mixing: 2 recipes, rounding 1%, estimated
 - shapeless_crafting: 1 recipe, rounding 6%, estimated
 
 ### `cafe_au_lait.step_2` (heat)
@@ -15998,7 +16026,8 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `canjeero_somali_pancake.step_5` (ferment)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 7%, estimated
+- bnc_keg: none, can't make the mod's own canjeero_somali_pancake_step_5, and no other mod provides it
 
 ### `canjeero_somali_pancake.step_6` (season)
 
@@ -16101,6 +16130,7 @@ No routes: time-based changes wait for a time mechanic.
 
 - create_mixing: 1 recipe, rounding 0%, estimated
 - create_splashing: none, takes one input, not 4
+- fr_kettle: none, can't make the mod's own cantonese_crispy_fried_chicken_step_7, and no other mod provides it
 
 ### `cantonese_crispy_fried_chicken.step_8` (simmer)
 
@@ -17211,6 +17241,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_mixing: 4 recipes, rounding 12%, estimated
 - create_splashing: none, takes one input, not 3
+- fr_kettle: none, can't make the mod's own champ_irish_mashed_potato_with_scallion_step_3, and no other mod provides it
 
 ### `champ_irish_mashed_potato_with_scallion.step_4` (strain)
 
@@ -17241,6 +17272,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_mixing: 1 recipe, rounding 0%, estimated
 - create_splashing: none, takes one input, not 4
+- fr_kettle: none, can't make the mod's own champagne_vinaigrette_step_2, and no other mod provides it
 
 ### `champagne_vinaigrette.step_3` (whisk)
 
@@ -17306,7 +17338,8 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `chapati.step_2` (age)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 13%
+- bnc_keg: none, can't make the mod's own chapati_step_2, and no other mod provides it
 
 ### `chapati.step_3` (shape)
 
@@ -17348,7 +17381,8 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `chapati_za_maji_tanzanian_pancakes.step_4` (age)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 0%, estimated
+- bnc_keg: none, can't make the mod's own chapati_za_maji_tanzanian_pancakes_step_4, and no other mod provides it
 
 ### `chapati_za_maji_tanzanian_pancakes.step_7` (coat)
 
@@ -17500,7 +17534,7 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `charoset_ashkenazi.step_1` (mix)
 
-- create_mixing: 1 recipe, rounding 11%
+- create_mixing: 2 recipes, rounding 11%
 - shapeless_crafting: none, whole items would distort it by 463%
 
 ### `charoset_ashkenazi.step_2` (season)
@@ -17529,7 +17563,7 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `charoset_maghrebi.step_3` (mix)
 
-- create_mixing: 1 recipe, rounding 1%
+- create_mixing: 2 recipes, rounding 1%
 - shapeless_crafting: 1 recipe, rounding 41% ⚠
 
 ### `cheese_and_crackers.step_2` (cut)
@@ -18850,6 +18884,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_mixing: 1 recipe, rounding 0%
 - create_splashing: 1 recipe, rounding 0%
+- fr_kettle: none, makes 1 things; at most 1 fit
 
 ### `chicken_cacciatore.step_1` (assemble)
 
@@ -19111,7 +19146,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `chicken_marinade.step_1` (mix)
 
-- create_mixing: 1 recipe, rounding 6%, estimated
+- create_mixing: 2 recipes, rounding 6%, estimated
 - shapeless_crafting: none, takes at most 9 inputs, not 13
 
 ### `chicken_marinade.step_3` (soak)
@@ -20234,7 +20269,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `chile_lime_marinade.step_1` (mix)
 
-- create_mixing: 1 recipe, rounding 6%, estimated
+- create_mixing: 2 recipes, rounding 6%, estimated
 - shapeless_crafting: none, whole items would distort it by 745%
 
 ### `chiles_en_nogada_stuffed_chile_peppers_with_almonds.step_1` (chop)
@@ -20286,6 +20321,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_mixing: 1 recipe, rounding 6%, estimated
 - create_splashing: none, whole items would distort it by 1900%
+- fr_kettle: none, can't make the mod's own chili_colorado_step_1, and no other mod provides it
 
 ### `chili_colorado.step_2` (blend)
 
@@ -20439,6 +20475,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_mixing: 1 recipe, rounding 0%, estimated
 - create_splashing: none, takes one input, not 3
+- fr_kettle: none, can't make the mod's own chili_oil_step_4, and no other mod provides it
 
 ### `chili_oil.step_5` (strain)
 
@@ -20534,6 +20571,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_mixing: 1 recipe, rounding 3%, estimated
 - create_splashing: 1 recipe, rounding 17% ⚠, estimated
+- fr_kettle: none, makes 1 things; at most 1 fit
 
 ### `chimichurri.step_1` (mix)
 
@@ -20544,6 +20582,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_mixing: 1 recipe, rounding 0%
 - create_splashing: 1 recipe, rounding 0%
+- fr_kettle: none, can't make the mod's own chimichurri_step_2, and no other mod provides it
 
 ### `chimichurri.step_3` (boil)
 
@@ -20554,6 +20593,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_mixing: 1 recipe, rounding 0%, estimated
 - create_splashing: 1 recipe, rounding 17% ⚠, estimated
+- fr_kettle: none, can't make the mod's own chimichurri_step_4, and no other mod provides it
 
 ### `chimichurri.step_5` (mix)
 
@@ -20735,7 +20775,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `chipotle_chili.step_9` (dissolve)
 
-- create_mixing: 1 recipe, rounding 0%, estimated
+- create_mixing: 2 recipes, rounding 0%, estimated
 - shapeless_crafting: 1 recipe, rounding 17% ⚠, estimated
 
 ### `chipotle_dip.step_1` (blend)
@@ -20796,7 +20836,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `chipotle_lime_grilled_chicken.step_1` (soak)
 
-- create_mixing: 1 recipe, rounding 10%, estimated
+- create_mixing: 2 recipes, rounding 10%, estimated
 - create_splashing: none, takes one input, not 5
 
 ### `chipotle_lime_grilled_chicken.step_2` (season)
@@ -21123,7 +21163,8 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `chocolate_and_banana_bread.step_9` (ferment)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 0%
+- bnc_keg: none, can't make the mod's own chocolate_and_banana_bread_step_9, and no other mod provides it
 
 ### `chocolate_and_nut_covered_strawberries.step_1` (mix)
 
@@ -21712,7 +21753,7 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `chocolate_jalapeno_truffles.step_1` (dissolve)
 
-- create_mixing: 1 recipe, rounding 6%, estimated
+- create_mixing: 2 recipes, rounding 6%, estimated
 - shapeless_crafting: 1 recipe, rounding 6%, estimated
 
 ### `chocolate_jalapeno_truffles.step_2` (heat)
@@ -21945,7 +21986,8 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `chocolate_noodles_with_vanilla_sauce.step_2` (age)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 0%
+- bnc_keg: none, can't make the mod's own chocolate_noodles_with_vanilla_sauce_step_2, and no other mod provides it
 
 ### `chocolate_noodles_with_vanilla_sauce.step_3` (boil)
 
@@ -21971,6 +22013,7 @@ No routes: time-based changes wait for a time mechanic.
 
 - create_mixing: 1 recipe, rounding 0%, estimated
 - create_splashing: none, takes one input, not 4
+- fr_kettle: none, can't make the mod's own chocolate_noodles_with_vanilla_sauce_step_7, and no other mod provides it
 
 ### `chocolate_noodles_with_vanilla_sauce.step_8` (mix)
 
@@ -22204,7 +22247,7 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `chokladboll_swedish_chocolate_balls.step_3` (mix)
 
-- create_mixing: 1 recipe, rounding 4%
+- create_mixing: 2 recipes, rounding 4%
 - shapeless_crafting: 1 recipe, rounding 41% ⚠
 
 ### `chokladboll_swedish_chocolate_balls.step_5` (shape)
@@ -22379,12 +22422,14 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `christmas_cake.step_10` (age)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 0%
+- bnc_keg: 1 recipe, rounding 0%
 
 ### `christmas_cake.step_2` (steep)
 
 - create_mixing: 1 recipe, rounding 12%
 - create_splashing: 1 recipe, rounding 22% ⚠
+- fr_kettle: none, can't make the mod's own christmas_cake_step_2, and no other mod provides it
 
 ### `christmas_cake.step_3` (soak)
 
@@ -22700,7 +22745,8 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `churros_i.step_3` (age)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 1%
+- bnc_keg: none, can't make the mod's own churros_i_step_3, and no other mod provides it
 
 ### `churros_i.step_5` (shape)
 
@@ -22728,7 +22774,8 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `ciabatta.step_3` (ferment)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 12%, estimated
+- bnc_keg: none, can't make the mod's own ciabatta_step_3, and no other mod provides it
 
 ### `ciabatta.step_4` (fold)
 
@@ -22942,7 +22989,8 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `cinnamon_rolls.step_5` (ferment)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 0%
+- bnc_keg: none, can't make the mod's own cinnamon_rolls_step_5, and no other mod provides it
 
 ### `cinnamon_rolls.step_6` (shape)
 
@@ -23013,6 +23061,7 @@ No routes: time-based changes wait for a time mechanic.
 
 - create_mixing: 1 recipe, rounding 0%, estimated
 - create_splashing: none, takes one input, not 4
+- fr_kettle: none, can't make the mod's own citrus_energy_drink_step_1, and no other mod provides it
 
 ### `citrus_energy_drink.step_2` (dissolve)
 
@@ -23766,8 +23815,8 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `coffee_cake.step_5` (bake)
 
-- smelting: 1 recipe, rounding 17% ⚠, estimated
-- smoking: 1 recipe, rounding 17% ⚠, estimated
+- smelting: 2 recipes, rounding 17% ⚠, estimated
+- smoking: 2 recipes, rounding 17% ⚠, estimated
 
 ### `coffee_concentrate.step_1` (assemble)
 
@@ -23783,6 +23832,7 @@ No routes: time-based changes wait for a time mechanic.
 
 - create_mixing: 1 recipe, rounding 0%, estimated
 - create_splashing: 1 recipe, rounding 6%, estimated
+- fr_kettle: none, can't make the mod's own coffee_concentrate_step_3, and no other mod provides it
 
 ### `coffee_concentrate.step_4` (strain)
 
@@ -23811,7 +23861,7 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `coffee_mousse.step_3` (mix)
 
-- create_mixing: 1 recipe, rounding 0%, estimated
+- create_mixing: 2 recipes, rounding 0%, estimated
 - shapeless_crafting: 1 recipe, rounding 6%, estimated
 
 ### `coffee_mousse.step_4` (fold)
@@ -23834,7 +23884,7 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `coffee_rum_glazed_apples.step_3` (evaporate)
 
-- create_heated_mixing: 1 recipe, rounding 0%, estimated
+- create_heated_mixing: 2 recipes, rounding 0%, estimated
 
 ### `coffee_rum_glazed_apples.step_4` (coat)
 
@@ -24094,11 +24144,13 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `coleslaw_i.step_4` (age)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 0%
+- bnc_keg: 1 recipe, rounding 0%
 
 ### `coleslaw_ii.step_1` (cure)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 0%
+- bnc_keg: none, can't make the mod's own coleslaw_ii_step_1, and no other mod provides it
 
 ### `coleslaw_ii.step_2` (rinse)
 
@@ -24808,7 +24860,8 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `corn_pone.step_4` (ferment)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 3%, estimated
+- bnc_keg: none, can't make the mod's own corn_pone_step_4, and no other mod provides it
 
 ### `corn_pone.step_5` (shape)
 
@@ -25107,7 +25160,8 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `cornmeal_pancakes_arepa.step_2` (age)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 5%
+- bnc_keg: none, can't make the mod's own cornmeal_pancakes_arepa_step_2, and no other mod provides it
 
 ### `cornmeal_pancakes_arepa.step_3` (shape)
 
@@ -25824,7 +25878,8 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `cream_of_tartar.ferment_grape_juice` (ferment)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 1%, estimated
+- bnc_keg: none, can't make the mod's own wine, and no other mod provides it
 
 ### `cream_puff.step_1` (mix)
 
@@ -26026,7 +26081,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `creamy_mustard_vinaigrette.step_1` (mix)
 
-- create_mixing: 1 recipe, rounding 13%, estimated
+- create_mixing: 2 recipes, rounding 13%, estimated
 - shapeless_crafting: none, whole items would distort it by 534%
 
 ### `creamy_mustard_vinaigrette.step_2` (mix)
@@ -26332,6 +26387,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_mixing: 1 recipe, rounding 0%
 - create_splashing: 1 recipe, rounding 0%
+- fr_kettle: none, can't make the mod's own crispy_chicken_step_3, and no other mod provides it
 
 ### `crispy_chicken.step_4` (assemble)
 
@@ -26562,11 +26618,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `croissant.step_1` (ferment)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: none, whole items would distort it by 182%
+- bnc_keg: none, can't make the mod's own croissant_step_1, and no other mod provides it
 
 ### `croissant.step_10` (ferment)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 1%
+- bnc_keg: none, can't make the mod's own croissant_step_10, and no other mod provides it
 
 ### `croissant.step_12` (coat)
 
@@ -27208,7 +27266,8 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `curtido_spicy_cabbage_slaw.step_3` (ferment)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 0%
+- bnc_keg: 1 recipe, rounding 0%
 
 ### `custard_creams.step_1` (mix)
 
@@ -27771,6 +27830,7 @@ No routes: time-based changes wait for a time mechanic.
 
 - create_mixing: 3 recipes, rounding 5%, estimated
 - create_splashing: 1 recipe, rounding 5%, estimated
+- fr_kettle: none, can't make the mod's own date_syrup_step_1, and no other mod provides it
 
 ### `date_syrup.step_2` (soak)
 
@@ -27807,7 +27867,8 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `deep_dish_pizza.step_3` (ferment)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 6%
+- bnc_keg: none, can't make the mod's own deep_dish_pizza_step_3, and no other mod provides it
 
 ### `deep_dish_pizza.step_4` (shape)
 
@@ -27966,7 +28027,8 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `deep_fried_lentil_dough_balls_punugu.step_5` (ferment)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 17% ⚠, estimated
+- bnc_keg: none, can't make the mod's own deep_fried_lentil_dough_balls_punugu_step_5, and no other mod provides it
 
 ### `deep_fried_lentil_dough_balls_punugu.step_6` (fry)
 
@@ -28082,8 +28144,8 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `deluxe_burgers.step_5` (grill)
 
-- campfire: 1 recipe, rounding 0%
-- smoking: 1 recipe, rounding 0%
+- campfire: 2 recipes, rounding 0%
+- smoking: 2 recipes, rounding 0%
 
 ### `demi_glace.step_1` (mix)
 
@@ -28154,6 +28216,7 @@ No routes: time-based changes wait for a time mechanic.
 
 - create_mixing: 1 recipe, rounding 13%, estimated
 - create_splashing: none, takes one input, not 2
+- fr_kettle: none, can't make the mod's own dereniowka_polish_dogwood_liqueur_step_1, and no other mod provides it
 
 ### `dereniowka_polish_dogwood_liqueur.step_2` (strain)
 
@@ -28162,7 +28225,8 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `dereniowka_polish_dogwood_liqueur.step_3` (age)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 4%, estimated
+- bnc_keg: 1 recipe, rounding 4%, estimated
 
 ### `desert_rubbed_strip_steaks.step_1` (coat)
 
@@ -28280,7 +28344,8 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `dhokla_steamed_black_gram_bread.step_4` (ferment)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 6%, estimated
+- bnc_keg: none, can't make the mod's own dhokla_steamed_black_gram_bread_step_4, and no other mod provides it
 
 ### `dhokla_steamed_black_gram_bread.step_5` (blend)
 
@@ -28329,6 +28394,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_mixing: 1 recipe, rounding 0%
 - create_splashing: 1 recipe, rounding 0%
+- fr_kettle: none, can't make the mod's own dibi_senegalese_grilled_meat_step_6, and no other mod provides it
 
 ### `dibi_senegalese_grilled_meat.step_8` (assemble)
 
@@ -28536,7 +28602,8 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `dokunu_fermented_corn_dumplings.step_2` (ferment)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 0%
+- bnc_keg: none, can't make the mod's own dokunu_fermented_corn_dumplings_step_2, and no other mod provides it
 
 ### `dokunu_fermented_corn_dumplings.step_3` (separate)
 
@@ -28812,7 +28879,8 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `doro_dabo_ethiopian_chicken_with_spiced_bread.step_4` (ferment)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 2%
+- bnc_keg: none, can't make the mod's own doro_dabo_ethiopian_chicken_with_spiced_bread_step_4, and no other mod provides it
 
 ### `doro_dabo_ethiopian_chicken_with_spiced_bread.step_6` (knead)
 
@@ -28857,6 +28925,7 @@ No routes: time-based changes wait for a time mechanic.
 
 - create_mixing: 1 recipe, rounding 0%
 - create_splashing: 1 recipe, rounding 0%
+- fr_kettle: none, can't make the mod's own doro_fitfit_ethiopian_chicken_salad_step_5, and no other mod provides it
 
 ### `doro_fitfit_ethiopian_chicken_salad.step_6` (season)
 
@@ -28998,7 +29067,8 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `dosa_i.step_5` (ferment)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 0%, estimated
+- bnc_keg: none, can't make the mod's own dosa_i_step_5, and no other mod provides it
 
 ### `dosa_i.step_6` (season)
 
@@ -29021,7 +29091,8 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `dosa_ii.step_3` (ferment)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: none, whole items would distort it by 4971%
+- bnc_keg: none, can't make the mod's own dosa_ii_step_3, and no other mod provides it
 
 ### `dosa_ii.step_4` (mix)
 
@@ -29276,7 +29347,8 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `dry_aged_prime_rib.step_1` (age)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 0%
+- bnc_keg: none, can't make the mod's own beef_age, and no other mod provides it
 
 ### `dry_aged_prime_rib.step_2` (season)
 
@@ -29300,7 +29372,8 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `dry_rub.step_2` (age)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 11%, estimated
+- bnc_keg: 1 recipe, rounding 11%, estimated
 
 ### `dry_rub_barbecue_ribs.step_1` (coat)
 
@@ -29404,11 +29477,13 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `duck_confit.step_3` (cure)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 0%
+- bnc_keg: none, can't make the mod's own duck_confit_step_3, and no other mod provides it
 
 ### `duck_confit.step_4` (cure)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 0%
+- bnc_keg: none, can't make the mod's own duck_confit_step_4, and no other mod provides it
 
 ### `duck_confit.step_6` (separate)
 
@@ -29458,11 +29533,13 @@ No routes: time-based changes wait for a time mechanic.
 
 - create_mixing: 1 recipe, rounding 2%, estimated
 - create_splashing: none, takes one input, not 2
+- fr_kettle: none, can't make the mod's own dud_patti_milk_tea_step_2, and no other mod provides it
 
 ### `dud_patti_milk_tea.step_3` (steep)
 
 - create_mixing: 1 recipe, rounding 2%, estimated
 - create_splashing: 1 recipe, rounding 19% ⚠, estimated
+- fr_kettle: none, can't make the mod's own dud_patti_milk_tea_step_3, and no other mod provides it
 
 ### `dud_patti_milk_tea.step_4` (strain)
 
@@ -29545,7 +29622,8 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `duonos_gira_lithuanian_rye_drink.step_2` (ferment)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: none, whole items would distort it by 181%
+- bnc_keg: none, can't make the mod's own duonos_gira_lithuanian_rye_drink_step_2, and no other mod provides it
 
 ### `duonos_gira_lithuanian_rye_drink.step_3` (assemble)
 
@@ -29554,7 +29632,8 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `duonos_gira_lithuanian_rye_drink.step_4` (age)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 2%, estimated
+- bnc_keg: 1 recipe, rounding 2%, estimated
 
 ### `durian_pancake.step_1` (mix)
 
@@ -29596,7 +29675,8 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `dutch_apple_fritters_oliebollen.step_4` (ferment)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 0%, estimated
+- bnc_keg: none, can't make the mod's own dutch_apple_fritters_oliebollen_step_4, and no other mod provides it
 
 ### `dutch_apple_fritters_oliebollen.step_5` (mix)
 
@@ -29750,11 +29830,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_mixing: 1 recipe, rounding 5%, estimated
 - create_splashing: 1 recipe, rounding 5%, estimated
+- fr_kettle: none, can't make the mod's own east_frisian_tea_step_3, and no other mod provides it
 
 ### `east_frisian_tea.step_4` (steep)
 
 - create_mixing: 1 recipe, rounding 5%, estimated
 - create_splashing: 1 recipe, rounding 5%, estimated
+- fr_kettle: none, can't make the mod's own east_frisian_tea_step_4, and no other mod provides it
 
 ### `east_frisian_tea.step_5` (assemble)
 
@@ -29778,7 +29860,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `eastern_north_carolina_barbecue_sauce.step_2` (mix)
 
-- create_mixing: 1 recipe, rounding 6%, estimated
+- create_mixing: 2 recipes, rounding 6%, estimated
 - shapeless_crafting: none, whole items would distort it by 217%
 
 ### `eastern_north_carolina_barbecue_sauce.step_3` (simmer)
@@ -30391,7 +30473,8 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `egg_noodles_i.step_8` (age)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 0%
+- bnc_keg: none, can't make the mod's own egg_noodles_i_step_8, and no other mod provides it
 
 ### `egg_noodles_i.step_9` (shape)
 
@@ -30867,6 +30950,7 @@ No routes: time-based changes wait for a time mechanic.
 
 - create_mixing: 4 recipes, rounding 1%, estimated
 - create_splashing: none, takes one input, not 7
+- fr_kettle: none, can't make the mod's own eggs_connaught_step_2, and no other mod provides it
 
 ### `eggs_connaught.step_3` (mix)
 
@@ -31193,6 +31277,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_mixing: 1 recipe, rounding 0%, estimated
 - create_splashing: 1 recipe, rounding 17% ⚠, estimated
+- fr_kettle: none, makes 1 things; at most 1 fit
 
 ### `egyptian_rice_with_vermicelli.step_2` (toast)
 
@@ -31390,7 +31475,8 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `egyptian_tomato_salad.step_5` (age)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 0%
+- bnc_keg: 1 recipe, rounding 0%
 
 ### `eierpunsch_german_egg_punch.step_1` (whisk)
 
@@ -31669,7 +31755,8 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `english_style_aged_cheese.step_12` (age)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 2%
+- bnc_keg: 1 recipe, rounding 2%
 
 ### `english_style_aged_cheese.step_2` (mix)
 
@@ -32352,7 +32439,8 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `fankasau_hausa_wheat_puff_puff.step_2` (ferment)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 56% ⚠
+- bnc_keg: none, can't make the mod's own fankasau_hausa_wheat_puff_puff_step_2, and no other mod provides it
 
 ### `fankasau_hausa_wheat_puff_puff.step_3` (mix)
 
@@ -32385,7 +32473,8 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `fanke_hausa_puff_puff.step_3` (ferment)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 7%, estimated
+- bnc_keg: none, can't make the mod's own fanke_hausa_puff_puff_step_3, and no other mod provides it
 
 ### `fanke_hausa_puff_puff.step_4` (fry)
 
@@ -32609,7 +32698,8 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `fermented_soda.step_3` (ferment)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 13%, estimated
+- bnc_keg: none, can't make the mod's own fermented_soda_step_3, and no other mod provides it
 
 ### `fermented_soda.step_4` (strain)
 
@@ -32630,6 +32720,7 @@ No routes: time-based changes wait for a time mechanic.
 
 - create_mixing: 1 recipe, rounding 0%, estimated
 - create_splashing: none, takes one input, not 4
+- fr_kettle: none, can't make the mod's own feuerzangenbowle_german_wine_punch_step_3, and no other mod provides it
 
 ### `feuerzangenbowle_german_wine_punch.step_5` (heat)
 
@@ -33049,6 +33140,7 @@ No routes: time-based changes wait for a time mechanic.
 
 - create_mixing: 1 recipe, rounding 6%, estimated
 - create_splashing: 1 recipe, rounding 15% ⚠, estimated
+- fr_kettle: none, makes 1 things; at most 1 fit
 
 ### `firfir_ethiopian_spicy_scrambled_eggs_with_injera.step_10` (soak)
 
@@ -33522,7 +33614,8 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `flammekueche_bacon_and_onion_flatbread.step_1` (ferment)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: none, whole items would distort it by 182%
+- bnc_keg: none, can't make the mod's own flammekueche_bacon_and_onion_flatbread_step_1, and no other mod provides it
 
 ### `flammekueche_bacon_and_onion_flatbread.step_10` (shape)
 
@@ -33556,7 +33649,8 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `flammekueche_bacon_and_onion_flatbread.step_5` (ferment)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 0%
+- bnc_keg: none, can't make the mod's own flammekueche_bacon_and_onion_flatbread_step_5, and no other mod provides it
 
 ### `flammekueche_bacon_and_onion_flatbread.step_6` (pan_fry)
 
@@ -34099,7 +34193,7 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `fresh_cheese.age` (age)
 
-No routes: time-based changes wait for a time mechanic.
+No routes: it yields one of several outcomes, which no route supports yet.
 
 ### `fresh_cheese.curdle` (coagulate)
 
@@ -34558,7 +34652,7 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `fried_fish.step_3` (mix)
 
-- create_mixing: 1 recipe, rounding 0%, estimated
+- create_mixing: 2 recipes, rounding 0%, estimated
 - shapeless_crafting: 1 recipe, rounding 25% ⚠, estimated
 
 ### `fried_fish.step_4` (dry)
@@ -34883,7 +34977,8 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `fried_wheat_bread_balls_bhatoora.step_2` (ferment)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 14%, estimated
+- bnc_keg: none, can't make the mod's own fried_wheat_bread_balls_bhatoora_step_2, and no other mod provides it
 
 ### `fried_wheat_bread_balls_bhatoora.step_3` (knead)
 
@@ -34892,7 +34987,8 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `fried_wheat_bread_balls_bhatoora.step_4` (ferment)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 12%
+- bnc_keg: none, can't make the mod's own fried_wheat_bread_balls_bhatoora_step_4, and no other mod provides it
 
 ### `fried_wheat_bread_balls_bhatoora.step_5` (heat)
 
@@ -35333,7 +35429,8 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `fry_bread_i.step_5` (age)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 12%
+- bnc_keg: none, can't make the mod's own fry_bread_i_step_5, and no other mod provides it
 
 ### `fry_bread_i.step_6` (shape)
 
@@ -35489,7 +35586,8 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `funkaso_hausa_fritters.step_3` (ferment)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 8%, estimated
+- bnc_keg: none, can't make the mod's own funkaso_hausa_fritters_step_3, and no other mod provides it
 
 ### `funkaso_hausa_fritters.step_4` (knead)
 
@@ -36091,6 +36189,7 @@ No routes: time-based changes wait for a time mechanic.
 
 - create_mixing: 1 recipe, rounding 0%, estimated
 - create_splashing: 1 recipe, rounding 17% ⚠, estimated
+- fr_kettle: none, makes 1 things; at most 1 fit
 
 ### `garlic_and_tarragon_dressing.step_1` (mix)
 
@@ -36457,11 +36556,13 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `garum_fermented.step_1` (cure)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: none, whole items would distort it by 4940%
+- bnc_keg: none, can't make the mod's own garum_fermented_step_1, and no other mod provides it
 
 ### `garum_fermented.step_2` (ferment)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: none, whole items would distort it by 838%
+- bnc_keg: none, can't make the mod's own garum_fermented_step_2, and no other mod provides it
 
 ### `garum_fermented.step_3` (strain)
 
@@ -36877,7 +36978,8 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `germknodel_plum_and_poppy_seed_dumpling.step_4` (ferment)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 0%
+- bnc_keg: none, can't make the mod's own germknodel_plum_and_poppy_seed_dumpling_step_4, and no other mod provides it
 
 ### `germknodel_plum_and_poppy_seed_dumpling.step_5` (shape)
 
@@ -36891,7 +36993,8 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `germknodel_plum_and_poppy_seed_dumpling.step_7` (ferment)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 0%
+- bnc_keg: none, can't make the mod's own germknodel_plum_and_poppy_seed_dumpling_step_7, and no other mod provides it
 
 ### `germknodel_plum_and_poppy_seed_dumpling.step_8` (boil)
 
@@ -37261,7 +37364,8 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `ginger_beer.step_4` (ferment)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 0%, estimated
+- bnc_keg: none, can't make the mod's own ginger_beer_step_4, and no other mod provides it
 
 ### `ginger_beer.step_5` (carbonate)
 
@@ -37386,7 +37490,7 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `ginger_peach_glazed_ham.step_5` (evaporate)
 
-- create_heated_mixing: 1 recipe, rounding 6%, estimated
+- create_heated_mixing: 2 recipes, rounding 6%, estimated
 
 ### `ginger_peach_glazed_ham.step_6` (coat)
 
@@ -37475,7 +37579,8 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `gingerbread.step_9` (age)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 0%
+- bnc_keg: 1 recipe, rounding 0%
 
 ### `gingerbread_cookies_frosted_with_royal_icing.step_10` (shape)
 
@@ -38124,7 +38229,8 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `gozleme_turkish_flatbread.step_5` (ferment)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 8%, estimated
+- bnc_keg: none, can't make the mod's own gozleme_turkish_flatbread_step_5, and no other mod provides it
 
 ### `gozleme_turkish_flatbread.step_6` (knead)
 
@@ -38133,7 +38239,8 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `gozleme_turkish_flatbread.step_7` (ferment)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 14%
+- bnc_keg: none, can't make the mod's own gozleme_turkish_flatbread_step_7, and no other mod provides it
 
 ### `gozleme_turkish_flatbread.step_8` (separate)
 
@@ -38321,11 +38428,13 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `gravlax.step_5` (cure)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 3%
+- bnc_keg: none, can't make the mod's own gravlax_step_5, and no other mod provides it
 
 ### `gravlax.step_6` (cure)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 3%
+- bnc_keg: none, can't make the mod's own gravlax_step_6, and no other mod provides it
 
 ### `gravlax.step_7` (cut)
 
@@ -38402,7 +38511,8 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `greek_moussaka.step_1` (cure)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 0%
+- bnc_keg: none, can't make the mod's own greek_moussaka_step_1, and no other mod provides it
 
 ### `greek_moussaka.step_2` (pan_fry)
 
@@ -38975,7 +39085,8 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `grilled_eggplant_with_garlic_butter.step_2` (cure)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 0%
+- bnc_keg: none, can't make the mod's own grilled_eggplant_with_garlic_butter_step_2, and no other mod provides it
 
 ### `grilled_eggplant_with_garlic_butter.step_3` (rinse)
 
@@ -39628,7 +39739,8 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `gurasa_hausa_flatbread_with_vegetables.step_3` (ferment)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 2%, estimated
+- bnc_keg: none, can't make the mod's own gurasa_hausa_flatbread_with_vegetables_step_3, and no other mod provides it
 
 ### `gurasa_hausa_flatbread_with_vegetables.step_5` (shape)
 
@@ -39771,6 +39883,7 @@ No routes: time-based changes wait for a time mechanic.
 
 - create_mixing: 1 recipe, rounding 0%, estimated
 - create_splashing: 1 recipe, rounding 4%, estimated
+- fr_kettle: none, can't make the mod's own habet_hlawa_algerian_anise_beverage_step_2, and no other mod provides it
 
 ### `habet_hlawa_algerian_anise_beverage.step_3` (strain)
 
@@ -40042,6 +40155,7 @@ No routes: time-based changes wait for a time mechanic.
 
 - create_mixing: 1 recipe, rounding 8%, estimated
 - create_splashing: none, takes one input, not 2
+- fr_kettle: none, can't make the mod's own hallaca_venezuelan_stuffed_corn_dough_step_4, and no other mod provides it
 
 ### `hallaca_venezuelan_stuffed_corn_dough.step_5` (fry)
 
@@ -40511,6 +40625,7 @@ No routes: time-based changes wait for a time mechanic.
 
 - create_mixing: 1 recipe, rounding 0%, estimated
 - create_splashing: none, takes one input, not 4
+- fr_kettle: none, can't make the mod's own hawthorn_tea_step_1, and no other mod provides it
 
 ### `hawthorn_tea.step_2` (strain)
 
@@ -40602,6 +40717,7 @@ No routes: time-based changes wait for a time mechanic.
 
 - create_mixing: 1 recipe, rounding 4%
 - create_splashing: 1 recipe, rounding 4%
+- fr_kettle: none, makes 1 things; at most 1 fit
 
 ### `henry_thiele_s_pancake.step_2` (mix)
 
@@ -40654,7 +40770,8 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `herb_bubble_bread.step_7` (ferment)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 0%
+- bnc_keg: none, can't make the mod's own herb_bubble_bread_step_7, and no other mod provides it
 
 ### `herb_bubble_bread.step_8` (bake)
 
@@ -40705,6 +40822,7 @@ No routes: time-based changes wait for a time mechanic.
 
 - create_mixing: 1 recipe, rounding 0%, estimated
 - create_splashing: none, takes one input, not 3
+- fr_kettle: none, can't make the mod's own herbal_energy_drink_step_1, and no other mod provides it
 
 ### `herbal_energy_drink.step_2` (boil)
 
@@ -40837,7 +40955,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `hickory_bbq_chicken.step_1` (soak)
 
-- create_mixing: 1 recipe, rounding 6%, estimated
+- create_mixing: 2 recipes, rounding 6%, estimated
 - create_splashing: none, takes one input, not 5
 
 ### `hickory_bbq_chicken.step_3` (season)
@@ -40877,7 +40995,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `hickory_bbq_pork_loin.step_1` (soak)
 
-- create_mixing: 1 recipe, rounding 6%
+- create_mixing: 2 recipes, rounding 6%
 - create_splashing: none, takes one input, not 6
 
 ### `hickory_bbq_pork_loin.step_3` (season)
@@ -40897,7 +41015,8 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `hickory_bbq_rub.step_2` (age)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 1%, estimated
+- bnc_keg: 1 recipe, rounding 1%, estimated
 
 ### `hickory_maple_glazed_wings.step_1` (season)
 
@@ -40920,7 +41039,7 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `hickory_smoked_pork_chops.step_1` (mix)
 
-- create_mixing: 1 recipe, rounding 6%, estimated
+- create_mixing: 2 recipes, rounding 6%, estimated
 - shapeless_crafting: none, whole items would distort it by 745%
 
 ### `hickory_smoked_pork_chops.step_2` (soak)
@@ -41120,7 +41239,8 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `holiday_pork_loin.step_2` (cure)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 38% ⚠, estimated
+- bnc_keg: none, can't make the mod's own holiday_pork_loin_step_2, and no other mod provides it
 
 ### `holiday_pork_loin.step_3` (strain)
 
@@ -41161,6 +41281,7 @@ No routes: time-based changes wait for a time mechanic.
 
 - create_mixing: 1 recipe, rounding 0%, estimated
 - create_splashing: 1 recipe, rounding 17% ⚠, estimated
+- fr_kettle: none, can't make the mod's own holiday_soda_step_5, and no other mod provides it
 
 ### `holiday_soda.step_6` (strain)
 
@@ -41344,7 +41465,8 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `homemade_cider_vinegar.step_4` (ferment)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 0%, estimated
+- bnc_keg: none, can't make the mod's own homemade_cider_vinegar_step_4, and no other mod provides it
 
 ### `homemade_cider_vinegar.step_5` (separate)
 
@@ -41353,7 +41475,8 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `homemade_cider_vinegar.step_6` (ferment)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 0%, estimated
+- bnc_keg: none, can't make the mod's own homemade_cider_vinegar_step_6, and no other mod provides it
 
 ### `homemade_cider_vinegar.step_7` (separate)
 
@@ -41396,12 +41519,12 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `homemade_coffee_liqueur.step_1` (dissolve)
 
-- create_mixing: 1 recipe, rounding 1%, estimated
+- create_mixing: 2 recipes, rounding 1%, estimated
 - shapeless_crafting: 1 recipe, rounding 11%, estimated
 
 ### `homemade_coffee_liqueur.step_2` (mix)
 
-- create_mixing: 1 recipe, rounding 1%, estimated
+- create_mixing: 2 recipes, rounding 1%, estimated
 - shapeless_crafting: 1 recipe, rounding 11%, estimated
 
 ### `homemade_coffee_liqueur.step_3` (mix)
@@ -41413,6 +41536,7 @@ No routes: time-based changes wait for a time mechanic.
 
 - create_mixing: 1 recipe, rounding 0%, estimated
 - create_splashing: 1 recipe, rounding 17% ⚠, estimated
+- fr_kettle: none, can't make the mod's own homemade_coffee_liqueur_step_4, and no other mod provides it
 
 ### `homemade_coffee_liqueur.step_5` (strain)
 
@@ -41466,7 +41590,7 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `homemade_corned_beef.step_3` (simmer)
 
-- create_heated_mixing: 1 recipe, rounding 0%
+- create_heated_mixing: 2 recipes, rounding 0%
 - fd_cooking_pot: 1 recipe, rounding 6%
 
 ### `homemade_corned_beef.step_4` (press)
@@ -41581,7 +41705,8 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `homemade_pancake_mix.step_3` (age)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 11%, estimated
+- bnc_keg: none, can't make the mod's own homemade_pancake_mix_step_3, and no other mod provides it
 
 ### `homemade_pancake_mix.step_5` (mix)
 
@@ -41622,7 +41747,7 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `homemade_peanut_butter.step_4` (blend)
 
-- create_mixing: 1 recipe, rounding 10%
+- create_mixing: 2 recipes, rounding 10%
 
 ### `homemade_phyllo_dough.step_1` (knead)
 
@@ -41690,7 +41815,8 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `homemade_red_wine.step_4` (ferment)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 0%
+- bnc_keg: none, can't make the mod's own homemade_red_wine_step_4, and no other mod provides it
 
 ### `homemade_red_wine.step_5` (strain)
 
@@ -41699,7 +41825,8 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `homemade_red_wine.step_6` (ferment)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 0%, estimated
+- bnc_keg: none, can't make the mod's own homemade_red_wine_step_6, and no other mod provides it
 
 ### `homemade_red_wine.step_7` (strain)
 
@@ -41775,11 +41902,13 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `homemade_tempeh.step_10` (ferment)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 15%, estimated
+- bnc_keg: none, can't make the mod's own homemade_tempeh_step_11, and no other mod provides it
 
 ### `homemade_tempeh.step_12` (ferment)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 8%
+- bnc_keg: 1 recipe, rounding 8%
 
 ### `homemade_tempeh.step_2` (separate)
 
@@ -41813,7 +41942,8 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `homemade_tempeh.step_9` (ferment)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 15%, estimated
+- bnc_keg: none, can't make the mod's own homemade_tempeh_step_9, and no other mod provides it
 
 ### `homemade_tomato_paste.step_1` (simmer)
 
@@ -42021,7 +42151,7 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `honey_apple_glazed_pork.step_6` (mix)
 
-- create_mixing: 1 recipe, rounding 15% ⚠, estimated
+- create_mixing: 2 recipes, rounding 15% ⚠, estimated
 - shapeless_crafting: none, whole items would distort it by 217%
 
 ### `honey_apple_glazed_pork.step_7` (coat)
@@ -42064,7 +42194,7 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `honey_bourbon_marinade.step_1` (mix)
 
-- create_mixing: 1 recipe, rounding 6%
+- create_mixing: 2 recipes, rounding 6%
 - shapeless_crafting: 1 recipe, rounding 69% ⚠
 
 ### `honey_garlic_chicken.step_3` (pan_fry)
@@ -42146,7 +42276,7 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `honey_lime_pork_loin.step_8` (mix)
 
-- create_mixing: 1 recipe, rounding 0%, estimated
+- create_mixing: 2 recipes, rounding 0%, estimated
 - shapeless_crafting: 1 recipe, rounding 41% ⚠, estimated
 
 ### `honey_lime_pork_loin.step_9` (toast)
@@ -42195,7 +42325,7 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `honey_mustard_salmon.step_3` (mix)
 
-- create_mixing: 1 recipe, rounding 0%, estimated
+- create_mixing: 2 recipes, rounding 0%, estimated
 - shapeless_crafting: 1 recipe, rounding 17% ⚠, estimated
 
 ### `honey_mustard_salmon.step_4` (coat)
@@ -42215,7 +42345,7 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `honey_peppered_salmon.step_1` (mix)
 
-- create_mixing: 1 recipe, rounding 1%, estimated
+- create_mixing: 2 recipes, rounding 1%, estimated
 - shapeless_crafting: none, whole items would distort it by 2435%
 
 ### `honey_peppered_salmon.step_2` (soak)
@@ -42240,7 +42370,7 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `honey_taffy.step_2` (dissolve)
 
-- create_mixing: 3 recipes, rounding 7%, estimated
+- create_mixing: 4 recipes, rounding 7%, estimated
 - shapeless_crafting: 1 recipe, rounding 7%, estimated
 
 ### `honey_taffy.step_3` (boil)
@@ -42324,7 +42454,8 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `hongshao_rou_red_braised_pork_belly.step_7` (age)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 0%
+- bnc_keg: 1 recipe, rounding 0%
 
 ### `hoppin_john.step_2` (pan_fry)
 
@@ -42384,6 +42515,7 @@ No routes: time-based changes wait for a time mechanic.
 
 - create_mixing: 1 recipe, rounding 0%, estimated
 - create_splashing: 1 recipe, rounding 17% ⚠, estimated
+- fr_kettle: none, can't make the mod's own horchata_step_4, and no other mod provides it
 
 ### `horchata.step_5` (blend)
 
@@ -42556,7 +42688,8 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `hot_cross_bun.step_3` (ferment)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 0%, estimated
+- bnc_keg: none, can't make the mod's own hot_cross_bun_step_3, and no other mod provides it
 
 ### `hot_cross_bun.step_4` (mix)
 
@@ -42570,7 +42703,8 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `hot_cross_bun.step_6` (ferment)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 0%
+- bnc_keg: none, can't make the mod's own hot_cross_bun_step_6, and no other mod provides it
 
 ### `hot_cross_bun.step_7` (knead)
 
@@ -42682,7 +42816,8 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `hot_pepper_sauce.step_4` (age)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 0%, estimated
+- bnc_keg: 1 recipe, rounding 0%, estimated
 
 ### `hot_sauce_homemade.step_1` (mix)
 
@@ -42700,7 +42835,7 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `hot_sauce_homemade.step_4` (blend)
 
-- create_mixing: 1 recipe, rounding 0%, estimated
+- create_mixing: 2 recipes, rounding 0%, estimated
 
 ### `hot_wing_dip.step_1` (mix)
 
@@ -42842,7 +42977,8 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `hummus_with_sprouted_chickpea.step_1` (sprout)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 6%
+- bnc_keg: none, can't make the mod's own chickpea_sprout, and no other mod provides it
 
 ### `hummus_with_sprouted_chickpea.step_2` (blend)
 
@@ -43206,7 +43342,8 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `ibiwungu_rwandan_banana_beer.step_5` (ferment)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: none, whole items would distort it by 323%
+- bnc_keg: none, can't make the mod's own ibiwungu_rwandan_banana_beer_step_5, and no other mod provides it
 
 ### `ibiwungu_rwandan_banana_beer.step_6` (mix)
 
@@ -43220,11 +43357,13 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `ibiwungu_rwandan_banana_beer.step_8` (ferment)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 0%, estimated
+- bnc_keg: none, can't make the mod's own ibiwungu_rwandan_banana_beer_step_8, and no other mod provides it
 
 ### `ibiwungu_rwandan_banana_beer.step_9` (ferment)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 0%, estimated
+- bnc_keg: none, can't make the mod's own ibiwungu_rwandan_banana_beer_step_9, and no other mod provides it
 
 ### `ice_cream_sandwich.step_1` (mix)
 
@@ -43370,7 +43509,8 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `idli_steamed_rice_and_black_gram_bread.step_8` (ferment)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 10%, estimated
+- bnc_keg: none, can't make the mod's own idli_steamed_rice_and_black_gram_bread_step_8, and no other mod provides it
 
 ### `ifisashi_n_ubwoko_rwandan_peanut_spinach_stew_with_mushroom.step_1` (stir_fry)
 
@@ -43832,7 +43972,8 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `indian_hard_tack_baati.step_4` (age)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 6%
+- bnc_keg: none, can't make the mod's own indian_hard_tack_baati_step_4, and no other mod provides it
 
 ### `indian_hard_tack_baati.step_5` (shape)
 
@@ -44163,7 +44304,8 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `injera_ethiopian_teff_flatbread.step_2` (ferment)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 13%, estimated
+- bnc_keg: none, can't make the mod's own injera_ethiopian_teff_flatbread_step_2, and no other mod provides it
 
 ### `injera_ethiopian_teff_flatbread.step_4` (shape)
 
@@ -44371,7 +44513,8 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `irish_soda_bread.step_9` (age)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 0%
+- bnc_keg: 1 recipe, rounding 0%
 
 ### `irish_stew.step_1` (assemble)
 
@@ -44390,7 +44533,8 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `island_ceviche.step_2` (cure)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 9%, estimated
+- bnc_keg: none, whole items would distort it by 105%
 
 ### `island_salsa_salad.step_1` (assemble)
 
@@ -44623,6 +44767,7 @@ No routes: time-based changes wait for a time mechanic.
 
 - create_mixing: 1 recipe, rounding 0%, estimated
 - create_splashing: none, takes one input, not 2
+- fr_kettle: none, can't make the mod's own italian_dressing_ii_step_4, and no other mod provides it
 
 ### `italian_dressing_ii.step_5` (mix)
 
@@ -44715,6 +44860,7 @@ No routes: time-based changes wait for a time mechanic.
 
 - create_mixing: 1 recipe, rounding 0%, estimated
 - create_splashing: 1 recipe, rounding 17% ⚠, estimated
+- fr_kettle: none, makes 1 things; at most 1 fit
 
 ### `italian_poached_salmon.step_1` (mix)
 
@@ -44931,7 +45077,8 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `jahnun_yemenite_layered_pastry.step_4` (age)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 1%
+- bnc_keg: none, can't make the mod's own jahnun_yemenite_layered_pastry_step_4, and no other mod provides it
 
 ### `jahnun_yemenite_layered_pastry.step_5` (shape)
 
@@ -45071,7 +45218,8 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `jalebi_fritters_in_syrup.step_2` (ferment)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 5%, estimated
+- bnc_keg: none, can't make the mod's own jalebi_fritters_in_syrup_step_2, and no other mod provides it
 
 ### `jalebi_fritters_in_syrup.step_3` (mix)
 
@@ -45134,7 +45282,8 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `jam_recipe.step_6` (cure)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 9%
+- bnc_keg: 1 recipe, rounding 9%
 
 ### `jam_roly_poly.step_2` (mix)
 
@@ -45221,7 +45370,7 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `jamaican_chicken_fingers_with_honey_mustard_sauce.step_4` (whisk)
 
-- create_mixing: 1 recipe, rounding 12%, estimated
+- create_mixing: 2 recipes, rounding 12%, estimated
 
 ### `jamaican_chicken_fingers_with_honey_mustard_sauce.step_5` (mix)
 
@@ -45285,7 +45434,8 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `jamaican_jerk_spice_i.step_2` (age)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 4%, estimated
+- bnc_keg: 1 recipe, rounding 4%, estimated
 
 ### `jamaican_jerk_spice_ii.step_1` (mix)
 
@@ -45294,7 +45444,8 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `jamaican_jerk_spice_ii.step_2` (age)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 12%, estimated
+- bnc_keg: 1 recipe, rounding 12%, estimated
 
 ### `jamaican_rice_and_peas.step_1` (soak)
 
@@ -45426,7 +45577,8 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `japanese_pickled_plums_umeboshi.step_10` (cure)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: none, whole items would distort it by 1239%
+- bnc_keg: none, can't make the mod's own japanese_pickled_plums_umeboshi_step_11, and no other mod provides it
 
 ### `japanese_pickled_plums_umeboshi.step_12` (boil)
 
@@ -45475,11 +45627,13 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `japanese_pickled_plums_umeboshi.step_8` (cure)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: none, whole items would distort it by 1239%
+- bnc_keg: none, can't make the mod's own japanese_pickled_plums_umeboshi_step_8, and no other mod provides it
 
 ### `japanese_pickled_plums_umeboshi.step_9` (cure)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: none, whole items would distort it by 1239%
+- bnc_keg: none, can't make the mod's own japanese_pickled_plums_umeboshi_step_9, and no other mod provides it
 
 ### `jerk_lobster.step_1` (cut)
 
@@ -45730,7 +45884,8 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `ka_ak_savory_ring_shaped_biscuit.step_4` (ferment)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 2%
+- bnc_keg: none, can't make the mod's own ka_ak_savory_ring_shaped_biscuit_step_4, and no other mod provides it
 
 ### `ka_ak_savory_ring_shaped_biscuit.step_5` (shape)
 
@@ -45808,6 +45963,7 @@ No routes: time-based changes wait for a time mechanic.
 
 - create_mixing: 1 recipe, rounding 0%
 - create_splashing: 1 recipe, rounding 0%
+- fr_kettle: none, can't make the mod's own kachumbari_step_2, and no other mod provides it
 
 ### `kachumbari.step_3` (season)
 
@@ -45914,7 +46070,8 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `kala_liberian_fritters.step_3` (ferment)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 6%, estimated
+- bnc_keg: none, can't make the mod's own kala_liberian_fritters_step_3, and no other mod provides it
 
 ### `kala_liberian_fritters.step_4` (heat)
 
@@ -46277,6 +46434,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_mixing: 1 recipe, rounding 0%, estimated
 - create_splashing: 1 recipe, rounding 17% ⚠, estimated
+- fr_kettle: none, can't make the mod's own karkanji_chadian_spiced_hibiscus_drink_step_5, and no other mod provides it
 
 ### `karkanji_chadian_spiced_hibiscus_drink.step_6` (strain)
 
@@ -46433,6 +46591,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_mixing: 4 recipes, rounding 3%, estimated
 - create_splashing: none, takes one input, not 3
+- fr_kettle: none, can't make the mod's own kashmiri_pulao_step_7, and no other mod provides it
 
 ### `kashmiri_pulao.step_8` (assemble)
 
@@ -46863,7 +47022,8 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `kesra_algerian_semolina_flatbread.step_4` (age)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 8%
+- bnc_keg: none, can't make the mod's own kesra_algerian_semolina_flatbread_step_4, and no other mod provides it
 
 ### `kesra_algerian_semolina_flatbread.step_5` (cut)
 
@@ -46941,7 +47101,8 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `khachapuri_georgian_cheese_bread.step_4` (ferment)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 0%
+- bnc_keg: none, can't make the mod's own khachapuri_georgian_cheese_bread_step_4, and no other mod provides it
 
 ### `khachapuri_georgian_cheese_bread.step_5` (mix)
 
@@ -47107,7 +47268,8 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `khanom_tian_thai_coconut_rice_dumplings.step_3` (age)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 3%
+- bnc_keg: none, can't make the mod's own khanom_tian_thai_coconut_rice_dumplings_step_3, and no other mod provides it
 
 ### `khanom_tian_thai_coconut_rice_dumplings.step_4` (simmer)
 
@@ -47302,7 +47464,8 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `khubz_muluwah_yemenite_layered_flatbread.step_12` (age)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 7%
+- bnc_keg: none, can't make the mod's own khubz_muluwah_yemenite_layered_flatbread_step_12, and no other mod provides it
 
 ### `khubz_muluwah_yemenite_layered_flatbread.step_13` (shape)
 
@@ -47321,7 +47484,8 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `khubz_muluwah_yemenite_layered_flatbread.step_3` (age)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 14%
+- bnc_keg: none, can't make the mod's own khubz_muluwah_yemenite_layered_flatbread_step_3, and no other mod provides it
 
 ### `khubz_muluwah_yemenite_layered_flatbread.step_4` (knead)
 
@@ -47596,7 +47760,8 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `kisra_sudanese_bread.step_2` (ferment)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 5%, estimated
+- bnc_keg: none, can't make the mod's own kisra_sudanese_bread_step_2, and no other mod provides it
 
 ### `kisra_sudanese_bread.step_4` (shape)
 
@@ -47755,7 +47920,8 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `koeksisters_fried_braided_pastry_in_syrup.step_8` (age)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 0%
+- bnc_keg: none, can't make the mod's own koeksisters_fried_braided_pastry_in_syrup_step_8, and no other mod provides it
 
 ### `koeksisters_fried_braided_pastry_in_syrup.step_9` (shape)
 
@@ -47774,7 +47940,8 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `koesisters_with_coconut.step_3` (ferment)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 0%
+- bnc_keg: none, can't make the mod's own koesisters_with_coconut_step_3, and no other mod provides it
 
 ### `koesisters_with_coconut.step_4` (shape)
 
@@ -47801,7 +47968,8 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `koko_da_kosai_fermented_corn_porridge_and_bean_fritters.step_1` (ferment)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 6%
+- bnc_keg: none, can't make the mod's own koko_da_kosai_fermented_corn_porridge_and_bean_fritters_step_1, and no other mod provides it
 
 ### `koko_da_kosai_fermented_corn_porridge_and_bean_fritters.step_10` (fry)
 
@@ -48027,7 +48195,8 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `kovaim_hungarian_cheese_dumplings.step_2` (age)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 0%
+- bnc_keg: none, can't make the mod's own kovaim_hungarian_cheese_dumplings_step_2, and no other mod provides it
 
 ### `kovaim_hungarian_cheese_dumplings.step_3` (mix)
 
@@ -48121,7 +48290,8 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `kubaneh_yemenite_pull_apart_bread.step_2` (ferment)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 14%, estimated
+- bnc_keg: none, can't make the mod's own kubaneh_yemenite_pull_apart_bread_step_2, and no other mod provides it
 
 ### `kubaneh_yemenite_pull_apart_bread.step_3` (knead)
 
@@ -48130,7 +48300,8 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `kubaneh_yemenite_pull_apart_bread.step_4` (ferment)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 14%
+- bnc_keg: none, can't make the mod's own kubaneh_yemenite_pull_apart_bread_step_4, and no other mod provides it
 
 ### `kubaneh_yemenite_pull_apart_bread.step_5` (knead)
 
@@ -48845,7 +49016,8 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `kyselo_czech_sourdough_mushroom_soup.step_2` (ferment)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: none, whole items would distort it by 275%
+- bnc_keg: none, can't make the mod's own kyselo_czech_sourdough_mushroom_soup_step_2, and no other mod provides it
 
 ### `kyselo_czech_sourdough_mushroom_soup.step_3` (boil)
 
@@ -48942,7 +49114,8 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `lady_arundel_s_manchet.step_6` (ferment)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 0%
+- bnc_keg: none, can't make the mod's own lady_arundel_s_manchet_step_6, and no other mod provides it
 
 ### `lady_arundel_s_manchet.step_7` (bake)
 
@@ -49020,7 +49193,8 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `lahoh_spongy_flatbread_i.step_6` (ferment)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 11%, estimated
+- bnc_keg: none, can't make the mod's own lahoh_spongy_flatbread_i_step_6, and no other mod provides it
 
 ### `lahoh_spongy_flatbread_i.step_8` (pan_fry)
 
@@ -49041,7 +49215,8 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `lahoh_spongy_flatbread_ii.step_3` (ferment)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 3%, estimated
+- bnc_keg: none, can't make the mod's own lahoh_spongy_flatbread_ii_step_3, and no other mod provides it
 
 ### `lahoh_spongy_flatbread_ii.step_5` (pan_fry)
 
@@ -49200,6 +49375,7 @@ No routes: time-based changes wait for a time mechanic.
 
 - create_mixing: 1 recipe, rounding 0%
 - create_splashing: 1 recipe, rounding 0%
+- fr_kettle: none, can't make the mod's own lancashire_corned_beef_hash_step_8, and no other mod provides it
 
 ### `lancashire_corned_beef_hash.step_9` (heat)
 
@@ -49263,7 +49439,8 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `lancashire_parkin.step_9` (age)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 1%
+- bnc_keg: none, can't make the mod's own lancashire_parkin_step_9, and no other mod provides it
 
 ### `lane_cake.step_1` (mix)
 
@@ -49356,7 +49533,8 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `langos_hungarian_fried_flatbread.step_3` (ferment)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 0%, estimated
+- bnc_keg: none, can't make the mod's own langos_hungarian_fried_flatbread_step_3, and no other mod provides it
 
 ### `langos_hungarian_fried_flatbread.step_4` (fold)
 
@@ -49594,11 +49772,13 @@ No routes: time-based changes wait for a time mechanic.
 
 - create_mixing: 1 recipe, rounding 0%, estimated
 - create_splashing: 1 recipe, rounding 17% ⚠, estimated
+- fr_kettle: none, can't make the mod's own latte_di_suocera_lemon_cream_liqueur_step_2, and no other mod provides it
 
 ### `latte_di_suocera_lemon_cream_liqueur.step_3` (steep)
 
 - create_mixing: 1 recipe, rounding 0%, estimated
 - create_splashing: 1 recipe, rounding 17% ⚠, estimated
+- fr_kettle: none, can't make the mod's own latte_di_suocera_lemon_cream_liqueur_step_3, and no other mod provides it
 
 ### `latte_di_suocera_lemon_cream_liqueur.step_4` (strain)
 
@@ -49607,7 +49787,8 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `latte_di_suocera_lemon_cream_liqueur.step_5` (age)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 0%, estimated
+- bnc_keg: 1 recipe, rounding 0%, estimated
 
 ### `layered_pecan_pie.step_2` (mix)
 
@@ -49707,7 +49888,8 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `leben_middle_eastern_sour_milk.step_5` (ferment)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 2%, estimated
+- bnc_keg: none, can't make the mod's own leben_middle_eastern_sour_milk_step_5, and no other mod provides it
 
 ### `leben_middle_eastern_sour_milk.step_6` (mix)
 
@@ -50118,6 +50300,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_mixing: 1 recipe, rounding 0%, estimated
 - create_splashing: none, takes one input, not 2
+- fr_kettle: none, can't make the mod's own lemon_lime_soda_i_step_2, and no other mod provides it
 
 ### `lemon_lime_soda_i.step_3` (strain)
 
@@ -50355,11 +50538,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `lemon_pickle_i.step_7` (ferment)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 0%
+- bnc_keg: 1 recipe, rounding 0%
 
 ### `lemon_pickle_ii.step_2` (cure)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 6%
+- bnc_keg: none, can't make the mod's own lemon_pickle_ii_step_2, and no other mod provides it
 
 ### `lemon_pickle_ii.step_3` (roast)
 
@@ -50383,7 +50568,8 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `lemon_pickle_ii.step_7` (age)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 0%
+- bnc_keg: 1 recipe, rounding 0%
 
 ### `lemon_poppy_seed_muffins_glazed.step_3` (mix)
 
@@ -50596,6 +50782,7 @@ No routes: time-based changes wait for a time mechanic.
 
 - create_mixing: 1 recipe, rounding 0%
 - create_splashing: 1 recipe, rounding 0%
+- fr_kettle: none, can't make the mod's own lemon_rosemary_pork_tenderloin_step_2, and no other mod provides it
 
 ### `lemon_rosemary_pork_tenderloin.step_3` (assemble)
 
@@ -50747,7 +50934,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `lentil_and_sausage_stew.step_6` (season)
 
-- create_mixing: 1 recipe, rounding 15% ⚠, estimated
+- create_mixing: 2 recipes, rounding 15% ⚠, estimated
 - shapeless_crafting: none, whole items would distort it by 534%
 
 ### `lentil_and_sausage_stew.step_7` (mix)
@@ -51356,6 +51543,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_mixing: 1 recipe, rounding 2%, estimated
 - create_splashing: none, takes one input, not 2
+- fr_kettle: none, can't make the mod's own limoncello_step_2, and no other mod provides it
 
 ### `limoncello.step_3` (simmer)
 
@@ -51376,6 +51564,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_mixing: 1 recipe, rounding 0%, estimated
 - create_splashing: 1 recipe, rounding 17% ⚠, estimated
+- fr_kettle: none, can't make the mod's own limoncello_ii_step_3, and no other mod provides it
 
 ### `limoncello_ii.step_4` (dissolve)
 
@@ -51762,6 +51951,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_mixing: 3 recipes, rounding 0%, estimated
 - create_splashing: none, whole items would distort it by 150%
+- fr_kettle: none, can't make the mod's own london_fog_step_1, and no other mod provides it
 
 ### `london_fog.step_2` (heat)
 
@@ -51824,7 +52014,8 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `loukoumas_greek_donuts_with_honey_i.step_4` (ferment)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 0%, estimated
+- bnc_keg: none, can't make the mod's own loukoumas_greek_donuts_with_honey_i_step_4, and no other mod provides it
 
 ### `loukoumas_greek_donuts_with_honey_i.step_6` (fry)
 
@@ -51852,7 +52043,8 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `loukoumas_greek_donuts_with_honey_ii.step_4` (ferment)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 0%, estimated
+- bnc_keg: none, can't make the mod's own loukoumas_greek_donuts_with_honey_ii_step_4, and no other mod provides it
 
 ### `loukoumas_greek_donuts_with_honey_ii.step_5` (fry)
 
@@ -51920,6 +52112,7 @@ No routes: time-based changes wait for a time mechanic.
 
 - create_mixing: 1 recipe, rounding 0%, estimated
 - create_splashing: none, takes one input, not 3
+- fr_kettle: none, can't make the mod's own luciabullar_scandinavian_saffron_buns_step_2, and no other mod provides it
 
 ### `luciabullar_scandinavian_saffron_buns.step_3` (mix)
 
@@ -51938,7 +52131,8 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `luciabullar_scandinavian_saffron_buns.step_6` (ferment)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 0%
+- bnc_keg: none, can't make the mod's own luciabullar_scandinavian_saffron_buns_step_6, and no other mod provides it
 
 ### `luciabullar_scandinavian_saffron_buns.step_7` (shape)
 
@@ -51947,7 +52141,8 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `luciabullar_scandinavian_saffron_buns.step_8` (ferment)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 0%
+- bnc_keg: none, can't make the mod's own luciabullar_scandinavian_saffron_buns_step_8, and no other mod provides it
 
 ### `luciabullar_scandinavian_saffron_buns.step_9` (bake)
 
@@ -52534,7 +52729,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `madras_filter_coffee.step_1` (dissolve)
 
-- create_mixing: 3 recipes, rounding 3%, estimated
+- create_mixing: 4 recipes, rounding 3%, estimated
 - shapeless_crafting: none, whole items would distort it by 154%
 
 ### `madras_filter_coffee.step_2` (boil)
@@ -52695,6 +52890,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_mixing: none, whole items would distort it by 212%
 - create_splashing: none, takes one input, not 2
+- fr_kettle: none, can't make the mod's own magic_brownies_step_1, and no other mod provides it
 
 ### `magic_brownies.step_2` (strain)
 
@@ -52943,11 +53139,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `malawach_flaky_flatbread.step_2` (ferment)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 7%
+- bnc_keg: none, can't make the mod's own malawach_flaky_flatbread_step_2, and no other mod provides it
 
 ### `malawach_flaky_flatbread.step_3` (ferment)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 7%
+- bnc_keg: none, can't make the mod's own malawach_flaky_flatbread_step_3, and no other mod provides it
 
 ### `malawach_flaky_flatbread.step_4` (shape)
 
@@ -52961,7 +53159,8 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `malawach_flaky_flatbread.step_6` (ferment)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 6%
+- bnc_keg: none, can't make the mod's own malawach_flaky_flatbread_step_6, and no other mod provides it
 
 ### `malawach_flaky_flatbread.step_7` (shape)
 
@@ -52970,7 +53169,8 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `malawach_flaky_flatbread.step_8` (ferment)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 6%
+- bnc_keg: none, can't make the mod's own malawach_flaky_flatbread_step_8, and no other mod provides it
 
 ### `malpua_south_asian_sweet_pancake.step_1` (evaporate)
 
@@ -53684,6 +53884,7 @@ No routes: time-based changes wait for a time mechanic.
 
 - create_mixing: 1 recipe, rounding 0%, estimated
 - create_splashing: 1 recipe, rounding 17% ⚠, estimated
+- fr_kettle: none, makes 1 things; at most 1 fit
 
 ### `marinated_mackerel.step_1` (assemble)
 
@@ -53921,11 +54122,13 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `masa_hausa_rice_pancake.step_4` (ferment)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: none, whole items would distort it by 534%
+- bnc_keg: none, can't make the mod's own masa_hausa_rice_pancake_step_4, and no other mod provides it
 
 ### `masa_hausa_rice_pancake.step_5` (ferment)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 14%, estimated
+- bnc_keg: none, can't make the mod's own masa_hausa_rice_pancake_step_5, and no other mod provides it
 
 ### `masa_hausa_rice_pancake.step_6` (season)
 
@@ -53942,7 +54145,8 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `masala_chai_i.step_2` (age)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 0%, estimated
+- bnc_keg: none, can't make the mod's own masala_chai_i_step_2, and no other mod provides it
 
 ### `masala_chai_i.step_3` (boil)
 
@@ -53963,6 +54167,7 @@ No routes: time-based changes wait for a time mechanic.
 
 - create_mixing: 1 recipe, rounding 6%, estimated
 - create_splashing: none, takes one input, not 12
+- fr_kettle: none, can't make the mod's own masala_chai_ii_step_1, and no other mod provides it
 
 ### `masala_chai_ii.step_2` (mix)
 
@@ -54000,7 +54205,8 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `masala_dosa.step_2` (ferment)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 2%, estimated
+- bnc_keg: none, can't make the mod's own masala_dosa_step_2, and no other mod provides it
 
 ### `masala_dosa.step_4` (fry)
 
@@ -54187,7 +54393,8 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `masyaura_nepali_fermented_vegetable_balls.step_3` (ferment)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 13%
+- bnc_keg: none, can't make the mod's own masyaura_nepali_fermented_vegetable_balls_step_3, and no other mod provides it
 
 ### `masyaura_nepali_fermented_vegetable_balls.step_4` (shape)
 
@@ -54196,7 +54403,8 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `masyaura_nepali_fermented_vegetable_balls.step_6` (cure)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 13%
+- bnc_keg: 1 recipe, rounding 13%
 
 ### `matar_paneer.step_11` (fry)
 
@@ -54586,7 +54794,8 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `mbulawu_malawian_fermented_millet_porridge.step_6` (ferment)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 6%, estimated
+- bnc_keg: none, can't make the mod's own mbulawu_malawian_fermented_millet_porridge_step_6, and no other mod provides it
 
 ### `mbulawu_malawian_fermented_millet_porridge.step_7` (heat)
 
@@ -54776,7 +54985,8 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `meat_masala.step_3` (age)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 0%, estimated
+- bnc_keg: 1 recipe, rounding 0%, estimated
 
 ### `meat_ravioli_filling.step_1` (pan_fry)
 
@@ -54829,7 +55039,7 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `meatballs_with_honey_lime_sauce.step_7` (evaporate)
 
-- create_heated_mixing: 1 recipe, rounding 1%, estimated
+- create_heated_mixing: 2 recipes, rounding 1%, estimated
 
 ### `meatballs_with_honey_lime_sauce.step_8` (coat)
 
@@ -56291,7 +56501,8 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `mincemeat.step_11` (age)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 0%
+- bnc_keg: 1 recipe, rounding 0%
 
 ### `mincemeat.step_2` (simmer)
 
@@ -56344,7 +56555,8 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `mincemeat_tart.step_4` (age)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 8%
+- bnc_keg: none, can't make the mod's own mincemeat_tart_step_4, and no other mod provides it
 
 ### `mincemeat_tart.step_5` (shape)
 
@@ -56449,7 +56661,8 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `mini_herb_baguettes.step_4` (ferment)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 13%
+- bnc_keg: none, can't make the mod's own mini_herb_baguettes_step_4, and no other mod provides it
 
 ### `mini_herb_baguettes.step_5` (bake)
 
@@ -56495,6 +56708,7 @@ No routes: time-based changes wait for a time mechanic.
 
 - create_mixing: none, whole items would distort it by 2924%
 - create_splashing: none, takes one input, not 2
+- fr_kettle: none, can't make the mod's own mint_tea_step_3, and no other mod provides it
 
 ### `mint_tea.step_4` (mix)
 
@@ -56599,7 +56813,8 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `mishti_doi_bengali_sweetened_yogurt.step_7` (ferment)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 10%, estimated
+- bnc_keg: 1 recipe, rounding 10%, estimated
 
 ### `miso_soup.step_1` (heat)
 
@@ -56968,7 +57183,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `mocha_delight.step_10` (dissolve)
 
-- create_mixing: 3 recipes, rounding 0%, estimated
+- create_mixing: 4 recipes, rounding 0%, estimated
 - shapeless_crafting: 1 recipe, rounding 6%, estimated
 
 ### `mocha_delight.step_11` (mix)
@@ -57177,7 +57392,8 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `mofletta_maghrebi_pancake.step_5` (ferment)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 1%
+- bnc_keg: none, can't make the mod's own mofletta_maghrebi_pancake_step_5, and no other mod provides it
 
 ### `mofletta_maghrebi_pancake.step_6` (shape)
 
@@ -57486,6 +57702,7 @@ No routes: time-based changes wait for a time mechanic.
 
 - create_mixing: 1 recipe, rounding 0%
 - create_splashing: 1 recipe, rounding 0%
+- fr_kettle: none, makes 1 things; at most 1 fit
 
 ### `moroccan_soup.step_1` (fry)
 
@@ -57614,6 +57831,7 @@ No routes: time-based changes wait for a time mechanic.
 
 - create_mixing: 1 recipe, rounding 0%
 - create_splashing: 1 recipe, rounding 0%
+- fr_kettle: none, can't make the mod's own mpt_mozzarella_pasta_with_tomato_and_basil_step_5, and no other mod provides it
 
 ### `mpt_mozzarella_pasta_with_tomato_and_basil.step_6` (boil)
 
@@ -57652,7 +57870,8 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `msemmen.step_6` (age)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 12%
+- bnc_keg: none, can't make the mod's own msemmen_step_6, and no other mod provides it
 
 ### `msemmen.step_7` (pan_fry)
 
@@ -57850,7 +58069,8 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `mulling_spice_with_anise.step_2` (age)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 0%
+- bnc_keg: 1 recipe, rounding 0%
 
 ### `mung_bean_and_brown_rice_curry.step_2` (pan_fry)
 
@@ -58086,7 +58306,8 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `mushroom_bao_buns.step_4` (ferment)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 8%
+- bnc_keg: none, can't make the mod's own mushroom_bao_buns_step_4, and no other mod provides it
 
 ### `mushroom_bao_buns.step_5` (shape)
 
@@ -58110,7 +58331,8 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `mushroom_bao_buns.step_9` (ferment)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 8%
+- bnc_keg: none, can't make the mod's own mushroom_bao_buns_step_9, and no other mod provides it
 
 ### `mushroom_barley_bean_soup.step_2` (pan_fry)
 
@@ -58187,11 +58409,13 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `mushroom_ketchup.step_1` (cure)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: none, whole items would distort it by 745%
+- bnc_keg: none, can't make the mod's own mushroom_ketchup_step_1, and no other mod provides it
 
 ### `mushroom_ketchup.step_2` (cure)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 4%
+- bnc_keg: none, can't make the mod's own mushroom_ketchup_step_2, and no other mod provides it
 
 ### `mushroom_ketchup.step_3` (simmer)
 
@@ -58655,7 +58879,8 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `naan.step_2` (ferment)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 9%
+- bnc_keg: none, can't make the mod's own naan_step_2, and no other mod provides it
 
 ### `naan.step_3` (shape)
 
@@ -58684,7 +58909,8 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `naan_yeasted.step_2` (ferment)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: none, whole items would distort it by 217%
+- bnc_keg: none, can't make the mod's own naan_yeasted_step_2, and no other mod provides it
 
 ### `naan_yeasted.step_3` (mix)
 
@@ -58698,7 +58924,8 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `naan_yeasted.step_5` (ferment)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 7%
+- bnc_keg: none, can't make the mod's own naan_yeasted_step_5, and no other mod provides it
 
 ### `naan_yeasted.step_6` (shape)
 
@@ -58914,7 +59141,8 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `natto_japanese_fermented_soybeans.step_7` (ferment)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 0%
+- bnc_keg: 1 recipe, rounding 0%
 
 ### `ndizi_na_nyama_tanzanian_green_bananas_with_beef.step_2` (simmer)
 
@@ -59225,7 +59453,8 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `new_york_city_style_pizza.step_4` (ferment)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 11%
+- bnc_keg: none, can't make the mod's own new_york_city_style_pizza_step_4, and no other mod provides it
 
 ### `new_york_city_style_pizza.step_6` (shape)
 
@@ -60126,7 +60355,8 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `nigerian_pito.step_5` (ferment)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: none, whole items would distort it by 1983%
+- bnc_keg: none, can't make the mod's own nigerian_pito_step_5, and no other mod provides it
 
 ### `nigerian_pito.step_6` (boil)
 
@@ -60160,7 +60390,8 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `nigerian_puff_puff.step_4` (ferment)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 12%, estimated
+- bnc_keg: none, can't make the mod's own nigerian_puff_puff_step_4, and no other mod provides it
 
 ### `nigerian_puff_puff.step_7` (fry)
 
@@ -60829,7 +61060,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `north_carolina_style_bbq_chicken.step_2` (mix)
 
-- create_mixing: 1 recipe, rounding 6%, estimated
+- create_mixing: 2 recipes, rounding 6%, estimated
 - shapeless_crafting: 1 recipe, rounding 69% ⚠, estimated
 
 ### `north_carolina_style_bbq_chicken.step_5` (grill)
@@ -60849,7 +61080,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `north_carolina_style_bbq_ribs.step_2` (mix)
 
-- create_mixing: 1 recipe, rounding 6%, estimated
+- create_mixing: 2 recipes, rounding 6%, estimated
 - shapeless_crafting: none, whole items would distort it by 182%
 
 ### `north_carolina_style_bbq_ribs.step_3` (smoke)
@@ -60879,7 +61110,8 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `north_indian_fermented_bread_batooru.step_3` (ferment)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 54% ⚠
+- bnc_keg: none, can't make the mod's own north_indian_fermented_bread_batooru_step_3, and no other mod provides it
 
 ### `north_indian_fermented_bread_batooru.step_4` (pan_fry)
 
@@ -60903,7 +61135,8 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `north_staffordshire_oatcakes.step_4` (ferment)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 12%, estimated
+- bnc_keg: none, can't make the mod's own north_staffordshire_oatcakes_step_4, and no other mod provides it
 
 ### `north_staffordshire_oatcakes.step_5` (pan_fry)
 
@@ -61620,7 +61853,7 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `oatmeal_stout_brownies.step_5` (mix)
 
-- create_mixing: 1 recipe, rounding 5%, estimated
+- create_mixing: 2 recipes, rounding 5%, estimated
 - shapeless_crafting: none, whole items would distort it by 150%
 
 ### `oatmeal_stout_brownies.step_6` (mix)
@@ -62057,7 +62290,8 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `olive_oil_bread.step_4` (ferment)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 4%
+- bnc_keg: none, can't make the mod's own olive_oil_bread_step_4, and no other mod provides it
 
 ### `olive_oil_bread.step_5` (shape)
 
@@ -62066,7 +62300,8 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `olive_oil_bread.step_6` (ferment)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 4%
+- bnc_keg: none, can't make the mod's own olive_oil_bread_step_6, and no other mod provides it
 
 ### `olive_oil_bread.step_8` (bake)
 
@@ -62130,11 +62365,13 @@ No routes: time-based changes wait for a time mechanic.
 
 - create_mixing: 1 recipe, rounding 0%, estimated
 - create_splashing: 1 recipe, rounding 17% ⚠, estimated
+- fr_kettle: none, can't make the mod's own one_cup_chai_step_3, and no other mod provides it
 
 ### `one_cup_chai.step_4` (steep)
 
 - create_mixing: none, whole items would distort it by 204%
 - create_splashing: none, takes one input, not 2
+- fr_kettle: none, can't make the mod's own one_cup_chai_step_4, and no other mod provides it
 
 ### `one_cup_chai.step_5` (simmer)
 
@@ -62470,6 +62707,7 @@ No routes: time-based changes wait for a time mechanic.
 
 - create_mixing: 1 recipe, rounding 0%, estimated
 - create_splashing: none, takes one input, not 2
+- fr_kettle: none, can't make the mod's own orange_soda_ii_step_2, and no other mod provides it
 
 ### `orange_soda_ii.step_3` (strain)
 
@@ -62961,7 +63199,7 @@ No routes: time-based changes wait for a time mechanic.
 ### `pad_thai.step_8` (stir_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 13%, estimated
+- create_heated_mixing: 2 recipes, rounding 13%, estimated
 
 ### `pad_thai_sauce.step_1` (pan_fry)
 
@@ -63212,7 +63450,8 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `pain_au_levain_naturel.step_10` (ferment)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 5%
+- bnc_keg: none, can't make the mod's own pain_au_levain_naturel_step_10, and no other mod provides it
 
 ### `pain_au_levain_naturel.step_11` (separate)
 
@@ -63226,7 +63465,8 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `pain_au_levain_naturel.step_13` (ferment)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 5%
+- bnc_keg: none, can't make the mod's own pain_au_levain_naturel_step_13, and no other mod provides it
 
 ### `pain_au_levain_naturel.step_14` (cut)
 
@@ -63240,11 +63480,13 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `pain_au_levain_naturel.step_2` (ferment)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 11%
+- bnc_keg: none, can't make the mod's own pain_au_levain_naturel_step_2, and no other mod provides it
 
 ### `pain_au_levain_naturel.step_3` (ferment)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 11%, estimated
+- bnc_keg: none, can't make the mod's own pain_au_levain_naturel_step_3, and no other mod provides it
 
 ### `pain_au_levain_naturel.step_4` (mix)
 
@@ -63258,7 +63500,8 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `pain_au_levain_naturel.step_6` (ferment)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 11%
+- bnc_keg: none, can't make the mod's own pain_au_levain_naturel_step_7, and no other mod provides it
 
 ### `pain_au_levain_naturel.step_8` (mix)
 
@@ -63284,6 +63527,7 @@ No routes: time-based changes wait for a time mechanic.
 
 - create_mixing: 1 recipe, rounding 52% ⚠, estimated
 - create_splashing: none, takes one input, not 2
+- fr_kettle: none, can't make the mod's own pakistani_chai_step_3, and no other mod provides it
 
 ### `pakistani_chai.step_4` (mix)
 
@@ -63407,6 +63651,7 @@ No routes: time-based changes wait for a time mechanic.
 
 - create_mixing: 1 recipe, rounding 100% ⚠
 - create_splashing: none, takes one input, not 2
+- fr_kettle: none, can't make the mod's own palm_fruit_with_syrup_step_4, and no other mod provides it
 
 ### `palm_fruit_with_syrup.step_5` (chill)
 
@@ -63414,7 +63659,8 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `pan_de_jamon.step_1` (ferment)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: none, whole items would distort it by 421%
+- bnc_keg: none, can't make the mod's own pan_de_jamon_step_1, and no other mod provides it
 
 ### `pan_de_jamon.step_10` (shape)
 
@@ -63433,7 +63679,8 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `pan_de_jamon.step_13` (ferment)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 0%
+- bnc_keg: none, can't make the mod's own pan_de_jamon_step_13, and no other mod provides it
 
 ### `pan_de_jamon.step_14` (bake)
 
@@ -63462,7 +63709,8 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `pan_de_jamon.step_5` (ferment)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 0%
+- bnc_keg: none, can't make the mod's own pan_de_jamon_step_5, and no other mod provides it
 
 ### `pan_de_jamon.step_6` (shape)
 
@@ -63572,6 +63820,7 @@ No routes: time-based changes wait for a time mechanic.
 
 - create_mixing: 1 recipe, rounding 6%, estimated
 - create_splashing: none, takes one input, not 2
+- fr_kettle: none, can't make the mod's own pan_seared_chicken_breast_step_1, and no other mod provides it
 
 ### `pan_seared_chicken_breast.step_2` (strain)
 
@@ -63940,7 +64189,7 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `papaya_lassi.step_1` (mix)
 
-- create_mixing: 3 recipes, rounding 5%, estimated
+- create_mixing: 4 recipes, rounding 5%, estimated
 - shapeless_crafting: none, whole items would distort it by 1168%
 
 ### `papaya_lassi.step_2` (blend)
@@ -64534,7 +64783,7 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `pasta_romanov.step_3` (mix)
 
-- create_mixing: 1 recipe, rounding 11%, estimated
+- create_mixing: 2 recipes, rounding 11%, estimated
 - shapeless_crafting: none, whole items would distort it by 4940%
 
 ### `pasta_romanov.step_4` (coat)
@@ -65028,7 +65277,8 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `peach_chutney.step_6` (age)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 0%
+- bnc_keg: 1 recipe, rounding 0%
 
 ### `peach_cobbler.step_1` (mix)
 
@@ -65398,6 +65648,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_mixing: 1 recipe, rounding 0%, estimated
 - create_splashing: none, takes one input, not 6
+- fr_kettle: none, can't make the mod's own pear_chutney_step_4, and no other mod provides it
 
 ### `pear_chutney.step_5` (simmer)
 
@@ -66038,7 +66289,8 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `perfect_three_course_dinner.step_4` (ferment)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 0%
+- bnc_keg: none, can't make the mod's own perfect_three_course_dinner_step_4, and no other mod provides it
 
 ### `perfect_three_course_dinner.step_5` (bake)
 
@@ -66300,7 +66552,8 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `piadina_thin_italian_flatbread.step_6` (age)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 4%
+- bnc_keg: none, can't make the mod's own piadina_thin_italian_flatbread_step_6, and no other mod provides it
 
 ### `piadina_thin_italian_flatbread.step_7` (shape)
 
@@ -66392,7 +66645,8 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `pickert_german_potato_dumpling.step_3` (ferment)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 0%
+- bnc_keg: none, can't make the mod's own pickert_german_potato_dumpling_step_3, and no other mod provides it
 
 ### `pickert_german_potato_dumpling.step_5` (fry)
 
@@ -66410,7 +66664,8 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `pickled_green_mango_aavakaaya.step_11` (cure)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 0%
+- bnc_keg: none, can't make the mod's own pickled_green_mango_aavakaaya_step_11, and no other mod provides it
 
 ### `pickled_green_mango_aavakaaya.step_12` (season)
 
@@ -66419,7 +66674,8 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `pickled_green_mango_aavakaaya.step_13` (age)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 0%
+- bnc_keg: 1 recipe, rounding 0%
 
 ### `pickled_green_mango_aavakaaya.step_2` (cut)
 
@@ -66463,12 +66719,14 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `pickled_herring.step_2` (cure)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 10%, estimated
+- bnc_keg: none, can't make the mod's own pickled_herring_step_2, and no other mod provides it
 
 ### `pickled_herring.step_3` (steep)
 
 - create_mixing: 1 recipe, rounding 3%, estimated
 - create_splashing: none, takes one input, not 8
+- fr_kettle: none, can't make the mod's own pickled_herring_step_3, and no other mod provides it
 
 ### `pickled_herring.step_4` (assemble)
 
@@ -66477,7 +66735,8 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `pickled_herring.step_5` (cure)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 0%
+- bnc_keg: 1 recipe, rounding 0%
 
 ### `pickled_oysters.step_1` (rinse)
 
@@ -66523,6 +66782,7 @@ No routes: time-based changes wait for a time mechanic.
 
 - create_mixing: 1 recipe, rounding 0%
 - create_splashing: 1 recipe, rounding 0%
+- fr_kettle: none, makes 1 things; at most 1 fit
 
 ### `pie_floater.step_1` (bake)
 
@@ -66643,7 +66903,8 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `pig_s_trotters_and_ginger_vinegar_stew.step_10` (age)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 0%
+- bnc_keg: 1 recipe, rounding 0%
 
 ### `pig_s_trotters_and_ginger_vinegar_stew.step_2` (cut)
 
@@ -66732,7 +66993,8 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `pikelet_australian_mini_pancakes.step_5` (ferment)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 4%, estimated
+- bnc_keg: none, can't make the mod's own pikelet_australian_mini_pancakes_step_5, and no other mod provides it
 
 ### `pikelet_australian_mini_pancakes.step_6` (dissolve)
 
@@ -67017,7 +67279,8 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `pita.step_2` (ferment)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 0%
+- bnc_keg: none, can't make the mod's own pita_step_2, and no other mod provides it
 
 ### `pita.step_3` (shape)
 
@@ -67031,7 +67294,8 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `pita.step_5` (ferment)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 0%
+- bnc_keg: none, can't make the mod's own pita_step_5, and no other mod provides it
 
 ### `pita.step_6` (bake)
 
@@ -67045,7 +67309,8 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `pizza_dough.step_2` (ferment)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 9%, estimated
+- bnc_keg: none, can't make the mod's own pizza_dough_step_2, and no other mod provides it
 
 ### `pizza_dough.step_3` (shape)
 
@@ -67280,7 +67545,7 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `plank_grilled_salmon.step_2` (soak)
 
-- create_mixing: 1 recipe, rounding 6%, estimated
+- create_mixing: 2 recipes, rounding 6%, estimated
 - create_splashing: none, takes one input, not 5
 
 ### `plank_grilled_salmon.step_3` (assemble)
@@ -67318,7 +67583,8 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `ployes.step_4` (ferment)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 14%, estimated
+- bnc_keg: none, can't make the mod's own ployes_step_4, and no other mod provides it
 
 ### `ployes.step_6` (shape)
 
@@ -67442,7 +67708,8 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `polish_doughnuts_paczki.step_3` (ferment)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 0%
+- bnc_keg: none, can't make the mod's own polish_doughnuts_paczki_step_3, and no other mod provides it
 
 ### `polish_doughnuts_paczki.step_4` (shape)
 
@@ -67451,7 +67718,8 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `polish_doughnuts_paczki.step_5` (ferment)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 0%
+- bnc_keg: none, can't make the mod's own polish_doughnuts_paczki_step_5, and no other mod provides it
 
 ### `polish_doughnuts_paczki.step_6` (fry)
 
@@ -68701,7 +68969,8 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `potato_langos.step_6` (ferment)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 0%
+- bnc_keg: none, can't make the mod's own potato_langos_step_6, and no other mod provides it
 
 ### `potato_langos.step_7` (shape)
 
@@ -68789,7 +69058,7 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `potato_pancakes.step_3` (pan_fry)
 
-- create_heated_mixing: 1 recipe, rounding 1%, estimated
+- create_heated_mixing: 2 recipes, rounding 1%, estimated
 
 ### `potato_pie.step_2` (assemble)
 
@@ -68891,7 +69160,8 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `potato_samosas_aloo_pies.step_2` (age)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 9%
+- bnc_keg: none, can't make the mod's own potato_samosas_aloo_pies_step_2, and no other mod provides it
 
 ### `potato_samosas_aloo_pies.step_3` (boil)
 
@@ -69286,7 +69556,8 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `pralin.step_7` (cure)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 1%, estimated
+- bnc_keg: 1 recipe, rounding 1%, estimated
 
 ### `prata.step_1` (mix)
 
@@ -69315,7 +69586,8 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `prata.step_4` (age)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 2%
+- bnc_keg: none, can't make the mod's own prata_step_4, and no other mod provides it
 
 ### `prata.step_5` (shape)
 
@@ -69524,15 +69796,18 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `preserved_lemon.step_1` (cure)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: none, whole items would distort it by 4940%
+- bnc_keg: none, can't make the mod's own preserved_lemon_step_1, and no other mod provides it
 
 ### `preserved_lemon.step_2` (cure)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: none, whole items would distort it by 1239%
+- bnc_keg: none, can't make the mod's own preserved_lemon_step_2, and no other mod provides it
 
 ### `preserved_lemon.step_3` (cure)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: none, whole items would distort it by 1239%
+- bnc_keg: none, whole items would distort it by 1239%
 
 ### `pretzels_soft.step_1` (dissolve)
 
@@ -69827,7 +70102,8 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `pulse_chutney.step_1` (sprout)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 12%
+- bnc_keg: none, can't make the mod's own mung_bean_sprout, and no other mod provides it
 
 ### `pulse_chutney.step_2` (chop)
 
@@ -70286,7 +70562,8 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `puri_indian_fried_flatbread.step_5` (age)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 8%
+- bnc_keg: none, can't make the mod's own puri_indian_fried_flatbread_step_5, and no other mod provides it
 
 ### `puri_indian_fried_flatbread.step_6` (heat)
 
@@ -70689,7 +70966,8 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `quick_finnish_lemon_mead_sima.step_12` (ferment)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 0%, estimated
+- bnc_keg: 1 recipe, rounding 0%, estimated
 
 ### `quick_finnish_lemon_mead_sima.step_2` (press)
 
@@ -70708,11 +70986,13 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `quick_finnish_lemon_mead_sima.step_7` (ferment)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 0%, estimated
+- bnc_keg: none, can't make the mod's own quick_finnish_lemon_mead_sima_step_7, and no other mod provides it
 
 ### `quick_finnish_lemon_mead_sima.step_8` (ferment)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 0%, estimated
+- bnc_keg: none, can't make the mod's own quick_finnish_lemon_mead_sima_step_8, and no other mod provides it
 
 ### `quick_guacamole_i.step_1` (grind)
 
@@ -70790,11 +71070,13 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `quick_sourdough_starter.step_2` (ferment)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 0%, estimated
+- bnc_keg: none, can't make the mod's own quick_sourdough_starter_step_2, and no other mod provides it
 
 ### `quick_sourdough_starter.step_3` (ferment)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 11%, estimated
+- bnc_keg: 1 recipe, rounding 11%, estimated
 
 ### `quick_sparkling_lemonade.step_1` (assemble)
 
@@ -70920,7 +71202,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `rabbit_with_abbey_beer_konijn_met_paterbier.step_4` (mix)
 
-- create_mixing: 1 recipe, rounding 0%, estimated
+- create_mixing: 2 recipes, rounding 0%, estimated
 - shapeless_crafting: 1 recipe, rounding 11%, estimated
 
 ### `rabbit_with_abbey_beer_konijn_met_paterbier.step_5` (assemble)
@@ -71062,7 +71344,8 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `ragi_dosa_south_indian_millet_and_rice_pancake.step_3` (ferment)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 5%, estimated
+- bnc_keg: none, can't make the mod's own ragi_dosa_south_indian_millet_and_rice_pancake_step_3, and no other mod provides it
 
 ### `ragi_dosa_south_indian_millet_and_rice_pancake.step_4` (season)
 
@@ -71524,6 +71807,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_mixing: 1 recipe, rounding 5%
 - create_splashing: none, takes one input, not 2
+- fr_kettle: none, can't make the mod's own raspberry_vinegar_step_1, and no other mod provides it
 
 ### `raspberry_vinegar.step_2` (mix)
 
@@ -71917,7 +72201,8 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `reindling_austrian_yeasted_easter_cake.step_2` (ferment)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 1%
+- bnc_keg: none, can't make the mod's own reindling_austrian_yeasted_easter_cake_step_2, and no other mod provides it
 
 ### `reindling_austrian_yeasted_easter_cake.step_3` (knead)
 
@@ -72371,7 +72656,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `rice_bubble_cake.step_1` (heat)
 
-- create_heated_mixing: 1 recipe, rounding 1%, estimated
+- create_heated_mixing: 2 recipes, rounding 1%, estimated
 - fd_cooking_pot: none, whole items would distort it by 534%
 
 ### `rice_bubble_cake.step_2` (boil)
@@ -72709,6 +72994,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_mixing: 1 recipe, rounding 9%
 - create_splashing: 1 recipe, rounding 9%
+- fr_kettle: none, makes 1 things; at most 1 fit
 
 ### `rice_with_coconut_arroz_con_coco.step_1` (simmer)
 
@@ -73507,7 +73793,8 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `roast_pork_loin_with_cranberry_stuffing.step_1` (cure)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: none, takes at most 6 inputs, not 7
+- bnc_keg: none, can't make the mod's own roast_pork_loin_with_cranberry_stuffing_step_1, and no other mod provides it
 
 ### `roast_pork_loin_with_cranberry_stuffing.step_2` (bake)
 
@@ -73521,7 +73808,8 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `roast_pork_loin_with_gravy.step_1` (cure)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: none, takes at most 6 inputs, not 7
+- bnc_keg: none, can't make the mod's own roast_pork_loin_with_gravy_step_1, and no other mod provides it
 
 ### `roast_pork_loin_with_gravy.step_2` (coat)
 
@@ -74201,6 +74489,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_mixing: none, whole items would distort it by 2924%
 - create_splashing: none, takes one input, not 2
+- fr_kettle: none, can't make the mod's own rooibos_tea_step_2, and no other mod provides it
 
 ### `rooibos_tea.step_3` (mix)
 
@@ -74287,7 +74576,8 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `rosemary_bread.step_1` (ferment)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: none, whole items would distort it by 323%
+- bnc_keg: none, can't make the mod's own rosemary_bread_step_1, and no other mod provides it
 
 ### `rosemary_bread.step_2` (knead)
 
@@ -74301,7 +74591,8 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `rosemary_bread.step_4` (ferment)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 4%
+- bnc_keg: none, can't make the mod's own rosemary_bread_step_4, and no other mod provides it
 
 ### `rosemary_bread.step_5` (separate)
 
@@ -74367,6 +74658,7 @@ No routes: time-based changes wait for a time mechanic.
 
 - create_mixing: 1 recipe, rounding 6%, estimated
 - create_splashing: none, takes one input, not 4
+- fr_kettle: none, can't make the mod's own rosemary_garlic_oil_step_1, and no other mod provides it
 
 ### `rosemary_garlic_oil.step_2` (strain)
 
@@ -74641,7 +74933,8 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `roti_jala_malaysian_lacy_pancakes.step_2` (age)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 0%, estimated
+- bnc_keg: none, can't make the mod's own roti_jala_malaysian_lacy_pancakes_step_2, and no other mod provides it
 
 ### `roti_jala_malaysian_lacy_pancakes.step_3` (shape)
 
@@ -74870,7 +75163,8 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `rustic_beer_bread.step_4` (ferment)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 3%
+- bnc_keg: none, can't make the mod's own rustic_beer_bread_step_4, and no other mod provides it
 
 ### `rustic_beer_bread.step_5` (bake)
 
@@ -74904,7 +75198,8 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `rye_bread.step_10` (age)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 1%
+- bnc_keg: 1 recipe, rounding 1%
 
 ### `rye_bread.step_2` (mix)
 
@@ -74918,7 +75213,8 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `rye_bread.step_4` (ferment)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 4%, estimated
+- bnc_keg: none, can't make the mod's own rye_bread_step_4, and no other mod provides it
 
 ### `rye_bread.step_5` (mix)
 
@@ -75219,6 +75515,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_mixing: 1 recipe, rounding 6%, estimated
 - create_splashing: none, takes one input, not 2
+- fr_kettle: none, can't make the mod's own saffron_rice_step_2, and no other mod provides it
 
 ### `saffron_rice.step_3` (heat)
 
@@ -75394,7 +75691,8 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `saj_bread_ii.step_2` (ferment)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 5%
+- bnc_keg: none, can't make the mod's own saj_bread_ii_step_2, and no other mod provides it
 
 ### `saj_bread_ii.step_3` (shape)
 
@@ -75413,7 +75711,8 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `saj_bread_iii.step_2` (ferment)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 2%
+- bnc_keg: none, can't make the mod's own saj_bread_iii_step_2, and no other mod provides it
 
 ### `saj_bread_iii.step_3` (shape)
 
@@ -75601,7 +75900,8 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `salmon_seasoning.step_2` (age)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 10%, estimated
+- bnc_keg: 1 recipe, rounding 10%, estimated
 
 ### `salmon_spaghetti.step_1` (pan_fry)
 
@@ -75781,11 +76081,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `salsa_fermented.step_8` (ferment)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 0%
+- bnc_keg: none, can't make the mod's own salsa_fermented_step_8, and no other mod provides it
 
 ### `salsa_fermented.step_9` (ferment)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 0%
+- bnc_keg: 1 recipe, rounding 0%
 
 ### `salsa_fresca.step_1` (chop)
 
@@ -75931,7 +76233,8 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `salted_mustard_greens_and_shredded_meat_noodle_soup.step_3` (cure)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: none, whole items would distort it by 1239%
+- bnc_keg: none, can't make the mod's own salted_mustard_greens_and_shredded_meat_noodle_soup_step_3, and no other mod provides it
 
 ### `salted_mustard_greens_and_shredded_meat_noodle_soup.step_4` (season)
 
@@ -76209,11 +76512,13 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `san_francisco_sourdough_bread.step_1` (ferment)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 1%
+- bnc_keg: none, can't make the mod's own grape_ferment, and no other mod provides it
 
 ### `san_francisco_sourdough_bread.step_10` (ferment)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 9%
+- bnc_keg: none, can't make the mod's own san_francisco_sourdough_bread_step_10, and no other mod provides it
 
 ### `san_francisco_sourdough_bread.step_11` (shape)
 
@@ -76222,7 +76527,8 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `san_francisco_sourdough_bread.step_12` (ferment)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 9%
+- bnc_keg: none, can't make the mod's own san_francisco_sourdough_bread_step_12, and no other mod provides it
 
 ### `san_francisco_sourdough_bread.step_13` (coat)
 
@@ -76251,15 +76557,18 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `san_francisco_sourdough_bread.step_4` (ferment)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 17% ⚠, estimated
+- bnc_keg: none, can't make the mod's own san_francisco_sourdough_bread_step_4, and no other mod provides it
 
 ### `san_francisco_sourdough_bread.step_5` (ferment)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 6%, estimated
+- bnc_keg: none, can't make the mod's own san_francisco_sourdough_bread_step_5, and no other mod provides it
 
 ### `san_francisco_sourdough_bread.step_6` (ferment)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 6%, estimated
+- bnc_keg: none, can't make the mod's own san_francisco_sourdough_bread_step_6, and no other mod provides it
 
 ### `san_francisco_sourdough_bread.step_7` (mix)
 
@@ -76283,7 +76592,8 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `san_francisco_style_scallop_ceviche.step_2` (cure)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 13%, estimated
+- bnc_keg: none, can't make the mod's own san_francisco_style_scallop_ceviche_step_2, and no other mod provides it
 
 ### `san_francisco_style_scallop_ceviche.step_3` (blend)
 
@@ -76628,7 +76938,8 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `sauerkraut_i.step_10` (age)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 6%
+- bnc_keg: 1 recipe, rounding 6%
 
 ### `sauerkraut_i.step_3` (chop)
 
@@ -76657,11 +76968,13 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `sauerkraut_i.step_8` (ferment)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 13%
+- bnc_keg: none, can't make the mod's own sauerkraut_i_step_8, and no other mod provides it
 
 ### `sauerkraut_i.step_9` (ferment)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 6%
+- bnc_keg: none, can't make the mod's own sauerkraut_i_step_9, and no other mod provides it
 
 ### `sauerkraut_ii.step_1` (separate)
 
@@ -76695,11 +77008,13 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `sauerkraut_ii.step_7` (ferment)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 3%
+- bnc_keg: none, can't make the mod's own sauerkraut_ii_step_7, and no other mod provides it
 
 ### `sauerkraut_ii.step_8` (ferment)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 3%
+- bnc_keg: 1 recipe, rounding 3%
 
 ### `sauerkraut_pierogi_filling.step_1` (boil)
 
@@ -77414,7 +77729,8 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `seafood_seasoning.step_2` (age)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 0%, estimated
+- bnc_keg: 1 recipe, rounding 0%, estimated
 
 ### `seared_chicken_breast_with_brandy_cream_sauce.step_1` (season)
 
@@ -77754,7 +78070,8 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `serbian_flatbread_lepinja.step_1` (ferment)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 6%, estimated
+- bnc_keg: none, can't make the mod's own serbian_flatbread_lepinja_step_1, and no other mod provides it
 
 ### `serbian_flatbread_lepinja.step_2` (mix)
 
@@ -77768,7 +78085,8 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `serbian_flatbread_lepinja.step_4` (ferment)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 6%
+- bnc_keg: none, can't make the mod's own serbian_flatbread_lepinja_step_4, and no other mod provides it
 
 ### `serbian_flatbread_lepinja.step_5` (knead)
 
@@ -78265,7 +78583,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `shashlik_russian_skewered_meat.step_1` (soak)
 
-- create_mixing: 1 recipe, rounding 13%, estimated
+- create_mixing: 2 recipes, rounding 13%, estimated
 - create_splashing: none, takes one input, not 5
 
 ### `shashlik_russian_skewered_meat.step_2` (assemble)
@@ -78757,7 +79075,8 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `shrimp_and_sea_bass_ceviche.step_3` (cure)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: none, whole items would distort it by 300%
+- bnc_keg: none, can't make the mod's own shrimp_and_sea_bass_ceviche_step_3, and no other mod provides it
 
 ### `shrimp_and_sea_bass_ceviche.step_4` (season)
 
@@ -79021,7 +79340,8 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `simple_flatbread.step_4` (age)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: none, whole items would distort it by 3025%
+- bnc_keg: none, can't make the mod's own simple_flatbread_step_4, and no other mod provides it
 
 ### `simple_flatbread.step_5` (shape)
 
@@ -79171,7 +79491,8 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `sinasir_nigerian_rice_pancake.step_3` (ferment)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 6%, estimated
+- bnc_keg: none, can't make the mod's own sinasir_nigerian_rice_pancake_step_3, and no other mod provides it
 
 ### `sinasir_nigerian_rice_pancake.step_4` (mix)
 
@@ -79599,7 +79920,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `slow_cooker_baby_back_ribs.step_2` (mix)
 
-- create_mixing: 1 recipe, rounding 6%
+- create_mixing: 2 recipes, rounding 6%
 - shapeless_crafting: none, whole items would distort it by 4971%
 
 ### `slow_cooker_baby_back_ribs.step_3` (simmer)
@@ -80233,7 +80554,8 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `sockerdricka_swedish_ginger_drink.step_3` (ferment)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 14%, estimated
+- bnc_keg: none, can't make the mod's own sockerdricka_swedish_ginger_drink_step_3, and no other mod provides it
 
 ### `sockerdricka_swedish_ginger_drink.step_4` (assemble)
 
@@ -80242,7 +80564,8 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `sockerdricka_swedish_ginger_drink.step_5` (age)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 14%, estimated
+- bnc_keg: 1 recipe, rounding 14%, estimated
 
 ### `soda_from_extract.step_1` (boil)
 
@@ -80341,7 +80664,8 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `sopaipillas_latin_american_fried_dough.step_2` (age)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 12%
+- bnc_keg: none, can't make the mod's own sopaipillas_latin_american_fried_dough_step_2, and no other mod provides it
 
 ### `sopaipillas_latin_american_fried_dough.step_3` (shape)
 
@@ -80611,11 +80935,13 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `sour_mashed_sweet_potato.step_7` (ferment)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 0%
+- bnc_keg: none, can't make the mod's own sour_mashed_sweet_potato_step_7, and no other mod provides it
 
 ### `sour_mashed_sweet_potato.step_8` (ferment)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 0%
+- bnc_keg: 1 recipe, rounding 0%
 
 ### `sour_mix_vegan.step_1` (mix)
 
@@ -80639,7 +80965,8 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `sourdough_starter_recipe.step_2` (ferment)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 4%, estimated
+- bnc_keg: none, can't make the mod's own sourdough_starter_recipe_step_2, and no other mod provides it
 
 ### `sourdough_starter_recipe.step_3` (mix)
 
@@ -80648,11 +80975,13 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `sourdough_starter_recipe.step_4` (ferment)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 4%, estimated
+- bnc_keg: none, can't make the mod's own sourdough_starter_recipe_step_4, and no other mod provides it
 
 ### `sourdough_starter_recipe.step_5` (ferment)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 4%, estimated
+- bnc_keg: 1 recipe, rounding 4%, estimated
 
 ### `south_african_curry_and_rice.step_1` (pan_fry)
 
@@ -81047,7 +81376,8 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `soy_protein_bread.step_5` (ferment)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 0%
+- bnc_keg: none, can't make the mod's own soy_protein_bread_step_5, and no other mod provides it
 
 ### `soy_protein_bread.step_6` (shape)
 
@@ -81056,7 +81386,8 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `soy_protein_bread.step_7` (ferment)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 0%
+- bnc_keg: none, can't make the mod's own soy_protein_bread_step_7, and no other mod provides it
 
 ### `soy_protein_bread.step_8` (bake)
 
@@ -81755,7 +82086,8 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `spelt_bread.step_4` (ferment)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 8%
+- bnc_keg: none, can't make the mod's own spelt_bread_step_4, and no other mod provides it
 
 ### `spelt_bread.step_5` (bake)
 
@@ -81827,7 +82159,8 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `spice_rub.step_2` (age)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 14%, estimated
+- bnc_keg: 1 recipe, rounding 14%, estimated
 
 ### `spice_rub_for_chicken.step_1` (mix)
 
@@ -81954,7 +82287,8 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `spiced_oysters.step_5` (cure)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 0%
+- bnc_keg: 1 recipe, rounding 0%
 
 ### `spiced_pumpkin_soup.step_1` (pan_fry)
 
@@ -82043,7 +82377,7 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `spicy_chicken_cutlets.step_10` (dissolve)
 
-- create_mixing: 1 recipe, rounding 0%, estimated
+- create_mixing: 2 recipes, rounding 0%, estimated
 - shapeless_crafting: 1 recipe, rounding 15% ⚠, estimated
 
 ### `spicy_chicken_cutlets.step_11` (dissolve)
@@ -82322,6 +82656,7 @@ No routes: time-based changes wait for a time mechanic.
 
 - create_mixing: 1 recipe, rounding 0%, estimated
 - create_splashing: 1 recipe, rounding 17% ⚠, estimated
+- fr_kettle: none, can't make the mod's own spicy_garlic_oil_step_2, and no other mod provides it
 
 ### `spicy_garlic_oil.step_3` (strain)
 
@@ -82375,6 +82710,7 @@ No routes: time-based changes wait for a time mechanic.
 
 - create_mixing: 1 recipe, rounding 13%, estimated
 - create_splashing: none, takes one input, not 2
+- fr_kettle: none, can't make the mod's own spicy_miso_udon_step_1, and no other mod provides it
 
 ### `spicy_miso_udon.step_10` (coagulate)
 
@@ -82417,7 +82753,7 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `spicy_miso_udon.step_8` (season)
 
-- create_mixing: 1 recipe, rounding 1%, estimated
+- create_mixing: 2 recipes, rounding 1%, estimated
 - shapeless_crafting: none, whole items would distort it by 238%
 
 ### `spicy_miso_udon.step_9` (simmer)
@@ -83569,7 +83905,8 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `steamed_buns_with_bbq_pork.step_11` (ferment)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 11%
+- bnc_keg: none, can't make the mod's own steamed_buns_with_bbq_pork_step_11, and no other mod provides it
 
 ### `steamed_buns_with_bbq_pork.step_12` (steam)
 
@@ -83582,7 +83919,8 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `steamed_buns_with_bbq_pork.step_3` (ferment)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 41% ⚠, estimated
+- bnc_keg: none, can't make the mod's own steamed_buns_with_bbq_pork_step_3, and no other mod provides it
 
 ### `steamed_buns_with_bbq_pork.step_4` (mix)
 
@@ -83596,7 +83934,8 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `steamed_buns_with_bbq_pork.step_6` (ferment)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 11%
+- bnc_keg: none, can't make the mod's own steamed_buns_with_bbq_pork_step_6, and no other mod provides it
 
 ### `steamed_buns_with_bbq_pork.step_7` (separate)
 
@@ -83713,7 +84052,7 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `steamed_tuna_bao_buns.step_1` (mix)
 
-- create_mixing: 1 recipe, rounding 0%, estimated
+- create_mixing: 2 recipes, rounding 0%, estimated
 - shapeless_crafting: 1 recipe, rounding 6%, estimated
 
 ### `steamed_tuna_bao_buns.step_10` (season)
@@ -83728,7 +84067,8 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `steamed_tuna_bao_buns.step_12` (ferment)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 0%
+- bnc_keg: none, can't make the mod's own steamed_tuna_bao_buns_step_12, and no other mod provides it
 
 ### `steamed_tuna_bao_buns.step_13` (shape)
 
@@ -83767,11 +84107,13 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `steamed_tuna_bao_buns.step_6` (ferment)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 0%
+- bnc_keg: none, can't make the mod's own steamed_tuna_bao_buns_step_6, and no other mod provides it
 
 ### `steamed_tuna_bao_buns.step_7` (ferment)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 0%
+- bnc_keg: none, can't make the mod's own steamed_tuna_bao_buns_step_7, and no other mod provides it
 
 ### `steamed_tuna_bao_buns.step_8` (mix)
 
@@ -84040,7 +84382,7 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `stoofvlees_flemish_beef_stew.step_4` (fry)
 
-- create_heated_mixing: 1 recipe, rounding 0%, estimated
+- create_heated_mixing: 2 recipes, rounding 0%, estimated
 
 ### `stoofvlees_flemish_beef_stew.step_5` (season)
 
@@ -84185,7 +84527,7 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `strawberry_and_banana_smoothie.step_3` (blend)
 
-- create_mixing: 1 recipe, rounding 13%, estimated
+- create_mixing: 2 recipes, rounding 13%, estimated
 
 ### `strawberry_and_banana_smoothie.step_4` (season)
 
@@ -84287,7 +84629,8 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `strawberry_dumplings.step_7` (age)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 0%
+- bnc_keg: none, can't make the mod's own strawberry_dumplings_step_7, and no other mod provides it
 
 ### `strawberry_dumplings.step_9` (shape)
 
@@ -84371,6 +84714,7 @@ No routes: time-based changes wait for a time mechanic.
 
 - create_mixing: 1 recipe, rounding 6%, estimated
 - create_splashing: none, takes one input, not 3
+- fr_kettle: none, can't make the mod's own strawberry_hibiscus_beverage_step_2, and no other mod provides it
 
 ### `strawberry_hibiscus_beverage.step_3` (strain)
 
@@ -84611,7 +84955,8 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `stroopwafels.step_4` (ferment)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 0%, estimated
+- bnc_keg: none, can't make the mod's own stroopwafels_step_4, and no other mod provides it
 
 ### `stroopwafels.step_5` (bake)
 
@@ -84927,12 +85272,13 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `stuffed_pork_roast.step_1` (dissolve)
 
-- create_mixing: 1 recipe, rounding 6%, estimated
+- create_mixing: 2 recipes, rounding 6%, estimated
 - shapeless_crafting: none, whole items would distort it by 323%
 
 ### `stuffed_pork_roast.step_2` (cure)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 9%, estimated
+- bnc_keg: none, can't make the mod's own stuffed_pork_roast_step_2, and no other mod provides it
 
 ### `stuffed_pork_roast.step_3` (fold)
 
@@ -85315,11 +85661,13 @@ No routes: time-based changes wait for a time mechanic.
 
 - create_mixing: 1 recipe, rounding 4%, estimated
 - create_splashing: none, takes one input, not 2
+- fr_kettle: none, can't make the mod's own supercharger_tea_step_2, and no other mod provides it
 
 ### `supercharger_tea.step_3` (steep)
 
 - create_mixing: 1 recipe, rounding 0%, estimated
 - create_splashing: 1 recipe, rounding 17% ⚠, estimated
+- fr_kettle: none, can't make the mod's own supercharger_tea_step_3, and no other mod provides it
 
 ### `supercharger_tea.step_4` (press)
 
@@ -85616,7 +85964,8 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `svelekake_norwegian_yogurt_pancakes.step_2` (age)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 0%, estimated
+- bnc_keg: none, can't make the mod's own svelekake_norwegian_yogurt_pancakes_step_2, and no other mod provides it
 
 ### `svelekake_norwegian_yogurt_pancakes.step_3` (fry)
 
@@ -85815,7 +86164,8 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `sweet_and_sour_pork_loin.step_1` (cure)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: none, whole items would distort it by 2154%
+- bnc_keg: none, can't make the mod's own sweet_and_sour_pork_loin_step_2, and no other mod provides it
 
 ### `sweet_and_sour_pork_loin.step_3` (coat)
 
@@ -86348,7 +86698,8 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `sweetened_mulling_spice_mix.step_2` (age)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 5%, estimated
+- bnc_keg: 1 recipe, rounding 5%, estimated
 
 ### `swiss_meringue.step_1` (assemble)
 
@@ -86759,6 +87110,7 @@ No routes: time-based changes wait for a time mechanic.
 
 - create_mixing: 1 recipe, rounding 0%
 - create_splashing: 1 recipe, rounding 0%
+- fr_kettle: none, can't make the mod's own table_point_boiled_beef_and_vegetables_tafelspitz_step_5, and no other mod provides it
 
 ### `table_point_boiled_beef_and_vegetables_tafelspitz.step_6` (cut)
 
@@ -86777,7 +87129,8 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `taboon_bread.step_3` (ferment)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 4%
+- bnc_keg: none, can't make the mod's own taboon_bread_step_3, and no other mod provides it
 
 ### `taboon_bread.step_4` (shape)
 
@@ -87252,6 +87605,7 @@ No routes: time-based changes wait for a time mechanic.
 
 - create_mixing: 1 recipe, rounding 0%
 - create_splashing: 1 recipe, rounding 0%
+- fr_kettle: none, makes 1 things; at most 1 fit
 
 ### `tamina_algerian_semolina_honey_dessert.step_1` (toast)
 
@@ -87260,7 +87614,7 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `tamina_algerian_semolina_honey_dessert.step_2` (heat)
 
-- create_heated_mixing: 1 recipe, rounding 10%, estimated
+- create_heated_mixing: 2 recipes, rounding 10%, estimated
 - fd_cooking_pot: 1 recipe, rounding 50% ⚠, estimated
 
 ### `tamina_algerian_semolina_honey_dessert.step_3` (mix)
@@ -87427,7 +87781,8 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `tapai_ketan_indonesian_fermented_sticky_rice.step_4` (ferment)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 0%, estimated
+- bnc_keg: 1 recipe, rounding 0%, estimated
 
 ### `tapalapa_gambian_bread.step_1` (mix)
 
@@ -87446,7 +87801,8 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `tapalapa_gambian_bread.step_4` (ferment)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 8%
+- bnc_keg: none, can't make the mod's own tapalapa_gambian_bread_step_4, and no other mod provides it
 
 ### `tapalapa_gambian_bread.step_6` (knead)
 
@@ -87546,7 +87902,8 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `tarhana_turkish_yogurt_soup.step_4` (ferment)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: none, whole items would distort it by 2435%
+- bnc_keg: none, can't make the mod's own tarhana_turkish_yogurt_soup_step_5, and no other mod provides it
 
 ### `tarhana_turkish_yogurt_soup.step_6` (simmer)
 
@@ -87821,6 +88178,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_mixing: 1 recipe, rounding 0%, estimated
 - create_splashing: 1 recipe, rounding 17% ⚠, estimated
+- fr_kettle: none, can't make the mod's own tchari_jollof_rice_step_12, and no other mod provides it
 
 ### `tchari_jollof_rice.step_13` (separate)
 
@@ -87890,11 +88248,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_mixing: 1 recipe, rounding 0%
 - create_splashing: 1 recipe, rounding 0%
+- fr_kettle: none, makes 1 things; at most 1 fit
 
 ### `tea_extract.step_2` (steep)
 
 - create_mixing: 1 recipe, rounding 0%, estimated
 - create_splashing: none, takes one input, not 2
+- fr_kettle: none, can't make the mod's own tea_extract_step_2, and no other mod provides it
 
 ### `tea_extract.step_3` (strain)
 
@@ -88046,7 +88406,8 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `tempoyak_fermented_durian.step_2` (ferment)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 0%
+- bnc_keg: 1 recipe, rounding 0%
 
 ### `tempura.step_2` (whisk)
 
@@ -88100,7 +88461,8 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `tequenos_venezuelan_breaded_cheese_sticks.step_3` (age)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 0%
+- bnc_keg: none, can't make the mod's own tequenos_venezuelan_breaded_cheese_sticks_step_3, and no other mod provides it
 
 ### `tequenos_venezuelan_breaded_cheese_sticks.step_4` (cut)
 
@@ -88651,7 +89013,8 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `thick_crust_pizza.step_8` (ferment)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 0%
+- bnc_keg: none, can't make the mod's own thick_crust_pizza_step_8, and no other mod provides it
 
 ### `thiebou_yapp.step_1` (cut)
 
@@ -88759,7 +89122,7 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `thobwa_la_mtedza_malawian_sesame_seed_drink.step_7` (dissolve)
 
-- create_mixing: 1 recipe, rounding 8%, estimated
+- create_mixing: 2 recipes, rounding 8%, estimated
 - shapeless_crafting: none, whole items would distort it by 463%
 
 ### `thobwa_la_mtedza_malawian_sesame_seed_drink.step_9` (mix)
@@ -88896,7 +89259,8 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `three_sisters_stew.step_6` (age)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 9%, estimated
+- bnc_keg: 1 recipe, rounding 16% ⚠, estimated
 
 ### `thumbprint_jam_cookies.step_1` (mix)
 
@@ -89040,7 +89404,7 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `timatim_fitfit_ethiopian_tomato_salad.step_2` (whisk)
 
-- create_mixing: 1 recipe, rounding 1%, estimated
+- create_mixing: 2 recipes, rounding 1%, estimated
 
 ### `timatim_fitfit_ethiopian_tomato_salad.step_3` (coat)
 
@@ -89089,8 +89453,9 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `tiramisu.step_1` (steep)
 
-- create_mixing: 1 recipe, rounding 4%, estimated
+- create_mixing: 2 recipes, rounding 4%, estimated
 - create_splashing: none, whole items would distort it by 275%
+- fr_kettle: none, can't make the mod's own coffee_steep, and no other mod provides it
 
 ### `tiramisu.step_10` (coat)
 
@@ -89132,7 +89497,7 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `tiramisu_mousse.step_1` (mix)
 
-- create_mixing: 1 recipe, rounding 6%, estimated
+- create_mixing: 2 recipes, rounding 6%, estimated
 - shapeless_crafting: none, whole items would distort it by 323%
 
 ### `tiramisu_mousse.step_2` (fold)
@@ -89146,7 +89511,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `tiramisu_non_alcoholic.step_1` (soak)
 
-- create_mixing: 1 recipe, rounding 0%
+- create_mixing: 2 recipes, rounding 0%
 - create_splashing: none, takes one input, not 2
 
 ### `tiramisu_non_alcoholic.step_2` (mix)
@@ -89161,7 +89526,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `tiramisu_paninis.step_1` (soak)
 
-- create_mixing: 1 recipe, rounding 0%
+- create_mixing: 2 recipes, rounding 0%
 - create_splashing: none, takes one input, not 2
 
 ### `tiramisu_paninis.step_2` (strain)
@@ -89238,6 +89603,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_mixing: 1 recipe, rounding 1%, estimated
 - create_splashing: 1 recipe, rounding 1%, estimated
+- fr_kettle: none, can't make the mod's own tisane_ma_louisa_algerian_lemon_herb_tea_step_3, and no other mod provides it
 
 ### `tisane_ma_louisa_algerian_lemon_herb_tea.step_4` (strain)
 
@@ -89577,7 +89943,8 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `tokyo_pancake_khanom_tokyo.step_4` (age)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 0%, estimated
+- bnc_keg: none, can't make the mod's own tokyo_pancake_khanom_tokyo_step_4, and no other mod provides it
 
 ### `tokyo_pancake_khanom_tokyo.step_5` (fry)
 
@@ -89699,6 +90066,7 @@ No routes: time-based changes wait for a time mechanic.
 
 - create_mixing: 1 recipe, rounding 0%, estimated
 - create_splashing: none, takes one input, not 2
+- fr_kettle: none, can't make the mod's own tomato_basil_soup_with_garlic_toasts_step_5, and no other mod provides it
 
 ### `tomato_basil_soup_with_garlic_toasts.step_6` (assemble)
 
@@ -89864,7 +90232,8 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `tomato_pizza.step_3` (ferment)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 12%
+- bnc_keg: none, can't make the mod's own tomato_pizza_step_3, and no other mod provides it
 
 ### `tomato_pizza.step_4` (heat)
 
@@ -90247,6 +90616,7 @@ No routes: time-based changes wait for a time mechanic.
 
 - create_mixing: 1 recipe, rounding 11%, estimated
 - create_splashing: none, whole items would distort it by 5108%
+- fr_kettle: none, can't make the mod's own traditional_british_brewed_tea_step_4, and no other mod provides it
 
 ### `traditional_british_brewed_tea.step_5` (mix)
 
@@ -90260,11 +90630,13 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `traditional_finnish_lemon_mead_sima.step_10` (ferment)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 17% ⚠, estimated
+- bnc_keg: none, can't make the mod's own traditional_finnish_lemon_mead_sima_step_10, and no other mod provides it
 
 ### `traditional_finnish_lemon_mead_sima.step_11` (ferment)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 0%, estimated
+- bnc_keg: 1 recipe, rounding 0%, estimated
 
 ### `traditional_finnish_lemon_mead_sima.step_3` (cut)
 
@@ -90293,7 +90665,8 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `traditional_finnish_lemon_mead_sima.step_9` (ferment)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 0%, estimated
+- bnc_keg: none, can't make the mod's own traditional_finnish_lemon_mead_sima_step_9, and no other mod provides it
 
 ### `traditional_lasagne.step_1` (pan_fry)
 
@@ -90814,7 +91187,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `tuna_fried_rice.step_6` (mix)
 
-- create_mixing: 1 recipe, rounding 1%, estimated
+- create_mixing: 2 recipes, rounding 1%, estimated
 - shapeless_crafting: none, whole items would distort it by 170%
 
 ### `tuna_fried_rice.step_7` (season)
@@ -91188,7 +91561,8 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `turkish_delight.step_8` (cure)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 6%
+- bnc_keg: 1 recipe, rounding 6%
 
 ### `turkish_dolma_pilav.step_2` (pan_fry)
 
@@ -91536,7 +91910,8 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `tvorog_russian_farmer_cheese.step_2` (ferment)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 0%, estimated
+- bnc_keg: none, can't make the mod's own tvorog_russian_farmer_cheese_step_2, and no other mod provides it
 
 ### `tvorog_russian_farmer_cheese.step_3` (coagulate)
 
@@ -91849,6 +92224,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_mixing: 1 recipe, rounding 0%, estimated
 - create_splashing: none, takes one input, not 2
+- fr_kettle: none, makes 1 things; at most 1 fit
 
 ### `ukrainian_borscht.step_2` (assemble)
 
@@ -91992,6 +92368,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 - create_mixing: 1 recipe, rounding 0%, estimated
 - create_splashing: 1 recipe, rounding 0%, estimated
+- fr_kettle: none, can't make the mod's own ume_shu_japanese_plum_juice_step_4, and no other mod provides it
 
 ### `ume_shu_japanese_plum_juice.step_5` (separate)
 
@@ -93142,7 +93519,8 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `vetkoek_south_african_fried_dough.step_4` (ferment)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 0%
+- bnc_keg: none, can't make the mod's own vetkoek_south_african_fried_dough_step_4, and no other mod provides it
 
 ### `vetkoek_south_african_fried_dough.step_6` (fry)
 
@@ -93372,12 +93750,14 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `vinegar_pickled_eggs_and_onions.step_9` (cure)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 0%, estimated
+- bnc_keg: 1 recipe, rounding 0%, estimated
 
 ### `violet_lemonade.step_1` (steep)
 
 - create_mixing: 3 recipes, rounding 5%, estimated
 - create_splashing: 1 recipe, rounding 6%, estimated
+- fr_kettle: none, can't make the mod's own violet_lemonade_step_1, and no other mod provides it
 
 ### `violet_lemonade.step_2` (dissolve)
 
@@ -93744,7 +94124,8 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `welsh_fruit_bread_bara_brith_i.step_1` (ferment)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: none, whole items would distort it by 217%
+- bnc_keg: none, can't make the mod's own welsh_fruit_bread_bara_brith_i_step_1, and no other mod provides it
 
 ### `welsh_fruit_bread_bara_brith_i.step_2` (knead)
 
@@ -93758,7 +94139,8 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `welsh_fruit_bread_bara_brith_i.step_4` (ferment)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 0%
+- bnc_keg: none, can't make the mod's own welsh_fruit_bread_bara_brith_i_step_4, and no other mod provides it
 
 ### `welsh_fruit_bread_bara_brith_i.step_5` (bake)
 
@@ -93884,15 +94266,18 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `wheat_grass_juice.step_2` (sprout)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 13%, estimated
+- bnc_keg: none, can't make the mod's own wheat_soak_sprout, and no other mod provides it
 
 ### `wheat_grass_juice.step_3` (sprout)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 13%
+- bnc_keg: none, can't make the mod's own wheat_soak_sprout_sprout, and no other mod provides it
 
 ### `wheat_grass_juice.step_4` (sprout)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 13%
+- bnc_keg: none, can't make the mod's own wheat_soak_sprout_sprout_sprout, and no other mod provides it
 
 ### `wheat_grass_juice.step_5` (press)
 
@@ -94022,7 +94407,8 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `white_fish_ceviche_cebiche_de_pescado.step_2` (cure)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: none, doesn't fit in 6 input items and 1000 mB tanks at any scale
+- bnc_keg: none, can't make the mod's own white_fish_ceviche_cebiche_de_pescado_step_2, and no other mod provides it
 
 ### `white_fish_ceviche_cebiche_de_pescado.step_3` (mix)
 
@@ -94033,10 +94419,11 @@ No routes: time-based changes wait for a time mechanic.
 
 - create_mixing: 1 recipe, rounding 10%, estimated
 - create_splashing: none, takes one input, not 4
+- fr_kettle: none, can't make the mod's own white_house_honey_porter_step_1, and no other mod provides it
 
 ### `white_house_honey_porter.step_2` (mix)
 
-- create_mixing: 1 recipe, rounding 5%, estimated
+- create_mixing: 2 recipes, rounding 5%, estimated
 - shapeless_crafting: none, whole items would distort it by 150%
 
 ### `white_house_honey_porter.step_3` (boil)
@@ -94046,11 +94433,13 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `white_house_honey_porter.step_6` (ferment)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 0%, estimated
+- bnc_keg: none, can't make the mod's own white_house_honey_porter_step_6, and no other mod provides it
 
 ### `white_house_honey_porter.step_7` (ferment)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 0%, estimated
+- bnc_keg: none, can't make the mod's own white_house_honey_porter_step_7, and no other mod provides it
 
 ### `white_house_honey_porter.step_8` (carbonate)
 
@@ -94087,7 +94476,8 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `whole_wheat_bread_vegan.step_1` (ferment)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: none, whole items would distort it by 111%
+- bnc_keg: none, can't make the mod's own whole_wheat_bread_vegan_step_1, and no other mod provides it
 
 ### `whole_wheat_bread_vegan.step_2` (mix)
 
@@ -94106,11 +94496,13 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `whole_wheat_bread_vegan.step_5` (ferment)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 11%
+- bnc_keg: none, can't make the mod's own whole_wheat_bread_vegan_step_5, and no other mod provides it
 
 ### `whole_wheat_bread_vegan.step_6` (ferment)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 11%
+- bnc_keg: none, can't make the mod's own whole_wheat_bread_vegan_step_6, and no other mod provides it
 
 ### `whole_wheat_bread_vegan.step_7` (coat)
 
@@ -94154,7 +94546,8 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `whole_wheat_irish_soda_bread.step_11` (age)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 1%
+- bnc_keg: 1 recipe, rounding 1%
 
 ### `whole_wheat_irish_soda_bread.step_3` (mix)
 
@@ -94444,6 +94837,7 @@ No routes: time-based changes wait for a time mechanic.
 
 - create_mixing: 1 recipe, rounding 0%, estimated
 - create_splashing: 1 recipe, rounding 6%, estimated
+- fr_kettle: none, can't make the mod's own wonjo_bissap_gambian_hibiscus_beverage_step_3, and no other mod provides it
 
 ### `wonjo_bissap_gambian_hibiscus_beverage.step_4` (strain)
 
@@ -94732,7 +95126,8 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `yeasted_cornbread.step_1` (ferment)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: none, whole items would distort it by 323%
+- bnc_keg: none, can't make the mod's own yeasted_cornbread_step_1, and no other mod provides it
 
 ### `yeasted_cornbread.step_2` (mix)
 
@@ -94775,7 +95170,8 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `yeasted_kifli.step_6` (ferment)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 0%
+- bnc_keg: none, can't make the mod's own yeasted_kifli_step_6, and no other mod provides it
 
 ### `yeasted_kifli.step_7` (shape)
 
@@ -94829,7 +95225,8 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `yeasted_rolls_ii.step_4` (ferment)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 12%
+- bnc_keg: none, can't make the mod's own yeasted_rolls_ii_step_4, and no other mod provides it
 
 ### `yeasted_rolls_ii.step_5` (shape)
 
@@ -95237,6 +95634,7 @@ No routes: time-based changes wait for a time mechanic.
 
 - create_mixing: none, whole items would distort it by 509%
 - create_splashing: none, takes one input, not 2
+- fr_kettle: none, can't make the mod's own yogi_tea_step_6, and no other mod provides it
 
 ### `yogi_tea.step_7` (strain)
 
@@ -95434,7 +95832,8 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `zacusca_romanian_vegetable_spread.step_6` (cure)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 0%
+- bnc_keg: 1 recipe, rounding 0%
 
 ### `zalabiyeh_sweet_fritters_ii.step_1` (mix)
 
@@ -95458,7 +95857,8 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `zalabiyeh_sweet_fritters_ii.step_5` (age)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 0%, estimated
+- bnc_keg: none, can't make the mod's own zalabiyeh_sweet_fritters_ii_step_5, and no other mod provides it
 
 ### `zalabiyeh_sweet_fritters_ii.step_6` (shape)
 
@@ -95590,6 +95990,7 @@ No routes: time-based changes wait for a time mechanic.
 
 - create_mixing: 1 recipe, rounding 0%
 - create_splashing: 1 recipe, rounding 0%
+- fr_kettle: none, can't make the mod's own zambian_tomato_and_onion_salad_step_5, and no other mod provides it
 
 ### `zambian_tomato_and_onion_salad.step_6` (assemble)
 
@@ -95719,6 +96120,7 @@ No routes: time-based changes wait for a time mechanic.
 
 - create_mixing: 1 recipe, rounding 0%, estimated
 - create_splashing: none, takes one input, not 2
+- fr_kettle: none, can't make the mod's own zereshk_palau_iranian_rice_with_barberries_ii_step_6, and no other mod provides it
 
 ### `zereshk_palau_iranian_rice_with_barberries_ii.step_7` (assemble)
 
@@ -95741,7 +96143,8 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `zhug_i.step_2` (age)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 0%
+- bnc_keg: 1 recipe, rounding 0%
 
 ### `zhug_ii.step_1` (blend)
 
@@ -95753,7 +96156,8 @@ No routes: time-based changes wait for a time mechanic.
 
 ### `zhug_ii.step_3` (age)
 
-No routes: time-based changes wait for a time mechanic.
+- vd_fermenting_jar: 1 recipe, rounding 0%
+- bnc_keg: 1 recipe, rounding 0%
 
 ### `zhug_iii.step_1` (blend)
 
@@ -96103,7 +96507,7 @@ No routes: time-based changes wait for a time mechanic.
 
 ## Deferred
 
-- Passive, time-based changes (cool, chill, age, ferment, spoil and the rest) need a time mechanic.
+- Cooling and chilling steps that can't be skipped need a time mechanic; spoilage isn't made at all.
 - Water as a medium that boiling, simmering and steaming use up.
 - A real sieve for sifting-type strain steps.
 - Outputs that are one of several outcomes.

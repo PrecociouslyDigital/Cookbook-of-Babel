@@ -27,10 +27,14 @@ public enum RouteKind {
     /** A Create fan blowing through water. Fans take one item at a time and time every recipe alike. */
     CREATE_SPLASHING(Mod.CREATE, new Constraints(1, 0, 12, 0, true, 0, 0), Nbt.KEPT, Optional.of(new IngredientId("water"))),
     /** A Create fan blowing through powder snow, from Create: Garnished. */
-    GARNISHED_FREEZING(Mod.GARNISHED, new Constraints(1, 0, 12, 0, true, 0, 0));
+    GARNISHED_FREEZING(Mod.GARNISHED, new Constraints(1, 0, 12, 0, true, 0, 0)),
+    /** Brewin' and Chewin's keg: four items and a base fluid ferment into one thing. */
+    BNC_KEG(Mod.BREWIN_AND_CHEWIN, new Constraints(4, 1, 1, 1, false, 200, Ticks.LONGEST).oneOutput(), Nbt.IGNORED, Optional.empty()),
+    /** Farmer's Respite's kettle: one or two items brewed in a fluid make a fluid. */
+    FR_KETTLE(Mod.FARMERS_RESPITE, new Constraints(2, 1, 0, 1, false, 200, 4800).needsFluid(), Nbt.IGNORED, Optional.empty()),
+    /** Vintage Delight's fermenting jar: six items, one per slot, make one or two items. */
+    VD_FERMENTING_JAR(Mod.VINTAGE_DELIGHT, new Constraints(6, 0, 2, 0, false, 100, Ticks.LONGEST));
 
-    /** The longest wait any machine is given: twenty minutes, a day and night in the game. */
-    static final int LONGEST_TICKS = 24000;
 
     public final Mod mod;
     public final Constraints constraints;
@@ -115,5 +119,12 @@ public enum RouteKind {
 
     public boolean heated() {
         return this == CREATE_HEATED_MIXING;
+    }
+
+    static final class Ticks {
+        /** The longest wait any machine is given: twenty minutes, a day and night in the game. */
+        static final int LONGEST = 24000;
+
+        private Ticks() {}
     }
 }

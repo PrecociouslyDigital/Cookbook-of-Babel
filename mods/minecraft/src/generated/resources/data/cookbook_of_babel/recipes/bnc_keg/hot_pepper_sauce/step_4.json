@@ -1,0 +1,42 @@
+{
+  "type": "brewinandchewin:fermenting",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "brewinandchewin"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/hot_pepper_sauce"
+    }
+  ],
+  "experience": 0.1,
+  "fermentingtime": 200,
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:portion",
+        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:liquid\",Tag:{substance:\"cookbook_of_babel:hot_pepper_sauce_step_3\"}}}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/hot_pepper_sauce_step_3"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:portion",
+        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:liquid\",Tag:{substance:\"cookbook_of_babel:hot_pepper_sauce_step_3\"}}}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/hot_pepper_sauce_step_3"
+      }
+    ]
+  ],
+  "result": {
+    "count": 5,
+    "item": "cookbook_of_babel:hot_pepper_sauce"
+  },
+  "temperature": 3
+}

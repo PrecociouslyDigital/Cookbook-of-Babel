@@ -1,6 +1,7 @@
 package cookbookofbabel.minecraft.datagen.plan;
 
 import static cookbookofbabel.minecraft.datagen.plan.RouteKind.BLASTING;
+import static cookbookofbabel.minecraft.datagen.plan.RouteKind.BNC_KEG;
 import static cookbookofbabel.minecraft.datagen.plan.RouteKind.CAMPFIRE;
 import static cookbookofbabel.minecraft.datagen.plan.RouteKind.CREATE_CUTTING;
 import static cookbookofbabel.minecraft.datagen.plan.RouteKind.CREATE_DEPLOYING;
@@ -11,10 +12,12 @@ import static cookbookofbabel.minecraft.datagen.plan.RouteKind.CREATE_MIXING;
 import static cookbookofbabel.minecraft.datagen.plan.RouteKind.CREATE_SPLASHING;
 import static cookbookofbabel.minecraft.datagen.plan.RouteKind.FD_COOKING_POT;
 import static cookbookofbabel.minecraft.datagen.plan.RouteKind.FD_CUTTING_BOARD;
+import static cookbookofbabel.minecraft.datagen.plan.RouteKind.FR_KETTLE;
 import static cookbookofbabel.minecraft.datagen.plan.RouteKind.GARNISHED_FREEZING;
 import static cookbookofbabel.minecraft.datagen.plan.RouteKind.SHAPELESS_CRAFTING;
 import static cookbookofbabel.minecraft.datagen.plan.RouteKind.SMELTING;
 import static cookbookofbabel.minecraft.datagen.plan.RouteKind.SMOKING;
+import static cookbookofbabel.minecraft.datagen.plan.RouteKind.VD_FERMENTING_JAR;
 
 import cookbookofbabel.minecraft.dataset.IngredientId;
 import cookbookofbabel.minecraft.dataset.TechniqueId;
@@ -46,6 +49,7 @@ public final class Techniques {
             // blowing through water supplies its own.
             bind("rinse", CREATE_MIXING, CREATE_SPLASHING),
             bind("soak", CREATE_MIXING, CREATE_SPLASHING),
+            bind("steep", CREATE_MIXING, CREATE_SPLASHING, FR_KETTLE),
             bind("separate", CREATE_ITEM_DRAIN, CREATE_MIXING),
             bind("churn", CREATE_MIXING),
             // A heated basin boils the wash and collects what comes off as a fluid.
@@ -62,7 +66,9 @@ public final class Techniques {
             elide("chill"),
             elide("dry"),
             elide("freeze", GARNISHED_FREEZING),
-            Map.entry(new TechniqueId("age"), new Binding.Deferred("time-based changes wait for a time mechanic")));
+            // Ageing, fermenting, curing and sprouting take a timed container.
+            bind("age", VD_FERMENTING_JAR, BNC_KEG),
+            Map.entry(new TechniqueId("spoil"), new Binding.Deferred("spoilage is something to prevent, not a recipe")));
 
     /**
      * Media a technique uses up. Minecraft has no "already in the pan", so a step of one of these

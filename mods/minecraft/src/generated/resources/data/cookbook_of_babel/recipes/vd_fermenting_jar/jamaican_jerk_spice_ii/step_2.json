@@ -1,0 +1,30 @@
+{
+  "type": "vintagedelight:fermenting",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "vintagedelight"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/jamaican_jerk_spice_ii"
+    }
+  ],
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:portion",
+        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:bulk\",Tag:{substance:\"cookbook_of_babel:jamaican_jerk_spice_ii_step_1\"}}}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/jamaican_jerk_spice_ii_step_1"
+      }
+    ]
+  ],
+  "output": {
+    "count": 2,
+    "item": "cookbook_of_babel:jamaican_jerk_spice_ii"
+  },
+  "processingTime": 100
+}

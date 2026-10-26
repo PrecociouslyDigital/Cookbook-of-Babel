@@ -1,0 +1,42 @@
+{
+  "type": "brewinandchewin:fermenting",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "brewinandchewin"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/duonos_gira_lithuanian_rye_drink"
+    }
+  ],
+  "experience": 0.1,
+  "fermentingtime": 200,
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:portion",
+        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:liquid\",Tag:{substance:\"cookbook_of_babel:duonos_gira_lithuanian_rye_drink_step_3\"}}}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/duonos_gira_lithuanian_rye_drink_step_3"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:portion",
+        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:liquid\",Tag:{substance:\"cookbook_of_babel:duonos_gira_lithuanian_rye_drink_step_3\"}}}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/duonos_gira_lithuanian_rye_drink_step_3"
+      }
+    ]
+  ],
+  "result": {
+    "count": 5,
+    "item": "cookbook_of_babel:duonos_gira_lithuanian_rye_drink"
+  },
+  "temperature": 3
+}

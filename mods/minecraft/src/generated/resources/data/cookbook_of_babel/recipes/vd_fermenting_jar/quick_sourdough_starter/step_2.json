@@ -1,0 +1,31 @@
+{
+  "type": "vintagedelight:fermenting",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "vintagedelight"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/quick_sourdough_starter_step_2"
+    }
+  ],
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:portion",
+        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:liquid\",Tag:{substance:\"cookbook_of_babel:quick_sourdough_starter_step_1\"}}}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/quick_sourdough_starter_step_1"
+      }
+    ]
+  ],
+  "output": {
+    "count": 1,
+    "item": "cookbook_of_babel:portion",
+    "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:liquid\",Tag:{substance:\"cookbook_of_babel:quick_sourdough_starter_step_2\"}}}"
+  },
+  "processingTime": 1200
+}
