@@ -16,18 +16,26 @@ import org.jetbrains.annotations.Nullable;
 /**
  * A recipe from an upstream builder, with its load conditions and without an advancement. Vanilla's
  * and Farmer's Delight's builders take a plain item as the result, though their recipe formats
- * read NBT on it, so {@code patch} adds the substance a result names.
+ * read NBT on it, so {@code patch} adds the substance a result names. A patch sees the whole
+ * recipe, so it can also give a recipe in another machine's format a type of its own.
  */
 record Finished(FinishedRecipe recipe, List<ICondition> conditions, Consumer<JsonObject> patch) implements FinishedRecipe {
     @Override
-    public void serializeRecipeData(JsonObject json) {
-        recipe.serializeRecipeData(json);
+    public JsonObject serializeRecipe() {
+        var json = recipe.serializeRecipe();
         patch.accept(json);
         if (!conditions.isEmpty()) {
             var array = new JsonArray();
             conditions.forEach(c -> array.add(CraftingHelper.serialize(c)));
             json.add("conditions", array);
         }
+        return json;
+    }
+
+    /** Unused: {@link #serializeRecipe} writes the whole recipe, its type included. */
+    @Override
+    public void serializeRecipeData(JsonObject json) {
+        throw new UnsupportedOperationException();
     }
 
     @Override

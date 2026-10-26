@@ -8,8 +8,10 @@ import static cookbookofbabel.minecraft.datagen.plan.RouteKind.CREATE_HEATED_MIX
 import static cookbookofbabel.minecraft.datagen.plan.RouteKind.CREATE_ITEM_DRAIN;
 import static cookbookofbabel.minecraft.datagen.plan.RouteKind.CREATE_MILLING;
 import static cookbookofbabel.minecraft.datagen.plan.RouteKind.CREATE_MIXING;
+import static cookbookofbabel.minecraft.datagen.plan.RouteKind.CREATE_SPLASHING;
 import static cookbookofbabel.minecraft.datagen.plan.RouteKind.FD_COOKING_POT;
 import static cookbookofbabel.minecraft.datagen.plan.RouteKind.FD_CUTTING_BOARD;
+import static cookbookofbabel.minecraft.datagen.plan.RouteKind.GARNISHED_FREEZING;
 import static cookbookofbabel.minecraft.datagen.plan.RouteKind.SHAPELESS_CRAFTING;
 import static cookbookofbabel.minecraft.datagen.plan.RouteKind.SMELTING;
 import static cookbookofbabel.minecraft.datagen.plan.RouteKind.SMOKING;
@@ -40,10 +42,10 @@ public final class Techniques {
             bind("fry", CREATE_HEATED_MIXING),
             bind("cut", FD_CUTTING_BOARD, CREATE_CUTTING),
             bind("grind", CREATE_MILLING),
-            // The dataset lists the water as an input and the starchy water as an output.
-            bind("rinse", CREATE_MIXING),
-            // Soaking lists its water as an input, like rinsing.
-            bind("soak", CREATE_MIXING),
+            // The dataset lists the water as an input and the starchy water as an output. A fan
+            // blowing through water supplies its own.
+            bind("rinse", CREATE_MIXING, CREATE_SPLASHING),
+            bind("soak", CREATE_MIXING, CREATE_SPLASHING),
             bind("separate", CREATE_ITEM_DRAIN, CREATE_MIXING),
             bind("churn", CREATE_MIXING),
             // A heated basin boils the wash and collects what comes off as a fluid.
@@ -59,6 +61,7 @@ public final class Techniques {
             elide("cool"),
             elide("chill"),
             elide("dry"),
+            elide("freeze", GARNISHED_FREEZING),
             Map.entry(new TechniqueId("age"), new Binding.Deferred("time-based changes wait for a time mechanic")));
 
     /**

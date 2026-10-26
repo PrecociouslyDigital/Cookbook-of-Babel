@@ -1,7 +1,9 @@
 package cookbookofbabel.minecraft.datagen.recipe;
 
 import com.simibubi.create.content.fluids.transfer.EmptyingRecipe;
+import com.google.gson.JsonObject;
 import com.simibubi.create.content.kinetics.deployer.DeployerApplicationRecipe;
+import com.simibubi.create.content.kinetics.fan.processing.SplashingRecipe;
 import com.simibubi.create.content.kinetics.millstone.MillingRecipe;
 import com.simibubi.create.content.kinetics.mixer.MixingRecipe;
 import com.simibubi.create.content.kinetics.saw.CuttingRecipe;
@@ -132,6 +134,10 @@ public final class RouteEmitter {
             case CREATE_CUTTING -> create(CuttingRecipe::new, path, p, items, counts, fluids, outputs, conditions, sink);
             case CREATE_ITEM_DRAIN -> create(EmptyingRecipe::new, path, p, items, counts, fluids, outputs, conditions, sink);
             case CREATE_DEPLOYING -> create(DeployerApplicationRecipe::new, path, p, items, counts, fluids, outputs, conditions, sink);
+            case CREATE_SPLASHING -> create(SplashingRecipe::new, path, p, items, counts, fluids, outputs, conditions, sink);
+            // Garnished's fan recipes are Create processing recipes of a type of their own.
+            case GARNISHED_FREEZING -> create(SplashingRecipe::new, path, p, items, counts, fluids, outputs, List.of(),
+                    retyped("garnished:freezing", id(route, path), conditions, sink));
             case SHAPELESS_CRAFTING -> {
                 var result = (ItemStack) first(outputs);
                 var builder = ShapelessRecipeBuilder.shapeless(RecipeCategory.FOOD, result.getItem(), result.getCount());
@@ -308,8 +314,17 @@ public final class RouteEmitter {
         return outputs.get(0);
     }
 
-    private static Consumer<FinishedRecipe> patched(Consumer<FinishedRecipe> sink, List<ICondition> conditions, Consumer<com.google.gson.JsonObject> patch) {
+    private static Consumer<FinishedRecipe> patched(Consumer<FinishedRecipe> sink, List<ICondition> conditions, Consumer<JsonObject> patch) {
         return recipe -> sink.accept(new Finished(recipe, conditions, patch));
+    }
+
+    /** Takes a recipe in another machine's format and writes it as one of {@code type}, under {@code id}. */
+    private static Consumer<FinishedRecipe> retyped(String type, ResourceLocation id, List<ICondition> conditions, Consumer<FinishedRecipe> sink) {
+        return recipe -> {
+            var json = recipe.serializeRecipe();
+            json.addProperty("type", type);
+            sink.accept(new Finished(new JsonRecipe(id, json), conditions, j -> {}));
+        };
     }
 
     static List<ICondition> forge(List<Condition> conditions) {

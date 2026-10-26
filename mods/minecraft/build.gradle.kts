@@ -141,8 +141,9 @@ repositories {
     mavenCentral()
 }
 
-// Create, Farmer's Delight and JEI are optional at runtime (see mods.toml), but
-// always present in development and datagen runs.
+// Create, Farmer's Delight, JEI, and mods whose recipes are written only as JSON
+// are optional at runtime (see mods.toml), but always present in development and
+// datagen runs, so datagen and the game tests see their items and recipe types.
 dependencies {
     modImplementation(variantOf(libs.create) { classifier("slim") }) { isTransitive = false }
     modImplementation(libs.ponder)
@@ -153,6 +154,7 @@ dependencies {
     modCompileOnly(libs.jei.common.api)
     modCompileOnly(libs.jei.forge.api)
     modRuntimeOnly(libs.jei.forge)
+    modRuntimeOnly(libs.garnished)
 
     testImplementation(libs.jqwik)
     testImplementation(libs.assertj)

@@ -23,7 +23,11 @@ public enum RouteKind {
     /** The item drain, standing in for a strainer: one item in, one item and one fluid out. */
     CREATE_ITEM_DRAIN(Mod.CREATE, new Constraints(1, 0, 1, 1, false, 0, 0)),
     /** One item on the belt, one in the deployer's hand. */
-    CREATE_DEPLOYING(Mod.CREATE, new Constraints(2, 0, 4, 0, true, 0, 0));
+    CREATE_DEPLOYING(Mod.CREATE, new Constraints(2, 0, 4, 0, true, 0, 0)),
+    /** A Create fan blowing through water. Fans take one item at a time and time every recipe alike. */
+    CREATE_SPLASHING(Mod.CREATE, new Constraints(1, 0, 12, 0, true, 0, 0), Nbt.KEPT, Optional.of(new IngredientId("water"))),
+    /** A Create fan blowing through powder snow, from Create: Garnished. */
+    GARNISHED_FREEZING(Mod.GARNISHED, new Constraints(1, 0, 12, 0, true, 0, 0));
 
     /** The longest wait any machine is given: twenty minutes, a day and night in the game. */
     static final int LONGEST_TICKS = 24000;

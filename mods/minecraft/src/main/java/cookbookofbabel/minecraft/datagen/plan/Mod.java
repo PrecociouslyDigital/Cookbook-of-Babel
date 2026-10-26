@@ -6,6 +6,7 @@ import java.util.Optional;
 /** The mods recipes are written for, in order of preference for a mapped output. */
 public enum Mod {
     FARMERS_DELIGHT("farmersdelight"),
+    GARNISHED("garnished"),
     CREATE("create"),
     /** Always loaded; an output mapped to vanilla shadows every later choice. */
     MINECRAFT("minecraft");

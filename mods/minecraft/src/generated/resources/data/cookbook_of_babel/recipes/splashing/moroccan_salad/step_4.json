@@ -1,0 +1,30 @@
+{
+  "type": "create:splashing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/moroccan_salad"
+    }
+  ],
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:moroccan_salad_step_3\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/moroccan_salad_step_3"
+      }
+    ]
+  ],
+  "results": [
+    {
+      "item": "cookbook_of_babel:moroccan_salad"
+    }
+  ]
+}
