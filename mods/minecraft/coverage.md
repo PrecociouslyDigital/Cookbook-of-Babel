@@ -1232,7 +1232,6 @@ Used by some step, made by none, and provided by no mapped mod, so nothing in th
 - `rye` (rye)
 - `saba` (saba)
 - `saffron` (saffron)
-- `sage` (sage)
 - `sago` (sago)
 - `sake` (sake)
 - `salad` (salad)
@@ -3474,12 +3473,14 @@ Rounding error is the largest relative error of any non-negligible amount; above
 - create_mixing: 1 recipe, rounding 0%, estimated
 - create_splashing: 1 recipe, rounding 17% ⚠, estimated
 - fr_kettle: none, can't make the mod's own a_nice_cup_of_tea_step_4, and no other mod provides it
+- theurgy_liquefaction: none, needs a fluid it can take, and has none
 
 ### `a_nice_cup_of_tea.step_5` (steep)
 
 - create_mixing: 1 recipe, rounding 0%, estimated
 - create_splashing: 1 recipe, rounding 17% ⚠, estimated
 - fr_kettle: none, can't make the mod's own a_nice_cup_of_tea_step_5, and no other mod provides it
+- theurgy_liquefaction: none, needs a fluid it can take, and has none
 
 ### `a_nice_cup_of_tea.step_6` (season)
 
@@ -3660,6 +3661,7 @@ Rounding error is the largest relative error of any non-negligible amount; above
 - create_mixing: 1 recipe, rounding 4%, estimated
 - create_splashing: 1 recipe, rounding 17% ⚠, estimated
 - fr_kettle: none, can't make the mod's own acevichada_sauce_step_4, and no other mod provides it
+- theurgy_liquefaction: none, needs a fluid it can take, and has none
 
 ### `acevichada_sauce.step_5` (blend)
 
@@ -4121,6 +4123,7 @@ Rounding error is the largest relative error of any non-negligible amount; above
 - create_mixing: 1 recipe, rounding 0%, estimated
 - create_splashing: none, takes one input, not 2
 - fr_kettle: none, makes 1 things; at most 1 fit
+- theurgy_liquefaction: none, needs a fluid it can take, and has none
 
 ### `air_fried_zucchini.step_1` (chop)
 
@@ -4264,6 +4267,7 @@ Rounding error is the largest relative error of any non-negligible amount; above
 - vd_fermenting_jar: 1 recipe, rounding 4%
 - bnc_keg: none, can't make the mod's own akpu_step_3, and no other mod provides it
 - pnc_thermo_plant: 1 recipe, rounding 4%
+- theurgy_fermentation: none, needs a fluid it can take, and has none
 
 ### `akpu.step_4` (separate)
 
@@ -4531,6 +4535,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - vd_fermenting_jar: 1 recipe, rounding 0%, estimated
 - bnc_keg: none, can't make the mod's own algerian_baghrir_step_3, and no other mod provides it
 - pnc_thermo_plant: 1 recipe, rounding 4%, estimated
+- theurgy_fermentation: none, needs a fluid it can take, and has none
 
 ### `algerian_baghrir.step_4` (whisk)
 
@@ -4590,6 +4595,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - vd_fermenting_jar: none, whole items would distort it by 793%
 - bnc_keg: none, can't make the mod's own algerian_coca_step_1, and no other mod provides it
 - pnc_thermo_plant: none, takes at most 2 inputs, not 3
+- theurgy_fermentation: none, whole items would distort it by 793%
 
 ### `algerian_coca.step_10` (assemble)
 
@@ -4625,6 +4631,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - vd_fermenting_jar: 1 recipe, rounding 2%
 - bnc_keg: none, can't make the mod's own algerian_coca_step_4, and no other mod provides it
 - pnc_thermo_plant: 1 recipe, rounding 2%
+- theurgy_fermentation: none, needs a fluid it can take, and has none
 
 ### `algerian_coca.step_5` (pan_fry)
 
@@ -4762,12 +4769,14 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - create_mixing: 1 recipe, rounding 2%, estimated
 - create_splashing: none, takes one input, not 2
 - fr_kettle: none, can't make the mod's own algerian_mint_tea_step_4, and no other mod provides it
+- theurgy_liquefaction: none, needs a fluid it can take, and has none
 
 ### `algerian_mint_tea.step_5` (steep)
 
 - create_mixing: 1 recipe, rounding 2%, estimated
 - create_splashing: none, takes one input, not 2
 - fr_kettle: none, can't make the mod's own algerian_mint_tea_step_5, and no other mod provides it
+- theurgy_liquefaction: none, needs a fluid it can take, and has none
 
 ### `algerian_mint_tea.step_6` (boil)
 
@@ -4830,6 +4839,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - vd_fermenting_jar: 1 recipe, rounding 5%
 - bnc_keg: none, can't make the mod's own alkubus_nigerian_steamed_bread_step_3, and no other mod provides it
 - pnc_thermo_plant: 1 recipe, rounding 5%
+- theurgy_fermentation: none, needs a fluid it can take, and has none
 
 ### `alkubus_nigerian_steamed_bread.step_4` (press)
 
@@ -5413,7 +5423,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `americanized_eggplant_parmesan.step_6` (dry)
 
-No routes: should happen over time, but skipping it would lose what it makes.
+- hexerei_drying_rack: none, takes one input, not 2
 
 ### `americanized_eggplant_parmesan.step_8` (whisk)
 
@@ -5546,6 +5556,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - vd_fermenting_jar: 1 recipe, rounding 1%, estimated
 - bnc_keg: none, can't make the mod's own appam_fermented_rice_pancake_step_5, and no other mod provides it
 - pnc_thermo_plant: 1 recipe, rounding 1%, estimated
+- theurgy_fermentation: none, needs a fluid it can take, and has none
 
 ### `appam_fermented_rice_pancake.step_6` (chill)
 
@@ -6300,6 +6311,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - vd_fermenting_jar: 1 recipe, rounding 0%, estimated
 - bnc_keg: none, can't make the mod's own apricot_wine_step_5, and no other mod provides it
 - pnc_thermo_plant: 1 recipe, rounding 4%, estimated
+- theurgy_fermentation: none, needs a fluid it can take, and has none
 
 ### `apricot_wine.step_6` (mix)
 
@@ -6532,6 +6544,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - create_mixing: 1 recipe, rounding 1%, estimated
 - create_splashing: none, takes one input, not 3
 - fr_kettle: none, can't make the mod's own arroz_con_maiz_rice_with_corn_step_4, and no other mod provides it
+- theurgy_liquefaction: none, takes at most 2 inputs, not 3
 
 ### `arroz_con_maiz_rice_with_corn.step_5` (strain)
 
@@ -8346,11 +8359,13 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - smelting: none, whole items would distort it by 4700%
 - blasting: none, whole items would distort it by 4700%
 - create_heated_mixing: 1 recipe, rounding 4%
+- theurgy_calcination: none, whole items would distort it by 300%
 
 ### `baking_soda.calcine_calcite` (calcine)
 
 - create_heated_mixing: 1 recipe, rounding 0%
 - blasting: 1 recipe, rounding 12%, drops `carbon_dioxide`
+- theurgy_calcination: 1 recipe, rounding 12%, drops `carbon_dioxide`
 
 ### `baking_soda.carbonate` (carbonate)
 
@@ -9725,6 +9740,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - create_mixing: 1 recipe, rounding 0%, estimated
 - create_splashing: none, takes one input, not 2
 - fr_kettle: none, can't make the mod's own basic_chai_step_2, and no other mod provides it
+- theurgy_liquefaction: none, needs a fluid it can take, and has none
 
 ### `basic_chai.step_3` (boil)
 
@@ -10449,6 +10465,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - create_mixing: 1 recipe, rounding 0%, estimated
 - create_splashing: none, takes one input, not 2
 - fr_kettle: none, can't make the mod's own bechamel_sauce_basic_step_4, and no other mod provides it
+- theurgy_liquefaction: none, needs a fluid it can take, and has none
 
 ### `bechamel_sauce_basic.step_5` (strain)
 
@@ -10491,6 +10508,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - create_mixing: 4 recipes, rounding 0%, estimated
 - create_splashing: none, takes one input, not 3
 - fr_kettle: none, can't make the mod's own bechamel_sauce_louisiannaise_step_1, and no other mod provides it
+- theurgy_liquefaction: none, takes at most 2 inputs, not 3
 
 ### `bechamel_sauce_louisiannaise.step_2` (heat)
 
@@ -10619,6 +10637,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - create_mixing: 1 recipe, rounding 2%
 - create_splashing: 1 recipe, rounding 2%
 - fr_kettle: none, can't make the mod's own beef_carpaccio_i_step_4, and no other mod provides it
+- theurgy_liquefaction: none, needs a fluid it can take, and has none
 
 ### `beef_carpaccio_i.step_5` (toast)
 
@@ -11095,6 +11114,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - vd_fermenting_jar: 1 recipe, rounding 14%
 - bnc_keg: none, can't make the mod's own beef_yakiniku_pizza_step_2, and no other mod provides it
 - pnc_thermo_plant: 1 recipe, rounding 14%
+- theurgy_fermentation: none, needs a fluid it can take, and has none
 
 ### `beef_yakiniku_pizza.step_3` (stir_fry)
 
@@ -11199,6 +11219,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - create_mixing: 1 recipe, rounding 0%, estimated
 - create_splashing: none, takes one input, not 2
 - fr_kettle: none, can't make the mod's own beer_can_chicken_step_7, and no other mod provides it
+- theurgy_liquefaction: none, needs a fluid it can take, and has none
 
 ### `beer_can_chicken.step_8` (assemble)
 
@@ -11427,6 +11448,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - create_mixing: 1 recipe, rounding 0%, estimated
 - create_splashing: 1 recipe, rounding 17% ⚠, estimated
 - fr_kettle: none, can't make the mod's own benechin_kunkujang_gambian_seasoned_rice_and_lamb_step_10, and no other mod provides it
+- theurgy_liquefaction: none, needs a fluid it can take, and has none
 
 ### `benechin_kunkujang_gambian_seasoned_rice_and_lamb.step_11` (separate)
 
@@ -11836,6 +11858,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - create_mixing: 1 recipe, rounding 9%
 - create_splashing: 1 recipe, rounding 9%
 - fr_kettle: none, can't make the mod's own biltong_zambian_dried_and_salted_meat_step_5, and no other mod provides it
+- theurgy_liquefaction: none, needs a fluid it can take, and has none
 
 ### `biltong_zambian_dried_and_salted_meat.step_6` (age)
 
@@ -11892,6 +11915,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - vd_fermenting_jar: 1 recipe, rounding 0%
 - bnc_keg: none, can't make the mod's own bint_as_sa_n_yemenite_layered_pastry_step_4, and no other mod provides it
 - pnc_thermo_plant: 1 recipe, rounding 0%
+- theurgy_fermentation: none, needs a fluid it can take, and has none
 
 ### `bint_as_sa_n_yemenite_layered_pastry.step_5` (shape)
 
@@ -11908,6 +11932,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - vd_fermenting_jar: 1 recipe, rounding 0%
 - bnc_keg: none, can't make the mod's own bint_as_sa_n_yemenite_layered_pastry_step_7, and no other mod provides it
 - pnc_thermo_plant: 1 recipe, rounding 0%
+- theurgy_fermentation: none, needs a fluid it can take, and has none
 
 ### `bint_as_sa_n_yemenite_layered_pastry.step_9` (coat)
 
@@ -11919,6 +11944,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - create_mixing: none, whole items would distort it by 154%
 - create_splashing: none, whole items would distort it by 322%
 - fr_kettle: none, can't make the mod's own saffron_steep, and no other mod provides it
+- theurgy_liquefaction: none, needs a fluid it can take, and has none
 
 ### `biryani.step_10` (assemble)
 
@@ -12662,6 +12688,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - vd_fermenting_jar: 1 recipe, rounding 3%
 - bnc_keg: none, can't make the mod's own bliny_step_3, and no other mod provides it
 - pnc_thermo_plant: 1 recipe, rounding 3%
+- theurgy_fermentation: none, needs a fluid it can take, and has none
 
 ### `bliny.step_4` (mix)
 
@@ -12673,6 +12700,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - vd_fermenting_jar: 1 recipe, rounding 0%, estimated
 - bnc_keg: none, can't make the mod's own bliny_step_5, and no other mod provides it
 - pnc_thermo_plant: 1 recipe, rounding 4%, estimated
+- theurgy_fermentation: none, needs a fluid it can take, and has none
 
 ### `bliny.step_6` (pan_fry)
 
@@ -13233,6 +13261,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - create_mixing: 1 recipe, rounding 14%
 - create_splashing: 1 recipe, rounding 14%
 - fr_kettle: none, can't make the mod's own boiled_yellow_split_peas_step_3, and no other mod provides it
+- theurgy_liquefaction: none, needs a fluid it can take, and has none
 
 ### `boiled_yellow_split_peas.step_4` (rinse)
 
@@ -13557,6 +13586,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - create_mixing: 1 recipe, rounding 12%, estimated
 - create_splashing: none, takes one input, not 2
 - fr_kettle: none, can't make the mod's own bouchee_a_la_reine_step_1, and no other mod provides it
+- theurgy_liquefaction: none, needs a fluid it can take, and has none
 
 ### `bouchee_a_la_reine.step_10` (assemble)
 
@@ -13694,6 +13724,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - create_mixing: 1 recipe, rounding 0%, estimated
 - create_splashing: none, takes one input, not 2
 - fr_kettle: none, makes 1 things; at most 1 fit
+- theurgy_liquefaction: none, needs a fluid it can take, and has none
 
 ### `bourbon_apples.step_1` (coat)
 
@@ -14275,6 +14306,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - create_mixing: 1 recipe, rounding 0%, estimated
 - create_splashing: 1 recipe, rounding 17% ⚠, estimated
 - fr_kettle: none, can't make the mod's own breakfast_sludge_step_5, and no other mod provides it
+- theurgy_liquefaction: none, needs a fluid it can take, and has none
 
 ### `breakfast_sludge.step_6` (mix)
 
@@ -15059,6 +15091,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - vd_fermenting_jar: 1 recipe, rounding 4%
 - bnc_keg: none, can't make the mod's own bulgarian_fresh_sausage_kebapcheta_step_2, and no other mod provides it
 - pnc_thermo_plant: 1 recipe, rounding 15% ⚠
+- theurgy_fermentation: none, needs a fluid it can take, and has none
 
 ### `bulgarian_fresh_sausage_kebapcheta.step_3` (shape)
 
@@ -15679,12 +15712,14 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - vd_fermenting_jar: 1 recipe, rounding 0%
 - bnc_keg: none, can't make the mod's own cabbage_kimchi_step_10, and no other mod provides it
 - pnc_thermo_plant: 1 recipe, rounding 0%
+- theurgy_fermentation: none, needs a fluid it can take, and has none
 
 ### `cabbage_kimchi.step_11` (ferment)
 
 - vd_fermenting_jar: 1 recipe, rounding 0%
 - bnc_keg: 1 recipe, rounding 0%
 - pnc_thermo_plant: 1 recipe, rounding 0%
+- theurgy_fermentation: none, needs a fluid it can take, and has none
 
 ### `cabbage_kimchi.step_2` (dissolve)
 
@@ -16359,6 +16394,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - vd_fermenting_jar: 1 recipe, rounding 7%, estimated
 - bnc_keg: none, can't make the mod's own canjeero_somali_pancake_step_5, and no other mod provides it
 - pnc_thermo_plant: 1 recipe, rounding 0%, estimated
+- theurgy_fermentation: none, needs a fluid it can take, and has none
 
 ### `canjeero_somali_pancake.step_6` (season)
 
@@ -16466,6 +16502,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - create_mixing: 1 recipe, rounding 0%, estimated
 - create_splashing: none, takes one input, not 4
 - fr_kettle: none, can't make the mod's own cantonese_crispy_fried_chicken_step_7, and no other mod provides it
+- theurgy_liquefaction: none, takes at most 2 inputs, not 4
 
 ### `cantonese_crispy_fried_chicken.step_8` (simmer)
 
@@ -17597,6 +17634,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - create_mixing: 4 recipes, rounding 12%, estimated
 - create_splashing: none, takes one input, not 3
 - fr_kettle: none, can't make the mod's own champ_irish_mashed_potato_with_scallion_step_3, and no other mod provides it
+- theurgy_liquefaction: none, takes at most 2 inputs, not 3
 
 ### `champ_irish_mashed_potato_with_scallion.step_4` (strain)
 
@@ -17630,6 +17668,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - create_mixing: 1 recipe, rounding 0%, estimated
 - create_splashing: none, takes one input, not 4
 - fr_kettle: none, can't make the mod's own champagne_vinaigrette_step_2, and no other mod provides it
+- theurgy_liquefaction: none, takes at most 2 inputs, not 4
 
 ### `champagne_vinaigrette.step_3` (whisk)
 
@@ -19285,6 +19324,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - create_mixing: 1 recipe, rounding 0%
 - create_splashing: 1 recipe, rounding 0%
 - fr_kettle: none, makes 1 things; at most 1 fit
+- theurgy_liquefaction: none, needs a fluid it can take, and has none
 
 ### `chicken_cacciatore.step_1` (assemble)
 
@@ -20788,6 +20828,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - create_mixing: 1 recipe, rounding 6%, estimated
 - create_splashing: none, whole items would distort it by 1900%
 - fr_kettle: none, can't make the mod's own chili_colorado_step_1, and no other mod provides it
+- theurgy_liquefaction: none, whole items would distort it by 1900%
 
 ### `chili_colorado.step_2` (blend)
 
@@ -20948,6 +20989,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - create_mixing: 1 recipe, rounding 0%, estimated
 - create_splashing: none, takes one input, not 3
 - fr_kettle: none, can't make the mod's own chili_oil_step_4, and no other mod provides it
+- theurgy_liquefaction: none, takes at most 2 inputs, not 3
 
 ### `chili_oil.step_5` (strain)
 
@@ -21049,6 +21091,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - create_mixing: 1 recipe, rounding 3%, estimated
 - create_splashing: 1 recipe, rounding 17% ⚠, estimated
 - fr_kettle: none, makes 1 things; at most 1 fit
+- theurgy_liquefaction: none, needs a fluid it can take, and has none
 
 ### `chimichurri.step_1` (mix)
 
@@ -21060,6 +21103,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - create_mixing: 1 recipe, rounding 0%
 - create_splashing: 1 recipe, rounding 0%
 - fr_kettle: none, can't make the mod's own chimichurri_step_2, and no other mod provides it
+- theurgy_liquefaction: none, needs a fluid it can take, and has none
 
 ### `chimichurri.step_3` (boil)
 
@@ -21071,6 +21115,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - create_mixing: 1 recipe, rounding 0%, estimated
 - create_splashing: 1 recipe, rounding 17% ⚠, estimated
 - fr_kettle: none, can't make the mod's own chimichurri_step_4, and no other mod provides it
+- theurgy_liquefaction: none, needs a fluid it can take, and has none
 
 ### `chimichurri.step_5` (mix)
 
@@ -21284,7 +21329,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `chipotle_fish_n_chips.step_5` (dry)
 
-No routes: should happen over time, but skipping it would lose what it makes.
+- hexerei_drying_rack: none, takes one input, not 2
 
 ### `chipotle_fried_chicken.step_1` (soak)
 
@@ -21661,6 +21706,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - vd_fermenting_jar: 1 recipe, rounding 0%
 - bnc_keg: none, can't make the mod's own chocolate_and_banana_bread_step_9, and no other mod provides it
 - pnc_thermo_plant: 1 recipe, rounding 0%
+- theurgy_fermentation: none, needs a fluid it can take, and has none
 
 ### `chocolate_and_nut_covered_strawberries.step_1` (mix)
 
@@ -22520,6 +22566,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - create_mixing: 1 recipe, rounding 0%, estimated
 - create_splashing: none, takes one input, not 4
 - fr_kettle: none, can't make the mod's own chocolate_noodles_with_vanilla_sauce_step_7, and no other mod provides it
+- theurgy_liquefaction: none, takes at most 2 inputs, not 4
 
 ### `chocolate_noodles_with_vanilla_sauce.step_8` (mix)
 
@@ -22943,6 +22990,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - create_mixing: 1 recipe, rounding 12%
 - create_splashing: 1 recipe, rounding 22% ⚠
 - fr_kettle: none, can't make the mod's own christmas_cake_step_2, and no other mod provides it
+- theurgy_liquefaction: none, needs a fluid it can take, and has none
 
 ### `christmas_cake.step_3` (soak)
 
@@ -23294,6 +23342,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - vd_fermenting_jar: 1 recipe, rounding 12%, estimated
 - bnc_keg: none, can't make the mod's own ciabatta_step_3, and no other mod provides it
 - pnc_thermo_plant: 1 recipe, rounding 12%, estimated
+- theurgy_fermentation: none, needs a fluid it can take, and has none
 
 ### `ciabatta.step_4` (fold)
 
@@ -23518,6 +23567,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - vd_fermenting_jar: 1 recipe, rounding 0%
 - bnc_keg: none, can't make the mod's own cinnamon_rolls_step_5, and no other mod provides it
 - pnc_thermo_plant: 1 recipe, rounding 0%
+- theurgy_fermentation: none, needs a fluid it can take, and has none
 
 ### `cinnamon_rolls.step_6` (shape)
 
@@ -23592,6 +23642,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - create_mixing: 1 recipe, rounding 0%, estimated
 - create_splashing: none, takes one input, not 4
 - fr_kettle: none, can't make the mod's own citrus_energy_drink_step_1, and no other mod provides it
+- theurgy_liquefaction: none, takes at most 2 inputs, not 4
 
 ### `citrus_energy_drink.step_2` (dissolve)
 
@@ -24376,6 +24427,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - create_mixing: 1 recipe, rounding 0%, estimated
 - create_splashing: 1 recipe, rounding 6%, estimated
 - fr_kettle: none, can't make the mod's own coffee_concentrate_step_3, and no other mod provides it
+- theurgy_liquefaction: none, needs a fluid it can take, and has none
 
 ### `coffee_concentrate.step_4` (strain)
 
@@ -25440,6 +25492,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - vd_fermenting_jar: 1 recipe, rounding 3%, estimated
 - bnc_keg: none, can't make the mod's own corn_pone_step_4, and no other mod provides it
 - pnc_thermo_plant: 1 recipe, rounding 2%, estimated
+- theurgy_fermentation: none, needs a fluid it can take, and has none
 
 ### `corn_pone.step_5` (shape)
 
@@ -26410,7 +26463,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `cream_cheese_wontons.step_6` (dry)
 
-No routes: should happen over time, but skipping it would lose what it makes.
+- hexerei_drying_rack: none, takes one input, not 2
 
 ### `cream_of_duck_and_mushroom_soup.step_1` (heat)
 
@@ -26484,6 +26537,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - vd_fermenting_jar: 1 recipe, rounding 1%, estimated
 - bnc_keg: none, can't make the mod's own wine, and no other mod provides it
 - pnc_thermo_plant: 1 recipe, rounding 0%, estimated
+- theurgy_fermentation: none, needs a fluid it can take, and has none
 
 ### `cream_puff.step_1` (mix)
 
@@ -27001,6 +27055,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - create_mixing: 1 recipe, rounding 0%
 - create_splashing: 1 recipe, rounding 0%
 - fr_kettle: none, can't make the mod's own crispy_chicken_step_3, and no other mod provides it
+- theurgy_liquefaction: none, needs a fluid it can take, and has none
 
 ### `crispy_chicken.step_4` (assemble)
 
@@ -27105,7 +27160,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `crispy_roast_potatoes.step_3` (dry)
 
-No routes: should happen over time, but skipping it would lose what it makes.
+- hexerei_drying_rack: none, takes one input, not 2
 
 ### `crispy_roast_potatoes.step_4` (coat)
 
@@ -27238,12 +27293,14 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - vd_fermenting_jar: none, whole items would distort it by 182%
 - bnc_keg: none, can't make the mod's own croissant_step_1, and no other mod provides it
 - pnc_thermo_plant: none, takes at most 2 inputs, not 3
+- theurgy_fermentation: none, whole items would distort it by 182%
 
 ### `croissant.step_10` (ferment)
 
 - vd_fermenting_jar: 1 recipe, rounding 1%
 - bnc_keg: none, can't make the mod's own croissant_step_10, and no other mod provides it
 - pnc_thermo_plant: 1 recipe, rounding 1%
+- theurgy_fermentation: none, needs a fluid it can take, and has none
 
 ### `croissant.step_12` (coat)
 
@@ -27905,6 +27962,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - vd_fermenting_jar: 1 recipe, rounding 0%
 - bnc_keg: 1 recipe, rounding 0%
 - pnc_thermo_plant: 1 recipe, rounding 0%
+- theurgy_fermentation: none, needs a fluid it can take, and has none
 
 ### `custard_creams.step_1` (mix)
 
@@ -28480,6 +28538,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - create_mixing: 3 recipes, rounding 5%, estimated
 - create_splashing: 1 recipe, rounding 5%, estimated
 - fr_kettle: none, can't make the mod's own date_syrup_step_1, and no other mod provides it
+- theurgy_liquefaction: 1 recipe, rounding 5%, estimated
 
 ### `date_syrup.step_2` (soak)
 
@@ -28520,6 +28579,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - vd_fermenting_jar: 1 recipe, rounding 6%
 - bnc_keg: none, can't make the mod's own deep_dish_pizza_step_3, and no other mod provides it
 - pnc_thermo_plant: 1 recipe, rounding 20% ⚠
+- theurgy_fermentation: none, needs a fluid it can take, and has none
 
 ### `deep_dish_pizza.step_4` (shape)
 
@@ -28686,6 +28746,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - vd_fermenting_jar: 1 recipe, rounding 17% ⚠, estimated
 - bnc_keg: none, can't make the mod's own deep_fried_lentil_dough_balls_punugu_step_5, and no other mod provides it
 - pnc_thermo_plant: none, takes at most 2 inputs, not 4
+- theurgy_fermentation: none, takes at most 3 inputs, not 4
 
 ### `deep_fried_lentil_dough_balls_punugu.step_6` (fry)
 
@@ -28887,6 +28948,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - create_mixing: 1 recipe, rounding 13%, estimated
 - create_splashing: none, takes one input, not 2
 - fr_kettle: none, can't make the mod's own dereniowka_polish_dogwood_liqueur_step_1, and no other mod provides it
+- theurgy_liquefaction: 1 recipe, rounding 25% ⚠, estimated
 
 ### `dereniowka_polish_dogwood_liqueur.step_2` (strain)
 
@@ -29021,6 +29083,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - vd_fermenting_jar: 1 recipe, rounding 6%, estimated
 - bnc_keg: none, can't make the mod's own dhokla_steamed_black_gram_bread_step_4, and no other mod provides it
 - pnc_thermo_plant: 1 recipe, rounding 1%, estimated
+- theurgy_fermentation: none, needs a fluid it can take, and has none
 
 ### `dhokla_steamed_black_gram_bread.step_5` (blend)
 
@@ -29071,6 +29134,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - create_mixing: 1 recipe, rounding 0%
 - create_splashing: 1 recipe, rounding 0%
 - fr_kettle: none, can't make the mod's own dibi_senegalese_grilled_meat_step_6, and no other mod provides it
+- theurgy_liquefaction: none, needs a fluid it can take, and has none
 
 ### `dibi_senegalese_grilled_meat.step_8` (assemble)
 
@@ -29288,6 +29352,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - vd_fermenting_jar: 1 recipe, rounding 0%
 - bnc_keg: none, can't make the mod's own dokunu_fermented_corn_dumplings_step_2, and no other mod provides it
 - pnc_thermo_plant: 1 recipe, rounding 0%
+- theurgy_fermentation: none, needs a fluid it can take, and has none
 
 ### `dokunu_fermented_corn_dumplings.step_3` (separate)
 
@@ -29572,6 +29637,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - vd_fermenting_jar: 1 recipe, rounding 2%
 - bnc_keg: none, can't make the mod's own doro_dabo_ethiopian_chicken_with_spiced_bread_step_4, and no other mod provides it
 - pnc_thermo_plant: 1 recipe, rounding 2%
+- theurgy_fermentation: none, needs a fluid it can take, and has none
 
 ### `doro_dabo_ethiopian_chicken_with_spiced_bread.step_6` (knead)
 
@@ -29617,6 +29683,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - create_mixing: 1 recipe, rounding 0%
 - create_splashing: 1 recipe, rounding 0%
 - fr_kettle: none, can't make the mod's own doro_fitfit_ethiopian_chicken_salad_step_5, and no other mod provides it
+- theurgy_liquefaction: none, needs a fluid it can take, and has none
 
 ### `doro_fitfit_ethiopian_chicken_salad.step_6` (season)
 
@@ -29768,6 +29835,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - vd_fermenting_jar: 1 recipe, rounding 0%, estimated
 - bnc_keg: none, can't make the mod's own dosa_i_step_5, and no other mod provides it
 - pnc_thermo_plant: 1 recipe, rounding 4%, estimated
+- theurgy_fermentation: none, needs a fluid it can take, and has none
 
 ### `dosa_i.step_6` (season)
 
@@ -29793,6 +29861,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - vd_fermenting_jar: none, whole items would distort it by 4971%
 - bnc_keg: none, can't make the mod's own dosa_ii_step_3, and no other mod provides it
 - pnc_thermo_plant: 1 recipe, rounding 10%, estimated
+- theurgy_fermentation: none, needs a fluid it can take, and has none
 
 ### `dosa_ii.step_4` (mix)
 
@@ -30247,12 +30316,14 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - create_mixing: 1 recipe, rounding 2%, estimated
 - create_splashing: none, takes one input, not 2
 - fr_kettle: none, can't make the mod's own dud_patti_milk_tea_step_2, and no other mod provides it
+- theurgy_liquefaction: none, needs a fluid it can take, and has none
 
 ### `dud_patti_milk_tea.step_3` (steep)
 
 - create_mixing: 1 recipe, rounding 2%, estimated
 - create_splashing: 1 recipe, rounding 19% ⚠, estimated
 - fr_kettle: none, can't make the mod's own dud_patti_milk_tea_step_3, and no other mod provides it
+- theurgy_liquefaction: none, needs a fluid it can take, and has none
 
 ### `dud_patti_milk_tea.step_4` (strain)
 
@@ -30339,6 +30410,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - vd_fermenting_jar: none, whole items would distort it by 181%
 - bnc_keg: none, can't make the mod's own duonos_gira_lithuanian_rye_drink_step_2, and no other mod provides it
 - pnc_thermo_plant: none, takes at most 2 inputs, not 3
+- theurgy_fermentation: none, needs a fluid it can take, and has none
 
 ### `duonos_gira_lithuanian_rye_drink.step_3` (assemble)
 
@@ -30394,6 +30466,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - vd_fermenting_jar: 1 recipe, rounding 0%, estimated
 - bnc_keg: none, can't make the mod's own dutch_apple_fritters_oliebollen_step_4, and no other mod provides it
 - pnc_thermo_plant: 1 recipe, rounding 4%, estimated
+- theurgy_fermentation: none, needs a fluid it can take, and has none
 
 ### `dutch_apple_fritters_oliebollen.step_5` (mix)
 
@@ -30556,12 +30629,14 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - create_mixing: 1 recipe, rounding 5%, estimated
 - create_splashing: 1 recipe, rounding 5%, estimated
 - fr_kettle: none, can't make the mod's own east_frisian_tea_step_3, and no other mod provides it
+- theurgy_liquefaction: none, needs a fluid it can take, and has none
 
 ### `east_frisian_tea.step_4` (steep)
 
 - create_mixing: 1 recipe, rounding 5%, estimated
 - create_splashing: 1 recipe, rounding 5%, estimated
 - fr_kettle: none, can't make the mod's own east_frisian_tea_step_4, and no other mod provides it
+- theurgy_liquefaction: none, needs a fluid it can take, and has none
 
 ### `east_frisian_tea.step_5` (assemble)
 
@@ -31704,6 +31779,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - create_mixing: 4 recipes, rounding 1%, estimated
 - create_splashing: none, takes one input, not 7
 - fr_kettle: none, can't make the mod's own eggs_connaught_step_2, and no other mod provides it
+- theurgy_liquefaction: none, takes at most 2 inputs, not 7
 
 ### `eggs_connaught.step_3` (mix)
 
@@ -32040,6 +32116,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - create_mixing: 1 recipe, rounding 0%, estimated
 - create_splashing: 1 recipe, rounding 17% ⚠, estimated
 - fr_kettle: none, makes 1 things; at most 1 fit
+- theurgy_liquefaction: none, needs a fluid it can take, and has none
 
 ### `egyptian_rice_with_vermicelli.step_2` (toast)
 
@@ -33237,6 +33314,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - vd_fermenting_jar: 1 recipe, rounding 56% ⚠
 - bnc_keg: none, can't make the mod's own fankasau_hausa_wheat_puff_puff_step_2, and no other mod provides it
 - pnc_thermo_plant: none, whole items would distort it by 525%
+- theurgy_fermentation: none, needs a fluid it can take, and has none
 
 ### `fankasau_hausa_wheat_puff_puff.step_3` (mix)
 
@@ -33274,6 +33352,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - vd_fermenting_jar: 1 recipe, rounding 7%, estimated
 - bnc_keg: none, can't make the mod's own fanke_hausa_puff_puff_step_3, and no other mod provides it
 - pnc_thermo_plant: 1 recipe, rounding 1%, estimated
+- theurgy_fermentation: none, needs a fluid it can take, and has none
 
 ### `fanke_hausa_puff_puff.step_4` (fry)
 
@@ -33509,6 +33588,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - vd_fermenting_jar: 1 recipe, rounding 13%, estimated
 - bnc_keg: none, can't make the mod's own fermented_soda_step_3, and no other mod provides it
 - pnc_thermo_plant: 1 recipe, rounding 0%, estimated
+- theurgy_fermentation: none, needs a fluid it can take, and has none
 
 ### `fermented_soda.step_4` (strain)
 
@@ -33531,6 +33611,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - create_mixing: 1 recipe, rounding 0%, estimated
 - create_splashing: none, takes one input, not 4
 - fr_kettle: none, can't make the mod's own feuerzangenbowle_german_wine_punch_step_3, and no other mod provides it
+- theurgy_liquefaction: none, takes at most 2 inputs, not 4
 
 ### `feuerzangenbowle_german_wine_punch.step_5` (heat)
 
@@ -33963,6 +34044,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - create_mixing: 1 recipe, rounding 6%, estimated
 - create_splashing: 1 recipe, rounding 15% ⚠, estimated
 - fr_kettle: none, makes 1 things; at most 1 fit
+- theurgy_liquefaction: none, needs a fluid it can take, and has none
 
 ### `firfir_ethiopian_spicy_scrambled_eggs_with_injera.step_10` (soak)
 
@@ -34460,6 +34542,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - vd_fermenting_jar: none, whole items would distort it by 182%
 - bnc_keg: none, can't make the mod's own flammekueche_bacon_and_onion_flatbread_step_1, and no other mod provides it
 - pnc_thermo_plant: none, takes at most 2 inputs, not 4
+- theurgy_fermentation: none, takes at most 3 inputs, not 4
 
 ### `flammekueche_bacon_and_onion_flatbread.step_10` (shape)
 
@@ -34496,6 +34579,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - vd_fermenting_jar: 1 recipe, rounding 0%
 - bnc_keg: none, can't make the mod's own flammekueche_bacon_and_onion_flatbread_step_5, and no other mod provides it
 - pnc_thermo_plant: 1 recipe, rounding 0%
+- theurgy_fermentation: none, needs a fluid it can take, and has none
 
 ### `flammekueche_bacon_and_onion_flatbread.step_6` (pan_fry)
 
@@ -35534,7 +35618,7 @@ No routes: it yields one of several outcomes, which no route supports yet.
 
 ### `fried_fish.step_4` (dry)
 
-No routes: should happen over time, but skipping it would lose what it makes.
+- hexerei_drying_rack: none, takes one input, not 2
 
 ### `fried_fish.step_5` (coat)
 
@@ -35883,6 +35967,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - vd_fermenting_jar: 1 recipe, rounding 14%, estimated
 - bnc_keg: none, can't make the mod's own fried_wheat_bread_balls_bhatoora_step_2, and no other mod provides it
 - pnc_thermo_plant: 1 recipe, rounding 2%, estimated
+- theurgy_fermentation: none, needs a fluid it can take, and has none
 
 ### `fried_wheat_bread_balls_bhatoora.step_3` (knead)
 
@@ -35894,6 +35979,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - vd_fermenting_jar: 1 recipe, rounding 12%
 - bnc_keg: none, can't make the mod's own fried_wheat_bread_balls_bhatoora_step_4, and no other mod provides it
 - pnc_thermo_plant: 1 recipe, rounding 16% ⚠
+- theurgy_fermentation: none, needs a fluid it can take, and has none
 
 ### `fried_wheat_bread_balls_bhatoora.step_5` (heat)
 
@@ -36512,6 +36598,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - vd_fermenting_jar: 1 recipe, rounding 8%, estimated
 - bnc_keg: none, can't make the mod's own funkaso_hausa_fritters_step_3, and no other mod provides it
 - pnc_thermo_plant: 1 recipe, rounding 10%, estimated
+- theurgy_fermentation: none, needs a fluid it can take, and has none
 
 ### `funkaso_hausa_fritters.step_4` (knead)
 
@@ -37141,6 +37228,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - create_mixing: 1 recipe, rounding 0%, estimated
 - create_splashing: 1 recipe, rounding 17% ⚠, estimated
 - fr_kettle: none, makes 1 things; at most 1 fit
+- theurgy_liquefaction: none, needs a fluid it can take, and has none
 
 ### `garlic_and_tarragon_dressing.step_1` (mix)
 
@@ -37529,6 +37617,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - vd_fermenting_jar: none, whole items would distort it by 838%
 - bnc_keg: none, can't make the mod's own garum_fermented_step_2, and no other mod provides it
 - pnc_thermo_plant: none, whole items would distort it by 838%
+- theurgy_fermentation: none, needs a fluid it can take, and has none
 
 ### `garum_fermented.step_3` (strain)
 
@@ -37960,6 +38049,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - vd_fermenting_jar: 1 recipe, rounding 0%
 - bnc_keg: none, can't make the mod's own germknodel_plum_and_poppy_seed_dumpling_step_4, and no other mod provides it
 - pnc_thermo_plant: 1 recipe, rounding 0%
+- theurgy_fermentation: none, needs a fluid it can take, and has none
 
 ### `germknodel_plum_and_poppy_seed_dumpling.step_5` (shape)
 
@@ -37976,6 +38066,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - vd_fermenting_jar: 1 recipe, rounding 0%
 - bnc_keg: none, can't make the mod's own germknodel_plum_and_poppy_seed_dumpling_step_7, and no other mod provides it
 - pnc_thermo_plant: 1 recipe, rounding 0%
+- theurgy_fermentation: none, needs a fluid it can take, and has none
 
 ### `germknodel_plum_and_poppy_seed_dumpling.step_8` (boil)
 
@@ -38363,6 +38454,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - vd_fermenting_jar: 1 recipe, rounding 0%, estimated
 - bnc_keg: none, can't make the mod's own ginger_beer_step_4, and no other mod provides it
 - pnc_thermo_plant: 1 recipe, rounding 4%, estimated
+- theurgy_fermentation: none, needs a fluid it can take, and has none
 
 ### `ginger_beer.step_5` (carbonate)
 
@@ -39258,6 +39350,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - vd_fermenting_jar: 1 recipe, rounding 8%, estimated
 - bnc_keg: none, can't make the mod's own gozleme_turkish_flatbread_step_5, and no other mod provides it
 - pnc_thermo_plant: 1 recipe, rounding 0%, estimated
+- theurgy_fermentation: none, needs a fluid it can take, and has none
 
 ### `gozleme_turkish_flatbread.step_6` (knead)
 
@@ -39269,6 +39362,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - vd_fermenting_jar: 1 recipe, rounding 14%
 - bnc_keg: none, can't make the mod's own gozleme_turkish_flatbread_step_7, and no other mod provides it
 - pnc_thermo_plant: 1 recipe, rounding 14%
+- theurgy_fermentation: none, needs a fluid it can take, and has none
 
 ### `gozleme_turkish_flatbread.step_8` (separate)
 
@@ -40803,6 +40897,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - vd_fermenting_jar: 1 recipe, rounding 2%, estimated
 - bnc_keg: none, can't make the mod's own gurasa_hausa_flatbread_with_vegetables_step_3, and no other mod provides it
 - pnc_thermo_plant: 1 recipe, rounding 1%, estimated
+- theurgy_fermentation: none, needs a fluid it can take, and has none
 
 ### `gurasa_hausa_flatbread_with_vegetables.step_5` (shape)
 
@@ -40954,6 +41049,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - create_mixing: 1 recipe, rounding 0%, estimated
 - create_splashing: 1 recipe, rounding 4%, estimated
 - fr_kettle: none, can't make the mod's own habet_hlawa_algerian_anise_beverage_step_2, and no other mod provides it
+- theurgy_liquefaction: none, needs a fluid it can take, and has none
 
 ### `habet_hlawa_algerian_anise_beverage.step_3` (strain)
 
@@ -41240,6 +41336,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - create_mixing: 1 recipe, rounding 8%, estimated
 - create_splashing: none, takes one input, not 2
 - fr_kettle: none, can't make the mod's own hallaca_venezuelan_stuffed_corn_dough_step_4, and no other mod provides it
+- theurgy_liquefaction: none, needs a fluid it can take, and has none
 
 ### `hallaca_venezuelan_stuffed_corn_dough.step_5` (fry)
 
@@ -41729,6 +41826,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - create_mixing: 1 recipe, rounding 0%, estimated
 - create_splashing: none, takes one input, not 4
 - fr_kettle: none, can't make the mod's own hawthorn_tea_step_1, and no other mod provides it
+- theurgy_liquefaction: none, takes at most 2 inputs, not 5
 
 ### `hawthorn_tea.step_2` (strain)
 
@@ -41824,6 +41922,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - create_mixing: 1 recipe, rounding 4%
 - create_splashing: 1 recipe, rounding 4%
 - fr_kettle: none, makes 1 things; at most 1 fit
+- theurgy_liquefaction: none, needs a fluid it can take, and has none
 
 ### `henry_thiele_s_pancake.step_2` (mix)
 
@@ -41881,6 +41980,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - vd_fermenting_jar: 1 recipe, rounding 0%
 - bnc_keg: none, can't make the mod's own herb_bubble_bread_step_7, and no other mod provides it
 - pnc_thermo_plant: 1 recipe, rounding 0%
+- theurgy_fermentation: none, needs a fluid it can take, and has none
 
 ### `herb_bubble_bread.step_8` (bake)
 
@@ -41932,6 +42032,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - create_mixing: 1 recipe, rounding 0%, estimated
 - create_splashing: none, takes one input, not 3
 - fr_kettle: none, can't make the mod's own herbal_energy_drink_step_1, and no other mod provides it
+- theurgy_liquefaction: none, takes at most 2 inputs, not 3
 
 ### `herbal_energy_drink.step_2` (boil)
 
@@ -42406,6 +42507,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - create_mixing: 1 recipe, rounding 0%, estimated
 - create_splashing: 1 recipe, rounding 17% ⚠, estimated
 - fr_kettle: none, can't make the mod's own holiday_soda_step_5, and no other mod provides it
+- theurgy_liquefaction: none, needs a fluid it can take, and has none
 
 ### `holiday_soda.step_6` (strain)
 
@@ -42597,6 +42699,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - vd_fermenting_jar: 1 recipe, rounding 0%, estimated
 - bnc_keg: none, can't make the mod's own homemade_cider_vinegar_step_4, and no other mod provides it
 - pnc_thermo_plant: 1 recipe, rounding 0%, estimated
+- theurgy_fermentation: none, needs a fluid it can take, and has none
 
 ### `homemade_cider_vinegar.step_5` (separate)
 
@@ -42609,6 +42712,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - vd_fermenting_jar: 1 recipe, rounding 0%, estimated
 - bnc_keg: none, can't make the mod's own homemade_cider_vinegar_step_6, and no other mod provides it
 - pnc_thermo_plant: 1 recipe, rounding 0%, estimated
+- theurgy_fermentation: none, needs a fluid it can take, and has none
 
 ### `homemade_cider_vinegar.step_7` (separate)
 
@@ -42674,6 +42778,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - create_mixing: 1 recipe, rounding 0%, estimated
 - create_splashing: 1 recipe, rounding 17% ⚠, estimated
 - fr_kettle: none, can't make the mod's own homemade_coffee_liqueur_step_4, and no other mod provides it
+- theurgy_liquefaction: none, needs a fluid it can take, and has none
 
 ### `homemade_coffee_liqueur.step_5` (strain)
 
@@ -42963,6 +43068,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - vd_fermenting_jar: 1 recipe, rounding 0%
 - bnc_keg: none, can't make the mod's own homemade_red_wine_step_4, and no other mod provides it
 - pnc_thermo_plant: 1 recipe, rounding 0%
+- theurgy_fermentation: none, needs a fluid it can take, and has none
 
 ### `homemade_red_wine.step_5` (strain)
 
@@ -42975,6 +43081,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - vd_fermenting_jar: 1 recipe, rounding 0%, estimated
 - bnc_keg: none, can't make the mod's own homemade_red_wine_step_6, and no other mod provides it
 - pnc_thermo_plant: 1 recipe, rounding 4%, estimated
+- theurgy_fermentation: none, needs a fluid it can take, and has none
 
 ### `homemade_red_wine.step_7` (strain)
 
@@ -43054,12 +43161,14 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - vd_fermenting_jar: 1 recipe, rounding 15%, estimated
 - bnc_keg: none, can't make the mod's own homemade_tempeh_step_11, and no other mod provides it
 - pnc_thermo_plant: 1 recipe, rounding 8%, estimated
+- theurgy_fermentation: none, needs a fluid it can take, and has none
 
 ### `homemade_tempeh.step_12` (ferment)
 
 - vd_fermenting_jar: 1 recipe, rounding 8%
 - bnc_keg: 1 recipe, rounding 8%
 - pnc_thermo_plant: 1 recipe, rounding 8%
+- theurgy_fermentation: none, needs a fluid it can take, and has none
 
 ### `homemade_tempeh.step_2` (separate)
 
@@ -43098,6 +43207,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - vd_fermenting_jar: 1 recipe, rounding 15%, estimated
 - bnc_keg: none, can't make the mod's own homemade_tempeh_step_9, and no other mod provides it
 - pnc_thermo_plant: 1 recipe, rounding 3%, estimated
+- theurgy_fermentation: none, needs a fluid it can take, and has none
 
 ### `homemade_tomato_paste.step_1` (simmer)
 
@@ -43687,6 +43797,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - create_mixing: 1 recipe, rounding 0%, estimated
 - create_splashing: 1 recipe, rounding 17% ⚠, estimated
 - fr_kettle: none, can't make the mod's own horchata_step_4, and no other mod provides it
+- theurgy_liquefaction: none, needs a fluid it can take, and has none
 
 ### `horchata.step_5` (blend)
 
@@ -43864,6 +43975,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - vd_fermenting_jar: 1 recipe, rounding 0%, estimated
 - bnc_keg: none, can't make the mod's own hot_cross_bun_step_3, and no other mod provides it
 - pnc_thermo_plant: 1 recipe, rounding 4%, estimated
+- theurgy_fermentation: none, needs a fluid it can take, and has none
 
 ### `hot_cross_bun.step_4` (mix)
 
@@ -43880,6 +43992,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - vd_fermenting_jar: 1 recipe, rounding 0%
 - bnc_keg: none, can't make the mod's own hot_cross_bun_step_6, and no other mod provides it
 - pnc_thermo_plant: 1 recipe, rounding 0%
+- theurgy_fermentation: none, needs a fluid it can take, and has none
 
 ### `hot_cross_bun.step_7` (knead)
 
@@ -44545,6 +44658,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - vd_fermenting_jar: none, whole items would distort it by 323%
 - bnc_keg: none, can't make the mod's own ibiwungu_rwandan_banana_beer_step_5, and no other mod provides it
 - pnc_thermo_plant: 1 recipe, rounding 17% ⚠, estimated
+- theurgy_fermentation: none, needs a fluid it can take, and has none
 
 ### `ibiwungu_rwandan_banana_beer.step_6` (mix)
 
@@ -44562,12 +44676,14 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - vd_fermenting_jar: 1 recipe, rounding 0%, estimated
 - bnc_keg: none, can't make the mod's own ibiwungu_rwandan_banana_beer_step_8, and no other mod provides it
 - pnc_thermo_plant: 1 recipe, rounding 4%, estimated
+- theurgy_fermentation: none, needs a fluid it can take, and has none
 
 ### `ibiwungu_rwandan_banana_beer.step_9` (ferment)
 
 - vd_fermenting_jar: 1 recipe, rounding 0%, estimated
 - bnc_keg: none, can't make the mod's own ibiwungu_rwandan_banana_beer_step_9, and no other mod provides it
 - pnc_thermo_plant: 1 recipe, rounding 4%, estimated
+- theurgy_fermentation: none, needs a fluid it can take, and has none
 
 ### `ice_cream_sandwich.step_1` (mix)
 
@@ -44718,6 +44834,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - vd_fermenting_jar: 1 recipe, rounding 10%, estimated
 - bnc_keg: none, can't make the mod's own idli_steamed_rice_and_black_gram_bread_step_8, and no other mod provides it
 - pnc_thermo_plant: 1 recipe, rounding 1%, estimated
+- theurgy_fermentation: none, needs a fluid it can take, and has none
 
 ### `ifisashi_n_ubwoko_rwandan_peanut_spinach_stew_with_mushroom.step_1` (stir_fry)
 
@@ -45545,6 +45662,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - vd_fermenting_jar: 1 recipe, rounding 13%, estimated
 - bnc_keg: none, can't make the mod's own injera_ethiopian_teff_flatbread_step_2, and no other mod provides it
 - pnc_thermo_plant: 1 recipe, rounding 3%, estimated
+- theurgy_fermentation: none, needs a fluid it can take, and has none
 
 ### `injera_ethiopian_teff_flatbread.step_4` (shape)
 
@@ -46016,6 +46134,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - create_mixing: 1 recipe, rounding 0%, estimated
 - create_splashing: none, takes one input, not 2
 - fr_kettle: none, can't make the mod's own italian_dressing_ii_step_4, and no other mod provides it
+- theurgy_liquefaction: none, needs a fluid it can take, and has none
 
 ### `italian_dressing_ii.step_5` (mix)
 
@@ -46112,6 +46231,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - create_mixing: 1 recipe, rounding 0%, estimated
 - create_splashing: 1 recipe, rounding 17% ⚠, estimated
 - fr_kettle: none, makes 1 things; at most 1 fit
+- theurgy_liquefaction: none, needs a fluid it can take, and has none
 
 ### `italian_poached_salmon.step_1` (mix)
 
@@ -46485,6 +46605,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - vd_fermenting_jar: 1 recipe, rounding 5%, estimated
 - bnc_keg: none, can't make the mod's own jalebi_fritters_in_syrup_step_2, and no other mod provides it
 - pnc_thermo_plant: 1 recipe, rounding 1%, estimated
+- theurgy_fermentation: none, needs a fluid it can take, and has none
 
 ### `jalebi_fritters_in_syrup.step_3` (mix)
 
@@ -47169,6 +47290,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - vd_fermenting_jar: 1 recipe, rounding 2%
 - bnc_keg: none, can't make the mod's own ka_ak_savory_ring_shaped_biscuit_step_4, and no other mod provides it
 - pnc_thermo_plant: 1 recipe, rounding 2%
+- theurgy_fermentation: none, needs a fluid it can take, and has none
 
 ### `ka_ak_savory_ring_shaped_biscuit.step_5` (shape)
 
@@ -47250,6 +47372,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - create_mixing: 1 recipe, rounding 0%
 - create_splashing: 1 recipe, rounding 0%
 - fr_kettle: none, can't make the mod's own kachumbari_step_2, and no other mod provides it
+- theurgy_liquefaction: none, needs a fluid it can take, and has none
 
 ### `kachumbari.step_3` (season)
 
@@ -47365,6 +47488,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - vd_fermenting_jar: 1 recipe, rounding 6%, estimated
 - bnc_keg: none, can't make the mod's own kala_liberian_fritters_step_3, and no other mod provides it
 - pnc_thermo_plant: 1 recipe, rounding 0%, estimated
+- theurgy_fermentation: none, needs a fluid it can take, and has none
 
 ### `kala_liberian_fritters.step_4` (heat)
 
@@ -47735,6 +47859,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - create_mixing: 1 recipe, rounding 0%, estimated
 - create_splashing: 1 recipe, rounding 17% ⚠, estimated
 - fr_kettle: none, can't make the mod's own karkanji_chadian_spiced_hibiscus_drink_step_5, and no other mod provides it
+- theurgy_liquefaction: none, needs a fluid it can take, and has none
 
 ### `karkanji_chadian_spiced_hibiscus_drink.step_6` (strain)
 
@@ -47853,7 +47978,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `kashkaval_pane_bulgarian_fried_cheese.step_7` (dry)
 
-No routes: should happen over time, but skipping it would lose what it makes.
+- hexerei_drying_rack: none, takes one input, not 2
 
 ### `kashmiri_pulao.step_10` (mix)
 
@@ -47897,6 +48022,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - create_mixing: 4 recipes, rounding 3%, estimated
 - create_splashing: none, takes one input, not 3
 - fr_kettle: none, can't make the mod's own kashmiri_pulao_step_7, and no other mod provides it
+- theurgy_liquefaction: none, takes at most 2 inputs, not 3
 
 ### `kashmiri_pulao.step_8` (assemble)
 
@@ -48431,6 +48557,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - vd_fermenting_jar: 1 recipe, rounding 0%
 - bnc_keg: none, can't make the mod's own khachapuri_georgian_cheese_bread_step_4, and no other mod provides it
 - pnc_thermo_plant: 1 recipe, rounding 0%
+- theurgy_fermentation: none, needs a fluid it can take, and has none
 
 ### `khachapuri_georgian_cheese_bread.step_5` (mix)
 
@@ -49112,6 +49239,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - vd_fermenting_jar: 1 recipe, rounding 5%, estimated
 - bnc_keg: none, can't make the mod's own kisra_sudanese_bread_step_2, and no other mod provides it
 - pnc_thermo_plant: 1 recipe, rounding 1%, estimated
+- theurgy_fermentation: none, needs a fluid it can take, and has none
 
 ### `kisra_sudanese_bread.step_4` (shape)
 
@@ -49297,6 +49425,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - vd_fermenting_jar: 1 recipe, rounding 0%
 - bnc_keg: none, can't make the mod's own koesisters_with_coconut_step_3, and no other mod provides it
 - pnc_thermo_plant: 1 recipe, rounding 0%
+- theurgy_fermentation: none, needs a fluid it can take, and has none
 
 ### `koesisters_with_coconut.step_4` (shape)
 
@@ -49327,6 +49456,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - vd_fermenting_jar: 1 recipe, rounding 6%
 - bnc_keg: none, can't make the mod's own koko_da_kosai_fermented_corn_porridge_and_bean_fritters_step_1, and no other mod provides it
 - pnc_thermo_plant: 1 recipe, rounding 5%
+- theurgy_fermentation: 1 recipe, rounding 6%
 
 ### `koko_da_kosai_fermented_corn_porridge_and_bean_fritters.step_10` (fry)
 
@@ -49661,6 +49791,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - vd_fermenting_jar: 1 recipe, rounding 14%, estimated
 - bnc_keg: none, can't make the mod's own kubaneh_yemenite_pull_apart_bread_step_2, and no other mod provides it
 - pnc_thermo_plant: none, takes at most 2 inputs, not 3
+- theurgy_fermentation: none, needs a fluid it can take, and has none
 
 ### `kubaneh_yemenite_pull_apart_bread.step_3` (knead)
 
@@ -49672,6 +49803,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - vd_fermenting_jar: 1 recipe, rounding 14%
 - bnc_keg: none, can't make the mod's own kubaneh_yemenite_pull_apart_bread_step_4, and no other mod provides it
 - pnc_thermo_plant: 1 recipe, rounding 14%
+- theurgy_fermentation: none, needs a fluid it can take, and has none
 
 ### `kubaneh_yemenite_pull_apart_bread.step_5` (knead)
 
@@ -50410,6 +50542,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - vd_fermenting_jar: none, whole items would distort it by 275%
 - bnc_keg: none, can't make the mod's own kyselo_czech_sourdough_mushroom_soup_step_2, and no other mod provides it
 - pnc_thermo_plant: none, takes at most 2 inputs, not 3
+- theurgy_fermentation: none, whole items would distort it by 275%
 
 ### `kyselo_czech_sourdough_mushroom_soup.step_3` (boil)
 
@@ -50510,6 +50643,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - vd_fermenting_jar: 1 recipe, rounding 0%
 - bnc_keg: none, can't make the mod's own lady_arundel_s_manchet_step_6, and no other mod provides it
 - pnc_thermo_plant: 1 recipe, rounding 0%
+- theurgy_fermentation: none, needs a fluid it can take, and has none
 
 ### `lady_arundel_s_manchet.step_7` (bake)
 
@@ -50590,6 +50724,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - vd_fermenting_jar: 1 recipe, rounding 11%, estimated
 - bnc_keg: none, can't make the mod's own lahoh_spongy_flatbread_i_step_6, and no other mod provides it
 - pnc_thermo_plant: 1 recipe, rounding 1%, estimated
+- theurgy_fermentation: none, needs a fluid it can take, and has none
 
 ### `lahoh_spongy_flatbread_i.step_8` (pan_fry)
 
@@ -50615,6 +50750,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - vd_fermenting_jar: 1 recipe, rounding 3%, estimated
 - bnc_keg: none, can't make the mod's own lahoh_spongy_flatbread_ii_step_3, and no other mod provides it
 - pnc_thermo_plant: 1 recipe, rounding 1%, estimated
+- theurgy_fermentation: none, needs a fluid it can take, and has none
 
 ### `lahoh_spongy_flatbread_ii.step_5` (pan_fry)
 
@@ -50779,6 +50915,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - create_mixing: 1 recipe, rounding 0%
 - create_splashing: 1 recipe, rounding 0%
 - fr_kettle: none, can't make the mod's own lancashire_corned_beef_hash_step_8, and no other mod provides it
+- theurgy_liquefaction: none, needs a fluid it can take, and has none
 
 ### `lancashire_corned_beef_hash.step_9` (heat)
 
@@ -50940,6 +51077,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - vd_fermenting_jar: 1 recipe, rounding 0%, estimated
 - bnc_keg: none, can't make the mod's own langos_hungarian_fried_flatbread_step_3, and no other mod provides it
 - pnc_thermo_plant: none, doesn't fit in 1 input items and 1000 mB tanks at any scale
+- theurgy_fermentation: none, needs a fluid it can take, and has none
 
 ### `langos_hungarian_fried_flatbread.step_4` (fold)
 
@@ -51190,12 +51328,14 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - create_mixing: 1 recipe, rounding 0%, estimated
 - create_splashing: 1 recipe, rounding 17% ⚠, estimated
 - fr_kettle: none, can't make the mod's own latte_di_suocera_lemon_cream_liqueur_step_2, and no other mod provides it
+- theurgy_liquefaction: none, needs a fluid it can take, and has none
 
 ### `latte_di_suocera_lemon_cream_liqueur.step_3` (steep)
 
 - create_mixing: 1 recipe, rounding 0%, estimated
 - create_splashing: 1 recipe, rounding 17% ⚠, estimated
 - fr_kettle: none, can't make the mod's own latte_di_suocera_lemon_cream_liqueur_step_3, and no other mod provides it
+- theurgy_liquefaction: none, needs a fluid it can take, and has none
 
 ### `latte_di_suocera_lemon_cream_liqueur.step_4` (strain)
 
@@ -51312,6 +51452,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - vd_fermenting_jar: 1 recipe, rounding 2%, estimated
 - bnc_keg: none, can't make the mod's own leben_middle_eastern_sour_milk_step_5, and no other mod provides it
 - pnc_thermo_plant: 1 recipe, rounding 0%, estimated
+- theurgy_fermentation: none, needs a fluid it can take, and has none
 
 ### `leben_middle_eastern_sour_milk.step_6` (mix)
 
@@ -51737,6 +51878,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - create_mixing: 1 recipe, rounding 0%, estimated
 - create_splashing: none, takes one input, not 2
 - fr_kettle: none, can't make the mod's own lemon_lime_soda_i_step_2, and no other mod provides it
+- theurgy_liquefaction: none, needs a fluid it can take, and has none
 
 ### `lemon_lime_soda_i.step_3` (strain)
 
@@ -51978,6 +52120,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - vd_fermenting_jar: 1 recipe, rounding 0%
 - bnc_keg: 1 recipe, rounding 0%
 - pnc_thermo_plant: 1 recipe, rounding 0%
+- theurgy_fermentation: none, needs a fluid it can take, and has none
 
 ### `lemon_pickle_ii.step_2` (cure)
 
@@ -52226,6 +52369,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - create_mixing: 1 recipe, rounding 0%
 - create_splashing: 1 recipe, rounding 0%
 - fr_kettle: none, can't make the mod's own lemon_rosemary_pork_tenderloin_step_2, and no other mod provides it
+- theurgy_liquefaction: none, needs a fluid it can take, and has none
 
 ### `lemon_rosemary_pork_tenderloin.step_3` (assemble)
 
@@ -53024,6 +53168,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - create_mixing: 1 recipe, rounding 2%, estimated
 - create_splashing: none, takes one input, not 2
 - fr_kettle: none, can't make the mod's own limoncello_step_2, and no other mod provides it
+- theurgy_liquefaction: none, whole items would distort it by 275%
 
 ### `limoncello.step_3` (simmer)
 
@@ -53046,6 +53191,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - create_mixing: 1 recipe, rounding 0%, estimated
 - create_splashing: 1 recipe, rounding 17% ⚠, estimated
 - fr_kettle: none, can't make the mod's own limoncello_ii_step_3, and no other mod provides it
+- theurgy_liquefaction: none, needs a fluid it can take, and has none
 
 ### `limoncello_ii.step_4` (dissolve)
 
@@ -53449,6 +53595,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - create_mixing: 3 recipes, rounding 0%, estimated
 - create_splashing: none, whole items would distort it by 150%
 - fr_kettle: none, can't make the mod's own london_fog_step_1, and no other mod provides it
+- theurgy_liquefaction: none, whole items would distort it by 150%
 
 ### `london_fog.step_2` (heat)
 
@@ -53515,6 +53662,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - vd_fermenting_jar: 1 recipe, rounding 0%, estimated
 - bnc_keg: none, can't make the mod's own loukoumas_greek_donuts_with_honey_i_step_4, and no other mod provides it
 - pnc_thermo_plant: 1 recipe, rounding 4%, estimated
+- theurgy_fermentation: none, needs a fluid it can take, and has none
 
 ### `loukoumas_greek_donuts_with_honey_i.step_6` (fry)
 
@@ -53546,6 +53694,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - vd_fermenting_jar: 1 recipe, rounding 0%, estimated
 - bnc_keg: none, can't make the mod's own loukoumas_greek_donuts_with_honey_ii_step_4, and no other mod provides it
 - pnc_thermo_plant: 1 recipe, rounding 0%, estimated
+- theurgy_fermentation: none, needs a fluid it can take, and has none
 
 ### `loukoumas_greek_donuts_with_honey_ii.step_5` (fry)
 
@@ -53618,6 +53767,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - create_mixing: 1 recipe, rounding 0%, estimated
 - create_splashing: none, takes one input, not 3
 - fr_kettle: none, can't make the mod's own luciabullar_scandinavian_saffron_buns_step_2, and no other mod provides it
+- theurgy_liquefaction: none, takes at most 2 inputs, not 3
 
 ### `luciabullar_scandinavian_saffron_buns.step_3` (mix)
 
@@ -53639,6 +53789,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - vd_fermenting_jar: 1 recipe, rounding 0%
 - bnc_keg: none, can't make the mod's own luciabullar_scandinavian_saffron_buns_step_6, and no other mod provides it
 - pnc_thermo_plant: 1 recipe, rounding 0%
+- theurgy_fermentation: none, needs a fluid it can take, and has none
 
 ### `luciabullar_scandinavian_saffron_buns.step_7` (shape)
 
@@ -53650,6 +53801,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - vd_fermenting_jar: 1 recipe, rounding 0%
 - bnc_keg: none, can't make the mod's own luciabullar_scandinavian_saffron_buns_step_8, and no other mod provides it
 - pnc_thermo_plant: 1 recipe, rounding 0%
+- theurgy_fermentation: none, needs a fluid it can take, and has none
 
 ### `luciabullar_scandinavian_saffron_buns.step_9` (bake)
 
@@ -54416,6 +54568,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - create_mixing: none, whole items would distort it by 212%
 - create_splashing: none, takes one input, not 2
 - fr_kettle: none, can't make the mod's own magic_brownies_step_1, and no other mod provides it
+- theurgy_liquefaction: none, needs a fluid it can take, and has none
 
 ### `magic_brownies.step_2` (strain)
 
@@ -54673,12 +54826,14 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - vd_fermenting_jar: 1 recipe, rounding 7%
 - bnc_keg: none, can't make the mod's own malawach_flaky_flatbread_step_2, and no other mod provides it
 - pnc_thermo_plant: 1 recipe, rounding 7%
+- theurgy_fermentation: none, needs a fluid it can take, and has none
 
 ### `malawach_flaky_flatbread.step_3` (ferment)
 
 - vd_fermenting_jar: 1 recipe, rounding 7%
 - bnc_keg: none, can't make the mod's own malawach_flaky_flatbread_step_3, and no other mod provides it
 - pnc_thermo_plant: 1 recipe, rounding 7%
+- theurgy_fermentation: none, needs a fluid it can take, and has none
 
 ### `malawach_flaky_flatbread.step_4` (shape)
 
@@ -54695,6 +54850,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - vd_fermenting_jar: 1 recipe, rounding 6%
 - bnc_keg: none, can't make the mod's own malawach_flaky_flatbread_step_6, and no other mod provides it
 - pnc_thermo_plant: 1 recipe, rounding 17% ⚠
+- theurgy_fermentation: none, needs a fluid it can take, and has none
 
 ### `malawach_flaky_flatbread.step_7` (shape)
 
@@ -54706,6 +54862,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - vd_fermenting_jar: 1 recipe, rounding 6%
 - bnc_keg: none, can't make the mod's own malawach_flaky_flatbread_step_8, and no other mod provides it
 - pnc_thermo_plant: 1 recipe, rounding 17% ⚠
+- theurgy_fermentation: none, needs a fluid it can take, and has none
 
 ### `malpua_south_asian_sweet_pancake.step_1` (evaporate)
 
@@ -55442,6 +55599,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - create_mixing: 1 recipe, rounding 0%, estimated
 - create_splashing: 1 recipe, rounding 17% ⚠, estimated
 - fr_kettle: none, makes 1 things; at most 1 fit
+- theurgy_liquefaction: none, needs a fluid it can take, and has none
 
 ### `marinated_mackerel.step_1` (assemble)
 
@@ -55686,12 +55844,14 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - vd_fermenting_jar: none, whole items would distort it by 534%
 - bnc_keg: none, can't make the mod's own masa_hausa_rice_pancake_step_4, and no other mod provides it
 - pnc_thermo_plant: none, takes at most 2 inputs, not 3
+- theurgy_fermentation: none, needs a fluid it can take, and has none
 
 ### `masa_hausa_rice_pancake.step_5` (ferment)
 
 - vd_fermenting_jar: 1 recipe, rounding 14%, estimated
 - bnc_keg: none, can't make the mod's own masa_hausa_rice_pancake_step_5, and no other mod provides it
 - pnc_thermo_plant: 1 recipe, rounding 1%, estimated
+- theurgy_fermentation: none, needs a fluid it can take, and has none
 
 ### `masa_hausa_rice_pancake.step_6` (season)
 
@@ -55733,6 +55893,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - create_mixing: 1 recipe, rounding 6%, estimated
 - create_splashing: none, takes one input, not 12
 - fr_kettle: none, can't make the mod's own masala_chai_ii_step_1, and no other mod provides it
+- theurgy_liquefaction: none, takes at most 2 inputs, not 13
 
 ### `masala_chai_ii.step_2` (mix)
 
@@ -55774,6 +55935,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - vd_fermenting_jar: 1 recipe, rounding 2%, estimated
 - bnc_keg: none, can't make the mod's own masala_dosa_step_2, and no other mod provides it
 - pnc_thermo_plant: 1 recipe, rounding 2%, estimated
+- theurgy_fermentation: none, needs a fluid it can take, and has none
 
 ### `masala_dosa.step_4` (fry)
 
@@ -55974,6 +56136,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - vd_fermenting_jar: 1 recipe, rounding 13%
 - bnc_keg: none, can't make the mod's own masyaura_nepali_fermented_vegetable_balls_step_3, and no other mod provides it
 - pnc_thermo_plant: 1 recipe, rounding 13%
+- theurgy_fermentation: none, needs a fluid it can take, and has none
 
 ### `masyaura_nepali_fermented_vegetable_balls.step_4` (shape)
 
@@ -56389,6 +56552,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - vd_fermenting_jar: 1 recipe, rounding 6%, estimated
 - bnc_keg: none, can't make the mod's own mbulawu_malawian_fermented_millet_porridge_step_6, and no other mod provides it
 - pnc_thermo_plant: 1 recipe, rounding 16% ⚠, estimated
+- theurgy_fermentation: none, needs a fluid it can take, and has none
 
 ### `mbulawu_malawian_fermented_millet_porridge.step_7` (heat)
 
@@ -58293,6 +58457,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - vd_fermenting_jar: 1 recipe, rounding 13%
 - bnc_keg: none, can't make the mod's own mini_herb_baguettes_step_4, and no other mod provides it
 - pnc_thermo_plant: 1 recipe, rounding 15% ⚠
+- theurgy_fermentation: none, needs a fluid it can take, and has none
 
 ### `mini_herb_baguettes.step_5` (bake)
 
@@ -58339,6 +58504,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - create_mixing: none, whole items would distort it by 2924%
 - create_splashing: none, takes one input, not 2
 - fr_kettle: none, can't make the mod's own mint_tea_step_3, and no other mod provides it
+- theurgy_liquefaction: none, needs a fluid it can take, and has none
 
 ### `mint_tea.step_4` (mix)
 
@@ -58450,6 +58616,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - vd_fermenting_jar: 1 recipe, rounding 10%, estimated
 - bnc_keg: 1 recipe, rounding 10%, estimated
 - pnc_thermo_plant: 1 recipe, rounding 10%, estimated
+- theurgy_fermentation: none, needs a fluid it can take, and has none
 
 ### `miso_soup.step_1` (heat)
 
@@ -59039,6 +59206,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - vd_fermenting_jar: 1 recipe, rounding 1%
 - bnc_keg: none, can't make the mod's own mofletta_maghrebi_pancake_step_5, and no other mod provides it
 - pnc_thermo_plant: 1 recipe, rounding 1%
+- theurgy_fermentation: none, needs a fluid it can take, and has none
 
 ### `mofletta_maghrebi_pancake.step_6` (shape)
 
@@ -59353,6 +59521,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - create_mixing: 1 recipe, rounding 0%
 - create_splashing: 1 recipe, rounding 0%
 - fr_kettle: none, makes 1 things; at most 1 fit
+- theurgy_liquefaction: none, needs a fluid it can take, and has none
 
 ### `moroccan_soup.step_1` (fry)
 
@@ -59488,6 +59657,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - create_mixing: 1 recipe, rounding 0%
 - create_splashing: 1 recipe, rounding 0%
 - fr_kettle: none, can't make the mod's own mpt_mozzarella_pasta_with_tomato_and_basil_step_5, and no other mod provides it
+- theurgy_liquefaction: none, needs a fluid it can take, and has none
 
 ### `mpt_mozzarella_pasta_with_tomato_and_basil.step_6` (boil)
 
@@ -59981,6 +60151,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - vd_fermenting_jar: 1 recipe, rounding 8%
 - bnc_keg: none, can't make the mod's own mushroom_bao_buns_step_4, and no other mod provides it
 - pnc_thermo_plant: 1 recipe, rounding 8%
+- theurgy_fermentation: none, needs a fluid it can take, and has none
 
 ### `mushroom_bao_buns.step_5` (shape)
 
@@ -60007,6 +60178,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - vd_fermenting_jar: 1 recipe, rounding 8%
 - bnc_keg: none, can't make the mod's own mushroom_bao_buns_step_9, and no other mod provides it
 - pnc_thermo_plant: 1 recipe, rounding 8%
+- theurgy_fermentation: none, needs a fluid it can take, and has none
 
 ### `mushroom_barley_bean_soup.step_2` (pan_fry)
 
@@ -60584,6 +60756,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - vd_fermenting_jar: 1 recipe, rounding 9%
 - bnc_keg: none, can't make the mod's own naan_step_2, and no other mod provides it
 - pnc_thermo_plant: 1 recipe, rounding 9%
+- theurgy_fermentation: none, needs a fluid it can take, and has none
 
 ### `naan.step_3` (shape)
 
@@ -60615,6 +60788,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - vd_fermenting_jar: none, whole items would distort it by 217%
 - bnc_keg: none, can't make the mod's own naan_yeasted_step_2, and no other mod provides it
 - pnc_thermo_plant: none, whole items would distort it by 217%
+- theurgy_fermentation: none, needs a fluid it can take, and has none
 
 ### `naan_yeasted.step_3` (mix)
 
@@ -60631,6 +60805,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - vd_fermenting_jar: 1 recipe, rounding 7%
 - bnc_keg: none, can't make the mod's own naan_yeasted_step_5, and no other mod provides it
 - pnc_thermo_plant: 1 recipe, rounding 7%
+- theurgy_fermentation: none, needs a fluid it can take, and has none
 
 ### `naan_yeasted.step_6` (shape)
 
@@ -60858,6 +61033,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - vd_fermenting_jar: 1 recipe, rounding 0%
 - bnc_keg: 1 recipe, rounding 0%
 - pnc_thermo_plant: 1 recipe, rounding 0%
+- theurgy_fermentation: none, needs a fluid it can take, and has none
 
 ### `ndizi_na_nyama_tanzanian_green_bananas_with_beef.step_2` (simmer)
 
@@ -61179,6 +61355,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - vd_fermenting_jar: 1 recipe, rounding 11%
 - bnc_keg: none, can't make the mod's own new_york_city_style_pizza_step_4, and no other mod provides it
 - pnc_thermo_plant: 1 recipe, rounding 11%
+- theurgy_fermentation: none, needs a fluid it can take, and has none
 
 ### `new_york_city_style_pizza.step_6` (shape)
 
@@ -62121,6 +62298,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - vd_fermenting_jar: none, whole items would distort it by 1983%
 - bnc_keg: none, can't make the mod's own nigerian_pito_step_5, and no other mod provides it
 - pnc_thermo_plant: none, whole items would distort it by 1983%
+- theurgy_fermentation: none, needs a fluid it can take, and has none
 
 ### `nigerian_pito.step_6` (boil)
 
@@ -62158,6 +62336,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - vd_fermenting_jar: 1 recipe, rounding 12%, estimated
 - bnc_keg: none, can't make the mod's own nigerian_puff_puff_step_4, and no other mod provides it
 - pnc_thermo_plant: 1 recipe, rounding 12%, estimated
+- theurgy_fermentation: none, needs a fluid it can take, and has none
 
 ### `nigerian_puff_puff.step_7` (fry)
 
@@ -62894,6 +63073,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - vd_fermenting_jar: 1 recipe, rounding 54% ⚠
 - bnc_keg: none, can't make the mod's own north_indian_fermented_bread_batooru_step_3, and no other mod provides it
 - pnc_thermo_plant: 1 recipe, rounding 54% ⚠
+- theurgy_fermentation: none, needs a fluid it can take, and has none
 
 ### `north_indian_fermented_bread_batooru.step_4` (pan_fry)
 
@@ -62921,6 +63101,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - vd_fermenting_jar: 1 recipe, rounding 12%, estimated
 - bnc_keg: none, can't make the mod's own north_staffordshire_oatcakes_step_4, and no other mod provides it
 - pnc_thermo_plant: 1 recipe, rounding 0%, estimated
+- theurgy_fermentation: none, needs a fluid it can take, and has none
 
 ### `north_staffordshire_oatcakes.step_5` (pan_fry)
 
@@ -64098,6 +64279,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - vd_fermenting_jar: 1 recipe, rounding 4%
 - bnc_keg: none, can't make the mod's own olive_oil_bread_step_4, and no other mod provides it
 - pnc_thermo_plant: 1 recipe, rounding 17% ⚠
+- theurgy_fermentation: none, needs a fluid it can take, and has none
 
 ### `olive_oil_bread.step_5` (shape)
 
@@ -64109,6 +64291,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - vd_fermenting_jar: 1 recipe, rounding 4%
 - bnc_keg: none, can't make the mod's own olive_oil_bread_step_6, and no other mod provides it
 - pnc_thermo_plant: 1 recipe, rounding 17% ⚠
+- theurgy_fermentation: none, needs a fluid it can take, and has none
 
 ### `olive_oil_bread.step_8` (bake)
 
@@ -64174,12 +64357,14 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - create_mixing: 1 recipe, rounding 0%, estimated
 - create_splashing: 1 recipe, rounding 17% ⚠, estimated
 - fr_kettle: none, can't make the mod's own one_cup_chai_step_3, and no other mod provides it
+- theurgy_liquefaction: none, needs a fluid it can take, and has none
 
 ### `one_cup_chai.step_4` (steep)
 
 - create_mixing: none, whole items would distort it by 204%
 - create_splashing: none, takes one input, not 2
 - fr_kettle: none, can't make the mod's own one_cup_chai_step_4, and no other mod provides it
+- theurgy_liquefaction: none, needs a fluid it can take, and has none
 
 ### `one_cup_chai.step_5` (simmer)
 
@@ -64526,6 +64711,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - create_mixing: 1 recipe, rounding 0%, estimated
 - create_splashing: none, takes one input, not 2
 - fr_kettle: none, can't make the mod's own orange_soda_ii_step_2, and no other mod provides it
+- theurgy_liquefaction: none, needs a fluid it can take, and has none
 
 ### `orange_soda_ii.step_3` (strain)
 
@@ -65300,6 +65486,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - vd_fermenting_jar: 1 recipe, rounding 5%
 - bnc_keg: none, can't make the mod's own pain_au_levain_naturel_step_10, and no other mod provides it
 - pnc_thermo_plant: 1 recipe, rounding 5%
+- theurgy_fermentation: none, needs a fluid it can take, and has none
 
 ### `pain_au_levain_naturel.step_11` (separate)
 
@@ -65317,6 +65504,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - vd_fermenting_jar: 1 recipe, rounding 5%
 - bnc_keg: none, can't make the mod's own pain_au_levain_naturel_step_13, and no other mod provides it
 - pnc_thermo_plant: 1 recipe, rounding 5%
+- theurgy_fermentation: none, needs a fluid it can take, and has none
 
 ### `pain_au_levain_naturel.step_14` (cut)
 
@@ -65333,12 +65521,14 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - vd_fermenting_jar: 1 recipe, rounding 11%
 - bnc_keg: none, can't make the mod's own pain_au_levain_naturel_step_2, and no other mod provides it
 - pnc_thermo_plant: 1 recipe, rounding 11%
+- theurgy_fermentation: none, needs a fluid it can take, and has none
 
 ### `pain_au_levain_naturel.step_3` (ferment)
 
 - vd_fermenting_jar: 1 recipe, rounding 11%, estimated
 - bnc_keg: none, can't make the mod's own pain_au_levain_naturel_step_3, and no other mod provides it
 - pnc_thermo_plant: 1 recipe, rounding 11%, estimated
+- theurgy_fermentation: none, needs a fluid it can take, and has none
 
 ### `pain_au_levain_naturel.step_4` (mix)
 
@@ -65355,6 +65545,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - vd_fermenting_jar: 1 recipe, rounding 11%
 - bnc_keg: none, can't make the mod's own pain_au_levain_naturel_step_7, and no other mod provides it
 - pnc_thermo_plant: 1 recipe, rounding 11%
+- theurgy_fermentation: none, needs a fluid it can take, and has none
 
 ### `pain_au_levain_naturel.step_8` (mix)
 
@@ -65381,6 +65572,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - create_mixing: 1 recipe, rounding 52% ⚠, estimated
 - create_splashing: none, takes one input, not 2
 - fr_kettle: none, can't make the mod's own pakistani_chai_step_3, and no other mod provides it
+- theurgy_liquefaction: none, needs a fluid it can take, and has none
 
 ### `pakistani_chai.step_4` (mix)
 
@@ -65512,6 +65704,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - create_mixing: 1 recipe, rounding 100% ⚠
 - create_splashing: none, takes one input, not 2
 - fr_kettle: none, can't make the mod's own palm_fruit_with_syrup_step_4, and no other mod provides it
+- theurgy_liquefaction: none, needs a fluid it can take, and has none
 
 ### `palm_fruit_with_syrup.step_5` (chill)
 
@@ -65522,6 +65715,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - vd_fermenting_jar: none, whole items would distort it by 421%
 - bnc_keg: none, can't make the mod's own pan_de_jamon_step_1, and no other mod provides it
 - pnc_thermo_plant: none, takes at most 2 inputs, not 3
+- theurgy_fermentation: none, whole items would distort it by 421%
 
 ### `pan_de_jamon.step_10` (shape)
 
@@ -65543,6 +65737,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - vd_fermenting_jar: 1 recipe, rounding 0%
 - bnc_keg: none, can't make the mod's own pan_de_jamon_step_13, and no other mod provides it
 - pnc_thermo_plant: 1 recipe, rounding 0%
+- theurgy_fermentation: none, needs a fluid it can take, and has none
 
 ### `pan_de_jamon.step_14` (bake)
 
@@ -65574,6 +65769,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - vd_fermenting_jar: 1 recipe, rounding 0%
 - bnc_keg: none, can't make the mod's own pan_de_jamon_step_5, and no other mod provides it
 - pnc_thermo_plant: 1 recipe, rounding 0%
+- theurgy_fermentation: none, needs a fluid it can take, and has none
 
 ### `pan_de_jamon.step_6` (shape)
 
@@ -65689,6 +65885,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - create_mixing: 1 recipe, rounding 6%, estimated
 - create_splashing: none, takes one input, not 2
 - fr_kettle: none, can't make the mod's own pan_seared_chicken_breast_step_1, and no other mod provides it
+- theurgy_liquefaction: none, needs a fluid it can take, and has none
 
 ### `pan_seared_chicken_breast.step_2` (strain)
 
@@ -67565,6 +67762,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - create_mixing: 1 recipe, rounding 0%, estimated
 - create_splashing: none, takes one input, not 6
 - fr_kettle: none, can't make the mod's own pear_chutney_step_4, and no other mod provides it
+- theurgy_liquefaction: none, takes at most 2 inputs, not 6
 
 ### `pear_chutney.step_5` (simmer)
 
@@ -68220,6 +68418,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - vd_fermenting_jar: 1 recipe, rounding 0%
 - bnc_keg: none, can't make the mod's own perfect_three_course_dinner_step_4, and no other mod provides it
 - pnc_thermo_plant: 1 recipe, rounding 0%
+- theurgy_fermentation: none, needs a fluid it can take, and has none
 
 ### `perfect_three_course_dinner.step_5` (bake)
 
@@ -68590,6 +68789,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - vd_fermenting_jar: 1 recipe, rounding 0%
 - bnc_keg: none, can't make the mod's own pickert_german_potato_dumpling_step_3, and no other mod provides it
 - pnc_thermo_plant: 1 recipe, rounding 0%
+- theurgy_fermentation: none, needs a fluid it can take, and has none
 
 ### `pickert_german_potato_dumpling.step_5` (fry)
 
@@ -68672,6 +68872,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - create_mixing: 1 recipe, rounding 3%, estimated
 - create_splashing: none, takes one input, not 8
 - fr_kettle: none, can't make the mod's own pickled_herring_step_3, and no other mod provides it
+- theurgy_liquefaction: none, takes at most 2 inputs, not 8
 
 ### `pickled_herring.step_4` (assemble)
 
@@ -68729,6 +68930,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - create_mixing: 1 recipe, rounding 0%
 - create_splashing: 1 recipe, rounding 0%
 - fr_kettle: none, makes 1 things; at most 1 fit
+- theurgy_liquefaction: none, needs a fluid it can take, and has none
 
 ### `pie_floater.step_1` (bake)
 
@@ -68947,6 +69149,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - vd_fermenting_jar: 1 recipe, rounding 4%, estimated
 - bnc_keg: none, can't make the mod's own pikelet_australian_mini_pancakes_step_5, and no other mod provides it
 - pnc_thermo_plant: 1 recipe, rounding 1%, estimated
+- theurgy_fermentation: none, needs a fluid it can take, and has none
 
 ### `pikelet_australian_mini_pancakes.step_6` (dissolve)
 
@@ -69247,6 +69450,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - vd_fermenting_jar: 1 recipe, rounding 0%
 - bnc_keg: none, can't make the mod's own pita_step_2, and no other mod provides it
 - pnc_thermo_plant: 1 recipe, rounding 0%
+- theurgy_fermentation: none, needs a fluid it can take, and has none
 
 ### `pita.step_3` (shape)
 
@@ -69263,6 +69467,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - vd_fermenting_jar: 1 recipe, rounding 0%
 - bnc_keg: none, can't make the mod's own pita_step_5, and no other mod provides it
 - pnc_thermo_plant: 1 recipe, rounding 0%
+- theurgy_fermentation: none, needs a fluid it can take, and has none
 
 ### `pita.step_6` (bake)
 
@@ -69279,6 +69484,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - vd_fermenting_jar: 1 recipe, rounding 9%, estimated
 - bnc_keg: none, can't make the mod's own pizza_dough_step_2, and no other mod provides it
 - pnc_thermo_plant: 1 recipe, rounding 9%, estimated
+- theurgy_fermentation: none, needs a fluid it can take, and has none
 
 ### `pizza_dough.step_3` (shape)
 
@@ -69559,6 +69765,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - vd_fermenting_jar: 1 recipe, rounding 14%, estimated
 - bnc_keg: none, can't make the mod's own ployes_step_4, and no other mod provides it
 - pnc_thermo_plant: 1 recipe, rounding 1%, estimated
+- theurgy_fermentation: none, needs a fluid it can take, and has none
 
 ### `ployes.step_6` (shape)
 
@@ -69690,6 +69897,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - vd_fermenting_jar: 1 recipe, rounding 0%
 - bnc_keg: none, can't make the mod's own polish_doughnuts_paczki_step_3, and no other mod provides it
 - pnc_thermo_plant: 1 recipe, rounding 0%
+- theurgy_fermentation: none, needs a fluid it can take, and has none
 
 ### `polish_doughnuts_paczki.step_4` (shape)
 
@@ -69701,6 +69909,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - vd_fermenting_jar: 1 recipe, rounding 0%
 - bnc_keg: none, can't make the mod's own polish_doughnuts_paczki_step_5, and no other mod provides it
 - pnc_thermo_plant: 1 recipe, rounding 0%
+- theurgy_fermentation: none, needs a fluid it can take, and has none
 
 ### `polish_doughnuts_paczki.step_6` (fry)
 
@@ -71001,6 +71210,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - vd_fermenting_jar: 1 recipe, rounding 0%
 - bnc_keg: none, can't make the mod's own potato_langos_step_6, and no other mod provides it
 - pnc_thermo_plant: 1 recipe, rounding 0%
+- theurgy_fermentation: none, needs a fluid it can take, and has none
 
 ### `potato_langos.step_7` (shape)
 
@@ -71325,7 +71535,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `potatoes_anna.step_3` (dry)
 
-No routes: should happen over time, but skipping it would lose what it makes.
+- hexerei_drying_rack: none, takes one input, not 2
 
 ### `potatoes_anna.step_4` (assemble)
 
@@ -73045,6 +73255,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - vd_fermenting_jar: 1 recipe, rounding 0%, estimated
 - bnc_keg: 1 recipe, rounding 0%, estimated
 - pnc_thermo_plant: 1 recipe, rounding 0%, estimated
+- theurgy_fermentation: none, needs a fluid it can take, and has none
 
 ### `quick_finnish_lemon_mead_sima.step_2` (press)
 
@@ -73067,12 +73278,14 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - vd_fermenting_jar: 1 recipe, rounding 0%, estimated
 - bnc_keg: none, can't make the mod's own quick_finnish_lemon_mead_sima_step_7, and no other mod provides it
 - pnc_thermo_plant: 1 recipe, rounding 4%, estimated
+- theurgy_fermentation: none, needs a fluid it can take, and has none
 
 ### `quick_finnish_lemon_mead_sima.step_8` (ferment)
 
 - vd_fermenting_jar: 1 recipe, rounding 0%, estimated
 - bnc_keg: none, can't make the mod's own quick_finnish_lemon_mead_sima_step_8, and no other mod provides it
 - pnc_thermo_plant: 1 recipe, rounding 4%, estimated
+- theurgy_fermentation: none, needs a fluid it can take, and has none
 
 ### `quick_guacamole_i.step_1` (grind)
 
@@ -73154,12 +73367,14 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - vd_fermenting_jar: 1 recipe, rounding 0%, estimated
 - bnc_keg: none, can't make the mod's own quick_sourdough_starter_step_2, and no other mod provides it
 - pnc_thermo_plant: 1 recipe, rounding 0%, estimated
+- theurgy_fermentation: none, needs a fluid it can take, and has none
 
 ### `quick_sourdough_starter.step_3` (ferment)
 
 - vd_fermenting_jar: 1 recipe, rounding 11%, estimated
 - bnc_keg: 1 recipe, rounding 11%, estimated
 - pnc_thermo_plant: 1 recipe, rounding 6%, estimated
+- theurgy_fermentation: none, needs a fluid it can take, and has none
 
 ### `quick_sparkling_lemonade.step_1` (assemble)
 
@@ -73438,6 +73653,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - vd_fermenting_jar: 1 recipe, rounding 5%, estimated
 - bnc_keg: none, can't make the mod's own ragi_dosa_south_indian_millet_and_rice_pancake_step_3, and no other mod provides it
 - pnc_thermo_plant: 1 recipe, rounding 0%, estimated
+- theurgy_fermentation: none, needs a fluid it can take, and has none
 
 ### `ragi_dosa_south_indian_millet_and_rice_pancake.step_4` (season)
 
@@ -73906,6 +74122,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - create_mixing: 1 recipe, rounding 5%
 - create_splashing: none, takes one input, not 2
 - fr_kettle: none, can't make the mod's own raspberry_vinegar_step_1, and no other mod provides it
+- theurgy_liquefaction: none, needs a fluid it can take, and has none
 
 ### `raspberry_vinegar.step_2` (mix)
 
@@ -74320,6 +74537,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - vd_fermenting_jar: 1 recipe, rounding 1%
 - bnc_keg: none, can't make the mod's own reindling_austrian_yeasted_easter_cake_step_2, and no other mod provides it
 - pnc_thermo_plant: 1 recipe, rounding 19% ⚠
+- theurgy_fermentation: none, needs a fluid it can take, and has none
 
 ### `reindling_austrian_yeasted_easter_cake.step_3` (knead)
 
@@ -75127,6 +75345,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - create_mixing: 1 recipe, rounding 9%
 - create_splashing: 1 recipe, rounding 9%
 - fr_kettle: none, makes 1 things; at most 1 fit
+- theurgy_liquefaction: none, needs a fluid it can take, and has none
 
 ### `rice_with_coconut_arroz_con_coco.step_1` (simmer)
 
@@ -76333,7 +76552,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `roasted_spiced_chicken_drumsticks.step_3` (dry)
 
-No routes: should happen over time, but skipping it would lose what it makes.
+- hexerei_drying_rack: none, takes one input, not 2
 
 ### `roasted_spiced_chicken_drumsticks.step_4` (coat)
 
@@ -76660,6 +76879,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - create_mixing: none, whole items would distort it by 2924%
 - create_splashing: none, takes one input, not 2
 - fr_kettle: none, can't make the mod's own rooibos_tea_step_2, and no other mod provides it
+- theurgy_liquefaction: none, needs a fluid it can take, and has none
 
 ### `rooibos_tea.step_3` (mix)
 
@@ -76754,6 +76974,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - vd_fermenting_jar: none, whole items would distort it by 323%
 - bnc_keg: none, can't make the mod's own rosemary_bread_step_1, and no other mod provides it
 - pnc_thermo_plant: none, takes at most 2 inputs, not 3
+- theurgy_fermentation: none, whole items would distort it by 323%
 
 ### `rosemary_bread.step_2` (knead)
 
@@ -76770,6 +76991,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - vd_fermenting_jar: 1 recipe, rounding 4%
 - bnc_keg: none, can't make the mod's own rosemary_bread_step_4, and no other mod provides it
 - pnc_thermo_plant: 1 recipe, rounding 4%
+- theurgy_fermentation: none, needs a fluid it can take, and has none
 
 ### `rosemary_bread.step_5` (separate)
 
@@ -76839,6 +77061,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - create_mixing: 1 recipe, rounding 6%, estimated
 - create_splashing: none, takes one input, not 4
 - fr_kettle: none, can't make the mod's own rosemary_garlic_oil_step_1, and no other mod provides it
+- theurgy_liquefaction: none, takes at most 2 inputs, not 4
 
 ### `rosemary_garlic_oil.step_2` (strain)
 
@@ -77361,6 +77584,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - vd_fermenting_jar: 1 recipe, rounding 3%
 - bnc_keg: none, can't make the mod's own rustic_beer_bread_step_4, and no other mod provides it
 - pnc_thermo_plant: 1 recipe, rounding 3%
+- theurgy_fermentation: none, needs a fluid it can take, and has none
 
 ### `rustic_beer_bread.step_5` (bake)
 
@@ -77412,6 +77636,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - vd_fermenting_jar: 1 recipe, rounding 4%, estimated
 - bnc_keg: none, can't make the mod's own rye_bread_step_4, and no other mod provides it
 - pnc_thermo_plant: 1 recipe, rounding 4%, estimated
+- theurgy_fermentation: none, needs a fluid it can take, and has none
 
 ### `rye_bread.step_5` (mix)
 
@@ -77717,6 +77942,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - create_mixing: 1 recipe, rounding 6%, estimated
 - create_splashing: none, takes one input, not 2
 - fr_kettle: none, can't make the mod's own saffron_rice_step_2, and no other mod provides it
+- theurgy_liquefaction: none, needs a fluid it can take, and has none
 
 ### `saffron_rice.step_3` (heat)
 
@@ -77900,6 +78126,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - vd_fermenting_jar: 1 recipe, rounding 5%
 - bnc_keg: none, can't make the mod's own saj_bread_ii_step_2, and no other mod provides it
 - pnc_thermo_plant: 1 recipe, rounding 16% ⚠
+- theurgy_fermentation: none, needs a fluid it can take, and has none
 
 ### `saj_bread_ii.step_3` (shape)
 
@@ -77921,6 +78148,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - vd_fermenting_jar: 1 recipe, rounding 2%
 - bnc_keg: none, can't make the mod's own saj_bread_iii_step_2, and no other mod provides it
 - pnc_thermo_plant: 1 recipe, rounding 2%
+- theurgy_fermentation: none, needs a fluid it can take, and has none
 
 ### `saj_bread_iii.step_3` (shape)
 
@@ -78300,12 +78528,14 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - vd_fermenting_jar: 1 recipe, rounding 0%
 - bnc_keg: none, can't make the mod's own salsa_fermented_step_8, and no other mod provides it
 - pnc_thermo_plant: 1 recipe, rounding 0%
+- theurgy_fermentation: none, needs a fluid it can take, and has none
 
 ### `salsa_fermented.step_9` (ferment)
 
 - vd_fermenting_jar: 1 recipe, rounding 0%
 - bnc_keg: 1 recipe, rounding 0%
 - pnc_thermo_plant: 1 recipe, rounding 0%
+- theurgy_fermentation: none, needs a fluid it can take, and has none
 
 ### `salsa_fresca.step_1` (chop)
 
@@ -78751,12 +78981,14 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - vd_fermenting_jar: 1 recipe, rounding 1%
 - bnc_keg: none, can't make the mod's own grape_ferment, and no other mod provides it
 - pnc_thermo_plant: 1 recipe, rounding 32% ⚠
+- theurgy_fermentation: none, needs a fluid it can take, and has none
 
 ### `san_francisco_sourdough_bread.step_10` (ferment)
 
 - vd_fermenting_jar: 1 recipe, rounding 9%
 - bnc_keg: none, can't make the mod's own san_francisco_sourdough_bread_step_10, and no other mod provides it
 - pnc_thermo_plant: 1 recipe, rounding 9%
+- theurgy_fermentation: none, needs a fluid it can take, and has none
 
 ### `san_francisco_sourdough_bread.step_11` (shape)
 
@@ -78768,6 +79000,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - vd_fermenting_jar: 1 recipe, rounding 9%
 - bnc_keg: none, can't make the mod's own san_francisco_sourdough_bread_step_12, and no other mod provides it
 - pnc_thermo_plant: 1 recipe, rounding 9%
+- theurgy_fermentation: none, needs a fluid it can take, and has none
 
 ### `san_francisco_sourdough_bread.step_13` (coat)
 
@@ -78800,18 +79033,21 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - vd_fermenting_jar: 1 recipe, rounding 17% ⚠, estimated
 - bnc_keg: none, can't make the mod's own san_francisco_sourdough_bread_step_4, and no other mod provides it
 - pnc_thermo_plant: 1 recipe, rounding 10%, estimated
+- theurgy_fermentation: none, needs a fluid it can take, and has none
 
 ### `san_francisco_sourdough_bread.step_5` (ferment)
 
 - vd_fermenting_jar: 1 recipe, rounding 6%, estimated
 - bnc_keg: none, can't make the mod's own san_francisco_sourdough_bread_step_5, and no other mod provides it
 - pnc_thermo_plant: 1 recipe, rounding 1%, estimated
+- theurgy_fermentation: none, needs a fluid it can take, and has none
 
 ### `san_francisco_sourdough_bread.step_6` (ferment)
 
 - vd_fermenting_jar: 1 recipe, rounding 6%, estimated
 - bnc_keg: none, can't make the mod's own san_francisco_sourdough_bread_step_6, and no other mod provides it
 - pnc_thermo_plant: none, takes at most 2 inputs, not 3
+- theurgy_fermentation: 1 recipe, rounding 26% ⚠, estimated
 
 ### `san_francisco_sourdough_bread.step_7` (mix)
 
@@ -79225,12 +79461,14 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - vd_fermenting_jar: 1 recipe, rounding 13%
 - bnc_keg: none, can't make the mod's own sauerkraut_i_step_8, and no other mod provides it
 - pnc_thermo_plant: none, doesn't fit in 1 input items and 1000 mB tanks at any scale
+- theurgy_fermentation: none, needs a fluid it can take, and has none
 
 ### `sauerkraut_i.step_9` (ferment)
 
 - vd_fermenting_jar: 1 recipe, rounding 6%
 - bnc_keg: none, can't make the mod's own sauerkraut_i_step_9, and no other mod provides it
 - pnc_thermo_plant: none, doesn't fit in 1 input items and 1000 mB tanks at any scale
+- theurgy_fermentation: none, needs a fluid it can take, and has none
 
 ### `sauerkraut_ii.step_1` (separate)
 
@@ -79270,12 +79508,14 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - vd_fermenting_jar: 1 recipe, rounding 3%
 - bnc_keg: none, can't make the mod's own sauerkraut_ii_step_7, and no other mod provides it
 - pnc_thermo_plant: none, doesn't fit in 1 input items and 1000 mB tanks at any scale
+- theurgy_fermentation: none, needs a fluid it can take, and has none
 
 ### `sauerkraut_ii.step_8` (ferment)
 
 - vd_fermenting_jar: 1 recipe, rounding 3%
 - bnc_keg: 1 recipe, rounding 3%
 - pnc_thermo_plant: none, doesn't fit in 1 input items and 1000 mB tanks at any scale
+- theurgy_fermentation: none, needs a fluid it can take, and has none
 
 ### `sauerkraut_pierogi_filling.step_1` (boil)
 
@@ -80369,6 +80609,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - vd_fermenting_jar: 1 recipe, rounding 6%, estimated
 - bnc_keg: none, can't make the mod's own serbian_flatbread_lepinja_step_1, and no other mod provides it
 - pnc_thermo_plant: none, takes at most 2 inputs, not 4
+- theurgy_fermentation: none, takes at most 3 inputs, not 4
 
 ### `serbian_flatbread_lepinja.step_2` (mix)
 
@@ -80385,6 +80626,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - vd_fermenting_jar: 1 recipe, rounding 6%
 - bnc_keg: none, can't make the mod's own serbian_flatbread_lepinja_step_4, and no other mod provides it
 - pnc_thermo_plant: 1 recipe, rounding 6%
+- theurgy_fermentation: none, needs a fluid it can take, and has none
 
 ### `serbian_flatbread_lepinja.step_5` (knead)
 
@@ -81835,6 +82077,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - vd_fermenting_jar: 1 recipe, rounding 6%, estimated
 - bnc_keg: none, can't make the mod's own sinasir_nigerian_rice_pancake_step_3, and no other mod provides it
 - pnc_thermo_plant: none, takes at most 2 inputs, not 3
+- theurgy_fermentation: none, needs a fluid it can take, and has none
 
 ### `sinasir_nigerian_rice_pancake.step_4` (mix)
 
@@ -82932,6 +83175,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - vd_fermenting_jar: 1 recipe, rounding 14%, estimated
 - bnc_keg: none, can't make the mod's own sockerdricka_swedish_ginger_drink_step_3, and no other mod provides it
 - pnc_thermo_plant: 1 recipe, rounding 0%, estimated
+- theurgy_fermentation: none, needs a fluid it can take, and has none
 
 ### `sockerdricka_swedish_ginger_drink.step_4` (assemble)
 
@@ -83327,12 +83571,14 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - vd_fermenting_jar: 1 recipe, rounding 0%
 - bnc_keg: none, can't make the mod's own sour_mashed_sweet_potato_step_7, and no other mod provides it
 - pnc_thermo_plant: 1 recipe, rounding 0%
+- theurgy_fermentation: none, needs a fluid it can take, and has none
 
 ### `sour_mashed_sweet_potato.step_8` (ferment)
 
 - vd_fermenting_jar: 1 recipe, rounding 0%
 - bnc_keg: 1 recipe, rounding 0%
 - pnc_thermo_plant: 1 recipe, rounding 0%
+- theurgy_fermentation: none, needs a fluid it can take, and has none
 
 ### `sour_mix_vegan.step_1` (mix)
 
@@ -83359,6 +83605,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - vd_fermenting_jar: 1 recipe, rounding 4%, estimated
 - bnc_keg: none, can't make the mod's own sourdough_starter_recipe_step_2, and no other mod provides it
 - pnc_thermo_plant: 1 recipe, rounding 2%, estimated
+- theurgy_fermentation: none, needs a fluid it can take, and has none
 
 ### `sourdough_starter_recipe.step_3` (mix)
 
@@ -83370,12 +83617,14 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - vd_fermenting_jar: 1 recipe, rounding 4%, estimated
 - bnc_keg: none, can't make the mod's own sourdough_starter_recipe_step_4, and no other mod provides it
 - pnc_thermo_plant: 1 recipe, rounding 2%, estimated
+- theurgy_fermentation: none, needs a fluid it can take, and has none
 
 ### `sourdough_starter_recipe.step_5` (ferment)
 
 - vd_fermenting_jar: 1 recipe, rounding 4%, estimated
 - bnc_keg: 1 recipe, rounding 4%, estimated
 - pnc_thermo_plant: 1 recipe, rounding 10%, estimated
+- theurgy_fermentation: none, needs a fluid it can take, and has none
 
 ### `south_african_curry_and_rice.step_1` (pan_fry)
 
@@ -83792,6 +84041,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - vd_fermenting_jar: 1 recipe, rounding 0%
 - bnc_keg: none, can't make the mod's own soy_protein_bread_step_5, and no other mod provides it
 - pnc_thermo_plant: 1 recipe, rounding 0%
+- theurgy_fermentation: none, needs a fluid it can take, and has none
 
 ### `soy_protein_bread.step_6` (shape)
 
@@ -83803,6 +84053,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - vd_fermenting_jar: 1 recipe, rounding 0%
 - bnc_keg: none, can't make the mod's own soy_protein_bread_step_7, and no other mod provides it
 - pnc_thermo_plant: 1 recipe, rounding 0%
+- theurgy_fermentation: none, needs a fluid it can take, and has none
 
 ### `soy_protein_bread.step_8` (bake)
 
@@ -84537,6 +84788,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - vd_fermenting_jar: 1 recipe, rounding 8%
 - bnc_keg: none, can't make the mod's own spelt_bread_step_4, and no other mod provides it
 - pnc_thermo_plant: 1 recipe, rounding 8%
+- theurgy_fermentation: none, needs a fluid it can take, and has none
 
 ### `spelt_bread.step_5` (bake)
 
@@ -85126,6 +85378,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - create_mixing: 1 recipe, rounding 0%, estimated
 - create_splashing: 1 recipe, rounding 17% ⚠, estimated
 - fr_kettle: none, can't make the mod's own spicy_garlic_oil_step_2, and no other mod provides it
+- theurgy_liquefaction: none, needs a fluid it can take, and has none
 
 ### `spicy_garlic_oil.step_3` (strain)
 
@@ -85182,6 +85435,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - create_mixing: 1 recipe, rounding 13%, estimated
 - create_splashing: none, takes one input, not 2
 - fr_kettle: none, can't make the mod's own spicy_miso_udon_step_1, and no other mod provides it
+- theurgy_liquefaction: none, needs a fluid it can take, and has none
 
 ### `spicy_miso_udon.step_10` (coagulate)
 
@@ -85783,7 +86037,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 
 ### `springerle.step_5` (dry)
 
-No routes: should happen over time, but skipping it would lose what it makes.
+- hexerei_drying_rack: none, takes one input, not 2
 
 ### `springerle.step_6` (bake)
 
@@ -86416,6 +86670,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - vd_fermenting_jar: 1 recipe, rounding 11%
 - bnc_keg: none, can't make the mod's own steamed_buns_with_bbq_pork_step_11, and no other mod provides it
 - pnc_thermo_plant: 1 recipe, rounding 11%
+- theurgy_fermentation: none, needs a fluid it can take, and has none
 
 ### `steamed_buns_with_bbq_pork.step_12` (steam)
 
@@ -86431,6 +86686,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - vd_fermenting_jar: 1 recipe, rounding 41% ⚠, estimated
 - bnc_keg: none, can't make the mod's own steamed_buns_with_bbq_pork_step_3, and no other mod provides it
 - pnc_thermo_plant: none, takes at most 2 inputs, not 3
+- theurgy_fermentation: 1 recipe, rounding 93% ⚠, estimated
 
 ### `steamed_buns_with_bbq_pork.step_4` (mix)
 
@@ -86447,6 +86703,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - vd_fermenting_jar: 1 recipe, rounding 11%
 - bnc_keg: none, can't make the mod's own steamed_buns_with_bbq_pork_step_6, and no other mod provides it
 - pnc_thermo_plant: 1 recipe, rounding 11%
+- theurgy_fermentation: none, needs a fluid it can take, and has none
 
 ### `steamed_buns_with_bbq_pork.step_7` (separate)
 
@@ -86585,6 +86842,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - vd_fermenting_jar: 1 recipe, rounding 0%
 - bnc_keg: none, can't make the mod's own steamed_tuna_bao_buns_step_12, and no other mod provides it
 - pnc_thermo_plant: 1 recipe, rounding 0%
+- theurgy_fermentation: none, needs a fluid it can take, and has none
 
 ### `steamed_tuna_bao_buns.step_13` (shape)
 
@@ -86626,12 +86884,14 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - vd_fermenting_jar: 1 recipe, rounding 0%
 - bnc_keg: none, can't make the mod's own steamed_tuna_bao_buns_step_6, and no other mod provides it
 - pnc_thermo_plant: 1 recipe, rounding 0%
+- theurgy_fermentation: none, needs a fluid it can take, and has none
 
 ### `steamed_tuna_bao_buns.step_7` (ferment)
 
 - vd_fermenting_jar: 1 recipe, rounding 0%
 - bnc_keg: none, can't make the mod's own steamed_tuna_bao_buns_step_7, and no other mod provides it
 - pnc_thermo_plant: 1 recipe, rounding 0%
+- theurgy_fermentation: none, needs a fluid it can take, and has none
 
 ### `steamed_tuna_bao_buns.step_8` (mix)
 
@@ -87255,6 +87515,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - create_mixing: 1 recipe, rounding 6%, estimated
 - create_splashing: none, takes one input, not 3
 - fr_kettle: none, can't make the mod's own strawberry_hibiscus_beverage_step_2, and no other mod provides it
+- theurgy_liquefaction: none, takes at most 2 inputs, not 3
 
 ### `strawberry_hibiscus_beverage.step_3` (strain)
 
@@ -87501,6 +87762,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - vd_fermenting_jar: 1 recipe, rounding 0%, estimated
 - bnc_keg: none, can't make the mod's own stroopwafels_step_4, and no other mod provides it
 - pnc_thermo_plant: 1 recipe, rounding 0%, estimated
+- theurgy_fermentation: none, needs a fluid it can take, and has none
 
 ### `stroopwafels.step_5` (bake)
 
@@ -88221,12 +88483,14 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - create_mixing: 1 recipe, rounding 4%, estimated
 - create_splashing: none, takes one input, not 2
 - fr_kettle: none, can't make the mod's own supercharger_tea_step_2, and no other mod provides it
+- theurgy_liquefaction: none, needs a fluid it can take, and has none
 
 ### `supercharger_tea.step_3` (steep)
 
 - create_mixing: 1 recipe, rounding 0%, estimated
 - create_splashing: 1 recipe, rounding 17% ⚠, estimated
 - fr_kettle: none, can't make the mod's own supercharger_tea_step_3, and no other mod provides it
+- theurgy_liquefaction: none, needs a fluid it can take, and has none
 
 ### `supercharger_tea.step_4` (press)
 
@@ -89723,6 +89987,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - create_mixing: 1 recipe, rounding 0%
 - create_splashing: 1 recipe, rounding 0%
 - fr_kettle: none, can't make the mod's own table_point_boiled_beef_and_vegetables_tafelspitz_step_5, and no other mod provides it
+- theurgy_liquefaction: none, needs a fluid it can take, and has none
 
 ### `table_point_boiled_beef_and_vegetables_tafelspitz.step_6` (cut)
 
@@ -89744,6 +90009,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - vd_fermenting_jar: 1 recipe, rounding 4%
 - bnc_keg: none, can't make the mod's own taboon_bread_step_3, and no other mod provides it
 - pnc_thermo_plant: 1 recipe, rounding 17% ⚠
+- theurgy_fermentation: none, needs a fluid it can take, and has none
 
 ### `taboon_bread.step_4` (shape)
 
@@ -90237,6 +90503,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - create_mixing: 1 recipe, rounding 0%
 - create_splashing: 1 recipe, rounding 0%
 - fr_kettle: none, makes 1 things; at most 1 fit
+- theurgy_liquefaction: none, needs a fluid it can take, and has none
 
 ### `tamina_algerian_semolina_honey_dessert.step_1` (toast)
 
@@ -90419,6 +90686,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - vd_fermenting_jar: 1 recipe, rounding 0%, estimated
 - bnc_keg: 1 recipe, rounding 0%, estimated
 - pnc_thermo_plant: 1 recipe, rounding 0%, estimated
+- theurgy_fermentation: none, needs a fluid it can take, and has none
 
 ### `tapalapa_gambian_bread.step_1` (mix)
 
@@ -90440,6 +90708,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - vd_fermenting_jar: 1 recipe, rounding 8%
 - bnc_keg: none, can't make the mod's own tapalapa_gambian_bread_step_4, and no other mod provides it
 - pnc_thermo_plant: 1 recipe, rounding 8%
+- theurgy_fermentation: none, needs a fluid it can take, and has none
 
 ### `tapalapa_gambian_bread.step_6` (knead)
 
@@ -90543,6 +90812,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - vd_fermenting_jar: none, whole items would distort it by 2435%
 - bnc_keg: none, can't make the mod's own tarhana_turkish_yogurt_soup_step_5, and no other mod provides it
 - pnc_thermo_plant: none, takes at most 2 inputs, not 5
+- theurgy_fermentation: none, takes at most 3 inputs, not 5
 
 ### `tarhana_turkish_yogurt_soup.step_6` (simmer)
 
@@ -90825,6 +91095,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - create_mixing: 1 recipe, rounding 0%, estimated
 - create_splashing: 1 recipe, rounding 17% ⚠, estimated
 - fr_kettle: none, can't make the mod's own tchari_jollof_rice_step_12, and no other mod provides it
+- theurgy_liquefaction: none, needs a fluid it can take, and has none
 
 ### `tchari_jollof_rice.step_13` (separate)
 
@@ -90896,12 +91167,14 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - create_mixing: 1 recipe, rounding 0%
 - create_splashing: 1 recipe, rounding 0%
 - fr_kettle: none, makes 1 things; at most 1 fit
+- theurgy_liquefaction: none, needs a fluid it can take, and has none
 
 ### `tea_extract.step_2` (steep)
 
 - create_mixing: 1 recipe, rounding 0%, estimated
 - create_splashing: none, takes one input, not 2
 - fr_kettle: none, can't make the mod's own tea_extract_step_2, and no other mod provides it
+- theurgy_liquefaction: none, needs a fluid it can take, and has none
 
 ### `tea_extract.step_3` (strain)
 
@@ -91065,6 +91338,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - vd_fermenting_jar: 1 recipe, rounding 0%
 - bnc_keg: 1 recipe, rounding 0%
 - pnc_thermo_plant: 1 recipe, rounding 0%
+- theurgy_fermentation: none, needs a fluid it can take, and has none
 
 ### `tempura.step_2` (whisk)
 
@@ -91687,6 +91961,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - vd_fermenting_jar: 1 recipe, rounding 0%
 - bnc_keg: none, can't make the mod's own thick_crust_pizza_step_8, and no other mod provides it
 - pnc_thermo_plant: 1 recipe, rounding 0%
+- theurgy_fermentation: none, needs a fluid it can take, and has none
 
 ### `thiebou_yapp.step_1` (cut)
 
@@ -92139,6 +92414,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - create_mixing: 2 recipes, rounding 4%, estimated
 - create_splashing: none, whole items would distort it by 275%
 - fr_kettle: none, can't make the mod's own coffee_steep, and no other mod provides it
+- theurgy_liquefaction: none, doesn't fit in 1 input items and 1000 mB tanks at any scale
 
 ### `tiramisu.step_10` (coat)
 
@@ -92291,6 +92567,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - create_mixing: 1 recipe, rounding 1%, estimated
 - create_splashing: 1 recipe, rounding 1%, estimated
 - fr_kettle: none, can't make the mod's own tisane_ma_louisa_algerian_lemon_herb_tea_step_3, and no other mod provides it
+- theurgy_liquefaction: none, needs a fluid it can take, and has none
 
 ### `tisane_ma_louisa_algerian_lemon_herb_tea.step_4` (strain)
 
@@ -92776,6 +93053,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - create_mixing: 1 recipe, rounding 0%, estimated
 - create_splashing: none, takes one input, not 2
 - fr_kettle: none, can't make the mod's own tomato_basil_soup_with_garlic_toasts_step_5, and no other mod provides it
+- theurgy_liquefaction: none, needs a fluid it can take, and has none
 
 ### `tomato_basil_soup_with_garlic_toasts.step_6` (assemble)
 
@@ -92951,6 +93229,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - vd_fermenting_jar: 1 recipe, rounding 12%
 - bnc_keg: none, can't make the mod's own tomato_pizza_step_3, and no other mod provides it
 - pnc_thermo_plant: 1 recipe, rounding 12%
+- theurgy_fermentation: none, needs a fluid it can take, and has none
 
 ### `tomato_pizza.step_4` (heat)
 
@@ -93359,6 +93638,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - create_mixing: 1 recipe, rounding 11%, estimated
 - create_splashing: none, whole items would distort it by 5108%
 - fr_kettle: none, can't make the mod's own traditional_british_brewed_tea_step_4, and no other mod provides it
+- theurgy_liquefaction: none, needs a fluid it can take, and has none
 
 ### `traditional_british_brewed_tea.step_5` (mix)
 
@@ -93375,12 +93655,14 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - vd_fermenting_jar: 1 recipe, rounding 17% ⚠, estimated
 - bnc_keg: none, can't make the mod's own traditional_finnish_lemon_mead_sima_step_10, and no other mod provides it
 - pnc_thermo_plant: 1 recipe, rounding 0%, estimated
+- theurgy_fermentation: none, needs a fluid it can take, and has none
 
 ### `traditional_finnish_lemon_mead_sima.step_11` (ferment)
 
 - vd_fermenting_jar: 1 recipe, rounding 0%, estimated
 - bnc_keg: 1 recipe, rounding 0%, estimated
 - pnc_thermo_plant: 1 recipe, rounding 0%, estimated
+- theurgy_fermentation: none, needs a fluid it can take, and has none
 
 ### `traditional_finnish_lemon_mead_sima.step_3` (cut)
 
@@ -93412,6 +93694,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - vd_fermenting_jar: 1 recipe, rounding 0%, estimated
 - bnc_keg: none, can't make the mod's own traditional_finnish_lemon_mead_sima_step_9, and no other mod provides it
 - pnc_thermo_plant: 1 recipe, rounding 4%, estimated
+- theurgy_fermentation: none, needs a fluid it can take, and has none
 
 ### `traditional_lasagne.step_1` (pan_fry)
 
@@ -94686,6 +94969,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - vd_fermenting_jar: 1 recipe, rounding 0%, estimated
 - bnc_keg: none, can't make the mod's own tvorog_russian_farmer_cheese_step_2, and no other mod provides it
 - pnc_thermo_plant: 1 recipe, rounding 4%, estimated
+- theurgy_fermentation: none, needs a fluid it can take, and has none
 
 ### `tvorog_russian_farmer_cheese.step_3` (coagulate)
 
@@ -95008,6 +95292,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - create_mixing: 1 recipe, rounding 0%, estimated
 - create_splashing: none, takes one input, not 2
 - fr_kettle: none, makes 1 things; at most 1 fit
+- theurgy_liquefaction: none, needs a fluid it can take, and has none
 
 ### `ukrainian_borscht.step_2` (assemble)
 
@@ -95154,6 +95439,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - create_mixing: 1 recipe, rounding 0%, estimated
 - create_splashing: 1 recipe, rounding 0%, estimated
 - fr_kettle: none, can't make the mod's own ume_shu_japanese_plum_juice_step_4, and no other mod provides it
+- theurgy_liquefaction: none, needs a fluid it can take, and has none
 
 ### `ume_shu_japanese_plum_juice.step_5` (separate)
 
@@ -96345,6 +96631,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - vd_fermenting_jar: 1 recipe, rounding 0%
 - bnc_keg: none, can't make the mod's own vetkoek_south_african_fried_dough_step_4, and no other mod provides it
 - pnc_thermo_plant: 1 recipe, rounding 0%
+- theurgy_fermentation: none, needs a fluid it can take, and has none
 
 ### `vetkoek_south_african_fried_dough.step_6` (fry)
 
@@ -96597,6 +96884,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - create_mixing: 3 recipes, rounding 5%, estimated
 - create_splashing: 1 recipe, rounding 6%, estimated
 - fr_kettle: none, can't make the mod's own violet_lemonade_step_1, and no other mod provides it
+- theurgy_liquefaction: 1 recipe, rounding 6%, estimated
 
 ### `violet_lemonade.step_2` (dissolve)
 
@@ -96971,6 +97259,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - vd_fermenting_jar: none, whole items would distort it by 217%
 - bnc_keg: none, can't make the mod's own welsh_fruit_bread_bara_brith_i_step_1, and no other mod provides it
 - pnc_thermo_plant: none, takes at most 2 inputs, not 3
+- theurgy_fermentation: none, whole items would distort it by 217%
 
 ### `welsh_fruit_bread_bara_brith_i.step_2` (knead)
 
@@ -96987,6 +97276,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - vd_fermenting_jar: 1 recipe, rounding 0%
 - bnc_keg: none, can't make the mod's own welsh_fruit_bread_bara_brith_i_step_4, and no other mod provides it
 - pnc_thermo_plant: 1 recipe, rounding 0%
+- theurgy_fermentation: none, needs a fluid it can take, and has none
 
 ### `welsh_fruit_bread_bara_brith_i.step_5` (bake)
 
@@ -97268,6 +97558,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - create_mixing: 1 recipe, rounding 10%, estimated
 - create_splashing: none, takes one input, not 4
 - fr_kettle: none, can't make the mod's own white_house_honey_porter_step_1, and no other mod provides it
+- theurgy_liquefaction: none, takes at most 2 inputs, not 4
 
 ### `white_house_honey_porter.step_2` (mix)
 
@@ -97284,12 +97575,14 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - vd_fermenting_jar: 1 recipe, rounding 0%, estimated
 - bnc_keg: none, can't make the mod's own white_house_honey_porter_step_6, and no other mod provides it
 - pnc_thermo_plant: 1 recipe, rounding 17% ⚠, estimated
+- theurgy_fermentation: none, needs a fluid it can take, and has none
 
 ### `white_house_honey_porter.step_7` (ferment)
 
 - vd_fermenting_jar: 1 recipe, rounding 0%, estimated
 - bnc_keg: none, can't make the mod's own white_house_honey_porter_step_7, and no other mod provides it
 - pnc_thermo_plant: 1 recipe, rounding 4%, estimated
+- theurgy_fermentation: none, needs a fluid it can take, and has none
 
 ### `white_house_honey_porter.step_8` (carbonate)
 
@@ -97329,6 +97622,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - vd_fermenting_jar: none, whole items would distort it by 111%
 - bnc_keg: none, can't make the mod's own whole_wheat_bread_vegan_step_1, and no other mod provides it
 - pnc_thermo_plant: none, takes at most 2 inputs, not 3
+- theurgy_fermentation: none, whole items would distort it by 111%
 
 ### `whole_wheat_bread_vegan.step_2` (mix)
 
@@ -97350,12 +97644,14 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - vd_fermenting_jar: 1 recipe, rounding 11%
 - bnc_keg: none, can't make the mod's own whole_wheat_bread_vegan_step_5, and no other mod provides it
 - pnc_thermo_plant: 1 recipe, rounding 18% ⚠
+- theurgy_fermentation: none, needs a fluid it can take, and has none
 
 ### `whole_wheat_bread_vegan.step_6` (ferment)
 
 - vd_fermenting_jar: 1 recipe, rounding 11%
 - bnc_keg: none, can't make the mod's own whole_wheat_bread_vegan_step_6, and no other mod provides it
 - pnc_thermo_plant: 1 recipe, rounding 18% ⚠
+- theurgy_fermentation: none, needs a fluid it can take, and has none
 
 ### `whole_wheat_bread_vegan.step_7` (coat)
 
@@ -97702,6 +97998,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - create_mixing: 1 recipe, rounding 0%, estimated
 - create_splashing: 1 recipe, rounding 6%, estimated
 - fr_kettle: none, can't make the mod's own wonjo_bissap_gambian_hibiscus_beverage_step_3, and no other mod provides it
+- theurgy_liquefaction: none, needs a fluid it can take, and has none
 
 ### `wonjo_bissap_gambian_hibiscus_beverage.step_4` (strain)
 
@@ -98005,6 +98302,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - vd_fermenting_jar: none, whole items would distort it by 323%
 - bnc_keg: none, can't make the mod's own yeasted_cornbread_step_1, and no other mod provides it
 - pnc_thermo_plant: none, takes at most 2 inputs, not 3
+- theurgy_fermentation: none, whole items would distort it by 323%
 
 ### `yeasted_cornbread.step_2` (mix)
 
@@ -98050,6 +98348,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - vd_fermenting_jar: 1 recipe, rounding 0%
 - bnc_keg: none, can't make the mod's own yeasted_kifli_step_6, and no other mod provides it
 - pnc_thermo_plant: 1 recipe, rounding 0%
+- theurgy_fermentation: none, needs a fluid it can take, and has none
 
 ### `yeasted_kifli.step_7` (shape)
 
@@ -98106,6 +98405,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - vd_fermenting_jar: 1 recipe, rounding 12%
 - bnc_keg: none, can't make the mod's own yeasted_rolls_ii_step_4, and no other mod provides it
 - pnc_thermo_plant: 1 recipe, rounding 12%
+- theurgy_fermentation: none, needs a fluid it can take, and has none
 
 ### `yeasted_rolls_ii.step_5` (shape)
 
@@ -98523,6 +98823,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - create_mixing: none, whole items would distort it by 509%
 - create_splashing: none, takes one input, not 2
 - fr_kettle: none, can't make the mod's own yogi_tea_step_6, and no other mod provides it
+- theurgy_liquefaction: none, needs a fluid it can take, and has none
 
 ### `yogi_tea.step_7` (strain)
 
@@ -98888,6 +99189,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - create_mixing: 1 recipe, rounding 0%
 - create_splashing: 1 recipe, rounding 0%
 - fr_kettle: none, can't make the mod's own zambian_tomato_and_onion_salad_step_5, and no other mod provides it
+- theurgy_liquefaction: none, needs a fluid it can take, and has none
 
 ### `zambian_tomato_and_onion_salad.step_6` (assemble)
 
@@ -99027,6 +99329,7 @@ No routes: should happen over time, but skipping it would lose what it makes.
 - create_mixing: 1 recipe, rounding 0%, estimated
 - create_splashing: none, takes one input, not 2
 - fr_kettle: none, can't make the mod's own zereshk_palau_iranian_rice_with_barberries_ii_step_6, and no other mod provides it
+- theurgy_liquefaction: none, needs a fluid it can take, and has none
 
 ### `zereshk_palau_iranian_rice_with_barberries_ii.step_7` (assemble)
 

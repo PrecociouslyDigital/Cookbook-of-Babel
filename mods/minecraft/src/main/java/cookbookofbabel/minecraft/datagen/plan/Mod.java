@@ -17,6 +17,8 @@ public enum Mod {
     PNEUMATICCRAFT("pneumaticcraft"),
     /** Its machines' recipe types share the {@code thermal} namespace too. */
     THERMAL_EXPANSION("thermal_expansion", "thermal"),
+    THEURGY("theurgy"),
+    HEXEREI("hexerei"),
     /** Always loaded; an output mapped to vanilla shadows every later choice. */
     MINECRAFT("minecraft");
 

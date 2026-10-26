@@ -34,7 +34,9 @@ import cookbookofbabel.minecraft.datagen.plan.RouteKind;
 import cookbookofbabel.minecraft.datagen.recipe.brewinandchewin.Keg;
 import cookbookofbabel.minecraft.datagen.recipe.farmersrespite.Kettle;
 import cookbookofbabel.minecraft.datagen.recipe.pneumaticcraft.ThermoPlant;
+import cookbookofbabel.minecraft.datagen.recipe.hexerei.DryingRack;
 import cookbookofbabel.minecraft.datagen.recipe.thermal.Thermal;
+import cookbookofbabel.minecraft.datagen.recipe.theurgy.Theurgy;
 import cookbookofbabel.minecraft.datagen.recipe.vintagedelight.FermentingJar;
 import cookbookofbabel.minecraft.datagen.recipe.Resolved.Exact;
 import cookbookofbabel.minecraft.datagen.recipe.Resolved.FluidInput;
@@ -162,6 +164,10 @@ public final class RouteEmitter {
             case PNC_THERMO_PLANT -> json(ThermoPlant::recipe, p, path, items, counts, fluids, outputs, conditions, sink);
             case THERMAL_PRESS -> json(Thermal::press, p, path, items, counts, fluids, outputs, conditions, sink);
             case THERMAL_CENTRIFUGE -> json(Thermal::centrifuge, p, path, items, counts, fluids, outputs, conditions, sink);
+            case THEURGY_CALCINATION -> json(Theurgy::calcination, p, path, items, counts, fluids, outputs, conditions, sink);
+            case THEURGY_FERMENTATION -> json(Theurgy::fermentation, p, path, items, counts, fluids, outputs, conditions, sink);
+            case THEURGY_LIQUEFACTION -> json(Theurgy::liquefaction, p, path, items, counts, fluids, outputs, conditions, sink);
+            case HEXEREI_DRYING_RACK -> json(DryingRack::recipe, p, path, items, counts, fluids, outputs, conditions, sink);
             case SHAPELESS_CRAFTING -> {
                 var result = (ItemStack) first(outputs);
                 var builder = ShapelessRecipeBuilder.shapeless(RecipeCategory.FOOD, result.getItem(), result.getCount());

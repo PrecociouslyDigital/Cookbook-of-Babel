@@ -166,6 +166,10 @@ dependencies {
     modRuntimeOnly(libs.thermal.cultivation)
     modRuntimeOnly(libs.thermal.foundation)
     modRuntimeOnly(libs.cofh.core)
+    modRuntimeOnly(libs.theurgy)
+    modRuntimeOnly(libs.modonomicon)
+    modRuntimeOnly(libs.geckolib)
+    modRuntimeOnly(libs.hexerei)
 
     testImplementation(libs.jqwik)
     testImplementation(libs.assertj)

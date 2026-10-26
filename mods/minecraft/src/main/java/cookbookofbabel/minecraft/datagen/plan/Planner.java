@@ -196,7 +196,8 @@ public final class Planner {
         for (var size = c.minFluidInputs(); size <= Math.min(c.maxFluidInputs(), flowable.size()); size++) {
             for (var chosen : Selections.subsets(flowable.size(), size)) {
                 var fluids = chosen.stream().map(flowable::get).collect(Collectors.toSet());
-                if (inputs.stream().filter(l -> !fluids.contains(l.ingredient())).count() > c.itemKinds()) {
+                var itemKinds = inputs.stream().filter(l -> !fluids.contains(l.ingredient())).count();
+                if (itemKinds < c.minItemKinds() || itemKinds > c.itemKinds()) {
                     continue;
                 }
                 var estimated = false;

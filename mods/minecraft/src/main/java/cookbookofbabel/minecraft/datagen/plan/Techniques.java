@@ -13,6 +13,7 @@ import static cookbookofbabel.minecraft.datagen.plan.RouteKind.CREATE_SPLASHING;
 import static cookbookofbabel.minecraft.datagen.plan.RouteKind.FD_COOKING_POT;
 import static cookbookofbabel.minecraft.datagen.plan.RouteKind.FD_CUTTING_BOARD;
 import static cookbookofbabel.minecraft.datagen.plan.RouteKind.FR_KETTLE;
+import static cookbookofbabel.minecraft.datagen.plan.RouteKind.HEXEREI_DRYING_RACK;
 import static cookbookofbabel.minecraft.datagen.plan.RouteKind.PNC_THERMO_PLANT;
 import static cookbookofbabel.minecraft.datagen.plan.RouteKind.GARNISHED_FREEZING;
 import static cookbookofbabel.minecraft.datagen.plan.RouteKind.SHAPELESS_CRAFTING;
@@ -20,6 +21,9 @@ import static cookbookofbabel.minecraft.datagen.plan.RouteKind.SMELTING;
 import static cookbookofbabel.minecraft.datagen.plan.RouteKind.SMOKING;
 import static cookbookofbabel.minecraft.datagen.plan.RouteKind.THERMAL_CENTRIFUGE;
 import static cookbookofbabel.minecraft.datagen.plan.RouteKind.THERMAL_PRESS;
+import static cookbookofbabel.minecraft.datagen.plan.RouteKind.THEURGY_CALCINATION;
+import static cookbookofbabel.minecraft.datagen.plan.RouteKind.THEURGY_FERMENTATION;
+import static cookbookofbabel.minecraft.datagen.plan.RouteKind.THEURGY_LIQUEFACTION;
 import static cookbookofbabel.minecraft.datagen.plan.RouteKind.VD_FERMENTING_JAR;
 
 import cookbookofbabel.minecraft.dataset.IngredientId;
@@ -52,7 +56,7 @@ public final class Techniques {
             // blowing through water supplies its own.
             bind("rinse", CREATE_MIXING, CREATE_SPLASHING),
             bind("soak", CREATE_MIXING, CREATE_SPLASHING),
-            bind("steep", CREATE_MIXING, CREATE_SPLASHING, FR_KETTLE),
+            bind("steep", CREATE_MIXING, CREATE_SPLASHING, FR_KETTLE, THEURGY_LIQUEFACTION),
             bind("separate", CREATE_ITEM_DRAIN, CREATE_MIXING, THERMAL_CENTRIFUGE),
             bind("press", CREATE_ITEM_DRAIN, CREATE_MIXING, THERMAL_PRESS),
             bind("churn", CREATE_MIXING, THERMAL_CENTRIFUGE),
@@ -61,18 +65,18 @@ public final class Techniques {
             bind("coagulate", CREATE_MIXING),
             bind("assemble", SHAPELESS_CRAFTING, CREATE_DEPLOYING),
             // Calcining gives off a gas, which only a basin can collect.
-            bind("calcine", CREATE_HEATED_MIXING, BLASTING),
+            bind("calcine", CREATE_HEATED_MIXING, BLASTING, THEURGY_CALCINATION),
             // Ash needs far more input than a furnace takes at once, so a basin too.
-            bind("ash", SMELTING, BLASTING, CREATE_HEATED_MIXING),
+            bind("ash", SMELTING, BLASTING, CREATE_HEATED_MIXING, THEURGY_CALCINATION),
             bind("carbonate", CREATE_MIXING),
             bind("evaporate", CREATE_HEATED_MIXING),
             elide("cool"),
             elide("chill"),
-            elide("dry"),
+            elide("dry", HEXEREI_DRYING_RACK),
             elide("freeze", GARNISHED_FREEZING),
             // Ageing, fermenting, curing and sprouting take a timed container.
             bind("age", VD_FERMENTING_JAR, BNC_KEG),
-            bind("ferment", VD_FERMENTING_JAR, BNC_KEG, PNC_THERMO_PLANT),
+            bind("ferment", VD_FERMENTING_JAR, BNC_KEG, PNC_THERMO_PLANT, THEURGY_FERMENTATION),
             Map.entry(new TechniqueId("spoil"), new Binding.Deferred("spoilage is something to prevent, not a recipe")));
 
     /**

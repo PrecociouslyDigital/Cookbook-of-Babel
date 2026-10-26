@@ -52,7 +52,7 @@ class PlannerProperties {
         var limits = route.constraints;
         var items = p.inputs().stream().filter(i -> i instanceof ItemIn).map(i -> (ItemIn) i).toList();
         var fluids = p.inputs().stream().filter(i -> i instanceof FluidIn).map(i -> (FluidIn) i).toList();
-        assertThat(items.size()).isLessThanOrEqualTo(limits.itemKinds());
+        assertThat(items.size()).isBetween(limits.minItemKinds(), limits.itemKinds());
         assertThat(items.stream().mapToInt(ItemIn::count).sum()).isLessThanOrEqualTo(limits.maxItemInputs());
         assertThat(fluids.size()).isBetween(limits.minFluidInputs(), limits.maxFluidInputs());
         assertThat(p.outputs().size()).isLessThanOrEqualTo(limits.maxOutputs());
