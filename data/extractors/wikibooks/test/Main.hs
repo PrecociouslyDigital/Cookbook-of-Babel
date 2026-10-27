@@ -38,6 +38,7 @@ main = do
                 "properties"
                 [ prop "an ingredient line reads back the amount and food it was written with" lineRoundTrip
                 , prop "a food named by a line's words has no numbers in its name" namesHaveNoNumbers
+                , prop "a link shown as the line's unit names the food only when nothing else does" unitLinkYields
                 , prop "each step takes in the output of the one before it, and each prepared line feeds one step" (chainConnected env)
                 , prop "every ingredient line with a first step is taken in exactly once" (takenOnce env)
                 , prop "a line prepared on its own feeds the step its first step names" (prepFeedsFirstStep env)
@@ -105,6 +106,23 @@ namesHaveNoNumbers = property $ do
     for_ (ingredientLine pageLexicon (inlines (T.unwords ws))) $ \parsed ->
         assert (not (T.any isNumber (titleText parsed.ingredient)))
 
+{- | A unit word that is also a food's page, as "clove" is, followed by
+another food or by nothing.
+-}
+unitLinkYields :: Property
+unitLinkYields = property $ do
+    (qtyText, _) <- forAll genQty
+    (alias, unit) <- forAll (Gen.element unitAliases)
+    food <- forAll genTitle
+    followed <- forAll Gen.bool
+    let unitPage = mkTitle alias
+        foodLink = " [[Cookbook:" <> titleText food <> "|" <> T.toLower (titleText food) <> "]]"
+        line = qtyText <> " [[Cookbook:" <> titleText unitPage <> "|" <> alias <> "]]" <> (if followed then foodLink else "")
+    annotateShow line
+    parsed <- maybe failure pure (ingredientLine Lexicon{isFood = (`elem` [food, unitPage]), isTool = const False, weighs = const False} (inlines line))
+    parsed.ingredient === if followed then food else unitPage
+    parsed.amount.unit === unit
+
 -- | Links to these pages lead to units or techniques; any other page is a food.
 pageLexicon :: Lexicon
 pageLexicon = Lexicon{isFood = (`notElem` notFood), isTool = const False, weighs = const False}
@@ -130,6 +148,10 @@ realLines =
     , ("2 cubes of mushroom base (bouillon) plus 1 cup of noodles", Just "Cubes of mushroom base")
     , ("The juice of ½–1 lemon, or to taste", Just "Juice of lemon")
     , ("1 fully-baked 9-[[Cookbook:Inch|inch]] graham cracker or pastry pie shell", Just "Fully-baked graham cracker")
+    , ("1 [[Cookbook:Clove|clove]] [[Cookbook:Garlic|garlic]], crushed", Just "Garlic")
+    , ("2 [[Cookbook:Clove|cloves]] garlic", Just "Garlic")
+    , ("4 whole [[Cookbook:Clove|cloves]]", Just "Clove")
+    , ("½ [[Cookbook:Teaspoon|tsp]] ground [[Cookbook:Clove|cloves]]", Just "Clove")
     ]
 
 realLine :: Text -> Maybe Text -> IO ()

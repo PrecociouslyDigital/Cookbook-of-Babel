@@ -18,7 +18,7 @@ where
 import Babel.Model.Common (Amount (..))
 import Babel.Model.Id (UnitId (..))
 import Data.Char (isAlpha, isAlphaNum, isDigit, isNumber, isPunctuation)
-import Data.List (lookup)
+import Data.List (lookup, partition)
 import Data.Text qualified as T
 import Text.Megaparsec (Parsec, anySingle, choice, eof, notFollowedBy, oneOf, parse, satisfy, takeWhile1P, takeWhileP, try)
 import Text.Megaparsec.Char (char, char', space, space1, string, string')
@@ -194,7 +194,9 @@ food, or else the words after the amount, up to a comma or a note such as
 "to taste". 'Nothing' when neither names a food.
 
 A link shown as a preparation ("[[Grating|grated]] cheese") or as a whole
-measured line ("[[Ingredients|1 kg beef]]") does not name the food.
+measured line ("[[Ingredients|1 kg beef]]") does not name the food. Nor
+does one shown as the line's unit ("1 [[Clove|clove]] garlic"), unless
+nothing else on the line names a food ("3 [[Clove|cloves]]").
 -}
 ingredientLine :: Lexicon -> [Inline] -> Maybe IngredientLine
 ingredientLine lexicon items = do
@@ -203,9 +205,14 @@ ingredientLine lexicon items = do
         afterQty = T.words rest
         unit = unitWords (dropWhile ((`elem` descriptors) . clean) (dropOf afterQty)) <* q
         afterUnit = maybe afterQty snd unit
-        linked = listToMaybe [(t, s) | Link t s <- items, lexicon.isFood t, namesFood s]
+        (unitLinks, foodLinks) = partition (showsUnit . snd) [(t, s) | Link t s <- items, lexicon.isFood t, namesFood s]
         namesFood shown = not (T.any isNumber shown || all isPreparation (T.words shown))
-    food <- maybe (mkTitle <$> textName afterUnit) (Just . fst) linked
+        showsUnit shown = case (unit, unitWords (T.words shown)) of
+            (Just (u, _), Just (shownUnit, [])) -> u == shownUnit
+            _ -> False
+        named = textName afterUnit
+        linked = listToMaybe foodLinks <|> (guard (isNothing named) *> listToMaybe unitLinks)
+    food <- maybe (mkTitle <$> named) (Just . fst) linked
     let isOptional = "optional" `T.isInfixOf` T.toLower text
         line amount = IngredientLine food amount isOptional
         -- Only a link shows where the food's words start, and so which word is the unit.
