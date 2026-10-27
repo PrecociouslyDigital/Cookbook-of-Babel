@@ -182,6 +182,7 @@ The recipes, substances and tags in this mod's data are derived from the Cookboo
 - [Wikibooks Cookbook: Baklava II](https://en.wikibooks.org/w/index.php?title=Cookbook:Baklava_II&oldid=4629321), CC-BY-SA-4.0
 - [Wikibooks Cookbook: Baklava with Pistachio Nuts](https://en.wikibooks.org/w/index.php?title=Cookbook:Baklava_with_Pistachio_Nuts&oldid=4587363), CC-BY-SA-4.0
 - [Wikibooks Cookbook: Balangu (Nigerian Spiced Ram Meat)](https://en.wikibooks.org/w/index.php?title=Cookbook:Balangu_(Nigerian_Spiced_Ram_Meat)&oldid=4582330), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Baloney Sandwich](https://en.wikibooks.org/w/index.php?title=Cookbook:Baloney_Sandwich&oldid=4613402), CC-BY-SA-4.0
 - [Wikibooks Cookbook: Balsamic Dressing](https://en.wikibooks.org/w/index.php?title=Cookbook:Balsamic_Dressing&oldid=4527286), CC-BY-SA-4.0
 - [Wikibooks Cookbook: Balsamic Glaze](https://en.wikibooks.org/w/index.php?title=Cookbook:Balsamic_Glaze&oldid=4518849), CC-BY-SA-4.0
 - [Wikibooks Cookbook: Balsamic Marinade](https://en.wikibooks.org/w/index.php?title=Cookbook:Balsamic_Marinade&oldid=4523790), CC-BY-SA-4.0
@@ -2108,7 +2109,6 @@ The recipes, substances and tags in this mod's data are derived from the Cookboo
 - [Wikibooks Cookbook: Nigerian White Soup (Ofe Nsala)](https://en.wikibooks.org/w/index.php?title=Cookbook:Nigerian_White_Soup_(Ofe_Nsala)&oldid=4633949), CC-BY-SA-4.0
 - [Wikibooks Cookbook: Nigerian Yam and Potato Porridge](https://en.wikibooks.org/w/index.php?title=Cookbook:Nigerian_Yam_and_Potato_Porridge&oldid=4517859), CC-BY-SA-4.0
 - [Wikibooks Cookbook: Nigerian Yanrin](https://en.wikibooks.org/w/index.php?title=Cookbook:Nigerian_Yanrin&oldid=4635394), CC-BY-SA-4.0
-- [Wikibooks Cookbook: Nigiri Sushi](https://en.wikibooks.org/w/index.php?title=Cookbook:Nigiri_Sushi&oldid=4518739), CC-BY-SA-4.0
 - [Wikibooks Cookbook: Nilagang Baka (Boiled Beef and Vegetables in Broth)](https://en.wikibooks.org/w/index.php?title=Cookbook:Nilagang_Baka_(Boiled_Beef_and_Vegetables_in_Broth)&oldid=4630367), CC-BY-SA-4.0
 - [Wikibooks Cookbook: Nkhwani wa Ndiwo (Malawian Vegetable Fritters)](https://en.wikibooks.org/w/index.php?title=Cookbook:Nkhwani_wa_Ndiwo_(Malawian_Vegetable_Fritters)&oldid=4517762), CC-BY-SA-4.0
 - [Wikibooks Cookbook: Nkwobi (Nigerian Spicy Cow Foot)](https://en.wikibooks.org/w/index.php?title=Cookbook:Nkwobi_(Nigerian_Spicy_Cow_Foot)&oldid=4518470), CC-BY-SA-4.0
@@ -2796,6 +2796,7 @@ The recipes, substances and tags in this mod's data are derived from the Cookboo
 - [Wikibooks Cookbook: Simple Roasted Oysters](https://en.wikibooks.org/w/index.php?title=Cookbook:Simple_Roasted_Oysters&oldid=4630382), CC-BY-SA-4.0
 - [Wikibooks Cookbook: Simple Spaghetti](https://en.wikibooks.org/w/index.php?title=Cookbook:Simple_Spaghetti&oldid=4525181), CC-BY-SA-4.0
 - [Wikibooks Cookbook: Simple Syrup](https://en.wikibooks.org/w/index.php?title=Cookbook:Simple_Syrup&oldid=4504103), CC-BY-SA-4.0
+- [Wikibooks Cookbook: Simple Tarragon Quiche](https://en.wikibooks.org/w/index.php?title=Cookbook:Simple_Tarragon_Quiche&oldid=4536098), CC-BY-SA-4.0
 - [Wikibooks Cookbook: Sinasir (Nigerian Rice Pancake)](https://en.wikibooks.org/w/index.php?title=Cookbook:Sinasir_(Nigerian_Rice_Pancake)&oldid=4540974), CC-BY-SA-4.0
 - [Wikibooks Cookbook: Sincronizada (Fried Ham and Cheese Tortilla Sandwich)](https://en.wikibooks.org/w/index.php?title=Cookbook:Sincronizada_(Fried_Ham_and_Cheese_Tortilla_Sandwich)&oldid=4592091), CC-BY-SA-4.0
 - [Wikibooks Cookbook: Sindhi Chickpea Confection](https://en.wikibooks.org/w/index.php?title=Cookbook:Sindhi_Chickpea_Confection&oldid=4517501), CC-BY-SA-4.0

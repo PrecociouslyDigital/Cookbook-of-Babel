@@ -1,0 +1,38 @@
+{
+  "type": "pneumaticcraft:thermo_plant",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "pneumaticcraft"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/rice_and_lentils_mejadra_step_4"
+    }
+  ],
+  "fluid_input": {
+    "type": "pneumaticcraft:fluid",
+    "amount": 10,
+    "fluid": "cookbook_of_babel:bulk",
+    "fuzzyNBT": false,
+    "nbt": "{substance:\"cookbook_of_babel:rice_fry\"}"
+  },
+  "fluid_output": {
+    "amount": 141,
+    "fluid": "cookbook_of_babel:bulk",
+    "nbt": "{substance:\"cookbook_of_babel:rice_and_lentils_mejadra_step_4\"}"
+  },
+  "item_input": [
+    {
+      "type": "forge:partial_nbt",
+      "item": "cookbook_of_babel:substance",
+      "nbt": "{substance:\"cookbook_of_babel:rice_and_lentils_mejadra_step_3\"}"
+    },
+    {
+      "tag": "cookbook_of_babel:ingredients/rice_and_lentils_mejadra_step_3"
+    }
+  ],
+  "temperature": {
+    "min_temp": 463
+  }
+}

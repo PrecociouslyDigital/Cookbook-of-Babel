@@ -112,13 +112,16 @@
         "tag": "cookbook_of_babel:ingredients/apple_pan_fry"
       }
     ],
-    {
-      "amount": 40,
-      "fluid": "cookbook_of_babel:liquid",
-      "nbt": {
-        "substance": "cookbook_of_babel:oil_and_fat"
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:apple_pan_fry\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/apple_pan_fry"
       }
-    }
+    ]
   ],
   "processingTime": 20,
   "results": [
