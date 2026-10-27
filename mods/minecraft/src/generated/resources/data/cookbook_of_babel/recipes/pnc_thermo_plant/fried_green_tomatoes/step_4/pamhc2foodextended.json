@@ -1,0 +1,33 @@
+{
+  "type": "pneumaticcraft:thermo_plant",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "pneumaticcraft"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "pamhc2foodextended"
+    },
+    {
+      "type": "forge:false"
+    }
+  ],
+  "item_input": [
+    {
+      "type": "forge:partial_nbt",
+      "item": "cookbook_of_babel:substance",
+      "nbt": "{substance:\"cookbook_of_babel:fried_green_tomatoes_step_3\"}"
+    },
+    {
+      "tag": "cookbook_of_babel:ingredients/fried_green_tomatoes_step_3"
+    }
+  ],
+  "item_output": {
+    "count": 1,
+    "item": "pamhc2foodextended:friedgreentomatoesitem"
+  },
+  "temperature": {
+    "min_temp": 463
+  }
+}

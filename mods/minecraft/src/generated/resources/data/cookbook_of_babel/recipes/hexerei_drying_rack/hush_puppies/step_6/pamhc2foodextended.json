@@ -1,0 +1,30 @@
+{
+  "type": "hexerei:drying_rack",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "hexerei"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "pamhc2foodextended"
+    }
+  ],
+  "dryingTimeInTicks": 20,
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:hush_puppies_step_5\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/hush_puppies_step_5"
+      }
+    ]
+  ],
+  "output": {
+    "count": 1,
+    "item": "pamhc2foodextended:hushpuppiesitem"
+  }
+}

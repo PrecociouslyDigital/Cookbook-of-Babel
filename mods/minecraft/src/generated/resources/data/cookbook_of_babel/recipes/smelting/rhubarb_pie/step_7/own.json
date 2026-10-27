@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:mod_loaded",
+        "modid": "croptopia"
+      }
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/rhubarb_pie"
+    }
+  ],
+  "cookingtime": 300,
+  "experience": 0.1,
+  "ingredient": [
+    {
+      "type": "forge:partial_nbt",
+      "item": "cookbook_of_babel:substance",
+      "nbt": "{substance:\"cookbook_of_babel:rhubarb_pie_step_6\"}"
+    },
+    {
+      "tag": "cookbook_of_babel:ingredients/rhubarb_pie_step_6"
+    }
+  ],
+  "result": {
+    "item": "cookbook_of_babel:rhubarb_pie"
+  }
+}

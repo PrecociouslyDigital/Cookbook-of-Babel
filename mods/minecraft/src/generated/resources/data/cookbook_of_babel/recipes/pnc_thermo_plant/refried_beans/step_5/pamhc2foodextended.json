@@ -1,0 +1,37 @@
+{
+  "type": "pneumaticcraft:thermo_plant",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "pneumaticcraft"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "pamhc2foodextended"
+    },
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:mod_loaded",
+        "modid": "croptopia"
+      }
+    }
+  ],
+  "item_input": [
+    {
+      "type": "forge:partial_nbt",
+      "item": "cookbook_of_babel:substance",
+      "nbt": "{substance:\"cookbook_of_babel:refried_beans_step_4\"}"
+    },
+    {
+      "tag": "cookbook_of_babel:ingredients/refried_beans_step_4"
+    }
+  ],
+  "item_output": {
+    "count": 2,
+    "item": "pamhc2foodextended:refriedbeansitem"
+  },
+  "temperature": {
+    "min_temp": 463
+  }
+}

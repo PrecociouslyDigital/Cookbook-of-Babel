@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:smoking",
+  "category": "food",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "croptopia"
+    },
+    {
+      "type": "forge:false"
+    }
+  ],
+  "cookingtime": 50,
+  "experience": 0.1,
+  "ingredient": [
+    {
+      "type": "forge:partial_nbt",
+      "item": "cookbook_of_babel:substance",
+      "nbt": "{substance:\"cookbook_of_babel:croque_monsieur_step_7\"}"
+    },
+    {
+      "tag": "cookbook_of_babel:ingredients/croque_monsieur_step_7"
+    }
+  ],
+  "result": {
+    "item": "croptopia:croque_monsieur"
+  }
+}
