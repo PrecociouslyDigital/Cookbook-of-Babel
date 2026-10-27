@@ -67,13 +67,14 @@ final class Reports implements DataProvider {
         out.append("Substance colours are derived from their IDs until the dataset records colours.\n\n");
 
         out.append("## Techniques\n\n");
-        out.append("Steps of each technique with a recipe in at least one machine; elided steps aren't counted.\n\n");
-        out.append("| Technique | Steps | With a recipe |\n|---|---|---|\n");
+        out.append("Steps of each technique: all of them, those with a recipe in at least one machine, and those written as a transition.\n\n");
+        out.append("| Technique | Steps | With a recipe | As a transition |\n|---|---|---|---|\n");
         context.coverage.steps().stream()
                 .collect(Collectors.groupingBy(Coverage.Step::technique, TreeMap::new, Collectors.toList()))
                 .forEach((technique, steps) -> out.append("| ").append(technique)
                         .append(" | ").append(steps.size())
                         .append(" | ").append(steps.stream().filter(Coverage.Step::emitted).count())
+                        .append(" | ").append(steps.stream().filter(Coverage.Step::kept).count())
                         .append(" |\n"));
 
         out.append("\n## Unmapped leaves\n\n");
@@ -99,15 +100,7 @@ final class Reports implements DataProvider {
             context.merging.dropped().forEach(d -> out.append("- `").append(d.recipe()).append("`, like `").append(d.keptRecipe()).append("`\n"));
         }
 
-        out.append("\n## Elided steps\n\n");
-        out.append("Steps that should happen over time, skipped until the mod has a time mechanic.\n\n");
-        for (var e : context.elision.elided()) {
-            var how = switch (e.rewire()) {
-                case PRODUCERS_MAKE_OUTPUT -> "steps that made `" + e.input() + "` make `" + e.output() + "`";
-                case CONSUMERS_TAKE_INPUT -> "steps that took `" + e.output() + "` take `" + e.input() + "`";
-            };
-            out.append("- `").append(e.recipe()).append("`: ").append(how).append('\n');
-        }
+        transitions(out);
 
         out.append("\n## Steps\n\n");
         out.append("Rounding error is the largest relative error of any non-negligible amount; above ")
@@ -115,6 +108,7 @@ final class Reports implements DataProvider {
         for (var step : context.coverage.steps()) {
             out.append("\n### `").append(step.recipe()).append("` (").append(step.technique()).append(")\n\n");
             step.note().ifPresent(n -> out.append("No routes: ").append(n).append(".\n"));
+            step.transition().ifPresent(k -> out.append("- transition: ").append(k.live() ? "written" : unwritten(k)).append('\n'));
             for (var variant : step.variants()) {
                 if (step.variants().size() > 1) {
                     out.append("- `").append(variant.path()).append("`\n");
@@ -133,12 +127,51 @@ final class Reports implements DataProvider {
 
         out.append("\n## Deferred\n\n");
         Stream.of(
-                        "Cooling and chilling steps that can't be skipped need a time mechanic; spoilage isn't made at all.",
                         "Water as a medium that boiling, simmering and steaming use up.",
                         "A real sieve for sifting-type strain steps.",
                         "Outputs that are one of several outcomes.")
                 .forEach(line -> out.append("- ").append(line).append('\n'));
         return out.toString();
+    }
+
+    private void transitions(StringBuilder out) {
+        out.append("\n## Transitions\n\n");
+        out.append("Steps that happen to food while it is kept rather than in a machine: one ingredient becomes another after the duration, ");
+        out.append("which holds at the reference temperature and q10 scales per 10 °C. One whose input the game can't make isn't written.\n\n");
+        var kept = context.coverage.steps().stream().flatMap(s -> s.transition().stream()).toList();
+        kept.forEach(k -> out.append("- `").append(k.transition().recipe()).append("`: ").append(describe(k)).append('\n'));
+        if (kept.isEmpty()) {
+            out.append("None.\n");
+        }
+    }
+
+    private String describe(Coverage.Kept kept) {
+        var t = kept.transition();
+        var s = t.sensitivity();
+        var bands = context.export.constants().tempBands();
+        var out = new StringBuilder(t.kind().getSerializedName())
+                .append(", `").append(t.input()).append("` → `").append(t.output()).append("`, ")
+                .append(number(t.duration().qty())).append(' ').append(t.duration().unit())
+                .append(" (").append(t.ticks()).append(" ticks) at ").append(number(s.refTempC())).append(" °C, ").append(bands.bandOf(s.refTempC()));
+        if (s.q10() != 1) {
+            out.append(", q10 ").append(number(s.q10()));
+        }
+        if (s.minTempC().isPresent() || s.maxTempC().isPresent()) {
+            out.append(", only from ").append(s.minTempC().map(c -> number(c) + " °C").orElse("any"))
+                    .append(" to ").append(s.maxTempC().map(c -> number(c) + " °C").orElse("any"));
+        }
+        if (!kept.live()) {
+            out.append(", ").append(unwritten(kept));
+        }
+        return out.toString();
+    }
+
+    private static String unwritten(Coverage.Kept kept) {
+        return "not written: the game can't make " + Coverage.code(kept.missing().stream().map(IngredientId::value));
+    }
+
+    private static String number(double x) {
+        return x == Math.rint(x) ? Long.toString((long) x) : Double.toString(x);
     }
 
     private record PrunedRoute(String path, RouteKind route, Coverage.Pruned outcome) {}

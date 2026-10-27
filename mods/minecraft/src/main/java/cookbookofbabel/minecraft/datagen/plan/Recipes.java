@@ -41,21 +41,9 @@ public final class Recipes {
         return outputs(recipe.outputs()).stream().anyMatch(o -> o.ingredient().equals(ingredient));
     }
 
-    public static Recipe renameInputs(Recipe r, IngredientId from, IngredientId to) {
-        return new Recipe(r.id(), r.source(), r.technique(), rename(r.inputs(), only(from, to)), r.outputs(), r.temperatureC(), r.end(), r.issues());
-    }
-
-    public static Recipe renameOutputs(Recipe r, IngredientId from, IngredientId to) {
-        return new Recipe(r.id(), r.source(), r.technique(), r.inputs(), rename(r.outputs(), only(from, to)), r.temperatureC(), r.end(), r.issues());
-    }
-
     /** The recipe with every ingredient, in and out, renamed. */
     public static Recipe rename(Recipe r, UnaryOperator<IngredientId> rename) {
         return new Recipe(r.id(), r.source(), r.technique(), rename(r.inputs(), rename), rename(r.outputs(), rename), r.temperatureC(), r.end(), r.issues());
-    }
-
-    private static UnaryOperator<IngredientId> only(IngredientId from, IngredientId to) {
-        return i -> i.equals(from) ? to : i;
     }
 
     /** Everything that goes into making the ingredient, through every recipe that makes it. */
@@ -75,23 +63,6 @@ public final class Recipes {
             }
         }
         return seen;
-    }
-
-    /** What can be made from ingredients no recipe makes, by any recipe, taking all its inputs. */
-    public static Set<IngredientId> reachable(Collection<Recipe> recipes, Collection<IngredientId> leaves) {
-        var made = new LinkedHashSet<>(leaves);
-        var changed = true;
-        while (changed) {
-            changed = false;
-            for (var recipe : recipes) {
-                if (made.containsAll(leaves(recipe.inputs()).stream().map(Leaf::ingredient).toList())) {
-                    for (var output : outputs(recipe.outputs())) {
-                        changed |= made.add(output.ingredient());
-                    }
-                }
-            }
-        }
-        return made;
     }
 
     private static Select rename(Select select, UnaryOperator<IngredientId> rename) {

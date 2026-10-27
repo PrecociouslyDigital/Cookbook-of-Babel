@@ -2,6 +2,8 @@ package cookbookofbabel.minecraft.datagen.plan;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
+import cookbookofbabel.minecraft.clock.Transition;
+import cookbookofbabel.minecraft.dataset.Amount;
 import cookbookofbabel.minecraft.dataset.Ingredient;
 import cookbookofbabel.minecraft.dataset.IngredientId;
 import java.util.ArrayList;
@@ -91,6 +93,22 @@ class ReachabilityProperties {
         seeds.add(extra);
         var more = new World(world.dataset(), world.plans(), seeds);
         assertThat(more.live()).containsAll(world.live());
+    }
+
+    /**
+     * A transition is a producer: with it, the game makes its output exactly when it made it already or makes the
+     * transition's input.
+     */
+    @Property
+    void transitionsMakeTheirOutputFromTheirInput(
+            @ForAll("worlds") World world, @ForAll("ingredients") IngredientId input, @ForAll("ingredients") IngredientId output) {
+        var transition = new PlannedTransition("t", input, output, new Amount(1, "d"), 1, PlannedTransition.UNSTATED, Transition.Kind.HELD).plan();
+        var plans = new ArrayList<>(world.plans());
+        plans.add(transition);
+        var with = new World(world.dataset(), plans, world.seeds());
+        var needsOutput = new Reachability.Plan(Set.of(output), Set.of());
+        var without = world.reachability();
+        assertThat(with.reachability().live(needsOutput)).isEqualTo(without.live(needsOutput) || without.live(transition));
     }
 
     @Provide

@@ -6,7 +6,6 @@ import cookbookofbabel.minecraft.dataset.Choice.Leaf;
 import cookbookofbabel.minecraft.dataset.Amount;
 import cookbookofbabel.minecraft.dataset.Ingredient;
 import cookbookofbabel.minecraft.dataset.IngredientId;
-import cookbookofbabel.minecraft.dataset.Recipe;
 import cookbookofbabel.minecraft.dataset.Technique;
 import cookbookofbabel.minecraft.dataset.TechniqueId;
 import java.util.ArrayDeque;
@@ -22,7 +21,7 @@ import net.jqwik.api.Property;
 import net.jqwik.api.Provide;
 import net.jqwik.api.constraints.IntRange;
 
-/** Properties of the is-a DAG, the technique table, elision and required media. */
+/** Properties of the is-a DAG, the technique table and required media. */
 class GraphProperties {
     @Provide
     Arbitrary<List<Ingredient>> dags() {
@@ -70,51 +69,18 @@ class GraphProperties {
         assertThat(table.bindingFor(start)).isEqualTo(expected);
     }
 
+    /** Only a machine makes its techniques' results alike; the kinds of spoiling stay apart. */
+    @Property
+    void techniquesDoneInNoMachineKeepTheirResultsApart(@ForAll("tableKeys") TechniqueId bound) {
+        var table = new Techniques(new Dataset(Worlds.export(
+                List.of(), List.of(Worlds.technique("child", bound.value()), Worlds.technique(bound.value())), List.of())));
+        var child = new TechniqueId("child");
+        assertThat(table.machineOf(child)).isEqualTo(Techniques.TABLE.get(bound).routes().isEmpty() ? child : bound);
+    }
+
     @Provide
     Arbitrary<TechniqueId> tableKeys() {
         return Arbitraries.of(Techniques.TABLE.keySet());
-    }
-
-    /** Recipe graphs over 8 ingredients, some steps cooling, each recipe one in and one out or two in. */
-    @Provide
-    Arbitrary<List<Recipe>> graphs() {
-        var step = Arbitraries.integers().between(0, 7).list().ofMinSize(2).ofMaxSize(3)
-                .flatMap(ids -> Arbitraries.of("mix", "cool").map(t -> List.of(ids, List.of(t))));
-        return step.list().ofMinSize(1).ofMaxSize(8).map(steps -> {
-            var recipes = new ArrayList<Recipe>();
-            for (var i = 0; i < steps.size(); i++) {
-                @SuppressWarnings("unchecked")
-                var ids = (List<Integer>) steps.get(i).get(0);
-                var technique = (String) steps.get(i).get(1).get(0);
-                var inputs = ids.subList(0, ids.size() - 1).stream().map(Worlds::ingredient).distinct().toList();
-                var output = Worlds.ingredient(ids.get(ids.size() - 1));
-                if (!inputs.contains(output)) {
-                    recipes.add(Worlds.recipe("r" + i, technique, inputs, List.of(output)));
-                }
-            }
-            return recipes;
-        });
-    }
-
-    @Property
-    void elisionSkipsOnlyElidableSteps(@ForAll("graphs") List<Recipe> recipes) {
-        var result = Elision.elide(recipes, r -> r.technique().value().equals("cool"));
-        var kept = result.recipes().stream().map(Recipe::id).toList();
-        recipes.stream().filter(r -> !r.technique().value().equals("cool")).forEach(r -> assertThat(kept).contains(r.id()));
-        result.elided().forEach(e -> assertThat(recipes.stream().filter(r -> r.id().equals(e.recipe())).findFirst().orElseThrow().technique().value())
-                .isEqualTo("cool"));
-    }
-
-    /** Every final product that could be made before elision still can be. */
-    @Property
-    void elisionKeepsFinalProductsReachable(@ForAll("graphs") List<Recipe> recipes) {
-        var made = recipes.stream().flatMap(r -> Recipes.outputs(r.outputs()).stream()).map(o -> o.ingredient()).toList();
-        var used = recipes.stream().flatMap(r -> Recipes.leaves(r.inputs()).stream()).map(Leaf::ingredient).toList();
-        var leaves = used.stream().filter(i -> !made.contains(i)).toList();
-        var finals = made.stream().filter(i -> !used.contains(i)).toList();
-        var before = Recipes.reachable(recipes, leaves);
-        var after = Recipes.reachable(Elision.elide(recipes, r -> r.technique().value().equals("cool")).recipes(), leaves);
-        finals.stream().filter(before::contains).forEach(f -> assertThat(after).contains(f));
     }
 
     /**

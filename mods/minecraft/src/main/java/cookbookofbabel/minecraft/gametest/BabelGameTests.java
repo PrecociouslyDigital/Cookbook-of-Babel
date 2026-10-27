@@ -2,6 +2,7 @@ package cookbookofbabel.minecraft.gametest;
 
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
+import com.mojang.serialization.JsonOps;
 import com.simibubi.create.AllBlocks;
 import com.simibubi.create.AllRecipeTypes;
 import com.simibubi.create.content.kinetics.base.KineticBlockEntity;
@@ -15,6 +16,7 @@ import cookbookofbabel.minecraft.clock.Food;
 import cookbookofbabel.minecraft.clock.ItemClocks;
 import cookbookofbabel.minecraft.clock.Transition;
 import cookbookofbabel.minecraft.clock.Transitions;
+import cookbookofbabel.minecraft.dataset.NamedDish;
 import cookbookofbabel.minecraft.room.Air;
 import cookbookofbabel.minecraft.room.LevelRooms;
 import cookbookofbabel.minecraft.room.RoomConstants;
@@ -45,6 +47,7 @@ import net.minecraft.gametest.framework.GameTestHelper;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.server.MinecraftServer;
+import net.minecraft.server.packs.resources.Resource;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.crafting.RecipeType;
@@ -90,6 +93,50 @@ public final class BabelGameTests {
         helper.assertTrue(missing.isEmpty(), missing.size() + " of " + applicable.size() + " generated recipes didn't load, e.g. "
                 + missing.stream().limit(5).map(Object::toString).collect(Collectors.joining(", ")));
         helper.succeed();
+    }
+
+    /** Every generated transition is in the registry: one that fails to decode would be missing from it. */
+    @GameTest(template = EMPTY)
+    public static void everyGeneratedTransitionLoads(GameTestHelper helper) {
+        var server = helper.getLevel().getServer();
+        var files = generatedTransitions(server);
+        var loaded = server.registryAccess().registryOrThrow(Transition.REGISTRY).keySet().stream()
+                .filter(id -> id.getNamespace().equals(CookbookOfBabel.ID))
+                .count();
+        helper.assertTrue(!files.isEmpty(), "no generated transitions");
+        helper.assertTrue(loaded == files.size(), loaded + " of " + files.size() + " generated transitions loaded");
+        helper.succeed();
+    }
+
+    /**
+     * Every generated transition decodes, encodes back to the same transition, and names a substance or named dish
+     * at both ends.
+     */
+    @GameTest(template = EMPTY)
+    public static void generatedTransitionsRoundTripAndNameIngredients(GameTestHelper helper) throws IOException {
+        var server = helper.getLevel().getServer();
+        var substances = server.registryAccess().registryOrThrow(Substance.REGISTRY);
+        for (var file : generatedTransitions(server).entrySet()) {
+            try (var reader = file.getValue().openAsReader()) {
+                var decoded = Transition.CODEC.parse(JsonOps.INSTANCE, JsonParser.parseReader(reader)).result();
+                helper.assertTrue(decoded.isPresent(), file.getKey() + " doesn't decode");
+                var again = Transition.CODEC.encodeStart(JsonOps.INSTANCE, decoded.get()).result()
+                        .flatMap(json -> Transition.CODEC.parse(JsonOps.INSTANCE, json).result());
+                helper.assertTrue(again.equals(decoded), file.getKey() + " changes when encoded again: " + again);
+                for (var end : List.of(decoded.get().input(), decoded.get().output())) {
+                    var named = substances.containsKey(end)
+                            || (end.getNamespace().equals(CookbookOfBabel.ID) && NamedDish.byId(end.getPath()).isPresent());
+                    helper.assertTrue(named, file.getKey() + " names " + end + ", which is no substance or named dish");
+                }
+            }
+        }
+        helper.succeed();
+    }
+
+    private static Map<ResourceLocation, Resource> generatedTransitions(MinecraftServer server) {
+        var registry = Transition.REGISTRY.location();
+        return server.getResourceManager().listResources(registry.getNamespace() + "/" + registry.getPath(),
+                id -> id.getNamespace().equals(CookbookOfBabel.ID) && id.getPath().endsWith(".json"));
     }
 
     /** The JSON of each generated recipe under {@code directory} whose conditions hold, by recipe ID. */

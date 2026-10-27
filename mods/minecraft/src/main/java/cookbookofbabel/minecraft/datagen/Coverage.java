@@ -1,6 +1,7 @@
 package cookbookofbabel.minecraft.datagen;
 
 import cookbookofbabel.minecraft.dataset.IngredientId;
+import cookbookofbabel.minecraft.datagen.plan.PlannedTransition;
 import cookbookofbabel.minecraft.datagen.plan.Quantize;
 import cookbookofbabel.minecraft.datagen.plan.RouteKind;
 import java.util.ArrayList;
@@ -53,13 +54,25 @@ public final class Coverage {
 
     public record Variant(String path, Optional<IngredientId> addedMedium, List<Route> routes) {}
 
-    /** {@code note}: why the step has no routes at all, if it has none. */
-    public record Step(String recipe, String technique, Optional<String> note, List<Variant> variants) {
+    /** A step as a transition, written unless the game can't make its input: then {@code missing} names it. */
+    public record Kept(PlannedTransition transition, List<IngredientId> missing) {
+        public boolean live() {
+            return missing.isEmpty();
+        }
+    }
+
+    /** {@code note}: why the step is neither done in a machine nor a transition, if it is neither. */
+    public record Step(String recipe, String technique, Optional<String> note, List<Variant> variants, Optional<Kept> transition) {
         /** Whether some route wrote a recipe that loads. */
         boolean emitted() {
             return variants.stream()
                     .flatMap(v -> v.routes().stream())
                     .anyMatch(r -> r.outcome() instanceof Emitted e && e.recipes() > 0);
+        }
+
+        /** Whether the step was written as a transition. */
+        boolean kept() {
+            return transition.filter(Kept::live).isPresent();
         }
     }
 

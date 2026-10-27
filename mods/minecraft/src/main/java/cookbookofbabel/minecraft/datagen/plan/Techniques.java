@@ -82,14 +82,14 @@ public final class Techniques {
             bind("ash", SMELTING, BLASTING, CREATE_HEATED_MIXING, THEURGY_CALCINATION),
             bind("carbonate", CREATE_MIXING),
             bind("evaporate", CREATE_HEATED_MIXING),
-            elide("cool"),
-            elide("chill", THERMAL_CHILLER),
-            elide("dry", HEXEREI_DRYING_RACK),
-            elide("freeze", GARNISHED_FREEZING, THERMAL_CHILLER),
+            hold("cool"),
+            hold("chill", THERMAL_CHILLER),
+            hold("dry", HEXEREI_DRYING_RACK),
+            hold("freeze", GARNISHED_FREEZING, THERMAL_CHILLER),
             // Ageing, fermenting, curing and sprouting take a timed container.
             bind("age", VD_FERMENTING_JAR, BNC_KEG),
             bind("ferment", VD_FERMENTING_JAR, BNC_KEG, PNC_THERMO_PLANT, THEURGY_FERMENTATION),
-            Map.entry(new TechniqueId("spoil"), new Binding.Deferred("spoilage is something to prevent, not a recipe")));
+            Map.entry(new TechniqueId("spoil"), new Binding.Spoils()));
 
     /**
      * Media a technique uses up. Minecraft has no "already in the pan", so a step of one of these
@@ -113,9 +113,12 @@ public final class Techniques {
         return dataset.lineage(technique).stream().filter(TABLE::containsKey).findFirst();
     }
 
-    /** What this game tells a technique's results apart by: the technique whose binding it takes, or itself if unbound. */
+    /**
+     * What this game tells a technique's results apart by: the technique whose binding it takes, if that puts it in a
+     * machine. Otherwise it is told apart by itself: going stale and going mouldy are different transitions.
+     */
     public TechniqueId machineOf(TechniqueId technique) {
-        return boundTechnique(technique).orElse(technique);
+        return boundTechnique(technique).filter(t -> !TABLE.get(t).routes().isEmpty()).orElse(technique);
     }
 
     public Optional<IngredientId> mediumFor(TechniqueId technique) {
@@ -130,8 +133,8 @@ public final class Techniques {
                 .collect(java.util.stream.Collectors.toSet());
     }
 
-    private static Map.Entry<TechniqueId, Binding> elide(String technique, RouteKind... routes) {
-        return Map.entry(new TechniqueId(technique), new Binding.Elidable(List.of(routes)));
+    private static Map.Entry<TechniqueId, Binding> hold(String technique, RouteKind... routes) {
+        return Map.entry(new TechniqueId(technique), new Binding.Held(List.of(routes)));
     }
 
     private static Map.Entry<TechniqueId, Binding> bind(String technique, RouteKind... routes) {

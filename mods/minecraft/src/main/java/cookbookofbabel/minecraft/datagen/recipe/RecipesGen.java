@@ -1,19 +1,22 @@
 package cookbookofbabel.minecraft.datagen.recipe;
 
+import com.google.gson.JsonElement;
+import com.mojang.serialization.JsonOps;
 import com.simibubi.create.content.fluids.transfer.EmptyingRecipe;
 import com.simibubi.create.content.fluids.transfer.FillingRecipe;
 import com.simibubi.create.content.processing.recipe.ProcessingRecipeBuilder;
 import com.simibubi.create.foundation.fluid.FluidIngredient;
 import cookbookofbabel.minecraft.CookbookOfBabel;
+import cookbookofbabel.minecraft.clock.Transition;
 import cookbookofbabel.minecraft.dataset.Amount;
 import cookbookofbabel.minecraft.dataset.Recipe;
 import cookbookofbabel.minecraft.datagen.Coverage;
 import cookbookofbabel.minecraft.datagen.DatagenContext;
 import cookbookofbabel.minecraft.datagen.plan.Amounts;
-import cookbookofbabel.minecraft.datagen.plan.Binding;
 import cookbookofbabel.minecraft.datagen.plan.Condition;
 import cookbookofbabel.minecraft.datagen.plan.Mod;
 import cookbookofbabel.minecraft.datagen.plan.Planned;
+import cookbookofbabel.minecraft.datagen.plan.PlannedTransition;
 import cookbookofbabel.minecraft.datagen.plan.Planner;
 import cookbookofbabel.minecraft.datagen.plan.Reachability;
 import cookbookofbabel.minecraft.datagen.plan.RouteKind;
@@ -28,6 +31,8 @@ import java.util.concurrent.CompletableFuture;
 import java.util.function.Consumer;
 import java.util.stream.Stream;
 import net.minecraft.core.HolderLookup;
+import net.minecraft.data.CachedOutput;
+import net.minecraft.data.DataProvider;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.recipes.FinishedRecipe;
 import net.minecraft.data.recipes.RecipeProvider;
@@ -37,48 +42,74 @@ import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraftforge.common.capabilities.ForgeCapabilities;
 import net.minecraftforge.registries.ForgeRegistries;
 
-/** Every dataset step, through every machine its technique is bound to. */
+/** Every dataset step, through every machine its technique is bound to, and as a transition where it is one. */
 public final class RecipesGen extends RecipeProvider {
     private final DatagenContext context;
     private final CompletableFuture<HolderLookup.Provider> registries;
+    private final PackOutput.PathProvider transitionPaths;
+    /** What {@link #buildRecipes} found to write as transitions. */
+    private List<PlannedTransition> transitions = List.of();
 
     public RecipesGen(PackOutput output, DatagenContext context, CompletableFuture<HolderLookup.Provider> registries) {
         super(output);
         this.context = context;
         this.registries = registries;
+        var registry = Transition.REGISTRY.location();
+        this.transitionPaths = output.createPathProvider(PackOutput.Target.DATA_PACK, registry.getNamespace() + "/" + registry.getPath());
+    }
+
+    @Override
+    public CompletableFuture<?> run(CachedOutput output) {
+        var recipes = super.run(output);
+        var written = transitions.stream()
+                .map(t -> DataProvider.saveStable(output, encoded(t.transition()), transitionPaths.json(CookbookOfBabel.id(t.recipe()))))
+                .toArray(CompletableFuture[]::new);
+        return CompletableFuture.allOf(recipes, CompletableFuture.allOf(written));
+    }
+
+    private static JsonElement encoded(Transition transition) {
+        return Transition.CODEC.encodeStart(JsonOps.INSTANCE, transition).getOrThrow(false, message -> {
+            throw new IllegalStateException("can't encode " + transition + ": " + message);
+        });
     }
 
     /**
      * Plans every step before writing any, so that a recipe whose inputs nothing in the game can
-     * make is written disabled, instead of loading and asking for things nobody has.
+     * make is written disabled, instead of loading and asking for things nobody has. A transition
+     * has no way to be disabled, so one whose input the game can't make isn't written at all.
      */
     @Override
     protected void buildRecipes(Consumer<FinishedRecipe> sink) {
         var carriers = new Carriers(context.dataset, registries.join().lookupOrThrow(Substance.REGISTRY));
         var emitter = new RouteEmitter(context.dataset, context.mappings, carriers);
+        var amounts = new Amounts(context.dataset);
         var planned = context.recipes().stream()
                 .sorted(Comparator.comparing(Recipe::id))
-                .flatMap(recipe -> plan(recipe, emitter).stream())
+                .map(recipe -> plan(recipe, emitter, amounts))
                 .toList();
-        var writing = planned.stream()
+        var machines = planned.stream()
                 .flatMap(p -> p.variants().stream())
                 .flatMap(v -> v.attempts().stream())
-                .flatMap(a -> a instanceof Ready ready && !ready.recipes().isEmpty() ? Stream.of(ready.plan()) : Stream.empty())
-                .toList();
+                .flatMap(a -> a instanceof Ready ready && !ready.recipes().isEmpty() ? Stream.of(ready.plan()) : Stream.empty());
+        var kept = planned.stream().flatMap(p -> p.transition().stream()).map(PlannedTransition::plan);
         var seeds = Reachability.seeds(context.dataset, context.recipes(), context.mappings);
-        var reachability = Reachability.of(seeds, writing, context.dataset::descendants);
+        var reachability = Reachability.of(seeds, Stream.concat(machines, kept).toList(), context.dataset::descendants);
+        var live = new ArrayList<PlannedTransition>();
         for (var step : planned) {
             var variants = step.variants().stream()
                     .map(v -> new Coverage.Variant(v.step().path(), v.step().addedMedium().map(m -> m.ingredient()),
                             v.attempts().stream().map(a -> a.write(reachability, emitter, sink)).toList()))
                     .toList();
-            context.coverage.add(new Coverage.Step(step.recipe().id(), step.recipe().technique().value(), Optional.empty(), variants));
+            var transition = step.transition().map(t -> new Coverage.Kept(t, reachability.missing(t.plan())));
+            transition.filter(Coverage.Kept::live).ifPresent(k -> live.add(k.transition()));
+            context.coverage.add(new Coverage.Step(step.recipe().id(), step.recipe().technique().value(), step.note(), variants, transition));
         }
+        transitions = List.copyOf(live);
         fluidItems(carriers, sink);
     }
 
-    /** A dataset step, planned for every machine it's bound to. */
-    private record PlannedStep(Recipe recipe, List<PlannedVariant> variants) {}
+    /** A dataset step, planned for every machine it's bound to and as a transition; {@code note} says why it's neither. */
+    private record PlannedStep(Recipe recipe, Optional<String> note, List<PlannedVariant> variants, Optional<PlannedTransition> transition) {}
 
     private record PlannedVariant(Step step, List<Attempt> attempts) {}
 
@@ -112,23 +143,19 @@ public final class RecipesGen extends RecipeProvider {
         }
     }
 
-    /** The step planned for each route, or empty if it has none; coverage records why either way. */
-    private Optional<PlannedStep> plan(Recipe recipe, RouteEmitter emitter) {
+    private PlannedStep plan(Recipe recipe, RouteEmitter emitter, Amounts amounts) {
         var binding = context.techniques.bindingFor(recipe.technique());
+        var transition = PlannedTransition.of(recipe, binding, amounts);
         var technique = recipe.technique().value();
         if (binding.routes().isEmpty()) {
-            var note = binding instanceof Binding.Deferred d
-                    ? d.reason()
-                    : binding instanceof Binding.Elidable
-                            ? "should happen over time, but skipping it would lose what it makes"
-                            : "no machine does " + technique + " or any technique above it";
-            context.coverage.add(new Coverage.Step(recipe.id(), technique, Optional.of(note), List.of()));
-            return Optional.empty();
+            var note = binding.transition().isPresent()
+                    ? "it should happen over time, but it isn't one ingredient becoming another after a set time"
+                    : "no machine does " + technique + " or any technique above it";
+            return new PlannedStep(recipe, transition.isPresent() ? Optional.empty() : Optional.of(note), List.of(), transition);
         }
         var steps = context.planner.steps(recipe);
         if (steps instanceof Planner.Unsupported unsupported) {
-            context.coverage.add(new Coverage.Step(recipe.id(), technique, Optional.of(unsupported.reason()), List.of()));
-            return Optional.empty();
+            return new PlannedStep(recipe, Optional.of(unsupported.reason()), List.of(), transition);
         }
         var variants = new ArrayList<PlannedVariant>();
         for (var step : ((Planner.Variants) steps).steps()) {
@@ -141,7 +168,7 @@ public final class RecipesGen extends RecipeProvider {
             }
             variants.add(new PlannedVariant(step, attempts));
         }
-        return Optional.of(new PlannedStep(recipe, variants));
+        return new PlannedStep(recipe, Optional.empty(), variants, transition);
     }
 
     /**

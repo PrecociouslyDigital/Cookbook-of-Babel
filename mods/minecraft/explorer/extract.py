@@ -9,6 +9,11 @@ any live ones.
 
 Each target mod writes recipes in its own schema, so inputs and outputs
 appear under several keys and in several encodings.
+
+Transitions, which turn one ingredient into another while kept, are
+alternatives too, grouped by machine (storage for a held step, spoiling for
+spoilage) and by the temperature band where they take their stated time.
+Datagen only writes the ones whose input the game can make, so none are dead.
 """
 
 import json
@@ -29,6 +34,7 @@ SINGLE_INPUTS = ("ingredient", "item_input", "fluid_input", "tool", "solvent", "
 AMOUNT_KEYS = {"solvent": "solvent_amount", "fluid": "fluidAmount", "liquid": "fluidLevelsConsumed"}
 # Hexerei's cauldron also names a liquidOutput: what's left of its liquid, not a product.
 OUTPUTS = ("result", "results", "output", "item_output", "fluid_output", "secondaryOutput")
+TRANSITION_MACHINES = {"held": NS + "storage", "spoil": NS + "spoiling"}
 
 
 def babel_ref(entry):
@@ -108,6 +114,11 @@ def machine_of(recipe):
     return recipe["type"] + (f" ({heat})" if heat else "")
 
 
+def band_of(celsius, bands):
+    """The first band whose bound lies above the temperature, else the open-ended top one, as TempBands.bandOf."""
+    return next((b["id"] for b in bands if "belowC" in b and celsius < b["belowC"]), bands[-1]["id"])
+
+
 def tag_values(data, kind, name):
     path = data / "tags" / kind / "ingredients" / f"{name}.json"
     if not path.exists():
@@ -115,7 +126,7 @@ def tag_values(data, kind, name):
     return [v["id"] if isinstance(v, dict) else v for v in json.loads(path.read_text())["values"]]
 
 
-def compile_graph(generated):
+def compile_graph(generated, bands):
     data = generated / "data/cookbook_of_babel"
     substances = {p.stem: json.loads(p.read_text()) for p in (data / "cookbook_of_babel/substance").glob("*.json")}
 
@@ -128,6 +139,12 @@ def compile_graph(generated):
             raise ValueError(f"{path} produces nothing")
         for out, count in outputs:
             produced[out][inputs, count, dead(recipe)].add(machine_of(recipe))
+    for path in sorted((data / "cookbook_of_babel/transition").glob("*.json")):
+        transition = json.loads(path.read_text())
+        inputs = ((transition["input"].removeprefix(NS), 1, ""),)
+        band = band_of(transition["sensitivity"]["refTempC"], bands)
+        machine = f"{TRANSITION_MACHINES[transition['kind']]} ({band})"
+        produced[transition["output"].removeprefix(NS)][inputs, 1, False].add(machine)
 
     names = set(produced) | set(substances)
     names.update(name for alts in produced.values() for inputs, _, _ in alts for name, _, _ in inputs)
@@ -174,4 +191,5 @@ def compile_graph(generated):
 
 
 if __name__ == "__main__":
-    json.dump(compile_graph(Path(sys.argv[1])), sys.stdout, separators=(",", ":"))
+    bands = json.loads(Path(sys.argv[2]).read_text())["tempBands"]
+    json.dump(compile_graph(Path(sys.argv[1]), bands), sys.stdout, separators=(",", ":"))

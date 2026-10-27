@@ -418,9 +418,12 @@ const MODS = {
   farmersrespite: ["Farmer's Respite", "#8c6a3f"],
   garnished: ["Create: Garnished", "#5a9fc4"],
   hexerei: ["Hexerei", "#4d7a5c"],
+  cookbook_of_babel: ["Kept food", "#9a8a6a"],
 };
 const MACHINES = {
   "brewinandchewin:fermenting": "Keg",
+  "cookbook_of_babel:spoiling": "Spoiling",
+  "cookbook_of_babel:storage": "Storage",
   "create:compacting": "Mechanical Press",
   "create:cutting": "Mechanical Saw",
   "create:deploying": "Deployer",
@@ -470,10 +473,11 @@ let G;
 const view = { root: 0, selected: 0, mode: "up", toggled: new Set(), chosenAlt: new Map(), filter: "dish" };
 
 function machine(m) {
-  const [type, heat] = G.machines[m].split(" (");
+  /* The condition it works in: a basin's heat, or a transition's temperature band. */
+  const [type, condition] = G.machines[m].split(" (");
   const mod = type.split(":")[0];
   return {
-    name: (MACHINES[type] ?? type) + (heat ? ` · ${heat.slice(0, -1)}` : ""),
+    name: (MACHINES[type] ?? type) + (condition ? ` · ${condition.slice(0, -1)}` : ""),
     mod,
     color: MODS[mod]?.[1] ?? "var(--line)",
   };

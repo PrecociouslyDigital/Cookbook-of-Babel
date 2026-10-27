@@ -265,8 +265,13 @@ public final class Planner {
         if (!c.takesDuration()) {
             return 0;
         }
-        var ticks = recipe.end().timeTaken().map(d -> amounts.seconds(d) * TICKS_PER_REAL_SECOND).orElse(DEFAULT_TICKS);
+        var ticks = recipe.end().timeTaken().map(d -> ticksOf(amounts.seconds(d))).orElse(DEFAULT_TICKS);
         return (int) Math.max(c.minTicks(), Math.min(c.maxTicks(), Math.round(ticks)));
+    }
+
+    /** How long a real duration takes in the game, before any machine's limits. */
+    static double ticksOf(double realSeconds) {
+        return realSeconds * TICKS_PER_REAL_SECOND;
     }
 
     private static Quantize.Limits limits(RouteKind route) {

@@ -1,7 +1,6 @@
 package cookbookofbabel.minecraft.datagen.recipe;
 
 import cookbookofbabel.minecraft.BabelTags;
-import cookbookofbabel.minecraft.CookbookOfBabel;
 import cookbookofbabel.minecraft.clock.Food;
 import cookbookofbabel.minecraft.dataset.IngredientId;
 import cookbookofbabel.minecraft.datagen.plan.Dataset;
@@ -28,7 +27,7 @@ public final class Carriers {
     }
 
     public static ResourceKey<Substance> key(IngredientId ingredient) {
-        return ResourceKey.create(Substance.REGISTRY, CookbookOfBabel.id(ingredient.value()));
+        return ResourceKey.create(Substance.REGISTRY, ingredient.location());
     }
 
     public ItemStack own(IngredientId ingredient, int count) {
