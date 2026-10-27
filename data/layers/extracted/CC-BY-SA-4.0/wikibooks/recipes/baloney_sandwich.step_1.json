@@ -1,0 +1,60 @@
+{
+  "id": "baloney_sandwich.step_1",
+  "source": "wikibooks_baloney_sandwich",
+  "sourceRef": {
+    "source": "wikibooks_baloney_sandwich",
+    "step": 1
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "bologna",
+        "amount": {
+          "qty": 16,
+          "unit": "slice"
+        }
+      },
+      {
+        "ingredient": "kaiser_bun",
+        "amount": {
+          "qty": 1,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "baloney_sandwich_step_1",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "On one slice of the bun, pile the bologna slices in the shape of a Venn diagram, alternating between those on the left and those on the right, so that your Venn diagram is made of bologna that hangs off the edges of the bottom of the Kaiser bun.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.58"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}
