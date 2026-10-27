@@ -57,6 +57,16 @@ in
     jdk.package = pkgs.jdk17;
   };
 
+  # The Java language server for editing the mod. Recent jdtls needs a newer
+  # JVM than the mod's JDK 17, so it runs on its own JDK 21.
+  scripts.jdtls = {
+    packages = [ pkgs.jdt-language-server pkgs.jdk21 ];
+    exec = ''
+      export PATH="${pkgs.jdk21}/bin:$PATH"
+      exec jdtls "$@"
+    '';
+  };
+
   languages.haskell = {
     enable = true;
     package = ghc;
