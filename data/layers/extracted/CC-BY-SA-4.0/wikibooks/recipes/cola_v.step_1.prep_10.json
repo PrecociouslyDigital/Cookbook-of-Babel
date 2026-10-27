@@ -1,0 +1,54 @@
+{
+  "id": "cola_v.step_1.prep_10",
+  "source": "wikibooks_cola_v",
+  "technique": "boil",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "water",
+        "amount": {
+          "qty": 0.5,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "water_boil",
+      "amount": {
+        "qty": 0.5,
+        "unit": "cup"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "½ cup (120 ml) water",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.52"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "crushed_tomato_sauce.step_5.prep_5",
+  "source": "wikibooks_crushed_tomato_sauce",
+  "technique": "julienne",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "basil",
+        "amount": {
+          "qty": 5.5,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "basil_julienne",
+      "amount": {
+        "qty": 5.5,
+        "unit": "piece"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "5–6 leaves basil, julienned or minced",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

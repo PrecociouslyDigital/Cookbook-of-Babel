@@ -40,33 +40,23 @@
       }
     }
   ],
-  "environment": {
-    "temperatureC": 180,
-    "medium": "pan_contact"
-  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
     }
   },
   "stateNote": "Remove the saucepan from the heat and stir in the rosewater and orange blossom water. Mix well to incorporate the flavors.",
   "issues": [
     {
-      "field": "environment",
-      "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.51"
-    },
-    {
       "field": "outputs",
       "kind": "estimate",
       "note": "assumed 1 g/ml for rosewater, orange_flower_water"
-    },
-    {
-      "field": "environment",
-      "kind": "estimate",
-      "note": "no temperature given; assumed 180.0 °C for pan_contact"
     },
     {
       "field": "end",

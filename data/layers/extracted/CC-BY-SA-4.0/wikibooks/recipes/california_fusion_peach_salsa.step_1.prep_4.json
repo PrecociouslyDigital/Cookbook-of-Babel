@@ -1,0 +1,49 @@
+{
+  "id": "california_fusion_peach_salsa.step_1.prep_4",
+  "source": "wikibooks_california_fusion_peach_salsa",
+  "technique": "chop",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "cilantro",
+        "amount": {
+          "qty": 2,
+          "unit": "tsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "cilantro_chop",
+      "amount": {
+        "qty": 2,
+        "unit": "tsp"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "2 teaspoons chopped fresh cilantro",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

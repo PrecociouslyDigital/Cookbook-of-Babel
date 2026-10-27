@@ -1,0 +1,49 @@
+{
+  "id": "jam_recipe.step_1.prep_1",
+  "source": "wikibooks_jam_recipe",
+  "technique": "rinse",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "strawberry",
+        "amount": {
+          "qty": 2,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "strawberry_rinse",
+      "amount": {
+        "qty": 2,
+        "unit": "cup"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "2 cups soft, fleshy fruit like strawberries, peaches, cherries, plums, blueberries, blackberries, raspberries, etc.",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

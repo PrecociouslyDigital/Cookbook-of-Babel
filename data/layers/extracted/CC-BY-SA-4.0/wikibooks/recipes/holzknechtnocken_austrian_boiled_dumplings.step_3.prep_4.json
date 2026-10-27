@@ -1,0 +1,49 @@
+{
+  "id": "holzknechtnocken_austrian_boiled_dumplings.step_3.prep_4",
+  "source": "wikibooks_holzknechtnocken_austrian_boiled_dumplings",
+  "technique": "heat",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "lard",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "lard_heat",
+      "amount": {
+        "qty": 1,
+        "unit": "pinch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Lard",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

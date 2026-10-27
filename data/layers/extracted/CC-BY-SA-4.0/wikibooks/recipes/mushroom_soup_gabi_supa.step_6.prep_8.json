@@ -1,0 +1,49 @@
+{
+  "id": "mushroom_soup_gabi_supa.step_6.prep_8",
+  "source": "wikibooks_mushroom_soup_gabi_supa",
+  "technique": "chop",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "parsley",
+        "amount": {
+          "qty": 2.5,
+          "unit": "tsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "parsley_chop",
+      "amount": {
+        "qty": 2.5,
+        "unit": "tsp"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "2–3 teaspoons chopped parsley",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

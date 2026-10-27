@@ -16,7 +16,7 @@
         }
       },
       {
-        "ingredient": "butter",
+        "ingredient": "butter_heat",
         "amount": {
           "qty": 1,
           "unit": "pinch"
@@ -47,6 +47,11 @@
   "stateNote": "Melt the butter in a large saucepan. Stir in the onions, and let the onions blonde on moderate heat (which is to say, let them cook until they are light gold and transparent, but do not let them over-caramelize and become dark).",
   "issues": [
     {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.53"
+    },
+    {
       "field": "inputs",
       "kind": "estimate",
       "note": "'A knob of butter (a little less than 2 tbsp or 25g)': no quantity given; assumed a pinch"
@@ -54,7 +59,7 @@
     {
       "field": "outputs",
       "kind": "estimate",
-      "note": "assumed 1 g/ml for onion, butter"
+      "note": "assumed 1 g/ml for onion, butter_heat"
     },
     {
       "field": "environment",

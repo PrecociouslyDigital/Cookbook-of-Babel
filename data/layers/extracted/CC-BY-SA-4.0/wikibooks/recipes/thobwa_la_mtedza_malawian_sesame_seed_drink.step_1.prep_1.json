@@ -1,0 +1,49 @@
+{
+  "id": "thobwa_la_mtedza_malawian_sesame_seed_drink.step_1.prep_1",
+  "source": "wikibooks_thobwa_la_mtedza_malawian_sesame_seed_drink",
+  "technique": "toast",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "sesame_seed",
+        "amount": {
+          "qty": 1,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "sesame_seed_toast",
+      "amount": {
+        "qty": 1,
+        "unit": "cup"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "1 cup sesame seeds",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

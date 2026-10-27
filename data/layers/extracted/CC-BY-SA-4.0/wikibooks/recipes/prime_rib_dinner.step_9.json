@@ -16,7 +16,14 @@
         }
       },
       {
-        "ingredient": "apple",
+        "ingredient": "olive_oil_heat",
+        "amount": {
+          "qty": 0.75,
+          "unit": "cup"
+        }
+      },
+      {
+        "ingredient": "apple_pan_fry",
         "amount": {
           "qty": 2,
           "unit": "piece"
@@ -46,6 +53,16 @@
   },
   "stateNote": "Heat oil in a 10-inch stainless steel skillet over medium high heat. Add apples and sauté until a golden color is achieved.",
   "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.58"
+    },
+    {
+      "field": "inputs",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.44"
+    },
     {
       "field": "environment",
       "kind": "estimate",

@@ -1,0 +1,49 @@
+{
+  "id": "kedjenou_chicken_chicken_and_vegetable_stew.step_2.prep_1",
+  "source": "wikibooks_kedjenou_chicken_chicken_and_vegetable_stew",
+  "technique": "dry",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "chicken",
+        "amount": {
+          "qty": 2,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "chicken_dry",
+      "amount": {
+        "qty": 2,
+        "unit": "piece"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "2 whole chickens, cut into medium pieces",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

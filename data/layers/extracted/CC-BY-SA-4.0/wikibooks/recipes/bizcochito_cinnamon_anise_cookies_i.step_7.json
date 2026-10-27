@@ -33,19 +33,24 @@
       }
     }
   ],
-  "environment": {
-    "temperatureC": 180,
-    "medium": "oven_air"
-  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
     }
   },
   "stateNote": "Dust, while still hot, with cinnamon sugar.",
   "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.47"
+    },
     {
       "field": "inputs",
       "kind": "estimate",

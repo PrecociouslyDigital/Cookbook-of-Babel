@@ -9,14 +9,14 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "oil_and_fat",
+        "ingredient": "oil_and_fat_heat",
         "amount": {
           "qty": 2,
           "unit": "tsp"
         }
       },
       {
-        "ingredient": "chickpea",
+        "ingredient": "chickpea_roast",
         "amount": {
           "qty": 2,
           "unit": "tbsp"
@@ -35,7 +35,7 @@
   ],
   "environment": {
     "temperatureC": 195,
-    "medium": "frying_oil"
+    "medium": "pan_contact"
   },
   "end": {
     "by": "time",
@@ -47,9 +47,14 @@
   "stateNote": "In a shallow pan, heat the oil. Add the chana dal, and stir until the dal is roasted.",
   "issues": [
     {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.58"
+    },
+    {
       "field": "outputs",
       "kind": "estimate",
-      "note": "assumed 1 g/ml for oil_and_fat, chickpea"
+      "note": "assumed 1 g/ml for oil_and_fat_heat, chickpea_roast"
     },
     {
       "field": "environment",

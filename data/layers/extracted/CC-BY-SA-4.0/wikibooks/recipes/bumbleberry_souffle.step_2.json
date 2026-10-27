@@ -5,11 +5,11 @@
     "source": "wikibooks_bumbleberry_souffle",
     "step": 2
   },
-  "technique": "heat",
+  "technique": "coat",
   "inputs": {
     "of": [
       {
-        "ingredient": "butter",
+        "ingredient": "butter_heat",
         "amount": {
           "qty": 1,
           "unit": "slice"
@@ -19,7 +19,7 @@
   },
   "outputs": [
     {
-      "ingredient": "butter_heat",
+      "ingredient": "bumbleberry_souffle_step_2",
       "amount": {
         "qty": 1,
         "unit": "batch"
@@ -39,6 +39,11 @@
   },
   "stateNote": "Place the butter in a baking dish, and melt in the oven.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.46"
+    },
     {
       "field": "end",
       "kind": "estimate",

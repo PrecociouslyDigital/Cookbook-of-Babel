@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "salt_cod_soak_soak",
+        "ingredient": "salt_cod_soak_soak_soak",
         "amount": {
           "qty": 453.6,
           "unit": "g"
@@ -19,7 +19,7 @@
   },
   "outputs": [
     {
-      "ingredient": "salt_cod_soak_soak_simmer",
+      "ingredient": "salt_cod_soak_soak_soak_simmer",
       "amount": {
         "qty": 453.6,
         "unit": "g"
@@ -39,6 +39,11 @@
   },
   "stateNote": "Poach the cod in plain water for 25 minutes or until it flakes easily when tested.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.59"
+    },
     {
       "field": "environment",
       "kind": "estimate",

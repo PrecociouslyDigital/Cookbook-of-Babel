@@ -1,0 +1,49 @@
+{
+  "id": "miyan_karkashi_nigerian_sesame_leaf_soup.step_1.prep_1",
+  "source": "wikibooks_miyan_karkashi_nigerian_sesame_leaf_soup",
+  "technique": "grind",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "sesame_leaf",
+        "amount": {
+          "qty": 0.5,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "sesame_leaf_grind",
+      "amount": {
+        "qty": 0.5,
+        "unit": "cup"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "½ cup karkashi leaves, either fresh or dried and ground",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "spicy_chilli_chicken.step_5.prep_11",
+  "source": "wikibooks_spicy_chilli_chicken",
+  "technique": "chop",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "tomato",
+        "amount": {
+          "qty": 3,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "tomato_chop",
+      "amount": {
+        "qty": 3,
+        "unit": "piece"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "3 medium tomatoes, chopped",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

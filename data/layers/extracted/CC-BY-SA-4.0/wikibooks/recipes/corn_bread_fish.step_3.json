@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "fish",
+        "ingredient": "fish_season",
         "amount": {
           "qty": 4,
           "unit": "piece"
@@ -53,6 +53,11 @@
   },
   "stateNote": "Season each fish piece with salt and pepper, and place in the dish.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.58"
+    },
     {
       "field": "inputs",
       "kind": "estimate",

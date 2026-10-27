@@ -1,0 +1,54 @@
+{
+  "id": "taro_fish.step_7.prep_4",
+  "source": "wikibooks_taro_fish",
+  "technique": "julienne",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "ginger",
+        "amount": {
+          "qty": 2,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "ginger_julienne",
+      "amount": {
+        "qty": 2,
+        "unit": "piece"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "2-inch piece of ginger",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.59"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

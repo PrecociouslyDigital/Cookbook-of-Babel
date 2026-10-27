@@ -35,7 +35,7 @@
   ],
   "environment": {
     "temperatureC": 90,
-    "medium": "simmering_water"
+    "medium": "pan_contact"
   },
   "end": {
     "by": "time",
@@ -46,6 +46,11 @@
   },
   "stateNote": "Add the stock and simmer until reduced by one-third, stirring to loosen brown bits from bottom of pan (about 7 minutes). The sauce can be prepared up to this point several hours ahead and kept covered in the refrigerator.",
   "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.57"
+    },
     {
       "field": "outputs",
       "kind": "estimate",

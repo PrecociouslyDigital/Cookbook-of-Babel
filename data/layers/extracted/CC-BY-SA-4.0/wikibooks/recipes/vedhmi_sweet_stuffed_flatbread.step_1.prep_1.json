@@ -1,0 +1,49 @@
+{
+  "id": "vedhmi_sweet_stuffed_flatbread.step_1.prep_1",
+  "source": "wikibooks_vedhmi_sweet_stuffed_flatbread",
+  "technique": "rinse",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "pigeon_pea",
+        "amount": {
+          "qty": 0.5,
+          "unit": "kg"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "pigeon_pea_rinse",
+      "amount": {
+        "qty": 0.5,
+        "unit": "kg"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "½ kg toor dal",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

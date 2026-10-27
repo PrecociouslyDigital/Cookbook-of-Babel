@@ -1,0 +1,49 @@
+{
+  "id": "pig_s_trotters_and_ginger_vinegar_stew.step_1.prep_2",
+  "source": "wikibooks_pig_s_trotters_and_ginger_vinegar_stew",
+  "technique": "boil",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "egg",
+        "amount": {
+          "qty": 12,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "egg_boil",
+      "amount": {
+        "qty": 12,
+        "unit": "piece"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "12 large eggs",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

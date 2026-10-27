@@ -16,21 +16,21 @@
         }
       },
       {
-        "ingredient": "fish",
+        "ingredient": "fish_cut",
         "amount": {
           "qty": 0.5,
           "unit": "kg"
         }
       },
       {
-        "ingredient": "squid",
+        "ingredient": "squid_cut",
         "amount": {
           "qty": 0.5,
           "unit": "kg"
         }
       },
       {
-        "ingredient": "garlic",
+        "ingredient": "garlic_chop",
         "amount": {
           "qty": 5,
           "unit": "clove"
@@ -44,7 +44,7 @@
         }
       },
       {
-        "ingredient": "jalapeno",
+        "ingredient": "jalapeno_chop",
         "amount": {
           "qty": 2,
           "unit": "piece"
@@ -103,22 +103,13 @@
       "unit": "h"
     },
     "sensitivity": {
-      "refTempC": 20,
-      "q10": 1
+      "refTempC": 4,
+      "q10": 1,
+      "maxTempC": 8
     }
   },
   "stateNote": "Combine all the marinade ingredients in a nonreactive (glass or ceramic) mixing bowl. Add the seafood and mix to coat well. Refrigerate overnight.",
   "issues": [
-    {
-      "field": "technique",
-      "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.5"
-    },
-    {
-      "field": "inputs",
-      "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.56"
-    },
     {
       "field": "end",
       "kind": "estimate",

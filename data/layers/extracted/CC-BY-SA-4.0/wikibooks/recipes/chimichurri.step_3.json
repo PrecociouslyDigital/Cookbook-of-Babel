@@ -5,7 +5,7 @@
     "source": "wikibooks_chimichurri",
     "step": 3
   },
-  "technique": "boil",
+  "technique": "heat",
   "inputs": {
     "of": [
       {
@@ -16,14 +16,14 @@
         }
       },
       {
-        "ingredient": "vinegar",
+        "ingredient": "vinegar_boil",
         "amount": {
           "qty": 50,
           "unit": "ml"
         }
       },
       {
-        "ingredient": "water",
+        "ingredient": "water_boil",
         "amount": {
           "qty": 50,
           "unit": "ml"
@@ -54,9 +54,14 @@
   "stateNote": "Bring the vinegar and water to the boil, add to the other ingredients and mix well. This helps to soften the taste of the onion and garlic.",
   "issues": [
     {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.42"
+    },
+    {
       "field": "environment",
       "kind": "estimate",
-      "note": "no temperature given; used the middle of boil's typical range"
+      "note": "no temperature given; assumed 100.0 °C for boiling_water"
     },
     {
       "field": "end",

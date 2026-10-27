@@ -5,7 +5,7 @@
     "source": "wikibooks_bacon_cheese_omelet",
     "step": 3
   },
-  "technique": "heat",
+  "technique": "coat",
   "inputs": {
     "of": [
       {
@@ -16,7 +16,7 @@
         }
       },
       {
-        "ingredient": "butter",
+        "ingredient": "butter_heat",
         "amount": {
           "qty": 1,
           "unit": "tbsp"
@@ -46,6 +46,11 @@
   },
   "stateNote": "Melt the butter in a pan over a high heat. Make sure the pan is evenly covered in butter.",
   "issues": [
+    {
+      "field": "sourceRef",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.59"
+    },
     {
       "field": "environment",
       "kind": "estimate",

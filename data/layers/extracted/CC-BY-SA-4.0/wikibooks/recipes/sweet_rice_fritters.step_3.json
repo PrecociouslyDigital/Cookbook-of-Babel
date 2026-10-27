@@ -26,23 +26,28 @@
       }
     }
   ],
-  "environment": {
-    "temperatureC": 55,
-    "medium": "still_air"
-  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
     }
   },
   "stateNote": "Drain fritters on a cooling rack set in a sheet pan.",
   "issues": [
     {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.58"
+    },
+    {
       "field": "environment",
-      "kind": "estimate",
-      "note": "no temperature given; used the middle of dry's typical range"
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.57"
     },
     {
       "field": "end",

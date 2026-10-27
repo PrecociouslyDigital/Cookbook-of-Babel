@@ -26,24 +26,19 @@
       }
     }
   ],
-  "environment": {
-    "temperatureC": 204.44444444444446,
-    "medium": "oven_air"
-  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
     }
   },
   "stateNote": "Scrape the batter into the pan(s). If using two pans, try to ensure that both tins have an equal amount of batter in them and that both are not more than ¾ filled.",
   "issues": [
-    {
-      "field": "environment",
-      "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.54"
-    },
     {
       "field": "end",
       "kind": "estimate",

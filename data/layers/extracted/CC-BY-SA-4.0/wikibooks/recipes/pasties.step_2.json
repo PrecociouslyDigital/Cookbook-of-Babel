@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "beef",
+        "ingredient": "beef_season",
         "amount": {
           "qty": 2,
           "unit": "lb"
@@ -20,7 +20,7 @@
         "max": 1,
         "of": [
           {
-            "ingredient": "plain_flour",
+            "ingredient": "plain_flour_season",
             "amount": {
               "qty": 1,
               "unit": "tbsp"
@@ -34,6 +34,13 @@
           "qty": 1,
           "unit": "pinch"
         }
+      },
+      {
+        "ingredient": "pepper",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
       }
     ]
   },
@@ -41,7 +48,7 @@
     {
       "ingredient": "pasties_step_2",
       "amount": {
-        "qty": 922.3,
+        "qty": 922.7,
         "unit": "g"
       }
     }
@@ -61,18 +68,18 @@
   "issues": [
     {
       "field": "inputs",
-      "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.53"
-    },
-    {
-      "field": "inputs",
       "kind": "estimate",
       "note": "'Salt to taste': no quantity given; assumed a pinch"
     },
     {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Pepper to taste': no quantity given; assumed a pinch"
+    },
+    {
       "field": "outputs",
       "kind": "estimate",
-      "note": "assumed 1 g/ml for plain_flour"
+      "note": "assumed 1 g/ml for plain_flour_season, pepper"
     },
     {
       "field": "end",

@@ -5,7 +5,7 @@
     "source": "wikibooks_sushi_rice",
     "step": 9
   },
-  "technique": "separate",
+  "technique": "assemble",
   "inputs": {
     "of": [
       {
@@ -26,15 +26,15 @@
       }
     }
   ],
-  "environment": {
-    "temperatureC": 180,
-    "medium": "pan_contact"
-  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
     }
   },
   "stateNote": "Transfer the rice from the cooking pot to the hangiri; if you do not have one, use a large bowl or cookie sheet.",
@@ -42,17 +42,12 @@
     {
       "field": "technique",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.38"
+      "note": "the decision model gave this answer a probability of 0.49"
     },
     {
       "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.55"
-    },
-    {
-      "field": "environment",
-      "kind": "estimate",
-      "note": "no temperature given; assumed 180.0 °C for pan_contact"
+      "note": "the decision model gave this answer a probability of 0.43"
     },
     {
       "field": "end",

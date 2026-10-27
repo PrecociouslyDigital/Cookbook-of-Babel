@@ -1,0 +1,49 @@
+{
+  "id": "sindhi_raitha.step_1.prep_4",
+  "source": "wikibooks_sindhi_raitha",
+  "technique": "chop",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "tomato",
+        "amount": {
+          "qty": 7.5,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "tomato_chop",
+      "amount": {
+        "qty": 7.5,
+        "unit": "piece"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "5–10 pieces chopped tomatoes",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

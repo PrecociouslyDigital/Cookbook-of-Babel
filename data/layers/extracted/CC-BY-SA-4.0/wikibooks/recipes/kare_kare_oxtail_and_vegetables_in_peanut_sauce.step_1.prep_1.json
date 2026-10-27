@@ -1,0 +1,49 @@
+{
+  "id": "kare_kare_oxtail_and_vegetables_in_peanut_sauce.step_1.prep_1",
+  "source": "wikibooks_kare_kare_oxtail_and_vegetables_in_peanut_sauce",
+  "technique": "boil",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "oxtail",
+        "amount": {
+          "qty": 1.75,
+          "unit": "lb"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "oxtail_boil",
+      "amount": {
+        "qty": 1.75,
+        "unit": "lb"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "1 pack (1.5–2 lb) oxtail",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -16,7 +16,7 @@
         }
       },
       {
-        "ingredient": "butter",
+        "ingredient": "butter_heat",
         "amount": {
           "qty": 1,
           "unit": "tbsp"
@@ -53,6 +53,11 @@
   },
   "stateNote": "Meanwhile, heat butter in a small skillet. Add garlic and sauté over low heat until golden (about 1 minute), then remove from heat.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.44"
+    },
     {
       "field": "environment",
       "kind": "estimate",

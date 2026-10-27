@@ -1,0 +1,49 @@
+{
+  "id": "maple_butter_tart.step_3.prep_4",
+  "source": "wikibooks_maple_butter_tart",
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "butter",
+        "amount": {
+          "qty": 1,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "butter_cut",
+      "amount": {
+        "qty": 1,
+        "unit": "cup"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "1 cup cold unsalted butter, cubed",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -26,15 +26,15 @@
       }
     }
   ],
+  "environment": {
+    "temperatureC": 20,
+    "medium": "still_air"
+  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
-    },
-    "sensitivity": {
-      "refTempC": 20,
-      "q10": 1
     }
   },
   "stateNote": "Hang the eulachons for smoking by threading on cedar sticks. Push the strip of red cedar in through the gills and out through the mouth. Usually 12–25 eulachons are put on each stick.",
@@ -42,7 +42,12 @@
     {
       "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.55"
+      "note": "the decision model gave this answer a probability of 0.57"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 20.0 °C for still_air"
     },
     {
       "field": "end",

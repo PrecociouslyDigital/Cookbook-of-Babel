@@ -9,14 +9,14 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "wine_heat",
+        "ingredient": "wine_heat_heat",
         "amount": {
           "qty": 1,
           "unit": "batch"
         }
       },
       {
-        "ingredient": "orange",
+        "ingredient": "orange_rinse",
         "amount": {
           "qty": 2,
           "unit": "piece"
@@ -27,7 +27,7 @@
         "max": 1,
         "of": [
           {
-            "ingredient": "lemons",
+            "ingredient": "lemons_rinse",
             "amount": {
               "qty": 2,
               "unit": "piece"
@@ -59,11 +59,6 @@
   },
   "stateNote": "Wash the fruit with hot water.",
   "issues": [
-    {
-      "field": "inputs",
-      "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.55"
-    },
     {
       "field": "environment",
       "kind": "estimate",

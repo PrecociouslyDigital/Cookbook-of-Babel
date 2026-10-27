@@ -9,14 +9,14 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "vegetable_oil",
+        "ingredient": "vegetable_oil_heat",
         "amount": {
           "qty": 2,
           "unit": "tbsp"
         }
       },
       {
-        "ingredient": "onion",
+        "ingredient": "onion_chop",
         "amount": {
           "qty": 1,
           "unit": "piece"
@@ -46,6 +46,11 @@
   },
   "stateNote": "Add the finely chopped onion to the hot oil and sauté until it becomes soft and translucent.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.53"
+    },
     {
       "field": "environment",
       "kind": "estimate",

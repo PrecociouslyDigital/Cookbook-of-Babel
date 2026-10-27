@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "fish",
+        "ingredient": "fish_rinse",
         "amount": {
           "qty": 3,
           "unit": "lb"
@@ -19,7 +19,7 @@
   },
   "outputs": [
     {
-      "ingredient": "fish_rinse",
+      "ingredient": "fish_rinse_rinse",
       "amount": {
         "qty": 1360.8,
         "unit": "g"
@@ -39,11 +39,6 @@
   },
   "stateNote": "Wash the fish trimmings. Drain and mash with the back of a large spoon.",
   "issues": [
-    {
-      "field": "technique",
-      "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.5"
-    },
     {
       "field": "end",
       "kind": "estimate",

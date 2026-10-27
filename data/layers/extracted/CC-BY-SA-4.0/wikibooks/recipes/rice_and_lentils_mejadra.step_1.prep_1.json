@@ -1,0 +1,49 @@
+{
+  "id": "rice_and_lentils_mejadra.step_1.prep_1",
+  "source": "wikibooks_rice_and_lentils_mejadra",
+  "technique": "fry",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "lentil",
+        "amount": {
+          "qty": 100,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "lentil_fry",
+      "amount": {
+        "qty": 100,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "1 cup (100 g / 3.5 oz) dry lentils",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

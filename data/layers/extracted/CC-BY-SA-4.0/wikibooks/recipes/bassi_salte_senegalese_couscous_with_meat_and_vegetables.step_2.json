@@ -16,14 +16,14 @@
         }
       },
       {
-        "ingredient": "vegetable_oil",
+        "ingredient": "vegetable_oil_heat",
         "amount": {
           "qty": 150,
           "unit": "ml"
         }
       },
       {
-        "ingredient": "meat",
+        "ingredient": "meat_fry",
         "amount": {
           "qty": 500,
           "unit": "g"
@@ -35,7 +35,7 @@
     {
       "ingredient": "bassi_salte_senegalese_couscous_with_meat_and_vegetables_step_2",
       "amount": {
-        "qty": 1138.3,
+        "qty": 1150.3,
         "unit": "g"
       }
     }
@@ -53,6 +53,16 @@
   },
   "stateNote": "Heat the oil in a pan. Add the meat, and fry until golden brown.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.54"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for vegetable_oil_heat"
+    },
     {
       "field": "environment",
       "kind": "estimate",

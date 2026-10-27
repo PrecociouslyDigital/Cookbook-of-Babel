@@ -1,0 +1,49 @@
+{
+  "id": "ekpang_nkukwo.step_3.prep_2",
+  "source": "wikibooks_ekpang_nkukwo",
+  "technique": "rinse",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "cocoyam_leaves",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "cocoyam_leaves_rinse",
+      "amount": {
+        "qty": 1,
+        "unit": "pinch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Fresh cocoyam leaves",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

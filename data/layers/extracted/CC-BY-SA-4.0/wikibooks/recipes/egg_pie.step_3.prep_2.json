@@ -1,0 +1,49 @@
+{
+  "id": "egg_pie.step_3.prep_2",
+  "source": "wikibooks_egg_pie",
+  "technique": "grind",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "saltine_cracker",
+        "amount": {
+          "qty": 24,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "saltine_cracker_grind",
+      "amount": {
+        "qty": 24,
+        "unit": "piece"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "24 soda crackers (2-inch squares)",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

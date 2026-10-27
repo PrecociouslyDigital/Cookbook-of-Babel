@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "butter_heat_cool",
+        "ingredient": "butter_heat_heat_cool",
         "amount": {
           "qty": 125,
           "unit": "g"
@@ -33,28 +33,28 @@
       }
     }
   ],
-  "environment": {
-    "temperatureC": 180,
-    "medium": "pan_contact"
-  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
     }
   },
   "stateNote": "Whisk in the sugar until dissolved.",
   "issues": [
     {
-      "field": "environment",
+      "field": "technique",
       "kind": "uncertain",
       "note": "the decision model gave this answer a probability of 0.58"
     },
     {
       "field": "environment",
-      "kind": "estimate",
-      "note": "no temperature given; assumed 180.0 °C for pan_contact"
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.54"
     },
     {
       "field": "end",

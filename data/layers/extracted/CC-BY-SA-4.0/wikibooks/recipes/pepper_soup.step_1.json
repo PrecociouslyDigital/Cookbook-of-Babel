@@ -5,11 +5,11 @@
     "source": "wikibooks_pepper_soup",
     "step": 1
   },
-  "technique": "cut",
+  "technique": "rinse",
   "inputs": {
     "of": [
       {
-        "ingredient": "goat",
+        "ingredient": "goat_cut",
         "amount": {
           "qty": 1,
           "unit": "kg"
@@ -19,7 +19,7 @@
   },
   "outputs": [
     {
-      "ingredient": "goat_cut",
+      "ingredient": "goat_cut_rinse",
       "amount": {
         "qty": 1000,
         "unit": "g"
@@ -39,6 +39,11 @@
   },
   "stateNote": "Wash and cut the meat into bite-sized pieces.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.33"
+    },
     {
       "field": "end",
       "kind": "estimate",

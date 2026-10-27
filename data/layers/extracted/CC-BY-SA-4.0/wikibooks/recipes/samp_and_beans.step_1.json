@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "samp_and_beans_mix",
+        "ingredient": "samp_and_beans_mix_rinse",
         "amount": {
           "qty": 1,
           "unit": "pinch"
@@ -47,6 +47,11 @@
   "stateNote": "Add the samp and beans mix to a large pot. Rinse the mixture well, and half fill the pot with water.",
   "issues": [
     {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.42"
+    },
+    {
       "field": "inputs",
       "kind": "estimate",
       "note": "'Samp and beans mix': no quantity given; assumed a pinch"
@@ -59,7 +64,7 @@
     {
       "field": "outputs",
       "kind": "estimate",
-      "note": "assumed 1 g/ml for samp_and_beans_mix"
+      "note": "assumed 1 g/ml for samp_and_beans_mix_rinse"
     },
     {
       "field": "end",

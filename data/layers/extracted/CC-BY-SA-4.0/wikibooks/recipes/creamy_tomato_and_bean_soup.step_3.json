@@ -23,7 +23,7 @@
         }
       },
       {
-        "ingredient": "garlic",
+        "ingredient": "garlic_cut",
         "amount": {
           "qty": 7.5,
           "unit": "clove"
@@ -37,7 +37,7 @@
         }
       },
       {
-        "ingredient": "sage",
+        "ingredient": "sage_cut",
         "amount": {
           "qty": 2,
           "unit": "piece"
@@ -67,6 +67,11 @@
   },
   "stateNote": "Add the beans with their liquid, garlic, oregano, and sage. Simmer for 3–5 minutes.",
   "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.51"
+    },
     {
       "field": "inputs",
       "kind": "estimate",

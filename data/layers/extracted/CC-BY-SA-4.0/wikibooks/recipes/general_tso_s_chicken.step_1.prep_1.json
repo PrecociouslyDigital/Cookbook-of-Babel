@@ -1,0 +1,49 @@
+{
+  "id": "general_tso_s_chicken.step_1.prep_1",
+  "source": "wikibooks_general_tso_s_chicken",
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "chicken",
+        "amount": {
+          "qty": 750,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "chicken_cut",
+      "amount": {
+        "qty": 750,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "750 g (1.65 lb) raw chicken dark meat, boneless and skinless.",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

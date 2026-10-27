@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "duck_stock_heat",
+        "ingredient": "duck_stock_heat_heat",
         "amount": {
           "qty": 946.4,
           "unit": "g"
@@ -60,6 +60,11 @@
   },
   "stateNote": "Add thyme, chopped duck meat, and mushrooms, and cook until mushrooms are tender.",
   "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.58"
+    },
     {
       "field": "outputs",
       "kind": "estimate",

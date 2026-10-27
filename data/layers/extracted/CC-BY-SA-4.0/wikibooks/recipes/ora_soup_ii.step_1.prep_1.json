@@ -1,0 +1,49 @@
+{
+  "id": "ora_soup_ii.step_1.prep_1",
+  "source": "wikibooks_ora_soup_ii",
+  "technique": "boil",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "taro_root",
+        "amount": {
+          "qty": 8,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "taro_root_boil",
+      "amount": {
+        "qty": 8,
+        "unit": "piece"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "8 medium-sized corms cocoyam, washed",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

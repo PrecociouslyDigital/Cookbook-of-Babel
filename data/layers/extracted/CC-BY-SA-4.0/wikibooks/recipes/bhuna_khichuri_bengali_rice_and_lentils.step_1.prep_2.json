@@ -1,0 +1,49 @@
+{
+  "id": "bhuna_khichuri_bengali_rice_and_lentils.step_1.prep_2",
+  "source": "wikibooks_bhuna_khichuri_bengali_rice_and_lentils",
+  "technique": "rinse",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "mung_bean",
+        "amount": {
+          "qty": 1,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "mung_bean_rinse",
+      "amount": {
+        "qty": 1,
+        "unit": "cup"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "1 cup green gram or red split lentils",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

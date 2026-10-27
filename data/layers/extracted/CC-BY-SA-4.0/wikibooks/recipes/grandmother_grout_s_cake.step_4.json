@@ -5,7 +5,7 @@
     "source": "wikibooks_grandmother_grout_s_cake",
     "step": 4
   },
-  "technique": "shape",
+  "technique": "separate",
   "inputs": {
     "of": [
       {
@@ -26,23 +26,28 @@
       }
     }
   ],
-  "environment": {
-    "temperatureC": 180,
-    "medium": "oven_air"
-  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
     }
   },
   "stateNote": "Divide batter between 2 greased and parchment-lined 8-inch (20 cm) round cake pans.",
   "issues": [
     {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.44"
+    },
+    {
       "field": "environment",
-      "kind": "estimate",
-      "note": "no temperature given; assumed 180.0 °C for oven_air"
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.59"
     },
     {
       "field": "end",

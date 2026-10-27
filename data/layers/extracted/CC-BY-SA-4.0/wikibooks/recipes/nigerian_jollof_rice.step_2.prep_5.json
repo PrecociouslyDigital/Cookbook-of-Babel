@@ -1,0 +1,49 @@
+{
+  "id": "nigerian_jollof_rice.step_2.prep_5",
+  "source": "wikibooks_nigerian_jollof_rice",
+  "technique": "boil",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "beef",
+        "amount": {
+          "qty": 7.5,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "beef_boil",
+      "amount": {
+        "qty": 7.5,
+        "unit": "piece"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "5–10 pieces beef or chicken",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

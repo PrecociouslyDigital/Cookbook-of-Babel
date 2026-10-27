@@ -16,7 +16,7 @@
         }
       },
       {
-        "ingredient": "onion",
+        "ingredient": "onion_fry",
         "amount": {
           "qty": 1,
           "unit": "piece"
@@ -35,7 +35,7 @@
   ],
   "environment": {
     "temperatureC": 185,
-    "medium": "pan_contact"
+    "medium": "frying_oil"
   },
   "end": {
     "by": "time",
@@ -46,6 +46,16 @@
   },
   "stateNote": "Add the onions and cook until soft.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.56"
+    },
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.55"
+    },
     {
       "field": "environment",
       "kind": "estimate",

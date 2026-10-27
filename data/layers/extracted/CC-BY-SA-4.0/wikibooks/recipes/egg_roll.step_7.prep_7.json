@@ -1,0 +1,49 @@
+{
+  "id": "egg_roll.step_7.prep_7",
+  "source": "wikibooks_egg_roll",
+  "technique": "rinse",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "bean_sprout",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "bean_sprout_rinse",
+      "amount": {
+        "qty": 1,
+        "unit": "pinch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Bean sprouts",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

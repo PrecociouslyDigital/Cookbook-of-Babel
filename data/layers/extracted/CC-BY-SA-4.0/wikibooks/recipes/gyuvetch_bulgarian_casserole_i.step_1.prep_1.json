@@ -1,0 +1,49 @@
+{
+  "id": "gyuvetch_bulgarian_casserole_i.step_1.prep_1",
+  "source": "wikibooks_gyuvetch_bulgarian_casserole_i",
+  "technique": "fry",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "beef",
+        "amount": {
+          "qty": 900,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "beef_fry",
+      "amount": {
+        "qty": 900,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "900 g beef, cut in 4–5 cm (2 in) cubes",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

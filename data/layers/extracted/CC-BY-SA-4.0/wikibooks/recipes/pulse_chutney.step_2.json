@@ -5,25 +5,25 @@
     "source": "wikibooks_pulse_chutney",
     "step": 2
   },
-  "technique": "chop",
+  "technique": "mix",
   "inputs": {
     "of": [
       {
-        "ingredient": "mung_bean_sprout",
+        "ingredient": "mung_bean_soak_sprout",
         "amount": {
           "qty": 56.7,
           "unit": "g"
         }
       },
       {
-        "ingredient": "ginger",
+        "ingredient": "ginger_chop",
         "amount": {
           "qty": 1.5,
           "unit": "piece"
         }
       },
       {
-        "ingredient": "chiles",
+        "ingredient": "chiles_chop",
         "amount": {
           "qty": 4,
           "unit": "piece"
@@ -60,6 +60,11 @@
   },
   "stateNote": "Mince the green chilies, fresh ginger, and salt.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.41"
+    },
     {
       "field": "inputs",
       "kind": "estimate",

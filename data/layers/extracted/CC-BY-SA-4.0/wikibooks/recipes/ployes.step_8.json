@@ -26,28 +26,23 @@
       }
     }
   ],
-  "environment": {
-    "temperatureC": 20,
-    "medium": "still_air"
-  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
     }
   },
   "stateNote": "Stack cooked ployes on a plate and cover with a clean towel to keep warm. Serve immediately.",
   "issues": [
     {
-      "field": "technique",
-      "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.47"
-    },
-    {
       "field": "environment",
-      "kind": "estimate",
-      "note": "no temperature given; assumed 20.0 °C for still_air"
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.45"
     },
     {
       "field": "end",

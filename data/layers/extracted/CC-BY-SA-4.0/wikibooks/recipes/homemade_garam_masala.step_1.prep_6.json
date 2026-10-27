@@ -1,0 +1,49 @@
+{
+  "id": "homemade_garam_masala.step_1.prep_6",
+  "source": "wikibooks_homemade_garam_masala",
+  "technique": "toast",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "coriander",
+        "amount": {
+          "qty": 35,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "coriander_toast",
+      "amount": {
+        "qty": 35,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "35 grams coriander seeds",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

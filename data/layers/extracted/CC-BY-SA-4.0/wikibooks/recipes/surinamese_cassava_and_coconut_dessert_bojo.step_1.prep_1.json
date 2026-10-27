@@ -1,0 +1,49 @@
+{
+  "id": "surinamese_cassava_and_coconut_dessert_bojo.step_1.prep_1",
+  "source": "wikibooks_surinamese_cassava_and_coconut_dessert_bojo",
+  "technique": "grind",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "cassava",
+        "amount": {
+          "qty": 1,
+          "unit": "kg"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "cassava_grind",
+      "amount": {
+        "qty": 1,
+        "unit": "kg"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "1 kg cassava",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "coriander_toast_toast",
+        "ingredient": "coriander_toast_toast_toast",
         "amount": {
           "qty": 14.8,
           "unit": "g"
@@ -19,30 +19,30 @@
   },
   "outputs": [
     {
-      "ingredient": "coriander_toast_toast_grind",
+      "ingredient": "coriander_toast_toast_toast_grind",
       "amount": {
         "qty": 14.8,
         "unit": "g"
       }
     }
   ],
-  "environment": {
-    "temperatureC": 180,
-    "medium": "pan_contact"
-  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
     }
   },
   "stateNote": "Break seeds apart with a fork, or use a coffee/spice grinder to finely grind them.",
   "issues": [
     {
       "field": "environment",
-      "kind": "estimate",
-      "note": "no temperature given; assumed 180.0 °C for pan_contact"
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.56"
     },
     {
       "field": "end",

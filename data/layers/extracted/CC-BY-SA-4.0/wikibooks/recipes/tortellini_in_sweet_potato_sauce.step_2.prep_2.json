@@ -1,0 +1,49 @@
+{
+  "id": "tortellini_in_sweet_potato_sauce.step_2.prep_2",
+  "source": "wikibooks_tortellini_in_sweet_potato_sauce",
+  "technique": "boil",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "tortellini",
+        "amount": {
+          "qty": 16,
+          "unit": "oz"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "tortellini_boil",
+      "amount": {
+        "qty": 16,
+        "unit": "oz"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "1 package (16 oz) frozen tortellini",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

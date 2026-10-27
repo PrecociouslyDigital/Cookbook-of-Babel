@@ -16,7 +16,7 @@
         }
       },
       {
-        "ingredient": "meat",
+        "ingredient": "meat_fry",
         "amount": {
           "qty": 1.5,
           "unit": "lb"
@@ -35,7 +35,7 @@
   ],
   "environment": {
     "temperatureC": 185,
-    "medium": "pan_contact"
+    "medium": "frying_oil"
   },
   "end": {
     "by": "time",
@@ -46,6 +46,11 @@
   },
   "stateNote": "Add the meat pieces and cook until browned on all sides.",
   "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.52"
+    },
     {
       "field": "environment",
       "kind": "estimate",

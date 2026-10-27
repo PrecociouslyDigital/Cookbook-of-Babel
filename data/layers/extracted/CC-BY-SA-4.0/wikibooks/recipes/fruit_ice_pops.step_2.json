@@ -33,12 +33,18 @@
       "unit": "min"
     },
     "sensitivity": {
-      "refTempC": 20,
-      "q10": 1
+      "refTempC": -18,
+      "q10": 1,
+      "maxTempC": 0
     }
   },
   "stateNote": "Divide the fruit mixture between ice pop molds, and insert the sticks.",
   "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.5"
+    },
     {
       "field": "end",
       "kind": "estimate",

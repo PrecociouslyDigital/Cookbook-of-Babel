@@ -5,11 +5,11 @@
     "source": "wikibooks_spanish_potato_omelette",
     "step": 1
   },
-  "technique": "cut",
+  "technique": "season",
   "inputs": {
     "of": [
       {
-        "ingredient": "potato",
+        "ingredient": "potato_cut",
         "amount": {
           "qty": 1,
           "unit": "kg"
@@ -46,6 +46,11 @@
   },
   "stateNote": "Peel the potatoes, wash them, and dry them with a cloth. Cut them into 1 cm cubes or 2 mm slices. Wash and dry them again. Add some salt to your taste and mix them.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.51"
+    },
     {
       "field": "end",
       "kind": "estimate",

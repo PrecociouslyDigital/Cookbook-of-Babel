@@ -1,0 +1,49 @@
+{
+  "id": "rosemary_garlic_oil.step_1.prep_1",
+  "source": "wikibooks_rosemary_garlic_oil",
+  "technique": "heat",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "oil_and_fat",
+        "amount": {
+          "qty": 0.5,
+          "unit": "gal"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "oil_and_fat_heat",
+      "amount": {
+        "qty": 0.5,
+        "unit": "gal"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "½ gallon any flavorless high-smoke point oil, such as canola, grapeseed, peanut, or safflower",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

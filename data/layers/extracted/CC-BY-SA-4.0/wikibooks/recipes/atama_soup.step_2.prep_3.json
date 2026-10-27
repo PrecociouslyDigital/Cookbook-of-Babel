@@ -1,0 +1,49 @@
+{
+  "id": "atama_soup.step_2.prep_3",
+  "source": "wikibooks_atama_soup",
+  "technique": "boil",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "oil_palm_fruit",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "oil_palm_fruit_boil",
+      "amount": {
+        "qty": 1,
+        "unit": "pinch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Mudu palm fruit",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

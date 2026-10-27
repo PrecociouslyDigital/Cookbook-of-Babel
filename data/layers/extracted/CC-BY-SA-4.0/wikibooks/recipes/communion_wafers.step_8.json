@@ -5,7 +5,7 @@
     "source": "wikibooks_communion_wafers",
     "step": 8
   },
-  "technique": "toast",
+  "technique": "bake",
   "inputs": {
     "of": [
       {
@@ -26,15 +26,15 @@
       }
     }
   ],
-  "environment": {
-    "temperatureC": 230,
-    "medium": "oven_air"
-  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
     }
   },
   "stateNote": "Take the wafers out of the oven and flip them over using a spoon or chopstick.",
@@ -42,7 +42,7 @@
     {
       "field": "technique",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.44"
+      "note": "the decision model gave this answer a probability of 0.43"
     },
     {
       "field": "end",

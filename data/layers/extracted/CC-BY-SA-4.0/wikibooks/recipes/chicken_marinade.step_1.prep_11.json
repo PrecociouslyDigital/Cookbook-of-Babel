@@ -1,0 +1,49 @@
+{
+  "id": "chicken_marinade.step_1.prep_11",
+  "source": "wikibooks_chicken_marinade",
+  "technique": "chop",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "thyme",
+        "amount": {
+          "qty": 10,
+          "unit": "sprig"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "thyme_chop",
+      "amount": {
+        "qty": 10,
+        "unit": "sprig"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "10 sprigs thyme, finely chopped",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

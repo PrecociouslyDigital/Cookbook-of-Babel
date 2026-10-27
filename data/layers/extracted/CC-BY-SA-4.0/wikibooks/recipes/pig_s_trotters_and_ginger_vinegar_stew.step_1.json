@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "egg",
+        "ingredient": "egg_boil",
         "amount": {
           "qty": 12,
           "unit": "piece"
@@ -19,7 +19,7 @@
   },
   "outputs": [
     {
-      "ingredient": "egg_boil",
+      "ingredient": "egg_boil_boil",
       "amount": {
         "qty": 1,
         "unit": "batch"
@@ -39,6 +39,11 @@
   },
   "stateNote": "Hard boil the eggs, refresh and set aside to cool",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.58"
+    },
     {
       "field": "environment",
       "kind": "estimate",

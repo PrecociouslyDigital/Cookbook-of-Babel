@@ -1,0 +1,54 @@
+{
+  "id": "arroz_con_maiz_rice_with_corn.step_8.prep_17",
+  "source": "wikibooks_arroz_con_maiz_rice_with_corn",
+  "technique": "fry",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "vienna_sausage",
+        "amount": {
+          "qty": 5,
+          "unit": "oz"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "vienna_sausage_fry",
+      "amount": {
+        "qty": 5,
+        "unit": "oz"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "1 can (5 oz) Vienna sausage, sliced with liquid saved",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.48"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

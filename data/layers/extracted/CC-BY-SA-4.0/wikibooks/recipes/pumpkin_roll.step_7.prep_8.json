@@ -1,0 +1,49 @@
+{
+  "id": "pumpkin_roll.step_7.prep_8",
+  "source": "wikibooks_pumpkin_roll",
+  "technique": "chop",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "pecan",
+        "amount": {
+          "qty": 75,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "pecan_chop",
+      "amount": {
+        "qty": 75,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "¾ cup (75 g / 2.6 oz) chopped pecans",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

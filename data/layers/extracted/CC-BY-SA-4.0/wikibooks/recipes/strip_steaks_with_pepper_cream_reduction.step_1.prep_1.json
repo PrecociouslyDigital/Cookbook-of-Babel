@@ -1,0 +1,49 @@
+{
+  "id": "strip_steaks_with_pepper_cream_reduction.step_1.prep_1",
+  "source": "wikibooks_strip_steaks_with_pepper_cream_reduction",
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "beef",
+        "amount": {
+          "qty": 14,
+          "unit": "oz"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "beef_season",
+      "amount": {
+        "qty": 14,
+        "unit": "oz"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "2 ea. (12–16 ounces) 1 inch-thick New York strip steaks",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

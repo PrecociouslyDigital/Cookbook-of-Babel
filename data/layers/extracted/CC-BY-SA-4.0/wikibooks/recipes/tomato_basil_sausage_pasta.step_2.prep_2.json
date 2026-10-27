@@ -1,0 +1,49 @@
+{
+  "id": "tomato_basil_sausage_pasta.step_2.prep_2",
+  "source": "wikibooks_tomato_basil_sausage_pasta",
+  "technique": "pan_fry",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "sausage_meat",
+        "amount": {
+          "qty": 450,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "sausage_meat_pan_fry",
+      "amount": {
+        "qty": 450,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "450 g (1 lb) sausage meat",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

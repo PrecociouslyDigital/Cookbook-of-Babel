@@ -75,33 +75,23 @@
       }
     }
   ],
-  "environment": {
-    "temperatureC": 180,
-    "medium": "oven_air"
-  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
     }
   },
   "stateNote": "Add remaining ingredients, except chocolate chips and nuts, to the pan.",
   "issues": [
     {
-      "field": "technique",
-      "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.57"
-    },
-    {
       "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.39"
-    },
-    {
-      "field": "environment",
-      "kind": "estimate",
-      "note": "no temperature given; assumed 180.0 °C for oven_air"
+      "note": "the decision model gave this answer a probability of 0.45"
     },
     {
       "field": "end",

@@ -1,0 +1,54 @@
+{
+  "id": "locrio_dominican_chicken_and_rice.step_5.prep_10",
+  "source": "wikibooks_locrio_dominican_chicken_and_rice",
+  "technique": "whisk",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "broth_and_stock",
+        "amount": {
+          "qty": 5.25,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "broth_and_stock_whisk",
+      "amount": {
+        "qty": 5.25,
+        "unit": "cup"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "5¼ cups chicken stock or water",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.53"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

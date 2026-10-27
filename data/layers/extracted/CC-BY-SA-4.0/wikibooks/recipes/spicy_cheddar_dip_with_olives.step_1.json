@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "pita",
+        "ingredient": "pita_cut",
         "amount": {
           "qty": 1,
           "unit": "package"
@@ -19,30 +19,30 @@
   },
   "outputs": [
     {
-      "ingredient": "pita_cut",
+      "ingredient": "pita_cut_cut",
       "amount": {
         "qty": 1,
         "unit": "batch"
       }
     }
   ],
-  "environment": {
-    "temperatureC": 180,
-    "medium": "oven_air"
-  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
     }
   },
   "stateNote": "Slice pitas as you would a pizza, into triangles. Separate pita triangles into halves, and place on a cookie sheet, inside surface up.",
   "issues": [
     {
       "field": "environment",
-      "kind": "estimate",
-      "note": "no temperature given; assumed 180.0 °C for oven_air"
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.56"
     },
     {
       "field": "end",

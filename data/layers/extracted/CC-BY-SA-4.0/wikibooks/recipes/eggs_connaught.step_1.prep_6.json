@@ -1,0 +1,49 @@
+{
+  "id": "eggs_connaught.step_1.prep_6",
+  "source": "wikibooks_eggs_connaught",
+  "technique": "heat",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "butter",
+        "amount": {
+          "qty": 3.5,
+          "unit": "oz"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "butter_heat",
+      "amount": {
+        "qty": 3.5,
+        "unit": "oz"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "3½ oz (100 g) butter",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "callaloo_caribbean_stewed_greens.step_4.prep_4",
+  "source": "wikibooks_callaloo_caribbean_stewed_greens",
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "chive",
+        "amount": {
+          "qty": 4,
+          "unit": "stalk"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "chive_cut",
+      "amount": {
+        "qty": 4,
+        "unit": "stalk"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "4 stalks chives",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "barberry_soak",
+        "ingredient": "barberry_soak_soak",
         "amount": {
           "qty": 1,
           "unit": "batch"
@@ -23,7 +23,7 @@
         }
       },
       {
-        "ingredient": "onion",
+        "ingredient": "onion_fry",
         "amount": {
           "qty": 1,
           "unit": "piece"
@@ -53,6 +53,11 @@
   },
   "stateNote": "Sauté the chopped onion in a frying pan with a dash of oil. Mix in the barberries, and cook over low heat.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.51"
+    },
     {
       "field": "inputs",
       "kind": "estimate",

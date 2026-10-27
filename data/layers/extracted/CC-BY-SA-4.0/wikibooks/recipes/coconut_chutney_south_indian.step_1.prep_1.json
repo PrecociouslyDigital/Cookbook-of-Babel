@@ -1,0 +1,49 @@
+{
+  "id": "coconut_chutney_south_indian.step_1.prep_1",
+  "source": "wikibooks_coconut_chutney_south_indian",
+  "technique": "roast",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "chickpea",
+        "amount": {
+          "qty": 1.5,
+          "unit": "tbsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "chickpea_roast",
+      "amount": {
+        "qty": 1.5,
+        "unit": "tbsp"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "1½ Tbsp channa dal",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

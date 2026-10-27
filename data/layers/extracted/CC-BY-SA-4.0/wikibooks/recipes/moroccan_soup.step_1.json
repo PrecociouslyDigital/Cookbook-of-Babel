@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "onion",
+        "ingredient": "onion_fry",
         "amount": {
           "qty": 1,
           "unit": "piece"
@@ -46,6 +46,16 @@
   },
   "stateNote": "Fry the onion lightly in oil.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.57"
+    },
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.54"
+    },
     {
       "field": "environment",
       "kind": "estimate",

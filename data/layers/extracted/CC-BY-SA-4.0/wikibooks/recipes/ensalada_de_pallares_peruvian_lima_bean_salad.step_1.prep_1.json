@@ -1,0 +1,49 @@
+{
+  "id": "ensalada_de_pallares_peruvian_lima_bean_salad.step_1.prep_1",
+  "source": "wikibooks_ensalada_de_pallares_peruvian_lima_bean_salad",
+  "technique": "soak",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "lima_bean",
+        "amount": {
+          "qty": 1,
+          "unit": "lb"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "lima_bean_soak",
+      "amount": {
+        "qty": 1,
+        "unit": "lb"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "1 lb (500 g) pallares (large dried lima beans)",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

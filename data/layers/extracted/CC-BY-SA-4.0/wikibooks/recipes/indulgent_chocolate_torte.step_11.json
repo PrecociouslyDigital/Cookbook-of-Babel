@@ -16,14 +16,14 @@
         }
       },
       {
-        "ingredient": "chocolate",
+        "ingredient": "chocolate_heat",
         "amount": {
           "qty": 1,
           "unit": "oz"
         }
       },
       {
-        "ingredient": "margarine",
+        "ingredient": "margarine_heat",
         "amount": {
           "qty": 1,
           "unit": "tsp"
@@ -53,6 +53,11 @@
   },
   "stateNote": "Heat chocolate and margarine over low heat until melted.",
   "issues": [
+    {
+      "field": "inputs",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.54"
+    },
     {
       "field": "environment",
       "kind": "estimate",

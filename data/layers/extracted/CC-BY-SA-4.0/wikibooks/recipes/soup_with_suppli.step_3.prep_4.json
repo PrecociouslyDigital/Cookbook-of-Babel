@@ -1,0 +1,49 @@
+{
+  "id": "soup_with_suppli.step_3.prep_4",
+  "source": "wikibooks_soup_with_suppli",
+  "technique": "heat",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "broth_and_stock",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "broth_and_stock_heat",
+      "amount": {
+        "qty": 1,
+        "unit": "pinch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Clear or brown broth",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

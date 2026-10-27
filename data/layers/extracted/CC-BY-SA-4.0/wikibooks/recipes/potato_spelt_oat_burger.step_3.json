@@ -5,7 +5,7 @@
     "source": "wikibooks_potato_spelt_oat_burger",
     "step": 3
   },
-  "technique": "pan_fry",
+  "technique": "mix",
   "inputs": {
     "of": [
       {
@@ -20,7 +20,7 @@
         "max": 1,
         "of": [
           {
-            "ingredient": "tomato",
+            "ingredient": "tomato_fry",
             "amount": {
               "qty": 1,
               "unit": "pinch"
@@ -33,7 +33,7 @@
         "max": 1,
         "of": [
           {
-            "ingredient": "onion",
+            "ingredient": "onion_fry",
             "amount": {
               "qty": 1,
               "unit": "pinch"
@@ -53,7 +53,7 @@
     }
   ],
   "environment": {
-    "temperatureC": 185,
+    "temperatureC": 175,
     "medium": "frying_oil"
   },
   "end": {
@@ -65,11 +65,6 @@
   },
   "stateNote": "Fry the onions and tomatoes in a little oil, and add to the potato mixture.",
   "issues": [
-    {
-      "field": "technique",
-      "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.58"
-    },
     {
       "field": "inputs",
       "kind": "estimate",
@@ -83,12 +78,12 @@
     {
       "field": "outputs",
       "kind": "estimate",
-      "note": "assumed 1 g/ml for tomato, onion"
+      "note": "assumed 1 g/ml for tomato_fry, onion_fry"
     },
     {
       "field": "environment",
       "kind": "estimate",
-      "note": "no temperature given; used the middle of pan_fry's typical range"
+      "note": "no temperature given; assumed 175.0 °C for frying_oil"
     },
     {
       "field": "end",

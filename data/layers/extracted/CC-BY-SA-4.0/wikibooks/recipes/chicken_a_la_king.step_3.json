@@ -5,7 +5,7 @@
     "source": "wikibooks_chicken_a_la_king",
     "step": 3
   },
-  "technique": "heat",
+  "technique": "mix",
   "inputs": {
     "of": [
       {
@@ -16,7 +16,7 @@
         }
       },
       {
-        "ingredient": "butter",
+        "ingredient": "butter_heat",
         "amount": {
           "qty": 42,
           "unit": "g"
@@ -53,6 +53,11 @@
   },
   "stateNote": "In a saucepan, melt the butter, stir in the flour and cook over medium heat for about a minute.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.53"
+    },
     {
       "field": "environment",
       "kind": "estimate",

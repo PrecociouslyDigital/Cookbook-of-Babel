@@ -1,0 +1,54 @@
+{
+  "id": "brown_butter_toffee_chocolate_chip_cookies.step_5.prep_5",
+  "source": "wikibooks_brown_butter_toffee_chocolate_chip_cookies",
+  "technique": "heat",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "unsalted_butter",
+        "amount": {
+          "qty": 1,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "unsalted_butter_heat",
+      "amount": {
+        "qty": 1,
+        "unit": "cup"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "1 cup (2 sticks / 250 g / 9 oz) unsalted butter",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.56"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

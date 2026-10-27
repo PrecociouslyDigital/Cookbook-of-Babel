@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "water",
+        "ingredient": "water_boil",
         "amount": {
           "qty": 2.25,
           "unit": "l"
@@ -66,6 +66,11 @@
   "stateNote": "On a stovetop, bring the water to a boil on high heat after adding salt and vegetable oil (see tips below).",
   "issues": [
     {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.54"
+    },
+    {
       "field": "inputs",
       "kind": "estimate",
       "note": "'Salt (optional but recommended)': no quantity given; assumed a pinch"
@@ -74,6 +79,11 @@
       "field": "inputs",
       "kind": "estimate",
       "note": "'Vegetable oil (optional but recommended)': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for water_boil"
     },
     {
       "field": "environment",

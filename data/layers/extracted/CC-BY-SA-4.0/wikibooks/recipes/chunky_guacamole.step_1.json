@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "avocado",
+        "ingredient": "avocado_cut",
         "amount": {
           "qty": 3,
           "unit": "piece"
@@ -19,7 +19,7 @@
   },
   "outputs": [
     {
-      "ingredient": "avocado_chop",
+      "ingredient": "avocado_cut_chop",
       "amount": {
         "qty": 1,
         "unit": "batch"
@@ -39,6 +39,11 @@
   },
   "stateNote": "Peel and dice avocados.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.43"
+    },
     {
       "field": "end",
       "kind": "estimate",

@@ -1,0 +1,49 @@
+{
+  "id": "fish_pie.step_4.prep_6",
+  "source": "wikibooks_fish_pie",
+  "technique": "boil",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "potato",
+        "amount": {
+          "qty": 2,
+          "unit": "lb"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "potato_boil",
+      "amount": {
+        "qty": 2,
+        "unit": "lb"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "2 lb (1 kg) potatoes",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

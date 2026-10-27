@@ -5,11 +5,11 @@
     "source": "wikibooks_fried_onion_blooms",
     "step": 3
   },
-  "technique": "separate",
+  "technique": "cut",
   "inputs": {
     "of": [
       {
-        "ingredient": "onion_cut",
+        "ingredient": "onion_cut_cut",
         "amount": {
           "qty": 1,
           "unit": "batch"
@@ -19,7 +19,7 @@
   },
   "outputs": [
     {
-      "ingredient": "fried_onion_blooms_step_3",
+      "ingredient": "onion_cut_cut_cut",
       "amount": {
         "qty": 1,
         "unit": "batch"
@@ -39,6 +39,11 @@
   },
   "stateNote": "Peel onion.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.56"
+    },
     {
       "field": "end",
       "kind": "estimate",

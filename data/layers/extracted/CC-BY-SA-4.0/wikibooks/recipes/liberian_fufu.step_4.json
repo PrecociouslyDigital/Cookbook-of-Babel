@@ -26,23 +26,23 @@
       }
     }
   ],
-  "environment": {
-    "temperatureC": 90,
-    "medium": "simmering_water"
-  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
     }
   },
   "stateNote": "Drain the water from the cooked vegetables, and transfer them to a large bowl.",
   "issues": [
     {
       "field": "environment",
-      "kind": "estimate",
-      "note": "no temperature given; assumed 90.0 °C for simmering_water"
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.47"
     },
     {
       "field": "end",

@@ -5,11 +5,11 @@
     "source": "wikibooks_muboora_zimbabwean_pumpkin_leaves_stew",
     "step": 1
   },
-  "technique": "chop",
+  "technique": "rinse",
   "inputs": {
     "of": [
       {
-        "ingredient": "pumpkin",
+        "ingredient": "pumpkin_chop",
         "amount": {
           "qty": 1,
           "unit": "bunch"
@@ -19,7 +19,7 @@
   },
   "outputs": [
     {
-      "ingredient": "pumpkin_chop",
+      "ingredient": "pumpkin_chop_rinse",
       "amount": {
         "qty": 1,
         "unit": "batch"
@@ -39,6 +39,11 @@
   },
   "stateNote": "Wash the pumpkin leaves thoroughly and remove any tough stems or veins. Chop the leaves into small pieces and set them aside.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.46"
+    },
     {
       "field": "end",
       "kind": "estimate",

@@ -1,0 +1,49 @@
+{
+  "id": "nigerian_ofe_akwu_palm_fruit_soup.step_1.prep_1",
+  "source": "wikibooks_nigerian_ofe_akwu_palm_fruit_soup",
+  "technique": "boil",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "oil_palm_fruit",
+        "amount": {
+          "qty": 1,
+          "unit": "kg"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "oil_palm_fruit_boil",
+      "amount": {
+        "qty": 1,
+        "unit": "kg"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "1 kilogram fresh palm fruits (or canned palm fruit concentrate)",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

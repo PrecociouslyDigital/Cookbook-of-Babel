@@ -1,0 +1,49 @@
+{
+  "id": "eggs_connaught.step_4.prep_1",
+  "source": "wikibooks_eggs_connaught",
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "hard_cooked_eggs",
+        "amount": {
+          "qty": 6,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "hard_cooked_eggs_cut",
+      "amount": {
+        "qty": 6,
+        "unit": "piece"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "6 hard-boiled eggs",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

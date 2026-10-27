@@ -1,0 +1,49 @@
+{
+  "id": "salmon_cakes.step_1.prep_1",
+  "source": "wikibooks_salmon_cakes",
+  "technique": "grind",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "salmon",
+        "amount": {
+          "qty": 1.25,
+          "unit": "lb"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "salmon_grind",
+      "amount": {
+        "qty": 1.25,
+        "unit": "lb"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "1¼ pounds skinless wild salmon filet, cut into 2-inch cubes",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -26,15 +26,15 @@
       }
     }
   ],
-  "environment": {
-    "temperatureC": 180,
-    "medium": "pan_contact"
-  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
     }
   },
   "stateNote": "After the sandwich is crispy and the cheese has melted, remove the sandwich carefully and slice it diagonally, from corner to corner.",
@@ -42,12 +42,7 @@
     {
       "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.59"
-    },
-    {
-      "field": "environment",
-      "kind": "estimate",
-      "note": "no temperature given; assumed 180.0 °C for pan_contact"
+      "note": "the decision model gave this answer a probability of 0.57"
     },
     {
       "field": "end",
@@ -57,12 +52,12 @@
     {
       "field": "inputs",
       "kind": "missing",
-      "note": "no step uses '1 ounce butter' (p=0.93)"
+      "note": "no step uses '1 ounce butter' (p=0.92)"
     },
     {
       "field": "inputs",
       "kind": "missing",
-      "note": "no step uses '2 ham croquetas' (p=0.98)"
+      "note": "no step uses '2 ham croquetas' (p=0.99)"
     }
   ]
 }

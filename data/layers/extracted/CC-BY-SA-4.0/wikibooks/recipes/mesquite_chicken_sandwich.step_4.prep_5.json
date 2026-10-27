@@ -1,0 +1,49 @@
+{
+  "id": "mesquite_chicken_sandwich.step_4.prep_5",
+  "source": "wikibooks_mesquite_chicken_sandwich",
+  "technique": "toast",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "ciabatta_rolls",
+        "amount": {
+          "qty": 4,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "ciabatta_rolls_toast",
+      "amount": {
+        "qty": 4,
+        "unit": "piece"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "4 ciabatta rolls, split in half and toasted",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

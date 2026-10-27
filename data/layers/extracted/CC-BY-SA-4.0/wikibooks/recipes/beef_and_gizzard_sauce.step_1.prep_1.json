@@ -1,0 +1,49 @@
+{
+  "id": "beef_and_gizzard_sauce.step_1.prep_1",
+  "source": "wikibooks_beef_and_gizzard_sauce",
+  "technique": "rinse",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "chicken",
+        "amount": {
+          "qty": 1,
+          "unit": "kg"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "chicken_rinse",
+      "amount": {
+        "qty": 1,
+        "unit": "kg"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "1 kg chicken gizzard, washed",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

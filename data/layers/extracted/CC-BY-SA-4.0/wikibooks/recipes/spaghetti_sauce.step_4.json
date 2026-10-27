@@ -26,28 +26,28 @@
       }
     }
   ],
-  "environment": {
-    "temperatureC": 180,
-    "medium": "pan_contact"
-  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
     }
   },
   "stateNote": "Immediately remove from the heat and serve. Hot tomato products lose tomato flavor, so don't delay.",
   "issues": [
     {
-      "field": "environment",
+      "field": "technique",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.48"
+      "note": "the decision model gave this answer a probability of 0.53"
     },
     {
       "field": "environment",
-      "kind": "estimate",
-      "note": "no temperature given; assumed 180.0 °C for pan_contact"
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.56"
     },
     {
       "field": "end",
@@ -57,7 +57,7 @@
     {
       "field": "inputs",
       "kind": "missing",
-      "note": "no step uses 'Cooked ground beef or bits of steak (optional, may be added at the table)' (p=0.63)"
+      "note": "no step uses 'Cooked ground beef or bits of steak (optional, may be added at the table)' (p=0.72)"
     }
   ]
 }

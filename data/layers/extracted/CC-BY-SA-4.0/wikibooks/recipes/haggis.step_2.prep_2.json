@@ -1,0 +1,54 @@
+{
+  "id": "haggis.step_2.prep_2",
+  "source": "wikibooks_haggis",
+  "technique": "simmer",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "liver",
+        "amount": {
+          "qty": 1,
+          "unit": "lb"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "liver_simmer",
+      "amount": {
+        "qty": 1,
+        "unit": "lb"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "1 pound (450 g) beef or lamb liver",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.58"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "eggnog.step_3.prep_7",
+  "source": "wikibooks_eggnog",
+  "technique": "chill",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "cream",
+        "amount": {
+          "qty": 480,
+          "unit": "ml"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "cream_chill",
+      "amount": {
+        "qty": 480,
+        "unit": "ml"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "480 ml (2 cups) cups whipping cream, cold",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

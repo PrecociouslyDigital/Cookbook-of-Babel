@@ -1,0 +1,49 @@
+{
+  "id": "shark_fin_soup.step_7.prep_6",
+  "source": "wikibooks_shark_fin_soup",
+  "technique": "heat",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "bacon",
+        "amount": {
+          "qty": 2,
+          "unit": "tbsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "bacon_heat",
+      "amount": {
+        "qty": 2,
+        "unit": "tbsp"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "2 tbsp bacon fat",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -33,15 +33,15 @@
       }
     }
   ],
+  "environment": {
+    "temperatureC": 180,
+    "medium": "pan_contact"
+  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
-    },
-    "sensitivity": {
-      "refTempC": 20,
-      "q10": 1
     }
   },
   "stateNote": "Garnish with fresh coriander leaves and serve hot.",
@@ -49,12 +49,17 @@
     {
       "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.38"
+      "note": "the decision model gave this answer a probability of 0.36"
     },
     {
       "field": "inputs",
       "kind": "estimate",
       "note": "'Fresh coriander leaves for garnish': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 180.0 °C for pan_contact"
     },
     {
       "field": "end",
@@ -64,7 +69,7 @@
     {
       "field": "inputs",
       "kind": "missing",
-      "note": "no step uses 'Salt to taste' (p=0.85)"
+      "note": "no step uses 'Salt to taste' (p=0.83)"
     }
   ]
 }

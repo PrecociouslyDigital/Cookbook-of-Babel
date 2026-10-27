@@ -1,0 +1,54 @@
+{
+  "id": "kunun_kanwa.step_1.prep_1",
+  "source": "wikibooks_kunun_kanwa",
+  "technique": "grind",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "sorghum",
+        "amount": {
+          "qty": 1,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "sorghum_grind",
+      "amount": {
+        "qty": 1,
+        "unit": "cup"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "1 cup of guinea corn (or millet, sorghum, or maize) – ground into flour",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.49"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

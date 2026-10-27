@@ -1,0 +1,49 @@
+{
+  "id": "roasted_pork_shoulder_pernil_asado.step_1.prep_1",
+  "source": "wikibooks_roasted_pork_shoulder_pernil_asado",
+  "technique": "rinse",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "pork",
+        "amount": {
+          "qty": 2.5,
+          "unit": "kg"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "pork_rinse",
+      "amount": {
+        "qty": 2.5,
+        "unit": "kg"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "1 ea. 4 ½-pound (2.5 kg) pork shoulder",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

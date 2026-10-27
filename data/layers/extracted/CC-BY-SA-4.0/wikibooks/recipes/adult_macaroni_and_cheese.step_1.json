@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "macaroni",
+        "ingredient": "macaroni_boil",
         "amount": {
           "qty": 0.5,
           "unit": "lb"
@@ -46,6 +46,11 @@
   },
   "stateNote": "In a gallon (~3.8 L) of salted boiling water, cook macaroni to al dente. Strain into a colander and rinse with cold water.",
   "issues": [
+    {
+      "field": "inputs",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.59"
+    },
     {
       "field": "environment",
       "kind": "estimate",

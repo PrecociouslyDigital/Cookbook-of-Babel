@@ -26,15 +26,15 @@
       }
     }
   ],
+  "environment": {
+    "temperatureC": 20,
+    "medium": "still_air"
+  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
-    },
-    "sensitivity": {
-      "refTempC": 20,
-      "q10": 1
     }
   },
   "stateNote": "Place in a greased 1 kg loaf tin, cover and leave it in a warm place until doubled in size.",
@@ -42,7 +42,12 @@
     {
       "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.48"
+      "note": "the decision model gave this answer a probability of 0.53"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 20.0 °C for still_air"
     },
     {
       "field": "end",

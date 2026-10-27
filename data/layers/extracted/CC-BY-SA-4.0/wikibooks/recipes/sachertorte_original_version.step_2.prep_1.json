@@ -1,0 +1,54 @@
+{
+  "id": "sachertorte_original_version.step_2.prep_1",
+  "source": "wikibooks_sachertorte_original_version",
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "butter",
+        "amount": {
+          "qty": 170,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "butter_mix",
+      "amount": {
+        "qty": 170,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "¾ cup (170 g) butter",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.53"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

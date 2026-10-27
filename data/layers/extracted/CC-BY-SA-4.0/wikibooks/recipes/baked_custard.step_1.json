@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "egg",
+        "ingredient": "egg_whisk",
         "amount": {
           "qty": 4,
           "unit": "piece"
@@ -60,6 +60,11 @@
   },
   "stateNote": "Beat the eggs, the sugar, the salt, and the vanilla together.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.51"
+    },
     {
       "field": "end",
       "kind": "estimate",

@@ -1,0 +1,49 @@
+{
+  "id": "smore_eurasian_beef_stew.step_5.prep_10",
+  "source": "wikibooks_smore_eurasian_beef_stew",
+  "technique": "grind",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "onion",
+        "amount": {
+          "qty": 3,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "onion_grind",
+      "amount": {
+        "qty": 3,
+        "unit": "piece"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "3 onions",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

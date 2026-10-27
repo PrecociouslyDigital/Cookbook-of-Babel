@@ -16,7 +16,7 @@
         }
       },
       {
-        "ingredient": "butter",
+        "ingredient": "butter_heat",
         "amount": {
           "qty": 2,
           "unit": "tbsp"
@@ -46,6 +46,11 @@
   },
   "stateNote": "In a skillet over medium heat, melt the butter and add the banana pieces with rest of sugar. cook 2 minutes, then flip the bananas over and cook the other side for 2 minutes.",
   "issues": [
+    {
+      "field": "inputs",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.54"
+    },
     {
       "field": "environment",
       "kind": "estimate",

@@ -5,25 +5,25 @@
     "source": "wikibooks_obe_eja_kika_nigerian_smoked_fish_stew",
     "step": 1
   },
-  "technique": "grind",
+  "technique": "blend",
   "inputs": {
     "of": [
       {
-        "ingredient": "tomato",
+        "ingredient": "tomato_grind",
         "amount": {
           "qty": 1,
           "unit": "pinch"
         }
       },
       {
-        "ingredient": "habanero_pepper",
+        "ingredient": "habanero_pepper_grind",
         "amount": {
           "qty": 1,
           "unit": "pinch"
         }
       },
       {
-        "ingredient": "bell_pepper",
+        "ingredient": "bell_pepper_grind",
         "amount": {
           "qty": 5,
           "unit": "piece"
@@ -34,7 +34,7 @@
         "max": 1,
         "of": [
           {
-            "ingredient": "bell_pepper",
+            "ingredient": "bell_pepper_grind",
             "amount": {
               "qty": 2,
               "unit": "piece"
@@ -43,7 +43,7 @@
         ]
       },
       {
-        "ingredient": "onion",
+        "ingredient": "onion_grind",
         "amount": {
           "qty": 3,
           "unit": "piece"
@@ -73,6 +73,11 @@
   },
   "stateNote": "Coarsely grind the tomatoes, habanero pepper, tatashe, green bell peppers, and onions.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.41"
+    },
     {
       "field": "inputs",
       "kind": "estimate",

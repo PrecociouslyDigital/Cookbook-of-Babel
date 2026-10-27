@@ -1,0 +1,49 @@
+{
+  "id": "jambalaya_ii.step_3.prep_4",
+  "source": "wikibooks_jambalaya_ii",
+  "technique": "chop",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "celery",
+        "amount": {
+          "qty": 2,
+          "unit": "stalk"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "celery_chop",
+      "amount": {
+        "qty": 2,
+        "unit": "stalk"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "2 ribs celery, chopped",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

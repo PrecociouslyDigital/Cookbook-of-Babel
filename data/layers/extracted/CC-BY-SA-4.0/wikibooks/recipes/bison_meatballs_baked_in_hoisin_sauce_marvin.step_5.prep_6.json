@@ -1,0 +1,49 @@
+{
+  "id": "bison_meatballs_baked_in_hoisin_sauce_marvin.step_5.prep_6",
+  "source": "wikibooks_bison_meatballs_baked_in_hoisin_sauce_marvin",
+  "technique": "grind",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "clove",
+        "amount": {
+          "qty": 2,
+          "unit": "clove"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "clove_grind",
+      "amount": {
+        "qty": 2,
+        "unit": "clove"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "2 whole cloves",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

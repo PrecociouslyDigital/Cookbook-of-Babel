@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "lentil",
+        "ingredient": "lentil_boil",
         "amount": {
           "qty": 0.75,
           "unit": "cup"
@@ -19,7 +19,7 @@
   },
   "outputs": [
     {
-      "ingredient": "lentil_boil",
+      "ingredient": "lentil_boil_boil",
       "amount": {
         "qty": 177.4,
         "unit": "g"
@@ -28,7 +28,7 @@
   ],
   "environment": {
     "temperatureC": 100,
-    "medium": "simmering_water"
+    "medium": "boiling_water"
   },
   "end": {
     "by": "time",
@@ -42,12 +42,17 @@
     {
       "field": "technique",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.54"
+      "note": "the decision model gave this answer a probability of 0.47"
+    },
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.57"
     },
     {
       "field": "outputs",
       "kind": "estimate",
-      "note": "assumed 1 g/ml for lentil"
+      "note": "assumed 1 g/ml for lentil_boil"
     },
     {
       "field": "environment",

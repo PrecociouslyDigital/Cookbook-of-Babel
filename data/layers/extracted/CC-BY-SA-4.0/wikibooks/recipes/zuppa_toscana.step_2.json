@@ -9,14 +9,14 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "sausage_pan_fry",
+        "ingredient": "sausage_fry_pan_fry",
         "amount": {
           "qty": 453.6,
           "unit": "g"
         }
       },
       {
-        "ingredient": "bacon",
+        "ingredient": "bacon_fry",
         "amount": {
           "qty": 0.5,
           "unit": "lb"
@@ -46,6 +46,11 @@
   },
   "stateNote": "In skillet over medium-high heat, brown bacon. Drain and set aside.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.59"
+    },
     {
       "field": "environment",
       "kind": "estimate",

@@ -1,0 +1,54 @@
+{
+  "id": "koshary_egyptian_pasta_salad_with_rice_and_lentils.step_2.prep_4",
+  "source": "wikibooks_koshary_egyptian_pasta_salad_with_rice_and_lentils",
+  "technique": "boil",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "chickpea",
+        "amount": {
+          "qty": 0.5,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "chickpea_boil",
+      "amount": {
+        "qty": 0.5,
+        "unit": "cup"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "½ cup chickpeas",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.56"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

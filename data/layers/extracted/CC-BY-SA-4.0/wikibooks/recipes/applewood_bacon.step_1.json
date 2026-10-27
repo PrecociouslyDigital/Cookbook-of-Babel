@@ -23,7 +23,7 @@
         }
       },
       {
-        "ingredient": "apple_cider",
+        "ingredient": "apple_cider_boil",
         "amount": {
           "qty": 1,
           "unit": "gal"
@@ -40,28 +40,38 @@
       }
     }
   ],
+  "environment": {
+    "temperatureC": 100,
+    "medium": "boiling_water"
+  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
-    },
-    "sensitivity": {
-      "refTempC": 20,
-      "q10": 1
     }
   },
   "stateNote": "In a large pot, bring to apple cider to boil. Stir in salt and sugar until dissolved.",
   "issues": [
     {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.36"
+    },
+    {
       "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.52"
+      "note": "the decision model gave this answer a probability of 0.58"
     },
     {
       "field": "outputs",
       "kind": "estimate",
-      "note": "assumed 1 g/ml for apple_cider"
+      "note": "assumed 1 g/ml for apple_cider_boil"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 100.0 °C for boiling_water"
     },
     {
       "field": "end",

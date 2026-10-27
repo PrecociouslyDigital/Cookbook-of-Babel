@@ -1,0 +1,49 @@
+{
+  "id": "bumbleberry_souffle.step_2.prep_1",
+  "source": "wikibooks_bumbleberry_souffle",
+  "technique": "heat",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "butter",
+        "amount": {
+          "qty": 1,
+          "unit": "slice"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "butter_heat",
+      "amount": {
+        "qty": 1,
+        "unit": "slice"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "1 slice butter",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

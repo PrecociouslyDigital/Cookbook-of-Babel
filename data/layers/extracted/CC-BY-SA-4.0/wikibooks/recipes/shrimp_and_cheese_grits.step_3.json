@@ -5,7 +5,7 @@
     "source": "wikibooks_shrimp_and_cheese_grits",
     "step": 3
   },
-  "technique": "simmer",
+  "technique": "mix",
   "inputs": {
     "of": [
       {
@@ -16,7 +16,7 @@
         }
       },
       {
-        "ingredient": "grits",
+        "ingredient": "grits_boil",
         "amount": {
           "qty": 6,
           "unit": "piece"
@@ -48,8 +48,8 @@
     }
   ],
   "environment": {
-    "temperatureC": 90,
-    "medium": "simmering_water"
+    "temperatureC": 100,
+    "medium": "boiling_water"
   },
   "end": {
     "by": "time",
@@ -63,7 +63,12 @@
     {
       "field": "technique",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.37"
+      "note": "the decision model gave this answer a probability of 0.29"
+    },
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.54"
     },
     {
       "field": "inputs",
@@ -73,7 +78,7 @@
     {
       "field": "environment",
       "kind": "estimate",
-      "note": "no temperature given; used the middle of simmer's typical range"
+      "note": "no temperature given; assumed 100.0 °C for boiling_water"
     },
     {
       "field": "end",

@@ -1,0 +1,49 @@
+{
+  "id": "hyderabad_biryani.step_6.prep_2",
+  "source": "wikibooks_hyderabad_biryani",
+  "technique": "rinse",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "steamed_basmati_rice",
+        "amount": {
+          "qty": 1,
+          "unit": "kg"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "steamed_basmati_rice_rinse",
+      "amount": {
+        "qty": 1,
+        "unit": "kg"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "1 kg Basmati rice",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

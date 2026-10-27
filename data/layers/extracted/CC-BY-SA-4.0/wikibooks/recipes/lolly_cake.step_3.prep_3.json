@@ -1,0 +1,49 @@
+{
+  "id": "lolly_cake.step_3.prep_3",
+  "source": "wikibooks_lolly_cake",
+  "technique": "heat",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "butter",
+        "amount": {
+          "qty": 120,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "butter_heat",
+      "amount": {
+        "qty": 120,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "120 g (1.5 sticks) of butter",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

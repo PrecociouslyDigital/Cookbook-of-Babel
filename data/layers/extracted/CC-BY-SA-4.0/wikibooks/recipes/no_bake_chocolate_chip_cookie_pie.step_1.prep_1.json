@@ -1,0 +1,54 @@
+{
+  "id": "no_bake_chocolate_chip_cookie_pie.step_1.prep_1",
+  "source": "wikibooks_no_bake_chocolate_chip_cookie_pie",
+  "technique": "soak",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "chocolate_chip_cookies",
+        "amount": {
+          "qty": 16.5,
+          "unit": "oz"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "chocolate_chip_cookies_soak",
+      "amount": {
+        "qty": 16.5,
+        "unit": "oz"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "1 package (15–18 oz/450 g) chocolate chip cookies (recipe uses 26 cookies)",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.56"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

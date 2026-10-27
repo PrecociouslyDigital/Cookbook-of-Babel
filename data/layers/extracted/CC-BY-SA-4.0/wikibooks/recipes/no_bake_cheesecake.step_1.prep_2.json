@@ -1,0 +1,49 @@
+{
+  "id": "no_bake_cheesecake.step_1.prep_2",
+  "source": "wikibooks_no_bake_cheesecake",
+  "technique": "grind",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "digestive_biscuit",
+        "amount": {
+          "qty": 200,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "digestive_biscuit_grind",
+      "amount": {
+        "qty": 200,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "200 g (7 oz) tennis biscuits or digestive biscuits, crushed to fine crumbs",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

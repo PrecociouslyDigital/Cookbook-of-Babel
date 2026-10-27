@@ -1,0 +1,54 @@
+{
+  "id": "liberian_eggplant_stew.step_3.prep_4",
+  "source": "wikibooks_liberian_eggplant_stew",
+  "technique": "fry",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "meat",
+        "amount": {
+          "qty": 1,
+          "unit": "lb"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "meat_fry",
+      "amount": {
+        "qty": 1,
+        "unit": "lb"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "1 pound meat (beef, chicken, or goat), cut into pieces, or fish (tilapia or catfish), cleaned and gutted",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.38"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

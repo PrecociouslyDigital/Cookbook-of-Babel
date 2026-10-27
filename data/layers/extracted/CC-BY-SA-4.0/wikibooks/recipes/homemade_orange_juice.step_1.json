@@ -5,11 +5,11 @@
     "source": "wikibooks_homemade_orange_juice",
     "step": 1
   },
-  "technique": "cut",
+  "technique": "assemble",
   "inputs": {
     "of": [
       {
-        "ingredient": "orange",
+        "ingredient": "orange_cut",
         "amount": {
           "qty": 1,
           "unit": "pinch"
@@ -19,7 +19,7 @@
   },
   "outputs": [
     {
-      "ingredient": "orange_cut",
+      "ingredient": "homemade_orange_juice_step_1",
       "amount": {
         "qty": 0.3,
         "unit": "g"
@@ -40,6 +40,11 @@
   "stateNote": "With a knife, remove the peel and skin from the oranges. Using a tiny knife, slice the orange in half and remove all of the seeds. Place it in the blender after further cutting it into smaller pieces.",
   "issues": [
     {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.37"
+    },
+    {
       "field": "inputs",
       "kind": "estimate",
       "note": "'Oranges': no quantity given; assumed a pinch"
@@ -47,7 +52,7 @@
     {
       "field": "outputs",
       "kind": "estimate",
-      "note": "assumed 1 g/ml for orange"
+      "note": "assumed 1 g/ml for orange_cut"
     },
     {
       "field": "end",

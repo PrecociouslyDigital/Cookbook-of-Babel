@@ -5,7 +5,7 @@
     "source": "wikibooks_ratatouille_i",
     "step": 3
   },
-  "technique": "cut",
+  "technique": "assemble",
   "inputs": {
     "of": [
       {
@@ -16,14 +16,14 @@
         }
       },
       {
-        "ingredient": "eggplant",
+        "ingredient": "eggplant_cut",
         "amount": {
           "qty": 1,
           "unit": "piece"
         }
       },
       {
-        "ingredient": "zucchini",
+        "ingredient": "zucchini_cut",
         "amount": {
           "qty": 2,
           "unit": "piece"
@@ -53,6 +53,11 @@
   },
   "stateNote": "Cut the zucchini and eggplant into ½ inch slices. Then, cut these into rectangles of about 3x1 inches. Add to the casserole.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.41"
+    },
     {
       "field": "inputs",
       "kind": "estimate",

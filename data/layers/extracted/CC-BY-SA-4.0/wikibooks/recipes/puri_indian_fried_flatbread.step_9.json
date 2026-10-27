@@ -5,13 +5,13 @@
     "source": "wikibooks_puri_indian_fried_flatbread",
     "step": 9
   },
-  "technique": "strain",
+  "technique": "dry",
   "inputs": {
     "of": [
       {
         "ingredient": "puri_indian_fried_flatbread_step_8",
         "amount": {
-          "qty": 645.5,
+          "qty": 685.5,
           "unit": "g"
         }
       }
@@ -21,13 +21,13 @@
     {
       "ingredient": "puri_indian_fried_flatbread",
       "amount": {
-        "qty": 645.5,
+        "qty": 685.5,
         "unit": "g"
       }
     }
   ],
   "environment": {
-    "temperatureC": 175,
+    "temperatureC": 55,
     "medium": "frying_oil"
   },
   "end": {
@@ -42,12 +42,17 @@
     {
       "field": "technique",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.52"
+      "note": "the decision model gave this answer a probability of 0.33"
+    },
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.48"
     },
     {
       "field": "environment",
       "kind": "estimate",
-      "note": "no temperature given; assumed 175.0 °C for frying_oil"
+      "note": "no temperature given; used the middle of dry's typical range"
     },
     {
       "field": "end",

@@ -1,0 +1,49 @@
+{
+  "id": "pork_braised_with_garlic_and_onions_of_indonesia_babi_kecap.step_2.prep_2",
+  "source": "wikibooks_pork_braised_with_garlic_and_onions_of_indonesia_babi_kecap",
+  "technique": "chop",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "onion",
+        "amount": {
+          "qty": 5,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "onion_chop",
+      "amount": {
+        "qty": 5,
+        "unit": "piece"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "5 large white onions, chopped",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

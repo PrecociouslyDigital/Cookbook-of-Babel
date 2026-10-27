@@ -1,0 +1,54 @@
+{
+  "id": "microwave_salmon_in_a_parchment_envelope.step_3.prep_12",
+  "source": "wikibooks_microwave_salmon_in_a_parchment_envelope",
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "butter",
+        "amount": {
+          "qty": 1,
+          "unit": "tbsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "butter_cut",
+      "amount": {
+        "qty": 1,
+        "unit": "tbsp"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "1 tbsp unsalted butter, cubed",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.48"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

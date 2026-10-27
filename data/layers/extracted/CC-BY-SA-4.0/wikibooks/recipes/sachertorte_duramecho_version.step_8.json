@@ -26,23 +26,23 @@
       }
     }
   ],
-  "environment": {
-    "temperatureC": 170,
-    "medium": "oven_air"
-  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
     }
   },
   "stateNote": "Line the cake tin with greaseproof paper, and fill it with the batter.",
   "issues": [
     {
-      "field": "environment",
+      "field": "sourceRef",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.54"
+      "note": "the decision model gave this answer a probability of 0.58"
     },
     {
       "field": "end",

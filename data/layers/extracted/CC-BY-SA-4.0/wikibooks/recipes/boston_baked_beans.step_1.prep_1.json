@@ -1,0 +1,54 @@
+{
+  "id": "boston_baked_beans.step_1.prep_1",
+  "source": "wikibooks_boston_baked_beans",
+  "technique": "fry",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "bacon",
+        "amount": {
+          "qty": 6,
+          "unit": "strip"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "bacon_fry",
+      "amount": {
+        "qty": 6,
+        "unit": "strip"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "6 rashers thick cut bacon, sliced (or 5 drops liquid smoke)",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.48"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

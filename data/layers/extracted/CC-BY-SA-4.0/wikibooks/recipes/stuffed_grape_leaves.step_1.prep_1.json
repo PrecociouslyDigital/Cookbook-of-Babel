@@ -1,0 +1,49 @@
+{
+  "id": "stuffed_grape_leaves.step_1.prep_1",
+  "source": "wikibooks_stuffed_grape_leaves",
+  "technique": "soak",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "grape_leaf",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "grape_leaf_soak",
+      "amount": {
+        "qty": 1,
+        "unit": "pinch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Batch of thin, freshly-picked grape leaves (choose only the thinnest leaves)",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

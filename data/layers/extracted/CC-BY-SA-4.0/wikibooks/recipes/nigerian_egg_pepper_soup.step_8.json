@@ -39,15 +39,15 @@
       }
     }
   ],
-  "environment": {
-    "temperatureC": 90,
-    "medium": "simmering_water"
-  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
     }
   },
   "stateNote": "Once the soup is ready, remove it from the heat.",
@@ -55,17 +55,12 @@
     {
       "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.54"
+      "note": "the decision model gave this answer a probability of 0.44"
     },
     {
       "field": "inputs",
       "kind": "estimate",
       "note": "'Fresh cilantro or parsley, for garnish (optional)': no quantity given; assumed a pinch"
-    },
-    {
-      "field": "environment",
-      "kind": "estimate",
-      "note": "no temperature given; assumed 90.0 °C for simmering_water"
     },
     {
       "field": "end",

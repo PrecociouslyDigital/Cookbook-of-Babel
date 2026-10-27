@@ -1,0 +1,49 @@
+{
+  "id": "meatloaf_iv.step_2.prep_1",
+  "source": "wikibooks_meatloaf_iv",
+  "technique": "toast",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "whole_wheat_flour",
+        "amount": {
+          "qty": 2,
+          "unit": "slice"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "whole_wheat_flour_toast",
+      "amount": {
+        "qty": 2,
+        "unit": "slice"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "2 slices whole-wheat bread, toasted and cubed",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

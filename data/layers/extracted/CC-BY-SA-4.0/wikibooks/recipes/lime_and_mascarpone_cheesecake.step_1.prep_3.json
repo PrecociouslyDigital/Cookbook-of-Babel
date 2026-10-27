@@ -1,0 +1,49 @@
+{
+  "id": "lime_and_mascarpone_cheesecake.step_1.prep_3",
+  "source": "wikibooks_lime_and_mascarpone_cheesecake",
+  "technique": "grind",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "biscuit",
+        "amount": {
+          "qty": 200,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "biscuit_grind",
+      "amount": {
+        "qty": 200,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "200 g ginger nut biscuits, crushed or ground in a food processor",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

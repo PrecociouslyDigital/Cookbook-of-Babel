@@ -1,0 +1,49 @@
+{
+  "id": "paella_de_marisco.step_1.prep_5",
+  "source": "wikibooks_paella_de_marisco",
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "onion",
+        "amount": {
+          "qty": 500,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "onion_cut",
+      "amount": {
+        "qty": 500,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "500 g yellow onion, cut into quarters",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

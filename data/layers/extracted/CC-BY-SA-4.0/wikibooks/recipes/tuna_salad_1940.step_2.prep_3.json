@@ -1,0 +1,49 @@
+{
+  "id": "tuna_salad_1940.step_2.prep_3",
+  "source": "wikibooks_tuna_salad_1940",
+  "technique": "chop",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "celery",
+        "amount": {
+          "qty": 0.5,
+          "unit": "stalk"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "celery_chop",
+      "amount": {
+        "qty": 0.5,
+        "unit": "stalk"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "½ stalk celery, finely chopped",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

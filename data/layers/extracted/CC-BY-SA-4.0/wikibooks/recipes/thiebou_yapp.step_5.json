@@ -5,7 +5,7 @@
     "source": "wikibooks_thiebou_yapp",
     "step": 5
   },
-  "technique": "simmer",
+  "technique": "mix",
   "inputs": {
     "of": [
       {
@@ -16,28 +16,28 @@
         }
       },
       {
-        "ingredient": "pepper",
+        "ingredient": "pepper_rinse",
         "amount": {
           "qty": 2,
           "unit": "piece"
         }
       },
       {
-        "ingredient": "cabbage",
+        "ingredient": "cabbage_rinse",
         "amount": {
           "qty": 1,
           "unit": "head"
         }
       },
       {
-        "ingredient": "carrot",
+        "ingredient": "carrot_rinse",
         "amount": {
           "qty": 1,
           "unit": "pinch"
         }
       },
       {
-        "ingredient": "turnip",
+        "ingredient": "turnip_rinse",
         "amount": {
           "qty": 1,
           "unit": "pinch"
@@ -77,7 +77,12 @@
     {
       "field": "technique",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.51"
+      "note": "the decision model gave this answer a probability of 0.35"
+    },
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.41"
     },
     {
       "field": "inputs",
@@ -97,7 +102,7 @@
     {
       "field": "environment",
       "kind": "estimate",
-      "note": "no temperature given; used the middle of simmer's typical range"
+      "note": "no temperature given; assumed 90.0 °C for simmering_water"
     }
   ]
 }

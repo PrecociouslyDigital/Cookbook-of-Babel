@@ -1,0 +1,54 @@
+{
+  "id": "holiday_soda.step_4.prep_6",
+  "source": "wikibooks_holiday_soda",
+  "technique": "boil",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "clove",
+        "amount": {
+          "qty": 4,
+          "unit": "clove"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "clove_boil",
+      "amount": {
+        "qty": 4,
+        "unit": "clove"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "4 cloves",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.52"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -16,14 +16,14 @@
         }
       },
       {
-        "ingredient": "olive_oil",
+        "ingredient": "olive_oil_heat",
         "amount": {
           "qty": 2,
           "unit": "tbsp"
         }
       },
       {
-        "ingredient": "garlic",
+        "ingredient": "garlic_fry",
         "amount": {
           "qty": 1,
           "unit": "tbsp"
@@ -54,9 +54,14 @@
   "stateNote": "In a skillet large enough to hold all the salmon, heat 1 tbsp oil over medium high heat. Add garlic and cook until golden.",
   "issues": [
     {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.58"
+    },
+    {
       "field": "outputs",
       "kind": "estimate",
-      "note": "assumed 1 g/ml for olive_oil, garlic"
+      "note": "assumed 1 g/ml for olive_oil_heat, garlic_fry"
     },
     {
       "field": "environment",

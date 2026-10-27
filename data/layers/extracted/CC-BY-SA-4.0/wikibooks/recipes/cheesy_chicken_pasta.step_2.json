@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "pasta_boil",
+        "ingredient": "pasta_boil_boil",
         "amount": {
           "qty": 85,
           "unit": "g"
@@ -27,8 +27,8 @@
     }
   ],
   "environment": {
-    "temperatureC": 180,
-    "medium": "pan_contact"
+    "temperatureC": 100,
+    "medium": "boiling_water"
   },
   "end": {
     "by": "time",
@@ -47,7 +47,7 @@
     {
       "field": "environment",
       "kind": "estimate",
-      "note": "no temperature given; assumed 180.0 °C for pan_contact"
+      "note": "no temperature given; assumed 100.0 °C for boiling_water"
     },
     {
       "field": "end",

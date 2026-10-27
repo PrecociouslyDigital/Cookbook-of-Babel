@@ -59,9 +59,17 @@
       "unit": "min"
     },
     "sensitivity": {
-      "refTempC": 20,
-      "q10": 1
+      "refTempC": -18,
+      "q10": 1,
+      "maxTempC": 0
     }
   },
-  "stateNote": "Let tea cool to room temperature. Serve over ice, or place open pot in freezer for 70 minutes for quicker cooling. Stir in milk or citrus juice before serving."
+  "stateNote": "Let tea cool to room temperature. Serve over ice, or place open pot in freezer for 70 minutes for quicker cooling. Stir in milk or citrus juice before serving.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.49"
+    }
+  ]
 }

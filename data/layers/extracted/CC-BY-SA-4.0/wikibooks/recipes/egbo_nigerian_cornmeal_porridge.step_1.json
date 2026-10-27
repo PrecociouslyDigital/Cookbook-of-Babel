@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "corn",
+        "ingredient": "corn_grind",
         "amount": {
           "qty": 1,
           "unit": "pinch"
@@ -19,7 +19,7 @@
   },
   "outputs": [
     {
-      "ingredient": "corn_grind",
+      "ingredient": "corn_grind_grind",
       "amount": {
         "qty": 0.3,
         "unit": "g"
@@ -40,6 +40,11 @@
   "stateNote": "Crack the corn using the mill, and blow to get rid of the husks.",
   "issues": [
     {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.51"
+    },
+    {
       "field": "inputs",
       "kind": "estimate",
       "note": "'Dried corn': no quantity given; assumed a pinch"
@@ -47,7 +52,7 @@
     {
       "field": "outputs",
       "kind": "estimate",
-      "note": "assumed 1 g/ml for corn"
+      "note": "assumed 1 g/ml for corn_grind"
     },
     {
       "field": "end",

@@ -9,14 +9,14 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "rice_boil",
+        "ingredient": "rice_rinse_boil",
         "amount": {
           "qty": 1,
           "unit": "batch"
         }
       },
       {
-        "ingredient": "palm_oil",
+        "ingredient": "palm_oil_heat",
         "amount": {
           "qty": 2,
           "unit": "piece"
@@ -34,8 +34,8 @@
     }
   ],
   "environment": {
-    "temperatureC": 175,
-    "medium": "frying_oil"
+    "temperatureC": 180,
+    "medium": "pan_contact"
   },
   "end": {
     "by": "time",
@@ -54,7 +54,7 @@
     {
       "field": "environment",
       "kind": "estimate",
-      "note": "no temperature given; assumed 175.0 °C for frying_oil"
+      "note": "no temperature given; assumed 180.0 °C for pan_contact"
     },
     {
       "field": "end",

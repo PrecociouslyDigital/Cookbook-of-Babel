@@ -1,0 +1,49 @@
+{
+  "id": "tangerine_jelly.step_1.prep_1",
+  "source": "wikibooks_tangerine_jelly",
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "tangerine",
+        "amount": {
+          "qty": 1,
+          "unit": "dozen"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "tangerine_cut",
+      "amount": {
+        "qty": 1,
+        "unit": "dozen"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "1 dozen big tangerines",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

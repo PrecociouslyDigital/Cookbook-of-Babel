@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "avocado",
+        "ingredient": "avocado_cut",
         "amount": {
           "qty": 3,
           "unit": "piece"
@@ -19,7 +19,7 @@
   },
   "outputs": [
     {
-      "ingredient": "avocado_cut",
+      "ingredient": "avocado_cut_cut",
       "amount": {
         "qty": 1,
         "unit": "batch"
@@ -39,6 +39,11 @@
   },
   "stateNote": "Prepare avocados by halving and removing the stone. The simplest way to do this is to hold the avocado in the palm of your hand and strike the stone squarely and firmly with a chef's knife—the knife will then pull the stone out easily. If it doesn't come out easily, the avocado isn't ripe enough.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.52"
+    },
     {
       "field": "end",
       "kind": "estimate",

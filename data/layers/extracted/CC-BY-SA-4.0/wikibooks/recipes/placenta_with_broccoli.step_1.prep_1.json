@@ -1,0 +1,49 @@
+{
+  "id": "placenta_with_broccoli.step_1.prep_1",
+  "source": "wikibooks_placenta_with_broccoli",
+  "technique": "rinse",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "placenta",
+        "amount": {
+          "qty": 0.3333333333333333,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "placenta_rinse",
+      "amount": {
+        "qty": 0.3333333333333333,
+        "unit": "cup"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "1/3 cup chopped fresh human placenta",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

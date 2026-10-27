@@ -1,0 +1,49 @@
+{
+  "id": "red_bean_paste.step_1.prep_1",
+  "source": "wikibooks_red_bean_paste",
+  "technique": "rinse",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "azuki_bean",
+        "amount": {
+          "qty": 200,
+          "unit": "ml"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "azuki_bean_rinse",
+      "amount": {
+        "qty": 200,
+        "unit": "ml"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "200 ml dried adzuki beans",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

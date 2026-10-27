@@ -16,7 +16,7 @@
         }
       },
       {
-        "ingredient": "lamb_and_mutton",
+        "ingredient": "lamb_and_mutton_fry",
         "amount": {
           "qty": 500,
           "unit": "g"
@@ -35,7 +35,7 @@
   ],
   "environment": {
     "temperatureC": 185,
-    "medium": "pan_contact"
+    "medium": "frying_oil"
   },
   "end": {
     "by": "time",
@@ -46,6 +46,11 @@
   },
   "stateNote": "Add the diced lamb or beef cubes to the pot and cook until browned on all sides. Stir occasionally to prevent sticking.",
   "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.52"
+    },
     {
       "field": "environment",
       "kind": "estimate",

@@ -1,0 +1,54 @@
+{
+  "id": "spinach_mushroom_pesto_spaghetti.step_3.prep_3",
+  "source": "wikibooks_spinach_mushroom_pesto_spaghetti",
+  "technique": "heat",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "spinach",
+        "amount": {
+          "qty": 140,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "spinach_heat",
+      "amount": {
+        "qty": 140,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "140 g (5 oz) spinach",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.48"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

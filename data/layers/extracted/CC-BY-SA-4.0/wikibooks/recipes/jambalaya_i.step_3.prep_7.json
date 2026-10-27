@@ -1,0 +1,49 @@
+{
+  "id": "jambalaya_i.step_3.prep_7",
+  "source": "wikibooks_jambalaya_i",
+  "technique": "fry",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "celery",
+        "amount": {
+          "qty": 0.3333333333333333,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "celery_fry",
+      "amount": {
+        "qty": 0.3333333333333333,
+        "unit": "cup"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "⅓ cup chopped celery",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

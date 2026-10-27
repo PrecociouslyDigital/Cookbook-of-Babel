@@ -26,29 +26,19 @@
       }
     }
   ],
-  "environment": {
-    "temperatureC": 180,
-    "medium": "pan_contact"
-  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
     }
   },
   "stateNote": "Immediately loosen cake from edges of pan; invert cake onto the prepared towel. Remove pan; carefully peel off paper.",
   "issues": [
-    {
-      "field": "environment",
-      "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.54"
-    },
-    {
-      "field": "environment",
-      "kind": "estimate",
-      "note": "no temperature given; assumed 180.0 °C for pan_contact"
-    },
     {
       "field": "end",
       "kind": "estimate",

@@ -1,0 +1,54 @@
+{
+  "id": "cabbage_salad.step_1.prep_1",
+  "source": "wikibooks_cabbage_salad",
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "cabbage",
+        "amount": {
+          "qty": 500,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "cabbage_cut",
+      "amount": {
+        "qty": 500,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "½ head (500 grams) white cabbage",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.46"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

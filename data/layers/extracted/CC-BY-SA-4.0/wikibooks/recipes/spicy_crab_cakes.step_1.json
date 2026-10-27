@@ -23,21 +23,21 @@
         }
       },
       {
-        "ingredient": "dill",
+        "ingredient": "dill_chop",
         "amount": {
           "qty": 2,
           "unit": "tbsp"
         }
       },
       {
-        "ingredient": "parsley",
+        "ingredient": "parsley_chop",
         "amount": {
           "qty": 2,
           "unit": "tbsp"
         }
       },
       {
-        "ingredient": "chipotle_pepper",
+        "ingredient": "chipotle_pepper_blend",
         "amount": {
           "qty": 1,
           "unit": "tbsp"
@@ -105,7 +105,7 @@
     {
       "field": "inputs",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.52"
+      "note": "the decision model gave this answer a probability of 0.46"
     },
     {
       "field": "inputs",
@@ -125,12 +125,17 @@
     {
       "field": "outputs",
       "kind": "estimate",
-      "note": "assumed 1 g/ml for mayonnaise, mustard, dill, parsley, chipotle_pepper, pepper, mustard, mayonnaise, lemon"
+      "note": "assumed 1 g/ml for mayonnaise, mustard, dill_chop, parsley_chop, chipotle_pepper_blend, pepper, mustard, mayonnaise, lemon"
     },
     {
       "field": "end",
       "kind": "estimate",
       "note": "no duration given; assumed 1 minute"
+    },
+    {
+      "field": "source",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.58"
     }
   ]
 }

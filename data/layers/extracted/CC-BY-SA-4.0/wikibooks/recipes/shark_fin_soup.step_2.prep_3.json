@@ -1,0 +1,49 @@
+{
+  "id": "shark_fin_soup.step_2.prep_3",
+  "source": "wikibooks_shark_fin_soup",
+  "technique": "soak",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "dongu_mushrooms",
+        "amount": {
+          "qty": 10,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "dongu_mushrooms_soak",
+      "amount": {
+        "qty": 10,
+        "unit": "piece"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "10 large dried Dongu mushrooms",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

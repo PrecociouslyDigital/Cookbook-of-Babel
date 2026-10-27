@@ -5,15 +5,22 @@
     "source": "wikibooks_steamed_basmati_rice",
     "step": 1
   },
-  "technique": "soak",
+  "technique": "assemble",
   "inputs": {
     "of": [
+      {
+        "ingredient": "lemon",
+        "amount": {
+          "qty": 2,
+          "unit": "tsp"
+        }
+      },
       {
         "min": 0,
         "max": 1,
         "of": [
           {
-            "ingredient": "saffron",
+            "ingredient": "saffron_soak",
             "amount": {
               "qty": 1,
               "unit": "pinch"
@@ -27,7 +34,7 @@
     {
       "ingredient": "steamed_basmati_rice_step_1",
       "amount": {
-        "qty": 0.3,
+        "qty": 10.2,
         "unit": "g"
       }
     }
@@ -48,7 +55,7 @@
     {
       "field": "technique",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.59"
+      "note": "the decision model gave this answer a probability of 0.38"
     },
     {
       "field": "inputs",
@@ -58,7 +65,7 @@
     {
       "field": "outputs",
       "kind": "estimate",
-      "note": "assumed 1 g/ml for saffron"
+      "note": "assumed 1 g/ml for lemon, saffron_soak"
     },
     {
       "field": "environment",

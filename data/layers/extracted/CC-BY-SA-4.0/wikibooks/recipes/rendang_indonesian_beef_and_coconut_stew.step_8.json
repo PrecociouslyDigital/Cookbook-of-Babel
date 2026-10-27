@@ -5,7 +5,7 @@
     "source": "wikibooks_rendang_indonesian_beef_and_coconut_stew",
     "step": 8
   },
-  "technique": "evaporate",
+  "technique": "simmer",
   "inputs": {
     "of": [
       {
@@ -27,7 +27,7 @@
     }
   ],
   "environment": {
-    "temperatureC": 100,
+    "temperatureC": 90,
     "medium": "pan_contact"
   },
   "end": {
@@ -40,9 +40,14 @@
   "stateNote": "Cook until the meat is tender (at least 1½ hours) and almost all the liquid from the coconut milk has reduced to a spicy sauce.",
   "issues": [
     {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.51"
+    },
+    {
       "field": "environment",
       "kind": "estimate",
-      "note": "no temperature given; used the middle of evaporate's typical range"
+      "note": "no temperature given; used the middle of simmer's typical range"
     },
     {
       "field": "inputs",

@@ -5,7 +5,7 @@
     "source": "wikibooks_hawthorn_tea",
     "step": 2
   },
-  "technique": "strain",
+  "technique": "mix",
   "inputs": {
     "of": [
       {
@@ -40,23 +40,28 @@
       }
     }
   ],
-  "environment": {
-    "temperatureC": 100,
-    "medium": "boiling_water"
-  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
     }
   },
   "stateNote": "Filter the tea to remove solids, and mix in the sugar and the lemon juice.",
   "issues": [
     {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.55"
+    },
+    {
       "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.5"
+      "note": "the decision model gave this answer a probability of 0.54"
     },
     {
       "field": "inputs",
@@ -67,11 +72,6 @@
       "field": "inputs",
       "kind": "estimate",
       "note": "'5 soupspoons lemon juice': 'soupspoons' read as pieces"
-    },
-    {
-      "field": "environment",
-      "kind": "estimate",
-      "note": "no temperature given; assumed 100.0 °C for boiling_water"
     },
     {
       "field": "end",

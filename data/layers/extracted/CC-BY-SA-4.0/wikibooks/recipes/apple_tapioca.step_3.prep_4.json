@@ -1,0 +1,54 @@
+{
+  "id": "apple_tapioca.step_3.prep_4",
+  "source": "wikibooks_apple_tapioca",
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "apple",
+        "amount": {
+          "qty": 6,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "apple_cut",
+      "amount": {
+        "qty": 6,
+        "unit": "piece"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "6 apples",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.56"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

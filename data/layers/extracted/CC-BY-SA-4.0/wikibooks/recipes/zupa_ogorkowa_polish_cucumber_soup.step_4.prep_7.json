@@ -1,0 +1,54 @@
+{
+  "id": "zupa_ogorkowa_polish_cucumber_soup.step_4.prep_7",
+  "source": "wikibooks_zupa_ogorkowa_polish_cucumber_soup",
+  "technique": "grind",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "cucumber",
+        "amount": {
+          "qty": 3,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "cucumber_grind",
+      "amount": {
+        "qty": 3,
+        "unit": "piece"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "3 big sour-salted (pickled) cucumbers",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.48"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -5,7 +5,7 @@
     "source": "wikibooks_mesquite_bbq_burger",
     "step": 2
   },
-  "technique": "season",
+  "technique": "mix",
   "inputs": {
     "of": [
       {
@@ -23,7 +23,7 @@
         }
       },
       {
-        "ingredient": "pepper",
+        "ingredient": "pepper_grind",
         "amount": {
           "qty": 1,
           "unit": "pinch"
@@ -61,6 +61,11 @@
   "stateNote": "Combine garlic, smoke powder, and 4 heavy pinches each of salt and freshly ground black pepper. Set aside.",
   "issues": [
     {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.52"
+    },
+    {
       "field": "inputs",
       "kind": "estimate",
       "note": "'Salt': no quantity given; assumed a pinch"
@@ -73,7 +78,7 @@
     {
       "field": "outputs",
       "kind": "estimate",
-      "note": "assumed 1 g/ml for mesquite_smoke_powder, pepper, garlic_powder"
+      "note": "assumed 1 g/ml for mesquite_smoke_powder, pepper_grind, garlic_powder"
     },
     {
       "field": "end",

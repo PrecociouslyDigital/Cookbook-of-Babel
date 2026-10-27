@@ -26,19 +26,24 @@
       }
     }
   ],
-  "environment": {
-    "temperatureC": 190,
-    "medium": "oven_air"
-  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
     }
   },
   "stateNote": "Divide dough into twelve pieces and shape into buns. Mark a deep cross on the top of each bun.",
   "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.58"
+    },
     {
       "field": "end",
       "kind": "estimate",

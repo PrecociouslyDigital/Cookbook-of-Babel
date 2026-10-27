@@ -23,14 +23,14 @@
         }
       },
       {
-        "ingredient": "coffee",
+        "ingredient": "coffee_dissolve",
         "amount": {
           "qty": 0.5,
           "unit": "tsp"
         }
       },
       {
-        "ingredient": "chocolate",
+        "ingredient": "chocolate_dissolve",
         "amount": {
           "qty": 0.5,
           "unit": "tsp"
@@ -60,6 +60,11 @@
   },
   "stateNote": "In a bowl, dissolve coffee and cocoa into cream. Once dissolved, whip cream to stiff peaks.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.45"
+    },
     {
       "field": "end",
       "kind": "estimate",

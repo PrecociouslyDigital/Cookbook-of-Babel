@@ -1,0 +1,49 @@
+{
+  "id": "cheese_enchilada.step_2.prep_1",
+  "source": "wikibooks_cheese_enchilada",
+  "technique": "fry",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "wheat_flour",
+        "amount": {
+          "qty": 3,
+          "unit": "tbsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "wheat_flour_fry",
+      "amount": {
+        "qty": 3,
+        "unit": "tbsp"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "3 tbsp flour",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "id": "dal_makhani_black_gram_with_cream.step_5.prep_15",
+  "source": "wikibooks_dal_makhani_black_gram_with_cream",
+  "technique": "chop",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "tomato",
+        "amount": {
+          "qty": 2.5,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "tomato_chop",
+      "amount": {
+        "qty": 2.5,
+        "unit": "piece"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "2–3 medium tomatoes, finely chopped",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.43"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

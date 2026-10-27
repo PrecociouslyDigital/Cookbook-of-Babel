@@ -1,0 +1,49 @@
+{
+  "id": "n_gakasse_groundnut_sauce.step_10.prep_13",
+  "source": "wikibooks_n_gakasse_groundnut_sauce",
+  "technique": "chop",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "cilantro",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "cilantro_chop",
+      "amount": {
+        "qty": 1,
+        "unit": "pinch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Chopped fresh cilantro or parsley (optional; for garnish)",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

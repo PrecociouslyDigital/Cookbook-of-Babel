@@ -5,7 +5,7 @@
     "source": "wikibooks_roasted_pork_shoulder_pernil_asado",
     "step": 10
   },
-  "technique": "toast",
+  "technique": "roast",
   "inputs": {
     "of": [
       {
@@ -37,5 +37,17 @@
       "unit": "min"
     }
   },
-  "stateNote": "Raise the temperature to 375°F (195°C) and cook for 15–30 minutes until the skin is toasted and browned."
+  "stateNote": "Raise the temperature to 375°F (195°C) and cook for 15–30 minutes until the skin is toasted and browned.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.52"
+    },
+    {
+      "field": "inputs",
+      "kind": "missing",
+      "note": "no step uses '2 tbsp fresh thyme' (p=0.63)"
+    }
+  ]
 }

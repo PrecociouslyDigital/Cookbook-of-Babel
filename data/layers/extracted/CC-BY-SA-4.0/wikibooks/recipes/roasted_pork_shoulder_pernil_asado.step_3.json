@@ -9,42 +9,35 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "pork_rinse_cut",
+        "ingredient": "pork_rinse_rinse_cut",
         "amount": {
           "qty": 2500,
           "unit": "g"
         }
       },
       {
-        "ingredient": "salt",
+        "ingredient": "salt_grind",
         "amount": {
           "qty": 1.5,
           "unit": "tbsp"
         }
       },
       {
-        "ingredient": "garlic",
+        "ingredient": "garlic_grind",
         "amount": {
           "qty": 12,
           "unit": "piece"
         }
       },
       {
-        "ingredient": "pepper",
+        "ingredient": "pepper_grind",
         "amount": {
           "qty": 1,
           "unit": "tbsp"
         }
       },
       {
-        "ingredient": "oregano",
-        "amount": {
-          "qty": 2,
-          "unit": "tbsp"
-        }
-      },
-      {
-        "ingredient": "thyme",
+        "ingredient": "oregano_grind",
         "amount": {
           "qty": 2,
           "unit": "tbsp"
@@ -74,6 +67,11 @@
   },
   "stateNote": "Grind together the garlic, pepper, oregano, and salt",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.42"
+    },
     {
       "field": "end",
       "kind": "estimate",

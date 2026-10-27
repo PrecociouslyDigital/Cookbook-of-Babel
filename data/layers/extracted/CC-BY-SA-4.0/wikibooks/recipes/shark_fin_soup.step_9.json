@@ -40,28 +40,23 @@
       }
     }
   ],
-  "environment": {
-    "temperatureC": 90,
-    "medium": "simmering_water"
-  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
     }
   },
   "stateNote": "Remove from heat and slowly stir in the corn starch, in small increments. Sprinkle sesame oil on the soup.",
   "issues": [
     {
-      "field": "technique",
-      "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.47"
-    },
-    {
       "field": "environment",
-      "kind": "estimate",
-      "note": "no temperature given; assumed 90.0 °C for simmering_water"
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.45"
     },
     {
       "field": "end",

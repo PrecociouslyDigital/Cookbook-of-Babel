@@ -1,0 +1,49 @@
+{
+  "id": "new_england_potato_salad.step_1.prep_1",
+  "source": "wikibooks_new_england_potato_salad",
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "cuisine_of_california",
+        "amount": {
+          "qty": 3,
+          "unit": "lb"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "cuisine_of_california_cut",
+      "amount": {
+        "qty": 3,
+        "unit": "lb"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "3 pounds California long white potatoes",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

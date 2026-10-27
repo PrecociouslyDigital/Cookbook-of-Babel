@@ -48,8 +48,8 @@
     }
   ],
   "environment": {
-    "temperatureC": 90,
-    "medium": "simmering_water"
+    "temperatureC": 180,
+    "medium": "pan_contact"
   },
   "end": {
     "by": "time",
@@ -61,6 +61,11 @@
   "stateNote": "As meat is browning, add potato, beef broth and diced tomatoes.",
   "issues": [
     {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.47"
+    },
+    {
       "field": "inputs",
       "kind": "estimate",
       "note": "'3 large russet potato, cubed bite-sized': 'russet' read as pieces"
@@ -68,7 +73,7 @@
     {
       "field": "environment",
       "kind": "estimate",
-      "note": "no temperature given; assumed 90.0 °C for simmering_water"
+      "note": "no temperature given; assumed 180.0 °C for pan_contact"
     },
     {
       "field": "end",

@@ -1,0 +1,49 @@
+{
+  "id": "wine_braised_shortribs.step_2.prep_10",
+  "source": "wikibooks_wine_braised_shortribs",
+  "technique": "heat",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "olive_oil",
+        "amount": {
+          "qty": 2,
+          "unit": "tbsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "olive_oil_heat",
+      "amount": {
+        "qty": 2,
+        "unit": "tbsp"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "2 tbsp olive oil, divided",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

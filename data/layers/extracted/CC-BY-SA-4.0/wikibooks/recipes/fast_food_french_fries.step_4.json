@@ -23,7 +23,7 @@
         }
       },
       {
-        "ingredient": "pepper",
+        "ingredient": "pepper_grind",
         "amount": {
           "qty": 1,
           "unit": "pinch"
@@ -40,15 +40,15 @@
       }
     }
   ],
-  "environment": {
-    "temperatureC": 20,
-    "medium": "still_air"
-  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
     }
   },
   "stateNote": "Drain fries on a cooling rack, and sprinkle heavily with salt and freshly ground black pepper.",
@@ -56,7 +56,7 @@
     {
       "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.47"
+      "note": "the decision model gave this answer a probability of 0.41"
     },
     {
       "field": "inputs",
@@ -71,12 +71,7 @@
     {
       "field": "outputs",
       "kind": "estimate",
-      "note": "assumed 1 g/ml for pepper"
-    },
-    {
-      "field": "environment",
-      "kind": "estimate",
-      "note": "no temperature given; assumed 20.0 °C for still_air"
+      "note": "assumed 1 g/ml for pepper_grind"
     },
     {
       "field": "end",

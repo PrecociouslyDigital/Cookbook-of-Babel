@@ -1,0 +1,49 @@
+{
+  "id": "chipotle_sliders.step_4.prep_8",
+  "source": "wikibooks_chipotle_sliders",
+  "technique": "toast",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "mini_potato_buns",
+        "amount": {
+          "qty": 16,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "mini_potato_buns_toast",
+      "amount": {
+        "qty": 16,
+        "unit": "piece"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "16 mini potato buns, halved",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

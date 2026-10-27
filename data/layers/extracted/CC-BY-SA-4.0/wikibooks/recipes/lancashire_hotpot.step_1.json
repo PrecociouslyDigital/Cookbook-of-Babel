@@ -5,11 +5,11 @@
     "source": "wikibooks_lancashire_hotpot",
     "step": 1
   },
-  "technique": "cut",
+  "technique": "heat",
   "inputs": {
     "of": [
       {
-        "ingredient": "lamb_and_mutton",
+        "ingredient": "lamb_and_mutton_cut",
         "amount": {
           "qty": 2,
           "unit": "lb"
@@ -19,31 +19,26 @@
   },
   "outputs": [
     {
-      "ingredient": "lamb_and_mutton_cut",
+      "ingredient": "lamb_and_mutton_cut_heat",
       "amount": {
         "qty": 907.2,
         "unit": "g"
       }
     }
   ],
+  "environment": {
+    "temperatureC": 170,
+    "medium": "oven_air"
+  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
-    },
-    "sensitivity": {
-      "refTempC": 20,
-      "q10": 1
     }
   },
   "stateNote": "Dice the lamb and set aside. Preheat oven to 325°F / 170°C / Gas mark 3.",
   "issues": [
-    {
-      "field": "environment",
-      "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.52"
-    },
     {
       "field": "end",
       "kind": "estimate",

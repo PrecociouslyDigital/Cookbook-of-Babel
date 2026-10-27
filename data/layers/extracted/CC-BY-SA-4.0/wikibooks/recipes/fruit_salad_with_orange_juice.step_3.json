@@ -5,7 +5,7 @@
     "source": "wikibooks_fruit_salad_with_orange_juice",
     "step": 3
   },
-  "technique": "cut",
+  "technique": "assemble",
   "inputs": {
     "of": [
       {
@@ -16,7 +16,7 @@
         }
       },
       {
-        "ingredient": "maraschino_cherry",
+        "ingredient": "maraschino_cherry_cut",
         "amount": {
           "qty": 1,
           "unit": "pinch"
@@ -47,6 +47,11 @@
   "stateNote": "Cut the cherries into halves or quarters, depending on the size. Pour a bit of the cherry juice in bowl.",
   "issues": [
     {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.35"
+    },
+    {
       "field": "inputs",
       "kind": "estimate",
       "note": "'Maraschino cherries': no quantity given; assumed a pinch"
@@ -54,7 +59,7 @@
     {
       "field": "outputs",
       "kind": "estimate",
-      "note": "assumed 1 g/ml for maraschino_cherry"
+      "note": "assumed 1 g/ml for maraschino_cherry_cut"
     },
     {
       "field": "end",

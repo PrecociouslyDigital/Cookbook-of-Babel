@@ -28,7 +28,7 @@
   ],
   "environment": {
     "temperatureC": 215,
-    "medium": "frying_oil"
+    "medium": "pan_contact"
   },
   "end": {
     "by": "time",
@@ -39,6 +39,11 @@
   },
   "stateNote": "Add chicken mixture to wok and stir fry for about 4 minutes (until chicken is cooked through).",
   "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.51"
+    },
     {
       "field": "environment",
       "kind": "estimate",

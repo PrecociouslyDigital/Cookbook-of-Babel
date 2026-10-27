@@ -1,0 +1,75 @@
+{
+  "id": "liberian_fried_fish.step_5",
+  "source": "wikibooks_liberian_fried_fish",
+  "sourceRef": {
+    "source": "wikibooks_liberian_fried_fish",
+    "step": 5
+  },
+  "technique": "heat",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "liberian_fried_fish_step_4",
+        "amount": {
+          "qty": 1169.1,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "vegetable_oil_heat",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "liberian_fried_fish_step_5",
+      "amount": {
+        "qty": 1169.4,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 175,
+    "medium": "frying_oil"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Heat about 1 inch of vegetable oil in a deep frying pan or pot over medium-high heat. To test if the oil is hot enough, drop a small piece of bread into the oil; it should sizzle and turn golden brown.",
+  "issues": [
+    {
+      "field": "sourceRef",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.53"
+    },
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Vegetable oil, for frying': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for vegetable_oil_heat"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 175.0 °C for frying_oil"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

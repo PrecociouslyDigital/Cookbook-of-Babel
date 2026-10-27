@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "kabocha",
+        "ingredient": "kabocha_cut",
         "amount": {
           "qty": 400,
           "unit": "g"
@@ -19,7 +19,7 @@
   },
   "outputs": [
     {
-      "ingredient": "kabocha_cut",
+      "ingredient": "kabocha_cut_cut",
       "amount": {
         "qty": 400,
         "unit": "g"
@@ -39,6 +39,11 @@
   },
   "stateNote": "To prepare the pumpkin, remove seeds and cut off the outside skin of the pumpkin. Cut the pumpkin into 1-inch cubes and wash well with water.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.45"
+    },
     {
       "field": "end",
       "kind": "estimate",

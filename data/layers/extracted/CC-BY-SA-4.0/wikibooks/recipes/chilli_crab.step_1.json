@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "crab",
+        "ingredient": "crab_freeze",
         "amount": {
           "qty": 1,
           "unit": "kg"
@@ -19,30 +19,24 @@
   },
   "outputs": [
     {
-      "ingredient": "crab_freeze",
+      "ingredient": "crab_freeze_freeze",
       "amount": {
         "qty": 1000,
         "unit": "g"
       }
     }
   ],
-  "environment": {
-    "temperatureC": -20,
-    "medium": "still_air"
-  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 20,
       "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": -18,
+      "q10": 1,
+      "maxTempC": 0
     }
   },
-  "stateNote": "Place the crab in the freezer for about 20 minutes to sedate it. Swiftly spike the crab to kill it before proceeding.",
-  "issues": [
-    {
-      "field": "environment",
-      "kind": "estimate",
-      "note": "no temperature given; used the middle of freeze's typical range"
-    }
-  ]
+  "stateNote": "Place the crab in the freezer for about 20 minutes to sedate it. Swiftly spike the crab to kill it before proceeding."
 }

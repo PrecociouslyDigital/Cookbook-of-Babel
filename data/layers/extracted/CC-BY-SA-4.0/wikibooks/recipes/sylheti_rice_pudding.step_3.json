@@ -11,7 +11,7 @@
       {
         "ingredient": "sylheti_rice_pudding_step_2",
         "amount": {
-          "qty": 480.3,
+          "qty": 473.2,
           "unit": "g"
         }
       }
@@ -21,14 +21,14 @@
     {
       "ingredient": "sylheti_rice_pudding_step_3",
       "amount": {
-        "qty": 480.3,
+        "qty": 473.2,
         "unit": "g"
       }
     }
   ],
   "environment": {
     "temperatureC": 90,
-    "medium": "simmering_water"
+    "medium": "pan_contact"
   },
   "end": {
     "by": "time",
@@ -39,6 +39,11 @@
   },
   "stateNote": "Add the soaked rice and simmer over low heat, stirring constantly, until the rice is cooked and the mixture thickens. This may take about 1 hour.",
   "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.59"
+    },
     {
       "field": "environment",
       "kind": "estimate",

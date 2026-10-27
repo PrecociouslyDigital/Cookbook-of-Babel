@@ -1,0 +1,49 @@
+{
+  "id": "salata_de_boeuf_romanian_beef_salad.step_3.prep_3",
+  "source": "wikibooks_salata_de_boeuf_romanian_beef_salad",
+  "technique": "boil",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "beef",
+        "amount": {
+          "qty": 350,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "beef_boil",
+      "amount": {
+        "qty": 350,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "350 g boiled beef, cut in 1 cm cubes",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

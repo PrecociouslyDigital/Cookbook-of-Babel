@@ -1,0 +1,54 @@
+{
+  "id": "four_in_one_pizza.step_8.prep_11",
+  "source": "wikibooks_four_in_one_pizza",
+  "technique": "julienne",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "basil",
+        "amount": {
+          "qty": 1,
+          "unit": "tbsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "basil_julienne",
+      "amount": {
+        "qty": 1,
+        "unit": "tbsp"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "1 tablespoon thin strips of fresh basil",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.37"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

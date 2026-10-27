@@ -1,0 +1,49 @@
+{
+  "id": "hummus_greek.step_6.prep_6",
+  "source": "wikibooks_hummus_greek",
+  "technique": "chop",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "garlic",
+        "amount": {
+          "qty": 12,
+          "unit": "clove"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "garlic_chop",
+      "amount": {
+        "qty": 12,
+        "unit": "clove"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "12 cloves of garlic (peeled and roughly chopped)",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

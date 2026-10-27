@@ -1,0 +1,49 @@
+{
+  "id": "marzipan_muffins.step_2.prep_5",
+  "source": "wikibooks_marzipan_muffins",
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "wheat_flour",
+        "amount": {
+          "qty": 100,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "wheat_flour_mix",
+      "amount": {
+        "qty": 100,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "100 g flour",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

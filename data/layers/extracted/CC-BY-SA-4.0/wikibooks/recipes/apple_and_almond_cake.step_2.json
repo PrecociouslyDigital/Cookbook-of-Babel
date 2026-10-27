@@ -5,11 +5,11 @@
     "source": "wikibooks_apple_and_almond_cake",
     "step": 2
   },
-  "technique": "heat",
+  "technique": "assemble",
   "inputs": {
     "of": [
       {
-        "ingredient": "butter",
+        "ingredient": "butter_heat",
         "amount": {
           "qty": 5,
           "unit": "oz"
@@ -19,7 +19,7 @@
   },
   "outputs": [
     {
-      "ingredient": "butter_heat",
+      "ingredient": "apple_and_almond_cake_step_2",
       "amount": {
         "qty": 141.8,
         "unit": "g"
@@ -39,6 +39,11 @@
   },
   "stateNote": "Gently melt the butter in a pan, then pour into a large bowl.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.56"
+    },
     {
       "field": "environment",
       "kind": "estimate",

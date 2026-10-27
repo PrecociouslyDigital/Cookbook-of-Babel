@@ -5,7 +5,7 @@
     "source": "wikibooks_lane_cake",
     "step": 7
   },
-  "technique": "whisk",
+  "technique": "mix",
   "inputs": {
     "of": [
       {
@@ -16,7 +16,7 @@
         }
       },
       {
-        "ingredient": "egg",
+        "ingredient": "egg_whisk",
         "amount": {
           "qty": 8,
           "unit": "piece"
@@ -60,6 +60,16 @@
   },
   "stateNote": "Whip the yolks and sugar together in a saucepan. Stir in the butter.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.53"
+    },
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.59"
+    },
     {
       "field": "environment",
       "kind": "estimate",

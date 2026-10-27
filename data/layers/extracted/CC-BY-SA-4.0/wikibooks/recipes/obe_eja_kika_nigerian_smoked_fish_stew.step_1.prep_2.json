@@ -1,0 +1,49 @@
+{
+  "id": "obe_eja_kika_nigerian_smoked_fish_stew.step_1.prep_2",
+  "source": "wikibooks_obe_eja_kika_nigerian_smoked_fish_stew",
+  "technique": "grind",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "habanero_pepper",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "habanero_pepper_grind",
+      "amount": {
+        "qty": 1,
+        "unit": "pinch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Fresh habanero pepper (ata rodo)",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

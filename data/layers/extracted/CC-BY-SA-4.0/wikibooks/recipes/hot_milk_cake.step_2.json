@@ -5,27 +5,20 @@
     "source": "wikibooks_hot_milk_cake",
     "step": 2
   },
-  "technique": "heat",
+  "technique": "mix",
   "inputs": {
     "of": [
       {
-        "ingredient": "egg_heat",
+        "ingredient": "hot_milk_cake_step_1",
         "amount": {
           "qty": 1,
           "unit": "batch"
         }
       },
       {
-        "ingredient": "milk",
+        "ingredient": "milk_heat",
         "amount": {
           "qty": 1,
-          "unit": "cup"
-        }
-      },
-      {
-        "ingredient": "butter",
-        "amount": {
-          "qty": 0.5,
           "unit": "cup"
         }
       },
@@ -60,6 +53,11 @@
   },
   "stateNote": "Heat together milk and butter until butter melts. Cool to just warm, then add vanilla.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.57"
+    },
     {
       "field": "environment",
       "kind": "estimate",

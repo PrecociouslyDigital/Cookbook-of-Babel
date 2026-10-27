@@ -1,0 +1,54 @@
+{
+  "id": "matar_paneer.step_2.prep_2",
+  "source": "wikibooks_matar_paneer",
+  "technique": "fry",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "paneer",
+        "amount": {
+          "qty": 8,
+          "unit": "oz"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "paneer_fry",
+      "amount": {
+        "qty": 8,
+        "unit": "oz"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "8 oz (200 g) paneer, cut in 1” cubes",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.51"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

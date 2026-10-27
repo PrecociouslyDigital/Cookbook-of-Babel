@@ -1,0 +1,49 @@
+{
+  "id": "monkey_bread_i.step_2.prep_1",
+  "source": "wikibooks_monkey_bread_i",
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "biscuit_dough",
+        "amount": {
+          "qty": 4,
+          "unit": "can"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "biscuit_dough_cut",
+      "amount": {
+        "qty": 4,
+        "unit": "can"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "4 cans of biscuit dough, each biscuit cut into quarters",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "rosol_polish_meat_soup.step_2.prep_7",
+  "source": "wikibooks_rosol_polish_meat_soup",
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "parsley_roots",
+        "amount": {
+          "qty": 1.5,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "parsley_roots_cut",
+      "amount": {
+        "qty": 1.5,
+        "unit": "piece"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "1–2 parsley roots",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

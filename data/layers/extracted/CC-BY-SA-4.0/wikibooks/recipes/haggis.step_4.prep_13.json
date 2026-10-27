@@ -1,0 +1,49 @@
+{
+  "id": "haggis.step_4.prep_13",
+  "source": "wikibooks_haggis",
+  "technique": "rinse",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "beef_caps",
+        "amount": {
+          "qty": 3,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "beef_caps_rinse",
+      "amount": {
+        "qty": 3,
+        "unit": "piece"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "3 beef CAPS (Talk to a sausage shop about these)",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

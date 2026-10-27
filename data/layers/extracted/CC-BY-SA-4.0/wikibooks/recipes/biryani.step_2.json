@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "saffron_steep",
+        "ingredient": "saffron_toast_steep",
         "amount": {
           "qty": 3.7,
           "unit": "g"
@@ -23,7 +23,7 @@
         }
       },
       {
-        "ingredient": "onion",
+        "ingredient": "onion_fry",
         "amount": {
           "qty": 2,
           "unit": "piece"
@@ -53,6 +53,11 @@
   },
   "stateNote": "Fry onions in oil to a pale golden colour. Drain and cool. Leave aside 1 tablespoon of fried onions, and crush the rest coarsely.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.44"
+    },
     {
       "field": "inputs",
       "kind": "estimate",

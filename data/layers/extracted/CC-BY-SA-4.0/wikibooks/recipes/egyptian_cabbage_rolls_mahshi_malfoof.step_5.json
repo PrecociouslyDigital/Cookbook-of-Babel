@@ -47,28 +47,23 @@
       }
     }
   ],
-  "environment": {
-    "temperatureC": 90,
-    "medium": "simmering_water"
-  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
     }
   },
   "stateNote": "In a large pot, combine the diced tomatoes, tomato paste, and vegetable broth or water. Stir well to combine. Place the stuffed cabbage rolls in the pot, arranging them in a single layer.",
   "issues": [
     {
-      "field": "technique",
-      "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.58"
-    },
-    {
       "field": "environment",
-      "kind": "estimate",
-      "note": "no temperature given; assumed 90.0 °C for simmering_water"
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.39"
     },
     {
       "field": "end",

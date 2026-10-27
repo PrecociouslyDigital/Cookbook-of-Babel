@@ -1,0 +1,49 @@
+{
+  "id": "semmelknoedel_bavarian_bread_dumplings.step_4.prep_6",
+  "source": "wikibooks_semmelknoedel_bavarian_bread_dumplings",
+  "technique": "chop",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "parsley",
+        "amount": {
+          "qty": 1,
+          "unit": "bunch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "parsley_chop",
+      "amount": {
+        "qty": 1,
+        "unit": "bunch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "1 bunch of parsley, washed and chopped",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

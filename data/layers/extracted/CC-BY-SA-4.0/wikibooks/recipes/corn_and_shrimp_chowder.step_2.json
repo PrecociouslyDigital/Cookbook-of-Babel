@@ -9,28 +9,28 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "olive_oil",
+        "ingredient": "olive_oil_heat",
         "amount": {
           "qty": 1,
           "unit": "tsp"
         }
       },
       {
-        "ingredient": "onion",
+        "ingredient": "onion_chop",
         "amount": {
           "qty": 1,
           "unit": "piece"
         }
       },
       {
-        "ingredient": "carrot",
+        "ingredient": "carrot_chop",
         "amount": {
           "qty": 1,
           "unit": "piece"
         }
       },
       {
-        "ingredient": "garlic",
+        "ingredient": "garlic_chop",
         "amount": {
           "qty": 1,
           "unit": "clove"
@@ -60,6 +60,11 @@
   },
   "stateNote": "Add onion, carrot and garlic.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.47"
+    },
     {
       "field": "environment",
       "kind": "estimate",

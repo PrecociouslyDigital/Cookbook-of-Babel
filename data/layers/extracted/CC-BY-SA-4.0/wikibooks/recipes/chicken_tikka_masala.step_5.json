@@ -16,14 +16,14 @@
         }
       },
       {
-        "ingredient": "tomato",
+        "ingredient": "tomato_chop",
         "amount": {
           "qty": 28,
           "unit": "oz"
         }
       },
       {
-        "ingredient": "chiles",
+        "ingredient": "chiles_chop",
         "amount": {
           "qty": 2.5,
           "unit": "piece"
@@ -67,6 +67,11 @@
   },
   "stateNote": "Add the tomatoes, vinegar, tomato paste, and chilies and simmer for five minutes. Add more extra water if needed.",
   "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.55"
+    },
     {
       "field": "inputs",
       "kind": "estimate",

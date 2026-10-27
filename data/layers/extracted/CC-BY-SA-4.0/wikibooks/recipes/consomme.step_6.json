@@ -5,7 +5,7 @@
     "source": "wikibooks_consomme",
     "step": 6
   },
-  "technique": "coagulate",
+  "technique": "simmer",
   "inputs": {
     "of": [
       {
@@ -28,7 +28,7 @@
   ],
   "environment": {
     "temperatureC": 90,
-    "medium": "simmering_water"
+    "medium": "pan_contact"
   },
   "end": {
     "by": "time",
@@ -40,14 +40,14 @@
   "stateNote": "As soon as the stock reaches a simmer, stop stirring.",
   "issues": [
     {
-      "field": "technique",
+      "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.47"
+      "note": "the decision model gave this answer a probability of 0.46"
     },
     {
       "field": "environment",
       "kind": "estimate",
-      "note": "no temperature given; assumed 90.0 °C for simmering_water"
+      "note": "no temperature given; used the middle of simmer's typical range"
     },
     {
       "field": "end",

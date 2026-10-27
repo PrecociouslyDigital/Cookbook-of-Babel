@@ -1,0 +1,49 @@
+{
+  "id": "hazelnut_torte.step_8.prep_5",
+  "source": "wikibooks_hazelnut_torte",
+  "technique": "dissolve",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "coffee",
+        "amount": {
+          "qty": 0.5,
+          "unit": "tsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "coffee_dissolve",
+      "amount": {
+        "qty": 0.5,
+        "unit": "tsp"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "½ tsp instant coffee powder",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

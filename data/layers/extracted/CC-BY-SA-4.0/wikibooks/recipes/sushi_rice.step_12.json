@@ -26,15 +26,15 @@
       }
     }
   ],
-  "environment": {
-    "temperatureC": 180,
-    "medium": "convection_air"
-  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
     }
   },
   "stateNote": "Cool the rice to body temperature by fanning it, while continuing to cut it with the spatula. A traditional hand fan or modern battery-powered fan may be used.",
@@ -42,12 +42,7 @@
     {
       "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.47"
-    },
-    {
-      "field": "environment",
-      "kind": "estimate",
-      "note": "no temperature given; assumed 180.0 °C for convection_air"
+      "note": "the decision model gave this answer a probability of 0.51"
     },
     {
       "field": "end",

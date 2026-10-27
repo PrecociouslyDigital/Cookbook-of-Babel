@@ -1,0 +1,49 @@
+{
+  "id": "spicy_crab_cakes.step_1.prep_3",
+  "source": "wikibooks_spicy_crab_cakes",
+  "technique": "chop",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "dill",
+        "amount": {
+          "qty": 2,
+          "unit": "tbsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "dill_chop",
+      "amount": {
+        "qty": 2,
+        "unit": "tbsp"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "2 tbsp dill, finely chopped",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

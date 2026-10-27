@@ -5,11 +5,11 @@
     "source": "wikibooks_three_sisters_stew",
     "step": 2
   },
-  "technique": "cut",
+  "technique": "bake",
   "inputs": {
     "of": [
       {
-        "ingredient": "pumpkin",
+        "ingredient": "pumpkin_cut",
         "amount": {
           "qty": 2,
           "unit": "lb"
@@ -19,7 +19,7 @@
   },
   "outputs": [
     {
-      "ingredient": "pumpkin_cut",
+      "ingredient": "pumpkin_cut_bake",
       "amount": {
         "qty": 907.2,
         "unit": "g"
@@ -39,6 +39,11 @@
   },
   "stateNote": "Cut the pumpkin or squash in half lengthwise and remove the seeds and fibers. Cover with aluminum foil and place the halves, cut side up, in a foil-lined shallow baking pan.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.37"
+    },
     {
       "field": "end",
       "kind": "estimate",

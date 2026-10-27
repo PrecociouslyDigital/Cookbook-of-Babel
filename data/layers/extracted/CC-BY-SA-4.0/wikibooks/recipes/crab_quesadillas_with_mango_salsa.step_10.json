@@ -26,23 +26,16 @@
       }
     }
   ],
-  "environment": {
-    "temperatureC": 230,
-    "medium": "oven_air"
-  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
     }
   },
-  "stateNote": "After removing from the oven, allow to sit for a minute. Then, cut each tortilla into quarters.",
-  "issues": [
-    {
-      "field": "environment",
-      "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.51"
-    }
-  ]
+  "stateNote": "After removing from the oven, allow to sit for a minute. Then, cut each tortilla into quarters."
 }

@@ -23,7 +23,7 @@
         }
       },
       {
-        "ingredient": "onion",
+        "ingredient": "onion_chop",
         "amount": {
           "qty": 1,
           "unit": "piece"
@@ -56,7 +56,7 @@
   ],
   "environment": {
     "temperatureC": 90,
-    "medium": "simmering_water"
+    "medium": "pan_contact"
   },
   "end": {
     "by": "time",
@@ -67,11 +67,6 @@
   },
   "stateNote": "Stir in the milk, onion, bay leaf, and paprika. Simmer for ten minutes and remove the bay leaf.",
   "issues": [
-    {
-      "field": "environment",
-      "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.56"
-    },
     {
       "field": "environment",
       "kind": "estimate",

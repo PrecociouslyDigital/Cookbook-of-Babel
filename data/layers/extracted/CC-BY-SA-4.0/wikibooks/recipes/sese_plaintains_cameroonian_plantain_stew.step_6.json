@@ -26,15 +26,15 @@
       }
     }
   ],
-  "environment": {
-    "temperatureC": 90,
-    "medium": "simmering_water"
-  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
     }
   },
   "stateNote": "Remove from the heat and serve warm.",
@@ -42,17 +42,7 @@
     {
       "field": "sourceRef",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.52"
-    },
-    {
-      "field": "environment",
-      "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.34"
-    },
-    {
-      "field": "environment",
-      "kind": "estimate",
-      "note": "no temperature given; assumed 90.0 °C for simmering_water"
+      "note": "the decision model gave this answer a probability of 0.59"
     },
     {
       "field": "end",
@@ -62,7 +52,7 @@
     {
       "field": "inputs",
       "kind": "missing",
-      "note": "no step uses 'Pepper to taste' (p=0.88)"
+      "note": "no step uses 'Pepper to taste' (p=0.9)"
     }
   ]
 }

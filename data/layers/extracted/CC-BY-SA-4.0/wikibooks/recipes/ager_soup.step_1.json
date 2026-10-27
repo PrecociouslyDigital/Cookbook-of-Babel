@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "okoho",
+        "ingredient": "okoho_grind",
         "amount": {
           "qty": 1,
           "unit": "cup"
@@ -19,7 +19,7 @@
   },
   "outputs": [
     {
-      "ingredient": "okoho_grind",
+      "ingredient": "okoho_grind_grind",
       "amount": {
         "qty": 236.6,
         "unit": "g"
@@ -40,9 +40,14 @@
   "stateNote": "Scrape off the white flaky skin of the ager stalk. Pound gently for a few minutes to remove the ager pulp.",
   "issues": [
     {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.43"
+    },
+    {
       "field": "outputs",
       "kind": "estimate",
-      "note": "assumed 1 g/ml for okoho"
+      "note": "assumed 1 g/ml for okoho_grind"
     },
     {
       "field": "end",

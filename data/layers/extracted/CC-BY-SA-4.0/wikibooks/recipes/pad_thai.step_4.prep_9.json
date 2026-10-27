@@ -1,0 +1,54 @@
+{
+  "id": "pad_thai.step_4.prep_9",
+  "source": "wikibooks_pad_thai",
+  "technique": "fry",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "shrimp",
+        "amount": {
+          "qty": 0.5,
+          "unit": "lb"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "shrimp_fry",
+      "amount": {
+        "qty": 0.5,
+        "unit": "lb"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "½ pound (225 g) of shrimp, tofu, chicken, squid, or beef (or a combination thereof)",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.37"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "liberian_potato_greens.step_1.prep_1",
+  "source": "wikibooks_liberian_potato_greens",
+  "technique": "rinse",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "sweet_potato_greens",
+        "amount": {
+          "qty": 3,
+          "unit": "bunch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "sweet_potato_greens_rinse",
+      "amount": {
+        "qty": 3,
+        "unit": "bunch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "3 large bunches of sweet potato greens (see notes)",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

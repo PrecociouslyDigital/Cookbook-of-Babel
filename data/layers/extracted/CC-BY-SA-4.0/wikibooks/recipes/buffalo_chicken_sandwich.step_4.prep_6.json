@@ -1,0 +1,49 @@
+{
+  "id": "buffalo_chicken_sandwich.step_4.prep_6",
+  "source": "wikibooks_buffalo_chicken_sandwich",
+  "technique": "toast",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "hamburger_bun",
+        "amount": {
+          "qty": 1,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "hamburger_bun_toast",
+      "amount": {
+        "qty": 1,
+        "unit": "piece"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "1 hamburger bun",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

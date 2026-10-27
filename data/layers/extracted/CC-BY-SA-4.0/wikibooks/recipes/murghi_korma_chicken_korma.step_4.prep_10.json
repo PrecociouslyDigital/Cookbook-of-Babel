@@ -1,0 +1,49 @@
+{
+  "id": "murghi_korma_chicken_korma.step_4.prep_10",
+  "source": "wikibooks_murghi_korma_chicken_korma",
+  "technique": "toast",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "clove",
+        "amount": {
+          "qty": 4,
+          "unit": "clove"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "clove_toast",
+      "amount": {
+        "qty": 4,
+        "unit": "clove"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "3–5 whole cloves",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

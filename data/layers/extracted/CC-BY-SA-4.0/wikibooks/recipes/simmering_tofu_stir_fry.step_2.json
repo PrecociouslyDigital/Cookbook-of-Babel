@@ -5,25 +5,25 @@
     "source": "wikibooks_simmering_tofu_stir_fry",
     "step": 2
   },
-  "technique": "cut",
+  "technique": "assemble",
   "inputs": {
     "of": [
       {
-        "ingredient": "tofu_cut",
+        "ingredient": "tofu_cut_cut",
         "amount": {
           "qty": 1,
           "unit": "batch"
         }
       },
       {
-        "ingredient": "onion",
+        "ingredient": "onion_cut",
         "amount": {
           "qty": 1,
           "unit": "pinch"
         }
       },
       {
-        "ingredient": "apple",
+        "ingredient": "apple_cut",
         "amount": {
           "qty": 0.5,
           "unit": "piece"
@@ -53,6 +53,11 @@
   },
   "stateNote": "Slice all vegetables and apple.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.58"
+    },
     {
       "field": "inputs",
       "kind": "estimate",

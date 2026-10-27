@@ -5,39 +5,39 @@
     "source": "wikibooks_goulash_soup",
     "step": 1
   },
-  "technique": "cut",
+  "technique": "heat",
   "inputs": {
     "of": [
       {
-        "ingredient": "beef",
+        "ingredient": "beef_cut",
         "amount": {
           "qty": 500,
           "unit": "g"
         }
       },
       {
-        "ingredient": "onion",
+        "ingredient": "onion_chop",
         "amount": {
           "qty": 2,
           "unit": "piece"
         }
       },
       {
-        "ingredient": "potato",
+        "ingredient": "potato_cut",
         "amount": {
           "qty": 2,
           "unit": "piece"
         }
       },
       {
-        "ingredient": "caraway",
+        "ingredient": "caraway_cut",
         "amount": {
           "qty": 1,
           "unit": "tsp"
         }
       },
       {
-        "ingredient": "beef",
+        "ingredient": "beef_heat",
         "amount": {
           "qty": 1,
           "unit": "l"
@@ -54,15 +54,15 @@
       }
     }
   ],
+  "environment": {
+    "temperatureC": 20,
+    "medium": "still_air"
+  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
-    },
-    "sensitivity": {
-      "refTempC": 20,
-      "q10": 1
     }
   },
   "stateNote": "Cut the beef and potatoes into 1.5 cm cubes. Cut the caraway seeds into rough chunks with a kitchen knife. Chop onions into thin slices. Warm the beef stock.",
@@ -70,7 +70,12 @@
     {
       "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.47"
+      "note": "the decision model gave this answer a probability of 0.24"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 20.0 °C for still_air"
     },
     {
       "field": "end",

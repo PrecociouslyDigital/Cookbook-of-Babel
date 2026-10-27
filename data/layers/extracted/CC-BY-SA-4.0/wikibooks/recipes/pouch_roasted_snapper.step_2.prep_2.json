@@ -1,0 +1,54 @@
+{
+  "id": "pouch_roasted_snapper.step_2.prep_2",
+  "source": "wikibooks_pouch_roasted_snapper",
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "red_snapper",
+        "amount": {
+          "qty": 2,
+          "unit": "lb"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "red_snapper_season",
+      "amount": {
+        "qty": 2,
+        "unit": "lb"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "1 whole (2 lb/1 kg) red snapper, cleaned, fins removed, head and tail intact",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.58"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

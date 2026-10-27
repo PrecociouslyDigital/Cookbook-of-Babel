@@ -16,14 +16,14 @@
         }
       },
       {
-        "ingredient": "raisin",
+        "ingredient": "raisin_chop",
         "amount": {
           "qty": 1,
           "unit": "cup"
         }
       },
       {
-        "ingredient": "walnut",
+        "ingredient": "walnut_chop",
         "amount": {
           "qty": 0.25,
           "unit": "lb"
@@ -54,8 +54,9 @@
       "unit": "min"
     },
     "sensitivity": {
-      "refTempC": 20,
-      "q10": 1
+      "refTempC": 4,
+      "q10": 1,
+      "maxTempC": 8
     }
   },
   "stateNote": "Take one dough quarter out of the fridge and spread ¼ cup of the jam over the dough with a spatula. Over the dough, scatter ¼ cup of raisins and then walnuts, finally 2 tablespoons of the whisked cinnamon sugar.",
@@ -63,7 +64,7 @@
     {
       "field": "outputs",
       "kind": "estimate",
-      "note": "assumed 1 g/ml for raisin, apricot"
+      "note": "assumed 1 g/ml for raisin_chop, apricot"
     },
     {
       "field": "end",

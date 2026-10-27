@@ -16,7 +16,7 @@
         }
       },
       {
-        "ingredient": "margarine",
+        "ingredient": "margarine_heat",
         "amount": {
           "qty": 0.5,
           "unit": "cup"
@@ -47,9 +47,14 @@
   "stateNote": "Heat chocolate chips and margarine in a two-quart saucepan over medium heat until chocolate chips are melted; cool 5 minutes.",
   "issues": [
     {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.57"
+    },
+    {
       "field": "outputs",
       "kind": "estimate",
-      "note": "assumed 1 g/ml for chocolate, margarine"
+      "note": "assumed 1 g/ml for chocolate, margarine_heat"
     },
     {
       "field": "environment",

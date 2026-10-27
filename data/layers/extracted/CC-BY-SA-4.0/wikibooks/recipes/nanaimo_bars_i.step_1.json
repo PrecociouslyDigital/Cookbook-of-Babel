@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "butter",
+        "ingredient": "butter_heat",
         "amount": {
           "qty": 0.5,
           "unit": "cup"
@@ -54,14 +54,19 @@
   "stateNote": "Melt first 3 ingredients in top of double boiler.",
   "issues": [
     {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.58"
+    },
+    {
       "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.44"
+      "note": "the decision model gave this answer a probability of 0.55"
     },
     {
       "field": "outputs",
       "kind": "estimate",
-      "note": "assumed 1 g/ml for butter, chocolate"
+      "note": "assumed 1 g/ml for butter_heat, chocolate"
     },
     {
       "field": "environment",

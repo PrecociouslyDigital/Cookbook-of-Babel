@@ -1,0 +1,54 @@
+{
+  "id": "spaghetti_with_bolognese_meat_sauce.step_2.prep_1",
+  "source": "wikibooks_spaghetti_with_bolognese_meat_sauce",
+  "technique": "pan_fry",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "ham",
+        "amount": {
+          "qty": 0.25,
+          "unit": "lb"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "ham_pan_fry",
+      "amount": {
+        "qty": 0.25,
+        "unit": "lb"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "¼ lb (125 g) ham or bacon, cut into cubes",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.37"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

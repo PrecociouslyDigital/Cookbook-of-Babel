@@ -1,0 +1,54 @@
+{
+  "id": "marinated_green_olives.step_2.prep_4",
+  "source": "wikibooks_marinated_green_olives",
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "lemon",
+        "amount": {
+          "qty": 0.5,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "lemon_cut",
+      "amount": {
+        "qty": 0.5,
+        "unit": "piece"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "½ medium lemon, sliced",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.56"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

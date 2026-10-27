@@ -23,6 +23,13 @@
         }
       },
       {
+        "ingredient": "white_sugar",
+        "amount": {
+          "qty": 0.5,
+          "unit": "cup"
+        }
+      },
+      {
         "ingredient": "lemon",
         "amount": {
           "qty": 1,
@@ -60,6 +67,11 @@
   },
   "stateNote": "Combine orange juice, lemon juice, sugar, and vanilla extract in medium saucepan. Bring to boil and add fruit.",
   "issues": [
+    {
+      "field": "inputs",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.59"
+    },
     {
       "field": "environment",
       "kind": "estimate",

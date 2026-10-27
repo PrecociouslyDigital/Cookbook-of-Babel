@@ -1,0 +1,54 @@
+{
+  "id": "risotto_alla_milanese.step_5.prep_4",
+  "source": "wikibooks_risotto_alla_milanese",
+  "technique": "chop",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "onion",
+        "amount": {
+          "qty": 1,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "onion_chop",
+      "amount": {
+        "qty": 1,
+        "unit": "piece"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "1 large onion, chopped",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.47"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

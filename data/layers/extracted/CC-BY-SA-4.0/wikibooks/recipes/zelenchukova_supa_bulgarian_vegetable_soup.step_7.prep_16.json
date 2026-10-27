@@ -1,0 +1,54 @@
+{
+  "id": "zelenchukova_supa_bulgarian_vegetable_soup.step_7.prep_16",
+  "source": "wikibooks_zelenchukova_supa_bulgarian_vegetable_soup",
+  "technique": "grind",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "kashkaval",
+        "amount": {
+          "qty": 100,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "kashkaval_grind",
+      "amount": {
+        "qty": 100,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "100 g kashkaval (yellow cheese)",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.47"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

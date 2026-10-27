@@ -1,0 +1,49 @@
+{
+  "id": "cinnamon_chicken.step_5.prep_4",
+  "source": "wikibooks_cinnamon_chicken",
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "tomato",
+        "amount": {
+          "qty": 28,
+          "unit": "oz"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "tomato_cut",
+      "amount": {
+        "qty": 28,
+        "unit": "oz"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "1 can (28 oz/800 ml) whole tomatoes",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

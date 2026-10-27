@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "potato_boil_chill",
+        "ingredient": "potato_boil_boil_chill",
         "amount": {
           "qty": 453.6,
           "unit": "g"
@@ -67,6 +67,11 @@
   },
   "stateNote": "Combine remaining ingredients. Add potatoes and toss to coat.",
   "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.57"
+    },
     {
       "field": "outputs",
       "kind": "estimate",

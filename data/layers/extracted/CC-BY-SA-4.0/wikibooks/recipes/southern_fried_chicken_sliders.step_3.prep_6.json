@@ -1,0 +1,49 @@
+{
+  "id": "southern_fried_chicken_sliders.step_3.prep_6",
+  "source": "wikibooks_southern_fried_chicken_sliders",
+  "technique": "heat",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "peanut_oil",
+        "amount": {
+          "qty": 2.5,
+          "unit": "qt"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "peanut_oil_heat",
+      "amount": {
+        "qty": 2.5,
+        "unit": "qt"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "2 ½ quarts peanut oil",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -5,11 +5,11 @@
     "source": "wikibooks_chili_with_meat",
     "step": 2
   },
-  "technique": "strain",
+  "technique": "separate",
   "inputs": {
     "of": [
       {
-        "ingredient": "beef_pan_fry",
+        "ingredient": "beef_heat_heat",
         "amount": {
           "qty": 907.2,
           "unit": "g"
@@ -26,23 +26,23 @@
       }
     }
   ],
-  "environment": {
-    "temperatureC": 180,
-    "medium": "pan_contact"
-  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
     }
   },
   "stateNote": "Drain off and discard the fat.",
   "issues": [
     {
       "field": "environment",
-      "kind": "estimate",
-      "note": "no temperature given; assumed 180.0 °C for pan_contact"
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.53"
     },
     {
       "field": "end",

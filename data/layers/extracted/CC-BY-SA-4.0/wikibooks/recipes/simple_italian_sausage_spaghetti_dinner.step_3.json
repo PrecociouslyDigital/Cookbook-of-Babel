@@ -5,25 +5,25 @@
     "source": "wikibooks_simple_italian_sausage_spaghetti_dinner",
     "step": 3
   },
-  "technique": "chop",
+  "technique": "heat",
   "inputs": {
     "of": [
       {
-        "ingredient": "pasta_boil",
+        "ingredient": "pasta_boil_boil",
         "amount": {
           "qty": 226.8,
           "unit": "g"
         }
       },
       {
-        "ingredient": "olive_oil",
+        "ingredient": "olive_oil_heat",
         "amount": {
           "qty": 1,
           "unit": "tsp"
         }
       },
       {
-        "ingredient": "onion",
+        "ingredient": "onion_chop",
         "amount": {
           "qty": 1,
           "unit": "piece"
@@ -53,6 +53,11 @@
   },
   "stateNote": "Peel and finely chop onion, adding to pan as you chop.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.46"
+    },
     {
       "field": "environment",
       "kind": "estimate",

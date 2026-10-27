@@ -1,0 +1,49 @@
+{
+  "id": "penne_with_hearty_meat_sauce.step_4.prep_5",
+  "source": "wikibooks_penne_with_hearty_meat_sauce",
+  "technique": "boil",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "pasta",
+        "amount": {
+          "qty": 8,
+          "unit": "oz"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "pasta_boil",
+      "amount": {
+        "qty": 8,
+        "unit": "oz"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "8 ounces dry penne pasta, cooked according to package directions",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

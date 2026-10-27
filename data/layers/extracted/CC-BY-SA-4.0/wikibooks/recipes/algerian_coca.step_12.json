@@ -27,7 +27,7 @@
         "max": 1,
         "of": [
           {
-            "ingredient": "parsley",
+            "ingredient": "parsley_chop",
             "amount": {
               "qty": 1,
               "unit": "pinch"
@@ -46,24 +46,19 @@
       }
     }
   ],
-  "environment": {
-    "temperatureC": 200,
-    "medium": "oven_air"
-  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
     }
   },
   "stateNote": "Remove the coca from the oven and let it cool slightly. Garnish with chopped fresh parsley and olives if desired.",
   "issues": [
-    {
-      "field": "environment",
-      "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.56"
-    },
     {
       "field": "inputs",
       "kind": "estimate",

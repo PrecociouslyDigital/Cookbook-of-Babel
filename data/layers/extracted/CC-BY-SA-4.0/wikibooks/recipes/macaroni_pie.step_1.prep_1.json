@@ -1,0 +1,49 @@
+{
+  "id": "macaroni_pie.step_1.prep_1",
+  "source": "wikibooks_macaroni_pie",
+  "technique": "boil",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "macaroni",
+        "amount": {
+          "qty": 225,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "macaroni_boil",
+      "amount": {
+        "qty": 225,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "1 package (225 grams / 8 oz) dried macaroni pasta",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

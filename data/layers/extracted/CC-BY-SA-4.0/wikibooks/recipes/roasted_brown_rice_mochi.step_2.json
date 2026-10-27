@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "rice_soak",
+        "ingredient": "rice_rinse_soak",
         "amount": {
           "qty": 473.2,
           "unit": "g"
@@ -21,13 +21,6 @@
           "qty": 2.25,
           "unit": "cup"
         }
-      },
-      {
-        "ingredient": "salt",
-        "amount": {
-          "qty": 2,
-          "unit": "pinch"
-        }
       }
     ]
   },
@@ -35,7 +28,7 @@
     {
       "ingredient": "roasted_brown_rice_mochi_step_2",
       "amount": {
-        "qty": 1006.3,
+        "qty": 1005.6,
         "unit": "g"
       }
     }
@@ -54,9 +47,14 @@
   "stateNote": "Cook the rice in a pressure cooker until the liquid is absorbed.",
   "issues": [
     {
-      "field": "inputs",
+      "field": "technique",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.54"
+      "note": "the decision model gave this answer a probability of 0.46"
+    },
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.55"
     },
     {
       "field": "environment",

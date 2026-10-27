@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "onion",
+        "ingredient": "onion_cut",
         "amount": {
           "qty": 1,
           "unit": "piece"
@@ -53,6 +53,11 @@
   },
   "stateNote": "Cut the onion into half moons and brown it in a bit of olive oil. Make it nice and crispy. Once it's done, put it aside in a bowl and squirt a bit of lemon juice on it.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.51"
+    },
     {
       "field": "inputs",
       "kind": "estimate",

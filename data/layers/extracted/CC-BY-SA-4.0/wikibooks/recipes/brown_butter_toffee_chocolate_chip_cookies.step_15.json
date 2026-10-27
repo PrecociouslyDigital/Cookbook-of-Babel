@@ -26,19 +26,29 @@
       }
     }
   ],
-  "environment": {
-    "temperatureC": 163,
-    "medium": "oven_air"
-  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
     }
   },
   "stateNote": "Arrange the cookies on the baking sheets, leaving at least 2 inches (5 cm) of space between each other.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.55"
+    },
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.57"
+    },
     {
       "field": "end",
       "kind": "estimate",

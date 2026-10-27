@@ -1,0 +1,49 @@
+{
+  "id": "pesto_i.step_2.prep_4",
+  "source": "wikibooks_pesto_i",
+  "technique": "toast",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "pine_nut",
+        "amount": {
+          "qty": 0.25,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "pine_nut_toast",
+      "amount": {
+        "qty": 0.25,
+        "unit": "cup"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "¼ cup pine nuts or nut of choice (optional)",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

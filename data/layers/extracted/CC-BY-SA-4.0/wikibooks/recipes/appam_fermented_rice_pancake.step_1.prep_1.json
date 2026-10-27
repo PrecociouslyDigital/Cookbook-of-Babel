@@ -1,0 +1,49 @@
+{
+  "id": "appam_fermented_rice_pancake.step_1.prep_1",
+  "source": "wikibooks_appam_fermented_rice_pancake",
+  "technique": "soak",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "rice",
+        "amount": {
+          "qty": 1.5,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "rice_soak",
+      "amount": {
+        "qty": 1.5,
+        "unit": "cup"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "1½ cups uncooked white rice",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "id": "tamate_ka_kut_hyderabadi_tomato_curry.step_4.prep_8",
+  "source": "wikibooks_tamate_ka_kut_hyderabadi_tomato_curry",
+  "technique": "fry",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "cumin_seeds",
+        "amount": {
+          "qty": 1,
+          "unit": "tsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "cumin_seeds_fry",
+      "amount": {
+        "qty": 1,
+        "unit": "tsp"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "1 tsp cumin seeds (zeera)",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.42"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

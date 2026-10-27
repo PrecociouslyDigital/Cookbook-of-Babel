@@ -5,7 +5,7 @@
     "source": "wikibooks_banga_rice",
     "step": 2
   },
-  "technique": "blend",
+  "technique": "boil",
   "inputs": {
     "of": [
       {
@@ -16,14 +16,14 @@
         }
       },
       {
-        "ingredient": "habanero",
+        "ingredient": "habanero_blend",
         "amount": {
           "qty": 1,
           "unit": "pinch"
         }
       },
       {
-        "ingredient": "onion",
+        "ingredient": "onion_blend",
         "amount": {
           "qty": 1,
           "unit": "piece"
@@ -54,6 +54,11 @@
   "stateNote": "Blend the onion and habanero to a chunky paste. Mix into the pot, cover, and bring to a boil.",
   "issues": [
     {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.54"
+    },
+    {
       "field": "inputs",
       "kind": "estimate",
       "note": "'Fresh habanero pepper': no quantity given; assumed a pinch"
@@ -61,7 +66,7 @@
     {
       "field": "environment",
       "kind": "estimate",
-      "note": "no temperature given; assumed 100.0 °C for boiling_water"
+      "note": "no temperature given; used the middle of boil's typical range"
     },
     {
       "field": "end",

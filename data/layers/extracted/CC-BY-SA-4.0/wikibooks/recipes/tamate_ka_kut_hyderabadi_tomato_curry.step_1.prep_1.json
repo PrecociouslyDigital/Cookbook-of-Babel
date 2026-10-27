@@ -1,0 +1,54 @@
+{
+  "id": "tamate_ka_kut_hyderabadi_tomato_curry.step_1.prep_1",
+  "source": "wikibooks_tamate_ka_kut_hyderabadi_tomato_curry",
+  "technique": "heat",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "tomato",
+        "amount": {
+          "qty": 10,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "tomato_heat",
+      "amount": {
+        "qty": 10,
+        "unit": "piece"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "10 large, ripe tomatoes, washed and quartered",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.41"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

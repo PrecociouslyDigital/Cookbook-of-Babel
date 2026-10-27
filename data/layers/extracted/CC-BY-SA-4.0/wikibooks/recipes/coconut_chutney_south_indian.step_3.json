@@ -5,7 +5,7 @@
     "source": "wikibooks_coconut_chutney_south_indian",
     "step": 3
   },
-  "technique": "fry",
+  "technique": "season",
   "inputs": {
     "of": [
       {
@@ -16,21 +16,21 @@
         }
       },
       {
-        "ingredient": "oil_and_fat",
+        "ingredient": "oil_and_fat_heat",
         "amount": {
           "qty": 0.5,
           "unit": "tsp"
         }
       },
       {
-        "ingredient": "mustard",
+        "ingredient": "mustard_fry",
         "amount": {
           "qty": 0.5,
           "unit": "tsp"
         }
       },
       {
-        "ingredient": "curry_leaf",
+        "ingredient": "curry_leaf_chop",
         "amount": {
           "qty": 3.5,
           "unit": "piece"
@@ -55,7 +55,7 @@
     }
   ],
   "environment": {
-    "temperatureC": 190,
+    "temperatureC": 175,
     "medium": "frying_oil"
   },
   "end": {
@@ -68,14 +68,9 @@
   "stateNote": "For seasoning, heat the oil in a small ladle. Add the mustard seeds to hot oil, and allow them to crackle. When the crackling starts subsiding, add the asafoetida and the curry leaves, and stir for a few seconds.",
   "issues": [
     {
-      "field": "technique",
-      "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.48"
-    },
-    {
       "field": "environment",
       "kind": "estimate",
-      "note": "no temperature given; used the middle of fry's typical range"
+      "note": "no temperature given; assumed 175.0 °C for frying_oil"
     },
     {
       "field": "end",

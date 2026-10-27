@@ -9,14 +9,14 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "vegetable_oil",
+        "ingredient": "vegetable_oil_heat",
         "amount": {
           "qty": 2,
           "unit": "tbsp"
         }
       },
       {
-        "ingredient": "onion",
+        "ingredient": "onion_pan_fry",
         "amount": {
           "qty": 1,
           "unit": "cup"
@@ -28,7 +28,7 @@
     {
       "ingredient": "chicken_and_corn_empanadas_step_1",
       "amount": {
-        "qty": 263.8,
+        "qty": 266.2,
         "unit": "g"
       }
     }
@@ -47,9 +47,14 @@
   "stateNote": "In large skillet, heat oil and lightly brown onions.",
   "issues": [
     {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.52"
+    },
+    {
       "field": "outputs",
       "kind": "estimate",
-      "note": "assumed 1 g/ml for onion"
+      "note": "assumed 1 g/ml for vegetable_oil_heat, onion_pan_fry"
     },
     {
       "field": "environment",

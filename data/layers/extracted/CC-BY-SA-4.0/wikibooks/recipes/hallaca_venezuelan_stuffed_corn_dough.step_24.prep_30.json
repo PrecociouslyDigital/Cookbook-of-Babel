@@ -1,0 +1,54 @@
+{
+  "id": "hallaca_venezuelan_stuffed_corn_dough.step_24.prep_30",
+  "source": "wikibooks_hallaca_venezuelan_stuffed_corn_dough",
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "artichoke",
+        "amount": {
+          "qty": 1,
+          "unit": "can"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "artichoke_cut",
+      "amount": {
+        "qty": 1,
+        "unit": "can"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "1 can of artichoke hearts",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.39"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

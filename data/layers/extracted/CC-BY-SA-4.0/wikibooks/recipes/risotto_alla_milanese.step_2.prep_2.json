@@ -1,0 +1,49 @@
+{
+  "id": "risotto_alla_milanese.step_2.prep_2",
+  "source": "wikibooks_risotto_alla_milanese",
+  "technique": "boil",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "broth_and_stock",
+        "amount": {
+          "qty": 3.75,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "broth_and_stock_boil",
+      "amount": {
+        "qty": 3.75,
+        "unit": "cup"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "3½–4 cups chicken broth",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

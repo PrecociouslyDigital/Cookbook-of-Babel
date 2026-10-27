@@ -1,0 +1,54 @@
+{
+  "id": "spritzgeback_german_spritz_butter_cookies.step_3.prep_8",
+  "source": "wikibooks_spritzgeback_german_spritz_butter_cookies",
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "baking_powder",
+        "amount": {
+          "qty": 0.5,
+          "unit": "tsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "baking_powder_mix",
+      "amount": {
+        "qty": 0.5,
+        "unit": "tsp"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "½ tsp baking powder",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.52"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

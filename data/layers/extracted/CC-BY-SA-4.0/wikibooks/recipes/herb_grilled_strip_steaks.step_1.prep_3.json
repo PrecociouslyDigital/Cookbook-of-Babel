@@ -1,0 +1,49 @@
+{
+  "id": "herb_grilled_strip_steaks.step_1.prep_3",
+  "source": "wikibooks_herb_grilled_strip_steaks",
+  "technique": "chop",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "thyme",
+        "amount": {
+          "qty": 2,
+          "unit": "tsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "thyme_chop",
+      "amount": {
+        "qty": 2,
+        "unit": "tsp"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "2 tsp thyme, minced",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

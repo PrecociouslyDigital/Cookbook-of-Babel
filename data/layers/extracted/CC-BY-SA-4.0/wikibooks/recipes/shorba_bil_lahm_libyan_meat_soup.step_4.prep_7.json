@@ -1,0 +1,54 @@
+{
+  "id": "shorba_bil_lahm_libyan_meat_soup.step_4.prep_7",
+  "source": "wikibooks_shorba_bil_lahm_libyan_meat_soup",
+  "technique": "toast",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "turmeric",
+        "amount": {
+          "qty": 0.5,
+          "unit": "tsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "turmeric_toast",
+      "amount": {
+        "qty": 0.5,
+        "unit": "tsp"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "½ teaspoon ground turmeric",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.5"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

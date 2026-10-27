@@ -1,0 +1,49 @@
+{
+  "id": "cream_cheese_american_buttercream.step_1.prep_1",
+  "source": "wikibooks_cream_cheese_american_buttercream",
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "cream_cheese",
+        "amount": {
+          "qty": 225,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "cream_cheese_mix",
+      "amount": {
+        "qty": 225,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "1 cup (225 g) block-style cream cheese, cold",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -5,7 +5,7 @@
     "source": "wikibooks_beef_curry",
     "step": 2
   },
-  "technique": "pan_fry",
+  "technique": "season",
   "inputs": {
     "of": [
       {
@@ -16,7 +16,7 @@
         }
       },
       {
-        "ingredient": "beef",
+        "ingredient": "beef_pan_fry",
         "amount": {
           "qty": 1,
           "unit": "lb"
@@ -41,7 +41,7 @@
     }
   ],
   "environment": {
-    "temperatureC": 185,
+    "temperatureC": 180,
     "medium": "pan_contact"
   },
   "end": {
@@ -54,6 +54,11 @@
   "stateNote": "Brown the ground beef in a pan and add the curry powder.",
   "issues": [
     {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.42"
+    },
+    {
       "field": "inputs",
       "kind": "estimate",
       "note": "'Curry powder to taste': no quantity given; assumed a pinch"
@@ -61,7 +66,7 @@
     {
       "field": "environment",
       "kind": "estimate",
-      "note": "no temperature given; used the middle of pan_fry's typical range"
+      "note": "no temperature given; assumed 180.0 °C for pan_contact"
     },
     {
       "field": "end",

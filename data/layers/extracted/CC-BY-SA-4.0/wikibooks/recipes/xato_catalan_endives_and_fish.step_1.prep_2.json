@@ -1,0 +1,49 @@
+{
+  "id": "xato_catalan_endives_and_fish.step_1.prep_2",
+  "source": "wikibooks_xato_catalan_endives_and_fish",
+  "technique": "toast",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "hazelnut",
+        "amount": {
+          "qty": 60,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "hazelnut_toast",
+      "amount": {
+        "qty": 60,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "60 g toasted hazelnuts",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

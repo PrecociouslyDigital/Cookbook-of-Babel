@@ -1,0 +1,49 @@
+{
+  "id": "easy_nachos.step_2.prep_3",
+  "source": "wikibooks_easy_nachos",
+  "technique": "chop",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "chiles",
+        "amount": {
+          "qty": 0.3333333333333333,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "chiles_chop",
+      "amount": {
+        "qty": 0.3333333333333333,
+        "unit": "cup"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "⅓ cup (80 ml) chopped canned peeled green chiles (optional)",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

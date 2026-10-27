@@ -26,23 +26,23 @@
       }
     }
   ],
-  "environment": {
-    "temperatureC": 175,
-    "medium": "oven_air"
-  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
     }
   },
   "stateNote": "Transfer to a greased and floured baking pan.",
   "issues": [
     {
-      "field": "sourceRef",
+      "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.58"
+      "note": "the decision model gave this answer a probability of 0.52"
     },
     {
       "field": "end",

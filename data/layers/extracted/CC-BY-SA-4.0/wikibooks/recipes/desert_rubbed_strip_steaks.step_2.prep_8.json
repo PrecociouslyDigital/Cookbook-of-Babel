@@ -1,0 +1,49 @@
+{
+  "id": "desert_rubbed_strip_steaks.step_2.prep_8",
+  "source": "wikibooks_desert_rubbed_strip_steaks",
+  "technique": "grind",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "pepper",
+        "amount": {
+          "qty": 1,
+          "unit": "tsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "pepper_grind",
+      "amount": {
+        "qty": 1,
+        "unit": "tsp"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "1 tsp freshly-ground black pepper",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

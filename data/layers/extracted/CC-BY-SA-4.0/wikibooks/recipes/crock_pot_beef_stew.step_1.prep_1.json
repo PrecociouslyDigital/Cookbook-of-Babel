@@ -1,0 +1,54 @@
+{
+  "id": "crock_pot_beef_stew.step_1.prep_1",
+  "source": "wikibooks_crock_pot_beef_stew",
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "beef",
+        "amount": {
+          "qty": 2,
+          "unit": "lb"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "beef_cut",
+      "amount": {
+        "qty": 2,
+        "unit": "lb"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "2 pounds (900 g) stew beef, cut into 1-inch (2.5 cm) cubes",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.51"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

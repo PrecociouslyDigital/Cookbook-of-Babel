@@ -1,0 +1,49 @@
+{
+  "id": "neapolitan_anchovy_sauce.step_1.prep_9",
+  "source": "wikibooks_neapolitan_anchovy_sauce",
+  "technique": "rinse",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "vinegar",
+        "amount": {
+          "qty": 1,
+          "unit": "dash"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "vinegar_rinse",
+      "amount": {
+        "qty": 1,
+        "unit": "dash"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "1 dash of vinegar",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

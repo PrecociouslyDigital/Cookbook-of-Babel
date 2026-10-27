@@ -5,11 +5,11 @@
     "source": "wikibooks_cajun_red_beans_and_rice",
     "step": 2
   },
-  "technique": "boil",
+  "technique": "assemble",
   "inputs": {
     "of": [
       {
-        "ingredient": "common_bean_soak",
+        "ingredient": "common_bean_soak_soak",
         "amount": {
           "qty": 453.6,
           "unit": "g"
@@ -23,21 +23,21 @@
         }
       },
       {
-        "ingredient": "celery",
+        "ingredient": "celery_chop",
         "amount": {
           "qty": 2,
           "unit": "cup"
         }
       },
       {
-        "ingredient": "onion",
+        "ingredient": "onion_chop",
         "amount": {
           "qty": 2,
           "unit": "cup"
         }
       },
       {
-        "ingredient": "bell_pepper",
+        "ingredient": "bell_pepper_chop",
         "amount": {
           "qty": 2,
           "unit": "cup"
@@ -91,12 +91,17 @@
     {
       "field": "technique",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.53"
+      "note": "the decision model gave this answer a probability of 0.44"
+    },
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.54"
     },
     {
       "field": "environment",
       "kind": "estimate",
-      "note": "no temperature given; used the middle of boil's typical range"
+      "note": "no temperature given; assumed 100.0 °C for boiling_water"
     },
     {
       "field": "end",

@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "rhubarb",
+        "ingredient": "rhubarb_cut",
         "amount": {
           "qty": 500,
           "unit": "g"
@@ -42,7 +42,7 @@
   ],
   "environment": {
     "temperatureC": 90,
-    "medium": "simmering_water"
+    "medium": "pan_contact"
   },
   "end": {
     "by": "time",
@@ -53,6 +53,11 @@
   },
   "stateNote": "Cut the rhubarb into pieces and stew for a short time with the caster sugar and water until tender.",
   "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.56"
+    },
     {
       "field": "environment",
       "kind": "estimate",

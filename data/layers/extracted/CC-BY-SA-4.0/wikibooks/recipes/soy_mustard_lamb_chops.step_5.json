@@ -5,7 +5,7 @@
     "source": "wikibooks_soy_mustard_lamb_chops",
     "step": 5
   },
-  "technique": "coat",
+  "technique": "grill",
   "inputs": {
     "of": [
       {
@@ -27,7 +27,7 @@
     }
   ],
   "environment": {
-    "temperatureC": 180,
+    "temperatureC": 250,
     "medium": "pan_contact"
   },
   "end": {
@@ -40,9 +40,14 @@
   "stateNote": "Remove each chop, dip in the marinade on both sides, and place back on the grill with the uncooked side down.",
   "issues": [
     {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.5"
+    },
+    {
       "field": "environment",
       "kind": "estimate",
-      "note": "no temperature given; assumed 180.0 °C for pan_contact"
+      "note": "no temperature given; used the middle of grill's typical range"
     },
     {
       "field": "end",

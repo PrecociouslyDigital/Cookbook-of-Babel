@@ -1,0 +1,49 @@
+{
+  "id": "greek_yogurt_sauce.step_1.prep_9",
+  "source": "wikibooks_greek_yogurt_sauce",
+  "technique": "chop",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "rosemary",
+        "amount": {
+          "qty": 1.5,
+          "unit": "tsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "rosemary_chop",
+      "amount": {
+        "qty": 1.5,
+        "unit": "tsp"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "1 ½ tsp fresh rosemary, finely chopped",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

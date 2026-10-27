@@ -1,0 +1,54 @@
+{
+  "id": "sabich_vegetable_and_pita_sandwich.step_6.prep_9",
+  "source": "wikibooks_sabich_vegetable_and_pita_sandwich",
+  "technique": "boil",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "hard_cooked_eggs",
+        "amount": {
+          "qty": 4,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "hard_cooked_eggs_boil",
+      "amount": {
+        "qty": 4,
+        "unit": "piece"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "4 hard-boiled eggs, peeled and sliced",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.55"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

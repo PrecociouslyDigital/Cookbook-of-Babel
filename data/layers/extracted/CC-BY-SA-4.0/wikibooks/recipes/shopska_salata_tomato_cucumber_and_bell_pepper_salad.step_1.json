@@ -9,21 +9,21 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "tomato",
+        "ingredient": "tomato_cut",
         "amount": {
           "qty": 4,
           "unit": "piece"
         }
       },
       {
-        "ingredient": "cucumber",
+        "ingredient": "cucumber_cut",
         "amount": {
           "qty": 2,
           "unit": "piece"
         }
       },
       {
-        "ingredient": "green_pepper",
+        "ingredient": "green_pepper_cut",
         "amount": {
           "qty": 2,
           "unit": "piece"
@@ -53,6 +53,11 @@
   },
   "stateNote": "Cut the tomatoes, cucumbers and peppers in small pieces—cubes if possible.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.45"
+    },
     {
       "field": "inputs",
       "kind": "estimate",

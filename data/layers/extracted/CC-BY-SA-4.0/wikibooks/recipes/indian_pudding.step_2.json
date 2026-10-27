@@ -9,9 +9,9 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "milk_boil",
+        "ingredient": "indian_pudding_step_1",
         "amount": {
-          "qty": 974.7,
+          "qty": 946.4,
           "unit": "g"
         }
       },
@@ -35,7 +35,7 @@
     {
       "ingredient": "indian_pudding_step_2",
       "amount": {
-        "qty": 1300,
+        "qty": 1271.7,
         "unit": "g"
       }
     }
@@ -53,6 +53,11 @@
   },
   "stateNote": "Add cold water to cornmeal to wet it.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.59"
+    },
     {
       "field": "outputs",
       "kind": "estimate",

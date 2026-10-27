@@ -1,0 +1,49 @@
+{
+  "id": "tofu_tamale_pie.step_2.prep_5",
+  "source": "wikibooks_tofu_tamale_pie",
+  "technique": "chop",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "green_pepper",
+        "amount": {
+          "qty": 0.5,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "green_pepper_chop",
+      "amount": {
+        "qty": 0.5,
+        "unit": "piece"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "½ green pepper, finely chopped",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

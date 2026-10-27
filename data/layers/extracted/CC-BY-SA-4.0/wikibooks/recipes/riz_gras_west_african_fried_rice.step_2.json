@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "rice_rinse",
+        "ingredient": "rice_rinse_rinse",
         "amount": {
           "qty": 473.2,
           "unit": "g"
@@ -19,7 +19,7 @@
   },
   "outputs": [
     {
-      "ingredient": "rice_rinse_mix",
+      "ingredient": "rice_rinse_rinse_mix",
       "amount": {
         "qty": 473.2,
         "unit": "g"
@@ -40,9 +40,14 @@
   "stateNote": "In a pot, add the rinsed rice and the appropriate amount of water, following the package instructions.",
   "issues": [
     {
-      "field": "environment",
+      "field": "technique",
       "kind": "uncertain",
       "note": "the decision model gave this answer a probability of 0.58"
+    },
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.48"
     },
     {
       "field": "environment",

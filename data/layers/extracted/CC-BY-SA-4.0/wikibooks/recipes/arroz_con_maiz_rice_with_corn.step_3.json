@@ -16,7 +16,7 @@
         }
       },
       {
-        "ingredient": "puerto_rican_sofrito",
+        "ingredient": "puerto_rican_sofrito_freeze",
         "amount": {
           "qty": 1.5,
           "unit": "cup"
@@ -40,16 +40,17 @@
       "unit": "d"
     },
     "sensitivity": {
-      "refTempC": 20,
-      "q10": 1
+      "refTempC": 4,
+      "q10": 1,
+      "maxTempC": 8
     }
   },
   "stateNote": "Remove 1½ cup of sofrito for the rice. The sofrito will keep in the refrigerator for up to 3 days. Alternatively, freeze in ice trays and it will last a month.",
   "issues": [
     {
-      "field": "inputs",
+      "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.58"
+      "note": "the decision model gave this answer a probability of 0.46"
     }
   ]
 }

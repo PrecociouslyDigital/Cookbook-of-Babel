@@ -5,25 +5,25 @@
     "source": "wikibooks_potato_and_garlic_ravioli_filling",
     "step": 3
   },
-  "technique": "pan_fry",
+  "technique": "heat",
   "inputs": {
     "of": [
       {
-        "ingredient": "potato_boil_blend",
+        "ingredient": "potato_boil_boil_cool",
         "amount": {
           "qty": 1,
           "unit": "batch"
         }
       },
       {
-        "ingredient": "olive_oil",
+        "ingredient": "olive_oil_heat",
         "amount": {
           "qty": 4,
           "unit": "tbsp"
         }
       },
       {
-        "ingredient": "garlic",
+        "ingredient": "garlic_fry",
         "amount": {
           "qty": 6,
           "unit": "clove"
@@ -41,8 +41,8 @@
     }
   ],
   "environment": {
-    "temperatureC": 185,
-    "medium": "frying_oil"
+    "temperatureC": 180,
+    "medium": "pan_contact"
   },
   "end": {
     "by": "time",
@@ -54,14 +54,19 @@
   "stateNote": "Sauté the garlic in the oil for 1 minute.",
   "issues": [
     {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.4"
+    },
+    {
       "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.57"
+      "note": "the decision model gave this answer a probability of 0.56"
     },
     {
       "field": "environment",
       "kind": "estimate",
-      "note": "no temperature given; used the middle of pan_fry's typical range"
+      "note": "no temperature given; assumed 180.0 °C for pan_contact"
     }
   ]
 }

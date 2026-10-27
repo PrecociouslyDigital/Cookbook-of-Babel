@@ -5,7 +5,7 @@
     "source": "wikibooks_jigarthanda_milk",
     "step": 6
   },
-  "technique": "dissolve",
+  "technique": "evaporate",
   "inputs": {
     "of": [
       {
@@ -34,7 +34,7 @@
     }
   ],
   "environment": {
-    "temperatureC": 90,
+    "temperatureC": 100,
     "medium": "simmering_water"
   },
   "end": {
@@ -49,12 +49,17 @@
     {
       "field": "technique",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.51"
+      "note": "the decision model gave this answer a probability of 0.36"
+    },
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.58"
     },
     {
       "field": "environment",
       "kind": "estimate",
-      "note": "no temperature given; assumed 90.0 °C for simmering_water"
+      "note": "no temperature given; used the middle of evaporate's typical range"
     },
     {
       "field": "end",

@@ -5,7 +5,7 @@
     "source": "wikibooks_boule_di_senegalese_fish_and_rice",
     "step": 6
   },
-  "technique": "soak",
+  "technique": "assemble",
   "inputs": {
     "of": [
       {
@@ -33,15 +33,15 @@
       }
     }
   ],
-  "environment": {
-    "temperatureC": 100,
-    "medium": "boiling_water"
-  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
     }
   },
   "stateNote": "Carefully pour the fish or vegetable broth into the pot, making sure it covers the fish and rice mixture. The liquid should be about 1 inch above the ingredients.",
@@ -49,17 +49,12 @@
     {
       "field": "technique",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.37"
+      "note": "the decision model gave this answer a probability of 0.51"
     },
     {
       "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.48"
-    },
-    {
-      "field": "environment",
-      "kind": "estimate",
-      "note": "no temperature given; assumed 100.0 °C for boiling_water"
+      "note": "the decision model gave this answer a probability of 0.38"
     },
     {
       "field": "end",

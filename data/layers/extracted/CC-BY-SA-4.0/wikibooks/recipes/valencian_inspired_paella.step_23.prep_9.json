@@ -1,0 +1,54 @@
+{
+  "id": "valencian_inspired_paella.step_23.prep_9",
+  "source": "wikibooks_valencian_inspired_paella",
+  "technique": "fry",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "garlic",
+        "amount": {
+          "qty": 28,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "garlic_fry",
+      "amount": {
+        "qty": 28,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "28 g (1 ounce) garlic",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.35"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

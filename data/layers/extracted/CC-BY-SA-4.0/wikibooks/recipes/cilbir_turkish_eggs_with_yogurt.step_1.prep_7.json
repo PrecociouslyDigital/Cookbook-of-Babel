@@ -1,0 +1,49 @@
+{
+  "id": "cilbir_turkish_eggs_with_yogurt.step_1.prep_7",
+  "source": "wikibooks_cilbir_turkish_eggs_with_yogurt",
+  "technique": "chop",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "garlic",
+        "amount": {
+          "qty": 1,
+          "unit": "clove"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "garlic_chop",
+      "amount": {
+        "qty": 1,
+        "unit": "clove"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "1 clove garlic, minced",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

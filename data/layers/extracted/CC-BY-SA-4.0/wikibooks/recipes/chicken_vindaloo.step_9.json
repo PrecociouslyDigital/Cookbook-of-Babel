@@ -5,7 +5,7 @@
     "source": "wikibooks_chicken_vindaloo",
     "step": 9
   },
-  "technique": "chop",
+  "technique": "assemble",
   "inputs": {
     "of": [
       {
@@ -16,21 +16,21 @@
         }
       },
       {
-        "ingredient": "chiles",
+        "ingredient": "chiles_chop",
         "amount": {
           "qty": 2,
           "unit": "piece"
         }
       },
       {
-        "ingredient": "garlic",
+        "ingredient": "garlic_chop",
         "amount": {
           "qty": 6,
           "unit": "clove"
         }
       },
       {
-        "ingredient": "ginger",
+        "ingredient": "ginger_chop",
         "amount": {
           "qty": 2,
           "unit": "piece"
@@ -60,6 +60,11 @@
   },
   "stateNote": "Coarsely chop the garlic cloves (and ginger if you're using it). De-seed the chili peppers and chop in the same way. Add the chopped garlic and chillies to the food processor.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.57"
+    },
     {
       "field": "inputs",
       "kind": "estimate",

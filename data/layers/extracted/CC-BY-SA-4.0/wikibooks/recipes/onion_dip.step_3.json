@@ -42,7 +42,7 @@
   ],
   "environment": {
     "temperatureC": 90,
-    "medium": "simmering_water"
+    "medium": "pan_contact"
   },
   "end": {
     "by": "time",
@@ -53,6 +53,11 @@
   },
   "stateNote": "Add the water and crushed bouillon cube, and simmer until some of the water has evaporated and the liquid is thick.",
   "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.59"
+    },
     {
       "field": "inputs",
       "kind": "estimate",

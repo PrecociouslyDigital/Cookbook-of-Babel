@@ -1,0 +1,49 @@
+{
+  "id": "chocolate_mousse_cake_vegan.step_8.prep_10",
+  "source": "wikibooks_chocolate_mousse_cake_vegan",
+  "technique": "heat",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "chocolate",
+        "amount": {
+          "qty": 6,
+          "unit": "oz"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "chocolate_heat",
+      "amount": {
+        "qty": 6,
+        "unit": "oz"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "6 oz chocolate chips",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

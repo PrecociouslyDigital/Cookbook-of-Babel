@@ -26,24 +26,19 @@
       }
     }
   ],
-  "environment": {
-    "temperatureC": 180,
-    "medium": "oven_air"
-  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
     }
   },
   "stateNote": "When the cake is finished baking, remove from the oven and poke holes all over the top of the cake with a fork.",
   "issues": [
-    {
-      "field": "environment",
-      "kind": "estimate",
-      "note": "no temperature given; assumed 180.0 °C for oven_air"
-    },
     {
       "field": "end",
       "kind": "estimate",

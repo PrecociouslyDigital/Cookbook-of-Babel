@@ -1,0 +1,49 @@
+{
+  "id": "margarita_grilled_chicken.step_1.prep_11",
+  "source": "wikibooks_margarita_grilled_chicken",
+  "technique": "chop",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "chipotle_pepper",
+        "amount": {
+          "qty": 3,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "chipotle_pepper_chop",
+      "amount": {
+        "qty": 3,
+        "unit": "piece"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "3 chipotle chiles in adobo, finely chopped",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

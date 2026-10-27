@@ -5,7 +5,7 @@
     "source": "wikibooks_nanaimo_bars_i",
     "step": 7
   },
-  "technique": "heat",
+  "technique": "cool",
   "inputs": {
     "of": [
       {
@@ -16,14 +16,14 @@
         }
       },
       {
-        "ingredient": "chocolate",
+        "ingredient": "chocolate_heat",
         "amount": {
           "qty": 4,
           "unit": "oz"
         }
       },
       {
-        "ingredient": "butter",
+        "ingredient": "butter_heat",
         "amount": {
           "qty": 2,
           "unit": "tbsp"
@@ -53,6 +53,11 @@
   },
   "stateNote": "Melt chocolate and butter over low heat. Cool.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.39"
+    },
     {
       "field": "environment",
       "kind": "estimate",

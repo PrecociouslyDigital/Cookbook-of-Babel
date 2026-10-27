@@ -1,0 +1,49 @@
+{
+  "id": "garlic_croutons_iii.step_1.prep_1",
+  "source": "wikibooks_garlic_croutons_iii",
+  "technique": "bake",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "bread",
+        "amount": {
+          "qty": 1,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "bread_bake",
+      "amount": {
+        "qty": 1,
+        "unit": "piece"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "1 stale loaf Italian bread, cut into 2-inch (5 cm) cubes",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

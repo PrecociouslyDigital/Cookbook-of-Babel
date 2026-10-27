@@ -28,7 +28,7 @@
   ],
   "environment": {
     "temperatureC": 90,
-    "medium": "simmering_water"
+    "medium": "pan_contact"
   },
   "end": {
     "by": "time",
@@ -39,6 +39,11 @@
   },
   "stateNote": "Simmer, covered, for 10 minutes or until steak is cooked through and tender.",
   "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.5"
+    },
     {
       "field": "environment",
       "kind": "estimate",

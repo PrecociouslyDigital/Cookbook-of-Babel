@@ -1,0 +1,54 @@
+{
+  "id": "three_sisters_stew.step_5.prep_5",
+  "source": "wikibooks_three_sisters_stew",
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "bell_pepper",
+        "amount": {
+          "qty": 0.5,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "bell_pepper_cut",
+      "amount": {
+        "qty": 0.5,
+        "unit": "piece"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "½ medium green or red bell pepper, cut into short, narrow strips",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.58"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

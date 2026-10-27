@@ -5,11 +5,11 @@
     "source": "wikibooks_rice_and_peas_risi_e_bisi",
     "step": 1
   },
-  "technique": "boil",
+  "technique": "simmer",
   "inputs": {
     "of": [
       {
-        "ingredient": "rice",
+        "ingredient": "rice_boil",
         "amount": {
           "qty": 1,
           "unit": "pinch"
@@ -19,7 +19,7 @@
   },
   "outputs": [
     {
-      "ingredient": "rice_boil",
+      "ingredient": "rice_boil_simmer",
       "amount": {
         "qty": 0.3,
         "unit": "g"
@@ -27,7 +27,7 @@
     }
   ],
   "environment": {
-    "temperatureC": 100,
+    "temperatureC": 90,
     "medium": "boiling_water"
   },
   "end": {
@@ -42,7 +42,7 @@
     {
       "field": "technique",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.53"
+      "note": "the decision model gave this answer a probability of 0.35"
     },
     {
       "field": "inputs",
@@ -52,12 +52,12 @@
     {
       "field": "outputs",
       "kind": "estimate",
-      "note": "assumed 1 g/ml for rice"
+      "note": "assumed 1 g/ml for rice_boil"
     },
     {
       "field": "environment",
       "kind": "estimate",
-      "note": "no temperature given; used the middle of boil's typical range"
+      "note": "no temperature given; used the middle of simmer's typical range"
     },
     {
       "field": "end",

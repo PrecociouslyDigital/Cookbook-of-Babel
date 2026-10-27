@@ -5,7 +5,7 @@
     "source": "wikibooks_oatmeal_stout_brownies",
     "step": 3
   },
-  "technique": "heat",
+  "technique": "mix",
   "inputs": {
     "of": [
       {
@@ -16,14 +16,14 @@
         }
       },
       {
-        "ingredient": "butter",
+        "ingredient": "butter_cut",
         "amount": {
           "qty": 6,
           "unit": "tbsp"
         }
       },
       {
-        "ingredient": "chocolate",
+        "ingredient": "chocolate_chop",
         "amount": {
           "qty": 8,
           "unit": "oz"
@@ -61,9 +61,14 @@
   "stateNote": "Melt butter, bittersweet chocolate, and white chocolate chips in a double-boiler over very low heat, stirring constantly until melted. Remove from heat.",
   "issues": [
     {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.45"
+    },
+    {
       "field": "outputs",
       "kind": "estimate",
-      "note": "assumed 1 g/ml for butter, chocolate"
+      "note": "assumed 1 g/ml for butter_cut, chocolate"
     },
     {
       "field": "environment",

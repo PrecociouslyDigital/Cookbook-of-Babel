@@ -5,18 +5,18 @@
     "source": "wikibooks_vegan_paprika_bratwurst",
     "step": 1
   },
-  "technique": "cut",
+  "technique": "fry",
   "inputs": {
     "of": [
       {
-        "ingredient": "onion",
+        "ingredient": "onion_cut",
         "amount": {
           "qty": 1,
           "unit": "pinch"
         }
       },
       {
-        "ingredient": "bell_pepper",
+        "ingredient": "bell_pepper_cut",
         "amount": {
           "qty": 1,
           "unit": "pinch"
@@ -34,7 +34,7 @@
     }
   ],
   "environment": {
-    "temperatureC": 180,
+    "temperatureC": 190,
     "medium": "pan_contact"
   },
   "end": {
@@ -47,9 +47,14 @@
   "stateNote": "Cut onions and bell peppers in small chunks. If desired, fry the onions and peppers lightly.",
   "issues": [
     {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.29"
+    },
+    {
       "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.48"
+      "note": "the decision model gave this answer a probability of 0.42"
     },
     {
       "field": "inputs",
@@ -64,12 +69,12 @@
     {
       "field": "outputs",
       "kind": "estimate",
-      "note": "assumed 1 g/ml for onion, bell_pepper"
+      "note": "assumed 1 g/ml for onion_cut, bell_pepper_cut"
     },
     {
       "field": "environment",
       "kind": "estimate",
-      "note": "no temperature given; assumed 180.0 °C for pan_contact"
+      "note": "no temperature given; used the middle of fry's typical range"
     },
     {
       "field": "end",

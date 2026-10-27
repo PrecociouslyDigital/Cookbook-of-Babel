@@ -9,9 +9,9 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "bouillabaisse_step_2",
+        "ingredient": "bouillabaisse_step_1",
         "amount": {
-          "qty": 4196.6,
+          "qty": 3960,
           "unit": "g"
         }
       },
@@ -20,7 +20,7 @@
         "max": 1,
         "of": [
           {
-            "ingredient": "octopus",
+            "ingredient": "octopus_cut",
             "amount": {
               "qty": 1,
               "unit": "piece"
@@ -29,7 +29,7 @@
         ]
       },
       {
-        "ingredient": "garlic",
+        "ingredient": "garlic_grind",
         "amount": {
           "qty": 7,
           "unit": "clove"
@@ -43,10 +43,17 @@
         }
       },
       {
-        "ingredient": "tomato",
+        "ingredient": "tomato_cut",
         "amount": {
           "qty": 5,
           "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "olive_oil_heat",
+        "amount": {
+          "qty": 1,
+          "unit": "cup"
         }
       }
     ]
@@ -62,7 +69,7 @@
   ],
   "environment": {
     "temperatureC": 185,
-    "medium": "pan_contact"
+    "medium": "frying_oil"
   },
   "end": {
     "by": "time",
@@ -73,6 +80,11 @@
   },
   "stateNote": "Add the onions, along with 6 cloves of crushed garlic, the octopus pieces and tomatoes. Brown at low heat turning gently for 5 minutes.",
   "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.58"
+    },
     {
       "field": "inputs",
       "kind": "estimate",

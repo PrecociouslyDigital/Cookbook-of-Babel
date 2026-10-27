@@ -5,11 +5,11 @@
     "source": "wikibooks_pork_chops_cacciatore",
     "step": 1
   },
-  "technique": "cut",
+  "technique": "chop",
   "inputs": {
     "of": [
       {
-        "ingredient": "onion",
+        "ingredient": "onion_cut",
         "amount": {
           "qty": 1,
           "unit": "piece"
@@ -19,7 +19,7 @@
   },
   "outputs": [
     {
-      "ingredient": "onion_cut",
+      "ingredient": "onion_cut_chop",
       "amount": {
         "qty": 1,
         "unit": "batch"
@@ -39,6 +39,11 @@
   },
   "stateNote": "Slice onion into 1 cm half-rings.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.48"
+    },
     {
       "field": "end",
       "kind": "estimate",

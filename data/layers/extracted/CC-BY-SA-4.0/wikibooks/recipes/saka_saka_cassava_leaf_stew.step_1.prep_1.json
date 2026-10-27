@@ -1,0 +1,49 @@
+{
+  "id": "saka_saka_cassava_leaf_stew.step_1.prep_1",
+  "source": "wikibooks_saka_saka_cassava_leaf_stew",
+  "technique": "rinse",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "cassava",
+        "amount": {
+          "qty": 2,
+          "unit": "lb"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "cassava_rinse",
+      "amount": {
+        "qty": 2,
+        "unit": "lb"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "2 pounds (about 1 kg) fresh cassava leaves",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

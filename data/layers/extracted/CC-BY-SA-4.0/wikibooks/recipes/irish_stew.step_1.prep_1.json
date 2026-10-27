@@ -1,0 +1,54 @@
+{
+  "id": "irish_stew.step_1.prep_1",
+  "source": "wikibooks_irish_stew",
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "lamb_and_mutton",
+        "amount": {
+          "qty": 2.5,
+          "unit": "lb"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "lamb_and_mutton_cut",
+      "amount": {
+        "qty": 2.5,
+        "unit": "lb"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "2½ lb (1.1 kg) deboned mutton, cut in chunks",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.54"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

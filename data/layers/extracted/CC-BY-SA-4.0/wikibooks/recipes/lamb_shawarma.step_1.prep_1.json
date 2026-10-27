@@ -1,0 +1,49 @@
+{
+  "id": "lamb_shawarma.step_1.prep_1",
+  "source": "wikibooks_lamb_shawarma",
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "lamb_and_mutton",
+        "amount": {
+          "qty": 1.5,
+          "unit": "kg"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "lamb_and_mutton_cut",
+      "amount": {
+        "qty": 1.5,
+        "unit": "kg"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "1.5 kg leg of lamb or other tender cut",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

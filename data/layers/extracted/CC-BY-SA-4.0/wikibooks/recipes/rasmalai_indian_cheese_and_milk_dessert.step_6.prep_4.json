@@ -1,0 +1,49 @@
+{
+  "id": "rasmalai_indian_cheese_and_milk_dessert.step_6.prep_4",
+  "source": "wikibooks_rasmalai_indian_cheese_and_milk_dessert",
+  "technique": "boil",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "milk",
+        "amount": {
+          "qty": 10,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "milk_boil",
+      "amount": {
+        "qty": 10,
+        "unit": "cup"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "10 cups milk",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

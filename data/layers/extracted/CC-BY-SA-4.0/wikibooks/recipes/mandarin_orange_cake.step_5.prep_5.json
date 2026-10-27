@@ -1,0 +1,49 @@
+{
+  "id": "mandarin_orange_cake.step_5.prep_5",
+  "source": "wikibooks_mandarin_orange_cake",
+  "technique": "dry",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "pineapple",
+        "amount": {
+          "qty": 20,
+          "unit": "oz"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "pineapple_dry",
+      "amount": {
+        "qty": 20,
+        "unit": "oz"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "1 can (20 oz / 567 g) crushed pineapple",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

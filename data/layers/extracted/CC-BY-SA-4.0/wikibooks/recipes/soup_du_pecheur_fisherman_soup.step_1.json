@@ -23,14 +23,14 @@
         }
       },
       {
-        "ingredient": "onion",
+        "ingredient": "onion_chop",
         "amount": {
           "qty": 4,
           "unit": "piece"
         }
       },
       {
-        "ingredient": "tomato",
+        "ingredient": "tomato_chop",
         "amount": {
           "qty": 4,
           "unit": "piece"
@@ -79,7 +79,7 @@
         }
       },
       {
-        "ingredient": "chiles",
+        "ingredient": "chiles_chop",
         "amount": {
           "qty": 3,
           "unit": "piece"
@@ -104,6 +104,13 @@
         "amount": {
           "qty": 1,
           "unit": "pinch"
+        }
+      },
+      {
+        "ingredient": "crawfish",
+        "amount": {
+          "qty": 2,
+          "unit": "lb"
         }
       }
     ]
@@ -130,6 +137,11 @@
   },
   "stateNote": "Put 4 cups water in a saucepan, then add the crayfish, onions, tomatoes, djansang seeds, bay leaves, shrimp, crabs, garlic, lemongrass, habanero pepper, red palm oil, salt, and black pepper to your desired taste. Leave it to boil for about 30 minutes over medium heat. Make sure that the onions and tomatoes are soft at this point.",
   "issues": [
+    {
+      "field": "inputs",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.5"
+    },
     {
       "field": "inputs",
       "kind": "estimate",

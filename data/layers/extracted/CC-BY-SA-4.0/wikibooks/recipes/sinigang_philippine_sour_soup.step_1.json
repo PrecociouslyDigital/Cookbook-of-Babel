@@ -5,11 +5,11 @@
     "source": "wikibooks_sinigang_philippine_sour_soup",
     "step": 1
   },
-  "technique": "boil",
+  "technique": "strain",
   "inputs": {
     "of": [
       {
-        "ingredient": "tamarind",
+        "ingredient": "tamarind_boil",
         "amount": {
           "qty": 1,
           "unit": "pinch"
@@ -19,7 +19,7 @@
   },
   "outputs": [
     {
-      "ingredient": "tamarind_boil",
+      "ingredient": "sinigang_philippine_sour_soup_step_1",
       "amount": {
         "qty": 0.3,
         "unit": "g"
@@ -40,11 +40,6 @@
   "stateNote": "If using whole tamarind, boil it in water until the shells crack, then work the flesh away from the seeds and strain, reserving all the liquid for the soup. Skip this process if using packed tamarind base.",
   "issues": [
     {
-      "field": "technique",
-      "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.55"
-    },
-    {
       "field": "inputs",
       "kind": "estimate",
       "note": "'Sampaloc (tamarind) fruits or ready-to-use tamarind paste': no quantity given; assumed a pinch"
@@ -52,12 +47,12 @@
     {
       "field": "outputs",
       "kind": "estimate",
-      "note": "assumed 1 g/ml for tamarind"
+      "note": "assumed 1 g/ml for tamarind_boil"
     },
     {
       "field": "environment",
       "kind": "estimate",
-      "note": "no temperature given; used the middle of boil's typical range"
+      "note": "no temperature given; assumed 100.0 °C for boiling_water"
     },
     {
       "field": "end",

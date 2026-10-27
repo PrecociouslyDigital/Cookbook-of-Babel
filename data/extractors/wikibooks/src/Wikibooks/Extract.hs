@@ -25,10 +25,10 @@ import Data.Text qualified as T
 import Decisions.Decide (Decided (..), Decisions, andThen, decide)
 import Decisions.Request (Judged (..), Key, Part (..), requestParts)
 import Wikibooks.Dump (Title, article, articles)
-import Wikibooks.Emit (Dish (..), Env (..), PreparedStep (..), baseIngredient, baseLabel, dish, ingredientFor, lexicon)
+import Wikibooks.Emit (Dish (..), Env (..), PreparedStep (..), baseIngredient, baseLabel, dish, ingredientFor, lexicon, rejection)
 import Wikibooks.Page (Line (..), RecipePage (..), recipePage)
 import Wikibooks.Quantity (IngredientLine (..))
-import Wikibooks.Questions (foodGroups, foodRequest, ingredientRequest, pageRequest)
+import Wikibooks.Questions (foodGroups, foodRequest, ingredientRequest, pageRequest, prepRequest)
 import Wikibooks.Wikitext (intro)
 
 data Status = Emitted | Skipped Text | Pending
@@ -58,7 +58,7 @@ extract env decisions =
         , ingredients = concatMap (.made) emitted <> newPrepared <> [ing | (i, Answered ing) <- Map.toList bases, i `Set.member` emittedUses]
         , recipes = concatMap (toList . (.recipes)) emitted
         , pending = Map.fromList [(p.key, p.body) | Unasked ps <- map (void . pageDecision . snd) recipePages <> map void (Map.elems bases), p <- ps]
-        , referenced = Set.fromList (map (.key) (concatMap (requestParts . pageRequest env.vocabulary . snd) recipePages <> concatMap (requestParts . baseRequest) (Map.elems baseTitles) <> concatMap (requestParts . foodRequest) nameGroups))
+        , referenced = Set.fromList (map (.key) (concatMap (requestParts . pageRequest env.vocabulary . snd) recipePages <> concat [requestParts r | (_, p) <- recipePages, Answered r <- [prepDecision p]] <> concatMap (requestParts . baseRequest) (Map.elems baseTitles) <> concatMap (requestParts . foodRequest) nameGroups))
         , pages = [(t, status t) | (t, _, _) <- articles env.cookbook]
         , unknownUnits = Map.fromListWith (+) [(T.toLower w, 1) | (_, p) <- recipePages, l <- toList p.ingredients, Just w <- [l.parsed.unknownUnit]]
         }
@@ -66,7 +66,9 @@ extract env decisions =
     parsed = Map.fromList [(t, recipePage (lexicon env) t r w) | (t, r, w) <- articles env.cookbook]
     recipePages = [(t, p) | (t, Right p) <- Map.toList parsed]
 
-    pageDecision = decide decisions . pageRequest env.vocabulary
+    -- The extractor asks how each line is prepared only for a page that could make a dish.
+    prepDecision p = decide decisions (pageRequest env.vocabulary p) `andThen` \a -> maybe (Answered (prepRequest env.vocabulary p a)) Unusable (rejection env p a)
+    pageDecision p = prepDecision p `andThen` decide decisions
 
     candidates :: Map Title Candidate
     candidates = Map.fromList (claim preparedIds judged)

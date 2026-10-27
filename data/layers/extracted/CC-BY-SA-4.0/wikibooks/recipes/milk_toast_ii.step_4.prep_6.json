@@ -1,0 +1,54 @@
+{
+  "id": "milk_toast_ii.step_4.prep_6",
+  "source": "wikibooks_milk_toast_ii",
+  "technique": "toast",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "dry_toast",
+        "amount": {
+          "qty": 6,
+          "unit": "slice"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "dry_toast_toast",
+      "amount": {
+        "qty": 6,
+        "unit": "slice"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "6 slices dry toast",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.46"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

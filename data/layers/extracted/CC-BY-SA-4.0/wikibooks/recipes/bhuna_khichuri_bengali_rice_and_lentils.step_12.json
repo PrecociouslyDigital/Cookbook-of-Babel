@@ -16,14 +16,14 @@
         }
       },
       {
-        "ingredient": "onion",
+        "ingredient": "onion_fry",
         "amount": {
           "qty": 1,
           "unit": "piece"
         }
       },
       {
-        "ingredient": "butter",
+        "ingredient": "butter_heat",
         "amount": {
           "qty": 2,
           "unit": "tbsp"
@@ -53,6 +53,11 @@
   },
   "stateNote": "While the rice is simmering, heat the remaining butter in a separate frying pan. Fry the onion on a medium heat until it starts to brown.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.53"
+    },
     {
       "field": "inputs",
       "kind": "estimate",

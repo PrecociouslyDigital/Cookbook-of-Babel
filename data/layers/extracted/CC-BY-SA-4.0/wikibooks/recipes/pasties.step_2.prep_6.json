@@ -1,0 +1,54 @@
+{
+  "id": "pasties.step_2.prep_6",
+  "source": "wikibooks_pasties",
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "plain_flour",
+        "amount": {
+          "qty": 1,
+          "unit": "tbsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "plain_flour_season",
+      "amount": {
+        "qty": 1,
+        "unit": "tbsp"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "1 tbsp plain flour (optional)",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.56"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

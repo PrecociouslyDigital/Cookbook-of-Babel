@@ -37,14 +37,14 @@
         }
       },
       {
-        "ingredient": "cider_vinegar",
+        "ingredient": "cider_vinegar_boil",
         "amount": {
           "qty": 2,
           "unit": "cup"
         }
       },
       {
-        "ingredient": "thyme",
+        "ingredient": "thyme_chop",
         "amount": {
           "qty": 10,
           "unit": "sprig"
@@ -75,8 +75,9 @@
       "unit": "h"
     },
     "sensitivity": {
-      "refTempC": 20,
-      "q10": 1
+      "refTempC": 4,
+      "q10": 1,
+      "maxTempC": 8
     }
   },
   "stateNote": "Combine salt, honey, vinegar, peppercorns, thyme, and ice. Pour into a gallon-size zip-top bag and add roast. Refrigerate 3–3½ hours.",
@@ -84,7 +85,7 @@
     {
       "field": "technique",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.47"
+      "note": "the decision model gave this answer a probability of 0.51"
     }
   ]
 }

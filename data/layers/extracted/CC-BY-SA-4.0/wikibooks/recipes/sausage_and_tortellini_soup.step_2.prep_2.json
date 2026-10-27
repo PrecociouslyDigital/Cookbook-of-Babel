@@ -1,0 +1,49 @@
+{
+  "id": "sausage_and_tortellini_soup.step_2.prep_2",
+  "source": "wikibooks_sausage_and_tortellini_soup",
+  "technique": "heat",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "sausage",
+        "amount": {
+          "qty": 2.5,
+          "unit": "lb"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "sausage_heat",
+      "amount": {
+        "qty": 2.5,
+        "unit": "lb"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "2 packages (2½ pounds) sweet Italian sausage",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

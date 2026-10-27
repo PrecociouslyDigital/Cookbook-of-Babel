@@ -1,0 +1,49 @@
+{
+  "id": "liberian_jollof_rice.step_4.prep_10",
+  "source": "wikibooks_liberian_jollof_rice",
+  "technique": "steam",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "shrimp",
+        "amount": {
+          "qty": 3,
+          "unit": "lb"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "shrimp_steam",
+      "amount": {
+        "qty": 3,
+        "unit": "lb"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "3 pounds steamed shrimp (optional)",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

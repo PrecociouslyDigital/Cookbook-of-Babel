@@ -1,0 +1,49 @@
+{
+  "id": "mock_bearnaise_sauce.step_3.prep_4",
+  "source": "wikibooks_mock_bearnaise_sauce",
+  "technique": "heat",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "mayonnaise",
+        "amount": {
+          "qty": 4,
+          "unit": "tbsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "mayonnaise_heat",
+      "amount": {
+        "qty": 4,
+        "unit": "tbsp"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "4 tbsp real mayonnaise",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

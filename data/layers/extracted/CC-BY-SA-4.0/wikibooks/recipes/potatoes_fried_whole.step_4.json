@@ -1,0 +1,63 @@
+{
+  "id": "potatoes_fried_whole.step_4",
+  "source": "wikibooks_potatoes_fried_whole",
+  "sourceRef": {
+    "source": "wikibooks_potatoes_fried_whole",
+    "step": 4
+  },
+  "technique": "separate",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "potatoes_fried_whole_step_3",
+        "amount": {
+          "qty": 1.4,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "potatoes_fried_whole",
+      "amount": {
+        "qty": 1.4,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Remove from pan, and serve hot.",
+  "issues": [
+    {
+      "field": "sourceRef",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.52"
+    },
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.44"
+    },
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.42"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

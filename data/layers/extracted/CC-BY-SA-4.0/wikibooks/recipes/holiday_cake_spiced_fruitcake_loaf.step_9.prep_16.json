@@ -1,0 +1,54 @@
+{
+  "id": "holiday_cake_spiced_fruitcake_loaf.step_9.prep_16",
+  "source": "wikibooks_holiday_cake_spiced_fruitcake_loaf",
+  "technique": "chop",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "nuts_and_seeds",
+        "amount": {
+          "qty": 2.5,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "nuts_and_seeds_chop",
+      "amount": {
+        "qty": 2.5,
+        "unit": "cup"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "2 ½ cups (600 ml) chopped nuts",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.56"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

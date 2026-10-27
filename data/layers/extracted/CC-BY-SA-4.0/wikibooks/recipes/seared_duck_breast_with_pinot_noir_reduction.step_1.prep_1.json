@@ -1,0 +1,49 @@
+{
+  "id": "seared_duck_breast_with_pinot_noir_reduction.step_1.prep_1",
+  "source": "wikibooks_seared_duck_breast_with_pinot_noir_reduction",
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "duck",
+        "amount": {
+          "qty": 28,
+          "unit": "oz"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "duck_cut",
+      "amount": {
+        "qty": 28,
+        "unit": "oz"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "4 ea. (28 oz) boneless duck breasts",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

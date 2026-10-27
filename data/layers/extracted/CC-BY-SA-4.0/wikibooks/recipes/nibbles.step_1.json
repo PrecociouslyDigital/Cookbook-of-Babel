@@ -9,14 +9,14 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "margarine",
+        "ingredient": "margarine_heat",
         "amount": {
           "qty": 375,
           "unit": "g"
         }
       },
       {
-        "ingredient": "bacon",
+        "ingredient": "bacon_heat",
         "amount": {
           "qty": 1,
           "unit": "pinch"
@@ -75,11 +75,6 @@
   "stateNote": "Melt and combine the sauce ingredients.",
   "issues": [
     {
-      "field": "technique",
-      "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.45"
-    },
-    {
       "field": "inputs",
       "kind": "estimate",
       "note": "'Heaping ½ cup (150 g) bacon grease': no quantity given; assumed a pinch"
@@ -92,7 +87,7 @@
     {
       "field": "outputs",
       "kind": "estimate",
-      "note": "assumed 1 g/ml for bacon, garlic, worcestershire_sauce, msg, peanut_butter"
+      "note": "assumed 1 g/ml for bacon_heat, garlic, worcestershire_sauce, msg, peanut_butter"
     },
     {
       "field": "environment",

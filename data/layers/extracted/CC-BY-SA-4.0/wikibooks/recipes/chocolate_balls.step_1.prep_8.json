@@ -1,0 +1,49 @@
+{
+  "id": "chocolate_balls.step_1.prep_8",
+  "source": "wikibooks_chocolate_balls",
+  "technique": "heat",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "chocolate",
+        "amount": {
+          "qty": 50,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "chocolate_heat",
+      "amount": {
+        "qty": 50,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "1 small bag (50 g / 1.8 oz) semi-sweet chocolate chips",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "rugelach.step_11.prep_6",
+  "source": "wikibooks_rugelach",
+  "technique": "chop",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "walnut",
+        "amount": {
+          "qty": 0.25,
+          "unit": "lb"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "walnut_chop",
+      "amount": {
+        "qty": 0.25,
+        "unit": "lb"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "1 ¼ cups walnuts (¼ lb), finely chopped",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -14,6 +14,13 @@
           "qty": 1,
           "unit": "batch"
         }
+      },
+      {
+        "ingredient": "olive_oil",
+        "amount": {
+          "qty": 0.25,
+          "unit": "cup"
+        }
       }
     ]
   },
@@ -39,6 +46,11 @@
   },
   "stateNote": "Brown the meat on all sides in a sauté pan to seal in the juices. Remove and place in a large covered roasting pan.",
   "issues": [
+    {
+      "field": "inputs",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.54"
+    },
     {
       "field": "environment",
       "kind": "estimate",

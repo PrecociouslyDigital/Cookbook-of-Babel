@@ -1,0 +1,49 @@
+{
+  "id": "liverpool_lamb_and_vegetable_soup_scouse.step_3.prep_4",
+  "source": "wikibooks_liverpool_lamb_and_vegetable_soup_scouse",
+  "technique": "chop",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "carrot",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "carrot_chop",
+      "amount": {
+        "qty": 1,
+        "unit": "pinch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Carrots, chopped",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

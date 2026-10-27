@@ -1,0 +1,49 @@
+{
+  "id": "simple_ayurvedic_sprout_salad.step_1.prep_1",
+  "source": "wikibooks_simple_ayurvedic_sprout_salad",
+  "technique": "sprout",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "bean_sprout",
+        "amount": {
+          "qty": 1,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "bean_sprout_sprout",
+      "amount": {
+        "qty": 1,
+        "unit": "cup"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "1 cup fresh mung bean sprouts (sprout your own and use them when the sprouts are about ½ inch long)",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -26,15 +26,15 @@
       }
     }
   ],
+  "environment": {
+    "temperatureC": 100,
+    "medium": "still_air"
+  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 5,
       "unit": "d"
-    },
-    "sensitivity": {
-      "refTempC": 20,
-      "q10": 1
     }
   },
   "stateNote": "Keep the mixture in the sun for 5 days until the syrup attains a single thread consistency, stirring thrice daily.",
@@ -42,7 +42,12 @@
     {
       "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.52"
+      "note": "the decision model gave this answer a probability of 0.48"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of evaporate's typical range"
     }
   ]
 }

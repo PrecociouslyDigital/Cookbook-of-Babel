@@ -16,7 +16,7 @@
         }
       },
       {
-        "ingredient": "cream",
+        "ingredient": "cream_heat",
         "amount": {
           "qty": 1,
           "unit": "cup"
@@ -33,28 +33,28 @@
       }
     }
   ],
+  "environment": {
+    "temperatureC": 180,
+    "medium": "pan_contact"
+  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
-    },
-    "sensitivity": {
-      "refTempC": 20,
-      "q10": 1
     }
   },
   "stateNote": "Gradually add hot heavy whipping cream to the roux, whisking to combine. This will also work with a hot roux and room temperature heavy cream or milk.",
   "issues": [
     {
-      "field": "environment",
-      "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.51"
-    },
-    {
       "field": "outputs",
       "kind": "estimate",
-      "note": "assumed 1 g/ml for cream"
+      "note": "assumed 1 g/ml for cream_heat"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 180.0 °C for pan_contact"
     },
     {
       "field": "end",

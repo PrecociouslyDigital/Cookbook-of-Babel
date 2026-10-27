@@ -1,0 +1,49 @@
+{
+  "id": "tuna_noodle_casserole.step_2.prep_1",
+  "source": "wikibooks_tuna_noodle_casserole",
+  "technique": "chop",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "tuna",
+        "amount": {
+          "qty": 2,
+          "unit": "can"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "tuna_chop",
+      "amount": {
+        "qty": 2,
+        "unit": "can"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "2 cans (drained) or pouches (12 ounces each) tuna",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

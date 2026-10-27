@@ -16,7 +16,7 @@
         }
       },
       {
-        "ingredient": "olive_oil",
+        "ingredient": "olive_oil_heat",
         "amount": {
           "qty": 3.5,
           "unit": "tbsp"
@@ -47,9 +47,14 @@
   "stateNote": "While spaghetti is cooking, heat the olive oil in a large skillet over a medium-high heat. When the oil is hot, add the pancetta and cook for about 10 minutes over a low flame until the pancetta has rendered most of its fat but is still chewy and barely browned.",
   "issues": [
     {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.58"
+    },
+    {
       "field": "outputs",
       "kind": "estimate",
-      "note": "assumed 1 g/ml for olive_oil"
+      "note": "assumed 1 g/ml for olive_oil_heat"
     },
     {
       "field": "environment",

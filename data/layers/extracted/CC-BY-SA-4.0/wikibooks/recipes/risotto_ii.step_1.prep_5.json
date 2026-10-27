@@ -1,0 +1,49 @@
+{
+  "id": "risotto_ii.step_1.prep_5",
+  "source": "wikibooks_risotto_ii",
+  "technique": "simmer",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "broth_and_stock",
+        "amount": {
+          "qty": 6,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "broth_and_stock_simmer",
+      "amount": {
+        "qty": 6,
+        "unit": "cup"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "6 cups chicken broth",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

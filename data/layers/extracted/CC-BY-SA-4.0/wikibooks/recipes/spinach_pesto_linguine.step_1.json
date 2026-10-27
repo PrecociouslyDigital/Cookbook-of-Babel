@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "garlic",
+        "ingredient": "garlic_pan_fry",
         "amount": {
           "qty": 10,
           "unit": "clove"
@@ -19,7 +19,7 @@
   },
   "outputs": [
     {
-      "ingredient": "garlic_pan_fry",
+      "ingredient": "garlic_pan_fry_pan_fry",
       "amount": {
         "qty": 1,
         "unit": "batch"
@@ -39,6 +39,11 @@
   },
   "stateNote": "Lightly sauté the garlic in a pan—this is not meant to completely cook it, but to take a little of the bite off of it.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.57"
+    },
     {
       "field": "environment",
       "kind": "estimate",

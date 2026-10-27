@@ -1,0 +1,49 @@
+{
+  "id": "crispy_fish_sandwich.step_6.prep_13",
+  "source": "wikibooks_crispy_fish_sandwich",
+  "technique": "chop",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "pickle",
+        "amount": {
+          "qty": 0.25,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "pickle_chop",
+      "amount": {
+        "qty": 0.25,
+        "unit": "piece"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "¼ dill pickle, finely chopped",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

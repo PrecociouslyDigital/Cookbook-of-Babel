@@ -1,0 +1,54 @@
+{
+  "id": "fruit_for_the_day_smoothie.step_1.prep_3",
+  "source": "wikibooks_fruit_for_the_day_smoothie",
+  "technique": "freeze",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "strawberry",
+        "amount": {
+          "qty": 160,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "strawberry_freeze",
+      "amount": {
+        "qty": 160,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "2 cups (160 g / 5.6 oz) frozen strawberries",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.52"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

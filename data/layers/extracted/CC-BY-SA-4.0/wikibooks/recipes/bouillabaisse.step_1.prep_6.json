@@ -1,0 +1,49 @@
+{
+  "id": "bouillabaisse.step_1.prep_6",
+  "source": "wikibooks_bouillabaisse",
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "john_dory",
+        "amount": {
+          "qty": 660,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "john_dory_cut",
+      "amount": {
+        "qty": 660,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "660 g whole cleaned John Dory",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

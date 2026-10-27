@@ -1,0 +1,49 @@
+{
+  "id": "dumboy_and_pepper_soup.step_1.prep_1",
+  "source": "wikibooks_dumboy_and_pepper_soup",
+  "technique": "rinse",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "cassava",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "cassava_rinse",
+      "amount": {
+        "qty": 1,
+        "unit": "pinch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Cassava tubers, peeled and cut into chunks",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

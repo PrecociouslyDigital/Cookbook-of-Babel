@@ -1,0 +1,54 @@
+{
+  "id": "fuk_thong_pad_khai_thai_stir_fried_pumpkin.step_4.prep_4",
+  "source": "wikibooks_fuk_thong_pad_khai_thai_stir_fried_pumpkin",
+  "technique": "stir_fry",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "pork",
+        "amount": {
+          "qty": 150,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "pork_stir_fry",
+      "amount": {
+        "qty": 150,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "150 g minced pork or chicken",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.33"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "id": "black_forest_torte.step_16.prep_12",
+  "source": "wikibooks_black_forest_torte",
+  "technique": "chop",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "squares",
+        "amount": {
+          "qty": 1,
+          "unit": "oz"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "squares_chop",
+      "amount": {
+        "qty": 1,
+        "unit": "oz"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "2 squares (1 ounce / 30 g) each) semisweet chocolate, chopped",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.53"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

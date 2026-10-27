@@ -1,0 +1,49 @@
+{
+  "id": "turkey_and_bacon_salad.step_4.prep_1",
+  "source": "wikibooks_turkey_and_bacon_salad",
+  "technique": "rinse",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "lettuce",
+        "amount": {
+          "qty": 1,
+          "unit": "head"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "lettuce_rinse",
+      "amount": {
+        "qty": 1,
+        "unit": "head"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "1 head of lettuce",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

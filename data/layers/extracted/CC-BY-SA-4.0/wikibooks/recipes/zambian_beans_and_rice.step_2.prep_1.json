@@ -1,0 +1,49 @@
+{
+  "id": "zambian_beans_and_rice.step_2.prep_1",
+  "source": "wikibooks_zambian_beans_and_rice",
+  "technique": "heat",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "vegetable_oil",
+        "amount": {
+          "qty": 2,
+          "unit": "tbsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "vegetable_oil_heat",
+      "amount": {
+        "qty": 2,
+        "unit": "tbsp"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "2 tablespoons vegetable oil",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

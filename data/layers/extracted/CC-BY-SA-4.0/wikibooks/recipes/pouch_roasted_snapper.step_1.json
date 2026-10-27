@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "couscous",
+        "ingredient": "couscous_rinse",
         "amount": {
           "qty": 2,
           "unit": "cup"
@@ -47,6 +47,11 @@
   "stateNote": "Rinse the couscous, then sprinkle with kosher salt and allow to sit for 10 minutes.",
   "issues": [
     {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.54"
+    },
+    {
       "field": "inputs",
       "kind": "estimate",
       "note": "'Salt': no quantity given; assumed a pinch"
@@ -54,7 +59,7 @@
     {
       "field": "outputs",
       "kind": "estimate",
-      "note": "assumed 1 g/ml for couscous"
+      "note": "assumed 1 g/ml for couscous_rinse"
     }
   ]
 }

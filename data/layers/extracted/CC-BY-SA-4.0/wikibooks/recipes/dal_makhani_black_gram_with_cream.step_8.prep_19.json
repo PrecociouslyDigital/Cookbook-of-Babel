@@ -1,0 +1,54 @@
+{
+  "id": "dal_makhani_black_gram_with_cream.step_8.prep_19",
+  "source": "wikibooks_dal_makhani_black_gram_with_cream",
+  "technique": "chop",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "cilantro",
+        "amount": {
+          "qty": 2,
+          "unit": "tbsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "cilantro_chop",
+      "amount": {
+        "qty": 2,
+        "unit": "tbsp"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "2 tbsp chopped coriander leaves (optional)",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.58"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

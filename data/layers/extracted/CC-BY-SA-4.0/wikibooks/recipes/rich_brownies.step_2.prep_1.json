@@ -1,0 +1,49 @@
+{
+  "id": "rich_brownies.step_2.prep_1",
+  "source": "wikibooks_rich_brownies",
+  "technique": "heat",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "chocolate",
+        "amount": {
+          "qty": 4,
+          "unit": "oz"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "chocolate_heat",
+      "amount": {
+        "qty": 4,
+        "unit": "oz"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "4 ounces (110 g) unsweetened baking chocolate",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

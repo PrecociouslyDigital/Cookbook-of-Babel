@@ -1,0 +1,54 @@
+{
+  "id": "soup_du_pecheur_fisherman_soup.step_4.prep_18",
+  "source": "wikibooks_soup_du_pecheur_fisherman_soup",
+  "technique": "heat",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "attieke",
+        "amount": {
+          "qty": 750,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "attieke_heat",
+      "amount": {
+        "qty": 750,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "750 grams attieke (cassava couscous)",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.56"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

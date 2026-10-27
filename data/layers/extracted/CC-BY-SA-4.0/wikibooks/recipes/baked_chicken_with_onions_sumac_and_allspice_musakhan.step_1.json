@@ -5,11 +5,11 @@
     "source": "wikibooks_baked_chicken_with_onions_sumac_and_allspice_musakhan",
     "step": 1
   },
-  "technique": "cut",
+  "technique": "season",
   "inputs": {
     "of": [
       {
-        "ingredient": "chicken",
+        "ingredient": "chicken_cut",
         "amount": {
           "qty": 1,
           "unit": "piece"
@@ -23,7 +23,7 @@
         }
       },
       {
-        "ingredient": "pepper",
+        "ingredient": "pepper_grind",
         "amount": {
           "qty": 1,
           "unit": "pinch"
@@ -53,6 +53,11 @@
   },
   "stateNote": "Cut the chicken up into two breasts, two thighs, two legs, and two wings. Salt and pepper the chicken.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.44"
+    },
     {
       "field": "inputs",
       "kind": "estimate",

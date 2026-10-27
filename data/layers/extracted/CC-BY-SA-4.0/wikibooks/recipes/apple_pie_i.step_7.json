@@ -28,6 +28,13 @@
           "qty": 1,
           "unit": "pinch"
         }
+      },
+      {
+        "ingredient": "cinnamon",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
       }
     ]
   },
@@ -35,7 +42,7 @@
     {
       "ingredient": "apple_pie_i_step_7",
       "amount": {
-        "qty": 1413.2,
+        "qty": 1413.5,
         "unit": "g"
       }
     }
@@ -55,13 +62,23 @@
   "issues": [
     {
       "field": "inputs",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.36"
+    },
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Cinnamon': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "inputs",
       "kind": "estimate",
       "note": "'Cinnamon': no quantity given; assumed a pinch"
     },
     {
       "field": "outputs",
       "kind": "estimate",
-      "note": "assumed 1 g/ml for cinnamon"
+      "note": "assumed 1 g/ml for cinnamon, cinnamon"
     },
     {
       "field": "end",

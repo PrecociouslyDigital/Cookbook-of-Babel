@@ -1,0 +1,44 @@
+{
+  "id": "chilaquiles.step_5.prep_8",
+  "source": "wikibooks_chilaquiles",
+  "technique": "fry",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "day_old_corn_tortillas",
+        "amount": {
+          "qty": 2,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "day_old_corn_tortillas_fry",
+      "amount": {
+        "qty": 2,
+        "unit": "piece"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 2,
+      "unit": "d"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "2 day-old corn tortillas, cut into strips then squares",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    }
+  ]
+}

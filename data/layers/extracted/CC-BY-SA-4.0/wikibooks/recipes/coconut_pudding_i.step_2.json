@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "coconut_blend",
+        "ingredient": "coconut_blend_blend",
         "amount": {
           "qty": 1,
           "unit": "batch"
@@ -53,6 +53,11 @@
   },
   "stateNote": "In a saucepan, combine the tender coconut water and china-grass strands. Heat gently until the china-grass strands melt completely.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.37"
+    },
     {
       "field": "environment",
       "kind": "estimate",

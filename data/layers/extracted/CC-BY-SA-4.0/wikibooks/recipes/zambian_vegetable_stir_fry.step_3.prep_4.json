@@ -1,0 +1,49 @@
+{
+  "id": "zambian_vegetable_stir_fry.step_3.prep_4",
+  "source": "wikibooks_zambian_vegetable_stir_fry",
+  "technique": "julienne",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "carrot",
+        "amount": {
+          "qty": 1,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "carrot_julienne",
+      "amount": {
+        "qty": 1,
+        "unit": "piece"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "1 carrot, julienned",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

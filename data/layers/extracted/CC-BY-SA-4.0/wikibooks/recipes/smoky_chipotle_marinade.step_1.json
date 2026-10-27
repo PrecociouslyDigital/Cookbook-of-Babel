@@ -75,12 +75,18 @@
       "unit": "min"
     },
     "sensitivity": {
-      "refTempC": 20,
-      "q10": 1
+      "refTempC": 4,
+      "q10": 1,
+      "maxTempC": 8
     }
   },
   "stateNote": "Combine all ingredients in a large zip-top plastic bag. Insert meat in and refrigerate for as long as you like.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.52"
+    },
     {
       "field": "inputs",
       "kind": "estimate",

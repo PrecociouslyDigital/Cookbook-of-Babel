@@ -1,0 +1,54 @@
+{
+  "id": "lemon_chicken_pasta.step_1.prep_1",
+  "source": "wikibooks_lemon_chicken_pasta",
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "chicken",
+        "amount": {
+          "qty": 12,
+          "unit": "oz"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "chicken_season",
+      "amount": {
+        "qty": 12,
+        "unit": "oz"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "12 ounces (340 g) boneless skinless chicken breasts, cut into ½-inch (1 cm) thick slices",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.5"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

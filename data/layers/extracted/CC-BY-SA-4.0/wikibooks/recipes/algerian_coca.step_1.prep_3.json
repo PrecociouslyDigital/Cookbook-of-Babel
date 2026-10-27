@@ -1,0 +1,49 @@
+{
+  "id": "algerian_coca.step_1.prep_3",
+  "source": "wikibooks_algerian_coca",
+  "technique": "dissolve",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "white_sugar",
+        "amount": {
+          "qty": 1,
+          "unit": "tbsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "white_sugar_dissolve",
+      "amount": {
+        "qty": 1,
+        "unit": "tbsp"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "1 tablespoon sugar",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

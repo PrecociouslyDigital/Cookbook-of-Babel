@@ -5,8 +5,9 @@ to choose from.
 -}
 module Main (main) where
 
+import Babel.Check (sensitivityChecks)
 import Babel.Load (World, loadWorld)
-import Babel.Model (Amount (..), FormId (..), Ingredient (..), IngredientId (..), IsId (..), Leaf (..), Outcome (..), Output (..), Recipe (..), Select (..), SourceRef (..), TechniqueId (..), UnitId (..))
+import Babel.Model (Amount (..), End (..), FormId (..), Ingredient (..), IngredientId (..), IsId (..), Leaf (..), Outcome (..), Output (..), Recipe (..), Select (..), Sensitivity (..), SourceRef (..), TechniqueId (..), UnitId (..), leaves)
 import Babel.Preparation (Preparation (..), determinesOutput, preparationOf)
 import Data.Aeson qualified as Aeson
 import Data.Char (isNumber)
@@ -23,7 +24,7 @@ import Wikibooks.Dump (Title, article, cookbookFromPages, mkTitle, readCookbook,
 import Wikibooks.Emit (Dish (..), Env (..), PreparedStep (..), dish, ingredientFor, lexicon, mkEnv, preparedId)
 import Wikibooks.Page (Line (..), RecipePage (..), Step (..), recipePage)
 import Wikibooks.Quantity (IngredientLine (..), Lexicon (..), ingredientLine, unitAliases)
-import Wikibooks.Questions (PageAnswers (..), StepAnswers (..), Vocabulary (..), pageRequest)
+import Wikibooks.Questions (FirstUse (..), PageAnswers (..), Place (..), Prep (..), StepAnswers (..), StepMedium (..), Vocabulary (..), pageRequest, prepRequest)
 import Wikibooks.Wikitext (inlines)
 
 main :: IO ()
@@ -37,14 +38,17 @@ main = do
                 "properties"
                 [ prop "an ingredient line reads back the amount and food it was written with" lineRoundTrip
                 , prop "a food named by a line's words has no numbers in its name" namesHaveNoNumbers
-                , prop "each recipe takes in the output of the one before it" (chainConnected env)
+                , prop "each step takes in the output of the one before it, and each prepared line feeds one step" (chainConnected env)
                 , prop "every ingredient line with a first step is taken in exactly once" (takenOnce env)
-                , prop "no two questions in a page request share a name" (namesUnique env)
+                , prop "a line prepared on its own feeds the step its first step names" (prepFeedsFirstStep env)
+                , prop "a step nothing heats is bounded by the band of where it sits" (ambientBands env)
+                , prop "no two questions about a page share a name" (namesUnique env)
                 , prop "a step that is a preparation makes the dataset's one item for it" (preparationsShared env)
                 ]
             , testGroup "real ingredient lines" [testCase (toString l) (realLine l expected) | (l, expected) <- realLines]
             , testCase "Pancakes (North American) becomes six steps" (pancakes world)
             , testCase "julienning potatoes for fries makes the reviewed potato_shreds" (frenchFries env)
+            , testCase "potatoes julienned on their own make the reviewed potato_shreds for their step" (julienned env)
             , testCase "a dish that is one preparation names the item for it" (sashimi env)
             ]
   where
@@ -136,7 +140,7 @@ realLine l expected = ((.ingredient) <$> ingredientLine pageLexicon (inlines l))
 {- | A recipe page and answers about it, both arbitrary. Each line names a
 different food, so the lines a dish takes in can be told apart.
 -}
-genAnswered :: Env -> Gen (RecipePage, PageAnswers)
+genAnswered :: Env -> Gen (RecipePage, PageAnswers FirstUse)
 genAnswered env = do
     steps <- NE.zipWith Step (1 :| [2 ..]) <$> Gen.nonEmpty (Range.linear 1 8) (Gen.text (Range.linear 1 20) Gen.alpha)
     count <- Gen.int (Range.linear 1 10)
@@ -149,11 +153,13 @@ genAnswered env = do
             StepAnswers
                 <$> judged Gen.bool
                 <*> judged (Gen.element (fst <$> v.techniques))
-                <*> judged (Gen.maybe (Gen.element (map fst v.media)))
+                <*> judged (Gen.choice [Ambient <$> Gen.enumBounded, Medium <$> Gen.element (map fst v.media)])
                 <*> judged (Gen.element (fst <$> v.forms))
-    firstSteps <- forM page.ingredients $ \l -> (l,) <$> judged (Gen.maybe (Gen.element (toList ((.number) <$> steps))))
+    let prep = Prep <$> Gen.element (fst <$> v.preparations) <*> judged (Gen.element (fst <$> v.forms))
+        firstUse = FirstUse <$> Gen.element (toList ((.number) <$> steps)) <*> judged (Gen.maybe prep)
+    firstUses <- forM page.ingredients $ \l -> (l,) <$> judged (Gen.maybe firstUse)
     single <- judged (pure True)
-    pure (page, PageAnswers{singleDish = single, steps = stepAnswers, ingredients = firstSteps})
+    pure (page, PageAnswers{singleDish = single, steps = stepAnswers, ingredients = firstUses})
   where
     foods = [mkTitle "Milk", mkTitle "Flour"] <> [mkTitle ("Food " <> show n) | n <- [1 :: Int ..]]
     lineFor food = do
@@ -163,29 +169,67 @@ genAnswered env = do
     judged g = Judged <$> g <*> Gen.double (Range.linearFrac 0 1)
 
 -- | Check the dish built from generated answers, when one can be built.
-forDish :: Env -> (PageAnswers -> Dish -> PropertyT IO ()) -> Property
+forDish :: Env -> (PageAnswers FirstUse -> Dish -> PropertyT IO ()) -> Property
 forDish env check = property $ do
     (page, answers) <- forAll (genAnswered env)
     either (const (pure ())) (check answers) (dish env page answers)
 
--- | What each recipe makes.
-outputsOf :: Dish -> [Leaf]
-outputsOf d = [Leaf o.ingredient o.amount | r <- toList d.recipes, Outputs os <- [r.outputs], o <- toList os]
+-- | What a recipe makes.
+outputsOf :: Recipe -> [Leaf]
+outputsOf r = [Leaf o.ingredient o.amount | Outputs os <- [r.outputs], o <- toList os]
+
+-- | The recipes for the page's steps, and those for lines prepared on their own.
+stepsAndPreps :: Dish -> ([(Int, Recipe)], [Recipe])
+stepsAndPreps d = partitionEithers [maybe (Right r) (\s -> Left (s.step, r)) r.sourceRef | r <- toList d.recipes]
+
+-- | The numbers of the steps that take in an ingredient.
+consumers :: [(Int, Recipe)] -> IngredientId -> [Int]
+consumers steps i = [n | (n, r) <- steps, i `elem` map (.ingredient) (leaves r.inputs)]
 
 chainConnected :: Env -> Property
 chainConnected env = forDish env $ \_ d -> do
-    let rs = toList d.recipes
-    forM_ (zip (outputsOf d) (drop 1 rs)) $ \(made, next) -> take 1 (rights next.inputs.choices) === [made]
-    let numbers = mapMaybe (fmap (.step) . (.sourceRef)) rs
-    numbers === sort (ordNub numbers)
+    let (steps, preps) = stepsAndPreps d
+    forM_ (zip steps (drop 1 steps)) $ \((_, made), (_, next)) -> take 1 (rights next.inputs.choices) === outputsOf made
+    map fst steps === sort (ordNub (map fst steps))
+    forM_ preps $ \p -> forM_ (outputsOf p) $ \o -> length (consumers steps o.ingredient) === 1
 
 takenOnce :: Env -> Property
 takenOnce env = forDish env $ \answers d -> do
-    let leaves s = rights s.choices <> concatMap leaves (lefts s.choices)
-        chained = map (.ingredient) (outputsOf d)
+    let chained = map (.ingredient) (concatMap outputsOf (toList d.recipes))
         taken = [l.ingredient | r <- toList d.recipes, l <- leaves r.inputs, l.ingredient `notElem` chained]
         assigned = [i | (l, j) <- toList answers.ingredients, isJust j.value, Just i <- [ingredientFor env l.parsed.ingredient]]
     sort taken === sort assigned
+
+{- | A line goes in at the first step at or after the one Jev names that
+makes a recipe, or at the last when none does; prepared on its own, it
+goes in as what its preparation makes.
+-}
+prepFeedsFirstStep :: Env -> Property
+prepFeedsFirstStep env = forDish env $ \answers d -> do
+    let (steps, preps) = stepsAndPreps d
+    forM_ answers.ingredients $ \(l, j) -> case j.value of
+        Just (FirstUse n Judged{value = Just _}) -> do
+            raw <- maybe failure pure (ingredientFor env l.parsed.ingredient)
+            let numbers = map fst steps
+                expected = find (>= n) numbers <|> viaNonEmpty last numbers
+            case [p | p <- preps, map (.ingredient) (leaves p.inputs) == [raw]] of
+                [p] -> map (consumers steps . (.ingredient)) (outputsOf p) === [toList expected]
+                found -> annotateShow found >> failure
+        _ -> pure ()
+
+-- | Where an unheated step sits sets its reference temperature and its ceiling, and babel accepts both.
+ambientBands :: Env -> Property
+ambientBands env = forDish env $ \answers d -> do
+    let (steps, preps) = stepsAndPreps d
+        placeOf n = [place | (s, a) <- toList answers.steps, s.number == n, Ambient place <- [a.medium.value]]
+        expected = \case
+            Room -> (20, Nothing)
+            Fridge -> (4, Just 8)
+            Freezer -> (-18, Just 0)
+        sensitivity r = [s | ByTime _ (Just s) <- [r.end]]
+    forM_ steps $ \(n, r) -> map (\s -> (s.refTempC, s.maxTempC)) (sensitivity r) === map expected (placeOf n)
+    forM_ preps $ \r -> map (\s -> (s.refTempC, s.maxTempC)) (sensitivity r) === [expected Room]
+    forM_ (concatMap sensitivity (toList d.recipes)) $ \s -> sensitivityChecks "" s === []
 
 {- | Pages agree on what a preparation makes, so the dataset has one item
 for it. A preparation of the page's own intermediate is the page's alone.
@@ -199,8 +243,8 @@ preparationsShared env = forDish env $ \_ d -> do
 
 namesUnique :: Env -> Property
 namesUnique env = property $ do
-    (page, _) <- forAll (genAnswered env)
-    let names = questionNames (pageRequest env.vocabulary page).ask
+    (page, answers) <- forAll (genAnswered env)
+    let names = questionNames (pageRequest env.vocabulary page).ask <> questionNames (prepRequest env.vocabulary page ((.step) <$> answers)).ask
     length (ordNub names) === length names
 
 -- * Golden
@@ -216,17 +260,20 @@ pancakes world = do
     (_, revid, wikitext) <- maybe (assertFailure "the fixture has no pancakes page") pure (article cookbook title)
     page <- either (assertFailure . toString) pure (recipePage (lexicon env) title revid wikitext)
     answers <- either assertFailure pure =<< Aeson.eitherDecodeFileStrict "test/fixtures/pancakes.answers.json"
-    decoded <- either (assertFailure . toString) pure (answer (pageRequest env.vocabulary page) [answers])
+    firstSteps <- either (assertFailure . toString) pure (answer (pageRequest env.vocabulary page) [answers])
+    decoded <- either (assertFailure . toString) pure (answer (prepRequest env.vocabulary page firstSteps) [answers])
     d <- either (assertFailure . toString) pure (dish env page decoded)
-    mapMaybe (fmap (.step) . (.sourceRef)) (toList d.recipes) @?= [1 .. 6]
+    map (idText . (.id)) (toList d.recipes) @?= ["pancakes_north_american.step_" <> show n | n <- [1 .. 6 :: Int]]
     let mixDry = (head d.recipes).inputs.choices
     sort [idText l.ingredient | Right l <- mixDry] @?= ["baking_powder", "salt", "wheat_flour"]
     [idText l.ingredient | Left optionalSugar <- mixDry, Right l <- optionalSugar.choices] @?= ["white_sugar"]
 
 -- * Preparations
 
--- | A page of one-line steps, each answered with the given technique, all certain.
-answeredPage :: Text -> [(Text, Maybe Int)] -> [(Text, Text)] -> (RecipePage, PageAnswers)
+{- | A page of one-line steps, each answered with the given technique, all
+certain; each line is used at its step, prepared by its technique if any.
+-}
+answeredPage :: Text -> [(Text, Maybe (Int, Maybe Text))] -> [(Text, Text)] -> (RecipePage, PageAnswers FirstUse)
 answeredPage title lines steps = (page, answers)
   where
     page =
@@ -241,22 +288,31 @@ answeredPage title lines steps = (page, answers)
     answers =
         PageAnswers
             { singleDish = sure True
-            , steps = NE.zip page.steps (fromList' [StepAnswers (sure True) (sure (TechniqueId t)) (sure Nothing) (sure (FormId "piece")) | (t, _) <- steps])
-            , ingredients = NE.zip page.ingredients (fromList' (map (sure . snd) lines))
+            , steps = NE.zip page.steps (fromList' [StepAnswers (sure True) (sure (TechniqueId t)) (sure (Ambient Room)) (sure (FormId "piece")) | (t, _) <- steps])
+            , ingredients = NE.zip page.ingredients (fromList' [sure (firstUse <$> use) | (_, use) <- lines])
             }
+    firstUse (n, technique) = FirstUse n (sure ((\t -> Prep (TechniqueId t) (sure (FormId "shred"))) <$> technique))
     sure a = Judged a 1
     fromList' = fromMaybe (error "answeredPage needs lines and steps") . nonEmpty
 
 frenchFries :: Env -> IO ()
 frenchFries env = do
-    let (page, answers) = answeredPage "French fries" [("Potato", Just 1), ("Vegetable oil", Just 2)] [("julienne", "Cut the potatoes into strips."), ("fry", "Fry them in the oil.")]
+    let (page, answers) = answeredPage "French fries" [("Potato", Just (1, Nothing)), ("Vegetable oil", Just (2, Nothing))] [("julienne", "Cut the potatoes into strips."), ("fry", "Fry them in the oil.")]
     d <- either (assertFailure . toString) pure (dish env page answers)
     [idText o.ingredient | r <- toList d.recipes, Outputs os <- [r.outputs], o <- toList os] @?= ["potato_shreds", "french_fries"]
     map (idText . (.makes)) d.prepared @?= ["potato_shreds"]
 
+julienned :: Env -> IO ()
+julienned env = do
+    let (page, answers) = answeredPage "French fries" [("Potato", Just (1, Just "julienne")), ("Vegetable oil", Just (1, Nothing))] [("fry", "Fry the potato strips in the oil.")]
+    d <- either (assertFailure . toString) pure (dish env page answers)
+    [(idText r.id, map (idText . (.ingredient)) (leaves r.inputs)) | r <- toList d.recipes]
+        @?= [("french_fries.step_1.prep_1", ["potato"]), ("french_fries.step_1", ["potato_shreds", "vegetable_oil"])]
+    map (idText . (.makes)) d.prepared @?= ["potato_shreds"]
+
 sashimi :: Env -> IO ()
 sashimi env = do
-    let (page, answers) = answeredPage "Sashimi" [("Fish", Just 1)] [("cut", "Slice the fish thinly.")]
+    let (page, answers) = answeredPage "Sashimi" [("Fish", Just (1, Nothing))] [("cut", "Slice the fish thinly.")]
     d <- either (assertFailure . toString) pure (dish env page answers)
     map (.id) d.made @?= []
     [(s.makes, s.dishName) | s <- d.prepared] @?= [(IngredientId "fish_cut", Just "sashimi")]

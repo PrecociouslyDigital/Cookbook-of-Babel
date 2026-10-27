@@ -1,0 +1,49 @@
+{
+  "id": "carbonara_pasta.step_1.prep_9",
+  "source": "wikibooks_carbonara_pasta",
+  "technique": "boil",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "pasta",
+        "amount": {
+          "qty": 12,
+          "unit": "oz"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "pasta_boil",
+      "amount": {
+        "qty": 12,
+        "unit": "oz"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "12 oz (340 g) uncooked pasta (e.g. spaghetti or penne)",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

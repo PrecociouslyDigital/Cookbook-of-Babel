@@ -1,0 +1,49 @@
+{
+  "id": "marzipan_cake.step_8.prep_8",
+  "source": "wikibooks_marzipan_cake",
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "fruit_preserves",
+        "amount": {
+          "qty": 3,
+          "unit": "tbsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "fruit_preserves_mix",
+      "amount": {
+        "qty": 3,
+        "unit": "tbsp"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "3 tablespoons jam",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

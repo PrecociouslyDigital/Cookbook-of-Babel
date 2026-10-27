@@ -40,28 +40,23 @@
       }
     }
   ],
-  "environment": {
-    "temperatureC": 90,
-    "medium": "simmering_water"
-  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
     }
   },
   "stateNote": "Mix citric acid and water, and pour over the dolma to just barely cover the top layer of grape leaves.",
   "issues": [
     {
-      "field": "environment",
+      "field": "technique",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.35"
-    },
-    {
-      "field": "environment",
-      "kind": "estimate",
-      "note": "no temperature given; assumed 90.0 °C for simmering_water"
+      "note": "the decision model gave this answer a probability of 0.59"
     },
     {
       "field": "end",

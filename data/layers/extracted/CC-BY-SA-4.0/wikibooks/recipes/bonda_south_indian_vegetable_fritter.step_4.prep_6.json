@@ -1,0 +1,49 @@
+{
+  "id": "bonda_south_indian_vegetable_fritter.step_4.prep_6",
+  "source": "wikibooks_bonda_south_indian_vegetable_fritter",
+  "technique": "fry",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "garlic",
+        "amount": {
+          "qty": 1,
+          "unit": "tsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "garlic_fry",
+      "amount": {
+        "qty": 1,
+        "unit": "tsp"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "1 tsp finely-chopped Garlic",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

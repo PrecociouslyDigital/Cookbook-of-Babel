@@ -9,14 +9,14 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "vegetable_oil",
+        "ingredient": "vegetable_oil_heat",
         "amount": {
           "qty": 1,
           "unit": "tbsp"
         }
       },
       {
-        "ingredient": "garlic",
+        "ingredient": "garlic_fry",
         "amount": {
           "qty": 1,
           "unit": "tbsp"
@@ -28,14 +28,14 @@
     {
       "ingredient": "stir_fried_shrimp_with_broccoli_step_1",
       "amount": {
-        "qty": 28.4,
+        "qty": 29.6,
         "unit": "g"
       }
     }
   ],
   "environment": {
     "temperatureC": 190,
-    "medium": "frying_oil"
+    "medium": "pan_contact"
   },
   "end": {
     "by": "time",
@@ -49,17 +49,12 @@
     {
       "field": "technique",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.58"
-    },
-    {
-      "field": "environment",
-      "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.53"
+      "note": "the decision model gave this answer a probability of 0.51"
     },
     {
       "field": "outputs",
       "kind": "estimate",
-      "note": "assumed 1 g/ml for garlic"
+      "note": "assumed 1 g/ml for vegetable_oil_heat, garlic_fry"
     },
     {
       "field": "environment",

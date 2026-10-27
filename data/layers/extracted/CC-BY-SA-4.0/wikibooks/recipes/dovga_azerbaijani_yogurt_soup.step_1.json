@@ -5,11 +5,11 @@
     "source": "wikibooks_dovga_azerbaijani_yogurt_soup",
     "step": 1
   },
-  "technique": "mix",
+  "technique": "assemble",
   "inputs": {
     "of": [
       {
-        "ingredient": "yogurt",
+        "ingredient": "yogurt_mix",
         "amount": {
           "qty": 1,
           "unit": "l"
@@ -19,7 +19,7 @@
   },
   "outputs": [
     {
-      "ingredient": "yogurt_mix",
+      "ingredient": "dovga_azerbaijani_yogurt_soup_step_1",
       "amount": {
         "qty": 1000,
         "unit": "g"
@@ -40,14 +40,9 @@
   "stateNote": "Stir yogurt to remove lumps, then pour into a pot.",
   "issues": [
     {
-      "field": "technique",
-      "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.54"
-    },
-    {
       "field": "outputs",
       "kind": "estimate",
-      "note": "assumed 1 g/ml for yogurt"
+      "note": "assumed 1 g/ml for yogurt_mix"
     },
     {
       "field": "end",

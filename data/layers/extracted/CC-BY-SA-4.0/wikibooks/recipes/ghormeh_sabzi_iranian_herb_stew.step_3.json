@@ -16,14 +16,14 @@
         }
       },
       {
-        "ingredient": "onion",
+        "ingredient": "onion_fry",
         "amount": {
           "qty": 2,
           "unit": "piece"
         }
       },
       {
-        "ingredient": "oil_and_fat",
+        "ingredient": "oil_and_fat_heat",
         "amount": {
           "qty": 1,
           "unit": "tbsp"
@@ -53,6 +53,11 @@
   },
   "stateNote": "Heat a bit of normal olive oil in a big pot with lid. Add the onions, and fry at high temperature for 1–2 minutes.",
   "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.54"
+    },
     {
       "field": "environment",
       "kind": "estimate",

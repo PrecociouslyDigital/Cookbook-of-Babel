@@ -5,7 +5,7 @@
     "source": "wikibooks_agnolotti_pasta_soup_agnolotti_in_brodo",
     "step": 5
   },
-  "technique": "steep",
+  "technique": "age",
   "inputs": {
     "of": [
       {
@@ -33,15 +33,15 @@
       }
     }
   ],
-  "environment": {
-    "temperatureC": 85,
-    "medium": "still_air"
-  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
     }
   },
   "stateNote": "Let stand for a few minutes to marry the flavors, then serve, sprinkled with grated Parmesan cheese and enjoy.",
@@ -49,22 +49,17 @@
     {
       "field": "technique",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.38"
+      "note": "the decision model gave this answer a probability of 0.42"
     },
     {
       "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.42"
+      "note": "the decision model gave this answer a probability of 0.45"
     },
     {
       "field": "inputs",
       "kind": "estimate",
       "note": "'Freshly-grated Parmesan cheese (Parmigiano-Reggiano) for garnish': no quantity given; assumed a pinch"
-    },
-    {
-      "field": "environment",
-      "kind": "estimate",
-      "note": "no temperature given; used the middle of steep's typical range"
     },
     {
       "field": "end",

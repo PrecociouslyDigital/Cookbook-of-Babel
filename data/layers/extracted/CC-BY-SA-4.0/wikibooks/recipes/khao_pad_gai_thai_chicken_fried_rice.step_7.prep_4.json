@@ -1,0 +1,54 @@
+{
+  "id": "khao_pad_gai_thai_chicken_fried_rice.step_7.prep_4",
+  "source": "wikibooks_khao_pad_gai_thai_chicken_fried_rice",
+  "technique": "chill",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "rice",
+        "amount": {
+          "qty": 900,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "rice_chill",
+      "amount": {
+        "qty": 900,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 8,
+      "unit": "h"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "4 cups (900 g) cooked Thai jasmine rice, refrigerated overnight",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.55"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "'overnight' read as 8 hours"
+    }
+  ]
+}

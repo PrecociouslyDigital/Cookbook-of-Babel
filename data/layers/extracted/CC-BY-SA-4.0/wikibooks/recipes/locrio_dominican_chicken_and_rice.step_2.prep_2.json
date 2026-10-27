@@ -1,0 +1,49 @@
+{
+  "id": "locrio_dominican_chicken_and_rice.step_2.prep_2",
+  "source": "wikibooks_locrio_dominican_chicken_and_rice",
+  "technique": "heat",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "white_sugar",
+        "amount": {
+          "qty": 1,
+          "unit": "tbsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "white_sugar_heat",
+      "amount": {
+        "qty": 1,
+        "unit": "tbsp"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "1 tbsp sugar",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

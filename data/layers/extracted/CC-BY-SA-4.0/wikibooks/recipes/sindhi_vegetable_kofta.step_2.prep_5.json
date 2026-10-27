@@ -1,0 +1,54 @@
+{
+  "id": "sindhi_vegetable_kofta.step_2.prep_5",
+  "source": "wikibooks_sindhi_vegetable_kofta",
+  "technique": "chop",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "cauliflower",
+        "amount": {
+          "qty": 150,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "cauliflower_chop",
+      "amount": {
+        "qty": 150,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "150 g finely-chopped cauliflower",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.56"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

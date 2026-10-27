@@ -49,7 +49,7 @@
   ],
   "environment": {
     "temperatureC": 90,
-    "medium": "simmering_water"
+    "medium": "pan_contact"
   },
   "end": {
     "by": "time",
@@ -60,6 +60,11 @@
   },
   "stateNote": "Strain the juice from the lemons into a small saucepan, add the turmeric, ginger and sugar, and simmer for 2–3 minutes until the sugar has dissolved. If there isn't enough juice, add 1–2 tablespoons water.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.58"
+    },
     {
       "field": "environment",
       "kind": "estimate",

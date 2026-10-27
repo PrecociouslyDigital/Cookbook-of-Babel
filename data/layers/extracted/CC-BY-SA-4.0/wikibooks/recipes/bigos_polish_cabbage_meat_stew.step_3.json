@@ -5,7 +5,7 @@
     "source": "wikibooks_bigos_polish_cabbage_meat_stew",
     "step": 3
   },
-  "technique": "pan_fry",
+  "technique": "fry",
   "inputs": {
     "of": [
       {
@@ -16,14 +16,14 @@
         }
       },
       {
-        "ingredient": "pork",
+        "ingredient": "pork_chop",
         "amount": {
           "qty": 500,
           "unit": "g"
         }
       },
       {
-        "ingredient": "sausage",
+        "ingredient": "sausage_chop",
         "amount": {
           "qty": 250,
           "unit": "g"
@@ -41,7 +41,7 @@
     }
   ],
   "environment": {
-    "temperatureC": 185,
+    "temperatureC": 190,
     "medium": "pan_contact"
   },
   "end": {
@@ -54,9 +54,14 @@
   "stateNote": "Fry the chopped meat and sausage in the bacon grease.",
   "issues": [
     {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.53"
+    },
+    {
       "field": "environment",
       "kind": "estimate",
-      "note": "no temperature given; used the middle of pan_fry's typical range"
+      "note": "no temperature given; used the middle of fry's typical range"
     },
     {
       "field": "end",

@@ -1,0 +1,54 @@
+{
+  "id": "deep_fried_chickpea_dough_curry_snacks_pakoda.step_1.prep_11",
+  "source": "wikibooks_deep_fried_chickpea_dough_curry_snacks_pakoda",
+  "technique": "grind",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "pepper",
+        "amount": {
+          "qty": 1,
+          "unit": "tsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "pepper_grind",
+      "amount": {
+        "qty": 1,
+        "unit": "tsp"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "1 tsp crushed black peppercorns",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.56"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

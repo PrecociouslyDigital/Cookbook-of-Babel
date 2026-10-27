@@ -1,0 +1,54 @@
+{
+  "id": "cao_l_u_vietnamese_pork_noodles_with_greens.step_5.prep_3",
+  "source": "wikibooks_cao_l_u_vietnamese_pork_noodles_with_greens",
+  "technique": "boil",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "bean_sprout",
+        "amount": {
+          "qty": 150,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "bean_sprout_boil",
+      "amount": {
+        "qty": 150,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "2 cups (150 g) bean sprouts",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.57"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

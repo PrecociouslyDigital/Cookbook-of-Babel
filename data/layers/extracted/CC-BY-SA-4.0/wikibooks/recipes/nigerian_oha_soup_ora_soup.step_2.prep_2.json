@@ -1,0 +1,49 @@
+{
+  "id": "nigerian_oha_soup_ora_soup.step_2.prep_2",
+  "source": "wikibooks_nigerian_oha_soup_ora_soup",
+  "technique": "boil",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "taro_root",
+        "amount": {
+          "qty": 500,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "taro_root_boil",
+      "amount": {
+        "qty": 500,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "500 grams cocoyam (ede), peeled and boiled",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

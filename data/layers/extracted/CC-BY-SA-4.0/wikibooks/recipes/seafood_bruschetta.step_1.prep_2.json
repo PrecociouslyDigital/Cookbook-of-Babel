@@ -1,0 +1,49 @@
+{
+  "id": "seafood_bruschetta.step_1.prep_2",
+  "source": "wikibooks_seafood_bruschetta",
+  "technique": "fry",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "imitation_crab",
+        "amount": {
+          "qty": 8,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "imitation_crab_fry",
+      "amount": {
+        "qty": 8,
+        "unit": "piece"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "8 crabsticks, cut into 6 parts and fried with 1 tbsp vegetable oil",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

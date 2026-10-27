@@ -11,8 +11,15 @@
       {
         "ingredient": "steamed_rice_step_2",
         "amount": {
-          "qty": 711.3,
+          "qty": 238.1,
           "unit": "g"
+        }
+      },
+      {
+        "ingredient": "water_boil",
+        "amount": {
+          "qty": 2,
+          "unit": "cup"
         }
       }
     ]
@@ -39,6 +46,16 @@
   },
   "stateNote": "Bring rice to a boil over high heat. Stir.",
   "issues": [
+    {
+      "field": "inputs",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.45"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for water_boil"
+    },
     {
       "field": "environment",
       "kind": "estimate",

@@ -1,0 +1,54 @@
+{
+  "id": "garden_bulgur.step_1.prep_2",
+  "source": "wikibooks_garden_bulgur",
+  "technique": "chop",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "celery",
+        "amount": {
+          "qty": 0.5,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "celery_chop",
+      "amount": {
+        "qty": 0.5,
+        "unit": "cup"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "½ cup chopped celery",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.59"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

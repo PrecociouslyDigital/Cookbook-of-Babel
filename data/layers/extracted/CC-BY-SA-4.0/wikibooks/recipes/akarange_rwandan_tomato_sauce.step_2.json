@@ -9,14 +9,14 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "vegetable_oil",
+        "ingredient": "vegetable_oil_heat",
         "amount": {
           "qty": 2,
           "unit": "tbsp"
         }
       },
       {
-        "ingredient": "onion",
+        "ingredient": "onion_chop",
         "amount": {
           "qty": 1,
           "unit": "piece"
@@ -53,6 +53,11 @@
   },
   "stateNote": "Add the chopped onion and minced garlic to the pan. Sauté until the onion becomes translucent and fragrant.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.54"
+    },
     {
       "field": "environment",
       "kind": "estimate",

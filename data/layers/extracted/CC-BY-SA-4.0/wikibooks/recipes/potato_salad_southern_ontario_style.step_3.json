@@ -5,7 +5,7 @@
     "source": "wikibooks_potato_salad_southern_ontario_style",
     "step": 3
   },
-  "technique": "pan_fry",
+  "technique": "assemble",
   "inputs": {
     "of": [
       {
@@ -16,7 +16,7 @@
         }
       },
       {
-        "ingredient": "onion",
+        "ingredient": "onion_fry",
         "amount": {
           "qty": 4,
           "unit": "piece"
@@ -34,7 +34,7 @@
     }
   ],
   "environment": {
-    "temperatureC": 185,
+    "temperatureC": 180,
     "medium": "pan_contact"
   },
   "end": {
@@ -47,9 +47,14 @@
   "stateNote": "Sauté some diced onions until light golden brown and add to the bowl with eggs.",
   "issues": [
     {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.37"
+    },
+    {
       "field": "environment",
       "kind": "estimate",
-      "note": "no temperature given; used the middle of pan_fry's typical range"
+      "note": "no temperature given; assumed 180.0 °C for pan_contact"
     },
     {
       "field": "end",

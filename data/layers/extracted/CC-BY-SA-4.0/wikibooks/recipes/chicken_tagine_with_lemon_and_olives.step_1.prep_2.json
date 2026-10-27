@@ -1,0 +1,49 @@
+{
+  "id": "chicken_tagine_with_lemon_and_olives.step_1.prep_2",
+  "source": "wikibooks_chicken_tagine_with_lemon_and_olives",
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "chicken",
+        "amount": {
+          "qty": 1,
+          "unit": "lb"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "chicken_cut",
+      "amount": {
+        "qty": 1,
+        "unit": "lb"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "1 pound boneless, skinless chicken breasts, cut in three pieces",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "milk",
+        "ingredient": "milk_simmer",
         "amount": {
           "qty": 1,
           "unit": "cup"
@@ -19,9 +19,9 @@
   },
   "outputs": [
     {
-      "ingredient": "milk_simmer",
+      "ingredient": "milk_simmer_simmer",
       "amount": {
-        "qty": 243.7,
+        "qty": 236.6,
         "unit": "g"
       }
     }
@@ -39,6 +39,11 @@
   },
   "stateNote": "In large saucepan, simmer milk without boiling.",
   "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for milk_simmer"
+    },
     {
       "field": "environment",
       "kind": "estimate",

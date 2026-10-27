@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "cassava_boil_cut",
+        "ingredient": "cassava_rinse_boil_cut",
         "amount": {
           "qty": 0.3,
           "unit": "g"
@@ -19,7 +19,7 @@
   },
   "outputs": [
     {
-      "ingredient": "cassava_boil_cut_grind",
+      "ingredient": "cassava_rinse_boil_cut_grind",
       "amount": {
         "qty": 0.3,
         "unit": "g"
@@ -39,6 +39,11 @@
   },
   "stateNote": "Mash the cassava in a mortar until it begins to form a sticky dough. Occasionally, you can moisten the pestle with a little water if necessary.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.57"
+    },
     {
       "field": "end",
       "kind": "estimate",

@@ -1,0 +1,49 @@
+{
+  "id": "colcannon.step_5.prep_6",
+  "source": "wikibooks_colcannon",
+  "technique": "fry",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "leek",
+        "amount": {
+          "qty": 2,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "leek_fry",
+      "amount": {
+        "qty": 2,
+        "unit": "piece"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "2 small leeks or 1 bunch of spring onion tops, chopped",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

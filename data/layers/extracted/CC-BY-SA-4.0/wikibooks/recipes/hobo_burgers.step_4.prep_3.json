@@ -1,0 +1,54 @@
+{
+  "id": "hobo_burgers.step_4.prep_3",
+  "source": "wikibooks_hobo_burgers",
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "potato",
+        "amount": {
+          "qty": 2,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "potato_cut",
+      "amount": {
+        "qty": 2,
+        "unit": "piece"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "2 potatoes, thinly sliced",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.56"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

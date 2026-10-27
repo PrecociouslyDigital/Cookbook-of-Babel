@@ -28,7 +28,7 @@
   ],
   "environment": {
     "temperatureC": 185,
-    "medium": "frying_oil"
+    "medium": "pan_contact"
   },
   "end": {
     "by": "time",
@@ -39,6 +39,11 @@
   },
   "stateNote": "Fry for 2–3 minutes on each side, until golden brown on the outside and just pink on the inside.",
   "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.5"
+    },
     {
       "field": "environment",
       "kind": "estimate",

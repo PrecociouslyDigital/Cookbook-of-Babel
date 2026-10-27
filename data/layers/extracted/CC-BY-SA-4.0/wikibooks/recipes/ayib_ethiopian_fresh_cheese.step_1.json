@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "milk",
+        "ingredient": "milk_heat",
         "amount": {
           "qty": 1,
           "unit": "l"
@@ -19,9 +19,9 @@
   },
   "outputs": [
     {
-      "ingredient": "milk_heat",
+      "ingredient": "milk_heat_heat",
       "amount": {
-        "qty": 1030,
+        "qty": 1000,
         "unit": "g"
       }
     }
@@ -39,6 +39,11 @@
   },
   "stateNote": "Pour the milk into a large pot and heat it over medium-low heat. Stir occasionally to prevent the milk from scorching or sticking to the bottom of the pot.",
   "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for milk_heat"
+    },
     {
       "field": "environment",
       "kind": "estimate",

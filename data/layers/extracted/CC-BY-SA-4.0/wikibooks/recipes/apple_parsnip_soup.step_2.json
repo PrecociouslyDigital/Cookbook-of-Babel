@@ -5,7 +5,7 @@
     "source": "wikibooks_apple_parsnip_soup",
     "step": 2
   },
-  "technique": "chop",
+  "technique": "mix",
   "inputs": {
     "of": [
       {
@@ -16,21 +16,21 @@
         }
       },
       {
-        "ingredient": "apple",
+        "ingredient": "apple_chop",
         "amount": {
           "qty": 2,
           "unit": "piece"
         }
       },
       {
-        "ingredient": "carrot",
+        "ingredient": "carrot_chop",
         "amount": {
           "qty": 1,
           "unit": "piece"
         }
       },
       {
-        "ingredient": "parsnip",
+        "ingredient": "parsnip_chop",
         "amount": {
           "qty": 1,
           "unit": "piece"
@@ -60,6 +60,16 @@
   },
   "stateNote": "Chop up the apples, the carrot, and the parsnip, and put them into the pot.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.53"
+    },
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.59"
+    },
     {
       "field": "environment",
       "kind": "estimate",

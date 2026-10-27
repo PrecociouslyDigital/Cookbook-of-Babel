@@ -20,7 +20,7 @@
         "max": 1,
         "of": [
           {
-            "ingredient": "spinach",
+            "ingredient": "spinach_chop",
             "amount": {
               "qty": 1,
               "unit": "cup"
@@ -66,6 +66,11 @@
   },
   "stateNote": "Add the steamed corn flour to the pan with the onions. Add the chopped leafy greens (if using), pepper, and salt. Stir everything together to combine the flavors, cooking for an additional 10 minutes.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.51"
+    },
     {
       "field": "inputs",
       "kind": "estimate",

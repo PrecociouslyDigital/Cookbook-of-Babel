@@ -26,23 +26,23 @@
       }
     }
   ],
+  "environment": {
+    "temperatureC": 20,
+    "medium": "still_air"
+  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "h"
-    },
-    "sensitivity": {
-      "refTempC": 20,
-      "q10": 1
     }
   },
   "stateNote": "Shape the dough into a ball and place it in a greased bowl. Cover the bowl with plastic wrap or a clean kitchen towel and let the dough rise in a warm place for about 1 hour, or until it has doubled in size.",
   "issues": [
     {
       "field": "environment",
-      "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.51"
+      "kind": "estimate",
+      "note": "no temperature given; assumed 20.0 °C for still_air"
     }
   ]
 }

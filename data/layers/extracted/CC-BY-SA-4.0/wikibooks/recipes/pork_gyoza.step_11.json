@@ -16,7 +16,7 @@
         }
       },
       {
-        "ingredient": "soy_sauce",
+        "ingredient": "soy_sauce_mix",
         "amount": {
           "qty": 1,
           "unit": "pinch"
@@ -35,6 +35,13 @@
           "qty": 1,
           "unit": "pinch"
         }
+      },
+      {
+        "ingredient": "vinegar_and_shredded_ginger",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
       }
     ]
   },
@@ -42,7 +49,7 @@
     {
       "ingredient": "pork_gyoza",
       "amount": {
-        "qty": 282.2,
+        "qty": 282.5,
         "unit": "g"
       }
     }
@@ -63,7 +70,7 @@
     {
       "field": "inputs",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.58"
+      "note": "the decision model gave this answer a probability of 0.53"
     },
     {
       "field": "inputs",
@@ -81,9 +88,14 @@
       "note": "'Plum sauce': no quantity given; assumed a pinch"
     },
     {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Black vinegar and shredded ginger': no quantity given; assumed a pinch"
+    },
+    {
       "field": "outputs",
       "kind": "estimate",
-      "note": "assumed 1 g/ml for soy_sauce, peanut_curry_sauce, plum_sauce"
+      "note": "assumed 1 g/ml for soy_sauce_mix, peanut_curry_sauce, plum_sauce, vinegar_and_shredded_ginger"
     },
     {
       "field": "environment",
@@ -93,17 +105,12 @@
     {
       "field": "inputs",
       "kind": "missing",
-      "note": "no step uses 'Black bean paste' (p=0.93)"
+      "note": "no step uses 'Black bean paste' (p=0.91)"
     },
     {
       "field": "inputs",
       "kind": "missing",
-      "note": "no step uses 'Black vinegar and shredded ginger' (p=0.54)"
-    },
-    {
-      "field": "inputs",
-      "kind": "missing",
-      "note": "no step uses 'Soy sauce with some rice wine vinegar' (p=0.71)"
+      "note": "no step uses 'Soy sauce with some rice wine vinegar' (p=0.76)"
     }
   ]
 }

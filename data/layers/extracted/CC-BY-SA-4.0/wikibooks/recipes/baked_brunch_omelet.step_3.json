@@ -5,7 +5,7 @@
     "source": "wikibooks_baked_brunch_omelet",
     "step": 3
   },
-  "technique": "whisk",
+  "technique": "assemble",
   "inputs": {
     "of": [
       {
@@ -16,7 +16,7 @@
         }
       },
       {
-        "ingredient": "egg",
+        "ingredient": "egg_whisk",
         "amount": {
           "qty": 8,
           "unit": "piece"
@@ -44,7 +44,7 @@
         }
       },
       {
-        "ingredient": "green_onion",
+        "ingredient": "green_onion_chop",
         "amount": {
           "qty": 25,
           "unit": "g"
@@ -74,6 +74,11 @@
   },
   "stateNote": "In a large bowl, beat together eggs, milk, salt, hot sauce and green onions. Pour egg mixture into pan.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.49"
+    },
     {
       "field": "end",
       "kind": "estimate",

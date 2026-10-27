@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "vegetable_oil",
+        "ingredient": "vegetable_oil_heat",
         "amount": {
           "qty": 0.75,
           "unit": "cup"
@@ -28,14 +28,14 @@
     {
       "ingredient": "seafood_gumbo_step_1",
       "amount": {
-        "qty": 257.3,
+        "qty": 271.5,
         "unit": "g"
       }
     }
   ],
   "environment": {
     "temperatureC": 185,
-    "medium": "frying_oil"
+    "medium": "pan_contact"
   },
   "end": {
     "by": "time",
@@ -46,6 +46,21 @@
   },
   "stateNote": "Heat oil in a 6–8 quart pot, then gradually whisk in the flour. Cook over medium heat for 20 minutes until very dark reddish brown. Stir constantly, especially towards the end. The best roux is quite dark, but don’t let it burn.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.4"
+    },
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.53"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for vegetable_oil_heat"
+    },
     {
       "field": "environment",
       "kind": "estimate",

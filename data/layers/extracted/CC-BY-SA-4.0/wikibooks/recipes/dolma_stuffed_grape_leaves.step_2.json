@@ -9,14 +9,14 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "grape_leaf_boil",
+        "ingredient": "grape_leaf_boil_boil",
         "amount": {
           "qty": 1,
           "unit": "batch"
         }
       },
       {
-        "ingredient": "onion",
+        "ingredient": "onion_cut",
         "amount": {
           "qty": 2.5,
           "unit": "lb"
@@ -46,6 +46,11 @@
   },
   "stateNote": "Cut each onion at the bottom root and slice ½-inch lengthwise. Boil for 5–10 minutes or until soft, then separate each layer without tearing.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.54"
+    },
     {
       "field": "environment",
       "kind": "estimate",

@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "potato",
+        "ingredient": "potato_rinse",
         "amount": {
           "qty": 8,
           "unit": "piece"
@@ -46,6 +46,11 @@
   },
   "stateNote": "Scrub potatoes and rub skins with oil. Prick each potato several times with a fork.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.53"
+    },
     {
       "field": "inputs",
       "kind": "estimate",

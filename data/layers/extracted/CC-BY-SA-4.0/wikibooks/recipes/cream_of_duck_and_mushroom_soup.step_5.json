@@ -39,15 +39,15 @@
       }
     }
   ],
+  "environment": {
+    "temperatureC": 180,
+    "medium": "pan_contact"
+  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
-    },
-    "sensitivity": {
-      "refTempC": 20,
-      "q10": 1
     }
   },
   "stateNote": "Sprinkle in nutmeg and serve.",
@@ -55,12 +55,17 @@
     {
       "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.28"
+      "note": "the decision model gave this answer a probability of 0.33"
     },
     {
       "field": "inputs",
       "kind": "estimate",
       "note": "'nutmeg to taste (optional)': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 180.0 °C for pan_contact"
     },
     {
       "field": "end",

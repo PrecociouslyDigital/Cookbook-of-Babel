@@ -1,0 +1,49 @@
+{
+  "id": "fisherman_s_casserole.step_2.prep_1",
+  "source": "wikibooks_fisherman_s_casserole",
+  "technique": "boil",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "macaroni",
+        "amount": {
+          "qty": 8,
+          "unit": "oz"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "macaroni_boil",
+      "amount": {
+        "qty": 8,
+        "unit": "oz"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "1 package (8 ounces) macaroni",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

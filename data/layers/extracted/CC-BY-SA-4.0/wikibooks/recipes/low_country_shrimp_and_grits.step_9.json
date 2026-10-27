@@ -23,14 +23,14 @@
         }
       },
       {
-        "ingredient": "hominy_grits",
+        "ingredient": "hominy_grits_boil",
         "amount": {
           "qty": 1,
           "unit": "piece"
         }
       },
       {
-        "ingredient": "green_onion",
+        "ingredient": "green_onion_cut",
         "amount": {
           "qty": 3.5,
           "unit": "piece"
@@ -47,15 +47,15 @@
       }
     }
   ],
-  "environment": {
-    "temperatureC": 90,
-    "medium": "simmering_water"
-  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
     }
   },
   "stateNote": "Add lime juice.",
@@ -63,7 +63,7 @@
     {
       "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.41"
+      "note": "the decision model gave this answer a probability of 0.49"
     },
     {
       "field": "inputs",
@@ -74,11 +74,6 @@
       "field": "inputs",
       "kind": "estimate",
       "note": "'1 recipe coarse grain hominy grits, timed to finish when shrimp are ready to serve': 'recipe' read as pieces"
-    },
-    {
-      "field": "environment",
-      "kind": "estimate",
-      "note": "no temperature given; assumed 90.0 °C for simmering_water"
     },
     {
       "field": "end",

@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "chicken",
+        "ingredient": "chicken_simmer",
         "amount": {
           "qty": 3,
           "unit": "cup"
@@ -19,7 +19,7 @@
   },
   "outputs": [
     {
-      "ingredient": "chicken_simmer",
+      "ingredient": "chicken_simmer_simmer",
       "amount": {
         "qty": 709.8,
         "unit": "g"
@@ -28,7 +28,7 @@
   ],
   "environment": {
     "temperatureC": 90,
-    "medium": "simmering_water"
+    "medium": "pan_contact"
   },
   "end": {
     "by": "time",
@@ -40,9 +40,14 @@
   "stateNote": "Bring the stock to a simmer before you begin. It's important that the temperature is as high as possible, without letting the stock boil. The surface of the stock should just be moving a little.",
   "issues": [
     {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.49"
+    },
+    {
       "field": "outputs",
       "kind": "estimate",
-      "note": "assumed 1 g/ml for chicken"
+      "note": "assumed 1 g/ml for chicken_simmer"
     },
     {
       "field": "environment",

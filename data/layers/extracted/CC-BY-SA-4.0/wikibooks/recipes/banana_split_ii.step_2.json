@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "banana_cut",
+        "ingredient": "banana_split_ii_step_1",
         "amount": {
           "qty": 1,
           "unit": "batch"
@@ -40,12 +40,18 @@
       "unit": "min"
     },
     "sensitivity": {
-      "refTempC": 20,
-      "q10": 1
+      "refTempC": -18,
+      "q10": 1,
+      "maxTempC": 0
     }
   },
   "stateNote": "Place three full scoops of ice-cream in-between the two pieces of banana.",
   "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.54"
+    },
     {
       "field": "inputs",
       "kind": "estimate",

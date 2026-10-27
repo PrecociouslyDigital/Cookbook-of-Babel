@@ -1,0 +1,49 @@
+{
+  "id": "valencian_inspired_paella.step_14.prep_16",
+  "source": "wikibooks_valencian_inspired_paella",
+  "technique": "rinse",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "artichoke",
+        "amount": {
+          "qty": 1.5,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "artichoke_rinse",
+      "amount": {
+        "qty": 1.5,
+        "unit": "piece"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "1–2 fresh artichokes (optional)",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

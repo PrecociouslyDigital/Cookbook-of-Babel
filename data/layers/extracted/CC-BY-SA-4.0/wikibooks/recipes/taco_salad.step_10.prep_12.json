@@ -1,0 +1,54 @@
+{
+  "id": "taco_salad.step_10.prep_12",
+  "source": "wikibooks_taco_salad",
+  "technique": "chop",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "tortilla_chip",
+        "amount": {
+          "qty": 0.75,
+          "unit": "lb"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "tortilla_chip_chop",
+      "amount": {
+        "qty": 0.75,
+        "unit": "lb"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "¾ lb corn tortilla chips",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.55"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

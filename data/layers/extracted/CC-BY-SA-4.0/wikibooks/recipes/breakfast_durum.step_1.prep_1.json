@@ -1,0 +1,49 @@
+{
+  "id": "breakfast_durum.step_1.prep_1",
+  "source": "wikibooks_breakfast_durum",
+  "technique": "toast",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "lavash",
+        "amount": {
+          "qty": 1,
+          "unit": "sheet"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "lavash_toast",
+      "amount": {
+        "qty": 1,
+        "unit": "sheet"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "1 large sheet of lavash or yufka flatbread",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

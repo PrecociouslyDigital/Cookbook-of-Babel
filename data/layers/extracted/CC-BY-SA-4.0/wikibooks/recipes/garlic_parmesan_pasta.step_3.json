@@ -33,15 +33,15 @@
       }
     }
   ],
-  "environment": {
-    "temperatureC": 180,
-    "medium": "pan_contact"
-  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
     }
   },
   "stateNote": "After tossing, add fresh grated Parmesan cheese to top off the dish.",
@@ -49,12 +49,7 @@
     {
       "field": "technique",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.51"
-    },
-    {
-      "field": "environment",
-      "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.47"
+      "note": "the decision model gave this answer a probability of 0.56"
     },
     {
       "field": "inputs",
@@ -65,11 +60,6 @@
       "field": "outputs",
       "kind": "estimate",
       "note": "assumed 1 g/ml for parmesan_cheese"
-    },
-    {
-      "field": "environment",
-      "kind": "estimate",
-      "note": "no temperature given; assumed 180.0 °C for pan_contact"
     },
     {
       "field": "end",

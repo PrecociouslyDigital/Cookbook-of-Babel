@@ -16,14 +16,14 @@
         }
       },
       {
-        "ingredient": "garlic",
+        "ingredient": "garlic_fry",
         "amount": {
           "qty": 2,
           "unit": "tbsp"
         }
       },
       {
-        "ingredient": "vegetable_oil",
+        "ingredient": "vegetable_oil_heat",
         "amount": {
           "qty": 1,
           "unit": "pinch"
@@ -42,7 +42,7 @@
   ],
   "environment": {
     "temperatureC": 215,
-    "medium": "pan_contact"
+    "medium": "frying_oil"
   },
   "end": {
     "by": "time",
@@ -54,6 +54,11 @@
   "stateNote": "Use a wok to cook garlic in oil over medium heat and add the meat. Reserve the juice.",
   "issues": [
     {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.52"
+    },
+    {
       "field": "inputs",
       "kind": "estimate",
       "note": "'Vegetable oil for frying': no quantity given; assumed a pinch"
@@ -61,7 +66,7 @@
     {
       "field": "outputs",
       "kind": "estimate",
-      "note": "assumed 1 g/ml for garlic"
+      "note": "assumed 1 g/ml for garlic_fry, vegetable_oil_heat"
     },
     {
       "field": "environment",

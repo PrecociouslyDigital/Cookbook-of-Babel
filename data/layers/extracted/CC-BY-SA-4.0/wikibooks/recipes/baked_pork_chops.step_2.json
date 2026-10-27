@@ -9,14 +9,14 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "apple",
+        "ingredient": "apple_cut",
         "amount": {
           "qty": 1,
           "unit": "piece"
         }
       },
       {
-        "ingredient": "onion",
+        "ingredient": "onion_cut",
         "amount": {
           "qty": 1,
           "unit": "piece"
@@ -60,6 +60,11 @@
   },
   "stateNote": "Layer sliced onion and apple in a baking dish that can be covered; drizzle honey and half the caraway over apple and onion slices",
   "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.53"
+    },
     {
       "field": "end",
       "kind": "estimate",

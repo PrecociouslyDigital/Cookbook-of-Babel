@@ -1,0 +1,49 @@
+{
+  "id": "greek_moussaka.step_2.prep_5",
+  "source": "wikibooks_greek_moussaka",
+  "technique": "chop",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "garlic",
+        "amount": {
+          "qty": 6,
+          "unit": "clove"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "garlic_chop",
+      "amount": {
+        "qty": 6,
+        "unit": "clove"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "6 cloves of garlic, chopped",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

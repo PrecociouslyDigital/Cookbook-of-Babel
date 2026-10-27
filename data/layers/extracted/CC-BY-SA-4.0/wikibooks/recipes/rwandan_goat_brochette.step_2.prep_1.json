@@ -1,0 +1,49 @@
+{
+  "id": "rwandan_goat_brochette.step_2.prep_1",
+  "source": "wikibooks_rwandan_goat_brochette",
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "goat",
+        "amount": {
+          "qty": 2,
+          "unit": "lb"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "goat_cut",
+      "amount": {
+        "qty": 2,
+        "unit": "lb"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "2 pounds goat meat, cut into 1-inch cubes",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

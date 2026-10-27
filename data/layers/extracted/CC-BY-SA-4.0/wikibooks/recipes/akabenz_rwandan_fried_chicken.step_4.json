@@ -5,7 +5,7 @@
     "source": "wikibooks_akabenz_rwandan_fried_chicken",
     "step": 4
   },
-  "technique": "fry",
+  "technique": "pan_fry",
   "inputs": {
     "of": [
       {
@@ -16,7 +16,7 @@
         }
       },
       {
-        "ingredient": "vegetable_oil",
+        "ingredient": "vegetable_oil_heat",
         "amount": {
           "qty": 1,
           "unit": "pinch"
@@ -34,7 +34,7 @@
     }
   ],
   "environment": {
-    "temperatureC": 190,
+    "temperatureC": 185,
     "medium": "frying_oil"
   },
   "end": {
@@ -49,7 +49,7 @@
     {
       "field": "technique",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.53"
+      "note": "the decision model gave this answer a probability of 0.56"
     },
     {
       "field": "inputs",
@@ -57,9 +57,14 @@
       "note": "'Vegetable oil, for frying': no quantity given; assumed a pinch"
     },
     {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for vegetable_oil_heat"
+    },
+    {
       "field": "environment",
       "kind": "estimate",
-      "note": "no temperature given; used the middle of fry's typical range"
+      "note": "no temperature given; used the middle of pan_fry's typical range"
     },
     {
       "field": "end",

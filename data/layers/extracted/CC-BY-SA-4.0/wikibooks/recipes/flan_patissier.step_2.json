@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "milk",
+        "ingredient": "milk_heat",
         "amount": {
           "qty": 500,
           "unit": "ml"
@@ -19,9 +19,9 @@
   },
   "outputs": [
     {
-      "ingredient": "milk_heat",
+      "ingredient": "milk_heat_heat",
       "amount": {
-        "qty": 515,
+        "qty": 500,
         "unit": "g"
       }
     }
@@ -39,6 +39,11 @@
   },
   "stateNote": "Heat the milk in a saucepan until scalding but not boiling.",
   "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for milk_heat"
+    },
     {
       "field": "environment",
       "kind": "estimate",

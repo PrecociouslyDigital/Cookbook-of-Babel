@@ -5,7 +5,7 @@
     "source": "wikibooks_apple_crisp_ii",
     "step": 3
   },
-  "technique": "mix",
+  "technique": "assemble",
   "inputs": {
     "of": [
       {
@@ -51,7 +51,7 @@
         }
       },
       {
-        "ingredient": "margarine",
+        "ingredient": "margarine_heat",
         "amount": {
           "qty": 0.25,
           "unit": "cup"
@@ -82,9 +82,14 @@
   "stateNote": "Combine all dry ingredients with butter and mix until crumbly. Sprinkle all this over apples.",
   "issues": [
     {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.54"
+    },
+    {
       "field": "outputs",
       "kind": "estimate",
-      "note": "assumed 1 g/ml for brown_sugar, rolled_oats, cinnamon, margarine"
+      "note": "assumed 1 g/ml for brown_sugar, rolled_oats, cinnamon, margarine_heat"
     },
     {
       "field": "end",

@@ -1,0 +1,49 @@
+{
+  "id": "salsa_fermented.step_5.prep_6",
+  "source": "wikibooks_salsa_fermented",
+  "technique": "chop",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "cilantro",
+        "amount": {
+          "qty": 1,
+          "unit": "bunch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "cilantro_chop",
+      "amount": {
+        "qty": 1,
+        "unit": "bunch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "1 bunch of fresh cilantro (coriander leaf, Chinese parsley)",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "id": "tuna_fish_cakes.step_1.prep_4",
+  "source": "wikibooks_tuna_fish_cakes",
+  "technique": "heat",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "pea",
+        "amount": {
+          "qty": 0.75,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "pea_heat",
+      "amount": {
+        "qty": 0.75,
+        "unit": "cup"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "¾ cup (180 ml) frozen peas, thawed and drained",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.47"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

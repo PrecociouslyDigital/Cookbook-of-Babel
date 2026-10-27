@@ -1,0 +1,54 @@
+{
+  "id": "potato_meat_loaf.step_4.prep_6",
+  "source": "wikibooks_potato_meat_loaf",
+  "technique": "chop",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "crumble",
+        "amount": {
+          "qty": 6,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "crumble_chop",
+      "amount": {
+        "qty": 6,
+        "unit": "piece"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "6 soda crackers, crumbled",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.48"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

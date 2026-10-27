@@ -26,15 +26,15 @@
       }
     }
   ],
+  "environment": {
+    "temperatureC": 55,
+    "medium": "still_air"
+  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
-    },
-    "sensitivity": {
-      "refTempC": 20,
-      "q10": 1
     }
   },
   "stateNote": "Remove the plums from the pickling liquid, and arrange over a bamboo mat or other woven tray that won't keep the moisture in. Set them outside in hot, dry, sunny weather, and allow them to dry for three full days.",
@@ -42,7 +42,12 @@
     {
       "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.51"
+      "note": "the decision model gave this answer a probability of 0.46"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of dry's typical range"
     },
     {
       "field": "end",

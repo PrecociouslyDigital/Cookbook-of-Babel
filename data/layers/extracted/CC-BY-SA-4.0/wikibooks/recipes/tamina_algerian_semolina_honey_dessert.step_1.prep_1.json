@@ -1,0 +1,49 @@
+{
+  "id": "tamina_algerian_semolina_honey_dessert.step_1.prep_1",
+  "source": "wikibooks_tamina_algerian_semolina_honey_dessert",
+  "technique": "toast",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "semolina",
+        "amount": {
+          "qty": 500,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "semolina_toast",
+      "amount": {
+        "qty": 500,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "500 g semolina (medium-grind)",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "maple_beans.step_1.prep_1",
+  "source": "wikibooks_maple_beans",
+  "technique": "rinse",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "pulses",
+        "amount": {
+          "qty": 625,
+          "unit": "ml"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "pulses_rinse",
+      "amount": {
+        "qty": 625,
+        "unit": "ml"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "625 ml (2 ½ cups) small dried white beans",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

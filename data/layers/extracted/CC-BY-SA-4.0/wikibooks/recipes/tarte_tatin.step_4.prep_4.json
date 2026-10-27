@@ -1,0 +1,49 @@
+{
+  "id": "tarte_tatin.step_4.prep_4",
+  "source": "wikibooks_tarte_tatin",
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "apple",
+        "amount": {
+          "qty": 5,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "apple_cut",
+      "amount": {
+        "qty": 5,
+        "unit": "piece"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "5 Golden Delicious apples, peeled, cored and quartered",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

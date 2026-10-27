@@ -1,0 +1,49 @@
+{
+  "id": "tibs_ethiopian_sauteed_meat_and_vegetables.step_4.prep_4",
+  "source": "wikibooks_tibs_ethiopian_sauteed_meat_and_vegetables",
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "meat",
+        "amount": {
+          "qty": 500,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "meat_cut",
+      "amount": {
+        "qty": 500,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "500 grams (1 lb) boneless meat (beef, lamb, or chicken), cut into bite-sized pieces",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

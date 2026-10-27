@@ -1,0 +1,49 @@
+{
+  "id": "ghormeh_sabzi_iranian_herb_stew.step_9.prep_9",
+  "source": "wikibooks_ghormeh_sabzi_iranian_herb_stew",
+  "technique": "soak",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "lime",
+        "amount": {
+          "qty": 8,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "lime_soak",
+      "amount": {
+        "qty": 8,
+        "unit": "piece"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "8 dried limes",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

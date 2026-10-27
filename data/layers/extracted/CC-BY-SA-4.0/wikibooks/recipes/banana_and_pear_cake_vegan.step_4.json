@@ -11,7 +11,7 @@
       {
         "ingredient": "banana_and_pear_cake_vegan_step_3",
         "amount": {
-          "qty": 1001.9,
+          "qty": 1252.1,
           "unit": "g"
         }
       }
@@ -21,29 +21,24 @@
     {
       "ingredient": "banana_and_pear_cake_vegan_step_4",
       "amount": {
-        "qty": 1001.9,
+        "qty": 1252.1,
         "unit": "g"
       }
     }
   ],
-  "environment": {
-    "temperatureC": 180,
-    "medium": "oven_air"
-  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
     }
   },
   "stateNote": "Spread the batter in a non-stick cake pan.",
   "issues": [
-    {
-      "field": "environment",
-      "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.55"
-    },
     {
       "field": "end",
       "kind": "estimate",

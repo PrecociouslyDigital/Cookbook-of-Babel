@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "oyster_rinse_steam",
+        "ingredient": "oyster_rinse_rinse_steam",
         "amount": {
           "qty": 1,
           "unit": "batch"
@@ -40,24 +40,19 @@
       }
     }
   ],
-  "environment": {
-    "temperatureC": 20,
-    "medium": "still_air"
-  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
     }
   },
   "stateNote": "Take them off the heat, open them on a plate, and season with salt and pepper.",
   "issues": [
-    {
-      "field": "environment",
-      "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.48"
-    },
     {
       "field": "inputs",
       "kind": "estimate",
@@ -67,11 +62,6 @@
       "field": "inputs",
       "kind": "estimate",
       "note": "'Pepper to taste': no quantity given; assumed a pinch"
-    },
-    {
-      "field": "environment",
-      "kind": "estimate",
-      "note": "no temperature given; assumed 20.0 °C for still_air"
     },
     {
       "field": "end",

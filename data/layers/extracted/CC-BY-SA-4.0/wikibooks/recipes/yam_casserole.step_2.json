@@ -5,7 +5,7 @@
     "source": "wikibooks_yam_casserole",
     "step": 2
   },
-  "technique": "mix",
+  "technique": "assemble",
   "inputs": {
     "of": [
       {
@@ -23,14 +23,14 @@
         }
       },
       {
-        "ingredient": "butter",
+        "ingredient": "butter_heat",
         "amount": {
           "qty": 0.25,
           "unit": "lb"
         }
       },
       {
-        "ingredient": "pecan",
+        "ingredient": "pecan_chop",
         "amount": {
           "qty": 1,
           "unit": "cup"
@@ -61,12 +61,18 @@
       "unit": "h"
     },
     "sensitivity": {
-      "refTempC": 20,
-      "q10": 1
+      "refTempC": 4,
+      "q10": 1,
+      "maxTempC": 8
     }
   },
   "stateNote": "Make praline topping by mixing all ingredients together in small bowl. Spread evenly over the yams. May be refrigerated covered overnight.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.52"
+    },
     {
       "field": "end",
       "kind": "estimate",

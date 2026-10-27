@@ -5,13 +5,13 @@
     "source": "wikibooks_flan_patissier",
     "step": 3
   },
-  "technique": "whisk",
+  "technique": "mix",
   "inputs": {
     "of": [
       {
-        "ingredient": "milk_heat",
+        "ingredient": "milk_heat_heat",
         "amount": {
-          "qty": 515,
+          "qty": 500,
           "unit": "g"
         }
       },
@@ -54,23 +54,23 @@
       }
     }
   ],
+  "environment": {
+    "temperatureC": 180,
+    "medium": "pan_contact"
+  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
-    },
-    "sensitivity": {
-      "refTempC": 20,
-      "q10": 1
     }
   },
   "stateNote": "In a bowl, mix the sugar and the cornstarch, then beat in the whole eggs. Very gradually whisk the hot milk into this mixture to avoid cooking the egg. Add the vanilla extract, and return this mixture to the saucepan.",
   "issues": [
     {
       "field": "environment",
-      "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.51"
+      "kind": "estimate",
+      "note": "no temperature given; assumed 180.0 °C for pan_contact"
     },
     {
       "field": "end",

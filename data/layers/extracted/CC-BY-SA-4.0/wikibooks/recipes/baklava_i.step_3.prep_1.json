@@ -1,0 +1,49 @@
+{
+  "id": "baklava_i.step_3.prep_1",
+  "source": "wikibooks_baklava_i",
+  "technique": "fold",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "phyllo_dough",
+        "amount": {
+          "qty": 1,
+          "unit": "lb"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "phyllo_dough_fold",
+      "amount": {
+        "qty": 1,
+        "unit": "lb"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "1 pound (454 g) phyllo dough",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

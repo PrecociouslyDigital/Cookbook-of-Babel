@@ -1,0 +1,49 @@
+{
+  "id": "biryani.step_6.prep_3",
+  "source": "wikibooks_biryani",
+  "technique": "boil",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "rice",
+        "amount": {
+          "qty": 2,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "rice_boil",
+      "amount": {
+        "qty": 2,
+        "unit": "cup"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "2 cups rice",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

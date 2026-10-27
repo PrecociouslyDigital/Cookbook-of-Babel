@@ -1,0 +1,49 @@
+{
+  "id": "texas_easy_chili.step_1.prep_1",
+  "source": "wikibooks_texas_easy_chili",
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "chuck_roast",
+        "amount": {
+          "qty": 3,
+          "unit": "lb"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "chuck_roast_cut",
+      "amount": {
+        "qty": 3,
+        "unit": "lb"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "3 pounds chuck roast or ground beef, cubed or formed into small meatballs",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

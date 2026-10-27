@@ -1,0 +1,49 @@
+{
+  "id": "gyuvetch_bulgarian_casserole_i.step_2.prep_6",
+  "source": "wikibooks_gyuvetch_bulgarian_casserole_i",
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "eggplant",
+        "amount": {
+          "qty": 3,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "eggplant_season",
+      "amount": {
+        "qty": 3,
+        "unit": "piece"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "3 eggplants, cut in 2 cm (1 in) round slices",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

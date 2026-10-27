@@ -5,7 +5,7 @@
     "source": "wikibooks_chicken_karahi_pakistani_chicken_with_tomato_and_peppers",
     "step": 2
   },
-  "technique": "fry",
+  "technique": "pan_fry",
   "inputs": {
     "of": [
       {
@@ -16,14 +16,14 @@
         }
       },
       {
-        "ingredient": "oil_and_fat",
+        "ingredient": "oil_and_fat_heat",
         "amount": {
           "qty": 2,
           "unit": "tbsp"
         }
       },
       {
-        "ingredient": "bell_pepper",
+        "ingredient": "bell_pepper_fry",
         "amount": {
           "qty": 5,
           "unit": "piece"
@@ -41,7 +41,7 @@
     }
   ],
   "environment": {
-    "temperatureC": 190,
+    "temperatureC": 185,
     "medium": "frying_oil"
   },
   "end": {
@@ -54,9 +54,14 @@
   "stateNote": "Heat some oil in a specialized wok known as a karaahi, and add red peppers to brown.",
   "issues": [
     {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.42"
+    },
+    {
       "field": "environment",
       "kind": "estimate",
-      "note": "no temperature given; used the middle of fry's typical range"
+      "note": "no temperature given; used the middle of pan_fry's typical range"
     },
     {
       "field": "end",

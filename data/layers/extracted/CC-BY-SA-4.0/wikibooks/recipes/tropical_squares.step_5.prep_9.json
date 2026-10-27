@@ -1,0 +1,49 @@
+{
+  "id": "tropical_squares.step_5.prep_9",
+  "source": "wikibooks_tropical_squares",
+  "technique": "dry",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "pineapple",
+        "amount": {
+          "qty": 1,
+          "unit": "can"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "pineapple_dry",
+      "amount": {
+        "qty": 1,
+        "unit": "can"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "1 tin crushed pineapple, drained",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

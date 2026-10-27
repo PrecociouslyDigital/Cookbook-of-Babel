@@ -33,15 +33,15 @@
       }
     }
   ],
-  "environment": {
-    "temperatureC": 190,
-    "medium": "oven_air"
-  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
     }
   },
   "stateNote": "Pour half the quiche batter into the shell, and check for leaks. If the shell is leaking a tiny bit or not at all, you can continue; if it's leaking a lot, it's best to bake the mixture in a casserole dish and serve the crust on the side.",
@@ -49,7 +49,7 @@
     {
       "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.48"
+      "note": "the decision model gave this answer a probability of 0.59"
     },
     {
       "field": "inputs",

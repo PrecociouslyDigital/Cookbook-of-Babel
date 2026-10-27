@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "rice",
+        "ingredient": "rice_rinse",
         "amount": {
           "qty": 2,
           "unit": "cup"
@@ -19,7 +19,7 @@
   },
   "outputs": [
     {
-      "ingredient": "rice_soak",
+      "ingredient": "rice_rinse_soak",
       "amount": {
         "qty": 473.2,
         "unit": "g"
@@ -40,9 +40,14 @@
   "stateNote": "Rinse the Basmati rice thoroughly and soak it in water for about 30 minutes. Drain the rice and set it aside.",
   "issues": [
     {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.42"
+    },
+    {
       "field": "outputs",
       "kind": "estimate",
-      "note": "assumed 1 g/ml for rice"
+      "note": "assumed 1 g/ml for rice_rinse"
     }
   ]
 }

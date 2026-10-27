@@ -1,0 +1,54 @@
+{
+  "id": "rugelach.step_10.prep_2",
+  "source": "wikibooks_rugelach",
+  "technique": "whisk",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "white_sugar",
+        "amount": {
+          "qty": 65,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "white_sugar_whisk",
+      "amount": {
+        "qty": 65,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "½ cup (65 g) plus 4 tsp white granulated sugar",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.51"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

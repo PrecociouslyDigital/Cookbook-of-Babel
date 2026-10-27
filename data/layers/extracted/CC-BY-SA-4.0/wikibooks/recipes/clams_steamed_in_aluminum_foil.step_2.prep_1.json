@@ -1,0 +1,49 @@
+{
+  "id": "clams_steamed_in_aluminum_foil.step_2.prep_1",
+  "source": "wikibooks_clams_steamed_in_aluminum_foil",
+  "technique": "rinse",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "clam",
+        "amount": {
+          "qty": 2,
+          "unit": "lb"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "clam_rinse",
+      "amount": {
+        "qty": 2,
+        "unit": "lb"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "18 ea. (2 lbs) clams",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

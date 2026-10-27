@@ -1,0 +1,49 @@
+{
+  "id": "baked_lamb_and_yogurt.step_1.prep_1",
+  "source": "wikibooks_baked_lamb_and_yogurt",
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "lamb_and_mutton",
+        "amount": {
+          "qty": 1.5,
+          "unit": "lb"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "lamb_and_mutton_cut",
+      "amount": {
+        "qty": 1.5,
+        "unit": "lb"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "1½ lb (680 g) lamb",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

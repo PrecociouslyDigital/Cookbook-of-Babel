@@ -16,14 +16,14 @@
         }
       },
       {
-        "ingredient": "vegetable_oil",
+        "ingredient": "vegetable_oil_heat",
         "amount": {
           "qty": 1,
           "unit": "pinch"
         }
       },
       {
-        "ingredient": "onion",
+        "ingredient": "onion_fry",
         "amount": {
           "qty": 1,
           "unit": "piece"
@@ -75,9 +75,14 @@
   "stateNote": "Heat some oil in a pan, and add the onion. Cook until soft, then stir in the flour, paprika, and tomatoes.",
   "issues": [
     {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.59"
+    },
+    {
       "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.58"
+      "note": "the decision model gave this answer a probability of 0.55"
     },
     {
       "field": "inputs",

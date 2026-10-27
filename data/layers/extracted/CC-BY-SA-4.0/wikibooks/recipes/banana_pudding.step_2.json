@@ -16,7 +16,7 @@
         }
       },
       {
-        "ingredient": "egg",
+        "ingredient": "egg_whisk",
         "amount": {
           "qty": 4,
           "unit": "piece"
@@ -33,19 +33,34 @@
       }
     }
   ],
+  "environment": {
+    "temperatureC": 180,
+    "medium": "pan_contact"
+  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
-    },
-    "sensitivity": {
-      "refTempC": 20,
-      "q10": 1
     }
   },
   "stateNote": "Whisk the egg yolks in a separate container (a coffee mug will do), then whisk two tablespoons of the hot milk mixture into the egg yolks to temper them so they don’t curdle.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.45"
+    },
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.45"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 180.0 °C for pan_contact"
+    },
     {
       "field": "end",
       "kind": "estimate",

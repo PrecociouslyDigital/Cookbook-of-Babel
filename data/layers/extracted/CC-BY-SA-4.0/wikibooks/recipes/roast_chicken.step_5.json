@@ -26,23 +26,16 @@
       }
     }
   ],
-  "environment": {
-    "temperatureC": 20,
-    "medium": "still_air"
-  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 20,
       "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
     }
   },
-  "stateNote": "Remove the chicken from the oven, cover loosely with foil and allow to rest for 20 minutes before carving.",
-  "issues": [
-    {
-      "field": "environment",
-      "kind": "estimate",
-      "note": "no temperature given; assumed 20.0 °C for still_air"
-    }
-  ]
+  "stateNote": "Remove the chicken from the oven, cover loosely with foil and allow to rest for 20 minutes before carving."
 }

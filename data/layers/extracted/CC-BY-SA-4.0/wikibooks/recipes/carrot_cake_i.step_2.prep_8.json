@@ -1,0 +1,49 @@
+{
+  "id": "carrot_cake_i.step_2.prep_8",
+  "source": "wikibooks_carrot_cake_i",
+  "technique": "heat",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "brown_sugar",
+        "amount": {
+          "qty": 250,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "brown_sugar_heat",
+      "amount": {
+        "qty": 250,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "250 g brown sugar",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

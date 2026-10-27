@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "onion",
+        "ingredient": "onion_fry",
         "amount": {
           "qty": 0.5,
           "unit": "cup"
@@ -47,9 +47,14 @@
   "stateNote": "Add the onion in to a large pot, and sauté until golden-brown. Then, add the olive oil in and stir constantly.",
   "issues": [
     {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.56"
+    },
+    {
       "field": "outputs",
       "kind": "estimate",
-      "note": "assumed 1 g/ml for onion, olive_oil"
+      "note": "assumed 1 g/ml for onion_fry, olive_oil"
     },
     {
       "field": "environment",

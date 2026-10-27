@@ -42,7 +42,7 @@
   ],
   "environment": {
     "temperatureC": 90,
-    "medium": "simmering_water"
+    "medium": "pan_contact"
   },
   "end": {
     "by": "time",
@@ -53,6 +53,11 @@
   },
   "stateNote": "Stir together apples, ⅔ cup sugar and 4 Tbsp water in a large saucepan. Simmer, covered for 5 minutes or until fruit is tender.",
   "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.59"
+    },
     {
       "field": "outputs",
       "kind": "estimate",

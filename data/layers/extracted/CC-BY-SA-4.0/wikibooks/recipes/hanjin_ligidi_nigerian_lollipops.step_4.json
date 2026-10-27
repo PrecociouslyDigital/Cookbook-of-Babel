@@ -5,7 +5,7 @@
     "source": "wikibooks_hanjin_ligidi_nigerian_lollipops",
     "step": 4
   },
-  "technique": "soak",
+  "technique": "steep",
   "inputs": {
     "of": [
       {
@@ -27,7 +27,7 @@
     }
   ],
   "environment": {
-    "temperatureC": 100,
+    "temperatureC": 85,
     "medium": "boiling_water"
   },
   "end": {
@@ -40,9 +40,14 @@
   "stateNote": "Soak the tsamiya in hot water for about 5 minutes.",
   "issues": [
     {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.53"
+    },
+    {
       "field": "environment",
       "kind": "estimate",
-      "note": "no temperature given; assumed 100.0 °C for boiling_water"
+      "note": "no temperature given; used the middle of steep's typical range"
     }
   ]
 }

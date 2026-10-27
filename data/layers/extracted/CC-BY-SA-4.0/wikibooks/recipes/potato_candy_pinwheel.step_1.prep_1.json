@@ -1,0 +1,49 @@
+{
+  "id": "potato_candy_pinwheel.step_1.prep_1",
+  "source": "wikibooks_potato_candy_pinwheel",
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "potato",
+        "amount": {
+          "qty": 0.5,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "potato_cut",
+      "amount": {
+        "qty": 0.5,
+        "unit": "piece"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "½ medium-sized potato, preferably russet or sweet",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

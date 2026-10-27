@@ -1,0 +1,49 @@
+{
+  "id": "sesame_shrimp_toast.step_1.prep_1",
+  "source": "wikibooks_sesame_shrimp_toast",
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "shrimp",
+        "amount": {
+          "qty": 20,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "shrimp_cut",
+      "amount": {
+        "qty": 20,
+        "unit": "piece"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "20 fresh uncooked large shrimp",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

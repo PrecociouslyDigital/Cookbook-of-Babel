@@ -1,0 +1,49 @@
+{
+  "id": "stuffed_squash.step_1.prep_1",
+  "source": "wikibooks_stuffed_squash",
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "squash",
+        "amount": {
+          "qty": 2.5,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "squash_cut",
+      "amount": {
+        "qty": 2.5,
+        "unit": "piece"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "1–4 winter squashes, depending on size (red kuri, blue hubbard, acorn, or other round-ish winter squash)",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

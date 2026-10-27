@@ -1,0 +1,54 @@
+{
+  "id": "spice_rubbed_grilled_chicken_breast.step_1.prep_7",
+  "source": "wikibooks_spice_rubbed_grilled_chicken_breast",
+  "technique": "grind",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "cinnamon",
+        "amount": {
+          "qty": 1,
+          "unit": "tsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "cinnamon_grind",
+      "amount": {
+        "qty": 1,
+        "unit": "tsp"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "1 tsp freshly-ground cinnamon",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.59"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "lemon_lime_soda_i.step_1.prep_2",
+  "source": "wikibooks_lemon_lime_soda_i",
+  "technique": "rinse",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "lime",
+        "amount": {
+          "qty": 4,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "lime_rinse",
+      "amount": {
+        "qty": 4,
+        "unit": "piece"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "4 whole limes, washed",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

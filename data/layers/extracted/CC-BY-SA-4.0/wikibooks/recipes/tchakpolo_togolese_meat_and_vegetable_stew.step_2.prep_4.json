@@ -1,0 +1,54 @@
+{
+  "id": "tchakpolo_togolese_meat_and_vegetable_stew.step_2.prep_4",
+  "source": "wikibooks_tchakpolo_togolese_meat_and_vegetable_stew",
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "meat",
+        "amount": {
+          "qty": 500,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "meat_cut",
+      "amount": {
+        "qty": 500,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "500 grams meat (beef, goat, or chicken), cut into chunks",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.37"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

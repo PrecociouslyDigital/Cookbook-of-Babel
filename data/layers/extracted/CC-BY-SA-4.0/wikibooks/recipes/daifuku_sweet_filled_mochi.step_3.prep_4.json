@@ -1,0 +1,49 @@
+{
+  "id": "daifuku_sweet_filled_mochi.step_3.prep_4",
+  "source": "wikibooks_daifuku_sweet_filled_mochi",
+  "technique": "heat",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "water",
+        "amount": {
+          "qty": 0.6666666666666666,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "water_heat",
+      "amount": {
+        "qty": 0.6666666666666666,
+        "unit": "cup"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "⅔ cup water",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

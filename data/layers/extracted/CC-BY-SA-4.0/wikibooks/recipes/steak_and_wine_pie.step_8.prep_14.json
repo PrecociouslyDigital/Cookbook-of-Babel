@@ -1,0 +1,49 @@
+{
+  "id": "steak_and_wine_pie.step_8.prep_14",
+  "source": "wikibooks_steak_and_wine_pie",
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "carrot",
+        "amount": {
+          "qty": 0.3333333333333333,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "carrot_cut",
+      "amount": {
+        "qty": 0.3333333333333333,
+        "unit": "piece"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "⅓ whole carrot, sliced ⅛ inch thick, then cut into semicircles",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

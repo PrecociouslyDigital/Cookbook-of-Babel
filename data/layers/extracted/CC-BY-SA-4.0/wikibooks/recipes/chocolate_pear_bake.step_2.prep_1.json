@@ -1,0 +1,49 @@
+{
+  "id": "chocolate_pear_bake.step_2.prep_1",
+  "source": "wikibooks_chocolate_pear_bake",
+  "technique": "heat",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "chocolate",
+        "amount": {
+          "qty": 7,
+          "unit": "oz"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "chocolate_heat",
+      "amount": {
+        "qty": 7,
+        "unit": "oz"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "7 oz (200 g) semisweet chocolate, chopped or in chips",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

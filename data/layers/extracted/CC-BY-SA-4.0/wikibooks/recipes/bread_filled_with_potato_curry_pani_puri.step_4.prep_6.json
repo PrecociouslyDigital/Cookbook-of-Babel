@@ -1,0 +1,49 @@
+{
+  "id": "bread_filled_with_potato_curry_pani_puri.step_4.prep_6",
+  "source": "wikibooks_bread_filled_with_potato_curry_pani_puri",
+  "technique": "chop",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "coriander",
+        "amount": {
+          "qty": 1,
+          "unit": "tbsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "coriander_chop",
+      "amount": {
+        "qty": 1,
+        "unit": "tbsp"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "1 tablespoon coriander",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

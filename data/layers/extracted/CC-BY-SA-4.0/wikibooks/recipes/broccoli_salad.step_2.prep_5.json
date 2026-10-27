@@ -1,0 +1,49 @@
+{
+  "id": "broccoli_salad.step_2.prep_5",
+  "source": "wikibooks_broccoli_salad",
+  "technique": "soak",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "raisin",
+        "amount": {
+          "qty": 80,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "raisin_soak",
+      "amount": {
+        "qty": 80,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "1 cup (80 g / 2.8 oz) raisins, plumped in boiling water",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

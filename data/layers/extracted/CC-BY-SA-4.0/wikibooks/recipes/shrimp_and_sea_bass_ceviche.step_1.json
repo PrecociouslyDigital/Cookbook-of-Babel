@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "shrimp",
+        "ingredient": "shrimp_boil",
         "amount": {
           "qty": 1,
           "unit": "lb"
@@ -46,6 +46,11 @@
   },
   "stateNote": "Boil salted water. Have ice water ready on the side. Poach shrimp for just 30 seconds in the hot water, then cool in ice water and drain.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.36"
+    },
     {
       "field": "inputs",
       "kind": "estimate",

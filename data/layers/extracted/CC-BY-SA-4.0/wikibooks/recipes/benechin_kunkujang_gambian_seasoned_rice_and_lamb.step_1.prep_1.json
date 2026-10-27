@@ -1,0 +1,49 @@
+{
+  "id": "benechin_kunkujang_gambian_seasoned_rice_and_lamb.step_1.prep_1",
+  "source": "wikibooks_benechin_kunkujang_gambian_seasoned_rice_and_lamb",
+  "technique": "rinse",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "rice",
+        "amount": {
+          "qty": 2,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "rice_rinse",
+      "amount": {
+        "qty": 2,
+        "unit": "cup"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "2 cups long-grain rice",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

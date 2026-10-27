@@ -1,0 +1,49 @@
+{
+  "id": "english_style_aged_cheese.step_1.prep_1",
+  "source": "wikibooks_english_style_aged_cheese",
+  "technique": "heat",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "milk",
+        "amount": {
+          "qty": 5,
+          "unit": "gal"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "milk_heat",
+      "amount": {
+        "qty": 5,
+        "unit": "gal"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "5 gallons (18.9 litres) unpasteurized cow's milk",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

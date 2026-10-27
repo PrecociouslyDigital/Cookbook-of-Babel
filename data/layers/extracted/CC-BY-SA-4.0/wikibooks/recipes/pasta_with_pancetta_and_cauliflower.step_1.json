@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "cauliflower",
+        "ingredient": "cauliflower_boil",
         "amount": {
           "qty": 1,
           "unit": "head"
@@ -19,7 +19,7 @@
   },
   "outputs": [
     {
-      "ingredient": "cauliflower_boil",
+      "ingredient": "cauliflower_boil_boil",
       "amount": {
         "qty": 1,
         "unit": "batch"
@@ -39,6 +39,11 @@
   },
   "stateNote": "Bring 4 quarts of water to a boil. Add cauliflower to boiling water and cook for 4 minutes. Transfer cauliflower to an ice bath, but do not discard the cooking water.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.56"
+    },
     {
       "field": "environment",
       "kind": "estimate",

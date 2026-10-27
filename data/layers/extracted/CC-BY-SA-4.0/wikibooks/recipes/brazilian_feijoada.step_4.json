@@ -5,7 +5,7 @@
     "source": "wikibooks_brazilian_feijoada",
     "step": 4
   },
-  "technique": "cut",
+  "technique": "strain",
   "inputs": {
     "of": [
       {
@@ -33,12 +33,23 @@
       "unit": "min"
     },
     "sensitivity": {
-      "refTempC": 20,
-      "q10": 1
+      "refTempC": 4,
+      "q10": 1,
+      "maxTempC": 8
     }
   },
   "stateNote": "Take the stockpot with the ribs out of the fridge and throw out the water. Divide the ribs; if you think they are too big, cut each in half.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.41"
+    },
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.57"
+    },
     {
       "field": "end",
       "kind": "estimate",

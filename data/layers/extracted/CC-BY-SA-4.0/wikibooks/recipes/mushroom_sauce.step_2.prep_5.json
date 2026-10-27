@@ -1,0 +1,49 @@
+{
+  "id": "mushroom_sauce.step_2.prep_5",
+  "source": "wikibooks_mushroom_sauce",
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "common_mushroom",
+        "amount": {
+          "qty": 225,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "common_mushroom_cut",
+      "amount": {
+        "qty": 225,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "225 grams (8 oz) button mushrooms, wiped and sliced",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

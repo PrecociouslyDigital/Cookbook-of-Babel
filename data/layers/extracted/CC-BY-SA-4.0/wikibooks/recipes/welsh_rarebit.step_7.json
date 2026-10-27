@@ -5,7 +5,7 @@
     "source": "wikibooks_welsh_rarebit",
     "step": 7
   },
-  "technique": "coat",
+  "technique": "assemble",
   "inputs": {
     "of": [
       {
@@ -16,7 +16,7 @@
         }
       },
       {
-        "ingredient": "toast",
+        "ingredient": "toast_toast",
         "amount": {
           "qty": 4,
           "unit": "slice"
@@ -33,15 +33,15 @@
       }
     }
   ],
+  "environment": {
+    "temperatureC": 180,
+    "medium": "pan_contact"
+  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
-    },
-    "sensitivity": {
-      "refTempC": 20,
-      "q10": 1
     }
   },
   "stateNote": "Pour over toast and serve immediately.",
@@ -49,7 +49,12 @@
     {
       "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.33"
+      "note": "the decision model gave this answer a probability of 0.38"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 180.0 °C for pan_contact"
     },
     {
       "field": "end",

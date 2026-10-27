@@ -1,0 +1,49 @@
+{
+  "id": "koshary_egyptian_pasta_salad_with_rice_and_lentils.step_2.prep_3",
+  "source": "wikibooks_koshary_egyptian_pasta_salad_with_rice_and_lentils",
+  "technique": "boil",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "macaroni",
+        "amount": {
+          "qty": 1,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "macaroni_boil",
+      "amount": {
+        "qty": 1,
+        "unit": "cup"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "1 cup elbow macaroni",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

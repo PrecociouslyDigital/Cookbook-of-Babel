@@ -26,24 +26,19 @@
       }
     }
   ],
-  "environment": {
-    "temperatureC": 218.33333333333334,
-    "medium": "oven_air"
-  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
     }
   },
   "stateNote": "When removing from the oven, cut into about 8 triangular, pie shaped slices for serving. A pizza cutter with a circular wheel does this nicely.",
   "issues": [
-    {
-      "field": "environment",
-      "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.49"
-    },
     {
       "field": "end",
       "kind": "estimate",
@@ -52,7 +47,7 @@
     {
       "field": "inputs",
       "kind": "missing",
-      "note": "no step uses '4 tbsp cornmeal (optional)' (p=0.89)"
+      "note": "no step uses '4 tbsp cornmeal (optional)' (p=0.9)"
     }
   ]
 }

@@ -1,0 +1,49 @@
+{
+  "id": "sese_plaintains_cameroonian_plantain_stew.step_5.prep_8",
+  "source": "wikibooks_sese_plaintains_cameroonian_plantain_stew",
+  "technique": "chop",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "kale",
+        "amount": {
+          "qty": 1,
+          "unit": "bunch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "kale_chop",
+      "amount": {
+        "qty": 1,
+        "unit": "bunch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "1 bunch of fresh kale leaves, chopped",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

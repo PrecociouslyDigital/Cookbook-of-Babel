@@ -23,7 +23,7 @@
         }
       },
       {
-        "ingredient": "milk",
+        "ingredient": "milk_chill",
         "amount": {
           "qty": 500,
           "unit": "ml"
@@ -35,7 +35,7 @@
     {
       "ingredient": "sweet_mango_lassi_step_2",
       "amount": {
-        "qty": 2227.5,
+        "qty": 2212.5,
         "unit": "g"
       }
     }
@@ -47,8 +47,9 @@
       "unit": "min"
     },
     "sensitivity": {
-      "refTempC": 20,
-      "q10": 1
+      "refTempC": 4,
+      "q10": 1,
+      "maxTempC": 8
     }
   },
   "stateNote": "Gradually add the milk to the yoghurt.",
@@ -56,7 +57,7 @@
     {
       "field": "outputs",
       "kind": "estimate",
-      "note": "assumed 1 g/ml for yogurt"
+      "note": "assumed 1 g/ml for yogurt, milk_chill"
     },
     {
       "field": "end",

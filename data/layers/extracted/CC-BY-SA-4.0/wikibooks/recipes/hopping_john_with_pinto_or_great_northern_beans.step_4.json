@@ -5,7 +5,7 @@
     "source": "wikibooks_hopping_john_with_pinto_or_great_northern_beans",
     "step": 4
   },
-  "technique": "pan_fry",
+  "technique": "fry",
   "inputs": {
     "of": [
       {
@@ -16,7 +16,7 @@
         }
       },
       {
-        "ingredient": "onion",
+        "ingredient": "onion_fry",
         "amount": {
           "qty": 0.25,
           "unit": "cup"
@@ -34,7 +34,7 @@
     }
   ],
   "environment": {
-    "temperatureC": 185,
+    "temperatureC": 190,
     "medium": "frying_oil"
   },
   "end": {
@@ -52,14 +52,19 @@
       "note": "the decision model gave this answer a probability of 0.58"
     },
     {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.5"
+    },
+    {
       "field": "outputs",
       "kind": "estimate",
-      "note": "assumed 1 g/ml for onion"
+      "note": "assumed 1 g/ml for onion_fry"
     },
     {
       "field": "environment",
       "kind": "estimate",
-      "note": "no temperature given; used the middle of pan_fry's typical range"
+      "note": "no temperature given; used the middle of fry's typical range"
     },
     {
       "field": "end",

@@ -9,14 +9,14 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "oil_and_fat",
+        "ingredient": "oil_and_fat_heat",
         "amount": {
           "qty": 5,
           "unit": "tbsp"
         }
       },
       {
-        "ingredient": "onion",
+        "ingredient": "onion_pan_fry",
         "amount": {
           "qty": 2,
           "unit": "piece"
@@ -47,9 +47,14 @@
   "stateNote": "Heat the oil in a skillet. Add the diced onions, and sauté until translucent. Remove from the heat.",
   "issues": [
     {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.53"
+    },
+    {
       "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.59"
+      "note": "the decision model gave this answer a probability of 0.57"
     },
     {
       "field": "environment",

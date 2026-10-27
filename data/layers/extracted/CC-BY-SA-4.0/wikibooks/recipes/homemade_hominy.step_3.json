@@ -5,7 +5,7 @@
     "source": "wikibooks_homemade_hominy",
     "step": 3
   },
-  "technique": "rinse",
+  "technique": "separate",
   "inputs": {
     "of": [
       {
@@ -26,23 +26,28 @@
       }
     }
   ],
-  "environment": {
-    "temperatureC": 100,
-    "medium": "boiling_water"
-  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
     }
   },
   "stateNote": "Remove from the stove, stir sufficiently to loosen the skins, and then remove them by washing the corn in a colander.",
   "issues": [
     {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.53"
+    },
+    {
       "field": "environment",
-      "kind": "estimate",
-      "note": "no temperature given; assumed 100.0 °C for boiling_water"
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.59"
     },
     {
       "field": "end",

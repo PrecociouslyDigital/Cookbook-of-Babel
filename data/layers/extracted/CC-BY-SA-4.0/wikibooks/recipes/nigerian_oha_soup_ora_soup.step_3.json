@@ -5,7 +5,7 @@
     "source": "wikibooks_nigerian_oha_soup_ora_soup",
     "step": 3
   },
-  "technique": "boil",
+  "technique": "mix",
   "inputs": {
     "of": [
       {
@@ -23,7 +23,7 @@
         }
       },
       {
-        "ingredient": "scotch_bonnet_pepper",
+        "ingredient": "scotch_bonnet_pepper_blend",
         "amount": {
           "qty": 3,
           "unit": "piece"
@@ -48,8 +48,8 @@
     }
   ],
   "environment": {
-    "temperatureC": 100,
-    "medium": "boiling_water"
+    "temperatureC": 180,
+    "medium": "pan_contact"
   },
   "end": {
     "by": "time",
@@ -63,12 +63,17 @@
     {
       "field": "technique",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.44"
+      "note": "the decision model gave this answer a probability of 0.45"
+    },
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.45"
     },
     {
       "field": "environment",
       "kind": "estimate",
-      "note": "no temperature given; used the middle of boil's typical range"
+      "note": "no temperature given; assumed 180.0 °C for pan_contact"
     },
     {
       "field": "end",

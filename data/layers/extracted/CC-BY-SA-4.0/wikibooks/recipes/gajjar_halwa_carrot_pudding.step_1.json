@@ -5,11 +5,11 @@
     "source": "wikibooks_gajjar_halwa_carrot_pudding",
     "step": 1
   },
-  "technique": "cut",
+  "technique": "rinse",
   "inputs": {
     "of": [
       {
-        "ingredient": "carrot",
+        "ingredient": "carrot_cut",
         "amount": {
           "qty": 2.5,
           "unit": "piece"
@@ -19,7 +19,7 @@
   },
   "outputs": [
     {
-      "ingredient": "carrot_cut",
+      "ingredient": "carrot_cut_rinse",
       "amount": {
         "qty": 1,
         "unit": "batch"
@@ -39,6 +39,11 @@
   },
   "stateNote": "Cut off the blemished ends of the carrots, wash them, and then peel them.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.43"
+    },
     {
       "field": "end",
       "kind": "estimate",

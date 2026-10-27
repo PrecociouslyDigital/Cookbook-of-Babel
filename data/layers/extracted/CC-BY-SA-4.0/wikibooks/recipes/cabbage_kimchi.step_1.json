@@ -5,11 +5,11 @@
     "source": "wikibooks_cabbage_kimchi",
     "step": 1
   },
-  "technique": "cut",
+  "technique": "rinse",
   "inputs": {
     "of": [
       {
-        "ingredient": "cabbage",
+        "ingredient": "cabbage_cut",
         "amount": {
           "qty": 1,
           "unit": "head"
@@ -19,7 +19,7 @@
   },
   "outputs": [
     {
-      "ingredient": "cabbage_cut",
+      "ingredient": "cabbage_cut_rinse",
       "amount": {
         "qty": 1,
         "unit": "batch"
@@ -39,6 +39,11 @@
   },
   "stateNote": "Quarter the napa cabbage, wash, and drain.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.43"
+    },
     {
       "field": "end",
       "kind": "estimate",

@@ -1,0 +1,54 @@
+{
+  "id": "cape_malay_butter_chicken.step_1.prep_10",
+  "source": "wikibooks_cape_malay_butter_chicken",
+  "technique": "grind",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "chiles",
+        "amount": {
+          "qty": 1.5,
+          "unit": "tbsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "chiles_grind",
+      "amount": {
+        "qty": 1.5,
+        "unit": "tbsp"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "1 ½ tablespoon freshly pounded red chillies",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.59"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -26,16 +26,23 @@
       }
     }
   ],
+  "environment": {
+    "temperatureC": 55,
+    "medium": "still_air"
+  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 24,
       "unit": "h"
-    },
-    "sensitivity": {
-      "refTempC": 20,
-      "q10": 1
     }
   },
-  "stateNote": "The following day, hang the fish in a shaded, cool, drafty place for 24 hrs."
+  "stateNote": "The following day, hang the fish in a shaded, cool, drafty place for 24 hrs.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of dry's typical range"
+    }
+  ]
 }

@@ -1,0 +1,49 @@
+{
+  "id": "murgh_musallam_indian_stewed_spiced_chicken.step_5.prep_17",
+  "source": "wikibooks_murgh_musallam_indian_stewed_spiced_chicken",
+  "technique": "soak",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "cashew",
+        "amount": {
+          "qty": 10,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "cashew_soak",
+      "amount": {
+        "qty": 10,
+        "unit": "piece"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "10 cashews or 1 tbsp poppy seeds",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

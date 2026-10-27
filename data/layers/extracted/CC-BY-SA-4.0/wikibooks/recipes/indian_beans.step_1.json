@@ -5,11 +5,11 @@
     "source": "wikibooks_indian_beans",
     "step": 1
   },
-  "technique": "pan_fry",
+  "technique": "heat",
   "inputs": {
     "of": [
       {
-        "ingredient": "onion",
+        "ingredient": "onion_chop",
         "amount": {
           "qty": 1,
           "unit": "piece"
@@ -19,7 +19,7 @@
   },
   "outputs": [
     {
-      "ingredient": "onion_pan_fry",
+      "ingredient": "onion_chop_heat",
       "amount": {
         "qty": 1,
         "unit": "batch"
@@ -27,7 +27,7 @@
     }
   ],
   "environment": {
-    "temperatureC": 185,
+    "temperatureC": 180,
     "medium": "pan_contact"
   },
   "end": {
@@ -42,12 +42,12 @@
     {
       "field": "technique",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.54"
+      "note": "the decision model gave this answer a probability of 0.37"
     },
     {
       "field": "environment",
       "kind": "estimate",
-      "note": "no temperature given; used the middle of pan_fry's typical range"
+      "note": "no temperature given; assumed 180.0 °C for pan_contact"
     },
     {
       "field": "end",

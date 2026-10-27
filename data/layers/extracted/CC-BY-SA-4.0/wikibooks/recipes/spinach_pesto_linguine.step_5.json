@@ -5,7 +5,7 @@
     "source": "wikibooks_spinach_pesto_linguine",
     "step": 5
   },
-  "technique": "pan_fry",
+  "technique": "heat",
   "inputs": {
     "of": [
       {
@@ -27,7 +27,7 @@
     }
   ],
   "environment": {
-    "temperatureC": 185,
+    "temperatureC": 180,
     "medium": "pan_contact"
   },
   "end": {
@@ -40,9 +40,19 @@
   "stateNote": "While you are doing this, put the snap peas in a small frying pan with some olive oil at a low-medium temperature to warm them up a bit.",
   "issues": [
     {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.55"
+    },
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.53"
+    },
+    {
       "field": "environment",
       "kind": "estimate",
-      "note": "no temperature given; used the middle of pan_fry's typical range"
+      "note": "no temperature given; assumed 180.0 °C for pan_contact"
     },
     {
       "field": "end",

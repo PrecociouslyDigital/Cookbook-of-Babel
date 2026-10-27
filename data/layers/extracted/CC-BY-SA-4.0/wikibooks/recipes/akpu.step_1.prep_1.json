@@ -1,0 +1,49 @@
+{
+  "id": "akpu.step_1.prep_1",
+  "source": "wikibooks_akpu",
+  "technique": "rinse",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "cassava_tubers",
+        "amount": {
+          "qty": 5,
+          "unit": "kg"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "cassava_tubers_rinse",
+      "amount": {
+        "qty": 5,
+        "unit": "kg"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "5 kg fresh cassava tubers",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

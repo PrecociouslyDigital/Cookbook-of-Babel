@@ -5,7 +5,7 @@
     "source": "wikibooks_iced_tea",
     "step": 3
   },
-  "technique": "chill",
+  "technique": "steep",
   "inputs": {
     "of": [
       {
@@ -27,7 +27,7 @@
     }
   ],
   "environment": {
-    "temperatureC": 3,
+    "temperatureC": 85,
     "medium": "boiling_water"
   },
   "end": {
@@ -40,9 +40,14 @@
   "stateNote": "Let it run through its cycle, then chill the product. This is a concentrate and will make several litres of iced tea.",
   "issues": [
     {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.51"
+    },
+    {
       "field": "environment",
       "kind": "estimate",
-      "note": "no temperature given; used the middle of chill's typical range"
+      "note": "no temperature given; used the middle of steep's typical range"
     },
     {
       "field": "end",

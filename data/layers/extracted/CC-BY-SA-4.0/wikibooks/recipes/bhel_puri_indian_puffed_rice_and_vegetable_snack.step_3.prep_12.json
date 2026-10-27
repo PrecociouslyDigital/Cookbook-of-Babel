@@ -1,0 +1,49 @@
+{
+  "id": "bhel_puri_indian_puffed_rice_and_vegetable_snack.step_3.prep_12",
+  "source": "wikibooks_bhel_puri_indian_puffed_rice_and_vegetable_snack",
+  "technique": "grind",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "mint",
+        "amount": {
+          "qty": 0.5,
+          "unit": "bunch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "mint_grind",
+      "amount": {
+        "qty": 0.5,
+        "unit": "bunch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "½ bunch mint leaves",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

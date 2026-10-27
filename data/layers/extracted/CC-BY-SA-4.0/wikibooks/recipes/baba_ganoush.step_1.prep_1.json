@@ -1,0 +1,49 @@
+{
+  "id": "baba_ganoush.step_1.prep_1",
+  "source": "wikibooks_baba_ganoush",
+  "technique": "roast",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "eggplant",
+        "amount": {
+          "qty": 1.25,
+          "unit": "lb"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "eggplant_roast",
+      "amount": {
+        "qty": 1.25,
+        "unit": "lb"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "1 ea. (1 to 1½ pounds) medium-large eggplant, any variety",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

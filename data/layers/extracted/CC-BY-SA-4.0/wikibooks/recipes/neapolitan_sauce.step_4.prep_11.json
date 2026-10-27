@@ -1,0 +1,49 @@
+{
+  "id": "neapolitan_sauce.step_4.prep_11",
+  "source": "wikibooks_neapolitan_sauce",
+  "technique": "heat",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "espagnole_sauce",
+        "amount": {
+          "qty": 2,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "espagnole_sauce_heat",
+      "amount": {
+        "qty": 2,
+        "unit": "cup"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "2 cups (480 ml) Espagnole sauce",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

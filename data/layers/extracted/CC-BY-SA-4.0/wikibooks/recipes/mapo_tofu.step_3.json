@@ -5,7 +5,7 @@
     "source": "wikibooks_mapo_tofu",
     "step": 3
   },
-  "technique": "fry",
+  "technique": "stir_fry",
   "inputs": {
     "of": [
       {
@@ -16,7 +16,7 @@
         }
       },
       {
-        "ingredient": "beef",
+        "ingredient": "beef_fry",
         "amount": {
           "qty": 200,
           "unit": "g"
@@ -41,7 +41,7 @@
     }
   ],
   "environment": {
-    "temperatureC": 190,
+    "temperatureC": 215,
     "medium": "pan_contact"
   },
   "end": {
@@ -54,14 +54,14 @@
   "stateNote": "Add minced meat and garlic, and fry until brown.",
   "issues": [
     {
-      "field": "environment",
+      "field": "technique",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.58"
+      "note": "the decision model gave this answer a probability of 0.59"
     },
     {
       "field": "environment",
       "kind": "estimate",
-      "note": "no temperature given; used the middle of fry's typical range"
+      "note": "no temperature given; used the middle of stir_fry's typical range"
     },
     {
       "field": "end",

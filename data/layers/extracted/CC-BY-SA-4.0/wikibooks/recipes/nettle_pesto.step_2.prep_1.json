@@ -1,0 +1,49 @@
+{
+  "id": "nettle_pesto.step_2.prep_1",
+  "source": "wikibooks_nettle_pesto",
+  "technique": "boil",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "nettle",
+        "amount": {
+          "qty": 5,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "nettle_boil",
+      "amount": {
+        "qty": 5,
+        "unit": "cup"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "5 cups freshly foraged stinging nettles",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

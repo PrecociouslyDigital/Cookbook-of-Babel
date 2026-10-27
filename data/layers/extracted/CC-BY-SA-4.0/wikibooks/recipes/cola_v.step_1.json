@@ -36,7 +36,7 @@
         }
       },
       {
-        "ingredient": "lemon",
+        "ingredient": "lemon_cut",
         "amount": {
           "qty": 0.5,
           "unit": "piece"
@@ -50,7 +50,7 @@
         }
       },
       {
-        "ingredient": "orange",
+        "ingredient": "orange_cut",
         "amount": {
           "qty": 0.5,
           "unit": "piece"
@@ -64,7 +64,7 @@
         }
       },
       {
-        "ingredient": "water",
+        "ingredient": "water_boil",
         "amount": {
           "qty": 0.5,
           "unit": "cup"
@@ -101,6 +101,11 @@
   },
   "stateNote": "Boil all of the ingredients except for the vanilla extract and bitters in a pot until it becomes sticky.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.57"
+    },
     {
       "field": "environment",
       "kind": "uncertain",

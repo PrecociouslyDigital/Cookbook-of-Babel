@@ -1,0 +1,49 @@
+{
+  "id": "bacon_wrapped_scallops.step_3.prep_5",
+  "source": "wikibooks_bacon_wrapped_scallops",
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "bacon",
+        "amount": {
+          "qty": 0.5,
+          "unit": "lb"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "bacon_cut",
+      "amount": {
+        "qty": 0.5,
+        "unit": "lb"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "½ pound (225 g) bacon",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

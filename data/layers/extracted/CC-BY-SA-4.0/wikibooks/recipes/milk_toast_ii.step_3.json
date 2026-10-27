@@ -11,7 +11,7 @@
       {
         "ingredient": "milk_toast_ii_step_2",
         "amount": {
-          "qty": 566.2,
+          "qty": 552,
           "unit": "g"
         }
       },
@@ -23,7 +23,7 @@
         }
       },
       {
-        "ingredient": "butter",
+        "ingredient": "butter_cut",
         "amount": {
           "qty": 2,
           "unit": "tbsp"
@@ -35,7 +35,7 @@
     {
       "ingredient": "milk_toast_ii_step_3",
       "amount": {
-        "qty": 598.7,
+        "qty": 584.5,
         "unit": "g"
       }
     }
@@ -54,9 +54,14 @@
   "stateNote": "Cover, and cook 20 minutes; then, add salt and butter in small pieces.",
   "issues": [
     {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.58"
+    },
+    {
       "field": "outputs",
       "kind": "estimate",
-      "note": "assumed 1 g/ml for butter"
+      "note": "assumed 1 g/ml for butter_cut"
     },
     {
       "field": "environment",

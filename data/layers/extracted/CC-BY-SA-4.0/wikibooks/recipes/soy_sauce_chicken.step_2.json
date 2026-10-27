@@ -30,7 +30,7 @@
         }
       },
       {
-        "ingredient": "ginger",
+        "ingredient": "ginger_chop",
         "amount": {
           "qty": 1,
           "unit": "pinch"
@@ -62,8 +62,8 @@
     }
   ],
   "environment": {
-    "temperatureC": 90,
-    "medium": "simmering_water"
+    "temperatureC": 180,
+    "medium": "pan_contact"
   },
   "end": {
     "by": "time",
@@ -74,6 +74,16 @@
   },
   "stateNote": "Add soy sauce, cooking wine, chopped ginger, and sugar. Add enough water to cover the chicken.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.59"
+    },
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.53"
+    },
     {
       "field": "inputs",
       "kind": "estimate",
@@ -92,12 +102,12 @@
     {
       "field": "outputs",
       "kind": "estimate",
-      "note": "assumed 1 g/ml for soy_sauce, ginger"
+      "note": "assumed 1 g/ml for soy_sauce, ginger_chop"
     },
     {
       "field": "environment",
       "kind": "estimate",
-      "note": "no temperature given; assumed 90.0 °C for simmering_water"
+      "note": "no temperature given; assumed 180.0 °C for pan_contact"
     },
     {
       "field": "end",

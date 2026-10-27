@@ -1,0 +1,49 @@
+{
+  "id": "vorschmack_finnish_ground_meat.step_2.prep_1",
+  "source": "wikibooks_vorschmack_finnish_ground_meat",
+  "technique": "roast",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "lamb_and_mutton",
+        "amount": {
+          "qty": 4,
+          "unit": "lb"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "lamb_and_mutton_roast",
+      "amount": {
+        "qty": 4,
+        "unit": "lb"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "4 lb (1800 g) boned leg of lamb, cut into 1-inch (2.5 cm) cubes",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

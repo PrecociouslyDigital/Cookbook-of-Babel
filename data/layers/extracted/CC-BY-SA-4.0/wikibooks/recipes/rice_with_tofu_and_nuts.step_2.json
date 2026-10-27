@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "rice_rinse",
+        "ingredient": "rice_rinse_rinse",
         "amount": {
           "qty": 120,
           "unit": "g"
@@ -81,6 +81,16 @@
   },
   "stateNote": "Add the water, bay leaf, peppercorns, cinnamon, cloves and salt and bring to a boil.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.41"
+    },
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.51"
+    },
     {
       "field": "inputs",
       "kind": "estimate",

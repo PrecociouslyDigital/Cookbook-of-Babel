@@ -1,0 +1,49 @@
+{
+  "id": "cameroon_koki_corn.step_4.prep_7",
+  "source": "wikibooks_cameroon_koki_corn",
+  "technique": "chop",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "banana",
+        "amount": {
+          "qty": 5,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "banana_chop",
+      "amount": {
+        "qty": 5,
+        "unit": "piece"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "5 banana leaves",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

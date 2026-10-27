@@ -1,0 +1,49 @@
+{
+  "id": "philosopher_s_stew.step_2.prep_2",
+  "source": "wikibooks_philosopher_s_stew",
+  "technique": "heat",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "oil_and_fat",
+        "amount": {
+          "qty": 40,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "oil_and_fat_heat",
+      "amount": {
+        "qty": 40,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "40 grams fat (cold gravy or butter)",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

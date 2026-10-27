@@ -9,28 +9,28 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "shark_fins_rinse",
+        "ingredient": "shark_fins_rinse_rinse",
         "amount": {
           "qty": 400,
           "unit": "g"
         }
       },
       {
-        "ingredient": "shrimp",
+        "ingredient": "shrimp_soak",
         "amount": {
           "qty": 100,
           "unit": "g"
         }
       },
       {
-        "ingredient": "dongu_mushrooms",
+        "ingredient": "dongu_mushrooms_soak",
         "amount": {
           "qty": 10,
           "unit": "piece"
         }
       },
       {
-        "ingredient": "bamboo_shoot",
+        "ingredient": "bamboo_shoot_soak",
         "amount": {
           "qty": 50,
           "unit": "g"
@@ -60,6 +60,11 @@
   },
   "stateNote": "Soak ground shrimp and dried mushrooms for 30 minutes in ¼ litre warm water. The water can then be discarded. The dried bamboo should also be soaked until soft, then cut into thin strips.",
   "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.32"
+    },
     {
       "field": "environment",
       "kind": "estimate",

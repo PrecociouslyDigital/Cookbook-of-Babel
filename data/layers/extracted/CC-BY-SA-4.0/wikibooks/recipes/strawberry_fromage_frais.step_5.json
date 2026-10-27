@@ -14,12 +14,19 @@
           "qty": 1,
           "unit": "batch"
         }
+      },
+      {
+        "ingredient": "berry",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
       }
     ]
   },
   "outputs": [
     {
-      "ingredient": "strawberry_fromage_frais_step_5",
+      "ingredient": "strawberry_fromage_frais",
       "amount": {
         "qty": 1,
         "unit": "batch"
@@ -33,12 +40,18 @@
       "unit": "min"
     },
     "sensitivity": {
-      "refTempC": 20,
-      "q10": 1
+      "refTempC": 4,
+      "q10": 1,
+      "maxTempC": 8
     }
   },
   "stateNote": "Transfer mixture to individual cups or a bowl, and chill in the refrigerator for several hours until firm.",
   "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Fresh berries': no quantity given; assumed a pinch"
+    },
     {
       "field": "end",
       "kind": "estimate",

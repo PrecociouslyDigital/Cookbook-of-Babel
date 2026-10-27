@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "potato_soak",
+        "ingredient": "potato_cut_soak",
         "amount": {
           "qty": 1,
           "unit": "batch"
@@ -63,7 +63,7 @@
   ],
   "environment": {
     "temperatureC": 100,
-    "medium": "simmering_water"
+    "medium": "pan_contact"
   },
   "end": {
     "by": "time",
@@ -74,11 +74,6 @@
   },
   "stateNote": "Combine mirin, soy sauce, sugar, ginger, and beef in a saucepan. Boil lightly for 2–3 minutes.",
   "issues": [
-    {
-      "field": "environment",
-      "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.49"
-    },
     {
       "field": "environment",
       "kind": "estimate",

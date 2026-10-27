@@ -1,0 +1,49 @@
+{
+  "id": "atropellado_de_coco_coconut_and_sweet_potato_dessert.step_1.prep_1",
+  "source": "wikibooks_atropellado_de_coco_coconut_and_sweet_potato_dessert",
+  "technique": "bake",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "sweet_potato",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "sweet_potato_bake",
+      "amount": {
+        "qty": 1,
+        "unit": "pinch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Sweet potato",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

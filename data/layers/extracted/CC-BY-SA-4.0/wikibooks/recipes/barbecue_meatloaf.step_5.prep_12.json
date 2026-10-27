@@ -1,0 +1,54 @@
+{
+  "id": "barbecue_meatloaf.step_5.prep_12",
+  "source": "wikibooks_barbecue_meatloaf",
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "salt",
+        "amount": {
+          "qty": 1.5,
+          "unit": "tsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "salt_season",
+      "amount": {
+        "qty": 1.5,
+        "unit": "tsp"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "1 ½ teaspoon salt",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.55"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

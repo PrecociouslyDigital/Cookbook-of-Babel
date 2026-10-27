@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "tomato_cut",
+        "ingredient": "tomato_cut_cut",
         "amount": {
           "qty": 453.6,
           "unit": "g"
@@ -19,7 +19,7 @@
   },
   "outputs": [
     {
-      "ingredient": "tomato_cut_boil",
+      "ingredient": "tomato_cut_cut_boil",
       "amount": {
         "qty": 453.6,
         "unit": "g"
@@ -39,6 +39,11 @@
   },
   "stateNote": "Place the tomatoes in the boiling water for about 30–45 seconds then immediately submerge in the ice water bath.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.52"
+    },
     {
       "field": "environment",
       "kind": "estimate",

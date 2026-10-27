@@ -1,0 +1,49 @@
+{
+  "id": "chereh_tamba_gambian_groundnut_stew.step_2.prep_1",
+  "source": "wikibooks_chereh_tamba_gambian_groundnut_stew",
+  "technique": "roast",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "groundnut",
+        "amount": {
+          "qty": 1,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "groundnut_roast",
+      "amount": {
+        "qty": 1,
+        "unit": "cup"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "1 cup groundnuts (peanuts)",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

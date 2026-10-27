@@ -1,0 +1,54 @@
+{
+  "id": "southern_fried_chicken_sliders.step_1.prep_5",
+  "source": "wikibooks_southern_fried_chicken_sliders",
+  "technique": "toast",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "buns",
+        "amount": {
+          "qty": 6,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "buns_toast",
+      "amount": {
+        "qty": 6,
+        "unit": "piece"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "6 ea. 1-inch buns, split in half",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.52"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

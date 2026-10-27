@@ -1,0 +1,54 @@
+{
+  "id": "steak_bacon_and_arugula_salad.step_6.prep_8",
+  "source": "wikibooks_steak_bacon_and_arugula_salad",
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "bacon",
+        "amount": {
+          "qty": 5,
+          "unit": "strip"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "bacon_cut",
+      "amount": {
+        "qty": 5,
+        "unit": "strip"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "5 rashers bacon, cut into 1½-inch pieces and crisp-cooked",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.38"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

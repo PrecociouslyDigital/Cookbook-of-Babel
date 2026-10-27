@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "cauliflower",
+        "ingredient": "cauliflower_boil",
         "amount": {
           "qty": 0.5,
           "unit": "piece"
@@ -19,7 +19,7 @@
   },
   "outputs": [
     {
-      "ingredient": "cauliflower_boil",
+      "ingredient": "cauliflower_boil_boil",
       "amount": {
         "qty": 1,
         "unit": "batch"
@@ -39,6 +39,11 @@
   },
   "stateNote": "Blanch the cauliflower, then break into small bunches.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.29"
+    },
     {
       "field": "environment",
       "kind": "estimate",

@@ -1,0 +1,49 @@
+{
+  "id": "homemade_red_wine.step_1.prep_1",
+  "source": "wikibooks_homemade_red_wine",
+  "technique": "rinse",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "grape",
+        "amount": {
+          "qty": 4,
+          "unit": "kg"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "grape_rinse",
+      "amount": {
+        "qty": 4,
+        "unit": "kg"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "4 kg dark black grapes",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

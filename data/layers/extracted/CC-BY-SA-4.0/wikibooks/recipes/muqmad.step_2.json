@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "lean_beef_cut",
+        "ingredient": "lean_beef_cut_cut",
         "amount": {
           "qty": 1000,
           "unit": "g"
@@ -19,22 +19,22 @@
   },
   "outputs": [
     {
-      "ingredient": "lean_beef_cut_dry",
+      "ingredient": "lean_beef_cut_cut_dry",
       "amount": {
         "qty": 1000,
         "unit": "g"
       }
     }
   ],
+  "environment": {
+    "temperatureC": 55,
+    "medium": "still_air"
+  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
-    },
-    "sensitivity": {
-      "refTempC": 20,
-      "q10": 1
     }
   },
   "stateNote": "Lay the meat on a clean tray or drying rack and allow it to dry in the sun or air-dry for several hours or up to a few days.",
@@ -42,7 +42,12 @@
     {
       "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.49"
+      "note": "the decision model gave this answer a probability of 0.56"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of dry's typical range"
     },
     {
       "field": "end",

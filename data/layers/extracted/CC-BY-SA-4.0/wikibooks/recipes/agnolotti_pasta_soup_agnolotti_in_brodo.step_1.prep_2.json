@@ -1,0 +1,49 @@
+{
+  "id": "agnolotti_pasta_soup_agnolotti_in_brodo.step_1.prep_2",
+  "source": "wikibooks_agnolotti_pasta_soup_agnolotti_in_brodo",
+  "technique": "boil",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "broth_and_stock",
+        "amount": {
+          "qty": 0.5,
+          "unit": "l"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "broth_and_stock_boil",
+      "amount": {
+        "qty": 0.5,
+        "unit": "l"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "½ litre (2 cups) of chicken broth (canned or homemade) or ½ litre of water and 2 good-quality chicken stock cubes",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

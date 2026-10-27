@@ -16,7 +16,7 @@
         }
       },
       {
-        "ingredient": "carrot",
+        "ingredient": "carrot_julienne",
         "amount": {
           "qty": 3,
           "unit": "piece"
@@ -27,7 +27,7 @@
         "max": 1,
         "of": [
           {
-            "ingredient": "potato",
+            "ingredient": "potato_shreds",
             "amount": {
               "qty": 1,
               "unit": "piece"
@@ -66,6 +66,11 @@
   },
   "stateNote": "Add carrots, cabbage, and potato.",
   "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.58"
+    },
     {
       "field": "environment",
       "kind": "estimate",

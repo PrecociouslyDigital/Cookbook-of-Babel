@@ -5,7 +5,7 @@
     "source": "wikibooks_kids_vegetable_puree",
     "step": 3
   },
-  "technique": "season",
+  "technique": "mix",
   "inputs": {
     "of": [
       {
@@ -16,7 +16,7 @@
         }
       },
       {
-        "ingredient": "cucumber",
+        "ingredient": "cucumber_cut",
         "amount": {
           "qty": 1,
           "unit": "pinch"
@@ -48,8 +48,8 @@
     }
   ],
   "environment": {
-    "temperatureC": 90,
-    "medium": "simmering_water"
+    "temperatureC": 100,
+    "medium": "boiling_water"
   },
   "end": {
     "by": "time",
@@ -61,9 +61,9 @@
   "stateNote": "Add the diced cucumber, olive oil, and salt. At this point, you can top up the water to the same level as the ingredients if most of the water has dried.",
   "issues": [
     {
-      "field": "technique",
+      "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.46"
+      "note": "the decision model gave this answer a probability of 0.55"
     },
     {
       "field": "inputs",
@@ -78,7 +78,7 @@
     {
       "field": "environment",
       "kind": "estimate",
-      "note": "no temperature given; assumed 90.0 °C for simmering_water"
+      "note": "no temperature given; assumed 100.0 °C for boiling_water"
     },
     {
       "field": "end",

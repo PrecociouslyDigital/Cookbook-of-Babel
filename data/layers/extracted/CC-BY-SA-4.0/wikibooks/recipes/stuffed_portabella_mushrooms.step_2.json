@@ -5,7 +5,7 @@
     "source": "wikibooks_stuffed_portabella_mushrooms",
     "step": 2
   },
-  "technique": "mix",
+  "technique": "assemble",
   "inputs": {
     "of": [
       {
@@ -37,7 +37,7 @@
         }
       },
       {
-        "ingredient": "bread_crumbs",
+        "ingredient": "bread_crumbs_grind",
         "amount": {
           "qty": 10,
           "unit": "piece"
@@ -88,6 +88,11 @@
   },
   "stateNote": "Combine the egg, cheeses, crackers and seasonings in a bowl. Mix well. Spoon the mixture onto the mushrooms.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.57"
+    },
     {
       "field": "inputs",
       "kind": "estimate",

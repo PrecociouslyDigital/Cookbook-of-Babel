@@ -28,7 +28,7 @@
   ],
   "environment": {
     "temperatureC": 90,
-    "medium": "simmering_water"
+    "medium": "pan_contact"
   },
   "end": {
     "by": "time",
@@ -39,6 +39,11 @@
   },
   "stateNote": "Reduce the heat to medium, and cover the pot. Cook, stirring periodically, until the rice has absorbed the water.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.55"
+    },
     {
       "field": "environment",
       "kind": "estimate",

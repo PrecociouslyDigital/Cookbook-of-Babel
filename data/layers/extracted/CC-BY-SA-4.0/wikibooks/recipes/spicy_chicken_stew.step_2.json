@@ -16,7 +16,7 @@
         }
       },
       {
-        "ingredient": "vegetable_oil",
+        "ingredient": "vegetable_oil_heat",
         "amount": {
           "qty": 0.25,
           "unit": "cup"
@@ -28,14 +28,14 @@
     {
       "ingredient": "spicy_chicken_stew_step_2",
       "amount": {
-        "qty": 961.7,
+        "qty": 966.4,
         "unit": "g"
       }
     }
   ],
   "environment": {
     "temperatureC": 185,
-    "medium": "frying_oil"
+    "medium": "pan_contact"
   },
   "end": {
     "by": "time",
@@ -49,7 +49,12 @@
     {
       "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.54"
+      "note": "the decision model gave this answer a probability of 0.51"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for vegetable_oil_heat"
     },
     {
       "field": "environment",

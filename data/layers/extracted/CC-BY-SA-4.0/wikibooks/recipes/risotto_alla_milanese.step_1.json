@@ -5,11 +5,11 @@
     "source": "wikibooks_risotto_alla_milanese",
     "step": 1
   },
-  "technique": "grind",
+  "technique": "assemble",
   "inputs": {
     "of": [
       {
-        "ingredient": "saffron",
+        "ingredient": "saffron_grind",
         "amount": {
           "qty": 0.25,
           "unit": "tsp"
@@ -19,7 +19,7 @@
   },
   "outputs": [
     {
-      "ingredient": "saffron_grind",
+      "ingredient": "risotto_alla_milanese_step_1",
       "amount": {
         "qty": 1.2,
         "unit": "g"
@@ -40,9 +40,14 @@
   "stateNote": "Crush saffron in mortar with pestle to a powder. Place saffron in glass measuring cup.",
   "issues": [
     {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.51"
+    },
+    {
       "field": "outputs",
       "kind": "estimate",
-      "note": "assumed 1 g/ml for saffron"
+      "note": "assumed 1 g/ml for saffron_grind"
     },
     {
       "field": "end",

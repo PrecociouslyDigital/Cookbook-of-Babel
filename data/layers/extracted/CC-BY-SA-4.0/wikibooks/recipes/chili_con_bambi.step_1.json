@@ -16,7 +16,7 @@
         }
       },
       {
-        "ingredient": "garlic",
+        "ingredient": "garlic_chop",
         "amount": {
           "qty": 3,
           "unit": "clove"
@@ -49,7 +49,7 @@
   ],
   "environment": {
     "temperatureC": 185,
-    "medium": "frying_oil"
+    "medium": "pan_contact"
   },
   "end": {
     "by": "time",
@@ -60,6 +60,11 @@
   },
   "stateNote": "Sauté the onions, chiles, and garlic in the oil until well softened.",
   "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.58"
+    },
     {
       "field": "environment",
       "kind": "estimate",

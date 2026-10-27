@@ -5,7 +5,7 @@
     "source": "wikibooks_ifisashi_n_ubwoko_rwandan_peanut_spinach_stew_with_mushroom",
     "step": 4
   },
-  "technique": "whisk",
+  "technique": "mix",
   "inputs": {
     "of": [
       {
@@ -41,8 +41,8 @@
     }
   ],
   "environment": {
-    "temperatureC": 90,
-    "medium": "simmering_water"
+    "temperatureC": 180,
+    "medium": "pan_contact"
   },
   "end": {
     "by": "time",
@@ -54,14 +54,19 @@
   "stateNote": "In a separate bowl, whisk together the peanut butter and water until smooth. Pour the peanut sauce mixture into the pot.",
   "issues": [
     {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.5"
+    },
+    {
       "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.39"
+      "note": "the decision model gave this answer a probability of 0.48"
     },
     {
       "field": "environment",
       "kind": "estimate",
-      "note": "no temperature given; assumed 90.0 °C for simmering_water"
+      "note": "no temperature given; assumed 180.0 °C for pan_contact"
     },
     {
       "field": "end",

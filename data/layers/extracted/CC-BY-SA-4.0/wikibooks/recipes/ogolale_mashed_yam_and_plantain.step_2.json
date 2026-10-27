@@ -26,23 +26,23 @@
       }
     }
   ],
-  "environment": {
-    "temperatureC": 100,
-    "medium": "boiling_water"
-  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
     }
   },
   "stateNote": "Drain the water, and transfer the cooked yam and plantain to a clean container.",
   "issues": [
     {
       "field": "environment",
-      "kind": "estimate",
-      "note": "no temperature given; assumed 100.0 °C for boiling_water"
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.39"
     },
     {
       "field": "end",

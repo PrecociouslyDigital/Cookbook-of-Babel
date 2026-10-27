@@ -1,0 +1,49 @@
+{
+  "id": "mesquite_beef_tenderloin.step_3.prep_3",
+  "source": "wikibooks_mesquite_beef_tenderloin",
+  "technique": "soak",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "soaked_mesquite_wood_chips",
+        "amount": {
+          "qty": 0.75,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "soaked_mesquite_wood_chips_soak",
+      "amount": {
+        "qty": 0.75,
+        "unit": "cup"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "¾ cup soaked mesquite wood chips",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

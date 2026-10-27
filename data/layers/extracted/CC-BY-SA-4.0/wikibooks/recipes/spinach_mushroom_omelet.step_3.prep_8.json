@@ -1,0 +1,54 @@
+{
+  "id": "spinach_mushroom_omelet.step_3.prep_8",
+  "source": "wikibooks_spinach_mushroom_omelet",
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "mushroom",
+        "amount": {
+          "qty": 0.6666666666666666,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "mushroom_cut",
+      "amount": {
+        "qty": 0.6666666666666666,
+        "unit": "cup"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "⅔ cup baby bella mushrooms, thinly sliced",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.44"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

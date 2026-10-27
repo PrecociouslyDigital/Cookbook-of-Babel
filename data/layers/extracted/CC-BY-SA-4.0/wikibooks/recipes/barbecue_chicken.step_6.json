@@ -26,28 +26,23 @@
       }
     }
   ],
-  "environment": {
-    "temperatureC": 20,
-    "medium": "still_air"
-  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 7,
       "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
     }
   },
   "stateNote": "Cover with foil and let rest 7 minutes. Meanwhile, boil remaining sauce for 5 minutes and place in a squirt bottle. Serve chicken with sauce on the side.",
   "issues": [
     {
-      "field": "technique",
-      "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.45"
-    },
-    {
       "field": "environment",
-      "kind": "estimate",
-      "note": "no temperature given; assumed 20.0 °C for still_air"
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.33"
     },
     {
       "field": "end",

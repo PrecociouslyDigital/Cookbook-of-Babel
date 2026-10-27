@@ -26,15 +26,15 @@
       }
     }
   ],
-  "environment": {
-    "temperatureC": 20,
-    "medium": "still_air"
-  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
     }
   },
   "stateNote": "Cut with a pizza cutter or knife. Serve hot, cold, or reheated in the microwave!",
@@ -42,17 +42,17 @@
     {
       "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.29"
-    },
-    {
-      "field": "environment",
-      "kind": "estimate",
-      "note": "no temperature given; assumed 20.0 °C for still_air"
+      "note": "the decision model gave this answer a probability of 0.52"
     },
     {
       "field": "end",
       "kind": "estimate",
       "note": "no duration given; assumed 1 minute"
+    },
+    {
+      "field": "inputs",
+      "kind": "missing",
+      "note": "no step uses '3 eggs' (p=0.35)"
     }
   ]
 }

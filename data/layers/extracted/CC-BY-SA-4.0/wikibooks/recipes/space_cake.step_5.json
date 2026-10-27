@@ -26,24 +26,19 @@
       }
     }
   ],
-  "environment": {
-    "temperatureC": 200,
-    "medium": "oven_air"
-  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
     }
   },
   "stateNote": "Using a tablespoon, dollop scoops of batter on the tray, ½ inch apart from each other and sides of the tray.",
   "issues": [
-    {
-      "field": "environment",
-      "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.49"
-    },
     {
       "field": "end",
       "kind": "estimate",

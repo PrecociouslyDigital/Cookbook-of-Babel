@@ -23,7 +23,7 @@
         }
       },
       {
-        "ingredient": "banana",
+        "ingredient": "banana_chop",
         "amount": {
           "qty": 0.5,
           "unit": "piece"
@@ -60,6 +60,11 @@
   },
   "stateNote": "Combine all ingredients in a blender.",
   "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.57"
+    },
     {
       "field": "inputs",
       "kind": "estimate",

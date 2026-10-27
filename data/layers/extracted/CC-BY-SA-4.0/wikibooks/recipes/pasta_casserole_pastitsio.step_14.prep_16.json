@@ -1,0 +1,49 @@
+{
+  "id": "pasta_casserole_pastitsio.step_14.prep_16",
+  "source": "wikibooks_pasta_casserole_pastitsio",
+  "technique": "boil",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "pasta",
+        "amount": {
+          "qty": 250,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "pasta_boil",
+      "amount": {
+        "qty": 250,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "250 g macaroni pasta (or Greek pastitsio noodles)",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

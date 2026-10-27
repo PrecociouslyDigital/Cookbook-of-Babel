@@ -1,0 +1,49 @@
+{
+  "id": "sinigang_philippine_sour_soup.step_7.prep_7",
+  "source": "wikibooks_sinigang_philippine_sour_soup",
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "green_bean",
+        "amount": {
+          "qty": 200,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "green_bean_cut",
+      "amount": {
+        "qty": 200,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "200 g string beans, cut in 1-inch pieces",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

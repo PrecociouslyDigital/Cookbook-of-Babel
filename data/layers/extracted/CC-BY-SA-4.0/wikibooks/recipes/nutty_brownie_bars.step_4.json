@@ -16,21 +16,21 @@
         }
       },
       {
-        "ingredient": "almond",
+        "ingredient": "almond_chop",
         "amount": {
           "qty": 0.5,
           "unit": "cup"
         }
       },
       {
-        "ingredient": "walnut",
+        "ingredient": "walnut_chop",
         "amount": {
           "qty": 0.25,
           "unit": "cup"
         }
       },
       {
-        "ingredient": "chocolate",
+        "ingredient": "chocolate_chop",
         "amount": {
           "qty": 10,
           "unit": "piece"
@@ -47,28 +47,28 @@
       }
     }
   ],
-  "environment": {
-    "temperatureC": 180,
-    "medium": "oven_air"
-  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
     }
   },
   "stateNote": "Sprinkle with chopped nuts and candy bars.",
   "issues": [
     {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.53"
+    },
+    {
       "field": "inputs",
       "kind": "estimate",
       "note": "'10 miniature chocolate coconut candy bars, chopped': 'miniature' read as pieces"
-    },
-    {
-      "field": "environment",
-      "kind": "estimate",
-      "note": "no temperature given; assumed 180.0 °C for oven_air"
     },
     {
       "field": "end",

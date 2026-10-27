@@ -26,15 +26,15 @@
       }
     }
   ],
-  "environment": {
-    "temperatureC": 90,
-    "medium": "simmering_water"
-  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
     }
   },
   "stateNote": "Place the couscous on a large platter, arrange the meat and vegetables on top, and pour some of the broth over everything.",
@@ -42,12 +42,7 @@
     {
       "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.35"
-    },
-    {
-      "field": "environment",
-      "kind": "estimate",
-      "note": "no temperature given; assumed 90.0 °C for simmering_water"
+      "note": "the decision model gave this answer a probability of 0.52"
     },
     {
       "field": "end",
@@ -57,7 +52,7 @@
     {
       "field": "inputs",
       "kind": "missing",
-      "note": "no step uses '1 green bell pepper, cut into chunks' (p=0.82)"
+      "note": "no step uses '1 green bell pepper, cut into chunks' (p=0.85)"
     }
   ]
 }

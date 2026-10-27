@@ -27,7 +27,7 @@
         "max": 1,
         "of": [
           {
-            "ingredient": "parsley",
+            "ingredient": "parsley_chop",
             "amount": {
               "qty": 1,
               "unit": "tsp"
@@ -60,19 +60,24 @@
       }
     }
   ],
-  "environment": {
-    "temperatureC": 90,
-    "medium": "simmering_water"
-  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
     }
   },
   "stateNote": "Remove from heat. Add the cream, then season with parsley as well as salt and pepper to taste.",
   "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.48"
+    },
     {
       "field": "inputs",
       "kind": "estimate",
@@ -86,12 +91,7 @@
     {
       "field": "outputs",
       "kind": "estimate",
-      "note": "assumed 1 g/ml for cream, parsley, pepper"
-    },
-    {
-      "field": "environment",
-      "kind": "estimate",
-      "note": "no temperature given; assumed 90.0 °C for simmering_water"
+      "note": "assumed 1 g/ml for cream, parsley_chop, pepper"
     },
     {
       "field": "end",

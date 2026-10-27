@@ -1,0 +1,49 @@
+{
+  "id": "grilled_filet_mignon_with_a_cognac_reduction.step_4.prep_5",
+  "source": "wikibooks_grilled_filet_mignon_with_a_cognac_reduction",
+  "technique": "boil",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "cognac",
+        "amount": {
+          "qty": 1,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "cognac_boil",
+      "amount": {
+        "qty": 1,
+        "unit": "cup"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "1 cup (250 ml) cognac",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "ashoka_halwa_mung_bean_pudding.step_1.prep_1",
+  "source": "wikibooks_ashoka_halwa_mung_bean_pudding",
+  "technique": "roast",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "mung_bean",
+        "amount": {
+          "qty": 1,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "mung_bean_roast",
+      "amount": {
+        "qty": 1,
+        "unit": "cup"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "1 cup split yellow moong dal",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

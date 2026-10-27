@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "chocolate_heat",
+        "ingredient": "chocolate_heat_heat",
         "amount": {
           "qty": 450,
           "unit": "g"
@@ -19,22 +19,22 @@
   },
   "outputs": [
     {
-      "ingredient": "chocolate_heat_cool",
+      "ingredient": "chocolate_heat_heat_cool",
       "amount": {
         "qty": 450,
         "unit": "g"
       }
     }
   ],
-  "environment": {
-    "temperatureC": 35,
-    "medium": "still_air"
-  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
     }
   },
   "stateNote": "Leave to cool slightly to temperature around 35 °C (95 °F).",

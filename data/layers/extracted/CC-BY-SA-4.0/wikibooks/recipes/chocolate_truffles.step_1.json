@@ -5,11 +5,11 @@
     "source": "wikibooks_chocolate_truffles",
     "step": 1
   },
-  "technique": "heat",
+  "technique": "assemble",
   "inputs": {
     "of": [
       {
-        "ingredient": "chocolate",
+        "ingredient": "chocolate_heat",
         "amount": {
           "qty": 8,
           "unit": "oz"
@@ -19,7 +19,7 @@
   },
   "outputs": [
     {
-      "ingredient": "chocolate_heat",
+      "ingredient": "chocolate_truffles_step_1",
       "amount": {
         "qty": 226.8,
         "unit": "g"
@@ -27,8 +27,8 @@
     }
   ],
   "environment": {
-    "temperatureC": 100,
-    "medium": "steam"
+    "temperatureC": 90,
+    "medium": "simmering_water"
   },
   "end": {
     "by": "time",
@@ -40,19 +40,14 @@
   "stateNote": "Put the chocolate in a bowl and set over (a double boiler).",
   "issues": [
     {
-      "field": "technique",
-      "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.53"
-    },
-    {
       "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.42"
+      "note": "the decision model gave this answer a probability of 0.55"
     },
     {
       "field": "environment",
       "kind": "estimate",
-      "note": "no temperature given; assumed 100.0 °C for steam"
+      "note": "no temperature given; assumed 90.0 °C for simmering_water"
     },
     {
       "field": "end",

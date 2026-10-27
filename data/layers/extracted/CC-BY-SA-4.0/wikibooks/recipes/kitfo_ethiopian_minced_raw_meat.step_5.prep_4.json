@@ -1,0 +1,49 @@
+{
+  "id": "kitfo_ethiopian_minced_raw_meat.step_5.prep_4",
+  "source": "wikibooks_kitfo_ethiopian_minced_raw_meat",
+  "technique": "heat",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "spiced_clarified_butter",
+        "amount": {
+          "qty": 1,
+          "unit": "tbsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "spiced_clarified_butter_heat",
+      "amount": {
+        "qty": 1,
+        "unit": "tbsp"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "1 tablespoon spiced clarified butter (optional)",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

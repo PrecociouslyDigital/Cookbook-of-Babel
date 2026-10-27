@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "tuna",
+        "ingredient": "tuna_chop",
         "amount": {
           "qty": 2,
           "unit": "can"
@@ -87,6 +87,11 @@
   },
   "stateNote": "Shred tuna and stir into 3-quart casserole with milk, noodles, peas, and soup. Add onions and hot sauce if desired.",
   "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.5"
+    },
     {
       "field": "end",
       "kind": "estimate",

@@ -1,0 +1,49 @@
+{
+  "id": "salt_cod_and_potato_casserole_bacalhau_a_gomes_de_sa.step_7.prep_8",
+  "source": "wikibooks_salt_cod_and_potato_casserole_bacalhau_a_gomes_de_sa",
+  "technique": "chop",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "parsley",
+        "amount": {
+          "qty": 2,
+          "unit": "tbsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "parsley_chop",
+      "amount": {
+        "qty": 2,
+        "unit": "tbsp"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "2 tbsp parsley, finely chopped",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

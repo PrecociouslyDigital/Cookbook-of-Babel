@@ -1,0 +1,54 @@
+{
+  "id": "north_carolina_style_bbq_ribs.step_1.prep_2",
+  "source": "wikibooks_north_carolina_style_bbq_ribs",
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "rib_rub",
+        "amount": {
+          "qty": 6,
+          "unit": "tbsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "rib_rub_season",
+      "amount": {
+        "qty": 6,
+        "unit": "tbsp"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "6 tbsp Rib Rub",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.56"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

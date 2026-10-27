@@ -16,7 +16,7 @@
         }
       },
       {
-        "ingredient": "onion",
+        "ingredient": "onion_chop",
         "amount": {
           "qty": 1,
           "unit": "pinch"
@@ -33,15 +33,15 @@
       }
     }
   ],
-  "environment": {
-    "temperatureC": 180,
-    "medium": "pan_contact"
-  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
     }
   },
   "stateNote": "Garnish with chopped green onions, cilantro, and prepared scrambled eggs.",
@@ -49,17 +49,12 @@
     {
       "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.41"
+      "note": "the decision model gave this answer a probability of 0.42"
     },
     {
       "field": "inputs",
       "kind": "estimate",
       "note": "'Chopped green onions': no quantity given; assumed a pinch"
-    },
-    {
-      "field": "environment",
-      "kind": "estimate",
-      "note": "no temperature given; assumed 180.0 °C for pan_contact"
     },
     {
       "field": "end",

@@ -1,0 +1,49 @@
+{
+  "id": "pulse_chutney.step_1.prep_1",
+  "source": "wikibooks_pulse_chutney",
+  "technique": "soak",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "mung_bean",
+        "amount": {
+          "qty": 2,
+          "unit": "oz"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "mung_bean_soak",
+      "amount": {
+        "qty": 2,
+        "unit": "oz"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "2 oz (50 g) green mung beans",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

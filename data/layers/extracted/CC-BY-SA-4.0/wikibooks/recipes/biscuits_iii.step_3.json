@@ -9,10 +9,10 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "biscuits_iii_step_2",
+        "ingredient": "milk_whisk",
         "amount": {
-          "qty": 1,
-          "unit": "batch"
+          "qty": 30.5,
+          "unit": "g"
         }
       },
       {
@@ -34,6 +34,13 @@
         "amount": {
           "qty": 2,
           "unit": "tbsp"
+        }
+      },
+      {
+        "ingredient": "egg",
+        "amount": {
+          "qty": 1,
+          "unit": "piece"
         }
       }
     ]
@@ -60,6 +67,11 @@
   },
   "stateNote": "Mix the other ingredients into the egg mixture to form a soft dough.",
   "issues": [
+    {
+      "field": "inputs",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.51"
+    },
     {
       "field": "end",
       "kind": "estimate",

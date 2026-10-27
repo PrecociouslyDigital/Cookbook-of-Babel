@@ -1,0 +1,49 @@
+{
+  "id": "tortillas_with_spicy_chocolate_sauce.step_1.prep_6",
+  "source": "wikibooks_tortillas_with_spicy_chocolate_sauce",
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "tortilla",
+        "amount": {
+          "qty": 12,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "tortilla_cut",
+      "amount": {
+        "qty": 12,
+        "unit": "piece"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "12 wheat flour tortillas, each cut into 10 wedges",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

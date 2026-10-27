@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "potato",
+        "ingredient": "potato_boil",
         "amount": {
           "qty": 8,
           "unit": "piece"
@@ -60,6 +60,11 @@
   },
   "stateNote": "Boil potatoes in lightly salted water until soft, drain. Mash potatoes, adding 2 tbsp butter and just enough milk to achieve a spreadable consistency. Set aside.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.54"
+    },
     {
       "field": "inputs",
       "kind": "estimate",

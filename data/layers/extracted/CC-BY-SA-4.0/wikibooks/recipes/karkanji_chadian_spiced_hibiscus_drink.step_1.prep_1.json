@@ -1,0 +1,49 @@
+{
+  "id": "karkanji_chadian_spiced_hibiscus_drink.step_1.prep_1",
+  "source": "wikibooks_karkanji_chadian_spiced_hibiscus_drink",
+  "technique": "rinse",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "roselle",
+        "amount": {
+          "qty": 1,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "roselle_rinse",
+      "amount": {
+        "qty": 1,
+        "unit": "cup"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "1 cup dried hibiscus (also known as roselle or sorrel) petals",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

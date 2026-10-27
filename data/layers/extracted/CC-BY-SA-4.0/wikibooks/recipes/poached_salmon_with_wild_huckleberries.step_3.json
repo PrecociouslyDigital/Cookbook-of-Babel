@@ -5,7 +5,7 @@
     "source": "wikibooks_poached_salmon_with_wild_huckleberries",
     "step": 3
   },
-  "technique": "season",
+  "technique": "assemble",
   "inputs": {
     "of": [
       {
@@ -44,7 +44,7 @@
         }
       },
       {
-        "ingredient": "lemon",
+        "ingredient": "lemon_cut",
         "amount": {
           "qty": 1,
           "unit": "piece"
@@ -61,23 +61,28 @@
       }
     }
   ],
+  "environment": {
+    "temperatureC": 176.66666666666666,
+    "medium": "oven_air"
+  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
-    },
-    "sensitivity": {
-      "refTempC": 20,
-      "q10": 1
     }
   },
   "stateNote": "Add herbs, huckleberries, lemon slices, and peppercorns.",
   "issues": [
     {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.44"
+    },
+    {
       "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.46"
+      "note": "the decision model gave this answer a probability of 0.43"
     },
     {
       "field": "end",

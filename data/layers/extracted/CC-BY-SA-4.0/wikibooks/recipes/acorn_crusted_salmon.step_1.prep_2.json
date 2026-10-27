@@ -1,0 +1,49 @@
+{
+  "id": "acorn_crusted_salmon.step_1.prep_2",
+  "source": "wikibooks_acorn_crusted_salmon",
+  "technique": "grind",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "acorn",
+        "amount": {
+          "qty": 1.5,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "acorn_grind",
+      "amount": {
+        "qty": 1.5,
+        "unit": "cup"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "1½ cups (320 ml) of shelled acorns",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

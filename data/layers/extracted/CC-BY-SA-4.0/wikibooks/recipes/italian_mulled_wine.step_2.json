@@ -9,35 +9,35 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "wine_heat",
+        "ingredient": "wine_heat_heat",
         "amount": {
           "qty": 1,
           "unit": "batch"
         }
       },
       {
-        "ingredient": "star_anise",
+        "ingredient": "star_anise_grind",
         "amount": {
           "qty": 1,
           "unit": "piece"
         }
       },
       {
-        "ingredient": "pepper",
+        "ingredient": "pepper_grind",
         "amount": {
           "qty": 1,
           "unit": "pinch"
         }
       },
       {
-        "ingredient": "fennel",
+        "ingredient": "fennel_grind",
         "amount": {
           "qty": 1,
           "unit": "pinch"
         }
       },
       {
-        "ingredient": "clove",
+        "ingredient": "clove_grind",
         "amount": {
           "qty": 1,
           "unit": "pinch"
@@ -67,6 +67,11 @@
   },
   "stateNote": "Crush all “crushed ingredients” using the mortar and pestle. Set aside.",
   "issues": [
+    {
+      "field": "inputs",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.58"
+    },
     {
       "field": "end",
       "kind": "estimate",

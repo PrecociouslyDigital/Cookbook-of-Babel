@@ -1,0 +1,49 @@
+{
+  "id": "phulourie_split_pea_fritters.step_1.prep_1",
+  "source": "wikibooks_phulourie_split_pea_fritters",
+  "technique": "soak",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "pea",
+        "amount": {
+          "qty": 0.5,
+          "unit": "pt"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "pea_soak",
+      "amount": {
+        "qty": 0.5,
+        "unit": "pt"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "½ pt split peas, or 1 lb ground split pea flour",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

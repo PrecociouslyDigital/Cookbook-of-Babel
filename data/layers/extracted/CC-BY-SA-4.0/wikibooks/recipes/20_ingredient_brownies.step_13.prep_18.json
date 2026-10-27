@@ -1,0 +1,49 @@
+{
+  "id": "20_ingredient_brownies.step_13.prep_18",
+  "source": "wikibooks_20_ingredient_brownies",
+  "technique": "heat",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "cream",
+        "amount": {
+          "qty": 11,
+          "unit": "oz"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "cream_heat",
+      "amount": {
+        "qty": 11,
+        "unit": "oz"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "11 oz (330 ml / 1⅓ cups) heavy cream, heated",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

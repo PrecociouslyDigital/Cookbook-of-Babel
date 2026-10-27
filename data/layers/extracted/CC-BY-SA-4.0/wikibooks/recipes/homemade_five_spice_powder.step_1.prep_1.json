@@ -1,0 +1,49 @@
+{
+  "id": "homemade_five_spice_powder.step_1.prep_1",
+  "source": "wikibooks_homemade_five_spice_powder",
+  "technique": "toast",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "szechuan_pepper",
+        "amount": {
+          "qty": 2,
+          "unit": "tsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "szechuan_pepper_toast",
+      "amount": {
+        "qty": 2,
+        "unit": "tsp"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "2 teaspoons Szechuan peppercorns",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -6,6 +6,7 @@ module Babel.Check (
     checkWorld,
     effectiveLicence,
     findCycles,
+    sensitivityChecks,
 )
 where
 
@@ -197,7 +198,7 @@ recipeChecks w (Located{value = r, path = p}) =
 
     endChecks = \case
         ByCoreTemp _ -> []
-        ByTime d s -> durationChecks d ++ maybe [] sensitivityChecks s
+        ByTime d s -> durationChecks d ++ maybe [] (sensitivityChecks p) s
         ByBoth _ d -> durationChecks d
 
     durationChecks d =
@@ -206,17 +207,20 @@ recipeChecks w (Located{value = r, path = p}) =
             Just u -> [err "dimension" ("a duration must use a time unit, not " <> idText d.unit) | u.dimension /= Time]
             ++ [err "amount" "durations must be positive" | d.qty <= 0]
 
-    sensitivityChecks s =
-        [ err "water-activity" "sensitivity needs 0 <= minWaterActivity <= maxWaterActivity <= 1"
-        | let lo = fromMaybe 0 s.minWaterActivity
-              hi = fromMaybe 1 s.maxWaterActivity
-        , not (0 <= lo && lo <= hi && hi <= 1)
-        ]
-            -- The duration is measured at refTempC, so the step must happen there.
-            ++ [ err "temp-range" "sensitivity needs minTempC <= refTempC <= maxTempC"
-               | not (all (<= s.refTempC) s.minTempC && all (s.refTempC <=) s.maxTempC)
-               ]
-            ++ [err "q10" "q10 must be positive" | s.q10 <= 0]
+sensitivityChecks :: FilePath -> Sensitivity -> [Diagnostic]
+sensitivityChecks p s =
+    [ err "water-activity" "sensitivity needs 0 <= minWaterActivity <= maxWaterActivity <= 1"
+    | let lo = fromMaybe 0 s.minWaterActivity
+          hi = fromMaybe 1 s.maxWaterActivity
+    , not (0 <= lo && lo <= hi && hi <= 1)
+    ]
+        -- The duration is measured at refTempC, so the step must happen there.
+        ++ [ err "temp-range" "sensitivity needs minTempC <= refTempC <= maxTempC"
+           | not (all (<= s.refTempC) s.minTempC && all (s.refTempC <=) s.maxTempC)
+           ]
+        ++ [err "q10" "q10 must be positive" | s.q10 <= 0]
+  where
+    err rule = errorIn rule (Just p)
 
 measureChecks :: World -> Located Measure -> [Diagnostic]
 measureChecks w (Located{value = m, path = p}) =

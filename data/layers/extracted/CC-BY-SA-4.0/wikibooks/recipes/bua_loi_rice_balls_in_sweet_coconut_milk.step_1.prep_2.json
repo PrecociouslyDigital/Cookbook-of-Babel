@@ -1,0 +1,49 @@
+{
+  "id": "bua_loi_rice_balls_in_sweet_coconut_milk.step_1.prep_2",
+  "source": "wikibooks_bua_loi_rice_balls_in_sweet_coconut_milk",
+  "technique": "steam",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "taro_root",
+        "amount": {
+          "qty": 1,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "taro_root_steam",
+      "amount": {
+        "qty": 1,
+        "unit": "cup"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "1 cup steamed and mashed taro root",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

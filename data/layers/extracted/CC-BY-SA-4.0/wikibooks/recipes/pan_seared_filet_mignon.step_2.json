@@ -5,7 +5,7 @@
     "source": "wikibooks_pan_seared_filet_mignon",
     "step": 2
   },
-  "technique": "season",
+  "technique": "coat",
   "inputs": {
     "of": [
       {
@@ -23,7 +23,7 @@
         }
       },
       {
-        "ingredient": "pepper",
+        "ingredient": "pepper_grind",
         "amount": {
           "qty": 1,
           "unit": "tsp"
@@ -96,6 +96,11 @@
   "stateNote": "Meanwhile, brush steaks with Dijon mustard. Combine seasonings and press into meat. Brush with olive oil.",
   "issues": [
     {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.51"
+    },
+    {
       "field": "inputs",
       "kind": "estimate",
       "note": "'Dijon mustard': no quantity given; assumed a pinch"
@@ -103,7 +108,7 @@
     {
       "field": "outputs",
       "kind": "estimate",
-      "note": "assumed 1 g/ml for pepper, paprika, cayenne_pepper, mustard, rosemary, thyme, olive_oil"
+      "note": "assumed 1 g/ml for pepper_grind, paprika, cayenne_pepper, mustard, rosemary, thyme, olive_oil"
     },
     {
       "field": "end",

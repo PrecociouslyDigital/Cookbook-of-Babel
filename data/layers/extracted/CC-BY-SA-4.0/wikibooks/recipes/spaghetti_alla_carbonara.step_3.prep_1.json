@@ -1,0 +1,49 @@
+{
+  "id": "spaghetti_alla_carbonara.step_3.prep_1",
+  "source": "wikibooks_spaghetti_alla_carbonara",
+  "technique": "boil",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "pasta",
+        "amount": {
+          "qty": 450,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "pasta_boil",
+      "amount": {
+        "qty": 450,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "450 g (1 pound) spaghetti",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

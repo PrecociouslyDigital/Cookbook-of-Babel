@@ -1,0 +1,49 @@
+{
+  "id": "puri_indian_fried_flatbread.step_6.prep_6",
+  "source": "wikibooks_puri_indian_fried_flatbread",
+  "technique": "heat",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "vegetable_oil",
+        "amount": {
+          "qty": 500,
+          "unit": "ml"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "vegetable_oil_heat",
+      "amount": {
+        "qty": 500,
+        "unit": "ml"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "About 500 ml (1 pint) vegetable oil for deep frying",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

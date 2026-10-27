@@ -5,11 +5,11 @@
     "source": "wikibooks_crab_dip",
     "step": 1
   },
-  "technique": "rinse",
+  "technique": "separate",
   "inputs": {
     "of": [
       {
-        "ingredient": "crab",
+        "ingredient": "crab_rinse",
         "amount": {
           "qty": 7.5,
           "unit": "oz"
@@ -19,7 +19,7 @@
   },
   "outputs": [
     {
-      "ingredient": "crab_rinse",
+      "ingredient": "crab_dip_step_1",
       "amount": {
         "qty": 212.6,
         "unit": "g"
@@ -39,6 +39,11 @@
   },
   "stateNote": "Drain, rinse, and pick over crab meat to remove any bits of shell and cartilage.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.45"
+    },
     {
       "field": "end",
       "kind": "estimate",

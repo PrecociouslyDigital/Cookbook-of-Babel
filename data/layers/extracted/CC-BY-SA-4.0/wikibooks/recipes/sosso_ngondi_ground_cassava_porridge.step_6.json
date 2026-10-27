@@ -30,7 +30,7 @@
         }
       },
       {
-        "ingredient": "nuts_and_seeds",
+        "ingredient": "nuts_and_seeds_chop",
         "amount": {
           "qty": 1,
           "unit": "pinch"
@@ -54,15 +54,15 @@
       }
     }
   ],
-  "environment": {
-    "temperatureC": 180,
-    "medium": "pan_contact"
-  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
     }
   },
   "stateNote": "Remove it from the heat. Serve the warm porridge in bowls and top with shredded coconut, sliced bananas, chopped nuts, or a drizzle of honey.",
@@ -75,7 +75,7 @@
     {
       "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.48"
+      "note": "the decision model gave this answer a probability of 0.53"
     },
     {
       "field": "inputs",
@@ -100,12 +100,7 @@
     {
       "field": "outputs",
       "kind": "estimate",
-      "note": "assumed 1 g/ml for coconut, banana, nuts_and_seeds, honey"
-    },
-    {
-      "field": "environment",
-      "kind": "estimate",
-      "note": "no temperature given; assumed 180.0 °C for pan_contact"
+      "note": "assumed 1 g/ml for coconut, banana, nuts_and_seeds_chop, honey"
     },
     {
       "field": "end",

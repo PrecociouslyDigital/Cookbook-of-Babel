@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "oats",
+        "ingredient": "oats_soak",
         "amount": {
           "qty": 1,
           "unit": "cup"
@@ -47,8 +47,9 @@
       "unit": "h"
     },
     "sensitivity": {
-      "refTempC": 20,
-      "q10": 1
+      "refTempC": 4,
+      "q10": 1,
+      "maxTempC": 8
     }
   },
   "stateNote": "Soak the oats in enough milk or water overnight in the fridge.",
@@ -66,7 +67,7 @@
     {
       "field": "outputs",
       "kind": "estimate",
-      "note": "assumed 1 g/ml for oats"
+      "note": "assumed 1 g/ml for oats_soak"
     },
     {
       "field": "end",

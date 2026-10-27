@@ -1,0 +1,49 @@
+{
+  "id": "chola_and_roti.step_1.prep_1",
+  "source": "wikibooks_chola_and_roti",
+  "technique": "soak",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "chickpea",
+        "amount": {
+          "qty": 250,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "chickpea_soak",
+      "amount": {
+        "qty": 250,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "250 g dried chana dal",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -26,15 +26,15 @@
       }
     }
   ],
-  "environment": {
-    "temperatureC": 20,
-    "medium": "still_air"
-  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
     }
   },
   "stateNote": "Remove the pot from the heat and let rest for a few minutes before serving.",
@@ -42,12 +42,7 @@
     {
       "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.38"
-    },
-    {
-      "field": "environment",
-      "kind": "estimate",
-      "note": "no temperature given; assumed 20.0 °C for still_air"
+      "note": "the decision model gave this answer a probability of 0.4"
     },
     {
       "field": "end",
@@ -57,7 +52,7 @@
     {
       "field": "inputs",
       "kind": "missing",
-      "note": "no step uses '1 hot pepper (optional, for heat), chopped' (p=0.94)"
+      "note": "no step uses '1 hot pepper (optional, for heat), chopped' (p=0.96)"
     }
   ]
 }

@@ -1,0 +1,49 @@
+{
+  "id": "homemade_red_wine.step_8.prep_7",
+  "source": "wikibooks_homemade_red_wine",
+  "technique": "heat",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "white_sugar",
+        "amount": {
+          "qty": 0.625,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "white_sugar_heat",
+      "amount": {
+        "qty": 0.625,
+        "unit": "cup"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "½–¾ cup (120–180 ml) white sugar for colouring",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

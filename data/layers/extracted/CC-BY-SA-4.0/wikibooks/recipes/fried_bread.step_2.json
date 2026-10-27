@@ -16,7 +16,7 @@
         }
       },
       {
-        "ingredient": "bacon",
+        "ingredient": "bacon_heat",
         "amount": {
           "qty": 1,
           "unit": "pinch"
@@ -47,6 +47,11 @@
   "stateNote": "Heat enough bacon fat to prevent sticking in an iron skillet until it is very hot.",
   "issues": [
     {
+      "field": "sourceRef",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.57"
+    },
+    {
       "field": "inputs",
       "kind": "estimate",
       "note": "'Bacon fat': no quantity given; assumed a pinch"
@@ -54,7 +59,7 @@
     {
       "field": "outputs",
       "kind": "estimate",
-      "note": "assumed 1 g/ml for bacon"
+      "note": "assumed 1 g/ml for bacon_heat"
     },
     {
       "field": "environment",

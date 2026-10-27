@@ -5,11 +5,11 @@
     "source": "wikibooks_english_field_bean_pate",
     "step": 4
   },
-  "technique": "season",
+  "technique": "mix",
   "inputs": {
     "of": [
       {
-        "ingredient": "pulses_soak_boil_grind",
+        "ingredient": "pulses_soak_soak_boil_blend",
         "amount": {
           "qty": 226.8,
           "unit": "g"
@@ -37,14 +37,14 @@
         }
       },
       {
-        "ingredient": "garlic",
+        "ingredient": "garlic_chop",
         "amount": {
           "qty": 1,
           "unit": "clove"
         }
       },
       {
-        "ingredient": "herbs_and_spices",
+        "ingredient": "herbs_and_spices_chop",
         "amount": {
           "qty": 1,
           "unit": "tsp"
@@ -74,6 +74,11 @@
   },
   "stateNote": "Add the olive oil, salt, pepper, herbs, and garlic. If the purée is too stiff, add some lemon juice, water, or more oil.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.49"
+    },
     {
       "field": "inputs",
       "kind": "estimate",

@@ -5,7 +5,7 @@
     "source": "wikibooks_hallaca_venezuelan_stuffed_corn_dough",
     "step": 27
   },
-  "technique": "blend",
+  "technique": "stir_fry",
   "inputs": {
     "of": [
       {
@@ -16,14 +16,14 @@
         }
       },
       {
-        "ingredient": "tomato",
+        "ingredient": "tomato_blend",
         "amount": {
           "qty": 1,
           "unit": "package"
         }
       },
       {
-        "ingredient": "bell_peppers",
+        "ingredient": "bell_peppers_blend",
         "amount": {
           "qty": 2,
           "unit": "piece"
@@ -41,7 +41,7 @@
     }
   ],
   "environment": {
-    "temperatureC": 180,
+    "temperatureC": 215,
     "medium": "pan_contact"
   },
   "end": {
@@ -54,9 +54,14 @@
   "stateNote": "Using a food processor, liquidise the tomatoes, and peppers. Add to the cooking onions and leek, and stir for a minute.",
   "issues": [
     {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.37"
+    },
+    {
       "field": "environment",
       "kind": "estimate",
-      "note": "no temperature given; assumed 180.0 °C for pan_contact"
+      "note": "no temperature given; used the middle of stir_fry's typical range"
     }
   ]
 }

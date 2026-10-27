@@ -9,21 +9,21 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "carrot",
+        "ingredient": "carrot_cut",
         "amount": {
           "qty": 2,
           "unit": "piece"
         }
       },
       {
-        "ingredient": "tomato",
+        "ingredient": "tomato_cut",
         "amount": {
           "qty": 1,
           "unit": "piece"
         }
       },
       {
-        "ingredient": "chicken_breast",
+        "ingredient": "chicken_breast_cut",
         "amount": {
           "qty": 100,
           "unit": "g"
@@ -47,15 +47,15 @@
       }
     }
   ],
-  "environment": {
-    "temperatureC": 90,
-    "medium": "simmering_water"
-  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
     }
   },
   "stateNote": "Put the carrots, tomatoes, and chicken breast in a pot. Add water to the same level as the ingredients.",
@@ -63,17 +63,12 @@
     {
       "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.54"
+      "note": "the decision model gave this answer a probability of 0.31"
     },
     {
       "field": "inputs",
       "kind": "estimate",
       "note": "'Water': no quantity given; assumed a pinch"
-    },
-    {
-      "field": "environment",
-      "kind": "estimate",
-      "note": "no temperature given; assumed 90.0 °C for simmering_water"
     },
     {
       "field": "end",

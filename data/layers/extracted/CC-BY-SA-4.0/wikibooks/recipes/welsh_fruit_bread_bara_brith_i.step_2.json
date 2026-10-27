@@ -11,7 +11,7 @@
       {
         "ingredient": "welsh_fruit_bread_bara_brith_i_step_1",
         "amount": {
-          "qty": 320.1,
+          "qty": 313,
           "unit": "g"
         }
       },
@@ -44,7 +44,7 @@
         }
       },
       {
-        "ingredient": "egg",
+        "ingredient": "egg_whisk",
         "amount": {
           "qty": 1,
           "unit": "piece"
@@ -61,15 +61,15 @@
       }
     }
   ],
+  "environment": {
+    "temperatureC": 20,
+    "medium": "still_air"
+  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 90,
       "unit": "min"
-    },
-    "sensitivity": {
-      "refTempC": 20,
-      "q10": 1
     }
   },
   "stateNote": "Sift the flour and place in a large bowl with 2 oz (50 g) sugar and the salt. Rub the fat into the flour until it resembles fine breadcrumbs, then stir in the mixed spice. Add the egg and frothed yeast. Mix to a dough in the bowl before turning it out onto a floured surface. Knead until smooth and elastic. Place back into a bowl and cover with plastic film or a damp cloth. Leave it to rise in a warm place for about 90 minutes.",
@@ -77,7 +77,12 @@
     {
       "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.51"
+      "note": "the decision model gave this answer a probability of 0.57"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 20.0 °C for still_air"
     }
   ]
 }

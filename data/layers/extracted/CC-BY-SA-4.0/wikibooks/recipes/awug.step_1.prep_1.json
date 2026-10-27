@@ -1,0 +1,49 @@
+{
+  "id": "awug.step_1.prep_1",
+  "source": "wikibooks_awug",
+  "technique": "steam",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "rice_flour",
+        "amount": {
+          "qty": 250,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "rice_flour_steam",
+      "amount": {
+        "qty": 250,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "250 g rice flour",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

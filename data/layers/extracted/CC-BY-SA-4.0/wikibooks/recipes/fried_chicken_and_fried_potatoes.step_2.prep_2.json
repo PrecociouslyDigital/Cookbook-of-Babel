@@ -1,0 +1,49 @@
+{
+  "id": "fried_chicken_and_fried_potatoes.step_2.prep_2",
+  "source": "wikibooks_fried_chicken_and_fried_potatoes",
+  "technique": "heat",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "vegetable_oil",
+        "amount": {
+          "qty": 0.5,
+          "unit": "qt"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "vegetable_oil_heat",
+      "amount": {
+        "qty": 0.5,
+        "unit": "qt"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "½ quart vegetable oil",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

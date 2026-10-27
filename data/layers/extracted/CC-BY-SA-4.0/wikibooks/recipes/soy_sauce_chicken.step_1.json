@@ -42,7 +42,7 @@
   ],
   "environment": {
     "temperatureC": 185,
-    "medium": "frying_oil"
+    "medium": "pan_contact"
   },
   "end": {
     "by": "time",
@@ -53,6 +53,11 @@
   },
   "stateNote": "Fry the chicken parts in a pan with green onions and oil until the outside of the chicken parts are brown.",
   "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.5"
+    },
     {
       "field": "inputs",
       "kind": "estimate",

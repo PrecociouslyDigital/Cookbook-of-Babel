@@ -9,17 +9,24 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "broccoli_rabe_rinse",
+        "ingredient": "broccoli_rabe_rinse_rinse",
         "amount": {
           "qty": 1,
           "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "salt",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
         }
       }
     ]
   },
   "outputs": [
     {
-      "ingredient": "broccoli_rabe_rinse_boil",
+      "ingredient": "sauteed_broccoli_rabe_with_garlic_and_olive_oil_step_2",
       "amount": {
         "qty": 1,
         "unit": "batch"
@@ -39,6 +46,11 @@
   },
   "stateNote": "Blanch the broccoli rabe in several quarts of salted, boiling water, until bright green and leaves are tender, about 2–3 minutes. Remove from the hot water and immediately shock in ice water to stop the cooking process. Drain well and set aside.",
   "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Salt to taste': no quantity given; assumed a pinch"
+    },
     {
       "field": "environment",
       "kind": "estimate",

@@ -1,0 +1,54 @@
+{
+  "id": "spaghetti_with_bolognese_meat_sauce.step_1.prep_7",
+  "source": "wikibooks_spaghetti_with_bolognese_meat_sauce",
+  "technique": "chop",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "fennel",
+        "amount": {
+          "qty": 0.25,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "fennel_chop",
+      "amount": {
+        "qty": 0.25,
+        "unit": "cup"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "¼ cup (50 ml) coarsely chopped fennel bulb, if available",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.51"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

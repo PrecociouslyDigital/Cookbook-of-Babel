@@ -1,0 +1,49 @@
+{
+  "id": "chicken_madras.step_5.prep_4",
+  "source": "wikibooks_chicken_madras",
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "tomato_paste",
+        "amount": {
+          "qty": 1,
+          "unit": "jar"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "tomato_paste_mix",
+      "amount": {
+        "qty": 1,
+        "unit": "jar"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "1 jar of tomato puree, mixed with an equal volume of water",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

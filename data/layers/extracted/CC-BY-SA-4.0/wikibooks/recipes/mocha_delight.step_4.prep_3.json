@@ -1,0 +1,49 @@
+{
+  "id": "mocha_delight.step_4.prep_3",
+  "source": "wikibooks_mocha_delight",
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "cake_mix",
+        "amount": {
+          "qty": 22.5,
+          "unit": "oz"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "cake_mix_mix",
+      "amount": {
+        "qty": 22.5,
+        "unit": "oz"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "1 box (22.5 ounces) brownie mix",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

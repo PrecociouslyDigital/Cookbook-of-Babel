@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "tomato",
+        "ingredient": "tomato_heat",
         "amount": {
           "qty": 10,
           "unit": "piece"
@@ -19,7 +19,7 @@
   },
   "outputs": [
     {
-      "ingredient": "tomato_simmer",
+      "ingredient": "tomato_heat_simmer",
       "amount": {
         "qty": 1,
         "unit": "batch"
@@ -39,6 +39,11 @@
   },
   "stateNote": "Put the quartered tomato pieces in a large non-stick saucepan on medium low heat. Add a cup of water to it, mix, and cover with the lid. Let it cook till the tomatoes are mushy and soft, giving it a stir every once in a while. Let it cool.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.55"
+    },
     {
       "field": "environment",
       "kind": "estimate",

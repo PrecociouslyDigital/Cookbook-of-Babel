@@ -1,0 +1,49 @@
+{
+  "id": "eggplant_and_chickpea_skillet.step_2.prep_7",
+  "source": "wikibooks_eggplant_and_chickpea_skillet",
+  "technique": "rinse",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "chickpea",
+        "amount": {
+          "qty": 15,
+          "unit": "oz"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "chickpea_rinse",
+      "amount": {
+        "qty": 15,
+        "unit": "oz"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "1 can (15 oz / 400 g) chickpeas, drained",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

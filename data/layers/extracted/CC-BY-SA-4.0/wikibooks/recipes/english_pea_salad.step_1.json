@@ -13,7 +13,7 @@
         "max": 1,
         "of": [
           {
-            "ingredient": "onion",
+            "ingredient": "onion_boil",
             "amount": {
               "qty": 1.5,
               "unit": "tbsp"
@@ -46,9 +46,14 @@
   "stateNote": "If desired, blanch or parboil the chopped onion in a small amount of water so that the onion flavor is not as strong. Drain and cool thoroughly.",
   "issues": [
     {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.3"
+    },
+    {
       "field": "outputs",
       "kind": "estimate",
-      "note": "assumed 1 g/ml for onion"
+      "note": "assumed 1 g/ml for onion_boil"
     },
     {
       "field": "environment",

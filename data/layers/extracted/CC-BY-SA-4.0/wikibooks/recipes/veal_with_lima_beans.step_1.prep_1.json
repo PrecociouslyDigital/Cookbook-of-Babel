@@ -1,0 +1,49 @@
+{
+  "id": "veal_with_lima_beans.step_1.prep_1",
+  "source": "wikibooks_veal_with_lima_beans",
+  "technique": "rinse",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "veal",
+        "amount": {
+          "qty": 1.5,
+          "unit": "lb"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "veal_rinse",
+      "amount": {
+        "qty": 1.5,
+        "unit": "lb"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "1½ lb veal shoulder, cut into 1-inch cubes",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

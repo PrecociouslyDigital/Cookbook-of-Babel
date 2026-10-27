@@ -1,0 +1,49 @@
+{
+  "id": "garlic_croutons_iii.step_2.prep_2",
+  "source": "wikibooks_garlic_croutons_iii",
+  "technique": "heat",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "olive_oil",
+        "amount": {
+          "qty": 0.25,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "olive_oil_heat",
+      "amount": {
+        "qty": 0.25,
+        "unit": "cup"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "¼ cup (about 50 ml) olive oil",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

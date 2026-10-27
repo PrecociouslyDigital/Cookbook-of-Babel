@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "pineapple_blend",
+        "ingredient": "pineapple_blend_blend",
         "amount": {
           "qty": 1,
           "unit": "batch"
@@ -53,6 +53,11 @@
   },
   "stateNote": "Put pineapple purée in a pan, add sugar and cinnamon, and stir over medium heat until thick.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.51"
+    },
     {
       "field": "environment",
       "kind": "estimate",

@@ -1,0 +1,49 @@
+{
+  "id": "dutch_apple_fritters_oliebollen.step_2.prep_4",
+  "source": "wikibooks_dutch_apple_fritters_oliebollen",
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "egg",
+        "amount": {
+          "qty": 5,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "egg_mix",
+      "amount": {
+        "qty": 5,
+        "unit": "piece"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "5 eggs",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -5,7 +5,7 @@
     "source": "wikibooks_m_batata_sweet_potato_and_peanut_soup",
     "step": 6
   },
-  "technique": "grind",
+  "technique": "blend",
   "inputs": {
     "of": [
       {
@@ -26,15 +26,15 @@
       }
     }
   ],
-  "environment": {
-    "temperatureC": 90,
-    "medium": "simmering_water"
-  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
     }
   },
   "stateNote": "Once the sweet potatoes are cooked, remove the pot from the heat and allow it to cool slightly. Use a potato masher or the back of a fork to mash the sweet potatoes until they are smooth and creamy in texture.",
@@ -42,17 +42,12 @@
     {
       "field": "technique",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.51"
+      "note": "the decision model gave this answer a probability of 0.32"
     },
     {
       "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.54"
-    },
-    {
-      "field": "environment",
-      "kind": "estimate",
-      "note": "no temperature given; assumed 90.0 °C for simmering_water"
+      "note": "the decision model gave this answer a probability of 0.45"
     },
     {
       "field": "end",

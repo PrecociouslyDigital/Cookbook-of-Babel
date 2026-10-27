@@ -16,21 +16,21 @@
         }
       },
       {
-        "ingredient": "milk",
+        "ingredient": "milk_heat",
         "amount": {
           "qty": 250,
           "unit": "ml"
         }
       },
       {
-        "ingredient": "butter",
+        "ingredient": "butter_heat",
         "amount": {
           "qty": 100,
           "unit": "g"
         }
       },
       {
-        "ingredient": "egg",
+        "ingredient": "egg_whisk",
         "amount": {
           "qty": 1,
           "unit": "piece"
@@ -67,6 +67,11 @@
   },
   "stateNote": "Warm milk and butter until lukewarm and then add the beaten egg. Pour mixture into dry ingredients along with enough lukewarm water, and mix to form a soft dough.",
   "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.4"
+    },
     {
       "field": "end",
       "kind": "estimate",

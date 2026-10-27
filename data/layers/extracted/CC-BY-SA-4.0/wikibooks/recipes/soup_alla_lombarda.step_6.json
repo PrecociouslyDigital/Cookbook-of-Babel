@@ -5,7 +5,7 @@
     "source": "wikibooks_soup_alla_lombarda",
     "step": 6
   },
-  "technique": "fry",
+  "technique": "separate",
   "inputs": {
     "of": [
       {
@@ -16,7 +16,7 @@
         }
       },
       {
-        "ingredient": "crouton",
+        "ingredient": "crouton_fry",
         "amount": {
           "qty": 1,
           "unit": "pinch"
@@ -34,8 +34,8 @@
     }
   ],
   "environment": {
-    "temperatureC": 190,
-    "medium": "pan_contact"
+    "temperatureC": 175,
+    "medium": "frying_oil"
   },
   "end": {
     "by": "time",
@@ -49,7 +49,7 @@
     {
       "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.5"
+      "note": "the decision model gave this answer a probability of 0.44"
     },
     {
       "field": "inputs",
@@ -59,7 +59,7 @@
     {
       "field": "environment",
       "kind": "estimate",
-      "note": "no temperature given; used the middle of fry's typical range"
+      "note": "no temperature given; assumed 175.0 °C for frying_oil"
     },
     {
       "field": "end",

@@ -11,7 +11,7 @@
       {
         "ingredient": "frito_pie_chili_step_4",
         "amount": {
-          "qty": 1433.2,
+          "qty": 1435.6,
           "unit": "g"
         }
       },
@@ -49,14 +49,14 @@
     {
       "ingredient": "frito_pie_chili_step_5",
       "amount": {
-        "qty": 2764.1,
+        "qty": 2766.5,
         "unit": "g"
       }
     }
   ],
   "environment": {
-    "temperatureC": 90,
-    "medium": "simmering_water"
+    "temperatureC": 180,
+    "medium": "pan_contact"
   },
   "end": {
     "by": "time",
@@ -68,11 +68,6 @@
   "stateNote": "Stir in the garlic, tomatoes, tomato paste, and beef stock.",
   "issues": [
     {
-      "field": "environment",
-      "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.44"
-    },
-    {
       "field": "outputs",
       "kind": "estimate",
       "note": "assumed 1 g/ml for garlic, tomato, tomato_paste, broth_and_stock"
@@ -80,7 +75,7 @@
     {
       "field": "environment",
       "kind": "estimate",
-      "note": "no temperature given; assumed 90.0 °C for simmering_water"
+      "note": "no temperature given; assumed 180.0 °C for pan_contact"
     },
     {
       "field": "end",

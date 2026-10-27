@@ -9,21 +9,21 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "potato",
+        "ingredient": "potato_chop",
         "amount": {
           "qty": 1,
           "unit": "piece"
         }
       },
       {
-        "ingredient": "parsnip",
+        "ingredient": "parsnip_chop",
         "amount": {
           "qty": 0.5,
           "unit": "piece"
         }
       },
       {
-        "ingredient": "turnip",
+        "ingredient": "turnip_chop",
         "amount": {
           "qty": 0.5,
           "unit": "piece"
@@ -53,6 +53,11 @@
   },
   "stateNote": "Drop the potato, turnip or rutabaga, and ½ parsnip in a saucepan of rapidly boiling water.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.54"
+    },
     {
       "field": "environment",
       "kind": "estimate",

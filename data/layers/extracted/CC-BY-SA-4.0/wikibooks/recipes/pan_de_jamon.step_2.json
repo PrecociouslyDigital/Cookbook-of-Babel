@@ -5,7 +5,7 @@
     "source": "wikibooks_pan_de_jamon",
     "step": 2
   },
-  "technique": "chop",
+  "technique": "assemble",
   "inputs": {
     "of": [
       {
@@ -16,14 +16,14 @@
         }
       },
       {
-        "ingredient": "raisin",
+        "ingredient": "raisin_chop",
         "amount": {
           "qty": 0.25,
           "unit": "cup"
         }
       },
       {
-        "ingredient": "pimento",
+        "ingredient": "pimento_chop",
         "amount": {
           "qty": 0.25,
           "unit": "cup"
@@ -54,9 +54,14 @@
   "stateNote": "While the yeast is proofing, lightly chop the raisins and olives, or give them a few pulses in a food processor. Put in a small bowl and set aside. Make sure the olives are drained of liquid before chopping.",
   "issues": [
     {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.41"
+    },
+    {
       "field": "outputs",
       "kind": "estimate",
-      "note": "assumed 1 g/ml for raisin, pimento"
+      "note": "assumed 1 g/ml for raisin_chop, pimento_chop"
     },
     {
       "field": "end",

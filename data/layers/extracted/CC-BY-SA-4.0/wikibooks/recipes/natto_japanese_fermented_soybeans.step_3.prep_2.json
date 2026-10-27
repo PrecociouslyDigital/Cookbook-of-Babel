@@ -1,0 +1,49 @@
+{
+  "id": "natto_japanese_fermented_soybeans.step_3.prep_2",
+  "source": "wikibooks_natto_japanese_fermented_soybeans",
+  "technique": "boil",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "water",
+        "amount": {
+          "qty": 2,
+          "unit": "tsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "water_boil",
+      "amount": {
+        "qty": 2,
+        "unit": "tsp"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "2 tsp boiled (sterilized) water",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

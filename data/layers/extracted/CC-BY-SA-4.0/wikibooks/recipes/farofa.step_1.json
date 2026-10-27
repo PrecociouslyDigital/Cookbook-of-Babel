@@ -16,7 +16,7 @@
         }
       },
       {
-        "ingredient": "meat",
+        "ingredient": "meat_fry",
         "amount": {
           "qty": 1,
           "unit": "pinch"
@@ -47,6 +47,11 @@
   "stateNote": "Heat a skillet over medium heat. Add the meat and fry for a minute or so. Depending on how much fat is released from it, add up to 1 tbsp of the oil or butter, enough to fry the garlic and onions.",
   "issues": [
     {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.52"
+    },
+    {
       "field": "inputs",
       "kind": "estimate",
       "note": "'A few pieces of chopped processed fatty meat (typically bacon)': no quantity given; assumed a pinch"
@@ -54,7 +59,7 @@
     {
       "field": "outputs",
       "kind": "estimate",
-      "note": "assumed 1 g/ml for meat"
+      "note": "assumed 1 g/ml for meat_fry"
     },
     {
       "field": "environment",

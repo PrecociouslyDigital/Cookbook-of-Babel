@@ -1,0 +1,54 @@
+{
+  "id": "jigarthanda_milk.step_3.prep_3",
+  "source": "wikibooks_jigarthanda_milk",
+  "technique": "rinse",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "sarsaparilla",
+        "amount": {
+          "qty": 25,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "sarsaparilla_rinse",
+      "amount": {
+        "qty": 25,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "25 g Indian sarsaparilla root",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.59"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

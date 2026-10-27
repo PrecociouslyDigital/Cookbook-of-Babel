@@ -1,0 +1,49 @@
+{
+  "id": "chow_mein.step_3.prep_6",
+  "source": "wikibooks_chow_mein",
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "mushroom",
+        "amount": {
+          "qty": 0.5,
+          "unit": "lb"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "mushroom_cut",
+      "amount": {
+        "qty": 0.5,
+        "unit": "lb"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "½ pound fresh mushrooms",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

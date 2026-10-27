@@ -1,0 +1,49 @@
+{
+  "id": "fried_rice_vegetarian.step_2.prep_4",
+  "source": "wikibooks_fried_rice_vegetarian",
+  "technique": "soak",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "mushroom",
+        "amount": {
+          "qty": 200,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "mushroom_soak",
+      "amount": {
+        "qty": 200,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "1 pack (200 g) mushrooms, quartered and soaked in hot water",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

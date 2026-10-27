@@ -1,0 +1,49 @@
+{
+  "id": "burmese_pork_curry.step_7.prep_11",
+  "source": "wikibooks_burmese_pork_curry",
+  "technique": "steam",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "green_bean",
+        "amount": {
+          "qty": 200,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "green_bean_steam",
+      "amount": {
+        "qty": 200,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "200 g French (green) beans",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -26,28 +26,28 @@
       }
     }
   ],
-  "environment": {
-    "temperatureC": 90,
-    "medium": "simmering_water"
-  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
     }
   },
   "stateNote": "Remove bay leaves and ladle into individual bowls. Grind on some black pepper and sprinkle with some dill, if desired, before serving.",
   "issues": [
     {
-      "field": "environment",
+      "field": "technique",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.4"
+      "note": "the decision model gave this answer a probability of 0.57"
     },
     {
       "field": "environment",
-      "kind": "estimate",
-      "note": "no temperature given; assumed 90.0 °C for simmering_water"
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.46"
     },
     {
       "field": "end",

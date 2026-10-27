@@ -9,14 +9,14 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "rice",
+        "ingredient": "rice_rinse",
         "amount": {
           "qty": 3,
           "unit": "cup"
         }
       },
       {
-        "ingredient": "urad_bean",
+        "ingredient": "urad_bean_rinse",
         "amount": {
           "qty": 1,
           "unit": "cup"
@@ -47,9 +47,14 @@
   "stateNote": "Put the rice and dal in a large pot and wash twice.",
   "issues": [
     {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.58"
+    },
+    {
       "field": "outputs",
       "kind": "estimate",
-      "note": "assumed 1 g/ml for rice, urad_bean"
+      "note": "assumed 1 g/ml for rice_rinse, urad_bean_rinse"
     },
     {
       "field": "end",

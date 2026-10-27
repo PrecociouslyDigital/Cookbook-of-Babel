@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "bean_soup_vegetarian_step_1",
+        "ingredient": "bean_soup_vegetarian_step_2",
         "amount": {
           "qty": 1030.4,
           "unit": "g"
@@ -47,15 +47,15 @@
       }
     }
   ],
+  "environment": {
+    "temperatureC": 100,
+    "medium": "boiling_water"
+  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
-    },
-    "sensitivity": {
-      "refTempC": 20,
-      "q10": 1
     }
   },
   "stateNote": "While liquid is heating, add frozen vegetables, stewed tomatoes with their juices and uncooked pasta.",
@@ -63,17 +63,22 @@
     {
       "field": "technique",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.53"
+      "note": "the decision model gave this answer a probability of 0.51"
     },
     {
       "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.54"
+      "note": "the decision model gave this answer a probability of 0.41"
     },
     {
       "field": "outputs",
       "kind": "estimate",
       "note": "assumed 1 g/ml for pasta"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 100.0 °C for boiling_water"
     },
     {
       "field": "end",

@@ -1,0 +1,49 @@
+{
+  "id": "radish_pie.step_2.prep_1",
+  "source": "wikibooks_radish_pie",
+  "technique": "bake",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "radish",
+        "amount": {
+          "qty": 1.5,
+          "unit": "bunch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "radish_bake",
+      "amount": {
+        "qty": 1.5,
+        "unit": "bunch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "1–2 bunches red radishes",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

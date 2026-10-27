@@ -5,7 +5,7 @@
     "source": "wikibooks_green_bean_casserole",
     "step": 4
   },
-  "technique": "coat",
+  "technique": "assemble",
   "inputs": {
     "of": [
       {
@@ -26,15 +26,15 @@
       }
     }
   ],
-  "environment": {
-    "temperatureC": 175,
-    "medium": "oven_air"
-  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
     }
   },
   "stateNote": "Sprinkle top with rest of onions.",
@@ -42,7 +42,12 @@
     {
       "field": "technique",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.54"
+      "note": "the decision model gave this answer a probability of 0.45"
+    },
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.5"
     },
     {
       "field": "end",

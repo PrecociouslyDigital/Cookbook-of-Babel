@@ -1,0 +1,49 @@
+{
+  "id": "fiddlehead_portobello_linguine.step_6.prep_7",
+  "source": "wikibooks_fiddlehead_portobello_linguine",
+  "technique": "boil",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "linguine",
+        "amount": {
+          "qty": 0.5,
+          "unit": "box"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "linguine_boil",
+      "amount": {
+        "qty": 0.5,
+        "unit": "box"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "½ box of linguine",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

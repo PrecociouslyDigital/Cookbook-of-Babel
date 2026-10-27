@@ -1,0 +1,49 @@
+{
+  "id": "dominican_flan.step_5.prep_5",
+  "source": "wikibooks_dominican_flan",
+  "technique": "whisk",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "egg",
+        "amount": {
+          "qty": 400,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "egg_whisk",
+      "amount": {
+        "qty": 400,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "8 ea. (400 g) standard eggs",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

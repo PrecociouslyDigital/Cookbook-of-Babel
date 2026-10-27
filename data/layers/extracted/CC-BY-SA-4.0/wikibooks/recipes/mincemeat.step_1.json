@@ -5,11 +5,11 @@
     "source": "wikibooks_mincemeat",
     "step": 1
   },
-  "technique": "cut",
+  "technique": "separate",
   "inputs": {
     "of": [
       {
-        "ingredient": "apple",
+        "ingredient": "apple_cut",
         "amount": {
           "qty": 7,
           "unit": "lb"
@@ -19,7 +19,7 @@
   },
   "outputs": [
     {
-      "ingredient": "apple_cut",
+      "ingredient": "mincemeat_step_1",
       "amount": {
         "qty": 3175.1,
         "unit": "g"
@@ -39,6 +39,11 @@
   },
   "stateNote": "Core apples; remove the seeds, but don’t peel.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.38"
+    },
     {
       "field": "end",
       "kind": "estimate",

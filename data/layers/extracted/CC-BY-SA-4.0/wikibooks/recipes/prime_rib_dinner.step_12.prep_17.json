@@ -1,0 +1,49 @@
+{
+  "id": "prime_rib_dinner.step_12.prep_17",
+  "source": "wikibooks_prime_rib_dinner",
+  "technique": "chop",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "ginger",
+        "amount": {
+          "qty": 0.25,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "ginger_chop",
+      "amount": {
+        "qty": 0.25,
+        "unit": "cup"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "¼ cup crystallized ginger, finely chopped",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

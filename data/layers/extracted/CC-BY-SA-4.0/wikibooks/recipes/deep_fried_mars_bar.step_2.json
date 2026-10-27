@@ -5,11 +5,11 @@
     "source": "wikibooks_deep_fried_mars_bar",
     "step": 2
   },
-  "technique": "whisk",
+  "technique": "mix",
   "inputs": {
     "of": [
       {
-        "ingredient": "mars_bar_chill",
+        "ingredient": "mars_bar_chill_chill",
         "amount": {
           "qty": 1,
           "unit": "batch"
@@ -60,6 +60,11 @@
   },
   "stateNote": "Mix the milk, flour, and egg in a bowl. Whisk together to create a creamy batter.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.58"
+    },
     {
       "field": "end",
       "kind": "estimate",

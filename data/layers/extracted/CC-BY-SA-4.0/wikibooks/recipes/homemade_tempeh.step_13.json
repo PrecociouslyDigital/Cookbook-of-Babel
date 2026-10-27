@@ -5,7 +5,7 @@
     "source": "wikibooks_homemade_tempeh",
     "step": 13
   },
-  "technique": "freeze",
+  "technique": "chill",
   "inputs": {
     "of": [
       {
@@ -33,8 +33,9 @@
       "unit": "min"
     },
     "sensitivity": {
-      "refTempC": 20,
-      "q10": 1
+      "refTempC": 4,
+      "q10": 1,
+      "maxTempC": 8
     }
   },
   "stateNote": "After fermentation is complete, serve straight away in your favourite tempeh recipe, refrigerate for two to three days, or freeze for up to two months.",
@@ -42,7 +43,12 @@
     {
       "field": "technique",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.53"
+      "note": "the decision model gave this answer a probability of 0.54"
+    },
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.48"
     },
     {
       "field": "end",

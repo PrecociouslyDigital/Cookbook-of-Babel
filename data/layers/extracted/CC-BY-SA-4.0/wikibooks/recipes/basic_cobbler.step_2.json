@@ -5,11 +5,11 @@
     "source": "wikibooks_basic_cobbler",
     "step": 2
   },
-  "technique": "heat",
+  "technique": "assemble",
   "inputs": {
     "of": [
       {
-        "ingredient": "butter",
+        "ingredient": "butter_heat",
         "amount": {
           "qty": 0.5,
           "unit": "cup"
@@ -53,6 +53,11 @@
   "stateNote": "Place the butter in a deep 9½ x 12-inch baking dish. Put dish in oven to melt butter while preparing other ingredients. If butter is unsalted, add a touch of salt to the pan as well.",
   "issues": [
     {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.51"
+    },
+    {
       "field": "inputs",
       "kind": "estimate",
       "note": "'Salt (optional; add only if butter is unsalted)': no quantity given; assumed a pinch"
@@ -60,7 +65,7 @@
     {
       "field": "outputs",
       "kind": "estimate",
-      "note": "assumed 1 g/ml for butter"
+      "note": "assumed 1 g/ml for butter_heat"
     },
     {
       "field": "end",

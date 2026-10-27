@@ -33,15 +33,15 @@
       }
     }
   ],
+  "environment": {
+    "temperatureC": 100,
+    "medium": "boiling_water"
+  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
-    },
-    "sensitivity": {
-      "refTempC": 20,
-      "q10": 1
     }
   },
   "stateNote": "Either pour espresso over gelato and serve, or serve them side by side for diner to mix at the table.",
@@ -49,7 +49,7 @@
     {
       "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.52"
+      "note": "the decision model gave this answer a probability of 0.36"
     },
     {
       "field": "inputs",
@@ -60,6 +60,11 @@
       "field": "inputs",
       "kind": "estimate",
       "note": "'1–2 shots espresso, or one long pull shot': 'shots' read as pieces"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 100.0 °C for boiling_water"
     },
     {
       "field": "end",

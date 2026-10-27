@@ -1,0 +1,49 @@
+{
+  "id": "vietnamese_rice_noodle_and_beef_soup_bun_bo_hu.step_11.prep_14",
+  "source": "wikibooks_vietnamese_rice_noodle_and_beef_soup_bun_bo_hu",
+  "technique": "soak",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "noodle",
+        "amount": {
+          "qty": 1,
+          "unit": "kg"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "noodle_soak",
+      "amount": {
+        "qty": 1,
+        "unit": "kg"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "1 kg thin rice noodles",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

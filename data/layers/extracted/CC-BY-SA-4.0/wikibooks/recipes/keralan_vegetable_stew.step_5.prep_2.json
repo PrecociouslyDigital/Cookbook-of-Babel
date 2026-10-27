@@ -1,0 +1,49 @@
+{
+  "id": "keralan_vegetable_stew.step_5.prep_2",
+  "source": "wikibooks_keralan_vegetable_stew",
+  "technique": "boil",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "vegetable",
+        "amount": {
+          "qty": 1.5,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "vegetable_boil",
+      "amount": {
+        "qty": 1.5,
+        "unit": "cup"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "1½ cups boiled vegetables (carrots, green beans, potatoes, peas, etc.)",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

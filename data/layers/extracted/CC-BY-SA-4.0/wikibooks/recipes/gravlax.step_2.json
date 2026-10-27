@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "salmon_freeze",
+        "ingredient": "salmon_cut_freeze",
         "amount": {
           "qty": 800,
           "unit": "g"
@@ -19,7 +19,7 @@
   },
   "outputs": [
     {
-      "ingredient": "salmon_freeze_chill",
+      "ingredient": "salmon_cut_freeze_chill",
       "amount": {
         "qty": 800,
         "unit": "g"
@@ -33,8 +33,9 @@
       "unit": "h"
     },
     "sensitivity": {
-      "refTempC": 20,
-      "q10": 1
+      "refTempC": 4,
+      "q10": 1,
+      "maxTempC": 8
     }
   },
   "stateNote": "After deep freezing the salmon remove it from the freezer and let it thaw, preferably overnight in the refrigerator. The salmon does not have to be completely thawed for the next steps.",
@@ -42,7 +43,7 @@
     {
       "field": "technique",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.55"
+      "note": "the decision model gave this answer a probability of 0.47"
     },
     {
       "field": "end",

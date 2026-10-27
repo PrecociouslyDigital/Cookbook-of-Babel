@@ -1,0 +1,49 @@
+{
+  "id": "steamed_pork_with_mustard_greens.step_1.prep_1",
+  "source": "wikibooks_steamed_pork_with_mustard_greens",
+  "technique": "rinse",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "mustard_greens",
+        "amount": {
+          "qty": 10.5,
+          "unit": "oz"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "mustard_greens_rinse",
+      "amount": {
+        "qty": 10.5,
+        "unit": "oz"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "About 10.5 ounces mustard greens",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "chilli_crab.step_1.prep_1",
+  "source": "wikibooks_chilli_crab",
+  "technique": "freeze",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "crab",
+        "amount": {
+          "qty": 1,
+          "unit": "kg"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "crab_freeze",
+      "amount": {
+        "qty": 1,
+        "unit": "kg"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "1 kg live, whole crab (preferably mud crab, but other similar types like blue, Dungeness, or common will also work)",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

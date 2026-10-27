@@ -9,14 +9,14 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "margarine",
+        "ingredient": "margarine_heat",
         "amount": {
           "qty": 0.5,
           "unit": "stick"
         }
       },
       {
-        "ingredient": "onion",
+        "ingredient": "onion_chop",
         "amount": {
           "qty": 1,
           "unit": "piece"
@@ -46,6 +46,11 @@
   },
   "stateNote": "Sauté onion in margarine over medium heat.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.56"
+    },
     {
       "field": "environment",
       "kind": "estimate",

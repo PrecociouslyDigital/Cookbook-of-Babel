@@ -1,0 +1,49 @@
+{
+  "id": "causa_rellena_con_pollo_peruvian_layered_potato_and_chicken.step_1.prep_1",
+  "source": "wikibooks_causa_rellena_con_pollo_peruvian_layered_potato_and_chicken",
+  "technique": "boil",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "potato",
+        "amount": {
+          "qty": 10,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "potato_boil",
+      "amount": {
+        "qty": 10,
+        "unit": "piece"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "10 medium potatoes (yellow, new, or red are a good choice)",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

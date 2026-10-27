@@ -5,11 +5,11 @@
     "source": "wikibooks_peppercorn_strip_steaks_with_cognac_cream_sauce",
     "step": 1
   },
-  "technique": "grind",
+  "technique": "season",
   "inputs": {
     "of": [
       {
-        "ingredient": "garlic",
+        "ingredient": "garlic_season",
         "amount": {
           "qty": 2,
           "unit": "clove"
@@ -46,6 +46,11 @@
   },
   "stateNote": "Sprinkle garlic with salt. Rub with the side of the knife repeatedly until garlic forms a thick paste.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.3"
+    },
     {
       "field": "inputs",
       "kind": "estimate",

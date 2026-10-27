@@ -1,0 +1,49 @@
+{
+  "id": "calamansi_juice_drink.step_1.prep_1",
+  "source": "wikibooks_calamansi_juice_drink",
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "calamansi",
+        "amount": {
+          "qty": 3.5,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "calamansi_cut",
+      "amount": {
+        "qty": 3.5,
+        "unit": "piece"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "3 or 4 calamansi",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

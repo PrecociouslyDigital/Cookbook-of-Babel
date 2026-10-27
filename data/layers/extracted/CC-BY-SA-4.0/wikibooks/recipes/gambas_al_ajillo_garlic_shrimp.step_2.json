@@ -5,7 +5,7 @@
     "source": "wikibooks_gambas_al_ajillo_garlic_shrimp",
     "step": 2
   },
-  "technique": "stir_fry",
+  "technique": "pan_fry",
   "inputs": {
     "of": [
       {
@@ -55,7 +55,7 @@
     }
   ],
   "environment": {
-    "temperatureC": 215,
+    "temperatureC": 185,
     "medium": "pan_contact"
   },
   "end": {
@@ -68,9 +68,14 @@
   "stateNote": "Raise the heat to high and add the shrimp, lemon juice, sherry or cognac and paprika. Stir well, then sauté, stirring briskly until the shrimp turn pink and curl (about 3 minutes).",
   "issues": [
     {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.5"
+    },
+    {
       "field": "environment",
       "kind": "estimate",
-      "note": "no temperature given; used the middle of stir_fry's typical range"
+      "note": "no temperature given; used the middle of pan_fry's typical range"
     }
   ]
 }

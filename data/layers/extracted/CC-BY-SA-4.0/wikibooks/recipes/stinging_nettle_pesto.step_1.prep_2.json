@@ -1,0 +1,49 @@
+{
+  "id": "stinging_nettle_pesto.step_1.prep_2",
+  "source": "wikibooks_stinging_nettle_pesto",
+  "technique": "roast",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "hazelnut",
+        "amount": {
+          "qty": 0.3333333333333333,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "hazelnut_roast",
+      "amount": {
+        "qty": 0.3333333333333333,
+        "unit": "cup"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "⅓ cup hazelnuts, pine nuts, and/or walnuts",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

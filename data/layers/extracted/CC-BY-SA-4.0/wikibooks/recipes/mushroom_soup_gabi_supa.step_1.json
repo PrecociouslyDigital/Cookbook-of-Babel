@@ -9,14 +9,14 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "butter",
+        "ingredient": "butter_heat",
         "amount": {
           "qty": 2,
           "unit": "tbsp"
         }
       },
       {
-        "ingredient": "wheat_flour",
+        "ingredient": "wheat_flour_fry",
         "amount": {
           "qty": 2,
           "unit": "tbsp"
@@ -28,7 +28,7 @@
     {
       "ingredient": "mushroom_soup_gabi_supa_step_1",
       "amount": {
-        "qty": 45.3,
+        "qty": 59.2,
         "unit": "g"
       }
     }
@@ -47,9 +47,14 @@
   "stateNote": "In a pot, fry the flour in the melted butter until slightly golden (about 3 minutes).",
   "issues": [
     {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.59"
+    },
+    {
       "field": "outputs",
       "kind": "estimate",
-      "note": "assumed 1 g/ml for butter"
+      "note": "assumed 1 g/ml for butter_heat, wheat_flour_fry"
     },
     {
       "field": "environment",

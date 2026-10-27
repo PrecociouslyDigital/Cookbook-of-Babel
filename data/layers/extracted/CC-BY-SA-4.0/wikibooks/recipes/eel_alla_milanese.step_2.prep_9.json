@@ -1,0 +1,49 @@
+{
+  "id": "eel_alla_milanese.step_2.prep_9",
+  "source": "wikibooks_eel_alla_milanese",
+  "technique": "boil",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "vegetable",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "vegetable_boil",
+      "amount": {
+        "qty": 1,
+        "unit": "pinch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "a medley of vegetables (e.g. carrots, cauliflower, celery, beans, tomatoes, etc.)",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

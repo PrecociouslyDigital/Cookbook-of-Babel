@@ -40,15 +40,15 @@
       }
     }
   ],
-  "environment": {
-    "temperatureC": 180,
-    "medium": "pan_contact"
-  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
     }
   },
   "stateNote": "While the pastry bakes, prepare the syrup. In a saucepan, combine the sugar, lemon juice, and 1 cup of water.",
@@ -56,17 +56,12 @@
     {
       "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.43"
+      "note": "the decision model gave this answer a probability of 0.39"
     },
     {
       "field": "outputs",
       "kind": "estimate",
       "note": "assumed 1 g/ml for lemon"
-    },
-    {
-      "field": "environment",
-      "kind": "estimate",
-      "note": "no temperature given; assumed 180.0 °C for pan_contact"
     },
     {
       "field": "end",

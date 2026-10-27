@@ -23,14 +23,14 @@
         }
       },
       {
-        "ingredient": "parsley",
+        "ingredient": "parsley_chop",
         "amount": {
           "qty": 1,
           "unit": "bunch"
         }
       },
       {
-        "ingredient": "olive_oil",
+        "ingredient": "olive_oil_heat",
         "amount": {
           "qty": 1,
           "unit": "pinch"
@@ -60,6 +60,11 @@
   },
   "stateNote": "Begin by heating olive oil in a pan; add onions and bacon and sauté until the onions are transparent. Chop parsley and add it to the mix when it is nearly done sauteing. Allow this mixture to cool.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.55"
+    },
     {
       "field": "inputs",
       "kind": "estimate",

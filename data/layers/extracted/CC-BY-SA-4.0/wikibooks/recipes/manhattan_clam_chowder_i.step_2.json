@@ -5,7 +5,7 @@
     "source": "wikibooks_manhattan_clam_chowder_i",
     "step": 2
   },
-  "technique": "chop",
+  "technique": "mix",
   "inputs": {
     "of": [
       {
@@ -16,7 +16,7 @@
         }
       },
       {
-        "ingredient": "potato",
+        "ingredient": "potato_chop",
         "amount": {
           "qty": 15,
           "unit": "oz"
@@ -30,7 +30,7 @@
         }
       },
       {
-        "ingredient": "celery",
+        "ingredient": "celery_chop",
         "amount": {
           "qty": 2,
           "unit": "stalk"
@@ -60,6 +60,11 @@
   },
   "stateNote": "Chop all non-clam ingredients to match the clams in size.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.48"
+    },
     {
       "field": "end",
       "kind": "estimate",

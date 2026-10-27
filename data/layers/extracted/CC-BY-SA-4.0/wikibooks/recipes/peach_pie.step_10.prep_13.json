@@ -1,0 +1,49 @@
+{
+  "id": "peach_pie.step_10.prep_13",
+  "source": "wikibooks_peach_pie",
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "salt",
+        "amount": {
+          "qty": 0.25,
+          "unit": "tsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "salt_mix",
+      "amount": {
+        "qty": 0.25,
+        "unit": "tsp"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "¼ teaspoon salt",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

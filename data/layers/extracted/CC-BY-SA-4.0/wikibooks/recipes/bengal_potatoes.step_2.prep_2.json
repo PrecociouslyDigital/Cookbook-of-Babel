@@ -1,0 +1,54 @@
+{
+  "id": "bengal_potatoes.step_2.prep_2",
+  "source": "wikibooks_bengal_potatoes",
+  "technique": "heat",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "bengali_five_spice_mix_panch_puran",
+        "amount": {
+          "qty": 2,
+          "unit": "tsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "bengali_five_spice_mix_panch_puran_heat",
+      "amount": {
+        "qty": 2,
+        "unit": "tsp"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "2 teaspoons panch puran",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.33"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

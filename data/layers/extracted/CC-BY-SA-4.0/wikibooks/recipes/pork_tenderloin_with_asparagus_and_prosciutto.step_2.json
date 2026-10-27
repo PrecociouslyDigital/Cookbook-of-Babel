@@ -9,14 +9,14 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "pork_cut",
+        "ingredient": "pork_tenderloin_with_asparagus_and_prosciutto_step_1",
         "amount": {
           "qty": 226.8,
           "unit": "g"
         }
       },
       {
-        "ingredient": "asparagus",
+        "ingredient": "asparagus_cut",
         "amount": {
           "qty": 1,
           "unit": "lb"
@@ -46,6 +46,11 @@
   },
   "stateNote": "Wash and slice the asparagus into small pieces, using angled cuts for improved presentation.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.46"
+    },
     {
       "field": "end",
       "kind": "estimate",

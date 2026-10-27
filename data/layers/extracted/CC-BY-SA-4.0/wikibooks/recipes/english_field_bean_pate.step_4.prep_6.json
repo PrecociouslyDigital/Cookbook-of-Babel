@@ -1,0 +1,49 @@
+{
+  "id": "english_field_bean_pate.step_4.prep_6",
+  "source": "wikibooks_english_field_bean_pate",
+  "technique": "chop",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "herbs_and_spices",
+        "amount": {
+          "qty": 1,
+          "unit": "tsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "herbs_and_spices_chop",
+      "amount": {
+        "qty": 1,
+        "unit": "tsp"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "1 tsp strong-flavoured herba (e.g. thyme, sage or rosemary), minced",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

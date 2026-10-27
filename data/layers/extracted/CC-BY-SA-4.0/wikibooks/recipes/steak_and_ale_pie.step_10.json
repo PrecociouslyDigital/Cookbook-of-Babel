@@ -33,15 +33,15 @@
       }
     }
   ],
-  "environment": {
-    "temperatureC": 200,
-    "medium": "oven_air"
-  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
     }
   },
   "stateNote": "Place in pie dish or individual dishes. Cover pie dish (or dishes) with the pastry and trim edges.",
@@ -49,7 +49,7 @@
     {
       "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.49"
+      "note": "the decision model gave this answer a probability of 0.5"
     },
     {
       "field": "end",

@@ -1,0 +1,49 @@
+{
+  "id": "frijoles_antioquenos_colombian_bean_stew.step_1.prep_1",
+  "source": "wikibooks_frijoles_antioquenos_colombian_bean_stew",
+  "technique": "rinse",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "common_bean",
+        "amount": {
+          "qty": 1,
+          "unit": "lb"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "common_bean_rinse",
+      "amount": {
+        "qty": 1,
+        "unit": "lb"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "1 lb red or Cargamanto beans",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

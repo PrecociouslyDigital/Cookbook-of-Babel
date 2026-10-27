@@ -1,0 +1,49 @@
+{
+  "id": "fall_chanterelle_mushroom_frittata.step_5.prep_4",
+  "source": "wikibooks_fall_chanterelle_mushroom_frittata",
+  "technique": "roast",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "mushroom",
+        "amount": {
+          "qty": 0.5,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "mushroom_roast",
+      "amount": {
+        "qty": 0.5,
+        "unit": "cup"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "½ cup chopped and roasted chanterelles",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

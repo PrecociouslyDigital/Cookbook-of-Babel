@@ -5,7 +5,7 @@
     "source": "wikibooks_rice_an_peas",
     "step": 5
   },
-  "technique": "steam",
+  "technique": "heat",
   "inputs": {
     "of": [
       {
@@ -26,15 +26,15 @@
       }
     }
   ],
-  "environment": {
-    "temperatureC": 100,
-    "medium": "steam"
-  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 30,
       "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
     }
   },
   "stateNote": "In about 30 minutes your rice cooker will finish cooking the rice. Open, stir, and serve.",
@@ -42,17 +42,12 @@
     {
       "field": "technique",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.39"
+      "note": "the decision model gave this answer a probability of 0.35"
     },
     {
       "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.43"
-    },
-    {
-      "field": "environment",
-      "kind": "estimate",
-      "note": "no temperature given; used the middle of steam's typical range"
+      "note": "the decision model gave this answer a probability of 0.37"
     }
   ]
 }

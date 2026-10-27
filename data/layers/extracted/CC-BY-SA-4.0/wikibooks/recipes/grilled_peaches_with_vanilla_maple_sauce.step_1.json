@@ -23,7 +23,7 @@
         }
       },
       {
-        "ingredient": "butter",
+        "ingredient": "butter_heat",
         "amount": {
           "qty": 0.25,
           "unit": "cup"
@@ -68,9 +68,14 @@
   "stateNote": "Combine all ingredients except peaches and sugar. Bring to a boil over high heat in a large saucepan, and simmer until reduced by half.",
   "issues": [
     {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.53"
+    },
+    {
       "field": "outputs",
       "kind": "estimate",
-      "note": "assumed 1 g/ml for maple_syrup_and_sugar, vanilla, butter, peach_nectar"
+      "note": "assumed 1 g/ml for maple_syrup_and_sugar, vanilla, butter_heat, peach_nectar"
     },
     {
       "field": "environment",

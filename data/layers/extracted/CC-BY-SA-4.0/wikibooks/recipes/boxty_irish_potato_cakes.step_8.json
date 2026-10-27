@@ -5,14 +5,21 @@
     "source": "wikibooks_boxty_irish_potato_cakes",
     "step": 8
   },
-  "technique": "pan_fry",
+  "technique": "shape",
   "inputs": {
     "of": [
       {
-        "ingredient": "boxty_irish_potato_cakes_step_7",
+        "ingredient": "boxty_irish_potato_cakes_step_6",
         "amount": {
-          "qty": 1617.8,
+          "qty": 1595.6,
           "unit": "g"
+        }
+      },
+      {
+        "ingredient": "butter_heat",
+        "amount": {
+          "qty": 1.5,
+          "unit": "tbsp"
         }
       }
     ]
@@ -27,7 +34,7 @@
     }
   ],
   "environment": {
-    "temperatureC": 185,
+    "temperatureC": 180,
     "medium": "pan_contact"
   },
   "end": {
@@ -42,12 +49,17 @@
     {
       "field": "technique",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.5"
+      "note": "the decision model gave this answer a probability of 0.53"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for butter_heat"
     },
     {
       "field": "environment",
       "kind": "estimate",
-      "note": "no temperature given; used the middle of pan_fry's typical range"
+      "note": "no temperature given; assumed 180.0 °C for pan_contact"
     },
     {
       "field": "end",

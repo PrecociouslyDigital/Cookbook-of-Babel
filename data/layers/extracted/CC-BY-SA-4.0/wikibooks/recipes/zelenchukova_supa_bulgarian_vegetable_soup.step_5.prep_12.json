@@ -1,0 +1,49 @@
+{
+  "id": "zelenchukova_supa_bulgarian_vegetable_soup.step_5.prep_12",
+  "source": "wikibooks_zelenchukova_supa_bulgarian_vegetable_soup",
+  "technique": "boil",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "beet",
+        "amount": {
+          "qty": 1,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "beet_boil",
+      "amount": {
+        "qty": 1,
+        "unit": "piece"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "1 beetroot, diced and boiled",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

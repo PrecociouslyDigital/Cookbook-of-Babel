@@ -1,0 +1,49 @@
+{
+  "id": "jam_roly_poly.step_4.prep_5",
+  "source": "wikibooks_jam_roly_poly",
+  "technique": "heat",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "fruit_preserves",
+        "amount": {
+          "qty": 4,
+          "unit": "tbsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "fruit_preserves_heat",
+      "amount": {
+        "qty": 4,
+        "unit": "tbsp"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "4 tbsp raspberry jam, warmed",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

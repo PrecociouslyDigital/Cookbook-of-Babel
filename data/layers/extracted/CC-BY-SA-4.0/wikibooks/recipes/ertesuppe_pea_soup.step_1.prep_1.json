@@ -1,0 +1,49 @@
+{
+  "id": "ertesuppe_pea_soup.step_1.prep_1",
+  "source": "wikibooks_ertesuppe_pea_soup",
+  "technique": "soak",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "pea",
+        "amount": {
+          "qty": 16,
+          "unit": "oz"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "pea_soak",
+      "amount": {
+        "qty": 16,
+        "unit": "oz"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "16 oz split yellow Swedish peas",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

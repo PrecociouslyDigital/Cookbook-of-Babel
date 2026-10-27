@@ -16,7 +16,7 @@
         }
       },
       {
-        "ingredient": "water",
+        "ingredient": "water_boil",
         "amount": {
           "qty": 300,
           "unit": "ml"
@@ -46,6 +46,16 @@
   },
   "stateNote": "Bring the water to a boil in a saucepan, then add the sarsaparilla.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.53"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for water_boil"
+    },
     {
       "field": "environment",
       "kind": "estimate",

@@ -5,11 +5,11 @@
     "source": "wikibooks_soy_protein_bread",
     "step": 1
   },
-  "technique": "dissolve",
+  "technique": "mix",
   "inputs": {
     "of": [
       {
-        "ingredient": "milk",
+        "ingredient": "milk_heat",
         "amount": {
           "qty": 3,
           "unit": "cup"
@@ -35,7 +35,7 @@
     {
       "ingredient": "soy_protein_bread_step_1",
       "amount": {
-        "qty": 985.4,
+        "qty": 964.1,
         "unit": "g"
       }
     }
@@ -54,9 +54,14 @@
   "stateNote": "Heat the milk until it is about to boil, then add the salt and the soy protein. Mix it for the salt to be well dissolved. Let it rest until is warm again.",
   "issues": [
     {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.36"
+    },
+    {
       "field": "outputs",
       "kind": "estimate",
-      "note": "assumed 1 g/ml for soy_protein"
+      "note": "assumed 1 g/ml for milk_heat, soy_protein"
     },
     {
       "field": "environment",

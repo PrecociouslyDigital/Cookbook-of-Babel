@@ -1,0 +1,49 @@
+{
+  "id": "tex_mex_sliders.step_6.prep_8",
+  "source": "wikibooks_tex_mex_sliders",
+  "technique": "toast",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "buns",
+        "amount": {
+          "qty": 16,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "buns_toast",
+      "amount": {
+        "qty": 16,
+        "unit": "piece"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "16 ea. 1-inch buns, split in half and toasted",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -23,6 +23,13 @@
         }
       },
       {
+        "ingredient": "chicken_stock",
+        "amount": {
+          "qty": 1.8,
+          "unit": "l"
+        }
+      },
+      {
         "ingredient": "kaffir_lime",
         "amount": {
           "qty": 3,
@@ -74,6 +81,11 @@
   },
   "stateNote": "Make soup by cooking the whole chicken with spice paste, galangal, lime leaves, lemon grass, and bay leaves in a pot for at least 30 minutes until the meat is tender. Use a pressure cooker for faster cooking time and better broth. For a traditional method, bring soup to boil, cover, and turn off heat, then let steep for 30–40 minutes—this makes the meat more tender.",
   "issues": [
+    {
+      "field": "inputs",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.56"
+    },
     {
       "field": "environment",
       "kind": "estimate",

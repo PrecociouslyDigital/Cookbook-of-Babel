@@ -1,0 +1,49 @@
+{
+  "id": "sai_bhaji_sindhi_vegetable_curry.step_3.prep_5",
+  "source": "wikibooks_sai_bhaji_sindhi_vegetable_curry",
+  "technique": "chop",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "fenugreek",
+        "amount": {
+          "qty": 3,
+          "unit": "bunch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "fenugreek_chop",
+      "amount": {
+        "qty": 3,
+        "unit": "bunch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "3 small bunches fenugreek leaves, finely chopped",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

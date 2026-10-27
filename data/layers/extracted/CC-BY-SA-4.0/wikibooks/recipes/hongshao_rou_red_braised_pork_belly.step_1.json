@@ -9,14 +9,14 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "vegetable_oil",
+        "ingredient": "vegetable_oil_heat",
         "amount": {
           "qty": 3,
           "unit": "tbsp"
         }
       },
       {
-        "ingredient": "white_sugar",
+        "ingredient": "white_sugar_heat",
         "amount": {
           "qty": 2,
           "unit": "tbsp"
@@ -28,7 +28,7 @@
     {
       "ingredient": "hongshao_rou_red_braised_pork_belly_step_1",
       "amount": {
-        "qty": 66,
+        "qty": 73.9,
         "unit": "g"
       }
     }
@@ -46,6 +46,11 @@
   },
   "stateNote": "In a medium saucepan, over high heat, heat the oil and sugar together until the sugar melts and turns brown.",
   "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for vegetable_oil_heat, white_sugar_heat"
+    },
     {
       "field": "environment",
       "kind": "estimate",

@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "shrimp",
+        "ingredient": "shrimp_cut",
         "amount": {
           "qty": 20,
           "unit": "piece"
@@ -19,7 +19,7 @@
   },
   "outputs": [
     {
-      "ingredient": "shrimp_chop",
+      "ingredient": "shrimp_cut_chop",
       "amount": {
         "qty": 1,
         "unit": "batch"
@@ -39,6 +39,11 @@
   },
   "stateNote": "Remove shells and tails from shrimp. Remove back veins from shrimp. Cut down back of shrimp with sharp knife. Chop shrimp into a very small dice.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.55"
+    },
     {
       "field": "inputs",
       "kind": "estimate",

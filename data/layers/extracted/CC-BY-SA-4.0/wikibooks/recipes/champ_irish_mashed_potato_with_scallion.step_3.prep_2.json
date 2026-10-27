@@ -1,0 +1,49 @@
+{
+  "id": "champ_irish_mashed_potato_with_scallion.step_3.prep_2",
+  "source": "wikibooks_champ_irish_mashed_potato_with_scallion",
+  "technique": "chop",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "green_onion",
+        "amount": {
+          "qty": 2,
+          "unit": "oz"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "green_onion_chop",
+      "amount": {
+        "qty": 2,
+        "unit": "oz"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "2 oz (60 g) scallions",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

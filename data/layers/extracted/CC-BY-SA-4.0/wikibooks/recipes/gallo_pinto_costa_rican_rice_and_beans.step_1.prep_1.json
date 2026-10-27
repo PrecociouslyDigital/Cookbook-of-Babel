@@ -1,0 +1,49 @@
+{
+  "id": "gallo_pinto_costa_rican_rice_and_beans.step_1.prep_1",
+  "source": "wikibooks_gallo_pinto_costa_rican_rice_and_beans",
+  "technique": "soak",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "dry_beans",
+        "amount": {
+          "qty": 450,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "dry_beans_soak",
+      "amount": {
+        "qty": 450,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "1 package (450 g / 16 oz) dry beans (black beans preferred)",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

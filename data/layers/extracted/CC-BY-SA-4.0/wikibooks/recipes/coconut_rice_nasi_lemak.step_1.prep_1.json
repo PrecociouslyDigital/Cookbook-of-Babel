@@ -1,0 +1,49 @@
+{
+  "id": "coconut_rice_nasi_lemak.step_1.prep_1",
+  "source": "wikibooks_coconut_rice_nasi_lemak",
+  "technique": "rinse",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "steamed_basmati_rice",
+        "amount": {
+          "qty": 6,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "steamed_basmati_rice_rinse",
+      "amount": {
+        "qty": 6,
+        "unit": "cup"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "6 cups (1450 ml) basmati rice",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

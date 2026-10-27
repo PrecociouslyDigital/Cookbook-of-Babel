@@ -16,14 +16,14 @@
         }
       },
       {
-        "ingredient": "water",
+        "ingredient": "water_boil",
         "amount": {
           "qty": 0.5,
           "unit": "cup"
         }
       },
       {
-        "ingredient": "milk",
+        "ingredient": "milk_boil",
         "amount": {
           "qty": 0.5,
           "unit": "cup"
@@ -42,7 +42,7 @@
   ],
   "environment": {
     "temperatureC": 100,
-    "medium": "boiling_water"
+    "medium": "pan_contact"
   },
   "end": {
     "by": "time",
@@ -53,11 +53,6 @@
   },
   "stateNote": "Boil water and milk together in a saucepan.",
   "issues": [
-    {
-      "field": "environment",
-      "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.56"
-    },
     {
       "field": "environment",
       "kind": "estimate",

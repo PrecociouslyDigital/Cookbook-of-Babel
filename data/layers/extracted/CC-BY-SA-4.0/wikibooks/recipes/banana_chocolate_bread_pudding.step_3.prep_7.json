@@ -1,0 +1,49 @@
+{
+  "id": "banana_chocolate_bread_pudding.step_3.prep_7",
+  "source": "wikibooks_banana_chocolate_bread_pudding",
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "baguette",
+        "amount": {
+          "qty": 16,
+          "unit": "oz"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "baguette_cut",
+      "amount": {
+        "qty": 16,
+        "unit": "oz"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "1 loaf (16 oz / 450 g) French bread or other non-sour white bread (stale bread is traditionally used)",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

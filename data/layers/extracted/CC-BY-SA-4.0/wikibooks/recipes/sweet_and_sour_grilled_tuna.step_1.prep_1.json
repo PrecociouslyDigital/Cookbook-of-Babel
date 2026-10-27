@@ -1,0 +1,49 @@
+{
+  "id": "sweet_and_sour_grilled_tuna.step_1.prep_1",
+  "source": "wikibooks_sweet_and_sour_grilled_tuna",
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "tuna",
+        "amount": {
+          "qty": 2,
+          "unit": "lb"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "tuna_cut",
+      "amount": {
+        "qty": 2,
+        "unit": "lb"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "2 pounds ahi tuna loin, cut into 2 pieces",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

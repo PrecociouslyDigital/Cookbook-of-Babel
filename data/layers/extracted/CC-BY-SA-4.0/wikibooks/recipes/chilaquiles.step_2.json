@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "tomatillo_roast",
+        "ingredient": "tomatillo_roast_roast",
         "amount": {
           "qty": 236.6,
           "unit": "g"
@@ -19,7 +19,7 @@
   },
   "outputs": [
     {
-      "ingredient": "tomatillo_roast_roast",
+      "ingredient": "tomatillo_roast_roast_roast",
       "amount": {
         "qty": 236.6,
         "unit": "g"
@@ -39,6 +39,11 @@
   },
   "stateNote": "After roasting the tomatillos for approximately 15 to 20 minutes, pull them off the heat and reserve.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.42"
+    },
     {
       "field": "environment",
       "kind": "estimate",

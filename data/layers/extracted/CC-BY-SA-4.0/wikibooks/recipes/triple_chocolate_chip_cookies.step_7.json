@@ -26,19 +26,24 @@
       }
     }
   ],
-  "environment": {
-    "temperatureC": 190,
-    "medium": "oven_air"
-  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
     }
   },
   "stateNote": "Spoon heaped tablespoons of dough onto the baking trays, well spaced apart.",
   "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.54"
+    },
     {
       "field": "end",
       "kind": "estimate",

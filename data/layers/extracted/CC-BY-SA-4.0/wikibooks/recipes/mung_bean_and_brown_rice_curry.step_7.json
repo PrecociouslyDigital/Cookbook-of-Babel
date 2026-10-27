@@ -68,38 +68,28 @@
       }
     }
   ],
-  "environment": {
-    "temperatureC": 180,
-    "medium": "pan_contact"
-  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
     }
   },
   "stateNote": "Make the marinade and pour mix in.",
   "issues": [
     {
-      "field": "technique",
-      "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.57"
-    },
-    {
       "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.44"
+      "note": "the decision model gave this answer a probability of 0.53"
     },
     {
       "field": "outputs",
       "kind": "estimate",
       "note": "assumed 1 g/ml for lemon, soy_sauce, honey, basil, oregano"
-    },
-    {
-      "field": "environment",
-      "kind": "estimate",
-      "note": "no temperature given; assumed 180.0 °C for pan_contact"
     },
     {
       "field": "end",
@@ -109,7 +99,7 @@
     {
       "field": "inputs",
       "kind": "missing",
-      "note": "no step uses '1½ cups oil' (p=0.4)"
+      "note": "no step uses '1½ cups oil' (p=0.63)"
     }
   ]
 }

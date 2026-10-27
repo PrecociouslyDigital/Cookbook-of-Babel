@@ -5,11 +5,11 @@
     "source": "wikibooks_easy_peach_cobbler",
     "step": 2
   },
-  "technique": "heat",
+  "technique": "assemble",
   "inputs": {
     "of": [
       {
-        "ingredient": "margarine",
+        "ingredient": "margarine_heat",
         "amount": {
           "qty": 1,
           "unit": "stick"
@@ -19,7 +19,7 @@
   },
   "outputs": [
     {
-      "ingredient": "margarine_heat",
+      "ingredient": "easy_peach_cobbler_step_2",
       "amount": {
         "qty": 1,
         "unit": "batch"
@@ -39,6 +39,11 @@
   },
   "stateNote": "Melt margarine in quart size baking pan or dish. Set aside.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.52"
+    },
     {
       "field": "end",
       "kind": "estimate",

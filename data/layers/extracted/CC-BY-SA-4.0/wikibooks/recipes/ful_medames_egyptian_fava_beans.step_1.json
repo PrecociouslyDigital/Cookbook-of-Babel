@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "fava_bean",
+        "ingredient": "fava_bean_rinse",
         "amount": {
           "qty": 2,
           "unit": "cup"
@@ -47,9 +47,14 @@
   "stateNote": "Rinse the dried fava beans under cold water and remove any impurities or debris. Place the beans in a saucepan and cover them with water.",
   "issues": [
     {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.56"
+    },
+    {
       "field": "outputs",
       "kind": "estimate",
-      "note": "assumed 1 g/ml for fava_bean"
+      "note": "assumed 1 g/ml for fava_bean_rinse"
     },
     {
       "field": "end",

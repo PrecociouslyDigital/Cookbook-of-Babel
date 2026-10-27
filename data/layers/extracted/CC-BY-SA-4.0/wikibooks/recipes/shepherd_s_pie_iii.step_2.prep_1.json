@@ -1,0 +1,49 @@
+{
+  "id": "shepherd_s_pie_iii.step_2.prep_1",
+  "source": "wikibooks_shepherd_s_pie_iii",
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "lamb_and_mutton",
+        "amount": {
+          "qty": 100,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "lamb_and_mutton_cut",
+      "amount": {
+        "qty": 100,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "100 g minced lamb",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

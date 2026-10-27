@@ -5,7 +5,7 @@
     "source": "wikibooks_chicken_soup_i",
     "step": 1
   },
-  "technique": "boil",
+  "technique": "strain",
   "inputs": {
     "of": [
       {
@@ -34,8 +34,8 @@
     }
   ],
   "environment": {
-    "temperatureC": 100,
-    "medium": "simmering_water"
+    "temperatureC": 180,
+    "medium": "pan_contact"
   },
   "end": {
     "by": "time",
@@ -49,12 +49,12 @@
     {
       "field": "technique",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.45"
+      "note": "the decision model gave this answer a probability of 0.33"
     },
     {
       "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.59"
+      "note": "the decision model gave this answer a probability of 0.53"
     },
     {
       "field": "inputs",
@@ -74,7 +74,7 @@
     {
       "field": "environment",
       "kind": "estimate",
-      "note": "no temperature given; used the middle of boil's typical range"
+      "note": "no temperature given; assumed 180.0 °C for pan_contact"
     },
     {
       "field": "end",

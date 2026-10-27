@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "butter",
+        "ingredient": "butter_cut",
         "amount": {
           "qty": 1,
           "unit": "lb"
@@ -19,7 +19,7 @@
   },
   "outputs": [
     {
-      "ingredient": "butter_cut",
+      "ingredient": "butter_cut_cut",
       "amount": {
         "qty": 453.6,
         "unit": "g"
@@ -39,6 +39,11 @@
   },
   "stateNote": "Divide the butter into four equal pieces.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.51"
+    },
     {
       "field": "end",
       "kind": "estimate",

@@ -5,7 +5,7 @@
     "source": "wikibooks_coq_au_vin_i",
     "step": 5
   },
-  "technique": "mix",
+  "technique": "assemble",
   "inputs": {
     "of": [
       {
@@ -23,14 +23,14 @@
         }
       },
       {
-        "ingredient": "garlic",
+        "ingredient": "garlic_chop",
         "amount": {
           "qty": 1,
           "unit": "clove"
         }
       },
       {
-        "ingredient": "basil",
+        "ingredient": "basil_chop",
         "amount": {
           "qty": 1,
           "unit": "tsp"
@@ -48,8 +48,8 @@
     }
   ],
   "environment": {
-    "temperatureC": 90,
-    "medium": "simmering_water"
+    "temperatureC": 180,
+    "medium": "pan_contact"
   },
   "end": {
     "by": "time",
@@ -63,17 +63,17 @@
     {
       "field": "technique",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.58"
+      "note": "the decision model gave this answer a probability of 0.44"
     },
     {
       "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.4"
+      "note": "the decision model gave this answer a probability of 0.37"
     },
     {
       "field": "environment",
       "kind": "estimate",
-      "note": "no temperature given; assumed 90.0 °C for simmering_water"
+      "note": "no temperature given; assumed 180.0 °C for pan_contact"
     },
     {
       "field": "end",

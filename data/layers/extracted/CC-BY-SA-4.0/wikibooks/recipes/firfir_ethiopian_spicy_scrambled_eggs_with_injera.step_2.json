@@ -9,14 +9,14 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "olive_oil",
+        "ingredient": "olive_oil_heat",
         "amount": {
           "qty": 2,
           "unit": "tbsp"
         }
       },
       {
-        "ingredient": "onion",
+        "ingredient": "onion_fry",
         "amount": {
           "qty": 1,
           "unit": "piece"
@@ -46,6 +46,11 @@
   },
   "stateNote": "Add the chopped onions to the pan and sauté until they become translucent and slightly browned.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.55"
+    },
     {
       "field": "environment",
       "kind": "estimate",

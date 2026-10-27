@@ -9,14 +9,14 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "water",
+        "ingredient": "water_rinse",
         "amount": {
           "qty": 1,
           "unit": "pinch"
         }
       },
       {
-        "ingredient": "rice",
+        "ingredient": "rice_rinse",
         "amount": {
           "qty": 2,
           "unit": "cup"
@@ -48,18 +48,13 @@
   "issues": [
     {
       "field": "inputs",
-      "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.52"
-    },
-    {
-      "field": "inputs",
       "kind": "estimate",
       "note": "'Water': no quantity given; assumed a pinch"
     },
     {
       "field": "outputs",
       "kind": "estimate",
-      "note": "assumed 1 g/ml for rice"
+      "note": "assumed 1 g/ml for water_rinse, rice_rinse"
     },
     {
       "field": "end",

@@ -9,10 +9,17 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "kondowole_malawian_toasted_sesame_seeds_step_5",
+        "ingredient": "kondowole_malawian_toasted_sesame_seeds_step_4",
         "amount": {
-          "qty": 237.3,
+          "qty": 237,
           "unit": "g"
+        }
+      },
+      {
+        "ingredient": "vegetable_oil_heat",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
         }
       }
     ]
@@ -27,8 +34,8 @@
     }
   ],
   "environment": {
-    "temperatureC": 175,
-    "medium": "frying_oil"
+    "temperatureC": 180,
+    "medium": "pan_contact"
   },
   "end": {
     "by": "time",
@@ -40,9 +47,19 @@
   "stateNote": "Add the toasted sesame seeds to the pan and stir to coat them evenly with the oil. This step helps to enhance the flavor and crunchiness of the seeds.",
   "issues": [
     {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Vegetable oil, for toasting': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for vegetable_oil_heat"
+    },
+    {
       "field": "environment",
       "kind": "estimate",
-      "note": "no temperature given; assumed 175.0 °C for frying_oil"
+      "note": "no temperature given; assumed 180.0 °C for pan_contact"
     },
     {
       "field": "end",

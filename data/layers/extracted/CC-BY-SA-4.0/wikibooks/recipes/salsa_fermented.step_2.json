@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "tomato",
+        "ingredient": "tomato_chop",
         "amount": {
           "qty": 1,
           "unit": "kg"
@@ -19,7 +19,7 @@
   },
   "outputs": [
     {
-      "ingredient": "tomato_chop",
+      "ingredient": "tomato_chop_chop",
       "amount": {
         "qty": 1000,
         "unit": "g"
@@ -39,6 +39,11 @@
   },
   "stateNote": "Dice the tomatoes",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.48"
+    },
     {
       "field": "end",
       "kind": "estimate",

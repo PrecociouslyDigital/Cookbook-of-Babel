@@ -26,15 +26,15 @@
       }
     }
   ],
-  "environment": {
-    "temperatureC": 100,
-    "medium": "boiling_water"
-  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
     }
   },
   "stateNote": "When they're done (they'll be soft enough that you can easily put a knife/fork into one of the pieces), drain them in a colander and return them to the big pan (not on the heat any more).",
@@ -42,12 +42,7 @@
     {
       "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.36"
-    },
-    {
-      "field": "environment",
-      "kind": "estimate",
-      "note": "no temperature given; assumed 100.0 °C for boiling_water"
+      "note": "the decision model gave this answer a probability of 0.45"
     },
     {
       "field": "end",

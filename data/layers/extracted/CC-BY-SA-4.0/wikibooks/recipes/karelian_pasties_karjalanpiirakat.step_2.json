@@ -35,7 +35,7 @@
   ],
   "environment": {
     "temperatureC": 90,
-    "medium": "simmering_water"
+    "medium": "pan_contact"
   },
   "end": {
     "by": "time",
@@ -47,9 +47,14 @@
   "stateNote": "Add the milk, and stir the filling for a few minutes. Reduce heat and agitate the porridge. Cook for about 40 minutes. Stir the porridge every now and then. When the porridge is ready, it will seem thick.",
   "issues": [
     {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.52"
+    },
+    {
       "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.46"
+      "note": "the decision model gave this answer a probability of 0.51"
     },
     {
       "field": "environment",

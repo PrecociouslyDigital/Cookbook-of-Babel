@@ -1,0 +1,49 @@
+{
+  "id": "roast_beef.step_14.prep_10",
+  "source": "wikibooks_roast_beef",
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "fruit_preserves",
+        "amount": {
+          "qty": 1,
+          "unit": "tsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "fruit_preserves_mix",
+      "amount": {
+        "qty": 1,
+        "unit": "tsp"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "1 teaspoon (45 ml) red jam (mix with a little water and strain out the seeds if using raspberry or blackberry)",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

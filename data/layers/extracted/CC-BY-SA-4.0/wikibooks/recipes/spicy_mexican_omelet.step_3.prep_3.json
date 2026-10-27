@@ -1,0 +1,49 @@
+{
+  "id": "spicy_mexican_omelet.step_3.prep_3",
+  "source": "wikibooks_spicy_mexican_omelet",
+  "technique": "chop",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "habanero",
+        "amount": {
+          "qty": 1,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "habanero_chop",
+      "amount": {
+        "qty": 1,
+        "unit": "piece"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "1 habanero or serrano chile, finely minced and seeded if you like",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

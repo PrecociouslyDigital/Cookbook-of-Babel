@@ -26,23 +26,23 @@
       }
     }
   ],
-  "environment": {
-    "temperatureC": 180,
-    "medium": "oven_air"
-  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
     }
   },
   "stateNote": "Spread into a 30x20 cm (13x9 in) baking pan, or into two 20x20 cm (8x8 in) baking pans.",
   "issues": [
     {
       "field": "environment",
-      "kind": "estimate",
-      "note": "no temperature given; assumed 180.0 °C for oven_air"
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.5"
     },
     {
       "field": "end",

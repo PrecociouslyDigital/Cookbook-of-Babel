@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "potato",
+        "ingredient": "potato_boil",
         "amount": {
           "qty": 1,
           "unit": "pinch"
@@ -19,7 +19,7 @@
   },
   "outputs": [
     {
-      "ingredient": "potato_boil",
+      "ingredient": "potato_boil_boil",
       "amount": {
         "qty": 0.3,
         "unit": "g"
@@ -43,6 +43,11 @@
       "field": "inputs",
       "kind": "estimate",
       "note": "'Potatoes, peeled': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for potato_boil"
     },
     {
       "field": "environment",

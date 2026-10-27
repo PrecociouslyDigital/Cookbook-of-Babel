@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "potato",
+        "ingredient": "potato_rinse",
         "amount": {
           "qty": 1,
           "unit": "pinch"
@@ -47,11 +47,6 @@
   "stateNote": "Rinse the potatoes and season with salt.",
   "issues": [
     {
-      "field": "technique",
-      "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.58"
-    },
-    {
       "field": "inputs",
       "kind": "estimate",
       "note": "'Potatoes, peeled and sliced': no quantity given; assumed a pinch"
@@ -60,6 +55,11 @@
       "field": "inputs",
       "kind": "estimate",
       "note": "'Salt': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for potato_rinse"
     },
     {
       "field": "end",

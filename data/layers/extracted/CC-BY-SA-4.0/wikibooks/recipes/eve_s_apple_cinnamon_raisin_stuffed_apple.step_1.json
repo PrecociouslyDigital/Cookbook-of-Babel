@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "apple",
+        "ingredient": "apple_cut",
         "amount": {
           "qty": 1,
           "unit": "piece"
@@ -19,7 +19,7 @@
   },
   "outputs": [
     {
-      "ingredient": "apple_cut",
+      "ingredient": "apple_cut_cut",
       "amount": {
         "qty": 1,
         "unit": "batch"
@@ -39,6 +39,11 @@
   },
   "stateNote": "Core apple almost to, but not through, the bottom.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.58"
+    },
     {
       "field": "inputs",
       "kind": "estimate",

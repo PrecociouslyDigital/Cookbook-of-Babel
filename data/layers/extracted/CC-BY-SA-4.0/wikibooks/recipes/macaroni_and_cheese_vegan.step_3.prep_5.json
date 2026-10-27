@@ -1,0 +1,49 @@
+{
+  "id": "macaroni_and_cheese_vegan.step_3.prep_5",
+  "source": "wikibooks_macaroni_and_cheese_vegan",
+  "technique": "boil",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "rice_milk",
+        "amount": {
+          "qty": 3.5,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "rice_milk_boil",
+      "amount": {
+        "qty": 3.5,
+        "unit": "cup"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "3 ½ cups water or rice milk, boiling",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

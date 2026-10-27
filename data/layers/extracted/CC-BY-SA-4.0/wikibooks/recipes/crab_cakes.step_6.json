@@ -26,29 +26,19 @@
       }
     }
   ],
-  "environment": {
-    "temperatureC": 55,
-    "medium": "pan_contact"
-  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
     }
   },
   "stateNote": "Remove from skillet and drain on paper towels.",
   "issues": [
-    {
-      "field": "environment",
-      "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.4"
-    },
-    {
-      "field": "environment",
-      "kind": "estimate",
-      "note": "no temperature given; used the middle of dry's typical range"
-    },
     {
       "field": "end",
       "kind": "estimate",

@@ -16,7 +16,7 @@
         }
       },
       {
-        "ingredient": "chipotle_pepper",
+        "ingredient": "chipotle_pepper_chop",
         "amount": {
           "qty": 4.5,
           "unit": "piece"
@@ -30,7 +30,7 @@
         }
       },
       {
-        "ingredient": "mini_potato_buns",
+        "ingredient": "mini_potato_buns_toast",
         "amount": {
           "qty": 16,
           "unit": "piece"
@@ -47,28 +47,28 @@
       }
     }
   ],
-  "environment": {
-    "temperatureC": 185,
-    "medium": "convection_air"
-  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
     }
   },
   "stateNote": "Meanwhile, toast buns. Combine mayonnaise and diced chipotles. Spread mayonnaise mixture on each bun.",
   "issues": [
     {
-      "field": "environment",
+      "field": "technique",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.28"
+      "note": "the decision model gave this answer a probability of 0.32"
     },
     {
       "field": "environment",
-      "kind": "estimate",
-      "note": "no temperature given; used the middle of toast's typical range"
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.4"
     },
     {
       "field": "end",

@@ -5,11 +5,11 @@
     "source": "wikibooks_champ_irish_mashed_potato_with_scallion",
     "step": 2
   },
-  "technique": "grind",
+  "technique": "blend",
   "inputs": {
     "of": [
       {
-        "ingredient": "potato_boil",
+        "ingredient": "potato_boil_boil",
         "amount": {
           "qty": 453.6,
           "unit": "g"
@@ -19,22 +19,22 @@
   },
   "outputs": [
     {
-      "ingredient": "potato_boil_grind",
+      "ingredient": "potato_boil_boil_blend",
       "amount": {
         "qty": 453.6,
         "unit": "g"
       }
     }
   ],
-  "environment": {
-    "temperatureC": 100,
-    "medium": "boiling_water"
-  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
     }
   },
   "stateNote": "Drain the potatoes and mash them.",
@@ -42,17 +42,12 @@
     {
       "field": "technique",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.46"
+      "note": "the decision model gave this answer a probability of 0.58"
     },
     {
       "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.55"
-    },
-    {
-      "field": "environment",
-      "kind": "estimate",
-      "note": "no temperature given; assumed 100.0 °C for boiling_water"
+      "note": "the decision model gave this answer a probability of 0.44"
     },
     {
       "field": "end",

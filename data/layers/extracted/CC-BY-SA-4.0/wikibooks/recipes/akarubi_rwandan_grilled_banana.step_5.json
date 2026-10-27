@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "akarubi_rwandan_grilled_banana_step_4",
+        "ingredient": "banana_grill_grill_grill",
         "amount": {
           "qty": 0.3,
           "unit": "g"
@@ -39,15 +39,15 @@
       }
     }
   ],
-  "environment": {
-    "temperatureC": 20,
-    "medium": "still_air"
-  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
     }
   },
   "stateNote": "Optionally, sprinkle the grilled bananas with cinnamon for added flavor.",
@@ -55,7 +55,7 @@
     {
       "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.46"
+      "note": "the decision model gave this answer a probability of 0.51"
     },
     {
       "field": "inputs",
@@ -66,11 +66,6 @@
       "field": "outputs",
       "kind": "estimate",
       "note": "assumed 1 g/ml for cinnamon"
-    },
-    {
-      "field": "environment",
-      "kind": "estimate",
-      "note": "no temperature given; assumed 20.0 °C for still_air"
     },
     {
       "field": "end",

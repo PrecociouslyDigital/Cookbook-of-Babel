@@ -5,7 +5,7 @@
     "source": "wikibooks_atomic_fudge_cake",
     "step": 10
   },
-  "technique": "coat",
+  "technique": "assemble",
   "inputs": {
     "of": [
       {
@@ -33,12 +33,18 @@
       "unit": "min"
     },
     "sensitivity": {
-      "refTempC": 20,
-      "q10": 1
+      "refTempC": 4,
+      "q10": 1,
+      "maxTempC": 8
     }
   },
   "stateNote": "Immediately 'frost' the cake with this, making sure that there is quite a bit between the two layers of cake. The cake will need to be refrigerated to harden the fudge, so don't worry about its relatively liquid nature.",
   "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.54"
+    },
     {
       "field": "end",
       "kind": "estimate",

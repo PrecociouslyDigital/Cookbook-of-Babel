@@ -35,7 +35,7 @@
   ],
   "environment": {
     "temperatureC": 90,
-    "medium": "simmering_water"
+    "medium": "pan_contact"
   },
   "end": {
     "by": "time",
@@ -46,6 +46,11 @@
   },
   "stateNote": "Add the beer and heat to simmer, stirring constantly. When the beer is mostly absorbed, add around ⅓ to ½ cup of hot stock. Stir constantly while simmering. Repeat procedure for around twenty minutes—most of the stock should be consumed and the rice should be tender to the taste before proceeding. The rice will produce a thick, creamy sauce in the course of cooking (see risotto).",
   "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.55"
+    },
     {
       "field": "environment",
       "kind": "estimate",

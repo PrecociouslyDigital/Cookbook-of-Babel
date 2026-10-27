@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "cabbage",
+        "ingredient": "cabbage_cut",
         "amount": {
           "qty": 2.5,
           "unit": "kg"
@@ -19,7 +19,7 @@
   },
   "outputs": [
     {
-      "ingredient": "cabbage_cut",
+      "ingredient": "cabbage_cut_cut",
       "amount": {
         "qty": 2500,
         "unit": "g"
@@ -39,6 +39,11 @@
   },
   "stateNote": "Quarter the cabbage and remove the core.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.54"
+    },
     {
       "field": "end",
       "kind": "estimate",

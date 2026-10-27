@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "raisin",
+        "ingredient": "raisin_rinse",
         "amount": {
           "qty": 1,
           "unit": "lb"
@@ -41,8 +41,8 @@
     }
   ],
   "environment": {
-    "temperatureC": 100,
-    "medium": "boiling_water"
+    "temperatureC": 180,
+    "medium": "pan_contact"
   },
   "end": {
     "by": "time",
@@ -54,19 +54,14 @@
   "stateNote": "Wash and clean raisins and add the cold water and 1½ cups of sugar.",
   "issues": [
     {
-      "field": "technique",
-      "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.59"
-    },
-    {
       "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.32"
+      "note": "the decision model gave this answer a probability of 0.4"
     },
     {
       "field": "environment",
       "kind": "estimate",
-      "note": "no temperature given; assumed 100.0 °C for boiling_water"
+      "note": "no temperature given; assumed 180.0 °C for pan_contact"
     },
     {
       "field": "end",

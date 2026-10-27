@@ -1,0 +1,54 @@
+{
+  "id": "liberian_country_beans_torborgee.step_1.prep_1",
+  "source": "wikibooks_liberian_country_beans_torborgee",
+  "technique": "soak",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "pulses",
+        "amount": {
+          "qty": 48,
+          "unit": "oz"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "pulses_soak",
+      "amount": {
+        "qty": 48,
+        "unit": "oz"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "48 oz dried beans",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.52"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

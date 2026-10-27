@@ -1,0 +1,49 @@
+{
+  "id": "sindhi_vegetable_kofta.step_2.prep_4",
+  "source": "wikibooks_sindhi_vegetable_kofta",
+  "technique": "chop",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "carrot",
+        "amount": {
+          "qty": 75,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "carrot_chop",
+      "amount": {
+        "qty": 75,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "75 g finely-chopped carrot",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

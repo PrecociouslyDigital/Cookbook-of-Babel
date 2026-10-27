@@ -5,11 +5,11 @@
     "source": "wikibooks_strawberry_and_yogurt_eton_mess",
     "step": 1
   },
-  "technique": "cut",
+  "technique": "rinse",
   "inputs": {
     "of": [
       {
-        "ingredient": "strawberry",
+        "ingredient": "strawberry_rinse",
         "amount": {
           "qty": 500,
           "unit": "g"
@@ -19,7 +19,7 @@
   },
   "outputs": [
     {
-      "ingredient": "strawberry_cut",
+      "ingredient": "strawberry_rinse_rinse",
       "amount": {
         "qty": 500,
         "unit": "g"
@@ -39,6 +39,11 @@
   },
   "stateNote": "Rinse the strawberries, remove the tops, and cut into halves.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.45"
+    },
     {
       "field": "end",
       "kind": "estimate",

@@ -1,0 +1,49 @@
+{
+  "id": "homemade_garam_masala.step_1.prep_4",
+  "source": "wikibooks_homemade_garam_masala",
+  "technique": "toast",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "cinnamon",
+        "amount": {
+          "qty": 20,
+          "unit": "stick"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "cinnamon_toast",
+      "amount": {
+        "qty": 20,
+        "unit": "stick"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "20 sticks cinnamon, about 2.5 cm in length",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

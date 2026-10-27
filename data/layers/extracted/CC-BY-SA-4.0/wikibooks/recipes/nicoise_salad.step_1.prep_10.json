@@ -1,0 +1,49 @@
+{
+  "id": "nicoise_salad.step_1.prep_10",
+  "source": "wikibooks_nicoise_salad",
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "anchovy",
+        "amount": {
+          "qty": 12,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "anchovy_cut",
+      "amount": {
+        "qty": 12,
+        "unit": "piece"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "12 anchovy fillets, or 300 g tuna steak",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

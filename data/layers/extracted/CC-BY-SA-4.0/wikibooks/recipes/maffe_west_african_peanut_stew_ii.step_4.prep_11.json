@@ -1,0 +1,54 @@
+{
+  "id": "maffe_west_african_peanut_stew_ii.step_4.prep_11",
+  "source": "wikibooks_maffe_west_african_peanut_stew_ii",
+  "technique": "rinse",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "carrot",
+        "amount": {
+          "qty": 4,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "carrot_rinse",
+      "amount": {
+        "qty": 4,
+        "unit": "piece"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "4 medium size carrots, washed and diced",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.3"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "mbongo_tchobi_cameroonian_black_stew.step_2.prep_8",
+  "source": "wikibooks_mbongo_tchobi_cameroonian_black_stew",
+  "technique": "chop",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "celery_stalk",
+        "amount": {
+          "qty": 0.5,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "celery_stalk_chop",
+      "amount": {
+        "qty": 0.5,
+        "unit": "piece"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "½ celery stalk, chopped",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

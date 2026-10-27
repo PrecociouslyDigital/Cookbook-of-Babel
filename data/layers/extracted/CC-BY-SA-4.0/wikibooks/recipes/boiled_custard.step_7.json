@@ -26,15 +26,15 @@
       }
     }
   ],
-  "environment": {
-    "temperatureC": 55,
-    "medium": "simmering_water"
-  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
     }
   },
   "stateNote": "Remove from heat, and continue stirring to dry the custard slightly.",
@@ -42,12 +42,7 @@
     {
       "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.33"
-    },
-    {
-      "field": "environment",
-      "kind": "estimate",
-      "note": "no temperature given; used the middle of dry's typical range"
+      "note": "the decision model gave this answer a probability of 0.42"
     },
     {
       "field": "end",

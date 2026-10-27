@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "beef",
+        "ingredient": "beef_freeze",
         "amount": {
           "qty": 1,
           "unit": "piece"
@@ -19,40 +19,31 @@
   },
   "outputs": [
     {
-      "ingredient": "beef_freeze",
+      "ingredient": "beef_freeze_freeze",
       "amount": {
         "qty": 1,
         "unit": "batch"
       }
     }
   ],
-  "environment": {
-    "temperatureC": -20,
-    "medium": "still_air"
-  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": -18,
+      "q10": 1,
+      "maxTempC": 0
     }
   },
   "stateNote": "Cover the meat tightly with plastic wrap, then freeze for up to two hours to help with slicing. Don't freeze for any longer, or else it'll be mushy.",
   "issues": [
     {
-      "field": "environment",
-      "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.54"
-    },
-    {
       "field": "inputs",
       "kind": "estimate",
       "note": "'1 center cut beef tenderloin roast': 'center' read as pieces"
-    },
-    {
-      "field": "environment",
-      "kind": "estimate",
-      "note": "no temperature given; used the middle of freeze's typical range"
     },
     {
       "field": "end",

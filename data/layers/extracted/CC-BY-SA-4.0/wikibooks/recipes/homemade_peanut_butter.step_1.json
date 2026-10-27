@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "peanut",
+        "ingredient": "peanut_bake",
         "amount": {
           "qty": 250,
           "unit": "g"
@@ -19,7 +19,7 @@
   },
   "outputs": [
     {
-      "ingredient": "peanut_bake",
+      "ingredient": "peanut_bake_bake",
       "amount": {
         "qty": 250,
         "unit": "g"
@@ -37,5 +37,12 @@
       "unit": "min"
     }
   },
-  "stateNote": "Place tinfoil on a baking pan, add in peanuts and bake the peanuts at 200–350 °F for about 10 minutes."
+  "stateNote": "Place tinfoil on a baking pan, add in peanuts and bake the peanuts at 200–350 °F for about 10 minutes.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.57"
+    }
+  ]
 }

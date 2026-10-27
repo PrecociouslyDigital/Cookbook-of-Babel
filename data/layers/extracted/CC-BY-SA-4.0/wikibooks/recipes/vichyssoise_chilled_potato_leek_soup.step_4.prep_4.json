@@ -1,0 +1,54 @@
+{
+  "id": "vichyssoise_chilled_potato_leek_soup.step_4.prep_4",
+  "source": "wikibooks_vichyssoise_chilled_potato_leek_soup",
+  "technique": "chop",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "shallot",
+        "amount": {
+          "qty": 1,
+          "unit": "bunch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "shallot_chop",
+      "amount": {
+        "qty": 1,
+        "unit": "bunch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "1 bunch diced shallots (white bases only) or green onions",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.32"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

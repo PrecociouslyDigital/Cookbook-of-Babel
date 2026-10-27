@@ -5,7 +5,7 @@
     "source": "wikibooks_hutspot_dutch_mashed_vegetables",
     "step": 3
   },
-  "technique": "blend",
+  "technique": "mix",
   "inputs": {
     "of": [
       {
@@ -26,15 +26,15 @@
       }
     }
   ],
-  "environment": {
-    "temperatureC": 180,
-    "medium": "pan_contact"
-  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
     }
   },
   "stateNote": "Mash all ingredients, adding enough of reserved juices from carrots to reach a mashed potato consistency. Add 2 to 3 chunks of butter while mashing, to taste.",
@@ -42,17 +42,12 @@
     {
       "field": "technique",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.55"
+      "note": "the decision model gave this answer a probability of 0.5"
     },
     {
       "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.37"
-    },
-    {
-      "field": "environment",
-      "kind": "estimate",
-      "note": "no temperature given; assumed 180.0 °C for pan_contact"
+      "note": "the decision model gave this answer a probability of 0.45"
     },
     {
       "field": "end",
@@ -62,7 +57,7 @@
     {
       "field": "inputs",
       "kind": "missing",
-      "note": "no step uses 'Add cheese, salt, and pepper to your liking' (p=0.82)"
+      "note": "no step uses 'Add cheese, salt, and pepper to your liking' (p=0.81)"
     }
   ]
 }

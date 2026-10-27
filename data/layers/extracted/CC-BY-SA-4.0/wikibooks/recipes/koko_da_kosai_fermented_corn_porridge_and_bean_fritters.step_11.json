@@ -26,15 +26,15 @@
       }
     }
   ],
-  "environment": {
-    "temperatureC": 175,
-    "medium": "frying_oil"
-  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
     }
   },
   "stateNote": "Remove from the oil using a slotted spoon and place on paper towels to drain excess oil.",
@@ -42,12 +42,12 @@
     {
       "field": "technique",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.46"
+      "note": "the decision model gave this answer a probability of 0.33"
     },
     {
       "field": "environment",
-      "kind": "estimate",
-      "note": "no temperature given; assumed 175.0 °C for frying_oil"
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.45"
     },
     {
       "field": "end",
@@ -57,7 +57,7 @@
     {
       "field": "inputs",
       "kind": "missing",
-      "note": "no step uses '¼ teaspoon black pepper or chile powder (optional)' (p=0.68)"
+      "note": "no step uses '¼ teaspoon black pepper or chile powder (optional)' (p=0.64)"
     }
   ]
 }

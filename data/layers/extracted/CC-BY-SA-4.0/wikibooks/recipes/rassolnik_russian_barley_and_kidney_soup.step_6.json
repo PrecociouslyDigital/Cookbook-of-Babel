@@ -16,14 +16,14 @@
         }
       },
       {
-        "ingredient": "pickled_cucumbers",
+        "ingredient": "pickled_cucumbers_chop",
         "amount": {
           "qty": 2,
           "unit": "piece"
         }
       },
       {
-        "ingredient": "sorrel",
+        "ingredient": "sorrel_chop",
         "amount": {
           "qty": 100,
           "unit": "g"
@@ -60,6 +60,11 @@
   },
   "stateNote": "10 minutes before the end of cooking, add the cucumbers, chopped sorrel, and salt.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.56"
+    },
     {
       "field": "inputs",
       "kind": "estimate",

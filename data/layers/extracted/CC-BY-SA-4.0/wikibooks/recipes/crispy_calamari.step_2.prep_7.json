@@ -1,0 +1,49 @@
+{
+  "id": "crispy_calamari.step_2.prep_7",
+  "source": "wikibooks_crispy_calamari",
+  "technique": "grind",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "pepper",
+        "amount": {
+          "qty": 3,
+          "unit": "tbsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "pepper_grind",
+      "amount": {
+        "qty": 3,
+        "unit": "tbsp"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "3 tbsp freshly-ground black pepper",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

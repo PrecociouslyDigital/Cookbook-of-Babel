@@ -16,7 +16,7 @@
         }
       },
       {
-        "ingredient": "mozzarella_cheese",
+        "ingredient": "mozzarella_cheese_cut",
         "amount": {
           "qty": 16,
           "unit": "oz"
@@ -40,15 +40,15 @@
       }
     }
   ],
-  "environment": {
-    "temperatureC": 135,
-    "medium": "oven_air"
-  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
     }
   },
   "stateNote": "Assemble your lasagna in a inch roasting pan (listed bottom to top): Bottom layer of sauce (approx. 1½ cups / 375 g / 13.2 oz) Layer of pasta (overlapping slightly) Layer of ½ the ricotta mixture Layer of ⅓ of the mozzarella Sauce layer (again, about 1½ cups / 375 g / 13.2 oz) Layer of grated Parmesan sprinkled over sauce (not so much that the sauce layer is covered entirely) Layer of pasta Layer of remaining ricotta Layer of ⅓ of the mozzarella Layer of remaining sauce Layer of sprinkled Parmesan Layer of remaining mozzarella",
@@ -56,7 +56,7 @@
     {
       "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.51"
+      "note": "the decision model gave this answer a probability of 0.55"
     },
     {
       "field": "end",

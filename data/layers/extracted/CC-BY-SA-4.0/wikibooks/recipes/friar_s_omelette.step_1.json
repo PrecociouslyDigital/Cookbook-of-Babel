@@ -5,11 +5,11 @@
     "source": "wikibooks_friar_s_omelette",
     "step": 1
   },
-  "technique": "cut",
+  "technique": "assemble",
   "inputs": {
     "of": [
       {
-        "ingredient": "apple",
+        "ingredient": "apple_cut",
         "amount": {
           "qty": 6,
           "unit": "piece"
@@ -46,6 +46,16 @@
   },
   "stateNote": "Peel and core the apples, slice them, and place in a saucepan with the water.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.59"
+    },
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.41"
+    },
     {
       "field": "environment",
       "kind": "estimate",

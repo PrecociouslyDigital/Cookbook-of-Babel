@@ -5,7 +5,7 @@
     "source": "wikibooks_boerewors_south_african_sausage",
     "step": 7
   },
-  "technique": "chill",
+  "technique": "age",
   "inputs": {
     "of": [
       {
@@ -33,9 +33,17 @@
       "unit": "h"
     },
     "sensitivity": {
-      "refTempC": 20,
-      "q10": 1
+      "refTempC": 4,
+      "q10": 1,
+      "maxTempC": 8
     }
   },
-  "stateNote": "Place meat mixture in fridge, and let rest for 2 hours to blend the flavours together."
+  "stateNote": "Place meat mixture in fridge, and let rest for 2 hours to blend the flavours together.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.56"
+    }
+  ]
 }

@@ -1,0 +1,49 @@
+{
+  "id": "salt_cod_and_potato_casserole_bacalhau_a_gomes_de_sa.step_3.prep_5",
+  "source": "wikibooks_salt_cod_and_potato_casserole_bacalhau_a_gomes_de_sa",
+  "technique": "boil",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "potato",
+        "amount": {
+          "qty": 6,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "potato_boil",
+      "amount": {
+        "qty": 6,
+        "unit": "piece"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "6 medium-sized potatoes",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

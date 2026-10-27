@@ -5,7 +5,7 @@
     "source": "wikibooks_sai_bhaji_sindhi_vegetable_curry",
     "step": 4
   },
-  "technique": "fry",
+  "technique": "season",
   "inputs": {
     "of": [
       {
@@ -16,7 +16,7 @@
         }
       },
       {
-        "ingredient": "garlic",
+        "ingredient": "garlic_fry",
         "amount": {
           "qty": 50,
           "unit": "clove"
@@ -55,7 +55,7 @@
     }
   ],
   "environment": {
-    "temperatureC": 190,
+    "temperatureC": 175,
     "medium": "frying_oil"
   },
   "end": {
@@ -68,11 +68,6 @@
   "stateNote": "Fry the garlic in some oil until golden. Stir in the salt, turmeric, and chile powder.",
   "issues": [
     {
-      "field": "technique",
-      "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.5"
-    },
-    {
       "field": "inputs",
       "kind": "estimate",
       "note": "'Salt to taste': no quantity given; assumed a pinch"
@@ -80,7 +75,7 @@
     {
       "field": "environment",
       "kind": "estimate",
-      "note": "no temperature given; used the middle of fry's typical range"
+      "note": "no temperature given; assumed 175.0 °C for frying_oil"
     },
     {
       "field": "end",

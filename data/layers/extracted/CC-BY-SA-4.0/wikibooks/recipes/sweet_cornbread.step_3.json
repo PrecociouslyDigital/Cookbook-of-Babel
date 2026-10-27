@@ -16,14 +16,14 @@
         }
       },
       {
-        "ingredient": "cornmeal",
+        "ingredient": "cornmeal_mix",
         "amount": {
           "qty": 140,
           "unit": "g"
         }
       },
       {
-        "ingredient": "baking_powder",
+        "ingredient": "baking_powder_mix",
         "amount": {
           "qty": 1.5,
           "unit": "tsp"
@@ -53,6 +53,11 @@
   },
   "stateNote": "Mix the cornmeal and baking powder, then blend them into the liquids.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.58"
+    },
     {
       "field": "end",
       "kind": "estimate",

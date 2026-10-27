@@ -11,12 +11,12 @@
       {
         "ingredient": "steamed_pork_with_mustard_greens_step_7",
         "amount": {
-          "qty": 743.8,
+          "qty": 748.5,
           "unit": "g"
         }
       },
       {
-        "ingredient": "pepper",
+        "ingredient": "pepper_grind",
         "amount": {
           "qty": 1,
           "unit": "pinch"
@@ -28,20 +28,20 @@
     {
       "ingredient": "steamed_pork_with_mustard_greens",
       "amount": {
-        "qty": 744.1,
+        "qty": 748.8,
         "unit": "g"
       }
     }
   ],
-  "environment": {
-    "temperatureC": 180,
-    "medium": "pan_contact"
-  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
     }
   },
   "stateNote": "Season with pepper and serve.",
@@ -49,7 +49,7 @@
     {
       "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.36"
+      "note": "the decision model gave this answer a probability of 0.41"
     },
     {
       "field": "inputs",
@@ -59,12 +59,7 @@
     {
       "field": "outputs",
       "kind": "estimate",
-      "note": "assumed 1 g/ml for pepper"
-    },
-    {
-      "field": "environment",
-      "kind": "estimate",
-      "note": "no temperature given; assumed 180.0 °C for pan_contact"
+      "note": "assumed 1 g/ml for pepper_grind"
     },
     {
       "field": "end",

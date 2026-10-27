@@ -1,0 +1,54 @@
+{
+  "id": "khachapuri_georgian_cheese_bread.step_5.prep_7",
+  "source": "wikibooks_khachapuri_georgian_cheese_bread",
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "feta_cheese",
+        "amount": {
+          "qty": 8,
+          "unit": "oz"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "feta_cheese_cut",
+      "amount": {
+        "qty": 8,
+        "unit": "oz"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "8 oz feta cheese, grated or cut into small pieces",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.55"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

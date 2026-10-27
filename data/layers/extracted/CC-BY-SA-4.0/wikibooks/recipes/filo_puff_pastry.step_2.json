@@ -16,7 +16,7 @@
         }
       },
       {
-        "ingredient": "water",
+        "ingredient": "water_chill",
         "amount": {
           "qty": 1,
           "unit": "pinch"
@@ -47,9 +47,19 @@
   "stateNote": "Add to the crumb, a little at a time, ice cold water until it becomes a very stiff dough.",
   "issues": [
     {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.5"
+    },
+    {
       "field": "inputs",
       "kind": "estimate",
       "note": "'Chilled water': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for water_chill"
     },
     {
       "field": "end",

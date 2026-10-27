@@ -16,7 +16,7 @@
         }
       },
       {
-        "ingredient": "tomato",
+        "ingredient": "tomato_chop",
         "amount": {
           "qty": 2,
           "unit": "piece"
@@ -49,7 +49,7 @@
   ],
   "environment": {
     "temperatureC": 90,
-    "medium": "simmering_water"
+    "medium": "pan_contact"
   },
   "end": {
     "by": "time",
@@ -60,6 +60,11 @@
   },
   "stateNote": "Add the tomato, bagoong alamang, and salt; simmer for 5 minutes.",
   "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.51"
+    },
     {
       "field": "inputs",
       "kind": "estimate",

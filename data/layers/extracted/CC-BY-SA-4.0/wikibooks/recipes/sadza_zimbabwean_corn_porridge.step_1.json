@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "water",
+        "ingredient": "water_boil",
         "amount": {
           "qty": 4,
           "unit": "cup"
@@ -19,7 +19,7 @@
   },
   "outputs": [
     {
-      "ingredient": "water_boil",
+      "ingredient": "water_boil_boil",
       "amount": {
         "qty": 946.4,
         "unit": "g"
@@ -28,7 +28,7 @@
   ],
   "environment": {
     "temperatureC": 100,
-    "medium": "boiling_water"
+    "medium": "pan_contact"
   },
   "end": {
     "by": "time",
@@ -42,7 +42,12 @@
     {
       "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.52"
+      "note": "the decision model gave this answer a probability of 0.56"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for water_boil"
     },
     {
       "field": "environment",

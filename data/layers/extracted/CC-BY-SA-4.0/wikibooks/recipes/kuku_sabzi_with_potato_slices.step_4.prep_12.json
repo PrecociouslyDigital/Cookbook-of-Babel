@@ -1,0 +1,49 @@
+{
+  "id": "kuku_sabzi_with_potato_slices.step_4.prep_12",
+  "source": "wikibooks_kuku_sabzi_with_potato_slices",
+  "technique": "chop",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "dill",
+        "amount": {
+          "qty": 0.5,
+          "unit": "bunch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "dill_chop",
+      "amount": {
+        "qty": 0.5,
+        "unit": "bunch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "½ bunch fresh dill, finely chopped",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

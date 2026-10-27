@@ -5,7 +5,7 @@
     "source": "wikibooks_danwake",
     "step": 8
   },
-  "technique": "season",
+  "technique": "assemble",
   "inputs": {
     "of": [
       {
@@ -16,7 +16,7 @@
         }
       },
       {
-        "ingredient": "onion",
+        "ingredient": "onion_chop",
         "amount": {
           "qty": 0.5,
           "unit": "piece"
@@ -46,15 +46,15 @@
       }
     }
   ],
-  "environment": {
-    "temperatureC": 20,
-    "medium": "still_air"
-  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
     }
   },
   "stateNote": "Garnish with chopped onions and cabbage.",
@@ -62,22 +62,12 @@
     {
       "field": "technique",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.57"
-    },
-    {
-      "field": "environment",
-      "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.45"
+      "note": "the decision model gave this answer a probability of 0.43"
     },
     {
       "field": "inputs",
       "kind": "estimate",
       "note": "'Shredded cabbage or yaji (Hausa pepper spice; optional)': no quantity given; assumed a pinch"
-    },
-    {
-      "field": "environment",
-      "kind": "estimate",
-      "note": "no temperature given; assumed 20.0 °C for still_air"
     },
     {
       "field": "end",
@@ -87,7 +77,7 @@
     {
       "field": "inputs",
       "kind": "missing",
-      "note": "no step uses '½ teaspoon salt (or to taste)' (p=0.85)"
+      "note": "no step uses '½ teaspoon salt (or to taste)' (p=0.87)"
     }
   ]
 }

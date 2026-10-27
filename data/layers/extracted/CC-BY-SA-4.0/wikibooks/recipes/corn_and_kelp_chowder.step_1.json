@@ -16,7 +16,7 @@
         }
       },
       {
-        "ingredient": "butter",
+        "ingredient": "butter_heat",
         "amount": {
           "qty": 1,
           "unit": "tbsp"
@@ -47,9 +47,14 @@
   "stateNote": "Melt butter in a pan, add the kelp, and sauté until it begins to dissolve in the butter.",
   "issues": [
     {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.57"
+    },
+    {
       "field": "outputs",
       "kind": "estimate",
-      "note": "assumed 1 g/ml for kelp, butter"
+      "note": "assumed 1 g/ml for kelp, butter_heat"
     },
     {
       "field": "environment",

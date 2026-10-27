@@ -16,21 +16,21 @@
         }
       },
       {
-        "ingredient": "onion",
+        "ingredient": "onion_cut",
         "amount": {
           "qty": 2,
           "unit": "piece"
         }
       },
       {
-        "ingredient": "chiles",
+        "ingredient": "chiles_chop",
         "amount": {
           "qty": 2,
           "unit": "piece"
         }
       },
       {
-        "ingredient": "olive_oil",
+        "ingredient": "olive_oil_heat",
         "amount": {
           "qty": 1,
           "unit": "pinch"
@@ -60,6 +60,11 @@
   },
   "stateNote": "Heat a dash of olive oil in a frying pan. Add onions and chilis, and sauté until the onions turn transparent.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.56"
+    },
     {
       "field": "inputs",
       "kind": "estimate",

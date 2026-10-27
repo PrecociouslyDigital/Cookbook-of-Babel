@@ -5,7 +5,7 @@
     "source": "wikibooks_kugelis_lithuanian_baked_potato_pudding",
     "step": 3
   },
-  "technique": "whisk",
+  "technique": "mix",
   "inputs": {
     "of": [
       {
@@ -16,14 +16,14 @@
         }
       },
       {
-        "ingredient": "butter",
+        "ingredient": "butter_heat",
         "amount": {
           "qty": 1,
           "unit": "stick"
         }
       },
       {
-        "ingredient": "egg",
+        "ingredient": "egg_whisk",
         "amount": {
           "qty": 6,
           "unit": "piece"
@@ -74,6 +74,11 @@
   },
   "stateNote": "Beat the eggs, and stir in the evaporated milk, melted butter, salt, and pepper.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.56"
+    },
     {
       "field": "inputs",
       "kind": "estimate",

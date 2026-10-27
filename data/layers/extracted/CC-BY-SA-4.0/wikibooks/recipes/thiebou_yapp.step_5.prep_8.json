@@ -1,0 +1,49 @@
+{
+  "id": "thiebou_yapp.step_5.prep_8",
+  "source": "wikibooks_thiebou_yapp",
+  "technique": "rinse",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "cabbage",
+        "amount": {
+          "qty": 1,
+          "unit": "head"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "cabbage_rinse",
+      "amount": {
+        "qty": 1,
+        "unit": "head"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "1 small head of cabbage",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

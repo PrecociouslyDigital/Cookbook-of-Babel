@@ -1,0 +1,49 @@
+{
+  "id": "shakshuka.step_7.prep_14",
+  "source": "wikibooks_shakshuka",
+  "technique": "chop",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "handful_fresh_parsley",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "handful_fresh_parsley_chop",
+      "amount": {
+        "qty": 1,
+        "unit": "pinch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Small handful fresh parsley or coriander (cilantro), chopped, to serve",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

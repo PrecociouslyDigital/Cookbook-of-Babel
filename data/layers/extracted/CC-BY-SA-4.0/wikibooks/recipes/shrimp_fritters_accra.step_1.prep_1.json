@@ -1,0 +1,49 @@
+{
+  "id": "shrimp_fritters_accra.step_1.prep_1",
+  "source": "wikibooks_shrimp_fritters_accra",
+  "technique": "chop",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "green_pepper",
+        "amount": {
+          "qty": 0.25,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "green_pepper_chop",
+      "amount": {
+        "qty": 0.25,
+        "unit": "cup"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "¼ cup (60 ml) green pepper, chopped",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

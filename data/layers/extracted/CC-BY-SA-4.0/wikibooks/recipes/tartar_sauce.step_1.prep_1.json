@@ -1,0 +1,49 @@
+{
+  "id": "tartar_sauce.step_1.prep_1",
+  "source": "wikibooks_tartar_sauce",
+  "technique": "whisk",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "mayonnaise",
+        "amount": {
+          "qty": 10,
+          "unit": "oz"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "mayonnaise_whisk",
+      "amount": {
+        "qty": 10,
+        "unit": "oz"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "10 ounces (280 g) mayonnaise",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "sweet_potato_bake",
+        "ingredient": "sweet_potato_bake_heat",
         "amount": {
           "qty": 0.3,
           "unit": "g"
@@ -30,7 +30,7 @@
         }
       },
       {
-        "ingredient": "water",
+        "ingredient": "water_heat",
         "amount": {
           "qty": 1,
           "unit": "pinch"
@@ -61,6 +61,11 @@
   "stateNote": "Combine sugar, cinnamon, and water over medium-low heat to make a syrup.",
   "issues": [
     {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.4"
+    },
+    {
       "field": "inputs",
       "kind": "estimate",
       "note": "'Sugar': no quantity given; assumed a pinch"
@@ -78,7 +83,7 @@
     {
       "field": "outputs",
       "kind": "estimate",
-      "note": "assumed 1 g/ml for cinnamon"
+      "note": "assumed 1 g/ml for cinnamon, water_heat"
     },
     {
       "field": "environment",

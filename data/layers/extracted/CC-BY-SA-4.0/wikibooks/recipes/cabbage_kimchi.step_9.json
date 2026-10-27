@@ -5,7 +5,7 @@
     "source": "wikibooks_cabbage_kimchi",
     "step": 9
   },
-  "technique": "fold",
+  "technique": "shape",
   "inputs": {
     "of": [
       {
@@ -26,19 +26,34 @@
       }
     }
   ],
+  "environment": {
+    "temperatureC": 20,
+    "medium": "still_air"
+  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
-    },
-    "sensitivity": {
-      "refTempC": 20,
-      "q10": 1
     }
   },
   "stateNote": "Try to fold the cabbage in half. With 2 outer leaves, wrap the whole thing securely.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.45"
+    },
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.57"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 20.0 °C for still_air"
+    },
     {
       "field": "end",
       "kind": "estimate",

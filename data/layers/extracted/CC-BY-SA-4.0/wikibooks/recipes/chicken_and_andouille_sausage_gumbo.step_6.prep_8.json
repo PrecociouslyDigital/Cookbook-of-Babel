@@ -1,0 +1,49 @@
+{
+  "id": "chicken_and_andouille_sausage_gumbo.step_6.prep_8",
+  "source": "wikibooks_chicken_and_andouille_sausage_gumbo",
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "sausage",
+        "amount": {
+          "qty": 0.5,
+          "unit": "lb"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "sausage_cut",
+      "amount": {
+        "qty": 0.5,
+        "unit": "lb"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "about ½ lb (¼ kg) Andouille sausage or other spicy sausage",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

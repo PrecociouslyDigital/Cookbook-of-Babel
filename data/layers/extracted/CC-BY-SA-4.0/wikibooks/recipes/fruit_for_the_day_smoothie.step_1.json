@@ -16,14 +16,14 @@
         }
       },
       {
-        "ingredient": "banana",
+        "ingredient": "banana_cut",
         "amount": {
           "qty": 2,
           "unit": "piece"
         }
       },
       {
-        "ingredient": "strawberry",
+        "ingredient": "strawberry_freeze",
         "amount": {
           "qty": 160,
           "unit": "g"
@@ -60,6 +60,11 @@
   },
   "stateNote": "Add all ingredients to a blender in the order listed above.",
   "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.48"
+    },
     {
       "field": "inputs",
       "kind": "estimate",

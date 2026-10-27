@@ -1,0 +1,49 @@
+{
+  "id": "charoset_iraqi.step_1.prep_1",
+  "source": "wikibooks_charoset_iraqi",
+  "technique": "boil",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "date",
+        "amount": {
+          "qty": 500,
+          "unit": "ml"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "date_boil",
+      "amount": {
+        "qty": 500,
+        "unit": "ml"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "500 ml Iraqi dates, chopped and seeded",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

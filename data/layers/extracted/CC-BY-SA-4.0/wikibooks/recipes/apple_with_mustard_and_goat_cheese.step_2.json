@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "apple_cut",
+        "ingredient": "apple_cut_cut",
         "amount": {
           "qty": 1,
           "unit": "batch"
@@ -46,6 +46,11 @@
   },
   "stateNote": "Spread one side of the apple slices with yellow mustard.",
   "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.52"
+    },
     {
       "field": "inputs",
       "kind": "estimate",

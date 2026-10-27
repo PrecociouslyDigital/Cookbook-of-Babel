@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "prickly_pear",
+        "ingredient": "prickly_pear_cut",
         "amount": {
           "qty": 3,
           "unit": "piece"
@@ -19,7 +19,7 @@
   },
   "outputs": [
     {
-      "ingredient": "prickly_pear_cut",
+      "ingredient": "prickly_pear_cut_cut",
       "amount": {
         "qty": 1,
         "unit": "batch"
@@ -39,6 +39,11 @@
   },
   "stateNote": "Remove the peel from the prickly pears, cut them into small pieces about 0.5 x 0.5 in (1.25 x 1.25 cm), and remove the seeds.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.53"
+    },
     {
       "field": "end",
       "kind": "estimate",

@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "ice_cream",
+        "ingredient": "ice_cream_heat",
         "amount": {
           "qty": 0.5,
           "unit": "gal"
@@ -19,7 +19,7 @@
   },
   "outputs": [
     {
-      "ingredient": "ice_cream_heat",
+      "ingredient": "ice_cream_heat_heat",
       "amount": {
         "qty": 1892.7,
         "unit": "g"
@@ -40,9 +40,14 @@
   "stateNote": "Begin by softening the ice cream enough to spread.",
   "issues": [
     {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.38"
+    },
+    {
       "field": "outputs",
       "kind": "estimate",
-      "note": "assumed 1 g/ml for ice_cream"
+      "note": "assumed 1 g/ml for ice_cream_heat"
     },
     {
       "field": "end",

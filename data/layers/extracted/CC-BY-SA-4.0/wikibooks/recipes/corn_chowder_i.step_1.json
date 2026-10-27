@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "butter",
+        "ingredient": "butter_heat",
         "amount": {
           "qty": 2,
           "unit": "tbsp"
@@ -23,7 +23,7 @@
         }
       },
       {
-        "ingredient": "celery",
+        "ingredient": "celery_chop",
         "amount": {
           "qty": 0.5,
           "unit": "cup"
@@ -54,9 +54,14 @@
   "stateNote": "In a medium saucepan, melt butter; add onion and celery and cook until tender.",
   "issues": [
     {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.56"
+    },
+    {
       "field": "outputs",
       "kind": "estimate",
-      "note": "assumed 1 g/ml for butter, onion, celery"
+      "note": "assumed 1 g/ml for butter_heat, onion, celery_chop"
     },
     {
       "field": "environment",

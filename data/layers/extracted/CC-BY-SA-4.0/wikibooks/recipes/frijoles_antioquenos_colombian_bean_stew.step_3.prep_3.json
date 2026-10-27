@@ -1,0 +1,49 @@
+{
+  "id": "frijoles_antioquenos_colombian_bean_stew.step_3.prep_3",
+  "source": "wikibooks_frijoles_antioquenos_colombian_bean_stew",
+  "technique": "fry",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "green_onion",
+        "amount": {
+          "qty": 1,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "green_onion_fry",
+      "amount": {
+        "qty": 1,
+        "unit": "cup"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "1 cup chopped scallions",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

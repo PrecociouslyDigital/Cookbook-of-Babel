@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "peach_heat",
+        "ingredient": "peach_heat_heat",
         "amount": {
           "qty": 2948.3,
           "unit": "g"
@@ -40,33 +40,23 @@
       }
     }
   ],
-  "environment": {
-    "temperatureC": 180,
-    "medium": "pan_contact"
-  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
     }
   },
   "stateNote": "Coarsely chop peaches and combine with lemon juice in a large stainless steel or enamel saucepan. Stir in sugar.",
   "issues": [
     {
-      "field": "environment",
-      "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.54"
-    },
-    {
       "field": "outputs",
       "kind": "estimate",
       "note": "assumed 1 g/ml for lemon, brown_sugar"
-    },
-    {
-      "field": "environment",
-      "kind": "estimate",
-      "note": "no temperature given; assumed 180.0 °C for pan_contact"
     },
     {
       "field": "end",

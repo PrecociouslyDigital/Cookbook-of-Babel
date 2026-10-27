@@ -1,0 +1,49 @@
+{
+  "id": "green_leaf_juice.step_2.prep_2",
+  "source": "wikibooks_green_leaf_juice",
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "pineapple",
+        "amount": {
+          "qty": 490,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "pineapple_cut",
+      "amount": {
+        "qty": 490,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "490 g (17 oz / ½ each) pineapple",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

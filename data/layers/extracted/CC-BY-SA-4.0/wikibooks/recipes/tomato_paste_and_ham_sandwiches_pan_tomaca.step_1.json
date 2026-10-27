@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "baguette",
+        "ingredient": "baguette_toast",
         "amount": {
           "qty": 1,
           "unit": "pinch"
@@ -19,7 +19,7 @@
   },
   "outputs": [
     {
-      "ingredient": "baguette_toast",
+      "ingredient": "baguette_toast_toast",
       "amount": {
         "qty": 0.3,
         "unit": "g"
@@ -40,6 +40,11 @@
   "stateNote": "Toast the slices of pa de pagès. If desired, rub garlic on each slice of bread.",
   "issues": [
     {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.55"
+    },
+    {
       "field": "inputs",
       "kind": "estimate",
       "note": "'Pa de pagès (Catalan bread) or 1 loaf French bread, sliced': no quantity given; assumed a pinch"
@@ -47,7 +52,7 @@
     {
       "field": "outputs",
       "kind": "estimate",
-      "note": "assumed 1 g/ml for baguette"
+      "note": "assumed 1 g/ml for baguette_toast"
     },
     {
       "field": "environment",

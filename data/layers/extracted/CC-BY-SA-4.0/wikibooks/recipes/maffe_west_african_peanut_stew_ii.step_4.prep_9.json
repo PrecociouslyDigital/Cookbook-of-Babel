@@ -1,0 +1,49 @@
+{
+  "id": "maffe_west_african_peanut_stew_ii.step_4.prep_9",
+  "source": "wikibooks_maffe_west_african_peanut_stew_ii",
+  "technique": "chop",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "sweet_potato",
+        "amount": {
+          "qty": 2,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "sweet_potato_chop",
+      "amount": {
+        "qty": 2,
+        "unit": "piece"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "2 sweet potatoes, peeled and chopped",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

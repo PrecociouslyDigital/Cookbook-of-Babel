@@ -9,14 +9,14 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "vegetable_oil",
+        "ingredient": "vegetable_oil_heat",
         "amount": {
           "qty": 2,
           "unit": "tbsp"
         }
       },
       {
-        "ingredient": "hot_dog",
+        "ingredient": "hot_dog_pan_fry",
         "amount": {
           "qty": 300,
           "unit": "g"
@@ -28,7 +28,7 @@
     {
       "ingredient": "filipino_style_spaghetti_step_2",
       "amount": {
-        "qty": 327.2,
+        "qty": 329.6,
         "unit": "g"
       }
     }
@@ -47,9 +47,9 @@
   "stateNote": "Add the hot dogs, then cook, turning often, for 3–4 minutes until browned.",
   "issues": [
     {
-      "field": "environment",
-      "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.59"
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for vegetable_oil_heat"
     },
     {
       "field": "environment",

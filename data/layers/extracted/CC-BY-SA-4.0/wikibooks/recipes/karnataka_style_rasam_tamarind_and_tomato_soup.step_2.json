@@ -16,7 +16,7 @@
         }
       },
       {
-        "ingredient": "tomato",
+        "ingredient": "tomato_boil",
         "amount": {
           "qty": 16,
           "unit": "oz"
@@ -46,6 +46,11 @@
   },
   "stateNote": "If using tomatoes, parboil first to remove skin, then chop roughly.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.52"
+    },
     {
       "field": "environment",
       "kind": "estimate",

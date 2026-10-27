@@ -1,0 +1,49 @@
+{
+  "id": "kele_ka_halwa_fried_bananas_in_milk.step_3.prep_4",
+  "source": "wikibooks_kele_ka_halwa_fried_bananas_in_milk",
+  "technique": "simmer",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "milk",
+        "amount": {
+          "qty": 500,
+          "unit": "ml"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "milk_simmer",
+      "amount": {
+        "qty": 500,
+        "unit": "ml"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "500 ml milk",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

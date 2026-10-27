@@ -5,11 +5,11 @@
     "source": "wikibooks_turkey_and_bacon_salad",
     "step": 1
   },
-  "technique": "fry",
+  "technique": "heat",
   "inputs": {
     "of": [
       {
-        "ingredient": "bacon",
+        "ingredient": "bacon_fry",
         "amount": {
           "qty": 4.5,
           "unit": "slice"
@@ -19,7 +19,7 @@
   },
   "outputs": [
     {
-      "ingredient": "bacon_fry",
+      "ingredient": "bacon_fry_heat",
       "amount": {
         "qty": 1,
         "unit": "batch"
@@ -27,7 +27,7 @@
     }
   ],
   "environment": {
-    "temperatureC": 190,
+    "temperatureC": 180,
     "medium": "pan_contact"
   },
   "end": {
@@ -40,14 +40,9 @@
   "stateNote": "Cook bacon completely.",
   "issues": [
     {
-      "field": "technique",
-      "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.37"
-    },
-    {
       "field": "environment",
       "kind": "estimate",
-      "note": "no temperature given; used the middle of fry's typical range"
+      "note": "no temperature given; assumed 180.0 °C for pan_contact"
     },
     {
       "field": "end",

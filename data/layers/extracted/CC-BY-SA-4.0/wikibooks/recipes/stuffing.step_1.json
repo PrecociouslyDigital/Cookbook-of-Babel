@@ -5,11 +5,11 @@
     "source": "wikibooks_stuffing",
     "step": 1
   },
-  "technique": "cut",
+  "technique": "assemble",
   "inputs": {
     "of": [
       {
-        "ingredient": "bread",
+        "ingredient": "bread_cut",
         "amount": {
           "qty": 4,
           "unit": "slice"
@@ -19,7 +19,7 @@
   },
   "outputs": [
     {
-      "ingredient": "bread_cut",
+      "ingredient": "stuffing_step_1",
       "amount": {
         "qty": 1,
         "unit": "batch"
@@ -39,11 +39,6 @@
   },
   "stateNote": "Trim crusts off bread and place slices into a large mixing bowl.",
   "issues": [
-    {
-      "field": "technique",
-      "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.56"
-    },
     {
       "field": "end",
       "kind": "estimate",

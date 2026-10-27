@@ -1,0 +1,49 @@
+{
+  "id": "grilled_pork_chops.step_1.prep_5",
+  "source": "wikibooks_grilled_pork_chops",
+  "technique": "chop",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "thyme",
+        "amount": {
+          "qty": 10,
+          "unit": "sprig"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "thyme_chop",
+      "amount": {
+        "qty": 10,
+        "unit": "sprig"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "10 sprigs fresh thyme, finely chopped",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

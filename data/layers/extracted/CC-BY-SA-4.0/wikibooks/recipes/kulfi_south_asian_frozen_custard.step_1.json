@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "milk",
+        "ingredient": "milk_boil",
         "amount": {
           "qty": 4,
           "unit": "cup"
@@ -19,9 +19,9 @@
   },
   "outputs": [
     {
-      "ingredient": "milk_boil",
+      "ingredient": "milk_boil_boil",
       "amount": {
-        "qty": 974.8,
+        "qty": 946.4,
         "unit": "g"
       }
     }
@@ -39,6 +39,11 @@
   },
   "stateNote": "Put the milk into a wide, heavy pan, and bring to boil over high heat, stirring constantly.",
   "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for milk_boil"
+    },
     {
       "field": "environment",
       "kind": "estimate",

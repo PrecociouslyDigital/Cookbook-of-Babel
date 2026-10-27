@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "tuna",
+        "ingredient": "tuna_dry",
         "amount": {
           "qty": 1,
           "unit": "can"
@@ -39,6 +39,11 @@
   },
   "stateNote": "Drain and squeeze tuna dry, discarding liquid or reserving for some other use.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.57"
+    },
     {
       "field": "end",
       "kind": "estimate",

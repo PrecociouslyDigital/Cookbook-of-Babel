@@ -54,12 +54,18 @@
       "unit": "min"
     },
     "sensitivity": {
-      "refTempC": 20,
-      "q10": 1
+      "refTempC": 4,
+      "q10": 1,
+      "maxTempC": 8
     }
   },
   "stateNote": "Mix veggies and bulghur together. Douse with strained lemon juice. If you are not ready to serve immediately, then cover and hold in a cool place. Do NOT add salt and olive oil until immediately before serving.",
   "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.54"
+    },
     {
       "field": "inputs",
       "kind": "estimate",
@@ -78,7 +84,7 @@
     {
       "field": "inputs",
       "kind": "missing",
-      "note": "no step uses 'Romaine lettuce leaves (garnish and scoopers, optional)' (p=0.99)"
+      "note": "no step uses 'Romaine lettuce leaves (garnish and scoopers, optional)' (p=1.0)"
     },
     {
       "field": "inputs",

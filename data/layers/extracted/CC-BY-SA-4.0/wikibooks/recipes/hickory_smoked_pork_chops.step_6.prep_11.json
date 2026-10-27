@@ -1,0 +1,49 @@
+{
+  "id": "hickory_smoked_pork_chops.step_6.prep_11",
+  "source": "wikibooks_hickory_smoked_pork_chops",
+  "technique": "soak",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "soaked_hickory_chunks",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "soaked_hickory_chunks_soak",
+      "amount": {
+        "qty": 1,
+        "unit": "pinch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Soaked hickory chunks",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

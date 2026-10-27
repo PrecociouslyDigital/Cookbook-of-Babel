@@ -1,0 +1,54 @@
+{
+  "id": "banana_and_pear_cake_vegan.step_3.prep_5",
+  "source": "wikibooks_banana_and_pear_cake_vegan",
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "wheat_flour",
+        "amount": {
+          "qty": 2.25,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "wheat_flour_mix",
+      "amount": {
+        "qty": 2.25,
+        "unit": "cup"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "2–2½ cups of white flour",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.55"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

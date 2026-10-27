@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "salt",
+        "ingredient": "salt_dissolve",
         "amount": {
           "qty": 1,
           "unit": "tsp"
@@ -28,7 +28,7 @@
     {
       "ingredient": "kubaneh_yemenite_pull_apart_bread_step_1",
       "amount": {
-        "qty": 656.6,
+        "qty": 655.6,
         "unit": "g"
       }
     }
@@ -46,6 +46,11 @@
   },
   "stateNote": "Dissolve salt in lukewarm water.",
   "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for salt_dissolve"
+    },
     {
       "field": "environment",
       "kind": "estimate",

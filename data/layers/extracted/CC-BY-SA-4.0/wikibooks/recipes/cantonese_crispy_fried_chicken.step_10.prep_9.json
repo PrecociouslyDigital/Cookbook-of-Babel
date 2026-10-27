@@ -1,0 +1,54 @@
+{
+  "id": "cantonese_crispy_fried_chicken.step_10.prep_9",
+  "source": "wikibooks_cantonese_crispy_fried_chicken",
+  "technique": "heat",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "vinegar",
+        "amount": {
+          "qty": 3,
+          "unit": "tbsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "vinegar_heat",
+      "amount": {
+        "qty": 3,
+        "unit": "tbsp"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "3 Tbsp vinegar",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.54"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

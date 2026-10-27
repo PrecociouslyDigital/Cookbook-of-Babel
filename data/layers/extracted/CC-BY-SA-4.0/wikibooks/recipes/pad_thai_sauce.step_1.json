@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "garlic",
+        "ingredient": "garlic_chop",
         "amount": {
           "qty": 1,
           "unit": "piece"
@@ -35,7 +35,7 @@
   ],
   "environment": {
     "temperatureC": 185,
-    "medium": "frying_oil"
+    "medium": "pan_contact"
   },
   "end": {
     "by": "time",
@@ -46,6 +46,11 @@
   },
   "stateNote": "Mince the garlic. Lightly brown it in a frying pan over high heat with the oil.",
   "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.52"
+    },
     {
       "field": "environment",
       "kind": "estimate",

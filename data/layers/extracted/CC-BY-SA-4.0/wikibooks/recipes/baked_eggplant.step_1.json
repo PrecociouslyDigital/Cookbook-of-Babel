@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "eggplant",
+        "ingredient": "eggplant_cut",
         "amount": {
           "qty": 2,
           "unit": "lb"
@@ -19,22 +19,22 @@
   },
   "outputs": [
     {
-      "ingredient": "eggplant_cut",
+      "ingredient": "eggplant_cut_cut",
       "amount": {
         "qty": 907.2,
         "unit": "g"
       }
     }
   ],
-  "environment": {
-    "temperatureC": 180,
-    "medium": "oven_air"
-  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
     }
   },
   "stateNote": "Cut eggplants in half lengthwise, leaving a ¼-inch (0.5 cm) rind.",
@@ -42,12 +42,7 @@
     {
       "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.47"
-    },
-    {
-      "field": "environment",
-      "kind": "estimate",
-      "note": "no temperature given; assumed 180.0 °C for oven_air"
+      "note": "the decision model gave this answer a probability of 0.55"
     },
     {
       "field": "end",

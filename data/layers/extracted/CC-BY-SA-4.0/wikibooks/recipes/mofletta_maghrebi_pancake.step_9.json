@@ -5,7 +5,7 @@
     "source": "wikibooks_mofletta_maghrebi_pancake",
     "step": 9
   },
-  "technique": "heat",
+  "technique": "assemble",
   "inputs": {
     "of": [
       {
@@ -40,15 +40,15 @@
       }
     }
   ],
-  "environment": {
-    "temperatureC": 20,
-    "medium": "still_air"
-  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
     }
   },
   "stateNote": "Keep the finished mofletta in a stack, covered with a cloth to retain heat and moisture.",
@@ -56,7 +56,12 @@
     {
       "field": "technique",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.53"
+      "note": "the decision model gave this answer a probability of 0.45"
+    },
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.45"
     },
     {
       "field": "inputs",
@@ -72,11 +77,6 @@
       "field": "outputs",
       "kind": "estimate",
       "note": "assumed 1 g/ml for butter, honey"
-    },
-    {
-      "field": "environment",
-      "kind": "estimate",
-      "note": "no temperature given; assumed 20.0 °C for still_air"
     },
     {
       "field": "end",

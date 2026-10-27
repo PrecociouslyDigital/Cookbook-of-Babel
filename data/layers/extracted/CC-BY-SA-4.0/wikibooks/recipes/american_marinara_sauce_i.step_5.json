@@ -9,14 +9,14 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "american_marinara_sauce_i_step_3",
+        "ingredient": "american_marinara_sauce_i_step_4",
         "amount": {
           "qty": 1,
           "unit": "batch"
         }
       },
       {
-        "ingredient": "garlic",
+        "ingredient": "garlic_chop",
         "amount": {
           "qty": 2,
           "unit": "clove"
@@ -46,6 +46,11 @@
   },
   "stateNote": "Add garlic; gently sauté for 1 minute.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.53"
+    },
     {
       "field": "environment",
       "kind": "estimate",

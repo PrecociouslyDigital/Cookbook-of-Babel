@@ -16,7 +16,7 @@
         }
       },
       {
-        "ingredient": "cilantro",
+        "ingredient": "cilantro_chop",
         "amount": {
           "qty": 1,
           "unit": "pinch"
@@ -33,15 +33,15 @@
       }
     }
   ],
-  "environment": {
-    "temperatureC": 180,
-    "medium": "pan_contact"
-  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
     }
   },
   "stateNote": "Remove the skillet from the heat and garnish the with freshly chopped cilantro.",
@@ -49,17 +49,17 @@
     {
       "field": "technique",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.47"
+      "note": "the decision model gave this answer a probability of 0.59"
+    },
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.59"
     },
     {
       "field": "inputs",
       "kind": "estimate",
       "note": "'Fresh cilantro, chopped, for garnish': no quantity given; assumed a pinch"
-    },
-    {
-      "field": "environment",
-      "kind": "estimate",
-      "note": "no temperature given; assumed 180.0 °C for pan_contact"
     },
     {
       "field": "end",

@@ -16,14 +16,14 @@
         }
       },
       {
-        "ingredient": "cumin",
+        "ingredient": "cumin_grind",
         "amount": {
           "qty": 0.25,
           "unit": "tsp"
         }
       },
       {
-        "ingredient": "coriander",
+        "ingredient": "coriander_grind",
         "amount": {
           "qty": 1,
           "unit": "tbsp"
@@ -51,7 +51,7 @@
         }
       },
       {
-        "ingredient": "pepper",
+        "ingredient": "pepper_grind",
         "amount": {
           "qty": 1,
           "unit": "tsp"
@@ -82,8 +82,9 @@
       "unit": "min"
     },
     "sensitivity": {
-      "refTempC": 20,
-      "q10": 1
+      "refTempC": 4,
+      "q10": 1,
+      "maxTempC": 8
     }
   },
   "stateNote": "Combine seasonings in a small bowl. Pat mixture into both sides of steaks and refrigerate as long as possible.",
@@ -91,7 +92,7 @@
     {
       "field": "outputs",
       "kind": "estimate",
-      "note": "assumed 1 g/ml for cumin, coriander, rosemary, chile_flakes, pepper, ginger"
+      "note": "assumed 1 g/ml for cumin_grind, coriander_grind, rosemary, chile_flakes, pepper_grind, ginger"
     },
     {
       "field": "end",

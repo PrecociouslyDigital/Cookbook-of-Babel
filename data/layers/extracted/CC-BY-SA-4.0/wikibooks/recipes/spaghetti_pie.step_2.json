@@ -9,26 +9,19 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "spaghetti",
+        "ingredient": "spaghetti_cut",
         "amount": {
           "qty": 115,
           "unit": "g"
-        }
-      },
-      {
-        "ingredient": "butter",
-        "amount": {
-          "qty": 2,
-          "unit": "tbsp"
         }
       }
     ]
   },
   "outputs": [
     {
-      "ingredient": "spaghetti_pie_step_2",
+      "ingredient": "spaghetti_cut_cut",
       "amount": {
-        "qty": 144.6,
+        "qty": 115,
         "unit": "g"
       }
     }
@@ -46,16 +39,6 @@
   },
   "stateNote": "Break the spaghetti into 5 cm (2-inch) pieces.",
   "issues": [
-    {
-      "field": "inputs",
-      "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.54"
-    },
-    {
-      "field": "outputs",
-      "kind": "estimate",
-      "note": "assumed 1 g/ml for butter"
-    },
     {
       "field": "end",
       "kind": "estimate",

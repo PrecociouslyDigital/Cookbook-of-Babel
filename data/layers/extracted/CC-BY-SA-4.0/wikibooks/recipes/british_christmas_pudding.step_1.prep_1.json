@@ -1,0 +1,49 @@
+{
+  "id": "british_christmas_pudding.step_1.prep_1",
+  "source": "wikibooks_british_christmas_pudding",
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "mixed_fruit",
+        "amount": {
+          "qty": 450,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "mixed_fruit_mix",
+      "amount": {
+        "qty": 450,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "450 g dried mixed fruit (raisins, currants)",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

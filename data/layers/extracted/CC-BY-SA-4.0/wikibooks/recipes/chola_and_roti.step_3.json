@@ -9,21 +9,21 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "chickpea_soak_boil",
+        "ingredient": "chickpea_soak_soak_boil",
         "amount": {
           "qty": 250,
           "unit": "g"
         }
       },
       {
-        "ingredient": "onion",
+        "ingredient": "onion_fry",
         "amount": {
           "qty": 2,
           "unit": "piece"
         }
       },
       {
-        "ingredient": "vegetable_oil",
+        "ingredient": "vegetable_oil_heat",
         "amount": {
           "qty": 1,
           "unit": "pinch"
@@ -60,6 +60,11 @@
   },
   "stateNote": "Fry the onions in hot oil until golden brown. Add the tomatoes, and fry until the oil separates out.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.58"
+    },
     {
       "field": "inputs",
       "kind": "estimate",

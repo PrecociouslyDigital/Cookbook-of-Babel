@@ -11,7 +11,7 @@
       {
         "ingredient": "sweet_italian_sausage_skillet_step_2",
         "amount": {
-          "qty": 822.5,
+          "qty": 823.3,
           "unit": "g"
         }
       },
@@ -49,14 +49,14 @@
     {
       "ingredient": "sweet_italian_sausage_skillet_step_3",
       "amount": {
-        "qty": 2051.4,
+        "qty": 2052.2,
         "unit": "g"
       }
     }
   ],
   "environment": {
     "temperatureC": 90,
-    "medium": "simmering_water"
+    "medium": "pan_contact"
   },
   "end": {
     "by": "time",
@@ -67,6 +67,11 @@
   },
   "stateNote": "Stir in undrained tomatoes, tomato paste, broth, and drained beans. Bring to boil, then reduce heat. Simmer, covered, 10 minutes.",
   "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.59"
+    },
     {
       "field": "outputs",
       "kind": "estimate",

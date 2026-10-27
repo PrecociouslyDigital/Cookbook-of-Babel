@@ -20,7 +20,7 @@
         "max": 1,
         "of": [
           {
-            "ingredient": "cilantro",
+            "ingredient": "cilantro_chop",
             "amount": {
               "qty": 1,
               "unit": "pinch"
@@ -39,15 +39,15 @@
       }
     }
   ],
-  "environment": {
-    "temperatureC": 90,
-    "medium": "simmering_water"
-  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
     }
   },
   "stateNote": "Taste the soup and adjust the seasonings as needed, adding more salt, pepper, or spices to suit your preference.",
@@ -55,17 +55,12 @@
     {
       "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.54"
+      "note": "the decision model gave this answer a probability of 0.47"
     },
     {
       "field": "inputs",
       "kind": "estimate",
       "note": "'Chopped fresh cilantro or parsley for garnish (optional)': no quantity given; assumed a pinch"
-    },
-    {
-      "field": "environment",
-      "kind": "estimate",
-      "note": "no temperature given; assumed 90.0 °C for simmering_water"
     },
     {
       "field": "end",

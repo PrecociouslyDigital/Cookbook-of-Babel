@@ -1,0 +1,49 @@
+{
+  "id": "welsh_fruit_bread_bara_brith_i.step_1.prep_1",
+  "source": "wikibooks_welsh_fruit_bread_bara_brith_i",
+  "technique": "heat",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "milk",
+        "amount": {
+          "qty": 8,
+          "unit": "fl_oz"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "milk_heat",
+      "amount": {
+        "qty": 8,
+        "unit": "fl_oz"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "8 fl oz (225 ml) milk",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

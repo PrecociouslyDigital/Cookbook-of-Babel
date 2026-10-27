@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "pork",
+        "ingredient": "pork_rinse",
         "amount": {
           "qty": 1.5,
           "unit": "kg"
@@ -19,7 +19,7 @@
   },
   "outputs": [
     {
-      "ingredient": "pork_cut",
+      "ingredient": "pork_rinse_cut",
       "amount": {
         "qty": 1500,
         "unit": "g"
@@ -39,6 +39,11 @@
   },
   "stateNote": "Wash the meat thoroughly and pat it dry with a paper towel. For a crispy crunch on top of the meat, cut a diamond pattern (each about 1 inch long) into the fat side.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.54"
+    },
     {
       "field": "end",
       "kind": "estimate",

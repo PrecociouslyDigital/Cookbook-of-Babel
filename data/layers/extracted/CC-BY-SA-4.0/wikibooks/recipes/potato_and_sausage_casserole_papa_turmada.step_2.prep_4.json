@@ -1,0 +1,49 @@
+{
+  "id": "potato_and_sausage_casserole_papa_turmada.step_2.prep_4",
+  "source": "wikibooks_potato_and_sausage_casserole_papa_turmada",
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "white_bread",
+        "amount": {
+          "qty": 3,
+          "unit": "slice"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "white_bread_cut",
+      "amount": {
+        "qty": 3,
+        "unit": "slice"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "3 slices of white bread",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

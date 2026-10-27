@@ -5,7 +5,7 @@
     "source": "wikibooks_chipped_beef_on_toast",
     "step": 2
   },
-  "technique": "dissolve",
+  "technique": "mix",
   "inputs": {
     "of": [
       {
@@ -16,7 +16,7 @@
         }
       },
       {
-        "ingredient": "condensed_milk",
+        "ingredient": "condensed_milk_dissolve",
         "amount": {
           "qty": 24,
           "unit": "oz"
@@ -41,8 +41,8 @@
     }
   ],
   "environment": {
-    "temperatureC": 90,
-    "medium": "simmering_water"
+    "temperatureC": 180,
+    "medium": "pan_contact"
   },
   "end": {
     "by": "time",
@@ -54,6 +54,11 @@
   "stateNote": "Dissolve the milk in the beef stock, and then add that to the pot.",
   "issues": [
     {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.48"
+    },
+    {
       "field": "outputs",
       "kind": "estimate",
       "note": "assumed 1 g/ml for beef"
@@ -61,7 +66,7 @@
     {
       "field": "environment",
       "kind": "estimate",
-      "note": "no temperature given; assumed 90.0 °C for simmering_water"
+      "note": "no temperature given; assumed 180.0 °C for pan_contact"
     },
     {
       "field": "end",

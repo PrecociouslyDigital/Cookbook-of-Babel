@@ -26,23 +26,23 @@
       }
     }
   ],
-  "environment": {
-    "temperatureC": 185,
-    "medium": "oven_air"
-  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
     }
   },
   "stateNote": "Remove once the bread is toasted, the cheese is golden at the edges, and the bacon is fully cooked.",
   "issues": [
     {
       "field": "environment",
-      "kind": "estimate",
-      "note": "no temperature given; used the middle of toast's typical range"
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.54"
     },
     {
       "field": "end",

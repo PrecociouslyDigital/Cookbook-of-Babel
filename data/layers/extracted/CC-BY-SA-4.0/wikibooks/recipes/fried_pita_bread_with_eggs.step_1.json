@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "olive_oil",
+        "ingredient": "olive_oil_heat",
         "amount": {
           "qty": 1,
           "unit": "tbsp"
@@ -19,7 +19,7 @@
   },
   "outputs": [
     {
-      "ingredient": "olive_oil_heat",
+      "ingredient": "olive_oil_heat_heat",
       "amount": {
         "qty": 14.8,
         "unit": "g"
@@ -40,14 +40,9 @@
   "stateNote": "In a heavy skillet, heat the oil at medium-low temperature.",
   "issues": [
     {
-      "field": "environment",
-      "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.53"
-    },
-    {
       "field": "outputs",
       "kind": "estimate",
-      "note": "assumed 1 g/ml for olive_oil"
+      "note": "assumed 1 g/ml for olive_oil_heat"
     },
     {
       "field": "environment",

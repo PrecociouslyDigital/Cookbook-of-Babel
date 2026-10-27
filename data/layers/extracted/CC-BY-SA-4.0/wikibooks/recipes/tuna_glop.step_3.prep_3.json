@@ -1,0 +1,49 @@
+{
+  "id": "tuna_glop.step_3.prep_3",
+  "source": "wikibooks_tuna_glop",
+  "technique": "rinse",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "tuna",
+        "amount": {
+          "qty": 6,
+          "unit": "oz"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "tuna_rinse",
+      "amount": {
+        "qty": 6,
+        "unit": "oz"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "1 can (6 oz / 170 g) chunk tuna in water",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

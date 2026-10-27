@@ -52,15 +52,15 @@
       }
     }
   ],
-  "environment": {
-    "temperatureC": 180,
-    "medium": "pan_contact"
-  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 5,
       "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
     }
   },
   "stateNote": "Take the scones out of the oven and cool for 5 minutes on the sheet.",
@@ -68,7 +68,7 @@
     {
       "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.51"
+      "note": "the decision model gave this answer a probability of 0.46"
     },
     {
       "field": "inputs",
@@ -84,11 +84,6 @@
       "field": "outputs",
       "kind": "estimate",
       "note": "assumed 1 g/ml for whipped_cream, fruit_preserves"
-    },
-    {
-      "field": "environment",
-      "kind": "estimate",
-      "note": "no temperature given; assumed 180.0 °C for pan_contact"
     }
   ]
 }

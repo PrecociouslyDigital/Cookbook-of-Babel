@@ -1,0 +1,49 @@
+{
+  "id": "ayamase_jollof_rice.step_1.prep_1",
+  "source": "wikibooks_ayamase_jollof_rice",
+  "technique": "boil",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "assorted_meat",
+        "amount": {
+          "qty": 1.5,
+          "unit": "kg"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "assorted_meat_boil",
+      "amount": {
+        "qty": 1.5,
+        "unit": "kg"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "1.5 kg assorted meat, cut in small pieces",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

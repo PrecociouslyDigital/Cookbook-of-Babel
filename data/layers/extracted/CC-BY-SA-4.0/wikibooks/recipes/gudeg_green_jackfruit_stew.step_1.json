@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "jackfruit",
+        "ingredient": "jackfruit_cut",
         "amount": {
           "qty": 0.5,
           "unit": "lb"
@@ -19,7 +19,7 @@
   },
   "outputs": [
     {
-      "ingredient": "jackfruit_cut",
+      "ingredient": "jackfruit_cut_cut",
       "amount": {
         "qty": 226.8,
         "unit": "g"
@@ -39,6 +39,11 @@
   },
   "stateNote": "Cut jackfruit into 1 inch-thick pieces and wash.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.43"
+    },
     {
       "field": "end",
       "kind": "estimate",

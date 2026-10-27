@@ -5,7 +5,7 @@
     "source": "wikibooks_quorn_pitta",
     "step": 3
   },
-  "technique": "heat",
+  "technique": "mix",
   "inputs": {
     "of": [
       {
@@ -16,7 +16,7 @@
         }
       },
       {
-        "ingredient": "quorn",
+        "ingredient": "quorn_heat",
         "amount": {
           "qty": 1,
           "unit": "pinch"
@@ -47,9 +47,14 @@
   "stateNote": "Microwave the Quorn for 1–2 minutes. Combine sauce and Quorn, and make sure it's smooth—that the whole should look like a paste rather than meat. Microwave again for 2 minutes.",
   "issues": [
     {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.51"
+    },
+    {
       "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.48"
+      "note": "the decision model gave this answer a probability of 0.51"
     },
     {
       "field": "inputs",

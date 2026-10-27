@@ -5,11 +5,11 @@
     "source": "wikibooks_cappelletti_pasta_soup_cappelletti_in_brodo",
     "step": 1
   },
-  "technique": "dissolve",
+  "technique": "boil",
   "inputs": {
     "of": [
       {
-        "ingredient": "water_plus_more",
+        "ingredient": "water_plus_more_boil",
         "amount": {
           "qty": 0.5,
           "unit": "l"
@@ -47,6 +47,11 @@
   "stateNote": "Bring the water to a rolling boil, add the stock cubes, and let them dissolve.",
   "issues": [
     {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.5"
+    },
+    {
       "field": "inputs",
       "kind": "estimate",
       "note": "'2 good quality chicken stock cubes': 'good' read as pieces"
@@ -54,7 +59,7 @@
     {
       "field": "environment",
       "kind": "estimate",
-      "note": "no temperature given; assumed 100.0 °C for boiling_water"
+      "note": "no temperature given; used the middle of boil's typical range"
     },
     {
       "field": "end",

@@ -9,14 +9,14 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "chocolate",
+        "ingredient": "chocolate_heat",
         "amount": {
           "qty": 240,
           "unit": "g"
         }
       },
       {
-        "ingredient": "butter",
+        "ingredient": "butter_heat",
         "amount": {
           "qty": 60,
           "unit": "g"
@@ -35,7 +35,7 @@
   ],
   "environment": {
     "temperatureC": 100,
-    "medium": "steam"
+    "medium": "boiling_water"
   },
   "end": {
     "by": "time",
@@ -47,14 +47,19 @@
   "stateNote": "Melt the chocolate and butter together in a double boiler.",
   "issues": [
     {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.58"
+    },
+    {
       "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.36"
+      "note": "the decision model gave this answer a probability of 0.41"
     },
     {
       "field": "environment",
       "kind": "estimate",
-      "note": "no temperature given; assumed 100.0 °C for steam"
+      "note": "no temperature given; assumed 100.0 °C for boiling_water"
     },
     {
       "field": "end",

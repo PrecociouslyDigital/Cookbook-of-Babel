@@ -16,14 +16,14 @@
         }
       },
       {
-        "ingredient": "chiles",
+        "ingredient": "chiles_roast",
         "amount": {
           "qty": 3.5,
           "unit": "piece"
         }
       },
       {
-        "ingredient": "tamarind",
+        "ingredient": "tamarind_roast",
         "amount": {
           "qty": 0.5,
           "unit": "tsp"
@@ -53,6 +53,11 @@
   },
   "stateNote": "Dry-roast the chillies and tamarind slightly, if desired.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.53"
+    },
     {
       "field": "environment",
       "kind": "estimate",

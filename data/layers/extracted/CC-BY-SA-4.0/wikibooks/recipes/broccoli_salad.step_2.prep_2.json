@@ -1,0 +1,49 @@
+{
+  "id": "broccoli_salad.step_2.prep_2",
+  "source": "wikibooks_broccoli_salad",
+  "technique": "fry",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "bacon",
+        "amount": {
+          "qty": 7.5,
+          "unit": "slice"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "bacon_fry",
+      "amount": {
+        "qty": 7.5,
+        "unit": "slice"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "7–8 slices of crisp fried bacon, crumbled (smoked bacon works well)",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

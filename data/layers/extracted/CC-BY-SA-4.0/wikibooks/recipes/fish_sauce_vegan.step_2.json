@@ -5,7 +5,7 @@
     "source": "wikibooks_fish_sauce_vegan",
     "step": 2
   },
-  "technique": "simmer",
+  "technique": "boil",
   "inputs": {
     "of": [
       {
@@ -27,7 +27,7 @@
     }
   ],
   "environment": {
-    "temperatureC": 90,
+    "temperatureC": 100,
     "medium": "simmering_water"
   },
   "end": {
@@ -40,9 +40,19 @@
   "stateNote": "Bring to a boil, then turn down the heat to keep it bubbling along.",
   "issues": [
     {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.47"
+    },
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.54"
+    },
+    {
       "field": "environment",
       "kind": "estimate",
-      "note": "no temperature given; used the middle of simmer's typical range"
+      "note": "no temperature given; used the middle of boil's typical range"
     },
     {
       "field": "end",

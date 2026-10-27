@@ -1,0 +1,49 @@
+{
+  "id": "pasta_romanov.step_2.prep_2",
+  "source": "wikibooks_pasta_romanov",
+  "technique": "heat",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "mascarpone_cheese",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "mascarpone_cheese_heat",
+      "amount": {
+        "qty": 1,
+        "unit": "pinch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Mascarpone cheese (or similar mild cheese like ricotta)",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -28,7 +28,7 @@
   ],
   "environment": {
     "temperatureC": 185,
-    "medium": "pan_contact"
+    "medium": "frying_oil"
   },
   "end": {
     "by": "time",
@@ -40,9 +40,14 @@
   "stateNote": "Heat a little oil in a frying pan, then add the remaining chopped onion.",
   "issues": [
     {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.36"
+    },
+    {
       "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.58"
+      "note": "the decision model gave this answer a probability of 0.54"
     },
     {
       "field": "environment",

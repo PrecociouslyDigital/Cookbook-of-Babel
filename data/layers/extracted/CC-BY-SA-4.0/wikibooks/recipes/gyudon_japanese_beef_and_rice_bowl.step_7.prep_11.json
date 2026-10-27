@@ -1,0 +1,49 @@
+{
+  "id": "gyudon_japanese_beef_and_rice_bowl.step_7.prep_11",
+  "source": "wikibooks_gyudon_japanese_beef_and_rice_bowl",
+  "technique": "steam",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "steamed_rice",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "steamed_rice_steam",
+      "amount": {
+        "qty": 1,
+        "unit": "pinch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Steamed rice",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -16,7 +16,7 @@
         }
       },
       {
-        "ingredient": "butter",
+        "ingredient": "butter_heat",
         "amount": {
           "qty": 0.25,
           "unit": "cup"
@@ -61,9 +61,14 @@
   "stateNote": "Remove from heat and slowly stir in melted butter. Then add lemon juice and salt and cayenne pepper to taste.",
   "issues": [
     {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.55"
+    },
+    {
       "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.46"
+      "note": "the decision model gave this answer a probability of 0.47"
     },
     {
       "field": "inputs",

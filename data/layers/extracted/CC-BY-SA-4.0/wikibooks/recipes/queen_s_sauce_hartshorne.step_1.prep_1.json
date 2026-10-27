@@ -1,0 +1,49 @@
+{
+  "id": "queen_s_sauce_hartshorne.step_1.prep_1",
+  "source": "wikibooks_queen_s_sauce_hartshorne",
+  "technique": "simmer",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "gravy",
+        "amount": {
+          "qty": 200,
+          "unit": "ml"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "gravy_simmer",
+      "amount": {
+        "qty": 200,
+        "unit": "ml"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "200 ml gravy",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

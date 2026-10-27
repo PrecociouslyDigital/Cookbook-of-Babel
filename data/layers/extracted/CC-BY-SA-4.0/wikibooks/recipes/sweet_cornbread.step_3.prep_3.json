@@ -1,0 +1,49 @@
+{
+  "id": "sweet_cornbread.step_3.prep_3",
+  "source": "wikibooks_sweet_cornbread",
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "baking_powder",
+        "amount": {
+          "qty": 1.5,
+          "unit": "tsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "baking_powder_mix",
+      "amount": {
+        "qty": 1.5,
+        "unit": "tsp"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "1½ teaspoons baking powder",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

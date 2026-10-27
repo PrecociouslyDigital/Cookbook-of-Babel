@@ -5,7 +5,7 @@
     "source": "wikibooks_akarubi_rwandan_grilled_banana",
     "step": 4
   },
-  "technique": "separate",
+  "technique": "grill",
   "inputs": {
     "of": [
       {
@@ -19,22 +19,22 @@
   },
   "outputs": [
     {
-      "ingredient": "akarubi_rwandan_grilled_banana_step_4",
+      "ingredient": "banana_grill_grill_grill",
       "amount": {
         "qty": 0.3,
         "unit": "g"
       }
     }
   ],
-  "environment": {
-    "temperatureC": 180,
-    "medium": "pan_contact"
-  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
     }
   },
   "stateNote": "Remove the grilled bananas from the heat and transfer them to a serving plate.",
@@ -42,12 +42,12 @@
     {
       "field": "technique",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.4"
+      "note": "the decision model gave this answer a probability of 0.3"
     },
     {
       "field": "environment",
-      "kind": "estimate",
-      "note": "no temperature given; assumed 180.0 °C for pan_contact"
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.46"
     },
     {
       "field": "end",

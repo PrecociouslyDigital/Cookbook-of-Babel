@@ -16,7 +16,7 @@
         }
       },
       {
-        "ingredient": "sausage_casing",
+        "ingredient": "sausage_casing_soak",
         "amount": {
           "qty": 2.25,
           "unit": "piece"
@@ -46,6 +46,11 @@
   },
   "stateNote": "While the meat is resting, soak the sausage casings in water for the same 2 hours.",
   "issues": [
+    {
+      "field": "sourceRef",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.59"
+    },
     {
       "field": "inputs",
       "kind": "estimate",

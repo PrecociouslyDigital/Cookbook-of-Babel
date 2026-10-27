@@ -5,7 +5,7 @@
     "source": "wikibooks_roasted_vegetable_pasta",
     "step": 3
   },
-  "technique": "simmer",
+  "technique": "mix",
   "inputs": {
     "of": [
       {
@@ -16,14 +16,14 @@
         }
       },
       {
-        "ingredient": "garlic",
+        "ingredient": "garlic_pan_fry",
         "amount": {
           "qty": 4,
           "unit": "piece"
         }
       },
       {
-        "ingredient": "tomato_sauce",
+        "ingredient": "tomato_sauce_simmer",
         "amount": {
           "qty": 1.5,
           "unit": "cup"
@@ -48,7 +48,7 @@
     }
   ],
   "environment": {
-    "temperatureC": 90,
+    "temperatureC": 180,
     "medium": "pan_contact"
   },
   "end": {
@@ -61,14 +61,9 @@
   "stateNote": "While vegetables are roasting, sauté the garlic in a tablespoon of olive oil until it begins to colour. Add the tomato sauce and simmer 1 minute. Then, turn off heat and add the basil. Stir the roasted vegetables into the sauce. Gorgeous!",
   "issues": [
     {
-      "field": "technique",
-      "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.47"
-    },
-    {
       "field": "environment",
       "kind": "estimate",
-      "note": "no temperature given; used the middle of simmer's typical range"
+      "note": "no temperature given; assumed 180.0 °C for pan_contact"
     }
   ]
 }

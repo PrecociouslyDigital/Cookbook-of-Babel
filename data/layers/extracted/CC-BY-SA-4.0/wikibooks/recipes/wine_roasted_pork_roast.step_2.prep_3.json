@@ -1,0 +1,49 @@
+{
+  "id": "wine_roasted_pork_roast.step_2.prep_3",
+  "source": "wikibooks_wine_roasted_pork_roast",
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "pork",
+        "amount": {
+          "qty": 4.5,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "pork_season",
+      "amount": {
+        "qty": 4.5,
+        "unit": "piece"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "4 to 5-pound boneless pork loin roast",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

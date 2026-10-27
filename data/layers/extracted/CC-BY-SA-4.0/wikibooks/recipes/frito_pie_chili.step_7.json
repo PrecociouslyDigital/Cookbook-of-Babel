@@ -11,7 +11,7 @@
       {
         "ingredient": "frito_pie_chili_step_6",
         "amount": {
-          "qty": 2764.1,
+          "qty": 2766.5,
           "unit": "g"
         }
       },
@@ -35,20 +35,20 @@
     {
       "ingredient": "frito_pie_chili_step_7",
       "amount": {
-        "qty": 2798,
+        "qty": 2800.4,
         "unit": "g"
       }
     }
   ],
-  "environment": {
-    "temperatureC": 90,
-    "medium": "simmering_water"
-  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
     }
   },
   "stateNote": "Mix the masa and flour together with a little liquid from the stock pot.",
@@ -56,17 +56,12 @@
     {
       "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.55"
+      "note": "the decision model gave this answer a probability of 0.48"
     },
     {
       "field": "outputs",
       "kind": "estimate",
       "note": "assumed 1 g/ml for corn_flour"
-    },
-    {
-      "field": "environment",
-      "kind": "estimate",
-      "note": "no temperature given; assumed 90.0 °C for simmering_water"
     },
     {
       "field": "end",

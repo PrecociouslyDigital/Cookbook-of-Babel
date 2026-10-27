@@ -1,0 +1,49 @@
+{
+  "id": "chadian_gilled_fish.step_3.prep_9",
+  "source": "wikibooks_chadian_gilled_fish",
+  "technique": "dry",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "fish",
+        "amount": {
+          "qty": 2,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "fish_dry",
+      "amount": {
+        "qty": 2,
+        "unit": "piece"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "2 whole fresh fish (such as tilapia or catfish), cleaned and scaled",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

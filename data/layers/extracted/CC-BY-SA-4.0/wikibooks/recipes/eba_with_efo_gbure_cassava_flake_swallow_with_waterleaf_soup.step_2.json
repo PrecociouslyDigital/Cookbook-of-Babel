@@ -9,14 +9,14 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "waterleaf_rinse",
+        "ingredient": "waterleaf_rinse_rinse",
         "amount": {
           "qty": 0.3,
           "unit": "g"
         }
       },
       {
-        "ingredient": "palm_oil",
+        "ingredient": "palm_oil_heat",
         "amount": {
           "qty": 0.25,
           "unit": "cup"
@@ -61,14 +61,19 @@
   "stateNote": "Place a heavy-bottomed pot over medium-high heat. Add the palm oil, and let it heat up before carefully adding the tomato and chile purées.",
   "issues": [
     {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.45"
+    },
+    {
       "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.57"
+      "note": "the decision model gave this answer a probability of 0.58"
     },
     {
       "field": "outputs",
       "kind": "estimate",
-      "note": "assumed 1 g/ml for palm_oil, tomato, chiles"
+      "note": "assumed 1 g/ml for palm_oil_heat, tomato, chiles"
     },
     {
       "field": "environment",

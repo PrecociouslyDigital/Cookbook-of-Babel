@@ -5,7 +5,7 @@
     "source": "wikibooks_pumpkin_souffle_casserole",
     "step": 5
   },
-  "technique": "season",
+  "technique": "assemble",
   "inputs": {
     "of": [
       {
@@ -33,15 +33,15 @@
       }
     }
   ],
-  "environment": {
-    "temperatureC": 230,
-    "medium": "oven_air"
-  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
     }
   },
   "stateNote": "Pour mixture into the prepared baking dish, and sprinkle cinnamon over top.",
@@ -49,12 +49,12 @@
     {
       "field": "technique",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.54"
+      "note": "the decision model gave this answer a probability of 0.5"
     },
     {
       "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.5"
+      "note": "the decision model gave this answer a probability of 0.54"
     },
     {
       "field": "end",

@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "chicken_cut",
+        "ingredient": "chicken_cut_cut",
         "amount": {
           "qty": 453.6,
           "unit": "g"
@@ -19,7 +19,7 @@
   },
   "outputs": [
     {
-      "ingredient": "chicken_cut_pan_fry",
+      "ingredient": "chicken_cut_cut_pan_fry",
       "amount": {
         "qty": 453.6,
         "unit": "g"
@@ -39,6 +39,11 @@
   },
   "stateNote": "Add the chicken cubes and fry over medium-high heat, stirring frequently, until they are browned (2–3 minutes).",
   "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.57"
+    },
     {
       "field": "environment",
       "kind": "estimate",

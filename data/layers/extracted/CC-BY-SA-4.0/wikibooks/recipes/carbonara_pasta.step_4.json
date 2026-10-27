@@ -5,7 +5,7 @@
     "source": "wikibooks_carbonara_pasta",
     "step": 4
   },
-  "technique": "cool",
+  "technique": "mix",
   "inputs": {
     "of": [
       {
@@ -26,28 +26,28 @@
       }
     }
   ],
-  "environment": {
-    "temperatureC": 180,
-    "medium": "pan_contact"
-  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
     }
   },
   "stateNote": "When the pancetta is cooked, drain and allow it to cool for a few minutes before combining it with the yolks in a large bowl. Allowing it to cool prevents cooking of the eggs.",
   "issues": [
     {
-      "field": "environment",
+      "field": "technique",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.4"
+      "note": "the decision model gave this answer a probability of 0.51"
     },
     {
       "field": "environment",
-      "kind": "estimate",
-      "note": "no temperature given; assumed 180.0 °C for pan_contact"
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.48"
     },
     {
       "field": "end",

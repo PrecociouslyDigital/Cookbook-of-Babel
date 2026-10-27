@@ -16,7 +16,7 @@
         }
       },
       {
-        "ingredient": "green_onion",
+        "ingredient": "green_onion_chop",
         "amount": {
           "qty": 0.25,
           "unit": "cup"
@@ -33,29 +33,19 @@
       }
     }
   ],
-  "environment": {
-    "temperatureC": 90,
-    "medium": "simmering_water"
-  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
     }
   },
   "stateNote": "Mix in green onions and serve with lime wedge.",
   "issues": [
-    {
-      "field": "environment",
-      "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.48"
-    },
-    {
-      "field": "environment",
-      "kind": "estimate",
-      "note": "no temperature given; assumed 90.0 °C for simmering_water"
-    },
     {
       "field": "end",
       "kind": "estimate",
@@ -64,7 +54,7 @@
     {
       "field": "inputs",
       "kind": "missing",
-      "note": "no step uses 'Pepper to taste' (p=0.89)"
+      "note": "no step uses 'Pepper to taste' (p=0.96)"
     }
   ]
 }

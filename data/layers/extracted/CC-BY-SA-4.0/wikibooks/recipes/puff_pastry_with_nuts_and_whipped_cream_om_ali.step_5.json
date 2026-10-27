@@ -16,7 +16,7 @@
         }
       },
       {
-        "ingredient": "milk",
+        "ingredient": "milk_boil",
         "amount": {
           "qty": 4,
           "unit": "cup"
@@ -28,14 +28,14 @@
     {
       "ingredient": "puff_pastry_with_nuts_and_whipped_cream_om_ali_step_5",
       "amount": {
-        "qty": 2787,
+        "qty": 2758.6,
         "unit": "g"
       }
     }
   ],
   "environment": {
-    "temperatureC": 100,
-    "medium": "boiling_water"
+    "temperatureC": 180,
+    "medium": "pan_contact"
   },
   "end": {
     "by": "time",
@@ -47,14 +47,14 @@
   "stateNote": "Bring milk and ½ cup sugar to a boil in a medium saucepan over medium heat. Pour over nut mixture.",
   "issues": [
     {
-      "field": "environment",
-      "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.58"
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for milk_boil"
     },
     {
       "field": "environment",
       "kind": "estimate",
-      "note": "no temperature given; assumed 100.0 °C for boiling_water"
+      "note": "no temperature given; assumed 180.0 °C for pan_contact"
     },
     {
       "field": "end",

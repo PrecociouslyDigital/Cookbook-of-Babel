@@ -16,7 +16,7 @@
         }
       },
       {
-        "ingredient": "onion",
+        "ingredient": "onion_pan_fry",
         "amount": {
           "qty": 0.5,
           "unit": "cup"
@@ -54,9 +54,14 @@
   "stateNote": "Cook onion in butter until tender.",
   "issues": [
     {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.5"
+    },
+    {
       "field": "outputs",
       "kind": "estimate",
-      "note": "assumed 1 g/ml for onion, butter"
+      "note": "assumed 1 g/ml for onion_pan_fry, butter"
     },
     {
       "field": "environment",

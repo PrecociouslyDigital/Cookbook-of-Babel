@@ -1,0 +1,49 @@
+{
+  "id": "easy_peach_cobbler.step_2.prep_1",
+  "source": "wikibooks_easy_peach_cobbler",
+  "technique": "heat",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "margarine",
+        "amount": {
+          "qty": 1,
+          "unit": "stick"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "margarine_heat",
+      "amount": {
+        "qty": 1,
+        "unit": "stick"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "1 stick margarine",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -14,6 +14,13 @@
           "qty": 1,
           "unit": "batch"
         }
+      },
+      {
+        "ingredient": "milk_boil",
+        "amount": {
+          "qty": 0.5,
+          "unit": "cup"
+        }
       }
     ]
   },
@@ -39,6 +46,11 @@
   },
   "stateNote": "Bring the milk to a boil.",
   "issues": [
+    {
+      "field": "inputs",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.58"
+    },
     {
       "field": "environment",
       "kind": "estimate",

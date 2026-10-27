@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "banana_cut",
+        "ingredient": "banana_split_i_step_1",
         "amount": {
           "qty": 1,
           "unit": "batch"
@@ -60,6 +60,11 @@
   },
   "stateNote": "Place vanilla ice-cream in middle and strawberry and chocolate ice-creams on the side.",
   "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.56"
+    },
     {
       "field": "inputs",
       "kind": "estimate",

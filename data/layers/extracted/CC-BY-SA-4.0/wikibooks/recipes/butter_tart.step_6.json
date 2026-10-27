@@ -5,7 +5,7 @@
     "source": "wikibooks_butter_tart",
     "step": 6
   },
-  "technique": "whisk",
+  "technique": "mix",
   "inputs": {
     "of": [
       {
@@ -16,7 +16,7 @@
         }
       },
       {
-        "ingredient": "egg",
+        "ingredient": "egg_whisk",
         "amount": {
           "qty": 2,
           "unit": "piece"
@@ -37,7 +37,7 @@
         }
       },
       {
-        "ingredient": "butter",
+        "ingredient": "butter_heat",
         "amount": {
           "qty": 3,
           "unit": "tbsp"
@@ -67,6 +67,11 @@
   },
   "stateNote": "Beat the eggs well. Add sugar, syrup, and melted butter and beat again.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.46"
+    },
     {
       "field": "end",
       "kind": "estimate",

@@ -23,14 +23,14 @@
         }
       },
       {
-        "ingredient": "tomato",
+        "ingredient": "tomato_cut",
         "amount": {
           "qty": 2,
           "unit": "piece"
         }
       },
       {
-        "ingredient": "artichoke",
+        "ingredient": "artichoke_chop",
         "amount": {
           "qty": 6,
           "unit": "oz"
@@ -61,12 +61,18 @@
       "unit": "h"
     },
     "sensitivity": {
-      "refTempC": 20,
-      "q10": 1
+      "refTempC": 4,
+      "q10": 1,
+      "maxTempC": 8
     }
   },
   "stateNote": "After your mushrooms have marinated for 1 hour in the fridge, remove your mushrooms from the bag and place them in your pre-greased oven dish with the lid of the mushroom facing downward. Evenly place the eggplant and spinach mixture over the mushrooms, and garnish with mozzarella cheese. If you so choose to use tomatoes and artichoke hearts, evenly distribute them between the mushrooms. Lastly, sprinkle with Parmesan cheese.",
   "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.46"
+    },
     {
       "field": "inputs",
       "kind": "estimate",

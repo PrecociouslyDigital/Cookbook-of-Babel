@@ -5,18 +5,18 @@
     "source": "wikibooks_seafood_fried_rice",
     "step": 1
   },
-  "technique": "fry",
+  "technique": "heat",
   "inputs": {
     "of": [
       {
-        "ingredient": "oil_and_fat",
+        "ingredient": "oil_and_fat_heat",
         "amount": {
           "qty": 2,
           "unit": "tbsp"
         }
       },
       {
-        "ingredient": "garlic",
+        "ingredient": "garlic_fry",
         "amount": {
           "qty": 2,
           "unit": "clove"
@@ -34,7 +34,7 @@
     }
   ],
   "environment": {
-    "temperatureC": 190,
+    "temperatureC": 175,
     "medium": "frying_oil"
   },
   "end": {
@@ -49,12 +49,12 @@
     {
       "field": "technique",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.46"
+      "note": "the decision model gave this answer a probability of 0.5"
     },
     {
       "field": "environment",
       "kind": "estimate",
-      "note": "no temperature given; used the middle of fry's typical range"
+      "note": "no temperature given; assumed 175.0 °C for frying_oil"
     }
   ]
 }

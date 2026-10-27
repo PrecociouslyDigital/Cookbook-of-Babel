@@ -1,0 +1,49 @@
+{
+  "id": "arjoli_maltese_herbed_bread_dip.step_1.prep_1",
+  "source": "wikibooks_arjoli_maltese_herbed_bread_dip",
+  "technique": "soak",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "maltese_galletti",
+        "amount": {
+          "qty": 2,
+          "unit": "package"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "maltese_galletti_soak",
+      "amount": {
+        "qty": 2,
+        "unit": "package"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "2 packets Maltese galletti (round hard Ship's Biscuit)",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

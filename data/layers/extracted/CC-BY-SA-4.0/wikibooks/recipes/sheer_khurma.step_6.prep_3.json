@@ -1,0 +1,49 @@
+{
+  "id": "sheer_khurma.step_6.prep_3",
+  "source": "wikibooks_sheer_khurma",
+  "technique": "soak",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "date",
+        "amount": {
+          "qty": 100,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "date_soak",
+      "amount": {
+        "qty": 100,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 8,
+      "unit": "h"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "100 g dried dates, soaked overnight, pitted and chopped thin",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "'overnight' read as 8 hours"
+    }
+  ]
+}

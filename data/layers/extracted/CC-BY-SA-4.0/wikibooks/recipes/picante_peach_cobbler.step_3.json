@@ -5,7 +5,7 @@
     "source": "wikibooks_picante_peach_cobbler",
     "step": 3
   },
-  "technique": "simmer",
+  "technique": "heat",
   "inputs": {
     "of": [
       {
@@ -27,7 +27,7 @@
     }
   ],
   "environment": {
-    "temperatureC": 90,
+    "temperatureC": 180,
     "medium": "pan_contact"
   },
   "end": {
@@ -40,14 +40,14 @@
   "stateNote": "Reduce heat to low.",
   "issues": [
     {
-      "field": "sourceRef",
+      "field": "technique",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.58"
+      "note": "the decision model gave this answer a probability of 0.51"
     },
     {
       "field": "environment",
       "kind": "estimate",
-      "note": "no temperature given; used the middle of simmer's typical range"
+      "note": "no temperature given; assumed 180.0 °C for pan_contact"
     },
     {
       "field": "end",

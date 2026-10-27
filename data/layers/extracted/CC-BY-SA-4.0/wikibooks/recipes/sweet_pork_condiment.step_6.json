@@ -11,7 +11,7 @@
       {
         "ingredient": "sweet_pork_condiment_step_5",
         "amount": {
-          "qty": 634.7,
+          "qty": 645.8,
           "unit": "g"
         }
       }
@@ -21,14 +21,14 @@
     {
       "ingredient": "sweet_pork_condiment",
       "amount": {
-        "qty": 634.7,
+        "qty": 645.8,
         "unit": "g"
       }
     }
   ],
   "environment": {
     "temperatureC": 90,
-    "medium": "simmering_water"
+    "medium": "pan_contact"
   },
   "end": {
     "by": "time",
@@ -39,6 +39,11 @@
   },
   "stateNote": "Simmer the pork in the sauce for about 5–10 minutes, then mix the pork and the sauce together.",
   "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.54"
+    },
     {
       "field": "environment",
       "kind": "estimate",

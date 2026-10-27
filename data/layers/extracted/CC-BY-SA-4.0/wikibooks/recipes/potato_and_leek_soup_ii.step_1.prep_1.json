@@ -1,0 +1,49 @@
+{
+  "id": "potato_and_leek_soup_ii.step_1.prep_1",
+  "source": "wikibooks_potato_and_leek_soup_ii",
+  "technique": "rinse",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "leek",
+        "amount": {
+          "qty": 930,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "leek_rinse",
+      "amount": {
+        "qty": 930,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "930 g leeks (not including the toughest portion of their green tops), halved lengthwise and sliced",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

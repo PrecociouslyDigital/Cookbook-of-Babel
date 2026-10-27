@@ -22,14 +22,14 @@
         ]
       },
       {
-        "ingredient": "onion",
+        "ingredient": "onion_chop",
         "amount": {
           "qty": 1,
           "unit": "piece"
         }
       },
       {
-        "ingredient": "garlic",
+        "ingredient": "garlic_chop",
         "amount": {
           "qty": 1,
           "unit": "clove"
@@ -84,7 +84,7 @@
         ]
       },
       {
-        "ingredient": "pepper",
+        "ingredient": "pepper_grind",
         "amount": {
           "qty": 0.5,
           "unit": "tsp"
@@ -95,7 +95,7 @@
         "max": 1,
         "of": [
           {
-            "ingredient": "jalapeno",
+            "ingredient": "jalapeno_chop",
             "amount": {
               "qty": 1,
               "unit": "piece"
@@ -116,7 +116,7 @@
   ],
   "environment": {
     "temperatureC": 90,
-    "medium": "simmering_water"
+    "medium": "still_air"
   },
   "end": {
     "by": "time",
@@ -130,12 +130,17 @@
     {
       "field": "technique",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.58"
+      "note": "the decision model gave this answer a probability of 0.43"
     },
     {
       "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.43"
+      "note": "the decision model gave this answer a probability of 0.44"
+    },
+    {
+      "field": "inputs",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.59"
     },
     {
       "field": "environment",

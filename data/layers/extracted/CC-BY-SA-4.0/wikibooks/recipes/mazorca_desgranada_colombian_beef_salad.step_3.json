@@ -1,0 +1,65 @@
+{
+  "id": "mazorca_desgranada_colombian_beef_salad.step_3",
+  "source": "wikibooks_mazorca_desgranada_colombian_beef_salad",
+  "sourceRef": {
+    "source": "wikibooks_mazorca_desgranada_colombian_beef_salad",
+    "step": 3
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "mazorca_desgranada_colombian_beef_salad_step_2",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "lettuce_cut",
+        "amount": {
+          "qty": 0.5,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "mazorca_desgranada_colombian_beef_salad_step_3",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Place lettuce into serving dish.",
+  "issues": [
+    {
+      "field": "sourceRef",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.52"
+    },
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'½ small \"Summer Crisp\" (Batavian) lettuce, thinly sliced': '\"Summer' read as pieces"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -5,7 +5,7 @@
     "source": "wikibooks_san_francisco_style_scallop_ceviche",
     "step": 1
   },
-  "technique": "soak",
+  "technique": "mix",
   "inputs": {
     "of": [
       {
@@ -40,8 +40,9 @@
       "unit": "min"
     },
     "sensitivity": {
-      "refTempC": 20,
-      "q10": 1
+      "refTempC": 4,
+      "q10": 1,
+      "maxTempC": 8
     }
   },
   "stateNote": "In a non-reactive bowl, combine the scallops and lemon juice. Add more juice as needed to cover the scallops.",
@@ -49,7 +50,12 @@
     {
       "field": "technique",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.48"
+      "note": "the decision model gave this answer a probability of 0.41"
+    },
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.58"
     },
     {
       "field": "outputs",

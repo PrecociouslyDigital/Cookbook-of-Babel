@@ -1,0 +1,49 @@
+{
+  "id": "malpua_south_asian_sweet_pancake.step_1.prep_1",
+  "source": "wikibooks_malpua_south_asian_sweet_pancake",
+  "technique": "boil",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "milk",
+        "amount": {
+          "qty": 1,
+          "unit": "l"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "milk_boil",
+      "amount": {
+        "qty": 1,
+        "unit": "l"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "1 litre milk",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -16,7 +16,7 @@
         }
       },
       {
-        "ingredient": "white_stock",
+        "ingredient": "white_stock_boil",
         "amount": {
           "qty": 2,
           "unit": "cup"
@@ -34,8 +34,8 @@
     }
   ],
   "environment": {
-    "temperatureC": 100,
-    "medium": "boiling_water"
+    "temperatureC": 180,
+    "medium": "pan_contact"
   },
   "end": {
     "by": "time",
@@ -49,17 +49,17 @@
     {
       "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.42"
+      "note": "the decision model gave this answer a probability of 0.41"
     },
     {
       "field": "outputs",
       "kind": "estimate",
-      "note": "assumed 1 g/ml for white_stock"
+      "note": "assumed 1 g/ml for white_stock_boil"
     },
     {
       "field": "environment",
       "kind": "estimate",
-      "note": "no temperature given; assumed 100.0 °C for boiling_water"
+      "note": "no temperature given; assumed 180.0 °C for pan_contact"
     },
     {
       "field": "end",

@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "water",
+        "ingredient": "water_heat",
         "amount": {
           "qty": 0.5,
           "unit": "cup"
@@ -46,6 +46,11 @@
   },
   "stateNote": "Heat the water and sugar together until fully dissolved.",
   "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for water_heat"
+    },
     {
       "field": "environment",
       "kind": "estimate",

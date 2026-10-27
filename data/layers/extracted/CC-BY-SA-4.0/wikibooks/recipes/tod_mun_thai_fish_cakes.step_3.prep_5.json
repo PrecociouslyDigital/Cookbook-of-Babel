@@ -1,0 +1,49 @@
+{
+  "id": "tod_mun_thai_fish_cakes.step_3.prep_5",
+  "source": "wikibooks_tod_mun_thai_fish_cakes",
+  "technique": "grind",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "ground_fish",
+        "amount": {
+          "qty": 360,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "ground_fish_grind",
+      "amount": {
+        "qty": 360,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "360 grams (about ¾ lb) ground fish or fish paste (pla kuud)",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

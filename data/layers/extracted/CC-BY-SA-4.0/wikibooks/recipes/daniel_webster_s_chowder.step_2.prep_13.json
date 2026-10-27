@@ -1,0 +1,49 @@
+{
+  "id": "daniel_webster_s_chowder.step_2.prep_13",
+  "source": "wikibooks_daniel_webster_s_chowder",
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "cod",
+        "amount": {
+          "qty": 6,
+          "unit": "lb"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "cod_cut",
+      "amount": {
+        "qty": 6,
+        "unit": "lb"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "6 pounds sea bass or cod, cut into slices",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

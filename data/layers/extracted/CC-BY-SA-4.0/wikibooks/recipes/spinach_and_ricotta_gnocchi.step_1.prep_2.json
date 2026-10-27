@@ -1,0 +1,54 @@
+{
+  "id": "spinach_and_ricotta_gnocchi.step_1.prep_2",
+  "source": "wikibooks_spinach_and_ricotta_gnocchi",
+  "technique": "blend",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "ricotta",
+        "amount": {
+          "qty": 8,
+          "unit": "oz"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "ricotta_blend",
+      "amount": {
+        "qty": 8,
+        "unit": "oz"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "1 container (8 oz) ricotta, mashed until smooth",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.42"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

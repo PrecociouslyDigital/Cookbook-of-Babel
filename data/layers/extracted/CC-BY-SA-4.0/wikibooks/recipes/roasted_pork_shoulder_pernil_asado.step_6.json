@@ -5,7 +5,7 @@
     "source": "wikibooks_roasted_pork_shoulder_pernil_asado",
     "step": 6
   },
-  "technique": "chill",
+  "technique": "cure",
   "inputs": {
     "of": [
       {
@@ -33,12 +33,18 @@
       "unit": "d"
     },
     "sensitivity": {
-      "refTempC": 20,
-      "q10": 1
+      "refTempC": 4,
+      "q10": 1,
+      "maxTempC": 8
     }
   },
   "stateNote": "Put away in the refrigerator for 3 days. If you planned to cook it the same day, prepare the pork at least 1 hour ahead of time.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.42"
+    },
     {
       "field": "end",
       "kind": "estimate",

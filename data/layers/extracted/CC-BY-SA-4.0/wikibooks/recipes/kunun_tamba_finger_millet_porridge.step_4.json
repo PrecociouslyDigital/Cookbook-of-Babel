@@ -16,7 +16,7 @@
         }
       },
       {
-        "ingredient": "water",
+        "ingredient": "water_boil",
         "amount": {
           "qty": 1,
           "unit": "cup"
@@ -46,6 +46,16 @@
   },
   "stateNote": "Boil water in a pot and add the tamba powder gradually, stirring gently to make a smooth mixture.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.55"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for water_boil"
+    },
     {
       "field": "environment",
       "kind": "estimate",

@@ -1,0 +1,49 @@
+{
+  "id": "miyan_shuwaka_hausa_bitter_leaf_soup.step_1.prep_1",
+  "source": "wikibooks_miyan_shuwaka_hausa_bitter_leaf_soup",
+  "technique": "rinse",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "bitterleaf",
+        "amount": {
+          "qty": 100,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "bitterleaf_rinse",
+      "amount": {
+        "qty": 100,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "100 g bitterleaf (fresh or dried)",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

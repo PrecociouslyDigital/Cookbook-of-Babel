@@ -9,14 +9,14 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "tomato_chop",
+        "ingredient": "pizza_soup_step_1",
         "amount": {
           "qty": 1,
           "unit": "batch"
         }
       },
       {
-        "ingredient": "cheese",
+        "ingredient": "cheese_grind",
         "amount": {
           "qty": 1,
           "unit": "pinch"
@@ -34,8 +34,8 @@
     }
   ],
   "environment": {
-    "temperatureC": 90,
-    "medium": "simmering_water"
+    "temperatureC": 180,
+    "medium": "pan_contact"
   },
   "end": {
     "by": "time",
@@ -47,16 +47,6 @@
   "stateNote": "Grate some cheese (for this part you should use at least a handful, depending on the size of your pan) and add to the pan.",
   "issues": [
     {
-      "field": "technique",
-      "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.33"
-    },
-    {
-      "field": "environment",
-      "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.56"
-    },
-    {
       "field": "inputs",
       "kind": "estimate",
       "note": "'Cheese (type doesn't matter, just so long as it melts)': no quantity given; assumed a pinch"
@@ -64,7 +54,7 @@
     {
       "field": "environment",
       "kind": "estimate",
-      "note": "no temperature given; assumed 90.0 °C for simmering_water"
+      "note": "no temperature given; assumed 180.0 °C for pan_contact"
     },
     {
       "field": "end",

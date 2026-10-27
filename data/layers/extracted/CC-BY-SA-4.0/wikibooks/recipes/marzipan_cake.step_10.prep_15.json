@@ -1,0 +1,49 @@
+{
+  "id": "marzipan_cake.step_10.prep_15",
+  "source": "wikibooks_marzipan_cake",
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "marzipan",
+        "amount": {
+          "qty": 350,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "marzipan_cut",
+      "amount": {
+        "qty": 350,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "350 g marzipan",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

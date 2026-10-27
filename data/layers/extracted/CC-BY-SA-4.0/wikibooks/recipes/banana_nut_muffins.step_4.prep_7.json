@@ -1,0 +1,49 @@
+{
+  "id": "banana_nut_muffins.step_4.prep_7",
+  "source": "wikibooks_banana_nut_muffins",
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "whole_wheat_flour",
+        "amount": {
+          "qty": 320,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "whole_wheat_flour_mix",
+      "amount": {
+        "qty": 320,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "1⅓ cups (320 g) whole wheat flour",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "simple_spaghetti.step_1.prep_1",
+  "source": "wikibooks_simple_spaghetti",
+  "technique": "boil",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "water",
+        "amount": {
+          "qty": 2.25,
+          "unit": "l"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "water_boil",
+      "amount": {
+        "qty": 2.25,
+        "unit": "l"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "2.25 L (10 cups) water",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -16,21 +16,21 @@
         }
       },
       {
-        "ingredient": "onion",
+        "ingredient": "onion_chop",
         "amount": {
           "qty": 1,
           "unit": "piece"
         }
       },
       {
-        "ingredient": "tomato",
+        "ingredient": "tomato_chop",
         "amount": {
           "qty": 3,
           "unit": "piece"
         }
       },
       {
-        "ingredient": "lettuce",
+        "ingredient": "lettuce_chop",
         "amount": {
           "qty": 1,
           "unit": "lb"
@@ -60,6 +60,11 @@
   },
   "stateNote": "Chop the tomatoes, onion and lettuce.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.53"
+    },
     {
       "field": "end",
       "kind": "estimate",

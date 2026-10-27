@@ -5,7 +5,7 @@
     "source": "wikibooks_ndole_cameroonian_bitter_leaf_and_peanut_soup",
     "step": 2
   },
-  "technique": "boil",
+  "technique": "mix",
   "inputs": {
     "of": [
       {
@@ -20,7 +20,7 @@
         "max": 1,
         "of": [
           {
-            "ingredient": "stockfish",
+            "ingredient": "stockfish_boil",
             "amount": {
               "qty": 0.5,
               "unit": "lb"
@@ -53,9 +53,14 @@
   "stateNote": "In the meantime, boil the stockfish with salt and water, then add it to the cooked beef. From the meat and stockfish you should get roughly 3 cups. Freeze or reserve the remainder.",
   "issues": [
     {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.52"
+    },
+    {
       "field": "environment",
       "kind": "estimate",
-      "note": "no temperature given; used the middle of boil's typical range"
+      "note": "no temperature given; assumed 100.0 °C for boiling_water"
     },
     {
       "field": "end",

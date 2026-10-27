@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "chocolate",
+        "ingredient": "chocolate_chop",
         "amount": {
           "qty": 50,
           "unit": "g"
@@ -19,7 +19,7 @@
   },
   "outputs": [
     {
-      "ingredient": "chocolate_steam",
+      "ingredient": "chocolate_chop_steam",
       "amount": {
         "qty": 50,
         "unit": "g"
@@ -39,6 +39,11 @@
   },
   "stateNote": "Fill the saucepan with about 2-3 in of water, and place it on high heat. Set a heatproof bowl on top of the saucepan to create an improvised double boiler. Then drop bits of the chocolate bar into the bowl. The steam from the water will melt the chocolate.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.39"
+    },
     {
       "field": "environment",
       "kind": "estimate",

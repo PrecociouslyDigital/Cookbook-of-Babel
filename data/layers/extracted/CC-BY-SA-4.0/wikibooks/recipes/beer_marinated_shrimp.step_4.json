@@ -5,7 +5,7 @@
     "source": "wikibooks_beer_marinated_shrimp",
     "step": 4
   },
-  "technique": "strain",
+  "technique": "separate",
   "inputs": {
     "of": [
       {
@@ -33,16 +33,17 @@
       "unit": "min"
     },
     "sensitivity": {
-      "refTempC": 20,
-      "q10": 1
+      "refTempC": 4,
+      "q10": 1,
+      "maxTempC": 8
     }
   },
   "stateNote": "Remove shrimp from marinade, and discard marinade.",
   "issues": [
     {
-      "field": "technique",
+      "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.53"
+      "note": "the decision model gave this answer a probability of 0.45"
     },
     {
       "field": "end",

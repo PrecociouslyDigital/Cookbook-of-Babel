@@ -1,0 +1,49 @@
+{
+  "id": "fish_stock_fumet_de_poisson.step_4.prep_5",
+  "source": "wikibooks_fish_stock_fumet_de_poisson",
+  "technique": "rinse",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "leek",
+        "amount": {
+          "qty": 0.3333333333333333,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "leek_rinse",
+      "amount": {
+        "qty": 0.3333333333333333,
+        "unit": "cup"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "⅓ cup leeks or green onions including green part, sliced and thoroughly washed",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

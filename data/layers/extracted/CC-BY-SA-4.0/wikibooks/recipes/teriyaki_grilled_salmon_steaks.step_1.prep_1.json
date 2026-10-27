@@ -1,0 +1,49 @@
+{
+  "id": "teriyaki_grilled_salmon_steaks.step_1.prep_1",
+  "source": "wikibooks_teriyaki_grilled_salmon_steaks",
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "salmon",
+        "amount": {
+          "qty": 15,
+          "unit": "oz"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "salmon_season",
+      "amount": {
+        "qty": 15,
+        "unit": "oz"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "5 ea. (15 ounces / 425 g) salmon steaks",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

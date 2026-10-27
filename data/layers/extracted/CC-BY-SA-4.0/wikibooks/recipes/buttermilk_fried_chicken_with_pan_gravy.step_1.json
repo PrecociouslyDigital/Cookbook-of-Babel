@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "chicken",
+        "ingredient": "chicken_cut",
         "amount": {
           "qty": 1,
           "unit": "piece"
@@ -19,7 +19,7 @@
   },
   "outputs": [
     {
-      "ingredient": "chicken_cut",
+      "ingredient": "chicken_cut_cut",
       "amount": {
         "qty": 1,
         "unit": "batch"
@@ -39,6 +39,11 @@
   },
   "stateNote": "Cut the chicken into 8–10 pieces.",
   "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.56"
+    },
     {
       "field": "end",
       "kind": "estimate",

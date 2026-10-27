@@ -9,14 +9,14 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "onion",
+        "ingredient": "onion_pan_fry",
         "amount": {
           "qty": 0.5,
           "unit": "piece"
         }
       },
       {
-        "ingredient": "butter",
+        "ingredient": "butter_heat",
         "amount": {
           "qty": 2,
           "unit": "tbsp"
@@ -53,6 +53,11 @@
   },
   "stateNote": "In a large straight-sided stainless steel sauté pan set over medium-high heat, melt butter with olive oil. Add onion and cook until onion is translucent.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.59"
+    },
     {
       "field": "environment",
       "kind": "estimate",

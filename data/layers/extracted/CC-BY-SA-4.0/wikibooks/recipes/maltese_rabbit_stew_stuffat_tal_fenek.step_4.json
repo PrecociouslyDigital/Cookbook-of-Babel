@@ -5,7 +5,7 @@
     "source": "wikibooks_maltese_rabbit_stew_stuffat_tal_fenek",
     "step": 4
   },
-  "technique": "fry",
+  "technique": "separate",
   "inputs": {
     "of": [
       {
@@ -27,7 +27,7 @@
     }
   ],
   "environment": {
-    "temperatureC": 190,
+    "temperatureC": 175,
     "medium": "frying_oil"
   },
   "end": {
@@ -40,9 +40,14 @@
   "stateNote": "Fry the internal organs whole in the same oil until well-cooked. Take some of the smaller pieces of meat without bone and add them to the organs. Keep these apart from the main meat.",
   "issues": [
     {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.44"
+    },
+    {
       "field": "environment",
       "kind": "estimate",
-      "note": "no temperature given; used the middle of fry's typical range"
+      "note": "no temperature given; assumed 175.0 °C for frying_oil"
     },
     {
       "field": "end",

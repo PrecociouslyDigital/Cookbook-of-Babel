@@ -1,0 +1,49 @@
+{
+  "id": "vegetable_stuffed_mushrooms.step_4.prep_10",
+  "source": "wikibooks_vegetable_stuffed_mushrooms",
+  "technique": "chop",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "artichoke",
+        "amount": {
+          "qty": 6,
+          "unit": "oz"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "artichoke_chop",
+      "amount": {
+        "qty": 6,
+        "unit": "oz"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "1 jar (6 ounces) artichoke hearts in brine, drained and chopped",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -5,7 +5,7 @@
     "source": "wikibooks_green_eggs_and_ham",
     "step": 5
   },
-  "technique": "coat",
+  "technique": "assemble",
   "inputs": {
     "of": [
       {
@@ -26,15 +26,15 @@
       }
     }
   ],
-  "environment": {
-    "temperatureC": 90,
-    "medium": "simmering_water"
-  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
     }
   },
   "stateNote": "If the hock is the desired shade of green, place on an platter. If not, return to pot and add color until the right shade is reached. Transfer hock to platter.",
@@ -42,12 +42,12 @@
     {
       "field": "technique",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.33"
+      "note": "the decision model gave this answer a probability of 0.49"
     },
     {
       "field": "environment",
-      "kind": "estimate",
-      "note": "no temperature given; assumed 90.0 °C for simmering_water"
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.43"
     },
     {
       "field": "end",

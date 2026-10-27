@@ -1,0 +1,49 @@
+{
+  "id": "banga_soup.step_2.prep_3",
+  "source": "wikibooks_banga_soup",
+  "technique": "rinse",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "dryfish",
+        "amount": {
+          "qty": 1.5,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "dryfish_rinse",
+      "amount": {
+        "qty": 1.5,
+        "unit": "piece"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "1–2 pieces dried fish (washed and deboned)",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

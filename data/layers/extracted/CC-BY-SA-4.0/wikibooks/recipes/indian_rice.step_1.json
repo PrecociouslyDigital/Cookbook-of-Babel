@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "olive_oil",
+        "ingredient": "olive_oil_heat",
         "amount": {
           "qty": 2,
           "unit": "tsp"
@@ -19,7 +19,7 @@
   },
   "outputs": [
     {
-      "ingredient": "olive_oil_heat",
+      "ingredient": "olive_oil_heat_heat",
       "amount": {
         "qty": 9.9,
         "unit": "g"
@@ -40,9 +40,14 @@
   "stateNote": "Heat the olive oil in a pot.",
   "issues": [
     {
+      "field": "sourceRef",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.54"
+    },
+    {
       "field": "outputs",
       "kind": "estimate",
-      "note": "assumed 1 g/ml for olive_oil"
+      "note": "assumed 1 g/ml for olive_oil_heat"
     },
     {
       "field": "environment",

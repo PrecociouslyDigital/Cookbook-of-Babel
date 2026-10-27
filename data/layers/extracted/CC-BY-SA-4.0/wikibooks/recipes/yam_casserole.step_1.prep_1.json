@@ -1,0 +1,49 @@
+{
+  "id": "yam_casserole.step_1.prep_1",
+  "source": "wikibooks_yam_casserole",
+  "technique": "blend",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "yam",
+        "amount": {
+          "qty": 2,
+          "unit": "lb"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "yam_blend",
+      "amount": {
+        "qty": 2,
+        "unit": "lb"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "2 cans (2 lb + 8 oz / 900 g) yams or sweet potatoes, drained (or 4 lb / 1.8 kg cooked, peeled, and sliced yams)",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

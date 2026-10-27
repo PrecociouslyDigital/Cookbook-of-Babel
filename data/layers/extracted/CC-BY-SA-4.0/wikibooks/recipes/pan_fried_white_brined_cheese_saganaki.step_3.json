@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "cheese_cut",
+        "ingredient": "cheese_cut_cut",
         "amount": {
           "qty": 1,
           "unit": "batch"
@@ -39,23 +39,33 @@
       }
     }
   ],
+  "environment": {
+    "temperatureC": 180,
+    "medium": "pan_contact"
+  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
-    },
-    "sensitivity": {
-      "refTempC": 20,
-      "q10": 1
     }
   },
   "stateNote": "Optionally, dredge the slices in flour—this will create a darker and slightly crispier crust, but is an optional step as the cheese will acquire a very slight crust on its own by virtue of the oil and high heat. It will also reduce the spitting somewhat.",
   "issues": [
     {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.45"
+    },
+    {
       "field": "inputs",
       "kind": "estimate",
       "note": "'A small amount of flour (optional)': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 180.0 °C for pan_contact"
     },
     {
       "field": "end",

@@ -16,14 +16,14 @@
         }
       },
       {
-        "ingredient": "olive_oil",
+        "ingredient": "olive_oil_heat",
         "amount": {
           "qty": 1,
           "unit": "cup"
         }
       },
       {
-        "ingredient": "onion",
+        "ingredient": "onion_heat",
         "amount": {
           "qty": 1,
           "unit": "cup"
@@ -54,9 +54,19 @@
   "stateNote": "Cook the onion in olive oil over low heat until translucent.",
   "issues": [
     {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.52"
+    },
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.56"
+    },
+    {
       "field": "outputs",
       "kind": "estimate",
-      "note": "assumed 1 g/ml for olive_oil, onion"
+      "note": "assumed 1 g/ml for olive_oil_heat, onion_heat"
     },
     {
       "field": "environment",

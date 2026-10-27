@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "rice_wafer",
+        "ingredient": "rice_wafer_soak",
         "amount": {
           "qty": 4,
           "unit": "piece"
@@ -46,6 +46,11 @@
   },
   "stateNote": "Dip a rice wafer into the warm water and remove immediately when it is completely wet—it only needs to be in the water for a few seconds.",
   "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.47"
+    },
     {
       "field": "inputs",
       "kind": "estimate",

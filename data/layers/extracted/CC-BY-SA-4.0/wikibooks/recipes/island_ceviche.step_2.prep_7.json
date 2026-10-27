@@ -1,0 +1,54 @@
+{
+  "id": "island_ceviche.step_2.prep_7",
+  "source": "wikibooks_island_ceviche",
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "mahi_mahi",
+        "amount": {
+          "qty": 7,
+          "unit": "oz"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "mahi_mahi_cut",
+      "amount": {
+        "qty": 7,
+        "unit": "oz"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "1 ea. (7 ounces) mahi-mahi fillet, thinly sliced",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.52"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

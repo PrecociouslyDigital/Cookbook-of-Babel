@@ -1,0 +1,49 @@
+{
+  "id": "snezhanka_bulgarian_cucumber_and_yogurt_salad.step_1.prep_2",
+  "source": "wikibooks_snezhanka_bulgarian_cucumber_and_yogurt_salad",
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "pickle",
+        "amount": {
+          "qty": 0.5,
+          "unit": "kg"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "pickle_cut",
+      "amount": {
+        "qty": 0.5,
+        "unit": "kg"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "½ kg pickles or cucumbers or mixed",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

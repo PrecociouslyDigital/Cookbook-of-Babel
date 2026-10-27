@@ -5,11 +5,11 @@
     "source": "wikibooks_boiled_lobster",
     "step": 5
   },
-  "technique": "cut",
+  "technique": "separate",
   "inputs": {
     "of": [
       {
-        "ingredient": "lobster_cut_boil_cool",
+        "ingredient": "lobster_cut_cut_boil_cool",
         "amount": {
           "qty": 1,
           "unit": "batch"
@@ -19,7 +19,7 @@
   },
   "outputs": [
     {
-      "ingredient": "lobster_cut_boil_cool_cut",
+      "ingredient": "boiled_lobster",
       "amount": {
         "qty": 1,
         "unit": "batch"
@@ -39,11 +39,6 @@
   },
   "stateNote": "Carefully slice the tail open along the midsection and remove the cooked tail meat.",
   "issues": [
-    {
-      "field": "technique",
-      "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.57"
-    },
     {
       "field": "end",
       "kind": "estimate",

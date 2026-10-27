@@ -1,0 +1,49 @@
+{
+  "id": "banoffee_pie.step_1.prep_1",
+  "source": "wikibooks_banoffee_pie",
+  "technique": "grind",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "digestive_biscuit",
+        "amount": {
+          "qty": 9,
+          "unit": "oz"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "digestive_biscuit_grind",
+      "amount": {
+        "qty": 9,
+        "unit": "oz"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "9 oz (250 g / 16 ea.) gingernut (or digestive) biscuits",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

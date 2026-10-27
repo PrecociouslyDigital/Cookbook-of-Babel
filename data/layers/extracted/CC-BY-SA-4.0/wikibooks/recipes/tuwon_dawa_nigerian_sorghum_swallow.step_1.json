@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "sorghum",
+        "ingredient": "sorghum_rinse",
         "amount": {
           "qty": 2,
           "unit": "cup"
@@ -19,7 +19,7 @@
   },
   "outputs": [
     {
-      "ingredient": "sorghum_grind",
+      "ingredient": "sorghum_rinse_grind",
       "amount": {
         "qty": 473.2,
         "unit": "g"
@@ -40,9 +40,14 @@
   "stateNote": "If using whole sorghum, wash the grains thoroughly and spread them out to dry completely, covering them to keep out dust and debris. Grind or pound the dried grains into a fine powder. Sieve to remove any chaff.",
   "issues": [
     {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.52"
+    },
+    {
       "field": "outputs",
       "kind": "estimate",
-      "note": "assumed 1 g/ml for sorghum"
+      "note": "assumed 1 g/ml for sorghum_rinse"
     },
     {
       "field": "end",

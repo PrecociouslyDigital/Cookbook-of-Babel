@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "water",
+        "ingredient": "water_boil",
         "amount": {
           "qty": 1,
           "unit": "pinch"
@@ -19,7 +19,7 @@
   },
   "outputs": [
     {
-      "ingredient": "water_boil",
+      "ingredient": "water_boil_boil",
       "amount": {
         "qty": 0.3,
         "unit": "g"
@@ -40,9 +40,19 @@
   "stateNote": "Put water in a pot, and bring it to a boil.",
   "issues": [
     {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.52"
+    },
+    {
       "field": "inputs",
       "kind": "estimate",
       "note": "'Water': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for water_boil"
     },
     {
       "field": "environment",

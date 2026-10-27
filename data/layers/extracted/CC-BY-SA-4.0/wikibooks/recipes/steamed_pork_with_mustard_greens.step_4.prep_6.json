@@ -1,0 +1,49 @@
+{
+  "id": "steamed_pork_with_mustard_greens.step_4.prep_6",
+  "source": "wikibooks_steamed_pork_with_mustard_greens",
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "pork",
+        "amount": {
+          "qty": 0.75,
+          "unit": "lb"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "pork_cut",
+      "amount": {
+        "qty": 0.75,
+        "unit": "lb"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "¾ pound pork tenderloin",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -16,7 +16,7 @@
         }
       },
       {
-        "ingredient": "udon",
+        "ingredient": "udon_boil",
         "amount": {
           "qty": 1,
           "unit": "package"
@@ -46,6 +46,11 @@
   },
   "stateNote": "Cook the udon noodles in salted water until al dente. Drain them, rinse with cold water, and set aside.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.55"
+    },
     {
       "field": "environment",
       "kind": "estimate",

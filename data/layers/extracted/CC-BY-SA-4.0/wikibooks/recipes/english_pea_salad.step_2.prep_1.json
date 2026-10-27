@@ -1,0 +1,54 @@
+{
+  "id": "english_pea_salad.step_2.prep_1",
+  "source": "wikibooks_english_pea_salad",
+  "technique": "rinse",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "can_english_peas",
+        "amount": {
+          "qty": 15,
+          "unit": "oz"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "can_english_peas_rinse",
+      "amount": {
+        "qty": 15,
+        "unit": "oz"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "15 oz (425 g / 445 ml) can English peas",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.44"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

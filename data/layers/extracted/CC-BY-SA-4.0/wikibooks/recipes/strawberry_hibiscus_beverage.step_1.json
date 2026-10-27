@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "water",
+        "ingredient": "water_boil",
         "amount": {
           "qty": 12,
           "unit": "cup"
@@ -19,7 +19,7 @@
   },
   "outputs": [
     {
-      "ingredient": "water_boil",
+      "ingredient": "water_boil_boil",
       "amount": {
         "qty": 2839.2,
         "unit": "g"
@@ -39,6 +39,11 @@
   },
   "stateNote": "In a medium saucepan over medium heat, bring 6 cups of water to a boil.",
   "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for water_boil"
+    },
     {
       "field": "environment",
       "kind": "estimate",

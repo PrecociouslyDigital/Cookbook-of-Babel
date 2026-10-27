@@ -1,0 +1,54 @@
+{
+  "id": "potato_courgette_and_cavelo_nero_pancakes.step_5.prep_5",
+  "source": "wikibooks_potato_courgette_and_cavelo_nero_pancakes",
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "green_onion",
+        "amount": {
+          "qty": 8,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "green_onion_cut",
+      "amount": {
+        "qty": 8,
+        "unit": "piece"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "8 spring onions, finely sliced",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.44"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

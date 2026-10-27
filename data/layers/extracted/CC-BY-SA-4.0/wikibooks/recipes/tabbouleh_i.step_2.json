@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "bulgur_soak",
+        "ingredient": "bulgur_soak_soak",
         "amount": {
           "qty": 236.6,
           "unit": "g"
@@ -61,17 +61,13 @@
       "unit": "min"
     },
     "sensitivity": {
-      "refTempC": 20,
-      "q10": 1
+      "refTempC": 4,
+      "q10": 1,
+      "maxTempC": 8
     }
   },
   "stateNote": "Stir in lemon juice, oil, salt, and pepper to wheat. Refrigerate while the rest of the vegetables are being chopped.",
   "issues": [
-    {
-      "field": "technique",
-      "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.58"
-    },
     {
       "field": "inputs",
       "kind": "estimate",

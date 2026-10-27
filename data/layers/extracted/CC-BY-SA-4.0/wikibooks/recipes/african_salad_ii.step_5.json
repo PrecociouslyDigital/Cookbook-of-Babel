@@ -16,7 +16,7 @@
         }
       },
       {
-        "ingredient": "dehydrated_broth",
+        "ingredient": "dehydrated_broth_grind",
         "amount": {
           "qty": 2,
           "unit": "piece"
@@ -40,15 +40,15 @@
       }
     }
   ],
-  "environment": {
-    "temperatureC": 180,
-    "medium": "pan_contact"
-  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
     }
   },
   "stateNote": "Stir in the crushed stock cubes, diced onions, and ugba. Take off the heat.",
@@ -56,12 +56,7 @@
     {
       "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.57"
-    },
-    {
-      "field": "environment",
-      "kind": "estimate",
-      "note": "no temperature given; assumed 180.0 °C for pan_contact"
+      "note": "the decision model gave this answer a probability of 0.46"
     },
     {
       "field": "end",

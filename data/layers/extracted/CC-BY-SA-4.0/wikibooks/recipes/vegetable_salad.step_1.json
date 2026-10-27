@@ -9,28 +9,28 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "bean_sprout",
+        "ingredient": "bean_sprout_rinse",
         "amount": {
           "qty": 300,
           "unit": "g"
         }
       },
       {
-        "ingredient": "lettuce",
+        "ingredient": "lettuce_cut",
         "amount": {
           "qty": 6,
           "unit": "sheet"
         }
       },
       {
-        "ingredient": "onion",
+        "ingredient": "onion_cut",
         "amount": {
           "qty": 1,
           "unit": "piece"
         }
       },
       {
-        "ingredient": "tomato",
+        "ingredient": "tomato_cut",
         "amount": {
           "qty": 3,
           "unit": "piece"
@@ -44,7 +44,7 @@
         }
       },
       {
-        "ingredient": "cucumber",
+        "ingredient": "cucumber_cut",
         "amount": {
           "qty": 6,
           "unit": "piece"
@@ -61,28 +61,16 @@
       }
     }
   ],
-  "environment": {
-    "temperatureC": 100,
-    "medium": "boiling_water"
-  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 5,
       "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
     }
   },
-  "stateNote": "Mix all the vegetables ingredients on a bowl, and allow to rest for until 5 minutes.",
-  "issues": [
-    {
-      "field": "environment",
-      "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.54"
-    },
-    {
-      "field": "environment",
-      "kind": "estimate",
-      "note": "no temperature given; assumed 100.0 °C for boiling_water"
-    }
-  ]
+  "stateNote": "Mix all the vegetables ingredients on a bowl, and allow to rest for until 5 minutes."
 }

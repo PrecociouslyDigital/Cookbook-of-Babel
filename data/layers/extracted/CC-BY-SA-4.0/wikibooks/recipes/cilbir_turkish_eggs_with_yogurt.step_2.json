@@ -5,7 +5,7 @@
     "source": "wikibooks_cilbir_turkish_eggs_with_yogurt",
     "step": 2
   },
-  "technique": "boil",
+  "technique": "coagulate",
   "inputs": {
     "of": [
       {
@@ -30,7 +30,7 @@
         }
       },
       {
-        "ingredient": "water",
+        "ingredient": "water_boil",
         "amount": {
           "qty": 1,
           "unit": "l"
@@ -61,14 +61,9 @@
   "stateNote": "Add the vinegar and some salt to boiling water, and poach the eggs.",
   "issues": [
     {
-      "field": "technique",
-      "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.48"
-    },
-    {
       "field": "environment",
       "kind": "estimate",
-      "note": "no temperature given; used the middle of boil's typical range"
+      "note": "no temperature given; assumed 100.0 °C for boiling_water"
     },
     {
       "field": "end",

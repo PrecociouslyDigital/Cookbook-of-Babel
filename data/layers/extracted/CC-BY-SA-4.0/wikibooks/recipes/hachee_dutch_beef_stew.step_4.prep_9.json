@@ -1,0 +1,49 @@
+{
+  "id": "hachee_dutch_beef_stew.step_4.prep_9",
+  "source": "wikibooks_hachee_dutch_beef_stew",
+  "technique": "dissolve",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "dehydrated_broth",
+        "amount": {
+          "qty": 1,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "dehydrated_broth_dissolve",
+      "amount": {
+        "qty": 1,
+        "unit": "piece"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "1 cube of beef bouillon or 1 ½ tsp powdered stock, combined with 1 cup water",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

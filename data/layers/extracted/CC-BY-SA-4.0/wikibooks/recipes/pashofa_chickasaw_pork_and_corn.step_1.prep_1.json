@@ -1,0 +1,49 @@
+{
+  "id": "pashofa_chickasaw_pork_and_corn.step_1.prep_1",
+  "source": "wikibooks_pashofa_chickasaw_pork_and_corn",
+  "technique": "rinse",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "corn",
+        "amount": {
+          "qty": 900,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "corn_rinse",
+      "amount": {
+        "qty": 900,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "900 g (2 lb) of dried Pashofa (hominy) corn",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

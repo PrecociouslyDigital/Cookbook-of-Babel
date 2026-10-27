@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "celery",
+        "ingredient": "celery_cut",
         "amount": {
           "qty": 1,
           "unit": "pinch"
@@ -19,7 +19,7 @@
   },
   "outputs": [
     {
-      "ingredient": "celery_cut",
+      "ingredient": "celery_cut_cut",
       "amount": {
         "qty": 0.3,
         "unit": "g"
@@ -40,6 +40,11 @@
   "stateNote": "Cut the celery up into pieces, maybe 4 or 5 inches (about 10-13 cm). This is the \"log\".",
   "issues": [
     {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.5"
+    },
+    {
       "field": "inputs",
       "kind": "estimate",
       "note": "'Celery stalks (enough to have 1 or 2 for each person)': no quantity given; assumed a pinch"
@@ -47,7 +52,7 @@
     {
       "field": "outputs",
       "kind": "estimate",
-      "note": "assumed 1 g/ml for celery"
+      "note": "assumed 1 g/ml for celery_cut"
     },
     {
       "field": "end",

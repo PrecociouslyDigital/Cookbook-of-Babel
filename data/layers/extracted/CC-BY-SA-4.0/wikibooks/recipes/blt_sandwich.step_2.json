@@ -9,14 +9,14 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "bread_toast",
+        "ingredient": "bread_toast_toast",
         "amount": {
           "qty": 1,
           "unit": "batch"
         }
       },
       {
-        "ingredient": "bacon",
+        "ingredient": "bacon_fry",
         "amount": {
           "qty": 1,
           "unit": "pinch"
@@ -35,7 +35,7 @@
   ],
   "environment": {
     "temperatureC": 190,
-    "medium": "pan_contact"
+    "medium": "oven_air"
   },
   "end": {
     "by": "time",
@@ -47,9 +47,14 @@
   "stateNote": "While the bread is toasting, broil or fry the bacon until crisp, taking care not to burn it.",
   "issues": [
     {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.51"
+    },
+    {
       "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.44"
+      "note": "the decision model gave this answer a probability of 0.41"
     },
     {
       "field": "inputs",

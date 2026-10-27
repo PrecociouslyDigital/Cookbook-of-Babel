@@ -1,0 +1,49 @@
+{
+  "id": "hartshorne_catsup_for_sea_stores.step_1.prep_2",
+  "source": "wikibooks_hartshorne_catsup_for_sea_stores",
+  "technique": "rinse",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "anchovy",
+        "amount": {
+          "qty": 1,
+          "unit": "lb"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "anchovy_rinse",
+      "amount": {
+        "qty": 1,
+        "unit": "lb"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "1 pound pickled anchovies, rinsed",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

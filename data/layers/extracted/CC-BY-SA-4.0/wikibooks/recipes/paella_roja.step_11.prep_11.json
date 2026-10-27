@@ -1,0 +1,49 @@
+{
+  "id": "paella_roja.step_11.prep_11",
+  "source": "wikibooks_paella_roja",
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "chicken_breast",
+        "amount": {
+          "qty": 340,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "chicken_breast_season",
+      "amount": {
+        "qty": 340,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "340 grams (12 ounces) boneless chicken breast or tenderloins",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

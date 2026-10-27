@@ -5,7 +5,7 @@
     "source": "wikibooks_chocolate_chip_pancakes_i",
     "step": 8
   },
-  "technique": "heat",
+  "technique": "coat",
   "inputs": {
     "of": [
       {
@@ -16,7 +16,7 @@
         }
       },
       {
-        "ingredient": "butter",
+        "ingredient": "butter_heat",
         "amount": {
           "qty": 1,
           "unit": "pinch"
@@ -47,6 +47,11 @@
   "stateNote": "Add about 1 teaspoon of butter and melt until bubbly.",
   "issues": [
     {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.59"
+    },
+    {
       "field": "inputs",
       "kind": "estimate",
       "note": "'Butter, for cooking': no quantity given; assumed a pinch"
@@ -54,7 +59,7 @@
     {
       "field": "outputs",
       "kind": "estimate",
-      "note": "assumed 1 g/ml for butter"
+      "note": "assumed 1 g/ml for butter_heat"
     },
     {
       "field": "environment",

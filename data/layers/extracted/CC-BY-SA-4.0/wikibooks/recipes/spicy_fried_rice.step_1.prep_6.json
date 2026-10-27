@@ -1,0 +1,49 @@
+{
+  "id": "spicy_fried_rice.step_1.prep_6",
+  "source": "wikibooks_spicy_fried_rice",
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "chile",
+        "amount": {
+          "qty": 50,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "chile_cut",
+      "amount": {
+        "qty": 50,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "50 g red chile, cut into 1 cm pieces",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

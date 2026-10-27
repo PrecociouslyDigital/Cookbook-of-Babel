@@ -9,28 +9,28 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "egg_noodles_boil",
+        "ingredient": "egg_noodles_boil_boil",
         "amount": {
           "qty": 453.6,
           "unit": "g"
         }
       },
       {
-        "ingredient": "beef",
+        "ingredient": "beef_season",
         "amount": {
           "qty": 2,
           "unit": "package"
         }
       },
       {
-        "ingredient": "salt",
+        "ingredient": "salt_season",
         "amount": {
           "qty": 1,
           "unit": "pinch"
         }
       },
       {
-        "ingredient": "pepper",
+        "ingredient": "pepper_season",
         "amount": {
           "qty": 1,
           "unit": "pinch"
@@ -60,6 +60,11 @@
   },
   "stateNote": "While egg noodles cook, season the beef with salt and pepper and brown the meat in a skillet unless it is already cooked. Low and slow makes a tender product. If meat is already cooked, heat the meat in the microwave or in a skillet.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.51"
+    },
     {
       "field": "inputs",
       "kind": "estimate",

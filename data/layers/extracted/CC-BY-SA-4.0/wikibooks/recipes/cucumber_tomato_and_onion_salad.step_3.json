@@ -5,11 +5,11 @@
     "source": "wikibooks_cucumber_tomato_and_onion_salad",
     "step": 3
   },
-  "technique": "soak",
+  "technique": "mix",
   "inputs": {
     "of": [
       {
-        "ingredient": "cucumber_cut_cut",
+        "ingredient": "cucumber_cut_cut_cut",
         "amount": {
           "qty": 1,
           "unit": "batch"
@@ -53,6 +53,16 @@
   },
   "stateNote": "Add vinegar and water, adjusting the proportions to your taste. The end result is that the other ingredients will be floating in clear liquid.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.34"
+    },
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.44"
+    },
     {
       "field": "end",
       "kind": "estimate",

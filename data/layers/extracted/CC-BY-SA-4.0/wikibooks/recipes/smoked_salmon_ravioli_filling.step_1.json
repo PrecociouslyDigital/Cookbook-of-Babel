@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "salmon",
+        "ingredient": "salmon_chop",
         "amount": {
           "qty": 8,
           "unit": "oz"
@@ -67,6 +67,11 @@
   },
   "stateNote": "Mix the salmon, chives, lemon zest and seasonings in a bowl until salmon is well coated.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.52"
+    },
     {
       "field": "outputs",
       "kind": "estimate",

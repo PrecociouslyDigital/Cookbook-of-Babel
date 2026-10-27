@@ -1,0 +1,49 @@
+{
+  "id": "crab_dip.step_1.prep_1",
+  "source": "wikibooks_crab_dip",
+  "technique": "rinse",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "crab",
+        "amount": {
+          "qty": 7.5,
+          "unit": "oz"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "crab_rinse",
+      "amount": {
+        "qty": 7.5,
+        "unit": "oz"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "1 cup (7½ ounces / 200 g) crab meat",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "scotch_bonnet_pepper_poppers.step_2.prep_5",
+  "source": "wikibooks_scotch_bonnet_pepper_poppers",
+  "technique": "fry",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "sausage",
+        "amount": {
+          "qty": 0.25,
+          "unit": "lb"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "sausage_fry",
+      "amount": {
+        "qty": 0.25,
+        "unit": "lb"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "¼ pound Italian sausage",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

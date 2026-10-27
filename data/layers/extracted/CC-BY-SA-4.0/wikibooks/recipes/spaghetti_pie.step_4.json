@@ -9,9 +9,9 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "spaghetti_pie_step_3",
+        "ingredient": "spaghetti_cut_cut_boil",
         "amount": {
-          "qty": 144.6,
+          "qty": 115,
           "unit": "g"
         }
       }
@@ -21,20 +21,20 @@
     {
       "ingredient": "spaghetti_pie_step_4",
       "amount": {
-        "qty": 144.6,
+        "qty": 115,
         "unit": "g"
       }
     }
   ],
-  "environment": {
-    "temperatureC": 100,
-    "medium": "boiling_water"
-  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
     }
   },
   "stateNote": "Drain the pasta in a colander and put in a bowl.",
@@ -42,12 +42,7 @@
     {
       "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.46"
-    },
-    {
-      "field": "environment",
-      "kind": "estimate",
-      "note": "no temperature given; assumed 100.0 °C for boiling_water"
+      "note": "the decision model gave this answer a probability of 0.52"
     },
     {
       "field": "end",

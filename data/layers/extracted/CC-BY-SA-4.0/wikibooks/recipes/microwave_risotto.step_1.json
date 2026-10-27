@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "broth_and_stock",
+        "ingredient": "broth_and_stock_simmer",
         "amount": {
           "qty": 3,
           "unit": "cup"
@@ -42,7 +42,7 @@
   ],
   "environment": {
     "temperatureC": 90,
-    "medium": "simmering_water"
+    "medium": "pan_contact"
   },
   "end": {
     "by": "time",
@@ -54,9 +54,14 @@
   "stateNote": "In a saucepan, bring chicken broth, salt and pepper to a low simmer, and keep warm until needed.",
   "issues": [
     {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.52"
+    },
+    {
       "field": "outputs",
       "kind": "estimate",
-      "note": "assumed 1 g/ml for broth_and_stock, pepper"
+      "note": "assumed 1 g/ml for broth_and_stock_simmer, pepper"
     },
     {
       "field": "environment",

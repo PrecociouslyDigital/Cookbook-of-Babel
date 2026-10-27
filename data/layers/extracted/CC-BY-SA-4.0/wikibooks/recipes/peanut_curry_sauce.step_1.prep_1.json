@@ -1,0 +1,54 @@
+{
+  "id": "peanut_curry_sauce.step_1.prep_1",
+  "source": "wikibooks_peanut_curry_sauce",
+  "technique": "chop",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "peanut",
+        "amount": {
+          "qty": 0.75,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "peanut_chop",
+      "amount": {
+        "qty": 0.75,
+        "unit": "cup"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "¾ cup (about 170 ml) roasted peanuts (unsalted)",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.52"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -16,7 +16,7 @@
         }
       },
       {
-        "ingredient": "coconut",
+        "ingredient": "coconut_fry",
         "amount": {
           "qty": 3,
           "unit": "tbsp"
@@ -35,7 +35,7 @@
   ],
   "environment": {
     "temperatureC": 190,
-    "medium": "frying_oil"
+    "medium": "pan_contact"
   },
   "end": {
     "by": "time",
@@ -46,6 +46,11 @@
   },
   "stateNote": "In the same pan, fry the coconut, stirring constantly. When it turns a golden-brown, remove and place on the paper towel.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.5"
+    },
     {
       "field": "environment",
       "kind": "estimate",

@@ -1,0 +1,49 @@
+{
+  "id": "agbugbu_nigerian_pigeon_pea_and_yam_porridge.step_4.prep_2",
+  "source": "wikibooks_agbugbu_nigerian_pigeon_pea_and_yam_porridge",
+  "technique": "boil",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "yam",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "yam_boil",
+      "amount": {
+        "qty": 1,
+        "unit": "pinch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Yam, cut into small pieces and rinsed",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

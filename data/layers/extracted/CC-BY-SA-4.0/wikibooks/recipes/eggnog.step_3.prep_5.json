@@ -1,0 +1,54 @@
+{
+  "id": "eggnog.step_3.prep_5",
+  "source": "wikibooks_eggnog",
+  "technique": "chill",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "brandy",
+        "amount": {
+          "qty": 180,
+          "unit": "ml"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "brandy_chill",
+      "amount": {
+        "qty": 180,
+        "unit": "ml"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "180 ml (¾ cup) brandy, cold",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.58"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

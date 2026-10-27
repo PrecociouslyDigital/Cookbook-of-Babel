@@ -26,16 +26,23 @@
       }
     }
   ],
-  "environment": {
-    "temperatureC": 180,
-    "medium": "oven_air"
-  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 25,
       "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
     }
   },
-  "stateNote": "Take the brownie out of the oven after the 25 minutes of baking."
+  "stateNote": "Take the brownie out of the oven after the 25 minutes of baking.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.56"
+    }
+  ]
 }

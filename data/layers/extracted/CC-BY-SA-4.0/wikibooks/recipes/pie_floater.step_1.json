@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "meat_pie",
+        "ingredient": "meat_pie_heat",
         "amount": {
           "qty": 1,
           "unit": "piece"
@@ -19,7 +19,7 @@
   },
   "outputs": [
     {
-      "ingredient": "meat_pie_bake",
+      "ingredient": "meat_pie_heat_bake",
       "amount": {
         "qty": 1,
         "unit": "batch"
@@ -39,6 +39,11 @@
   },
   "stateNote": "Heat the pie in an oven. A microwave will not work as well, as the pie pastry will not be crisp.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.56"
+    },
     {
       "field": "environment",
       "kind": "estimate",

@@ -1,0 +1,54 @@
+{
+  "id": "manhattan_clam_chowder_ii.step_10.prep_12",
+  "source": "wikibooks_manhattan_clam_chowder_ii",
+  "technique": "grind",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "hard_tack",
+        "amount": {
+          "qty": 9,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "hard_tack_grind",
+      "amount": {
+        "qty": 9,
+        "unit": "piece"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "8–10 soda crackers",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.33"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

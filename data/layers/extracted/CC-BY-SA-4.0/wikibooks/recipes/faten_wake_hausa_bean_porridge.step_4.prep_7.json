@@ -1,0 +1,49 @@
+{
+  "id": "faten_wake_hausa_bean_porridge.step_4.prep_7",
+  "source": "wikibooks_faten_wake_hausa_bean_porridge",
+  "technique": "chop",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "spinach",
+        "amount": {
+          "qty": 1,
+          "unit": "bunch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "spinach_chop",
+      "amount": {
+        "qty": 1,
+        "unit": "bunch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "1 small bunch of leafy greens, such as spinach, sorrel, ugu, amaranth, or bitterleaf, chopped (optional)",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

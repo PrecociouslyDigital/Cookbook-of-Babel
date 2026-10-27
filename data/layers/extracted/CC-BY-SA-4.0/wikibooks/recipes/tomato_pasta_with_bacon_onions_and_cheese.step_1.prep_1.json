@@ -1,0 +1,49 @@
+{
+  "id": "tomato_pasta_with_bacon_onions_and_cheese.step_1.prep_1",
+  "source": "wikibooks_tomato_pasta_with_bacon_onions_and_cheese",
+  "technique": "boil",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "salt",
+        "amount": {
+          "qty": 3.5,
+          "unit": "qt"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "salt_boil",
+      "amount": {
+        "qty": 3.5,
+        "unit": "qt"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "3–4 quarts boiling salted water",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

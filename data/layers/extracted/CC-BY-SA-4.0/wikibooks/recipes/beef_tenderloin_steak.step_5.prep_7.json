@@ -1,0 +1,49 @@
+{
+  "id": "beef_tenderloin_steak.step_5.prep_7",
+  "source": "wikibooks_beef_tenderloin_steak",
+  "technique": "evaporate",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "wine",
+        "amount": {
+          "qty": 0.6666666666666666,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "wine_evaporate",
+      "amount": {
+        "qty": 0.6666666666666666,
+        "unit": "cup"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "⅔ cup dry red wine",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

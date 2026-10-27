@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "rice",
+        "ingredient": "rice_rinse",
         "amount": {
           "qty": 220,
           "unit": "g"
@@ -46,6 +46,11 @@
   },
   "stateNote": "Put the rice in a pan and add the bouillon or water. Bring to a boil.",
   "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.53"
+    },
     {
       "field": "outputs",
       "kind": "estimate",

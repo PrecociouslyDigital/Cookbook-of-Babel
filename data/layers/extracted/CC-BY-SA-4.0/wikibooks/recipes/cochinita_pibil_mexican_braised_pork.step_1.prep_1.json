@@ -1,0 +1,49 @@
+{
+  "id": "cochinita_pibil_mexican_braised_pork.step_1.prep_1",
+  "source": "wikibooks_cochinita_pibil_mexican_braised_pork",
+  "technique": "grind",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "annatto",
+        "amount": {
+          "qty": 5,
+          "unit": "tbsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "annatto_grind",
+      "amount": {
+        "qty": 5,
+        "unit": "tbsp"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "5 Tbsp (75 ml) annatto seeds",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

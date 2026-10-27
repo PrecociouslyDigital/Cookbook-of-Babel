@@ -1,0 +1,49 @@
+{
+  "id": "ossobuco_alla_milanese.step_3.prep_3",
+  "source": "wikibooks_ossobuco_alla_milanese",
+  "technique": "chop",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "celery",
+        "amount": {
+          "qty": 3,
+          "unit": "stalk"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "celery_chop",
+      "amount": {
+        "qty": 3,
+        "unit": "stalk"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "3 ribs celery with leaves, chopped fine",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

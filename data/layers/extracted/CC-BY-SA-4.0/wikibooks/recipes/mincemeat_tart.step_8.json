@@ -27,7 +27,7 @@
         "max": 1,
         "of": [
           {
-            "ingredient": "egg",
+            "ingredient": "egg_whisk",
             "amount": {
               "qty": 1,
               "unit": "pinch"
@@ -60,6 +60,11 @@
   "stateNote": "Lightly brush the pastry lids with milk, or a mixture of milk and beaten egg.",
   "issues": [
     {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.57"
+    },
+    {
       "field": "inputs",
       "kind": "estimate",
       "note": "'Milk': no quantity given; assumed a pinch"
@@ -72,7 +77,7 @@
     {
       "field": "outputs",
       "kind": "estimate",
-      "note": "assumed 1 g/ml for egg"
+      "note": "assumed 1 g/ml for egg_whisk"
     },
     {
       "field": "end",

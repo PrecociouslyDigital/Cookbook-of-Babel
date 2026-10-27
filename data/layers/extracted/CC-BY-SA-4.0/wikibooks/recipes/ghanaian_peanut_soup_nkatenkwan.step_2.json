@@ -36,7 +36,7 @@
         }
       },
       {
-        "ingredient": "tomato",
+        "ingredient": "tomato_cut",
         "amount": {
           "qty": 3,
           "unit": "piece"
@@ -53,15 +53,15 @@
       }
     }
   ],
+  "environment": {
+    "temperatureC": 90,
+    "medium": "simmering_water"
+  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
-    },
-    "sensitivity": {
-      "refTempC": 20,
-      "q10": 1
     }
   },
   "stateNote": "Add the whole tomatoes to the pot, making sure to remove the tough cores. You can either grate the garlic and ginger or add them whole, as they will be processed later.",
@@ -69,12 +69,17 @@
     {
       "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.48"
+      "note": "the decision model gave this answer a probability of 0.44"
     },
     {
       "field": "inputs",
       "kind": "estimate",
       "note": "'1-inch piece fresh ginger': '-inch' read as pieces"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 90.0 °C for simmering_water"
     },
     {
       "field": "end",

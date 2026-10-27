@@ -1,0 +1,49 @@
+{
+  "id": "kheer_rice_pudding.step_1.prep_1",
+  "source": "wikibooks_kheer_rice_pudding",
+  "technique": "boil",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "milk",
+        "amount": {
+          "qty": 1,
+          "unit": "l"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "milk_boil",
+      "amount": {
+        "qty": 1,
+        "unit": "l"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "1 L (4 cups) milk",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -5,7 +5,7 @@
     "source": "wikibooks_egg_roll",
     "step": 28
   },
-  "technique": "fry",
+  "technique": "cool",
   "inputs": {
     "of": [
       {
@@ -27,7 +27,7 @@
     }
   ],
   "environment": {
-    "temperatureC": 190,
+    "temperatureC": 175,
     "medium": "frying_oil"
   },
   "end": {
@@ -42,12 +42,17 @@
     {
       "field": "technique",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.41"
+      "note": "the decision model gave this answer a probability of 0.39"
+    },
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.46"
     },
     {
       "field": "environment",
       "kind": "estimate",
-      "note": "no temperature given; used the middle of fry's typical range"
+      "note": "no temperature given; assumed 175.0 °C for frying_oil"
     },
     {
       "field": "end",

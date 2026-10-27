@@ -1,0 +1,49 @@
+{
+  "id": "homestyle_fried_potatoes.step_2.prep_4",
+  "source": "wikibooks_homestyle_fried_potatoes",
+  "technique": "heat",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "olive_oil",
+        "amount": {
+          "qty": 2,
+          "unit": "qt"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "olive_oil_heat",
+      "amount": {
+        "qty": 2,
+        "unit": "qt"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "2 quarts olive oil (not extra virgin)",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

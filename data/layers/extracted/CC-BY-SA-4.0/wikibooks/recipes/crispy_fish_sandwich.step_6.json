@@ -5,7 +5,7 @@
     "source": "wikibooks_crispy_fish_sandwich",
     "step": 6
   },
-  "technique": "mix",
+  "technique": "assemble",
   "inputs": {
     "of": [
       {
@@ -23,14 +23,14 @@
         }
       },
       {
-        "ingredient": "jalapeno",
+        "ingredient": "jalapeno_chop",
         "amount": {
           "qty": 1,
           "unit": "piece"
         }
       },
       {
-        "ingredient": "pickle",
+        "ingredient": "pickle_chop",
         "amount": {
           "qty": 0.25,
           "unit": "piece"
@@ -60,6 +60,11 @@
   },
   "stateNote": "Combine mayonnaise, jalapeño, and pickle. Spread mixture liberally on cut side of grilled buns. Set aside.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.43"
+    },
     {
       "field": "inputs",
       "kind": "estimate",

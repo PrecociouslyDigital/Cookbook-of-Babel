@@ -9,14 +9,14 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "white_sugar_heat",
+        "ingredient": "white_sugar_heat_heat",
         "amount": {
           "qty": 480,
           "unit": "g"
         }
       },
       {
-        "ingredient": "water",
+        "ingredient": "water_boil",
         "amount": {
           "qty": 5,
           "unit": "cup"
@@ -47,9 +47,9 @@
   "stateNote": "Carefully stir in the boiling water.",
   "issues": [
     {
-      "field": "technique",
-      "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.56"
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for water_boil"
     },
     {
       "field": "environment",

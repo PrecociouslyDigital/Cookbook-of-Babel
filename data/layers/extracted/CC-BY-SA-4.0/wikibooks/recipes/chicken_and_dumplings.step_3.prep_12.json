@@ -1,0 +1,54 @@
+{
+  "id": "chicken_and_dumplings.step_3.prep_12",
+  "source": "wikibooks_chicken_and_dumplings",
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "oil_and_fat",
+        "amount": {
+          "qty": 20,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "oil_and_fat_cut",
+      "amount": {
+        "qty": 20,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "20 grams (1½ tablespoons) solid fat (such as vegetable shortening, lard or butter)",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.54"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

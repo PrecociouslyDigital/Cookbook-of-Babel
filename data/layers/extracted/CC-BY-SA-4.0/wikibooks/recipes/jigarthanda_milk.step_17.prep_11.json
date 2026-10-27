@@ -1,0 +1,49 @@
+{
+  "id": "jigarthanda_milk.step_17.prep_11",
+  "source": "wikibooks_jigarthanda_milk",
+  "technique": "simmer",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "full_fat_milk",
+        "amount": {
+          "qty": 1,
+          "unit": "l"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "full_fat_milk_simmer",
+      "amount": {
+        "qty": 1,
+        "unit": "l"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "1 L full-fat milk",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

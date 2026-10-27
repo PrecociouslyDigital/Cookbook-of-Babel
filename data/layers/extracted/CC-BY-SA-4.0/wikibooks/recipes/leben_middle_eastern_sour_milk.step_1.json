@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "milk",
+        "ingredient": "milk_boil",
         "amount": {
           "qty": 1,
           "unit": "gal"
@@ -19,9 +19,9 @@
   },
   "outputs": [
     {
-      "ingredient": "milk_boil",
+      "ingredient": "milk_boil_boil",
       "amount": {
-        "qty": 3899,
+        "qty": 3785.4,
         "unit": "g"
       }
     }
@@ -39,6 +39,11 @@
   },
   "stateNote": "Add the milk to a large pot. Boil until it starts to foam.",
   "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for milk_boil"
+    },
     {
       "field": "environment",
       "kind": "estimate",

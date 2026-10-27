@@ -1,0 +1,49 @@
+{
+  "id": "chocolate_mousse.step_3.prep_3",
+  "source": "wikibooks_chocolate_mousse",
+  "technique": "whisk",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "cream",
+        "amount": {
+          "qty": 250,
+          "unit": "ml"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "cream_whisk",
+      "amount": {
+        "qty": 250,
+        "unit": "ml"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "250 ml (1 cup) cream",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

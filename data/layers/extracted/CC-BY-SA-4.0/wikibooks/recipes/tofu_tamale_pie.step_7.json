@@ -33,15 +33,15 @@
       }
     }
   ],
-  "environment": {
-    "temperatureC": 176.66666666666666,
-    "medium": "oven_air"
-  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
     }
   },
   "stateNote": "Pour into a one quart casserole and top with grated cheese.",
@@ -49,7 +49,7 @@
     {
       "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.54"
+      "note": "the decision model gave this answer a probability of 0.52"
     },
     {
       "field": "end",

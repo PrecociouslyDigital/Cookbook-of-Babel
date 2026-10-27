@@ -16,14 +16,14 @@
         }
       },
       {
-        "ingredient": "butter",
+        "ingredient": "butter_boil",
         "amount": {
           "qty": 40,
           "unit": "g"
         }
       },
       {
-        "ingredient": "milk",
+        "ingredient": "milk_boil",
         "amount": {
           "qty": 0.25,
           "unit": "l"
@@ -35,7 +35,7 @@
     {
       "ingredient": "fleischkrapfen_austrian_meat_pasties_step_2",
       "amount": {
-        "qty": 697.9,
+        "qty": 690.4,
         "unit": "g"
       }
     }
@@ -53,6 +53,16 @@
   },
   "stateNote": "Boil up milk and butter, then pour it over the flour and knead it quickly.",
   "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.47"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for milk_boil"
+    },
     {
       "field": "environment",
       "kind": "estimate",

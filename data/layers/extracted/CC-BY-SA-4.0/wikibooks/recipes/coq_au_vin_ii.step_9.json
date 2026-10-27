@@ -5,7 +5,7 @@
     "source": "wikibooks_coq_au_vin_ii",
     "step": 9
   },
-  "technique": "heat",
+  "technique": "assemble",
   "inputs": {
     "of": [
       {
@@ -40,6 +40,11 @@
   "stateNote": "Once sauce has reduced, add salt pork and onion. Cook until heated through. Remove from heat, add chicken, and serve warm over hot cooked egg noodles, if desired.",
   "issues": [
     {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.54"
+    },
+    {
       "field": "environment",
       "kind": "estimate",
       "note": "no temperature given; assumed 180.0 °C for pan_contact"
@@ -48,6 +53,11 @@
       "field": "end",
       "kind": "estimate",
       "note": "no duration given; assumed 1 minute"
+    },
+    {
+      "field": "inputs",
+      "kind": "missing",
+      "note": "no step uses '3 eggs, beaten' (p=0.51)"
     }
   ]
 }

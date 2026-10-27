@@ -5,7 +5,7 @@
     "source": "wikibooks_bbq_pork_fried_rice",
     "step": 2
   },
-  "technique": "soak",
+  "technique": "season",
   "inputs": {
     "of": [
       {
@@ -16,7 +16,7 @@
         }
       },
       {
-        "ingredient": "pork",
+        "ingredient": "pork_cut",
         "amount": {
           "qty": 750,
           "unit": "g"
@@ -40,8 +40,9 @@
       "unit": "min"
     },
     "sensitivity": {
-      "refTempC": 20,
-      "q10": 1
+      "refTempC": 4,
+      "q10": 1,
+      "maxTempC": 8
     }
   },
   "stateNote": "Place the pork into the sauce mixture. Cover with plastic wrap, and refrigerate for 25 minutes. Make sure the sauce in the bowl is really absorbed.",
@@ -49,7 +50,7 @@
     {
       "field": "technique",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.59"
+      "note": "the decision model gave this answer a probability of 0.38"
     }
   ]
 }

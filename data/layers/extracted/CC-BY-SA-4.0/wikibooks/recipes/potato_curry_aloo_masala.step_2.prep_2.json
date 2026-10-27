@@ -1,0 +1,49 @@
+{
+  "id": "potato_curry_aloo_masala.step_2.prep_2",
+  "source": "wikibooks_potato_curry_aloo_masala",
+  "technique": "fry",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "mustard_seed",
+        "amount": {
+          "qty": 0.5,
+          "unit": "tsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "mustard_seed_fry",
+      "amount": {
+        "qty": 0.5,
+        "unit": "tsp"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "½ teaspoon mustard seed",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

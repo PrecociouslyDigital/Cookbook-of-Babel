@@ -16,7 +16,7 @@
         }
       },
       {
-        "ingredient": "dehydrated_broth",
+        "ingredient": "dehydrated_broth_dissolve",
         "amount": {
           "qty": 1,
           "unit": "piece"
@@ -55,8 +55,8 @@
     }
   ],
   "environment": {
-    "temperatureC": 90,
-    "medium": "simmering_water"
+    "temperatureC": 180,
+    "medium": "pan_contact"
   },
   "end": {
     "by": "time",
@@ -68,16 +68,6 @@
   "stateNote": "Stir together water and bouillon cube/powder until well-dissolved. Add to meat/onion mixture along with vinegar and beer.",
   "issues": [
     {
-      "field": "technique",
-      "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.53"
-    },
-    {
-      "field": "environment",
-      "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.4"
-    },
-    {
       "field": "inputs",
       "kind": "estimate",
       "note": "'1 cube of beef bouillon or 1 ½ tsp powdered stock, combined with 1 cup water': 'cube' read as pieces"
@@ -85,7 +75,7 @@
     {
       "field": "environment",
       "kind": "estimate",
-      "note": "no temperature given; assumed 90.0 °C for simmering_water"
+      "note": "no temperature given; assumed 180.0 °C for pan_contact"
     },
     {
       "field": "end",

@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "beef",
+        "ingredient": "beef_fry",
         "amount": {
           "qty": 0.5,
           "unit": "lb"
@@ -67,6 +67,11 @@
   },
   "stateNote": "Fry beef in a medium skillet. Season with allspice, pepper, salt, and Worcestershire sauce.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.46"
+    },
     {
       "field": "inputs",
       "kind": "estimate",

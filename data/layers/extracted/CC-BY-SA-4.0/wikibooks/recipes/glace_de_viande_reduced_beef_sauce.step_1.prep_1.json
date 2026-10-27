@@ -1,0 +1,54 @@
+{
+  "id": "glace_de_viande_reduced_beef_sauce.step_1.prep_1",
+  "source": "wikibooks_glace_de_viande_reduced_beef_sauce",
+  "technique": "simmer",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "beef_stock",
+        "amount": {
+          "qty": 2,
+          "unit": "qt"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "beef_stock_simmer",
+      "amount": {
+        "qty": 2,
+        "unit": "qt"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "2 quarts brown beef or veal stock, strained and thoroughly degreased",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.54"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

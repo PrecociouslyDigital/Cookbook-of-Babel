@@ -1,0 +1,49 @@
+{
+  "id": "crawfish_boil.step_1.prep_1",
+  "source": "wikibooks_crawfish_boil",
+  "technique": "boil",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "water",
+        "amount": {
+          "qty": 0.5,
+          "unit": "gal"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "water_boil",
+      "amount": {
+        "qty": 0.5,
+        "unit": "gal"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "½ gallon (2 liters) water",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

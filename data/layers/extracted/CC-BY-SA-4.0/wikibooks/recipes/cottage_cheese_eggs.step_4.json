@@ -5,7 +5,7 @@
     "source": "wikibooks_cottage_cheese_eggs",
     "step": 4
   },
-  "technique": "fold",
+  "technique": "pan_fry",
   "inputs": {
     "of": [
       {
@@ -27,7 +27,7 @@
     }
   ],
   "environment": {
-    "temperatureC": 180,
+    "temperatureC": 185,
     "medium": "pan_contact"
   },
   "end": {
@@ -40,9 +40,14 @@
   "stateNote": "As eggs begin to cook, start folding them together, turning as needed, until done cooking.",
   "issues": [
     {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.38"
+    },
+    {
       "field": "environment",
       "kind": "estimate",
-      "note": "no temperature given; assumed 180.0 °C for pan_contact"
+      "note": "no temperature given; used the middle of pan_fry's typical range"
     },
     {
       "field": "end",

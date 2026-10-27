@@ -26,16 +26,23 @@
       }
     }
   ],
-  "environment": {
-    "temperatureC": 204.44444444444446,
-    "medium": "oven_air"
-  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 10,
       "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
     }
   },
-  "stateNote": "Carefully remove potatoes from oven and cool for 10 minutes."
+  "stateNote": "Carefully remove potatoes from oven and cool for 10 minutes.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.58"
+    }
+  ]
 }

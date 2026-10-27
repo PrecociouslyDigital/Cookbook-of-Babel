@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "pulses_soak",
+        "ingredient": "pulses_soak_soak",
         "amount": {
           "qty": 907.2,
           "unit": "g"
@@ -23,7 +23,7 @@
         }
       },
       {
-        "ingredient": "onion",
+        "ingredient": "onion_chop",
         "amount": {
           "qty": 2,
           "unit": "piece"
@@ -67,6 +67,11 @@
   },
   "stateNote": "Stir all ingredients together, then pour into casserole dish, bean pot or Dutch oven.",
   "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.54"
+    },
     {
       "field": "end",
       "kind": "estimate",

@@ -33,24 +33,19 @@
       }
     }
   ],
-  "environment": {
-    "temperatureC": 230,
-    "medium": "oven_air"
-  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
     }
   },
   "stateNote": "Brush tops with cream.",
   "issues": [
-    {
-      "field": "environment",
-      "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.57"
-    },
     {
       "field": "inputs",
       "kind": "estimate",

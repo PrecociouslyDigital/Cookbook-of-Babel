@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "milk",
+        "ingredient": "milk_boil",
         "amount": {
           "qty": 3,
           "unit": "l"
@@ -19,9 +19,9 @@
   },
   "outputs": [
     {
-      "ingredient": "milk_boil",
+      "ingredient": "milk_boil_boil",
       "amount": {
-        "qty": 3090,
+        "qty": 3000,
         "unit": "g"
       }
     }
@@ -39,6 +39,11 @@
   },
   "stateNote": "Bring milk to a boil in a large pan.",
   "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for milk_boil"
+    },
     {
       "field": "environment",
       "kind": "estimate",

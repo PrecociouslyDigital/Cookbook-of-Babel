@@ -1,0 +1,49 @@
+{
+  "id": "tomato_basil_sausage_pasta.step_1.prep_1",
+  "source": "wikibooks_tomato_basil_sausage_pasta",
+  "technique": "boil",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "spaghetti",
+        "amount": {
+          "qty": 225,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "spaghetti_boil",
+      "amount": {
+        "qty": 225,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "225 g (8 oz) uncooked spaghetti",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

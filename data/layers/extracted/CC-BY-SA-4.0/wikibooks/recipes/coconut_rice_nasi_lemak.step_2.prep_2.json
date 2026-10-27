@@ -1,0 +1,49 @@
+{
+  "id": "coconut_rice_nasi_lemak.step_2.prep_2",
+  "source": "wikibooks_coconut_rice_nasi_lemak",
+  "technique": "heat",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "coconut",
+        "amount": {
+          "qty": 7,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "coconut_heat",
+      "amount": {
+        "qty": 7,
+        "unit": "cup"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "7 cups (1680 ml) coconut milk",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

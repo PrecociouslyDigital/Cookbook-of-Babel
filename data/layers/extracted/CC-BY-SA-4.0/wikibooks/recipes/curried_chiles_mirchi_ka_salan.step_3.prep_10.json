@@ -1,0 +1,54 @@
+{
+  "id": "curried_chiles_mirchi_ka_salan.step_3.prep_10",
+  "source": "wikibooks_curried_chiles_mirchi_ka_salan",
+  "technique": "heat",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "curry_leaf",
+        "amount": {
+          "qty": 6.5,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "curry_leaf_heat",
+      "amount": {
+        "qty": 6.5,
+        "unit": "piece"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "6–7 curry leaves",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.48"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

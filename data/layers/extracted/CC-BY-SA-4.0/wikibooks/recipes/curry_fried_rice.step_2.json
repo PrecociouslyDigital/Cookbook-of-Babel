@@ -23,7 +23,7 @@
         }
       },
       {
-        "ingredient": "chicken",
+        "ingredient": "chicken_cut",
         "amount": {
           "qty": 200,
           "unit": "g"
@@ -42,7 +42,7 @@
   ],
   "environment": {
     "temperatureC": 215,
-    "medium": "frying_oil"
+    "medium": "pan_contact"
   },
   "end": {
     "by": "time",
@@ -53,11 +53,6 @@
   },
   "stateNote": "Add sukiyaki beef and chicken. Cook, stirring, for 1 minute until golden brown.",
   "issues": [
-    {
-      "field": "environment",
-      "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.55"
-    },
     {
       "field": "environment",
       "kind": "estimate",

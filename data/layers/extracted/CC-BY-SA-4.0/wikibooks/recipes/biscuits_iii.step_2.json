@@ -9,13 +9,6 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "egg",
-        "amount": {
-          "qty": 1,
-          "unit": "piece"
-        }
-      },
-      {
         "ingredient": "milk",
         "amount": {
           "qty": 2,
@@ -26,10 +19,10 @@
   },
   "outputs": [
     {
-      "ingredient": "biscuits_iii_step_2",
+      "ingredient": "milk_whisk",
       "amount": {
-        "qty": 1,
-        "unit": "batch"
+        "qty": 30.5,
+        "unit": "g"
       }
     }
   ],
@@ -46,11 +39,6 @@
   },
   "stateNote": "Beat the egg and milk together in a bowl.",
   "issues": [
-    {
-      "field": "inputs",
-      "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.54"
-    },
     {
       "field": "end",
       "kind": "estimate",

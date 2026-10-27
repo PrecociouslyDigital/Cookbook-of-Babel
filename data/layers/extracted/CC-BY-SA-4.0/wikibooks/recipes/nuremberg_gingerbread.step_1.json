@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "honey",
+        "ingredient": "honey_boil",
         "amount": {
           "qty": 500,
           "unit": "g"
@@ -46,6 +46,11 @@
   },
   "stateNote": "Bring the honey and sugar to the boil in a saucepan while stirring. Remove from the heat and let cool.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.5"
+    },
     {
       "field": "environment",
       "kind": "estimate",

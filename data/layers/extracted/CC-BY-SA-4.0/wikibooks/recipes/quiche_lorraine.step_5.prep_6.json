@@ -1,0 +1,49 @@
+{
+  "id": "quiche_lorraine.step_5.prep_6",
+  "source": "wikibooks_quiche_lorraine",
+  "technique": "bake",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "tall_quiche_shell",
+        "amount": {
+          "qty": 1,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "tall_quiche_shell_bake",
+      "amount": {
+        "qty": 1,
+        "unit": "piece"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "1 tall quiche shell, baked as directed in a 9x2-inch quiche ring on parchment",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

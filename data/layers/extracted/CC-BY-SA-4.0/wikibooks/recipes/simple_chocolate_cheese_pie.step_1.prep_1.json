@@ -1,0 +1,49 @@
+{
+  "id": "simple_chocolate_cheese_pie.step_1.prep_1",
+  "source": "wikibooks_simple_chocolate_cheese_pie",
+  "technique": "heat",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "cream_cheese",
+        "amount": {
+          "qty": 8,
+          "unit": "oz"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "cream_cheese_heat",
+      "amount": {
+        "qty": 8,
+        "unit": "oz"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "8 ounces (225 g) cream cheese",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

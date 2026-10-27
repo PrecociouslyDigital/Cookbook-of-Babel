@@ -1,0 +1,49 @@
+{
+  "id": "gazpacho.step_5.prep_17",
+  "source": "wikibooks_gazpacho",
+  "technique": "chop",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "peeled_cucumber",
+        "amount": {
+          "qty": 0.25,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "peeled_cucumber_chop",
+      "amount": {
+        "qty": 0.25,
+        "unit": "piece"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "¼ peeled cucumber, diced fine",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

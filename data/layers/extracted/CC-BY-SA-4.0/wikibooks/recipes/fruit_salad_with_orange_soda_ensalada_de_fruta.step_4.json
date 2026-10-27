@@ -16,42 +16,42 @@
         }
       },
       {
-        "ingredient": "apple",
+        "ingredient": "apple_cut",
         "amount": {
           "qty": 1,
           "unit": "piece"
         }
       },
       {
-        "ingredient": "orange",
+        "ingredient": "orange_cut",
         "amount": {
           "qty": 1,
           "unit": "piece"
         }
       },
       {
-        "ingredient": "nectarine",
+        "ingredient": "nectarine_cut",
         "amount": {
           "qty": 1,
           "unit": "piece"
         }
       },
       {
-        "ingredient": "plum",
+        "ingredient": "plum_cut",
         "amount": {
           "qty": 2,
           "unit": "piece"
         }
       },
       {
-        "ingredient": "banana",
+        "ingredient": "banana_cut",
         "amount": {
           "qty": 1,
           "unit": "piece"
         }
       },
       {
-        "ingredient": "passion_fruit",
+        "ingredient": "passion_fruit_cut",
         "amount": {
           "qty": 2,
           "unit": "piece"
@@ -75,17 +75,13 @@
       "unit": "min"
     },
     "sensitivity": {
-      "refTempC": 20,
-      "q10": 1
+      "refTempC": 4,
+      "q10": 1,
+      "maxTempC": 8
     }
   },
   "stateNote": "Cut up remaining fruit into small pieces, place in the bowl, and chill.",
   "issues": [
-    {
-      "field": "technique",
-      "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.41"
-    },
     {
       "field": "end",
       "kind": "estimate",

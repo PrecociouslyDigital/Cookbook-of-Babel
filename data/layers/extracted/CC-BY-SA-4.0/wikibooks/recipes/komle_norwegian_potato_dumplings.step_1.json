@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "potato",
+        "ingredient": "potato_chop",
         "amount": {
           "qty": 2,
           "unit": "kg"
@@ -19,7 +19,7 @@
   },
   "outputs": [
     {
-      "ingredient": "potato_chop",
+      "ingredient": "potato_chop_chop",
       "amount": {
         "qty": 2000,
         "unit": "g"
@@ -39,6 +39,11 @@
   },
   "stateNote": "Chop the potatoes in a food processor.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.55"
+    },
     {
       "field": "end",
       "kind": "estimate",

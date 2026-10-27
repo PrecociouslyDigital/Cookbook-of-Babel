@@ -5,7 +5,7 @@
     "source": "wikibooks_crawfish_boil",
     "step": 3
   },
-  "technique": "soak",
+  "technique": "steep",
   "inputs": {
     "of": [
       {
@@ -27,7 +27,7 @@
     }
   ],
   "environment": {
-    "temperatureC": 90,
+    "temperatureC": 85,
     "medium": "simmering_water"
   },
   "end": {
@@ -40,14 +40,19 @@
   "stateNote": "Turn off the heat and leave on the burner for 8 minutes. This allows the crawfish to soak in and absorb the flavorful broth without overcooking.",
   "issues": [
     {
-      "field": "environment",
+      "field": "technique",
       "kind": "uncertain",
       "note": "the decision model gave this answer a probability of 0.51"
     },
     {
       "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.57"
+    },
+    {
+      "field": "environment",
       "kind": "estimate",
-      "note": "no temperature given; assumed 90.0 °C for simmering_water"
+      "note": "no temperature given; used the middle of steep's typical range"
     }
   ]
 }

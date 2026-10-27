@@ -1,0 +1,49 @@
+{
+  "id": "arisa_malaysian_blended_chicken.step_3.prep_8",
+  "source": "wikibooks_arisa_malaysian_blended_chicken",
+  "technique": "blend",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "ginger",
+        "amount": {
+          "qty": 100,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "ginger_blend",
+      "amount": {
+        "qty": 100,
+        "unit": "piece"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "100 mm fresh ginger",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

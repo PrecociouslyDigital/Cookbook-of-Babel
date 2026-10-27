@@ -1,0 +1,49 @@
+{
+  "id": "burmese_pork_curry.step_2.prep_4",
+  "source": "wikibooks_burmese_pork_curry",
+  "technique": "chop",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "galangal",
+        "amount": {
+          "qty": 15,
+          "unit": "ml"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "galangal_chop",
+      "amount": {
+        "qty": 15,
+        "unit": "ml"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "15 ml (1 tbsp) fresh galangal, chopped",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

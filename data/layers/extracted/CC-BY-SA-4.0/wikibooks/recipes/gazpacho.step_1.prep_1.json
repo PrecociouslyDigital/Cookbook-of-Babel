@@ -1,0 +1,44 @@
+{
+  "id": "gazpacho.step_1.prep_1",
+  "source": "wikibooks_gazpacho",
+  "technique": "soak",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "day_old_white_bread",
+        "amount": {
+          "qty": 2,
+          "unit": "oz"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "day_old_white_bread_soak",
+      "amount": {
+        "qty": 2,
+        "unit": "oz"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 2.5,
+      "unit": "d"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "2 oz (50 g) 2–3 day-old white bread (optional—leave out for a thinner soup)",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    }
+  ]
+}

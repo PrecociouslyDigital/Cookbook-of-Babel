@@ -1,0 +1,49 @@
+{
+  "id": "kuku_sabzi_with_potato_slices.step_4.prep_11",
+  "source": "wikibooks_kuku_sabzi_with_potato_slices",
+  "technique": "chop",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "leek",
+        "amount": {
+          "qty": 1,
+          "unit": "stalk"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "leek_chop",
+      "amount": {
+        "qty": 1,
+        "unit": "stalk"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "1 stalk fresh leek, finely chopped",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

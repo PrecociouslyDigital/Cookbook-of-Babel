@@ -16,7 +16,7 @@
         }
       },
       {
-        "ingredient": "pepper_stew",
+        "ingredient": "pepper_stew_heat",
         "amount": {
           "qty": 1,
           "unit": "pinch"
@@ -47,6 +47,11 @@
   "stateNote": "Heat the pepper stew, and serve it with the plantains and fish.",
   "issues": [
     {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.53"
+    },
+    {
       "field": "inputs",
       "kind": "estimate",
       "note": "'Pepper stew': no quantity given; assumed a pinch"
@@ -54,7 +59,7 @@
     {
       "field": "outputs",
       "kind": "estimate",
-      "note": "assumed 1 g/ml for pepper_stew"
+      "note": "assumed 1 g/ml for pepper_stew_heat"
     },
     {
       "field": "environment",

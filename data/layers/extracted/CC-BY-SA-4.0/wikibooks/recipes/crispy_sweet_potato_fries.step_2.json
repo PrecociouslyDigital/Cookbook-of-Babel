@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "sweet_potato_boil",
+        "ingredient": "sweet_potato_julienne_boil",
         "amount": {
           "qty": 1,
           "unit": "batch"
@@ -19,7 +19,7 @@
   },
   "outputs": [
     {
-      "ingredient": "sweet_potato_boil_cool",
+      "ingredient": "sweet_potato_julienne_boil_cool",
       "amount": {
         "qty": 1,
         "unit": "batch"
@@ -39,6 +39,11 @@
   },
   "stateNote": "Drain thoroughly and cold shock in a bowl of iced water. Drain again.",
   "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.54"
+    },
     {
       "field": "end",
       "kind": "estimate",

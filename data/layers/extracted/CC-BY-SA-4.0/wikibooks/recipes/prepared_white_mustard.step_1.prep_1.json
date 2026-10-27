@@ -1,0 +1,49 @@
+{
+  "id": "prepared_white_mustard.step_1.prep_1",
+  "source": "wikibooks_prepared_white_mustard",
+  "technique": "toast",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "mustard_seed",
+        "amount": {
+          "qty": 6,
+          "unit": "tbsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "mustard_seed_toast",
+      "amount": {
+        "qty": 6,
+        "unit": "tbsp"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "6 tbsp white mustard seeds (Sinapis alba)",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

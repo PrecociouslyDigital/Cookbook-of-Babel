@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "banana",
+        "ingredient": "banana_cut",
         "amount": {
           "qty": 1,
           "unit": "piece"
@@ -19,7 +19,7 @@
   },
   "outputs": [
     {
-      "ingredient": "banana_cut",
+      "ingredient": "banana_cut_cut",
       "amount": {
         "qty": 1,
         "unit": "batch"
@@ -39,6 +39,11 @@
   },
   "stateNote": "Peel back a 1 ½ inch (4 cm) wide strip of peel from the inside curve of the banana, leaving one end attached to the banana.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.44"
+    },
     {
       "field": "end",
       "kind": "estimate",

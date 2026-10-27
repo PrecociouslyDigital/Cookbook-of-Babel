@@ -1,0 +1,49 @@
+{
+  "id": "polish_cauliflower_with_breadcrumbs.step_1.prep_1",
+  "source": "wikibooks_polish_cauliflower_with_breadcrumbs",
+  "technique": "boil",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "cauliflower",
+        "amount": {
+          "qty": 1,
+          "unit": "head"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "cauliflower_boil",
+      "amount": {
+        "qty": 1,
+        "unit": "head"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "1 head of cauliflower",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

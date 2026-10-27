@@ -1,0 +1,54 @@
+{
+  "id": "charoset_ashkenazi.step_1.prep_1",
+  "source": "wikibooks_charoset_ashkenazi",
+  "technique": "chop",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "apple",
+        "amount": {
+          "qty": 360,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "apple_chop",
+      "amount": {
+        "qty": 360,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "1½ cups (360 g) peeled, cored, and chopped apples (e.g. MacIntosh)",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.55"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

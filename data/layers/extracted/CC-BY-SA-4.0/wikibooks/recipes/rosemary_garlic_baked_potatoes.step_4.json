@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "potato_rinse",
+        "ingredient": "potato_rinse_rinse",
         "amount": {
           "qty": 1,
           "unit": "batch"
@@ -46,6 +46,11 @@
   },
   "stateNote": "Pour 1 tablespoon of olive oil on each potato. Make sure the entire potato skin is coated in oil.",
   "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.58"
+    },
     {
       "field": "end",
       "kind": "estimate",

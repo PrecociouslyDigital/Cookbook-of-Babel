@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "lamb_and_mutton_pan_fry",
+        "ingredient": "lamb_and_mutton_pan_fry_pan_fry",
         "amount": {
           "qty": 907.2,
           "unit": "g"
@@ -23,35 +23,35 @@
         }
       },
       {
-        "ingredient": "bell_pepper",
+        "ingredient": "bell_pepper_cut",
         "amount": {
           "qty": 1,
           "unit": "piece"
         }
       },
       {
-        "ingredient": "mushroom",
+        "ingredient": "mushroom_cut",
         "amount": {
           "qty": 4,
           "unit": "cup"
         }
       },
       {
-        "ingredient": "onion",
+        "ingredient": "onion_chop",
         "amount": {
           "qty": 1,
           "unit": "piece"
         }
       },
       {
-        "ingredient": "celery",
+        "ingredient": "celery_chop",
         "amount": {
           "qty": 3,
           "unit": "piece"
         }
       },
       {
-        "ingredient": "olive_oil",
+        "ingredient": "olive_oil_heat",
         "amount": {
           "qty": 1,
           "unit": "tbsp"
@@ -81,6 +81,11 @@
   },
   "stateNote": "Remove lamb and add oil over high heat. Sauté peppers, mushrooms, carrots, celery, and onion.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.47"
+    },
     {
       "field": "environment",
       "kind": "estimate",

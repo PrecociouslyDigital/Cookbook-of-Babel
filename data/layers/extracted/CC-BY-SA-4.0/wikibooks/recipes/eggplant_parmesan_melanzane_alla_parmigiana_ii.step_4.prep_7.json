@@ -1,0 +1,49 @@
+{
+  "id": "eggplant_parmesan_melanzane_alla_parmigiana_ii.step_4.prep_7",
+  "source": "wikibooks_eggplant_parmesan_melanzane_alla_parmigiana_ii",
+  "technique": "grind",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "parmesan_cheese",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "parmesan_cheese_grind",
+      "amount": {
+        "qty": 1,
+        "unit": "pinch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Parmesan or Grana Padano cheese",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

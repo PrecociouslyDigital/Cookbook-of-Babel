@@ -1,0 +1,44 @@
+{
+  "id": "haggis.step_3.prep_7",
+  "source": "wikibooks_haggis",
+  "technique": "toast",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "oatmeal",
+        "amount": {
+          "qty": 2,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "oatmeal_toast",
+      "amount": {
+        "qty": 2,
+        "unit": "cup"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 10,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "2 cups oatmeal, toasted in a 375°F (200°C) oven for 10 minutes",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    }
+  ]
+}

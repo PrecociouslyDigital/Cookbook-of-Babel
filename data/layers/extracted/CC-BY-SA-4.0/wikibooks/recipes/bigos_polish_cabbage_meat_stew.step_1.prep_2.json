@@ -1,0 +1,49 @@
+{
+  "id": "bigos_polish_cabbage_meat_stew.step_1.prep_2",
+  "source": "wikibooks_bigos_polish_cabbage_meat_stew",
+  "technique": "chop",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "sauerkraut",
+        "amount": {
+          "qty": 2,
+          "unit": "kg"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "sauerkraut_chop",
+      "amount": {
+        "qty": 2,
+        "unit": "kg"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "2 kg fermented cabbage (sauerkraut)",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -16,7 +16,7 @@
         }
       },
       {
-        "ingredient": "egg",
+        "ingredient": "egg_whisk",
         "amount": {
           "qty": 10,
           "unit": "piece"
@@ -47,19 +47,24 @@
       }
     }
   ],
-  "environment": {
-    "temperatureC": 175,
-    "medium": "frying_oil"
-  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
     }
   },
   "stateNote": "Crack the eggs into a bowl, add salt and pepper, and whisk them. As soon as the potatoes and the onions are cooked, drain them off, collecting the oil. Then add the whisked eggs to the potato-onion mix.",
   "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.47"
+    },
     {
       "field": "inputs",
       "kind": "estimate",
@@ -69,11 +74,6 @@
       "field": "inputs",
       "kind": "estimate",
       "note": "'Pepper': no quantity given; assumed a pinch"
-    },
-    {
-      "field": "environment",
-      "kind": "estimate",
-      "note": "no temperature given; assumed 175.0 °C for frying_oil"
     },
     {
       "field": "end",

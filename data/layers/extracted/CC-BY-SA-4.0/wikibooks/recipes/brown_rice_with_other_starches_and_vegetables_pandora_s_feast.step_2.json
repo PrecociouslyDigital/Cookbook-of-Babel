@@ -5,7 +5,7 @@
     "source": "wikibooks_brown_rice_with_other_starches_and_vegetables_pandora_s_feast",
     "step": 2
   },
-  "technique": "rinse",
+  "technique": "mix",
   "inputs": {
     "of": [
       {
@@ -16,7 +16,7 @@
         }
       },
       {
-        "ingredient": "common_bean",
+        "ingredient": "common_bean_rinse",
         "amount": {
           "qty": 1,
           "unit": "cup"
@@ -47,14 +47,19 @@
   "stateNote": "Drain, rinse, and add the beans to the rice cooker.",
   "issues": [
     {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.55"
+    },
+    {
       "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.45"
+      "note": "the decision model gave this answer a probability of 0.38"
     },
     {
       "field": "outputs",
       "kind": "estimate",
-      "note": "assumed 1 g/ml for common_bean"
+      "note": "assumed 1 g/ml for common_bean_rinse"
     },
     {
       "field": "end",

@@ -1,0 +1,49 @@
+{
+  "id": "rolitos_gibraltarian_beef_rolls.step_1.prep_2",
+  "source": "wikibooks_rolitos_gibraltarian_beef_rolls",
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "ham",
+        "amount": {
+          "qty": 4,
+          "unit": "slice"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "ham_cut",
+      "amount": {
+        "qty": 4,
+        "unit": "slice"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "4 slices of ham, cut in halves",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

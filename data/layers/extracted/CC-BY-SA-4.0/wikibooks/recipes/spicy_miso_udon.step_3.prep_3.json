@@ -1,0 +1,49 @@
+{
+  "id": "spicy_miso_udon.step_3.prep_3",
+  "source": "wikibooks_spicy_miso_udon",
+  "technique": "boil",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "udon",
+        "amount": {
+          "qty": 1,
+          "unit": "package"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "udon_boil",
+      "amount": {
+        "qty": 1,
+        "unit": "package"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "1 package dry udon noodles",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

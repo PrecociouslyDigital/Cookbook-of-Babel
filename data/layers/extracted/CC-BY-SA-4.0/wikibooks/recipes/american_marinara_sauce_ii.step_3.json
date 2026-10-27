@@ -5,7 +5,7 @@
     "source": "wikibooks_american_marinara_sauce_ii",
     "step": 3
   },
-  "technique": "grind",
+  "technique": "season",
   "inputs": {
     "of": [
       {
@@ -16,21 +16,21 @@
         }
       },
       {
-        "ingredient": "oregano",
+        "ingredient": "oregano_grind",
         "amount": {
           "qty": 2,
           "unit": "tbsp"
         }
       },
       {
-        "ingredient": "thyme",
+        "ingredient": "thyme_grind",
         "amount": {
           "qty": 2,
           "unit": "tbsp"
         }
       },
       {
-        "ingredient": "chile_flakes",
+        "ingredient": "chile_flakes_grind",
         "amount": {
           "qty": 2,
           "unit": "tbsp"
@@ -60,6 +60,11 @@
   },
   "stateNote": "Grind dried herbs and red pepper flakes with a mortar and pestle. Add this mixture and the unreserved fresh basil to the pan.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.57"
+    },
     {
       "field": "environment",
       "kind": "estimate",

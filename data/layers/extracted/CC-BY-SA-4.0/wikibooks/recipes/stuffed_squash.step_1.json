@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "squash",
+        "ingredient": "squash_cut",
         "amount": {
           "qty": 2.5,
           "unit": "piece"
@@ -19,7 +19,7 @@
   },
   "outputs": [
     {
-      "ingredient": "squash_cut",
+      "ingredient": "squash_cut_cut",
       "amount": {
         "qty": 1,
         "unit": "batch"
@@ -39,6 +39,11 @@
   },
   "stateNote": "Cut off the top of the squash and dig out the soft insides and seeds. Throw away the insides and seeds.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.51"
+    },
     {
       "field": "inputs",
       "kind": "estimate",

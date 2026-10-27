@@ -1,0 +1,49 @@
+{
+  "id": "salata_de_boeuf_romanian_beef_salad.step_4.prep_4",
+  "source": "wikibooks_salata_de_boeuf_romanian_beef_salad",
+  "technique": "boil",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "pea",
+        "amount": {
+          "qty": 1,
+          "unit": "can"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "pea_boil",
+      "amount": {
+        "qty": 1,
+        "unit": "can"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "1 can of peas or 300 g (10.5 oz) fresh peas",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

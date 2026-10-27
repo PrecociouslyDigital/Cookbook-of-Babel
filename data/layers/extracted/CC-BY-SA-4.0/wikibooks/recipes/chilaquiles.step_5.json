@@ -5,7 +5,7 @@
     "source": "wikibooks_chilaquiles",
     "step": 5
   },
-  "technique": "fry",
+  "technique": "heat",
   "inputs": {
     "of": [
       {
@@ -16,14 +16,14 @@
         }
       },
       {
-        "ingredient": "vegetable_oil",
+        "ingredient": "vegetable_oil_heat",
         "amount": {
           "qty": 1,
           "unit": "pinch"
         }
       },
       {
-        "ingredient": "day_old_corn_tortillas",
+        "ingredient": "day_old_corn_tortillas_fry",
         "amount": {
           "qty": 2,
           "unit": "piece"
@@ -41,7 +41,7 @@
     }
   ],
   "environment": {
-    "temperatureC": 190,
+    "temperatureC": 175,
     "medium": "frying_oil"
   },
   "end": {
@@ -54,16 +54,6 @@
   "stateNote": "Heat enough vegetable oil in a frying pan to deep fry the tortillas. It should be hot enough so that when you drop the pieces of tortillas into it they immediately begin to fry at a rapid pace.",
   "issues": [
     {
-      "field": "sourceRef",
-      "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.56"
-    },
-    {
-      "field": "technique",
-      "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.59"
-    },
-    {
       "field": "inputs",
       "kind": "estimate",
       "note": "'Vegetable oil (enough to cover the tortillas to deep-fry them)': no quantity given; assumed a pinch"
@@ -71,7 +61,7 @@
     {
       "field": "environment",
       "kind": "estimate",
-      "note": "no temperature given; used the middle of fry's typical range"
+      "note": "no temperature given; assumed 175.0 °C for frying_oil"
     },
     {
       "field": "end",

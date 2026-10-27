@@ -1,0 +1,49 @@
+{
+  "id": "spinach_and_ricotta_lasagna.step_6.prep_5",
+  "source": "wikibooks_spinach_and_ricotta_lasagna",
+  "technique": "dry",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "ricotta",
+        "amount": {
+          "qty": 30,
+          "unit": "oz"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "ricotta_dry",
+      "amount": {
+        "qty": 30,
+        "unit": "oz"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "2 tubs (30 oz) ricotta",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

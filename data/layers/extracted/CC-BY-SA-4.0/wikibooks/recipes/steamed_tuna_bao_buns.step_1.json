@@ -47,15 +47,15 @@
       }
     }
   ],
+  "environment": {
+    "temperatureC": 100,
+    "medium": "boiling_water"
+  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
-    },
-    "sensitivity": {
-      "refTempC": 20,
-      "q10": 1
     }
   },
   "stateNote": "Add active dry yeast and honey to around 8 oz warm water and milk. If using instant yeast there is no need to bloom the yeast.",
@@ -63,7 +63,7 @@
     {
       "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.46"
+      "note": "the decision model gave this answer a probability of 0.42"
     },
     {
       "field": "inputs",
@@ -74,6 +74,11 @@
       "field": "inputs",
       "kind": "estimate",
       "note": "'Lukewarm water (~100°F)': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 100.0 °C for boiling_water"
     },
     {
       "field": "end",

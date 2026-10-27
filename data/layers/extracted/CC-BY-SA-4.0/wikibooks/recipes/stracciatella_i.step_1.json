@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "broth_and_stock",
+        "ingredient": "broth_and_stock_boil",
         "amount": {
           "qty": 4,
           "unit": "cup"
@@ -19,7 +19,7 @@
   },
   "outputs": [
     {
-      "ingredient": "broth_and_stock_boil",
+      "ingredient": "broth_and_stock_boil_boil",
       "amount": {
         "qty": 946.4,
         "unit": "g"
@@ -28,7 +28,7 @@
   ],
   "environment": {
     "temperatureC": 100,
-    "medium": "boiling_water"
+    "medium": "pan_contact"
   },
   "end": {
     "by": "time",
@@ -40,14 +40,9 @@
   "stateNote": "Put the broth in a large pot, and bring to a boil.",
   "issues": [
     {
-      "field": "environment",
-      "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.45"
-    },
-    {
       "field": "outputs",
       "kind": "estimate",
-      "note": "assumed 1 g/ml for broth_and_stock"
+      "note": "assumed 1 g/ml for broth_and_stock_boil"
     },
     {
       "field": "environment",

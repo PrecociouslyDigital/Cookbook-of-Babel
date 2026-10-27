@@ -49,6 +49,13 @@
           "qty": 1,
           "unit": "pinch"
         }
+      },
+      {
+        "ingredient": "worcestershire_sauce",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
       }
     ]
   },
@@ -75,7 +82,7 @@
   "stateNote": "Add the beef/broth ingredients to a slow cooker. Cook overnight on low, or until the meat starts to fall apart. This should yield about 1 quart (1 liter) of broth. Chill it in the fridge until the fat solidifies on the surface. Scoop off the fat.",
   "issues": [
     {
-      "field": "inputs",
+      "field": "environment",
       "kind": "uncertain",
       "note": "the decision model gave this answer a probability of 0.59"
     },
@@ -88,6 +95,11 @@
       "field": "inputs",
       "kind": "estimate",
       "note": "'Dried minced onion': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Worcestershire sauce': no quantity given; assumed a pinch"
     },
     {
       "field": "environment",

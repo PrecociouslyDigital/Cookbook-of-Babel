@@ -9,14 +9,14 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "salt",
+        "ingredient": "salt_boil",
         "amount": {
           "qty": 3.5,
           "unit": "qt"
         }
       },
       {
-        "ingredient": "pasta",
+        "ingredient": "pasta_boil",
         "amount": {
           "qty": 8,
           "unit": "oz"
@@ -28,7 +28,7 @@
     {
       "ingredient": "tomato_pasta_with_bacon_onions_and_cheese_step_1",
       "amount": {
-        "qty": 4201.5,
+        "qty": 3539,
         "unit": "g"
       }
     }
@@ -46,6 +46,11 @@
   },
   "stateNote": "Boil spaghetti for 6 minutes or so, just until al dente. Drain when ready.",
   "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for salt_boil"
+    },
     {
       "field": "environment",
       "kind": "estimate",

@@ -70,7 +70,7 @@
   ],
   "environment": {
     "temperatureC": 90,
-    "medium": "simmering_water"
+    "medium": "pan_contact"
   },
   "end": {
     "by": "time",
@@ -81,6 +81,11 @@
   },
   "stateNote": "Mix raisins, water, lemon juice, cinnamon and sugar in a saucepan. Simmer for 1 hour. Mix in a bit or cornstarch, and cook until thickened.",
   "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.56"
+    },
     {
       "field": "inputs",
       "kind": "estimate",

@@ -1,0 +1,49 @@
+{
+  "id": "sauteed_broccoli_rabe_with_garlic_and_olive_oil.step_1.prep_1",
+  "source": "wikibooks_sauteed_broccoli_rabe_with_garlic_and_olive_oil",
+  "technique": "rinse",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "broccoli_rabe",
+        "amount": {
+          "qty": 2,
+          "unit": "bunch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "broccoli_rabe_rinse",
+      "amount": {
+        "qty": 2,
+        "unit": "bunch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "2 bunches broccoli rabe",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

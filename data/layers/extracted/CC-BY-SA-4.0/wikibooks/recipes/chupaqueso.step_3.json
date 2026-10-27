@@ -30,7 +30,7 @@
         }
       },
       {
-        "ingredient": "cuts",
+        "ingredient": "cuts_chop",
         "amount": {
           "qty": 1,
           "unit": "pinch"
@@ -56,6 +56,13 @@
           "qty": 1,
           "unit": "pinch"
         }
+      },
+      {
+        "ingredient": "marinara_sauce",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
       }
     ]
   },
@@ -63,7 +70,7 @@
     {
       "ingredient": "chupaqueso_step_3",
       "amount": {
-        "qty": 115,
+        "qty": 115.3,
         "unit": "g"
       }
     }
@@ -81,6 +88,11 @@
   },
   "stateNote": "Sprinkle the filler cheese down the middle, and put whatever toppings you want down the middle.",
   "issues": [
+    {
+      "field": "inputs",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.58"
+    },
     {
       "field": "inputs",
       "kind": "estimate",
@@ -107,9 +119,14 @@
       "note": "'Marinated mushrooms': no quantity given; assumed a pinch"
     },
     {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Marinara sauce': no quantity given; assumed a pinch"
+    },
+    {
       "field": "outputs",
       "kind": "estimate",
-      "note": "assumed 1 g/ml for bacon, cuts, banana_peppers, chiles, mushroom"
+      "note": "assumed 1 g/ml for bacon, cuts_chop, banana_peppers, chiles, mushroom, marinara_sauce"
     },
     {
       "field": "environment",

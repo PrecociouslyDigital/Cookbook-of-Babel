@@ -1,0 +1,49 @@
+{
+  "id": "strawberry_fromage_frais.step_1.prep_1",
+  "source": "wikibooks_strawberry_fromage_frais",
+  "technique": "soak",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "gelatin",
+        "amount": {
+          "qty": 6,
+          "unit": "sheet"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "gelatin_soak",
+      "amount": {
+        "qty": 6,
+        "unit": "sheet"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "6 sheets of unflavored gelatin",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

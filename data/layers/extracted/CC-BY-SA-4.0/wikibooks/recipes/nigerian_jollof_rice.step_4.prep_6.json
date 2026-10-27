@@ -1,0 +1,49 @@
+{
+  "id": "nigerian_jollof_rice.step_4.prep_6",
+  "source": "wikibooks_nigerian_jollof_rice",
+  "technique": "heat",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "peanut_oil",
+        "amount": {
+          "qty": 300,
+          "unit": "ml"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "peanut_oil_heat",
+      "amount": {
+        "qty": 300,
+        "unit": "ml"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "300 ml groundnut oil",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "pinon_spanish_stovetop_pot_pie.step_2.prep_9",
+  "source": "wikibooks_pinon_spanish_stovetop_pot_pie",
+  "technique": "boil",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "green_bean",
+        "amount": {
+          "qty": 1,
+          "unit": "lb"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "green_bean_boil",
+      "amount": {
+        "qty": 1,
+        "unit": "lb"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "1 lb string beans or 2 regular-sized cans French-Style string beans",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

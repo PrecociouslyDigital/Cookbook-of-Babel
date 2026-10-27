@@ -1,0 +1,49 @@
+{
+  "id": "tropical_squares.step_2.prep_3",
+  "source": "wikibooks_tropical_squares",
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "margarine",
+        "amount": {
+          "qty": 60,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "margarine_cut",
+      "amount": {
+        "qty": 60,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "¼ cup (60 g) margarine, cold",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

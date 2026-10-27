@@ -1,0 +1,63 @@
+{
+  "id": "baklava_with_pistachio_nuts.step_1",
+  "source": "wikibooks_baklava_with_pistachio_nuts",
+  "sourceRef": {
+    "source": "wikibooks_baklava_with_pistachio_nuts",
+    "step": 1
+  },
+  "technique": "heat",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "phyllo_dough",
+        "amount": {
+          "qty": 1,
+          "unit": "lb"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "phyllo_dough_heat",
+      "amount": {
+        "qty": 453.6,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "If using frozen store-bought phyllo, thaw it inside its plastic package. Don’t open it until you’re ready to use it. If you’re in a hurry you can thaw it in its sealed plastic package in warm water.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.43"
+    },
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.34"
+    },
+    {
+      "field": "inputs",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.5"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

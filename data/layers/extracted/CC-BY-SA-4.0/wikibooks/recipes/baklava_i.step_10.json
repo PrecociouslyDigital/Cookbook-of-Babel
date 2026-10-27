@@ -56,7 +56,7 @@
   ],
   "environment": {
     "temperatureC": 100,
-    "medium": "boiling_water"
+    "medium": "pan_contact"
   },
   "end": {
     "by": "time",
@@ -68,9 +68,14 @@
   "stateNote": "Combine syrup ingredients. Boil syrup for about 10 minutes and then allow to cool.",
   "issues": [
     {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.47"
+    },
+    {
       "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.3"
+      "note": "the decision model gave this answer a probability of 0.37"
     },
     {
       "field": "outputs",

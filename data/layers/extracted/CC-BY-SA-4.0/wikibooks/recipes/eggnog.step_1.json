@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "egg",
+        "ingredient": "egg_whisk",
         "amount": {
           "qty": 6,
           "unit": "piece"
@@ -19,7 +19,7 @@
   },
   "outputs": [
     {
-      "ingredient": "egg_whisk",
+      "ingredient": "egg_whisk_whisk",
       "amount": {
         "qty": 1,
         "unit": "batch"
@@ -37,5 +37,12 @@
       "q10": 1
     }
   },
-  "stateNote": "Whip the eggs for 2 or 3 minutes with an electric mixer at medium speed until very frothy."
+  "stateNote": "Whip the eggs for 2 or 3 minutes with an electric mixer at medium speed until very frothy.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.52"
+    }
+  ]
 }

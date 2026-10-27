@@ -11,7 +11,7 @@
       {
         "ingredient": "mishti_doi_bengali_sweetened_yogurt_step_6",
         "amount": {
-          "qty": 911.5,
+          "qty": 890.2,
           "unit": "g"
         }
       }
@@ -21,7 +21,7 @@
     {
       "ingredient": "mishti_doi_bengali_sweetened_yogurt",
       "amount": {
-        "qty": 911.5,
+        "qty": 890.2,
         "unit": "g"
       }
     }
@@ -33,12 +33,18 @@
       "unit": "min"
     },
     "sensitivity": {
-      "refTempC": 20,
-      "q10": 1
+      "refTempC": 4,
+      "q10": 1,
+      "maxTempC": 8
     }
   },
   "stateNote": "Let the doi set in a warm place for few hours. Once set, refrigerate and serve chilled.",
   "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.47"
+    },
     {
       "field": "end",
       "kind": "estimate",

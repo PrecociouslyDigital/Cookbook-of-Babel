@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "beef",
+        "ingredient": "beef_cut",
         "amount": {
           "qty": 300,
           "unit": "g"
@@ -19,7 +19,7 @@
   },
   "outputs": [
     {
-      "ingredient": "beef_cut",
+      "ingredient": "beef_cut_cut",
       "amount": {
         "qty": 300,
         "unit": "g"
@@ -39,6 +39,11 @@
   },
   "stateNote": "Wash and cut beef into 2.5 cm chunks.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.45"
+    },
     {
       "field": "end",
       "kind": "estimate",

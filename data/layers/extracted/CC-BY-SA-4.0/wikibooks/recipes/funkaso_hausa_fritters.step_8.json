@@ -5,7 +5,7 @@
     "source": "wikibooks_funkaso_hausa_fritters",
     "step": 8
   },
-  "technique": "strain",
+  "technique": "dry",
   "inputs": {
     "of": [
       {
@@ -26,15 +26,15 @@
       }
     }
   ],
-  "environment": {
-    "temperatureC": 175,
-    "medium": "frying_oil"
-  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
     }
   },
   "stateNote": "Remove the fritter(s) from the oil, and drain off any excess on a cooling rack.",
@@ -42,12 +42,12 @@
     {
       "field": "technique",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.46"
+      "note": "the decision model gave this answer a probability of 0.41"
     },
     {
       "field": "environment",
-      "kind": "estimate",
-      "note": "no temperature given; assumed 175.0 °C for frying_oil"
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.43"
     },
     {
       "field": "end",

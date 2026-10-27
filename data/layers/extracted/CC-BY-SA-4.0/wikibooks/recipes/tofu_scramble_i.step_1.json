@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "olive_oil",
+        "ingredient": "olive_oil_heat",
         "amount": {
           "qty": 1,
           "unit": "pinch"
@@ -23,7 +23,7 @@
         }
       },
       {
-        "ingredient": "garlic",
+        "ingredient": "garlic_chop",
         "amount": {
           "qty": 1,
           "unit": "clove"
@@ -49,7 +49,7 @@
   ],
   "environment": {
     "temperatureC": 185,
-    "medium": "frying_oil"
+    "medium": "pan_contact"
   },
   "end": {
     "by": "time",
@@ -60,6 +60,11 @@
   },
   "stateNote": "Heat about 1–2 tablespoons (15–30 g) oil in a saucepan. Add onion, garlic, and sun-dried tomato to pan, then cook until soft and golden.",
   "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.54"
+    },
     {
       "field": "inputs",
       "kind": "estimate",

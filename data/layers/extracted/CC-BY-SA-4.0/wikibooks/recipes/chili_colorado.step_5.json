@@ -5,7 +5,7 @@
     "source": "wikibooks_chili_colorado",
     "step": 5
   },
-  "technique": "boil",
+  "technique": "mix",
   "inputs": {
     "of": [
       {
@@ -34,8 +34,8 @@
     }
   ],
   "environment": {
-    "temperatureC": 100,
-    "medium": "simmering_water"
+    "temperatureC": 180,
+    "medium": "pan_contact"
   },
   "end": {
     "by": "time",
@@ -49,12 +49,17 @@
     {
       "field": "technique",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.54"
+      "note": "the decision model gave this answer a probability of 0.5"
+    },
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.39"
     },
     {
       "field": "environment",
       "kind": "estimate",
-      "note": "no temperature given; used the middle of boil's typical range"
+      "note": "no temperature given; assumed 180.0 °C for pan_contact"
     },
     {
       "field": "end",

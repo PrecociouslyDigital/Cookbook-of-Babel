@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "milk",
+        "ingredient": "milk_simmer",
         "amount": {
           "qty": 2.5,
           "unit": "cup"
@@ -19,9 +19,9 @@
   },
   "outputs": [
     {
-      "ingredient": "milk_simmer",
+      "ingredient": "milk_simmer_simmer",
       "amount": {
-        "qty": 609.2,
+        "qty": 591.5,
         "unit": "g"
       }
     }
@@ -39,6 +39,11 @@
   },
   "stateNote": "Pour in the milk into the pan. Let it simmer on medium-low heat.",
   "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for milk_simmer"
+    },
     {
       "field": "environment",
       "kind": "estimate",

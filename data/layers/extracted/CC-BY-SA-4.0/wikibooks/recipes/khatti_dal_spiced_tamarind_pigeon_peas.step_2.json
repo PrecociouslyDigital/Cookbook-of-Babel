@@ -9,14 +9,14 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "pigeon_pea_boil",
+        "ingredient": "pigeon_pea_rinse_boil",
         "amount": {
           "qty": 236.6,
           "unit": "g"
         }
       },
       {
-        "ingredient": "oil_and_fat",
+        "ingredient": "oil_and_fat_heat",
         "amount": {
           "qty": 2,
           "unit": "tbsp"
@@ -68,6 +68,11 @@
   "stateNote": "In a kadai, heat the oil until hot. Add curry leaves, mustard seeds and jeera seeds. Fry for a minute. They will pop at first, so a cover will help to avoid a mess.",
   "issues": [
     {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.56"
+    },
+    {
       "field": "inputs",
       "kind": "estimate",
       "note": "'Curry leaves': no quantity given; assumed a pinch"
@@ -75,7 +80,7 @@
     {
       "field": "outputs",
       "kind": "estimate",
-      "note": "assumed 1 g/ml for oil_and_fat, mustard, cumin, curry_leaf"
+      "note": "assumed 1 g/ml for oil_and_fat_heat, mustard, cumin, curry_leaf"
     },
     {
       "field": "environment",

@@ -1,0 +1,49 @@
+{
+  "id": "eggnog.step_3.prep_6",
+  "source": "wikibooks_eggnog",
+  "technique": "chill",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "rum",
+        "amount": {
+          "qty": 80,
+          "unit": "ml"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "rum_chill",
+      "amount": {
+        "qty": 80,
+        "unit": "ml"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "80 ml (⅓ cup) dark rum, cold",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "stir_fried_seafood_with_noodles.step_5.prep_8",
+  "source": "wikibooks_stir_fried_seafood_with_noodles",
+  "technique": "rinse",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "bean_sprout",
+        "amount": {
+          "qty": 150,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "bean_sprout_rinse",
+      "amount": {
+        "qty": 150,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "150 g bean sprouts, rinsed in hot water",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

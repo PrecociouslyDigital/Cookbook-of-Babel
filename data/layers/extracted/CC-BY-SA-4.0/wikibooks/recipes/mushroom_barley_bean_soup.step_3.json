@@ -16,14 +16,14 @@
         }
       },
       {
-        "ingredient": "carrot",
+        "ingredient": "carrot_chop",
         "amount": {
           "qty": 1.5,
           "unit": "piece"
         }
       },
       {
-        "ingredient": "zucchini",
+        "ingredient": "zucchini_chop",
         "amount": {
           "qty": 1.5,
           "unit": "piece"
@@ -53,6 +53,11 @@
   },
   "stateNote": "Add carrots and zucchini; sauté 5 minutes more.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.48"
+    },
     {
       "field": "environment",
       "kind": "estimate",

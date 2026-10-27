@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "water",
+        "ingredient": "water_heat",
         "amount": {
           "qty": 32,
           "unit": "fl_oz"
@@ -19,7 +19,7 @@
   },
   "outputs": [
     {
-      "ingredient": "water_heat",
+      "ingredient": "water_heat_heat",
       "amount": {
         "qty": 946.2,
         "unit": "g"
@@ -39,6 +39,21 @@
   },
   "stateNote": "Pour freshly-drawn water into a tea kettle, and heat it to your desired temperature. An electric kettle is fast and convenient.",
   "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.51"
+    },
+    {
+      "field": "inputs",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.57"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for water_heat"
+    },
     {
       "field": "environment",
       "kind": "estimate",

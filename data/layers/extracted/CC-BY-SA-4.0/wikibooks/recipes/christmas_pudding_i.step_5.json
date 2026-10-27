@@ -26,15 +26,15 @@
       }
     }
   ],
+  "environment": {
+    "temperatureC": 100,
+    "medium": "steam"
+  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
-    },
-    "sensitivity": {
-      "refTempC": 20,
-      "q10": 1
     }
   },
   "stateNote": "Slowly add the mixture into the basin and level the mixture out. Cut a layer of baking paper and foil for the top, leaving a crease in the middle so the pudding can expand, place it on top of the basin, and secure it with string.",
@@ -42,7 +42,12 @@
     {
       "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.39"
+      "note": "the decision model gave this answer a probability of 0.41"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 100.0 °C for steam"
     },
     {
       "field": "end",

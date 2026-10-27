@@ -1,0 +1,49 @@
+{
+  "id": "four_in_one_pizza.step_8.prep_8",
+  "source": "wikibooks_four_in_one_pizza",
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "barbecue_sauce_i",
+        "amount": {
+          "qty": 0.5,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "barbecue_sauce_i_mix",
+      "amount": {
+        "qty": 0.5,
+        "unit": "cup"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "½ cup BBQ sauce mixed with shredded chicken",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "tomato_bredie.step_4.prep_5",
+  "source": "wikibooks_tomato_bredie",
+  "technique": "chop",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "tomatoes_with_cheese_stuffing",
+        "amount": {
+          "qty": 2.25,
+          "unit": "lb"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "tomatoes_with_cheese_stuffing_chop",
+      "amount": {
+        "qty": 2.25,
+        "unit": "lb"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "2¼ pounds fresh tomatoes, chopped",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

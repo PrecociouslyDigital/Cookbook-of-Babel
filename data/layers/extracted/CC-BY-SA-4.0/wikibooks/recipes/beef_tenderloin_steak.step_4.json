@@ -27,8 +27,8 @@
     }
   ],
   "environment": {
-    "temperatureC": 180,
-    "medium": "pan_contact"
+    "temperatureC": 20,
+    "medium": "still_air"
   },
   "end": {
     "by": "time",
@@ -40,14 +40,19 @@
   "stateNote": "Remove onion from skillet; set aside, and keep warm.",
   "issues": [
     {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.53"
+    },
+    {
       "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.51"
+      "note": "the decision model gave this answer a probability of 0.45"
     },
     {
       "field": "environment",
       "kind": "estimate",
-      "note": "no temperature given; assumed 180.0 °C for pan_contact"
+      "note": "no temperature given; assumed 20.0 °C for still_air"
     },
     {
       "field": "end",

@@ -9,7 +9,14 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "onion",
+        "ingredient": "onion_pan_fry",
+        "amount": {
+          "qty": 1,
+          "unit": "cup"
+        }
+      },
+      {
+        "ingredient": "onion_pan_fry",
         "amount": {
           "qty": 1,
           "unit": "cup"
@@ -19,9 +26,9 @@
   },
   "outputs": [
     {
-      "ingredient": "onion_pan_fry",
+      "ingredient": "vegetarian_soft_tacos_step_1",
       "amount": {
-        "qty": 236.6,
+        "qty": 473.2,
         "unit": "g"
       }
     }
@@ -40,9 +47,14 @@
   "stateNote": "In a frying pan brown onions on medium-low heat.",
   "issues": [
     {
+      "field": "inputs",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.36"
+    },
+    {
       "field": "outputs",
       "kind": "estimate",
-      "note": "assumed 1 g/ml for onion"
+      "note": "assumed 1 g/ml for onion_pan_fry, onion_pan_fry"
     },
     {
       "field": "environment",

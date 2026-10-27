@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "butter",
+        "ingredient": "butter_cut",
         "amount": {
           "qty": 3,
           "unit": "tbsp"
@@ -67,6 +67,11 @@
   },
   "stateNote": "Combine the flour, salt, and Italian seasoning in a shallow bowl, and mix to distribute well. Mix in the butter until solid, firm dough lumps form. If mixing by hand, pinch and clasp them together until a ball can be formed.",
   "issues": [
+    {
+      "field": "inputs",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.59"
+    },
     {
       "field": "inputs",
       "kind": "estimate",

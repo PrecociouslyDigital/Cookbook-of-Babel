@@ -1,0 +1,49 @@
+{
+  "id": "eve_s_apple_cinnamon_raisin_stuffed_apple.step_1.prep_1",
+  "source": "wikibooks_eve_s_apple_cinnamon_raisin_stuffed_apple",
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "apple",
+        "amount": {
+          "qty": 1,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "apple_cut",
+      "amount": {
+        "qty": 1,
+        "unit": "piece"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "1 small baking apple",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

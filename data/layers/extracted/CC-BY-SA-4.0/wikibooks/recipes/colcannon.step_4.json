@@ -16,7 +16,7 @@
         }
       },
       {
-        "ingredient": "cabbage",
+        "ingredient": "cabbage_boil",
         "amount": {
           "qty": 450,
           "unit": "g"
@@ -46,6 +46,11 @@
   },
   "stateNote": "Blanch the cabbage in boiling water for 2 minutes and drain.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.57"
+    },
     {
       "field": "environment",
       "kind": "estimate",

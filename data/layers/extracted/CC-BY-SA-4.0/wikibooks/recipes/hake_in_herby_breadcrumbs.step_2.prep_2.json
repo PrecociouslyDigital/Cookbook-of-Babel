@@ -1,0 +1,49 @@
+{
+  "id": "hake_in_herby_breadcrumbs.step_2.prep_2",
+  "source": "wikibooks_hake_in_herby_breadcrumbs",
+  "technique": "chop",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "herbs_and_spices",
+        "amount": {
+          "qty": 0.5,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "herbs_and_spices_chop",
+      "amount": {
+        "qty": 0.5,
+        "unit": "cup"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "½ cup chopped herbs (e.g. parsley, tarragon, etc.)",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

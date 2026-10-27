@@ -14,6 +14,13 @@
           "qty": 1,
           "unit": "batch"
         }
+      },
+      {
+        "ingredient": "olive_oil",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
       }
     ]
   },
@@ -39,6 +46,16 @@
   },
   "stateNote": "Rub oil on the surface of the banana leaf. Put a bit more than half a ladle of dough in the centre of the leaf. Spread with a spoon to make a 14 cm-diameter circle.",
   "issues": [
+    {
+      "field": "inputs",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.45"
+    },
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Olive oil': no quantity given; assumed a pinch"
+    },
     {
       "field": "end",
       "kind": "estimate",

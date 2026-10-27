@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "potato",
+        "ingredient": "potato_rinse",
         "amount": {
           "qty": 1,
           "unit": "kg"
@@ -19,7 +19,7 @@
   },
   "outputs": [
     {
-      "ingredient": "potato_boil",
+      "ingredient": "potato_rinse_boil",
       "amount": {
         "qty": 1000,
         "unit": "g"
@@ -39,6 +39,11 @@
   },
   "stateNote": "Wash (and optionally peel) the potatoes and put in a pan of boiling water.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.49"
+    },
     {
       "field": "environment",
       "kind": "estimate",

@@ -9,21 +9,21 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "assorted_meat",
+        "ingredient": "assorted_meat_season",
         "amount": {
           "qty": 700,
           "unit": "g"
         }
       },
       {
-        "ingredient": "stockfish",
+        "ingredient": "stockfish_soak",
         "amount": {
           "qty": 200,
           "unit": "g"
         }
       },
       {
-        "ingredient": "onion",
+        "ingredient": "onion_chop",
         "amount": {
           "qty": 1,
           "unit": "piece"
@@ -60,6 +60,11 @@
   },
   "stateNote": "Cook the meats: Season 700 grams assorted meat (beef, shaki, ponmo, cow leg) with diced 1 onion, 1 of 2 seasoning cubes, and a pinch of 1 teaspoons salt. Add 200 grams stockfish (panla), soaked and cleaned midway through cooking. Cook on medium heat until tender. Reserve the meat stock.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.45"
+    },
     {
       "field": "environment",
       "kind": "estimate",

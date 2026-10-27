@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "egg",
+        "ingredient": "egg_whisk",
         "amount": {
           "qty": 2,
           "unit": "piece"
@@ -46,6 +46,11 @@
   },
   "stateNote": "Whisk eggs and cottage cheese together in a small bowl; place in skillet.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.46"
+    },
     {
       "field": "environment",
       "kind": "estimate",

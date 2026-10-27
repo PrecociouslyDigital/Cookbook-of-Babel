@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "chocolate",
+        "ingredient": "chocolate_heat",
         "amount": {
           "qty": 50,
           "unit": "g"
@@ -19,7 +19,7 @@
   },
   "outputs": [
     {
-      "ingredient": "chocolate_heat",
+      "ingredient": "chocolate_heat_heat",
       "amount": {
         "qty": 50,
         "unit": "g"
@@ -27,8 +27,8 @@
     }
   ],
   "environment": {
-    "temperatureC": 100,
-    "medium": "boiling_water"
+    "temperatureC": 90,
+    "medium": "simmering_water"
   },
   "end": {
     "by": "time",
@@ -42,12 +42,12 @@
     {
       "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.46"
+      "note": "the decision model gave this answer a probability of 0.59"
     },
     {
       "field": "environment",
       "kind": "estimate",
-      "note": "no temperature given; assumed 100.0 °C for boiling_water"
+      "note": "no temperature given; assumed 90.0 °C for simmering_water"
     },
     {
       "field": "end",

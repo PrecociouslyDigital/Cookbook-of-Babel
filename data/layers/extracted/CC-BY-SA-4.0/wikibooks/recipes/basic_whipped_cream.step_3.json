@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "cream_whisk",
+        "ingredient": "cream_chill_whisk",
         "amount": {
           "qty": 236.6,
           "unit": "g"
@@ -19,7 +19,7 @@
   },
   "outputs": [
     {
-      "ingredient": "cream_whisk_whisk",
+      "ingredient": "cream_chill_whisk_whisk",
       "amount": {
         "qty": 236.6,
         "unit": "g"
@@ -39,6 +39,11 @@
   },
   "stateNote": "Continue whipping until you notice the cream thickening around the beaters and leaving visible traces. This is your sign to watch it carefully, as it's easy to overwhip.",
   "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.41"
+    },
     {
       "field": "end",
       "kind": "estimate",

@@ -1,0 +1,49 @@
+{
+  "id": "bean_soup_vegetarian.step_7.prep_7",
+  "source": "wikibooks_bean_soup_vegetarian",
+  "technique": "rinse",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "common_bean",
+        "amount": {
+          "qty": 15,
+          "unit": "oz"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "common_bean_rinse",
+      "amount": {
+        "qty": 15,
+        "unit": "oz"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "1 can (15 ounces) no-salt-added black beans",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

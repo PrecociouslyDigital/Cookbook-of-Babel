@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "oil_and_fat",
+        "ingredient": "oil_and_fat_heat",
         "amount": {
           "qty": 3,
           "unit": "tbsp"
@@ -23,14 +23,14 @@
         }
       },
       {
-        "ingredient": "leek",
+        "ingredient": "leek_chop",
         "amount": {
           "qty": 2,
           "unit": "piece"
         }
       },
       {
-        "ingredient": "chile",
+        "ingredient": "chile_chop",
         "amount": {
           "qty": 2,
           "unit": "piece"
@@ -49,7 +49,7 @@
   ],
   "environment": {
     "temperatureC": 215,
-    "medium": "frying_oil"
+    "medium": "pan_contact"
   },
   "end": {
     "by": "time",
@@ -60,6 +60,11 @@
   },
   "stateNote": "Heat the oil in a non-stick pan, and stir-fry the garlic, red chile, and leeks for about 1 minute.",
   "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.56"
+    },
     {
       "field": "environment",
       "kind": "estimate",

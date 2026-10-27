@@ -33,7 +33,7 @@
         "max": 1,
         "of": [
           {
-            "ingredient": "basil",
+            "ingredient": "basil_julienne",
             "amount": {
               "qty": 5,
               "unit": "piece"
@@ -52,29 +52,19 @@
       }
     }
   ],
-  "environment": {
-    "temperatureC": 90,
-    "medium": "simmering_water"
-  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
     }
   },
   "stateNote": "Stir in vinegar, if desired, just prior to serving.",
   "issues": [
-    {
-      "field": "environment",
-      "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.54"
-    },
-    {
-      "field": "environment",
-      "kind": "estimate",
-      "note": "no temperature given; assumed 90.0 °C for simmering_water"
-    },
     {
       "field": "end",
       "kind": "estimate",

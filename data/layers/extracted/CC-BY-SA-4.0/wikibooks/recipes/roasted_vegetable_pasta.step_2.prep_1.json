@@ -1,0 +1,49 @@
+{
+  "id": "roasted_vegetable_pasta.step_2.prep_1",
+  "source": "wikibooks_roasted_vegetable_pasta",
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "leek",
+        "amount": {
+          "qty": 3,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "leek_cut",
+      "amount": {
+        "qty": 3,
+        "unit": "piece"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "3 large leeks, white parts only, split in half lengthwise and cut into bite-sized pieces",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "fried_bacon_and_egg_sandwich_homemade_egg_mcmuffin.step_1.prep_1",
+  "source": "wikibooks_fried_bacon_and_egg_sandwich_homemade_egg_mcmuffin",
+  "technique": "toast",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "english_muffins",
+        "amount": {
+          "qty": 2,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "english_muffins_toast",
+      "amount": {
+        "qty": 2,
+        "unit": "piece"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "2 English muffins, sliced in half",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

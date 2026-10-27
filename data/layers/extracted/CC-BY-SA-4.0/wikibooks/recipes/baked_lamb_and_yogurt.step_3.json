@@ -16,14 +16,14 @@
         }
       },
       {
-        "ingredient": "wheat_flour",
+        "ingredient": "wheat_flour_fry",
         "amount": {
           "qty": 1,
           "unit": "tbsp"
         }
       },
       {
-        "ingredient": "butter",
+        "ingredient": "butter_fry",
         "amount": {
           "qty": 4,
           "unit": "tbsp"
@@ -61,28 +61,28 @@
       }
     }
   ],
-  "environment": {
-    "temperatureC": 180,
-    "medium": "pan_contact"
-  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
     }
   },
   "stateNote": "Sauté flour in butter until mixed thoroughly. Mix yogurt with salt, pepper and eggs until a uniform mixture is obtained, and finally stir in the flour-butter mix. Put the sauce mixture in the baking pan; stir it with the meat pieces.",
   "issues": [
     {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.52"
+    },
+    {
       "field": "inputs",
       "kind": "estimate",
       "note": "'Salt': no quantity given; assumed a pinch"
-    },
-    {
-      "field": "environment",
-      "kind": "estimate",
-      "note": "no temperature given; assumed 180.0 °C for pan_contact"
     },
     {
       "field": "end",

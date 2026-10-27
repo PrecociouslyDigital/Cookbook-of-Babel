@@ -1,0 +1,49 @@
+{
+  "id": "tofu_scramble_i.step_2.prep_2",
+  "source": "wikibooks_tofu_scramble_i",
+  "technique": "grind",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "tofu",
+        "amount": {
+          "qty": 0.3333333333333333,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "tofu_grind",
+      "amount": {
+        "qty": 0.3333333333333333,
+        "unit": "piece"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 15,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "⅓ block soft tofu, drained for 15 minutes",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.45"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    }
+  ]
+}

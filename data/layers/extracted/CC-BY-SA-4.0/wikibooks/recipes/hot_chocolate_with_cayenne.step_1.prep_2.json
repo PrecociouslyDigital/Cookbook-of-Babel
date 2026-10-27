@@ -1,0 +1,54 @@
+{
+  "id": "hot_chocolate_with_cayenne.step_1.prep_2",
+  "source": "wikibooks_hot_chocolate_with_cayenne",
+  "technique": "chop",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "chocolate",
+        "amount": {
+          "qty": 50,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "chocolate_chop",
+      "amount": {
+        "qty": 50,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "½ bar (50 g / 1.8 oz) dark chocolate bar of at least 60% cocoa (but no higher than 80%)",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.32"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

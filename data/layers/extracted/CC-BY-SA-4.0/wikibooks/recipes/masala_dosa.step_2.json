@@ -26,23 +26,23 @@
       }
     }
   ],
-  "environment": {
-    "temperatureC": 20,
-    "medium": "still_air"
-  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 8,
       "unit": "h"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
     }
   },
   "stateNote": "Leave batter overnight in a warm spot and allow it to ferment. This is a very important process and must not be skipped. During fermentation the batter may rise to almost twice its volume, and therefore the container for the batter must allow for this.",
   "issues": [
     {
       "field": "environment",
-      "kind": "estimate",
-      "note": "no temperature given; assumed 20.0 °C for still_air"
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.5"
     },
     {
       "field": "end",

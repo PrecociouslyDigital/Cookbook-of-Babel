@@ -5,11 +5,11 @@
     "source": "wikibooks_candied_yams",
     "step": 3
   },
-  "technique": "cut",
+  "technique": "strain",
   "inputs": {
     "of": [
       {
-        "ingredient": "sweet_potato_boil",
+        "ingredient": "sweet_potato_boil_boil",
         "amount": {
           "qty": 1,
           "unit": "batch"
@@ -19,30 +19,35 @@
   },
   "outputs": [
     {
-      "ingredient": "sweet_potato_boil_cut",
+      "ingredient": "candied_yams_step_3",
       "amount": {
         "qty": 1,
         "unit": "batch"
       }
     }
   ],
-  "environment": {
-    "temperatureC": 100,
-    "medium": "boiling_water"
-  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
     }
   },
   "stateNote": "Drain water from yams, remove skins, and cut in cubes.",
   "issues": [
     {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.32"
+    },
+    {
       "field": "environment",
-      "kind": "estimate",
-      "note": "no temperature given; assumed 100.0 °C for boiling_water"
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.54"
     },
     {
       "field": "end",

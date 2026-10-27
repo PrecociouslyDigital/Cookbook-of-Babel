@@ -1,0 +1,49 @@
+{
+  "id": "spicy_cheddar_dip_with_olives.step_1.prep_1",
+  "source": "wikibooks_spicy_cheddar_dip_with_olives",
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "pita",
+        "amount": {
+          "qty": 1,
+          "unit": "package"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "pita_cut",
+      "amount": {
+        "qty": 1,
+        "unit": "package"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "1 package (6 ea.) 6-inch (15 cm) pita pockets",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "tortellini_in_sweet_potato_sauce.step_1.prep_1",
+  "source": "wikibooks_tortellini_in_sweet_potato_sauce",
+  "technique": "bake",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "sweet_potato",
+        "amount": {
+          "qty": 1,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "sweet_potato_bake",
+      "amount": {
+        "qty": 1,
+        "unit": "piece"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "1 large sweet potato",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

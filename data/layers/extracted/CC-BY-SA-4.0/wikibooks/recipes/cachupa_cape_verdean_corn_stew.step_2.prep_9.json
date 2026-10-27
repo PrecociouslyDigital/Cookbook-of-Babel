@@ -1,0 +1,49 @@
+{
+  "id": "cachupa_cape_verdean_corn_stew.step_2.prep_9",
+  "source": "wikibooks_cachupa_cape_verdean_corn_stew",
+  "technique": "soak",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "pulses",
+        "amount": {
+          "qty": 1,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "pulses_soak",
+      "amount": {
+        "qty": 1,
+        "unit": "cup"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "1 cup feijao Pedro beans (rock beans)",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

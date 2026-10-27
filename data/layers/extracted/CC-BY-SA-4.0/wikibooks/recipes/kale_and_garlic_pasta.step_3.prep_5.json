@@ -1,0 +1,49 @@
+{
+  "id": "kale_and_garlic_pasta.step_3.prep_5",
+  "source": "wikibooks_kale_and_garlic_pasta",
+  "technique": "boil",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "kale",
+        "amount": {
+          "qty": 1.5,
+          "unit": "bunch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "kale_boil",
+      "amount": {
+        "qty": 1.5,
+        "unit": "bunch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "1–2 bunches kale, deboned and cut into bite-sized pieces",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

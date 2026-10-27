@@ -1,0 +1,49 @@
+{
+  "id": "rassolnik_russian_barley_and_kidney_soup.step_6.prep_6",
+  "source": "wikibooks_rassolnik_russian_barley_and_kidney_soup",
+  "technique": "chop",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "pickled_cucumbers",
+        "amount": {
+          "qty": 2,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "pickled_cucumbers_chop",
+      "amount": {
+        "qty": 2,
+        "unit": "piece"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "2 pickled cucumbers",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

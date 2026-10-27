@@ -5,7 +5,7 @@
     "source": "wikibooks_masala_dosa",
     "step": 4
   },
-  "technique": "fry",
+  "technique": "heat",
   "inputs": {
     "of": [
       {
@@ -16,14 +16,14 @@
         }
       },
       {
-        "ingredient": "oil_and_fat",
+        "ingredient": "oil_and_fat_heat",
         "amount": {
           "qty": 2,
           "unit": "tbsp"
         }
       },
       {
-        "ingredient": "mustard",
+        "ingredient": "mustard_fry",
         "amount": {
           "qty": 0.5,
           "unit": "tsp"
@@ -41,7 +41,7 @@
     }
   ],
   "environment": {
-    "temperatureC": 190,
+    "temperatureC": 175,
     "medium": "frying_oil"
   },
   "end": {
@@ -54,19 +54,14 @@
   "stateNote": "When the oil is hot add mustard seeds, and allow them to splutter.",
   "issues": [
     {
-      "field": "technique",
-      "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.43"
-    },
-    {
       "field": "outputs",
       "kind": "estimate",
-      "note": "assumed 1 g/ml for oil_and_fat, mustard"
+      "note": "assumed 1 g/ml for oil_and_fat_heat, mustard_fry"
     },
     {
       "field": "environment",
       "kind": "estimate",
-      "note": "no temperature given; used the middle of fry's typical range"
+      "note": "no temperature given; assumed 175.0 °C for frying_oil"
     },
     {
       "field": "end",

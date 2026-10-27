@@ -16,7 +16,7 @@
         }
       },
       {
-        "ingredient": "rosemary",
+        "ingredient": "rosemary_chop",
         "amount": {
           "qty": 2,
           "unit": "tbsp"
@@ -33,29 +33,19 @@
       }
     }
   ],
-  "environment": {
-    "temperatureC": 20,
-    "medium": "still_air"
-  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
     }
   },
   "stateNote": "Remove and skim fat. Serve sprinkled with rosemary.",
   "issues": [
-    {
-      "field": "environment",
-      "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.33"
-    },
-    {
-      "field": "environment",
-      "kind": "estimate",
-      "note": "no temperature given; assumed 20.0 °C for still_air"
-    },
     {
       "field": "end",
       "kind": "estimate",

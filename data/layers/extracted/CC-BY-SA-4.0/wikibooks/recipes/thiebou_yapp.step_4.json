@@ -34,8 +34,8 @@
     }
   ],
   "environment": {
-    "temperatureC": 90,
-    "medium": "simmering_water"
+    "temperatureC": 100,
+    "medium": "boiling_water"
   },
   "end": {
     "by": "time",
@@ -47,9 +47,14 @@
   "stateNote": "Add salt and seasoning cube, cover and allow to cook for 2 minutes.",
   "issues": [
     {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.59"
+    },
+    {
       "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.53"
+      "note": "the decision model gave this answer a probability of 0.55"
     },
     {
       "field": "inputs",
@@ -59,7 +64,7 @@
     {
       "field": "environment",
       "kind": "estimate",
-      "note": "no temperature given; assumed 90.0 °C for simmering_water"
+      "note": "no temperature given; assumed 100.0 °C for boiling_water"
     }
   ]
 }

@@ -5,11 +5,11 @@
     "source": "wikibooks_nune_soup",
     "step": 1
   },
-  "technique": "blend",
+  "technique": "boil",
   "inputs": {
     "of": [
       {
-        "ingredient": "pepper",
+        "ingredient": "pepper_blend",
         "amount": {
           "qty": 1,
           "unit": "pinch"
@@ -19,7 +19,7 @@
   },
   "outputs": [
     {
-      "ingredient": "pepper_blend",
+      "ingredient": "pepper_blend_boil",
       "amount": {
         "qty": 0.3,
         "unit": "g"
@@ -40,11 +40,6 @@
   "stateNote": "Blend pepper the pepper to a paste. Boil it for few minutes.",
   "issues": [
     {
-      "field": "technique",
-      "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.58"
-    },
-    {
       "field": "inputs",
       "kind": "estimate",
       "note": "'Fresh pepper': no quantity given; assumed a pinch"
@@ -52,12 +47,12 @@
     {
       "field": "outputs",
       "kind": "estimate",
-      "note": "assumed 1 g/ml for pepper"
+      "note": "assumed 1 g/ml for pepper_blend"
     },
     {
       "field": "environment",
       "kind": "estimate",
-      "note": "no temperature given; assumed 100.0 °C for boiling_water"
+      "note": "no temperature given; used the middle of boil's typical range"
     },
     {
       "field": "end",

@@ -9,14 +9,14 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "potato_boil",
+        "ingredient": "potato_boil_boil",
         "amount": {
           "qty": 1,
           "unit": "batch"
         }
       },
       {
-        "ingredient": "onion",
+        "ingredient": "onion_chop",
         "amount": {
           "qty": 1,
           "unit": "piece"
@@ -30,7 +30,7 @@
         }
       },
       {
-        "ingredient": "vegetable_oil",
+        "ingredient": "vegetable_oil_heat",
         "amount": {
           "qty": 2,
           "unit": "tbsp"
@@ -60,6 +60,11 @@
   },
   "stateNote": "Heat the vegetable oil in a pan over medium heat. Add the chopped onion and minced garlic, and sauté until the onion is translucent and fragrant.",
   "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.58"
+    },
     {
       "field": "environment",
       "kind": "estimate",

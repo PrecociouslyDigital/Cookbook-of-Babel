@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "fish",
+        "ingredient": "fish_cut",
         "amount": {
           "qty": 4,
           "unit": "lb"
@@ -19,7 +19,7 @@
   },
   "outputs": [
     {
-      "ingredient": "fish_cut",
+      "ingredient": "fish_cut_cut",
       "amount": {
         "qty": 1814.4,
         "unit": "g"
@@ -39,6 +39,11 @@
   },
   "stateNote": "Wash and debone the fish, and cut it into ½ x ½ inch (about 1 x 1 cm) chunks.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.54"
+    },
     {
       "field": "end",
       "kind": "estimate",

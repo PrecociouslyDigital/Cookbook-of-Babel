@@ -37,14 +37,14 @@
         }
       },
       {
-        "ingredient": "chicken",
+        "ingredient": "chicken_cut",
         "amount": {
           "qty": 12,
           "unit": "oz"
         }
       },
       {
-        "ingredient": "water_chestnut",
+        "ingredient": "water_chestnut_cut",
         "amount": {
           "qty": 12,
           "unit": "piece"
@@ -68,12 +68,18 @@
       "unit": "h"
     },
     "sensitivity": {
-      "refTempC": 20,
-      "q10": 1
+      "refTempC": 4,
+      "q10": 1,
+      "maxTempC": 8
     }
   },
   "stateNote": "Combine soy sauce, ginger, sherry and sugar in a small bowl. Add the chicken livers and water chestnut pieces and marinate them in the refrigerator for at least ½ hour.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.52"
+    },
     {
       "field": "inputs",
       "kind": "estimate",

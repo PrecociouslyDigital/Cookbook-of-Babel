@@ -1,0 +1,49 @@
+{
+  "id": "proja_serbian_cornbread.step_1.prep_8",
+  "source": "wikibooks_proja_serbian_cornbread",
+  "technique": "grind",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "cheese",
+        "amount": {
+          "qty": 1,
+          "unit": "slice"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "cheese_grind",
+      "amount": {
+        "qty": 1,
+        "unit": "slice"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "1 big slice cheese, crushed",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

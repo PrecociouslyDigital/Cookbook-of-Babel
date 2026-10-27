@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "marshmallow",
+        "ingredient": "marshmallow_toast",
         "amount": {
           "qty": 1,
           "unit": "piece"
@@ -19,7 +19,7 @@
   },
   "outputs": [
     {
-      "ingredient": "marshmallow_toast",
+      "ingredient": "marshmallow_toast_toast",
       "amount": {
         "qty": 1,
         "unit": "batch"
@@ -39,6 +39,11 @@
   },
   "stateNote": "Toast marshmallow until golden brown over campfire on long green stick with bark peeled off.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.55"
+    },
     {
       "field": "environment",
       "kind": "estimate",

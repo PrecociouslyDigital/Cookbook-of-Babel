@@ -1,0 +1,49 @@
+{
+  "id": "tequila_lime_strip_steak.step_4.prep_7",
+  "source": "wikibooks_tequila_lime_strip_steak",
+  "technique": "soak",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "soaked_mesquite_chips",
+        "amount": {
+          "qty": 0.5,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "soaked_mesquite_chips_soak",
+      "amount": {
+        "qty": 0.5,
+        "unit": "cup"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "½ cup soaked mesquite chips",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -5,7 +5,7 @@
     "source": "wikibooks_brown_butter_toffee_chocolate_chip_cookies",
     "step": 5
   },
-  "technique": "toast",
+  "technique": "heat",
   "inputs": {
     "of": [
       {
@@ -16,7 +16,7 @@
         }
       },
       {
-        "ingredient": "unsalted_butter",
+        "ingredient": "unsalted_butter_heat",
         "amount": {
           "qty": 1,
           "unit": "cup"
@@ -34,7 +34,7 @@
     }
   ],
   "environment": {
-    "temperatureC": 185,
+    "temperatureC": 180,
     "medium": "pan_contact"
   },
   "end": {
@@ -47,19 +47,14 @@
   "stateNote": "Melt the butter in a saucepan and cook until it turns dark brown. Remove from the heat.",
   "issues": [
     {
-      "field": "technique",
-      "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.5"
-    },
-    {
       "field": "outputs",
       "kind": "estimate",
-      "note": "assumed 1 g/ml for unsalted_butter"
+      "note": "assumed 1 g/ml for unsalted_butter_heat"
     },
     {
       "field": "environment",
       "kind": "estimate",
-      "note": "no temperature given; used the middle of toast's typical range"
+      "note": "no temperature given; assumed 180.0 °C for pan_contact"
     },
     {
       "field": "end",

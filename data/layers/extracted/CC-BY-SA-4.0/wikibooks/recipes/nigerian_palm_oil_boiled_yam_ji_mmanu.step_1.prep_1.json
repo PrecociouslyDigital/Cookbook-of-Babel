@@ -1,0 +1,49 @@
+{
+  "id": "nigerian_palm_oil_boiled_yam_ji_mmanu.step_1.prep_1",
+  "source": "wikibooks_nigerian_palm_oil_boiled_yam_ji_mmanu",
+  "technique": "boil",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "yam",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "yam_boil",
+      "amount": {
+        "qty": 1,
+        "unit": "pinch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Yam, peeled and diced",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

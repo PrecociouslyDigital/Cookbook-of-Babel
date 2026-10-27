@@ -1,0 +1,49 @@
+{
+  "id": "tiramisu_paninis.step_1.prep_1",
+  "source": "wikibooks_tiramisu_paninis",
+  "technique": "toast",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "bread",
+        "amount": {
+          "qty": 8,
+          "unit": "slice"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "bread_toast",
+      "amount": {
+        "qty": 8,
+        "unit": "slice"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "8 slices white bread, toasted",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

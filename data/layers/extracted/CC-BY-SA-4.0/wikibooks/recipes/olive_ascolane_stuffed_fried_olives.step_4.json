@@ -16,7 +16,7 @@
         }
       },
       {
-        "ingredient": "olive",
+        "ingredient": "olive_cut",
         "amount": {
           "qty": 50,
           "unit": "piece"
@@ -40,12 +40,18 @@
       "unit": "min"
     },
     "sensitivity": {
-      "refTempC": 20,
-      "q10": 1
+      "refTempC": 4,
+      "q10": 1,
+      "maxTempC": 8
     }
   },
   "stateNote": "Remove the mixture from refrigerator and roll meat into balls about the size of a small walnut. Put half of an olive on each side of the rolled ball.",
   "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.49"
+    },
     {
       "field": "inputs",
       "kind": "estimate",

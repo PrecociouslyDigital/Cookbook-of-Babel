@@ -1,0 +1,49 @@
+{
+  "id": "lentils_and_rice_mjeddrah.step_1.prep_1",
+  "source": "wikibooks_lentils_and_rice_mjeddrah",
+  "technique": "soak",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "lentil",
+        "amount": {
+          "qty": 0.5,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "lentil_soak",
+      "amount": {
+        "qty": 0.5,
+        "unit": "cup"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "h"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "½ cup brown lentils, soaked an hour or more",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.56"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    }
+  ]
+}

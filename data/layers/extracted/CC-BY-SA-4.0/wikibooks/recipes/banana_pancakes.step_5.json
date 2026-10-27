@@ -16,7 +16,7 @@
         }
       },
       {
-        "ingredient": "self_rising_flour",
+        "ingredient": "self_rising_flour_whisk",
         "amount": {
           "qty": 300,
           "unit": "g"
@@ -34,6 +34,13 @@
         "amount": {
           "qty": 1,
           "unit": "pinch"
+        }
+      },
+      {
+        "ingredient": "brown_sugar",
+        "amount": {
+          "qty": 3,
+          "unit": "tbsp"
         }
       }
     ]
@@ -60,6 +67,11 @@
   },
   "stateNote": "In a separate large bowl, whisk together the dry ingredients.",
   "issues": [
+    {
+      "field": "inputs",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.54"
+    },
     {
       "field": "end",
       "kind": "estimate",

@@ -16,7 +16,7 @@
         }
       },
       {
-        "ingredient": "tomatoes",
+        "ingredient": "tomatoes_chop",
         "amount": {
           "qty": 2,
           "unit": "piece"
@@ -37,7 +37,7 @@
         }
       },
       {
-        "ingredient": "chilies",
+        "ingredient": "chilies_chop",
         "amount": {
           "qty": 1.5,
           "unit": "piece"
@@ -95,6 +95,11 @@
   },
   "stateNote": "Stir in the garlic, ginger, chilies, tomatoes, tomato paste, curry powder, cumin, and coriander.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.56"
+    },
     {
       "field": "environment",
       "kind": "estimate",

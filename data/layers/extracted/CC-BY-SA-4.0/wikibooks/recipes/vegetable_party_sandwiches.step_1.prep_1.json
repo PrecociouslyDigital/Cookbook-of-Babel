@@ -1,0 +1,49 @@
+{
+  "id": "vegetable_party_sandwiches.step_1.prep_1",
+  "source": "wikibooks_vegetable_party_sandwiches",
+  "technique": "dissolve",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "gelatin",
+        "amount": {
+          "qty": 0.25,
+          "unit": "oz"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "gelatin_dissolve",
+      "amount": {
+        "qty": 0.25,
+        "unit": "oz"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "1 envelope (¼ ounce) unflavored gelatin",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

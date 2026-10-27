@@ -9,14 +9,14 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "potato_cut",
+        "ingredient": "potato_cut_cut",
         "amount": {
           "qty": 311.8,
           "unit": "g"
         }
       },
       {
-        "ingredient": "bacon",
+        "ingredient": "bacon_chop",
         "amount": {
           "qty": 6,
           "unit": "strip"
@@ -33,28 +33,28 @@
       }
     }
   ],
-  "environment": {
-    "temperatureC": 180,
-    "medium": "pan_contact"
-  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
     }
   },
   "stateNote": "Crumble crisp bacon into small pieces.",
   "issues": [
     {
-      "field": "environment",
+      "field": "technique",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.53"
+      "note": "the decision model gave this answer a probability of 0.56"
     },
     {
       "field": "environment",
-      "kind": "estimate",
-      "note": "no temperature given; assumed 180.0 °C for pan_contact"
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.55"
     },
     {
       "field": "end",

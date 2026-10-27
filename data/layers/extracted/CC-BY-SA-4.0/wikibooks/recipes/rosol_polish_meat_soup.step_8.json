@@ -1,0 +1,70 @@
+{
+  "id": "rosol_polish_meat_soup.step_8",
+  "source": "wikibooks_rosol_polish_meat_soup",
+  "sourceRef": {
+    "source": "wikibooks_rosol_polish_meat_soup",
+    "step": 8
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "rosol_polish_meat_soup_step_7",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "parsley",
+        "amount": {
+          "qty": 1,
+          "unit": "bunch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "rosol_polish_meat_soup",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 90,
+    "medium": "simmering_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Serve hot with noodles and fresh parsley. Individuals may season with maggi, soy sauce, freshly ground black pepper and/or chilli flakes.",
+  "issues": [
+    {
+      "field": "sourceRef",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.52"
+    },
+    {
+      "field": "inputs",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.55"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 90.0 °C for simmering_water"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -16,14 +16,14 @@
         }
       },
       {
-        "ingredient": "egg",
+        "ingredient": "egg_whisk",
         "amount": {
           "qty": 1,
           "unit": "piece"
         }
       },
       {
-        "ingredient": "butter",
+        "ingredient": "butter_heat",
         "amount": {
           "qty": 2.5,
           "unit": "tbsp"
@@ -60,6 +60,11 @@
   },
   "stateNote": "In a second bowl, beat the egg well. Add the melted butter (or pan drippings) and the milk and continue to beat until well mixed.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.5"
+    },
     {
       "field": "end",
       "kind": "estimate",

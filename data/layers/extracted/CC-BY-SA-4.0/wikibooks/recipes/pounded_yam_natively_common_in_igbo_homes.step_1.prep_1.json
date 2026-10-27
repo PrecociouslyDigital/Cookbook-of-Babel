@@ -1,0 +1,49 @@
+{
+  "id": "pounded_yam_natively_common_in_igbo_homes.step_1.prep_1",
+  "source": "wikibooks_pounded_yam_natively_common_in_igbo_homes",
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "yam_tubers",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "yam_tubers_cut",
+      "amount": {
+        "qty": 1,
+        "unit": "pinch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Fresh yam tubers",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

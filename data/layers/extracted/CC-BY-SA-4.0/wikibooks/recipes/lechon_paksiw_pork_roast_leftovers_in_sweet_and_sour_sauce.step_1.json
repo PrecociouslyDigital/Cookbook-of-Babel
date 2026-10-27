@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "water",
+        "ingredient": "water_boil",
         "amount": {
           "qty": 9,
           "unit": "cup"
@@ -19,7 +19,7 @@
   },
   "outputs": [
     {
-      "ingredient": "water_boil",
+      "ingredient": "water_boil_boil",
       "amount": {
         "qty": 2129.4,
         "unit": "g"
@@ -39,6 +39,11 @@
   },
   "stateNote": "In a large pot, heat 12 cups of water to a brisk boil on high heat.",
   "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for water_boil"
+    },
     {
       "field": "environment",
       "kind": "estimate",

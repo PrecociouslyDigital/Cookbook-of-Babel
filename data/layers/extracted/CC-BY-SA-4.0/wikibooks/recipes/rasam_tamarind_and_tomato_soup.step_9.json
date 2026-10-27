@@ -16,7 +16,7 @@
         }
       },
       {
-        "ingredient": "clarified_butter",
+        "ingredient": "clarified_butter_heat",
         "amount": {
           "qty": 1,
           "unit": "tbsp"
@@ -30,7 +30,7 @@
         }
       },
       {
-        "ingredient": "urad_bean",
+        "ingredient": "urad_bean_fry",
         "amount": {
           "qty": 1,
           "unit": "tsp"
@@ -62,8 +62,8 @@
     }
   ],
   "environment": {
-    "temperatureC": 175,
-    "medium": "frying_oil"
+    "temperatureC": 180,
+    "medium": "pan_contact"
   },
   "end": {
     "by": "time",
@@ -75,14 +75,14 @@
   "stateNote": "In a small pan, heat the ghee for the mustard seed seasoning and add the mustard seeds, urad dhal, chillies and curry leaves. The dhal should start to go brown and the mustard seeds will start spitting. Don't burn any of the spices—it's easy to do. Once cooked, pour the seasoning into the rest of the rasam straight away and stir it through.",
   "issues": [
     {
-      "field": "environment",
+      "field": "inputs",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.59"
+      "note": "the decision model gave this answer a probability of 0.56"
     },
     {
       "field": "environment",
       "kind": "estimate",
-      "note": "no temperature given; assumed 175.0 °C for frying_oil"
+      "note": "no temperature given; assumed 180.0 °C for pan_contact"
     },
     {
       "field": "end",

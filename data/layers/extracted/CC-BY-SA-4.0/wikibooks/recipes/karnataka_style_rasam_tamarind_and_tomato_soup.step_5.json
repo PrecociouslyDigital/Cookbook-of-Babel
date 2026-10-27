@@ -30,7 +30,7 @@
         }
       },
       {
-        "ingredient": "coriander",
+        "ingredient": "coriander_grind",
         "amount": {
           "qty": 0.5,
           "unit": "tsp"
@@ -61,9 +61,14 @@
   "stateNote": "Add the asafoetida, grated coconut, and ground coriander.",
   "issues": [
     {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.57"
+    },
+    {
       "field": "outputs",
       "kind": "estimate",
-      "note": "assumed 1 g/ml for asafoetida, coconut, coriander"
+      "note": "assumed 1 g/ml for asafoetida, coconut, coriander_grind"
     },
     {
       "field": "environment",

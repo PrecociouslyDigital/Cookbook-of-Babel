@@ -1,0 +1,49 @@
+{
+  "id": "black_forest_cake.step_10.prep_16",
+  "source": "wikibooks_black_forest_cake",
+  "technique": "whisk",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "cream",
+        "amount": {
+          "qty": 1,
+          "unit": "pt"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "cream_whisk",
+      "amount": {
+        "qty": 1,
+        "unit": "pt"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "1 pint cream",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -5,7 +5,7 @@
     "source": "wikibooks_thalassery_biryani",
     "step": 10
   },
-  "technique": "simmer",
+  "technique": "season",
   "inputs": {
     "of": [
       {
@@ -23,14 +23,14 @@
         }
       },
       {
-        "ingredient": "cilantro",
+        "ingredient": "cilantro_chop",
         "amount": {
           "qty": 0.875,
           "unit": "cup"
         }
       },
       {
-        "ingredient": "mint",
+        "ingredient": "mint_chop",
         "amount": {
           "qty": 0.875,
           "unit": "cup"
@@ -48,8 +48,8 @@
     }
   ],
   "environment": {
-    "temperatureC": 90,
-    "medium": "simmering_water"
+    "temperatureC": 180,
+    "medium": "pan_contact"
   },
   "end": {
     "by": "time",
@@ -63,17 +63,12 @@
     {
       "field": "technique",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.37"
-    },
-    {
-      "field": "environment",
-      "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.56"
+      "note": "the decision model gave this answer a probability of 0.39"
     },
     {
       "field": "environment",
       "kind": "estimate",
-      "note": "no temperature given; used the middle of simmer's typical range"
+      "note": "no temperature given; assumed 180.0 °C for pan_contact"
     },
     {
       "field": "end",

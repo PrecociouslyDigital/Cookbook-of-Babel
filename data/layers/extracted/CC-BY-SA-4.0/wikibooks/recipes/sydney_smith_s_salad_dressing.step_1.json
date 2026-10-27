@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "potato",
+        "ingredient": "potato_grind",
         "amount": {
           "qty": 2,
           "unit": "piece"
@@ -19,22 +19,22 @@
   },
   "outputs": [
     {
-      "ingredient": "potato_grind",
+      "ingredient": "potato_grind_grind",
       "amount": {
         "qty": 1,
         "unit": "batch"
       }
     }
   ],
-  "environment": {
-    "temperatureC": 100,
-    "medium": "boiling_water"
-  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
     }
   },
   "stateNote": "Pass the potatoes through a sieve or a ricer.",
@@ -42,22 +42,17 @@
     {
       "field": "technique",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.53"
+      "note": "the decision model gave this answer a probability of 0.44"
     },
     {
       "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.55"
+      "note": "the decision model gave this answer a probability of 0.52"
     },
     {
       "field": "inputs",
       "kind": "estimate",
       "note": "'2 boiled potatoes': 'boiled' read as pieces"
-    },
-    {
-      "field": "environment",
-      "kind": "estimate",
-      "note": "no temperature given; assumed 100.0 °C for boiling_water"
     },
     {
       "field": "end",

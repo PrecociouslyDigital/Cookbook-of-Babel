@@ -1,0 +1,49 @@
+{
+  "id": "natto_japanese_fermented_soybeans.step_1.prep_1",
+  "source": "wikibooks_natto_japanese_fermented_soybeans",
+  "technique": "rinse",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "soy_bean",
+        "amount": {
+          "qty": 2,
+          "unit": "lb"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "soy_bean_rinse",
+      "amount": {
+        "qty": 2,
+        "unit": "lb"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "2 lbs (about 4 cups) soybeans",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

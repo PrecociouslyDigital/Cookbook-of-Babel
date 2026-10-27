@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "onion_blend",
+        "ingredient": "onion_chop_blend",
         "amount": {
           "qty": 1,
           "unit": "batch"
@@ -30,7 +30,7 @@
         }
       },
       {
-        "ingredient": "cilantro",
+        "ingredient": "cilantro_rinse",
         "amount": {
           "qty": 1,
           "unit": "bunch"
@@ -51,17 +51,24 @@
         }
       },
       {
-        "ingredient": "tomato",
+        "ingredient": "tomato_cut",
         "amount": {
           "qty": 3.5,
           "unit": "piece"
         }
       },
       {
-        "ingredient": "bell_pepper",
+        "ingredient": "bell_pepper_cut",
         "amount": {
           "qty": 1,
           "unit": "piece"
+        }
+      },
+      {
+        "ingredient": "coriander_toast",
+        "amount": {
+          "qty": 1.5,
+          "unit": "tsp"
         }
       }
     ]
@@ -88,6 +95,11 @@
   },
   "stateNote": "With the motor running, add the remaining ingredients one at a time and process until smooth.",
   "issues": [
+    {
+      "field": "inputs",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.57"
+    },
     {
       "field": "inputs",
       "kind": "estimate",

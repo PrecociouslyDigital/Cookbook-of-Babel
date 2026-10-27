@@ -1,0 +1,49 @@
+{
+  "id": "kele_ka_halwa_fried_bananas_in_milk.step_1.prep_2",
+  "source": "wikibooks_kele_ka_halwa_fried_bananas_in_milk",
+  "technique": "chop",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "almond",
+        "amount": {
+          "qty": 15,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "almond_chop",
+      "amount": {
+        "qty": 15,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "15 g almonds, peeled",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "oreo_pie.step_3.prep_3",
+  "source": "wikibooks_oreo_pie",
+  "technique": "grind",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "cookie",
+        "amount": {
+          "qty": 1,
+          "unit": "package"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "cookie_grind",
+      "amount": {
+        "qty": 1,
+        "unit": "package"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "1 package Oreo sandwich cookies",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

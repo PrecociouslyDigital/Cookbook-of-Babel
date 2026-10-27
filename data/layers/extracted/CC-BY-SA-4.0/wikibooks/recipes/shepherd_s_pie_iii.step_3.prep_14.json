@@ -1,0 +1,49 @@
+{
+  "id": "shepherd_s_pie_iii.step_3.prep_14",
+  "source": "wikibooks_shepherd_s_pie_iii",
+  "technique": "heat",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "olive_oil",
+        "amount": {
+          "qty": 5,
+          "unit": "ml"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "olive_oil_heat",
+      "amount": {
+        "qty": 5,
+        "unit": "ml"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "5 ml olive oil or other cooking oil",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

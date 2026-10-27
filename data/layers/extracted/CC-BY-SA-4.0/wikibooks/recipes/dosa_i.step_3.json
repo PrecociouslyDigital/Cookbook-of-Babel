@@ -26,16 +26,28 @@
       }
     }
   ],
+  "environment": {
+    "temperatureC": 20,
+    "medium": "still_air"
+  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 6,
       "unit": "h"
-    },
-    "sensitivity": {
-      "refTempC": 20,
-      "q10": 1
     }
   },
-  "stateNote": "Soak for 6 hours."
+  "stateNote": "Soak for 6 hours.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.49"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 20.0 °C for still_air"
+    }
+  ]
 }

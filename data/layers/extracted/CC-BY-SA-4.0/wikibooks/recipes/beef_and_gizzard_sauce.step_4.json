@@ -23,14 +23,14 @@
         }
       },
       {
-        "ingredient": "bell_pepper",
+        "ingredient": "bell_pepper_blend",
         "amount": {
           "qty": 3,
           "unit": "piece"
         }
       },
       {
-        "ingredient": "habanero",
+        "ingredient": "habanero_blend",
         "amount": {
           "qty": 6,
           "unit": "piece"
@@ -67,6 +67,11 @@
   },
   "stateNote": "Heat some oil in a saucepan. Add chopped onions, blended peppers, tomatoes, salt, stock cube, curry, and thyme. Fry for about 10–12 minutes.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.54"
+    },
     {
       "field": "inputs",
       "kind": "estimate",

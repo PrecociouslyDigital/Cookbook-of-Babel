@@ -5,7 +5,7 @@
     "source": "wikibooks_london_fog",
     "step": 2
   },
-  "technique": "heat",
+  "technique": "mix",
   "inputs": {
     "of": [
       {
@@ -16,7 +16,7 @@
         }
       },
       {
-        "ingredient": "milk",
+        "ingredient": "milk_heat",
         "amount": {
           "qty": 16,
           "unit": "oz"
@@ -53,6 +53,11 @@
   },
   "stateNote": "Heat up milk. Access to a steamer is preferred. Mix in vanilla syrup.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.45"
+    },
     {
       "field": "inputs",
       "kind": "estimate",

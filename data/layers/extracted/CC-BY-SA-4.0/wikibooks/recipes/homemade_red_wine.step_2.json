@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "grape_rinse",
+        "ingredient": "grape_rinse_rinse",
         "amount": {
           "qty": 4000,
           "unit": "g"
@@ -19,7 +19,7 @@
   },
   "outputs": [
     {
-      "ingredient": "grape_rinse_grind",
+      "ingredient": "grape_rinse_rinse_grind",
       "amount": {
         "qty": 4000,
         "unit": "g"
@@ -39,6 +39,11 @@
   },
   "stateNote": "Crush the grapes until you get a good purple colour.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.46"
+    },
     {
       "field": "end",
       "kind": "estimate",

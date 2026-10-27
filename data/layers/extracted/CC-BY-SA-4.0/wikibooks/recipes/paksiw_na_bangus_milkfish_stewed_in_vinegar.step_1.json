@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "milkfish",
+        "ingredient": "milkfish_rinse",
         "amount": {
           "qty": 1,
           "unit": "kg"
@@ -19,7 +19,7 @@
   },
   "outputs": [
     {
-      "ingredient": "milkfish_cut",
+      "ingredient": "milkfish_rinse_cut",
       "amount": {
         "qty": 1000,
         "unit": "g"
@@ -39,6 +39,11 @@
   },
   "stateNote": "Clean the milkfish by removing the scales, gallbladder, and gills. Do not remove the intestines and liver. Using scissors or a knife, remove the fins and tails. Rinse and cut diagonally into 5 pieces, then pat dry.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.38"
+    },
     {
       "field": "end",
       "kind": "estimate",

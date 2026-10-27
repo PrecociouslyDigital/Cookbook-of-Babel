@@ -5,7 +5,7 @@
     "source": "wikibooks_gonja_ugandan_fried_plantains",
     "step": 4
   },
-  "technique": "strain",
+  "technique": "dry",
   "inputs": {
     "of": [
       {
@@ -27,7 +27,7 @@
     }
   ],
   "environment": {
-    "temperatureC": 175,
+    "temperatureC": 55,
     "medium": "frying_oil"
   },
   "end": {
@@ -40,9 +40,19 @@
   "stateNote": "Use a slotted spoon to remove the fried plantains from the oil and place them on paper towels to drain excess oil.",
   "issues": [
     {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.46"
+    },
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.55"
+    },
+    {
       "field": "environment",
       "kind": "estimate",
-      "note": "no temperature given; assumed 175.0 °C for frying_oil"
+      "note": "no temperature given; used the middle of dry's typical range"
     },
     {
       "field": "end",

@@ -1,0 +1,49 @@
+{
+  "id": "murgh_musallam_indian_stewed_spiced_chicken.step_3.prep_10",
+  "source": "wikibooks_murgh_musallam_indian_stewed_spiced_chicken",
+  "technique": "roast",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "cinnamon",
+        "amount": {
+          "qty": 2,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "cinnamon_roast",
+      "amount": {
+        "qty": 2,
+        "unit": "piece"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "2-inch piece cinnamon",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

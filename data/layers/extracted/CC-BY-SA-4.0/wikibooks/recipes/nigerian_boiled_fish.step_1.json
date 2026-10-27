@@ -5,11 +5,11 @@
     "source": "wikibooks_nigerian_boiled_fish",
     "step": 1
   },
-  "technique": "cut",
+  "technique": "rinse",
   "inputs": {
     "of": [
       {
-        "ingredient": "fish",
+        "ingredient": "fish_cut",
         "amount": {
           "qty": 1,
           "unit": "pinch"
@@ -19,7 +19,7 @@
   },
   "outputs": [
     {
-      "ingredient": "fish_cut",
+      "ingredient": "fish_cut_rinse",
       "amount": {
         "qty": 0.3,
         "unit": "g"
@@ -40,6 +40,11 @@
   "stateNote": "Cut fresh fish into suitable sized pieces, and wash thoroughly. Remove unwanted substances inside the fish.",
   "issues": [
     {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.47"
+    },
+    {
       "field": "inputs",
       "kind": "estimate",
       "note": "'Fresh fish': no quantity given; assumed a pinch"
@@ -47,7 +52,7 @@
     {
       "field": "outputs",
       "kind": "estimate",
-      "note": "assumed 1 g/ml for fish"
+      "note": "assumed 1 g/ml for fish_cut"
     },
     {
       "field": "end",

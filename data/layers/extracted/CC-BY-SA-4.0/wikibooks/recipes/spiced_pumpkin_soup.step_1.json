@@ -9,14 +9,14 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "butter",
+        "ingredient": "butter_heat",
         "amount": {
           "qty": 1,
           "unit": "tbsp"
         }
       },
       {
-        "ingredient": "onion",
+        "ingredient": "onion_fry",
         "amount": {
           "qty": 1,
           "unit": "cup"
@@ -75,9 +75,14 @@
   "stateNote": "Melt butter in a Dutch oven or large saucepan over medium-high heat. Sauté onion for 3–4 minutes. Add flour, curry, cumin, and nutmeg and sauté for 1 minute.",
   "issues": [
     {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.45"
+    },
+    {
       "field": "outputs",
       "kind": "estimate",
-      "note": "assumed 1 g/ml for butter, onion, curry_powder, cumin, nutmeg"
+      "note": "assumed 1 g/ml for butter_heat, onion_fry, curry_powder, cumin, nutmeg"
     },
     {
       "field": "environment",

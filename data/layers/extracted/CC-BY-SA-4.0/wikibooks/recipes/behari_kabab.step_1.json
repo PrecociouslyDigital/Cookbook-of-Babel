@@ -9,28 +9,28 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "cumin",
+        "ingredient": "cumin_roast",
         "amount": {
           "qty": 1,
           "unit": "tsp"
         }
       },
       {
-        "ingredient": "coriander",
+        "ingredient": "coriander_roast",
         "amount": {
           "qty": 1,
           "unit": "tsp"
         }
       },
       {
-        "ingredient": "fennel",
+        "ingredient": "fennel_roast",
         "amount": {
           "qty": 1,
           "unit": "tsp"
         }
       },
       {
-        "ingredient": "mustard",
+        "ingredient": "mustard_roast",
         "amount": {
           "qty": 1,
           "unit": "tsp"
@@ -61,9 +61,14 @@
   "stateNote": "In a small pan, dry roast the cumin seeds, coriander seeds, fennel seeds, and mustard seeds over medium heat until fragrant. Grind the roasted spices in a spice grinder or with a mortar and pestle.",
   "issues": [
     {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.53"
+    },
+    {
       "field": "outputs",
       "kind": "estimate",
-      "note": "assumed 1 g/ml for cumin, coriander, fennel, mustard"
+      "note": "assumed 1 g/ml for cumin_roast, coriander_roast, fennel_roast, mustard_roast"
     },
     {
       "field": "environment",

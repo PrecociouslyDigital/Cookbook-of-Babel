@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "cream",
+        "ingredient": "cream_heat",
         "amount": {
           "qty": 1,
           "unit": "cup"
@@ -47,6 +47,11 @@
   "stateNote": "Heat cream and flavorings on stovetop, in a saucepan on medium heat, until simmering. Remove from heat.",
   "issues": [
     {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.59"
+    },
+    {
       "field": "inputs",
       "kind": "estimate",
       "note": "'Flavorings, such as vanilla, cardamom, citrus zest': no quantity given; assumed a pinch"
@@ -54,7 +59,7 @@
     {
       "field": "outputs",
       "kind": "estimate",
-      "note": "assumed 1 g/ml for cream, vanilla"
+      "note": "assumed 1 g/ml for cream_heat, vanilla"
     },
     {
       "field": "environment",

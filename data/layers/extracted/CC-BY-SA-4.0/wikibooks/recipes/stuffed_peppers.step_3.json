@@ -9,14 +9,14 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "rice_boil",
+        "ingredient": "rice_boil_heat",
         "amount": {
           "qty": 49.6,
           "unit": "g"
         }
       },
       {
-        "ingredient": "bell_pepper",
+        "ingredient": "bell_pepper_cut",
         "amount": {
           "qty": 6,
           "unit": "piece"
@@ -53,6 +53,11 @@
   },
   "stateNote": "Cut out the stems and the seeds of the peppers so that the peppers form a cup.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.53"
+    },
     {
       "field": "inputs",
       "kind": "estimate",

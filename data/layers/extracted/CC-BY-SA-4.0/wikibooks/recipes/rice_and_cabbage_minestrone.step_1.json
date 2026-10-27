@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "cabbage",
+        "ingredient": "cabbage_cut",
         "amount": {
           "qty": 1,
           "unit": "pinch"
@@ -19,7 +19,7 @@
   },
   "outputs": [
     {
-      "ingredient": "cabbage_cut",
+      "ingredient": "cabbage_cut_cut",
       "amount": {
         "qty": 0.3,
         "unit": "g"
@@ -40,6 +40,11 @@
   "stateNote": "Cut off the stalk and all the hard outside leaves of a cabbage, wash it, and cut it up.",
   "issues": [
     {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.51"
+    },
+    {
       "field": "inputs",
       "kind": "estimate",
       "note": "'Cabbage': no quantity given; assumed a pinch"
@@ -47,7 +52,7 @@
     {
       "field": "outputs",
       "kind": "estimate",
-      "note": "assumed 1 g/ml for cabbage"
+      "note": "assumed 1 g/ml for cabbage_cut"
     },
     {
       "field": "end",

@@ -9,14 +9,14 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "pork",
+        "ingredient": "pork_season",
         "amount": {
           "qty": 2.5,
           "unit": "lb"
         }
       },
       {
-        "ingredient": "rib_rub",
+        "ingredient": "rib_rub_season",
         "amount": {
           "qty": 1,
           "unit": "pinch"
@@ -40,8 +40,9 @@
       "unit": "h"
     },
     "sensitivity": {
-      "refTempC": 20,
-      "q10": 1
+      "refTempC": 4,
+      "q10": 1,
+      "maxTempC": 8
     }
   },
   "stateNote": "Season ribs liberally with rib rub. Refrigerate overnight.",
@@ -54,7 +55,7 @@
     {
       "field": "outputs",
       "kind": "estimate",
-      "note": "assumed 1 g/ml for rib_rub"
+      "note": "assumed 1 g/ml for rib_rub_season"
     },
     {
       "field": "end",

@@ -5,46 +5,46 @@
     "source": "wikibooks_gudeg_green_jackfruit_stew",
     "step": 3
   },
-  "technique": "grind",
+  "technique": "coat",
   "inputs": {
     "of": [
       {
-        "ingredient": "jackfruit_cut_boil",
+        "ingredient": "jackfruit_cut_cut_boil",
         "amount": {
           "qty": 226.8,
           "unit": "g"
         }
       },
       {
-        "ingredient": "green_onion",
+        "ingredient": "green_onion_grind",
         "amount": {
           "qty": 5,
           "unit": "piece"
         }
       },
       {
-        "ingredient": "candlenut",
+        "ingredient": "candlenut_grind",
         "amount": {
           "qty": 10,
           "unit": "piece"
         }
       },
       {
-        "ingredient": "garlic",
+        "ingredient": "garlic_grind",
         "amount": {
           "qty": 10,
           "unit": "piece"
         }
       },
       {
-        "ingredient": "bay_leaf",
+        "ingredient": "bay_leaf_grind",
         "amount": {
           "qty": 4,
           "unit": "piece"
         }
       },
       {
-        "ingredient": "galangal",
+        "ingredient": "galangal_grind",
         "amount": {
           "qty": 2,
           "unit": "piece"
@@ -68,15 +68,15 @@
       }
     }
   ],
-  "environment": {
-    "temperatureC": 180,
-    "medium": "pan_contact"
-  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
     }
   },
   "stateNote": "Grind shallots, candle nuts, garlic, salam leaves, and galangal together until fragrant. Add the chicken pieces and toss to coat.",
@@ -84,7 +84,7 @@
     {
       "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.59"
+      "note": "the decision model gave this answer a probability of 0.58"
     },
     {
       "field": "inputs",
@@ -95,11 +95,6 @@
       "field": "inputs",
       "kind": "estimate",
       "note": "'2 inches bruised galangal': 'inches' read as pieces"
-    },
-    {
-      "field": "environment",
-      "kind": "estimate",
-      "note": "no temperature given; assumed 180.0 °C for pan_contact"
     },
     {
       "field": "end",

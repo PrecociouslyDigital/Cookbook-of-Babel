@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "cumin",
+        "ingredient": "cumin_roast",
         "amount": {
           "qty": 3,
           "unit": "tsp"
@@ -19,7 +19,7 @@
   },
   "outputs": [
     {
-      "ingredient": "cumin_roast",
+      "ingredient": "cumin_roast_roast",
       "amount": {
         "qty": 14.8,
         "unit": "g"
@@ -40,9 +40,14 @@
   "stateNote": "Dry-roast cumin seeds by cooking them over low heat in small pan until you can smell the seasoning, about 2 minutes. Cool and grind to a powder.",
   "issues": [
     {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.56"
+    },
+    {
       "field": "outputs",
       "kind": "estimate",
-      "note": "assumed 1 g/ml for cumin"
+      "note": "assumed 1 g/ml for cumin_roast"
     },
     {
       "field": "environment",

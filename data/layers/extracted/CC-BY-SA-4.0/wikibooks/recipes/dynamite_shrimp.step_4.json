@@ -11,7 +11,7 @@
       {
         "ingredient": "dynamite_shrimp_step_3",
         "amount": {
-          "qty": 3003.3,
+          "qty": 3154.7,
           "unit": "g"
         }
       }
@@ -21,20 +21,20 @@
     {
       "ingredient": "dynamite_shrimp",
       "amount": {
-        "qty": 3003.3,
+        "qty": 3154.7,
         "unit": "g"
       }
     }
   ],
-  "environment": {
-    "temperatureC": 20,
-    "medium": "still_air"
-  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
     }
   },
   "stateNote": "Once all shrimp has been fried, toss with seasoning mixture. Serve immediately.",
@@ -42,12 +42,7 @@
     {
       "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.46"
-    },
-    {
-      "field": "environment",
-      "kind": "estimate",
-      "note": "no temperature given; assumed 20.0 °C for still_air"
+      "note": "the decision model gave this answer a probability of 0.55"
     },
     {
       "field": "end",

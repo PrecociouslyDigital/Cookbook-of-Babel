@@ -5,11 +5,11 @@
     "source": "wikibooks_chivito_uruguayan_beef_sandwich",
     "step": 1
   },
-  "technique": "cut",
+  "technique": "heat",
   "inputs": {
     "of": [
       {
-        "ingredient": "bread",
+        "ingredient": "bread_cut",
         "amount": {
           "qty": 1,
           "unit": "pinch"
@@ -19,7 +19,7 @@
   },
   "outputs": [
     {
-      "ingredient": "bread_cut",
+      "ingredient": "bread_cut_heat",
       "amount": {
         "qty": 0.3,
         "unit": "g"
@@ -40,6 +40,16 @@
   "stateNote": "Cut the loaf of bread lengthwise and put in a warm place.",
   "issues": [
     {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.36"
+    },
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.38"
+    },
+    {
       "field": "inputs",
       "kind": "estimate",
       "note": "'Loaf of bread': no quantity given; assumed a pinch"
@@ -47,7 +57,7 @@
     {
       "field": "outputs",
       "kind": "estimate",
-      "note": "assumed 1 g/ml for bread"
+      "note": "assumed 1 g/ml for bread_cut"
     },
     {
       "field": "environment",

@@ -1,0 +1,49 @@
+{
+  "id": "peanut_milk.step_1.prep_1",
+  "source": "wikibooks_peanut_milk",
+  "technique": "rinse",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "peanut",
+        "amount": {
+          "qty": 100,
+          "unit": "ml"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "peanut_rinse",
+      "amount": {
+        "qty": 100,
+        "unit": "ml"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "100 ml peanuts",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

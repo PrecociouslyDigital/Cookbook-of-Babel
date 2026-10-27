@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "egg",
+        "ingredient": "egg_whisk",
         "amount": {
           "qty": 1,
           "unit": "piece"
@@ -23,7 +23,7 @@
         }
       },
       {
-        "ingredient": "oil_and_fat",
+        "ingredient": "oil_and_fat_heat",
         "amount": {
           "qty": 1,
           "unit": "pinch"
@@ -53,6 +53,16 @@
   },
   "stateNote": "Beat the egg in a bowl and add ice cold water. Warmer water will produce a sticky batter and more oily tempura.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.45"
+    },
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.41"
+    },
     {
       "field": "inputs",
       "kind": "estimate",

@@ -1,0 +1,49 @@
+{
+  "id": "tofu_tamale_pie.step_4.prep_1",
+  "source": "wikibooks_tofu_tamale_pie",
+  "technique": "rinse",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "tofu",
+        "amount": {
+          "qty": 4,
+          "unit": "oz"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "tofu_rinse",
+      "amount": {
+        "qty": 4,
+        "unit": "oz"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "4 ounces tofu, washed, drained well, and broken up",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

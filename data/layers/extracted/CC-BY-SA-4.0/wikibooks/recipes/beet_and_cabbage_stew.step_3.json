@@ -16,7 +16,7 @@
         }
       },
       {
-        "ingredient": "cabbage",
+        "ingredient": "cabbage_chop",
         "amount": {
           "qty": 1,
           "unit": "piece"
@@ -30,21 +30,21 @@
         }
       },
       {
-        "ingredient": "carrot",
+        "ingredient": "carrot_chop",
         "amount": {
           "qty": 5,
           "unit": "piece"
         }
       },
       {
-        "ingredient": "onion",
+        "ingredient": "onion_chop",
         "amount": {
           "qty": 1,
           "unit": "piece"
         }
       },
       {
-        "ingredient": "celery",
+        "ingredient": "celery_chop",
         "amount": {
           "qty": 4,
           "unit": "stalk"
@@ -74,6 +74,11 @@
   },
   "stateNote": "After the meat has been boiling for between an hour and 90 minutes then you should add the cabbage, garlic, carrots, onion, and celery. Cook until the vegetables are soft.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.56"
+    },
     {
       "field": "environment",
       "kind": "estimate",

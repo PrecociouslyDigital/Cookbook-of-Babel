@@ -1,0 +1,49 @@
+{
+  "id": "sai_bhaji_sindhi_vegetable_curry.step_3.prep_6",
+  "source": "wikibooks_sai_bhaji_sindhi_vegetable_curry",
+  "technique": "chop",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "spinach",
+        "amount": {
+          "qty": 2,
+          "unit": "bunch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "spinach_chop",
+      "amount": {
+        "qty": 2,
+        "unit": "bunch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "2 bunches spinach, finely chopped",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

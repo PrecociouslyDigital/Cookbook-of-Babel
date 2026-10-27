@@ -4,6 +4,7 @@ module Babel.Model.Constants (
     KcalPerGram (..),
     Tolerance (..),
     RatioBounds (..),
+    StorageTemps (..),
     TempBands,
     BandEntry (..),
     mkTempBands,
@@ -22,6 +23,7 @@ change, reviewed like any other.
 -}
 data Constants = Constants
     { tempBands :: TempBands
+    , storageTempC :: StorageTemps
     , spoilageTechnique :: TechniqueId
     -- ^ Recipes whose technique is this one or below it are spoilage.
     , nonPreparations :: [TechniqueId]
@@ -53,6 +55,12 @@ data RatioBounds = RatioBounds {min :: Double, max :: Double}
     deriving stock (Eq, Generic, Show)
 
 instance HasCodec RatioBounds where codec = genericCodec
+
+-- | A representative temperature for each place food is kept.
+data StorageTemps = StorageTemps {room :: Double, fridge :: Double, freezer :: Double}
+    deriving stock (Eq, Generic, Show)
+
+instance HasCodec StorageTemps where codec = genericCodec
 
 -- | One band as written in JSON: the last band has no upper bound.
 data BandEntry = BandEntry {id :: TempBandId, belowC :: Maybe Double}

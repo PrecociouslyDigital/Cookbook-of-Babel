@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "chicken",
+        "ingredient": "chicken_boil",
         "amount": {
           "qty": 1.5,
           "unit": "cup"
@@ -47,9 +47,14 @@
   "stateNote": "Bring the chicken broth to a boil. Add the katsuobushi flakes, remove from heat, and let rest for 1 minute.",
   "issues": [
     {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.59"
+    },
+    {
       "field": "outputs",
       "kind": "estimate",
-      "note": "assumed 1 g/ml for chicken"
+      "note": "assumed 1 g/ml for chicken_boil"
     },
     {
       "field": "environment",

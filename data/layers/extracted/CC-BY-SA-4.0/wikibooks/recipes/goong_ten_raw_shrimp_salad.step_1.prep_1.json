@@ -1,0 +1,49 @@
+{
+  "id": "goong_ten_raw_shrimp_salad.step_1.prep_1",
+  "source": "wikibooks_goong_ten_raw_shrimp_salad",
+  "technique": "rinse",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "shrimp",
+        "amount": {
+          "qty": 1,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "shrimp_rinse",
+      "amount": {
+        "qty": 1,
+        "unit": "cup"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "1 cup tiny live freshwater shrimp",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

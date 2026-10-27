@@ -26,23 +26,23 @@
       }
     }
   ],
-  "environment": {
-    "temperatureC": 100,
-    "medium": "steam"
-  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 30,
       "unit": "s"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
     }
   },
   "stateNote": "Take out the steamer board and fan the buuz for 30 seconds using steamer cover or any safe, light object.",
   "issues": [
     {
       "field": "environment",
-      "kind": "estimate",
-      "note": "no temperature given; assumed 100.0 °C for steam"
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.4"
     }
   ]
 }

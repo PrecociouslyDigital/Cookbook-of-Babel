@@ -16,21 +16,21 @@
         }
       },
       {
-        "ingredient": "cabbage",
+        "ingredient": "cabbage_cut",
         "amount": {
           "qty": 1,
           "unit": "piece"
         }
       },
       {
-        "ingredient": "potato",
+        "ingredient": "potato_cut",
         "amount": {
           "qty": 2,
           "unit": "piece"
         }
       },
       {
-        "ingredient": "kohlrabi",
+        "ingredient": "kohlrabi_cut",
         "amount": {
           "qty": 1.5,
           "unit": "piece"
@@ -41,7 +41,7 @@
         "max": 1,
         "of": [
           {
-            "ingredient": "pumpkin",
+            "ingredient": "pumpkin_cut",
             "amount": {
               "qty": 1,
               "unit": "slice"
@@ -54,7 +54,7 @@
         "max": 1,
         "of": [
           {
-            "ingredient": "pumpkin",
+            "ingredient": "pumpkin_cut",
             "amount": {
               "qty": 1,
               "unit": "slice"
@@ -67,7 +67,7 @@
         "max": 1,
         "of": [
           {
-            "ingredient": "cauliflower",
+            "ingredient": "cauliflower_cut",
             "amount": {
               "qty": 0.5,
               "unit": "piece"
@@ -80,7 +80,7 @@
         "max": 1,
         "of": [
           {
-            "ingredient": "carrot",
+            "ingredient": "carrot_cut",
             "amount": {
               "qty": 3.5,
               "unit": "piece"
@@ -89,7 +89,7 @@
         ]
       },
       {
-        "ingredient": "celery",
+        "ingredient": "celery_chop",
         "amount": {
           "qty": 1,
           "unit": "pinch"
@@ -133,6 +133,11 @@
   },
   "stateNote": "Add the cabbage, potatoes, kohlrabi, pumpkin, cauliflower, carrots, and celery leaves. Season with salt and pepper, cover, and sweat together on low heat for 5–6 minutes",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.37"
+    },
     {
       "field": "inputs",
       "kind": "estimate",

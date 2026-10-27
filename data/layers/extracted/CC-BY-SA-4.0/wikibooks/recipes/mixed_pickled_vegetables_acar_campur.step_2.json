@@ -16,7 +16,7 @@
         }
       },
       {
-        "ingredient": "vegetable_oil",
+        "ingredient": "vegetable_oil_heat",
         "amount": {
           "qty": 0.25,
           "unit": "cup"
@@ -63,7 +63,7 @@
   ],
   "environment": {
     "temperatureC": 90,
-    "medium": "frying_oil"
+    "medium": "pan_contact"
   },
   "end": {
     "by": "time",
@@ -74,11 +74,6 @@
   },
   "stateNote": "Heat the processed paste mixture in the oil for 2 minutes. Add the vinegar, water, sugar and salt. Bring to a boil while stirring. Simmer for 10 minutes, stirring occasionally, while preparing vegetables.",
   "issues": [
-    {
-      "field": "environment",
-      "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.46"
-    },
     {
       "field": "environment",
       "kind": "estimate",

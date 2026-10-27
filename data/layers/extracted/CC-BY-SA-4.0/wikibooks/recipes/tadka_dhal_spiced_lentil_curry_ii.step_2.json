@@ -16,14 +16,14 @@
         }
       },
       {
-        "ingredient": "vegetable_oil",
+        "ingredient": "vegetable_oil_heat",
         "amount": {
           "qty": 2.5,
           "unit": "tbsp"
         }
       },
       {
-        "ingredient": "mustard_seed",
+        "ingredient": "mustard_seed_fry",
         "amount": {
           "qty": 0.25,
           "unit": "tsp"
@@ -35,14 +35,14 @@
     {
       "ingredient": "tadka_dhal_spiced_lentil_curry_ii_step_2",
       "amount": {
-        "qty": 626.7,
+        "qty": 629.7,
         "unit": "g"
       }
     }
   ],
   "environment": {
-    "temperatureC": 175,
-    "medium": "frying_oil"
+    "temperatureC": 180,
+    "medium": "pan_contact"
   },
   "end": {
     "by": "time",
@@ -56,17 +56,22 @@
     {
       "field": "technique",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.51"
+      "note": "the decision model gave this answer a probability of 0.57"
+    },
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.54"
     },
     {
       "field": "outputs",
       "kind": "estimate",
-      "note": "assumed 1 g/ml for mustard_seed"
+      "note": "assumed 1 g/ml for vegetable_oil_heat, mustard_seed_fry"
     },
     {
       "field": "environment",
       "kind": "estimate",
-      "note": "no temperature given; assumed 175.0 °C for frying_oil"
+      "note": "no temperature given; assumed 180.0 °C for pan_contact"
     },
     {
       "field": "end",

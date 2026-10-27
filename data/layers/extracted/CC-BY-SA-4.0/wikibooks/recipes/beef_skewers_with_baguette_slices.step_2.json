@@ -9,14 +9,14 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "bread_soak",
+        "ingredient": "bread_soak_soak",
         "amount": {
           "qty": 1,
           "unit": "batch"
         }
       },
       {
-        "ingredient": "chiles",
+        "ingredient": "chiles_cut",
         "amount": {
           "qty": 2,
           "unit": "piece"
@@ -46,6 +46,11 @@
   },
   "stateNote": "Halve the chili peppers lengthwise. Remove the seeds and chop the peppers finely.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.5"
+    },
     {
       "field": "end",
       "kind": "estimate",

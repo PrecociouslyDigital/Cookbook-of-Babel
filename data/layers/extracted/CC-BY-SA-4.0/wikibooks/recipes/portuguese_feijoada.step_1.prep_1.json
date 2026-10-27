@@ -1,0 +1,49 @@
+{
+  "id": "portuguese_feijoada.step_1.prep_1",
+  "source": "wikibooks_portuguese_feijoada",
+  "technique": "soak",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "common_bean",
+        "amount": {
+          "qty": 1,
+          "unit": "l"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "common_bean_soak",
+      "amount": {
+        "qty": 1,
+        "unit": "l"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "1 litre dried black beans",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

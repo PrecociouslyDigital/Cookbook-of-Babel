@@ -11,26 +11,26 @@
       {
         "ingredient": "ekpang_nkukwo_step_7",
         "amount": {
-          "qty": 2.1,
+          "qty": 1.8,
           "unit": "g"
         }
       },
       {
-        "ingredient": "crawfish",
+        "ingredient": "crawfish_grind",
         "amount": {
           "qty": 1,
           "unit": "pinch"
         }
       },
       {
-        "ingredient": "pepper",
+        "ingredient": "pepper_grind",
         "amount": {
           "qty": 1,
           "unit": "pinch"
         }
       },
       {
-        "ingredient": "onion",
+        "ingredient": "onion_chop",
         "amount": {
           "qty": 1,
           "unit": "pinch"
@@ -49,20 +49,20 @@
     {
       "ingredient": "ekpang_nkukwo_step_8",
       "amount": {
-        "qty": 3.3,
+        "qty": 3,
         "unit": "g"
       }
     }
   ],
-  "environment": {
-    "temperatureC": 175,
-    "medium": "frying_oil"
-  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
     }
   },
   "stateNote": "pour in your pepper, onions, crayfish, seasoning cubes.",
@@ -70,7 +70,7 @@
     {
       "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.49"
+      "note": "the decision model gave this answer a probability of 0.43"
     },
     {
       "field": "inputs",
@@ -95,12 +95,7 @@
     {
       "field": "outputs",
       "kind": "estimate",
-      "note": "assumed 1 g/ml for crawfish, pepper, onion, seasoning_cubes"
-    },
-    {
-      "field": "environment",
-      "kind": "estimate",
-      "note": "no temperature given; assumed 175.0 °C for frying_oil"
+      "note": "assumed 1 g/ml for crawfish_grind, pepper_grind, onion_chop, seasoning_cubes"
     },
     {
       "field": "end",

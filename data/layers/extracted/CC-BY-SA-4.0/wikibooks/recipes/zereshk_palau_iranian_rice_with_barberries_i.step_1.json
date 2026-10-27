@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "barberry",
+        "ingredient": "barberry_soak",
         "amount": {
           "qty": 1,
           "unit": "package"
@@ -19,7 +19,7 @@
   },
   "outputs": [
     {
-      "ingredient": "barberry_soak",
+      "ingredient": "barberry_soak_soak",
       "amount": {
         "qty": 1,
         "unit": "batch"
@@ -37,5 +37,12 @@
       "q10": 1
     }
   },
-  "stateNote": "Soak dried barberries in water for 20–30 minutes. Strain to remove any stones."
+  "stateNote": "Soak dried barberries in water for 20–30 minutes. Strain to remove any stones.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.56"
+    }
+  ]
 }

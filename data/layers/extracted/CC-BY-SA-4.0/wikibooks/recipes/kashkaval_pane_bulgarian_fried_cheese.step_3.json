@@ -9,21 +9,21 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "kashkaval_cut",
+        "ingredient": "kashkaval_cut_cut",
         "amount": {
           "qty": 340.2,
           "unit": "g"
         }
       },
       {
-        "ingredient": "oil_and_fat",
+        "ingredient": "oil_and_fat_heat",
         "amount": {
           "qty": 1,
           "unit": "pinch"
         }
       },
       {
-        "ingredient": "egg",
+        "ingredient": "egg_whisk",
         "amount": {
           "qty": 2,
           "unit": "piece"
@@ -53,6 +53,11 @@
   },
   "stateNote": "Beat the eggs in a shallow bowl, while the oil is heating.",
   "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.55"
+    },
     {
       "field": "inputs",
       "kind": "estimate",

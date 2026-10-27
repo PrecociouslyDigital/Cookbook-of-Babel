@@ -1,0 +1,49 @@
+{
+  "id": "spaghetti_and_meatballs.step_1.prep_2",
+  "source": "wikibooks_spaghetti_and_meatballs",
+  "technique": "heat",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "water",
+        "amount": {
+          "qty": 1.5,
+          "unit": "gal"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "water_heat",
+      "amount": {
+        "qty": 1.5,
+        "unit": "gal"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "1 ½ gallons (5.76 liters) water",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

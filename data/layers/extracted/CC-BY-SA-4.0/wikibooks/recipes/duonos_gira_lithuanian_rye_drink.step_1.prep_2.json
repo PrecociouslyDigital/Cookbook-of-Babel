@@ -1,0 +1,49 @@
+{
+  "id": "duonos_gira_lithuanian_rye_drink.step_1.prep_2",
+  "source": "wikibooks_duonos_gira_lithuanian_rye_drink",
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "rye",
+        "amount": {
+          "qty": 1,
+          "unit": "lb"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "rye_cut",
+      "amount": {
+        "qty": 1,
+        "unit": "lb"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "1 lb dried black rye bread (Lithuanian rye-like sourdough)",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

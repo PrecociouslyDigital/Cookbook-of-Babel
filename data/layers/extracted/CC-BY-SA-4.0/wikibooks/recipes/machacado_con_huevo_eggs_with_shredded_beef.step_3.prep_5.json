@@ -1,0 +1,49 @@
+{
+  "id": "machacado_con_huevo_eggs_with_shredded_beef.step_3.prep_5",
+  "source": "wikibooks_machacado_con_huevo_eggs_with_shredded_beef",
+  "technique": "heat",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "refried_beans",
+        "amount": {
+          "qty": 16,
+          "unit": "oz"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "refried_beans_heat",
+      "amount": {
+        "qty": 16,
+        "unit": "oz"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "1 can (16 ounces) refried beans, warmed",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

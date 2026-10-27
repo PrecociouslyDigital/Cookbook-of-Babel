@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "mango_cut",
+        "ingredient": "mango_cut_cut",
         "amount": {
           "qty": 1,
           "unit": "batch"
@@ -19,7 +19,7 @@
   },
   "outputs": [
     {
-      "ingredient": "mango_cut_steam",
+      "ingredient": "mango_cut_cut_steam",
       "amount": {
         "qty": 1,
         "unit": "batch"
@@ -28,7 +28,7 @@
   ],
   "environment": {
     "temperatureC": 100,
-    "medium": "steam"
+    "medium": "boiling_water"
   },
   "end": {
     "by": "time",
@@ -39,6 +39,16 @@
   },
   "stateNote": "Pressure cook mangoes with one small cup of water. Turn off heat as soon as the pressure cooker whistles once.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.57"
+    },
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.54"
+    },
     {
       "field": "environment",
       "kind": "estimate",

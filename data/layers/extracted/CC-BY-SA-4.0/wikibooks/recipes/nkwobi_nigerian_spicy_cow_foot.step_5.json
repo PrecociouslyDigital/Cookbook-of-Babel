@@ -5,7 +5,7 @@
     "source": "wikibooks_nkwobi_nigerian_spicy_cow_foot",
     "step": 5
   },
-  "technique": "dissolve",
+  "technique": "mix",
   "inputs": {
     "of": [
       {
@@ -16,7 +16,7 @@
         }
       },
       {
-        "ingredient": "potash",
+        "ingredient": "potash_dissolve",
         "amount": {
           "qty": 1,
           "unit": "pinch"
@@ -40,28 +40,23 @@
       }
     }
   ],
-  "environment": {
-    "temperatureC": 100,
-    "medium": "boiling_water"
-  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
     }
   },
   "stateNote": "Dissolve the potash in a cup of water, and strain it into a separate pot. Add the palm oil to the potash water, and stir well until thick and yellow.",
   "issues": [
     {
-      "field": "technique",
-      "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.52"
-    },
-    {
       "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.39"
+      "note": "the decision model gave this answer a probability of 0.36"
     },
     {
       "field": "inputs",
@@ -72,11 +67,6 @@
       "field": "inputs",
       "kind": "estimate",
       "note": "'Palm oil': no quantity given; assumed a pinch"
-    },
-    {
-      "field": "environment",
-      "kind": "estimate",
-      "note": "no temperature given; assumed 100.0 °C for boiling_water"
     },
     {
       "field": "end",

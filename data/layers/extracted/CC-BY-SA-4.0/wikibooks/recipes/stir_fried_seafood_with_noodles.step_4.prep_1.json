@@ -1,0 +1,49 @@
+{
+  "id": "stir_fried_seafood_with_noodles.step_4.prep_1",
+  "source": "wikibooks_stir_fried_seafood_with_noodles",
+  "technique": "boil",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "noodle",
+        "amount": {
+          "qty": 500,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "noodle_boil",
+      "amount": {
+        "qty": 500,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "1 pack (500 g) Hong Kong-style egg noodles, rehydrated and boiled if needed",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

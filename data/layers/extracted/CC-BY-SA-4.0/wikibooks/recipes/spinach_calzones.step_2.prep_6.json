@@ -1,0 +1,49 @@
+{
+  "id": "spinach_calzones.step_2.prep_6",
+  "source": "wikibooks_spinach_calzones",
+  "technique": "dry",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "spinach",
+        "amount": {
+          "qty": 284,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "spinach_dry",
+      "amount": {
+        "qty": 284,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "284 g frozen chopped spinach, thawed and squeezed dry",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

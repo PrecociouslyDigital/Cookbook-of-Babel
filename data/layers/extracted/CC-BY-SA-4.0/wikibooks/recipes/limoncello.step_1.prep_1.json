@@ -1,0 +1,49 @@
+{
+  "id": "limoncello.step_1.prep_1",
+  "source": "wikibooks_limoncello",
+  "technique": "rinse",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "lemon",
+        "amount": {
+          "qty": 15,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "lemon_rinse",
+      "amount": {
+        "qty": 15,
+        "unit": "piece"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "15 lemons",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

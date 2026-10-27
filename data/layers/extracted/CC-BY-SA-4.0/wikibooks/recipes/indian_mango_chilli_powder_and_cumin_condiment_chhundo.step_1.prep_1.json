@@ -1,0 +1,54 @@
+{
+  "id": "indian_mango_chilli_powder_and_cumin_condiment_chhundo.step_1.prep_1",
+  "source": "wikibooks_indian_mango_chilli_powder_and_cumin_condiment_chhundo",
+  "technique": "grind",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "mango",
+        "amount": {
+          "qty": 1,
+          "unit": "kg"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "mango_grind",
+      "amount": {
+        "qty": 1,
+        "unit": "kg"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "1 kg (2.25 lbs) mangoes, deseeded",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.59"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "beef",
+        "ingredient": "beef_cut",
         "amount": {
           "qty": 9,
           "unit": "lb"
@@ -30,14 +30,14 @@
         }
       },
       {
-        "ingredient": "pepper",
+        "ingredient": "pepper_grind",
         "amount": {
           "qty": 1,
           "unit": "tbsp"
         }
       },
       {
-        "ingredient": "cumin",
+        "ingredient": "cumin_grind",
         "amount": {
           "qty": 0.5,
           "unit": "tsp"
@@ -82,8 +82,9 @@
       "unit": "h"
     },
     "sensitivity": {
-      "refTempC": 20,
-      "q10": 1
+      "refTempC": 4,
+      "q10": 1,
+      "maxTempC": 8
     }
   },
   "stateNote": "Combine oil, lime, chipotles, adobo, salt, pepper, and cumin in a blender. Pour into a gallon size zip-top bag and add steak. Refrigerate for at least 1 hour.",
@@ -91,7 +92,7 @@
     {
       "field": "technique",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.48"
+      "note": "the decision model gave this answer a probability of 0.51"
     },
     {
       "field": "inputs",

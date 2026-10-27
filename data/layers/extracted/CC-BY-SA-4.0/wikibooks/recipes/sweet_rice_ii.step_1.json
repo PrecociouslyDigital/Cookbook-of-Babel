@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "rice",
+        "ingredient": "rice_rinse",
         "amount": {
           "qty": 1.5,
           "unit": "cup"
@@ -19,7 +19,7 @@
   },
   "outputs": [
     {
-      "ingredient": "rice_rinse",
+      "ingredient": "rice_rinse_rinse",
       "amount": {
         "qty": 354.9,
         "unit": "g"
@@ -40,9 +40,14 @@
   "stateNote": "Wash rice, and transfer to a pot.",
   "issues": [
     {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.52"
+    },
+    {
       "field": "outputs",
       "kind": "estimate",
-      "note": "assumed 1 g/ml for rice"
+      "note": "assumed 1 g/ml for rice_rinse"
     },
     {
       "field": "end",

@@ -16,7 +16,7 @@
         }
       },
       {
-        "ingredient": "tomato",
+        "ingredient": "tomato_boil",
         "amount": {
           "qty": 500,
           "unit": "g"
@@ -46,6 +46,11 @@
   },
   "stateNote": "While the onions are cooking, blanch the tomatoes in boiling water for about 10 seconds each to loosen the skin. Peel the tomatoes and discard the skin.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.47"
+    },
     {
       "field": "environment",
       "kind": "estimate",

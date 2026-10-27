@@ -16,7 +16,7 @@
         }
       },
       {
-        "ingredient": "parsley",
+        "ingredient": "parsley_chop",
         "amount": {
           "qty": 1,
           "unit": "pinch"
@@ -40,12 +40,18 @@
       "unit": "min"
     },
     "sensitivity": {
-      "refTempC": 20,
-      "q10": 1
+      "refTempC": 4,
+      "q10": 1,
+      "maxTempC": 8
     }
   },
   "stateNote": "Before serving, garnish the salad with chopped parsley or cilantro.",
   "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.53"
+    },
     {
       "field": "inputs",
       "kind": "estimate",

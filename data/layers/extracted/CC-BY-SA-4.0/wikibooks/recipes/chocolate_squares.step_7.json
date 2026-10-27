@@ -16,21 +16,21 @@
         }
       },
       {
-        "ingredient": "condensed_milk",
+        "ingredient": "condensed_milk_heat",
         "amount": {
           "qty": 0.6666666666666666,
           "unit": "cup"
         }
       },
       {
-        "ingredient": "chocolate",
+        "ingredient": "chocolate_heat",
         "amount": {
           "qty": 240,
           "unit": "g"
         }
       },
       {
-        "ingredient": "margarine",
+        "ingredient": "margarine_heat",
         "amount": {
           "qty": 2,
           "unit": "tbsp"
@@ -74,6 +74,11 @@
   },
   "stateNote": "In a mixing bowl over a pot of boiling water, heat all filling ingredients until chocolate chips are just melted.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.57"
+    },
     {
       "field": "environment",
       "kind": "estimate",

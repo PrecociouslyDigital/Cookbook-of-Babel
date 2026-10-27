@@ -1,0 +1,54 @@
+{
+  "id": "focaccia_with_onion_marmalade_blue_cheese_and_walnuts.step_2.prep_3",
+  "source": "wikibooks_focaccia_with_onion_marmalade_blue_cheese_and_walnuts",
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "blue_cheese",
+        "amount": {
+          "qty": 0.25,
+          "unit": "lb"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "blue_cheese_cut",
+      "amount": {
+        "qty": 0.25,
+        "unit": "lb"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "¼ pounds blue cheese, crumbled or cut into ½-inch pieces",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.56"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

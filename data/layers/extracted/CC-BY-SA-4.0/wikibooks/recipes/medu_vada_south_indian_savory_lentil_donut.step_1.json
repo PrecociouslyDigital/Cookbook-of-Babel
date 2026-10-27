@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "urad_bean",
+        "ingredient": "urad_bean_rinse",
         "amount": {
           "qty": 240,
           "unit": "g"
@@ -19,7 +19,7 @@
   },
   "outputs": [
     {
-      "ingredient": "urad_bean_grind",
+      "ingredient": "urad_bean_rinse_grind",
       "amount": {
         "qty": 240,
         "unit": "g"
@@ -37,5 +37,12 @@
       "q10": 1
     }
   },
-  "stateNote": "Wash and soak urad dal for 6 hours. Grind into a fine paste."
+  "stateNote": "Wash and soak urad dal for 6 hours. Grind into a fine paste.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.5"
+    }
+  ]
 }

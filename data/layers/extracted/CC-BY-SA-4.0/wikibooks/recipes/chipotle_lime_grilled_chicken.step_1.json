@@ -61,9 +61,17 @@
       "unit": "min"
     },
     "sensitivity": {
-      "refTempC": 20,
-      "q10": 1
+      "refTempC": 4,
+      "q10": 1,
+      "maxTempC": 8
     }
   },
-  "stateNote": "Combine all ingredients except for BBQ Rub in a gallon zip-top plastic freezer bag. Add chicken breasts and refrigerate for 45 minutes."
+  "stateNote": "Combine all ingredients except for BBQ Rub in a gallon zip-top plastic freezer bag. Add chicken breasts and refrigerate for 45 minutes.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.45"
+    }
+  ]
 }

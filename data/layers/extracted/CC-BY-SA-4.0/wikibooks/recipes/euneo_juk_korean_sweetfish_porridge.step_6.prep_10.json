@@ -1,0 +1,54 @@
+{
+  "id": "euneo_juk_korean_sweetfish_porridge.step_6.prep_10",
+  "source": "wikibooks_euneo_juk_korean_sweetfish_porridge",
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "shiso",
+        "amount": {
+          "qty": 10,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "shiso_cut",
+      "amount": {
+        "qty": 10,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "10 g perilla leaves, sliced",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.52"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

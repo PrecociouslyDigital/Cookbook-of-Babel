@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "pumpkin_rinse_bake_cool_chop",
+        "ingredient": "pumpkin_rinse_rinse_bake_cool_cut",
         "amount": {
           "qty": 1,
           "unit": "batch"
@@ -39,6 +39,11 @@
   },
   "stateNote": "Remove seeds and guts; roast seeds and discard the rest.",
   "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.51"
+    },
     {
       "field": "environment",
       "kind": "estimate",

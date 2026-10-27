@@ -5,7 +5,7 @@
     "source": "wikibooks_jigarthanda_milk",
     "step": 8
   },
-  "technique": "boil",
+  "technique": "separate",
   "inputs": {
     "of": [
       {
@@ -16,7 +16,7 @@
         }
       },
       {
-        "ingredient": "milk",
+        "ingredient": "milk_boil",
         "amount": {
           "qty": 1.5,
           "unit": "l"
@@ -28,13 +28,13 @@
     {
       "ingredient": "jigarthanda_milk_step_8",
       "amount": {
-        "qty": 2286.2,
+        "qty": 2241.2,
         "unit": "g"
       }
     }
   ],
   "environment": {
-    "temperatureC": 100,
+    "temperatureC": 180,
     "medium": "pan_contact"
   },
   "end": {
@@ -47,9 +47,19 @@
   "stateNote": "Boil the milk, stirring continuously until it is frothy. Collect the malai (thick cream) that forms.",
   "issues": [
     {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.43"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for milk_boil"
+    },
+    {
       "field": "environment",
       "kind": "estimate",
-      "note": "no temperature given; used the middle of boil's typical range"
+      "note": "no temperature given; assumed 180.0 °C for pan_contact"
     },
     {
       "field": "end",

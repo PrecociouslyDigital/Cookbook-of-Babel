@@ -5,7 +5,7 @@
     "source": "wikibooks_deep_fried_urad_and_rice_flour_dough_balls_murukku",
     "step": 6
   },
-  "technique": "strain",
+  "technique": "dry",
   "inputs": {
     "of": [
       {
@@ -26,15 +26,15 @@
       }
     }
   ],
-  "environment": {
-    "temperatureC": 175,
-    "medium": "frying_oil"
-  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
     }
   },
   "stateNote": "Drain the finished fritters on a paper towel.",
@@ -42,17 +42,12 @@
     {
       "field": "technique",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.56"
+      "note": "the decision model gave this answer a probability of 0.45"
     },
     {
       "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.42"
-    },
-    {
-      "field": "environment",
-      "kind": "estimate",
-      "note": "no temperature given; assumed 175.0 °C for frying_oil"
+      "note": "the decision model gave this answer a probability of 0.58"
     },
     {
       "field": "end",

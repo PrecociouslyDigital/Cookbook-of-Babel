@@ -1,0 +1,49 @@
+{
+  "id": "chicken_and_black_eyed_pea_stew.step_1.prep_1",
+  "source": "wikibooks_chicken_and_black_eyed_pea_stew",
+  "technique": "rinse",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "cowpea",
+        "amount": {
+          "qty": 1,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "cowpea_rinse",
+      "amount": {
+        "qty": 1,
+        "unit": "cup"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "1 cup of dry black-eyed peas (or about 2 cups canned)",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

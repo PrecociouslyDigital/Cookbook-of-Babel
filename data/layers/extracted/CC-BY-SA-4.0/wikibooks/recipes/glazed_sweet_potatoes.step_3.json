@@ -39,15 +39,15 @@
       }
     }
   ],
-  "environment": {
-    "temperatureC": 20,
-    "medium": "still_air"
-  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
     }
   },
   "stateNote": "Garnish with pecan halves, if desired.",
@@ -55,12 +55,7 @@
     {
       "field": "technique",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.44"
-    },
-    {
-      "field": "environment",
-      "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.38"
+      "note": "the decision model gave this answer a probability of 0.59"
     },
     {
       "field": "inputs",
@@ -71,11 +66,6 @@
       "field": "outputs",
       "kind": "estimate",
       "note": "assumed 1 g/ml for pecan"
-    },
-    {
-      "field": "environment",
-      "kind": "estimate",
-      "note": "no temperature given; assumed 20.0 °C for still_air"
     },
     {
       "field": "end",

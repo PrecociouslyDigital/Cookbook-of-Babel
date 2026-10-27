@@ -1,0 +1,49 @@
+{
+  "id": "fruity_cheese_dogs.step_3.prep_2",
+  "source": "wikibooks_fruity_cheese_dogs",
+  "technique": "heat",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "cheese",
+        "amount": {
+          "qty": 1,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "cheese_heat",
+      "amount": {
+        "qty": 1,
+        "unit": "cup"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "1 cup (240 ml) cheese (Mozzarella, Cheddar, Swiss, or any cheese that melts easily and is not very creamy)",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

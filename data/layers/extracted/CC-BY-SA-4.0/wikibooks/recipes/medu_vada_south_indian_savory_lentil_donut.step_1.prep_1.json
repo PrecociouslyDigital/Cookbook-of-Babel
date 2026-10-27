@@ -1,0 +1,54 @@
+{
+  "id": "medu_vada_south_indian_savory_lentil_donut.step_1.prep_1",
+  "source": "wikibooks_medu_vada_south_indian_savory_lentil_donut",
+  "technique": "rinse",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "urad_bean",
+        "amount": {
+          "qty": 240,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "urad_bean_rinse",
+      "amount": {
+        "qty": 240,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "1 cup (240 g) skinless black gram",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.5"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

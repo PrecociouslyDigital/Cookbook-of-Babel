@@ -5,7 +5,7 @@
     "source": "wikibooks_nigerian_bean_porridge",
     "step": 6
   },
-  "technique": "fry",
+  "technique": "pan_fry",
   "inputs": {
     "of": [
       {
@@ -34,7 +34,7 @@
     }
   ],
   "environment": {
-    "temperatureC": 190,
+    "temperatureC": 185,
     "medium": "pan_contact"
   },
   "end": {
@@ -47,6 +47,11 @@
   "stateNote": "Heat a pan. Add the tomato paste, panla fish, and salt/bouillon to taste. Fry for 5–7 minutes.",
   "issues": [
     {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.53"
+    },
+    {
       "field": "inputs",
       "kind": "estimate",
       "note": "'Smoked panla fish': no quantity given; assumed a pinch"
@@ -54,7 +59,7 @@
     {
       "field": "environment",
       "kind": "estimate",
-      "note": "no temperature given; used the middle of fry's typical range"
+      "note": "no temperature given; used the middle of pan_fry's typical range"
     }
   ]
 }

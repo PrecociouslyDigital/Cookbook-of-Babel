@@ -1,0 +1,49 @@
+{
+  "id": "parmesan_cheese_souffle.step_8.prep_6",
+  "source": "wikibooks_parmesan_cheese_souffle",
+  "technique": "whisk",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "egg_white",
+        "amount": {
+          "qty": 7,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "egg_white_whisk",
+      "amount": {
+        "qty": 7,
+        "unit": "piece"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "7 large egg whites",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

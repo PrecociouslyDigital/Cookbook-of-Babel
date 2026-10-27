@@ -16,7 +16,7 @@
         }
       },
       {
-        "ingredient": "vegetable_oil",
+        "ingredient": "vegetable_oil_heat",
         "amount": {
           "qty": 1,
           "unit": "oz"
@@ -34,8 +34,8 @@
     }
   ],
   "environment": {
-    "temperatureC": 175,
-    "medium": "frying_oil"
+    "temperatureC": 180,
+    "medium": "pan_contact"
   },
   "end": {
     "by": "time",
@@ -47,14 +47,19 @@
   "stateNote": "Add cooking oil to a wok or deep skillet. Add 1 teaspoon allspice and/or other seasonings.",
   "issues": [
     {
-      "field": "environment",
+      "field": "sourceRef",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.51"
+      "note": "the decision model gave this answer a probability of 0.59"
+    },
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.5"
     },
     {
       "field": "environment",
       "kind": "estimate",
-      "note": "no temperature given; assumed 175.0 °C for frying_oil"
+      "note": "no temperature given; assumed 180.0 °C for pan_contact"
     },
     {
       "field": "end",

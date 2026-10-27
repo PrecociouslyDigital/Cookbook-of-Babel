@@ -5,7 +5,7 @@
     "source": "wikibooks_stoofvlees_flemish_beef_stew",
     "step": 4
   },
-  "technique": "fry",
+  "technique": "assemble",
   "inputs": {
     "of": [
       {
@@ -16,7 +16,7 @@
         }
       },
       {
-        "ingredient": "onion",
+        "ingredient": "onion_fry",
         "amount": {
           "qty": 2,
           "unit": "piece"
@@ -48,7 +48,7 @@
     }
   ],
   "environment": {
-    "temperatureC": 190,
+    "temperatureC": 180,
     "medium": "pan_contact"
   },
   "end": {
@@ -63,12 +63,12 @@
     {
       "field": "technique",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.49"
+      "note": "the decision model gave this answer a probability of 0.32"
     },
     {
       "field": "environment",
       "kind": "estimate",
-      "note": "no temperature given; used the middle of fry's typical range"
+      "note": "no temperature given; assumed 180.0 °C for pan_contact"
     },
     {
       "field": "end",

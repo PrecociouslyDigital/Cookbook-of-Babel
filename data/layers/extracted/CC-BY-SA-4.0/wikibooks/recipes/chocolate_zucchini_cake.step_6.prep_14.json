@@ -1,0 +1,49 @@
+{
+  "id": "chocolate_zucchini_cake.step_6.prep_14",
+  "source": "wikibooks_chocolate_zucchini_cake",
+  "technique": "grind",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "walnut",
+        "amount": {
+          "qty": 20,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "walnut_grind",
+      "amount": {
+        "qty": 20,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "20 g ground walnuts",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

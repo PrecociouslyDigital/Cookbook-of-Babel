@@ -16,7 +16,7 @@
         }
       },
       {
-        "ingredient": "egg",
+        "ingredient": "egg_whisk",
         "amount": {
           "qty": 2,
           "unit": "piece"
@@ -30,7 +30,7 @@
         }
       },
       {
-        "ingredient": "bok_choy",
+        "ingredient": "bok_choy_cut",
         "amount": {
           "qty": 2,
           "unit": "piece"
@@ -67,6 +67,11 @@
   },
   "stateNote": "Add the egg, then the rice, bok choy, and diced pineapple.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.51"
+    },
     {
       "field": "environment",
       "kind": "estimate",

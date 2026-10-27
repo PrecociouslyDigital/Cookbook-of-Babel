@@ -5,13 +5,13 @@
     "source": "wikibooks_hongshao_rou_red_braised_pork_belly",
     "step": 3
   },
-  "technique": "season",
+  "technique": "mix",
   "inputs": {
     "of": [
       {
         "ingredient": "hongshao_rou_red_braised_pork_belly_step_2",
         "amount": {
-          "qty": 766,
+          "qty": 773.9,
           "unit": "g"
         }
       },
@@ -62,8 +62,8 @@
     }
   ],
   "environment": {
-    "temperatureC": 90,
-    "medium": "simmering_water"
+    "temperatureC": 180,
+    "medium": "pan_contact"
   },
   "end": {
     "by": "time",
@@ -75,9 +75,19 @@
   "stateNote": "Reduce the heat, add the stock, ginger, star anise, soy sauce, and Shaoxing wine to the pan.",
   "issues": [
     {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.4"
+    },
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.56"
+    },
+    {
       "field": "environment",
       "kind": "estimate",
-      "note": "no temperature given; assumed 90.0 °C for simmering_water"
+      "note": "no temperature given; assumed 180.0 °C for pan_contact"
     },
     {
       "field": "end",

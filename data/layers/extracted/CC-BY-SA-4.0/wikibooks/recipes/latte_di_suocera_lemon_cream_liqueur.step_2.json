@@ -26,19 +26,34 @@
       }
     }
   ],
+  "environment": {
+    "temperatureC": 85,
+    "medium": "still_air"
+  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
-    },
-    "sensitivity": {
-      "refTempC": 20,
-      "q10": 1
     }
   },
   "stateNote": "Shake well, and place the jar in a cool, dark place.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.57"
+    },
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.52"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of steep's typical range"
+    },
     {
       "field": "end",
       "kind": "estimate",

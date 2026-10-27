@@ -1,0 +1,49 @@
+{
+  "id": "marshmallow_rice_squares_ii.step_1.prep_1",
+  "source": "wikibooks_marshmallow_rice_squares_ii",
+  "technique": "heat",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "marshmallow",
+        "amount": {
+          "qty": 1,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "marshmallow_heat",
+      "amount": {
+        "qty": 1,
+        "unit": "cup"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "1 cup marshmallows (either regular white, cream soda flavour, or bubblegum flavour)",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

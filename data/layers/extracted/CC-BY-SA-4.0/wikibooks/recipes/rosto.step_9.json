@@ -33,15 +33,15 @@
       }
     }
   ],
-  "environment": {
-    "temperatureC": 20,
-    "medium": "still_air"
-  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
     }
   },
   "stateNote": "Serve meat, potatoes and pasta on same plate, pouring sauce over pasta and topping with grated cheese.",
@@ -49,17 +49,12 @@
     {
       "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.41"
+      "note": "the decision model gave this answer a probability of 0.42"
     },
     {
       "field": "inputs",
       "kind": "estimate",
       "note": "'Grated cheese (Edam or Parmesan)': no quantity given; assumed a pinch"
-    },
-    {
-      "field": "environment",
-      "kind": "estimate",
-      "note": "no temperature given; assumed 20.0 °C for still_air"
     },
     {
       "field": "end",

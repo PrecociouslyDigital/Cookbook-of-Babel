@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "beef_heat",
+        "ingredient": "beef_heat_heat",
         "amount": {
           "qty": 0.3,
           "unit": "g"
@@ -19,26 +19,36 @@
   },
   "outputs": [
     {
-      "ingredient": "beef_heat_rinse",
+      "ingredient": "beef_heat_heat_rinse",
       "amount": {
         "qty": 0.3,
         "unit": "g"
       }
     }
   ],
+  "environment": {
+    "temperatureC": 20,
+    "medium": "still_air"
+  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
-    },
-    "sensitivity": {
-      "refTempC": 20,
-      "q10": 1
     }
   },
   "stateNote": "Rinse the meat with cold water and dry it with a paper towel.",
   "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.47"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 20.0 °C for still_air"
+    },
     {
       "field": "end",
       "kind": "estimate",

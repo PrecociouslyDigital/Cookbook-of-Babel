@@ -1,0 +1,49 @@
+{
+  "id": "gingerbread_pancakes_i.step_4.prep_8",
+  "source": "wikibooks_gingerbread_pancakes_i",
+  "technique": "heat",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "buttermilk",
+        "amount": {
+          "qty": 0.75,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "buttermilk_heat",
+      "amount": {
+        "qty": 0.75,
+        "unit": "cup"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "¾ cup buttermilk",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

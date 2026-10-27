@@ -9,14 +9,14 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "oxtail",
+        "ingredient": "oxtail_boil",
         "amount": {
           "qty": 1.75,
           "unit": "lb"
         }
       },
       {
-        "ingredient": "water",
+        "ingredient": "water_boil",
         "amount": {
           "qty": 6,
           "unit": "cup"
@@ -46,6 +46,11 @@
   },
   "stateNote": "Boil the oxtail in water until tender.",
   "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for water_boil"
+    },
     {
       "field": "environment",
       "kind": "estimate",

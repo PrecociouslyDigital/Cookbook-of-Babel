@@ -1,0 +1,49 @@
+{
+  "id": "simple_restaurant_miso_soup.step_1.prep_1",
+  "source": "wikibooks_simple_restaurant_miso_soup",
+  "technique": "simmer",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "dashi_japanese_soup_stock",
+        "amount": {
+          "qty": 250,
+          "unit": "ml"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "dashi_japanese_soup_stock_simmer",
+      "amount": {
+        "qty": 250,
+        "unit": "ml"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "250 ml (1 cup) dashi",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

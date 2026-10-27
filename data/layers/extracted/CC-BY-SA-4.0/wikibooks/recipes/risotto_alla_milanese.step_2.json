@@ -5,18 +5,18 @@
     "source": "wikibooks_risotto_alla_milanese",
     "step": 2
   },
-  "technique": "boil",
+  "technique": "heat",
   "inputs": {
     "of": [
       {
-        "ingredient": "saffron_grind",
+        "ingredient": "risotto_alla_milanese_step_1",
         "amount": {
           "qty": 1.2,
           "unit": "g"
         }
       },
       {
-        "ingredient": "broth_and_stock",
+        "ingredient": "broth_and_stock_boil",
         "amount": {
           "qty": 3.75,
           "unit": "cup"
@@ -34,7 +34,7 @@
     }
   ],
   "environment": {
-    "temperatureC": 100,
+    "temperatureC": 180,
     "medium": "pan_contact"
   },
   "end": {
@@ -49,17 +49,17 @@
     {
       "field": "technique",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.52"
+      "note": "the decision model gave this answer a probability of 0.48"
     },
     {
       "field": "outputs",
       "kind": "estimate",
-      "note": "assumed 1 g/ml for broth_and_stock"
+      "note": "assumed 1 g/ml for broth_and_stock_boil"
     },
     {
       "field": "environment",
       "kind": "estimate",
-      "note": "no temperature given; used the middle of boil's typical range"
+      "note": "no temperature given; assumed 180.0 °C for pan_contact"
     },
     {
       "field": "end",

@@ -16,7 +16,7 @@
         }
       },
       {
-        "ingredient": "pepper",
+        "ingredient": "pepper_grind",
         "amount": {
           "qty": 1,
           "unit": "pinch"
@@ -46,6 +46,11 @@
   },
   "stateNote": "Remove herbs (if you wish) and check for taste. Season with salt and pepper to taste before serving.",
   "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.54"
+    },
     {
       "field": "inputs",
       "kind": "estimate",

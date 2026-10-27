@@ -16,14 +16,14 @@
         }
       },
       {
-        "ingredient": "butter",
+        "ingredient": "butter_heat",
         "amount": {
           "qty": 0.5,
           "unit": "cup"
         }
       },
       {
-        "ingredient": "chocolate",
+        "ingredient": "chocolate_heat",
         "amount": {
           "qty": 6,
           "unit": "oz"
@@ -54,9 +54,19 @@
   "stateNote": "In a microwave-safe bowl, melt butter and chocolate; stir until smooth.",
   "issues": [
     {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.52"
+    },
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.57"
+    },
+    {
       "field": "outputs",
       "kind": "estimate",
-      "note": "assumed 1 g/ml for butter"
+      "note": "assumed 1 g/ml for butter_heat"
     },
     {
       "field": "environment",

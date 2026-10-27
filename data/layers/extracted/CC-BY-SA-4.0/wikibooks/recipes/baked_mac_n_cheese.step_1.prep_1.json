@@ -1,0 +1,49 @@
+{
+  "id": "baked_mac_n_cheese.step_1.prep_1",
+  "source": "wikibooks_baked_mac_n_cheese",
+  "technique": "boil",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "shell_pasta",
+        "amount": {
+          "qty": 3.5,
+          "unit": "box"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "shell_pasta_boil",
+      "amount": {
+        "qty": 3.5,
+        "unit": "box"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "3-4 boxes of shell pasta, with liquid cheese",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

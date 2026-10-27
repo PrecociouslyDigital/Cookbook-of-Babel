@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "veal_simmer",
+        "ingredient": "veal_heat_simmer",
         "amount": {
           "qty": 1134,
           "unit": "g"
@@ -39,6 +39,11 @@
   },
   "stateNote": "Remove the meat, and set it aside in a dish while leaving the remaining juices in the saucepan.",
   "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.59"
+    },
     {
       "field": "end",
       "kind": "estimate",

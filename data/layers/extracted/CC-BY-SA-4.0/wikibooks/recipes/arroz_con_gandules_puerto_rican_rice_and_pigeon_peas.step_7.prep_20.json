@@ -1,0 +1,54 @@
+{
+  "id": "arroz_con_gandules_puerto_rican_rice_and_pigeon_peas.step_7.prep_20",
+  "source": "wikibooks_arroz_con_gandules_puerto_rican_rice_and_pigeon_peas",
+  "technique": "fry",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "salami",
+        "amount": {
+          "qty": 1.5,
+          "unit": "lb"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "salami_fry",
+      "amount": {
+        "qty": 1.5,
+        "unit": "lb"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "1½ pounds Puerto Rican salami (salchichón), ham, or chorizo, diced",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.55"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "focaccia_genovese",
+        "ingredient": "focaccia_genovese_ferment",
         "amount": {
           "qty": 1,
           "unit": "pinch"
@@ -23,14 +23,14 @@
         }
       },
       {
-        "ingredient": "blue_cheese",
+        "ingredient": "blue_cheese_cut",
         "amount": {
           "qty": 0.25,
           "unit": "lb"
         }
       },
       {
-        "ingredient": "walnut",
+        "ingredient": "walnut_chop",
         "amount": {
           "qty": 1,
           "unit": "cup"
@@ -47,15 +47,15 @@
       }
     }
   ],
+  "environment": {
+    "temperatureC": 260,
+    "medium": "oven_air"
+  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
-    },
-    "sensitivity": {
-      "refTempC": 20,
-      "q10": 1
     }
   },
   "stateNote": "When the focaccia is fully risen and ready to bake, gently spread onion marmalade evenly over surface. Evenly distribute blue cheese over onion marmalade and scatter walnuts over the top.",
@@ -63,7 +63,7 @@
     {
       "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.56"
+      "note": "the decision model gave this answer a probability of 0.47"
     },
     {
       "field": "inputs",
@@ -73,7 +73,7 @@
     {
       "field": "outputs",
       "kind": "estimate",
-      "note": "assumed 1 g/ml for focaccia_genovese, caramelized_sweet_and_sour_onion_marmalade, walnut"
+      "note": "assumed 1 g/ml for focaccia_genovese_ferment, caramelized_sweet_and_sour_onion_marmalade, walnut_chop"
     },
     {
       "field": "end",

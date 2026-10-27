@@ -1,0 +1,49 @@
+{
+  "id": "mayonnaise_vegan.step_1.prep_1",
+  "source": "wikibooks_mayonnaise_vegan",
+  "technique": "blend",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "tofu",
+        "amount": {
+          "qty": 6,
+          "unit": "oz"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "tofu_blend",
+      "amount": {
+        "qty": 6,
+        "unit": "oz"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "6 oz tofu (silky or soft preferred)",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

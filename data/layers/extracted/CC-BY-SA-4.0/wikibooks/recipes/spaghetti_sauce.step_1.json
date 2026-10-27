@@ -9,14 +9,14 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "oregano",
+        "ingredient": "oregano_grind",
         "amount": {
           "qty": 1,
           "unit": "tsp"
         }
       },
       {
-        "ingredient": "basil",
+        "ingredient": "basil_grind",
         "amount": {
           "qty": 2,
           "unit": "tsp"
@@ -54,9 +54,14 @@
   "stateNote": "For more efficient use of the herbs, you should grind them well with the salt. The salt helps to grind the herbs. If you skip this step, increase the amount of herbs. Also double the herbs if you prefer.",
   "issues": [
     {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.43"
+    },
+    {
       "field": "outputs",
       "kind": "estimate",
-      "note": "assumed 1 g/ml for oregano, basil"
+      "note": "assumed 1 g/ml for oregano_grind, basil_grind"
     },
     {
       "field": "end",

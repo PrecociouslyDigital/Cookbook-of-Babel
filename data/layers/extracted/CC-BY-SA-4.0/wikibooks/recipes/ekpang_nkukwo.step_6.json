@@ -11,7 +11,7 @@
       {
         "ingredient": "ekpang_nkukwo_step_4",
         "amount": {
-          "qty": 0.9,
+          "qty": 0.6,
           "unit": "g"
         }
       },
@@ -28,24 +28,29 @@
     {
       "ingredient": "ekpang_nkukwo_step_6",
       "amount": {
-        "qty": 1.2,
+        "qty": 0.9,
         "unit": "g"
       }
     }
   ],
-  "environment": {
-    "temperatureC": 175,
-    "medium": "frying_oil"
-  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
     }
   },
   "stateNote": "Arrange the wrapped cocoyam parcels in the cooking pot that already contains plam oil.",
   "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.47"
+    },
     {
       "field": "inputs",
       "kind": "estimate",
@@ -55,11 +60,6 @@
       "field": "outputs",
       "kind": "estimate",
       "note": "assumed 1 g/ml for palm_oil"
-    },
-    {
-      "field": "environment",
-      "kind": "estimate",
-      "note": "no temperature given; assumed 175.0 °C for frying_oil"
     },
     {
       "field": "end",

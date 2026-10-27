@@ -1,0 +1,49 @@
+{
+  "id": "feijao_tropeiro_brazilian_beans_and_sausage.step_1.prep_1",
+  "source": "wikibooks_feijao_tropeiro_brazilian_beans_and_sausage",
+  "technique": "boil",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "pulses",
+        "amount": {
+          "qty": 2,
+          "unit": "lb"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "pulses_boil",
+      "amount": {
+        "qty": 2,
+        "unit": "lb"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "2 lbs pinto beans",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

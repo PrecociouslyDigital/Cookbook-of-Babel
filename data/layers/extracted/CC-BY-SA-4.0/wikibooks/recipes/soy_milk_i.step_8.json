@@ -5,7 +5,7 @@
     "source": "wikibooks_soy_milk_i",
     "step": 8
   },
-  "technique": "press",
+  "technique": "separate",
   "inputs": {
     "of": [
       {
@@ -33,8 +33,9 @@
       "unit": "d"
     },
     "sensitivity": {
-      "refTempC": 20,
-      "q10": 1
+      "refTempC": 4,
+      "q10": 1,
+      "maxTempC": 8
     }
   },
   "stateNote": "When you're no longer able to extract significant amounts of milk from the soy mass, open the cheesecloth, and put the resulting rubberlike, crumbly okara ball into the prepared container. Store it in a cool place for up to 3 days; you may also freeze it.",
@@ -42,7 +43,12 @@
     {
       "field": "technique",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.4"
+      "note": "the decision model gave this answer a probability of 0.43"
+    },
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.53"
     }
   ]
 }

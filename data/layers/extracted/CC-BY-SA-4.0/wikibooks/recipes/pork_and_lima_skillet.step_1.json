@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "lima_bean",
+        "ingredient": "lima_bean_boil",
         "amount": {
           "qty": 10,
           "unit": "oz"
@@ -19,7 +19,7 @@
   },
   "outputs": [
     {
-      "ingredient": "lima_bean_boil",
+      "ingredient": "lima_bean_boil_boil",
       "amount": {
         "qty": 283.5,
         "unit": "g"
@@ -39,6 +39,11 @@
   },
   "stateNote": "Cook lima beans according to package directions, omitting salt in cooking water; drain.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.4"
+    },
     {
       "field": "environment",
       "kind": "estimate",

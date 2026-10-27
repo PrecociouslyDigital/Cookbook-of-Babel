@@ -1,0 +1,49 @@
+{
+  "id": "ossobuco_alla_milanese.step_5.prep_8",
+  "source": "wikibooks_ossobuco_alla_milanese",
+  "technique": "boil",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "wine",
+        "amount": {
+          "qty": 240,
+          "unit": "ml"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "wine_boil",
+      "amount": {
+        "qty": 240,
+        "unit": "ml"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "240 ml (1 cup) dry white wine or white vermouth",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

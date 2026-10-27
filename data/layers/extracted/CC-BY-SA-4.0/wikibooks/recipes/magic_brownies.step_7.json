@@ -1,0 +1,53 @@
+{
+  "id": "magic_brownies.step_7",
+  "source": "wikibooks_magic_brownies",
+  "sourceRef": {
+    "source": "wikibooks_magic_brownies",
+    "step": 7
+  },
+  "technique": "shape",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "magic_brownies_step_6",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "magic_brownies_step_7",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Transfer the batter to a greased and/or parchment-lined pan.",
+  "issues": [
+    {
+      "field": "sourceRef",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.51"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

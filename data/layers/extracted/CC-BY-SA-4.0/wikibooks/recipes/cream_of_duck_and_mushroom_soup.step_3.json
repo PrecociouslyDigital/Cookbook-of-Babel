@@ -5,7 +5,7 @@
     "source": "wikibooks_cream_of_duck_and_mushroom_soup",
     "step": 3
   },
-  "technique": "whisk",
+  "technique": "mix",
   "inputs": {
     "of": [
       {
@@ -16,7 +16,7 @@
         }
       },
       {
-        "ingredient": "egg",
+        "ingredient": "egg_whisk",
         "amount": {
           "qty": 3,
           "unit": "piece"
@@ -41,8 +41,8 @@
     }
   ],
   "environment": {
-    "temperatureC": 90,
-    "medium": "simmering_water"
+    "temperatureC": 180,
+    "medium": "pan_contact"
   },
   "end": {
     "by": "time",
@@ -54,6 +54,11 @@
   "stateNote": "In a mixing bowl, whisk egg yolks and milk until well-blended, then slowly add to soup.",
   "issues": [
     {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.39"
+    },
+    {
       "field": "inputs",
       "kind": "estimate",
       "note": "'3 duck egg yolks (chicken egg yolks will work too)': 'duck' read as pieces"
@@ -61,7 +66,7 @@
     {
       "field": "environment",
       "kind": "estimate",
-      "note": "no temperature given; assumed 90.0 °C for simmering_water"
+      "note": "no temperature given; assumed 180.0 °C for pan_contact"
     },
     {
       "field": "end",

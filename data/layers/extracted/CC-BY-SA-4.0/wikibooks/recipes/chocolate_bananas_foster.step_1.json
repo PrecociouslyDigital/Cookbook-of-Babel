@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "chocolate",
+        "ingredient": "chocolate_chop",
         "amount": {
           "qty": 2,
           "unit": "oz"
@@ -88,6 +88,11 @@
   },
   "stateNote": "Combine all ingredients except bananas, powdered sugar, orange, and rum in a large skillet over medium high heat.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.55"
+    },
     {
       "field": "outputs",
       "kind": "estimate",

@@ -1,0 +1,49 @@
+{
+  "id": "nigerian_oha_soup_ora_soup.step_1.prep_4",
+  "source": "wikibooks_nigerian_oha_soup_ora_soup",
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "assorted_meat",
+        "amount": {
+          "qty": 700,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "assorted_meat_season",
+      "amount": {
+        "qty": 700,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "700 grams assorted meat (beef, shaki, oxtail, goat meat)",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

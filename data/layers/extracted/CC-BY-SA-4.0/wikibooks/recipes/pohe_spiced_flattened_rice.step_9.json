@@ -28,7 +28,7 @@
   ],
   "environment": {
     "temperatureC": 100,
-    "medium": "steam"
+    "medium": "pan_contact"
   },
   "end": {
     "by": "time",
@@ -39,6 +39,11 @@
   },
   "stateNote": "Cover and cook for 5 minutes on low heat. Do not uncover during this time, as the pohe must cook in the steam.",
   "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.53"
+    },
     {
       "field": "environment",
       "kind": "estimate",

@@ -1,0 +1,49 @@
+{
+  "id": "pinon_spanish_stovetop_pot_pie.step_1.prep_4",
+  "source": "wikibooks_pinon_spanish_stovetop_pot_pie",
+  "technique": "rinse",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "culantro",
+        "amount": {
+          "qty": 5,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "culantro_rinse",
+      "amount": {
+        "qty": 5,
+        "unit": "piece"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "5 culantro leaves, washed",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

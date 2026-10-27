@@ -1,0 +1,49 @@
+{
+  "id": "cabbage_rolls_in_tomato_sauce_holubtsi.step_2.prep_1",
+  "source": "wikibooks_cabbage_rolls_in_tomato_sauce_holubtsi",
+  "technique": "boil",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "cabbage",
+        "amount": {
+          "qty": 12,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "cabbage_boil",
+      "amount": {
+        "qty": 12,
+        "unit": "piece"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "12 cabbage leaves",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

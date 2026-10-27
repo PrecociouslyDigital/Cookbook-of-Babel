@@ -5,7 +5,7 @@
     "source": "wikibooks_lapis_legit_many_layered_spiced_cake",
     "step": 2
   },
-  "technique": "whisk",
+  "technique": "mix",
   "inputs": {
     "of": [
       {
@@ -16,7 +16,7 @@
         }
       },
       {
-        "ingredient": "butter",
+        "ingredient": "butter_whisk",
         "amount": {
           "qty": 500,
           "unit": "g"
@@ -46,6 +46,11 @@
   },
   "stateNote": "Beat butter until smooth and creamy.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.46"
+    },
     {
       "field": "end",
       "kind": "estimate",

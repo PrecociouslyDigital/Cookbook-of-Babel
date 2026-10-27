@@ -5,7 +5,7 @@
     "source": "wikibooks_bubur_candil_sweet_glutinous_rice_balls_in_coconut_sauce",
     "step": 6
   },
-  "technique": "coat",
+  "technique": "assemble",
   "inputs": {
     "of": [
       {
@@ -16,7 +16,7 @@
         }
       },
       {
-        "ingredient": "coconut",
+        "ingredient": "coconut_boil",
         "amount": {
           "qty": 300,
           "unit": "ml"
@@ -33,33 +33,23 @@
       }
     }
   ],
-  "environment": {
-    "temperatureC": 90,
-    "medium": "simmering_water"
-  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
     }
   },
   "stateNote": "To serve, pour the coconut milk on top. Serve hot.",
   "issues": [
     {
-      "field": "technique",
-      "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.55"
-    },
-    {
       "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.4"
-    },
-    {
-      "field": "environment",
-      "kind": "estimate",
-      "note": "no temperature given; assumed 90.0 °C for simmering_water"
+      "note": "the decision model gave this answer a probability of 0.37"
     },
     {
       "field": "end",

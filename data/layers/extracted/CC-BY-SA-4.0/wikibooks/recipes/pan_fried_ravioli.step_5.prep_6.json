@@ -1,0 +1,49 @@
+{
+  "id": "pan_fried_ravioli.step_5.prep_6",
+  "source": "wikibooks_pan_fried_ravioli",
+  "technique": "heat",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "vegetable_oil",
+        "amount": {
+          "qty": 3,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "vegetable_oil_heat",
+      "amount": {
+        "qty": 3,
+        "unit": "cup"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "3 cups vegetable oil for frying",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

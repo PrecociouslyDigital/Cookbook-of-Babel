@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "assorted_meat",
+        "ingredient": "assorted_meat_boil",
         "amount": {
           "qty": 1.5,
           "unit": "kg"
@@ -19,7 +19,7 @@
   },
   "outputs": [
     {
-      "ingredient": "assorted_meat_fry",
+      "ingredient": "assorted_meat_boil_fry",
       "amount": {
         "qty": 1500,
         "unit": "g"
@@ -40,9 +40,14 @@
   "stateNote": "Cook the assorted meat pieces until tender. Fry them in oil to brown them. Set aside.",
   "issues": [
     {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.44"
+    },
+    {
       "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.52"
+      "note": "the decision model gave this answer a probability of 0.41"
     },
     {
       "field": "environment",

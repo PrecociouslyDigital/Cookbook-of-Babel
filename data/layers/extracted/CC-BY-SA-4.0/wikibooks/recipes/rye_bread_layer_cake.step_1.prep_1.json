@@ -1,0 +1,49 @@
+{
+  "id": "rye_bread_layer_cake.step_1.prep_1",
+  "source": "wikibooks_rye_bread_layer_cake",
+  "technique": "dry",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "rye",
+        "amount": {
+          "qty": 125,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "rye_dry",
+      "amount": {
+        "qty": 125,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "125 g dark rye bread without sunflower seeds etc.",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

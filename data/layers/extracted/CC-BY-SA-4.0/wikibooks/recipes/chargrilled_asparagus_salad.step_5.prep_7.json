@@ -1,0 +1,49 @@
+{
+  "id": "chargrilled_asparagus_salad.step_5.prep_7",
+  "source": "wikibooks_chargrilled_asparagus_salad",
+  "technique": "rinse",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "chickpea",
+        "amount": {
+          "qty": 230,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "chickpea_rinse",
+      "amount": {
+        "qty": 230,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "1 can (230 g drained) chickpeas",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

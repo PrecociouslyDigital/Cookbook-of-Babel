@@ -5,18 +5,18 @@
     "source": "wikibooks_thiebou_yapp",
     "step": 1
   },
-  "technique": "cut",
+  "technique": "heat",
   "inputs": {
     "of": [
       {
-        "ingredient": "meat",
+        "ingredient": "meat_cut",
         "amount": {
           "qty": 1,
           "unit": "kg"
         }
       },
       {
-        "ingredient": "vegetable_oil",
+        "ingredient": "vegetable_oil_boil",
         "amount": {
           "qty": 1,
           "unit": "l"
@@ -28,7 +28,7 @@
     {
       "ingredient": "thiebou_yapp_step_1",
       "amount": {
-        "qty": 1920,
+        "qty": 2000,
         "unit": "g"
       }
     }
@@ -47,9 +47,9 @@
   "stateNote": "Cut the meat into smaller sizes, put oil in a pot and boil at medium heat.",
   "issues": [
     {
-      "field": "technique",
-      "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.45"
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for vegetable_oil_boil"
     },
     {
       "field": "environment",

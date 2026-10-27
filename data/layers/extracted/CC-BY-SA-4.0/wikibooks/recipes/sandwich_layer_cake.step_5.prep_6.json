@@ -1,0 +1,49 @@
+{
+  "id": "sandwich_layer_cake.step_5.prep_6",
+  "source": "wikibooks_sandwich_layer_cake",
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "bread",
+        "amount": {
+          "qty": 2,
+          "unit": "loaf"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "bread_cut",
+      "amount": {
+        "qty": 2,
+        "unit": "loaf"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "2 loaves white sandwich bread",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -16,21 +16,21 @@
         }
       },
       {
-        "ingredient": "onion",
+        "ingredient": "onion_chop",
         "amount": {
           "qty": 1,
           "unit": "piece"
         }
       },
       {
-        "ingredient": "garlic",
+        "ingredient": "garlic_chop",
         "amount": {
           "qty": 3.5,
           "unit": "clove"
         }
       },
       {
-        "ingredient": "cilantro",
+        "ingredient": "cilantro_chop",
         "amount": {
           "qty": 1,
           "unit": "bunch"
@@ -60,6 +60,11 @@
   },
   "stateNote": "Peel and chop the onion and garlic finely. Roughly chop the cilantro.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.48"
+    },
     {
       "field": "end",
       "kind": "estimate",

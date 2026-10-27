@@ -34,8 +34,8 @@
     }
   ],
   "environment": {
-    "temperatureC": 20,
-    "medium": "still_air"
+    "temperatureC": 100,
+    "medium": "steam"
   },
   "end": {
     "by": "time",
@@ -47,19 +47,14 @@
   "stateNote": "Remove to a plate and cover tightly with aluminum foil. Add a slice of cheese to each one and let rest 5 minutes.",
   "issues": [
     {
-      "field": "technique",
-      "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.51"
-    },
-    {
       "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.55"
+      "note": "the decision model gave this answer a probability of 0.35"
     },
     {
       "field": "environment",
       "kind": "estimate",
-      "note": "no temperature given; assumed 20.0 °C for still_air"
+      "note": "no temperature given; assumed 100.0 °C for steam"
     }
   ]
 }

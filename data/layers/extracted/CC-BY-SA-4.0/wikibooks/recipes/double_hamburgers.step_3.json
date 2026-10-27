@@ -5,7 +5,7 @@
     "source": "wikibooks_double_hamburgers",
     "step": 3
   },
-  "technique": "fry",
+  "technique": "heat",
   "inputs": {
     "of": [
       {
@@ -27,7 +27,7 @@
     }
   ],
   "environment": {
-    "temperatureC": 190,
+    "temperatureC": 180,
     "medium": "pan_contact"
   },
   "end": {
@@ -40,9 +40,14 @@
   "stateNote": "Fry or grill the burgers for about 4–5 minutes on each side for burgers that aren't too thick.",
   "issues": [
     {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.52"
+    },
+    {
       "field": "environment",
       "kind": "estimate",
-      "note": "no temperature given; used the middle of fry's typical range"
+      "note": "no temperature given; assumed 180.0 °C for pan_contact"
     }
   ]
 }

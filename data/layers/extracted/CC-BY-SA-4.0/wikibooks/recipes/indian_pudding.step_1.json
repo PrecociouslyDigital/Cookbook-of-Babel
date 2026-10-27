@@ -5,11 +5,11 @@
     "source": "wikibooks_indian_pudding",
     "step": 1
   },
-  "technique": "boil",
+  "technique": "separate",
   "inputs": {
     "of": [
       {
-        "ingredient": "milk",
+        "ingredient": "milk_boil",
         "amount": {
           "qty": 1,
           "unit": "qt"
@@ -19,15 +19,15 @@
   },
   "outputs": [
     {
-      "ingredient": "milk_boil",
+      "ingredient": "indian_pudding_step_1",
       "amount": {
-        "qty": 974.7,
+        "qty": 946.4,
         "unit": "g"
       }
     }
   ],
   "environment": {
-    "temperatureC": 100,
+    "temperatureC": 180,
     "medium": "pan_contact"
   },
   "end": {
@@ -42,17 +42,17 @@
     {
       "field": "technique",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.58"
+      "note": "the decision model gave this answer a probability of 0.47"
     },
     {
-      "field": "environment",
-      "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.59"
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for milk_boil"
     },
     {
       "field": "environment",
       "kind": "estimate",
-      "note": "no temperature given; used the middle of boil's typical range"
+      "note": "no temperature given; assumed 180.0 °C for pan_contact"
     },
     {
       "field": "end",

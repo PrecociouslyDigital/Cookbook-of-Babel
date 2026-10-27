@@ -1,0 +1,67 @@
+{
+  "id": "radish_pie.step_3",
+  "source": "wikibooks_radish_pie",
+  "sourceRef": {
+    "source": "wikibooks_radish_pie",
+    "step": 3
+  },
+  "technique": "shape",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "radish_pie_step_2",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      },
+      {
+        "ingredient": "butter",
+        "amount": {
+          "qty": 0.25,
+          "unit": "cup"
+        }
+      },
+      {
+        "ingredient": "phyllo_dough",
+        "amount": {
+          "qty": 8,
+          "unit": "oz"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "radish_pie_step_3",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Use half the butter to grease a pie pan, and then line it with pieces of phyllo dough, covering the pan evenly. Tuck any stray bits under to make a nice edge.",
+  "issues": [
+    {
+      "field": "sourceRef",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.5"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

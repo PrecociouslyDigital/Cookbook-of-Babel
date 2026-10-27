@@ -1,0 +1,49 @@
+{
+  "id": "pan_fried_ravioli.step_4.prep_8",
+  "source": "wikibooks_pan_fried_ravioli",
+  "technique": "heat",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "marinara_sauce",
+        "amount": {
+          "qty": 16,
+          "unit": "oz"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "marinara_sauce_heat",
+      "amount": {
+        "qty": 16,
+        "unit": "oz"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "1 jar (16 ounces) marinara sauce",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

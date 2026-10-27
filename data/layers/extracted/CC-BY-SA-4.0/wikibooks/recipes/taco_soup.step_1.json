@@ -5,7 +5,7 @@
     "source": "wikibooks_taco_soup",
     "step": 1
   },
-  "technique": "pan_fry",
+  "technique": "heat",
   "inputs": {
     "of": [
       {
@@ -16,7 +16,7 @@
         }
       },
       {
-        "ingredient": "vegetable_oil",
+        "ingredient": "vegetable_oil_heat",
         "amount": {
           "qty": 1,
           "unit": "pinch"
@@ -34,7 +34,7 @@
     }
   ],
   "environment": {
-    "temperatureC": 185,
+    "temperatureC": 180,
     "medium": "pan_contact"
   },
   "end": {
@@ -47,19 +47,19 @@
   "stateNote": "Heat a heavy skillet or pot over medium-high heat. Add a few tablespoons of vegetable oil, then the ground meat.",
   "issues": [
     {
-      "field": "technique",
-      "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.56"
-    },
-    {
       "field": "inputs",
       "kind": "estimate",
       "note": "'Vegetable oil': no quantity given; assumed a pinch"
     },
     {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for vegetable_oil_heat"
+    },
+    {
       "field": "environment",
       "kind": "estimate",
-      "note": "no temperature given; used the middle of pan_fry's typical range"
+      "note": "no temperature given; assumed 180.0 °C for pan_contact"
     },
     {
       "field": "end",

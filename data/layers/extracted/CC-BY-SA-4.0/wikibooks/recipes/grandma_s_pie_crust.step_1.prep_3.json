@@ -1,0 +1,54 @@
+{
+  "id": "grandma_s_pie_crust.step_1.prep_3",
+  "source": "wikibooks_grandma_s_pie_crust",
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "shortening",
+        "amount": {
+          "qty": 128,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "shortening_cut",
+      "amount": {
+        "qty": 128,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "10 tbsp (128 g) solid vegetable shortening",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.51"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

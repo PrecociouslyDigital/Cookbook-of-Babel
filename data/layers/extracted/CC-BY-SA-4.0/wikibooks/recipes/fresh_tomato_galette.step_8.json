@@ -5,7 +5,7 @@
     "source": "wikibooks_fresh_tomato_galette",
     "step": 8
   },
-  "technique": "fold",
+  "technique": "shape",
   "inputs": {
     "of": [
       {
@@ -26,23 +26,23 @@
       }
     }
   ],
-  "environment": {
-    "temperatureC": 200,
-    "medium": "oven_air"
-  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
     }
   },
   "stateNote": "Sprinkle the remaining breadcrumbs and Parmesan on top, season with a little pepper if you like, and carefully fold the leftover dough over the tomatoes.",
   "issues": [
     {
-      "field": "environment",
+      "field": "technique",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.5"
+      "note": "the decision model gave this answer a probability of 0.46"
     },
     {
       "field": "end",

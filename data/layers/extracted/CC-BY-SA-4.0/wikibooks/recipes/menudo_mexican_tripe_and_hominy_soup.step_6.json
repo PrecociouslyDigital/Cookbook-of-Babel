@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "chiles_rinse_toast_boil_cool_rinse",
+        "ingredient": "chiles_rinse_rinse_toast_boil_cool_rinse",
         "amount": {
           "qty": 1,
           "unit": "batch"
@@ -19,7 +19,7 @@
   },
   "outputs": [
     {
-      "ingredient": "chiles_rinse_toast_boil_cool_rinse_blend",
+      "ingredient": "chiles_rinse_rinse_toast_boil_cool_rinse_blend",
       "amount": {
         "qty": 1,
         "unit": "batch"
@@ -39,6 +39,11 @@
   },
   "stateNote": "Place stemless and seedless reconstituted chilies into a blender and purée.",
   "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.59"
+    },
     {
       "field": "end",
       "kind": "estimate",

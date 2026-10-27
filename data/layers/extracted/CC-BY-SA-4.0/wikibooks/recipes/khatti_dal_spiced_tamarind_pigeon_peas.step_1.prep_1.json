@@ -1,0 +1,49 @@
+{
+  "id": "khatti_dal_spiced_tamarind_pigeon_peas.step_1.prep_1",
+  "source": "wikibooks_khatti_dal_spiced_tamarind_pigeon_peas",
+  "technique": "rinse",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "pigeon_pea",
+        "amount": {
+          "qty": 1,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "pigeon_pea_rinse",
+      "amount": {
+        "qty": 1,
+        "unit": "cup"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "1 cup (240 ml) toor daal (split pigeon peas)",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "african_salad_ii.step_1.prep_1",
+  "source": "wikibooks_african_salad_ii",
+  "technique": "soak",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "cassava",
+        "amount": {
+          "qty": 3,
+          "unit": "handful"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "cassava_soak",
+      "amount": {
+        "qty": 3,
+        "unit": "handful"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "3 handfuls abacha (shredded dried cassava)",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

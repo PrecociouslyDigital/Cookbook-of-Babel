@@ -1,0 +1,49 @@
+{
+  "id": "katogo_ugandan_mixed_breakfast_vegetables.step_1.prep_1",
+  "source": "wikibooks_katogo_ugandan_mixed_breakfast_vegetables",
+  "technique": "chop",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "banana",
+        "amount": {
+          "qty": 500,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "banana_chop",
+      "amount": {
+        "qty": 500,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "500 g peeled green bananas (matooke)",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

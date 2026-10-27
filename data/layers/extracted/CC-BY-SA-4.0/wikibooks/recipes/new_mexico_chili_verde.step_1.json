@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "bell_pepper",
+        "ingredient": "bell_pepper_chop",
         "amount": {
           "qty": 2,
           "unit": "piece"
@@ -88,6 +88,16 @@
   },
   "stateNote": "Combine bell peppers, chili peppers, water, tomatoes, bouillon, oregano, cumin, and coriander in a large pot. Cook over medium heat until peppers are tender.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.53"
+    },
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.42"
+    },
     {
       "field": "inputs",
       "kind": "estimate",

@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "mustard_greens_rinse",
+        "ingredient": "mustard_greens_rinse_rinse",
         "amount": {
           "qty": 0.3,
           "unit": "g"
@@ -46,6 +46,11 @@
   },
   "stateNote": "Add salt to the greens.",
   "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.45"
+    },
     {
       "field": "inputs",
       "kind": "estimate",

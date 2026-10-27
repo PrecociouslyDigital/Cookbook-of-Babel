@@ -16,7 +16,7 @@
         }
       },
       {
-        "ingredient": "cilantro",
+        "ingredient": "cilantro_chop",
         "amount": {
           "qty": 1,
           "unit": "sprig"
@@ -33,29 +33,19 @@
       }
     }
   ],
-  "environment": {
-    "temperatureC": 180,
-    "medium": "pan_contact"
-  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
     }
   },
   "stateNote": "Garnish with the remaining coconut and chopped coriander leaves.",
   "issues": [
-    {
-      "field": "environment",
-      "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.33"
-    },
-    {
-      "field": "environment",
-      "kind": "estimate",
-      "note": "no temperature given; assumed 180.0 °C for pan_contact"
-    },
     {
       "field": "end",
       "kind": "estimate",

@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "cream",
+        "ingredient": "cream_chill",
         "amount": {
           "qty": 1,
           "unit": "cup"
@@ -19,7 +19,7 @@
   },
   "outputs": [
     {
-      "ingredient": "cream_whisk",
+      "ingredient": "cream_chill_whisk",
       "amount": {
         "qty": 236.6,
         "unit": "g"
@@ -33,16 +33,22 @@
       "unit": "min"
     },
     "sensitivity": {
-      "refTempC": 20,
-      "q10": 1
+      "refTempC": 4,
+      "q10": 1,
+      "maxTempC": 8
     }
   },
   "stateNote": "Pour the cold cream into the chilled bowl. Start whipping at medium speed until foamy.",
   "issues": [
     {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.56"
+    },
+    {
       "field": "outputs",
       "kind": "estimate",
-      "note": "assumed 1 g/ml for cream"
+      "note": "assumed 1 g/ml for cream_chill"
     },
     {
       "field": "end",

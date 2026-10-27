@@ -30,14 +30,14 @@
         }
       },
       {
-        "ingredient": "cumin",
+        "ingredient": "cumin_roast",
         "amount": {
           "qty": 1,
           "unit": "tsp"
         }
       },
       {
-        "ingredient": "coriander",
+        "ingredient": "coriander_roast",
         "amount": {
           "qty": 1,
           "unit": "tsp"
@@ -55,8 +55,8 @@
     }
   ],
   "environment": {
-    "temperatureC": 90,
-    "medium": "simmering_water"
+    "temperatureC": 180,
+    "medium": "pan_contact"
   },
   "end": {
     "by": "time",
@@ -68,9 +68,19 @@
   "stateNote": "Add the cumin and coriander seed powder, red chilli powder and salt to the sauce and mix well. Bring it to a boil, and let it cook at medium low heat until the raw aroma of gram flour is gone. You can add a little water to it if required. Taste and adjust the salt and chilli powder.",
   "issues": [
     {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.58"
+    },
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.47"
+    },
+    {
       "field": "environment",
       "kind": "estimate",
-      "note": "no temperature given; assumed 90.0 °C for simmering_water"
+      "note": "no temperature given; assumed 180.0 °C for pan_contact"
     },
     {
       "field": "end",

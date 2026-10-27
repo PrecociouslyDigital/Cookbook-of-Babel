@@ -16,7 +16,7 @@
         }
       },
       {
-        "ingredient": "onion",
+        "ingredient": "onion_fry",
         "amount": {
           "qty": 2,
           "unit": "piece"
@@ -30,7 +30,7 @@
         }
       },
       {
-        "ingredient": "tomato",
+        "ingredient": "tomato_chop",
         "amount": {
           "qty": 1,
           "unit": "piece"
@@ -67,6 +67,11 @@
   },
   "stateNote": "In a large pot, fry onion rings, green chilies, and tomato in olive or sunflower oil over low heat until onions are light yellow.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.54"
+    },
     {
       "field": "environment",
       "kind": "estimate",

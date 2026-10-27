@@ -9,14 +9,14 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "potato_boil",
+        "ingredient": "potato_boil_boil",
         "amount": {
           "qty": 0.3,
           "unit": "g"
         }
       },
       {
-        "ingredient": "meat",
+        "ingredient": "meat_roast",
         "amount": {
           "qty": 1,
           "unit": "pinch"
@@ -47,9 +47,14 @@
   "stateNote": "Transfer the potatoes to a baking dish or pan. Then, place the dish underneath meat roasting on a spit so that they catch the drippings.",
   "issues": [
     {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.56"
+    },
+    {
       "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.49"
+      "note": "the decision model gave this answer a probability of 0.43"
     },
     {
       "field": "inputs",
@@ -59,7 +64,7 @@
     {
       "field": "outputs",
       "kind": "estimate",
-      "note": "assumed 1 g/ml for meat"
+      "note": "assumed 1 g/ml for meat_roast"
     },
     {
       "field": "environment",

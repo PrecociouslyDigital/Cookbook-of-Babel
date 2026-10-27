@@ -5,18 +5,18 @@
     "source": "wikibooks_ghormeh_sabzi_iranian_herb_stew",
     "step": 2
   },
-  "technique": "cut",
+  "technique": "separate",
   "inputs": {
     "of": [
       {
-        "ingredient": "pulses_boil",
+        "ingredient": "pulses_boil_boil",
         "amount": {
           "qty": 200,
           "unit": "g"
         }
       },
       {
-        "ingredient": "beef",
+        "ingredient": "beef_cut",
         "amount": {
           "qty": 800,
           "unit": "g"
@@ -46,6 +46,11 @@
   },
   "stateNote": "Remove unnecessary fat from the meat, and cut the meat into smaller pieces.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.47"
+    },
     {
       "field": "end",
       "kind": "estimate",

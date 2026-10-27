@@ -1,0 +1,58 @@
+{
+  "id": "three_bean_confetti_salad.step_2",
+  "source": "wikibooks_three_bean_confetti_salad",
+  "sourceRef": {
+    "source": "wikibooks_three_bean_confetti_salad",
+    "step": 2
+  },
+  "technique": "chill",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "three_bean_confetti_salad_step_1",
+        "amount": {
+          "qty": 1979.2,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "three_bean_confetti_salad",
+      "amount": {
+        "qty": 1979.2,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Serve chilled or at room temperature.",
+  "issues": [
+    {
+      "field": "sourceRef",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.51"
+    },
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.55"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

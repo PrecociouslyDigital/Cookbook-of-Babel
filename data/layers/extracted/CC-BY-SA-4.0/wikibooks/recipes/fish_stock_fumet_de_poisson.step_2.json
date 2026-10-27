@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "fish_rinse",
+        "ingredient": "fish_rinse_rinse",
         "amount": {
           "qty": 1360.8,
           "unit": "g"
@@ -33,15 +33,15 @@
       }
     }
   ],
-  "environment": {
-    "temperatureC": 90,
-    "medium": "simmering_water"
-  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
     }
   },
   "stateNote": "Place the fish in a stockpot and add the water.",
@@ -54,12 +54,7 @@
     {
       "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.58"
-    },
-    {
-      "field": "environment",
-      "kind": "estimate",
-      "note": "no temperature given; assumed 90.0 °C for simmering_water"
+      "note": "the decision model gave this answer a probability of 0.41"
     },
     {
       "field": "end",

@@ -5,32 +5,32 @@
     "source": "wikibooks_dirty_rice",
     "step": 1
   },
-  "technique": "chop",
+  "technique": "assemble",
   "inputs": {
     "of": [
       {
-        "ingredient": "onion",
+        "ingredient": "onion_chop",
         "amount": {
           "qty": 1,
           "unit": "piece"
         }
       },
       {
-        "ingredient": "celery",
+        "ingredient": "celery_chop",
         "amount": {
           "qty": 1.5,
           "unit": "stalk"
         }
       },
       {
-        "ingredient": "bell_pepper",
+        "ingredient": "bell_pepper_chop",
         "amount": {
           "qty": 0.5,
           "unit": "piece"
         }
       },
       {
-        "ingredient": "garlic",
+        "ingredient": "garlic_chop",
         "amount": {
           "qty": 1,
           "unit": "piece"
@@ -60,6 +60,11 @@
   },
   "stateNote": "Mince onion, bell pepper, celery and garlic.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.46"
+    },
     {
       "field": "end",
       "kind": "estimate",

@@ -5,7 +5,7 @@
     "source": "wikibooks_shakshuka_i",
     "step": 5
   },
-  "technique": "coagulate",
+  "technique": "simmer",
   "inputs": {
     "of": [
       {
@@ -27,7 +27,7 @@
     }
   ],
   "environment": {
-    "temperatureC": 180,
+    "temperatureC": 90,
     "medium": "pan_contact"
   },
   "end": {
@@ -40,9 +40,14 @@
   "stateNote": "Continue to cook on low until the egg whites have coagulated.",
   "issues": [
     {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.42"
+    },
+    {
       "field": "environment",
       "kind": "estimate",
-      "note": "no temperature given; assumed 180.0 °C for pan_contact"
+      "note": "no temperature given; used the middle of simmer's typical range"
     },
     {
       "field": "end",

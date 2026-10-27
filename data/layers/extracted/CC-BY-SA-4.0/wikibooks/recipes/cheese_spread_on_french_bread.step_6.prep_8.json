@@ -1,0 +1,49 @@
+{
+  "id": "cheese_spread_on_french_bread.step_6.prep_8",
+  "source": "wikibooks_cheese_spread_on_french_bread",
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "baguette",
+        "amount": {
+          "qty": 1,
+          "unit": "loaf"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "baguette_cut",
+      "amount": {
+        "qty": 1,
+        "unit": "loaf"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "1 loaf French bread, cut in small slices",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

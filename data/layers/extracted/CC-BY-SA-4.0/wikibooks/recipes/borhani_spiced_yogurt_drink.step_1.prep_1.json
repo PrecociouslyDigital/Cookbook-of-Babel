@@ -1,0 +1,49 @@
+{
+  "id": "borhani_spiced_yogurt_drink.step_1.prep_1",
+  "source": "wikibooks_borhani_spiced_yogurt_drink",
+  "technique": "roast",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "cumin",
+        "amount": {
+          "qty": 3,
+          "unit": "tsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "cumin_roast",
+      "amount": {
+        "qty": 3,
+        "unit": "tsp"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "3 tsp cumin seeds",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

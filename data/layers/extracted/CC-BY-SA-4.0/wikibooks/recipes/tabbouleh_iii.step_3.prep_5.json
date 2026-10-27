@@ -1,0 +1,49 @@
+{
+  "id": "tabbouleh_iii.step_3.prep_5",
+  "source": "wikibooks_tabbouleh_iii",
+  "technique": "chop",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "mint",
+        "amount": {
+          "qty": 5.5,
+          "unit": "stalk"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "mint_chop",
+      "amount": {
+        "qty": 5.5,
+        "unit": "stalk"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "5–6 stalks fresh mint",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "mango",
+        "ingredient": "mango_cut",
         "amount": {
           "qty": 1,
           "unit": "piece"
@@ -19,7 +19,7 @@
   },
   "outputs": [
     {
-      "ingredient": "mango_cut",
+      "ingredient": "mango_cut_cut",
       "amount": {
         "qty": 1,
         "unit": "batch"
@@ -39,6 +39,11 @@
   },
   "stateNote": "Place the mango on one side on a work surface and make a slit in the tip across its width with a sharp knife. Then, hold the mango upright on its stem end on the work surface, and carefully slice the flesh, with the skin attached, off one side of the stone, as close to it as possible. Turn it the other way and cut off the flesh from the other side of the stone.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.58"
+    },
     {
       "field": "inputs",
       "kind": "estimate",

@@ -9,14 +9,14 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "hazelnut_toast",
+        "ingredient": "hazelnut_roast_toast",
         "amount": {
           "qty": 78.9,
           "unit": "g"
         }
       },
       {
-        "ingredient": "nettle",
+        "ingredient": "nettle_boil",
         "amount": {
           "qty": 5,
           "unit": "cup"
@@ -47,9 +47,14 @@
   "stateNote": "With thick gloves, place nettles in boiling water for 1 minute. Transfer nettles to an ice water bath to stop the cooking process. Drain.",
   "issues": [
     {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.5"
+    },
+    {
       "field": "outputs",
       "kind": "estimate",
-      "note": "assumed 1 g/ml for nettle"
+      "note": "assumed 1 g/ml for nettle_boil"
     },
     {
       "field": "environment",

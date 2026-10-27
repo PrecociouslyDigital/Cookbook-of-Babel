@@ -16,7 +16,7 @@
         }
       },
       {
-        "ingredient": "vegetable_oil",
+        "ingredient": "vegetable_oil_heat",
         "amount": {
           "qty": 1,
           "unit": "pinch"
@@ -46,6 +46,11 @@
   },
   "stateNote": "Heat a wok or frying pan over medium-high to high heat. Add 2 tablespoons oil. When the oil is hot, add the noodles. Fry in batches until golden. Remove the noodles from the pan.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.53"
+    },
     {
       "field": "inputs",
       "kind": "estimate",

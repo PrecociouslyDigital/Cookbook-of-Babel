@@ -5,18 +5,18 @@
     "source": "wikibooks_nigerian_tomato_omelette",
     "step": 1
   },
-  "technique": "fry",
+  "technique": "pan_fry",
   "inputs": {
     "of": [
       {
-        "ingredient": "tomato",
+        "ingredient": "tomato_fry",
         "amount": {
           "qty": 1,
           "unit": "pinch"
         }
       },
       {
-        "ingredient": "vegetable_oil",
+        "ingredient": "vegetable_oil_heat",
         "amount": {
           "qty": 1,
           "unit": "pinch"
@@ -34,7 +34,7 @@
     }
   ],
   "environment": {
-    "temperatureC": 190,
+    "temperatureC": 185,
     "medium": "frying_oil"
   },
   "end": {
@@ -46,6 +46,16 @@
   },
   "stateNote": "Heat some oil in a pan over high heat. Add the tomatoes, and fry until well-heated.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.48"
+    },
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.56"
+    },
     {
       "field": "inputs",
       "kind": "estimate",
@@ -59,12 +69,12 @@
     {
       "field": "outputs",
       "kind": "estimate",
-      "note": "assumed 1 g/ml for tomato"
+      "note": "assumed 1 g/ml for tomato_fry, vegetable_oil_heat"
     },
     {
       "field": "environment",
       "kind": "estimate",
-      "note": "no temperature given; used the middle of fry's typical range"
+      "note": "no temperature given; used the middle of pan_fry's typical range"
     },
     {
       "field": "end",

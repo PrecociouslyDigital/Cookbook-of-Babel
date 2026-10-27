@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "pastry_dough",
+        "ingredient": "pastry_dough_cut",
         "amount": {
           "qty": 1,
           "unit": "pinch"
@@ -19,7 +19,7 @@
   },
   "outputs": [
     {
-      "ingredient": "pastry_dough_cut",
+      "ingredient": "pastry_dough_cut_cut",
       "amount": {
         "qty": 0.3,
         "unit": "g"
@@ -40,6 +40,11 @@
   "stateNote": "Roll out the pastry dough if needed, and cut out small rounds of dough.",
   "issues": [
     {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.51"
+    },
+    {
       "field": "inputs",
       "kind": "estimate",
       "note": "'Shortcrust pastry dough, either homemade or shop bought': no quantity given; assumed a pinch"
@@ -47,7 +52,7 @@
     {
       "field": "outputs",
       "kind": "estimate",
-      "note": "assumed 1 g/ml for pastry_dough"
+      "note": "assumed 1 g/ml for pastry_dough_cut"
     },
     {
       "field": "end",

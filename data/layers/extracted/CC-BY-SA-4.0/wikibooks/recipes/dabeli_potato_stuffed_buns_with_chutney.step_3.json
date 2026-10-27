@@ -16,14 +16,14 @@
         }
       },
       {
-        "ingredient": "peanut",
+        "ingredient": "peanut_roast",
         "amount": {
           "qty": 2,
           "unit": "tbsp"
         }
       },
       {
-        "ingredient": "peanut",
+        "ingredient": "peanut_roast",
         "amount": {
           "qty": 1,
           "unit": "pinch"
@@ -40,28 +40,28 @@
       }
     }
   ],
-  "environment": {
-    "temperatureC": 180,
-    "medium": "pan_contact"
-  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
     }
   },
   "stateNote": "Remove potato mixture from the heat, and taste. If you want to make it more spicy, add some more dabeli masala, and mix again using your hands or a masher. Toss in the roasted peanuts and mix everything well.",
   "issues": [
     {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.59"
+    },
+    {
       "field": "inputs",
       "kind": "estimate",
       "note": "'Roasted peanuts': no quantity given; assumed a pinch"
-    },
-    {
-      "field": "environment",
-      "kind": "estimate",
-      "note": "no temperature given; assumed 180.0 °C for pan_contact"
     },
     {
       "field": "end",

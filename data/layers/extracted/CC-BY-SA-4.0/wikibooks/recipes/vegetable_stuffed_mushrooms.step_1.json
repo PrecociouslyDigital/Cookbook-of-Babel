@@ -30,7 +30,7 @@
         }
       },
       {
-        "ingredient": "common_mushroom",
+        "ingredient": "common_mushroom_rinse",
         "amount": {
           "qty": 4,
           "unit": "piece"
@@ -54,9 +54,17 @@
       "unit": "h"
     },
     "sensitivity": {
-      "refTempC": 20,
-      "q10": 1
+      "refTempC": 4,
+      "q10": 1,
+      "maxTempC": 8
     }
   },
-  "stateNote": "Combine balsamic vinegar, garlic, and onion powder together in a bowl. Place your mushrooms in a gallon size bag, and evenly pour the vinegar, garlic and onion powder mixture on the mushrooms. Place the mushrooms and vinegar mixture in the fridge to marinate for 1 hour."
+  "stateNote": "Combine balsamic vinegar, garlic, and onion powder together in a bowl. Place your mushrooms in a gallon size bag, and evenly pour the vinegar, garlic and onion powder mixture on the mushrooms. Place the mushrooms and vinegar mixture in the fridge to marinate for 1 hour.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.41"
+    }
+  ]
 }

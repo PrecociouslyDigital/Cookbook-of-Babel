@@ -1,0 +1,49 @@
+{
+  "id": "chicken_cabbage_salad.step_1.prep_1",
+  "source": "wikibooks_chicken_cabbage_salad",
+  "technique": "chop",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "cabbage",
+        "amount": {
+          "qty": 1,
+          "unit": "head"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "cabbage_chop",
+      "amount": {
+        "qty": 1,
+        "unit": "head"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "1 head cabbage",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "adult_macaroni_and_cheese.step_3.prep_8",
+  "source": "wikibooks_adult_macaroni_and_cheese",
+  "technique": "julienne",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "emmental_cheese",
+        "amount": {
+          "qty": 4,
+          "unit": "slice"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "emmental_cheese_julienne",
+      "amount": {
+        "qty": 4,
+        "unit": "slice"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "4 thin slices Swiss cheese, julienned",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

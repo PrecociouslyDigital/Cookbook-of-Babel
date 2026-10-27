@@ -1,0 +1,49 @@
+{
+  "id": "spaghetti_aglio_e_olio.step_1.prep_1",
+  "source": "wikibooks_spaghetti_aglio_e_olio",
+  "technique": "boil",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "spaghetti",
+        "amount": {
+          "qty": 125,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "spaghetti_boil",
+      "amount": {
+        "qty": 125,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "100–150 g spaghetti",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

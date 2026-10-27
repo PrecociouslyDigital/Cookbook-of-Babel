@@ -1,0 +1,54 @@
+{
+  "id": "paella_roja.step_8.prep_9",
+  "source": "wikibooks_paella_roja",
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "bell_peppers",
+        "amount": {
+          "qty": 1.75,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "bell_peppers_cut",
+      "amount": {
+        "qty": 1.75,
+        "unit": "piece"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "1½–2 red bell peppers, cut into strips",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.31"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

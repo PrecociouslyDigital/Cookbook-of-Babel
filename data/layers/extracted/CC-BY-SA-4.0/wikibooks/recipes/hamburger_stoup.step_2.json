@@ -9,14 +9,14 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "onion_pan_fry",
+        "ingredient": "onion_fry_fry",
         "amount": {
           "qty": 1,
           "unit": "batch"
         }
       },
       {
-        "ingredient": "beef",
+        "ingredient": "beef_fry",
         "amount": {
           "qty": 2,
           "unit": "lb"
@@ -46,6 +46,11 @@
   },
   "stateNote": "Add the ground beef to the onions. Cook, breaking the meat up, until browned.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.55"
+    },
     {
       "field": "environment",
       "kind": "estimate",

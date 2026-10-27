@@ -5,7 +5,7 @@
     "source": "wikibooks_loco_moco_rice_with_egg_and_hamburger",
     "step": 3
   },
-  "technique": "steam",
+  "technique": "heat",
   "inputs": {
     "of": [
       {
@@ -16,14 +16,14 @@
         }
       },
       {
-        "ingredient": "rice",
+        "ingredient": "rice_steam",
         "amount": {
           "qty": 0.75,
           "unit": "cup"
         }
       },
       {
-        "ingredient": "gravy",
+        "ingredient": "gravy_heat",
         "amount": {
           "qty": 1,
           "unit": "pinch"
@@ -54,6 +54,11 @@
   "stateNote": "Steam the rice, and heat up the gravy.",
   "issues": [
     {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.56"
+    },
+    {
       "field": "inputs",
       "kind": "estimate",
       "note": "'Gravy': no quantity given; assumed a pinch"
@@ -61,7 +66,7 @@
     {
       "field": "environment",
       "kind": "estimate",
-      "note": "no temperature given; used the middle of steam's typical range"
+      "note": "no temperature given; assumed 100.0 °C for steam"
     },
     {
       "field": "end",

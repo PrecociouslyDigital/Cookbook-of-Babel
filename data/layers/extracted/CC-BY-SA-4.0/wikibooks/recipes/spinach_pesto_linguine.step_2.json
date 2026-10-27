@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "garlic_pan_fry",
+        "ingredient": "garlic_pan_fry_pan_fry",
         "amount": {
           "qty": 1,
           "unit": "batch"
@@ -40,23 +40,23 @@
       }
     }
   ],
-  "environment": {
-    "temperatureC": 180,
-    "medium": "pan_contact"
-  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
     }
   },
   "stateNote": "Chop the garlic up a bit in a food processor, then add the spinach bit by bit (stems may be left on if you like). When you have completed mixing the garlic and spinach together, add the olive oil and mix. Put into a bowl and set aside.",
   "issues": [
     {
-      "field": "environment",
-      "kind": "estimate",
-      "note": "no temperature given; assumed 180.0 °C for pan_contact"
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.54"
     },
     {
       "field": "end",

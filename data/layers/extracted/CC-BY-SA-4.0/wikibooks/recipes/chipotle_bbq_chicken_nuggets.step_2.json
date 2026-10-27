@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "chicken",
+        "ingredient": "chicken_cut",
         "amount": {
           "qty": 4,
           "unit": "piece"
@@ -60,6 +60,11 @@
   },
   "stateNote": "Dip chicken pieces in lemon juice then season with BBQ rub. Dip again in lemon juice.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.56"
+    },
     {
       "field": "inputs",
       "kind": "estimate",

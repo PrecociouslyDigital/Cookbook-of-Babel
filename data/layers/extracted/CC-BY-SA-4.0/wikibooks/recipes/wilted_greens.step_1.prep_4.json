@@ -1,0 +1,49 @@
+{
+  "id": "wilted_greens.step_1.prep_4",
+  "source": "wikibooks_wilted_greens",
+  "technique": "rinse",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "tatsoi",
+        "amount": {
+          "qty": 1,
+          "unit": "head"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "tatsoi_rinse",
+      "amount": {
+        "qty": 1,
+        "unit": "head"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "1 head (3–4 cups of leaves) tat soi or any other dark leafy green, base removed (tear into smaller pieces if using a large leaf plant like chard)",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

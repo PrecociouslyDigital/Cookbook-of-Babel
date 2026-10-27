@@ -9,14 +9,14 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "wheat_flour",
+        "ingredient": "wheat_flour_fry",
         "amount": {
           "qty": 3,
           "unit": "tbsp"
         }
       },
       {
-        "ingredient": "chili_powder",
+        "ingredient": "chili_powder_fry",
         "amount": {
           "qty": 3,
           "unit": "tbsp"
@@ -42,7 +42,7 @@
     {
       "ingredient": "cheese_enchilada_step_2",
       "amount": {
-        "qty": 818.5,
+        "qty": 839.4,
         "unit": "g"
       }
     }
@@ -61,14 +61,19 @@
   "stateNote": "Fry chili powder and flour in oil in a 10–12-inch (25–30 cm) skillet until emulsified. Add water, bring to a simmer, and then stir for ~5 minutes until slightly thickened. Turn down heat to low.",
   "issues": [
     {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.55"
+    },
+    {
       "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.51"
+      "note": "the decision model gave this answer a probability of 0.57"
     },
     {
       "field": "outputs",
       "kind": "estimate",
-      "note": "assumed 1 g/ml for chili_powder"
+      "note": "assumed 1 g/ml for wheat_flour_fry, chili_powder_fry"
     },
     {
       "field": "environment",

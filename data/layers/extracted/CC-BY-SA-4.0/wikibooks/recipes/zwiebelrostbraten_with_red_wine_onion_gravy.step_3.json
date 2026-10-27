@@ -35,7 +35,7 @@
   ],
   "environment": {
     "temperatureC": 100,
-    "medium": "simmering_water"
+    "medium": "pan_contact"
   },
   "end": {
     "by": "time",
@@ -46,6 +46,11 @@
   },
   "stateNote": "Add broth and let it boil down until it has achieved the desired consistency. This will take about 25 minutes. Do not forget to stir the gravy every once in a while.",
   "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.52"
+    },
     {
       "field": "environment",
       "kind": "estimate",

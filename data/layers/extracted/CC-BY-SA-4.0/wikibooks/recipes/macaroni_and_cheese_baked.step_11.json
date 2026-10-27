@@ -16,7 +16,7 @@
         }
       },
       {
-        "ingredient": "butter",
+        "ingredient": "butter_heat",
         "amount": {
           "qty": 3,
           "unit": "tbsp"
@@ -53,6 +53,11 @@
   },
   "stateNote": "Melt the butter in a sauté pan, add breadcrumbs, and toss to coat.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.57"
+    },
     {
       "field": "environment",
       "kind": "estimate",

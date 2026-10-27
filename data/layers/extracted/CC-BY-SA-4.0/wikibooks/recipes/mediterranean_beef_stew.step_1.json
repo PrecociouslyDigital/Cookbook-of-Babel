@@ -5,18 +5,18 @@
     "source": "wikibooks_mediterranean_beef_stew",
     "step": 1
   },
-  "technique": "fry",
+  "technique": "pan_fry",
   "inputs": {
     "of": [
       {
-        "ingredient": "onion",
+        "ingredient": "onion_chop",
         "amount": {
           "qty": 1,
           "unit": "piece"
         }
       },
       {
-        "ingredient": "garlic",
+        "ingredient": "garlic_chop",
         "amount": {
           "qty": 1,
           "unit": "clove"
@@ -41,7 +41,7 @@
     }
   ],
   "environment": {
-    "temperatureC": 190,
+    "temperatureC": 185,
     "medium": "frying_oil"
   },
   "end": {
@@ -54,6 +54,11 @@
   "stateNote": "In a large saucepan or casserole dish, gently fry the onion and garlic in plenty of good olive oil for a few minutes, taking care not to brown them.",
   "issues": [
     {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.5"
+    },
+    {
       "field": "inputs",
       "kind": "estimate",
       "note": "'Olive oil': no quantity given; assumed a pinch"
@@ -61,7 +66,7 @@
     {
       "field": "environment",
       "kind": "estimate",
-      "note": "no temperature given; used the middle of fry's typical range"
+      "note": "no temperature given; used the middle of pan_fry's typical range"
     },
     {
       "field": "end",

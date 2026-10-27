@@ -1,0 +1,49 @@
+{
+  "id": "yerushalmi_kugel_sweet_noodle_casserole.step_1.prep_1",
+  "source": "wikibooks_yerushalmi_kugel_sweet_noodle_casserole",
+  "technique": "boil",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "noodle",
+        "amount": {
+          "qty": 8,
+          "unit": "oz"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "noodle_boil",
+      "amount": {
+        "qty": 8,
+        "unit": "oz"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "8 oz (200 g) noodles (egg noodles are preferred, but others work fine as well)",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

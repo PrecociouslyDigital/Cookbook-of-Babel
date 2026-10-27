@@ -9,14 +9,14 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "soy_bean_soak_boil",
+        "ingredient": "soy_bean_rinse_soak_boil",
         "amount": {
           "qty": 907.2,
           "unit": "g"
         }
       },
       {
-        "ingredient": "water",
+        "ingredient": "water_boil",
         "amount": {
           "qty": 2,
           "unit": "tsp"
@@ -40,15 +40,15 @@
       }
     }
   ],
+  "environment": {
+    "temperatureC": 100,
+    "medium": "boiling_water"
+  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
-    },
-    "sensitivity": {
-      "refTempC": 20,
-      "q10": 1
     }
   },
   "stateNote": "Drain the cooked beans and place in a sterilized pot. Dissolve one special spoonful of nattomoto into 2 tsp of sterilized water.",
@@ -56,12 +56,17 @@
     {
       "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.46"
+      "note": "the decision model gave this answer a probability of 0.53"
     },
     {
       "field": "inputs",
       "kind": "estimate",
       "note": "'1 spoonful nattomoto powder': 'spoonful' read as pieces"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 100.0 °C for boiling_water"
     },
     {
       "field": "end",

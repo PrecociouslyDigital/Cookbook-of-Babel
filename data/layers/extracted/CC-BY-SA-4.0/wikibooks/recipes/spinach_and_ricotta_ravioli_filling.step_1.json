@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "spinach",
+        "ingredient": "spinach_dry",
         "amount": {
           "qty": 15,
           "unit": "oz"
@@ -39,6 +39,11 @@
   },
   "stateNote": "Squeeze the spinach to remove excess water. Place in a mixing bowl.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.57"
+    },
     {
       "field": "end",
       "kind": "estimate",

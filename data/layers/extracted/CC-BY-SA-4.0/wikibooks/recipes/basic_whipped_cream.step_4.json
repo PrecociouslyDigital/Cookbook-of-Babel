@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "cream_whisk_whisk",
+        "ingredient": "cream_chill_whisk_whisk",
         "amount": {
           "qty": 236.6,
           "unit": "g"
@@ -19,7 +19,7 @@
   },
   "outputs": [
     {
-      "ingredient": "cream_whisk_whisk_whisk",
+      "ingredient": "cream_chill_whisk_whisk_whisk",
       "amount": {
         "qty": 236.6,
         "unit": "g"
@@ -37,5 +37,12 @@
       "q10": 1
     }
   },
-  "stateNote": "Continue whipping in bursts of 10–30 seconds until you reach the desired level of stiffness, checking regularly. Stop immediately if you notice small grains or lumps start to form in the smooth cream."
+  "stateNote": "Continue whipping in bursts of 10–30 seconds until you reach the desired level of stiffness, checking regularly. Stop immediately if you notice small grains or lumps start to form in the smooth cream.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.42"
+    }
+  ]
 }

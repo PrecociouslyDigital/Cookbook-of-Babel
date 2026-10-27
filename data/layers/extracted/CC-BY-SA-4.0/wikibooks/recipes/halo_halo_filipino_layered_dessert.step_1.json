@@ -33,8 +33,9 @@
       "unit": "min"
     },
     "sensitivity": {
-      "refTempC": 20,
-      "q10": 1
+      "refTempC": -18,
+      "q10": 1,
+      "maxTempC": 0
     }
   },
   "stateNote": "Cover the bottoms of two serving bowls or glasses with a layer of shaved ice.",
@@ -42,7 +43,12 @@
     {
       "field": "sourceRef",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.57"
+      "note": "the decision model gave this answer a probability of 0.53"
+    },
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.43"
     },
     {
       "field": "outputs",

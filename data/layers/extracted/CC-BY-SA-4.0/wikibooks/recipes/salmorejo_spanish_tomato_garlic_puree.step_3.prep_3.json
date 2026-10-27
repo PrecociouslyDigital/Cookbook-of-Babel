@@ -1,0 +1,49 @@
+{
+  "id": "salmorejo_spanish_tomato_garlic_puree.step_3.prep_3",
+  "source": "wikibooks_salmorejo_spanish_tomato_garlic_puree",
+  "technique": "soak",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "white_bread",
+        "amount": {
+          "qty": 1,
+          "unit": "oz"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "white_bread_soak",
+      "amount": {
+        "qty": 1,
+        "unit": "oz"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "1 ounce (50 g) white bread",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -16,28 +16,28 @@
         }
       },
       {
-        "ingredient": "brandy",
+        "ingredient": "brandy_chill",
         "amount": {
           "qty": 180,
           "unit": "ml"
         }
       },
       {
-        "ingredient": "rum",
+        "ingredient": "rum_chill",
         "amount": {
           "qty": 80,
           "unit": "ml"
         }
       },
       {
-        "ingredient": "cream",
+        "ingredient": "cream_chill",
         "amount": {
           "qty": 480,
           "unit": "ml"
         }
       },
       {
-        "ingredient": "milk",
+        "ingredient": "milk_chill",
         "amount": {
           "qty": 480,
           "unit": "ml"
@@ -67,6 +67,11 @@
   },
   "stateNote": "Turn the mixer off and stir in the cold brandy, rum, whipping cream, and milk.",
   "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.45"
+    },
     {
       "field": "end",
       "kind": "estimate",

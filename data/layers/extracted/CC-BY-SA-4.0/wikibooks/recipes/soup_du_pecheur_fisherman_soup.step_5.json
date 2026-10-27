@@ -26,15 +26,15 @@
       }
     }
   ],
+  "environment": {
+    "temperatureC": 100,
+    "medium": "steam"
+  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
-    },
-    "sensitivity": {
-      "refTempC": 20,
-      "q10": 1
     }
   },
   "stateNote": "When the cassava couscous is hot, add the remaining red oil and salt to your desire taste. Mix it very well until the couscous turns orange.",
@@ -42,17 +42,17 @@
     {
       "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.23"
+      "note": "the decision model gave this answer a probability of 0.29"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 100.0 °C for steam"
     },
     {
       "field": "end",
       "kind": "estimate",
       "note": "no duration given; assumed 1 minute"
-    },
-    {
-      "field": "inputs",
-      "kind": "missing",
-      "note": "no step uses '2 lb crayfish' (p=0.52)"
     }
   ]
 }

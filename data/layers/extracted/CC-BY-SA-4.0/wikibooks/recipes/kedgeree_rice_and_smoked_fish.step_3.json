@@ -5,7 +5,7 @@
     "source": "wikibooks_kedgeree_rice_and_smoked_fish",
     "step": 3
   },
-  "technique": "pan_fry",
+  "technique": "mix",
   "inputs": {
     "of": [
       {
@@ -16,7 +16,7 @@
         }
       },
       {
-        "ingredient": "shallot",
+        "ingredient": "shallot_fry",
         "amount": {
           "qty": 3,
           "unit": "piece"
@@ -48,7 +48,7 @@
     }
   ],
   "environment": {
-    "temperatureC": 185,
+    "temperatureC": 180,
     "medium": "pan_contact"
   },
   "end": {
@@ -60,6 +60,11 @@
   },
   "stateNote": "Sauté the shallots in excess butter until light brown. Add the garlic, and cook for 1 minute more, making sure to not brown it. Transfer mixture to the rice.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.5"
+    },
     {
       "field": "inputs",
       "kind": "estimate",
@@ -73,7 +78,7 @@
     {
       "field": "environment",
       "kind": "estimate",
-      "note": "no temperature given; used the middle of pan_fry's typical range"
+      "note": "no temperature given; assumed 180.0 °C for pan_contact"
     }
   ]
 }

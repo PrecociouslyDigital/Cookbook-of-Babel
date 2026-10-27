@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "white_sugar",
+        "ingredient": "white_sugar_grind",
         "amount": {
           "qty": 100,
           "unit": "g"
@@ -46,6 +46,11 @@
   },
   "stateNote": "Use a pestle and mortar to crush the saffron and 1 tablespoon sugar together into a fine powder.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.58"
+    },
     {
       "field": "outputs",
       "kind": "estimate",

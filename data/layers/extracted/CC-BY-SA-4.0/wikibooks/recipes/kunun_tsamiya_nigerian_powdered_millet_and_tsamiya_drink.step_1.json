@@ -9,28 +9,28 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "clove",
+        "ingredient": "clove_grind",
         "amount": {
           "qty": 1,
           "unit": "tbsp"
         }
       },
       {
-        "ingredient": "ginger",
+        "ingredient": "ginger_grind",
         "amount": {
           "qty": 1,
           "unit": "handful"
         }
       },
       {
-        "ingredient": "millet",
+        "ingredient": "millet_grind",
         "amount": {
           "qty": 16,
           "unit": "cup"
         }
       },
       {
-        "ingredient": "pepper",
+        "ingredient": "pepper_grind",
         "amount": {
           "qty": 1,
           "unit": "pinch"
@@ -67,6 +67,11 @@
   },
   "stateNote": "Grind together ginger, cloves, millet, and pepper until smooth, and transfer to a bowl. Mix in enough water to get a paste.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.35"
+    },
     {
       "field": "inputs",
       "kind": "estimate",

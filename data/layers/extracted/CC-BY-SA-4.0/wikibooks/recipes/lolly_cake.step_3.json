@@ -16,14 +16,14 @@
         }
       },
       {
-        "ingredient": "butter",
+        "ingredient": "butter_heat",
         "amount": {
           "qty": 120,
           "unit": "g"
         }
       },
       {
-        "ingredient": "condensed_milk",
+        "ingredient": "condensed_milk_heat",
         "amount": {
           "qty": 200,
           "unit": "g"
@@ -53,6 +53,11 @@
   },
   "stateNote": "Warm the butter and condensed milk in the microwave for 30 seconds until the butter is very soft. It's okay if the butter melts a bit.",
   "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.58"
+    },
     {
       "field": "environment",
       "kind": "estimate",

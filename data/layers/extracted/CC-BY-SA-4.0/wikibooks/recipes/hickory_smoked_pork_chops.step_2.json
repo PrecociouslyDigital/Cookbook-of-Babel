@@ -5,7 +5,7 @@
     "source": "wikibooks_hickory_smoked_pork_chops",
     "step": 2
   },
-  "technique": "soak",
+  "technique": "cure",
   "inputs": {
     "of": [
       {
@@ -40,12 +40,18 @@
       "unit": "h"
     },
     "sensitivity": {
-      "refTempC": 20,
-      "q10": 1
+      "refTempC": 4,
+      "q10": 1,
+      "maxTempC": 8
     }
   },
   "stateNote": "Insert pork chops and brine in the refrigerator for 1–2 hours.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.5"
+    },
     {
       "field": "inputs",
       "kind": "estimate",

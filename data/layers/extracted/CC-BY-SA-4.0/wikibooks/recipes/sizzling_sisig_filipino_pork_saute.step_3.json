@@ -5,11 +5,11 @@
     "source": "wikibooks_sizzling_sisig_filipino_pork_saute",
     "step": 3
   },
-  "technique": "chop",
+  "technique": "separate",
   "inputs": {
     "of": [
       {
-        "ingredient": "pork_grill_boil",
+        "ingredient": "pork_grill_grill_boil",
         "amount": {
           "qty": 1500,
           "unit": "g"
@@ -19,40 +19,30 @@
   },
   "outputs": [
     {
-      "ingredient": "pork_grill_boil_chop",
+      "ingredient": "sizzling_sisig_filipino_pork_saute_step_3",
       "amount": {
         "qty": 1500,
         "unit": "g"
       }
     }
   ],
-  "environment": {
-    "temperatureC": 100,
-    "medium": "boiling_water"
-  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
     }
   },
   "stateNote": "Take out all the meat and dice.",
   "issues": [
     {
-      "field": "technique",
-      "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.5"
-    },
-    {
       "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.41"
-    },
-    {
-      "field": "environment",
-      "kind": "estimate",
-      "note": "no temperature given; assumed 100.0 °C for boiling_water"
+      "note": "the decision model gave this answer a probability of 0.48"
     },
     {
       "field": "end",

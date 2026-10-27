@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "water",
+        "ingredient": "water_boil",
         "amount": {
           "qty": 5,
           "unit": "cup"
@@ -19,7 +19,7 @@
   },
   "outputs": [
     {
-      "ingredient": "water_boil",
+      "ingredient": "water_boil_boil",
       "amount": {
         "qty": 1183,
         "unit": "g"
@@ -28,7 +28,7 @@
   ],
   "environment": {
     "temperatureC": 100,
-    "medium": "boiling_water"
+    "medium": "pan_contact"
   },
   "end": {
     "by": "time",
@@ -40,9 +40,9 @@
   "stateNote": "Bring water to a rapid boil in a saucepan.",
   "issues": [
     {
-      "field": "environment",
-      "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.55"
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for water_boil"
     },
     {
       "field": "environment",

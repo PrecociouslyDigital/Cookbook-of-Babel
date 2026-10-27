@@ -26,15 +26,15 @@
       }
     }
   ],
-  "environment": {
-    "temperatureC": 20,
-    "medium": "still_air"
-  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 30,
       "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
     }
   },
   "stateNote": "Cover completely and let rest for half an hour, during which time preparation for assembly and plating can be done.",
@@ -42,22 +42,17 @@
     {
       "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.38"
-    },
-    {
-      "field": "environment",
-      "kind": "estimate",
-      "note": "no temperature given; assumed 20.0 °C for still_air"
+      "note": "the decision model gave this answer a probability of 0.52"
     },
     {
       "field": "inputs",
       "kind": "missing",
-      "note": "no step uses 'Bay leaf' (p=0.75)"
+      "note": "no step uses 'Bay leaf' (p=0.8)"
     },
     {
       "field": "inputs",
       "kind": "missing",
-      "note": "no step uses 'Oregano' (p=0.7)"
+      "note": "no step uses 'Oregano' (p=0.73)"
     }
   ]
 }

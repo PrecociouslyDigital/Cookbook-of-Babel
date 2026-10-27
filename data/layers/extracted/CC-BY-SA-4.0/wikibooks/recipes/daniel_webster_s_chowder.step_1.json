@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "onion",
+        "ingredient": "onion_chop",
         "amount": {
           "qty": 4,
           "unit": "tbsp"
@@ -47,6 +47,11 @@
   "stateNote": "Fry the onion with the fatty pork. Transfer to a large pot.",
   "issues": [
     {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.53"
+    },
+    {
       "field": "inputs",
       "kind": "estimate",
       "note": "'Fatty pork': no quantity given; assumed a pinch"
@@ -54,7 +59,7 @@
     {
       "field": "outputs",
       "kind": "estimate",
-      "note": "assumed 1 g/ml for onion, pork"
+      "note": "assumed 1 g/ml for onion_chop, pork"
     },
     {
       "field": "environment",

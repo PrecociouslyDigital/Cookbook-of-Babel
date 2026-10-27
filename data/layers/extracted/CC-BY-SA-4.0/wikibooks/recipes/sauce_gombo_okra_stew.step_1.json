@@ -5,11 +5,11 @@
     "source": "wikibooks_sauce_gombo_okra_stew",
     "step": 1
   },
-  "technique": "cut",
+  "technique": "rinse",
   "inputs": {
     "of": [
       {
-        "ingredient": "okra",
+        "ingredient": "okra_cut",
         "amount": {
           "qty": 500,
           "unit": "g"
@@ -19,7 +19,7 @@
   },
   "outputs": [
     {
-      "ingredient": "okra_cut",
+      "ingredient": "okra_cut_rinse",
       "amount": {
         "qty": 500,
         "unit": "g"
@@ -39,6 +39,11 @@
   },
   "stateNote": "Wash the okra and trim off the tops and tails. Cut the okra into small rounds or slice them lengthwise. Set aside.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.43"
+    },
     {
       "field": "end",
       "kind": "estimate",

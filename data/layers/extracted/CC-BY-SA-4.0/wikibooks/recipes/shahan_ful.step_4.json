@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "fava_beans_soak_mix_simmer",
+        "ingredient": "fava_beans_soak_soak_mix_simmer",
         "amount": {
           "qty": 473.2,
           "unit": "g"
@@ -19,7 +19,7 @@
   },
   "outputs": [
     {
-      "ingredient": "fava_beans_soak_mix_simmer_grind",
+      "ingredient": "fava_beans_soak_soak_mix_simmer_grind",
       "amount": {
         "qty": 473.2,
         "unit": "g"
@@ -40,9 +40,14 @@
   "stateNote": "Mash the cooked beans into a coarse paste using a spoon or potato masher.",
   "issues": [
     {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.47"
+    },
+    {
       "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.52"
+      "note": "the decision model gave this answer a probability of 0.53"
     },
     {
       "field": "environment",

@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "butter",
+        "ingredient": "butter_mix",
         "amount": {
           "qty": 170,
           "unit": "g"
@@ -19,7 +19,7 @@
   },
   "outputs": [
     {
-      "ingredient": "butter_whisk",
+      "ingredient": "butter_mix_whisk",
       "amount": {
         "qty": 170,
         "unit": "g"
@@ -39,6 +39,11 @@
   },
   "stateNote": "Beat butter until creamy.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.5"
+    },
     {
       "field": "end",
       "kind": "estimate",

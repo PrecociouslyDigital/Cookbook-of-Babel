@@ -23,14 +23,14 @@
         }
       },
       {
-        "ingredient": "ginger",
+        "ingredient": "ginger_chop",
         "amount": {
           "qty": 1,
           "unit": "piece"
         }
       },
       {
-        "ingredient": "chiles",
+        "ingredient": "chiles_cut",
         "amount": {
           "qty": 3.5,
           "unit": "piece"
@@ -67,6 +67,11 @@
   },
   "stateNote": "Add the chopped onion, ginger, chillies and curry leaves. Fry until the onion is slightly browned.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.57"
+    },
     {
       "field": "inputs",
       "kind": "estimate",

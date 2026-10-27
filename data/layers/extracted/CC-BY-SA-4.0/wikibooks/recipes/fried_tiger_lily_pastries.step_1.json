@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "lily_bulbs",
+        "ingredient": "lily_bulbs_rinse",
         "amount": {
           "qty": 5,
           "unit": "oz"
@@ -19,7 +19,7 @@
   },
   "outputs": [
     {
-      "ingredient": "lily_bulbs_soak",
+      "ingredient": "lily_bulbs_rinse_soak",
       "amount": {
         "qty": 141.8,
         "unit": "g"
@@ -37,5 +37,12 @@
       "q10": 1
     }
   },
-  "stateNote": "Wash and soak dried lily bulbs for 1 hour. Discard water."
+  "stateNote": "Wash and soak dried lily bulbs for 1 hour. Discard water.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.57"
+    }
+  ]
 }

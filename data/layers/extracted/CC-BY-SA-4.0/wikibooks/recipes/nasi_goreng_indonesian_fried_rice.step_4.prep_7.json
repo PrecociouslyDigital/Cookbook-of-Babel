@@ -1,0 +1,49 @@
+{
+  "id": "nasi_goreng_indonesian_fried_rice.step_4.prep_7",
+  "source": "wikibooks_nasi_goreng_indonesian_fried_rice",
+  "technique": "heat",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "coconut_oil",
+        "amount": {
+          "qty": 10,
+          "unit": "ml"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "coconut_oil_heat",
+      "amount": {
+        "qty": 10,
+        "unit": "ml"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "10 ml coconut oil",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

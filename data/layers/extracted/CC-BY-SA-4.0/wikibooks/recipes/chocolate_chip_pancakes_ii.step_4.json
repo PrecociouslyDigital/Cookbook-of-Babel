@@ -11,7 +11,7 @@
       {
         "ingredient": "chocolate_chip_pancakes_ii_step_3",
         "amount": {
-          "qty": 393.2,
+          "qty": 391.4,
           "unit": "g"
         }
       },
@@ -23,7 +23,7 @@
         }
       },
       {
-        "ingredient": "butter",
+        "ingredient": "butter_heat",
         "amount": {
           "qty": 2,
           "unit": "tbsp"
@@ -42,20 +42,20 @@
     {
       "ingredient": "chocolate_chip_pancakes_ii_step_4",
       "amount": {
-        "qty": 477.7,
+        "qty": 475.9,
         "unit": "g"
       }
     }
   ],
-  "environment": {
-    "temperatureC": 20,
-    "medium": "still_air"
-  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
     }
   },
   "stateNote": "Whisk in egg, butter, and vanilla.",
@@ -63,17 +63,12 @@
     {
       "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.43"
+      "note": "the decision model gave this answer a probability of 0.55"
     },
     {
       "field": "outputs",
       "kind": "estimate",
-      "note": "assumed 1 g/ml for butter, vanilla"
-    },
-    {
-      "field": "environment",
-      "kind": "estimate",
-      "note": "no temperature given; assumed 20.0 °C for still_air"
+      "note": "assumed 1 g/ml for butter_heat, vanilla"
     },
     {
       "field": "end",

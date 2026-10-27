@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "butter_heat",
+        "ingredient": "butter_heat_heat",
         "amount": {
           "qty": 125,
           "unit": "g"
@@ -19,30 +19,30 @@
   },
   "outputs": [
     {
-      "ingredient": "butter_heat_cool",
+      "ingredient": "butter_heat_heat_cool",
       "amount": {
         "qty": 125,
         "unit": "g"
       }
     }
   ],
-  "environment": {
-    "temperatureC": 20,
-    "medium": "still_air"
-  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 5,
       "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
     }
   },
   "stateNote": "Leave it to cool for 5 minutes.",
   "issues": [
     {
       "field": "environment",
-      "kind": "estimate",
-      "note": "no temperature given; assumed 20.0 °C for still_air"
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.56"
     }
   ]
 }

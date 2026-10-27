@@ -9,14 +9,14 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "onion",
+        "ingredient": "onion_chop",
         "amount": {
           "qty": 1,
           "unit": "piece"
         }
       },
       {
-        "ingredient": "garlic",
+        "ingredient": "garlic_grind",
         "amount": {
           "qty": 1,
           "unit": "piece"
@@ -53,6 +53,11 @@
   },
   "stateNote": "Fry crushed garlic clove and chopped onions until soft.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.57"
+    },
     {
       "field": "inputs",
       "kind": "estimate",

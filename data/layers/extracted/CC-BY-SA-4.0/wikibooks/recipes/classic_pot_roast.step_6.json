@@ -44,21 +44,21 @@
         }
       },
       {
-        "ingredient": "rosemary",
+        "ingredient": "rosemary_chop",
         "amount": {
           "qty": 1,
           "unit": "tbsp"
         }
       },
       {
-        "ingredient": "thyme",
+        "ingredient": "thyme_chop",
         "amount": {
           "qty": 2,
           "unit": "tbsp"
         }
       },
       {
-        "ingredient": "oregano",
+        "ingredient": "oregano_chop",
         "amount": {
           "qty": 2,
           "unit": "tbsp"
@@ -79,7 +79,7 @@
         }
       },
       {
-        "ingredient": "potato",
+        "ingredient": "potato_cut",
         "amount": {
           "qty": 4,
           "unit": "piece"
@@ -97,8 +97,8 @@
     }
   ],
   "environment": {
-    "temperatureC": 90,
-    "medium": "simmering_water"
+    "temperatureC": 180,
+    "medium": "pan_contact"
   },
   "end": {
     "by": "time",
@@ -110,14 +110,9 @@
   "stateNote": "Deglaze pan with broth and add remaining ingredients. Reduce heat to low, then add vegetables and beef.",
   "issues": [
     {
-      "field": "technique",
-      "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.39"
-    },
-    {
       "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.37"
+      "note": "the decision model gave this answer a probability of 0.38"
     },
     {
       "field": "inputs",
@@ -127,7 +122,7 @@
     {
       "field": "environment",
       "kind": "estimate",
-      "note": "no temperature given; assumed 90.0 °C for simmering_water"
+      "note": "no temperature given; assumed 180.0 °C for pan_contact"
     },
     {
       "field": "end",

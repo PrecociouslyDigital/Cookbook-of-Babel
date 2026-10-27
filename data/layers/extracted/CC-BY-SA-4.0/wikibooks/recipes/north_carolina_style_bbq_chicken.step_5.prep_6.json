@@ -1,0 +1,49 @@
+{
+  "id": "north_carolina_style_bbq_chicken.step_5.prep_6",
+  "source": "wikibooks_north_carolina_style_bbq_chicken",
+  "technique": "soak",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "soaked_hickory_chips",
+        "amount": {
+          "qty": 1,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "soaked_hickory_chips_soak",
+      "amount": {
+        "qty": 1,
+        "unit": "cup"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "1 cup soaked hickory chips",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

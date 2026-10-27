@@ -1,0 +1,49 @@
+{
+  "id": "fruit_salad_with_orange_soda_ensalada_de_fruta.step_3.prep_3",
+  "source": "wikibooks_fruit_salad_with_orange_soda_ensalada_de_fruta",
+  "technique": "rinse",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "cherry",
+        "amount": {
+          "qty": 200,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "cherry_rinse",
+      "amount": {
+        "qty": 200,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "200 g cherries",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -16,7 +16,7 @@
         }
       },
       {
-        "ingredient": "pecan",
+        "ingredient": "pecan_chop",
         "amount": {
           "qty": 1,
           "unit": "cup"
@@ -33,15 +33,15 @@
       }
     }
   ],
-  "environment": {
-    "temperatureC": 176.66666666666666,
-    "medium": "oven_air"
-  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
     }
   },
   "stateNote": "Sprinkle chopped pecans on top.",
@@ -49,7 +49,12 @@
     {
       "field": "technique",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.55"
+      "note": "the decision model gave this answer a probability of 0.56"
+    },
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.52"
     },
     {
       "field": "end",

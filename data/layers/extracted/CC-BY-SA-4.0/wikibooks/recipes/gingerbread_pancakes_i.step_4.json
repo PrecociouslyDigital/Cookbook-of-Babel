@@ -16,14 +16,14 @@
         }
       },
       {
-        "ingredient": "buttermilk",
+        "ingredient": "buttermilk_heat",
         "amount": {
           "qty": 0.75,
           "unit": "cup"
         }
       },
       {
-        "ingredient": "milk",
+        "ingredient": "milk_heat",
         "amount": {
           "qty": 0.25,
           "unit": "cup"
@@ -35,7 +35,7 @@
     {
       "ingredient": "gingerbread_pancakes_i_step_4",
       "amount": {
-        "qty": 380.7,
+        "qty": 378.9,
         "unit": "g"
       }
     }
@@ -54,14 +54,19 @@
   "stateNote": "Combine buttermilk and milk, and bring to room temperature by microwaving or heating gently on the stove.",
   "issues": [
     {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.53"
+    },
+    {
       "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.48"
+      "note": "the decision model gave this answer a probability of 0.37"
     },
     {
       "field": "outputs",
       "kind": "estimate",
-      "note": "assumed 1 g/ml for buttermilk"
+      "note": "assumed 1 g/ml for buttermilk_heat, milk_heat"
     },
     {
       "field": "environment",

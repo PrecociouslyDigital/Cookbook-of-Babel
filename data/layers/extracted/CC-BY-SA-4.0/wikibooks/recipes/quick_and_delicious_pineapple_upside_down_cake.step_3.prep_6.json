@@ -1,0 +1,54 @@
+{
+  "id": "quick_and_delicious_pineapple_upside_down_cake.step_3.prep_6",
+  "source": "wikibooks_quick_and_delicious_pineapple_upside_down_cake",
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "cake_mix",
+        "amount": {
+          "qty": 1,
+          "unit": "box"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "cake_mix_mix",
+      "amount": {
+        "qty": 1,
+        "unit": "box"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "1 box yellow cake mix",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.55"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

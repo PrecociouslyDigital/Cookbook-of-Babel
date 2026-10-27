@@ -16,7 +16,7 @@
         }
       },
       {
-        "ingredient": "chicken",
+        "ingredient": "chicken_cut",
         "amount": {
           "qty": 1,
           "unit": "lb"
@@ -40,12 +40,18 @@
       "unit": "min"
     },
     "sensitivity": {
-      "refTempC": 20,
-      "q10": 1
+      "refTempC": 4,
+      "q10": 1,
+      "maxTempC": 8
     }
   },
   "stateNote": "In a large zip-close plastic bag, combine the juice and chicken. Seal and marinate in the refrigerator 30 minutes.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.53"
+    },
     {
       "field": "outputs",
       "kind": "estimate",

@@ -5,7 +5,7 @@
     "source": "wikibooks_palatschinken_with_sweetened_fruit",
     "step": 2
   },
-  "technique": "strain",
+  "technique": "chill",
   "inputs": {
     "of": [
       {
@@ -33,9 +33,17 @@
       "unit": "h"
     },
     "sensitivity": {
-      "refTempC": 20,
-      "q10": 1
+      "refTempC": 4,
+      "q10": 1,
+      "maxTempC": 8
     }
   },
-  "stateNote": "Strain the batter to get rid of any lumps, then chill in the refrigerator for 2 hours."
+  "stateNote": "Strain the batter to get rid of any lumps, then chill in the refrigerator for 2 hours.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.49"
+    }
+  ]
 }

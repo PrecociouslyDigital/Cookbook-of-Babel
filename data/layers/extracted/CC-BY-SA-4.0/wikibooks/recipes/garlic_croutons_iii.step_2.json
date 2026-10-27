@@ -9,14 +9,14 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "bread_dry",
+        "ingredient": "bread_bake_dry",
         "amount": {
           "qty": 1,
           "unit": "batch"
         }
       },
       {
-        "ingredient": "olive_oil",
+        "ingredient": "olive_oil_heat",
         "amount": {
           "qty": 0.25,
           "unit": "cup"
@@ -67,11 +67,6 @@
   },
   "stateNote": "Heat olive oil in a skillet over medium heat. Add seasonings and combine with oil. Add bread cubes and toss to coat.",
   "issues": [
-    {
-      "field": "environment",
-      "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.57"
-    },
     {
       "field": "environment",
       "kind": "estimate",

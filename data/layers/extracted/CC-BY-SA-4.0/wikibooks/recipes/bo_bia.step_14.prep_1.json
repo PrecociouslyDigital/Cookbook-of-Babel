@@ -1,0 +1,49 @@
+{
+  "id": "bo_bia.step_14.prep_1",
+  "source": "wikibooks_bo_bia",
+  "technique": "soak",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "rice_wafer",
+        "amount": {
+          "qty": 9,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "rice_wafer_soak",
+      "amount": {
+        "qty": 9,
+        "unit": "piece"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "9 rice paper rounds",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

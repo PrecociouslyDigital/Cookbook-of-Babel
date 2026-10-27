@@ -1,0 +1,49 @@
+{
+  "id": "cabbage_kimchi.step_7.prep_12",
+  "source": "wikibooks_cabbage_kimchi",
+  "technique": "julienne",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "radish",
+        "amount": {
+          "qty": 0.25,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "radish_julienne",
+      "amount": {
+        "qty": 0.25,
+        "unit": "piece"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "¼ Korean radish (muwoo), thinly julienned",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

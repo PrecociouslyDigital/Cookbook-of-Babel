@@ -1,0 +1,49 @@
+{
+  "id": "ghevar_rajasthani_honeycomb_fritter.step_3.prep_5",
+  "source": "wikibooks_ghevar_rajasthani_honeycomb_fritter",
+  "technique": "cool",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "clarified_butter",
+        "amount": {
+          "qty": 0.25,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "clarified_butter_cool",
+      "amount": {
+        "qty": 0.25,
+        "unit": "cup"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "¼ cup melted ghee, cooled",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

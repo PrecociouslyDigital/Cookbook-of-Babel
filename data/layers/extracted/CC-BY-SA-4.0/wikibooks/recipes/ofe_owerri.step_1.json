@@ -5,18 +5,18 @@
     "source": "wikibooks_ofe_owerri",
     "step": 1
   },
-  "technique": "cut",
+  "technique": "assemble",
   "inputs": {
     "of": [
       {
-        "ingredient": "meat",
+        "ingredient": "meat_rinse",
         "amount": {
           "qty": 1,
           "unit": "kg"
         }
       },
       {
-        "ingredient": "dryfish",
+        "ingredient": "dryfish_cut",
         "amount": {
           "qty": 500,
           "unit": "g"
@@ -46,6 +46,11 @@
   },
   "stateNote": "Clean the meats and dryfish, and cut into pieces.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.59"
+    },
     {
       "field": "end",
       "kind": "estimate",

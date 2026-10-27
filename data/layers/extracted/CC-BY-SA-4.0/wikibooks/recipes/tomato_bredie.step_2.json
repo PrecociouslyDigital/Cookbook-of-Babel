@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "vegetable_oil",
+        "ingredient": "vegetable_oil_heat",
         "amount": {
           "qty": 1,
           "unit": "tbsp"
@@ -35,20 +35,20 @@
     {
       "ingredient": "tomato_bredie_step_2",
       "amount": {
-        "qty": 1616.8,
+        "qty": 1618,
         "unit": "g"
       }
     }
   ],
+  "environment": {
+    "temperatureC": 175,
+    "medium": "frying_oil"
+  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
-    },
-    "sensitivity": {
-      "refTempC": 20,
-      "q10": 1
     }
   },
   "stateNote": "Dredge lamb in flour; shake off excess.",
@@ -56,7 +56,17 @@
     {
       "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.41"
+      "note": "the decision model gave this answer a probability of 0.51"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for vegetable_oil_heat"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 175.0 °C for frying_oil"
     },
     {
       "field": "end",

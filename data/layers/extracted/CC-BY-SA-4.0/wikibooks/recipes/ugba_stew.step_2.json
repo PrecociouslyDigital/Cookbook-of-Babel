@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "stockfish_soak",
+        "ingredient": "stockfish_soak_soak",
         "amount": {
           "qty": 1,
           "unit": "batch"
@@ -55,8 +55,8 @@
     }
   ],
   "environment": {
-    "temperatureC": 90,
-    "medium": "simmering_water"
+    "temperatureC": 100,
+    "medium": "boiling_water"
   },
   "end": {
     "by": "time",
@@ -70,7 +70,7 @@
     {
       "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.47"
+      "note": "the decision model gave this answer a probability of 0.35"
     },
     {
       "field": "inputs",
@@ -80,7 +80,7 @@
     {
       "field": "environment",
       "kind": "estimate",
-      "note": "no temperature given; assumed 90.0 °C for simmering_water"
+      "note": "no temperature given; assumed 100.0 °C for boiling_water"
     },
     {
       "field": "end",

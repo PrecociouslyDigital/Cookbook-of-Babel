@@ -16,7 +16,7 @@
         }
       },
       {
-        "ingredient": "fish",
+        "ingredient": "fish_season",
         "amount": {
           "qty": 1,
           "unit": "lb"
@@ -46,6 +46,11 @@
   },
   "stateNote": "While the soup is simmering, prepare the fish fillets by seasoning them with salt and pepper. Grill or pan-fry the fish until cooked through. Once cooked, flake the fish into smaller pieces using a fork.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.44"
+    },
     {
       "field": "environment",
       "kind": "estimate",

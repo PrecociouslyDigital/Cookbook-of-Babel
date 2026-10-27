@@ -5,7 +5,7 @@
     "source": "wikibooks_breakfast_durum",
     "step": 4
   },
-  "technique": "coagulate",
+  "technique": "pan_fry",
   "inputs": {
     "of": [
       {
@@ -16,7 +16,7 @@
         }
       },
       {
-        "ingredient": "egg",
+        "ingredient": "egg_whisk",
         "amount": {
           "qty": 2,
           "unit": "piece"
@@ -90,7 +90,7 @@
     }
   ],
   "environment": {
-    "temperatureC": 180,
+    "temperatureC": 185,
     "medium": "pan_contact"
   },
   "end": {
@@ -105,12 +105,12 @@
     {
       "field": "technique",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.47"
+      "note": "the decision model gave this answer a probability of 0.4"
     },
     {
       "field": "environment",
       "kind": "estimate",
-      "note": "no temperature given; assumed 180.0 °C for pan_contact"
+      "note": "no temperature given; used the middle of pan_fry's typical range"
     },
     {
       "field": "end",

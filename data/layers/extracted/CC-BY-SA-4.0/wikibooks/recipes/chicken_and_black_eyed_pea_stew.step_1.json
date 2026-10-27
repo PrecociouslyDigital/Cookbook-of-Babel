@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "cowpea",
+        "ingredient": "cowpea_rinse",
         "amount": {
           "qty": 1,
           "unit": "cup"
@@ -19,7 +19,7 @@
   },
   "outputs": [
     {
-      "ingredient": "cowpea_boil",
+      "ingredient": "cowpea_rinse_boil",
       "amount": {
         "qty": 236.6,
         "unit": "g"
@@ -40,9 +40,14 @@
   "stateNote": "If using dry black-eyed peas, wash them, then cook for 20 minutes or until al dente. When done, drain.",
   "issues": [
     {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.45"
+    },
+    {
       "field": "outputs",
       "kind": "estimate",
-      "note": "assumed 1 g/ml for cowpea"
+      "note": "assumed 1 g/ml for cowpea_rinse"
     },
     {
       "field": "environment",

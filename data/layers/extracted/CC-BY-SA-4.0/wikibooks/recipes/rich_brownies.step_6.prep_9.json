@@ -1,0 +1,49 @@
+{
+  "id": "rich_brownies.step_6.prep_9",
+  "source": "wikibooks_rich_brownies",
+  "technique": "chop",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "nuts_and_seeds",
+        "amount": {
+          "qty": 240,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "nuts_and_seeds_chop",
+      "amount": {
+        "qty": 240,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "1 cup (240 g / 2.4 dl) coarsely chopped nuts (½ inch / 1 cm walnuts work well)",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

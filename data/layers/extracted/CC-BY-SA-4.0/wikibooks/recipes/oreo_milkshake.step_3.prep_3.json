@@ -1,0 +1,54 @@
+{
+  "id": "oreo_milkshake.step_3.prep_3",
+  "source": "wikibooks_oreo_milkshake",
+  "technique": "grind",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "cookie",
+        "amount": {
+          "qty": 7,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "cookie_grind",
+      "amount": {
+        "qty": 7,
+        "unit": "piece"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "About 6–8 Oreo cookies, crushed",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.55"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

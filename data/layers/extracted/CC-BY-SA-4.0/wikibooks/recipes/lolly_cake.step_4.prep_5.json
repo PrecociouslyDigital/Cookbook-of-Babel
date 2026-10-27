@@ -1,0 +1,49 @@
+{
+  "id": "lolly_cake.step_4.prep_5",
+  "source": "wikibooks_lolly_cake",
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "fruit_puffs",
+        "amount": {
+          "qty": 180,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "fruit_puffs_cut",
+      "amount": {
+        "qty": 180,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "180 g (1 packet) Fruit Puffs",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

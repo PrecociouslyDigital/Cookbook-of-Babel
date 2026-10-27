@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "sorghum",
+        "ingredient": "sorghum_grind",
         "amount": {
           "qty": 1,
           "unit": "cup"
@@ -47,9 +47,14 @@
   "stateNote": "Mix the Grain flour with a little water to form a light, smooth paste. Ensure there are no lumps.",
   "issues": [
     {
+      "field": "inputs",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.55"
+    },
+    {
       "field": "outputs",
       "kind": "estimate",
-      "note": "assumed 1 g/ml for sorghum"
+      "note": "assumed 1 g/ml for sorghum_grind"
     },
     {
       "field": "end",

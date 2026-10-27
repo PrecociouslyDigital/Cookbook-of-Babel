@@ -5,25 +5,25 @@
     "source": "wikibooks_masala_dosa",
     "step": 1
   },
-  "technique": "grind",
+  "technique": "blend",
   "inputs": {
     "of": [
       {
-        "ingredient": "rice",
+        "ingredient": "rice_grind",
         "amount": {
           "qty": 1,
           "unit": "cup"
         }
       },
       {
-        "ingredient": "boiled_rice",
+        "ingredient": "boiled_rice_grind",
         "amount": {
           "qty": 1,
           "unit": "cup"
         }
       },
       {
-        "ingredient": "urad_bean",
+        "ingredient": "urad_bean_grind",
         "amount": {
           "qty": 0.75,
           "unit": "cup"
@@ -61,6 +61,11 @@
   "stateNote": "On the day before cooking the dosa, grind all the batter ingredients in a blender or specialized dosa grinder with water. The final consistency of the batter must be similar to pancake batter.",
   "issues": [
     {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.59"
+    },
+    {
       "field": "inputs",
       "kind": "estimate",
       "note": "'Non-iodized salt to taste': no quantity given; assumed a pinch"
@@ -68,7 +73,7 @@
     {
       "field": "outputs",
       "kind": "estimate",
-      "note": "assumed 1 g/ml for rice, boiled_rice, urad_bean"
+      "note": "assumed 1 g/ml for rice_grind, boiled_rice_grind, urad_bean_grind"
     },
     {
       "field": "end",

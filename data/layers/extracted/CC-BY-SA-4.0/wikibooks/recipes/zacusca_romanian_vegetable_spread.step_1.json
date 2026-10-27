@@ -9,21 +9,21 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "eggplant",
+        "ingredient": "eggplant_roast",
         "amount": {
           "qty": 3,
           "unit": "kg"
         }
       },
       {
-        "ingredient": "bell_pepper",
+        "ingredient": "bell_pepper_roast",
         "amount": {
           "qty": 1,
           "unit": "kg"
         }
       },
       {
-        "ingredient": "bell_pepper",
+        "ingredient": "bell_pepper_roast",
         "amount": {
           "qty": 1,
           "unit": "kg"
@@ -53,6 +53,11 @@
   },
   "stateNote": "Roast the eggplants and peppers until their skins are charred and easily removable by hand. Skin the vegetables. The pepper skins should come off easily in long strips. The eggplant skin might retain some of the flesh; some people like to take the back of the knife over the skin to remove that flesh and use it because it has a smokey flavor, but you can easily discard it if pressed for time.",
   "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.58"
+    },
     {
       "field": "environment",
       "kind": "estimate",

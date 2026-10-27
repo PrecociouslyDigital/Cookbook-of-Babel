@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "turnip",
+        "ingredient": "turnip_season",
         "amount": {
           "qty": 3,
           "unit": "piece"
@@ -46,6 +46,11 @@
   },
   "stateNote": "Arrange the turnip slices on a rack over a cookie sheet. Sprinkle with salt, cover them with a dish, and let them stand for about 2 hours until the water has run out of them.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.59"
+    },
     {
       "field": "inputs",
       "kind": "estimate",

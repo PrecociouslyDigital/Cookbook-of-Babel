@@ -1,0 +1,49 @@
+{
+  "id": "grilled_pork_chops.step_1.prep_4",
+  "source": "wikibooks_grilled_pork_chops",
+  "technique": "chop",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "rosemary",
+        "amount": {
+          "qty": 4,
+          "unit": "sprig"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "rosemary_chop",
+      "amount": {
+        "qty": 4,
+        "unit": "sprig"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "4 sprigs fresh rosemary, finely chopped",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

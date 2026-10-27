@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "lean_beef",
+        "ingredient": "lean_beef_cut",
         "amount": {
           "qty": 1,
           "unit": "kg"
@@ -19,7 +19,7 @@
   },
   "outputs": [
     {
-      "ingredient": "lean_beef_cut",
+      "ingredient": "lean_beef_cut_cut",
       "amount": {
         "qty": 1000,
         "unit": "g"
@@ -39,6 +39,11 @@
   },
   "stateNote": "Trim excess fat from the meat and cut it into thin strips or small cubes.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.55"
+    },
     {
       "field": "end",
       "kind": "estimate",

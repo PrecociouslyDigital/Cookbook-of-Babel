@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "milk",
+        "ingredient": "milk_boil",
         "amount": {
           "qty": 3,
           "unit": "cup"
@@ -19,16 +19,16 @@
   },
   "outputs": [
     {
-      "ingredient": "milk_boil",
+      "ingredient": "milk_boil_boil",
       "amount": {
-        "qty": 731.1,
+        "qty": 709.8,
         "unit": "g"
       }
     }
   ],
   "environment": {
     "temperatureC": 100,
-    "medium": "boiling_water"
+    "medium": "pan_contact"
   },
   "end": {
     "by": "time",
@@ -39,6 +39,11 @@
   },
   "stateNote": "Bring the liquid to a boil in a heavy pot. If you're using milk, keep an eye on it: it can easily boil over and make a mess all over the place in seconds.",
   "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for milk_boil"
+    },
     {
       "field": "environment",
       "kind": "estimate",

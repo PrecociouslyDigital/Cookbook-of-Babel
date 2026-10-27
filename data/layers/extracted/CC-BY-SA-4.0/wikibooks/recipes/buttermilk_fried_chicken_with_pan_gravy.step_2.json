@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "chicken_cut",
+        "ingredient": "chicken_cut_cut",
         "amount": {
           "qty": 1,
           "unit": "batch"
@@ -89,9 +89,17 @@
       "unit": "h"
     },
     "sensitivity": {
-      "refTempC": 20,
-      "q10": 1
+      "refTempC": 4,
+      "q10": 1,
+      "maxTempC": 8
     }
   },
-  "stateNote": "Combine the buttermilk and spices, and marinate the chicken pieces for 4 hours in the mixture."
+  "stateNote": "Combine the buttermilk and spices, and marinate the chicken pieces for 4 hours in the mixture.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.51"
+    }
+  ]
 }

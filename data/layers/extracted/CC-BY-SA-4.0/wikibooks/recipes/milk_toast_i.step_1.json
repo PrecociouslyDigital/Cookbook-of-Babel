@@ -5,11 +5,11 @@
     "source": "wikibooks_milk_toast_i",
     "step": 1
   },
-  "technique": "simmer",
+  "technique": "heat",
   "inputs": {
     "of": [
       {
-        "ingredient": "milk",
+        "ingredient": "milk_heat",
         "amount": {
           "qty": 1,
           "unit": "pt"
@@ -19,15 +19,15 @@
   },
   "outputs": [
     {
-      "ingredient": "milk_simmer",
+      "ingredient": "milk_heat_heat",
       "amount": {
-        "qty": 487.4,
+        "qty": 473.2,
         "unit": "g"
       }
     }
   ],
   "environment": {
-    "temperatureC": 90,
+    "temperatureC": 180,
     "medium": "pan_contact"
   },
   "end": {
@@ -40,9 +40,14 @@
   "stateNote": "Heat the milk to the simmering point.",
   "issues": [
     {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for milk_heat"
+    },
+    {
       "field": "environment",
       "kind": "estimate",
-      "note": "no temperature given; used the middle of simmer's typical range"
+      "note": "no temperature given; assumed 180.0 °C for pan_contact"
     },
     {
       "field": "end",

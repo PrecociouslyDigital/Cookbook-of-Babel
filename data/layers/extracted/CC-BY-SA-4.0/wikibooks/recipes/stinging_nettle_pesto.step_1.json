@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "hazelnut",
+        "ingredient": "hazelnut_roast",
         "amount": {
           "qty": 0.3333333333333333,
           "unit": "cup"
@@ -19,7 +19,7 @@
   },
   "outputs": [
     {
-      "ingredient": "hazelnut_toast",
+      "ingredient": "hazelnut_roast_toast",
       "amount": {
         "qty": 78.9,
         "unit": "g"
@@ -40,9 +40,14 @@
   "stateNote": "Dry sauté or roast nuts until slightly browned.",
   "issues": [
     {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.5"
+    },
+    {
       "field": "outputs",
       "kind": "estimate",
-      "note": "assumed 1 g/ml for hazelnut"
+      "note": "assumed 1 g/ml for hazelnut_roast"
     },
     {
       "field": "environment",

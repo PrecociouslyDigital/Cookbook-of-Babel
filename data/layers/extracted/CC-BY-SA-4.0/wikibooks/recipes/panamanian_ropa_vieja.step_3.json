@@ -16,21 +16,21 @@
         }
       },
       {
-        "ingredient": "onion",
+        "ingredient": "onion_chop",
         "amount": {
           "qty": 1,
           "unit": "pinch"
         }
       },
       {
-        "ingredient": "bell_pepper",
+        "ingredient": "bell_pepper_cut",
         "amount": {
           "qty": 1,
           "unit": "pinch"
         }
       },
       {
-        "ingredient": "garlic",
+        "ingredient": "garlic_cut",
         "amount": {
           "qty": 5,
           "unit": "clove"
@@ -60,6 +60,11 @@
   },
   "stateNote": "Sauté the vegetables: If using an Instant Pot, set it to the sauté setting. Add the oil and then the onions, bell peppers, and garlic. Cook for 3–4 minutes until softened. Then press cancel. If using the stove, sauté the vegetables in a large Dutch oven on medium-high heat.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.49"
+    },
     {
       "field": "inputs",
       "kind": "estimate",

@@ -16,7 +16,7 @@
         }
       },
       {
-        "ingredient": "chicken_stock",
+        "ingredient": "chicken_stock_boil",
         "amount": {
           "qty": 12,
           "unit": "oz"
@@ -35,7 +35,7 @@
   ],
   "environment": {
     "temperatureC": 85,
-    "medium": "boiling_water"
+    "medium": "pan_contact"
   },
   "end": {
     "by": "time",
@@ -46,6 +46,11 @@
   },
   "stateNote": "Place the chicken stock and the bouquet garni in a saucepan. Bring to a boil and allow to infuse 10–11 minutes",
   "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.48"
+    },
     {
       "field": "environment",
       "kind": "estimate",

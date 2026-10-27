@@ -1,0 +1,54 @@
+{
+  "id": "corn_muffins.step_1.prep_8",
+  "source": "wikibooks_corn_muffins",
+  "technique": "whisk",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "yogurt",
+        "amount": {
+          "qty": 0.6666666666666666,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "yogurt_whisk",
+      "amount": {
+        "qty": 0.6666666666666666,
+        "unit": "cup"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "1–⅓ cups yogurt or sour cream",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.54"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

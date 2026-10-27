@@ -37,7 +37,7 @@
         }
       },
       {
-        "ingredient": "nuts_and_seeds",
+        "ingredient": "nuts_and_seeds_chop",
         "amount": {
           "qty": 0.5,
           "unit": "cup"
@@ -54,15 +54,15 @@
       }
     }
   ],
+  "environment": {
+    "temperatureC": 180,
+    "medium": "pan_contact"
+  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
-    },
-    "sensitivity": {
-      "refTempC": 20,
-      "q10": 1
     }
   },
   "stateNote": "Into the chocolate mixture, mix the eggs, sugar, vanilla, and nuts.",
@@ -70,7 +70,12 @@
     {
       "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.54"
+      "note": "the decision model gave this answer a probability of 0.48"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 180.0 °C for pan_contact"
     },
     {
       "field": "end",

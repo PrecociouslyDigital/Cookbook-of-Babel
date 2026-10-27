@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "pigeon_pea",
+        "ingredient": "pigeon_pea_rinse",
         "amount": {
           "qty": 1,
           "unit": "cup"
@@ -19,7 +19,7 @@
   },
   "outputs": [
     {
-      "ingredient": "pigeon_pea_boil",
+      "ingredient": "pigeon_pea_rinse_boil",
       "amount": {
         "qty": 236.6,
         "unit": "g"
@@ -40,9 +40,14 @@
   "stateNote": "Wash and cook the dal until soft. Mash it.",
   "issues": [
     {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.48"
+    },
+    {
       "field": "outputs",
       "kind": "estimate",
-      "note": "assumed 1 g/ml for pigeon_pea"
+      "note": "assumed 1 g/ml for pigeon_pea_rinse"
     },
     {
       "field": "environment",

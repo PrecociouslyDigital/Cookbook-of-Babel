@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "common_bean",
+        "ingredient": "common_bean_blend",
         "amount": {
           "qty": 4,
           "unit": "cup"
@@ -19,7 +19,7 @@
   },
   "outputs": [
     {
-      "ingredient": "common_bean_blend",
+      "ingredient": "common_bean_blend_blend",
       "amount": {
         "qty": 946.4,
         "unit": "g"
@@ -40,14 +40,9 @@
   "stateNote": "Blend cooked beans, including the water they cooked in, into a purée.",
   "issues": [
     {
-      "field": "environment",
-      "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.47"
-    },
-    {
       "field": "outputs",
       "kind": "estimate",
-      "note": "assumed 1 g/ml for common_bean"
+      "note": "assumed 1 g/ml for common_bean_blend"
     },
     {
       "field": "end",

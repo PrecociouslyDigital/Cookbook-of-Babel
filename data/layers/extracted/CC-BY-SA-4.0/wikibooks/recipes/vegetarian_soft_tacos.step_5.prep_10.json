@@ -1,0 +1,49 @@
+{
+  "id": "vegetarian_soft_tacos.step_5.prep_10",
+  "source": "wikibooks_vegetarian_soft_tacos",
+  "technique": "heat",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "refried_beans",
+        "amount": {
+          "qty": 1,
+          "unit": "can"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "refried_beans_heat",
+      "amount": {
+        "qty": 1,
+        "unit": "can"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "1 can refried beans",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

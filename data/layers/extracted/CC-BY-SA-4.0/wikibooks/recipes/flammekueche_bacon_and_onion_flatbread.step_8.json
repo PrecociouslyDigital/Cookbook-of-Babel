@@ -16,7 +16,7 @@
         }
       },
       {
-        "ingredient": "bacon",
+        "ingredient": "bacon_fry",
         "amount": {
           "qty": 3,
           "unit": "oz"
@@ -46,6 +46,16 @@
   },
   "stateNote": "Heat the remaining oil in the skillet and fry the bacon until lightly browned, stirring constantly. Remove and drain through a strainer.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.47"
+    },
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.57"
+    },
     {
       "field": "environment",
       "kind": "estimate",

@@ -9,14 +9,14 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "rice_rinse",
+        "ingredient": "rice_rinse_rinse",
         "amount": {
           "qty": 236.6,
           "unit": "g"
         }
       },
       {
-        "ingredient": "onion",
+        "ingredient": "onion_chop",
         "amount": {
           "qty": 1,
           "unit": "piece"
@@ -53,6 +53,11 @@
   },
   "stateNote": "Sauté pine nuts and onions over medium heat in a deep skillet with lid",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.57"
+    },
     {
       "field": "inputs",
       "kind": "estimate",

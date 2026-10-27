@@ -5,11 +5,11 @@
     "source": "wikibooks_hummus_iii",
     "step": 2
   },
-  "technique": "rinse",
+  "technique": "assemble",
   "inputs": {
     "of": [
       {
-        "ingredient": "chickpea_soak",
+        "ingredient": "chickpea_soak_soak",
         "amount": {
           "qty": 118.3,
           "unit": "g"
@@ -19,35 +19,35 @@
   },
   "outputs": [
     {
-      "ingredient": "chickpea_soak_rinse",
+      "ingredient": "hummus_iii_step_2",
       "amount": {
         "qty": 118.3,
         "unit": "g"
       }
     }
   ],
-  "environment": {
-    "temperatureC": 90,
-    "medium": "simmering_water"
-  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
     }
   },
   "stateNote": "Drain, rinse, and place chickpeas in saucepan. Just barely cover with water.",
   "issues": [
     {
-      "field": "environment",
+      "field": "technique",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.43"
+      "note": "the decision model gave this answer a probability of 0.45"
     },
     {
       "field": "environment",
-      "kind": "estimate",
-      "note": "no temperature given; assumed 90.0 °C for simmering_water"
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.38"
     },
     {
       "field": "end",

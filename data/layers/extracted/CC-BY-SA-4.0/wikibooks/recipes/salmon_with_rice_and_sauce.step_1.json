@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "salmon",
+        "ingredient": "salmon_soak",
         "amount": {
           "qty": 250,
           "unit": "g"
@@ -19,7 +19,7 @@
   },
   "outputs": [
     {
-      "ingredient": "salmon_soak",
+      "ingredient": "salmon_soak_soak",
       "amount": {
         "qty": 250,
         "unit": "g"
@@ -39,6 +39,11 @@
   },
   "stateNote": "If using frozen salmon, put the plastic-packaged fillets in the sink or a larger pot. Fill up the sink or pot with 40°C water so that the plastic salmon package floats. Let soak until thawed.",
   "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.57"
+    },
     {
       "field": "end",
       "kind": "estimate",

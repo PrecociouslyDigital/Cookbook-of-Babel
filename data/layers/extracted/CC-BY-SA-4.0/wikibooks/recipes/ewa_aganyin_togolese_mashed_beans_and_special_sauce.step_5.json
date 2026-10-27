@@ -16,7 +16,7 @@
         }
       },
       {
-        "ingredient": "palm_oil",
+        "ingredient": "palm_oil_heat",
         "amount": {
           "qty": 1,
           "unit": "pinch"
@@ -35,7 +35,7 @@
   ],
   "environment": {
     "temperatureC": 185,
-    "medium": "frying_oil"
+    "medium": "pan_contact"
   },
   "end": {
     "by": "time",
@@ -46,6 +46,16 @@
   },
   "stateNote": "Place a clean dry pan on medium heat, pour in the palm oil, and leave to bleach for about 2 minutes. Add the remaining chopped onions and fry until the onions are brown but not burnt.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.58"
+    },
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.59"
+    },
     {
       "field": "inputs",
       "kind": "estimate",

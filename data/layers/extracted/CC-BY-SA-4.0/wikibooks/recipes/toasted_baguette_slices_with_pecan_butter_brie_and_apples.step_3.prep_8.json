@@ -1,0 +1,54 @@
+{
+  "id": "toasted_baguette_slices_with_pecan_butter_brie_and_apples.step_3.prep_8",
+  "source": "wikibooks_toasted_baguette_slices_with_pecan_butter_brie_and_apples",
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "brie_cheese",
+        "amount": {
+          "qty": 8,
+          "unit": "oz"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "brie_cheese_cut",
+      "amount": {
+        "qty": 8,
+        "unit": "oz"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "8 oz (280 g) chilled brie cheese, trimmed and sliced into 24 pieces",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.56"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

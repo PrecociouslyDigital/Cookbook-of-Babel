@@ -1,0 +1,49 @@
+{
+  "id": "efo_riro.step_9.prep_1",
+  "source": "wikibooks_efo_riro",
+  "technique": "chop",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "spinach",
+        "amount": {
+          "qty": 2,
+          "unit": "bunch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "spinach_chop",
+      "amount": {
+        "qty": 2,
+        "unit": "bunch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "2 bunches spinach or ugu (pumpkin leaves), chopped",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

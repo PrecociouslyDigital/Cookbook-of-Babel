@@ -1,0 +1,49 @@
+{
+  "id": "egg_cheese_and_phyllo_casserole_banitsa.step_1.prep_2",
+  "source": "wikibooks_egg_cheese_and_phyllo_casserole_banitsa",
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "kashkaval",
+        "amount": {
+          "qty": 200,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "kashkaval_cut",
+      "amount": {
+        "qty": 200,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "200 grams kashkaval cheese (or a mixture of cheddar and mozzarella), cut in small pieces",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

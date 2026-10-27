@@ -5,7 +5,7 @@
     "source": "wikibooks_chocolate_zucchini_cake",
     "step": 6
   },
-  "technique": "assemble",
+  "technique": "shape",
   "inputs": {
     "of": [
       {
@@ -16,7 +16,7 @@
         }
       },
       {
-        "ingredient": "walnut",
+        "ingredient": "walnut_grind",
         "amount": {
           "qty": 20,
           "unit": "g"
@@ -40,15 +40,15 @@
       }
     }
   ],
-  "environment": {
-    "temperatureC": 180,
-    "medium": "oven_air"
-  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
     }
   },
   "stateNote": "Spread in a greased floured 9 x 13-inch (23 x 33 cm) pan. Sprinkle walnuts and chocolate chips on top.",
@@ -56,17 +56,12 @@
     {
       "field": "technique",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.5"
+      "note": "the decision model gave this answer a probability of 0.52"
     },
     {
       "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.49"
-    },
-    {
-      "field": "environment",
-      "kind": "estimate",
-      "note": "no temperature given; assumed 180.0 °C for oven_air"
+      "note": "the decision model gave this answer a probability of 0.56"
     },
     {
       "field": "end",

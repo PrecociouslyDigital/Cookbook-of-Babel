@@ -1,0 +1,49 @@
+{
+  "id": "moroccan_couscous.step_2.prep_1",
+  "source": "wikibooks_moroccan_couscous",
+  "technique": "toast",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "couscous",
+        "amount": {
+          "qty": 10,
+          "unit": "oz"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "couscous_toast",
+      "amount": {
+        "qty": 10,
+        "unit": "oz"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "1 box (10 ounces) quick-cooking couscous",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

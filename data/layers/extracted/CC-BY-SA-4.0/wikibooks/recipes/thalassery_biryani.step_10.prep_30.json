@@ -1,0 +1,49 @@
+{
+  "id": "thalassery_biryani.step_10.prep_30",
+  "source": "wikibooks_thalassery_biryani",
+  "technique": "chop",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "mint",
+        "amount": {
+          "qty": 0.875,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "mint_chop",
+      "amount": {
+        "qty": 0.875,
+        "unit": "cup"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "¾–1 cup (~1 bunch) pudina (mint) leaves, chopped",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

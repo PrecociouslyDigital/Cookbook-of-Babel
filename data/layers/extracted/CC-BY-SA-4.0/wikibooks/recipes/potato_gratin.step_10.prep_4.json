@@ -1,0 +1,54 @@
+{
+  "id": "potato_gratin.step_10.prep_4",
+  "source": "wikibooks_potato_gratin",
+  "technique": "grind",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "gruyere_cheese",
+        "amount": {
+          "qty": 3,
+          "unit": "oz"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "gruyere_cheese_grind",
+      "amount": {
+        "qty": 3,
+        "unit": "oz"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "3 oz good quality Gruyère, Challerhocker, or Emmentaler cheese, freshly grated.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.44"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

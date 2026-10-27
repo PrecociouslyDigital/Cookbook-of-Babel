@@ -1,0 +1,49 @@
+{
+  "id": "turmeric_chicken_and_asparagus_stir_fry.step_4.prep_10",
+  "source": "wikibooks_turmeric_chicken_and_asparagus_stir_fry",
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "asparagus",
+        "amount": {
+          "qty": 1,
+          "unit": "lb"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "asparagus_season",
+      "amount": {
+        "qty": 1,
+        "unit": "lb"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "1 lb asparagus, trimmed and thinly sliced on the bias",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

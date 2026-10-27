@@ -16,7 +16,7 @@
         }
       },
       {
-        "ingredient": "tofu",
+        "ingredient": "tofu_fry",
         "amount": {
           "qty": 1,
           "unit": "pinch"
@@ -37,7 +37,7 @@
         }
       },
       {
-        "ingredient": "potato",
+        "ingredient": "potato_boil",
         "amount": {
           "qty": 1,
           "unit": "pinch"
@@ -45,13 +45,6 @@
       },
       {
         "ingredient": "clam",
-        "amount": {
-          "qty": 1,
-          "unit": "pinch"
-        }
-      },
-      {
-        "ingredient": "eggplant",
         "amount": {
           "qty": 1,
           "unit": "pinch"
@@ -82,15 +75,15 @@
       }
     }
   ],
-  "environment": {
-    "temperatureC": 90,
-    "medium": "simmering_water"
-  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
     }
   },
   "stateNote": "Add any garnish that needs cooking.",
@@ -98,22 +91,12 @@
     {
       "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.51"
-    },
-    {
-      "field": "inputs",
-      "kind": "uncertain",
       "note": "the decision model gave this answer a probability of 0.45"
     },
     {
       "field": "inputs",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.48"
-    },
-    {
-      "field": "inputs",
-      "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.5"
+      "note": "the decision model gave this answer a probability of 0.55"
     },
     {
       "field": "inputs",
@@ -123,12 +106,17 @@
     {
       "field": "inputs",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.34"
+      "note": "the decision model gave this answer a probability of 0.44"
     },
     {
       "field": "inputs",
       "kind": "uncertain",
       "note": "the decision model gave this answer a probability of 0.58"
+    },
+    {
+      "field": "inputs",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.5"
     },
     {
       "field": "inputs",
@@ -158,22 +146,12 @@
     {
       "field": "inputs",
       "kind": "estimate",
-      "note": "'Grated eggplant': no quantity given; assumed a pinch"
-    },
-    {
-      "field": "inputs",
-      "kind": "estimate",
       "note": "'Shrimp': no quantity given; assumed a pinch"
     },
     {
       "field": "inputs",
       "kind": "estimate",
       "note": "'Mushrooms': no quantity given; assumed a pinch"
-    },
-    {
-      "field": "environment",
-      "kind": "estimate",
-      "note": "no temperature given; assumed 90.0 °C for simmering_water"
     },
     {
       "field": "end",

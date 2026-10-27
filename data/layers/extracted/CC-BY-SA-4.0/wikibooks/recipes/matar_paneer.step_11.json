@@ -5,7 +5,7 @@
     "source": "wikibooks_matar_paneer",
     "step": 11
   },
-  "technique": "fry",
+  "technique": "toast",
   "inputs": {
     "of": [
       {
@@ -16,7 +16,7 @@
         }
       },
       {
-        "ingredient": "cumin",
+        "ingredient": "cumin_fry",
         "amount": {
           "qty": 0.5,
           "unit": "tsp"
@@ -34,7 +34,7 @@
     }
   ],
   "environment": {
-    "temperatureC": 190,
+    "temperatureC": 185,
     "medium": "frying_oil"
   },
   "end": {
@@ -47,9 +47,14 @@
   "stateNote": "Add cumin seeds, and fry until they start to crackle.",
   "issues": [
     {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.44"
+    },
+    {
       "field": "environment",
       "kind": "estimate",
-      "note": "no temperature given; used the middle of fry's typical range"
+      "note": "no temperature given; used the middle of toast's typical range"
     },
     {
       "field": "end",

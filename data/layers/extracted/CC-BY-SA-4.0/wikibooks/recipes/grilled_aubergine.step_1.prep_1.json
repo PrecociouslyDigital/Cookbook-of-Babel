@@ -1,0 +1,49 @@
+{
+  "id": "grilled_aubergine.step_1.prep_1",
+  "source": "wikibooks_grilled_aubergine",
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "eggplant",
+        "amount": {
+          "qty": 375,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "eggplant_cut",
+      "amount": {
+        "qty": 375,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "1 ea. (375 g) large aubergine (eggplant)",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

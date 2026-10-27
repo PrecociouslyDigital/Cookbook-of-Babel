@@ -1,0 +1,49 @@
+{
+  "id": "mesir_wat_spicy_ethiopian_lentil_stew.step_1.prep_1",
+  "source": "wikibooks_mesir_wat_spicy_ethiopian_lentil_stew",
+  "technique": "rinse",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "lentil",
+        "amount": {
+          "qty": 2,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "lentil_rinse",
+      "amount": {
+        "qty": 2,
+        "unit": "cup"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "2 cups red lentils, rinsed",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

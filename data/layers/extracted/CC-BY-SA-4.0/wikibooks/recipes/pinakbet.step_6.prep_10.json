@@ -1,0 +1,49 @@
+{
+  "id": "pinakbet.step_6.prep_10",
+  "source": "wikibooks_pinakbet",
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "eggplant",
+        "amount": {
+          "qty": 1,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "eggplant_cut",
+      "amount": {
+        "qty": 1,
+        "unit": "piece"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "1 medium (about 6 ounces / 170 g) eggplant, halved lengthwise, and sliced ½ inch thick",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

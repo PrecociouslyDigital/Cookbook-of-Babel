@@ -1,0 +1,54 @@
+{
+  "id": "maltese_rabbit_stew_stuffat_tal_fenek.step_2.prep_3",
+  "source": "wikibooks_maltese_rabbit_stew_stuffat_tal_fenek",
+  "technique": "grind",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "clove",
+        "amount": {
+          "qty": 1,
+          "unit": "clove"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "clove_grind",
+      "amount": {
+        "qty": 1,
+        "unit": "clove"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "1 clove garlic",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.59"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

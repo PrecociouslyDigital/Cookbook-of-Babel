@@ -1,0 +1,49 @@
+{
+  "id": "roasted_oysters_with_madeira.step_1.prep_1",
+  "source": "wikibooks_roasted_oysters_with_madeira",
+  "technique": "rinse",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "oyster",
+        "amount": {
+          "qty": 50,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "oyster_rinse",
+      "amount": {
+        "qty": 50,
+        "unit": "piece"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "50 live small oysters",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

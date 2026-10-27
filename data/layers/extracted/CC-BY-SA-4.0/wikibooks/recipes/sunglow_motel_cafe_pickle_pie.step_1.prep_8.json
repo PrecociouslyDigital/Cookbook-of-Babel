@@ -1,0 +1,49 @@
+{
+  "id": "sunglow_motel_cafe_pickle_pie.step_1.prep_8",
+  "source": "wikibooks_sunglow_motel_cafe_pickle_pie",
+  "technique": "heat",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "margarine",
+        "amount": {
+          "qty": 0.125,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "margarine_heat",
+      "amount": {
+        "qty": 0.125,
+        "unit": "cup"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "⅛ cup margarine, melted",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

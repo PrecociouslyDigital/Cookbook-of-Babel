@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "broth_and_stock",
+        "ingredient": "broth_and_stock_boil",
         "amount": {
           "qty": 1,
           "unit": "qt"
@@ -19,7 +19,7 @@
   },
   "outputs": [
     {
-      "ingredient": "broth_and_stock_boil",
+      "ingredient": "broth_and_stock_boil_boil",
       "amount": {
         "qty": 946.4,
         "unit": "g"
@@ -40,14 +40,9 @@
   "stateNote": "Bring broth to boil in a medium-sized saucepan.",
   "issues": [
     {
-      "field": "environment",
-      "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.58"
-    },
-    {
       "field": "outputs",
       "kind": "estimate",
-      "note": "assumed 1 g/ml for broth_and_stock"
+      "note": "assumed 1 g/ml for broth_and_stock_boil"
     },
     {
       "field": "environment",

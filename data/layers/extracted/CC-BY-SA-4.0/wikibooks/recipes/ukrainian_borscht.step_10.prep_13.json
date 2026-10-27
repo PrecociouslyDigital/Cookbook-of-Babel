@@ -1,0 +1,49 @@
+{
+  "id": "ukrainian_borscht.step_10.prep_13",
+  "source": "wikibooks_ukrainian_borscht",
+  "technique": "chop",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "salted_pork_fat",
+        "amount": {
+          "qty": 3,
+          "unit": "oz"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "salted_pork_fat_chop",
+      "amount": {
+        "qty": 3,
+        "unit": "oz"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "3 ounces salted pork fat or bacon",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

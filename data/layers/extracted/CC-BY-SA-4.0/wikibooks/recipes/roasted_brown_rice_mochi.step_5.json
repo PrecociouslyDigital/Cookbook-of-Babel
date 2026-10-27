@@ -11,7 +11,7 @@
       {
         "ingredient": "roasted_brown_rice_mochi_step_4",
         "amount": {
-          "qty": 1006.3,
+          "qty": 1005.6,
           "unit": "g"
         }
       }
@@ -21,7 +21,7 @@
     {
       "ingredient": "roasted_brown_rice_mochi_step_5",
       "amount": {
-        "qty": 1006.3,
+        "qty": 1005.6,
         "unit": "g"
       }
     }
@@ -33,12 +33,18 @@
       "unit": "min"
     },
     "sensitivity": {
-      "refTempC": 20,
-      "q10": 1
+      "refTempC": 4,
+      "q10": 1,
+      "maxTempC": 8
     }
   },
   "stateNote": "Keep covered in a cold dry room or in the refrigerator.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.59"
+    },
     {
       "field": "end",
       "kind": "estimate",

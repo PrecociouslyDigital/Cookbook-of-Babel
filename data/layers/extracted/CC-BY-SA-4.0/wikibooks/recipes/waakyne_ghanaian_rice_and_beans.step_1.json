@@ -5,11 +5,11 @@
     "source": "wikibooks_waakyne_ghanaian_rice_and_beans",
     "step": 1
   },
-  "technique": "rinse",
+  "technique": "assemble",
   "inputs": {
     "of": [
       {
-        "ingredient": "cowpea",
+        "ingredient": "cowpea_rinse",
         "amount": {
           "qty": 3,
           "unit": "cup"
@@ -19,7 +19,7 @@
   },
   "outputs": [
     {
-      "ingredient": "cowpea_rinse",
+      "ingredient": "waakyne_ghanaian_rice_and_beans_step_1",
       "amount": {
         "qty": 709.8,
         "unit": "g"
@@ -40,9 +40,14 @@
   "stateNote": "Pick over the beans to remove any debris. Wash well, then drain and transfer to a pressure cooker.",
   "issues": [
     {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.38"
+    },
+    {
       "field": "outputs",
       "kind": "estimate",
-      "note": "assumed 1 g/ml for cowpea"
+      "note": "assumed 1 g/ml for cowpea_rinse"
     },
     {
       "field": "end",

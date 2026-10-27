@@ -5,7 +5,7 @@
     "source": "wikibooks_semolina_burger",
     "step": 3
   },
-  "technique": "pan_fry",
+  "technique": "mix",
   "inputs": {
     "of": [
       {
@@ -16,7 +16,7 @@
         }
       },
       {
-        "ingredient": "onion",
+        "ingredient": "onion_cut",
         "amount": {
           "qty": 1,
           "unit": "pinch"
@@ -60,7 +60,7 @@
     }
   ],
   "environment": {
-    "temperatureC": 185,
+    "temperatureC": 175,
     "medium": "frying_oil"
   },
   "end": {
@@ -72,11 +72,6 @@
   },
   "stateNote": "Cut onions into pieces and fry them with some oil. Add maize and paprika to taste when the onions turn glassy. Mix into the dough.",
   "issues": [
-    {
-      "field": "technique",
-      "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.38"
-    },
     {
       "field": "inputs",
       "kind": "estimate",
@@ -95,12 +90,12 @@
     {
       "field": "outputs",
       "kind": "estimate",
-      "note": "assumed 1 g/ml for onion, corn, paprika"
+      "note": "assumed 1 g/ml for onion_cut, corn, paprika"
     },
     {
       "field": "environment",
       "kind": "estimate",
-      "note": "no temperature given; used the middle of pan_fry's typical range"
+      "note": "no temperature given; assumed 175.0 °C for frying_oil"
     },
     {
       "field": "end",

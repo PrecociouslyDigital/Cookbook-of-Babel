@@ -5,7 +5,7 @@
     "source": "wikibooks_stoofvlees_flemish_beef_stew",
     "step": 5
   },
-  "technique": "season",
+  "technique": "assemble",
   "inputs": {
     "of": [
       {
@@ -54,28 +54,23 @@
       }
     }
   ],
+  "environment": {
+    "temperatureC": 90,
+    "medium": "simmering_water"
+  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
-    },
-    "sensitivity": {
-      "refTempC": 20,
-      "q10": 1
     }
   },
   "stateNote": "Add the bay leaves and thyme. Spread the bread with mustard, and place mustard side-down on the meat.",
   "issues": [
     {
-      "field": "technique",
-      "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.54"
-    },
-    {
       "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.46"
+      "note": "the decision model gave this answer a probability of 0.29"
     },
     {
       "field": "inputs",
@@ -86,6 +81,11 @@
       "field": "inputs",
       "kind": "estimate",
       "note": "'Mustard': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 90.0 °C for simmering_water"
     },
     {
       "field": "end",

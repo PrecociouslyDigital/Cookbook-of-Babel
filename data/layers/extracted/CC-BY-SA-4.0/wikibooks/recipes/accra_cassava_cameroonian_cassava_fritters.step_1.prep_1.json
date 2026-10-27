@@ -1,0 +1,49 @@
+{
+  "id": "accra_cassava_cameroonian_cassava_fritters.step_1.prep_1",
+  "source": "wikibooks_accra_cassava_cameroonian_cassava_fritters",
+  "technique": "dry",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "cassava",
+        "amount": {
+          "qty": 3,
+          "unit": "lb"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "cassava_dry",
+      "amount": {
+        "qty": 3,
+        "unit": "lb"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "3 pounds grated cassava (can be frozen and thawed)",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

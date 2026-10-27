@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "cheese",
+        "ingredient": "cheese_cut",
         "amount": {
           "qty": 1,
           "unit": "slice"
@@ -19,26 +19,36 @@
   },
   "outputs": [
     {
-      "ingredient": "cheese_cut",
+      "ingredient": "cheese_cut_cut",
       "amount": {
         "qty": 1,
         "unit": "batch"
       }
     }
   ],
+  "environment": {
+    "temperatureC": 180,
+    "medium": "pan_contact"
+  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
-    },
-    "sensitivity": {
-      "refTempC": 20,
-      "q10": 1
     }
   },
   "stateNote": "While the pan heats, cut the cheese into slices of the desired size and thickness. Thicker slices will take longer to melt through and may result in burning, while thinner ones will have less chance to brown.",
   "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.44"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 180.0 °C for pan_contact"
+    },
     {
       "field": "end",
       "kind": "estimate",

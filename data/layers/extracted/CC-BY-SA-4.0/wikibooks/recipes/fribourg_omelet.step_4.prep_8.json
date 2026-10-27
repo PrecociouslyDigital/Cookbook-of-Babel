@@ -1,0 +1,54 @@
+{
+  "id": "fribourg_omelet.step_4.prep_8",
+  "source": "wikibooks_fribourg_omelet",
+  "technique": "chop",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "kale",
+        "amount": {
+          "qty": 1,
+          "unit": "handful"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "kale_chop",
+      "amount": {
+        "qty": 1,
+        "unit": "handful"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "1 handful roughly chopped fresh kale",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.53"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

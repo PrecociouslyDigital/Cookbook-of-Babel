@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "rice_rinse",
+        "ingredient": "rice_rinse_rinse",
         "amount": {
           "qty": 354.9,
           "unit": "g"
@@ -19,7 +19,7 @@
   },
   "outputs": [
     {
-      "ingredient": "rice_rinse_soak",
+      "ingredient": "rice_rinse_rinse_soak",
       "amount": {
         "qty": 354.9,
         "unit": "g"
@@ -40,9 +40,14 @@
   "stateNote": "Add enough water to cover rice with water equal to the depth of the rice.",
   "issues": [
     {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.5"
+    },
+    {
       "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.59"
+      "note": "the decision model gave this answer a probability of 0.55"
     },
     {
       "field": "end",

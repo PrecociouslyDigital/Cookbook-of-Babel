@@ -1,0 +1,49 @@
+{
+  "id": "mbongo_tchobi_cameroonian_black_stew.step_1.prep_1",
+  "source": "wikibooks_mbongo_tchobi_cameroonian_black_stew",
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "fish",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "fish_season",
+      "amount": {
+        "qty": 1,
+        "unit": "pinch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Large fish of choice, filleted",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

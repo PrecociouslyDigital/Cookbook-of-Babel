@@ -1,0 +1,49 @@
+{
+  "id": "jambons.step_3.prep_1",
+  "source": "wikibooks_jambons",
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "puff_pastry",
+        "amount": {
+          "qty": 1,
+          "unit": "sheet"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "puff_pastry_cut",
+      "amount": {
+        "qty": 1,
+        "unit": "sheet"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "1 sheet of puff pastry",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

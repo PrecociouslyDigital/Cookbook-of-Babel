@@ -5,7 +5,7 @@
     "source": "wikibooks_speculaas_dutch_spiced_cookies",
     "step": 3
   },
-  "technique": "chill",
+  "technique": "age",
   "inputs": {
     "of": [
       {
@@ -33,9 +33,17 @@
       "unit": "d"
     },
     "sensitivity": {
-      "refTempC": 20,
-      "q10": 1
+      "refTempC": 4,
+      "q10": 1,
+      "maxTempC": 8
     }
   },
-  "stateNote": "If desired, let the dough rest for 2 days in the fridge. This will give a stronger taste of the spices to the biscuits."
+  "stateNote": "If desired, let the dough rest for 2 days in the fridge. This will give a stronger taste of the spices to the biscuits.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.57"
+    }
+  ]
 }

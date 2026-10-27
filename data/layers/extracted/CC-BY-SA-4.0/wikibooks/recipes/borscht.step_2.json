@@ -16,7 +16,7 @@
         }
       },
       {
-        "ingredient": "butter",
+        "ingredient": "butter_heat",
         "amount": {
           "qty": 1.5,
           "unit": "tbsp"
@@ -61,9 +61,14 @@
   "stateNote": "Melt the butter in a Dutch oven/soup pot. Add the onion and salt. Cook over medium heat, stirring occasionally, until the onions are translucent (8–10 minutes).",
   "issues": [
     {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.53"
+    },
+    {
       "field": "outputs",
       "kind": "estimate",
-      "note": "assumed 1 g/ml for butter, onion"
+      "note": "assumed 1 g/ml for butter_heat, onion"
     },
     {
       "field": "environment",

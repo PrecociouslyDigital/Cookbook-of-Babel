@@ -1,0 +1,49 @@
+{
+  "id": "pork_tenderloin_with_asparagus_and_prosciutto.step_3.prep_3",
+  "source": "wikibooks_pork_tenderloin_with_asparagus_and_prosciutto",
+  "technique": "chop",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "prosciutto",
+        "amount": {
+          "qty": 50,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "prosciutto_chop",
+      "amount": {
+        "qty": 50,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "50 g prosciutto",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

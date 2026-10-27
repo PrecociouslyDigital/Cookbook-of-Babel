@@ -1,0 +1,49 @@
+{
+  "id": "fried_green_tomatoes_with_tomato_and_cheese.step_7.prep_12",
+  "source": "wikibooks_fried_green_tomatoes_with_tomato_and_cheese",
+  "technique": "chill",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "tomatoes",
+        "amount": {
+          "qty": 5,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "tomatoes_chill",
+      "amount": {
+        "qty": 5,
+        "unit": "piece"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "4–6 red tomatoes, chilled and sliced",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

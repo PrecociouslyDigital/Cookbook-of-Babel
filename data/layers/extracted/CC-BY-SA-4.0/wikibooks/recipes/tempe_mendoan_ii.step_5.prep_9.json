@@ -1,0 +1,49 @@
+{
+  "id": "tempe_mendoan_ii.step_5.prep_9",
+  "source": "wikibooks_tempe_mendoan_ii",
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "tempeh",
+        "amount": {
+          "qty": 250,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "tempeh_cut",
+      "amount": {
+        "qty": 250,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "250 g tempeh, sliced into pieces 10&#xD7;6&#xD7;1 cm",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

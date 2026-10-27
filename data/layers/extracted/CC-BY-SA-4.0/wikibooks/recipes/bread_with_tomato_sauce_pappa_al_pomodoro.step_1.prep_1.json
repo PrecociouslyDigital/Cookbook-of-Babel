@@ -1,0 +1,49 @@
+{
+  "id": "bread_with_tomato_sauce_pappa_al_pomodoro.step_1.prep_1",
+  "source": "wikibooks_bread_with_tomato_sauce_pappa_al_pomodoro",
+  "technique": "soak",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "bread",
+        "amount": {
+          "qty": 0.5,
+          "unit": "loaf"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "bread_soak",
+      "amount": {
+        "qty": 0.5,
+        "unit": "loaf"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "½ loaf dry bread",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

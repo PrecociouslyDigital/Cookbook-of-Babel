@@ -51,7 +51,7 @@
         }
       },
       {
-        "ingredient": "pasta",
+        "ingredient": "pasta_boil",
         "amount": {
           "qty": 1,
           "unit": "pinch"
@@ -81,6 +81,11 @@
   },
   "stateNote": "Add all other ingredients and simmer for 30 minutes.",
   "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.58"
+    },
     {
       "field": "inputs",
       "kind": "estimate",

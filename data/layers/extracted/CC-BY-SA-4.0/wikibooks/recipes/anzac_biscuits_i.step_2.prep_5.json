@@ -1,0 +1,49 @@
+{
+  "id": "anzac_biscuits_i.step_2.prep_5",
+  "source": "wikibooks_anzac_biscuits_i",
+  "technique": "heat",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "golden_syrup",
+        "amount": {
+          "qty": 4,
+          "unit": "tbsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "golden_syrup_heat",
+      "amount": {
+        "qty": 4,
+        "unit": "tbsp"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "4 tablespoons golden syrup, corn syrup, or honey",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

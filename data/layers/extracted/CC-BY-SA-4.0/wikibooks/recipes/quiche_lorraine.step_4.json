@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "pork_bake",
+        "ingredient": "pork_bake_bake",
         "amount": {
           "qty": 340.2,
           "unit": "g"
@@ -67,6 +67,11 @@
   },
   "stateNote": "Add onion confit, pork, salt, pepper, and thyme to the frying pan over medium heat. Allow to warm up for 4 minutes. Drain on paper towels.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.46"
+    },
     {
       "field": "outputs",
       "kind": "estimate",

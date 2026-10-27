@@ -1,0 +1,49 @@
+{
+  "id": "tuna_salad_1940.step_1.prep_1",
+  "source": "wikibooks_tuna_salad_1940",
+  "technique": "dry",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "tuna",
+        "amount": {
+          "qty": 1,
+          "unit": "can"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "tuna_dry",
+      "amount": {
+        "qty": 1,
+        "unit": "can"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "1 can (6–9½­ oz / ~170–270 g) tuna",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

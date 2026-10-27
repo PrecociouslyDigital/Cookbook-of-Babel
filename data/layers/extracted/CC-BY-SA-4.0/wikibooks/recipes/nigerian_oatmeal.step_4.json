@@ -16,7 +16,7 @@
         }
       },
       {
-        "ingredient": "banana",
+        "ingredient": "banana_cut",
         "amount": {
           "qty": 1,
           "unit": "pinch"
@@ -33,15 +33,15 @@
       }
     }
   ],
-  "environment": {
-    "temperatureC": 180,
-    "medium": "pan_contact"
-  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
     }
   },
   "stateNote": "Remove from the heat. Serve warm with banana, milk, and/or yogurt.",
@@ -49,7 +49,7 @@
     {
       "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.47"
+      "note": "the decision model gave this answer a probability of 0.46"
     },
     {
       "field": "inputs",
@@ -59,12 +59,7 @@
     {
       "field": "outputs",
       "kind": "estimate",
-      "note": "assumed 1 g/ml for banana"
-    },
-    {
-      "field": "environment",
-      "kind": "estimate",
-      "note": "no temperature given; assumed 180.0 °C for pan_contact"
+      "note": "assumed 1 g/ml for banana_cut"
     },
     {
       "field": "end",

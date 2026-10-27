@@ -9,35 +9,35 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "olive_oil",
+        "ingredient": "olive_oil_heat",
         "amount": {
           "qty": 1,
           "unit": "pinch"
         }
       },
       {
-        "ingredient": "onion",
+        "ingredient": "onion_fry",
         "amount": {
           "qty": 2,
           "unit": "piece"
         }
       },
       {
-        "ingredient": "garlic",
+        "ingredient": "garlic_fry",
         "amount": {
           "qty": 2,
           "unit": "clove"
         }
       },
       {
-        "ingredient": "parsnip",
+        "ingredient": "parsnip_cut",
         "amount": {
           "qty": 1,
           "unit": "piece"
         }
       },
       {
-        "ingredient": "carrot",
+        "ingredient": "carrot_cut",
         "amount": {
           "qty": 1.5,
           "unit": "piece"
@@ -67,6 +67,11 @@
   },
   "stateNote": "Add the onion, and fry until soft and translucent. Add in the garlic at around this time to soften up as well. Stir in the sliced parsnip and carrots using your spatula. Once all the vegetables are nice and soft, pour them into the casserole dish.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.59"
+    },
     {
       "field": "inputs",
       "kind": "estimate",

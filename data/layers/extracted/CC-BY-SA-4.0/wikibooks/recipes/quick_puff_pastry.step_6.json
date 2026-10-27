@@ -1,0 +1,58 @@
+{
+  "id": "quick_puff_pastry.step_6",
+  "source": "wikibooks_quick_puff_pastry",
+  "sourceRef": {
+    "source": "wikibooks_quick_puff_pastry",
+    "step": 6
+  },
+  "technique": "shape",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "quick_puff_pastry_step_5",
+        "amount": {
+          "qty": 920,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "quick_puff_pastry_step_6",
+      "amount": {
+        "qty": 920,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Draw a sheet of plastic food wrap large enough to cover one side of the flattened pastry. Invert the kneading board.",
+  "issues": [
+    {
+      "field": "sourceRef",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.5"
+    },
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.54"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

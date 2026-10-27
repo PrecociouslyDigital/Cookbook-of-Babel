@@ -11,7 +11,7 @@
       {
         "ingredient": "cafe_au_lait_step_2",
         "amount": {
-          "qty": 1921.2,
+          "qty": 1892.8,
           "unit": "g"
         }
       }
@@ -21,20 +21,20 @@
     {
       "ingredient": "cafe_au_lait",
       "amount": {
-        "qty": 1921.2,
+        "qty": 1892.8,
         "unit": "g"
       }
     }
   ],
+  "environment": {
+    "temperatureC": 20,
+    "medium": "still_air"
+  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
-    },
-    "sensitivity": {
-      "refTempC": 20,
-      "q10": 1
     }
   },
   "stateNote": "Pour equal amounts of coffee and scalded milk into bowls or cups.",
@@ -47,7 +47,12 @@
     {
       "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.48"
+      "note": "the decision model gave this answer a probability of 0.5"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 20.0 °C for still_air"
     },
     {
       "field": "end",

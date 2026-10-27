@@ -5,7 +5,7 @@
     "source": "wikibooks_shorba_bil_lahm_libyan_meat_soup",
     "step": 4
   },
-  "technique": "toast",
+  "technique": "season",
   "inputs": {
     "of": [
       {
@@ -30,7 +30,7 @@
         }
       },
       {
-        "ingredient": "turmeric",
+        "ingredient": "turmeric_toast",
         "amount": {
           "qty": 0.5,
           "unit": "tsp"
@@ -69,7 +69,7 @@
     }
   ],
   "environment": {
-    "temperatureC": 185,
+    "temperatureC": 180,
     "medium": "pan_contact"
   },
   "end": {
@@ -81,6 +81,11 @@
   },
   "stateNote": "Stir in the ground cumin, ground coriander, ground turmeric, cayenne pepper, salt, and pepper, and cook for another minute to toast the spices.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.5"
+    },
     {
       "field": "inputs",
       "kind": "estimate",
@@ -94,7 +99,7 @@
     {
       "field": "environment",
       "kind": "estimate",
-      "note": "no temperature given; used the middle of toast's typical range"
+      "note": "no temperature given; assumed 180.0 °C for pan_contact"
     },
     {
       "field": "end",

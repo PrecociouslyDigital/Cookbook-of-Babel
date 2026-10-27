@@ -5,7 +5,7 @@
     "source": "wikibooks_chocolate_mousse",
     "step": 3
   },
-  "technique": "whisk",
+  "technique": "chill",
   "inputs": {
     "of": [
       {
@@ -16,7 +16,7 @@
         }
       },
       {
-        "ingredient": "cream",
+        "ingredient": "cream_whisk",
         "amount": {
           "qty": 250,
           "unit": "ml"
@@ -40,12 +40,18 @@
       "unit": "min"
     },
     "sensitivity": {
-      "refTempC": 20,
-      "q10": 1
+      "refTempC": 4,
+      "q10": 1,
+      "maxTempC": 8
     }
   },
   "stateNote": "Whip the egg whites and cream separately until very firm. Put both in the refrigerator.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.52"
+    },
     {
       "field": "end",
       "kind": "estimate",

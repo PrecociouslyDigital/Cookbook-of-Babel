@@ -1,0 +1,49 @@
+{
+  "id": "eggplant_parmesan_melanzane_alla_parmigiana_i.step_3.prep_8",
+  "source": "wikibooks_eggplant_parmesan_melanzane_alla_parmigiana_i",
+  "technique": "whisk",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "hard_cooked_eggs",
+        "amount": {
+          "qty": 2,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "hard_cooked_eggs_whisk",
+      "amount": {
+        "qty": 2,
+        "unit": "piece"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "2 eggs (optional)",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

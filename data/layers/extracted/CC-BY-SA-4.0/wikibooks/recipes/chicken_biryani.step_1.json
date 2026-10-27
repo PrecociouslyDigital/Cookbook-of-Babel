@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "rice",
+        "ingredient": "rice_soak",
         "amount": {
           "qty": 2,
           "unit": "cup"
@@ -19,7 +19,7 @@
   },
   "outputs": [
     {
-      "ingredient": "rice_boil",
+      "ingredient": "rice_soak_boil",
       "amount": {
         "qty": 473.2,
         "unit": "g"
@@ -40,9 +40,14 @@
   "stateNote": "Cook soaked and washed rice.",
   "issues": [
     {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.57"
+    },
+    {
       "field": "outputs",
       "kind": "estimate",
-      "note": "assumed 1 g/ml for rice"
+      "note": "assumed 1 g/ml for rice_soak"
     },
     {
       "field": "environment",

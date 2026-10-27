@@ -9,14 +9,14 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "ekpang_nkukwo_step_2",
+        "ingredient": "cocoyams_rinse_rinse_grind",
         "amount": {
-          "qty": 0.6,
+          "qty": 0.3,
           "unit": "g"
         }
       },
       {
-        "ingredient": "cocoyam_leaves",
+        "ingredient": "cocoyam_leaves_rinse",
         "amount": {
           "qty": 1,
           "unit": "pinch"
@@ -28,7 +28,7 @@
     {
       "ingredient": "ekpang_nkukwo_step_3",
       "amount": {
-        "qty": 0.9,
+        "qty": 0.6,
         "unit": "g"
       }
     }
@@ -47,6 +47,11 @@
   "stateNote": "Wash the cocoyam leaves and cut off any hard stalks.",
   "issues": [
     {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.34"
+    },
+    {
       "field": "inputs",
       "kind": "estimate",
       "note": "'Fresh cocoyam leaves': no quantity given; assumed a pinch"
@@ -54,7 +59,7 @@
     {
       "field": "outputs",
       "kind": "estimate",
-      "note": "assumed 1 g/ml for cocoyam_leaves"
+      "note": "assumed 1 g/ml for cocoyam_leaves_rinse"
     },
     {
       "field": "end",

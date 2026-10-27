@@ -5,7 +5,7 @@
     "source": "wikibooks_bunny_chow",
     "step": 9
   },
-  "technique": "cut",
+  "technique": "shape",
   "inputs": {
     "of": [
       {
@@ -16,7 +16,7 @@
         }
       },
       {
-        "ingredient": "bread",
+        "ingredient": "bread_cut",
         "amount": {
           "qty": 1,
           "unit": "piece"
@@ -46,6 +46,11 @@
   },
   "stateNote": "Cut the loaf of bread into halves or quarters, and remove part of the soft interior from each piece to create a cavity.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.51"
+    },
     {
       "field": "inputs",
       "kind": "estimate",

@@ -9,14 +9,14 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "potato",
+        "ingredient": "potato_grind",
         "amount": {
           "qty": 4,
           "unit": "piece"
         }
       },
       {
-        "ingredient": "onion",
+        "ingredient": "onion_grind",
         "amount": {
           "qty": 1,
           "unit": "piece"
@@ -46,6 +46,11 @@
   },
   "stateNote": "Grate the potatoes and onions.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.32"
+    },
     {
       "field": "end",
       "kind": "estimate",

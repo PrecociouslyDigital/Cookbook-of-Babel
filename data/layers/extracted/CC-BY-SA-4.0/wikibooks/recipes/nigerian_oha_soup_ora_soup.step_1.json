@@ -5,25 +5,25 @@
     "source": "wikibooks_nigerian_oha_soup_ora_soup",
     "step": 1
   },
-  "technique": "boil",
+  "technique": "simmer",
   "inputs": {
     "of": [
       {
-        "ingredient": "assorted_meat",
+        "ingredient": "assorted_meat_season",
         "amount": {
           "qty": 700,
           "unit": "g"
         }
       },
       {
-        "ingredient": "stockfish",
+        "ingredient": "stockfish_soak",
         "amount": {
           "qty": 200,
           "unit": "g"
         }
       },
       {
-        "ingredient": "onion",
+        "ingredient": "onion_chop",
         "amount": {
           "qty": 1,
           "unit": "piece"
@@ -48,7 +48,7 @@
     }
   ],
   "environment": {
-    "temperatureC": 100,
+    "temperatureC": 90,
     "medium": "simmering_water"
   },
   "end": {
@@ -67,8 +67,13 @@
     },
     {
       "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.58"
+    },
+    {
+      "field": "environment",
       "kind": "estimate",
-      "note": "no temperature given; used the middle of boil's typical range"
+      "note": "no temperature given; used the middle of simmer's typical range"
     },
     {
       "field": "end",

@@ -23,6 +23,13 @@
         }
       },
       {
+        "ingredient": "salt",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      },
+      {
         "ingredient": "pepper",
         "amount": {
           "qty": 1,
@@ -55,6 +62,16 @@
   "issues": [
     {
       "field": "inputs",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.54"
+    },
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Salt': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "inputs",
       "kind": "estimate",
       "note": "'Pepper': no quantity given; assumed a pinch"
     },
@@ -66,7 +83,7 @@
     {
       "field": "inputs",
       "kind": "missing",
-      "note": "no step uses '1 cup mango' (p=0.86)"
+      "note": "no step uses '1 cup mango' (p=0.83)"
     }
   ]
 }

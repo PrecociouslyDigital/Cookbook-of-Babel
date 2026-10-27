@@ -16,7 +16,7 @@
         }
       },
       {
-        "ingredient": "cumin",
+        "ingredient": "cumin_grind",
         "amount": {
           "qty": 0.5,
           "unit": "tsp"
@@ -58,7 +58,7 @@
         }
       },
       {
-        "ingredient": "chipotle_pepper",
+        "ingredient": "chipotle_pepper_chop",
         "amount": {
           "qty": 3,
           "unit": "piece"
@@ -89,17 +89,13 @@
       "unit": "h"
     },
     "sensitivity": {
-      "refTempC": 20,
-      "q10": 1
+      "refTempC": 4,
+      "q10": 1,
+      "maxTempC": 8
     }
   },
   "stateNote": "Combine tequila, oil, mix, lime, cumin, cilantro, adobo, and the chiles in a blender until smooth. Pour into a gallon size zip-top bag and add chicken. Toss to coat and refrigerate overnight.",
   "issues": [
-    {
-      "field": "technique",
-      "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.55"
-    },
     {
       "field": "end",
       "kind": "estimate",

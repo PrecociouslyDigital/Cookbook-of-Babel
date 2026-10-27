@@ -14,6 +14,13 @@
           "qty": 1,
           "unit": "batch"
         }
+      },
+      {
+        "ingredient": "water",
+        "amount": {
+          "qty": 2,
+          "unit": "cup"
+        }
       }
     ]
   },
@@ -28,7 +35,7 @@
   ],
   "environment": {
     "temperatureC": 90,
-    "medium": "simmering_water"
+    "medium": "pan_contact"
   },
   "end": {
     "by": "time",
@@ -39,6 +46,16 @@
   },
   "stateNote": "Place the peanut sauce over high heat and gradually add the remaining water. Allow it to simmer for about 20 minutes until the peanut oil rises to the surface.",
   "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.54"
+    },
+    {
+      "field": "inputs",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.52"
+    },
     {
       "field": "environment",
       "kind": "estimate",

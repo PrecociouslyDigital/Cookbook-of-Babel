@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "oats",
+        "ingredient": "oats_boil",
         "amount": {
           "qty": 1,
           "unit": "cup"
@@ -19,7 +19,7 @@
   },
   "outputs": [
     {
-      "ingredient": "oats_simmer",
+      "ingredient": "oats_boil_simmer",
       "amount": {
         "qty": 236.6,
         "unit": "g"
@@ -28,7 +28,7 @@
   ],
   "environment": {
     "temperatureC": 90,
-    "medium": "simmering_water"
+    "medium": "boiling_water"
   },
   "end": {
     "by": "time",
@@ -42,12 +42,17 @@
     {
       "field": "technique",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.41"
+      "note": "the decision model gave this answer a probability of 0.39"
+    },
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.58"
     },
     {
       "field": "outputs",
       "kind": "estimate",
-      "note": "assumed 1 g/ml for oats"
+      "note": "assumed 1 g/ml for oats_boil"
     },
     {
       "field": "environment",

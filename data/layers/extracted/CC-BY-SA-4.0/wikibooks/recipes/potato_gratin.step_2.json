@@ -5,11 +5,11 @@
     "source": "wikibooks_potato_gratin",
     "step": 2
   },
-  "technique": "cut",
+  "technique": "soak",
   "inputs": {
     "of": [
       {
-        "ingredient": "potato",
+        "ingredient": "potato_cut",
         "amount": {
           "qty": 5,
           "unit": "piece"
@@ -19,7 +19,7 @@
   },
   "outputs": [
     {
-      "ingredient": "potato_cut",
+      "ingredient": "potato_cut_soak",
       "amount": {
         "qty": 1,
         "unit": "batch"
@@ -39,6 +39,11 @@
   },
   "stateNote": "Slice the potatoes very thinly (about ⅛\" thick), if possible using a mandoline to achieve evenness, and place them in some fresh water.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.33"
+    },
     {
       "field": "inputs",
       "kind": "estimate",

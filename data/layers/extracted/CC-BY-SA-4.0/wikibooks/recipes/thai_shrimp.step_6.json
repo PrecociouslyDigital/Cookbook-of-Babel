@@ -16,7 +16,7 @@
         }
       },
       {
-        "ingredient": "sesame_seed",
+        "ingredient": "sesame_seed_toast",
         "amount": {
           "qty": 1,
           "unit": "tbsp"
@@ -27,7 +27,7 @@
         "max": 1,
         "of": [
           {
-            "ingredient": "cooked_rice",
+            "ingredient": "cooked_rice_heat",
             "amount": {
               "qty": 1,
               "unit": "pinch"
@@ -46,28 +46,28 @@
       }
     }
   ],
-  "environment": {
-    "temperatureC": 180,
-    "medium": "pan_contact"
-  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
     }
   },
   "stateNote": "Garnish with sesame seeds and serve immediately over rice or noodles.",
   "issues": [
     {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.47"
+    },
+    {
       "field": "inputs",
       "kind": "estimate",
       "note": "'Hot cooked rice or noodles (optional)': no quantity given; assumed a pinch"
-    },
-    {
-      "field": "environment",
-      "kind": "estimate",
-      "note": "no temperature given; assumed 180.0 °C for pan_contact"
     },
     {
       "field": "end",
@@ -77,7 +77,7 @@
     {
       "field": "inputs",
       "kind": "missing",
-      "note": "no step uses 'Salt, to taste' (p=0.98)"
+      "note": "no step uses 'Salt, to taste' (p=0.99)"
     },
     {
       "field": "inputs",

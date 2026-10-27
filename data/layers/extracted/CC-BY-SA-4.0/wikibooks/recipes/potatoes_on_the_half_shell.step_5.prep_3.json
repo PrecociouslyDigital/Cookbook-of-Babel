@@ -1,0 +1,49 @@
+{
+  "id": "potatoes_on_the_half_shell.step_5.prep_3",
+  "source": "wikibooks_potatoes_on_the_half_shell",
+  "technique": "chop",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "velveeta_cheese",
+        "amount": {
+          "qty": 4,
+          "unit": "oz"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "velveeta_cheese_chop",
+      "amount": {
+        "qty": 4,
+        "unit": "oz"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "4 oz Velveeta cheese, chopped into chunks",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

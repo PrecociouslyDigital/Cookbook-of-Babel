@@ -9,14 +9,14 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "butter_heat",
+        "ingredient": "butter_heat_heat",
         "amount": {
           "qty": 45,
           "unit": "g"
         }
       },
       {
-        "ingredient": "onion",
+        "ingredient": "onion_cut",
         "amount": {
           "qty": 1,
           "unit": "piece"
@@ -47,9 +47,14 @@
   "stateNote": "Sauté the onion in the butter or olive oil until transparent.",
   "issues": [
     {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.55"
+    },
+    {
       "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.57"
+      "note": "the decision model gave this answer a probability of 0.56"
     },
     {
       "field": "environment",

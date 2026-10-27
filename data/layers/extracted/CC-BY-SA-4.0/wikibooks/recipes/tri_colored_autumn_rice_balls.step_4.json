@@ -16,7 +16,7 @@
         }
       },
       {
-        "ingredient": "smooth_japanese_bean_paste",
+        "ingredient": "smooth_japanese_bean_paste_chill",
         "amount": {
           "qty": 1,
           "unit": "cup"
@@ -40,16 +40,22 @@
       "unit": "min"
     },
     "sensitivity": {
-      "refTempC": 20,
-      "q10": 1
+      "refTempC": 4,
+      "q10": 1,
+      "maxTempC": 8
     }
   },
   "stateNote": "Place 2½ tablespoons bean paste on towel; pat into a 4-inch circle.",
   "issues": [
     {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.54"
+    },
+    {
       "field": "outputs",
       "kind": "estimate",
-      "note": "assumed 1 g/ml for smooth_japanese_bean_paste"
+      "note": "assumed 1 g/ml for smooth_japanese_bean_paste_chill"
     },
     {
       "field": "end",

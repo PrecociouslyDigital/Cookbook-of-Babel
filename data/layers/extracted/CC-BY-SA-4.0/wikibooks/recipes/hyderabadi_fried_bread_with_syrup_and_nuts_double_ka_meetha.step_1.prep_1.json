@@ -1,0 +1,49 @@
+{
+  "id": "hyderabadi_fried_bread_with_syrup_and_nuts_double_ka_meetha.step_1.prep_1",
+  "source": "wikibooks_hyderabadi_fried_bread_with_syrup_and_nuts_double_ka_meetha",
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "bread",
+        "amount": {
+          "qty": 1,
+          "unit": "loaf"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "bread_cut",
+      "amount": {
+        "qty": 1,
+        "unit": "loaf"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "1 loaf bread",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

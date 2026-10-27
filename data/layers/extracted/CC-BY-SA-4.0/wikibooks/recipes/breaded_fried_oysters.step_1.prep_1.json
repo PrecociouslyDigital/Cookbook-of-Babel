@@ -1,0 +1,49 @@
+{
+  "id": "breaded_fried_oysters.step_1.prep_1",
+  "source": "wikibooks_breaded_fried_oysters",
+  "technique": "dry",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "oyster",
+        "amount": {
+          "qty": 1,
+          "unit": "pt"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "oyster_dry",
+      "amount": {
+        "qty": 1,
+        "unit": "pt"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "1 pint shucked large oysters, cleaned and dried",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

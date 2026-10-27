@@ -1,0 +1,63 @@
+{
+  "id": "pollo_del_fungo_chicken_with_mushrooms.step_10",
+  "source": "wikibooks_pollo_del_fungo_chicken_with_mushrooms",
+  "sourceRef": {
+    "source": "wikibooks_pollo_del_fungo_chicken_with_mushrooms",
+    "step": 10
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "pollo_del_fungo_chicken_with_mushrooms_step_9",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "pollo_del_fungo_chicken_with_mushrooms",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "On each plate stack 4 chicken strips and spoon 1–2 tbsp of sauce on top.",
+  "issues": [
+    {
+      "field": "sourceRef",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.5"
+    },
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.58"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    },
+    {
+      "field": "inputs",
+      "kind": "missing",
+      "note": "no step uses '½ tsp lemon pepper' (p=0.81)"
+    }
+  ]
+}

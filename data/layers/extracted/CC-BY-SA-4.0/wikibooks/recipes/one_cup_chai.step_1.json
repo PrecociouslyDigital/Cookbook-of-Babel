@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "water",
+        "ingredient": "water_heat",
         "amount": {
           "qty": 0.75,
           "unit": "cup"
@@ -19,7 +19,7 @@
   },
   "outputs": [
     {
-      "ingredient": "water_heat",
+      "ingredient": "water_heat_heat",
       "amount": {
         "qty": 177.4,
         "unit": "g"
@@ -39,6 +39,11 @@
   },
   "stateNote": "Place the water in a pot on the stovetop on the lowest setting, or just below a boil. The more you let evaporate, the stronger the chai's flavor will be.",
   "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for water_heat"
+    },
     {
       "field": "environment",
       "kind": "estimate",

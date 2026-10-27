@@ -5,7 +5,7 @@
     "source": "wikibooks_grape_lassi",
     "step": 2
   },
-  "technique": "grind",
+  "technique": "assemble",
   "inputs": {
     "of": [
       {
@@ -16,7 +16,7 @@
         }
       },
       {
-        "ingredient": "ice_cubes",
+        "ingredient": "ice_cubes_grind",
         "amount": {
           "qty": 6,
           "unit": "piece"
@@ -40,16 +40,17 @@
       "unit": "min"
     },
     "sensitivity": {
-      "refTempC": 20,
-      "q10": 1
+      "refTempC": -18,
+      "q10": 1,
+      "maxTempC": 0
     }
   },
   "stateNote": "Crush ice-cubes, divide it into 4 portions, and divide between 4 glasses.",
   "issues": [
     {
-      "field": "technique",
+      "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.54"
+      "note": "the decision model gave this answer a probability of 0.42"
     },
     {
       "field": "end",

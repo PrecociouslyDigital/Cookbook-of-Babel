@@ -1,0 +1,49 @@
+{
+  "id": "banana_pancakes.step_5.prep_5",
+  "source": "wikibooks_banana_pancakes",
+  "technique": "whisk",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "self_rising_flour",
+        "amount": {
+          "qty": 300,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "self_rising_flour_whisk",
+      "amount": {
+        "qty": 300,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "300 grams self-raising flour (or 300 grams all-purpose flour + 1 tablespoon baking powder)",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "lemon",
+        "ingredient": "lemon_cut",
         "amount": {
           "qty": 1,
           "unit": "pinch"
@@ -47,6 +47,11 @@
   "stateNote": "Poke holes in the lemons with a sharp knife. Pack them in an airtight jar, separating them from one another with salt.",
   "issues": [
     {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.52"
+    },
+    {
       "field": "inputs",
       "kind": "estimate",
       "note": "'Lemons': no quantity given; assumed a pinch"
@@ -59,7 +64,7 @@
     {
       "field": "outputs",
       "kind": "estimate",
-      "note": "assumed 1 g/ml for lemon"
+      "note": "assumed 1 g/ml for lemon_cut"
     },
     {
       "field": "end",

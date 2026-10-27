@@ -16,7 +16,7 @@
         }
       },
       {
-        "ingredient": "plantain",
+        "ingredient": "plantain_cut",
         "amount": {
           "qty": 4,
           "unit": "piece"
@@ -42,7 +42,7 @@
   ],
   "environment": {
     "temperatureC": 185,
-    "medium": "frying_oil"
+    "medium": "pan_contact"
   },
   "end": {
     "by": "time",
@@ -54,9 +54,14 @@
   "stateNote": "Peel the plantains and cut them lengthwise into ¼–½ inch thick strips. Cook the plantains in a large frying pan with a little oil over medium heat, until the plantains are lightly browned on both sides. Remove to a dish and set aside.",
   "issues": [
     {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.57"
+    },
+    {
       "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.52"
+      "note": "the decision model gave this answer a probability of 0.5"
     },
     {
       "field": "inputs",

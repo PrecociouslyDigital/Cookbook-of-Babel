@@ -1,0 +1,49 @@
+{
+  "id": "au_jus_sandwich.step_2.prep_9",
+  "source": "wikibooks_au_jus_sandwich",
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "french_sandwich_hoagie_rolls",
+        "amount": {
+          "qty": 4,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "french_sandwich_hoagie_rolls_cut",
+      "amount": {
+        "qty": 4,
+        "unit": "piece"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "4 French/sandwich/hoagie rolls",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

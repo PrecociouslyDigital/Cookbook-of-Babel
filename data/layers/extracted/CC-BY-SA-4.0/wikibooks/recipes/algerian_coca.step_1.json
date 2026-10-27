@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "white_sugar",
+        "ingredient": "white_sugar_dissolve",
         "amount": {
           "qty": 1,
           "unit": "tbsp"
@@ -23,7 +23,7 @@
         }
       },
       {
-        "ingredient": "water",
+        "ingredient": "water_dissolve",
         "amount": {
           "qty": 250,
           "unit": "ml"
@@ -35,7 +35,7 @@
     {
       "ingredient": "algerian_coca_step_1",
       "amount": {
-        "qty": 269.6,
+        "qty": 271.8,
         "unit": "g"
       }
     }
@@ -54,14 +54,14 @@
   "stateNote": "In a bowl, dissolve the sugar in warm water, then sprinkle the yeast. Let sit 10 minutes until frothy.",
   "issues": [
     {
-      "field": "technique",
-      "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.51"
-    },
-    {
       "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.47"
+      "note": "the decision model gave this answer a probability of 0.58"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for white_sugar_dissolve, water_dissolve"
     }
   ]
 }

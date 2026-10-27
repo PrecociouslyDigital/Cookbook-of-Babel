@@ -5,7 +5,7 @@
     "source": "wikibooks_piadina_thin_italian_flatbread",
     "step": 9
   },
-  "technique": "cut",
+  "technique": "shape",
   "inputs": {
     "of": [
       {
@@ -26,23 +26,28 @@
       }
     }
   ],
+  "environment": {
+    "temperatureC": 180,
+    "medium": "pan_contact"
+  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
-    },
-    "sensitivity": {
-      "refTempC": 20,
-      "q10": 1
     }
   },
   "stateNote": "Dock (perforate) one of the rounds with a fork to prevent the formation of bubbles.",
   "issues": [
     {
-      "field": "technique",
+      "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.46"
+      "note": "the decision model gave this answer a probability of 0.47"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 180.0 °C for pan_contact"
     },
     {
       "field": "end",

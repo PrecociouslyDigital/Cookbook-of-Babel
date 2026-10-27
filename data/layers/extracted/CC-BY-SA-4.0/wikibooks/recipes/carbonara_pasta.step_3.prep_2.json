@@ -1,0 +1,49 @@
+{
+  "id": "carbonara_pasta.step_3.prep_2",
+  "source": "wikibooks_carbonara_pasta",
+  "technique": "fry",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "pancetta",
+        "amount": {
+          "qty": 3,
+          "unit": "oz"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "pancetta_fry",
+      "amount": {
+        "qty": 3,
+        "unit": "oz"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "3 oz (65 g) fresh Italian pancetta, cubed into ¼–⅜-inch (0.64–0.95 cm) pieces",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

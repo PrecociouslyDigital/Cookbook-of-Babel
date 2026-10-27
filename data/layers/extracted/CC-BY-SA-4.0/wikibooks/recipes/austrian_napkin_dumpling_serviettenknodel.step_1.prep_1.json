@@ -1,0 +1,49 @@
+{
+  "id": "austrian_napkin_dumpling_serviettenknodel.step_1.prep_1",
+  "source": "wikibooks_austrian_napkin_dumpling_serviettenknodel",
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "bread",
+        "amount": {
+          "qty": 8.8,
+          "unit": "oz"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "bread_cut",
+      "amount": {
+        "qty": 8.8,
+        "unit": "oz"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "8.8 oz (250 g) stale French or Italian bread, cut into crouton-sized cubes",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

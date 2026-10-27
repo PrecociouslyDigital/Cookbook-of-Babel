@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "cassava",
+        "ingredient": "cassava_cut",
         "amount": {
           "qty": 1,
           "unit": "piece"
@@ -19,7 +19,7 @@
   },
   "outputs": [
     {
-      "ingredient": "cassava_cut",
+      "ingredient": "cassava_cut_cut",
       "amount": {
         "qty": 1,
         "unit": "batch"
@@ -39,6 +39,11 @@
   },
   "stateNote": "Peel the cassava, then cut into slices 1 cm thick. Rinse well.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.41"
+    },
     {
       "field": "inputs",
       "kind": "estimate",

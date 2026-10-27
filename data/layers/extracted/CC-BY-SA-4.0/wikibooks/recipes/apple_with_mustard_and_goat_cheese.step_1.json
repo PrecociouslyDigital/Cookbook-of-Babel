@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "apple",
+        "ingredient": "apple_cut",
         "amount": {
           "qty": 2,
           "unit": "piece"
@@ -19,7 +19,7 @@
   },
   "outputs": [
     {
-      "ingredient": "apple_cut",
+      "ingredient": "apple_cut_cut",
       "amount": {
         "qty": 1,
         "unit": "batch"
@@ -33,8 +33,9 @@
       "unit": "min"
     },
     "sensitivity": {
-      "refTempC": 20,
-      "q10": 1
+      "refTempC": 4,
+      "q10": 1,
+      "maxTempC": 8
     }
   },
   "stateNote": "Wash the apples and cut across (i.e. not from top to bottom) into slices ¼ inch thick. Preferably the apples should come from the refrigerator as the cold temperature will add to the contrast.",

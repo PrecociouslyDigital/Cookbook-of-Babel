@@ -11,7 +11,7 @@
       {
         "ingredient": "sweet_italian_sausage_skillet_step_4",
         "amount": {
-          "qty": 2051.4,
+          "qty": 2052.2,
           "unit": "g"
         }
       },
@@ -28,20 +28,20 @@
     {
       "ingredient": "sweet_italian_sausage_skillet",
       "amount": {
-        "qty": 2108.1,
+        "qty": 2108.9,
         "unit": "g"
       }
     }
   ],
-  "environment": {
-    "temperatureC": 180,
-    "medium": "pan_contact"
-  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
     }
   },
   "stateNote": "Sprinkle with cheese.",
@@ -49,17 +49,12 @@
     {
       "field": "technique",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.49"
+      "note": "the decision model gave this answer a probability of 0.47"
     },
     {
       "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.48"
-    },
-    {
-      "field": "environment",
-      "kind": "estimate",
-      "note": "no temperature given; assumed 180.0 °C for pan_contact"
+      "note": "the decision model gave this answer a probability of 0.56"
     },
     {
       "field": "end",

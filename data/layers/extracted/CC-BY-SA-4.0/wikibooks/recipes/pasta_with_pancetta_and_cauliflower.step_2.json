@@ -9,14 +9,14 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "cauliflower_boil",
+        "ingredient": "cauliflower_boil_boil",
         "amount": {
           "qty": 1,
           "unit": "batch"
         }
       },
       {
-        "ingredient": "pancetta",
+        "ingredient": "pancetta_pan_fry",
         "amount": {
           "qty": 6,
           "unit": "oz"
@@ -46,6 +46,11 @@
   },
   "stateNote": "Heat 2 tablespoons extra-virgin olive oil over medium-high heat in a large pan. Once hot, add the diced pancetta, and begin to brown.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.56"
+    },
     {
       "field": "environment",
       "kind": "estimate",

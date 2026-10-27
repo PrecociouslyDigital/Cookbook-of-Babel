@@ -5,11 +5,11 @@
     "source": "wikibooks_quick_and_delicious_pineapple_upside_down_cake",
     "step": 1
   },
-  "technique": "heat",
+  "technique": "mix",
   "inputs": {
     "of": [
       {
-        "ingredient": "butter",
+        "ingredient": "butter_heat",
         "amount": {
           "qty": 1,
           "unit": "stick"
@@ -46,6 +46,11 @@
   },
   "stateNote": "In a 9 x 13-inch pan, melt the butter or margarine. Add the light brown sugar, and allow to melt.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.58"
+    },
     {
       "field": "environment",
       "kind": "estimate",

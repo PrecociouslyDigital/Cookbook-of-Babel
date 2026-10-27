@@ -16,7 +16,7 @@
         }
       },
       {
-        "ingredient": "onion",
+        "ingredient": "onion_fry",
         "amount": {
           "qty": 3,
           "unit": "piece"
@@ -30,7 +30,7 @@
         }
       },
       {
-        "ingredient": "carrot",
+        "ingredient": "carrot_fry",
         "amount": {
           "qty": 3,
           "unit": "piece"
@@ -70,7 +70,7 @@
   ],
   "environment": {
     "temperatureC": 190,
-    "medium": "frying_oil"
+    "medium": "pan_contact"
   },
   "end": {
     "by": "time",
@@ -82,9 +82,14 @@
   "stateNote": "Fry onions, tomatoes, carrots, and garlic in oil and margarine.",
   "issues": [
     {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.59"
+    },
+    {
       "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.56"
+      "note": "the decision model gave this answer a probability of 0.53"
     },
     {
       "field": "inputs",

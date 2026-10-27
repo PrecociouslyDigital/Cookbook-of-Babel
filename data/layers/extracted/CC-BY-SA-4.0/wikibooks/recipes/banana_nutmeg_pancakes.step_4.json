@@ -16,14 +16,14 @@
         }
       },
       {
-        "ingredient": "buttermilk",
+        "ingredient": "buttermilk_heat",
         "amount": {
           "qty": 0.75,
           "unit": "cup"
         }
       },
       {
-        "ingredient": "milk",
+        "ingredient": "milk_heat",
         "amount": {
           "qty": 0.25,
           "unit": "cup"
@@ -35,33 +35,33 @@
     {
       "ingredient": "banana_nutmeg_pancakes_step_4",
       "amount": {
-        "qty": 381.1,
+        "qty": 379.3,
         "unit": "g"
       }
     }
   ],
-  "environment": {
-    "temperatureC": 20,
-    "medium": "still_air"
-  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 25,
       "unit": "s"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
     }
   },
   "stateNote": "Microwave buttermilk and milk in a 2-cup Pyrex measuring cup to room temperature, 20 to 30 seconds.",
   "issues": [
     {
-      "field": "outputs",
-      "kind": "estimate",
-      "note": "assumed 1 g/ml for buttermilk"
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.34"
     },
     {
-      "field": "environment",
+      "field": "outputs",
       "kind": "estimate",
-      "note": "no temperature given; assumed 20.0 °C for still_air"
+      "note": "assumed 1 g/ml for buttermilk_heat, milk_heat"
     }
   ]
 }

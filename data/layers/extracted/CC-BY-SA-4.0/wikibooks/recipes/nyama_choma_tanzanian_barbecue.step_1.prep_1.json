@@ -1,0 +1,49 @@
+{
+  "id": "nyama_choma_tanzanian_barbecue.step_1.prep_1",
+  "source": "wikibooks_nyama_choma_tanzanian_barbecue",
+  "technique": "rinse",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "goat",
+        "amount": {
+          "qty": 1,
+          "unit": "kg"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "goat_rinse",
+      "amount": {
+        "qty": 1,
+        "unit": "kg"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "1 kg goat/lamb/beef/chicken meat, cut into thick chunks",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

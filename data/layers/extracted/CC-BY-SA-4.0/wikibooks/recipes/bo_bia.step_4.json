@@ -16,7 +16,7 @@
         }
       },
       {
-        "ingredient": "vegetable_oil",
+        "ingredient": "vegetable_oil_heat",
         "amount": {
           "qty": 1,
           "unit": "tbsp"
@@ -46,6 +46,11 @@
   },
   "stateNote": "In a non-stick pan, add 1 tsp of vegetable oil. When it's hot enough, pour in half of the egg mixture and quickly tilt the pan in a circular motion to spread the egg thinly and evenly. When one side is golden, flip it over and fry the other side for 5 more seconds. Repeat until the egg mixture has been used up.",
   "issues": [
+    {
+      "field": "inputs",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.53"
+    },
     {
       "field": "environment",
       "kind": "estimate",

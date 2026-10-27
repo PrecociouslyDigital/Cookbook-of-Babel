@@ -5,7 +5,7 @@
     "source": "wikibooks_malvani_chicken_curry",
     "step": 3
   },
-  "technique": "toast",
+  "technique": "grind",
   "inputs": {
     "of": [
       {
@@ -16,14 +16,14 @@
         }
       },
       {
-        "ingredient": "oil_and_fat",
+        "ingredient": "oil_and_fat_heat",
         "amount": {
           "qty": 2,
           "unit": "tbsp"
         }
       },
       {
-        "ingredient": "coconut",
+        "ingredient": "coconut_toast",
         "amount": {
           "qty": 1,
           "unit": "piece"
@@ -48,7 +48,7 @@
     }
   ],
   "environment": {
-    "temperatureC": 185,
+    "temperatureC": 180,
     "medium": "pan_contact"
   },
   "end": {
@@ -61,9 +61,14 @@
   "stateNote": "Toast coconut shavings in a pan with a little hot oil until light brown. Cool and grind along with half the onions to a paste.",
   "issues": [
     {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.53"
+    },
+    {
       "field": "environment",
       "kind": "estimate",
-      "note": "no temperature given; used the middle of toast's typical range"
+      "note": "no temperature given; assumed 180.0 °C for pan_contact"
     },
     {
       "field": "end",

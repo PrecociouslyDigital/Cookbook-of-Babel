@@ -5,7 +5,7 @@
     "source": "wikibooks_bo_bia",
     "step": 6
   },
-  "technique": "stir_fry",
+  "technique": "heat",
   "inputs": {
     "of": [
       {
@@ -16,7 +16,7 @@
         }
       },
       {
-        "ingredient": "garlic",
+        "ingredient": "garlic_stir_fry",
         "amount": {
           "qty": 1,
           "unit": "tsp"
@@ -34,7 +34,7 @@
     }
   ],
   "environment": {
-    "temperatureC": 215,
+    "temperatureC": 175,
     "medium": "frying_oil"
   },
   "end": {
@@ -49,17 +49,12 @@
     {
       "field": "technique",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.38"
-    },
-    {
-      "field": "environment",
-      "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.58"
+      "note": "the decision model gave this answer a probability of 0.57"
     },
     {
       "field": "environment",
       "kind": "estimate",
-      "note": "no temperature given; used the middle of stir_fry's typical range"
+      "note": "no temperature given; assumed 175.0 °C for frying_oil"
     },
     {
       "field": "end",

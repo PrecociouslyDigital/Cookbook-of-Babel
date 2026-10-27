@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "peanut_rinse",
+        "ingredient": "peanut_rinse_rinse",
         "amount": {
           "qty": 100,
           "unit": "g"
@@ -44,5 +44,12 @@
       "q10": 1
     }
   },
-  "stateNote": "Place peanuts in blender with half of the water, and blend on high speed for about 1–2 minutes."
+  "stateNote": "Place peanuts in blender with half of the water, and blend on high speed for about 1–2 minutes.",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.58"
+    }
+  ]
 }

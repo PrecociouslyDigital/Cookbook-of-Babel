@@ -33,12 +33,18 @@
       "unit": "min"
     },
     "sensitivity": {
-      "refTempC": 20,
-      "q10": 1
+      "refTempC": 4,
+      "q10": 1,
+      "maxTempC": 8
     }
   },
   "stateNote": "Slice the roll in ½ inch intervals to create smaller bite-sized candies. If prepared with enough powdered sugar, the roll should be able to survive at room temperature, though it’s best to keep it covered in a refrigerated environment for a denser and moister consistency.",
   "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.54"
+    },
     {
       "field": "end",
       "kind": "estimate",

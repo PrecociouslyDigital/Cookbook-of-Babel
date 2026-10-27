@@ -9,42 +9,42 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "bell_pepper",
+        "ingredient": "bell_pepper_roast",
         "amount": {
           "qty": 2,
           "unit": "piece"
         }
       },
       {
-        "ingredient": "bell_pepper",
+        "ingredient": "bell_pepper_chop",
         "amount": {
           "qty": 1,
           "unit": "piece"
         }
       },
       {
-        "ingredient": "chiles",
+        "ingredient": "chiles_chop",
         "amount": {
           "qty": 1,
           "unit": "piece"
         }
       },
       {
-        "ingredient": "tomato",
+        "ingredient": "tomato_chop",
         "amount": {
           "qty": 1,
           "unit": "piece"
         }
       },
       {
-        "ingredient": "onion",
+        "ingredient": "onion_chop",
         "amount": {
           "qty": 1,
           "unit": "piece"
         }
       },
       {
-        "ingredient": "garlic",
+        "ingredient": "garlic_chop",
         "amount": {
           "qty": 1,
           "unit": "clove"
@@ -74,6 +74,11 @@
   },
   "stateNote": "In a mixing bowl, combine the roasted and chopped red bell peppers, green bell pepper, hot chili pepper, tomato, onion, and garlic.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.55"
+    },
     {
       "field": "end",
       "kind": "estimate",

@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "lentil",
+        "ingredient": "lentil_rinse",
         "amount": {
           "qty": 2,
           "unit": "cup"
@@ -47,9 +47,14 @@
   "stateNote": "Place the rinsed red lentils in a large pot and add the water. Bring to a boil over medium-high heat.",
   "issues": [
     {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.51"
+    },
+    {
       "field": "outputs",
       "kind": "estimate",
-      "note": "assumed 1 g/ml for lentil"
+      "note": "assumed 1 g/ml for lentil_rinse"
     },
     {
       "field": "environment",

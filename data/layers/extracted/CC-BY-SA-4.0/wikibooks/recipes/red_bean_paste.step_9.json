@@ -11,7 +11,7 @@
       {
         "ingredient": "red_bean_paste_step_8",
         "amount": {
-          "qty": 396.8,
+          "qty": 402.8,
           "unit": "g"
         }
       }
@@ -21,7 +21,7 @@
     {
       "ingredient": "red_bean_paste",
       "amount": {
-        "qty": 396.8,
+        "qty": 402.8,
         "unit": "g"
       }
     }
@@ -33,12 +33,18 @@
       "unit": "min"
     },
     "sensitivity": {
-      "refTempC": 20,
-      "q10": 1
+      "refTempC": 4,
+      "q10": 1,
+      "maxTempC": 8
     }
   },
   "stateNote": "Cool, and store in an airtight container until needed. This paste will keep for at least a week in the fridge.",
   "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.57"
+    },
     {
       "field": "end",
       "kind": "estimate",

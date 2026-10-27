@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "feta_cheese",
+        "ingredient": "feta_cheese_chop",
         "amount": {
           "qty": 1.5,
           "unit": "lb"
@@ -19,7 +19,7 @@
   },
   "outputs": [
     {
-      "ingredient": "feta_cheese_chop",
+      "ingredient": "feta_cheese_chop_chop",
       "amount": {
         "qty": 680.4,
         "unit": "g"
@@ -39,6 +39,11 @@
   },
   "stateNote": "Crumble cheese into very small pieces.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.37"
+    },
     {
       "field": "end",
       "kind": "estimate",

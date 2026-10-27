@@ -1,0 +1,49 @@
+{
+  "id": "spicy_cheddar_dip_with_olives.step_3.prep_4",
+  "source": "wikibooks_spicy_cheddar_dip_with_olives",
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "olive",
+        "amount": {
+          "qty": 3,
+          "unit": "oz"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "olive_cut",
+      "amount": {
+        "qty": 3,
+        "unit": "oz"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "3 oz (80 g ) black olives, sliced into rings",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

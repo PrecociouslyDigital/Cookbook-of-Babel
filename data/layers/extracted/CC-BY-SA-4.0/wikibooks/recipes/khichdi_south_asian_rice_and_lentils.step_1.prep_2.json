@@ -1,0 +1,49 @@
+{
+  "id": "khichdi_south_asian_rice_and_lentils.step_1.prep_2",
+  "source": "wikibooks_khichdi_south_asian_rice_and_lentils",
+  "technique": "rinse",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "dal",
+        "amount": {
+          "qty": 1,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "dal_rinse",
+      "amount": {
+        "qty": 1,
+        "unit": "piece"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "1 teacup dal (e.g. moong dhal, arhar dal or masoor dal or combination thereof)",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

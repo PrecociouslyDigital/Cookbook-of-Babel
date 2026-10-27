@@ -5,7 +5,7 @@
     "source": "wikibooks_applewood_bacon",
     "step": 3
   },
-  "technique": "soak",
+  "technique": "cure",
   "inputs": {
     "of": [
       {
@@ -40,12 +40,18 @@
       "unit": "min"
     },
     "sensitivity": {
-      "refTempC": 20,
-      "q10": 1
+      "refTempC": 4,
+      "q10": 1,
+      "maxTempC": 8
     }
   },
   "stateNote": "Once ice has melted and brine is cool enough, submerge the pork belly in the brine.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.58"
+    },
     {
       "field": "end",
       "kind": "estimate",

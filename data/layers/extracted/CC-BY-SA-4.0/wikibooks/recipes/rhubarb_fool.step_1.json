@@ -5,11 +5,11 @@
     "source": "wikibooks_rhubarb_fool",
     "step": 1
   },
-  "technique": "cut",
+  "technique": "rinse",
   "inputs": {
     "of": [
       {
-        "ingredient": "rhubarb",
+        "ingredient": "rhubarb_rinse",
         "amount": {
           "qty": 500,
           "unit": "g"
@@ -19,7 +19,7 @@
   },
   "outputs": [
     {
-      "ingredient": "rhubarb_cut",
+      "ingredient": "rhubarb_rinse_rinse",
       "amount": {
         "qty": 500,
         "unit": "g"
@@ -39,6 +39,11 @@
   },
   "stateNote": "Rinse the rhubarb and cut it into smaller pieces, about 1–3 cm in length. If the rhubarb is coarse or of low quality, it may be necessary to peel it first.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.45"
+    },
     {
       "field": "end",
       "kind": "estimate",

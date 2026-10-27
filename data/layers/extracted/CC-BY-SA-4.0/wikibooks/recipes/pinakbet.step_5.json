@@ -16,14 +16,14 @@
         }
       },
       {
-        "ingredient": "bitter_melon",
+        "ingredient": "bitter_melon_cut",
         "amount": {
           "qty": 1,
           "unit": "piece"
         }
       },
       {
-        "ingredient": "sweet_potato",
+        "ingredient": "sweet_potato_cut",
         "amount": {
           "qty": 1,
           "unit": "piece"
@@ -42,7 +42,7 @@
   ],
   "environment": {
     "temperatureC": 100,
-    "medium": "steam"
+    "medium": "pan_contact"
   },
   "end": {
     "by": "time",
@@ -54,9 +54,14 @@
   "stateNote": "Add the bitter melon and sweet potato. Cover and cook until almost, but not quite, tender.",
   "issues": [
     {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.51"
+    },
+    {
       "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.46"
+      "note": "the decision model gave this answer a probability of 0.5"
     },
     {
       "field": "inputs",

@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "egg",
+        "ingredient": "egg_soak",
         "amount": {
           "qty": 3,
           "unit": "piece"
@@ -19,7 +19,7 @@
   },
   "outputs": [
     {
-      "ingredient": "egg_soak",
+      "ingredient": "egg_soak_soak",
       "amount": {
         "qty": 1,
         "unit": "batch"
@@ -40,9 +40,14 @@
   "stateNote": "Cover whole eggs with warm but not scalding water. Let sit 5 minutes or until room temperature.",
   "issues": [
     {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.57"
+    },
+    {
       "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.58"
+      "note": "the decision model gave this answer a probability of 0.53"
     },
     {
       "field": "environment",

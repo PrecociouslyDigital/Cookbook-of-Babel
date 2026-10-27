@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "bacon",
+        "ingredient": "bacon_cut",
         "amount": {
           "qty": 10,
           "unit": "oz"
@@ -19,7 +19,7 @@
   },
   "outputs": [
     {
-      "ingredient": "bacon_cut",
+      "ingredient": "bacon_cut_cut",
       "amount": {
         "qty": 283.5,
         "unit": "g"
@@ -39,6 +39,11 @@
   },
   "stateNote": "Cut or break bacon into 1-inch pieces.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.58"
+    },
     {
       "field": "end",
       "kind": "estimate",

@@ -9,10 +9,17 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "holiday_soda_step_1",
+        "ingredient": "pine_needles_rinse_rinse",
         "amount": {
-          "qty": 118.6,
+          "qty": 118.3,
           "unit": "g"
+        }
+      },
+      {
+        "ingredient": "orange_rinse",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
         }
       }
     ]
@@ -39,6 +46,21 @@
   },
   "stateNote": "Remove the pine needles from the branches and peel the clementines.",
   "issues": [
+    {
+      "field": "inputs",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.45"
+    },
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Peel from 3 clementine oranges (or a similar easy-to-peel variety such as tangerines)': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for orange_rinse"
+    },
     {
       "field": "end",
       "kind": "estimate",

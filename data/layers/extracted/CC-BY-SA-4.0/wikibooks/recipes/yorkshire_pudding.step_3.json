@@ -5,7 +5,7 @@
     "source": "wikibooks_yorkshire_pudding",
     "step": 3
   },
-  "technique": "whisk",
+  "technique": "mix",
   "inputs": {
     "of": [
       {
@@ -23,7 +23,7 @@
         }
       },
       {
-        "ingredient": "vegetable_oil",
+        "ingredient": "vegetable_oil_heat",
         "amount": {
           "qty": 1,
           "unit": "pinch"
@@ -54,9 +54,19 @@
   "stateNote": "Sieve flour into a bowl, then beat in eggs until smooth.",
   "issues": [
     {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.57"
+    },
+    {
       "field": "inputs",
       "kind": "estimate",
       "note": "'Sunflower oil or meat drippings': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for vegetable_oil_heat"
     },
     {
       "field": "end",

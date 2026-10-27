@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "milk",
+        "ingredient": "milk_heat",
         "amount": {
           "qty": 0.5,
           "unit": "cup"
@@ -37,14 +37,14 @@
         }
       },
       {
-        "ingredient": "butter",
+        "ingredient": "butter_heat",
         "amount": {
           "qty": 3.5,
           "unit": "oz"
         }
       },
       {
-        "ingredient": "wheat_flour",
+        "ingredient": "wheat_flour_blend",
         "amount": {
           "qty": 1,
           "unit": "tbsp"
@@ -81,6 +81,11 @@
   },
   "stateNote": "Scald the milk with onion, mace and peppercorns, tip into a jug, cover, and leave to infuse. Rinse the pan with cold water, add ½ oz (about 30 g) butter, heat gently, and blend in the flour. Strain in the milk, and add salt to taste. Stirring continuously, bring milk to the boil, then cook for 1 minute.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.35"
+    },
     {
       "field": "inputs",
       "kind": "estimate",

@@ -1,0 +1,54 @@
+{
+  "id": "sticky_toffee_pudding_without_dates.step_2.prep_5",
+  "source": "wikibooks_sticky_toffee_pudding_without_dates",
+  "technique": "grind",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "nutmeg",
+        "amount": {
+          "qty": 0.25,
+          "unit": "tsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "nutmeg_grind",
+      "amount": {
+        "qty": 0.25,
+        "unit": "tsp"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "¼ teaspoon freshly ground nutmeg",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.53"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

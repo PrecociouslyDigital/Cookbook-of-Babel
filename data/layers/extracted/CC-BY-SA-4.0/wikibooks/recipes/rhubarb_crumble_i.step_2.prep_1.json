@@ -1,0 +1,49 @@
+{
+  "id": "rhubarb_crumble_i.step_2.prep_1",
+  "source": "wikibooks_rhubarb_crumble_i",
+  "technique": "rinse",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "rhubarb",
+        "amount": {
+          "qty": 400,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "rhubarb_rinse",
+      "amount": {
+        "qty": 400,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "400 g (1 ¾ cup or 14 oz) rhubarb, cut into pieces roughly 1.5 cm long (no need to be consistent)",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

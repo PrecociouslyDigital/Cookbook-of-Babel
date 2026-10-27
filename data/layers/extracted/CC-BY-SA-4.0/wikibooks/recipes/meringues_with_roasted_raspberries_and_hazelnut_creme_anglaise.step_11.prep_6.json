@@ -1,0 +1,54 @@
+{
+  "id": "meringues_with_roasted_raspberries_and_hazelnut_creme_anglaise.step_11.prep_6",
+  "source": "wikibooks_meringues_with_roasted_raspberries_and_hazelnut_creme_anglaise",
+  "technique": "toast",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "toasted_hazelnut_oil",
+        "amount": {
+          "qty": 1,
+          "unit": "tbsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "toasted_hazelnut_oil_toast",
+      "amount": {
+        "qty": 1,
+        "unit": "tbsp"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "1 tablespoon toasted hazelnut oil",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.5"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -5,18 +5,18 @@
     "source": "wikibooks_potato_almond_milk",
     "step": 2
   },
-  "technique": "cut",
+  "technique": "assemble",
   "inputs": {
     "of": [
       {
-        "ingredient": "almond_soak",
+        "ingredient": "almond_soak_soak",
         "amount": {
           "qty": 40,
           "unit": "g"
         }
       },
       {
-        "ingredient": "potato",
+        "ingredient": "potato_cut",
         "amount": {
           "qty": 2,
           "unit": "piece"
@@ -47,9 +47,14 @@
   "stateNote": "Cut potatoes 5 cm chunks. Place the chunks into saucepan with enough water to fully cover them.",
   "issues": [
     {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.59"
+    },
+    {
       "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.52"
+      "note": "the decision model gave this answer a probability of 0.47"
     },
     {
       "field": "environment",

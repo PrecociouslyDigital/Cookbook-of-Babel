@@ -1,0 +1,49 @@
+{
+  "id": "ayran_turkish_yogurt_drink.step_1.prep_1",
+  "source": "wikibooks_ayran_turkish_yogurt_drink",
+  "technique": "whisk",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "yogurt",
+        "amount": {
+          "qty": 1.3333333333333333,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "yogurt_whisk",
+      "amount": {
+        "qty": 1.3333333333333333,
+        "unit": "cup"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "1⅓ cup plain yoghurt",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

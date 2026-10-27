@@ -1,0 +1,49 @@
+{
+  "id": "homemade_garam_masala.step_1.prep_11",
+  "source": "wikibooks_homemade_garam_masala",
+  "technique": "toast",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "rose_leaves",
+        "amount": {
+          "qty": 15,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "rose_leaves_toast",
+      "amount": {
+        "qty": 15,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "15 grams rose leaves",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

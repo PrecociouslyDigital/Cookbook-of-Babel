@@ -5,7 +5,7 @@
     "source": "wikibooks_french_onion_soup",
     "step": 7
   },
-  "technique": "grill",
+  "technique": "assemble",
   "inputs": {
     "of": [
       {
@@ -34,7 +34,7 @@
     }
   ],
   "environment": {
-    "temperatureC": 250,
+    "temperatureC": 180,
     "medium": "oven_air"
   },
   "end": {
@@ -47,9 +47,14 @@
   "stateNote": "Divide the soup into 6 oven-safe ceramic or glass bowls. Press a slice of bread into the top of each bowl of soup. Generously sprinkle grated Gruyère cheese on top. Broil on low for 10 minutes, or until the cheese is melted and browned.",
   "issues": [
     {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.56"
+    },
+    {
       "field": "environment",
       "kind": "estimate",
-      "note": "no temperature given; used the middle of grill's typical range"
+      "note": "no temperature given; assumed 180.0 °C for oven_air"
     }
   ]
 }

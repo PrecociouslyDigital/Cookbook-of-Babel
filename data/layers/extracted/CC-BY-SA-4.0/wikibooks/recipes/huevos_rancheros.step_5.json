@@ -5,7 +5,7 @@
     "source": "wikibooks_huevos_rancheros",
     "step": 5
   },
-  "technique": "pan_fry",
+  "technique": "assemble",
   "inputs": {
     "of": [
       {
@@ -16,7 +16,7 @@
         }
       },
       {
-        "ingredient": "egg",
+        "ingredient": "egg_fry",
         "amount": {
           "qty": 2,
           "unit": "piece"
@@ -34,8 +34,8 @@
     }
   ],
   "environment": {
-    "temperatureC": 185,
-    "medium": "pan_contact"
+    "temperatureC": 175,
+    "medium": "frying_oil"
   },
   "end": {
     "by": "time",
@@ -47,19 +47,14 @@
   "stateNote": "If necessary, add additional oil to the second skillet, and fry the eggs until they are \"sunny-side up\". Transfer the eggs to the tortillas, and cover with the ranchero sauce.",
   "issues": [
     {
-      "field": "technique",
-      "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.51"
-    },
-    {
       "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.52"
+      "note": "the decision model gave this answer a probability of 0.48"
     },
     {
       "field": "environment",
       "kind": "estimate",
-      "note": "no temperature given; used the middle of pan_fry's typical range"
+      "note": "no temperature given; assumed 175.0 °C for frying_oil"
     },
     {
       "field": "end",
@@ -69,7 +64,7 @@
     {
       "field": "inputs",
       "kind": "missing",
-      "note": "no step uses '½ teaspoon sugar' (p=0.91)"
+      "note": "no step uses '½ teaspoon sugar' (p=0.96)"
     }
   ]
 }

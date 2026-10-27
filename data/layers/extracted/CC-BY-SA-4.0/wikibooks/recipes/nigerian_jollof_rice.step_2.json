@@ -16,7 +16,7 @@
         }
       },
       {
-        "ingredient": "beef",
+        "ingredient": "beef_boil",
         "amount": {
           "qty": 7.5,
           "unit": "piece"
@@ -46,6 +46,11 @@
   },
   "stateNote": "Boil, then deep-fry the meat. Set aside.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.53"
+    },
     {
       "field": "environment",
       "kind": "estimate",

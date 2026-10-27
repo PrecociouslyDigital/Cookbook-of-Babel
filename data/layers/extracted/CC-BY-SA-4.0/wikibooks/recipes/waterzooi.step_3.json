@@ -16,7 +16,7 @@
         }
       },
       {
-        "ingredient": "broth_and_stock",
+        "ingredient": "broth_and_stock_boil",
         "amount": {
           "qty": 5,
           "unit": "l"
@@ -46,6 +46,11 @@
   },
   "stateNote": "Add stock and bring to boil.",
   "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.56"
+    },
     {
       "field": "environment",
       "kind": "estimate",

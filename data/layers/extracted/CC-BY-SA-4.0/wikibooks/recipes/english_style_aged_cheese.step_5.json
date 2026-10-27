@@ -5,13 +5,13 @@
     "source": "wikibooks_english_style_aged_cheese",
     "step": 5
   },
-  "technique": "cut",
+  "technique": "separate",
   "inputs": {
     "of": [
       {
         "ingredient": "english_style_aged_cheese_step_4",
         "amount": {
-          "qty": 19561.4,
+          "qty": 18993.5,
           "unit": "g"
         }
       }
@@ -21,24 +21,34 @@
     {
       "ingredient": "english_style_aged_cheese_step_5",
       "amount": {
-        "qty": 19561.4,
+        "qty": 18993.5,
         "unit": "g"
       }
     }
   ],
+  "environment": {
+    "temperatureC": 20,
+    "medium": "still_air"
+  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
-    },
-    "sensitivity": {
-      "refTempC": 20,
-      "q10": 1
     }
   },
   "stateNote": "Cut the curds in a crisscross configuration with a long and flat wooden stick, so as to release the whey from the milk (separate the liquid part of the milk from the solid part of the milk). Do not remove curds from pot.",
   "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.4"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 20.0 °C for still_air"
+    },
     {
       "field": "end",
       "kind": "estimate",

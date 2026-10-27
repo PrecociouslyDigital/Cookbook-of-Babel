@@ -5,7 +5,7 @@
     "source": "wikibooks_quick_finnish_lemon_mead_sima",
     "step": 2
   },
-  "technique": "press",
+  "technique": "rinse",
   "inputs": {
     "of": [
       {
@@ -19,26 +19,31 @@
   },
   "outputs": [
     {
-      "ingredient": "quick_finnish_lemon_mead_sima_step_2",
+      "ingredient": "lemon_rinse",
       "amount": {
         "qty": 1,
         "unit": "batch"
       }
     }
   ],
+  "environment": {
+    "temperatureC": 100,
+    "medium": "boiling_water"
+  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
-    },
-    "sensitivity": {
-      "refTempC": 20,
-      "q10": 1
     }
   },
   "stateNote": "While the water is boiling, wash a 3-liter container and squeeze the juice from the lemon into a glass.",
   "issues": [
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 100.0 °C for boiling_water"
+    },
     {
       "field": "end",
       "kind": "estimate",

@@ -1,0 +1,49 @@
+{
+  "id": "deviled_eggs.step_1.prep_1",
+  "source": "wikibooks_deviled_eggs",
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "hard_cooked_eggs",
+        "amount": {
+          "qty": 6,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "hard_cooked_eggs_cut",
+      "amount": {
+        "qty": 6,
+        "unit": "piece"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 12.5,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "6 Large Hard-boiled eggs, halved lengthwise (if not already prepared, add 10-15 mins to prep time.)",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.47"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    }
+  ]
+}

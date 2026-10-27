@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "rice",
+        "ingredient": "rice_rinse",
         "amount": {
           "qty": 200,
           "unit": "g"
@@ -19,7 +19,7 @@
   },
   "outputs": [
     {
-      "ingredient": "rice_soak",
+      "ingredient": "rice_rinse_soak",
       "amount": {
         "qty": 200,
         "unit": "g"
@@ -39,6 +39,11 @@
   },
   "stateNote": "Moisten the pohe with cold water by putting in a bowl and holding under a slow running tap. Mix by hand, then drain excess water and set aside (take care not to soak too long or the pohe would turn pasty).",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.56"
+    },
     {
       "field": "end",
       "kind": "estimate",

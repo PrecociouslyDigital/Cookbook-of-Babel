@@ -1,0 +1,49 @@
+{
+  "id": "arancini_italian_fried_rice_balls.step_1.prep_1",
+  "source": "wikibooks_arancini_italian_fried_rice_balls",
+  "technique": "boil",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "arborio_rice",
+        "amount": {
+          "qty": 1,
+          "unit": "lb"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "arborio_rice_boil",
+      "amount": {
+        "qty": 1,
+        "unit": "lb"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "1 lb of arborio rice (this is the type of rice used to make risotto)",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

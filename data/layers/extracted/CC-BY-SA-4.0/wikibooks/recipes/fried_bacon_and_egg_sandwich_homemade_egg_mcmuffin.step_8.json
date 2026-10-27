@@ -16,7 +16,7 @@
         }
       },
       {
-        "ingredient": "egg",
+        "ingredient": "egg_fry",
         "amount": {
           "qty": 2,
           "unit": "piece"
@@ -46,6 +46,11 @@
   },
   "stateNote": "Crack eggs into the pan, add salt and pepper, and fry for about 2 minutes. Break the yolks, spreading them over the whites, and flip the eggs. Fry for another minute.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.52"
+    },
     {
       "field": "environment",
       "kind": "estimate",

@@ -1,0 +1,49 @@
+{
+  "id": "dhokla_steamed_black_gram_bread.step_1.prep_2",
+  "source": "wikibooks_dhokla_steamed_black_gram_bread",
+  "technique": "toast",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "urad_bean",
+        "amount": {
+          "qty": 0.25,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "urad_bean_toast",
+      "amount": {
+        "qty": 0.25,
+        "unit": "cup"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "¼ cup skinless black gram (urad dal)",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

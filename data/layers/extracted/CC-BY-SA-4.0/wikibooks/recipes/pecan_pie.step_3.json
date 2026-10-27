@@ -9,21 +9,21 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "pecan_roast_chop",
+        "ingredient": "pecan_roast_roast_cool",
         "amount": {
           "qty": 473.2,
           "unit": "g"
         }
       },
       {
-        "ingredient": "butter",
+        "ingredient": "butter_freeze",
         "amount": {
           "qty": 1,
           "unit": "pinch"
         }
       },
       {
-        "ingredient": "shortening",
+        "ingredient": "shortening_freeze",
         "amount": {
           "qty": 1,
           "unit": "pinch"
@@ -47,8 +47,9 @@
       "unit": "min"
     },
     "sensitivity": {
-      "refTempC": 20,
-      "q10": 1
+      "refTempC": -18,
+      "q10": 1,
+      "maxTempC": 0
     }
   },
   "stateNote": "Dice butter into cubes and place butter and shortening in freezer for 20–30 minutes.",
@@ -66,7 +67,7 @@
     {
       "field": "outputs",
       "kind": "estimate",
-      "note": "assumed 1 g/ml for butter, shortening"
+      "note": "assumed 1 g/ml for butter_freeze, shortening_freeze"
     }
   ]
 }

@@ -1,0 +1,49 @@
+{
+  "id": "eastern_north_carolina_barbecue_sauce.step_1.prep_1",
+  "source": "wikibooks_eastern_north_carolina_barbecue_sauce",
+  "technique": "heat",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "cider_vinegar",
+        "amount": {
+          "qty": 0.75,
+          "unit": "gal"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "cider_vinegar_heat",
+      "amount": {
+        "qty": 0.75,
+        "unit": "gal"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "¾ gallons apple cider vinegar",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "id": "khachapuri_georgian_cheese_bread.step_5.prep_8",
+  "source": "wikibooks_khachapuri_georgian_cheese_bread",
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "provolone_cheese",
+        "amount": {
+          "qty": 12,
+          "unit": "oz"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "provolone_cheese_cut",
+      "amount": {
+        "qty": 12,
+        "unit": "oz"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "12 oz smoked provolone cheese, grated or cut into small pieces",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.56"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

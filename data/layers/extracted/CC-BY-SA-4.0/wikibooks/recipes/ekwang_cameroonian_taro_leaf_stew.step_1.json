@@ -5,11 +5,11 @@
     "source": "wikibooks_ekwang_cameroonian_taro_leaf_stew",
     "step": 1
   },
-  "technique": "chop",
+  "technique": "rinse",
   "inputs": {
     "of": [
       {
-        "ingredient": "taro_root",
+        "ingredient": "taro_root_chop",
         "amount": {
           "qty": 2,
           "unit": "lb"
@@ -19,7 +19,7 @@
   },
   "outputs": [
     {
-      "ingredient": "taro_root_chop",
+      "ingredient": "taro_root_chop_rinse",
       "amount": {
         "qty": 907.2,
         "unit": "g"
@@ -39,6 +39,11 @@
   },
   "stateNote": "Wash the cocoyam leaves thoroughly and remove the tough stems. Chop the leaves into smaller pieces and set aside.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.51"
+    },
     {
       "field": "end",
       "kind": "estimate",

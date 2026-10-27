@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "cow_feet_cut",
+        "ingredient": "cow_feet_cut_cut",
         "amount": {
           "qty": 0.3,
           "unit": "g"
@@ -30,7 +30,7 @@
         }
       },
       {
-        "ingredient": "onion",
+        "ingredient": "onion_chop",
         "amount": {
           "qty": 1,
           "unit": "piece"
@@ -61,9 +61,14 @@
   "stateNote": "Place the cow feet in a pot, along with the salt, seasoning cubes, and chopped onions.",
   "issues": [
     {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.5"
+    },
+    {
       "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.43"
+      "note": "the decision model gave this answer a probability of 0.38"
     },
     {
       "field": "inputs",

@@ -26,15 +26,15 @@
       }
     }
   ],
-  "environment": {
-    "temperatureC": 55,
-    "medium": "frying_oil"
-  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
     }
   },
   "stateNote": "Drain on kitchen paper to remove excess oil.",
@@ -42,22 +42,17 @@
     {
       "field": "technique",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.52"
-    },
-    {
-      "field": "environment",
-      "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.44"
-    },
-    {
-      "field": "environment",
-      "kind": "estimate",
-      "note": "no temperature given; used the middle of dry's typical range"
+      "note": "the decision model gave this answer a probability of 0.53"
     },
     {
       "field": "end",
       "kind": "estimate",
       "note": "no duration given; assumed 1 minute"
+    },
+    {
+      "field": "inputs",
+      "kind": "missing",
+      "note": "no step uses '2 tbsp hot oil' (p=0.54)"
     }
   ]
 }

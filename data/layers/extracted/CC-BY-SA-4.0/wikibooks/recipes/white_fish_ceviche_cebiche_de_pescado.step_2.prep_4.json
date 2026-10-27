@@ -1,0 +1,54 @@
+{
+  "id": "white_fish_ceviche_cebiche_de_pescado.step_2.prep_4",
+  "source": "wikibooks_white_fish_ceviche_cebiche_de_pescado",
+  "technique": "chop",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "finely_diced_rocoto_peppers",
+        "amount": {
+          "qty": 3,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "finely_diced_rocoto_peppers_chop",
+      "amount": {
+        "qty": 3,
+        "unit": "piece"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "3 finely-diced rocoto peppers or habanero peppers",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.35"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

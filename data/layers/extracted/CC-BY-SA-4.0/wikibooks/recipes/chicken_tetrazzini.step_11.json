@@ -23,7 +23,7 @@
         }
       },
       {
-        "ingredient": "pea",
+        "ingredient": "pea_rinse",
         "amount": {
           "qty": 2,
           "unit": "cup"
@@ -40,28 +40,33 @@
       }
     }
   ],
-  "environment": {
-    "temperatureC": 232.22222222222223,
-    "medium": "oven_air"
-  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
     }
   },
   "stateNote": "Combine the ingredients (chicken, spaghetti, mushrooms, peas, and sauce) together. Spread into the baking dish.",
   "issues": [
     {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.51"
+    },
+    {
       "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.48"
+      "note": "the decision model gave this answer a probability of 0.57"
     },
     {
       "field": "outputs",
       "kind": "estimate",
-      "note": "assumed 1 g/ml for chicken, pea"
+      "note": "assumed 1 g/ml for chicken, pea_rinse"
     },
     {
       "field": "end",

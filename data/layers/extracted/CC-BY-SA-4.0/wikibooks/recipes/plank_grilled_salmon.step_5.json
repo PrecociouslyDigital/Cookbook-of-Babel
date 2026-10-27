@@ -26,15 +26,15 @@
       }
     }
   ],
-  "environment": {
-    "temperatureC": 250,
-    "medium": "pan_contact"
-  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
     }
   },
   "stateNote": "Remove the plank to onto a baking pan when the fish is cooked to the desired \"doneness\", and transfer to plates or a serving platter.",
@@ -42,12 +42,12 @@
     {
       "field": "technique",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.46"
+      "note": "the decision model gave this answer a probability of 0.45"
     },
     {
       "field": "environment",
-      "kind": "estimate",
-      "note": "no temperature given; used the middle of grill's typical range"
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.51"
     },
     {
       "field": "end",

@@ -9,28 +9,28 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "spinach_steam",
+        "ingredient": "spinach_steam_steam",
         "amount": {
           "qty": 900,
           "unit": "g"
         }
       },
       {
-        "ingredient": "onion",
+        "ingredient": "onion_pan_fry",
         "amount": {
           "qty": 1,
           "unit": "piece"
         }
       },
       {
-        "ingredient": "olive_oil",
+        "ingredient": "olive_oil_heat",
         "amount": {
           "qty": 0.25,
           "unit": "cup"
         }
       },
       {
-        "ingredient": "green_onion",
+        "ingredient": "green_onion_pan_fry",
         "amount": {
           "qty": 1,
           "unit": "cup"
@@ -58,7 +58,7 @@
         }
       },
       {
-        "ingredient": "pepper",
+        "ingredient": "pepper_grind",
         "amount": {
           "qty": 0.25,
           "unit": "tsp"
@@ -95,6 +95,11 @@
   },
   "stateNote": "Heat the oil in a large skillet. Add onion and cook over medium heat until slightly tender. Add scallions and cook until limp. Remove from heat. Stir in parsley, dill, nutmeg, salt and pepper.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.36"
+    },
     {
       "field": "environment",
       "kind": "estimate",

@@ -26,28 +26,17 @@
       }
     }
   ],
-  "environment": {
-    "temperatureC": -20,
-    "medium": "still_air"
-  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 3.5,
       "unit": "h"
+    },
+    "sensitivity": {
+      "refTempC": -18,
+      "q10": 1,
+      "maxTempC": 0
     }
   },
-  "stateNote": "Freeze 3–4 hours, or until frozen but still soft in center.",
-  "issues": [
-    {
-      "field": "environment",
-      "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.53"
-    },
-    {
-      "field": "environment",
-      "kind": "estimate",
-      "note": "no temperature given; used the middle of freeze's typical range"
-    }
-  ]
+  "stateNote": "Freeze 3–4 hours, or until frozen but still soft in center."
 }

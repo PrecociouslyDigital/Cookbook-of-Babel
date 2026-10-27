@@ -1,0 +1,49 @@
+{
+  "id": "dovga_azerbaijani_yogurt_soup.step_1.prep_1",
+  "source": "wikibooks_dovga_azerbaijani_yogurt_soup",
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "yogurt",
+        "amount": {
+          "qty": 1,
+          "unit": "l"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "yogurt_mix",
+      "amount": {
+        "qty": 1,
+        "unit": "l"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "1 liter yogurt",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

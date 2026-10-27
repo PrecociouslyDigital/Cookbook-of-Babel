@@ -5,7 +5,7 @@
     "source": "wikibooks_cognac_beef_stew",
     "step": 3
   },
-  "technique": "boil",
+  "technique": "heat",
   "inputs": {
     "of": [
       {
@@ -16,7 +16,7 @@
         }
       },
       {
-        "ingredient": "cognac",
+        "ingredient": "cognac_boil",
         "amount": {
           "qty": 0.5,
           "unit": "cup"
@@ -34,7 +34,7 @@
     }
   ],
   "environment": {
-    "temperatureC": 100,
+    "temperatureC": 180,
     "medium": "pan_contact"
   },
   "end": {
@@ -49,17 +49,17 @@
     {
       "field": "technique",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.48"
+      "note": "the decision model gave this answer a probability of 0.39"
     },
     {
       "field": "outputs",
       "kind": "estimate",
-      "note": "assumed 1 g/ml for cognac"
+      "note": "assumed 1 g/ml for cognac_boil"
     },
     {
       "field": "environment",
       "kind": "estimate",
-      "note": "no temperature given; used the middle of boil's typical range"
+      "note": "no temperature given; assumed 180.0 °C for pan_contact"
     },
     {
       "field": "end",

@@ -16,7 +16,7 @@
         }
       },
       {
-        "ingredient": "chicken",
+        "ingredient": "chicken_soak",
         "amount": {
           "qty": 1,
           "unit": "kg"
@@ -46,6 +46,11 @@
   },
   "stateNote": "Mix in the chicken. Cover and cook, stirring intermittently to prevent sticking, until almost cooked.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.57"
+    },
     {
       "field": "environment",
       "kind": "estimate",

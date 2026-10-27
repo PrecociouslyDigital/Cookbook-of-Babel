@@ -1,0 +1,53 @@
+{
+  "id": "homemade_cider_vinegar.step_3",
+  "source": "wikibooks_homemade_cider_vinegar",
+  "sourceRef": {
+    "source": "wikibooks_homemade_cider_vinegar",
+    "step": 3
+  },
+  "technique": "ferment",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "homemade_cider_vinegar_step_2",
+        "amount": {
+          "qty": 4000,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "homemade_cider_vinegar_step_3",
+      "amount": {
+        "qty": 4000,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Cover the fermenter with a cloth, or plug the opening with cotton wool if narrow, to keep out dust and insects. Don't worry that the fermenter isn't full, as it should be for making hard cider. With vinegar, air space is good, as it brings oxygen to the bacteria.",
+  "issues": [
+    {
+      "field": "sourceRef",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.53"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

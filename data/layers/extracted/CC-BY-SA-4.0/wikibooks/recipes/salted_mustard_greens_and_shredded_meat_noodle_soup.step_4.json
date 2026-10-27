@@ -16,7 +16,7 @@
         }
       },
       {
-        "ingredient": "pork",
+        "ingredient": "pork_cut",
         "amount": {
           "qty": 1,
           "unit": "pinch"
@@ -68,6 +68,11 @@
   "stateNote": "Cut the pork tenderloin meat into tiny strips. Marinate the meat with corn starch, soy sauce, and sugar.",
   "issues": [
     {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.46"
+    },
+    {
       "field": "inputs",
       "kind": "estimate",
       "note": "'Pork tenderloin': no quantity given; assumed a pinch"
@@ -90,7 +95,7 @@
     {
       "field": "outputs",
       "kind": "estimate",
-      "note": "assumed 1 g/ml for pork, soy_sauce"
+      "note": "assumed 1 g/ml for pork_cut, soy_sauce"
     },
     {
       "field": "end",

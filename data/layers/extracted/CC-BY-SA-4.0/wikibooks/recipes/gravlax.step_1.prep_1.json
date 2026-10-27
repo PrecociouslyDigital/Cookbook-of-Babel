@@ -1,0 +1,54 @@
+{
+  "id": "gravlax.step_1.prep_1",
+  "source": "wikibooks_gravlax",
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "salmon",
+        "amount": {
+          "qty": 800,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "salmon_cut",
+      "amount": {
+        "qty": 800,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "800 g (1.75 lb) fresh salmon filet, approximately 2–5 cm (1–2 inches) thick",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.59"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

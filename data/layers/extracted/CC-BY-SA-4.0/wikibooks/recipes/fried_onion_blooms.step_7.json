@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "fried_onion_blooms_step_6",
+        "ingredient": "onion_cut_cut_cut_cut_cut_cut",
         "amount": {
           "qty": 1,
           "unit": "batch"
@@ -19,7 +19,7 @@
   },
   "outputs": [
     {
-      "ingredient": "fried_onion_blooms_step_7",
+      "ingredient": "onion_cut_cut_cut_cut_cut_cut_soak",
       "amount": {
         "qty": 1,
         "unit": "batch"
@@ -33,9 +33,17 @@
       "unit": "min"
     },
     "sensitivity": {
-      "refTempC": 20,
-      "q10": 1
+      "refTempC": 4,
+      "q10": 1,
+      "maxTempC": 8
     }
   },
-  "stateNote": "Soak in ice water 15 minutes."
+  "stateNote": "Soak in ice water 15 minutes.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.46"
+    }
+  ]
 }

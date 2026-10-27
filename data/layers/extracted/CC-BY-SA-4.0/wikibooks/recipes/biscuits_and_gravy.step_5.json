@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "sausage_pan_fry",
+        "ingredient": "sausage_fry_pan_fry",
         "amount": {
           "qty": 453.6,
           "unit": "g"
@@ -39,6 +39,11 @@
   },
   "stateNote": "Remove the browned sausage from the skillet and reserve in a bowl, being careful to leave as much of the drippings as possible in the pan.",
   "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.49"
+    },
     {
       "field": "environment",
       "kind": "estimate",

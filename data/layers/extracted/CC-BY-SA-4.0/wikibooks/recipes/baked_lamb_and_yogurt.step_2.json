@@ -33,33 +33,28 @@
       }
     }
   ],
-  "environment": {
-    "temperatureC": 200,
-    "medium": "oven_air"
-  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
     }
   },
   "stateNote": "When meat is half-baked, add rice. Remove the baking pan from the oven and leave it aside while you prepare the yogurt sauce.",
   "issues": [
     {
-      "field": "environment",
+      "field": "technique",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.54"
+      "note": "the decision model gave this answer a probability of 0.53"
     },
     {
       "field": "outputs",
       "kind": "estimate",
       "note": "assumed 1 g/ml for rice"
-    },
-    {
-      "field": "environment",
-      "kind": "estimate",
-      "note": "no temperature given; used the middle of bake's typical range"
     },
     {
       "field": "end",

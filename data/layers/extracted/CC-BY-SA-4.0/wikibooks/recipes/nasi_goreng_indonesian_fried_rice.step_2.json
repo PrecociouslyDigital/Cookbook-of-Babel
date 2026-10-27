@@ -5,7 +5,7 @@
     "source": "wikibooks_nasi_goreng_indonesian_fried_rice",
     "step": 2
   },
-  "technique": "grind",
+  "technique": "chop",
   "inputs": {
     "of": [
       {
@@ -16,7 +16,7 @@
         }
       },
       {
-        "ingredient": "garlic",
+        "ingredient": "garlic_grind",
         "amount": {
           "qty": 1,
           "unit": "clove"
@@ -46,6 +46,11 @@
   },
   "stateNote": "Crush garlic, peel of the skin, and mince well.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.44"
+    },
     {
       "field": "end",
       "kind": "estimate",

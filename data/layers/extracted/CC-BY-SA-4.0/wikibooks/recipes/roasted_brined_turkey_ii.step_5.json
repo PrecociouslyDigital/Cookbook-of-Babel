@@ -5,7 +5,7 @@
     "source": "wikibooks_roasted_brined_turkey_ii",
     "step": 5
   },
-  "technique": "coat",
+  "technique": "assemble",
   "inputs": {
     "of": [
       {
@@ -26,28 +26,28 @@
       }
     }
   ],
+  "environment": {
+    "temperatureC": 180,
+    "medium": "oven_air"
+  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
-    },
-    "sensitivity": {
-      "refTempC": 20,
-      "q10": 1
     }
   },
   "stateNote": "Scatter remaining vegetables and thyme over a shallow roasting pan. Pour 1 cup water over vegetables. Set V-rack in pan. Brush entire breast side of turkey with half of remaining butter, then place turkey, breast side down, on V-rack. Brush entire backside of turkey with remaining butter.",
   "issues": [
     {
-      "field": "technique",
+      "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.48"
+      "note": "the decision model gave this answer a probability of 0.58"
     },
     {
       "field": "environment",
-      "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.48"
+      "kind": "estimate",
+      "note": "no temperature given; assumed 180.0 °C for oven_air"
     },
     {
       "field": "end",

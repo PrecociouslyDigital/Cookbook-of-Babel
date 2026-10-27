@@ -28,7 +28,7 @@
   ],
   "environment": {
     "temperatureC": 90,
-    "medium": "simmering_water"
+    "medium": "pan_contact"
   },
   "end": {
     "by": "time",
@@ -39,6 +39,11 @@
   },
   "stateNote": "Simmer over medium heat until the okra is no longer sticky and stringy. The okra will change to a darker green color.",
   "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.55"
+    },
     {
       "field": "environment",
       "kind": "estimate",
@@ -52,12 +57,12 @@
     {
       "field": "inputs",
       "kind": "missing",
-      "note": "no step uses 'Salt, to taste' (p=0.97)"
+      "note": "no step uses 'Salt, to taste' (p=0.96)"
     },
     {
       "field": "inputs",
       "kind": "missing",
-      "note": "no step uses 'Pepper, to taste' (p=0.98)"
+      "note": "no step uses 'Pepper, to taste' (p=0.97)"
     }
   ]
 }

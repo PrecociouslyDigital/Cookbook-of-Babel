@@ -5,11 +5,11 @@
     "source": "wikibooks_nigiri_sushi",
     "step": 1
   },
-  "technique": "cut",
+  "technique": "assemble",
   "inputs": {
     "of": [
       {
-        "ingredient": "nori",
+        "ingredient": "nori_cut",
         "amount": {
           "qty": 1,
           "unit": "pinch"
@@ -19,7 +19,7 @@
   },
   "outputs": [
     {
-      "ingredient": "nori_cut",
+      "ingredient": "nigiri_sushi_step_1",
       "amount": {
         "qty": 0.3,
         "unit": "g"
@@ -40,6 +40,11 @@
   "stateNote": "If making nigirizushi that requires a band of nori to hold the sushi together, cut the nori into strips about ¼ inch wide and long enough to wrap around the finished sushi with at least 1 inch (2.5 cm) of overlap. Place one such strip on the preparing surface.",
   "issues": [
     {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.55"
+    },
+    {
       "field": "inputs",
       "kind": "estimate",
       "note": "'Nori (as needed)': no quantity given; assumed a pinch"
@@ -47,7 +52,7 @@
     {
       "field": "outputs",
       "kind": "estimate",
-      "note": "assumed 1 g/ml for nori"
+      "note": "assumed 1 g/ml for nori_cut"
     },
     {
       "field": "end",

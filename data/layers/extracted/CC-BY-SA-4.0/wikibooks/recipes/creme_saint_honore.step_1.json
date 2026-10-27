@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "creme_patissiere",
+        "ingredient": "creme_patissiere_mix",
         "amount": {
           "qty": 1,
           "unit": "pt"
@@ -19,22 +19,22 @@
   },
   "outputs": [
     {
-      "ingredient": "creme_patissiere_mix",
+      "ingredient": "creme_patissiere_mix_mix",
       "amount": {
         "qty": 473.2,
         "unit": "g"
       }
     }
   ],
+  "environment": {
+    "temperatureC": 180,
+    "medium": "pan_contact"
+  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
-    },
-    "sensitivity": {
-      "refTempC": 20,
-      "q10": 1
     }
   },
   "stateNote": "Mix any additional flavourings into the crème pâtissière.",
@@ -42,12 +42,17 @@
     {
       "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.59"
+      "note": "the decision model gave this answer a probability of 0.36"
     },
     {
       "field": "outputs",
       "kind": "estimate",
-      "note": "assumed 1 g/ml for creme_patissiere"
+      "note": "assumed 1 g/ml for creme_patissiere_mix"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 180.0 °C for pan_contact"
     },
     {
       "field": "end",

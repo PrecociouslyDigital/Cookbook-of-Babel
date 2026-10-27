@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "potato",
+        "ingredient": "potato_cut",
         "amount": {
           "qty": 1,
           "unit": "pinch"
@@ -19,7 +19,7 @@
   },
   "outputs": [
     {
-      "ingredient": "potato_shreds",
+      "ingredient": "potato_cut_julienne",
       "amount": {
         "qty": 0.3,
         "unit": "g"
@@ -43,6 +43,11 @@
       "field": "inputs",
       "kind": "estimate",
       "note": "'Potatoes (those with a high dry matter content such as Russet or Maris Piper work best)': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for potato_cut"
     },
     {
       "field": "end",

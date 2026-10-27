@@ -1,0 +1,49 @@
+{
+  "id": "fruit_salad_with_orange_soda_ensalada_de_fruta.step_5.prep_12",
+  "source": "wikibooks_fruit_salad_with_orange_soda_ensalada_de_fruta",
+  "technique": "chill",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "soda_pop",
+        "amount": {
+          "qty": 1.25,
+          "unit": "l"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "soda_pop_chill",
+      "amount": {
+        "qty": 1.25,
+        "unit": "l"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "1.25 L (or less) Fanta orange soda, chilled",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -26,19 +26,24 @@
       }
     }
   ],
-  "environment": {
-    "temperatureC": 176.66666666666666,
-    "medium": "oven_air"
-  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
     }
   },
   "stateNote": "Transfer batter to a greased and parchment-lined 8-inch cake pan.",
   "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.53"
+    },
     {
       "field": "end",
       "kind": "estimate",

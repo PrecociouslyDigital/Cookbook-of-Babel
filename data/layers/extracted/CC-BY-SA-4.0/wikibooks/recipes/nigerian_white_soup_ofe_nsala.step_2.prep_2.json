@@ -1,0 +1,49 @@
+{
+  "id": "nigerian_white_soup_ofe_nsala.step_2.prep_2",
+  "source": "wikibooks_nigerian_white_soup_ofe_nsala",
+  "technique": "boil",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "raw_yam",
+        "amount": {
+          "qty": 200,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "raw_yam_boil",
+      "amount": {
+        "qty": 200,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "200 grams raw yam, peeled and sliced (for thickening)",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

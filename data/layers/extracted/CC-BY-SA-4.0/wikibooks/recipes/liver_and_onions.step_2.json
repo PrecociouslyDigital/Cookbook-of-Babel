@@ -9,14 +9,14 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "potato_boil",
+        "ingredient": "potato_rinse_boil",
         "amount": {
           "qty": 1000,
           "unit": "g"
         }
       },
       {
-        "ingredient": "onion",
+        "ingredient": "onion_cut",
         "amount": {
           "qty": 2,
           "unit": "piece"
@@ -42,7 +42,7 @@
   ],
   "environment": {
     "temperatureC": 185,
-    "medium": "frying_oil"
+    "medium": "pan_contact"
   },
   "end": {
     "by": "time",
@@ -53,6 +53,11 @@
   },
   "stateNote": "Fry onions gently in a large frying pan with some of the oil.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.55"
+    },
     {
       "field": "environment",
       "kind": "uncertain",

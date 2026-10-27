@@ -5,7 +5,7 @@
     "source": "wikibooks_cinnamon_chicken",
     "step": 5
   },
-  "technique": "cut",
+  "technique": "assemble",
   "inputs": {
     "of": [
       {
@@ -16,7 +16,7 @@
         }
       },
       {
-        "ingredient": "tomato",
+        "ingredient": "tomato_cut",
         "amount": {
           "qty": 28,
           "unit": "oz"
@@ -46,6 +46,11 @@
   },
   "stateNote": "Cut the tomatoes in half and add them.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.53"
+    },
     {
       "field": "environment",
       "kind": "estimate",

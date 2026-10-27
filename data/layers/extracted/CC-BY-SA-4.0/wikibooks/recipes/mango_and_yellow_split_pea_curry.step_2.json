@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "pigeon_pea_soak",
+        "ingredient": "pigeon_pea_soak_soak",
         "amount": {
           "qty": 236.6,
           "unit": "g"
@@ -19,7 +19,7 @@
   },
   "outputs": [
     {
-      "ingredient": "pigeon_pea_soak_boil",
+      "ingredient": "pigeon_pea_soak_soak_boil",
       "amount": {
         "qty": 236.6,
         "unit": "g"
@@ -39,6 +39,11 @@
   },
   "stateNote": "Boil dal in water. Rinse, drain, and keep in separate container.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.45"
+    },
     {
       "field": "environment",
       "kind": "estimate",

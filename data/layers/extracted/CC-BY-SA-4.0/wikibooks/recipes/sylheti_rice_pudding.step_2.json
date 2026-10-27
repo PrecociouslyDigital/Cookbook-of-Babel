@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "rice_soak",
+        "ingredient": "rice_rinse_soak",
         "amount": {
           "qty": 236.6,
           "unit": "g"
@@ -20,7 +20,7 @@
         "max": 1,
         "of": [
           {
-            "ingredient": "milk",
+            "ingredient": "milk_boil",
             "amount": {
               "qty": 1,
               "unit": "cup"
@@ -34,7 +34,7 @@
     {
       "ingredient": "sylheti_rice_pudding_step_2",
       "amount": {
-        "qty": 480.3,
+        "qty": 473.2,
         "unit": "g"
       }
     }
@@ -52,6 +52,11 @@
   },
   "stateNote": "In a large, heavy-bottomed pot, bring the milk (if using) to a boil.",
   "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for milk_boil"
+    },
     {
       "field": "environment",
       "kind": "estimate",

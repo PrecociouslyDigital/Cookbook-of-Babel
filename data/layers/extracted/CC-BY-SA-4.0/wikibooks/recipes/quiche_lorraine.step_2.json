@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "pork",
+        "ingredient": "pork_bake",
         "amount": {
           "qty": 0.75,
           "unit": "lb"
@@ -19,7 +19,7 @@
   },
   "outputs": [
     {
-      "ingredient": "pork_bake",
+      "ingredient": "pork_bake_bake",
       "amount": {
         "qty": 340.2,
         "unit": "g"
@@ -37,5 +37,12 @@
       "unit": "min"
     }
   },
-  "stateNote": "Bake pork belly lardons on baking sheet for 20–25 minutes. The fat should be rendered, but the pork should not be crisp. Drain on paper towels."
+  "stateNote": "Bake pork belly lardons on baking sheet for 20–25 minutes. The fat should be rendered, but the pork should not be crisp. Drain on paper towels.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.49"
+    }
+  ]
 }

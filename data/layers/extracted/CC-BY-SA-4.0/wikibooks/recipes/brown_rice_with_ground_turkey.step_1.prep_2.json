@@ -1,0 +1,54 @@
+{
+  "id": "brown_rice_with_ground_turkey.step_1.prep_2",
+  "source": "wikibooks_brown_rice_with_ground_turkey",
+  "technique": "season",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "turkey",
+        "amount": {
+          "qty": 20,
+          "unit": "oz"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "turkey_season",
+      "amount": {
+        "qty": 20,
+        "unit": "oz"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "20 ounces of extra lean ground turkey breast",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.22"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

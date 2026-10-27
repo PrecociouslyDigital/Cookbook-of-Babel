@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "beef_cut",
+        "ingredient": "rassolnik_russian_barley_and_kidney_soup_step_1",
         "amount": {
           "qty": 500,
           "unit": "g"
@@ -19,7 +19,7 @@
   },
   "outputs": [
     {
-      "ingredient": "beef_cut_rinse",
+      "ingredient": "rassolnik_russian_barley_and_kidney_soup_step_2",
       "amount": {
         "qty": 500,
         "unit": "g"
@@ -39,6 +39,11 @@
   },
   "stateNote": "Cover the kidneys with cold water, and bring to a boil. Drain the water, and rinse the kidneys again.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.44"
+    },
     {
       "field": "environment",
       "kind": "estimate",

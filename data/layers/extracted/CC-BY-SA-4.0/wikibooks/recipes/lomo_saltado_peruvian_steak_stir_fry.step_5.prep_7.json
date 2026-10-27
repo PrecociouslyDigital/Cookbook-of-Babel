@@ -1,0 +1,49 @@
+{
+  "id": "lomo_saltado_peruvian_steak_stir_fry.step_5.prep_7",
+  "source": "wikibooks_lomo_saltado_peruvian_steak_stir_fry",
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "aji_amarillo",
+        "amount": {
+          "qty": 1,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "aji_amarillo_cut",
+      "amount": {
+        "qty": 1,
+        "unit": "piece"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "1 yellow Peruvian Chili Pepper (aji), cut into thin strips",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -16,7 +16,7 @@
         }
       },
       {
-        "ingredient": "walnut",
+        "ingredient": "walnut_chop",
         "amount": {
           "qty": 84,
           "unit": "g"
@@ -33,29 +33,19 @@
       }
     }
   ],
-  "environment": {
-    "temperatureC": 20,
-    "medium": "still_air"
-  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
     }
   },
   "stateNote": "Invert the cooked pastry onto a serving platter and drizzle it with the syrup. Sprinkle chopped walnuts over the top and serve immediately.",
   "issues": [
-    {
-      "field": "environment",
-      "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.28"
-    },
-    {
-      "field": "environment",
-      "kind": "estimate",
-      "note": "no temperature given; assumed 20.0 °C for still_air"
-    },
     {
       "field": "end",
       "kind": "estimate",

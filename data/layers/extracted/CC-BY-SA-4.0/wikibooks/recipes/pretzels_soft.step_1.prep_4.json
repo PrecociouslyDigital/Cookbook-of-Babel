@@ -1,0 +1,49 @@
+{
+  "id": "pretzels_soft.step_1.prep_4",
+  "source": "wikibooks_pretzels_soft",
+  "technique": "dissolve",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "yeast",
+        "amount": {
+          "qty": 0.25,
+          "unit": "oz"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "yeast_dissolve",
+      "amount": {
+        "qty": 0.25,
+        "unit": "oz"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "1 package yeast (¼ oz active dry yeast, 2¼ tsp dry yeast, or one 0.6 oz yeast cake)",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

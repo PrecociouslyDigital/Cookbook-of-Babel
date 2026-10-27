@@ -5,7 +5,7 @@
     "source": "wikibooks_bliny",
     "step": 1
   },
-  "technique": "dissolve",
+  "technique": "mix",
   "inputs": {
     "of": [
       {
@@ -30,14 +30,14 @@
         }
       },
       {
-        "ingredient": "butter",
+        "ingredient": "butter_heat",
         "amount": {
           "qty": 5,
           "unit": "tsp"
         }
       },
       {
-        "ingredient": "yeast",
+        "ingredient": "yeast_dissolve",
         "amount": {
           "qty": 1,
           "unit": "oz"
@@ -68,9 +68,14 @@
   "stateNote": "Dissolve the yeast in 3 cups of the warm milk. Add ½ tablespoon of sugar, salt, egg yolk, and melted butter.",
   "issues": [
     {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.5"
+    },
+    {
       "field": "outputs",
       "kind": "estimate",
-      "note": "assumed 1 g/ml for butter"
+      "note": "assumed 1 g/ml for butter_heat"
     },
     {
       "field": "end",

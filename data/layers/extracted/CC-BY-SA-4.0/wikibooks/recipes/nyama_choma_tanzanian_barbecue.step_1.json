@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "goat",
+        "ingredient": "goat_rinse",
         "amount": {
           "qty": 1,
           "unit": "kg"
@@ -19,7 +19,7 @@
   },
   "outputs": [
     {
-      "ingredient": "goat_rinse",
+      "ingredient": "goat_rinse_rinse",
       "amount": {
         "qty": 1000,
         "unit": "g"
@@ -33,12 +33,18 @@
       "unit": "min"
     },
     "sensitivity": {
-      "refTempC": 20,
-      "q10": 1
+      "refTempC": 4,
+      "q10": 1,
+      "maxTempC": 8
     }
   },
   "stateNote": "To keep the meat juicy and tender, clean it and preserve any extra fat on it. Place the meat in a glass or plastic dish.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.45"
+    },
     {
       "field": "end",
       "kind": "estimate",

@@ -23,14 +23,14 @@
         }
       },
       {
-        "ingredient": "chiles",
+        "ingredient": "chiles_chop",
         "amount": {
           "qty": 1,
           "unit": "pinch"
         }
       },
       {
-        "ingredient": "cumin",
+        "ingredient": "cumin_roast",
         "amount": {
           "qty": 1,
           "unit": "tsp"
@@ -75,6 +75,11 @@
   "stateNote": "Combine all ingredients except ice in blender and blend until smooth.",
   "issues": [
     {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.59"
+    },
+    {
       "field": "inputs",
       "kind": "estimate",
       "note": "'Fresh green chile peppers (quantity according to taste), chopped': no quantity given; assumed a pinch"
@@ -82,7 +87,7 @@
     {
       "field": "outputs",
       "kind": "estimate",
-      "note": "assumed 1 g/ml for yogurt, chiles, cumin, lime"
+      "note": "assumed 1 g/ml for yogurt, chiles_chop, cumin_roast, lime"
     },
     {
       "field": "end",

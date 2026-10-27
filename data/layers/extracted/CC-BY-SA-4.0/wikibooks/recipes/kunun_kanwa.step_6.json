@@ -39,15 +39,15 @@
       }
     }
   ],
-  "environment": {
-    "temperatureC": 90,
-    "medium": "simmering_water"
-  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
     }
   },
   "stateNote": "Remove from heat. Add sugar or honey if desired.",
@@ -55,12 +55,7 @@
     {
       "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.44"
-    },
-    {
-      "field": "environment",
-      "kind": "estimate",
-      "note": "no temperature given; assumed 90.0 °C for simmering_water"
+      "note": "the decision model gave this answer a probability of 0.45"
     },
     {
       "field": "end",
@@ -70,7 +65,7 @@
     {
       "field": "inputs",
       "kind": "missing",
-      "note": "no step uses '1 small piece of ginger, peeled and grated' (p=0.98)"
+      "note": "no step uses '1 small piece of ginger, peeled and grated' (p=0.99)"
     }
   ]
 }

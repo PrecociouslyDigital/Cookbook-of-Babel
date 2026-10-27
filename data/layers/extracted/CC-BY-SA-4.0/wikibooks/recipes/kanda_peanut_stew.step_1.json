@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "peanut",
+        "ingredient": "peanut_roast",
         "amount": {
           "qty": 1,
           "unit": "cup"
@@ -19,7 +19,7 @@
   },
   "outputs": [
     {
-      "ingredient": "peanut_roast",
+      "ingredient": "peanut_roast_roast",
       "amount": {
         "qty": 236.6,
         "unit": "g"
@@ -40,9 +40,14 @@
   "stateNote": "If using peanuts with skins, start by removing the skins. You can do this by roasting the peanuts in the oven for a few minutes until the skins loosen. Rub the peanuts between your hands or use a clean kitchen towel to remove the skins.",
   "issues": [
     {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.47"
+    },
+    {
       "field": "outputs",
       "kind": "estimate",
-      "note": "assumed 1 g/ml for peanut"
+      "note": "assumed 1 g/ml for peanut_roast"
     },
     {
       "field": "environment",

@@ -1,0 +1,49 @@
+{
+  "id": "cantonese_crispy_fried_chicken.step_16.prep_12",
+  "source": "wikibooks_cantonese_crispy_fried_chicken",
+  "technique": "fry",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "prawn_crackers_shrimp_chips",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "prawn_crackers_shrimp_chips_fry",
+      "amount": {
+        "qty": 1,
+        "unit": "pinch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Prawn crackers/shrimp chips (not the ready made ones)",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

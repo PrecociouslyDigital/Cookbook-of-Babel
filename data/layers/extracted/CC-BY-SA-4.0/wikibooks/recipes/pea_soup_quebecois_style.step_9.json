@@ -5,7 +5,7 @@
     "source": "wikibooks_pea_soup_quebecois_style",
     "step": 9
   },
-  "technique": "dissolve",
+  "technique": "mix",
   "inputs": {
     "of": [
       {
@@ -20,7 +20,7 @@
         "max": 1,
         "of": [
           {
-            "ingredient": "miso",
+            "ingredient": "miso_dissolve",
             "amount": {
               "qty": 2.5,
               "unit": "tbsp"
@@ -52,6 +52,11 @@
   },
   "stateNote": "If using miso, dissolve paste in ½ cup hot broth (do not boil miso directly) and stir into soup.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.41"
+    },
     {
       "field": "environment",
       "kind": "estimate",

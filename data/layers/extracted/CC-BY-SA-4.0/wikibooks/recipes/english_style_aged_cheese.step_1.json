@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "milk",
+        "ingredient": "milk_heat",
         "amount": {
           "qty": 5,
           "unit": "gal"
@@ -19,9 +19,9 @@
   },
   "outputs": [
     {
-      "ingredient": "milk_heat",
+      "ingredient": "milk_heat_heat",
       "amount": {
-        "qty": 19494.9,
+        "qty": 18927,
         "unit": "g"
       }
     }
@@ -39,6 +39,11 @@
   },
   "stateNote": "Gently heat milk and bring it to blood temperature (80 °F/27 °C).",
   "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for milk_heat"
+    },
     {
       "field": "end",
       "kind": "estimate",

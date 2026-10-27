@@ -1,0 +1,49 @@
+{
+  "id": "applewood_bacon.step_1.prep_4",
+  "source": "wikibooks_applewood_bacon",
+  "technique": "boil",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "apple_cider",
+        "amount": {
+          "qty": 1,
+          "unit": "gal"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "apple_cider_boil",
+      "amount": {
+        "qty": 1,
+        "unit": "gal"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "1 gallon apple cider",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -5,11 +5,11 @@
     "source": "wikibooks_indian_mango_chilli_powder_and_cumin_condiment_chhundo",
     "step": 1
   },
-  "technique": "grind",
+  "technique": "chop",
   "inputs": {
     "of": [
       {
-        "ingredient": "mango",
+        "ingredient": "mango_grind",
         "amount": {
           "qty": 1,
           "unit": "kg"
@@ -19,7 +19,7 @@
   },
   "outputs": [
     {
-      "ingredient": "mango_grind",
+      "ingredient": "mango_grind_chop",
       "amount": {
         "qty": 1000,
         "unit": "g"
@@ -39,6 +39,11 @@
   },
   "stateNote": "Peel and finely grate the mangoes.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.39"
+    },
     {
       "field": "end",
       "kind": "estimate",

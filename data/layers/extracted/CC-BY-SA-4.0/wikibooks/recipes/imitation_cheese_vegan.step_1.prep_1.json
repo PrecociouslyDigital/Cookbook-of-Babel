@@ -1,0 +1,49 @@
+{
+  "id": "imitation_cheese_vegan.step_1.prep_1",
+  "source": "wikibooks_imitation_cheese_vegan",
+  "technique": "boil",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "hard_boiling_potatoes",
+        "amount": {
+          "qty": 5,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "hard_boiling_potatoes_boil",
+      "amount": {
+        "qty": 5,
+        "unit": "piece"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "5 ea. (750g–1kg) large, hard boiling potatoes",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "chocolate_chip_cookies_vegan.step_4.prep_6",
+  "source": "wikibooks_chocolate_chip_cookies_vegan",
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "baking_powder",
+        "amount": {
+          "qty": 2,
+          "unit": "tsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "baking_powder_mix",
+      "amount": {
+        "qty": 2,
+        "unit": "tsp"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "2 tsp (5 ml) baking powder",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -5,18 +5,18 @@
     "source": "wikibooks_tofu_scramble_ii",
     "step": 1
   },
-  "technique": "pan_fry",
+  "technique": "heat",
   "inputs": {
     "of": [
       {
-        "ingredient": "oil_and_fat",
+        "ingredient": "oil_and_fat_heat",
         "amount": {
           "qty": 1,
           "unit": "pinch"
         }
       },
       {
-        "ingredient": "smart_vegetarian_bacon",
+        "ingredient": "smart_vegetarian_bacon_pan_fry",
         "amount": {
           "qty": 2,
           "unit": "strip"
@@ -34,7 +34,7 @@
     }
   ],
   "environment": {
-    "temperatureC": 185,
+    "temperatureC": 180,
     "medium": "pan_contact"
   },
   "end": {
@@ -47,9 +47,9 @@
   "stateNote": "Heat the oil in a pan on medium-high heat. Add the bacon and cook, but don't cook it too long. Once it's done, chop it into small pieces.",
   "issues": [
     {
-      "field": "environment",
+      "field": "technique",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.55"
+      "note": "the decision model gave this answer a probability of 0.53"
     },
     {
       "field": "inputs",
@@ -59,7 +59,7 @@
     {
       "field": "environment",
       "kind": "estimate",
-      "note": "no temperature given; used the middle of pan_fry's typical range"
+      "note": "no temperature given; assumed 180.0 °C for pan_contact"
     },
     {
       "field": "end",

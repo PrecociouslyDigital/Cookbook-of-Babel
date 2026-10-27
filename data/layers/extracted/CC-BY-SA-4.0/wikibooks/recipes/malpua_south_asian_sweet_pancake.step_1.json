@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "milk",
+        "ingredient": "milk_boil",
         "amount": {
           "qty": 1,
           "unit": "l"
@@ -19,9 +19,9 @@
   },
   "outputs": [
     {
-      "ingredient": "milk_evaporate",
+      "ingredient": "milk_boil_evaporate",
       "amount": {
-        "qty": 1030,
+        "qty": 1000,
         "unit": "g"
       }
     }
@@ -42,7 +42,12 @@
     {
       "field": "technique",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.59"
+      "note": "the decision model gave this answer a probability of 0.46"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for milk_boil"
     },
     {
       "field": "environment",

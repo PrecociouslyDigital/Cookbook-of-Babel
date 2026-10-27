@@ -16,7 +16,7 @@
         }
       },
       {
-        "ingredient": "fish",
+        "ingredient": "fish_boil",
         "amount": {
           "qty": 4,
           "unit": "cup"
@@ -46,6 +46,11 @@
   },
   "stateNote": "Add the stock or water and bring to a boil.",
   "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.51"
+    },
     {
       "field": "environment",
       "kind": "estimate",

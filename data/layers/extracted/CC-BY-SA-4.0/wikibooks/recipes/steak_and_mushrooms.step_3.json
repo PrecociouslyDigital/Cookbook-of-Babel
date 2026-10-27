@@ -23,14 +23,14 @@
         }
       },
       {
-        "ingredient": "butter",
+        "ingredient": "butter_heat",
         "amount": {
           "qty": 2,
           "unit": "tbsp"
         }
       },
       {
-        "ingredient": "garlic",
+        "ingredient": "garlic_heat",
         "amount": {
           "qty": 2,
           "unit": "tsp"
@@ -68,9 +68,14 @@
   "stateNote": "While steak is grilling, prepare mushrooms. Melt butter in a large straight-sided sauté pan over medium high heat. Add garlic and keep it moving until golden. Add onion and mushrooms and cook, tossing occasionally, until mushrooms are as browned as you like.",
   "issues": [
     {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.59"
+    },
+    {
       "field": "outputs",
       "kind": "estimate",
-      "note": "assumed 1 g/ml for common_mushroom, butter, garlic, onion"
+      "note": "assumed 1 g/ml for common_mushroom, butter_heat, garlic_heat, onion"
     },
     {
       "field": "environment",

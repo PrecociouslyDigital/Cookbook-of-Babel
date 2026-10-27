@@ -1,0 +1,49 @@
+{
+  "id": "herb_grilled_strip_steaks.step_5.prep_8",
+  "source": "wikibooks_herb_grilled_strip_steaks",
+  "technique": "soak",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "soaked_mesquite_wood_chips",
+        "amount": {
+          "qty": 0.5,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "soaked_mesquite_wood_chips_soak",
+      "amount": {
+        "qty": 0.5,
+        "unit": "cup"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "½ cup soaked mesquite wood chips",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

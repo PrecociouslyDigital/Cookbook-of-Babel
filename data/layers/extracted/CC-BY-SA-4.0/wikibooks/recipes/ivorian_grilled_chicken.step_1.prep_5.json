@@ -1,0 +1,49 @@
+{
+  "id": "ivorian_grilled_chicken.step_1.prep_5",
+  "source": "wikibooks_ivorian_grilled_chicken",
+  "technique": "grind",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "dehydrated_broth",
+        "amount": {
+          "qty": 2,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "dehydrated_broth_grind",
+      "amount": {
+        "qty": 2,
+        "unit": "piece"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "2 chicken bouillon cubes, crushed",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

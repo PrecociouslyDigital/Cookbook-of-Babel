@@ -5,11 +5,11 @@
     "source": "wikibooks_boxty_irish_potato_cakes",
     "step": 1
   },
-  "technique": "boil",
+  "technique": "separate",
   "inputs": {
     "of": [
       {
-        "ingredient": "potato",
+        "ingredient": "potato_boil",
         "amount": {
           "qty": 2,
           "unit": "lb"
@@ -19,7 +19,7 @@
   },
   "outputs": [
     {
-      "ingredient": "potato_boil",
+      "ingredient": "boxty_irish_potato_cakes_step_1",
       "amount": {
         "qty": 907.2,
         "unit": "g"
@@ -40,9 +40,14 @@
   "stateNote": "Take half of the potatoes and wash, peel, chunk, and boil them.",
   "issues": [
     {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.5"
+    },
+    {
       "field": "environment",
       "kind": "estimate",
-      "note": "no temperature given; used the middle of boil's typical range"
+      "note": "no temperature given; assumed 100.0 °C for boiling_water"
     },
     {
       "field": "end",

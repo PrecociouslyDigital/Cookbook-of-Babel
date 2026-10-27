@@ -5,18 +5,18 @@
     "source": "wikibooks_tomato_salad",
     "step": 2
   },
-  "technique": "cut",
+  "technique": "separate",
   "inputs": {
     "of": [
       {
-        "ingredient": "onion_boil",
+        "ingredient": "onion_chop_boil",
         "amount": {
           "qty": 1,
           "unit": "batch"
         }
       },
       {
-        "ingredient": "tomato",
+        "ingredient": "tomato_cut",
         "amount": {
           "qty": 750,
           "unit": "g"
@@ -46,6 +46,11 @@
   },
   "stateNote": "While they are boiling, cut the tomatoes in quarters, and remove the juicy centre. You can use the centres for tomato soup or throw them away.",
   "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.59"
+    },
     {
       "field": "end",
       "kind": "estimate",

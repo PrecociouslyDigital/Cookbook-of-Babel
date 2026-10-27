@@ -30,7 +30,7 @@
         }
       },
       {
-        "ingredient": "cilantro",
+        "ingredient": "cilantro_chop",
         "amount": {
           "qty": 0.25,
           "unit": "cup"
@@ -60,6 +60,11 @@
   },
   "stateNote": "Transfer the boiled vegetables to a blender. Add the garlic cloves and a pinch of salt. Blend until smooth, then stir in chopped cilantro. Set aside the sauce.",
   "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.58"
+    },
     {
       "field": "inputs",
       "kind": "estimate",

@@ -1,0 +1,49 @@
+{
+  "id": "seafood_kebabs_with_zhoug_sauce.step_1.prep_2",
+  "source": "wikibooks_seafood_kebabs_with_zhoug_sauce",
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "fish",
+        "amount": {
+          "qty": 0.5,
+          "unit": "kg"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "fish_cut",
+      "amount": {
+        "qty": 0.5,
+        "unit": "kg"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "½ kg fish fillets, cut into 2½ cm (1 in) cubes",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

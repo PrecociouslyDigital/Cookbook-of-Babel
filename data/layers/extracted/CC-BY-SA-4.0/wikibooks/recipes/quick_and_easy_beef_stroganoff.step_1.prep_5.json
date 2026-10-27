@@ -1,0 +1,49 @@
+{
+  "id": "quick_and_easy_beef_stroganoff.step_1.prep_5",
+  "source": "wikibooks_quick_and_easy_beef_stroganoff",
+  "technique": "boil",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "egg_noodles",
+        "amount": {
+          "qty": 16,
+          "unit": "oz"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "egg_noodles_boil",
+      "amount": {
+        "qty": 16,
+        "unit": "oz"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "1 bag (16 oz / 500 g) egg noodles",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

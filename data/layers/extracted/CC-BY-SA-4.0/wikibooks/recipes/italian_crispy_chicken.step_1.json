@@ -5,11 +5,11 @@
     "source": "wikibooks_italian_crispy_chicken",
     "step": 1
   },
-  "technique": "mix",
+  "technique": "assemble",
   "inputs": {
     "of": [
       {
-        "ingredient": "crouton",
+        "ingredient": "crouton_grind",
         "amount": {
           "qty": 0.25,
           "unit": "cup"
@@ -44,7 +44,7 @@
         }
       },
       {
-        "ingredient": "pepper",
+        "ingredient": "pepper_grind",
         "amount": {
           "qty": 1,
           "unit": "tbsp"
@@ -58,7 +58,7 @@
         }
       },
       {
-        "ingredient": "egg",
+        "ingredient": "egg_whisk",
         "amount": {
           "qty": 4,
           "unit": "piece"
@@ -88,6 +88,11 @@
   },
   "stateNote": "Combine flour and seasonings in a pie plate. Combine croutons and breadcrumbs in another pie plate, and place the eggs in another pie plate.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.55"
+    },
     {
       "field": "end",
       "kind": "estimate",

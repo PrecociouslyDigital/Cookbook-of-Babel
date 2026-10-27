@@ -46,15 +46,15 @@
       }
     }
   ],
-  "environment": {
-    "temperatureC": 90,
-    "medium": "simmering_water"
-  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
     }
   },
   "stateNote": "Remove the soup from the heat. Optionally, squeeze the juice of a lemon into the soup and stir well to enhance the flavors.",
@@ -62,7 +62,7 @@
     {
       "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.51"
+      "note": "the decision model gave this answer a probability of 0.41"
     },
     {
       "field": "inputs",
@@ -73,11 +73,6 @@
       "field": "inputs",
       "kind": "estimate",
       "note": "'Cooked rice or bread for serving': no quantity given; assumed a pinch"
-    },
-    {
-      "field": "environment",
-      "kind": "estimate",
-      "note": "no temperature given; assumed 90.0 °C for simmering_water"
     },
     {
       "field": "end",

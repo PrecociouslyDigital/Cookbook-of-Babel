@@ -5,32 +5,32 @@
     "source": "wikibooks_chicken_curry",
     "step": 2
   },
-  "technique": "fry",
+  "technique": "toast",
   "inputs": {
     "of": [
       {
         "ingredient": "chicken_curry_step_1",
         "amount": {
-          "qty": 1980.5,
+          "qty": 1980.2,
           "unit": "g"
         }
       },
       {
-        "ingredient": "mustard_seed",
+        "ingredient": "mustard_seed_fry",
         "amount": {
           "qty": 1,
           "unit": "tsp"
         }
       },
       {
-        "ingredient": "cumin",
+        "ingredient": "cumin_fry",
         "amount": {
           "qty": 1,
           "unit": "tsp"
         }
       },
       {
-        "ingredient": "fennel",
+        "ingredient": "fennel_fry",
         "amount": {
           "qty": 1,
           "unit": "tsp"
@@ -42,13 +42,13 @@
     {
       "ingredient": "chicken_curry_step_2",
       "amount": {
-        "qty": 1995.3,
+        "qty": 1995,
         "unit": "g"
       }
     }
   ],
   "environment": {
-    "temperatureC": 190,
+    "temperatureC": 185,
     "medium": "pan_contact"
   },
   "end": {
@@ -61,14 +61,19 @@
   "stateNote": "Fry cumin, fennel, and mustard seeds on a medium heat in a large pan.",
   "issues": [
     {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.54"
+    },
+    {
       "field": "outputs",
       "kind": "estimate",
-      "note": "assumed 1 g/ml for mustard_seed, cumin, fennel"
+      "note": "assumed 1 g/ml for mustard_seed_fry, cumin_fry, fennel_fry"
     },
     {
       "field": "environment",
       "kind": "estimate",
-      "note": "no temperature given; used the middle of fry's typical range"
+      "note": "no temperature given; used the middle of toast's typical range"
     },
     {
       "field": "end",

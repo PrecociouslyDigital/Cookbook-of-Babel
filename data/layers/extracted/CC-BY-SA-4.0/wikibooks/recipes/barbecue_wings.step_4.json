@@ -26,33 +26,23 @@
       }
     }
   ],
-  "environment": {
-    "temperatureC": 20,
-    "medium": "still_air"
-  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 5,
       "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
     }
   },
   "stateNote": "Remove to a plate and cover tightly with aluminum foil. Let rest 5 minutes before serving.",
   "issues": [
     {
-      "field": "environment",
-      "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.56"
-    },
-    {
-      "field": "environment",
-      "kind": "estimate",
-      "note": "no temperature given; assumed 20.0 °C for still_air"
-    },
-    {
       "field": "inputs",
       "kind": "missing",
-      "note": "no step uses '1/2x3 hickory wood chips' (p=0.55)"
+      "note": "no step uses '1/2x3 hickory wood chips' (p=0.57)"
     }
   ]
 }

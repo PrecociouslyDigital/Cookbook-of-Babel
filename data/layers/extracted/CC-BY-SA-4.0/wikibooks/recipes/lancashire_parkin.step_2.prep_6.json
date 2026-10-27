@@ -1,0 +1,49 @@
+{
+  "id": "lancashire_parkin.step_2.prep_6",
+  "source": "wikibooks_lancashire_parkin",
+  "technique": "heat",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "golden_syrup",
+        "amount": {
+          "qty": 440,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "golden_syrup_heat",
+      "amount": {
+        "qty": 440,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "440 g (2 cups / 16 oz / 1 lb) tin golden syrup (Tate & Lyle's brand preferred)",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

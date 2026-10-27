@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "tomato",
+        "ingredient": "tomato_chop",
         "amount": {
           "qty": 1,
           "unit": "pinch"
@@ -19,7 +19,7 @@
   },
   "outputs": [
     {
-      "ingredient": "tomato_chop",
+      "ingredient": "tomato_chop_chop",
       "amount": {
         "qty": 0.3,
         "unit": "g"
@@ -40,6 +40,11 @@
   "stateNote": "Finely chop tomatoes or purée them in a food processor—this depends on what consistency you want. Chopping gives a chunkier sauce while using puréed tomatoes yields a smoother sauce.",
   "issues": [
     {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.48"
+    },
+    {
       "field": "inputs",
       "kind": "estimate",
       "note": "'Ripe tomatoes': no quantity given; assumed a pinch"
@@ -47,7 +52,7 @@
     {
       "field": "outputs",
       "kind": "estimate",
-      "note": "assumed 1 g/ml for tomato"
+      "note": "assumed 1 g/ml for tomato_chop"
     },
     {
       "field": "end",

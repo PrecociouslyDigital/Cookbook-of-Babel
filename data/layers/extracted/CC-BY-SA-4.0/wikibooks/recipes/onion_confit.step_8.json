@@ -33,12 +33,18 @@
       "unit": "min"
     },
     "sensitivity": {
-      "refTempC": 20,
-      "q10": 1
+      "refTempC": 4,
+      "q10": 1,
+      "maxTempC": 8
     }
   },
   "stateNote": "Use or store for up to a week in the refrigerator. Drain the liquid before using (it's delicious—you can use it separately).",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.58"
+    },
     {
       "field": "end",
       "kind": "estimate",
@@ -47,12 +53,12 @@
     {
       "field": "inputs",
       "kind": "missing",
-      "note": "no step uses 'Leek (optional)' (p=0.96)"
+      "note": "no step uses 'Leek (optional)' (p=0.97)"
     },
     {
       "field": "inputs",
       "kind": "missing",
-      "note": "no step uses '1½ tsp salt' (p=0.85)"
+      "note": "no step uses '1½ tsp salt' (p=0.71)"
     }
   ]
 }

@@ -5,7 +5,7 @@
     "source": "wikibooks_pizza_flavored_omelet",
     "step": 9
   },
-  "technique": "steam",
+  "technique": "heat",
   "inputs": {
     "of": [
       {
@@ -27,7 +27,7 @@
     }
   ],
   "environment": {
-    "temperatureC": 100,
+    "temperatureC": 180,
     "medium": "pan_contact"
   },
   "end": {
@@ -40,9 +40,14 @@
   "stateNote": "Cover skillet. Cook another 2 minutes. Cheese should be melted.",
   "issues": [
     {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.44"
+    },
+    {
       "field": "environment",
       "kind": "estimate",
-      "note": "no temperature given; used the middle of steam's typical range"
+      "note": "no temperature given; assumed 180.0 °C for pan_contact"
     }
   ]
 }

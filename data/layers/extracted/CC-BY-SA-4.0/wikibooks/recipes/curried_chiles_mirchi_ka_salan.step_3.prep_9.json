@@ -1,0 +1,49 @@
+{
+  "id": "curried_chiles_mirchi_ka_salan.step_3.prep_9",
+  "source": "wikibooks_curried_chiles_mirchi_ka_salan",
+  "technique": "heat",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "fenugreek",
+        "amount": {
+          "qty": 6,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "fenugreek_heat",
+      "amount": {
+        "qty": 6,
+        "unit": "piece"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "6 fenugreek seeds (methi daana)",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

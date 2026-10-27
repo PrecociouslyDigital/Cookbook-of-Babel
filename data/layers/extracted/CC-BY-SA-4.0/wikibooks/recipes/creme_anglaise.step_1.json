@@ -9,14 +9,14 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "milk",
+        "ingredient": "milk_simmer",
         "amount": {
           "qty": 1.3333333333333333,
           "unit": "cup"
         }
       },
       {
-        "ingredient": "vanilla",
+        "ingredient": "vanilla_cut",
         "amount": {
           "qty": 1,
           "unit": "pinch"
@@ -28,7 +28,7 @@
     {
       "ingredient": "creme_anglaise_step_1",
       "amount": {
-        "qty": 325.2,
+        "qty": 315.8,
         "unit": "g"
       }
     }
@@ -47,6 +47,11 @@
   "stateNote": "Bring the milk and flavoring to a simmer in a medium saucepan. If using a vanilla bean, cut it lengthwise and add to the milk. After a short time and before the milk simmers, scrape the seeds from the inside of the beans and dispose of the husks.",
   "issues": [
     {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.58"
+    },
+    {
       "field": "inputs",
       "kind": "estimate",
       "note": "'Flavoring (typically a vanilla bean or 1 teaspoon of vanilla extract)': no quantity given; assumed a pinch"
@@ -54,7 +59,7 @@
     {
       "field": "outputs",
       "kind": "estimate",
-      "note": "assumed 1 g/ml for vanilla"
+      "note": "assumed 1 g/ml for milk_simmer, vanilla_cut"
     },
     {
       "field": "environment",

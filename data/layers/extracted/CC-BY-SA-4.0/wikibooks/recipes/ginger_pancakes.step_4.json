@@ -16,14 +16,14 @@
         }
       },
       {
-        "ingredient": "buttermilk",
+        "ingredient": "buttermilk_heat",
         "amount": {
           "qty": 0.75,
           "unit": "cup"
         }
       },
       {
-        "ingredient": "milk",
+        "ingredient": "milk_heat",
         "amount": {
           "qty": 0.25,
           "unit": "cup"
@@ -37,7 +37,7 @@
         }
       },
       {
-        "ingredient": "butter",
+        "ingredient": "butter_heat",
         "amount": {
           "qty": 2,
           "unit": "tbsp"
@@ -61,15 +61,15 @@
       }
     }
   ],
-  "environment": {
-    "temperatureC": 20,
-    "medium": "still_air"
-  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 25,
       "unit": "s"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
     }
   },
   "stateNote": "Microwave buttermilk and milk in a 2-cup Pyrex measuring cup for 20–30 seconds until it is room temperature. Whisk in egg, butter, and vanilla.",
@@ -77,17 +77,12 @@
     {
       "field": "technique",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.45"
+      "note": "the decision model gave this answer a probability of 0.52"
     },
     {
       "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.55"
-    },
-    {
-      "field": "environment",
-      "kind": "estimate",
-      "note": "no temperature given; assumed 20.0 °C for still_air"
+      "note": "the decision model gave this answer a probability of 0.37"
     }
   ]
 }

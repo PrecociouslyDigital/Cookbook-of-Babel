@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "mung_bean_soak",
+        "ingredient": "mung_bean_soak_soak",
         "amount": {
           "qty": 200,
           "unit": "g"
@@ -53,6 +53,11 @@
   },
   "stateNote": "Combine the dal, chiles, and ginger in a pot. Do not add salt.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.57"
+    },
     {
       "field": "end",
       "kind": "estimate",

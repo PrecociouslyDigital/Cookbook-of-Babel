@@ -26,28 +26,28 @@
       }
     }
   ],
-  "environment": {
-    "temperatureC": 20,
-    "medium": "still_air"
-  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 10,
       "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
     }
   },
   "stateNote": "Remove from oven and rest for 10 minutes before serving.",
   "issues": [
     {
       "field": "environment",
-      "kind": "estimate",
-      "note": "no temperature given; assumed 20.0 °C for still_air"
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.54"
     },
     {
       "field": "inputs",
       "kind": "missing",
-      "note": "no step uses '2 tsp Tabasco pepper sauce' (p=0.73)"
+      "note": "no step uses '2 tsp Tabasco pepper sauce' (p=0.81)"
     }
   ]
 }

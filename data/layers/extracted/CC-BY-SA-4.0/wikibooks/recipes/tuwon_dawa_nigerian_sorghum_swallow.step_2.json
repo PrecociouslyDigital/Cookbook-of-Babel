@@ -9,14 +9,14 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "sorghum_grind",
+        "ingredient": "sorghum_rinse_grind",
         "amount": {
           "qty": 473.2,
           "unit": "g"
         }
       },
       {
-        "ingredient": "water",
+        "ingredient": "water_boil",
         "amount": {
           "qty": 4.5,
           "unit": "cup"
@@ -46,6 +46,11 @@
   },
   "stateNote": "In a pot, bring 3–4 cups of water to a boil.",
   "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for water_boil"
+    },
     {
       "field": "environment",
       "kind": "estimate",

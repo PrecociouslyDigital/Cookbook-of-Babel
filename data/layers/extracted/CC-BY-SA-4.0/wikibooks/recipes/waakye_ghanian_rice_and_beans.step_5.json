@@ -1,0 +1,53 @@
+{
+  "id": "waakye_ghanian_rice_and_beans.step_5",
+  "source": "wikibooks_waakye_ghanian_rice_and_beans",
+  "sourceRef": {
+    "source": "wikibooks_waakye_ghanian_rice_and_beans",
+    "step": 5
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "waakye_ghanian_rice_and_beans_step_4",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "waakye_ghanian_rice_and_beans",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Remove from the heat. Serve with shito and fried tomato stew, accompanied by wele, tilapia, boiled eggs, and salad.",
+  "issues": [
+    {
+      "field": "sourceRef",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.5"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

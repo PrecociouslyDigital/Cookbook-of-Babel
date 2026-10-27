@@ -1,0 +1,49 @@
+{
+  "id": "euneo_juk_korean_sweetfish_porridge.step_2.prep_2",
+  "source": "wikibooks_euneo_juk_korean_sweetfish_porridge",
+  "technique": "rinse",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "sweetfish",
+        "amount": {
+          "qty": 200,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "sweetfish_rinse",
+      "amount": {
+        "qty": 200,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "200 g whole sweetfish, cleaned and gutted",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

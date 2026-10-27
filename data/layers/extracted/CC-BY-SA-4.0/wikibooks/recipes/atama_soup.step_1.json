@@ -9,7 +9,14 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "periwinkle_mollusc",
+        "ingredient": "water",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
+      },
+      {
+        "ingredient": "periwinkle_mollusc_cut",
         "amount": {
           "qty": 1,
           "unit": "cup"
@@ -28,7 +35,7 @@
     {
       "ingredient": "atama_soup_step_1",
       "amount": {
-        "qty": 237,
+        "qty": 237.3,
         "unit": "g"
       }
     }
@@ -48,13 +55,23 @@
   "issues": [
     {
       "field": "inputs",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.51"
+    },
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Water': no quantity given; assumed a pinch"
+    },
+    {
+      "field": "inputs",
       "kind": "estimate",
       "note": "'Salt to taste': no quantity given; assumed a pinch"
     },
     {
       "field": "outputs",
       "kind": "estimate",
-      "note": "assumed 1 g/ml for periwinkle_mollusc"
+      "note": "assumed 1 g/ml for periwinkle_mollusc_cut"
     },
     {
       "field": "environment",

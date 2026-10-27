@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "pasta",
+        "ingredient": "pasta_boil",
         "amount": {
           "qty": 400,
           "unit": "g"
@@ -19,7 +19,7 @@
   },
   "outputs": [
     {
-      "ingredient": "pasta_boil",
+      "ingredient": "pasta_boil_boil",
       "amount": {
         "qty": 400,
         "unit": "g"
@@ -39,6 +39,11 @@
   },
   "stateNote": "Cook the pasta as directed on the packaging. Drain.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.57"
+    },
     {
       "field": "environment",
       "kind": "estimate",

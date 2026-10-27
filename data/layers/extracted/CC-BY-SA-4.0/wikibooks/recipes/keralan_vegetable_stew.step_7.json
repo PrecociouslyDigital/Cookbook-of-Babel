@@ -5,7 +5,7 @@
     "source": "wikibooks_keralan_vegetable_stew",
     "step": 7
   },
-  "technique": "dissolve",
+  "technique": "season",
   "inputs": {
     "of": [
       {
@@ -16,7 +16,7 @@
         }
       },
       {
-        "ingredient": "wheat_flour",
+        "ingredient": "wheat_flour_dissolve",
         "amount": {
           "qty": 1,
           "unit": "tbsp"
@@ -53,6 +53,16 @@
   },
   "stateNote": "Add salt. Dissolve the maida/rice flour in a little water and add it to the sauce.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.37"
+    },
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.36"
+    },
     {
       "field": "environment",
       "kind": "estimate",

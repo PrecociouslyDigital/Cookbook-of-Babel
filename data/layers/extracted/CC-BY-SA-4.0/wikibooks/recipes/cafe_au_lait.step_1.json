@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "coffee",
+        "ingredient": "coffee_heat",
         "amount": {
           "qty": 4,
           "unit": "cup"
@@ -19,7 +19,7 @@
   },
   "outputs": [
     {
-      "ingredient": "coffee_mix",
+      "ingredient": "coffee_heat_mix",
       "amount": {
         "qty": 946.4,
         "unit": "g"
@@ -40,9 +40,14 @@
   "stateNote": "If you are using coffee concentrate, add enough hot water to make 4 cups of coffee.",
   "issues": [
     {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.48"
+    },
+    {
       "field": "outputs",
       "kind": "estimate",
-      "note": "assumed 1 g/ml for coffee"
+      "note": "assumed 1 g/ml for coffee_heat"
     },
     {
       "field": "environment",

@@ -16,7 +16,7 @@
         }
       },
       {
-        "ingredient": "parsley",
+        "ingredient": "parsley_chop",
         "amount": {
           "qty": 1,
           "unit": "pinch"
@@ -40,15 +40,15 @@
       }
     }
   ],
-  "environment": {
-    "temperatureC": 180,
-    "medium": "pan_contact"
-  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
     }
   },
   "stateNote": "Remove the pan from the heat and garnish the tibs with fresh chopped parsley or cilantro.",
@@ -56,7 +56,12 @@
     {
       "field": "technique",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.47"
+      "note": "the decision model gave this answer a probability of 0.58"
+    },
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.46"
     },
     {
       "field": "inputs",
@@ -67,11 +72,6 @@
       "field": "inputs",
       "kind": "estimate",
       "note": "'Lemon wedges, for serving': no quantity given; assumed a pinch"
-    },
-    {
-      "field": "environment",
-      "kind": "estimate",
-      "note": "no temperature given; assumed 180.0 °C for pan_contact"
     },
     {
       "field": "end",

@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "mushroom",
+        "ingredient": "mushroom_rinse",
         "amount": {
           "qty": 1,
           "unit": "piece"
@@ -19,7 +19,7 @@
   },
   "outputs": [
     {
-      "ingredient": "mushroom_rinse",
+      "ingredient": "mushroom_rinse_rinse",
       "amount": {
         "qty": 1,
         "unit": "batch"
@@ -39,6 +39,11 @@
   },
   "stateNote": "Remove stems from the mushrooms, then wash and dry them.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.59"
+    },
     {
       "field": "end",
       "kind": "estimate",

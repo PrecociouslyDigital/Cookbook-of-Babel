@@ -1,0 +1,49 @@
+{
+  "id": "feuerzangenbowle_german_wine_punch.step_1.prep_1",
+  "source": "wikibooks_feuerzangenbowle_german_wine_punch",
+  "technique": "heat",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "wine",
+        "amount": {
+          "qty": 2.5,
+          "unit": "bottle"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "wine_heat",
+      "amount": {
+        "qty": 2.5,
+        "unit": "bottle"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "2–3 bottles of dry red wine (e.g. Rioja)",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

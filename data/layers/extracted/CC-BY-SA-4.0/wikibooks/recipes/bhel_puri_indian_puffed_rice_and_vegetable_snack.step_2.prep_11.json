@@ -1,0 +1,49 @@
+{
+  "id": "bhel_puri_indian_puffed_rice_and_vegetable_snack.step_2.prep_11",
+  "source": "wikibooks_bhel_puri_indian_puffed_rice_and_vegetable_snack",
+  "technique": "chop",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "coriander_leaves",
+        "amount": {
+          "qty": 0.5,
+          "unit": "bunch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "coriander_leaves_chop",
+      "amount": {
+        "qty": 0.5,
+        "unit": "bunch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "½ bunch coriander leaves, chopped",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

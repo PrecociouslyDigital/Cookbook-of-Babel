@@ -1,0 +1,49 @@
+{
+  "id": "boliche_cuban_chorizo_stuffed_roast.step_1.prep_2",
+  "source": "wikibooks_boliche_cuban_chorizo_stuffed_roast",
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "chorizo",
+        "amount": {
+          "qty": 4,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "chorizo_cut",
+      "amount": {
+        "qty": 4,
+        "unit": "piece"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "4 Goya chorizos, quartered lengthwise",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

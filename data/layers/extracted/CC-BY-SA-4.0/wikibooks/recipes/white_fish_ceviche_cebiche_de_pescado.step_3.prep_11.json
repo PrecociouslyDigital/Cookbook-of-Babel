@@ -1,0 +1,54 @@
+{
+  "id": "white_fish_ceviche_cebiche_de_pescado.step_3.prep_11",
+  "source": "wikibooks_white_fish_ceviche_cebiche_de_pescado",
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "corn",
+        "amount": {
+          "qty": 20,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "corn_cut",
+      "amount": {
+        "qty": 20,
+        "unit": "piece"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "16–24 corn cobs cut into 2-inch (5 cm) pieces, cooked as usual",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.47"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

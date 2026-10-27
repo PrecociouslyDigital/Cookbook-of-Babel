@@ -1,0 +1,49 @@
+{
+  "id": "roasted_chicken_nachos_with_green_chili_cheese_sauce.step_1.prep_1",
+  "source": "wikibooks_roasted_chicken_nachos_with_green_chili_cheese_sauce",
+  "technique": "simmer",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "tomatillo",
+        "amount": {
+          "qty": 4,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "tomatillo_simmer",
+      "amount": {
+        "qty": 4,
+        "unit": "piece"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "4 medium tomatillos, husked and rinsed (or used canned if unavailable)",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

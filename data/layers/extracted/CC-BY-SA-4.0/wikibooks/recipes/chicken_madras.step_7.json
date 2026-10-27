@@ -42,7 +42,7 @@
   ],
   "environment": {
     "temperatureC": 90,
-    "medium": "simmering_water"
+    "medium": "pan_contact"
   },
   "end": {
     "by": "time",
@@ -53,6 +53,11 @@
   },
   "stateNote": "Remove the lid and squeeze the juice of half a lemon into the pan along with a pinch of salt. Stir and let simmer uncovered for 10 to 15 minutes.",
   "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.59"
+    },
     {
       "field": "inputs",
       "kind": "estimate",
@@ -71,12 +76,12 @@
     {
       "field": "inputs",
       "kind": "missing",
-      "note": "no step uses 'Fresh chiles' (p=0.81)"
+      "note": "no step uses 'Fresh chiles' (p=0.82)"
     },
     {
       "field": "inputs",
       "kind": "missing",
-      "note": "no step uses '1 pinch of garam masala' (p=0.87)"
+      "note": "no step uses '1 pinch of garam masala' (p=0.89)"
     }
   ]
 }

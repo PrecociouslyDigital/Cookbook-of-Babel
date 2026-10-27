@@ -23,7 +23,7 @@
         }
       },
       {
-        "ingredient": "mushroom",
+        "ingredient": "mushroom_pan_fry",
         "amount": {
           "qty": 0.5,
           "unit": "cup"
@@ -60,6 +60,11 @@
   },
   "stateNote": "Sauté the mushrooms in 1 tbsp butter. Add spinach, and cook on medium heat until slightly wilted.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.51"
+    },
     {
       "field": "environment",
       "kind": "estimate",

@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "milk",
+        "ingredient": "milk_heat",
         "amount": {
           "qty": 3,
           "unit": "cup"
@@ -19,9 +19,9 @@
   },
   "outputs": [
     {
-      "ingredient": "milk_heat",
+      "ingredient": "milk_heat_heat",
       "amount": {
-        "qty": 731.1,
+        "qty": 709.8,
         "unit": "g"
       }
     }
@@ -39,6 +39,11 @@
   },
   "stateNote": "Place a heavy-bottomed pan on the heat. Add milk, and warm it on medium heat.",
   "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for milk_heat"
+    },
     {
       "field": "environment",
       "kind": "estimate",

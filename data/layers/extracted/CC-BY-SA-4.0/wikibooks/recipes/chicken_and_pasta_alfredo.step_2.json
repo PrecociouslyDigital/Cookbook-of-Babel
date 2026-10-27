@@ -5,18 +5,18 @@
     "source": "wikibooks_chicken_and_pasta_alfredo",
     "step": 2
   },
-  "technique": "rinse",
+  "technique": "mix",
   "inputs": {
     "of": [
       {
-        "ingredient": "pasta_boil",
+        "ingredient": "pasta_boil_boil",
         "amount": {
           "qty": 473.2,
           "unit": "g"
         }
       },
       {
-        "ingredient": "chicken",
+        "ingredient": "chicken_heat",
         "amount": {
           "qty": 1.5,
           "unit": "cup"
@@ -33,15 +33,15 @@
       }
     }
   ],
-  "environment": {
-    "temperatureC": 100,
-    "medium": "boiling_water"
-  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
     }
   },
   "stateNote": "Drain pasta and rinse with cold water. Toss with chicken and set aside.",
@@ -49,17 +49,12 @@
     {
       "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.42"
+      "note": "the decision model gave this answer a probability of 0.49"
     },
     {
       "field": "outputs",
       "kind": "estimate",
-      "note": "assumed 1 g/ml for chicken"
-    },
-    {
-      "field": "environment",
-      "kind": "estimate",
-      "note": "no temperature given; assumed 100.0 °C for boiling_water"
+      "note": "assumed 1 g/ml for chicken_heat"
     },
     {
       "field": "end",

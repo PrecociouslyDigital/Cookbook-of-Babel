@@ -1,0 +1,54 @@
+{
+  "id": "puerto_rican_sofrito.step_1.prep_6",
+  "source": "wikibooks_puerto_rican_sofrito",
+  "technique": "grind",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "aji_dulce",
+        "amount": {
+          "qty": 15,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "aji_dulce_grind",
+      "amount": {
+        "qty": 15,
+        "unit": "piece"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "15 ají dulce, seeded",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.42"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

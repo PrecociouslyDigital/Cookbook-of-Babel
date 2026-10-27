@@ -1,0 +1,49 @@
+{
+  "id": "christmas_pudding_i.step_3.prep_1",
+  "source": "wikibooks_christmas_pudding_i",
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "self_rising_flour",
+        "amount": {
+          "qty": 100,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "self_rising_flour_mix",
+      "amount": {
+        "qty": 100,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "100 g (3.5 oz / ¾ cup) self-rising flour",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

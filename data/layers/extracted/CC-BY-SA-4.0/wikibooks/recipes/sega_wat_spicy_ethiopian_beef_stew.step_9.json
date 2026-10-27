@@ -14,12 +14,19 @@
           "qty": 1,
           "unit": "batch"
         }
+      },
+      {
+        "ingredient": "parsley_chop",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
+        }
       }
     ]
   },
   "outputs": [
     {
-      "ingredient": "sega_wat_spicy_ethiopian_beef_stew_step_9",
+      "ingredient": "sega_wat_spicy_ethiopian_beef_stew",
       "amount": {
         "qty": 1,
         "unit": "batch"
@@ -27,8 +34,8 @@
     }
   ],
   "environment": {
-    "temperatureC": 180,
-    "medium": "pan_contact"
+    "temperatureC": 20,
+    "medium": "still_air"
   },
   "end": {
     "by": "time",
@@ -42,12 +49,17 @@
     {
       "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.43"
+      "note": "the decision model gave this answer a probability of 0.47"
+    },
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Fresh parsley or cilantro, chopped, for garnish': no quantity given; assumed a pinch"
     },
     {
       "field": "environment",
       "kind": "estimate",
-      "note": "no temperature given; assumed 180.0 °C for pan_contact"
+      "note": "no temperature given; assumed 20.0 °C for still_air"
     },
     {
       "field": "end",

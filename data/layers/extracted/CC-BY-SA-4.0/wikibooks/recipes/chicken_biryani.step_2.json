@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "rice_boil",
+        "ingredient": "rice_soak_boil",
         "amount": {
           "qty": 473.2,
           "unit": "g"
@@ -30,7 +30,7 @@
         }
       },
       {
-        "ingredient": "garlic",
+        "ingredient": "garlic_chop",
         "amount": {
           "qty": 3,
           "unit": "clove"
@@ -51,7 +51,7 @@
         }
       },
       {
-        "ingredient": "chiles",
+        "ingredient": "chiles_chop",
         "amount": {
           "qty": 2,
           "unit": "piece"
@@ -72,16 +72,9 @@
         }
       },
       {
-        "ingredient": "cinnamon",
+        "ingredient": "pepper",
         "amount": {
-          "qty": 10,
-          "unit": "piece"
-        }
-      },
-      {
-        "ingredient": "cardamom",
-        "amount": {
-          "qty": 8,
+          "qty": 5,
           "unit": "piece"
         }
       },
@@ -124,19 +117,19 @@
   "stateNote": "Marinate the chicken in lemon juice, yoghurt, ginger, garlic, salt, turmeric powder, cumin powder, cloves, chillis, chopped tomatoes, and tomato purée.",
   "issues": [
     {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.58"
+    },
+    {
       "field": "inputs",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.47"
+      "note": "the decision model gave this answer a probability of 0.52"
     },
     {
       "field": "inputs",
       "kind": "estimate",
       "note": "'1.5 cm ginger, peeled and sliced': 'cm' read as pieces"
-    },
-    {
-      "field": "inputs",
-      "kind": "estimate",
-      "note": "'10 cm (4 inches) cinnamon stick': 'cm' read as pieces"
     },
     {
       "field": "inputs",

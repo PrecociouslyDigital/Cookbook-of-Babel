@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "rice",
+        "ingredient": "rice_soak",
         "amount": {
           "qty": 275,
           "unit": "g"
@@ -19,22 +19,22 @@
   },
   "outputs": [
     {
-      "ingredient": "rice_soak",
+      "ingredient": "rice_soak_soak",
       "amount": {
         "qty": 275,
         "unit": "g"
       }
     }
   ],
-  "environment": {
-    "temperatureC": 100,
-    "medium": "steam"
-  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 9,
       "unit": "h"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
     }
   },
   "stateNote": "Cover the rice with cool water, and leave to soak for 6–12 hours. Drain.",
@@ -42,12 +42,7 @@
     {
       "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.54"
-    },
-    {
-      "field": "environment",
-      "kind": "estimate",
-      "note": "no temperature given; assumed 100.0 °C for steam"
+      "note": "the decision model gave this answer a probability of 0.5"
     }
   ]
 }

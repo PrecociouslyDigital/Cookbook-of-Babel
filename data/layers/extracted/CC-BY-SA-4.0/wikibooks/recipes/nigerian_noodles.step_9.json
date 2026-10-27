@@ -26,15 +26,15 @@
       }
     }
   ],
-  "environment": {
-    "temperatureC": 100,
-    "medium": "boiling_water"
-  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
     }
   },
   "stateNote": "Drain the noodles, and serve with the optional additions.",
@@ -42,12 +42,7 @@
     {
       "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.42"
-    },
-    {
-      "field": "environment",
-      "kind": "estimate",
-      "note": "no temperature given; assumed 100.0 °C for boiling_water"
+      "note": "the decision model gave this answer a probability of 0.51"
     },
     {
       "field": "end",
@@ -57,32 +52,32 @@
     {
       "field": "inputs",
       "kind": "missing",
-      "note": "no step uses 'Egg' (p=0.65)"
+      "note": "no step uses 'Egg' (p=0.73)"
     },
     {
       "field": "inputs",
       "kind": "missing",
-      "note": "no step uses 'Roast chicken' (p=0.51)"
+      "note": "no step uses 'Roast chicken' (p=0.52)"
     },
     {
       "field": "inputs",
       "kind": "missing",
-      "note": "no step uses 'Beef' (p=0.85)"
+      "note": "no step uses 'Beef' (p=0.78)"
     },
     {
       "field": "inputs",
       "kind": "missing",
-      "note": "no step uses 'Onion bulb' (p=0.82)"
+      "note": "no step uses 'Onion bulb' (p=0.84)"
     },
     {
       "field": "inputs",
       "kind": "missing",
-      "note": "no step uses 'Green bell peppers' (p=0.66)"
+      "note": "no step uses 'Green bell peppers' (p=0.76)"
     },
     {
       "field": "inputs",
       "kind": "missing",
-      "note": "no step uses 'Tomatoes' (p=0.67)"
+      "note": "no step uses 'Tomatoes' (p=0.77)"
     }
   ]
 }

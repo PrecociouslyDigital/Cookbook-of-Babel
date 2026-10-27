@@ -5,7 +5,7 @@
     "source": "wikibooks_mango_chutney_chunky",
     "step": 1
   },
-  "technique": "dissolve",
+  "technique": "boil",
   "inputs": {
     "of": [
       {
@@ -16,14 +16,14 @@
         }
       },
       {
-        "ingredient": "brown_sugar",
+        "ingredient": "brown_sugar_dissolve",
         "amount": {
           "qty": 200,
           "unit": "g"
         }
       },
       {
-        "ingredient": "salt",
+        "ingredient": "salt_dissolve",
         "amount": {
           "qty": 2,
           "unit": "tsp"
@@ -35,13 +35,13 @@
     {
       "ingredient": "mango_chutney_chunky_step_1",
       "amount": {
-        "qty": 461.8,
+        "qty": 459.9,
         "unit": "g"
       }
     }
   ],
   "environment": {
-    "temperatureC": 180,
+    "temperatureC": 100,
     "medium": "pan_contact"
   },
   "end": {
@@ -54,14 +54,19 @@
   "stateNote": "Dissolve the sugar and salt in the vinegar and boil for 15 minutes.",
   "issues": [
     {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.56"
+    },
+    {
       "field": "outputs",
       "kind": "estimate",
-      "note": "assumed 1 g/ml for cider_vinegar"
+      "note": "assumed 1 g/ml for cider_vinegar, salt_dissolve"
     },
     {
       "field": "environment",
       "kind": "estimate",
-      "note": "no temperature given; assumed 180.0 °C for pan_contact"
+      "note": "no temperature given; used the middle of boil's typical range"
     }
   ]
 }

@@ -5,7 +5,7 @@
     "source": "wikibooks_garbanzo_bean_stew",
     "step": 6
   },
-  "technique": "cool",
+  "technique": "age",
   "inputs": {
     "of": [
       {
@@ -14,12 +14,32 @@
           "qty": 1,
           "unit": "batch"
         }
+      },
+      {
+        "ingredient": "rice",
+        "amount": {
+          "qty": 2,
+          "unit": "cup"
+        }
+      },
+      {
+        "min": 0,
+        "max": 1,
+        "of": [
+          {
+            "ingredient": "parsley_chop",
+            "amount": {
+              "qty": 1,
+              "unit": "pinch"
+            }
+          }
+        ]
       }
     ]
   },
   "outputs": [
     {
-      "ingredient": "garbanzo_bean_stew_step_6",
+      "ingredient": "garbanzo_bean_stew",
       "amount": {
         "qty": 1,
         "unit": "batch"
@@ -42,12 +62,17 @@
     {
       "field": "technique",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.41"
+      "note": "the decision model gave this answer a probability of 0.46"
     },
     {
       "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.32"
+      "note": "the decision model gave this answer a probability of 0.39"
+    },
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Chopped parsley, optional garnish': no quantity given; assumed a pinch"
     },
     {
       "field": "environment",

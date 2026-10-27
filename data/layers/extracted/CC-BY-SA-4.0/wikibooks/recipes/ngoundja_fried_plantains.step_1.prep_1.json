@@ -1,0 +1,49 @@
+{
+  "id": "ngoundja_fried_plantains.step_1.prep_1",
+  "source": "wikibooks_ngoundja_fried_plantains",
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "plantain",
+        "amount": {
+          "qty": 2.5,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "plantain_cut",
+      "amount": {
+        "qty": 2.5,
+        "unit": "piece"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "2–3 ripe plantains",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

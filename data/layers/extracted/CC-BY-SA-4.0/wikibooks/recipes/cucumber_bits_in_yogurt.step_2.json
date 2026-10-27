@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "cucumber_chop",
+        "ingredient": "cucumber_chop_chop",
         "amount": {
           "qty": 1,
           "unit": "batch"
@@ -46,6 +46,11 @@
   },
   "stateNote": "Mix yogurt with chopped cucumber.",
   "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.57"
+    },
     {
       "field": "inputs",
       "kind": "estimate",

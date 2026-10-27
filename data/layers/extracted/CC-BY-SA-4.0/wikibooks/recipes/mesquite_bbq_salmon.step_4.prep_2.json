@@ -1,0 +1,44 @@
+{
+  "id": "mesquite_bbq_salmon.step_4.prep_2",
+  "source": "wikibooks_mesquite_bbq_salmon",
+  "technique": "soak",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "mesquite_wood_chips",
+        "amount": {
+          "qty": 0.75,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "mesquite_wood_chips_soak",
+      "amount": {
+        "qty": 0.75,
+        "unit": "cup"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 30,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "¾ cup mesquite wood chips, soaked in water for 30 minutes",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    }
+  ]
+}

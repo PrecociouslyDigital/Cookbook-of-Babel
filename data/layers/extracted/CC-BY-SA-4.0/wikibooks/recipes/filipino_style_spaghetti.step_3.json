@@ -11,7 +11,7 @@
       {
         "ingredient": "filipino_style_spaghetti_step_2",
         "amount": {
-          "qty": 327.2,
+          "qty": 329.6,
           "unit": "g"
         }
       }
@@ -21,20 +21,20 @@
     {
       "ingredient": "filipino_style_spaghetti_step_3",
       "amount": {
-        "qty": 327.2,
+        "qty": 329.6,
         "unit": "g"
       }
     }
   ],
-  "environment": {
-    "temperatureC": 175,
-    "medium": "frying_oil"
-  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
     }
   },
   "stateNote": "Transfer hot dogs to a plate using a slotted spoon, leaving the oil behind.",
@@ -42,12 +42,7 @@
     {
       "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.4"
-    },
-    {
-      "field": "environment",
-      "kind": "estimate",
-      "note": "no temperature given; assumed 175.0 °C for frying_oil"
+      "note": "the decision model gave this answer a probability of 0.45"
     },
     {
       "field": "end",

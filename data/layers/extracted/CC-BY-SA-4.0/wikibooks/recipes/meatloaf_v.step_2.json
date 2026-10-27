@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "chickpea",
+        "ingredient": "chickpea_rinse",
         "amount": {
           "qty": 412.5,
           "unit": "g"
@@ -39,6 +39,11 @@
   },
   "stateNote": "Drain the chickpeas or white beans, reserving the liquid. Mash the peas or beans to a paste.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.5"
+    },
     {
       "field": "end",
       "kind": "estimate",

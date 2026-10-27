@@ -5,11 +5,11 @@
     "source": "wikibooks_isombe_na_kariyo_cassava_leaves_with_pumpkin",
     "step": 1
   },
-  "technique": "chop",
+  "technique": "rinse",
   "inputs": {
     "of": [
       {
-        "ingredient": "cassava",
+        "ingredient": "cassava_chop",
         "amount": {
           "qty": 2,
           "unit": "bunch"
@@ -19,7 +19,7 @@
   },
   "outputs": [
     {
-      "ingredient": "cassava_chop",
+      "ingredient": "cassava_chop_rinse",
       "amount": {
         "qty": 1,
         "unit": "batch"
@@ -39,6 +39,11 @@
   },
   "stateNote": "Remove the tough stems from the cassava leaves, and wash them thoroughly under running water. Chop the leaves into smaller pieces.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.59"
+    },
     {
       "field": "end",
       "kind": "estimate",

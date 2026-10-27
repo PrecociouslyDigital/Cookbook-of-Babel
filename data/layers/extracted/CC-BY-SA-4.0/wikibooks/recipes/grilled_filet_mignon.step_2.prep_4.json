@@ -1,0 +1,44 @@
+{
+  "id": "grilled_filet_mignon.step_2.prep_4",
+  "source": "wikibooks_grilled_filet_mignon",
+  "technique": "soak",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "untreated_mesquite_chips",
+        "amount": {
+          "qty": 0.6666666666666666,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "untreated_mesquite_chips_soak",
+      "amount": {
+        "qty": 0.6666666666666666,
+        "unit": "cup"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 30,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "⅔ cup untreated mesquite chips, soaked in water 30 minutes",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    }
+  ]
+}

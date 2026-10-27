@@ -1,0 +1,49 @@
+{
+  "id": "tod_mun_thai_fish_cakes.step_2.prep_4",
+  "source": "wikibooks_tod_mun_thai_fish_cakes",
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "green_bean",
+        "amount": {
+          "qty": 120,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "green_bean_cut",
+      "amount": {
+        "qty": 120,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "120 grams (about ¼ lb) green beans",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

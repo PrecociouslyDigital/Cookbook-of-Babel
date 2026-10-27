@@ -5,7 +5,7 @@
     "source": "wikibooks_homemade_aquafaba",
     "step": 1
   },
-  "technique": "soak",
+  "technique": "mix",
   "inputs": {
     "of": [
       {
@@ -19,7 +19,7 @@
   },
   "outputs": [
     {
-      "ingredient": "chickpea_soak",
+      "ingredient": "chickpea_mix",
       "amount": {
         "qty": 0.3,
         "unit": "g"
@@ -40,9 +40,14 @@
   "stateNote": "Fill a pot with water, and add the chickpeas.",
   "issues": [
     {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.5"
+    },
+    {
       "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.37"
+      "note": "the decision model gave this answer a probability of 0.57"
     },
     {
       "field": "inputs",

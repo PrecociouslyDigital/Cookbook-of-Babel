@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "common_bean_simmer_rinse",
+        "ingredient": "common_bean_rinse_simmer_rinse",
         "amount": {
           "qty": 0.3,
           "unit": "g"
@@ -19,7 +19,7 @@
   },
   "outputs": [
     {
-      "ingredient": "common_bean_simmer_rinse_grind",
+      "ingredient": "common_bean_rinse_simmer_rinse_grind",
       "amount": {
         "qty": 0.3,
         "unit": "g"
@@ -39,6 +39,16 @@
   },
   "stateNote": "Smash the beans, perhaps with a potato masher.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.43"
+    },
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.59"
+    },
     {
       "field": "end",
       "kind": "estimate",

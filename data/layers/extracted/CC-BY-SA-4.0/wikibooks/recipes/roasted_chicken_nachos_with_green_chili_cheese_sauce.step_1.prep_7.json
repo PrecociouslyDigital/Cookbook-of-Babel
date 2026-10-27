@@ -1,0 +1,49 @@
+{
+  "id": "roasted_chicken_nachos_with_green_chili_cheese_sauce.step_1.prep_7",
+  "source": "wikibooks_roasted_chicken_nachos_with_green_chili_cheese_sauce",
+  "technique": "toast",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "cumin",
+        "amount": {
+          "qty": 1,
+          "unit": "tsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "cumin_toast",
+      "amount": {
+        "qty": 1,
+        "unit": "tsp"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "1 teaspoon toasted cumin seeds",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

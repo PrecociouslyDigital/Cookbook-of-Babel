@@ -5,7 +5,7 @@
     "source": "wikibooks_rye_bread_layer_cake",
     "step": 8
   },
-  "technique": "chill",
+  "technique": "assemble",
   "inputs": {
     "of": [
       {
@@ -16,7 +16,7 @@
         }
       },
       {
-        "ingredient": "cream",
+        "ingredient": "cream_whisk",
         "amount": {
           "qty": 500,
           "unit": "ml"
@@ -40,17 +40,13 @@
       "unit": "h"
     },
     "sensitivity": {
-      "refTempC": 20,
-      "q10": 1
+      "refTempC": 4,
+      "q10": 1,
+      "maxTempC": 8
     }
   },
   "stateNote": "Whip two-thirds of the cream, and spread it between the layers. Cover and chill in the fridge overnight.",
   "issues": [
-    {
-      "field": "technique",
-      "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.55"
-    },
     {
       "field": "end",
       "kind": "estimate",

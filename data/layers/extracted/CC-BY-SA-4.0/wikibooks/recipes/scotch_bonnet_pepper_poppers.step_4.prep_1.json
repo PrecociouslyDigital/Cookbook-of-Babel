@@ -1,0 +1,49 @@
+{
+  "id": "scotch_bonnet_pepper_poppers.step_4.prep_1",
+  "source": "wikibooks_scotch_bonnet_pepper_poppers",
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "scotch_bonnet_chile",
+        "amount": {
+          "qty": 24,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "scotch_bonnet_chile_cut",
+      "amount": {
+        "qty": 24,
+        "unit": "piece"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "24 Scotch bonnet peppers",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

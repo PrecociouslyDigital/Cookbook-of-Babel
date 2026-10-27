@@ -1,0 +1,49 @@
+{
+  "id": "cherry_delight.step_1.prep_1",
+  "source": "wikibooks_cherry_delight",
+  "technique": "grind",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "graham_cracker",
+        "amount": {
+          "qty": 2,
+          "unit": "package"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "graham_cracker_grind",
+      "amount": {
+        "qty": 2,
+        "unit": "package"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "2 packages graham crackers, crushed to fine crumbs",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

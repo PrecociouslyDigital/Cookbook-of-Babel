@@ -26,16 +26,23 @@
       }
     }
   ],
-  "environment": {
-    "temperatureC": 190,
-    "medium": "oven_air"
-  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 5,
       "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
     }
   },
-  "stateNote": "Take out of the oven and tap the bottom of the loaf, which should sound hollow—if not, bake it for another 5 minutes."
+  "stateNote": "Take out of the oven and tap the bottom of the loaf, which should sound hollow—if not, bake it for another 5 minutes.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.55"
+    }
+  ]
 }

@@ -1,0 +1,49 @@
+{
+  "id": "tofu_saltado.step_8.prep_13",
+  "source": "wikibooks_tofu_saltado",
+  "technique": "chop",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "mint",
+        "amount": {
+          "qty": 30,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "mint_chop",
+      "amount": {
+        "qty": 30,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "30 g fresh mint",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

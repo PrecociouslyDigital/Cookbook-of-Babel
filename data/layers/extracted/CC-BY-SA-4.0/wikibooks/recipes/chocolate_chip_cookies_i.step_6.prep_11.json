@@ -1,0 +1,49 @@
+{
+  "id": "chocolate_chip_cookies_i.step_6.prep_11",
+  "source": "wikibooks_chocolate_chip_cookies_i",
+  "technique": "chop",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "nuts_and_seeds",
+        "amount": {
+          "qty": 5,
+          "unit": "oz"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "nuts_and_seeds_chop",
+      "amount": {
+        "qty": 5,
+        "unit": "oz"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "5 oz (150 g) chopped nuts, such as groundnuts (optional)",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

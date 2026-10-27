@@ -9,19 +9,26 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "cassava_tubers",
+        "ingredient": "cassava_tubers_rinse",
         "amount": {
           "qty": 5,
           "unit": "kg"
+        }
+      },
+      {
+        "ingredient": "water",
+        "amount": {
+          "qty": 1,
+          "unit": "pinch"
         }
       }
     ]
   },
   "outputs": [
     {
-      "ingredient": "cassava_tubers_rinse",
+      "ingredient": "akpu_step_1",
       "amount": {
-        "qty": 5000,
+        "qty": 5000.3,
         "unit": "g"
       }
     }
@@ -39,6 +46,16 @@
   },
   "stateNote": "Peel the cassava tubers and wash thoroughly.",
   "issues": [
+    {
+      "field": "inputs",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.51"
+    },
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "'Water': no quantity given; assumed a pinch"
+    },
     {
       "field": "end",
       "kind": "estimate",

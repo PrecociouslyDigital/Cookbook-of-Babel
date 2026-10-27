@@ -58,7 +58,7 @@
         }
       },
       {
-        "ingredient": "onion",
+        "ingredient": "onion_chop",
         "amount": {
           "qty": 8,
           "unit": "tbsp"
@@ -93,7 +93,7 @@
         }
       },
       {
-        "ingredient": "green_onion",
+        "ingredient": "green_onion_chop",
         "amount": {
           "qty": 1,
           "unit": "tbsp"
@@ -124,9 +124,14 @@
   "stateNote": "Add chopped bacon and remaining ingredients and mix.",
   "issues": [
     {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.52"
+    },
+    {
       "field": "outputs",
       "kind": "estimate",
-      "note": "assumed 1 g/ml for mayonnaise, cider_vinegar, beef, chicken, onion, pepper, mustard, green_onion"
+      "note": "assumed 1 g/ml for mayonnaise, cider_vinegar, beef, chicken, onion_chop, pepper, mustard, green_onion_chop"
     },
     {
       "field": "environment",

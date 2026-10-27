@@ -1,0 +1,54 @@
+{
+  "id": "creme_saint_honore.step_1.prep_1",
+  "source": "wikibooks_creme_saint_honore",
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "creme_patissiere",
+        "amount": {
+          "qty": 1,
+          "unit": "pt"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "creme_patissiere_mix",
+      "amount": {
+        "qty": 1,
+        "unit": "pt"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "1 pint crème pâtissière, still hot",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.54"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

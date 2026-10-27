@@ -1,0 +1,44 @@
+{
+  "id": "mesquite_chicken_sandwich.step_2.prep_2",
+  "source": "wikibooks_mesquite_chicken_sandwich",
+  "technique": "soak",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "mesquite_wood_chips",
+        "amount": {
+          "qty": 1,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "mesquite_wood_chips_soak",
+      "amount": {
+        "qty": 1,
+        "unit": "cup"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 30,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "1 cup mesquite wood chips, soaked in water 30 minutes",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    }
+  ]
+}

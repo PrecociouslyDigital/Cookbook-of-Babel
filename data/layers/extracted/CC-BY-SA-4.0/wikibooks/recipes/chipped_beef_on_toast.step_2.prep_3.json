@@ -1,0 +1,49 @@
+{
+  "id": "chipped_beef_on_toast.step_2.prep_3",
+  "source": "wikibooks_chipped_beef_on_toast",
+  "technique": "dissolve",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "condensed_milk",
+        "amount": {
+          "qty": 24,
+          "unit": "oz"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "condensed_milk_dissolve",
+      "amount": {
+        "qty": 24,
+        "unit": "oz"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "2 cans (24 oz) evaporated milk",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

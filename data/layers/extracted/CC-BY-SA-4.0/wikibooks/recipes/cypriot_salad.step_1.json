@@ -9,21 +9,21 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "tomato",
+        "ingredient": "tomato_cut",
         "amount": {
           "qty": 1,
           "unit": "piece"
         }
       },
       {
-        "ingredient": "cucumber",
+        "ingredient": "cucumber_cut",
         "amount": {
           "qty": 1,
           "unit": "piece"
         }
       },
       {
-        "ingredient": "lettuce",
+        "ingredient": "lettuce_cut",
         "amount": {
           "qty": 3,
           "unit": "piece"
@@ -53,6 +53,11 @@
   },
   "stateNote": "Cut the vegetables into pieces.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.55"
+    },
     {
       "field": "inputs",
       "kind": "estimate",

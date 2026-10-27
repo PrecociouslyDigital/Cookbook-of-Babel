@@ -1,0 +1,54 @@
+{
+  "id": "no_bake_chocolate_cake.step_5.prep_6",
+  "source": "wikibooks_no_bake_chocolate_cake",
+  "technique": "grind",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "graham_cracker",
+        "amount": {
+          "qty": 2.5,
+          "unit": "package"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "graham_cracker_grind",
+      "amount": {
+        "qty": 2.5,
+        "unit": "package"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "2½ packs graham crackers, plain digestive biscuits, or whole wheat biscuits; crumbled",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.4"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

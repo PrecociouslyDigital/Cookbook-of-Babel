@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "spinach_rinse_boil",
+        "ingredient": "spinach_rinse_rinse_boil",
         "amount": {
           "qty": 0.3,
           "unit": "g"
@@ -19,7 +19,7 @@
   },
   "outputs": [
     {
-      "ingredient": "spinach_rinse_boil_rinse",
+      "ingredient": "spinach_rinse_rinse_boil_rinse",
       "amount": {
         "qty": 0.3,
         "unit": "g"
@@ -39,6 +39,11 @@
   },
   "stateNote": "Rinse in cold water.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.59"
+    },
     {
       "field": "end",
       "kind": "estimate",

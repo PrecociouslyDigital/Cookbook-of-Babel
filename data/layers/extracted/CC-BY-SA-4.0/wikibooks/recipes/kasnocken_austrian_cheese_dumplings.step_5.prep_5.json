@@ -1,0 +1,54 @@
+{
+  "id": "kasnocken_austrian_cheese_dumplings.step_5.prep_5",
+  "source": "wikibooks_kasnocken_austrian_cheese_dumplings",
+  "technique": "grind",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "cheese",
+        "amount": {
+          "qty": 120,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "cheese_grind",
+      "amount": {
+        "qty": 120,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "120 g fatty cheese plus 120 g low-fat cheese OR 250 g Pinzgauer Bierkäse cheese",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.53"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

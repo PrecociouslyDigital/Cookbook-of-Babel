@@ -9,9 +9,9 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "milk_boil",
+        "ingredient": "milk_boil_boil",
         "amount": {
-          "qty": 3899,
+          "qty": 3785.4,
           "unit": "g"
         }
       }
@@ -19,9 +19,9 @@
   },
   "outputs": [
     {
-      "ingredient": "milk_boil_cool",
+      "ingredient": "milk_boil_boil_cool",
       "amount": {
-        "qty": 3899,
+        "qty": 3785.4,
         "unit": "g"
       }
     }
@@ -39,11 +39,6 @@
   },
   "stateNote": "Turn off the heat and wait for the milk to cool to room temperature.",
   "issues": [
-    {
-      "field": "environment",
-      "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.54"
-    },
     {
       "field": "end",
       "kind": "estimate",

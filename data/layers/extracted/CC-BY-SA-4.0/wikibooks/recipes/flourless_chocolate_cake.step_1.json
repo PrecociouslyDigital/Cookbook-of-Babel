@@ -9,14 +9,14 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "butter",
+        "ingredient": "butter_heat",
         "amount": {
           "qty": 150,
           "unit": "g"
         }
       },
       {
-        "ingredient": "chocolate",
+        "ingredient": "chocolate_heat",
         "amount": {
           "qty": 150,
           "unit": "g"
@@ -46,6 +46,11 @@
   },
   "stateNote": "Melt the chocolate and butter in a bowl set above another pan of simmering water (or use a double boiler).",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.53"
+    },
     {
       "field": "environment",
       "kind": "estimate",

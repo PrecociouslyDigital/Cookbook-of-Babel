@@ -5,11 +5,11 @@
     "source": "wikibooks_carrot_cake_smoothie",
     "step": 1
   },
-  "technique": "steam",
+  "technique": "heat",
   "inputs": {
     "of": [
       {
-        "ingredient": "carrot",
+        "ingredient": "carrot_heat",
         "amount": {
           "qty": 2,
           "unit": "piece"
@@ -34,7 +34,7 @@
     }
   ],
   "environment": {
-    "temperatureC": 100,
+    "temperatureC": 20,
     "medium": "still_air"
   },
   "end": {
@@ -47,19 +47,14 @@
   "stateNote": "Microwave the carrots with 2 teaspoons water in a microwave-safe bowl on high for 4–5 minutes.",
   "issues": [
     {
-      "field": "technique",
-      "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.51"
-    },
-    {
       "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.34"
+      "note": "the decision model gave this answer a probability of 0.37"
     },
     {
       "field": "environment",
       "kind": "estimate",
-      "note": "no temperature given; used the middle of steam's typical range"
+      "note": "no temperature given; assumed 20.0 °C for still_air"
     }
   ]
 }

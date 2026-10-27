@@ -47,28 +47,33 @@
       }
     }
   ],
-  "environment": {
-    "temperatureC": 180,
-    "medium": "pan_contact"
-  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
     }
   },
   "stateNote": "Remove from heat and add vanilla extract, marshmallow creme, and white chocolate chips.",
   "issues": [
     {
-      "field": "outputs",
-      "kind": "estimate",
-      "note": "assumed 1 g/ml for chocolate, vanilla"
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.51"
     },
     {
       "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.47"
+    },
+    {
+      "field": "outputs",
       "kind": "estimate",
-      "note": "no temperature given; assumed 180.0 °C for pan_contact"
+      "note": "assumed 1 g/ml for chocolate, vanilla"
     },
     {
       "field": "end",

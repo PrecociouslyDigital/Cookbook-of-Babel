@@ -16,7 +16,7 @@
         }
       },
       {
-        "ingredient": "spring_onions",
+        "ingredient": "spring_onions_chop",
         "amount": {
           "qty": 4,
           "unit": "piece"
@@ -42,7 +42,7 @@
   ],
   "environment": {
     "temperatureC": 215,
-    "medium": "frying_oil"
+    "medium": "pan_contact"
   },
   "end": {
     "by": "time",
@@ -53,6 +53,11 @@
   },
   "stateNote": "Fry the spring onions and chili peppers together for about 30 seconds.",
   "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.55"
+    },
     {
       "field": "environment",
       "kind": "estimate",

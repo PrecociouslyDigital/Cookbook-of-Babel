@@ -5,7 +5,7 @@
     "source": "wikibooks_fresh_pasta_with_mozzarella_tomato_and_basil",
     "step": 5
   },
-  "technique": "boil",
+  "technique": "assemble",
   "inputs": {
     "of": [
       {
@@ -16,7 +16,7 @@
         }
       },
       {
-        "ingredient": "pasta",
+        "ingredient": "pasta_boil",
         "amount": {
           "qty": 250,
           "unit": "g"
@@ -47,9 +47,14 @@
   "stateNote": "When you're ready, boil the egg pasta until al dente. Drain the pasta and then pour, still hot, over the other ingredients.",
   "issues": [
     {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.55"
+    },
+    {
       "field": "environment",
       "kind": "estimate",
-      "note": "no temperature given; used the middle of boil's typical range"
+      "note": "no temperature given; assumed 100.0 °C for boiling_water"
     },
     {
       "field": "end",

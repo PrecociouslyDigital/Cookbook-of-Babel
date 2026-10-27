@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "water_boil",
+        "ingredient": "water_boil_boil",
         "amount": {
           "qty": 0.3,
           "unit": "g"
@@ -52,6 +52,11 @@
   },
   "stateNote": "Put 2 tsp of dried green tea in the teapot.",
   "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.56"
+    },
     {
       "field": "outputs",
       "kind": "estimate",

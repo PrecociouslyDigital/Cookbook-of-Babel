@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "pasta_boil",
+        "ingredient": "pasta_boil_boil",
         "amount": {
           "qty": 0.3,
           "unit": "g"
@@ -53,6 +53,11 @@
   },
   "stateNote": "Put the clams into a separate small saucepan with the white wine and poach gently for about 2 minutes. Take off the heat and set aside.",
   "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.43"
+    },
     {
       "field": "environment",
       "kind": "estimate",

@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "potato_shreds_rinse_simmer",
+        "ingredient": "potato_cut_julienne_rinse_simmer",
         "amount": {
           "qty": 0.3,
           "unit": "g"
@@ -19,22 +19,22 @@
   },
   "outputs": [
     {
-      "ingredient": "potato_shreds_rinse_simmer_dry",
+      "ingredient": "potato_cut_julienne_rinse_simmer_dry",
       "amount": {
         "qty": 0.3,
         "unit": "g"
       }
     }
   ],
-  "environment": {
-    "temperatureC": 55,
-    "medium": "still_air"
-  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
     }
   },
   "stateNote": "Drain the fries, and dry them well.",
@@ -42,12 +42,7 @@
     {
       "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.58"
-    },
-    {
-      "field": "environment",
-      "kind": "estimate",
-      "note": "no temperature given; used the middle of dry's typical range"
+      "note": "the decision model gave this answer a probability of 0.48"
     },
     {
       "field": "end",

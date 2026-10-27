@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "noodle_toast",
+        "ingredient": "noodle_toast_toast",
         "amount": {
           "qty": 0.3,
           "unit": "g"
@@ -30,7 +30,7 @@
         }
       },
       {
-        "ingredient": "water",
+        "ingredient": "water_boil",
         "amount": {
           "qty": 1,
           "unit": "pinch"
@@ -61,6 +61,11 @@
   "stateNote": "Add some boiling water, along with seasoning and pepper.",
   "issues": [
     {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.53"
+    },
+    {
       "field": "inputs",
       "kind": "estimate",
       "note": "'Seasoning cubes': no quantity given; assumed a pinch"
@@ -78,7 +83,7 @@
     {
       "field": "outputs",
       "kind": "estimate",
-      "note": "assumed 1 g/ml for dehydrated_broth, pepper"
+      "note": "assumed 1 g/ml for dehydrated_broth, pepper, water_boil"
     },
     {
       "field": "environment",

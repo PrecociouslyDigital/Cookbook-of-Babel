@@ -1,0 +1,49 @@
+{
+  "id": "cajun_red_beans_and_rice.step_1.prep_1",
+  "source": "wikibooks_cajun_red_beans_and_rice",
+  "technique": "soak",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "common_bean",
+        "amount": {
+          "qty": 1,
+          "unit": "lb"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "common_bean_soak",
+      "amount": {
+        "qty": 1,
+        "unit": "lb"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "1 pound dry red beans (e.g. kidney or cowpea)",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

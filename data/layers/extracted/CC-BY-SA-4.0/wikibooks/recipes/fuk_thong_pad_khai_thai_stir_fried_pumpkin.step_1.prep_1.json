@@ -1,0 +1,49 @@
+{
+  "id": "fuk_thong_pad_khai_thai_stir_fried_pumpkin.step_1.prep_1",
+  "source": "wikibooks_fuk_thong_pad_khai_thai_stir_fried_pumpkin",
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "kabocha",
+        "amount": {
+          "qty": 400,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "kabocha_cut",
+      "amount": {
+        "qty": 400,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "400 g Japanese pumpkin (kabocha)",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

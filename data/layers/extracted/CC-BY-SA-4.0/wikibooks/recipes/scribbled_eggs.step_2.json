@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "oil_and_fat",
+        "ingredient": "oil_and_fat_heat",
         "amount": {
           "qty": 1,
           "unit": "pinch"
@@ -20,7 +20,7 @@
         "max": 1,
         "of": [
           {
-            "ingredient": "tomato",
+            "ingredient": "tomato_fry",
             "amount": {
               "qty": 1,
               "unit": "pinch"
@@ -41,7 +41,7 @@
   ],
   "environment": {
     "temperatureC": 190,
-    "medium": "pan_contact"
+    "medium": "frying_oil"
   },
   "end": {
     "by": "time",
@@ -55,7 +55,7 @@
     {
       "field": "technique",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.57"
+      "note": "the decision model gave this answer a probability of 0.52"
     },
     {
       "field": "environment",
@@ -75,7 +75,7 @@
     {
       "field": "outputs",
       "kind": "estimate",
-      "note": "assumed 1 g/ml for oil_and_fat, tomato"
+      "note": "assumed 1 g/ml for oil_and_fat_heat, tomato_fry"
     },
     {
       "field": "environment",

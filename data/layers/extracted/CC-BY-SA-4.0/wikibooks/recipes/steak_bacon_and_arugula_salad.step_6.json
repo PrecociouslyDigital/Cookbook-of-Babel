@@ -23,7 +23,7 @@
         }
       },
       {
-        "ingredient": "bacon",
+        "ingredient": "bacon_cut",
         "amount": {
           "qty": 5,
           "unit": "strip"
@@ -47,17 +47,13 @@
       "unit": "min"
     },
     "sensitivity": {
-      "refTempC": 20,
-      "q10": 1
+      "refTempC": 4,
+      "q10": 1,
+      "maxTempC": 8
     }
   },
   "stateNote": "Slice steaks thinly across the grain at a 45 degree angle. Toss together remaining ingredients and dressing in your serving bowl and refrigerate until chilled. Serve cold.",
   "issues": [
-    {
-      "field": "technique",
-      "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.55"
-    },
     {
       "field": "end",
       "kind": "estimate",

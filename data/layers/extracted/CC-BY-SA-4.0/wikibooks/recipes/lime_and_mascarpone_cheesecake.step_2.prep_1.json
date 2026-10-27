@@ -1,0 +1,49 @@
+{
+  "id": "lime_and_mascarpone_cheesecake.step_2.prep_1",
+  "source": "wikibooks_lime_and_mascarpone_cheesecake",
+  "technique": "whisk",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "mascarpone_cheese",
+        "amount": {
+          "qty": 500,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "mascarpone_cheese_whisk",
+      "amount": {
+        "qty": 500,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "500 g mascarpone cheese or plain cream cheese",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

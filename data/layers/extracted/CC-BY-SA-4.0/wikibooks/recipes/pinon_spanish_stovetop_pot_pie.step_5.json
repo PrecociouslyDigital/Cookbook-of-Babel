@@ -5,7 +5,7 @@
     "source": "wikibooks_pinon_spanish_stovetop_pot_pie",
     "step": 5
   },
-  "technique": "whisk",
+  "technique": "separate",
   "inputs": {
     "of": [
       {
@@ -16,7 +16,7 @@
         }
       },
       {
-        "ingredient": "egg",
+        "ingredient": "egg_whisk",
         "amount": {
           "qty": 6,
           "unit": "piece"
@@ -46,6 +46,11 @@
   },
   "stateNote": "Beat 3 eggs in a bowl and add a pinch of salt and pepper. Beat the other 3 eggs in a separate bowl, adding salt and pepper to taste as well. Set both bowls aside.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.47"
+    },
     {
       "field": "end",
       "kind": "estimate",

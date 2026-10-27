@@ -1,0 +1,73 @@
+{
+  "id": "nshima.step_1",
+  "source": "wikibooks_nshima",
+  "sourceRef": {
+    "source": "wikibooks_nshima",
+    "step": 1
+  },
+  "technique": "boil",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "water_boil",
+        "amount": {
+          "qty": 1,
+          "unit": "l"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "water_boil_boil",
+      "amount": {
+        "qty": 1000,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 100,
+    "medium": "boiling_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    }
+  },
+  "stateNote": "Boil 1 Litre of water in advance, in a Kettle or Sauce pan.",
+  "issues": [
+    {
+      "field": "sourceRef",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.58"
+    },
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.49"
+    },
+    {
+      "field": "inputs",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.51"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for water_boil"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of boil's typical range"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

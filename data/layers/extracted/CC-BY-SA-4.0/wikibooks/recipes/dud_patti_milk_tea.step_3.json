@@ -11,7 +11,7 @@
       {
         "ingredient": "dud_patti_milk_tea_step_2",
         "amount": {
-          "qty": 619.1,
+          "qty": 601.4,
           "unit": "g"
         }
       }
@@ -21,14 +21,14 @@
     {
       "ingredient": "dud_patti_milk_tea_step_3",
       "amount": {
-        "qty": 619.1,
+        "qty": 601.4,
         "unit": "g"
       }
     }
   ],
   "environment": {
     "temperatureC": 85,
-    "medium": "simmering_water"
+    "medium": "pan_contact"
   },
   "end": {
     "by": "time",
@@ -39,6 +39,11 @@
   },
   "stateNote": "Stir it a little with a spatula to allow it to brew before it boils over.",
   "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.46"
+    },
     {
       "field": "environment",
       "kind": "estimate",

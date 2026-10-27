@@ -1,0 +1,49 @@
+{
+  "id": "pan_fried_white_brined_cheese_saganaki.step_2.prep_1",
+  "source": "wikibooks_pan_fried_white_brined_cheese_saganaki",
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "cheese",
+        "amount": {
+          "qty": 1,
+          "unit": "slice"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "cheese_cut",
+      "amount": {
+        "qty": 1,
+        "unit": "slice"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "1 large slice of salty, brined white cheese (e.g. feta, sirene)",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

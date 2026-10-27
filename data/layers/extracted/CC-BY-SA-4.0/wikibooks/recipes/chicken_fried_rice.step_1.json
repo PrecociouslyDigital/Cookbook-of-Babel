@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "butter",
+        "ingredient": "butter_heat",
         "amount": {
           "qty": 2,
           "unit": "tbsp"
@@ -23,14 +23,14 @@
         }
       },
       {
-        "ingredient": "chiles",
+        "ingredient": "chiles_cut",
         "amount": {
           "qty": 2,
           "unit": "piece"
         }
       },
       {
-        "ingredient": "green_onion",
+        "ingredient": "green_onion_cut",
         "amount": {
           "qty": 2,
           "unit": "piece"
@@ -60,6 +60,11 @@
   },
   "stateNote": "Melt the butter in a non-stick pan. Fry the garlic, chilli, and scallion, stirring, for 15 seconds.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.52"
+    },
     {
       "field": "environment",
       "kind": "estimate",

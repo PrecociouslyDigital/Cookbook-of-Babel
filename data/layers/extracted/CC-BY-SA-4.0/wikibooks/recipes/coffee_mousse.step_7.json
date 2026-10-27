@@ -1,0 +1,53 @@
+{
+  "id": "coffee_mousse.step_7",
+  "source": "wikibooks_coffee_mousse",
+  "sourceRef": {
+    "source": "wikibooks_coffee_mousse",
+    "step": 7
+  },
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "coffee_mousse_step_6",
+        "amount": {
+          "qty": 1,
+          "unit": "batch"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "coffee_mousse",
+      "amount": {
+        "qty": 1,
+        "unit": "batch"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "Serve the mousse with the whipped cream, and garnish with grated chocolate.",
+  "issues": [
+    {
+      "field": "sourceRef",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.51"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "lemon_rinse",
+        "ingredient": "lemon_rinse_rinse",
         "amount": {
           "qty": 1,
           "unit": "batch"
@@ -19,7 +19,7 @@
   },
   "outputs": [
     {
-      "ingredient": "lemon_rinse_cut",
+      "ingredient": "lemon_rinse_rinse_cut",
       "amount": {
         "qty": 1,
         "unit": "batch"
@@ -39,6 +39,11 @@
   },
   "stateNote": "Cut the lemons in to small pieces about 2 cm (¾ inch) on each side, and place in a bowl.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.51"
+    },
     {
       "field": "end",
       "kind": "estimate",

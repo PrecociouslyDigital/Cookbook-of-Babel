@@ -9,14 +9,14 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "cabbage_cut",
+        "ingredient": "cabbage_cut_julienne",
         "amount": {
           "qty": 0.3,
           "unit": "g"
         }
       },
       {
-        "ingredient": "carrot",
+        "ingredient": "carrot_julienne",
         "amount": {
           "qty": 1,
           "unit": "pinch"
@@ -47,6 +47,11 @@
   "stateNote": "Use a grater to shred the carrot into a bowl. If possible, use a grater or mandoline that will make long, thin pieces.",
   "issues": [
     {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.46"
+    },
+    {
       "field": "inputs",
       "kind": "estimate",
       "note": "'Carrots, peeled': no quantity given; assumed a pinch"
@@ -54,7 +59,7 @@
     {
       "field": "outputs",
       "kind": "estimate",
-      "note": "assumed 1 g/ml for carrot"
+      "note": "assumed 1 g/ml for carrot_julienne"
     },
     {
       "field": "end",

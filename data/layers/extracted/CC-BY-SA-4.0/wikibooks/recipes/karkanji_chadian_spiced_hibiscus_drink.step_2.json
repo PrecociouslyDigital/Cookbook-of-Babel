@@ -9,14 +9,14 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "roselle_rinse",
+        "ingredient": "roselle_rinse_rinse",
         "amount": {
           "qty": 236.6,
           "unit": "g"
         }
       },
       {
-        "ingredient": "water",
+        "ingredient": "water_boil",
         "amount": {
           "qty": 4.5,
           "unit": "cup"
@@ -47,9 +47,9 @@
   "stateNote": "In a saucepan, bring the water to a boil.",
   "issues": [
     {
-      "field": "environment",
-      "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.53"
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for water_boil"
     },
     {
       "field": "environment",

@@ -5,7 +5,7 @@
     "source": "wikibooks_albanian_mixed_vegetables",
     "step": 3
   },
-  "technique": "pan_fry",
+  "technique": "season",
   "inputs": {
     "of": [
       {
@@ -16,21 +16,21 @@
         }
       },
       {
-        "ingredient": "onion",
+        "ingredient": "onion_fry",
         "amount": {
           "qty": 1,
           "unit": "cup"
         }
       },
       {
-        "ingredient": "tomato",
+        "ingredient": "tomato_fry",
         "amount": {
           "qty": 1,
           "unit": "cup"
         }
       },
       {
-        "ingredient": "parsley",
+        "ingredient": "parsley_chop",
         "amount": {
           "qty": 1,
           "unit": "tbsp"
@@ -62,7 +62,7 @@
     }
   ],
   "environment": {
-    "temperatureC": 185,
+    "temperatureC": 175,
     "medium": "frying_oil"
   },
   "end": {
@@ -75,9 +75,9 @@
   "stateNote": "Sauté onion and tomatoes in the remaining oil, and season with parsley, salt, and pepper.",
   "issues": [
     {
-      "field": "technique",
+      "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.48"
+      "note": "the decision model gave this answer a probability of 0.58"
     },
     {
       "field": "inputs",
@@ -92,12 +92,12 @@
     {
       "field": "outputs",
       "kind": "estimate",
-      "note": "assumed 1 g/ml for onion, tomato, parsley, pepper"
+      "note": "assumed 1 g/ml for onion_fry, tomato_fry, parsley_chop, pepper"
     },
     {
       "field": "environment",
       "kind": "estimate",
-      "note": "no temperature given; used the middle of pan_fry's typical range"
+      "note": "no temperature given; assumed 175.0 °C for frying_oil"
     },
     {
       "field": "end",

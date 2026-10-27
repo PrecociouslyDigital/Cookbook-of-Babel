@@ -5,25 +5,25 @@
     "source": "wikibooks_sailor_s_sauce_hartshorne",
     "step": 1
   },
-  "technique": "chop",
+  "technique": "mix",
   "inputs": {
     "of": [
       {
-        "ingredient": "liver",
+        "ingredient": "liver_chop",
         "amount": {
           "qty": 1,
           "unit": "piece"
         }
       },
       {
-        "ingredient": "shallot",
+        "ingredient": "shallot_chop",
         "amount": {
           "qty": 3,
           "unit": "piece"
         }
       },
       {
-        "ingredient": "truffle",
+        "ingredient": "truffle_chop",
         "amount": {
           "qty": 2,
           "unit": "piece"
@@ -53,6 +53,11 @@
   },
   "stateNote": "Chop the liver, shallots, truffles or mushrooms.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.51"
+    },
     {
       "field": "inputs",
       "kind": "estimate",

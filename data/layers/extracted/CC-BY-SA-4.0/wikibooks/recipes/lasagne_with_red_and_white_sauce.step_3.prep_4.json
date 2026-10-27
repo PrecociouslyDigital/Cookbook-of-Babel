@@ -1,0 +1,49 @@
+{
+  "id": "lasagne_with_red_and_white_sauce.step_3.prep_4",
+  "source": "wikibooks_lasagne_with_red_and_white_sauce",
+  "technique": "chop",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "rosemary",
+        "amount": {
+          "qty": 1,
+          "unit": "sprig"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "rosemary_chop",
+      "amount": {
+        "qty": 1,
+        "unit": "sprig"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "1 sprig rosemary, leaves removed and minced",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

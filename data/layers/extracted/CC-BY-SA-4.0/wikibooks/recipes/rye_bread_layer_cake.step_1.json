@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "rye",
+        "ingredient": "rye_dry",
         "amount": {
           "qty": 125,
           "unit": "g"
@@ -19,22 +19,22 @@
   },
   "outputs": [
     {
-      "ingredient": "rye_dry",
+      "ingredient": "rye_dry_dry",
       "amount": {
         "qty": 125,
         "unit": "g"
       }
     }
   ],
+  "environment": {
+    "temperatureC": 55,
+    "medium": "still_air"
+  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
-    },
-    "sensitivity": {
-      "refTempC": 20,
-      "q10": 1
     }
   },
   "stateNote": "Leave a couple of slices of unwrapped rye bread to dry outside of the fridge.",
@@ -42,7 +42,12 @@
     {
       "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.57"
+      "note": "the decision model gave this answer a probability of 0.54"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; used the middle of dry's typical range"
     },
     {
       "field": "end",

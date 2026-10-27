@@ -1,0 +1,49 @@
+{
+  "id": "turkey_barley_cabbage_rolls_with_fresh_dill.step_1.prep_1",
+  "source": "wikibooks_turkey_barley_cabbage_rolls_with_fresh_dill",
+  "technique": "simmer",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "barley",
+        "amount": {
+          "qty": 0.5,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "barley_simmer",
+      "amount": {
+        "qty": 0.5,
+        "unit": "cup"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "½ cup pearl barley",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

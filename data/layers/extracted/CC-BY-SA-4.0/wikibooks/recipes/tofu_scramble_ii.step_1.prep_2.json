@@ -1,0 +1,49 @@
+{
+  "id": "tofu_scramble_ii.step_1.prep_2",
+  "source": "wikibooks_tofu_scramble_ii",
+  "technique": "pan_fry",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "smart_vegetarian_bacon",
+        "amount": {
+          "qty": 2,
+          "unit": "strip"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "smart_vegetarian_bacon_pan_fry",
+      "amount": {
+        "qty": 2,
+        "unit": "strip"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "2 strips Smart vegetarian bacon or other breakfast meat substitute",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

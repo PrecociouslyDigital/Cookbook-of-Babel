@@ -5,7 +5,7 @@
     "source": "wikibooks_risotto_ii",
     "step": 7
   },
-  "technique": "dissolve",
+  "technique": "season",
   "inputs": {
     "of": [
       {
@@ -16,7 +16,7 @@
         }
       },
       {
-        "ingredient": "saffron",
+        "ingredient": "saffron_dissolve",
         "amount": {
           "qty": 0.5,
           "unit": "tsp"
@@ -46,6 +46,11 @@
   },
   "stateNote": "In a small bowl, dissolve the saffron in a little hot broth and add it to the rice.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.48"
+    },
     {
       "field": "environment",
       "kind": "estimate",

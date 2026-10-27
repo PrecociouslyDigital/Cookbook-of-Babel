@@ -1,0 +1,49 @@
+{
+  "id": "bacon_cheese_omelet.step_2.prep_3",
+  "source": "wikibooks_bacon_cheese_omelet",
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "cheese",
+        "amount": {
+          "qty": 2,
+          "unit": "slice"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "cheese_cut",
+      "amount": {
+        "qty": 2,
+        "unit": "slice"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "2 slices of American cheese",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

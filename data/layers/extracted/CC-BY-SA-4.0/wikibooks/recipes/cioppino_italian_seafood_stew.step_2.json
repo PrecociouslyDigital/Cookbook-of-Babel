@@ -9,28 +9,28 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "olive_oil",
+        "ingredient": "olive_oil_heat",
         "amount": {
           "qty": 3,
           "unit": "tbsp"
         }
       },
       {
-        "ingredient": "fennel",
+        "ingredient": "fennel_cut",
         "amount": {
           "qty": 1,
           "unit": "piece"
         }
       },
       {
-        "ingredient": "onion",
+        "ingredient": "onion_chop",
         "amount": {
           "qty": 6,
           "unit": "oz"
         }
       },
       {
-        "ingredient": "shallot",
+        "ingredient": "shallot_chop",
         "amount": {
           "qty": 3,
           "unit": "piece"
@@ -67,6 +67,11 @@
   },
   "stateNote": "Add the fennel, onion, shallots, and salt and sauté until the onion is translucent.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.55"
+    },
     {
       "field": "environment",
       "kind": "estimate",

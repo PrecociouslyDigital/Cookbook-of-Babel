@@ -5,18 +5,18 @@
     "source": "wikibooks_rosemary_and_citrus_cordial",
     "step": 1
   },
-  "technique": "cut",
+  "technique": "separate",
   "inputs": {
     "of": [
       {
-        "ingredient": "grapefruit",
+        "ingredient": "grapefruit_rinse",
         "amount": {
           "qty": 1,
           "unit": "piece"
         }
       },
       {
-        "ingredient": "lemon",
+        "ingredient": "lemon_rinse",
         "amount": {
           "qty": 3,
           "unit": "piece"
@@ -46,6 +46,11 @@
   },
   "stateNote": "Using a peeler, remove long strips of peel from grapefruit and 2 of lemons. Be careful not to remove any of white pith.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.53"
+    },
     {
       "field": "end",
       "kind": "estimate",

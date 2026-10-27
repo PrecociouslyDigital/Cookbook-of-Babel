@@ -5,11 +5,11 @@
     "source": "wikibooks_sachertorte",
     "step": 2
   },
-  "technique": "heat",
+  "technique": "cool",
   "inputs": {
     "of": [
       {
-        "ingredient": "chocolate",
+        "ingredient": "chocolate_heat",
         "amount": {
           "qty": 4.5,
           "unit": "oz"
@@ -19,7 +19,7 @@
   },
   "outputs": [
     {
-      "ingredient": "chocolate_heat",
+      "ingredient": "chocolate_heat_cool",
       "amount": {
         "qty": 127.6,
         "unit": "g"
@@ -39,6 +39,11 @@
   },
   "stateNote": "Melt chocolate in microwave, remove, and let cool, while stirring often.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.45"
+    },
     {
       "field": "environment",
       "kind": "estimate",

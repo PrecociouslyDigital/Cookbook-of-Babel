@@ -16,14 +16,14 @@
         }
       },
       {
-        "ingredient": "onion",
+        "ingredient": "onion_fry",
         "amount": {
           "qty": 1,
           "unit": "piece"
         }
       },
       {
-        "ingredient": "meat",
+        "ingredient": "meat_fry",
         "amount": {
           "qty": 0.5,
           "unit": "kg"
@@ -42,7 +42,7 @@
   ],
   "environment": {
     "temperatureC": 190,
-    "medium": "frying_oil"
+    "medium": "pan_contact"
   },
   "end": {
     "by": "time",
@@ -53,6 +53,16 @@
   },
   "stateNote": "Fry the onion and the minced meat in a little oil until the meat is cooked. The fattier the meat is, the less oil you need.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.48"
+    },
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.53"
+    },
     {
       "field": "inputs",
       "kind": "estimate",

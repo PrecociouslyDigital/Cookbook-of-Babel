@@ -5,7 +5,7 @@
     "source": "wikibooks_scrambled_eggs_with_sausage",
     "step": 3
   },
-  "technique": "fry",
+  "technique": "pan_fry",
   "inputs": {
     "of": [
       {
@@ -40,7 +40,7 @@
     }
   ],
   "environment": {
-    "temperatureC": 190,
+    "temperatureC": 185,
     "medium": "pan_contact"
   },
   "end": {
@@ -53,6 +53,11 @@
   "stateNote": "Transfer egg mixture to pan along with vegetables, if using. Fry for 30–60 seconds.",
   "issues": [
     {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.48"
+    },
+    {
       "field": "inputs",
       "kind": "estimate",
       "note": "'Chopped vegetables (optional)': no quantity given; assumed a pinch"
@@ -60,7 +65,7 @@
     {
       "field": "environment",
       "kind": "estimate",
-      "note": "no temperature given; used the middle of fry's typical range"
+      "note": "no temperature given; used the middle of pan_fry's typical range"
     }
   ]
 }

@@ -9,14 +9,14 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "vegetable_oil",
+        "ingredient": "vegetable_oil_heat",
         "amount": {
           "qty": 1,
           "unit": "cup"
         }
       },
       {
-        "ingredient": "shrimp",
+        "ingredient": "shrimp_pan_fry",
         "amount": {
           "qty": 1,
           "unit": "kg"
@@ -28,7 +28,7 @@
     {
       "ingredient": "prawn_curry_step_1",
       "amount": {
-        "qty": 1217.7,
+        "qty": 1236.6,
         "unit": "g"
       }
     }
@@ -46,6 +46,16 @@
   },
   "stateNote": "Heat a tablespoon of oil in a pan and sauté prawns over medium-high heat for 2 minutes only, just until that their water dries out and they turn pink in color. Don't try to cook prawns for more than that because they will become rubbery and hard to chew.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.56"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for vegetable_oil_heat"
+    },
     {
       "field": "environment",
       "kind": "estimate",

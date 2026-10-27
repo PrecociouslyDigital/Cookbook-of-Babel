@@ -9,14 +9,14 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "garlic",
+        "ingredient": "garlic_rinse",
         "amount": {
           "qty": 500,
           "unit": "g"
         }
       },
       {
-        "ingredient": "rabbit",
+        "ingredient": "rabbit_rinse",
         "amount": {
           "qty": 500,
           "unit": "g"
@@ -53,6 +53,11 @@
   },
   "stateNote": "Clean the snails, poultry and rabbit thoroughly. Cut the poultry and rabbit into small pieces and salt them generously.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.51"
+    },
     {
       "field": "end",
       "kind": "estimate",

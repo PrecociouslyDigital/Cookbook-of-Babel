@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "zucchini",
+        "ingredient": "zucchini_grind",
         "amount": {
           "qty": 1,
           "unit": "piece"
@@ -19,7 +19,7 @@
   },
   "outputs": [
     {
-      "ingredient": "zucchini_grind",
+      "ingredient": "zucchini_grind_grind",
       "amount": {
         "qty": 1,
         "unit": "batch"
@@ -39,6 +39,11 @@
   },
   "stateNote": "In a food processor, coarsely grate the courgette. Alternatively, use the coarse grating side of a cheese grater.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.45"
+    },
     {
       "field": "end",
       "kind": "estimate",

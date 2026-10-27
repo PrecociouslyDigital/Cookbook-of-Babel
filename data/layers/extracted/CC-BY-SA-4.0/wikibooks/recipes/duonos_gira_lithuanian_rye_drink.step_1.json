@@ -9,14 +9,14 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "water",
+        "ingredient": "water_boil",
         "amount": {
           "qty": 5,
           "unit": "qt"
         }
       },
       {
-        "ingredient": "rye",
+        "ingredient": "rye_cut",
         "amount": {
           "qty": 1,
           "unit": "lb"
@@ -46,6 +46,11 @@
   },
   "stateNote": "Boil water and pour over the cubed bread. Let soak for 24 hours.",
   "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for water_boil"
+    },
     {
       "field": "environment",
       "kind": "estimate",

@@ -3,6 +3,8 @@ entities: a source, one recipe per step that works on food, and the
 intermediate each step makes. A step that is a preparation
 ("Babel.Preparation") makes the dataset's one item for it, which other
 pages make too; any other step makes an intermediate of the page's own.
+A line prepared on its own before its step, such as a chopped onion, gets
+a recipe of its own that makes the item for that preparation.
 -}
 module Wikibooks.Emit (
     Env (..),
@@ -13,6 +15,8 @@ module Wikibooks.Emit (
     Dish (..),
     PreparedStep (..),
     dish,
+    rejection,
+    ambientSensitivity,
     baseIngredient,
     baseLabel,
     confidenceThreshold,
@@ -24,11 +28,11 @@ import Babel.Lineage (ancestors)
 import Babel.Load (Located (..), World (..), withoutExtracted)
 import Babel.Mass (massByUnit)
 import Babel.Model.Common (Amount (..), Issue (..), IssueKind (..), intensityValue)
-import Babel.Model.Constants (Constants (..))
-import Babel.Model.Id (FormId, IngredientId (..), MediumId (..), RecipeId, SourceId (..), UnitId (..))
+import Babel.Model.Constants (BandEntry (..), Constants (..), StorageTemps (..), TempBands, bandFromCelsius, tempBandEntries)
+import Babel.Model.Id (FormId, IngredientId (..), MediumId (..), RecipeId, SourceId (..), TechniqueId, UnitId (..))
 import Babel.Model.Ingredient (Ingredient (..))
 import Babel.Model.Recipe (End (..), Environment (..), Leaf (..), Outcome (..), Output (..), Recipe (..), Role (..), Select (..), Sensitivity (..), SourceRef (..))
-import Babel.Model.Registry (Dimension (..), Medium (..), Term (..), Unit (..))
+import Babel.Model.Registry (Dimension (..), Medium (id, label), Term (..), Unit (..))
 import Babel.Model.Source (Origin (..), Source (..), originLicence)
 import Babel.Model.Technique (Technique (..), TempRange (..))
 import Babel.Preparation (Preparation (..), determinesOutput, preparationOf, preparations)
@@ -36,6 +40,7 @@ import Babel.Slug (slugify)
 import Data.ByteString qualified as BS
 import Data.Char (isAlphaNum, isAscii, toLower)
 import Data.List (lookup)
+import Data.List.NonEmpty qualified as NE
 import Data.Map.Strict qualified as Map
 import Data.Text qualified as T
 import Decisions.Request (Judged (..))
@@ -43,7 +48,7 @@ import Numeric (showHex)
 import Wikibooks.Dump (Cookbook, Title, article, resolve, titleText)
 import Wikibooks.Page (Line (..), RecipePage (..), Step (..))
 import Wikibooks.Quantity (Duration (..), IngredientLine (..), Lexicon (..), duration, temperatureC, unitAliases)
-import Wikibooks.Questions (IngredientAnswers (..), PageAnswers (..), StepAnswers (..), Vocabulary (..))
+import Wikibooks.Questions (FirstUse (..), IngredientAnswers (..), PageAnswers (..), Place (..), Prep (..), StepAnswers (..), StepMedium (..), Vocabulary (..))
 import Wikibooks.Wikitext (PageKind (..), pageKind)
 
 -- | Answers less probable than this are flagged as uncertain.
@@ -83,6 +88,7 @@ data Env = Env
     , vocabulary :: Vocabulary
     , prepared :: Map Preparation IngredientId
     -- ^ What the dataset makes by each preparation.
+    , constants :: Constants
     }
 
 {- | Index the dataset for extraction. The extracted Wikibooks layer is
@@ -95,6 +101,7 @@ mkEnv cookbook loaded = do
     techniques <-
         maybeToRight "no techniques to choose from" . nonEmpty $
             [(t.value.id, describeTechnique t.value) | t <- Map.elems loaded.techniques, not (spoilage t.value.id)]
+    preparing <- maybeToRight "no preparation techniques to choose from" (nonEmpty (NE.filter (determinesOutput loaded . fst) techniques))
     forms <- maybeToRight "no forms to choose from" (nonEmpty [(f.id, describe f.label f.description) | f <- Map.elems loaded.forms])
     forM_ [u | u <- namedUnits <> map snd unitAliases, not (Map.member u loaded.units)] $ \u ->
         Left ("the extractor uses the unit " <> idText u <> ", which is not in registries/units.json")
@@ -111,12 +118,14 @@ mkEnv cookbook loaded = do
             , vocabulary =
                 Vocabulary
                     { techniques
+                    , preparations = preparing
                     , media = [(m.id, m.label) | m <- Map.elems loaded.media]
                     , forms
                     , texture = Map.elems loaded.texture
                     , taste = Map.elems loaded.taste
                     }
             , prepared
+            , constants
             }
   where
     world = withoutExtracted Wikibooks loaded
@@ -186,8 +195,15 @@ estimate field = Issue field Estimate
 show2 :: Double -> Text
 show2 x = show (fromIntegral (round (x * 100) :: Int) / 100 :: Double)
 
--- | An ingredient line, the ingredient it names, and the step Jev says first uses it.
-data Use = Use {line :: Line, ingredient :: IngredientId, firstStep :: Judged (Maybe Int)}
+-- | An ingredient line, its number, the ingredient it names, and how Jev says it is first used.
+data Use = Use {number :: Int, line :: Line, ingredient :: IngredientId, firstUse :: Judged (Maybe FirstUse)}
+
+-- | The technique a line is prepared by on its own, if any, and the form that leaves it in.
+usePrep :: Use -> Maybe (Judged TechniqueId, Judged FormId)
+usePrep u = do
+    FirstUse{prep} <- u.firstUse.value
+    p <- sequenceA prep
+    pure (p.value.technique <$ p, p.value.form)
 
 -- | A step that works on food, with the ingredient lines it takes in.
 data Kept = Kept {step :: Step, answers :: StepAnswers, intake :: [Use]}
@@ -195,19 +211,35 @@ data Kept = Kept {step :: Step, answers :: StepAnswers, intake :: [Use]}
 -- | What the step before made, and whether that is a preparation's item.
 data Previous = Previous {leaf :: Leaf, prepared :: Bool}
 
-dish :: Env -> RecipePage -> PageAnswers -> Either Text Dish
-dish env page answers = do
+{- | Why a page's answers rule out building a dish. Checked before asking
+how each line is prepared, so a rejected page is never asked that.
+-}
+rejection :: Env -> RecipePage -> PageAnswers use -> Maybe Text
+rejection env page answers = leftToMaybe (outline env page answers)
+
+-- | The dish a page makes, and its steps that work on food.
+outline :: Env -> RecipePage -> PageAnswers use -> Either Text (IngredientId, NonEmpty Kept)
+outline env page answers = do
     unless answers.singleDish.value $
         Left ("Jev judged it not a single dish (p=" <> show2 answers.singleDish.probability <> ")")
     dishId <- maybeToRight "the title names no ingredient" (ingredientFor env page.title)
-    uses <- traverse use answers.ingredients
+    traverse_ (lineIngredient env . fst) answers.ingredients
     kept <- maybeToRight "Jev judged that no step works on food" (nonEmpty [Kept s a [] | (s, a) <- toList answers.steps, a.actsOnFood.value])
+    pure (dishId, kept)
+
+lineIngredient :: Env -> Line -> Either Text IngredientId
+lineIngredient env l = maybeToRight ("no ingredient ID for '" <> l.text <> "'") (ingredientFor env l.parsed.ingredient)
+
+dish :: Env -> RecipePage -> PageAnswers FirstUse -> Either Text Dish
+dish env page answers = do
+    (dishId, kept) <- outline env page answers
+    uses <- forM (NE.zip (1 :| [2 ..]) answers.ingredients) $ \(i, (l, j)) -> (\ing -> Use i l ing j) <$> lineIngredient env l
     let lastNumber = (last kept).step.number
-        assigned = foldl' assign kept [(u, n) | u <- toList uses, Just n <- [u.firstStep.value]]
+        assigned = foldl' assign kept [(u, f.step) | u <- toList uses, Just f <- [u.firstUse.value]]
         unused =
-            [ Issue "inputs" Missing ("no step uses " <> quote u.line.text <> " (p=" <> show2 u.firstStep.probability <> ")")
+            [ Issue "inputs" Missing ("no step uses " <> quote u.line.text <> " (p=" <> show2 u.firstUse.probability <> ")")
             | u <- toList uses
-            , isNothing u.firstStep.value
+            , isNothing u.firstUse.value
             ]
         preheats = [(s.number, t) | (s, _) <- toList answers.steps, "preheat" `T.isInfixOf` T.toLower s.text, Just t <- [temperatureC s.text]]
     (recipes, made, prepared) <- chain dishId preheats lastNumber (uncertain "source" answers.singleDish) unused (toList assigned)
@@ -229,7 +261,6 @@ dish env page answers = do
                     ]
             }
   where
-    use (l, j) = maybe (Left ("no ingredient ID for " <> quote l.text)) (\i -> Right (Use l i j)) (ingredientFor env l.parsed.ingredient)
     -- A line goes in at the first kept step at or after the one Jev
     -- named, or the last kept step when none is.
     assign ks (u, n) =
@@ -252,11 +283,15 @@ dish env page answers = do
                 _ -> do
                     let n = k.step.number
                         ownId = if n == lastNumber then dishId else IngredientId (page.slug <> "_step_" <> show n)
-                        leaves = [(False, p.leaf) | Just p <- [previous]] <> [(u.line.parsed.optional, Leaf u.ingredient u.line.parsed.amount) | u <- k.intake]
+                    preps <- forM [(u, p) | u <- k.intake, Just p <- [usePrep u]] (uncurry (prepRecipe n))
+                    let takenAs u = fromMaybe u.ingredient (listToMaybe [s.makes | (v, _, s) <- preps, v.number == u.number])
+                        leaves = [(False, p.leaf) | Just p <- [previous]] <> [(u.line.parsed.optional, Leaf (takenAs u) u.line.parsed.amount) | u <- k.intake]
                         (outAmount, outNotes) = outputAmount (map snd leaves)
-                    recipeId <- first toText (mkId (page.slug <> ".step_" <> show n) :: Either String RecipeId)
+                        prepRecipes = reverse [r | (_, r, _) <- preps]
+                        prepSteps = reverse [s | (_, _, s) <- preps]
+                    recipeId <- stepRecipeId (".step_" <> show n)
                     (environment, envIssues) <- stepEnvironment k (latestPreheat n)
-                    let (end, endIssues) = stepEnd k.step (isNothing environment)
+                    let (end, endIssues) = stepEnd k.step.text (ambientPlace k)
                         recipe outId =
                             Recipe
                                 { id = recipeId
@@ -273,7 +308,7 @@ dish env page answers = do
                                         [ uncertain "sourceRef" k.answers.actsOnFood
                                         , uncertain "technique" k.answers.technique
                                         , uncertain "environment" k.answers.medium
-                                        , concatMap (uncertain "inputs" . (.firstStep)) k.intake
+                                        , concatMap (uncertain "inputs" . (.firstUse)) k.intake
                                         , [estimate "inputs" (quote u.line.text <> ": " <> note) | u <- k.intake, note <- u.line.parsed.estimates]
                                         , map (estimate "outputs") outNotes
                                         , envIssues
@@ -304,9 +339,36 @@ dish env page answers = do
                         Just p ->
                             let outId = preparedId env p
                                 step = PreparedStep p outId k.answers.form (dishLabel page.title <$ guard (n == lastNumber))
-                             in go (Just (Previous (Leaf outId outAmount) True)) (recipe outId : rs) ms (step : ps) ks
-                        Nothing -> go (Just (Previous (Leaf ownId outAmount) False)) (recipe ownId : rs) (intermediate : ms) ps ks
+                             in go (Just (Previous (Leaf outId outAmount) True)) (recipe outId : prepRecipes <> rs) ms (step : prepSteps <> ps) ks
+                        Nothing -> go (Just (Previous (Leaf ownId outAmount) False)) (recipe ownId : prepRecipes <> rs) (intermediate : ms) (prepSteps <> ps) ks
         latestPreheat n = viaNonEmpty last [t | (m, t) <- preheats, m <= n]
+
+    {- A line prepared on its own for step n. It has no sourceRef, which
+    reviewed overlays match on, so it never stands in for the step. -}
+    prepRecipe n u (technique, form) = do
+        recipeId <- stepRecipeId (".step_" <> show n <> ".prep_" <> show u.number)
+        let p = Preparation u.ingredient technique.value
+            makes = preparedId env p
+            amount = u.line.parsed.amount
+            (end, endIssues) = stepEnd u.line.text (Just Room)
+            recipe =
+                Recipe
+                    { id = recipeId
+                    , source = sourceId
+                    , sourceRef = Nothing
+                    , technique = technique.value
+                    , inputs = Select Nothing Nothing [Right (Leaf u.ingredient amount)]
+                    , outputs = Outputs (Output makes amount Main Nothing :| [])
+                    , environment = Nothing
+                    , end
+                    , stateNote = Just u.line.text
+                    , issues = uncertain "technique" technique <> [estimate "outputs" "assumed preparing it keeps its amount"] <> endIssues
+                    }
+        Right (u, recipe, PreparedStep p makes form Nothing)
+    stepRecipeId suffix = first toText (mkId (page.slug <> suffix) :: Either String RecipeId)
+    ambientPlace k = case k.answers.medium.value of
+        Ambient place -> Just place
+        Medium _ -> Nothing
 
     {- The output weighs what the inputs weigh. A counted input has no
     weight, so a step with one yields a batch, which the next step takes
@@ -327,8 +389,8 @@ dish env page answers = do
             _ -> Nothing
 
     stepEnvironment k preheat = case k.answers.medium.value of
-        Nothing -> Right (Nothing, [])
-        Just m -> do
+        Ambient _ -> Right (Nothing, [])
+        Medium m -> do
             (t, notes) <- maybeToRight ("step " <> show k.step.number <> ": no temperature for a heated step") (temperature k m preheat)
             Right (Just (Environment t (Left m)), map (estimate "environment") notes)
     temperature k m preheat =
@@ -343,14 +405,40 @@ dish env page answers = do
             , (\c -> (c, ["no temperature given; assumed " <> show2 c <> " °C for " <> idText m])) <$> lookup m mediumTemperatures
             ]
 
-    stepEnd s ambient =
-        let (amount, notes) = case duration s.text of
+    stepEnd text place =
+        let (amount, notes) = case duration text of
                 Just d -> (d.amount, d.notes)
                 Nothing -> (Amount 1 (UnitId "min"), ["no duration given; assumed 1 minute"])
-            sensitivity = Sensitivity 20 1 Nothing Nothing Nothing Nothing
-         in ( ByTime amount (if ambient then Just sensitivity else Nothing)
+         in ( ByTime amount (ambientSensitivity env.constants <$> place)
             , map (estimate "end") notes
             )
+
+{- | How a step that nothing heats depends on where it sits. One in the
+fridge or freezer happens only while it is that cold, so it stops above
+the top of the temperature band its place is in; one at room temperature
+has no such ceiling, so it carries on regardless.
+-}
+ambientSensitivity :: Constants -> Place -> Sensitivity
+ambientSensitivity c place =
+    Sensitivity
+        { refTempC = tempC
+        , q10 = 1
+        , minWaterActivity = Nothing
+        , maxWaterActivity = Nothing
+        , minTempC = Nothing
+        , maxTempC = case place of
+            Room -> Nothing
+            _ -> bandCeiling c.tempBands tempC
+        }
+  where
+    tempC = case place of
+        Room -> c.storageTempC.room
+        Fridge -> c.storageTempC.fridge
+        Freezer -> c.storageTempC.freezer
+
+-- | The upper bound of the band a temperature is in, unless that is the open-ended top band.
+bandCeiling :: TempBands -> Double -> Maybe Double
+bandCeiling bands c = (.belowC) =<< find ((== bandFromCelsius bands c) . (.id)) (tempBandEntries bands)
 
 -- | A dish's label from its page title: the title, first letter lower-cased.
 dishLabel :: Title -> Text

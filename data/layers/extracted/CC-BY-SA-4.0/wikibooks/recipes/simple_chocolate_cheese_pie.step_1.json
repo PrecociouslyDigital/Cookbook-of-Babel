@@ -5,11 +5,11 @@
     "source": "wikibooks_simple_chocolate_cheese_pie",
     "step": 1
   },
-  "technique": "heat",
+  "technique": "assemble",
   "inputs": {
     "of": [
       {
-        "ingredient": "cream_cheese",
+        "ingredient": "cream_cheese_heat",
         "amount": {
           "qty": 8,
           "unit": "oz"
@@ -19,7 +19,7 @@
   },
   "outputs": [
     {
-      "ingredient": "cream_cheese_heat",
+      "ingredient": "simple_chocolate_cheese_pie_step_1",
       "amount": {
         "qty": 226.8,
         "unit": "g"
@@ -40,9 +40,14 @@
   "stateNote": "Melt the cream cheese, and cool slightly. Transfer to a mixing bowl.",
   "issues": [
     {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.51"
+    },
+    {
       "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.43"
+      "note": "the decision model gave this answer a probability of 0.42"
     },
     {
       "field": "environment",

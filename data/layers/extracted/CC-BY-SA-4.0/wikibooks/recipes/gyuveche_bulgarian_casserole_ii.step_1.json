@@ -5,11 +5,11 @@
     "source": "wikibooks_gyuveche_bulgarian_casserole_ii",
     "step": 1
   },
-  "technique": "chop",
+  "technique": "assemble",
   "inputs": {
     "of": [
       {
-        "ingredient": "herbs_and_spices",
+        "ingredient": "herbs_and_spices_chop",
         "amount": {
           "qty": 1,
           "unit": "pinch"
@@ -20,7 +20,7 @@
         "max": 1,
         "of": [
           {
-            "ingredient": "chicken",
+            "ingredient": "chicken_chop",
             "amount": {
               "qty": 1,
               "unit": "pinch"
@@ -33,7 +33,7 @@
         "max": 1,
         "of": [
           {
-            "ingredient": "sausage",
+            "ingredient": "sausage_chop",
             "amount": {
               "qty": 1,
               "unit": "pinch"
@@ -46,7 +46,7 @@
         "max": 1,
         "of": [
           {
-            "ingredient": "vegetable",
+            "ingredient": "vegetable_chop",
             "amount": {
               "qty": 1,
               "unit": "pinch"
@@ -59,7 +59,7 @@
         "max": 1,
         "of": [
           {
-            "ingredient": "parsley",
+            "ingredient": "parsley_chop",
             "amount": {
               "qty": 1,
               "unit": "pinch"
@@ -92,6 +92,11 @@
   "stateNote": "Chop or dice everything you want to put in.",
   "issues": [
     {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.52"
+    },
+    {
       "field": "inputs",
       "kind": "estimate",
       "note": "'Various chopped herbs': no quantity given; assumed a pinch"
@@ -119,7 +124,7 @@
     {
       "field": "outputs",
       "kind": "estimate",
-      "note": "assumed 1 g/ml for herbs_and_spices, chicken, sausage, vegetable, parsley"
+      "note": "assumed 1 g/ml for herbs_and_spices_chop, chicken_chop, sausage_chop, vegetable_chop, parsley_chop"
     },
     {
       "field": "end",

@@ -9,9 +9,9 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "milk_heat",
+        "ingredient": "milk_heat_heat",
         "amount": {
-          "qty": 243.7,
+          "qty": 236.6,
           "unit": "g"
         }
       },
@@ -35,7 +35,7 @@
     {
       "ingredient": "hot_chocolate_step_2",
       "amount": {
-        "qty": 252.8,
+        "qty": 245.7,
         "unit": "g"
       }
     }
@@ -53,6 +53,11 @@
   },
   "stateNote": "While heating the milk/water put the other ingredients in a mug and mix them very well. It's best if you try to grind it a bit using a spoon.",
   "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.59"
+    },
     {
       "field": "outputs",
       "kind": "estimate",

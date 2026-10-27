@@ -23,7 +23,7 @@
         }
       },
       {
-        "ingredient": "mushroom",
+        "ingredient": "mushroom_pan_fry",
         "amount": {
           "qty": 4,
           "unit": "oz"
@@ -62,6 +62,11 @@
   "issues": [
     {
       "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.57"
+    },
+    {
+      "field": "environment",
       "kind": "estimate",
       "note": "no temperature given; assumed 180.0 °C for pan_contact"
     },
@@ -73,7 +78,7 @@
     {
       "field": "inputs",
       "kind": "missing",
-      "note": "no step uses 'Salt to taste' (p=0.96)"
+      "note": "no step uses 'Salt to taste' (p=0.97)"
     },
     {
       "field": "inputs",

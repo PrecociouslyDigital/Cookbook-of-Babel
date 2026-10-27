@@ -16,14 +16,14 @@
         }
       },
       {
-        "ingredient": "buttermilk",
+        "ingredient": "buttermilk_heat",
         "amount": {
           "qty": 0.75,
           "unit": "cup"
         }
       },
       {
-        "ingredient": "milk",
+        "ingredient": "milk_heat",
         "amount": {
           "qty": 0.25,
           "unit": "cup"
@@ -35,7 +35,7 @@
     {
       "ingredient": "lemon_blueberry_pancakes_step_4",
       "amount": {
-        "qty": 383.5,
+        "qty": 381.7,
         "unit": "g"
       }
     }
@@ -54,9 +54,14 @@
   "stateNote": "Microwave buttermilk and milk in a 2-cup Pyrex measuring cup to room temperature (20–30 seconds).",
   "issues": [
     {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.36"
+    },
+    {
       "field": "outputs",
       "kind": "estimate",
-      "note": "assumed 1 g/ml for buttermilk"
+      "note": "assumed 1 g/ml for buttermilk_heat, milk_heat"
     },
     {
       "field": "environment",

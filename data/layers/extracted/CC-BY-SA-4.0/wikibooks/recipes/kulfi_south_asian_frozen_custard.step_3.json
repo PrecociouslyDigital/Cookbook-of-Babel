@@ -9,9 +9,9 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "milk_boil_evaporate",
+        "ingredient": "milk_boil_boil_evaporate",
         "amount": {
-          "qty": 974.8,
+          "qty": 946.4,
           "unit": "g"
         }
       },
@@ -55,20 +55,20 @@
     {
       "ingredient": "kulfi_south_asian_frozen_custard_step_3",
       "amount": {
-        "qty": 1040.4,
+        "qty": 1012,
         "unit": "g"
       }
     }
   ],
+  "environment": {
+    "temperatureC": 180,
+    "medium": "pan_contact"
+  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
-    },
-    "sensitivity": {
-      "refTempC": 20,
-      "q10": 1
     }
   },
   "stateNote": "Stir in the sugar, nuts, and cardamom powder. Set aside to cool.",
@@ -76,12 +76,17 @@
     {
       "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.53"
+      "note": "the decision model gave this answer a probability of 0.5"
     },
     {
       "field": "outputs",
       "kind": "estimate",
       "note": "assumed 1 g/ml for cardamom, pistachio, almond"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 180.0 °C for pan_contact"
     },
     {
       "field": "end",

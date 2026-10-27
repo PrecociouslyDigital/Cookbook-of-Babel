@@ -5,13 +5,13 @@
     "source": "wikibooks_ashoka_halwa_mung_bean_pudding",
     "step": 7
   },
-  "technique": "mix",
+  "technique": "season",
   "inputs": {
     "of": [
       {
         "ingredient": "ashoka_halwa_mung_bean_pudding_step_6",
         "amount": {
-          "qty": 1601.8,
+          "qty": 1629.6,
           "unit": "g"
         }
       },
@@ -35,20 +35,20 @@
     {
       "ingredient": "ashoka_halwa_mung_bean_pudding_step_7",
       "amount": {
-        "qty": 1603.3,
+        "qty": 1631.1,
         "unit": "g"
       }
     }
   ],
+  "environment": {
+    "temperatureC": 180,
+    "medium": "pan_contact"
+  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
-    },
-    "sensitivity": {
-      "refTempC": 20,
-      "q10": 1
     }
   },
   "stateNote": "Mix in the powdered cardamom and food color.",
@@ -56,17 +56,22 @@
     {
       "field": "technique",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.51"
+      "note": "the decision model gave this answer a probability of 0.55"
     },
     {
       "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.52"
+      "note": "the decision model gave this answer a probability of 0.46"
     },
     {
       "field": "outputs",
       "kind": "estimate",
       "note": "assumed 1 g/ml for cardamom, food_coloring"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 180.0 °C for pan_contact"
     },
     {
       "field": "end",

@@ -9,14 +9,14 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "clarified_butter",
+        "ingredient": "clarified_butter_heat",
         "amount": {
           "qty": 1,
           "unit": "pinch"
         }
       },
       {
-        "ingredient": "bengali_five_spice_mix_panch_puran",
+        "ingredient": "bengali_five_spice_mix_panch_puran_heat",
         "amount": {
           "qty": 2,
           "unit": "tsp"
@@ -47,6 +47,11 @@
   "stateNote": "Add panch puran, and let it cook gently until the seeds start to pop.",
   "issues": [
     {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.59"
+    },
+    {
       "field": "inputs",
       "kind": "estimate",
       "note": "'Ghee or oil': no quantity given; assumed a pinch"
@@ -54,7 +59,7 @@
     {
       "field": "outputs",
       "kind": "estimate",
-      "note": "assumed 1 g/ml for clarified_butter, bengali_five_spice_mix_panch_puran"
+      "note": "assumed 1 g/ml for clarified_butter_heat, bengali_five_spice_mix_panch_puran_heat"
     },
     {
       "field": "environment",

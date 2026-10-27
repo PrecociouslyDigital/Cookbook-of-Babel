@@ -5,7 +5,7 @@
     "source": "wikibooks_tchari_jollof_rice",
     "step": 13
   },
-  "technique": "separate",
+  "technique": "mix",
   "inputs": {
     "of": [
       {
@@ -26,28 +26,28 @@
       }
     }
   ],
-  "environment": {
-    "temperatureC": 20,
-    "medium": "still_air"
-  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
     }
   },
   "stateNote": "Fluff the rice with a fork and serve hot, garnished with fresh herbs if desired.",
   "issues": [
     {
-      "field": "environment",
+      "field": "technique",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.41"
+      "note": "the decision model gave this answer a probability of 0.5"
     },
     {
       "field": "environment",
-      "kind": "estimate",
-      "note": "no temperature given; assumed 20.0 °C for still_air"
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.33"
     },
     {
       "field": "end",

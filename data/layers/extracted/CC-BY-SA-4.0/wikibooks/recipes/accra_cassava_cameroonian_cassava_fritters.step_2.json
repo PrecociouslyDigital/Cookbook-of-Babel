@@ -20,7 +20,7 @@
         "max": 1,
         "of": [
           {
-            "ingredient": "banana",
+            "ingredient": "banana_blend",
             "amount": {
               "qty": 4,
               "unit": "piece"
@@ -52,6 +52,11 @@
   },
   "stateNote": "Mash the bananas well using a fork, masher, or food processor.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.35"
+    },
     {
       "field": "inputs",
       "kind": "estimate",

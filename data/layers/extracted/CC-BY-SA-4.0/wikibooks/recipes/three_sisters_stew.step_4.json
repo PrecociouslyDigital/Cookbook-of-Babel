@@ -9,21 +9,21 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "pumpkin_cut_bake",
+        "ingredient": "pumpkin_cut_bake_bake",
         "amount": {
           "qty": 907.2,
           "unit": "g"
         }
       },
       {
-        "ingredient": "olive_oil",
+        "ingredient": "olive_oil_heat",
         "amount": {
           "qty": 1,
           "unit": "tbsp"
         }
       },
       {
-        "ingredient": "onion",
+        "ingredient": "onion_chop",
         "amount": {
           "qty": 1,
           "unit": "piece"
@@ -60,6 +60,11 @@
   },
   "stateNote": "Heat the oil in a soup pot. Add the onion and sauté over medium-low heat until translucent. Add the garlic and continue to sauté until the onion is golden.",
   "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.56"
+    },
     {
       "field": "environment",
       "kind": "estimate",

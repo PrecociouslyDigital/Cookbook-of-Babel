@@ -5,11 +5,11 @@
     "source": "wikibooks_yeasted_rolls_ii",
     "step": 1
   },
-  "technique": "dissolve",
+  "technique": "mix",
   "inputs": {
     "of": [
       {
-        "ingredient": "yeast",
+        "ingredient": "yeast_dissolve",
         "amount": {
           "qty": 1,
           "unit": "tsp"
@@ -54,9 +54,14 @@
   "stateNote": "In a small bowl, dissolve the yeast in the milk and add the sugar.",
   "issues": [
     {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.44"
+    },
+    {
       "field": "outputs",
       "kind": "estimate",
-      "note": "assumed 1 g/ml for yeast"
+      "note": "assumed 1 g/ml for yeast_dissolve"
     },
     {
       "field": "end",

@@ -1,0 +1,49 @@
+{
+  "id": "traditional_pie_crust.step_2.prep_3",
+  "source": "wikibooks_traditional_pie_crust",
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "lard",
+        "amount": {
+          "qty": 110,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "lard_cut",
+      "amount": {
+        "qty": 110,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "110 g lard, cut into pieces",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

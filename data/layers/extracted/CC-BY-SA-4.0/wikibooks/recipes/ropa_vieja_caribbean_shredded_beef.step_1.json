@@ -9,10 +9,17 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "beef",
+        "ingredient": "beef_cut",
         "amount": {
           "qty": 1,
           "unit": "kg"
+        }
+      },
+      {
+        "ingredient": "olive_oil",
+        "amount": {
+          "qty": 0.3333333333333333,
+          "unit": "cup"
         }
       },
       {
@@ -28,7 +35,7 @@
     {
       "ingredient": "ropa_vieja_caribbean_shredded_beef_step_1",
       "amount": {
-        "qty": 1005.9,
+        "qty": 1084.8,
         "unit": "g"
       }
     }
@@ -46,6 +53,16 @@
   },
   "stateNote": "Cut the meat in pieces, not too small, not too big. Using a pressure cooker, boil the meat for about 15 minutes. Add a teaspoon of olive oil to the water to avoid foaming; also, add a teaspoon of salt. After boiling the meat, save 1 cup of the broth.",
   "issues": [
+    {
+      "field": "inputs",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.51"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for olive_oil"
+    },
     {
       "field": "environment",
       "kind": "estimate",

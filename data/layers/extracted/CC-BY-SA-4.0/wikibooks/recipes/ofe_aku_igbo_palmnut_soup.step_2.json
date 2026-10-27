@@ -9,14 +9,14 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "palm_fruits_boil",
+        "ingredient": "palm_fruits_rinse_boil",
         "amount": {
           "qty": 1000,
           "unit": "g"
         }
       },
       {
-        "ingredient": "water",
+        "ingredient": "water_heat",
         "amount": {
           "qty": 2,
           "unit": "l"
@@ -47,14 +47,14 @@
   "stateNote": "Pound or mash the cooked fruits and mix with warm water to extract the palm j",
   "issues": [
     {
-      "field": "technique",
-      "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.57"
-    },
-    {
       "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.52"
+      "note": "the decision model gave this answer a probability of 0.53"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed 1 g/ml for water_heat"
     },
     {
       "field": "environment",

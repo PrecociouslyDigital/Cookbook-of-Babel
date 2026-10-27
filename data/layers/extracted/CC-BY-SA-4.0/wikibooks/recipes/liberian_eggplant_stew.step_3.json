@@ -16,7 +16,7 @@
         }
       },
       {
-        "ingredient": "meat",
+        "ingredient": "meat_fry",
         "amount": {
           "qty": 1,
           "unit": "lb"
@@ -46,6 +46,11 @@
   },
   "stateNote": "If using meat, add the meat pieces to the pot and cook until they are browned on all sides.",
   "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.54"
+    },
     {
       "field": "environment",
       "kind": "estimate",

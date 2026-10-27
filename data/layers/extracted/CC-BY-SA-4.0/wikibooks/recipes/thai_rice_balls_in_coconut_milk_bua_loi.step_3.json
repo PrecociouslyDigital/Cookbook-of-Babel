@@ -16,7 +16,7 @@
         }
       },
       {
-        "ingredient": "coconut",
+        "ingredient": "coconut_boil",
         "amount": {
           "qty": 4,
           "unit": "cup"
@@ -47,9 +47,14 @@
   "stateNote": "Bring half the coconut cream to a boil, stirring constantly to prevent it from separating, then add the flour balls.",
   "issues": [
     {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.39"
+    },
+    {
       "field": "outputs",
       "kind": "estimate",
-      "note": "assumed 1 g/ml for coconut"
+      "note": "assumed 1 g/ml for coconut_boil"
     },
     {
       "field": "environment",

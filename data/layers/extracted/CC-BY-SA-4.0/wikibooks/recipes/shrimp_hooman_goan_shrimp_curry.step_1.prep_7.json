@@ -1,0 +1,49 @@
+{
+  "id": "shrimp_hooman_goan_shrimp_curry.step_1.prep_7",
+  "source": "wikibooks_shrimp_hooman_goan_shrimp_curry",
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "drumstick",
+        "amount": {
+          "qty": 1,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "drumstick_cut",
+      "amount": {
+        "qty": 1,
+        "unit": "piece"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "1 drumstick (frozen works fine), cut into 8–10 pieces",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

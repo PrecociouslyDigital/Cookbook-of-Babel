@@ -1,0 +1,54 @@
+{
+  "id": "rocky_road_ice_cream.step_6.prep_9",
+  "source": "wikibooks_rocky_road_ice_cream",
+  "technique": "chop",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "almond",
+        "amount": {
+          "qty": 40,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "almond_chop",
+      "amount": {
+        "qty": 40,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "½ cup (40 g / 1.4 oz) chopped almonds or pecans",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.56"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -5,11 +5,11 @@
     "source": "wikibooks_english_field_bean_pate",
     "step": 3
   },
-  "technique": "grind",
+  "technique": "blend",
   "inputs": {
     "of": [
       {
-        "ingredient": "pulses_soak_boil",
+        "ingredient": "pulses_soak_soak_boil",
         "amount": {
           "qty": 226.8,
           "unit": "g"
@@ -19,7 +19,7 @@
   },
   "outputs": [
     {
-      "ingredient": "pulses_soak_boil_grind",
+      "ingredient": "pulses_soak_soak_boil_blend",
       "amount": {
         "qty": 226.8,
         "unit": "g"
@@ -39,6 +39,11 @@
   },
   "stateNote": "Mash beans with a fork, pound them in a pestle and mortar, or press them through a sieve or food mill.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.52"
+    },
     {
       "field": "end",
       "kind": "estimate",

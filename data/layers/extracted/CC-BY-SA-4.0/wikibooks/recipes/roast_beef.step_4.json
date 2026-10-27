@@ -5,7 +5,7 @@
     "source": "wikibooks_roast_beef",
     "step": 4
   },
-  "technique": "fry",
+  "technique": "pan_fry",
   "inputs": {
     "of": [
       {
@@ -20,7 +20,7 @@
         "max": 1,
         "of": [
           {
-            "ingredient": "beef_bones",
+            "ingredient": "beef_bones_fry",
             "amount": {
               "qty": 1,
               "unit": "pinch"
@@ -29,7 +29,7 @@
         ]
       },
       {
-        "ingredient": "olive_oil",
+        "ingredient": "olive_oil_heat",
         "amount": {
           "qty": 0.25,
           "unit": "cup"
@@ -47,8 +47,8 @@
     }
   ],
   "environment": {
-    "temperatureC": 190,
-    "medium": "pan_contact"
+    "temperatureC": 185,
+    "medium": "frying_oil"
   },
   "end": {
     "by": "time",
@@ -62,12 +62,12 @@
     {
       "field": "technique",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.59"
+      "note": "the decision model gave this answer a probability of 0.56"
     },
     {
       "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.57"
+      "note": "the decision model gave this answer a probability of 0.58"
     },
     {
       "field": "inputs",
@@ -77,7 +77,7 @@
     {
       "field": "environment",
       "kind": "estimate",
-      "note": "no temperature given; used the middle of fry's typical range"
+      "note": "no temperature given; used the middle of pan_fry's typical range"
     },
     {
       "field": "end",

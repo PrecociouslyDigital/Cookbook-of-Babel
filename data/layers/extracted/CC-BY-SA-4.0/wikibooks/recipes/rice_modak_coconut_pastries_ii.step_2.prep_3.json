@@ -1,0 +1,49 @@
+{
+  "id": "rice_modak_coconut_pastries_ii.step_2.prep_3",
+  "source": "wikibooks_rice_modak_coconut_pastries_ii",
+  "technique": "roast",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "poppy_seed",
+        "amount": {
+          "qty": 1,
+          "unit": "tsp"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "poppy_seed_roast",
+      "amount": {
+        "qty": 1,
+        "unit": "tsp"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "1 teaspoon roasted poppy seeds",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

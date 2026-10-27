@@ -1,0 +1,49 @@
+{
+  "id": "gajjar_halwa_carrot_pudding.step_3.prep_3",
+  "source": "wikibooks_gajjar_halwa_carrot_pudding",
+  "technique": "rinse",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "raisin",
+        "amount": {
+          "qty": 120,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "raisin_rinse",
+      "amount": {
+        "qty": 120,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "½ cup (120 g) raisins, washed",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

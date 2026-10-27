@@ -5,7 +5,7 @@
     "source": "wikibooks_banana_roll_with_cream_cheese_filling",
     "step": 12
   },
-  "technique": "chill",
+  "technique": "assemble",
   "inputs": {
     "of": [
       {
@@ -33,12 +33,18 @@
       "unit": "h"
     },
     "sensitivity": {
-      "refTempC": 20,
-      "q10": 1
+      "refTempC": 4,
+      "q10": 1,
+      "maxTempC": 8
     }
   },
   "stateNote": "When cake has cooled completely, unroll and spread with filling, then re-roll cake. Wrap rolled cake in plastic wrap then refrigerate at least 1 hour (but overnight is best).",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.55"
+    },
     {
       "field": "end",
       "kind": "estimate",

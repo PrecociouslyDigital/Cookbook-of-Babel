@@ -1,0 +1,49 @@
+{
+  "id": "asida_bil_zibda_libyan_semolina_pudding.step_2.prep_2",
+  "source": "wikibooks_asida_bil_zibda_libyan_semolina_pudding",
+  "technique": "toast",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "semolina",
+        "amount": {
+          "qty": 2,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "semolina_toast",
+      "amount": {
+        "qty": 2,
+        "unit": "cup"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "2 cups semolina",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

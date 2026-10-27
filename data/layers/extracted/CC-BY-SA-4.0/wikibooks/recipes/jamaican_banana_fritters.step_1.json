@@ -5,11 +5,11 @@
     "source": "wikibooks_jamaican_banana_fritters",
     "step": 1
   },
-  "technique": "blend",
+  "technique": "mix",
   "inputs": {
     "of": [
       {
-        "ingredient": "banana",
+        "ingredient": "banana_blend",
         "amount": {
           "qty": 3,
           "unit": "piece"
@@ -19,7 +19,7 @@
   },
   "outputs": [
     {
-      "ingredient": "banana_blend",
+      "ingredient": "banana_blend_mix",
       "amount": {
         "qty": 1,
         "unit": "batch"
@@ -39,6 +39,11 @@
   },
   "stateNote": "Peel the bananas and mash them in a bowl until runny.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.39"
+    },
     {
       "field": "end",
       "kind": "estimate",

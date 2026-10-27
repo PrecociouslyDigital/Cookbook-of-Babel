@@ -5,7 +5,7 @@
     "source": "wikibooks_tortilla_espanola",
     "step": 1
   },
-  "technique": "pan_fry",
+  "technique": "heat",
   "inputs": {
     "of": [
       {
@@ -16,7 +16,7 @@
         }
       },
       {
-        "ingredient": "vegetable_oil",
+        "ingredient": "vegetable_oil_heat",
         "amount": {
           "qty": 0.25,
           "unit": "cup"
@@ -28,14 +28,14 @@
     {
       "ingredient": "tortilla_espanola_step_1",
       "amount": {
-        "qty": 69.2,
+        "qty": 73.9,
         "unit": "g"
       }
     }
   ],
   "environment": {
-    "temperatureC": 185,
-    "medium": "frying_oil"
+    "temperatureC": 180,
+    "medium": "pan_contact"
   },
   "end": {
     "by": "time",
@@ -47,14 +47,24 @@
   "stateNote": "Heat the garlic and a small amount of oil in a 10-inch frying pan until garlic is browned.",
   "issues": [
     {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.38"
+    },
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.54"
+    },
+    {
       "field": "outputs",
       "kind": "estimate",
-      "note": "assumed 1 g/ml for garlic"
+      "note": "assumed 1 g/ml for garlic, vegetable_oil_heat"
     },
     {
       "field": "environment",
       "kind": "estimate",
-      "note": "no temperature given; used the middle of pan_fry's typical range"
+      "note": "no temperature given; assumed 180.0 °C for pan_contact"
     },
     {
       "field": "end",

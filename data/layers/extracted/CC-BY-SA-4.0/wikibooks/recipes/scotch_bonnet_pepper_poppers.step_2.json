@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "sausage",
+        "ingredient": "sausage_fry",
         "amount": {
           "qty": 0.25,
           "unit": "lb"
@@ -19,7 +19,7 @@
   },
   "outputs": [
     {
-      "ingredient": "sausage_fry",
+      "ingredient": "sausage_fry_fry",
       "amount": {
         "qty": 113.4,
         "unit": "g"
@@ -39,6 +39,11 @@
   },
   "stateNote": "Fry sausage on medium-high heat, chopping as it cooks until it is the size of small peas. Drain and cool slightly.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.58"
+    },
     {
       "field": "environment",
       "kind": "estimate",

@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "broth_and_stock",
+        "ingredient": "broth_and_stock_simmer",
         "amount": {
           "qty": 6,
           "unit": "cup"
@@ -19,7 +19,7 @@
   },
   "outputs": [
     {
-      "ingredient": "broth_and_stock_simmer",
+      "ingredient": "broth_and_stock_simmer_simmer",
       "amount": {
         "qty": 1419.6,
         "unit": "g"
@@ -28,7 +28,7 @@
   ],
   "environment": {
     "temperatureC": 90,
-    "medium": "simmering_water"
+    "medium": "pan_contact"
   },
   "end": {
     "by": "time",
@@ -40,14 +40,14 @@
   "stateNote": "Bring the stock to a simmer in a saucepan. Keep the temperature as high as possible throughout the cooking process, without letting the stock boil. The surface of the stock should just be moving a little.",
   "issues": [
     {
-      "field": "inputs",
+      "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.58"
+      "note": "the decision model gave this answer a probability of 0.51"
     },
     {
       "field": "outputs",
       "kind": "estimate",
-      "note": "assumed 1 g/ml for broth_and_stock"
+      "note": "assumed 1 g/ml for broth_and_stock_simmer"
     },
     {
       "field": "environment",

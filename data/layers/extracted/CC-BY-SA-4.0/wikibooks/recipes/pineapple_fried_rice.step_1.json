@@ -9,14 +9,14 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "oil_and_fat",
+        "ingredient": "oil_and_fat_heat",
         "amount": {
           "qty": 5,
           "unit": "tbsp"
         }
       },
       {
-        "ingredient": "garlic",
+        "ingredient": "garlic_cut",
         "amount": {
           "qty": 3,
           "unit": "clove"
@@ -30,7 +30,7 @@
         }
       },
       {
-        "ingredient": "chile",
+        "ingredient": "chile_cut",
         "amount": {
           "qty": 2,
           "unit": "piece"
@@ -49,7 +49,7 @@
   ],
   "environment": {
     "temperatureC": 215,
-    "medium": "frying_oil"
+    "medium": "pan_contact"
   },
   "end": {
     "by": "time",
@@ -60,6 +60,11 @@
   },
   "stateNote": "Heat the oil in a non-stick skillet. Add the garlic, red onion, and red chilli. Stir-fry for 2 minutes.",
   "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.51"
+    },
     {
       "field": "environment",
       "kind": "estimate",

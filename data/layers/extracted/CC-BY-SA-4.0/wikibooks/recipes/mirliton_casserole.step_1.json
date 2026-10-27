@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "squash",
+        "ingredient": "squash_steam",
         "amount": {
           "qty": 6,
           "unit": "piece"
@@ -19,7 +19,7 @@
   },
   "outputs": [
     {
-      "ingredient": "squash_steam",
+      "ingredient": "squash_steam_steam",
       "amount": {
         "qty": 1,
         "unit": "batch"
@@ -28,7 +28,7 @@
   ],
   "environment": {
     "temperatureC": 175,
-    "medium": "steam"
+    "medium": "oven_air"
   },
   "end": {
     "by": "time",
@@ -42,7 +42,7 @@
     {
       "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.38"
+      "note": "the decision model gave this answer a probability of 0.47"
     },
     {
       "field": "inputs",

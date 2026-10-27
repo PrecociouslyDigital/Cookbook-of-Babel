@@ -33,9 +33,17 @@
       "unit": "d"
     },
     "sensitivity": {
-      "refTempC": 20,
-      "q10": 1
+      "refTempC": 4,
+      "q10": 1,
+      "maxTempC": 8
     }
   },
-  "stateNote": "Store the butter for up to 2 weeks in the fridge or 6 months in the freezer."
+  "stateNote": "Store the butter for up to 2 weeks in the fridge or 6 months in the freezer.",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.47"
+    }
+  ]
 }

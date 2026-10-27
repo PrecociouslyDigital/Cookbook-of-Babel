@@ -1,0 +1,49 @@
+{
+  "id": "spinach_calzones.step_3.prep_9",
+  "source": "wikibooks_spinach_calzones",
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "dough",
+        "amount": {
+          "qty": 908,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "dough_cut",
+      "amount": {
+        "qty": 908,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "908 g frozen white bread dough, thawed",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

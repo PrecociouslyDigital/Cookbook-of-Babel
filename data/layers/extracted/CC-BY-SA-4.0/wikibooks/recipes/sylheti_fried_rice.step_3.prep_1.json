@@ -1,0 +1,49 @@
+{
+  "id": "sylheti_fried_rice.step_3.prep_1",
+  "source": "wikibooks_sylheti_fried_rice",
+  "technique": "cool",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "leftover_cooked_rice",
+        "amount": {
+          "qty": 2,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "leftover_cooked_rice_cool",
+      "amount": {
+        "qty": 2,
+        "unit": "cup"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 12,
+      "unit": "h"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "2 cups leftover cooked rice (cooked and cooled at least 12 hours in advance)",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.55"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    }
+  ]
+}

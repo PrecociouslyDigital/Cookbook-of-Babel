@@ -16,14 +16,14 @@
         }
       },
       {
-        "ingredient": "creme_patissiere",
+        "ingredient": "creme_patissiere_chill",
         "amount": {
           "qty": 1,
           "unit": "cup"
         }
       },
       {
-        "ingredient": "cream",
+        "ingredient": "cream_whisk",
         "amount": {
           "qty": 2,
           "unit": "cup"
@@ -47,8 +47,9 @@
       "unit": "min"
     },
     "sensitivity": {
-      "refTempC": 20,
-      "q10": 1
+      "refTempC": 4,
+      "q10": 1,
+      "maxTempC": 8
     }
   },
   "stateNote": "Whip the cream to medium peaks. Fold in the 1 cup of cold pastry cream and Italian meringue. Refrigerate until ready to proceed with the assembly.",
@@ -56,7 +57,7 @@
     {
       "field": "outputs",
       "kind": "estimate",
-      "note": "assumed 1 g/ml for creme_patissiere, cream"
+      "note": "assumed 1 g/ml for creme_patissiere_chill, cream_whisk"
     },
     {
       "field": "end",

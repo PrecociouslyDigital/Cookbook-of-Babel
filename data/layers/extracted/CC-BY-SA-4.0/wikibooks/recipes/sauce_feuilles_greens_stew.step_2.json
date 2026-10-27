@@ -16,7 +16,7 @@
         }
       },
       {
-        "ingredient": "meat",
+        "ingredient": "meat_cut",
         "amount": {
           "qty": 1,
           "unit": "lb"
@@ -46,6 +46,11 @@
   },
   "stateNote": "If using meat, cut it into bite-sized pieces. If using smoked fish, remove any bones and shred into smaller pieces.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.41"
+    },
     {
       "field": "end",
       "kind": "estimate",

@@ -5,7 +5,7 @@
     "source": "wikibooks_katchi_biryani",
     "step": 5
   },
-  "technique": "assemble",
+  "technique": "season",
   "inputs": {
     "of": [
       {
@@ -61,15 +61,15 @@
       }
     }
   ],
-  "environment": {
-    "temperatureC": 180,
-    "medium": "pan_contact"
-  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
     }
   },
   "stateNote": "Combine the saffron and milk. Place one butter chunk in each quadrant of the pot. Pour the lemon juice and saffron milk over the rice, then stick the whole chiles in the rice.",
@@ -77,12 +77,12 @@
     {
       "field": "technique",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.5"
+      "note": "the decision model gave this answer a probability of 0.43"
     },
     {
       "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.46"
+      "note": "the decision model gave this answer a probability of 0.5"
     },
     {
       "field": "inputs",
@@ -93,11 +93,6 @@
       "field": "inputs",
       "kind": "estimate",
       "note": "'Milk': no quantity given; assumed a pinch"
-    },
-    {
-      "field": "environment",
-      "kind": "estimate",
-      "note": "no temperature given; assumed 180.0 °C for pan_contact"
     },
     {
       "field": "end",

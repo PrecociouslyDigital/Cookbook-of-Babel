@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "water",
+        "ingredient": "water_simmer",
         "amount": {
           "qty": 0.8333333333333333,
           "unit": "cup"
@@ -20,7 +20,7 @@
         "max": 1,
         "of": [
           {
-            "ingredient": "cardamom",
+            "ingredient": "cardamom_grind",
             "amount": {
               "qty": 2,
               "unit": "piece"
@@ -41,7 +41,7 @@
   ],
   "environment": {
     "temperatureC": 90,
-    "medium": "simmering_water"
+    "medium": "pan_contact"
   },
   "end": {
     "by": "time",
@@ -52,11 +52,6 @@
   },
   "stateNote": "Bring the water to a simmer in the saucepan over medium-high heat. Tear the cardamom shell (or grind it) and add it to the pan.",
   "issues": [
-    {
-      "field": "environment",
-      "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.5"
-    },
     {
       "field": "environment",
       "kind": "estimate",

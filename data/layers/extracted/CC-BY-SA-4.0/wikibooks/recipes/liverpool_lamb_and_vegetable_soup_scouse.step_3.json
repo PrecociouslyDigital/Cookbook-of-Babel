@@ -23,7 +23,7 @@
         }
       },
       {
-        "ingredient": "carrot",
+        "ingredient": "carrot_chop",
         "amount": {
           "qty": 1,
           "unit": "pinch"
@@ -68,6 +68,11 @@
   "stateNote": "Add the chopped onions, carrots, and water or meat stock, and as many potatoes as possible.",
   "issues": [
     {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.57"
+    },
+    {
       "field": "inputs",
       "kind": "estimate",
       "note": "'Onions, chopped': no quantity given; assumed a pinch"
@@ -90,7 +95,7 @@
     {
       "field": "outputs",
       "kind": "estimate",
-      "note": "assumed 1 g/ml for onion, carrot, broth_and_stock"
+      "note": "assumed 1 g/ml for onion, carrot_chop, broth_and_stock"
     },
     {
       "field": "environment",

@@ -9,28 +9,14 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "radish_pie_step_2",
+        "ingredient": "radish_pie_step_3",
         "amount": {
           "qty": 1,
           "unit": "batch"
         }
       },
       {
-        "ingredient": "butter",
-        "amount": {
-          "qty": 0.25,
-          "unit": "cup"
-        }
-      },
-      {
-        "ingredient": "phyllo_dough",
-        "amount": {
-          "qty": 8,
-          "unit": "oz"
-        }
-      },
-      {
-        "ingredient": "onion",
+        "ingredient": "onion_fry",
         "amount": {
           "qty": 1,
           "unit": "piece"
@@ -67,6 +53,11 @@
   },
   "stateNote": "Heat the remaining butter in a large pan and sauté the onion in it for about 5 minutes. Add the wine and diced radishes, then cook for another minute. Remove from heat and pour into the pastry shell.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.4"
+    },
     {
       "field": "environment",
       "kind": "estimate",

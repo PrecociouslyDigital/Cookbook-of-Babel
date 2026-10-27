@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "leftover_hamburger_patties_grind",
+        "ingredient": "leftover_hamburger_patties_grind_grind",
         "amount": {
           "qty": 1,
           "unit": "batch"
@@ -60,6 +60,11 @@
   },
   "stateNote": "In a bowl, mix the ground hamburgers with the cumin, chili powder, and salt. Set aside. Don't bother cleaning the food processor after grinding the meat.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.57"
+    },
     {
       "field": "end",
       "kind": "estimate",

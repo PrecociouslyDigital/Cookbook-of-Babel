@@ -1,0 +1,49 @@
+{
+  "id": "mango_and_yellow_split_pea_curry.step_3.prep_2",
+  "source": "wikibooks_mango_and_yellow_split_pea_curry",
+  "technique": "boil",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "mango",
+        "amount": {
+          "qty": 2,
+          "unit": "can"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "mango_boil",
+      "amount": {
+        "qty": 2,
+        "unit": "can"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "2 cans mango (or fresh mango if available), sliced",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

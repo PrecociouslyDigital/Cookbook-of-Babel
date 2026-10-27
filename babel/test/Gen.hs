@@ -33,7 +33,7 @@ module Gen (
 where
 
 import Babel.Layout (Layer (..))
-import Babel.Model (Amount (..), AxisId (..), BandEntry (..), Branch (..), Constants (..), Dataset (..), Dimension (..), DottedSlug (..), End (..), EntityKind (..), Environment (..), FormId (..), Ingredient (..), IngredientId (..), IsA (..), IsId, Issue (..), KcalPerGram (..), Leaf (..), Measure (..), MeasureKey (..), MeasureValue (..), Medium (..), MediumId (..), Outcome (..), Output (..), Per100g (..), RatioBounds (..), Recipe (..), RecipeId (..), Rename (..), Role (..), Select (..), Sensitivity (..), ServingTagId (..), Source (..), SourceId (..), SourceRef (..), TasteAttrId (..), Technique (..), TechniqueId (..), TempBandId (..), TempBands, TempRange (..), Term (..), TextureAttrId (..), Tolerance (..), Unit (..), UnitId (..), Version (..), mkIntensity, mkTempBands, originLicence, renderVersion)
+import Babel.Model (Amount (..), AxisId (..), BandEntry (..), Branch (..), Constants (..), Dataset (..), Dimension (..), DottedSlug (..), End (..), EntityKind (..), Environment (..), FormId (..), Ingredient (..), IngredientId (..), IsA (..), IsId, Issue (..), KcalPerGram (..), Leaf (..), Measure (..), MeasureKey (..), MeasureValue (..), Medium (..), MediumId (..), Outcome (..), Output (..), Per100g (..), RatioBounds (..), Recipe (..), RecipeId (..), Rename (..), Role (..), Select (..), Sensitivity (..), ServingTagId (..), Source (..), SourceId (..), SourceRef (..), StorageTemps (..), TasteAttrId (..), Technique (..), TechniqueId (..), TempBandId (..), TempBands, TempRange (..), Term (..), TextureAttrId (..), Tolerance (..), Unit (..), UnitId (..), Version (..), mkIntensity, mkTempBands, originLicence, renderVersion)
 import Babel.Preparation (Preparation, preparationOf)
 import Data.Map.Strict qualified as Map
 import Data.Set qualified as Set
@@ -314,6 +314,7 @@ genRenames v existing = do
 genConstants :: [TechniqueId] -> Gen Constants
 genConstants techIds = do
     tempBands <- genTempBands
+    storageTempC <- StorageTemps <$> Gen.double (Range.linearFrac 10 30) <*> Gen.double (Range.linearFrac 0 8) <*> Gen.double (Range.linearFrac (-30) (-5))
     spoilageTechnique <- Gen.element techIds
     nonPreparations <- subsetOf techIds
     kcalPerGram <- KcalPerGram <$> positive <*> positive <*> positive

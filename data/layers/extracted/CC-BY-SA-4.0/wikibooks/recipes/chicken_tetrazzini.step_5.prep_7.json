@@ -1,0 +1,49 @@
+{
+  "id": "chicken_tetrazzini.step_5.prep_7",
+  "source": "wikibooks_chicken_tetrazzini",
+  "technique": "boil",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "spaghetti",
+        "amount": {
+          "qty": 0.75,
+          "unit": "lb"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "spaghetti_boil",
+      "amount": {
+        "qty": 0.75,
+        "unit": "lb"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "¾ pound dried spaghetti",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

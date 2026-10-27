@@ -16,7 +16,7 @@
         }
       },
       {
-        "ingredient": "bacon",
+        "ingredient": "bacon_cut",
         "amount": {
           "qty": 12,
           "unit": "slice"
@@ -40,12 +40,18 @@
       "unit": "min"
     },
     "sensitivity": {
-      "refTempC": 20,
-      "q10": 1
+      "refTempC": 4,
+      "q10": 1,
+      "maxTempC": 8
     }
   },
   "stateNote": "Place 1 chicken liver piece and 1 chestnut piece in the center of each bacon piece, wrap, and secure with a toothpick.",
   "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.5"
+    },
     {
       "field": "end",
       "kind": "estimate",

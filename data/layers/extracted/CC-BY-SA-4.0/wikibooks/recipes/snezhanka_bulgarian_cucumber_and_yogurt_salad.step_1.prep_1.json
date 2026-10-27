@@ -1,0 +1,54 @@
+{
+  "id": "snezhanka_bulgarian_cucumber_and_yogurt_salad.step_1.prep_1",
+  "source": "wikibooks_snezhanka_bulgarian_cucumber_and_yogurt_salad",
+  "technique": "dry",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "yogurt",
+        "amount": {
+          "qty": 1,
+          "unit": "l"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "yogurt_dry",
+      "amount": {
+        "qty": 1,
+        "unit": "l"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "1 liter of plain yogurt (two regular containers in Bulgaria)",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.57"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

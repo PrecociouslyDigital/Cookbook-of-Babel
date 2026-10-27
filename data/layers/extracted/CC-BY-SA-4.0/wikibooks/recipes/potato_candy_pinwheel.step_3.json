@@ -5,11 +5,11 @@
     "source": "wikibooks_potato_candy_pinwheel",
     "step": 3
   },
-  "technique": "evaporate",
+  "technique": "dry",
   "inputs": {
     "of": [
       {
-        "ingredient": "potato_cut_simmer",
+        "ingredient": "potato_cut_cut_simmer",
         "amount": {
           "qty": 1,
           "unit": "batch"
@@ -19,7 +19,7 @@
   },
   "outputs": [
     {
-      "ingredient": "potato_cut_simmer_evaporate",
+      "ingredient": "potato_cut_cut_simmer_dry",
       "amount": {
         "qty": 1,
         "unit": "batch"
@@ -27,7 +27,7 @@
     }
   ],
   "environment": {
-    "temperatureC": 100,
+    "temperatureC": 55,
     "medium": "pan_contact"
   },
   "end": {
@@ -42,12 +42,12 @@
     {
       "field": "technique",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.52"
+      "note": "the decision model gave this answer a probability of 0.45"
     },
     {
       "field": "environment",
       "kind": "estimate",
-      "note": "no temperature given; used the middle of evaporate's typical range"
+      "note": "no temperature given; used the middle of dry's typical range"
     }
   ]
 }

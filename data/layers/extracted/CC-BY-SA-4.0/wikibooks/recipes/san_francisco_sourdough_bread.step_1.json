@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "grape",
+        "ingredient": "grape_grind",
         "amount": {
           "qty": 1,
           "unit": "lb"
@@ -19,23 +19,35 @@
   },
   "outputs": [
     {
-      "ingredient": "grape_ferment",
+      "ingredient": "grape_grind_ferment",
       "amount": {
         "qty": 453.6,
         "unit": "g"
       }
     }
   ],
+  "environment": {
+    "temperatureC": 180,
+    "medium": "oven_air"
+  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 48,
       "unit": "h"
-    },
-    "sensitivity": {
-      "refTempC": 20,
-      "q10": 1
     }
   },
-  "stateNote": "Mash the grapes thoroughly and place in a loosely-covered container. Allow to stand at room temperature for 48 hours."
+  "stateNote": "Mash the grapes thoroughly and place in a loosely-covered container. Allow to stand at room temperature for 48 hours.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.47"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 180.0 °C for oven_air"
+    }
+  ]
 }

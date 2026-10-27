@@ -9,21 +9,21 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "tomato_cut_cut",
+        "ingredient": "tomato_cut_cut_cut",
         "amount": {
           "qty": 1,
           "unit": "batch"
         }
       },
       {
-        "ingredient": "mushroom",
+        "ingredient": "mushroom_cut",
         "amount": {
           "qty": 1,
           "unit": "piece"
         }
       },
       {
-        "ingredient": "onion",
+        "ingredient": "onion_cut",
         "amount": {
           "qty": 1,
           "unit": "piece"
@@ -53,6 +53,11 @@
   },
   "stateNote": "Slice the mushrooms into small, flat slabs, and cut the onion coin in quarters, like a pie or quiche. Separate the layers.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.43"
+    },
     {
       "field": "inputs",
       "kind": "estimate",

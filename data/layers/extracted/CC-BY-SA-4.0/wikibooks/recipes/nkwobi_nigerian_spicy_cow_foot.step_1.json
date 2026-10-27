@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "cow_feet",
+        "ingredient": "cow_feet_cut",
         "amount": {
           "qty": 1,
           "unit": "pinch"
@@ -19,7 +19,7 @@
   },
   "outputs": [
     {
-      "ingredient": "cow_feet_cut",
+      "ingredient": "cow_feet_cut_cut",
       "amount": {
         "qty": 0.3,
         "unit": "g"
@@ -40,6 +40,11 @@
   "stateNote": "Cut the cow feet into small pieces, and remove all the bigger bones.",
   "issues": [
     {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.47"
+    },
+    {
       "field": "inputs",
       "kind": "estimate",
       "note": "'Cow feet': no quantity given; assumed a pinch"
@@ -47,7 +52,7 @@
     {
       "field": "outputs",
       "kind": "estimate",
-      "note": "assumed 1 g/ml for cow_feet"
+      "note": "assumed 1 g/ml for cow_feet_cut"
     },
     {
       "field": "end",

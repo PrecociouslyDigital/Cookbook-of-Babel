@@ -16,14 +16,14 @@
         }
       },
       {
-        "ingredient": "ginger",
+        "ingredient": "ginger_fry",
         "amount": {
           "qty": 1,
           "unit": "tsp"
         }
       },
       {
-        "ingredient": "garlic",
+        "ingredient": "garlic_fry",
         "amount": {
           "qty": 1,
           "unit": "tsp"
@@ -42,7 +42,7 @@
   ],
   "environment": {
     "temperatureC": 190,
-    "medium": "frying_oil"
+    "medium": "pan_contact"
   },
   "end": {
     "by": "time",
@@ -53,6 +53,16 @@
   },
   "stateNote": "Add ginger and garlic and fry for a minute.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.59"
+    },
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.56"
+    },
     {
       "field": "environment",
       "kind": "estimate",

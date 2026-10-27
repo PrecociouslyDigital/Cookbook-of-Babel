@@ -16,21 +16,21 @@
         }
       },
       {
-        "ingredient": "onion",
+        "ingredient": "onion_chop",
         "amount": {
           "qty": 1,
           "unit": "cup"
         }
       },
       {
-        "ingredient": "chiles",
+        "ingredient": "chiles_chop",
         "amount": {
           "qty": 2.5,
           "unit": "piece"
         }
       },
       {
-        "ingredient": "ginger",
+        "ingredient": "ginger_chop",
         "amount": {
           "qty": 0.25,
           "unit": "piece"
@@ -74,6 +74,11 @@
   },
   "stateNote": "Add the chopped ginger, green chillies, and onions. Sauté for 1 minute, then add the remaining veggies and 1 tbsp coconut. Sauté again for about 1 minute, then add 1½ cups of water and salt. Bring to a boil, lower to a simmer over medium heat, and cover to let the veggies cook for a few minutes.",
   "issues": [
+    {
+      "field": "environment",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.54"
+    },
     {
       "field": "inputs",
       "kind": "estimate",

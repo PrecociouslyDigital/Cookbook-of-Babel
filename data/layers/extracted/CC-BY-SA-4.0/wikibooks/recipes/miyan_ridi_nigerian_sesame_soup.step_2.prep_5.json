@@ -1,0 +1,49 @@
+{
+  "id": "miyan_ridi_nigerian_sesame_soup.step_2.prep_5",
+  "source": "wikibooks_miyan_ridi_nigerian_sesame_soup",
+  "technique": "toast",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "sesame_seed",
+        "amount": {
+          "qty": 2,
+          "unit": "cup"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "sesame_seed_toast",
+      "amount": {
+        "qty": 2,
+        "unit": "cup"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "2 cups toasted sesame seeds (ridi)",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

@@ -5,7 +5,7 @@
     "source": "wikibooks_beef_and_guinness_casserole",
     "step": 7
   },
-  "technique": "boil",
+  "technique": "mix",
   "inputs": {
     "of": [
       {
@@ -23,7 +23,7 @@
         }
       },
       {
-        "ingredient": "potato",
+        "ingredient": "potato_boil",
         "amount": {
           "qty": 1,
           "unit": "pinch"
@@ -68,6 +68,11 @@
   "stateNote": "About 40 minutes before the casserole is done, boil the potatoes until soft. Drain, and allow to steam until dry. Mash thoroughly and add pepper/salt combo (salt to taste), butter, and a little milk—its amazing how little milk will turn your potato to sludge, so be careful. Once all this is mashed well, stir in your spring onion.",
   "issues": [
     {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.5"
+    },
+    {
       "field": "inputs",
       "kind": "estimate",
       "note": "'Starchy white potatoes (enough for 4 people)': no quantity given; assumed a pinch"
@@ -85,7 +90,7 @@
     {
       "field": "environment",
       "kind": "estimate",
-      "note": "no temperature given; used the middle of boil's typical range"
+      "note": "no temperature given; assumed 100.0 °C for boiling_water"
     }
   ]
 }

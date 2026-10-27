@@ -1,0 +1,49 @@
+{
+  "id": "ground_beef_and_potato_taquitos.step_6.prep_14",
+  "source": "wikibooks_ground_beef_and_potato_taquitos",
+  "technique": "fry",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "tortilla",
+        "amount": {
+          "qty": 20,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "tortilla_fry",
+      "amount": {
+        "qty": 20,
+        "unit": "piece"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "20 corn tortillas",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

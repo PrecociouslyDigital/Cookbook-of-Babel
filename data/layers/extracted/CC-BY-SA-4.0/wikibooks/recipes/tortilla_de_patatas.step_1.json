@@ -5,18 +5,18 @@
     "source": "wikibooks_tortilla_de_patatas",
     "step": 1
   },
-  "technique": "cut",
+  "technique": "heat",
   "inputs": {
     "of": [
       {
-        "ingredient": "potato",
+        "ingredient": "potato_cut",
         "amount": {
           "qty": 3,
           "unit": "lb"
         }
       },
       {
-        "ingredient": "olive_oil",
+        "ingredient": "olive_oil_heat",
         "amount": {
           "qty": 2,
           "unit": "cup"
@@ -40,23 +40,28 @@
       }
     }
   ],
-  "environment": {
-    "temperatureC": 177,
-    "medium": "frying_oil"
-  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 1,
       "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
     }
   },
   "stateNote": "Peel the potatoes and cut them into small cubes or thin round slices. Sprinkle with salt and leave any excess water to drain from them while heating the oil to around 350°F (177°C) in a large frying pan.",
   "issues": [
     {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.53"
+    },
+    {
       "field": "environment",
       "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.41"
+      "note": "the decision model gave this answer a probability of 0.43"
     },
     {
       "field": "inputs",
@@ -66,7 +71,7 @@
     {
       "field": "outputs",
       "kind": "estimate",
-      "note": "assumed 1 g/ml for olive_oil"
+      "note": "assumed 1 g/ml for olive_oil_heat"
     },
     {
       "field": "end",

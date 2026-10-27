@@ -5,7 +5,7 @@
     "source": "wikibooks_potato_gratin",
     "step": 10
   },
-  "technique": "coat",
+  "technique": "assemble",
   "inputs": {
     "of": [
       {
@@ -16,7 +16,7 @@
         }
       },
       {
-        "ingredient": "gruyere_cheese",
+        "ingredient": "gruyere_cheese_grind",
         "amount": {
           "qty": 3,
           "unit": "oz"
@@ -46,6 +46,11 @@
   },
   "stateNote": "Grate a generous amount of cheese, and spread over the mixture.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.53"
+    },
     {
       "field": "end",
       "kind": "estimate",

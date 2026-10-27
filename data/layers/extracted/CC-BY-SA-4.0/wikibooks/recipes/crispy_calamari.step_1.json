@@ -9,7 +9,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "squid",
+        "ingredient": "squid_rinse",
         "amount": {
           "qty": 1,
           "unit": "lb"
@@ -19,7 +19,7 @@
   },
   "outputs": [
     {
-      "ingredient": "squid_cut",
+      "ingredient": "squid_rinse_cut",
       "amount": {
         "qty": 453.6,
         "unit": "g"
@@ -39,6 +39,11 @@
   },
   "stateNote": "Rinse the squid thoroughly and pat dry. Cut the tentacles in half lengthwise and the tubes into ½-inch rings. Set aside.",
   "issues": [
+    {
+      "field": "technique",
+      "kind": "uncertain",
+      "note": "the decision model gave this answer a probability of 0.48"
+    },
     {
       "field": "end",
       "kind": "estimate",

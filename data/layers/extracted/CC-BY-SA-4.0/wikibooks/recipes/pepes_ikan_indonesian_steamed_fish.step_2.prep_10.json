@@ -1,0 +1,49 @@
+{
+  "id": "pepes_ikan_indonesian_steamed_fish.step_2.prep_10",
+  "source": "wikibooks_pepes_ikan_indonesian_steamed_fish",
+  "technique": "rinse",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "fish",
+        "amount": {
+          "qty": 1,
+          "unit": "kg"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "fish_rinse",
+      "amount": {
+        "qty": 1,
+        "unit": "kg"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "1 kg whole fish (carp or snapper)",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "assumed preparing it keeps its amount"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "no duration given; assumed 1 minute"
+    }
+  ]
+}

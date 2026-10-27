@@ -11,7 +11,7 @@
       {
         "ingredient": "english_style_aged_cheese_step_11",
         "amount": {
-          "qty": 19606.1,
+          "qty": 19038.2,
           "unit": "g"
         }
       }
@@ -21,21 +21,28 @@
     {
       "ingredient": "english_style_aged_cheese",
       "amount": {
-        "qty": 19606.1,
+        "qty": 19038.2,
         "unit": "g"
       }
     }
   ],
+  "environment": {
+    "temperatureC": 20,
+    "medium": "still_air"
+  },
   "end": {
     "by": "time",
     "duration": {
       "qty": 60,
       "unit": "d"
-    },
-    "sensitivity": {
-      "refTempC": 20,
-      "q10": 1
     }
   },
-  "stateNote": "Sprinkle a clean shelf in a cool place with a good amount salt. Set the cheese down upside-down. Leave it to age for a minimum of 60 days, flipping over every day to allow for complete drying. The longer it ages, the drier and sharper the cheese becomes."
+  "stateNote": "Sprinkle a clean shelf in a cool place with a good amount salt. Set the cheese down upside-down. Leave it to age for a minimum of 60 days, flipping over every day to allow for complete drying. The longer it ages, the drier and sharper the cheese becomes.",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "no temperature given; assumed 20.0 °C for still_air"
+    }
+  ]
 }

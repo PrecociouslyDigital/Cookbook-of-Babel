@@ -16,7 +16,7 @@
         }
       },
       {
-        "ingredient": "palm_oil",
+        "ingredient": "palm_oil_heat",
         "amount": {
           "qty": 2,
           "unit": "tbsp"
@@ -35,7 +35,7 @@
   ],
   "environment": {
     "temperatureC": 185,
-    "medium": "frying_oil"
+    "medium": "pan_contact"
   },
   "end": {
     "by": "time",
@@ -47,14 +47,9 @@
   "stateNote": "Heat palm oil or groundnut oil in a large pot or skillet over medium-high heat. Add the marinated meat and cook until beautifully browned on all sides, releasing an enticing aroma.",
   "issues": [
     {
-      "field": "environment",
-      "kind": "uncertain",
-      "note": "the decision model gave this answer a probability of 0.53"
-    },
-    {
       "field": "outputs",
       "kind": "estimate",
-      "note": "assumed 1 g/ml for palm_oil"
+      "note": "assumed 1 g/ml for palm_oil_heat"
     },
     {
       "field": "environment",
