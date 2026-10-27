@@ -6,7 +6,7 @@ import Babel.Format (render)
 import Babel.Layout (Axis (..), axes)
 import Babel.Load (World (..))
 import Babel.Model (Amount (..), Constants (..), IsId (..), Per100g (..), Recipe (..), bandFromCelsius, licenceExpression)
-import Babel.Nutrition (Derived (..), derivedPer100g, nutritionOf)
+import Babel.Nutrition (Derived (..), derivedPer100g, nutritionOf, nutritionTable)
 import Babel.Spoilage (Conditions (..), firstSpoilage)
 import Babel.Validate (Report (..), validate)
 import Data.Map.Strict qualified as Map
@@ -102,8 +102,9 @@ run = \case
                         putTextLn (basis d)
             Nothing -> do
                 putTextLn "ingredient\tbasis\tkcal\tprotein_g\tfat_g\tcarbs_g"
+                let table = nutritionTable world
                 forM_ (Map.keys world.ingredients) $ \i ->
-                    let d = nutritionOf world i
+                    let d = Map.lookup i table
                         n = maybe (Per100g Nothing Nothing Nothing Nothing) derivedPer100g d
                         cell = maybe "" (\x -> toText (printf "%.1f" x :: String))
                      in putTextLn (T.intercalate "\t" [idText i, maybe "" basis d, cell n.kcal, cell n.proteinG, cell n.fatG, cell n.carbsG])

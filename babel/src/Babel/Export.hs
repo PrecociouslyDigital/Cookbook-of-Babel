@@ -30,7 +30,7 @@ import Babel.Model.Recipe (Recipe)
 import Babel.Model.Registry (Medium, Term, Unit)
 import Babel.Model.Source (Licence, Source)
 import Babel.Model.Technique (Technique)
-import Babel.Nutrition (derivedPer100g, nutritionOf)
+import Babel.Nutrition (derivedPer100g, nutritionTable)
 import Babel.Preparation (Prepared, prepared)
 import Data.Map.Strict qualified as Map
 import Data.Set qualified as Set
@@ -76,7 +76,7 @@ exportWorld licences w = do
             , techniques = values w.techniques
             , recipes = values w.recipes
             , measures = values w.measures
-            , nutrition = Map.mapMaybeWithKey (\i _ -> derivedPer100g <$> nutritionOf w i) w.ingredients
+            , nutrition = Map.map derivedPer100g (Map.restrictKeys (nutritionTable w) (Map.keysSet w.ingredients))
             , preparations = prepared w
             , units = Map.elems w.units
             , forms = Map.elems w.forms
