@@ -2,7 +2,7 @@ package cookbookofbabel.minecraft;
 
 import cookbookofbabel.minecraft.dataset.NamedDish;
 import cookbookofbabel.minecraft.dish.NamedDishItem;
-import cookbookofbabel.minecraft.substance.Container;
+import cookbookofbabel.minecraft.substance.FluidKind;
 import cookbookofbabel.minecraft.substance.PortionItem;
 import cookbookofbabel.minecraft.substance.Substance;
 import cookbookofbabel.minecraft.substance.SubstanceFluid;
@@ -50,8 +50,8 @@ public final class Registration {
             "substance",
             () -> new SubstanceFluidType(FluidType.Properties.create().descriptionId("fluid_type." + CookbookOfBabel.ID + ".substance")));
 
-    public static final Map<Container, RegistryObject<Fluid>> SUBSTANCE_FLUIDS = new EnumMap<>(Arrays.stream(Container.values())
-            .collect(Collectors.toMap(Function.identity(), c -> FLUIDS.register(c.fluidName, () -> fluidIn(c)))));
+    public static final Map<FluidKind, RegistryObject<Fluid>> SUBSTANCE_FLUIDS = new EnumMap<>(Arrays.stream(FluidKind.values())
+            .collect(Collectors.toMap(Function.identity(), k -> FLUIDS.register(k.toString(), () -> fluidIn(k)))));
 
     public static final Map<NamedDish, RegistryObject<NamedDishItem>> DISHES = NamedDish.values().stream()
             .collect(Collectors.toMap(Function.identity(), d -> ITEMS.register(d.id(), () -> new NamedDishItem(d, new Item.Properties())),
@@ -83,8 +83,8 @@ public final class Registration {
         TABS.register(modBus);
     }
 
-    private static Fluid fluidIn(Container container) {
-        Supplier<Fluid> self = () -> SUBSTANCE_FLUIDS.get(container).get();
+    private static Fluid fluidIn(FluidKind kind) {
+        Supplier<Fluid> self = () -> SUBSTANCE_FLUIDS.get(kind).get();
         return new SubstanceFluid(new ForgeFlowingFluid.Properties(SUBSTANCE_FLUID_TYPE, self, self));
     }
 }

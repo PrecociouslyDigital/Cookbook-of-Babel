@@ -11,6 +11,7 @@ import net.minecraft.network.chat.Component;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.level.material.Fluid;
 import net.minecraftforge.fluids.FluidStack;
 
 /**
@@ -22,10 +23,10 @@ public final class Substances {
 
     private Substances() {}
 
-    /** A solid substance item, or containers filled with a flowable one. */
+    /** A solid substance item, or vessels filled with a flowable one. */
     public static ItemStack stackOf(Holder.Reference<Substance> substance, int count) {
-        if (substance.value().carrier() instanceof Carrier.Flowable flowable) {
-            return PortionItem.filled(fluid(substance.key(), flowable.container(), Container.PORTION_MB), count);
+        if (substance.value().carrier() instanceof Carrier.Flowable) {
+            return PortionItem.filled(fluid(substance.key(), fluidKind(substance.value()), Container.PORTION_MB), count);
         }
         var stack = new ItemStack(Registration.SUBSTANCE_ITEM.get(), count);
         stack.setTag(tagOf(substance.key()));
@@ -34,9 +35,15 @@ public final class Substances {
 
     /** Empty for a solid substance, which has no fluid form. */
     public static Optional<FluidStack> fluidOf(Holder.Reference<Substance> substance, int millibuckets) {
-        return substance.value().carrier() instanceof Carrier.Flowable flowable
-                ? Optional.of(fluid(substance.key(), flowable.container(), millibuckets))
-                : Optional.empty();
+        if (!(substance.value().carrier() instanceof Carrier.Flowable)) {
+            return Optional.empty();
+        }
+        return Optional.of(fluid(substance.key(), fluidKind(substance.value()), millibuckets));
+    }
+
+    /** What a substance flows as, from its form; its carrier only says the vessel. */
+    private static FluidKind fluidKind(Substance substance) {
+        return FluidKind.forForm(substance.form());
     }
 
     /**
@@ -53,10 +60,17 @@ public final class Substances {
         return lookUp(stack.getTag(), lookup).filter(s -> s.value().carrier() instanceof Carrier.Solid);
     }
 
-    /** The substance in a fluid stack, if its fluid is the one its carrier says. */
+    /** The substance in a fluid stack, if the fluid is what its carrier says it flows as. */
     public static Optional<Holder.Reference<Substance>> of(FluidStack fluid, HolderLookup.Provider lookup) {
-        return Container.holding(fluid.getFluid()).flatMap(container -> lookUp(fluid.getTag(), lookup)
-                .filter(s -> s.value().carrier().equals(new Carrier.Flowable(container))));
+        return lookUp(fluid.getTag(), lookup).filter(s -> flows(s.value(), fluid.getFluid()));
+    }
+
+    /** Whether the substance flows as this fluid: its kind must be the form's, held by its vessel. */
+    private static boolean flows(Substance substance, Fluid fluid) {
+        return FluidKind.of(fluid)
+                .filter(kind -> kind == fluidKind(substance)
+                        && substance.carrier() instanceof Carrier.Flowable f && f.container().holds(kind))
+                .isPresent();
     }
 
     /** The NBT that names a substance, for a stack or for matching one. */
@@ -84,8 +98,8 @@ public final class Substances {
         return Component.translatable("item." + CookbookOfBabel.ID + ".substance.unknown");
     }
 
-    private static FluidStack fluid(ResourceKey<Substance> substance, Container container, int millibuckets) {
-        return new FluidStack(container.fluid(), millibuckets, tagOf(substance));
+    private static FluidStack fluid(ResourceKey<Substance> substance, FluidKind kind, int millibuckets) {
+        return new FluidStack(kind.fluid(), millibuckets, tagOf(substance));
     }
 
     private static Optional<Holder.Reference<Substance>> lookUp(CompoundTag tag, HolderLookup.Provider lookup) {

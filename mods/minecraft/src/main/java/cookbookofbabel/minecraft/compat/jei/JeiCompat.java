@@ -4,6 +4,7 @@ import cookbookofbabel.minecraft.BabelTags;
 import cookbookofbabel.minecraft.CookbookOfBabel;
 import cookbookofbabel.minecraft.Registration;
 import cookbookofbabel.minecraft.substance.Container;
+import cookbookofbabel.minecraft.substance.FluidKind;
 import cookbookofbabel.minecraft.substance.PortionItem;
 import cookbookofbabel.minecraft.substance.Substance;
 import cookbookofbabel.minecraft.substance.Substances;
@@ -37,8 +38,8 @@ public final class JeiCompat implements IModPlugin {
 
     @Override
     public <T> void registerFluidSubtypes(ISubtypeRegistration registration, IPlatformFluidHelper<T> fluids) {
-        for (var container : Container.values()) {
-            registration.registerSubtypeInterpreter(ForgeTypes.FLUID_STACK, container.fluid(), (fluid, context) -> named(fluid.getTag()));
+        for (var kind : FluidKind.values()) {
+            registration.registerSubtypeInterpreter(ForgeTypes.FLUID_STACK, kind.fluid(), (fluid, context) -> named(fluid.getTag()));
         }
     }
 

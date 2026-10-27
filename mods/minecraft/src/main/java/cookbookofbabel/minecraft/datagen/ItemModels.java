@@ -42,6 +42,7 @@ final class ItemModels extends ItemModelProvider {
                         .texture("layer0", mcLoc("item/potion_overlay"))
                         .texture("layer1", mcLoc("item/potion"));
                 case PAPER_TWIST -> flat(name, new ResourceLocation("item/paper"));
+                case BOWL -> flat(name, mcLoc("item/beetroot_soup"));
             };
             portion.override()
                     .predicate(CookbookOfBabel.id(ClientSetup.CONTAINER), container.ordinal())

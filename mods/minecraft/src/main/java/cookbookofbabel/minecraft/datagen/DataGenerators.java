@@ -3,7 +3,6 @@ package cookbookofbabel.minecraft.datagen;
 import cookbookofbabel.minecraft.CookbookOfBabel;
 import cookbookofbabel.minecraft.datagen.recipe.Carriers;
 import cookbookofbabel.minecraft.datagen.recipe.RecipesGen;
-import cookbookofbabel.minecraft.substance.Carrier;
 import cookbookofbabel.minecraft.substance.Colors;
 import cookbookofbabel.minecraft.substance.Substance;
 import java.io.IOException;
@@ -42,7 +41,7 @@ public final class DataGenerators {
         generator.addProvider(true, new Reports(context));
     }
 
-    /** One substance per ingredient that isn't a named dish, with its form's default carrier. */
+    /** One substance per ingredient that isn't a named dish, with its dataset carrier. */
     private static RegistrySetBuilder substances(DatagenContext context) {
         return new RegistrySetBuilder().add(Substance.REGISTRY, bootstrap -> {
             for (var ingredient : context.dataset.ingredients()) {
@@ -51,7 +50,7 @@ public final class DataGenerators {
                             ingredient.label(),
                             ingredient.form(),
                             Colors.forId(ingredient.id().value()),
-                            Carrier.forForm(ingredient.form()),
+                            context.dataset.carrier(ingredient.id()),
                             context.dataset.nutrition(ingredient.id()),
                             ingredient.waterActivity()));
                 }

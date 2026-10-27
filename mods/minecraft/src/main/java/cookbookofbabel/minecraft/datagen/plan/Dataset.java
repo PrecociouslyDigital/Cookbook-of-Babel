@@ -2,6 +2,7 @@ package cookbookofbabel.minecraft.datagen.plan;
 
 import cookbookofbabel.minecraft.dataset.Export;
 import cookbookofbabel.minecraft.dataset.Ingredient;
+import cookbookofbabel.minecraft.dataset.Outcome;
 import cookbookofbabel.minecraft.dataset.IngredientId;
 import cookbookofbabel.minecraft.dataset.Technique;
 import cookbookofbabel.minecraft.dataset.TechniqueId;
@@ -13,11 +14,13 @@ import cookbookofbabel.minecraft.substance.Portions;
 import java.util.ArrayDeque;
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.LinkedHashSet;
 import java.util.List;
 import java.util.Map;
 import java.util.Optional;
 import java.util.Set;
+import java.util.function.Consumer;
 import java.util.function.Function;
 import java.util.stream.Collectors;
 
@@ -29,6 +32,8 @@ public final class Dataset {
     private final Map<String, Unit> units;
     private final Map<IngredientId, Double> gramsPerPiece = new HashMap<>();
     private final Map<IngredientId, Nutrition> nutrition;
+    /** Ingredients some step makes and a later one uses: the cook handles them in a bowl. */
+    private final Set<IngredientId> intermediates = new HashSet<>();
     private final double negligibleMassFraction;
 
     public Dataset(Export export) {
@@ -44,6 +49,23 @@ public final class Dataset {
         }
         for (var measure : export.measures()) {
             measure.gramsPer().filter(g -> g.unit().equals("piece")).ifPresent(g -> gramsPerPiece.put(measure.ingredient(), g.grams()));
+        }
+        var named = export.ingredients().stream().filter(Ingredient::named)
+                .map(Ingredient::id).collect(Collectors.toSet());
+        for (var recipe : export.recipes()) {
+            outputs(recipe.outputs(), out -> {
+                if (!named.contains(out)) {
+                    intermediates.add(out);
+                }
+            });
+        }
+    }
+
+    private static void outputs(Outcome outcome, Consumer<IngredientId> sink) {
+        if (outcome instanceof Outcome.Outputs o) {
+            o.outputs().forEach(output -> sink.accept(output.ingredient()));
+        } else if (outcome instanceof Outcome.OneOf o) {
+            o.branches().forEach(branch -> outputs(branch.outputs(), sink));
         }
     }
 
@@ -125,10 +147,23 @@ public final class Dataset {
         return List.copyOf(seen);
     }
 
+    /** Whether a step makes the ingredient and a later one uses it: a dish-private intermediate. */
+    public boolean isIntermediate(IngredientId id) {
+        return intermediates.contains(id);
+    }
+
+    /**
+     * The carrier of the ingredient's substance: its form's default, except that an intermediate a
+     * cook handles by hand goes in a bowl.
+     */
+    public Carrier carrier(IngredientId id) {
+        var ingredient = ingredient(id);
+        return Carrier.forIngredient(ingredient.form(), isIntermediate(id));
+    }
+
     /** Named dishes are items of their own; every other ingredient is a substance. */
     public Optional<Container> container(IngredientId id) {
-        var ingredient = ingredient(id);
-        return !ingredient.named() && Carrier.forForm(ingredient.form()) instanceof Carrier.Flowable f
+        return !ingredient(id).named() && carrier(id) instanceof Carrier.Flowable f
                 ? Optional.of(f.container())
                 : Optional.empty();
     }

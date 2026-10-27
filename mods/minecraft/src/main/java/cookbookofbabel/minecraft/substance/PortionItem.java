@@ -1,5 +1,6 @@
 package cookbookofbabel.minecraft.substance;
 
+import cookbookofbabel.minecraft.Lookups;
 import cookbookofbabel.minecraft.Registration;
 import java.util.Optional;
 import net.minecraft.nbt.CompoundTag;
@@ -12,9 +13,9 @@ import net.minecraftforge.fluids.capability.templates.FluidHandlerItemStack;
 import org.jetbrains.annotations.Nullable;
 
 /**
- * A {@link Container} holding one portion of a flowable substance. Its fluid decides both what it
- * holds and what it is held in, so the two can't disagree. Anything that works with Forge's fluid
- * capability, such as Create's spout and item drain, can fill and empty it.
+ * A {@link Container} holding one portion of a flowable substance. Its fluid says what it holds;
+ * the substance's carrier says what it is held in, so the two can't disagree. Anything that works
+ * with Forge's fluid capability, such as Create's spout and item drain, can fill and empty it.
  */
 public final class PortionItem extends Item {
     public PortionItem(Properties properties) {
@@ -33,8 +34,10 @@ public final class PortionItem extends Item {
                 .filter(fluid -> !fluid.isEmpty());
     }
 
+    /** The vessel the portion is carried in: the carrier of the substance it names. */
     public static Optional<Container> container(ItemStack stack) {
-        return contents(stack).flatMap(fluid -> Container.holding(fluid.getFluid()));
+        return Lookups.current().flatMap(lookup -> Substances.of(stack, lookup))
+                .map(s -> ((Carrier.Flowable) s.value().carrier()).container());
     }
 
     @Override
@@ -79,7 +82,9 @@ public final class PortionItem extends Item {
 
         @Override
         protected void setContainerToEmpty() {
-            var empty = Container.holding(getFluid().getFluid()).map(c -> new ItemStack(c.empty()));
+            var empty = Lookups.current().flatMap(lookup -> Substances.of(getFluid(), lookup))
+                    .map(s -> ((Carrier.Flowable) s.value().carrier()).container())
+                    .map(c -> new ItemStack(c.empty()));
             super.setContainerToEmpty();
             container = empty.orElse(ItemStack.EMPTY);
         }

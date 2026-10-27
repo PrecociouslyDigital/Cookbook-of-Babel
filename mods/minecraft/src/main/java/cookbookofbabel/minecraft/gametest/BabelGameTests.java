@@ -25,6 +25,7 @@ import cookbookofbabel.minecraft.room.LevelRooms;
 import cookbookofbabel.minecraft.room.RoomConstants;
 import cookbookofbabel.minecraft.substance.Carrier;
 import cookbookofbabel.minecraft.substance.Container;
+import cookbookofbabel.minecraft.substance.FluidKind;
 import cookbookofbabel.minecraft.substance.Substance;
 import cookbookofbabel.minecraft.substance.Substances;
 import java.io.IOException;
@@ -184,9 +185,9 @@ public final class BabelGameTests {
     }
 
     /**
-     * For every flowable substance: its empty container fills with a portion of it, the portion
-     * names it, and draining the portion gives back the same fluid and the empty container. The
-     * other container refuses it.
+     * For every flowable substance: its empty vessel fills with a portion of it, the portion names
+     * it, and draining the portion gives back the same fluid and the empty vessel. A vessel that
+     * doesn't hold the substance's fluid kind refuses it.
      */
     @GameTest(template = EMPTY)
     public static void portionsFillAndDrainBack(GameTestHelper helper) {
@@ -209,9 +210,15 @@ public final class BabelGameTests {
             helper.assertTrue(drained.isFluidStackIdentical(fluid), "draining " + substance.key() + " gave " + drained.getFluid() + " " + drained.getTag());
             helper.assertTrue(drainer.getContainer().is(container.empty()), "draining left " + drainer.getContainer());
 
-            var other = Arrays.stream(Container.values()).filter(c -> c != container).findFirst().orElseThrow();
-            var wrong = new ItemStack(other.empty()).getCapability(ForgeCapabilities.FLUID_HANDLER_ITEM).orElseThrow(IllegalStateException::new);
-            helper.assertTrue(wrong.fill(fluid.copy(), FluidAction.SIMULATE) == 0, other + " accepted " + substance.key());
+            var kind = FluidKind.forForm(substance.value().form());
+            for (var other : Container.values()) {
+                if (other == container) {
+                    continue;
+                }
+                var wrong = new ItemStack(other.empty()).getCapability(ForgeCapabilities.FLUID_HANDLER_ITEM).orElseThrow(IllegalStateException::new);
+                helper.assertTrue(wrong.fill(fluid.copy(), FluidAction.SIMULATE) == (other.holds(kind) ? Container.PORTION_MB : 0),
+                        other + (other.holds(kind) ? " refused " : " accepted ") + substance.key());
+            }
         }
         helper.succeed();
     }

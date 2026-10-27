@@ -41,6 +41,7 @@ import cookbookofbabel.minecraft.datagen.recipe.hexerei.PestleAndMortar;
 import cookbookofbabel.minecraft.datagen.recipe.thermal.Thermal;
 import cookbookofbabel.minecraft.datagen.recipe.theurgy.Theurgy;
 import cookbookofbabel.minecraft.datagen.recipe.vintagedelight.FermentingJar;
+import cookbookofbabel.minecraft.dish.NamedDishItem;
 import cookbookofbabel.minecraft.datagen.recipe.Resolved.Exact;
 import cookbookofbabel.minecraft.datagen.recipe.Resolved.FluidInput;
 import cookbookofbabel.minecraft.datagen.recipe.Resolved.Tagged;
@@ -213,7 +214,9 @@ public final class RouteEmitter {
             };
             case FD_COOKING_POT -> () -> {
                 var result = (ItemStack) first(outputs);
-                var builder = CookingPotRecipeBuilder.cookingPotRecipe(result.getItem(), result.getCount(), p.ticks(), EXPERIENCE);
+                var builder = serving(result)
+                        .map(container -> CookingPotRecipeBuilder.cookingPotRecipe(result.getItem(), result.getCount(), p.ticks(), EXPERIENCE, container))
+                        .orElseGet(() -> CookingPotRecipeBuilder.cookingPotRecipe(result.getItem(), result.getCount(), p.ticks(), EXPERIENCE));
                 for (var i = 0; i < items.size(); i++) {
                     builder.addIngredient(items.get(i), counts.get(i));
                 }
@@ -230,6 +233,14 @@ public final class RouteEmitter {
             };
         };
         emit.run();
+    }
+
+    /** The vessel the meal is served in: a bowl for our bowlable dishes, FD's own for its meals. */
+    private static Optional<Item> serving(ItemStack result) {
+        if (result.getItem() instanceof NamedDishItem dish) {
+            return dish.servedInBowls() ? Optional.of(Items.BOWL) : Optional.empty();
+        }
+        return FdContainers.of(ForgeRegistries.ITEMS.getKey(result.getItem()));
     }
 
     private <T extends ProcessingRecipe<?>> void create(

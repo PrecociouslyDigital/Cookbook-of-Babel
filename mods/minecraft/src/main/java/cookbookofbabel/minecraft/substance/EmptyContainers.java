@@ -13,10 +13,10 @@ import net.minecraftforge.fluids.capability.IFluidHandlerItem;
 import org.jetbrains.annotations.Nullable;
 
 /**
- * Gives every empty {@link Container} (glass bottles, paper) a fluid handler that fills it with one
- * portion of a substance carried in that container, and turns it into a {@link PortionItem}. So
- * filling needs no recipe per substance: a spout fills paper with flour, and won't fill a bottle
- * with it.
+ * Gives every empty {@link Container} (glass bottles, paper, bowls) a fluid handler that fills it
+ * with one portion of a substance carried in that container, and turns it into a {@link
+ * PortionItem}. So filling needs no recipe per substance: a spout fills paper with flour, a bottle
+ * with oil, and a bowl with either.
  */
 public final class EmptyContainers {
     private EmptyContainers() {}
@@ -59,7 +59,8 @@ public final class EmptyContainers {
 
         @Override
         public boolean isFluidValid(int tank, FluidStack fluid) {
-            return fluid.getFluid().isSame(kind.fluid()) && fluid.hasTag() && fluid.getTag().contains(Substances.KEY);
+            return FluidKind.of(fluid.getFluid()).filter(kind::holds).isPresent()
+                    && fluid.hasTag() && fluid.getTag().contains(Substances.KEY);
         }
 
         @Override

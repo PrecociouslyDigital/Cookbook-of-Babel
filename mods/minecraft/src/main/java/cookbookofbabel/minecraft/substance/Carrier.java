@@ -28,6 +28,19 @@ public sealed interface Carrier {
         };
     }
 
+    /**
+     * The carrier for a dataset ingredient: the form's default, except that an intermediate a cook
+     * handles by hand goes in a bowl. Standalone ingredients keep their bottles and twists, so they
+     * can be stocked and automated; a gas still flows in a bottle even mid-recipe.
+     */
+    static Carrier forIngredient(Form form, boolean intermediate) {
+        var bowlable = switch (form) {
+            case LIQUID, BATTER, FOAM, POWDER, GRANULE -> true;
+            default -> false;
+        };
+        return intermediate && bowlable ? new Flowable(Container.BOWL) : forForm(form);
+    }
+
     private static DataResult<Carrier> parse(String name) {
         if (name.equals("solid")) {
             return DataResult.success(SOLID);
