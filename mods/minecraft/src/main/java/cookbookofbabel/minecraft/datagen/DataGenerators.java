@@ -34,6 +34,8 @@ public final class DataGenerators {
         var registries = substances.getRegistryProvider();
         generator.addProvider(true, new TagsGen.Items(output, registries, context, files));
         generator.addProvider(true, new TagsGen.Fluids(output, registries, context, files));
+        generator.addProvider(true, new RoomsGen.CoolingWalls(output, event.getLookupProvider(), files));
+        generator.addProvider(true, new RoomsGen.HeatSources(output));
         generator.addProvider(true, new RecipesGen(output, context, registries));
         generator.addProvider(true, new Attribution(output, context.export));
         generator.addProvider(true, new TestStructures(output));

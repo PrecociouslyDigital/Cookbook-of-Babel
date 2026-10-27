@@ -11,6 +11,9 @@ import com.simibubi.create.content.processing.recipe.HeatCondition;
 import cookbookofbabel.minecraft.BabelTags;
 import cookbookofbabel.minecraft.CookbookOfBabel;
 import cookbookofbabel.minecraft.Registration;
+import cookbookofbabel.minecraft.room.Air;
+import cookbookofbabel.minecraft.room.LevelRooms;
+import cookbookofbabel.minecraft.room.RoomConstants;
 import cookbookofbabel.minecraft.substance.Carrier;
 import cookbookofbabel.minecraft.substance.Container;
 import cookbookofbabel.minecraft.substance.Substance;
@@ -28,6 +31,7 @@ import java.util.TreeMap;
 import java.util.function.Function;
 import java.util.function.Supplier;
 import java.util.stream.Collectors;
+import java.util.stream.IntStream;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
 import net.minecraft.core.Holder;
@@ -40,6 +44,8 @@ import net.minecraft.server.MinecraftServer;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.crafting.RecipeType;
+import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.state.properties.BlockStateProperties;
 import net.minecraftforge.common.capabilities.ForgeCapabilities;
 import net.minecraftforge.common.crafting.CraftingHelper;
@@ -291,6 +297,38 @@ public final class BabelGameTests {
         var result = recipe.getResultItem(level.registryAccess());
         helper.assertItemEntityPresent(result.getItem(), pos, 2);
         helper.succeed();
+    }
+
+    /**
+     * A stone cellar with ice in its wall keeps a barrel colder than the same box of planks does,
+     * on a warm day. Sky light inside the boxes settles before they are measured.
+     */
+    @GameTest(template = EMPTY)
+    public static void stoneCellarWithIceIsColderThanPlanks(GameTestHelper helper) {
+        var cellar = box(helper, new BlockPos(0, 1, 0), Blocks.STONE);
+        var shed = box(helper, new BlockPos(4, 1, 0), Blocks.OAK_PLANKS);
+        helper.setBlock(cellar.east(), Blocks.ICE);
+        var rooms = new LevelRooms((level, pos) -> new Air(25, 60), () -> RoomConstants.DEFAULT);
+        helper.runAfterDelay(20, () -> {
+            var inCellar = rooms.at(helper.getLevel(), helper.absolutePos(cellar));
+            var inShed = rooms.at(helper.getLevel(), helper.absolutePos(shed));
+            helper.assertTrue(inCellar.tempC() < inShed.tempC(), "the cellar reads " + inCellar + ", the shed " + inShed);
+            // Stone alone would hold the dark cellar just above the ground's temperature.
+            helper.assertTrue(inCellar.tempC() < RoomConstants.DEFAULT.groundTempC(), "the ice didn't chill the cellar: " + inCellar);
+            helper.succeed();
+        });
+    }
+
+    /** A hollow 4³ box of {@code wall} with its corner at {@code corner}; returns where its barrel stands inside. */
+    private static BlockPos box(GameTestHelper helper, BlockPos corner, Block wall) {
+        for (var pos : BlockPos.betweenClosed(corner, corner.offset(3, 3, 3))) {
+            var relative = pos.subtract(corner);
+            var inside = IntStream.of(relative.getX(), relative.getY(), relative.getZ()).allMatch(c -> c == 1 || c == 2);
+            helper.setBlock(pos, inside ? Blocks.AIR : wall);
+        }
+        var barrel = corner.offset(1, 1, 1);
+        helper.setBlock(barrel, Blocks.BARREL);
+        return barrel;
     }
 
     private static List<String> inputs(BasinRecipe recipe) {

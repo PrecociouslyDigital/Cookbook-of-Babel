@@ -170,15 +170,22 @@ dependencies {
     modRuntimeOnly(libs.modonomicon)
     modRuntimeOnly(libs.geckolib)
     modRuntimeOnly(libs.hexerei)
+    // Outside climates: only compiled against, and only touched when loaded (see room.Climates).
+    modCompileOnly(libs.sereneseasons)
+    modCompileOnly(libs.glitchcore)
+    modCompileOnly(libs.coldsweat)
 
     testImplementation(libs.jqwik)
     testImplementation(libs.assertj)
 }
 
-// The properties test pure planning code, which only needs Minecraft's
-// libraries (DataFixerUpper's codecs) on the classpath, not a running game.
+// The properties test pure code (planning, the room model), which only needs
+// Minecraft's classes and libraries on the classpath, not a running game. Forge's
+// loader holds slf4j at 1.8, which Minecraft's slf4j 2 binding can't run on, so
+// the tests go without the binding and their logging goes nowhere.
 sourceSets.test {
-    runtimeClasspath += sourceSets.main.get().compileClasspath
+    compileClasspath += sourceSets.main.get().compileClasspath
+    runtimeClasspath += sourceSets.main.get().compileClasspath.filter { !it.name.startsWith("log4j-slf4j2-impl") }
 }
 
 tasks.test {

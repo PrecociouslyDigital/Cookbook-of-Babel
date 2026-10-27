@@ -1,6 +1,7 @@
 package cookbookofbabel.minecraft;
 
 import cookbookofbabel.minecraft.clock.Transition;
+import cookbookofbabel.minecraft.room.StoredRooms;
 import cookbookofbabel.minecraft.substance.EmptyContainers;
 import cookbookofbabel.minecraft.substance.Substance;
 import net.minecraft.resources.ResourceLocation;
@@ -21,6 +22,7 @@ public final class CookbookOfBabel {
             event.dataPackRegistry(Transition.REGISTRY, Transition.CODEC, Transition.CODEC);
         });
         MinecraftForge.EVENT_BUS.addGenericListener(net.minecraft.world.item.ItemStack.class, EmptyContainers::attach);
+        StoredRooms.register(modBus, MinecraftForge.EVENT_BUS);
     }
 
     public static ResourceLocation id(String path) {
