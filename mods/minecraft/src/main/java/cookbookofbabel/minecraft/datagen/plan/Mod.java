@@ -19,6 +19,15 @@ public enum Mod {
     THERMAL_EXPANSION("thermal_expansion", "thermal"),
     THEURGY("theurgy"),
     HEXEREI("hexerei"),
+    // Mods that only provide ingredients come after every mod with machines, so mapping them
+    // never moves an output another mod already provides.
+    ENDERS_DELIGHT("endersdelight"),
+    VEGGIES_DELIGHT("veggiesdelight"),
+    CROPTOPIA("croptopia"),
+    PAMHC2_FOODEXTENDED("pamhc2foodextended"),
+    PAMHC2_FOODCORE("pamhc2foodcore"),
+    PAMHC2_CROPS("pamhc2crops"),
+    PAMHC2_TREES("pamhc2trees"),
     /** Always loaded; an output mapped to vanilla shadows every later choice. */
     MINECRAFT("minecraft");
 

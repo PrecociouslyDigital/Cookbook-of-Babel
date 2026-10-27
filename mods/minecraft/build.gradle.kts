@@ -144,6 +144,10 @@ repositories {
         filter { includeGroup("maven.modrinth") }
     }
     exclusiveContent {
+        forRepository { maven("https://cursemaven.com") }
+        filter { includeGroup("curse.maven") }
+    }
+    exclusiveContent {
         forRepository { maven("https://maven.blamejared.com") }
         filter { includeGroup("mezz.jei") }
     }
@@ -181,6 +185,15 @@ dependencies {
     modRuntimeOnly(libs.geckolib)
     modCompileOnly(libs.hexerei)
     modRuntimeOnly(libs.hexerei)
+    // Mods that only provide ingredients: mapped, never compiled against.
+    modRuntimeOnly(libs.endersdelight)
+    modRuntimeOnly(libs.veggiesdelight)
+    modRuntimeOnly(libs.croptopia)
+    modRuntimeOnly(libs.epherolib)
+    modRuntimeOnly(libs.pamhc2foodcore)
+    modRuntimeOnly(libs.pamhc2foodextended)
+    modRuntimeOnly(libs.pamhc2crops)
+    modRuntimeOnly(libs.pamhc2trees)
     // Outside climates: only compiled against, and only touched when loaded (see room.Climates).
     modCompileOnly(libs.sereneseasons)
     modCompileOnly(libs.glitchcore)
