@@ -63,6 +63,7 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.crafting.Ingredient;
+import net.minecraftforge.common.crafting.conditions.FalseCondition;
 import net.minecraftforge.common.crafting.conditions.ICondition;
 import net.minecraftforge.common.crafting.conditions.ModLoadedCondition;
 import net.minecraftforge.common.crafting.conditions.NotCondition;
@@ -100,8 +101,18 @@ public final class RouteEmitter {
     /** One of the fluids a fluid input can be filled with, and when it can. */
     private record FluidChoice(FluidInput input, List<Condition> conditions) {}
 
-    /** @return how many recipes it wrote */
-    public int emit(Planned planned, Consumer<FinishedRecipe> sink) {
+    /** One recipe a planned step becomes, not yet written. */
+    public record Emission(Planned planned, String path, Target target, List<FluidInput> fluids, List<Condition> conditions) {
+        /** The same recipe, written so that it never loads. */
+        public Emission disabled() {
+            var all = new ArrayList<>(conditions);
+            all.add(new Condition.False());
+            return new Emission(planned, path, target, fluids, List.copyOf(all));
+        }
+    }
+
+    /** The recipes a planned step becomes: one per output candidate and choice of fluids. */
+    public List<Emission> emissions(Planned planned) {
         var main = planned.outputs().get(0);
         var external = BabelTags.externalItems(main.ingredient().value()).location().toString();
         var candidates = (main instanceof ItemOut
@@ -111,7 +122,7 @@ public final class RouteEmitter {
                 .filter(c -> planned.route().nbt.onResults() || withoutNbt(c.target(), main))
                 .toList();
         var fluidVariants = fluidVariants(planned);
-        var written = 0;
+        var emissions = new ArrayList<Emission>();
         for (var candidate : candidates) {
             for (var v = 0; v < fluidVariants.size(); v++) {
                 var path = planned.step().path()
@@ -124,12 +135,11 @@ public final class RouteEmitter {
                 conditions.addAll(candidate.conditions());
                 var fluids = fluidVariants.get(v);
                 fluids.forEach(f -> conditions.addAll(f.conditions()));
-                write(planned, path, candidate.target(), fluids.stream().map(FluidChoice::input).toList(),
-                        forge(conditions), sink);
-                written++;
+                emissions.add(new Emission(planned, path, candidate.target(), fluids.stream().map(FluidChoice::input).toList(),
+                        List.copyOf(conditions)));
             }
         }
-        return written;
+        return emissions;
     }
 
     /** Whether a machine that ignores NBT makes the target: another mod's thing, or a named dish's item. */
@@ -137,7 +147,12 @@ public final class RouteEmitter {
         return target instanceof Target.External || (main instanceof ItemOut && NamedDish.byId(main.ingredient().value()).isPresent());
     }
 
-    private void write(Planned p, String path, Target mainTarget, List<FluidInput> fluids, List<ICondition> conditions, Consumer<FinishedRecipe> sink) {
+    public void write(Emission emission, Consumer<FinishedRecipe> sink) {
+        var p = emission.planned();
+        var path = emission.path();
+        var mainTarget = emission.target();
+        var fluids = emission.fluids();
+        var conditions = forge(emission.conditions());
         var items = new ArrayList<Ingredient>();
         var counts = new ArrayList<Integer>();
         for (var in : p.inputs()) {
@@ -408,12 +423,26 @@ public final class RouteEmitter {
     }
 
     private static ICondition forge(Condition condition) {
-        if (condition instanceof Condition.ModLoaded m) {
-            return new ModLoadedCondition(m.mod().id);
-        }
-        if (condition instanceof Condition.Not n) {
-            return new NotCondition(forge(n.condition()));
-        }
-        return new TagEmptyCondition(((Condition.TagEmpty) condition).tag());
+        return condition.match(new Condition.Cases<>() {
+            @Override
+            public ICondition modLoaded(Mod mod) {
+                return new ModLoadedCondition(mod.id);
+            }
+
+            @Override
+            public ICondition not(Condition negated) {
+                return new NotCondition(forge(negated));
+            }
+
+            @Override
+            public ICondition tagEmpty(String tag) {
+                return new TagEmptyCondition(tag);
+            }
+
+            @Override
+            public ICondition never() {
+                return FalseCondition.INSTANCE;
+            }
+        });
     }
 }

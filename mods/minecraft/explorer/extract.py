@@ -3,7 +3,9 @@
 A node is anything a recipe consumes or produces: a dataset substance, a
 finished dish, or another mod's item, fluid or tag such as water or a knife.
 Each produced node lists its alternatives, one per (inputs, output count) pair,
-with every machine that makes it from those inputs.
+with every machine that makes it from those inputs. Datagen disables recipes
+whose inputs the game can't make, so those form dead alternatives alongside
+any live ones.
 
 Each target mod writes recipes in its own schema, so inputs and outputs
 appear under several keys and in several encodings.
@@ -97,6 +99,10 @@ def outputs_of(recipe):
             yield ref(entry), entry.get("count", entry.get("Count", entry.get("amount", 1)))
 
 
+def dead(recipe):
+    return any(c.get("type") == "forge:false" for c in recipe.get("conditions", []))
+
+
 def machine_of(recipe):
     heat = recipe.get("heatRequirement")
     return recipe["type"] + (f" ({heat})" if heat else "")
@@ -121,10 +127,10 @@ def compile_graph(generated):
         if not outputs:
             raise ValueError(f"{path} produces nothing")
         for out, count in outputs:
-            produced[out][inputs, count].add(machine_of(recipe))
+            produced[out][inputs, count, dead(recipe)].add(machine_of(recipe))
 
     names = set(produced) | set(substances)
-    names.update(name for alts in produced.values() for inputs, _ in alts for name, _, _ in inputs)
+    names.update(name for alts in produced.values() for inputs, _, _ in alts for name, _, _ in inputs)
     names = sorted(names)
     index = {n: i for i, n in enumerate(names)}
     machines = sorted({m for alts in produced.values() for ms in alts.values() for m in ms})
@@ -150,15 +156,19 @@ def compile_graph(generated):
         if outside:
             accepted[index[name]] = outside
 
-    def alternative(inputs, count, ms):
+    def alternative(inputs, count, is_dead, ms):
         slots = [[index[name], qty, unit] if unit else [index[name], qty] for name, qty, unit in inputs]
-        return [sorted(machine_index[m] for m in ms), count, slots]
+        return [sorted(machine_index[m] for m in ms), count, slots, int(is_dead)]
+
+    def alternatives(alts):
+        """Live ones first, so the page shows a way to make the node that works."""
+        return [alternative(*key, ms) for key, ms in sorted(alts.items(), key=lambda alt: alt[0][2])]
 
     return {
         "nodes": [describe(n) for n in names],
         "ids": names,
         "machines": machines,
-        "recipes": {index[out]: [alternative(*key, ms) for key, ms in alts.items()] for out, alts in produced.items()},
+        "recipes": {index[out]: alternatives(alts) for out, alts in produced.items()},
         "accepted": accepted,
     }
 

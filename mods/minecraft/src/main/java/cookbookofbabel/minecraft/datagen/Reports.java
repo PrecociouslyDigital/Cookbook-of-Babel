@@ -9,6 +9,7 @@ import cookbookofbabel.minecraft.dataset.IngredientId;
 import cookbookofbabel.minecraft.datagen.plan.Mod;
 import cookbookofbabel.minecraft.datagen.plan.Proposals;
 import cookbookofbabel.minecraft.datagen.plan.Quantize;
+import cookbookofbabel.minecraft.datagen.plan.RouteKind;
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
@@ -110,7 +111,7 @@ final class Reports implements DataProvider {
 
         out.append("\n## Steps\n\n");
         out.append("Rounding error is the largest relative error of any non-negligible amount; above ")
-                .append(percent(Quantize.TOLERANCE)).append(" it is marked ⚠. *Estimated*: a density or piece mass was assumed.\n");
+                .append(Coverage.percent(Quantize.TOLERANCE)).append(" it is marked ⚠. *Estimated*: a density or piece mass was assumed.\n");
         for (var step : context.coverage.steps()) {
             out.append("\n### `").append(step.recipe()).append("` (").append(step.technique()).append(")\n\n");
             step.note().ifPresent(n -> out.append("No routes: ").append(n).append(".\n"));
@@ -122,22 +123,13 @@ final class Reports implements DataProvider {
                 variant.addedMedium().ifPresent(m -> out.append(indent).append("- adds `").append(m)
                         .append("`: the step uses it up but doesn't list it (a dataset gap)\n"));
                 for (var route : variant.routes()) {
-                    out.append(indent).append("- ").append(Coverage.routeName(route.route())).append(": ");
-                    if (route.outcome() instanceof Coverage.Emitted e) {
-                        out.append(e.recipes()).append(e.recipes() == 1 ? " recipe" : " recipes")
-                                .append(", rounding ").append(percent(e.maxError()))
-                                .append(e.maxError() > Quantize.TOLERANCE ? " ⚠" : "")
-                                .append(e.estimated() ? ", estimated" : "");
-                        if (!e.dropped().isEmpty()) {
-                            out.append(", drops ").append(e.dropped().stream().map(d -> "`" + d + "`").collect(Collectors.joining(", ")));
-                        }
-                    } else {
-                        out.append("none, ").append(((Coverage.Rejected) route.outcome()).reason());
-                    }
-                    out.append('\n');
+                    out.append(indent).append("- ").append(Coverage.routeName(route.route())).append(": ")
+                            .append(route.outcome().describe()).append('\n');
                 }
             }
         }
+
+        pruned(out);
 
         out.append("\n## Deferred\n\n");
         Stream.of(
@@ -147,6 +139,34 @@ final class Reports implements DataProvider {
                         "Outputs that are one of several outcomes.")
                 .forEach(line -> out.append("- ").append(line).append('\n'));
         return out.toString();
+    }
+
+    private record PrunedRoute(String path, RouteKind route, Coverage.Pruned outcome) {}
+
+    private void pruned(StringBuilder out) {
+        var pruned = context.coverage.steps().stream()
+                .flatMap(s -> s.variants().stream())
+                .flatMap(v -> v.routes().stream().flatMap(r -> r.outcome() instanceof Coverage.Pruned p
+                        ? Stream.of(new PrunedRoute(v.path(), r.route(), p))
+                        : Stream.empty()))
+                .toList();
+        out.append("\n## Pruned\n\n");
+        out.append("Routes written disabled (`forge:false`): the game can't make some of their inputs, nor anything that counts as them, ");
+        out.append("starting from what no step makes and what other mods provide.\n\n");
+        if (pruned.isEmpty()) {
+            out.append("None.\n");
+            return;
+        }
+        out.append("Inputs by how many pruned routes miss them:\n\n");
+        pruned.stream()
+                .flatMap(p -> p.outcome().missing().stream())
+                .collect(Collectors.groupingBy(i -> i, TreeMap::new, Collectors.counting()))
+                .entrySet().stream()
+                .sorted(Map.Entry.<IngredientId, Long>comparingByValue().reversed())
+                .forEach(e -> out.append("- `").append(e.getKey()).append("`: ").append(e.getValue()).append('\n'));
+        out.append("\nEach pruned route, and what it misses:\n\n");
+        pruned.forEach(p -> out.append("- `").append(p.path()).append("`, ").append(Coverage.routeName(p.route())).append(": ")
+                .append(Coverage.code(p.outcome().missing().stream().map(IngredientId::value))).append('\n'));
     }
 
     /**
@@ -231,10 +251,6 @@ final class Reports implements DataProvider {
         var array = new JsonArray();
         values.forEach(array::add);
         return array;
-    }
-
-    private static String percent(double fraction) {
-        return Math.round(fraction * 100) + "%";
     }
 
     @Override

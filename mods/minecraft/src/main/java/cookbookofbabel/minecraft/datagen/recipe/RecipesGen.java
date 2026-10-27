@@ -15,6 +15,9 @@ import cookbookofbabel.minecraft.datagen.plan.Condition;
 import cookbookofbabel.minecraft.datagen.plan.Mod;
 import cookbookofbabel.minecraft.datagen.plan.Planned;
 import cookbookofbabel.minecraft.datagen.plan.Planner;
+import cookbookofbabel.minecraft.datagen.plan.Reachability;
+import cookbookofbabel.minecraft.datagen.plan.RouteKind;
+import cookbookofbabel.minecraft.datagen.plan.Step;
 import cookbookofbabel.minecraft.substance.Container;
 import cookbookofbabel.minecraft.substance.Substance;
 import java.util.ArrayList;
@@ -23,6 +26,7 @@ import java.util.List;
 import java.util.Optional;
 import java.util.concurrent.CompletableFuture;
 import java.util.function.Consumer;
+import java.util.stream.Stream;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.recipes.FinishedRecipe;
@@ -44,15 +48,72 @@ public final class RecipesGen extends RecipeProvider {
         this.registries = registries;
     }
 
+    /**
+     * Plans every step before writing any, so that a recipe whose inputs nothing in the game can
+     * make is written disabled, instead of loading and asking for things nobody has.
+     */
     @Override
     protected void buildRecipes(Consumer<FinishedRecipe> sink) {
         var carriers = new Carriers(context.dataset, registries.join().lookupOrThrow(Substance.REGISTRY));
         var emitter = new RouteEmitter(context.dataset, context.mappings, carriers);
-        context.recipes().stream().sorted(Comparator.comparing(Recipe::id)).forEach(recipe -> step(recipe, emitter, sink));
+        var planned = context.recipes().stream()
+                .sorted(Comparator.comparing(Recipe::id))
+                .flatMap(recipe -> plan(recipe, emitter).stream())
+                .toList();
+        var writing = planned.stream()
+                .flatMap(p -> p.variants().stream())
+                .flatMap(v -> v.attempts().stream())
+                .flatMap(a -> a instanceof Ready ready && !ready.recipes().isEmpty() ? Stream.of(ready.plan()) : Stream.empty())
+                .toList();
+        var seeds = Reachability.seeds(context.dataset, context.recipes(), context.mappings);
+        var reachability = Reachability.of(seeds, writing, context.dataset::descendants);
+        for (var step : planned) {
+            var variants = step.variants().stream()
+                    .map(v -> new Coverage.Variant(v.step().path(), v.step().addedMedium().map(m -> m.ingredient()),
+                            v.attempts().stream().map(a -> a.write(reachability, emitter, sink)).toList()))
+                    .toList();
+            context.coverage.add(new Coverage.Step(step.recipe().id(), step.recipe().technique().value(), Optional.empty(), variants));
+        }
         fluidItems(carriers, sink);
     }
 
-    private void step(Recipe recipe, RouteEmitter emitter, Consumer<FinishedRecipe> sink) {
+    /** A dataset step, planned for every machine it's bound to. */
+    private record PlannedStep(Recipe recipe, List<PlannedVariant> variants) {}
+
+    private record PlannedVariant(Step step, List<Attempt> attempts) {}
+
+    /** What planning made of one variant in one machine, before anything is written. */
+    private sealed interface Attempt {
+        Coverage.Route write(Reachability reachability, RouteEmitter emitter, Consumer<FinishedRecipe> sink);
+    }
+
+    private record Refused(RouteKind route, String reason) implements Attempt {
+        @Override
+        public Coverage.Route write(Reachability reachability, RouteEmitter emitter, Consumer<FinishedRecipe> sink) {
+            return new Coverage.Route(route, new Coverage.Rejected(reason));
+        }
+    }
+
+    /** @param recipes none where every output candidate was filtered out, so it makes nothing */
+    private record Ready(Planned planned, List<RouteEmitter.Emission> recipes) implements Attempt {
+        Reachability.Plan plan() {
+            return Reachability.Plan.of(planned);
+        }
+
+        @Override
+        public Coverage.Route write(Reachability reachability, RouteEmitter emitter, Consumer<FinishedRecipe> sink) {
+            var missing = reachability.missing(plan());
+            if (recipes.isEmpty() || missing.isEmpty()) {
+                recipes.forEach(r -> emitter.write(r, sink));
+                return new Coverage.Route(planned.route(), new Coverage.Emitted(recipes.size(), planned.maxError(), planned.estimated(), planned.dropped()));
+            }
+            recipes.forEach(r -> emitter.write(r.disabled(), sink));
+            return new Coverage.Route(planned.route(), new Coverage.Pruned(recipes.size(), missing));
+        }
+    }
+
+    /** The step planned for each route, or empty if it has none; coverage records why either way. */
+    private Optional<PlannedStep> plan(Recipe recipe, RouteEmitter emitter) {
         var binding = context.techniques.bindingFor(recipe.technique());
         var technique = recipe.technique().value();
         if (binding.routes().isEmpty()) {
@@ -62,27 +123,25 @@ public final class RecipesGen extends RecipeProvider {
                             ? "should happen over time, but skipping it would lose what it makes"
                             : "no machine does " + technique + " or any technique above it";
             context.coverage.add(new Coverage.Step(recipe.id(), technique, Optional.of(note), List.of()));
-            return;
+            return Optional.empty();
         }
-        if (context.planner.steps(recipe) instanceof Planner.Unsupported unsupported) {
+        var steps = context.planner.steps(recipe);
+        if (steps instanceof Planner.Unsupported unsupported) {
             context.coverage.add(new Coverage.Step(recipe.id(), technique, Optional.of(unsupported.reason()), List.of()));
-            return;
+            return Optional.empty();
         }
-        var variants = new ArrayList<Coverage.Variant>();
-        for (var step : ((Planner.Variants) context.planner.steps(recipe)).steps()) {
-            var lines = new ArrayList<Coverage.Route>();
+        var variants = new ArrayList<PlannedVariant>();
+        for (var step : ((Planner.Variants) steps).steps()) {
+            var attempts = new ArrayList<Attempt>();
             for (var route : binding.routes()) {
                 var result = context.planner.plan(step, route);
-                if (result instanceof Planned planned) {
-                    var written = emitter.emit(planned, sink);
-                    lines.add(new Coverage.Route(route, new Coverage.Emitted(written, planned.maxError(), planned.estimated(), planned.dropped())));
-                } else {
-                    lines.add(new Coverage.Route(route, new Coverage.Rejected(((Planner.Rejected) result).reason())));
-                }
+                attempts.add(result instanceof Planned planned
+                        ? new Ready(planned, emitter.emissions(planned))
+                        : new Refused(route, ((Planner.Rejected) result).reason()));
             }
-            variants.add(new Coverage.Variant(step.path(), step.addedMedium().map(m -> m.ingredient()), lines));
+            variants.add(new PlannedVariant(step, attempts));
         }
-        context.coverage.add(new Coverage.Step(recipe.id(), technique, Optional.empty(), variants));
+        return Optional.of(new PlannedStep(recipe, variants));
     }
 
     /**
