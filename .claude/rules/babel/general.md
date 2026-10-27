@@ -1,5 +1,6 @@
 ---
-paths:
+description: "placeholder rule"
+paths: 
   - "babel/**"
   - "data/extractors/**/*.hs"
   - "data/extractors/**/*.cabal"

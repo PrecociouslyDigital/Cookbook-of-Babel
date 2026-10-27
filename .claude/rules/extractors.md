@@ -1,5 +1,6 @@
 ---
-paths:
+description: 
+paths: 
   - "data/extractors/**"
 ---
 

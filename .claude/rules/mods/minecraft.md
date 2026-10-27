@@ -1,5 +1,6 @@
 ---
-paths:
+description: "placeholder rule"
+paths: 
   - "mods/minecraft/**"
 ---
 

@@ -1,5 +1,6 @@
 ---
-paths:
+description: "placeholder rule"
+paths: 
   - "data/layers/extracted/**"
 ---
 Extractors under `data/extractors/` generate this layer and recreate their

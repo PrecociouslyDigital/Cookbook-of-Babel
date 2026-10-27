@@ -1,5 +1,6 @@
 ---
-paths:
+description: "placeholder rule"
+paths: 
   - "data/layers/*/*/foodkeeper/**"
 ---
 USDA FSIS FoodKeeper storage times, as spoilage recipes from

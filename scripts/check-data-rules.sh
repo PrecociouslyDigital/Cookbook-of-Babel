@@ -2,8 +2,9 @@
 # Each folder level under data/layers/ is a tag axis, and each folder name a
 # tag on the entries inside it. Every tag in use needs a Claude rule at
 # .claude/rules/data/<axis>/<tag>.md whose frontmatter globs exactly the
-# entries carrying that tag, and every rule must name a folder `babel layout`
-# allows. With --fix, missing rules are created empty.
+# entries carrying that tag (extra frontmatter like descriptions is fine),
+# and every rule must name a folder `babel layout` allows. With --fix,
+# missing rules are created empty.
 set -euo pipefail
 
 root=$(git rev-parse --show-toplevel)
@@ -38,6 +39,22 @@ glob() {
 
 frontmatter() {
 	printf -- '---\npaths:\n  - "%s"\n---\n' "$1"
+}
+
+# True if the frontmatter of the file at $1 has a paths key whose only
+# entry is exactly $2. Other keys (e.g. description) may appear around it.
+paths_exact() {
+	awk -v entry="  - \"$2\"" '
+		/^---[[:space:]]*$/ { dashes++; next }
+		dashes == 1 {
+			if (state == 0 && /^paths:[[:space:]]*$/) state = 1
+			else if (state == 1) {
+				if ($0 == entry) state = 2
+				else exit 1
+			} else if (state == 2 && /^[[:space:]]*-[[:space:]]/) exit 1
+		}
+		END { exit dashes == 2 && state == 2 ? 0 : 1 }
+	' "$1"
 }
 
 # Folder names in use on the axis at <depth>, limited to ones babel layout allows.
@@ -79,8 +96,8 @@ while IFS= read -r file; do
 	tag=${tag%.md}
 	if [[ $rel != */*.md || $tag == */* ]] || ! depth=$(depth_of "$axis") || [[ ${allowed[depth]} != *" $tag "* ]]; then
 		fail "$rules/$rel: no such folder in \`babel layout\`; remove it"
-	elif [[ $(head -n 4 "$file") != "$(frontmatter "$(glob "$depth" "$tag")")" ]]; then
-		fail "$rules/$rel: frontmatter must be exactly:"$'\n'"$(frontmatter "$(glob "$depth" "$tag")")"
+	elif ! paths_exact "$file" "$(glob "$depth" "$tag")"; then
+		fail "$rules/$rel: frontmatter paths must be exactly:"$'\n'"$(frontmatter "$(glob "$depth" "$tag")")"
 	fi
 done < <(find "$root/$rules" -type f | sort)
 

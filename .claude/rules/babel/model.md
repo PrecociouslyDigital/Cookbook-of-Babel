@@ -1,5 +1,6 @@
 ---
-paths:
+description: "placeholder rule"
+paths: 
   - "babel/src/Babel/Model.hs"
   - "babel/src/Babel/Model/**"
   - "babel/src/Babel/Codec.hs"

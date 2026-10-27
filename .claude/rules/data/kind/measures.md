@@ -1,5 +1,6 @@
 ---
-paths:
+description: "placeholder rule"
+paths: 
   - "data/layers/*/*/*/measures/**"
 ---
 A measure is one sourced fact about one ingredient: its nutrition per 100 g,
