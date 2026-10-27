@@ -103,6 +103,9 @@ public abstract class GenerateDatasetSources extends DefaultTask {
                     if (per100g != null) {
                         dish.put("nutrition", per100g);
                     }
+                    if (i.get("waterActivity") != null) {
+                        dish.put("waterActivity", i.get("waterActivity"));
+                    }
                     return "  " + JsonOutput.toJson(dish);
                 })
                 .collect(Collectors.joining(",\n", "[\n", "\n]\n"));

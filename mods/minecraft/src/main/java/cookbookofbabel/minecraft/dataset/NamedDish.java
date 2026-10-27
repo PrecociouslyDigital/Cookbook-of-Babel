@@ -21,14 +21,16 @@ import java.util.stream.Collectors;
  *
  * @param label the English name, used when no translation is loaded
  */
-public record NamedDish(String id, String label, Form form, Optional<Nutrition> nutrition) {
+public record NamedDish(
+        String id, String label, Form form, Optional<Nutrition> nutrition, Optional<Double> waterActivity) {
     private static final String RESOURCE = "/cookbook_of_babel/named_dishes.json";
 
     private static final Codec<NamedDish> CODEC = RecordCodecBuilder.create(i -> i.group(
                     Codec.STRING.fieldOf("id").forGetter(NamedDish::id),
                     Codec.STRING.fieldOf("label").forGetter(NamedDish::label),
                     Form.CODEC.fieldOf("form").forGetter(NamedDish::form),
-                    Nutrition.CODEC.optionalFieldOf("nutrition").forGetter(NamedDish::nutrition))
+                    Nutrition.CODEC.optionalFieldOf("nutrition").forGetter(NamedDish::nutrition),
+                    Codec.DOUBLE.optionalFieldOf("waterActivity").forGetter(NamedDish::waterActivity))
             .apply(i, NamedDish::new));
 
     private static final List<NamedDish> ALL = read();

@@ -11,6 +11,10 @@ import com.simibubi.create.content.processing.recipe.HeatCondition;
 import cookbookofbabel.minecraft.BabelTags;
 import cookbookofbabel.minecraft.CookbookOfBabel;
 import cookbookofbabel.minecraft.Registration;
+import cookbookofbabel.minecraft.clock.Food;
+import cookbookofbabel.minecraft.clock.ItemClocks;
+import cookbookofbabel.minecraft.clock.Transition;
+import cookbookofbabel.minecraft.clock.Transitions;
 import cookbookofbabel.minecraft.room.Air;
 import cookbookofbabel.minecraft.room.LevelRooms;
 import cookbookofbabel.minecraft.room.RoomConstants;
@@ -46,6 +50,7 @@ import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.crafting.RecipeType;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
+import net.minecraft.world.level.block.entity.RandomizableContainerBlockEntity;
 import net.minecraft.world.level.block.state.properties.BlockStateProperties;
 import net.minecraftforge.common.capabilities.ForgeCapabilities;
 import net.minecraftforge.common.crafting.CraftingHelper;
@@ -329,6 +334,53 @@ public final class BabelGameTests {
         var barrel = corner.offset(1, 1, 1);
         helper.setBlock(barrel, Blocks.BARREL);
         return barrel;
+    }
+
+    /**
+     * Food is dated where it is put: a chest and a keg keep its own water activity, while on a drying rack the room's
+     * air dries it. Food without transitions carries no date. Putting food in each runs that holder's hooks.
+     */
+    @GameTest(template = EMPTY)
+    public static void foodIsDatedWhereItIsKept(GameTestHelper helper) {
+        var level = helper.getLevel();
+        var registries = level.registryAccess();
+        var substances = registries.lookupOrThrow(Substance.REGISTRY);
+        var food = registries.registryOrThrow(Transition.REGISTRY).stream()
+                .flatMap(t -> Food.stackOf(t.input(), 1, substances).stream())
+                .findFirst()
+                .orElseGet(() -> Food.stackOf(CookbookOfBabel.id("bread"), 1, substances).orElseThrow());
+        boolean dated = !Transitions.from(Food.of(food, registries).orElseThrow().id(), registries).isEmpty();
+
+        var chestPos = new BlockPos(1, 1, 1);
+        helper.setBlock(chestPos, Blocks.CHEST);
+        var chest = (RandomizableContainerBlockEntity) helper.getBlockEntity(chestPos);
+        chest.setItem(0, food.copy());
+        var inChest = ItemClocks.read(chest.getItem(0));
+        helper.assertTrue(inChest.isPresent() == dated, "food in a chest is dated: " + inChest.isPresent());
+
+        var kegPos = new BlockPos(3, 1, 1);
+        helper.setBlock(kegPos, ForgeRegistries.BLOCKS.getValue(new ResourceLocation("brewinandchewin", "keg")));
+        var keg = helper.getBlockEntity(kegPos).getCapability(ForgeCapabilities.ITEM_HANDLER, Direction.UP)
+                .orElseThrow(IllegalStateException::new);
+        helper.assertTrue(keg.insertItem(0, food.copy(), false).isEmpty(), "the keg didn't take " + food);
+        var inKeg = ItemClocks.read(keg.getStackInSlot(0));
+        helper.assertTrue(inKeg.isPresent() == dated, "food in a keg is dated: " + inKeg.isPresent());
+
+        var rackPos = new BlockPos(1, 1, 3);
+        helper.setBlock(rackPos, ForgeRegistries.BLOCKS.getValue(new ResourceLocation("hexerei", "herb_drying_rack")));
+        var rack = (RandomizableContainerBlockEntity) helper.getBlockEntity(rackPos);
+        rack.setItem(0, food.copy());
+        var onRack = ItemClocks.read(rack.getItem(0));
+        helper.assertTrue(onRack.isPresent() == dated, "food on a drying rack is dated: " + onRack.isPresent());
+
+        if (dated) {
+            double own = inChest.get().environment().waterActivity();
+            double air = ItemClocks.get().rooms().at(level, helper.absolutePos(rackPos)).relativeHumidity() / 100;
+            helper.assertTrue(inKeg.get().environment().waterActivity() == own, "the keg changed the food's water activity");
+            helper.assertTrue(Math.abs(onRack.get().environment().waterActivity() - Math.min(own, air)) < 0.01,
+                    "the rack's air didn't dry the food to " + Math.min(own, air));
+        }
+        helper.succeed();
     }
 
     private static List<String> inputs(BasinRecipe recipe) {

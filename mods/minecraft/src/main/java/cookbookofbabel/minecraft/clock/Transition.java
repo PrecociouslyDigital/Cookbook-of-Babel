@@ -18,7 +18,8 @@ import net.minecraft.util.StringRepresentable;
  * @param ticks how long it takes at the sensitivity's reference conditions
  */
 public record Transition(
-        ResourceLocation input, ResourceLocation output, long ticks, Sensitivity sensitivity, Kind kind) {
+        ResourceLocation input, ResourceLocation output, long ticks, Sensitivity sensitivity, Kind kind)
+        implements Timed {
     public static final ResourceKey<Registry<Transition>> REGISTRY =
             ResourceKey.createRegistryKey(CookbookOfBabel.id("transition"));
 

@@ -2,6 +2,7 @@ package cookbookofbabel.minecraft.datagen.recipe.brewinandchewin;
 
 import com.google.gson.JsonArray;
 import com.google.gson.JsonObject;
+import cookbookofbabel.minecraft.compat.brewinandchewin.KegTemperature;
 import cookbookofbabel.minecraft.datagen.recipe.Resolved;
 import cookbookofbabel.minecraft.datagen.recipe.Resolved.Exact;
 import cookbookofbabel.minecraft.datagen.recipe.Resolved.FluidInput;
@@ -47,8 +48,8 @@ public final class Keg {
         return json;
     }
 
-    /** The keg's levels, frigid to hot; a step at room temperature, or giving none, is the middle. */
+    /** A step giving no temperature is at room temperature, the middle level. */
     static int temperature(Optional<Double> celsius) {
-        return celsius.map(c -> c < 0 ? 1 : c < 8 ? 2 : c < 30 ? 3 : c < 60 ? 4 : 5).orElse(3);
+        return celsius.map(KegTemperature::of).orElse(KegTemperature.NORMAL).level;
     }
 }

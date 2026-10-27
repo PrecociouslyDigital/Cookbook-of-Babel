@@ -114,6 +114,15 @@ legacyForge {
     }
 }
 
+mixin {
+    add(sourceSets.main.get(), "$modId.refmap.json")
+    config("$modId.mixins.json")
+}
+
+tasks.jar {
+    manifest.attributes("MixinConfigs" to "$modId.mixins.json")
+}
+
 // Regenerating always starts from a fresh export.
 tasks.named("runData") { dependsOn(generateDatasetSources) }
 
@@ -155,6 +164,7 @@ dependencies {
     modCompileOnly(libs.jei.forge.api)
     modRuntimeOnly(libs.jei.forge)
     modRuntimeOnly(libs.garnished)
+    modCompileOnly(libs.brewinandchewin)
     modRuntimeOnly(libs.brewinandchewin)
     modRuntimeOnly(libs.farmersrespite)
     modRuntimeOnly(libs.vintagedelight)
@@ -169,11 +179,14 @@ dependencies {
     modRuntimeOnly(libs.theurgy)
     modRuntimeOnly(libs.modonomicon)
     modRuntimeOnly(libs.geckolib)
+    modCompileOnly(libs.hexerei)
     modRuntimeOnly(libs.hexerei)
     // Outside climates: only compiled against, and only touched when loaded (see room.Climates).
     modCompileOnly(libs.sereneseasons)
     modCompileOnly(libs.glitchcore)
     modCompileOnly(libs.coldsweat)
+
+    annotationProcessor(variantOf(libs.mixin) { classifier("processor") })
 
     testImplementation(libs.jqwik)
     testImplementation(libs.assertj)

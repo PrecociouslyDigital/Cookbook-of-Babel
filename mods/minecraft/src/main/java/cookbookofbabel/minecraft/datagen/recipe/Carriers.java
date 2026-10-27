@@ -2,9 +2,8 @@ package cookbookofbabel.minecraft.datagen.recipe;
 
 import cookbookofbabel.minecraft.BabelTags;
 import cookbookofbabel.minecraft.CookbookOfBabel;
-import cookbookofbabel.minecraft.Registration;
+import cookbookofbabel.minecraft.clock.Food;
 import cookbookofbabel.minecraft.dataset.IngredientId;
-import cookbookofbabel.minecraft.dataset.NamedDish;
 import cookbookofbabel.minecraft.datagen.plan.Dataset;
 import cookbookofbabel.minecraft.substance.Substance;
 import cookbookofbabel.minecraft.substance.Substances;
@@ -32,11 +31,9 @@ public final class Carriers {
         return ResourceKey.create(Substance.REGISTRY, CookbookOfBabel.id(ingredient.value()));
     }
 
-    /** The named dish's item, or the substance's item or portions. */
     public ItemStack own(IngredientId ingredient, int count) {
-        return NamedDish.byId(ingredient.value())
-                .map(dish -> new ItemStack(Registration.DISHES.get(dish).get(), count))
-                .orElseGet(() -> Substances.stackOf(substance(ingredient), count));
+        return Food.stackOf(key(ingredient).location(), count, substances)
+                .orElseThrow(() -> new IllegalArgumentException("no named dish or substance for " + ingredient));
     }
 
     public FluidStack ownFluid(IngredientId ingredient, int millibuckets) {

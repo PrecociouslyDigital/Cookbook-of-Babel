@@ -1,12 +1,17 @@
 package cookbookofbabel.minecraft;
 
+import cookbookofbabel.minecraft.clock.ClockConfig;
+import cookbookofbabel.minecraft.clock.ItemClocks;
 import cookbookofbabel.minecraft.clock.Transition;
 import cookbookofbabel.minecraft.room.StoredRooms;
+import cookbookofbabel.minecraft.room.Air;
 import cookbookofbabel.minecraft.substance.EmptyContainers;
 import cookbookofbabel.minecraft.substance.Substance;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraftforge.common.MinecraftForge;
+import net.minecraftforge.fml.ModLoadingContext;
 import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.fml.config.ModConfig;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.registries.DataPackRegistryEvent;
 
@@ -23,6 +28,10 @@ public final class CookbookOfBabel {
         });
         MinecraftForge.EVENT_BUS.addGenericListener(net.minecraft.world.item.ItemStack.class, EmptyContainers::attach);
         StoredRooms.register(modBus, MinecraftForge.EVENT_BUS);
+        ModLoadingContext.get().registerConfig(ModConfig.Type.COMMON, ClockConfig.SPEC);
+        // Until rooms and the climate are modelled, everywhere is a room at 20 °C and 60 % relative humidity.
+        var air = new Air(20, 60);
+        ItemClocks.install(new ItemClocks((level, container) -> air, (level, pos) -> air));
     }
 
     public static ResourceLocation id(String path) {

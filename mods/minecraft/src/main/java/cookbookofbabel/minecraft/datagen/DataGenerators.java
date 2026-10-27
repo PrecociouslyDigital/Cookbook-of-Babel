@@ -52,7 +52,8 @@ public final class DataGenerators {
                             ingredient.form(),
                             Colors.forId(ingredient.id().value()),
                             Carrier.forForm(ingredient.form()),
-                            context.dataset.nutrition(ingredient.id())));
+                            context.dataset.nutrition(ingredient.id()),
+                            ingredient.waterActivity()));
                 }
             }
         });
