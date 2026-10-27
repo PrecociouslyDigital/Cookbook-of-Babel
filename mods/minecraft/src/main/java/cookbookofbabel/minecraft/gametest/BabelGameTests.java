@@ -12,12 +12,15 @@ import com.simibubi.create.content.processing.recipe.HeatCondition;
 import cookbookofbabel.minecraft.BabelTags;
 import cookbookofbabel.minecraft.CookbookOfBabel;
 import cookbookofbabel.minecraft.Registration;
+import cookbookofbabel.minecraft.clock.ContainerHolder;
 import cookbookofbabel.minecraft.clock.Food;
 import cookbookofbabel.minecraft.clock.ItemClocks;
 import cookbookofbabel.minecraft.clock.Transition;
 import cookbookofbabel.minecraft.clock.Transitions;
+import cookbookofbabel.minecraft.compat.hexerei.DryingRackHolder;
 import cookbookofbabel.minecraft.dataset.NamedDish;
 import cookbookofbabel.minecraft.room.Air;
+import cookbookofbabel.minecraft.room.Climate;
 import cookbookofbabel.minecraft.room.LevelRooms;
 import cookbookofbabel.minecraft.room.RoomConstants;
 import cookbookofbabel.minecraft.substance.Carrier;
@@ -33,6 +36,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Optional;
+import java.util.OptionalLong;
 import java.util.TreeMap;
 import java.util.function.Function;
 import java.util.function.Supplier;
@@ -51,6 +55,7 @@ import net.minecraft.server.packs.resources.Resource;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.crafting.RecipeType;
+import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.entity.RandomizableContainerBlockEntity;
@@ -428,6 +433,179 @@ public final class BabelGameTests {
                     "the rack's air didn't dry the food to " + Math.min(own, air));
         }
         helper.succeed();
+    }
+
+    /**
+     * Warm outside air, damp enough that bread drying in it can still go stale (water activity ≥ 0.6) but too dry for
+     * it to mold (< 0.9). The tests below date food under it rather than the installed climate, so neither the biome
+     * nor the weather of the test world matters.
+     */
+    private static final Air WARM_DAY = new Air(25, 70);
+    private static final ResourceLocation BREAD = CookbookOfBabel.id("bread");
+    private static final ResourceLocation BREAD_MOLD = CookbookOfBabel.id("bread.mold");
+    private static final ResourceLocation BREAD_STALE = CookbookOfBabel.id("bread.stale");
+
+    /** Bread in a warm shed's barrel has molded by a time when bread in an ice-cooled cellar's hasn't. */
+    @GameTest(template = EMPTY)
+    public static void breadMoldsSoonerInAWarmShedThanInACellar(GameTestHelper helper) {
+        var clocks = clocksOn(WARM_DAY);
+        var shed = box(helper, new BlockPos(0, 1, 0), Blocks.OAK_PLANKS);
+        var cellar = iceCellar(helper, new BlockPos(4, 1, 0));
+        // Sky light inside the boxes settles before food is dated in them.
+        helper.runAfterDelay(20, () -> {
+            var level = helper.getLevel();
+            long now = level.getGameTime();
+            var inShed = clocks.observe(bread(level), barrel(clocks, helper, shed), level, now);
+            var inCellar = clocks.observe(bread(level), barrel(clocks, helper, cellar), level, now);
+            long shedMolds = doneAt(inShed, BREAD_MOLD, level, now)
+                    .orElseThrow(() -> new IllegalStateException("bread in the shed never molds: " + ItemClocks.read(inShed)));
+            var cellarMolds = doneAt(inCellar, BREAD_MOLD, level, now);
+            helper.assertTrue(cellarMolds.isEmpty() || cellarMolds.getAsLong() > shedMolds,
+                    "bread molds in the cellar at " + cellarMolds + ", in the shed at " + shedMolds);
+
+            var moldy = transition(level, BREAD_MOLD).output();
+            var shedThen = clocks.observe(inShed, barrel(clocks, helper, shed), level, shedMolds);
+            var cellarThen = clocks.observe(inCellar, barrel(clocks, helper, cellar), level, shedMolds);
+            helper.assertTrue(is(shedThen, moldy, level), "bread in the shed became " + shedThen + " " + shedThen.getTag());
+            helper.assertFalse(is(cellarThen, moldy, level), "bread in the cellar molded as soon as in the shed");
+            helper.succeed();
+        });
+    }
+
+    /**
+     * Bread hung on a drying rack in a warm shed dries too far to mold, but still goes stale. In an ice-cooled cellar
+     * the air is damp enough that it molds even on a rack, though later than in a barrel in the warm shed.
+     */
+    @GameTest(template = EMPTY)
+    public static void breadOnARackGoesStaleInAWarmShedAndMoldsSlowlyInACellar(GameTestHelper helper) {
+        var clocks = clocksOn(WARM_DAY);
+        var rack = ForgeRegistries.BLOCKS.getValue(new ResourceLocation("hexerei", "herb_drying_rack"));
+        var shed = box(helper, new BlockPos(0, 1, 0), Blocks.OAK_PLANKS);
+        var cellar = iceCellar(helper, new BlockPos(4, 1, 0));
+        var otherShed = box(helper, new BlockPos(0, 1, 4), Blocks.OAK_PLANKS);
+        helper.setBlock(shed, rack);
+        helper.setBlock(cellar, rack);
+        helper.runAfterDelay(20, () -> {
+            var level = helper.getLevel();
+            long now = level.getGameTime();
+            var inShed = clocks.observe(bread(level), rack(clocks, helper, shed), level, now);
+            var inCellar = clocks.observe(bread(level), rack(clocks, helper, cellar), level, now);
+            var inBarrel = clocks.observe(bread(level), barrel(clocks, helper, otherShed), level, now);
+
+            helper.assertTrue(doneAt(inShed, BREAD_MOLD, level, now).isEmpty(),
+                    "bread on a rack in the shed molds: " + ItemClocks.read(inShed));
+            long shedStales = doneAt(inShed, BREAD_STALE, level, now)
+                    .orElseThrow(() -> new IllegalStateException("bread on a rack in the shed never goes stale: " + ItemClocks.read(inShed)));
+            var shedThen = clocks.observe(inShed, rack(clocks, helper, shed), level, shedStales);
+            helper.assertTrue(is(shedThen, transition(level, BREAD_STALE).output(), level),
+                    "bread on a rack in the shed became " + shedThen + " " + shedThen.getTag());
+
+            var cellarMolds = doneAt(inCellar, BREAD_MOLD, level, now);
+            var barrelMolds = doneAt(inBarrel, BREAD_MOLD, level, now);
+            helper.assertTrue(cellarMolds.isPresent(), "bread on a rack in the cellar never molds: " + ItemClocks.read(inCellar));
+            helper.assertTrue(barrelMolds.isPresent() && cellarMolds.getAsLong() > barrelMolds.getAsLong(),
+                    "bread molds on a rack in the cellar at " + cellarMolds + ", in a barrel in the shed at " + barrelMolds);
+            helper.succeed();
+        });
+    }
+
+    /** A step done by keeping food in the fridge completes in an ice-cooled cellar, and never in a warm shed. */
+    @GameTest(template = EMPTY)
+    public static void chillingCompletesInACellarAndNotInAWarmShed(GameTestHelper helper) {
+        var level = helper.getLevel();
+        var substances = level.registryAccess().lookupOrThrow(Substance.REGISTRY);
+        var chill = level.registryAccess().registryOrThrow(Transition.REGISTRY).entrySet().stream()
+                .filter(e -> e.getValue().kind() == Transition.Kind.HELD)
+                .filter(e -> e.getValue().sensitivity().maxTempC().filter(max -> max > 0 && max <= 8).isPresent())
+                .filter(e -> Food.stackOf(e.getValue().input(), 1, substances).isPresent())
+                .min(Comparator.comparing(e -> e.getKey().location()))
+                .orElseThrow(() -> new IllegalStateException("no chilling transition of food with a stack"));
+        var id = chill.getKey().location();
+        var food = Food.stackOf(chill.getValue().input(), 1, substances).orElseThrow();
+        var clocks = clocksOn(WARM_DAY);
+        var shed = box(helper, new BlockPos(0, 1, 0), Blocks.OAK_PLANKS);
+        var cellar = iceCellar(helper, new BlockPos(4, 1, 0));
+        helper.runAfterDelay(20, () -> {
+            long now = level.getGameTime();
+            var inShed = clocks.observe(food.copy(), barrel(clocks, helper, shed), level, now);
+            var inCellar = clocks.observe(food.copy(), barrel(clocks, helper, cellar), level, now);
+            helper.assertTrue(doneAt(inShed, id, level, now).isEmpty(), id + " runs in the shed: " + ItemClocks.read(inShed));
+            long chilled = doneAt(inCellar, id, level, now)
+                    .orElseThrow(() -> new IllegalStateException(id + " never completes in the cellar: " + ItemClocks.read(inCellar)));
+
+            var shedThen = clocks.observe(inShed, barrel(clocks, helper, shed), level, chilled);
+            var cellarThen = clocks.observe(inCellar, barrel(clocks, helper, cellar), level, chilled);
+            helper.assertTrue(is(cellarThen, chill.getValue().output(), level),
+                    id + " in the cellar made " + cellarThen + " " + cellarThen.getTag());
+            helper.assertFalse(is(shedThen, chill.getValue().output(), level), id + " completed in the shed");
+            helper.succeed();
+        });
+    }
+
+    /** Stacks of bread dated a second apart in the same barrel carry the same tag, so they stack, and still do later. */
+    @GameTest(template = EMPTY)
+    public static void breadDatedInTheSameBucketStacks(GameTestHelper helper) {
+        var clocks = clocksOn(WARM_DAY);
+        var shed = box(helper, new BlockPos(0, 1, 0), Blocks.OAK_PLANKS);
+        helper.runAfterDelay(20, () -> {
+            var level = helper.getLevel();
+            var holder = barrel(clocks, helper, shed);
+            // Each clock's buckets are whole multiples of its own size, so tick 0 is in the middle of one for all.
+            var first = clocks.observe(bread(level), holder, level, 0);
+            var second = clocks.observe(bread(level), holder, level, 20);
+            helper.assertTrue(ItemClocks.read(first).isPresent(), "bread isn't dated");
+            helper.assertTrue(ItemStack.isSameItemSameTags(first, second),
+                    "bread dated a second apart doesn't stack: " + first.getTag() + " and " + second.getTag());
+
+            long nextDay = 24000;
+            var firstLater = clocks.observe(first, holder, level, nextDay);
+            var secondLater = clocks.observe(second, holder, level, nextDay);
+            helper.assertTrue(ItemStack.isSameItemSameTags(firstLater, secondLater),
+                    "seen again, the stacks don't stack: " + firstLater.getTag() + " and " + secondLater.getTag());
+            helper.succeed();
+        });
+    }
+
+    /** Clocks whose rooms are measured under {@code outside}, whatever the test world's own climate. */
+    private static ItemClocks clocksOn(Air outside) {
+        Climate climate = (level, pos) -> outside;
+        return new ItemClocks(new LevelRooms(climate, () -> RoomConstants.DEFAULT), climate);
+    }
+
+    /** A stone {@link #box} with ice in three of the walls around its barrel, chilling it to fridge temperature. */
+    private static BlockPos iceCellar(GameTestHelper helper, BlockPos corner) {
+        var barrel = box(helper, corner, Blocks.STONE);
+        for (var wall : List.of(barrel.west(), barrel.north(), barrel.below())) {
+            helper.setBlock(wall, Blocks.ICE);
+        }
+        return barrel;
+    }
+
+    private static ContainerHolder barrel(ItemClocks clocks, GameTestHelper helper, BlockPos pos) {
+        return new ContainerHolder(clocks.rooms(), helper.getLevel(), helper.absolutePos(pos));
+    }
+
+    private static DryingRackHolder rack(ItemClocks clocks, GameTestHelper helper, BlockPos pos) {
+        return new DryingRackHolder(clocks.rooms(), helper.getLevel(), helper.absolutePos(pos));
+    }
+
+    private static ItemStack bread(Level level) {
+        return Food.stackOf(BREAD, 1, level.registryAccess().lookupOrThrow(Substance.REGISTRY)).orElseThrow();
+    }
+
+    private static Transition transition(Level level, ResourceLocation id) {
+        return level.registryAccess().registryOrThrow(Transition.REGISTRY).getOptional(id).orElseThrow();
+    }
+
+    /** When transition {@code id} of a dated stack completes if it stays where it was dated; never if it is stopped. */
+    private static OptionalLong doneAt(ItemStack dated, ResourceLocation id, Level level, long now) {
+        var transition = transition(level, id);
+        var clock = ItemClocks.read(dated).orElseThrow();
+        return clock.clocks().get(id).finishesAt(now,transition.rate(clock.environment()), transition.ticks());
+    }
+
+    private static boolean is(ItemStack stack, ResourceLocation food, Level level) {
+        return Food.of(stack, level.registryAccess()).map(Food::id).equals(Optional.of(food));
     }
 
     private static List<String> inputs(BasinRecipe recipe) {

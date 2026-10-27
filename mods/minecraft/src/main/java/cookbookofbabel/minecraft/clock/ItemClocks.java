@@ -69,9 +69,13 @@ public final class ItemClocks {
 
     /** {@code stack} as it is now, having been in its holder since it was last seen; itself if nothing changed. */
     public ItemStack observe(ItemStack stack, Holder holder, Level level) {
+        return observe(stack, holder, level, level.getGameTime());
+    }
+
+    /** {@code stack} as it is at game tick {@code now}, having been in its holder since it was last seen. */
+    public ItemStack observe(ItemStack stack, Holder holder, Level level, long now) {
         var registries = level.registryAccess();
         var substances = registries.lookup(Substance.REGISTRY);
-        long now = level.getGameTime();
         long bucket = ClockConfig.bucketTicks();
         var current = stack;
         long since = now;
