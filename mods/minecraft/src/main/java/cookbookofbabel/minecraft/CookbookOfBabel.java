@@ -1,5 +1,6 @@
 package cookbookofbabel.minecraft;
 
+import cookbookofbabel.minecraft.clock.Transition;
 import cookbookofbabel.minecraft.substance.EmptyContainers;
 import cookbookofbabel.minecraft.substance.Substance;
 import net.minecraft.resources.ResourceLocation;
@@ -15,8 +16,10 @@ public final class CookbookOfBabel {
     public CookbookOfBabel() {
         var modBus = FMLJavaModLoadingContext.get().getModEventBus();
         Registration.register(modBus);
-        modBus.addListener((DataPackRegistryEvent.NewRegistry event) ->
-                event.dataPackRegistry(Substance.REGISTRY, Substance.CODEC, Substance.CODEC));
+        modBus.addListener((DataPackRegistryEvent.NewRegistry event) -> {
+            event.dataPackRegistry(Substance.REGISTRY, Substance.CODEC, Substance.CODEC);
+            event.dataPackRegistry(Transition.REGISTRY, Transition.CODEC, Transition.CODEC);
+        });
         MinecraftForge.EVENT_BUS.addGenericListener(net.minecraft.world.item.ItemStack.class, EmptyContainers::attach);
     }
 
