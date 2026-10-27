@@ -1,0 +1,28 @@
+{
+  "type": "farmersdelight:cooking",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "farmersdelight"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/soy_milk_i_heat"
+    }
+  ],
+  "cookingtime": 100,
+  "experience": 0.1,
+  "ingredients": [
+    {
+      "tag": "cookbook_of_babel:ingredients/soy_milk_i"
+    },
+    {
+      "tag": "cookbook_of_babel:ingredients/soy_milk_i"
+    }
+  ],
+  "result": {
+    "count": 3,
+    "item": "cookbook_of_babel:portion",
+    "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:liquid\",Tag:{substance:\"cookbook_of_babel:soy_milk_i_heat\"}}}"
+  }
+}

@@ -14,8 +14,28 @@
       "modid": "create"
     }
   ],
-  "fluidLevelsConsumed": 89,
+  "fluidLevelsConsumed": 145,
   "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:candied_sweet_potatoes_step_1\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/candied_sweet_potatoes_step_1"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:candied_sweet_potatoes_step_1\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/candied_sweet_potatoes_step_1"
+      }
+    ],
     [
       {
         "type": "forge:partial_nbt",
@@ -59,45 +79,25 @@
     [
       {
         "type": "forge:partial_nbt",
-        "item": "cookbook_of_babel:substance",
-        "nbt": "{substance:\"cookbook_of_babel:butter\"}"
+        "item": "cookbook_of_babel:portion",
+        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:liquid\",Tag:{substance:\"cookbook_of_babel:butter_boil\"}}}"
       },
       {
-        "tag": "cookbook_of_babel:ingredients/butter"
-      }
-    ],
-    [
-      {
-        "type": "forge:partial_nbt",
-        "item": "cookbook_of_babel:substance",
-        "nbt": "{substance:\"cookbook_of_babel:butter\"}"
-      },
-      {
-        "tag": "cookbook_of_babel:ingredients/butter"
-      }
-    ],
-    [
-      {
-        "type": "forge:partial_nbt",
-        "item": "cookbook_of_babel:substance",
-        "nbt": "{substance:\"cookbook_of_babel:butter\"}"
-      },
-      {
-        "tag": "cookbook_of_babel:ingredients/butter"
+        "tag": "cookbook_of_babel:ingredients/butter_boil"
       }
     ]
   ],
   "liquid": {
-    "amount": 89,
+    "amount": 145,
     "fluid": "create:honey"
   },
   "liquidOutput": {
-    "amount": 89,
+    "amount": 145,
     "fluid": "create:honey"
   },
   "output": {
-    "count": 1,
-    "item": "cookbook_of_babel:portion",
-    "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:liquid\",Tag:{substance:\"cookbook_of_babel:candied_sweet_potatoes_step_2\"}}}"
+    "count": 5,
+    "item": "cookbook_of_babel:substance",
+    "nbt": "{substance:\"cookbook_of_babel:candied_sweet_potatoes_step_2\"}"
   }
 }

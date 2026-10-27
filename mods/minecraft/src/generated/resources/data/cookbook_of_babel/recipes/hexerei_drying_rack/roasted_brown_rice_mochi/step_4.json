@@ -1,0 +1,31 @@
+{
+  "type": "hexerei:drying_rack",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "hexerei"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/roasted_brown_rice_mochi_step_4"
+    }
+  ],
+  "dryingTimeInTicks": 24000,
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:roasted_brown_rice_mochi_step_3\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/roasted_brown_rice_mochi_step_3"
+      }
+    ]
+  ],
+  "output": {
+    "count": 2,
+    "item": "cookbook_of_babel:substance",
+    "nbt": "{substance:\"cookbook_of_babel:roasted_brown_rice_mochi_step_4\"}"
+  }
+}

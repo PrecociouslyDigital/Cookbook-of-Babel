@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "conditions": [
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/six_layer_casserole"
+    },
+    {
+      "type": "forge:false"
+    }
+  ],
+  "cookingtime": 600,
+  "experience": 0.1,
+  "ingredient": [
+    {
+      "type": "forge:partial_nbt",
+      "item": "cookbook_of_babel:portion",
+      "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:liquid\",Tag:{substance:\"cookbook_of_babel:six_layer_casserole_step_3\"}}}"
+    },
+    {
+      "tag": "cookbook_of_babel:ingredients/six_layer_casserole_step_3"
+    }
+  ],
+  "result": {
+    "item": "cookbook_of_babel:six_layer_casserole"
+  }
+}

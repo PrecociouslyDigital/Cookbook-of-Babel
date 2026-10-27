@@ -1,0 +1,42 @@
+{
+  "type": "thermal:bottler",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "thermal_expansion"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/akarubi_rwandan_grilled_banana"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "energy": 400,
+  "ingredients": [
+    {
+      "value": [
+        {
+          "type": "forge:partial_nbt",
+          "item": "cookbook_of_babel:substance",
+          "nbt": "{substance:\"cookbook_of_babel:akarubi_rwandan_grilled_banana_step_5\"}"
+        },
+        {
+          "tag": "cookbook_of_babel:ingredients/akarubi_rwandan_grilled_banana_step_5"
+        }
+      ]
+    },
+    {
+      "amount": 90,
+      "fluid": "create:honey"
+    }
+  ],
+  "result": [
+    {
+      "count": 2,
+      "item": "cookbook_of_babel:akarubi_rwandan_grilled_banana"
+    }
+  ]
+}

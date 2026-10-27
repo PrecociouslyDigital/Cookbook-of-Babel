@@ -1,0 +1,35 @@
+{
+  "type": "brewinandchewin:fermenting",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "brewinandchewin"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/mexican_seasoning"
+    },
+    {
+      "type": "forge:false"
+    }
+  ],
+  "experience": 0.1,
+  "fermentingtime": 200,
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:portion",
+        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:bulk\",Tag:{substance:\"cookbook_of_babel:mexican_seasoning_step_1\"}}}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/mexican_seasoning_step_1"
+      }
+    ]
+  ],
+  "result": {
+    "count": 2,
+    "item": "cookbook_of_babel:mexican_seasoning"
+  },
+  "temperature": 3
+}

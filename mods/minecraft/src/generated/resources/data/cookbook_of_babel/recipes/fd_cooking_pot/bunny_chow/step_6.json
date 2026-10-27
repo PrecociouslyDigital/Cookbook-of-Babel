@@ -8,9 +8,6 @@
     {
       "type": "forge:tag_empty",
       "tag": "cookbook_of_babel:external/bunny_chow_step_6"
-    },
-    {
-      "type": "forge:false"
     }
   ],
   "cookingtime": 100,
@@ -26,12 +23,26 @@
         "tag": "cookbook_of_babel:ingredients/bunny_chow_step_5"
       }
     ],
-    {
-      "tag": "cookbook_of_babel:ingredients/tomatoes_with_cheese_stuffing"
-    },
-    {
-      "tag": "cookbook_of_babel:ingredients/tomatoes_with_cheese_stuffing"
-    }
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:tomatoes_with_cheese_stuffing_chop\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/tomatoes_with_cheese_stuffing_chop"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:tomatoes_with_cheese_stuffing_chop\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/tomatoes_with_cheese_stuffing_chop"
+      }
+    ]
   ],
   "result": {
     "item": "cookbook_of_babel:substance",

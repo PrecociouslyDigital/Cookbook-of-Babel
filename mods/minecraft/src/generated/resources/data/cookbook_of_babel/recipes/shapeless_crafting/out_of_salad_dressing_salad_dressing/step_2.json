@@ -4,10 +4,30 @@
   "conditions": [
     {
       "type": "forge:tag_empty",
-      "tag": "cookbook_of_babel:external/out_of_salad_dressing_salad_dressing"
+      "tag": "cookbook_of_babel:external/out_of_salad_dressing_salad_dressing_step_2"
     }
   ],
   "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:out_of_salad_dressing_salad_dressing_step_1\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/out_of_salad_dressing_salad_dressing_step_1"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:out_of_salad_dressing_salad_dressing_step_1\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/out_of_salad_dressing_salad_dressing_step_1"
+      }
+    ],
     [
       {
         "type": "forge:partial_nbt",
@@ -27,9 +47,30 @@
       {
         "tag": "cookbook_of_babel:ingredients/milk"
       }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:portion",
+        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:liquid\",Tag:{substance:\"cookbook_of_babel:milk\"}}}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/milk"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:portion",
+        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:liquid\",Tag:{substance:\"cookbook_of_babel:milk\"}}}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/milk"
+      }
     ]
   ],
   "result": {
-    "item": "cookbook_of_babel:out_of_salad_dressing_salad_dressing"
+    "item": "cookbook_of_babel:portion",
+    "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:liquid\",Tag:{substance:\"cookbook_of_babel:out_of_salad_dressing_salad_dressing_step_2\"}}}"
   }
 }

@@ -8,9 +8,6 @@
     {
       "type": "forge:tag_empty",
       "tag": "cookbook_of_babel:external/albanian_fried_meatballs"
-    },
-    {
-      "type": "forge:false"
     }
   ],
   "heatRequirement": "heated",
@@ -25,20 +22,26 @@
         "tag": "cookbook_of_babel:ingredients/albanian_fried_meatballs_step_3"
       }
     ],
-    {
-      "amount": 237,
-      "fluid": "cookbook_of_babel:bulk",
-      "nbt": {
-        "substance": "cookbook_of_babel:wheat_flour"
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:portion",
+        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:bulk\",Tag:{substance:\"cookbook_of_babel:wheat_flour\"}}}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/wheat_flour"
       }
-    },
-    {
-      "amount": 237,
-      "fluid": "cookbook_of_babel:liquid",
-      "nbt": {
-        "substance": "cookbook_of_babel:oil_and_fat"
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:portion",
+        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:liquid\",Tag:{substance:\"cookbook_of_babel:oil_and_fat_heat\"}}}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/oil_and_fat_heat"
       }
-    }
+    ]
   ],
   "processingTime": 20,
   "results": [

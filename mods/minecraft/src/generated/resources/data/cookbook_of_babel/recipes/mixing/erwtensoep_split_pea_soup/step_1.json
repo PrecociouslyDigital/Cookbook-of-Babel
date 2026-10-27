@@ -7,24 +7,27 @@
     },
     {
       "type": "forge:tag_empty",
-      "tag": "cookbook_of_babel:external/split_pea_soak"
+      "tag": "cookbook_of_babel:external/split_pea_soak_soak"
     }
   ],
   "ingredients": [
-    {
-      "amount": 1,
-      "fluid": "cookbook_of_babel:bulk",
-      "nbt": {
-        "substance": "cookbook_of_babel:split_pea"
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:split_pea_soak\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/split_pea_soak"
       }
-    }
+    ]
   ],
   "processingTime": 400,
   "results": [
     {
-      "amount": 1,
+      "amount": 127,
       "fluid": "cookbook_of_babel:bulk",
-      "nbt": "{substance:\"cookbook_of_babel:split_pea_soak\"}"
+      "nbt": "{substance:\"cookbook_of_babel:split_pea_soak_soak\"}"
     }
   ]
 }

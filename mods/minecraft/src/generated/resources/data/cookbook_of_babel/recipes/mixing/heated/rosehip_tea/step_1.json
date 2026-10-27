@@ -1,0 +1,34 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/rosehip_boil_boil"
+    }
+  ],
+  "heatRequirement": "heated",
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:rosehip_boil\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/rosehip_boil"
+      }
+    ]
+  ],
+  "processingTime": 200,
+  "results": [
+    {
+      "amount": 127,
+      "fluid": "cookbook_of_babel:liquid",
+      "nbt": "{substance:\"cookbook_of_babel:rosehip_boil_boil\"}"
+    }
+  ]
+}

@@ -7,7 +7,7 @@
     },
     {
       "type": "forge:tag_empty",
-      "tag": "cookbook_of_babel:external/mexican_habanero_hot_sauce"
+      "tag": "cookbook_of_babel:external/mexican_habanero_hot_sauce_step_1"
     }
   ],
   "ingredients": [
@@ -19,26 +19,6 @@
       },
       {
         "tag": "cookbook_of_babel:ingredients/tomato"
-      }
-    ],
-    [
-      {
-        "type": "forge:partial_nbt",
-        "item": "cookbook_of_babel:substance",
-        "nbt": "{substance:\"cookbook_of_babel:habanero\"}"
-      },
-      {
-        "tag": "cookbook_of_babel:ingredients/habanero"
-      }
-    ],
-    [
-      {
-        "type": "forge:partial_nbt",
-        "item": "cookbook_of_babel:substance",
-        "nbt": "{substance:\"cookbook_of_babel:habanero\"}"
-      },
-      {
-        "tag": "cookbook_of_babel:ingredients/habanero"
       }
     ],
     [
@@ -172,7 +152,7 @@
       }
     ],
     {
-      "amount": 59,
+      "amount": 54,
       "fluid": "cookbook_of_babel:liquid",
       "nbt": {
         "substance": "cookbook_of_babel:vinegar"
@@ -182,7 +162,10 @@
   "processingTime": 20,
   "results": [
     {
-      "item": "cookbook_of_babel:mexican_habanero_hot_sauce"
+      "item": "cookbook_of_babel:substance",
+      "nbt": {
+        "substance": "cookbook_of_babel:mexican_habanero_hot_sauce_step_1"
+      }
     }
   ]
 }

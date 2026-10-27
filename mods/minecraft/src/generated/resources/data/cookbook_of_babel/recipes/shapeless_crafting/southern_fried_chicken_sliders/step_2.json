@@ -61,9 +61,16 @@
         "tag": "cookbook_of_babel:ingredients/chicken"
       }
     ],
-    {
-      "tag": "cookbook_of_babel:ingredients/poultry_shake"
-    },
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:portion",
+        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:bulk\",Tag:{substance:\"cookbook_of_babel:poultry_shake_season\"}}}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/poultry_shake_season"
+      }
+    ],
     [
       {
         "type": "forge:partial_nbt",

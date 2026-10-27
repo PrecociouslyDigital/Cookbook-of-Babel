@@ -7,24 +7,27 @@
     },
     {
       "type": "forge:tag_empty",
-      "tag": "cookbook_of_babel:external/split_pea_rinse"
+      "tag": "cookbook_of_babel:external/split_pea_rinse_rinse"
     }
   ],
   "ingredients": [
-    {
-      "amount": 7,
-      "fluid": "cookbook_of_babel:bulk",
-      "nbt": {
-        "substance": "cookbook_of_babel:split_pea"
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:split_pea_rinse\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/split_pea_rinse"
       }
-    }
+    ]
   ],
   "processingTime": 20,
   "results": [
     {
-      "amount": 7,
+      "amount": 131,
       "fluid": "cookbook_of_babel:bulk",
-      "nbt": "{substance:\"cookbook_of_babel:split_pea_rinse\"}"
+      "nbt": "{substance:\"cookbook_of_babel:split_pea_rinse_rinse\"}"
     }
   ]
 }

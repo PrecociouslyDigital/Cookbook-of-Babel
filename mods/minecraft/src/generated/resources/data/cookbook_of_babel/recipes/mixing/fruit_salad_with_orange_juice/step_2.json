@@ -1,0 +1,78 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/fruit_salad_with_orange_juice_step_2"
+    },
+    {
+      "type": "forge:false"
+    }
+  ],
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:fruit_salad_with_orange_juice_step_1\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/fruit_salad_with_orange_juice_step_1"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:fruit_salad_with_orange_juice_step_1\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/fruit_salad_with_orange_juice_step_1"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:fruit_salad_with_orange_juice_step_1\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/fruit_salad_with_orange_juice_step_1"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:fruit_salad_with_orange_juice_step_1\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/fruit_salad_with_orange_juice_step_1"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:orange_chop\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/orange_chop"
+      }
+    ]
+  ],
+  "processingTime": 20,
+  "results": [
+    {
+      "count": 3,
+      "item": "cookbook_of_babel:substance",
+      "nbt": {
+        "substance": "cookbook_of_babel:fruit_salad_with_orange_juice_step_2"
+      }
+    }
+  ]
+}

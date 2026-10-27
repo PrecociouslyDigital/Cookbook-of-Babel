@@ -1,0 +1,32 @@
+{
+  "type": "brewinandchewin:fermenting",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "brewinandchewin"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/shortbread"
+    }
+  ],
+  "experience": 0.1,
+  "fermentingtime": 200,
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:shortbread_step_7\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/shortbread_step_7"
+      }
+    ]
+  ],
+  "result": {
+    "count": 3,
+    "item": "cookbook_of_babel:shortbread"
+  },
+  "temperature": 3
+}

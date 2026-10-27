@@ -3,6 +3,8 @@ package cookbookofbabel.minecraft.datagen.plan;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
+import java.util.stream.DoubleStream;
+import java.util.stream.IntStream;
 
 /**
  * Turns a step's exact amounts into whole items and millibuckets. The whole step is scaled by one
@@ -16,8 +18,11 @@ public final class Quantize {
     public static final double TOLERANCE = 0.15;
     public static final int MAX_STACK = 64;
 
+    /** The round factors every step tries; {@link #factors} adds more from the step's own amounts. */
     static final List<Double> FACTORS = List.of(
             1 / 32.0, 1 / 24.0, 1 / 16.0, 1 / 12.0, 1 / 10.0, 1 / 8.0, 1 / 6.0, 1 / 4.0, 1 / 3.0, 1 / 2.0, 2 / 3.0, 1.0, 3 / 2.0, 2.0, 3.0, 4.0, 5.0, 6.0, 8.0, 10.0, 12.0, 16.0);
+
+    static final double SMALLEST = FACTORS.get(0);
 
     private Quantize() {}
 
@@ -31,6 +36,14 @@ public final class Quantize {
 
     /** {@code maxItemInputs} counts items across all inputs, {@code maxOfEachItem} within one; a tank holds one fluid. */
     public record Limits(int maxItemInputs, int maxOfEachItem, int tankMillibuckets) {
+        int ofEachInput(Kind kind) {
+            return kind == Kind.ITEMS ? maxOfEachItem : tankMillibuckets;
+        }
+
+        int ofEachOutput(Kind kind) {
+            return kind == Kind.ITEMS ? MAX_STACK : tankMillibuckets;
+        }
+
         String exceeded() {
             return "doesn't fit in " + maxItemInputs + " input items, " + maxOfEachItem + " of each, and "
                     + tankMillibuckets + " mB tanks at any scale";
@@ -50,10 +63,11 @@ public final class Quantize {
 
     public static Result quantize(List<Exact> inputs, List<Exact> outputs, Limits limits) {
         Optional<Quantized> best = Optional.empty();
-        for (var factor : FACTORS) {
+        for (var factor : factors(inputs, outputs, limits)) {
             var candidate = at(factor, inputs, outputs);
             if (!fits(candidate, inputs, outputs, limits)) {
-                continue;
+                // Counts only grow with the factor, so no larger one fits either.
+                break;
             }
             if (candidate.withinTolerance()) {
                 return candidate;
@@ -64,6 +78,27 @@ public final class Quantize {
         }
         return best.<Result>map(q -> q)
                 .orElseGet(() -> new TooLarge(limits.exceeded()));
+    }
+
+    /**
+     * The factors worth trying, in ascending order. Starts from the round ones, then adds every
+     * factor that lands a counted amount exactly on a whole number within its limit, needed when an
+     * amount is tiny enough that only its own scale reaches a whole item. None goes below the
+     * smallest round factor, since a step of only fluids would otherwise land on a batch of one or
+     * two millibuckets.
+     */
+    static double[] factors(List<Exact> inputs, List<Exact> outputs, Limits limits) {
+        var landing = DoubleStream.concat(
+                        inputs.stream().flatMapToDouble(a -> landing(a, limits.ofEachInput(a.kind()))),
+                        outputs.stream().flatMapToDouble(a -> landing(a, limits.ofEachOutput(a.kind()))))
+                .filter(f -> f >= SMALLEST);
+        return DoubleStream.concat(FACTORS.stream().mapToDouble(f -> f), landing).sorted().distinct().toArray();
+    }
+
+    private static DoubleStream landing(Exact amount, int limit) {
+        return amount.negligible() || !(amount.value() > 0)
+                ? DoubleStream.empty()
+                : IntStream.rangeClosed(1, limit).mapToDouble(n -> n / amount.value());
     }
 
     static Quantized at(double factor, List<Exact> inputs, List<Exact> outputs) {
@@ -77,7 +112,8 @@ public final class Quantize {
         var rounded = new ArrayList<Integer>();
         for (var amount : amounts) {
             var scaled = amount.value() * factor;
-            var whole = (int) Math.max(1, Math.round(scaled));
+            // Saturates, so a factor that lands a sliver on a whole number can't wrap a large amount around.
+            var whole = (int) Math.min(Integer.MAX_VALUE, Math.max(1, Math.round(scaled)));
             if (!amount.negligible()) {
                 errors.add(Math.abs(whole - scaled) / scaled);
             }
@@ -89,18 +125,16 @@ public final class Quantize {
     static boolean fits(Quantized q, List<Exact> inputs, List<Exact> outputs, Limits limits) {
         var items = 0;
         for (var i = 0; i < inputs.size(); i++) {
-            if (inputs.get(i).kind() == Kind.ITEMS) {
-                if (q.inputs().get(i) > limits.maxOfEachItem()) {
-                    return false;
-                }
-                items += q.inputs().get(i);
-            } else if (q.inputs().get(i) > limits.tankMillibuckets()) {
+            var kind = inputs.get(i).kind();
+            if (q.inputs().get(i) > limits.ofEachInput(kind)) {
                 return false;
+            }
+            if (kind == Kind.ITEMS) {
+                items += q.inputs().get(i);
             }
         }
         for (var i = 0; i < outputs.size(); i++) {
-            var cap = outputs.get(i).kind() == Kind.ITEMS ? MAX_STACK : limits.tankMillibuckets();
-            if (q.outputs().get(i) > cap) {
+            if (q.outputs().get(i) > limits.ofEachOutput(outputs.get(i).kind())) {
                 return false;
             }
         }

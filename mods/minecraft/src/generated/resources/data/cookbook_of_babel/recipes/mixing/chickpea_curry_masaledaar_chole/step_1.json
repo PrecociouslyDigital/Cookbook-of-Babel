@@ -7,24 +7,27 @@
     },
     {
       "type": "forge:tag_empty",
-      "tag": "cookbook_of_babel:external/chickpea_soak"
+      "tag": "cookbook_of_babel:external/chickpea_soak_soak"
     }
   ],
   "ingredients": [
-    {
-      "amount": 158,
-      "fluid": "cookbook_of_babel:bulk",
-      "nbt": {
-        "substance": "cookbook_of_babel:chickpea"
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:chickpea_soak\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/chickpea_soak"
       }
-    }
+    ]
   ],
   "processingTime": 400,
   "results": [
     {
       "item": "cookbook_of_babel:substance",
       "nbt": {
-        "substance": "cookbook_of_babel:chickpea_soak"
+        "substance": "cookbook_of_babel:chickpea_soak_soak"
       }
     }
   ]

@@ -1,0 +1,31 @@
+{
+  "type": "hexerei:pestle_and_mortar",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "hexerei"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/sorghum_grind_grind"
+    }
+  ],
+  "grindingTime": 20,
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:portion",
+        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:bulk\",Tag:{substance:\"cookbook_of_babel:sorghum_grind\"}}}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/sorghum_grind"
+      }
+    ]
+  ],
+  "output": {
+    "count": 1,
+    "item": "cookbook_of_babel:portion",
+    "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:bulk\",Tag:{substance:\"cookbook_of_babel:sorghum_grind_grind\"}}}"
+  }
+}

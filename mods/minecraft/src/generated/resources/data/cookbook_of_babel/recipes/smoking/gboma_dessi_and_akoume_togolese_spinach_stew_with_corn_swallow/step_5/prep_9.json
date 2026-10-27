@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:smoking",
+  "category": "food",
+  "conditions": [
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/herbs_and_spices_toast"
+    }
+  ],
+  "cookingtime": 50,
+  "experience": 0.1,
+  "ingredient": [
+    {
+      "type": "forge:partial_nbt",
+      "item": "cookbook_of_babel:substance",
+      "nbt": "{substance:\"cookbook_of_babel:herbs_and_spices\"}"
+    },
+    {
+      "tag": "cookbook_of_babel:ingredients/herbs_and_spices"
+    }
+  ],
+  "result": {
+    "item": "cookbook_of_babel:portion",
+    "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:bulk\",Tag:{substance:\"cookbook_of_babel:herbs_and_spices_toast\"}}}"
+  }
+}

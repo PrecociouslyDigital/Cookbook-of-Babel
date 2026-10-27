@@ -1,0 +1,58 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/nilagang_baka_boiled_beef_and_vegetables_in_broth_step_2"
+    },
+    {
+      "type": "forge:false"
+    }
+  ],
+  "heatRequirement": "heated",
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:nilagang_baka_boiled_beef_and_vegetables_in_broth_step_1\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/nilagang_baka_boiled_beef_and_vegetables_in_broth_step_1"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:chive_chop\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/chive_chop"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:chive_chop\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/chive_chop"
+      }
+    ]
+  ],
+  "processingTime": 20,
+  "results": [
+    {
+      "item": "cookbook_of_babel:substance",
+      "nbt": {
+        "substance": "cookbook_of_babel:nilagang_baka_boiled_beef_and_vegetables_in_broth_step_2"
+      }
+    }
+  ]
+}

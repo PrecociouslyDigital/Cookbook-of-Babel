@@ -7,18 +7,25 @@
     },
     {
       "type": "forge:tag_empty",
-      "tag": "cookbook_of_babel:external/pita_cut"
+      "tag": "cookbook_of_babel:external/pita_cut_cut"
     }
   ],
   "ingredients": [
-    {
-      "tag": "cookbook_of_babel:ingredients/pita"
-    }
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:pita_chop\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/pita_chop"
+      }
+    ]
   ],
   "result": [
     {
       "item": "cookbook_of_babel:substance",
-      "nbt": "{substance:\"cookbook_of_babel:pita_cut\"}"
+      "nbt": "{substance:\"cookbook_of_babel:pita_cut_cut\"}"
     }
   ],
   "tool": {

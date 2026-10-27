@@ -1,0 +1,76 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/cheese_spaetzle_step_2"
+    }
+  ],
+  "heatRequirement": "heated",
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:cheese_spaetzle_step_1\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/cheese_spaetzle_step_1"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:cheese_spaetzle_step_1\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/cheese_spaetzle_step_1"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:cheese_spaetzle_step_1\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/cheese_spaetzle_step_1"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:cheese_spaetzle_step_1\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/cheese_spaetzle_step_1"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:spaetzle_fry\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/spaetzle_fry"
+      }
+    ]
+  ],
+  "processingTime": 20,
+  "results": [
+    {
+      "count": 3,
+      "item": "cookbook_of_babel:substance",
+      "nbt": {
+        "substance": "cookbook_of_babel:cheese_spaetzle_step_2"
+      }
+    }
+  ]
+}

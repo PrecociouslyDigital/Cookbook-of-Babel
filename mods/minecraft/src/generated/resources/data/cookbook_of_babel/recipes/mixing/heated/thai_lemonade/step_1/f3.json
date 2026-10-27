@@ -1,0 +1,55 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/thai_lemonade_step_1"
+    }
+  ],
+  "heatRequirement": "heated",
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:lemongrass\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/lemongrass"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:ginger_chop\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/ginger_chop"
+      }
+    ],
+    {
+      "amount": 55,
+      "fluidTag": "minecraft:water"
+    },
+    {
+      "amount": 52,
+      "fluid": "cookbook_of_babel:bulk",
+      "nbt": {
+        "substance": "cookbook_of_babel:white_sugar"
+      }
+    }
+  ],
+  "processingTime": 400,
+  "results": [
+    {
+      "amount": 44,
+      "fluid": "cookbook_of_babel:liquid",
+      "nbt": "{substance:\"cookbook_of_babel:thai_lemonade_step_1\"}"
+    }
+  ]
+}

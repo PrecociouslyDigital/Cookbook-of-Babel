@@ -1,0 +1,35 @@
+{
+  "type": "thermal:centrifuge",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "thermal_expansion"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/moambe_palm_nut_soup_step_3"
+    }
+  ],
+  "energy": 400,
+  "ingredients": [
+    {
+      "value": [
+        {
+          "type": "forge:partial_nbt",
+          "item": "cookbook_of_babel:substance",
+          "nbt": "{substance:\"cookbook_of_babel:moambe_palm_nut_soup_step_2\"}"
+        },
+        {
+          "tag": "cookbook_of_babel:ingredients/moambe_palm_nut_soup_step_2"
+        }
+      ]
+    }
+  ],
+  "result": [
+    {
+      "amount": 131,
+      "fluid": "cookbook_of_babel:liquid",
+      "nbt": "{substance:\"cookbook_of_babel:moambe_palm_nut_soup_step_3\"}"
+    }
+  ]
+}

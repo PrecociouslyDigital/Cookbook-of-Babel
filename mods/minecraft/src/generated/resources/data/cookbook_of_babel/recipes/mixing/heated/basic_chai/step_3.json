@@ -8,38 +8,29 @@
     {
       "type": "forge:tag_empty",
       "tag": "cookbook_of_babel:external/basic_chai_step_3"
-    },
-    {
-      "type": "forge:false"
     }
   ],
   "heatRequirement": "heated",
   "ingredients": [
-    [
-      {
-        "type": "forge:partial_nbt",
-        "item": "cookbook_of_babel:portion",
-        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:liquid\",Tag:{substance:\"cookbook_of_babel:basic_chai_step_2\"}}}"
-      },
-      {
-        "tag": "cookbook_of_babel:ingredients/basic_chai_step_2"
+    {
+      "amount": 3,
+      "fluid": "cookbook_of_babel:liquid",
+      "nbt": {
+        "substance": "cookbook_of_babel:basic_chai_step_2"
       }
-    ],
-    [
-      {
-        "type": "forge:partial_nbt",
-        "item": "cookbook_of_babel:portion",
-        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:liquid\",Tag:{substance:\"cookbook_of_babel:basic_chai_step_2\"}}}"
-      },
-      {
-        "tag": "cookbook_of_babel:ingredients/basic_chai_step_2"
+    },
+    {
+      "amount": 4,
+      "fluid": "cookbook_of_babel:liquid",
+      "nbt": {
+        "substance": "cookbook_of_babel:milk_boil"
       }
-    ]
+    }
   ],
   "processingTime": 20,
   "results": [
     {
-      "amount": 500,
+      "amount": 3,
       "fluid": "cookbook_of_babel:liquid",
       "nbt": "{substance:\"cookbook_of_babel:basic_chai_step_3\"}"
     }

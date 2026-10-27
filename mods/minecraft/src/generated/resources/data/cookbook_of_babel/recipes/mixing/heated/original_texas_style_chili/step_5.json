@@ -32,18 +32,31 @@
         "tag": "cookbook_of_babel:ingredients/original_texas_style_chili_step_4"
       }
     ],
-    {
-      "amount": 148,
-      "fluid": "cookbook_of_babel:bulk",
-      "nbt": {
-        "substance": "cookbook_of_babel:corn_flour"
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:portion",
+        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:liquid\",Tag:{substance:\"cookbook_of_babel:original_texas_style_chili_step_4\"}}}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/original_texas_style_chili_step_4"
       }
-    }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:portion",
+        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:bulk\",Tag:{substance:\"cookbook_of_babel:corn_flour\"}}}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/corn_flour"
+      }
+    ]
   ],
   "processingTime": 400,
   "results": [
     {
-      "count": 5,
+      "count": 8,
       "item": "cookbook_of_babel:original_texas_style_chili"
     }
   ]

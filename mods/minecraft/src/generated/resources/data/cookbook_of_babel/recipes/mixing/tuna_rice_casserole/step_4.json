@@ -11,20 +11,25 @@
     }
   ],
   "ingredients": [
-    {
-      "amount": 56,
-      "fluid": "cookbook_of_babel:liquid",
-      "nbt": {
-        "substance": "cookbook_of_babel:tuna_rice_casserole_step_3"
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:portion",
+        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:liquid\",Tag:{substance:\"cookbook_of_babel:tuna_rice_casserole_step_3\"}}}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/tuna_rice_casserole_step_3"
       }
-    }
+    ]
   ],
   "processingTime": 20,
   "results": [
     {
-      "amount": 56,
-      "fluid": "cookbook_of_babel:liquid",
-      "nbt": "{substance:\"cookbook_of_babel:tuna_rice_casserole_step_4\"}"
+      "count": 2,
+      "item": "cookbook_of_babel:substance",
+      "nbt": {
+        "substance": "cookbook_of_babel:tuna_rice_casserole_step_4"
+      }
     }
   ]
 }

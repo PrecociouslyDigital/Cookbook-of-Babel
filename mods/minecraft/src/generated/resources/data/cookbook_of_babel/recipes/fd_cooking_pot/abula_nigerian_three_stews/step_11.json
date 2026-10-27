@@ -1,0 +1,30 @@
+{
+  "type": "farmersdelight:cooking",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "farmersdelight"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/abula_nigerian_three_stews"
+    }
+  ],
+  "cookingtime": 100,
+  "experience": 0.1,
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:abula_nigerian_three_stews_step_10\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/abula_nigerian_three_stews_step_10"
+      }
+    ]
+  ],
+  "result": {
+    "item": "cookbook_of_babel:abula_nigerian_three_stews"
+  }
+}

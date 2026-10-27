@@ -1,0 +1,27 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/spicy_garlic_oil_heat"
+    }
+  ],
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+      "tag": "cookbook_of_babel:ingredients/spicy_garlic_oil"
+    }
+  ],
+  "processingTime": 20,
+  "results": [
+    {
+      "amount": 87,
+      "fluid": "cookbook_of_babel:liquid",
+      "nbt": "{substance:\"cookbook_of_babel:spicy_garlic_oil_heat\"}"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/zereshk_palau_iranian_rice_with_barberries_ii_step_5"
+    }
+  ],
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:zereshk_palau_iranian_rice_with_barberries_ii_step_4\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/zereshk_palau_iranian_rice_with_barberries_ii_step_4"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:barberry_rinse\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/barberry_rinse"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:barberry_rinse\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/barberry_rinse"
+      }
+    ],
+    {
+      "amount": 116,
+      "fluid": "cookbook_of_babel:liquid",
+      "nbt": {
+        "substance": "cookbook_of_babel:butter_boil"
+      }
+    },
+    {
+      "amount": 137,
+      "fluid": "cookbook_of_babel:bulk",
+      "nbt": {
+        "substance": "cookbook_of_babel:white_sugar"
+      }
+    }
+  ],
+  "processingTime": 20,
+  "results": [
+    {
+      "amount": 116,
+      "fluid": "cookbook_of_babel:bulk",
+      "nbt": "{substance:\"cookbook_of_babel:zereshk_palau_iranian_rice_with_barberries_ii_step_5\"}"
+    }
+  ]
+}

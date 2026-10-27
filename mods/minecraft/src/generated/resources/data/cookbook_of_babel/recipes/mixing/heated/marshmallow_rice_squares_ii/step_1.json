@@ -7,25 +7,28 @@
     },
     {
       "type": "forge:tag_empty",
-      "tag": "cookbook_of_babel:external/marshmallow_heat"
+      "tag": "cookbook_of_babel:external/marshmallow_heat_heat"
     }
   ],
   "heatRequirement": "heated",
   "ingredients": [
-    {
-      "amount": 7,
-      "fluid": "cookbook_of_babel:liquid",
-      "nbt": {
-        "substance": "cookbook_of_babel:marshmallow"
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:marshmallow_heat\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/marshmallow_heat"
       }
-    }
+    ]
   ],
   "processingTime": 20,
   "results": [
     {
-      "amount": 7,
+      "amount": 44,
       "fluid": "cookbook_of_babel:liquid",
-      "nbt": "{substance:\"cookbook_of_babel:marshmallow_heat\"}"
+      "nbt": "{substance:\"cookbook_of_babel:marshmallow_heat_heat\"}"
     }
   ]
 }

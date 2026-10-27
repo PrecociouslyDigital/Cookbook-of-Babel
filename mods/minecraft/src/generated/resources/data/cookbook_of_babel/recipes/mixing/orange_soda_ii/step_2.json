@@ -8,9 +8,6 @@
     {
       "type": "forge:tag_empty",
       "tag": "cookbook_of_babel:external/orange_soda_ii_step_2"
-    },
-    {
-      "type": "forge:false"
     }
   ],
   "ingredients": [
@@ -18,24 +15,37 @@
       {
         "type": "forge:partial_nbt",
         "item": "cookbook_of_babel:substance",
-        "nbt": "{substance:\"cookbook_of_babel:orange_cut\"}"
+        "nbt": "{substance:\"cookbook_of_babel:orange_soda_ii_step_1\"}"
       },
       {
-        "tag": "cookbook_of_babel:ingredients/orange_cut"
+        "tag": "cookbook_of_babel:ingredients/orange_soda_ii_step_1"
       }
     ],
-    {
-      "amount": 118,
-      "fluid": "cookbook_of_babel:bulk",
-      "nbt": {
-        "substance": "cookbook_of_babel:white_sugar"
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:orange_soda_ii_step_1\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/orange_soda_ii_step_1"
       }
-    }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:portion",
+        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:bulk\",Tag:{substance:\"cookbook_of_babel:white_sugar\"}}}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/white_sugar"
+      }
+    ]
   ],
   "processingTime": 400,
   "results": [
     {
-      "amount": 100,
+      "amount": 184,
       "fluid": "cookbook_of_babel:liquid",
       "nbt": "{substance:\"cookbook_of_babel:orange_soda_ii_step_2\"}"
     }

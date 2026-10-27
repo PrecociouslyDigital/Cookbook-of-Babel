@@ -1,0 +1,27 @@
+{
+  "type": "create:cutting",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/tomatoes_with_cheese_stuffing_chop"
+    }
+  ],
+  "ingredients": [
+    {
+      "tag": "cookbook_of_babel:ingredients/tomatoes_with_cheese_stuffing"
+    }
+  ],
+  "processingTime": 50,
+  "results": [
+    {
+      "item": "cookbook_of_babel:substance",
+      "nbt": {
+        "substance": "cookbook_of_babel:tomatoes_with_cheese_stuffing_chop"
+      }
+    }
+  ]
+}

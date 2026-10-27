@@ -7,7 +7,7 @@
     },
     {
       "type": "forge:tag_empty",
-      "tag": "cookbook_of_babel:external/mussel_boil"
+      "tag": "cookbook_of_babel:external/mussel_rinse_steam"
     }
   ],
   "heatRequirement": "heated",
@@ -16,19 +16,20 @@
       {
         "type": "forge:partial_nbt",
         "item": "cookbook_of_babel:substance",
-        "nbt": "{substance:\"cookbook_of_babel:mussel\"}"
+        "nbt": "{substance:\"cookbook_of_babel:mussel_rinse\"}"
       },
       {
-        "tag": "cookbook_of_babel:ingredients/mussel"
+        "tag": "cookbook_of_babel:ingredients/mussel_rinse"
       }
     ]
   ],
   "processingTime": 20,
   "results": [
     {
-      "amount": 150,
-      "fluid": "cookbook_of_babel:liquid",
-      "nbt": "{substance:\"cookbook_of_babel:mussel_boil\"}"
+      "item": "cookbook_of_babel:substance",
+      "nbt": {
+        "substance": "cookbook_of_babel:mussel_rinse_steam"
+      }
     }
   ]
 }

@@ -1,0 +1,35 @@
+{
+  "type": "thermal:press",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "thermal_expansion"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/victorian_butter_step_12"
+    }
+  ],
+  "energy": 400,
+  "ingredients": [
+    {
+      "value": [
+        {
+          "type": "forge:partial_nbt",
+          "item": "cookbook_of_babel:substance",
+          "nbt": "{substance:\"cookbook_of_babel:victorian_butter_step_11\"}"
+        },
+        {
+          "tag": "cookbook_of_babel:ingredients/victorian_butter_step_11"
+        }
+      ]
+    }
+  ],
+  "result": [
+    {
+      "count": 1,
+      "item": "cookbook_of_babel:substance",
+      "nbt": "{substance:\"cookbook_of_babel:victorian_butter_step_12\"}"
+    }
+  ]
+}

@@ -35,22 +35,45 @@
         "tag": "cookbook_of_babel:ingredients/baking_powder"
       }
     ],
-    {
-      "amount": 237,
-      "fluidTag": "forge:milk"
-    },
-    {
-      "amount": 710,
-      "fluid": "cookbook_of_babel:bulk",
-      "nbt": {
-        "substance": "cookbook_of_babel:wheat_flour"
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:portion",
+        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:liquid\",Tag:{substance:\"cookbook_of_babel:wheat_flour_dissolve\"}}}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/wheat_flour_dissolve"
       }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:portion",
+        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:liquid\",Tag:{substance:\"cookbook_of_babel:wheat_flour_dissolve\"}}}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/wheat_flour_dissolve"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:portion",
+        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:liquid\",Tag:{substance:\"cookbook_of_babel:wheat_flour_dissolve\"}}}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/wheat_flour_dissolve"
+      }
+    ],
+    {
+      "amount": 218,
+      "fluidTag": "forge:milk"
     }
   ],
   "processingTime": 20,
   "results": [
     {
-      "amount": 100,
+      "amount": 92,
       "fluid": "cookbook_of_babel:liquid",
       "nbt": "{substance:\"cookbook_of_babel:grotten_hans_steamed_sweet_bread_step_2\"}"
     }

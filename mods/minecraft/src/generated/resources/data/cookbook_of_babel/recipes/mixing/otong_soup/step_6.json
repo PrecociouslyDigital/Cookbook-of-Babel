@@ -11,15 +11,18 @@
     }
   ],
   "ingredients": [
-    {
-      "amount": 200,
-      "fluid": "cookbook_of_babel:liquid",
-      "nbt": {
-        "substance": "cookbook_of_babel:otong_soup_step_5"
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:portion",
+        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:liquid\",Tag:{substance:\"cookbook_of_babel:otong_soup_step_5\"}}}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/otong_soup_step_5"
       }
-    },
+    ],
     {
-      "amount": 5,
+      "amount": 7,
       "fluid": "cookbook_of_babel:bulk",
       "nbt": {
         "substance": "cookbook_of_babel:salt"
@@ -29,7 +32,7 @@
   "processingTime": 20,
   "results": [
     {
-      "count": 2,
+      "count": 3,
       "item": "cookbook_of_babel:otong_soup"
     }
   ]

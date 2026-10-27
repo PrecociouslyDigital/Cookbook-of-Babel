@@ -1,0 +1,35 @@
+{
+  "type": "farmersdelight:cutting",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "farmersdelight"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/rosemary_chop"
+    }
+  ],
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:rosemary\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/rosemary"
+      }
+    ]
+  ],
+  "result": [
+    {
+      "count": 5,
+      "item": "cookbook_of_babel:substance",
+      "nbt": "{substance:\"cookbook_of_babel:rosemary_chop\"}"
+    }
+  ],
+  "tool": {
+    "tag": "forge:tools/knives"
+  }
+}

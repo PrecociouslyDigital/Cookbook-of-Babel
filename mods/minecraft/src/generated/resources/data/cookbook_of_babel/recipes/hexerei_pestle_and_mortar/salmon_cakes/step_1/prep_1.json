@@ -1,0 +1,31 @@
+{
+  "type": "hexerei:pestle_and_mortar",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "hexerei"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/salmon_grind"
+    }
+  ],
+  "grindingTime": 20,
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:salmon\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/salmon"
+      }
+    ]
+  ],
+  "output": {
+    "count": 4,
+    "item": "cookbook_of_babel:substance",
+    "nbt": "{substance:\"cookbook_of_babel:salmon_grind\"}"
+  }
+}

@@ -11,18 +11,31 @@
     }
   ],
   "ingredients": [
-    {
-      "amount": 189,
-      "fluid": "cookbook_of_babel:liquid",
-      "nbt": {
-        "substance": "cookbook_of_babel:beef_stock_simmer_evaporate_evaporate"
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:portion",
+        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:liquid\",Tag:{substance:\"cookbook_of_babel:beef_stock_simmer_simmer_evaporate_evaporate\"}}}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/beef_stock_simmer_simmer_evaporate_evaporate"
       }
-    }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:portion",
+        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:liquid\",Tag:{substance:\"cookbook_of_babel:beef_stock_simmer_simmer_evaporate_evaporate\"}}}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/beef_stock_simmer_simmer_evaporate_evaporate"
+      }
+    ]
   ],
   "processingTime": 20,
   "results": [
     {
-      "count": 2,
+      "count": 5,
       "item": "cookbook_of_babel:glace_de_viande_reduced_beef_sauce"
     }
   ]

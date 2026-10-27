@@ -1,0 +1,41 @@
+{
+  "type": "hexerei:pestle_and_mortar",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "hexerei"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/cassava_rinse_boil_cut_grind"
+    }
+  ],
+  "grindingTime": 20,
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:cassava_rinse_boil_cut\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/cassava_rinse_boil_cut"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:cassava_rinse_boil_cut\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/cassava_rinse_boil_cut"
+      }
+    ]
+  ],
+  "output": {
+    "count": 1,
+    "item": "cookbook_of_babel:substance",
+    "nbt": "{substance:\"cookbook_of_babel:cassava_rinse_boil_cut_grind\"}"
+  }
+}

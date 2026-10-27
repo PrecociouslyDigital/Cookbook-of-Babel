@@ -8,23 +8,34 @@
     {
       "type": "forge:tag_empty",
       "tag": "cookbook_of_babel:external/salmon_with_rice_and_sauce_step_17"
-    },
-    {
-      "type": "forge:false"
     }
   ],
   "ingredients": [
-    {
-      "amount": 133,
-      "fluid": "cookbook_of_babel:bulk",
-      "nbt": {
-        "substance": "cookbook_of_babel:salmon_with_rice_and_sauce_step_16"
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:portion",
+        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:bulk\",Tag:{substance:\"cookbook_of_babel:salmon_with_rice_and_sauce_step_16\"}}}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/salmon_with_rice_and_sauce_step_16"
       }
-    }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:portion",
+        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:bulk\",Tag:{substance:\"cookbook_of_babel:salmon_with_rice_and_sauce_step_16\"}}}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/salmon_with_rice_and_sauce_step_16"
+      }
+    ]
   ],
   "processingTime": 20,
   "results": [
     {
+      "count": 3,
       "item": "cookbook_of_babel:substance",
       "nbt": {
         "substance": "cookbook_of_babel:salmon_with_rice_and_sauce_step_17"

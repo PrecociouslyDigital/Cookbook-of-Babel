@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:smelting",
+  "category": "food",
+  "conditions": [
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/mini_potato_buns_toast"
+    }
+  ],
+  "cookingtime": 100,
+  "experience": 0.1,
+  "ingredient": [
+    {
+      "type": "forge:partial_nbt",
+      "item": "cookbook_of_babel:substance",
+      "nbt": "{substance:\"cookbook_of_babel:mini_potato_buns\"}"
+    },
+    {
+      "tag": "cookbook_of_babel:ingredients/mini_potato_buns"
+    }
+  ],
+  "result": {
+    "item": "cookbook_of_babel:substance",
+    "nbt": "{substance:\"cookbook_of_babel:mini_potato_buns_toast\"}"
+  }
+}

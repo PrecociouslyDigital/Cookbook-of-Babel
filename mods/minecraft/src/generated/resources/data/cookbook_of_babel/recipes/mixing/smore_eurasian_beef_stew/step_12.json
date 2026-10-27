@@ -1,0 +1,67 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/smore_eurasian_beef_stew_step_12"
+    },
+    {
+      "type": "forge:false"
+    }
+  ],
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:smore_eurasian_beef_stew_step_11\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/smore_eurasian_beef_stew_step_11"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:tomato_chop\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/tomato_chop"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:spam_cut\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/spam_cut"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:chicken_hot_dogs\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/chicken_hot_dogs"
+      }
+    ]
+  ],
+  "processingTime": 20,
+  "results": [
+    {
+      "item": "cookbook_of_babel:substance",
+      "nbt": {
+        "substance": "cookbook_of_babel:smore_eurasian_beef_stew_step_12"
+      }
+    }
+  ]
+}

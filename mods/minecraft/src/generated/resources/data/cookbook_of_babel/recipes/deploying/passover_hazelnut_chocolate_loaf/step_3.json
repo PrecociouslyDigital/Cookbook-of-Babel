@@ -1,0 +1,47 @@
+{
+  "type": "create:deploying",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/passover_hazelnut_chocolate_loaf_step_3"
+    },
+    {
+      "type": "forge:false"
+    }
+  ],
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:hazelnut_roast_heat_cool\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/hazelnut_roast_heat_cool"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:chocolate_chop\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/chocolate_chop"
+      }
+    ]
+  ],
+  "results": [
+    {
+      "count": 3,
+      "item": "cookbook_of_babel:substance",
+      "nbt": {
+        "substance": "cookbook_of_babel:passover_hazelnut_chocolate_loaf_step_3"
+      }
+    }
+  ]
+}

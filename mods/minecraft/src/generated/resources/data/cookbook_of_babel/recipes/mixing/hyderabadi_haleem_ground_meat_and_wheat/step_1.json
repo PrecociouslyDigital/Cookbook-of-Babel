@@ -7,24 +7,27 @@
     },
     {
       "type": "forge:tag_empty",
-      "tag": "cookbook_of_babel:external/wheat_soak"
+      "tag": "cookbook_of_babel:external/wheat_soak_soak"
     }
   ],
   "ingredients": [
-    {
-      "amount": 6,
-      "fluid": "cookbook_of_babel:bulk",
-      "nbt": {
-        "substance": "cookbook_of_babel:wheat"
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:wheat_soak\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/wheat_soak"
       }
-    }
+    ]
   ],
   "processingTime": 400,
   "results": [
     {
-      "amount": 6,
+      "amount": 131,
       "fluid": "cookbook_of_babel:bulk",
-      "nbt": "{substance:\"cookbook_of_babel:wheat_soak\"}"
+      "nbt": "{substance:\"cookbook_of_babel:wheat_soak_soak\"}"
     }
   ]
 }

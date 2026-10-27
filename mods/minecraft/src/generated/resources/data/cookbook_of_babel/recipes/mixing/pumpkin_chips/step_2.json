@@ -1,0 +1,48 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/pumpkin_chips_step_2"
+    },
+    {
+      "type": "forge:false"
+    }
+  ],
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:pumpkin_cut_cut\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/pumpkin_cut_cut"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:pumpkin_cut_cut\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/pumpkin_cut_cut"
+      }
+    ]
+  ],
+  "processingTime": 20,
+  "results": [
+    {
+      "count": 3,
+      "item": "cookbook_of_babel:substance",
+      "nbt": {
+        "substance": "cookbook_of_babel:pumpkin_chips_step_2"
+      }
+    }
+  ]
+}

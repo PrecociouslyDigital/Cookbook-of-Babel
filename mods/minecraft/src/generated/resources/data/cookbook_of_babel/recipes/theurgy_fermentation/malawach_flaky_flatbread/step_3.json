@@ -1,0 +1,41 @@
+{
+  "type": "theurgy:fermentation",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "theurgy"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/malawach_flaky_flatbread_step_3"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "pneumaticcraft"
+    }
+  ],
+  "fluid": {
+    "fluid": "pneumaticcraft:vegetable_oil"
+  },
+  "fluidAmount": 1,
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:malawach_flaky_flatbread_step_2\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/malawach_flaky_flatbread_step_2"
+      }
+    ]
+  ],
+  "result": {
+    "Count": 7,
+    "id": "cookbook_of_babel:substance",
+    "tag": {
+      "substance": "cookbook_of_babel:malawach_flaky_flatbread_step_3"
+    }
+  },
+  "time": 20
+}

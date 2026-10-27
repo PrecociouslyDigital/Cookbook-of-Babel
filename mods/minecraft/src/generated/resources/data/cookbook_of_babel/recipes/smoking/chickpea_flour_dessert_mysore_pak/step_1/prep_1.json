@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:smoking",
+  "category": "food",
+  "conditions": [
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/chickpea_roast"
+    }
+  ],
+  "cookingtime": 50,
+  "experience": 0.1,
+  "ingredient": [
+    {
+      "type": "forge:partial_nbt",
+      "item": "cookbook_of_babel:portion",
+      "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:bulk\",Tag:{substance:\"cookbook_of_babel:chickpea\"}}}"
+    },
+    {
+      "tag": "cookbook_of_babel:ingredients/chickpea"
+    }
+  ],
+  "result": {
+    "count": 2,
+    "item": "cookbook_of_babel:substance",
+    "nbt": "{substance:\"cookbook_of_babel:chickpea_roast\"}"
+  }
+}

@@ -5,6 +5,9 @@
     {
       "type": "forge:tag_empty",
       "tag": "cookbook_of_babel:external/fattoush"
+    },
+    {
+      "type": "forge:false"
     }
   ],
   "ingredients": [
@@ -18,18 +21,46 @@
         "tag": "cookbook_of_babel:ingredients/fattoush_step_4"
       }
     ],
-    {
-      "tag": "cookbook_of_babel:ingredients/pita"
-    },
-    {
-      "tag": "cookbook_of_babel:ingredients/pita"
-    },
-    {
-      "tag": "cookbook_of_babel:ingredients/pita"
-    },
-    {
-      "tag": "cookbook_of_babel:ingredients/pita"
-    }
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:pita_toast\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/pita_toast"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:pita_toast\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/pita_toast"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:pita_toast\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/pita_toast"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:pita_toast\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/pita_toast"
+      }
+    ]
   ],
   "result": {
     "item": "cookbook_of_babel:fattoush"

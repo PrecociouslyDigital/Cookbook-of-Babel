@@ -7,21 +7,25 @@
     },
     {
       "type": "forge:tag_empty",
-      "tag": "cookbook_of_babel:external/pan_fried_beef_steak_cut"
-    },
-    {
-      "type": "forge:false"
+      "tag": "cookbook_of_babel:external/pan_fried_beef_steak_cut_cut"
     }
   ],
   "ingredients": [
-    {
-      "tag": "cookbook_of_babel:ingredients/pan_fried_beef_steak"
-    }
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:pan_fried_beef_steak_cut\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/pan_fried_beef_steak_cut"
+      }
+    ]
   ],
   "result": [
     {
       "item": "cookbook_of_babel:substance",
-      "nbt": "{substance:\"cookbook_of_babel:pan_fried_beef_steak_cut\"}"
+      "nbt": "{substance:\"cookbook_of_babel:pan_fried_beef_steak_cut_cut\"}"
     }
   ],
   "tool": {

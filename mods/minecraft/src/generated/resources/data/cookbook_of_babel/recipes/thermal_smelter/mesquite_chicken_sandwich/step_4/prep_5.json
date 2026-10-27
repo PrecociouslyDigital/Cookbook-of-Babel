@@ -1,0 +1,35 @@
+{
+  "type": "thermal:smelter",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "thermal_expansion"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/ciabatta_rolls_toast"
+    }
+  ],
+  "energy": 400,
+  "ingredients": [
+    {
+      "value": [
+        {
+          "type": "forge:partial_nbt",
+          "item": "cookbook_of_babel:substance",
+          "nbt": "{substance:\"cookbook_of_babel:ciabatta_rolls\"}"
+        },
+        {
+          "tag": "cookbook_of_babel:ingredients/ciabatta_rolls"
+        }
+      ]
+    }
+  ],
+  "result": [
+    {
+      "count": 1,
+      "item": "cookbook_of_babel:substance",
+      "nbt": "{substance:\"cookbook_of_babel:ciabatta_rolls_toast\"}"
+    }
+  ]
+}

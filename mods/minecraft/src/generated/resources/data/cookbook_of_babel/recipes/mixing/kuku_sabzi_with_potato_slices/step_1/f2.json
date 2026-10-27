@@ -18,16 +18,6 @@
     [
       {
         "type": "forge:partial_nbt",
-        "item": "cookbook_of_babel:substance",
-        "nbt": "{substance:\"cookbook_of_babel:egg\"}"
-      },
-      {
-        "tag": "cookbook_of_babel:ingredients/egg"
-      }
-    ],
-    [
-      {
-        "type": "forge:partial_nbt",
         "item": "cookbook_of_babel:portion",
         "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:bulk\",Tag:{substance:\"cookbook_of_babel:salt\"}}}"
       },
@@ -56,7 +46,14 @@
       }
     ],
     {
-      "amount": 7,
+      "amount": 13,
+      "fluid": "cookbook_of_babel:liquid",
+      "nbt": {
+        "substance": "cookbook_of_babel:egg_whisk"
+      }
+    },
+    {
+      "amount": 1,
       "fluid": "minecraft:milk",
       "nbt": {}
     }
@@ -64,7 +61,7 @@
   "processingTime": 20,
   "results": [
     {
-      "amount": 25,
+      "amount": 3,
       "fluid": "cookbook_of_babel:liquid",
       "nbt": "{substance:\"cookbook_of_babel:kuku_sabzi_with_potato_slices_step_1\"}"
     }

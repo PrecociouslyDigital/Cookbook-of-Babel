@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:smelting",
+  "category": "food",
+  "conditions": [
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/pine_nut_roast"
+    }
+  ],
+  "cookingtime": 100,
+  "experience": 0.1,
+  "ingredient": [
+    {
+      "type": "forge:partial_nbt",
+      "item": "cookbook_of_babel:substance",
+      "nbt": "{substance:\"cookbook_of_babel:pine_nut\"}"
+    },
+    {
+      "tag": "cookbook_of_babel:ingredients/pine_nut"
+    }
+  ],
+  "result": {
+    "item": "cookbook_of_babel:substance",
+    "nbt": "{substance:\"cookbook_of_babel:pine_nut_roast\"}"
+  }
+}

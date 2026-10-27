@@ -5,34 +5,42 @@
     {
       "type": "forge:tag_empty",
       "tag": "cookbook_of_babel:external/pizza_soup_step_2"
-    },
-    {
-      "type": "forge:false"
     }
   ],
   "ingredients": [
     [
       {
         "type": "forge:partial_nbt",
-        "item": "cookbook_of_babel:substance",
-        "nbt": "{substance:\"cookbook_of_babel:tomato_chop\"}"
+        "item": "cookbook_of_babel:portion",
+        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:liquid\",Tag:{substance:\"cookbook_of_babel:pizza_soup_step_1\"}}}"
       },
       {
-        "tag": "cookbook_of_babel:ingredients/tomato_chop"
+        "tag": "cookbook_of_babel:ingredients/pizza_soup_step_1"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:portion",
+        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:liquid\",Tag:{substance:\"cookbook_of_babel:pizza_soup_step_1\"}}}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/pizza_soup_step_1"
       }
     ],
     [
       {
         "type": "forge:partial_nbt",
         "item": "cookbook_of_babel:substance",
-        "nbt": "{substance:\"cookbook_of_babel:cheese\"}"
+        "nbt": "{substance:\"cookbook_of_babel:cheese_grind\"}"
       },
       {
-        "tag": "cookbook_of_babel:ingredients/cheese"
+        "tag": "cookbook_of_babel:ingredients/cheese_grind"
       }
     ]
   ],
   "result": {
+    "count": 5,
     "item": "cookbook_of_babel:substance",
     "nbt": "{substance:\"cookbook_of_babel:pizza_soup_step_2\"}"
   }

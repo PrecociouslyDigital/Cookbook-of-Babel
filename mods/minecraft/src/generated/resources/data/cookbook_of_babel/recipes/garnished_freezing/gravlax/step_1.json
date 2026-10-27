@@ -1,0 +1,33 @@
+{
+  "type": "garnished:freezing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "garnished"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/salmon_cut_freeze"
+    }
+  ],
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:salmon_chop\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/salmon_chop"
+      }
+    ]
+  ],
+  "results": [
+    {
+      "item": "cookbook_of_babel:substance",
+      "nbt": {
+        "substance": "cookbook_of_babel:salmon_cut_freeze"
+      }
+    }
+  ]
+}

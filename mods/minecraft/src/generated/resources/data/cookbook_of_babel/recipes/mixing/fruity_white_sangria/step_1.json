@@ -134,11 +134,21 @@
     [
       {
         "type": "forge:partial_nbt",
-        "item": "cookbook_of_babel:substance",
-        "nbt": "{substance:\"cookbook_of_babel:pineapple\"}"
+        "item": "cookbook_of_babel:portion",
+        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:liquid\",Tag:{substance:\"cookbook_of_babel:wine\"}}}"
       },
       {
-        "tag": "cookbook_of_babel:ingredients/pineapple"
+        "tag": "cookbook_of_babel:ingredients/wine"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:portion",
+        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:liquid\",Tag:{substance:\"cookbook_of_babel:wine\"}}}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/wine"
       }
     ],
     [
@@ -165,30 +175,20 @@
       {
         "type": "forge:partial_nbt",
         "item": "cookbook_of_babel:substance",
-        "nbt": "{substance:\"cookbook_of_babel:orange\"}"
+        "nbt": "{substance:\"cookbook_of_babel:orange_chop\"}"
       },
       {
-        "tag": "cookbook_of_babel:ingredients/orange"
+        "tag": "cookbook_of_babel:ingredients/orange_chop"
       }
     ],
     [
       {
         "type": "forge:partial_nbt",
         "item": "cookbook_of_babel:substance",
-        "nbt": "{substance:\"cookbook_of_babel:lime\"}"
+        "nbt": "{substance:\"cookbook_of_babel:lime_cut\"}"
       },
       {
-        "tag": "cookbook_of_babel:ingredients/lime"
-      }
-    ],
-    [
-      {
-        "type": "forge:partial_nbt",
-        "item": "cookbook_of_babel:substance",
-        "nbt": "{substance:\"cookbook_of_babel:strawberry\"}"
-      },
-      {
-        "tag": "cookbook_of_babel:ingredients/strawberry"
+        "tag": "cookbook_of_babel:ingredients/lime_cut"
       }
     ],
     [
@@ -211,13 +211,16 @@
         "tag": "cookbook_of_babel:ingredients/strawberry"
       }
     ],
-    {
-      "amount": 473,
-      "fluid": "cookbook_of_babel:liquid",
-      "nbt": {
-        "substance": "cookbook_of_babel:wine"
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:strawberry\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/strawberry"
       }
-    }
+    ]
   ],
   "processingTime": 400,
   "results": [

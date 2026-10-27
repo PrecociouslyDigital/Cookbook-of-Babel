@@ -1,0 +1,34 @@
+{
+  "type": "farmersdelight:cutting",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "farmersdelight"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/dryfish_cut"
+    }
+  ],
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:dryfish\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/dryfish"
+      }
+    ]
+  ],
+  "result": [
+    {
+      "item": "cookbook_of_babel:substance",
+      "nbt": "{substance:\"cookbook_of_babel:dryfish_cut\"}"
+    }
+  ],
+  "tool": {
+    "tag": "forge:tools/knives"
+  }
+}

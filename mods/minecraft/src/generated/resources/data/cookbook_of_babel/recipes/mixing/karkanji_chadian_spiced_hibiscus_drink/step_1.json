@@ -7,24 +7,27 @@
     },
     {
       "type": "forge:tag_empty",
-      "tag": "cookbook_of_babel:external/roselle_rinse"
+      "tag": "cookbook_of_babel:external/roselle_rinse_rinse"
     }
   ],
   "ingredients": [
-    {
-      "amount": 158,
-      "fluid": "cookbook_of_babel:bulk",
-      "nbt": {
-        "substance": "cookbook_of_babel:roselle"
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:roselle_rinse\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/roselle_rinse"
       }
-    }
+    ]
   ],
   "processingTime": 20,
   "results": [
     {
       "item": "cookbook_of_babel:substance",
       "nbt": {
-        "substance": "cookbook_of_babel:roselle_rinse"
+        "substance": "cookbook_of_babel:roselle_rinse_rinse"
       }
     }
   ]

@@ -15,16 +15,6 @@
       {
         "type": "forge:partial_nbt",
         "item": "cookbook_of_babel:portion",
-        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:bulk\",Tag:{substance:\"cookbook_of_babel:wheat_flour\"}}}"
-      },
-      {
-        "tag": "cookbook_of_babel:ingredients/wheat_flour"
-      }
-    ],
-    [
-      {
-        "type": "forge:partial_nbt",
-        "item": "cookbook_of_babel:portion",
         "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:bulk\",Tag:{substance:\"cookbook_of_babel:salt\"}}}"
       },
       {
@@ -32,7 +22,14 @@
       }
     ],
     {
-      "amount": 7,
+      "amount": 28,
+      "fluid": "cookbook_of_babel:bulk",
+      "nbt": {
+        "substance": "cookbook_of_babel:wheat_flour"
+      }
+    },
+    {
+      "amount": 1,
       "fluid": "cookbook_of_babel:bulk",
       "nbt": {
         "substance": "cookbook_of_babel:baking_soda"
@@ -42,7 +39,7 @@
   "processingTime": 20,
   "results": [
     {
-      "amount": 133,
+      "amount": 16,
       "fluid": "cookbook_of_babel:bulk",
       "nbt": "{substance:\"cookbook_of_babel:racuszki_polish_pancakes_step_1\"}"
     }

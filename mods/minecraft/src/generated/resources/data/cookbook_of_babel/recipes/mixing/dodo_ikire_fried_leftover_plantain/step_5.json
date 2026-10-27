@@ -1,0 +1,34 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/dodo_ikire_fried_leftover_plantain_step_5"
+    }
+  ],
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:dodo_ikire_fried_leftover_plantain_step_4\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/dodo_ikire_fried_leftover_plantain_step_4"
+      }
+    ]
+  ],
+  "processingTime": 20,
+  "results": [
+    {
+      "item": "cookbook_of_babel:substance",
+      "nbt": {
+        "substance": "cookbook_of_babel:dodo_ikire_fried_leftover_plantain_step_5"
+      }
+    }
+  ]
+}

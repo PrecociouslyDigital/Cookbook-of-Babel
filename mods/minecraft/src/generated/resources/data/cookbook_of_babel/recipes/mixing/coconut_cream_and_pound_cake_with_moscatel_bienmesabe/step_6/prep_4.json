@@ -1,0 +1,28 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/traditional_pound_cake_soak"
+    }
+  ],
+  "ingredients": [
+    {
+      "tag": "cookbook_of_babel:ingredients/traditional_pound_cake"
+    }
+  ],
+  "processingTime": 20,
+  "results": [
+    {
+      "count": 12,
+      "item": "cookbook_of_babel:substance",
+      "nbt": {
+        "substance": "cookbook_of_babel:traditional_pound_cake_soak"
+      }
+    }
+  ]
+}

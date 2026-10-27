@@ -1,0 +1,30 @@
+{
+  "type": "hexerei:drying_rack",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "hexerei"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/microwaved_basmati_rice"
+    }
+  ],
+  "dryingTimeInTicks": 20,
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:portion",
+        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:bulk\",Tag:{substance:\"cookbook_of_babel:microwaved_basmati_rice_step_4\"}}}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/microwaved_basmati_rice_step_4"
+      }
+    ]
+  ],
+  "output": {
+    "count": 2,
+    "item": "cookbook_of_babel:microwaved_basmati_rice"
+  }
+}

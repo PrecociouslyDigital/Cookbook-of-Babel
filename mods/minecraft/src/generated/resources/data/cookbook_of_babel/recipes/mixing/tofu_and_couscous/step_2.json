@@ -1,0 +1,47 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/tofu_and_couscous_step_2"
+    }
+  ],
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:tofu_and_couscous_step_1\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/tofu_and_couscous_step_1"
+      }
+    ],
+    {
+      "amount": 18,
+      "fluid": "cookbook_of_babel:liquid",
+      "nbt": {
+        "substance": "cookbook_of_babel:water_boil"
+      }
+    },
+    {
+      "amount": 18,
+      "fluid": "cookbook_of_babel:bulk",
+      "nbt": {
+        "substance": "cookbook_of_babel:couscous"
+      }
+    }
+  ],
+  "processingTime": 100,
+  "results": [
+    {
+      "amount": 57,
+      "fluid": "cookbook_of_babel:bulk",
+      "nbt": "{substance:\"cookbook_of_babel:tofu_and_couscous_step_2\"}"
+    }
+  ]
+}

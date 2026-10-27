@@ -3,6 +3,7 @@
 The recipes, substances and tags in this mod's data are derived from the Cookbook of Babel dataset, which draws on these sources:
 
 - Cookbook of Babel (original content), LicenseRef-original
+- [FoodKeeper (USDA FSIS)](https://www.fsis.usda.gov/shared/data/EN/foodkeeper.json), CC0-1.0
 - [Open Food Facts](https://huggingface.co/datasets/openfoodfacts/product-database/blob/24a6d86e83437a177f6862aaafcfba12c8c7664a/food.parquet), ODbL-1.0
 - [Wikibooks Cookbook: 1-2-3-4 Cake](https://en.wikibooks.org/w/index.php?title=Cookbook:1-2-3-4_Cake&oldid=4608393), CC-BY-SA-4.0
 - [Wikibooks Cookbook: 20-Ingredient Brownies](https://en.wikibooks.org/w/index.php?title=Cookbook:20-Ingredient_Brownies&oldid=4655390), CC-BY-SA-4.0
@@ -275,7 +276,6 @@ The recipes, substances and tags in this mod's data are derived from the Cookboo
 - [Wikibooks Cookbook: Beef Skewers with Baguette Slices](https://en.wikibooks.org/w/index.php?title=Cookbook:Beef_Skewers_with_Baguette_Slices&oldid=4505368), CC-BY-SA-4.0
 - [Wikibooks Cookbook: Beef Stew I](https://en.wikibooks.org/w/index.php?title=Cookbook:Beef_Stew_I&oldid=4518573), CC-BY-SA-4.0
 - [Wikibooks Cookbook: Beef Stew II](https://en.wikibooks.org/w/index.php?title=Cookbook:Beef_Stew_II&oldid=4610523), CC-BY-SA-4.0
-- [Wikibooks Cookbook: Beef Stir-Fry](https://en.wikibooks.org/w/index.php?title=Cookbook:Beef_Stir-Fry&oldid=4523801), CC-BY-SA-4.0
 - [Wikibooks Cookbook: Beef Tenderloin Steak](https://en.wikibooks.org/w/index.php?title=Cookbook:Beef_Tenderloin_Steak&oldid=4498125), CC-BY-SA-4.0
 - [Wikibooks Cookbook: Beef Tongue with Chiles, Corn and Tomato (Lengua de Res)](https://en.wikibooks.org/w/index.php?title=Cookbook:Beef_Tongue_with_Chiles,_Corn_and_Tomato_(Lengua_de_Res)&oldid=4493855), CC-BY-SA-4.0
 - [Wikibooks Cookbook: Beef Yakiniku Pizza](https://en.wikibooks.org/w/index.php?title=Cookbook:Beef_Yakiniku_Pizza&oldid=4595349), CC-BY-SA-4.0
@@ -1700,7 +1700,6 @@ The recipes, substances and tags in this mod's data are derived from the Cookboo
 - [Wikibooks Cookbook: Lamb Sausages and Grilled Potatoes](https://en.wikibooks.org/w/index.php?title=Cookbook:Lamb_Sausages_and_Grilled_Potatoes&oldid=4524828), CC-BY-SA-4.0
 - [Wikibooks Cookbook: Lamb Shawarma](https://en.wikibooks.org/w/index.php?title=Cookbook:Lamb_Shawarma&oldid=4510330), CC-BY-SA-4.0
 - [Wikibooks Cookbook: Lamington](https://en.wikibooks.org/w/index.php?title=Cookbook:Lamington&oldid=4587274), CC-BY-SA-4.0
-- [Wikibooks Cookbook: Lancashire Corned Beef Hash](https://en.wikibooks.org/w/index.php?title=Cookbook:Lancashire_Corned_Beef_Hash&oldid=4506561), CC-BY-SA-4.0
 - [Wikibooks Cookbook: Lancashire Hotpot](https://en.wikibooks.org/w/index.php?title=Cookbook:Lancashire_Hotpot&oldid=4497923), CC-BY-SA-4.0
 - [Wikibooks Cookbook: Lancashire Parkin](https://en.wikibooks.org/w/index.php?title=Cookbook:Lancashire_Parkin&oldid=4534275), CC-BY-SA-4.0
 - [Wikibooks Cookbook: Lane Cake](https://en.wikibooks.org/w/index.php?title=Cookbook:Lane_Cake&oldid=4522776), CC-BY-SA-4.0
@@ -2639,7 +2638,6 @@ The recipes, substances and tags in this mod's data are derived from the Cookboo
 - [Wikibooks Cookbook: Rwandan Goat Brochette](https://en.wikibooks.org/w/index.php?title=Cookbook:Rwandan_Goat_Brochette&oldid=4510229), CC-BY-SA-4.0
 - [Wikibooks Cookbook: Rye Bread](https://en.wikibooks.org/w/index.php?title=Cookbook:Rye_Bread&oldid=4501283), CC-BY-SA-4.0
 - [Wikibooks Cookbook: Rye Bread Layer Cake](https://en.wikibooks.org/w/index.php?title=Cookbook:Rye_Bread_Layer_Cake&oldid=4587379), CC-BY-SA-4.0
-- [Wikibooks Cookbook: S'mores](https://en.wikibooks.org/w/index.php?title=Cookbook:S'mores&oldid=4637961), CC-BY-SA-4.0
 - [Wikibooks Cookbook: Sabich (Vegetable and Pita Sandwich)](https://en.wikibooks.org/w/index.php?title=Cookbook:Sabich_(Vegetable_and_Pita_Sandwich)&oldid=4518279), CC-BY-SA-4.0
 - [Wikibooks Cookbook: Sachertorte](https://en.wikibooks.org/w/index.php?title=Cookbook:Sachertorte&oldid=4515970), CC-BY-SA-4.0
 - [Wikibooks Cookbook: Sachertorte (Duramecho Version)](https://en.wikibooks.org/w/index.php?title=Cookbook:Sachertorte_(Duramecho_Version)&oldid=4587338), CC-BY-SA-4.0

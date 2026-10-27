@@ -1,0 +1,35 @@
+{
+  "type": "thermal:centrifuge",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "thermal_expansion"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/agbugbu_nigerian_pigeon_pea_and_yam_porridge_step_2"
+    }
+  ],
+  "energy": 400,
+  "ingredients": [
+    {
+      "value": [
+        {
+          "type": "forge:partial_nbt",
+          "item": "cookbook_of_babel:substance",
+          "nbt": "{substance:\"cookbook_of_babel:pigeon_pea_rinse_soak\"}"
+        },
+        {
+          "tag": "cookbook_of_babel:ingredients/pigeon_pea_rinse_soak"
+        }
+      ]
+    }
+  ],
+  "result": [
+    {
+      "count": 1,
+      "item": "cookbook_of_babel:substance",
+      "nbt": "{substance:\"cookbook_of_babel:agbugbu_nigerian_pigeon_pea_and_yam_porridge_step_2\"}"
+    }
+  ]
+}

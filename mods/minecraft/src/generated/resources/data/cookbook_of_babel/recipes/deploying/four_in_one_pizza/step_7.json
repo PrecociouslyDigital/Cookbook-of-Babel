@@ -1,0 +1,46 @@
+{
+  "type": "create:deploying",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/four_in_one_pizza_step_7"
+    },
+    {
+      "type": "forge:false"
+    }
+  ],
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:four_in_one_pizza_step_6\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/four_in_one_pizza_step_6"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:cheddar_cheese\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/cheddar_cheese"
+      }
+    ]
+  ],
+  "results": [
+    {
+      "item": "cookbook_of_babel:substance",
+      "nbt": {
+        "substance": "cookbook_of_babel:four_in_one_pizza_step_7"
+      }
+    }
+  ]
+}

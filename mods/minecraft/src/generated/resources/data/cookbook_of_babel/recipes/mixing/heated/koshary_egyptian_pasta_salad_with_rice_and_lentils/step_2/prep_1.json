@@ -1,0 +1,30 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/steamed_basmati_rice_boil"
+    },
+    {
+      "type": "forge:false"
+    }
+  ],
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+      "tag": "cookbook_of_babel:ingredients/steamed_basmati_rice"
+    }
+  ],
+  "processingTime": 20,
+  "results": [
+    {
+      "amount": 87,
+      "fluid": "cookbook_of_babel:bulk",
+      "nbt": "{substance:\"cookbook_of_babel:steamed_basmati_rice_boil\"}"
+    }
+  ]
+}

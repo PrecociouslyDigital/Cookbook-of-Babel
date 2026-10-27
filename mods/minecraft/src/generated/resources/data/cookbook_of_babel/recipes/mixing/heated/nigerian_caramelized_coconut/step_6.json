@@ -7,26 +7,29 @@
     },
     {
       "type": "forge:tag_empty",
-      "tag": "cookbook_of_babel:external/nigerian_caramelized_coconut"
-    },
-    {
-      "type": "forge:false"
+      "tag": "cookbook_of_babel:external/nigerian_caramelized_coconut_step_6"
     }
   ],
   "heatRequirement": "heated",
   "ingredients": [
-    {
-      "amount": 14,
-      "fluid": "cookbook_of_babel:liquid",
-      "nbt": {
-        "substance": "cookbook_of_babel:nigerian_caramelized_coconut_step_5"
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:nigerian_caramelized_coconut_step_5\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/nigerian_caramelized_coconut_step_5"
       }
-    }
+    ]
   ],
   "processingTime": 20,
   "results": [
     {
-      "item": "cookbook_of_babel:nigerian_caramelized_coconut"
+      "item": "cookbook_of_babel:substance",
+      "nbt": {
+        "substance": "cookbook_of_babel:nigerian_caramelized_coconut_step_6"
+      }
     }
   ]
 }

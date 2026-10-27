@@ -8,6 +8,9 @@
     {
       "type": "forge:tag_empty",
       "tag": "cookbook_of_babel:external/pickled_green_mango_aavakaaya_step_9"
+    },
+    {
+      "type": "forge:false"
     }
   ],
   "ingredients": [
@@ -125,16 +128,6 @@
       {
         "type": "forge:partial_nbt",
         "item": "cookbook_of_babel:substance",
-        "nbt": "{substance:\"cookbook_of_babel:mustard\"}"
-      },
-      {
-        "tag": "cookbook_of_babel:ingredients/mustard"
-      }
-    ],
-    [
-      {
-        "type": "forge:partial_nbt",
-        "item": "cookbook_of_babel:substance",
         "nbt": "{substance:\"cookbook_of_babel:chile\"}"
       },
       {
@@ -159,6 +152,16 @@
       },
       {
         "tag": "cookbook_of_babel:ingredients/chile"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:portion",
+        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:bulk\",Tag:{substance:\"cookbook_of_babel:fenugreek\"}}}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/fenugreek"
       }
     ],
     [
@@ -190,14 +193,7 @@
       {
         "tag": "cookbook_of_babel:ingredients/garlic"
       }
-    ],
-    {
-      "amount": 300,
-      "fluid": "cookbook_of_babel:bulk",
-      "nbt": {
-        "substance": "cookbook_of_babel:fenugreek"
-      }
-    }
+    ]
   ],
   "processingTime": 20,
   "results": [

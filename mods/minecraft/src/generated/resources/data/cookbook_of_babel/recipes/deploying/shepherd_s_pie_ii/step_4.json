@@ -1,0 +1,44 @@
+{
+  "type": "create:deploying",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/shepherd_s_pie_ii_step_4"
+    }
+  ],
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:shepherd_s_pie_ii_step_3\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/shepherd_s_pie_ii_step_3"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:cheddar_cheese\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/cheddar_cheese"
+      }
+    ]
+  ],
+  "results": [
+    {
+      "count": 5,
+      "item": "cookbook_of_babel:substance",
+      "nbt": {
+        "substance": "cookbook_of_babel:shepherd_s_pie_ii_step_4"
+      }
+    }
+  ]
+}

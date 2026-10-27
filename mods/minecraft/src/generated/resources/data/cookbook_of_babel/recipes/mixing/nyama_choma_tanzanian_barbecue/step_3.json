@@ -8,14 +8,27 @@
     {
       "type": "forge:tag_empty",
       "tag": "cookbook_of_babel:external/nyama_choma_tanzanian_barbecue_step_3"
+    },
+    {
+      "type": "forge:false"
     }
   ],
   "ingredients": [
     [
       {
         "type": "forge:partial_nbt",
-        "item": "cookbook_of_babel:substance",
-        "nbt": "{substance:\"cookbook_of_babel:nyama_choma_tanzanian_barbecue_step_2\"}"
+        "item": "cookbook_of_babel:portion",
+        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:liquid\",Tag:{substance:\"cookbook_of_babel:nyama_choma_tanzanian_barbecue_step_2\"}}}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/nyama_choma_tanzanian_barbecue_step_2"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:portion",
+        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:liquid\",Tag:{substance:\"cookbook_of_babel:nyama_choma_tanzanian_barbecue_step_2\"}}}"
       },
       {
         "tag": "cookbook_of_babel:ingredients/nyama_choma_tanzanian_barbecue_step_2"
@@ -25,6 +38,7 @@
   "processingTime": 400,
   "results": [
     {
+      "count": 5,
       "item": "cookbook_of_babel:substance",
       "nbt": {
         "substance": "cookbook_of_babel:nyama_choma_tanzanian_barbecue_step_3"

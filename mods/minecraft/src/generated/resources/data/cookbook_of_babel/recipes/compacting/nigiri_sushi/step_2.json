@@ -1,0 +1,71 @@
+{
+  "type": "create:compacting",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/nigiri_sushi_step_2"
+    },
+    {
+      "type": "forge:false"
+    }
+  ],
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:nigiri_sushi_step_1\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/nigiri_sushi_step_1"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:nigiri_sushi_step_1\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/nigiri_sushi_step_1"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:nigiri_sushi_step_1\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/nigiri_sushi_step_1"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:nigiri_sushi_step_1\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/nigiri_sushi_step_1"
+      }
+    ],
+    {
+      "tag": "cookbook_of_babel:ingredients/sushi_rice"
+    }
+  ],
+  "processingTime": 20,
+  "results": [
+    {
+      "count": 4,
+      "item": "cookbook_of_babel:substance",
+      "nbt": {
+        "substance": "cookbook_of_babel:nigiri_sushi_step_2"
+      }
+    }
+  ]
+}

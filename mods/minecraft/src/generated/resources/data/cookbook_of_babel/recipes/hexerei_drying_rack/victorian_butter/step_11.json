@@ -1,0 +1,31 @@
+{
+  "type": "hexerei:drying_rack",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "hexerei"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/victorian_butter_step_11"
+    }
+  ],
+  "dryingTimeInTicks": 1200,
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:victorian_butter_step_10\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/victorian_butter_step_10"
+      }
+    ]
+  ],
+  "output": {
+    "count": 1,
+    "item": "cookbook_of_babel:substance",
+    "nbt": "{substance:\"cookbook_of_babel:victorian_butter_step_11\"}"
+  }
+}

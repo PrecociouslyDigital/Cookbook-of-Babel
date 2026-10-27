@@ -1,0 +1,30 @@
+{
+  "type": "vintagedelight:fermenting",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "vintagedelight"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/heinz_burger_sauce"
+    }
+  ],
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:heinz_burger_sauce_step_1\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/heinz_burger_sauce_step_1"
+      }
+    ]
+  ],
+  "output": {
+    "count": 1,
+    "item": "cookbook_of_babel:heinz_burger_sauce"
+  },
+  "processingTime": 600
+}

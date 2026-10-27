@@ -1,0 +1,47 @@
+{
+  "type": "create:deploying",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/ants_on_a_log_step_2"
+    },
+    {
+      "type": "forge:false"
+    }
+  ],
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:celery_cut_cut\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/celery_cut_cut"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:peanut_butter\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/peanut_butter"
+      }
+    ]
+  ],
+  "results": [
+    {
+      "count": 2,
+      "item": "cookbook_of_babel:substance",
+      "nbt": {
+        "substance": "cookbook_of_babel:ants_on_a_log_step_2"
+      }
+    }
+  ]
+}

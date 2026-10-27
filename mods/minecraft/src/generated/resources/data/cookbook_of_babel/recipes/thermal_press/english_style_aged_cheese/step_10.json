@@ -1,0 +1,35 @@
+{
+  "type": "thermal:press",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "thermal_expansion"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/english_style_aged_cheese_step_10"
+    }
+  ],
+  "energy": 24000,
+  "ingredients": [
+    {
+      "value": [
+        {
+          "type": "forge:partial_nbt",
+          "item": "cookbook_of_babel:substance",
+          "nbt": "{substance:\"cookbook_of_babel:english_style_aged_cheese_step_9\"}"
+        },
+        {
+          "tag": "cookbook_of_babel:ingredients/english_style_aged_cheese_step_9"
+        }
+      ]
+    }
+  ],
+  "result": [
+    {
+      "count": 1,
+      "item": "cookbook_of_babel:substance",
+      "nbt": "{substance:\"cookbook_of_babel:english_style_aged_cheese_step_10\"}"
+    }
+  ]
+}

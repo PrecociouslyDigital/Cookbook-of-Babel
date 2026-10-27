@@ -1,0 +1,35 @@
+{
+  "type": "farmersdelight:cutting",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "farmersdelight"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/pitted_salt_cured_black_olives_chop"
+    }
+  ],
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:pitted_salt_cured_black_olives\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/pitted_salt_cured_black_olives"
+      }
+    ]
+  ],
+  "result": [
+    {
+      "count": 6,
+      "item": "cookbook_of_babel:substance",
+      "nbt": "{substance:\"cookbook_of_babel:pitted_salt_cured_black_olives_chop\"}"
+    }
+  ],
+  "tool": {
+    "tag": "forge:tools/knives"
+  }
+}

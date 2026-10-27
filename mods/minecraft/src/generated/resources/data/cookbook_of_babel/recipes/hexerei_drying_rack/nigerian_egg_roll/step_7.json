@@ -1,0 +1,30 @@
+{
+  "type": "hexerei:drying_rack",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "hexerei"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/nigerian_egg_roll"
+    }
+  ],
+  "dryingTimeInTicks": 20,
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:nigerian_egg_roll_step_6\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/nigerian_egg_roll_step_6"
+      }
+    ]
+  ],
+  "output": {
+    "count": 1,
+    "item": "cookbook_of_babel:nigerian_egg_roll"
+  }
+}

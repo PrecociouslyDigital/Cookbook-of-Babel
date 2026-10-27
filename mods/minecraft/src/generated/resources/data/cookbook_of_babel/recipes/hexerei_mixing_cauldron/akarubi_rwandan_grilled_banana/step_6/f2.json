@@ -1,0 +1,42 @@
+{
+  "type": "hexerei:mixingcauldron",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "hexerei"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/akarubi_rwandan_grilled_banana"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "fluidLevelsConsumed": 90,
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:akarubi_rwandan_grilled_banana_step_5\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/akarubi_rwandan_grilled_banana_step_5"
+      }
+    ]
+  ],
+  "liquid": {
+    "amount": 90,
+    "fluid": "create:honey"
+  },
+  "liquidOutput": {
+    "amount": 90,
+    "fluid": "create:honey"
+  },
+  "output": {
+    "count": 2,
+    "item": "cookbook_of_babel:akarubi_rwandan_grilled_banana"
+  }
+}

@@ -15,24 +15,37 @@
       {
         "type": "forge:partial_nbt",
         "item": "cookbook_of_babel:substance",
-        "nbt": "{substance:\"cookbook_of_babel:chiles_rinse_toast_boil_cool_rinse_blend_chill\"}"
+        "nbt": "{substance:\"cookbook_of_babel:chiles_rinse_rinse_toast_boil_cool_rinse_blend_chill\"}"
       },
       {
-        "tag": "cookbook_of_babel:ingredients/chiles_rinse_toast_boil_cool_rinse_blend_chill"
+        "tag": "cookbook_of_babel:ingredients/chiles_rinse_rinse_toast_boil_cool_rinse_blend_chill"
       }
     ],
-    {
-      "amount": 454,
-      "fluid": "cookbook_of_babel:bulk",
-      "nbt": {
-        "substance": "cookbook_of_babel:hominy"
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:portion",
+        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:bulk\",Tag:{substance:\"cookbook_of_babel:hominy_rinse\"}}}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/hominy_rinse"
       }
-    }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:portion",
+        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:bulk\",Tag:{substance:\"cookbook_of_babel:hominy_rinse\"}}}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/hominy_rinse"
+      }
+    ]
   ],
   "processingTime": 20,
   "results": [
     {
-      "amount": 100,
+      "amount": 96,
       "fluid": "cookbook_of_babel:bulk",
       "nbt": "{substance:\"cookbook_of_babel:menudo_mexican_tripe_and_hominy_soup_step_8\"}"
     }

@@ -8,35 +8,25 @@
     {
       "type": "forge:tag_empty",
       "tag": "cookbook_of_babel:external/bulgur_burgers_step_3"
+    },
+    {
+      "type": "forge:false"
     }
   ],
   "heatRequirement": "heated",
   "ingredients": [
-    [
-      {
-        "type": "forge:partial_nbt",
-        "item": "cookbook_of_babel:portion",
-        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:bulk\",Tag:{substance:\"cookbook_of_babel:bulgur_burgers_step_2\"}}}"
-      },
-      {
-        "tag": "cookbook_of_babel:ingredients/bulgur_burgers_step_2"
+    {
+      "amount": 3,
+      "fluid": "cookbook_of_babel:bulk",
+      "nbt": {
+        "substance": "cookbook_of_babel:bulgur_burgers_step_2"
       }
-    ],
-    [
-      {
-        "type": "forge:partial_nbt",
-        "item": "cookbook_of_babel:portion",
-        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:bulk\",Tag:{substance:\"cookbook_of_babel:bulgur_burgers_step_2\"}}}"
-      },
-      {
-        "tag": "cookbook_of_babel:ingredients/bulgur_burgers_step_2"
-      }
-    ]
+    }
   ],
   "processingTime": 20,
   "results": [
     {
-      "amount": 500,
+      "amount": 3,
       "fluid": "cookbook_of_babel:bulk",
       "nbt": "{substance:\"cookbook_of_babel:bulgur_burgers_step_3\"}"
     }

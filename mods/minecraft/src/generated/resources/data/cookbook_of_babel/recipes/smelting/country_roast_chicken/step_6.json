@@ -1,10 +1,10 @@
 {
   "type": "minecraft:smelting",
-  "category": "misc",
+  "category": "food",
   "conditions": [
     {
       "type": "forge:tag_empty",
-      "tag": "cookbook_of_babel:external/country_roast_chicken"
+      "tag": "cookbook_of_babel:external/country_roast_chicken_step_6"
     }
   ],
   "cookingtime": 100,
@@ -13,13 +13,14 @@
     {
       "type": "forge:partial_nbt",
       "item": "cookbook_of_babel:substance",
-      "nbt": "{substance:\"cookbook_of_babel:country_roast_chicken_step_5\"}"
+      "nbt": "{substance:\"cookbook_of_babel:country_roast_chicken_step_4\"}"
     },
     {
-      "tag": "cookbook_of_babel:ingredients/country_roast_chicken_step_5"
+      "tag": "cookbook_of_babel:ingredients/country_roast_chicken_step_4"
     }
   ],
   "result": {
-    "item": "cookbook_of_babel:country_roast_chicken"
+    "item": "cookbook_of_babel:substance",
+    "nbt": "{substance:\"cookbook_of_babel:country_roast_chicken_step_6\"}"
   }
 }

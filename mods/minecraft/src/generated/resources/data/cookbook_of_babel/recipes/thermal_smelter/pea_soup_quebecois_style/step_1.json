@@ -1,0 +1,38 @@
+{
+  "type": "thermal:smelter",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "thermal_expansion"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/ham_roast_roast"
+    },
+    {
+      "type": "forge:false"
+    }
+  ],
+  "energy": 14000,
+  "ingredients": [
+    {
+      "value": [
+        {
+          "type": "forge:partial_nbt",
+          "item": "cookbook_of_babel:substance",
+          "nbt": "{substance:\"cookbook_of_babel:ham_roast\"}"
+        },
+        {
+          "tag": "cookbook_of_babel:ingredients/ham_roast"
+        }
+      ]
+    }
+  ],
+  "result": [
+    {
+      "count": 1,
+      "item": "cookbook_of_babel:substance",
+      "nbt": "{substance:\"cookbook_of_babel:ham_roast_roast\"}"
+    }
+  ]
+}

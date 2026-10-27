@@ -8,9 +8,22 @@
     {
       "type": "forge:tag_empty",
       "tag": "cookbook_of_babel:external/grandma_s_pie_crust_step_2"
+    },
+    {
+      "type": "forge:false"
     }
   ],
   "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:portion",
+        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:bulk\",Tag:{substance:\"cookbook_of_babel:grandma_s_pie_crust_step_1\"}}}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/grandma_s_pie_crust_step_1"
+      }
+    ],
     [
       {
         "type": "forge:partial_nbt",
@@ -32,14 +45,7 @@
       }
     ],
     {
-      "amount": 281,
-      "fluid": "cookbook_of_babel:bulk",
-      "nbt": {
-        "substance": "cookbook_of_babel:grandma_s_pie_crust_step_1"
-      }
-    },
-    {
-      "amount": 30,
+      "amount": 26,
       "fluid": "cookbook_of_babel:liquid",
       "nbt": {
         "substance": "cookbook_of_babel:water"
@@ -49,7 +55,7 @@
   "processingTime": 20,
   "results": [
     {
-      "amount": 100,
+      "amount": 87,
       "fluid": "cookbook_of_babel:liquid",
       "nbt": "{substance:\"cookbook_of_babel:grandma_s_pie_crust_step_2\"}"
     }

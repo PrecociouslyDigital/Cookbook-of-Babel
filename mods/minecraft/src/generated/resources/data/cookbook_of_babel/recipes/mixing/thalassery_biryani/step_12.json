@@ -1,0 +1,60 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/thalassery_biryani_step_12"
+    },
+    {
+      "type": "forge:false"
+    }
+  ],
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:thalassery_biryani_step_11\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/thalassery_biryani_step_11"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:portion",
+        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:liquid\",Tag:{substance:\"cookbook_of_babel:yellow_orange_artificial_food_colour\"}}}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/yellow_orange_artificial_food_colour"
+      }
+    ],
+    {
+      "amount": 4,
+      "fluid": "cookbook_of_babel:liquid",
+      "nbt": {
+        "substance": "cookbook_of_babel:saffron_soak"
+      }
+    },
+    {
+      "amount": 13,
+      "fluid": "cookbook_of_babel:liquid",
+      "nbt": {
+        "substance": "cookbook_of_babel:edible_rose_water"
+      }
+    }
+  ],
+  "processingTime": 20,
+  "results": [
+    {
+      "amount": 87,
+      "fluid": "cookbook_of_babel:bulk",
+      "nbt": "{substance:\"cookbook_of_babel:thalassery_biryani_step_12\"}"
+    }
+  ]
+}

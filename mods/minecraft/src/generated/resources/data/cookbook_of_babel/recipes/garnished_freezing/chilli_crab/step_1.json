@@ -1,0 +1,33 @@
+{
+  "type": "garnished:freezing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "garnished"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/crab_freeze_freeze"
+    }
+  ],
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:crab_freeze\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/crab_freeze"
+      }
+    ]
+  ],
+  "results": [
+    {
+      "item": "cookbook_of_babel:substance",
+      "nbt": {
+        "substance": "cookbook_of_babel:crab_freeze_freeze"
+      }
+    }
+  ]
+}

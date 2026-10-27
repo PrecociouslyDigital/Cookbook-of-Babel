@@ -1,0 +1,46 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/dharwad_pedha_sweetened_paneer_cheese_step_4"
+    }
+  ],
+  "heatRequirement": "heated",
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:dharwad_pedha_sweetened_paneer_cheese_step_3\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/dharwad_pedha_sweetened_paneer_cheese_step_3"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:portion",
+        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:liquid\",Tag:{substance:\"cookbook_of_babel:clarified_butter_heat\"}}}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/clarified_butter_heat"
+      }
+    ]
+  ],
+  "processingTime": 20,
+  "results": [
+    {
+      "count": 13,
+      "item": "cookbook_of_babel:substance",
+      "nbt": {
+        "substance": "cookbook_of_babel:dharwad_pedha_sweetened_paneer_cheese_step_4"
+      }
+    }
+  ]
+}

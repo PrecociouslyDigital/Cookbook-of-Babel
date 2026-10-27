@@ -7,28 +7,25 @@
     },
     {
       "type": "forge:tag_empty",
-      "tag": "cookbook_of_babel:external/milk_evaporate"
+      "tag": "cookbook_of_babel:external/milk_boil_evaporate"
     }
   ],
   "heatRequirement": "heated",
   "ingredients": [
-    [
-      {
-        "type": "forge:partial_nbt",
-        "item": "cookbook_of_babel:portion",
-        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:liquid\",Tag:{substance:\"cookbook_of_babel:milk\"}}}"
-      },
-      {
-        "tag": "cookbook_of_babel:ingredients/milk"
+    {
+      "amount": 31,
+      "fluid": "cookbook_of_babel:liquid",
+      "nbt": {
+        "substance": "cookbook_of_babel:milk_boil"
       }
-    ]
+    }
   ],
   "processingTime": 20,
   "results": [
     {
-      "amount": 258,
+      "amount": 31,
       "fluid": "cookbook_of_babel:liquid",
-      "nbt": "{substance:\"cookbook_of_babel:milk_evaporate\"}"
+      "nbt": "{substance:\"cookbook_of_babel:milk_boil_evaporate\"}"
     }
   ]
 }

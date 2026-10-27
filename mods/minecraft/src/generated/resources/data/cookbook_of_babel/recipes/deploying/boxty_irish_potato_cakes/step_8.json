@@ -1,0 +1,49 @@
+{
+  "type": "create:deploying",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/boxty_irish_potato_cakes_step_8"
+    }
+  ],
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:portion",
+        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:liquid\",Tag:{substance:\"cookbook_of_babel:boxty_irish_potato_cakes_step_6\"}}}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/boxty_irish_potato_cakes_step_6"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:portion",
+        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:liquid\",Tag:{substance:\"cookbook_of_babel:butter_boil\"}}}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/butter_boil"
+      }
+    ]
+  ],
+  "results": [
+    {
+      "item": "cookbook_of_babel:portion",
+      "nbt": {
+        "Fluid": {
+          "Amount": 250,
+          "FluidName": "cookbook_of_babel:liquid",
+          "Tag": {
+            "substance": "cookbook_of_babel:boxty_irish_potato_cakes_step_8"
+          }
+        }
+      }
+    }
+  ]
+}

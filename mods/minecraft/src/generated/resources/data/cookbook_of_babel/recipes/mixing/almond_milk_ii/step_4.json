@@ -7,18 +7,18 @@
     },
     {
       "type": "forge:tag_empty",
-      "tag": "cookbook_of_babel:external/almond_milk_ii"
+      "tag": "cookbook_of_babel:external/almond_milk_ii_step_4"
     }
   ],
   "ingredients": [
     [
       {
         "type": "forge:partial_nbt",
-        "item": "cookbook_of_babel:substance",
-        "nbt": "{substance:\"cookbook_of_babel:date\"}"
+        "item": "cookbook_of_babel:portion",
+        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:liquid\",Tag:{substance:\"cookbook_of_babel:almond_milk_ii_step_3\"}}}"
       },
       {
-        "tag": "cookbook_of_babel:ingredients/date"
+        "tag": "cookbook_of_babel:ingredients/almond_milk_ii_step_3"
       }
     ],
     [
@@ -41,18 +41,23 @@
         "tag": "cookbook_of_babel:ingredients/date"
       }
     ],
-    {
-      "amount": 237,
-      "fluid": "cookbook_of_babel:liquid",
-      "nbt": {
-        "substance": "cookbook_of_babel:almond_milk_ii_step_3"
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:date\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/date"
       }
-    }
+    ]
   ],
   "processingTime": 20,
   "results": [
     {
-      "item": "cookbook_of_babel:almond_milk_ii"
+      "amount": 92,
+      "fluid": "cookbook_of_babel:liquid",
+      "nbt": "{substance:\"cookbook_of_babel:almond_milk_ii_step_4\"}"
     }
   ]
 }

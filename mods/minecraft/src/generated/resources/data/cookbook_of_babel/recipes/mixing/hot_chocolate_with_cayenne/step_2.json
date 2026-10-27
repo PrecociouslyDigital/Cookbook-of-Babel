@@ -8,19 +8,12 @@
     {
       "type": "forge:tag_empty",
       "tag": "cookbook_of_babel:external/hot_chocolate_with_cayenne_step_2"
+    },
+    {
+      "type": "forge:false"
     }
   ],
   "ingredients": [
-    [
-      {
-        "type": "forge:partial_nbt",
-        "item": "cookbook_of_babel:portion",
-        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:liquid\",Tag:{substance:\"cookbook_of_babel:chocolate_heat\"}}}"
-      },
-      {
-        "tag": "cookbook_of_babel:ingredients/chocolate_heat"
-      }
-    ],
     [
       {
         "type": "forge:partial_nbt",
@@ -30,12 +23,19 @@
       {
         "tag": "cookbook_of_babel:ingredients/cayenne_pepper"
       }
-    ]
+    ],
+    {
+      "amount": 2,
+      "fluid": "cookbook_of_babel:liquid",
+      "nbt": {
+        "substance": "cookbook_of_babel:chocolate_chop_steam"
+      }
+    }
   ],
   "processingTime": 20,
   "results": [
     {
-      "amount": 252,
+      "amount": 2,
       "fluid": "cookbook_of_babel:liquid",
       "nbt": "{substance:\"cookbook_of_babel:hot_chocolate_with_cayenne_step_2\"}"
     }

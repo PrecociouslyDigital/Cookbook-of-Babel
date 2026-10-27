@@ -8,6 +8,9 @@
     {
       "type": "forge:tag_empty",
       "tag": "cookbook_of_babel:external/dutch_apple_fritters_oliebollen_step_7"
+    },
+    {
+      "type": "forge:false"
     }
   ],
   "heatRequirement": "heated",
@@ -16,37 +19,24 @@
       {
         "type": "forge:partial_nbt",
         "item": "cookbook_of_babel:portion",
-        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:bulk\",Tag:{substance:\"cookbook_of_babel:dutch_apple_fritters_oliebollen_step_5\"}}}"
+        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:liquid\",Tag:{substance:\"cookbook_of_babel:vegetable_oil_boil\"}}}"
       },
       {
-        "tag": "cookbook_of_babel:ingredients/dutch_apple_fritters_oliebollen_step_5"
+        "tag": "cookbook_of_babel:ingredients/vegetable_oil_boil"
       }
     ],
-    [
-      {
-        "type": "forge:partial_nbt",
-        "item": "cookbook_of_babel:portion",
-        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:bulk\",Tag:{substance:\"cookbook_of_babel:dutch_apple_fritters_oliebollen_step_5\"}}}"
-      },
-      {
-        "tag": "cookbook_of_babel:ingredients/dutch_apple_fritters_oliebollen_step_5"
+    {
+      "amount": 3,
+      "fluid": "cookbook_of_babel:bulk",
+      "nbt": {
+        "substance": "cookbook_of_babel:dutch_apple_fritters_oliebollen_step_5"
       }
-    ],
-    [
-      {
-        "type": "forge:partial_nbt",
-        "item": "cookbook_of_babel:portion",
-        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:liquid\",Tag:{substance:\"cookbook_of_babel:vegetable_oil\"}}}"
-      },
-      {
-        "tag": "cookbook_of_babel:ingredients/vegetable_oil"
-      }
-    ]
+    }
   ],
   "processingTime": 20,
   "results": [
     {
-      "amount": 500,
+      "amount": 3,
       "fluid": "cookbook_of_babel:liquid",
       "nbt": "{substance:\"cookbook_of_babel:dutch_apple_fritters_oliebollen_step_7\"}"
     }

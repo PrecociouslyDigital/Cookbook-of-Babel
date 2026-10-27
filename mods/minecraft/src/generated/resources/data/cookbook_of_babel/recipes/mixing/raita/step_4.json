@@ -8,19 +8,12 @@
     {
       "type": "forge:tag_empty",
       "tag": "cookbook_of_babel:external/raita_step_4"
+    },
+    {
+      "type": "forge:false"
     }
   ],
   "ingredients": [
-    [
-      {
-        "type": "forge:partial_nbt",
-        "item": "cookbook_of_babel:substance",
-        "nbt": "{substance:\"cookbook_of_babel:raita_step_3\"}"
-      },
-      {
-        "tag": "cookbook_of_babel:ingredients/raita_step_3"
-      }
-    ],
     [
       {
         "type": "forge:partial_nbt",
@@ -30,12 +23,19 @@
       {
         "tag": "cookbook_of_babel:ingredients/salt"
       }
-    ]
+    ],
+    {
+      "amount": 3,
+      "fluid": "cookbook_of_babel:liquid",
+      "nbt": {
+        "substance": "cookbook_of_babel:raita_step_3"
+      }
+    }
   ],
   "processingTime": 20,
   "results": [
     {
-      "amount": 100,
+      "amount": 3,
       "fluid": "cookbook_of_babel:liquid",
       "nbt": "{substance:\"cookbook_of_babel:raita_step_4\"}"
     }

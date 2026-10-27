@@ -8,23 +8,44 @@
     {
       "type": "forge:tag_empty",
       "tag": "cookbook_of_babel:external/radish_tart_step_3"
-    },
-    {
-      "type": "forge:false"
     }
   ],
   "ingredients": [
-    {
-      "amount": 396,
-      "fluid": "cookbook_of_babel:bulk",
-      "nbt": {
-        "substance": "cookbook_of_babel:radish_tart_step_2"
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:portion",
+        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:bulk\",Tag:{substance:\"cookbook_of_babel:radish_tart_step_2\"}}}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/radish_tart_step_2"
       }
-    }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:portion",
+        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:bulk\",Tag:{substance:\"cookbook_of_babel:radish_tart_step_2\"}}}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/radish_tart_step_2"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:portion",
+        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:bulk\",Tag:{substance:\"cookbook_of_babel:radish_tart_step_2\"}}}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/radish_tart_step_2"
+      }
+    ]
   ],
   "processingTime": 20,
   "results": [
     {
+      "count": 2,
       "item": "cookbook_of_babel:substance",
       "nbt": {
         "substance": "cookbook_of_babel:radish_tart_step_3"

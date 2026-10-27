@@ -1,0 +1,49 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/swedish_meatballs_ii_step_2"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:swedish_meatballs_ii_step_1\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/swedish_meatballs_ii_step_1"
+      }
+    ],
+    {
+      "amount": 182,
+      "fluid": "cookbook_of_babel:bulk",
+      "nbt": {
+        "substance": "cookbook_of_babel:bread_crumbs_soak"
+      }
+    },
+    {
+      "amount": 30,
+      "fluid": "minecraft:milk",
+      "nbt": {}
+    }
+  ],
+  "processingTime": 20,
+  "results": [
+    {
+      "amount": 561,
+      "fluid": "cookbook_of_babel:liquid",
+      "nbt": "{substance:\"cookbook_of_babel:swedish_meatballs_ii_step_2\"}"
+    }
+  ]
+}
