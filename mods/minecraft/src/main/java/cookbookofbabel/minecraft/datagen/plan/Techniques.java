@@ -52,7 +52,7 @@ public final class Techniques {
             bind("mix", CREATE_MIXING, SHAPELESS_CRAFTING, HEXEREI_MIXING_CAULDRON),
             bind("whisk", CREATE_MIXING),
             bind("blend", CREATE_MIXING),
-            bind("heat", CREATE_HEATED_MIXING, FD_COOKING_POT),
+            bind("heat", CREATE_HEATED_MIXING, FD_COOKING_POT, HEXEREI_MIXING_CAULDRON),
             bind("bake", SMELTING, SMOKING),
             bind("roast", SMELTING, SMOKING, THERMAL_SMELTER),
             bind("toast", SMELTING, SMOKING, THERMAL_SMELTER),

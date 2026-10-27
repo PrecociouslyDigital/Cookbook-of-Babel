@@ -1,0 +1,40 @@
+{
+  "type": "hexerei:mixingcauldron",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "hexerei"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/faten_wake_hausa_bean_porridge_step_2"
+    }
+  ],
+  "fluidLevelsConsumed": 1,
+  "heatRequirement": "heated",
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:pulses_rinse_rinse\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/pulses_rinse_rinse"
+      }
+    ]
+  ],
+  "liquid": {
+    "amount": 1,
+    "fluid": "minecraft:water"
+  },
+  "liquidOutput": {
+    "amount": 1,
+    "fluid": "minecraft:water"
+  },
+  "output": {
+    "count": 1,
+    "item": "cookbook_of_babel:substance",
+    "nbt": "{substance:\"cookbook_of_babel:faten_wake_hausa_bean_porridge_step_2\"}"
+  }
+}

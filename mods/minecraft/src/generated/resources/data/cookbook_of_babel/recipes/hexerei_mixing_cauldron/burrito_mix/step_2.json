@@ -1,0 +1,100 @@
+{
+  "type": "hexerei:mixingcauldron",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "hexerei"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/burrito_mix_step_2"
+    }
+  ],
+  "fluidLevelsConsumed": 354,
+  "heatRequirement": "heated",
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:burrito_mix_step_1\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/burrito_mix_step_1"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:common_bean_rinse\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/common_bean_rinse"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:corn\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/corn"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:tomato\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/tomato"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:portion",
+        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:liquid\",Tag:{substance:\"cookbook_of_babel:salsa\"}}}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/salsa"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:portion",
+        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:bulk\",Tag:{substance:\"cookbook_of_babel:rice\"}}}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/rice"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:portion",
+        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:bulk\",Tag:{substance:\"cookbook_of_babel:taco_seasoning\"}}}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/taco_seasoning"
+      }
+    ]
+  ],
+  "liquid": {
+    "amount": 354,
+    "fluid": "minecraft:water"
+  },
+  "liquidOutput": {
+    "amount": 354,
+    "fluid": "minecraft:water"
+  },
+  "output": {
+    "count": 1,
+    "item": "cookbook_of_babel:substance",
+    "nbt": "{substance:\"cookbook_of_babel:burrito_mix_step_2\"}"
+  }
+}

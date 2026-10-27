@@ -1,0 +1,50 @@
+{
+  "type": "hexerei:mixingcauldron",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "hexerei"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/onion_dip_step_3"
+    }
+  ],
+  "fluidLevelsConsumed": 52,
+  "heatRequirement": "heated",
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:onion_dip_step_2\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/onion_dip_step_2"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:dehydrated_broth\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/dehydrated_broth"
+      }
+    ]
+  ],
+  "liquid": {
+    "amount": 52,
+    "fluid": "minecraft:water"
+  },
+  "liquidOutput": {
+    "amount": 52,
+    "fluid": "minecraft:water"
+  },
+  "output": {
+    "count": 1,
+    "item": "cookbook_of_babel:substance",
+    "nbt": "{substance:\"cookbook_of_babel:onion_dip_step_3\"}"
+  }
+}

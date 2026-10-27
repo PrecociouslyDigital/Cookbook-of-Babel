@@ -1,0 +1,44 @@
+{
+  "type": "hexerei:mixingcauldron",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "hexerei"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/beer_cheese_risotto_step_3"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "brewinandchewin"
+    }
+  ],
+  "fluidLevelsConsumed": 258,
+  "heatRequirement": "heated",
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:portion",
+        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:bulk\",Tag:{substance:\"cookbook_of_babel:beer_cheese_risotto_step_2\"}}}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/beer_cheese_risotto_step_2"
+      }
+    ]
+  ],
+  "liquid": {
+    "amount": 258,
+    "fluid": "brewinandchewin:beer"
+  },
+  "liquidOutput": {
+    "amount": 258,
+    "fluid": "brewinandchewin:beer"
+  },
+  "output": {
+    "count": 2,
+    "item": "cookbook_of_babel:substance",
+    "nbt": "{substance:\"cookbook_of_babel:beer_cheese_risotto_step_3\"}"
+  }
+}
