@@ -1,0 +1,45 @@
+{
+  "id": "whipped_cream.sour",
+  "source": "foodkeeper",
+  "technique": "sour",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "whipped_cream",
+        "amount": {
+          "qty": 100,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "spoiled_food",
+      "amount": {
+        "qty": 100,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 24.2,
+      "unit": "d"
+    },
+    "sensitivity": {
+      "refTempC": 4,
+      "q10": 3,
+      "minWaterActivity": 0.88,
+      "minTempC": 0
+    }
+  },
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "FoodKeeper's Whipped cream (aerosol can): 3–4 weeks in the fridge, as bought; the geometric mean at 4 °C, with the default q10 for sour; matched judged by Jev, 99% sure of the category and 86% of the product"
+    }
+  ]
+}

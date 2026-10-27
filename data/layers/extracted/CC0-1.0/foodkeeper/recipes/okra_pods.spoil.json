@@ -1,0 +1,45 @@
+{
+  "id": "okra_pods.spoil",
+  "source": "foodkeeper",
+  "technique": "spoil",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "okra_pods",
+        "amount": {
+          "qty": 100,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "spoiled_food",
+      "amount": {
+        "qty": 100,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "d"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1.75,
+      "minWaterActivity": 0.91,
+      "minTempC": 0
+    }
+  },
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "FoodKeeper's Okra: 1 days in the pantry and 2–3 days in the fridge, as bought; the geometric means at 20 °C and 4 °C fix q10; matched judged by Jev, 100% sure of the category and 100% of the product"
+    }
+  ]
+}

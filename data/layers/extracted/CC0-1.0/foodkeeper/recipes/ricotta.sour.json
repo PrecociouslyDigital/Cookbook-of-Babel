@@ -1,0 +1,45 @@
+{
+  "id": "ricotta.sour",
+  "source": "foodkeeper",
+  "technique": "sour",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "ricotta",
+        "amount": {
+          "qty": 100,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "spoiled_food",
+      "amount": {
+        "qty": 100,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 14,
+      "unit": "d"
+    },
+    "sensitivity": {
+      "refTempC": 4,
+      "q10": 3,
+      "minWaterActivity": 0.88,
+      "minTempC": 0
+    }
+  },
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "FoodKeeper's Ricotta: 2 weeks in the fridge, as bought; the geometric mean at 4 °C, with the default q10 for sour; matched judged by Jev, 100% sure of the category and 99% of the product"
+    }
+  ]
+}

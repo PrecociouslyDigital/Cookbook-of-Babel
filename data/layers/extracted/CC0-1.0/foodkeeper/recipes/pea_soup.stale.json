@@ -1,0 +1,44 @@
+{
+  "id": "pea_soup.stale",
+  "source": "foodkeeper",
+  "technique": "stale",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "pea_soup",
+        "amount": {
+          "qty": 100,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "spoiled_food",
+      "amount": {
+        "qty": 100,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1160,
+      "unit": "d"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1,
+      "minTempC": 0
+    }
+  },
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "FoodKeeper's Canned goods (low acid (such as meat, poultry, fish, gravy, stew, soups, beans, carrots, corn, pasta, peas, potatoes, spinach)): 2–5 years in the pantry, as bought; the geometric mean at 20 °C, with the default q10 for stale; matched judged by Jev, 76% sure of the category and 91% of the product"
+    }
+  ]
+}

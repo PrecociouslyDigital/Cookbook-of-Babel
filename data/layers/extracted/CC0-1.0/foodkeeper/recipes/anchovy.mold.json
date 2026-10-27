@@ -1,0 +1,45 @@
+{
+  "id": "anchovy.mold",
+  "source": "foodkeeper",
+  "technique": "mold",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "anchovy",
+        "amount": {
+          "qty": 100,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "spoiled_food",
+      "amount": {
+        "qty": 100,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1830,
+      "unit": "d"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 2.5,
+      "minWaterActivity": 0.8,
+      "minTempC": 0
+    }
+  },
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "FoodKeeper's Anchovies (canned): 5 years in the pantry, as bought; the geometric mean at 20 °C, with the default q10 for mold; matched judged by Jev, 96% sure of the category and 100% of the product"
+    }
+  ]
+}

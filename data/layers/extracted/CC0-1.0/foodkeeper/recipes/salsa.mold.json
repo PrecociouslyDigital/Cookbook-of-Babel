@@ -1,0 +1,45 @@
+{
+  "id": "salsa.mold",
+  "source": "foodkeeper",
+  "technique": "mold",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "salsa",
+        "amount": {
+          "qty": 100,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "spoiled_food",
+      "amount": {
+        "qty": 100,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 365,
+      "unit": "d"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 2.5,
+      "minWaterActivity": 0.8,
+      "minTempC": 0
+    }
+  },
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "FoodKeeper's Salsa (picante and taco sauces): 1 years in the pantry, as bought; the geometric mean at 20 °C, with the default q10 for mold; matched judged by Jev, 98% sure of the category and 97% of the product"
+    }
+  ]
+}

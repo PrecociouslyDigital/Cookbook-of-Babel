@@ -12,10 +12,11 @@ where
 
 import Babel.Codec (IsId (..))
 import Babel.Diagnostic (Diagnostic, errorIn, warningIn)
+import Babel.Lineage (ancestors)
 import Babel.Load (Located (..), World (..))
 import Babel.Mass (massInGrams)
 import Babel.Model.Common (Amount (..))
-import Babel.Model.Constants (Constants (..), KcalPerGram (..), RatioBounds (..), Tolerance (..))
+import Babel.Model.Constants (Constants (..), KcalPerGram (..), RatioBounds (..), SpoilageKinetics (..), Tolerance (..))
 import Babel.Model.Dataset (Dataset (..), EntityKind (..), Rename (..), entityKindName, renderVersion)
 import Babel.Model.Id (SourceId)
 import Babel.Model.Ingredient (Ingredient (..), IsA (..))
@@ -351,8 +352,20 @@ constantsChecks w c =
         ++ [ errorIn "constants" (Just p) "negligibleMassFraction must be within [0, 1)"
            | c.negligibleMassFraction < 0 || c.negligibleMassFraction >= 1
            ]
+        ++ concatMap kineticsChecks (Map.toList c.spoilageKinetics)
   where
     p = "registries/constants.json"
+    kineticsChecks (t, k)
+        | not (Map.member t w.techniques) = ref p "spoilage kinetics technique" w.techniques t
+        | otherwise =
+            [ errorIn "constants" (Just p) ("spoilageKinetics." <> idText t <> ": " <> msg)
+            | (bad, msg) <-
+                [ (c.spoilageTechnique `notElem` ancestors w t, "not a spoilage technique")
+                , (k.q10 <= 0, "q10 must be positive")
+                , (any (\aw -> aw < 0 || aw > 1) k.minWaterActivity, "minWaterActivity must be within 0-1")
+                ]
+            , bad
+            ]
 
 -- * Soft checks
 

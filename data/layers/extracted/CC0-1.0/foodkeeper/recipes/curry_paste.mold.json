@@ -1,0 +1,45 @@
+{
+  "id": "curry_paste.mold",
+  "source": "foodkeeper",
+  "technique": "mold",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "curry_paste",
+        "amount": {
+          "qty": 100,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "spoiled_food",
+      "amount": {
+        "qty": 100,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 730,
+      "unit": "d"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 2.5,
+      "minWaterActivity": 0.8,
+      "minTempC": 0
+    }
+  },
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "FoodKeeper's Thai red curry paste: 2 years in the pantry, as bought; the geometric mean at 20 °C, with the default q10 for mold; matched judged by Jev, 100% sure of the category and 99% of the product"
+    }
+  ]
+}

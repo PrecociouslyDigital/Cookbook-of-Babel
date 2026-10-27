@@ -1,0 +1,44 @@
+{
+  "id": "pine_nut.rancid",
+  "source": "foodkeeper",
+  "technique": "rancid",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "pine_nut",
+        "amount": {
+          "qty": 100,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "spoiled_food",
+      "amount": {
+        "qty": 100,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 17.1,
+      "unit": "d"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 2.84,
+      "minTempC": 0
+    }
+  },
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "FoodKeeper's Pine nuts: 2–3 weeks in the pantry and 3 months in the fridge, as bought; the geometric means at 20 °C and 4 °C fix q10; matched judged by Jev, 100% sure of the category and 99% of the product"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": "ground_meat.freezer_burn",
+  "source": "foodkeeper",
+  "technique": "freezer_burn",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "ground_meat",
+        "amount": {
+          "qty": 100,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "spoiled_food",
+      "amount": {
+        "qty": 100,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 105,
+      "unit": "d"
+    },
+    "sensitivity": {
+      "refTempC": -18,
+      "q10": 3,
+      "maxTempC": 0
+    }
+  },
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "FoodKeeper's Beef (ground): 3–4 months in the freezer, as bought; the geometric mean at -18 °C, with the default q10 for freezer_burn; matched judged by Jev, 93% sure of the category and 66% of the product"
+    }
+  ]
+}

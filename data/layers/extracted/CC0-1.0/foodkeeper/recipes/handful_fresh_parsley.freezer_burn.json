@@ -1,0 +1,44 @@
+{
+  "id": "handful_fresh_parsley.freezer_burn",
+  "source": "foodkeeper",
+  "technique": "freezer_burn",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "handful_fresh_parsley",
+        "amount": {
+          "qty": 100,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "spoiled_food",
+      "amount": {
+        "qty": 100,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 105,
+      "unit": "d"
+    },
+    "sensitivity": {
+      "refTempC": -18,
+      "q10": 3,
+      "maxTempC": 0
+    }
+  },
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "FoodKeeper's Parsley (fresh): 3–4 months in the freezer, as bought; the geometric mean at -18 °C, with the default q10 for freezer_burn; matched judged by Jev, 100% sure of the category and 98% of the product"
+    }
+  ]
+}

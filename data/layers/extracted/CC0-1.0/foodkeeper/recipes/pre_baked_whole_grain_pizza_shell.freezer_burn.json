@@ -1,0 +1,44 @@
+{
+  "id": "pre_baked_whole_grain_pizza_shell.freezer_burn",
+  "source": "foodkeeper",
+  "technique": "freezer_burn",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "pre_baked_whole_grain_pizza_shell",
+        "amount": {
+          "qty": 100,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "spoiled_food",
+      "amount": {
+        "qty": 100,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 365,
+      "unit": "d"
+    },
+    "sensitivity": {
+      "refTempC": -18,
+      "q10": 3,
+      "maxTempC": 0
+    }
+  },
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "FoodKeeper's Pizza (frozen): 12 months in the freezer, as bought; the geometric mean at -18 °C, with the default q10 for freezer_burn; matched judged by Jev, 63% sure of the category and 88% of the product"
+    }
+  ]
+}

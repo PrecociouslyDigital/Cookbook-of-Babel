@@ -1,6 +1,7 @@
 -- | Judgement-call numbers, loaded from @registries/constants.json@.
 module Babel.Model.Constants (
     Constants (..),
+    SpoilageKinetics (..),
     KcalPerGram (..),
     Tolerance (..),
     RatioBounds (..),
@@ -35,10 +36,21 @@ data Constants = Constants
     -- ^ Plausible output/input mass ratio of one step; outside it, a warning.
     , negligibleMassFraction :: Double
     -- ^ An input lighter than this share of a step's inputs may lack nutrition when it is inferred.
+    , spoilageKinetics :: Map TechniqueId SpoilageKinetics
+    -- ^ By spoilage technique: how its rate scales, for sources that state a time but not that.
     }
     deriving stock (Eq, Generic, Show)
 
 instance HasCodec Constants where codec = genericCodec
+
+{- | The defaults for a spoilage technique's 'Babel.Model.Recipe.Sensitivity':
+its Q10, and the least water activity at which it proceeds, if it is
+microbial.
+-}
+data SpoilageKinetics = SpoilageKinetics {q10 :: Double, minWaterActivity :: Maybe Double}
+    deriving stock (Eq, Generic, Show)
+
+instance HasCodec SpoilageKinetics where codec = genericCodec
 
 data KcalPerGram = KcalPerGram {protein :: Double, carbs :: Double, fat :: Double}
     deriving stock (Eq, Generic, Show)

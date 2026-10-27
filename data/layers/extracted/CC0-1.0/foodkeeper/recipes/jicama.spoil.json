@@ -1,0 +1,45 @@
+{
+  "id": "jicama.spoil",
+  "source": "foodkeeper",
+  "technique": "spoil",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "jicama",
+        "amount": {
+          "qty": 100,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "spoiled_food",
+      "amount": {
+        "qty": 100,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 122,
+      "unit": "d"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 0.294,
+      "minWaterActivity": 0.91,
+      "minTempC": 0
+    }
+  },
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "FoodKeeper's Jicama (fresh): 4 months in the pantry and 2–3 weeks in the fridge, as bought; the geometric means at 20 °C and 4 °C fix q10; matched judged by Jev, 100% sure of the category and 100% of the product"
+    }
+  ]
+}

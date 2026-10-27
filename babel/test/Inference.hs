@@ -6,7 +6,7 @@ module Inference (inferenceProps) where
 import Babel.Layout (Layer (..))
 import Babel.Load (Located (..), World (..))
 import Babel.Mass (Yield (..), massIn, yields)
-import Babel.Model (Amount (..), Constants, Dimension (..), End (..), IngredientId (..), Leaf (..), Measure (..), MeasureValue (..), Origin (..), Outcome (..), Output (..), Per100g (..), Recipe (..), RecipeId (..), Role (..), Select (..), SourceId (..), TechniqueId (..), Unit (..), UnitId (..), leaves, measureKey)
+import Babel.Model (Amount (..), Constants, Dimension (..), End (..), IngredientId (..), Leaf (..), Measure (..), MeasureValue (..), Origin (..), Outcome (..), Output (..), Per100g (..), Recipe (..), RecipeId (..), Role (..), Select (..), SourceId (..), Technique (..), TechniqueId (..), Unit (..), UnitId (..), leaves, measureKey)
 import Babel.Nutrition (Derived (..), derivedPer100g, nutritionOf, nutritionTable)
 import Data.Graph (SCC (..), flattenSCC, graphFromEdges, reachable, stronglyConnComp, vertices)
 import Data.Map.Strict qualified as Map
@@ -84,7 +84,7 @@ stated :: Text -> Per100g -> Measure
 stated i n = Measure (IngredientId i) (SourceId "s") (Nutrition n) []
 
 constants :: Gen Constants
-constants = genConstants [TechniqueId "t"]
+constants = genConstants [Technique (TechniqueId "t") "t" [] Nothing []]
 
 mass :: Gen Double
 mass = Gen.double (Range.linearFrac 1 1000)

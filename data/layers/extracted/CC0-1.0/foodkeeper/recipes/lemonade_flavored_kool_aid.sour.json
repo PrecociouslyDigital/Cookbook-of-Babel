@@ -1,0 +1,45 @@
+{
+  "id": "lemonade_flavored_kool_aid.sour",
+  "source": "foodkeeper",
+  "technique": "sour",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "lemonade_flavored_kool_aid",
+        "amount": {
+          "qty": 100,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "spoiled_food",
+      "amount": {
+        "qty": 100,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 633,
+      "unit": "d"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 3,
+      "minWaterActivity": 0.88,
+      "minTempC": 0
+    }
+  },
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "FoodKeeper's Diet powder mixes and drink mixes: 18–24 months in the pantry, as bought; the geometric mean at 20 °C, with the default q10 for sour; matched judged by Jev, 99% sure of the category and 93% of the product"
+    }
+  ]
+}

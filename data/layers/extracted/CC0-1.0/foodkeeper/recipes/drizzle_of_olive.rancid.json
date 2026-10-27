@@ -1,0 +1,44 @@
+{
+  "id": "drizzle_of_olive.rancid",
+  "source": "foodkeeper",
+  "technique": "rancid",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "drizzle_of_olive",
+        "amount": {
+          "qty": 100,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "spoiled_food",
+      "amount": {
+        "qty": 100,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 258,
+      "unit": "d"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 2,
+      "minTempC": 0
+    }
+  },
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "FoodKeeper's Oils (olive or vegetable): 6–12 months in the pantry, as bought; the geometric mean at 20 °C, with the default q10 for rancid; matched judged by Jev, 68% sure of the category and 100% of the product"
+    }
+  ]
+}

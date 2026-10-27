@@ -1,0 +1,44 @@
+{
+  "id": "agave_syrup.stale",
+  "source": "foodkeeper",
+  "technique": "stale",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "agave_syrup",
+        "amount": {
+          "qty": 100,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "spoiled_food",
+      "amount": {
+        "qty": 100,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 365,
+      "unit": "d"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1,
+      "minTempC": 0
+    }
+  },
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "FoodKeeper's Syrup: 1 years in the pantry, as bought; the geometric mean at 20 °C, with the default q10 for stale; matched judged by Jev, 84% sure of the category and 88% of the product"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "id": "garlic_cloves.spoil",
+  "source": "foodkeeper",
+  "technique": "spoil",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "garlic_cloves",
+        "amount": {
+          "qty": 100,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "spoiled_food",
+      "amount": {
+        "qty": 100,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 30.4,
+      "unit": "d"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 0.38,
+      "minWaterActivity": 0.91,
+      "minTempC": 0
+    }
+  },
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "FoodKeeper's Garlic: 1 months in the pantry and 3–14 days in the fridge, as bought; the geometric means at 20 °C and 4 °C fix q10; matched judged by Jev, 99% sure of the category and 100% of the product"
+    }
+  ]
+}

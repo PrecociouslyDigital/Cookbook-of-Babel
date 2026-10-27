@@ -1,0 +1,45 @@
+{
+  "id": "day_old_corn_tortillas.mold",
+  "source": "foodkeeper",
+  "technique": "mold",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "day_old_corn_tortillas",
+        "amount": {
+          "qty": 100,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "spoiled_food",
+      "amount": {
+        "qty": 100,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 33.5,
+      "unit": "d"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1.63,
+      "minWaterActivity": 0.8,
+      "minTempC": 0
+    }
+  },
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "FoodKeeper's Tortillas (corn): 25–45 days in the pantry and 60–90 days in the fridge, as bought; the geometric means at 20 °C and 4 °C fix q10; matched judged by Jev, 97% sure of the category and 99% of the product"
+    }
+  ]
+}

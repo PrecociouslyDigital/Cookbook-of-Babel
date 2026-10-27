@@ -21,7 +21,7 @@ import Babel.Export (Export (..), exportWorld)
 import Babel.Format (render)
 import Babel.Layout (Axis (..), Kind (..), Layer (..), axes, placementFolders, placements)
 import Babel.Load (Located (..), World (..))
-import Babel.Model (Amount (..), AxisId (..), BandEntry (..), Branch (..), Constants (..), Dataset (..), DottedSlug (..), End (..), EntityKind (..), FormId (..), Ingredient (..), IngredientId (..), IsA (..), IsId (..), Issue (..), IssueKind (..), Leaf (..), Measure (..), MeasureValue (..), Outcome (..), Output (..), Per100g (..), Recipe (..), RecipeId (..), Rename (..), Role (..), Select (..), Sensitivity (..), Source (..), SourceId (..), SourceRef (..), Technique (..), TechniqueId (..), Term (..), UnitId (..), Version, bandFromCelsius, isSlug, licenceExpression, measureKey, mkTempBands, originLicence, parseVersion, renderVersion, satisfies, tempBandEntries)
+import Babel.Model (Amount (..), AxisId (..), BandEntry (..), Branch (..), Constants (..), Dataset (..), DottedSlug (..), End (..), EntityKind (..), FormId (..), Ingredient (..), IngredientId (..), IsA (..), IsId (..), Issue (..), IssueKind (..), Leaf (..), Measure (..), MeasureValue (..), Outcome (..), Output (..), Per100g (..), Recipe (..), RecipeId (..), Rename (..), Role (..), Select (..), Sensitivity (..), Source (..), SourceId (..), SourceRef (..), SpoilageKinetics (..), Technique (..), TechniqueId (..), Term (..), UnitId (..), Version, bandFromCelsius, isSlug, licenceExpression, measureKey, mkTempBands, originLicence, parseVersion, renderVersion, satisfies, tempBandEntries)
 import Babel.Nutrition (derivedPer100g, nutritionOf)
 import Babel.Spoilage (Conditions (..), firstSpoilage, timeAt)
 import Babel.Validate (Report (..), validate)
@@ -171,6 +171,8 @@ ruleProps =
     , rule "a duration in a non-time unit" ["dimension"] durationUnit
     , rule "a nutrition measure with no values" ["empty-nutrition"] emptyNutrition
     , rule "a negligible mass fraction outside [0, 1)" ["constants"] badNegligible
+    , rule "spoilage kinetics with a non-positive q10" ["constants"] badKineticsQ10
+    , rule "spoilage kinetics for a technique that is not spoilage" ["constants"] kineticsOutsideSpoilage
     , rule "grams per a unit that is not a count" ["dimension"] gramsPerMass
     , rule "a non-positive grams per unit" ["amount"] gramsPerNonPositive
     , rule "a rename from a slug that still exists" ["rename-from-exists"] renameFromExists
@@ -391,6 +393,21 @@ badNegligible :: Tree -> Gen Tree
 badNegligible t = do
     f <- Gen.choice [Gen.double (Range.linearFrac (-5) (-0.001)), Gen.double (Range.linearFrac 1 5)]
     pure t{consts = let Constants{..} = t.consts in Constants{negligibleMassFraction = f, ..}}
+
+badKineticsQ10 :: Tree -> Gen Tree
+badKineticsQ10 t = do
+    q10 <- Gen.double (Range.linearFrac (-5) 0)
+    pure t{consts = let Constants{..} = t.consts in Constants{spoilageKinetics = Map.insert spoilageTechnique (SpoilageKinetics q10 Nothing) spoilageKinetics, ..}}
+
+kineticsOutsideSpoilage :: Tree -> Gen Tree
+kineticsOutsideSpoilage t = do
+    tech <- TechniqueId <$> freshSlug (techIds t)
+    let outside = [p{entity = Technique tech "unrelated" [] Nothing []} | p <- take 1 t.techs]
+    pure
+        t
+            { techs = t.techs ++ outside
+            , consts = let Constants{..} = t.consts in Constants{spoilageKinetics = Map.insert tech (SpoilageKinetics 2 Nothing) spoilageKinetics, ..}
+            }
 
 emptyNutrition :: Tree -> Gen Tree
 emptyNutrition t = onMeasure isNutrition t $ \Measure{..} -> pure Measure{value = Nutrition (Per100g Nothing Nothing Nothing Nothing), ..}

@@ -1,0 +1,44 @@
+{
+  "id": "brewer_s_yeast.freezer_burn",
+  "source": "foodkeeper",
+  "technique": "freezer_burn",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "brewer_s_yeast",
+        "amount": {
+          "qty": 100,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "spoiled_food",
+      "amount": {
+        "qty": 100,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 183,
+      "unit": "d"
+    },
+    "sensitivity": {
+      "refTempC": -18,
+      "q10": 3,
+      "maxTempC": 0
+    }
+  },
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "FoodKeeper's Yeast (packaged): 6 months in the freezer, as bought; the geometric mean at -18 °C, with the default q10 for freezer_burn; matched judged by Jev, 84% sure of the category and 89% of the product"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": "pecan_halves.rancid",
+  "source": "foodkeeper",
+  "technique": "rancid",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "pecan_halves",
+        "amount": {
+          "qty": 100,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "spoiled_food",
+      "amount": {
+        "qty": 100,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 19.8,
+      "unit": "d"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 5.17,
+      "minTempC": 0
+    }
+  },
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "FoodKeeper's Pecans (no shell): 2–4 weeks in the pantry and 9 months in the fridge, as bought; the geometric means at 20 °C and 4 °C fix q10; matched judged by Jev, 100% sure of the category and 93% of the product"
+    }
+  ]
+}

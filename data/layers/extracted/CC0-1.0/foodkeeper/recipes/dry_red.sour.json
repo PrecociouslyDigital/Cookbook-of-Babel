@@ -1,0 +1,45 @@
+{
+  "id": "dry_red.sour",
+  "source": "foodkeeper",
+  "technique": "sour",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "dry_red",
+        "amount": {
+          "qty": 100,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "spoiled_food",
+      "amount": {
+        "qty": 100,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1410,
+      "unit": "d"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 3,
+      "minWaterActivity": 0.88,
+      "minTempC": 0
+    }
+  },
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "FoodKeeper's Red wine: 3–5 years in the pantry, as bought; the geometric mean at 20 °C, with the default q10 for sour; matched judged by Jev, 94% sure of the category and 99% of the product"
+    }
+  ]
+}

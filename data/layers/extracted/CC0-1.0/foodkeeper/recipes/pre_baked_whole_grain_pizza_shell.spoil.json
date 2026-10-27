@@ -1,0 +1,45 @@
+{
+  "id": "pre_baked_whole_grain_pizza_shell.spoil",
+  "source": "foodkeeper",
+  "technique": "spoil",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "pre_baked_whole_grain_pizza_shell",
+        "amount": {
+          "qty": 100,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "spoiled_food",
+      "amount": {
+        "qty": 100,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 3.46,
+      "unit": "d"
+    },
+    "sensitivity": {
+      "refTempC": 4,
+      "q10": 3,
+      "minWaterActivity": 0.91,
+      "minTempC": 0
+    }
+  },
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "FoodKeeper's Pizza (frozen): 3–4 days in the fridge, as bought; the geometric mean at 4 °C, with the default q10 for spoil; matched judged by Jev, 63% sure of the category and 88% of the product"
+    }
+  ]
+}

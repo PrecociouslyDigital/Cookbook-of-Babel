@@ -33,7 +33,7 @@ module Gen (
 where
 
 import Babel.Layout (Layer (..))
-import Babel.Model (Amount (..), AxisId (..), BandEntry (..), Branch (..), Constants (..), Dataset (..), Dimension (..), DottedSlug (..), End (..), EntityKind (..), Environment (..), FormId (..), Ingredient (..), IngredientId (..), IsA (..), IsId, Issue (..), KcalPerGram (..), Leaf (..), Measure (..), MeasureKey (..), MeasureValue (..), Medium (..), MediumId (..), Outcome (..), Output (..), Per100g (..), RatioBounds (..), Recipe (..), RecipeId (..), Rename (..), Role (..), Select (..), Sensitivity (..), ServingTagId (..), Source (..), SourceId (..), SourceRef (..), StorageTemps (..), TasteAttrId (..), Technique (..), TechniqueId (..), TempBandId (..), TempBands, TempRange (..), Term (..), TextureAttrId (..), Tolerance (..), Unit (..), UnitId (..), Version (..), mkIntensity, mkTempBands, originLicence, renderVersion)
+import Babel.Model (Amount (..), AxisId (..), BandEntry (..), Branch (..), Constants (..), Dataset (..), Dimension (..), DottedSlug (..), End (..), EntityKind (..), Environment (..), FormId (..), Ingredient (..), IngredientId (..), IsA (..), IsId, Issue (..), KcalPerGram (..), Leaf (..), Measure (..), MeasureKey (..), MeasureValue (..), Medium (..), MediumId (..), Outcome (..), Output (..), Per100g (..), RatioBounds (..), Recipe (..), RecipeId (..), Rename (..), Role (..), Select (..), Sensitivity (..), ServingTagId (..), Source (..), SourceId (..), SourceRef (..), SpoilageKinetics (..), StorageTemps (..), TasteAttrId (..), Technique (..), TechniqueId (..), TempBandId (..), TempBands, TempRange (..), Term (..), TextureAttrId (..), Tolerance (..), Unit (..), UnitId (..), Version (..), mkIntensity, mkTempBands, originLicence, renderVersion)
 import Babel.Preparation (Preparation, preparationOf)
 import Data.Map.Strict qualified as Map
 import Data.Set qualified as Set
@@ -158,7 +158,7 @@ genTree = do
         tech <- Technique (TechniqueId t) <$> genText <*> pure parents <*> pure temp <*> Gen.list (Range.linear 0 2) genIssue
         Placed <$> genLayer <*> Gen.enumBounded <*> pure tech
 
-    consts <- genConstants [t.entity.id | t <- techs]
+    consts <- genConstants [t.entity | t <- techs]
     let tree0 = Tree{renameLog = [], recs = [], meas = [], ..}
     recIds <- Set.toList <$> Gen.set (Range.linear 1 6) genDottedSlug
     let genPlaced (placed, made) (n, r) = do
@@ -311,11 +311,14 @@ genRenames v existing = do
   where
     dedupe = Set.toList . Set.fromList
 
-genConstants :: [TechniqueId] -> Gen Constants
-genConstants techIds = do
+-- | Spoilage kinetics only for the spoilage technique and those below it.
+genConstants :: [Technique] -> Gen Constants
+genConstants techs = do
     tempBands <- genTempBands
     storageTempC <- StorageTemps <$> Gen.double (Range.linearFrac 10 30) <*> Gen.double (Range.linearFrac 0 8) <*> Gen.double (Range.linearFrac (-30) (-5))
     spoilageTechnique <- Gen.element techIds
+    spoiling <- subsetOf (filter (below spoilageTechnique) techIds)
+    spoilageKinetics <- Map.fromList <$> forM spoiling (\t -> (t,) <$> (SpoilageKinetics <$> positive <*> Gen.maybe (Gen.double (Range.linearFrac 0 1))))
     nonPreparations <- subsetOf techIds
     kcalPerGram <- KcalPerGram <$> positive <*> positive <*> positive
     calorieTolerance <- Tolerance <$> Gen.double (Range.linearFrac 0 100) <*> Gen.double (Range.linearFrac 0 1)
@@ -323,6 +326,10 @@ genConstants techIds = do
     hi <- Gen.double (Range.linearFrac lo (lo * 100))
     negligibleMassFraction <- Gen.double (Range.linearFrac 0 0.5)
     pure Constants{massRatio = RatioBounds lo hi, ..}
+  where
+    techIds = [t.id | t <- techs]
+    parents = Map.fromList [(t.id, t.parents) | t <- techs]
+    below s t = t == s || any (below s) (Map.findWithDefault [] t parents)
 
 -- | Strictly increasing bounds, built by accumulating positive steps.
 genTempBands :: Gen TempBands

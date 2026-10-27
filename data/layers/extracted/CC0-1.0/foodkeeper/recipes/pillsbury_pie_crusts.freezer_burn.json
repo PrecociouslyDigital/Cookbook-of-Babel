@@ -1,0 +1,44 @@
+{
+  "id": "pillsbury_pie_crusts.freezer_burn",
+  "source": "foodkeeper",
+  "technique": "freezer_burn",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "pillsbury_pie_crusts",
+        "amount": {
+          "qty": 100,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "spoiled_food",
+      "amount": {
+        "qty": 100,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 60.9,
+      "unit": "d"
+    },
+    "sensitivity": {
+      "refTempC": -18,
+      "q10": 3,
+      "maxTempC": 0
+    }
+  },
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "FoodKeeper's Pie crust (refrigerated): 2 months in the freezer, as bought; the geometric mean at -18 °C, with the default q10 for freezer_burn; matched judged by Jev, 90% sure of the category and 83% of the product"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": "cake_mix.stale",
+  "source": "foodkeeper",
+  "technique": "stale",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "cake_mix",
+        "amount": {
+          "qty": 100,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "spoiled_food",
+      "amount": {
+        "qty": 100,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 447,
+      "unit": "d"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1,
+      "minTempC": 0
+    }
+  },
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "FoodKeeper's Cake, brownie, bread mixes: 12–18 months in the pantry, as bought; the geometric mean at 20 °C, with the default q10 for stale; matched judged by Jev, 100% sure of the category and 100% of the product"
+    }
+  ]
+}

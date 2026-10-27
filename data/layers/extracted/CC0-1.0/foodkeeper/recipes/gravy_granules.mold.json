@@ -1,0 +1,45 @@
+{
+  "id": "gravy_granules.mold",
+  "source": "foodkeeper",
+  "technique": "mold",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "gravy_granules",
+        "amount": {
+          "qty": 100,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "spoiled_food",
+      "amount": {
+        "qty": 100,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 730,
+      "unit": "d"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 2.02e-2,
+      "minWaterActivity": 0.8,
+      "minTempC": 0
+    }
+  },
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "FoodKeeper's Dry gravy mixes: 2 years in the pantry and 1–2 days in the fridge, as bought; the geometric means at 20 °C and 4 °C fix q10; matched judged by Jev, 99% sure of the category and 100% of the product"
+    }
+  ]
+}

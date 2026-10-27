@@ -91,6 +91,15 @@ in
     '';
   };
 
+  # The FoodKeeper extractor, built and run the same way.
+  scripts.babel-foodkeeper = {
+    packages = [ ghc pkgs.cabal-install pkgs.git ];
+    exec = ''
+      root="''${DEVENV_ROOT:-$(git rev-parse --show-toplevel)}"
+      cabal --project-dir="$root/babel" -v0 run babel-foodkeeper:exe:babel-foodkeeper -- "$@"
+    '';
+  };
+
   # Reads the folder layout from `babel layout`, so it carries babel too.
   scripts.check-data-rules = {
     packages = [ config.scripts.babel.scriptPackage pkgs.bash pkgs.git ];

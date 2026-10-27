@@ -1,0 +1,81 @@
+cabal-version: 3.0
+name:          babel-foodkeeper
+version:       0.1.0.0
+synopsis:
+  Extracts USDA FoodKeeper storage times into the babel dataset as spoilage recipes
+
+build-type:    Simple
+
+-- Same language settings as babel/babel.cabal, which .hlint.yaml mirrors.
+common shared
+  default-language:   GHC2021
+  default-extensions:
+    DerivingStrategies
+    DuplicateRecordFields
+    LambdaCase
+    NoFieldSelectors
+    OverloadedRecordDot
+    OverloadedStrings
+
+  ghc-options:        -Wall -Wcompat
+  build-depends:
+    , base    >=4.18 && <5
+    , relude  >=1.2  && <1.3
+
+  mixins:
+    base hiding (Prelude),
+    relude (Relude as Prelude),
+    relude
+
+library
+  import:          shared
+  hs-source-dirs:  src
+  exposed-modules:
+    FoodKeeper.Extract
+    FoodKeeper.Kinetics
+    FoodKeeper.Match
+    FoodKeeper.Source
+    FoodKeeper.Tables
+
+  build-depends:
+    , aeson
+    , autodocodec
+    , babel
+    , babel-decisions
+    , bytestring
+    , containers
+    , directory
+    , filepath
+    , text
+
+executable babel-foodkeeper
+  import:         shared
+  hs-source-dirs: app
+  main-is:        Main.hs
+  build-depends:
+    , babel
+    , babel-decisions
+    , babel-foodkeeper
+    , containers
+    , optparse-applicative
+    , text
+
+test-suite babel-foodkeeper-test
+  import:         shared
+  type:           exitcode-stdio-1.0
+  hs-source-dirs: test
+  main-is:        Main.hs
+  build-depends:
+    , aeson
+    , babel
+    , babel-decisions
+    , babel-foodkeeper
+    , containers
+    , directory
+    , filepath
+    , hedgehog
+    , tasty
+    , tasty-hedgehog
+    , tasty-hunit
+    , temporary
+    , text

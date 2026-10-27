@@ -1,0 +1,45 @@
+{
+  "id": "milo_chocolate_drink_powder.sour",
+  "source": "foodkeeper",
+  "technique": "sour",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "milo_chocolate_drink_powder",
+        "amount": {
+          "qty": 100,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "spoiled_food",
+      "amount": {
+        "qty": 100,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 633,
+      "unit": "d"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 3,
+      "minWaterActivity": 0.88,
+      "minTempC": 0
+    }
+  },
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "FoodKeeper's Diet powder mixes and drink mixes: 18–24 months in the pantry, as bought; the geometric mean at 20 °C, with the default q10 for sour; matched judged by Jev, 70% sure of the category and 82% of the product"
+    }
+  ]
+}

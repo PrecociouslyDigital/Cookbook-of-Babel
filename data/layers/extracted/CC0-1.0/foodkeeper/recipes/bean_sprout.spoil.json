@@ -1,0 +1,45 @@
+{
+  "id": "bean_sprout.spoil",
+  "source": "foodkeeper",
+  "technique": "spoil",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "bean_sprout",
+        "amount": {
+          "qty": 100,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "spoiled_food",
+      "amount": {
+        "qty": 100,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 7.07,
+      "unit": "d"
+    },
+    "sensitivity": {
+      "refTempC": 4,
+      "q10": 3,
+      "minWaterActivity": 0.91,
+      "minTempC": 0
+    }
+  },
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "FoodKeeper's Bean sprouts: 5–10 days in the fridge, as bought; the geometric mean at 4 °C, with the default q10 for spoil; matched judged by Jev, 100% sure of the category and 100% of the product"
+    }
+  ]
+}

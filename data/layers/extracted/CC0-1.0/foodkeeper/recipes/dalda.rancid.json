@@ -1,0 +1,44 @@
+{
+  "id": "dalda.rancid",
+  "source": "foodkeeper",
+  "technique": "rancid",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "dalda",
+        "amount": {
+          "qty": 100,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "spoiled_food",
+      "amount": {
+        "qty": 100,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 517,
+      "unit": "d"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 2,
+      "minTempC": 0
+    }
+  },
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "FoodKeeper's Shortening (solid): 1–2 years in the pantry, as bought; the geometric mean at 20 °C, with the default q10 for rancid; matched judged by Jev, 93% sure of the category and 97% of the product"
+    }
+  ]
+}

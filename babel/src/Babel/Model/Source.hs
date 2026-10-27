@@ -56,7 +56,7 @@ instance HasCodec Licence where
 {- | The body of work an entity comes from, recorded only by the entity's
 folder. A body of work has one licence ('originLicence').
 -}
-data Origin = OriginalWork | Wikibooks | OpenFoodFacts
+data Origin = OriginalWork | Wikibooks | OpenFoodFacts | FoodKeeper
     deriving stock (Eq, Ord, Show, Enum, Bounded)
 
 originSlug :: Origin -> Text
@@ -64,12 +64,14 @@ originSlug = \case
     OriginalWork -> "original"
     Wikibooks -> "wikibooks"
     OpenFoodFacts -> "openfoodfacts"
+    FoodKeeper -> "foodkeeper"
 
 originLicence :: Origin -> Licence
 originLicence = \case
     OriginalWork -> Original
     Wikibooks -> CcBySa40
     OpenFoodFacts -> Odbl10
+    FoodKeeper -> Cc0
 
 data Source = Source {id :: SourceId, name :: Text, url :: Maybe Text, licence :: Licence}
     deriving stock (Eq, Generic, Show)

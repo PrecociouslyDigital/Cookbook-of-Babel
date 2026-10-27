@@ -16,6 +16,14 @@ paths:
   about 8 GB), and its tests with `cd babel && cabal test babel-openfoodfacts`.
   Correct a wrong or missing category in its `matches.json`, never in the
   extracted layer.
+- The FoodKeeper extractor is one too. Copy the file in by hand (USDA's CDN
+  refuses scripts) with `data/extractors/foodkeeper/fetch.sh [path]`, run it
+  end to end with `secretspec run --reason "…" -- data/extractors/foodkeeper/run.sh`,
+  and its tests with `cd babel && cabal test babel-foodkeeper`. It asks Jev
+  only about raw ingredients, the ones no recipe makes. Correct a wrong product
+  in its `matches.json` and a wrong technique in its `techniques.json`; the
+  default Q10 and water-activity floor of each spoilage technique are
+  `spoilageKinetics` in the constants registry.
 - `decisions/` freezes the decision models' answers, keyed by the SHA-256 of
   each request. Changing a question's wording, a registry it lists, or the page
   text it quotes makes new requests. Questions about a page go to Jev, which is

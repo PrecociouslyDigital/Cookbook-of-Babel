@@ -1,0 +1,44 @@
+{
+  "id": "whole_wheat_flour.rancid",
+  "source": "foodkeeper",
+  "technique": "rancid",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "whole_wheat_flour",
+        "amount": {
+          "qty": 100,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "spoiled_food",
+      "amount": {
+        "qty": 100,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 365,
+      "unit": "d"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1.54,
+      "minTempC": 0
+    }
+  },
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "FoodKeeper's Whole wheat flour: 12 months in the pantry and 2 years in the fridge, as bought; the geometric means at 20 °C and 4 °C fix q10; matched judged by Jev, 93% sure of the category and 63% of the product"
+    }
+  ]
+}

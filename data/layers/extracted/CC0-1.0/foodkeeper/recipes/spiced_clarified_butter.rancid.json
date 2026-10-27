@@ -1,0 +1,44 @@
+{
+  "id": "spiced_clarified_butter.rancid",
+  "source": "foodkeeper",
+  "technique": "rancid",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "spiced_clarified_butter",
+        "amount": {
+          "qty": 100,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "spoiled_food",
+      "amount": {
+        "qty": 100,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 211,
+      "unit": "d"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1.75,
+      "minTempC": 0
+    }
+  },
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "FoodKeeper's Ghee: 6–8 months in the pantry and 1–2 years in the fridge, as bought; the geometric means at 20 °C and 4 °C fix q10; matched judged by Jev, 90% sure of the category and 99% of the product"
+    }
+  ]
+}

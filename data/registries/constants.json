@@ -47,5 +47,28 @@
     "min": 0.2,
     "max": 2
   },
-  "negligibleMassFraction": 2.0e-2
+  "negligibleMassFraction": 2.0e-2,
+  "spoilageKinetics": {
+    "freezer_burn": {
+      "q10": 3
+    },
+    "mold": {
+      "q10": 2.5,
+      "minWaterActivity": 0.8
+    },
+    "rancid": {
+      "q10": 2
+    },
+    "sour": {
+      "q10": 3,
+      "minWaterActivity": 0.88
+    },
+    "spoil": {
+      "q10": 3,
+      "minWaterActivity": 0.91
+    },
+    "stale": {
+      "q10": 1
+    }
+  }
 }

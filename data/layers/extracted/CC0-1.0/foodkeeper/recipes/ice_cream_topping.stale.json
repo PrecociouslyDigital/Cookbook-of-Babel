@@ -1,0 +1,44 @@
+{
+  "id": "ice_cream_topping.stale",
+  "source": "foodkeeper",
+  "technique": "stale",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "ice_cream_topping",
+        "amount": {
+          "qty": 100,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "spoiled_food",
+      "amount": {
+        "qty": 100,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 730,
+      "unit": "d"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1,
+      "minTempC": 0
+    }
+  },
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "FoodKeeper's Chocolate syrup: 2 years in the pantry, as bought; the geometric mean at 20 °C, with the default q10 for stale; matched judged by Jev, 74% sure of the category and 71% of the product"
+    }
+  ]
+}

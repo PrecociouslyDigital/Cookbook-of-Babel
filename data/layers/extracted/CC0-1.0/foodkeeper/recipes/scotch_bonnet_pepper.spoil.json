@@ -1,0 +1,45 @@
+{
+  "id": "scotch_bonnet_pepper.spoil",
+  "source": "foodkeeper",
+  "technique": "spoil",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "scotch_bonnet_pepper",
+        "amount": {
+          "qty": 100,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "spoiled_food",
+      "amount": {
+        "qty": 100,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 7,
+      "unit": "d"
+    },
+    "sensitivity": {
+      "refTempC": 4,
+      "q10": 3,
+      "minWaterActivity": 0.91,
+      "minTempC": 0
+    }
+  },
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "FoodKeeper's Hot peppers: 1 weeks in the fridge, as bought; the geometric mean at 4 °C, with the default q10 for spoil; matched judged by Jev, 100% sure of the category and 94% of the product"
+    }
+  ]
+}
