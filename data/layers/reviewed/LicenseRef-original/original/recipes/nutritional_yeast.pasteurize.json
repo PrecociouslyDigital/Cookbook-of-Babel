@@ -1,0 +1,45 @@
+{
+  "id": "nutritional_yeast.pasteurize",
+  "source": "cookbook_of_babel",
+  "technique": "heat",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "yeast_culture",
+        "amount": {
+          "qty": 2150,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "deactivated_yeast",
+      "amount": {
+        "qty": 2150,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 65,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "both",
+    "coreTempC": 63,
+    "duration": {
+      "qty": 30,
+      "unit": "min"
+    }
+  },
+  "stateNote": "held warm until the yeast is killed and settles out",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "pasteurisation simplified to holding above 63 C for half an hour"
+    }
+  ]
+}

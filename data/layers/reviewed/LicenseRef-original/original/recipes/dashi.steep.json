@@ -1,0 +1,51 @@
+{
+  "id": "dashi.steep",
+  "source": "cookbook_of_babel",
+  "technique": "steep",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "dried_kelp",
+        "amount": {
+          "qty": 30,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "water",
+        "amount": {
+          "qty": 2000,
+          "unit": "ml"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "dashi_japanese_soup_stock",
+      "amount": {
+        "qty": 2000,
+        "unit": "ml"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "h"
+    },
+    "sensitivity": {
+      "refTempC": 60,
+      "q10": 2
+    }
+  },
+  "stateNote": "kombu soaked in water just below a simmer, then lifted out",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "cold overnight steeping or ten minutes at a bare simmer both work; used an hour at 60 C"
+    }
+  ]
+}

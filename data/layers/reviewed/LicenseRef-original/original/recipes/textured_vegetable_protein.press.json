@@ -1,0 +1,52 @@
+{
+  "id": "textured_vegetable_protein.press",
+  "source": "cookbook_of_babel",
+  "technique": "press",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "soy_bean",
+        "amount": {
+          "qty": 1000,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "soy_meal",
+      "amount": {
+        "qty": 800,
+        "unit": "g"
+      }
+    },
+    {
+      "ingredient": "vegetable_oil",
+      "amount": {
+        "qty": 180,
+        "unit": "ml"
+      },
+      "role": "byproduct"
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 30,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "beans pressed hard enough to squeeze the oil out of the meal",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "soybeans give about 18% of their weight as oil"
+    }
+  ]
+}

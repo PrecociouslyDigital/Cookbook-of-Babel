@@ -1,0 +1,55 @@
+{
+  "id": "agar.boil",
+  "source": "cookbook_of_babel",
+  "technique": "boil",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "seaweed",
+        "amount": {
+          "qty": 500,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "water",
+        "amount": {
+          "qty": 3000,
+          "unit": "ml"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "agar_broth",
+      "amount": {
+        "qty": 3200,
+        "unit": "ml"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 100,
+    "medium": "boiling_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 30,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "simmered until the seaweed gives up its gelling extract, then strained",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "the broth is boiled down somewhat before straining"
+    }
+  ]
+}

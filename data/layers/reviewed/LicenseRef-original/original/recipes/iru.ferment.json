@@ -1,0 +1,44 @@
+{
+  "id": "iru.ferment",
+  "source": "cookbook_of_babel",
+  "technique": "ferment",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "boiled_soybeans",
+        "amount": {
+          "qty": 2000,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "iru",
+      "amount": {
+        "qty": 1600,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 3,
+      "unit": "d"
+    },
+    "sensitivity": {
+      "refTempC": 35,
+      "q10": 2.5
+    }
+  },
+  "stateNote": "wrapped and held warm until the beans brown and smell sharply of aged cheese",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "some moisture is lost while the fermenting beans mature"
+    }
+  ]
+}

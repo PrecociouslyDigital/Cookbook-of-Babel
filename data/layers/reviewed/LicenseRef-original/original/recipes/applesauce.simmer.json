@@ -1,0 +1,55 @@
+{
+  "id": "applesauce.simmer",
+  "source": "cookbook_of_babel",
+  "technique": "simmer",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "apple",
+        "amount": {
+          "qty": 2000,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "water",
+        "amount": {
+          "qty": 400,
+          "unit": "ml"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "applesauce",
+      "amount": {
+        "qty": 2100,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 95,
+    "medium": "simmering_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 30,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "simmered until the apples collapse, then mashed to a coarse sauce",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "a little steam escapes over the half hour of simmering"
+    }
+  ]
+}

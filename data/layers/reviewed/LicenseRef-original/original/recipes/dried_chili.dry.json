@@ -1,0 +1,48 @@
+{
+  "id": "dried_chili.dry",
+  "source": "cookbook_of_babel",
+  "technique": "dry",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "chile",
+        "amount": {
+          "qty": 1000,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "dried_chili",
+      "amount": {
+        "qty": 300,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 35,
+    "medium": "still_air"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 5,
+      "unit": "d"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 2
+    }
+  },
+  "stateNote": "whole pods air-dried until they crackle when bent",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "chiles lose about 70% of their weight as water"
+    }
+  ]
+}

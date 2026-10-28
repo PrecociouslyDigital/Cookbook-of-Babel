@@ -1,0 +1,48 @@
+{
+  "id": "raisin.dry",
+  "source": "cookbook_of_babel",
+  "technique": "dry",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "grape",
+        "amount": {
+          "qty": 2000,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "raisin",
+      "amount": {
+        "qty": 600,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 35,
+    "medium": "still_air"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 5,
+      "unit": "d"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 2
+    }
+  },
+  "stateNote": "grapes spread out in the sun and air until shrivelled and dark",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "grapes lose about 70% of their weight as water"
+    }
+  ]
+}

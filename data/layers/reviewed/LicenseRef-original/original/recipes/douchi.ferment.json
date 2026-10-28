@@ -1,0 +1,51 @@
+{
+  "id": "douchi.ferment",
+  "source": "cookbook_of_babel",
+  "technique": "ferment",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "steamed_soy_bean",
+        "amount": {
+          "qty": 2200,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "salt",
+        "amount": {
+          "qty": 400,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "douchi",
+      "amount": {
+        "qty": 2100,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 21,
+      "unit": "d"
+    },
+    "sensitivity": {
+      "refTempC": 25,
+      "q10": 2.5
+    }
+  },
+  "stateNote": "salted steamed beans matured to a black, wrinkled, umami-heavy condiment",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "moisture is lost while the salted beans are finished in the sun"
+    }
+  ]
+}

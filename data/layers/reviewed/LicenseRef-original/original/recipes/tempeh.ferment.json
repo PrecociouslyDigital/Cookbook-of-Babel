@@ -1,0 +1,51 @@
+{
+  "id": "tempeh.ferment",
+  "source": "cookbook_of_babel",
+  "technique": "ferment",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "cooked_soybeans",
+        "amount": {
+          "qty": 2000,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "tempeh_starter",
+        "amount": {
+          "qty": 10,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "tempeh",
+      "amount": {
+        "qty": 1900,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 36,
+      "unit": "h"
+    },
+    "sensitivity": {
+      "refTempC": 30,
+      "q10": 2.5
+    }
+  },
+  "stateNote": "a bean cake knit together by white mycelium",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "the mould adds little mass; some moisture escapes through the wrapping"
+    }
+  ]
+}

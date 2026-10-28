@@ -1,0 +1,48 @@
+{
+  "id": "agar.dry",
+  "source": "cookbook_of_babel",
+  "technique": "dry",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "agar_broth",
+        "amount": {
+          "qty": 3200,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "agar",
+      "amount": {
+        "qty": 30,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 50,
+    "medium": "convection_air"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 12,
+      "unit": "h"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "the strained broth set and dried to brittle translucent strips",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "only a few grams of agar dissolve out of each litre of broth"
+    }
+  ]
+}

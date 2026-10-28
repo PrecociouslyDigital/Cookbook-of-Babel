@@ -1,0 +1,52 @@
+{
+  "id": "tofu.press",
+  "source": "cookbook_of_babel",
+  "technique": "press",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "tofu_curds",
+        "amount": {
+          "qty": 1000,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "tofu",
+      "amount": {
+        "qty": 750,
+        "unit": "g"
+      }
+    },
+    {
+      "ingredient": "whey",
+      "amount": {
+        "qty": 250,
+        "unit": "g"
+      },
+      "role": "byproduct"
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "h"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "curds wrapped in cloth and pressed under a weight",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "a quarter of the curd weight is pressed out as liquid"
+    }
+  ]
+}

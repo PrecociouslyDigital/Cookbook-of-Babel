@@ -1,0 +1,52 @@
+{
+  "id": "textured_vegetable_protein.extrude",
+  "source": "cookbook_of_babel",
+  "technique": "heat",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "soy_flour",
+        "amount": {
+          "qty": 790,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "water",
+        "amount": {
+          "qty": 500,
+          "unit": "ml"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "extruded_soy",
+      "amount": {
+        "qty": 1150,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 150,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "both",
+    "coreTempC": 120,
+    "duration": {
+      "qty": 5,
+      "unit": "min"
+    }
+  },
+  "stateNote": "cooked dough pressed out and set into firm dry shreds",
+  "issues": [
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "true extrusion is high-pressure cooking; simplified to a hot pan step"
+    }
+  ]
+}

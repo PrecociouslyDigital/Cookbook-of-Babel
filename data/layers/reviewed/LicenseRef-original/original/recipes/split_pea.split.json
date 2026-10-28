@@ -1,0 +1,44 @@
+{
+  "id": "split_pea.split",
+  "source": "cookbook_of_babel",
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "dried_pea",
+        "amount": {
+          "qty": 800,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "split_pea",
+      "amount": {
+        "qty": 780,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 5,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "dried peas cracked and split into halves",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "a few loose skins and broken seeds are winnowed away"
+    }
+  ]
+}
