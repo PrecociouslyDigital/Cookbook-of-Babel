@@ -448,7 +448,6 @@ Used by some step, and neither they nor anything that counts as them is made by 
 - `fruit_mince_mixture` (fruit mince mixture)
 - `fruit_mix` (fruit mix)
 - `fruit_nectar` (fruit nectar)
-- `fruit_preserves` (jam)
 - `fruit_puffs` (fruit puffs)
 - `fruit_salt` (fruit salt)
 - `garden_egg_leaves` (garden egg leaves)
@@ -572,7 +571,6 @@ Used by some step, and neither they nor anything that counts as them is made by 
 - `jerk_seasoning` (jerk seasoning)
 - `john_dory` (john dory)
 - `juice` (juice)
-- `juniper_berry` (juniper berry)
 - `just_boiled_water` (just-boiled water)
 - `kabocha` (kabocha)
 - `kaffir_lime` (kaffir lime)
@@ -777,7 +775,6 @@ Used by some step, and neither they nor anything that counts as them is made by 
 - `pastry_dough_wrappers` (pastry dough wrappers)
 - `pastry_holly_leaves` (pastry holly leaves)
 - `paul_prudhomme_s_seafood_magic` (paul prudhomme's seafood magic)
-- `peach_nectar` (peach nectar)
 - `peach_schnapps` (peach schnapps)
 - `pecorino_romano_cheese` (pecorino romano cheese)
 - `pectin` (pectin)
@@ -788,7 +785,6 @@ Used by some step, and neither they nor anything that counts as them is made by 
 - `pepper_soup_spice_mix` (pepper soup spice mix)
 - `pepper_stew` (pepper stew)
 - `pepper_vodka` (pepper vodka)
-- `peppermint` (peppermint)
 - `peppers` (peppers)
 - `periwinkle` (periwinkle)
 - `periwinkle_mollusc` (periwinkle (mollusc))
@@ -11679,10 +11675,12 @@ Ingredients the mod's live recipes make as other mods' items, and every item map
 - `musli`: `pamhc2foodextended:museliitem`
 - `nachos`: `pamhc2foodextended:nachoesitem`
 - `oatmeal_raisin_cookies`: `croptopia:raisin_oatmeal_cookie`, `pamhc2foodextended:oatmealraisincookiesitem`
+- `orange_soda_i`: `pamhc2foodextended:orangesodaitem`
 - `pad_thai`: `pamhc2foodextended:padthaiitem`, `vintagedelight:pad_thai`
 - `pancake`: `pamhc2foodextended:pancakesitem`
 - `pavlova`: `pamhc2foodextended:pavlovaitem`
 - `peach_cobbler`: `pamhc2foodextended:peachcobbleritem`
+- `peanut_butter_and_jelly_sandwich`: `croptopia:peanut_butter_and_jam`, `pamhc2foodextended:cactusfruitjellysandwichitem`, `pamhc2foodextended:cherryjellysandwichitem`, `pamhc2foodextended:passionfruitjellysandwichitem`, `pamhc2foodextended:peachjellysandwichitem`
 - `popcorn`: `croptopia:popcorn`, `pamhc2foodextended:popcornitem`
 - `potato_and_leek_soup`: `croptopia:leek_soup`, `pamhc2foodextended:potatoandleeksoupitem`
 - `potato_pancakes`: `rats:potato_pancake`
@@ -11704,7 +11702,7 @@ Ingredients the mod's live recipes make as other mods' items, and every item map
 - `spaghetti_and_meatballs`: `pamhc2foodextended:spagettiandmeatballsitem`
 - `steak_and_mushrooms`: `pamhc2foodextended:mushroomsteakitem`
 - `steak_tartare`: `pamhc2foodextended:steaktartareitem`
-- `steamed_rice`: `croptopia:steamed_rice`
+- `steamed_rice`: `croptopia:steamed_rice`, `pamhc2foodextended:bamboosteamedriceitem`
 - `strawberry_and_yogurt_eton_mess`: `croptopia:eton_mess`
 - `strawberry_rhubarb_pie`: `pamhc2foodextended:strawberryrhubarbpieitem`
 - `stuffed_zucchini`: `veggiesdelight:stuffed_zucchinis`
@@ -85305,8 +85303,8 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `orange_soda_i.step_5` (mix)
 
-- create_mixing: 1 recipe, rounding 10%, estimated
-- shapeless_crafting: 1 recipe, rounding 10%, estimated
+- create_mixing: 2 recipes, rounding 10%, estimated
+- shapeless_crafting: 2 recipes, rounding 10%, estimated
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `orange_soda_ii.step_1` (separate)
@@ -87912,8 +87910,8 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `pasties.step_12` (bake)
 
-- smelting: 1 recipe, disabled: the game can't make `pasties_step_10`
-- smoking: 1 recipe, disabled: the game can't make `pasties_step_10`
+- smelting: 2 recipes, disabled: the game can't make `pasties_step_10`
+- smoking: 2 recipes, disabled: the game can't make `pasties_step_10`
 
 ### `pasties.step_2` (coat)
 
@@ -88406,8 +88404,8 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `peanut_butter_and_jelly_sandwich.step_2` (coat)
 
-- shapeless_crafting: 1 recipe, rounding 0%, estimated
-- create_deploying: 1 recipe, rounding 0%, estimated
+- shapeless_crafting: 3 recipes, rounding 0%, estimated
+- create_deploying: 3 recipes, rounding 0%, estimated
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
@@ -110104,8 +110102,8 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `steamed_rice.step_4` (steam)
 
-- create_heated_mixing: 2 recipes, rounding 5%, estimated
-- fd_cooking_pot: 2 recipes, rounding 5%, estimated
+- create_heated_mixing: 3 recipes, rounding 5%, estimated
+- fd_cooking_pot: 3 recipes, rounding 5%, estimated
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `steamed_salmon.step_2` (season)

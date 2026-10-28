@@ -1,13 +1,17 @@
 {
-  "type": "create:deploying",
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
   "conditions": [
     {
       "type": "forge:mod_loaded",
-      "modid": "create"
+      "modid": "pamhc2foodextended"
     },
     {
-      "type": "forge:tag_empty",
-      "tag": "cookbook_of_babel:external/peanut_butter_and_jelly_sandwich"
+      "type": "forge:not",
+      "value": {
+        "type": "forge:mod_loaded",
+        "modid": "croptopia"
+      }
     }
   ],
   "ingredients": [
@@ -32,9 +36,7 @@
       }
     ]
   ],
-  "results": [
-    {
-      "item": "cookbook_of_babel:peanut_butter_and_jelly_sandwich"
-    }
-  ]
+  "result": {
+    "item": "pamhc2foodextended:cactusfruitjellysandwichitem"
+  }
 }

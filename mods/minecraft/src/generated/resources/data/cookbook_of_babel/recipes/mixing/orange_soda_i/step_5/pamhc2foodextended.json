@@ -1,10 +1,13 @@
 {
-  "type": "minecraft:crafting_shapeless",
-  "category": "misc",
+  "type": "create:mixing",
   "conditions": [
     {
-      "type": "forge:tag_empty",
-      "tag": "cookbook_of_babel:external/orange_soda_i"
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "pamhc2foodextended"
     }
   ],
   "ingredients": [
@@ -29,8 +32,11 @@
       }
     ]
   ],
-  "result": {
-    "count": 3,
-    "item": "cookbook_of_babel:orange_soda_i"
-  }
+  "processingTime": 20,
+  "results": [
+    {
+      "count": 3,
+      "item": "pamhc2foodextended:orangesodaitem"
+    }
+  ]
 }

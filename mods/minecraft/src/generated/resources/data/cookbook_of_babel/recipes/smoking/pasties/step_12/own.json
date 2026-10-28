@@ -1,7 +1,14 @@
 {
-  "type": "minecraft:smelting",
-  "category": "misc",
+  "type": "minecraft:smoking",
+  "category": "food",
   "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:mod_loaded",
+        "modid": "croptopia"
+      }
+    },
     {
       "type": "forge:tag_empty",
       "tag": "cookbook_of_babel:external/pasties"
@@ -10,7 +17,7 @@
       "type": "forge:false"
     }
   ],
-  "cookingtime": 600,
+  "cookingtime": 300,
   "experience": 0.1,
   "ingredient": [
     {

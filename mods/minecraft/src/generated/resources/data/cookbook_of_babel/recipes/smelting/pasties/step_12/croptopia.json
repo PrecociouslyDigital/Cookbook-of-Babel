@@ -1,16 +1,16 @@
 {
-  "type": "minecraft:smoking",
+  "type": "minecraft:smelting",
   "category": "food",
   "conditions": [
     {
-      "type": "forge:tag_empty",
-      "tag": "cookbook_of_babel:external/pasties"
+      "type": "forge:mod_loaded",
+      "modid": "croptopia"
     },
     {
       "type": "forge:false"
     }
   ],
-  "cookingtime": 300,
+  "cookingtime": 600,
   "experience": 0.1,
   "ingredient": [
     {
@@ -23,6 +23,6 @@
     }
   ],
   "result": {
-    "item": "cookbook_of_babel:pasties"
+    "item": "croptopia:cornish_pasty"
   }
 }
