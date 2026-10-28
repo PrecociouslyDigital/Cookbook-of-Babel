@@ -7,7 +7,7 @@
     },
     {
       "type": "forge:tag_empty",
-      "tag": "cookbook_of_babel:external/meat_and_rice_stuffed_bell_peppers_step_4"
+      "tag": "cookbook_of_babel:external/meat_and_rice_stuffed_bell_peppers_step_5"
     }
   ],
   "ingredients": [
@@ -50,14 +50,25 @@
       {
         "tag": "cookbook_of_babel:ingredients/tomato"
       }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:tomato\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/tomato"
+      }
     ]
   ],
   "processingTime": 20,
   "results": [
     {
-      "amount": 87,
-      "fluid": "cookbook_of_babel:bulk",
-      "nbt": "{substance:\"cookbook_of_babel:meat_and_rice_stuffed_bell_peppers_step_4\"}"
+      "item": "cookbook_of_babel:substance",
+      "nbt": {
+        "substance": "cookbook_of_babel:meat_and_rice_stuffed_bell_peppers_step_5"
+      }
     }
   ]
 }

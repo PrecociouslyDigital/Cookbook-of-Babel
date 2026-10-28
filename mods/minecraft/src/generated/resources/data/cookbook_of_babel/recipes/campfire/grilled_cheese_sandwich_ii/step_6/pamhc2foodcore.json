@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "category": "food",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "pamhc2foodcore"
+    },
+    {
+      "type": "forge:false"
+    }
+  ],
+  "cookingtime": 200,
+  "experience": 0.1,
+  "ingredient": [
+    {
+      "type": "forge:partial_nbt",
+      "item": "cookbook_of_babel:substance",
+      "nbt": "{substance:\"cookbook_of_babel:grilled_cheese_sandwich_ii_step_5\"}"
+    },
+    {
+      "tag": "cookbook_of_babel:ingredients/grilled_cheese_sandwich_ii_step_5"
+    }
+  ],
+  "result": {
+    "item": "pamhc2foodcore:grilledcheeseitem"
+  }
+}

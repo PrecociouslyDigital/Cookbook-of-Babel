@@ -1,0 +1,33 @@
+{
+  "type": "farmersdelight:cutting",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "farmersdelight"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "croptopia"
+    }
+  ],
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:blt_sandwich_step_4\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/blt_sandwich_step_4"
+      }
+    ]
+  ],
+  "result": [
+    {
+      "item": "croptopia:blt"
+    }
+  ],
+  "tool": {
+    "tag": "forge:tools/knives"
+  }
+}

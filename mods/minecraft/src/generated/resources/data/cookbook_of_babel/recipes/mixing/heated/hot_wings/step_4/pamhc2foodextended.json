@@ -1,0 +1,35 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "pamhc2foodextended"
+    },
+    {
+      "type": "forge:false"
+    }
+  ],
+  "heatRequirement": "heated",
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:hot_wings_step_3\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/hot_wings_step_3"
+      }
+    ]
+  ],
+  "processingTime": 220,
+  "results": [
+    {
+      "item": "pamhc2foodextended:hotwingsitem"
+    }
+  ]
+}

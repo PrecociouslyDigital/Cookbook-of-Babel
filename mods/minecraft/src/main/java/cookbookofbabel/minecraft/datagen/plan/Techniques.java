@@ -86,9 +86,10 @@ public final class Techniques {
             hold("chill", THERMAL_CHILLER),
             hold("dry", HEXEREI_DRYING_RACK),
             hold("freeze", GARNISHED_FREEZING, THERMAL_CHILLER),
-            // Ageing, fermenting, curing and sprouting take a timed container.
+            // Ageing, curing and sprouting take a timed container.
             bind("age", VD_FERMENTING_JAR, BNC_KEG),
-            bind("ferment", VD_FERMENTING_JAR, BNC_KEG, PNC_THERMO_PLANT, THEURGY_FERMENTATION),
+            // Food left in a chest also ferments, on the item clock: a starter turns to yeast.
+            hold("ferment", VD_FERMENTING_JAR, BNC_KEG, PNC_THERMO_PLANT, THEURGY_FERMENTATION),
             Map.entry(new TechniqueId("spoil"), new Binding.Spoils()));
 
     /**

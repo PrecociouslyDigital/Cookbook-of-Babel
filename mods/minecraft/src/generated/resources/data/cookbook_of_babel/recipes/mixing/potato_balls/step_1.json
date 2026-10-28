@@ -7,13 +7,36 @@
     },
     {
       "type": "forge:tag_empty",
-      "tag": "cookbook_of_babel:external/potato_balls_step_1"
+      "tag": "cookbook_of_babel:external/potato_balls_step_2"
     }
   ],
   "ingredients": [
     {
       "tag": "cookbook_of_babel:ingredients/mashed_potatoes"
     },
+    {
+      "tag": "cookbook_of_babel:ingredients/mashed_potatoes"
+    },
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:egg\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/egg"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:egg\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/egg"
+      }
+    ],
     [
       {
         "type": "forge:partial_nbt",
@@ -38,10 +61,9 @@
   "processingTime": 20,
   "results": [
     {
-      "count": 2,
       "item": "cookbook_of_babel:substance",
       "nbt": {
-        "substance": "cookbook_of_babel:potato_balls_step_1"
+        "substance": "cookbook_of_babel:potato_balls_step_2"
       }
     }
   ]

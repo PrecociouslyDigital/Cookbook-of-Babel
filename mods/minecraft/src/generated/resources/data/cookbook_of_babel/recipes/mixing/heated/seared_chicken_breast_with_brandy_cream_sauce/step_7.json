@@ -7,32 +7,47 @@
     },
     {
       "type": "forge:tag_empty",
-      "tag": "cookbook_of_babel:external/seared_chicken_breast_with_brandy_cream_sauce_step_7"
+      "tag": "cookbook_of_babel:external/seared_chicken_breast_with_brandy_cream_sauce"
     }
   ],
   "heatRequirement": "heated",
   "ingredients": [
-    {
-      "amount": 15,
-      "fluid": "cookbook_of_babel:liquid",
-      "nbt": {
-        "substance": "cookbook_of_babel:seared_chicken_breast_with_brandy_cream_sauce_step_6"
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:portion",
+        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:liquid\",Tag:{substance:\"cookbook_of_babel:seared_chicken_breast_with_brandy_cream_sauce_step_6\"}}}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/seared_chicken_breast_with_brandy_cream_sauce_step_6"
       }
-    },
-    {
-      "amount": 7,
-      "fluid": "cookbook_of_babel:liquid",
-      "nbt": {
-        "substance": "cookbook_of_babel:cream"
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:portion",
+        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:liquid\",Tag:{substance:\"cookbook_of_babel:seared_chicken_breast_with_brandy_cream_sauce_step_6\"}}}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/seared_chicken_breast_with_brandy_cream_sauce_step_6"
       }
-    }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:portion",
+        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:liquid\",Tag:{substance:\"cookbook_of_babel:cream\"}}}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/cream"
+      }
+    ]
   ],
   "processingTime": 180,
   "results": [
     {
-      "amount": 22,
-      "fluid": "cookbook_of_babel:liquid",
-      "nbt": "{substance:\"cookbook_of_babel:seared_chicken_breast_with_brandy_cream_sauce_step_7\"}"
+      "count": 14,
+      "item": "cookbook_of_babel:seared_chicken_breast_with_brandy_cream_sauce"
     }
   ]
 }

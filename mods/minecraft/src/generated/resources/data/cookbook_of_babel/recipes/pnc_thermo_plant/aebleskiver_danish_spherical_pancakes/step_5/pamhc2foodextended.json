@@ -1,0 +1,30 @@
+{
+  "type": "pneumaticcraft:thermo_plant",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "pneumaticcraft"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "pamhc2foodextended"
+    }
+  ],
+  "item_input": [
+    {
+      "type": "forge:partial_nbt",
+      "item": "cookbook_of_babel:substance",
+      "nbt": "{substance:\"cookbook_of_babel:aebleskiver_danish_spherical_pancakes_step_4\"}"
+    },
+    {
+      "tag": "cookbook_of_babel:ingredients/aebleskiver_danish_spherical_pancakes_step_4"
+    }
+  ],
+  "item_output": {
+    "count": 1,
+    "item": "pamhc2foodextended:aebleskiversitem"
+  },
+  "temperature": {
+    "min_temp": 463
+  }
+}

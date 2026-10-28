@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:smelting",
+  "category": "food",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "croptopia"
+    },
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:mod_loaded",
+        "modid": "thermal_cultivation"
+      }
+    },
+    {
+      "type": "forge:false"
+    }
+  ],
+  "cookingtime": 600,
+  "experience": 0.1,
+  "ingredient": [
+    {
+      "type": "forge:partial_nbt",
+      "item": "cookbook_of_babel:substance",
+      "nbt": "{substance:\"cookbook_of_babel:stuffed_peppers_step_4\"}"
+    },
+    {
+      "tag": "cookbook_of_babel:ingredients/stuffed_peppers_step_4"
+    }
+  ],
+  "result": {
+    "item": "croptopia:stuffed_poblanos"
+  }
+}

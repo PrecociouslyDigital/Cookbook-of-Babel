@@ -1,0 +1,65 @@
+{
+  "id": "soy_sauce.mix_moromi",
+  "source": "cookbook_of_babel",
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "steamed_soy_bean",
+        "amount": {
+          "qty": 2200,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "roasted_wheat",
+        "amount": {
+          "qty": 1000,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "salt",
+        "amount": {
+          "qty": 450,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "water",
+        "amount": {
+          "qty": 2500,
+          "unit": "ml"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "moromi",
+      "amount": {
+        "qty": 6150,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 10,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "a thick, salty mash",
+  "issues": [
+    {
+      "field": "technique",
+      "kind": "estimate",
+      "note": "the koji mould that first grows on the beans and wheat is left out"
+    }
+  ]
+}

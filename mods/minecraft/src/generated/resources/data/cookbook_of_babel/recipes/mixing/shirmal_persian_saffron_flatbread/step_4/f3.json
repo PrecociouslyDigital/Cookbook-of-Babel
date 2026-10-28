@@ -1,0 +1,38 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/shirmal_persian_saffron_flatbread_step_7"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "ingredients": [
+    {
+      "amount": 18,
+      "fluid": "cookbook_of_babel:bulk",
+      "nbt": {
+        "substance": "cookbook_of_babel:shirmal_persian_saffron_flatbread_step_3"
+      }
+    },
+    {
+      "amount": 7,
+      "fluidTag": "forge:milk"
+    }
+  ],
+  "processingTime": 400,
+  "results": [
+    {
+      "amount": 26,
+      "fluid": "cookbook_of_babel:liquid",
+      "nbt": "{substance:\"cookbook_of_babel:shirmal_persian_saffron_flatbread_step_7\"}"
+    }
+  ]
+}

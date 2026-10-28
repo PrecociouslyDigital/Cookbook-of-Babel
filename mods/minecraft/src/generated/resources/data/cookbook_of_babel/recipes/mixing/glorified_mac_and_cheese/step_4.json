@@ -7,10 +7,20 @@
     },
     {
       "type": "forge:tag_empty",
-      "tag": "cookbook_of_babel:external/glorified_mac_and_cheese_step_4"
+      "tag": "cookbook_of_babel:external/glorified_mac_and_cheese_step_5"
     }
   ],
   "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:glorified_mac_and_cheese_step_3\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/glorified_mac_and_cheese_step_3"
+      }
+    ],
     [
       {
         "type": "forge:partial_nbt",
@@ -145,6 +155,16 @@
       {
         "type": "forge:partial_nbt",
         "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:cheese\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/cheese"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
         "nbt": "{substance:\"cookbook_of_babel:hot_dog_chop\"}"
       },
       {
@@ -175,9 +195,10 @@
   "processingTime": 20,
   "results": [
     {
-      "amount": 94,
-      "fluid": "cookbook_of_babel:liquid",
-      "nbt": "{substance:\"cookbook_of_babel:glorified_mac_and_cheese_step_4\"}"
+      "item": "cookbook_of_babel:substance",
+      "nbt": {
+        "substance": "cookbook_of_babel:glorified_mac_and_cheese_step_5"
+      }
     }
   ]
 }

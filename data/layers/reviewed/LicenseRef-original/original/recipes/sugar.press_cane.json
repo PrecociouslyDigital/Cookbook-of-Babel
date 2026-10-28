@@ -1,0 +1,52 @@
+{
+  "id": "sugar.press_cane",
+  "source": "cookbook_of_babel",
+  "technique": "press",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "sugar_cane",
+        "amount": {
+          "qty": 1000,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "cane_juice",
+      "amount": {
+        "qty": 650,
+        "unit": "ml"
+      }
+    },
+    {
+      "ingredient": "bagasse",
+      "amount": {
+        "qty": 300,
+        "unit": "g"
+      },
+      "role": "byproduct"
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 10,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "the stalks crushed dry and the juice run off",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "a cane mill extracts roughly two thirds of the stalk's mass as juice"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "type": "pneumaticcraft:thermo_plant",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "pneumaticcraft"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/yeast"
+    }
+  ],
+  "fluid_input": {
+    "type": "pneumaticcraft:fluid",
+    "amount": 6,
+    "fluid": "cookbook_of_babel:liquid",
+    "fuzzyNBT": false,
+    "nbt": "{substance:\"cookbook_of_babel:yeast_starter\"}"
+  },
+  "fluid_output": {
+    "amount": 6,
+    "fluid": "cookbook_of_babel:bulk",
+    "nbt": "{substance:\"cookbook_of_babel:yeast\"}"
+  }
+}

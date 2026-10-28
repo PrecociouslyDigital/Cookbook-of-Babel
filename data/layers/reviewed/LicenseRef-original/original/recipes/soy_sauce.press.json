@@ -1,0 +1,52 @@
+{
+  "id": "soy_sauce.press",
+  "source": "cookbook_of_babel",
+  "technique": "press",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "aged_moromi",
+        "amount": {
+          "qty": 6000,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "soy_sauce",
+      "amount": {
+        "qty": 3500,
+        "unit": "ml"
+      }
+    },
+    {
+      "ingredient": "soy_cake",
+      "amount": {
+        "qty": 2000,
+        "unit": "g"
+      },
+      "role": "byproduct"
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "d"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "the liquid pressed out through cloth",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "pressing leaves about a third of the mash as cake"
+    }
+  ]
+}

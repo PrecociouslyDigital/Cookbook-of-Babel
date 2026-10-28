@@ -7,7 +7,7 @@
     },
     {
       "type": "forge:tag_empty",
-      "tag": "cookbook_of_babel:external/tortilla_soup_step_1"
+      "tag": "cookbook_of_babel:external/tortilla_soup_step_2"
     }
   ],
   "heatRequirement": "heated",
@@ -145,6 +145,16 @@
     [
       {
         "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:portion",
+        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:liquid\",Tag:{substance:\"cookbook_of_babel:broth_and_stock\"}}}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/broth_and_stock"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
         "item": "cookbook_of_babel:substance",
         "nbt": "{substance:\"cookbook_of_babel:cilantro\"}"
       },
@@ -206,9 +216,10 @@
   "processingTime": 400,
   "results": [
     {
-      "amount": 76,
-      "fluid": "cookbook_of_babel:liquid",
-      "nbt": "{substance:\"cookbook_of_babel:tortilla_soup_step_1\"}"
+      "item": "cookbook_of_babel:substance",
+      "nbt": {
+        "substance": "cookbook_of_babel:tortilla_soup_step_2"
+      }
     }
   ]
 }

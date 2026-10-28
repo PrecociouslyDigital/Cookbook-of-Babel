@@ -43,7 +43,14 @@ public final class Recipes {
 
     /** The recipe with every ingredient, in and out, renamed. */
     public static Recipe rename(Recipe r, UnaryOperator<IngredientId> rename) {
-        return new Recipe(r.id(), r.source(), r.technique(), rename(r.inputs(), rename), rename(r.outputs(), rename), r.temperatureC(), r.end(), r.issues());
+        return map(r,
+                l -> new Leaf(rename.apply(l.ingredient()), l.amount()),
+                o -> new Output(rename.apply(o.ingredient()), o.amount(), o.role(), o.chance()));
+    }
+
+    /** The recipe with every input leaf and every output of every branch rewritten. */
+    public static Recipe map(Recipe r, UnaryOperator<Leaf> leaf, UnaryOperator<Output> output) {
+        return new Recipe(r.id(), r.source(), r.technique(), map(r.inputs(), leaf), map(r.outputs(), output), r.temperatureC(), r.end(), r.issues());
     }
 
     /** Everything that goes into making the ingredient, through every recipe that makes it. */
@@ -65,22 +72,18 @@ public final class Recipes {
         return seen;
     }
 
-    private static Select rename(Select select, UnaryOperator<IngredientId> rename) {
+    private static Select map(Select select, UnaryOperator<Leaf> leaf) {
         return new Select(select.min(), select.max(), select.of().stream()
-                .map(c -> c instanceof Select nested
-                        ? (Choice) rename(nested, rename)
-                        : new Leaf(rename.apply(((Leaf) c).ingredient()), ((Leaf) c).amount()))
+                .map(c -> c instanceof Select nested ? (Choice) map(nested, leaf) : leaf.apply((Leaf) c))
                 .toList());
     }
 
-    private static Outcome rename(Outcome outcome, UnaryOperator<IngredientId> rename) {
+    private static Outcome map(Outcome outcome, UnaryOperator<Output> output) {
         if (outcome instanceof Outcome.Outputs o) {
-            return new Outcome.Outputs(o.outputs().stream()
-                    .map(out -> new Output(rename.apply(out.ingredient()), out.amount(), out.role(), out.chance()))
-                    .toList());
+            return new Outcome.Outputs(o.outputs().stream().map(output).toList());
         }
         return new Outcome.OneOf(((Outcome.OneOf) outcome).branches().stream()
-                .map(b -> new Outcome.Branch(b.weight(), rename(b.outputs(), rename)))
+                .map(b -> new Outcome.Branch(b.weight(), map(b.outputs(), output)))
                 .toList());
     }
 }

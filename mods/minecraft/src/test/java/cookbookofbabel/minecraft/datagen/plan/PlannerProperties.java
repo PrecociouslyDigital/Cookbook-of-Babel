@@ -79,6 +79,18 @@ class PlannerProperties {
         }
     }
 
+    /** What another mod provides only as an item comes out as that item, never as the mod's own fluid. */
+    @Property
+    void whatOnlyAnItemProvidesComesOutAsTheItem(@ForAll("cases") Case c) {
+        var world = World.of(c);
+        for (var route : RouteKind.values()) {
+            if (world.plan(route) instanceof Planned p) {
+                assertThat(p.outputs()).as("%s", route).noneMatch(o -> o instanceof FluidOut
+                        && c.provided().items().contains(o.ingredient()) && !c.provided().fluids().contains(o.ingredient()));
+            }
+        }
+    }
+
     /** A machine that takes one of each item, like Thermal's, is never planned more than one of an item. */
     @Property
     void unitCountMachinesTakeOneOfEachItem(@ForAll("cases") Case c) {

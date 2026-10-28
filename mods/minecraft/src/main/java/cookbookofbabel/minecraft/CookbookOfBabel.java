@@ -7,6 +7,7 @@ import cookbookofbabel.minecraft.room.Climates;
 import cookbookofbabel.minecraft.room.StoredRooms;
 import cookbookofbabel.minecraft.substance.EmptyContainers;
 import cookbookofbabel.minecraft.substance.Substance;
+import cookbookofbabel.minecraft.supplant.Supplanting;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.fml.ModLoadingContext;
@@ -28,6 +29,7 @@ public final class CookbookOfBabel {
         });
         MinecraftForge.EVENT_BUS.addGenericListener(net.minecraft.world.item.ItemStack.class, EmptyContainers::attach);
         var rooms = StoredRooms.register(modBus, MinecraftForge.EVENT_BUS);
+        Supplanting.register(MinecraftForge.EVENT_BUS);
         ModLoadingContext.get().registerConfig(ModConfig.Type.COMMON, ClockConfig.SPEC);
         ItemClocks.install(new ItemClocks(rooms, Climates.best()));
     }

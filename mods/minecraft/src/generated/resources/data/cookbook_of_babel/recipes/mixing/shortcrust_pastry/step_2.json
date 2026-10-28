@@ -7,10 +7,20 @@
     },
     {
       "type": "forge:tag_empty",
-      "tag": "cookbook_of_babel:external/shortcrust_pastry_step_2"
+      "tag": "cookbook_of_babel:external/shortcrust_pastry_step_3"
     }
   ],
   "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:shortcrust_pastry_step_1\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/shortcrust_pastry_step_1"
+      }
+    ],
     [
       {
         "type": "forge:partial_nbt",
@@ -100,9 +110,11 @@
   "processingTime": 20,
   "results": [
     {
-      "amount": 531,
-      "fluid": "cookbook_of_babel:bulk",
-      "nbt": "{substance:\"cookbook_of_babel:shortcrust_pastry_step_2\"}"
+      "count": 11,
+      "item": "cookbook_of_babel:substance",
+      "nbt": {
+        "substance": "cookbook_of_babel:shortcrust_pastry_step_3"
+      }
     }
   ]
 }

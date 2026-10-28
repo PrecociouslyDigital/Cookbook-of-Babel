@@ -7,7 +7,7 @@
     },
     {
       "type": "forge:tag_empty",
-      "tag": "cookbook_of_babel:external/zambian_beans_and_rice_step_7"
+      "tag": "cookbook_of_babel:external/zambian_beans_and_rice"
     }
   ],
   "cookingtime": 100,
@@ -42,10 +42,20 @@
       {
         "tag": "cookbook_of_babel:ingredients/rice_boil"
       }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:portion",
+        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:bulk\",Tag:{substance:\"cookbook_of_babel:rice_boil\"}}}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/rice_boil"
+      }
     ]
   ],
   "result": {
-    "item": "cookbook_of_babel:portion",
-    "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:bulk\",Tag:{substance:\"cookbook_of_babel:zambian_beans_and_rice_step_7\"}}}"
+    "count": 3,
+    "item": "cookbook_of_babel:zambian_beans_and_rice"
   }
 }

@@ -1,0 +1,44 @@
+{
+  "id": "bread.bake",
+  "source": "cookbook_of_babel",
+  "technique": "bake",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "dough",
+        "amount": {
+          "qty": 855,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "bread",
+      "amount": {
+        "qty": 750,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 220,
+    "medium": "oven_air"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 35,
+      "unit": "min"
+    }
+  },
+  "stateNote": "browned, and hollow when knocked",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "a loaf loses about a tenth of its dough's mass as steam"
+    }
+  ]
+}

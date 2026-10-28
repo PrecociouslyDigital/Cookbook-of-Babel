@@ -8,7 +8,9 @@ import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
 import java.util.Locale;
+import java.util.Map;
 import java.util.Optional;
+import java.util.TreeMap;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
@@ -77,9 +79,19 @@ public final class Coverage {
     }
 
     private final List<Step> steps = new ArrayList<>();
+    private Map<IngredientId, List<String>> supplanted = Map.of();
 
     public void add(Step step) {
         steps.add(step);
+    }
+
+    /** The ingredients whose other-mod items the mod's recipes take over, and those items. */
+    public void supplanted(Map<IngredientId, List<String>> groups) {
+        supplanted = Map.copyOf(groups);
+    }
+
+    Map<IngredientId, List<String>> supplanted() {
+        return new TreeMap<>(supplanted);
     }
 
     List<Step> steps() {

@@ -113,6 +113,30 @@ final class Reports implements DataProvider {
             context.merging.dropped().forEach(d -> out.append("- `").append(d.recipe()).append("`, like `").append(d.keptRecipe()).append("`\n"));
         }
 
+        out.append("\n## Elided steps\n\n");
+        out.append("Crafting steps that turn one ingredient into another and nothing more, which would be no-op crafts here: ");
+        out.append("each line is the step, its input and output, then the ingredient they became.\n\n");
+        context.eliding.elided().forEach(e -> out.append("- `").append(e.recipe()).append("`: `").append(e.input())
+                .append("` → `").append(e.output()).append("`, now `").append(e.kept()).append("`\n"));
+        if (context.eliding.elided().isEmpty()) {
+            out.append("None.\n");
+        }
+        if (!context.eliding.dropped().isEmpty()) {
+            out.append("\nSteps that eliding left the same as another, and so dropped:\n\n");
+            context.eliding.dropped().forEach(d -> out.append("- `").append(d.recipe()).append("`, like `").append(d.keptRecipe()).append("`\n"));
+        }
+
+        out.append("\n## Supplanted items\n\n");
+        out.append("Ingredients the mod's live recipes make as other mods' items, and every item mapped to each. ");
+        out.append("In game those items lose every recipe but the mod's own: the item the mod makes is supplanted, the rest withdrawn. ");
+        out.append("`withdrawn.json` lists further items withdrawn by hand.\n\n");
+        var supplanted = context.coverage.supplanted();
+        supplanted.forEach((ingredient, items) -> out.append("- `").append(ingredient).append("`: ")
+                .append(Coverage.code(items.stream())).append('\n'));
+        if (supplanted.isEmpty()) {
+            out.append("None.\n");
+        }
+
         transitions(out);
 
         out.append("\n## Steps\n\n");

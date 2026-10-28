@@ -7,32 +7,57 @@
     },
     {
       "type": "forge:tag_empty",
-      "tag": "cookbook_of_babel:external/adoyo_nigerian_ogi_beverage_step_3"
+      "tag": "cookbook_of_babel:external/adoyo_nigerian_ogi_beverage"
     }
   ],
   "heatRequirement": "heated",
   "ingredients": [
-    {
-      "amount": 3,
-      "fluid": "cookbook_of_babel:liquid",
-      "nbt": {
-        "substance": "cookbook_of_babel:adoyo_nigerian_ogi_beverage_step_2"
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:portion",
+        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:liquid\",Tag:{substance:\"cookbook_of_babel:adoyo_nigerian_ogi_beverage_step_2\"}}}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/adoyo_nigerian_ogi_beverage_step_2"
       }
-    },
-    {
-      "amount": 1,
-      "fluid": "cookbook_of_babel:bulk",
-      "nbt": {
-        "substance": "cookbook_of_babel:white_sugar_boil"
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:portion",
+        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:liquid\",Tag:{substance:\"cookbook_of_babel:adoyo_nigerian_ogi_beverage_step_2\"}}}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/adoyo_nigerian_ogi_beverage_step_2"
       }
-    }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:portion",
+        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:liquid\",Tag:{substance:\"cookbook_of_babel:adoyo_nigerian_ogi_beverage_step_2\"}}}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/adoyo_nigerian_ogi_beverage_step_2"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:portion",
+        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:bulk\",Tag:{substance:\"cookbook_of_babel:white_sugar_boil\"}}}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/white_sugar_boil"
+      }
+    ]
   ],
   "processingTime": 20,
   "results": [
     {
-      "amount": 4,
-      "fluid": "cookbook_of_babel:liquid",
-      "nbt": "{substance:\"cookbook_of_babel:adoyo_nigerian_ogi_beverage_step_3\"}"
+      "count": 9,
+      "item": "cookbook_of_babel:adoyo_nigerian_ogi_beverage"
     }
   ]
 }

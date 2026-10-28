@@ -82,6 +82,11 @@ public final class Reachability {
         return plan.inputs().stream().filter(i -> !satisfied(i)).sorted().toList();
     }
 
+    /** Whether the ingredient is a seed or some runnable plan makes it. */
+    public boolean makes(IngredientId ingredient) {
+        return available.contains(ingredient);
+    }
+
     public boolean live(Plan plan) {
         return missing(plan).isEmpty();
     }

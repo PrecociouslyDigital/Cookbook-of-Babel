@@ -7,25 +7,40 @@
     },
     {
       "type": "forge:tag_empty",
-      "tag": "cookbook_of_babel:external/valencian_inspired_paella_step_32"
+      "tag": "cookbook_of_babel:external/valencian_inspired_paella_step_33"
     }
   ],
   "heatRequirement": "heated",
   "ingredients": [
-    {
-      "amount": 3,
-      "fluid": "cookbook_of_babel:bulk",
-      "nbt": {
-        "substance": "cookbook_of_babel:valencian_inspired_paella_step_31"
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:portion",
+        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:bulk\",Tag:{substance:\"cookbook_of_babel:valencian_inspired_paella_step_31\"}}}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/valencian_inspired_paella_step_31"
       }
-    }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:portion",
+        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:bulk\",Tag:{substance:\"cookbook_of_babel:valencian_inspired_paella_step_31\"}}}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/valencian_inspired_paella_step_31"
+      }
+    ]
   ],
   "processingTime": 20,
   "results": [
     {
-      "amount": 3,
-      "fluid": "cookbook_of_babel:bulk",
-      "nbt": "{substance:\"cookbook_of_babel:valencian_inspired_paella_step_32\"}"
+      "count": 5,
+      "item": "cookbook_of_babel:substance",
+      "nbt": {
+        "substance": "cookbook_of_babel:valencian_inspired_paella_step_33"
+      }
     }
   ]
 }

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "category": "food",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "vintagedelight"
+    }
+  ],
+  "cookingtime": 200,
+  "experience": 0.1,
+  "ingredient": [
+    {
+      "type": "forge:partial_nbt",
+      "item": "cookbook_of_babel:substance",
+      "nbt": "{substance:\"cookbook_of_babel:deluxe_burgers_step_3\"}"
+    },
+    {
+      "tag": "cookbook_of_babel:ingredients/deluxe_burgers_step_3"
+    }
+  ],
+  "result": {
+    "item": "vintagedelight:deluxe_burger"
+  }
+}
