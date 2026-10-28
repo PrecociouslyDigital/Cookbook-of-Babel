@@ -1,0 +1,44 @@
+{
+  "id": "rice_rava.grind",
+  "source": "cookbook_of_babel",
+  "technique": "grind",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "rice",
+        "amount": {
+          "qty": 1000,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "rice_rava",
+      "amount": {
+        "qty": 980,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 10,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "cracked to a coarse granular rava, sieved so only the coarse grains stay",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "coarse crack rather than a flour grind"
+    }
+  ]
+}

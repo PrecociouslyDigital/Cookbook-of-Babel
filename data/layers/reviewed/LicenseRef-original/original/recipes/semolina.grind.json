@@ -1,0 +1,44 @@
+{
+  "id": "semolina.grind",
+  "source": "cookbook_of_babel",
+  "technique": "grind",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "wheat",
+        "amount": {
+          "qty": 1000,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "semolina",
+      "amount": {
+        "qty": 800,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 10,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "milled coarse and the flour sifted so the gritty endosperm particles remain",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "coarse durum-style milling; the finer flour fractions are sieved away"
+    }
+  ]
+}

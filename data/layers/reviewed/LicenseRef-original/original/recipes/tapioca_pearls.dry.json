@@ -1,0 +1,48 @@
+{
+  "id": "tapioca_pearls.dry",
+  "source": "cookbook_of_babel",
+  "technique": "dry",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "tapioca_dough",
+        "amount": {
+          "qty": 750,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "tapioca_pearls",
+      "amount": {
+        "qty": 500,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 55,
+    "medium": "convection_air"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 600,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "rolled into small pearls and dried until hard and opaque",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "shaping the pearls is folded into the drying step; the dough loses its moisture as it sets"
+    }
+  ]
+}

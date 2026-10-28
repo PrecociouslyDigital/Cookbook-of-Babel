@@ -1,0 +1,55 @@
+{
+  "id": "bulgur.parboil",
+  "source": "cookbook_of_babel",
+  "technique": "boil",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "wheat",
+        "amount": {
+          "qty": 1000,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "water",
+        "amount": {
+          "qty": 1500,
+          "unit": "ml"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "parboiled_wheat",
+      "amount": {
+        "qty": 2200,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 100,
+    "medium": "simmering_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 60,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "simmered until the kernels are swollen and tender",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "the kernels take up roughly their own weight in water"
+    }
+  ]
+}

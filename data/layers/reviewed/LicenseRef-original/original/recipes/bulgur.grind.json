@@ -1,0 +1,44 @@
+{
+  "id": "bulgur.grind",
+  "source": "cookbook_of_babel",
+  "technique": "grind",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "dried_parboiled_wheat",
+        "amount": {
+          "qty": 1000,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "bulgur",
+      "amount": {
+        "qty": 1000,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 10,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "cracked coarse and the loosened bran sifted off",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "cracked rather than ground to flour; some bran powder is sieved off"
+    }
+  ]
+}

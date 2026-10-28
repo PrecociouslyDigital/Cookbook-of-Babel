@@ -1,0 +1,44 @@
+{
+  "id": "cornmeal.grind",
+  "source": "cookbook_of_babel",
+  "technique": "grind",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "dried_corn",
+        "amount": {
+          "qty": 900,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "cornmeal",
+      "amount": {
+        "qty": 900,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 10,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "hammer-milled to a fine meal, germ and hull left in",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "plain dry-grind cornmeal; no alkaline nixtamalization step"
+    }
+  ]
+}

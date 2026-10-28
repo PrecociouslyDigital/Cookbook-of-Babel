@@ -1,0 +1,67 @@
+{
+  "id": "gluten.wash",
+  "source": "cookbook_of_babel",
+  "technique": "separate",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "wheat_dough_ball",
+        "amount": {
+          "qty": 1500,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "water",
+        "amount": {
+          "qty": 1500,
+          "unit": "ml"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "gluten",
+      "amount": {
+        "qty": 120,
+        "unit": "g"
+      }
+    },
+    {
+      "ingredient": "starch",
+      "amount": {
+        "qty": 700,
+        "unit": "g"
+      },
+      "role": "byproduct"
+    },
+    {
+      "ingredient": "water",
+      "amount": {
+        "qty": 1650,
+        "unit": "ml"
+      },
+      "role": "byproduct"
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 20,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "the dough kneaded under running water until only the sticky gluten strands remain",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "washing yield estimated; the cloudy rinse water carries the starch away"
+    }
+  ]
+}

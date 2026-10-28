@@ -1,0 +1,59 @@
+{
+  "id": "wheat_germ.separate",
+  "source": "cookbook_of_babel",
+  "technique": "separate",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "whole_wheat_flour",
+        "amount": {
+          "qty": 1000,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "wheat_flour",
+      "amount": {
+        "qty": 820,
+        "unit": "g"
+      }
+    },
+    {
+      "ingredient": "wheat_germ",
+      "amount": {
+        "qty": 30,
+        "unit": "g"
+      }
+    },
+    {
+      "ingredient": "wheat_bran",
+      "amount": {
+        "qty": 140,
+        "unit": "g"
+      },
+      "role": "byproduct"
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 30,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "sieved and re-sifted so the oily germ and flaky bran separate from the white flour",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "industrial milling proportions estimated from kernel composition"
+    }
+  ]
+}

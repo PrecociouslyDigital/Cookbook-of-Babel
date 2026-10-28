@@ -1,0 +1,48 @@
+{
+  "id": "instant_mashed_potato_flakes.dry",
+  "source": "cookbook_of_babel",
+  "technique": "dry",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "mashed_potatoes",
+        "amount": {
+          "qty": 1000,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "instant_mashed_potato_flakes",
+      "amount": {
+        "qty": 200,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 60,
+    "medium": "convection_air"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 600,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "spread in a thin sheet, dried and broken into flakes",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "mashed potatoes are mostly water; drying yields about a fifth of the mass"
+    }
+  ]
+}

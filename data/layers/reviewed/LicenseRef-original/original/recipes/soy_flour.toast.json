@@ -1,0 +1,48 @@
+{
+  "id": "soy_flour.toast",
+  "source": "cookbook_of_babel",
+  "technique": "toast",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "soy_bean",
+        "amount": {
+          "qty": 1000,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "toasted_soy_bean",
+      "amount": {
+        "qty": 950,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 170,
+    "medium": "oven_air"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 15,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "spread on a tray and toasted until nutty-smelling",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "toasting inactivates the raw-bean enzymes and flavours; time estimated"
+    }
+  ]
+}

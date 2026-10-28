@@ -1,0 +1,60 @@
+{
+  "id": "tapioca_starch.settle",
+  "source": "cookbook_of_babel",
+  "technique": "separate",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "cassava_slurry",
+        "amount": {
+          "qty": 1500,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "wet_tapioca_starch",
+      "amount": {
+        "qty": 400,
+        "unit": "g"
+      }
+    },
+    {
+      "ingredient": "cassava_pulp",
+      "amount": {
+        "qty": 500,
+        "unit": "g"
+      },
+      "role": "byproduct"
+    },
+    {
+      "ingredient": "water",
+      "amount": {
+        "qty": 600,
+        "unit": "ml"
+      },
+      "role": "byproduct"
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 480,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "the slurry is left standing so the starch settles and the pulp is strained off",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "settling yield estimated; the fibrous pulp retains some starch"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": "grits.grind",
+  "source": "cookbook_of_babel",
+  "technique": "grind",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "corn",
+        "amount": {
+          "qty": 1000,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "grits",
+      "amount": {
+        "qty": 950,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 10,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "cracked coarse on a stone mill and the loose hulls winnowed off",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "some hull and dust is lost when the cracked corn is winnowed"
+    }
+  ]
+}
