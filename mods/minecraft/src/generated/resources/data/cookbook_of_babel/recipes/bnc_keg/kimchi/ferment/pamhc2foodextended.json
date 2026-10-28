@@ -1,0 +1,76 @@
+{
+  "type": "brewinandchewin:fermenting",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "brewinandchewin"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "pamhc2foodextended"
+    },
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:mod_loaded",
+        "modid": "brewinandchewin"
+      }
+    },
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:mod_loaded",
+        "modid": "vintagedelight"
+      }
+    }
+  ],
+  "experience": 0.1,
+  "fermentingtime": 24000,
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:salted_napa_cabbage\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/salted_napa_cabbage"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:salted_napa_cabbage\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/salted_napa_cabbage"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:salted_napa_cabbage\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/salted_napa_cabbage"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:kimchi_spice_paste\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/kimchi_spice_paste"
+      }
+    ]
+  ],
+  "result": {
+    "count": 8,
+    "item": "pamhc2foodextended:kimchiitem"
+  },
+  "temperature": 3
+}

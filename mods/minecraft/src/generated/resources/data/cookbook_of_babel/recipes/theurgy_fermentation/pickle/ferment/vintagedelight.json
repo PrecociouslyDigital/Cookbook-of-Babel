@@ -1,0 +1,44 @@
+{
+  "type": "theurgy:fermentation",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "theurgy"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "vintagedelight"
+    }
+  ],
+  "fluid": {
+    "fluid": "minecraft:water"
+  },
+  "fluidAmount": 261,
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:cucumber\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/cucumber"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:portion",
+        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:bulk\",Tag:{substance:\"cookbook_of_babel:salt\"}}}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/salt"
+      }
+    ]
+  ],
+  "result": {
+    "Count": 1,
+    "id": "vintagedelight:pickle"
+  },
+  "time": 24000
+}

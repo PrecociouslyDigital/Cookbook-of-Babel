@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "pamhc2foodextended"
+    },
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:mod_loaded",
+        "modid": "croptopia"
+      }
+    }
+  ],
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:peanut_butter_and_jelly_sandwich_step_1\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/peanut_butter_and_jelly_sandwich_step_1"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:fruit_preserves\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/fruit_preserves"
+      }
+    ]
+  ],
+  "result": {
+    "item": "pamhc2foodextended:cactusfruitjellysandwichitem"
+  }
+}

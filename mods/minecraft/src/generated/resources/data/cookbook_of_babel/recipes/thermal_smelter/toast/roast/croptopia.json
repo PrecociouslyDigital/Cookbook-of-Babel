@@ -1,0 +1,39 @@
+{
+  "type": "thermal:smelter",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "thermal_expansion"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "croptopia"
+    }
+  ],
+  "energy": 2000,
+  "ingredients": [
+    {
+      "value": [
+        {
+          "type": "forge:partial_nbt",
+          "item": "cookbook_of_babel:substance",
+          "nbt": "{substance:\"cookbook_of_babel:bread\"}"
+        },
+        {
+          "type": "forge:partial_nbt",
+          "item": "cookbook_of_babel:substance",
+          "nbt": "{substance:\"cookbook_of_babel:stale_bread\"}"
+        },
+        {
+          "tag": "cookbook_of_babel:ingredients/bread"
+        }
+      ]
+    }
+  ],
+  "result": [
+    {
+      "count": 2,
+      "item": "croptopia:toast"
+    }
+  ]
+}

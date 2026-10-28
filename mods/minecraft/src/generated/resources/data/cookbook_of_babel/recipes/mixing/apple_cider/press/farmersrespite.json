@@ -1,0 +1,32 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "farmersrespite"
+    }
+  ],
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:apple\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/apple"
+      }
+    ]
+  ],
+  "processingTime": 300,
+  "results": [
+    {
+      "amount": 87,
+      "fluid": "farmersrespite:apple_cider"
+    }
+  ]
+}

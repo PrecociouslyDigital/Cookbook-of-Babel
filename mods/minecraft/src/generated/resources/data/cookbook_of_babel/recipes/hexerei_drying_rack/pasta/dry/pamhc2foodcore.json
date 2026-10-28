@@ -1,0 +1,33 @@
+{
+  "type": "hexerei:drying_rack",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "hexerei"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "pamhc2foodcore"
+    },
+    {
+      "type": "forge:false"
+    }
+  ],
+  "dryingTimeInTicks": 14400,
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:raw_pasta\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/raw_pasta"
+      }
+    ]
+  ],
+  "output": {
+    "count": 1,
+    "item": "pamhc2foodcore:pastaitem"
+  }
+}

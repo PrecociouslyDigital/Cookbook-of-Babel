@@ -1,0 +1,49 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/ewedu_soup_yoruba_style_step_5"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "pneumaticcraft"
+    }
+  ],
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:portion",
+        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:liquid\",Tag:{substance:\"cookbook_of_babel:ewedu_soup_yoruba_style_step_4\"}}}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/ewedu_soup_yoruba_style_step_4"
+      }
+    ],
+    {
+      "amount": 64,
+      "fluid": "pneumaticcraft:vegetable_oil",
+      "nbt": {}
+    },
+    {
+      "amount": 32,
+      "fluid": "cookbook_of_babel:bulk",
+      "nbt": {
+        "substance": "cookbook_of_babel:ground_crayfish"
+      }
+    }
+  ],
+  "processingTime": 20,
+  "results": [
+    {
+      "amount": 218,
+      "fluid": "cookbook_of_babel:liquid",
+      "nbt": "{substance:\"cookbook_of_babel:ewedu_soup_yoruba_style_step_5\"}"
+    }
+  ]
+}

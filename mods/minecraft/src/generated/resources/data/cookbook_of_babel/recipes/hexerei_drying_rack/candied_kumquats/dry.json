@@ -1,0 +1,30 @@
+{
+  "type": "hexerei:drying_rack",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "hexerei"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/candied_kumquats"
+    }
+  ],
+  "dryingTimeInTicks": 14400,
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:poached_kumquat\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/poached_kumquat"
+      }
+    ]
+  ],
+  "output": {
+    "count": 1,
+    "item": "cookbook_of_babel:candied_kumquats"
+  }
+}

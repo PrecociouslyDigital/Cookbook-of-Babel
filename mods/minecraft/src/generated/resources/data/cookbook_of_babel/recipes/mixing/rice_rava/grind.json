@@ -1,0 +1,30 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/rice_rava"
+    }
+  ],
+  "ingredients": [
+    {
+      "amount": 28,
+      "fluid": "cookbook_of_babel:liquid",
+      "nbt": {
+        "substance": "cookbook_of_babel:rice_grind"
+      }
+    }
+  ],
+  "processingTime": 200,
+  "results": [
+    {
+      "amount": 31,
+      "fluid": "cookbook_of_babel:bulk",
+      "nbt": "{substance:\"cookbook_of_babel:rice_rava\"}"
+    }
+  ]
+}

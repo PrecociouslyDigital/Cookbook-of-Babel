@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:smelting",
+  "category": "food",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "pamhc2foodextended"
+    },
+    {
+      "type": "forge:false"
+    }
+  ],
+  "cookingtime": 200,
+  "experience": 0.1,
+  "ingredient": [
+    {
+      "type": "forge:partial_nbt",
+      "item": "cookbook_of_babel:substance",
+      "nbt": "{substance:\"cookbook_of_babel:unbaked_peach_pie\"}"
+    },
+    {
+      "tag": "cookbook_of_babel:ingredients/unbaked_peach_pie"
+    }
+  ],
+  "result": {
+    "item": "pamhc2foodextended:peachpieitem"
+  }
+}

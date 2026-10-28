@@ -1,0 +1,44 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/fruit_nectar"
+    }
+  ],
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:peach\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/peach"
+      }
+    ],
+    {
+      "amount": 65,
+      "fluidTag": "minecraft:water"
+    },
+    {
+      "amount": 26,
+      "fluid": "cookbook_of_babel:bulk",
+      "nbt": {
+        "substance": "cookbook_of_babel:white_sugar"
+      }
+    }
+  ],
+  "processingTime": 200,
+  "results": [
+    {
+      "amount": 207,
+      "fluid": "cookbook_of_babel:liquid",
+      "nbt": "{substance:\"cookbook_of_babel:fruit_nectar\"}"
+    }
+  ]
+}

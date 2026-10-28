@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "category": "food",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "farmersdelight"
+    },
+    {
+      "type": "forge:false"
+    }
+  ],
+  "cookingtime": 800,
+  "experience": 0.1,
+  "ingredient": [
+    {
+      "type": "forge:partial_nbt",
+      "item": "cookbook_of_babel:substance",
+      "nbt": "{substance:\"cookbook_of_babel:cured_pork_belly\"}"
+    },
+    {
+      "tag": "cookbook_of_babel:ingredients/cured_pork_belly"
+    }
+  ],
+  "result": {
+    "count": 2,
+    "item": "farmersdelight:bacon"
+  }
+}

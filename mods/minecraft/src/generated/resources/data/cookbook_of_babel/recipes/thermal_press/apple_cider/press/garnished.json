@@ -1,0 +1,41 @@
+{
+  "type": "thermal:press",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "thermal_expansion"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "garnished"
+    },
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:mod_loaded",
+        "modid": "farmersrespite"
+      }
+    }
+  ],
+  "energy": 6000,
+  "ingredients": [
+    {
+      "value": [
+        {
+          "type": "forge:partial_nbt",
+          "item": "cookbook_of_babel:substance",
+          "nbt": "{substance:\"cookbook_of_babel:apple\"}"
+        },
+        {
+          "tag": "cookbook_of_babel:ingredients/apple"
+        }
+      ]
+    }
+  ],
+  "result": [
+    {
+      "amount": 87,
+      "fluid": "garnished:apple_cider"
+    }
+  ]
+}

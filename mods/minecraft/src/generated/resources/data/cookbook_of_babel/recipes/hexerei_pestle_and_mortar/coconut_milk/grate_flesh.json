@@ -1,0 +1,31 @@
+{
+  "type": "hexerei:pestle_and_mortar",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "hexerei"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/grated_coconut"
+    }
+  ],
+  "grindingTime": 300,
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:coconut_flesh\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/coconut_flesh"
+      }
+    ]
+  ],
+  "output": {
+    "count": 14,
+    "item": "cookbook_of_babel:substance",
+    "nbt": "{substance:\"cookbook_of_babel:grated_coconut\"}"
+  }
+}

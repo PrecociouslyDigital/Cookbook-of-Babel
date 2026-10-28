@@ -1,0 +1,40 @@
+{
+  "type": "hexerei:pestle_and_mortar",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "hexerei"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "croptopia"
+    }
+  ],
+  "grindingTime": 200,
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:dried_sweet_chiles\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/dried_sweet_chiles"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:dried_sweet_chiles\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/dried_sweet_chiles"
+      }
+    ]
+  ],
+  "output": {
+    "count": 1,
+    "item": "croptopia:paprika"
+  }
+}

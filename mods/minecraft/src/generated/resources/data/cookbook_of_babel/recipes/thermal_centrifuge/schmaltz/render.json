@@ -1,0 +1,35 @@
+{
+  "type": "thermal:centrifuge",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "thermal_expansion"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/schmaltz"
+    }
+  ],
+  "energy": 18000,
+  "ingredients": [
+    {
+      "value": [
+        {
+          "type": "forge:partial_nbt",
+          "item": "cookbook_of_babel:substance",
+          "nbt": "{substance:\"cookbook_of_babel:chicken_boil\"}"
+        },
+        {
+          "tag": "cookbook_of_babel:ingredients/chicken_boil"
+        }
+      ]
+    }
+  ],
+  "result": [
+    {
+      "amount": 10,
+      "fluid": "cookbook_of_babel:liquid",
+      "nbt": "{substance:\"cookbook_of_babel:schmaltz\"}"
+    }
+  ]
+}

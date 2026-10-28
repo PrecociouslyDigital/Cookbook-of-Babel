@@ -1,0 +1,32 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "garnished"
+    }
+  ],
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:peanut\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/peanut"
+      }
+    ]
+  ],
+  "processingTime": 300,
+  "results": [
+    {
+      "amount": 59,
+      "fluid": "garnished:peanut_oil"
+    }
+  ]
+}

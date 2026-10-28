@@ -1,0 +1,70 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/bengali_five_spice_mix_panch_puran"
+    }
+  ],
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:cumin\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/cumin"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:nigella\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/nigella"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:mustard_seed\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/mustard_seed"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:fennel\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/fennel"
+      }
+    ],
+    {
+      "amount": 130,
+      "fluid": "cookbook_of_babel:bulk",
+      "nbt": {
+        "substance": "cookbook_of_babel:fenugreek"
+      }
+    }
+  ],
+  "processingTime": 100,
+  "results": [
+    {
+      "amount": 649,
+      "fluid": "cookbook_of_babel:bulk",
+      "nbt": "{substance:\"cookbook_of_babel:bengali_five_spice_mix_panch_puran\"}"
+    }
+  ]
+}

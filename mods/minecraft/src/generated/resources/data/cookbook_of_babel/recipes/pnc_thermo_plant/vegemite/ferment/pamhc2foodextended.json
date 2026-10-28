@@ -1,0 +1,27 @@
+{
+  "type": "pneumaticcraft:thermo_plant",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "pneumaticcraft"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "pamhc2foodextended"
+    }
+  ],
+  "item_input": [
+    {
+      "type": "forge:partial_nbt",
+      "item": "cookbook_of_babel:substance",
+      "nbt": "{substance:\"cookbook_of_babel:yeast_extract\"}"
+    },
+    {
+      "tag": "cookbook_of_babel:ingredients/yeast_extract"
+    }
+  ],
+  "item_output": {
+    "count": 1,
+    "item": "pamhc2foodextended:vegemiteitem"
+  }
+}

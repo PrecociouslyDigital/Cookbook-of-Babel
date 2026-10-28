@@ -1,0 +1,34 @@
+{
+  "type": "thermal:press",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "thermal_expansion"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "pneumaticcraft"
+    }
+  ],
+  "energy": 6000,
+  "ingredients": [
+    {
+      "value": [
+        {
+          "type": "forge:partial_nbt",
+          "item": "cookbook_of_babel:substance",
+          "nbt": "{substance:\"cookbook_of_babel:sunflower_seeds\"}"
+        },
+        {
+          "tag": "cookbook_of_babel:ingredients/sunflower_seeds"
+        }
+      ]
+    }
+  ],
+  "result": [
+    {
+      "amount": 59,
+      "fluid": "pneumaticcraft:vegetable_oil"
+    }
+  ]
+}

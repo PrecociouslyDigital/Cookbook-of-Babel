@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:smoking",
+  "category": "food",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "thermal_cultivation"
+    },
+    {
+      "type": "forge:false"
+    }
+  ],
+  "cookingtime": 200,
+  "experience": 0.1,
+  "ingredient": [
+    {
+      "type": "forge:partial_nbt",
+      "item": "cookbook_of_babel:substance",
+      "nbt": "{substance:\"cookbook_of_babel:unbaked_stuffed_peppers\"}"
+    },
+    {
+      "tag": "cookbook_of_babel:ingredients/unbaked_stuffed_peppers"
+    }
+  ],
+  "result": {
+    "count": 2,
+    "item": "thermal:stuffed_pepper"
+  }
+}

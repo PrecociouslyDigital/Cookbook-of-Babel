@@ -10,77 +10,71 @@ Steps of each technique: all of them, those with a recipe in at least one machin
 
 | Technique | Steps | With a recipe | As a transition |
 |---|---|---|---|
-| age | 104 | 79 | 0 |
+| age | 120 | 79 | 0 |
 | ash | 1 | 1 | 0 |
-| assemble | 1011 | 586 | 0 |
-| bake | 905 | 597 | 0 |
-| blend | 427 | 368 | 0 |
-| boil | 921 | 786 | 0 |
+| assemble | 1024 | 551 | 0 |
+| bake | 937 | 587 | 0 |
+| blend | 439 | 375 | 0 |
+| boil | 951 | 800 | 0 |
 | calcine | 1 | 1 | 0 |
-| carbonate | 5 | 4 | 0 |
-| chill | 375 | 3 | 267 |
-| chop | 221 | 159 | 0 |
-| churn | 5 | 5 | 0 |
-| coagulate | 55 | 52 | 0 |
-| coat | 556 | 305 | 0 |
-| cool | 736 | 0 | 527 |
-| crystallize | 2 | 2 | 0 |
-| cure | 47 | 26 | 0 |
-| cut | 671 | 454 | 0 |
-| dissolve | 78 | 71 | 0 |
-| dry | 140 | 103 | 106 |
-| evaporate | 193 | 150 | 0 |
-| ferment | 198 | 156 | 133 |
-| fold | 98 | 88 | 0 |
-| freeze | 33 | 23 | 24 |
-| freezer_burn | 402 | 0 | 402 |
-| fry | 535 | 446 | 0 |
-| grill | 241 | 115 | 0 |
-| grind | 289 | 215 | 0 |
-| heat | 811 | 702 | 0 |
+| carbonate | 6 | 3 | 0 |
+| chill | 375 | 3 | 256 |
+| chop | 223 | 159 | 0 |
+| churn | 8 | 8 | 0 |
+| coagulate | 63 | 58 | 0 |
+| coat | 560 | 290 | 0 |
+| cool | 736 | 0 | 507 |
+| crystallize | 3 | 3 | 0 |
+| cure | 48 | 26 | 0 |
+| cut | 680 | 449 | 0 |
+| dissolve | 78 | 69 | 0 |
+| distill | 9 | 9 | 0 |
+| dry | 184 | 113 | 134 |
+| evaporate | 200 | 154 | 0 |
+| ferment | 226 | 172 | 134 |
+| fold | 100 | 87 | 0 |
+| freeze | 34 | 24 | 25 |
+| freezer_burn | 402 | 0 | 394 |
+| fry | 544 | 438 | 0 |
+| grill | 244 | 112 | 0 |
+| grind | 337 | 246 | 0 |
+| heat | 820 | 692 | 0 |
 | julienne | 17 | 11 | 0 |
-| knead | 83 | 73 | 0 |
-| mix | 3311 | 2828 | 0 |
-| mold | 206 | 0 | 206 |
-| pan_fry | 1116 | 960 | 0 |
-| press | 79 | 62 | 0 |
-| rancid | 43 | 0 | 43 |
+| knead | 101 | 84 | 0 |
+| mix | 3378 | 2757 | 0 |
+| mold | 205 | 0 | 199 |
+| pan_fry | 1117 | 923 | 0 |
+| press | 104 | 87 | 0 |
+| rancid | 43 | 0 | 42 |
 | rinse | 339 | 321 | 0 |
-| roast | 175 | 106 | 0 |
-| season | 1072 | 814 | 0 |
-| separate | 415 | 325 | 0 |
-| shape | 146 | 121 | 0 |
-| simmer | 1319 | 1016 | 0 |
-| smoke | 23 | 15 | 0 |
-| soak | 412 | 377 | 0 |
-| sour | 38 | 0 | 38 |
-| spoil | 251 | 0 | 251 |
+| roast | 181 | 109 | 0 |
+| season | 1072 | 796 | 0 |
+| separate | 435 | 336 | 0 |
+| shape | 148 | 115 | 0 |
+| simmer | 1327 | 996 | 0 |
+| smoke | 30 | 17 | 0 |
+| soak | 421 | 380 | 0 |
+| sour | 38 | 0 | 37 |
+| spoil | 251 | 0 | 248 |
 | sprout | 6 | 6 | 0 |
-| stale | 319 | 0 | 319 |
-| steam | 191 | 138 | 0 |
-| steep | 96 | 77 | 0 |
-| stir_fry | 324 | 253 | 0 |
-| strain | 348 | 309 | 0 |
-| toast | 210 | 132 | 0 |
-| whisk | 392 | 340 | 0 |
+| stale | 319 | 0 | 311 |
+| steam | 195 | 139 | 0 |
+| steep | 105 | 85 | 0 |
+| stir_fry | 327 | 245 | 0 |
+| strain | 350 | 309 | 0 |
+| toast | 211 | 120 | 0 |
+| whisk | 397 | 336 | 0 |
 
 ## Unmapped leaves
 
 Used by some step, and neither they nor anything that counts as them is made by a step or provided by a mapped mod, so nothing in the game produces them. `build/babel/candidates/<mod>.json` proposes mappings for them and for anything else that a mod's items or fluids name.
 
 - `ackawi` (ackawi)
-- `acorn_squash` (acorn squash)
 - `adobo_chicken_philippine` (adobo)
-- `adobo_seasoning` (adobo seasoning)
 - `afang` (afang)
-- `african_eggplants` (african eggplants)
 - `african_pear` (african pear)
 - `african_star_apple` (african star apple)
-- `agar` (agar)
-- `agave_syrup` (agave syrup)
 - `aidan_fruit` (aidan fruit)
-- `aji_amarillo` (aji amarillo)
-- `aji_dulce` (ají dulce)
 - `aji_limo` (aji limo)
 - `ajinomoto` (ajinomoto)
 - `akamu_paste` (akamu paste)
@@ -90,77 +84,50 @@ Used by some step, and neither they nor anything that counts as them is made by 
 - `alfalfa_sprouts` (alfalfa)
 - `all_purpose_seasoning` (all-purpose seasoning)
 - `alligator_pepper` (alligator pepper)
-- `almond_extract` (almond extract)
-- `almond_flour` (almond flour)
 - `almond_gum` (almond gum)
-- `almond_oil` (almond oil)
 - `amba_sauce` (amba sauce)
-- `amchoor` (amchoor)
 - `ancho` (ancho)
 - `ancho_enchilada_sauce` (ancho enchilada sauce)
 - `anchovy_liquor` (anchovy liquor)
-- `anchovy_paste` (anchovy paste)
 - `angostura_bitters` (angostura bitters)
 - `animal_blood` (animal blood)
 - `applewood_chunks` (applewood chunks)
-- `arbol_chiles` (arbol chiles)
-- `arborio_rice` (arborio rice)
 - `aromatic_bitters` (aromatic bitters)
 - `arugula` (arugula)
 - `ashanti_pepper` (uziza)
-- `asian_pear` (asian pear)
 - `assorted_fruit` (assorted fruit)
 - `assorted_meat` (assorted meat)
-- `assorted_salad_greens` (assorted salad greens)
 - `atama` (atama)
 - `attieke` (attieke)
 - `awaze_sauce` (awaze sauce)
 - `ayib` (ayib)
-- `azuki_bean` (azuki bean)
 - `bacon_drippings` (bacon drippings)
-- `bacon_fat` (bacon fat)
 - `bacon_grease` (bacon grease)
-- `bagel` (bagel)
 - `bagoong_alamang` (bagoong alamang)
-- `baguette` (baguette)
-- `baguettes` (baguettes)
 - `baharat` (baharat)
 - `baker_s_ammonia` (horn salt)
-- `baking_mix` (baking mix)
 - `ball_pizza_dough` (ball pizza dough)
-- `bambara_bean` (bambara bean)
 - `bamboo_shoot` (bamboo shoot)
 - `banana_blossom` (banana blossom)
-- `banana_ketchup` (banana ketchup)
 - `banana_leaf` (banana leaf)
 - `banana_leaves` (banana leaves)
-- `banana_pepper` (banana pepper)
-- `banana_peppers` (banana peppers)
 - `banga_spice` (banga spice)
 - `banga_spice_mix` (banga spice mix)
 - `baobab` (baobab)
 - `barberry` (barberry)
 - `basic_pizza_crust` (basic pizza crust)
-- `basmati` (basmati)
 - `bay_leaves` (bay leaves)
 - `bazeen_dough` (bazeen dough)
 - `bean_sprout` (bean sprout)
 - `bechamel_sauce` (béchamel sauce)
-- `beef_bones` (beef bones)
 - `beef_bouillon_cubes` (beef bouillon cubes)
 - `beef_caps` (beef caps)
-- `beef_consomme` (beef consommé)
-- `beef_steaks` (beef steaks)
-- `beef_stock` (fond brun de boeuf)
 - `beef_stock_cubes` (beef stock cubes)
 - `beef_with_bones` (beef with bones)
 - `beet` (beet)
-- `bengali_five_spice_mix_panch_puran` (panch puran)
-- `berbere_spice` (berbere spice)
 - `berries` (berries)
 - `berry` (berry)
 - `biltong` (biltong)
-- `biscuit_dough` (biscuit dough)
 - `bison` (bison)
 - `bison_fat` (bison fat)
 - `bitter_bean` (bitter bean)
@@ -170,57 +137,34 @@ Used by some step, and neither they nor anything that counts as them is made by 
 - `black_cardamom` (black cardamom)
 - `black_eyed_peas` (black-eyed peas)
 - `black_salt` (black salt)
-- `black_vinegar` (black vinegar)
-- `blackstrap_molasses` (blackstrap molasses)
 - `blood_orange` (blood orange)
 - `blue_cheese_dressing` (blue cheese dressing)
 - `blue_food_coloring` (blue food coloring)
 - `boiled_peas` (boiled peas)
 - `boiled_rice` (boiled rice)
 - `bonga_fish_fillets` (bonga fish fillets)
-- `bonito_flakes` (bonito flakes)
 - `boom_blackcurrant_beverage` (boom blackcurrant beverage)
-- `bouquet_garni` (bouquet garni)
 - `bourbon` (bourbon)
 - `boursin_brand_cheese` (boursin brand cheese)
-- `brandy` (brandy)
 - `brazil_nut` (brazil nut)
-- `bread_crumbs` (bread crumb)
-- `bread_flour` (bread flour)
-- `bread_rolls` (bread rolls)
 - `breading` (breading)
 - `breakfast_cereal` (breakfast cereal)
 - `brewer_s_yeast` (brewer's yeast)
-- `brie_cheese` (brie cheese)
 - `broccoli_rabe` (broccoli rabe)
 - `broken_cherry_pits` (broken cherry pits)
-- `brown_beans` (brown beans)
 - `brown_flour` (brown flour)
 - `brown_roux` (brown roux)
-- `brown_stock` (brown stock)
 - `brownie_squares` (brownie squares)
 - `bryndza` (bryndza)
-- `buckwheat` (buckwheat)
-- `buckwheat_flour` (buckwheat flour)
 - `buffaloberry` (buffaloberry)
-- `bulgur` (bulgur)
 - `bulla_cakes` (bulla cakes)
-- `bun` (bun)
 - `buns` (buns)
 - `burdock` (burdock)
-- `butter_flavored_salt` (butter-flavored salt)
-- `buttercream` (buttercream)
-- `buttermilk` (buttermilk)
-- `butternut_squash` (butternut squash)
 - `caffeine` (caffeine)
-- `cajun_seasoning` (cajun seasoning)
-- `cake` (cake)
 - `cake_emulsifier` (cake emulsifier)
-- `cake_mix` (cake mix)
 - `cake_of_ragi_tapai` (cake of ragi tapai)
 - `calabash_nutmeg` (calabash nutmeg)
 - `calamansi` (calamansi)
-- `calasparra_rice` (calasparra rice)
 - `calf_s_foot` (calf's foot)
 - `cameroonian_smoked_fish` (cameroonian smoked fish)
 - `can_english_peas` (can english peas)
@@ -232,22 +176,17 @@ Used by some step, and neither they nor anything that counts as them is made by 
 - `canned_pork_and_beans` (canned pork and beans)
 - `cannoli_shells` (cannoli shells)
 - `capers` (capers)
-- `cara_cara_orange` (cara cara orange)
 - `caramel_sauce` (caramel sauce)
 - `caramelized_onion_rings` (caramelized onion rings)
 - `caraway_seed` (caraway seed)
-- `carbonated_water` (carbonated water)
 - `carp` (carp)
 - `carrot_powder` (carrot powder)
 - `cascabel` (cascabel)
 - `cassava_tubers` (cassava tubers)
 - `catfish` (catfish)
-- `caviar` (caviar)
 - `cayenne` (cayenne)
 - `cayenne_pepper` (cayenne pepper)
 - `celery_root` (celery root)
-- `celery_salt` (celery salt)
-- `celery_stalk` (celery stalk)
 - `cereal` (cereal)
 - `chaat_masala` (chaat masala)
 - `char_siu` (char siu)
@@ -256,34 +195,24 @@ Used by some step, and neither they nor anything that counts as them is made by 
 - `chayote` (chayote)
 - `cheddar_cheese` (cheddar cheese)
 - `cheerios` (cheerios)
-- `cheeselets` (cheeselets)
 - `cherry_beer` (cherry beer)
 - `cherry_peppers` (cherry peppers)
-- `cherry_pie_filling` (cherry pie filling)
 - `chervil` (chervil)
 - `chibwabwa` (chibwabwa)
 - `chicken_and_herb_seasoning` ("chicken and herb" seasoning)
-- `chicken_breast` (chicken breast)
-- `chicken_breast_halves` (chicken breast halves)
 - `chicken_broth` (chicken broth)
 - `chicken_feet` (chicken feet)
 - `chicken_flavour_bouillon_cube` (chicken-flavour bouillon cube)
-- `chicken_hot_dogs` (chicken hot dogs)
 - `chicken_satay` (chicken satay)
 - `chicken_seasoning` (chicken seasoning)
-- `chickpea_flour` (chickpea flour)
 - `chicory` (chicory)
-- `chile` (chile)
-- `chile_flakes` (chile flakes)
 - `chile_oil` (chile oil)
 - `chile_paste_and_sauce` (chile paste and sauce)
 - `chile_powder` (chile powder)
 - `chile_tomato_puree` (chile-tomato purée)
-- `chiles_de_arbol` (chiles de arbol)
 - `chili_bean_paste` (chili bean paste)
 - `chili_garlic_sauce` (chili garlic sauce)
 - `chili_leaves` (chili leaves)
-- `chili_powder` (chile powder)
 - `chilies` (chilies)
 - `chilli_ginger_paste` (chilli-ginger paste)
 - `chillies` (chillies)
@@ -303,77 +232,45 @@ Used by some step, and neither they nor anything that counts as them is made by 
 - `chuck_roast` (chuck roast)
 - `chunk_chicken` (chunk chicken)
 - `chutney` (chutney)
-- `ciabatta_roll` (ciabatta roll)
-- `ciabatta_rolls` (ciabatta rolls)
-- `cider_vinegar` (cider vinegar)
-- `cinnamon_powder` (cinnamon powder)
-- `cinnamon_stick` (cinnamon stick)
-- `cinnamon_sugar` (cinnamon sugar)
 - `citric_acid` (citric acid)
 - `citron` (citron)
 - `citrus` (citrus)
-- `clarified_butter` (clarified butter)
 - `clean_water` (clean water)
-- `cleaned_leek_green` (cleaned leek green)
 - `clementine` (clementine)
 - `clotted_cream` (clotted cream)
 - `coarse_bulgur` (coarse bulgur)
 - `coarse_cornmeal` (coarse cornmeal)
 - `coarse_salt` (coarse salt)
 - `coarsely_chopped_leeks` (coarsely-chopped leeks)
-- `coarsely_chopped_onion` (coarsely-chopped onion)
 - `coarsely_ground_black_pepper` (coarsely-ground black pepper)
 - `cocktail_bitters` (cocktail bitters)
 - `coco_pops_cereal` (coco pops cereal)
-- `coconut_milk` (coconut milk)
-- `coconut_oil` (coconut oil)
 - `coconut_sugar` (coconut sugar)
-- `coconut_water` (coconut water)
-- `coconut_yogurt` (coconut yogurt)
 - `cocoyam_leaves` (cocoyam leaves)
 - `cocoyams` (cocoyams)
-- `coffee_liqueur` (coffee liqueur)
 - `cognac` (cognac)
-- `collard_greens` (collard green)
-- `comte` (comté)
-- `comte_cheese` (comté cheese)
-- `condensed_milk` (condensed milk)
 - `conger` (conger)
 - `cooked_green_peas` (cooked green peas)
-- `cookie` (cookie)
-- `cooking_bananas` (cooking bananas)
-- `cooking_spray` (cooking spray)
 - `cooking_wine` (cooking wine)
 - `cordial` (cordial)
-- `cored_and_sliced_apples` (cored and sliced apples)
 - `coriander_leaves` (coriander leaves)
-- `corn_flour` (corn flour)
 - `corn_sugar` (corn sugar)
 - `corn_syrup` (corn syrup)
 - `cornus_alba_fruits` (cornus alba fruits)
-- `cottage_cheese` (cottage cheese)
 - `cottonseed` (cottonseed)
-- `country_bread` (country bread)
 - `country_onion_spice` (country onion spice)
 - `cow_feet` (cow feet)
 - `cowpea` (black-eyed pea)
 - `crab_meat_seasoning` (crab meat seasoning)
 - `crab_shells` (crab shells)
-- `cracked_black_peppercorns` (cracked-black peppercorns)
 - `crawfish` (crawfish)
-- `cream_cheese` (cream cheese)
 - `cream_of_wheat` (cream of wheat)
-- `creamy_russian_dressing` (creamy russian dressing)
-- `creme_fraiche` (crème fraiche)
 - `crispy_chilli_in_oil` (crispy chilli in oil)
 - `croissant_roll_dough` (croissant roll dough)
 - `crouton` (crouton)
 - `crown_daisy` (crown daisy)
 - `crumb_crust` (crumb crust)
 - `crumble` (crumble)
-- `crumbled_bread` (crumbled bread)
-- `crustless_bread` (crustless bread)
-- `crusty_bread` (crusty bread)
 - `crystal_malt` (crystal malt)
 - `crystal_salt` (crystal salt)
 - `crystallised_ginger` (crystallised ginger)
@@ -383,61 +280,34 @@ Used by some step, and neither they nor anything that counts as them is made by 
 - `cuisine_of_california` (california cuisine)
 - `cuisine_of_italy` (cuisine of italy)
 - `cumin_seeds` (cumin seeds)
-- `curd` (curd)
-- `cured_anchovies` (cured anchovies)
-- `curry` (curry)
-- `curry_paste` (curry paste)
-- `custard_powder` (custard powder)
-- `cut_green_italian_beans` (cut green italian beans)
 - `cuts` (cuts)
 - `dabeli_masala` (dabeli masala)
-- `dal` (dal)
 - `dalda` (dalda)
 - `dark_brown_sugar` (dark brown sugar)
-- `dark_chocolate_chunks` (dark chocolate chunks)
-- `dark_soy_sauce` (dark soy sauce)
 - `dash_of_chai_masala` (dash of chai masala)
-- `dashi_japanese_soup_stock` (dashi)
-- `day_old_corn_tortillas` (day-old corn tortillas)
 - `day_old_french_bread` (day-old french bread)
 - `day_old_white_bread` (day-old white bread)
-- `dehydrated_broth` (bouillon cube)
-- `dehydrated_garlic` (dehydrated garlic)
-- `dehydrated_lemon_peel` (dehydrated lemon peel)
 - `deli_meat` (deli meat)
-- `delicious_apple` (delicious apple)
-- `digestive_biscuit` (digestive biscuit)
 - `dill_salt` (dill salt)
 - `dill_weed` (dill weed)
-- `distilled_white_vinegar` (distilled white vinegar)
 - `doenjang` (doenjang)
 - `dog` (dog)
 - `dog_buns` (dog buns)
 - `dongu_mushrooms` (dongu mushrooms)
 - `dorowot` (dorowot)
-- `douchi` (douchi)
 - `dragees` (dragées)
 - `dressing` (dressing)
-- `dried_chili` (dried chili)
-- `dried_fruit` (dried fruit)
 - `dripping` (dripping)
 - `drippings` (drippings)
-- `drizzle_of_olive` (drizzle of olive)
 - `drops_of_tenderizer` (drops of tenderizer)
 - `drops_of_water` (drops of water)
 - `drops_pink_food_colouring` (drops pink food colouring)
-- `drumstick` (drumstick)
 - `dry_applewood_chunks` (dry applewood chunks)
-- `dry_beans` (dry beans)
 - `dry_fish` (dry fish)
 - `dry_hickory_chunks` (dry hickory chunks)
 - `dry_pepper` (dry pepper)
-- `dry_red` (dry red)
 - `dry_tarhana_mix` (dry tarhana mix)
-- `dry_toast` (dry toast)
-- `dryfish` (dryfish)
 - `duck` (duck)
-- `dulce_de_leche` (dulce de leche)
 - `dutch_processed_cocoa_powder` (dutch processed cocoa powder)
 - `east_african_chapati` (east african chapati)
 - `edamame` (edamame)
@@ -445,15 +315,11 @@ Used by some step, and neither they nor anything that counts as them is made by 
 - `edible_rose_water` (edible rose water)
 - `edible_silver_leaf_foil` (edible silver leaf/foil)
 - `eel` (eel)
-- `egg_noodles` (egg noodles)
 - `egg_whites` (egg whites)
 - `einkorn` (einkorn)
 - `elephant_grass` (elephant grass)
 - `ementhaler` (ementhaler)
 - `emmental_cheese` (emmental cheese)
-- `english_muffins` (english muffins)
-- `enoki_mushroom` (enoki mushroom)
-- `enoki_mushrooms` (enoki mushrooms)
 - `envelope_vegetable_soup_mix` (envelope vegetable soup mix)
 - `espagnole_sauce` (espagnole sauce)
 - `eulachon` (eulachon)
@@ -462,26 +328,20 @@ Used by some step, and neither they nor anything that counts as them is made by 
 - `fava_bean` (broad bean)
 - `fava_beans` (fava beans)
 - `fermentation_starter` (fermentation starter)
-- `feta_cheese` (feta cheese)
 - `fettuccine` (fettuccine)
 - `fiddlehead` (fiddlehead)
 - `fillings` (fillings)
 - `fine_salt` (fine salt)
 - `fine_sea_salt` (fine sea salt)
-- `finely_chopped_celery_leaves` (finely-chopped celery leaves)
 - `finely_chopped_crystallized_ginger` (finely-chopped crystallized ginger)
 - `finely_chopped_rosemary` (finely-chopped rosemary)
 - `finely_crushed_chocolate_wafers` (finely-crushed chocolate wafers)
-- `finely_diced_rocoto_peppers` (finely-diced rocoto peppers)
 - `fireweed` (fireweed)
 - `firm_sourdough` (firm sourdough)
-- `fish` (fish)
 - `fish_batter` (fish batter)
 - `fish_oil` (fish oil)
 - `fish_powder` (fish powder)
-- `fish_sauce` (fish sauce)
 - `fish_scumbia` (fish( scumbia))
-- `fishball` (fishball)
 - `fishballs` (fishballs)
 - `flaky_salt` (flaky salt)
 - `flaky_sea_salt` (flaky sea salt)
@@ -494,105 +354,59 @@ Used by some step, and neither they nor anything that counts as them is made by 
 - `flounder` (flounder)
 - `fluted_pumpkin` (fluted pumpkin)
 - `focaccia_genovese` (focaccia genovese dough)
-- `fontina` (fontina)
 - `food_coloring` (food coloring)
 - `food_grade_lye` (food-grade lye)
 - `forcemeat` (forcemeat)
 - `freekeh` (freekeh)
-- `french_bread` (french bread)
 - `french_meringue` (french meringue)
-- `french_roll` (french roll)
-- `french_sandwich_hoagie_rolls` (french/sandwich/hoagie rolls)
-- `freshly_grated_nutmeg` (freshly grated nutmeg)
-- `freshly_ground_black_pepper` (freshly ground black pepper)
 - `freshly_ground_white_pepper` (freshly-ground white pepper)
 - `fried_ghormeh_sabzi_herbs` (fried ghormeh sabzi herbs)
 - `fritos_corn_chips` (fritos corn chips)
 - `frog` (frog)
-- `fromage_frais` (fromage frais)
 - `frosting_and_icing` (icing)
 - `fruit` (fruit)
-- `fruit_cocktail` (fruit cocktail)
-- `fruit_filling` (fruit filling)
 - `fruit_mince` (fruit mince)
 - `fruit_mince_mixture` (fruit mince mixture)
 - `fruit_mix` (fruit mix)
-- `fruit_nectar` (fruit nectar)
-- `fruit_preserves` (jam)
 - `fruit_puffs` (fruit puffs)
-- `fruit_salt` (fruit salt)
-- `full_fat_milk` (full-fat milk)
-- `garam_masala_powder` (garam masala powder)
-- `garden_egg` (garden egg)
 - `garden_egg_leaves` (garden egg leaves)
 - `garlic_and_herb_salt` (garlic and herb salt)
 - `garlic_flakes` (garlic flakes)
-- `garlic_powder` (garlic powder)
 - `garnish` (garnish)
-- `gelatin` (gelatine)
-- `gelato` (gelato)
 - `giblets` (giblets)
-- `gin` (gin)
 - `ginger_garlic_onion_paste` (ginger/garlic/onion paste)
-- `ginger_garlic_paste` (ginger garlic paste)
-- `ginger_green_chilli_paste` (ginger-green chilli paste)
 - `ginger_paste` (ginger paste)
 - `gingerbread_wafers` (gingerbread wafers)
-- `gingersnap_cookies` (gingersnap cookies)
 - `ginseng` (ginseng)
 - `glace_cherries` (glacé cherries)
 - `glass_cold_water` (glass cold water)
-- `glass_of_red_wine` (glass of red wine)
 - `glass_of_warm_water` (glass of warm water)
 - `glucose` (glucose)
-- `gluten` (gluten)
 - `gnocchi` (gnocchi)
 - `goat` (goat)
 - `gochujang` (gochujang)
-- `golden_raisins` (golden raisins)
-- `golden_syrup` (golden syrup)
 - `goose` (goose)
-- `gorgonzola_cheese` (gorgonzola cheese)
 - `goya_adobo_seasoning` (goya adobo seasoning)
 - `goya_sazon_con_azafran` (goya sazon con azafran)
-- `graham_cracker` (graham cracker)
 - `grain_ambergris` (grain ambergris)
 - `grain_musk` (grain musk)
-- `grain_rice` (grain rice)
 - `grains` (grains)
 - `granola_bar` (granola bar)
 - `granulated_garlic` (granulated garlic)
-- `grape_leaf` (grape leaf)
 - `gravy_granules` (gravy granules)
 - `gravy_powder` (gravy powder)
 - `gravy_spices` (gravy spices)
 - `green_pepper` (green pepper)
-- `ground_and_fried_beans` (ground and fried beans)
-- `ground_black_pepper` (ground black pepper)
 - `ground_cameroon_pepper` (ground cameroon pepper)
-- `ground_cardamom` (ground cardamom)
-- `ground_coriander` (ground coriander)
-- `ground_crayfish` (ground crayfish)
-- `ground_cumin` (ground cumin)
 - `ground_dried_pepper` (ground dried pepper)
 - `ground_egusi` (ground egusi)
-- `ground_fresh_pepper` (ground fresh pepper)
-- `ground_ginger` (ground ginger)
-- `ground_gingerbread_spices` (ground gingerbread spices)
 - `ground_mahaleb_cherry` (ground mahaleb cherry)
 - `ground_ogiri` (ground ogiri)
-- `ground_pepper` (ground pepper)
 - `ground_red_pepper` (ground red pepper)
-- `ground_sesame_seeds` (ground sesame seeds)
 - `ground_white_pepper` (ground white pepper)
-- `groundnut` (groundnut)
 - `groundnut_oil` (groundnut oil)
 - `gruyere_cheese` (gruyère cheese)
-- `guanciale` (guanciale)
 - `gyro_spice` (gyro spice)
-- `habanero` (habanero)
-- `habanero_chile` (habanero chile)
-- `habanero_pepper` (habanero pepper)
 - `haddock` (haddock)
 - `hake` (hake)
 - `halibut` (halibut)
@@ -600,33 +414,23 @@ Used by some step, and neither they nor anything that counts as them is made by 
 - `ham_bone` (ham bone)
 - `ham_hock` (ham hock)
 - `ham_steak` (ham steak)
-- `hamburger_bun` (hamburger bun)
 - `handful_fresh_parsley` (handful fresh parsley)
 - `handfuls_of_pretzels` (+ handfuls of pretzels)
-- `hard_boiling_potatoes` (hard boiling potatoes)
-- `hard_cheese` (hard cheese)
-- `hard_cider` (cider)
 - `hare` (hare)
-- `haricot_beans` (haricot beans)
 - `harissa_paste` (harissa paste)
-- `hawthorn_tea_bag` (hawthorn tea bag)
 - `hazelnut_oil` (hazelnut oil)
 - `heavy_whipping_cream` (heavy whipping cream)
-- `heinz_sweet_relish` (heinz sweet relish)
 - `herb_seasoning` (herb seasoning)
-- `herbes_de_provence` (herbes de provence)
 - `herbs_and_spices` (herb)
 - `herring` (herring)
 - `hibiscus_petals` (hibiscus petals)
 - `hickory_and_applewood_chunks` (hickory and applewood chunks)
 - `hickory_chips` (hickory chips)
 - `hickory_chunks` (hickory chunks)
-- `hickory_smoke_flavored_albacore_tuna` (hickory smoke-flavored albacore tuna)
 - `hickory_smoke_powder` (hickory smoke powder)
 - `hickory_wood_chunks` (hickory wood chunks)
 - `hilsa_fish` (hilsa fish)
 - `himalayan_black_salt` (himalayan black salt)
-- `hoagie_rolls` (hoagie rolls)
 - `homemade_biscuit_mix` (biscuit mix)
 - `homi` (homi)
 - `hominy` (hominy)
@@ -635,91 +439,52 @@ Used by some step, and neither they nor anything that counts as them is made by 
 - `hp_bold_steak_sauce` (hp bold steak sauce)
 - `ice_cold_water` (ice cold water)
 - `ice_cream_topping` (ice cream topping)
-- `ice_cubes` (ice cubes)
 - `ice_water` (ice water)
 - `iced_water` (iced water)
 - `iguana` (iguana)
 - `imitation_whipped_cream` (imitation whipped topping)
 - `inch_cubes_leche_flan` (inch cubes leche flan)
-- `inch_ginger_root` (inch ginger root)
 - `inch_piece_fresh_ginger` (-inch piece fresh ginger)
-- `indian_walnuts` (indian walnuts)
 - `ingredients` (ingredients)
-- `instant_mashed_potato_flakes` (instant mashed potato flakes)
-- `instant_noodles` (instant noodles)
 - `instant_vanilla_pudding_mix` (instant vanilla pudding mix)
 - `instant_yeast` (instant yeast)
 - `intestines_of_fish` (intestines of fish)
 - `inulin_powder` (inulin powder)
-- `iru` (dawadawa)
-- `italian_dressing` (italian dressing)
 - `italian_frying_peppers` (italian frying peppers)
 - `italian_herb_blend` (italian herb blend)
-- `jaggery` (jaggery)
-- `jalapeno` (jalapeno)
-- `jalapeno_pepper` (jalapeño pepper)
 - `jamaican_pickapeppa_sauce` (jamaican pickapeppa sauce)
-- `japanese_plum` (japanese plum)
 - `jasmine` (jasmine)
-- `jasmine_water` (jasmine water)
 - `jello` (jello)
-- `jerk_seasoning` (jerk seasoning)
-- `jerked_beef` (jerked beef)
 - `john_dory` (john dory)
 - `juice` (juice)
-- `juice_from_medium_lemons` (juice from medium lemons)
-- `juice_from_same_lemons` (juice from same lemons)
-- `juice_of_fresh_lemons` (juice of fresh lemons)
-- `juniper_berry` (juniper berry)
 - `just_boiled_water` (just-boiled water)
 - `kabocha` (kabocha)
-- `kaffir_lime` (kaffir lime)
 - `kaiser_bun` (kaiser bun)
 - `kaong` (kaong)
-- `kashkaval` (kashkaval)
 - `kataifi_pastry` (kataifi pastry)
-- `kefir` (kefir)
 - `khoa` (khoa)
 - `khova` (khova)
 - `kidney` (kidney)
 - `kirsch` (kirsch)
-- `kismis` (kismis)
 - `kiwifruit` (kiwifruit)
-- `knob_of_butter` (knob of butter)
-- `konbu` (kombu)
-- `kosher` (kosher)
-- `kosher_salt` (kosher salt)
 - `ladi_pav` (ladi-pav)
 - `lamb_and_mutton` (lamb)
-- `lard` (lard)
 - `lavash` (lavash)
 - `leafy_green_vegetables` (leafy green vegetables)
 - `lean_beef` (lean beef)
 - `leaves` (leaves)
-- `leek_stem` (leek stem)
-- `leftover_cooked_rice` (leftover cooked rice)
 - `leftover_hamburger_patties` (leftover hamburger patties)
 - `lemon_flavoring` (lemon flavoring)
-- `lemon_oil` (lemon oil)
-- `lemon_peel` (lemon peel)
-- `lemon_pepper` (lemon pepper)
-- `lemon_slice` (lemon slice)
-- `lemon_wedges` (lemon wedges)
 - `lemonade_flavored_kool_aid` (lemonade-flavored kool-aid)
 - `lemongrass` (lemongrass)
-- `light_molasses` (light molasses)
-- `light_soy_sauce` (light soy sauce)
 - `lily_bulbs` (lily bulbs)
-- `lima_bean` (butter bean)
 - `lime_oil` (lime oil)
 - `lime_wedges` (lime wedges)
 - `limewater` (limewater)
-- `linguine` (linguine)
 - `liquid_aminos` (liquid aminos)
 - `liquid_b_vitamin_complex` (liquid b vitamin complex)
 - `liquid_gravy_browner` (liquid gravy browner)
 - `liquid_seasoning` (liquid seasoning)
-- `liquid_smoke` (liquid smoke)
 - `liquor` (liquor)
 - `liver` (liver)
 - `liver_sauce` (liver sauce)
@@ -733,114 +498,78 @@ Used by some step, and neither they nor anything that counts as them is made by 
 - `lotus_root` (lotus root)
 - `low_sodium_cooking` (low-sodium cooking)
 - `lumpia_spring_roll_wrappers` (lumpia/spring roll wrappers)
-- `macaroni` (macaroni)
 - `mackerel` (mackerel)
-- `madeira_wine` (madeira)
 - `mahi_mahi` (mahi-mahi)
-- `maize_flour` (maize flour)
-- `maize_meal` (maize meal)
-- `malt` (malt)
 - `malt_biscuits` (malt biscuits)
 - `malted_chocolate_mix` (malted chocolate mix)
-- `maltese_galletti` (maltese galletti)
 - `malvani_special_masala` (malvani special masala)
 - `mandarin_orange` (mandarin orange)
 - `mandarin_oranges` (mandarin oranges)
-- `manioc_flour` (cassava flour)
-- `maraschino_cherry` (maraschino cherry)
-- `margarine` (margarine)
 - `margarita_mix` (margarita mix)
 - `marie_biscuits` (marie biscuits)
-- `marinara` (marinara)
-- `marinara_sauce` (marinara sauce)
-- `marmalade` (marmalade)
 - `marrow_bone` (marrow bone)
 - `mars_bar` (mars bar)
-- `marsala_wine` (marsala wine)
 - `masala` (masala)
 - `masala_mixture` (masala mixture)
 - `masau` (masau)
-- `mascarpone_cheese` (mascarpone cheese)
 - `matcha` (matcha)
-- `matzo` (matzo)
 - `matzo_cake_meal` (matzo cake meal)
-- `matzo_meal` (matzo meal)
 - `mbongo_spice` (mbongo spice)
-- `meat` (meat)
 - `meat_drippings` (meat drippings)
 - `meat_masala_powder` (meat masala powder)
-- `medium_fair_sized_potatoes` (medium/fair sized potatoes)
 - `melinjo` (melinjo)
 - `mesquite_chunks` (mesquite chunks)
 - `mesquite_seasoning` (mesquite seasoning)
 - `mesquite_smoke_powder` (mesquite smoke powder)
 - `mesquite_wood_chips` (mesquite wood chips)
 - `mexican_oregano` (mexican oregano)
-- `mild_chunky_salsa` (mild chunky salsa)
 - `milk_chocolate` (milk chocolate)
-- `milk_chocolate_chips` (milk chocolate chips)
 - `milk_cookies` (milk cookies)
 - `milkfish` (milkfish)
 - `millet_stalk_leaves` (millet stalk leaves)
 - `milo_chocolate_drink_mix` (milo chocolate drink mix)
 - `milo_chocolate_drink_powder` (milo chocolate drink powder)
 - `minced_ground_stewing_venison` (minced/ground) stewing venison)
-- `mineral_water` (mineral water)
 - `mini_gem_candies` (mini gem candies)
 - `mini_potato_buns` (mini potato buns)
 - `mint` (mint)
 - `mint_leaves` (mint leaves)
 - `mint_sauce` (mint sauce)
 - `mirepoix` (mirepoix)
-- `mirin` (mirin)
-- `mitmita_spice_blend` (mitmita spice blend)
 - `mixed_fruit` (mixed fruit)
 - `mixed_herbs` (mixed herbs)
 - `mixed_nut_topping` (mixed nut topping)
-- `mixed_pickles` (mixed pickles)
 - `mixed_vine_fruit` (mixed vine fruit)
 - `moderately_hot_water` (moderately hot water)
 - `moi_moi_leaves` (moi-moi leaves)
 - `monkfish` (monkfish)
-- `monterey_jack_cheese` (monterey jack cheese)
 - `mortadella` (mortadella)
-- `mozzarella_cheese` (mozzarella)
 - `mrs_dash_seasoning` (mrs dash seasoning)
 - `msg` (msg)
 - `mulato` (mulato)
-- `mung_bean` (mung bean)
-- `mushroom_catsup` (mushroom catsup)
 - `mushroom_stock_cube` (mushroom stock cube)
 - `mushrooms` (mushrooms)
 - `muskrat` (muskrat)
 - `mussel` (mussel)
 - `mustard_greens` (mustard greens)
 - `mustard_oil` (mustard oil)
+- `mustard_plant` (mustard plant)
 - `n_c_m_m` (nước mắm)
 - `nata_de_coco` (nata de coco)
 - `nattomoto` (nattomoto)
 - `natural_mineral_water` (natural mineral water)
 - `natural_wheat_bran` (natural wheat bran)
-- `navy_bean` (navy bean)
-- `negitoro` (negitoro)
 - `neroli_oil` (neroli oil)
 - `nesquik_chocolate_flavored_drink_powder` (nesquik chocolate-flavored drink powder)
 - `nestum_cereal_flakes` (nestum cereal flakes)
-- `new_mexico_ristra` (new mexico/ristra)
-- `nigerian_brown_bean` (nigerian brown bean)
-- `niter_kibbeh` (niter kibbeh)
 - `njangsa` (njangsa)
 - `no_salt_added_tomato_paste` (no-salt-added tomato paste)
 - `nondairy_milk` (nondairy milk)
-- `nori` (nori)
 - `nutella` (nutella)
-- `nutritional_yeast` (nutritional yeast)
 - `nuts_and_seeds` (nut)
 - `nyore` (nyore)
-- `oat_flour` (oat flour)
 - `oat_milk` (oat milk)
 - `octopus` (octopus)
-- `of_butter` (of butter)
 - `ogi_water` (ogi water)
 - `ogiri` (ogiri)
 - `ogiri_okpei` (ogiri okpei)
@@ -856,32 +585,25 @@ Used by some step, and neither they nor anything that counts as them is made by 
 - `olive_spread` (olive spread)
 - `ona` (ona)
 - `onion_paste` (onion paste)
-- `onion_powder` (onion powder)
 - `onion_roasted_seeds` (onion roasted seeds)
-- `onion_salt` (onion salt)
 - `onion_soup_mix` (onion soup mix)
-- `oolong_tea` (oolong tea)
+- `orange_blossom` (orange blossom)
 - `orange_flavored_liqueur` (orange-flavored liqueur)
 - `orange_flavoring` (orange flavoring)
-- `orange_flower_water` (orange flower water)
-- `orange_juice_concentrate` (orange juice concentrate)
 - `orange_liqueur` (orange liqueur)
 - `orange_oil` (orange oil)
 - `orange_peel` (orange peel)
 - `orange_rind` (orange rind)
 - `organic` (organic)
 - `oriental_flavoring` (oriental flavoring)
-- `orzo` (orzo)
 - `other_meat_and_vegetables` (other meat and vegetables)
 - `other_seasonings` (other seasonings)
 - `other_spices` (other spices)
-- `ounce_jar_picante_sauce` (-ounce jar picante sauce)
 - `oxtail` (oxtail)
 - `packages_jell_o_flavored_gelatin` (packages jell-o flavored gelatin)
 - `packed_light_brown_sugar` (packed light brown sugar)
 - `palm_fruits` (palm fruits)
 - `palm_nut_cream` (palm nut cream)
-- `palm_oil` (palm oil)
 - `palmyra_palm_fruit` (palmyra palm fruit)
 - `pan_drippings` (pan drippings)
 - `pancake_mix` (pancake mix)
@@ -890,54 +612,35 @@ Used by some step, and neither they nor anything that counts as them is made by 
 - `pancakes_north_american_step_2` (pancakes (North American), after step 2)
 - `pancakes_north_american_step_3` (pancakes (North American), after step 3)
 - `pancakes_north_american_step_4` (pancakes (North American), after step 4)
-- `pancetta` (pancetta)
-- `pandan_essence` (pandan essence)
 - `pandan_leaves` (pandan leaves)
 - `panla` (panla)
 - `parmesan_cheese` (parmesan cheese)
 - `parsley_root` (parsley root)
 - `parsley_roots` (parsley roots)
 - `part_chambord` (part chambord)
-- `part_of_scallions` (part of scallions)
 - `part_tomato_sauce` (part tomato sauce)
 - `pasilla` (pasilla)
 - `pasilla_chile` (pasilla chile)
-- `pasta_sauce` (pasta sauce)
 - `pasta_seasoning` (pasta seasoning)
 - `pastry_cream` (pastry cream)
-- `pastry_dough` (pastry dough)
 - `pastry_dough_wrappers` (pastry dough wrappers)
 - `pastry_holly_leaves` (pastry holly leaves)
 - `paul_prudhomme_s_seafood_magic` (paul prudhomme's seafood magic)
-- `peach_nectar` (peach nectar)
 - `peach_schnapps` (peach schnapps)
-- `pearl_onions` (pearl onions)
-- `pecan_halves` (pecan halves)
 - `pecorino_romano_cheese` (pecorino romano cheese)
 - `pectin` (pectin)
-- `peeled_and_deveined_shrimp` (peeled and deveined shrimp)
-- `peeled_cucumber` (peeled cucumber)
-- `penne` (penne)
 - `pennyroyal` (pennyroyal)
-- `pepper_jack` (pepper jack)
 - `pepper_paste` (pepper paste)
 - `pepper_powder` (pepper powder)
-- `pepper_sauce` (pepper sauce)
 - `pepper_soup_spice_mix` (pepper soup spice mix)
 - `pepper_stew` (pepper stew)
 - `pepper_vodka` (pepper vodka)
-- `peppermint` (peppermint)
-- `pepperoncini` (pepperoncini)
 - `peppers` (peppers)
 - `periwinkle` (periwinkle)
 - `periwinkle_mollusc` (periwinkle (mollusc))
 - `permento` (permento)
 - `pesto` (pesto)
 - `phosphoric_acid` (phosphoric acid)
-- `phyllo_dough` (phyllo dough)
-- `picante_sauce` (picante sauce)
-- `pickled_cucumbers` (pickled cucumbers)
-- `pickling_onions` (pickling onions)
 - `pickling_salt` (pickling salt)
 - `pickling_spices` (pickling spices)
 - `pie` (pie)
@@ -947,71 +650,45 @@ Used by some step, and neither they nor anything that counts as them is made by 
 - `pigment_powder` (pigment powder)
 - `pigs_feet` (pigs feet)
 - `pigs_trotters` (pigs trotters)
-- `pillsbury_pie_crusts` (pillsbury pie crusts)
 - `pimento` (pimento)
 - `pinch_of_salt` (pinch of salt)
 - `pine_needles` (pine needles)
 - `pinipig` (pinipig)
 - `pita_bread` (pita bread)
-- `pitted_salt_cured_black_olives` (pitted salt-cured black olives)
-- `pizza_sauce` (pizza sauce)
 - `placenta` (placenta)
-- `plain_flour` (plain flour)
-- `plantain` (plantain)
 - `plantain_flour` (plantain flour)
 - `plantains` (plantains)
 - `plum_sauce` (plum sauce)
 - `plus_teaspoons_pink_lemonade` (plus teaspoons pink lemonade)
-- `polenta` (polenta)
 - `pompano` (pompano)
 - `ponmo` (kpomo)
-- `porcini_mushroom` (porcini mushroom)
-- `pork` (pork)
 - `pork_broth` (pork broth)
 - `pork_cutlets` (pork cutlets)
-- `pork_fat` (pork fat)
 - `pork_flavored_gravy_base` (pork-flavored gravy base)
-- `pork_meat` (pork meat)
-- `port_wine` (port wine)
 - `pot_herbs` (pot herbs)
 - `potash` (potash)
-- `potato_flour` (potato flour)
 - `potato_starch` (potato starch)
-- `poultry_seasoning` (poultry seasoning)
-- `poultry_stuffing` (poultry stuffing)
 - `powdered_creamer` (powdered creamer)
 - `powdered_ginger` (powdered ginger)
-- `powdered_hot_paprika` (powdered hot paprika)
-- `powdered_pepper` (powdered pepper)
 - `powdered_smoked_paprika` (powdered smoked paprika)
 - `prawn_cracker` (prawn cracker)
 - `prawn_crackers_shrimp_chips` (prawn crackers/shrimp chips)
 - `pre_baked_whole_grain_pizza_shell` (pre-baked whole-grain pizza shell)
 - `prepared_bean_dip` (prepared bean dip)
 - `preserved_black_beans` (preserved black beans)
-- `pretzels` (pretzels)
-- `processed_cheese` (processed cheese)
-- `prosciutto` (prosciutto)
 - `provel` (provel)
-- `provolone_cheese` (provolone cheese)
-- `prune` (prune)
 - `psyllium` (psyllium)
 - `pudding_mix` (pudding mix)
-- `puff_pastry` (puff pastry)
 - `puffed_rice` (puffed rice)
 - `pumpkin_leaves` (pumpkin leaves)
 - `pureed_tomato` (puréed tomato)
 - `purslane` (purslane)
 - `quail` (quail)
-- `quail_egg` (quail egg)
-- `quark` (quark)
-- `queso_fresco` (queso fresco)
 - `quince` (quince)
 - `quorn` (quorn)
 - `raspberry_liqueur` (raspberry liqueur)
 - `raw_dal` (raw dal)
 - `raw_prawns_shrimp` (raw prawns/shrimp)
-- `raw_yam` (raw yam)
 - `reblochon_cheese` (reblochon cheese)
 - `red_gurnard` (red gurnard)
 - `red_pepper` (red pepper)
@@ -1020,88 +697,54 @@ Used by some step, and neither they nor anything that counts as them is made by 
 - `rendered_bacon_fat` (rendered bacon fat)
 - `rennet` (rennet)
 - `replete_spoon_of_salt` (replete spoon of salt)
-- `rice_flour` (rice flour)
-- `rice_rava` (rice rava)
-- `rice_vinegar` (rice vinegar)
-- `rice_wafer` (rice paper)
-- `ricotta` (ricotta)
 - `risotto` (risotto)
-- `ritz_crackers` (ritz crackers)
-- `rolled_oats` (rolled oats)
-- `roma_tomato` (roma tomato)
 - `romano_cheese` (romano cheese)
-- `room_temperature_milk` (room temperature milk)
 - `rose_leaves` (rose leaves)
+- `rose_petals` (rose petals)
 - `rosehip` (rosehip)
-- `rosewater` (rosewater)
 - `rougag` (rougag)
-- `round_brisket_of_corned_beef` (round/brisket of corned beef)
 - `rum_extract` (rum extract)
-- `runner_beans` (runner beans)
 - `russet_potato` (russet potato)
 - `saba` (saba)
 - `sago` (sago)
 - `salad` (salad)
-- `salami` (salami)
 - `salt_and_black_pepper` (salt and black pepper)
-- `salt_cod` (salt cod)
-- `salt_pork` (salt pork)
 - `salted_corn_tortilla_chips` (salted corn tortilla chips)
 - `salted_pork_fat` (salted pork fat)
-- `saltine_cracker` (saltine cracker)
-- `sambal_oelek` (sambal oelek)
 - `sambal_oelek_chili_paste` (sambal oelek chili paste)
 - `sambar_masalar` (sambar masalar)
-- `sambhar_masala` (sambhar masala)
 - `samp_and_beans_mix` (samp and beans mix)
 - `sardine` (sardine)
 - `sarsaparilla` (sarsaparilla)
 - `sauces` (sauce)
-- `sauerkraut` (sauerkraut)
 - `sausage_casing` (sausage casing)
-- `sausage_meat` (sausage meat)
 - `sauteed_vegetables` (sautéed vegetables)
-- `sazon` (sazón)
 - `scallop` (scallop)
 - `scent_leaves` (scent leaves)
-- `schmaltz` (schmaltz)
 - `schnapps` (schnapps)
 - `scorpionfish` (scorpionfish)
-- `scotch_bonnet_chile` (scotch bonnet chile)
-- `scotch_bonnet_pepper` (scotch bonnet pepper)
 - `scotch_bonnet_peppers` (scotch bonnet peppers)
-- `sea_biscuit` (sea biscuit)
 - `sea_robin` (sea robin)
-- `sea_salt` (sea salt)
 - `sea_urchin` (sea urchin)
+- `sea_water` (sea water)
 - `seafood` (seafood)
 - `seasoned_flour` (seasoned flour)
 - `seasoning` (seasoning)
-- `seasoning_cubes` (seasoning cubes)
 - `seasoning_mix` (seasoning mix)
-- `seasoning_salt` (seasoning salt)
 - `seasonings` (seasonings)
-- `seaweed` (seaweed)
 - `seitan` (seitan)
 - `self_raising_flour` (self-raising flour)
 - `semi_sweet_chocolate` (semi-sweet chocolate)
 - `semi_sweet_chocolate_pieces` (semi-sweet chocolate pieces)
-- `semisweet_chocolate` (semisweet chocolate)
-- `semolina` (semolina)
-- `serrano_chili` (serrano chili)
 - `serrano_peppers` (serrano peppers)
 - `serving_of_fried_rice` (serving of fried rice)
-- `sesame_crackers` (sesame crackers)
 - `sesame_leaf` (sesame leaf)
-- `sev` (sev)
-- `shallot` (shallot)
 - `shallot_tops` (shallot tops)
 - `shark_fins` (shark fins)
 - `shatkora` (shatkora)
 - `shaved_ice` (shaved ice)
 - `shell_pasta` (shell pasta)
 - `shellfish` (shellfish)
-- `sherry` (sherry)
 - `shichimi_seasoning` (shichimi seasoning)
 - `shiitake` (shiitake)
 - `shiitake_mushrooms` (shiitake mushrooms)
@@ -1109,27 +752,18 @@ Used by some step, and neither they nor anything that counts as them is made by 
 - `shiso` (shiso)
 - `shortening` (shortening)
 - `shrimp_crackers` (shrimp crackers)
-- `shrimp_paste` (shrimp paste)
 - `shrimp_seasoning_powder` (shrimp seasoning powder)
-- `skimmed_gravy` (skimmed gravy)
-- `slices_of_lemon` (slices of lemon)
-- `slices_white_bread` (slices white bread)
 - `smart_vegetarian_bacon` (smart vegetarian bacon)
 - `smoke_powder` (smoke powder)
 - `smoked_beef` (smoked beef)
-- `smoked_fish` (smoked fish)
 - `smoked_ham_hock` (smoked ham hock)
 - `smoked_meat` (smoked meat)
 - `smoked_paprika` (smoked paprika)
 - `smoked_pork_chops` (smoked pork chops)
-- `smoked_pork_slices` (smoked pork slices)
-- `smoked_salmon` (smoked salmon)
 - `smooth_japanese_bean_paste` (smooth japanese bean paste)
 - `smooth_tomato_spaghetti_sauce` (smooth tomato spaghetti sauce)
 - `snail` (snail)
-- `snap_pea` (snap pea)
 - `snapper` (snapper)
-- `snow_pea` (snow pea)
 - `soaked_hickory_chips` (soaked hickory chips)
 - `soaked_hickory_chunks` (soaked hickory chunks)
 - `soaked_mesquite_chips` (soaked mesquite chips)
@@ -1138,30 +772,21 @@ Used by some step, and neither they nor anything that counts as them is made by 
 - `soda_extract` (soda extract)
 - `soda_pop` (soda pop)
 - `soft_flatbread` (soft flatbread)
-- `soft_grain_white_flour` (soft grain white flour)
 - `soft_light_cream_cheese` (soft light cream cheese)
 - `sorrel` (sorrel)
 - `sour_bamboo` (sour bamboo)
-- `sour_cream` (sour cream)
 - `sour_cream_around_fat` (sour cream around fat)
-- `sourdough_starter` (sourdough starter)
-- `soy_flour` (soy flour)
 - `soy_lecithin_powder` (soy lecithin powder)
 - `soy_protein` (soy protein)
-- `spaghetti` (spaghetti)
-- `spaghetti_pasta` (spaghetti pasta)
 - `spam` (spam)
 - `spanish_style_tomato_sauce` (spanish-style tomato sauce)
 - `speculaas_spices` (speculaas spices)
-- `spek` (spek)
-- `spelt` (spelt)
 - `spiced_clarified_butter` (spiced clarified butter)
 - `spinach_lentil_water` (spinach-lentil water)
 - `spirits` (spirits)
 - `spirulina` (spirulina)
 - `splash_of_grapefruit` (splash of grapefruit)
 - `splash_of_tequila` (splash of tequila)
-- `split_pea` (split pea)
 - `split_peas` (split peas)
 - `spoonful_pandan_juice` (spoonful pandan juice)
 - `spring_onions` (spring onions)
@@ -1171,58 +796,35 @@ Used by some step, and neither they nor anything that counts as them is made by 
 - `squid` (squid)
 - `squid_tentacles` (squid tentacles)
 - `stale_french_bread` (stale french bread)
-- `standing_rib_roast` (standing rib roast)
 - `starch_based_creamer` (starch-based creamer)
 - `steak_sauce` (steak sauce)
 - `stem_ginger_in_syrup` (stem ginger in syrup)
 - `stew_bones` (stew bones)
-- `stockfish` (stockfish)
 - `store_bought_gyoza_wonton_wrappers` (store-bought gyoza/wonton wrappers)
 - `store_bought_pizza_dough` (store-bought pizza dough)
 - `stout` (stout)
 - `strong_wholemeal_flour` (strong wholemeal flour)
-- `sucuk` (sucuk)
-- `suet` (suet)
 - `suet_crust` (suet-crust)
 - `sugar_substitute` (sugar substitute)
-- `sun_dried_tomatoes` (sun-dried tomatoes)
 - `suya_spice` (suya spice)
 - `sweet_herbs` (sweet herbs)
-- `sweet_paprika` (sweet paprika)
-- `sweet_peppers` (sweet peppers)
 - `sweet_potato_greens` (sweet potato greens)
-- `sweet_red_pepper` (sweet red pepper)
-- `sweet_red_peppers` (sweet red peppers)
 - `sweetened_whipped_cream` (sweetened whipped cream)
 - `sweeteners` (sweeteners)
 - `sweetfish` (sweetfish)
 - `syrup` (syrup)
 - `taco_mix` (taco mix)
 - `taco_seasoning` (taco seasoning)
-- `taco_seasoning_mix` (taco seasoning mix)
 - `taco_seasoning_packet` (taco seasoning packet)
-- `tahini` (tahini)
-- `tamari_sauce` (tamari sauce)
-- `tamarind_chutney` (tamarind chutney)
 - `tandoori_powder` (tandoori powder)
 - `tangerine` (tangerine)
 - `tapioca` (tapioca)
-- `tapioca_pearls` (tapioca pearls)
-- `tapioca_starch` (tapioca starch)
 - `tatsoi` (tatsoi)
 - `taurine` (taurine)
-- `tea_bag` (tea bag)
 - `teff` (teff)
-- `tempeh` (tempeh)
 - `tempeh_starter` (tempeh starter)
 - `tempero_baiano` (tempero baiano)
 - `tepid_water` (tepid water)
-- `tequila` (tequila)
-- `textured_vegetable_protein` (textured vegetable protein)
-- `thai_chiles` (thai chiles)
-- `thai_chili_paste` (thai chili paste)
-- `thick_cut_ribeye_steaks` (thick-cut ribeye steaks)
-- `threads_of_saffron` (threads of saffron)
 - `thyme_leaves` (thyme leaves)
 - `tiger_nut` (tiger nut)
 - `tikka_masala_paste` (tikka masala paste)
@@ -1232,96 +834,65 @@ Used by some step, and neither they nor anything that counts as them is made by 
 - `toffee` (toffee)
 - `togarashi_pepper_powder` (togarashi pepper powder)
 - `tomato_beans` (tomato beans)
-- `tomato_pasta_sauce` (tomato pasta sauce)
-- `tomato_paste` (tomato paste)
-- `tomato_puree` (tomato purée)
-- `torn_mixed_greens` (torn mixed greens)
 - `tortellini` (tortellini)
 - `tripe` (shaki)
 - `trout` (trout)
 - `turkey` (turkey)
-- `turmeric_powder` (turmeric powder)
 - `turtle` (turtle)
 - `twinkies` (twinkies)
-- `ube` (ube)
 - `udon` (udon)
 - `ugba` (ugba)
 - `uncolored_sazon` (uncolored sazon)
 - `uncooked_ham_hock` (uncooked ham hock)
-- `unpopped_popcorn_kernels` (unpopped popcorn kernels)
 - `unrefined_sugar` (unrefined sugar)
-- `unsalted_butter` (unsalted butter)
 - `unsalted_tomato_paste` (unsalted tomato paste)
 - `untreated_mesquite_chips` (untreated mesquite chips)
 - `upma_rava` (upma rava)
 - `urad_bean` (urad bean)
-- `utazi` (utazi)
 - `uziza_leaves` (uziza leaves)
-- `vanilla_extract` (vanilla extract)
 - `vanilla_flavored_pieces` (vanilla-flavored pieces)
 - `vanilla_flavored_protein_powder` (vanilla-flavored protein powder)
 - `vanilla_instant_pudding` (vanilla instant pudding)
+- `vanilla_pods_raw` (raw vanilla pods)
 - `vanilla_sugar` (vanilla sugar)
-- `vanilla_wafer_crumbs` (vanilla wafer crumbs)
-- `vanilla_wafers` (vanilla wafers)
 - `veal` (veal)
 - `vegan_cuisine` (vegan cuisine)
-- `vegetable` (vegetable)
 - `vegetable_leaf` (vegetable leaf)
-- `velveeta_cheese` (velveeta)
 - `venison` (venison)
-- `vermicelli` (vermicelli)
-- `vermouth` (vermouth)
 - `vienna_sausage` (vienna sausage)
 - `vienna_sausages` (vienna sausages)
 - `vinegar_and_shredded_ginger` (vinegar and shredded ginger)
 - `vitamin_c_powder` (vitamin c powder)
 - `vol_au_vent_shells` (vol-au-vent shells)
 - `wafer_paper` (wafer paper)
-- `wakame` (wakame)
-- `walnut_oil` (walnut oil)
 - `wasabi` (wasabi)
-- `water_celery` (water celery)
 - `water_plus_more` (water plus more)
 - `water_spinach` (kangkung)
 - `watercress` (watercress)
 - `waterleaf` (waterleaf)
 - `watermelon` (watermelon)
-- `wheat_bran` (wheat bran)
 - `wheat_chex_cereal` (wheat chex cereal)
-- `wheat_germ` (wheat germ)
-- `whipped_cream` (whipped cream)
-- `whiskey` (whiskey)
-- `white_bread` (white bread)
-- `white_chocolate` (white chocolate)
-- `white_radish` (daikon)
-- `white_stock` (white stock)
-- `whole_wheat_flour` (whole wheat)
 - `wild_violets` (wild violets)
 - `wintergreen` (wintergreen)
-- `worcestershire_sauce` (worcestershire sauce)
+- `wood_chips` (wood chips)
 - `wrapping_leaf` (wrapping leaf)
 - `xanthan_gum` (xanthan gum)
-- `yam_tubers` (yam tubers)
 - `yanrin` (yanrin)
-- `yardlong_bean` (yardlong bean)
-- `yeast_extract` (marmite)
 - `yellow_orange_artificial_food_colour` (yellow/orange artificial food colour)
-- `za_atar` (za'atar)
-- `zest` (zest)
 - `zest_from_juiced_lemons` (zest from juiced lemons)
-- `zest_of_lemon` (zest of lemon)
 
 ## Planted spices
 
 Spices no mapped mod grows, which the mod plants itself (`cookbook_of_babel/spice_gardens.json`), and the HarvestCraft 2 gardens their seeds drop from.
 
+- `agave` (agave): arid
 - `ajwain` (ajwain): arid
 - `allspice` (allspice): tropical
 - `anise` (anise): arid, windy
 - `annatto` (annatto): tropical
 - `asafoetida` (asafoetida): arid
 - `bay_leaf` (bay leaf): arid
+- `buckwheat` (buckwheat): frost
 - `caper` (caper): arid
 - `caraway` (caraway): frost, windy
 - `cardamom` (cardamom): tropical
@@ -1333,11 +904,14 @@ Spices no mapped mod grows, which the mod plants itself (`cookbook_of_babel/spic
 - `cumin` (cumin): arid
 - `curry_leaf` (curry leaf): tropical
 - `dill` (dill): frost, windy
+- `drumstick` (drumstick): tropical
 - `epazote` (epazote): arid, tropical
 - `fennel` (fennel): arid, windy
 - `fenugreek` (fenugreek): arid
 - `galangal` (galangal): soggy, tropical
 - `grains_of_paradise` (grains of paradise): tropical
+- `grape_leaf` (grape leaf): windy
+- `kaffir_lime` (kaffir lime): tropical
 - `lavender` (lavender): arid, windy
 - `lemon_verbena` (lemon verbena): arid
 - `licorice` (licorice): arid, windy
@@ -1358,6 +932,8 @@ Spices no mapped mod grows, which the mod plants itself (`cookbook_of_babel/spic
 - `szechuan_pepper` (szechuan pepper): shaded
 - `tarragon` (tarragon): shaded, windy
 - `thyme` (thyme): arid
+- `utazi` (utazi): tropical
+- `water_celery` (water celery): soggy
 - `yerba_mate` (yerba mate): tropical
 
 ## Merged ingredients
@@ -1423,6 +999,7 @@ Preparations the dataset keeps apart but one machine here makes alike: each line
 - `coconut_boil`: `coconut_heat`, `coconut_simmer`
 - `collard_greens_chop`: `collard_greens_cut`
 - `condensed_milk_heat`: `condensed_milk_simmer`
+- `cooked_tomatoes`: `tomatoes_heat`
 - `corn_boil`: `corn_heat`
 - `corn_chop`: `corn_cut`
 - `cream_boil`: `cream_heat`
@@ -1464,7 +1041,8 @@ Preparations the dataset keeps apart but one machine here makes alike: each line
 - `lamb_and_mutton_fry_pan_fry`: `lamb_and_mutton_pan_fry_pan_fry`
 - `leek_chop`: `leek_cut`, `leek_julienne`
 - `leek_fry`: `leek_stir_fry`
-- `lemon_chop`: `lemon_cut`
+- `lemon_chop`: `lemon_cut`, `lemon_peel`
+- `lemon_slice`: `lemon_wedges`
 - `lemongrass_chop`: `lemongrass_cut`
 - `lettuce_chop`: `lettuce_cut`
 - `liver_chop`: `liver_cut`
@@ -1479,6 +1057,7 @@ Preparations the dataset keeps apart but one machine here makes alike: each line
 - `mozzarella_cheese_chop`: `mozzarella_cheese_cut`
 - `mushroom_chop`: `mushroom_cut`
 - `mushroom_fry`: `mushroom_pan_fry`, `mushroom_stir_fry`
+- `oats_boil`: `steamed_oat_groats`
 - `oil_and_fat_chop`: `oil_and_fat_cut`
 - `okra_chop`: `okra_cut`
 - `olive_chop`: `olive_cut`
@@ -3887,6 +3466,7 @@ Steps that merging left the same as another, and so dropped:
 - `germknodel_plum_and_poppy_seed_dumpling.step_12.prep_14`, like `20_ingredient_brownies.step_3.prep_3`
 - `ghanaian_peanut_soup_nkatenkwan.step_1.prep_3`, like `african_cabbage_stew.step_1.prep_2`
 - `ghanaian_peanut_soup_nkatenkwan.step_2.prep_6`, like `algerian_coca.step_7.prep_8`
+- `ghavoot_iranian_nut_and_seed_powder.step_1.prep_1`, like `coffee.roast_beans`
 - `ghavoot_iranian_nut_and_seed_powder.step_1.prep_2`, like `berbere.step_1.prep_2`
 - `ghavoot_iranian_nut_and_seed_powder.step_1.prep_3`, like `curried_chiles_mirchi_ka_salan.step_1.prep_2`
 - `ghavoot_iranian_nut_and_seed_powder.step_1.prep_6`, like `curried_chiles_mirchi_ka_salan.step_1.prep_1`
@@ -4890,6 +4470,7 @@ Steps that merging left the same as another, and so dropped:
 - `lemon_meringue_pie_british.step_1.prep_1`, like `banoffee_pie.step_1.prep_1`
 - `lemon_meringue_pie_british.step_2.prep_2`, like `20_ingredient_brownies.step_3.prep_3`
 - `lemon_mille_feuille.step_6.prep_2`, like `albanian_meat_with_walnuts.step_4.prep_3`
+- `lemon_peel.pare`, like `40_cloves_in_a_roast_chicken.step_5.prep_5`
 - `lemon_pickle_i.step_1.prep_1`, like `lemon_lime_soda_i.step_1.prep_1`
 - `lemon_pickle_i.step_3.prep_7`, like `berbere.step_1.prep_6`
 - `lemon_pickle_i.step_3.prep_8`, like `behari_kabab.step_1.prep_4`
@@ -4910,6 +4491,8 @@ Steps that merging left the same as another, and so dropped:
 - `lemon_sponge.step_2.prep_1`, like `algerian_coca.step_1.prep_3`
 - `lemon_sponge.step_2.prep_2`, like `alsatian_chicken_fricassee.step_7.prep_11`
 - `lemon_squares.step_5.prep_4`, like `albanian_meat_with_walnuts.step_4.prep_3`
+- `lemon_wedges.cut`, like `lemon_slice.chop`
+- `lemon_wedges.mold`, like `lemon_slice.mold`
 - `lemonade_extra_sour.step_2.prep_2`, like `a_nice_cup_of_tea.step_1.prep_1`
 - `lentil_and_sausage_stew.step_1.prep_1`, like `egyptian_lentil_soup.step_4.prep_1`
 - `lentil_and_sausage_stew.step_2.prep_4`, like `african_cabbage_stew.step_1.prep_2`
@@ -5160,6 +4743,7 @@ Steps that merging left the same as another, and so dropped:
 - `manhattan_clam_chowder_i.step_2.prep_4`, like `american_potato_salad_i.step_8.prep_4`
 - `manhattan_clam_chowder_ii.step_3.prep_4`, like `binagoongan_sauteed_pork_with_shrimp_paste.step_1.prep_1`
 - `manhattan_clam_chowder_ii.step_4.prep_6`, like `agbugbu_nigerian_pigeon_pea_and_yam_porridge.step_5.prep_3`
+- `manioc_flour.dry`, like `accra_cassava_cameroonian_cassava_fritters.step_1.prep_1`
 - `manx_smoked_salmon.step_10.prep_6`, like `algerian_coca.step_7.prep_8`
 - `manx_smoked_salmon.step_5.prep_4`, like `callaloo_caribbean_stewed_greens.step_4.prep_4`
 - `maple_beans.step_1.prep_1`, like `ewa_aganyin_togolese_mashed_beans_and_special_sauce.step_1.prep_1`
@@ -5387,6 +4971,7 @@ Steps that merging left the same as another, and so dropped:
 - `mincemeat.step_1.prep_1`, like `apple_and_almond_cake.step_5.prep_7`
 - `mincemeat.step_2.prep_2`, like `beef_and_gizzard_sauce.step_2.prep_7`
 - `mincemeat.step_5.prep_3`, like `40_cloves_in_a_roast_chicken.step_5.prep_5`
+- `mincemeat.step_8.prep_12`, like `dehydrated_broth.evaporate`
 - `mincemeat_tart.step_2.prep_8`, like `carrot_kugel.step_4.prep_4`
 - `mincemeat_tart.step_8.prep_15`, like `albanian_meat_with_walnuts.step_4.prep_3`
 - `minestra.step_1.prep_5`, like `kawlata_maltese_vegetable_and_pork_soup.step_6.prep_9`
@@ -6557,6 +6142,7 @@ Steps that merging left the same as another, and so dropped:
 - `ratatouille_ii.step_3.prep_3`, like `air_fried_zucchini.step_1.prep_1`
 - `ratatouille_ii.step_3.prep_4`, like `albanian_mixed_vegetables.step_1.prep_1`
 - `ratatouille_ii.step_3.prep_5`, like `albanian_mixed_vegetables.step_1.prep_1`
+- `ravioli.knead_dough`, like `pasta.knead_dough`
 - `recaito_puerto_rican_culantro_sauce.step_1.prep_1`, like `chilaquiles.step_3.prep_3`
 - `recaito_puerto_rican_culantro_sauce.step_3.prep_5`, like `albanian_mixed_vegetables.step_1.prep_1`
 - `recaito_puerto_rican_culantro_sauce.step_3.prep_7`, like `african_cabbage_stew.step_1.prep_2`
@@ -6758,6 +6344,7 @@ Steps that merging left the same as another, and so dropped:
 - `rolitos_gibraltarian_beef_rolls.step_1.prep_4`, like `arjoli_maltese_herbed_bread_dip.step_2.prep_6`
 - `rolitos_gibraltarian_beef_rolls.step_4.prep_5`, like `arroz_con_pollo_rice_and_chicken.step_4.prep_5`
 - `rolitos_gibraltarian_beef_rolls.step_4.prep_6`, like `agbugbu_nigerian_pigeon_pea_and_yam_porridge.step_5.prep_3`
+- `rolled_oats.steam_oats`, like `peanut_butter_banana_oatmeal.step_1.prep_1`
 - `roman_sauce_ii.step_1.prep_1`, like `african_cabbage_stew.step_1.prep_2`
 - `romanian_roasted_eggplant_spread_i.step_5.prep_3`, like `african_cabbage_stew.step_1.prep_2`
 - `romanian_roasted_eggplant_spread_ii.step_1`, like `baba_ganoush.step_1`
@@ -7920,6 +7507,7 @@ Steps that merging left the same as another, and so dropped:
 - `tahdiq_crisped_persian_rice.step_1.prep_1`, like `african_cabbage_stew.step_3.prep_6`
 - `tahdiq_crisped_persian_rice.step_2.prep_2`, like `ayamase_jollof_rice.step_5.prep_11`
 - `tahdiq_crisped_persian_rice.step_2.prep_5`, like `a_nice_cup_of_tea.step_1.prep_1`
+- `tahini.roast`, like `curried_chiles_mirchi_ka_salan.step_1.prep_2`
 - `tahini_cookies.step_3.prep_5`, like `apple_pudding.step_3.prep_7`
 - `tahini_goddess_dressing.step_2.prep_9`, like `asparagus_with_sesame_seeds_and_soy_sauce.step_4.prep_4`
 - `tahu_gejrot.step_1.prep_1`, like `bhel_puri_indian_puffed_rice_and_vegetable_snack.step_3.prep_14`
@@ -8186,6 +7774,7 @@ Steps that merging left the same as another, and so dropped:
 - `tomato_pasta_with_bacon_onions_and_cheese.step_5.prep_7`, like `roasted_vegetable_pasta.step_3.prep_8`
 - `tomato_paste_and_ham_sandwiches_pan_tomaca.step_2.prep_2`, like `algerian_coca.step_7.prep_8`
 - `tomato_pizza.step_4.prep_2`, like `ale_mustard_and_winter_vegetable_pie.step_6.prep_5`
+- `tomato_puree.boil`, like `supu_ya_ndizi.step_6.prep_4`
 - `tomato_salad.step_1`, like `indian_beans.step_1`
 - `tomato_salad.step_1.prep_2`, like `african_cabbage_stew.step_1.prep_2`
 - `tomato_salad.step_2.prep_1`, like `algerian_coca.step_7.prep_8`
@@ -8669,6 +8258,7 @@ Steps that merging left the same as another, and so dropped:
 - `yogurt_curry_soup_kadhi.step_7.prep_12`, like `alicha_wot_mild_ethiopian_stew.step_9.prep_14`
 - `yogurt_dip.step_1.prep_2`, like `bibimbap.step_18.prep_24`
 - `yogurt_dip.step_1.prep_3`, like `anchovy_herb_salsa_verde.step_1.prep_6`
+- `yorkshire_pudding.mix_batter`, like `toad_in_the_hole.mix_batter`
 - `yorkshire_pudding.step_3.prep_4`, like `accra_cassava_cameroonian_cassava_fritters.step_6.prep_4`
 - `yubeshi_japanese_walnut_mochi_confection.step_5.prep_6`, like `apple_pudding.step_3.prep_7`
 - `yuvarlak_greek_meatballs.step_4.prep_4`, like `agbugbu_nigerian_pigeon_pea_and_yam_porridge.step_5.prep_3`
@@ -9098,6 +8688,7 @@ Crafting steps that turn one ingredient into another and nothing more, which wou
 - `bulgarian_fresh_sausage_kebapcheta.step_3`: `bulgarian_fresh_sausage_kebapcheta_step_2` → `bulgarian_fresh_sausage_kebapcheta_step_3`, now `bulgarian_fresh_sausage_kebapcheta_step_3`
 - `bulgarian_meatball_soup_supa_topcheta.step_3`: `bulgarian_meatball_soup_supa_topcheta_step_2` → `bulgarian_meatball_soup_supa_topcheta_step_3`, now `bulgarian_meatball_soup_supa_topcheta_step_3`
 - `bumbleberry_souffle.step_2`: `butter_boil` → `bumbleberry_souffle_step_2`, now `butter_boil`
+- `bun.shape`: `dough` → `bun_dough`, now `dough`
 - `bunny_chow.step_10`: `bunny_chow_step_9` → `bunny_chow_step_10`, now `bunny_chow_step_10`
 - `bunuelos_sweet_fried_pastry.step_3`: `bunuelos_sweet_fried_pastry_step_2` → `bunuelos_sweet_fried_pastry_step_3`, now `bunuelos_sweet_fried_pastry_step_3`
 - `bunuelos_sweet_fried_pastry.step_4`: `bunuelos_sweet_fried_pastry_step_3` → `bunuelos_sweet_fried_pastry_step_4`, now `bunuelos_sweet_fried_pastry_step_3`
@@ -11830,6 +11421,8 @@ Ingredients the mod's live recipes make as other mods' items, and every item map
 
 - `aebleskiver_danish_spherical_pancakes`: `pamhc2foodextended:aebleskiversitem`
 - `apple_fritters`: `pamhc2foodextended:applefritteritem`
+- `apple_juice`: `croptopia:apple_juice`, `pamhc2foodcore:applejuiceitem`
+- `applesauce`: `pamhc2foodcore:applesauceitem`
 - `baba_ganoush`: `pamhc2foodextended:babaganoushitem`
 - `baked_beans`: `croptopia:baked_beans`, `pamhc2foodextended:bakedbeansitem`
 - `baked_sweet_potatoes`: `croptopia:baked_sweet_potato`, `pamhc2crops:bakedsweetpotatoitem`, `veggiesdelight:baked_sweet_potato`
@@ -11839,26 +11432,42 @@ Ingredients the mod's live recipes make as other mods' items, and every item map
 - `barbecue_potato_chips`: `pamhc2foodextended:bbqpotatochipsitem`
 - `basic_scrambled_eggs`: `pamhc2foodcore:scrambledeggitem`
 - `beans_and_rice`: `pamhc2foodextended:beansandriceitem`
+- `biscuit`: `pamhc2foodextended:biscuititem`
 - `blt_sandwich`: `croptopia:blt`, `pamhc2foodextended:bltitem`, `pamhc2foodextended:epicbltitem`
 - `borscht`: `croptopia:borscht`
 - `bread`: `minecraft:bread`
+- `broth_and_stock`: `pamhc2foodcore:stockitem`
+- `butter`: `croptopia:butter`, `pamhc2foodcore:butteritem`
 - `candied_sweet_potatoes`: `pamhc2foodextended:candiedsweetpotatoesitem`
+- `cashew_butter`: `pamhc2foodextended:cashewbutteritem`
 - `cheese_on_toast`: `pamhc2foodextended:cheeseontoastitem`
-- `cherry_soda`: `pamhc2foodextended:cherrysodaitem`
+- `cherry_jam`: `croptopia:cherry_jam`
 - `chicken_alfredo`: `pamhc2foodextended:chickenalfredoitem`
 - `chicken_and_dumplings`: `croptopia:chicken_and_dumplings`
+- `chicken_curry`: `endersdelight:chicken_curry`, `pamhc2foodextended:chickencurryitem`
 - `chocolate_milk`: `pamhc2foodcore:chocolatemilkitem`, `pamhc2foodextended:chocolatemilkitem`
 - `chocolate_milkshake`: `croptopia:chocolate_milkshake`
 - `churros_i`: `croptopia:churros`
 - `classic_mince_pies`: `pamhc2foodextended:mincepieitem`
+- `coffee`: `croptopia:coffee`, `farmersrespite:coffee`
+- `cooked_rice`: `farmersdelight:cooked_rice`
 - `cookies_and_milk`: `pamhc2foodcore:cookiesandmilkitem`
+- `corn_dogs`: `pamhc2foodextended:corndogitem`
+- `corned_beef`: `pamhc2foodextended:cornedbeefitem`
+- `cornmeal`: `pamhc2foodextended:cornmealitem`
+- `cranberry_sauce`: `pamhc2foodextended:cranberrysauceitem`
+- `cream`: `pamhc2foodcore:creamitem`
 - `cream_of_mushroom_soup`: `pamhc2foodextended:creamofmushroomitem`
 - `creamed_corn`: `pamhc2foodextended:creamedcornitem`
+- `croissant`: `pamhc2foodextended:croissantitem`
+- `custard`: `pamhc2foodextended:custarditem`
 - `damper_australian_campfire_bread`: `pamhc2foodextended:damperitem`
 - `date_smoothie`: `pamhc2foodextended:datesmoothieitem`
 - `deluxe_burgers`: `vintagedelight:deluxe_burger`
 - `deviled_eggs`: `pamhc2foodextended:deviledeggitem`
 - `dough`: `create:dough`, `croptopia:dough`, `pamhc2foodcore:doughitem`
+- `egg_roll`: `croptopia:egg_roll`, `pamhc2foodextended:eggrollitem`
+- `eggnog`: `pamhc2foodextended:eggnogitem`
 - `eggplant_parmesan_melanzane_alla_parmigiana_i`: `croptopia:eggplant_parmesan`
 - `figgy_pudding`: `croptopia:figgy_pudding`
 - `fish_and_chips`: `croptopia:fish_and_chips`, `pamhc2foodcore:fishandchipsitem`, `veggiesdelight:fish_and_chips`
@@ -11866,32 +11475,63 @@ Ingredients the mod's live recipes make as other mods' items, and every item map
 - `french_fries`: `croptopia:french_fries`
 - `french_toast`: `pamhc2foodextended:frenchtoastitem`
 - `fried_eggs`: `farmersdelight:fried_egg`, `pamhc2foodcore:friedeggitem`
-- `ginger_ale`: `pamhc2foodextended:gingersodaitem`
+- `fried_onion`: `pamhc2foodextended:friedonionsitem`
+- `fruit_cake`: `croptopia:fruit_cake`, `pamhc2foodextended:fruitcakeitem`
+- `grape_juice`: `croptopia:grape_juice`, `pamhc2foodextended:grapejuiceitem`
+- `gravy`: `pamhc2foodextended:gravyitem`
 - `green_bean_casserole`: `pamhc2foodextended:greenbeancasseroleitem`
 - `green_eggs_and_ham`: `pamhc2foodextended:greeneggsandhamitem`
+- `grits`: `pamhc2foodextended:gritsitem`
+- `ground_cinnamon`: `pamhc2foodextended:groundcinnamonitem`
+- `ground_fish`: `pamhc2foodcore:groundfishitem`
+- `ground_nutmeg`: `pamhc2foodextended:groundnutmegitem`
 - `gyudon_japanese_beef_and_rice_bowl`: `pamhc2foodextended:gyudonitem`
 - `haggis`: `pamhc2foodextended:haggisitem`
-- `hamburger`: `croptopia:hamburger`, `farmersdelight:hamburger`, `pamhc2foodcore:basichamburgeritem`
 - `hash_browns`: `croptopia:hashed_brown`
+- `hoisin_sauce`: `pamhc2foodextended:hoisinsauceitem`
 - `hot_chocolate`: `pamhc2foodcore:hotchocolateitem`
 - `hot_cocoa`: `farmersdelight:hot_cocoa`
+- `hot_sauce`: `pamhc2foodextended:hotsauceitem`
 - `hush_puppies`: `pamhc2foodextended:hushpuppiesitem`
+- `ice_cream`: `croptopia:vanilla_ice_cream`, `pamhc2foodcore:icecreamitem`
+- `ketchup`: `pamhc2foodextended:ketchupitem`
+- `kimchi`: `brewinandchewin:kimchi`, `pamhc2foodextended:kimchiitem`, `vintagedelight:kimchi`
 - `lemon_drizzle_cake`: `pamhc2foodextended:lemondrizzlecakeitem`
 - `lemon_meringue_pie_american`: `pamhc2foodextended:lemonmeringueitem`
+- `lemonade`: `croptopia:lemonade`
 - `liver_and_onions`: `pamhc2foodextended:liverandonionsitem`
+- `marshmallow`: `pamhc2foodcore:marshmellowsitem`
 - `mashed_potatoes`: `croptopia:mashed_potatoes`, `pamhc2foodcore:mashedpotatoesitem`, `veggiesdelight:mashed_potatoes`
 - `mashed_sweet_potatoes`: `pamhc2foodextended:mashedsweetpotatoesitem`
+- `mayonnaise`: `pamhc2foodcore:mayonaiseitem`
+- `meringue`: `croptopia:meringue`, `pamhc2foodextended:meringueitem`
 - `miso_soup`: `pamhc2foodextended:misosoupitem`
 - `mozzarella_sticks`: `pamhc2foodextended:mozzerellasticksitem`
 - `musli`: `pamhc2foodextended:museliitem`
+- `naan`: `pamhc2foodextended:naanitem`
 - `nachos`: `pamhc2foodextended:nachoesitem`
+- `noodle`: `croptopia:noodle`
+- `nougat`: `croptopia:nougat`
+- `oatmeal`: `croptopia:oatmeal`, `pamhc2crops:oatsitem`, `vintagedelight:oatmeal`
 - `oatmeal_raisin_cookies`: `croptopia:raisin_oatmeal_cookie`, `pamhc2foodextended:oatmealraisincookiesitem`
+- `olive_oil`: `croptopia:olive_oil`
+- `orange_juice`: `croptopia:orange_juice`, `pamhc2foodextended:orangejuiceitem`
+- `oyster_sauce`: `pamhc2foodextended:oystersauceitem`
 - `pad_thai`: `pamhc2foodextended:padthaiitem`, `vintagedelight:pad_thai`
 - `pancake`: `pamhc2foodextended:pancakesitem`
+- `paneer`: `pamhc2foodextended:paneeritem`
+- `paprika`: `croptopia:paprika`
 - `pavlova`: `pamhc2foodextended:pavlovaitem`
 - `peach_cobbler`: `pamhc2foodextended:peachcobbleritem`
+- `peanut_butter`: `croptopia:peanut_butter`, `pamhc2foodextended:peanutbutteritem`, `thermal:peanut_butter`
+- `peanut_butter_and_jelly_sandwich`: `croptopia:peanut_butter_and_jam`, `pamhc2foodextended:cactusfruitjellysandwichitem`, `pamhc2foodextended:cherryjellysandwichitem`, `pamhc2foodextended:passionfruitjellysandwichitem`, `pamhc2foodextended:peachjellysandwichitem`
+- `peanut_butter_cookies`: `pamhc2foodextended:peanutbuttercookiesitem`
+- `pecan_pie`: `croptopia:pecan_pie`, `garnished:pecan_pie`, `pamhc2foodextended:pecanpieitem`
+- `pickle`: `pamhc2foodextended:picklesitem`, `vintagedelight:pickle`
+- `pineapple_juice`: `croptopia:pineapple_juice`, `pamhc2foodextended:pineapplejuiceitem`
 - `popcorn`: `croptopia:popcorn`, `pamhc2foodextended:popcornitem`
 - `potato_and_leek_soup`: `croptopia:leek_soup`, `pamhc2foodextended:potatoandleeksoupitem`
+- `potato_chips`: `croptopia:potato_chips`, `pamhc2foodcore:potatochipsitem`
 - `potato_pancakes`: `rats:potato_pancake`
 - `potato_salad`: `pamhc2foodextended:potatosaladitem`
 - `potato_skins`: `pamhc2foodextended:potatoskinsitem`
@@ -11899,10 +11539,15 @@ Ingredients the mod's live recipes make as other mods' items, and every item map
 - `pretzels_soft`: `pamhc2foodcore:softpretzelitem`
 - `pumpkin_muffins`: `pamhc2foodcore:pumpkinmuffinitem`
 - `pumpkin_soup`: `croptopia:pumpkin_soup`, `farmersdelight:pumpkin_soup`, `pamhc2foodcore:pumpkinsoupitem`
+- `ravioli`: `croptopia:ravioli`
 - `refried_beans`: `croptopia:refried_beans`, `pamhc2foodextended:refriedbeansitem`
 - `rhubarb_pie`: `croptopia:rhubarb_pie`
 - `rice_pudding`: `pamhc2foodextended:ricepuddingitem`
 - `roasted_potatoes`: `pamhc2foodextended:roastpotatoesitem`
+- `roux`: `pamhc2foodextended:rouxitem`
+- `rum`: `croptopia:rum`
+- `salsa`: `croptopia:salsa`, `pamhc2foodextended:salsaitem`
+- `sesame_oil`: `pamhc2foodextended:sesameoilitem`
 - `shepherd_s_pie_i`: `croptopia:shepherds_pie`, `pamhc2foodextended:shepardspieitem`
 - `snickerdoodles_i`: `croptopia:snicker_doodle`
 - `soft_sugar_cookies`: `pamhc2foodextended:sugarcookieitem`
@@ -11911,23 +11556,34 @@ Ingredients the mod's live recipes make as other mods' items, and every item map
 - `spaghetti_and_meatballs`: `pamhc2foodextended:spagettiandmeatballsitem`
 - `steak_and_mushrooms`: `pamhc2foodextended:mushroomsteakitem`
 - `steak_tartare`: `pamhc2foodextended:steaktartareitem`
-- `steamed_rice`: `croptopia:steamed_rice`
+- `steamed_rice`: `croptopia:steamed_rice`, `pamhc2foodextended:bamboosteamedriceitem`
 - `strawberry_and_yogurt_eton_mess`: `croptopia:eton_mess`
 - `strawberry_rhubarb_pie`: `pamhc2foodextended:strawberryrhubarbpieitem`
 - `stuffed_zucchini`: `veggiesdelight:stuffed_zucchinis`
+- `stuffing`: `pamhc2foodextended:stuffingitem`
 - `succotash`: `pamhc2foodextended:succotashitem`
 - `swedish_meatballs_i`: `pamhc2foodextended:swedishmeatballsitem`
 - `sweet_and_sour_sauce`: `pamhc2foodextended:sweetandsoursauceitem`
+- `sweet_pickle_relish`: `pamhc2foodextended:relishitem`
+- `tea`: `croptopia:tea`
+- `toad_in_the_hole`: `pamhc2foodextended:toadintheholeitem`
+- `toast`: `croptopia:toast`, `pamhc2foodcore:toastitem`
 - `toast_sandwich`: `croptopia:toast_sandwich`, `pamhc2foodextended:toastsandwichitem`
+- `tofu`: `croptopia:tofu`
+- `tomato_juice`: `croptopia:tomato_juice`
+- `tomato_sauce`: `farmersdelight:tomato_sauce`, `thermal:tomato_sauce`
 - `tres_leches_cake_i`: `croptopia:tres_leche_cake`
 - `trifle`: `croptopia:trifle`
 - `turkish_delight`: `pamhc2foodextended:turkishdelightitem`
+- `vegemite`: `pamhc2foodextended:vegemiteitem`
 - `vegetable_soup`: `farmersdelight:vegetable_soup`, `pamhc2foodextended:vegetablesoupitem`
 - `vegetable_spring_roll`: `pamhc2foodextended:springrollitem`
+- `vinegar`: `pamhc2foodcore:vinegaritem`
 - `waffles`: `pamhc2foodextended:wafflesitem`
 - `wheat_flour`: `create:wheat_flour`, `croptopia:flour`, `pamhc2foodcore:flouritem`, `pneumaticcraft:wheat_flour`
 - `white_sugar`: `minecraft:sugar`
 - `wine`: `croptopia:wine`
+- `yogurt`: `croptopia:yoghurt`, `pamhc2foodcore:yogurtitem`
 
 ## Transitions
 
@@ -11945,6 +11601,7 @@ Steps that happen to food while it is kept rather than in a machine: one ingredi
 - `adobo_seasoning.stale`: spoil, `adobo_seasoning` → `spoiled_food`, 517 d (14889600 ticks) at 20 °C, ambient, only from 0 °C to any
 - `african_eggplants.freezer_burn`: spoil, `african_eggplants` → `spoiled_food`, 211 d (6076800 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
 - `african_eggplants.spoil`: spoil, `african_eggplants` → `spoiled_food`, 1 d (28800 ticks) at 20 °C, ambient, q10 2.83, only from 0 °C to any
+- `agar.dry`: held, `strained_agar_broth` → `agar`, 24 h (28800 ticks) at 20 °C, ambient
 - `agar_jelly.step_5`: held, `agar_jelly_step_4` → `agar_jelly_step_5`, 15 min (300 ticks) at 4 °C, chilled, only from any to 8 °C
 - `agave_syrup.stale`: spoil, `agave_syrup` → `spoiled_food`, 365 d (10512000 ticks) at 20 °C, ambient, only from 0 °C to any
 - `agedashi_tofu.step_7`: held, `agedashi_tofu_step_6` → `agedashi_tofu_step_7`, 1 min (20 ticks) at 20 °C, ambient
@@ -11960,7 +11617,7 @@ Steps that happen to food while it is kept rather than in a machine: one ingredi
 - `akarange_rwandan_tomato_sauce.step_8`: held, `akarange_rwandan_tomato_sauce_step_7` → `akarange_rwandan_tomato_sauce`, 1 min (20 ticks) at 20 °C, ambient
 - `akpu.step_3`: held, `akpu_step_2` → `akpu_step_3`, 3.5 d (100800 ticks) at 20 °C, ambient
 - `ale_mustard_and_winter_vegetable_pie.step_12`: held, `ale_mustard_and_winter_vegetable_pie_step_11` → `ale_mustard_and_winter_vegetable_pie`, 1 min (20 ticks) at 20 °C, ambient
-- `algerian_baghrir.step_3`: held, `algerian_baghrir_step_2` → `algerian_baghrir_step_3`, 17.5 min (350 ticks) at 20 °C, ambient
+- `algerian_baghrir.step_3`: held, `algerian_baghrir_step_2` → `algerian_baghrir_step_3`, 17.5 min (350 ticks) at 20 °C, ambient, not written: the game can't make `algerian_baghrir_step_2`
 - `algerian_coca.step_4`: held, `algerian_coca_step_3` → `algerian_coca_step_4`, 1 h (1200 ticks) at 20 °C, ambient, not written: the game can't make `algerian_coca_step_3`
 - `algerian_couscous_with_meat_and_vegetables.step_5`: held, `algerian_couscous_with_meat_and_vegetables_step_4` → `algerian_couscous_with_meat_and_vegetables_step_5`, 12.5 min (250 ticks) at 20 °C, ambient
 - `algerian_lemonade.step_7`: held, `algerian_lemonade_step_6` → `algerian_lemonade`, 1 min (20 ticks) at 4 °C, chilled, only from any to 8 °C, not written: the game can't make `algerian_lemonade_step_6`
@@ -11979,6 +11636,7 @@ Steps that happen to food while it is kept rather than in a machine: one ingredi
 - `amaranth.stale`: spoil, `amaranth` → `spoiled_food`, 122 d (3513600 ticks) at 20 °C, ambient, only from 0 °C to any
 - `amba_sauce.mold`: spoil, `amba_sauce` → `spoiled_food`, 365 d (10512000 ticks) at 20 °C, ambient, q10 2.5, only from 0 °C to any
 - `ambrosia_fruit_salad.step_3`: held, `ambrosia_fruit_salad_step_2` → `ambrosia_fruit_salad`, 1 h (1200 ticks) at 4 °C, chilled, only from any to 8 °C
+- `amchoor.dry`: held, `mango` → `dried_green_mango`, 3 d (86400 ticks) at 22 °C, ambient, q10 2
 - `amchoor.stale`: spoil, `amchoor` → `spoiled_food`, 895 d (25776000 ticks) at 20 °C, ambient, only from 0 °C to any
 - `american_potato_salad_i.step_11`: held, `american_potato_salad_i_step_10` → `american_potato_salad_i`, 1 h (1200 ticks) at 4 °C, chilled, only from any to 8 °C, not written: the game can't make `american_potato_salad_i_step_10`
 - `american_potato_salad_i.step_7`: held, `american_potato_salad_i_step_6` → `american_potato_salad_i_step_7`, 1 min (20 ticks) at 20 °C, ambient, not written: the game can't make `american_potato_salad_i_step_6`
@@ -12020,7 +11678,7 @@ Steps that happen to food while it is kept rather than in a machine: one ingredi
 - `asian_grilled_salmon.step_5`: held, `asian_grilled_salmon_step_4` → `asian_grilled_salmon_step_5`, 5 min (100 ticks) at 20 °C, ambient, not written: the game can't make `asian_grilled_salmon_step_4`
 - `asian_pear.freezer_burn`: spoil, `asian_pear` → `spoiled_food`, 60.9 d (1753920 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
 - `asian_pear.mold`: spoil, `asian_pear` → `spoiled_food`, 3.87 d (111456 ticks) at 4 °C, chilled, q10 2.5, only from 0 °C to any
-- `asida_bil_zibda_libyan_semolina_pudding.step_6`: held, `asida_bil_zibda_libyan_semolina_pudding_step_5` → `asida_bil_zibda_libyan_semolina_pudding_step_7`, 1 min (20 ticks) at 20 °C, ambient
+- `asida_bil_zibda_libyan_semolina_pudding.step_6`: held, `asida_bil_zibda_libyan_semolina_pudding_step_5` → `asida_bil_zibda_libyan_semolina_pudding_step_7`, 1 min (20 ticks) at 20 °C, ambient, not written: the game can't make `asida_bil_zibda_libyan_semolina_pudding_step_5`
 - `asondo_nigerian_dried_sweet_potatoes.step_3`: held, `asondo_nigerian_dried_sweet_potatoes_step_2` → `asondo_nigerian_dried_sweet_potatoes`, 2.5 d (72000 ticks) at 20 °C, ambient
 - `asparagus.freezer_burn`: spoil, `asparagus` → `spoiled_food`, 152 d (4377600 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
 - `asparagus.spoil`: spoil, `asparagus` → `spoiled_food`, 3.46 d (99648 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
@@ -12070,7 +11728,7 @@ Steps that happen to food while it is kept rather than in a machine: one ingredi
 - `banana_cream_pie_i.step_13`: held, `banana_cream_pie_i_step_12` → `banana_cream_pie_i_step_13`, 1 h (1200 ticks) at 4 °C, chilled, only from any to 8 °C, not written: the game can't make `banana_cream_pie_i_step_12`
 - `banana_cream_pie_ii.step_11`: held, `banana_cream_pie_ii_step_10` → `banana_cream_pie_ii`, 1 min (20 ticks) at 20 °C, ambient
 - `banana_ketchup.mold`: spoil, `banana_ketchup` → `spoiled_food`, 365 d (10512000 ticks) at 20 °C, ambient, q10 2.5, only from 0 °C to any
-- `banana_nut_muffins.step_6`: held, `banana_nut_muffins_step_5` → `banana_nut_muffins`, 1 min (20 ticks) at 20 °C, ambient
+- `banana_nut_muffins.step_6`: held, `banana_nut_muffins_step_5` → `banana_nut_muffins`, 1 min (20 ticks) at 20 °C, ambient, not written: the game can't make `banana_nut_muffins_step_5`
 - `banana_pepper.freezer_burn`: spoil, `banana_pepper` → `spoiled_food`, 211 d (6076800 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
 - `banana_pepper.spoil`: spoil, `banana_pepper` → `spoiled_food`, 7.48 d (215424 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
 - `banana_peppers.freezer_burn`: spoil, `banana_peppers` → `spoiled_food`, 211 d (6076800 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
@@ -12078,7 +11736,7 @@ Steps that happen to food while it is kept rather than in a machine: one ingredi
 - `banana_pudding.step_12`: held, `banana_pudding_step_11` → `banana_pudding`, 1 min (20 ticks) at 4 °C, chilled, only from any to 8 °C, not written: the game can't make `banana_pudding_step_11`
 - `banana_pudding.step_5`: held, `banana_pudding_step_4` → `banana_pudding_step_5`, 1 min (20 ticks) at 20 °C, ambient
 - `banga_spice.stale`: spoil, `banga_spice` → `spoiled_food`, 895 d (25776000 ticks) at 20 °C, ambient, only from 0 °C to any
-- `banoffee_pie.step_7`: held, `banoffee_pie_step_6` → `banoffee_pie_step_7`, 1 h (1200 ticks) at 4 °C, chilled, only from any to 8 °C
+- `banoffee_pie.step_7`: held, `banoffee_pie_step_6` → `banoffee_pie_step_7`, 1 h (1200 ticks) at 4 °C, chilled, only from any to 8 °C, not written: the game can't make `banoffee_pie_step_6`
 - `barbecue_chicken.step_6`: held, `barbecue_chicken_step_5` → `barbecue_chicken`, 7 min (140 ticks) at 20 °C, ambient
 - `barbecue_meatloaf.step_10`: held, `barbecue_meatloaf_step_9` → `barbecue_meatloaf`, 9 min (180 ticks) at 20 °C, ambient, not written: the game can't make `barbecue_meatloaf_step_9`
 - `barbecue_prime_rib.step_4.prep_4`: held, `mesquite_chunks` → `mesquite_chunks_dry`, 1 min (20 ticks) at 20 °C, ambient
@@ -12087,8 +11745,8 @@ Steps that happen to food while it is kept rather than in a machine: one ingredi
 - `barbecue_wings.step_4`: held, `barbecue_wings_step_3` → `barbecue_wings`, 5 min (100 ticks) at 20 °C, ambient, not written: the game can't make `barbecue_wings_step_3`
 - `barley.freezer_burn`: spoil, `barley` → `spoiled_food`, 365 d (10512000 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
 - `barley.stale`: spoil, `barley` → `spoiled_food`, 183 d (5270400 ticks) at 20 °C, ambient, only from 0 °C to any
-- `basbousa_egyptian_semolina_cake.step_10`: held, `basbousa_egyptian_semolina_cake_step_9` → `basbousa_egyptian_semolina_cake`, 1 min (20 ticks) at 20 °C, ambient
-- `basbousa_egyptian_semolina_cake.step_7`: held, `basbousa_egyptian_semolina_cake_step_6` → `basbousa_egyptian_semolina_cake_step_7`, 1 min (20 ticks) at 20 °C, ambient
+- `basbousa_egyptian_semolina_cake.step_10`: held, `basbousa_egyptian_semolina_cake_step_9` → `basbousa_egyptian_semolina_cake`, 1 min (20 ticks) at 20 °C, ambient, not written: the game can't make `basbousa_egyptian_semolina_cake_step_9`
+- `basbousa_egyptian_semolina_cake.step_7`: held, `basbousa_egyptian_semolina_cake_step_6` → `basbousa_egyptian_semolina_cake_step_7`, 1 min (20 ticks) at 20 °C, ambient, not written: the game can't make `basbousa_egyptian_semolina_cake_step_6`
 - `basic_flapjacks.step_6`: held, `basic_flapjacks_step_5` → `basic_flapjacks_step_6`, 12.5 min (250 ticks) at 20 °C, ambient
 - `basic_flapjacks.step_7`: held, `basic_flapjacks_step_6` → `basic_flapjacks`, 1 min (20 ticks) at 20 °C, ambient
 - `basic_lasagna.step_6`: held, `basic_lasagna_step_5` → `basic_lasagna`, 10 min (200 ticks) at 20 °C, ambient, not written: the game can't make `basic_lasagna_step_5`
@@ -12127,15 +11785,15 @@ Steps that happen to food while it is kept rather than in a machine: one ingredi
 - `bell_pepper.spoil`: spoil, `bell_pepper` → `spoiled_food`, 7.48 d (215424 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
 - `bell_peppers.freezer_burn`: spoil, `bell_peppers` → `spoiled_food`, 211 d (6076800 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
 - `bell_peppers.spoil`: spoil, `bell_peppers` → `spoiled_food`, 7.48 d (215424 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
-- `berbere_spice.stale`: spoil, `berbere_spice` → `spoiled_food`, 895 d (25776000 ticks) at 20 °C, ambient, only from 0 °C to any
+- `berbere_spice.stale`: spoil, `berbere_spice` → `spoiled_food`, 895 d (25776000 ticks) at 20 °C, ambient, only from 0 °C to any, not written: the game can't make `berbere_spice`
 - `betty_s_salad.step_3`: held, `betty_s_salad_step_2` → `betty_s_salad`, 1 min (20 ticks) at 4 °C, chilled, only from any to 8 °C, not written: the game can't make `betty_s_salad_step_2`
 - `beurre_manie.step_3`: held, `beurre_manie_step_2` → `beurre_manie`, 1 min (20 ticks) at 20 °C, ambient
 - `bhuna_khichuri_bengali_rice_and_lentils.step_2`: held, `bhuna_khichuri_bengali_rice_and_lentils_step_1` → `bhuna_khichuri_bengali_rice_and_lentils_step_2`, 1 min (20 ticks) at 20 °C, ambient
 - `biltong.spoil`: spoil, `biltong` → `spoiled_food`, 365 d (10512000 ticks) at 20 °C, ambient, q10 3, only from 0 °C to any
 - `biltong_zambian_dried_and_salted_meat.step_4`: held, `biltong_zambian_dried_and_salted_meat_step_3` → `biltong_zambian_dried_and_salted_meat_step_4`, 1 min (20 ticks) at 20 °C, ambient, not written: the game can't make `biltong_zambian_dried_and_salted_meat_step_3`
 - `biltong_zambian_dried_and_salted_meat.step_5`: held, `biltong_zambian_dried_and_salted_meat_step_4` → `biltong_zambian_dried_and_salted_meat_step_5`, 4 d (115200 ticks) at 20 °C, ambient, not written: the game can't make `biltong_zambian_dried_and_salted_meat_step_4`
-- `bint_as_sa_n_yemenite_layered_pastry.step_4`: held, `bint_as_sa_n_yemenite_layered_pastry_step_3` → `bint_as_sa_n_yemenite_layered_pastry_step_5`, 1 min (20 ticks) at 20 °C, ambient
-- `bint_as_sa_n_yemenite_layered_pastry.step_7`: held, `bint_as_sa_n_yemenite_layered_pastry_step_5` → `bint_as_sa_n_yemenite_layered_pastry_step_7`, 12.5 min (250 ticks) at 20 °C, ambient
+- `bint_as_sa_n_yemenite_layered_pastry.step_4`: held, `bint_as_sa_n_yemenite_layered_pastry_step_3` → `bint_as_sa_n_yemenite_layered_pastry_step_5`, 1 min (20 ticks) at 20 °C, ambient, not written: the game can't make `bint_as_sa_n_yemenite_layered_pastry_step_3`
+- `bint_as_sa_n_yemenite_layered_pastry.step_7`: held, `bint_as_sa_n_yemenite_layered_pastry_step_5` → `bint_as_sa_n_yemenite_layered_pastry_step_7`, 12.5 min (250 ticks) at 20 °C, ambient, not written: the game can't make `bint_as_sa_n_yemenite_layered_pastry_step_5`
 - `biscuits_and_gravy.step_12`: held, `biscuits_and_gravy_step_11` → `biscuits_and_gravy`, 1 min (20 ticks) at 20 °C, ambient
 - `biscuits_iii.step_7`: held, `biscuits_iii_step_6` → `biscuits_iii`, 1 min (20 ticks) at 20 °C, ambient
 - `bitter_bean.stale`: spoil, `bitter_bean` → `spoiled_food`, 517 d (14889600 ticks) at 20 °C, ambient, only from 0 °C to any
@@ -12155,7 +11813,7 @@ Steps that happen to food while it is kept rather than in a machine: one ingredi
 - `blackberry.freezer_burn`: spoil, `blackberry` → `spoiled_food`, 365 d (10512000 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
 - `blackberry.mold`: spoil, `blackberry` → `spoiled_food`, 4.24 d (122112 ticks) at 4 °C, chilled, q10 2.5, only from 0 °C to any
 - `blackberry_mush.step_4`: held, `blackberry_mush_step_3` → `blackberry_mush`, 1 min (20 ticks) at 20 °C, ambient
-- `blackened_sirloin.step_5`: held, `blackened_sirloin_step_4` → `blackened_sirloin_step_5`, 10 min (200 ticks) at 20 °C, ambient
+- `blackened_sirloin.step_5`: held, `blackened_sirloin_step_4` → `blackened_sirloin_step_5`, 10 min (200 ticks) at 20 °C, ambient, not written: the game can't make `blackened_sirloin_step_4`
 - `blackstrap_molasses.stale`: spoil, `blackstrap_molasses` → `spoiled_food`, 517 d (14889600 ticks) at 20 °C, ambient, only from 0 °C to any
 - `bliny.step_3`: held, `bliny_step_2` → `bliny_step_3`, 1.75 h (2100 ticks) at 20 °C, ambient
 - `bliny.step_5`: held, `bliny_step_4` → `bliny_step_5`, 1 min (20 ticks) at 20 °C, ambient
@@ -12176,6 +11834,7 @@ Steps that happen to food while it is kept rather than in a machine: one ingredi
 - `bonga_fish_domoda_gambian_fish_in_peanut_sauce.step_9`: held, `bonga_fish_domoda_gambian_fish_in_peanut_sauce_step_8` → `bonga_fish_domoda_gambian_fish_in_peanut_sauce_step_9`, 1 min (20 ticks) at 20 °C, ambient
 - `bonga_fish_fillets.freezer_burn`: spoil, `bonga_fish_fillets` → `spoiled_food`, 74.6 d (2148480 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
 - `bonga_fish_fillets.spoil`: spoil, `bonga_fish_fillets` → `spoiled_food`, 1.41 d (40608 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
+- `bonito_flakes.ferment`: held, `smoked_bonito` → `katsuobushi`, 14 d (403200 ticks) at 25 °C, ambient, q10 2
 - `boom_blackcurrant_beverage.sour`: spoil, `boom_blackcurrant_beverage` → `spoiled_food`, 21 d (604800 ticks) at 20 °C, ambient, q10 3, only from 0 °C to any
 - `boursin_brand_cheese.freezer_burn`: spoil, `boursin_brand_cheese` → `spoiled_food`, 183 d (5270400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
 - `boursin_brand_cheese.mold`: spoil, `boursin_brand_cheese` → `spoiled_food`, 9.9 d (285120 ticks) at 4 °C, chilled, q10 2.5, only from 0 °C to any
@@ -12226,9 +11885,10 @@ Steps that happen to food while it is kept rather than in a machine: one ingredi
 - `buckwheat_flour.freezer_burn`: spoil, `buckwheat_flour` → `spoiled_food`, 60.9 d (1753920 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
 - `buckwheat_flour.stale`: spoil, `buckwheat_flour` → `spoiled_food`, 30.4 d (875520 ticks) at 20 °C, ambient, only from 0 °C to any
 - `bulgarian_fresh_sausage_kebapcheta.step_2`: held, `bulgarian_fresh_sausage_kebapcheta_step_1` → `bulgarian_fresh_sausage_kebapcheta_step_3`, 1.5 d (43200 ticks) at 4 °C, chilled, only from any to 8 °C
+- `bulgur.dry`: held, `parboiled_wheat` → `dried_parboiled_wheat`, 720 min (14400 ticks) at 20 °C, ambient
 - `bulgur.stale`: spoil, `bulgur` → `spoiled_food`, 258 d (7430400 ticks) at 20 °C, ambient, only from 0 °C to any
-- `bun.freezer_burn`: spoil, `bun` → `spoiled_food`, 118 d (3398400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `bun.mold`: spoil, `bun` → `spoiled_food`, 15.9 d (457920 ticks) at 20 °C, ambient, q10 2.5, only from 0 °C to any
+- `bun.freezer_burn`: spoil, `bun` → `spoiled_food`, 118 d (3398400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C, not written: the game can't make `bun`
+- `bun.mold`: spoil, `bun` → `spoiled_food`, 15.9 d (457920 ticks) at 20 °C, ambient, q10 2.5, only from 0 °C to any, not written: the game can't make `bun`
 - `buns.freezer_burn`: spoil, `buns` → `spoiled_food`, 118 d (3398400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
 - `buns.mold`: spoil, `buns` → `spoiled_food`, 15.9 d (457920 ticks) at 20 °C, ambient, q10 2.5, only from 0 °C to any
 - `butter.freezer_burn`: spoil, `butter` → `spoiled_food`, 224 d (6451200 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
@@ -12250,7 +11910,7 @@ Steps that happen to food while it is kept rather than in a machine: one ingredi
 - `cabbage_salad.step_3`: held, `cabbage_salad_step_2` → `cabbage_salad`, 8 h (9600 ticks) at 4 °C, chilled, only from any to 8 °C
 - `cabbie_claw_scottish_whitefish_with_egg_and_potato.step_2`: held, `cabbie_claw_scottish_whitefish_with_egg_and_potato_step_1` → `cabbie_claw_scottish_whitefish_with_egg_and_potato_step_2`, 24 h (28800 ticks) at 20 °C, ambient, not written: the game can't make `cabbie_claw_scottish_whitefish_with_egg_and_potato_step_1`
 - `cachupa_cape_verdean_corn_stew.step_12`: held, `cachupa_cape_verdean_corn_stew_step_11` → `cachupa_cape_verdean_corn_stew`, 20 min (400 ticks) at 20 °C, ambient
-- `cajun_seasoning.stale`: spoil, `cajun_seasoning` → `spoiled_food`, 517 d (14889600 ticks) at 20 °C, ambient, only from 0 °C to any
+- `cajun_seasoning.stale`: spoil, `cajun_seasoning` → `spoiled_food`, 517 d (14889600 ticks) at 20 °C, ambient, only from 0 °C to any, not written: the game can't make `cajun_seasoning`
 - `cake.freezer_burn`: spoil, `cake` → `spoiled_food`, 183 d (5270400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
 - `cake.mold`: spoil, `cake` → `spoiled_food`, 4.58 d (131904 ticks) at 20 °C, ambient, q10 2.5, only from 0 °C to any
 - `cake_brownies.step_6`: held, `cake_brownies_step_5` → `cake_brownies`, 1 min (20 ticks) at 20 °C, ambient
@@ -12264,6 +11924,7 @@ Steps that happen to food while it is kept rather than in a machine: one ingredi
 - `cameroon_koki_corn.step_8`: held, `cameroon_koki_corn_step_7` → `cameroon_koki_corn`, 10 min (200 ticks) at 20 °C, ambient
 - `campfire_barbecue_chicken_wings.step_5`: held, `campfire_barbecue_chicken_wings_step_4` → `campfire_barbecue_chicken_wings`, 5 min (100 ticks) at 20 °C, ambient
 - `candied_almonds_branda_mandlar.step_4`: held, `candied_almonds_branda_mandlar_step_3` → `candied_almonds_branda_mandlar`, 1 min (20 ticks) at 20 °C, ambient
+- `candied_kumquats.dry`: held, `poached_kumquat` → `candied_kumquats`, 12 h (14400 ticks) at 20 °C, ambient
 - `canjeero_somali_pancake.step_5`: held, `canjeero_somali_pancake_step_3` → `canjeero_somali_pancake_step_5`, 2 h (2400 ticks) at 20 °C, ambient
 - `cannabutter.step_4`: held, `cannabutter_step_3` → `cannabutter_step_4`, 1 min (20 ticks) at 20 °C, ambient
 - `cannabutter.step_6`: held, `cannabutter_step_5` → `cannabutter`, 14 d (403200 ticks) at 4 °C, chilled, only from any to 8 °C
@@ -12331,9 +11992,9 @@ Steps that happen to food while it is kept rather than in a machine: one ingredi
 - `cheese.freezer_burn`: spoil, `cheese` → `spoiled_food`, 183 d (5270400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
 - `cheese.mold`: spoil, `cheese` → `spoiled_food`, 183 d (5270400 ticks) at 4 °C, chilled, q10 2.5, only from 0 °C to any
 - `cheese_dumplings.step_7`: held, `cheese_dumplings_step_6` → `cheese_dumplings`, 1 min (20 ticks) at 20 °C, ambient
-- `cheese_filling_for_peynirli_borek.step_3`: held, `cheese_filling_for_peynirli_borek_step_2` → `cheese_filling_for_peynirli_borek`, 1 min (20 ticks) at 4 °C, chilled, only from any to 8 °C
-- `cheese_puffs_pao_de_queijo.step_3`: held, `cheese_puffs_pao_de_queijo_step_2` → `cheese_puffs_pao_de_queijo_step_3`, 15 min (300 ticks) at 20 °C, ambient
-- `cheese_puffs_pao_de_queijo.step_8`: held, `cheese_puffs_pao_de_queijo_step_7` → `cheese_puffs_pao_de_queijo`, 1 min (20 ticks) at 20 °C, ambient
+- `cheese_filling_for_peynirli_borek.step_3`: held, `cheese_filling_for_peynirli_borek_step_2` → `cheese_filling_for_peynirli_borek`, 1 min (20 ticks) at 4 °C, chilled, only from any to 8 °C, not written: the game can't make `cheese_filling_for_peynirli_borek_step_2`
+- `cheese_puffs_pao_de_queijo.step_3`: held, `cheese_puffs_pao_de_queijo_step_2` → `cheese_puffs_pao_de_queijo_step_3`, 15 min (300 ticks) at 20 °C, ambient, not written: the game can't make `cheese_puffs_pao_de_queijo_step_2`
+- `cheese_puffs_pao_de_queijo.step_8`: held, `cheese_puffs_pao_de_queijo_step_7` → `cheese_puffs_pao_de_queijo`, 1 min (20 ticks) at 20 °C, ambient, not written: the game can't make `cheese_puffs_pao_de_queijo_step_7`
 - `cheese_ravioli_filling.step_2`: held, `cheese_ravioli_filling_step_1` → `cheese_ravioli_filling`, 1 min (20 ticks) at 20 °C, ambient
 - `cheese_spread_on_french_bread.step_4`: held, `cheese_spread_on_french_bread_step_3` → `cheese_spread_on_french_bread_step_4`, 3 h (3600 ticks) at 4 °C, chilled, only from any to 8 °C
 - `cheese_spread_on_french_bread.step_5`: held, `cheese_spread_on_french_bread_step_4` → `cheese_spread_on_french_bread_step_5`, 0.5 h (600 ticks) at 20 °C, ambient
@@ -12372,6 +12033,7 @@ Steps that happen to food while it is kept rather than in a machine: one ingredi
 - `chicken_flavour_bouillon_cube.mold`: spoil, `chicken_flavour_bouillon_cube` → `spoiled_food`, 7 d (201600 ticks) at 4 °C, chilled, q10 2.5, only from 0 °C to any
 - `chicken_hot_dogs.freezer_burn`: spoil, `chicken_hot_dogs` → `spoiled_food`, 43 d (1238400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
 - `chicken_hot_dogs.spoil`: spoil, `chicken_hot_dogs` → `spoiled_food`, 14 d (403200 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
+- `chicken_jerky.dry`: held, `salted_chicken_strips` → `chicken_jerky`, 8 h (9600 ticks) at 20 °C, ambient, not written: the game can't make `salted_chicken_strips`
 - `chicken_marinade.step_2`: held, `chicken_marinade_step_1` → `chicken_marinade_step_2`, 14 d (403200 ticks) at 4 °C, chilled, only from any to 8 °C
 - `chicken_mull.step_2`: held, `chicken_simmer_simmer` → `chicken_simmer_simmer_cool`, 1 min (20 ticks) at 20 °C, ambient
 - `chicken_parmigiana.step_6`: held, `chicken_parmigiana_step_5` → `chicken_parmigiana_step_6`, 1 min (20 ticks) at 20 °C, ambient
@@ -12387,6 +12049,7 @@ Steps that happen to food while it is kept rather than in a machine: one ingredi
 - `chile.freezer_burn`: spoil, `chile` → `spoiled_food`, 274 d (7891200 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
 - `chile.spoil`: spoil, `chile` → `spoiled_food`, 7 d (201600 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
 - `chile_powder.stale`: spoil, `chile_powder` → `spoiled_food`, 730 d (21024000 ticks) at 20 °C, ambient, only from 0 °C to any
+- `chiles.dry_hot`: held, `hot_chiles` → `dried_chiles`, 48 h (57600 ticks) at 20 °C, ambient
 - `chiles.freezer_burn`: spoil, `chiles` → `spoiled_food`, 274 d (7891200 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
 - `chiles.spoil`: spoil, `chiles` → `spoiled_food`, 7 d (201600 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
 - `chiles_de_arbol.stale`: spoil, `chiles_de_arbol` → `spoiled_food`, 1270 d (36576000 ticks) at 20 °C, ambient, only from 0 °C to any
@@ -12537,7 +12200,7 @@ Steps that happen to food while it is kept rather than in a machine: one ingredi
 - `cooking_bananas.freezer_burn`: spoil, `cooking_bananas` → `spoiled_food`, 333 d (9590400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
 - `cooking_bananas.mold`: spoil, `cooking_bananas` → `spoiled_food`, 3.87 d (111456 ticks) at 4 °C, chilled, q10 2.5, only from 0 °C to any
 - `cooking_spray.rancid`: spoil, `cooking_spray` → `spoiled_food`, 730 d (21024000 ticks) at 20 °C, ambient, q10 2, only from 0 °C to any
-- `coq_au_vin_iii.step_6`: held, `coq_au_vin_iii_step_5` → `coq_au_vin_iii_step_6`, 30 min (600 ticks) at -18 °C, frozen, only from any to 0 °C
+- `coq_au_vin_iii.step_6`: held, `coq_au_vin_iii_step_5` → `coq_au_vin_iii_step_6`, 30 min (600 ticks) at -18 °C, frozen, only from any to 0 °C, not written: the game can't make `coq_au_vin_iii_step_5`
 - `cored_and_sliced_apples.freezer_burn`: spoil, `cored_and_sliced_apples` → `spoiled_food`, 244 d (7027200 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
 - `cored_and_sliced_apples.mold`: spoil, `cored_and_sliced_apples` → `spoiled_food`, 21 d (604800 ticks) at 20 °C, ambient, q10 1.36, only from 0 °C to any
 - `coriander.stale`: spoil, `coriander` → `spoiled_food`, 895 d (25776000 ticks) at 20 °C, ambient, only from 0 °C to any
@@ -12553,6 +12216,7 @@ Steps that happen to food while it is kept rather than in a machine: one ingredi
 - `corned_beef.freezer_burn`: spoil, `corned_beef` → `spoiled_food`, 30.4 d (875520 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
 - `corned_beef.spoil`: spoil, `corned_beef` → `spoiled_food`, 5.92 d (170496 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
 - `cornish_fairing.step_7`: held, `cornish_fairing_step_6` → `cornish_fairing`, 1 min (20 ticks) at 20 °C, ambient
+- `cornmeal.dry_corn`: held, `corn` → `dried_corn`, 720 min (14400 ticks) at 20 °C, ambient
 - `cornmeal.stale`: spoil, `cornmeal` → `spoiled_food`, 258 d (7430400 ticks) at 20 °C, ambient, only from 0 °C to any
 - `cornmeal_fried_morels.step_11`: held, `cornmeal_fried_morels_step_10` → `cornmeal_fried_morels`, 1 min (20 ticks) at 20 °C, ambient
 - `corom_chatni_mango_chutney_with_hot_chillies.step_7`: held, `corom_chatni_mango_chutney_with_hot_chillies_step_6` → `corom_chatni_mango_chutney_with_hot_chillies`, 1.5 h (1800 ticks) at 4 °C, chilled, only from any to 8 °C
@@ -12563,6 +12227,7 @@ Steps that happen to food while it is kept rather than in a machine: one ingredi
 - `country_fried_chicken.step_4`: held, `country_fried_chicken_step_3` → `country_fried_chicken_step_4`, 1 min (20 ticks) at 20 °C, ambient, not written: the game can't make `country_fried_chicken_step_3`
 - `country_onion_spice.stale`: spoil, `country_onion_spice` → `spoiled_food`, 895 d (25776000 ticks) at 20 °C, ambient, only from 0 °C to any
 - `country_roast_chicken.step_7`: held, `country_roast_chicken_step_6` → `country_roast_chicken`, 10 min (200 ticks) at 20 °C, ambient
+- `couscous.dry`: held, `couscous_pellets` → `couscous`, 600 min (12000 ticks) at 20 °C, ambient, not written: the game can't make `couscous_pellets`
 - `cow_feet.freezer_burn`: spoil, `cow_feet` → `spoiled_food`, 105 d (3024000 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
 - `cow_feet.spoil`: spoil, `cow_feet` → `spoiled_food`, 1.41 d (40608 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
 - `cowpea.stale`: spoil, `cowpea` → `spoiled_food`, 517 d (14889600 ticks) at 20 °C, ambient, only from 0 °C to any
@@ -12587,7 +12252,7 @@ Steps that happen to food while it is kept rather than in a machine: one ingredi
 - `cream_cheese_mints.step_5`: held, `cream_cheese_mints_step_4` → `cream_cheese_mints`, 1 min (20 ticks) at 4 °C, chilled, only from any to 8 °C
 - `cream_of_wheat.stale`: spoil, `cream_of_wheat` → `spoiled_food`, 365 d (10512000 ticks) at 20 °C, ambient, only from 0 °C to any
 - `creamy_cornstarch_scrambled_eggs.step_6`: held, `creamy_cornstarch_scrambled_eggs_step_5` → `creamy_cornstarch_scrambled_eggs`, 1 min (20 ticks) at 20 °C, ambient
-- `creamy_russian_dressing.mold`: spoil, `creamy_russian_dressing` → `spoiled_food`, 183 d (5270400 ticks) at 20 °C, ambient, q10 2.5, only from 0 °C to any
+- `creamy_russian_dressing.mold`: spoil, `creamy_russian_dressing` → `spoiled_food`, 183 d (5270400 ticks) at 20 °C, ambient, q10 2.5, only from 0 °C to any, not written: the game can't make `creamy_russian_dressing`
 - `creme_anglaise.step_7`: held, `creme_anglaise_step_6` → `creme_anglaise`, 1 min (20 ticks) at -18 °C, frozen, only from any to 0 °C
 - `creme_brulee_cheesecake.step_11`: held, `creme_brulee_cheesecake_step_10` → `creme_brulee_cheesecake_step_11`, 30 min (600 ticks) at 20 °C, ambient
 - `creme_brulee_cheesecake.step_12`: held, `creme_brulee_cheesecake_step_11` → `creme_brulee_cheesecake_step_12`, 3 h (3600 ticks) at 4 °C, chilled, only from any to 8 °C
@@ -12661,14 +12326,16 @@ Steps that happen to food while it is kept rather than in a machine: one ingredi
 - `deep_fried_turkey.step_12`: held, `deep_fried_turkey_step_10` → `deep_fried_turkey`, 25 min (500 ticks) at 20 °C, ambient
 - `deep_fried_urad_and_rice_flour_dough_balls_murukku.step_6`: held, `deep_fried_urad_and_rice_flour_dough_balls_murukku_step_5` → `deep_fried_urad_and_rice_flour_dough_balls_murukku`, 1 min (20 ticks) at 20 °C, ambient
 - `deep_fried_wheat_and_chickpea_flour_dough_balls_muthiya.step_5`: held, `deep_fried_wheat_and_chickpea_flour_dough_balls_muthiya_step_4` → `deep_fried_wheat_and_chickpea_flour_dough_balls_muthiya`, 1 min (20 ticks) at 20 °C, ambient
+- `dehydrated_broth.dry`: held, `bouillon_paste` → `dehydrated_broth`, 1 d (28800 ticks) at 30 °C, warm, q10 2
+- `dehydrated_garlic.dry_slices`: held, `garlic_chop` → `dehydrated_garlic`, 2 d (57600 ticks) at 22 °C, ambient, q10 2
 - `dehydrated_garlic.stale`: spoil, `dehydrated_garlic` → `spoiled_food`, 1270 d (36576000 ticks) at 20 °C, ambient, only from 0 °C to any
 - `deli_meat.freezer_burn`: spoil, `deli_meat` → `spoiled_food`, 43 d (1238400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
 - `deli_meat.spoil`: spoil, `deli_meat` → `spoiled_food`, 3.87 d (111456 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
 - `delicious_apple.freezer_burn`: spoil, `delicious_apple` → `spoiled_food`, 244 d (7027200 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
 - `delicious_apple.mold`: spoil, `delicious_apple` → `spoiled_food`, 21 d (604800 ticks) at 20 °C, ambient, q10 1.36, only from 0 °C to any
 - `desert_rubbed_strip_steaks.step_4`: held, `desert_rubbed_strip_steaks_step_3` → `desert_rubbed_strip_steaks`, 5 min (100 ticks) at 20 °C, ambient
-- `digestive_biscuit.freezer_burn`: spoil, `digestive_biscuit` → `spoiled_food`, 105 d (3024000 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `digestive_biscuit.stale`: spoil, `digestive_biscuit` → `spoiled_food`, 244 d (7027200 ticks) at 20 °C, ambient, only from 0 °C to any
+- `digestive_biscuit.freezer_burn`: spoil, `digestive_biscuit` → `spoiled_food`, 105 d (3024000 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C, not written: the game can't make `digestive_biscuit`
+- `digestive_biscuit.stale`: spoil, `digestive_biscuit` → `spoiled_food`, 244 d (7027200 ticks) at 20 °C, ambient, only from 0 °C to any, not written: the game can't make `digestive_biscuit`
 - `dill.freezer_burn`: spoil, `dill` → `spoiled_food`, 43 d (1238400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
 - `dill.spoil`: spoil, `dill` → `spoiled_food`, 8.37 d (241056 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
 - `dill_cucumber_salad.step_3`: held, `dill_cucumber_salad_step_2` → `dill_cucumber_salad`, 1 h (1200 ticks) at 4 °C, chilled, only from any to 8 °C, not written: the game can't make `dill_cucumber_salad_step_2`
@@ -12684,8 +12351,8 @@ Steps that happen to food while it is kept rather than in a machine: one ingredi
 - `dominican_flan.step_4`: held, `dominican_flan_step_3` → `dominican_flan_step_4`, 1 min (20 ticks) at 20 °C, ambient
 - `dongu_mushrooms.freezer_burn`: spoil, `dongu_mushrooms` → `spoiled_food`, 333 d (9590400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
 - `dongu_mushrooms.spoil`: spoil, `dongu_mushrooms` → `spoiled_food`, 4.58 d (131904 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
-- `doro_dabo_ethiopian_chicken_with_spiced_bread.step_11`: held, `doro_dabo_ethiopian_chicken_with_spiced_bread_step_10` → `doro_dabo_ethiopian_chicken_with_spiced_bread_step_11`, 1 min (20 ticks) at 20 °C, ambient
-- `doro_dabo_ethiopian_chicken_with_spiced_bread.step_4`: held, `doro_dabo_ethiopian_chicken_with_spiced_bread_step_3` → `doro_dabo_ethiopian_chicken_with_spiced_bread_step_8`, 1 h (1200 ticks) at 20 °C, ambient
+- `doro_dabo_ethiopian_chicken_with_spiced_bread.step_11`: held, `doro_dabo_ethiopian_chicken_with_spiced_bread_step_10` → `doro_dabo_ethiopian_chicken_with_spiced_bread_step_11`, 1 min (20 ticks) at 20 °C, ambient, not written: the game can't make `doro_dabo_ethiopian_chicken_with_spiced_bread_step_10`
+- `doro_dabo_ethiopian_chicken_with_spiced_bread.step_4`: held, `doro_dabo_ethiopian_chicken_with_spiced_bread_step_3` → `doro_dabo_ethiopian_chicken_with_spiced_bread_step_8`, 1 h (1200 ticks) at 20 °C, ambient, not written: the game can't make `doro_dabo_ethiopian_chicken_with_spiced_bread_step_3`
 - `dosa_i.step_5`: held, `dosa_i_step_4` → `dosa_i_step_5`, 8 h (9600 ticks) at 20 °C, ambient
 - `double_chocolate_brownies.step_12`: held, `double_chocolate_brownies_step_11` → `double_chocolate_brownies`, 1 min (20 ticks) at 20 °C, ambient
 - `double_chocolate_cheesecake.step_10`: held, `double_chocolate_cheesecake_step_9` → `double_chocolate_cheesecake_step_10`, 14 h (16800 ticks) at 4 °C, chilled, only from any to 8 °C
@@ -12694,7 +12361,9 @@ Steps that happen to food while it is kept rather than in a machine: one ingredi
 - `double_hamburgers.step_4`: held, `double_hamburgers_step_3` → `double_hamburgers_step_4`, 1 min (20 ticks) at 20 °C, ambient
 - `douchi.mold`: spoil, `douchi` → `spoiled_food`, 633 d (18230400 ticks) at 20 °C, ambient, q10 2.5, only from 0 °C to any
 - `dressing.mold`: spoil, `dressing` → `spoiled_food`, 333 d (9590400 ticks) at 20 °C, ambient, q10 2.5, only from 0 °C to any
+- `dried_chili.dry`: held, `chile` → `dried_chili`, 5 d (144000 ticks) at 20 °C, ambient, q10 2
 - `dried_chili.stale`: spoil, `dried_chili` → `spoiled_food`, 1270 d (36576000 ticks) at 20 °C, ambient, only from 0 °C to any
+- `dried_fruit.dry`: held, `fruit` → `dried_fruit`, 8 h (9600 ticks) at 20 °C, ambient, q10 2
 - `dried_fruit.stale`: spoil, `dried_fruit` → `spoiled_food`, 183 d (5270400 ticks) at 20 °C, ambient, only from 0 °C to any
 - `dripping.freezer_burn`: spoil, `dripping` → `spoiled_food`, 365 d (10512000 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
 - `dripping.rancid`: spoil, `dripping` → `spoiled_food`, 183 d (5270400 ticks) at 4 °C, chilled, q10 2, only from 0 °C to any
@@ -12730,7 +12399,7 @@ Steps that happen to food while it is kept rather than in a machine: one ingredi
 - `egg_casserole.step_5`: held, `egg_casserole_step_4` → `egg_casserole_step_5`, 8 h (9600 ticks) at 4 °C, chilled, only from any to 8 °C, not written: the game can't make `egg_casserole_step_4`
 - `egg_noodles.stale`: spoil, `egg_noodles` → `spoiled_food`, 730 d (21024000 ticks) at 20 °C, ambient, only from 0 °C to any
 - `egg_roll.step_28`: held, `egg_roll_step_27` → `egg_roll`, 1 min (20 ticks) at 20 °C, ambient, not written: the game can't make `egg_roll_step_27`
-- `egg_soda.step_4`: held, `egg_soda_step_3` → `egg_soda`, 1 min (20 ticks) at 20 °C, ambient
+- `egg_soda.step_4`: held, `egg_soda_step_3` → `egg_soda`, 1 min (20 ticks) at 20 °C, ambient, not written: the game can't make `egg_soda_step_3`
 - `egg_white_carrot_brownies.step_3.prep_4`: held, `chocolate` → `chocolate_cool`, 1 min (20 ticks) at 20 °C, ambient
 - `egg_whites.freezer_burn`: spoil, `egg_whites` → `spoiled_food`, 365 d (10512000 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
 - `egg_whites.spoil`: spoil, `egg_whites` → `spoiled_food`, 2.83 d (81504 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
@@ -12752,8 +12421,8 @@ Steps that happen to food while it is kept rather than in a machine: one ingredi
 - `emmental_cheese.freezer_burn`: spoil, `emmental_cheese` → `spoiled_food`, 183 d (5270400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
 - `emmental_cheese.mold`: spoil, `emmental_cheese` → `spoiled_food`, 183 d (5270400 ticks) at 4 °C, chilled, q10 2.5, only from 0 °C to any
 - `english_field_bean_pate.step_5`: held, `english_field_bean_pate_step_4` → `english_field_bean_pate`, 1 min (20 ticks) at 4 °C, chilled, only from any to 8 °C
-- `english_muffins.freezer_burn`: spoil, `english_muffins` → `spoiled_food`, 118 d (3398400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `english_muffins.mold`: spoil, `english_muffins` → `spoiled_food`, 15.9 d (457920 ticks) at 20 °C, ambient, q10 2.5, only from 0 °C to any
+- `english_muffins.freezer_burn`: spoil, `english_muffins` → `spoiled_food`, 118 d (3398400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C, not written: the game can't make `english_muffins`
+- `english_muffins.mold`: spoil, `english_muffins` → `spoiled_food`, 15.9 d (457920 ticks) at 20 °C, ambient, q10 2.5, only from 0 °C to any, not written: the game can't make `english_muffins`
 - `enoki_mushroom.freezer_burn`: spoil, `enoki_mushroom` → `spoiled_food`, 333 d (9590400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
 - `enoki_mushroom.spoil`: spoil, `enoki_mushroom` → `spoiled_food`, 4.58 d (131904 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
 - `enoki_mushrooms.freezer_burn`: spoil, `enoki_mushrooms` → `spoiled_food`, 333 d (9590400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
@@ -12794,6 +12463,7 @@ Steps that happen to food while it is kept rather than in a machine: one ingredi
 - `fireweed_vinegar.step_4`: held, `fireweed_vinegar_step_3` → `fireweed_vinegar`, 5 min (100 ticks) at 20 °C, ambient
 - `firm_sourdough.freezer_burn`: spoil, `firm_sourdough` → `spoiled_food`, 118 d (3398400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
 - `firm_sourdough.mold`: spoil, `firm_sourdough` → `spoiled_food`, 15.9 d (457920 ticks) at 20 °C, ambient, q10 2.5, only from 0 °C to any
+- `fish_jerky.dry`: held, `salted_fish_strips` → `fish_jerky`, 8 h (9600 ticks) at 20 °C, ambient, not written: the game can't make `salted_fish_strips`
 - `fish_stock_fumet_de_poisson.step_8`: held, `fish_stock_fumet_de_poisson_step_7` → `fish_stock_fumet_de_poisson`, 2.5 d (72000 ticks) at 4 °C, chilled, only from any to 8 °C
 - `five_spice_powder.stale`: spoil, `five_spice_powder` → `spoiled_food`, 895 d (25776000 ticks) at 20 °C, ambient, only from 0 °C to any
 - `flaky_pie_crust.step_6`: held, `flaky_pie_crust_step_5` → `flaky_pie_crust_step_6`, 15 min (300 ticks) at 4 °C, chilled, only from any to 8 °C
@@ -12837,7 +12507,7 @@ Steps that happen to food while it is kept rather than in a machine: one ingredi
 - `freshly_grated_nutmeg.stale`: spoil, `freshly_grated_nutmeg` → `spoiled_food`, 1270 d (36576000 ticks) at 20 °C, ambient, only from 0 °C to any
 - `freshly_ground_black_pepper.stale`: spoil, `freshly_ground_black_pepper` → `spoiled_food`, 730 d (21024000 ticks) at 20 °C, ambient, only from 0 °C to any
 - `fried_apple_pies.step_3`: held, `fried_apple_pies_step_2` → `fried_apple_pies_step_3`, 1 min (20 ticks) at 4 °C, chilled, only from any to 8 °C
-- `fried_bacon_and_egg_sandwich_homemade_egg_mcmuffin.step_3`: held, `fried_bacon_and_egg_sandwich_homemade_egg_mcmuffin_step_2` → `fried_bacon_and_egg_sandwich_homemade_egg_mcmuffin_step_3`, 1 min (20 ticks) at 20 °C, ambient
+- `fried_bacon_and_egg_sandwich_homemade_egg_mcmuffin.step_3`: held, `fried_bacon_and_egg_sandwich_homemade_egg_mcmuffin_step_2` → `fried_bacon_and_egg_sandwich_homemade_egg_mcmuffin_step_3`, 1 min (20 ticks) at 20 °C, ambient, not written: the game can't make `fried_bacon_and_egg_sandwich_homemade_egg_mcmuffin_step_2`
 - `fried_chicken.freezer_burn`: spoil, `fried_chicken` → `spoiled_food`, 122 d (3513600 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
 - `fried_chicken.spoil`: spoil, `fried_chicken` → `spoiled_food`, 3.46 d (99648 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
 - `fried_egg.freezer_burn`: spoil, `fried_egg` → `spoiled_food`, 74.6 d (2148480 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
@@ -12853,7 +12523,7 @@ Steps that happen to food while it is kept rather than in a machine: one ingredi
 - `frog_s_eye_salad.step_4`: held, `frog_s_eye_salad_step_3` → `frog_s_eye_salad_step_4`, 8 h (9600 ticks) at 4 °C, chilled, only from any to 8 °C
 - `frog_s_legs_a_la_parisienne.step_6`: held, `frog_s_legs_a_la_parisienne_step_5` → `frog_s_legs_a_la_parisienne_step_6`, 1 min (20 ticks) at 20 °C, ambient, not written: the game can't make `frog_s_legs_a_la_parisienne_step_5`
 - `frog_s_legs_a_la_parisienne.step_8`: held, `frog_s_legs_a_la_parisienne_step_7` → `frog_s_legs_a_la_parisienne_step_8`, 1 min (20 ticks) at 20 °C, ambient, not written: the game can't make `frog_s_legs_a_la_parisienne_step_7`
-- `fromage_frais.sour`: spoil, `fromage_frais` → `spoiled_food`, 8.37 d (241056 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
+- `fromage_frais.sour`: spoil, `fromage_frais` → `spoiled_food`, 8.37 d (241056 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any, not written: the game can't make `fromage_frais`
 - `frosting_and_icing.stale`: spoil, `frosting_and_icing` → `spoiled_food`, 333 d (9590400 ticks) at 20 °C, ambient, only from 0 °C to any
 - `fruit_cake.step_5`: held, `fruit_cake_step_4` → `fruit_cake_step_5`, 1 min (20 ticks) at 20 °C, ambient
 - `fruit_cocktail.stale`: spoil, `fruit_cocktail` → `spoiled_food`, 548 d (15782400 ticks) at 20 °C, ambient, only from 0 °C to any
@@ -12888,6 +12558,7 @@ Steps that happen to food while it is kept rather than in a machine: one ingredi
 - `garlic_powder.stale`: spoil, `garlic_powder` → `spoiled_food`, 1270 d (36576000 ticks) at 20 °C, ambient, only from 0 °C to any
 - `garum_fermented.step_2`: held, `garum_fermented_step_1` → `garum_fermented_step_2`, 48 h (57600 ticks) at 20 °C, ambient
 - `gazpacho.step_7`: held, `gazpacho_step_5` → `gazpacho`, 1 min (20 ticks) at 4 °C, chilled, only from any to 8 °C, not written: the game can't make `gazpacho_step_5`
+- `gelatin.dry`: held, `concentrated_collagen_broth` → `gelatin`, 2 d (57600 ticks) at 20 °C, ambient
 - `gelatin.stale`: spoil, `gelatin` → `spoiled_food`, 1100 d (31680000 ticks) at 20 °C, ambient, only from 0 °C to any
 - `gelato.freezer_burn`: spoil, `gelato` → `spoiled_food`, 183 d (5270400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
 - `german_puff_pastry.step_4`: held, `german_puff_pastry_step_2` → `german_puff_pastry`, 8 h (9600 ticks) at 4 °C, chilled, only from any to 8 °C
@@ -12927,7 +12598,7 @@ Steps that happen to food while it is kept rather than in a machine: one ingredi
 - `goya_sazon_con_azafran.stale`: spoil, `goya_sazon_con_azafran` → `spoiled_food`, 517 d (14889600 ticks) at 20 °C, ambient, only from 0 °C to any
 - `gozleme_turkish_flatbread.step_5`: held, `gozleme_turkish_flatbread_step_4` → `gozleme_turkish_flatbread_step_6`, 10 min (200 ticks) at 20 °C, ambient
 - `gozleme_turkish_flatbread.step_7`: held, `gozleme_turkish_flatbread_step_6` → `gozleme_turkish_flatbread_step_7`, 1 h (1200 ticks) at 20 °C, ambient
-- `graham_cracker.stale`: spoil, `graham_cracker` → `spoiled_food`, 224 d (6451200 ticks) at 20 °C, ambient, only from 0 °C to any
+- `graham_cracker.stale`: spoil, `graham_cracker` → `spoiled_food`, 224 d (6451200 ticks) at 20 °C, ambient, only from 0 °C to any, not written: the game can't make `graham_cracker`
 - `grain_rice.stale`: spoil, `grain_rice` → `spoiled_food`, 730 d (21024000 ticks) at 20 °C, ambient, only from 0 °C to any
 - `grains_of_paradise.stale`: spoil, `grains_of_paradise` → `spoiled_food`, 1270 d (36576000 ticks) at 20 °C, ambient, only from 0 °C to any
 - `grandma_s_pie_crust.step_4`: held, `grandma_s_pie_crust_step_3` → `grandma_s_pie_crust_step_5`, 30 min (600 ticks) at 4 °C, chilled, only from any to 8 °C, not written: the game can't make `grandma_s_pie_crust_step_3`
@@ -12975,9 +12646,11 @@ Steps that happen to food while it is kept rather than in a machine: one ingredi
 - `ground_cardamom.stale`: spoil, `ground_cardamom` → `spoiled_food`, 895 d (25776000 ticks) at 20 °C, ambient, only from 0 °C to any
 - `ground_cinnamon.stale`: spoil, `ground_cinnamon` → `spoiled_food`, 1270 d (36576000 ticks) at 20 °C, ambient, only from 0 °C to any
 - `ground_coriander.stale`: spoil, `ground_coriander` → `spoiled_food`, 895 d (25776000 ticks) at 20 °C, ambient, only from 0 °C to any
+- `ground_crayfish.dry`: held, `shrimp` → `dried_crayfish`, 2 d (57600 ticks) at 22 °C, ambient, q10 2
 - `ground_cumin.stale`: spoil, `ground_cumin` → `spoiled_food`, 1270 d (36576000 ticks) at 20 °C, ambient, only from 0 °C to any
 - `ground_dried_pepper.stale`: spoil, `ground_dried_pepper` → `spoiled_food`, 730 d (21024000 ticks) at 20 °C, ambient, only from 0 °C to any
 - `ground_fresh_pepper.stale`: spoil, `ground_fresh_pepper` → `spoiled_food`, 730 d (21024000 ticks) at 20 °C, ambient, only from 0 °C to any
+- `ground_ginger.dry`: held, `ginger` → `dried_ginger`, 3 d (86400 ticks) at 22 °C, ambient, q10 2
 - `ground_ginger.stale`: spoil, `ground_ginger` → `spoiled_food`, 895 d (25776000 ticks) at 20 °C, ambient, only from 0 °C to any
 - `ground_gingerbread_spices.stale`: spoil, `ground_gingerbread_spices` → `spoiled_food`, 895 d (25776000 ticks) at 20 °C, ambient, only from 0 °C to any
 - `ground_mahaleb_cherry.stale`: spoil, `ground_mahaleb_cherry` → `spoiled_food`, 895 d (25776000 ticks) at 20 °C, ambient, only from 0 °C to any
@@ -12993,8 +12666,8 @@ Steps that happen to food while it is kept rather than in a machine: one ingredi
 - `gruyere_cheese.freezer_burn`: spoil, `gruyere_cheese` → `spoiled_food`, 183 d (5270400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
 - `gruyere_cheese.mold`: spoil, `gruyere_cheese` → `spoiled_food`, 183 d (5270400 ticks) at 4 °C, chilled, q10 2.5, only from 0 °C to any
 - `guacamole_chile_free.step_4`: held, `guacamole_chile_free_step_3` → `guacamole_chile_free`, 1 h (1200 ticks) at 4 °C, chilled, only from any to 8 °C
-- `guanciale.freezer_burn`: spoil, `guanciale` → `spoiled_food`, 30.4 d (875520 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `guanciale.spoil`: spoil, `guanciale` → `spoiled_food`, 7 d (201600 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
+- `guanciale.freezer_burn`: spoil, `guanciale` → `spoiled_food`, 30.4 d (875520 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C, not written: the game can't make `guanciale`
+- `guanciale.spoil`: spoil, `guanciale` → `spoiled_food`, 7 d (201600 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any, not written: the game can't make `guanciale`
 - `gurasa_hausa_flatbread_with_vegetables.step_3`: held, `gurasa_hausa_flatbread_with_vegetables_step_2` → `gurasa_hausa_flatbread_with_vegetables_step_3`, 1 h (1200 ticks) at 20 °C, ambient
 - `gurudi_nigerian_coconut_biscuit.step_5`: held, `gurudi_nigerian_coconut_biscuit_step_4` → `gurudi_nigerian_coconut_biscuit`, 1 min (20 ticks) at 20 °C, ambient
 - `gyro_spice.stale`: spoil, `gyro_spice` → `spoiled_food`, 517 d (14889600 ticks) at 20 °C, ambient, only from 0 °C to any
@@ -13015,8 +12688,8 @@ Steps that happen to food while it is kept rather than in a machine: one ingredi
 - `hallaca_venezuelan_stuffed_corn_dough.step_35`: held, `hallaca_venezuelan_stuffed_corn_dough_step_34` → `hallaca_venezuelan_stuffed_corn_dough_step_35`, 10 h (12000 ticks) at 20 °C, ambient, not written: the game can't make `hallaca_venezuelan_stuffed_corn_dough_step_34`
 - `ham_sauce_historic.step_2.prep_4`: held, `basil` → `basil_dry`, 1 min (20 ticks) at 20 °C, ambient
 - `hamburger.step_4`: held, `hamburger_step_3` → `hamburger_step_4`, 1 min (20 ticks) at 20 °C, ambient
-- `hamburger_bun.freezer_burn`: spoil, `hamburger_bun` → `spoiled_food`, 118 d (3398400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `hamburger_bun.mold`: spoil, `hamburger_bun` → `spoiled_food`, 15.9 d (457920 ticks) at 20 °C, ambient, q10 2.5, only from 0 °C to any
+- `hamburger_bun.freezer_burn`: spoil, `hamburger_bun` → `spoiled_food`, 118 d (3398400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C, not written: the game can't make `hamburger_bun`
+- `hamburger_bun.mold`: spoil, `hamburger_bun` → `spoiled_food`, 15.9 d (457920 ticks) at 20 °C, ambient, q10 2.5, only from 0 °C to any, not written: the game can't make `hamburger_bun`
 - `hamburger_meat.freezer_burn`: spoil, `hamburger_meat` → `spoiled_food`, 105 d (3024000 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
 - `hamburger_meat.spoil`: spoil, `hamburger_meat` → `spoiled_food`, 1.41 d (40608 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
 - `hamli_ethiopian_spinach_stew.step_6`: held, `hamli_ethiopian_spinach_stew_step_5` → `hamli_ethiopian_spinach_stew_step_6`, 1 min (20 ticks) at 20 °C, ambient
@@ -13028,6 +12701,7 @@ Steps that happen to food while it is kept rather than in a machine: one ingredi
 - `hard_boiling_potatoes.spoil`: spoil, `hard_boiling_potatoes` → `spoiled_food`, 43 d (1238400 ticks) at 20 °C, ambient, q10 0.399, only from 0 °C to any
 - `hard_cheese.freezer_burn`: spoil, `hard_cheese` → `spoiled_food`, 183 d (5270400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
 - `hard_cheese.mold`: spoil, `hard_cheese` → `spoiled_food`, 183 d (5270400 ticks) at 4 °C, chilled, q10 2.5, only from 0 °C to any
+- `hard_cider.ferment`: held, `apple_juice` → `hard_cider`, 14 d (403200 ticks) at 20 °C, ambient, q10 2
 - `hard_cider.sour`: spoil, `hard_cider` → `spoiled_food`, 2.45 d (70560 ticks) at 20 °C, ambient, q10 3.37, only from 0 °C to any
 - `hard_cooked_eggs.spoil`: spoil, `hard_cooked_eggs` → `spoiled_food`, 7 d (201600 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
 - `hare.freezer_burn`: spoil, `hare` → `spoiled_food`, 274 d (7891200 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
@@ -13119,7 +12793,7 @@ Steps that happen to food while it is kept rather than in a machine: one ingredi
 - `ice_cream_topping.stale`: spoil, `ice_cream_topping` → `spoiled_food`, 730 d (21024000 ticks) at 20 °C, ambient, only from 0 °C to any
 - `idli_steamed_rice_and_black_gram_bread.step_8`: held, `idli_steamed_rice_and_black_gram_bread_step_7` → `idli_steamed_rice_and_black_gram_bread_step_10`, 8 h (9600 ticks) at 20 °C, ambient, not written: the game can't make `idli_steamed_rice_and_black_gram_bread_step_7`
 - `ifisashi_zambian_peanut_and_spinach_stew.step_10`: held, `ifisashi_zambian_peanut_and_spinach_stew_step_9` → `ifisashi_zambian_peanut_and_spinach_stew`, 1 min (20 ticks) at 20 °C, ambient, not written: the game can't make `ifisashi_zambian_peanut_and_spinach_stew_step_9`
-- `ifumbe_rwandan_cassava_fritters.step_6`: held, `ifumbe_rwandan_cassava_fritters_step_5` → `ifumbe_rwandan_cassava_fritters`, 1 min (20 ticks) at 20 °C, ambient
+- `ifumbe_rwandan_cassava_fritters.step_6`: held, `ifumbe_rwandan_cassava_fritters_step_5` → `ifumbe_rwandan_cassava_fritters`, 1 min (20 ticks) at 20 °C, ambient, not written: the game can't make `ifumbe_rwandan_cassava_fritters_step_5`
 - `ikijumba_rwandan_sweet_potato_stew.step_9`: held, `ikijumba_rwandan_sweet_potato_stew_step_8` → `ikijumba_rwandan_sweet_potato_stew_step_9`, 1 min (20 ticks) at 20 °C, ambient
 - `imitation_caramel_sauce_vegan.step_6`: held, `imitation_caramel_sauce_vegan_step_5` → `imitation_caramel_sauce_vegan`, 1 min (20 ticks) at 4 °C, chilled, only from any to 8 °C
 - `imitation_crab.freezer_burn`: spoil, `imitation_crab` → `spoiled_food`, 274 d (7891200 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
@@ -13136,6 +12810,7 @@ Steps that happen to food while it is kept rather than in a machine: one ingredi
 - `indian_walnuts.rancid`: spoil, `indian_walnuts` → `spoiled_food`, 19.8 d (570240 ticks) at 20 °C, ambient, q10 5.65, only from 0 °C to any
 - `indulgent_chocolate_torte.step_19`: held, `indulgent_chocolate_torte_step_17` → `indulgent_chocolate_torte_step_19`, 1 min (20 ticks) at 20 °C, ambient, not written: the game can't make `indulgent_chocolate_torte_step_17`
 - `injera_ethiopian_teff_flatbread.step_2`: held, `injera_ethiopian_teff_flatbread_step_1` → `injera_ethiopian_teff_flatbread_step_2`, 8 h (9600 ticks) at 20 °C, ambient
+- `instant_mashed_potato_flakes.dry`: held, `mashed_potatoes` → `instant_mashed_potato_flakes`, 600 min (12000 ticks) at 20 °C, ambient
 - `instant_mashed_potato_flakes.stale`: spoil, `instant_mashed_potato_flakes` → `spoiled_food`, 373 d (10742400 ticks) at 20 °C, ambient, only from 0 °C to any
 - `instant_pot_beans.step_4`: held, `instant_pot_beans_step_3` → `instant_pot_beans_step_4`, 1 min (20 ticks) at 20 °C, ambient, not written: the game can't make `instant_pot_beans_step_3`
 - `instant_vanilla_pudding_mix.stale`: spoil, `instant_vanilla_pudding_mix` → `spoiled_food`, 365 d (10512000 ticks) at 20 °C, ambient, only from 0 °C to any
@@ -13145,9 +12820,10 @@ Steps that happen to food while it is kept rather than in a machine: one ingredi
 - `irish_fruit_cake.step_8`: held, `irish_fruit_cake_step_7` → `irish_fruit_cake_step_8`, 1 min (20 ticks) at 20 °C, ambient
 - `irish_fruit_cake.step_9`: held, `irish_fruit_cake_step_8` → `irish_fruit_cake`, 1 min (20 ticks) at 20 °C, ambient
 - `irish_soda_bread.step_8`: held, `irish_soda_bread_step_7` → `irish_soda_bread_step_8`, 1 min (20 ticks) at 20 °C, ambient
+- `iru.ferment`: held, `boiled_soybeans` → `iru`, 3 d (86400 ticks) at 35 °C, warm, q10 2.5
 - `island_salsa_salad.step_3`: held, `island_salsa_salad_step_2` → `island_salsa_salad`, 2 h (2400 ticks) at 4 °C, chilled, only from any to 8 °C, not written: the game can't make `island_salsa_salad_step_2`
 - `isombe_rwandan_cassava_leaves_with_eggplant.step_9`: held, `isombe_rwandan_cassava_leaves_with_eggplant_step_7` → `isombe_rwandan_cassava_leaves_with_eggplant`, 1 min (20 ticks) at 20 °C, ambient
-- `italian_dressing.mold`: spoil, `italian_dressing` → `spoiled_food`, 333 d (9590400 ticks) at 20 °C, ambient, q10 2.5, only from 0 °C to any
+- `italian_dressing.mold`: spoil, `italian_dressing` → `spoiled_food`, 333 d (9590400 ticks) at 20 °C, ambient, q10 2.5, only from 0 °C to any, not written: the game can't make `italian_dressing`
 - `italian_dressing_ii.step_4`: held, `italian_dressing_ii_step_3` → `italian_dressing_ii`, 1 min (20 ticks) at 4 °C, chilled, only from any to 8 °C
 - `italian_frying_peppers.freezer_burn`: spoil, `italian_frying_peppers` → `spoiled_food`, 211 d (6076800 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
 - `italian_frying_peppers.spoil`: spoil, `italian_frying_peppers` → `spoiled_food`, 7.48 d (215424 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
@@ -13206,7 +12882,7 @@ Steps that happen to food while it is kept rather than in a machine: one ingredi
 - `kendal_mint_cake.step_7`: held, `kendal_mint_cake_step_6` → `kendal_mint_cake_step_7`, 2 h (2400 ticks) at 4 °C, chilled, only from any to 8 °C
 - `ketchup.mold`: spoil, `ketchup` → `spoiled_food`, 365 d (10512000 ticks) at 20 °C, ambient, q10 2.5, only from 0 °C to any
 - `khachapuri_georgian_cheese_bread.step_4`: held, `khachapuri_georgian_cheese_bread_step_3` → `khachapuri_georgian_cheese_bread_step_4`, 30 min (600 ticks) at 20 °C, ambient
-- `khaman_dhokla_steamed_gram_bread.step_6`: held, `khaman_dhokla_steamed_gram_bread_step_5` → `khaman_dhokla_steamed_gram_bread_step_6`, 1 min (20 ticks) at 20 °C, ambient
+- `khaman_dhokla_steamed_gram_bread.step_6`: held, `khaman_dhokla_steamed_gram_bread_step_5` → `khaman_dhokla_steamed_gram_bread_step_6`, 1 min (20 ticks) at 20 °C, ambient, not written: the game can't make `khaman_dhokla_steamed_gram_bread_step_5`
 - `khanom_tian_thai_coconut_rice_dumplings.step_18`: held, `khanom_tian_thai_coconut_rice_dumplings_step_17` → `khanom_tian_thai_coconut_rice_dumplings`, 1 min (20 ticks) at 20 °C, ambient
 - `khanom_tian_thai_coconut_rice_dumplings.step_6`: held, `khanom_tian_thai_coconut_rice_dumplings_step_5` → `khanom_tian_thai_coconut_rice_dumplings_step_9`, 12.5 min (250 ticks) at 20 °C, ambient
 - `khao_pad_gai_thai_chicken_fried_rice.step_7.prep_4`: held, `rice` → `rice_chill`, 8 h (9600 ticks) at 20 °C, ambient
@@ -13221,6 +12897,7 @@ Steps that happen to food while it is kept rather than in a machine: one ingredi
 - `kipspek_bacon_wrapped_chicken.step_6`: held, `kipspek_bacon_wrapped_chicken_step_5` → `kipspek_bacon_wrapped_chicken_step_6`, 30 min (600 ticks) at 20 °C, ambient
 - `kismis.stale`: spoil, `kismis` → `spoiled_food`, 183 d (5270400 ticks) at 20 °C, ambient, only from 0 °C to any
 - `kitfo_ethiopian_minced_raw_meat.step_7`: held, `kitfo_ethiopian_minced_raw_meat_step_6` → `kitfo_ethiopian_minced_raw_meat_step_8`, 1 h (1200 ticks) at 4 °C, chilled, only from any to 8 °C, not written: the game can't make `kitfo_ethiopian_minced_raw_meat_step_6`
+- `kiwi_sorbet.freeze`: held, `kiwi_sorbet_base` → `kiwi_sorbet`, 6 h (7200 ticks) at -18 °C, frozen, q10 2
 - `kiwifruit.mold`: spoil, `kiwifruit` → `spoiled_food`, 4.24 d (122112 ticks) at 4 °C, chilled, q10 2.5, only from 0 °C to any
 - `knob_of_butter.freezer_burn`: spoil, `knob_of_butter` → `spoiled_food`, 224 d (6451200 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
 - `knob_of_butter.rancid`: spoil, `knob_of_butter` → `spoiled_food`, 43 d (1238400 ticks) at 4 °C, chilled, q10 2, only from 0 °C to any
@@ -13248,9 +12925,9 @@ Steps that happen to food while it is kept rather than in a machine: one ingredi
 - `ladi_pav.mold`: spoil, `ladi_pav` → `spoiled_food`, 15.9 d (457920 ticks) at 20 °C, ambient, q10 2.5, only from 0 °C to any
 - `lady_arundel_s_manchet.step_6`: held, `lady_arundel_s_manchet_step_4` → `lady_arundel_s_manchet_step_6`, 30 min (600 ticks) at 20 °C, ambient
 - `lady_finger_cookies_savoiardi.step_8`: held, `lady_finger_cookies_savoiardi_step_7` → `lady_finger_cookies_savoiardi`, 1 min (20 ticks) at 20 °C, ambient
-- `lahoh_spongy_flatbread_i.step_6`: held, `lahoh_spongy_flatbread_i_step_5` → `lahoh_spongy_flatbread_i_step_6`, 1 min (20 ticks) at 20 °C, ambient
-- `lahoh_spongy_flatbread_ii.step_3`: held, `lahoh_spongy_flatbread_ii_step_2` → `lahoh_spongy_flatbread_ii_step_3`, 1 h (1200 ticks) at 20 °C, ambient
-- `lahoh_spongy_flatbread_ii.step_6`: held, `lahoh_spongy_flatbread_ii_step_5` → `lahoh_spongy_flatbread_ii`, 1 min (20 ticks) at 20 °C, ambient
+- `lahoh_spongy_flatbread_i.step_6`: held, `lahoh_spongy_flatbread_i_step_5` → `lahoh_spongy_flatbread_i_step_6`, 1 min (20 ticks) at 20 °C, ambient, not written: the game can't make `lahoh_spongy_flatbread_i_step_5`
+- `lahoh_spongy_flatbread_ii.step_3`: held, `lahoh_spongy_flatbread_ii_step_2` → `lahoh_spongy_flatbread_ii_step_3`, 1 h (1200 ticks) at 20 °C, ambient, not written: the game can't make `lahoh_spongy_flatbread_ii_step_2`
+- `lahoh_spongy_flatbread_ii.step_6`: held, `lahoh_spongy_flatbread_ii_step_5` → `lahoh_spongy_flatbread_ii`, 1 min (20 ticks) at 20 °C, ambient, not written: the game can't make `lahoh_spongy_flatbread_ii_step_5`
 - `lamb_and_mutton.freezer_burn`: spoil, `lamb_and_mutton` → `spoiled_food`, 211 d (6076800 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
 - `lamb_and_mutton.spoil`: spoil, `lamb_and_mutton` → `spoiled_food`, 3.87 d (111456 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
 - `lamb_kofta.step_6`: held, `lamb_kofta_step_5` → `lamb_kofta`, 1 min (20 ticks) at 20 °C, ambient, not written: the game can't make `lamb_kofta_step_5`
@@ -13283,9 +12960,10 @@ Steps that happen to food while it is kept rather than in a machine: one ingredi
 - `lemon_italian_ice.step_7`: held, `lemon_italian_ice_step_6` → `lemon_italian_ice`, 3 h (3600 ticks) at -18 °C, frozen, only from any to 0 °C
 - `lemon_mayonnaise.step_3`: held, `lemon_mayonnaise_step_2` → `lemon_mayonnaise`, 21 d (604800 ticks) at 4 °C, chilled, only from any to 8 °C, not written: the game can't make `lemon_mayonnaise_step_2`
 - `lemon_meringue_pie_american.step_9`: held, `lemon_meringue_pie_american_step_8` → `lemon_meringue_pie_american_step_9`, 1 min (20 ticks) at 20 °C, ambient
-- `lemon_meringue_pie_british.step_8`: held, `lemon_meringue_pie_british_step_7` → `lemon_meringue_pie_british`, 2 h (2400 ticks) at 4 °C, chilled, only from any to 8 °C
+- `lemon_meringue_pie_british.step_8`: held, `lemon_meringue_pie_british_step_7` → `lemon_meringue_pie_british`, 2 h (2400 ticks) at 4 °C, chilled, only from any to 8 °C, not written: the game can't make `lemon_meringue_pie_british_step_7`
 - `lemon_mille_feuille.step_11`: held, `lemon_mille_feuille_step_10` → `lemon_mille_feuille_step_11`, 1 min (20 ticks) at 20 °C, ambient, not written: the game can't make `lemon_mille_feuille_step_10`
 - `lemon_oil.stale`: spoil, `lemon_oil` → `spoiled_food`, 730 d (21024000 ticks) at 20 °C, ambient, only from 0 °C to any
+- `lemon_pepper.dry_peel`: held, `lemon_chop` → `dehydrated_lemon_peel`, 3 d (86400 ticks) at 22 °C, ambient, q10 2
 - `lemon_pepper.stale`: spoil, `lemon_pepper` → `spoiled_food`, 517 d (14889600 ticks) at 20 °C, ambient, only from 0 °C to any
 - `lemon_pickle_i.step_7`: held, `lemon_pickle_i_step_6` → `lemon_pickle_i`, 1 min (20 ticks) at 20 °C, ambient, not written: the game can't make `lemon_pickle_i_step_6`
 - `lemon_poppy_seed_muffins_glazed.step_10`: held, `lemon_poppy_seed_muffins_glazed_step_9` → `lemon_poppy_seed_muffins_glazed`, 10 min (200 ticks) at 20 °C, ambient, not written: the game can't make `lemon_poppy_seed_muffins_glazed_step_9`
@@ -13297,7 +12975,6 @@ Steps that happen to food while it is kept rather than in a machine: one ingredi
 - `lemon_slice.mold`: spoil, `lemon_slice` → `spoiled_food`, 10 d (288000 ticks) at 20 °C, ambient, q10 1.26, only from 0 °C to any
 - `lemon_verbena.freezer_burn`: spoil, `lemon_verbena` → `spoiled_food`, 43 d (1238400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
 - `lemon_verbena.spoil`: spoil, `lemon_verbena` → `spoiled_food`, 8.37 d (241056 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
-- `lemon_wedges.mold`: spoil, `lemon_wedges` → `spoiled_food`, 10 d (288000 ticks) at 20 °C, ambient, q10 1.26, only from 0 °C to any
 - `lemonade.step_3`: held, `lemonade_step_2` → `lemonade`, 1 min (20 ticks) at 4 °C, chilled, only from any to 8 °C
 - `lemonade_extra_sour.step_4`: held, `lemonade_extra_sour_step_3` → `lemonade_extra_sour`, 1 min (20 ticks) at 4 °C, chilled, only from any to 8 °C
 - `lemonade_flavored_kool_aid.sour`: spoil, `lemonade_flavored_kool_aid` → `spoiled_food`, 633 d (18230400 ticks) at 20 °C, ambient, q10 3, only from 0 °C to any
@@ -13362,6 +13039,7 @@ Steps that happen to food while it is kept rather than in a machine: one ingredi
 - `malawach_flaky_flatbread.step_2`: held, `malawach_flaky_flatbread_step_1` → `malawach_flaky_flatbread_step_2`, 1 min (20 ticks) at 20 °C, ambient
 - `malawach_flaky_flatbread.step_6`: held, `malawach_flaky_flatbread_step_5` → `malawach_flaky_flatbread_step_7`, 1 min (20 ticks) at 20 °C, ambient
 - `malawach_flaky_flatbread.step_8`: held, `malawach_flaky_flatbread_step_7` → `malawach_flaky_flatbread_step_10`, 1 min (20 ticks) at 20 °C, ambient
+- `malt.dry_green_malt`: held, `green_malt` → `malt`, 12 h (14400 ticks) at 20 °C, ambient
 - `malt_biscuits.freezer_burn`: spoil, `malt_biscuits` → `spoiled_food`, 105 d (3024000 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
 - `malt_biscuits.stale`: spoil, `malt_biscuits` → `spoiled_food`, 244 d (7027200 ticks) at 20 °C, ambient, only from 0 °C to any
 - `maltese_galletti.freezer_burn`: spoil, `maltese_galletti` → `spoiled_food`, 105 d (3024000 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
@@ -13376,7 +13054,7 @@ Steps that happen to food while it is kept rather than in a machine: one ingredi
 - `mango_and_yellow_split_pea_curry.step_8`: held, `mango_and_yellow_split_pea_curry_step_7` → `mango_and_yellow_split_pea_curry`, 1 min (20 ticks) at 20 °C, ambient, not written: the game can't make `mango_and_yellow_split_pea_curry_step_7`
 - `mango_atchar.step_3`: held, `mango_atchar_step_2` → `mango_atchar`, 12 h (14400 ticks) at 4 °C, chilled, only from any to 8 °C
 - `mango_chutney_chunky.step_5`: held, `mango_chutney_chunky_step_4` → `mango_chutney_chunky`, 1 min (20 ticks) at 20 °C, ambient
-- `manx_smoked_salmon.step_7`: held, `manx_smoked_salmon_step_6` → `manx_smoked_salmon_step_7`, 1 min (20 ticks) at 4 °C, chilled, only from any to 8 °C
+- `manx_smoked_salmon.step_7`: held, `manx_smoked_salmon_step_6` → `manx_smoked_salmon_step_7`, 1 min (20 ticks) at 4 °C, chilled, only from any to 8 °C, not written: the game can't make `manx_smoked_salmon_step_6`
 - `maple_barbecue_sauce.step_4`: held, `maple_barbecue_sauce_step_3` → `maple_barbecue_sauce`, 21 d (604800 ticks) at 4 °C, chilled, only from any to 8 °C, not written: the game can't make `maple_barbecue_sauce_step_3`
 - `maple_butter_tart.step_14`: held, `maple_butter_tart_step_13` → `maple_butter_tart`, 10 min (200 ticks) at 20 °C, ambient
 - `maple_butter_tart.step_5`: held, `maple_butter_tart_step_4` → `maple_butter_tart_step_6`, 30 min (600 ticks) at 4 °C, chilled, only from any to 8 °C
@@ -13414,6 +13092,7 @@ Steps that happen to food while it is kept rather than in a machine: one ingredi
 - `mbongo_spice.stale`: spoil, `mbongo_spice` → `spoiled_food`, 895 d (25776000 ticks) at 20 °C, ambient, only from 0 °C to any
 - `mbulawu_malawian_fermented_millet_porridge.step_5`: held, `mbulawu_malawian_fermented_millet_porridge_step_4` → `mbulawu_malawian_fermented_millet_porridge_step_5`, 1 min (20 ticks) at 20 °C, ambient
 - `mbulawu_malawian_fermented_millet_porridge.step_6`: held, `mbulawu_malawian_fermented_millet_porridge_step_5` → `mbulawu_malawian_fermented_millet_porridge_step_6`, 8 h (9600 ticks) at 20 °C, ambient
+- `mead.ferment`: held, `mead_must` → `mead`, 30 d (864000 ticks) at 20 °C, ambient, q10 2
 - `meat_drippings.freezer_burn`: spoil, `meat_drippings` → `spoiled_food`, 365 d (10512000 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
 - `meat_drippings.rancid`: spoil, `meat_drippings` → `spoiled_food`, 183 d (5270400 ticks) at 4 °C, chilled, q10 2, only from 0 °C to any
 - `meat_masala_powder.stale`: spoil, `meat_masala_powder` → `spoiled_food`, 517 d (14889600 ticks) at 20 °C, ambient, only from 0 °C to any
@@ -13485,7 +13164,7 @@ Steps that happen to food while it is kept rather than in a machine: one ingredi
 - `mixed_herbs.stale`: spoil, `mixed_herbs` → `spoiled_food`, 183 d (5270400 ticks) at 20 °C, ambient, only from 0 °C to any
 - `mixed_pickled_vegetables_acar_campur.step_7`: held, `mixed_pickled_vegetables_acar_campur_step_6` → `mixed_pickled_vegetables_acar_campur`, 3 d (86400 ticks) at 4 °C, chilled, only from any to 8 °C, not written: the game can't make `mixed_pickled_vegetables_acar_campur_step_6`
 - `mixed_pickles.mold`: spoil, `mixed_pickles` → `spoiled_food`, 365 d (10512000 ticks) at 20 °C, ambient, q10 2.5, only from 0 °C to any
-- `mocha_delight.step_6`: held, `mocha_delight_step_5` → `mocha_delight_step_6`, 1 min (20 ticks) at 20 °C, ambient
+- `mocha_delight.step_6`: held, `mocha_delight_step_5` → `mocha_delight_step_6`, 1 min (20 ticks) at 20 °C, ambient, not written: the game can't make `mocha_delight_step_5`
 - `modeling_chocolate.step_2`: held, `chocolate_heat_heat` → `chocolate_heat_heat_cool`, 1 min (20 ticks) at 20 °C, ambient
 - `modeling_chocolate.step_4`: held, `modeling_chocolate_step_3` → `modeling_chocolate`, 1 min (20 ticks) at 20 °C, ambient
 - `modern_reuben_sandwich.step_4.prep_5`: held, `sauerkraut` → `sauerkraut_dry`, 1 min (20 ticks) at 20 °C, ambient
@@ -13512,6 +13191,7 @@ Steps that happen to food while it is kept rather than in a machine: one ingredi
 - `mushroom_bao_buns.step_4`: held, `mushroom_bao_buns_step_3` → `mushroom_bao_buns_step_5`, 1 h (1200 ticks) at 20 °C, ambient
 - `mushroom_bao_buns.step_9`: held, `mushroom_bao_buns_step_8` → `mushroom_bao_buns_step_9`, 20 min (400 ticks) at 20 °C, ambient
 - `mushroom_catsup.mold`: spoil, `mushroom_catsup` → `spoiled_food`, 365 d (10512000 ticks) at 20 °C, ambient, q10 2.5, only from 0 °C to any
+- `mushroom_oil.dry`: held, `mushroom` → `dried_mushroom`, 12 h (14400 ticks) at 20 °C, ambient
 - `mushroom_stock_cube.freezer_burn`: spoil, `mushroom_stock_cube` → `spoiled_food`, 74.6 d (2148480 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
 - `mushroom_stock_cube.mold`: spoil, `mushroom_stock_cube` → `spoiled_food`, 7 d (201600 ticks) at 4 °C, chilled, q10 2.5, only from 0 °C to any
 - `mushrooms.freezer_burn`: spoil, `mushrooms` → `spoiled_food`, 333 d (9590400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
@@ -13526,6 +13206,7 @@ Steps that happen to food while it is kept rather than in a machine: one ingredi
 - `mustard_greens.spoil`: spoil, `mustard_greens` → `spoiled_food`, 2 d (57600 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
 - `mutton_broth.step_6`: held, `mutton_broth_step_5` → `mutton_broth_step_6`, 1 min (20 ticks) at 20 °C, ambient
 - `mutton_broth.step_7`: held, `mutton_broth_step_6` → `mutton_broth`, 1 min (20 ticks) at 4 °C, chilled, only from any to 8 °C
+- `mutton_jerky.dry`: held, `salted_mutton_strips` → `mutton_jerky`, 8 h (9600 ticks) at 20 °C, ambient, not written: the game can't make `salted_mutton_strips`
 - `naan.step_2`: held, `naan_step_1` → `naan_step_3`, 2.5 h (3000 ticks) at 20 °C, ambient
 - `naan_yeasted.step_5`: held, `naan_yeasted_step_4` → `naan_yeasted_step_6`, 25 min (500 ticks) at 20 °C, ambient
 - `nanaimo_bars_i.step_8`: held, `nanaimo_bars_i_step_7` → `nanaimo_bars_i_step_8`, 1 min (20 ticks) at 4 °C, chilled, only from any to 8 °C, not written: the game can't make `nanaimo_bars_i_step_7`
@@ -13549,7 +13230,7 @@ Steps that happen to food while it is kept rather than in a machine: one ingredi
 - `nigerian_barbecued_chicken_wings.step_3`: held, `nigerian_barbecued_chicken_wings_step_2` → `nigerian_barbecued_chicken_wings_step_3`, 1 h (1200 ticks) at 4 °C, chilled, only from any to 8 °C, not written: the game can't make `nigerian_barbecued_chicken_wings_step_2`
 - `nigerian_brown_bean.stale`: spoil, `nigerian_brown_bean` → `spoiled_food`, 517 d (14889600 ticks) at 20 °C, ambient, only from 0 °C to any
 - `nigerian_caramelized_coconut.step_7`: held, `nigerian_caramelized_coconut_step_6` → `nigerian_caramelized_coconut`, 1 min (20 ticks) at 20 °C, ambient
-- `nigerian_cassava_fufu.step_6`: held, `nigerian_cassava_fufu_step_5` → `nigerian_cassava_fufu`, 5 min (100 ticks) at 20 °C, ambient
+- `nigerian_cassava_fufu.step_6`: held, `nigerian_cassava_fufu_step_5` → `nigerian_cassava_fufu`, 5 min (100 ticks) at 20 °C, ambient, not written: the game can't make `nigerian_cassava_fufu_step_5`
 - `nigerian_coleslaw.step_4`: held, `nigerian_coleslaw_step_3` → `nigerian_coleslaw`, 1 min (20 ticks) at 4 °C, chilled, only from any to 8 °C, not written: the game can't make `nigerian_coleslaw_step_3`
 - `nigerian_egg_roll.step_7`: held, `nigerian_egg_roll_step_6` → `nigerian_egg_roll`, 1 min (20 ticks) at 20 °C, ambient
 - `nigerian_pito.step_5`: held, `nigerian_pito_step_4` → `nigerian_pito_step_5`, 1 d (28800 ticks) at 20 °C, ambient
@@ -13558,14 +13239,15 @@ Steps that happen to food while it is kept rather than in a machine: one ingredi
 - `nigerian_tiger_nut_milk_kunun_aya.step_6`: held, `nigerian_tiger_nut_milk_kunun_aya_step_5` → `nigerian_tiger_nut_milk_kunun_aya`, 1.5 d (43200 ticks) at 4 °C, chilled, only from any to 8 °C
 - `nigerian_toasted_groundnuts.step_6`: held, `nigerian_toasted_groundnuts_step_5` → `nigerian_toasted_groundnuts_step_6`, 1 min (20 ticks) at 20 °C, ambient
 - `nkhwani_wa_ndiwo_malawian_vegetable_fritters.step_8`: held, `nkhwani_wa_ndiwo_malawian_vegetable_fritters_step_7` → `nkhwani_wa_ndiwo_malawian_vegetable_fritters`, 1 min (20 ticks) at 20 °C, ambient
-- `no_bake_cheesecake.step_6`: held, `no_bake_cheesecake_step_4` → `no_bake_cheesecake`, 24 h (28800 ticks) at 4 °C, chilled, only from any to 8 °C
-- `no_bake_chocolate_cake.step_7`: held, `no_bake_chocolate_cake_step_6` → `no_bake_chocolate_cake`, 1 h (1200 ticks) at 4 °C, chilled, only from any to 8 °C
-- `no_bake_chocolate_chip_cookie_pie.step_4`: held, `no_bake_chocolate_chip_cookie_pie_step_2` → `no_bake_chocolate_chip_cookie_pie`, 8 h (9600 ticks) at 4 °C, chilled, only from any to 8 °C
+- `no_bake_cheesecake.step_6`: held, `no_bake_cheesecake_step_4` → `no_bake_cheesecake`, 24 h (28800 ticks) at 4 °C, chilled, only from any to 8 °C, not written: the game can't make `no_bake_cheesecake_step_4`
+- `no_bake_chocolate_cake.step_7`: held, `no_bake_chocolate_cake_step_6` → `no_bake_chocolate_cake`, 1 h (1200 ticks) at 4 °C, chilled, only from any to 8 °C, not written: the game can't make `no_bake_chocolate_cake_step_6`
+- `no_bake_chocolate_chip_cookie_pie.step_4`: held, `no_bake_chocolate_chip_cookie_pie_step_2` → `no_bake_chocolate_chip_cookie_pie`, 8 h (9600 ticks) at 4 °C, chilled, only from any to 8 °C, not written: the game can't make `no_bake_chocolate_chip_cookie_pie_step_2`
 - `no_bake_chocolate_oatmeal_cookies.step_6`: held, `no_bake_chocolate_oatmeal_cookies_step_5` → `no_bake_chocolate_oatmeal_cookies`, 20 min (400 ticks) at 20 °C, ambient
 - `no_bake_matsa_cake.step_5`: held, `no_bake_matsa_cake_step_3` → `no_bake_matsa_cake`, 1 min (20 ticks) at 4 °C, chilled, only from any to 8 °C
 - `no_salt_added_tomato_paste.freezer_burn`: spoil, `no_salt_added_tomato_paste` → `spoiled_food`, 74.6 d (2148480 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
 - `no_salt_added_tomato_paste.stale`: spoil, `no_salt_added_tomato_paste` → `spoiled_food`, 822 d (23673600 ticks) at 20 °C, ambient, only from 0 °C to any
 - `noodle.stale`: spoil, `noodle` → `spoiled_food`, 730 d (21024000 ticks) at 20 °C, ambient, only from 0 °C to any
+- `nori.dry`: held, `shredded_kelp` → `nori`, 4 h (4800 ticks) at 20 °C, ambient
 - `north_carolina_style_bbq_chicken.step_6`: held, `north_carolina_style_bbq_chicken_step_5` → `north_carolina_style_bbq_chicken`, 7 min (140 ticks) at 20 °C, ambient, not written: the game can't make `north_carolina_style_bbq_chicken_step_5`
 - `north_carolina_style_bbq_ribs.step_6`: held, `north_carolina_style_bbq_ribs_step_5` → `north_carolina_style_bbq_ribs`, 15 min (300 ticks) at 20 °C, ambient
 - `north_indian_fermented_bread_batooru.step_3`: held, `north_indian_fermented_bread_batooru_step_2` → `north_indian_fermented_bread_batooru_step_3`, 8 h (9600 ticks) at 20 °C, ambient
@@ -13573,6 +13255,7 @@ Steps that happen to food while it is kept rather than in a machine: one ingredi
 - `nsima_cornmeal_swallow.step_8`: held, `nsima_cornmeal_swallow_step_7` → `nsima_cornmeal_swallow`, 1 min (20 ticks) at 20 °C, ambient
 - `nuremberg_gingerbread.step_8`: held, `nuremberg_gingerbread_step_7` → `nuremberg_gingerbread_step_8`, 1 min (20 ticks) at 20 °C, ambient
 - `nutmeg.stale`: spoil, `nutmeg` → `spoiled_food`, 895 d (25776000 ticks) at 20 °C, ambient, only from 0 °C to any
+- `nutritional_yeast.dry`: held, `deactivated_yeast` → `nutritional_yeast`, 8 h (9600 ticks) at 20 °C, ambient, not written: the game can't make `deactivated_yeast`
 - `nuts_and_seeds.freezer_burn`: spoil, `nuts_and_seeds` → `spoiled_food`, 258 d (7430400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
 - `nuts_and_seeds.rancid`: spoil, `nuts_and_seeds` → `spoiled_food`, 365 d (10512000 ticks) at 20 °C, ambient, q10 2, only from 0 °C to any
 - `nutty_buddy_chocolate_cookie_bars.step_8`: held, `nutty_buddy_chocolate_cookie_bars_step_7` → `nutty_buddy_chocolate_cookie_bars_step_8`, 1 min (20 ticks) at 20 °C, ambient, not written: the game can't make `nutty_buddy_chocolate_cookie_bars_step_7`
@@ -13606,6 +13289,7 @@ Steps that happen to food while it is kept rather than in a machine: one ingredi
 - `onion.spoil`: spoil, `onion` → `spoiled_food`, 30.4 d (875520 ticks) at 20 °C, ambient, q10 1.54, only from 0 °C to any
 - `onion_confit.step_7`: held, `onion_confit_step_6` → `onion_confit_step_7`, 1 min (20 ticks) at 20 °C, ambient, not written: the game can't make `onion_confit_step_6`
 - `onion_dip.step_6`: held, `onion_dip_step_5` → `onion_dip`, 1 min (20 ticks) at 4 °C, chilled, only from any to 8 °C
+- `onion_powder.dry`: held, `onion` → `dried_onion`, 3 d (86400 ticks) at 22 °C, ambient, q10 2
 - `onion_powder.stale`: spoil, `onion_powder` → `spoiled_food`, 1270 d (36576000 ticks) at 20 °C, ambient, only from 0 °C to any
 - `onion_rings.step_7`: held, `onion_rings_step_6` → `onion_rings_step_7`, 1 min (20 ticks) at 20 °C, ambient
 - `onion_salt.stale`: spoil, `onion_salt` → `spoiled_food`, 1270 d (36576000 ticks) at 20 °C, ambient, only from 0 °C to any
@@ -13652,8 +13336,8 @@ Steps that happen to food while it is kept rather than in a machine: one ingredi
 - `pancakes_north_american_step_1.stale`: spoil, `pancakes_north_american_step_1` → `spoiled_food`, 274 d (7891200 ticks) at 20 °C, ambient, only from 0 °C to any
 - `pancakes_north_american_step_2.stale`: spoil, `pancakes_north_american_step_2` → `spoiled_food`, 274 d (7891200 ticks) at 20 °C, ambient, only from 0 °C to any
 - `pancakes_north_american_step_3.stale`: spoil, `pancakes_north_american_step_3` → `spoiled_food`, 274 d (7891200 ticks) at 20 °C, ambient, only from 0 °C to any
-- `pancetta.freezer_burn`: spoil, `pancetta` → `spoiled_food`, 30.4 d (875520 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `pancetta.spoil`: spoil, `pancetta` → `spoiled_food`, 7 d (201600 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
+- `pancetta.freezer_burn`: spoil, `pancetta` → `spoiled_food`, 30.4 d (875520 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C, not written: the game can't make `pancetta`
+- `pancetta.spoil`: spoil, `pancetta` → `spoiled_food`, 7 d (201600 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any, not written: the game can't make `pancetta`
 - `panna_cotta_basic.step_4`: held, `panna_cotta_basic_step_3` → `panna_cotta_basic`, 4 h (4800 ticks) at 4 °C, chilled, only from any to 8 °C
 - `panna_cotta_with_red_fruit_sauce.step_3`: held, `panna_cotta_with_red_fruit_sauce_step_2` → `panna_cotta_with_red_fruit_sauce_step_3`, 2.5 h (3000 ticks) at 4 °C, chilled, only from any to 8 °C
 - `papadam_black_gram_flatbread.step_5`: held, `papadam_black_gram_flatbread_step_3` → `papadam_black_gram_flatbread_step_5`, 1 h (1200 ticks) at 20 °C, ambient
@@ -13661,6 +13345,7 @@ Steps that happen to food while it is kept rather than in a machine: one ingredi
 - `papaya.freezer_burn`: spoil, `papaya` → `spoiled_food`, 211 d (6076800 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
 - `papaya.mold`: spoil, `papaya` → `spoiled_food`, 3.87 d (111456 ticks) at 20 °C, ambient, q10 1.45, only from 0 °C to any
 - `papri_chaat_crispy_indian_snack_with_potato.step_4`: held, `papri_chaat_crispy_indian_snack_with_potato_step_3` → `papri_chaat_crispy_indian_snack_with_potato_step_4`, 1 min (20 ticks) at 20 °C, ambient
+- `paprika.dry_chiles`: held, `sweet_chiles` → `dried_sweet_chiles`, 3 d (86400 ticks) at 22 °C, ambient, q10 2
 - `paprika.stale`: spoil, `paprika` → `spoiled_food`, 895 d (25776000 ticks) at 20 °C, ambient, only from 0 °C to any
 - `parmesan_cheese.mold`: spoil, `parmesan_cheese` → `spoiled_food`, 365 d (10512000 ticks) at 4 °C, chilled, q10 2.5, only from 0 °C to any
 - `parsley.freezer_burn`: spoil, `parsley` → `spoiled_food`, 105 d (3024000 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
@@ -13674,9 +13359,10 @@ Steps that happen to food while it is kept rather than in a machine: one ingredi
 - `passover_carrot_almond_cake.step_11`: held, `passover_carrot_almond_cake_step_10` → `passover_carrot_almond_cake_step_11`, 1 min (20 ticks) at 20 °C, ambient
 - `passover_hazelnut_chocolate_loaf.step_17`: held, `passover_hazelnut_chocolate_loaf_step_16` → `passover_hazelnut_chocolate_loaf`, 1 min (20 ticks) at 20 °C, ambient, not written: the game can't make `passover_hazelnut_chocolate_loaf_step_16`
 - `passover_hazelnut_chocolate_loaf.step_2`: held, `hazelnut_roast_heat` → `hazelnut_roast_heat_cool`, 1 min (20 ticks) at 20 °C, ambient
+- `pasta.dry`: held, `raw_pasta` → `pasta`, 12 h (14400 ticks) at 20 °C, ambient, not written: the game can't make `raw_pasta`
 - `pasta.stale`: spoil, `pasta` → `spoiled_food`, 730 d (21024000 ticks) at 20 °C, ambient, only from 0 °C to any
 - `pasta_casserole_pastitsio.step_12`: held, `pasta_casserole_pastitsio_step_11` → `pasta_casserole_pastitsio_step_12`, 1 min (20 ticks) at 20 °C, ambient
-- `pasta_casserole_pastitsio.step_23`: held, `pasta_casserole_pastitsio_step_22` → `pasta_casserole_pastitsio`, 10 min (200 ticks) at 20 °C, ambient
+- `pasta_casserole_pastitsio.step_23`: held, `pasta_casserole_pastitsio_step_22` → `pasta_casserole_pastitsio`, 10 min (200 ticks) at 20 °C, ambient, not written: the game can't make `pasta_casserole_pastitsio_step_22`
 - `pasta_casserole_pastitsio.step_5`: held, `pasta_casserole_pastitsio_step_4` → `pasta_casserole_pastitsio_step_5`, 1 min (20 ticks) at 20 °C, ambient
 - `pasta_salad_with_chicken.step_4`: held, `pasta_salad_with_chicken_step_3` → `pasta_salad_with_chicken`, 1 min (20 ticks) at 4 °C, chilled, only from any to 8 °C
 - `pasta_sauce.mold`: spoil, `pasta_sauce` → `spoiled_food`, 548 d (15782400 ticks) at 20 °C, ambient, q10 2.5, only from 0 °C to any
@@ -13733,9 +13419,11 @@ Steps that happen to food while it is kept rather than in a machine: one ingredi
 - `pepper_stew.spoil`: spoil, `pepper_stew` → `spoiled_food`, 3.46 d (99648 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
 - `peppermint.spoil`: spoil, `peppermint` → `spoiled_food`, 9.9 d (285120 ticks) at 20 °C, ambient, q10 1.41, only from 0 °C to any
 - `pepperoncini.mold`: spoil, `pepperoncini` → `spoiled_food`, 365 d (10512000 ticks) at 20 °C, ambient, q10 2.5, only from 0 °C to any
+- `pepperoni.dry`: held, `fermented_pepperoni` → `pepperoni`, 14 d (403200 ticks) at 20 °C, ambient, not written: the game can't make `fermented_pepperoni`
+- `pepperoni.ferment`: held, `pepperoni_mix` → `fermented_pepperoni`, 2 d (57600 ticks) at 25 °C, ambient, q10 2, not written: the game can't make `pepperoni_mix`
 - `pepperoni.freezer_burn`: spoil, `pepperoni` → `spoiled_food`, 43 d (1238400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
 - `pepperoni.spoil`: spoil, `pepperoni` → `spoiled_food`, 17.1 d (492480 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
-- `pepperoni_pasta_salad.step_2`: held, `pepperoni_pasta_salad_step_1` → `pepperoni_pasta_salad`, 1 min (20 ticks) at 4 °C, chilled, only from any to 8 °C
+- `pepperoni_pasta_salad.step_2`: held, `pepperoni_pasta_salad_step_1` → `pepperoni_pasta_salad`, 1 min (20 ticks) at 4 °C, chilled, only from any to 8 °C, not written: the game can't make `pepperoni_pasta_salad_step_1`
 - `peppers.freezer_burn`: spoil, `peppers` → `spoiled_food`, 211 d (6076800 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
 - `peppers.spoil`: spoil, `peppers` → `spoiled_food`, 7.48 d (215424 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
 - `perfect_three_course_dinner.step_4`: held, `perfect_three_course_dinner_step_2` → `perfect_three_course_dinner_step_4`, 1 min (20 ticks) at 20 °C, ambient
@@ -13800,6 +13488,7 @@ Steps that happen to food while it is kept rather than in a machine: one ingredi
 - `pork_burritos_with_green_pepper_sauce.step_6`: held, `pork_burritos_with_green_pepper_sauce_step_5` → `pork_burritos_with_green_pepper_sauce_step_6`, 10 min (200 ticks) at 20 °C, ambient, not written: the game can't make `pork_burritos_with_green_pepper_sauce_step_5`
 - `pork_flavored_gravy_base.mold`: spoil, `pork_flavored_gravy_base` → `spoiled_food`, 730 d (21024000 ticks) at 20 °C, ambient, q10 0.0202, only from 0 °C to any
 - `pork_gyoza.step_5`: held, `pork_gyoza_step_3` → `pork_gyoza_step_5`, 1 min (20 ticks) at -18 °C, frozen, only from any to 0 °C
+- `pork_jerky.dry`: held, `salted_pork_strips` → `pork_jerky`, 8 h (9600 ticks) at 20 °C, ambient, not written: the game can't make `salted_pork_strips`
 - `pork_mince.freezer_burn`: spoil, `pork_mince` → `spoiled_food`, 105 d (3024000 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
 - `pork_mince.spoil`: spoil, `pork_mince` → `spoiled_food`, 1.41 d (40608 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
 - `pork_pot_pie.step_11`: held, `pork_pot_pie_step_10` → `pork_pot_pie`, 5 min (100 ticks) at 20 °C, ambient
@@ -13821,6 +13510,7 @@ Steps that happen to food while it is kept rather than in a machine: one ingredi
 - `potato_chips.step_10`: held, `potato_chips_step_9` → `potato_chips`, 1 min (20 ticks) at 20 °C, ambient
 - `potato_courgette_and_cavelo_nero_pancakes.step_3.prep_3`: held, `potato` → `potato_dry`, 1 min (20 ticks) at 20 °C, ambient
 - `potato_courgette_and_cavelo_nero_pancakes.step_7`: held, `potato_courgette_and_cavelo_nero_pancakes_step_6` → `potato_courgette_and_cavelo_nero_pancakes`, 1 min (20 ticks) at 20 °C, ambient, not written: the game can't make `potato_courgette_and_cavelo_nero_pancakes_step_6`
+- `potato_flour.dry`: held, `boiled_potato` → `potato_flakes`, 600 min (12000 ticks) at 20 °C, ambient
 - `potato_gratin.step_4`: held, `potato_cut_soak_rinse` → `potato_cut_soak_rinse_dry`, 1 min (20 ticks) at 20 °C, ambient
 - `potato_langos.step_6`: held, `potato_langos_step_4` → `potato_langos_step_6`, 8 h (9600 ticks) at 20 °C, ambient
 - `potato_meat_loaf.step_8`: held, `potato_meat_loaf_step_7` → `potato_meat_loaf`, 5 min (100 ticks) at 20 °C, ambient
@@ -13841,7 +13531,7 @@ Steps that happen to food while it is kept rather than in a machine: one ingredi
 - `prawn_crackers_shrimp_chips.stale`: spoil, `prawn_crackers_shrimp_chips` → `spoiled_food`, 244 d (7027200 ticks) at 20 °C, ambient, only from 0 °C to any
 - `pre_baked_whole_grain_pizza_shell.freezer_burn`: spoil, `pre_baked_whole_grain_pizza_shell` → `spoiled_food`, 365 d (10512000 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
 - `pre_baked_whole_grain_pizza_shell.spoil`: spoil, `pre_baked_whole_grain_pizza_shell` → `spoiled_food`, 3.46 d (99648 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
-- `pretzels.stale`: spoil, `pretzels` → `spoiled_food`, 183 d (5270400 ticks) at 20 °C, ambient, only from 0 °C to any
+- `pretzels.stale`: spoil, `pretzels` → `spoiled_food`, 183 d (5270400 ticks) at 20 °C, ambient, only from 0 °C to any, not written: the game can't make `pretzels`
 - `prickly_pear.freezer_burn`: spoil, `prickly_pear` → `spoiled_food`, 333 d (9590400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
 - `prickly_pear.mold`: spoil, `prickly_pear` → `spoiled_food`, 3.16 d (91008 ticks) at 20 °C, ambient, q10 2.04, only from 0 °C to any
 - `prime_rib_dinner.step_2`: held, `prime_rib_dinner_step_1` → `prime_rib_dinner_step_2`, 2 h (2400 ticks) at 20 °C, ambient
@@ -13850,6 +13540,7 @@ Steps that happen to food while it is kept rather than in a machine: one ingredi
 - `prosciutto.spoil`: spoil, `prosciutto` → `spoiled_food`, 74.6 d (2148480 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
 - `provolone_cheese.freezer_burn`: spoil, `provolone_cheese` → `spoiled_food`, 183 d (5270400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
 - `provolone_cheese.mold`: spoil, `provolone_cheese` → `spoiled_food`, 183 d (5270400 ticks) at 4 °C, chilled, q10 2.5, only from 0 °C to any
+- `prune.dry`: held, `plum` → `prune`, 1 d (28800 ticks) at 20 °C, ambient, q10 2
 - `prune.stale`: spoil, `prune` → `spoiled_food`, 183 d (5270400 ticks) at 20 °C, ambient, only from 0 °C to any
 - `pudding_mix.stale`: spoil, `pudding_mix` → `spoiled_food`, 365 d (10512000 ticks) at 20 °C, ambient, only from 0 °C to any
 - `pudding_with_pistachios_and_rose_water_muhallebi.step_5`: held, `pudding_with_pistachios_and_rose_water_muhallebi_step_4` → `pudding_with_pistachios_and_rose_water_muhallebi_step_5`, 1 min (20 ticks) at 4 °C, chilled, only from any to 8 °C
@@ -13866,7 +13557,7 @@ Steps that happen to food while it is kept rather than in a machine: one ingredi
 - `pumpkin_pie_i.step_5`: held, `pumpkin_pie_i_step_4` → `pumpkin_pie_i`, 1 min (20 ticks) at 20 °C, ambient
 - `pumpkin_pie_ii.step_5`: held, `pumpkin_pie_ii_step_4` → `pumpkin_pie_ii_step_5`, 2 h (2400 ticks) at 20 °C, ambient
 - `pumpkin_roll.step_19`: held, `pumpkin_roll_step_16` → `pumpkin_roll_step_19`, 1 min (20 ticks) at -18 °C, frozen, only from any to 0 °C
-- `puri_indian_fried_flatbread.step_9`: held, `puri_indian_fried_flatbread_step_8` → `puri_indian_fried_flatbread`, 1 min (20 ticks) at 20 °C, ambient
+- `puri_indian_fried_flatbread.step_9`: held, `puri_indian_fried_flatbread_step_8` → `puri_indian_fried_flatbread`, 1 min (20 ticks) at 20 °C, ambient, not written: the game can't make `puri_indian_fried_flatbread_step_8`
 - `purple_plum_pie.step_4`: held, `purple_plum_pie_step_3` → `purple_plum_pie`, 1 min (20 ticks) at 20 °C, ambient
 - `quail.freezer_burn`: spoil, `quail` → `spoiled_food`, 183 d (5270400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
 - `quail.spoil`: spoil, `quail` → `spoiled_food`, 1.41 d (40608 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
@@ -13887,6 +13578,7 @@ Steps that happen to food while it is kept rather than in a machine: one ingredi
 - `quinoa_vegetable_slaw_with_peanut_dressing_gluten_free.step_3.prep_9`: held, `quinoa` → `quinoa_cool`, 1 min (20 ticks) at 20 °C, ambient
 - `rabbit.freezer_burn`: spoil, `rabbit` → `spoiled_food`, 274 d (7891200 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
 - `rabbit.spoil`: spoil, `rabbit` → `spoiled_food`, 2 d (57600 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
+- `rabbit_jerky.dry`: held, `salted_rabbit_strips` → `rabbit_jerky`, 8 h (9600 ticks) at 20 °C, ambient, not written: the game can't make `salted_rabbit_strips`
 - `rabbit_with_abbey_beer_konijn_met_paterbier.step_7`: held, `rabbit_with_abbey_beer_konijn_met_paterbier_step_6` → `rabbit_with_abbey_beer_konijn_met_paterbier`, 1 min (20 ticks) at 20 °C, ambient
 - `radish.spoil`: spoil, `radish` → `spoiled_food`, 11.8 d (339840 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
 - `radish_pie.step_9`: held, `radish_pie_step_8` → `radish_pie`, 1 min (20 ticks) at 20 °C, ambient, not written: the game can't make `radish_pie_step_8`
@@ -13895,9 +13587,10 @@ Steps that happen to food while it is kept rather than in a machine: one ingredi
 - `rainbow_jell_o.step_10`: held, `rainbow_jell_o_step_9` → `rainbow_jell_o_step_10`, 2 h (2400 ticks) at 4 °C, chilled, only from any to 8 °C
 - `rainbow_jell_o.step_5`: held, `rainbow_jell_o_step_4` → `rainbow_jell_o_step_5`, 5 min (100 ticks) at 4 °C, chilled, only from any to 8 °C
 - `rainbow_jell_o.step_8`: held, `rainbow_jell_o_step_7` → `rainbow_jell_o_step_9`, 15 min (300 ticks) at 4 °C, chilled, only from any to 8 °C
+- `raisin.dry`: held, `grape` → `raisin`, 5 d (144000 ticks) at 20 °C, ambient, q10 2
 - `raisin.stale`: spoil, `raisin` → `spoiled_food`, 183 d (5270400 ticks) at 20 °C, ambient, only from 0 °C to any
 - `raisin_crumb_pie.step_3`: held, `raisin_crumb_pie_step_2` → `raisin_crumb_pie_step_3`, 1 min (20 ticks) at 20 °C, ambient
-- `raisin_oatmeal_muffins.step_7`: held, `raisin_oatmeal_muffins_step_6` → `raisin_oatmeal_muffins`, 1 min (20 ticks) at 20 °C, ambient
+- `raisin_oatmeal_muffins.step_7`: held, `raisin_oatmeal_muffins_step_6` → `raisin_oatmeal_muffins`, 1 min (20 ticks) at 20 °C, ambient, not written: the game can't make `raisin_oatmeal_muffins_step_6`
 - `raita.step_1.prep_1`: held, `cucumber` → `cucumber_dry`, 1 min (20 ticks) at 20 °C, ambient
 - `raita.step_7`: held, `raita_step_6` → `raita`, 1 min (20 ticks) at 4 °C, chilled, only from any to 8 °C, not written: the game can't make `raita_step_6`
 - `raspberries.freezer_burn`: spoil, `raspberries` → `spoiled_food`, 298 d (8582400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
@@ -13933,6 +13626,7 @@ Steps that happen to food while it is kept rather than in a machine: one ingredi
 - `rice_modak_coconut_pastries_ii.step_3`: held, `rice_modak_coconut_pastries_ii_step_2` → `rice_modak_coconut_pastries_ii_step_3`, 1 min (20 ticks) at 20 °C, ambient
 - `rice_rava.stale`: spoil, `rice_rava` → `spoiled_food`, 730 d (21024000 ticks) at 20 °C, ambient, only from 0 °C to any
 - `rice_vinegar.mold`: spoil, `rice_vinegar` → `spoiled_food`, 730 d (21024000 ticks) at 20 °C, ambient, q10 2.5, only from 0 °C to any
+- `rice_wafer.dry`: held, `rice_paper_sheet` → `rice_wafer`, 4 h (4800 ticks) at 20 °C, ambient
 - `rice_with_tofu_and_nuts.step_8`: held, `rice_with_tofu_and_nuts_step_7` → `rice_with_tofu_and_nuts_step_8`, 1 min (20 ticks) at 20 °C, ambient
 - `rich_brownies.step_3`: held, `rich_brownies_step_2` → `rich_brownies_step_3`, 1 min (20 ticks) at 20 °C, ambient
 - `ricotta.sour`: spoil, `ricotta` → `spoiled_food`, 14 d (403200 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
@@ -13992,8 +13686,8 @@ Steps that happen to food while it is kept rather than in a machine: one ingredi
 - `russian_style_waffle_cake.step_12`: held, `russian_style_waffle_cake_step_11` → `russian_style_waffle_cake_step_12`, 1 min (20 ticks) at 4 °C, chilled, only from any to 8 °C
 - `russian_style_waffle_cake.step_6`: held, `russian_style_waffle_cake_step_5` → `russian_style_waffle_cake_step_6`, 1 min (20 ticks) at 20 °C, ambient
 - `russian_style_waffle_cake.step_9`: held, `russian_style_waffle_cake_step_8` → `russian_style_waffle_cake_step_9`, 1 min (20 ticks) at 20 °C, ambient
-- `rustic_beer_bread.step_2`: held, `rustic_beer_bread_step_1` → `rustic_beer_bread_step_3`, 1 min (20 ticks) at 20 °C, ambient
-- `rustic_beer_bread.step_4`: held, `rustic_beer_bread_step_3` → `rustic_beer_bread_step_4`, 1 h (1200 ticks) at 20 °C, ambient
+- `rustic_beer_bread.step_2`: held, `rustic_beer_bread_step_1` → `rustic_beer_bread_step_3`, 1 min (20 ticks) at 20 °C, ambient, not written: the game can't make `rustic_beer_bread_step_1`
+- `rustic_beer_bread.step_4`: held, `rustic_beer_bread_step_3` → `rustic_beer_bread_step_4`, 1 h (1200 ticks) at 20 °C, ambient, not written: the game can't make `rustic_beer_bread_step_3`
 - `rutabaga.freezer_burn`: spoil, `rutabaga` → `spoiled_food`, 272 d (7833600 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
 - `rutabaga.spoil`: spoil, `rutabaga` → `spoiled_food`, 7 d (201600 ticks) at 20 °C, ambient, q10 1.75, only from 0 °C to any
 - `rwandan_goat_brochette.step_6`: held, `rwandan_goat_brochette_step_5` → `rwandan_goat_brochette`, 1 min (20 ticks) at 20 °C, ambient, not written: the game can't make `rwandan_goat_brochette_step_5`
@@ -14015,6 +13709,8 @@ Steps that happen to food while it is kept rather than in a machine: one ingredi
 - `saj_bread_ii.step_5`: held, `saj_bread_ii_step_4` → `saj_bread_ii`, 1 min (20 ticks) at 20 °C, ambient
 - `saj_bread_iii.step_2`: held, `saj_bread_iii_step_1` → `saj_bread_iii_step_3`, 30 min (600 ticks) at 20 °C, ambient
 - `saj_bread_iii.step_5`: held, `saj_bread_iii_step_4` → `saj_bread_iii`, 1 min (20 ticks) at 20 °C, ambient, not written: the game can't make `saj_bread_iii_step_4`
+- `salami.dry`: held, `fermented_salami_mix` → `salami`, 21 d (604800 ticks) at 20 °C, ambient, not written: the game can't make `fermented_salami_mix`
+- `salami.ferment`: held, `salami_mix` → `fermented_salami_mix`, 2 d (57600 ticks) at 25 °C, ambient, q10 2, not written: the game can't make `salami_mix`
 - `salata_hara_libyan_spicy_salad.step_4`: held, `salata_hara_libyan_spicy_salad_step_3` → `salata_hara_libyan_spicy_salad_step_4`, 30 min (600 ticks) at 4 °C, chilled, only from any to 8 °C
 - `salmon.freezer_burn`: spoil, `salmon` → `spoiled_food`, 74.6 d (2148480 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
 - `salmon.spoil`: spoil, `salmon` → `spoiled_food`, 1.41 d (40608 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
@@ -14023,9 +13719,9 @@ Steps that happen to food while it is kept rather than in a machine: one ingredi
 - `salsa_fermented.step_9`: held, `salsa_fermented_step_8` → `salsa_fermented`, 2.5 d (72000 ticks) at 4 °C, chilled, only from any to 8 °C, not written: the game can't make `salsa_fermented_step_8`
 - `saltine_cracker.freezer_burn`: spoil, `saltine_cracker` → `spoiled_food`, 105 d (3024000 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
 - `saltine_cracker.stale`: spoil, `saltine_cracker` → `spoiled_food`, 244 d (7027200 ticks) at 20 °C, ambient, only from 0 °C to any
-- `sambal_oelek.mold`: spoil, `sambal_oelek` → `spoiled_food`, 183 d (5270400 ticks) at 20 °C, ambient, q10 2.5, only from 0 °C to any
+- `sambal_oelek.mold`: spoil, `sambal_oelek` → `spoiled_food`, 183 d (5270400 ticks) at 20 °C, ambient, q10 2.5, only from 0 °C to any, not written: the game can't make `sambal_oelek`
 - `sambar_masalar.stale`: spoil, `sambar_masalar` → `spoiled_food`, 517 d (14889600 ticks) at 20 °C, ambient, only from 0 °C to any
-- `sambhar_masala.stale`: spoil, `sambhar_masala` → `spoiled_food`, 517 d (14889600 ticks) at 20 °C, ambient, only from 0 °C to any
+- `sambhar_masala.stale`: spoil, `sambhar_masala` → `spoiled_food`, 517 d (14889600 ticks) at 20 °C, ambient, only from 0 °C to any, not written: the game can't make `sambhar_masala`
 - `san_francisco_sourdough_bread.step_1`: held, `grape_grind` → `grape_grind_ferment`, 48 h (57600 ticks) at 20 °C, ambient
 - `san_francisco_sourdough_bread.step_10`: held, `san_francisco_sourdough_bread_step_9` → `san_francisco_sourdough_bread_step_11`, 1 min (20 ticks) at 20 °C, ambient
 - `san_francisco_sourdough_bread.step_12`: held, `san_francisco_sourdough_bread_step_11` → `san_francisco_sourdough_bread_step_12`, 1 min (20 ticks) at 20 °C, ambient
@@ -14045,7 +13741,7 @@ Steps that happen to food while it is kept rather than in a machine: one ingredi
 - `sauteed_vegetables.spoil`: spoil, `sauteed_vegetables` → `spoiled_food`, 3.46 d (99648 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
 - `savory_mustard_sauce.step_6`: held, `savory_mustard_sauce_step_5` → `savory_mustard_sauce`, 1 min (20 ticks) at 20 °C, ambient
 - `sayadeya_egyptian_fish_with_rice.step_8`: held, `sayadeya_egyptian_fish_with_rice_step_7` → `sayadeya_egyptian_fish_with_rice_step_8`, 1 min (20 ticks) at 20 °C, ambient
-- `sazon.stale`: spoil, `sazon` → `spoiled_food`, 517 d (14889600 ticks) at 20 °C, ambient, only from 0 °C to any
+- `sazon.stale`: spoil, `sazon` → `spoiled_food`, 517 d (14889600 ticks) at 20 °C, ambient, only from 0 °C to any, not written: the game can't make `sazon`
 - `scallop.freezer_burn`: spoil, `scallop` → `spoiled_food`, 316 d (9100800 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
 - `scallop.spoil`: spoil, `scallop` → `spoiled_food`, 1.73 d (49824 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
 - `scent_leaf.freezer_burn`: spoil, `scent_leaf` → `spoiled_food`, 43 d (1238400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
@@ -14074,7 +13770,7 @@ Steps that happen to food while it is kept rather than in a machine: one ingredi
 - `semi_sweet_chocolate.stale`: spoil, `semi_sweet_chocolate` → `spoiled_food`, 517 d (14889600 ticks) at 20 °C, ambient, only from 0 °C to any
 - `semi_sweet_chocolate_pieces.stale`: spoil, `semi_sweet_chocolate_pieces` → `spoiled_food`, 517 d (14889600 ticks) at 20 °C, ambient, only from 0 °C to any
 - `semisweet_chocolate.stale`: spoil, `semisweet_chocolate` → `spoiled_food`, 517 d (14889600 ticks) at 20 °C, ambient, only from 0 °C to any
-- `semolina_pudding.step_4`: held, `semolina_pudding_step_3` → `semolina_pudding_step_4`, 1 min (20 ticks) at 20 °C, ambient
+- `semolina_pudding.step_4`: held, `semolina_pudding_step_3` → `semolina_pudding_step_4`, 1 min (20 ticks) at 20 °C, ambient, not written: the game can't make `semolina_pudding_step_3`
 - `serbian_flatbread_lepinja.step_4`: held, `serbian_flatbread_lepinja_step_3` → `serbian_flatbread_lepinja_step_7`, 1 min (20 ticks) at 20 °C, ambient
 - `serrano_chili.freezer_burn`: spoil, `serrano_chili` → `spoiled_food`, 274 d (7891200 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
 - `serrano_chili.spoil`: spoil, `serrano_chili` → `spoiled_food`, 7 d (201600 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
@@ -14111,11 +13807,13 @@ Steps that happen to food while it is kept rather than in a machine: one ingredi
 - `shrimp.spoil`: spoil, `shrimp` → `spoiled_food`, 1.73 d (49824 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
 - `shrimp_crackers.freezer_burn`: spoil, `shrimp_crackers` → `spoiled_food`, 105 d (3024000 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
 - `shrimp_crackers.stale`: spoil, `shrimp_crackers` → `spoiled_food`, 244 d (7027200 ticks) at 20 °C, ambient, only from 0 °C to any
+- `shrimp_paste.dry`: held, `fermented_shrimp_mash` → `shrimp_paste`, 2 d (57600 ticks) at 30 °C, warm, q10 2
+- `shrimp_paste.ferment`: held, `salted_shrimp_mash` → `fermented_shrimp_mash`, 60 d (1728000 ticks) at 25 °C, ambient, q10 2
 - `shrimp_seasoning_powder.stale`: spoil, `shrimp_seasoning_powder` → `spoiled_food`, 517 d (14889600 ticks) at 20 °C, ambient, only from 0 °C to any
 - `shrimps.freezer_burn`: spoil, `shrimps` → `spoiled_food`, 316 d (9100800 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
 - `shrimps.spoil`: spoil, `shrimps` → `spoiled_food`, 1.73 d (49824 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
 - `simple_chicken_salad.step_2`: held, `simple_chicken_salad_step_1` → `simple_chicken_salad`, 1 min (20 ticks) at 20 °C, ambient
-- `simple_chocolate_cheese_pie.step_5`: held, `simple_chocolate_cheese_pie_step_4` → `simple_chocolate_cheese_pie`, 1 min (20 ticks) at 4 °C, chilled, only from any to 8 °C
+- `simple_chocolate_cheese_pie.step_5`: held, `simple_chocolate_cheese_pie_step_4` → `simple_chocolate_cheese_pie`, 1 min (20 ticks) at 4 °C, chilled, only from any to 8 °C, not written: the game can't make `simple_chocolate_cheese_pie_step_4`
 - `simple_chocolate_fudge.step_4`: held, `simple_chocolate_fudge_step_3` → `simple_chocolate_fudge`, 1 min (20 ticks) at 20 °C, ambient
 - `simple_syrup.step_3`: held, `simple_syrup_step_2` → `simple_syrup_step_3`, 1 min (20 ticks) at 20 °C, ambient
 - `simple_syrup.step_4`: held, `simple_syrup_step_3` → `simple_syrup`, 1 min (20 ticks) at 4 °C, chilled, only from any to 8 °C
@@ -14127,8 +13825,8 @@ Steps that happen to food while it is kept rather than in a machine: one ingredi
 - `slices_white_bread.freezer_burn`: spoil, `slices_white_bread` → `spoiled_food`, 118 d (3398400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
 - `slices_white_bread.mold`: spoil, `slices_white_bread` → `spoiled_food`, 15.9 d (457920 ticks) at 20 °C, ambient, q10 2.5, only from 0 °C to any
 - `smoked_paprika.stale`: spoil, `smoked_paprika` → `spoiled_food`, 895 d (25776000 ticks) at 20 °C, ambient, only from 0 °C to any
-- `smoked_pork_slices.freezer_burn`: spoil, `smoked_pork_slices` → `spoiled_food`, 43 d (1238400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `smoked_pork_slices.spoil`: spoil, `smoked_pork_slices` → `spoiled_food`, 3.46 d (99648 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
+- `smoked_pork_slices.freezer_burn`: spoil, `smoked_pork_slices` → `spoiled_food`, 43 d (1238400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C, not written: the game can't make `smoked_pork_slices`
+- `smoked_pork_slices.spoil`: spoil, `smoked_pork_slices` → `spoiled_food`, 3.46 d (99648 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any, not written: the game can't make `smoked_pork_slices`
 - `smoked_salmon_ravioli_filling.step_4`: held, `smoked_salmon_ravioli_filling_step_3` → `smoked_salmon_ravioli_filling`, 1 min (20 ticks) at 4 °C, chilled, only from any to 8 °C, not written: the game can't make `smoked_salmon_ravioli_filling_step_3`
 - `snap_pea.freezer_burn`: spoil, `snap_pea` → `spoiled_food`, 244 d (7027200 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
 - `snap_pea.spoil`: spoil, `snap_pea` → `spoiled_food`, 3.87 d (111456 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
@@ -14148,6 +13846,7 @@ Steps that happen to food while it is kept rather than in a machine: one ingredi
 - `soto_ayam_indonesian_chicken_noodle_soup.step_4`: held, `soto_ayam_indonesian_chicken_noodle_soup_step_3` → `soto_ayam_indonesian_chicken_noodle_soup_step_4`, 1 min (20 ticks) at 20 °C, ambient
 - `soup_joumou_haitian_beef_and_squash_soup.step_2`: held, `soup_joumou_haitian_beef_and_squash_soup_step_1` → `soup_joumou_haitian_beef_and_squash_soup_step_2`, 1 min (20 ticks) at 4 °C, chilled, only from any to 8 °C, not written: the game can't make `soup_joumou_haitian_beef_and_squash_soup_step_1`
 - `sour_bamboo.spoil`: spoil, `sour_bamboo` → `spoiled_food`, 14 d (403200 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
+- `sour_cream.ferment`: held, `cream` → `sour_cream`, 1 d (28800 ticks) at 22 °C, ambient, q10 2.5
 - `sour_mashed_sweet_potato.step_2`: held, `sweet_potato_roast_roast` → `sweet_potato_roast_roast_cool`, 1 min (20 ticks) at 20 °C, ambient, not written: the game can't make `sweet_potato_roast_roast`
 - `sour_mashed_sweet_potato.step_7`: held, `sour_mashed_sweet_potato_step_6` → `sour_mashed_sweet_potato_step_7`, 1 min (20 ticks) at 20 °C, ambient, not written: the game can't make `sour_mashed_sweet_potato_step_6`
 - `sour_mashed_sweet_potato.step_8`: held, `sour_mashed_sweet_potato_step_7` → `sour_mashed_sweet_potato_step_8`, 48 h (57600 ticks) at 20 °C, ambient, not written: the game can't make `sour_mashed_sweet_potato_step_7`
@@ -14196,6 +13895,7 @@ Steps that happen to food while it is kept rather than in a machine: one ingredi
 - `spinach_and_ricotta_lasagna.step_18`: held, `spinach_and_ricotta_lasagna_step_17` → `spinach_and_ricotta_lasagna`, 17.5 min (350 ticks) at 20 °C, ambient
 - `spinach_and_ricotta_lasagna.step_6.prep_5`: held, `ricotta` → `ricotta_dry`, 1 min (20 ticks) at 20 °C, ambient
 - `spinach_and_ricotta_lasagna.step_8`: held, `spinach_and_ricotta_lasagna_step_7` → `spinach_and_ricotta_lasagna_step_8`, 1 min (20 ticks) at 20 °C, ambient
+- `split_pea.dry`: held, `pea` → `dried_pea`, 3 d (86400 ticks) at 20 °C, ambient, q10 2
 - `split_pea.stale`: spoil, `split_pea` → `spoiled_food`, 365 d (10512000 ticks) at 20 °C, ambient, only from 0 °C to any
 - `split_peas.stale`: spoil, `split_peas` → `spoiled_food`, 365 d (10512000 ticks) at 20 °C, ambient, only from 0 °C to any
 - `sponge_cake_i.step_9`: held, `sponge_cake_i_step_8` → `sponge_cake_i_step_9`, 1 min (20 ticks) at 20 °C, ambient
@@ -14232,6 +13932,7 @@ Steps that happen to food while it is kept rather than in a machine: one ingredi
 - `sticky_date_pudding.step_3`: held, `sticky_date_pudding_step_2` → `sticky_date_pudding_step_3`, 1 min (20 ticks) at 20 °C, ambient
 - `sticky_date_pudding.step_6`: held, `sticky_date_pudding_step_5` → `sticky_date_pudding_step_6`, 1 min (20 ticks) at 20 °C, ambient
 - `stir_fried_tomato_and_scrambled_eggs.step_2`: held, `tomato_boil_boil` → `tomato_boil_boil_cool`, 1 min (20 ticks) at 20 °C, ambient
+- `stockfish.dry`: held, `cod` → `stockfish`, 20 d (576000 ticks) at 20 °C, ambient
 - `store_bought_gyoza_wonton_wrappers.freezer_burn`: spoil, `store_bought_gyoza_wonton_wrappers` → `spoiled_food`, 60.9 d (1753920 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
 - `store_bought_gyoza_wonton_wrappers.mold`: spoil, `store_bought_gyoza_wonton_wrappers` → `spoiled_food`, 1.41 d (40608 ticks) at 4 °C, chilled, q10 2.5, only from 0 °C to any
 - `strawberries.freezer_burn`: spoil, `strawberries` → `spoiled_food`, 298 d (8582400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
@@ -14251,6 +13952,7 @@ Steps that happen to food while it is kept rather than in a machine: one ingredi
 - `sugar_substitute.stale`: spoil, `sugar_substitute` → `spoiled_food`, 730 d (21024000 ticks) at 20 °C, ambient, only from 0 °C to any
 - `sumac.stale`: spoil, `sumac` → `spoiled_food`, 895 d (25776000 ticks) at 20 °C, ambient, only from 0 °C to any
 - `summer_rolls.step_7`: held, `summer_rolls_step_6` → `summer_rolls`, 5 min (100 ticks) at 20 °C, ambient, not written: the game can't make `summer_rolls_step_6`
+- `sun_dried_tomatoes.dry`: held, `tomatoes` → `sun_dried_tomatoes`, 2 d (57600 ticks) at 30 °C, warm, q10 2
 - `sun_dried_tomatoes.stale`: spoil, `sun_dried_tomatoes` → `spoiled_food`, 365 d (10512000 ticks) at 20 °C, ambient, only from 0 °C to any
 - `suqaar_somali_spiced_meat_stir_fry.step_9`: held, `suqaar_somali_spiced_meat_stir_fry_step_8` → `suqaar_somali_spiced_meat_stir_fry_step_9`, 1 min (20 ticks) at 20 °C, ambient, not written: the game can't make `suqaar_somali_spiced_meat_stir_fry_step_8`
 - `sushi_rice.step_12`: held, `sushi_rice_step_11` → `sushi_rice`, 1 min (20 ticks) at 20 °C, ambient, not written: the game can't make `sushi_rice_step_11`
@@ -14294,10 +13996,10 @@ Steps that happen to food while it is kept rather than in a machine: one ingredi
 - `tabbouleh_iv.step_5`: held, `tabbouleh_iv_step_4` → `tabbouleh_iv`, 1 h (1200 ticks) at 4 °C, chilled, only from any to 8 °C, not written: the game can't make `tabbouleh_iv_step_4`
 - `tabbouleh_vi.step_2`: held, `bulgur_boil` → `bulgur_boil_cool`, 1 min (20 ticks) at 20 °C, ambient
 - `tabbouleh_vi.step_4`: held, `tabbouleh_vi_step_3` → `tabbouleh_vi`, 1 min (20 ticks) at 4 °C, chilled, only from any to 8 °C
-- `taboon_bread.step_3`: held, `taboon_bread_step_2` → `taboon_bread_step_4`, 1 h (1200 ticks) at 20 °C, ambient
+- `taboon_bread.step_3`: held, `taboon_bread_step_2` → `taboon_bread_step_4`, 1 h (1200 ticks) at 20 °C, ambient, not written: the game can't make `taboon_bread_step_2`
 - `taco_mix.stale`: spoil, `taco_mix` → `spoiled_food`, 517 d (14889600 ticks) at 20 °C, ambient, only from 0 °C to any
 - `taco_seasoning.stale`: spoil, `taco_seasoning` → `spoiled_food`, 517 d (14889600 ticks) at 20 °C, ambient, only from 0 °C to any
-- `taco_seasoning_mix.stale`: spoil, `taco_seasoning_mix` → `spoiled_food`, 517 d (14889600 ticks) at 20 °C, ambient, only from 0 °C to any
+- `taco_seasoning_mix.stale`: spoil, `taco_seasoning_mix` → `spoiled_food`, 517 d (14889600 ticks) at 20 °C, ambient, only from 0 °C to any, not written: the game can't make `taco_seasoning_mix`
 - `taco_seasoning_packet.stale`: spoil, `taco_seasoning_packet` → `spoiled_food`, 517 d (14889600 ticks) at 20 °C, ambient, only from 0 °C to any
 - `tahini.mold`: spoil, `tahini` → `spoiled_food`, 365 d (10512000 ticks) at 20 °C, ambient, q10 2.5, only from 0 °C to any
 - `tahini_cookies.step_6`: held, `tahini_cookies_step_5` → `tahini_cookies`, 1 min (20 ticks) at 20 °C, ambient
@@ -14308,7 +14010,7 @@ Steps that happen to food while it is kept rather than in a machine: one ingredi
 - `tamari_sauce.mold`: spoil, `tamari_sauce` → `spoiled_food`, 1100 d (31680000 ticks) at 20 °C, ambient, q10 2.5, only from 0 °C to any
 - `tamarind.stale`: spoil, `tamarind` → `spoiled_food`, 258 d (7430400 ticks) at 20 °C, ambient, only from 0 °C to any
 - `tamarind_chutney.mold`: spoil, `tamarind_chutney` → `spoiled_food`, 365 d (10512000 ticks) at 20 °C, ambient, q10 2.5, only from 0 °C to any
-- `tamina_algerian_semolina_honey_dessert.step_7`: held, `tamina_algerian_semolina_honey_dessert_step_6` → `tamina_algerian_semolina_honey_dessert`, 1 min (20 ticks) at 20 °C, ambient
+- `tamina_algerian_semolina_honey_dessert.step_7`: held, `tamina_algerian_semolina_honey_dessert_step_6` → `tamina_algerian_semolina_honey_dessert`, 1 min (20 ticks) at 20 °C, ambient, not written: the game can't make `tamina_algerian_semolina_honey_dessert_step_6`
 - `tangerine.mold`: spoil, `tangerine` → `spoiled_food`, 10 d (288000 ticks) at 20 °C, ambient, q10 1.26, only from 0 °C to any
 - `tangy_lemon_battered_fried_chicken.step_7`: held, `tangy_lemon_battered_fried_chicken_step_6` → `tangy_lemon_battered_fried_chicken`, 1 min (20 ticks) at 20 °C, ambient, not written: the game can't make `tangy_lemon_battered_fried_chicken_step_6`
 - `tangy_lemon_mousse.step_3`: held, `tangy_lemon_mousse_step_2` → `tangy_lemon_mousse`, 20 min (400 ticks) at 4 °C, chilled, only from any to 8 °C, not written: the game can't make `tangy_lemon_mousse_step_2`
@@ -14317,7 +14019,9 @@ Steps that happen to food while it is kept rather than in a machine: one ingredi
 - `tapalapa_gambian_bread.step_10`: held, `tapalapa_gambian_bread_step_9` → `tapalapa_gambian_bread`, 1 min (20 ticks) at 20 °C, ambient
 - `tapalapa_gambian_bread.step_4`: held, `tapalapa_gambian_bread_step_3` → `tapalapa_gambian_bread_step_8`, 1.5 h (1800 ticks) at 20 °C, ambient
 - `tapioca.stale`: spoil, `tapioca` → `spoiled_food`, 365 d (10512000 ticks) at 20 °C, ambient, only from 0 °C to any
+- `tapioca_pearls.dry`: held, `tapioca_dough` → `tapioca_pearls`, 600 min (12000 ticks) at 20 °C, ambient
 - `tapioca_pearls.stale`: spoil, `tapioca_pearls` → `spoiled_food`, 365 d (10512000 ticks) at 20 °C, ambient, only from 0 °C to any
+- `tapioca_starch.dry`: held, `wet_tapioca_starch` → `tapioca_starch`, 720 min (14400 ticks) at 20 °C, ambient
 - `tapioca_starch.stale`: spoil, `tapioca_starch` → `spoiled_food`, 365 d (10512000 ticks) at 20 °C, ambient, only from 0 °C to any
 - `tarator_bulgarian_cucumber_soup.step_2`: held, `tarator_bulgarian_cucumber_soup_step_1` → `tarator_bulgarian_cucumber_soup`, 1 min (20 ticks) at 4 °C, chilled, only from any to 8 °C
 - `tarhana_turkish_yogurt_soup.step_5`: held, `tarhana_turkish_yogurt_soup_step_4` → `tarhana_turkish_yogurt_soup_step_5`, 1 min (20 ticks) at 20 °C, ambient, not written: the game can't make `tarhana_turkish_yogurt_soup_step_4`
@@ -14345,6 +14049,7 @@ Steps that happen to food while it is kept rather than in a machine: one ingredi
 - `teurgoule_norman_cinnamon_rice_pudding.step_5`: held, `teurgoule_norman_cinnamon_rice_pudding_step_4` → `teurgoule_norman_cinnamon_rice_pudding`, 1 min (20 ticks) at 20 °C, ambient
 - `texas_style_barbecue_ribs.step_5`: held, `texas_style_barbecue_ribs_step_4` → `texas_style_barbecue_ribs`, 7 min (140 ticks) at 20 °C, ambient
 - `texas_style_chicken_fried_steak.step_4`: held, `texas_style_chicken_fried_steak_step_3` → `texas_style_chicken_fried_steak_step_4`, 12.5 min (250 ticks) at 20 °C, ambient, not written: the game can't make `texas_style_chicken_fried_steak_step_3`
+- `textured_vegetable_protein.dry`: held, `extruded_soy` → `textured_vegetable_protein`, 3 h (3600 ticks) at 20 °C, ambient
 - `textured_vegetable_protein.spoil`: spoil, `textured_vegetable_protein` → `spoiled_food`, 730 d (21024000 ticks) at 20 °C, ambient, q10 3, only from 0 °C to any
 - `thai_chiles.freezer_burn`: spoil, `thai_chiles` → `spoiled_food`, 274 d (7891200 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
 - `thai_chiles.spoil`: spoil, `thai_chiles` → `spoiled_food`, 7 d (201600 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
@@ -14466,6 +14171,7 @@ Steps that happen to food while it is kept rather than in a machine: one ingredi
 - `vanilla_wafers.stale`: spoil, `vanilla_wafers` → `spoiled_food`, 244 d (7027200 ticks) at 20 °C, ambient, only from 0 °C to any
 - `vegan_gingerbread_cake.step_2.prep_10`: held, `coconut_oil` → `coconut_oil_cool`, 1 min (20 ticks) at 20 °C, ambient
 - `vegan_gingerbread_cake.step_6`: held, `vegan_gingerbread_cake_step_5` → `vegan_gingerbread_cake`, 1 min (20 ticks) at 20 °C, ambient
+- `vegemite.ferment`: held, `yeast_extract` → `vegemite`, 7 d (201600 ticks) at 25 °C, ambient, q10 2
 - `vegetable_oil.rancid`: spoil, `vegetable_oil` → `spoiled_food`, 258 d (7430400 ticks) at 20 °C, ambient, q10 2, only from 0 °C to any
 - `vegetable_party_sandwiches.step_3`: held, `vegetable_party_sandwiches_step_2` → `vegetable_party_sandwiches_step_4`, 25 h (30000 ticks) at 4 °C, chilled, only from any to 8 °C
 - `vegetable_spring_roll.step_8`: held, `vegetable_spring_roll_step_7` → `vegetable_spring_roll_step_9`, 1 min (20 ticks) at 20 °C, ambient
@@ -14484,6 +14190,7 @@ Steps that happen to food while it is kept rather than in a machine: one ingredi
 - `vienna_sausages.spoil`: spoil, `vienna_sausages` → `spoiled_food`, 14 d (403200 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
 - `vietnamese_caramel_sauce_n_c_maou.step_5`: held, `vietnamese_caramel_sauce_n_c_maou_step_4` → `vietnamese_caramel_sauce_n_c_maou`, 1 min (20 ticks) at 4 °C, chilled, only from any to 8 °C
 - `vietnamese_fish_dipping_sauce_n_c_m_m_pha.step_3`: held, `vietnamese_fish_dipping_sauce_n_c_m_m_pha_step_2` → `vietnamese_fish_dipping_sauce_n_c_m_m_pha`, 1 min (20 ticks) at 4 °C, chilled, only from any to 8 °C, not written: the game can't make `vietnamese_fish_dipping_sauce_n_c_m_m_pha_step_2`
+- `vinegar.ferment`: held, `apple_cider` → `vinegar`, 14 d (403200 ticks) at 25 °C, ambient, q10 2
 - `vinegar.mold`: spoil, `vinegar` → `spoiled_food`, 1410 d (40608000 ticks) at 20 °C, ambient, q10 2.5, only from 0 °C to any
 - `vinegar_pickled_eggs_and_onions.step_2`: held, `vinegar_pickled_eggs_and_onions_step_1` → `vinegar_pickled_eggs_and_onions_step_2`, 1 min (20 ticks) at 20 °C, ambient, not written: the game can't make `vinegar_pickled_eggs_and_onions_step_1`
 - `vinegar_pickled_eggs_and_onions.step_5`: held, `vinegar_pickled_eggs_and_onions_step_4` → `vinegar_pickled_eggs_and_onions_step_5`, 1 min (20 ticks) at 20 °C, ambient, not written: the game can't make `vinegar_pickled_eggs_and_onions_step_4`
@@ -14502,7 +14209,7 @@ Steps that happen to food while it is kept rather than in a machine: one ingredi
 - `welsh_fruit_bread_bara_brith_i.step_4`: held, `welsh_fruit_bread_bara_brith_i_step_3` → `welsh_fruit_bread_bara_brith_i_step_4`, 37.5 min (750 ticks) at 20 °C, ambient, not written: the game can't make `welsh_fruit_bread_bara_brith_i_step_3`
 - `wheat_chex_cereal.stale`: spoil, `wheat_chex_cereal` → `spoiled_food`, 258 d (7430400 ticks) at 20 °C, ambient, only from 0 °C to any
 - `wheat_flour.stale`: spoil, `wheat_flour` → `spoiled_food`, 258 d (7430400 ticks) at 20 °C, ambient, only from 0 °C to any
-- `wheat_modak_coconut_pastries.step_6`: held, `wheat_modak_coconut_pastries_step_5` → `wheat_modak_coconut_pastries_step_7`, 1 min (20 ticks) at 20 °C, ambient
+- `wheat_modak_coconut_pastries.step_6`: held, `wheat_modak_coconut_pastries_step_5` → `wheat_modak_coconut_pastries_step_7`, 1 min (20 ticks) at 20 °C, ambient, not written: the game can't make `wheat_modak_coconut_pastries_step_5`
 - `whipped_cream.sour`: spoil, `whipped_cream` → `spoiled_food`, 24.2 d (696960 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
 - `whipping_cream.sour`: spoil, `whipping_cream` → `spoiled_food`, 30.4 d (875520 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
 - `whiskey_barbecue_sauce.step_2`: held, `whiskey_barbecue_sauce_step_1` → `whiskey_barbecue_sauce`, 1 min (20 ticks) at 4 °C, chilled, only from any to 8 °C, not written: the game can't make `whiskey_barbecue_sauce_step_1`
@@ -14517,10 +14224,10 @@ Steps that happen to food while it is kept rather than in a machine: one ingredi
 - `white_stock.mold`: spoil, `white_stock` → `spoiled_food`, 7 d (201600 ticks) at 4 °C, chilled, q10 2.5, only from 0 °C to any
 - `whole_wheat_bread_vegan.step_5`: held, `whole_wheat_bread_vegan_step_4` → `whole_wheat_bread_vegan_step_6`, 1.25 h (1500 ticks) at 20 °C, ambient, not written: the game can't make `whole_wheat_bread_vegan_step_4`
 - `whole_wheat_bread_vegan.step_9`: held, `whole_wheat_bread_vegan_step_8` → `whole_wheat_bread_vegan`, 1 min (20 ticks) at 20 °C, ambient, not written: the game can't make `whole_wheat_bread_vegan_step_8`
-- `whole_wheat_chocolate_cake_with_nuts.step_7`: held, `whole_wheat_chocolate_cake_with_nuts_step_6` → `whole_wheat_chocolate_cake_with_nuts`, 1 min (20 ticks) at 20 °C, ambient
-- `whole_wheat_flour.freezer_burn`: spoil, `whole_wheat_flour` → `spoiled_food`, 730 d (21024000 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
-- `whole_wheat_flour.rancid`: spoil, `whole_wheat_flour` → `spoiled_food`, 365 d (10512000 ticks) at 20 °C, ambient, q10 1.54, only from 0 °C to any
-- `whole_wheat_irish_soda_bread.step_10`: held, `whole_wheat_irish_soda_bread_step_9` → `whole_wheat_irish_soda_bread_step_10`, 1 min (20 ticks) at 20 °C, ambient
+- `whole_wheat_chocolate_cake_with_nuts.step_7`: held, `whole_wheat_chocolate_cake_with_nuts_step_6` → `whole_wheat_chocolate_cake_with_nuts`, 1 min (20 ticks) at 20 °C, ambient, not written: the game can't make `whole_wheat_chocolate_cake_with_nuts_step_6`
+- `whole_wheat_flour.freezer_burn`: spoil, `whole_wheat_flour` → `spoiled_food`, 730 d (21024000 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C, not written: the game can't make `whole_wheat_flour`
+- `whole_wheat_flour.rancid`: spoil, `whole_wheat_flour` → `spoiled_food`, 365 d (10512000 ticks) at 20 °C, ambient, q10 1.54, only from 0 °C to any, not written: the game can't make `whole_wheat_flour`
+- `whole_wheat_irish_soda_bread.step_10`: held, `whole_wheat_irish_soda_bread_step_9` → `whole_wheat_irish_soda_bread_step_10`, 1 min (20 ticks) at 20 °C, ambient, not written: the game can't make `whole_wheat_irish_soda_bread_step_9`
 - `wine_glazed_pork_chops.step_5`: held, `wine_glazed_pork_chops_step_4` → `wine_glazed_pork_chops`, 5 min (100 ticks) at 20 °C, ambient
 - `wonjo_bissap_gambian_hibiscus_beverage.step_6`: held, `wonjo_bissap_gambian_hibiscus_beverage_step_5` → `wonjo_bissap_gambian_hibiscus_beverage_step_6`, 1 min (20 ticks) at 4 °C, chilled, only from any to 8 °C
 - `wonton_wrappers.step_4`: held, `wonton_wrappers_step_3` → `wonton_wrappers_step_5`, 30 min (600 ticks) at 4 °C, chilled, only from any to 8 °C
@@ -14542,6 +14249,7 @@ Steps that happen to food while it is kept rather than in a machine: one ingredi
 - `yemiser_selatta_ethiopian_lentil_salad.step_7`: held, `yemiser_selatta_ethiopian_lentil_salad_step_6` → `yemiser_selatta_ethiopian_lentil_salad`, 30 min (600 ticks) at 4 °C, chilled, only from any to 8 °C, not written: the game can't make `yemiser_selatta_ethiopian_lentil_salad_step_6`
 - `yerba_mate.stale`: spoil, `yerba_mate` → `spoiled_food`, 730 d (21024000 ticks) at 20 °C, ambient, only from 0 °C to any
 - `yogi_tea.step_6`: held, `yogi_tea_step_5` → `yogi_tea_step_6`, 1 min (20 ticks) at 20 °C, ambient, not written: the game can't make `yogi_tea_step_5`
+- `yogurt.ferment`: held, `milk` → `yogurt`, 8 h (9600 ticks) at 22 °C, ambient, q10 2.5
 - `yogurt.freezer_burn`: spoil, `yogurt` → `spoiled_food`, 43 d (1238400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
 - `yogurt.sour`: spoil, `yogurt` → `spoiled_food`, 9.9 d (285120 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
 - `yogurt_cupcakes_vegan.step_4`: held, `yogurt_cupcakes_vegan_step_3` → `yogurt_cupcakes_vegan_step_4`, 1 min (20 ticks) at 20 °C, ambient
@@ -14770,7 +14478,7 @@ Rounding error is the largest relative error of any non-negligible amount; above
 
 - create_mixing: 1 recipe, rounding 11%, estimated
 - shapeless_crafting: 1 recipe, rounding 11%, estimated
-- hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
+- hexerei_mixing_cauldron: 1 recipe, rounding 14%, estimated
 
 ### `aadun_nigerian_corn_flour_with_palm_oil.step_2` (age)
 
@@ -14912,9 +14620,9 @@ Rounding error is the largest relative error of any non-negligible amount; above
 
 ### `abula_nigerian_three_stews.step_5.prep_3` (heat)
 
-- create_heated_mixing: 1 recipe, rounding 8%
+- create_heated_mixing: 2 recipes, rounding 8%
 - fd_cooking_pot: 1 recipe, rounding 6%
-- hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
+- hexerei_mixing_cauldron: none, doesn't fit in 8 input items, 8 of each, and 1000 mB tanks at any scale
 
 ### `abula_nigerian_three_stews.step_6` (boil)
 
@@ -15137,6 +14845,12 @@ Rounding error is the largest relative error of any non-negligible amount; above
 
 - create_mixing: 1 recipe, rounding 0%, estimated
 
+### `adobo_seasoning.mix` (mix)
+
+- create_mixing: 1 recipe, rounding 74% ⚠, estimated
+- shapeless_crafting: 1 recipe, rounding 39% ⚠, estimated
+- hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
+
 ### `adobo_seasoning.stale` (stale)
 
 - transition: written
@@ -15317,7 +15031,7 @@ Rounding error is the largest relative error of any non-negligible amount; above
 
 - create_mixing: 1 recipe, rounding 14%, estimated
 - shapeless_crafting: none, whole items would distort it by 356%
-- hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
+- hexerei_mixing_cauldron: none, whole items would distort it by 356%
 
 ### `african_salad_ii.step_5` (mix)
 
@@ -15358,6 +15072,23 @@ Rounding error is the largest relative error of any non-negligible amount; above
 - fd_cutting_board: 1 recipe, rounding 0%, estimated
 - create_cutting: 1 recipe, rounding 0%, estimated
 
+### `agar.boil` (boil)
+
+- create_heated_mixing: 1 recipe, rounding 15%
+- fd_cooking_pot: 1 recipe, rounding 28% ⚠, drops `water`
+- hexerei_mixing_cauldron: 1 recipe, rounding 50% ⚠, drops `water`
+
+### `agar.dry` (dry)
+
+- transition: written
+- hexerei_drying_rack: none, whole items would distort it by 733%
+
+### `agar.strain` (separate)
+
+- create_item_drain: 1 recipe, rounding 18% ⚠
+- create_mixing: 1 recipe, rounding 15%
+- thermal_centrifuge: 1 recipe, rounding 18% ⚠
+
 ### `agar_jelly.step_1` (boil)
 
 - create_heated_mixing: 3 recipes, rounding 9%, estimated
@@ -15389,6 +15120,16 @@ Rounding error is the largest relative error of any non-negligible amount; above
 - shapeless_crafting: none, whole items would distort it by 514%
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
+
+### `agave_syrup.evaporate` (evaporate)
+
+- create_heated_mixing: 1 recipe, rounding 4%, estimated
+
+### `agave_syrup.press_agave` (press)
+
+- create_item_drain: none, the item drain takes one item and yields one item and one fluid
+- create_mixing: 1 recipe, rounding 14%
+- thermal_press: 1 recipe, rounding 14%
 
 ### `agave_syrup.stale` (stale)
 
@@ -15550,7 +15291,7 @@ Rounding error is the largest relative error of any non-negligible amount; above
 
 - create_heated_mixing: 1 recipe, rounding 6%, estimated
 - fd_cooking_pot: none, whole items would distort it by 534%
-- hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
+- hexerei_mixing_cauldron: none, whole items would distort it by 164%
 
 ### `ager_soup.step_4.prep_3` (rinse)
 
@@ -15866,25 +15607,25 @@ Rounding error is the largest relative error of any non-negligible amount; above
 
 ### `albanian_fried_meatballs.step_2` (mix)
 
-- create_mixing: 1 recipe, rounding 14%, estimated
+- create_mixing: 1 recipe, disabled: the game can't make `feta_cheese_chop`
 - shapeless_crafting: none, takes at most 9 inputs, not 10
 - hexerei_mixing_cauldron: none, takes at most 9 inputs, not 10
 
 ### `albanian_fried_meatballs.step_2.prep_4` (chop)
 
-- fd_cutting_board: 1 recipe, rounding 14%, estimated
-- create_cutting: 1 recipe, rounding 14%, estimated
+- fd_cutting_board: 1 recipe, disabled: the game can't make `feta_cheese`
+- create_cutting: 1 recipe, disabled: the game can't make `feta_cheese`
 
 ### `albanian_fried_meatballs.step_3` (shape)
 
-- shapeless_crafting: 1 recipe, rounding 0%
-- create_deploying: 1 recipe, rounding 0%
+- shapeless_crafting: 1 recipe, disabled: the game can't make `albanian_fried_meatballs_step_2`
+- create_deploying: 1 recipe, disabled: the game can't make `albanian_fried_meatballs_step_2`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
-- create_compacting: 1 recipe, rounding 0%
+- create_compacting: 1 recipe, disabled: the game can't make `albanian_fried_meatballs_step_2`
 
 ### `albanian_fried_meatballs.step_4` (fry)
 
-- create_heated_mixing: 1 recipe, rounding 6%
+- create_heated_mixing: 1 recipe, disabled: the game can't make `albanian_fried_meatballs_step_3`
 - pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `albanian_meat_with_walnuts.step_1` (simmer)
@@ -16138,45 +15879,45 @@ Rounding error is the largest relative error of any non-negligible amount; above
 
 ### `algerian_baghrir.step_1` (mix)
 
-- create_mixing: 1 recipe, rounding 46% ⚠, estimated
+- create_mixing: 1 recipe, disabled: the game can't make `semolina`
 - shapeless_crafting: none, whole items would distort it by 668%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `algerian_baghrir.step_2` (mix)
 
-- create_mixing: 1 recipe, rounding 14%, estimated
+- create_mixing: 1 recipe, disabled: the game can't make `algerian_baghrir_step_1`
 - shapeless_crafting: none, whole items would distort it by 130%
 - hexerei_mixing_cauldron: none, whole items would distort it by 137%
 
 ### `algerian_baghrir.step_3` (ferment)
 
-- transition: written
-- vd_fermenting_jar: 1 recipe, rounding 0%, estimated
+- transition: not written: the game can't make `algerian_baghrir_step_2`
+- vd_fermenting_jar: 1 recipe, disabled: the game can't make `algerian_baghrir_step_2`
 - bnc_keg: none, can't make the mod's own algerian_baghrir_step_3, and no other mod provides it
-- pnc_thermo_plant: 1 recipe, rounding 4%, estimated
+- pnc_thermo_plant: 1 recipe, disabled: the game can't make `algerian_baghrir_step_2`
 - theurgy_fermentation: none, needs a fluid it can take, and has none
 
 ### `algerian_baghrir.step_4` (whisk)
 
-- create_mixing: 1 recipe, rounding 13%, estimated
+- create_mixing: 1 recipe, disabled: the game can't make `algerian_baghrir_step_3`
 
 ### `algerian_baghrir.step_6` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 11%, estimated
-- pnc_thermo_plant: 1 recipe, rounding 15%, estimated
+- create_heated_mixing: 1 recipe, disabled: the game can't make `algerian_baghrir_step_4`
+- pnc_thermo_plant: 1 recipe, disabled: the game can't make `algerian_baghrir_step_4`
 
 ### `algerian_baghrir.step_7` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 11%, estimated
-- pnc_thermo_plant: 1 recipe, rounding 14%, estimated
+- create_heated_mixing: 1 recipe, disabled: the game can't make `algerian_baghrir_step_6`
+- pnc_thermo_plant: 1 recipe, disabled: the game can't make `algerian_baghrir_step_6`
 
 ### `algerian_baghrir.step_8` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 7%
-- pnc_thermo_plant: 1 recipe, rounding 7%
+- create_heated_mixing: 1 recipe, disabled: the game can't make `algerian_baghrir_step_7`
+- pnc_thermo_plant: 1 recipe, disabled: the game can't make `algerian_baghrir_step_7`
 
 ### `algerian_chakhchoukha_vegetable_and_flatbread_stew.step_2` (pan_fry)
 
@@ -16567,6 +16308,17 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 - transition: written
 
+### `almond_extract.steep` (steep)
+
+- create_mixing: 1 recipe, rounding 15%
+- create_splashing: none, takes one input, not 2
+- fr_kettle: none, can't make the mod's own almond_extract, and no other mod provides it
+- theurgy_liquefaction: none, needs a fluid it can take, and has none
+
+### `almond_flour.grind` (blend)
+
+- create_mixing: 1 recipe, rounding 15%, estimated
+
 ### `almond_fudge_brownies.step_2` (mix)
 
 - create_mixing: 1 recipe, rounding 14%, estimated
@@ -16677,6 +16429,12 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 - transition: written
 - thermal_chiller: none, needs a fluid it can take, and has none
+
+### `almond_oil.press` (press)
+
+- create_item_drain: none, the item drain takes one item and yields one item and one fluid
+- create_mixing: 1 recipe, rounding 14%
+- thermal_press: 1 recipe, rounding 14%
 
 ### `almond_oil.rancid` (rancid)
 
@@ -16935,6 +16693,16 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 - transition: written
 - thermal_chiller: none, needs a fluid it can take, and has none
+
+### `amchoor.dry` (dry)
+
+- transition: written
+- hexerei_drying_rack: 1 recipe, rounding 0%
+
+### `amchoor.grind` (grind)
+
+- create_milling: none, whole items would distort it by 669%
+- hexerei_pestle_and_mortar: 1 recipe, rounding 71% ⚠, estimated
 
 ### `amchoor.stale` (stale)
 
@@ -17274,6 +17042,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 - transition: written
 
+### `anchovy_paste.grind` (grind)
+
+- create_milling: none, takes one input, not 2
+- hexerei_pestle_and_mortar: 1 recipe, rounding 30% ⚠
+
 ### `anchovy_paste.mold` (mold)
 
 - transition: written
@@ -17601,6 +17374,12 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 - create_mixing: 1 recipe, rounding 8%
 
+### `apple_cider.press` (press)
+
+- create_item_drain: none, the item drain takes one item and yields one item and one fluid
+- create_mixing: 3 recipes, rounding 14%
+- thermal_press: 3 recipes, rounding 14%
+
 ### `apple_cider.sour` (sour)
 
 - transition: written
@@ -17829,6 +17608,12 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 ### `apple_juice.sour` (sour)
 
 - transition: written
+
+### `apple_juice.strain` (strain)
+
+- create_item_drain: none, the item drain takes one item and yields one item and one fluid
+- create_mixing: 3 recipes, rounding 5%
+- thermal_centrifuge: 3 recipes, rounding 5%
 
 ### `apple_parsnip_soup.step_1` (pan_fry)
 
@@ -18075,6 +17860,12 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - shapeless_crafting: 1 recipe, rounding 13%
 - create_deploying: 1 recipe, rounding 15% ⚠
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
+
+### `applesauce.simmer` (simmer)
+
+- create_heated_mixing: 2 recipes, rounding 10%
+- fd_cooking_pot: 2 recipes, rounding 66% ⚠
+- hexerei_mixing_cauldron: 2 recipes, rounding 14%
 
 ### `applesauce.stale` (stale)
 
@@ -18339,9 +18130,8 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `arisa_pitha_fried_indian_sweet_rice_pastry.step_2` (pan_fry)
 
-- adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 14%, estimated
-- pnc_thermo_plant: none, takes at most 2 inputs, not 4
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `arisa_pitha_fried_indian_sweet_rice_pastry.step_3` (assemble)
 
@@ -18351,9 +18141,8 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `arisa_pitha_fried_indian_sweet_rice_pastry.step_4` (fry)
 
-- adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 10%, estimated
-- pnc_thermo_plant: none, takes at most 2 inputs, not 3
+- pnc_thermo_plant: 1 recipe, rounding 14%, estimated
 
 ### `arjoli_maltese_herbed_bread_dip.step_1` (soak)
 
@@ -18449,7 +18238,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 ### `arroz_con_gandules_puerto_rican_rice_and_pigeon_peas.step_7` (stir_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, disabled: the game can't make `arroz_con_gandules_puerto_rican_rice_and_pigeon_peas_step_6`, `puerto_rican_sofrito`
+- create_heated_mixing: 1 recipe, disabled: the game can't make `arroz_con_gandules_puerto_rican_rice_and_pigeon_peas_step_6`, `puerto_rican_sofrito`, `salami_fry`
 - pnc_thermo_plant: none, takes at most 2 inputs, not 8
 
 ### `arroz_con_gandules_puerto_rican_rice_and_pigeon_peas.step_7.prep_12` (chop)
@@ -18466,7 +18255,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 ### `arroz_con_gandules_puerto_rican_rice_and_pigeon_peas.step_7.prep_20` (fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 11%
+- create_heated_mixing: 1 recipe, disabled: the game can't make `salami`
 - pnc_thermo_plant: none, doesn't fit in 1 input items, 1 of each, and 1000 mB tanks at any scale
 
 ### `arroz_con_gandules_puerto_rican_rice_and_pigeon_peas.step_8` (season)
@@ -18900,40 +18689,40 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 - smelting: none, takes one input, not 2
 - smoking: none, takes one input, not 2
-- thermal_smelter: 1 recipe, rounding 50% ⚠, estimated
+- thermal_smelter: 1 recipe, disabled: the game can't make `semolina_toast`
 
 ### `asida_bil_zibda_libyan_semolina_pudding.step_2.prep_2` (toast)
 
-- smelting: 1 recipe, rounding 6%
-- smoking: 1 recipe, rounding 6%
-- thermal_smelter: 1 recipe, rounding 6%
+- smelting: 1 recipe, disabled: the game can't make `semolina`
+- smoking: 1 recipe, disabled: the game can't make `semolina`
+- thermal_smelter: 1 recipe, disabled: the game can't make `semolina`
 
 ### `asida_bil_zibda_libyan_semolina_pudding.step_3` (mix)
 
-- create_mixing: 1 recipe, rounding 5%, estimated
-- shapeless_crafting: 1 recipe, rounding 9%, estimated
+- create_mixing: 1 recipe, disabled: the game can't make `asida_bil_zibda_libyan_semolina_pudding_step_2`
+- shapeless_crafting: 1 recipe, disabled: the game can't make `asida_bil_zibda_libyan_semolina_pudding_step_2`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `asida_bil_zibda_libyan_semolina_pudding.step_4` (mix)
 
-- create_mixing: 4 recipes, rounding 5%, estimated
-- shapeless_crafting: 1 recipe, rounding 9%, estimated
-- hexerei_mixing_cauldron: 1 recipe, rounding 13%, estimated
+- create_mixing: 4 recipes, disabled: the game can't make `asida_bil_zibda_libyan_semolina_pudding_step_3`
+- shapeless_crafting: 1 recipe, disabled: the game can't make `asida_bil_zibda_libyan_semolina_pudding_step_3`
+- hexerei_mixing_cauldron: 1 recipe, disabled: the game can't make `asida_bil_zibda_libyan_semolina_pudding_step_3`
 
 ### `asida_bil_zibda_libyan_semolina_pudding.step_5` (simmer)
 
-- create_heated_mixing: 1 recipe, rounding 0%, estimated
-- fd_cooking_pot: 1 recipe, rounding 0%, estimated
+- create_heated_mixing: 1 recipe, disabled: the game can't make `asida_bil_zibda_libyan_semolina_pudding_step_4`
+- fd_cooking_pot: 1 recipe, disabled: the game can't make `asida_bil_zibda_libyan_semolina_pudding_step_4`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `asida_bil_zibda_libyan_semolina_pudding.step_6` (cool)
 
-- transition: written
+- transition: not written: the game can't make `asida_bil_zibda_libyan_semolina_pudding_step_5`
 
 ### `asida_bil_zibda_libyan_semolina_pudding.step_8` (season)
 
-- create_mixing: 1 recipe, rounding 3%, estimated
-- shapeless_crafting: 1 recipe, rounding 3%, estimated
+- create_mixing: 1 recipe, disabled: the game can't make `asida_bil_zibda_libyan_semolina_pudding_step_7`
+- shapeless_crafting: 1 recipe, disabled: the game can't make `asida_bil_zibda_libyan_semolina_pudding_step_7`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `asida_bil_zibda_libyan_semolina_pudding.step_8.prep_7` (chop)
@@ -19245,20 +19034,20 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `atama_soup.step_5` (boil)
 
-- create_heated_mixing: 1 recipe, rounding 15%, estimated
+- create_heated_mixing: 1 recipe, disabled: the game can't make `smoked_fish`
 - fd_cooking_pot: none, whole items would distort it by 650%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `atama_soup.step_6` (boil)
 
-- create_heated_mixing: 1 recipe, rounding 4%, estimated
-- fd_cooking_pot: 1 recipe, rounding 0%, estimated
+- create_heated_mixing: 1 recipe, disabled: the game can't make `atama_soup_step_5`
+- fd_cooking_pot: 1 recipe, disabled: the game can't make `atama_soup_step_5`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `atama_soup.step_7` (simmer)
 
-- create_heated_mixing: 1 recipe, rounding 0%, estimated
-- fd_cooking_pot: 1 recipe, rounding 0%, estimated
+- create_heated_mixing: 1 recipe, disabled: the game can't make `atama_soup_step_6`
+- fd_cooking_pot: 1 recipe, disabled: the game can't make `atama_soup_step_6`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `atkilt_wat_ethiopian_cabbage_and_potato_stew.step_2` (pan_fry)
@@ -19398,9 +19187,9 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `atyever_soup.step_2` (simmer)
 
-- create_heated_mixing: 1 recipe, rounding 15%, estimated
+- create_heated_mixing: 2 recipes, rounding 15%, estimated
 - fd_cooking_pot: none, whole items would distort it by 966%
-- hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
+- hexerei_mixing_cauldron: 1 recipe, rounding 68% ⚠, estimated
 
 ### `atyever_soup.step_3` (season)
 
@@ -19480,44 +19269,44 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `austrian_apricot_dumplings_marillenknodel.step_1` (mix)
 
-- create_mixing: 1 recipe, rounding 15%, estimated
+- create_mixing: 1 recipe, disabled: the game can't make `semolina`
 - shapeless_crafting: none, whole items would distort it by 281%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `austrian_apricot_dumplings_marillenknodel.step_2` (mix)
 
-- create_mixing: 1 recipe, rounding 0%, estimated
-- shapeless_crafting: 1 recipe, rounding 0%, estimated
+- create_mixing: 1 recipe, disabled: the game can't make `austrian_apricot_dumplings_marillenknodel_step_1`
+- shapeless_crafting: 1 recipe, disabled: the game can't make `austrian_apricot_dumplings_marillenknodel_step_1`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `austrian_apricot_dumplings_marillenknodel.step_3` (assemble)
 
-- shapeless_crafting: 1 recipe, rounding 100% ⚠, estimated
+- shapeless_crafting: 1 recipe, disabled: the game can't make `austrian_apricot_dumplings_marillenknodel_step_2`
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `austrian_apricot_dumplings_marillenknodel.step_4` (boil)
 
-- create_heated_mixing: 1 recipe, rounding 0%
-- fd_cooking_pot: 1 recipe, rounding 0%
+- create_heated_mixing: 1 recipe, disabled: the game can't make `austrian_apricot_dumplings_marillenknodel_step_3`
+- fd_cooking_pot: 1 recipe, disabled: the game can't make `austrian_apricot_dumplings_marillenknodel_step_3`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `austrian_apricot_dumplings_marillenknodel.step_6` (boil)
 
-- create_heated_mixing: 1 recipe, rounding 0%
-- fd_cooking_pot: 1 recipe, rounding 0%
+- create_heated_mixing: 1 recipe, disabled: the game can't make `austrian_apricot_dumplings_marillenknodel_step_5`
+- fd_cooking_pot: 1 recipe, disabled: the game can't make `austrian_apricot_dumplings_marillenknodel_step_5`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `austrian_apricot_dumplings_marillenknodel.step_7` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 13%
+- create_heated_mixing: 1 recipe, disabled: the game can't make `austrian_apricot_dumplings_marillenknodel_step_6`
 - pnc_thermo_plant: none, takes at most 2 inputs, not 6
 
 ### `austrian_apricot_dumplings_marillenknodel.step_9` (coat)
 
-- shapeless_crafting: 1 recipe, rounding 0%
-- create_deploying: 1 recipe, rounding 0%
+- shapeless_crafting: 1 recipe, disabled: the game can't make `austrian_apricot_dumplings_marillenknodel_step_8`
+- create_deploying: 1 recipe, disabled: the game can't make `austrian_apricot_dumplings_marillenknodel_step_8`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
@@ -19962,9 +19751,19 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 - transition: written
 
+### `bacon.cure` (age)
+
+- vd_fermenting_jar: none, whole items would distort it by 2556%
+- bnc_keg: none, can't make the mod's own cured_pork_belly, and no other mod provides it
+
 ### `bacon.freezer_burn` (freezer_burn)
 
 - transition: written
+
+### `bacon.smoke` (smoke)
+
+- smoking: 3 recipes, disabled: the game can't make `cured_pork_belly`
+- campfire: 3 recipes, disabled: the game can't make `cured_pork_belly`
 
 ### `bacon.spoil` (spoil)
 
@@ -20090,6 +19889,12 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 - transition: written
 
+### `bacon_fat.render` (separate)
+
+- create_item_drain: none, the item drain takes one item and yields one item and one fluid
+- create_mixing: 1 recipe, rounding 14%, estimated
+- thermal_centrifuge: 1 recipe, rounding 14%, estimated
+
 ### `bacon_grease.freezer_burn` (freezer_burn)
 
 - transition: written
@@ -20208,6 +20013,17 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
 - fd_cooking_pot: 1 recipe, rounding 0%, estimated
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
+
+### `bagel.bake` (bake)
+
+- smelting: 1 recipe, rounding 58% ⚠
+- smoking: 1 recipe, rounding 58% ⚠
+
+### `bagel.boil` (boil)
+
+- create_heated_mixing: 1 recipe, rounding 15%
+- fd_cooking_pot: 1 recipe, rounding 13%, drops `water`
+- hexerei_mixing_cauldron: 1 recipe, rounding 15%, drops `water`
 
 ### `bagel.freezer_burn` (freezer_burn)
 
@@ -20825,6 +20641,12 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - smelting: 1 recipe, rounding 0%
 - smoking: 1 recipe, rounding 0%
 
+### `baking_mix.mix` (mix)
+
+- create_mixing: 2 recipes, rounding 15%, estimated
+- shapeless_crafting: none, whole items would distort it by 431%
+- hexerei_mixing_cauldron: none, whole items would distort it by 424%
+
 ### `baking_mix.stale` (stale)
 
 - transition: written
@@ -21439,7 +21261,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `banana_cream_pie_i.step_14.prep_11` (whisk)
 
-- create_mixing: 1 recipe, rounding 8%
+- create_mixing: 1 recipe, rounding 6%, estimated
 
 ### `banana_cream_pie_i.step_15` (whisk)
 
@@ -21576,6 +21398,12 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - fd_cooking_pot: 1 recipe, disabled: the game can't make `banana_curry_step_4`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
+### `banana_ketchup.boil` (boil)
+
+- create_heated_mixing: 1 recipe, rounding 13%
+- fd_cooking_pot: none, whole items would distort it by 195%
+- hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
+
 ### `banana_ketchup.mold` (mold)
 
 - transition: written
@@ -21598,18 +21426,18 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `banana_nut_muffins.step_4` (mix)
 
-- create_mixing: 1 recipe, rounding 15%, estimated
-- shapeless_crafting: 1 recipe, rounding 97% ⚠, estimated
+- create_mixing: 1 recipe, disabled: the game can't make `whole_wheat_flour`
+- shapeless_crafting: 1 recipe, disabled: the game can't make `whole_wheat_flour`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `banana_nut_muffins.step_5` (bake)
 
-- smelting: 1 recipe, rounding 17% ⚠, estimated
-- smoking: 1 recipe, rounding 17% ⚠, estimated
+- smelting: 1 recipe, disabled: the game can't make `banana_nut_muffins_step_4`
+- smoking: 1 recipe, disabled: the game can't make `banana_nut_muffins_step_4`
 
 ### `banana_nut_muffins.step_6` (cool)
 
-- transition: written
+- transition: not written: the game can't make `banana_nut_muffins_step_5`
 
 ### `banana_nutmeg_pancakes.step_10` (assemble)
 
@@ -22040,47 +21868,47 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `banoffee_pie.step_1` (grind)
 
-- create_milling: 1 recipe, rounding 47% ⚠, estimated
-- hexerei_pestle_and_mortar: 1 recipe, rounding 11%, estimated
+- create_milling: 1 recipe, disabled: the game can't make `digestive_biscuit_grind`
+- hexerei_pestle_and_mortar: 1 recipe, disabled: the game can't make `digestive_biscuit_grind`
 
 ### `banoffee_pie.step_1.prep_1` (grind)
 
-- create_milling: 1 recipe, rounding 0%
-- hexerei_pestle_and_mortar: 1 recipe, rounding 0%
+- create_milling: 1 recipe, disabled: the game can't make `digestive_biscuit`
+- hexerei_pestle_and_mortar: 1 recipe, disabled: the game can't make `digestive_biscuit`
 
 ### `banoffee_pie.step_2` (mix)
 
-- create_mixing: 1 recipe, rounding 14%, estimated
-- shapeless_crafting: 1 recipe, rounding 14%, estimated
+- create_mixing: 1 recipe, disabled: the game can't make `digestive_biscuit_grind_grind`
+- shapeless_crafting: 1 recipe, disabled: the game can't make `digestive_biscuit_grind_grind`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `banoffee_pie.step_4` (heat)
 
-- create_heated_mixing: 1 recipe, rounding 15%, estimated
-- fd_cooking_pot: 1 recipe, rounding 11%, estimated
+- create_heated_mixing: 1 recipe, disabled: the game can't make `banoffee_pie_step_3`
+- fd_cooking_pot: 1 recipe, disabled: the game can't make `banoffee_pie_step_3`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `banoffee_pie.step_5` (boil)
 
-- create_heated_mixing: 1 recipe, rounding 4%, estimated
-- fd_cooking_pot: 1 recipe, rounding 13%, estimated
+- create_heated_mixing: 1 recipe, disabled: the game can't make `banoffee_pie_step_4`
+- fd_cooking_pot: 1 recipe, disabled: the game can't make `banoffee_pie_step_4`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `banoffee_pie.step_6` (assemble)
 
-- shapeless_crafting: 1 recipe, rounding 11%, estimated
+- shapeless_crafting: 1 recipe, disabled: the game can't make `banoffee_pie_step_5`
 - create_deploying: none, whole items would distort it by 200%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `banoffee_pie.step_7` (chill)
 
-- transition: written
+- transition: not written: the game can't make `banoffee_pie_step_6`
 - thermal_chiller: none, needs a fluid it can take, and has none
 
 ### `banoffee_pie.step_8` (assemble)
 
-- shapeless_crafting: 1 recipe, rounding 6%
-- create_deploying: none, whole items would distort it by 111%
+- shapeless_crafting: 1 recipe, disabled: the game can't make `banoffee_pie_step_7`
+- create_deploying: 1 recipe, disabled: the game can't make `banoffee_pie_step_7`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `barbecue_chicken.step_1` (soak)
@@ -22150,9 +21978,8 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `barbecue_fried_rice.step_3.prep_19` (fry)
 
-- adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 8%, estimated
-- pnc_thermo_plant: none, whole items would distort it by 142%
+- create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: none, whole items would distort it by 100%
 
 ### `barbecue_fried_rice.step_3.prep_8` (cut)
 
@@ -22351,43 +22178,43 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `basbousa_egyptian_semolina_cake.step_10` (cool)
 
-- transition: written
+- transition: not written: the game can't make `basbousa_egyptian_semolina_cake_step_9`
 
 ### `basbousa_egyptian_semolina_cake.step_2` (mix)
 
-- create_mixing: 1 recipe, rounding 15%, estimated
-- shapeless_crafting: 1 recipe, rounding 41% ⚠, estimated
+- create_mixing: 1 recipe, disabled: the game can't make `semolina`
+- shapeless_crafting: 1 recipe, disabled: the game can't make `semolina`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `basbousa_egyptian_semolina_cake.step_4` (cut)
 
-- fd_cutting_board: 1 recipe, rounding 0%, estimated
-- create_cutting: 1 recipe, rounding 0%, estimated
+- fd_cutting_board: 1 recipe, disabled: the game can't make `basbousa_egyptian_semolina_cake_step_3`
+- create_cutting: 1 recipe, disabled: the game can't make `basbousa_egyptian_semolina_cake_step_3`
 
 ### `basbousa_egyptian_semolina_cake.step_5` (bake)
 
-- smelting: 1 recipe, rounding 38% ⚠, estimated
-- smoking: 1 recipe, rounding 38% ⚠, estimated
+- smelting: 1 recipe, disabled: the game can't make `basbousa_egyptian_semolina_cake_step_4`
+- smoking: 1 recipe, disabled: the game can't make `basbousa_egyptian_semolina_cake_step_4`
 
 ### `basbousa_egyptian_semolina_cake.step_6` (boil)
 
-- create_heated_mixing: 3 recipes, rounding 15%, estimated
-- fd_cooking_pot: 1 recipe, rounding 15%, estimated
-- hexerei_mixing_cauldron: 1 recipe, rounding 15%, estimated
+- create_heated_mixing: 3 recipes, disabled: the game can't make `basbousa_egyptian_semolina_cake_step_5`
+- fd_cooking_pot: 1 recipe, disabled: the game can't make `basbousa_egyptian_semolina_cake_step_5`
+- hexerei_mixing_cauldron: 1 recipe, disabled: the game can't make `basbousa_egyptian_semolina_cake_step_5`
 
 ### `basbousa_egyptian_semolina_cake.step_7` (cool)
 
-- transition: written
+- transition: not written: the game can't make `basbousa_egyptian_semolina_cake_step_6`
 
 ### `basbousa_egyptian_semolina_cake.step_8` (soak)
 
-- create_mixing: 1 recipe, rounding 0%
-- create_splashing: 1 recipe, rounding 0%
+- create_mixing: 1 recipe, disabled: the game can't make `basbousa_egyptian_semolina_cake_step_7`
+- create_splashing: 1 recipe, disabled: the game can't make `basbousa_egyptian_semolina_cake_step_7`
 
 ### `basbousa_egyptian_semolina_cake.step_9` (assemble)
 
-- shapeless_crafting: 1 recipe, rounding 0%, estimated
-- create_deploying: 1 recipe, rounding 0%, estimated
+- shapeless_crafting: 1 recipe, disabled: the game can't make `basbousa_egyptian_semolina_cake_step_8`
+- create_deploying: 1 recipe, disabled: the game can't make `basbousa_egyptian_semolina_cake_step_8`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `basic_chai.step_1` (boil)
@@ -22962,9 +22789,8 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `bean_balls.step_8` (fry)
 
-- adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 11%, estimated
-- pnc_thermo_plant: none, takes at most 2 inputs, not 3
+- create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 15%, estimated
 
 ### `bean_chili.step_2` (pan_fry)
 
@@ -22986,20 +22812,20 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `bean_semolina_burger.step_1` (mix)
 
-- create_mixing: 1 recipe, rounding 12%, estimated
-- shapeless_crafting: 1 recipe, rounding 12%, estimated
+- create_mixing: 1 recipe, disabled: the game can't make `semolina`
+- shapeless_crafting: 1 recipe, disabled: the game can't make `semolina`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `bean_semolina_burger.step_2` (mix)
 
-- create_mixing: 1 recipe, rounding 12%, estimated
+- create_mixing: 1 recipe, disabled: the game can't make `bean_semolina_burger_step_1`
 - shapeless_crafting: none, whole items would distort it by 223%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `bean_semolina_burger.step_5` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 7%
+- create_heated_mixing: 1 recipe, disabled: the game can't make `bean_semolina_burger_step_3`
 - pnc_thermo_plant: none, whole items would distort it by 140%
 
 ### `bean_soup_vegetarian.step_1` (assemble)
@@ -23293,9 +23119,8 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `beef_and_gizzard_sauce.step_3` (fry)
 
-- adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 7%
-- pnc_thermo_plant: none, takes at most 2 inputs, not 3
+- create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `beef_and_gizzard_sauce.step_4` (fry)
 
@@ -23956,6 +23781,19 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - smelting: 1 recipe, disabled: the game can't make `beef_yakiniku_pizza_step_7`
 - smoking: 1 recipe, disabled: the game can't make `beef_yakiniku_pizza_step_7`
 
+### `beer.ferment_wort` (ferment)
+
+- vd_fermenting_jar: none, whole items would distort it by 650%
+- bnc_keg: none, whole items would distort it by 1043%
+- pnc_thermo_plant: none, whole items would distort it by 900%
+- theurgy_fermentation: none, needs a fluid it can take, and has none
+
+### `beer.mash_malt` (boil)
+
+- create_heated_mixing: 1 recipe, rounding 14%, estimated
+- fd_cooking_pot: 1 recipe, rounding 0%, estimated, drops `spent_grain`
+- hexerei_mixing_cauldron: 1 recipe, rounding 15%, estimated, drops `spent_grain`
+
 ### `beer_and_rye_bread_porridge_ollebrod.step_1` (soak)
 
 - create_mixing: 1 recipe, rounding 0%
@@ -24406,6 +24244,12 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - fd_cooking_pot: 1 recipe, disabled: the game can't make `bengal_potatoes_step_6`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
+### `bengali_five_spice_mix_panch_puran.mix` (mix)
+
+- create_mixing: 1 recipe, rounding 15%, estimated
+- shapeless_crafting: 1 recipe, rounding 17% ⚠, estimated
+- hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
+
 ### `berbere.step_1` (roast)
 
 - smelting: none, takes one input, not 9
@@ -24466,9 +24310,14 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - smoking: none, takes one input, not 3
 - thermal_smelter: none, whole items would distort it by 1321%
 
+### `berbere_spice.grind` (grind)
+
+- create_milling: none, takes one input, not 9
+- hexerei_pestle_and_mortar: none, takes at most 5 inputs, not 9
+
 ### `berbere_spice.stale` (stale)
 
-- transition: written
+- transition: not written: the game can't make `berbere_spice`
 
 ### `bete_noire_flourless_chocolate_cake.step_1` (dissolve)
 
@@ -24635,7 +24484,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `bhel_puri_indian_puffed_rice_and_vegetable_snack.step_5` (assemble)
 
-- shapeless_crafting: 1 recipe, disabled: the game can't make `bhel_puri_indian_puffed_rice_and_vegetable_snack_step_4`
+- shapeless_crafting: 1 recipe, disabled: the game can't make `bhel_puri_indian_puffed_rice_and_vegetable_snack_step_4`, `puri_indian_fried_flatbread`
 - create_deploying: none, whole items would distort it by 150%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
@@ -24975,24 +24824,24 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `bint_as_sa_n_yemenite_layered_pastry.step_3` (knead)
 
-- create_mixing: 1 recipe, rounding 13%, estimated
+- create_mixing: 1 recipe, disabled: the game can't make `semolina`
 - shapeless_crafting: none, whole items would distort it by 137%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `bint_as_sa_n_yemenite_layered_pastry.step_4` (ferment)
 
-- transition: written
-- vd_fermenting_jar: 1 recipe, rounding 0%
+- transition: not written: the game can't make `bint_as_sa_n_yemenite_layered_pastry_step_3`
+- vd_fermenting_jar: 1 recipe, disabled: the game can't make `bint_as_sa_n_yemenite_layered_pastry_step_3`
 - bnc_keg: none, can't make the mod's own bint_as_sa_n_yemenite_layered_pastry_step_5, and no other mod provides it
-- pnc_thermo_plant: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, disabled: the game can't make `bint_as_sa_n_yemenite_layered_pastry_step_3`
 - theurgy_fermentation: none, needs a fluid it can take, and has none
 
 ### `bint_as_sa_n_yemenite_layered_pastry.step_7` (ferment)
 
-- transition: written
-- vd_fermenting_jar: 1 recipe, rounding 0%
+- transition: not written: the game can't make `bint_as_sa_n_yemenite_layered_pastry_step_5`
+- vd_fermenting_jar: 1 recipe, disabled: the game can't make `bint_as_sa_n_yemenite_layered_pastry_step_5`
 - bnc_keg: none, can't make the mod's own bint_as_sa_n_yemenite_layered_pastry_step_7, and no other mod provides it
-- pnc_thermo_plant: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, disabled: the game can't make `bint_as_sa_n_yemenite_layered_pastry_step_5`
 - theurgy_fermentation: none, needs a fluid it can take, and has none
 
 ### `bint_as_sa_n_yemenite_layered_pastry.step_9` (coat)
@@ -25075,6 +24924,17 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_heated_mixing: 1 recipe, rounding 0%
 - pnc_thermo_plant: 1 recipe, rounding 0%
 
+### `biscuit.bake` (bake)
+
+- smelting: 2 recipes, rounding 15%
+- smoking: 2 recipes, rounding 15%
+
+### `biscuit.mix` (mix)
+
+- create_mixing: 1 recipe, rounding 11%
+- shapeless_crafting: none, whole items would distort it by 828%
+- hexerei_mixing_cauldron: none, whole items would distort it by 802%
+
 ### `biscuit_cake.step_1` (whisk)
 
 - create_mixing: 1 recipe, rounding 14%
@@ -25125,14 +24985,14 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `biscuits_and_gravy.step_6` (heat)
 
-- create_heated_mixing: 1 recipe, rounding 14%, estimated
-- fd_cooking_pot: none, whole items would distort it by 922%
+- create_heated_mixing: 1 recipe, rounding 15%, estimated
+- fd_cooking_pot: none, whole items would distort it by 309%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `biscuits_and_gravy.step_6.prep_2` (heat)
 
-- create_heated_mixing: 1 recipe, rounding 11%, estimated
-- fd_cooking_pot: 1 recipe, rounding 39% ⚠, estimated
+- create_heated_mixing: 1 recipe, rounding 13%, estimated
+- fd_cooking_pot: 1 recipe, rounding 13%, estimated
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `biscuits_and_gravy.step_7` (mix)
@@ -25856,28 +25716,28 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `blackened_sirloin.step_1` (season)
 
-- create_mixing: 1 recipe, rounding 13%
+- create_mixing: 1 recipe, disabled: the game can't make `cajun_seasoning`
 - shapeless_crafting: none, whole items would distort it by 914%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `blackened_sirloin.step_3` (grill)
 
-- campfire: 1 recipe, rounding 0%
-- smoking: 1 recipe, rounding 0%
+- campfire: 1 recipe, disabled: the game can't make `blackened_sirloin_step_1`
+- smoking: 1 recipe, disabled: the game can't make `blackened_sirloin_step_1`
 
 ### `blackened_sirloin.step_4` (grill)
 
-- campfire: 1 recipe, rounding 0%
-- smoking: 1 recipe, rounding 0%
+- campfire: 1 recipe, disabled: the game can't make `blackened_sirloin_step_3`
+- smoking: 1 recipe, disabled: the game can't make `blackened_sirloin_step_3`
 
 ### `blackened_sirloin.step_5` (cool)
 
-- transition: written
+- transition: not written: the game can't make `blackened_sirloin_step_4`
 
 ### `blackened_sirloin.step_6` (cut)
 
-- fd_cutting_board: 1 recipe, rounding 0%
-- create_cutting: 1 recipe, rounding 0%
+- fd_cutting_board: 1 recipe, disabled: the game can't make `blackened_sirloin_step_5`
+- create_cutting: 1 recipe, disabled: the game can't make `blackened_sirloin_step_5`
 
 ### `blackstrap_molasses.stale` (stale)
 
@@ -26879,6 +26739,30 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 - transition: written
 
+### `bonito_flakes.boil` (boil)
+
+- create_heated_mixing: 1 recipe, rounding 13%
+- fd_cooking_pot: 1 recipe, rounding 13%
+- hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
+
+### `bonito_flakes.ferment` (ferment)
+
+- transition: written
+- vd_fermenting_jar: 1 recipe, rounding 9%
+- bnc_keg: none, can't make the mod's own katsuobushi, and no other mod provides it
+- pnc_thermo_plant: 1 recipe, rounding 9%
+- theurgy_fermentation: none, needs a fluid it can take, and has none
+
+### `bonito_flakes.shave` (cut)
+
+- fd_cutting_board: 1 recipe, rounding 10%
+- create_cutting: 1 recipe, rounding 10%
+
+### `bonito_flakes.smoke` (smoke)
+
+- smoking: 1 recipe, rounding 25% ⚠
+- campfire: 1 recipe, rounding 25% ⚠
+
 ### `boom_blackcurrant_beverage.sour` (sour)
 
 - transition: written
@@ -27183,6 +27067,12 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - fr_kettle: none, makes 1 things; at most 1 fit
 - theurgy_liquefaction: none, needs a fluid it can take, and has none
 
+### `bouquet_garni.mix` (mix)
+
+- create_mixing: 1 recipe, rounding 2%
+- shapeless_crafting: 1 recipe, rounding 2%
+- hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
+
 ### `bourbon_apples.step_1` (coat)
 
 - shapeless_crafting: 1 recipe, rounding 45% ⚠, estimated
@@ -27369,7 +27259,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 ### `braised_shortribs.step_1` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 6%
+- create_heated_mixing: 1 recipe, rounding 13%, estimated
 - pnc_thermo_plant: none, takes at most 2 inputs, not 6
 
 ### `braised_shortribs.step_2` (pan_fry)
@@ -27396,26 +27286,35 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `bran_muffins.step_1` (mix)
 
-- create_mixing: 1 recipe, rounding 8%, estimated
-- shapeless_crafting: 1 recipe, rounding 13%, estimated
+- create_mixing: 1 recipe, disabled: the game can't make `wheat_bran`
+- shapeless_crafting: 1 recipe, disabled: the game can't make `wheat_bran`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `bran_muffins.step_2` (mix)
 
-- create_mixing: 1 recipe, rounding 13%, estimated
-- shapeless_crafting: 1 recipe, rounding 15% ⚠, estimated
+- create_mixing: 1 recipe, disabled: the game can't make `bran_muffins_step_1`
+- shapeless_crafting: 1 recipe, disabled: the game can't make `bran_muffins_step_1`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `bran_muffins.step_3` (mix)
 
-- create_mixing: 1 recipe, rounding 15%, estimated
+- create_mixing: 1 recipe, disabled: the game can't make `bran_muffins_step_2`
 - shapeless_crafting: none, whole items would distort it by 1500%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `bran_muffins.step_5` (bake)
 
-- smelting: 1 recipe, rounding 17% ⚠, estimated
-- smoking: 1 recipe, rounding 17% ⚠, estimated
+- smelting: 1 recipe, disabled: the game can't make `bran_muffins_step_4`
+- smoking: 1 recipe, disabled: the game can't make `bran_muffins_step_4`
+
+### `brandy.age_spirit` (age)
+
+- vd_fermenting_jar: 1 recipe, rounding 7%
+- bnc_keg: none, can't make the mod's own brandy, and no other mod provides it
+
+### `brandy.distill_wine` (distill)
+
+- create_heated_mixing: 1 recipe, rounding 0%
 
 ### `brandy_butter.step_1` (mix)
 
@@ -27504,8 +27403,8 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `brazilian_feijoada.step_19` (mix)
 
-- create_mixing: 1 recipe, disabled: the game can't make `brazilian_feijoada_step_18`
-- shapeless_crafting: 1 recipe, disabled: the game can't make `brazilian_feijoada_step_18`
+- create_mixing: 1 recipe, disabled: the game can't make `brazilian_feijoada_step_18`, `manioc_flour`
+- shapeless_crafting: 1 recipe, disabled: the game can't make `brazilian_feijoada_step_18`, `manioc_flour`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `brazilian_feijoada.step_2` (soak)
@@ -27618,6 +27517,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 - transition: written
 
+### `bread_crumbs.grind` (grind)
+
+- create_milling: 1 recipe, rounding 20% ⚠, estimated
+- hexerei_pestle_and_mortar: 1 recipe, rounding 7%, estimated
+
 ### `bread_crumbs.stale` (stale)
 
 - transition: written
@@ -27650,8 +27554,8 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `bread_filled_with_potato_curry_pani_puri.step_4.prep_16` (cut)
 
-- fd_cutting_board: 1 recipe, rounding 7%
-- create_cutting: 1 recipe, rounding 7%
+- fd_cutting_board: 1 recipe, disabled: the game can't make `puri_indian_fried_flatbread`
+- create_cutting: 1 recipe, disabled: the game can't make `puri_indian_fried_flatbread`
 
 ### `bread_flour.stale` (stale)
 
@@ -28107,6 +28011,25 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 - transition: written
 
+### `broth.boil_bones` (boil)
+
+- create_heated_mixing: 2 recipes, rounding 14%
+- fd_cooking_pot: none, whole items would distort it by 193%
+- hexerei_mixing_cauldron: 2 recipes, rounding 47% ⚠
+
+### `broth.boil_meat` (boil)
+
+- create_heated_mixing: 2 recipes, rounding 14%
+- fd_cooking_pot: none, whole items would distort it by 300%
+- hexerei_mixing_cauldron: 2 recipes, rounding 100% ⚠
+
+### `broth.steep_kelp` (steep)
+
+- create_mixing: 2 recipes, rounding 13%, estimated
+- create_splashing: none, takes one input, not 4
+- fr_kettle: none, makes 1 things; at most 1 fit
+- theurgy_liquefaction: none, takes at most 2 inputs, not 5
+
 ### `brown_beans.stale` (stale)
 
 - transition: written
@@ -28260,7 +28183,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 - shapeless_crafting: 1 recipe, rounding 14%
 - create_deploying: none, whole items would distort it by 551%
-- hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
+- hexerei_mixing_cauldron: 1 recipe, rounding 14%
 
 ### `brown_rice_casserole.step_5` (bake)
 
@@ -28339,8 +28262,8 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `brown_rice_with_other_starches_and_vegetables_pandora_s_feast.step_7` (season)
 
-- create_mixing: 1 recipe, rounding 0%, estimated
-- shapeless_crafting: 1 recipe, rounding 0%, estimated
+- create_mixing: 1 recipe, disabled: the game can't make `nutritional_yeast`
+- shapeless_crafting: 1 recipe, disabled: the game can't make `nutritional_yeast`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `brown_sauce_hartshorne.step_1` (mix)
@@ -28764,6 +28687,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 - transition: written
 
+### `buckwheat_flour.grind` (grind)
+
+- create_milling: 1 recipe, rounding 4%, estimated
+- hexerei_pestle_and_mortar: 1 recipe, rounding 4%, estimated
+
 ### `buckwheat_flour.stale` (stale)
 
 - transition: written
@@ -28784,24 +28712,24 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 - smelting: none, takes one input, not 2
 - smoking: none, takes one input, not 2
-- thermal_smelter: 1 recipe, rounding 0%
+- thermal_smelter: 1 recipe, disabled: the game can't make `hamburger_bun_toast`
 
 ### `buffalo_chicken_sandwich.step_4.prep_6` (toast)
 
-- smelting: 1 recipe, rounding 0%
-- smoking: 1 recipe, rounding 0%
-- thermal_smelter: 1 recipe, rounding 0%
+- smelting: 1 recipe, disabled: the game can't make `hamburger_bun`
+- smoking: 1 recipe, disabled: the game can't make `hamburger_bun`
+- thermal_smelter: 1 recipe, disabled: the game can't make `hamburger_bun`
 
 ### `buffalo_chicken_sandwich.step_5` (coat)
 
-- shapeless_crafting: 1 recipe, rounding 13%, estimated
+- shapeless_crafting: 1 recipe, disabled: the game can't make `buffalo_chicken_sandwich_step_4`
 - create_deploying: none, whole items would distort it by 238%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `buffalo_chicken_sandwich.step_6` (assemble)
 
-- shapeless_crafting: 1 recipe, rounding 0%
+- shapeless_crafting: 1 recipe, disabled: the game can't make `buffalo_chicken_sandwich_step_5`
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
@@ -28943,6 +28871,16 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - shapeless_crafting: 1 recipe, disabled: the game can't make `bulgarian_tripe_soup_shkembe_chorba_step_6`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
+### `bulgogi.grill` (grill)
+
+- campfire: 2 recipes, disabled: the game can't make `bulgogi_marinated_beef`
+- smoking: 2 recipes, disabled: the game can't make `bulgogi_marinated_beef`
+
+### `bulgogi.marinate` (soak)
+
+- create_mixing: none, whole items would distort it by 105%
+- create_splashing: none, takes one input, not 8
+
 ### `bulgogi.step_1` (soak)
 
 - create_mixing: none, whole items would distort it by 185%
@@ -28952,6 +28890,22 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 - campfire: 2 recipes, disabled: the game can't make `bulgogi_step_1`
 - smoking: 2 recipes, disabled: the game can't make `bulgogi_step_1`
+
+### `bulgur.dry` (dry)
+
+- transition: written
+- hexerei_drying_rack: 1 recipe, rounding 50% ⚠
+
+### `bulgur.grind` (grind)
+
+- create_milling: 1 recipe, rounding 50% ⚠, estimated
+- hexerei_pestle_and_mortar: 1 recipe, rounding 11%, estimated
+
+### `bulgur.parboil` (boil)
+
+- create_heated_mixing: 1 recipe, rounding 5%, estimated
+- fd_cooking_pot: 1 recipe, rounding 5%, estimated
+- hexerei_mixing_cauldron: 1 recipe, rounding 15%, estimated
 
 ### `bulgur.stale` (stale)
 
@@ -29016,13 +28970,18 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - smelting: 1 recipe, disabled: the game can't make `bumbleberry_souffle_step_4`
 - smoking: 1 recipe, disabled: the game can't make `bumbleberry_souffle_step_4`
 
+### `bun.bake` (bake)
+
+- smelting: none, whole items would distort it by 309%
+- smoking: none, whole items would distort it by 309%
+
 ### `bun.freezer_burn` (freezer_burn)
 
-- transition: written
+- transition: not written: the game can't make `bun`
 
 ### `bun.mold` (mold)
 
-- transition: written
+- transition: not written: the game can't make `bun`
 
 ### `bunny_chow.step_11` (assemble)
 
@@ -29227,6 +29186,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - fd_cooking_pot: none, takes at most 6 inputs, not 8
 - hexerei_mixing_cauldron: 1 recipe, rounding 67% ⚠, estimated
 
+### `butter.churn` (churn)
+
+- create_mixing: 3 recipes, rounding 14%, estimated
+- thermal_centrifuge: 3 recipes, rounding 14%, estimated
+
 ### `butter.freezer_burn` (freezer_burn)
 
 - transition: written
@@ -29311,6 +29275,12 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 - create_heated_mixing: 1 recipe, rounding 14%, estimated
 - fd_cooking_pot: 1 recipe, rounding 14%, estimated
+- hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
+
+### `buttercream.mix` (mix)
+
+- create_mixing: 1 recipe, rounding 7%
+- shapeless_crafting: 1 recipe, rounding 7%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `buttercream.stale` (stale)
@@ -29913,13 +29883,30 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: none, whole items would distort it by 200%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
+### `cajun_seasoning.mix` (mix)
+
+- create_mixing: none, whole items would distort it by 272%
+- shapeless_crafting: none, whole items would distort it by 113%
+- hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
+
 ### `cajun_seasoning.stale` (stale)
 
-- transition: written
+- transition: not written: the game can't make `cajun_seasoning`
+
+### `cake.bake` (bake)
+
+- smelting: 1 recipe, rounding 6%
+- smoking: 1 recipe, rounding 6%
 
 ### `cake.freezer_burn` (freezer_burn)
 
 - transition: written
+
+### `cake.mix_batter` (mix)
+
+- create_mixing: 1 recipe, rounding 15%
+- shapeless_crafting: 1 recipe, rounding 18% ⚠
+- hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `cake.mold` (mold)
 
@@ -29945,6 +29932,12 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 ### `cake_brownies.step_6` (cool)
 
 - transition: written
+
+### `cake_mix.mix` (mix)
+
+- create_mixing: 1 recipe, rounding 15%, estimated
+- shapeless_crafting: none, whole items would distort it by 694%
+- hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `cake_mix.stale` (stale)
 
@@ -30253,7 +30246,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `campfire_s_mores.step_2` (assemble)
 
-- shapeless_crafting: 1 recipe, rounding 0%
+- shapeless_crafting: 1 recipe, disabled: the game can't make `graham_cracker`
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
@@ -30323,6 +30316,30 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - fd_cooking_pot: 1 recipe, rounding 0%, estimated
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
+### `candied_kumquats.dry` (dry)
+
+- transition: written
+- hexerei_drying_rack: 1 recipe, rounding 14%
+
+### `candied_kumquats.simmer` (simmer)
+
+- create_heated_mixing: 1 recipe, rounding 12%
+- fd_cooking_pot: none, whole items would distort it by 125%
+- hexerei_mixing_cauldron: 1 recipe, rounding 15%
+
+### `candied_nuts.coat` (coat)
+
+- shapeless_crafting: 1 recipe, rounding 13%
+- create_deploying: 1 recipe, rounding 13%
+- hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
+- thermal_bottler: none, needs a fluid it can take, and has none
+
+### `candied_nuts.roast` (roast)
+
+- smelting: 1 recipe, rounding 14%
+- smoking: 1 recipe, rounding 14%
+- thermal_smelter: 1 recipe, rounding 14%
+
 ### `candied_sweet_potatoes.step_1` (assemble)
 
 - shapeless_crafting: 1 recipe, rounding 27% ⚠, estimated
@@ -30376,6 +30393,19 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 - smelting: 1 recipe, disabled: the game can't make `candied_yams_step_5`
 - smoking: 1 recipe, disabled: the game can't make `candied_yams_step_5`
+
+### `candy_corn.boil` (boil)
+
+- create_heated_mixing: 1 recipe, rounding 13%, estimated
+- fd_cooking_pot: 1 recipe, rounding 42% ⚠, estimated
+- hexerei_mixing_cauldron: 1 recipe, rounding 15%, estimated
+
+### `candy_corn.shape` (shape)
+
+- shapeless_crafting: 1 recipe, rounding 13%
+- create_deploying: 1 recipe, rounding 13%
+- hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
+- create_compacting: 1 recipe, rounding 13%
 
 ### `canh_chua_vietnamese_hot_and_sour_soup.step_1` (season)
 
@@ -30789,7 +30819,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `cappucino_mousse.step_2` (fold)
 
-- create_mixing: 1 recipe, rounding 4%, estimated
+- create_mixing: 1 recipe, rounding 15%, estimated
 - shapeless_crafting: 1 recipe, rounding 10%, estimated
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
@@ -30797,6 +30827,12 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 - transition: written
 - thermal_chiller: none, needs a fluid it can take, and has none
+
+### `caprese_salad.assemble` (assemble)
+
+- shapeless_crafting: none, whole items would distort it by 495%
+- create_deploying: none, deploying takes exactly two items
+- hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `caprese_salad.step_2` (assemble)
 
@@ -30825,6 +30861,12 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 ### `cara_cara_orange.mold` (mold)
 
 - transition: written
+
+### `caramel.heat` (roast)
+
+- smelting: none, whole items would distort it by 295%
+- smoking: none, whole items would distort it by 295%
+- thermal_smelter: none, whole items would distort it by 295%
 
 ### `caramel_coffee_cake.step_1` (whisk)
 
@@ -31071,26 +31113,30 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 ### `carbonara_pasta.step_3` (fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 13%, estimated
+- create_heated_mixing: 1 recipe, disabled: the game can't make `pancetta_fry`
 - pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `carbonara_pasta.step_3.prep_2` (fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 12%
-- pnc_thermo_plant: 1 recipe, rounding 12%
+- create_heated_mixing: 1 recipe, disabled: the game can't make `pancetta`
+- pnc_thermo_plant: 1 recipe, disabled: the game can't make `pancetta`
 
 ### `carbonara_pasta.step_5` (season)
 
-- create_mixing: 1 recipe, rounding 15%, estimated
-- shapeless_crafting: 1 recipe, rounding 0%, estimated
+- create_mixing: 1 recipe, disabled: the game can't make `carbonara_pasta_step_4`
+- shapeless_crafting: 1 recipe, disabled: the game can't make `carbonara_pasta_step_4`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `carbonara_pasta.step_6` (mix)
 
-- create_mixing: 1 recipe, rounding 0%, estimated
-- shapeless_crafting: 1 recipe, rounding 0%, estimated
+- create_mixing: 1 recipe, disabled: the game can't make `carbonara_pasta_step_5`
+- shapeless_crafting: 1 recipe, disabled: the game can't make `carbonara_pasta_step_5`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
+
+### `carbonated_water.carbonate` (carbonate)
+
+- create_mixing: none, whole items would distort it by 400%
 
 ### `cardamom.stale` (stale)
 
@@ -31512,6 +31558,10 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 - transition: written
 
+### `cashew_butter.blend` (blend)
+
+- create_mixing: 2 recipes, rounding 5%
+
 ### `cashew_butter.rancid` (rancid)
 
 - transition: written
@@ -31770,6 +31820,12 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 - transition: written
 
+### `celery_salt.mix` (mix)
+
+- create_mixing: 1 recipe, rounding 15%, estimated
+- shapeless_crafting: 1 recipe, rounding 13%, estimated
+- hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
+
 ### `celery_seed.stale` (stale)
 
 - transition: written
@@ -31973,9 +32029,8 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `chakarai_pongal_sweet_rice_and_black_gram_pudding.step_7` (fry)
 
-- adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, disabled: the game can't make `chakarai_pongal_sweet_rice_and_black_gram_pudding_step_6`
-- pnc_thermo_plant: none, takes at most 2 inputs, not 3
+- pnc_thermo_plant: none, doesn't fit in 1 input items, 1 of each, and 1000 mB tanks at any scale
 
 ### `chakarai_pongal_sweet_rice_and_black_gram_pudding.step_7.prep_5` (fry)
 
@@ -31991,7 +32046,6 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `chalupa.step_1.prep_2` (fry)
 
-- adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
 - pnc_thermo_plant: 1 recipe, rounding 0%
 
@@ -32110,30 +32164,30 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `chapati.step_1` (knead)
 
-- create_mixing: 1 recipe, rounding 13%
-- shapeless_crafting: 1 recipe, rounding 13%
-- hexerei_mixing_cauldron: 1 recipe, rounding 13%
+- create_mixing: 1 recipe, disabled: the game can't make `whole_wheat_flour`
+- shapeless_crafting: 1 recipe, disabled: the game can't make `whole_wheat_flour`
+- hexerei_mixing_cauldron: 1 recipe, disabled: the game can't make `whole_wheat_flour`
 
 ### `chapati.step_2` (age)
 
-- vd_fermenting_jar: 1 recipe, rounding 13%
+- vd_fermenting_jar: 1 recipe, disabled: the game can't make `chapati_step_1`
 - bnc_keg: none, can't make the mod's own chapati_step_3, and no other mod provides it
 
 ### `chapati.step_5` (bake)
 
-- smelting: 1 recipe, rounding 13%
-- smoking: 1 recipe, rounding 13%
+- smelting: 1 recipe, disabled: the game can't make `chapati_step_3`
+- smoking: 1 recipe, disabled: the game can't make `chapati_step_3`
 
 ### `chapati.step_6` (toast)
 
-- smelting: 1 recipe, rounding 13%
-- smoking: 1 recipe, rounding 13%
-- thermal_smelter: 1 recipe, rounding 13%
+- smelting: 1 recipe, disabled: the game can't make `chapati_step_5`
+- smoking: 1 recipe, disabled: the game can't make `chapati_step_5`
+- thermal_smelter: 1 recipe, disabled: the game can't make `chapati_step_5`
 
 ### `chapati.step_7` (coat)
 
-- shapeless_crafting: 1 recipe, rounding 13%
-- create_deploying: 1 recipe, rounding 13%
+- shapeless_crafting: 1 recipe, disabled: the game can't make `chapati_step_6`
+- create_deploying: 1 recipe, disabled: the game can't make `chapati_step_6`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
@@ -32542,19 +32596,19 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `cheese_filling_for_peynirli_borek.step_1` (mix)
 
-- create_mixing: 1 recipe, rounding 14%, estimated
-- shapeless_crafting: 1 recipe, rounding 14%, estimated
+- create_mixing: 1 recipe, disabled: the game can't make `feta_cheese`
+- shapeless_crafting: 1 recipe, disabled: the game can't make `feta_cheese`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `cheese_filling_for_peynirli_borek.step_2` (mix)
 
-- create_mixing: 1 recipe, rounding 14%, estimated
-- shapeless_crafting: 1 recipe, rounding 97% ⚠, estimated
+- create_mixing: 1 recipe, disabled: the game can't make `cheese_filling_for_peynirli_borek_step_1`
+- shapeless_crafting: 1 recipe, disabled: the game can't make `cheese_filling_for_peynirli_borek_step_1`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `cheese_filling_for_peynirli_borek.step_3` (chill)
 
-- transition: written
+- transition: not written: the game can't make `cheese_filling_for_peynirli_borek_step_2`
 - thermal_chiller: none, needs a fluid it can take, and has none
 
 ### `cheese_omelette.step_2` (pan_fry)
@@ -32591,6 +32645,17 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - shapeless_crafting: none, whole items would distort it by 745%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
+### `cheese_puffs.fry` (fry)
+
+- create_heated_mixing: 1 recipe, rounding 12%
+- pnc_thermo_plant: 1 recipe, rounding 12%
+
+### `cheese_puffs.knead` (knead)
+
+- create_mixing: 1 recipe, rounding 12%, estimated
+- shapeless_crafting: none, whole items would distort it by 266%
+- hexerei_mixing_cauldron: 1 recipe, rounding 76% ⚠, estimated
+
 ### `cheese_puffs_pao_de_queijo.step_1` (boil)
 
 - create_heated_mixing: 4 recipes, rounding 15%, estimated
@@ -32599,28 +32664,28 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `cheese_puffs_pao_de_queijo.step_2` (mix)
 
-- create_mixing: 1 recipe, rounding 12%, estimated
-- shapeless_crafting: 1 recipe, rounding 12%, estimated
+- create_mixing: 1 recipe, disabled: the game can't make `manioc_flour`
+- shapeless_crafting: 1 recipe, disabled: the game can't make `manioc_flour`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `cheese_puffs_pao_de_queijo.step_3` (cool)
 
-- transition: written
+- transition: not written: the game can't make `cheese_puffs_pao_de_queijo_step_2`
 
 ### `cheese_puffs_pao_de_queijo.step_5` (mix)
 
-- create_mixing: 1 recipe, rounding 11%
-- shapeless_crafting: 1 recipe, rounding 42% ⚠
+- create_mixing: 1 recipe, disabled: the game can't make `cheese_puffs_pao_de_queijo_step_3`
+- shapeless_crafting: 1 recipe, disabled: the game can't make `cheese_puffs_pao_de_queijo_step_3`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `cheese_puffs_pao_de_queijo.step_7` (bake)
 
-- smelting: 1 recipe, rounding 0%
-- smoking: 1 recipe, rounding 0%
+- smelting: 1 recipe, disabled: the game can't make `cheese_puffs_pao_de_queijo_step_6`
+- smoking: 1 recipe, disabled: the game can't make `cheese_puffs_pao_de_queijo_step_6`
 
 ### `cheese_puffs_pao_de_queijo.step_8` (cool)
 
-- transition: written
+- transition: not written: the game can't make `cheese_puffs_pao_de_queijo_step_7`
 
 ### `cheese_ravioli_filling.step_1` (mix)
 
@@ -32717,7 +32782,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 - shapeless_crafting: 1 recipe, rounding 0%
 - create_deploying: none, deploying takes exactly two items
-- hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
+- hexerei_mixing_cauldron: 1 recipe, rounding 0%
 - create_compacting: 1 recipe, rounding 0%
 
 ### `cheese_stuffed_crust_pizza.step_4` (fold)
@@ -32834,6 +32899,17 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 - transition: written
 
+### `cheesy_asparagus.bake` (bake)
+
+- smelting: none, takes one input, not 4
+- smoking: none, takes one input, not 4
+
+### `cheesy_asparagus.boil` (boil)
+
+- create_heated_mixing: 1 recipe, rounding 15%
+- fd_cooking_pot: 1 recipe, rounding 13%, drops `water`
+- hexerei_mixing_cauldron: 1 recipe, rounding 15%, drops `water`
+
 ### `cheesy_chicken_pasta.step_2` (strain)
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
@@ -32860,8 +32936,8 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `cheesy_mascarpone_cornbread_stuffing.step_2` (fold)
 
-- create_mixing: 1 recipe, rounding 4%, estimated
-- shapeless_crafting: 1 recipe, rounding 6%, estimated
+- create_mixing: 1 recipe, rounding 11%, estimated
+- shapeless_crafting: 1 recipe, rounding 48% ⚠, estimated
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `cheesy_mascarpone_cornbread_stuffing.step_3` (bake)
@@ -33122,41 +33198,53 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `cherry_delight.step_1` (mix)
 
-- create_mixing: 1 recipe, rounding 13%, estimated
-- shapeless_crafting: 1 recipe, rounding 69% ⚠, estimated
+- create_mixing: 1 recipe, disabled: the game can't make `graham_cracker_grind`
+- shapeless_crafting: 1 recipe, disabled: the game can't make `graham_cracker_grind`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `cherry_delight.step_1.prep_1` (grind)
 
-- create_milling: 1 recipe, rounding 88% ⚠, estimated
-- hexerei_pestle_and_mortar: 1 recipe, rounding 0%, estimated
+- create_milling: 1 recipe, disabled: the game can't make `graham_cracker`
+- hexerei_pestle_and_mortar: 1 recipe, disabled: the game can't make `graham_cracker`
 
 ### `cherry_delight.step_2` (bake)
 
-- smelting: 1 recipe, rounding 0%
-- smoking: 1 recipe, rounding 0%
+- smelting: 1 recipe, disabled: the game can't make `cherry_delight_step_1`
+- smoking: 1 recipe, disabled: the game can't make `cherry_delight_step_1`
 
 ### `cherry_delight.step_3` (mix)
 
-- create_mixing: 1 recipe, rounding 6%
-- shapeless_crafting: 1 recipe, rounding 6%
+- create_mixing: 1 recipe, disabled: the game can't make `cherry_delight_step_2`
+- shapeless_crafting: 1 recipe, disabled: the game can't make `cherry_delight_step_2`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `cherry_delight.step_4` (mix)
 
-- create_mixing: 1 recipe, rounding 15%, estimated
-- shapeless_crafting: 1 recipe, rounding 0%, estimated
+- create_mixing: 1 recipe, disabled: the game can't make `cherry_delight_step_3`
+- shapeless_crafting: 1 recipe, disabled: the game can't make `cherry_delight_step_3`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `cherry_delight.step_6` (assemble)
 
-- shapeless_crafting: 1 recipe, rounding 0%, estimated
+- shapeless_crafting: 1 recipe, disabled: the game can't make `cherry_delight_step_4`
 - create_deploying: none, whole items would distort it by 150%
+- hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
+
+### `cherry_jam.boil` (boil)
+
+- create_heated_mixing: 2 recipes, rounding 10%
+- fd_cooking_pot: none, doesn't fit in 6 input items, 6 of each, and 1000 mB tanks at any scale
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `cherry_jam.mold` (mold)
 
 - transition: written
+
+### `cherry_pie_filling.boil` (boil)
+
+- create_heated_mixing: 3 recipes, rounding 14%
+- fd_cooking_pot: none, doesn't fit in 6 input items, 6 of each, and 1000 mB tanks at any scale
+- hexerei_mixing_cauldron: none, whole items would distort it by 2936%
 
 ### `cherry_pie_filling.mold` (mold)
 
@@ -33182,8 +33270,8 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `cherry_soda.step_4` (mix)
 
-- create_mixing: 2 recipes, rounding 0%, estimated
-- shapeless_crafting: 2 recipes, rounding 0%, estimated
+- create_mixing: 2 recipes, disabled: the game can't make `carbonated_water`
+- shapeless_crafting: 2 recipes, disabled: the game can't make `carbonated_water`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `chervil.freezer_burn` (freezer_burn)
@@ -34074,6 +34162,12 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - fd_cooking_pot: 1 recipe, rounding 0%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
+### `chicken_curry.simmer` (simmer)
+
+- create_heated_mixing: 3 recipes, rounding 14%
+- fd_cooking_pot: none, whole items would distort it by 1400%
+- hexerei_mixing_cauldron: none, whole items would distort it by 291%
+
 ### `chicken_curry.step_1` (season)
 
 - create_mixing: 1 recipe, rounding 13%, estimated
@@ -34127,6 +34221,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_mixing: 3 recipes, disabled: the game can't make `chicken_curry_step_8`
 - shapeless_crafting: 3 recipes, disabled: the game can't make `chicken_curry_step_8`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
+
+### `chicken_curry.stir_fry` (stir_fry)
+
+- create_heated_mixing: 2 recipes, rounding 13%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 7
 
 ### `chicken_curry_mediterranean_inspired.step_1` (mix)
 
@@ -34281,6 +34380,16 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 ### `chicken_hot_dogs.spoil` (spoil)
 
 - transition: written
+
+### `chicken_jerky.age` (age)
+
+- vd_fermenting_jar: none, whole items would distort it by 577%
+- bnc_keg: none, can't make the mod's own salted_chicken_strips, and no other mod provides it
+
+### `chicken_jerky.dry` (dry)
+
+- transition: not written: the game can't make `salted_chicken_strips`
+- hexerei_drying_rack: 1 recipe, disabled: the game can't make `salted_chicken_strips`
 
 ### `chicken_karahi_pakistani_chicken_with_tomato_and_peppers.step_1` (season)
 
@@ -34476,8 +34585,8 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `chicken_paprikash.step_7` (simmer)
 
-- create_heated_mixing: 1 recipe, rounding 0%
-- fd_cooking_pot: 1 recipe, rounding 0%
+- create_heated_mixing: 1 recipe, rounding 0%, estimated
+- fd_cooking_pot: 1 recipe, rounding 0%, estimated
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `chicken_paprikash.step_8` (coat)
@@ -35462,6 +35571,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: 1 recipe, disabled: the game can't make `chickpea_curry_masaledaar_chole_step_7`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
+### `chickpea_flour.grind` (grind)
+
+- create_milling: 1 recipe, rounding 53% ⚠, estimated
+- hexerei_pestle_and_mortar: 1 recipe, rounding 15%, estimated
+
 ### `chickpea_flour_dessert_mysore_pak.step_1` (roast)
 
 - smelting: none, takes one input, not 2
@@ -35691,6 +35805,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 - transition: written
 
+### `chile_flakes.chop_dried_chiles` (chop)
+
+- fd_cutting_board: 1 recipe, rounding 28% ⚠, estimated
+- create_cutting: 1 recipe, rounding 28% ⚠, estimated
+
 ### `chile_lime_marinade.step_1` (mix)
 
 - create_mixing: 1 recipe, rounding 14%, estimated
@@ -35701,9 +35820,20 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 - transition: written
 
+### `chiles.dry_hot` (dry)
+
+- transition: written
+- hexerei_drying_rack: none, whole items would distort it by 150%
+
 ### `chiles.freezer_burn` (freezer_burn)
 
 - transition: written
+
+### `chiles.separate` (separate)
+
+- create_item_drain: none, the item drain takes one item and yields one item and one fluid
+- create_mixing: 1 recipe, rounding 13%
+- thermal_centrifuge: none, whole items would distort it by 125%
 
 ### `chiles.spoil` (spoil)
 
@@ -35941,6 +36071,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
 - thermal_centrifuge: 1 recipe, rounding 17% ⚠, estimated
+
+### `chili_powder.grind_dried_chiles` (grind)
+
+- create_milling: 1 recipe, rounding 28% ⚠, estimated
+- hexerei_pestle_and_mortar: 1 recipe, rounding 15%, estimated
 
 ### `chili_powder.stale` (stale)
 
@@ -36523,9 +36658,8 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `chipotle_lime_tortilla_chips.step_3` (fry)
 
-- adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 7%
-- pnc_thermo_plant: none, takes at most 2 inputs, not 3
+- create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `chipotle_maple_glazed_pork_tenderloin.step_1` (season)
 
@@ -36823,6 +36957,17 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 ### `choco_nutty_pie.step_4` (cool)
 
 - transition: not written: the game can't make `choco_nutty_pie_step_3`
+
+### `chocolate.grind_nibs` (grind)
+
+- create_milling: none, whole items would distort it by 268%
+- hexerei_pestle_and_mortar: none, makes 2 things; at most 1 fit
+
+### `chocolate.roast_nibs` (roast)
+
+- smelting: 1 recipe, rounding 76% ⚠, estimated
+- smoking: 1 recipe, rounding 76% ⚠, estimated
+- thermal_smelter: 1 recipe, rounding 76% ⚠, estimated
 
 ### `chocolate.stale` (stale)
 
@@ -38174,6 +38319,17 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
+### `chorizo.mix` (mix)
+
+- create_mixing: 1 recipe, rounding 5%, estimated
+- shapeless_crafting: none, whole items would distort it by 1686%
+- hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
+
+### `chorizo.smoke` (smoke)
+
+- smoking: none, whole items would distort it by 540%
+- campfire: none, whole items would distort it by 540%
+
 ### `choucroute_sauerkraut_with_meat_and_potatoes.step_1` (heat)
 
 - create_heated_mixing: 1 recipe, rounding 15%, estimated
@@ -38200,20 +38356,20 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `choucroute_sauerkraut_with_meat_and_potatoes.step_4` (mix)
 
-- create_mixing: 1 recipe, rounding 0%
-- shapeless_crafting: 1 recipe, rounding 0%
+- create_mixing: 1 recipe, disabled: the game can't make `smoked_pork_slices`
+- shapeless_crafting: 1 recipe, disabled: the game can't make `smoked_pork_slices`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `choucroute_sauerkraut_with_meat_and_potatoes.step_5` (simmer)
 
-- create_heated_mixing: 1 recipe, rounding 0%
-- fd_cooking_pot: 1 recipe, rounding 0%
+- create_heated_mixing: 1 recipe, disabled: the game can't make `choucroute_sauerkraut_with_meat_and_potatoes_step_4`
+- fd_cooking_pot: 1 recipe, disabled: the game can't make `choucroute_sauerkraut_with_meat_and_potatoes_step_4`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `choucroute_sauerkraut_with_meat_and_potatoes.step_6` (simmer)
 
-- create_heated_mixing: 1 recipe, rounding 14%
-- fd_cooking_pot: 1 recipe, rounding 25% ⚠
+- create_heated_mixing: 1 recipe, disabled: the game can't make `choucroute_sauerkraut_with_meat_and_potatoes_step_5`
+- fd_cooking_pot: 1 recipe, disabled: the game can't make `choucroute_sauerkraut_with_meat_and_potatoes_step_5`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `choucroute_sauerkraut_with_meat_and_potatoes.step_6.prep_11` (simmer)
@@ -38224,8 +38380,8 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `choucroute_sauerkraut_with_meat_and_potatoes.step_7` (simmer)
 
-- create_heated_mixing: 1 recipe, rounding 0%
-- fd_cooking_pot: 1 recipe, rounding 0%
+- create_heated_mixing: 1 recipe, disabled: the game can't make `choucroute_sauerkraut_with_meat_and_potatoes_step_6`
+- fd_cooking_pot: 1 recipe, disabled: the game can't make `choucroute_sauerkraut_with_meat_and_potatoes_step_6`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `chow_mein.step_1` (rinse)
@@ -38822,13 +38978,30 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - fd_cooking_pot: 1 recipe, rounding 0%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
+### `cinnamon_bread.bake` (bake)
+
+- smelting: none, whole items would distort it by 611%
+- smoking: none, whole items would distort it by 611%
+
 ### `cinnamon_bread.freezer_burn` (freezer_burn)
 
 - transition: written
 
+### `cinnamon_bread.knead` (knead)
+
+- create_mixing: 1 recipe, rounding 13%, estimated
+- shapeless_crafting: none, whole items would distort it by 378%
+- hexerei_mixing_cauldron: none, whole items would distort it by 359%
+
 ### `cinnamon_bread.mold` (mold)
 
 - transition: written
+
+### `cinnamon_bread.roll` (assemble)
+
+- shapeless_crafting: none, whole items would distort it by 931%
+- create_deploying: none, deploying takes exactly two items
+- hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `cinnamon_chicken.step_2` (pan_fry)
 
@@ -38927,6 +39100,23 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - fd_cooking_pot: 1 recipe, rounding 0%, estimated
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
+### `cinnamon_rolls.bake` (bake)
+
+- smelting: 3 recipes, disabled: the game can't make `shaped_cinnamon_rolls`
+- smoking: 3 recipes, disabled: the game can't make `shaped_cinnamon_rolls`
+
+### `cinnamon_rolls.knead` (knead)
+
+- create_mixing: 1 recipe, rounding 13%, estimated
+- shapeless_crafting: none, whole items would distort it by 378%
+- hexerei_mixing_cauldron: none, whole items would distort it by 359%
+
+### `cinnamon_rolls.shape` (assemble)
+
+- shapeless_crafting: none, whole items would distort it by 697%
+- create_deploying: none, deploying takes exactly two items
+- hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
+
 ### `cinnamon_rolls.step_1` (ferment)
 
 - vd_fermenting_jar: 1 recipe, rounding 3%, estimated
@@ -38974,6 +39164,12 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 - fd_cutting_board: 1 recipe, disabled: the game can't make `cinnamon_rolls_step_8`
 - create_cutting: 1 recipe, disabled: the game can't make `cinnamon_rolls_step_8`
+
+### `cinnamon_sugar.mix` (mix)
+
+- create_mixing: 1 recipe, rounding 4%, estimated
+- shapeless_crafting: 1 recipe, rounding 25% ⚠, estimated
+- hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `cioppino_italian_seafood_stew.step_2` (pan_fry)
 
@@ -39062,8 +39258,8 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `citrus_energy_drink.step_4` (mix)
 
-- create_mixing: 1 recipe, rounding 0%, estimated
-- shapeless_crafting: 1 recipe, rounding 0%, estimated
+- create_mixing: 1 recipe, disabled: the game can't make `carbonated_water`
+- shapeless_crafting: 1 recipe, disabled: the game can't make `carbonated_water`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `clam.spoil` (spoil)
@@ -39094,6 +39290,12 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 - smelting: 1 recipe, disabled: the game can't make `clams_steamed_in_aluminum_foil_step_4`
 - smoking: 1 recipe, disabled: the game can't make `clams_steamed_in_aluminum_foil_step_4`
+
+### `clarified_butter.heat` (separate)
+
+- create_item_drain: none, whole items would distort it by 703%
+- create_mixing: 1 recipe, rounding 33% ⚠, estimated
+- thermal_centrifuge: none, whole items would distort it by 703%
 
 ### `clarified_butter.rancid` (rancid)
 
@@ -39631,6 +39833,23 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - smoking: 1 recipe, rounding 1%, estimated
 - thermal_smelter: 1 recipe, rounding 1%, estimated
 
+### `coconut_milk.grate_flesh` (grind)
+
+- create_milling: 1 recipe, rounding 14%
+- hexerei_pestle_and_mortar: 1 recipe, rounding 14%
+
+### `coconut_milk.press` (press)
+
+- create_item_drain: none, the item drain takes one item and yields one item and one fluid
+- create_mixing: 3 recipes, rounding 13%
+- thermal_press: none, takes one input, not 2
+
+### `coconut_oil.press` (press)
+
+- create_item_drain: none, the item drain takes one item and yields one item and one fluid
+- create_mixing: 1 recipe, rounding 14%
+- thermal_press: 1 recipe, rounding 14%
+
 ### `coconut_oil.rancid` (rancid)
 
 - transition: written
@@ -39825,6 +40044,12 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - shapeless_crafting: 1 recipe, rounding 0%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
+### `coconut_water.separate` (separate)
+
+- create_item_drain: none, whole items would distort it by 497%
+- create_mixing: 1 recipe, rounding 15%
+- thermal_centrifuge: none, whole items would distort it by 497%
+
 ### `coconut_water.sour` (sour)
 
 - transition: written
@@ -39845,8 +40070,8 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `cocoyam_fufu.step_2` (mix)
 
-- create_mixing: 1 recipe, rounding 10%
-- shapeless_crafting: 1 recipe, rounding 33% ⚠
+- create_mixing: 1 recipe, disabled: the game can't make `manioc_flour`
+- shapeless_crafting: 1 recipe, disabled: the game can't make `manioc_flour`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `cocoyam_leaves.freezer_burn` (freezer_burn)
@@ -39871,48 +40096,48 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `cod_olive_oil_and_cream_sauce_brandade_de_morue.step_1` (soak)
 
-- create_mixing: 1 recipe, rounding 0%
-- create_splashing: 1 recipe, rounding 0%
+- create_mixing: 1 recipe, disabled: the game can't make `salt_cod_soak`
+- create_splashing: 1 recipe, disabled: the game can't make `salt_cod_soak`
 
 ### `cod_olive_oil_and_cream_sauce_brandade_de_morue.step_1.prep_1` (soak)
 
-- create_mixing: 1 recipe, rounding 14%
+- create_mixing: 1 recipe, disabled: the game can't make `salt_cod`
 - create_splashing: none, whole items would distort it by 605%
 
 ### `cod_olive_oil_and_cream_sauce_brandade_de_morue.step_2` (soak)
 
-- create_mixing: 1 recipe, rounding 13%
-- create_splashing: 1 recipe, rounding 13%
+- create_mixing: 1 recipe, disabled: the game can't make `salt_cod_soak_soak`
+- create_splashing: 1 recipe, disabled: the game can't make `salt_cod_soak_soak`
 
 ### `cod_olive_oil_and_cream_sauce_brandade_de_morue.step_3` (simmer)
 
-- create_heated_mixing: 1 recipe, rounding 13%
-- fd_cooking_pot: 1 recipe, rounding 13%
+- create_heated_mixing: 1 recipe, disabled: the game can't make `salt_cod_soak_soak_soak`
+- fd_cooking_pot: 1 recipe, disabled: the game can't make `salt_cod_soak_soak_soak`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `cod_olive_oil_and_cream_sauce_brandade_de_morue.step_4` (separate)
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
-- create_mixing: 1 recipe, rounding 14%
-- thermal_centrifuge: 1 recipe, rounding 14%
+- create_mixing: 1 recipe, disabled: the game can't make `salt_cod_soak_soak_soak_simmer`
+- thermal_centrifuge: 1 recipe, disabled: the game can't make `salt_cod_soak_soak_soak_simmer`
 
 ### `cod_olive_oil_and_cream_sauce_brandade_de_morue.step_5` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 11%, estimated
+- create_heated_mixing: 1 recipe, disabled: the game can't make `cod_olive_oil_and_cream_sauce_brandade_de_morue_step_4`
 - pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `cod_olive_oil_and_cream_sauce_brandade_de_morue.step_6` (blend)
 
-- create_mixing: 1 recipe, rounding 9%
+- create_mixing: 1 recipe, disabled: the game can't make `cod_olive_oil_and_cream_sauce_brandade_de_morue_step_5`
 
 ### `cod_olive_oil_and_cream_sauce_brandade_de_morue.step_7` (blend)
 
-- create_mixing: 1 recipe, rounding 13%, estimated
+- create_mixing: 1 recipe, disabled: the game can't make `cod_olive_oil_and_cream_sauce_brandade_de_morue_step_6`
 
 ### `cod_olive_oil_and_cream_sauce_brandade_de_morue.step_8` (blend)
 
-- create_mixing: 1 recipe, rounding 0%
+- create_mixing: 1 recipe, disabled: the game can't make `cod_olive_oil_and_cream_sauce_brandade_de_morue_step_7`
 
 ### `coddle.step_1` (boil)
 
@@ -39937,6 +40162,24 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_mixing: 1 recipe, rounding 0%
 - shapeless_crafting: 1 recipe, rounding 0%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
+
+### `coffee.grind_beans` (grind)
+
+- create_milling: 1 recipe, rounding 20% ⚠
+- hexerei_pestle_and_mortar: 1 recipe, rounding 10%
+
+### `coffee.roast_beans` (roast)
+
+- smelting: 1 recipe, rounding 4%
+- smoking: 1 recipe, rounding 4%
+- thermal_smelter: 1 recipe, rounding 4%
+
+### `coffee.steep_grounds` (steep)
+
+- create_mixing: 2 recipes, rounding 73% ⚠
+- create_splashing: 3 recipes, rounding 9%
+- fr_kettle: 1 recipe, rounding 67% ⚠, drops `spent_coffee_grounds`
+- theurgy_liquefaction: 3 recipes, rounding 67% ⚠, drops `spent_coffee_grounds`
 
 ### `coffee_beans.stale` (stale)
 
@@ -39976,7 +40219,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `coffee_concentrate.step_2` (mix)
 
-- create_mixing: 2 recipes, rounding 1%, estimated
+- create_mixing: 4 recipes, rounding 1%, estimated
 - shapeless_crafting: 1 recipe, rounding 10%, estimated
 - hexerei_mixing_cauldron: 1 recipe, rounding 14%, estimated
 
@@ -39998,6 +40241,13 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 6%, estimated
 - thermal_centrifuge: 1 recipe, rounding 15% ⚠, estimated
+
+### `coffee_liqueur.steep` (steep)
+
+- create_mixing: 1 recipe, rounding 15%
+- create_splashing: none, takes one input, not 3
+- fr_kettle: none, can't make the mod's own coffee_liqueur, and no other mod provides it
+- theurgy_liquefaction: none, takes at most 2 inputs, not 3
 
 ### `coffee_mousse.step_1` (soak)
 
@@ -40197,8 +40447,8 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `cola_i.step_8` (mix)
 
-- create_mixing: 1 recipe, disabled: the game can't make `cola_i_step_7`
-- shapeless_crafting: 1 recipe, disabled: the game can't make `cola_i_step_7`
+- create_mixing: 1 recipe, disabled: the game can't make `carbonated_water`, `cola_i_step_7`
+- shapeless_crafting: 1 recipe, disabled: the game can't make `carbonated_water`, `cola_i_step_7`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `cola_ii.step_1` (mix)
@@ -40215,8 +40465,8 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `cola_ii.step_3` (mix)
 
-- create_mixing: 1 recipe, rounding 5%, estimated
-- shapeless_crafting: 1 recipe, rounding 5%, estimated
+- create_mixing: 1 recipe, disabled: the game can't make `carbonated_water`
+- shapeless_crafting: 1 recipe, disabled: the game can't make `carbonated_water`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `cola_iii.step_1` (mix)
@@ -40239,7 +40489,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `cola_iii.step_4` (carbonate)
 
-- create_mixing: 1 recipe, disabled: the game can't make `cola_iii_step_3`
+- create_mixing: 1 recipe, disabled: the game can't make `carbonated_water`, `cola_iii_step_3`
 
 ### `cola_v.step_1` (boil)
 
@@ -40261,8 +40511,8 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `cola_v.step_4` (mix)
 
-- create_mixing: 1 recipe, rounding 0%, estimated
-- shapeless_crafting: 1 recipe, rounding 0%, estimated
+- create_mixing: 1 recipe, disabled: the game can't make `carbonated_water`
+- shapeless_crafting: 1 recipe, disabled: the game can't make `carbonated_water`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `colcannon.step_2` (mix)
@@ -40534,6 +40784,10 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 - transition: written
 
+### `condensed_milk.evaporate` (evaporate)
+
+- create_heated_mixing: 4 recipes, rounding 6%
+
 ### `confederate_cush.step_2` (boil)
 
 - create_heated_mixing: 3 recipes, rounding 1%, estimated
@@ -40610,9 +40864,20 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - fd_cooking_pot: 1 recipe, rounding 0%, estimated
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
+### `cookie.bake` (bake)
+
+- smelting: 1 recipe, rounding 22% ⚠
+- smoking: 1 recipe, rounding 22% ⚠
+
 ### `cookie.freezer_burn` (freezer_burn)
 
 - transition: written
+
+### `cookie.mix_dough` (mix)
+
+- create_mixing: 1 recipe, rounding 13%
+- shapeless_crafting: 1 recipe, rounding 18% ⚠
+- hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `cookie.stale` (stale)
 
@@ -40728,13 +40993,13 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 ### `coq_au_vin_ii.step_3` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 3 recipes, rounding 14%
+- create_heated_mixing: 3 recipes, disabled: the game can't make `salt_pork`
 - pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `coq_au_vin_ii.step_4` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 13%
+- create_heated_mixing: 1 recipe, disabled: the game can't make `coq_au_vin_ii_step_3`
 - pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `coq_au_vin_ii.step_4.prep_18` (pan_fry)
@@ -40769,57 +41034,57 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `coq_au_vin_iii.step_10` (assemble)
 
-- shapeless_crafting: 1 recipe, rounding 0%, estimated
-- create_deploying: 1 recipe, rounding 0%, estimated
+- shapeless_crafting: 1 recipe, disabled: the game can't make `coq_au_vin_iii_step_9`
+- create_deploying: 1 recipe, disabled: the game can't make `coq_au_vin_iii_step_9`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `coq_au_vin_iii.step_2` (pan_fry)
 
-- create_heated_mixing: 1 recipe, rounding 11%, estimated
+- create_heated_mixing: 1 recipe, disabled: the game can't make `pancetta_cut`
 - pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `coq_au_vin_iii.step_2.prep_6` (cut)
 
-- fd_cutting_board: 1 recipe, rounding 0%
-- create_cutting: 1 recipe, rounding 0%
+- fd_cutting_board: 1 recipe, disabled: the game can't make `pancetta`
+- create_cutting: 1 recipe, disabled: the game can't make `pancetta`
 
 ### `coq_au_vin_iii.step_3` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 11%
+- create_heated_mixing: 1 recipe, disabled: the game can't make `coq_au_vin_iii_step_2`
 - pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `coq_au_vin_iii.step_4` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 14%, estimated
+- create_heated_mixing: 1 recipe, disabled: the game can't make `coq_au_vin_iii_step_3`
 - pnc_thermo_plant: none, takes at most 2 inputs, not 6
 
 ### `coq_au_vin_iii.step_5` (simmer)
 
-- create_heated_mixing: 1 recipe, rounding 12%, estimated
+- create_heated_mixing: 1 recipe, disabled: the game can't make `coq_au_vin_iii_step_4`
 - fd_cooking_pot: none, whole items would distort it by 890%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `coq_au_vin_iii.step_6` (chill)
 
-- transition: written
+- transition: not written: the game can't make `coq_au_vin_iii_step_5`
 - thermal_chiller: none, needs a fluid it can take, and has none
 
 ### `coq_au_vin_iii.step_7` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 9%, estimated
+- create_heated_mixing: 1 recipe, disabled: the game can't make `coq_au_vin_iii_step_6`
 - pnc_thermo_plant: none, takes at most 2 inputs, not 6
 
 ### `coq_au_vin_iii.step_8` (evaporate)
 
-- create_heated_mixing: 1 recipe, rounding 15%, estimated
+- create_heated_mixing: 1 recipe, disabled: the game can't make `coq_au_vin_iii_step_7`
 
 ### `coq_au_vin_iii.step_9` (bake)
 
-- smelting: 1 recipe, rounding 17% ⚠, estimated
-- smoking: 1 recipe, rounding 17% ⚠, estimated
+- smelting: 1 recipe, disabled: the game can't make `coq_au_vin_iii_step_8`
+- smoking: 1 recipe, disabled: the game can't make `coq_au_vin_iii_step_8`
 
 ### `coquitos_coconut_macaroons.step_2` (mix)
 
@@ -40976,14 +41241,14 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `corn_bread_fish.step_4` (coat)
 
-- shapeless_crafting: 1 recipe, rounding 6%
+- shapeless_crafting: 1 recipe, disabled: the game can't make `italian_dressing`
 - create_deploying: none, whole items would distort it by 217%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `corn_bread_fish.step_5` (coat)
 
-- shapeless_crafting: 1 recipe, rounding 0%, estimated
+- shapeless_crafting: 1 recipe, disabled: the game can't make `corn_bread_fish_step_4`
 - create_deploying: none, whole items would distort it by 150%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
@@ -40995,8 +41260,8 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `corn_bread_fish.step_6` (bake)
 
-- smelting: 1 recipe, rounding 17% ⚠, estimated
-- smoking: 1 recipe, rounding 17% ⚠, estimated
+- smelting: 1 recipe, disabled: the game can't make `corn_bread_fish_step_5`
+- smoking: 1 recipe, disabled: the game can't make `corn_bread_fish_step_5`
 
 ### `corn_bread_fish.step_7` (cut)
 
@@ -41080,6 +41345,18 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_heated_mixing: 1 recipe, disabled: the game can't make `corn_chowder_ii_step_7`
 - fd_cooking_pot: 1 recipe, disabled: the game can't make `corn_chowder_ii_step_7`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
+
+### `corn_dogs.fry` (fry)
+
+- adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
+- create_heated_mixing: 2 recipes, rounding 12%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
+
+### `corn_dogs.mix_batter` (mix)
+
+- create_mixing: 1 recipe, rounding 15%, estimated
+- shapeless_crafting: none, whole items would distort it by 405%
+- hexerei_mixing_cauldron: none, whole items would distort it by 221%
 
 ### `corn_dogs.step_2` (mix)
 
@@ -41368,6 +41645,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - smelting: 1 recipe, rounding 0%
 - smoking: 1 recipe, rounding 0%
 
+### `corned_beef.brine` (soak)
+
+- create_mixing: 2 recipes, rounding 14%
+- create_splashing: none, takes one input, not 2
+
 ### `corned_beef.freezer_burn` (freezer_burn)
 
 - transition: written
@@ -41432,6 +41714,16 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 ### `cornish_fairing.step_7` (cool)
 
 - transition: written
+
+### `cornmeal.dry_corn` (dry)
+
+- transition: written
+- hexerei_drying_rack: 1 recipe, rounding 11%
+
+### `cornmeal.grind` (grind)
+
+- create_milling: 2 recipes, rounding 67% ⚠, estimated
+- hexerei_pestle_and_mortar: 2 recipes, rounding 11%, estimated
 
 ### `cornmeal.stale` (stale)
 
@@ -41593,8 +41885,8 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `coronation_chicken.step_6` (fold)
 
-- create_mixing: 1 recipe, rounding 0%
-- shapeless_crafting: 1 recipe, rounding 0%
+- create_mixing: 1 recipe, rounding 0%, estimated
+- shapeless_crafting: 1 recipe, rounding 0%, estimated
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `coronation_chicken.step_7` (season)
@@ -41666,6 +41958,16 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 - create_mixing: 1 recipe, rounding 9%, estimated
 - shapeless_crafting: 1 recipe, rounding 9%, estimated
+- hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
+
+### `cottage_cheese.coagulate` (coagulate)
+
+- create_mixing: 1 recipe, rounding 15%
+
+### `cottage_cheese.mix` (mix)
+
+- create_mixing: 1 recipe, rounding 10%, estimated
+- shapeless_crafting: none, whole items would distort it by 114%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `cottage_cheese.sour` (sour)
@@ -41790,6 +42092,17 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_mixing: 1 recipe, rounding 10%, estimated
 - shapeless_crafting: 1 recipe, rounding 27% ⚠, estimated
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
+
+### `couscous.dry` (dry)
+
+- transition: not written: the game can't make `couscous_pellets`
+- hexerei_drying_rack: 2 recipes, disabled: the game can't make `couscous_pellets`
+
+### `couscous.knead` (knead)
+
+- create_mixing: 3 recipes, disabled: the game can't make `semolina`
+- shapeless_crafting: 1 recipe, disabled: the game can't make `semolina`
+- hexerei_mixing_cauldron: 1 recipe, disabled: the game can't make `semolina`
 
 ### `couscous_bil_khodra_libyan_vegetable_couscous.step_1` (pan_fry)
 
@@ -42059,7 +42372,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 - shapeless_crafting: 1 recipe, disabled: the game can't make `homemade_wheat_tortillas`
 - create_deploying: none, deploying takes exactly two items
-- hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
+- hexerei_mixing_cauldron: 1 recipe, disabled: the game can't make `homemade_wheat_tortillas`
 
 ### `crab_quesadillas_with_mango_salsa.step_7` (assemble)
 
@@ -42075,6 +42388,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 ### `cracked_black_peppercorns.stale` (stale)
 
 - transition: written
+
+### `cracker.bake` (bake)
+
+- smelting: none, takes one input, not 2
+- smoking: none, takes one input, not 2
 
 ### `cracker.freezer_burn` (freezer_burn)
 
@@ -42123,6 +42441,12 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 - smelting: none, whole items would distort it by 510%
 - smoking: none, whole items would distort it by 510%
+
+### `cranberry_sauce.boil` (boil)
+
+- create_heated_mixing: 6 recipes, rounding 14%
+- fd_cooking_pot: 2 recipes, rounding 30% ⚠
+- hexerei_mixing_cauldron: 2 recipes, rounding 15%
 
 ### `cranberry_sauce.mold` (mold)
 
@@ -42193,9 +42517,34 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 - transition: written
 
+### `cream.separate` (separate)
+
+- create_item_drain: 2 recipes, rounding 63% ⚠, estimated
+- create_mixing: 2 recipes, rounding 15%, estimated
+- thermal_centrifuge: 2 recipes, rounding 63% ⚠, estimated
+
 ### `cream.sour` (sour)
 
 - transition: written
+
+### `cream_cheese.ferment` (ferment)
+
+- vd_fermenting_jar: 1 recipe, rounding 24% ⚠, estimated
+- bnc_keg: none, can't make the mod's own cultured_cream_milk, and no other mod provides it
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
+- theurgy_fermentation: 1 recipe, rounding 20% ⚠, estimated
+
+### `cream_cheese.mix` (mix)
+
+- create_mixing: 1 recipe, rounding 0%
+- shapeless_crafting: 1 recipe, rounding 0%
+- hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
+
+### `cream_cheese.separate` (separate)
+
+- create_item_drain: 1 recipe, rounding 15%
+- create_mixing: 1 recipe, rounding 15%
+- thermal_centrifuge: 1 recipe, rounding 15%
 
 ### `cream_cheese.sour` (sour)
 
@@ -42436,8 +42785,8 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `cream_soda.step_3` (mix)
 
-- create_mixing: 1 recipe, rounding 12%, estimated
-- shapeless_crafting: 1 recipe, rounding 12%, estimated
+- create_mixing: 1 recipe, disabled: the game can't make `carbonated_water`
+- shapeless_crafting: 1 recipe, disabled: the game can't make `carbonated_water`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `creamed_corn.step_1` (strain)
@@ -42562,9 +42911,15 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - shapeless_crafting: 1 recipe, rounding 11%, estimated
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
+### `creamy_russian_dressing.mix` (mix)
+
+- create_mixing: none, whole items would distort it by 225%
+- shapeless_crafting: none, whole items would distort it by 780%
+- hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
+
 ### `creamy_russian_dressing.mold` (mold)
 
-- transition: written
+- transition: not written: the game can't make `creamy_russian_dressing`
 
 ### `creamy_tomato_and_bean_soup.step_2` (pan_fry)
 
@@ -42735,7 +43090,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `creme_chantilly.step_1` (whisk)
 
-- create_mixing: 1 recipe, rounding 5%, estimated
+- create_mixing: 1 recipe, rounding 15%, estimated
 
 ### `creme_chantilly.step_2` (fold)
 
@@ -42747,6 +43102,13 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 - transition: written
 - thermal_chiller: none, needs a fluid it can take, and has none
+
+### `creme_fraiche.ferment` (ferment)
+
+- vd_fermenting_jar: 1 recipe, rounding 88% ⚠, estimated
+- bnc_keg: none, can't make the mod's own creme_fraiche, and no other mod provides it
+- pnc_thermo_plant: 1 recipe, rounding 14%, estimated
+- theurgy_fermentation: none, needs a fluid it can take, and has none
 
 ### `creme_fraiche_chocolate_sauce.step_1` (simmer)
 
@@ -42888,28 +43250,28 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `crispy_chicken.step_2` (coat)
 
-- shapeless_crafting: 1 recipe, rounding 6%
+- shapeless_crafting: 1 recipe, disabled: the game can't make `italian_dressing`
 - create_deploying: none, whole items would distort it by 217%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `crispy_chicken.step_3` (steep)
 
-- create_mixing: 1 recipe, rounding 0%
-- create_splashing: 1 recipe, rounding 0%
+- create_mixing: 1 recipe, disabled: the game can't make `crispy_chicken_step_2`
+- create_splashing: 1 recipe, disabled: the game can't make `crispy_chicken_step_2`
 - fr_kettle: none, can't make the mod's own crispy_chicken_step_3, and no other mod provides it
 - theurgy_liquefaction: none, needs a fluid it can take, and has none
 
 ### `crispy_chicken.step_4` (assemble)
 
-- shapeless_crafting: 1 recipe, rounding 10%
-- create_deploying: 1 recipe, rounding 50% ⚠
+- shapeless_crafting: 1 recipe, disabled: the game can't make `crispy_chicken_step_3`
+- create_deploying: 1 recipe, disabled: the game can't make `crispy_chicken_step_3`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `crispy_chicken.step_7` (bake)
 
-- smelting: 1 recipe, rounding 0%
-- smoking: 1 recipe, rounding 0%
+- smelting: 1 recipe, disabled: the game can't make `crispy_chicken_step_5`
+- smoking: 1 recipe, disabled: the game can't make `crispy_chicken_step_5`
 
 ### `crispy_fish_sandwich.step_1` (season)
 
@@ -43153,6 +43515,23 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
 - fd_cooking_pot: 1 recipe, rounding 0%, estimated
+- hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
+
+### `croissant.bake` (bake)
+
+- smelting: 2 recipes, rounding 10%
+- smoking: 2 recipes, rounding 10%
+
+### `croissant.knead` (knead)
+
+- create_mixing: 1 recipe, rounding 13%, estimated
+- shapeless_crafting: none, whole items would distort it by 268%
+- hexerei_mixing_cauldron: none, whole items would distort it by 257%
+
+### `croissant.laminate` (fold)
+
+- create_mixing: 1 recipe, rounding 12%
+- shapeless_crafting: 1 recipe, rounding 12%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `croissant.step_1` (ferment)
@@ -43520,7 +43899,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `cuban_sandwich_ii.step_5` (assemble)
 
-- shapeless_crafting: 1 recipe, disabled: the game can't make `cuban_sandwich_ii_step_4`
+- shapeless_crafting: 1 recipe, disabled: the game can't make `cuban_sandwich_ii_step_4`, `salami`
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
@@ -43628,26 +44007,26 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `cucumber_sprout_sandwich.step_1` (coat)
 
-- shapeless_crafting: 1 recipe, rounding 11%, estimated
-- create_deploying: 1 recipe, rounding 26% ⚠, estimated
+- shapeless_crafting: 1 recipe, disabled: the game can't make `whole_wheat_flour`
+- create_deploying: 1 recipe, disabled: the game can't make `whole_wheat_flour`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `cucumber_sprout_sandwich.step_2` (assemble)
 
-- shapeless_crafting: 1 recipe, rounding 0%
+- shapeless_crafting: 1 recipe, disabled: the game can't make `cucumber_sprout_sandwich_step_1`
 - create_deploying: none, whole items would distort it by 500%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `cucumber_sprout_sandwich.step_3` (season)
 
-- create_mixing: 1 recipe, rounding 13%, estimated
+- create_mixing: 1 recipe, disabled: the game can't make `cucumber_sprout_sandwich_step_2`
 - shapeless_crafting: none, whole items would distort it by 745%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `cucumber_sprout_sandwich.step_4` (assemble)
 
-- shapeless_crafting: 1 recipe, rounding 1%, estimated
+- shapeless_crafting: 1 recipe, disabled: the game can't make `cucumber_sprout_sandwich_step_3`
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
@@ -43658,15 +44037,15 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `cucumber_sprout_sandwich.step_5` (coat)
 
-- shapeless_crafting: 1 recipe, rounding 0%
-- create_deploying: 1 recipe, rounding 100% ⚠
+- shapeless_crafting: 1 recipe, disabled: the game can't make `cucumber_sprout_sandwich_step_4`
+- create_deploying: 1 recipe, disabled: the game can't make `cucumber_sprout_sandwich_step_4`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `cucumber_sprout_sandwich.step_6` (season)
 
-- create_mixing: 1 recipe, rounding 0%
-- shapeless_crafting: 1 recipe, rounding 0%
+- create_mixing: 1 recipe, disabled: the game can't make `cucumber_sprout_sandwich_step_5`
+- shapeless_crafting: 1 recipe, disabled: the game can't make `cucumber_sprout_sandwich_step_5`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `cucumber_tomato_and_onion_salad.step_3` (mix)
@@ -43772,6 +44151,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 ### `curd.sour` (sour)
 
 - transition: written
+
+### `cured_anchovies.age` (age)
+
+- vd_fermenting_jar: 1 recipe, rounding 27% ⚠
+- bnc_keg: none, can't make the mod's own cured_anchovies, and no other mod provides it
 
 ### `cured_anchovies.freezer_burn` (freezer_burn)
 
@@ -43991,9 +44375,20 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 - transition: written
 
+### `curry_paste.mix` (mix)
+
+- create_mixing: 1 recipe, rounding 14%, estimated
+- shapeless_crafting: 1 recipe, rounding 14%, estimated
+- hexerei_mixing_cauldron: 1 recipe, rounding 14%, estimated
+
 ### `curry_paste.mold` (mold)
 
 - transition: written
+
+### `curry_powder.grind` (grind)
+
+- create_milling: none, takes one input, not 5
+- hexerei_pestle_and_mortar: none, whole items would distort it by 197%
 
 ### `curry_powder.stale` (stale)
 
@@ -44017,6 +44412,12 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - bnc_keg: 1 recipe, rounding 0%
 - pnc_thermo_plant: 1 recipe, rounding 0%
 - theurgy_fermentation: none, needs a fluid it can take, and has none
+
+### `custard.heat` (heat)
+
+- create_heated_mixing: 2 recipes, rounding 6%, estimated
+- fd_cooking_pot: none, whole items would distort it by 107%
+- hexerei_mixing_cauldron: 2 recipes, rounding 15%, estimated
 
 ### `custard.stale` (stale)
 
@@ -44074,6 +44475,12 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - smelting: 1 recipe, rounding 17% ⚠, estimated
 - smoking: 1 recipe, rounding 17% ⚠, estimated
 
+### `custard_powder.mix` (mix)
+
+- create_mixing: 1 recipe, rounding 14%, estimated
+- shapeless_crafting: none, whole items would distort it by 400%
+- hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
+
 ### `cut_green_italian_beans.freezer_burn` (freezer_burn)
 
 - transition: written
@@ -44089,7 +44496,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `cypriot_salad.step_2` (assemble)
 
-- shapeless_crafting: 1 recipe, disabled: the game can't make `cypriot_salad_step_1`
+- shapeless_crafting: 1 recipe, disabled: the game can't make `cypriot_salad_step_1`, `feta_cheese_chop`
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
@@ -44466,6 +44873,13 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 - transition: written
 
+### `dashi.steep` (steep)
+
+- create_mixing: 3 recipes, rounding 1%
+- create_splashing: 1 recipe, rounding 13%
+- fr_kettle: none, can't make the mod's own dashi_japanese_soup_stock, and no other mod provides it
+- theurgy_liquefaction: 1 recipe, rounding 15%
+
 ### `date.freezer_burn` (freezer_burn)
 
 - transition: written
@@ -44564,8 +44978,8 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `date_soda.step_1` (mix)
 
-- create_mixing: 1 recipe, rounding 7%, estimated
-- shapeless_crafting: 1 recipe, rounding 7%, estimated
+- create_mixing: 1 recipe, disabled: the game can't make `carbonated_water`
+- shapeless_crafting: 1 recipe, disabled: the game can't make `carbonated_water`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `date_squares.step_1` (mix)
@@ -44974,6 +45388,26 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - transition: written
 - hexerei_drying_rack: 1 recipe, rounding 0%
 
+### `dehydrated_broth.dry` (dry)
+
+- transition: written
+- hexerei_drying_rack: 1 recipe, rounding 15% ⚠
+
+### `dehydrated_broth.evaporate` (evaporate)
+
+- create_heated_mixing: 1 recipe, rounding 0%, estimated
+
+### `dehydrated_broth.mix_bouillon` (mix)
+
+- create_mixing: 1 recipe, rounding 14%, estimated
+- shapeless_crafting: 1 recipe, rounding 14%, estimated
+- hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
+
+### `dehydrated_garlic.dry_slices` (dry)
+
+- transition: written
+- hexerei_drying_rack: none, whole items would distort it by 3900%
+
 ### `dehydrated_garlic.stale` (stale)
 
 - transition: written
@@ -45294,13 +45728,24 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - campfire: 1 recipe, rounding 0%
 - smoking: 1 recipe, rounding 0%
 
+### `digestive_biscuit.bake` (bake)
+
+- smelting: none, whole items would distort it by 159%
+- smoking: none, whole items would distort it by 159%
+
 ### `digestive_biscuit.freezer_burn` (freezer_burn)
 
-- transition: written
+- transition: not written: the game can't make `digestive_biscuit`
+
+### `digestive_biscuit.mix_dough` (mix)
+
+- create_mixing: 1 recipe, disabled: the game can't make `whole_wheat_flour`
+- shapeless_crafting: 1 recipe, disabled: the game can't make `whole_wheat_flour`
+- hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `digestive_biscuit.stale` (stale)
 
-- transition: written
+- transition: not written: the game can't make `digestive_biscuit`
 
 ### `dill.freezer_burn` (freezer_burn)
 
@@ -45837,16 +46282,16 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `doro_dabo_ethiopian_chicken_with_spiced_bread.step_10` (bake)
 
-- smelting: 1 recipe, rounding 0%
-- smoking: 1 recipe, rounding 0%
+- smelting: 1 recipe, disabled: the game can't make `doro_dabo_ethiopian_chicken_with_spiced_bread_step_9`
+- smoking: 1 recipe, disabled: the game can't make `doro_dabo_ethiopian_chicken_with_spiced_bread_step_9`
 
 ### `doro_dabo_ethiopian_chicken_with_spiced_bread.step_11` (cool)
 
-- transition: written
+- transition: not written: the game can't make `doro_dabo_ethiopian_chicken_with_spiced_bread_step_10`
 
 ### `doro_dabo_ethiopian_chicken_with_spiced_bread.step_12` (mix)
 
-- create_mixing: 1 recipe, disabled: the game can't make `berbere`
+- create_mixing: 1 recipe, disabled: the game can't make `berbere`, `doro_dabo_ethiopian_chicken_with_spiced_bread_step_11`, `niter_kibbeh`
 - shapeless_crafting: none, takes at most 9 inputs, not 12
 - hexerei_mixing_cauldron: none, takes at most 9 inputs, not 12
 
@@ -45857,7 +46302,6 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `doro_dabo_ethiopian_chicken_with_spiced_bread.step_14` (pan_fry)
 
-- adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, disabled: the game can't make `doro_dabo_ethiopian_chicken_with_spiced_bread_step_13`
 - pnc_thermo_plant: 1 recipe, disabled: the game can't make `doro_dabo_ethiopian_chicken_with_spiced_bread_step_13`
 
@@ -45873,21 +46317,21 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `doro_dabo_ethiopian_chicken_with_spiced_bread.step_2` (mix)
 
-- create_mixing: 1 recipe, rounding 12%, estimated
+- create_mixing: 1 recipe, disabled: the game can't make `niter_kibbeh`
 - shapeless_crafting: none, whole items would distort it by 233%
 - hexerei_mixing_cauldron: none, whole items would distort it by 135%
 
 ### `doro_dabo_ethiopian_chicken_with_spiced_bread.step_4` (ferment)
 
-- transition: written
-- vd_fermenting_jar: 1 recipe, rounding 2%
+- transition: not written: the game can't make `doro_dabo_ethiopian_chicken_with_spiced_bread_step_3`
+- vd_fermenting_jar: 1 recipe, disabled: the game can't make `doro_dabo_ethiopian_chicken_with_spiced_bread_step_3`
 - bnc_keg: none, can't make the mod's own doro_dabo_ethiopian_chicken_with_spiced_bread_step_8, and no other mod provides it
-- pnc_thermo_plant: 1 recipe, rounding 2%
+- pnc_thermo_plant: 1 recipe, disabled: the game can't make `doro_dabo_ethiopian_chicken_with_spiced_bread_step_3`
 - theurgy_fermentation: none, needs a fluid it can take, and has none
 
 ### `doro_dabo_ethiopian_chicken_with_spiced_bread.step_9` (coat)
 
-- shapeless_crafting: 1 recipe, rounding 17% ⚠, estimated
+- shapeless_crafting: 1 recipe, disabled: the game can't make `doro_dabo_ethiopian_chicken_with_spiced_bread_step_8`
 - create_deploying: none, whole items would distort it by 275%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
@@ -46227,9 +46671,16 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `double_hamburgers.step_6` (assemble)
 
-- shapeless_crafting: 1 recipe, rounding 7%, estimated
+- shapeless_crafting: 1 recipe, disabled: the game can't make `hamburger_bun`
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
+
+### `douchi.ferment` (ferment)
+
+- vd_fermenting_jar: none, whole items would distort it by 110%
+- bnc_keg: none, can't make the mod's own douchi, and no other mod provides it
+- pnc_thermo_plant: 1 recipe, rounding 14%
+- theurgy_fermentation: none, needs a fluid it can take, and has none
 
 ### `douchi.mold` (mold)
 
@@ -46240,6 +46691,17 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_mixing: 4 recipes, rounding 14%, estimated
 - shapeless_crafting: none, whole items would distort it by 791%
 - hexerei_mixing_cauldron: none, whole items would distort it by 627%
+
+### `doughnut.fry` (fry)
+
+- create_heated_mixing: 1 recipe, rounding 8%
+- pnc_thermo_plant: none, whole items would distort it by 765%
+
+### `doughnut.knead` (knead)
+
+- create_mixing: 1 recipe, rounding 14%, estimated
+- shapeless_crafting: none, whole items would distort it by 199%
+- hexerei_mixing_cauldron: none, whole items would distort it by 187%
 
 ### `dovga_azerbaijani_yogurt_soup.step_2` (mix)
 
@@ -46315,9 +46777,19 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 - transition: written
 
+### `dried_chili.dry` (dry)
+
+- transition: written
+- hexerei_drying_rack: 1 recipe, rounding 41% ⚠
+
 ### `dried_chili.stale` (stale)
 
 - transition: written
+
+### `dried_fruit.dry` (dry)
+
+- transition: written
+- hexerei_drying_rack: none, whole items would distort it by 150%
 
 ### `dried_fruit.stale` (stale)
 
@@ -46491,6 +46963,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 ### `dry_toast.mold` (mold)
 
 - transition: written
+
+### `dryfish.smoke` (smoke)
+
+- smoking: 1 recipe, rounding 64% ⚠
+- campfire: 1 recipe, rounding 64% ⚠
 
 ### `dublin_lamb_stew.step_1` (pan_fry)
 
@@ -46669,6 +47146,12 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 ### `dulce_de_leche.mold` (mold)
 
 - transition: written
+
+### `dulce_de_leche.simmer` (simmer)
+
+- create_heated_mixing: 1 recipe, rounding 9%
+- fd_cooking_pot: 1 recipe, rounding 9%
+- hexerei_mixing_cauldron: 1 recipe, rounding 15%
 
 ### `dumboy_and_pepper_soup.step_1` (boil)
 
@@ -46902,8 +47385,8 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `dynamite_shrimp.step_1` (mix)
 
-- create_mixing: 1 recipe, rounding 15%, estimated
-- shapeless_crafting: 1 recipe, rounding 8%, estimated
+- create_mixing: 1 recipe, disabled: the game can't make `cajun_seasoning`
+- shapeless_crafting: 1 recipe, disabled: the game can't make `cajun_seasoning`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `dynamite_shrimp.step_2` (coat)
@@ -47530,9 +48013,8 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `efo_riro.step_5` (fry)
 
-- adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 11%, estimated
-- pnc_thermo_plant: 1 recipe, rounding 14%, estimated
+- create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 15%, estimated
 
 ### `efo_riro.step_6` (mix)
 
@@ -47630,7 +48112,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `egg_cheese_and_phyllo_casserole_banitsa.step_1` (mix)
 
-- create_mixing: 1 recipe, rounding 14%, estimated
+- create_mixing: 1 recipe, disabled: the game can't make `feta_cheese`
 - shapeless_crafting: none, whole items would distort it by 483%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
@@ -47646,30 +48128,30 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `egg_cheese_and_phyllo_casserole_banitsa.step_2` (assemble)
 
-- shapeless_crafting: 1 recipe, rounding 17% ⚠, estimated
+- shapeless_crafting: 1 recipe, disabled: the game can't make `egg_cheese_and_phyllo_casserole_banitsa_step_1`
 - create_deploying: none, whole items would distort it by 275%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `egg_cheese_and_phyllo_casserole_banitsa.step_4` (cut)
 
-- fd_cutting_board: 1 recipe, rounding 0%
-- create_cutting: 1 recipe, rounding 0%
+- fd_cutting_board: 1 recipe, disabled: the game can't make `egg_cheese_and_phyllo_casserole_banitsa_step_3`
+- create_cutting: 1 recipe, disabled: the game can't make `egg_cheese_and_phyllo_casserole_banitsa_step_3`
 
 ### `egg_cheese_and_phyllo_casserole_banitsa.step_5` (mix)
 
-- create_mixing: 1 recipe, rounding 15%, estimated
-- shapeless_crafting: 1 recipe, rounding 15% ⚠, estimated
+- create_mixing: 1 recipe, disabled: the game can't make `carbonated_water`, `egg_cheese_and_phyllo_casserole_banitsa_step_4`
+- shapeless_crafting: 1 recipe, disabled: the game can't make `carbonated_water`, `egg_cheese_and_phyllo_casserole_banitsa_step_4`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `egg_cheese_and_phyllo_casserole_banitsa.step_6` (soak)
 
-- create_mixing: 1 recipe, rounding 4%, estimated
-- create_splashing: 1 recipe, rounding 0%, estimated
+- create_mixing: 1 recipe, disabled: the game can't make `egg_cheese_and_phyllo_casserole_banitsa_step_5`
+- create_splashing: 1 recipe, disabled: the game can't make `egg_cheese_and_phyllo_casserole_banitsa_step_5`
 
 ### `egg_cheese_and_phyllo_casserole_banitsa.step_7` (bake)
 
-- smelting: 1 recipe, rounding 17% ⚠, estimated
-- smoking: 1 recipe, rounding 17% ⚠, estimated
+- smelting: 1 recipe, disabled: the game can't make `egg_cheese_and_phyllo_casserole_banitsa_step_6`
+- smoking: 1 recipe, disabled: the game can't make `egg_cheese_and_phyllo_casserole_banitsa_step_6`
 
 ### `egg_in_a_mist.step_1` (assemble)
 
@@ -47813,7 +48295,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 - shapeless_crafting: 1 recipe, disabled: the game can't make `egg_pie_step_5`
 - create_deploying: 1 recipe, disabled: the game can't make `egg_pie_step_5`
-- hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
+- hexerei_mixing_cauldron: 1 recipe, disabled: the game can't make `egg_pie_step_5`
 
 ### `egg_pie.step_8` (bake)
 
@@ -47896,6 +48378,18 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 7%, estimated
 - pnc_thermo_plant: none, takes at most 2 inputs, not 6
+
+### `egg_roll.fry` (fry)
+
+- adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
+- create_heated_mixing: 3 recipes, rounding 12%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
+
+### `egg_roll.mix_filling` (mix)
+
+- create_mixing: 1 recipe, rounding 14%
+- shapeless_crafting: none, whole items would distort it by 1951%
+- hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `egg_roll.step_11` (season)
 
@@ -48000,13 +48494,13 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `egg_soda.step_3` (mix)
 
-- create_mixing: 1 recipe, rounding 4%, estimated
-- shapeless_crafting: 1 recipe, rounding 0%, estimated
+- create_mixing: 1 recipe, disabled: the game can't make `carbonated_water`
+- shapeless_crafting: 1 recipe, disabled: the game can't make `carbonated_water`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `egg_soda.step_4` (chill)
 
-- transition: written
+- transition: not written: the game can't make `egg_soda_step_3`
 - thermal_chiller: none, needs a fluid it can take, and has none
 
 ### `egg_wash.step_1` (whisk)
@@ -48087,6 +48581,12 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - fd_cooking_pot: 1 recipe, rounding 17% ⚠, estimated
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
+### `eggnog.heat` (heat)
+
+- create_heated_mixing: 2 recipes, rounding 13%, estimated
+- fd_cooking_pot: 2 recipes, rounding 22% ⚠, estimated
+- hexerei_mixing_cauldron: 2 recipes, rounding 17% ⚠, estimated
+
 ### `eggnog.step_2` (mix)
 
 - create_mixing: 1 recipe, rounding 7%, estimated
@@ -48118,6 +48618,10 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 - transition: written
 - thermal_chiller: none, needs a fluid it can take, and has none
+
+### `eggnog.whisk` (whisk)
+
+- create_mixing: 1 recipe, rounding 14%, estimated
 
 ### `eggplant.freezer_burn` (freezer_burn)
 
@@ -48876,7 +49380,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 - shapeless_crafting: 1 recipe, disabled: the game can't make `ekpang_nkukwo_step_4`
 - create_deploying: 1 recipe, disabled: the game can't make `ekpang_nkukwo_step_4`
-- hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
+- hexerei_mixing_cauldron: 1 recipe, disabled: the game can't make `ekpang_nkukwo_step_4`
 
 ### `ekpang_nkukwo.step_7` (assemble)
 
@@ -49070,13 +49574,24 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - transition: written
 - thermal_chiller: none, needs a fluid it can take, and has none
 
+### `english_muffins.bake` (bake)
+
+- smelting: none, whole items would distort it by 150%
+- smoking: none, whole items would distort it by 150%
+
 ### `english_muffins.freezer_burn` (freezer_burn)
 
-- transition: written
+- transition: not written: the game can't make `english_muffins`
+
+### `english_muffins.knead_dough` (knead)
+
+- create_mixing: 1 recipe, rounding 11%, estimated
+- shapeless_crafting: 1 recipe, rounding 11%, estimated
+- hexerei_mixing_cauldron: 1 recipe, rounding 14%, estimated
 
 ### `english_muffins.mold` (mold)
 
-- transition: written
+- transition: not written: the game can't make `english_muffins`
 
 ### `english_pea_salad.step_1` (boil)
 
@@ -49691,9 +50206,9 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `ewedu_soup_yoruba_style.step_5` (season)
 
-- create_mixing: 1 recipe, rounding 15%, estimated
+- create_mixing: 2 recipes, rounding 15%, estimated
 - shapeless_crafting: 1 recipe, rounding 13%, estimated
-- hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
+- hexerei_mixing_cauldron: 1 recipe, rounding 15%, estimated
 
 ### `ewedu_soup_yoruba_style.step_6` (simmer)
 
@@ -49810,7 +50325,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `fairy_cakes.step_7` (assemble)
 
-- shapeless_crafting: 1 recipe, rounding 7%
+- shapeless_crafting: 1 recipe, rounding 12%, estimated
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
@@ -50342,6 +50857,15 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 13%, estimated
 - thermal_centrifuge: 1 recipe, rounding 13%, estimated
+
+### `feta_cheese.age` (age)
+
+- vd_fermenting_jar: none, whole items would distort it by 1400%
+- bnc_keg: none, can't make the mod's own feta_cheese, and no other mod provides it
+
+### `feta_cheese.coagulate` (coagulate)
+
+- create_mixing: 1 recipe, rounding 15%
 
 ### `feuerzangenbowle_german_wine_punch.step_1` (heat)
 
@@ -51010,9 +51534,8 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `fish_biryani.step_5` (fry)
 
-- adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 15%, estimated
-- pnc_thermo_plant: none, takes at most 2 inputs, not 3
+- create_heated_mixing: 1 recipe, rounding 8%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 15%, estimated
 
 ### `fish_biryani.step_6` (fry)
 
@@ -51024,6 +51547,16 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - shapeless_crafting: none, whole items would distort it by 1421%
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
+
+### `fish_jerky.age` (age)
+
+- vd_fermenting_jar: none, whole items would distort it by 529%
+- bnc_keg: none, can't make the mod's own salted_fish_strips, and no other mod provides it
+
+### `fish_jerky.dry` (dry)
+
+- transition: not written: the game can't make `salted_fish_strips`
+- hexerei_drying_rack: 1 recipe, disabled: the game can't make `salted_fish_strips`
 
 ### `fish_pie.step_1` (assemble)
 
@@ -51065,6 +51598,19 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 - smelting: 1 recipe, disabled: the game can't make `fish_pie_step_8`
 - smoking: 1 recipe, disabled: the game can't make `fish_pie_step_8`
+
+### `fish_sauce.ferment` (ferment)
+
+- vd_fermenting_jar: 1 recipe, rounding 25% ⚠
+- bnc_keg: none, can't make the mod's own fermented_anchovy, and no other mod provides it
+- pnc_thermo_plant: 1 recipe, rounding 14%
+- theurgy_fermentation: none, needs a fluid it can take, and has none
+
+### `fish_sauce.press` (press)
+
+- create_item_drain: none, the item drain takes one item and yields one item and one fluid
+- create_mixing: 1 recipe, rounding 14%
+- thermal_press: 1 recipe, rounding 14%
 
 ### `fish_sauce_vegan.step_1` (assemble)
 
@@ -51175,6 +51721,17 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 - transition: written
 
+### `fishball.boil` (boil)
+
+- create_heated_mixing: 1 recipe, disabled: the game can't make `fish_paste`
+- fd_cooking_pot: 1 recipe, disabled: the game can't make `fish_paste`
+- hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
+
+### `fishball.grind` (grind)
+
+- create_milling: none, takes one input, not 3
+- hexerei_pestle_and_mortar: none, whole items would distort it by 2355%
+
 ### `fisherman_s_casserole.step_2` (boil)
 
 - create_heated_mixing: 1 recipe, rounding 0%
@@ -51207,26 +51764,25 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `fit_fit_ethiopian_bread_salad.step_1` (heat)
 
-- create_heated_mixing: 1 recipe, rounding 8%, estimated
-- fd_cooking_pot: 1 recipe, rounding 6%, estimated
+- create_heated_mixing: 1 recipe, disabled: the game can't make `niter_kibbeh_heat`
+- fd_cooking_pot: 1 recipe, disabled: the game can't make `niter_kibbeh_heat`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `fit_fit_ethiopian_bread_salad.step_1.prep_1` (heat)
 
-- create_heated_mixing: 1 recipe, rounding 8%
-- fd_cooking_pot: 1 recipe, rounding 6%
+- create_heated_mixing: 1 recipe, disabled: the game can't make `niter_kibbeh`
+- fd_cooking_pot: 1 recipe, disabled: the game can't make `niter_kibbeh`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `fit_fit_ethiopian_bread_salad.step_2` (pan_fry)
 
-- adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 13%, estimated
-- pnc_thermo_plant: none, takes at most 2 inputs, not 3
+- create_heated_mixing: 1 recipe, disabled: the game can't make `niter_kibbeh_heat_heat`
+- pnc_thermo_plant: 1 recipe, disabled: the game can't make `niter_kibbeh_heat_heat`
 
 ### `fit_fit_ethiopian_bread_salad.step_3` (heat)
 
-- create_heated_mixing: 1 recipe, rounding 0%
-- fd_cooking_pot: 1 recipe, rounding 0%
+- create_heated_mixing: 1 recipe, disabled: the game can't make `fit_fit_ethiopian_bread_salad_step_2`
+- fd_cooking_pot: 1 recipe, disabled: the game can't make `fit_fit_ethiopian_bread_salad_step_2`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `fit_fit_ethiopian_bread_salad.step_3.prep_4` (chop)
@@ -51587,9 +52143,8 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `florida_style_crab_cakes.step_7` (pan_fry)
 
-- adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 13%
-- pnc_thermo_plant: none, takes at most 2 inputs, not 3
+- create_heated_mixing: 1 recipe, rounding 6%
+- pnc_thermo_plant: 1 recipe, rounding 14%
 
 ### `florida_style_crab_cakes.step_8` (pan_fry)
 
@@ -51761,7 +52316,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 - shapeless_crafting: 1 recipe, rounding 0%
 - create_deploying: none, deploying takes exactly two items
-- hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
+- hexerei_mixing_cauldron: 1 recipe, rounding 0%
 - create_compacting: 1 recipe, rounding 0%
 
 ### `four_in_one_pizza.step_5` (coat)
@@ -52357,43 +52912,43 @@ No routes: it yields one of several outcomes, which no route supports yet.
 
 ### `fried_bacon_and_egg_sandwich_homemade_egg_mcmuffin.step_1` (toast)
 
-- smelting: 1 recipe, rounding 50% ⚠
-- smoking: 1 recipe, rounding 50% ⚠
-- thermal_smelter: 1 recipe, rounding 50% ⚠
+- smelting: 1 recipe, disabled: the game can't make `english_muffins_toast`
+- smoking: 1 recipe, disabled: the game can't make `english_muffins_toast`
+- thermal_smelter: 1 recipe, disabled: the game can't make `english_muffins_toast`
 
 ### `fried_bacon_and_egg_sandwich_homemade_egg_mcmuffin.step_1.prep_1` (toast)
 
-- smelting: 1 recipe, rounding 0%
-- smoking: 1 recipe, rounding 0%
-- thermal_smelter: 1 recipe, rounding 0%
+- smelting: 1 recipe, disabled: the game can't make `english_muffins`
+- smoking: 1 recipe, disabled: the game can't make `english_muffins`
+- thermal_smelter: 1 recipe, disabled: the game can't make `english_muffins`
 
 ### `fried_bacon_and_egg_sandwich_homemade_egg_mcmuffin.step_2` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 7%
+- create_heated_mixing: 1 recipe, disabled: the game can't make `english_muffins_toast_toast`
 - pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `fried_bacon_and_egg_sandwich_homemade_egg_mcmuffin.step_3` (dry)
 
-- transition: written
-- hexerei_drying_rack: 1 recipe, rounding 0%
+- transition: not written: the game can't make `fried_bacon_and_egg_sandwich_homemade_egg_mcmuffin_step_2`
+- hexerei_drying_rack: 1 recipe, disabled: the game can't make `fried_bacon_and_egg_sandwich_homemade_egg_mcmuffin_step_2`
 
 ### `fried_bacon_and_egg_sandwich_homemade_egg_mcmuffin.step_4` (separate)
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
-- create_mixing: 1 recipe, rounding 15%, estimated
-- thermal_centrifuge: 1 recipe, rounding 15%, estimated
+- create_mixing: 1 recipe, disabled: the game can't make `fried_bacon_and_egg_sandwich_homemade_egg_mcmuffin_step_3`
+- thermal_centrifuge: 1 recipe, disabled: the game can't make `fried_bacon_and_egg_sandwich_homemade_egg_mcmuffin_step_3`
 
 ### `fried_bacon_and_egg_sandwich_homemade_egg_mcmuffin.step_7` (toast)
 
-- smelting: 1 recipe, rounding 17% ⚠, estimated
-- smoking: 1 recipe, rounding 17% ⚠, estimated
-- thermal_smelter: 1 recipe, rounding 17% ⚠, estimated
+- smelting: 1 recipe, disabled: the game can't make `fried_bacon_and_egg_sandwich_homemade_egg_mcmuffin_step_4`
+- smoking: 1 recipe, disabled: the game can't make `fried_bacon_and_egg_sandwich_homemade_egg_mcmuffin_step_4`
+- thermal_smelter: 1 recipe, disabled: the game can't make `fried_bacon_and_egg_sandwich_homemade_egg_mcmuffin_step_4`
 
 ### `fried_bacon_and_egg_sandwich_homemade_egg_mcmuffin.step_8` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 7%
+- create_heated_mixing: 1 recipe, disabled: the game can't make `fried_bacon_and_egg_sandwich_homemade_egg_mcmuffin_step_7`
 - pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `fried_bananas.step_2` (season)
@@ -52421,8 +52976,8 @@ No routes: it yields one of several outcomes, which no route supports yet.
 
 ### `fried_bread.step_2` (heat)
 
-- create_heated_mixing: 1 recipe, rounding 11%, estimated
-- fd_cooking_pot: 1 recipe, rounding 3%, estimated
+- create_heated_mixing: 1 recipe, rounding 15%, estimated
+- fd_cooking_pot: 1 recipe, rounding 14%, estimated
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `fried_bread.step_3` (fry)
@@ -52431,9 +52986,22 @@ No routes: it yields one of several outcomes, which no route supports yet.
 - create_heated_mixing: 1 recipe, rounding 15%, estimated
 - pnc_thermo_plant: none, whole items would distort it by 567%
 
+### `fried_chicken.coat` (coat)
+
+- shapeless_crafting: none, whole items would distort it by 501%
+- create_deploying: none, deploying takes exactly two items
+- hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
+- thermal_bottler: none, takes at most 2 inputs, not 5
+
 ### `fried_chicken.freezer_burn` (freezer_burn)
 
 - transition: written
+
+### `fried_chicken.fry` (fry)
+
+- adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
+- create_heated_mixing: 3 recipes, disabled: the game can't make `breaded_chicken`
+- pnc_thermo_plant: 3 recipes, disabled: the game can't make `breaded_chicken`
 
 ### `fried_chicken.spoil` (spoil)
 
@@ -52566,6 +53134,19 @@ No routes: it yields one of several outcomes, which no route supports yet.
 - create_heated_mixing: 1 recipe, disabled: the game can't make `fried_fish_step_7`
 - pnc_thermo_plant: 1 recipe, disabled: the game can't make `fried_fish_step_7`
 
+### `fried_green_tomatoes.coat` (coat)
+
+- shapeless_crafting: none, whole items would distort it by 101%
+- create_deploying: none, deploying takes exactly two items
+- hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
+- thermal_bottler: none, takes at most 2 inputs, not 6
+
+### `fried_green_tomatoes.fry` (fry)
+
+- adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
+- create_heated_mixing: 2 recipes, disabled: the game can't make `breaded_green_tomato_slices`
+- pnc_thermo_plant: 2 recipes, disabled: the game can't make `breaded_green_tomato_slices`
+
 ### `fried_green_tomatoes.step_2` (season)
 
 - create_mixing: 1 recipe, disabled: the game can't make `tomato_chop_chop`
@@ -52648,6 +53229,11 @@ No routes: it yields one of several outcomes, which no route supports yet.
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
 - thermal_centrifuge: 1 recipe, rounding 0%
+
+### `fried_onion.pan_fry` (pan_fry)
+
+- create_heated_mixing: 2 recipes, rounding 14%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `fried_onion_blooms.step_10` (coat)
 
@@ -52984,7 +53570,6 @@ No routes: it yields one of several outcomes, which no route supports yet.
 
 ### `fried_wheat_bread_balls_bhatoora.step_7` (fry)
 
-- adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
 - pnc_thermo_plant: 1 recipe, rounding 0%
 
@@ -53272,13 +53857,39 @@ No routes: it yields one of several outcomes, which no route supports yet.
 - create_heated_mixing: 1 recipe, rounding 7%
 - pnc_thermo_plant: 1 recipe, rounding 7%
 
+### `fromage_frais.coagulate` (coagulate)
+
+- create_mixing: none, whole items would distort it by 170%
+
+### `fromage_frais.mix` (mix)
+
+- create_mixing: 1 recipe, disabled: the game can't make `fresh_curd`
+- shapeless_crafting: none, whole items would distort it by 129%
+- hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
+
 ### `fromage_frais.sour` (sour)
 
-- transition: written
+- transition: not written: the game can't make `fromage_frais`
 
 ### `frosting_and_icing.stale` (stale)
 
 - transition: written
+
+### `fruit_cake.bake` (bake)
+
+- smelting: 3 recipes, rounding 62% ⚠, estimated
+- smoking: 3 recipes, rounding 62% ⚠, estimated
+
+### `fruit_cake.mix` (mix)
+
+- create_mixing: 1 recipe, rounding 15%, estimated
+- shapeless_crafting: none, whole items would distort it by 900%
+- hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
+
+### `fruit_cake.soak` (soak)
+
+- create_mixing: 1 recipe, rounding 15%
+- create_splashing: none, takes one input, not 5
 
 ### `fruit_cake.step_1` (whisk)
 
@@ -53317,6 +53928,12 @@ No routes: it yields one of several outcomes, which no route supports yet.
 - fd_cutting_board: 1 recipe, rounding 0%
 - create_cutting: 1 recipe, rounding 0%
 
+### `fruit_cocktail.mix` (mix)
+
+- create_mixing: 1 recipe, rounding 13%, estimated
+- shapeless_crafting: 1 recipe, rounding 15% ⚠, estimated
+- hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
+
 ### `fruit_cocktail.stale` (stale)
 
 - transition: written
@@ -53337,6 +53954,12 @@ No routes: it yields one of several outcomes, which no route supports yet.
 
 - smelting: 1 recipe, rounding 56% ⚠, estimated
 - smoking: 1 recipe, rounding 56% ⚠, estimated
+
+### `fruit_filling.boil` (boil)
+
+- create_heated_mixing: 1 recipe, rounding 14%
+- fd_cooking_pot: none, whole items would distort it by 530%
+- hexerei_mixing_cauldron: none, whole items would distort it by 237%
 
 ### `fruit_filling.mold` (mold)
 
@@ -53377,6 +54000,10 @@ No routes: it yields one of several outcomes, which no route supports yet.
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
 - thermal_centrifuge: 1 recipe, rounding 0%
+
+### `fruit_nectar.blend` (blend)
+
+- create_mixing: 3 recipes, rounding 15%
 
 ### `fruit_nectar.sour` (sour)
 
@@ -53480,6 +54107,12 @@ No routes: it yields one of several outcomes, which no route supports yet.
 
 - transition: written
 - thermal_chiller: none, needs a fluid it can take, and has none
+
+### `fruit_salt.mix` (mix)
+
+- create_mixing: 1 recipe, rounding 15%, estimated
+- shapeless_crafting: 1 recipe, rounding 0%, estimated
+- hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `fruit_salt.stale` (stale)
 
@@ -53905,7 +54538,7 @@ No routes: it yields one of several outcomes, which no route supports yet.
 
 ### `galaktoboureko_greek_semolina_custard_pastry.step_1` (mix)
 
-- create_mixing: 1 recipe, rounding 15%, estimated
+- create_mixing: 1 recipe, disabled: the game can't make `semolina`
 - shapeless_crafting: none, whole items would distort it by 400%
 - hexerei_mixing_cauldron: none, whole items would distort it by 234%
 
@@ -53917,8 +54550,8 @@ No routes: it yields one of several outcomes, which no route supports yet.
 
 ### `galaktoboureko_greek_semolina_custard_pastry.step_2` (boil)
 
-- create_heated_mixing: 1 recipe, rounding 0%, estimated
-- fd_cooking_pot: 1 recipe, rounding 0%, estimated
+- create_heated_mixing: 1 recipe, disabled: the game can't make `galaktoboureko_greek_semolina_custard_pastry_step_1`
+- fd_cooking_pot: 1 recipe, disabled: the game can't make `galaktoboureko_greek_semolina_custard_pastry_step_1`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `galaktoboureko_greek_semolina_custard_pastry.step_3` (coat)
@@ -54750,6 +55383,11 @@ No routes: it yields one of several outcomes, which no route supports yet.
 - fd_cooking_pot: 1 recipe, rounding 17% ⚠, estimated
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
+### `garlic_powder.grind` (grind)
+
+- create_milling: 1 recipe, rounding 19% ⚠, estimated
+- hexerei_pestle_and_mortar: 1 recipe, rounding 14%, estimated
+
 ### `garlic_powder.stale` (stale)
 
 - transition: written
@@ -55016,7 +55654,7 @@ No routes: it yields one of several outcomes, which no route supports yet.
 
 - create_mixing: 1 recipe, rounding 11%
 - shapeless_crafting: 1 recipe, rounding 25% ⚠
-- hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
+- hexerei_mixing_cauldron: 1 recipe, rounding 15%
 
 ### `gbegiri_soup.step_6` (season)
 
@@ -55097,9 +55735,8 @@ No routes: it yields one of several outcomes, which no route supports yet.
 
 ### `gboma_dessi_and_akoume_togolese_spinach_stew_with_corn_swallow.step_6` (stir_fry)
 
-- adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 7%
-- pnc_thermo_plant: 1 recipe, rounding 7%
+- create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `gboma_dessi_and_akoume_togolese_spinach_stew_with_corn_swallow.step_7` (boil)
 
@@ -55119,6 +55756,21 @@ No routes: it yields one of several outcomes, which no route supports yet.
 - shapeless_crafting: 1 recipe, rounding 15% ⚠, estimated
 - hexerei_mixing_cauldron: 1 recipe, rounding 18% ⚠, estimated
 
+### `gelatin.boil` (boil)
+
+- create_heated_mixing: 3 recipes, rounding 15%
+- fd_cooking_pot: 1 recipe, rounding 10%
+- hexerei_mixing_cauldron: 1 recipe, rounding 15%
+
+### `gelatin.dry` (dry)
+
+- transition: written
+- hexerei_drying_rack: none, whole items would distort it by 200%
+
+### `gelatin.evaporate` (evaporate)
+
+- create_heated_mixing: 1 recipe, rounding 1%
+
 ### `gelatin.stale` (stale)
 
 - transition: written
@@ -55126,6 +55778,12 @@ No routes: it yields one of several outcomes, which no route supports yet.
 ### `gelato.freezer_burn` (freezer_burn)
 
 - transition: written
+
+### `general_tso_s_chicken.mix_sauce` (mix)
+
+- create_mixing: none, whole items would distort it by 335%
+- shapeless_crafting: none, whole items would distort it by 149%
+- hexerei_mixing_cauldron: none, whole items would distort it by 141%
 
 ### `general_tso_s_chicken.step_10` (coat)
 
@@ -55172,6 +55830,11 @@ No routes: it yields one of several outcomes, which no route supports yet.
 - create_heated_mixing: 1 recipe, rounding 0%
 - pnc_thermo_plant: 1 recipe, rounding 0%
 
+### `general_tso_s_chicken.stir_fry` (stir_fry)
+
+- create_heated_mixing: 4 recipes, disabled: the game can't make `general_tso_s_sauce`
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
+
 ### `genfo_ethiopian_porridge.step_1` (whisk)
 
 - create_mixing: 3 recipes, rounding 5%, estimated
@@ -55196,15 +55859,15 @@ No routes: it yields one of several outcomes, which no route supports yet.
 
 ### `genfo_ethiopian_porridge.step_4` (mix)
 
-- create_mixing: 1 recipe, rounding 12%
+- create_mixing: 1 recipe, disabled: the game can't make `niter_kibbeh`
 - shapeless_crafting: none, whole items would distort it by 1403%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `genfo_ethiopian_porridge.step_6` (season)
 
-- create_mixing: 1 recipe, disabled: the game can't make `berbere`
-- shapeless_crafting: 1 recipe, disabled: the game can't make `berbere`
-- hexerei_mixing_cauldron: 2 recipes, disabled: the game can't make `berbere`
+- create_mixing: 1 recipe, disabled: the game can't make `berbere`, `genfo_ethiopian_porridge_step_5`
+- shapeless_crafting: 1 recipe, disabled: the game can't make `berbere`, `genfo_ethiopian_porridge_step_5`
+- hexerei_mixing_cauldron: 2 recipes, disabled: the game can't make `berbere`, `genfo_ethiopian_porridge_step_5`
 
 ### `german_meatballs.step_1` (mix)
 
@@ -55455,12 +56118,6 @@ No routes: it yields one of several outcomes, which no route supports yet.
 - smoking: none, takes one input, not 10
 - thermal_smelter: none, takes at most 3 inputs, not 10
 
-### `ghavoot_iranian_nut_and_seed_powder.step_1.prep_1` (roast)
-
-- smelting: 1 recipe, rounding 0%, estimated
-- smoking: 1 recipe, rounding 0%, estimated
-- thermal_smelter: 1 recipe, rounding 0%, estimated
-
 ### `ghavoot_iranian_nut_and_seed_powder.step_1.prep_10` (roast)
 
 - smelting: 1 recipe, rounding 0%, estimated
@@ -55528,9 +56185,8 @@ No routes: it yields one of several outcomes, which no route supports yet.
 
 ### `ghevar_rajasthani_honeycomb_fritter.step_10` (fry)
 
-- adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 11%
-- pnc_thermo_plant: 1 recipe, rounding 13%
+- create_heated_mixing: 1 recipe, rounding 2%
+- pnc_thermo_plant: 1 recipe, rounding 2%
 
 ### `ghevar_rajasthani_honeycomb_fritter.step_11` (soak)
 
@@ -55539,7 +56195,6 @@ No routes: it yields one of several outcomes, which no route supports yet.
 
 ### `ghevar_rajasthani_honeycomb_fritter.step_12` (fry)
 
-- adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 14%
 - pnc_thermo_plant: 1 recipe, rounding 14%
 
@@ -55569,15 +56224,13 @@ No routes: it yields one of several outcomes, which no route supports yet.
 
 ### `ghevar_rajasthani_honeycomb_fritter.step_7` (fry)
 
-- adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 12%, estimated
-- pnc_thermo_plant: 1 recipe, rounding 27% ⚠, estimated
+- create_heated_mixing: 1 recipe, rounding 7%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 15%, estimated
 
 ### `ghevar_rajasthani_honeycomb_fritter.step_9` (fry)
 
-- adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 11%
-- pnc_thermo_plant: 1 recipe, rounding 13%
+- create_heated_mixing: 1 recipe, rounding 2%
+- pnc_thermo_plant: 1 recipe, rounding 2%
 
 ### `ghormeh_sabzi_iranian_herb_stew.step_1` (boil)
 
@@ -55611,8 +56264,8 @@ No routes: it yields one of several outcomes, which no route supports yet.
 
 ### `ghormeh_sabzi_iranian_herb_stew.step_13.prep_15` (grind)
 
-- create_milling: 1 recipe, rounding 0%
-- hexerei_pestle_and_mortar: 1 recipe, rounding 0%
+- create_milling: 1 recipe, rounding 17% ⚠, estimated
+- hexerei_pestle_and_mortar: 1 recipe, rounding 0%, estimated
 
 ### `ghormeh_sabzi_iranian_herb_stew.step_2` (separate)
 
@@ -55828,6 +56481,10 @@ No routes: it yields one of several outcomes, which no route supports yet.
 - fd_cutting_board: 1 recipe, rounding 11%
 - create_cutting: 1 recipe, rounding 11%
 
+### `gin.distill_botanicals` (distill)
+
+- create_heated_mixing: 1 recipe, rounding 78% ⚠
+
 ### `gin_fried_rice.step_2` (stir_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
@@ -55870,8 +56527,8 @@ No routes: it yields one of several outcomes, which no route supports yet.
 
 ### `ginger_ale.step_4` (mix)
 
-- create_mixing: 2 recipes, rounding 14%, estimated
-- shapeless_crafting: 2 recipes, rounding 14%, estimated
+- create_mixing: 2 recipes, disabled: the game can't make `carbonated_water`
+- shapeless_crafting: 2 recipes, disabled: the game can't make `carbonated_water`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `ginger_beer.step_1` (simmer)
@@ -55924,6 +56581,11 @@ No routes: it yields one of several outcomes, which no route supports yet.
 
 - transition: not written: the game can't make `ginger_biscuits_step_5`
 
+### `ginger_garlic_paste.grind` (grind)
+
+- create_milling: none, takes one input, not 2
+- hexerei_pestle_and_mortar: 1 recipe, rounding 14%
+
 ### `ginger_glazed_grilled_peaches.step_1` (evaporate)
 
 - create_heated_mixing: 1 recipe, rounding 15%, estimated
@@ -55937,6 +56599,11 @@ No routes: it yields one of several outcomes, which no route supports yet.
 
 - campfire: 1 recipe, rounding 0%
 - smoking: 1 recipe, rounding 0%
+
+### `ginger_green_chilli_paste.grind` (grind)
+
+- create_milling: none, takes one input, not 2
+- hexerei_pestle_and_mortar: 1 recipe, rounding 13%
 
 ### `ginger_green_chilli_paste.mold` (mold)
 
@@ -56142,7 +56809,7 @@ No routes: it yields one of several outcomes, which no route supports yet.
 
 - create_mixing: 1 recipe, rounding 2%, estimated
 - shapeless_crafting: 1 recipe, rounding 13%, estimated
-- hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
+- hexerei_mixing_cauldron: 1 recipe, rounding 13%, estimated
 
 ### `gingerbread_cookies_frosted_with_royal_icing.step_4` (mix)
 
@@ -56370,6 +57037,18 @@ No routes: it yields one of several outcomes, which no route supports yet.
 - smelting: 1 recipe, rounding 0%
 - smoking: 1 recipe, rounding 0%
 
+### `gluten.knead_dough` (knead)
+
+- create_mixing: 1 recipe, rounding 7%
+- shapeless_crafting: 1 recipe, rounding 7%
+- hexerei_mixing_cauldron: 1 recipe, rounding 15%
+
+### `gluten.wash` (separate)
+
+- create_item_drain: none, the item drain takes one item and yields one item and one fluid
+- create_mixing: 3 recipes, rounding 15%, estimated
+- thermal_centrifuge: none, takes one input, not 2
+
 ### `gluten_veggie_meat.step_1` (mix)
 
 - create_mixing: 1 recipe, rounding 12%, estimated
@@ -56549,6 +57228,12 @@ No routes: it yields one of several outcomes, which no route supports yet.
 
 - transition: written
 
+### `golden_syrup.boil` (boil)
+
+- create_heated_mixing: none, whole items would distort it by 200%
+- fd_cooking_pot: none, whole items would distort it by 194%
+- hexerei_mixing_cauldron: 1 recipe, rounding 57% ⚠, estimated
+
 ### `golden_syrup.stale` (stale)
 
 - transition: written
@@ -56670,7 +57355,7 @@ No routes: it yields one of several outcomes, which no route supports yet.
 
 ### `gored_gored_ethiopian_raw_beef.step_1` (mix)
 
-- create_mixing: 1 recipe, disabled: the game can't make `berbere`
+- create_mixing: 1 recipe, disabled: the game can't make `berbere`, `niter_kibbeh_heat`
 - shapeless_crafting: none, whole items would distort it by 610%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
@@ -56866,9 +57551,20 @@ No routes: it yields one of several outcomes, which no route supports yet.
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - create_compacting: 1 recipe, rounding 13%, estimated
 
+### `graham_cracker.bake` (bake)
+
+- smelting: 1 recipe, disabled: the game can't make `graham_dough`
+- smoking: 1 recipe, disabled: the game can't make `graham_dough`
+
+### `graham_cracker.mix_dough` (mix)
+
+- create_mixing: 3 recipes, disabled: the game can't make `whole_wheat_flour`
+- shapeless_crafting: none, whole items would distort it by 145%
+- hexerei_mixing_cauldron: 1 recipe, disabled: the game can't make `whole_wheat_flour`
+
 ### `graham_cracker.stale` (stale)
 
-- transition: written
+- transition: not written: the game can't make `graham_cracker`
 
 ### `grain_rice.stale` (stale)
 
@@ -57045,6 +57741,12 @@ No routes: it yields one of several outcomes, which no route supports yet.
 
 - transition: written
 
+### `grape_juice.press` (press)
+
+- create_item_drain: none, the item drain takes one item and yields one item and one fluid
+- create_mixing: 3 recipes, rounding 10%
+- thermal_press: none, whole items would distort it by 114%
+
 ### `grape_lassi.step_1` (blend)
 
 - create_mixing: 4 recipes, rounding 15%, estimated
@@ -57123,6 +57825,12 @@ No routes: it yields one of several outcomes, which no route supports yet.
 
 - fd_cutting_board: 1 recipe, rounding 16% ⚠
 - create_cutting: 1 recipe, rounding 16% ⚠
+
+### `gravy.heat` (heat)
+
+- create_heated_mixing: 2 recipes, rounding 13%, estimated
+- fd_cooking_pot: none, whole items would distort it by 121%
+- hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `gravy.mold` (mold)
 
@@ -57209,8 +57917,8 @@ No routes: it yields one of several outcomes, which no route supports yet.
 
 ### `greek_chicken_wrap.step_1` (mix)
 
-- create_mixing: 1 recipe, rounding 14%, estimated
-- shapeless_crafting: 1 recipe, rounding 14%, estimated
+- create_mixing: 1 recipe, disabled: the game can't make `feta_cheese`
+- shapeless_crafting: 1 recipe, disabled: the game can't make `feta_cheese`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `greek_chicken_wrap.step_2` (assemble)
@@ -57734,8 +58442,8 @@ No routes: it yields one of several outcomes, which no route supports yet.
 
 ### `grenadine_soda.step_1` (mix)
 
-- create_mixing: 1 recipe, rounding 0%, estimated
-- shapeless_crafting: 1 recipe, rounding 0%, estimated
+- create_mixing: 1 recipe, disabled: the game can't make `carbonated_water`
+- shapeless_crafting: 1 recipe, disabled: the game can't make `carbonated_water`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `grill_seasoning.step_1` (mix)
@@ -57843,6 +58551,11 @@ No routes: it yields one of several outcomes, which no route supports yet.
 
 - campfire: 1 recipe, rounding 0%
 - smoking: 1 recipe, rounding 0%
+
+### `grilled_eggplant.grill` (grill)
+
+- campfire: none, takes one input, not 5
+- smoking: none, takes one input, not 5
 
 ### `grilled_eggplant_with_garlic_butter.step_1` (fold)
 
@@ -58262,6 +58975,12 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - campfire: 1 recipe, rounding 0%
 - smoking: 1 recipe, rounding 0%
 
+### `grits.grind` (separate)
+
+- create_item_drain: none, the item drain takes one item and yields one item and one fluid
+- create_mixing: 2 recipes, rounding 7%, estimated
+- thermal_centrifuge: none, whole items would distort it by 733%
+
 ### `grits.stale` (stale)
 
 - transition: written
@@ -58336,9 +59055,8 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `ground_beef_and_potato_taquitos.step_6` (fry)
 
-- adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 11%
-- pnc_thermo_plant: none, takes at most 2 inputs, not 3
+- pnc_thermo_plant: none, doesn't fit in 1 input items, 1 of each, and 1000 mB tanks at any scale
 
 ### `ground_black_pepper.stale` (stale)
 
@@ -58348,17 +59066,43 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 - transition: written
 
+### `ground_cardamom.grind` (blend)
+
+- create_mixing: 1 recipe, rounding 15%, estimated
+
 ### `ground_cardamom.stale` (stale)
 
 - transition: written
+
+### `ground_cinnamon.grind` (blend)
+
+- create_mixing: 2 recipes, rounding 3%, estimated
 
 ### `ground_cinnamon.stale` (stale)
 
 - transition: written
 
+### `ground_coriander.grind` (blend)
+
+- create_mixing: 1 recipe, rounding 4%, estimated
+
 ### `ground_coriander.stale` (stale)
 
 - transition: written
+
+### `ground_crayfish.dry` (dry)
+
+- transition: written
+- hexerei_drying_rack: none, whole items would distort it by 260%
+
+### `ground_crayfish.grind` (grind)
+
+- create_milling: 1 recipe, rounding 56% ⚠, estimated
+- hexerei_pestle_and_mortar: 1 recipe, rounding 13%, estimated
+
+### `ground_cumin.grind` (blend)
+
+- create_mixing: 1 recipe, rounding 14%, estimated
 
 ### `ground_cumin.stale` (stale)
 
@@ -58368,13 +59112,40 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 - transition: written
 
+### `ground_fish.grind` (grind)
+
+- create_milling: 2 recipes, rounding 20% ⚠
+- hexerei_pestle_and_mortar: 2 recipes, rounding 2%
+
+### `ground_fresh_pepper.grind` (separate)
+
+- create_item_drain: none, the item drain takes one item and yields one item and one fluid
+- create_mixing: 1 recipe, rounding 12%, estimated
+- thermal_centrifuge: 1 recipe, rounding 12%, estimated
+
 ### `ground_fresh_pepper.stale` (stale)
 
 - transition: written
 
+### `ground_ginger.dry` (dry)
+
+- transition: written
+- hexerei_drying_rack: none, whole items would distort it by 350%
+
+### `ground_ginger.grind` (grind)
+
+- create_milling: 1 recipe, rounding 28% ⚠, estimated
+- hexerei_pestle_and_mortar: 1 recipe, rounding 15%, estimated
+
 ### `ground_ginger.stale` (stale)
 
 - transition: written
+
+### `ground_gingerbread_spices.mix` (mix)
+
+- create_mixing: 1 recipe, rounding 15%, estimated
+- shapeless_crafting: 1 recipe, rounding 21% ⚠, estimated
+- hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `ground_gingerbread_spices.stale` (stale)
 
@@ -58392,6 +59163,10 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 - transition: written
 
+### `ground_nutmeg.grind` (blend)
+
+- create_mixing: 2 recipes, rounding 3%, estimated
+
 ### `ground_nutmeg.stale` (stale)
 
 - transition: written
@@ -58403,6 +59178,10 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 ### `ground_red_pepper.stale` (stale)
 
 - transition: written
+
+### `ground_sesame_seeds.grind` (blend)
+
+- create_mixing: 1 recipe, rounding 14%, estimated
 
 ### `ground_sesame_seeds.rancid` (rancid)
 
@@ -58475,15 +59254,13 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `groundnut_soup.step_4` (fry)
 
-- adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 14%
-- pnc_thermo_plant: none, takes at most 2 inputs, not 4
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `groundnut_soup.step_5` (fry)
 
-- adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 15%, estimated
-- pnc_thermo_plant: none, takes at most 2 inputs, not 3
+- pnc_thermo_plant: 1 recipe, rounding 15%, estimated
 
 ### `groundnut_soup.step_6` (mix)
 
@@ -58603,13 +59380,18 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - shapeless_crafting: 1 recipe, disabled: the game can't make `avocado_cut_cut_blend`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
+### `guanciale.cure` (age)
+
+- vd_fermenting_jar: none, whole items would distort it by 1325%
+- bnc_keg: none, can't make the mod's own guanciale, and no other mod provides it
+
 ### `guanciale.freezer_burn` (freezer_burn)
 
-- transition: written
+- transition: not written: the game can't make `guanciale`
 
 ### `guanciale.spoil` (spoil)
 
-- transition: written
+- transition: not written: the game can't make `guanciale`
 
 ### `gudeg_green_jackfruit_stew.step_1` (cut)
 
@@ -59471,17 +60253,22 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `hamburger.step_5` (assemble)
 
-- shapeless_crafting: 4 recipes, rounding 7%, estimated
+- shapeless_crafting: 4 recipes, disabled: the game can't make `hamburger_bun`
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
+### `hamburger_bun.bake` (bake)
+
+- smelting: none, takes one input, not 3
+- smoking: none, takes one input, not 3
+
 ### `hamburger_bun.freezer_burn` (freezer_burn)
 
-- transition: written
+- transition: not written: the game can't make `hamburger_bun`
 
 ### `hamburger_bun.mold` (mold)
 
-- transition: written
+- transition: not written: the game can't make `hamburger_bun`
 
 ### `hamburger_fried_rice.step_1` (stir_fry)
 
@@ -59655,6 +60442,14 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 ### `hard_cheese.mold` (mold)
 
 - transition: written
+
+### `hard_cider.ferment` (ferment)
+
+- transition: written
+- vd_fermenting_jar: 1 recipe, rounding 5%
+- bnc_keg: none, can't make the mod's own hard_cider, and no other mod provides it
+- pnc_thermo_plant: 1 recipe, rounding 1%
+- theurgy_fermentation: none, needs a fluid it can take, and has none
 
 ### `hard_cider.sour` (sour)
 
@@ -59954,8 +60749,8 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `hazelnut_cream_soda.step_1` (mix)
 
-- create_mixing: 1 recipe, rounding 11%, estimated
-- shapeless_crafting: 1 recipe, rounding 17% ⚠, estimated
+- create_mixing: 1 recipe, disabled: the game can't make `carbonated_water`
+- shapeless_crafting: 1 recipe, disabled: the game can't make `carbonated_water`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `hazelnut_torte.step_2` (whisk)
@@ -60193,8 +60988,8 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `herbal_energy_drink.step_5` (mix)
 
-- create_mixing: 1 recipe, rounding 0%, estimated
-- shapeless_crafting: 1 recipe, rounding 0%, estimated
+- create_mixing: 1 recipe, disabled: the game can't make `carbonated_water`
+- shapeless_crafting: 1 recipe, disabled: the game can't make `carbonated_water`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `herbal_iced_tea.step_1` (chill)
@@ -60258,6 +61053,12 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 - create_mixing: 1 recipe, rounding 9%, estimated
 - shapeless_crafting: 1 recipe, rounding 25% ⚠, estimated
+- hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
+
+### `herbes_de_provence.mix` (mix)
+
+- create_mixing: 1 recipe, rounding 20% ⚠, estimated
+- shapeless_crafting: 1 recipe, rounding 19% ⚠, estimated
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `hermits.step_3` (mix)
@@ -60640,6 +61441,12 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - fd_cooking_pot: 1 recipe, rounding 50% ⚠, estimated
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
+### `hoisin_sauce.mix` (mix)
+
+- create_mixing: 2 recipes, rounding 11%, estimated
+- shapeless_crafting: 2 recipes, rounding 43% ⚠, estimated
+- hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
+
 ### `hoisin_sauce.mold` (mold)
 
 - transition: written
@@ -60871,7 +61678,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 ### `holzknechtnocken_with_strawberry_curd_au_gratin.step_6` (fold)
 
 - create_mixing: 1 recipe, rounding 15%, estimated
-- shapeless_crafting: 1 recipe, rounding 18% ⚠, estimated
+- shapeless_crafting: 1 recipe, rounding 17% ⚠, estimated
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `homemade_applesauce.step_1` (mix)
@@ -62116,32 +62923,32 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `hopping_john_with_pinto_or_great_northern_beans.step_3` (mix)
 
-- create_mixing: 1 recipe, rounding 13%
-- shapeless_crafting: 1 recipe, rounding 13%
+- create_mixing: 1 recipe, disabled: the game can't make `salt_pork_fry`
+- shapeless_crafting: 1 recipe, disabled: the game can't make `salt_pork_fry`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `hopping_john_with_pinto_or_great_northern_beans.step_3.prep_5` (fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 10%
-- pnc_thermo_plant: 1 recipe, rounding 10%
+- create_heated_mixing: 1 recipe, disabled: the game can't make `salt_pork`
+- pnc_thermo_plant: 1 recipe, disabled: the game can't make `salt_pork`
 
 ### `hopping_john_with_pinto_or_great_northern_beans.step_4` (fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 8%, estimated
+- create_heated_mixing: 1 recipe, disabled: the game can't make `hopping_john_with_pinto_or_great_northern_beans_step_3`
 - pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `hopping_john_with_pinto_or_great_northern_beans.step_5` (mix)
 
-- create_mixing: 1 recipe, rounding 13%
+- create_mixing: 1 recipe, disabled: the game can't make `hopping_john_with_pinto_or_great_northern_beans_step_4`
 - shapeless_crafting: none, whole items would distort it by 482%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `hopping_john_with_pinto_or_great_northern_beans.step_6` (simmer)
 
-- create_heated_mixing: 1 recipe, rounding 13%
-- fd_cooking_pot: 1 recipe, rounding 13%
+- create_heated_mixing: 1 recipe, disabled: the game can't make `hopping_john_with_pinto_or_great_northern_beans_step_5`
+- fd_cooking_pot: 1 recipe, disabled: the game can't make `hopping_john_with_pinto_or_great_northern_beans_step_5`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `horchata.step_1` (grind)
@@ -62376,6 +63183,12 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - pnc_thermo_plant: 1 recipe, rounding 0%
 - theurgy_fermentation: none, needs a fluid it can take, and has none
 
+### `hot_dog.assemble` (assemble)
+
+- shapeless_crafting: 4 recipes, disabled: the game can't make `bun`
+- create_deploying: none, deploying takes exactly two items
+- hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
+
 ### `hot_dog.freezer_burn` (freezer_burn)
 
 - transition: written
@@ -62482,6 +63295,12 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - vd_fermenting_jar: 1 recipe, rounding 0%, estimated
 - bnc_keg: 1 recipe, rounding 0%, estimated
 
+### `hot_sauce.boil` (boil)
+
+- create_heated_mixing: 2 recipes, rounding 14%
+- fd_cooking_pot: none, whole items would distort it by 900%
+- hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
+
 ### `hot_sauce.mold` (mold)
 
 - transition: written
@@ -62508,6 +63327,17 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 - create_mixing: 1 recipe, rounding 14%, estimated
 - shapeless_crafting: none, whole items would distort it by 1233%
+- hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
+
+### `hot_wings.bake` (bake)
+
+- smelting: none, takes one input, not 2
+- smoking: none, takes one input, not 2
+
+### `hot_wings.mix_sauce` (mix)
+
+- create_mixing: 1 recipe, rounding 15%, estimated
+- shapeless_crafting: 1 recipe, rounding 7%, estimated
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `hot_wings.step_1` (mix)
@@ -62558,15 +63388,20 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `huevos_rancheros.step_4` (pan_fry)
 
-- adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 14%, estimated
-- pnc_thermo_plant: none, takes at most 2 inputs, not 3
+- create_heated_mixing: 1 recipe, rounding 11%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 35% ⚠, estimated
 
 ### `huevos_rancheros.step_5` (assemble)
 
 - shapeless_crafting: 1 recipe, rounding 0%
 - create_deploying: 1 recipe, rounding 50% ⚠
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
+
+### `hummus.mix` (mix)
+
+- create_mixing: none, whole items would distort it by 119%
+- shapeless_crafting: none, whole items would distort it by 907%
+- hexerei_mixing_cauldron: none, whole items would distort it by 907%
 
 ### `hummus.spoil` (spoil)
 
@@ -62767,9 +63602,8 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `hyderabadi_fried_bread_with_syrup_and_nuts_double_ka_meetha.step_2` (fry)
 
-- adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 7%, estimated
-- pnc_thermo_plant: none, takes at most 2 inputs, not 3
+- create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 15%, estimated
 
 ### `hyderabadi_fried_bread_with_syrup_and_nuts_double_ka_meetha.step_3` (boil)
 
@@ -62828,9 +63662,9 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `hyderabadi_haleem_ground_meat_and_wheat.step_4.prep_6` (heat)
 
-- create_heated_mixing: 1 recipe, rounding 4%, estimated
+- create_heated_mixing: 2 recipes, rounding 4%, estimated
 - fd_cooking_pot: 1 recipe, rounding 0%, estimated
-- hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
+- hexerei_mixing_cauldron: none, doesn't fit in 8 input items, 8 of each, and 1000 mB tanks at any scale
 
 ### `hyderabadi_haleem_ground_meat_and_wheat.step_5` (simmer)
 
@@ -63129,9 +63963,20 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - pnc_thermo_plant: 1 recipe, rounding 4%, estimated
 - theurgy_fermentation: none, needs a fluid it can take, and has none
 
+### `ice_cream.churn` (churn)
+
+- create_mixing: 3 recipes, rounding 14%, estimated
+- thermal_centrifuge: none, takes one input, not 2
+
 ### `ice_cream.freezer_burn` (freezer_burn)
 
 - transition: written
+
+### `ice_cream.mix` (mix)
+
+- create_mixing: 1 recipe, rounding 15%, estimated
+- shapeless_crafting: 1 recipe, rounding 14%, estimated
+- hexerei_mixing_cauldron: 1 recipe, rounding 15%, estimated
 
 ### `ice_cream_sandwich.step_1` (mix)
 
@@ -63346,31 +64191,31 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `ifumbe_rwandan_cassava_fritters.step_1` (mix)
 
-- create_mixing: 1 recipe, rounding 8%, estimated
-- shapeless_crafting: 1 recipe, rounding 50% ⚠, estimated
+- create_mixing: 1 recipe, disabled: the game can't make `manioc_flour`
+- shapeless_crafting: 1 recipe, disabled: the game can't make `manioc_flour`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `ifumbe_rwandan_cassava_fritters.step_2` (mix)
 
-- create_mixing: 3 recipes, rounding 15%, estimated
-- shapeless_crafting: 1 recipe, rounding 69% ⚠, estimated
-- hexerei_mixing_cauldron: 1 recipe, rounding 15%, estimated
+- create_mixing: 3 recipes, disabled: the game can't make `ifumbe_rwandan_cassava_fritters_step_1`
+- shapeless_crafting: 1 recipe, disabled: the game can't make `ifumbe_rwandan_cassava_fritters_step_1`
+- hexerei_mixing_cauldron: 1 recipe, disabled: the game can't make `ifumbe_rwandan_cassava_fritters_step_1`
 
 ### `ifumbe_rwandan_cassava_fritters.step_4` (fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 11%, estimated
+- create_heated_mixing: 1 recipe, disabled: the game can't make `ifumbe_rwandan_cassava_fritters_step_2`
 - pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `ifumbe_rwandan_cassava_fritters.step_5` (fry)
 
-- create_heated_mixing: 1 recipe, rounding 0%, estimated
-- pnc_thermo_plant: 1 recipe, rounding 15%, estimated
+- create_heated_mixing: 1 recipe, disabled: the game can't make `ifumbe_rwandan_cassava_fritters_step_4`
+- pnc_thermo_plant: 1 recipe, disabled: the game can't make `ifumbe_rwandan_cassava_fritters_step_4`
 
 ### `ifumbe_rwandan_cassava_fritters.step_6` (dry)
 
-- transition: written
-- hexerei_drying_rack: 1 recipe, rounding 0%
+- transition: not written: the game can't make `ifumbe_rwandan_cassava_fritters_step_5`
+- hexerei_drying_rack: 1 recipe, disabled: the game can't make `ifumbe_rwandan_cassava_fritters_step_5`
 
 ### `igbouh_ahi_nigerian_roasted_bambara_nuts.step_1` (season)
 
@@ -64257,7 +65102,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `instant_chocolate_mousse.step_2` (whisk)
 
-- create_mixing: 1 recipe, rounding 7%, estimated
+- create_mixing: 1 recipe, rounding 15%, estimated
 
 ### `instant_chocolate_mousse.step_3` (whisk)
 
@@ -64278,6 +65123,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - shapeless_crafting: none, whole items would distort it by 134%
 - create_deploying: none, whole items would distort it by 1400%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
+
+### `instant_mashed_potato_flakes.dry` (dry)
+
+- transition: written
+- hexerei_drying_rack: none, whole items would distort it by 900%
 
 ### `instant_mashed_potato_flakes.stale` (stale)
 
@@ -64490,6 +65340,20 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_heated_mixing: 1 recipe, disabled: the game can't make `irish_stew_step_1`
 - fd_cooking_pot: 1 recipe, disabled: the game can't make `irish_stew_step_1`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
+
+### `iru.boil` (boil)
+
+- create_heated_mixing: 1 recipe, rounding 11%
+- fd_cooking_pot: 1 recipe, rounding 11%
+- hexerei_mixing_cauldron: 1 recipe, rounding 15%
+
+### `iru.ferment` (ferment)
+
+- transition: written
+- vd_fermenting_jar: 1 recipe, rounding 13%
+- bnc_keg: none, can't make the mod's own iru, and no other mod provides it
+- pnc_thermo_plant: 1 recipe, rounding 13%
+- theurgy_fermentation: none, needs a fluid it can take, and has none
 
 ### `island_ceviche.step_1` (mix)
 
@@ -64746,9 +65610,15 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - smelting: 1 recipe, disabled: the game can't make `italian_crispy_chicken_step_3`
 - smoking: 1 recipe, disabled: the game can't make `italian_crispy_chicken_step_3`
 
+### `italian_dressing.mix` (mix)
+
+- create_mixing: none, whole items would distort it by 370%
+- shapeless_crafting: none, whole items would distort it by 135%
+- hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
+
 ### `italian_dressing.mold` (mold)
 
-- transition: written
+- transition: not written: the game can't make `italian_dressing`
 
 ### `italian_dressing_i.step_1` (assemble)
 
@@ -65145,6 +66015,18 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - campfire: 1 recipe, rounding 0%
 - smoking: 1 recipe, rounding 0%
 
+### `jaggery.boil_syrup` (boil)
+
+- create_heated_mixing: 1 recipe, rounding 4%
+- fd_cooking_pot: 1 recipe, rounding 11%
+- hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
+
+### `jaggery.crystallize` (crystallize)
+
+- create_item_drain: none, the item drain takes one item and yields one item and one fluid
+- create_mixing: 1 recipe, rounding 11%
+- thermal_centrifuge: 1 recipe, rounding 43% ⚠
+
 ### `jahnun_yemenite_layered_pastry.step_1` (mix)
 
 - create_mixing: 1 recipe, rounding 13%, estimated
@@ -65201,8 +66083,8 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `jal_jeera_cumin_mango_lemonade.step_1` (mix)
 
-- create_mixing: 1 recipe, rounding 14%, estimated
-- shapeless_crafting: 1 recipe, rounding 14%, estimated
+- create_mixing: 1 recipe, disabled: the game can't make `carbonated_water`
+- shapeless_crafting: 1 recipe, disabled: the game can't make `carbonated_water`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `jalapeno.freezer_burn` (freezer_burn)
@@ -65628,8 +66510,8 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `jamaican_sorrel_soda.step_5` (mix)
 
-- create_mixing: 1 recipe, rounding 0%, estimated
-- shapeless_crafting: 1 recipe, rounding 0%, estimated
+- create_mixing: 1 recipe, disabled: the game can't make `carbonated_water`
+- shapeless_crafting: 1 recipe, disabled: the game can't make `carbonated_water`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `jambalaya_i.step_1` (mix)
@@ -65806,6 +66688,13 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 - transition: written
 
+### `jasmine_water.steep` (steep)
+
+- create_mixing: none, whole items would distort it by 375%
+- create_splashing: 1 recipe, rounding 12%
+- fr_kettle: none, can't make the mod's own jasmine_water, and no other mod provides it
+- theurgy_liquefaction: none, whole items would distort it by 400%
+
 ### `jello.stale` (stale)
 
 - transition: written
@@ -65873,6 +66762,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - fd_cutting_board: 1 recipe, rounding 0%
 - create_cutting: 1 recipe, rounding 0%
 
+### `jerk_seasoning.grind` (grind)
+
+- create_milling: none, takes one input, not 3
+- hexerei_pestle_and_mortar: 1 recipe, rounding 20% ⚠, estimated
+
 ### `jerk_seasoning.stale` (stale)
 
 - transition: written
@@ -65903,24 +66797,24 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 - smelting: none, takes one input, not 2
 - smoking: none, takes one input, not 2
-- thermal_smelter: 1 recipe, rounding 0%
+- thermal_smelter: 1 recipe, disabled: the game can't make `bun_toast`
 
 ### `jersey_breakfast_dog.step_6.prep_5` (toast)
 
-- smelting: 1 recipe, rounding 0%
-- smoking: 1 recipe, rounding 0%
-- thermal_smelter: 1 recipe, rounding 0%
+- smelting: 1 recipe, disabled: the game can't make `bun`
+- smoking: 1 recipe, disabled: the game can't make `bun`
+- thermal_smelter: 1 recipe, disabled: the game can't make `bun`
 
 ### `jersey_breakfast_dog.step_7` (fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 7%
-- pnc_thermo_plant: 1 recipe, rounding 7%
+- create_heated_mixing: 1 recipe, disabled: the game can't make `jersey_breakfast_dog_step_6`
+- pnc_thermo_plant: 1 recipe, disabled: the game can't make `jersey_breakfast_dog_step_6`
 
 ### `jersey_breakfast_dog.step_8` (heat)
 
-- create_heated_mixing: 1 recipe, rounding 0%
-- fd_cooking_pot: 1 recipe, rounding 0%
+- create_heated_mixing: 1 recipe, disabled: the game can't make `jersey_breakfast_dog_step_7`
+- fd_cooking_pot: 1 recipe, disabled: the game can't make `jersey_breakfast_dog_step_7`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `jhilinga_nepalese_rice_fritters.step_2` (mix)
@@ -65996,9 +66890,9 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `jigarthanda_milk.step_17.prep_11` (simmer)
 
-- create_heated_mixing: 1 recipe, rounding 1%
+- create_heated_mixing: 4 recipes, rounding 1%
 - fd_cooking_pot: 1 recipe, rounding 0%
-- hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
+- hexerei_mixing_cauldron: none, doesn't fit in 8 input items, 8 of each, and 1000 mB tanks at any scale
 
 ### `jigarthanda_milk.step_18` (heat)
 
@@ -66059,7 +66953,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 ### `jigarthanda_milk.step_9` (mix)
 
 - create_mixing: 1 recipe, disabled: the game can't make `jigarthanda_milk_step_8`
-- shapeless_crafting: none, whole items would distort it by 137%
+- shapeless_crafting: 1 recipe, disabled: the game can't make `jigarthanda_milk_step_8`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `john_dory.freezer_burn` (freezer_burn)
@@ -66861,9 +67755,8 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `kashmiri_pulao.step_3` (fry)
 
-- adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 7%
-- pnc_thermo_plant: none, takes at most 2 inputs, not 3
+- create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: none, doesn't fit in 1 input items, 1 of each, and 1000 mB tanks at any scale
 
 ### `kashmiri_pulao.step_4` (stir_fry)
 
@@ -67139,6 +68032,13 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - smelting: 1 recipe, rounding 0%
 - smoking: 1 recipe, rounding 0%
 
+### `kefir.ferment` (ferment)
+
+- vd_fermenting_jar: none, whole items would distort it by 288%
+- bnc_keg: none, can't make the mod's own kefir, and no other mod provides it
+- pnc_thermo_plant: 1 recipe, rounding 15%, estimated
+- theurgy_fermentation: none, whole items would distort it by 385%
+
 ### `kefir.sour` (sour)
 
 - transition: written
@@ -67183,9 +68083,8 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `kele_ka_halwa_fried_bananas_in_milk.step_2` (fry)
 
-- adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, disabled: the game can't make `kele_ka_halwa_fried_bananas_in_milk_step_1`
-- pnc_thermo_plant: none, takes at most 2 inputs, not 3
+- pnc_thermo_plant: 1 recipe, disabled: the game can't make `kele_ka_halwa_fried_bananas_in_milk_step_1`
 
 ### `kele_ka_halwa_fried_bananas_in_milk.step_3` (evaporate)
 
@@ -67198,7 +68097,6 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `kele_ka_halwa_fried_bananas_in_milk.step_5` (fry)
 
-- adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, disabled: the game can't make `kele_ka_halwa_fried_bananas_in_milk_step_4`
 - pnc_thermo_plant: 1 recipe, disabled: the game can't make `kele_ka_halwa_fried_bananas_in_milk_step_4`
 
@@ -67354,8 +68252,8 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `kesari_south_indian_semolina_pudding.step_3` (mix)
 
-- create_mixing: 1 recipe, rounding 5%, estimated
-- shapeless_crafting: 1 recipe, rounding 6%, estimated
+- create_mixing: 1 recipe, disabled: the game can't make `semolina_toast`
+- shapeless_crafting: 1 recipe, disabled: the game can't make `semolina_toast`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `kesari_south_indian_semolina_pudding.step_4` (mix)
@@ -67378,58 +68276,69 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `kesari_south_indian_semolina_pudding.step_7` (fry)
 
-- adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, disabled: the game can't make `kesari_south_indian_semolina_pudding_step_6`
-- pnc_thermo_plant: none, takes at most 2 inputs, not 3
+- pnc_thermo_plant: none, whole items would distort it by 340%
 
 ### `kesra_algerian_semolina_flatbread.step_1` (mix)
 
-- create_mixing: 1 recipe, rounding 13%, estimated
+- create_mixing: 1 recipe, disabled: the game can't make `semolina`
 - shapeless_crafting: none, whole items would distort it by 280%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `kesra_algerian_semolina_flatbread.step_2` (mix)
 
-- create_mixing: 1 recipe, rounding 7%, estimated
-- shapeless_crafting: 1 recipe, rounding 84% ⚠, estimated
+- create_mixing: 1 recipe, disabled: the game can't make `kesra_algerian_semolina_flatbread_step_1`
+- shapeless_crafting: 1 recipe, disabled: the game can't make `kesra_algerian_semolina_flatbread_step_1`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `kesra_algerian_semolina_flatbread.step_3` (knead)
 
-- create_mixing: 1 recipe, rounding 8%, estimated
-- shapeless_crafting: 1 recipe, rounding 8%, estimated
-- hexerei_mixing_cauldron: 1 recipe, rounding 14%, estimated
+- create_mixing: 1 recipe, disabled: the game can't make `kesra_algerian_semolina_flatbread_step_2`
+- shapeless_crafting: 1 recipe, disabled: the game can't make `kesra_algerian_semolina_flatbread_step_2`
+- hexerei_mixing_cauldron: 1 recipe, disabled: the game can't make `kesra_algerian_semolina_flatbread_step_2`
 
 ### `kesra_algerian_semolina_flatbread.step_4` (age)
 
-- vd_fermenting_jar: 1 recipe, rounding 8%
+- vd_fermenting_jar: 1 recipe, disabled: the game can't make `kesra_algerian_semolina_flatbread_step_3`
 - bnc_keg: none, can't make the mod's own kesra_algerian_semolina_flatbread_step_4, and no other mod provides it
 
 ### `kesra_algerian_semolina_flatbread.step_5` (separate)
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
-- create_mixing: 1 recipe, rounding 8%
-- thermal_centrifuge: 1 recipe, rounding 8%
+- create_mixing: 1 recipe, disabled: the game can't make `kesra_algerian_semolina_flatbread_step_4`
+- thermal_centrifuge: 1 recipe, disabled: the game can't make `kesra_algerian_semolina_flatbread_step_4`
 
 ### `kesra_algerian_semolina_flatbread.step_8` (pan_fry)
 
-- create_heated_mixing: 1 recipe, rounding 8%
-- pnc_thermo_plant: 1 recipe, rounding 8%
+- create_heated_mixing: 1 recipe, disabled: the game can't make `kesra_algerian_semolina_flatbread_step_6`
+- pnc_thermo_plant: 1 recipe, disabled: the game can't make `kesra_algerian_semolina_flatbread_step_6`
 
 ### `ketchup.mold` (mold)
 
 - transition: written
 
+### `ketchup.simmer` (simmer)
+
+- create_heated_mixing: 1 recipe, rounding 13%, estimated
+- fd_cooking_pot: none, takes at most 6 inputs, not 8
+- hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
+
+### `ketchup.strain` (strain)
+
+- create_item_drain: none, the item drain takes one item and yields one item and one fluid
+- create_mixing: 2 recipes, rounding 9%
+- thermal_centrifuge: none, whole items would distort it by 317%
+
 ### `key_wat_ethiopian_red_stew.step_2` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 13%
+- create_heated_mixing: 1 recipe, disabled: the game can't make `niter_kibbeh_heat`
 - pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `key_wat_ethiopian_red_stew.step_3` (heat)
 
-- create_heated_mixing: 1 recipe, rounding 0%
-- fd_cooking_pot: 1 recipe, rounding 0%
+- create_heated_mixing: 1 recipe, disabled: the game can't make `key_wat_ethiopian_red_stew_step_2`
+- fd_cooking_pot: 1 recipe, disabled: the game can't make `key_wat_ethiopian_red_stew_step_2`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `key_wat_ethiopian_red_stew.step_4` (coat)
@@ -67471,8 +68380,8 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `khachapuri_georgian_cheese_bread.step_10` (cut)
 
-- fd_cutting_board: 1 recipe, rounding 0%
-- create_cutting: 1 recipe, rounding 0%
+- fd_cutting_board: 1 recipe, disabled: the game can't make `khachapuri_georgian_cheese_bread_step_9`
+- create_cutting: 1 recipe, disabled: the game can't make `khachapuri_georgian_cheese_bread_step_9`
 
 ### `khachapuri_georgian_cheese_bread.step_2` (mix)
 
@@ -67490,7 +68399,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `khachapuri_georgian_cheese_bread.step_5` (mix)
 
-- create_mixing: 1 recipe, rounding 13%
+- create_mixing: 1 recipe, disabled: the game can't make `feta_cheese_chop`
 - shapeless_crafting: none, whole items would distort it by 240%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
@@ -67501,41 +68410,41 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `khachapuri_georgian_cheese_bread.step_9` (bake)
 
-- smelting: 1 recipe, rounding 0%
-- smoking: 1 recipe, rounding 0%
+- smelting: 1 recipe, disabled: the game can't make `khachapuri_georgian_cheese_bread_step_7`
+- smoking: 1 recipe, disabled: the game can't make `khachapuri_georgian_cheese_bread_step_7`
 
 ### `khaman_dhokla_steamed_gram_bread.step_10` (assemble)
 
-- shapeless_crafting: 1 recipe, rounding 1%, estimated
+- shapeless_crafting: 1 recipe, disabled: the game can't make `khaman_dhokla_steamed_gram_bread_step_9`
 - create_deploying: none, whole items would distort it by 150%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `khaman_dhokla_steamed_gram_bread.step_2` (mix)
 
-- create_mixing: 1 recipe, rounding 15%, estimated
+- create_mixing: 1 recipe, disabled: the game can't make `semolina`
 - shapeless_crafting: none, whole items would distort it by 226%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `khaman_dhokla_steamed_gram_bread.step_3` (mix)
 
-- create_mixing: 1 recipe, rounding 15%, estimated
+- create_mixing: 1 recipe, disabled: the game can't make `khaman_dhokla_steamed_gram_bread_step_2`
 - shapeless_crafting: none, whole items would distort it by 375%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `khaman_dhokla_steamed_gram_bread.step_5` (steam)
 
-- create_heated_mixing: 1 recipe, rounding 7%, estimated
-- fd_cooking_pot: 1 recipe, rounding 7%, estimated
+- create_heated_mixing: 1 recipe, disabled: the game can't make `khaman_dhokla_steamed_gram_bread_step_4`
+- fd_cooking_pot: 1 recipe, disabled: the game can't make `khaman_dhokla_steamed_gram_bread_step_4`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `khaman_dhokla_steamed_gram_bread.step_6` (cool)
 
-- transition: written
+- transition: not written: the game can't make `khaman_dhokla_steamed_gram_bread_step_5`
 
 ### `khaman_dhokla_steamed_gram_bread.step_7` (heat)
 
-- create_heated_mixing: 1 recipe, rounding 3%, estimated
-- fd_cooking_pot: 1 recipe, rounding 3%, estimated
+- create_heated_mixing: 1 recipe, disabled: the game can't make `khaman_dhokla_steamed_gram_bread_step_6`
+- fd_cooking_pot: 1 recipe, disabled: the game can't make `khaman_dhokla_steamed_gram_bread_step_6`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `khaman_dhokla_steamed_gram_bread.step_7.prep_10` (heat)
@@ -67547,7 +68456,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 ### `khaman_dhokla_steamed_gram_bread.step_8` (stir_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 15%, estimated
+- create_heated_mixing: 1 recipe, disabled: the game can't make `khaman_dhokla_steamed_gram_bread_step_7`
 - pnc_thermo_plant: none, takes at most 2 inputs, not 6
 
 ### `khandvi_rolled_chickpea_noodles.step_1` (mix)
@@ -67887,7 +68796,6 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `khubz_muluwah_yemenite_layered_flatbread.step_14` (pan_fry)
 
-- adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 0%
 - pnc_thermo_plant: 1 recipe, rounding 0%
 
@@ -67932,8 +68840,8 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 ### `kibbeh.step_10` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 7%
-- pnc_thermo_plant: 1 recipe, rounding 7%
+- create_heated_mixing: 1 recipe, disabled: the game can't make `kibbeh_step_9`
+- pnc_thermo_plant: 1 recipe, disabled: the game can't make `kibbeh_step_9`
 
 ### `kibbeh.step_2` (mix)
 
@@ -67963,32 +68871,32 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `kibbeh.step_6` (knead)
 
-- create_mixing: 1 recipe, rounding 14%, estimated
-- shapeless_crafting: 1 recipe, rounding 18% ⚠, estimated
+- create_mixing: 1 recipe, disabled: the game can't make `semolina`
+- shapeless_crafting: 1 recipe, disabled: the game can't make `semolina`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `kibbeh.step_9` (boil)
 
-- create_heated_mixing: 1 recipe, rounding 0%
-- fd_cooking_pot: 1 recipe, rounding 0%
+- create_heated_mixing: 1 recipe, disabled: the game can't make `kibbeh_step_7`
+- fd_cooking_pot: 1 recipe, disabled: the game can't make `kibbeh_step_7`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `kid_friendly_pasta.step_2` (boil)
 
-- create_heated_mixing: 1 recipe, rounding 10%, estimated
-- fd_cooking_pot: 1 recipe, rounding 10%, estimated
+- create_heated_mixing: 1 recipe, disabled: the game can't make `whole_wheat_flour`
+- fd_cooking_pot: 1 recipe, disabled: the game can't make `whole_wheat_flour`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `kid_friendly_pasta.step_3` (boil)
 
-- create_heated_mixing: 1 recipe, rounding 1%
-- fd_cooking_pot: 1 recipe, rounding 1%
+- create_heated_mixing: 1 recipe, disabled: the game can't make `kid_friendly_pasta_step_2`
+- fd_cooking_pot: 1 recipe, disabled: the game can't make `kid_friendly_pasta_step_2`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `kid_friendly_pasta.step_4` (heat)
 
-- create_heated_mixing: 1 recipe, rounding 6%
-- fd_cooking_pot: 1 recipe, rounding 6%
+- create_heated_mixing: 1 recipe, disabled: the game can't make `kid_friendly_pasta_step_3`
+- fd_cooking_pot: 1 recipe, disabled: the game can't make `kid_friendly_pasta_step_3`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `kid_friendly_pasta.step_4.prep_4` (heat)
@@ -68073,25 +68981,25 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `kik_alicha_yellow_split_pea_stew.step_2` (mix)
 
-- create_mixing: 1 recipe, rounding 15%, estimated
+- create_mixing: 1 recipe, disabled: the game can't make `niter_kibbeh`
 - shapeless_crafting: none, whole items would distort it by 2943%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `kik_alicha_yellow_split_pea_stew.step_4` (simmer)
 
-- create_heated_mixing: 1 recipe, rounding 4%, estimated
-- fd_cooking_pot: 1 recipe, rounding 0%, estimated
+- create_heated_mixing: 1 recipe, disabled: the game can't make `kik_alicha_yellow_split_pea_stew_step_3`
+- fd_cooking_pot: 1 recipe, disabled: the game can't make `kik_alicha_yellow_split_pea_stew_step_3`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `kik_alicha_yellow_split_pea_stew.step_6` (age)
 
-- vd_fermenting_jar: 1 recipe, rounding 0%, estimated
+- vd_fermenting_jar: 1 recipe, disabled: the game can't make `kik_alicha_yellow_split_pea_stew_step_5`
 - bnc_keg: none, can't make the mod's own kik_alicha_yellow_split_pea_stew_step_6, and no other mod provides it
 
 ### `kik_alicha_yellow_split_pea_stew.step_7` (assemble)
 
-- shapeless_crafting: 1 recipe, rounding 0%, estimated
-- create_deploying: 1 recipe, rounding 17% ⚠, estimated
+- shapeless_crafting: 1 recipe, disabled: the game can't make `kik_alicha_yellow_split_pea_stew_step_6`
+- create_deploying: 1 recipe, disabled: the game can't make `kik_alicha_yellow_split_pea_stew_step_6`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `kilishi_nigerian_beef_jerky.step_1` (season)
@@ -68141,6 +69049,24 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 - create_heated_mixing: 1 recipe, rounding 1%
 - fd_cooking_pot: 1 recipe, rounding 1%
+- hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
+
+### `kimchi.brine` (soak)
+
+- create_mixing: 1 recipe, rounding 11%
+- create_splashing: none, takes one input, not 2
+
+### `kimchi.ferment` (ferment)
+
+- vd_fermenting_jar: 4 recipes, rounding 8%
+- bnc_keg: 3 recipes, rounding 49% ⚠
+- pnc_thermo_plant: none, doesn't fit in 1 input items, 1 of each, and 1000 mB tanks at any scale
+- theurgy_fermentation: none, needs a fluid it can take, and has none
+
+### `kimchi.paste` (mix)
+
+- create_mixing: 1 recipe, rounding 46% ⚠, estimated
+- shapeless_crafting: none, whole items would distort it by 4150%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `kimchi.spoil` (spoil)
@@ -68265,6 +69191,16 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 - fd_cutting_board: 1 recipe, rounding 0%
 - create_cutting: 1 recipe, rounding 0%
+
+### `kiwi_sorbet.blend` (blend)
+
+- create_mixing: 1 recipe, rounding 13%
+
+### `kiwi_sorbet.freeze` (freeze)
+
+- transition: written
+- garnished_freezing: 1 recipe, rounding 8%
+- thermal_chiller: none, needs a fluid it can take, and has none
 
 ### `kiwifruit.mold` (mold)
 
@@ -69484,7 +70420,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `kwado_nigerian_cassava_flour_salad.step_2` (assemble)
 
-- shapeless_crafting: 1 recipe, rounding 18% ⚠, estimated
+- shapeless_crafting: 1 recipe, disabled: the game can't make `manioc_flour`
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
@@ -69704,75 +70640,75 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `lahoh_spongy_flatbread_i.step_1` (boil)
 
-- create_heated_mixing: 1 recipe, rounding 10%
+- create_heated_mixing: 1 recipe, disabled: the game can't make `semolina`
 - fd_cooking_pot: none, whole items would distort it by 147%
 - hexerei_mixing_cauldron: none, whole items would distort it by 233%
 
 ### `lahoh_spongy_flatbread_i.step_2` (mix)
 
-- create_mixing: 3 recipes, rounding 14%, estimated
-- shapeless_crafting: 1 recipe, rounding 58% ⚠, estimated
-- hexerei_mixing_cauldron: 1 recipe, rounding 15%, estimated
+- create_mixing: 3 recipes, disabled: the game can't make `lahoh_spongy_flatbread_i_step_1`
+- shapeless_crafting: 1 recipe, disabled: the game can't make `lahoh_spongy_flatbread_i_step_1`
+- hexerei_mixing_cauldron: 1 recipe, disabled: the game can't make `lahoh_spongy_flatbread_i_step_1`
 
 ### `lahoh_spongy_flatbread_i.step_3` (dissolve)
 
-- create_mixing: 1 recipe, rounding 13%, estimated
-- shapeless_crafting: 1 recipe, rounding 15%, estimated
+- create_mixing: 1 recipe, disabled: the game can't make `lahoh_spongy_flatbread_i_step_2`
+- shapeless_crafting: 1 recipe, disabled: the game can't make `lahoh_spongy_flatbread_i_step_2`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `lahoh_spongy_flatbread_i.step_4` (mix)
 
-- create_mixing: 1 recipe, rounding 14%, estimated
-- shapeless_crafting: 1 recipe, rounding 12%, estimated
+- create_mixing: 1 recipe, disabled: the game can't make `lahoh_spongy_flatbread_i_step_3`
+- shapeless_crafting: 1 recipe, disabled: the game can't make `lahoh_spongy_flatbread_i_step_3`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `lahoh_spongy_flatbread_i.step_6` (ferment)
 
-- transition: written
-- vd_fermenting_jar: 1 recipe, rounding 0%, estimated
+- transition: not written: the game can't make `lahoh_spongy_flatbread_i_step_5`
+- vd_fermenting_jar: 1 recipe, disabled: the game can't make `lahoh_spongy_flatbread_i_step_5`
 - bnc_keg: none, can't make the mod's own lahoh_spongy_flatbread_i_step_6, and no other mod provides it
-- pnc_thermo_plant: 1 recipe, rounding 1%, estimated
+- pnc_thermo_plant: 1 recipe, disabled: the game can't make `lahoh_spongy_flatbread_i_step_5`
 - theurgy_fermentation: none, needs a fluid it can take, and has none
 
 ### `lahoh_spongy_flatbread_i.step_8` (shape)
 
-- shapeless_crafting: 1 recipe, rounding 0%, estimated
-- create_deploying: 1 recipe, rounding 0%, estimated
+- shapeless_crafting: 1 recipe, disabled: the game can't make `lahoh_spongy_flatbread_i_step_6`
+- create_deploying: 1 recipe, disabled: the game can't make `lahoh_spongy_flatbread_i_step_6`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
-- create_compacting: 1 recipe, rounding 1%, estimated
+- create_compacting: 1 recipe, disabled: the game can't make `lahoh_spongy_flatbread_i_step_6`
 
 ### `lahoh_spongy_flatbread_i.step_9` (pan_fry)
 
-- create_heated_mixing: 1 recipe, rounding 7%, estimated
-- pnc_thermo_plant: 1 recipe, rounding 15%, estimated
+- create_heated_mixing: 1 recipe, disabled: the game can't make `lahoh_spongy_flatbread_i_step_8`
+- pnc_thermo_plant: 1 recipe, disabled: the game can't make `lahoh_spongy_flatbread_i_step_8`
 
 ### `lahoh_spongy_flatbread_ii.step_1` (mix)
 
-- create_mixing: 1 recipe, rounding 8%, estimated
+- create_mixing: 1 recipe, disabled: the game can't make `semolina`
 - shapeless_crafting: none, whole items would distort it by 519%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `lahoh_spongy_flatbread_ii.step_2` (whisk)
 
-- create_mixing: 3 recipes, rounding 1%, estimated
+- create_mixing: 3 recipes, disabled: the game can't make `lahoh_spongy_flatbread_ii_step_1`
 
 ### `lahoh_spongy_flatbread_ii.step_3` (ferment)
 
-- transition: written
-- vd_fermenting_jar: 1 recipe, rounding 0%, estimated
+- transition: not written: the game can't make `lahoh_spongy_flatbread_ii_step_2`
+- vd_fermenting_jar: 1 recipe, disabled: the game can't make `lahoh_spongy_flatbread_ii_step_2`
 - bnc_keg: none, can't make the mod's own lahoh_spongy_flatbread_ii_step_3, and no other mod provides it
-- pnc_thermo_plant: 1 recipe, rounding 1%, estimated
+- pnc_thermo_plant: 1 recipe, disabled: the game can't make `lahoh_spongy_flatbread_ii_step_2`
 - theurgy_fermentation: none, needs a fluid it can take, and has none
 
 ### `lahoh_spongy_flatbread_ii.step_5` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 7%, estimated
-- pnc_thermo_plant: 1 recipe, rounding 15%, estimated
+- create_heated_mixing: 1 recipe, disabled: the game can't make `lahoh_spongy_flatbread_ii_step_3`
+- pnc_thermo_plant: 1 recipe, disabled: the game can't make `lahoh_spongy_flatbread_ii_step_3`
 
 ### `lahoh_spongy_flatbread_ii.step_6` (cool)
 
-- transition: written
+- transition: not written: the game can't make `lahoh_spongy_flatbread_ii_step_5`
 
 ### `lamb_and_mutton.freezer_burn` (freezer_burn)
 
@@ -69873,6 +70809,19 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 - campfire: 1 recipe, disabled: the game can't make `lamb_shawarma_step_4`
 - smoking: 1 recipe, disabled: the game can't make `lamb_shawarma_step_4`
+
+### `lamington.coat` (coat)
+
+- shapeless_crafting: none, whole items would distort it by 135%
+- create_deploying: none, deploying takes exactly two items
+- hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
+- thermal_bottler: none, takes at most 2 inputs, not 3
+
+### `lamington.glaze` (mix)
+
+- create_mixing: 1 recipe, rounding 14%
+- shapeless_crafting: 1 recipe, rounding 14%
+- hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `lamington.step_1` (cut)
 
@@ -70031,7 +70980,6 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `langar_dal.step_4` (pan_fry)
 
-- adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, disabled: the game can't make `langar_dal_step_3`
 - pnc_thermo_plant: 1 recipe, disabled: the game can't make `langar_dal_step_3`
 
@@ -70124,6 +71072,18 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 - smelting: 1 recipe, rounding 17% ⚠, estimated
 - smoking: 1 recipe, rounding 17% ⚠, estimated
+
+### `lard.cut` (separate)
+
+- create_item_drain: none, the item drain takes one item and yields one item and one fluid
+- create_mixing: 1 recipe, rounding 11%
+- thermal_centrifuge: none, whole items would distort it by 2033%
+
+### `lard.render` (heat)
+
+- create_heated_mixing: 1 recipe, rounding 11%
+- fd_cooking_pot: 1 recipe, rounding 11%
+- hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `lasagne_with_bean_sauce.step_1` (boil)
 
@@ -70987,8 +71947,8 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `lemon_lime_soda_i.step_5` (mix)
 
-- create_mixing: 1 recipe, rounding 0%, estimated
-- shapeless_crafting: 1 recipe, rounding 0%, estimated
+- create_mixing: 1 recipe, disabled: the game can't make `carbonated_water`
+- shapeless_crafting: 1 recipe, disabled: the game can't make `carbonated_water`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `lemon_lime_soda_ii.step_1` (mix)
@@ -71067,20 +72027,20 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `lemon_meringue_pie_british.step_2` (shape)
 
-- shapeless_crafting: 1 recipe, rounding 8%, estimated
+- shapeless_crafting: 1 recipe, disabled: the game can't make `digestive_biscuit_grind_grind`
 - create_deploying: none, whole items would distort it by 131%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
-- create_compacting: 1 recipe, rounding 8%, estimated
+- create_compacting: 1 recipe, disabled: the game can't make `digestive_biscuit_grind_grind`
 
 ### `lemon_meringue_pie_british.step_3` (mix)
 
-- create_mixing: 1 recipe, rounding 15%, estimated
-- shapeless_crafting: 1 recipe, rounding 25% ⚠, estimated
+- create_mixing: 1 recipe, disabled: the game can't make `lemon_meringue_pie_british_step_2`
+- shapeless_crafting: 1 recipe, disabled: the game can't make `lemon_meringue_pie_british_step_2`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `lemon_meringue_pie_british.step_5` (whisk)
 
-- create_mixing: 1 recipe, rounding 14%, estimated
+- create_mixing: 1 recipe, disabled: the game can't make `lemon_meringue_pie_british_step_4`
 
 ### `lemon_meringue_pie_british.step_5.prep_6` (whisk)
 
@@ -71088,12 +72048,12 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `lemon_meringue_pie_british.step_7` (bake)
 
-- smelting: 1 recipe, rounding 17% ⚠, estimated
-- smoking: 1 recipe, rounding 17% ⚠, estimated
+- smelting: 1 recipe, disabled: the game can't make `lemon_meringue_pie_british_step_6`
+- smoking: 1 recipe, disabled: the game can't make `lemon_meringue_pie_british_step_6`
 
 ### `lemon_meringue_pie_british.step_8` (chill)
 
-- transition: written
+- transition: not written: the game can't make `lemon_meringue_pie_british_step_7`
 - thermal_chiller: none, needs a fluid it can take, and has none
 
 ### `lemon_mille_feuille.step_10` (grill)
@@ -71152,9 +72112,26 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - fd_cutting_board: 1 recipe, disabled: the game can't make `lemon_mille_feuille_step_8`
 - create_cutting: 1 recipe, disabled: the game can't make `lemon_mille_feuille_step_8`
 
+### `lemon_oil.press` (press)
+
+- create_item_drain: none, the item drain takes one item and yields one item and one fluid
+- create_mixing: 1 recipe, rounding 7%
+- thermal_press: 1 recipe, rounding 7%
+
 ### `lemon_oil.stale` (stale)
 
 - transition: written
+
+### `lemon_pepper.dry_peel` (dry)
+
+- transition: written
+- hexerei_drying_rack: none, whole items would distort it by 150%
+
+### `lemon_pepper.mix` (mix)
+
+- create_mixing: 1 recipe, rounding 15%, estimated
+- shapeless_crafting: 1 recipe, rounding 88% ⚠, estimated
+- hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `lemon_pepper.stale` (stale)
 
@@ -71465,6 +72442,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - shapeless_crafting: 1 recipe, rounding 12%, estimated
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
+### `lemon_slice.chop` (chop)
+
+- fd_cutting_board: 1 recipe, rounding 21% ⚠
+- create_cutting: 1 recipe, rounding 21% ⚠
+
 ### `lemon_slice.mold` (mold)
 
 - transition: written
@@ -71530,9 +72512,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 - transition: written
 
-### `lemon_wedges.mold` (mold)
+### `lemonade.mix` (mix)
 
-- transition: written
+- create_mixing: 2 recipes, rounding 14%
+- shapeless_crafting: none, whole items would distort it by 343%
+- hexerei_mixing_cauldron: none, whole items would distort it by 227%
 
 ### `lemonade.step_1` (dissolve)
 
@@ -71951,7 +72935,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 - create_heated_mixing: 1 recipe, rounding 6%
 - fd_cooking_pot: 1 recipe, rounding 6%
-- hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
+- hexerei_mixing_cauldron: 1 recipe, rounding 15%
 
 ### `liberian_country_beans_torborgee.step_5` (season)
 
@@ -72394,6 +73378,18 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 - transition: written
 
+### `limeade.mix` (mix)
+
+- create_mixing: 1 recipe, rounding 13%
+- shapeless_crafting: 1 recipe, rounding 13%
+- hexerei_mixing_cauldron: 1 recipe, rounding 15%
+
+### `limeade.press` (press)
+
+- create_item_drain: none, the item drain takes one item and yields one item and one fluid
+- create_mixing: 1 recipe, rounding 15%
+- thermal_press: none, takes one input, not 2
+
 ### `limoncello.step_2` (steep)
 
 - create_mixing: 2 recipes, rounding 4%, estimated
@@ -72480,7 +73476,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `linguine_primavera_mediterranean.step_8` (assemble)
 
-- shapeless_crafting: 1 recipe, rounding 69% ⚠, estimated
+- shapeless_crafting: 1 recipe, disabled: the game can't make `feta_cheese`
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
@@ -72491,6 +73487,10 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 ### `liquid_gravy_browner.mold` (mold)
 
 - transition: written
+
+### `liquid_smoke.distill` (distill)
+
+- create_heated_mixing: 1 recipe, rounding 14%
 
 ### `liver.freezer_burn` (freezer_burn)
 
@@ -73393,27 +74393,27 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `m_semen_layered_algerian_flatbread.step_1` (mix)
 
-- create_mixing: 1 recipe, rounding 5%, estimated
-- shapeless_crafting: 1 recipe, rounding 6%, estimated
+- create_mixing: 1 recipe, disabled: the game can't make `semolina`
+- shapeless_crafting: 1 recipe, disabled: the game can't make `semolina`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `m_semen_layered_algerian_flatbread.step_2` (mix)
 
-- create_mixing: 1 recipe, rounding 11%, estimated
-- shapeless_crafting: 1 recipe, rounding 11%, estimated
-- hexerei_mixing_cauldron: 1 recipe, rounding 15%, estimated
+- create_mixing: 1 recipe, disabled: the game can't make `m_semen_layered_algerian_flatbread_step_1`
+- shapeless_crafting: 1 recipe, disabled: the game can't make `m_semen_layered_algerian_flatbread_step_1`
+- hexerei_mixing_cauldron: 1 recipe, disabled: the game can't make `m_semen_layered_algerian_flatbread_step_1`
 
 ### `m_semen_layered_algerian_flatbread.step_5` (coat)
 
-- shapeless_crafting: 1 recipe, rounding 11%
-- create_deploying: 1 recipe, rounding 11%
-- hexerei_mixing_cauldron: 1 recipe, rounding 11%
-- thermal_bottler: 1 recipe, rounding 11%
+- shapeless_crafting: 1 recipe, disabled: the game can't make `m_semen_layered_algerian_flatbread_step_3`
+- create_deploying: 1 recipe, disabled: the game can't make `m_semen_layered_algerian_flatbread_step_3`
+- hexerei_mixing_cauldron: 1 recipe, disabled: the game can't make `m_semen_layered_algerian_flatbread_step_3`
+- thermal_bottler: 1 recipe, disabled: the game can't make `m_semen_layered_algerian_flatbread_step_3`
 
 ### `m_semen_layered_algerian_flatbread.step_7` (pan_fry)
 
-- create_heated_mixing: 1 recipe, rounding 11%
-- pnc_thermo_plant: 1 recipe, rounding 11%
+- create_heated_mixing: 1 recipe, disabled: the game can't make `m_semen_layered_algerian_flatbread_step_5`
+- pnc_thermo_plant: 1 recipe, disabled: the game can't make `m_semen_layered_algerian_flatbread_step_5`
 
 ### `ma_amoul_arabian_filled_pastries.step_1` (mix)
 
@@ -73467,6 +74467,17 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 ### `macadamia.rancid` (rancid)
 
 - transition: written
+
+### `macaron.bake` (bake)
+
+- smelting: 1 recipe, rounding 7%, estimated
+- smoking: 1 recipe, rounding 7%, estimated
+
+### `macaron.mix` (mix)
+
+- create_mixing: 1 recipe, rounding 15%, estimated
+- shapeless_crafting: 1 recipe, rounding 10%, estimated
+- hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `macaroni.stale` (stale)
 
@@ -73613,8 +74624,8 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `macaroni_and_cheese_vegan.step_4` (mix)
 
-- create_mixing: 1 recipe, rounding 8%, estimated
-- shapeless_crafting: 1 recipe, rounding 12%, estimated
+- create_mixing: 1 recipe, disabled: the game can't make `nutritional_yeast`
+- shapeless_crafting: 1 recipe, disabled: the game can't make `nutritional_yeast`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `macaroni_pie.step_2` (whisk)
@@ -74264,9 +75275,9 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `malpua_south_asian_sweet_pancake.step_2.prep_3` (roast)
 
-- smelting: 1 recipe, rounding 6%
-- smoking: 1 recipe, rounding 6%
-- thermal_smelter: 1 recipe, rounding 6%
+- smelting: 1 recipe, disabled: the game can't make `semolina`
+- smoking: 1 recipe, disabled: the game can't make `semolina`
+- thermal_smelter: 1 recipe, disabled: the game can't make `semolina`
 
 ### `malpua_south_asian_sweet_pancake.step_3` (mix)
 
@@ -74282,15 +75293,23 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `malpua_south_asian_sweet_pancake.step_5` (pan_fry)
 
-- adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, disabled: the game can't make `malpua_south_asian_sweet_pancake_step_4`
 - pnc_thermo_plant: 1 recipe, disabled: the game can't make `malpua_south_asian_sweet_pancake_step_4`
 
 ### `malpua_south_asian_sweet_pancake.step_6` (pan_fry)
 
-- adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, disabled: the game can't make `malpua_south_asian_sweet_pancake_step_5`
 - pnc_thermo_plant: 1 recipe, disabled: the game can't make `malpua_south_asian_sweet_pancake_step_5`
+
+### `malt.dry_green_malt` (dry)
+
+- transition: written
+- hexerei_drying_rack: 1 recipe, rounding 50% ⚠, estimated
+
+### `malt.soak_barley` (soak)
+
+- create_mixing: 3 recipes, rounding 1%, estimated
+- create_splashing: 1 recipe, rounding 5%, estimated
 
 ### `malt_biscuits.freezer_burn` (freezer_burn)
 
@@ -74754,6 +75773,29 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - shapeless_crafting: 1 recipe, rounding 0%, estimated
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
+### `manioc_flour.grind` (grind)
+
+- create_milling: none, whole items would distort it by 1665%
+- hexerei_pestle_and_mortar: none, whole items would distort it by 418%
+
+### `manjuu.knead` (knead)
+
+- create_mixing: 1 recipe, rounding 11%, estimated
+- shapeless_crafting: 1 recipe, rounding 11%, estimated
+- hexerei_mixing_cauldron: 1 recipe, rounding 15%, estimated
+
+### `manjuu.mix_paste` (mix)
+
+- create_mixing: 1 recipe, rounding 11%
+- shapeless_crafting: 1 recipe, rounding 11%
+- hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
+
+### `manjuu.steam` (steam)
+
+- create_heated_mixing: 1 recipe, rounding 15%
+- fd_cooking_pot: 1 recipe, rounding 52% ⚠
+- hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
+
 ### `manx_smoked_salmon.step_1` (boil)
 
 - create_heated_mixing: 1 recipe, rounding 0%
@@ -74768,41 +75810,41 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `manx_smoked_salmon.step_10` (assemble)
 
-- shapeless_crafting: 1 recipe, rounding 0%
-- create_deploying: 1 recipe, rounding 100% ⚠
+- shapeless_crafting: 1 recipe, disabled: the game can't make `manx_smoked_salmon_step_9`
+- create_deploying: 1 recipe, disabled: the game can't make `manx_smoked_salmon_step_9`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `manx_smoked_salmon.step_2` (shape)
 
-- shapeless_crafting: 1 recipe, rounding 11%
+- shapeless_crafting: 1 recipe, disabled: the game can't make `smoked_salmon`
 - create_deploying: none, whole items would distort it by 300%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
-- create_compacting: 1 recipe, rounding 11%
+- create_compacting: 1 recipe, disabled: the game can't make `smoked_salmon`
 
 ### `manx_smoked_salmon.step_3` (separate)
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
-- create_mixing: 1 recipe, rounding 11%
-- thermal_centrifuge: 1 recipe, rounding 33% ⚠
+- create_mixing: 1 recipe, disabled: the game can't make `manx_smoked_salmon_step_2`
+- thermal_centrifuge: 1 recipe, disabled: the game can't make `manx_smoked_salmon_step_2`
 
 ### `manx_smoked_salmon.step_4` (blend)
 
-- create_mixing: 1 recipe, rounding 10%
+- create_mixing: 1 recipe, disabled: the game can't make `manx_smoked_salmon_step_3`
 
 ### `manx_smoked_salmon.step_5` (mix)
 
-- create_mixing: 1 recipe, rounding 10%
-- shapeless_crafting: 1 recipe, rounding 10%
+- create_mixing: 1 recipe, disabled: the game can't make `manx_smoked_salmon_step_4`
+- shapeless_crafting: 1 recipe, disabled: the game can't make `manx_smoked_salmon_step_4`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `manx_smoked_salmon.step_7` (chill)
 
-- transition: written
+- transition: not written: the game can't make `manx_smoked_salmon_step_6`
 - thermal_chiller: none, needs a fluid it can take, and has none
 
 ### `manx_smoked_salmon.step_8` (assemble)
 
-- shapeless_crafting: 1 recipe, rounding 22% ⚠
+- shapeless_crafting: 1 recipe, disabled: the game can't make `manx_smoked_salmon_step_7`
 - create_deploying: none, whole items would distort it by 700%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
@@ -75095,6 +76137,21 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - smoking: 1 recipe, rounding 6%
 - thermal_smelter: 1 recipe, rounding 6%
 
+### `maraschino_cherry.brine` (soak)
+
+- create_mixing: 1 recipe, rounding 14%
+- create_splashing: none, takes one input, not 2
+
+### `maraschino_cherry.sugar_soak` (soak)
+
+- create_mixing: 1 recipe, rounding 14%
+- create_splashing: none, takes one input, not 2
+
+### `margarine.churn` (churn)
+
+- create_mixing: 1 recipe, rounding 11%
+- thermal_centrifuge: none, takes one input, not 3
+
 ### `margarine.freezer_burn` (freezer_burn)
 
 - transition: written
@@ -75208,6 +76265,12 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 - transition: written
 
+### `marmalade.boil` (boil)
+
+- create_heated_mixing: 1 recipe, rounding 13%
+- fd_cooking_pot: 1 recipe, rounding 19% ⚠
+- hexerei_mixing_cauldron: 1 recipe, rounding 14%
+
 ### `marmalade.mold` (mold)
 
 - transition: written
@@ -75252,9 +76315,19 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 - transition: written
 
+### `marshmallow.boil_syrup` (boil)
+
+- create_heated_mixing: 3 recipes, rounding 3%
+- fd_cooking_pot: 1 recipe, rounding 11%
+- hexerei_mixing_cauldron: 1 recipe, rounding 14%
+
 ### `marshmallow.stale` (stale)
 
 - transition: written
+
+### `marshmallow.whip` (whisk)
+
+- create_mixing: 2 recipes, rounding 14%, estimated
 
 ### `marshmallow_rice_squares_i.step_1` (mix)
 
@@ -75339,6 +76412,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_mixing: 1 recipe, rounding 0%
 - thermal_centrifuge: 1 recipe, rounding 0%
 
+### `marzipan.grind` (grind)
+
+- create_milling: none, takes one input, not 3
+- hexerei_pestle_and_mortar: none, whole items would distort it by 519%
+
 ### `marzipan_cake.step_10` (mix)
 
 - create_mixing: 3 recipes, rounding 14%
@@ -75353,7 +76431,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 ### `marzipan_cake.step_11` (mix)
 
 - create_mixing: 1 recipe, rounding 14%, estimated
-- shapeless_crafting: 1 recipe, rounding 20% ⚠, estimated
+- shapeless_crafting: 1 recipe, rounding 14%, estimated
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `marzipan_cake.step_13` (chill)
@@ -75535,9 +76613,8 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `masala_dosa.step_11` (pan_fry)
 
-- adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 13%, estimated
-- pnc_thermo_plant: none, takes at most 2 inputs, not 3
+- create_heated_mixing: 1 recipe, rounding 9%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 15%, estimated
 
 ### `masala_dosa.step_12` (coat)
 
@@ -75593,6 +76670,10 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_mixing: 1 recipe, rounding 15%, estimated
 - shapeless_crafting: 1 recipe, rounding 27% ⚠, estimated
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
+
+### `mascarpone_cheese.coagulate` (coagulate)
+
+- create_mixing: 1 recipe, rounding 15%, estimated
 
 ### `mascarpone_chocolate_sauce.step_1` (whisk)
 
@@ -75970,17 +77051,37 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_mixing: 1 recipe, rounding 0%
 - create_splashing: 1 recipe, rounding 0%
 
+### `matzo.bake` (bake)
+
+- smelting: 1 recipe, rounding 19% ⚠
+- smoking: 1 recipe, rounding 19% ⚠
+
 ### `matzo.freezer_burn` (freezer_burn)
 
 - transition: written
+
+### `matzo.knead_dough` (knead)
+
+- create_mixing: 3 recipes, rounding 14%
+- shapeless_crafting: 1 recipe, rounding 14%
+- hexerei_mixing_cauldron: 1 recipe, rounding 14%
 
 ### `matzo.stale` (stale)
 
 - transition: written
 
+### `matzo_meal.grind` (grind)
+
+- create_milling: none, whole items would distort it by 590%
+- hexerei_pestle_and_mortar: 1 recipe, rounding 72% ⚠, estimated
+
 ### `mayonnaise.mold` (mold)
 
 - transition: written
+
+### `mayonnaise.whisk` (whisk)
+
+- create_mixing: 2 recipes, rounding 11%
 
 ### `mayonnaise_vegan.step_1` (blend)
 
@@ -76355,6 +77456,20 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - shapeless_crafting: none, whole items would distort it by 1590%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
+### `mead.ferment` (ferment)
+
+- transition: written
+- vd_fermenting_jar: 1 recipe, rounding 2%
+- bnc_keg: 1 recipe, rounding 2%
+- pnc_thermo_plant: 1 recipe, rounding 15%
+- theurgy_fermentation: none, needs a fluid it can take, and has none
+
+### `mead.mix_must` (mix)
+
+- create_mixing: 4 recipes, rounding 0%, estimated
+- shapeless_crafting: 1 recipe, rounding 13%, estimated
+- hexerei_mixing_cauldron: 2 recipes, rounding 14%, estimated
+
 ### `meat_and_potatoes_in_broth_niku_jaga.step_2` (boil)
 
 - create_heated_mixing: 1 recipe, rounding 13%
@@ -76545,9 +77660,8 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `meatballs_with_honey_lime_sauce.step_5` (pan_fry)
 
-- adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 11%, estimated
-- pnc_thermo_plant: 1 recipe, rounding 14%, estimated
+- create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 15%, estimated
 
 ### `meatballs_with_honey_lime_sauce.step_6` (heat)
 
@@ -76629,40 +77743,40 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `meatloaf_iv.step_2` (mix)
 
-- create_mixing: 1 recipe, rounding 15%, estimated
+- create_mixing: 1 recipe, disabled: the game can't make `whole_wheat_flour_toast`
 - shapeless_crafting: none, whole items would distort it by 1252%
 - hexerei_mixing_cauldron: none, whole items would distort it by 981%
 
 ### `meatloaf_iv.step_2.prep_1` (toast)
 
-- smelting: 1 recipe, rounding 17% ⚠, estimated
-- smoking: 1 recipe, rounding 17% ⚠, estimated
-- thermal_smelter: 1 recipe, rounding 17% ⚠, estimated
+- smelting: 1 recipe, disabled: the game can't make `whole_wheat_flour`
+- smoking: 1 recipe, disabled: the game can't make `whole_wheat_flour`
+- thermal_smelter: 1 recipe, disabled: the game can't make `whole_wheat_flour`
 
 ### `meatloaf_iv.step_3` (mix)
 
-- create_mixing: 1 recipe, rounding 13%, estimated
-- shapeless_crafting: 1 recipe, rounding 91% ⚠, estimated
+- create_mixing: 1 recipe, disabled: the game can't make `meatloaf_iv_step_2`
+- shapeless_crafting: 1 recipe, disabled: the game can't make `meatloaf_iv_step_2`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `meatloaf_iv.step_6` (shape)
 
-- shapeless_crafting: 1 recipe, rounding 0%
-- create_deploying: 1 recipe, rounding 0%
-- hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
-- create_compacting: 1 recipe, rounding 0%
+- shapeless_crafting: 1 recipe, disabled: the game can't make `meatloaf_iv_step_4`
+- create_deploying: 1 recipe, disabled: the game can't make `meatloaf_iv_step_4`
+- hexerei_mixing_cauldron: 1 recipe, disabled: the game can't make `meatloaf_iv_step_4`
+- create_compacting: 1 recipe, disabled: the game can't make `meatloaf_iv_step_4`
 
 ### `meatloaf_iv.step_7` (coat)
 
-- shapeless_crafting: 1 recipe, rounding 6%, estimated
-- create_deploying: 1 recipe, rounding 100% ⚠, estimated
+- shapeless_crafting: 1 recipe, disabled: the game can't make `meatloaf_iv_step_6`
+- create_deploying: 1 recipe, disabled: the game can't make `meatloaf_iv_step_6`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `meatloaf_iv.step_8` (bake)
 
-- smelting: 1 recipe, rounding 0%
-- smoking: 1 recipe, rounding 0%
+- smelting: 1 recipe, disabled: the game can't make `meatloaf_iv_step_7`
+- smoking: 1 recipe, disabled: the game can't make `meatloaf_iv_step_7`
 
 ### `meatloaf_v.step_2` (strain)
 
@@ -76973,7 +78087,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 ### `meringata_cream_filled_meringue_gateaux.step_10` (fold)
 
 - create_mixing: 1 recipe, rounding 10%, estimated
-- shapeless_crafting: 1 recipe, rounding 10%, estimated
+- shapeless_crafting: 1 recipe, rounding 25% ⚠, estimated
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `meringata_cream_filled_meringue_gateaux.step_10.prep_3` (chill)
@@ -77054,6 +78168,15 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 - create_milling: 1 recipe, rounding 13%, estimated
 - hexerei_pestle_and_mortar: 1 recipe, rounding 13%, estimated
+
+### `meringue.bake` (bake)
+
+- smelting: 3 recipes, rounding 50% ⚠, estimated
+- smoking: 3 recipes, rounding 50% ⚠, estimated
+
+### `meringue.whip` (whisk)
+
+- create_mixing: 1 recipe, rounding 11%, estimated
 
 ### `meringue_cookies_i.step_2` (mix)
 
@@ -77359,7 +78482,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 - create_heated_mixing: 1 recipe, rounding 13%, estimated
 - fd_cooking_pot: 1 recipe, rounding 0%, estimated
-- hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
+- hexerei_mixing_cauldron: 1 recipe, rounding 0%, estimated
 
 ### `mexican_chocolate_cake_with_mocha_buttercream.step_4` (cool)
 
@@ -77531,9 +78654,9 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `mhadjeb_algerian_stuffed_flatbread.step_1` (mix)
 
-- create_mixing: 1 recipe, rounding 6%
-- shapeless_crafting: 1 recipe, rounding 6%
-- hexerei_mixing_cauldron: 1 recipe, rounding 6%
+- create_mixing: 1 recipe, disabled: the game can't make `semolina`
+- shapeless_crafting: 1 recipe, disabled: the game can't make `semolina`
+- hexerei_mixing_cauldron: 1 recipe, disabled: the game can't make `semolina`
 
 ### `mhadjeb_algerian_stuffed_flatbread.step_10` (pan_fry)
 
@@ -77547,10 +78670,10 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `mhadjeb_algerian_stuffed_flatbread.step_3` (shape)
 
-- shapeless_crafting: 1 recipe, rounding 14%
-- create_deploying: 1 recipe, rounding 14%
-- hexerei_mixing_cauldron: 1 recipe, rounding 14%
-- create_compacting: 1 recipe, rounding 14%
+- shapeless_crafting: 1 recipe, disabled: the game can't make `mhadjeb_algerian_stuffed_flatbread_step_2`
+- create_deploying: 1 recipe, disabled: the game can't make `mhadjeb_algerian_stuffed_flatbread_step_2`
+- hexerei_mixing_cauldron: 1 recipe, disabled: the game can't make `mhadjeb_algerian_stuffed_flatbread_step_2`
+- create_compacting: 1 recipe, disabled: the game can't make `mhadjeb_algerian_stuffed_flatbread_step_2`
 
 ### `mhadjeb_algerian_stuffed_flatbread.step_4` (chop)
 
@@ -78300,13 +79423,9 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `mincemeat.step_8` (mix)
 
-- create_mixing: 1 recipe, rounding 12%, estimated
+- create_mixing: 1 recipe, rounding 10%, estimated
 - shapeless_crafting: none, whole items would distort it by 200%
 - hexerei_mixing_cauldron: none, whole items would distort it by 200%
-
-### `mincemeat.step_8.prep_12` (evaporate)
-
-- create_heated_mixing: 1 recipe, rounding 1%
 
 ### `mincemeat.step_8.prep_13` (rinse)
 
@@ -78442,8 +79561,8 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `mini_english_muffin_pizzas.step_1.prep_1` (cut)
 
-- fd_cutting_board: 1 recipe, rounding 0%
-- create_cutting: 1 recipe, rounding 0%
+- fd_cutting_board: 1 recipe, disabled: the game can't make `english_muffins`
+- create_cutting: 1 recipe, disabled: the game can't make `english_muffins`
 
 ### `mini_english_muffin_pizzas.step_2` (coat)
 
@@ -78508,39 +79627,39 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `mini_three_cheese_english_muffin_pizzas.step_2` (coat)
 
-- shapeless_crafting: 1 recipe, rounding 0%, estimated
+- shapeless_crafting: 1 recipe, disabled: the game can't make `english_muffins`
 - create_deploying: none, whole items would distort it by 500%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `mini_three_cheese_english_muffin_pizzas.step_3` (toast)
 
-- smelting: 1 recipe, rounding 0%
-- smoking: 1 recipe, rounding 0%
-- thermal_smelter: 1 recipe, rounding 0%
+- smelting: 1 recipe, disabled: the game can't make `mini_three_cheese_english_muffin_pizzas_step_2`
+- smoking: 1 recipe, disabled: the game can't make `mini_three_cheese_english_muffin_pizzas_step_2`
+- thermal_smelter: 1 recipe, disabled: the game can't make `mini_three_cheese_english_muffin_pizzas_step_2`
 
 ### `mini_three_cheese_english_muffin_pizzas.step_4` (assemble)
 
-- shapeless_crafting: 1 recipe, rounding 1%
+- shapeless_crafting: 1 recipe, disabled: the game can't make `mini_three_cheese_english_muffin_pizzas_step_3`
 - create_deploying: none, whole items would distort it by 500%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `mini_three_cheese_english_muffin_pizzas.step_5` (assemble)
 
-- shapeless_crafting: 1 recipe, rounding 0%
+- shapeless_crafting: 1 recipe, disabled: the game can't make `mini_three_cheese_english_muffin_pizzas_step_4`
 - create_deploying: none, whole items would distort it by 500%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `mini_three_cheese_english_muffin_pizzas.step_6` (assemble)
 
-- shapeless_crafting: 1 recipe, rounding 10%
+- shapeless_crafting: 1 recipe, disabled: the game can't make `mini_three_cheese_english_muffin_pizzas_step_5`
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `mini_three_cheese_english_muffin_pizzas.step_7` (bake)
 
-- smelting: 1 recipe, rounding 0%
-- smoking: 1 recipe, rounding 0%
+- smelting: 1 recipe, disabled: the game can't make `mini_three_cheese_english_muffin_pizzas_step_6`
+- smoking: 1 recipe, disabled: the game can't make `mini_three_cheese_english_muffin_pizzas_step_6`
 
 ### `mint.spoil` (spoil)
 
@@ -78578,6 +79697,31 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%, estimated
 - thermal_centrifuge: 1 recipe, rounding 17% ⚠, estimated
+
+### `mirin.age_mash` (age)
+
+- vd_fermenting_jar: 1 recipe, rounding 0%
+- bnc_keg: none, can't make the mod's own aged_mirin_mash, and no other mod provides it
+
+### `mirin.culture_koji` (ferment)
+
+- vd_fermenting_jar: 1 recipe, rounding 0%, estimated
+- bnc_keg: none, can't make the mod's own koji, and no other mod provides it
+- pnc_thermo_plant: 1 recipe, rounding 15%, estimated
+- theurgy_fermentation: none, needs a fluid it can take, and has none
+
+### `mirin.mix_mash` (ferment)
+
+- vd_fermenting_jar: 1 recipe, rounding 96% ⚠, estimated
+- bnc_keg: none, can't make the mod's own mirin_mash, and no other mod provides it
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
+- theurgy_fermentation: none, whole items would distort it by 326%
+
+### `mirin.press_mash` (press)
+
+- create_item_drain: 1 recipe, rounding 20% ⚠
+- create_mixing: 1 recipe, rounding 15%
+- thermal_press: 1 recipe, rounding 20% ⚠
 
 ### `mirliton_casserole.step_1` (steam)
 
@@ -78763,6 +79907,12 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - transition: written
 - hexerei_drying_rack: 1 recipe, rounding 14%
 
+### `mitmita_spice_blend.mix` (mix)
+
+- create_mixing: 1 recipe, rounding 15%, estimated
+- shapeless_crafting: 1 recipe, rounding 19% ⚠, estimated
+- hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
+
 ### `mitmita_spice_blend.stale` (stale)
 
 - transition: written
@@ -78857,9 +80007,9 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `miyan_kubewa_okra_soup.step_3` (mix)
 
-- create_mixing: 1 recipe, rounding 13%, estimated
+- create_mixing: 2 recipes, rounding 13%, estimated
 - shapeless_crafting: 1 recipe, rounding 11%, estimated
-- hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
+- hexerei_mixing_cauldron: 1 recipe, rounding 14%, estimated
 
 ### `miyan_kubewa_okra_soup.step_4` (mix)
 
@@ -78909,9 +80059,9 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `miyan_kuka_baobab_leaf_soup.step_5` (mix)
 
-- create_mixing: 1 recipe, rounding 4%, estimated
+- create_mixing: 2 recipes, rounding 4%, estimated
 - shapeless_crafting: 1 recipe, rounding 0%, estimated
-- hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
+- hexerei_mixing_cauldron: 1 recipe, rounding 15%, estimated
 
 ### `miyan_kuka_baobab_leaf_soup.step_6` (simmer)
 
@@ -78972,20 +80122,20 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `miyan_ridi_nigerian_sesame_soup.step_4` (simmer)
 
-- create_heated_mixing: 1 recipe, rounding 0%
-- fd_cooking_pot: 1 recipe, rounding 0%
+- create_heated_mixing: 1 recipe, disabled: the game can't make `smoked_fish`
+- fd_cooking_pot: 1 recipe, disabled: the game can't make `smoked_fish`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `miyan_ridi_nigerian_sesame_soup.step_5` (simmer)
 
-- create_heated_mixing: 1 recipe, rounding 15%, estimated
-- fd_cooking_pot: 1 recipe, rounding 0%, estimated
+- create_heated_mixing: 1 recipe, disabled: the game can't make `miyan_ridi_nigerian_sesame_soup_step_4`
+- fd_cooking_pot: 1 recipe, disabled: the game can't make `miyan_ridi_nigerian_sesame_soup_step_4`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `miyan_ridi_nigerian_sesame_soup.step_6` (mix)
 
-- create_mixing: 1 recipe, rounding 0%, estimated
-- shapeless_crafting: 1 recipe, rounding 0%, estimated
+- create_mixing: 1 recipe, disabled: the game can't make `miyan_ridi_nigerian_sesame_soup_step_5`
+- shapeless_crafting: 1 recipe, disabled: the game can't make `miyan_ridi_nigerian_sesame_soup_step_5`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `miyan_shuwaka_hausa_bitter_leaf_soup.step_1` (rinse)
@@ -79036,9 +80186,9 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `miyan_taushe_hausa_pumpkin_soup.step_3` (simmer)
 
-- create_heated_mixing: 1 recipe, rounding 15%, estimated
+- create_heated_mixing: 2 recipes, rounding 15%, estimated
 - fd_cooking_pot: none, whole items would distort it by 914%
-- hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
+- hexerei_mixing_cauldron: none, whole items would distort it by 118%
 
 ### `miyan_taushe_hausa_pumpkin_soup.step_4` (simmer)
 
@@ -79114,26 +80264,26 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `mocha_delight.step_10` (dissolve)
 
-- create_mixing: 1 recipe, rounding 13%, estimated
-- shapeless_crafting: 1 recipe, rounding 13%, estimated
-- hexerei_mixing_cauldron: 1 recipe, rounding 15%, estimated
+- create_mixing: 1 recipe, disabled: the game can't make `mocha_delight_step_9`
+- shapeless_crafting: 1 recipe, disabled: the game can't make `mocha_delight_step_9`
+- hexerei_mixing_cauldron: 1 recipe, disabled: the game can't make `mocha_delight_step_9`
 
 ### `mocha_delight.step_14` (assemble)
 
-- shapeless_crafting: 1 recipe, rounding 6%
-- create_deploying: 1 recipe, rounding 6%
+- shapeless_crafting: 1 recipe, disabled: the game can't make `mocha_delight_step_12`
+- create_deploying: 1 recipe, disabled: the game can't make `mocha_delight_step_12`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `mocha_delight.step_15` (assemble)
 
-- shapeless_crafting: 1 recipe, rounding 0%
-- create_deploying: 1 recipe, rounding 0%
+- shapeless_crafting: 1 recipe, disabled: the game can't make `mocha_delight_step_14`
+- create_deploying: 1 recipe, disabled: the game can't make `mocha_delight_step_14`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `mocha_delight.step_17` (heat)
 
-- create_heated_mixing: 1 recipe, rounding 0%
-- fd_cooking_pot: 1 recipe, rounding 0%
+- create_heated_mixing: 1 recipe, disabled: the game can't make `mocha_delight_step_16`
+- fd_cooking_pot: 1 recipe, disabled: the game can't make `mocha_delight_step_16`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `mocha_delight.step_3` (shape)
@@ -79141,11 +80291,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - shapeless_crafting: none, whole items would distort it by 317%
 - create_deploying: none, whole items would distort it by 2435%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
-- create_compacting: 1 recipe, rounding 14%, estimated
+- create_compacting: 1 recipe, disabled: the game can't make `graham_cracker`
 
 ### `mocha_delight.step_4` (assemble)
 
-- shapeless_crafting: 1 recipe, rounding 12%, estimated
+- shapeless_crafting: 1 recipe, disabled: the game can't make `mocha_delight_step_3`
 - create_deploying: none, whole items would distort it by 153%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
@@ -79157,25 +80307,25 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `mocha_delight.step_5` (bake)
 
-- smelting: 1 recipe, rounding 29% ⚠, estimated
-- smoking: 1 recipe, rounding 29% ⚠, estimated
+- smelting: 1 recipe, disabled: the game can't make `mocha_delight_step_4`
+- smoking: 1 recipe, disabled: the game can't make `mocha_delight_step_4`
 
 ### `mocha_delight.step_6` (cool)
 
-- transition: written
+- transition: not written: the game can't make `mocha_delight_step_5`
 
 ### `mocha_delight.step_7` (whisk)
 
-- create_mixing: 1 recipe, rounding 13%, estimated
+- create_mixing: 1 recipe, disabled: the game can't make `mocha_delight_step_6`
 
 ### `mocha_delight.step_8` (whisk)
 
-- create_mixing: 1 recipe, rounding 4%, estimated
+- create_mixing: 1 recipe, disabled: the game can't make `mocha_delight_step_7`
 
 ### `mocha_delight.step_9` (mix)
 
-- create_mixing: 1 recipe, rounding 11%, estimated
-- shapeless_crafting: 1 recipe, rounding 48% ⚠, estimated
+- create_mixing: 1 recipe, disabled: the game can't make `mocha_delight_step_8`
+- shapeless_crafting: 1 recipe, disabled: the game can't make `mocha_delight_step_8`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `mocha_icing.step_3` (mix)
@@ -79183,6 +80333,17 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_mixing: 1 recipe, rounding 15%, estimated
 - shapeless_crafting: none, whole items would distort it by 1484%
 - hexerei_mixing_cauldron: none, whole items would distort it by 1462%
+
+### `mochi.grind` (grind)
+
+- create_milling: none, takes one input, not 2
+- hexerei_pestle_and_mortar: none, whole items would distort it by 236%
+
+### `mochi.steam` (steam)
+
+- create_heated_mixing: 3 recipes, rounding 10%, estimated
+- fd_cooking_pot: 3 recipes, rounding 10%, estimated
+- hexerei_mixing_cauldron: 3 recipes, rounding 15%, estimated
 
 ### `mock_bearnaise_sauce.step_1` (dissolve)
 
@@ -79825,30 +80986,30 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `msemmen.step_1` (mix)
 
-- create_mixing: 1 recipe, rounding 5%, estimated
-- shapeless_crafting: 1 recipe, rounding 6%, estimated
+- create_mixing: 1 recipe, disabled: the game can't make `semolina`
+- shapeless_crafting: 1 recipe, disabled: the game can't make `semolina`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `msemmen.step_2` (knead)
 
-- create_mixing: 3 recipes, rounding 12%, estimated
-- shapeless_crafting: 1 recipe, rounding 13%, estimated
-- hexerei_mixing_cauldron: 1 recipe, rounding 15%, estimated
+- create_mixing: 3 recipes, disabled: the game can't make `msemmen_step_1`
+- shapeless_crafting: 1 recipe, disabled: the game can't make `msemmen_step_1`
+- hexerei_mixing_cauldron: 1 recipe, disabled: the game can't make `msemmen_step_1`
 
 ### `msemmen.step_5` (fold)
 
-- create_mixing: 2 recipes, rounding 13%
+- create_mixing: 2 recipes, disabled: the game can't make `msemmen_step_3`
 - shapeless_crafting: none, whole items would distort it by 863%
 - hexerei_mixing_cauldron: none, whole items would distort it by 826%
 
 ### `msemmen.step_6` (age)
 
-- vd_fermenting_jar: 1 recipe, rounding 14%
+- vd_fermenting_jar: 1 recipe, disabled: the game can't make `msemmen_step_5`
 - bnc_keg: none, can't make the mod's own msemmen_step_6, and no other mod provides it
 
 ### `msemmen.step_7` (pan_fry)
 
-- create_heated_mixing: 1 recipe, rounding 14%
+- create_heated_mixing: 1 recipe, disabled: the game can't make `msemmen_step_6`
 - pnc_thermo_plant: none, whole items would distort it by 602%
 
 ### `mtori_tanzanian_stew.step_1` (assemble)
@@ -80004,7 +81165,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `muffuletta_sandwich.step_2` (assemble)
 
-- shapeless_crafting: 1 recipe, disabled: the game can't make `muffuletta_sandwich_step_1`
+- shapeless_crafting: 1 recipe, disabled: the game can't make `muffuletta_sandwich_step_1`, `salami`
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
@@ -80232,9 +81393,8 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `murghi_korma_chicken_korma.step_3` (pan_fry)
 
-- adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 7%
-- pnc_thermo_plant: 1 recipe, rounding 7%
+- create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `murghi_korma_chicken_korma.step_4` (toast)
 
@@ -80486,6 +81646,18 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 2 recipes, disabled: the game can't make `mushroom_ketchup_step_3`
 - thermal_press: 2 recipes, disabled: the game can't make `mushroom_ketchup_step_3`
+
+### `mushroom_oil.dry` (dry)
+
+- transition: written
+- hexerei_drying_rack: 1 recipe, rounding 25% ⚠
+
+### `mushroom_oil.steep` (steep)
+
+- create_mixing: 1 recipe, rounding 14%
+- create_splashing: none, takes one input, not 2
+- fr_kettle: none, makes 1 things; at most 1 fit
+- theurgy_liquefaction: 1 recipe, rounding 15%
 
 ### `mushroom_sauce.step_1` (pan_fry)
 
@@ -80852,6 +82024,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - transition: not written: the game can't make `mussels_with_potatoes_step_6`
 - thermal_chiller: none, needs a fluid it can take, and has none
 
+### `mustard.grind` (grind)
+
+- create_milling: none, takes one input, not 3
+- hexerei_pestle_and_mortar: none, whole items would distort it by 1135%
+
 ### `mustard.mold` (mold)
 
 - transition: written
@@ -80896,6 +82073,20 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 - transition: written
 
+### `mustard_seed.dry_pods` (dry)
+
+- hexerei_drying_rack: none, whole items would distort it by 150%
+
+### `mustard_seed.harvest_pods` (cut)
+
+- fd_cutting_board: 1 recipe, rounding 0%
+- create_cutting: 1 recipe, rounding 0%
+
+### `mustard_seed.thresh` (cut)
+
+- fd_cutting_board: none, whole items would distort it by 200%
+- create_cutting: none, whole items would distort it by 200%
+
 ### `mutton_broth.step_1.prep_1` (rinse)
 
 - create_mixing: 1 recipe, rounding 0%
@@ -80933,6 +82124,16 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 - transition: written
 - thermal_chiller: none, needs a fluid it can take, and has none
+
+### `mutton_jerky.age` (age)
+
+- vd_fermenting_jar: none, whole items would distort it by 1900%
+- bnc_keg: none, can't make the mod's own salted_mutton_strips, and no other mod provides it
+
+### `mutton_jerky.dry` (dry)
+
+- transition: not written: the game can't make `salted_mutton_strips`
+- hexerei_drying_rack: 1 recipe, disabled: the game can't make `salted_mutton_strips`
 
 ### `mutura.step_10` (cut)
 
@@ -81038,6 +82239,23 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 - create_heated_mixing: 1 recipe, rounding 15%, estimated
 - fd_cooking_pot: 1 recipe, rounding 18% ⚠, estimated
+- hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
+
+### `naan.bake` (bake)
+
+- smelting: 2 recipes, rounding 12%, estimated
+- smoking: 2 recipes, rounding 12%, estimated
+
+### `naan.mix_dough` (mix)
+
+- create_mixing: 3 recipes, rounding 7%, estimated
+- shapeless_crafting: 1 recipe, rounding 13%, estimated
+- hexerei_mixing_cauldron: 1 recipe, rounding 14%, estimated
+
+### `naan.proof` (heat)
+
+- create_heated_mixing: 1 recipe, rounding 0%, estimated
+- fd_cooking_pot: 1 recipe, rounding 4%, estimated
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `naan.step_1` (knead)
@@ -81148,13 +82366,13 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `nanaimo_bars_i.step_3` (mix)
 
-- create_mixing: 1 recipe, rounding 14%, estimated
-- shapeless_crafting: 1 recipe, rounding 64% ⚠, estimated
+- create_mixing: 1 recipe, disabled: the game can't make `graham_cracker`
+- shapeless_crafting: 1 recipe, disabled: the game can't make `graham_cracker`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `nanaimo_bars_i.step_5` (mix)
 
-- create_mixing: 1 recipe, rounding 12%, estimated
+- create_mixing: 1 recipe, disabled: the game can't make `nanaimo_bars_i_step_4`
 - shapeless_crafting: none, whole items would distort it by 567%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
@@ -81545,6 +82763,12 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 - transition: written
 
+### `negitoro.mix` (mix)
+
+- create_mixing: 1 recipe, rounding 8%
+- shapeless_crafting: 1 recipe, rounding 8%
+- hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
+
 ### `negitoro.spoil` (spoil)
 
 - transition: written
@@ -81826,7 +83050,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `nibbles.step_2` (mix)
 
-- create_mixing: 1 recipe, disabled: the game can't make `nibbles_step_1`
+- create_mixing: 1 recipe, disabled: the game can't make `nibbles_step_1`, `pretzels`
 - shapeless_crafting: none, whole items would distort it by 1025%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
@@ -81906,7 +83130,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
 - fd_cooking_pot: 1 recipe, rounding 0%, estimated
-- hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
+- hexerei_mixing_cauldron: 1 recipe, rounding 0%, estimated
 
 ### `nigerian_bean_porridge.step_5` (blend)
 
@@ -81914,9 +83138,8 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `nigerian_bean_porridge.step_6` (pan_fry)
 
-- adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 7%, estimated
-- pnc_thermo_plant: none, takes at most 2 inputs, not 3
+- create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: none, doesn't fit in 1 input items, 1 of each, and 1000 mB tanks at any scale
 
 ### `nigerian_boiled_fish.step_1` (rinse)
 
@@ -81993,31 +83216,31 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `nigerian_cassava_fufu.step_1` (mix)
 
-- create_mixing: 1 recipe, rounding 11%, estimated
-- shapeless_crafting: 1 recipe, rounding 3%, estimated
+- create_mixing: 1 recipe, disabled: the game can't make `manioc_flour`
+- shapeless_crafting: 1 recipe, disabled: the game can't make `manioc_flour`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `nigerian_cassava_fufu.step_2` (heat)
 
-- create_heated_mixing: 1 recipe, rounding 0%, estimated
-- fd_cooking_pot: 1 recipe, rounding 0%, estimated
+- create_heated_mixing: 1 recipe, disabled: the game can't make `nigerian_cassava_fufu_step_1`
+- fd_cooking_pot: 1 recipe, disabled: the game can't make `nigerian_cassava_fufu_step_1`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `nigerian_cassava_fufu.step_4` (heat)
 
-- create_heated_mixing: 1 recipe, rounding 0%
-- fd_cooking_pot: 1 recipe, rounding 0%
+- create_heated_mixing: 1 recipe, disabled: the game can't make `nigerian_cassava_fufu_step_3`
+- fd_cooking_pot: 1 recipe, disabled: the game can't make `nigerian_cassava_fufu_step_3`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `nigerian_cassava_fufu.step_5` (heat)
 
-- create_heated_mixing: 1 recipe, rounding 14%
-- fd_cooking_pot: 1 recipe, rounding 33% ⚠
+- create_heated_mixing: 1 recipe, disabled: the game can't make `nigerian_cassava_fufu_step_4`
+- fd_cooking_pot: 1 recipe, disabled: the game can't make `nigerian_cassava_fufu_step_4`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `nigerian_cassava_fufu.step_6` (cool)
 
-- transition: written
+- transition: not written: the game can't make `nigerian_cassava_fufu_step_5`
 
 ### `nigerian_cauliflower_fufu.step_1` (blend)
 
@@ -82103,7 +83326,6 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `nigerian_coconut_rice.step_5` (stir_fry)
 
-- adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 15%, estimated
 - pnc_thermo_plant: 1 recipe, rounding 15%, estimated
 
@@ -82261,9 +83483,8 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `nigerian_egg_stew.step_2` (stir_fry)
 
-- adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 15%, estimated
-- pnc_thermo_plant: none, takes at most 2 inputs, not 6
+- create_heated_mixing: 1 recipe, rounding 13%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 5
 
 ### `nigerian_egg_stew.step_3` (mix)
 
@@ -82493,9 +83714,9 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `nigerian_miyan_giyada.step_4` (mix)
 
-- create_mixing: 1 recipe, rounding 15%, estimated
+- create_mixing: 2 recipes, rounding 15%, estimated
 - shapeless_crafting: none, whole items would distort it by 294%
-- hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
+- hexerei_mixing_cauldron: 1 recipe, rounding 36% ⚠, estimated
 
 ### `nigerian_miyan_giyada.step_5` (mix)
 
@@ -82621,7 +83842,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 - create_mixing: 1 recipe, rounding 10%, estimated
 - shapeless_crafting: none, whole items would distort it by 111%
-- hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
+- hexerei_mixing_cauldron: 1 recipe, rounding 85% ⚠, estimated
 
 ### `nigerian_oha_soup_ora_soup.step_3.prep_9` (blend)
 
@@ -82629,13 +83850,13 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `nigerian_oha_soup_ora_soup.step_5` (simmer)
 
-- create_heated_mixing: 1 recipe, rounding 15%, estimated
+- create_heated_mixing: 1 recipe, disabled: the game can't make `smoked_fish`
 - fd_cooking_pot: none, whole items would distort it by 182%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `nigerian_oha_soup_ora_soup.step_6` (simmer)
 
-- create_heated_mixing: 1 recipe, rounding 11%, estimated
+- create_heated_mixing: 1 recipe, disabled: the game can't make `nigerian_oha_soup_ora_soup_step_5`
 - fd_cooking_pot: none, whole items would distort it by 275%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
@@ -82658,14 +83879,14 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `nigerian_okra_soup_ila_asepo.step_3` (simmer)
 
-- create_heated_mixing: 1 recipe, rounding 15%, estimated
-- fd_cooking_pot: 1 recipe, rounding 88% ⚠, estimated
+- create_heated_mixing: 1 recipe, disabled: the game can't make `smoked_fish`
+- fd_cooking_pot: 1 recipe, disabled: the game can't make `smoked_fish`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `nigerian_okra_soup_ila_asepo.step_4` (simmer)
 
-- create_heated_mixing: 1 recipe, rounding 11%, estimated
-- fd_cooking_pot: 1 recipe, rounding 67% ⚠, estimated
+- create_heated_mixing: 1 recipe, disabled: the game can't make `nigerian_okra_soup_ila_asepo_step_3`
+- fd_cooking_pot: 1 recipe, disabled: the game can't make `nigerian_okra_soup_ila_asepo_step_3`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `nigerian_oto_mboro_recipe.step_1` (grind)
@@ -82762,7 +83983,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 - create_mixing: 1 recipe, rounding 15%, estimated
 - shapeless_crafting: none, whole items would distort it by 269%
-- hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
+- hexerei_mixing_cauldron: none, whole items would distort it by 111%
 
 ### `nigerian_peppered_turkey_wings.step_1` (simmer)
 
@@ -83335,6 +84556,18 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - fd_cutting_board: 1 recipe, rounding 17% ⚠, estimated
 - create_cutting: 1 recipe, rounding 17% ⚠, estimated
 
+### `niter_kibbeh.heat` (heat)
+
+- create_heated_mixing: none, whole items would distort it by 487%
+- fd_cooking_pot: none, whole items would distort it by 7900%
+- hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
+
+### `niter_kibbeh.separate` (separate)
+
+- create_item_drain: none, whole items would distort it by 737%
+- create_mixing: none, whole items would distort it by 145%
+- thermal_centrifuge: none, whole items would distort it by 737%
+
 ### `nkhwani_wa_ndiwo_malawian_vegetable_fritters.step_1` (mix)
 
 - create_mixing: 1 recipe, rounding 15%, estimated
@@ -83412,7 +84645,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 - create_mixing: 1 recipe, rounding 15%, estimated
 - shapeless_crafting: 1 recipe, rounding 0%, estimated
-- hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
+- hexerei_mixing_cauldron: 1 recipe, rounding 0%, estimated
 
 ### `nkwobi_nigerian_spicy_cow_foot.step_6` (mix)
 
@@ -83435,30 +84668,30 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `nni_ede_nigerian_pounded_cocoyam.step_2` (mix)
 
-- create_mixing: 1 recipe, rounding 10%
-- shapeless_crafting: 1 recipe, rounding 33% ⚠
+- create_mixing: 1 recipe, disabled: the game can't make `manioc_flour`
+- shapeless_crafting: 1 recipe, disabled: the game can't make `manioc_flour`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `nni_ede_nigerian_pounded_cocoyam.step_3` (boil)
 
-- create_heated_mixing: 1 recipe, rounding 0%
-- fd_cooking_pot: 1 recipe, rounding 0%
+- create_heated_mixing: 1 recipe, disabled: the game can't make `nni_ede_nigerian_pounded_cocoyam_step_2`
+- fd_cooking_pot: 1 recipe, disabled: the game can't make `nni_ede_nigerian_pounded_cocoyam_step_2`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `nni_ede_nigerian_pounded_cocoyam.step_4` (blend)
 
-- create_mixing: 1 recipe, rounding 0%
+- create_mixing: 1 recipe, disabled: the game can't make `nni_ede_nigerian_pounded_cocoyam_step_3`
 
 ### `no_bake_cheesecake.step_1` (shape)
 
-- shapeless_crafting: 1 recipe, rounding 15%, estimated
+- shapeless_crafting: 1 recipe, disabled: the game can't make `digestive_biscuit_grind`
 - create_deploying: none, whole items would distort it by 233%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
-- create_compacting: 1 recipe, rounding 15%, estimated
+- create_compacting: 1 recipe, disabled: the game can't make `digestive_biscuit_grind`
 
 ### `no_bake_cheesecake.step_2` (whisk)
 
-- create_mixing: 1 recipe, rounding 15%
+- create_mixing: 1 recipe, disabled: the game can't make `no_bake_cheesecake_step_1`
 
 ### `no_bake_cheesecake.step_2.prep_3` (whisk)
 
@@ -83466,13 +84699,13 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `no_bake_cheesecake.step_3` (mix)
 
-- create_mixing: 1 recipe, rounding 14%, estimated
-- shapeless_crafting: 1 recipe, rounding 9%, estimated
+- create_mixing: 1 recipe, disabled: the game can't make `no_bake_cheesecake_step_2`
+- shapeless_crafting: 1 recipe, disabled: the game can't make `no_bake_cheesecake_step_2`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `no_bake_cheesecake.step_6` (chill)
 
-- transition: written
+- transition: not written: the game can't make `no_bake_cheesecake_step_4`
 - thermal_chiller: none, needs a fluid it can take, and has none
 
 ### `no_bake_chocolate_cake.step_2` (mix)
@@ -83489,20 +84722,20 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `no_bake_chocolate_cake.step_5` (mix)
 
-- create_mixing: 1 recipe, rounding 4%, estimated
-- shapeless_crafting: 1 recipe, rounding 0%, estimated
+- create_mixing: 1 recipe, disabled: the game can't make `graham_cracker_grind`
+- shapeless_crafting: 1 recipe, disabled: the game can't make `graham_cracker_grind`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `no_bake_chocolate_cake.step_7` (chill)
 
-- transition: written
+- transition: not written: the game can't make `no_bake_chocolate_cake_step_6`
 - thermal_chiller: none, needs a fluid it can take, and has none
 
 ### `no_bake_chocolate_chip_cookie_pie.step_1` (assemble)
 
-- shapeless_crafting: 1 recipe, rounding 72% ⚠, estimated
+- shapeless_crafting: 1 recipe, disabled: the game can't make `graham_cracker`
 - create_deploying: none, deploying takes exactly two items
-- hexerei_mixing_cauldron: 1 recipe, rounding 70% ⚠, estimated
+- hexerei_mixing_cauldron: 1 recipe, disabled: the game can't make `graham_cracker`
 
 ### `no_bake_chocolate_chip_cookie_pie.step_1.prep_1` (soak)
 
@@ -83511,7 +84744,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `no_bake_chocolate_chip_cookie_pie.step_4` (chill)
 
-- transition: written
+- transition: not written: the game can't make `no_bake_chocolate_chip_cookie_pie_step_2`
 - thermal_chiller: none, needs a fluid it can take, and has none
 
 ### `no_bake_chocolate_oatmeal_cookies.step_1` (mix)
@@ -83622,6 +84855,17 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - fd_cooking_pot: 1 recipe, rounding 0%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
+### `noodle.cut` (cut)
+
+- fd_cutting_board: 2 recipes, rounding 63% ⚠
+- create_cutting: 2 recipes, rounding 63% ⚠
+
+### `noodle.knead_dough` (knead)
+
+- create_mixing: 1 recipe, rounding 10%
+- shapeless_crafting: 1 recipe, rounding 10%
+- hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
+
 ### `noodle.stale` (stale)
 
 - transition: written
@@ -83642,6 +84886,16 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_heated_mixing: 1 recipe, rounding 0%
 - fd_cooking_pot: 1 recipe, rounding 0%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
+
+### `nori.dry` (dry)
+
+- transition: written
+- hexerei_drying_rack: none, whole items would distort it by 357%
+
+### `nori.shred` (cut)
+
+- fd_cutting_board: 1 recipe, rounding 0%
+- create_cutting: 1 recipe, rounding 0%
 
 ### `north_carolina_style_bbq_chicken.step_1` (season)
 
@@ -83722,9 +84976,8 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `north_indian_fermented_bread_batooru.step_4` (pan_fry)
 
-- adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 1%
-- pnc_thermo_plant: 1 recipe, rounding 15%
+- create_heated_mixing: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, rounding 0%
 
 ### `north_staffordshire_oatcakes.step_1` (mix)
 
@@ -83792,6 +85045,12 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_heated_mixing: 1 recipe, rounding 6%, estimated
 - fd_cooking_pot: 1 recipe, rounding 6%, estimated
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
+
+### `nougat.boil` (boil)
+
+- create_heated_mixing: 2 recipes, rounding 11%, estimated
+- fd_cooking_pot: none, whole items would distort it by 171%
+- hexerei_mixing_cauldron: 4 recipes, rounding 75% ⚠, estimated
 
 ### `nshima.step_2` (mix)
 
@@ -83979,6 +85238,24 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 - transition: written
 
+### `nutritional_yeast.culture` (ferment)
+
+- vd_fermenting_jar: none, whole items would distort it by 900%
+- bnc_keg: none, can't make the mod's own yeast_culture, and no other mod provides it
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
+- theurgy_fermentation: none, whole items would distort it by 900%
+
+### `nutritional_yeast.dry` (dry)
+
+- transition: not written: the game can't make `deactivated_yeast`
+- hexerei_drying_rack: none, whole items would distort it by 789%
+
+### `nutritional_yeast.pasteurize` (heat)
+
+- create_heated_mixing: 1 recipe, disabled: the game can't make `yeast_culture`
+- fd_cooking_pot: 1 recipe, disabled: the game can't make `yeast_culture`
+- hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
+
 ### `nuts_and_seeds.freezer_burn` (freezer_burn)
 
 - transition: written
@@ -84143,6 +85420,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 - transition: written
 
+### `oat_flour.grind` (grind)
+
+- create_milling: 1 recipe, rounding 4%, estimated
+- hexerei_pestle_and_mortar: 1 recipe, rounding 4%, estimated
+
 ### `oat_flour.stale` (stale)
 
 - transition: written
@@ -84260,6 +85542,10 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 ### `oatmeal.freezer_burn` (freezer_burn)
 
 - transition: written
+
+### `oatmeal.grind` (blend)
+
+- create_mixing: 4 recipes, rounding 4%, estimated
 
 ### `oatmeal.stale` (stale)
 
@@ -84669,9 +85955,8 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `ofe_egusi.step_5` (fry)
 
-- adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 11%, estimated
-- pnc_thermo_plant: 1 recipe, rounding 14%, estimated
+- create_heated_mixing: 1 recipe, rounding 0%, estimated
+- pnc_thermo_plant: 1 recipe, rounding 15%, estimated
 
 ### `ofe_egusi.step_7` (season)
 
@@ -84711,7 +85996,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 - create_heated_mixing: 1 recipe, rounding 15%, estimated
 - fd_cooking_pot: 1 recipe, rounding 17% ⚠, estimated
-- hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
+- hexerei_mixing_cauldron: 1 recipe, rounding 15%, estimated
 
 ### `ofe_oha_oha_leaf_soup.step_6` (simmer)
 
@@ -84799,7 +86084,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 - create_heated_mixing: 1 recipe, rounding 15%, estimated
 - fd_cooking_pot: none, whole items would distort it by 125%
-- hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
+- hexerei_mixing_cauldron: 1 recipe, rounding 33% ⚠, estimated
 
 ### `ofe_owerri.step_5` (simmer)
 
@@ -84844,7 +86129,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 - create_mixing: 1 recipe, rounding 5%
 - shapeless_crafting: 1 recipe, rounding 5%
-- hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
+- hexerei_mixing_cauldron: 1 recipe, rounding 15%
 
 ### `okonomiyaki_japanese_savory_pancake.step_1` (mix)
 
@@ -84880,7 +86165,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 - create_mixing: 1 recipe, rounding 15%, estimated
 - shapeless_crafting: 1 recipe, rounding 88% ⚠, estimated
-- hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
+- hexerei_mixing_cauldron: 1 recipe, rounding 67% ⚠, estimated
 
 ### `okpa_boiled_bambara_bean_pudding.step_2.prep_1` (rinse)
 
@@ -84911,9 +86196,9 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `okpo_ogede_plantain_moi_moi.step_2` (mix)
 
-- create_mixing: 1 recipe, rounding 13%, estimated
+- create_mixing: 2 recipes, rounding 13%, estimated
 - shapeless_crafting: none, whole items would distort it by 190%
-- hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
+- hexerei_mixing_cauldron: 1 recipe, rounding 12%, estimated
 
 ### `okpo_ogede_plantain_moi_moi.step_4` (steam)
 
@@ -84939,7 +86224,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 - create_mixing: 1 recipe, rounding 0%, estimated
 - shapeless_crafting: 1 recipe, rounding 0%, estimated
-- hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
+- hexerei_mixing_cauldron: 1 recipe, rounding 0%, estimated
 
 ### `okra_plantain_porridge.step_2.prep_8` (rinse)
 
@@ -85013,6 +86298,12 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
 - create_mixing: 1 recipe, rounding 0%
 - thermal_centrifuge: 1 recipe, rounding 0%
+
+### `olive_oil.press` (press)
+
+- create_item_drain: none, the item drain takes one item and yields one item and one fluid
+- create_mixing: 2 recipes, rounding 4%
+- thermal_press: none, whole items would distort it by 650%
 
 ### `olive_oil_bread.step_1` (mix)
 
@@ -85232,9 +86523,30 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - transition: written
 - thermal_chiller: none, needs a fluid it can take, and has none
 
+### `onion_powder.dry` (dry)
+
+- transition: written
+- hexerei_drying_rack: none, whole items would distort it by 471%
+
+### `onion_powder.grind` (grind)
+
+- create_milling: 1 recipe, rounding 72% ⚠, estimated
+- hexerei_pestle_and_mortar: 1 recipe, rounding 14%, estimated
+
 ### `onion_powder.stale` (stale)
 
 - transition: written
+
+### `onion_rings.batter` (assemble)
+
+- shapeless_crafting: none, whole items would distort it by 186%
+- create_deploying: none, deploying takes exactly two items
+- hexerei_mixing_cauldron: none, whole items would distort it by 114%
+
+### `onion_rings.fry` (fry)
+
+- create_heated_mixing: 3 recipes, disabled: the game can't make `battered_onion_rings`
+- pnc_thermo_plant: 6 recipes, disabled: the game can't make `battered_onion_rings`
 
 ### `onion_rings.step_1` (separate)
 
@@ -85275,6 +86587,12 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 - smelting: none, takes one input, not 2
 - smoking: none, takes one input, not 2
+
+### `onion_salt.mix` (mix)
+
+- create_mixing: 1 recipe, rounding 2%, estimated
+- shapeless_crafting: 1 recipe, rounding 13%, estimated
+- hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `onion_salt.stale` (stale)
 
@@ -85411,6 +86729,10 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - smelting: 1 recipe, disabled: the game can't make `orange_chocolate_chip_muffins_step_4`
 - smoking: 1 recipe, disabled: the game can't make `orange_chocolate_chip_muffins_step_4`
 
+### `orange_flower_water.distill_blossoms` (distill)
+
+- create_heated_mixing: 1 recipe, rounding 15%
+
 ### `orange_french_toast.step_1` (mix)
 
 - create_mixing: 1 recipe, rounding 15%, estimated
@@ -85441,18 +86763,28 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `orange_glazed_sweet_potatoes.step_2` (mix)
 
-- create_mixing: 1 recipe, rounding 15%, estimated
+- create_mixing: 1 recipe, disabled: the game can't make `wheat_germ`
 - shapeless_crafting: none, whole items would distort it by 1591%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `orange_glazed_sweet_potatoes.step_4` (bake)
 
-- smelting: 1 recipe, rounding 4%, estimated
-- smoking: 1 recipe, rounding 4%, estimated
+- smelting: 1 recipe, disabled: the game can't make `orange_glazed_sweet_potatoes_step_2`
+- smoking: 1 recipe, disabled: the game can't make `orange_glazed_sweet_potatoes_step_2`
 
 ### `orange_juice.freezer_burn` (freezer_burn)
 
 - transition: written
+
+### `orange_juice.press` (press)
+
+- create_item_drain: none, the item drain takes one item and yields one item and one fluid
+- create_mixing: 3 recipes, rounding 11%
+- thermal_press: none, whole items would distort it by 200%
+
+### `orange_juice_concentrate.evaporate` (evaporate)
+
+- create_heated_mixing: 1 recipe, rounding 2%
 
 ### `orange_juice_concentrate.freezer_burn` (freezer_burn)
 
@@ -85512,8 +86844,8 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `orange_soda_i.step_5` (mix)
 
-- create_mixing: 1 recipe, rounding 10%, estimated
-- shapeless_crafting: 1 recipe, rounding 10%, estimated
+- create_mixing: 2 recipes, disabled: the game can't make `carbonated_water`
+- shapeless_crafting: 2 recipes, disabled: the game can't make `carbonated_water`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `orange_soda_ii.step_1` (separate)
@@ -85537,8 +86869,8 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `orange_soda_ii.step_4` (mix)
 
-- create_mixing: 1 recipe, rounding 0%, estimated
-- shapeless_crafting: 1 recipe, rounding 0%, estimated
+- create_mixing: 1 recipe, disabled: the game can't make `carbonated_water`
+- shapeless_crafting: 1 recipe, disabled: the game can't make `carbonated_water`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `orange_soda_iii.step_1` (mix)
@@ -85663,7 +86995,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `orzo_salad.step_6` (mix)
 
-- create_mixing: 1 recipe, rounding 14%, estimated
+- create_mixing: 1 recipe, disabled: the game can't make `feta_cheese`
 - shapeless_crafting: none, whole items would distort it by 429%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
@@ -85745,9 +87077,9 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `osumade_soup.step_8` (simmer)
 
-- create_heated_mixing: 1 recipe, disabled: the game can't make `osumade_soup_step_7`
+- create_heated_mixing: 2 recipes, disabled: the game can't make `osumade_soup_step_7`
 - fd_cooking_pot: none, whole items would distort it by 238%
-- hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
+- hexerei_mixing_cauldron: 1 recipe, disabled: the game can't make `osumade_soup_step_7`
 
 ### `osumade_soup.step_9` (simmer)
 
@@ -85779,9 +87111,9 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `otong_soup.step_3` (boil)
 
-- create_heated_mixing: 1 recipe, rounding 13%, estimated
+- create_heated_mixing: 2 recipes, rounding 13%, estimated
 - fd_cooking_pot: 1 recipe, rounding 35% ⚠, estimated
-- hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
+- hexerei_mixing_cauldron: 1 recipe, rounding 12%, estimated
 
 ### `otong_soup.step_4` (mix)
 
@@ -85986,15 +87318,27 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 - create_mixing: 1 recipe, rounding 0%, estimated
 - shapeless_crafting: 1 recipe, rounding 0%, estimated
-- hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
+- hexerei_mixing_cauldron: 1 recipe, rounding 0%, estimated
 
 ### `oyster.spoil` (spoil)
 
 - transition: written
 
+### `oyster_sauce.boil_broth` (boil)
+
+- create_heated_mixing: 3 recipes, rounding 15%
+- fd_cooking_pot: 1 recipe, rounding 10%
+- hexerei_mixing_cauldron: 1 recipe, rounding 15%
+
 ### `oyster_sauce.mold` (mold)
 
 - transition: written
+
+### `oyster_sauce.simmer` (simmer)
+
+- create_heated_mixing: 2 recipes, rounding 10%
+- fd_cooking_pot: none, whole items would distort it by 136%
+- hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `oysters_kilpatrick.step_1` (mix)
 
@@ -86920,37 +88264,37 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `panamanian_ropa_vieja.step_1` (season)
 
-- create_mixing: 1 recipe, rounding 0%, estimated
-- shapeless_crafting: 1 recipe, rounding 0%, estimated
+- create_mixing: 1 recipe, disabled: the game can't make `sazon`
+- shapeless_crafting: 1 recipe, disabled: the game can't make `sazon`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `panamanian_ropa_vieja.step_2` (whisk)
 
-- create_mixing: 1 recipe, rounding 15%, estimated
+- create_mixing: 1 recipe, disabled: the game can't make `panamanian_ropa_vieja_step_1`
 
 ### `panamanian_ropa_vieja.step_3` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 14%, estimated
+- create_heated_mixing: 1 recipe, disabled: the game can't make `panamanian_ropa_vieja_step_2`
 - pnc_thermo_plant: none, takes at most 2 inputs, not 5
 
 ### `panamanian_ropa_vieja.step_4` (assemble)
 
-- shapeless_crafting: 1 recipe, rounding 6%, estimated
+- shapeless_crafting: 1 recipe, disabled: the game can't make `panamanian_ropa_vieja_step_3`
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `panamanian_ropa_vieja.step_5` (simmer)
 
-- create_heated_mixing: 1 recipe, rounding 0%
-- fd_cooking_pot: 1 recipe, rounding 0%
+- create_heated_mixing: 1 recipe, disabled: the game can't make `panamanian_ropa_vieja_step_4`
+- fd_cooking_pot: 1 recipe, disabled: the game can't make `panamanian_ropa_vieja_step_4`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `panamanian_ropa_vieja.step_6` (separate)
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
-- create_mixing: 1 recipe, rounding 0%
-- thermal_centrifuge: 1 recipe, rounding 0%
+- create_mixing: 1 recipe, disabled: the game can't make `panamanian_ropa_vieja_step_5`
+- thermal_centrifuge: 1 recipe, disabled: the game can't make `panamanian_ropa_vieja_step_5`
 
 ### `pancake_mix.stale` (stale)
 
@@ -87060,48 +88404,68 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: 1 recipe, rounding 0%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
+### `pancetta.cure` (age)
+
+- vd_fermenting_jar: none, whole items would distort it by 1686%
+- bnc_keg: none, can't make the mod's own pancetta, and no other mod provides it
+
 ### `pancetta.freezer_burn` (freezer_burn)
 
-- transition: written
+- transition: not written: the game can't make `pancetta`
 
 ### `pancetta.spoil` (spoil)
 
-- transition: written
+- transition: not written: the game can't make `pancetta`
 
 ### `pancetta_fusilli_with_herb_shallot_cream.step_1` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 0%
-- pnc_thermo_plant: 1 recipe, rounding 20% ⚠
+- create_heated_mixing: 1 recipe, disabled: the game can't make `pancetta_fry`
+- pnc_thermo_plant: 1 recipe, disabled: the game can't make `pancetta_fry`
 
 ### `pancetta_fusilli_with_herb_shallot_cream.step_2` (pan_fry)
 
-- create_heated_mixing: 1 recipe, rounding 14%, estimated
+- create_heated_mixing: 1 recipe, disabled: the game can't make `pancetta_pan_fry_pan_fry`
 - pnc_thermo_plant: none, takes at most 2 inputs, not 5
 
 ### `pancetta_fusilli_with_herb_shallot_cream.step_3` (simmer)
 
-- create_heated_mixing: 1 recipe, rounding 15%, estimated
-- fd_cooking_pot: 1 recipe, rounding 13%, estimated
+- create_heated_mixing: 1 recipe, disabled: the game can't make `pancetta_fusilli_with_herb_shallot_cream_step_2`
+- fd_cooking_pot: 1 recipe, disabled: the game can't make `pancetta_fusilli_with_herb_shallot_cream_step_2`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `pancetta_fusilli_with_herb_shallot_cream.step_4` (simmer)
 
-- create_heated_mixing: 1 recipe, rounding 15%, estimated
+- create_heated_mixing: 1 recipe, disabled: the game can't make `pancetta_fusilli_with_herb_shallot_cream_step_3`
 - fd_cooking_pot: none, whole items would distort it by 675%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `pancetta_fusilli_with_herb_shallot_cream.step_5` (mix)
 
-- create_mixing: 1 recipe, rounding 10%, estimated
-- shapeless_crafting: 1 recipe, rounding 10%, estimated
+- create_mixing: 1 recipe, disabled: the game can't make `pancetta_fusilli_with_herb_shallot_cream_step_4`
+- shapeless_crafting: 1 recipe, disabled: the game can't make `pancetta_fusilli_with_herb_shallot_cream_step_4`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `pancetta_fusilli_with_herb_shallot_cream.step_6` (mix)
 
-- create_mixing: 1 recipe, rounding 15%, estimated
-- shapeless_crafting: 1 recipe, rounding 15%, estimated
+- create_mixing: 1 recipe, disabled: the game can't make `pancetta_fusilli_with_herb_shallot_cream_step_5`
+- shapeless_crafting: 1 recipe, disabled: the game can't make `pancetta_fusilli_with_herb_shallot_cream_step_5`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
+
+### `pandan_essence.grind` (grind)
+
+- create_milling: none, takes one input, not 2
+- hexerei_pestle_and_mortar: 1 recipe, rounding 7%, estimated
+
+### `paneer.coagulate` (coagulate)
+
+- create_mixing: none, whole items would distort it by 175%
+
+### `paneer.press` (press)
+
+- create_item_drain: none, whole items would distort it by 532%
+- create_mixing: 2 recipes, rounding 13%
+- thermal_press: none, whole items would distort it by 532%
 
 ### `paneer_butter_masala.step_1` (fry)
 
@@ -87111,9 +88475,8 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `paneer_butter_masala.step_2` (pan_fry)
 
-- adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 14%, estimated
-- pnc_thermo_plant: none, takes at most 2 inputs, not 5
+- create_heated_mixing: 1 recipe, rounding 11%, estimated
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `paneer_butter_masala.step_3` (mix)
 
@@ -87297,6 +88660,16 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - shapeless_crafting: 1 recipe, rounding 0%, estimated
 - create_deploying: 1 recipe, rounding 0%, estimated
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
+
+### `paprika.dry_chiles` (dry)
+
+- transition: written
+- hexerei_drying_rack: none, whole items would distort it by 150%
+
+### `paprika.grind_dried_chiles` (grind)
+
+- create_milling: 2 recipes, rounding 28% ⚠, estimated
+- hexerei_pestle_and_mortar: 2 recipes, rounding 15%, estimated
 
 ### `paprika.stale` (stale)
 
@@ -87615,6 +88988,22 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - smelting: 1 recipe, rounding 17% ⚠, estimated
 - smoking: 1 recipe, rounding 17% ⚠, estimated
 
+### `pasta.cut` (cut)
+
+- fd_cutting_board: none, whole items would distort it by 520%
+- create_cutting: none, whole items would distort it by 520%
+
+### `pasta.dry` (dry)
+
+- transition: not written: the game can't make `raw_pasta`
+- hexerei_drying_rack: 2 recipes, disabled: the game can't make `raw_pasta`
+
+### `pasta.knead_dough` (knead)
+
+- create_mixing: 1 recipe, rounding 13%
+- shapeless_crafting: none, whole items would distort it by 201%
+- hexerei_mixing_cauldron: 1 recipe, rounding 15%
+
 ### `pasta.stale` (stale)
 
 - transition: written
@@ -87628,25 +89017,25 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 ### `pasta_alla_gricia_pasta_with_guanciale.step_3` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 10%
+- create_heated_mixing: 1 recipe, disabled: the game can't make `guanciale_fry`
 - pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `pasta_alla_gricia_pasta_with_guanciale.step_3.prep_3` (fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 0%
-- pnc_thermo_plant: 1 recipe, rounding 0%
+- create_heated_mixing: 1 recipe, disabled: the game can't make `guanciale`
+- pnc_thermo_plant: 1 recipe, disabled: the game can't make `guanciale`
 
 ### `pasta_alla_gricia_pasta_with_guanciale.step_4` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 14%
-- pnc_thermo_plant: 1 recipe, rounding 14%
+- create_heated_mixing: 1 recipe, disabled: the game can't make `pasta_alla_gricia_pasta_with_guanciale_step_3`
+- pnc_thermo_plant: 1 recipe, disabled: the game can't make `pasta_alla_gricia_pasta_with_guanciale_step_3`
 
 ### `pasta_alla_gricia_pasta_with_guanciale.step_5` (mix)
 
-- create_mixing: 1 recipe, rounding 14%, estimated
-- shapeless_crafting: 1 recipe, rounding 14%, estimated
+- create_mixing: 1 recipe, disabled: the game can't make `pasta_alla_gricia_pasta_with_guanciale_step_4`
+- shapeless_crafting: 1 recipe, disabled: the game can't make `pasta_alla_gricia_pasta_with_guanciale_step_4`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `pasta_and_bean_soup_pasta_e_fagioli.step_1` (mix)
@@ -87744,8 +89133,8 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `pasta_casserole_pastitsio.step_16` (mix)
 
-- create_mixing: 1 recipe, rounding 13%, estimated
-- shapeless_crafting: 1 recipe, rounding 13%, estimated
+- create_mixing: 1 recipe, disabled: the game can't make `feta_cheese`
+- shapeless_crafting: 1 recipe, disabled: the game can't make `feta_cheese`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `pasta_casserole_pastitsio.step_2` (pan_fry)
@@ -87756,19 +89145,19 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `pasta_casserole_pastitsio.step_21` (coat)
 
-- shapeless_crafting: 1 recipe, rounding 6%
+- shapeless_crafting: 1 recipe, disabled: the game can't make `pasta_casserole_pastitsio_step_20`
 - create_deploying: none, whole items would distort it by 745%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `pasta_casserole_pastitsio.step_22` (bake)
 
-- smelting: 1 recipe, rounding 0%
-- smoking: 1 recipe, rounding 0%
+- smelting: 1 recipe, disabled: the game can't make `pasta_casserole_pastitsio_step_21`
+- smoking: 1 recipe, disabled: the game can't make `pasta_casserole_pastitsio_step_21`
 
 ### `pasta_casserole_pastitsio.step_23` (cool)
 
-- transition: written
+- transition: not written: the game can't make `pasta_casserole_pastitsio_step_22`
 
 ### `pasta_casserole_pastitsio.step_3` (mix)
 
@@ -87842,15 +89231,15 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `pasta_marinata.step_1` (mix)
 
-- create_mixing: 1 recipe, rounding 10%, estimated
-- shapeless_crafting: 1 recipe, rounding 47% ⚠, estimated
+- create_mixing: 1 recipe, disabled: the game can't make `semolina`
+- shapeless_crafting: 1 recipe, disabled: the game can't make `semolina`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `pasta_marinata.step_2` (mix)
 
-- create_mixing: 1 recipe, rounding 10%
-- shapeless_crafting: 1 recipe, rounding 10%
-- hexerei_mixing_cauldron: 1 recipe, rounding 15%
+- create_mixing: 1 recipe, disabled: the game can't make `pasta_marinata_step_1`
+- shapeless_crafting: 1 recipe, disabled: the game can't make `pasta_marinata_step_1`
+- hexerei_mixing_cauldron: 1 recipe, disabled: the game can't make `pasta_marinata_step_1`
 
 ### `pasta_meat_and_cheese_casserole_mostaccioli.step_2` (pan_fry)
 
@@ -87997,35 +89386,35 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 ### `pasta_with_pancetta_and_cauliflower.step_2` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 13%
+- create_heated_mixing: 1 recipe, disabled: the game can't make `pancetta_fry`
 - pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `pasta_with_pancetta_and_cauliflower.step_3` (boil)
 
-- create_heated_mixing: 1 recipe, rounding 13%
-- fd_cooking_pot: 1 recipe, rounding 81% ⚠
+- create_heated_mixing: 1 recipe, disabled: the game can't make `pasta_with_pancetta_and_cauliflower_step_2`
+- fd_cooking_pot: 1 recipe, disabled: the game can't make `pasta_with_pancetta_and_cauliflower_step_2`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `pasta_with_pancetta_and_cauliflower.step_4` (stir_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 8%, estimated
+- create_heated_mixing: 1 recipe, disabled: the game can't make `pasta_with_pancetta_and_cauliflower_step_3`
 - pnc_thermo_plant: none, takes at most 2 inputs, not 7
 
 ### `pasta_with_pancetta_and_cauliflower.step_5` (whisk)
 
-- create_mixing: 1 recipe, rounding 15%, estimated
+- create_mixing: 1 recipe, disabled: the game can't make `pasta_with_pancetta_and_cauliflower_step_4`
 
 ### `pasta_with_pancetta_and_cauliflower.step_6` (strain)
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
-- create_mixing: 1 recipe, rounding 0%, estimated
-- thermal_centrifuge: 1 recipe, rounding 17% ⚠, estimated
+- create_mixing: 1 recipe, disabled: the game can't make `pasta_with_pancetta_and_cauliflower_step_5`
+- thermal_centrifuge: 1 recipe, disabled: the game can't make `pasta_with_pancetta_and_cauliflower_step_5`
 
 ### `pasta_with_pancetta_and_cauliflower.step_8` (assemble)
 
-- shapeless_crafting: 1 recipe, rounding 0%, estimated
-- create_deploying: 1 recipe, rounding 0%, estimated
+- shapeless_crafting: 1 recipe, disabled: the game can't make `pasta_with_pancetta_and_cauliflower_step_7`
+- create_deploying: 1 recipe, disabled: the game can't make `pasta_with_pancetta_and_cauliflower_step_7`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `pasta_with_red_pepper_and_goat_cheese.step_2` (assemble)
@@ -88119,8 +89508,8 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `pasties.step_12` (bake)
 
-- smelting: 1 recipe, disabled: the game can't make `pasties_step_10`
-- smoking: 1 recipe, disabled: the game can't make `pasties_step_10`
+- smelting: 2 recipes, disabled: the game can't make `pasties_step_10`
+- smoking: 2 recipes, disabled: the game can't make `pasties_step_10`
 
 ### `pasties.step_2` (coat)
 
@@ -88197,6 +89586,12 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 ### `pastry_dough.freezer_burn` (freezer_burn)
 
 - transition: written
+
+### `pastry_dough.knead` (knead)
+
+- create_mixing: 1 recipe, rounding 14%
+- shapeless_crafting: none, whole items would distort it by 180%
+- hexerei_mixing_cauldron: 1 recipe, rounding 15%
 
 ### `pastry_dough_recipe.step_1` (mix)
 
@@ -88498,6 +89893,17 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
 
+### `peach_pie.assemble` (assemble)
+
+- shapeless_crafting: none, whole items would distort it by 817%
+- create_deploying: none, deploying takes exactly two items
+- hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
+
+### `peach_pie.bake` (bake)
+
+- smelting: 2 recipes, disabled: the game can't make `unbaked_peach_pie`
+- smoking: 2 recipes, disabled: the game can't make `unbaked_peach_pie`
+
 ### `peach_pie.step_1` (mix)
 
 - create_mixing: 1 recipe, rounding 15%, estimated
@@ -88600,6 +90006,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - shapeless_crafting: 1 recipe, rounding 6%, estimated
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
+### `peanut_butter.grind` (grind)
+
+- create_milling: none, takes one input, not 2
+- hexerei_pestle_and_mortar: 4 recipes, rounding 0%
+
 ### `peanut_butter.rancid` (rancid)
 
 - transition: written
@@ -88613,8 +90024,8 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `peanut_butter_and_jelly_sandwich.step_2` (coat)
 
-- shapeless_crafting: 1 recipe, rounding 0%, estimated
-- create_deploying: 1 recipe, rounding 0%, estimated
+- shapeless_crafting: 3 recipes, rounding 0%, estimated
+- create_deploying: 3 recipes, rounding 0%, estimated
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
@@ -88645,6 +90056,17 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 ### `peanut_butter_banana_smoothie.step_2` (blend)
 
 - create_mixing: 1 recipe, disabled: the game can't make `peanut_butter_banana_smoothie_step_1`
+
+### `peanut_butter_cookies.bake` (bake)
+
+- smelting: 2 recipes, rounding 32% ⚠, estimated
+- smoking: 2 recipes, rounding 32% ⚠, estimated
+
+### `peanut_butter_cookies.mix` (mix)
+
+- create_mixing: 1 recipe, rounding 15%, estimated
+- shapeless_crafting: 1 recipe, rounding 18% ⚠, estimated
+- hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `peanut_butter_cookies.step_2` (mix)
 
@@ -88813,6 +90235,12 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_mixing: 1 recipe, disabled: the game can't make `peanut_milk_step_5`
 - thermal_press: 1 recipe, disabled: the game can't make `peanut_milk_step_5`
 
+### `peanut_oil.press` (press)
+
+- create_item_drain: none, the item drain takes one item and yields one item and one fluid
+- create_mixing: 2 recipes, rounding 14%
+- thermal_press: 2 recipes, rounding 14%
+
 ### `peanut_sauce_saus_kacang.step_1` (mix)
 
 - create_mixing: 1 recipe, rounding 0%
@@ -88821,8 +90249,8 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `peanut_sauce_saus_kacang.step_2` (season)
 
-- create_mixing: 1 recipe, rounding 0%, estimated
-- shapeless_crafting: 1 recipe, rounding 0%, estimated
+- create_mixing: 1 recipe, disabled: the game can't make `sambal_oelek`
+- shapeless_crafting: 1 recipe, disabled: the game can't make `sambal_oelek`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `peanut_sauce_vegan.step_1` (mix)
@@ -88979,7 +90407,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 - shapeless_crafting: none, whole items would distort it by 841%
 - create_deploying: none, deploying takes exactly two items
-- hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
+- hexerei_mixing_cauldron: none, whole items would distort it by 841%
 - thermal_bottler: none, takes at most 2 inputs, not 3
 
 ### `peas_supreme.step_8` (bake)
@@ -89093,6 +90521,23 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 ### `pecan_halves.rancid` (rancid)
 
 - transition: written
+
+### `pecan_pie.assemble` (assemble)
+
+- shapeless_crafting: 1 recipe, rounding 75% ⚠
+- create_deploying: none, deploying takes exactly two items
+- hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
+
+### `pecan_pie.bake` (bake)
+
+- smelting: 4 recipes, rounding 7%
+- smoking: 4 recipes, rounding 7%
+
+### `pecan_pie.mix_filling` (mix)
+
+- create_mixing: 1 recipe, rounding 11%, estimated
+- shapeless_crafting: 1 recipe, rounding 26% ⚠, estimated
+- hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `pecan_pie.step_1` (roast)
 
@@ -89295,6 +90740,17 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 ### `peeled_cucumber.spoil` (spoil)
 
 - transition: written
+
+### `pemmican.age` (age)
+
+- vd_fermenting_jar: none, whole items would distort it by 900%
+- bnc_keg: none, can't make the mod's own dried_lean_beef, and no other mod provides it
+
+### `pemmican.mix` (mix)
+
+- create_mixing: 3 recipes, disabled: the game can't make `dried_lean_beef`
+- shapeless_crafting: none, whole items would distort it by 617%
+- hexerei_mixing_cauldron: none, whole items would distort it by 426%
 
 ### `penne.stale` (stale)
 
@@ -89525,8 +90981,8 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `pepper_soda.step_4` (mix)
 
-- create_mixing: 1 recipe, rounding 0%, estimated
-- shapeless_crafting: 1 recipe, rounding 0%, estimated
+- create_mixing: 1 recipe, disabled: the game can't make `carbonated_water`
+- shapeless_crafting: 1 recipe, disabled: the game can't make `carbonated_water`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `pepper_soup.step_1` (rinse)
@@ -89617,9 +91073,27 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 - transition: written
 
+### `pepperoni.dry` (dry)
+
+- transition: not written: the game can't make `fermented_pepperoni`
+- hexerei_drying_rack: 3 recipes, disabled: the game can't make `fermented_pepperoni`
+
+### `pepperoni.ferment` (ferment)
+
+- transition: not written: the game can't make `pepperoni_mix`
+- vd_fermenting_jar: 1 recipe, disabled: the game can't make `pepperoni_mix`
+- bnc_keg: none, can't make the mod's own fermented_pepperoni, and no other mod provides it
+- pnc_thermo_plant: 1 recipe, disabled: the game can't make `pepperoni_mix`
+- theurgy_fermentation: none, needs a fluid it can take, and has none
+
 ### `pepperoni.freezer_burn` (freezer_burn)
 
 - transition: written
+
+### `pepperoni.grind` (grind)
+
+- create_milling: none, takes one input, not 4
+- hexerei_pestle_and_mortar: none, whole items would distort it by 9900%
 
 ### `pepperoni.spoil` (spoil)
 
@@ -89627,8 +91101,8 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `pepperoni_pasta_salad.step_1` (mix)
 
-- create_mixing: 1 recipe, rounding 11%, estimated
-- shapeless_crafting: 1 recipe, rounding 92% ⚠, estimated
+- create_mixing: 1 recipe, disabled: the game can't make `italian_dressing`
+- shapeless_crafting: 1 recipe, disabled: the game can't make `italian_dressing`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `pepperoni_pasta_salad.step_1.prep_1` (boil)
@@ -89639,7 +91113,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `pepperoni_pasta_salad.step_2` (chill)
 
-- transition: written
+- transition: not written: the game can't make `pepperoni_pasta_salad_step_1`
 - thermal_chiller: none, needs a fluid it can take, and has none
 
 ### `peppers.freezer_burn` (freezer_burn)
@@ -89944,6 +91418,12 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 - transition: written
 
+### `phyllo_dough.knead` (knead)
+
+- create_mixing: 2 recipes, rounding 13%
+- shapeless_crafting: none, whole items would distort it by 181%
+- hexerei_mixing_cauldron: 1 recipe, rounding 13%
+
 ### `phyllo_dough.spoil` (spoil)
 
 - transition: written
@@ -90079,6 +91559,13 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 7%
 - pnc_thermo_plant: none, takes at most 2 inputs, not 3
+
+### `pickle.ferment` (ferment)
+
+- vd_fermenting_jar: 3 recipes, rounding 17% ⚠
+- bnc_keg: 2 recipes, rounding 15%
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
+- theurgy_fermentation: 3 recipes, rounding 15%
 
 ### `pickle.mold` (mold)
 
@@ -90627,6 +92114,12 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_mixing: 1 recipe, rounding 13%, estimated
 - shapeless_crafting: 1 recipe, rounding 13%, estimated
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
+
+### `pineapple_juice.press` (press)
+
+- create_item_drain: none, the item drain takes one item and yields one item and one fluid
+- create_mixing: 3 recipes, rounding 14%, estimated
+- thermal_press: none, whole items would distort it by 500%
 
 ### `pineapple_juice.step_1` (rinse)
 
@@ -91571,6 +93064,17 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 - transition: written
 
+### `pork_and_beans.assemble` (assemble)
+
+- shapeless_crafting: none, whole items would distort it by 178%
+- create_deploying: none, deploying takes exactly two items
+- hexerei_mixing_cauldron: none, whole items would distort it by 173%
+
+### `pork_and_beans.bake` (bake)
+
+- smelting: 2 recipes, disabled: the game can't make `raw_pork_and_beans`
+- smoking: 2 recipes, disabled: the game can't make `raw_pork_and_beans`
+
 ### `pork_and_carrots_in_sauce.step_2` (season)
 
 - create_mixing: 1 recipe, rounding 68% ⚠, estimated
@@ -91822,6 +93326,16 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_heated_mixing: 1 recipe, rounding 13%
 - pnc_thermo_plant: 1 recipe, rounding 13%
 
+### `pork_jerky.age` (age)
+
+- vd_fermenting_jar: none, whole items would distort it by 1900%
+- bnc_keg: none, can't make the mod's own salted_pork_strips, and no other mod provides it
+
+### `pork_jerky.dry` (dry)
+
+- transition: not written: the game can't make `salted_pork_strips`
+- hexerei_drying_rack: 1 recipe, disabled: the game can't make `salted_pork_strips`
+
 ### `pork_marinade.step_1` (mix)
 
 - create_mixing: 1 recipe, rounding 15%, estimated
@@ -91835,6 +93349,17 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 ### `pork_mince.spoil` (spoil)
 
 - transition: written
+
+### `pork_pot_pie.assemble` (assemble)
+
+- shapeless_crafting: none, whole items would distort it by 233%
+- create_deploying: none, deploying takes exactly two items
+- hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
+
+### `pork_pot_pie.bake` (bake)
+
+- smelting: 2 recipes, disabled: the game can't make `unbaked_pork_pot_pie`
+- smoking: 2 recipes, disabled: the game can't make `unbaked_pork_pot_pie`
 
 ### `pork_pot_pie.step_10` (bake)
 
@@ -92560,6 +94085,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - fd_cooking_pot: 1 recipe, rounding 0%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
+### `potato_chips.fry` (fry)
+
+- create_heated_mixing: 6 recipes, rounding 14%
+- pnc_thermo_plant: 6 recipes, rounding 42% ⚠
+
 ### `potato_chips.step_10` (cool)
 
 - transition: written
@@ -92686,6 +94216,22 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_mixing: 1 recipe, rounding 1%
 - shapeless_crafting: none, whole items would distort it by 1168%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
+
+### `potato_flour.boil` (boil)
+
+- create_heated_mixing: 1 recipe, rounding 14%
+- fd_cooking_pot: 1 recipe, rounding 14%
+- hexerei_mixing_cauldron: 1 recipe, rounding 15%
+
+### `potato_flour.dry` (dry)
+
+- transition: written
+- hexerei_drying_rack: 1 recipe, rounding 79% ⚠, estimated
+
+### `potato_flour.grind` (grind)
+
+- create_milling: 1 recipe, rounding 4%, estimated
+- hexerei_pestle_and_mortar: 1 recipe, rounding 4%, estimated
 
 ### `potato_gnocchi_with_basil_and_sun_dried_tomatoes.step_1` (boil)
 
@@ -93361,6 +94907,12 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - smelting: 1 recipe, disabled: the game can't make `pouch_roasted_snapper_step_4`
 - smoking: 1 recipe, disabled: the game can't make `pouch_roasted_snapper_step_4`
 
+### `poultry_seasoning.mix` (mix)
+
+- create_mixing: 1 recipe, rounding 25% ⚠, estimated
+- shapeless_crafting: none, whole items would distort it by 148%
+- hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
+
 ### `poultry_seasoning.stale` (stale)
 
 - transition: written
@@ -93510,13 +95062,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `prata.step_11` (pan_fry)
 
-- adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 2%
 - pnc_thermo_plant: 1 recipe, rounding 2%
 
 ### `prata.step_12` (pan_fry)
 
-- adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 2%
 - pnc_thermo_plant: 1 recipe, rounding 2%
 
@@ -93743,9 +95293,19 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - vd_fermenting_jar: 1 recipe, rounding 0%
 - bnc_keg: 1 recipe, rounding 0%
 
+### `pretzels.bake` (bake)
+
+- smelting: none, takes one input, not 2
+- smoking: none, takes one input, not 2
+
+### `pretzels.soak` (soak)
+
+- create_mixing: 1 recipe, rounding 11%, estimated
+- create_splashing: none, takes one input, not 2
+
 ### `pretzels.stale` (stale)
 
-- transition: written
+- transition: not written: the game can't make `pretzels`
 
 ### `pretzels_soft.step_1` (dissolve)
 
@@ -93807,8 +95367,8 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `prickly_pear_soda.step_4` (mix)
 
-- create_mixing: 1 recipe, disabled: the game can't make `prickly_pear_soda_step_3`
-- shapeless_crafting: 1 recipe, disabled: the game can't make `prickly_pear_soda_step_3`
+- create_mixing: 1 recipe, disabled: the game can't make `carbonated_water`, `prickly_pear_soda_step_3`
+- shapeless_crafting: 1 recipe, disabled: the game can't make `carbonated_water`, `prickly_pear_soda_step_3`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `prime_rib_dinner.step_1` (boil)
@@ -93914,6 +95474,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 - transition: written
 
+### `prune.dry` (dry)
+
+- transition: written
+- hexerei_drying_rack: none, whole items would distort it by 114%
+
 ### `prune.stale` (stale)
 
 - transition: written
@@ -94003,9 +95568,21 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_milling: 1 recipe, rounding 0%
 - hexerei_pestle_and_mortar: 1 recipe, rounding 0%
 
+### `puff_pastry.fold_butter` (fold)
+
+- create_mixing: 1 recipe, rounding 3%
+- shapeless_crafting: 1 recipe, rounding 3%
+- hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
+
 ### `puff_pastry.freezer_burn` (freezer_burn)
 
 - transition: written
+
+### `puff_pastry.knead_base` (knead)
+
+- create_mixing: 1 recipe, rounding 11%
+- shapeless_crafting: 1 recipe, rounding 11%
+- hexerei_mixing_cauldron: 1 recipe, rounding 14%
 
 ### `puff_pastry_i.step_1` (mix)
 
@@ -94042,8 +95619,8 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `puff_pastry_with_nuts_and_whipped_cream_om_ali.step_6` (assemble)
 
-- shapeless_crafting: none, whole items would distort it by 191%
-- create_deploying: none, whole items would distort it by 1591%
+- shapeless_crafting: 1 recipe, disabled: the game can't make `puff_pastry_with_nuts_and_whipped_cream_om_ali_step_5`
+- create_deploying: none, whole items would distort it by 576%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `puff_pastry_with_nuts_and_whipped_cream_om_ali.step_7` (bake)
@@ -94264,7 +95841,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 - shapeless_crafting: 1 recipe, rounding 0%, estimated
 - create_deploying: 1 recipe, rounding 0%, estimated
-- hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
+- hexerei_mixing_cauldron: 1 recipe, rounding 0%, estimated
 - create_compacting: 1 recipe, rounding 4%, estimated
 
 ### `pumpkin_bread_iii.step_6` (bake)
@@ -94630,42 +96207,42 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `puri_indian_fried_flatbread.step_1` (mix)
 
-- create_mixing: 1 recipe, rounding 15%, estimated
-- shapeless_crafting: 1 recipe, rounding 7%, estimated
+- create_mixing: 1 recipe, disabled: the game can't make `semolina`, `whole_wheat_flour`
+- shapeless_crafting: 1 recipe, disabled: the game can't make `semolina`, `whole_wheat_flour`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `puri_indian_fried_flatbread.step_2` (mix)
 
-- create_mixing: 2 recipes, rounding 14%, estimated
-- shapeless_crafting: 1 recipe, rounding 39% ⚠, estimated
-- hexerei_mixing_cauldron: 1 recipe, rounding 13%, estimated
+- create_mixing: 2 recipes, disabled: the game can't make `puri_indian_fried_flatbread_step_1`
+- shapeless_crafting: 1 recipe, disabled: the game can't make `puri_indian_fried_flatbread_step_1`
+- hexerei_mixing_cauldron: 1 recipe, disabled: the game can't make `puri_indian_fried_flatbread_step_1`
 
 ### `puri_indian_fried_flatbread.step_3` (mix)
 
-- create_mixing: 1 recipe, rounding 8%, estimated
-- shapeless_crafting: 1 recipe, rounding 8%, estimated
-- hexerei_mixing_cauldron: 1 recipe, rounding 8%, estimated
+- create_mixing: 1 recipe, disabled: the game can't make `puri_indian_fried_flatbread_step_2`
+- shapeless_crafting: 1 recipe, disabled: the game can't make `puri_indian_fried_flatbread_step_2`
+- hexerei_mixing_cauldron: 1 recipe, disabled: the game can't make `puri_indian_fried_flatbread_step_2`
 
 ### `puri_indian_fried_flatbread.step_5` (age)
 
-- vd_fermenting_jar: 1 recipe, rounding 8%
+- vd_fermenting_jar: 1 recipe, disabled: the game can't make `puri_indian_fried_flatbread_step_4`
 - bnc_keg: none, can't make the mod's own puri_indian_fried_flatbread_step_5, and no other mod provides it
 
 ### `puri_indian_fried_flatbread.step_6` (heat)
 
-- create_heated_mixing: 1 recipe, rounding 12%
-- fd_cooking_pot: 1 recipe, rounding 12%
+- create_heated_mixing: 1 recipe, disabled: the game can't make `puri_indian_fried_flatbread_step_5`
+- fd_cooking_pot: 1 recipe, disabled: the game can't make `puri_indian_fried_flatbread_step_5`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `puri_indian_fried_flatbread.step_8` (fry)
 
-- create_heated_mixing: 1 recipe, rounding 0%
-- pnc_thermo_plant: 1 recipe, rounding 0%
+- create_heated_mixing: 1 recipe, disabled: the game can't make `puri_indian_fried_flatbread_step_7`
+- pnc_thermo_plant: 1 recipe, disabled: the game can't make `puri_indian_fried_flatbread_step_7`
 
 ### `puri_indian_fried_flatbread.step_9` (dry)
 
-- transition: written
-- hexerei_drying_rack: 1 recipe, rounding 0%
+- transition: not written: the game can't make `puri_indian_fried_flatbread_step_8`
+- hexerei_drying_rack: 1 recipe, disabled: the game can't make `puri_indian_fried_flatbread_step_8`
 
 ### `purple_plum_pie.step_1` (mix)
 
@@ -94830,6 +96407,19 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_heated_mixing: 1 recipe, rounding 14%
 - fd_cooking_pot: 1 recipe, rounding 33% ⚠
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
+
+### `quark.ferment` (ferment)
+
+- vd_fermenting_jar: 1 recipe, rounding 88% ⚠, estimated
+- bnc_keg: none, can't make the mod's own soured_milk, and no other mod provides it
+- pnc_thermo_plant: 1 recipe, rounding 15%, estimated
+- theurgy_fermentation: none, whole items would distort it by 143%
+
+### `quark.separate` (separate)
+
+- create_item_drain: 1 recipe, rounding 15%
+- create_mixing: 1 recipe, rounding 15%
+- thermal_centrifuge: 1 recipe, rounding 15%
 
 ### `quark.sour` (sour)
 
@@ -95072,7 +96662,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 - shapeless_crafting: 1 recipe, rounding 0%
 - create_deploying: 1 recipe, rounding 0%
-- hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
+- hexerei_mixing_cauldron: 1 recipe, rounding 0%
 - create_compacting: 1 recipe, rounding 0%
 
 ### `quick_baked_beef_pasta_dish.step_6` (coat)
@@ -95223,7 +96813,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `quick_sparkling_lemonade.step_2` (mix)
 
-- create_mixing: 1 recipe, rounding 10%, estimated
+- create_mixing: 1 recipe, disabled: the game can't make `carbonated_water`
 - shapeless_crafting: none, whole items would distort it by 137%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
@@ -95373,6 +96963,16 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 ### `rabbit.spoil` (spoil)
 
 - transition: written
+
+### `rabbit_jerky.age` (age)
+
+- vd_fermenting_jar: none, whole items would distort it by 529%
+- bnc_keg: none, can't make the mod's own salted_rabbit_strips, and no other mod provides it
+
+### `rabbit_jerky.dry` (dry)
+
+- transition: not written: the game can't make `salted_rabbit_strips`
+- hexerei_drying_rack: 1 recipe, disabled: the game can't make `salted_rabbit_strips`
 
 ### `rabbit_with_abbey_beer_konijn_met_paterbier.step_2` (fry)
 
@@ -95696,6 +97296,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - transition: written
 - thermal_chiller: none, needs a fluid it can take, and has none
 
+### `raisin.dry` (dry)
+
+- transition: written
+- hexerei_drying_rack: none, whole items would distort it by 150%
+
 ### `raisin.stale` (stale)
 
 - transition: written
@@ -95742,17 +97347,17 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 ### `raisin_oatmeal_muffins.step_3` (separate)
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
-- create_mixing: 1 recipe, rounding 15%, estimated
+- create_mixing: 1 recipe, disabled: the game can't make `whole_wheat_flour`
 - thermal_centrifuge: none, takes one input, not 9
 
 ### `raisin_oatmeal_muffins.step_6` (bake)
 
-- smelting: 1 recipe, rounding 17% ⚠, estimated
-- smoking: 1 recipe, rounding 17% ⚠, estimated
+- smelting: 1 recipe, disabled: the game can't make `raisin_oatmeal_muffins_step_5`
+- smoking: 1 recipe, disabled: the game can't make `raisin_oatmeal_muffins_step_5`
 
 ### `raisin_oatmeal_muffins.step_7` (cool)
 
-- transition: written
+- transition: not written: the game can't make `raisin_oatmeal_muffins_step_6`
 
 ### `raita.step_1` (press)
 
@@ -96169,15 +97774,21 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `rava_dosa_indian_semolina_pancake.step_1` (mix)
 
-- create_mixing: 1 recipe, rounding 15%, estimated
+- create_mixing: 1 recipe, disabled: the game can't make `semolina`
 - shapeless_crafting: none, whole items would distort it by 275%
 - hexerei_mixing_cauldron: none, whole items would distort it by 275%
 
 ### `rava_dosa_indian_semolina_pancake.step_4` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 11%, estimated
-- pnc_thermo_plant: 1 recipe, rounding 14%, estimated
+- create_heated_mixing: 1 recipe, disabled: the game can't make `rava_dosa_indian_semolina_pancake_step_3`
+- pnc_thermo_plant: 1 recipe, disabled: the game can't make `rava_dosa_indian_semolina_pancake_step_3`
+
+### `ravioli.assemble` (assemble)
+
+- shapeless_crafting: 2 recipes, rounding 14%
+- create_deploying: 2 recipes, rounding 81% ⚠
+- hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `ravioli.freezer_burn` (freezer_burn)
 
@@ -96676,6 +98287,23 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - smelting: 1 recipe, disabled: the game can't make `rhubarb_cake_step_3`
 - smoking: 1 recipe, disabled: the game can't make `rhubarb_cake_step_3`
 
+### `rhubarb_crisp.bake` (bake)
+
+- smelting: none, takes one input, not 3
+- smoking: none, takes one input, not 3
+
+### `rhubarb_crisp.mix_topping` (mix)
+
+- create_mixing: 1 recipe, rounding 15%, estimated
+- shapeless_crafting: 1 recipe, rounding 31% ⚠, estimated
+- hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
+
+### `rhubarb_crisp.simmer` (simmer)
+
+- create_heated_mixing: 1 recipe, rounding 10%
+- fd_cooking_pot: 1 recipe, rounding 10%
+- hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
+
 ### `rhubarb_crumble_i.step_2` (mix)
 
 - create_mixing: 1 recipe, rounding 13%
@@ -97047,6 +98675,22 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - fd_cutting_board: 1 recipe, rounding 14%
 - create_cutting: 1 recipe, rounding 14%
 
+### `rice_cake.boil` (boil)
+
+- create_heated_mixing: 2 recipes, rounding 10%, estimated
+- fd_cooking_pot: 2 recipes, rounding 10%, estimated
+- hexerei_mixing_cauldron: 2 recipes, rounding 15%, estimated
+
+### `rice_cake.grill` (grill)
+
+- campfire: none, whole items would distort it by 240%
+- smoking: none, whole items would distort it by 240%
+
+### `rice_cake.grind` (grind)
+
+- create_milling: 1 recipe, rounding 12%, estimated
+- hexerei_pestle_and_mortar: 1 recipe, rounding 12%, estimated
+
 ### `rice_cooked_in_tomato_meat_sauce_ross_il_forn.step_1` (heat)
 
 - create_heated_mixing: 1 recipe, rounding 8%
@@ -97101,6 +98745,12 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 ### `rice_cooked_in_tomato_meat_sauce_ross_il_forn.step_9` (whisk)
 
 - create_mixing: 1 recipe, rounding 4%, estimated
+
+### `rice_flour.grind` (separate)
+
+- create_item_drain: none, whole items would distort it by 567%
+- create_mixing: 1 recipe, rounding 7%, estimated
+- thermal_centrifuge: none, whole items would distort it by 567%
 
 ### `rice_in_fish_broth_sayyadieh.step_1` (fry)
 
@@ -97219,20 +98869,20 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `rice_oat_semolina_burger.step_1` (mix)
 
-- create_mixing: 1 recipe, rounding 12%
-- shapeless_crafting: 1 recipe, rounding 12%
+- create_mixing: 1 recipe, disabled: the game can't make `semolina`
+- shapeless_crafting: 1 recipe, disabled: the game can't make `semolina`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `rice_oat_semolina_burger.step_3` (season)
 
-- create_mixing: 1 recipe, rounding 12%
-- shapeless_crafting: 1 recipe, rounding 75% ⚠
+- create_mixing: 1 recipe, disabled: the game can't make `rice_oat_semolina_burger_step_2`
+- shapeless_crafting: 1 recipe, disabled: the game can't make `rice_oat_semolina_burger_step_2`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `rice_oat_semolina_burger.step_4` (stir_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 8%, estimated
+- create_heated_mixing: 1 recipe, disabled: the game can't make `rice_oat_semolina_burger_step_3`
 - pnc_thermo_plant: none, takes at most 2 inputs, not 7
 
 ### `rice_oat_semolina_burger.step_4.prep_5` (chop)
@@ -97243,7 +98893,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 ### `rice_oat_semolina_burger.step_5` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 14%
+- create_heated_mixing: 1 recipe, disabled: the game can't make `rice_oat_semolina_burger_step_4`
 - pnc_thermo_plant: none, whole items would distort it by 434%
 
 ### `rice_pilaf.step_2` (pan_fry)
@@ -97318,6 +98968,12 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - smelting: 2 recipes, rounding 17% ⚠, estimated
 - smoking: 2 recipes, rounding 17% ⚠, estimated
 
+### `rice_rava.grind` (separate)
+
+- create_item_drain: none, the item drain takes one item and yields one item and one fluid
+- create_mixing: 1 recipe, rounding 1%, estimated
+- thermal_centrifuge: 1 recipe, rounding 15%, estimated
+
 ### `rice_rava.stale` (stale)
 
 - transition: written
@@ -97372,6 +99028,23 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 ### `rice_vinegar.mold` (mold)
 
 - transition: written
+
+### `rice_wafer.dry` (dry)
+
+- transition: written
+- hexerei_drying_rack: 1 recipe, rounding 13%
+
+### `rice_wafer.mix_batter` (mix)
+
+- create_mixing: 3 recipes, rounding 4%, estimated
+- shapeless_crafting: 1 recipe, rounding 11%, estimated
+- hexerei_mixing_cauldron: 1 recipe, rounding 15%, estimated
+
+### `rice_wafer.steam_sheet` (steam)
+
+- create_heated_mixing: 1 recipe, rounding 15%
+- fd_cooking_pot: 1 recipe, rounding 15%
+- hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `rice_water_porridge.step_2` (boil)
 
@@ -97564,6 +99237,10 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 - smelting: 1 recipe, rounding 17% ⚠, estimated
 - smoking: 1 recipe, rounding 17% ⚠, estimated
+
+### `ricotta.coagulate` (coagulate)
+
+- create_mixing: 1 recipe, rounding 15%
 
 ### `ricotta.sour` (sour)
 
@@ -98182,7 +99859,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `roast_butternut_biltong_and_brown_rice_salad.step_6` (mix)
 
-- create_mixing: 1 recipe, disabled: the game can't make `roast_butternut_biltong_and_brown_rice_salad_step_5`
+- create_mixing: 1 recipe, disabled: the game can't make `feta_cheese`, `roast_butternut_biltong_and_brown_rice_salad_step_5`
 - shapeless_crafting: none, whole items would distort it by 373%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
@@ -99073,6 +100750,12 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 - transition: written
 
+### `rolled_oats.press` (press)
+
+- create_item_drain: none, the item drain takes one item and yields one item and one fluid
+- create_mixing: 1 recipe, rounding 1%, estimated
+- thermal_press: 1 recipe, rounding 15%, estimated
+
 ### `rolled_oats.stale` (stale)
 
 - transition: written
@@ -99315,8 +100998,8 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `rosemary_and_citrus_cordial.step_8` (mix)
 
-- create_mixing: 1 recipe, rounding 0%, estimated
-- shapeless_crafting: 1 recipe, rounding 0%, estimated
+- create_mixing: 1 recipe, disabled: the game can't make `carbonated_water`
+- shapeless_crafting: 1 recipe, disabled: the game can't make `carbonated_water`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `rosemary_balsamic_chicken_wings.step_1` (season)
@@ -99440,7 +101123,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 - create_mixing: 1 recipe, rounding 13%, estimated
 - shapeless_crafting: 1 recipe, rounding 13%, estimated
-- hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
+- hexerei_mixing_cauldron: 1 recipe, rounding 13%, estimated
 
 ### `rosemary_garlic_pork_roast.step_2` (assemble)
 
@@ -99490,6 +101173,10 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 - campfire: 1 recipe, rounding 0%
 - smoking: 1 recipe, rounding 0%
+
+### `rosewater.distill_petals` (distill)
+
+- create_heated_mixing: 1 recipe, rounding 15%
 
 ### `rosogulla_bengali_milk_balls_in_syrup.step_1` (dissolve)
 
@@ -99782,6 +101469,12 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 - transition: written
 
+### `roux.heat` (heat)
+
+- create_heated_mixing: 2 recipes, rounding 14%
+- fd_cooking_pot: 2 recipes, rounding 14%
+- hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
+
 ### `royal_icing.step_2` (whisk)
 
 - create_mixing: 1 recipe, rounding 4%, estimated
@@ -99885,6 +101578,17 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 - transition: written
 - thermal_chiller: none, needs a fluid it can take, and has none
+
+### `rum.distill_wash` (distill)
+
+- create_heated_mixing: 2 recipes, rounding 13%
+
+### `rum.ferment_wash` (ferment)
+
+- vd_fermenting_jar: 1 recipe, rounding 16% ⚠, estimated
+- bnc_keg: none, can't make the mod's own rum_wash, and no other mod provides it
+- pnc_thermo_plant: 3 recipes, rounding 15%, estimated
+- theurgy_fermentation: 1 recipe, rounding 15%, estimated
 
 ### `rum_truffles.step_1` (mix)
 
@@ -100015,26 +101719,26 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `rustic_beer_bread.step_1` (mix)
 
-- create_mixing: 1 recipe, rounding 13%, estimated
+- create_mixing: 1 recipe, disabled: the game can't make `whole_wheat_flour`
 - shapeless_crafting: none, whole items would distort it by 720%
 - hexerei_mixing_cauldron: none, whole items would distort it by 538%
 
 ### `rustic_beer_bread.step_2` (cool)
 
-- transition: written
+- transition: not written: the game can't make `rustic_beer_bread_step_1`
 
 ### `rustic_beer_bread.step_4` (ferment)
 
-- transition: written
-- vd_fermenting_jar: 1 recipe, rounding 3%
+- transition: not written: the game can't make `rustic_beer_bread_step_3`
+- vd_fermenting_jar: 1 recipe, disabled: the game can't make `rustic_beer_bread_step_3`
 - bnc_keg: none, can't make the mod's own rustic_beer_bread_step_4, and no other mod provides it
-- pnc_thermo_plant: 1 recipe, rounding 3%
+- pnc_thermo_plant: 1 recipe, disabled: the game can't make `rustic_beer_bread_step_3`
 - theurgy_fermentation: none, needs a fluid it can take, and has none
 
 ### `rustic_beer_bread.step_5` (bake)
 
-- smelting: 1 recipe, rounding 3%
-- smoking: 1 recipe, rounding 3%
+- smelting: 1 recipe, disabled: the game can't make `rustic_beer_bread_step_4`
+- smoking: 1 recipe, disabled: the game can't make `rustic_beer_bread_step_4`
 
 ### `rutabaga.freezer_burn` (freezer_burn)
 
@@ -100158,7 +101862,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 ### `rye_bread_layer_cake.step_8` (assemble)
 
 - shapeless_crafting: 1 recipe, disabled: the game can't make `rye_bread_layer_cake_step_7`
-- create_deploying: 1 recipe, disabled: the game can't make `rye_bread_layer_cake_step_7`
+- create_deploying: none, whole items would distort it by 300%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `sabich_vegetable_and_pita_sandwich.step_1` (assemble)
@@ -100723,6 +102427,24 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: 1 recipe, disabled: the game can't make `salade_frisee_step_3`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
+### `salami.dry` (dry)
+
+- transition: not written: the game can't make `fermented_salami_mix`
+- hexerei_drying_rack: 1 recipe, disabled: the game can't make `fermented_salami_mix`
+
+### `salami.ferment` (ferment)
+
+- transition: not written: the game can't make `salami_mix`
+- vd_fermenting_jar: 1 recipe, disabled: the game can't make `salami_mix`
+- bnc_keg: none, can't make the mod's own fermented_salami_mix, and no other mod provides it
+- pnc_thermo_plant: 1 recipe, disabled: the game can't make `salami_mix`
+- theurgy_fermentation: none, needs a fluid it can take, and has none
+
+### `salami.grind` (grind)
+
+- create_milling: none, takes one input, not 2
+- hexerei_pestle_and_mortar: none, whole items would distort it by 4900%
+
 ### `salata_de_boeuf_romanian_beef_salad.step_10` (season)
 
 - create_mixing: 1 recipe, disabled: the game can't make `salata_de_boeuf_romanian_beef_salad_step_9`
@@ -100859,30 +102581,30 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 ### `salmon_spaghetti.step_2` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 7%
+- create_heated_mixing: 1 recipe, disabled: the game can't make `smoked_salmon_chop`
 - pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `salmon_spaghetti.step_2.prep_3` (chop)
 
-- fd_cutting_board: 1 recipe, rounding 28% ⚠
-- create_cutting: 1 recipe, rounding 28% ⚠
+- fd_cutting_board: 1 recipe, disabled: the game can't make `smoked_salmon`
+- create_cutting: 1 recipe, disabled: the game can't make `smoked_salmon`
 
 ### `salmon_spaghetti.step_3` (mix)
 
-- create_mixing: 1 recipe, rounding 15%, estimated
-- shapeless_crafting: 1 recipe, rounding 15% ⚠, estimated
+- create_mixing: 1 recipe, disabled: the game can't make `salmon_spaghetti_step_2`
+- shapeless_crafting: 1 recipe, disabled: the game can't make `salmon_spaghetti_step_2`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `salmon_spaghetti.step_4` (mix)
 
-- create_mixing: 1 recipe, rounding 15%, estimated
-- shapeless_crafting: 1 recipe, rounding 17% ⚠, estimated
+- create_mixing: 1 recipe, disabled: the game can't make `salmon_spaghetti_step_3`
+- shapeless_crafting: 1 recipe, disabled: the game can't make `salmon_spaghetti_step_3`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `salmon_spaghetti.step_5` (simmer)
 
-- create_heated_mixing: 1 recipe, rounding 15%, estimated
-- fd_cooking_pot: 1 recipe, rounding 27% ⚠, estimated
+- create_heated_mixing: 1 recipe, disabled: the game can't make `salmon_spaghetti_step_4`
+- fd_cooking_pot: 1 recipe, disabled: the game can't make `salmon_spaghetti_step_4`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `salmon_spaghetti.step_6` (assemble)
@@ -101012,6 +102734,12 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 - thermal_chiller: none, takes at most 2 inputs, not 4
 
+### `salsa.mix` (mix)
+
+- create_mixing: 3 recipes, rounding 14%, estimated
+- shapeless_crafting: none, whole items would distort it by 225%
+- hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
+
 ### `salsa.mold` (mold)
 
 - transition: written
@@ -101096,27 +102824,35 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 - create_mixing: 1 recipe, rounding 0%, estimated
 
+### `salt.evaporate` (evaporate)
+
+- create_heated_mixing: none, whole items would distort it by 870%
+
+### `salt_cod.dry` (dry)
+
+- hexerei_drying_rack: none, takes one input, not 2
+
 ### `salt_cod_and_potato_casserole_bacalhau_a_gomes_de_sa.step_2` (simmer)
 
-- create_heated_mixing: 1 recipe, rounding 14%
-- fd_cooking_pot: 1 recipe, rounding 14%
+- create_heated_mixing: 1 recipe, disabled: the game can't make `salt_cod_soak_soak`
+- fd_cooking_pot: 1 recipe, disabled: the game can't make `salt_cod_soak_soak`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `salt_cod_and_potato_casserole_bacalhau_a_gomes_de_sa.step_3` (boil)
 
-- create_heated_mixing: 1 recipe, rounding 13%
+- create_heated_mixing: 1 recipe, disabled: the game can't make `salt_cod_soak_soak_simmer`
 - fd_cooking_pot: none, whole items would distort it by 354%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `salt_cod_and_potato_casserole_bacalhau_a_gomes_de_sa.step_4` (pan_fry)
 
-- create_heated_mixing: 1 recipe, rounding 6%, estimated
+- create_heated_mixing: 1 recipe, disabled: the game can't make `salt_cod_and_potato_casserole_bacalhau_a_gomes_de_sa_step_3`
 - pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `salt_cod_and_potato_casserole_bacalhau_a_gomes_de_sa.step_6` (bake)
 
-- smelting: 1 recipe, rounding 0%
-- smoking: 1 recipe, rounding 0%
+- smelting: 1 recipe, disabled: the game can't make `salt_cod_and_potato_casserole_bacalhau_a_gomes_de_sa_step_5`
+- smoking: 1 recipe, disabled: the game can't make `salt_cod_and_potato_casserole_bacalhau_a_gomes_de_sa_step_5`
 
 ### `salt_cod_and_potato_casserole_bacalhau_a_gomes_de_sa.step_7` (assemble)
 
@@ -101185,6 +102921,10 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 - create_heated_mixing: 1 recipe, rounding 1%
 - pnc_thermo_plant: none, takes at most 2 inputs, not 4
+
+### `salt_pork.dry` (dry)
+
+- hexerei_drying_rack: none, takes one input, not 2
 
 ### `salted_fish_fried_rice.step_1` (stir_fry)
 
@@ -101312,9 +103052,14 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - smelting: 1 recipe, rounding 17% ⚠, estimated
 - smoking: 1 recipe, rounding 17% ⚠, estimated
 
+### `sambal_oelek.grind` (grind)
+
+- create_milling: none, takes one input, not 2
+- hexerei_pestle_and_mortar: none, whole items would distort it by 316%
+
 ### `sambal_oelek.mold` (mold)
 
-- transition: written
+- transition: not written: the game can't make `sambal_oelek`
 
 ### `sambal_tempoyak_anchovies_with_fermented_durian_chili_paste.step_1` (fry)
 
@@ -101352,26 +103097,26 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `sambar_i.step_2` (simmer)
 
-- create_heated_mixing: 1 recipe, rounding 15%, estimated
+- create_heated_mixing: 1 recipe, disabled: the game can't make `sambhar_masala`
 - fd_cooking_pot: none, whole items would distort it by 3281%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `sambar_i.step_3` (fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 12%, estimated
+- create_heated_mixing: 1 recipe, disabled: the game can't make `sambar_i_step_2`
 - pnc_thermo_plant: none, takes at most 2 inputs, not 6
 
 ### `sambar_i.step_4` (simmer)
 
-- create_heated_mixing: 1 recipe, rounding 15%, estimated
-- fd_cooking_pot: 1 recipe, rounding 0%, estimated
+- create_heated_mixing: 1 recipe, disabled: the game can't make `sambar_i_step_3`
+- fd_cooking_pot: 1 recipe, disabled: the game can't make `sambar_i_step_3`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `sambar_i.step_5` (season)
 
-- create_mixing: 1 recipe, rounding 1%, estimated
-- shapeless_crafting: 1 recipe, rounding 1%, estimated
+- create_mixing: 1 recipe, disabled: the game can't make `sambar_i_step_4`
+- shapeless_crafting: 1 recipe, disabled: the game can't make `sambar_i_step_4`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `sambar_ii_kerala_tamil_style.step_2` (fry)
@@ -101435,9 +103180,8 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `sambar_iii.step_4` (fry)
 
-- adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 14%, estimated
-- pnc_thermo_plant: none, takes at most 2 inputs, not 7
+- pnc_thermo_plant: none, takes at most 2 inputs, not 6
 
 ### `sambar_iii.step_5` (fry)
 
@@ -101479,9 +103223,14 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 - transition: written
 
+### `sambhar_masala.grind` (grind)
+
+- create_milling: none, takes one input, not 5
+- hexerei_pestle_and_mortar: none, whole items would distort it by 200%
+
 ### `sambhar_masala.stale` (stale)
 
-- transition: written
+- transition: not written: the game can't make `sambhar_masala`
 
 ### `samosa.step_1` (steam)
 
@@ -101846,8 +103595,8 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `sarsaparilla_soda.step_4` (mix)
 
-- create_mixing: 1 recipe, rounding 0%, estimated
-- shapeless_crafting: 1 recipe, rounding 0%, estimated
+- create_mixing: 1 recipe, disabled: the game can't make `carbonated_water`
+- shapeless_crafting: 1 recipe, disabled: the game can't make `carbonated_water`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `sashimi.step_1` (cut)
@@ -102025,6 +103774,24 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 - transition: written
 
+### `sauerbraten.simmer` (simmer)
+
+- create_heated_mixing: 1 recipe, rounding 11%
+- fd_cooking_pot: 1 recipe, rounding 85% ⚠
+- hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
+
+### `sauerbraten.soak` (soak)
+
+- create_mixing: 3 recipes, rounding 13%, estimated
+- create_splashing: none, takes one input, not 4
+
+### `sauerkraut.ferment` (ferment)
+
+- vd_fermenting_jar: 1 recipe, rounding 8%
+- bnc_keg: none, can't make the mod's own sauerkraut, and no other mod provides it
+- pnc_thermo_plant: 1 recipe, rounding 8%
+- theurgy_fermentation: none, needs a fluid it can take, and has none
+
 ### `sauerkraut_i.step_10` (age)
 
 - vd_fermenting_jar: 1 recipe, disabled: the game can't make `sauerkraut_i_step_9`
@@ -102150,6 +103917,17 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 - create_heated_mixing: 1 recipe, rounding 0%
 - fd_cooking_pot: 1 recipe, rounding 0%
+- hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
+
+### `sausage.grind` (grind)
+
+- create_milling: none, takes one input, not 2
+- hexerei_pestle_and_mortar: 1 recipe, rounding 0%
+
+### `sausage.stuff` (assemble)
+
+- shapeless_crafting: none, whole items would distort it by 275%
+- create_deploying: none, whole items would distort it by 2150%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `sausage_and_egg_breakfast_roll.step_1` (fry)
@@ -102510,9 +104288,14 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - shapeless_crafting: 1 recipe, disabled: the game can't make `sayur_asem_indonesian_tamarind_vegetable_soup_step_4`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
+### `sazon.grind` (grind)
+
+- create_milling: none, takes one input, not 5
+- hexerei_pestle_and_mortar: none, whole items would distort it by 200%
+
 ### `sazon.stale` (stale)
 
-- transition: written
+- transition: not written: the game can't make `sazon`
 
 ### `scallop.freezer_burn` (freezer_burn)
 
@@ -102580,6 +104363,12 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 - smelting: none, takes one input, not 2
 - smoking: none, takes one input, not 2
+
+### `schmaltz.render` (separate)
+
+- create_item_drain: none, the item drain takes one item and yields one item and one fluid
+- create_mixing: 1 recipe, rounding 11%, estimated
+- thermal_centrifuge: 1 recipe, rounding 11%, estimated
 
 ### `scoop_chocolate_ice_cream.freezer_burn` (freezer_burn)
 
@@ -102917,19 +104706,19 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 ### `seafood_fried_rice.step_2` (stir_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 13%, estimated
+- create_heated_mixing: 1 recipe, disabled: the game can't make `fishball`
 - pnc_thermo_plant: none, takes at most 2 inputs, not 6
 
 ### `seafood_fried_rice.step_3` (mix)
 
-- create_mixing: 1 recipe, rounding 15%, estimated
-- shapeless_crafting: 1 recipe, rounding 97% ⚠, estimated
+- create_mixing: 1 recipe, disabled: the game can't make `seafood_fried_rice_step_2`
+- shapeless_crafting: 1 recipe, disabled: the game can't make `seafood_fried_rice_step_2`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `seafood_fried_rice.step_4` (season)
 
-- create_mixing: 1 recipe, rounding 13%, estimated
-- shapeless_crafting: 1 recipe, rounding 54% ⚠, estimated
+- create_mixing: 1 recipe, disabled: the game can't make `seafood_fried_rice_step_3`
+- shapeless_crafting: 1 recipe, disabled: the game can't make `seafood_fried_rice_step_3`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `seafood_gumbo.step_1` (toast)
@@ -103143,9 +104932,32 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_milling: 1 recipe, rounding 67% ⚠, estimated
 - hexerei_pestle_and_mortar: 1 recipe, rounding 11%, estimated
 
+### `seasoning_cubes.dry` (shape)
+
+- shapeless_crafting: 1 recipe, rounding 14%
+- create_deploying: none, deploying takes exactly two items
+- hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
+- create_compacting: 1 recipe, rounding 14%
+
+### `seasoning_cubes.evaporate` (evaporate)
+
+- create_heated_mixing: 1 recipe, rounding 14%, estimated
+
+### `seasoning_cubes.mix_bouillon` (mix)
+
+- create_mixing: 1 recipe, rounding 13%
+- shapeless_crafting: 1 recipe, rounding 13%
+- hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
+
 ### `seasoning_mix.stale` (stale)
 
 - transition: written
+
+### `seasoning_salt.mix` (mix)
+
+- create_mixing: 1 recipe, rounding 58% ⚠, estimated
+- shapeless_crafting: 1 recipe, rounding 21% ⚠, estimated
+- hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `seasoning_salt.stale` (stale)
 
@@ -103352,50 +105164,56 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `semo_nigerian_cooked_semolina.step_2` (mix)
 
-- create_mixing: 1 recipe, rounding 11%, estimated
-- shapeless_crafting: 1 recipe, rounding 11%, estimated
+- create_mixing: 1 recipe, disabled: the game can't make `semolina`
+- shapeless_crafting: 1 recipe, disabled: the game can't make `semolina`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `semo_nigerian_cooked_semolina.step_4` (simmer)
 
-- create_heated_mixing: 1 recipe, rounding 0%
-- fd_cooking_pot: 1 recipe, rounding 0%
+- create_heated_mixing: 1 recipe, disabled: the game can't make `semo_nigerian_cooked_semolina_step_3`
+- fd_cooking_pot: 1 recipe, disabled: the game can't make `semo_nigerian_cooked_semolina_step_3`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
+
+### `semolina.grind` (separate)
+
+- create_item_drain: none, whole items would distort it by 456%
+- create_mixing: none, whole items would distort it by 525%
+- thermal_centrifuge: none, whole items would distort it by 2124%
 
 ### `semolina_burger.step_1` (mix)
 
-- create_mixing: 1 recipe, rounding 8%
-- shapeless_crafting: 1 recipe, rounding 8%
+- create_mixing: 1 recipe, disabled: the game can't make `semolina`
+- shapeless_crafting: 1 recipe, disabled: the game can't make `semolina`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `semolina_burger.step_3` (mix)
 
-- create_mixing: 1 recipe, rounding 10%, estimated
+- create_mixing: 1 recipe, disabled: the game can't make `semolina_burger_step_2`
 - shapeless_crafting: none, whole items would distort it by 202%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `semolina_burger.step_5` (mix)
 
-- create_mixing: 1 recipe, rounding 14%, estimated
-- shapeless_crafting: 1 recipe, rounding 31% ⚠, estimated
+- create_mixing: 1 recipe, disabled: the game can't make `semolina_burger_step_4`
+- shapeless_crafting: 1 recipe, disabled: the game can't make `semolina_burger_step_4`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `semolina_burger.step_7` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 1%
-- pnc_thermo_plant: 1 recipe, rounding 76% ⚠
+- create_heated_mixing: 1 recipe, disabled: the game can't make `semolina_burger_step_6`
+- pnc_thermo_plant: 1 recipe, disabled: the game can't make `semolina_burger_step_6`
 
 ### `semolina_minestrone.step_2` (mix)
 
-- create_mixing: 1 recipe, rounding 13%, estimated
-- shapeless_crafting: 1 recipe, rounding 35% ⚠, estimated
+- create_mixing: 1 recipe, disabled: the game can't make `semolina`
+- shapeless_crafting: 1 recipe, disabled: the game can't make `semolina`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `semolina_minestrone.step_3` (simmer)
 
-- create_heated_mixing: 1 recipe, rounding 0%, estimated
-- fd_cooking_pot: 1 recipe, rounding 0%, estimated
+- create_heated_mixing: 1 recipe, disabled: the game can't make `semolina_minestrone_step_2`
+- fd_cooking_pot: 1 recipe, disabled: the game can't make `semolina_minestrone_step_2`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `semolina_pudding.step_1` (boil)
@@ -103406,24 +105224,24 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `semolina_pudding.step_2` (simmer)
 
-- create_heated_mixing: 1 recipe, rounding 14%, estimated
-- fd_cooking_pot: 1 recipe, rounding 50% ⚠, estimated
+- create_heated_mixing: 1 recipe, disabled: the game can't make `semolina`
+- fd_cooking_pot: 1 recipe, disabled: the game can't make `semolina`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `semolina_pudding.step_3` (mix)
 
-- create_mixing: 1 recipe, rounding 15%, estimated
+- create_mixing: 1 recipe, disabled: the game can't make `semolina_pudding_step_2`
 - shapeless_crafting: none, whole items would distort it by 369%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `semolina_pudding.step_4` (cool)
 
-- transition: written
+- transition: not written: the game can't make `semolina_pudding_step_3`
 
 ### `semolina_pudding.step_5` (mix)
 
-- create_mixing: 1 recipe, rounding 0%, estimated
-- shapeless_crafting: 1 recipe, rounding 0%, estimated
+- create_mixing: 1 recipe, disabled: the game can't make `semolina_pudding_step_4`
+- shapeless_crafting: 1 recipe, disabled: the game can't make `semolina_pudding_step_4`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `serbian_flatbread_lepinja.step_1` (ferment)
@@ -103525,6 +105343,12 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - transition: written
 - thermal_chiller: none, needs a fluid it can take, and has none
 
+### `sesame_oil.press` (press)
+
+- create_item_drain: none, the item drain takes one item and yields one item and one fluid
+- create_mixing: 2 recipes, rounding 11%
+- thermal_press: none, whole items would distort it by 200%
+
 ### `sesame_oil.rancid` (rancid)
 
 - transition: written
@@ -103569,7 +105393,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 - create_heated_mixing: 1 recipe, rounding 6%
 - fd_cooking_pot: 1 recipe, rounding 6%
-- hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
+- hexerei_mixing_cauldron: 1 recipe, rounding 15%
 
 ### `sese_plaintains_cameroonian_plantain_stew.step_5` (simmer)
 
@@ -103581,9 +105405,20 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 - transition: written
 
+### `sev.fry` (fry)
+
+- create_heated_mixing: 1 recipe, rounding 9%
+- pnc_thermo_plant: 1 recipe, rounding 9%
+
+### `sev.mix_dough` (knead)
+
+- create_mixing: 1 recipe, rounding 15%, estimated
+- shapeless_crafting: 1 recipe, rounding 63% ⚠, estimated
+- hexerei_mixing_cauldron: 1 recipe, rounding 15%, estimated
+
 ### `sev_puri_crispy_indian_snack_with_potato.step_2` (assemble)
 
-- shapeless_crafting: 1 recipe, rounding 58% ⚠, estimated
+- shapeless_crafting: 1 recipe, disabled: the game can't make `puri_indian_fried_flatbread`
 - create_deploying: none, whole items would distort it by 914%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
@@ -103655,14 +105490,14 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `shahan_ful.step_10` (season)
 
-- create_mixing: 1 recipe, rounding 13%, estimated
-- shapeless_crafting: 1 recipe, rounding 69% ⚠, estimated
+- create_mixing: 1 recipe, disabled: the game can't make `shahan_ful_step_9`
+- shapeless_crafting: 1 recipe, disabled: the game can't make `shahan_ful_step_9`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `shahan_ful.step_11` (simmer)
 
-- create_heated_mixing: 1 recipe, rounding 0%, estimated
-- fd_cooking_pot: 1 recipe, rounding 0%, estimated
+- create_heated_mixing: 1 recipe, disabled: the game can't make `shahan_ful_step_10`
+- fd_cooking_pot: 1 recipe, disabled: the game can't make `shahan_ful_step_10`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `shahan_ful.step_3` (simmer)
@@ -103689,14 +105524,14 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `shahan_ful.step_7` (season)
 
-- create_mixing: 1 recipe, rounding 0%
-- shapeless_crafting: 1 recipe, rounding 25% ⚠
+- create_mixing: 1 recipe, disabled: the game can't make `berbere_spice`
+- shapeless_crafting: 1 recipe, disabled: the game can't make `berbere_spice`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `shahan_ful.step_8` (heat)
 
-- create_heated_mixing: 1 recipe, rounding 0%
-- fd_cooking_pot: 1 recipe, rounding 0%
+- create_heated_mixing: 1 recipe, disabled: the game can't make `shahan_ful_step_7`
+- fd_cooking_pot: 1 recipe, disabled: the game can't make `shahan_ful_step_7`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `shakshuka.step_1` (pan_fry)
@@ -103735,7 +105570,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `shakshuka.step_7` (assemble)
 
-- shapeless_crafting: 1 recipe, rounding 11%, estimated
+- shapeless_crafting: 1 recipe, disabled: the game can't make `feta_cheese`
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
@@ -104059,9 +105894,8 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `sheer_khurma.step_2` (fry)
 
-- adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 13%, estimated
-- pnc_thermo_plant: none, takes at most 2 inputs, not 3
+- pnc_thermo_plant: 1 recipe, rounding 15%, estimated
 
 ### `sheer_khurma.step_3` (separate)
 
@@ -104071,9 +105905,8 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `sheer_khurma.step_4` (fry)
 
-- adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 13%
-- pnc_thermo_plant: none, takes at most 2 inputs, not 3
+- pnc_thermo_plant: none, doesn't fit in 1 input items, 1 of each, and 1000 mB tanks at any scale
 
 ### `sheer_khurma.step_5` (mix)
 
@@ -104193,6 +106026,21 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 - smelting: 1 recipe, rounding 0%
 - smoking: 1 recipe, rounding 0%
+
+### `sherry.age_wine` (age)
+
+- vd_fermenting_jar: 1 recipe, rounding 5%
+- bnc_keg: none, can't make the mod's own sherry, and no other mod provides it
+
+### `sherry.distill_wine` (distill)
+
+- create_heated_mixing: 1 recipe, rounding 0%
+
+### `sherry.fortify` (mix)
+
+- create_mixing: 1 recipe, rounding 0%
+- shapeless_crafting: 1 recipe, rounding 9%
+- hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `shichimi_seasoning.stale` (stale)
 
@@ -104406,14 +106254,14 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `shopska_salata_tomato_cucumber_and_bell_pepper_salad.step_3` (assemble)
 
-- shapeless_crafting: 1 recipe, disabled: the game can't make `shopska_salata_tomato_cucumber_and_bell_pepper_salad_step_2`
-- create_deploying: 1 recipe, disabled: the game can't make `shopska_salata_tomato_cucumber_and_bell_pepper_salad_step_2`
+- shapeless_crafting: 1 recipe, disabled: the game can't make `feta_cheese_grind`, `shopska_salata_tomato_cucumber_and_bell_pepper_salad_step_2`
+- create_deploying: 1 recipe, disabled: the game can't make `feta_cheese_grind`, `shopska_salata_tomato_cucumber_and_bell_pepper_salad_step_2`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `shopska_salata_tomato_cucumber_and_bell_pepper_salad.step_3.prep_6` (grind)
 
-- create_milling: 1 recipe, rounding 0%
-- hexerei_pestle_and_mortar: 1 recipe, rounding 0%
+- create_milling: 1 recipe, disabled: the game can't make `feta_cheese`
+- hexerei_pestle_and_mortar: 1 recipe, disabled: the game can't make `feta_cheese`
 
 ### `shorba_bil_lahm_libyan_meat_soup.step_2` (pan_fry)
 
@@ -104669,6 +106517,24 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - fd_cooking_pot: 1 recipe, disabled: the game can't make `shrimp_hooman_goan_shrimp_curry_step_2`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
+### `shrimp_paste.dry` (dry)
+
+- transition: written
+- hexerei_drying_rack: 1 recipe, rounding 18% ⚠
+
+### `shrimp_paste.ferment` (ferment)
+
+- transition: written
+- vd_fermenting_jar: 1 recipe, rounding 3%
+- bnc_keg: none, can't make the mod's own fermented_shrimp_mash, and no other mod provides it
+- pnc_thermo_plant: 1 recipe, rounding 3%
+- theurgy_fermentation: none, needs a fluid it can take, and has none
+
+### `shrimp_paste.grind` (grind)
+
+- create_milling: none, takes one input, not 2
+- hexerei_pestle_and_mortar: 1 recipe, rounding 80% ⚠
+
 ### `shrimp_scampi_angel_hair_pasta_with_lemon_and_pine_nuts.step_2` (boil)
 
 - create_heated_mixing: 1 recipe, rounding 0%, estimated
@@ -104711,6 +106577,14 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 ### `shrimps.spoil` (spoil)
 
 - transition: written
+
+### `silken_tofu.blend_milk` (blend)
+
+- create_mixing: 1 recipe, rounding 11%
+
+### `silken_tofu.coagulate` (coagulate)
+
+- create_mixing: 1 recipe, rounding 6%
 
 ### `silog.step_2` (assemble)
 
@@ -104890,13 +106764,13 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `simple_chocolate_cheese_pie.step_4` (assemble)
 
-- shapeless_crafting: 1 recipe, rounding 15%, estimated
+- shapeless_crafting: 1 recipe, disabled: the game can't make `graham_cracker`
 - create_deploying: none, whole items would distort it by 400%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `simple_chocolate_cheese_pie.step_5` (chill)
 
-- transition: written
+- transition: not written: the game can't make `simple_chocolate_cheese_pie_step_4`
 - thermal_chiller: none, needs a fluid it can take, and has none
 
 ### `simple_chocolate_fudge.step_2` (mix)
@@ -105756,17 +107630,32 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - smoking: 1 recipe, rounding 0%
 - campfire: 1 recipe, rounding 0%
 
+### `smoked_fish.smoke` (smoke)
+
+- smoking: none, takes one input, not 2
+- campfire: none, takes one input, not 2
+
 ### `smoked_paprika.stale` (stale)
 
 - transition: written
 
 ### `smoked_pork_slices.freezer_burn` (freezer_burn)
 
-- transition: written
+- transition: not written: the game can't make `smoked_pork_slices`
+
+### `smoked_pork_slices.smoke` (smoke)
+
+- smoking: none, takes one input, not 2
+- campfire: none, takes one input, not 2
 
 ### `smoked_pork_slices.spoil` (spoil)
 
-- transition: written
+- transition: not written: the game can't make `smoked_pork_slices`
+
+### `smoked_salmon.smoke` (smoke)
+
+- smoking: none, takes one input, not 2
+- campfire: none, takes one input, not 2
 
 ### `smoked_salmon_breakfast_burrito.step_1` (whisk)
 
@@ -105780,7 +107669,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `smoked_salmon_breakfast_burrito.step_3` (assemble)
 
-- shapeless_crafting: 1 recipe, rounding 1%, estimated
+- shapeless_crafting: 1 recipe, disabled: the game can't make `smoked_salmon`
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
@@ -105804,26 +107693,26 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `smoked_salmon_chowder.step_4` (mix)
 
-- create_mixing: 1 recipe, rounding 15%, estimated
+- create_mixing: 1 recipe, disabled: the game can't make `smoked_salmon`
 - shapeless_crafting: none, whole items would distort it by 215%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `smoked_salmon_chowder.step_5` (season)
 
-- create_mixing: 1 recipe, rounding 11%, estimated
+- create_mixing: 1 recipe, disabled: the game can't make `smoked_salmon_chowder_step_4`
 - shapeless_crafting: none, whole items would distort it by 170%
 - hexerei_mixing_cauldron: none, whole items would distort it by 373%
 
 ### `smoked_salmon_dip.step_1` (mix)
 
-- create_mixing: 1 recipe, rounding 35% ⚠, estimated
+- create_mixing: 1 recipe, disabled: the game can't make `smoked_salmon_chop`
 - shapeless_crafting: none, whole items would distort it by 1702%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `smoked_salmon_dip.step_3` (mix)
 
-- create_mixing: 1 recipe, rounding 3%, estimated
-- shapeless_crafting: 1 recipe, rounding 3%, estimated
+- create_mixing: 1 recipe, disabled: the game can't make `smoked_salmon_dip_step_2`
+- shapeless_crafting: 1 recipe, disabled: the game can't make `smoked_salmon_dip_step_2`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `smoked_salmon_ravioli_filling.step_1` (coat)
@@ -106380,8 +108269,8 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `soda_from_extract.step_2` (mix)
 
-- create_mixing: 1 recipe, rounding 14%, estimated
-- shapeless_crafting: 1 recipe, rounding 14%, estimated
+- create_mixing: 1 recipe, disabled: the game can't make `carbonated_water`
+- shapeless_crafting: 1 recipe, disabled: the game can't make `carbonated_water`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `soft_flatbread.freezer_burn` (freezer_burn)
@@ -106781,6 +108670,14 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 - transition: written
 
+### `sour_cream.ferment` (ferment)
+
+- transition: written
+- vd_fermenting_jar: 1 recipe, rounding 1%, estimated
+- bnc_keg: none, can't make the mod's own sour_cream, and no other mod provides it
+- pnc_thermo_plant: 1 recipe, rounding 1%, estimated
+- theurgy_fermentation: none, needs a fluid it can take, and has none
+
 ### `sour_cream_chili_sauce.step_1` (mix)
 
 - create_mixing: 1 recipe, rounding 14%
@@ -106877,6 +108774,13 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 - transition: written
 - thermal_chiller: none, needs a fluid it can take, and has none
+
+### `sourdough_starter.culture` (ferment)
+
+- vd_fermenting_jar: 1 recipe, rounding 11%, estimated
+- bnc_keg: none, can't make the mod's own sourdough_starter, and no other mod provides it
+- pnc_thermo_plant: 3 recipes, rounding 15%, estimated
+- theurgy_fermentation: 1 recipe, rounding 15%, estimated
 
 ### `sourdough_starter_recipe.step_1` (mix)
 
@@ -107005,7 +108909,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `south_side_fizz.step_5` (carbonate)
 
-- create_mixing: 1 recipe, rounding 0%, estimated
+- create_mixing: 1 recipe, disabled: the game can't make `carbonated_water`
 
 ### `south_texan_pinto_beans.step_1` (soak)
 
@@ -107138,7 +109042,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `southwest_pasta.step_5` (heat)
 
-- create_heated_mixing: 1 recipe, rounding 13%, estimated
+- create_heated_mixing: 1 recipe, disabled: the game can't make `taco_seasoning_mix`
 - fd_cooking_pot: none, takes at most 6 inputs, not 9
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
@@ -107185,9 +109089,20 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 - transition: written
 
+### `soy_flour.grind` (grind)
+
+- create_milling: 1 recipe, rounding 60% ⚠, estimated
+- hexerei_pestle_and_mortar: 1 recipe, rounding 12%, estimated
+
 ### `soy_flour.rancid` (rancid)
 
 - transition: written
+
+### `soy_flour.toast` (toast)
+
+- smelting: 1 recipe, rounding 5%
+- smoking: 1 recipe, rounding 5%
+- thermal_smelter: 1 recipe, rounding 5%
 
 ### `soy_ginger_barbecue_sauce.step_1` (mix)
 
@@ -107534,24 +109449,24 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `spaghetti_alla_carbonara.step_1` (cut)
 
-- fd_cutting_board: 1 recipe, rounding 10%
-- create_cutting: 1 recipe, rounding 10%
+- fd_cutting_board: 1 recipe, disabled: the game can't make `pancetta_cut`
+- create_cutting: 1 recipe, disabled: the game can't make `pancetta_cut`
 
 ### `spaghetti_alla_carbonara.step_3` (boil)
 
-- create_heated_mixing: 1 recipe, rounding 12%
-- fd_cooking_pot: 1 recipe, rounding 12%
+- create_heated_mixing: 1 recipe, disabled: the game can't make `pancetta_cut_cut`
+- fd_cooking_pot: 1 recipe, disabled: the game can't make `pancetta_cut_cut`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `spaghetti_alla_carbonara.step_4` (pan_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 6%
+- create_heated_mixing: 1 recipe, disabled: the game can't make `spaghetti_alla_carbonara_step_3`
 - pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `spaghetti_alla_carbonara.step_5` (whisk)
 
-- create_mixing: 1 recipe, rounding 48% ⚠, estimated
+- create_mixing: 1 recipe, disabled: the game can't make `spaghetti_alla_carbonara_step_4`
 
 ### `spaghetti_alla_carbonara.step_8` (coat)
 
@@ -107933,7 +109848,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `spanakopita.step_4` (mix)
 
-- create_mixing: 1 recipe, rounding 14%, estimated
+- create_mixing: 1 recipe, disabled: the game can't make `feta_cheese`
 - shapeless_crafting: none, whole items would distort it by 167%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
@@ -108062,8 +109977,8 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `sparkling_lemonade_with_fresh_herbs.step_2` (mix)
 
-- create_mixing: 1 recipe, rounding 11%, estimated
-- shapeless_crafting: 1 recipe, rounding 43% ⚠, estimated
+- create_mixing: 1 recipe, disabled: the game can't make `carbonated_water`
+- shapeless_crafting: 1 recipe, disabled: the game can't make `carbonated_water`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `speculaas_dutch_spiced_cookies.step_1` (mix)
@@ -108318,7 +110233,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 - create_mixing: 1 recipe, rounding 15%, estimated
 - shapeless_crafting: none, whole items would distort it by 463%
-- hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
+- hexerei_mixing_cauldron: none, whole items would distort it by 300%
 
 ### `spiced_creme_caramel.step_7` (simmer)
 
@@ -108697,9 +110612,8 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `spicy_crab_cakes.step_3` (fry)
 
-- adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 12%, estimated
-- pnc_thermo_plant: none, takes at most 2 inputs, not 5
+- pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `spicy_feta_burger.step_1` (season)
 
@@ -108709,14 +110623,14 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `spicy_feta_burger.step_3` (assemble)
 
-- shapeless_crafting: 1 recipe, rounding 7%, estimated
+- shapeless_crafting: 1 recipe, disabled: the game can't make `feta_cheese_chop`
 - create_deploying: none, whole items would distort it by 440%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `spicy_feta_burger.step_5` (grill)
 
-- campfire: 1 recipe, rounding 1%
-- smoking: 1 recipe, rounding 1%
+- campfire: 1 recipe, disabled: the game can't make `spicy_feta_burger_step_4`
+- smoking: 1 recipe, disabled: the game can't make `spicy_feta_burger_step_4`
 
 ### `spicy_fried_okra.step_1` (coat)
 
@@ -109286,7 +111200,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `spinach_pesto_linguine.step_6` (assemble)
 
-- shapeless_crafting: 1 recipe, rounding 13%, estimated
+- shapeless_crafting: 1 recipe, disabled: the game can't make `feta_cheese`
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
@@ -109342,6 +111256,16 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_mixing: 1 recipe, disabled: the game can't make `spinach_salad_step_2`
 - shapeless_crafting: 1 recipe, disabled: the game can't make `spinach_salad_step_2`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
+
+### `split_pea.dry` (dry)
+
+- transition: written
+- hexerei_drying_rack: 1 recipe, rounding 88% ⚠
+
+### `split_pea.split` (cut)
+
+- fd_cutting_board: 1 recipe, rounding 28% ⚠, estimated
+- create_cutting: 1 recipe, rounding 28% ⚠, estimated
 
 ### `split_pea.stale` (stale)
 
@@ -110251,6 +112175,12 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_mixing: 1 recipe, disabled: the game can't make `steamed_buns_with_bbq_pork_step_6`
 - thermal_centrifuge: 1 recipe, disabled: the game can't make `steamed_buns_with_bbq_pork_step_6`
 
+### `steamed_green_beans.steam` (steam)
+
+- create_heated_mixing: 1 recipe, rounding 13%
+- fd_cooking_pot: 1 recipe, rounding 13%
+- hexerei_mixing_cauldron: 1 recipe, rounding 14%
+
 ### `steamed_pork_with_mustard_greens.step_2` (boil)
 
 - create_heated_mixing: 1 recipe, rounding 1%
@@ -110311,8 +112241,8 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `steamed_rice.step_4` (steam)
 
-- create_heated_mixing: 2 recipes, rounding 5%, estimated
-- fd_cooking_pot: 2 recipes, rounding 5%, estimated
+- create_heated_mixing: 3 recipes, rounding 5%, estimated
+- fd_cooking_pot: 3 recipes, rounding 5%, estimated
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `steamed_salmon.step_2` (season)
@@ -110644,30 +112574,30 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 ### `stir_fried_seafood_with_noodles.step_2` (stir_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 13%
+- create_heated_mixing: 1 recipe, disabled: the game can't make `fishball_cut`
 - pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `stir_fried_seafood_with_noodles.step_2.prep_4` (cut)
 
-- fd_cutting_board: 1 recipe, rounding 0%
-- create_cutting: 1 recipe, rounding 0%
+- fd_cutting_board: 1 recipe, disabled: the game can't make `fishball`
+- create_cutting: 1 recipe, disabled: the game can't make `fishball`
 
 ### `stir_fried_seafood_with_noodles.step_3` (stir_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 7%
+- create_heated_mixing: 1 recipe, disabled: the game can't make `stir_fried_seafood_with_noodles_step_2`
 - pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `stir_fried_seafood_with_noodles.step_4` (stir_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 11%
+- create_heated_mixing: 1 recipe, disabled: the game can't make `stir_fried_seafood_with_noodles_step_3`
 - pnc_thermo_plant: none, takes at most 2 inputs, not 3
 
 ### `stir_fried_seafood_with_noodles.step_5` (stir_fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 13%, estimated
+- create_heated_mixing: 1 recipe, disabled: the game can't make `stir_fried_seafood_with_noodles_step_4`
 - pnc_thermo_plant: none, takes at most 2 inputs, not 8
 
 ### `stir_fried_shrimp_with_broccoli.step_1` (fry)
@@ -110720,6 +112650,21 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_heated_mixing: 1 recipe, rounding 0%
 - fd_cooking_pot: 1 recipe, rounding 0%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
+
+### `stir_fry.cut` (cut)
+
+- fd_cutting_board: none, takes one input, not 3
+- create_cutting: none, takes one input, not 3
+
+### `stir_fry.stir_fry` (stir_fry)
+
+- create_heated_mixing: 1 recipe, disabled: the game can't make `stir_fry_vegetables`
+- pnc_thermo_plant: none, takes at most 2 inputs, not 5
+
+### `stockfish.dry` (dry)
+
+- transition: written
+- hexerei_drying_rack: none, whole items would distort it by 200%
 
 ### `stoofvlees_flemish_beef_stew.step_1` (mix)
 
@@ -111058,21 +113003,21 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `strawberry_fromage_frais.step_2` (mix)
 
-- create_mixing: 1 recipe, rounding 9%, estimated
-- shapeless_crafting: 1 recipe, rounding 71% ⚠, estimated
+- create_mixing: 1 recipe, disabled: the game can't make `fromage_frais`
+- shapeless_crafting: 1 recipe, disabled: the game can't make `fromage_frais`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `strawberry_fromage_frais.step_3` (fold)
 
-- create_mixing: 1 recipe, rounding 15%, estimated
-- shapeless_crafting: 1 recipe, rounding 17% ⚠, estimated
+- create_mixing: 1 recipe, disabled: the game can't make `strawberry_fromage_frais_step_2`
+- shapeless_crafting: 1 recipe, disabled: the game can't make `strawberry_fromage_frais_step_2`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `strawberry_fromage_frais.step_4` (mix)
 
-- create_mixing: 3 recipes, rounding 0%, estimated
-- shapeless_crafting: 1 recipe, rounding 0%, estimated
-- hexerei_mixing_cauldron: 1 recipe, rounding 15%, estimated
+- create_mixing: 3 recipes, disabled: the game can't make `strawberry_fromage_frais_step_3`
+- shapeless_crafting: 1 recipe, disabled: the game can't make `strawberry_fromage_frais_step_3`
+- hexerei_mixing_cauldron: 1 recipe, disabled: the game can't make `strawberry_fromage_frais_step_3`
 
 ### `strawberry_fromage_frais.step_5` (chill)
 
@@ -111236,8 +113181,8 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `strawberry_shortcake.step_12` (assemble)
 
-- shapeless_crafting: 1 recipe, rounding 30% ⚠
-- create_deploying: none, whole items would distort it by 745%
+- shapeless_crafting: 1 recipe, rounding 19% ⚠, estimated
+- create_deploying: none, whole items would distort it by 238%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `strawberry_shortcake.step_2` (mix)
@@ -111441,9 +113386,9 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `stuffed_crabs_casquinha_de_siri.step_3` (simmer)
 
-- create_heated_mixing: 1 recipe, rounding 15%, estimated
+- create_heated_mixing: 2 recipes, rounding 15%, estimated
 - fd_cooking_pot: none, whole items would distort it by 1590%
-- hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
+- hexerei_mixing_cauldron: 1 recipe, rounding 14%, estimated
 
 ### `stuffed_crabs_casquinha_de_siri.step_4` (mix)
 
@@ -111680,6 +113625,17 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - smelting: 1 recipe, rounding 0%
 - smoking: 1 recipe, rounding 0%
 
+### `stuffed_peppers.assemble` (assemble)
+
+- shapeless_crafting: none, whole items would distort it by 121%
+- create_deploying: none, deploying takes exactly two items
+- hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
+
+### `stuffed_peppers.bake` (bake)
+
+- smelting: 4 recipes, disabled: the game can't make `unbaked_stuffed_peppers`
+- smoking: 4 recipes, disabled: the game can't make `unbaked_stuffed_peppers`
+
 ### `stuffed_peppers.step_3` (cut)
 
 - fd_cutting_board: none, takes one input, not 3
@@ -111900,6 +113856,12 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - shapeless_crafting: 1 recipe, rounding 7%, estimated
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
+### `stuffing.mix` (mix)
+
+- create_mixing: 2 recipes, rounding 14%
+- shapeless_crafting: 2 recipes, rounding 99% ⚠
+- hexerei_mixing_cauldron: 2 recipes, rounding 78% ⚠
+
 ### `stuffing.step_2` (mix)
 
 - create_mixing: none, whole items would distort it by 116%
@@ -111943,6 +113905,12 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 ### `sudanese_ful_medames.step_4` (blend)
 
 - create_mixing: 1 recipe, rounding 0%, estimated
+
+### `suet.separate` (separate)
+
+- create_item_drain: none, the item drain takes one item and yields one item and one fluid
+- create_mixing: 1 recipe, rounding 12%
+- thermal_centrifuge: 1 recipe, rounding 33% ⚠
 
 ### `sugar.boil_juice` (evaporate)
 
@@ -112054,6 +114022,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 - transition: not written: the game can't make `summer_rolls_step_6`
 - hexerei_drying_rack: 1 recipe, disabled: the game can't make `summer_rolls_step_6`
+
+### `sun_dried_tomatoes.dry` (dry)
+
+- transition: written
+- hexerei_drying_rack: none, whole items would distort it by 350%
 
 ### `sun_dried_tomatoes.stale` (stale)
 
@@ -112962,8 +114935,8 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `sweet_masa_bites_with_hazelnut_chocolate_dipping_sauce.step_2` (fold)
 
-- create_mixing: 1 recipe, rounding 8%, estimated
-- shapeless_crafting: 1 recipe, rounding 8%, estimated
+- create_mixing: 1 recipe, rounding 15%, estimated
+- shapeless_crafting: 1 recipe, rounding 13%, estimated
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `sweet_masa_bites_with_hazelnut_chocolate_dipping_sauce.step_3` (chill)
@@ -113122,6 +115095,12 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 ### `sweet_peppers.spoil` (spoil)
 
 - transition: written
+
+### `sweet_pickle_relish.boil` (boil)
+
+- create_heated_mixing: 2 recipes, rounding 13%
+- fd_cooking_pot: 2 recipes, rounding 37% ⚠
+- hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `sweet_pickle_relish.mold` (mold)
 
@@ -113541,9 +115520,8 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `sylheti_biryani.step_4` (pan_fry)
 
-- adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
 - create_heated_mixing: 1 recipe, rounding 15%, estimated
-- pnc_thermo_plant: none, takes at most 2 inputs, not 3
+- pnc_thermo_plant: none, doesn't fit in 1 input items, 1 of each, and 1000 mB tanks at any scale
 
 ### `sylheti_biryani.step_6` (season)
 
@@ -113932,28 +115910,28 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `taboon_bread.step_1` (mix)
 
-- create_mixing: 1 recipe, rounding 5%, estimated
-- shapeless_crafting: 1 recipe, rounding 6%, estimated
+- create_mixing: 1 recipe, disabled: the game can't make `whole_wheat_flour`
+- shapeless_crafting: 1 recipe, disabled: the game can't make `whole_wheat_flour`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `taboon_bread.step_2` (knead)
 
-- create_mixing: 1 recipe, rounding 14%, estimated
+- create_mixing: 1 recipe, disabled: the game can't make `taboon_bread_step_1`
 - shapeless_crafting: none, whole items would distort it by 381%
 - hexerei_mixing_cauldron: none, whole items would distort it by 381%
 
 ### `taboon_bread.step_3` (ferment)
 
-- transition: written
-- vd_fermenting_jar: 1 recipe, rounding 0%
+- transition: not written: the game can't make `taboon_bread_step_2`
+- vd_fermenting_jar: 1 recipe, disabled: the game can't make `taboon_bread_step_2`
 - bnc_keg: none, can't make the mod's own taboon_bread_step_4, and no other mod provides it
-- pnc_thermo_plant: 1 recipe, rounding 0%
+- pnc_thermo_plant: 1 recipe, disabled: the game can't make `taboon_bread_step_2`
 - theurgy_fermentation: none, needs a fluid it can take, and has none
 
 ### `taboon_bread.step_6` (bake)
 
-- smelting: 1 recipe, rounding 0%
-- smoking: 1 recipe, rounding 0%
+- smelting: 1 recipe, disabled: the game can't make `taboon_bread_step_4`
+- smoking: 1 recipe, disabled: the game can't make `taboon_bread_step_4`
 
 ### `taco_casserole.step_2` (strain)
 
@@ -114091,9 +116069,15 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 - transition: written
 
+### `taco_seasoning_mix.mix` (mix)
+
+- create_mixing: none, whole items would distort it by 123%
+- shapeless_crafting: none, whole items would distort it by 113%
+- hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
+
 ### `taco_seasoning_mix.stale` (stale)
 
-- transition: written
+- transition: not written: the game can't make `taco_seasoning_mix`
 
 ### `taco_seasoning_packet.stale` (stale)
 
@@ -114267,6 +116251,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_mixing: 1 recipe, rounding 0%
 - thermal_centrifuge: 1 recipe, rounding 0%
 
+### `tahini.grind` (grind)
+
+- create_milling: 1 recipe, rounding 14%
+- hexerei_pestle_and_mortar: 1 recipe, rounding 14%
+
 ### `tahini.mold` (mold)
 
 - transition: written
@@ -114411,6 +116400,12 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 - transition: written
 
+### `tamarind_chutney.boil` (boil)
+
+- create_heated_mixing: 1 recipe, rounding 13%
+- fd_cooking_pot: none, whole items would distort it by 389%
+- hexerei_mixing_cauldron: 1 recipe, rounding 94% ⚠
+
 ### `tamarind_chutney.mold` (mold)
 
 - transition: written
@@ -114470,25 +116465,25 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `tamina_algerian_semolina_honey_dessert.step_1` (toast)
 
-- smelting: 1 recipe, rounding 0%, estimated
-- smoking: 1 recipe, rounding 0%, estimated
-- thermal_smelter: 1 recipe, rounding 0%, estimated
+- smelting: 1 recipe, disabled: the game can't make `semolina_toast`
+- smoking: 1 recipe, disabled: the game can't make `semolina_toast`
+- thermal_smelter: 1 recipe, disabled: the game can't make `semolina_toast`
 
 ### `tamina_algerian_semolina_honey_dessert.step_2` (mix)
 
-- create_mixing: 1 recipe, rounding 1%, estimated
-- shapeless_crafting: 1 recipe, rounding 1%, estimated
+- create_mixing: 1 recipe, disabled: the game can't make `semolina_toast_toast`
+- shapeless_crafting: 1 recipe, disabled: the game can't make `semolina_toast_toast`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `tamina_algerian_semolina_honey_dessert.step_6` (season)
 
-- create_mixing: 1 recipe, rounding 0%
-- shapeless_crafting: 1 recipe, rounding 0%
+- create_mixing: 1 recipe, disabled: the game can't make `tamina_algerian_semolina_honey_dessert_step_5`
+- shapeless_crafting: 1 recipe, disabled: the game can't make `tamina_algerian_semolina_honey_dessert_step_5`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `tamina_algerian_semolina_honey_dessert.step_7` (cool)
 
-- transition: written
+- transition: not written: the game can't make `tamina_algerian_semolina_honey_dessert_step_6`
 
 ### `tandoori_masala.step_1` (toast)
 
@@ -114724,6 +116719,17 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 - transition: written
 
+### `tapioca_pearls.dry` (dry)
+
+- transition: written
+- hexerei_drying_rack: 1 recipe, rounding 7%, estimated
+
+### `tapioca_pearls.knead` (knead)
+
+- create_mixing: 1 recipe, rounding 7%, estimated
+- shapeless_crafting: 1 recipe, rounding 7%, estimated
+- hexerei_mixing_cauldron: 1 recipe, rounding 15%, estimated
+
 ### `tapioca_pearls.stale` (stale)
 
 - transition: written
@@ -114759,6 +116765,22 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_mixing: 1 recipe, rounding 0%, estimated
 - shapeless_crafting: 1 recipe, rounding 0%, estimated
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
+
+### `tapioca_starch.dry` (dry)
+
+- transition: written
+- hexerei_drying_rack: none, whole items would distort it by 400%
+
+### `tapioca_starch.grind_slurry` (grind)
+
+- create_milling: none, takes one input, not 2
+- hexerei_pestle_and_mortar: 1 recipe, rounding 11%
+
+### `tapioca_starch.settle` (separate)
+
+- create_item_drain: 1 recipe, rounding 31% ⚠, drops `cassava_pulp`
+- create_mixing: 1 recipe, rounding 15%
+- thermal_centrifuge: none, whole items would distort it by 103%
 
 ### `tapioca_starch.stale` (stale)
 
@@ -115205,6 +117227,13 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 - transition: written
 
+### `tea.steep` (steep)
+
+- create_mixing: 2 recipes, rounding 14%, estimated
+- create_splashing: 2 recipes, rounding 15%, estimated
+- fr_kettle: none, makes 1 things; at most 1 fit
+- theurgy_liquefaction: none, whole items would distort it by 500%
+
 ### `tea_bag.stale` (stale)
 
 - transition: written
@@ -115440,6 +117469,19 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 - transition: not written: the game can't make `tempe_mendoan_ii_step_6`
 
+### `tempeh.boil` (boil)
+
+- create_heated_mixing: 1 recipe, rounding 11%
+- fd_cooking_pot: 1 recipe, rounding 11%
+- hexerei_mixing_cauldron: 1 recipe, rounding 15%
+
+### `tempeh.ferment` (ferment)
+
+- vd_fermenting_jar: 1 recipe, rounding 7%, estimated
+- bnc_keg: none, can't make the mod's own tempeh, and no other mod provides it
+- pnc_thermo_plant: none, whole items would distort it by 111%
+- theurgy_fermentation: none, needs a fluid it can take, and has none
+
 ### `tempoyak_fermented_durian.step_1` (mix)
 
 - create_mixing: 1 recipe, rounding 6%
@@ -115535,6 +117577,29 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 - fd_cutting_board: 1 recipe, disabled: the game can't make `tequenos_venezuelan_breaded_cheese_sticks_step_5`
 - create_cutting: 1 recipe, disabled: the game can't make `tequenos_venezuelan_breaded_cheese_sticks_step_5`
+
+### `tequila.distill_wort` (distill)
+
+- create_heated_mixing: 1 recipe, rounding 4%
+
+### `tequila.ferment_juice` (ferment)
+
+- vd_fermenting_jar: 1 recipe, rounding 7%, estimated
+- bnc_keg: none, can't make the mod's own agave_wort, and no other mod provides it
+- pnc_thermo_plant: none, takes at most 2 inputs, not 3
+- theurgy_fermentation: 1 recipe, rounding 17% ⚠, estimated
+
+### `tequila.press_heart` (press)
+
+- create_item_drain: none, whole items would distort it by 1268%
+- create_mixing: 1 recipe, rounding 15%
+- thermal_press: none, whole items would distort it by 1268%
+
+### `tequila.roast_heart` (roast)
+
+- smelting: 1 recipe, rounding 12%
+- smoking: 1 recipe, rounding 12%
+- thermal_smelter: 1 recipe, rounding 12%
 
 ### `tequila_lime_hot_wings.step_1` (season)
 
@@ -115788,6 +117853,28 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - fd_cooking_pot: 1 recipe, disabled: the game can't make `texas_style_chicken_fried_steak_step_8`
 - hexerei_mixing_cauldron: 1 recipe, disabled: the game can't make `texas_style_chicken_fried_steak_step_8`
 
+### `textured_vegetable_protein.dry` (dry)
+
+- transition: written
+- hexerei_drying_rack: none, whole items would distort it by 300%
+
+### `textured_vegetable_protein.extrude` (heat)
+
+- create_heated_mixing: 1 recipe, rounding 5%, estimated
+- fd_cooking_pot: 1 recipe, rounding 5%, estimated
+- hexerei_mixing_cauldron: 1 recipe, rounding 15%, estimated
+
+### `textured_vegetable_protein.grind` (grind)
+
+- create_milling: 1 recipe, rounding 1%, estimated
+- hexerei_pestle_and_mortar: 1 recipe, rounding 1%, estimated
+
+### `textured_vegetable_protein.press` (press)
+
+- create_item_drain: none, whole items would distort it by 521%
+- create_mixing: 1 recipe, rounding 14%, estimated
+- thermal_press: none, whole items would distort it by 521%
+
 ### `textured_vegetable_protein.spoil` (spoil)
 
 - transition: written
@@ -115799,6 +117886,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 ### `thai_chiles.spoil` (spoil)
 
 - transition: written
+
+### `thai_chili_paste.grind` (grind)
+
+- create_milling: none, takes one input, not 3
+- hexerei_pestle_and_mortar: 1 recipe, rounding 5%
 
 ### `thai_chili_paste.mold` (mold)
 
@@ -115899,8 +117991,8 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `thai_lemonade.step_3` (mix)
 
-- create_mixing: 1 recipe, rounding 11%, estimated
-- shapeless_crafting: 1 recipe, rounding 43% ⚠, estimated
+- create_mixing: 1 recipe, disabled: the game can't make `carbonated_water`
+- shapeless_crafting: 1 recipe, disabled: the game can't make `carbonated_water`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `thai_peanut_fried_rice.step_1` (whisk)
@@ -116694,8 +118786,8 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `tiramisu_mousse.step_2` (fold)
 
-- create_mixing: 1 recipe, rounding 5%, estimated
-- shapeless_crafting: 1 recipe, rounding 6%, estimated
+- create_mixing: 1 recipe, rounding 14%, estimated
+- shapeless_crafting: 1 recipe, rounding 1%, estimated
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `tiramisu_mousse.step_3` (chill)
@@ -116824,6 +118916,23 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - shapeless_crafting: 1 recipe, rounding 1%, estimated
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
+### `toad_in_the_hole.assemble` (assemble)
+
+- shapeless_crafting: 1 recipe, rounding 11%, estimated
+- create_deploying: 1 recipe, rounding 67% ⚠, estimated
+- hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
+
+### `toad_in_the_hole.bake` (bake)
+
+- smelting: 2 recipes, rounding 10%
+- smoking: 2 recipes, rounding 10%
+
+### `toad_in_the_hole.mix_batter` (mix)
+
+- create_mixing: 1 recipe, rounding 15%, estimated
+- shapeless_crafting: 1 recipe, rounding 18% ⚠, estimated
+- hexerei_mixing_cauldron: 1 recipe, rounding 15%, estimated
+
 ### `toad_in_the_hole.step_2` (roast)
 
 - smelting: none, takes one input, not 2
@@ -116853,6 +118962,12 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 ### `toast.mold` (mold)
 
 - transition: written
+
+### `toast.roast` (roast)
+
+- smelting: 3 recipes, rounding 15% ⚠
+- smoking: 3 recipes, rounding 15% ⚠
+- thermal_smelter: 3 recipes, rounding 15% ⚠
 
 ### `toast_sandwich.step_3` (assemble)
 
@@ -116954,9 +119069,19 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - transition: not written: the game can't make `tod_mun_thai_fish_cakes_step_8`
 - hexerei_drying_rack: 1 recipe, disabled: the game can't make `tod_mun_thai_fish_cakes_step_8`
 
+### `tofu.coagulate` (coagulate)
+
+- create_mixing: 1 recipe, rounding 15%
+
 ### `tofu.freezer_burn` (freezer_burn)
 
 - transition: written
+
+### `tofu.press` (press)
+
+- create_item_drain: none, whole items would distort it by 626%
+- create_mixing: 2 recipes, rounding 15%
+- thermal_press: none, whole items would distort it by 626%
 
 ### `tofu.spoil` (spoil)
 
@@ -116992,7 +119117,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `tofu_bacon_vegan.step_4` (coat)
 
-- shapeless_crafting: 1 recipe, rounding 13%
+- shapeless_crafting: 1 recipe, disabled: the game can't make `nutritional_yeast`
 - create_deploying: none, whole items would distort it by 463%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
@@ -117161,13 +119286,13 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `tofu_scramble_ii.step_4` (pan_fry)
 
-- create_heated_mixing: 1 recipe, rounding 0%
-- pnc_thermo_plant: 1 recipe, rounding 0%
+- create_heated_mixing: 1 recipe, disabled: the game can't make `nutritional_yeast`
+- pnc_thermo_plant: 1 recipe, disabled: the game can't make `nutritional_yeast`
 
 ### `tofu_scramble_ii.step_5` (stir_fry)
 
-- create_heated_mixing: 1 recipe, rounding 0%
-- pnc_thermo_plant: 1 recipe, rounding 0%
+- create_heated_mixing: 1 recipe, disabled: the game can't make `tofu_scramble_ii_step_4`
+- pnc_thermo_plant: 1 recipe, disabled: the game can't make `tofu_scramble_ii_step_4`
 
 ### `tofu_tamale_pie.step_2` (assemble)
 
@@ -117462,6 +119587,12 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: 1 recipe, rounding 0%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
+### `tomato_juice.press` (press)
+
+- create_item_drain: none, the item drain takes one item and yields one item and one fluid
+- create_mixing: 2 recipes, rounding 13%, estimated
+- thermal_press: none, whole items would distort it by 300%
+
 ### `tomato_juice.step_1` (assemble)
 
 - shapeless_crafting: none, whole items would distort it by 745%
@@ -117536,6 +119667,10 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - shapeless_crafting: 1 recipe, rounding 15%, estimated
 - create_deploying: none, whole items would distort it by 650%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
+
+### `tomato_paste.evaporate` (evaporate)
+
+- create_heated_mixing: 1 recipe, rounding 13%
 
 ### `tomato_paste.freezer_burn` (freezer_burn)
 
@@ -117624,6 +119759,12 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 - transition: written
 
+### `tomato_puree.press` (press)
+
+- create_item_drain: none, the item drain takes one item and yields one item and one fluid
+- create_mixing: 1 recipe, rounding 14%
+- thermal_press: 1 recipe, rounding 14%, drops `tomato_skins`
+
 ### `tomato_puree.stale` (stale)
 
 - transition: written
@@ -117654,6 +119795,12 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 - create_mixing: 1 recipe, disabled: the game can't make `tomato_salad_step_6`
 - shapeless_crafting: 1 recipe, disabled: the game can't make `tomato_salad_step_6`
+- hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
+
+### `tomato_sauce.boil` (boil)
+
+- create_heated_mixing: 3 recipes, rounding 7%
+- fd_cooking_pot: 3 recipes, rounding 7%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `tomato_sauce_piquante.step_1` (fry)
@@ -117823,9 +119970,21 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 - transition: written
 
+### `tortilla.knead_dough` (knead)
+
+- create_mixing: 1 recipe, rounding 14%, estimated
+- shapeless_crafting: none, whole items would distort it by 175%
+- hexerei_mixing_cauldron: none, whole items would distort it by 133%
+
 ### `tortilla.mold` (mold)
 
 - transition: written
+
+### `tortilla.roast` (roast)
+
+- smelting: none, whole items would distort it by 150%
+- smoking: none, whole items would distort it by 150%
+- thermal_smelter: none, whole items would distort it by 150%
 
 ### `tortilla_canaria.step_1` (pan_fry)
 
@@ -118228,6 +120387,17 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 - transition: written
 
+### `treacle_tart.bake` (bake)
+
+- smelting: none, takes one input, not 2
+- smoking: none, takes one input, not 2
+
+### `treacle_tart.mix` (mix)
+
+- create_mixing: 1 recipe, rounding 15%, estimated
+- shapeless_crafting: 1 recipe, rounding 15%, estimated
+- hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
+
 ### `tres_leches_cake_i.step_10` (soak)
 
 - create_mixing: 1 recipe, rounding 0%, estimated
@@ -118390,7 +120560,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `trifle.step_6` (coat)
 
-- shapeless_crafting: 2 recipes, rounding 0%
+- shapeless_crafting: 2 recipes, rounding 0%, estimated
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - thermal_bottler: none, takes at most 2 inputs, not 3
@@ -119384,19 +121554,19 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 ### `tuwo_alabo_nigerian_cassava_swallow.step_1` (strain)
 
 - create_item_drain: none, the item drain takes one item and yields one item and one fluid
-- create_mixing: 1 recipe, rounding 11%, estimated
-- thermal_centrifuge: 1 recipe, rounding 15%, estimated
+- create_mixing: 1 recipe, disabled: the game can't make `manioc_flour`
+- thermal_centrifuge: 1 recipe, disabled: the game can't make `manioc_flour`
 
 ### `tuwo_alabo_nigerian_cassava_swallow.step_2` (mix)
 
-- create_mixing: 1 recipe, rounding 11%, estimated
-- shapeless_crafting: 1 recipe, rounding 11%, estimated
+- create_mixing: 1 recipe, disabled: the game can't make `tuwo_alabo_nigerian_cassava_swallow_step_1`
+- shapeless_crafting: 1 recipe, disabled: the game can't make `tuwo_alabo_nigerian_cassava_swallow_step_1`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `tuwo_alabo_nigerian_cassava_swallow.step_4` (steam)
 
-- create_heated_mixing: 1 recipe, rounding 14%
-- fd_cooking_pot: 1 recipe, rounding 33% ⚠
+- create_heated_mixing: 1 recipe, disabled: the game can't make `tuwo_alabo_nigerian_cassava_swallow_step_3`
+- fd_cooking_pot: 1 recipe, disabled: the game can't make `tuwo_alabo_nigerian_cassava_swallow_step_3`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `tuwo_alkama_wheat_swallow.step_1` (strain)
@@ -119740,9 +121910,9 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `ugba_stew.step_7` (simmer)
 
-- create_heated_mixing: 1 recipe, rounding 4%, estimated
+- create_heated_mixing: 2 recipes, rounding 4%, estimated
 - fd_cooking_pot: 1 recipe, rounding 5%, estimated
-- hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
+- hexerei_mixing_cauldron: 1 recipe, rounding 15%, estimated
 
 ### `ugba_stew.step_8` (cool)
 
@@ -119757,7 +121927,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 ### `ukazi_soup.step_2` (fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 15%, estimated
+- create_heated_mixing: 2 recipes, rounding 15%, estimated
 - pnc_thermo_plant: none, takes at most 2 inputs, not 4
 
 ### `ukazi_soup.step_3` (mix)
@@ -119786,7 +121956,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 - create_mixing: 1 recipe, rounding 15%, estimated
 - shapeless_crafting: 1 recipe, rounding 15% ⚠, estimated
-- hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
+- hexerei_mixing_cauldron: 1 recipe, rounding 15%, estimated
 
 ### `ukpo_oka_nigerian_corn_pudding.step_3` (steam)
 
@@ -120093,31 +122263,31 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 ### `upma_indian_semolina_porridge.step_2` (fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 14%, estimated
+- create_heated_mixing: 1 recipe, disabled: the game can't make `semolina_toast_toast`
 - pnc_thermo_plant: none, takes at most 2 inputs, not 10
 
 ### `upma_indian_semolina_porridge.step_3` (simmer)
 
-- create_heated_mixing: 1 recipe, rounding 15%, estimated
+- create_heated_mixing: 1 recipe, disabled: the game can't make `upma_indian_semolina_porridge_step_2`
 - fd_cooking_pot: none, whole items would distort it by 3957%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `upma_indian_semolina_porridge.step_4` (fold)
 
-- create_mixing: 1 recipe, rounding 13%, estimated
+- create_mixing: 1 recipe, disabled: the game can't make `upma_indian_semolina_porridge_step_3`
 - shapeless_crafting: none, whole items would distort it by 407%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `upma_indian_semolina_porridge.step_5` (simmer)
 
-- create_heated_mixing: 1 recipe, rounding 0%, estimated
-- fd_cooking_pot: 1 recipe, rounding 0%, estimated
+- create_heated_mixing: 1 recipe, disabled: the game can't make `upma_indian_semolina_porridge_step_4`
+- fd_cooking_pot: 1 recipe, disabled: the game can't make `upma_indian_semolina_porridge_step_4`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `upma_indian_semolina_porridge.step_6` (season)
 
-- create_mixing: 1 recipe, rounding 0%
-- shapeless_crafting: 1 recipe, rounding 0%
+- create_mixing: 1 recipe, disabled: the game can't make `upma_indian_semolina_porridge_step_5`
+- shapeless_crafting: 1 recipe, disabled: the game can't make `upma_indian_semolina_porridge_step_5`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `uppittu_indian_semolina_porridge.step_1` (toast)
@@ -120452,6 +122622,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - fd_cooking_pot: 1 recipe, rounding 17% ⚠, estimated
 - hexerei_mixing_cauldron: 1 recipe, rounding 15%, estimated
 
+### `vanilla.cure` (cure)
+
+- vd_fermenting_jar: none, whole items would distort it by 108%
+- bnc_keg: none, whole items would distort it by 212%
+
 ### `vanilla.stale` (stale)
 
 - transition: written
@@ -120504,6 +122679,13 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 ### `vanilla_extract.stale` (stale)
 
 - transition: written
+
+### `vanilla_extract.steep` (steep)
+
+- create_mixing: 1 recipe, rounding 11%, estimated
+- create_splashing: none, takes one input, not 2
+- fr_kettle: none, can't make the mod's own vanilla_extract, and no other mod provides it
+- theurgy_liquefaction: none, needs a fluid it can take, and has none
 
 ### `vanilla_fudge_i.step_2` (mix)
 
@@ -120600,8 +122782,8 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `vanilla_ice_cream_custard_based.step_7` (fold)
 
-- create_mixing: 1 recipe, rounding 7%, estimated
-- shapeless_crafting: 1 recipe, rounding 0%, estimated
+- create_mixing: 1 recipe, rounding 15%, estimated
+- shapeless_crafting: 1 recipe, rounding 7%, estimated
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `vanilla_ice_cream_custard_based.step_8` (freeze)
@@ -120660,13 +122842,29 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 - transition: written
 
+### `vanilla_wafer_crumbs.grind` (grind)
+
+- create_milling: 1 recipe, rounding 28% ⚠, estimated
+- hexerei_pestle_and_mortar: 1 recipe, rounding 15%, estimated
+
 ### `vanilla_wafer_crumbs.stale` (stale)
 
 - transition: written
 
+### `vanilla_wafers.bake` (bake)
+
+- smelting: 1 recipe, rounding 17% ⚠, estimated
+- smoking: 1 recipe, rounding 17% ⚠, estimated
+
 ### `vanilla_wafers.freezer_burn` (freezer_burn)
 
 - transition: written
+
+### `vanilla_wafers.mix_batter` (mix)
+
+- create_mixing: 1 recipe, rounding 15%, estimated
+- shapeless_crafting: 1 recipe, rounding 20% ⚠, estimated
+- hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `vanilla_wafers.stale` (stale)
 
@@ -120809,6 +123007,14 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 - create_mixing: 1 recipe, rounding 0%
 
+### `vegemite.ferment` (ferment)
+
+- transition: written
+- vd_fermenting_jar: 2 recipes, rounding 11%
+- bnc_keg: 1 recipe, rounding 11%
+- pnc_thermo_plant: 2 recipes, rounding 11%
+- theurgy_fermentation: none, needs a fluid it can take, and has none
+
 ### `vegemite_sandwich.step_2` (coat)
 
 - shapeless_crafting: 1 recipe, rounding 0%, estimated
@@ -120828,6 +123034,12 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - shapeless_crafting: 1 recipe, rounding 0%, estimated
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
+
+### `vegetable_oil.press` (press)
+
+- create_item_drain: none, the item drain takes one item and yields one item and one fluid
+- create_mixing: 2 recipes, rounding 14%
+- thermal_press: 2 recipes, rounding 14%
 
 ### `vegetable_oil.rancid` (rancid)
 
@@ -121121,6 +123333,17 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 ### `veggie_pizza.step_7` (cool)
 
 - transition: not written: the game can't make `veggie_pizza_step_6`
+
+### `veggie_salad.chop` (cut)
+
+- fd_cutting_board: none, takes one input, not 3
+- create_cutting: none, takes one input, not 3
+
+### `veggie_salad.mix` (mix)
+
+- create_mixing: 2 recipes, disabled: the game can't make `chopped_salad_veg`
+- shapeless_crafting: none, whole items would distort it by 3114%
+- hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `veggie_salad.step_1` (julienne)
 
@@ -121655,6 +123878,14 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - shapeless_crafting: 1 recipe, rounding 0%, estimated
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
+### `vinegar.ferment` (ferment)
+
+- transition: written
+- vd_fermenting_jar: 2 recipes, rounding 11%
+- bnc_keg: 1 recipe, rounding 11%
+- pnc_thermo_plant: 2 recipes, rounding 11%
+- theurgy_fermentation: none, doesn't fit in 2 input items, 2 of each, and 1000 mB tanks at any scale
+
 ### `vinegar.mold` (mold)
 
 - transition: written
@@ -121991,6 +124222,12 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 - transition: written
 
+### `walnut_oil.press` (press)
+
+- create_item_drain: none, the item drain takes one item and yields one item and one fluid
+- create_mixing: 1 recipe, rounding 14%
+- thermal_press: 1 recipe, rounding 14%
+
 ### `walnut_oil.rancid` (rancid)
 
 - transition: written
@@ -122302,6 +124539,12 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - shapeless_crafting: 1 recipe, rounding 25% ⚠, estimated
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
+### `wheat_germ.separate` (separate)
+
+- create_item_drain: 5 recipes, disabled: the game can't make `whole_wheat_flour`
+- create_mixing: 5 recipes, disabled: the game can't make `whole_wheat_flour`
+- thermal_centrifuge: none, whole items would distort it by 387%
+
 ### `wheat_grass_juice.step_2` (sprout)
 
 - vd_fermenting_jar: 1 recipe, rounding 11%, estimated
@@ -122320,49 +124563,62 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `wheat_modak_coconut_pastries.step_1` (mix)
 
-- create_mixing: 1 recipe, rounding 6%
-- shapeless_crafting: 1 recipe, rounding 6%
-- hexerei_mixing_cauldron: 1 recipe, rounding 15%
+- create_mixing: 1 recipe, disabled: the game can't make `semolina`
+- shapeless_crafting: 1 recipe, disabled: the game can't make `semolina`
+- hexerei_mixing_cauldron: 1 recipe, disabled: the game can't make `semolina`
 
 ### `wheat_modak_coconut_pastries.step_2` (coat)
 
-- shapeless_crafting: 1 recipe, rounding 0%
-- create_deploying: 1 recipe, rounding 0%
+- shapeless_crafting: 1 recipe, disabled: the game can't make `wheat_modak_coconut_pastries_step_1`
+- create_deploying: 1 recipe, disabled: the game can't make `wheat_modak_coconut_pastries_step_1`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - thermal_bottler: none, needs a fluid it can take, and has none
 
 ### `wheat_modak_coconut_pastries.step_3` (heat)
 
-- create_heated_mixing: 1 recipe, rounding 26% ⚠, estimated
-- fd_cooking_pot: 1 recipe, rounding 14%, estimated
+- create_heated_mixing: 1 recipe, disabled: the game can't make `wheat_modak_coconut_pastries_step_2`
+- fd_cooking_pot: 1 recipe, disabled: the game can't make `wheat_modak_coconut_pastries_step_2`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `wheat_modak_coconut_pastries.step_4` (evaporate)
 
-- create_heated_mixing: 1 recipe, rounding 5%, estimated
+- create_heated_mixing: 1 recipe, disabled: the game can't make `wheat_modak_coconut_pastries_step_3`
 
 ### `wheat_modak_coconut_pastries.step_5` (season)
 
-- create_mixing: 1 recipe, rounding 13%, estimated
-- shapeless_crafting: 1 recipe, rounding 69% ⚠, estimated
+- create_mixing: 1 recipe, disabled: the game can't make `wheat_modak_coconut_pastries_step_4`
+- shapeless_crafting: 1 recipe, disabled: the game can't make `wheat_modak_coconut_pastries_step_4`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `wheat_modak_coconut_pastries.step_6` (cool)
 
-- transition: written
+- transition: not written: the game can't make `wheat_modak_coconut_pastries_step_5`
 
 ### `wheat_modak_coconut_pastries.step_9` (fry)
 
-- create_heated_mixing: 1 recipe, rounding 0%
-- pnc_thermo_plant: 1 recipe, rounding 0%
+- create_heated_mixing: 1 recipe, disabled: the game can't make `wheat_modak_coconut_pastries_step_7`
+- pnc_thermo_plant: 1 recipe, disabled: the game can't make `wheat_modak_coconut_pastries_step_7`
 
 ### `whipped_cream.sour` (sour)
 
 - transition: written
 
+### `whipped_cream.whisk` (whisk)
+
+- create_mixing: 1 recipe, rounding 9%, estimated
+
 ### `whipping_cream.sour` (sour)
 
 - transition: written
+
+### `whiskey.age_spirit` (age)
+
+- vd_fermenting_jar: 1 recipe, rounding 11%
+- bnc_keg: none, can't make the mod's own whiskey, and no other mod provides it
+
+### `whiskey.distill_beer` (distill)
+
+- create_heated_mixing: 2 recipes, rounding 7%
 
 ### `whiskey_barbecue_sauce.step_1` (boil)
 
@@ -122432,6 +124688,18 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 ### `white_bread.mold` (mold)
 
 - transition: written
+
+### `white_chocolate.mix` (mix)
+
+- create_mixing: 1 recipe, rounding 10%
+- shapeless_crafting: 1 recipe, rounding 10%
+- hexerei_mixing_cauldron: 1 recipe, rounding 15%
+
+### `white_chocolate.press_liquor` (press)
+
+- create_item_drain: none, whole items would distort it by 3633%
+- create_mixing: 1 recipe, rounding 15%
+- thermal_press: none, whole items would distort it by 3633%
 
 ### `white_chocolate_cheesecake.step_1` (mix)
 
@@ -122621,63 +124889,69 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `whole_wheat_chocolate_cake_with_nuts.step_2` (assemble)
 
-- shapeless_crafting: 1 recipe, rounding 77% ⚠, estimated
+- shapeless_crafting: 1 recipe, disabled: the game can't make `whole_wheat_flour`
 - create_deploying: none, deploying takes exactly two items
-- hexerei_mixing_cauldron: 1 recipe, rounding 67% ⚠, estimated
+- hexerei_mixing_cauldron: 1 recipe, disabled: the game can't make `whole_wheat_flour`
 
 ### `whole_wheat_chocolate_cake_with_nuts.step_5` (mix)
 
-- create_mixing: 1 recipe, rounding 15%, estimated
-- shapeless_crafting: 1 recipe, rounding 50% ⚠, estimated
+- create_mixing: 1 recipe, disabled: the game can't make `whole_wheat_chocolate_cake_with_nuts_step_3`
+- shapeless_crafting: 1 recipe, disabled: the game can't make `whole_wheat_chocolate_cake_with_nuts_step_3`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `whole_wheat_chocolate_cake_with_nuts.step_6` (bake)
 
-- smelting: 1 recipe, rounding 17% ⚠, estimated
-- smoking: 1 recipe, rounding 17% ⚠, estimated
+- smelting: 1 recipe, disabled: the game can't make `whole_wheat_chocolate_cake_with_nuts_step_5`
+- smoking: 1 recipe, disabled: the game can't make `whole_wheat_chocolate_cake_with_nuts_step_5`
 
 ### `whole_wheat_chocolate_cake_with_nuts.step_7` (cool)
 
-- transition: written
+- transition: not written: the game can't make `whole_wheat_chocolate_cake_with_nuts_step_6`
 
 ### `whole_wheat_flour.freezer_burn` (freezer_burn)
 
-- transition: written
+- transition: not written: the game can't make `whole_wheat_flour`
+
+### `whole_wheat_flour.grind` (mix)
+
+- create_mixing: 1 recipe, disabled: the game can't make `wheat_bran`, `wheat_germ`
+- shapeless_crafting: none, whole items would distort it by 160%
+- hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `whole_wheat_flour.rancid` (rancid)
 
-- transition: written
+- transition: not written: the game can't make `whole_wheat_flour`
 
 ### `whole_wheat_irish_soda_bread.step_10` (cool)
 
-- transition: written
+- transition: not written: the game can't make `whole_wheat_irish_soda_bread_step_9`
 
 ### `whole_wheat_irish_soda_bread.step_11` (age)
 
-- vd_fermenting_jar: 1 recipe, rounding 0%
-- bnc_keg: 1 recipe, rounding 0%
+- vd_fermenting_jar: 1 recipe, disabled: the game can't make `whole_wheat_irish_soda_bread_step_10`
+- bnc_keg: 1 recipe, disabled: the game can't make `whole_wheat_irish_soda_bread_step_10`
 
 ### `whole_wheat_irish_soda_bread.step_3` (mix)
 
-- create_mixing: 1 recipe, rounding 1%, estimated
-- shapeless_crafting: 1 recipe, rounding 6%, estimated
+- create_mixing: 1 recipe, disabled: the game can't make `whole_wheat_flour`
+- shapeless_crafting: 1 recipe, disabled: the game can't make `whole_wheat_flour`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `whole_wheat_irish_soda_bread.step_5` (assemble)
 
-- shapeless_crafting: 1 recipe, rounding 15%, estimated
-- create_deploying: 1 recipe, rounding 28% ⚠, estimated
+- shapeless_crafting: 1 recipe, disabled: the game can't make `whole_wheat_irish_soda_bread_step_4`
+- create_deploying: 1 recipe, disabled: the game can't make `whole_wheat_irish_soda_bread_step_4`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `whole_wheat_irish_soda_bread.step_8` (cut)
 
-- fd_cutting_board: 1 recipe, rounding 32% ⚠, estimated
-- create_cutting: 1 recipe, rounding 32% ⚠, estimated
+- fd_cutting_board: 1 recipe, disabled: the game can't make `whole_wheat_irish_soda_bread_step_6`
+- create_cutting: 1 recipe, disabled: the game can't make `whole_wheat_irish_soda_bread_step_6`
 
 ### `whole_wheat_irish_soda_bread.step_9` (bake)
 
-- smelting: 1 recipe, rounding 0%
-- smoking: 1 recipe, rounding 0%
+- smelting: 1 recipe, disabled: the game can't make `whole_wheat_irish_soda_bread_step_8`
+- smoking: 1 recipe, disabled: the game can't make `whole_wheat_irish_soda_bread_step_8`
 
 ### `whole_wheat_pancakes.step_1` (mix)
 
@@ -122708,25 +124982,25 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `whole_wheat_pancakes_vegan.step_1` (mix)
 
-- create_mixing: 1 recipe, rounding 8%, estimated
+- create_mixing: 1 recipe, disabled: the game can't make `whole_wheat_flour`
 - shapeless_crafting: none, whole items would distort it by 113%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `whole_wheat_pancakes_vegan.step_2` (mix)
 
-- create_mixing: 1 recipe, rounding 15%, estimated
-- shapeless_crafting: 1 recipe, rounding 15%, estimated
+- create_mixing: 1 recipe, disabled: the game can't make `whole_wheat_pancakes_vegan_step_1`
+- shapeless_crafting: 1 recipe, disabled: the game can't make `whole_wheat_pancakes_vegan_step_1`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `whole_wheat_pancakes_vegan.step_4` (pan_fry)
 
-- create_heated_mixing: 1 recipe, rounding 8%, estimated
-- pnc_thermo_plant: 1 recipe, rounding 15%, estimated
+- create_heated_mixing: 1 recipe, disabled: the game can't make `whole_wheat_pancakes_vegan_step_2`
+- pnc_thermo_plant: 1 recipe, disabled: the game can't make `whole_wheat_pancakes_vegan_step_2`
 
 ### `whole_wheat_pancakes_vegan.step_5` (pan_fry)
 
-- create_heated_mixing: 1 recipe, rounding 7%, estimated
-- pnc_thermo_plant: 1 recipe, rounding 15%, estimated
+- create_heated_mixing: 1 recipe, disabled: the game can't make `whole_wheat_pancakes_vegan_step_4`
+- pnc_thermo_plant: 1 recipe, disabled: the game can't make `whole_wheat_pancakes_vegan_step_4`
 
 ### `whole_wheat_waffles.step_2` (mix)
 
@@ -123023,6 +125297,17 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - transition: written
 - thermal_chiller: none, needs a fluid it can take, and has none
 
+### `worcestershire_sauce.age` (age)
+
+- vd_fermenting_jar: 1 recipe, rounding 2%
+- bnc_keg: none, can't make the mod's own worcestershire_sauce, and no other mod provides it
+
+### `worcestershire_sauce.mix_base` (mix)
+
+- create_mixing: 1 recipe, rounding 40% ⚠, estimated
+- shapeless_crafting: none, whole items would distort it by 900%
+- hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
+
 ### `worcestershire_sauce.mold` (mold)
 
 - transition: written
@@ -123293,45 +125578,44 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `yataklete_kilkil_ethiopian_vegetable_stew.step_2` (pan_fry)
 
-- adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 13%
-- pnc_thermo_plant: none, takes at most 2 inputs, not 3
+- create_heated_mixing: 1 recipe, disabled: the game can't make `niter_kibbeh_heat`
+- pnc_thermo_plant: 1 recipe, disabled: the game can't make `niter_kibbeh_heat`
 
 ### `yataklete_kilkil_ethiopian_vegetable_stew.step_3` (coat)
 
-- shapeless_crafting: 1 recipe, rounding 0%, estimated
+- shapeless_crafting: 1 recipe, disabled: the game can't make `yataklete_kilkil_ethiopian_vegetable_stew_step_2`
 - create_deploying: none, deploying takes exactly two items
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 - thermal_bottler: none, takes at most 2 inputs, not 7
 
 ### `yataklete_kilkil_ethiopian_vegetable_stew.step_4` (mix)
 
-- create_mixing: 1 recipe, rounding 5%, estimated
-- shapeless_crafting: 1 recipe, rounding 50% ⚠, estimated
+- create_mixing: 1 recipe, disabled: the game can't make `yataklete_kilkil_ethiopian_vegetable_stew_step_3`
+- shapeless_crafting: 1 recipe, disabled: the game can't make `yataklete_kilkil_ethiopian_vegetable_stew_step_3`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `yataklete_kilkil_ethiopian_vegetable_stew.step_5` (steam)
 
-- create_heated_mixing: 1 recipe, rounding 0%
-- fd_cooking_pot: 1 recipe, rounding 0%
+- create_heated_mixing: 1 recipe, disabled: the game can't make `yataklete_kilkil_ethiopian_vegetable_stew_step_4`
+- fd_cooking_pot: 1 recipe, disabled: the game can't make `yataklete_kilkil_ethiopian_vegetable_stew_step_4`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `yataklete_kilkil_ethiopian_vegetable_stew.step_6` (heat)
 
-- create_heated_mixing: 1 recipe, rounding 5%, estimated
-- fd_cooking_pot: 1 recipe, rounding 5%, estimated
+- create_heated_mixing: 1 recipe, disabled: the game can't make `yataklete_kilkil_ethiopian_vegetable_stew_step_5`
+- fd_cooking_pot: 1 recipe, disabled: the game can't make `yataklete_kilkil_ethiopian_vegetable_stew_step_5`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `yataklete_kilkil_ethiopian_vegetable_stew.step_7` (season)
 
-- create_mixing: 1 recipe, rounding 0%, estimated
-- shapeless_crafting: 1 recipe, rounding 0%, estimated
+- create_mixing: 1 recipe, disabled: the game can't make `yataklete_kilkil_ethiopian_vegetable_stew_step_6`
+- shapeless_crafting: 1 recipe, disabled: the game can't make `yataklete_kilkil_ethiopian_vegetable_stew_step_6`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `yataklete_kilkil_ethiopian_vegetable_stew.step_8` (assemble)
 
-- shapeless_crafting: 1 recipe, rounding 0%, estimated
-- create_deploying: 1 recipe, rounding 0%, estimated
+- shapeless_crafting: 1 recipe, disabled: the game can't make `yataklete_kilkil_ethiopian_vegetable_stew_step_7`
+- create_deploying: 1 recipe, disabled: the game can't make `yataklete_kilkil_ethiopian_vegetable_stew_step_7`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `yeast.ferment_starter` (ferment)
@@ -123365,9 +125649,9 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `yeasted_cornbread.step_2` (mix)
 
-- create_mixing: 1 recipe, disabled: the game can't make `yeasted_cornbread_step_1`
-- shapeless_crafting: 1 recipe, disabled: the game can't make `yeasted_cornbread_step_1`
-- hexerei_mixing_cauldron: 1 recipe, disabled: the game can't make `yeasted_cornbread_step_1`
+- create_mixing: 1 recipe, disabled: the game can't make `whole_wheat_flour`, `yeasted_cornbread_step_1`
+- shapeless_crafting: 1 recipe, disabled: the game can't make `whole_wheat_flour`, `yeasted_cornbread_step_1`
+- hexerei_mixing_cauldron: 1 recipe, disabled: the game can't make `whole_wheat_flour`, `yeasted_cornbread_step_1`
 
 ### `yeasted_cornbread.step_3` (bake)
 
@@ -123536,7 +125820,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 ### `yellow_saffron_food_coloring.step_1` (grind)
 
 - create_milling: none, takes one input, not 2
-- hexerei_pestle_and_mortar: none, whole items would distort it by 509%
+- hexerei_pestle_and_mortar: none, whole items would distort it by 1421%
 
 ### `yellow_saffron_food_coloring.step_2` (mix)
 
@@ -123929,6 +126213,14 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_mixing: 1 recipe, disabled: the game can't make `yogi_tea_step_6`
 - thermal_centrifuge: 1 recipe, disabled: the game can't make `yogi_tea_step_6`
 
+### `yogurt.ferment` (ferment)
+
+- transition: written
+- vd_fermenting_jar: 3 recipes, rounding 12%
+- bnc_keg: 2 recipes, rounding 12%
+- pnc_thermo_plant: 12 recipes, rounding 14%
+- theurgy_fermentation: none, doesn't fit in 2 input items, 2 of each, and 1000 mB tanks at any scale
+
 ### `yogurt.freezer_burn` (freezer_burn)
 
 - transition: written
@@ -124016,6 +126308,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_mixing: 1 recipe, disabled: the game can't make `mint_chop`
 - shapeless_crafting: 1 recipe, disabled: the game can't make `mint_chop`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
+
+### `yorkshire_pudding.bake` (bake)
+
+- smelting: none, takes one input, not 2
+- smoking: none, takes one input, not 2
 
 ### `yorkshire_pudding.step_3` (mix)
 
@@ -124116,6 +126413,12 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 ### `yuvarlak_greek_meatballs.step_7` (whisk)
 
 - create_mixing: 1 recipe, rounding 0%, estimated
+
+### `za_atar.mix` (mix)
+
+- create_mixing: 1 recipe, rounding 15%, estimated
+- shapeless_crafting: none, whole items would distort it by 180%
+- hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `za_atar.stale` (stale)
 
@@ -124489,9 +126792,19 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - fd_cooking_pot: 1 recipe, rounding 0%, estimated
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
+### `zest.grind` (grind)
+
+- create_milling: 1 recipe, rounding 17% ⚠
+- hexerei_pestle_and_mortar: 1 recipe, rounding 0%
+
 ### `zest_from_juiced_lemons.mold` (mold)
 
 - transition: written
+
+### `zest_of_lemon.grind` (grind)
+
+- create_milling: none, whole items would distort it by 150%
+- hexerei_pestle_and_mortar: 1 recipe, rounding 11%
 
 ### `zest_of_lemon.mold` (mold)
 
@@ -124900,43 +127213,75 @@ Routes written disabled (`forge:false`): the game can't make some of their input
 
 Inputs by how many pruned routes miss them:
 
+- `carbonated_water`: 53
+- `semolina`: 48
+- `whole_wheat_flour`: 32
 - `mint_chop`: 23
 - `chocolate_chop`: 17
+- `feta_cheese`: 17
 - `berbere`: 16
+- `manioc_flour`: 15
 - `steamed_basmati_rice`: 13
 - `tomato_chop_chop`: 12
+- `graham_cracker`: 9
 - `avocado_cut_chop`: 7
+- `nutritional_yeast`: 7
+- `english_muffins`: 6
 - `hickory_bbq_rub`: 6
+- `niter_kibbeh`: 6
+- `niter_kibbeh_heat`: 6
+- `semolina_toast`: 6
+- `smoked_fish`: 6
+- `smoked_salmon`: 6
 - `corn_chop`: 5
+- `hamburger_bun`: 5
+- `homemade_wheat_tortillas`: 5
 - `shortening_cut`: 5
 - `sushi_rice`: 5
 - `tandoori_masala`: 5
 - `avocado_cut_cut_blend`: 4
+- `bun`: 4
 - `classic_salad_step_3`: 4
-- `homemade_wheat_tortillas`: 4
+- `digestive_biscuit_grind`: 4
+- `digestive_biscuit_grind_grind`: 4
+- `feta_cheese_chop`: 4
+- `graham_cracker_grind`: 4
 - `italian_crispy_chicken_step_2`: 4
+- `italian_dressing`: 4
 - `kansas_city_barbecue_sauce`: 4
+- `m_semen_layered_algerian_flatbread_step_3`: 4
+- `meatloaf_iv_step_4`: 4
+- `mhadjeb_algerian_stuffed_flatbread_step_2`: 4
+- `pancetta`: 4
+- `pancetta_fry`: 4
+- `puri_indian_fried_flatbread`: 4
+- `salt_cod_soak_soak`: 4
 - `steamed_basmati_rice_rinse`: 4
 - `thai_red_curry_paste`: 4
 - `a_nice_cup_of_tea_step_5`: 3
+- `albanian_fried_meatballs_step_2`: 3
 - `algerian_lemonade_step_4`: 3
 - `americanized_eggplant_parmesan_step_10`: 3
 - `americanized_eggplant_parmesan_step_19`: 3
 - `apple_pie_i_step_1`: 3
 - `apple_pie_ii_step_1`: 3
 - `apple_pie_ii_step_7`: 3
+- `asida_bil_zibda_libyan_semolina_pudding_step_3`: 3
 - `bangladesh_curry_step_5`: 3
 - `barbecued_spare_ribs_step_2`: 3
 - `barbecued_spare_ribs_step_3`: 3
+- `basbousa_egyptian_semolina_cake_step_5`: 3
 - `beef_and_guinness_casserole_step_6`: 3
 - `boliche_cuban_chorizo_stuffed_roast_step_5`: 3
 - `breakfast_sludge_step_5`: 3
 - `burmese_pork_curry_step_5`: 3
 - `cabbie_claw_scottish_whitefish_with_egg_and_potato_step_5`: 3
+- `cajun_seasoning`: 3
 - `cantonese_roast_duck_step_10`: 3
 - `cantonese_roast_duck_step_11`: 3
 - `cantonese_roast_duck_step_12`: 3
 - `cantonese_roast_duck_step_9`: 3
+- `chapati_step_5`: 3
 - `charoset_maghrebi_step_2`: 3
 - `chicken_fried_steak_step_6`: 3
 - `chicken_fried_steak_step_7`: 3
@@ -124957,30 +127302,46 @@ Inputs by how many pruned routes miss them:
 - `doro_dabo_ethiopian_chicken_with_spiced_bread_step_14`: 3
 - `egg_noodles_iii_step_2`: 3
 - `egg_pie_step_4`: 3
+- `egg_pie_step_5`: 3
 - `egyptian_rice_with_vermicelli_step_3`: 3
 - `egyptian_roast_lamb_kharouf_mahshi_step_5`: 3
+- `ekpang_nkukwo_step_4`: 3
+- `english_muffins_toast`: 3
+- `fishball`: 3
 - `flammekueche_bacon_and_onion_flatbread_step_1`: 3
+- `fried_bacon_and_egg_sandwich_homemade_egg_mcmuffin_step_4`: 3
 - `galaktoboureko_greek_semolina_custard_pastry_step_6`: 3
 - `garlic_croutons_ii_step_2`: 3
+- `genfo_ethiopian_porridge_step_5`: 3
 - `ginger_biscuits_step_2`: 3
 - `hallaca_venezuelan_stuffed_corn_dough_step_29`: 3
 - `ham_roast`: 3
 - `homemade_corned_beef_step_2`: 3
 - `homemade_wheat_tortillas_step_2`: 3
 - `hot_chocolate_with_cayenne_step_3`: 3
+- `ifumbe_rwandan_cassava_fritters_step_1`: 3
+- `kesra_algerian_semolina_flatbread_step_2`: 3
 - `klepon_indonesian_sweet_boiled_rice_cake_step_2`: 3
 - `kyopulo_eggplant_with_peppers_and_tomatoes_step_2`: 3
+- `lahoh_spongy_flatbread_i_step_1`: 3
+- `lahoh_spongy_flatbread_i_step_6`: 3
 - `langar_dal_step_5`: 3
 - `lemon_pickle_i_step_6`: 3
 - `lentil_and_sausage_stew_step_4`: 3
+- `m_semen_layered_algerian_flatbread_step_1`: 3
 - `mahshi_egyptian_stuffed_vegetables_step_4`: 3
 - `maltese_almond_cookies_biskuttini_tal_lewz_step_2`: 3
 - `mandazi_east_african_doughnuts_step_3`: 3
 - `matar_paneer_step_14`: 3
+- `mini_three_cheese_english_muffin_pizzas_step_2`: 3
+- `mocha_delight_step_9`: 3
+- `msemmen_step_1`: 3
 - `murgh_musallam_indian_stewed_spiced_chicken_step_10`: 3
 - `nut_roast_step_9`: 3
 - `one_cup_chai_step_6`: 3
 - `paksiw_na_bangus_milkfish_stewed_in_vinegar_step_3`: 3
+- `pancetta_cut`: 3
+- `pasta_marinata_step_1`: 3
 - `pastry_for_cornish_pasties_cut`: 3
 - `pecan_pie_step_5`: 3
 - `pepes_ikan_indonesian_steamed_fish_step_4`: 3
@@ -124988,6 +127349,8 @@ Inputs by how many pruned routes miss them:
 - `potato_and_cauliflower_curry_aloo_gobi_step_4`: 3
 - `potatoes_roasted_under_meat_step_2`: 3
 - `prickly_pear_cut_cut`: 3
+- `puri_indian_fried_flatbread_step_1`: 3
+- `puri_indian_fried_flatbread_step_2`: 3
 - `roast_beef_step_22`: 3
 - `roast_beef_step_6`: 3
 - `roast_beef_step_7`: 3
@@ -125002,13 +127365,17 @@ Inputs by how many pruned routes miss them:
 - `roasted_brined_turkey_ii_step_7`: 3
 - `roasted_pork_shoulder_pernil_asado_step_7`: 3
 - `roasted_pork_shoulder_pernil_asado_step_9`: 3
+- `salami`: 3
 - `salsa_fermented_step_8`: 3
+- `salt_pork`: 3
 - `scorched_rice_step_8`: 3
+- `semolina_toast_toast`: 3
 - `shiro_wat_ethiopian_pea_stew_step_2`: 3
 - `smore_eurasian_beef_stew_step_8`: 3
 - `steak_and_ale_pie_step_5`: 3
 - `steak_and_kidney_pudding_step_1`: 3
 - `steak_melts_step_2`: 3
+- `strawberry_fromage_frais_step_3`: 3
 - `stuffed_tomatoes_step_7`: 3
 - `sugar_pie_step_4`: 3
 - `tartiflette_step_14`: 3
@@ -125021,6 +127388,7 @@ Inputs by how many pruned routes miss them:
 - `turkey_with_plantain_stuffing_pavo_relleno_de_mofongo_step_12`: 3
 - `turkey_with_plantain_stuffing_pavo_relleno_de_mofongo_step_13`: 3
 - `tuscan_roast_potatoes_step_3`: 3
+- `wheat_bran`: 3
 - `whole_wheat_waffles_step_2`: 3
 - `yeasted_cornbread_step_1`: 3
 - `yeasted_rolls_ii`: 3
@@ -125044,6 +127412,10 @@ Inputs by how many pruned routes miss them:
 - `alfajores_latin_american_sandwich_cookies_step_2`: 2
 - `alfajores_latin_american_sandwich_cookies_step_4`: 2
 - `alfajores_latin_american_sandwich_cookies_step_5`: 2
+- `algerian_baghrir_step_2`: 2
+- `algerian_baghrir_step_4`: 2
+- `algerian_baghrir_step_6`: 2
+- `algerian_baghrir_step_7`: 2
 - `algerian_coca_step_10`: 2
 - `algerian_coca_step_12`: 2
 - `algerian_coca_step_3`: 2
@@ -125088,9 +127460,14 @@ Inputs by how many pruned routes miss them:
 - `ashwe_soup_step_4`: 2
 - `asian_grilled_salmon_step_1`: 2
 - `asian_grilled_salmon_step_3`: 2
+- `asida_bil_zibda_libyan_semolina_pudding_step_2`: 2
+- `asida_bil_zibda_libyan_semolina_pudding_step_4`: 2
+- `asida_bil_zibda_libyan_semolina_pudding_step_7`: 2
 - `asparagus_cut_cut`: 2
 - `asparagus_with_sesame_seeds_and_soy_sauce_step_4`: 2
 - `asparagus_with_sesame_seeds_and_soy_sauce_step_6`: 2
+- `atama_soup_step_5`: 2
+- `atama_soup_step_6`: 2
 - `atkilt_wat_ethiopian_cabbage_and_potato_stew_step_5`: 2
 - `atkilt_wat_ethiopian_cabbage_and_potato_stew_step_6`: 2
 - `atkilt_wat_ethiopian_cabbage_and_potato_stew_step_7`: 2
@@ -125100,6 +127477,10 @@ Inputs by how many pruned routes miss them:
 - `aubergine_and_onion_vegetable_pie_step_4`: 2
 - `aubergine_and_onion_vegetable_pie_step_6`: 2
 - `aubergine_and_onion_vegetable_pie_step_8`: 2
+- `austrian_apricot_dumplings_marillenknodel_step_1`: 2
+- `austrian_apricot_dumplings_marillenknodel_step_3`: 2
+- `austrian_apricot_dumplings_marillenknodel_step_5`: 2
+- `austrian_apricot_dumplings_marillenknodel_step_8`: 2
 - `avocado_cut_cut_cut`: 2
 - `awaze_tibs_spicy_ethiopian_meat_stir_fry_step_6`: 2
 - `awaze_tibs_spicy_ethiopian_meat_stir_fry_step_8`: 2
@@ -125128,16 +127509,25 @@ Inputs by how many pruned routes miss them:
 - `banana_cream_pie_i_step_4`: 2
 - `banana_cream_pie_i_step_6`: 2
 - `banana_curry_step_4`: 2
+- `banana_nut_muffins_step_4`: 2
 - `bangladesh_curry_step_6`: 2
 - `bangladesh_curry_step_7`: 2
 - `bangladesh_curry_step_8`: 2
+- `banoffee_pie_step_3`: 2
+- `banoffee_pie_step_4`: 2
+- `banoffee_pie_step_7`: 2
 - `barbecue_meatloaf_step_3`: 2
 - `barbecue_prime_rib_step_4`: 2
 - `barbecue_ribs_step_4`: 2
 - `barbecue_sauce_i_step_1`: 2
 - `barbecue_sauce_kansas_city_style_step_2`: 2
 - `barbecue_wings_step_1`: 2
+- `basbousa_egyptian_semolina_cake_step_3`: 2
+- `basbousa_egyptian_semolina_cake_step_4`: 2
+- `basbousa_egyptian_semolina_cake_step_7`: 2
+- `basbousa_egyptian_semolina_cake_step_8`: 2
 - `basic_lasagna_step_4`: 2
+- `battered_onion_rings`: 2
 - `bazeen_bil_lahm_libyan_meat_bazeen_step_5`: 2
 - `bazeen_bil_lahm_libyan_meat_bazeen_step_6`: 2
 - `bazeen_bil_lahm_libyan_meat_bazeen_step_7`: 2
@@ -125170,11 +127560,14 @@ Inputs by how many pruned routes miss them:
 - `bengal_potatoes_step_3`: 2
 - `bengal_potatoes_step_4`: 2
 - `bengal_potatoes_step_6`: 2
+- `berbere_spice`: 2
 - `bete_noire_flourless_chocolate_cake_step_6`: 2
 - `bibimbap_step_20`: 2
 - `bigos_polish_cabbage_meat_stew_step_3`: 2
 - `biltong_zambian_dried_and_salted_meat_step_5`: 2
 - `bint_as_sa_n_yemenite_layered_pastry_step_10`: 2
+- `bint_as_sa_n_yemenite_layered_pastry_step_3`: 2
+- `bint_as_sa_n_yemenite_layered_pastry_step_5`: 2
 - `biscuit_grind`: 2
 - `bison_meatballs_baked_in_hoisin_sauce_marvin_step_3`: 2
 - `bison_meatballs_baked_in_hoisin_sauce_marvin_step_7`: 2
@@ -125186,6 +127579,9 @@ Inputs by how many pruned routes miss them:
 - `black_bean_stir_fry_step_8`: 2
 - `black_bean_stir_fry_step_9`: 2
 - `black_forest_torte_step_16`: 2
+- `blackened_sirloin_step_1`: 2
+- `blackened_sirloin_step_3`: 2
+- `blackened_sirloin_step_5`: 2
 - `blotkake_norwegian_berries_and_cream_cake_step_6`: 2
 - `blueberry_pancakes_step_3`: 2
 - `boerewors_south_african_sausage_step_9`: 2
@@ -125198,6 +127594,8 @@ Inputs by how many pruned routes miss them:
 - `bourbon_apples_step_2`: 2
 - `bourbon_apples_step_3`: 2
 - `braai_zambian_barbecue_step_5`: 2
+- `bran_muffins_step_1`: 2
+- `bran_muffins_step_4`: 2
 - `brazilian_feijoada_step_10`: 2
 - `brazilian_feijoada_step_12`: 2
 - `brazilian_feijoada_step_13`: 2
@@ -125213,6 +127611,8 @@ Inputs by how many pruned routes miss them:
 - `brazilian_feijoada_step_6`: 2
 - `brazilian_feijoada_step_7`: 2
 - `brazilian_feijoada_step_9`: 2
+- `breaded_chicken`: 2
+- `breaded_green_tomato_slices`: 2
 - `breaded_potato_wedges_step_2`: 2
 - `breakfast_sludge_step_3`: 2
 - `brown_butter_toffee_chocolate_chip_cookies_step_15`: 2
@@ -125222,6 +127622,7 @@ Inputs by how many pruned routes miss them:
 - `bulgarian_tripe_soup_shkembe_chorba_step_4`: 2
 - `bulgarian_tripe_soup_shkembe_chorba_step_5`: 2
 - `bulgarian_tripe_soup_shkembe_chorba_step_6`: 2
+- `bulgogi_marinated_beef`: 2
 - `bulgogi_step_1`: 2
 - `bulgur_burgers_step_2`: 2
 - `bulgur_burgers_step_3`: 2
@@ -125265,6 +127666,8 @@ Inputs by how many pruned routes miss them:
 - `caprese_salad_step_5`: 2
 - `caramelized_raspberry_sauce_step_2`: 2
 - `caramelized_raspberry_sauce_step_6`: 2
+- `carbonara_pasta_step_4`: 2
+- `carbonara_pasta_step_5`: 2
 - `carrot_cake_i_step_1`: 2
 - `carrot_cake_i_step_2`: 2
 - `carrot_cake_i_step_3`: 2
@@ -125276,16 +127679,24 @@ Inputs by how many pruned routes miss them:
 - `chakarai_pongal_sweet_rice_and_black_gram_pudding_step_4`: 2
 - `chalupa_step_2`: 2
 - `chanterelle_goulash_step_5`: 2
+- `chapati_step_3`: 2
+- `chapati_step_6`: 2
 - `char_broiled_sirloin_steak_with_cabernet_butter_sauce_step_5`: 2
 - `char_grilled_strip_steak_step_3`: 2
 - `char_grilled_strip_steak_step_5`: 2
 - `chargrilled_asparagus_salad_step_6`: 2
 - `cheese_enchilada_step_4`: 2
+- `cheese_filling_for_peynirli_borek_step_1`: 2
+- `cheese_puffs_pao_de_queijo_step_3`: 2
+- `cheese_puffs_pao_de_queijo_step_6`: 2
 - `cheese_stuffed_crust_pizza_step_8`: 2
 - `cheese_stuffed_crust_pizza_step_9`: 2
 - `cherry_berry_jumble_fruit_pie_step_8`: 2
 - `cherry_cobbler_in_a_crock_pot_step_2`: 2
 - `cherry_cobbler_in_a_crock_pot_step_4`: 2
+- `cherry_delight_step_1`: 2
+- `cherry_delight_step_2`: 2
+- `cherry_delight_step_3`: 2
 - `chess_pie_step_5`: 2
 - `chicago_sirloin_with_cabernet_balsamic_reduction_step_6`: 2
 - `chicken_and_corn_empanadas_step_17`: 2
@@ -125359,6 +127770,9 @@ Inputs by how many pruned routes miss them:
 - `chocolate_mousse_cake_vegan_step_14`: 2
 - `choripan_argentine_chorizo_sandwich_step_3`: 2
 - `choripan_argentine_chorizo_sandwich_step_4`: 2
+- `choucroute_sauerkraut_with_meat_and_potatoes_step_4`: 2
+- `choucroute_sauerkraut_with_meat_and_potatoes_step_5`: 2
+- `choucroute_sauerkraut_with_meat_and_potatoes_step_6`: 2
 - `chow_mein_step_4`: 2
 - `chow_mein_step_5`: 2
 - `chow_mein_step_6`: 2
@@ -125403,6 +127817,9 @@ Inputs by how many pruned routes miss them:
 - `coq_au_vin_i_step_5`: 2
 - `coq_au_vin_ii_step_5`: 2
 - `coq_au_vin_ii_step_7`: 2
+- `coq_au_vin_iii_step_8`: 2
+- `coq_au_vin_iii_step_9`: 2
+- `corn_bread_fish_step_5`: 2
 - `corn_chowder_ii_step_2`: 2
 - `corn_chowder_ii_step_7`: 2
 - `corn_dogs_step_4`: 2
@@ -125423,6 +127840,9 @@ Inputs by how many pruned routes miss them:
 - `crab_quesadillas_with_mango_salsa_step_9`: 2
 - `cranberry_orange_squares_step_9`: 2
 - `cream_cheese_wontons_step_4`: 2
+- `crispy_chicken_step_2`: 2
+- `crispy_chicken_step_3`: 2
+- `crispy_chicken_step_5`: 2
 - `crispy_roast_potatoes_step_4`: 2
 - `crispy_salmon_step_2`: 2
 - `crispy_santa_fe_chicken_step_3`: 2
@@ -125438,6 +127858,9 @@ Inputs by how many pruned routes miss them:
 - `cuban_sandwich_ii_step_7`: 2
 - `cuban_sandwich_ii_step_8`: 2
 - `cucumber_and_radish_salad_step_3`: 2
+- `cucumber_sprout_sandwich_step_4`: 2
+- `cucumber_sprout_sandwich_step_5`: 2
+- `cured_pork_belly`: 2
 - `curried_chiles_mirchi_ka_salan_step_4`: 2
 - `curried_chiles_mirchi_ka_salan_step_5`: 2
 - `curry_chicken_ii_step_4`: 2
@@ -125454,6 +127877,7 @@ Inputs by how many pruned routes miss them:
 - `dhokla_steamed_black_gram_bread_step_11`: 2
 - `dhokla_steamed_black_gram_bread_step_6`: 2
 - `dhokla_steamed_black_gram_bread_step_9`: 2
+- `digestive_biscuit`: 2
 - `diri_na_njar_chadian_spiced_rice_with_vegetables_step_6`: 2
 - `diri_na_njar_chadian_spiced_rice_with_vegetables_step_7`: 2
 - `diri_na_njar_chadian_spiced_rice_with_vegetables_step_8`: 2
@@ -125462,6 +127886,8 @@ Inputs by how many pruned routes miss them:
 - `dolma_stuffed_grape_leaves_step_13`: 2
 - `dolma_stuffed_grape_leaves_step_3`: 2
 - `doro_dabo_ethiopian_chicken_with_spiced_bread_step_13`: 2
+- `doro_dabo_ethiopian_chicken_with_spiced_bread_step_3`: 2
+- `doro_dabo_ethiopian_chicken_with_spiced_bread_step_9`: 2
 - `doro_tibs_ethiopian_sauteed_chicken_step_3`: 2
 - `doro_tibs_ethiopian_sauteed_chicken_step_4`: 2
 - `doro_tibs_ethiopian_sauteed_chicken_step_5`: 2
@@ -125507,7 +127933,10 @@ Inputs by how many pruned routes miss them:
 - `eel_chowder_step_5`: 2
 - `eel_chowder_step_6`: 2
 - `egg_casserole_step_5`: 2
-- `egg_pie_step_5`: 2
+- `egg_cheese_and_phyllo_casserole_banitsa_step_3`: 2
+- `egg_cheese_and_phyllo_casserole_banitsa_step_4`: 2
+- `egg_cheese_and_phyllo_casserole_banitsa_step_5`: 2
+- `egg_cheese_and_phyllo_casserole_banitsa_step_6`: 2
 - `egg_pie_step_7`: 2
 - `egg_rice_step_5`: 2
 - `egg_rice_step_6`: 2
@@ -125547,7 +127976,6 @@ Inputs by how many pruned routes miss them:
 - `ekpang_nkukwo_step_10`: 2
 - `ekpang_nkukwo_step_11`: 2
 - `ekpang_nkukwo_step_13`: 2
-- `ekpang_nkukwo_step_4`: 2
 - `ekpang_nkukwo_step_9`: 2
 - `eve_s_apple_cinnamon_raisin_stuffed_apple_step_2`: 2
 - `eve_s_apple_cinnamon_raisin_stuffed_apple_step_3`: 2
@@ -125568,6 +127996,7 @@ Inputs by how many pruned routes miss them:
 - `fattah_egyptian_layered_bread_dish_step_8`: 2
 - `fattoush_step_4`: 2
 - `feijao_tropeiro_brazilian_beans_and_sausage_step_5`: 2
+- `feta_cheese_grind`: 2
 - `firecracker_grilled_shrimp_step_2`: 2
 - `firecracker_grilled_shrimp_step_3`: 2
 - `firfir_ethiopian_spicy_scrambled_eggs_with_injera_step_10`: 2
@@ -125575,11 +128004,13 @@ Inputs by how many pruned routes miss them:
 - `firfir_ethiopian_spicy_scrambled_eggs_with_injera_step_8`: 2
 - `firfir_ethiopian_spicy_scrambled_eggs_with_injera_step_9`: 2
 - `fish_biryani_step_8`: 2
+- `fish_paste`: 2
 - `fish_pie_step_1`: 2
 - `fish_pie_step_2`: 2
 - `fish_pie_step_3`: 2
 - `fish_pie_step_4`: 2
 - `fish_pie_step_8`: 2
+- `fit_fit_ethiopian_bread_salad_step_2`: 2
 - `fit_fit_ethiopian_bread_salad_step_4`: 2
 - `fit_fit_ethiopian_bread_salad_step_5`: 2
 - `fit_fit_ethiopian_bread_salad_step_6`: 2
@@ -125603,6 +128034,7 @@ Inputs by how many pruned routes miss them:
 - `fresh_mozzarella_bruschetta_step_6`: 2
 - `fried_apple_pies_step_11`: 2
 - `fried_apple_pies_step_9`: 2
+- `fried_bacon_and_egg_sandwich_homemade_egg_mcmuffin_step_3`: 2
 - `fried_fish_step_5`: 2
 - `fried_fish_step_6`: 2
 - `fried_fish_step_7`: 2
@@ -125613,9 +128045,11 @@ Inputs by how many pruned routes miss them:
 - `fried_pita_bread_with_eggs_step_4`: 2
 - `fried_potato_wedges_step_2`: 2
 - `frog_s_legs_a_la_parisienne_step_4`: 2
+- `fromage_frais`: 2
 - `fruit_salad_with_orange_soda_ensalada_de_fruta_step_4`: 2
 - `fry_bread_i_step_7`: 2
 - `fry_bread_i_step_8`: 2
+- `galaktoboureko_greek_semolina_custard_pastry_step_1`: 2
 - `galaktoboureko_greek_semolina_custard_pastry_step_4`: 2
 - `galaktoboureko_greek_semolina_custard_pastry_step_7`: 2
 - `galaktoboureko_greek_semolina_custard_pastry_step_9`: 2
@@ -125652,6 +128086,7 @@ Inputs by how many pruned routes miss them:
 - `gorgonzola_stuffed_chateaubriand_step_7`: 2
 - `goulash_step_2`: 2
 - `goulash_step_3`: 2
+- `graham_dough`: 2
 - `grandma_s_pie_crust`: 2
 - `grandma_s_pie_crust_bake`: 2
 - `grandma_s_pie_crust_step_5`: 2
@@ -125675,6 +128110,7 @@ Inputs by how many pruned routes miss them:
 - `guacamole_chile_and_herb_free_step_3`: 2
 - `guacamole_chile_and_herb_free_step_4`: 2
 - `guacamole_i_step_3`: 2
+- `guanciale`: 2
 - `gudeg_green_jackfruit_stew_step_3`: 2
 - `gudeg_green_jackfruit_stew_step_4`: 2
 - `gudeg_green_jackfruit_stew_step_5`: 2
@@ -125730,6 +128166,7 @@ Inputs by how many pruned routes miss them:
 - `homemade_wheat_tortillas_step_6`: 2
 - `homemade_wheat_tortillas_step_8`: 2
 - `honey_lime_chicken_wings_step_1`: 2
+- `hopping_john_with_pinto_or_great_northern_beans_step_5`: 2
 - `horchata_step_3`: 2
 - `horchata_step_6`: 2
 - `horchata_step_7`: 2
@@ -125752,6 +128189,7 @@ Inputs by how many pruned routes miss them:
 - `idli_steamed_rice_and_black_gram_bread_step_6`: 2
 - `idli_steamed_rice_and_black_gram_bread_step_7`: 2
 - `ifisashi_zambian_peanut_and_spinach_stew_step_7`: 2
+- `ifumbe_rwandan_cassava_fritters_step_4`: 2
 - `indian_baked_yoghurt_with_saffron_and_cardamom_step_3`: 2
 - `indian_butter_chicken_i_step_4`: 2
 - `indian_butter_chicken_i_step_5`: 2
@@ -125787,12 +128225,15 @@ Inputs by how many pruned routes miss them:
 - `jambons_step_5`: 2
 - `jerk_lobster_step_10`: 2
 - `jerk_lobster_step_11`: 2
+- `jersey_breakfast_dog_step_6`: 2
+- `jersey_breakfast_dog_step_7`: 2
 - `jigarthanda_milk_step_10`: 2
 - `jigarthanda_milk_step_11`: 2
 - `jigarthanda_milk_step_16`: 2
 - `jigarthanda_milk_step_17`: 2
 - `jigarthanda_milk_step_19`: 2
 - `jigarthanda_milk_step_3`: 2
+- `jigarthanda_milk_step_8`: 2
 - `ka_ak_savory_ring_shaped_biscuit_step_10`: 2
 - `kanafeh_egyptian_sweet_cheese_pastry_step_10`: 2
 - `kanafeh_egyptian_sweet_cheese_pastry_step_7`: 2
@@ -125811,12 +128252,27 @@ Inputs by how many pruned routes miss them:
 - `katchi_biryani_step_6`: 2
 - `katchi_biryani_step_7`: 2
 - `katchi_biryani_step_8`: 2
+- `kele_ka_halwa_fried_bananas_in_milk_step_1`: 2
 - `kele_ka_halwa_fried_bananas_in_milk_step_4`: 2
 - `kerala_pachadi_coconut_mango_condiment_step_4`: 2
 - `kesari_south_indian_semolina_pudding_step_4`: 2
+- `kesra_algerian_semolina_flatbread_step_1`: 2
+- `kesra_algerian_semolina_flatbread_step_4`: 2
+- `kesra_algerian_semolina_flatbread_step_6`: 2
+- `key_wat_ethiopian_red_stew_step_2`: 2
 - `key_wat_ethiopian_red_stew_step_5`: 2
 - `key_wat_ethiopian_red_stew_step_6`: 2
 - `key_wat_ethiopian_red_stew_step_7`: 2
+- `khachapuri_georgian_cheese_bread_step_7`: 2
+- `khachapuri_georgian_cheese_bread_step_9`: 2
+- `khaman_dhokla_steamed_gram_bread_step_4`: 2
+- `khaman_dhokla_steamed_gram_bread_step_6`: 2
+- `kibbeh_step_7`: 2
+- `kibbeh_step_9`: 2
+- `kid_friendly_pasta_step_2`: 2
+- `kid_friendly_pasta_step_3`: 2
+- `kik_alicha_yellow_split_pea_stew_step_3`: 2
+- `kik_alicha_yellow_split_pea_stew_step_6`: 2
 - `klepon_indonesian_sweet_boiled_rice_cake_step_3`: 2
 - `klepon_indonesian_sweet_boiled_rice_cake_step_4`: 2
 - `klepon_indonesian_sweet_boiled_rice_cake_step_5`: 2
@@ -125841,6 +128297,12 @@ Inputs by how many pruned routes miss them:
 - `kyselo_czech_sourdough_mushroom_soup_step_5`: 2
 - `kyselo_czech_sourdough_mushroom_soup_step_6`: 2
 - `kyselo_czech_sourdough_mushroom_soup_step_7`: 2
+- `lahoh_spongy_flatbread_i_step_2`: 2
+- `lahoh_spongy_flatbread_i_step_3`: 2
+- `lahoh_spongy_flatbread_i_step_5`: 2
+- `lahoh_spongy_flatbread_i_step_8`: 2
+- `lahoh_spongy_flatbread_ii_step_2`: 2
+- `lahoh_spongy_flatbread_ii_step_3`: 2
 - `lamb_kofta_step_3`: 2
 - `lamb_kofta_step_4`: 2
 - `lamb_sausages_and_grilled_potatoes_step_4`: 2
@@ -125862,6 +128324,8 @@ Inputs by how many pruned routes miss them:
 - `lemon_curd_step_5`: 2
 - `lemon_curd_step_6`: 2
 - `lemon_curd_step_7`: 2
+- `lemon_meringue_pie_british_step_2`: 2
+- `lemon_meringue_pie_british_step_6`: 2
 - `lemon_mille_feuille_step_14`: 2
 - `lemon_mille_feuille_step_5`: 2
 - `lemon_mille_feuille_step_6`: 2
@@ -125890,6 +128354,7 @@ Inputs by how many pruned routes miss them:
 - `m_batata_sweet_potato_and_peanut_soup_step_8`: 2
 - `m_batata_sweet_potato_and_peanut_soup_step_9`: 2
 - `m_c_nh_i_th_t_vietnamese_stuffed_squid_step_4`: 2
+- `m_semen_layered_algerian_flatbread_step_5`: 2
 - `magic_brownies_step_1`: 2
 - `magic_brownies_step_2`: 2
 - `magic_brownies_step_3`: 2
@@ -125911,6 +128376,9 @@ Inputs by how many pruned routes miss them:
 - `malvani_chicken_curry_step_6`: 2
 - `mandazi_east_african_doughnuts_step_2`: 2
 - `mandazi_east_african_doughnuts_step_7`: 2
+- `manx_smoked_salmon_step_2`: 2
+- `manx_smoked_salmon_step_4`: 2
+- `manx_smoked_salmon_step_9`: 2
 - `maple_barbecue_baby_back_ribs_step_3`: 2
 - `maple_barbecue_baby_back_ribs_step_4`: 2
 - `maple_barbecue_sauce_step_2`: 2
@@ -125935,6 +128403,9 @@ Inputs by how many pruned routes miss them:
 - `mchemsho_tanzanian_cuisine_step_14`: 2
 - `mchemsho_tanzanian_cuisine_step_15`: 2
 - `meat_masala_step_2`: 2
+- `meatloaf_iv_step_2`: 2
+- `meatloaf_iv_step_6`: 2
+- `meatloaf_iv_step_7`: 2
 - `meatloaf_v_step_4`: 2
 - `menudo_mexican_tripe_and_hominy_soup_step_11`: 2
 - `menudo_mexican_tripe_and_hominy_soup_step_12`: 2
@@ -125971,13 +128442,21 @@ Inputs by how many pruned routes miss them:
 - `mincemeat_tart_step_6`: 2
 - `mini_english_muffin_pizzas_step_2`: 2
 - `mini_english_muffin_pizzas_step_4`: 2
+- `mini_three_cheese_english_muffin_pizzas_step_6`: 2
 - `mishkaki_east_african_meat_skewers_step_1`: 2
 - `mishkaki_east_african_meat_skewers_step_2`: 2
 - `miso_soup_traditional_step_2`: 2
 - `mixed_pickled_vegetables_acar_campur_step_3`: 2
 - `mixed_pickled_vegetables_acar_campur_step_4`: 2
+- `miyan_ridi_nigerian_sesame_soup_step_4`: 2
+- `miyan_ridi_nigerian_sesame_soup_step_5`: 2
 - `moambe_palm_nut_soup_step_7`: 2
 - `moambe_palm_nut_soup_step_9`: 2
+- `mocha_delight_step_12`: 2
+- `mocha_delight_step_14`: 2
+- `mocha_delight_step_16`: 2
+- `mocha_delight_step_4`: 2
+- `mocha_delight_step_8`: 2
 - `modern_reuben_sandwich_step_5`: 2
 - `modern_reuben_sandwich_step_6`: 2
 - `mofletta_maghrebi_pancake_step_3`: 2
@@ -126013,6 +128492,9 @@ Inputs by how many pruned routes miss them:
 - `nibbles_step_4`: 2
 - `nicoise_salad_step_2`: 2
 - `nigerian_barbecued_chicken_wings_step_3`: 2
+- `nigerian_cassava_fufu_step_1`: 2
+- `nigerian_cassava_fufu_step_3`: 2
+- `nigerian_cassava_fufu_step_4`: 2
 - `nigerian_cheesy_sausage_masa_step_1`: 2
 - `nigerian_cheesy_sausage_masa_step_10`: 2
 - `nigerian_cheesy_sausage_masa_step_11`: 2
@@ -126022,11 +128504,15 @@ Inputs by how many pruned routes miss them:
 - `nigerian_noodles_step_2`: 2
 - `nigerian_noodles_step_3`: 2
 - `nigerian_noodles_step_7`: 2
+- `nigerian_okra_soup_ila_asepo_step_3`: 2
 - `nigerian_yanrin_step_3`: 2
 - `nigerian_yanrin_step_4`: 2
 - `nigerian_yanrin_step_5`: 2
 - `nilagang_baka_boiled_beef_and_vegetables_in_broth_step_1`: 2
 - `nilagang_baka_boiled_beef_and_vegetables_in_broth_step_2`: 2
+- `niter_kibbeh_heat_heat`: 2
+- `nni_ede_nigerian_pounded_cocoyam_step_2`: 2
+- `no_bake_cheesecake_step_2`: 2
 - `no_bake_chocolate_pie_step_4`: 2
 - `nori_cut`: 2
 - `nori_cut_cut`: 2
@@ -126063,11 +128549,13 @@ Inputs by how many pruned routes miss them:
 - `orange_cardamom_pancakes_step_6`: 2
 - `orange_cardamom_pancakes_step_9`: 2
 - `orange_chocolate_chip_muffins_step_4`: 2
+- `orange_glazed_sweet_potatoes_step_2`: 2
 - `oreo_pie_step_4`: 2
 - `ossobuco_alla_milanese_step_6`: 2
 - `osumade_soup_step_3`: 2
 - `osumade_soup_step_5`: 2
 - `osumade_soup_step_6`: 2
+- `osumade_soup_step_7`: 2
 - `osumade_soup_step_8`: 2
 - `oven_fried_chicken_breasts_step_3`: 2
 - `oven_fried_chicken_breasts_step_4`: 2
@@ -126082,9 +128570,15 @@ Inputs by how many pruned routes miss them:
 - `pan_de_jamon_step_15`: 2
 - `pan_de_jamon_step_3`: 2
 - `pan_de_jamon_step_4`: 2
+- `panamanian_ropa_vieja_step_4`: 2
+- `panamanian_ropa_vieja_step_5`: 2
 - `pancakes_vegan_step_1`: 2
 - `pancakes_vegan_step_2`: 2
 - `pancakes_vegan_step_4`: 2
+- `pancetta_cut_cut`: 2
+- `pancetta_fusilli_with_herb_shallot_cream_step_2`: 2
+- `pancetta_fusilli_with_herb_shallot_cream_step_4`: 2
+- `pancetta_fusilli_with_herb_shallot_cream_step_5`: 2
 - `paneer_butter_masala_step_4`: 2
 - `paneer_butter_masala_step_5`: 2
 - `paneer_butter_masala_step_7`: 2
@@ -126093,9 +128587,15 @@ Inputs by how many pruned routes miss them:
 - `passover_apple_cake_step_6`: 2
 - `passover_hazelnut_chocolate_loaf_step_13`: 2
 - `passover_hazelnut_chocolate_loaf_step_5`: 2
+- `pasta_alla_gricia_pasta_with_guanciale_step_3`: 2
+- `pasta_alla_gricia_pasta_with_guanciale_step_4`: 2
 - `pasta_and_bean_soup_pasta_e_fagioli_step_8`: 2
+- `pasta_casserole_pastitsio_step_21`: 2
 - `pasta_meat_and_cheese_casserole_mostaccioli_step_6`: 2
 - `pasta_soup_for_kids_step_5`: 2
+- `pasta_with_pancetta_and_cauliflower_step_2`: 2
+- `pasta_with_pancetta_and_cauliflower_step_5`: 2
+- `pasta_with_pancetta_and_cauliflower_step_7`: 2
 - `pasties_step_10`: 2
 - `pasties_step_4`: 2
 - `pasties_step_6`: 2
@@ -126140,6 +128640,7 @@ Inputs by how many pruned routes miss them:
 - `pepes_ikan_indonesian_steamed_fish_step_3`: 2
 - `pepes_ikan_indonesian_steamed_fish_step_8`: 2
 - `pepes_ikan_indonesian_steamed_fish_step_9`: 2
+- `pepperoni_mix`: 2
 - `percolator_punch_step_2`: 2
 - `peri_peri_chicken_step_3`: 2
 - `peri_peri_chicken_step_4`: 2
@@ -126222,6 +128723,8 @@ Inputs by how many pruned routes miss them:
 - `pumpkin_chips_step_3`: 2
 - `pumpkin_cut_cut`: 2
 - `pupusas_step_8`: 2
+- `puri_indian_fried_flatbread_step_5`: 2
+- `puri_indian_fried_flatbread_step_7`: 2
 - `quiche_lorraine_step_10`: 2
 - `quiche_lorraine_step_5`: 2
 - `quiche_lorraine_step_7`: 2
@@ -126233,6 +128736,7 @@ Inputs by how many pruned routes miss them:
 - `radish_stew_step_5`: 2
 - `radish_stew_step_6`: 2
 - `radish_stew_step_7`: 2
+- `raisin_oatmeal_muffins_step_5`: 2
 - `raita_step_3`: 2
 - `raita_step_4`: 2
 - `raita_step_5`: 2
@@ -126243,11 +128747,14 @@ Inputs by how many pruned routes miss them:
 - `ratatouille_i_step_7`: 2
 - `ratatouille_i_step_8`: 2
 - `ratatouille_i_step_9`: 2
+- `rava_dosa_indian_semolina_pancake_step_3`: 2
+- `raw_pork_and_beans`: 2
 - `rendang_indonesian_beef_and_coconut_stew_step_7`: 2
 - `reuben_sandwich_step_5`: 2
 - `rhubarb_cake_step_3`: 2
 - `rhubarb_pudding_step_5`: 2
 - `rice_and_lentils_mejadra_step_7`: 2
+- `rice_oat_semolina_burger_step_2`: 2
 - `rice_pilaf_step_4`: 2
 - `rice_pilaf_step_5`: 2
 - `rice_pilaf_step_6`: 2
@@ -126306,16 +128813,29 @@ Inputs by how many pruned routes miss them:
 - `rugelach_step_14`: 2
 - `russian_salad_step_2`: 2
 - `russian_salad_step_3`: 2
+- `rustic_beer_bread_step_3`: 2
+- `rustic_beer_bread_step_4`: 2
 - `rwandan_goat_brochette_step_4`: 2
-- `rye_bread_layer_cake_step_7`: 2
 - `saffron_rice_and_beans_step_10`: 2
 - `saffron_rice_and_beans_step_6`: 2
 - `saffron_rice_and_beans_step_7`: 2
 - `saffron_rice_and_beans_step_8`: 2
 - `salade_frisee_step_3`: 2
+- `salami_mix`: 2
 - `salata_de_boeuf_romanian_beef_salad_step_10`: 2
+- `salmon_spaghetti_step_2`: 2
+- `salmon_spaghetti_step_3`: 2
+- `salmon_spaghetti_step_4`: 2
 - `salsa_fermented_step_7`: 2
+- `salt_cod_and_potato_casserole_bacalhau_a_gomes_de_sa_step_5`: 2
+- `salt_cod_soak`: 2
+- `salt_cod_soak_soak_soak`: 2
+- `salt_cod_soak_soak_soak_simmer`: 2
+- `salt_pork_fry`: 2
+- `sambal_oelek`: 2
 - `sambal_tempoyak_anchovies_with_fermented_durian_chili_paste_step_3`: 2
+- `sambar_i_step_3`: 2
+- `sambar_i_step_4`: 2
 - `sambar_ii_kerala_tamil_style_step_2`: 2
 - `sambar_ii_kerala_tamil_style_step_4`: 2
 - `sambar_ii_kerala_tamil_style_step_6`: 2
@@ -126338,6 +128858,7 @@ Inputs by how many pruned routes miss them:
 - `sayur_asem_indonesian_tamarind_vegetable_soup_step_2`: 2
 - `sayur_asem_indonesian_tamarind_vegetable_soup_step_3`: 2
 - `sayur_asem_indonesian_tamarind_vegetable_soup_step_4`: 2
+- `sazon`: 2
 - `scalloped_oysters_step_3`: 2
 - `scheiterhaufen_austrian_bread_pudding_step_3`: 2
 - `scorched_rice_step_10`: 2
@@ -126346,11 +128867,22 @@ Inputs by how many pruned routes miss them:
 - `scotch_bonnet_pepper_poppers`: 2
 - `scotch_bonnet_pepper_poppers_step_5`: 2
 - `seafood_cocktail_sauce_step_2`: 2
+- `seafood_fried_rice_step_2`: 2
+- `seafood_fried_rice_step_3`: 2
 - `seafood_kebabs_with_zhoug_sauce_step_3`: 2
 - `seafood_kebabs_with_zhoug_sauce_step_5`: 2
 - `sega_wat_spicy_ethiopian_beef_stew_step_5`: 2
 - `sega_wat_spicy_ethiopian_beef_stew_step_6`: 2
+- `semo_nigerian_cooked_semolina_step_3`: 2
+- `semolina_burger_step_4`: 2
+- `semolina_burger_step_6`: 2
+- `semolina_minestrone_step_2`: 2
+- `semolina_pudding_step_4`: 2
 - `sesame_shrimp_toast_step_7`: 2
+- `shahan_ful_step_10`: 2
+- `shahan_ful_step_7`: 2
+- `shahan_ful_step_9`: 2
+- `shaped_cinnamon_rolls`: 2
 - `sharba_libya_libyan_soup_step_4`: 2
 - `sharba_libya_libyan_soup_step_7`: 2
 - `sharba_libya_libyan_soup_step_8`: 2
@@ -126374,6 +128906,9 @@ Inputs by how many pruned routes miss them:
 - `sizzling_sisig_filipino_pork_saute_step_6`: 2
 - `slow_cooker_baby_back_ribs_step_2`: 2
 - `slow_cooker_pork_chops_step_5`: 2
+- `smoked_pork_slices`: 2
+- `smoked_salmon_chop`: 2
+- `smoked_salmon_dip_step_2`: 2
 - `smoked_salmon_ravioli_filling_step_1`: 2
 - `smoking_shrimp_creole_step_3`: 2
 - `smoking_shrimp_creole_step_4`: 2
@@ -126416,6 +128951,7 @@ Inputs by how many pruned routes miss them:
 - `spiced_chicken_with_sour_cream_step_7`: 2
 - `spicy_chickpea_soup_step_1`: 2
 - `spicy_chickpea_soup_step_2`: 2
+- `spicy_feta_burger_step_4`: 2
 - `spicy_fried_okra_step_1`: 2
 - `spicy_fried_okra_step_3`: 2
 - `spicy_fried_wings_step_1`: 2
@@ -126462,6 +128998,7 @@ Inputs by how many pruned routes miss them:
 - `strawberry_dumplings_step_16`: 2
 - `strawberry_dumplings_step_3`: 2
 - `strawberry_dumplings_step_5`: 2
+- `strawberry_fromage_frais_step_2`: 2
 - `strawberry_pie_step_1`: 2
 - `stuffed_grape_leaves_step_4`: 2
 - `stuffed_grape_leaves_step_5`: 2
@@ -126513,11 +129050,14 @@ Inputs by how many pruned routes miss them:
 - `tabbouleh_iii_step_3`: 2
 - `tabbouleh_iii_step_4`: 2
 - `tabbouleh_iv_step_3`: 2
+- `taboon_bread_step_2`: 2
+- `taboon_bread_step_4`: 2
 - `taco_salad_step_7`: 2
 - `taco_salad_step_8`: 2
 - `taco_salad_step_9`: 2
 - `tahu_gejrot_step_1`: 2
 - `tamate_ka_kut_hyderabadi_tomato_curry_step_5`: 2
+- `tamina_algerian_semolina_honey_dessert_step_5`: 2
 - `tandoori_masala_step_2`: 2
 - `tangerine_jelly_step_2`: 2
 - `tangy_lemon_battered_fried_chicken_step_2`: 2
@@ -126568,6 +129108,7 @@ Inputs by how many pruned routes miss them:
 - `tofu_in_spiced_coconut_sauce_step_8`: 2
 - `tofu_saltado_step_3`: 2
 - `tofu_saltado_step_5`: 2
+- `tofu_scramble_ii_step_4`: 2
 - `tofu_tamale_pie_step_2`: 2
 - `tofu_tamale_pie_step_4`: 2
 - `tofu_tamale_pie_step_5`: 2
@@ -126604,6 +129145,8 @@ Inputs by how many pruned routes miss them:
 - `tuscan_bean_soup_step_6`: 2
 - `tuscan_bean_soup_step_8`: 2
 - `tuscan_bean_soup_step_9`: 2
+- `tuwo_alabo_nigerian_cassava_swallow_step_1`: 2
+- `tuwo_alabo_nigerian_cassava_swallow_step_3`: 2
 - `twice_baked_potatoes_ii_step_11`: 2
 - `twice_baked_potatoes_ii_step_9`: 2
 - `tyropita_greek_cheese_pie_step_7`: 2
@@ -126615,8 +129158,13 @@ Inputs by how many pruned routes miss them:
 - `ukrainian_borscht_step_4`: 2
 - `ukrainian_borscht_step_5`: 2
 - `ukrainian_borscht_step_8`: 2
+- `unbaked_peach_pie`: 2
+- `unbaked_pork_pot_pie`: 2
+- `unbaked_stuffed_peppers`: 2
 - `upeseru_indian_lentils_with_greens_step_6`: 2
 - `upeseru_indian_lentils_with_greens_step_7`: 2
+- `upma_indian_semolina_porridge_step_4`: 2
+- `upma_indian_semolina_porridge_step_5`: 2
 - `uppittu_indian_semolina_porridge_step_5`: 2
 - `uppittu_indian_semolina_porridge_step_6`: 2
 - `vegetable_party_sandwiches_step_6`: 2
@@ -126639,20 +129187,40 @@ Inputs by how many pruned routes miss them:
 - `welsh_fruit_bread_bara_brith_i_step_4`: 2
 - `welsh_fruit_bread_bara_brith_i_step_5`: 2
 - `welsh_fruit_bread_bara_brith_i_step_6`: 2
+- `wheat_germ`: 2
+- `wheat_modak_coconut_pastries_step_1`: 2
+- `wheat_modak_coconut_pastries_step_2`: 2
+- `wheat_modak_coconut_pastries_step_4`: 2
+- `wheat_modak_coconut_pastries_step_7`: 2
 - `white_chocolate_cheesecake_step_6`: 2
 - `white_chocolate_cheesecake_step_8`: 2
 - `whole_wheat_bread_vegan_step_2`: 2
 - `whole_wheat_bread_vegan_step_3`: 2
 - `whole_wheat_bread_vegan_step_4`: 2
 - `whole_wheat_bread_vegan_step_6`: 2
+- `whole_wheat_chocolate_cake_with_nuts_step_3`: 2
+- `whole_wheat_chocolate_cake_with_nuts_step_5`: 2
+- `whole_wheat_irish_soda_bread_step_10`: 2
+- `whole_wheat_irish_soda_bread_step_4`: 2
+- `whole_wheat_irish_soda_bread_step_6`: 2
+- `whole_wheat_irish_soda_bread_step_8`: 2
 - `whole_wheat_pancakes_step_1`: 2
 - `whole_wheat_pancakes_step_3`: 2
 - `whole_wheat_pancakes_step_5`: 2
 - `whole_wheat_pancakes_step_6`: 2
+- `whole_wheat_pancakes_vegan_step_1`: 2
+- `whole_wheat_pancakes_vegan_step_2`: 2
+- `whole_wheat_pancakes_vegan_step_4`: 2
 - `whole_wheat_waffles_step_3`: 2
 - `wine_braised_shortribs_step_3`: 2
 - `wisconsin_ackawi_cheese_triangles_step_3`: 2
 - `yam_casserole_step_2`: 2
+- `yataklete_kilkil_ethiopian_vegetable_stew_step_3`: 2
+- `yataklete_kilkil_ethiopian_vegetable_stew_step_4`: 2
+- `yataklete_kilkil_ethiopian_vegetable_stew_step_5`: 2
+- `yataklete_kilkil_ethiopian_vegetable_stew_step_6`: 2
+- `yataklete_kilkil_ethiopian_vegetable_stew_step_7`: 2
+- `yeast_culture`: 2
 - `yeasted_cornbread_step_2`: 2
 - `yeasted_vanilla_sponge_cake_step_9`: 2
 - `yellow_saffron_food_coloring_step_4`: 2
@@ -126695,7 +129263,10 @@ Inputs by how many pruned routes miss them:
 - `akabenz_rwandan_fried_chicken_step_1`: 1
 - `akabenz_rwandan_fried_chicken_step_2`: 1
 - `akabenz_rwandan_fried_chicken_step_5`: 1
+- `albanian_fried_meatballs_step_3`: 1
 - `albanian_meat_with_walnuts_step_3`: 1
+- `algerian_baghrir_step_1`: 1
+- `algerian_baghrir_step_3`: 1
 - `algerian_coca_step_1`: 1
 - `algerian_coca_step_4`: 1
 - `algerian_coca_step_6`: 1
@@ -126729,6 +129300,8 @@ Inputs by how many pruned routes miss them:
 - `asparagus_with_sesame_seeds_and_soy_sauce_step_5`: 1
 - `atkilt_wat_ethiopian_cabbage_and_potato_stew_step_4`: 1
 - `au_jus_sandwich_step_1`: 1
+- `austrian_apricot_dumplings_marillenknodel_step_2`: 1
+- `austrian_apricot_dumplings_marillenknodel_step_6`: 1
 - `awaze_tibs_spicy_ethiopian_meat_stir_fry_step_5`: 1
 - `bacon_and_egg_stuffed_tomatoes_step_4`: 1
 - `bacon_cheese_omelet_step_3`: 1
@@ -126745,6 +129318,7 @@ Inputs by how many pruned routes miss them:
 - `banana_pudding_step_10`: 1
 - `banana_pudding_step_8`: 1
 - `bangladesh_curry_step_4`: 1
+- `banoffee_pie_step_5`: 1
 - `barbecue_meatloaf_step_4`: 1
 - `basic_mayonnaise_step_2`: 1
 - `basic_mayonnaise_step_3`: 1
@@ -126757,6 +129331,8 @@ Inputs by how many pruned routes miss them:
 - `bean_and_bacon_bake_step_8`: 1
 - `bean_and_rice_bake_step_3`: 1
 - `bean_and_rice_bake_step_4`: 1
+- `bean_semolina_burger_step_1`: 1
+- `bean_semolina_burger_step_3`: 1
 - `beef_and_guinness_casserole_step_3`: 1
 - `beef_and_guinness_casserole_step_4`: 1
 - `beef_and_guinness_casserole_step_5`: 1
@@ -126804,6 +129380,7 @@ Inputs by how many pruned routes miss them:
 - `bouillabaisse_step_3`: 1
 - `bouillabaisse_step_4`: 1
 - `bouillabaisse_step_5`: 1
+- `bran_muffins_step_2`: 1
 - `brazilian_feijoada_step_11`: 1
 - `brazilian_feijoada_step_15`: 1
 - `brazilian_feijoada_step_16`: 1
@@ -126817,9 +129394,12 @@ Inputs by how many pruned routes miss them:
 - `breakfast_durum_step_3`: 1
 - `breakfast_durum_step_4`: 1
 - `brown_sugar_mulling_spice_mix_step_1`: 1
+- `buffalo_chicken_sandwich_step_4`: 1
+- `buffalo_chicken_sandwich_step_5`: 1
 - `bulgarian_tripe_soup_shkembe_chorba_step_3`: 1
 - `bulgur_burgers_step_4`: 1
 - `bulk_sausage_step_1`: 1
+- `bun_toast`: 1
 - `burmese_pork_curry_step_7`: 1
 - `butternut_squash_soup_step_3`: 1
 - `butternut_squash_soup_step_4`: 1
@@ -126852,8 +129432,10 @@ Inputs by how many pruned routes miss them:
 - `chanterelle_goulash_step_4`: 1
 - `chanterelle_goulash_step_6`: 1
 - `chanterelle_goulash_step_7`: 1
+- `chapati_step_1`: 1
 - `char_broiled_sirloin_steak_with_cabernet_butter_sauce_step_6`: 1
 - `cherry_chop`: 1
+- `cherry_delight_step_4`: 1
 - `chicago_sirloin_with_cabernet_balsamic_reduction_step_5`: 1
 - `chicago_sirloin_with_cabernet_balsamic_reduction_step_7`: 1
 - `chicken_and_corn_empanadas_step_10`: 1
@@ -126898,6 +129480,7 @@ Inputs by how many pruned routes miss them:
 - `chocolate_bananas_foster_step_1`: 1
 - `chocolate_bananas_foster_step_2`: 1
 - `chocolate_mousse_step_3`: 1
+- `chopped_salad_veg`: 1
 - `chorba_frik_freekeh_soup_step_1`: 1
 - `choripan_argentine_chorizo_sandwich_step_5`: 1
 - `chow_mein_step_3`: 1
@@ -126908,12 +129491,23 @@ Inputs by how many pruned routes miss them:
 - `cochinita_pibil_mexican_braised_pork_step_2`: 1
 - `coconut_chicken_step_6`: 1
 - `coconut_rice_nasi_lemak_step_2`: 1
+- `cod_olive_oil_and_cream_sauce_brandade_de_morue_step_4`: 1
+- `cod_olive_oil_and_cream_sauce_brandade_de_morue_step_5`: 1
+- `cod_olive_oil_and_cream_sauce_brandade_de_morue_step_6`: 1
+- `cod_olive_oil_and_cream_sauce_brandade_de_morue_step_7`: 1
 - `cognac_beef_stew_step_2`: 1
 - `cognac_beef_stew_step_4`: 1
 - `cognac_beef_stew_step_5`: 1
 - `cola_iii_step_3`: 1
 - `coq_au_vin_i_step_1`: 1
 - `coq_au_vin_i_step_4`: 1
+- `coq_au_vin_ii_step_3`: 1
+- `coq_au_vin_iii_step_2`: 1
+- `coq_au_vin_iii_step_3`: 1
+- `coq_au_vin_iii_step_4`: 1
+- `coq_au_vin_iii_step_6`: 1
+- `coq_au_vin_iii_step_7`: 1
+- `corn_bread_fish_step_4`: 1
 - `corn_chowder_ii_step_1`: 1
 - `corn_pancakes_step_4`: 1
 - `corn_pancakes_step_9`: 1
@@ -126922,6 +129516,7 @@ Inputs by how many pruned routes miss them:
 - `country_fried_chicken_step_2`: 1
 - `country_fried_chicken_step_5`: 1
 - `country_fried_chicken_step_6`: 1
+- `couscous_pellets`: 1
 - `crab_and_corn_salad_step_1`: 1
 - `creamy_aioli_salsa_step_2`: 1
 - `creamy_aioli_salsa_step_3`: 1
@@ -126931,6 +129526,9 @@ Inputs by how many pruned routes miss them:
 - `cucumber_and_buttermilk_soup_step_3`: 1
 - `cucumber_and_radish_salad_step_4`: 1
 - `cucumber_and_tomato_salad_step_4`: 1
+- `cucumber_sprout_sandwich_step_1`: 1
+- `cucumber_sprout_sandwich_step_2`: 1
+- `cucumber_sprout_sandwich_step_3`: 1
 - `curried_chiles_mirchi_ka_salan_step_1`: 1
 - `curried_chiles_mirchi_ka_salan_step_2`: 1
 - `curried_chiles_mirchi_ka_salan_step_3`: 1
@@ -126943,11 +129541,14 @@ Inputs by how many pruned routes miss them:
 - `diri_na_njar_chadian_spiced_rice_with_vegetables_step_9`: 1
 - `dolma_stuffed_grape_leaves_step_5`: 1
 - `dolma_stuffed_grape_leaves_step_8`: 1
+- `doro_dabo_ethiopian_chicken_with_spiced_bread_step_11`: 1
 - `doro_dabo_ethiopian_chicken_with_spiced_bread_step_12`: 1
+- `doro_dabo_ethiopian_chicken_with_spiced_bread_step_8`: 1
 - `doro_tibs_ethiopian_sauteed_chicken_step_1`: 1
 - `dorowot_fitfit_ethiopian_chicken_stew_salad_step_3`: 1
 - `dorowot_fitfit_ethiopian_chicken_stew_salad_step_7`: 1
 - `dorowot_fitfit_ethiopian_chicken_stew_salad_step_8`: 1
+- `dried_lean_beef`: 1
 - `duck_confit_step_3`: 1
 - `duck_confit_step_8`: 1
 - `dump_cake_step_4`: 1
@@ -126962,6 +129563,7 @@ Inputs by how many pruned routes miss them:
 - `east_african_beef_pilaf_step_4`: 1
 - `east_african_beef_pilaf_step_5`: 1
 - `easy_pasta_sauce_step_2`: 1
+- `egg_cheese_and_phyllo_casserole_banitsa_step_1`: 1
 - `egg_pie_step_3`: 1
 - `egg_rice_step_4`: 1
 - `egg_roll_step_10`: 1
@@ -126976,14 +129578,18 @@ Inputs by how many pruned routes miss them:
 - `ekpang_nkukwo_step_7`: 1
 - `ekpang_nkukwo_step_8`: 1
 - `english_muffins_cut_cut`: 1
+- `english_muffins_toast_toast`: 1
 - `fabes_con_almejas_spanish_beans_with_clams_step_7`: 1
 - `fall_chanterelle_mushroom_frittata_step_3`: 1
 - `fattah_egyptian_layered_bread_dish_step_2`: 1
 - `feijao_tropeiro_brazilian_beans_and_sausage_step_6`: 1
 - `feijao_tropeiro_brazilian_beans_and_sausage_step_7`: 1
+- `fermented_pepperoni`: 1
+- `fermented_salami_mix`: 1
 - `feta_cheese_chop_chop`: 1
 - `firfir_ethiopian_spicy_scrambled_eggs_with_injera_step_6`: 1
 - `fish_pie_step_6`: 1
+- `fishball_cut`: 1
 - `flammekueche_bacon_and_onion_flatbread_step_5`: 1
 - `flammekueche_bacon_and_onion_flatbread_step_7`: 1
 - `food_coloring_from_cabbage_step_7`: 1
@@ -126991,8 +129597,11 @@ Inputs by how many pruned routes miss them:
 - `fool_s_gold_loaf_step_4`: 1
 - `french_onion_soup`: 1
 - `fresh_broadbeans_salad_step_3`: 1
+- `fresh_curd`: 1
 - `fresh_tomato_galette_step_3`: 1
 - `fresh_tomato_galette_step_4`: 1
+- `fried_bacon_and_egg_sandwich_homemade_egg_mcmuffin_step_2`: 1
+- `fried_bacon_and_egg_sandwich_homemade_egg_mcmuffin_step_7`: 1
 - `fried_green_tomatoes_step_2`: 1
 - `fried_green_tomatoes_with_tomato_and_cheese_step_2`: 1
 - `fried_green_tomatoes_with_tomato_and_cheese_step_6`: 1
@@ -127008,6 +129617,7 @@ Inputs by how many pruned routes miss them:
 - `garlic_parmesan_pasta_step_1`: 1
 - `garlic_tomato_and_cheddar_sandwich_step_4`: 1
 - `garlic_tomato_and_cheddar_sandwich_step_5`: 1
+- `general_tso_s_sauce`: 1
 - `ghavoot_iranian_nut_and_seed_powder_step_2`: 1
 - `ginger_pancakes_step_3`: 1
 - `glazed_onion_canapes_step_4`: 1
@@ -127035,6 +129645,7 @@ Inputs by how many pruned routes miss them:
 - `grilled_sliders_step_3`: 1
 - `ground_tofu_step_3`: 1
 - `guacamole_i_step_4`: 1
+- `guanciale_fry`: 1
 - `hachee_dutch_beef_stew_step_1`: 1
 - `hachee_dutch_beef_stew_step_2`: 1
 - `hachee_dutch_beef_stew_step_3`: 1
@@ -127053,6 +129664,7 @@ Inputs by how many pruned routes miss them:
 - `ham_and_cheese_crepes_step_4`: 1
 - `ham_chill_heat_rinse_roast_roast_roast_cool`: 1
 - `ham_steak_cut`: 1
+- `hamburger_bun_toast`: 1
 - `hearty_beef_vegetable_soup_step_4`: 1
 - `herb_grilled_snapper_step_2`: 1
 - `herbal_iced_tea_step_2`: 1
@@ -127065,6 +129677,8 @@ Inputs by how many pruned routes miss them:
 - `homemade_wheat_tortillas_heat`: 1
 - `honey_lime_chicken_wings_step_2`: 1
 - `honey_lime_chicken_wings_step_3`: 1
+- `hopping_john_with_pinto_or_great_northern_beans_step_3`: 1
+- `hopping_john_with_pinto_or_great_northern_beans_step_4`: 1
 - `horchata_step_2`: 1
 - `horchata_step_4`: 1
 - `horchata_step_5`: 1
@@ -127075,6 +129689,8 @@ Inputs by how many pruned routes miss them:
 - `hummus_greek_step_6`: 1
 - `hyderabadi_fried_bread_with_syrup_and_nuts_double_ka_meetha_step_5`: 1
 - `ifisashi_zambian_peanut_and_spinach_stew_step_8`: 1
+- `ifumbe_rwandan_cassava_fritters_step_2`: 1
+- `ifumbe_rwandan_cassava_fritters_step_5`: 1
 - `indian_baked_yoghurt_with_saffron_and_cardamom_step_2`: 1
 - `indian_butter_chicken_i_step_2`: 1
 - `indulgent_chocolate_torte_step_19`: 1
@@ -127099,7 +129715,6 @@ Inputs by how many pruned routes miss them:
 - `jigarthanda_milk_step_4`: 1
 - `jigarthanda_milk_step_5`: 1
 - `jigarthanda_milk_step_7`: 1
-- `jigarthanda_milk_step_8`: 1
 - `jigarthanda_milk_step_9`: 1
 - `kanafeh_egyptian_sweet_cheese_pastry_step_11`: 1
 - `kare_kare_oxtail_and_vegetables_in_peanut_sauce_step_6`: 1
@@ -127111,12 +129726,16 @@ Inputs by how many pruned routes miss them:
 - `karnataka_style_rasam_tamarind_and_tomato_soup_step_9`: 1
 - `katchi_biryani_step_1`: 1
 - `katchi_biryani_step_4`: 1
-- `kele_ka_halwa_fried_bananas_in_milk_step_1`: 1
 - `kele_ka_halwa_fried_bananas_in_milk_step_2`: 1
 - `kerala_pachadi_coconut_mango_condiment_step_3`: 1
 - `kesari_south_indian_semolina_pudding_step_5`: 1
 - `kesari_south_indian_semolina_pudding_step_6`: 1
+- `kesra_algerian_semolina_flatbread_step_3`: 1
 - `key_wat_ethiopian_red_stew_step_4`: 1
+- `khaman_dhokla_steamed_gram_bread_step_2`: 1
+- `khaman_dhokla_steamed_gram_bread_step_7`: 1
+- `khaman_dhokla_steamed_gram_bread_step_9`: 1
+- `kik_alicha_yellow_split_pea_stew_step_5`: 1
 - `kitfo_ethiopian_minced_raw_meat_step_2`: 1
 - `kitfo_ethiopian_minced_raw_meat_step_4`: 1
 - `kitfo_ethiopian_minced_raw_meat_step_8`: 1
@@ -127129,6 +129748,7 @@ Inputs by how many pruned routes miss them:
 - `kung_pao_chicken_step_3`: 1
 - `kung_pao_chicken_step_7`: 1
 - `kyopulo_eggplant_with_peppers_and_tomatoes_step_1`: 1
+- `lahoh_spongy_flatbread_ii_step_1`: 1
 - `lamb_sausages_and_grilled_potatoes_step_3`: 1
 - `lamington_step_4`: 1
 - `lancashire_hotpot_step_3`: 1
@@ -127149,6 +129769,7 @@ Inputs by how many pruned routes miss them:
 - `lemon_curd_step_2`: 1
 - `lemon_curd_step_3`: 1
 - `lemon_mayonnaise_step_1`: 1
+- `lemon_meringue_pie_british_step_4`: 1
 - `lemon_mille_feuille_step_11`: 1
 - `lemon_mille_feuille_step_12`: 1
 - `lemon_mille_feuille_step_13`: 1
@@ -127173,6 +129794,8 @@ Inputs by how many pruned routes miss them:
 - `maltese_rabbit_stew_stuffat_tal_fenek_step_5`: 1
 - `malvani_chicken_curry_step_4`: 1
 - `mango_and_yellow_split_pea_curry_step_6`: 1
+- `manx_smoked_salmon_step_3`: 1
+- `manx_smoked_salmon_step_7`: 1
 - `maple_barbecue_sauce_step_1`: 1
 - `margarita_grilled_chicken_step_3`: 1
 - `masa_hausa_rice_pancake_step_6`: 1
@@ -127191,11 +129814,20 @@ Inputs by how many pruned routes miss them:
 - `mincemeat_tart_step_2`: 1
 - `mincemeat_tart_step_3`: 1
 - `mini_english_muffin_pizzas_step_3`: 1
+- `mini_three_cheese_english_muffin_pizzas_step_3`: 1
+- `mini_three_cheese_english_muffin_pizzas_step_4`: 1
+- `mini_three_cheese_english_muffin_pizzas_step_5`: 1
 - `miso_soup_traditional_step_3`: 1
 - `miso_soup_traditional_step_4`: 1
 - `moambe_palm_nut_soup_step_10`: 1
 - `moambe_palm_nut_soup_step_8`: 1
+- `mocha_delight_step_3`: 1
+- `mocha_delight_step_6`: 1
+- `mocha_delight_step_7`: 1
 - `mofletta_maghrebi_pancake_step_1`: 1
+- `msemmen_step_3`: 1
+- `msemmen_step_5`: 1
+- `msemmen_step_6`: 1
 - `muffuletta_sandwich_step_1`: 1
 - `murgh_musallam_indian_stewed_spiced_chicken_step_11`: 1
 - `murgh_musallam_indian_stewed_spiced_chicken_step_3`: 1
@@ -127212,13 +129844,17 @@ Inputs by how many pruned routes miss them:
 - `nam_phrik_ong_thai_pork_and_tomato_dip_step_2`: 1
 - `nam_phrik_ong_thai_pork_and_tomato_dip_step_3`: 1
 - `nam_phrik_ong_thai_pork_and_tomato_dip_step_5`: 1
+- `nanaimo_bars_i_step_4`: 1
 - `nasi_goreng_indonesian_fried_rice_step_3`: 1
 - `nasi_goreng_indonesian_fried_rice_step_5`: 1
 - `nibbles_step_1`: 1
 - `nicoise_salad_step_1`: 1
 - `nigerian_barbecued_chicken_wings_step_1`: 1
 - `nigerian_noodles_step_8`: 1
+- `nigerian_oha_soup_ora_soup_step_5`: 1
 - `nigerian_yanrin_step_6`: 1
+- `nni_ede_nigerian_pounded_cocoyam_step_3`: 1
+- `no_bake_cheesecake_step_1`: 1
 - `noodle_toast_toast`: 1
 - `nut_roast_step_2`: 1
 - `oatmeal_stout_brownies_step_3`: 1
@@ -127231,7 +129867,6 @@ Inputs by how many pruned routes miss them:
 - `orange_julius_step_1`: 1
 - `oreo_pie_step_5`: 1
 - `ossobuco_alla_milanese_step_7`: 1
-- `osumade_soup_step_7`: 1
 - `paella_roja_step_10`: 1
 - `paella_roja_step_11`: 1
 - `paella_roja_step_12`: 1
@@ -127241,6 +129876,11 @@ Inputs by how many pruned routes miss them:
 - `pan_de_jamon_step_1`: 1
 - `pan_de_jamon_step_2`: 1
 - `pan_de_jamon_step_6`: 1
+- `panamanian_ropa_vieja_step_1`: 1
+- `panamanian_ropa_vieja_step_2`: 1
+- `panamanian_ropa_vieja_step_3`: 1
+- `pancetta_fusilli_with_herb_shallot_cream_step_3`: 1
+- `pancetta_pan_fry_pan_fry`: 1
 - `papaya_lassi_step_1`: 1
 - `parmesan_cheese_souffle_step_3`: 1
 - `parmesan_cheese_souffle_step_5`: 1
@@ -127250,6 +129890,9 @@ Inputs by how many pruned routes miss them:
 - `passover_hazelnut_chocolate_loaf_step_3`: 1
 - `passover_hazelnut_chocolate_loaf_step_7`: 1
 - `passover_hazelnut_chocolate_loaf_step_9`: 1
+- `pasta_casserole_pastitsio_step_20`: 1
+- `pasta_with_pancetta_and_cauliflower_step_3`: 1
+- `pasta_with_pancetta_and_cauliflower_step_4`: 1
 - `pea_soup_quebecois_style_step_11`: 1
 - `peach_pie_step_8`: 1
 - `peach_pie_step_9`: 1
@@ -127297,11 +129940,13 @@ Inputs by how many pruned routes miss them:
 - `potatoes_on_the_half_shell_step_4`: 1
 - `potatoes_with_green_sauce_step_4`: 1
 - `prekmurska_gibanica_slovenian_layered_strudel_cake_step_15`: 1
+- `pretzels`: 1
 - `prickly_pear_soda_step_2`: 1
 - `prime_rib_dinner_step_11`: 1
 - `puerto_rican_sofrito_freeze`: 1
 - `puff_pastry_bake_bake`: 1
 - `puff_pastry_with_nuts_and_whipped_cream_om_ali_step_4`: 1
+- `puff_pastry_with_nuts_and_whipped_cream_om_ali_step_5`: 1
 - `puliyodarai_south_indian_tamarind_rice_step_1`: 1
 - `puliyodarai_south_indian_tamarind_rice_step_2`: 1
 - `puliyodarai_south_indian_tamarind_rice_step_4`: 1
@@ -127309,6 +129954,8 @@ Inputs by how many pruned routes miss them:
 - `pumpkin_chips_step_5`: 1
 - `pupusas_step_6`: 1
 - `pupusas_step_7`: 1
+- `puri_indian_fried_flatbread_step_4`: 1
+- `puri_indian_fried_flatbread_step_8`: 1
 - `quinoa_vegetable_slaw_with_peanut_dressing_gluten_free_step_3`: 1
 - `radish_pie_step_3`: 1
 - `radish_pie_step_7`: 1
@@ -127320,6 +129967,7 @@ Inputs by how many pruned routes miss them:
 - `rasam_tamarind_and_tomato_soup_step_5`: 1
 - `rasam_tamarind_and_tomato_soup_step_7`: 1
 - `ratatouille_i_step_10`: 1
+- `raw_pasta`: 1
 - `recaito_puerto_rican_culantro_sauce_step_3`: 1
 - `red_and_white_onion_tapenade_step_1`: 1
 - `rendang_indonesian_beef_and_coconut_stew_step_1`: 1
@@ -127330,6 +129978,8 @@ Inputs by how many pruned routes miss them:
 - `reuben_sandwich_step_2`: 1
 - `reuben_sandwich_step_4`: 1
 - `rhubarb_pudding_step_3`: 1
+- `rice_oat_semolina_burger_step_3`: 1
+- `rice_oat_semolina_burger_step_4`: 1
 - `rice_pilaf_step_3`: 1
 - `rice_tamale_pastel_de_arroz_step_5`: 1
 - `rice_tamale_pastel_de_arroz_step_6`: 1
@@ -127353,14 +130003,26 @@ Inputs by how many pruned routes miss them:
 - `rolitos_gibraltarian_beef_rolls_step_3`: 1
 - `rosehip_tea`: 1
 - `rosemary_bread_step_5`: 1
+- `rye_bread_layer_cake_step_7`: 1
+- `salami_fry`: 1
 - `salata_de_boeuf_romanian_beef_salad_step_12`: 1
 - `salata_de_boeuf_romanian_beef_salad_step_7`: 1
 - `salata_de_boeuf_romanian_beef_salad_step_8`: 1
 - `salata_de_boeuf_romanian_beef_salad_step_9`: 1
 - `salsa_fermented_step_5`: 1
+- `salt_cod`: 1
+- `salt_cod_and_potato_casserole_bacalhau_a_gomes_de_sa_step_3`: 1
+- `salt_cod_soak_soak_simmer`: 1
+- `salted_chicken_strips`: 1
+- `salted_fish_strips`: 1
+- `salted_mutton_strips`: 1
+- `salted_pork_strips`: 1
+- `salted_rabbit_strips`: 1
 - `salty_namkin_lassi_step_1`: 1
 - `sambal_tempoyak_anchovies_with_fermented_durian_chili_paste_step_2`: 1
+- `sambar_i_step_2`: 1
 - `sambar_ii_kerala_tamil_style_step_3`: 1
+- `sambhar_masala`: 1
 - `sancocho_dominican_meat_and_vegetable_soup_step_3`: 1
 - `sancocho_dominican_meat_and_vegetable_soup_step_4`: 1
 - `sancocho_dominican_meat_and_vegetable_soup_step_5`: 1
@@ -127378,6 +130040,8 @@ Inputs by how many pruned routes miss them:
 - `scheiterhaufen_austrian_bread_pudding_step_2`: 1
 - `seafood_kebabs_with_zhoug_sauce_step_2`: 1
 - `sega_wat_spicy_ethiopian_beef_stew_step_4`: 1
+- `semolina_burger_step_2`: 1
+- `semolina_pudding_step_2`: 1
 - `sesame_shrimp_toast_step_5`: 1
 - `sev_puri_crispy_indian_snack_with_potato_step_3`: 1
 - `sharba_libya_libyan_soup_step_5`: 1
@@ -127387,6 +130051,7 @@ Inputs by how many pruned routes miss them:
 - `sizzling_sisig_filipino_pork_saute_step_4`: 1
 - `slinger_step_4`: 1
 - `slow_cooker_pork_chops_step_6`: 1
+- `smoked_salmon_chowder_step_4`: 1
 - `smore_eurasian_beef_stew_step_5`: 1
 - `smore_eurasian_beef_stew_step_6`: 1
 - `soup_joumou_haitian_beef_and_squash_soup_step_1`: 1
@@ -127396,6 +130061,8 @@ Inputs by how many pruned routes miss them:
 - `southern_fried_chicken_sliders_step_2`: 1
 - `soy_mustard_lamb_chops_step_1`: 1
 - `spaghetti_aglio_e_olio_step_2`: 1
+- `spaghetti_alla_carbonara_step_3`: 1
+- `spaghetti_alla_carbonara_step_4`: 1
 - `spaghetti_pie_step_13`: 1
 - `spaghetti_pie_step_4`: 1
 - `spaghetti_pie_step_7`: 1
@@ -127419,6 +130086,10 @@ Inputs by how many pruned routes miss them:
 - `steamed_basmati_rice_step_1`: 1
 - `steamed_buns_with_bbq_pork_step_1`: 1
 - `steamed_buns_with_bbq_pork_step_3`: 1
+- `stir_fried_seafood_with_noodles_step_2`: 1
+- `stir_fried_seafood_with_noodles_step_3`: 1
+- `stir_fried_seafood_with_noodles_step_4`: 1
+- `stir_fry_vegetables`: 1
 - `stoofvlees_flemish_beef_stew_step_4`: 1
 - `stovetop_mac_n_cheese_step_3`: 1
 - `strawberry_and_banana_smoothie_step_2`: 1
@@ -127447,6 +130118,8 @@ Inputs by how many pruned routes miss them:
 - `sylheti_doner_kebab_step_1`: 1
 - `tabbouleh_i_step_6`: 1
 - `tabbouleh_iv_step_2`: 1
+- `taboon_bread_step_1`: 1
+- `taco_seasoning_mix`: 1
 - `tahu_gejrot_step_3`: 1
 - `tamate_ka_kut_hyderabadi_tomato_curry_step_6`: 1
 - `tandoori_masala_step_1`: 1
@@ -127518,6 +130191,8 @@ Inputs by how many pruned routes miss them:
 - `ukrainian_borscht_step_6`: 1
 - `ukrainian_borscht_step_7`: 1
 - `ukrainian_borscht_step_9`: 1
+- `upma_indian_semolina_porridge_step_2`: 1
+- `upma_indian_semolina_porridge_step_3`: 1
 - `uppittu_indian_semolina_porridge_step_1`: 1
 - `uppittu_indian_semolina_porridge_step_3`: 1
 - `veggie_salad_step_3`: 1
@@ -127530,9 +130205,12 @@ Inputs by how many pruned routes miss them:
 - `waldorf_salad_step_6`: 1
 - `watermelon_cut_cut`: 1
 - `welsh_fruit_bread_bara_brith_i_step_1`: 1
+- `wheat_modak_coconut_pastries_step_3`: 1
 - `white_chocolate_cheesecake_step_5`: 1
 - `white_fish_ceviche_cebiche_de_pescado_step_2`: 1
+- `whole_wheat_flour_toast`: 1
 - `wine_braised_shortribs_step_4`: 1
+- `yataklete_kilkil_ethiopian_vegetable_stew_step_2`: 1
 - `yellow_curry_paste_step_2`: 1
 - `yellow_curry_paste_step_4`: 1
 - `yellow_saffron_food_coloring_step_3`: 1
@@ -127591,6 +130269,13 @@ Each pruned route, and what it misses:
 - `akabenz_rwandan_fried_chicken/step_5`, create_heated_mixing: `akabenz_rwandan_fried_chicken_step_4`
 - `akabenz_rwandan_fried_chicken/step_5`, pnc_thermo_plant: `akabenz_rwandan_fried_chicken_step_4`
 - `akabenz_rwandan_fried_chicken/step_6`, hexerei_drying_rack: `akabenz_rwandan_fried_chicken_step_5`
+- `albanian_fried_meatballs/step_2`, create_mixing: `feta_cheese_chop`
+- `albanian_fried_meatballs/step_2/prep_4`, fd_cutting_board: `feta_cheese`
+- `albanian_fried_meatballs/step_2/prep_4`, create_cutting: `feta_cheese`
+- `albanian_fried_meatballs/step_3`, shapeless_crafting: `albanian_fried_meatballs_step_2`
+- `albanian_fried_meatballs/step_3`, create_deploying: `albanian_fried_meatballs_step_2`
+- `albanian_fried_meatballs/step_3`, create_compacting: `albanian_fried_meatballs_step_2`
+- `albanian_fried_meatballs/step_4`, create_heated_mixing: `albanian_fried_meatballs_step_3`
 - `albanian_meat_with_walnuts/step_4`, create_mixing: `albanian_meat_with_walnuts_step_3`
 - `albanian_vegetable_pie/step_4`, smelting: `albanian_vegetable_pie_step_2`
 - `albanian_vegetable_pie/step_4`, smoking: `albanian_vegetable_pie_step_2`
@@ -127600,6 +130285,17 @@ Each pruned route, and what it misses:
 - `alfajores_latin_american_sandwich_cookies/step_5`, smoking: `alfajores_latin_american_sandwich_cookies_step_4`
 - `alfajores_latin_american_sandwich_cookies/step_6`, shapeless_crafting: `alfajores_latin_american_sandwich_cookies_step_5`
 - `alfajores_latin_american_sandwich_cookies/step_6`, create_deploying: `alfajores_latin_american_sandwich_cookies_step_5`
+- `algerian_baghrir/step_1`, create_mixing: `semolina`
+- `algerian_baghrir/step_2`, create_mixing: `algerian_baghrir_step_1`
+- `algerian_baghrir/step_3`, vd_fermenting_jar: `algerian_baghrir_step_2`
+- `algerian_baghrir/step_3`, pnc_thermo_plant: `algerian_baghrir_step_2`
+- `algerian_baghrir/step_4`, create_mixing: `algerian_baghrir_step_3`
+- `algerian_baghrir/step_6`, create_heated_mixing: `algerian_baghrir_step_4`
+- `algerian_baghrir/step_6`, pnc_thermo_plant: `algerian_baghrir_step_4`
+- `algerian_baghrir/step_7`, create_heated_mixing: `algerian_baghrir_step_6`
+- `algerian_baghrir/step_7`, pnc_thermo_plant: `algerian_baghrir_step_6`
+- `algerian_baghrir/step_8`, create_heated_mixing: `algerian_baghrir_step_7`
+- `algerian_baghrir/step_8`, pnc_thermo_plant: `algerian_baghrir_step_7`
 - `algerian_coca/step_11`, smelting: `algerian_coca_step_10`
 - `algerian_coca/step_11`, smoking: `algerian_coca_step_10`
 - `algerian_coca/step_13`, fd_cutting_board: `algerian_coca_step_12`
@@ -127708,7 +130404,8 @@ Each pruned route, and what it misses:
 - `arroz_con_gandules_puerto_rican_rice_and_pigeon_peas/step_11`, fd_cooking_pot: `arroz_con_gandules_puerto_rican_rice_and_pigeon_peas_step_10`
 - `arroz_con_gandules_puerto_rican_rice_and_pigeon_peas/step_6`, create_heated_mixing: `arroz_con_gandules_puerto_rican_rice_and_pigeon_peas_step_5`
 - `arroz_con_gandules_puerto_rican_rice_and_pigeon_peas/step_6`, fd_cooking_pot: `arroz_con_gandules_puerto_rican_rice_and_pigeon_peas_step_5`
-- `arroz_con_gandules_puerto_rican_rice_and_pigeon_peas/step_7`, create_heated_mixing: `arroz_con_gandules_puerto_rican_rice_and_pigeon_peas_step_6`, `puerto_rican_sofrito`
+- `arroz_con_gandules_puerto_rican_rice_and_pigeon_peas/step_7`, create_heated_mixing: `arroz_con_gandules_puerto_rican_rice_and_pigeon_peas_step_6`, `puerto_rican_sofrito`, `salami_fry`
+- `arroz_con_gandules_puerto_rican_rice_and_pigeon_peas/step_7/prep_20`, create_heated_mixing: `salami`
 - `arroz_con_gandules_puerto_rican_rice_and_pigeon_peas/step_8`, create_mixing: `arroz_con_gandules_puerto_rican_rice_and_pigeon_peas_step_7`
 - `arroz_con_gandules_puerto_rican_rice_and_pigeon_peas/step_8`, shapeless_crafting: `arroz_con_gandules_puerto_rican_rice_and_pigeon_peas_step_7`
 - `arroz_con_gandules_puerto_rican_rice_and_pigeon_peas/step_9`, create_mixing: `arroz_con_gandules_puerto_rican_rice_and_pigeon_peas_step_8`
@@ -127742,6 +130439,19 @@ Each pruned route, and what it misses:
 - `asian_grilled_salmon/step_3`, thermal_centrifuge: `asian_grilled_salmon_step_1`
 - `asian_grilled_salmon/step_4`, campfire: `asian_grilled_salmon_step_3`
 - `asian_grilled_salmon/step_4`, smoking: `asian_grilled_salmon_step_3`
+- `asida_bil_zibda_libyan_semolina_pudding/step_2`, thermal_smelter: `semolina_toast`
+- `asida_bil_zibda_libyan_semolina_pudding/step_2/prep_2`, smelting: `semolina`
+- `asida_bil_zibda_libyan_semolina_pudding/step_2/prep_2`, smoking: `semolina`
+- `asida_bil_zibda_libyan_semolina_pudding/step_2/prep_2`, thermal_smelter: `semolina`
+- `asida_bil_zibda_libyan_semolina_pudding/step_3`, create_mixing: `asida_bil_zibda_libyan_semolina_pudding_step_2`
+- `asida_bil_zibda_libyan_semolina_pudding/step_3`, shapeless_crafting: `asida_bil_zibda_libyan_semolina_pudding_step_2`
+- `asida_bil_zibda_libyan_semolina_pudding/step_4`, create_mixing: `asida_bil_zibda_libyan_semolina_pudding_step_3`
+- `asida_bil_zibda_libyan_semolina_pudding/step_4`, shapeless_crafting: `asida_bil_zibda_libyan_semolina_pudding_step_3`
+- `asida_bil_zibda_libyan_semolina_pudding/step_4`, hexerei_mixing_cauldron: `asida_bil_zibda_libyan_semolina_pudding_step_3`
+- `asida_bil_zibda_libyan_semolina_pudding/step_5`, create_heated_mixing: `asida_bil_zibda_libyan_semolina_pudding_step_4`
+- `asida_bil_zibda_libyan_semolina_pudding/step_5`, fd_cooking_pot: `asida_bil_zibda_libyan_semolina_pudding_step_4`
+- `asida_bil_zibda_libyan_semolina_pudding/step_8`, create_mixing: `asida_bil_zibda_libyan_semolina_pudding_step_7`
+- `asida_bil_zibda_libyan_semolina_pudding/step_8`, shapeless_crafting: `asida_bil_zibda_libyan_semolina_pudding_step_7`
 - `asparagus_with_sesame_seeds_and_soy_sauce/step_3`, create_heated_mixing: `asparagus_cut_cut`
 - `asparagus_with_sesame_seeds_and_soy_sauce/step_3`, fd_cooking_pot: `asparagus_cut_cut`
 - `asparagus_with_sesame_seeds_and_soy_sauce/step_5`, create_mixing: `asparagus_with_sesame_seeds_and_soy_sauce_step_4`
@@ -127749,6 +130459,11 @@ Each pruned route, and what it misses:
 - `asparagus_with_sesame_seeds_and_soy_sauce/step_6`, create_mixing: `asparagus_with_sesame_seeds_and_soy_sauce_step_5`
 - `asparagus_with_sesame_seeds_and_soy_sauce/step_7`, create_mixing: `asparagus_with_sesame_seeds_and_soy_sauce_step_6`
 - `asparagus_with_sesame_seeds_and_soy_sauce/step_7`, shapeless_crafting: `asparagus_with_sesame_seeds_and_soy_sauce_step_6`
+- `atama_soup/step_5`, create_heated_mixing: `smoked_fish`
+- `atama_soup/step_6`, create_heated_mixing: `atama_soup_step_5`
+- `atama_soup/step_6`, fd_cooking_pot: `atama_soup_step_5`
+- `atama_soup/step_7`, create_heated_mixing: `atama_soup_step_6`
+- `atama_soup/step_7`, fd_cooking_pot: `atama_soup_step_6`
 - `atkilt_wat_ethiopian_cabbage_and_potato_stew/step_5`, shapeless_crafting: `atkilt_wat_ethiopian_cabbage_and_potato_stew_step_4`
 - `atkilt_wat_ethiopian_cabbage_and_potato_stew/step_6`, create_heated_mixing: `atkilt_wat_ethiopian_cabbage_and_potato_stew_step_5`
 - `atkilt_wat_ethiopian_cabbage_and_potato_stew/step_6`, fd_cooking_pot: `atkilt_wat_ethiopian_cabbage_and_potato_stew_step_5`
@@ -127770,11 +130485,24 @@ Each pruned route, and what it misses:
 - `aubergine_and_onion_vegetable_pie/step_5`, fd_cooking_pot: `aubergine_and_onion_vegetable_pie_step_4`
 - `aubergine_and_onion_vegetable_pie/step_8`, smelting: `aubergine_and_onion_vegetable_pie_step_6`
 - `aubergine_and_onion_vegetable_pie/step_8`, smoking: `aubergine_and_onion_vegetable_pie_step_6`
+- `austrian_apricot_dumplings_marillenknodel/step_1`, create_mixing: `semolina`
+- `austrian_apricot_dumplings_marillenknodel/step_2`, create_mixing: `austrian_apricot_dumplings_marillenknodel_step_1`
+- `austrian_apricot_dumplings_marillenknodel/step_2`, shapeless_crafting: `austrian_apricot_dumplings_marillenknodel_step_1`
+- `austrian_apricot_dumplings_marillenknodel/step_3`, shapeless_crafting: `austrian_apricot_dumplings_marillenknodel_step_2`
+- `austrian_apricot_dumplings_marillenknodel/step_4`, create_heated_mixing: `austrian_apricot_dumplings_marillenknodel_step_3`
+- `austrian_apricot_dumplings_marillenknodel/step_4`, fd_cooking_pot: `austrian_apricot_dumplings_marillenknodel_step_3`
+- `austrian_apricot_dumplings_marillenknodel/step_6`, create_heated_mixing: `austrian_apricot_dumplings_marillenknodel_step_5`
+- `austrian_apricot_dumplings_marillenknodel/step_6`, fd_cooking_pot: `austrian_apricot_dumplings_marillenknodel_step_5`
+- `austrian_apricot_dumplings_marillenknodel/step_7`, create_heated_mixing: `austrian_apricot_dumplings_marillenknodel_step_6`
+- `austrian_apricot_dumplings_marillenknodel/step_9`, shapeless_crafting: `austrian_apricot_dumplings_marillenknodel_step_8`
+- `austrian_apricot_dumplings_marillenknodel/step_9`, create_deploying: `austrian_apricot_dumplings_marillenknodel_step_8`
 - `awaze_tibs_spicy_ethiopian_meat_stir_fry/step_6`, create_mixing: `awaze_tibs_spicy_ethiopian_meat_stir_fry_step_5`
 - `awaze_tibs_spicy_ethiopian_meat_stir_fry/step_7`, create_heated_mixing: `awaze_tibs_spicy_ethiopian_meat_stir_fry_step_6`
 - `awaze_tibs_spicy_ethiopian_meat_stir_fry/step_7`, pnc_thermo_plant: `awaze_tibs_spicy_ethiopian_meat_stir_fry_step_6`
 - `awaze_tibs_spicy_ethiopian_meat_stir_fry/step_9`, shapeless_crafting: `awaze_tibs_spicy_ethiopian_meat_stir_fry_step_8`
 - `awaze_tibs_spicy_ethiopian_meat_stir_fry/step_9`, create_deploying: `awaze_tibs_spicy_ethiopian_meat_stir_fry_step_8`
+- `bacon/smoke`, smoking: `cured_pork_belly`
+- `bacon/smoke`, campfire: `cured_pork_belly`
 - `bacon_and_egg_stuffed_tomatoes/step_2`, create_mixing: `tomato_chop_chop`
 - `bacon_and_egg_stuffed_tomatoes/step_2`, thermal_centrifuge: `tomato_chop_chop`
 - `bacon_and_egg_stuffed_tomatoes/step_3`, fd_cutting_board: `bacon_and_egg_stuffed_tomatoes_step_2`
@@ -127845,6 +130573,10 @@ Each pruned route, and what it misses:
 - `banana_cream_pie_i/step_9`, shapeless_crafting: `banana_cream_pie_i_step_8`
 - `banana_curry/step_5`, create_heated_mixing: `banana_curry_step_4`
 - `banana_curry/step_5`, fd_cooking_pot: `banana_curry_step_4`
+- `banana_nut_muffins/step_4`, create_mixing: `whole_wheat_flour`
+- `banana_nut_muffins/step_4`, shapeless_crafting: `whole_wheat_flour`
+- `banana_nut_muffins/step_5`, smelting: `banana_nut_muffins_step_4`
+- `banana_nut_muffins/step_5`, smoking: `banana_nut_muffins_step_4`
 - `banana_pudding/step_11`, shapeless_crafting: `banana_pudding_step_10`
 - `banana_pudding/step_9`, shapeless_crafting: `banana_pudding_step_8`
 - `bangladesh_curry/step_5`, create_heated_mixing: `bangladesh_curry_step_4`
@@ -127857,6 +130589,19 @@ Each pruned route, and what it misses:
 - `bangladesh_curry/step_8`, shapeless_crafting: `bangladesh_curry_step_7`
 - `bangladesh_curry/step_9`, create_mixing: `bangladesh_curry_step_8`
 - `bangladesh_curry/step_9`, shapeless_crafting: `bangladesh_curry_step_8`
+- `banoffee_pie/step_1`, create_milling: `digestive_biscuit_grind`
+- `banoffee_pie/step_1`, hexerei_pestle_and_mortar: `digestive_biscuit_grind`
+- `banoffee_pie/step_1/prep_1`, create_milling: `digestive_biscuit`
+- `banoffee_pie/step_1/prep_1`, hexerei_pestle_and_mortar: `digestive_biscuit`
+- `banoffee_pie/step_2`, create_mixing: `digestive_biscuit_grind_grind`
+- `banoffee_pie/step_2`, shapeless_crafting: `digestive_biscuit_grind_grind`
+- `banoffee_pie/step_4`, create_heated_mixing: `banoffee_pie_step_3`
+- `banoffee_pie/step_4`, fd_cooking_pot: `banoffee_pie_step_3`
+- `banoffee_pie/step_5`, create_heated_mixing: `banoffee_pie_step_4`
+- `banoffee_pie/step_5`, fd_cooking_pot: `banoffee_pie_step_4`
+- `banoffee_pie/step_6`, shapeless_crafting: `banoffee_pie_step_5`
+- `banoffee_pie/step_8`, shapeless_crafting: `banoffee_pie_step_7`
+- `banoffee_pie/step_8`, create_deploying: `banoffee_pie_step_7`
 - `barbecue_meatloaf/step_4`, create_mixing: `barbecue_meatloaf_step_3`
 - `barbecue_meatloaf/step_4`, shapeless_crafting: `barbecue_meatloaf_step_3`
 - `barbecue_meatloaf/step_5`, create_mixing: `barbecue_meatloaf_step_4`
@@ -127877,6 +130622,19 @@ Each pruned route, and what it misses:
 - `barbecued_spare_ribs/step_4`, smelting: `barbecued_spare_ribs_step_3`
 - `barbecued_spare_ribs/step_4`, smoking: `barbecued_spare_ribs_step_3`
 - `barbecued_spare_ribs/step_4`, thermal_smelter: `barbecued_spare_ribs_step_3`
+- `basbousa_egyptian_semolina_cake/step_2`, create_mixing: `semolina`
+- `basbousa_egyptian_semolina_cake/step_2`, shapeless_crafting: `semolina`
+- `basbousa_egyptian_semolina_cake/step_4`, fd_cutting_board: `basbousa_egyptian_semolina_cake_step_3`
+- `basbousa_egyptian_semolina_cake/step_4`, create_cutting: `basbousa_egyptian_semolina_cake_step_3`
+- `basbousa_egyptian_semolina_cake/step_5`, smelting: `basbousa_egyptian_semolina_cake_step_4`
+- `basbousa_egyptian_semolina_cake/step_5`, smoking: `basbousa_egyptian_semolina_cake_step_4`
+- `basbousa_egyptian_semolina_cake/step_6`, create_heated_mixing: `basbousa_egyptian_semolina_cake_step_5`
+- `basbousa_egyptian_semolina_cake/step_6`, fd_cooking_pot: `basbousa_egyptian_semolina_cake_step_5`
+- `basbousa_egyptian_semolina_cake/step_6`, hexerei_mixing_cauldron: `basbousa_egyptian_semolina_cake_step_5`
+- `basbousa_egyptian_semolina_cake/step_8`, create_mixing: `basbousa_egyptian_semolina_cake_step_7`
+- `basbousa_egyptian_semolina_cake/step_8`, create_splashing: `basbousa_egyptian_semolina_cake_step_7`
+- `basbousa_egyptian_semolina_cake/step_9`, shapeless_crafting: `basbousa_egyptian_semolina_cake_step_8`
+- `basbousa_egyptian_semolina_cake/step_9`, create_deploying: `basbousa_egyptian_semolina_cake_step_8`
 - `basic_lasagna/step_5`, smelting: `basic_lasagna_step_4`
 - `basic_lasagna/step_5`, smoking: `basic_lasagna_step_4`
 - `basic_mayonnaise/step_3`, create_mixing: `basic_mayonnaise_step_2`
@@ -127901,6 +130659,10 @@ Each pruned route, and what it misses:
 - `bean_and_rice_bake/step_5`, create_mixing: `bean_and_rice_bake_step_4`
 - `bean_and_rice_bake/step_6`, smelting: `bean_and_rice_bake_step_5`
 - `bean_and_rice_bake/step_6`, smoking: `bean_and_rice_bake_step_5`
+- `bean_semolina_burger/step_1`, create_mixing: `semolina`
+- `bean_semolina_burger/step_1`, shapeless_crafting: `semolina`
+- `bean_semolina_burger/step_2`, create_mixing: `bean_semolina_burger_step_1`
+- `bean_semolina_burger/step_5`, create_heated_mixing: `bean_semolina_burger_step_3`
 - `beef_and_guinness_casserole/step_4`, create_heated_mixing: `beef_and_guinness_casserole_step_3`
 - `beef_and_guinness_casserole/step_5`, create_heated_mixing: `beef_and_guinness_casserole_step_4`
 - `beef_and_guinness_casserole/step_6`, create_heated_mixing: `beef_and_guinness_casserole_step_5`
@@ -127981,7 +130743,7 @@ Each pruned route, and what it misses:
 - `bete_noire_flourless_chocolate_cake/step_5`, create_mixing: `bete_noire_flourless_chocolate_cake_step_4`
 - `bete_noire_flourless_chocolate_cake/step_8`, smelting: `bete_noire_flourless_chocolate_cake_step_6`
 - `bete_noire_flourless_chocolate_cake/step_8`, smoking: `bete_noire_flourless_chocolate_cake_step_6`
-- `bhel_puri_indian_puffed_rice_and_vegetable_snack/step_5`, shapeless_crafting: `bhel_puri_indian_puffed_rice_and_vegetable_snack_step_4`
+- `bhel_puri_indian_puffed_rice_and_vegetable_snack/step_5`, shapeless_crafting: `bhel_puri_indian_puffed_rice_and_vegetable_snack_step_4`, `puri_indian_fried_flatbread`
 - `bibimbap/step_14`, create_heated_mixing: `bibimbap_step_13`
 - `bibimbap/step_15`, create_mixing: `bibimbap_step_14`
 - `bibimbap/step_16`, create_heated_mixing: `bibimbap_step_15`
@@ -127998,6 +130760,11 @@ Each pruned route, and what it misses:
 - `biltong_zambian_dried_and_salted_meat/step_6`, bnc_keg: `biltong_zambian_dried_and_salted_meat_step_5`
 - `bint_as_sa_n_yemenite_layered_pastry/step_11`, smelting: `bint_as_sa_n_yemenite_layered_pastry_step_10`
 - `bint_as_sa_n_yemenite_layered_pastry/step_11`, smoking: `bint_as_sa_n_yemenite_layered_pastry_step_10`
+- `bint_as_sa_n_yemenite_layered_pastry/step_3`, create_mixing: `semolina`
+- `bint_as_sa_n_yemenite_layered_pastry/step_4`, vd_fermenting_jar: `bint_as_sa_n_yemenite_layered_pastry_step_3`
+- `bint_as_sa_n_yemenite_layered_pastry/step_4`, pnc_thermo_plant: `bint_as_sa_n_yemenite_layered_pastry_step_3`
+- `bint_as_sa_n_yemenite_layered_pastry/step_7`, vd_fermenting_jar: `bint_as_sa_n_yemenite_layered_pastry_step_5`
+- `bint_as_sa_n_yemenite_layered_pastry/step_7`, pnc_thermo_plant: `bint_as_sa_n_yemenite_layered_pastry_step_5`
 - `bison_meatballs_baked_in_hoisin_sauce_marvin/step_4`, create_heated_mixing: `bison_meatballs_baked_in_hoisin_sauce_marvin_step_3`
 - `bison_meatballs_baked_in_hoisin_sauce_marvin/step_4`, fd_cooking_pot: `bison_meatballs_baked_in_hoisin_sauce_marvin_step_3`
 - `bison_meatballs_baked_in_hoisin_sauce_marvin/step_6`, create_mixing: `bison_meatballs_baked_in_hoisin_sauce_marvin_step_5`
@@ -128023,6 +130790,13 @@ Each pruned route, and what it misses:
 - `black_forest_torte/step_17`, fd_cooking_pot: `black_forest_torte_step_16`
 - `black_pepper_beef_with_green_beans/step_4`, create_heated_mixing: `black_pepper_beef_with_green_beans_step_3`
 - `black_pepper_beef_with_green_beans/step_5`, create_heated_mixing: `black_pepper_beef_with_green_beans_step_4`
+- `blackened_sirloin/step_1`, create_mixing: `cajun_seasoning`
+- `blackened_sirloin/step_3`, campfire: `blackened_sirloin_step_1`
+- `blackened_sirloin/step_3`, smoking: `blackened_sirloin_step_1`
+- `blackened_sirloin/step_4`, campfire: `blackened_sirloin_step_3`
+- `blackened_sirloin/step_4`, smoking: `blackened_sirloin_step_3`
+- `blackened_sirloin/step_6`, fd_cutting_board: `blackened_sirloin_step_5`
+- `blackened_sirloin/step_6`, create_cutting: `blackened_sirloin_step_5`
 - `blotkake_norwegian_berries_and_cream_cake/step_5`, shapeless_crafting: `blotkake_norwegian_berries_and_cream_cake_step_4`
 - `blotkake_norwegian_berries_and_cream_cake/step_6`, shapeless_crafting: `blotkake_norwegian_berries_and_cream_cake_step_5`
 - `blotkake_norwegian_berries_and_cream_cake/step_7`, shapeless_crafting: `blotkake_norwegian_berries_and_cream_cake_step_6`
@@ -128064,6 +130838,13 @@ Each pruned route, and what it misses:
 - `bourbon_apples/step_4`, fd_cooking_pot: `bourbon_apples_step_3`
 - `braai_zambian_barbecue/step_6`, campfire: `braai_zambian_barbecue_step_5`
 - `braai_zambian_barbecue/step_6`, smoking: `braai_zambian_barbecue_step_5`
+- `bran_muffins/step_1`, create_mixing: `wheat_bran`
+- `bran_muffins/step_1`, shapeless_crafting: `wheat_bran`
+- `bran_muffins/step_2`, create_mixing: `bran_muffins_step_1`
+- `bran_muffins/step_2`, shapeless_crafting: `bran_muffins_step_1`
+- `bran_muffins/step_3`, create_mixing: `bran_muffins_step_2`
+- `bran_muffins/step_5`, smelting: `bran_muffins_step_4`
+- `bran_muffins/step_5`, smoking: `bran_muffins_step_4`
 - `brazilian_feijoada/step_10`, create_heated_mixing: `brazilian_feijoada_step_9`
 - `brazilian_feijoada/step_10`, fd_cooking_pot: `brazilian_feijoada_step_9`
 - `brazilian_feijoada/step_11`, create_mixing: `brazilian_feijoada_step_10`
@@ -128079,8 +130860,8 @@ Each pruned route, and what it misses:
 - `brazilian_feijoada/step_17`, create_heated_mixing: `brazilian_feijoada_step_16`
 - `brazilian_feijoada/step_18`, create_heated_mixing: `brazilian_feijoada_step_17`
 - `brazilian_feijoada/step_18`, pnc_thermo_plant: `brazilian_feijoada_step_17`
-- `brazilian_feijoada/step_19`, create_mixing: `brazilian_feijoada_step_18`
-- `brazilian_feijoada/step_19`, shapeless_crafting: `brazilian_feijoada_step_18`
+- `brazilian_feijoada/step_19`, create_mixing: `brazilian_feijoada_step_18`, `manioc_flour`
+- `brazilian_feijoada/step_19`, shapeless_crafting: `brazilian_feijoada_step_18`, `manioc_flour`
 - `brazilian_feijoada/step_20`, create_mixing: `brazilian_feijoada_step_19`
 - `brazilian_feijoada/step_21`, create_heated_mixing: `brazilian_feijoada_step_20`
 - `brazilian_feijoada/step_22`, create_mixing: `brazilian_feijoada_step_21`
@@ -128100,6 +130881,8 @@ Each pruned route, and what it misses:
 - `brazilian_feijoada/step_7`, fd_cooking_pot: `brazilian_feijoada_step_6`
 - `brazilian_feijoada/step_8`, create_heated_mixing: `brazilian_feijoada_step_7`
 - `brazilian_feijoada/step_8`, fd_cooking_pot: `brazilian_feijoada_step_7`
+- `bread_filled_with_potato_curry_pani_puri/step_4/prep_16`, fd_cutting_board: `puri_indian_fried_flatbread`
+- `bread_filled_with_potato_curry_pani_puri/step_4/prep_16`, create_cutting: `puri_indian_fried_flatbread`
 - `breaded_potato_wedges/step_2`, create_heated_mixing: `breaded_potato_wedges_step_1`
 - `breaded_potato_wedges/step_3`, create_heated_mixing: `breaded_potato_wedges_step_2`
 - `breaded_potato_wedges/step_3`, pnc_thermo_plant: `breaded_potato_wedges_step_2`
@@ -128121,9 +130904,17 @@ Each pruned route, and what it misses:
 - `brown_butter_toffee_chocolate_chip_cookies/step_16`, smoking: `brown_butter_toffee_chocolate_chip_cookies_step_15`
 - `brown_butter_toffee_chocolate_chip_cookies/step_17`, create_mixing: `brown_butter_toffee_chocolate_chip_cookies_step_16`
 - `brown_butter_toffee_chocolate_chip_cookies/step_17`, shapeless_crafting: `brown_butter_toffee_chocolate_chip_cookies_step_16`
+- `brown_rice_with_other_starches_and_vegetables_pandora_s_feast/step_7`, create_mixing: `nutritional_yeast`
+- `brown_rice_with_other_starches_and_vegetables_pandora_s_feast/step_7`, shapeless_crafting: `nutritional_yeast`
 - `brown_sugar_mulling_spice_mix/step_2`, create_mixing: `brown_sugar_mulling_spice_mix_step_1`
 - `brown_sugar_mulling_spice_mix/step_3`, vd_fermenting_jar: `brown_sugar_mulling_spice_mix_step_2`
 - `brown_sugar_mulling_spice_mix/step_3`, bnc_keg: `brown_sugar_mulling_spice_mix_step_2`
+- `buffalo_chicken_sandwich/step_4`, thermal_smelter: `hamburger_bun_toast`
+- `buffalo_chicken_sandwich/step_4/prep_6`, smelting: `hamburger_bun`
+- `buffalo_chicken_sandwich/step_4/prep_6`, smoking: `hamburger_bun`
+- `buffalo_chicken_sandwich/step_4/prep_6`, thermal_smelter: `hamburger_bun`
+- `buffalo_chicken_sandwich/step_5`, shapeless_crafting: `buffalo_chicken_sandwich_step_4`
+- `buffalo_chicken_sandwich/step_6`, shapeless_crafting: `buffalo_chicken_sandwich_step_5`
 - `buffalo_wings/step_4`, shapeless_crafting: `buffalo_wings_step_3`
 - `buffalo_wings/step_4`, create_deploying: `buffalo_wings_step_3`
 - `bulgarian_tripe_soup_shkembe_chorba/step_4`, create_mixing: `bulgarian_tripe_soup_shkembe_chorba_step_3`
@@ -128133,6 +130924,8 @@ Each pruned route, and what it misses:
 - `bulgarian_tripe_soup_shkembe_chorba/step_6`, thermal_centrifuge: `bulgarian_tripe_soup_shkembe_chorba_step_5`
 - `bulgarian_tripe_soup_shkembe_chorba/step_8`, create_mixing: `bulgarian_tripe_soup_shkembe_chorba_step_6`
 - `bulgarian_tripe_soup_shkembe_chorba/step_8`, shapeless_crafting: `bulgarian_tripe_soup_shkembe_chorba_step_6`
+- `bulgogi/grill`, campfire: `bulgogi_marinated_beef`
+- `bulgogi/grill`, smoking: `bulgogi_marinated_beef`
 - `bulgogi/step_2`, campfire: `bulgogi_step_1`
 - `bulgogi/step_2`, smoking: `bulgogi_step_1`
 - `bulgur_burgers/step_3`, create_heated_mixing: `bulgur_burgers_step_2`
@@ -128204,6 +130997,7 @@ Each pruned route, and what it misses:
 - `callaloo_caribbean_stewed_greens/step_7`, create_mixing: `callaloo_caribbean_stewed_greens_step_6`
 - `callaloo_caribbean_stewed_greens/step_8`, create_mixing: `callaloo_caribbean_stewed_greens_step_7`
 - `callaloo_caribbean_stewed_greens/step_8`, shapeless_crafting: `callaloo_caribbean_stewed_greens_step_7`
+- `campfire_s_mores/step_2`, shapeless_crafting: `graham_cracker`
 - `candied_yams/step_6`, smelting: `candied_yams_step_5`
 - `candied_yams/step_6`, smoking: `candied_yams_step_5`
 - `cannoli/step_2`, create_mixing: `cannoli_shells_bake`
@@ -128262,6 +131056,13 @@ Each pruned route, and what it misses:
 - `caramelized_raspberry_sauce/step_6`, create_mixing: `caramelized_raspberry_sauce_step_5`
 - `caramelized_raspberry_sauce/step_7`, shapeless_crafting: `caramelized_raspberry_sauce_step_6`
 - `caramelized_raspberry_sauce/step_7`, create_deploying: `caramelized_raspberry_sauce_step_6`
+- `carbonara_pasta/step_3`, create_heated_mixing: `pancetta_fry`
+- `carbonara_pasta/step_3/prep_2`, create_heated_mixing: `pancetta`
+- `carbonara_pasta/step_3/prep_2`, pnc_thermo_plant: `pancetta`
+- `carbonara_pasta/step_5`, create_mixing: `carbonara_pasta_step_4`
+- `carbonara_pasta/step_5`, shapeless_crafting: `carbonara_pasta_step_4`
+- `carbonara_pasta/step_6`, create_mixing: `carbonara_pasta_step_5`
+- `carbonara_pasta/step_6`, shapeless_crafting: `carbonara_pasta_step_5`
 - `carrot_cake_i/step_2`, create_mixing: `carrot_cake_i_step_1`
 - `carrot_cake_i/step_2`, shapeless_crafting: `carrot_cake_i_step_1`
 - `carrot_cake_i/step_3`, create_mixing: `carrot_cake_i_step_2`
@@ -128292,6 +131093,17 @@ Each pruned route, and what it misses:
 - `chanterelle_goulash/step_6`, fd_cooking_pot: `chanterelle_goulash_step_5`
 - `chanterelle_goulash/step_7`, create_heated_mixing: `chanterelle_goulash_step_6`
 - `chanterelle_goulash/step_8`, create_heated_mixing: `chanterelle_goulash_step_7`
+- `chapati/step_1`, create_mixing: `whole_wheat_flour`
+- `chapati/step_1`, shapeless_crafting: `whole_wheat_flour`
+- `chapati/step_1`, hexerei_mixing_cauldron: `whole_wheat_flour`
+- `chapati/step_2`, vd_fermenting_jar: `chapati_step_1`
+- `chapati/step_5`, smelting: `chapati_step_3`
+- `chapati/step_5`, smoking: `chapati_step_3`
+- `chapati/step_6`, smelting: `chapati_step_5`
+- `chapati/step_6`, smoking: `chapati_step_5`
+- `chapati/step_6`, thermal_smelter: `chapati_step_5`
+- `chapati/step_7`, shapeless_crafting: `chapati_step_6`
+- `chapati/step_7`, create_deploying: `chapati_step_6`
 - `char_broiled_sirloin_steak_with_cabernet_butter_sauce/step_6`, create_heated_mixing: `char_broiled_sirloin_steak_with_cabernet_butter_sauce_step_5`
 - `char_broiled_sirloin_steak_with_cabernet_butter_sauce/step_6`, fd_cooking_pot: `char_broiled_sirloin_steak_with_cabernet_butter_sauce_step_5`
 - `char_broiled_sirloin_steak_with_cabernet_butter_sauce/step_7`, create_mixing: `char_broiled_sirloin_steak_with_cabernet_butter_sauce_step_6`
@@ -128308,6 +131120,16 @@ Each pruned route, and what it misses:
 - `charoset_maghrebi/step_3`, hexerei_mixing_cauldron: `charoset_maghrebi_step_2`
 - `cheese_enchilada/step_5`, smelting: `cheese_enchilada_step_4`
 - `cheese_enchilada/step_5`, smoking: `cheese_enchilada_step_4`
+- `cheese_filling_for_peynirli_borek/step_1`, create_mixing: `feta_cheese`
+- `cheese_filling_for_peynirli_borek/step_1`, shapeless_crafting: `feta_cheese`
+- `cheese_filling_for_peynirli_borek/step_2`, create_mixing: `cheese_filling_for_peynirli_borek_step_1`
+- `cheese_filling_for_peynirli_borek/step_2`, shapeless_crafting: `cheese_filling_for_peynirli_borek_step_1`
+- `cheese_puffs_pao_de_queijo/step_2`, create_mixing: `manioc_flour`
+- `cheese_puffs_pao_de_queijo/step_2`, shapeless_crafting: `manioc_flour`
+- `cheese_puffs_pao_de_queijo/step_5`, create_mixing: `cheese_puffs_pao_de_queijo_step_3`
+- `cheese_puffs_pao_de_queijo/step_5`, shapeless_crafting: `cheese_puffs_pao_de_queijo_step_3`
+- `cheese_puffs_pao_de_queijo/step_7`, smelting: `cheese_puffs_pao_de_queijo_step_6`
+- `cheese_puffs_pao_de_queijo/step_7`, smoking: `cheese_puffs_pao_de_queijo_step_6`
 - `cheese_stuffed_crust_pizza/step_10`, fd_cutting_board: `cheese_stuffed_crust_pizza_step_9`
 - `cheese_stuffed_crust_pizza/step_10`, create_cutting: `cheese_stuffed_crust_pizza_step_9`
 - `cheese_stuffed_crust_pizza/step_9`, smelting: `cheese_stuffed_crust_pizza_step_8`
@@ -128318,6 +131140,19 @@ Each pruned route, and what it misses:
 - `cherry_cobbler_in_a_crock_pot/step_4`, create_deploying: `cherry_cobbler_in_a_crock_pot_step_2`
 - `cherry_cobbler_in_a_crock_pot/step_5`, create_heated_mixing: `cherry_cobbler_in_a_crock_pot_step_4`
 - `cherry_cobbler_in_a_crock_pot/step_5`, fd_cooking_pot: `cherry_cobbler_in_a_crock_pot_step_4`
+- `cherry_delight/step_1`, create_mixing: `graham_cracker_grind`
+- `cherry_delight/step_1`, shapeless_crafting: `graham_cracker_grind`
+- `cherry_delight/step_1/prep_1`, create_milling: `graham_cracker`
+- `cherry_delight/step_1/prep_1`, hexerei_pestle_and_mortar: `graham_cracker`
+- `cherry_delight/step_2`, smelting: `cherry_delight_step_1`
+- `cherry_delight/step_2`, smoking: `cherry_delight_step_1`
+- `cherry_delight/step_3`, create_mixing: `cherry_delight_step_2`
+- `cherry_delight/step_3`, shapeless_crafting: `cherry_delight_step_2`
+- `cherry_delight/step_4`, create_mixing: `cherry_delight_step_3`
+- `cherry_delight/step_4`, shapeless_crafting: `cherry_delight_step_3`
+- `cherry_delight/step_6`, shapeless_crafting: `cherry_delight_step_4`
+- `cherry_soda/step_4`, create_mixing: `carbonated_water`
+- `cherry_soda/step_4`, shapeless_crafting: `carbonated_water`
 - `chess_pie/step_6`, smelting: `chess_pie_step_5`
 - `chess_pie/step_6`, smoking: `chess_pie_step_5`
 - `chicago_sirloin_with_cabernet_balsamic_reduction/step_6`, create_heated_mixing: `chicago_sirloin_with_cabernet_balsamic_reduction_step_5`
@@ -128371,6 +131206,7 @@ Each pruned route, and what it misses:
 - `chicken_fried_steak/step_8`, fd_cooking_pot: `chicken_fried_steak_step_7`
 - `chicken_fried_steak/step_8`, hexerei_mixing_cauldron: `chicken_fried_steak_step_7`
 - `chicken_gyros/step_4`, shapeless_crafting: `tzatziki`
+- `chicken_jerky/dry`, hexerei_drying_rack: `salted_chicken_strips`
 - `chicken_parmesan/step_10`, shapeless_crafting: `chicken_parmesan_step_9`
 - `chicken_parmesan/step_10`, create_deploying: `chicken_parmesan_step_9`
 - `chicken_parmesan/step_11`, smelting: `chicken_parmesan_step_10`
@@ -128525,6 +131361,14 @@ Each pruned route, and what it misses:
 - `choripan_argentine_chorizo_sandwich/step_5`, shapeless_crafting: `choripan_argentine_chorizo_sandwich_step_4`
 - `choripan_argentine_chorizo_sandwich/step_5`, create_deploying: `choripan_argentine_chorizo_sandwich_step_4`
 - `choripan_argentine_chorizo_sandwich/step_6`, shapeless_crafting: `choripan_argentine_chorizo_sandwich_step_5`
+- `choucroute_sauerkraut_with_meat_and_potatoes/step_4`, create_mixing: `smoked_pork_slices`
+- `choucroute_sauerkraut_with_meat_and_potatoes/step_4`, shapeless_crafting: `smoked_pork_slices`
+- `choucroute_sauerkraut_with_meat_and_potatoes/step_5`, create_heated_mixing: `choucroute_sauerkraut_with_meat_and_potatoes_step_4`
+- `choucroute_sauerkraut_with_meat_and_potatoes/step_5`, fd_cooking_pot: `choucroute_sauerkraut_with_meat_and_potatoes_step_4`
+- `choucroute_sauerkraut_with_meat_and_potatoes/step_6`, create_heated_mixing: `choucroute_sauerkraut_with_meat_and_potatoes_step_5`
+- `choucroute_sauerkraut_with_meat_and_potatoes/step_6`, fd_cooking_pot: `choucroute_sauerkraut_with_meat_and_potatoes_step_5`
+- `choucroute_sauerkraut_with_meat_and_potatoes/step_7`, create_heated_mixing: `choucroute_sauerkraut_with_meat_and_potatoes_step_6`
+- `choucroute_sauerkraut_with_meat_and_potatoes/step_7`, fd_cooking_pot: `choucroute_sauerkraut_with_meat_and_potatoes_step_6`
 - `chow_mein/step_4`, create_heated_mixing: `chow_mein_step_3`
 - `chow_mein/step_5`, create_heated_mixing: `chow_mein_step_4`
 - `chow_mein/step_5`, pnc_thermo_plant: `chow_mein_step_4`
@@ -128568,6 +131412,8 @@ Each pruned route, and what it misses:
 - `cinnamon_chicken/step_7`, fd_cooking_pot: `cinnamon_chicken_step_6`
 - `cinnamon_chicken/step_8`, create_heated_mixing: `cinnamon_chicken_step_7`
 - `cinnamon_chicken/step_8`, fd_cooking_pot: `cinnamon_chicken_step_7`
+- `cinnamon_rolls/bake`, smelting: `shaped_cinnamon_rolls`
+- `cinnamon_rolls/bake`, smoking: `shaped_cinnamon_rolls`
 - `cinnamon_rolls/step_10`, smelting: `cinnamon_rolls_step_9`
 - `cinnamon_rolls/step_10`, smoking: `cinnamon_rolls_step_9`
 - `cinnamon_rolls/step_9`, fd_cutting_board: `cinnamon_rolls_step_8`
@@ -128578,6 +131424,8 @@ Each pruned route, and what it misses:
 - `cioppino_italian_seafood_stew/step_8`, create_heated_mixing: `cioppino_italian_seafood_stew_step_7`
 - `cioppino_italian_seafood_stew/step_9`, create_mixing: `cioppino_italian_seafood_stew_step_8`
 - `cioppino_italian_seafood_stew/step_9`, thermal_centrifuge: `cioppino_italian_seafood_stew_step_8`
+- `citrus_energy_drink/step_4`, create_mixing: `carbonated_water`
+- `citrus_energy_drink/step_4`, shapeless_crafting: `carbonated_water`
 - `clams_steamed_in_aluminum_foil/step_6`, smelting: `clams_steamed_in_aluminum_foil_step_4`
 - `clams_steamed_in_aluminum_foil/step_6`, smoking: `clams_steamed_in_aluminum_foil_step_4`
 - `classic_pot_roast/step_7`, smelting: `classic_pot_roast_step_6`
@@ -128616,6 +131464,21 @@ Each pruned route, and what it misses:
 - `coconut_rice_nasi_lemak/step_3`, create_heated_mixing: `coconut_rice_nasi_lemak_step_2`
 - `coconut_rice_nasi_lemak/step_4`, create_heated_mixing: `coconut_rice_nasi_lemak_step_3`
 - `coconut_rice_nasi_lemak/step_4`, fd_cooking_pot: `coconut_rice_nasi_lemak_step_3`
+- `cocoyam_fufu/step_2`, create_mixing: `manioc_flour`
+- `cocoyam_fufu/step_2`, shapeless_crafting: `manioc_flour`
+- `cod_olive_oil_and_cream_sauce_brandade_de_morue/step_1`, create_mixing: `salt_cod_soak`
+- `cod_olive_oil_and_cream_sauce_brandade_de_morue/step_1`, create_splashing: `salt_cod_soak`
+- `cod_olive_oil_and_cream_sauce_brandade_de_morue/step_1/prep_1`, create_mixing: `salt_cod`
+- `cod_olive_oil_and_cream_sauce_brandade_de_morue/step_2`, create_mixing: `salt_cod_soak_soak`
+- `cod_olive_oil_and_cream_sauce_brandade_de_morue/step_2`, create_splashing: `salt_cod_soak_soak`
+- `cod_olive_oil_and_cream_sauce_brandade_de_morue/step_3`, create_heated_mixing: `salt_cod_soak_soak_soak`
+- `cod_olive_oil_and_cream_sauce_brandade_de_morue/step_3`, fd_cooking_pot: `salt_cod_soak_soak_soak`
+- `cod_olive_oil_and_cream_sauce_brandade_de_morue/step_4`, create_mixing: `salt_cod_soak_soak_soak_simmer`
+- `cod_olive_oil_and_cream_sauce_brandade_de_morue/step_4`, thermal_centrifuge: `salt_cod_soak_soak_soak_simmer`
+- `cod_olive_oil_and_cream_sauce_brandade_de_morue/step_5`, create_heated_mixing: `cod_olive_oil_and_cream_sauce_brandade_de_morue_step_4`
+- `cod_olive_oil_and_cream_sauce_brandade_de_morue/step_6`, create_mixing: `cod_olive_oil_and_cream_sauce_brandade_de_morue_step_5`
+- `cod_olive_oil_and_cream_sauce_brandade_de_morue/step_7`, create_mixing: `cod_olive_oil_and_cream_sauce_brandade_de_morue_step_6`
+- `cod_olive_oil_and_cream_sauce_brandade_de_morue/step_8`, create_mixing: `cod_olive_oil_and_cream_sauce_brandade_de_morue_step_7`
 - `coffee_cake/step_5`, smelting: `coffee_cake_step_4`
 - `coffee_cake/step_5`, smoking: `coffee_cake_step_4`
 - `cognac_beef_stew/step_2`, create_heated_mixing: `cognac_beef_stew_step_1`
@@ -128632,14 +131495,18 @@ Each pruned route, and what it misses:
 - `cola_i/step_5`, fd_cooking_pot: `cola_i_step_4`
 - `cola_i/step_7`, create_heated_mixing: `cola_i_step_6`
 - `cola_i/step_7`, fd_cooking_pot: `cola_i_step_6`
-- `cola_i/step_8`, create_mixing: `cola_i_step_7`
-- `cola_i/step_8`, shapeless_crafting: `cola_i_step_7`
+- `cola_i/step_8`, create_mixing: `carbonated_water`, `cola_i_step_7`
+- `cola_i/step_8`, shapeless_crafting: `carbonated_water`, `cola_i_step_7`
+- `cola_ii/step_3`, create_mixing: `carbonated_water`
+- `cola_ii/step_3`, shapeless_crafting: `carbonated_water`
 - `cola_iii/step_2`, create_heated_mixing: `cola_iii_step_1`
 - `cola_iii/step_2`, fd_cooking_pot: `cola_iii_step_1`
 - `cola_iii/step_2`, hexerei_mixing_cauldron: `cola_iii_step_1`
 - `cola_iii/step_3`, create_mixing: `cola_iii_step_2`
 - `cola_iii/step_3`, shapeless_crafting: `cola_iii_step_2`
-- `cola_iii/step_4`, create_mixing: `cola_iii_step_3`
+- `cola_iii/step_4`, create_mixing: `carbonated_water`, `cola_iii_step_3`
+- `cola_v/step_4`, create_mixing: `carbonated_water`
+- `cola_v/step_4`, shapeless_crafting: `carbonated_water`
 - `coleslaw_i/step_3`, create_mixing: `coleslaw_i_step_2`
 - `coleslaw_i/step_3`, shapeless_crafting: `coleslaw_i_step_2`
 - `coleslaw_i/step_4`, vd_fermenting_jar: `coleslaw_i_step_3`
@@ -128652,10 +131519,28 @@ Each pruned route, and what it misses:
 - `coq_au_vin_i/step_5`, shapeless_crafting: `coq_au_vin_i_step_4`
 - `coq_au_vin_i/step_6`, create_heated_mixing: `coq_au_vin_i_step_5`
 - `coq_au_vin_i/step_6`, fd_cooking_pot: `coq_au_vin_i_step_5`
+- `coq_au_vin_ii/step_3`, create_heated_mixing: `salt_pork`
+- `coq_au_vin_ii/step_4`, create_heated_mixing: `coq_au_vin_ii_step_3`
 - `coq_au_vin_ii/step_7`, create_heated_mixing: `coq_au_vin_ii_step_5`
 - `coq_au_vin_ii/step_7`, fd_cooking_pot: `coq_au_vin_ii_step_5`
 - `coq_au_vin_ii/step_8`, create_mixing: `coq_au_vin_ii_step_7`
 - `coq_au_vin_ii/step_8`, thermal_centrifuge: `coq_au_vin_ii_step_7`
+- `coq_au_vin_iii/step_10`, shapeless_crafting: `coq_au_vin_iii_step_9`
+- `coq_au_vin_iii/step_10`, create_deploying: `coq_au_vin_iii_step_9`
+- `coq_au_vin_iii/step_2`, create_heated_mixing: `pancetta_cut`
+- `coq_au_vin_iii/step_2/prep_6`, fd_cutting_board: `pancetta`
+- `coq_au_vin_iii/step_2/prep_6`, create_cutting: `pancetta`
+- `coq_au_vin_iii/step_3`, create_heated_mixing: `coq_au_vin_iii_step_2`
+- `coq_au_vin_iii/step_4`, create_heated_mixing: `coq_au_vin_iii_step_3`
+- `coq_au_vin_iii/step_5`, create_heated_mixing: `coq_au_vin_iii_step_4`
+- `coq_au_vin_iii/step_7`, create_heated_mixing: `coq_au_vin_iii_step_6`
+- `coq_au_vin_iii/step_8`, create_heated_mixing: `coq_au_vin_iii_step_7`
+- `coq_au_vin_iii/step_9`, smelting: `coq_au_vin_iii_step_8`
+- `coq_au_vin_iii/step_9`, smoking: `coq_au_vin_iii_step_8`
+- `corn_bread_fish/step_4`, shapeless_crafting: `italian_dressing`
+- `corn_bread_fish/step_5`, shapeless_crafting: `corn_bread_fish_step_4`
+- `corn_bread_fish/step_6`, smelting: `corn_bread_fish_step_5`
+- `corn_bread_fish/step_6`, smoking: `corn_bread_fish_step_5`
 - `corn_chowder_ii/step_2`, create_mixing: `corn_chowder_ii_step_1`
 - `corn_chowder_ii/step_3`, create_heated_mixing: `corn_chowder_ii_step_2`
 - `corn_chowder_ii/step_3`, fd_cooking_pot: `corn_chowder_ii_step_2`
@@ -128693,12 +131578,17 @@ Each pruned route, and what it misses:
 - `country_fried_chicken/step_3`, create_heated_mixing: `country_fried_chicken_step_2`
 - `country_fried_chicken/step_6`, create_heated_mixing: `country_fried_chicken_step_5`
 - `country_fried_chicken/step_7`, create_heated_mixing: `country_fried_chicken_step_6`
+- `couscous/dry`, hexerei_drying_rack: `couscous_pellets`
+- `couscous/knead`, create_mixing: `semolina`
+- `couscous/knead`, shapeless_crafting: `semolina`
+- `couscous/knead`, hexerei_mixing_cauldron: `semolina`
 - `crab_and_corn_salad/step_2`, shapeless_crafting: `crab_and_corn_salad_step_1`
 - `crab_and_corn_salad/step_4`, create_mixing: `crab_and_corn_salad_step_3`
 - `crab_and_corn_salad/step_4`, shapeless_crafting: `crab_and_corn_salad_step_3`
 - `crab_quesadillas_with_mango_salsa/step_10`, fd_cutting_board: `crab_quesadillas_with_mango_salsa_step_9`
 - `crab_quesadillas_with_mango_salsa/step_10`, create_cutting: `crab_quesadillas_with_mango_salsa_step_9`
 - `crab_quesadillas_with_mango_salsa/step_6`, shapeless_crafting: `homemade_wheat_tortillas`
+- `crab_quesadillas_with_mango_salsa/step_6`, hexerei_mixing_cauldron: `homemade_wheat_tortillas`
 - `crab_quesadillas_with_mango_salsa/step_7`, shapeless_crafting: `crab_quesadillas_with_mango_salsa_step_6`
 - `crab_quesadillas_with_mango_salsa/step_7`, create_deploying: `crab_quesadillas_with_mango_salsa_step_6`
 - `crab_quesadillas_with_mango_salsa/step_9`, smelting: `crab_quesadillas_with_mango_salsa_step_8`
@@ -128707,8 +131597,17 @@ Each pruned route, and what it misses:
 - `cranberry_orange_squares/step_10`, create_cutting: `cranberry_orange_squares_step_9`
 - `cream_cheese_wontons/step_5`, create_heated_mixing: `cream_cheese_wontons_step_4`
 - `cream_cheese_wontons/step_5`, pnc_thermo_plant: `cream_cheese_wontons_step_4`
+- `cream_soda/step_3`, create_mixing: `carbonated_water`
+- `cream_soda/step_3`, shapeless_crafting: `carbonated_water`
 - `creamy_aioli_salsa/step_3`, create_mixing: `creamy_aioli_salsa_step_2`
 - `creamy_aioli_salsa/step_4`, create_mixing: `creamy_aioli_salsa_step_3`
+- `crispy_chicken/step_2`, shapeless_crafting: `italian_dressing`
+- `crispy_chicken/step_3`, create_mixing: `crispy_chicken_step_2`
+- `crispy_chicken/step_3`, create_splashing: `crispy_chicken_step_2`
+- `crispy_chicken/step_4`, shapeless_crafting: `crispy_chicken_step_3`
+- `crispy_chicken/step_4`, create_deploying: `crispy_chicken_step_3`
+- `crispy_chicken/step_7`, smelting: `crispy_chicken_step_5`
+- `crispy_chicken/step_7`, smoking: `crispy_chicken_step_5`
 - `crispy_roast_potatoes/step_5`, create_mixing: `crispy_roast_potatoes_step_4`
 - `crispy_roast_potatoes/step_5`, shapeless_crafting: `crispy_roast_potatoes_step_4`
 - `crispy_roast_potatoes/step_6`, smelting: `crispy_roast_potatoes_step_5`
@@ -128742,7 +131641,7 @@ Each pruned route, and what it misses:
 - `crunchy_baked_chicken/step_3`, shapeless_crafting: `crunchy_baked_chicken_step_2`
 - `crunchy_baked_chicken/step_6`, smelting: `crunchy_baked_chicken_step_4`
 - `crunchy_baked_chicken/step_6`, smoking: `crunchy_baked_chicken_step_4`
-- `cuban_sandwich_ii/step_5`, shapeless_crafting: `cuban_sandwich_ii_step_4`
+- `cuban_sandwich_ii/step_5`, shapeless_crafting: `cuban_sandwich_ii_step_4`, `salami`
 - `cuban_sandwich_ii/step_7`, campfire: `cuban_sandwich_ii_step_6`
 - `cuban_sandwich_ii/step_7`, smoking: `cuban_sandwich_ii_step_6`
 - `cuban_sandwich_ii/step_8`, campfire: `cuban_sandwich_ii_step_7`
@@ -128757,6 +131656,15 @@ Each pruned route, and what it misses:
 - `cucumber_and_tomato_salad/step_4`, shapeless_crafting: `cucumber_and_tomato_salad_step_3`
 - `cucumber_and_tomato_salad/step_4`, hexerei_mixing_cauldron: `cucumber_and_tomato_salad_step_3`
 - `cucumber_and_tomato_salad/step_5`, create_mixing: `cucumber_and_tomato_salad_step_4`
+- `cucumber_sprout_sandwich/step_1`, shapeless_crafting: `whole_wheat_flour`
+- `cucumber_sprout_sandwich/step_1`, create_deploying: `whole_wheat_flour`
+- `cucumber_sprout_sandwich/step_2`, shapeless_crafting: `cucumber_sprout_sandwich_step_1`
+- `cucumber_sprout_sandwich/step_3`, create_mixing: `cucumber_sprout_sandwich_step_2`
+- `cucumber_sprout_sandwich/step_4`, shapeless_crafting: `cucumber_sprout_sandwich_step_3`
+- `cucumber_sprout_sandwich/step_5`, shapeless_crafting: `cucumber_sprout_sandwich_step_4`
+- `cucumber_sprout_sandwich/step_5`, create_deploying: `cucumber_sprout_sandwich_step_4`
+- `cucumber_sprout_sandwich/step_6`, create_mixing: `cucumber_sprout_sandwich_step_5`
+- `cucumber_sprout_sandwich/step_6`, shapeless_crafting: `cucumber_sprout_sandwich_step_5`
 - `curried_chiles_mirchi_ka_salan/step_2`, create_heated_mixing: `curried_chiles_mirchi_ka_salan_step_1`
 - `curried_chiles_mirchi_ka_salan/step_3`, create_heated_mixing: `curried_chiles_mirchi_ka_salan_step_2`
 - `curried_chiles_mirchi_ka_salan/step_4`, create_mixing: `curried_chiles_mirchi_ka_salan_step_3`
@@ -128774,7 +131682,7 @@ Each pruned route, and what it misses:
 - `curry_fried_rice/step_3`, create_mixing: `steamed_basmati_rice`
 - `curry_fried_rice/step_4`, create_mixing: `curry_fried_rice_step_3`
 - `curry_fried_rice/step_4`, shapeless_crafting: `curry_fried_rice_step_3`
-- `cypriot_salad/step_2`, shapeless_crafting: `cypriot_salad_step_1`
+- `cypriot_salad/step_2`, shapeless_crafting: `cypriot_salad_step_1`, `feta_cheese_chop`
 - `cypriot_salad/step_3`, create_mixing: `cypriot_salad_step_2`
 - `cypriot_salad/step_3`, shapeless_crafting: `cypriot_salad_step_2`
 - `dabeli_potato_stuffed_buns_with_chutney/step_5`, shapeless_crafting: `dabeli_potato_stuffed_buns_with_chutney_step_4`
@@ -128791,6 +131699,8 @@ Each pruned route, and what it misses:
 - `dabo_kolo_ethiopian_spiced_bread_snacks/step_8`, thermal_centrifuge: `dabo_kolo_ethiopian_spiced_bread_snacks_step_7`
 - `daniel_webster_s_chowder/step_4`, create_heated_mixing: `daniel_webster_s_chowder_step_3`
 - `daniel_webster_s_chowder/step_4`, fd_cooking_pot: `daniel_webster_s_chowder_step_3`
+- `date_soda/step_1`, create_mixing: `carbonated_water`
+- `date_soda/step_1`, shapeless_crafting: `carbonated_water`
 - `deep_fried_chickpea_dough_balls_chyueeam/step_5`, create_mixing: `deep_fried_chickpea_dough_balls_chyueeam_step_4`
 - `deep_fried_chickpea_dough_balls_chyueeam/step_5`, shapeless_crafting: `deep_fried_chickpea_dough_balls_chyueeam_step_4`
 - `deep_fried_chickpea_dough_balls_chyueeam/step_8`, create_heated_mixing: `deep_fried_chickpea_dough_balls_chyueeam_step_6`
@@ -128812,6 +131722,8 @@ Each pruned route, and what it misses:
 - `dhokla_steamed_black_gram_bread/step_12`, shapeless_crafting: `dhokla_steamed_black_gram_bread_step_11`
 - `dhokla_steamed_black_gram_bread/step_9`, create_mixing: `dhokla_steamed_black_gram_bread_step_6`
 - `dhokla_steamed_black_gram_bread/step_9`, thermal_centrifuge: `dhokla_steamed_black_gram_bread_step_6`
+- `digestive_biscuit/mix_dough`, create_mixing: `whole_wheat_flour`
+- `digestive_biscuit/mix_dough`, shapeless_crafting: `whole_wheat_flour`
 - `dill_cucumber_salad/step_2`, shapeless_crafting: `dill_cucumber_salad_step_1`
 - `diri_na_njar_chadian_spiced_rice_with_vegetables/step_10`, create_mixing: `diri_na_njar_chadian_spiced_rice_with_vegetables_step_9`
 - `diri_na_njar_chadian_spiced_rice_with_vegetables/step_7`, create_mixing: `diri_na_njar_chadian_spiced_rice_with_vegetables_step_6`
@@ -128830,13 +131742,19 @@ Each pruned route, and what it misses:
 - `dolma_stuffed_grape_leaves/step_4`, create_heated_mixing: `dolma_stuffed_grape_leaves_step_3`
 - `dolma_stuffed_grape_leaves/step_4`, fd_cooking_pot: `dolma_stuffed_grape_leaves_step_3`
 - `dolma_stuffed_grape_leaves/step_6`, create_mixing: `dolma_stuffed_grape_leaves_step_5`
-- `doro_dabo_ethiopian_chicken_with_spiced_bread/step_12`, create_mixing: `berbere`
+- `doro_dabo_ethiopian_chicken_with_spiced_bread/step_10`, smelting: `doro_dabo_ethiopian_chicken_with_spiced_bread_step_9`
+- `doro_dabo_ethiopian_chicken_with_spiced_bread/step_10`, smoking: `doro_dabo_ethiopian_chicken_with_spiced_bread_step_9`
+- `doro_dabo_ethiopian_chicken_with_spiced_bread/step_12`, create_mixing: `berbere`, `doro_dabo_ethiopian_chicken_with_spiced_bread_step_11`, `niter_kibbeh`
 - `doro_dabo_ethiopian_chicken_with_spiced_bread/step_13`, vd_fermenting_jar: `doro_dabo_ethiopian_chicken_with_spiced_bread_step_12`
 - `doro_dabo_ethiopian_chicken_with_spiced_bread/step_14`, create_heated_mixing: `doro_dabo_ethiopian_chicken_with_spiced_bread_step_13`
 - `doro_dabo_ethiopian_chicken_with_spiced_bread/step_14`, pnc_thermo_plant: `doro_dabo_ethiopian_chicken_with_spiced_bread_step_13`
 - `doro_dabo_ethiopian_chicken_with_spiced_bread/step_15`, create_heated_mixing: `doro_dabo_ethiopian_chicken_with_spiced_bread_step_14`
 - `doro_dabo_ethiopian_chicken_with_spiced_bread/step_15`, fd_cooking_pot: `doro_dabo_ethiopian_chicken_with_spiced_bread_step_14`
 - `doro_dabo_ethiopian_chicken_with_spiced_bread/step_15`, hexerei_mixing_cauldron: `doro_dabo_ethiopian_chicken_with_spiced_bread_step_14`
+- `doro_dabo_ethiopian_chicken_with_spiced_bread/step_2`, create_mixing: `niter_kibbeh`
+- `doro_dabo_ethiopian_chicken_with_spiced_bread/step_4`, vd_fermenting_jar: `doro_dabo_ethiopian_chicken_with_spiced_bread_step_3`
+- `doro_dabo_ethiopian_chicken_with_spiced_bread/step_4`, pnc_thermo_plant: `doro_dabo_ethiopian_chicken_with_spiced_bread_step_3`
+- `doro_dabo_ethiopian_chicken_with_spiced_bread/step_9`, shapeless_crafting: `doro_dabo_ethiopian_chicken_with_spiced_bread_step_8`
 - `doro_tibs_ethiopian_sauteed_chicken/step_3`, create_heated_mixing: `doro_tibs_ethiopian_sauteed_chicken_step_1`
 - `doro_tibs_ethiopian_sauteed_chicken/step_4`, create_heated_mixing: `doro_tibs_ethiopian_sauteed_chicken_step_3`
 - `doro_tibs_ethiopian_sauteed_chicken/step_4`, pnc_thermo_plant: `doro_tibs_ethiopian_sauteed_chicken_step_3`
@@ -128860,6 +131778,7 @@ Each pruned route, and what it misses:
 - `dorowot_fitfit_ethiopian_chicken_stew_salad/step_6`, thermal_centrifuge: `dorowot_fitfit_ethiopian_chicken_stew_salad_step_5`
 - `dorowot_fitfit_ethiopian_chicken_stew_salad/step_8`, shapeless_crafting: `dorowot_fitfit_ethiopian_chicken_stew_salad_step_7`
 - `dorowot_fitfit_ethiopian_chicken_stew_salad/step_9`, shapeless_crafting: `dorowot_fitfit_ethiopian_chicken_stew_salad_step_8`
+- `double_hamburgers/step_6`, shapeless_crafting: `hamburger_bun`
 - `dovga_azerbaijani_yogurt_soup/step_4`, create_heated_mixing: `mint_chop`
 - `dovga_azerbaijani_yogurt_soup/step_5`, create_mixing: `dovga_azerbaijani_yogurt_soup_step_4`
 - `dovga_azerbaijani_yogurt_soup/step_5`, shapeless_crafting: `dovga_azerbaijani_yogurt_soup_step_4`
@@ -128906,6 +131825,8 @@ Each pruned route, and what it misses:
 - `dutch_oven_beans/step_5`, create_heated_mixing: `dutch_oven_beans_step_4`
 - `dutch_oven_beans/step_5`, fd_cooking_pot: `dutch_oven_beans_step_4`
 - `dutch_oven_beans/step_6`, create_mixing: `dutch_oven_beans_step_5`
+- `dynamite_shrimp/step_1`, create_mixing: `cajun_seasoning`
+- `dynamite_shrimp/step_1`, shapeless_crafting: `cajun_seasoning`
 - `dynamite_shrimp/step_3`, create_heated_mixing: `dynamite_shrimp_step_2`
 - `dynamite_shrimp/step_3`, pnc_thermo_plant: `dynamite_shrimp_step_2`
 - `east_african_beef_pilaf/step_10`, create_heated_mixing: `east_african_beef_pilaf_step_9`
@@ -128947,6 +131868,16 @@ Each pruned route, and what it misses:
 - `eel_chowder/step_7`, thermal_centrifuge: `eel_chowder_step_6`
 - `egg_casserole/step_6`, smelting: `egg_casserole_step_5`
 - `egg_casserole/step_6`, smoking: `egg_casserole_step_5`
+- `egg_cheese_and_phyllo_casserole_banitsa/step_1`, create_mixing: `feta_cheese`
+- `egg_cheese_and_phyllo_casserole_banitsa/step_2`, shapeless_crafting: `egg_cheese_and_phyllo_casserole_banitsa_step_1`
+- `egg_cheese_and_phyllo_casserole_banitsa/step_4`, fd_cutting_board: `egg_cheese_and_phyllo_casserole_banitsa_step_3`
+- `egg_cheese_and_phyllo_casserole_banitsa/step_4`, create_cutting: `egg_cheese_and_phyllo_casserole_banitsa_step_3`
+- `egg_cheese_and_phyllo_casserole_banitsa/step_5`, create_mixing: `carbonated_water`, `egg_cheese_and_phyllo_casserole_banitsa_step_4`
+- `egg_cheese_and_phyllo_casserole_banitsa/step_5`, shapeless_crafting: `carbonated_water`, `egg_cheese_and_phyllo_casserole_banitsa_step_4`
+- `egg_cheese_and_phyllo_casserole_banitsa/step_6`, create_mixing: `egg_cheese_and_phyllo_casserole_banitsa_step_5`
+- `egg_cheese_and_phyllo_casserole_banitsa/step_6`, create_splashing: `egg_cheese_and_phyllo_casserole_banitsa_step_5`
+- `egg_cheese_and_phyllo_casserole_banitsa/step_7`, smelting: `egg_cheese_and_phyllo_casserole_banitsa_step_6`
+- `egg_cheese_and_phyllo_casserole_banitsa/step_7`, smoking: `egg_cheese_and_phyllo_casserole_banitsa_step_6`
 - `egg_noodles_iii/step_3`, create_mixing: `egg_noodles_iii_step_2`
 - `egg_noodles_iii/step_3`, shapeless_crafting: `egg_noodles_iii_step_2`
 - `egg_noodles_iii/step_3`, hexerei_mixing_cauldron: `egg_noodles_iii_step_2`
@@ -128956,6 +131887,7 @@ Each pruned route, and what it misses:
 - `egg_pie/step_5`, hexerei_mixing_cauldron: `egg_pie_step_4`
 - `egg_pie/step_7`, shapeless_crafting: `egg_pie_step_5`
 - `egg_pie/step_7`, create_deploying: `egg_pie_step_5`
+- `egg_pie/step_7`, hexerei_mixing_cauldron: `egg_pie_step_5`
 - `egg_pie/step_8`, smelting: `egg_pie_step_7`
 - `egg_pie/step_8`, smoking: `egg_pie_step_7`
 - `egg_rice/step_5`, create_mixing: `egg_rice_step_4`
@@ -128978,6 +131910,8 @@ Each pruned route, and what it misses:
 - `egg_roll/step_5`, create_mixing: `egg_roll_step_4`
 - `egg_roll/step_7`, create_mixing: `egg_roll_step_6`
 - `egg_roll/step_9`, create_heated_mixing: `egg_roll_step_7`
+- `egg_soda/step_3`, create_mixing: `carbonated_water`
+- `egg_soda/step_3`, shapeless_crafting: `carbonated_water`
 - `egyptian_fish_tagine_samak_tajine/step_4`, create_mixing: `egyptian_fish_tagine_samak_tajine_step_3`
 - `egyptian_fish_tagine_samak_tajine/step_4`, shapeless_crafting: `egyptian_fish_tagine_samak_tajine_step_3`
 - `egyptian_fish_tagine_samak_tajine/step_5`, create_mixing: `egyptian_fish_tagine_samak_tajine_step_4`
@@ -129057,6 +131991,7 @@ Each pruned route, and what it misses:
 - `ekpang_nkukwo/step_14`, fd_cooking_pot: `ekpang_nkukwo_step_13`
 - `ekpang_nkukwo/step_6`, shapeless_crafting: `ekpang_nkukwo_step_4`
 - `ekpang_nkukwo/step_6`, create_deploying: `ekpang_nkukwo_step_4`
+- `ekpang_nkukwo/step_6`, hexerei_mixing_cauldron: `ekpang_nkukwo_step_4`
 - `ekpang_nkukwo/step_7`, shapeless_crafting: `ekpang_nkukwo_step_6`
 - `ekpang_nkukwo/step_8`, create_mixing: `ekpang_nkukwo_step_7`
 - `ekpang_nkukwo/step_9`, create_heated_mixing: `ekpang_nkukwo_step_8`
@@ -129123,6 +132058,7 @@ Each pruned route, and what it misses:
 - `firfir_ethiopian_spicy_scrambled_eggs_with_injera/step_9`, shapeless_crafting: `firfir_ethiopian_spicy_scrambled_eggs_with_injera_step_8`
 - `fish_biryani/step_10`, create_heated_mixing: `fish_biryani_step_8`
 - `fish_biryani/step_10`, fd_cooking_pot: `fish_biryani_step_8`
+- `fish_jerky/dry`, hexerei_drying_rack: `salted_fish_strips`
 - `fish_pie/step_2`, create_heated_mixing: `fish_pie_step_1`
 - `fish_pie/step_2`, fd_cooking_pot: `fish_pie_step_1`
 - `fish_pie/step_3`, create_mixing: `fish_pie_step_2`
@@ -129134,6 +132070,16 @@ Each pruned route, and what it misses:
 - `fish_pie/step_8`, shapeless_crafting: `fish_pie_step_6`
 - `fish_pie/step_9`, smelting: `fish_pie_step_8`
 - `fish_pie/step_9`, smoking: `fish_pie_step_8`
+- `fishball/boil`, create_heated_mixing: `fish_paste`
+- `fishball/boil`, fd_cooking_pot: `fish_paste`
+- `fit_fit_ethiopian_bread_salad/step_1`, create_heated_mixing: `niter_kibbeh_heat`
+- `fit_fit_ethiopian_bread_salad/step_1`, fd_cooking_pot: `niter_kibbeh_heat`
+- `fit_fit_ethiopian_bread_salad/step_1/prep_1`, create_heated_mixing: `niter_kibbeh`
+- `fit_fit_ethiopian_bread_salad/step_1/prep_1`, fd_cooking_pot: `niter_kibbeh`
+- `fit_fit_ethiopian_bread_salad/step_2`, create_heated_mixing: `niter_kibbeh_heat_heat`
+- `fit_fit_ethiopian_bread_salad/step_2`, pnc_thermo_plant: `niter_kibbeh_heat_heat`
+- `fit_fit_ethiopian_bread_salad/step_3`, create_heated_mixing: `fit_fit_ethiopian_bread_salad_step_2`
+- `fit_fit_ethiopian_bread_salad/step_3`, fd_cooking_pot: `fit_fit_ethiopian_bread_salad_step_2`
 - `fit_fit_ethiopian_bread_salad/step_5`, create_mixing: `fit_fit_ethiopian_bread_salad_step_4`
 - `fit_fit_ethiopian_bread_salad/step_5`, shapeless_crafting: `fit_fit_ethiopian_bread_salad_step_4`
 - `fit_fit_ethiopian_bread_salad/step_6`, create_heated_mixing: `fit_fit_ethiopian_bread_salad_step_5`
@@ -129191,12 +132137,30 @@ Each pruned route, and what it misses:
 - `fried_apple_pies/step_11`, pnc_thermo_plant: `fried_apple_pies_step_9`
 - `fried_apple_pies/step_12`, shapeless_crafting: `fried_apple_pies_step_11`
 - `fried_apple_pies/step_12`, create_deploying: `fried_apple_pies_step_11`
+- `fried_bacon_and_egg_sandwich_homemade_egg_mcmuffin/step_1`, smelting: `english_muffins_toast`
+- `fried_bacon_and_egg_sandwich_homemade_egg_mcmuffin/step_1`, smoking: `english_muffins_toast`
+- `fried_bacon_and_egg_sandwich_homemade_egg_mcmuffin/step_1`, thermal_smelter: `english_muffins_toast`
+- `fried_bacon_and_egg_sandwich_homemade_egg_mcmuffin/step_1/prep_1`, smelting: `english_muffins`
+- `fried_bacon_and_egg_sandwich_homemade_egg_mcmuffin/step_1/prep_1`, smoking: `english_muffins`
+- `fried_bacon_and_egg_sandwich_homemade_egg_mcmuffin/step_1/prep_1`, thermal_smelter: `english_muffins`
+- `fried_bacon_and_egg_sandwich_homemade_egg_mcmuffin/step_2`, create_heated_mixing: `english_muffins_toast_toast`
+- `fried_bacon_and_egg_sandwich_homemade_egg_mcmuffin/step_3`, hexerei_drying_rack: `fried_bacon_and_egg_sandwich_homemade_egg_mcmuffin_step_2`
+- `fried_bacon_and_egg_sandwich_homemade_egg_mcmuffin/step_4`, create_mixing: `fried_bacon_and_egg_sandwich_homemade_egg_mcmuffin_step_3`
+- `fried_bacon_and_egg_sandwich_homemade_egg_mcmuffin/step_4`, thermal_centrifuge: `fried_bacon_and_egg_sandwich_homemade_egg_mcmuffin_step_3`
+- `fried_bacon_and_egg_sandwich_homemade_egg_mcmuffin/step_7`, smelting: `fried_bacon_and_egg_sandwich_homemade_egg_mcmuffin_step_4`
+- `fried_bacon_and_egg_sandwich_homemade_egg_mcmuffin/step_7`, smoking: `fried_bacon_and_egg_sandwich_homemade_egg_mcmuffin_step_4`
+- `fried_bacon_and_egg_sandwich_homemade_egg_mcmuffin/step_7`, thermal_smelter: `fried_bacon_and_egg_sandwich_homemade_egg_mcmuffin_step_4`
+- `fried_bacon_and_egg_sandwich_homemade_egg_mcmuffin/step_8`, create_heated_mixing: `fried_bacon_and_egg_sandwich_homemade_egg_mcmuffin_step_7`
+- `fried_chicken/fry`, create_heated_mixing: `breaded_chicken`
+- `fried_chicken/fry`, pnc_thermo_plant: `breaded_chicken`
 - `fried_fish/step_6`, create_heated_mixing: `fried_fish_step_5`
 - `fried_fish/step_6`, pnc_thermo_plant: `fried_fish_step_5`
 - `fried_fish/step_7`, create_heated_mixing: `fried_fish_step_6`
 - `fried_fish/step_7`, pnc_thermo_plant: `fried_fish_step_6`
 - `fried_fish/step_8`, create_heated_mixing: `fried_fish_step_7`
 - `fried_fish/step_8`, pnc_thermo_plant: `fried_fish_step_7`
+- `fried_green_tomatoes/fry`, create_heated_mixing: `breaded_green_tomato_slices`
+- `fried_green_tomatoes/fry`, pnc_thermo_plant: `breaded_green_tomato_slices`
 - `fried_green_tomatoes/step_2`, create_mixing: `tomato_chop_chop`
 - `fried_green_tomatoes/step_2`, shapeless_crafting: `tomato_chop_chop`
 - `fried_green_tomatoes/step_3`, create_heated_mixing: `fried_green_tomatoes_step_2`
@@ -129222,6 +132186,7 @@ Each pruned route, and what it misses:
 - `frog_s_legs_a_la_parisienne/step_7`, create_heated_mixing: `frog_s_legs_a_la_parisienne_step_6`
 - `frog_s_legs_a_la_parisienne/step_8`, hexerei_drying_rack: `frog_s_legs_a_la_parisienne_step_7`
 - `frog_s_legs_a_la_parisienne/step_9`, create_heated_mixing: `frog_s_legs_a_la_parisienne_step_8`
+- `fromage_frais/mix`, create_mixing: `fresh_curd`
 - `fruit_salad_with_orange_juice/step_2`, create_mixing: `fruit_salad_with_orange_juice_step_1`
 - `fruit_salad_with_orange_juice/step_3`, shapeless_crafting: `fruit_salad_with_orange_juice_step_2`
 - `fruit_salad_with_orange_juice/step_4`, create_mixing: `fruit_salad_with_orange_juice_step_3`
@@ -129232,8 +132197,11 @@ Each pruned route, and what it misses:
 - `fry_bread_i/step_8`, smoking: `fry_bread_i_step_7`
 - `fry_bread_i/step_9`, campfire: `fry_bread_i_step_8`
 - `fry_bread_i/step_9`, smoking: `fry_bread_i_step_8`
+- `galaktoboureko_greek_semolina_custard_pastry/step_1`, create_mixing: `semolina`
 - `galaktoboureko_greek_semolina_custard_pastry/step_10`, create_mixing: `galaktoboureko_greek_semolina_custard_pastry_step_9`
 - `galaktoboureko_greek_semolina_custard_pastry/step_10`, shapeless_crafting: `galaktoboureko_greek_semolina_custard_pastry_step_9`
+- `galaktoboureko_greek_semolina_custard_pastry/step_2`, create_heated_mixing: `galaktoboureko_greek_semolina_custard_pastry_step_1`
+- `galaktoboureko_greek_semolina_custard_pastry/step_2`, fd_cooking_pot: `galaktoboureko_greek_semolina_custard_pastry_step_1`
 - `galaktoboureko_greek_semolina_custard_pastry/step_6`, smelting: `galaktoboureko_greek_semolina_custard_pastry_step_4`
 - `galaktoboureko_greek_semolina_custard_pastry/step_6`, smoking: `galaktoboureko_greek_semolina_custard_pastry_step_4`
 - `galaktoboureko_greek_semolina_custard_pastry/step_7`, create_mixing: `galaktoboureko_greek_semolina_custard_pastry_step_6`
@@ -129280,14 +132248,18 @@ Each pruned route, and what it misses:
 - `garlic_parmesan_pasta/step_3`, create_deploying: `garlic_parmesan_pasta_step_2`
 - `garlic_tomato_and_cheddar_sandwich/step_5`, create_mixing: `garlic_tomato_and_cheddar_sandwich_step_4`
 - `garlic_tomato_and_cheddar_sandwich/step_6`, shapeless_crafting: `garlic_tomato_and_cheddar_sandwich_step_5`
-- `genfo_ethiopian_porridge/step_6`, create_mixing: `berbere`
-- `genfo_ethiopian_porridge/step_6`, shapeless_crafting: `berbere`
-- `genfo_ethiopian_porridge/step_6`, hexerei_mixing_cauldron: `berbere`
+- `general_tso_s_chicken/stir_fry`, create_heated_mixing: `general_tso_s_sauce`
+- `genfo_ethiopian_porridge/step_4`, create_mixing: `niter_kibbeh`
+- `genfo_ethiopian_porridge/step_6`, create_mixing: `berbere`, `genfo_ethiopian_porridge_step_5`
+- `genfo_ethiopian_porridge/step_6`, shapeless_crafting: `berbere`, `genfo_ethiopian_porridge_step_5`
+- `genfo_ethiopian_porridge/step_6`, hexerei_mixing_cauldron: `berbere`, `genfo_ethiopian_porridge_step_5`
 - `german_potato_salad/step_5`, create_heated_mixing: `german_potato_salad_step_4`
 - `german_potato_salad/step_5`, fd_cooking_pot: `german_potato_salad_step_4`
 - `ghavoot_iranian_nut_and_seed_powder/step_2`, create_milling: `ghavoot_iranian_nut_and_seed_powder_step_1`
 - `ghavoot_iranian_nut_and_seed_powder/step_2`, hexerei_pestle_and_mortar: `ghavoot_iranian_nut_and_seed_powder_step_1`
 - `ghavoot_iranian_nut_and_seed_powder/step_3`, create_mixing: `ghavoot_iranian_nut_and_seed_powder_step_2`
+- `ginger_ale/step_4`, create_mixing: `carbonated_water`
+- `ginger_ale/step_4`, shapeless_crafting: `carbonated_water`
 - `ginger_biscuits/step_3`, create_mixing: `ginger_biscuits_step_2`
 - `ginger_biscuits/step_3`, shapeless_crafting: `ginger_biscuits_step_2`
 - `ginger_biscuits/step_3`, hexerei_mixing_cauldron: `ginger_biscuits_step_2`
@@ -129314,7 +132286,7 @@ Each pruned route, and what it misses:
 - `goat_cheese_cakes/step_9`, shapeless_crafting: `goat_cheese_cakes_step_8`
 - `goong_ten_raw_shrimp_salad/step_4`, create_mixing: `goong_ten_raw_shrimp_salad_step_3`
 - `goong_ten_raw_shrimp_salad/step_4`, shapeless_crafting: `goong_ten_raw_shrimp_salad_step_3`
-- `gored_gored_ethiopian_raw_beef/step_1`, create_mixing: `berbere`
+- `gored_gored_ethiopian_raw_beef/step_1`, create_mixing: `berbere`, `niter_kibbeh_heat`
 - `gored_gored_ethiopian_raw_beef/step_2`, create_mixing: `gored_gored_ethiopian_raw_beef_step_1`
 - `gored_gored_ethiopian_raw_beef/step_3`, create_heated_mixing: `gored_gored_ethiopian_raw_beef_step_2`
 - `gored_gored_ethiopian_raw_beef/step_3`, fd_cooking_pot: `gored_gored_ethiopian_raw_beef_step_2`
@@ -129330,6 +132302,10 @@ Each pruned route, and what it misses:
 - `goulash/step_3`, fd_cooking_pot: `goulash_step_2`
 - `goulash/step_4`, create_heated_mixing: `goulash_step_3`
 - `goulash/step_4`, fd_cooking_pot: `goulash_step_3`
+- `graham_cracker/bake`, smelting: `graham_dough`
+- `graham_cracker/bake`, smoking: `graham_dough`
+- `graham_cracker/mix_dough`, create_mixing: `whole_wheat_flour`
+- `graham_cracker/mix_dough`, hexerei_mixing_cauldron: `whole_wheat_flour`
 - `grandma_s_pie_crust/step_1`, create_mixing: `shortening_cut`
 - `grandma_s_pie_crust/step_1`, shapeless_crafting: `shortening_cut`
 - `grandma_s_pie_crust/step_2`, create_mixing: `grandma_s_pie_crust_step_1`
@@ -129340,6 +132316,8 @@ Each pruned route, and what it misses:
 - `granola/step_3`, create_mixing: `granola_step_2`
 - `granola/step_3`, shapeless_crafting: `granola_step_2`
 - `grapefruit_and_crab_cocktail/step_4`, shapeless_crafting: `grapefruit_and_crab_cocktail_step_3`
+- `greek_chicken_wrap/step_1`, create_mixing: `feta_cheese`
+- `greek_chicken_wrap/step_1`, shapeless_crafting: `feta_cheese`
 - `greek_salad/step_2`, create_mixing: `greek_salad_step_1`
 - `green_chicken_curry_with_coconut_milk/step_2`, create_heated_mixing: `green_chicken_curry_with_coconut_milk_step_1`
 - `green_chicken_curry_with_coconut_milk/step_3`, create_mixing: `green_chicken_curry_with_coconut_milk_step_2`
@@ -129356,6 +132334,8 @@ Each pruned route, and what it misses:
 - `green_mango_and_cumin_drink_aam_panna/step_6`, thermal_press: `green_mango_and_cumin_drink_aam_panna_step_5`
 - `green_mango_and_cumin_drink_aam_panna/step_7`, create_mixing: `green_mango_and_cumin_drink_aam_panna_step_6`
 - `green_mango_and_cumin_drink_aam_panna/step_8`, create_mixing: `green_mango_and_cumin_drink_aam_panna_step_7`
+- `grenadine_soda/step_1`, create_mixing: `carbonated_water`
+- `grenadine_soda/step_1`, shapeless_crafting: `carbonated_water`
 - `grilled_cheese_sandwich_ii/step_6`, campfire: `grilled_cheese_sandwich_ii_step_5`
 - `grilled_cheese_sandwich_ii/step_6`, smoking: `grilled_cheese_sandwich_ii_step_5`
 - `grilled_fruit_pouches/step_3`, shapeless_crafting: `grilled_fruit_pouches_step_2`
@@ -129456,6 +132436,7 @@ Each pruned route, and what it misses:
 - `ham_and_cheese_crepes/step_8`, smoking: `ham_and_cheese_crepes_step_6`
 - `ham_sauce_modern/step_3`, create_heated_mixing: `ham_sauce_modern_step_2`
 - `ham_sauce_modern/step_3`, fd_cooking_pot: `ham_sauce_modern_step_2`
+- `hamburger/step_5`, shapeless_crafting: `hamburger_bun`
 - `harissa_bil_djaj_libyan_chicken_harissa/step_5`, create_heated_mixing: `harissa_bil_djaj_libyan_chicken_harissa_step_4`
 - `harissa_bil_djaj_libyan_chicken_harissa/step_5`, fd_cooking_pot: `harissa_bil_djaj_libyan_chicken_harissa_step_4`
 - `harissa_bil_djaj_libyan_chicken_harissa/step_6`, create_heated_mixing: `harissa_bil_djaj_libyan_chicken_harissa_step_5`
@@ -129464,6 +132445,8 @@ Each pruned route, and what it misses:
 - `harissa_bil_djaj_libyan_chicken_harissa/step_7`, shapeless_crafting: `harissa_bil_djaj_libyan_chicken_harissa_step_6`
 - `hawawshi_egyptian_meat_pies/step_10`, smelting: `hawawshi_egyptian_meat_pies_step_8`
 - `hawawshi_egyptian_meat_pies/step_10`, smoking: `hawawshi_egyptian_meat_pies_step_8`
+- `hazelnut_cream_soda/step_1`, create_mixing: `carbonated_water`
+- `hazelnut_cream_soda/step_1`, shapeless_crafting: `carbonated_water`
 - `hearty_beef_vegetable_soup/step_4`, create_heated_mixing: `hearty_beef_vegetable_soup_step_3`
 - `hearty_beef_vegetable_soup/step_4`, fd_cooking_pot: `hearty_beef_vegetable_soup_step_3`
 - `hearty_beef_vegetable_soup/step_5`, create_heated_mixing: `hearty_beef_vegetable_soup_step_4`
@@ -129486,6 +132469,8 @@ Each pruned route, and what it misses:
 - `herb_grilled_strip_steaks/step_6`, smoking: `herb_grilled_strip_steaks_step_5`
 - `herb_grilled_strip_steaks/step_8`, fd_cutting_board: `herb_grilled_strip_steaks_step_7`
 - `herb_grilled_strip_steaks/step_8`, create_cutting: `herb_grilled_strip_steaks_step_7`
+- `herbal_energy_drink/step_5`, create_mixing: `carbonated_water`
+- `herbal_energy_drink/step_5`, shapeless_crafting: `carbonated_water`
 - `herbal_iced_tea/step_1`, thermal_chiller: `rosehip_tea`
 - `herbal_iced_tea/step_2`, create_mixing: `herbal_iced_tea_step_1`
 - `herbal_iced_tea/step_2`, shapeless_crafting: `herbal_iced_tea_step_1`
@@ -129554,6 +132539,14 @@ Each pruned route, and what it misses:
 - `honey_lime_chicken_wings/step_2`, create_deploying: `honey_lime_chicken_wings_step_1`
 - `honey_lime_chicken_wings/step_3`, create_heated_mixing: `honey_lime_chicken_wings_step_2`
 - `honey_lime_chicken_wings/step_4`, hexerei_mixing_cauldron: `honey_lime_chicken_wings_step_3`
+- `hopping_john_with_pinto_or_great_northern_beans/step_3`, create_mixing: `salt_pork_fry`
+- `hopping_john_with_pinto_or_great_northern_beans/step_3`, shapeless_crafting: `salt_pork_fry`
+- `hopping_john_with_pinto_or_great_northern_beans/step_3/prep_5`, create_heated_mixing: `salt_pork`
+- `hopping_john_with_pinto_or_great_northern_beans/step_3/prep_5`, pnc_thermo_plant: `salt_pork`
+- `hopping_john_with_pinto_or_great_northern_beans/step_4`, create_heated_mixing: `hopping_john_with_pinto_or_great_northern_beans_step_3`
+- `hopping_john_with_pinto_or_great_northern_beans/step_5`, create_mixing: `hopping_john_with_pinto_or_great_northern_beans_step_4`
+- `hopping_john_with_pinto_or_great_northern_beans/step_6`, create_heated_mixing: `hopping_john_with_pinto_or_great_northern_beans_step_5`
+- `hopping_john_with_pinto_or_great_northern_beans/step_6`, fd_cooking_pot: `hopping_john_with_pinto_or_great_northern_beans_step_5`
 - `horchata/step_3`, create_mixing: `horchata_step_2`
 - `horchata/step_4`, create_mixing: `horchata_step_3`
 - `horchata/step_4`, create_splashing: `horchata_step_3`
@@ -129581,6 +132574,7 @@ Each pruned route, and what it misses:
 - `hot_chocolate_with_cayenne/step_4`, create_mixing: `hot_chocolate_with_cayenne_step_3`
 - `hot_chocolate_with_cayenne/step_4`, shapeless_crafting: `hot_chocolate_with_cayenne_step_3`
 - `hot_chocolate_with_cayenne/step_4`, hexerei_mixing_cauldron: `hot_chocolate_with_cayenne_step_3`
+- `hot_dog/assemble`, shapeless_crafting: `bun`
 - `hot_wings/step_4`, create_heated_mixing: `hot_wings_step_3`
 - `hot_wings/step_4`, pnc_thermo_plant: `hot_wings_step_3`
 - `hummus_greek/step_6`, create_mixing: `hummus_greek_step_5`
@@ -129617,6 +132611,15 @@ Each pruned route, and what it misses:
 - `ifisashi_zambian_peanut_and_spinach_stew/step_8`, create_heated_mixing: `ifisashi_zambian_peanut_and_spinach_stew_step_7`
 - `ifisashi_zambian_peanut_and_spinach_stew/step_8`, fd_cooking_pot: `ifisashi_zambian_peanut_and_spinach_stew_step_7`
 - `ifisashi_zambian_peanut_and_spinach_stew/step_9`, create_heated_mixing: `ifisashi_zambian_peanut_and_spinach_stew_step_8`
+- `ifumbe_rwandan_cassava_fritters/step_1`, create_mixing: `manioc_flour`
+- `ifumbe_rwandan_cassava_fritters/step_1`, shapeless_crafting: `manioc_flour`
+- `ifumbe_rwandan_cassava_fritters/step_2`, create_mixing: `ifumbe_rwandan_cassava_fritters_step_1`
+- `ifumbe_rwandan_cassava_fritters/step_2`, shapeless_crafting: `ifumbe_rwandan_cassava_fritters_step_1`
+- `ifumbe_rwandan_cassava_fritters/step_2`, hexerei_mixing_cauldron: `ifumbe_rwandan_cassava_fritters_step_1`
+- `ifumbe_rwandan_cassava_fritters/step_4`, create_heated_mixing: `ifumbe_rwandan_cassava_fritters_step_2`
+- `ifumbe_rwandan_cassava_fritters/step_5`, create_heated_mixing: `ifumbe_rwandan_cassava_fritters_step_4`
+- `ifumbe_rwandan_cassava_fritters/step_5`, pnc_thermo_plant: `ifumbe_rwandan_cassava_fritters_step_4`
+- `ifumbe_rwandan_cassava_fritters/step_6`, hexerei_drying_rack: `ifumbe_rwandan_cassava_fritters_step_5`
 - `inarizushi_stuffed_sushi/step_11`, shapeless_crafting: `sushi_rice`
 - `inarizushi_stuffed_sushi/step_11`, create_deploying: `sushi_rice`
 - `inarizushi_stuffed_sushi/step_11`, create_compacting: `sushi_rice`
@@ -129688,6 +132691,8 @@ Each pruned route, and what it misses:
 - `italian_rice_pudding/step_6`, thermal_centrifuge: `italian_rice_pudding_step_5`
 - `italian_rice_pudding/step_8`, create_mixing: `italian_rice_pudding_step_7`
 - `italian_rice_pudding/step_8`, shapeless_crafting: `italian_rice_pudding_step_7`
+- `jal_jeera_cumin_mango_lemonade/step_1`, create_mixing: `carbonated_water`
+- `jal_jeera_cumin_mango_lemonade/step_1`, shapeless_crafting: `carbonated_water`
 - `jalapeno_sausage_and_bacon_appetizers_atomic_buffalo_turds/step_2`, shapeless_crafting: `jalapeno_cut_cut`
 - `jalapeno_sausage_and_bacon_appetizers_atomic_buffalo_turds/step_3`, shapeless_crafting: `jalapeno_sausage_and_bacon_appetizers_atomic_buffalo_turds_step_2`
 - `jalapeno_sausage_and_bacon_appetizers_atomic_buffalo_turds/step_3`, create_deploying: `jalapeno_sausage_and_bacon_appetizers_atomic_buffalo_turds_step_2`
@@ -129704,6 +132709,8 @@ Each pruned route, and what it misses:
 - `jamaican_jerk_spice_i/step_2`, bnc_keg: `jamaican_jerk_spice_i_step_1`
 - `jamaican_jerk_spice_ii/step_2`, vd_fermenting_jar: `jamaican_jerk_spice_ii_step_1`
 - `jamaican_jerk_spice_ii/step_2`, bnc_keg: `jamaican_jerk_spice_ii_step_1`
+- `jamaican_sorrel_soda/step_5`, create_mixing: `carbonated_water`
+- `jamaican_sorrel_soda/step_5`, shapeless_crafting: `carbonated_water`
 - `jambons/step_5`, shapeless_crafting: `jambons_step_4`
 - `jambons/step_6`, smelting: `jambons_step_5`
 - `jambons/step_6`, smoking: `jambons_step_5`
@@ -129712,6 +132719,14 @@ Each pruned route, and what it misses:
 - `jerk_lobster/step_11`, fd_cooking_pot: `jerk_lobster_step_10`
 - `jerk_lobster/step_12`, campfire: `jerk_lobster_step_11`
 - `jerk_lobster/step_12`, smoking: `jerk_lobster_step_11`
+- `jersey_breakfast_dog/step_6`, thermal_smelter: `bun_toast`
+- `jersey_breakfast_dog/step_6/prep_5`, smelting: `bun`
+- `jersey_breakfast_dog/step_6/prep_5`, smoking: `bun`
+- `jersey_breakfast_dog/step_6/prep_5`, thermal_smelter: `bun`
+- `jersey_breakfast_dog/step_7`, create_heated_mixing: `jersey_breakfast_dog_step_6`
+- `jersey_breakfast_dog/step_7`, pnc_thermo_plant: `jersey_breakfast_dog_step_6`
+- `jersey_breakfast_dog/step_8`, create_heated_mixing: `jersey_breakfast_dog_step_7`
+- `jersey_breakfast_dog/step_8`, fd_cooking_pot: `jersey_breakfast_dog_step_7`
 - `jigarthanda_milk/step_10`, create_mixing: `jigarthanda_milk_step_9`
 - `jigarthanda_milk/step_11`, create_mixing: `jigarthanda_milk_step_10`
 - `jigarthanda_milk/step_11`, shapeless_crafting: `jigarthanda_milk_step_10`
@@ -129732,6 +132747,7 @@ Each pruned route, and what it misses:
 - `jigarthanda_milk/step_6`, create_heated_mixing: `jigarthanda_milk_step_5`
 - `jigarthanda_milk/step_8`, create_mixing: `jigarthanda_milk_step_7`
 - `jigarthanda_milk/step_9`, create_mixing: `jigarthanda_milk_step_8`
+- `jigarthanda_milk/step_9`, shapeless_crafting: `jigarthanda_milk_step_8`
 - `ka_ak_savory_ring_shaped_biscuit/step_11`, smelting: `ka_ak_savory_ring_shaped_biscuit_step_10`
 - `ka_ak_savory_ring_shaped_biscuit/step_11`, smoking: `ka_ak_savory_ring_shaped_biscuit_step_10`
 - `kanafeh_egyptian_sweet_cheese_pastry/step_10`, create_heated_mixing: `kanafeh_egyptian_sweet_cheese_pastry_step_9`
@@ -129781,16 +132797,33 @@ Each pruned route, and what it misses:
 - `katchi_biryani/step_9`, create_heated_mixing: `katchi_biryani_step_8`
 - `katchi_biryani/step_9`, fd_cooking_pot: `katchi_biryani_step_8`
 - `kele_ka_halwa_fried_bananas_in_milk/step_2`, create_heated_mixing: `kele_ka_halwa_fried_bananas_in_milk_step_1`
+- `kele_ka_halwa_fried_bananas_in_milk/step_2`, pnc_thermo_plant: `kele_ka_halwa_fried_bananas_in_milk_step_1`
 - `kele_ka_halwa_fried_bananas_in_milk/step_3`, create_heated_mixing: `kele_ka_halwa_fried_bananas_in_milk_step_2`
 - `kele_ka_halwa_fried_bananas_in_milk/step_5`, create_heated_mixing: `kele_ka_halwa_fried_bananas_in_milk_step_4`
 - `kele_ka_halwa_fried_bananas_in_milk/step_5`, pnc_thermo_plant: `kele_ka_halwa_fried_bananas_in_milk_step_4`
 - `kerala_pachadi_coconut_mango_condiment/step_4`, create_heated_mixing: `kerala_pachadi_coconut_mango_condiment_step_3`
 - `kerala_pachadi_coconut_mango_condiment/step_5`, create_heated_mixing: `kerala_pachadi_coconut_mango_condiment_step_4`
 - `kerala_pachadi_coconut_mango_condiment/step_5`, fd_cooking_pot: `kerala_pachadi_coconut_mango_condiment_step_4`
+- `kesari_south_indian_semolina_pudding/step_3`, create_mixing: `semolina_toast`
+- `kesari_south_indian_semolina_pudding/step_3`, shapeless_crafting: `semolina_toast`
 - `kesari_south_indian_semolina_pudding/step_5`, create_heated_mixing: `kesari_south_indian_semolina_pudding_step_4`
 - `kesari_south_indian_semolina_pudding/step_5`, fd_cooking_pot: `kesari_south_indian_semolina_pudding_step_4`
 - `kesari_south_indian_semolina_pudding/step_6`, create_heated_mixing: `kesari_south_indian_semolina_pudding_step_5`
 - `kesari_south_indian_semolina_pudding/step_7`, create_heated_mixing: `kesari_south_indian_semolina_pudding_step_6`
+- `kesra_algerian_semolina_flatbread/step_1`, create_mixing: `semolina`
+- `kesra_algerian_semolina_flatbread/step_2`, create_mixing: `kesra_algerian_semolina_flatbread_step_1`
+- `kesra_algerian_semolina_flatbread/step_2`, shapeless_crafting: `kesra_algerian_semolina_flatbread_step_1`
+- `kesra_algerian_semolina_flatbread/step_3`, create_mixing: `kesra_algerian_semolina_flatbread_step_2`
+- `kesra_algerian_semolina_flatbread/step_3`, shapeless_crafting: `kesra_algerian_semolina_flatbread_step_2`
+- `kesra_algerian_semolina_flatbread/step_3`, hexerei_mixing_cauldron: `kesra_algerian_semolina_flatbread_step_2`
+- `kesra_algerian_semolina_flatbread/step_4`, vd_fermenting_jar: `kesra_algerian_semolina_flatbread_step_3`
+- `kesra_algerian_semolina_flatbread/step_5`, create_mixing: `kesra_algerian_semolina_flatbread_step_4`
+- `kesra_algerian_semolina_flatbread/step_5`, thermal_centrifuge: `kesra_algerian_semolina_flatbread_step_4`
+- `kesra_algerian_semolina_flatbread/step_8`, create_heated_mixing: `kesra_algerian_semolina_flatbread_step_6`
+- `kesra_algerian_semolina_flatbread/step_8`, pnc_thermo_plant: `kesra_algerian_semolina_flatbread_step_6`
+- `key_wat_ethiopian_red_stew/step_2`, create_heated_mixing: `niter_kibbeh_heat`
+- `key_wat_ethiopian_red_stew/step_3`, create_heated_mixing: `key_wat_ethiopian_red_stew_step_2`
+- `key_wat_ethiopian_red_stew/step_3`, fd_cooking_pot: `key_wat_ethiopian_red_stew_step_2`
 - `key_wat_ethiopian_red_stew/step_5`, create_heated_mixing: `key_wat_ethiopian_red_stew_step_4`
 - `key_wat_ethiopian_red_stew/step_6`, create_mixing: `key_wat_ethiopian_red_stew_step_5`
 - `key_wat_ethiopian_red_stew/step_6`, shapeless_crafting: `key_wat_ethiopian_red_stew_step_5`
@@ -129798,6 +132831,37 @@ Each pruned route, and what it misses:
 - `key_wat_ethiopian_red_stew/step_7`, fd_cooking_pot: `key_wat_ethiopian_red_stew_step_6`
 - `key_wat_ethiopian_red_stew/step_8`, create_mixing: `key_wat_ethiopian_red_stew_step_7`
 - `key_wat_ethiopian_red_stew/step_8`, shapeless_crafting: `key_wat_ethiopian_red_stew_step_7`
+- `khachapuri_georgian_cheese_bread/step_10`, fd_cutting_board: `khachapuri_georgian_cheese_bread_step_9`
+- `khachapuri_georgian_cheese_bread/step_10`, create_cutting: `khachapuri_georgian_cheese_bread_step_9`
+- `khachapuri_georgian_cheese_bread/step_5`, create_mixing: `feta_cheese_chop`
+- `khachapuri_georgian_cheese_bread/step_9`, smelting: `khachapuri_georgian_cheese_bread_step_7`
+- `khachapuri_georgian_cheese_bread/step_9`, smoking: `khachapuri_georgian_cheese_bread_step_7`
+- `khaman_dhokla_steamed_gram_bread/step_10`, shapeless_crafting: `khaman_dhokla_steamed_gram_bread_step_9`
+- `khaman_dhokla_steamed_gram_bread/step_2`, create_mixing: `semolina`
+- `khaman_dhokla_steamed_gram_bread/step_3`, create_mixing: `khaman_dhokla_steamed_gram_bread_step_2`
+- `khaman_dhokla_steamed_gram_bread/step_5`, create_heated_mixing: `khaman_dhokla_steamed_gram_bread_step_4`
+- `khaman_dhokla_steamed_gram_bread/step_5`, fd_cooking_pot: `khaman_dhokla_steamed_gram_bread_step_4`
+- `khaman_dhokla_steamed_gram_bread/step_7`, create_heated_mixing: `khaman_dhokla_steamed_gram_bread_step_6`
+- `khaman_dhokla_steamed_gram_bread/step_7`, fd_cooking_pot: `khaman_dhokla_steamed_gram_bread_step_6`
+- `khaman_dhokla_steamed_gram_bread/step_8`, create_heated_mixing: `khaman_dhokla_steamed_gram_bread_step_7`
+- `kibbeh/step_10`, create_heated_mixing: `kibbeh_step_9`
+- `kibbeh/step_10`, pnc_thermo_plant: `kibbeh_step_9`
+- `kibbeh/step_6`, create_mixing: `semolina`
+- `kibbeh/step_6`, shapeless_crafting: `semolina`
+- `kibbeh/step_9`, create_heated_mixing: `kibbeh_step_7`
+- `kibbeh/step_9`, fd_cooking_pot: `kibbeh_step_7`
+- `kid_friendly_pasta/step_2`, create_heated_mixing: `whole_wheat_flour`
+- `kid_friendly_pasta/step_2`, fd_cooking_pot: `whole_wheat_flour`
+- `kid_friendly_pasta/step_3`, create_heated_mixing: `kid_friendly_pasta_step_2`
+- `kid_friendly_pasta/step_3`, fd_cooking_pot: `kid_friendly_pasta_step_2`
+- `kid_friendly_pasta/step_4`, create_heated_mixing: `kid_friendly_pasta_step_3`
+- `kid_friendly_pasta/step_4`, fd_cooking_pot: `kid_friendly_pasta_step_3`
+- `kik_alicha_yellow_split_pea_stew/step_2`, create_mixing: `niter_kibbeh`
+- `kik_alicha_yellow_split_pea_stew/step_4`, create_heated_mixing: `kik_alicha_yellow_split_pea_stew_step_3`
+- `kik_alicha_yellow_split_pea_stew/step_4`, fd_cooking_pot: `kik_alicha_yellow_split_pea_stew_step_3`
+- `kik_alicha_yellow_split_pea_stew/step_6`, vd_fermenting_jar: `kik_alicha_yellow_split_pea_stew_step_5`
+- `kik_alicha_yellow_split_pea_stew/step_7`, shapeless_crafting: `kik_alicha_yellow_split_pea_stew_step_6`
+- `kik_alicha_yellow_split_pea_stew/step_7`, create_deploying: `kik_alicha_yellow_split_pea_stew_step_6`
 - `kitfo_ethiopian_minced_raw_meat/step_10`, shapeless_crafting: `kitfo_ethiopian_minced_raw_meat_step_8`
 - `kitfo_ethiopian_minced_raw_meat/step_2`, create_mixing: `berbere`
 - `kitfo_ethiopian_minced_raw_meat/step_4`, create_heated_mixing: `kitfo_ethiopian_minced_raw_meat_step_2`
@@ -129853,6 +132917,7 @@ Each pruned route, and what it misses:
 - `kunun_tsamiya_nigerian_powdered_millet_and_tsamiya_drink/step_2`, fd_cooking_pot: `kunun_tsamiya_nigerian_powdered_millet_and_tsamiya_drink_step_1`
 - `kunun_tsamiya_nigerian_powdered_millet_and_tsamiya_drink/step_4`, create_mixing: `kunun_tsamiya_nigerian_powdered_millet_and_tsamiya_drink_step_3`
 - `kunun_tsamiya_nigerian_powdered_millet_and_tsamiya_drink/step_4`, shapeless_crafting: `kunun_tsamiya_nigerian_powdered_millet_and_tsamiya_drink_step_3`
+- `kwado_nigerian_cassava_flour_salad/step_2`, shapeless_crafting: `manioc_flour`
 - `kyopulo_eggplant_with_peppers_and_tomatoes/step_2`, shapeless_crafting: `kyopulo_eggplant_with_peppers_and_tomatoes_step_1`
 - `kyopulo_eggplant_with_peppers_and_tomatoes/step_3`, create_mixing: `kyopulo_eggplant_with_peppers_and_tomatoes_step_2`
 - `kyopulo_eggplant_with_peppers_and_tomatoes/step_3`, shapeless_crafting: `kyopulo_eggplant_with_peppers_and_tomatoes_step_2`
@@ -129869,6 +132934,27 @@ Each pruned route, and what it misses:
 - `kyselo_czech_sourdough_mushroom_soup/step_7`, shapeless_crafting: `kyselo_czech_sourdough_mushroom_soup_step_6`
 - `kyselo_czech_sourdough_mushroom_soup/step_8`, create_mixing: `kyselo_czech_sourdough_mushroom_soup_step_7`
 - `kyselo_czech_sourdough_mushroom_soup/step_8`, shapeless_crafting: `kyselo_czech_sourdough_mushroom_soup_step_7`
+- `lahoh_spongy_flatbread_i/step_1`, create_heated_mixing: `semolina`
+- `lahoh_spongy_flatbread_i/step_2`, create_mixing: `lahoh_spongy_flatbread_i_step_1`
+- `lahoh_spongy_flatbread_i/step_2`, shapeless_crafting: `lahoh_spongy_flatbread_i_step_1`
+- `lahoh_spongy_flatbread_i/step_2`, hexerei_mixing_cauldron: `lahoh_spongy_flatbread_i_step_1`
+- `lahoh_spongy_flatbread_i/step_3`, create_mixing: `lahoh_spongy_flatbread_i_step_2`
+- `lahoh_spongy_flatbread_i/step_3`, shapeless_crafting: `lahoh_spongy_flatbread_i_step_2`
+- `lahoh_spongy_flatbread_i/step_4`, create_mixing: `lahoh_spongy_flatbread_i_step_3`
+- `lahoh_spongy_flatbread_i/step_4`, shapeless_crafting: `lahoh_spongy_flatbread_i_step_3`
+- `lahoh_spongy_flatbread_i/step_6`, vd_fermenting_jar: `lahoh_spongy_flatbread_i_step_5`
+- `lahoh_spongy_flatbread_i/step_6`, pnc_thermo_plant: `lahoh_spongy_flatbread_i_step_5`
+- `lahoh_spongy_flatbread_i/step_8`, shapeless_crafting: `lahoh_spongy_flatbread_i_step_6`
+- `lahoh_spongy_flatbread_i/step_8`, create_deploying: `lahoh_spongy_flatbread_i_step_6`
+- `lahoh_spongy_flatbread_i/step_8`, create_compacting: `lahoh_spongy_flatbread_i_step_6`
+- `lahoh_spongy_flatbread_i/step_9`, create_heated_mixing: `lahoh_spongy_flatbread_i_step_8`
+- `lahoh_spongy_flatbread_i/step_9`, pnc_thermo_plant: `lahoh_spongy_flatbread_i_step_8`
+- `lahoh_spongy_flatbread_ii/step_1`, create_mixing: `semolina`
+- `lahoh_spongy_flatbread_ii/step_2`, create_mixing: `lahoh_spongy_flatbread_ii_step_1`
+- `lahoh_spongy_flatbread_ii/step_3`, vd_fermenting_jar: `lahoh_spongy_flatbread_ii_step_2`
+- `lahoh_spongy_flatbread_ii/step_3`, pnc_thermo_plant: `lahoh_spongy_flatbread_ii_step_2`
+- `lahoh_spongy_flatbread_ii/step_5`, create_heated_mixing: `lahoh_spongy_flatbread_ii_step_3`
+- `lahoh_spongy_flatbread_ii/step_5`, pnc_thermo_plant: `lahoh_spongy_flatbread_ii_step_3`
 - `lamb_kofta/step_2`, create_mixing: `mint_chop`
 - `lamb_kofta/step_4`, campfire: `lamb_kofta_step_3`
 - `lamb_kofta/step_4`, smoking: `lamb_kofta_step_3`
@@ -129934,7 +133020,16 @@ Each pruned route, and what it misses:
 - `lemon_curd/step_7`, fd_cooking_pot: `lemon_curd_step_6`
 - `lemon_curd/step_8`, create_mixing: `lemon_curd_step_7`
 - `lemon_curd/step_8`, thermal_centrifuge: `lemon_curd_step_7`
+- `lemon_lime_soda_i/step_5`, create_mixing: `carbonated_water`
+- `lemon_lime_soda_i/step_5`, shapeless_crafting: `carbonated_water`
 - `lemon_mayonnaise/step_2`, create_mixing: `lemon_mayonnaise_step_1`
+- `lemon_meringue_pie_british/step_2`, shapeless_crafting: `digestive_biscuit_grind_grind`
+- `lemon_meringue_pie_british/step_2`, create_compacting: `digestive_biscuit_grind_grind`
+- `lemon_meringue_pie_british/step_3`, create_mixing: `lemon_meringue_pie_british_step_2`
+- `lemon_meringue_pie_british/step_3`, shapeless_crafting: `lemon_meringue_pie_british_step_2`
+- `lemon_meringue_pie_british/step_5`, create_mixing: `lemon_meringue_pie_british_step_4`
+- `lemon_meringue_pie_british/step_7`, smelting: `lemon_meringue_pie_british_step_6`
+- `lemon_meringue_pie_british/step_7`, smoking: `lemon_meringue_pie_british_step_6`
 - `lemon_mille_feuille/step_10`, campfire: `lemon_mille_feuille_step_9`
 - `lemon_mille_feuille/step_10`, smoking: `lemon_mille_feuille_step_9`
 - `lemon_mille_feuille/step_12`, shapeless_crafting: `lemon_mille_feuille_step_11`
@@ -129987,6 +133082,7 @@ Each pruned route, and what it misses:
 - `lime_and_mascarpone_cheesecake/step_1`, create_compacting: `biscuit_grind`
 - `lime_and_mascarpone_cheesecake/step_2`, create_mixing: `lime_and_mascarpone_cheesecake_step_1`
 - `lime_and_mascarpone_cheesecake/step_3`, create_mixing: `lime_and_mascarpone_cheesecake_step_2`
+- `linguine_primavera_mediterranean/step_8`, shapeless_crafting: `feta_cheese`
 - `lolly_cake/step_7`, shapeless_crafting: `lolly_cake_step_5`
 - `lolly_cake/step_9`, fd_cutting_board: `lolly_cake_step_8`
 - `lolly_cake/step_9`, create_cutting: `lolly_cake_step_8`
@@ -130014,6 +133110,19 @@ Each pruned route, and what it misses:
 - `m_batata_sweet_potato_and_peanut_soup/step_9`, fd_cooking_pot: `m_batata_sweet_potato_and_peanut_soup_step_8`
 - `m_c_nh_i_th_t_vietnamese_stuffed_squid/step_5`, smelting: `m_c_nh_i_th_t_vietnamese_stuffed_squid_step_4`
 - `m_c_nh_i_th_t_vietnamese_stuffed_squid/step_5`, smoking: `m_c_nh_i_th_t_vietnamese_stuffed_squid_step_4`
+- `m_semen_layered_algerian_flatbread/step_1`, create_mixing: `semolina`
+- `m_semen_layered_algerian_flatbread/step_1`, shapeless_crafting: `semolina`
+- `m_semen_layered_algerian_flatbread/step_2`, create_mixing: `m_semen_layered_algerian_flatbread_step_1`
+- `m_semen_layered_algerian_flatbread/step_2`, shapeless_crafting: `m_semen_layered_algerian_flatbread_step_1`
+- `m_semen_layered_algerian_flatbread/step_2`, hexerei_mixing_cauldron: `m_semen_layered_algerian_flatbread_step_1`
+- `m_semen_layered_algerian_flatbread/step_5`, shapeless_crafting: `m_semen_layered_algerian_flatbread_step_3`
+- `m_semen_layered_algerian_flatbread/step_5`, create_deploying: `m_semen_layered_algerian_flatbread_step_3`
+- `m_semen_layered_algerian_flatbread/step_5`, hexerei_mixing_cauldron: `m_semen_layered_algerian_flatbread_step_3`
+- `m_semen_layered_algerian_flatbread/step_5`, thermal_bottler: `m_semen_layered_algerian_flatbread_step_3`
+- `m_semen_layered_algerian_flatbread/step_7`, create_heated_mixing: `m_semen_layered_algerian_flatbread_step_5`
+- `m_semen_layered_algerian_flatbread/step_7`, pnc_thermo_plant: `m_semen_layered_algerian_flatbread_step_5`
+- `macaroni_and_cheese_vegan/step_4`, create_mixing: `nutritional_yeast`
+- `macaroni_and_cheese_vegan/step_4`, shapeless_crafting: `nutritional_yeast`
 - `machacado_con_huevo_eggs_with_shredded_beef/step_3`, create_heated_mixing: `homemade_wheat_tortillas_heat`
 - `machacado_con_huevo_eggs_with_shredded_beef/step_3/prep_4`, create_heated_mixing: `homemade_wheat_tortillas`
 - `machacado_con_huevo_eggs_with_shredded_beef/step_3/prep_4`, fd_cooking_pot: `homemade_wheat_tortillas`
@@ -130048,6 +133157,9 @@ Each pruned route, and what it misses:
 - `malai_mixed_vegetable_curry/step_7`, shapeless_crafting: `malai_mixed_vegetable_curry_step_6`
 - `malai_mixed_vegetable_curry/step_8`, create_heated_mixing: `malai_mixed_vegetable_curry_step_7`
 - `malai_mixed_vegetable_curry/step_8`, fd_cooking_pot: `malai_mixed_vegetable_curry_step_7`
+- `malpua_south_asian_sweet_pancake/step_2/prep_3`, smelting: `semolina`
+- `malpua_south_asian_sweet_pancake/step_2/prep_3`, smoking: `semolina`
+- `malpua_south_asian_sweet_pancake/step_2/prep_3`, thermal_smelter: `semolina`
 - `malpua_south_asian_sweet_pancake/step_3`, create_mixing: `malpua_south_asian_sweet_pancake_step_2`
 - `malpua_south_asian_sweet_pancake/step_4`, create_heated_mixing: `malpua_south_asian_sweet_pancake_step_3`
 - `malpua_south_asian_sweet_pancake/step_4`, fd_cooking_pot: `malpua_south_asian_sweet_pancake_step_3`
@@ -130078,6 +133190,16 @@ Each pruned route, and what it misses:
 - `mandazi_east_african_doughnuts/step_8`, create_heated_mixing: `mandazi_east_african_doughnuts_step_7`
 - `mandazi_east_african_doughnuts/step_8`, pnc_thermo_plant: `mandazi_east_african_doughnuts_step_7`
 - `mango_and_yellow_split_pea_curry/step_7`, create_heated_mixing: `mango_and_yellow_split_pea_curry_step_6`
+- `manx_smoked_salmon/step_10`, shapeless_crafting: `manx_smoked_salmon_step_9`
+- `manx_smoked_salmon/step_10`, create_deploying: `manx_smoked_salmon_step_9`
+- `manx_smoked_salmon/step_2`, shapeless_crafting: `smoked_salmon`
+- `manx_smoked_salmon/step_2`, create_compacting: `smoked_salmon`
+- `manx_smoked_salmon/step_3`, create_mixing: `manx_smoked_salmon_step_2`
+- `manx_smoked_salmon/step_3`, thermal_centrifuge: `manx_smoked_salmon_step_2`
+- `manx_smoked_salmon/step_4`, create_mixing: `manx_smoked_salmon_step_3`
+- `manx_smoked_salmon/step_5`, create_mixing: `manx_smoked_salmon_step_4`
+- `manx_smoked_salmon/step_5`, shapeless_crafting: `manx_smoked_salmon_step_4`
+- `manx_smoked_salmon/step_8`, shapeless_crafting: `manx_smoked_salmon_step_7`
 - `maple_barbecue_baby_back_ribs/step_4`, campfire: `maple_barbecue_baby_back_ribs_step_3`
 - `maple_barbecue_baby_back_ribs/step_4`, smoking: `maple_barbecue_baby_back_ribs_step_3`
 - `maple_barbecue_baby_back_ribs/step_5`, fd_cutting_board: `maple_barbecue_baby_back_ribs_step_4`
@@ -130138,6 +133260,20 @@ Each pruned route, and what it misses:
 - `mchemsho_tanzanian_cuisine/step_16`, shapeless_crafting: `mchemsho_tanzanian_cuisine_step_15`
 - `meat_masala/step_3`, vd_fermenting_jar: `meat_masala_step_2`
 - `meat_masala/step_3`, bnc_keg: `meat_masala_step_2`
+- `meatloaf_iv/step_2`, create_mixing: `whole_wheat_flour_toast`
+- `meatloaf_iv/step_2/prep_1`, smelting: `whole_wheat_flour`
+- `meatloaf_iv/step_2/prep_1`, smoking: `whole_wheat_flour`
+- `meatloaf_iv/step_2/prep_1`, thermal_smelter: `whole_wheat_flour`
+- `meatloaf_iv/step_3`, create_mixing: `meatloaf_iv_step_2`
+- `meatloaf_iv/step_3`, shapeless_crafting: `meatloaf_iv_step_2`
+- `meatloaf_iv/step_6`, shapeless_crafting: `meatloaf_iv_step_4`
+- `meatloaf_iv/step_6`, create_deploying: `meatloaf_iv_step_4`
+- `meatloaf_iv/step_6`, hexerei_mixing_cauldron: `meatloaf_iv_step_4`
+- `meatloaf_iv/step_6`, create_compacting: `meatloaf_iv_step_4`
+- `meatloaf_iv/step_7`, shapeless_crafting: `meatloaf_iv_step_6`
+- `meatloaf_iv/step_7`, create_deploying: `meatloaf_iv_step_6`
+- `meatloaf_iv/step_8`, smelting: `meatloaf_iv_step_7`
+- `meatloaf_iv/step_8`, smoking: `meatloaf_iv_step_7`
 - `meatloaf_v/step_4`, shapeless_crafting: `tomato_ketchup`
 - `meatloaf_v/step_4`, create_compacting: `tomato_ketchup`
 - `meatloaf_v/step_5`, smelting: `meatloaf_v_step_4`
@@ -130191,10 +133327,17 @@ Each pruned route, and what it misses:
 - `mexican_rice_pilaf/step_5`, thermal_centrifuge: `mexican_rice_pilaf_step_4`
 - `mexican_seasoning/step_2`, vd_fermenting_jar: `mexican_seasoning_step_1`
 - `mexican_seasoning/step_2`, bnc_keg: `mexican_seasoning_step_1`
+- `mhadjeb_algerian_stuffed_flatbread/step_1`, create_mixing: `semolina`
+- `mhadjeb_algerian_stuffed_flatbread/step_1`, shapeless_crafting: `semolina`
+- `mhadjeb_algerian_stuffed_flatbread/step_1`, hexerei_mixing_cauldron: `semolina`
 - `mhadjeb_algerian_stuffed_flatbread/step_10`, create_heated_mixing: `mhadjeb_algerian_stuffed_flatbread_step_8`
 - `mhadjeb_algerian_stuffed_flatbread/step_10`, pnc_thermo_plant: `mhadjeb_algerian_stuffed_flatbread_step_8`
 - `mhadjeb_algerian_stuffed_flatbread/step_11`, create_heated_mixing: `mhadjeb_algerian_stuffed_flatbread_step_10`
 - `mhadjeb_algerian_stuffed_flatbread/step_11`, pnc_thermo_plant: `mhadjeb_algerian_stuffed_flatbread_step_10`
+- `mhadjeb_algerian_stuffed_flatbread/step_3`, shapeless_crafting: `mhadjeb_algerian_stuffed_flatbread_step_2`
+- `mhadjeb_algerian_stuffed_flatbread/step_3`, create_deploying: `mhadjeb_algerian_stuffed_flatbread_step_2`
+- `mhadjeb_algerian_stuffed_flatbread/step_3`, hexerei_mixing_cauldron: `mhadjeb_algerian_stuffed_flatbread_step_2`
+- `mhadjeb_algerian_stuffed_flatbread/step_3`, create_compacting: `mhadjeb_algerian_stuffed_flatbread_step_2`
 - `mhadjeb_algerian_stuffed_flatbread/step_5`, create_heated_mixing: `mhadjeb_algerian_stuffed_flatbread_step_4`
 - `mhadjeb_algerian_stuffed_flatbread/step_6`, create_heated_mixing: `mhadjeb_algerian_stuffed_flatbread_step_5`
 - `mhadjeb_algerian_stuffed_flatbread/step_6`, fd_cooking_pot: `mhadjeb_algerian_stuffed_flatbread_step_5`
@@ -130217,12 +133360,23 @@ Each pruned route, and what it misses:
 - `mincemeat_tart/step_5`, create_compacting: `mincemeat_tart_step_4`
 - `mincemeat_tart/step_8`, shapeless_crafting: `mincemeat_tart_step_6`
 - `mincemeat_tart/step_8`, hexerei_mixing_cauldron: `mincemeat_tart_step_6`
+- `mini_english_muffin_pizzas/step_1/prep_1`, fd_cutting_board: `english_muffins`
+- `mini_english_muffin_pizzas/step_1/prep_1`, create_cutting: `english_muffins`
 - `mini_english_muffin_pizzas/step_2`, shapeless_crafting: `english_muffins_cut_cut`
 - `mini_english_muffin_pizzas/step_3`, shapeless_crafting: `mini_english_muffin_pizzas_step_2`
 - `mini_english_muffin_pizzas/step_3`, create_deploying: `mini_english_muffin_pizzas_step_2`
 - `mini_english_muffin_pizzas/step_4`, shapeless_crafting: `mini_english_muffin_pizzas_step_3`
 - `mini_english_muffin_pizzas/step_5`, smelting: `mini_english_muffin_pizzas_step_4`
 - `mini_english_muffin_pizzas/step_5`, smoking: `mini_english_muffin_pizzas_step_4`
+- `mini_three_cheese_english_muffin_pizzas/step_2`, shapeless_crafting: `english_muffins`
+- `mini_three_cheese_english_muffin_pizzas/step_3`, smelting: `mini_three_cheese_english_muffin_pizzas_step_2`
+- `mini_three_cheese_english_muffin_pizzas/step_3`, smoking: `mini_three_cheese_english_muffin_pizzas_step_2`
+- `mini_three_cheese_english_muffin_pizzas/step_3`, thermal_smelter: `mini_three_cheese_english_muffin_pizzas_step_2`
+- `mini_three_cheese_english_muffin_pizzas/step_4`, shapeless_crafting: `mini_three_cheese_english_muffin_pizzas_step_3`
+- `mini_three_cheese_english_muffin_pizzas/step_5`, shapeless_crafting: `mini_three_cheese_english_muffin_pizzas_step_4`
+- `mini_three_cheese_english_muffin_pizzas/step_6`, shapeless_crafting: `mini_three_cheese_english_muffin_pizzas_step_5`
+- `mini_three_cheese_english_muffin_pizzas/step_7`, smelting: `mini_three_cheese_english_muffin_pizzas_step_6`
+- `mini_three_cheese_english_muffin_pizzas/step_7`, smoking: `mini_three_cheese_english_muffin_pizzas_step_6`
 - `mishkaki_east_african_meat_skewers/step_2`, create_mixing: `mishkaki_east_african_meat_skewers_step_1`
 - `mishkaki_east_african_meat_skewers/step_2`, shapeless_crafting: `mishkaki_east_african_meat_skewers_step_1`
 - `mishkaki_east_african_meat_skewers/step_3`, create_heated_mixing: `mishkaki_east_african_meat_skewers_step_2`
@@ -130235,12 +133389,35 @@ Each pruned route, and what it misses:
 - `mixed_pickled_vegetables_acar_campur/step_4`, fd_cooking_pot: `mixed_pickled_vegetables_acar_campur_step_3`
 - `mixed_pickled_vegetables_acar_campur/step_5`, create_heated_mixing: `mixed_pickled_vegetables_acar_campur_step_4`
 - `mixed_pickled_vegetables_acar_campur/step_5`, fd_cooking_pot: `mixed_pickled_vegetables_acar_campur_step_4`
+- `miyan_ridi_nigerian_sesame_soup/step_4`, create_heated_mixing: `smoked_fish`
+- `miyan_ridi_nigerian_sesame_soup/step_4`, fd_cooking_pot: `smoked_fish`
+- `miyan_ridi_nigerian_sesame_soup/step_5`, create_heated_mixing: `miyan_ridi_nigerian_sesame_soup_step_4`
+- `miyan_ridi_nigerian_sesame_soup/step_5`, fd_cooking_pot: `miyan_ridi_nigerian_sesame_soup_step_4`
+- `miyan_ridi_nigerian_sesame_soup/step_6`, create_mixing: `miyan_ridi_nigerian_sesame_soup_step_5`
+- `miyan_ridi_nigerian_sesame_soup/step_6`, shapeless_crafting: `miyan_ridi_nigerian_sesame_soup_step_5`
 - `moambe_palm_nut_soup/step_10`, create_mixing: `moambe_palm_nut_soup_step_9`
 - `moambe_palm_nut_soup/step_10`, shapeless_crafting: `moambe_palm_nut_soup_step_9`
 - `moambe_palm_nut_soup/step_11`, create_heated_mixing: `moambe_palm_nut_soup_step_10`
 - `moambe_palm_nut_soup/step_8`, create_heated_mixing: `moambe_palm_nut_soup_step_7`
 - `moambe_palm_nut_soup/step_8`, fd_cooking_pot: `moambe_palm_nut_soup_step_7`
 - `moambe_palm_nut_soup/step_9`, create_mixing: `moambe_palm_nut_soup_step_8`
+- `mocha_delight/step_10`, create_mixing: `mocha_delight_step_9`
+- `mocha_delight/step_10`, shapeless_crafting: `mocha_delight_step_9`
+- `mocha_delight/step_10`, hexerei_mixing_cauldron: `mocha_delight_step_9`
+- `mocha_delight/step_14`, shapeless_crafting: `mocha_delight_step_12`
+- `mocha_delight/step_14`, create_deploying: `mocha_delight_step_12`
+- `mocha_delight/step_15`, shapeless_crafting: `mocha_delight_step_14`
+- `mocha_delight/step_15`, create_deploying: `mocha_delight_step_14`
+- `mocha_delight/step_17`, create_heated_mixing: `mocha_delight_step_16`
+- `mocha_delight/step_17`, fd_cooking_pot: `mocha_delight_step_16`
+- `mocha_delight/step_3`, create_compacting: `graham_cracker`
+- `mocha_delight/step_4`, shapeless_crafting: `mocha_delight_step_3`
+- `mocha_delight/step_5`, smelting: `mocha_delight_step_4`
+- `mocha_delight/step_5`, smoking: `mocha_delight_step_4`
+- `mocha_delight/step_7`, create_mixing: `mocha_delight_step_6`
+- `mocha_delight/step_8`, create_mixing: `mocha_delight_step_7`
+- `mocha_delight/step_9`, create_mixing: `mocha_delight_step_8`
+- `mocha_delight/step_9`, shapeless_crafting: `mocha_delight_step_8`
 - `modern_reuben_sandwich/step_6`, create_heated_mixing: `modern_reuben_sandwich_step_5`
 - `modern_reuben_sandwich/step_6`, pnc_thermo_plant: `modern_reuben_sandwich_step_5`
 - `modern_reuben_sandwich/step_7`, create_heated_mixing: `modern_reuben_sandwich_step_6`
@@ -130252,6 +133429,14 @@ Each pruned route, and what it misses:
 - `mofletta_maghrebi_pancake/step_8`, pnc_thermo_plant: `mofletta_maghrebi_pancake_step_5`
 - `mofletta_maghrebi_pancake/step_9`, shapeless_crafting: `mofletta_maghrebi_pancake_step_8`
 - `mofletta_maghrebi_pancake/step_9`, hexerei_mixing_cauldron: `mofletta_maghrebi_pancake_step_8`
+- `msemmen/step_1`, create_mixing: `semolina`
+- `msemmen/step_1`, shapeless_crafting: `semolina`
+- `msemmen/step_2`, create_mixing: `msemmen_step_1`
+- `msemmen/step_2`, shapeless_crafting: `msemmen_step_1`
+- `msemmen/step_2`, hexerei_mixing_cauldron: `msemmen_step_1`
+- `msemmen/step_5`, create_mixing: `msemmen_step_3`
+- `msemmen/step_6`, vd_fermenting_jar: `msemmen_step_5`
+- `msemmen/step_7`, create_heated_mixing: `msemmen_step_6`
 - `muceere_ugandan_pumpkin_stew/step_5`, create_mixing: `muceere_ugandan_pumpkin_stew_step_4`
 - `muceere_ugandan_pumpkin_stew/step_5`, shapeless_crafting: `muceere_ugandan_pumpkin_stew_step_4`
 - `muceere_ugandan_pumpkin_stew/step_6`, create_mixing: `muceere_ugandan_pumpkin_stew_step_5`
@@ -130260,7 +133445,7 @@ Each pruned route, and what it misses:
 - `muceere_ugandan_pumpkin_stew/step_7`, shapeless_crafting: `muceere_ugandan_pumpkin_stew_step_6`
 - `muceere_ugandan_pumpkin_stew/step_8`, create_heated_mixing: `muceere_ugandan_pumpkin_stew_step_7`
 - `muceere_ugandan_pumpkin_stew/step_8`, fd_cooking_pot: `muceere_ugandan_pumpkin_stew_step_7`
-- `muffuletta_sandwich/step_2`, shapeless_crafting: `muffuletta_sandwich_step_1`
+- `muffuletta_sandwich/step_2`, shapeless_crafting: `muffuletta_sandwich_step_1`, `salami`
 - `muffuletta_sandwich/step_4`, fd_cutting_board: `muffuletta_sandwich_step_3`
 - `muffuletta_sandwich/step_4`, create_cutting: `muffuletta_sandwich_step_3`
 - `muqmad/step_1`, fd_cutting_board: `lean_beef_cut`
@@ -130303,6 +133488,7 @@ Each pruned route, and what it misses:
 - `mussels_in_onion_and_butter_sauce_moules_mariniere/step_5`, thermal_centrifuge: `mussels_in_onion_and_butter_sauce_moules_mariniere_step_4`
 - `mussels_in_onion_and_butter_sauce_moules_mariniere/step_7`, create_mixing: `mussels_in_onion_and_butter_sauce_moules_mariniere_step_6`
 - `mussels_in_onion_and_butter_sauce_moules_mariniere/step_7`, shapeless_crafting: `mussels_in_onion_and_butter_sauce_moules_mariniere_step_6`
+- `mutton_jerky/dry`, hexerei_drying_rack: `salted_mutton_strips`
 - `naan/step_6`, smelting: `naan_step_5`
 - `naan/step_6`, smoking: `naan_step_5`
 - `nam_phrik_ong_thai_pork_and_tomato_dip/step_2`, create_mixing: `nam_phrik_ong_thai_pork_and_tomato_dip_step_1`
@@ -130311,6 +133497,9 @@ Each pruned route, and what it misses:
 - `nam_phrik_ong_thai_pork_and_tomato_dip/step_5`, create_heated_mixing: `nam_phrik_ong_thai_pork_and_tomato_dip_step_4`
 - `nam_phrik_ong_thai_pork_and_tomato_dip/step_5`, fd_cooking_pot: `nam_phrik_ong_thai_pork_and_tomato_dip_step_4`
 - `nam_phrik_ong_thai_pork_and_tomato_dip/step_6`, create_heated_mixing: `nam_phrik_ong_thai_pork_and_tomato_dip_step_5`
+- `nanaimo_bars_i/step_3`, create_mixing: `graham_cracker`
+- `nanaimo_bars_i/step_3`, shapeless_crafting: `graham_cracker`
+- `nanaimo_bars_i/step_5`, create_mixing: `nanaimo_bars_i_step_4`
 - `nanaimo_bars_i/step_9`, fd_cutting_board: `nanaimo_bars_i_step_8`
 - `nanaimo_bars_i/step_9`, create_cutting: `nanaimo_bars_i_step_8`
 - `nasi_goreng_indonesian_fried_rice/step_4`, create_heated_mixing: `nasi_goreng_indonesian_fried_rice_step_3`
@@ -130329,7 +133518,7 @@ Each pruned route, and what it misses:
 - `new_england_potato_salad/step_7`, shapeless_crafting: `new_england_potato_salad_step_6`
 - `new_york_city_style_pizza/step_9`, smelting: `new_york_city_style_pizza_step_8`
 - `new_york_city_style_pizza/step_9`, smoking: `new_york_city_style_pizza_step_8`
-- `nibbles/step_2`, create_mixing: `nibbles_step_1`
+- `nibbles/step_2`, create_mixing: `nibbles_step_1`, `pretzels`
 - `nibbles/step_4`, create_mixing: `nibbles_step_3`
 - `nibbles/step_4`, shapeless_crafting: `nibbles_step_3`
 - `nibbles/step_5`, smelting: `nibbles_step_4`
@@ -130340,6 +133529,14 @@ Each pruned route, and what it misses:
 - `nigerian_barbecued_chicken_wings/step_2`, shapeless_crafting: `nigerian_barbecued_chicken_wings_step_1`
 - `nigerian_barbecued_chicken_wings/step_4`, campfire: `nigerian_barbecued_chicken_wings_step_3`
 - `nigerian_barbecued_chicken_wings/step_4`, smoking: `nigerian_barbecued_chicken_wings_step_3`
+- `nigerian_cassava_fufu/step_1`, create_mixing: `manioc_flour`
+- `nigerian_cassava_fufu/step_1`, shapeless_crafting: `manioc_flour`
+- `nigerian_cassava_fufu/step_2`, create_heated_mixing: `nigerian_cassava_fufu_step_1`
+- `nigerian_cassava_fufu/step_2`, fd_cooking_pot: `nigerian_cassava_fufu_step_1`
+- `nigerian_cassava_fufu/step_4`, create_heated_mixing: `nigerian_cassava_fufu_step_3`
+- `nigerian_cassava_fufu/step_4`, fd_cooking_pot: `nigerian_cassava_fufu_step_3`
+- `nigerian_cassava_fufu/step_5`, create_heated_mixing: `nigerian_cassava_fufu_step_4`
+- `nigerian_cassava_fufu/step_5`, fd_cooking_pot: `nigerian_cassava_fufu_step_4`
 - `nigerian_cheesy_sausage_masa/step_11`, create_heated_mixing: `nigerian_cheesy_sausage_masa_step_10`
 - `nigerian_cheesy_sausage_masa/step_11`, pnc_thermo_plant: `nigerian_cheesy_sausage_masa_step_10`
 - `nigerian_cheesy_sausage_masa/step_12`, create_heated_mixing: `nigerian_cheesy_sausage_masa_step_11`
@@ -130360,6 +133557,12 @@ Each pruned route, and what it misses:
 - `nigerian_noodles/step_8`, create_heated_mixing: `nigerian_noodles_step_7`
 - `nigerian_noodles/step_8`, fd_cooking_pot: `nigerian_noodles_step_7`
 - `nigerian_noodles/step_9`, create_mixing: `nigerian_noodles_step_8`
+- `nigerian_oha_soup_ora_soup/step_5`, create_heated_mixing: `smoked_fish`
+- `nigerian_oha_soup_ora_soup/step_6`, create_heated_mixing: `nigerian_oha_soup_ora_soup_step_5`
+- `nigerian_okra_soup_ila_asepo/step_3`, create_heated_mixing: `smoked_fish`
+- `nigerian_okra_soup_ila_asepo/step_3`, fd_cooking_pot: `smoked_fish`
+- `nigerian_okra_soup_ila_asepo/step_4`, create_heated_mixing: `nigerian_okra_soup_ila_asepo_step_3`
+- `nigerian_okra_soup_ila_asepo/step_4`, fd_cooking_pot: `nigerian_okra_soup_ila_asepo_step_3`
 - `nigerian_yanrin/step_4`, create_heated_mixing: `nigerian_yanrin_step_3`
 - `nigerian_yanrin/step_4`, fd_cooking_pot: `nigerian_yanrin_step_3`
 - `nigerian_yanrin/step_5`, create_heated_mixing: `nigerian_yanrin_step_4`
@@ -130372,6 +133575,20 @@ Each pruned route, and what it misses:
 - `nilagang_baka_boiled_beef_and_vegetables_in_broth/step_2`, fd_cooking_pot: `nilagang_baka_boiled_beef_and_vegetables_in_broth_step_1`
 - `nilagang_baka_boiled_beef_and_vegetables_in_broth/step_3`, create_heated_mixing: `nilagang_baka_boiled_beef_and_vegetables_in_broth_step_2`
 - `nilagang_baka_boiled_beef_and_vegetables_in_broth/step_3`, fd_cooking_pot: `nilagang_baka_boiled_beef_and_vegetables_in_broth_step_2`
+- `nni_ede_nigerian_pounded_cocoyam/step_2`, create_mixing: `manioc_flour`
+- `nni_ede_nigerian_pounded_cocoyam/step_2`, shapeless_crafting: `manioc_flour`
+- `nni_ede_nigerian_pounded_cocoyam/step_3`, create_heated_mixing: `nni_ede_nigerian_pounded_cocoyam_step_2`
+- `nni_ede_nigerian_pounded_cocoyam/step_3`, fd_cooking_pot: `nni_ede_nigerian_pounded_cocoyam_step_2`
+- `nni_ede_nigerian_pounded_cocoyam/step_4`, create_mixing: `nni_ede_nigerian_pounded_cocoyam_step_3`
+- `no_bake_cheesecake/step_1`, shapeless_crafting: `digestive_biscuit_grind`
+- `no_bake_cheesecake/step_1`, create_compacting: `digestive_biscuit_grind`
+- `no_bake_cheesecake/step_2`, create_mixing: `no_bake_cheesecake_step_1`
+- `no_bake_cheesecake/step_3`, create_mixing: `no_bake_cheesecake_step_2`
+- `no_bake_cheesecake/step_3`, shapeless_crafting: `no_bake_cheesecake_step_2`
+- `no_bake_chocolate_cake/step_5`, create_mixing: `graham_cracker_grind`
+- `no_bake_chocolate_cake/step_5`, shapeless_crafting: `graham_cracker_grind`
+- `no_bake_chocolate_chip_cookie_pie/step_1`, shapeless_crafting: `graham_cracker`
+- `no_bake_chocolate_chip_cookie_pie/step_1`, hexerei_mixing_cauldron: `graham_cracker`
 - `no_bake_chocolate_pie/step_5`, fd_cutting_board: `no_bake_chocolate_pie_step_4`
 - `no_bake_chocolate_pie/step_5`, create_cutting: `no_bake_chocolate_pie_step_4`
 - `nut_roast/step_10`, shapeless_crafting: `nut_roast_step_9`
@@ -130384,6 +133601,8 @@ Each pruned route, and what it misses:
 - `nut_roast/step_4`, shapeless_crafting: `nut_roast_step_3`
 - `nut_roast/step_6`, shapeless_crafting: `nut_roast_step_4`
 - `nut_roast/step_6`, create_compacting: `nut_roast_step_4`
+- `nutritional_yeast/pasteurize`, create_heated_mixing: `yeast_culture`
+- `nutritional_yeast/pasteurize`, fd_cooking_pot: `yeast_culture`
 - `nutty_brownie_bars/step_5`, smelting: `nutty_brownie_bars_step_4`
 - `nutty_brownie_bars/step_5`, smoking: `nutty_brownie_bars_step_4`
 - `nutty_brownie_bars/step_6`, fd_cutting_board: `nutty_brownie_bars_step_5`
@@ -130436,6 +133655,8 @@ Each pruned route, and what it misses:
 - `onion_confit/step_6`, fd_cooking_pot: `onion_confit_step_5`
 - `onion_confit/step_8`, create_mixing: `onion_confit_step_7`
 - `onion_confit/step_8`, thermal_centrifuge: `onion_confit_step_7`
+- `onion_rings/fry`, create_heated_mixing: `battered_onion_rings`
+- `onion_rings/fry`, pnc_thermo_plant: `battered_onion_rings`
 - `orange_brulee/step_5`, create_mixing: `orange_brulee_step_4`
 - `orange_brulee/step_5`, shapeless_crafting: `orange_brulee_step_4`
 - `orange_brulee/step_6`, create_heated_mixing: `orange_brulee_step_5`
@@ -130452,10 +133673,18 @@ Each pruned route, and what it misses:
 - `orange_cardamom_pancakes/step_9`, pnc_thermo_plant: `orange_cardamom_pancakes_step_6`
 - `orange_chocolate_chip_muffins/step_6`, smelting: `orange_chocolate_chip_muffins_step_4`
 - `orange_chocolate_chip_muffins/step_6`, smoking: `orange_chocolate_chip_muffins_step_4`
+- `orange_glazed_sweet_potatoes/step_2`, create_mixing: `wheat_germ`
+- `orange_glazed_sweet_potatoes/step_4`, smelting: `orange_glazed_sweet_potatoes_step_2`
+- `orange_glazed_sweet_potatoes/step_4`, smoking: `orange_glazed_sweet_potatoes_step_2`
 - `orange_julius/step_2`, create_mixing: `orange_julius_step_1`
+- `orange_soda_i/step_5`, create_mixing: `carbonated_water`
+- `orange_soda_i/step_5`, shapeless_crafting: `carbonated_water`
+- `orange_soda_ii/step_4`, create_mixing: `carbonated_water`
+- `orange_soda_ii/step_4`, shapeless_crafting: `carbonated_water`
 - `oreo_pie/step_5`, shapeless_crafting: `oreo_pie_step_4`
 - `oreo_pie/step_5`, create_compacting: `oreo_pie_step_4`
 - `oreo_pie/step_6`, garnished_freezing: `oreo_pie_step_5`
+- `orzo_salad/step_6`, create_mixing: `feta_cheese`
 - `ossobuco_alla_milanese/step_7`, create_heated_mixing: `ossobuco_alla_milanese_step_6`
 - `ossobuco_alla_milanese/step_7`, fd_cooking_pot: `ossobuco_alla_milanese_step_6`
 - `ossobuco_alla_milanese/step_8`, create_heated_mixing: `ossobuco_alla_milanese_step_7`
@@ -130466,6 +133695,7 @@ Each pruned route, and what it misses:
 - `osumade_soup/step_7`, create_heated_mixing: `osumade_soup_step_6`
 - `osumade_soup/step_7`, fd_cooking_pot: `osumade_soup_step_6`
 - `osumade_soup/step_8`, create_heated_mixing: `osumade_soup_step_7`
+- `osumade_soup/step_8`, hexerei_mixing_cauldron: `osumade_soup_step_7`
 - `osumade_soup/step_9`, create_heated_mixing: `osumade_soup_step_8`
 - `osumade_soup/step_9`, fd_cooking_pot: `osumade_soup_step_8`
 - `oven_fried_chicken_breasts/step_4`, shapeless_crafting: `oven_fried_chicken_breasts_step_3`
@@ -130506,12 +133736,31 @@ Each pruned route, and what it misses:
 - `pan_de_jamon/step_5`, vd_fermenting_jar: `pan_de_jamon_step_4`
 - `pan_de_jamon/step_5`, pnc_thermo_plant: `pan_de_jamon_step_4`
 - `pan_de_jamon/step_7`, shapeless_crafting: `pan_de_jamon_step_6`
+- `panamanian_ropa_vieja/step_1`, create_mixing: `sazon`
+- `panamanian_ropa_vieja/step_1`, shapeless_crafting: `sazon`
+- `panamanian_ropa_vieja/step_2`, create_mixing: `panamanian_ropa_vieja_step_1`
+- `panamanian_ropa_vieja/step_3`, create_heated_mixing: `panamanian_ropa_vieja_step_2`
+- `panamanian_ropa_vieja/step_4`, shapeless_crafting: `panamanian_ropa_vieja_step_3`
+- `panamanian_ropa_vieja/step_5`, create_heated_mixing: `panamanian_ropa_vieja_step_4`
+- `panamanian_ropa_vieja/step_5`, fd_cooking_pot: `panamanian_ropa_vieja_step_4`
+- `panamanian_ropa_vieja/step_6`, create_mixing: `panamanian_ropa_vieja_step_5`
+- `panamanian_ropa_vieja/step_6`, thermal_centrifuge: `panamanian_ropa_vieja_step_5`
 - `pancakes_vegan/step_2`, create_mixing: `pancakes_vegan_step_1`
 - `pancakes_vegan/step_2`, shapeless_crafting: `pancakes_vegan_step_1`
 - `pancakes_vegan/step_4`, create_heated_mixing: `pancakes_vegan_step_2`
 - `pancakes_vegan/step_4`, pnc_thermo_plant: `pancakes_vegan_step_2`
 - `pancakes_vegan/step_5`, create_heated_mixing: `pancakes_vegan_step_4`
 - `pancakes_vegan/step_5`, pnc_thermo_plant: `pancakes_vegan_step_4`
+- `pancetta_fusilli_with_herb_shallot_cream/step_1`, create_heated_mixing: `pancetta_fry`
+- `pancetta_fusilli_with_herb_shallot_cream/step_1`, pnc_thermo_plant: `pancetta_fry`
+- `pancetta_fusilli_with_herb_shallot_cream/step_2`, create_heated_mixing: `pancetta_pan_fry_pan_fry`
+- `pancetta_fusilli_with_herb_shallot_cream/step_3`, create_heated_mixing: `pancetta_fusilli_with_herb_shallot_cream_step_2`
+- `pancetta_fusilli_with_herb_shallot_cream/step_3`, fd_cooking_pot: `pancetta_fusilli_with_herb_shallot_cream_step_2`
+- `pancetta_fusilli_with_herb_shallot_cream/step_4`, create_heated_mixing: `pancetta_fusilli_with_herb_shallot_cream_step_3`
+- `pancetta_fusilli_with_herb_shallot_cream/step_5`, create_mixing: `pancetta_fusilli_with_herb_shallot_cream_step_4`
+- `pancetta_fusilli_with_herb_shallot_cream/step_5`, shapeless_crafting: `pancetta_fusilli_with_herb_shallot_cream_step_4`
+- `pancetta_fusilli_with_herb_shallot_cream/step_6`, create_mixing: `pancetta_fusilli_with_herb_shallot_cream_step_5`
+- `pancetta_fusilli_with_herb_shallot_cream/step_6`, shapeless_crafting: `pancetta_fusilli_with_herb_shallot_cream_step_5`
 - `paneer_butter_masala/step_5`, create_mixing: `paneer_butter_masala_step_4`
 - `paneer_butter_masala/step_5`, shapeless_crafting: `paneer_butter_masala_step_4`
 - `paneer_butter_masala/step_6`, create_heated_mixing: `paneer_butter_masala_step_5`
@@ -130539,12 +133788,39 @@ Each pruned route, and what it misses:
 - `passover_hazelnut_chocolate_loaf/step_6`, create_heated_mixing: `passover_hazelnut_chocolate_loaf_step_5`
 - `passover_hazelnut_chocolate_loaf/step_6`, fd_cooking_pot: `passover_hazelnut_chocolate_loaf_step_5`
 - `passover_hazelnut_chocolate_loaf/step_8`, create_mixing: `passover_hazelnut_chocolate_loaf_step_7`
+- `pasta/dry`, hexerei_drying_rack: `raw_pasta`
+- `pasta_alla_gricia_pasta_with_guanciale/step_3`, create_heated_mixing: `guanciale_fry`
+- `pasta_alla_gricia_pasta_with_guanciale/step_3/prep_3`, create_heated_mixing: `guanciale`
+- `pasta_alla_gricia_pasta_with_guanciale/step_3/prep_3`, pnc_thermo_plant: `guanciale`
+- `pasta_alla_gricia_pasta_with_guanciale/step_4`, create_heated_mixing: `pasta_alla_gricia_pasta_with_guanciale_step_3`
+- `pasta_alla_gricia_pasta_with_guanciale/step_4`, pnc_thermo_plant: `pasta_alla_gricia_pasta_with_guanciale_step_3`
+- `pasta_alla_gricia_pasta_with_guanciale/step_5`, create_mixing: `pasta_alla_gricia_pasta_with_guanciale_step_4`
+- `pasta_alla_gricia_pasta_with_guanciale/step_5`, shapeless_crafting: `pasta_alla_gricia_pasta_with_guanciale_step_4`
 - `pasta_and_bean_soup_pasta_e_fagioli/step_9`, create_mixing: `pasta_and_bean_soup_pasta_e_fagioli_step_8`
 - `pasta_and_bean_soup_pasta_e_fagioli/step_9`, shapeless_crafting: `pasta_and_bean_soup_pasta_e_fagioli_step_8`
+- `pasta_casserole_pastitsio/step_16`, create_mixing: `feta_cheese`
+- `pasta_casserole_pastitsio/step_16`, shapeless_crafting: `feta_cheese`
+- `pasta_casserole_pastitsio/step_21`, shapeless_crafting: `pasta_casserole_pastitsio_step_20`
+- `pasta_casserole_pastitsio/step_22`, smelting: `pasta_casserole_pastitsio_step_21`
+- `pasta_casserole_pastitsio/step_22`, smoking: `pasta_casserole_pastitsio_step_21`
+- `pasta_marinata/step_1`, create_mixing: `semolina`
+- `pasta_marinata/step_1`, shapeless_crafting: `semolina`
+- `pasta_marinata/step_2`, create_mixing: `pasta_marinata_step_1`
+- `pasta_marinata/step_2`, shapeless_crafting: `pasta_marinata_step_1`
+- `pasta_marinata/step_2`, hexerei_mixing_cauldron: `pasta_marinata_step_1`
 - `pasta_meat_and_cheese_casserole_mostaccioli/step_7`, smelting: `pasta_meat_and_cheese_casserole_mostaccioli_step_6`
 - `pasta_meat_and_cheese_casserole_mostaccioli/step_7`, smoking: `pasta_meat_and_cheese_casserole_mostaccioli_step_6`
 - `pasta_soup_for_kids/step_6`, create_heated_mixing: `pasta_soup_for_kids_step_5`
 - `pasta_soup_for_kids/step_6`, fd_cooking_pot: `pasta_soup_for_kids_step_5`
+- `pasta_with_pancetta_and_cauliflower/step_2`, create_heated_mixing: `pancetta_fry`
+- `pasta_with_pancetta_and_cauliflower/step_3`, create_heated_mixing: `pasta_with_pancetta_and_cauliflower_step_2`
+- `pasta_with_pancetta_and_cauliflower/step_3`, fd_cooking_pot: `pasta_with_pancetta_and_cauliflower_step_2`
+- `pasta_with_pancetta_and_cauliflower/step_4`, create_heated_mixing: `pasta_with_pancetta_and_cauliflower_step_3`
+- `pasta_with_pancetta_and_cauliflower/step_5`, create_mixing: `pasta_with_pancetta_and_cauliflower_step_4`
+- `pasta_with_pancetta_and_cauliflower/step_6`, create_mixing: `pasta_with_pancetta_and_cauliflower_step_5`
+- `pasta_with_pancetta_and_cauliflower/step_6`, thermal_centrifuge: `pasta_with_pancetta_and_cauliflower_step_5`
+- `pasta_with_pancetta_and_cauliflower/step_8`, shapeless_crafting: `pasta_with_pancetta_and_cauliflower_step_7`
+- `pasta_with_pancetta_and_cauliflower/step_8`, create_deploying: `pasta_with_pancetta_and_cauliflower_step_7`
 - `pasties/step_12`, smelting: `pasties_step_10`
 - `pasties/step_12`, smoking: `pasties_step_10`
 - `pasties/step_3`, shapeless_crafting: `pastry_for_cornish_pasties_cut`
@@ -130576,6 +133852,8 @@ Each pruned route, and what it misses:
 - `pea_soup_quebecois_style/step_8`, fd_cooking_pot: `pea_soup_quebecois_style_step_7`
 - `pea_soup_quebecois_style/step_9`, create_mixing: `pea_soup_quebecois_style_step_8`
 - `pea_soup_quebecois_style/step_9`, shapeless_crafting: `pea_soup_quebecois_style_step_8`
+- `peach_pie/bake`, smelting: `unbaked_peach_pie`
+- `peach_pie/bake`, smoking: `unbaked_peach_pie`
 - `peach_pie/step_10`, create_mixing: `peach_pie_step_9`
 - `peach_pie/step_11`, shapeless_crafting: `peach_pie_step_10`
 - `peach_pie/step_11`, create_deploying: `peach_pie_step_10`
@@ -130591,6 +133869,8 @@ Each pruned route, and what it misses:
 - `peanut_milk/step_5`, thermal_centrifuge: `peanut_milk_step_4`
 - `peanut_milk/step_6`, create_mixing: `peanut_milk_step_5`
 - `peanut_milk/step_6`, thermal_press: `peanut_milk_step_5`
+- `peanut_sauce_saus_kacang/step_2`, create_mixing: `sambal_oelek`
+- `peanut_sauce_saus_kacang/step_2`, shapeless_crafting: `sambal_oelek`
 - `pear_chutney/step_3`, create_mixing: `pear_chutney_step_2`
 - `pear_chutney/step_5`, create_heated_mixing: `pear_chutney_step_4`
 - `pear_chutney/step_5`, fd_cooking_pot: `pear_chutney_step_4`
@@ -130638,6 +133918,7 @@ Each pruned route, and what it misses:
 - `pecan_pie/step_6`, create_mixing: `pecan_pie_step_5`
 - `pecan_pie/step_6`, shapeless_crafting: `pecan_pie_step_5`
 - `pecan_pie/step_6`, hexerei_mixing_cauldron: `pecan_pie_step_5`
+- `pemmican/mix`, create_mixing: `dried_lean_beef`
 - `penne_alla_casa_penne_in_creamy_tomato_sauce/step_8`, create_mixing: `penne_alla_casa_penne_in_creamy_tomato_sauce_step_7`
 - `penne_alla_casa_penne_in_creamy_tomato_sauce/step_8`, shapeless_crafting: `penne_alla_casa_penne_in_creamy_tomato_sauce_step_7`
 - `pepes_ikan_indonesian_steamed_fish/step_10`, campfire: `pepes_ikan_indonesian_steamed_fish_step_9`
@@ -130653,6 +133934,13 @@ Each pruned route, and what it misses:
 - `pepes_ikan_indonesian_steamed_fish/step_7`, create_mixing: `pepes_ikan_indonesian_steamed_fish_step_6`
 - `pepes_ikan_indonesian_steamed_fish/step_9`, create_heated_mixing: `pepes_ikan_indonesian_steamed_fish_step_8`
 - `pepes_ikan_indonesian_steamed_fish/step_9`, fd_cooking_pot: `pepes_ikan_indonesian_steamed_fish_step_8`
+- `pepper_soda/step_4`, create_mixing: `carbonated_water`
+- `pepper_soda/step_4`, shapeless_crafting: `carbonated_water`
+- `pepperoni/dry`, hexerei_drying_rack: `fermented_pepperoni`
+- `pepperoni/ferment`, vd_fermenting_jar: `pepperoni_mix`
+- `pepperoni/ferment`, pnc_thermo_plant: `pepperoni_mix`
+- `pepperoni_pasta_salad/step_1`, create_mixing: `italian_dressing`
+- `pepperoni_pasta_salad/step_1`, shapeless_crafting: `italian_dressing`
 - `percolator_punch/step_3`, create_heated_mixing: `percolator_punch_step_2`
 - `percolator_punch/step_3`, fd_cooking_pot: `percolator_punch_step_2`
 - `peri_peri_chicken/step_4`, smelting: `peri_peri_chicken_step_3`
@@ -130735,6 +134023,8 @@ Each pruned route, and what it misses:
 - `poppyseed_chicken/step_4`, shapeless_crafting: `poppyseed_chicken_step_3`
 - `poppyseed_chicken/step_5`, smelting: `poppyseed_chicken_step_4`
 - `poppyseed_chicken/step_5`, smoking: `poppyseed_chicken_step_4`
+- `pork_and_beans/bake`, smelting: `raw_pork_and_beans`
+- `pork_and_beans/bake`, smoking: `raw_pork_and_beans`
 - `pork_burritos_with_green_pepper_sauce/step_10`, create_heated_mixing: `pork_burritos_with_green_pepper_sauce_step_9`
 - `pork_burritos_with_green_pepper_sauce/step_10`, fd_cooking_pot: `pork_burritos_with_green_pepper_sauce_step_9`
 - `pork_burritos_with_green_pepper_sauce/step_11`, create_heated_mixing: `pork_burritos_with_green_pepper_sauce_step_10`
@@ -130756,6 +134046,9 @@ Each pruned route, and what it misses:
 - `pork_chops_cacciatore/step_8`, fd_cooking_pot: `pork_chops_cacciatore_step_7`
 - `pork_gyoza/step_11`, create_heated_mixing: `peanut_curry_sauce`
 - `pork_gyoza/step_11`, fd_cooking_pot: `peanut_curry_sauce`
+- `pork_jerky/dry`, hexerei_drying_rack: `salted_pork_strips`
+- `pork_pot_pie/bake`, smelting: `unbaked_pork_pot_pie`
+- `pork_pot_pie/bake`, smoking: `unbaked_pork_pot_pie`
 - `pork_stomach_filled_with_meat_and_vegetables_saumagen/step_3`, create_heated_mixing: `pork_stomach_filled_with_meat_and_vegetables_saumagen_step_2`
 - `pork_stomach_filled_with_meat_and_vegetables_saumagen/step_3`, fd_cooking_pot: `pork_stomach_filled_with_meat_and_vegetables_saumagen_step_2`
 - `pork_stomach_filled_with_meat_and_vegetables_saumagen/step_4`, shapeless_crafting: `pork_stomach_filled_with_meat_and_vegetables_saumagen_step_3`
@@ -130842,13 +134135,14 @@ Each pruned route, and what it misses:
 - `prickly_pear_soda/step_2`, shapeless_crafting: `prickly_pear_cut_cut`
 - `prickly_pear_soda/step_2`, hexerei_mixing_cauldron: `prickly_pear_cut_cut`
 - `prickly_pear_soda/step_3`, create_heated_mixing: `prickly_pear_soda_step_2`
-- `prickly_pear_soda/step_4`, create_mixing: `prickly_pear_soda_step_3`
-- `prickly_pear_soda/step_4`, shapeless_crafting: `prickly_pear_soda_step_3`
+- `prickly_pear_soda/step_4`, create_mixing: `carbonated_water`, `prickly_pear_soda_step_3`
+- `prickly_pear_soda/step_4`, shapeless_crafting: `carbonated_water`, `prickly_pear_soda_step_3`
 - `prime_rib_dinner/step_12`, create_heated_mixing: `prime_rib_dinner_step_11`
 - `puff_pastry_with_nuts_and_whipped_cream_om_ali/step_2`, smelting: `puff_pastry_bake`
 - `puff_pastry_with_nuts_and_whipped_cream_om_ali/step_2`, smoking: `puff_pastry_bake`
 - `puff_pastry_with_nuts_and_whipped_cream_om_ali/step_4`, create_mixing: `puff_pastry_bake_bake`
 - `puff_pastry_with_nuts_and_whipped_cream_om_ali/step_5`, create_mixing: `puff_pastry_with_nuts_and_whipped_cream_om_ali_step_4`
+- `puff_pastry_with_nuts_and_whipped_cream_om_ali/step_6`, shapeless_crafting: `puff_pastry_with_nuts_and_whipped_cream_om_ali_step_5`
 - `puff_pastry_with_nuts_and_whipped_cream_om_ali/step_7`, smelting: `puff_pastry_with_nuts_and_whipped_cream_om_ali_step_6`
 - `puff_pastry_with_nuts_and_whipped_cream_om_ali/step_7`, smoking: `puff_pastry_with_nuts_and_whipped_cream_om_ali_step_6`
 - `puliyodarai_south_indian_tamarind_rice/step_2`, hexerei_pestle_and_mortar: `puliyodarai_south_indian_tamarind_rice_step_1`
@@ -130870,6 +134164,20 @@ Each pruned route, and what it misses:
 - `pupusas/step_8`, create_compacting: `pupusas_step_7`
 - `pupusas/step_9`, create_heated_mixing: `pupusas_step_8`
 - `pupusas/step_9`, pnc_thermo_plant: `pupusas_step_8`
+- `puri_indian_fried_flatbread/step_1`, create_mixing: `semolina`, `whole_wheat_flour`
+- `puri_indian_fried_flatbread/step_1`, shapeless_crafting: `semolina`, `whole_wheat_flour`
+- `puri_indian_fried_flatbread/step_2`, create_mixing: `puri_indian_fried_flatbread_step_1`
+- `puri_indian_fried_flatbread/step_2`, shapeless_crafting: `puri_indian_fried_flatbread_step_1`
+- `puri_indian_fried_flatbread/step_2`, hexerei_mixing_cauldron: `puri_indian_fried_flatbread_step_1`
+- `puri_indian_fried_flatbread/step_3`, create_mixing: `puri_indian_fried_flatbread_step_2`
+- `puri_indian_fried_flatbread/step_3`, shapeless_crafting: `puri_indian_fried_flatbread_step_2`
+- `puri_indian_fried_flatbread/step_3`, hexerei_mixing_cauldron: `puri_indian_fried_flatbread_step_2`
+- `puri_indian_fried_flatbread/step_5`, vd_fermenting_jar: `puri_indian_fried_flatbread_step_4`
+- `puri_indian_fried_flatbread/step_6`, create_heated_mixing: `puri_indian_fried_flatbread_step_5`
+- `puri_indian_fried_flatbread/step_6`, fd_cooking_pot: `puri_indian_fried_flatbread_step_5`
+- `puri_indian_fried_flatbread/step_8`, create_heated_mixing: `puri_indian_fried_flatbread_step_7`
+- `puri_indian_fried_flatbread/step_8`, pnc_thermo_plant: `puri_indian_fried_flatbread_step_7`
+- `puri_indian_fried_flatbread/step_9`, hexerei_drying_rack: `puri_indian_fried_flatbread_step_8`
 - `quiche_lorraine/step_11`, fd_cutting_board: `quiche_lorraine_step_10`
 - `quiche_lorraine/step_11`, create_cutting: `quiche_lorraine_step_10`
 - `quiche_lorraine/step_4`, create_heated_mixing: `onion_confit`
@@ -130884,9 +134192,11 @@ Each pruned route, and what it misses:
 - `quick_and_delicious_pineapple_upside_down_cake/step_5`, smoking: `quick_and_delicious_pineapple_upside_down_cake_step_4`
 - `quick_guacamole_ii/step_2`, create_mixing: `avocado_cut_chop`
 - `quick_guacamole_ii/step_2`, shapeless_crafting: `avocado_cut_chop`
+- `quick_sparkling_lemonade/step_2`, create_mixing: `carbonated_water`
 - `quinoa_vegetable_slaw_with_peanut_dressing_gluten_free/step_4`, create_mixing: `quinoa_vegetable_slaw_with_peanut_dressing_gluten_free_step_3`
 - `quinoa_vegetable_slaw_with_peanut_dressing_gluten_free/step_5`, create_mixing: `quinoa_vegetable_slaw_with_peanut_dressing_gluten_free_step_4`
 - `quinoa_vegetable_slaw_with_peanut_dressing_gluten_free/step_5`, shapeless_crafting: `quinoa_vegetable_slaw_with_peanut_dressing_gluten_free_step_4`
+- `rabbit_jerky/dry`, hexerei_drying_rack: `salted_rabbit_strips`
 - `radish_pie/step_3`, shapeless_crafting: `radish_pie_step_2`
 - `radish_pie/step_3`, create_compacting: `radish_pie_step_2`
 - `radish_pie/step_4`, create_heated_mixing: `radish_pie_step_3`
@@ -130901,6 +134211,9 @@ Each pruned route, and what it misses:
 - `radish_stew/step_7`, shapeless_crafting: `radish_stew_step_6`
 - `radish_stew/step_8`, create_mixing: `radish_stew_step_7`
 - `radish_stew/step_8`, thermal_centrifuge: `radish_stew_step_7`
+- `raisin_oatmeal_muffins/step_3`, create_mixing: `whole_wheat_flour`
+- `raisin_oatmeal_muffins/step_6`, smelting: `raisin_oatmeal_muffins_step_5`
+- `raisin_oatmeal_muffins/step_6`, smoking: `raisin_oatmeal_muffins_step_5`
 - `raita/step_3`, create_mixing: `mint_chop`
 - `raita/step_3`, shapeless_crafting: `mint_chop`
 - `raita/step_4`, create_mixing: `raita_step_3`
@@ -130929,6 +134242,9 @@ Each pruned route, and what it misses:
 - `ratatouille_i/step_8`, fd_cooking_pot: `ratatouille_i_step_7`
 - `ratatouille_i/step_9`, create_mixing: `ratatouille_i_step_8`
 - `ratatouille_i/step_9`, shapeless_crafting: `ratatouille_i_step_8`
+- `rava_dosa_indian_semolina_pancake/step_1`, create_mixing: `semolina`
+- `rava_dosa_indian_semolina_pancake/step_4`, create_heated_mixing: `rava_dosa_indian_semolina_pancake_step_3`
+- `rava_dosa_indian_semolina_pancake/step_4`, pnc_thermo_plant: `rava_dosa_indian_semolina_pancake_step_3`
 - `recaito_puerto_rican_culantro_sauce/step_4`, create_mixing: `recaito_puerto_rican_culantro_sauce_step_3`
 - `red_and_white_onion_tapenade/step_2`, create_mixing: `red_and_white_onion_tapenade_step_1`
 - `rendang_indonesian_beef_and_coconut_stew/step_2`, create_mixing: `rendang_indonesian_beef_and_coconut_stew_step_1`
@@ -130949,6 +134265,12 @@ Each pruned route, and what it misses:
 - `rhubarb_pudding/step_6`, smoking: `rhubarb_pudding_step_5`
 - `rice_and_lentils_mejadra/step_8`, create_heated_mixing: `rice_and_lentils_mejadra_step_7`
 - `rice_and_lentils_mejadra/step_8`, pnc_thermo_plant: `rice_and_lentils_mejadra_step_7`
+- `rice_oat_semolina_burger/step_1`, create_mixing: `semolina`
+- `rice_oat_semolina_burger/step_1`, shapeless_crafting: `semolina`
+- `rice_oat_semolina_burger/step_3`, create_mixing: `rice_oat_semolina_burger_step_2`
+- `rice_oat_semolina_burger/step_3`, shapeless_crafting: `rice_oat_semolina_burger_step_2`
+- `rice_oat_semolina_burger/step_4`, create_heated_mixing: `rice_oat_semolina_burger_step_3`
+- `rice_oat_semolina_burger/step_5`, create_heated_mixing: `rice_oat_semolina_burger_step_4`
 - `rice_pilaf/step_4`, shapeless_crafting: `rice_pilaf_step_3`
 - `rice_pilaf/step_5`, create_mixing: `rice_pilaf_step_4`
 - `rice_pilaf/step_5`, shapeless_crafting: `rice_pilaf_step_4`
@@ -131031,7 +134353,7 @@ Each pruned route, and what it misses:
 - `roast_butternut_biltong_and_brown_rice_salad/step_5`, smelting: `roast_butternut_biltong_and_brown_rice_salad_step_4`
 - `roast_butternut_biltong_and_brown_rice_salad/step_5`, smoking: `roast_butternut_biltong_and_brown_rice_salad_step_4`
 - `roast_butternut_biltong_and_brown_rice_salad/step_5`, thermal_smelter: `roast_butternut_biltong_and_brown_rice_salad_step_4`
-- `roast_butternut_biltong_and_brown_rice_salad/step_6`, create_mixing: `roast_butternut_biltong_and_brown_rice_salad_step_5`
+- `roast_butternut_biltong_and_brown_rice_salad/step_6`, create_mixing: `feta_cheese`, `roast_butternut_biltong_and_brown_rice_salad_step_5`
 - `roast_iguana_with_birria_marinade/step_4`, create_mixing: `roast_iguana_with_birria_marinade_step_3`
 - `roast_iguana_with_birria_marinade/step_6`, smelting: `roast_iguana_with_birria_marinade_step_5`
 - `roast_iguana_with_birria_marinade/step_6`, smoking: `roast_iguana_with_birria_marinade_step_5`
@@ -131111,6 +134433,8 @@ Each pruned route, and what it misses:
 - `rolitos_gibraltarian_beef_rolls/step_6`, fd_cooking_pot: `rolitos_gibraltarian_beef_rolls_step_5`
 - `rolitos_gibraltarian_beef_rolls/step_7`, create_heated_mixing: `rolitos_gibraltarian_beef_rolls_step_6`
 - `rolitos_gibraltarian_beef_rolls/step_7`, fd_cooking_pot: `rolitos_gibraltarian_beef_rolls_step_6`
+- `rosemary_and_citrus_cordial/step_8`, create_mixing: `carbonated_water`
+- `rosemary_and_citrus_cordial/step_8`, shapeless_crafting: `carbonated_water`
 - `rosemary_bread/step_2`, create_mixing: `rosemary_bread_step_1`
 - `rosemary_bread/step_2`, shapeless_crafting: `rosemary_bread_step_1`
 - `rosemary_bread/step_4`, vd_fermenting_jar: `rosemary_bread_step_3`
@@ -131132,10 +134456,14 @@ Each pruned route, and what it misses:
 - `russian_salad/step_3`, shapeless_crafting: `russian_salad_step_2`
 - `russian_salad/step_4`, create_mixing: `russian_salad_step_3`
 - `russian_salad/step_4`, shapeless_crafting: `russian_salad_step_3`
+- `rustic_beer_bread/step_1`, create_mixing: `whole_wheat_flour`
+- `rustic_beer_bread/step_4`, vd_fermenting_jar: `rustic_beer_bread_step_3`
+- `rustic_beer_bread/step_4`, pnc_thermo_plant: `rustic_beer_bread_step_3`
+- `rustic_beer_bread/step_5`, smelting: `rustic_beer_bread_step_4`
+- `rustic_beer_bread/step_5`, smoking: `rustic_beer_bread_step_4`
 - `rwandan_goat_brochette/step_5`, campfire: `rwandan_goat_brochette_step_4`
 - `rwandan_goat_brochette/step_5`, smoking: `rwandan_goat_brochette_step_4`
 - `rye_bread_layer_cake/step_8`, shapeless_crafting: `rye_bread_layer_cake_step_7`
-- `rye_bread_layer_cake/step_8`, create_deploying: `rye_bread_layer_cake_step_7`
 - `saffron_rice_and_beans/step_11`, create_mixing: `saffron_rice_and_beans_step_10`
 - `saffron_rice_and_beans/step_11`, shapeless_crafting: `saffron_rice_and_beans_step_10`
 - `saffron_rice_and_beans/step_6`, create_mixing: `steamed_basmati_rice`
@@ -131148,22 +134476,46 @@ Each pruned route, and what it misses:
 - `saffron_rice_and_beans/step_9`, fd_cooking_pot: `saffron_rice_and_beans_step_8`
 - `salade_frisee/step_4`, shapeless_crafting: `salade_frisee_step_3`
 - `salade_frisee/step_4`, create_deploying: `salade_frisee_step_3`
+- `salami/dry`, hexerei_drying_rack: `fermented_salami_mix`
+- `salami/ferment`, vd_fermenting_jar: `salami_mix`
+- `salami/ferment`, pnc_thermo_plant: `salami_mix`
 - `salata_de_boeuf_romanian_beef_salad/step_10`, create_mixing: `salata_de_boeuf_romanian_beef_salad_step_9`
 - `salata_de_boeuf_romanian_beef_salad/step_11`, create_mixing: `salata_de_boeuf_romanian_beef_salad_step_10`
 - `salata_de_boeuf_romanian_beef_salad/step_11`, thermal_centrifuge: `salata_de_boeuf_romanian_beef_salad_step_10`
 - `salata_de_boeuf_romanian_beef_salad/step_15`, shapeless_crafting: `salata_de_boeuf_romanian_beef_salad_step_12`
 - `salata_de_boeuf_romanian_beef_salad/step_8`, create_mixing: `salata_de_boeuf_romanian_beef_salad_step_7`
 - `salata_de_boeuf_romanian_beef_salad/step_9`, create_mixing: `salata_de_boeuf_romanian_beef_salad_step_8`
+- `salmon_spaghetti/step_2`, create_heated_mixing: `smoked_salmon_chop`
+- `salmon_spaghetti/step_2/prep_3`, fd_cutting_board: `smoked_salmon`
+- `salmon_spaghetti/step_2/prep_3`, create_cutting: `smoked_salmon`
+- `salmon_spaghetti/step_3`, create_mixing: `salmon_spaghetti_step_2`
+- `salmon_spaghetti/step_3`, shapeless_crafting: `salmon_spaghetti_step_2`
+- `salmon_spaghetti/step_4`, create_mixing: `salmon_spaghetti_step_3`
+- `salmon_spaghetti/step_4`, shapeless_crafting: `salmon_spaghetti_step_3`
+- `salmon_spaghetti/step_5`, create_heated_mixing: `salmon_spaghetti_step_4`
+- `salmon_spaghetti/step_5`, fd_cooking_pot: `salmon_spaghetti_step_4`
 - `salsa_fermented/step_6`, create_mixing: `salsa_fermented_step_5`
 - `salsa_fermented/step_8`, vd_fermenting_jar: `salsa_fermented_step_7`
 - `salsa_fermented/step_8`, pnc_thermo_plant: `salsa_fermented_step_7`
 - `salsa_fermented/step_9`, vd_fermenting_jar: `salsa_fermented_step_8`
 - `salsa_fermented/step_9`, bnc_keg: `salsa_fermented_step_8`
 - `salsa_fermented/step_9`, pnc_thermo_plant: `salsa_fermented_step_8`
+- `salt_cod_and_potato_casserole_bacalhau_a_gomes_de_sa/step_2`, create_heated_mixing: `salt_cod_soak_soak`
+- `salt_cod_and_potato_casserole_bacalhau_a_gomes_de_sa/step_2`, fd_cooking_pot: `salt_cod_soak_soak`
+- `salt_cod_and_potato_casserole_bacalhau_a_gomes_de_sa/step_3`, create_heated_mixing: `salt_cod_soak_soak_simmer`
+- `salt_cod_and_potato_casserole_bacalhau_a_gomes_de_sa/step_4`, create_heated_mixing: `salt_cod_and_potato_casserole_bacalhau_a_gomes_de_sa_step_3`
+- `salt_cod_and_potato_casserole_bacalhau_a_gomes_de_sa/step_6`, smelting: `salt_cod_and_potato_casserole_bacalhau_a_gomes_de_sa_step_5`
+- `salt_cod_and_potato_casserole_bacalhau_a_gomes_de_sa/step_6`, smoking: `salt_cod_and_potato_casserole_bacalhau_a_gomes_de_sa_step_5`
 - `salty_namkin_lassi/step_2`, create_mixing: `salty_namkin_lassi_step_1`
 - `sambal_tempoyak_anchovies_with_fermented_durian_chili_paste/step_3`, create_heated_mixing: `sambal_tempoyak_anchovies_with_fermented_durian_chili_paste_step_2`
 - `sambal_tempoyak_anchovies_with_fermented_durian_chili_paste/step_4`, create_heated_mixing: `sambal_tempoyak_anchovies_with_fermented_durian_chili_paste_step_3`
 - `sambal_tempoyak_anchovies_with_fermented_durian_chili_paste/step_4`, fd_cooking_pot: `sambal_tempoyak_anchovies_with_fermented_durian_chili_paste_step_3`
+- `sambar_i/step_2`, create_heated_mixing: `sambhar_masala`
+- `sambar_i/step_3`, create_heated_mixing: `sambar_i_step_2`
+- `sambar_i/step_4`, create_heated_mixing: `sambar_i_step_3`
+- `sambar_i/step_4`, fd_cooking_pot: `sambar_i_step_3`
+- `sambar_i/step_5`, create_mixing: `sambar_i_step_4`
+- `sambar_i/step_5`, shapeless_crafting: `sambar_i_step_4`
 - `sambar_ii_kerala_tamil_style/step_3`, create_heated_mixing: `sambar_ii_kerala_tamil_style_step_2`
 - `sambar_ii_kerala_tamil_style/step_3`, pnc_thermo_plant: `sambar_ii_kerala_tamil_style_step_2`
 - `sambar_ii_kerala_tamil_style/step_4`, create_heated_mixing: `sambar_ii_kerala_tamil_style_step_3`
@@ -131179,6 +134531,8 @@ Each pruned route, and what it misses:
 - `sandwich_layer_cake/step_9`, shapeless_crafting: `sandwich_layer_cake_step_8`
 - `sangria/step_3`, create_mixing: `sangria_step_2`
 - `sangria/step_3`, shapeless_crafting: `sangria_step_2`
+- `sarsaparilla_soda/step_4`, create_mixing: `carbonated_water`
+- `sarsaparilla_soda/step_4`, shapeless_crafting: `carbonated_water`
 - `sauce_feuilles_greens_stew/step_10`, create_heated_mixing: `sauce_feuilles_greens_stew_step_9`
 - `sauce_feuilles_greens_stew/step_10`, fd_cooking_pot: `sauce_feuilles_greens_stew_step_9`
 - `sauce_feuilles_greens_stew/step_3`, create_mixing: `sauce_feuilles_greens_stew_step_2`
@@ -131241,6 +134595,11 @@ Each pruned route, and what it misses:
 - `scotch_bonnet_pepper_poppers/step_7`, smoking: `scotch_bonnet_pepper_poppers_step_5`
 - `seafood_cocktail_sauce/step_3`, create_mixing: `seafood_cocktail_sauce_step_2`
 - `seafood_cocktail_sauce/step_3`, shapeless_crafting: `seafood_cocktail_sauce_step_2`
+- `seafood_fried_rice/step_2`, create_heated_mixing: `fishball`
+- `seafood_fried_rice/step_3`, create_mixing: `seafood_fried_rice_step_2`
+- `seafood_fried_rice/step_3`, shapeless_crafting: `seafood_fried_rice_step_2`
+- `seafood_fried_rice/step_4`, create_mixing: `seafood_fried_rice_step_3`
+- `seafood_fried_rice/step_4`, shapeless_crafting: `seafood_fried_rice_step_3`
 - `seafood_kebabs_with_zhoug_sauce/step_3`, create_mixing: `seafood_kebabs_with_zhoug_sauce_step_2`
 - `seafood_kebabs_with_zhoug_sauce/step_4`, create_heated_mixing: `seafood_kebabs_with_zhoug_sauce_step_3`
 - `seafood_kebabs_with_zhoug_sauce/step_4`, fd_cooking_pot: `seafood_kebabs_with_zhoug_sauce_step_3`
@@ -131252,11 +134611,41 @@ Each pruned route, and what it misses:
 - `sega_wat_spicy_ethiopian_beef_stew/step_6`, fd_cooking_pot: `sega_wat_spicy_ethiopian_beef_stew_step_5`
 - `sega_wat_spicy_ethiopian_beef_stew/step_7`, create_heated_mixing: `sega_wat_spicy_ethiopian_beef_stew_step_6`
 - `sega_wat_spicy_ethiopian_beef_stew/step_7`, fd_cooking_pot: `sega_wat_spicy_ethiopian_beef_stew_step_6`
+- `semo_nigerian_cooked_semolina/step_2`, create_mixing: `semolina`
+- `semo_nigerian_cooked_semolina/step_2`, shapeless_crafting: `semolina`
+- `semo_nigerian_cooked_semolina/step_4`, create_heated_mixing: `semo_nigerian_cooked_semolina_step_3`
+- `semo_nigerian_cooked_semolina/step_4`, fd_cooking_pot: `semo_nigerian_cooked_semolina_step_3`
+- `semolina_burger/step_1`, create_mixing: `semolina`
+- `semolina_burger/step_1`, shapeless_crafting: `semolina`
+- `semolina_burger/step_3`, create_mixing: `semolina_burger_step_2`
+- `semolina_burger/step_5`, create_mixing: `semolina_burger_step_4`
+- `semolina_burger/step_5`, shapeless_crafting: `semolina_burger_step_4`
+- `semolina_burger/step_7`, create_heated_mixing: `semolina_burger_step_6`
+- `semolina_burger/step_7`, pnc_thermo_plant: `semolina_burger_step_6`
+- `semolina_minestrone/step_2`, create_mixing: `semolina`
+- `semolina_minestrone/step_2`, shapeless_crafting: `semolina`
+- `semolina_minestrone/step_3`, create_heated_mixing: `semolina_minestrone_step_2`
+- `semolina_minestrone/step_3`, fd_cooking_pot: `semolina_minestrone_step_2`
+- `semolina_pudding/step_2`, create_heated_mixing: `semolina`
+- `semolina_pudding/step_2`, fd_cooking_pot: `semolina`
+- `semolina_pudding/step_3`, create_mixing: `semolina_pudding_step_2`
+- `semolina_pudding/step_5`, create_mixing: `semolina_pudding_step_4`
+- `semolina_pudding/step_5`, shapeless_crafting: `semolina_pudding_step_4`
 - `sesame_shrimp_toast/step_2`, create_mixing: `shrimp_cut_chop`
 - `sesame_shrimp_toast/step_7`, shapeless_crafting: `sesame_shrimp_toast_step_5`
 - `sesame_shrimp_toast/step_9`, create_heated_mixing: `sesame_shrimp_toast_step_7`
 - `sesame_shrimp_toast/step_9`, pnc_thermo_plant: `sesame_shrimp_toast_step_7`
+- `sev_puri_crispy_indian_snack_with_potato/step_2`, shapeless_crafting: `puri_indian_fried_flatbread`
 - `sev_puri_crispy_indian_snack_with_potato/step_4`, shapeless_crafting: `sev_puri_crispy_indian_snack_with_potato_step_3`
+- `shahan_ful/step_10`, create_mixing: `shahan_ful_step_9`
+- `shahan_ful/step_10`, shapeless_crafting: `shahan_ful_step_9`
+- `shahan_ful/step_11`, create_heated_mixing: `shahan_ful_step_10`
+- `shahan_ful/step_11`, fd_cooking_pot: `shahan_ful_step_10`
+- `shahan_ful/step_7`, create_mixing: `berbere_spice`
+- `shahan_ful/step_7`, shapeless_crafting: `berbere_spice`
+- `shahan_ful/step_8`, create_heated_mixing: `shahan_ful_step_7`
+- `shahan_ful/step_8`, fd_cooking_pot: `shahan_ful_step_7`
+- `shakshuka/step_7`, shapeless_crafting: `feta_cheese`
 - `sharba_libya_libyan_soup/step_5`, create_heated_mixing: `sharba_libya_libyan_soup_step_4`
 - `sharba_libya_libyan_soup/step_5`, fd_cooking_pot: `sharba_libya_libyan_soup_step_4`
 - `sharba_libya_libyan_soup/step_6`, create_heated_mixing: `sharba_libya_libyan_soup_step_5`
@@ -131287,10 +134676,13 @@ Each pruned route, and what it misses:
 - `shiro_wat_ethiopian_pea_stew/step_5`, shapeless_crafting: `shiro_wat_ethiopian_pea_stew_step_4`
 - `shopska_salata_tomato_cucumber_and_bell_pepper_salad/step_2`, create_mixing: `shopska_salata_tomato_cucumber_and_bell_pepper_salad_step_1`
 - `shopska_salata_tomato_cucumber_and_bell_pepper_salad/step_2`, shapeless_crafting: `shopska_salata_tomato_cucumber_and_bell_pepper_salad_step_1`
-- `shopska_salata_tomato_cucumber_and_bell_pepper_salad/step_3`, shapeless_crafting: `shopska_salata_tomato_cucumber_and_bell_pepper_salad_step_2`
-- `shopska_salata_tomato_cucumber_and_bell_pepper_salad/step_3`, create_deploying: `shopska_salata_tomato_cucumber_and_bell_pepper_salad_step_2`
+- `shopska_salata_tomato_cucumber_and_bell_pepper_salad/step_3`, shapeless_crafting: `feta_cheese_grind`, `shopska_salata_tomato_cucumber_and_bell_pepper_salad_step_2`
+- `shopska_salata_tomato_cucumber_and_bell_pepper_salad/step_3`, create_deploying: `feta_cheese_grind`, `shopska_salata_tomato_cucumber_and_bell_pepper_salad_step_2`
+- `shopska_salata_tomato_cucumber_and_bell_pepper_salad/step_3/prep_6`, create_milling: `feta_cheese`
+- `shopska_salata_tomato_cucumber_and_bell_pepper_salad/step_3/prep_6`, hexerei_pestle_and_mortar: `feta_cheese`
 - `shrimp_hooman_goan_shrimp_curry/step_3`, create_heated_mixing: `shrimp_hooman_goan_shrimp_curry_step_2`
 - `shrimp_hooman_goan_shrimp_curry/step_3`, fd_cooking_pot: `shrimp_hooman_goan_shrimp_curry_step_2`
+- `simple_chocolate_cheese_pie/step_4`, shapeless_crafting: `graham_cracker`
 - `simple_nachos/step_1`, create_heated_mixing: `mexican_seasoning`
 - `simple_nachos/step_2`, create_heated_mixing: `simple_nachos_step_1`
 - `simple_nachos/step_2`, fd_cooking_pot: `simple_nachos_step_1`
@@ -131321,6 +134713,12 @@ Each pruned route, and what it misses:
 - `slow_cooker_pork_chops/step_6`, create_heated_mixing: `slow_cooker_pork_chops_step_5`
 - `slow_cooker_pork_chops/step_6`, fd_cooking_pot: `slow_cooker_pork_chops_step_5`
 - `slow_cooker_pork_chops/step_7`, create_heated_mixing: `slow_cooker_pork_chops_step_6`
+- `smoked_salmon_breakfast_burrito/step_3`, shapeless_crafting: `smoked_salmon`
+- `smoked_salmon_chowder/step_4`, create_mixing: `smoked_salmon`
+- `smoked_salmon_chowder/step_5`, create_mixing: `smoked_salmon_chowder_step_4`
+- `smoked_salmon_dip/step_1`, create_mixing: `smoked_salmon_chop`
+- `smoked_salmon_dip/step_3`, create_mixing: `smoked_salmon_dip_step_2`
+- `smoked_salmon_dip/step_3`, shapeless_crafting: `smoked_salmon_dip_step_2`
 - `smoked_salmon_ravioli_filling/step_2`, create_mixing: `smoked_salmon_ravioli_filling_step_1`
 - `smoked_salmon_ravioli_filling/step_2`, shapeless_crafting: `smoked_salmon_ravioli_filling_step_1`
 - `smoking_shrimp_creole/step_3`, create_mixing: `chipotle_chili`
@@ -131345,6 +134743,8 @@ Each pruned route, and what it misses:
 - `smore_eurasian_beef_stew/step_9`, create_heated_mixing: `smore_eurasian_beef_stew_step_8`
 - `smore_eurasian_beef_stew/step_9`, fd_cooking_pot: `smore_eurasian_beef_stew_step_8`
 - `smore_eurasian_beef_stew/step_9`, hexerei_mixing_cauldron: `smore_eurasian_beef_stew_step_8`
+- `soda_from_extract/step_2`, create_mixing: `carbonated_water`
+- `soda_from_extract/step_2`, shapeless_crafting: `carbonated_water`
 - `soup_joumou_haitian_beef_and_squash_soup/step_2`, hexerei_drying_rack: `soup_joumou_haitian_beef_and_squash_soup_step_1`
 - `soup_joumou_haitian_beef_and_squash_soup/step_3`, create_heated_mixing: `soup_joumou_haitian_beef_and_squash_soup_step_2`
 - `soup_joumou_haitian_beef_and_squash_soup/step_4`, create_mixing: `soup_joumou_haitian_beef_and_squash_soup_step_3`
@@ -131361,8 +134761,10 @@ Each pruned route, and what it misses:
 - `south_side_cocktail/step_3`, thermal_press: `south_side_cocktail_step_2`
 - `south_side_cocktail/step_4`, create_mixing: `south_side_cocktail_step_3`
 - `south_side_cocktail/step_4`, thermal_centrifuge: `south_side_cocktail_step_3`
+- `south_side_fizz/step_5`, create_mixing: `carbonated_water`
 - `southern_fried_chicken_sliders/step_2`, shapeless_crafting: `southern_fried_chicken_sliders_step_1`
 - `southern_fried_chicken_sliders/step_3`, create_heated_mixing: `southern_fried_chicken_sliders_step_2`
+- `southwest_pasta/step_5`, create_heated_mixing: `taco_seasoning_mix`
 - `soy_mustard_lamb_chops/step_2`, create_mixing: `soy_mustard_lamb_chops_step_1`
 - `soy_mustard_lamb_chops/step_4`, campfire: `soy_mustard_lamb_chops_step_2`
 - `soy_mustard_lamb_chops/step_4`, smoking: `soy_mustard_lamb_chops_step_2`
@@ -131379,6 +134781,12 @@ Each pruned route, and what it misses:
 - `spaghetti_aglio_e_olio/step_4`, thermal_centrifuge: `spaghetti_aglio_e_olio_step_3`
 - `spaghetti_aglio_e_olio/step_6`, create_mixing: `spaghetti_aglio_e_olio_step_5`
 - `spaghetti_aglio_e_olio/step_6`, shapeless_crafting: `spaghetti_aglio_e_olio_step_5`
+- `spaghetti_alla_carbonara/step_1`, fd_cutting_board: `pancetta_cut`
+- `spaghetti_alla_carbonara/step_1`, create_cutting: `pancetta_cut`
+- `spaghetti_alla_carbonara/step_3`, create_heated_mixing: `pancetta_cut_cut`
+- `spaghetti_alla_carbonara/step_3`, fd_cooking_pot: `pancetta_cut_cut`
+- `spaghetti_alla_carbonara/step_4`, create_heated_mixing: `spaghetti_alla_carbonara_step_3`
+- `spaghetti_alla_carbonara/step_5`, create_mixing: `spaghetti_alla_carbonara_step_4`
 - `spaghetti_bake/step_11`, smelting: `spaghetti_bake_step_10`
 - `spaghetti_bake/step_11`, smoking: `spaghetti_bake_step_10`
 - `spaghetti_pie/step_10`, create_heated_mixing: `spaghetti_pie_step_9`
@@ -131405,11 +134813,14 @@ Each pruned route, and what it misses:
 - `spaghetti_pie/step_7`, smelting: `spaghetti_pie_step_6`
 - `spaghetti_pie/step_7`, smoking: `spaghetti_pie_step_6`
 - `spaghetti_pie/step_9`, create_heated_mixing: `spaghetti_pie_step_7`
+- `spanakopita/step_4`, create_mixing: `feta_cheese`
 - `spanakopita/step_9`, smelting: `spanakopita_step_8`
 - `spanakopita/step_9`, smoking: `spanakopita_step_8`
 - `spanish_rice/step_2`, create_heated_mixing: `spanish_rice_step_1`
 - `spanish_rice/step_3`, create_mixing: `spanish_rice_step_2`
 - `spanish_rice/step_3`, shapeless_crafting: `spanish_rice_step_2`
+- `sparkling_lemonade_with_fresh_herbs/step_2`, create_mixing: `carbonated_water`
+- `sparkling_lemonade_with_fresh_herbs/step_2`, shapeless_crafting: `carbonated_water`
 - `spelt_burger/step_4`, create_heated_mixing: `spelt_burger_step_3`
 - `spelt_burger/step_4`, pnc_thermo_plant: `spelt_burger_step_3`
 - `spelt_burger/step_5`, create_mixing: `spelt_burger_step_4`
@@ -131430,6 +134841,9 @@ Each pruned route, and what it misses:
 - `spicy_chickpea_soup/step_2`, fd_cooking_pot: `spicy_chickpea_soup_step_1`
 - `spicy_chickpea_soup/step_3`, create_heated_mixing: `spicy_chickpea_soup_step_2`
 - `spicy_chickpea_soup/step_3`, fd_cooking_pot: `spicy_chickpea_soup_step_2`
+- `spicy_feta_burger/step_3`, shapeless_crafting: `feta_cheese_chop`
+- `spicy_feta_burger/step_5`, campfire: `spicy_feta_burger_step_4`
+- `spicy_feta_burger/step_5`, smoking: `spicy_feta_burger_step_4`
 - `spicy_fried_okra/step_2`, shapeless_crafting: `spicy_fried_okra_step_1`
 - `spicy_fried_okra/step_2`, create_deploying: `spicy_fried_okra_step_1`
 - `spicy_fried_okra/step_3`, create_heated_mixing: `spicy_fried_okra_step_2`
@@ -131446,6 +134860,7 @@ Each pruned route, and what it misses:
 - `spinach_calzones/step_3`, create_deploying: `dough_cut`
 - `spinach_calzones/step_4`, smelting: `spinach_calzones_step_3`
 - `spinach_calzones/step_4`, smoking: `spinach_calzones_step_3`
+- `spinach_pesto_linguine/step_6`, shapeless_crafting: `feta_cheese`
 - `spinach_salad/step_2`, shapeless_crafting: `spinach_salad_step_1`
 - `spinach_salad/step_3`, create_mixing: `spinach_salad_step_2`
 - `spinach_salad/step_3`, shapeless_crafting: `spinach_salad_step_2`
@@ -131519,6 +134934,13 @@ Each pruned route, and what it misses:
 - `steamed_buns_with_bbq_pork/step_6`, pnc_thermo_plant: `steamed_buns_with_bbq_pork_step_5`
 - `steamed_buns_with_bbq_pork/step_7`, create_mixing: `steamed_buns_with_bbq_pork_step_6`
 - `steamed_buns_with_bbq_pork/step_7`, thermal_centrifuge: `steamed_buns_with_bbq_pork_step_6`
+- `stir_fried_seafood_with_noodles/step_2`, create_heated_mixing: `fishball_cut`
+- `stir_fried_seafood_with_noodles/step_2/prep_4`, fd_cutting_board: `fishball`
+- `stir_fried_seafood_with_noodles/step_2/prep_4`, create_cutting: `fishball`
+- `stir_fried_seafood_with_noodles/step_3`, create_heated_mixing: `stir_fried_seafood_with_noodles_step_2`
+- `stir_fried_seafood_with_noodles/step_4`, create_heated_mixing: `stir_fried_seafood_with_noodles_step_3`
+- `stir_fried_seafood_with_noodles/step_5`, create_heated_mixing: `stir_fried_seafood_with_noodles_step_4`
+- `stir_fry/stir_fry`, create_heated_mixing: `stir_fry_vegetables`
 - `stoofvlees_flemish_beef_stew/step_5`, shapeless_crafting: `stoofvlees_flemish_beef_stew_step_4`
 - `stoofvlees_flemish_beef_stew/step_7`, create_heated_mixing: `stoofvlees_flemish_beef_stew_step_5`
 - `stoofvlees_flemish_beef_stew/step_7`, fd_cooking_pot: `stoofvlees_flemish_beef_stew_step_5`
@@ -131545,12 +134967,21 @@ Each pruned route, and what it misses:
 - `strawberry_dumplings/step_6`, create_mixing: `strawberry_dumplings_step_5`
 - `strawberry_dumplings/step_6`, shapeless_crafting: `strawberry_dumplings_step_5`
 - `strawberry_dumplings/step_7`, vd_fermenting_jar: `strawberry_dumplings_step_6`
+- `strawberry_fromage_frais/step_2`, create_mixing: `fromage_frais`
+- `strawberry_fromage_frais/step_2`, shapeless_crafting: `fromage_frais`
+- `strawberry_fromage_frais/step_3`, create_mixing: `strawberry_fromage_frais_step_2`
+- `strawberry_fromage_frais/step_3`, shapeless_crafting: `strawberry_fromage_frais_step_2`
+- `strawberry_fromage_frais/step_4`, create_mixing: `strawberry_fromage_frais_step_3`
+- `strawberry_fromage_frais/step_4`, shapeless_crafting: `strawberry_fromage_frais_step_3`
+- `strawberry_fromage_frais/step_4`, hexerei_mixing_cauldron: `strawberry_fromage_frais_step_3`
 - `strawberry_pie/step_2`, shapeless_crafting: `strawberry_pie_step_1`
 - `strawberry_pie/step_2`, create_deploying: `strawberry_pie_step_1`
 - `stuffed_grape_leaves/step_5`, create_heated_mixing: `stuffed_grape_leaves_step_4`
 - `stuffed_grape_leaves/step_5`, fd_cooking_pot: `stuffed_grape_leaves_step_4`
 - `stuffed_grape_leaves/step_6`, create_heated_mixing: `stuffed_grape_leaves_step_5`
 - `stuffed_grape_leaves/step_6`, fd_cooking_pot: `stuffed_grape_leaves_step_5`
+- `stuffed_peppers/bake`, smelting: `unbaked_stuffed_peppers`
+- `stuffed_peppers/bake`, smoking: `unbaked_stuffed_peppers`
 - `stuffed_peppers/step_4`, create_mixing: `stuffed_peppers_step_3`
 - `stuffed_peppers/step_4`, shapeless_crafting: `stuffed_peppers_step_3`
 - `stuffed_peppers/step_5`, smelting: `stuffed_peppers_step_4`
@@ -131681,6 +135112,13 @@ Each pruned route, and what it misses:
 - `tabbouleh_iv/step_3`, create_mixing: `mint_chop`, `tabbouleh_iv_step_2`
 - `tabbouleh_iv/step_4`, create_mixing: `tabbouleh_iv_step_3`
 - `tabbouleh_iv/step_4`, shapeless_crafting: `tabbouleh_iv_step_3`
+- `taboon_bread/step_1`, create_mixing: `whole_wheat_flour`
+- `taboon_bread/step_1`, shapeless_crafting: `whole_wheat_flour`
+- `taboon_bread/step_2`, create_mixing: `taboon_bread_step_1`
+- `taboon_bread/step_3`, vd_fermenting_jar: `taboon_bread_step_2`
+- `taboon_bread/step_3`, pnc_thermo_plant: `taboon_bread_step_2`
+- `taboon_bread/step_6`, smelting: `taboon_bread_step_4`
+- `taboon_bread/step_6`, smoking: `taboon_bread_step_4`
 - `taco_salad/step_10`, shapeless_crafting: `taco_salad_step_9`, `tortilla_chip_chop`
 - `taco_salad/step_10`, create_deploying: `taco_salad_step_9`, `tortilla_chip_chop`
 - `taco_salad/step_8`, create_mixing: `taco_salad_step_7`, `thousand_island_dressing`
@@ -131693,6 +135131,13 @@ Each pruned route, and what it misses:
 - `tamate_ka_kut_hyderabadi_tomato_curry/step_6`, create_heated_mixing: `tamate_ka_kut_hyderabadi_tomato_curry_step_5`
 - `tamate_ka_kut_hyderabadi_tomato_curry/step_6`, fd_cooking_pot: `tamate_ka_kut_hyderabadi_tomato_curry_step_5`
 - `tamate_ka_kut_hyderabadi_tomato_curry/step_7`, create_mixing: `tamate_ka_kut_hyderabadi_tomato_curry_step_6`
+- `tamina_algerian_semolina_honey_dessert/step_1`, smelting: `semolina_toast`
+- `tamina_algerian_semolina_honey_dessert/step_1`, smoking: `semolina_toast`
+- `tamina_algerian_semolina_honey_dessert/step_1`, thermal_smelter: `semolina_toast`
+- `tamina_algerian_semolina_honey_dessert/step_2`, create_mixing: `semolina_toast_toast`
+- `tamina_algerian_semolina_honey_dessert/step_2`, shapeless_crafting: `semolina_toast_toast`
+- `tamina_algerian_semolina_honey_dessert/step_6`, create_mixing: `tamina_algerian_semolina_honey_dessert_step_5`
+- `tamina_algerian_semolina_honey_dessert/step_6`, shapeless_crafting: `tamina_algerian_semolina_honey_dessert_step_5`
 - `tandoori_masala/step_2`, create_mixing: `tandoori_masala_step_1`
 - `tandoori_masala/step_3`, create_mixing: `tandoori_masala_step_2`
 - `tandoori_masala/step_3`, shapeless_crafting: `tandoori_masala_step_2`
@@ -131778,6 +135223,8 @@ Each pruned route, and what it misses:
 - `thai_grilled_chicken_ii/step_6`, smoking: `thai_grilled_chicken_ii_step_5`
 - `thai_grilled_chicken_ii/step_7`, campfire: `thai_grilled_chicken_ii_step_6`
 - `thai_grilled_chicken_ii/step_7`, smoking: `thai_grilled_chicken_ii_step_6`
+- `thai_lemonade/step_3`, create_mixing: `carbonated_water`
+- `thai_lemonade/step_3`, shapeless_crafting: `carbonated_water`
 - `thai_red_curry_paste/step_3`, create_mixing: `thai_red_curry_paste_step_2`
 - `thai_red_curry_paste/step_3`, shapeless_crafting: `thai_red_curry_paste_step_2`
 - `thai_shrimp/step_2`, create_heated_mixing: `thai_shrimp_step_1`
@@ -131837,6 +135284,7 @@ Each pruned route, and what it misses:
 - `tod_mun_thai_fish_cakes/step_8`, create_heated_mixing: `tod_mun_thai_fish_cakes_step_5`
 - `tod_mun_thai_fish_cakes/step_8`, pnc_thermo_plant: `tod_mun_thai_fish_cakes_step_5`
 - `tod_mun_thai_fish_cakes/step_9`, hexerei_drying_rack: `tod_mun_thai_fish_cakes_step_8`
+- `tofu_bacon_vegan/step_4`, shapeless_crafting: `nutritional_yeast`
 - `tofu_in_spiced_coconut_sauce/step_3`, create_heated_mixing: `tofu_in_spiced_coconut_sauce_step_2`
 - `tofu_in_spiced_coconut_sauce/step_4`, create_mixing: `tofu_in_spiced_coconut_sauce_step_3`
 - `tofu_in_spiced_coconut_sauce/step_4`, thermal_centrifuge: `tofu_in_spiced_coconut_sauce_step_3`
@@ -131851,6 +135299,10 @@ Each pruned route, and what it misses:
 - `tofu_saltado/step_6`, create_heated_mixing: `tofu_saltado_step_5`
 - `tofu_saltado/step_6`, pnc_thermo_plant: `tofu_saltado_step_5`
 - `tofu_saltado/step_7`, create_heated_mixing: `tofu_saltado_step_6`
+- `tofu_scramble_ii/step_4`, create_heated_mixing: `nutritional_yeast`
+- `tofu_scramble_ii/step_4`, pnc_thermo_plant: `nutritional_yeast`
+- `tofu_scramble_ii/step_5`, create_heated_mixing: `tofu_scramble_ii_step_4`
+- `tofu_scramble_ii/step_5`, pnc_thermo_plant: `tofu_scramble_ii_step_4`
 - `tofu_tamale_pie/step_3`, create_heated_mixing: `tofu_tamale_pie_step_2`
 - `tofu_tamale_pie/step_3`, fd_cooking_pot: `tofu_tamale_pie_step_2`
 - `tofu_tamale_pie/step_4`, create_mixing: `tofu_tamale_pie_step_3`
@@ -131949,6 +135401,12 @@ Each pruned route, and what it misses:
 - `tuscan_roast_potatoes/step_4`, smelting: `tuscan_roast_potatoes_step_3`
 - `tuscan_roast_potatoes/step_4`, smoking: `tuscan_roast_potatoes_step_3`
 - `tuscan_roast_potatoes/step_4`, thermal_smelter: `tuscan_roast_potatoes_step_3`
+- `tuwo_alabo_nigerian_cassava_swallow/step_1`, create_mixing: `manioc_flour`
+- `tuwo_alabo_nigerian_cassava_swallow/step_1`, thermal_centrifuge: `manioc_flour`
+- `tuwo_alabo_nigerian_cassava_swallow/step_2`, create_mixing: `tuwo_alabo_nigerian_cassava_swallow_step_1`
+- `tuwo_alabo_nigerian_cassava_swallow/step_2`, shapeless_crafting: `tuwo_alabo_nigerian_cassava_swallow_step_1`
+- `tuwo_alabo_nigerian_cassava_swallow/step_4`, create_heated_mixing: `tuwo_alabo_nigerian_cassava_swallow_step_3`
+- `tuwo_alabo_nigerian_cassava_swallow/step_4`, fd_cooking_pot: `tuwo_alabo_nigerian_cassava_swallow_step_3`
 - `twice_baked_potatoes_ii/step_10`, create_mixing: `twice_baked_potatoes_ii_step_9`
 - `twice_baked_potatoes_ii/step_10`, shapeless_crafting: `twice_baked_potatoes_ii_step_9`
 - `twice_baked_potatoes_ii/step_13`, smelting: `twice_baked_potatoes_ii_step_11`
@@ -131988,6 +135446,13 @@ Each pruned route, and what it misses:
 - `upeseru_indian_lentils_with_greens/step_7`, fd_cooking_pot: `upeseru_indian_lentils_with_greens_step_6`
 - `upeseru_indian_lentils_with_greens/step_8`, create_mixing: `upeseru_indian_lentils_with_greens_step_7`
 - `upeseru_indian_lentils_with_greens/step_8`, shapeless_crafting: `upeseru_indian_lentils_with_greens_step_7`
+- `upma_indian_semolina_porridge/step_2`, create_heated_mixing: `semolina_toast_toast`
+- `upma_indian_semolina_porridge/step_3`, create_heated_mixing: `upma_indian_semolina_porridge_step_2`
+- `upma_indian_semolina_porridge/step_4`, create_mixing: `upma_indian_semolina_porridge_step_3`
+- `upma_indian_semolina_porridge/step_5`, create_heated_mixing: `upma_indian_semolina_porridge_step_4`
+- `upma_indian_semolina_porridge/step_5`, fd_cooking_pot: `upma_indian_semolina_porridge_step_4`
+- `upma_indian_semolina_porridge/step_6`, create_mixing: `upma_indian_semolina_porridge_step_5`
+- `upma_indian_semolina_porridge/step_6`, shapeless_crafting: `upma_indian_semolina_porridge_step_5`
 - `uppittu_indian_semolina_porridge/step_2`, create_heated_mixing: `uppittu_indian_semolina_porridge_step_1`
 - `uppittu_indian_semolina_porridge/step_4`, create_heated_mixing: `uppittu_indian_semolina_porridge_step_3`
 - `uppittu_indian_semolina_porridge/step_6`, create_heated_mixing: `uppittu_indian_semolina_porridge_step_5`
@@ -131998,6 +135463,7 @@ Each pruned route, and what it misses:
 - `vegetable_party_sandwiches/step_7`, create_cutting: `vegetable_party_sandwiches_step_6`
 - `veggie_pizza/step_6`, smelting: `veggie_pizza_step_5`
 - `veggie_pizza/step_6`, smoking: `veggie_pizza_step_5`
+- `veggie_salad/mix`, create_mixing: `chopped_salad_veg`
 - `veggie_salad/step_4`, shapeless_crafting: `veggie_salad_step_3`
 - `venison_italian_style/step_1`, fd_cutting_board: `venison_cut`
 - `venison_italian_style/step_1`, create_cutting: `venison_cut`
@@ -132044,6 +135510,20 @@ Each pruned route, and what it misses:
 - `welsh_fruit_bread_bara_brith_i/step_6`, smoking: `welsh_fruit_bread_bara_brith_i_step_5`
 - `welsh_fruit_bread_bara_brith_i/step_7`, smelting: `welsh_fruit_bread_bara_brith_i_step_6`
 - `welsh_fruit_bread_bara_brith_i/step_7`, smoking: `welsh_fruit_bread_bara_brith_i_step_6`
+- `wheat_germ/separate`, create_item_drain: `whole_wheat_flour`
+- `wheat_germ/separate`, create_mixing: `whole_wheat_flour`
+- `wheat_modak_coconut_pastries/step_1`, create_mixing: `semolina`
+- `wheat_modak_coconut_pastries/step_1`, shapeless_crafting: `semolina`
+- `wheat_modak_coconut_pastries/step_1`, hexerei_mixing_cauldron: `semolina`
+- `wheat_modak_coconut_pastries/step_2`, shapeless_crafting: `wheat_modak_coconut_pastries_step_1`
+- `wheat_modak_coconut_pastries/step_2`, create_deploying: `wheat_modak_coconut_pastries_step_1`
+- `wheat_modak_coconut_pastries/step_3`, create_heated_mixing: `wheat_modak_coconut_pastries_step_2`
+- `wheat_modak_coconut_pastries/step_3`, fd_cooking_pot: `wheat_modak_coconut_pastries_step_2`
+- `wheat_modak_coconut_pastries/step_4`, create_heated_mixing: `wheat_modak_coconut_pastries_step_3`
+- `wheat_modak_coconut_pastries/step_5`, create_mixing: `wheat_modak_coconut_pastries_step_4`
+- `wheat_modak_coconut_pastries/step_5`, shapeless_crafting: `wheat_modak_coconut_pastries_step_4`
+- `wheat_modak_coconut_pastries/step_9`, create_heated_mixing: `wheat_modak_coconut_pastries_step_7`
+- `wheat_modak_coconut_pastries/step_9`, pnc_thermo_plant: `wheat_modak_coconut_pastries_step_7`
 - `white_chocolate_cheesecake/step_6`, create_mixing: `white_chocolate_cheesecake_step_5`
 - `white_chocolate_cheesecake/step_7`, create_mixing: `white_chocolate_cheesecake_step_6`
 - `white_chocolate_cheesecake/step_7`, shapeless_crafting: `white_chocolate_cheesecake_step_6`
@@ -132058,6 +135538,23 @@ Each pruned route, and what it misses:
 - `whole_wheat_bread_vegan/step_5`, pnc_thermo_plant: `whole_wheat_bread_vegan_step_4`
 - `whole_wheat_bread_vegan/step_8`, smelting: `whole_wheat_bread_vegan_step_6`
 - `whole_wheat_bread_vegan/step_8`, smoking: `whole_wheat_bread_vegan_step_6`
+- `whole_wheat_chocolate_cake_with_nuts/step_2`, shapeless_crafting: `whole_wheat_flour`
+- `whole_wheat_chocolate_cake_with_nuts/step_2`, hexerei_mixing_cauldron: `whole_wheat_flour`
+- `whole_wheat_chocolate_cake_with_nuts/step_5`, create_mixing: `whole_wheat_chocolate_cake_with_nuts_step_3`
+- `whole_wheat_chocolate_cake_with_nuts/step_5`, shapeless_crafting: `whole_wheat_chocolate_cake_with_nuts_step_3`
+- `whole_wheat_chocolate_cake_with_nuts/step_6`, smelting: `whole_wheat_chocolate_cake_with_nuts_step_5`
+- `whole_wheat_chocolate_cake_with_nuts/step_6`, smoking: `whole_wheat_chocolate_cake_with_nuts_step_5`
+- `whole_wheat_flour/grind`, create_mixing: `wheat_bran`, `wheat_germ`
+- `whole_wheat_irish_soda_bread/step_11`, vd_fermenting_jar: `whole_wheat_irish_soda_bread_step_10`
+- `whole_wheat_irish_soda_bread/step_11`, bnc_keg: `whole_wheat_irish_soda_bread_step_10`
+- `whole_wheat_irish_soda_bread/step_3`, create_mixing: `whole_wheat_flour`
+- `whole_wheat_irish_soda_bread/step_3`, shapeless_crafting: `whole_wheat_flour`
+- `whole_wheat_irish_soda_bread/step_5`, shapeless_crafting: `whole_wheat_irish_soda_bread_step_4`
+- `whole_wheat_irish_soda_bread/step_5`, create_deploying: `whole_wheat_irish_soda_bread_step_4`
+- `whole_wheat_irish_soda_bread/step_8`, fd_cutting_board: `whole_wheat_irish_soda_bread_step_6`
+- `whole_wheat_irish_soda_bread/step_8`, create_cutting: `whole_wheat_irish_soda_bread_step_6`
+- `whole_wheat_irish_soda_bread/step_9`, smelting: `whole_wheat_irish_soda_bread_step_8`
+- `whole_wheat_irish_soda_bread/step_9`, smoking: `whole_wheat_irish_soda_bread_step_8`
 - `whole_wheat_pancakes/step_2`, create_mixing: `whole_wheat_pancakes_step_1`
 - `whole_wheat_pancakes/step_2`, hexerei_mixing_cauldron: `whole_wheat_pancakes_step_1`
 - `whole_wheat_pancakes/step_5`, create_heated_mixing: `whole_wheat_pancakes_step_3`
@@ -132066,6 +135563,13 @@ Each pruned route, and what it misses:
 - `whole_wheat_pancakes/step_6`, pnc_thermo_plant: `whole_wheat_pancakes_step_5`
 - `whole_wheat_pancakes/step_7`, create_heated_mixing: `whole_wheat_pancakes_step_6`
 - `whole_wheat_pancakes/step_7`, pnc_thermo_plant: `whole_wheat_pancakes_step_6`
+- `whole_wheat_pancakes_vegan/step_1`, create_mixing: `whole_wheat_flour`
+- `whole_wheat_pancakes_vegan/step_2`, create_mixing: `whole_wheat_pancakes_vegan_step_1`
+- `whole_wheat_pancakes_vegan/step_2`, shapeless_crafting: `whole_wheat_pancakes_vegan_step_1`
+- `whole_wheat_pancakes_vegan/step_4`, create_heated_mixing: `whole_wheat_pancakes_vegan_step_2`
+- `whole_wheat_pancakes_vegan/step_4`, pnc_thermo_plant: `whole_wheat_pancakes_vegan_step_2`
+- `whole_wheat_pancakes_vegan/step_5`, create_heated_mixing: `whole_wheat_pancakes_vegan_step_4`
+- `whole_wheat_pancakes_vegan/step_5`, pnc_thermo_plant: `whole_wheat_pancakes_vegan_step_4`
 - `whole_wheat_waffles/step_3`, create_mixing: `whole_wheat_waffles_step_2`
 - `whole_wheat_waffles/step_3`, shapeless_crafting: `whole_wheat_waffles_step_2`
 - `whole_wheat_waffles/step_3`, hexerei_mixing_cauldron: `whole_wheat_waffles_step_2`
@@ -132078,9 +135582,22 @@ Each pruned route, and what it misses:
 - `wisconsin_ackawi_cheese_triangles/step_4`, smoking: `wisconsin_ackawi_cheese_triangles_step_3`
 - `yam_casserole/step_3`, smelting: `yam_casserole_step_2`
 - `yam_casserole/step_3`, smoking: `yam_casserole_step_2`
-- `yeasted_cornbread/step_2`, create_mixing: `yeasted_cornbread_step_1`
-- `yeasted_cornbread/step_2`, shapeless_crafting: `yeasted_cornbread_step_1`
-- `yeasted_cornbread/step_2`, hexerei_mixing_cauldron: `yeasted_cornbread_step_1`
+- `yataklete_kilkil_ethiopian_vegetable_stew/step_2`, create_heated_mixing: `niter_kibbeh_heat`
+- `yataklete_kilkil_ethiopian_vegetable_stew/step_2`, pnc_thermo_plant: `niter_kibbeh_heat`
+- `yataklete_kilkil_ethiopian_vegetable_stew/step_3`, shapeless_crafting: `yataklete_kilkil_ethiopian_vegetable_stew_step_2`
+- `yataklete_kilkil_ethiopian_vegetable_stew/step_4`, create_mixing: `yataklete_kilkil_ethiopian_vegetable_stew_step_3`
+- `yataklete_kilkil_ethiopian_vegetable_stew/step_4`, shapeless_crafting: `yataklete_kilkil_ethiopian_vegetable_stew_step_3`
+- `yataklete_kilkil_ethiopian_vegetable_stew/step_5`, create_heated_mixing: `yataklete_kilkil_ethiopian_vegetable_stew_step_4`
+- `yataklete_kilkil_ethiopian_vegetable_stew/step_5`, fd_cooking_pot: `yataklete_kilkil_ethiopian_vegetable_stew_step_4`
+- `yataklete_kilkil_ethiopian_vegetable_stew/step_6`, create_heated_mixing: `yataklete_kilkil_ethiopian_vegetable_stew_step_5`
+- `yataklete_kilkil_ethiopian_vegetable_stew/step_6`, fd_cooking_pot: `yataklete_kilkil_ethiopian_vegetable_stew_step_5`
+- `yataklete_kilkil_ethiopian_vegetable_stew/step_7`, create_mixing: `yataklete_kilkil_ethiopian_vegetable_stew_step_6`
+- `yataklete_kilkil_ethiopian_vegetable_stew/step_7`, shapeless_crafting: `yataklete_kilkil_ethiopian_vegetable_stew_step_6`
+- `yataklete_kilkil_ethiopian_vegetable_stew/step_8`, shapeless_crafting: `yataklete_kilkil_ethiopian_vegetable_stew_step_7`
+- `yataklete_kilkil_ethiopian_vegetable_stew/step_8`, create_deploying: `yataklete_kilkil_ethiopian_vegetable_stew_step_7`
+- `yeasted_cornbread/step_2`, create_mixing: `whole_wheat_flour`, `yeasted_cornbread_step_1`
+- `yeasted_cornbread/step_2`, shapeless_crafting: `whole_wheat_flour`, `yeasted_cornbread_step_1`
+- `yeasted_cornbread/step_2`, hexerei_mixing_cauldron: `whole_wheat_flour`, `yeasted_cornbread_step_1`
 - `yeasted_cornbread/step_3`, smelting: `yeasted_cornbread_step_2`
 - `yeasted_cornbread/step_3`, smoking: `yeasted_cornbread_step_2`
 - `yeasted_vanilla_sponge_cake/step_10`, fd_cutting_board: `yeasted_vanilla_sponge_cake_step_9`

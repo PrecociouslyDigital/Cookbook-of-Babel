@@ -1,0 +1,43 @@
+{
+  "type": "theurgy:fermentation",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "theurgy"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/rum_wash"
+    }
+  ],
+  "fluid": {
+    "fluid": "minecraft:water"
+  },
+  "fluidAmount": 544,
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:portion",
+        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:liquid\",Tag:{substance:\"cookbook_of_babel:molasses\"}}}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/molasses"
+      }
+    ]
+  ],
+  "result": {
+    "Count": 3,
+    "id": "cookbook_of_babel:portion",
+    "tag": {
+      "Fluid": {
+        "Amount": 250,
+        "FluidName": "cookbook_of_babel:liquid",
+        "Tag": {
+          "substance": "cookbook_of_babel:rum_wash"
+        }
+      }
+    }
+  },
+  "time": 24000
+}

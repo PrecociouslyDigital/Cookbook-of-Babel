@@ -1,0 +1,71 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/tomato_puree"
+    }
+  ],
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:cooked_tomatoes\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/cooked_tomatoes"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:cooked_tomatoes\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/cooked_tomatoes"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:cooked_tomatoes\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/cooked_tomatoes"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:cooked_tomatoes\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/cooked_tomatoes"
+      }
+    ]
+  ],
+  "processingTime": 300,
+  "results": [
+    {
+      "count": 7,
+      "item": "cookbook_of_babel:substance",
+      "nbt": {
+        "substance": "cookbook_of_babel:tomato_puree"
+      }
+    },
+    {
+      "item": "cookbook_of_babel:substance",
+      "nbt": {
+        "substance": "cookbook_of_babel:tomato_skins"
+      }
+    }
+  ]
+}

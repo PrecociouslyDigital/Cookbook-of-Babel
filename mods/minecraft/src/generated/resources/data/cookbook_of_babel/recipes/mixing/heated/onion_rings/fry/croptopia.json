@@ -1,0 +1,70 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "croptopia"
+    },
+    {
+      "type": "forge:false"
+    }
+  ],
+  "heatRequirement": "heated",
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:battered_onion_rings\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/battered_onion_rings"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:battered_onion_rings\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/battered_onion_rings"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:portion",
+        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:liquid\",Tag:{substance:\"cookbook_of_babel:vegetable_oil\"}}}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/vegetable_oil"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:portion",
+        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:liquid\",Tag:{substance:\"cookbook_of_babel:vegetable_oil\"}}}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/vegetable_oil"
+      }
+    ]
+  ],
+  "processingTime": 200,
+  "results": [
+    {
+      "item": "croptopia:onion_rings"
+    },
+    {
+      "amount": 442,
+      "fluid": "cookbook_of_babel:liquid",
+      "nbt": "{substance:\"cookbook_of_babel:vegetable_oil\"}"
+    }
+  ]
+}

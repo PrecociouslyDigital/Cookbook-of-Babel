@@ -1,0 +1,40 @@
+{
+  "type": "thermal:press",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "thermal_expansion"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/mirin"
+    }
+  ],
+  "energy": 12000,
+  "ingredients": [
+    {
+      "value": [
+        {
+          "type": "forge:partial_nbt",
+          "item": "cookbook_of_babel:substance",
+          "nbt": "{substance:\"cookbook_of_babel:aged_mirin_mash\"}"
+        },
+        {
+          "tag": "cookbook_of_babel:ingredients/aged_mirin_mash"
+        }
+      ]
+    }
+  ],
+  "result": [
+    {
+      "amount": 83,
+      "fluid": "cookbook_of_babel:liquid",
+      "nbt": "{substance:\"cookbook_of_babel:mirin\"}"
+    },
+    {
+      "count": 1,
+      "item": "cookbook_of_babel:substance",
+      "nbt": "{substance:\"cookbook_of_babel:rice_lees\"}"
+    }
+  ]
+}

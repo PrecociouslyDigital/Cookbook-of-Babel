@@ -1,0 +1,38 @@
+{
+  "type": "create:splashing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "croptopia"
+    }
+  ],
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:tea_leaves\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/tea_leaves"
+      }
+    ]
+  ],
+  "results": [
+    {
+      "count": 47,
+      "item": "croptopia:tea"
+    },
+    {
+      "count": 2,
+      "item": "cookbook_of_babel:substance",
+      "nbt": {
+        "substance": "cookbook_of_babel:spent_tea_leaves"
+      }
+    }
+  ]
+}

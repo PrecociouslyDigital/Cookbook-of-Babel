@@ -1,0 +1,35 @@
+{
+  "type": "create:milling",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/grated_coconut"
+    }
+  ],
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:coconut_flesh\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/coconut_flesh"
+      }
+    ]
+  ],
+  "processingTime": 300,
+  "results": [
+    {
+      "count": 14,
+      "item": "cookbook_of_babel:substance",
+      "nbt": {
+        "substance": "cookbook_of_babel:grated_coconut"
+      }
+    }
+  ]
+}

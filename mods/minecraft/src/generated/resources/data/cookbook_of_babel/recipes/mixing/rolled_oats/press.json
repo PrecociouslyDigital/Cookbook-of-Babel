@@ -1,0 +1,30 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/rolled_oats"
+    }
+  ],
+  "ingredients": [
+    {
+      "amount": 33,
+      "fluid": "cookbook_of_babel:bulk",
+      "nbt": {
+        "substance": "cookbook_of_babel:oats_boil"
+      }
+    }
+  ],
+  "processingTime": 200,
+  "results": [
+    {
+      "amount": 33,
+      "fluid": "cookbook_of_babel:bulk",
+      "nbt": "{substance:\"cookbook_of_babel:rolled_oats\"}"
+    }
+  ]
+}

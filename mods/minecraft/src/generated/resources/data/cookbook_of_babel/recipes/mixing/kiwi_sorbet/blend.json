@@ -1,0 +1,48 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/kiwi_sorbet_base"
+    }
+  ],
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:kiwifruit\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/kiwifruit"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:kiwifruit\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/kiwifruit"
+      }
+    ],
+    {
+      "tag": "cookbook_of_babel:ingredients/simple_syrup"
+    }
+  ],
+  "processingTime": 60,
+  "results": [
+    {
+      "count": 4,
+      "item": "cookbook_of_babel:substance",
+      "nbt": {
+        "substance": "cookbook_of_babel:kiwi_sorbet_base"
+      }
+    }
+  ]
+}

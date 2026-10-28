@@ -1,0 +1,30 @@
+{
+  "type": "pneumaticcraft:thermo_plant",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "pneumaticcraft"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/cheese_puffs"
+    }
+  ],
+  "item_input": [
+    {
+      "type": "forge:partial_nbt",
+      "item": "cookbook_of_babel:substance",
+      "nbt": "{substance:\"cookbook_of_babel:cheese_puff_dough\"}"
+    },
+    {
+      "tag": "cookbook_of_babel:ingredients/cheese_puff_dough"
+    }
+  ],
+  "item_output": {
+    "count": 2,
+    "item": "cookbook_of_babel:cheese_puffs"
+  },
+  "temperature": {
+    "min_temp": 463
+  }
+}

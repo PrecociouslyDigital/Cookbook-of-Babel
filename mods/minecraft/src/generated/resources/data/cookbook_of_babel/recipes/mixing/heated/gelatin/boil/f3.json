@@ -1,0 +1,38 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/collagen_broth"
+    }
+  ],
+  "heatRequirement": "heated",
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:beef_bones\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/beef_bones"
+      }
+    ],
+    {
+      "amount": 392,
+      "fluidTag": "minecraft:water"
+    }
+  ],
+  "processingTime": 400,
+  "results": [
+    {
+      "amount": 366,
+      "fluid": "cookbook_of_babel:liquid",
+      "nbt": "{substance:\"cookbook_of_babel:collagen_broth\"}"
+    }
+  ]
+}

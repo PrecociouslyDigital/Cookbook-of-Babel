@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:smoking",
+  "category": "food",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "croptopia"
+    },
+    {
+      "type": "forge:false"
+    }
+  ],
+  "cookingtime": 200,
+  "experience": 0.1,
+  "ingredient": [
+    {
+      "type": "forge:partial_nbt",
+      "item": "cookbook_of_babel:substance",
+      "nbt": "{substance:\"cookbook_of_babel:raw_pork_and_beans\"}"
+    },
+    {
+      "tag": "cookbook_of_babel:ingredients/raw_pork_and_beans"
+    }
+  ],
+  "result": {
+    "item": "croptopia:pork_and_beans"
+  }
+}

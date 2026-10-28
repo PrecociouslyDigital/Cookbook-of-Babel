@@ -1,0 +1,35 @@
+{
+  "type": "thermal:press",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "thermal_expansion"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/agave_juice"
+    }
+  ],
+  "energy": 6000,
+  "ingredients": [
+    {
+      "value": [
+        {
+          "type": "forge:partial_nbt",
+          "item": "cookbook_of_babel:substance",
+          "nbt": "{substance:\"cookbook_of_babel:agave\"}"
+        },
+        {
+          "tag": "cookbook_of_babel:ingredients/agave"
+        }
+      ]
+    }
+  ],
+  "result": [
+    {
+      "amount": 66,
+      "fluid": "cookbook_of_babel:liquid",
+      "nbt": "{substance:\"cookbook_of_babel:agave_juice\"}"
+    }
+  ]
+}
