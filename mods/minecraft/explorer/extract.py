@@ -119,11 +119,23 @@ def band_of(celsius, bands):
     return next((b["id"] for b in bands if "belowC" in b and celsius < b["belowC"]), bands[-1]["id"])
 
 
-def tag_values(data, kind, name):
+def tag_values(data, kind, name, seen=None):
+    """Everything the tag accepts, resolving nested tags down to real items/fluids, as Dataset.descendants does in Java."""
+    seen = seen if seen is not None else set()
+    if name in seen:
+        return []
+    seen.add(name)
     path = data / "tags" / kind / "ingredients" / f"{name}.json"
     if not path.exists():
         return []
-    return [v["id"] if isinstance(v, dict) else v for v in json.loads(path.read_text())["values"]]
+    values = []
+    for entry in json.loads(path.read_text())["values"]:
+        entry = entry["id"] if isinstance(entry, dict) else entry
+        if entry.startswith("#" + INGREDIENT_TAG):
+            values += tag_values(data, kind, entry.removeprefix("#" + INGREDIENT_TAG), seen)
+        else:
+            values.append(entry)
+    return values
 
 
 def compile_graph(generated, bands):
