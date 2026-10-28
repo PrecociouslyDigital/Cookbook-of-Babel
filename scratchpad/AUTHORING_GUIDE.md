@@ -148,18 +148,20 @@ Every child gets the full tsv files but must only author chains for its listed l
 - **B1 dairy**: butter cream buttermilk sour_cream whipped_cream condensed_milk margarine
   yogurt creme_fraiche kefir quark mascarpone_cheese ricotta cottage_cheese cream_cheese
   paneer fromage_frais dulce_de_leche clarified_butter ice_cream custard caramel
+  niter_kibbeh feta_cheese
 - **B2 press_oils_juices**: olive_oil vegetable_oil sesame_oil peanut_oil coconut_oil
-  walnut_oil almond_oil lemon_oil orange_juice apple_juice grape_juice
-  orange_juice_concentrate coconut_milk coconut_water fruit_nectar apple_cider hard_cider
-  malt rolled_oats
+  walnut_oil almond_oil lemon_oil peanut_butter cashew_butter orange_juice apple_juice
+  grape_juice orange_juice_concentrate coconut_milk coconut_water fruit_nectar apple_cider
+  hard_cider malt rolled_oats agave_syrup zest zest_of_lemon lemon_peel lemon_slice
+  lemon_wedges
 - **B3 spices**: paprika chili_powder chile_flakes curry_powder garlic_powder onion_powder
-  ground_cumin ground_coriander ground_cinnamon ground_nutmeg ground_cardamom ground_ginger
-  ground_sesame_seeds ground_crayfish ginger_garlic_paste ginger_green_chilli_paste
-  curry_paste cajun_seasoning adobo_seasoning taco_seasoning_mix herbes_de_provence
-  poultry_seasoning seasoning_salt onion_salt celery_salt jerk_seasoning berbere_spice
-  mitmita_spice_blend sambhar_masala sazon bengali_five_spice_mix_panch_puran
+  dehydrated_garlic ground_cumin ground_coriander ground_cinnamon ground_nutmeg
+  ground_cardamom ground_ginger ground_sesame_seeds ground_crayfish ginger_garlic_paste
+  ginger_green_chilli_paste curry_paste cajun_seasoning adobo_seasoning taco_seasoning_mix
+  herbes_de_provence poultry_seasoning seasoning_salt onion_salt celery_salt jerk_seasoning
+  berbere_spice mitmita_spice_blend sambhar_masala sazon bengali_five_spice_mix_panch_puran
   ground_gingerbread_spices za_atar thai_chili_paste sambal_oelek lemon_pepper
-  ground_fresh_pepper
+  ground_fresh_pepper cinnamon_sugar bouquet_garni amchoor pandan_essence
 - **B4 sauces**: mustard mayonnaise worcestershire_sauce fish_sauce hoisin_sauce
   oyster_sauce hot_sauce banana_ketchup tomato_paste tomato_sauce tomato_puree salsa
   hummus tahini anchovy_paste shrimp_paste gravy roux italian_dressing
@@ -171,22 +173,22 @@ Every child gets the full tsv files but must only author chains for its listed l
   vanilla_wafer_crumbs instant_mashed_potato_flakes
 - **B6 doughs_baked**: pasta noodle matzo matzo_meal cracker graham_cracker tortilla
   pretzels bagel puff_pastry phyllo_dough pastry_dough english_muffins digestive_biscuit
-  vanilla_wafers cookie cake bun hamburger_bun toast sev rice_wafer
+  vanilla_wafers cookie cake bun hamburger_bun toast sev rice_wafer ravioli
 - **B7 meat_fish_curing**: bacon sausage lard suet schmaltz bacon_fat corned_beef salt_pork
   pancetta guanciale chorizo pepperoni salami gelatin stockfish salt_cod dryfish
   smoked_salmon smoked_fish smoked_pork_slices cured_anchovies bonito_flakes fishball
   negitoro ground_fish
-- **B8 drinks_sweets_ferments**: beer rum brandy whiskey sherry gin tequila coffee
+- **B8 drinks_sweets_extracts**: beer rum brandy whiskey sherry gin tequila coffee
   coffee_liqueur rosewater orange_flower_water jasmine_water mirin carbonated_water
   sourdough_starter marshmallow meringue marzipan buttercream marmalade cherry_jam
   cranberry_sauce cherry_pie_filling fruit_filling fruit_cocktail nougat jaggery
-  golden_syrup
+  golden_syrup chocolate white_chocolate vanilla_extract almond_extract liquid_smoke
+  maraschino_cherry fruit_salt
 - **B9 soy_veg_preserves**: tofu tempeh iru douchi sauerkraut pickle nutritional_yeast
   textured_vegetable_protein raisin prune dried_fruit dried_chili split_pea agar nori
-  dashi_japanese_soup_stock yeast_extract(vegemite-style: boiling yeast with... see note:
-  vegemite is §8; skip unless trivial) agar
-  (dedupe: agar once)
-- **B10 supersedes-3**: every non-JOKE row of `section3_supersede.tsv`
+  dashi_japanese_soup_stock applesauce
+- **B10 supersedes-3**: every non-JOKE row of `section3_supersede.tsv`, plus the §2 dish
+  chains fried_chicken and fried_onion
 - **B11 supersedes-8a**: biscuit bulgogi caprese_salad chicken_curry cinnamon_bread
   cinnamon_rolls corn_dogs croissant egg_roll eggnog fried_green_tomatoes fruit_cake
   general_tso_s_chicken hot_dog hot_wings ketchup kimchi lamington lemonade
