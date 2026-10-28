@@ -14,8 +14,8 @@ import net.minecraftforge.common.data.ExistingFileHelper;
 
 /**
  * One model per form for substances, one per container for portions, each picked by an item
- * property ({@link ClientSetup}). Named dishes take their form's model. Layer 0 is tinted with the
- * colour of what's in the stack.
+ * property ({@link ClientSetup}). Named dishes take their form's model, and spice seeds the cocoa
+ * bean's. Layer 0 is tinted with the colour of what's in the stack.
  */
 final class ItemModels extends ItemModelProvider {
     private static final ResourceLocation UNKNOWN = new ResourceLocation("item/barrier");
@@ -49,6 +49,8 @@ final class ItemModels extends ItemModelProvider {
                     .model(model)
                     .end();
         }
+
+        flat("spice_seeds", new ResourceLocation("item/cocoa_beans"));
 
         Registration.DISHES.forEach((dish, item) -> getBuilder(item.getId().getPath())
                 .parent(new ModelFile.UncheckedModelFile(modLoc("item/substance/" + dish.form().getSerializedName()))));

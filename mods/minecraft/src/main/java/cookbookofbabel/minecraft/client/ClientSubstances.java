@@ -4,6 +4,7 @@ import cookbookofbabel.minecraft.substance.Substance;
 import cookbookofbabel.minecraft.substance.Substances;
 import java.util.Optional;
 import net.minecraft.core.Holder;
+import net.minecraft.resources.ResourceKey;
 import net.minecraft.world.item.ItemStack;
 import net.minecraftforge.fluids.FluidStack;
 
@@ -19,6 +20,14 @@ final class ClientSubstances {
 
     static int color(ItemStack stack) {
         return of(stack).map(s -> s.value().color()).orElse(UNKNOWN_COLOR);
+    }
+
+    static int color(ResourceKey<Substance> substance) {
+        return ClientLookups.current()
+                .flatMap(lookup -> lookup.lookup(Substance.REGISTRY))
+                .flatMap(registry -> registry.get(substance))
+                .map(s -> s.value().color())
+                .orElse(UNKNOWN_COLOR);
     }
 
     static int color(FluidStack fluid) {

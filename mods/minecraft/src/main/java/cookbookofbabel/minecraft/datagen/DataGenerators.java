@@ -24,6 +24,7 @@ public final class DataGenerators {
         var output = generator.getPackOutput();
         var files = event.getExistingFileHelper();
         generator.addProvider(event.includeClient(), new ItemModels(output, files));
+        generator.addProvider(event.includeClient(), new SpiceCropGen.Models(output, files));
         if (!event.includeServer()) {
             return;
         }
@@ -38,6 +39,8 @@ public final class DataGenerators {
         generator.addProvider(true, new RecipesGen(output, context, registries));
         generator.addProvider(true, new Attribution(output, context.export));
         generator.addProvider(true, new TestStructures(output));
+        generator.addProvider(true, SpiceCropGen.loot(output));
+        generator.addProvider(true, new SpiceCropGen.Gardens(output));
         generator.addProvider(true, new Reports(context));
     }
 

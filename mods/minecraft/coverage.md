@@ -91,7 +91,6 @@ Used by some step, and neither they nor anything that counts as them is made by 
 - `alfalfa_sprouts` (alfalfa)
 - `all_purpose_seasoning` (all-purpose seasoning)
 - `alligator_pepper` (alligator pepper)
-- `allspice` (allspice)
 - `almond_extract` (almond extract)
 - `almond_flour` (almond flour)
 - `almond_gum` (almond gum)
@@ -105,13 +104,11 @@ Used by some step, and neither they nor anything that counts as them is made by 
 - `angostura_bitters` (angostura bitters)
 - `animal_blood` (animal blood)
 - `anise` (anise)
-- `annatto` (annatto)
 - `applewood_chunks` (applewood chunks)
 - `arbol_chiles` (arbol chiles)
 - `arborio_rice` (arborio rice)
 - `aromatic_bitters` (aromatic bitters)
 - `arugula` (arugula)
-- `asafoetida` (asafoetida)
 - `ashanti_pepper` (uziza)
 - `asian_pear` (asian pear)
 - `assorted_fruit` (assorted fruit)
@@ -147,7 +144,6 @@ Used by some step, and neither they nor anything that counts as them is made by 
 - `barberry` (barberry)
 - `basic_pizza_crust` (basic pizza crust)
 - `basmati` (basmati)
-- `bay_leaf` (bay leaf)
 - `bay_leaves` (bay leaves)
 - `bazeen_dough` (bazeen dough)
 - `bean_sprout` (bean sprout)
@@ -246,10 +242,8 @@ Used by some step, and neither they nor anything that counts as them is made by 
 - `cara_cara_orange` (cara cara orange)
 - `caramel_sauce` (caramel sauce)
 - `caramelized_onion_rings` (caramelized onion rings)
-- `caraway` (caraway)
 - `caraway_seed` (caraway seed)
 - `carbonated_water` (carbonated water)
-- `cardamom` (cardamom)
 - `carp` (carp)
 - `carrot_powder` (carrot powder)
 - `cascabel` (cascabel)
@@ -306,7 +300,6 @@ Used by some step, and neither they nor anything that counts as them is made by 
 - `chinese_sweet_sausages` (chinese sweet sausages)
 - `chipotle_pepper` (chipotle pepper)
 - `chipped_beef` (chipped beef)
-- `chive` (chive)
 - `chocolate_chip_cookies` (chocolate chip cookies)
 - `chocolate_cups` (chocolate cups)
 - `chocolate_curls` (chocolate curls)
@@ -321,7 +314,6 @@ Used by some step, and neither they nor anything that counts as them is made by 
 - `ciabatta_roll` (ciabatta roll)
 - `ciabatta_rolls` (ciabatta rolls)
 - `cider_vinegar` (cider vinegar)
-- `cilantro` (cilantro)
 - `cinnamon_powder` (cinnamon powder)
 - `cinnamon_stick` (cinnamon stick)
 - `cinnamon_sugar` (cinnamon sugar)
@@ -333,7 +325,6 @@ Used by some step, and neither they nor anything that counts as them is made by 
 - `cleaned_leek_green` (cleaned leek green)
 - `clementine` (clementine)
 - `clotted_cream` (clotted cream)
-- `clove` (clove)
 - `coarse_bulgur` (coarse bulgur)
 - `coarse_cornmeal` (coarse cornmeal)
 - `coarse_salt` (coarse salt)
@@ -366,7 +357,6 @@ Used by some step, and neither they nor anything that counts as them is made by 
 - `cooking_wine` (cooking wine)
 - `cordial` (cordial)
 - `cored_and_sliced_apples` (cored and sliced apples)
-- `coriander` (coriander)
 - `coriander_leaves` (coriander leaves)
 - `corn_flakes` (corn flakes)
 - `corn_flour` (corn flour)
@@ -408,12 +398,10 @@ Used by some step, and neither they nor anything that counts as them is made by 
 - `cuisine_of_california` (california cuisine)
 - `cuisine_of_italy` (cuisine of italy)
 - `culantro` (culantro)
-- `cumin` (cumin)
 - `cumin_seeds` (cumin seeds)
 - `curd` (curd)
 - `cured_anchovies` (cured anchovies)
 - `curry` (curry)
-- `curry_leaf` (curry leaf)
 - `curry_paste` (curry paste)
 - `custard_powder` (custard powder)
 - `cut_green_italian_beans` (cut green italian beans)
@@ -435,7 +423,6 @@ Used by some step, and neither they nor anything that counts as them is made by 
 - `deli_meat` (deli meat)
 - `delicious_apple` (delicious apple)
 - `digestive_biscuit` (digestive biscuit)
-- `dill` (dill)
 - `dill_salt` (dill salt)
 - `dill_weed` (dill weed)
 - `distilled_white_vinegar` (distilled white vinegar)
@@ -491,8 +478,6 @@ Used by some step, and neither they nor anything that counts as them is made by 
 - `fat_free_italian_salad_dressing` (fat-free italian salad dressing)
 - `fava_bean` (broad bean)
 - `fava_beans` (fava beans)
-- `fennel` (fennel)
-- `fenugreek` (fenugreek)
 - `fermentation_starter` (fermentation starter)
 - `feta_cheese` (feta cheese)
 - `fettuccine` (fettuccine)
@@ -555,7 +540,6 @@ Used by some step, and neither they nor anything that counts as them is made by 
 - `fruit_puffs` (fruit puffs)
 - `fruit_salt` (fruit salt)
 - `full_fat_milk` (full-fat milk)
-- `galangal` (galangal)
 - `garam_masala` (garam masala)
 - `garam_masala_powder` (garam masala powder)
 - `garden_egg` (garden egg)
@@ -800,7 +784,6 @@ Used by some step, and neither they nor anything that counts as them is made by 
 - `marie_biscuits` (marie biscuits)
 - `marinara` (marinara)
 - `marinara_sauce` (marinara sauce)
-- `marjoram` (marjoram)
 - `marmalade` (marmalade)
 - `marrow_bone` (marrow bone)
 - `mars_bar` (mars bar)
@@ -878,7 +861,6 @@ Used by some step, and neither they nor anything that counts as them is made by 
 - `nesquik_chocolate_flavored_drink_powder` (nesquik chocolate-flavored drink powder)
 - `nestum_cereal_flakes` (nestum cereal flakes)
 - `new_mexico_ristra` (new mexico/ristra)
-- `nigella` (nigella)
 - `nigerian_brown_bean` (nigerian brown bean)
 - `niter_kibbeh` (niter kibbeh)
 - `njangsa` (njangsa)
@@ -921,7 +903,6 @@ Used by some step, and neither they nor anything that counts as them is made by 
 - `orange_oil` (orange oil)
 - `orange_peel` (orange peel)
 - `orange_rind` (orange rind)
-- `oregano` (oregano)
 - `organic` (organic)
 - `oriental_flavoring` (oriental flavoring)
 - `orzo` (orzo)
@@ -944,12 +925,10 @@ Used by some step, and neither they nor anything that counts as them is made by 
 - `pancakes_north_american_step_3` (pancakes (North American), after step 3)
 - `pancakes_north_american_step_4` (pancakes (North American), after step 4)
 - `pancetta` (pancetta)
-- `pandan` (pandan)
 - `pandan_essence` (pandan essence)
 - `pandan_leaves` (pandan leaves)
 - `panla` (panla)
 - `parmesan_cheese` (parmesan cheese)
-- `parsley` (parsley)
 - `parsley_root` (parsley root)
 - `parsley_roots` (parsley roots)
 - `part_chambord` (part chambord)
@@ -1023,7 +1002,6 @@ Used by some step, and neither they nor anything that counts as them is made by 
 - `polenta` (polenta)
 - `pompano` (pompano)
 - `ponmo` (kpomo)
-- `poppy_seed` (poppy seed)
 - `porcini_mushroom` (porcini mushroom)
 - `pork` (pork)
 - `pork_broth` (pork broth)
@@ -1095,7 +1073,6 @@ Used by some step, and neither they nor anything that counts as them is made by 
 - `rose_leaves` (rose leaves)
 - `rosehip` (rosehip)
 - `roselle` (ashwe)
-- `rosemary` (rosemary)
 - `rosewater` (rosewater)
 - `rougag` (rougag)
 - `round_brisket_of_corned_beef` (round/brisket of corned beef)
@@ -1125,7 +1102,6 @@ Used by some step, and neither they nor anything that counts as them is made by 
 - `sausage_casing` (sausage casing)
 - `sausage_meat` (sausage meat)
 - `sauteed_vegetables` (sautéed vegetables)
-- `savory` (savory)
 - `sazon` (sazón)
 - `scallop` (scallop)
 - `scent_leaf` (scent leaf)
@@ -1241,7 +1217,6 @@ Used by some step, and neither they nor anything that counts as them is made by 
 - `squid_tentacles` (squid tentacles)
 - `stale_french_bread` (stale french bread)
 - `standing_rib_roast` (standing rib roast)
-- `star_anise` (star anise)
 - `starch_based_creamer` (starch-based creamer)
 - `steak_sauce` (steak sauce)
 - `stem_ginger_in_syrup` (stem ginger in syrup)
@@ -1256,7 +1231,6 @@ Used by some step, and neither they nor anything that counts as them is made by 
 - `suet` (suet)
 - `suet_crust` (suet-crust)
 - `sugar_substitute` (sugar substitute)
-- `sumac` (sumac)
 - `sun_dried_tomatoes` (sun-dried tomatoes)
 - `suya_spice` (suya spice)
 - `sweet_herbs` (sweet herbs)
@@ -1285,7 +1259,6 @@ Used by some step, and neither they nor anything that counts as them is made by 
 - `tapioca_pearls` (tapioca pearls)
 - `tapioca_starch` (tapioca starch)
 - `taro_root` (cocoyam)
-- `tarragon` (tarragon)
 - `tater_tots` (tater tots)
 - `tatsoi` (tatsoi)
 - `taurine` (taurine)
@@ -1301,7 +1274,6 @@ Used by some step, and neither they nor anything that counts as them is made by 
 - `thai_chili_paste` (thai chili paste)
 - `thick_cut_ribeye_steaks` (thick-cut ribeye steaks)
 - `threads_of_saffron` (threads of saffron)
-- `thyme` (thyme)
 - `thyme_leaves` (thyme leaves)
 - `tiger_nut` (tiger nut)
 - `tikka_masala_paste` (tikka masala paste)
@@ -1395,6 +1367,39 @@ Used by some step, and neither they nor anything that counts as them is made by 
 - `zest` (zest)
 - `zest_from_juiced_lemons` (zest from juiced lemons)
 - `zest_of_lemon` (zest of lemon)
+
+## Planted spices
+
+Spices no mapped mod grows, which the mod plants itself (`cookbook_of_babel/spice_gardens.json`), and the HarvestCraft 2 gardens their seeds drop from.
+
+- `allspice` (allspice): tropical
+- `annatto` (annatto): tropical
+- `asafoetida` (asafoetida): arid
+- `bay_leaf` (bay leaf): arid
+- `caraway` (caraway): frost, windy
+- `cardamom` (cardamom): tropical
+- `chive` (chive): frost, shaded, windy
+- `cilantro` (cilantro): arid, windy
+- `clove` (clove): tropical
+- `coriander` (coriander): arid, windy
+- `cumin` (cumin): arid
+- `curry_leaf` (curry leaf): tropical
+- `dill` (dill): frost, windy
+- `fennel` (fennel): arid, windy
+- `fenugreek` (fenugreek): arid
+- `galangal` (galangal): soggy, tropical
+- `marjoram` (marjoram): arid
+- `nigella` (nigella): arid
+- `oregano` (oregano): arid
+- `pandan` (pandan): soggy, tropical
+- `parsley` (parsley): shaded, windy
+- `poppy_seed` (poppy seed): windy
+- `rosemary` (rosemary): arid
+- `savory` (savory): arid, shaded
+- `star_anise` (star anise): shaded, tropical
+- `sumac` (sumac): arid
+- `tarragon` (tarragon): shaded, windy
+- `thyme` (thyme): arid
 
 ## Merged ingredients
 

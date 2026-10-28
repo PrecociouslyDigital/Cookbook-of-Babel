@@ -73,6 +73,14 @@ public final class Substances {
                 .isPresent();
     }
 
+    /** The substance a tag names, if it names one; whether it exists is the registry's to say. */
+    public static Optional<ResourceKey<Substance>> named(CompoundTag tag) {
+        return Optional.ofNullable(tag)
+                .filter(t -> t.contains(KEY))
+                .map(t -> ResourceLocation.tryParse(t.getString(KEY)))
+                .map(id -> ResourceKey.create(Substance.REGISTRY, id));
+    }
+
     /** The NBT that names a substance, for a stack or for matching one. */
     public static CompoundTag tagOf(ResourceKey<Substance> substance) {
         var tag = new CompoundTag();
@@ -103,9 +111,6 @@ public final class Substances {
     }
 
     private static Optional<Holder.Reference<Substance>> lookUp(CompoundTag tag, HolderLookup.Provider lookup) {
-        return Optional.ofNullable(tag)
-                .map(t -> ResourceLocation.tryParse(t.getString(KEY)))
-                .flatMap(id -> lookup.lookup(Substance.REGISTRY)
-                        .flatMap(registry -> registry.get(ResourceKey.create(Substance.REGISTRY, id))));
+        return named(tag).flatMap(key -> lookup.lookup(Substance.REGISTRY).flatMap(registry -> registry.get(key)));
     }
 }

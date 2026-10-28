@@ -10,6 +10,8 @@ import cookbookofbabel.minecraft.datagen.plan.Mod;
 import cookbookofbabel.minecraft.datagen.plan.Proposals;
 import cookbookofbabel.minecraft.datagen.plan.Quantize;
 import cookbookofbabel.minecraft.datagen.plan.RouteKind;
+import cookbookofbabel.minecraft.spice.Garden;
+import cookbookofbabel.minecraft.spice.SpiceGardens;
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
@@ -51,14 +53,15 @@ final class Reports implements DataProvider {
     }
 
     /**
-     * Ingredients no step makes and no mod provides, nor anything that counts as them: nothing in
-     * the game can produce them.
+     * Ingredients no step makes, no mod provides and the mod doesn't plant, nor anything that counts
+     * as them: nothing in the game can produce them.
      */
     private List<Ingredient> unmappedLeaves() {
         var made = context.producedSomewhere();
         return context.dataset.ingredients().stream()
                 .filter(i -> context.dataset.descendants(i.id()).stream().noneMatch(d -> made.contains(d)
-                        || context.mappings.stream().anyMatch(m -> m.entry(d).isPresent())))
+                        || context.mappings.stream().anyMatch(m -> m.entry(d).isPresent())
+                        || SpiceGardens.all().containsKey(d)))
                 .filter(i -> context.recipes().stream().anyMatch(r -> cookbookofbabel.minecraft.datagen.plan.Recipes.consumes(r, i.id())))
                 .toList();
     }
@@ -87,6 +90,13 @@ final class Reports implements DataProvider {
         if (leaves.isEmpty()) {
             out.append("None.\n");
         }
+
+        out.append("\n## Planted spices\n\n");
+        out.append("Spices no mapped mod grows, which the mod plants itself (`cookbook_of_babel/spice_gardens.json`), ");
+        out.append("and the HarvestCraft 2 gardens their seeds drop from.\n\n");
+        SpiceGardens.all().forEach((spice, gardens) -> out.append("- `").append(spice).append("` (")
+                .append(context.dataset.ingredient(spice).label()).append("): ")
+                .append(gardens.stream().map(Garden::getSerializedName).collect(Collectors.joining(", "))).append('\n'));
 
         out.append("\n## Merged ingredients\n\n");
         out.append("Preparations the dataset keeps apart but one machine here makes alike: each line is the ingredient kept, ");

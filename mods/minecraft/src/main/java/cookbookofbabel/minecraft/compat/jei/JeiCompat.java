@@ -3,6 +3,7 @@ package cookbookofbabel.minecraft.compat.jei;
 import cookbookofbabel.minecraft.BabelTags;
 import cookbookofbabel.minecraft.CookbookOfBabel;
 import cookbookofbabel.minecraft.Registration;
+import cookbookofbabel.minecraft.spice.SpiceSeedsItem;
 import cookbookofbabel.minecraft.substance.Container;
 import cookbookofbabel.minecraft.substance.FluidKind;
 import cookbookofbabel.minecraft.substance.PortionItem;
@@ -28,12 +29,14 @@ public final class JeiCompat implements IModPlugin {
         return CookbookOfBabel.id("jei");
     }
 
-    /** Each substance is its own entry, told apart by the substance it names. */
+    /** Each substance, and each spice's seeds, is its own entry, told apart by the substance it names. */
     @Override
     public void registerItemSubtypes(ISubtypeRegistration registration) {
         registration.registerSubtypeInterpreter(VanillaTypes.ITEM_STACK, Registration.SUBSTANCE_ITEM.get(), (stack, context) -> named(stack.getTag()));
         registration.registerSubtypeInterpreter(VanillaTypes.ITEM_STACK, Registration.PORTION.get(), (stack, context) ->
                 PortionItem.contents(stack).map(fluid -> named(fluid.getTag())).orElse(IIngredientSubtypeInterpreter.NONE));
+        registration.registerSubtypeInterpreter(VanillaTypes.ITEM_STACK, Registration.SPICE_SEEDS.get(), (stack, context) ->
+                SpiceSeedsItem.spice(stack).map(spice -> spice.location().toString()).orElse(IIngredientSubtypeInterpreter.NONE));
     }
 
     @Override

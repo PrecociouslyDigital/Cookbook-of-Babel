@@ -2,6 +2,8 @@ package cookbookofbabel.minecraft.client;
 
 import cookbookofbabel.minecraft.CookbookOfBabel;
 import cookbookofbabel.minecraft.Registration;
+import cookbookofbabel.minecraft.spice.SpiceCropBlockEntity;
+import cookbookofbabel.minecraft.spice.SpiceSeedsItem;
 import cookbookofbabel.minecraft.substance.Colors;
 import cookbookofbabel.minecraft.substance.PortionItem;
 import net.minecraft.client.renderer.item.ItemProperties;
@@ -38,5 +40,18 @@ public final class ClientSetup {
                 Registration.PORTION.get());
         Registration.DISHES.forEach((dish, item) ->
                 event.register((stack, layer) -> layer == 0 ? Colors.forId(dish.id()) : -1, item.get()));
+        event.register(
+                (stack, layer) -> layer == 0 ? SpiceSeedsItem.spice(stack).map(ClientSubstances::color).orElse(-1) : -1,
+                Registration.SPICE_SEEDS.get());
+    }
+
+    /** A spice crop takes its spice's colour, so each spice's foliage looks its own. */
+    @SubscribeEvent
+    static void blockColors(RegisterColorHandlersEvent.Block event) {
+        event.register(
+                (state, level, pos, tint) -> level != null && pos != null && level.getBlockEntity(pos) instanceof SpiceCropBlockEntity crop
+                        ? crop.spice().map(ClientSubstances::color).orElse(-1)
+                        : -1,
+                Registration.SPICE_CROP.get());
     }
 }

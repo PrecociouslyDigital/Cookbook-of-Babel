@@ -11,6 +11,7 @@ import cookbookofbabel.minecraft.datagen.plan.Merging;
 import cookbookofbabel.minecraft.datagen.plan.Planner;
 import cookbookofbabel.minecraft.datagen.plan.Provided;
 import cookbookofbabel.minecraft.datagen.plan.Techniques;
+import cookbookofbabel.minecraft.spice.SpiceGardens;
 import java.io.IOException;
 import java.nio.file.Path;
 import java.util.ArrayList;
@@ -62,7 +63,10 @@ public final class DatagenContext {
         return merging.recipes();
     }
 
-    /** Fail on anything the mappings or tables name that doesn't exist. */
+    /**
+     * Fail on anything the mappings or tables name that doesn't exist, and on a planted spice that
+     * a mapped mod already grows.
+     */
     private void check() {
         var problems = new ArrayList<String>();
         var techniqueIds = export.techniques().stream().map(t -> t.id()).collect(Collectors.toSet());
@@ -82,6 +86,16 @@ public final class DatagenContext {
                         .forEach(f -> problems.add(mapping.mod().id + " maps " + ingredient + " to a missing fluid " + f));
             });
         }
+        SpiceGardens.all().keySet().forEach(spice -> {
+            if (!dataset.hasIngredient(spice)) {
+                problems.add("spice_gardens.json plants " + spice + ", which the dataset doesn't have");
+            } else if (dataset.ingredient(spice).named()) {
+                problems.add("spice_gardens.json plants " + spice + ", a named dish");
+            }
+            mappings.stream()
+                    .filter(m -> m.entry(spice).isPresent())
+                    .forEach(m -> problems.add("spice_gardens.json plants " + spice + ", which " + m.mod().id + " already provides"));
+        });
         var dishes = NamedDish.values().stream().map(NamedDish::id).collect(Collectors.toSet());
         var named = export.ingredients().stream().filter(Ingredient::named).map(i -> i.id().value()).collect(Collectors.toSet());
         if (!dishes.equals(named)) {

@@ -23,6 +23,10 @@ import cookbookofbabel.minecraft.room.Air;
 import cookbookofbabel.minecraft.room.Climate;
 import cookbookofbabel.minecraft.room.LevelRooms;
 import cookbookofbabel.minecraft.room.RoomConstants;
+import cookbookofbabel.minecraft.spice.Garden;
+import cookbookofbabel.minecraft.spice.SpiceCropBlockEntity;
+import cookbookofbabel.minecraft.spice.SpiceGardens;
+import cookbookofbabel.minecraft.spice.SpiceSeedsItem;
 import cookbookofbabel.minecraft.substance.Carrier;
 import cookbookofbabel.minecraft.substance.Container;
 import cookbookofbabel.minecraft.substance.FluidKind;
@@ -34,10 +38,12 @@ import java.util.Arrays;
 import java.util.Collection;
 import java.util.Comparator;
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.List;
 import java.util.Map;
 import java.util.Optional;
 import java.util.OptionalLong;
+import java.util.Set;
 import java.util.TreeMap;
 import java.util.function.Function;
 import java.util.function.Supplier;
@@ -52,8 +58,11 @@ import net.minecraft.gametest.framework.GameTestHelper;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.server.MinecraftServer;
+import net.minecraft.server.level.ServerLevel;
 import net.minecraft.server.packs.resources.Resource;
+import net.minecraft.world.InteractionHand;
 import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.context.UseOnContext;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.crafting.RecipeType;
 import net.minecraft.world.level.Level;
@@ -61,6 +70,12 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.entity.RandomizableContainerBlockEntity;
 import net.minecraft.world.level.block.state.properties.BlockStateProperties;
+import net.minecraft.world.level.storage.loot.LootParams;
+import net.minecraft.world.level.storage.loot.LootTable;
+import net.minecraft.world.level.storage.loot.parameters.LootContextParamSets;
+import net.minecraft.world.level.storage.loot.parameters.LootContextParams;
+import net.minecraft.world.phys.BlockHitResult;
+import net.minecraft.world.phys.Vec3;
 import net.minecraftforge.common.capabilities.ForgeCapabilities;
 import net.minecraftforge.common.crafting.CraftingHelper;
 import net.minecraftforge.common.crafting.conditions.ICondition;
@@ -646,4 +661,69 @@ public final class BabelGameTests {
         };
     }
 
+    /**
+     * Every planted spice grows from its seed and keeps its spice as it ages. Broken ripe, it drops
+     * that spice and its seed, and nothing else.
+     */
+    @GameTest(template = EMPTY)
+    public static void spiceCropsGrowAndDropTheirSpice(GameTestHelper helper) {
+        var level = helper.getLevel();
+        var crop = Registration.SPICE_CROP.get();
+        var soil = new BlockPos(1, 1, 1);
+        var at = helper.absolutePos(soil.above());
+        var player = helper.makeMockPlayer();
+        for (var spice : SpiceGardens.spices()) {
+            helper.setBlock(soil, Blocks.FARMLAND);
+            helper.setBlock(soil.above(), Blocks.AIR);
+            var seeds = SpiceSeedsItem.of(spice);
+            player.setItemInHand(InteractionHand.MAIN_HAND, seeds);
+            var hit = new BlockHitResult(Vec3.atCenterOf(helper.absolutePos(soil)), Direction.UP, helper.absolutePos(soil), false);
+            seeds.useOn(new UseOnContext(player, InteractionHand.MAIN_HAND, hit));
+            helper.assertBlockPresent(crop, soil.above());
+            while (!crop.isMaxAge(level.getBlockState(at))) {
+                crop.growCrops(level, at, level.getBlockState(at));
+            }
+            var planted = (SpiceCropBlockEntity) level.getBlockEntity(at);
+            helper.assertTrue(planted.spice().equals(Optional.of(spice)), "a ripe " + spice + " crop is " + planted.spice());
+            var drops = Block.getDrops(level.getBlockState(at), level, at, planted);
+            helper.assertTrue(drops.stream().anyMatch(d -> SpiceSeedsItem.spice(d).equals(Optional.of(spice))), spice + " dropped no seed of itself: " + drops);
+            helper.assertTrue(drops.stream().anyMatch(d -> substanceOf(level, d).equals(Optional.of(spice))), spice + " dropped no " + spice + ": " + drops);
+            helper.assertTrue(drops.stream().allMatch(d -> SpiceSeedsItem.spice(d).or(() -> substanceOf(level, d)).equals(Optional.of(spice))),
+                    spice + " dropped something else: " + drops);
+        }
+        helper.succeed();
+    }
+
+    private static Optional<ResourceKey<Substance>> substanceOf(ServerLevel level, ItemStack stack) {
+        return Substances.of(stack, level.registryAccess()).map(Holder.Reference::key);
+    }
+
+    /** Enough garden breaks that every spice of a garden is all but sure to turn up. */
+    private static final int GARDEN_ROLLS = 400;
+
+    /**
+     * Each wild garden of HarvestCraft, broken many times over, drops the seeds of its own spices
+     * and of no others. The rolls are seeded, so the test always sees the same drops.
+     */
+    @GameTest(template = EMPTY)
+    public static void gardensDropOnlyTheirOwnSpices(GameTestHelper helper) {
+        var level = helper.getLevel();
+        for (var garden : Garden.values()) {
+            var table = level.getServer().getLootData().getLootTable(garden.lootTable());
+            helper.assertTrue(table != LootTable.EMPTY, "no loot table " + garden.lootTable());
+            var params = new LootParams.Builder(level)
+                    .withParameter(LootContextParams.ORIGIN, Vec3.atCenterOf(helper.absolutePos(BlockPos.ZERO)))
+                    .withParameter(LootContextParams.TOOL, ItemStack.EMPTY)
+                    .withParameter(LootContextParams.BLOCK_STATE, ForgeRegistries.BLOCKS.getValue(garden.block()).defaultBlockState())
+                    .create(LootContextParamSets.BLOCK);
+            var found = new HashSet<ResourceKey<Substance>>();
+            for (long seed = 0; seed < GARDEN_ROLLS; seed++) {
+                table.getRandomItems(params, seed).forEach(stack -> SpiceSeedsItem.spice(stack).ifPresent(found::add));
+            }
+            var grown = Set.copyOf(SpiceGardens.growingIn(garden));
+            helper.assertTrue(grown.containsAll(found), garden + " dropped seeds of " + found + ", not only " + grown);
+            helper.assertTrue(found.isEmpty() == grown.isEmpty(), garden + " dropped seeds of " + found + " in " + GARDEN_ROLLS + " rolls");
+        }
+        helper.succeed();
+    }
 }
