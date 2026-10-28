@@ -1,0 +1,44 @@
+{
+  "id": "chorizo.shape",
+  "source": "cookbook_of_babel",
+  "technique": "shape",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "chorizo_mix",
+        "amount": {
+          "qty": 50,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "raw_chorizo",
+      "amount": {
+        "qty": 50,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 2,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "the spiced pork paste stuffed into links",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "casing adds no net mass"
+    }
+  ]
+}

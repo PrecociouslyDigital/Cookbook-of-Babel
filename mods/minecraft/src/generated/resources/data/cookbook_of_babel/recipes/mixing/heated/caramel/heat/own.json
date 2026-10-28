@@ -1,0 +1,95 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:mod_loaded",
+        "modid": "croptopia"
+      }
+    },
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:mod_loaded",
+        "modid": "pamhc2foodcore"
+      }
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/caramel"
+    }
+  ],
+  "heatRequirement": "heated",
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:portion",
+        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:liquid\",Tag:{substance:\"cookbook_of_babel:white_sugar_heat_heat\"}}}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/white_sugar_heat_heat"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:portion",
+        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:liquid\",Tag:{substance:\"cookbook_of_babel:white_sugar_heat_heat\"}}}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/white_sugar_heat_heat"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:portion",
+        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:liquid\",Tag:{substance:\"cookbook_of_babel:white_sugar_heat_heat\"}}}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/white_sugar_heat_heat"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:portion",
+        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:liquid\",Tag:{substance:\"cookbook_of_babel:white_sugar_heat_heat\"}}}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/white_sugar_heat_heat"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:portion",
+        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:liquid\",Tag:{substance:\"cookbook_of_babel:white_sugar_heat_heat\"}}}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/white_sugar_heat_heat"
+      }
+    ]
+  ],
+  "processingTime": 200,
+  "results": [
+    {
+      "item": "cookbook_of_babel:portion",
+      "nbt": {
+        "Fluid": {
+          "Amount": 250,
+          "FluidName": "cookbook_of_babel:liquid",
+          "Tag": {
+            "substance": "cookbook_of_babel:caramel"
+          }
+        }
+      }
+    }
+  ]
+}

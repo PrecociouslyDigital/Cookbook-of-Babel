@@ -15,7 +15,7 @@ Steps of each technique: all of them, those with a recipe in at least one machin
 | assemble | 1023 | 584 | 0 |
 | bake | 939 | 616 | 0 |
 | blend | 462 | 402 | 0 |
-| boil | 956 | 817 | 0 |
+| boil | 956 | 819 | 0 |
 | calcine | 1 | 1 | 0 |
 | carbonate | 6 | 5 | 0 |
 | chill | 377 | 4 | 266 |
@@ -38,21 +38,21 @@ Steps of each technique: all of them, those with a recipe in at least one machin
 | fry | 545 | 455 | 0 |
 | grill | 244 | 118 | 0 |
 | grind | 315 | 240 | 0 |
-| heat | 820 | 701 | 0 |
+| heat | 821 | 702 | 0 |
 | julienne | 18 | 13 | 0 |
 | knead | 101 | 89 | 0 |
-| mix | 3381 | 2868 | 0 |
+| mix | 3381 | 2869 | 0 |
 | mold | 205 | 0 | 205 |
 | pan_fry | 1117 | 956 | 0 |
 | press | 104 | 87 | 0 |
 | rancid | 43 | 0 | 42 |
 | rinse | 339 | 321 | 0 |
-| roast | 182 | 111 | 0 |
+| roast | 181 | 111 | 0 |
 | season | 1072 | 809 | 0 |
 | separate | 435 | 343 | 0 |
 | shape | 150 | 123 | 0 |
-| simmer | 1328 | 1016 | 0 |
-| smoke | 31 | 21 | 0 |
+| simmer | 1328 | 1023 | 0 |
+| smoke | 31 | 23 | 0 |
 | soak | 421 | 386 | 0 |
 | sour | 38 | 0 | 38 |
 | spoil | 251 | 0 | 251 |
@@ -8814,6 +8814,7 @@ Crafting steps that turn one ingredient into another and nothing more, which wou
 - `chocolate_truffles.step_7`: `chocolate_truffles_step_6` → `chocolate_truffles_step_7`, now `chocolate_truffles_step_7`
 - `chocolate_truffles.step_8`: `chocolate_truffles_step_7` → `chocolate_truffles_step_8`, now `chocolate_truffles_step_7`
 - `chokladboll_swedish_chocolate_balls.step_6`: `chokladboll_swedish_chocolate_balls_step_5` → `chokladboll_swedish_chocolate_balls_step_6`, now `chokladboll_swedish_chocolate_balls_step_6`
+- `chorizo.shape`: `chorizo_mix` → `raw_chorizo`, now `raw_chorizo`
 - `christmas_cake.step_7`: `christmas_cake_step_6` → `christmas_cake_step_7`, now `christmas_cake_step_7`
 - `christmas_cinnamon_cookies.step_4`: `christmas_cinnamon_cookies_step_3` → `christmas_cinnamon_cookies_step_4`, now `christmas_cinnamon_cookies_step_4`
 - `christmas_mince_pies_meat_free.step_2`: `pastry_dough_cut_cut` → `christmas_mince_pies_meat_free_step_2`, now `christmas_mince_pies_meat_free_step_2`
@@ -11369,6 +11370,7 @@ Ingredients the mod's live recipes make as other mods' items, and every item map
 - `butter`: `croptopia:butter`, `pamhc2foodcore:butteritem`
 - `candied_sweet_potatoes`: `pamhc2foodextended:candiedsweetpotatoesitem`
 - `caprese_salad`: `pamhc2foodextended:capresesaladitem`
+- `caramel`: `croptopia:caramel`, `pamhc2foodcore:caramelitem`
 - `cashew_butter`: `pamhc2foodextended:cashewbutteritem`
 - `cheese_on_toast`: `pamhc2foodextended:cheeseontoastitem`
 - `cherry_jam`: `croptopia:cherry_jam`
@@ -11379,6 +11381,7 @@ Ingredients the mod's live recipes make as other mods' items, and every item map
 - `chocolate`: `croptopia:chocolate`, `pamhc2foodcore:chocolatebaritem`
 - `chocolate_milk`: `pamhc2foodcore:chocolatemilkitem`, `pamhc2foodextended:chocolatemilkitem`
 - `chocolate_milkshake`: `croptopia:chocolate_milkshake`
+- `chorizo`: `pamhc2foodextended:chorizoitem`
 - `churros_i`: `croptopia:churros`
 - `cinnamon_bread`: `minecraft:bread`, `pamhc2foodextended:cinnamonbreaditem`
 - `cinnamon_rolls`: `croptopia:cinnamon_roll`, `pamhc2foodextended:cinnamonrollitem`
@@ -19004,20 +19007,20 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `atama_soup.step_5` (boil)
 
-- create_heated_mixing: 1 recipe, disabled: the game can't make `smoked_fish`
+- create_heated_mixing: 1 recipe, rounding 15%, estimated
 - fd_cooking_pot: none, whole items would distort it by 650%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `atama_soup.step_6` (boil)
 
-- create_heated_mixing: 1 recipe, disabled: the game can't make `atama_soup_step_5`
-- fd_cooking_pot: 1 recipe, disabled: the game can't make `atama_soup_step_5`
+- create_heated_mixing: 1 recipe, rounding 4%, estimated
+- fd_cooking_pot: 1 recipe, rounding 0%, estimated
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `atama_soup.step_7` (simmer)
 
-- create_heated_mixing: 1 recipe, disabled: the game can't make `atama_soup_step_6`
-- fd_cooking_pot: 1 recipe, disabled: the game can't make `atama_soup_step_6`
+- create_heated_mixing: 1 recipe, rounding 0%, estimated
+- fd_cooking_pot: 1 recipe, rounding 0%, estimated
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `atkilt_wat_ethiopian_cabbage_and_potato_stew.step_2` (pan_fry)
@@ -29737,8 +29740,8 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `cachupa_cape_verdean_corn_stew.step_10.prep_20` (rinse)
 
-- create_mixing: 1 recipe, rounding 11%
-- create_splashing: 1 recipe, rounding 11%
+- create_mixing: 1 recipe, rounding 12%
+- create_splashing: 1 recipe, rounding 12%
 
 ### `cachupa_cape_verdean_corn_stew.step_11` (simmer)
 
@@ -30830,11 +30833,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 - transition: written
 
-### `caramel.heat` (roast)
+### `caramel.heat` (heat)
 
-- smelting: none, whole items would distort it by 295%
-- smoking: none, whole items would distort it by 295%
-- thermal_smelter: none, whole items would distort it by 295%
+- create_heated_mixing: 3 recipes, rounding 6%, estimated
+- fd_cooking_pot: 3 recipes, rounding 6%, estimated
+- hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `caramel_coffee_cake.step_1` (whisk)
 
@@ -38297,8 +38300,8 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `chorizo.smoke` (smoke)
 
-- smoking: none, whole items would distort it by 380%
-- campfire: none, whole items would distort it by 380%
+- smoking: 2 recipes, rounding 0%
+- campfire: 2 recipes, rounding 0%
 
 ### `choucroute_sauerkraut_with_meat_and_potatoes.step_1` (heat)
 
@@ -80150,20 +80153,20 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `miyan_ridi_nigerian_sesame_soup.step_4` (simmer)
 
-- create_heated_mixing: 1 recipe, disabled: the game can't make `smoked_fish`
-- fd_cooking_pot: 1 recipe, disabled: the game can't make `smoked_fish`
+- create_heated_mixing: 1 recipe, rounding 0%
+- fd_cooking_pot: 1 recipe, rounding 0%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `miyan_ridi_nigerian_sesame_soup.step_5` (simmer)
 
-- create_heated_mixing: 1 recipe, disabled: the game can't make `miyan_ridi_nigerian_sesame_soup_step_4`
-- fd_cooking_pot: 1 recipe, disabled: the game can't make `miyan_ridi_nigerian_sesame_soup_step_4`
+- create_heated_mixing: 1 recipe, rounding 15%, estimated
+- fd_cooking_pot: 1 recipe, rounding 0%, estimated
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `miyan_ridi_nigerian_sesame_soup.step_6` (mix)
 
-- create_mixing: 1 recipe, disabled: the game can't make `miyan_ridi_nigerian_sesame_soup_step_5`
-- shapeless_crafting: 1 recipe, disabled: the game can't make `miyan_ridi_nigerian_sesame_soup_step_5`
+- create_mixing: 1 recipe, rounding 0%, estimated
+- shapeless_crafting: 1 recipe, rounding 0%, estimated
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `miyan_shuwaka_hausa_bitter_leaf_soup.step_1` (rinse)
@@ -83877,13 +83880,13 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `nigerian_oha_soup_ora_soup.step_5` (simmer)
 
-- create_heated_mixing: 1 recipe, disabled: the game can't make `smoked_fish`
-- fd_cooking_pot: none, whole items would distort it by 182%
+- create_heated_mixing: 1 recipe, rounding 15%, estimated
+- fd_cooking_pot: none, whole items would distort it by 323%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `nigerian_oha_soup_ora_soup.step_6` (simmer)
 
-- create_heated_mixing: 1 recipe, disabled: the game can't make `nigerian_oha_soup_ora_soup_step_5`
+- create_heated_mixing: 1 recipe, rounding 11%, estimated
 - fd_cooking_pot: none, whole items would distort it by 275%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
@@ -83906,14 +83909,14 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `nigerian_okra_soup_ila_asepo.step_3` (simmer)
 
-- create_heated_mixing: 1 recipe, disabled: the game can't make `smoked_fish`
-- fd_cooking_pot: 1 recipe, disabled: the game can't make `smoked_fish`
+- create_heated_mixing: 1 recipe, rounding 15%, estimated
+- fd_cooking_pot: none, whole items would distort it by 323%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `nigerian_okra_soup_ila_asepo.step_4` (simmer)
 
-- create_heated_mixing: 1 recipe, disabled: the game can't make `nigerian_okra_soup_ila_asepo_step_3`
-- fd_cooking_pot: 1 recipe, disabled: the game can't make `nigerian_okra_soup_ila_asepo_step_3`
+- create_heated_mixing: 1 recipe, rounding 11%, estimated
+- fd_cooking_pot: 1 recipe, rounding 67% ⚠, estimated
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `nigerian_oto_mboro_recipe.step_1` (grind)
@@ -99029,7 +99032,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `rice_tamale_pastel_de_arroz.step_1` (mix)
 
-- create_mixing: 2 recipes, rounding 14%, estimated
+- create_mixing: 1 recipe, rounding 15%, estimated
 - shapeless_crafting: none, takes at most 9 inputs, not 12
 - hexerei_mixing_cauldron: none, takes at most 9 inputs, not 12
 
@@ -107692,8 +107695,8 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `smoked_fish.smoke` (smoke)
 
-- smoking: none, whole items would distort it by 200%
-- campfire: none, whole items would distort it by 200%
+- smoking: 1 recipe, rounding 0%
+- campfire: 1 recipe, rounding 0%
 
 ### `smoked_paprika.smoke` (smoke)
 
@@ -127300,7 +127303,6 @@ Inputs by how many pruned routes miss them:
 - `hickory_bbq_rub`: 6
 - `niter_kibbeh`: 6
 - `niter_kibbeh_heat`: 6
-- `smoked_fish`: 6
 - `corn_chop`: 5
 - `homemade_wheat_tortillas`: 5
 - `shortening_cut`: 5
@@ -127496,8 +127498,6 @@ Inputs by how many pruned routes miss them:
 - `asparagus_cut_cut`: 2
 - `asparagus_with_sesame_seeds_and_soy_sauce_step_4`: 2
 - `asparagus_with_sesame_seeds_and_soy_sauce_step_6`: 2
-- `atama_soup_step_5`: 2
-- `atama_soup_step_6`: 2
 - `atkilt_wat_ethiopian_cabbage_and_potato_stew_step_5`: 2
 - `atkilt_wat_ethiopian_cabbage_and_potato_stew_step_6`: 2
 - `atkilt_wat_ethiopian_cabbage_and_potato_stew_step_7`: 2
@@ -128403,8 +128403,6 @@ Inputs by how many pruned routes miss them:
 - `miso_soup_traditional_step_2`: 2
 - `mixed_pickled_vegetables_acar_campur_step_3`: 2
 - `mixed_pickled_vegetables_acar_campur_step_4`: 2
-- `miyan_ridi_nigerian_sesame_soup_step_4`: 2
-- `miyan_ridi_nigerian_sesame_soup_step_5`: 2
 - `moambe_palm_nut_soup_step_7`: 2
 - `moambe_palm_nut_soup_step_9`: 2
 - `mocha_delight_step_12`: 2
@@ -128456,7 +128454,6 @@ Inputs by how many pruned routes miss them:
 - `nigerian_noodles_step_2`: 2
 - `nigerian_noodles_step_3`: 2
 - `nigerian_noodles_step_7`: 2
-- `nigerian_okra_soup_ila_asepo_step_3`: 2
 - `nigerian_yanrin_step_3`: 2
 - `nigerian_yanrin_step_4`: 2
 - `nigerian_yanrin_step_5`: 2
@@ -129692,7 +129689,6 @@ Inputs by how many pruned routes miss them:
 - `nicoise_salad_step_1`: 1
 - `nigerian_barbecued_chicken_wings_step_1`: 1
 - `nigerian_noodles_step_8`: 1
-- `nigerian_oha_soup_ora_soup_step_5`: 1
 - `nigerian_yanrin_step_6`: 1
 - `noodle_toast_toast`: 1
 - `nut_roast_step_2`: 1
@@ -130230,11 +130226,6 @@ Each pruned route, and what it misses:
 - `asparagus_with_sesame_seeds_and_soy_sauce/step_6`, create_mixing: `asparagus_with_sesame_seeds_and_soy_sauce_step_5`
 - `asparagus_with_sesame_seeds_and_soy_sauce/step_7`, create_mixing: `asparagus_with_sesame_seeds_and_soy_sauce_step_6`
 - `asparagus_with_sesame_seeds_and_soy_sauce/step_7`, shapeless_crafting: `asparagus_with_sesame_seeds_and_soy_sauce_step_6`
-- `atama_soup/step_5`, create_heated_mixing: `smoked_fish`
-- `atama_soup/step_6`, create_heated_mixing: `atama_soup_step_5`
-- `atama_soup/step_6`, fd_cooking_pot: `atama_soup_step_5`
-- `atama_soup/step_7`, create_heated_mixing: `atama_soup_step_6`
-- `atama_soup/step_7`, fd_cooking_pot: `atama_soup_step_6`
 - `atkilt_wat_ethiopian_cabbage_and_potato_stew/step_5`, shapeless_crafting: `atkilt_wat_ethiopian_cabbage_and_potato_stew_step_4`
 - `atkilt_wat_ethiopian_cabbage_and_potato_stew/step_6`, create_heated_mixing: `atkilt_wat_ethiopian_cabbage_and_potato_stew_step_5`
 - `atkilt_wat_ethiopian_cabbage_and_potato_stew/step_6`, fd_cooking_pot: `atkilt_wat_ethiopian_cabbage_and_potato_stew_step_5`
@@ -132817,12 +132808,6 @@ Each pruned route, and what it misses:
 - `mixed_pickled_vegetables_acar_campur/step_4`, fd_cooking_pot: `mixed_pickled_vegetables_acar_campur_step_3`
 - `mixed_pickled_vegetables_acar_campur/step_5`, create_heated_mixing: `mixed_pickled_vegetables_acar_campur_step_4`
 - `mixed_pickled_vegetables_acar_campur/step_5`, fd_cooking_pot: `mixed_pickled_vegetables_acar_campur_step_4`
-- `miyan_ridi_nigerian_sesame_soup/step_4`, create_heated_mixing: `smoked_fish`
-- `miyan_ridi_nigerian_sesame_soup/step_4`, fd_cooking_pot: `smoked_fish`
-- `miyan_ridi_nigerian_sesame_soup/step_5`, create_heated_mixing: `miyan_ridi_nigerian_sesame_soup_step_4`
-- `miyan_ridi_nigerian_sesame_soup/step_5`, fd_cooking_pot: `miyan_ridi_nigerian_sesame_soup_step_4`
-- `miyan_ridi_nigerian_sesame_soup/step_6`, create_mixing: `miyan_ridi_nigerian_sesame_soup_step_5`
-- `miyan_ridi_nigerian_sesame_soup/step_6`, shapeless_crafting: `miyan_ridi_nigerian_sesame_soup_step_5`
 - `moambe_palm_nut_soup/step_10`, create_mixing: `moambe_palm_nut_soup_step_9`
 - `moambe_palm_nut_soup/step_10`, shapeless_crafting: `moambe_palm_nut_soup_step_9`
 - `moambe_palm_nut_soup/step_11`, create_heated_mixing: `moambe_palm_nut_soup_step_10`
@@ -132968,12 +132953,6 @@ Each pruned route, and what it misses:
 - `nigerian_noodles/step_8`, create_heated_mixing: `nigerian_noodles_step_7`
 - `nigerian_noodles/step_8`, fd_cooking_pot: `nigerian_noodles_step_7`
 - `nigerian_noodles/step_9`, create_mixing: `nigerian_noodles_step_8`
-- `nigerian_oha_soup_ora_soup/step_5`, create_heated_mixing: `smoked_fish`
-- `nigerian_oha_soup_ora_soup/step_6`, create_heated_mixing: `nigerian_oha_soup_ora_soup_step_5`
-- `nigerian_okra_soup_ila_asepo/step_3`, create_heated_mixing: `smoked_fish`
-- `nigerian_okra_soup_ila_asepo/step_3`, fd_cooking_pot: `smoked_fish`
-- `nigerian_okra_soup_ila_asepo/step_4`, create_heated_mixing: `nigerian_okra_soup_ila_asepo_step_3`
-- `nigerian_okra_soup_ila_asepo/step_4`, fd_cooking_pot: `nigerian_okra_soup_ila_asepo_step_3`
 - `nigerian_yanrin/step_4`, create_heated_mixing: `nigerian_yanrin_step_3`
 - `nigerian_yanrin/step_4`, fd_cooking_pot: `nigerian_yanrin_step_3`
 - `nigerian_yanrin/step_5`, create_heated_mixing: `nigerian_yanrin_step_4`

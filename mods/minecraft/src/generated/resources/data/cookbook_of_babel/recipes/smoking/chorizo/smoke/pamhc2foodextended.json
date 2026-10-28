@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:smoking",
+  "category": "food",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "pamhc2foodextended"
+    }
+  ],
+  "cookingtime": 300,
+  "experience": 0.1,
+  "ingredient": [
+    {
+      "type": "forge:partial_nbt",
+      "item": "cookbook_of_babel:substance",
+      "nbt": "{substance:\"cookbook_of_babel:raw_chorizo\"}"
+    },
+    {
+      "tag": "cookbook_of_babel:ingredients/raw_chorizo"
+    }
+  ],
+  "result": {
+    "item": "pamhc2foodextended:chorizoitem"
+  }
+}
