@@ -1,0 +1,35 @@
+{
+  "type": "thermal:centrifuge",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "thermal_expansion"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/agbalumo_smoothie_step_2"
+    }
+  ],
+  "energy": 400,
+  "ingredients": [
+    {
+      "value": [
+        {
+          "type": "forge:partial_nbt",
+          "item": "cookbook_of_babel:substance",
+          "nbt": "{substance:\"cookbook_of_babel:african_star_apple_rinse\"}"
+        },
+        {
+          "tag": "cookbook_of_babel:ingredients/african_star_apple_rinse"
+        }
+      ]
+    }
+  ],
+  "result": [
+    {
+      "count": 3,
+      "item": "cookbook_of_babel:substance",
+      "nbt": "{substance:\"cookbook_of_babel:agbalumo_smoothie_step_2\"}"
+    }
+  ]
+}

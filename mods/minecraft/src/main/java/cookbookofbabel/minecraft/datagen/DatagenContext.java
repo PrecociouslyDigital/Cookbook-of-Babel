@@ -5,11 +5,14 @@ import cookbookofbabel.minecraft.dataset.Ingredient;
 import cookbookofbabel.minecraft.dataset.IngredientId;
 import cookbookofbabel.minecraft.dataset.NamedDish;
 import cookbookofbabel.minecraft.dataset.Recipe;
+import cookbookofbabel.minecraft.datagen.plan.Amounts;
 import cookbookofbabel.minecraft.datagen.plan.Dataset;
+import cookbookofbabel.minecraft.datagen.plan.Eliding;
 import cookbookofbabel.minecraft.datagen.plan.Mapping;
 import cookbookofbabel.minecraft.datagen.plan.Merging;
 import cookbookofbabel.minecraft.datagen.plan.Planner;
 import cookbookofbabel.minecraft.datagen.plan.Provided;
+import cookbookofbabel.minecraft.datagen.plan.RouteKind;
 import cookbookofbabel.minecraft.datagen.plan.Techniques;
 import cookbookofbabel.minecraft.spice.SpiceGardens;
 import java.io.IOException;
@@ -23,8 +26,8 @@ import net.minecraftforge.registries.ForgeRegistries;
 
 /**
  * Everything datagen reads, loaded once and checked up front: the dataset export, the mappings,
- * and the recipe graph with same-machine preparations merged. Paths come from system properties
- * the Gradle data run sets.
+ * and the recipe graph with same-machine preparations merged and single-ingredient crafts elided.
+ * Paths come from system properties the Gradle data run sets.
  */
 public final class DatagenContext {
     public final Export export;
@@ -32,6 +35,7 @@ public final class DatagenContext {
     public final List<Mapping> mappings;
     public final Techniques techniques;
     public final Merging.Result merging;
+    public final Eliding.Result eliding;
     public final Planner planner;
     public final Coverage coverage;
     public final Path coverageFile;
@@ -43,7 +47,13 @@ public final class DatagenContext {
         this.mappings = mappings;
         this.techniques = new Techniques(dataset);
         this.merging = Merging.merge(export.recipes(), export.preparations(), techniques::machineOf);
-        this.planner = new Planner(dataset, techniques, merging.recipes(), Provided.of(mappings, dataset));
+        this.eliding = Eliding.elide(
+                merging.recipes(),
+                t -> techniques.bindingFor(t).routes().contains(RouteKind.SHAPELESS_CRAFTING),
+                held(),
+                new Amounts(dataset)::ratio,
+                techniques::machineOf);
+        this.planner = new Planner(dataset, techniques, eliding.recipes(), Provided.of(mappings, dataset));
         this.coverage = new Coverage();
         this.coverageFile = coverageFile;
         this.candidatesDirectory = candidatesDirectory;
@@ -60,7 +70,15 @@ public final class DatagenContext {
     }
 
     public List<Recipe> recipes() {
-        return merging.recipes();
+        return eliding.recipes();
+    }
+
+    /** Ingredients eliding must keep: named dishes, and what mapped mods and the mod's gardens give players. */
+    private Set<IngredientId> held() {
+        var held = new java.util.HashSet<IngredientId>(SpiceGardens.all().keySet());
+        mappings.forEach(m -> held.addAll(m.entries().keySet()));
+        dataset.ingredients().stream().filter(Ingredient::named).forEach(i -> held.add(i.id()));
+        return held;
     }
 
     /**

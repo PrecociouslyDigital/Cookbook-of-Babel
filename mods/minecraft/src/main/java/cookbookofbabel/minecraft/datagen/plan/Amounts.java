@@ -5,6 +5,7 @@ import cookbookofbabel.minecraft.dataset.IngredientId;
 import cookbookofbabel.minecraft.dataset.Unit.Dimension;
 import cookbookofbabel.minecraft.substance.Container;
 import cookbookofbabel.minecraft.substance.Portions;
+import java.util.Optional;
 
 /**
  * Converts the dataset's amounts into what Minecraft counts: items, or millibuckets of a fluid. 1 ml
@@ -65,6 +66,27 @@ public final class Amounts {
         }
         var grams = grams(ingredient, amount);
         return new Converted(grams.value() / dataset.gramsPerItem(ingredient), grams.estimated());
+    }
+
+    /**
+     * How many of {@code per} the amount of the ingredient is, unless telling needs a density or
+     * piece mass the dataset doesn't state.
+     */
+    public Optional<Double> ratio(IngredientId ingredient, Amount amount, Amount per) {
+        var unit = dataset.unit(amount.unit());
+        var perUnit = dataset.unit(per.unit());
+        if (per.qty() <= 0) {
+            return Optional.empty();
+        }
+        if (unit.dimension() == perUnit.dimension()) {
+            return Optional.of(amount.qty() * unit.toBase() / (per.qty() * perUnit.toBase()));
+        }
+        if (unit.dimension() == Dimension.TIME || perUnit.dimension() == Dimension.TIME) {
+            return Optional.empty();
+        }
+        var grams = grams(ingredient, amount);
+        var perGrams = grams(ingredient, per);
+        return grams.estimated() || perGrams.estimated() ? Optional.empty() : Optional.of(grams.value() / perGrams.value());
     }
 
     public double seconds(Amount duration) {

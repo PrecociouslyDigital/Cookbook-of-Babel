@@ -7,7 +7,7 @@
     },
     {
       "type": "forge:tag_empty",
-      "tag": "cookbook_of_babel:external/tomato_pasta_step_2"
+      "tag": "cookbook_of_babel:external/tomato_pasta_step_3"
     }
   ],
   "heatRequirement": "heated",
@@ -116,6 +116,16 @@
       {
         "type": "forge:partial_nbt",
         "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:tomato_chop\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/tomato_chop"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
         "nbt": "{substance:\"cookbook_of_babel:basil\"}"
       },
       {
@@ -140,9 +150,10 @@
   "processingTime": 20,
   "results": [
     {
-      "amount": 87,
-      "fluid": "cookbook_of_babel:liquid",
-      "nbt": "{substance:\"cookbook_of_babel:tomato_pasta_step_2\"}"
+      "item": "cookbook_of_babel:substance",
+      "nbt": {
+        "substance": "cookbook_of_babel:tomato_pasta_step_3"
+      }
     }
   ]
 }

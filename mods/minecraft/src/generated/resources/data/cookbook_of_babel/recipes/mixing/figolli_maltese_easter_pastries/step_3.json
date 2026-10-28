@@ -7,10 +7,20 @@
     },
     {
       "type": "forge:tag_empty",
-      "tag": "cookbook_of_babel:external/figolli_maltese_easter_pastries_step_3"
+      "tag": "cookbook_of_babel:external/figolli_maltese_easter_pastries_step_4"
     }
   ],
   "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:portion",
+        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:liquid\",Tag:{substance:\"cookbook_of_babel:figolli_maltese_easter_pastries_step_2\"}}}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/figolli_maltese_easter_pastries_step_2"
+      }
+    ],
     [
       {
         "type": "forge:partial_nbt",
@@ -40,14 +50,46 @@
       {
         "tag": "cookbook_of_babel:ingredients/orange"
       }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:orange\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/orange"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:orange\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/orange"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:orange\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/orange"
+      }
     ]
   ],
   "processingTime": 20,
   "results": [
     {
-      "amount": 218,
-      "fluid": "cookbook_of_babel:liquid",
-      "nbt": "{substance:\"cookbook_of_babel:figolli_maltese_easter_pastries_step_3\"}"
+      "count": 5,
+      "item": "cookbook_of_babel:substance",
+      "nbt": {
+        "substance": "cookbook_of_babel:figolli_maltese_easter_pastries_step_4"
+      }
     }
   ]
 }

@@ -7,7 +7,7 @@
     },
     {
       "type": "forge:tag_empty",
-      "tag": "cookbook_of_babel:external/scalloped_oysters_step_1"
+      "tag": "cookbook_of_babel:external/scalloped_oysters_step_2"
     }
   ],
   "ingredients": [
@@ -24,6 +24,16 @@
       },
       {
         "tag": "cookbook_of_babel:ingredients/bread"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:hard_cooked_eggs_chop\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/hard_cooked_eggs_chop"
       }
     ],
     [
@@ -90,9 +100,10 @@
   "processingTime": 20,
   "results": [
     {
-      "amount": 87,
-      "fluid": "cookbook_of_babel:bulk",
-      "nbt": "{substance:\"cookbook_of_babel:scalloped_oysters_step_1\"}"
+      "item": "cookbook_of_babel:substance",
+      "nbt": {
+        "substance": "cookbook_of_babel:scalloped_oysters_step_2"
+      }
     }
   ]
 }

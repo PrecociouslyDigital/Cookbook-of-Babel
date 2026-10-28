@@ -7,11 +7,41 @@
     },
     {
       "type": "forge:tag_empty",
-      "tag": "cookbook_of_babel:external/strip_steaks_with_pepper_cream_reduction_step_6"
+      "tag": "cookbook_of_babel:external/strip_steaks_with_pepper_cream_reduction"
     }
   ],
   "heatRequirement": "heated",
   "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:portion",
+        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:liquid\",Tag:{substance:\"cookbook_of_babel:strip_steaks_with_pepper_cream_reduction_step_5\"}}}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/strip_steaks_with_pepper_cream_reduction_step_5"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:portion",
+        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:liquid\",Tag:{substance:\"cookbook_of_babel:strip_steaks_with_pepper_cream_reduction_step_5\"}}}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/strip_steaks_with_pepper_cream_reduction_step_5"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:portion",
+        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:liquid\",Tag:{substance:\"cookbook_of_babel:cream\"}}}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/cream"
+      }
+    ],
     [
       {
         "type": "forge:partial_nbt",
@@ -21,28 +51,13 @@
       {
         "tag": "cookbook_of_babel:ingredients/worcestershire_sauce"
       }
-    ],
-    {
-      "amount": 16,
-      "fluid": "cookbook_of_babel:liquid",
-      "nbt": {
-        "substance": "cookbook_of_babel:strip_steaks_with_pepper_cream_reduction_step_5"
-      }
-    },
-    {
-      "amount": 7,
-      "fluid": "cookbook_of_babel:liquid",
-      "nbt": {
-        "substance": "cookbook_of_babel:cream"
-      }
-    }
+    ]
   ],
   "processingTime": 20,
   "results": [
     {
-      "amount": 24,
-      "fluid": "cookbook_of_babel:liquid",
-      "nbt": "{substance:\"cookbook_of_babel:strip_steaks_with_pepper_cream_reduction_step_6\"}"
+      "count": 24,
+      "item": "cookbook_of_babel:strip_steaks_with_pepper_cream_reduction"
     }
   ]
 }

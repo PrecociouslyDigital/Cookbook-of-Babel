@@ -1,0 +1,31 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "pamhc2foodextended"
+    }
+  ],
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:green_eggs_and_ham_step_7\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/green_eggs_and_ham_step_7"
+      }
+    ]
+  ],
+  "processingTime": 20,
+  "results": [
+    {
+      "item": "pamhc2foodextended:greeneggsandhamitem"
+    }
+  ]
+}

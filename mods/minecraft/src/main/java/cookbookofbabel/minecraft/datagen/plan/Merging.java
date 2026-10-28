@@ -55,15 +55,23 @@ public final class Merging {
         }
         var merged = classes.merged();
         UnaryOperator<IngredientId> rename = i -> merged.getOrDefault(i, i);
+        var distinct = distinct(recipes.stream().map(r -> Recipes.rename(r, rename)).toList(), machineOf);
+        return new Result(distinct.recipes(), merged, distinct.dropped());
+    }
+
+    record Distinct(List<Recipe> recipes, List<Dropped> dropped) {}
+
+    /** The recipes in ID order, less each that a game sees as the same as one before it. */
+    static Distinct distinct(List<Recipe> recipes, UnaryOperator<TechniqueId> machineOf) {
         var kept = new LinkedHashMap<Signature, Recipe>();
         var dropped = new ArrayList<Dropped>();
-        recipes.stream().sorted(Comparator.comparing(Recipe::id)).map(r -> Recipes.rename(r, rename)).forEach(r -> {
+        recipes.stream().sorted(Comparator.comparing(Recipe::id)).forEach(r -> {
             var twin = kept.putIfAbsent(signature(r, machineOf), r);
             if (twin != null) {
                 dropped.add(new Dropped(r.id(), twin.id()));
             }
         });
-        return new Result(List.copyOf(kept.values()), merged, List.copyOf(dropped));
+        return new Distinct(List.copyOf(kept.values()), List.copyOf(dropped));
     }
 
     private static Signature signature(Recipe r, UnaryOperator<TechniqueId> machineOf) {

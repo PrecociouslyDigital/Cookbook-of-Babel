@@ -7,7 +7,7 @@
     },
     {
       "type": "forge:tag_empty",
-      "tag": "cookbook_of_babel:external/bacon_and_egg_pie_step_3"
+      "tag": "cookbook_of_babel:external/bacon_and_egg_pie_step_4"
     }
   ],
   "ingredients": [
@@ -19,6 +19,26 @@
       },
       {
         "tag": "cookbook_of_babel:ingredients/bacon_and_egg_pie_step_2"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:bacon_chop\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/bacon_chop"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:bacon_chop\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/bacon_chop"
       }
     ],
     [
@@ -245,9 +265,11 @@
   "processingTime": 20,
   "results": [
     {
-      "amount": 155,
-      "fluid": "cookbook_of_babel:liquid",
-      "nbt": "{substance:\"cookbook_of_babel:bacon_and_egg_pie_step_3\"}"
+      "count": 2,
+      "item": "cookbook_of_babel:substance",
+      "nbt": {
+        "substance": "cookbook_of_babel:bacon_and_egg_pie_step_4"
+      }
     }
   ]
 }

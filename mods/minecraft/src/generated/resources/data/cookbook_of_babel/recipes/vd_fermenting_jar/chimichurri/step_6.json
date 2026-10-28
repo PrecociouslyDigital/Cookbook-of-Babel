@@ -7,7 +7,7 @@
     },
     {
       "type": "forge:tag_empty",
-      "tag": "cookbook_of_babel:external/chimichurri_step_6"
+      "tag": "cookbook_of_babel:external/chimichurri"
     }
   ],
   "ingredients": [
@@ -20,12 +20,21 @@
       {
         "tag": "cookbook_of_babel:ingredients/chimichurri_step_5"
       }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:portion",
+        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:liquid\",Tag:{substance:\"cookbook_of_babel:chimichurri_step_5\"}}}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/chimichurri_step_5"
+      }
     ]
   ],
   "output": {
-    "count": 1,
-    "item": "cookbook_of_babel:portion",
-    "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:liquid\",Tag:{substance:\"cookbook_of_babel:chimichurri_step_6\"}}}"
+    "count": 5,
+    "item": "cookbook_of_babel:chimichurri"
   },
   "processingTime": 9600
 }

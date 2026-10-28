@@ -7,9 +7,12 @@
     },
     {
       "type": "forge:tag_empty",
-      "tag": "cookbook_of_babel:external/hollandaise_sauce_step_5"
+      "tag": "cookbook_of_babel:external/hollandaise_sauce"
     }
   ],
+  "container": {
+    "item": "minecraft:bowl"
+  },
   "cookingtime": 100,
   "experience": 0.1,
   "ingredients": [
@@ -22,10 +25,20 @@
       {
         "tag": "cookbook_of_babel:ingredients/hollandaise_sauce_step_4"
       }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:portion",
+        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:liquid\",Tag:{substance:\"cookbook_of_babel:hollandaise_sauce_step_4\"}}}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/hollandaise_sauce_step_4"
+      }
     ]
   ],
   "result": {
-    "item": "cookbook_of_babel:portion",
-    "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:liquid\",Tag:{substance:\"cookbook_of_babel:hollandaise_sauce_step_5\"}}}"
+    "count": 5,
+    "item": "cookbook_of_babel:hollandaise_sauce"
   }
 }

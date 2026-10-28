@@ -1,0 +1,36 @@
+{
+  "type": "create:splashing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/banana_chocolate_bread_pudding_step_12"
+    },
+    {
+      "type": "forge:false"
+    }
+  ],
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:banana_chocolate_bread_pudding_step_8\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/banana_chocolate_bread_pudding_step_8"
+      }
+    ]
+  ],
+  "results": [
+    {
+      "item": "cookbook_of_babel:substance",
+      "nbt": {
+        "substance": "cookbook_of_babel:banana_chocolate_bread_pudding_step_12"
+      }
+    }
+  ]
+}
