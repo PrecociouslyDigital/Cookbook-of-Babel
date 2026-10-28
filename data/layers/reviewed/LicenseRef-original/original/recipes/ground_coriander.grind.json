@@ -1,0 +1,40 @@
+{
+  "id": "ground_coriander.grind",
+  "source": "cookbook_of_babel",
+  "technique": "grind",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "coriander",
+        "amount": {
+          "qty": 300,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "ground_coriander",
+      "amount": {
+        "qty": 290,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 10,
+      "unit": "min"
+    }
+  },
+  "stateNote": "seeds milled to a powder",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "small milling loss"
+    }
+  ]
+}

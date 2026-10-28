@@ -1,0 +1,40 @@
+{
+  "id": "ground_cardamom.grind",
+  "source": "cookbook_of_babel",
+  "technique": "grind",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "cardamom",
+        "amount": {
+          "qty": 200,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "ground_cardamom",
+      "amount": {
+        "qty": 190,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 10,
+      "unit": "min"
+    }
+  },
+  "stateNote": "pods and seeds milled together",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "small milling loss"
+    }
+  ]
+}

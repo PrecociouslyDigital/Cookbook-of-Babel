@@ -1,0 +1,44 @@
+{
+  "id": "ground_crayfish.dry",
+  "source": "cookbook_of_babel",
+  "technique": "dry",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "shrimp",
+        "amount": {
+          "qty": 1000,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "dried_crayfish",
+      "amount": {
+        "qty": 250,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 2,
+      "unit": "d"
+    },
+    "sensitivity": {
+      "refTempC": 22,
+      "q10": 2
+    }
+  },
+  "stateNote": "shrimp dried in the sun until hard",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "shrimp lose much water drying; about a quarter remains"
+    }
+  ]
+}

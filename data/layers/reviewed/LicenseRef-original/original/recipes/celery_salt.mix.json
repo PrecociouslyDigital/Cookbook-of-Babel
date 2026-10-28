@@ -1,0 +1,47 @@
+{
+  "id": "celery_salt.mix",
+  "source": "cookbook_of_babel",
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "celery_seed",
+        "amount": {
+          "qty": 400,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "salt",
+        "amount": {
+          "qty": 550,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "celery_salt",
+      "amount": {
+        "qty": 945,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 5,
+      "unit": "min"
+    }
+  },
+  "stateNote": "salt and celery seed ground and whisked together",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "small blending loss"
+    }
+  ]
+}

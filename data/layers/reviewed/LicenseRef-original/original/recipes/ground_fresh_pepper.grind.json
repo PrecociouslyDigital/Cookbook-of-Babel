@@ -1,0 +1,40 @@
+{
+  "id": "ground_fresh_pepper.grind",
+  "source": "cookbook_of_babel",
+  "technique": "grind",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "chiles",
+        "amount": {
+          "qty": 1000,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "ground_fresh_pepper",
+      "amount": {
+        "qty": 950,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 15,
+      "unit": "min"
+    }
+  },
+  "stateNote": "fresh chiles ground to a wet slurry",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "yield approximate"
+    }
+  ]
+}

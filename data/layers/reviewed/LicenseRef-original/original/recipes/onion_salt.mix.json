@@ -1,0 +1,47 @@
+{
+  "id": "onion_salt.mix",
+  "source": "cookbook_of_babel",
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "onion_powder",
+        "amount": {
+          "qty": 350,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "salt",
+        "amount": {
+          "qty": 600,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "onion_salt",
+      "amount": {
+        "qty": 945,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 5,
+      "unit": "min"
+    }
+  },
+  "stateNote": "salt and onion powder whisked together evenly",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "small blending loss"
+    }
+  ]
+}

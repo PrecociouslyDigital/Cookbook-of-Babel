@@ -1,0 +1,44 @@
+{
+  "id": "lemon_pepper.dry_peel",
+  "source": "cookbook_of_babel",
+  "technique": "dry",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "lemon_peel",
+        "amount": {
+          "qty": 300,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "dehydrated_lemon_peel",
+      "amount": {
+        "qty": 100,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 3,
+      "unit": "d"
+    },
+    "sensitivity": {
+      "refTempC": 22,
+      "q10": 2
+    }
+  },
+  "stateNote": "peel dried until brittle",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "peel is mostly water; about a third remains"
+    }
+  ]
+}

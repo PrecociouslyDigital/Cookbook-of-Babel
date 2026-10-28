@@ -1,0 +1,44 @@
+{
+  "id": "onion_powder.dry",
+  "source": "cookbook_of_babel",
+  "technique": "dry",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "onion",
+        "amount": {
+          "qty": 1000,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "dried_onion",
+      "amount": {
+        "qty": 150,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 3,
+      "unit": "d"
+    },
+    "sensitivity": {
+      "refTempC": 22,
+      "q10": 2
+    }
+  },
+  "stateNote": "onions dried until brittle",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "onions are mostly water; about a seventh remains"
+    }
+  ]
+}
