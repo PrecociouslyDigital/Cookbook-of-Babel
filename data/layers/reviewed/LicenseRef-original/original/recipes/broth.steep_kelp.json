@@ -1,0 +1,72 @@
+{
+  "id": "broth.steep_kelp",
+  "source": "cookbook_of_babel",
+  "technique": "steep",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "dried_kelp",
+        "amount": {
+          "qty": 30,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "mushroom",
+        "amount": {
+          "qty": 100,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "water",
+        "amount": {
+          "qty": 1000,
+          "unit": "ml"
+        }
+      },
+      {
+        "ingredient": "onion",
+        "amount": {
+          "qty": 80,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "pepper",
+        "amount": {
+          "qty": 2,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "broth_and_stock",
+      "amount": {
+        "qty": 900,
+        "unit": "ml"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 85,
+    "medium": "simmering_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 30,
+      "unit": "min"
+    }
+  },
+  "stateNote": "kelp, mushroom, onion and pepper steeped into a clear vegan stock",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "a gentle steep, not a boil, keeps the broth clear"
+    }
+  ]
+}

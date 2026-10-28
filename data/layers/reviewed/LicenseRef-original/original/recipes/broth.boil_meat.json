@@ -1,0 +1,65 @@
+{
+  "id": "broth.boil_meat",
+  "source": "cookbook_of_babel",
+  "technique": "boil",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "meat",
+        "amount": {
+          "qty": 800,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "vegetable",
+        "amount": {
+          "qty": 150,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "herbs_and_spices",
+        "amount": {
+          "qty": 10,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "water",
+        "amount": {
+          "qty": 2000,
+          "unit": "ml"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "broth_and_stock",
+      "amount": {
+        "qty": 1500,
+        "unit": "ml"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 95,
+    "medium": "simmering_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 3,
+      "unit": "h"
+    }
+  },
+  "stateNote": "meat, a vegetable and a spice simmered into stock",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "any raw meat and vegetable will do; the game accepts the forge tags"
+    }
+  ]
+}

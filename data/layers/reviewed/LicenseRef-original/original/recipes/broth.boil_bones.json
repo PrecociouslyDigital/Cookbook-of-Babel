@@ -1,0 +1,70 @@
+{
+  "id": "broth.boil_bones",
+  "source": "cookbook_of_babel",
+  "technique": "boil",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "beef_bones",
+        "amount": {
+          "qty": 800,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "water",
+        "amount": {
+          "qty": 2000,
+          "unit": "ml"
+        }
+      },
+      {
+        "ingredient": "onion",
+        "amount": {
+          "qty": 150,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "bay_leaf",
+        "amount": {
+          "qty": 2,
+          "unit": "piece"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "broth_and_stock",
+      "amount": {
+        "qty": 1500,
+        "unit": "ml"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 95,
+    "medium": "simmering_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 4,
+      "unit": "h"
+    }
+  },
+  "stateNote": "bones, onion and bay simmered to a pale stock",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "a long simmer yields about a litre and a half of stock per kilo of bones"
+    },
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "a lone onion and a bay leaf stand in for a full mirepoix"
+    }
+  ]
+}
