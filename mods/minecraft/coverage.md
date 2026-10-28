@@ -178,7 +178,6 @@ Used by some step, and neither they nor anything that counts as them is made by 
 - `brown_roux` (brown roux)
 - `brownie_squares` (brownie squares)
 - `bryndza` (bryndza)
-- `buckwheat` (buckwheat)
 - `buckwheat_flour` (buckwheat flour)
 - `buffaloberry` (buffaloberry)
 - `bulgur` (bulgur)
@@ -366,7 +365,6 @@ Used by some step, and neither they nor anything that counts as them is made by 
 - `drops_of_tenderizer` (drops of tenderizer)
 - `drops_of_water` (drops of water)
 - `drops_pink_food_colouring` (drops pink food colouring)
-- `drumstick` (drumstick)
 - `dry_applewood_chunks` (dry applewood chunks)
 - `dry_fish` (dry fish)
 - `dry_hickory_chunks` (dry hickory chunks)
@@ -482,7 +480,6 @@ Used by some step, and neither they nor anything that counts as them is made by 
 - `grains` (grains)
 - `granola_bar` (granola bar)
 - `granulated_garlic` (granulated garlic)
-- `grape_leaf` (grape leaf)
 - `gravy_granules` (gravy granules)
 - `gravy_powder` (gravy powder)
 - `gravy_spices` (gravy spices)
@@ -573,7 +570,6 @@ Used by some step, and neither they nor anything that counts as them is made by 
 - `juice` (juice)
 - `just_boiled_water` (just-boiled water)
 - `kabocha` (kabocha)
-- `kaffir_lime` (kaffir lime)
 - `kaiser_bun` (kaiser bun)
 - `kaong` (kaong)
 - `kataifi_pastry` (kataifi pastry)
@@ -1053,7 +1049,6 @@ Used by some step, and neither they nor anything that counts as them is made by 
 - `untreated_mesquite_chips` (untreated mesquite chips)
 - `upma_rava` (upma rava)
 - `urad_bean` (urad bean)
-- `utazi` (utazi)
 - `uziza_leaves` (uziza leaves)
 - `vanilla_extract` (vanilla extract)
 - `vanilla_flavored_pieces` (vanilla-flavored pieces)
@@ -1076,7 +1071,6 @@ Used by some step, and neither they nor anything that counts as them is made by 
 - `wafer_paper` (wafer paper)
 - `walnut_oil` (walnut oil)
 - `wasabi` (wasabi)
-- `water_celery` (water celery)
 - `water_plus_more` (water plus more)
 - `water_spinach` (kangkung)
 - `watercress` (watercress)
@@ -1111,6 +1105,7 @@ Spices no mapped mod grows, which the mod plants itself (`cookbook_of_babel/spic
 - `annatto` (annatto): tropical
 - `asafoetida` (asafoetida): arid
 - `bay_leaf` (bay leaf): arid
+- `buckwheat` (buckwheat): frost, windy
 - `caper` (caper): arid
 - `caraway` (caraway): frost, windy
 - `cardamom` (cardamom): tropical
@@ -1122,11 +1117,14 @@ Spices no mapped mod grows, which the mod plants itself (`cookbook_of_babel/spic
 - `cumin` (cumin): arid
 - `curry_leaf` (curry leaf): tropical
 - `dill` (dill): frost, windy
+- `drumstick` (drumstick): tropical
 - `epazote` (epazote): arid, tropical
 - `fennel` (fennel): arid, windy
 - `fenugreek` (fenugreek): arid
 - `galangal` (galangal): soggy, tropical
 - `grains_of_paradise` (grains of paradise): tropical
+- `grape_leaf` (grape leaf): arid
+- `kaffir_lime` (kaffir lime): tropical
 - `lavender` (lavender): arid, windy
 - `lemon_verbena` (lemon verbena): arid
 - `licorice` (licorice): arid, windy
@@ -1147,6 +1145,8 @@ Spices no mapped mod grows, which the mod plants itself (`cookbook_of_babel/spic
 - `szechuan_pepper` (szechuan pepper): shaded
 - `tarragon` (tarragon): shaded, windy
 - `thyme` (thyme): arid
+- `utazi` (utazi): tropical
+- `water_celery` (water celery): soggy
 - `yerba_mate` (yerba mate): tropical
 
 ## Merged ingredients
