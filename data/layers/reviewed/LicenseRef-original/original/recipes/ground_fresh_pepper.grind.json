@@ -1,13 +1,13 @@
 {
   "id": "ground_fresh_pepper.grind",
   "source": "cookbook_of_babel",
-  "technique": "grind",
+  "technique": "separate",
   "inputs": {
     "of": [
       {
-        "ingredient": "chiles",
+        "ingredient": "chiles_blend",
         "amount": {
-          "qty": 1000,
+          "qty": 900,
           "unit": "g"
         }
       }
@@ -17,7 +17,7 @@
     {
       "ingredient": "ground_fresh_pepper",
       "amount": {
-        "qty": 950,
+        "qty": 850,
         "unit": "g"
       }
     }
@@ -25,16 +25,20 @@
   "end": {
     "by": "time",
     "duration": {
-      "qty": 15,
+      "qty": 5,
       "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
     }
   },
-  "stateNote": "fresh chiles ground to a wet slurry",
+  "stateNote": "the blended chiles pressed through a sieve",
   "issues": [
     {
       "field": "outputs",
       "kind": "estimate",
-      "note": "yield approximate"
+      "note": "sieving a blended chile puree leaves a coarse pepper paste"
     }
   ]
 }

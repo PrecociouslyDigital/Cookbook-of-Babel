@@ -1,13 +1,13 @@
 {
   "id": "rice_flour.grind",
   "source": "cookbook_of_babel",
-  "technique": "grind",
+  "technique": "separate",
   "inputs": {
     "of": [
       {
-        "ingredient": "rice",
+        "ingredient": "rice_grind",
         "amount": {
-          "qty": 1000,
+          "qty": 900,
           "unit": "g"
         }
       }
@@ -17,15 +17,23 @@
     {
       "ingredient": "rice_flour",
       "amount": {
-        "qty": 980,
+        "qty": 800,
         "unit": "g"
       }
+    },
+    {
+      "ingredient": "rice_rava",
+      "amount": {
+        "qty": 90,
+        "unit": "g"
+      },
+      "role": "byproduct"
     }
   ],
   "end": {
     "by": "time",
     "duration": {
-      "qty": 10,
+      "qty": 5,
       "unit": "min"
     },
     "sensitivity": {
@@ -33,5 +41,12 @@
       "q10": 1
     }
   },
-  "stateNote": "ground to a fine, slightly gritty flour"
+  "stateNote": "sifted to separate the fine flour from the coarse rava",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "sifting splits ground rice into flour and rava"
+    }
+  ]
 }

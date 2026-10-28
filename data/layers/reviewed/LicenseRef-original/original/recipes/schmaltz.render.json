@@ -1,13 +1,13 @@
 {
   "id": "schmaltz.render",
   "source": "cookbook_of_babel",
-  "technique": "heat",
+  "technique": "separate",
   "inputs": {
     "of": [
       {
-        "ingredient": "chicken",
+        "ingredient": "chicken_heat",
         "amount": {
-          "qty": 1000,
+          "qty": 900,
           "unit": "g"
         }
       }
@@ -22,6 +22,10 @@
       }
     }
   ],
+  "environment": {
+    "temperatureC": 150,
+    "medium": "pan_contact"
+  },
   "end": {
     "by": "time",
     "duration": {
@@ -30,10 +34,6 @@
     }
   },
   "stateNote": "chicken fat slowly fried out until the cracklings are golden",
-  "environment": {
-    "temperatureC": 150,
-    "medium": "pan_contact"
-  },
   "issues": [
     {
       "field": "outputs",

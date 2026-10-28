@@ -1,13 +1,13 @@
 {
   "id": "grits.grind",
   "source": "cookbook_of_babel",
-  "technique": "grind",
+  "technique": "separate",
   "inputs": {
     "of": [
       {
-        "ingredient": "corn",
+        "ingredient": "corn_grind",
         "amount": {
-          "qty": 1000,
+          "qty": 900,
           "unit": "g"
         }
       }
@@ -17,9 +17,17 @@
     {
       "ingredient": "grits",
       "amount": {
-        "qty": 950,
+        "qty": 700,
         "unit": "g"
       }
+    },
+    {
+      "ingredient": "corn_flour",
+      "amount": {
+        "qty": 180,
+        "unit": "g"
+      },
+      "role": "byproduct"
     }
   ],
   "end": {

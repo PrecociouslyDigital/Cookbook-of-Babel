@@ -22,6 +22,10 @@
       }
     }
   ],
+  "environment": {
+    "temperatureC": 180,
+    "medium": "oven_air"
+  },
   "end": {
     "by": "time",
     "duration": {
@@ -29,21 +33,12 @@
       "unit": "min"
     }
   },
-  "stateNote": {
-    "temperatureC": 180,
-    "medium": "oven_air"
-  },
-  "issues": "baked until golden and glossy",
-  "environment": [
+  "stateNote": "baked until golden and glossy",
+  "issues": [
     {
       "field": "outputs",
       "kind": "estimate",
       "note": "steam loss while baking"
-    },
-    {
-      "field": "outputs",
-      "kind": "uncertain",
-      "note": "a cream-cheese glaze is left off to keep the chain inside the step budget"
     }
   ]
 }

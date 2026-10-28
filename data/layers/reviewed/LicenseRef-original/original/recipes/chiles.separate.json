@@ -1,13 +1,13 @@
 {
-  "id": "fried_onion.slice",
+  "id": "chiles.separate",
   "source": "cookbook_of_babel",
-  "technique": "cut",
+  "technique": "separate",
   "inputs": {
     "of": [
       {
-        "ingredient": "onion",
+        "ingredient": "chiles",
         "amount": {
-          "qty": 300,
+          "qty": 1000,
           "unit": "g"
         }
       }
@@ -15,17 +15,25 @@
   },
   "outputs": [
     {
-      "ingredient": "sliced_onion",
+      "ingredient": "sweet_chiles",
       "amount": {
-        "qty": 275,
+        "qty": 600,
         "unit": "g"
       }
+    },
+    {
+      "ingredient": "hot_chiles",
+      "amount": {
+        "qty": 400,
+        "unit": "g"
+      },
+      "role": "byproduct"
     }
   ],
   "end": {
     "by": "time",
     "duration": {
-      "qty": 5,
+      "qty": 10,
       "unit": "min"
     },
     "sensitivity": {
@@ -33,12 +41,12 @@
       "q10": 1
     }
   },
-  "stateNote": "peeled and sliced into rings",
+  "stateNote": "the mild sweet pods sorted from the hot ones",
   "issues": [
     {
       "field": "outputs",
       "kind": "estimate",
-      "note": "papery skin and root end trimmed off"
+      "note": "a mixed chile harvest sorted by heat"
     }
   ]
 }
