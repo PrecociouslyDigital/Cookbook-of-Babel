@@ -1,0 +1,52 @@
+{
+  "id": "drippings.separate",
+  "source": "cookbook_of_babel",
+  "technique": "separate",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "chicken_heat",
+        "amount": {
+          "qty": 900,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "drippings",
+      "amount": {
+        "qty": 80,
+        "unit": "g"
+      }
+    },
+    {
+      "ingredient": "chicken",
+      "amount": {
+        "qty": 820,
+        "unit": "g"
+      },
+      "role": "byproduct"
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 2,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "the bird lifted out and the pan drippings poured off",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "the chicken goes back for carving, a little drier"
+    }
+  ]
+}

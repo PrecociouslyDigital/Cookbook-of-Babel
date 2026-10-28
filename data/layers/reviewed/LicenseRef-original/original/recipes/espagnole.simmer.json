@@ -1,0 +1,58 @@
+{
+  "id": "espagnole.simmer",
+  "source": "cookbook_of_babel",
+  "technique": "simmer",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "broth_and_stock",
+        "amount": {
+          "qty": 750,
+          "unit": "ml"
+        }
+      },
+      {
+        "ingredient": "tomato_paste",
+        "amount": {
+          "qty": 200,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "wheat_flour",
+        "amount": {
+          "qty": 60,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "espagnole_sauce_escoffier",
+      "amount": {
+        "qty": 800,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 95,
+    "medium": "simmering_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 45,
+      "unit": "min"
+    }
+  },
+  "stateNote": "brown stock and tomato paste simmered with a flour thickening",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "the mirepoix folded into the stock up front"
+    }
+  ]
+}

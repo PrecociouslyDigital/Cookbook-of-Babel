@@ -1,0 +1,58 @@
+{
+  "id": "hominy.boil",
+  "source": "cookbook_of_babel",
+  "technique": "boil",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "corn",
+        "amount": {
+          "qty": 800,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "water",
+        "amount": {
+          "qty": 1500,
+          "unit": "ml"
+        }
+      },
+      {
+        "ingredient": "baking_soda",
+        "amount": {
+          "qty": 30,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "homemade_hominy",
+      "amount": {
+        "qty": 900,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 95,
+    "medium": "simmering_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 45,
+      "unit": "min"
+    }
+  },
+  "stateNote": "corn kernels boiled in an alkaline bath until they puff",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "baking soda stands in for lye; this is a gentle nixtamalization"
+    }
+  ]
+}

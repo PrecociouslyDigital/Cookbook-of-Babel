@@ -1,0 +1,51 @@
+{
+  "id": "puffed_rice.roast",
+  "source": "cookbook_of_babel",
+  "technique": "roast",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "rice",
+        "amount": {
+          "qty": 300,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "oil_and_fat",
+        "amount": {
+          "qty": 30,
+          "unit": "ml"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "puffed_rice",
+      "amount": {
+        "qty": 280,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 220,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 4,
+      "unit": "min"
+    }
+  },
+  "stateNote": "tossed in a hot pan until the kernels pop",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "a few kernels refuse to pop"
+    }
+  ]
+}

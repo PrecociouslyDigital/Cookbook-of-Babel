@@ -1,0 +1,44 @@
+{
+  "id": "shortening.chill",
+  "source": "cookbook_of_babel",
+  "technique": "chill",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "vegetable_oil",
+        "amount": {
+          "qty": 500,
+          "unit": "ml"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "shortening",
+      "amount": {
+        "qty": 480,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 4,
+      "unit": "h"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "chilled and worked until it holds a solid white block",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "fractionation fudged as simple chilling"
+    }
+  ]
+}

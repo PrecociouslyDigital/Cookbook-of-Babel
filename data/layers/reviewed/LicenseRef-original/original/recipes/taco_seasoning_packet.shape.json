@@ -1,0 +1,44 @@
+{
+  "id": "taco_seasoning_packet.shape",
+  "source": "cookbook_of_babel",
+  "technique": "shape",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "taco_seasoning_mix",
+        "amount": {
+          "qty": 200,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "taco_seasoning_packet",
+      "amount": {
+        "qty": 200,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 2,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "pressed into single-use packets",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "the wrapper weighs nothing"
+    }
+  ]
+}

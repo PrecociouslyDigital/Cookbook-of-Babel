@@ -1,0 +1,52 @@
+{
+  "id": "orange_peel.julienne",
+  "source": "cookbook_of_babel",
+  "technique": "julienne",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "orange",
+        "amount": {
+          "qty": 300,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "orange_peel",
+      "amount": {
+        "qty": 80,
+        "unit": "g"
+      }
+    },
+    {
+      "ingredient": "orange_flesh",
+      "amount": {
+        "qty": 200,
+        "unit": "g"
+      },
+      "role": "byproduct"
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 5,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "the rind pared away in strips",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "the peeled fruit comes back as a byproduct"
+    }
+  ]
+}

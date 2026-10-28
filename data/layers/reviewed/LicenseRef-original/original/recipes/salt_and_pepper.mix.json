@@ -1,0 +1,51 @@
+{
+  "id": "salt_and_pepper.mix",
+  "source": "cookbook_of_babel",
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "salt",
+        "amount": {
+          "qty": 100,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "pepper",
+        "amount": {
+          "qty": 30,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "salt_and_black_pepper",
+      "amount": {
+        "qty": 130,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 2,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "the table shaker blend",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "about three parts salt to one of pepper"
+    }
+  ]
+}

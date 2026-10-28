@@ -1,0 +1,51 @@
+{
+  "id": "food_coloring.boil",
+  "source": "cookbook_of_babel",
+  "technique": "boil",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "beet",
+        "amount": {
+          "qty": 200,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "water",
+        "amount": {
+          "qty": 200,
+          "unit": "ml"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "red_beet_food_coloring",
+      "amount": {
+        "qty": 60,
+        "unit": "ml"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 100,
+    "medium": "boiling_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 20,
+      "unit": "min"
+    }
+  },
+  "stateNote": "beet boiled down to a deep red dye",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "a thin dye, reduced hard"
+    }
+  ]
+}

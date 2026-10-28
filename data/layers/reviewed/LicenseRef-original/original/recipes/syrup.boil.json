@@ -1,0 +1,51 @@
+{
+  "id": "syrup.boil",
+  "source": "cookbook_of_babel",
+  "technique": "boil",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "white_sugar",
+        "amount": {
+          "qty": 500,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "water",
+        "amount": {
+          "qty": 250,
+          "unit": "ml"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "syrup",
+      "amount": {
+        "qty": 600,
+        "unit": "ml"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 105,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 10,
+      "unit": "min"
+    }
+  },
+  "stateNote": "dissolved and briefly boiled into a plain syrup",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "a dense 1.3 g/ml syrup"
+    }
+  ]
+}

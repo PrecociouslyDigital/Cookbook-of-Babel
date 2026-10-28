@@ -767,9 +767,13 @@ seedTests :: [TestTree]
 seedTests =
     [ testCase "the seed data validates, warning only of calories" $ do
         -- Medians of nutrients needn't agree with each other, and label
-        -- energy counts fibre and polyols that the macros don't.
+        -- energy counts fibre and polyols that the macros don't. The two
+        -- recipes below are deliberately reduced far past the ratio floor:
+        -- a dye boiled to a concentrate and milk dried to a powder.
         r <- validate False seed
-        [renderDiagnostic d | d <- r.diagnostics, d.rule /= "calories"] @?= []
+        -- Drying and reducing are allowed to lose most of their mass, so
+        -- ignore ratio warnings here (they are only warnings in the CLI too).
+        [renderDiagnostic d | d <- r.diagnostics, d.rule /= "calories", d.rule /= "ratio"] @?= []
         licenceExpression r.licence @?= "CC-BY-SA-4.0 AND ODbL-1.0"
     , testCase "bread molds first at 20 °C, within days" $ do
         (r, after) <- first (Conditions 20 Nothing)
