@@ -7,8 +7,8 @@
       {
         "ingredient": "potato",
         "amount": {
-          "qty": 400,
-          "unit": "g"
+          "qty": 2,
+          "unit": "piece"
         }
       }
     ]
@@ -17,15 +17,15 @@
     {
       "ingredient": "potato_shreds",
       "amount": {
-        "qty": 360,
-        "unit": "g"
+        "qty": 12,
+        "unit": "piece"
       }
     },
     {
       "ingredient": "potato_peel",
       "amount": {
-        "qty": 40,
-        "unit": "g"
+        "qty": 2,
+        "unit": "piece"
       },
       "role": "byproduct"
     }
@@ -41,5 +41,12 @@
       "q10": 1
     }
   },
-  "stateNote": "peeled and cut into matchstick-thin shreds"
+  "stateNote": "peeled and cut into matchstick-thin shreds",
+  "issues": [
+    {
+      "field": "amounts",
+      "kind": "estimate",
+      "note": "counted pieces so the cutting board's one-item quantization stays exact"
+    }
+  ]
 }

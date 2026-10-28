@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:smoking",
+  "category": "food",
+  "conditions": [
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/smoked_pork_slices"
+    }
+  ],
+  "cookingtime": 300,
+  "experience": 0.1,
+  "ingredient": [
+    {
+      "type": "forge:partial_nbt",
+      "item": "cookbook_of_babel:substance",
+      "nbt": "{substance:\"cookbook_of_babel:pork\"}"
+    },
+    {
+      "tag": "cookbook_of_babel:ingredients/pork"
+    }
+  ],
+  "result": {
+    "count": 2,
+    "item": "cookbook_of_babel:substance",
+    "nbt": "{substance:\"cookbook_of_babel:smoked_pork_slices\"}"
+  }
+}

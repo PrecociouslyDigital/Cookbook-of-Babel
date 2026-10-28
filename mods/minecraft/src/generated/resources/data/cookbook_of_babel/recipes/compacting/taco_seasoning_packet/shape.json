@@ -1,0 +1,30 @@
+{
+  "type": "create:compacting",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/taco_seasoning_packet"
+    }
+  ],
+  "ingredients": [
+    {
+      "amount": 6,
+      "fluid": "cookbook_of_babel:bulk",
+      "nbt": {
+        "substance": "cookbook_of_babel:taco_seasoning_mix"
+      }
+    }
+  ],
+  "processingTime": 40,
+  "results": [
+    {
+      "amount": 6,
+      "fluid": "cookbook_of_babel:bulk",
+      "nbt": "{substance:\"cookbook_of_babel:taco_seasoning_packet\"}"
+    }
+  ]
+}

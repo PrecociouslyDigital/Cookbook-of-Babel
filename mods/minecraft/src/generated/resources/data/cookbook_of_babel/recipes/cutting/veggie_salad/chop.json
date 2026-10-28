@@ -1,0 +1,35 @@
+{
+  "type": "create:cutting",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/chopped_salad_veg"
+    }
+  ],
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:brussels_sprout\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/brussels_sprout"
+      }
+    ]
+  ],
+  "processingTime": 100,
+  "results": [
+    {
+      "count": 16,
+      "item": "cookbook_of_babel:substance",
+      "nbt": {
+        "substance": "cookbook_of_babel:chopped_salad_veg"
+      }
+    }
+  ]
+}

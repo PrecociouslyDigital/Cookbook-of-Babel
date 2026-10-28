@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:smelting",
+  "category": "food",
+  "conditions": [
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/hamburger_bun"
+    }
+  ],
+  "cookingtime": 360,
+  "experience": 0.1,
+  "ingredient": [
+    {
+      "type": "forge:partial_nbt",
+      "item": "cookbook_of_babel:substance",
+      "nbt": "{substance:\"cookbook_of_babel:burger_bun_dough\"}"
+    },
+    {
+      "tag": "cookbook_of_babel:ingredients/burger_bun_dough"
+    }
+  ],
+  "result": {
+    "count": 2,
+    "item": "cookbook_of_babel:substance",
+    "nbt": "{substance:\"cookbook_of_babel:hamburger_bun\"}"
+  }
+}

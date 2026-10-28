@@ -1,0 +1,51 @@
+{
+  "id": "onion_rings.dip",
+  "source": "cookbook_of_babel",
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "onion_cut",
+        "amount": {
+          "qty": 300,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "onion_ring_batter",
+        "amount": {
+          "qty": 280,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "battered_onion_rings",
+      "amount": {
+        "qty": 490,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "onion rings dipped in the wet batter and lifted out well coated",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "dipping and draining time only"
+    }
+  ]
+}

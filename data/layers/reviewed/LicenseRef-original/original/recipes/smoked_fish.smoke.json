@@ -5,16 +5,9 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "fish",
+        "ingredient": "salted_fish_strips",
         "amount": {
-          "qty": 1000,
-          "unit": "g"
-        }
-      },
-      {
-        "ingredient": "salt",
-        "amount": {
-          "qty": 60,
+          "qty": 150,
           "unit": "g"
         }
       }
@@ -24,7 +17,7 @@
     {
       "ingredient": "smoked_fish",
       "amount": {
-        "qty": 950,
+        "qty": 150,
         "unit": "g"
       }
     }
@@ -40,17 +33,22 @@
       "q10": 1
     }
   },
-  "stateNote": "salted, then smoked until the flesh flakes firm",
+  "stateNote": "salted, then smoked until the flesh flakes firm; the salting is folded into the fish as the game's smoke route takes one input",
   "issues": [
     {
       "field": "outputs",
       "kind": "estimate",
-      "note": "curing and smoking shed some moisture"
+      "note": "curing and smoking shed some moisture; the salt is overcombined into the fish"
     },
     {
       "field": "environment",
       "kind": "estimate",
       "note": "smoker heat assumed"
+    },
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "the strips are salted first (fish_jerky.age's output), then smoked"
     }
   ]
 }

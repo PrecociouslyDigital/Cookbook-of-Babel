@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:smoking",
+  "category": "food",
+  "conditions": [
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/grilled_eggplant"
+    }
+  ],
+  "cookingtime": 160,
+  "experience": 0.1,
+  "ingredient": [
+    {
+      "type": "forge:partial_nbt",
+      "item": "cookbook_of_babel:substance",
+      "nbt": "{substance:\"cookbook_of_babel:seasoned_eggplant\"}"
+    },
+    {
+      "tag": "cookbook_of_babel:ingredients/seasoned_eggplant"
+    }
+  ],
+  "result": {
+    "item": "cookbook_of_babel:grilled_eggplant"
+  }
+}

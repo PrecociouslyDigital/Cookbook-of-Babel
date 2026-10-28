@@ -13,34 +13,15 @@
       }
     ]
   },
-  "outputs": {
-    "oneOf": [
-      {
-        "weight": 9,
-        "outputs": [
-          {
-            "ingredient": "aged_cheese",
-            "amount": {
-              "qty": 500,
-              "unit": "g"
-            }
-          }
-        ]
-      },
-      {
-        "weight": 1,
-        "outputs": [
-          {
-            "ingredient": "spoiled_food",
-            "amount": {
-              "qty": 600,
-              "unit": "g"
-            }
-          }
-        ]
+  "outputs": [
+    {
+      "ingredient": "aged_cheese",
+      "amount": {
+        "qty": 500,
+        "unit": "g"
       }
-    ]
-  },
+    }
+  ],
   "end": {
     "by": "time",
     "duration": {
@@ -52,12 +33,12 @@
       "q10": 2
     }
   },
-  "stateNote": "pressed, salted and aged; occasionally it spoils instead",
+  "stateNote": "pressed, salted and aged; occasionally the wheel spoils instead, folded out of the outputs and noted in issues",
   "issues": [
     {
       "field": "outputs",
       "kind": "estimate",
-      "note": "a 1-in-10 spoilage chance is a game-balance guess"
+      "note": "a 1-in-10 spoilage chance is a game-balance guess; the random spoil outcome is folded out so a single route can emit the step"
     }
   ]
 }

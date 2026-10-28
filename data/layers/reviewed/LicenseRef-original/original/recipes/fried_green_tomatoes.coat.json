@@ -7,35 +7,21 @@
       {
         "ingredient": "tomato",
         "amount": {
-          "qty": 500,
+          "qty": 450,
           "unit": "g"
-        }
-      },
-      {
-        "ingredient": "buttermilk",
-        "amount": {
-          "qty": 120,
-          "unit": "ml"
         }
       },
       {
         "ingredient": "egg",
         "amount": {
-          "qty": 50,
+          "qty": 45,
           "unit": "g"
         }
       },
       {
         "ingredient": "cornmeal",
         "amount": {
-          "qty": 120,
-          "unit": "g"
-        }
-      },
-      {
-        "ingredient": "wheat_flour",
-        "amount": {
-          "qty": 60,
+          "qty": 207,
           "unit": "g"
         }
       },
@@ -45,6 +31,13 @@
           "qty": 4,
           "unit": "g"
         }
+      },
+      {
+        "ingredient": "milk",
+        "amount": {
+          "qty": 100,
+          "unit": "ml"
+        }
       }
     ]
   },
@@ -52,7 +45,7 @@
     {
       "ingredient": "breaded_green_tomato_slices",
       "amount": {
-        "qty": 820,
+        "qty": 750,
         "unit": "g"
       }
     }
@@ -68,7 +61,7 @@
       "q10": 1
     }
   },
-  "stateNote": "green tomato slices dipped in buttermilk and egg, then dredged in cornmeal",
+  "stateNote": "green tomato slices dipped in milk and egg, then dredged in cornmeal; the flour is folded into the cornmeal dredge",
   "issues": [
     {
       "field": "inputs",
@@ -76,9 +69,14 @@
       "note": "the dataset has no separate green-tomato ingredient; unripe tomatoes are meant"
     },
     {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "milk stands in for the buttermilk dip so the mixing cauldron has a fluid, and the wheat flour (60 g) is folded into the cornmeal dredge"
+    },
+    {
       "field": "outputs",
       "kind": "estimate",
-      "note": "buttermilk treated as 124 g"
+      "note": "some dredge falls away"
     }
   ]
 }

@@ -5,16 +5,9 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "pork",
+        "ingredient": "cured_pork_belly",
         "amount": {
           "qty": 1000,
-          "unit": "g"
-        }
-      },
-      {
-        "ingredient": "salt",
-        "amount": {
-          "qty": 60,
           "unit": "g"
         }
       }
@@ -40,12 +33,17 @@
       "q10": 2
     }
   },
-  "stateNote": "strips rubbed with salt and cured in the cold",
+  "stateNote": "strips rubbed with 60 g salt and cured in the cold",
   "issues": [
     {
       "field": "outputs",
       "kind": "estimate",
       "note": "cutting and curing draw out brine"
+    },
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "jerky strips come off the cured belly (bacon.cure's output)"
     }
   ]
 }

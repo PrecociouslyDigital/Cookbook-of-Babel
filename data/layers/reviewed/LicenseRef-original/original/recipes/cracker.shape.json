@@ -1,0 +1,51 @@
+{
+  "id": "cracker.shape",
+  "source": "cookbook_of_babel",
+  "technique": "shape",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "dough",
+        "amount": {
+          "qty": 500,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "salt",
+        "amount": {
+          "qty": 10,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "cracker_dough",
+      "amount": {
+        "qty": 505,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 5,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "the salted dough rolled thin and docked for crackers",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "the salt stays in the dough"
+    }
+  ]
+}

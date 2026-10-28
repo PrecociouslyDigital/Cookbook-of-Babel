@@ -5,16 +5,9 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "yorkshire_batter",
+        "ingredient": "yorkshire_batter_batch",
         "amount": {
-          "qty": 450,
-          "unit": "g"
-        }
-      },
-      {
-        "ingredient": "butter",
-        "amount": {
-          "qty": 30,
+          "qty": 480,
           "unit": "g"
         }
       }
@@ -37,12 +30,17 @@
     "by": "coreTemp",
     "coreTempC": 90
   },
-  "stateNote": "baked in hot fat until the batter rises and sets",
+  "stateNote": "the rested batch of batter poured over hot fat and baked until it rises and sets",
   "issues": [
     {
       "field": "outputs",
       "kind": "estimate",
       "note": "about 7% mass lost as steam"
+    },
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "the hot fat is folded into the batter"
     }
   ]
 }

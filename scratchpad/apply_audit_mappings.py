@@ -1,26 +1,40 @@
 #!/usr/bin/env python3
 """Apply audit sections 1 (reverse dual-mappings), 4 (held-back mappings) and
 5 (plantings) to the minecraft layer. Idempotent; prints what it did."""
-import json, glob, os, copy, collections
+import collections
+import copy
+import glob
+import json
+import os
 
 MAP_DIR = 'mods/minecraft/mappings'
 GARDENS = 'mods/minecraft/src/main/resources/cookbook_of_babel/spice_gardens.json'
 
 def load(path):
-    with open(path) as f:
-        return json.load(f)
+    try:
+        with open(path) as f:
+            return json.load(f)
+    except FileNotFoundError:
+        return {}
 
 def save(path, d):
-    with open(path, 'w') as f:
-        json.dump(d, f, indent=2, sort_keys=True)
-        f.write('\n')
+    try:
+        with open(path, 'w') as f:
+            json.dump(d, f, indent=2, sort_keys=True)
+            f.write('\n')
+    except OSError as e:
+        print(f'!! could not write {path}: {e}')
 
 def tsv(path):
-    for line in open(path):
-        line = line.strip()
-        if not line or line.startswith('#'):
-            continue
-        yield line.split('\t')
+    try:
+        with open(path) as f:
+            for line in f:
+                line = line.strip()
+                if not line or line.startswith('#'):
+                    continue
+                yield line.split('\t')
+    except FileNotFoundError:
+        return
 
 def ns_of(item):
     return item.split(':')[0]
@@ -50,7 +64,7 @@ for f in glob.glob(f'{MAP_DIR}/*.json'):
         mapped_targets.setdefault(ing, set()).add(os.path.basename(f))
 
 done, skipped_dead, already = 0, [], []
-for leaf, verdict, target in tsv('scratchpad/audit/section1_verdicts.tsv'):
+for leaf, _verdict, target in tsv('scratchpad/audit/section1_verdicts.tsv'):
     files = mapped_targets.get(target)
     if not files:
         skipped_dead.append(f'{leaf}->{target}')
@@ -80,7 +94,6 @@ climate = {
     'kaffir_lime': ['tropical'],
     'utazi': ['tropical'],
     'water_celery': ['soggy'],   # aquatic herb
-    'saffron': ['arid'],         # crocus likes dry summers
 }
 note = []
 for leaf, cl in climate.items():

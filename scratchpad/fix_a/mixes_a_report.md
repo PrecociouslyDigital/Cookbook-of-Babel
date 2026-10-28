@@ -1,0 +1,8 @@
+# mixes_a report (fix_a pass 2)
+
+- cajun_seasoning.mix -> rebalanced blend: paprika 250 g, garlic_powder 100 g, onion_powder 100 g kept, cayenne/pepper/oregano/thyme/salt fudged 50-100 g -> 9 g each, output 745 -> 490 g; garlic/onion powders ride the two Create tanks as bulk fluids, the rest becomes whole items, create_mixing now emits at 14.9% rounding (was 272%) (strategy 1+2; no new ingredients)
+- creamy_russian_dressing.mix -> horseradish 15 -> 5 g, onion 10 -> 4 g (both fall under the 2% negligible-mass line so they round up to one item free), output 295 -> 285 g; create_mixing now emits at 14.9% rounding (was 225%) (strategy 2)
+- general_tso_s_chicken.mix_sauce -> soy_sauce/rice_vinegar/water nudged 60 -> 69 ml, garlic and ginger 10 -> 5 g (under the 2% negligible line), sugar 80 g and starch 15 g ride the tanks as fluids; create_mixing now emits at 15.0% rounding (was 335%) (strategy 1+2)
+- hummus.mix -> garlic 10 -> 8 g (under the 2% negligible line); chickpea 4x, tahini 5x items and the oil/water tanks quantize cleanly; create_mixing now emits at 13.6% rounding (was 119%) (strategy 1)
+
+Method note: modelled mods/minecraft Planner+Quantize (TOLERANCE 0.15, MAX_ERROR 1.0, TANK_MB 1000, negligibleMassFraction 0.02, form-based gramsPerItem/portions, per-route fluid rules) in scratchpad/fix_a/mixes_a_sim.py; it reproduces all 12 pre-fix coverage refusals exactly, then was used to search the amount tweaks above. No new ingredient files created; no git/build commands run.

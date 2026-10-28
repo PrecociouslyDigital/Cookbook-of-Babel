@@ -7,7 +7,7 @@
       {
         "ingredient": "mustard_pods",
         "amount": {
-          "qty": 100,
+          "qty": 50,
           "unit": "g"
         }
       }
@@ -17,17 +17,9 @@
     {
       "ingredient": "dried_mustard_pods",
       "amount": {
-        "qty": 30,
+        "qty": 15,
         "unit": "g"
       }
-    },
-    {
-      "ingredient": "water",
-      "amount": {
-        "qty": 70,
-        "unit": "g"
-      },
-      "role": "byproduct"
     }
   ],
   "end": {
@@ -41,12 +33,17 @@
       "q10": 2
     }
   },
-  "stateNote": "pods are left to air-dry until brown and brittle",
+  "stateNote": "pods are left to air-dry until brown and brittle; they lose about two-thirds of their weight as water",
   "issues": [
     {
       "field": "end",
       "kind": "estimate",
       "note": "drying time varies widely with ambient humidity"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "small batch keeps the drying rack's whole-item quantization exact; water leaves as steam"
     }
   ]
 }

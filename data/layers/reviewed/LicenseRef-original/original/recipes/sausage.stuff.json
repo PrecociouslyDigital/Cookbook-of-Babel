@@ -10,13 +10,6 @@
           "qty": 1000,
           "unit": "g"
         }
-      },
-      {
-        "ingredient": "sausage_casing",
-        "amount": {
-          "qty": 50,
-          "unit": "g"
-        }
       }
     ]
   },
@@ -24,7 +17,7 @@
     {
       "ingredient": "sausage",
       "amount": {
-        "qty": 1050,
+        "qty": 1000,
         "unit": "g"
       }
     }
@@ -40,8 +33,13 @@
       "q10": 1
     }
   },
-  "stateNote": "meat stuffed into casings and twisted into links",
+  "stateNote": "meat stuffed into casings and twisted into links; the casings are taken as given",
   "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "the casing (50 g) folded into the main input so the step fits shapeless crafting; it adds almost no weight, so the yield loses the casing's 50 g"
+    },
     {
       "field": "end",
       "kind": "estimate",

@@ -5,7 +5,7 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "vanilla_pods_raw",
+        "ingredient": "vanilla_curing_batch",
         "amount": {
           "qty": 100,
           "unit": "g"
@@ -17,7 +17,7 @@
     {
       "ingredient": "vanilla",
       "amount": {
-        "qty": 40,
+        "qty": 42,
         "unit": "g"
       }
     }
@@ -33,12 +33,17 @@
       "q10": 2
     }
   },
-  "stateNote": "green pods are blanched, sweated, and dried until dark and flexible",
+  "stateNote": "green pods are blanched, sweated, and dried until dark and flexible; one batch fills the curing jar",
   "issues": [
     {
       "field": "end",
       "kind": "estimate",
       "note": "vanilla curing is a slow process; 30 days is a simplified estimate"
+    },
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "the batch is one curing jar charge of prepared pods, sized so the cure lands on whole items"
     }
   ]
 }

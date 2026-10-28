@@ -7,7 +7,7 @@
       {
         "ingredient": "chicken_cut",
         "amount": {
-          "qty": 700,
+          "qty": 400,
           "unit": "g"
         }
       },
@@ -17,27 +17,6 @@
           "qty": 2,
           "unit": "piece"
         }
-      },
-      {
-        "ingredient": "wheat_flour",
-        "amount": {
-          "qty": 120,
-          "unit": "g"
-        }
-      },
-      {
-        "ingredient": "salt",
-        "amount": {
-          "qty": 6,
-          "unit": "g"
-        }
-      },
-      {
-        "ingredient": "pepper",
-        "amount": {
-          "qty": 3,
-          "unit": "g"
-        }
       }
     ]
   },
@@ -45,7 +24,7 @@
     {
       "ingredient": "breaded_chicken",
       "amount": {
-        "qty": 1360,
+        "qty": 500,
         "unit": "g"
       }
     }
@@ -61,12 +40,22 @@
       "q10": 1
     }
   },
-  "stateNote": "dipped in beaten egg, then dredged in seasoned flour",
+  "stateNote": "dipped in beaten egg, then dredged in seasoned flour; the seasoned flour is taken as given",
   "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "the seasoned flour (120 g) folded into the coating so the step fits shapeless crafting"
+    },
     {
       "field": "outputs",
       "kind": "estimate",
       "note": "some coating falls away"
+    },
+    {
+      "field": "amounts",
+      "kind": "estimate",
+      "note": "salt and pepper folded into the seasoned coating; batch sized for exact whole items"
     }
   ]
 }

@@ -1,0 +1,18 @@
+# assembles/b: emitting-route fixes for 6 recipe steps
+
+Method: reproduced the planner (Planner/Quantize/RouteKind) in `scratchpad/fix_a/sim.py` (sibling's copy, verified against coverage.md refusals: 233%/275%/121%/101%/135% all reproduced exactly), then searched amount tweaks (±15%), input collapses and fluid additions for a route with maxError ≤ ~15–35%. No new ingredient JSONs needed (milk/water already exist). Strategy 4 (two-step split) was never needed: it is also impossible under the "only these 6 files" rule, since babel requires one step per file with filename = id.
+
+- pork_pot_pie.assemble -> strategy 1+2+new fluid: dropped onion (100g) and gravy (200g) into stateNote ("taken as given with the filling"), added milk 350ml as the braising liquid (gives hexerei_mixing_cauldron its fluid), amounts nudged within ±15% (pastry 400→360g, pork 300→270g, carrot 100→115g); output unchanged 1100g. Route: hexerei_mixing_cauldron, rounding 16.8% (was refused: shapeless distorted 233%). Mass 1106→1100g.
+- sausage.stuff -> strategy 2: casing (50g, 4.8% of mass, whole-form = 0.33 items — unquantizable at any scale) folded into the main input and stateNote; output 1050→1000g (−4.8%, drops the casing weight; keeps mass balance). Route: shapeless_crafting, rounding 5.0% (was 275%).
+- stuffed_peppers.assemble -> strategy 2+1: tomato (100g) folded into the filling/stateNote, bell_pepper 600→520g and rice 200→230g (both within ±15%); output 1055→900g (−14.7%). Route: shapeless_crafting, rounding 33.0% (was 121%).
+- fried_chicken.coat -> strategy 2: seasoned flour (120g) folded into the coating/stateNote (chicken at 50g/item = 14 items vs flour at 250g/twist = 0.48 items can never round together within the 9-item crafting budget); egg/salt/pepper unchanged. Route: shapeless_crafting, rounding 13.3% (was 501%). Note: output (1360g) exceeded inputs (929g) already in the original dataset; with flour folded it is 809→1360g, flagged in the step's issues.
+- fried_green_tomatoes.coat -> strategy 2+1+1: wheat_flour (60g) folded into the cornmeal dredge (120+60=207g, the collapsed dredge nudged +15%), buttermilk dip swapped to milk 100ml (buttermilk is not a game fluid and 120ml = 0.48 bottles rounds terribly; milk is a provided fluid so hexerei_mixing_cauldron takes it), egg 50→45g, tomato 500→450g (−10%); output 820→750g (−8.5%). Route: hexerei_mixing_cauldron, rounding 13.9% (was 101%).
+- lamington.coat -> strategy 2: desiccated coconut (120g, whole-form 0.8 items vs cake at 50g/item — 12.5:1 ratio can never round together) folded into the step/stateNote; cake/chocolate_coating/output unchanged. Route: shapeless_crafting, rounding 6.7% (was 135%).
+
+New ingredient JSONs created: none.
+
+Residual notes:
+- The planning simulation is a faithful port of Planner.java/Quantize.java/RouteKind.java (verified against coverage.md refusals), but the authoritative check is the mod's own datagen (`./gradlew runData` — not run here per the no-build rule).
+- fried_chicken.coat keeps the dataset's pre-existing output>input imbalance (coating mass clings); it is called out in the step's issues.
+- coverage.md's 501% for fried_chicken.coat no longer matches the current dataset (200% in the snapshot); my route is 13.3% under the current data, leaving margin either way.
+- Pre-existing unresolved cascade error in mods/minecraft (from an earlier turn, before my edits; I did not touch mods/minecraft and could not run gradle per the no-build rule).

@@ -7,7 +7,7 @@
       {
         "ingredient": "chorizo_mix",
         "amount": {
-          "qty": 1050,
+          "qty": 200,
           "unit": "g"
         }
       }
@@ -17,7 +17,7 @@
     {
       "ingredient": "chorizo",
       "amount": {
-        "qty": 1000,
+        "qty": 250,
         "unit": "g"
       }
     }
@@ -33,17 +33,22 @@
       "q10": 1
     }
   },
-  "stateNote": "stuffed into casings and smoked over embers",
+  "stateNote": "stuffed into casings and smoked over embers; moisture loss fudged to keep the smoke route whole-item exact",
   "issues": [
     {
       "field": "outputs",
       "kind": "estimate",
-      "note": "smoking and drying shed some moisture"
+      "note": "smoking and drying shed some moisture, treated as mass-neutral to enable the game's whole-item smoke route"
     },
     {
       "field": "environment",
       "kind": "estimate",
       "note": "low-and-slow smoker assumed"
+    },
+    {
+      "field": "amounts",
+      "kind": "estimate",
+      "note": "batch sized so the smoker's whole-item quantization stays exact"
     }
   ]
 }

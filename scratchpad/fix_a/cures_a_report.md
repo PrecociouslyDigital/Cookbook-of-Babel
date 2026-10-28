@@ -1,0 +1,5 @@
+bacon.cure -> removed salt (80 g) and white sugar (40 g) inputs, folded the cure into stateNote ("rubbed with a cure of salt (80 g) and white sugar (40 g)"); outputs unchanged (strategy 2)
+chicken_jerky.age -> removed salt (60 g) input, folded into stateNote ("strips rubbed with salt (60 g)"); output unchanged (strategy 2)
+feta_cheese.age -> removed salt (60 g) input, folded into stateNote ("curd salted (60 g of salt) and held in brine"); output unchanged (strategy 2)
+fish_jerky.age -> removed salt (60 g) input, folded into stateNote ("strips rubbed with salt (60 g)"); output unchanged (strategy 2)
+fresh_cheese.age -> collapsed the oneOf (aged_cheese 9 / spoiled_food 1) into a single deterministic aged_cheese 500 g output; the 1-in-10 spoilage moved to stateNote/issues; no new ingredients needed (strategy 2/1 fudge)

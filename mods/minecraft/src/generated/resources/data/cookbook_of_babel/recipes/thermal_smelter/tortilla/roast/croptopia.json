@@ -1,0 +1,34 @@
+{
+  "type": "thermal:smelter",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "thermal_expansion"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "croptopia"
+    }
+  ],
+  "energy": 6000,
+  "ingredients": [
+    {
+      "value": [
+        {
+          "type": "forge:partial_nbt",
+          "item": "cookbook_of_babel:substance",
+          "nbt": "{substance:\"cookbook_of_babel:tortilla_dough_ball\"}"
+        },
+        {
+          "tag": "cookbook_of_babel:ingredients/tortilla_dough_ball"
+        }
+      ]
+    }
+  ],
+  "result": [
+    {
+      "count": 1,
+      "item": "croptopia:tortilla"
+    }
+  ]
+}
