@@ -1,231 +1,26 @@
-LONG TAIL - what this pass left behind
-======================================
+LONG TAIL - state after the fix_a pass (commit 16e3f3ce5f)
+===========================================================
 
-A. Our chain steps with NO emitting route. Whole-item quantization
-   (15%% tolerance) refused every route; the ancestors' shortcut
-   recipes survive for these leaves. The multi-input grinds are fixed
-   by the blend commit (pending the runData rerun).
+Section A (chain steps with no emitting route): 69 -> 3.
+  Fixed: salt/seasoning inputs folded into main steps (cures,
+  smokes), counted piece amounts for one-item-per-craft machines,
+  single-output mills, blenders for multi-input grinds, acid juice
+  for cheese coagulations, named/reused steps and fresh
+  intermediates (vanilla_curing_batch, cracker_dough).
 
-  bacon.cure                                 (age) vd_fermenting_jar: none, whole items would distort it by 2556%
-  beer.ferment_wort                          (ferment) vd_fermenting_jar: none, whole items would distort it by 650%
-  bread.croutons                             (toast) smelting: none, takes one input, not 3
-  bulgogi.marinate                           (soak) create_mixing: none, whole items would distort it by 105%
-  bun.bake                                   (bake) smelting: none, whole items would distort it by 309%
-  cajun_seasoning.mix                        (mix) create_mixing: none, whole items would distort it by 272%
-  caprese_salad.assemble                     (assemble) shapeless_crafting: none, whole items would distort it by 495%
-  caramel.heat                               (roast) smelting: none, whole items would distort it by 295%
-  carbonated_water.carbonate                 (carbonate) create_mixing: none, whole items would distort it by 400%
-  cheesy_asparagus.bake                      (bake) smelting: none, takes one input, not 4
-  chicken_jerky.age                          (age) vd_fermenting_jar: none, whole items would distort it by 577%
-  chocolate.grind_nibs                       (grind) create_milling: none, whole items would distort it by 268%
-  chorizo.smoke                              (smoke) smoking: none, whole items would distort it by 540%
-  cinnamon_bread.bake                        (bake) smelting: none, whole items would distort it by 611%
-  cinnamon_bread.roll                        (assemble) shapeless_crafting: none, whole items would distort it by 931%
-  cinnamon_rolls.shape                       (assemble) shapeless_crafting: none, whole items would distort it by 697%
-  cracker.bake                               (bake) smelting: none, takes one input, not 2
-  creamy_russian_dressing.mix                (mix) create_mixing: none, whole items would distort it by 225%
-  digestive_biscuit.bake                     (bake) smelting: none, whole items would distort it by 159%
-  english_muffins.bake                       (bake) smelting: none, whole items would distort it by 150%
-  feta_cheese.age                            (age) vd_fermenting_jar: none, whole items would distort it by 1400%
-  fish_jerky.age                             (age) vd_fermenting_jar: none, whole items would distort it by 529%
-  fresh_cheese.age                           (age) 
-  fried_chicken.coat                         (coat) shapeless_crafting: none, whole items would distort it by 501%
-  fried_green_tomatoes.coat                  (coat) shapeless_crafting: none, whole items would distort it by 101%
-  fromage_frais.coagulate                    (coagulate) create_mixing: none, whole items would distort it by 170%
-  general_tso_s_chicken.mix_sauce            (mix) create_mixing: none, whole items would distort it by 335%
-  grilled_eggplant.grill                     (grill) campfire: none, takes one input, not 5
-  guanciale.cure                             (age) vd_fermenting_jar: none, whole items would distort it by 1325%
-  hamburger_bun.bake                         (bake) smelting: none, takes one input, not 3
-  hot_wings.bake                             (bake) smelting: none, takes one input, not 2
-  hummus.mix                                 (mix) create_mixing: none, whole items would distort it by 119%
-  italian_dressing.mix                       (mix) create_mixing: none, whole items would distort it by 370%
-  lamington.coat                             (coat) shapeless_crafting: none, whole items would distort it by 135%
-  manioc_flour.grind                         (grind) create_milling: none, whole items would distort it by 1665%
-  mustard_seed.dry_pods                      (dry) hexerei_drying_rack: none, whole items would distort it by 150%
-  mustard_seed.thresh                        (cut) fd_cutting_board: none, whole items would distort it by 200%
-  mutton_jerky.age                           (age) vd_fermenting_jar: none, whole items would distort it by 1900%
-  niter_kibbeh.heat                          (heat) create_heated_mixing: none, whole items would distort it by 487%
-  niter_kibbeh.separate                      (separate) create_item_drain: none, whole items would distort it by 737%
-  nutritional_yeast.culture                  (ferment) vd_fermenting_jar: none, whole items would distort it by 900%
-  nutritional_yeast.dry                      (dry) transition: not written: the game can't make `deactivated_yeast`
-  onion_rings.batter                         (assemble) shapeless_crafting: none, whole items would distort it by 186%
-  pancetta.cure                              (age) vd_fermenting_jar: none, whole items would distort it by 1686%
-  paneer.coagulate                           (coagulate) create_mixing: none, whole items would distort it by 175%
-  pasta.cut                                  (cut) fd_cutting_board: none, whole items would distort it by 520%
-  peach_pie.assemble                         (assemble) shapeless_crafting: none, whole items would distort it by 817%
-  pemmican.age                               (age) vd_fermenting_jar: none, whole items would distort it by 900%
-  pork_and_beans.assemble                    (assemble) shapeless_crafting: none, whole items would distort it by 178%
-  pork_jerky.age                             (age) vd_fermenting_jar: none, whole items would distort it by 1900%
-  pork_pot_pie.assemble                      (assemble) shapeless_crafting: none, whole items would distort it by 233%
-  pretzels.bake                              (bake) smelting: none, takes one input, not 2
-  rabbit_jerky.age                           (age) vd_fermenting_jar: none, whole items would distort it by 529%
-  rhubarb_crisp.bake                         (bake) smelting: none, takes one input, not 3
-  rice_cake.grill                            (grill) campfire: none, whole items would distort it by 240%
-  salt.evaporate                             (evaporate) create_heated_mixing: none, whole items would distort it by 870%
-  salt_cod.dry                               (dry) hexerei_drying_rack: none, takes one input, not 2
-  salt_pork.dry                              (dry) hexerei_drying_rack: none, takes one input, not 2
-  sausage.stuff                              (assemble) shapeless_crafting: none, whole items would distort it by 275%
-  semolina.grind                             (separate) create_item_drain: none, whole items would distort it by 456%
-  smoked_fish.smoke                          (smoke) smoking: none, takes one input, not 2
-  smoked_pork_slices.smoke                   (smoke) smoking: none, takes one input, not 2
-  smoked_salmon.smoke                        (smoke) smoking: none, takes one input, not 2
-  stir_fried_potatoes.shred                  (julienne) fd_cutting_board: none, whole items would distort it by 150%
-  stir_fry.cut                               (cut) fd_cutting_board: none, takes one input, not 3
-  stuffed_peppers.assemble                   (assemble) shapeless_crafting: none, whole items would distort it by 121%
-  taco_seasoning_mix.mix                     (mix) create_mixing: none, whole items would distort it by 123%
-  tortilla.roast                             (roast) smelting: none, whole items would distort it by 150%
-  treacle_tart.bake                          (bake) smelting: none, takes one input, not 2
-  vanilla.cure                               (cure) vd_fermenting_jar: none, whole items would distort it by 108%
-  veggie_salad.chop                          (cut) fd_cutting_board: none, takes one input, not 3
-  yorkshire_pudding.bake                     (bake) smelting: none, takes one input, not 2
+  Still blocked (3):
+  - caramel.heat: a deliberate ~4.7:1 reduction between paper-twist
+    and bowl-portion formats; no scale lands under the rejection bar.
+    (Owner: 'beyond caring' about ratio cases.)
+  - chorizo.smoke + smoked_fish.smoke: the smoking machine is
+    maxItemInputs=1 / maxOfEachItem=1 - one single item per craft -
+    and the paste-to-solid / strips-to-whole conversions cannot land
+    both ends on one item without absurd mass gains. Fixing needs
+    ingredient-form changes (e.g. chorizo solid->piece) that ripple
+    into every other recipe using them.
 
-  (72 steps)
+Section C (dead section-1 pairs): 139 -> 0. All resolved by reverse
+  dual-mappings, tiny invented chains, and forge-tag stand-ins.
 
-B. Extracted-dish prep refusals: pre-existing, dish-internal, mostly
-   with alternate routes; not counted here.
-
-C. Section-1 pairs whose target is still an unmade leaf. The reverse
-   mapping can't help until the target itself has a chain or item.
-   Full list:
-
-  palm_oil                               -> vegetable_oil
-  ketchup                                -> tomato_ketchup
-  fruit_preserves                        -> jam_recipe
-  corn_syrup                             -> syrup
-  food_coloring                          -> red_beet_food_coloring
-  crouton                                -> croutons
-  imitation_whipped_cream                -> whipped_cream
-  cornbread_disambiguation               -> cornbread_i
-  mixed_herbs                            -> herbs_and_spices
-  breakfast_cereal                       -> cereal
-  bourbon                                -> whiskey
-  cognac                                 -> brandy
-  chile_powder                           -> chili_powder
-  fava_bean                              -> fava_beans
-  oil_palm_fruit                         -> palm_fruits
-  chocolate_syrup                        -> chocolate_sauce
-  coriander_leaves                       -> cilantro
-  cowpea                                 -> black_eyed_peas
-  espagnole_sauce                        -> espagnole_sauce_escoffier
-  pesto                                  -> pesto_i
-  shrimp_crackers                        -> prawn_cracker
-  dehydrated_lemon_peel                  -> lemon_peel
-  fermentation_starter                   -> yeast
-  bechamel_sauce                         -> bechamel_sauce_basic
-  buns                                   -> bun
-  egg_whites                             -> egg_white
-  hominy                                 -> homemade_hominy
-  spirits                                -> liquor
-  potato_starch                          -> starch
-  bacon_drippings                        -> bacon_fat
-  bacon_grease                           -> bacon_fat
-  black_eyed_peas                        -> cowpea
-  cereal                                 -> breakfast_cereal
-  chicken_broth                          -> chicken_stock
-  cubanelle_peppers                      -> cubanelle_pepper
-  dripping                               -> drippings
-  frosting_and_icing                     -> royal_icing
-  italian_frying_peppers                 -> cubanelle_pepper
-  meat_drippings                         -> drippings
-  old_bay                                -> old_bay_seasoning
-  prawn_cracker                          -> prawn_crackers_shrimp_chips
-  rendered_bacon_fat                     -> bacon_fat
-  romano_cheese                          -> pecorino_romano_cheese
-  scent_leaves                           -> scent_leaf
-  shiitake                               -> shiitake_mushrooms
-  store_bought_gyoza_wonton_wrappers     -> wonton_wrappers
-  tapioca                                -> tapioca_starch
-  uncooked_ham_hock                      -> ham_hock
-  vienna_sausages                        -> vienna_sausage
-  cooking_oil                            -> vegetable_oil
-  beef_bouillon_cubes                    -> dehydrated_broth
-  beef_stock_cubes                       -> dehydrated_broth
-  brewer_s_yeast                         -> yeast
-  chicken_flavour_bouillon_cube          -> dehydrated_broth
-  chocolate_chip_cookies                 -> cookie
-  day_old_french_bread                   -> stale_bread
-  dog_buns                               -> buns
-  dongu_mushrooms                        -> shiitake_mushrooms
-  instant_yeast                          -> yeast
-  ladi_pav                               -> bun
-  malt_biscuits                          -> cookie
-  marie_biscuits                         -> cookie
-  milk_cookies                           -> cookie
-  mini_potato_buns                       -> bun
-  mushroom_stock_cube                    -> dehydrated_broth
-  nutella                                -> chocolate_spread
-  pasta_seasoning                        -> seasoning
-  red_snapper                            -> snapper
-  soft_flatbread                         -> flatbread
-  squid_tentacles                        -> squid
-  stale_french_bread                     -> stale_bread
-  sweetened_whipped_cream                -> whipped_cream
-  swiss_roll                             -> cake
-  unsalted_tomato_paste                  -> tomato_paste
-  adobo_chicken_philippine               -> adobo_seasoning
-  banana_leaf                            -> banana_leaves
-  banga_spice                            -> banga_spice_mix
-  berries                                -> berry
-  biltong                                -> biltong_zambian_dried_and_salted_meat
-  caraway_seed                           -> caraway
-  dry_applewood_chunks                   -> applewood_chunks
-  goya_adobo_seasoning                   -> adobo_seasoning
-  granola_bar                            -> granola_bars
-  ground_dried_pepper                    -> chili_powder
-  handfuls_of_pretzels                   -> pretzels
-  iced_water                             -> ice_water
-  instant_vanilla_pudding_mix            -> vanilla_instant_pudding
-  italian_herb_blend                     -> italian_seasoning
-  low_sodium_cooking                     -> chicken_stock
-  mesquite_chunks                        -> mesquite_wood_chips
-  milo_chocolate_drink_mix               -> milo_chocolate_drink_powder
-  mint_leaves                            -> mint
-  n_c_m_m                                -> fish_sauce
-  orange_rind                            -> orange_peel
-  packages_jell_o_flavored_gelatin       -> jello
-  pancake_mix                            -> pancake_dry_mix
-  panla                                  -> stockfish
-  periwinkle                             -> periwinkle_mollusc
-  powdered_ginger                        -> ground_ginger
-  powdered_smoked_paprika                -> smoked_paprika
-  puffed_rice_cereal                     -> puffed_rice
-  risotto                                -> risotto_basic
-  sambar_masalar                         -> sambhar_masala
-  seitan                                 -> homemade_seitan
-  soaked_mesquite_wood_chips             -> mesquite_wood_chips_soak
-  soda                                   -> lemon_lime_soda_i
-  soda_pop                               -> soda
-  split_peas                             -> split_pea
-  taco_mix                               -> taco_seasoning_mix
-  taco_seasoning                         -> taco_seasoning_mix
-  taco_seasoning_packet                  -> taco_seasoning
-  vanilla_instant_pudding                -> instant_vanilla_pudding_mix
-  zest_from_juiced_lemons                -> zest_of_lemon
-  bagoong_alamang                        -> shrimp_paste
-  cheerios                               -> breakfast_cereal
-  coarse_bulgur                          -> bulgur
-  coconut_sugar                          -> brown_sugar
-  dalda                                  -> shortening
-  fat_free_italian_salad_dressing        -> italian_dressing
-  goya_sazon_con_azafran                 -> sazon
-  granulated_garlic                      -> garlic_powder
-  gravy_granules                         -> gravy_powder
-  ground_cameroon_pepper                 -> chili_powder
-  herb_seasoning                         -> seasoning
-  hickory_smoke_powder                   -> smoke_powder
-  homemade_biscuit_mix                   -> baking_mix
-  kirsch                                 -> brandy
-  ogiri_okpei                            -> ogiri
-  other_seasonings                       -> seasoning
-  other_spices                           -> herbs_and_spices
-  paul_prudhomme_s_seafood_magic         -> cajun_seasoning
-  refrigerated_pizza_crust               -> pizza_dough
-  spiced_clarified_butter                -> clarified_butter
-  starch_based_creamer                   -> powdered_creamer
-  sweet_herbs                            -> mixed_herbs
-  toasted_hazelnut_oil                   -> hazelnut_oil
-  togarashi_pepper_powder                -> chili_powder
-  uncolored_sazon                        -> sazon
-  salt_and_pepper                        -> salt_and_black_pepper
-
-  (139 pairs)
+Verification: babel validate 0 errors, cabal test 72/72,
+  runData green, gametest 20/20 (pre-fix run).
