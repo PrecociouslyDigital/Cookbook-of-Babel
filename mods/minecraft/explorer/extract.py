@@ -128,8 +128,13 @@ def tag_values(data, kind, name, seen=None):
     path = data / "tags" / kind / "ingredients" / f"{name}.json"
     if not path.exists():
         return []
+    try:
+        entries = json.loads(path.read_text())["values"]
+    except (OSError, ValueError) as e:
+        print(f"warning: could not read tag {name}: {e}", file=sys.stderr)
+        return []
     values = []
-    for entry in json.loads(path.read_text())["values"]:
+    for entry in entries:
         entry = entry["id"] if isinstance(entry, dict) else entry
         if entry.startswith("#" + INGREDIENT_TAG):
             values += tag_values(data, kind, entry.removeprefix("#" + INGREDIENT_TAG), seen)
@@ -140,7 +145,12 @@ def tag_values(data, kind, name, seen=None):
 
 def compile_graph(generated, bands, resources=None):
     data = generated / "data/cookbook_of_babel"
-    substances = {p.stem: json.loads(p.read_text()) for p in (data / "cookbook_of_babel/substance").glob("*.json")}
+    substances = {}
+    for p in (data / "cookbook_of_babel/substance").glob("*.json"):
+        try:
+            substances[p.stem] = json.loads(p.read_text())
+        except (OSError, ValueError) as e:
+            print(f"warning: could not read substance {p}: {e}", file=sys.stderr)
     resources = resources or generated.parent.parent / "main/resources"
     gardens_path = resources / "cookbook_of_babel/spice_gardens.json"
     gardens = {}
@@ -152,7 +162,11 @@ def compile_graph(generated, bands, resources=None):
 
     produced = defaultdict(lambda: defaultdict(set))
     for path in sorted((data / "recipes").rglob("*.json")):
-        recipe = json.loads(path.read_text())
+        try:
+            recipe = json.loads(path.read_text())
+        except (OSError, ValueError) as e:
+            print(f"warning: could not read recipe {path}: {e}", file=sys.stderr)
+            continue
         inputs = inputs_of(recipe)
         outputs = list(outputs_of(recipe))
         if not outputs:
@@ -160,7 +174,11 @@ def compile_graph(generated, bands, resources=None):
         for out, count in outputs:
             produced[out][inputs, count, dead(recipe)].add(machine_of(recipe))
     for path in sorted((data / "cookbook_of_babel/transition").glob("*.json")):
-        transition = json.loads(path.read_text())
+        try:
+            transition = json.loads(path.read_text())
+        except (OSError, ValueError) as e:
+            print(f"warning: could not read transition {path}: {e}", file=sys.stderr)
+            continue
         inputs = ((transition["input"].removeprefix(NS), 1, ""),)
         band = band_of(transition["sensitivity"]["refTempC"], bands)
         machine = f"{TRANSITION_MACHINES[transition['kind']]} ({band})"
@@ -205,7 +223,7 @@ def compile_graph(generated, bands, resources=None):
 
     def alternative(inputs, count, is_dead, ms):
         slots = [[index[name], qty, unit] if unit else [index[name], qty] for name, qty, unit in inputs]
-        return [sorted(machine_index[m] for m in ms), count, slots, int(is_dead)]
+        return [sorted(machine_index[m] for m in ms), count, slots, 1 if is_dead else 0]
 
     def alternatives(alts):
         """Live ones first, so the page shows a way to make the node that works."""
@@ -221,6 +239,9 @@ def compile_graph(generated, bands, resources=None):
 
 
 if __name__ == "__main__":
-    bands = json.loads(Path(sys.argv[2]).read_text())["tempBands"]
-    resources = Path(sys.argv[3]) if len(sys.argv) > 3 else None
-    json.dump(compile_graph(Path(sys.argv[1]), bands, resources), sys.stdout, separators=(",", ":"))
+    try:
+        bands = json.loads(Path(sys.argv[2]).read_text())["tempBands"]
+        resources = Path(sys.argv[3]) if len(sys.argv) > 3 else None
+        json.dump(compile_graph(Path(sys.argv[1]), bands, resources), sys.stdout, separators=(",", ":"))
+    except (OSError, ValueError, KeyError) as e:
+        sys.exit(f"explorer extract failed: {e}")
