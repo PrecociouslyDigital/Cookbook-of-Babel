@@ -46,7 +46,7 @@ Steps of each technique: all of them, those with a recipe in at least one machin
 | press | 77 | 60 | 0 |
 | rancid | 43 | 0 | 43 |
 | rinse | 339 | 321 | 0 |
-| roast | 173 | 104 | 0 |
+| roast | 174 | 105 | 0 |
 | season | 1306 | 979 | 0 |
 | separate | 414 | 324 | 0 |
 | shape | 940 | 781 | 0 |
@@ -61,12 +61,12 @@ Steps of each technique: all of them, those with a recipe in at least one machin
 | steep | 96 | 76 | 0 |
 | stir_fry | 324 | 253 | 0 |
 | strain | 348 | 309 | 0 |
-| toast | 209 | 130 | 0 |
+| toast | 210 | 131 | 0 |
 | whisk | 392 | 339 | 0 |
 
 ## Unmapped leaves
 
-Used by some step, made by none, and provided by no mapped mod, so nothing in the game produces them. `build/babel/candidates/<mod>.json` proposes mappings for them and for anything else that a mod's items or fluids name.
+Used by some step, and neither they nor anything that counts as them is made by a step or provided by a mapped mod, so nothing in the game produces them. `build/babel/candidates/<mod>.json` proposes mappings for them and for anything else that a mod's items or fluids name.
 
 - `ackawi` (ackawi)
 - `acorn_squash` (acorn squash)
@@ -284,7 +284,7 @@ Used by some step, made by none, and provided by no mapped mod, so nothing in th
 - `chicken_hot_dogs` (chicken hot dogs)
 - `chicken_satay` (chicken satay)
 - `chicken_seasoning` (chicken seasoning)
-- `chickpea` (besan)
+- `chickpea_flour` (chickpea flour)
 - `chicory` (chicory)
 - `chile` (chile)
 - `chile_flakes` (chile flakes)
@@ -518,7 +518,6 @@ Used by some step, made by none, and provided by no mapped mod, so nothing in th
 - `five_spice_powder` (five spice powder)
 - `flaky_salt` (flaky salt)
 - `flaky_sea_salt` (flaky sea salt)
-- `flatbread` (flatbread)
 - `flathead` (flathead)
 - `flavored_salt` (flavored salt)
 - `flavoring` (flavoring)
@@ -899,7 +898,6 @@ Used by some step, made by none, and provided by no mapped mod, so nothing in th
 - `ogiri_okpei` (ogiri okpei)
 - `oha` (oha)
 - `oha_leaves` (oha leaves)
-- `oil_and_fat` (fat)
 - `oil_from_sun_dried_tomatoes` (oil from sun-dried tomatoes)
 - `oil_palm_fruit` (oil palm fruit)
 - `okoho` (ager)
@@ -2916,7 +2914,6 @@ Steps that merging left the same as another, and so dropped:
 - `coconut_chicken.step_7.prep_4`, like `anchovy_herb_salsa_verde.step_1.prep_6`
 - `coconut_chicken.step_7.prep_9`, like `20_ingredient_brownies.step_3.prep_3`
 - `coconut_chutney_north_indian.step_1.prep_4`, like `alicha_wot_mild_ethiopian_stew.step_9.prep_14`
-- `coconut_chutney_south_indian.step_1.prep_1`, like `chickpea_flour_dessert_mysore_pak.step_1.prep_1`
 - `coconut_chutney_south_indian.step_2.prep_5`, like `alicha_wot_mild_ethiopian_stew.step_9.prep_14`
 - `coconut_chutney_south_indian.step_3.prep_8`, like `african_cabbage_stew.step_1.prep_1`
 - `coconut_cream_and_pound_cake_with_moscatel_bienmesabe.step_3.prep_3`, like `albanian_meat_with_walnuts.step_4.prep_3`
@@ -3929,7 +3926,7 @@ Steps that merging left the same as another, and so dropped:
 - `ghavoot_iranian_nut_and_seed_powder.step_1.prep_2`, like `berbere.step_1.prep_2`
 - `ghavoot_iranian_nut_and_seed_powder.step_1.prep_3`, like `curried_chiles_mirchi_ka_salan.step_1.prep_2`
 - `ghavoot_iranian_nut_and_seed_powder.step_1.prep_6`, like `curried_chiles_mirchi_ka_salan.step_1.prep_1`
-- `ghavoot_iranian_nut_and_seed_powder.step_1.prep_7`, like `chickpea_flour_dessert_mysore_pak.step_1.prep_1`
+- `ghavoot_iranian_nut_and_seed_powder.step_1.prep_7`, like `coconut_chutney_south_indian.step_1.prep_1`
 - `ghee_i.step_1`, like `asida_bil_zibda_libyan_semolina_pudding.step_1`
 - `ghee_i.step_1.prep_1`, like `20_ingredient_brownies.step_3.prep_3`
 - `ghormeh_sabzi_iranian_herb_stew.step_1.prep_1`, like `cassoulet.step_1.prep_1`
@@ -5883,7 +5880,7 @@ Steps that merging left the same as another, and so dropped:
 - `one_cup_chai.step_2.prep_6`, like `bhuna_khichuri_bengali_rice_and_lentils.step_7.prep_12`
 - `one_cup_chai.step_2.prep_7`, like `anchovy_herb_salsa_verde.step_1.prep_7`
 - `onion_chutney.step_1.prep_1`, like `african_cabbage_stew.step_1.prep_1`
-- `onion_chutney.step_1.prep_2`, like `chickpea_flour_dessert_mysore_pak.step_1.prep_1`
+- `onion_chutney.step_1.prep_2`, like `coconut_chutney_south_indian.step_1.prep_1`
 - `onion_chutney.step_2.prep_3`, like `agbugbu_nigerian_pigeon_pea_and_yam_porridge.step_5.prep_3`
 - `onion_confit.step_2.prep_8`, like `african_cabbage_stew.step_1.prep_2`
 - `onion_confit.step_3.prep_6`, like `a_nice_cup_of_tea.step_1.prep_1`
@@ -7263,7 +7260,6 @@ Steps that merging left the same as another, and so dropped:
 - `sinasir_nigerian_rice_pancake.step_1.prep_1`, like `appam_fermented_rice_pancake.step_1.prep_1`
 - `sinasir_nigerian_rice_pancake.step_4.prep_5`, like `african_cabbage_stew.step_1.prep_2`
 - `sincronizada_fried_ham_and_cheese_tortilla_sandwich.step_2.prep_4`, like `african_cabbage_stew.step_1.prep_1`
-- `sindhi_chickpea_confection.step_1.prep_1`, like `coconut_rice_indian.step_2.prep_6`
 - `sindhi_chickpea_confection.step_1.prep_2`, like `ashoka_halwa_mung_bean_pudding.step_3.prep_4`
 - `sindhi_chickpea_confection.step_4.prep_4`, like `kele_ka_halwa_fried_bananas_in_milk.step_1.prep_1`
 - `sindhi_chickpea_confection.step_4.prep_5`, like `almond_toffee_blondies.step_3.prep_8`
@@ -8694,7 +8690,7 @@ Steps that merging left the same as another, and so dropped:
 - `yetsom_beyaynetu_ethiopian_vegan_platter.step_5.prep_10`, like `dambun_masara.step_4.prep_5`
 - `yetsom_beyaynetu_ethiopian_vegan_platter.step_5.prep_8`, like `african_cabbage_stew.step_3.prep_5`
 - `yetsom_beyaynetu_ethiopian_vegan_platter.step_5.prep_9`, like `feijao_tropeiro_brazilian_beans_and_sausage.step_5.prep_8`
-- `yetsom_shiro_ethiopian_vegan_chickpea_stew.step_1.prep_1`, like `coconut_rice_indian.step_2.prep_6`
+- `yetsom_shiro_ethiopian_vegan_chickpea_stew.step_1.prep_1`, like `sindhi_chickpea_confection.step_1.prep_1`
 - `yetsom_shiro_ethiopian_vegan_chickpea_stew.step_2.prep_2`, like `ale_mustard_and_winter_vegetable_pie.step_6.prep_5`
 - `yetsom_shiro_ethiopian_vegan_chickpea_stew.step_2.prep_3`, like `african_cabbage_stew.step_1.prep_2`
 - `yetsom_shiro_ethiopian_vegan_chickpea_stew.step_2.prep_4`, like `alsatian_chicken_fricassee.step_5.prep_5`
@@ -13144,8 +13140,8 @@ Rounding error is the largest relative error of any non-negligible amount; above
 
 ### `algerian_chakhchoukha_vegetable_and_flatbread_stew.step_3.prep_9` (soak)
 
-- create_mixing: 1 recipe, rounding 11%, estimated
-- create_splashing: 1 recipe, rounding 17% ⚠, estimated
+- create_mixing: 1 recipe, rounding 0%, estimated
+- create_splashing: 1 recipe, rounding 0%, estimated
 
 ### `algerian_chakhchoukha_vegetable_and_flatbread_stew.step_4` (simmer)
 
@@ -13283,8 +13279,8 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `algerian_couscous_with_meat_and_vegetables.step_12` (simmer)
 
-- create_heated_mixing: 1 recipe, rounding 11%, estimated
-- fd_cooking_pot: none, whole items would distort it by 217%
+- create_heated_mixing: 1 recipe, rounding 14%, estimated
+- fd_cooking_pot: none, whole items would distort it by 200%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `algerian_couscous_with_meat_and_vegetables.step_12.prep_21` (cut)
@@ -21113,7 +21109,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 ### `bean_and_rice_bake.step_4` (mix)
 
 - create_mixing: 1 recipe, disabled: the game can't make `bean_and_rice_bake_step_3`
-- shapeless_crafting: none, whole items would distort it by 1400%
+- shapeless_crafting: none, whole items would distort it by 500%
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `bean_and_rice_bake.step_5` (soak)
@@ -23077,8 +23073,8 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `bhuna_khichuri_bengali_rice_and_lentils.step_1.prep_3` (rinse)
 
-- create_mixing: 1 recipe, rounding 11%, estimated
-- create_splashing: 1 recipe, rounding 17% ⚠, estimated
+- create_mixing: 1 recipe, rounding 0%, estimated
+- create_splashing: 1 recipe, rounding 0%, estimated
 
 ### `bhuna_khichuri_bengali_rice_and_lentils.step_10` (mix)
 
@@ -35433,13 +35429,13 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 - smelting: none, takes one input, not 2
 - smoking: none, takes one input, not 2
-- thermal_smelter: 1 recipe, rounding 27% ⚠, estimated
+- thermal_smelter: 1 recipe, rounding 75% ⚠, estimated
 
 ### `chickpea_flour_dessert_mysore_pak.step_1.prep_1` (roast)
 
-- smelting: 1 recipe, rounding 17% ⚠, estimated
-- smoking: 1 recipe, rounding 17% ⚠, estimated
-- thermal_smelter: 1 recipe, rounding 17% ⚠, estimated
+- smelting: 1 recipe, rounding 6%
+- smoking: 1 recipe, rounding 6%
+- thermal_smelter: 1 recipe, rounding 6%
 
 ### `chickpea_flour_dessert_mysore_pak.step_2` (boil)
 
@@ -40183,6 +40179,12 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - smoking: 1 recipe, rounding 32% ⚠, estimated
 - thermal_smelter: 1 recipe, rounding 32% ⚠, estimated
 
+### `coconut_chutney_south_indian.step_1.prep_1` (roast)
+
+- smelting: 1 recipe, rounding 13%, estimated
+- smoking: 1 recipe, rounding 13%, estimated
+- thermal_smelter: 1 recipe, rounding 13%, estimated
+
 ### `coconut_chutney_south_indian.step_2` (blend)
 
 - create_mixing: 1 recipe, rounding 12%, estimated
@@ -40529,9 +40531,9 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `coconut_rice_indian.step_2.prep_6` (toast)
 
-- smelting: 1 recipe, rounding 0%
-- smoking: 1 recipe, rounding 0%
-- thermal_smelter: 1 recipe, rounding 0%
+- smelting: 1 recipe, rounding 0%, estimated
+- smoking: 1 recipe, rounding 0%, estimated
+- thermal_smelter: 1 recipe, rounding 0%, estimated
 
 ### `coconut_rice_indian.step_2.prep_8` (toast)
 
@@ -65482,8 +65484,8 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `homemade_aquafaba.step_1` (mix)
 
-- create_mixing: 1 recipe, rounding 8%
-- shapeless_crafting: 1 recipe, rounding 8%
+- create_mixing: 1 recipe, rounding 3%, estimated
+- shapeless_crafting: 1 recipe, rounding 3%, estimated
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `homemade_aquafaba.step_2` (boil)
@@ -67513,7 +67515,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `hummus_i.step_1` (soak)
 
-- create_mixing: 1 recipe, rounding 13%
+- create_mixing: 1 recipe, rounding 4%, estimated
 - create_splashing: none, takes one input, not 2
 
 ### `hummus_i.step_2` (rinse)
@@ -74780,8 +74782,8 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `koshary_egyptian_pasta_salad_with_rice_and_lentils.step_2.prep_4` (boil)
 
-- create_heated_mixing: 1 recipe, rounding 11%, estimated
-- fd_cooking_pot: 1 recipe, rounding 11%, estimated
+- create_heated_mixing: 1 recipe, rounding 0%, estimated
+- fd_cooking_pot: 1 recipe, rounding 0%, estimated
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `koshary_egyptian_pasta_salad_with_rice_and_lentils.step_3` (assemble)
@@ -83136,7 +83138,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 ### `masala_dosa.step_5.prep_13` (fry)
 
 - adds `oil_and_fat`: the step uses it up but doesn't list it (a dataset gap)
-- create_heated_mixing: 1 recipe, rounding 11%, estimated
+- create_heated_mixing: 1 recipe, rounding 10%, estimated
 - pnc_thermo_plant: 1 recipe, rounding 15%, estimated
 
 ### `masala_dosa.step_6` (stir_fry)
@@ -116469,8 +116471,8 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `sharba_libya_libyan_soup.step_3` (mix)
 
-- create_mixing: 1 recipe, rounding 11%, estimated
-- shapeless_crafting: 1 recipe, rounding 58% ⚠, estimated
+- create_mixing: 1 recipe, rounding 5%, estimated
+- shapeless_crafting: 1 recipe, rounding 50% ⚠, estimated
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
 ### `sharba_libya_libyan_soup.step_4` (coat)
@@ -117972,6 +117974,12 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - smelting: none, takes one input, not 2
 - smoking: none, takes one input, not 2
 - thermal_smelter: 1 recipe, rounding 50% ⚠, estimated
+
+### `sindhi_chickpea_confection.step_1.prep_1` (toast)
+
+- smelting: 1 recipe, rounding 0%, estimated
+- smoking: 1 recipe, rounding 0%, estimated
+- thermal_smelter: 1 recipe, rounding 0%, estimated
 
 ### `sindhi_chickpea_confection.step_2` (mix)
 
@@ -121901,7 +121909,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 ### `spicy_chickpeas.step_1.prep_1` (dry)
 
 - transition: written
-- hexerei_drying_rack: 1 recipe, rounding 17% ⚠, estimated
+- hexerei_drying_rack: 1 recipe, rounding 0%
 
 ### `spicy_chickpeas.step_2` (pan_fry)
 
@@ -129649,7 +129657,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `tegabino_shiro_ethiopian_spiced_chickpea_dip.step_1` (whisk)
 
-- create_mixing: 3 recipes, rounding 5%, estimated
+- create_mixing: 1 recipe, rounding 15%, estimated
 
 ### `tegabino_shiro_ethiopian_spiced_chickpea_dip.step_2` (heat)
 

@@ -50,12 +50,15 @@ final class Reports implements DataProvider {
         }
     }
 
-    /** Ingredients no step makes and no mod provides: nothing in the game can produce them. */
+    /**
+     * Ingredients no step makes and no mod provides, nor anything that counts as them: nothing in
+     * the game can produce them.
+     */
     private List<Ingredient> unmappedLeaves() {
         var made = context.producedSomewhere();
         return context.dataset.ingredients().stream()
-                .filter(i -> !made.contains(i.id()))
-                .filter(i -> context.mappings.stream().noneMatch(m -> m.entry(i.id()).isPresent()))
+                .filter(i -> context.dataset.descendants(i.id()).stream().noneMatch(d -> made.contains(d)
+                        || context.mappings.stream().anyMatch(m -> m.entry(d).isPresent())))
                 .filter(i -> context.recipes().stream().anyMatch(r -> cookbookofbabel.minecraft.datagen.plan.Recipes.consumes(r, i.id())))
                 .toList();
     }
@@ -78,7 +81,7 @@ final class Reports implements DataProvider {
                         .append(" |\n"));
 
         out.append("\n## Unmapped leaves\n\n");
-        out.append("Used by some step, made by none, and provided by no mapped mod, so nothing in the game produces them. ");
+        out.append("Used by some step, and neither they nor anything that counts as them is made by a step or provided by a mapped mod, so nothing in the game produces them. ");
         out.append("`build/babel/candidates/<mod>.json` proposes mappings for them and for anything else that a mod's items or fluids name.\n\n");
         leaves.forEach(i -> out.append("- `").append(i.id()).append("` (").append(i.label()).append(")\n"));
         if (leaves.isEmpty()) {
