@@ -1,0 +1,51 @@
+{
+  "id": "pemmican.age",
+  "source": "cookbook_of_babel",
+  "technique": "age",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "beef",
+        "amount": {
+          "qty": 900,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "salt",
+        "amount": {
+          "qty": 45,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "dried_lean_beef",
+      "amount": {
+        "qty": 430,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 10,
+      "unit": "d"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 2
+    }
+  },
+  "stateNote": "salt-cured lean strips dried until rock-hard",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "air-drying roughly halves the mass"
+    }
+  ]
+}

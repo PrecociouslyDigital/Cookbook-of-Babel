@@ -1,0 +1,60 @@
+{
+  "id": "silken_tofu.coagulate",
+  "source": "cookbook_of_babel",
+  "technique": "coagulate",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "soy_milk_ii",
+        "amount": {
+          "qty": 2600,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "vinegar",
+        "amount": {
+          "qty": 30,
+          "unit": "ml"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "silken_tofu",
+      "amount": {
+        "qty": 2450,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 20,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "environment": {
+    "temperatureC": 90,
+    "medium": "simmering_water"
+  },
+  "stateNote": "a barely set custard; the curd is never pressed",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "the setting agent is replaced with vinegar"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "a little whey weeps off the unpressed curd"
+    }
+  ]
+}

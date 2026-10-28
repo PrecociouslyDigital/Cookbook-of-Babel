@@ -1,0 +1,44 @@
+{
+  "id": "kiwi_sorbet.freeze",
+  "source": "cookbook_of_babel",
+  "technique": "freeze",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "kiwi_sorbet_base",
+        "amount": {
+          "qty": 530,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "kiwi_sorbet",
+      "amount": {
+        "qty": 490,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 6,
+      "unit": "h"
+    },
+    "sensitivity": {
+      "refTempC": -18,
+      "q10": 2
+    }
+  },
+  "stateNote": "spoonable and icy-soft",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "a little water freezes out at the walls"
+    }
+  ]
+}

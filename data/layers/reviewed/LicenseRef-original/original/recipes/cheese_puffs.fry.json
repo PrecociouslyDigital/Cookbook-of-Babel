@@ -1,0 +1,48 @@
+{
+  "id": "cheese_puffs.fry",
+  "source": "cookbook_of_babel",
+  "technique": "fry",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "cheese_puff_dough",
+        "amount": {
+          "qty": 585,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "cheese_puffs",
+      "amount": {
+        "qty": 520,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 4,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "environment": {
+    "temperatureC": 190,
+    "medium": "frying_oil"
+  },
+  "stateNote": "puffed, deep golden, crisp outside",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "loses steam, gains a little frying oil"
+    }
+  ]
+}

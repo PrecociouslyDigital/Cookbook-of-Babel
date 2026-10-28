@@ -1,0 +1,44 @@
+{
+  "id": "fried_onion.slice",
+  "source": "cookbook_of_babel",
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "onion",
+        "amount": {
+          "qty": 300,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "sliced_onion",
+      "amount": {
+        "qty": 275,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 5,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "peeled and sliced into rings",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "papery skin and root end trimmed off"
+    }
+  ]
+}

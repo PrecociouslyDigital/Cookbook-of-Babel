@@ -1,0 +1,45 @@
+{
+  "id": "fried_chicken.fry",
+  "source": "cookbook_of_babel",
+  "technique": "fry",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "breaded_chicken",
+        "amount": {
+          "qty": 1360,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "fried_chicken",
+      "amount": {
+        "qty": 1200,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "both",
+    "coreTempC": 85,
+    "duration": {
+      "qty": 12,
+      "unit": "min"
+    }
+  },
+  "environment": {
+    "temperatureC": 180,
+    "medium": "frying_oil"
+  },
+  "stateNote": "golden crust, juices run clear",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "gains a little frying oil while losing moisture"
+    }
+  ]
+}

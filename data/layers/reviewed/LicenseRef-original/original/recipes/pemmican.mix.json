@@ -1,0 +1,72 @@
+{
+  "id": "pemmican.mix",
+  "source": "cookbook_of_babel",
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "dried_lean_beef",
+        "amount": {
+          "qty": 430,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "lard",
+        "amount": {
+          "qty": 120,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "raisin",
+        "amount": {
+          "qty": 120,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "honey",
+        "amount": {
+          "qty": 60,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "peanut",
+        "amount": {
+          "qty": 100,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "pemmican",
+      "amount": {
+        "qty": 820,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 8,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "pounded meat worked through warm fat with the fruit",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "the shortcut's peanut and fruit stand in for rendered fat and dried berries"
+    }
+  ]
+}

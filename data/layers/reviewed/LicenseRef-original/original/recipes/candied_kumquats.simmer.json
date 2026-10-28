@@ -1,0 +1,62 @@
+{
+  "id": "candied_kumquats.simmer",
+  "source": "cookbook_of_babel",
+  "technique": "simmer",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "kumquat",
+        "amount": {
+          "qty": 500,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "simple_syrup",
+        "amount": {
+          "qty": 600,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "water",
+        "amount": {
+          "qty": 200,
+          "unit": "ml"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "poached_kumquat",
+      "amount": {
+        "qty": 900,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 30,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "environment": {
+    "temperatureC": 95,
+    "medium": "simmering_water"
+  },
+  "stateNote": "the kumquats turn glassy in the syrup",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "most of the syrup stays behind in the pan"
+    }
+  ]
+}

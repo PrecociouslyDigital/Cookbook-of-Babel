@@ -1,0 +1,55 @@
+{
+  "id": "mochi.steam",
+  "source": "cookbook_of_babel",
+  "technique": "steam",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "rice",
+        "amount": {
+          "qty": 500,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "water",
+        "amount": {
+          "qty": 300,
+          "unit": "ml"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "steamed_rice",
+      "amount": {
+        "qty": 760,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 25,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "environment": {
+    "temperatureC": 100,
+    "medium": "steam"
+  },
+  "stateNote": "steamed until fully translucent",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "glutinous rice is not in the dataset; plain rice stands in"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "id": "rhubarb_crisp.bake",
+  "source": "cookbook_of_babel",
+  "technique": "bake",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "rhubarb_compote",
+        "amount": {
+          "qty": 560,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "crisp_topping",
+        "amount": {
+          "qty": 330,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "cinnamon",
+        "amount": {
+          "qty": 2,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "rhubarb_crisp",
+      "amount": {
+        "qty": 850,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 35,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "environment": {
+    "temperatureC": 190,
+    "medium": "oven_air"
+  },
+  "stateNote": "bubbling at the edges, topping golden"
+}

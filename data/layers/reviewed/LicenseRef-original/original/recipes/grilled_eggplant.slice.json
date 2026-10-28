@@ -1,0 +1,44 @@
+{
+  "id": "grilled_eggplant.slice",
+  "source": "cookbook_of_babel",
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "eggplant",
+        "amount": {
+          "qty": 400,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "eggplant_slices",
+      "amount": {
+        "qty": 360,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 5,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "cut into thick slabs",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "stem end and spent peel trimmed"
+    }
+  ]
+}

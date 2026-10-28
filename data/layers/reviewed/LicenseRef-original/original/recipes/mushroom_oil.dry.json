@@ -1,0 +1,44 @@
+{
+  "id": "mushroom_oil.dry",
+  "source": "cookbook_of_babel",
+  "technique": "dry",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "mushroom",
+        "amount": {
+          "qty": 400,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "dried_mushroom",
+      "amount": {
+        "qty": 80,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 12,
+      "unit": "h"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "slices dried to cracker-crisp",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "mushrooms are mostly water; drying keeps about a fifth"
+    }
+  ]
+}

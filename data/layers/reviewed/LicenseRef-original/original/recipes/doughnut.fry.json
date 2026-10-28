@@ -1,0 +1,45 @@
+{
+  "id": "doughnut.fry",
+  "source": "cookbook_of_babel",
+  "technique": "fry",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "doughnut_dough",
+        "amount": {
+          "qty": 900,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "doughnut",
+      "amount": {
+        "qty": 740,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "both",
+    "coreTempC": 95,
+    "duration": {
+      "qty": 3,
+      "unit": "min"
+    }
+  },
+  "environment": {
+    "temperatureC": 180,
+    "medium": "frying_oil"
+  },
+  "stateNote": "puffed and golden on both sides",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "gains frying oil, loses steam"
+    }
+  ]
+}

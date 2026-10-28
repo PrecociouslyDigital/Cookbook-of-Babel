@@ -1,0 +1,51 @@
+{
+  "id": "mushroom_oil.steep",
+  "source": "cookbook_of_babel",
+  "technique": "steep",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "dried_mushroom",
+        "amount": {
+          "qty": 80,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "vegetable_oil",
+        "amount": {
+          "qty": 500,
+          "unit": "ml"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "mushroom_oil",
+      "amount": {
+        "qty": 470,
+        "unit": "ml"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 60,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 2
+    }
+  },
+  "stateNote": "mushroom flavour bleeds into the warm oil; strained",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "the spent mushrooms are strained off and discarded"
+    }
+  ]
+}

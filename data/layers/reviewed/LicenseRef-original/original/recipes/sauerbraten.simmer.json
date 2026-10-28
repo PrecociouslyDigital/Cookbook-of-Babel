@@ -1,0 +1,55 @@
+{
+  "id": "sauerbraten.simmer",
+  "source": "cookbook_of_babel",
+  "technique": "simmer",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "marinated_beef",
+        "amount": {
+          "qty": 1250,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "potato",
+        "amount": {
+          "qty": 400,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "sauerbraten",
+      "amount": {
+        "qty": 1500,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 120,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "environment": {
+    "temperatureC": 90,
+    "medium": "simmering_water"
+  },
+  "stateNote": "fork-tender in a sour gravy",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "braising liquid reduced down into the gravy"
+    }
+  ]
+}

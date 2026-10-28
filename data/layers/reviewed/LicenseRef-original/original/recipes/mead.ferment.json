@@ -1,0 +1,49 @@
+{
+  "id": "mead.ferment",
+  "source": "cookbook_of_babel",
+  "technique": "ferment",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "mead_must",
+        "amount": {
+          "qty": 5400,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "mead",
+      "amount": {
+        "qty": 4800,
+        "unit": "ml"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 30,
+      "unit": "d"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 2
+    }
+  },
+  "stateNote": "honey wine; bubbling has stopped and the liquid clears",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "no brewer's yeast in the shortcut; the ferment relies on ambient yeast"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "about a tenth of the must becomes CO2 and lees"
+    }
+  ]
+}

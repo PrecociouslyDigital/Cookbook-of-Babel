@@ -1,0 +1,69 @@
+{
+  "id": "stir_fry.stir_fry",
+  "source": "cookbook_of_babel",
+  "technique": "stir_fry",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "stir_fry_vegetables",
+        "amount": {
+          "qty": 340,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "green_onion",
+        "amount": {
+          "qty": 50,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "bell_pepper",
+        "amount": {
+          "qty": 120,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "olive_oil",
+        "amount": {
+          "qty": 30,
+          "unit": "ml"
+        }
+      },
+      {
+        "ingredient": "salt",
+        "amount": {
+          "qty": 4,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "stir_fry",
+      "amount": {
+        "qty": 510,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 5,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "environment": {
+    "temperatureC": 220,
+    "medium": "pan_contact"
+  },
+  "stateNote": "hot and blistered but still crisp"
+}
