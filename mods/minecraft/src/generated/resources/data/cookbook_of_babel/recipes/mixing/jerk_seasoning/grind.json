@@ -1,0 +1,50 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/jerk_seasoning"
+    }
+  ],
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:scotch_bonnet_pepper\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/scotch_bonnet_pepper"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:thyme\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/thyme"
+      }
+    ],
+    {
+      "amount": 131,
+      "fluid": "cookbook_of_babel:bulk",
+      "nbt": {
+        "substance": "cookbook_of_babel:allspice"
+      }
+    }
+  ],
+  "processingTime": 300,
+  "results": [
+    {
+      "amount": 414,
+      "fluid": "cookbook_of_babel:bulk",
+      "nbt": "{substance:\"cookbook_of_babel:jerk_seasoning\"}"
+    }
+  ]
+}
