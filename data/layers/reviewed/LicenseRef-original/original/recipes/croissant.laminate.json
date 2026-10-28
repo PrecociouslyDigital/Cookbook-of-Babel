@@ -1,0 +1,51 @@
+{
+  "id": "croissant.laminate",
+  "source": "cookbook_of_babel",
+  "technique": "fold",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "croissant_dough",
+        "amount": {
+          "qty": 870,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "butter",
+        "amount": {
+          "qty": 250,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "laminated_croissant_dough",
+      "amount": {
+        "qty": 1120,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 2,
+      "unit": "h"
+    },
+    "sensitivity": {
+      "refTempC": 4,
+      "q10": 1
+    }
+  },
+  "stateNote": "a butter slab locked in and folded in thirds, chilled between turns",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "chilling between folds is folded into the step's clock"
+    }
+  ]
+}

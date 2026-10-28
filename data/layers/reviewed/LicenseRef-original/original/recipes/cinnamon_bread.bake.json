@@ -1,0 +1,44 @@
+{
+  "id": "cinnamon_bread.bake",
+  "source": "cookbook_of_babel",
+  "technique": "bake",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "cinnamon_swirl_loaf",
+        "amount": {
+          "qty": 990,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "cinnamon_bread",
+      "amount": {
+        "qty": 900,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 40,
+      "unit": "min"
+    }
+  },
+  "stateNote": {
+    "temperatureC": 190,
+    "medium": "oven_air"
+  },
+  "issues": "baked until the swirl sets and the crust browns",
+  "environment": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "steam loss while baking"
+    }
+  ]
+}

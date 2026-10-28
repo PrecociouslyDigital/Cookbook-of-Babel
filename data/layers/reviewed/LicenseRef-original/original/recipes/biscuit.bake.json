@@ -1,0 +1,44 @@
+{
+  "id": "biscuit.bake",
+  "source": "cookbook_of_babel",
+  "technique": "bake",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "biscuit_dough",
+        "amount": {
+          "qty": 500,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "biscuit",
+      "amount": {
+        "qty": 460,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 12,
+      "unit": "min"
+    }
+  },
+  "stateNote": {
+    "temperatureC": 220,
+    "medium": "oven_air"
+  },
+  "issues": "patted out, cut into rounds, baked until tall and golden",
+  "environment": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "about 8% of the dough's mass leaves as steam"
+    }
+  ]
+}

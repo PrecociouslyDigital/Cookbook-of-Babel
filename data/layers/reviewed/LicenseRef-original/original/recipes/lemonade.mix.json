@@ -1,0 +1,66 @@
+{
+  "id": "lemonade.mix",
+  "source": "cookbook_of_babel",
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "lemon",
+        "amount": {
+          "qty": 200,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "water",
+        "amount": {
+          "qty": 1500,
+          "unit": "ml"
+        }
+      },
+      {
+        "ingredient": "white_sugar",
+        "amount": {
+          "qty": 120,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "ice",
+        "amount": {
+          "qty": 300,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "lemonade",
+      "amount": {
+        "qty": 2000,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 5,
+      "unit": "min"
+    }
+  },
+  "stateNote": "lemons squeezed over the sugar, topped up with cold water and ice",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "the squeeze is folded into the mix; only juice and zest reach the glass"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "about half the ice melts"
+    }
+  ]
+}

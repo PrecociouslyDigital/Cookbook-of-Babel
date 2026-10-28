@@ -1,0 +1,51 @@
+{
+  "id": "kimchi.ferment",
+  "source": "cookbook_of_babel",
+  "technique": "ferment",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "salted_napa_cabbage",
+        "amount": {
+          "qty": 2400,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "kimchi_spice_paste",
+        "amount": {
+          "qty": 470,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "kimchi",
+      "amount": {
+        "qty": 2800,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 3,
+      "unit": "d"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 2
+    }
+  },
+  "stateNote": "every leaf coated in paste, packed into a jar and left to sour",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "a day or two at room temperature followed by cool storage is typical"
+    }
+  ]
+}

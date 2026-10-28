@@ -1,0 +1,51 @@
+{
+  "id": "hot_wings.bake",
+  "source": "cookbook_of_babel",
+  "technique": "bake",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "chicken",
+        "amount": {
+          "qty": 1000,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "buffalo_sauce",
+        "amount": {
+          "qty": 175,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "hot_wings",
+      "amount": {
+        "qty": 1050,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 40,
+      "unit": "min"
+    }
+  },
+  "stateNote": {
+    "temperatureC": 220,
+    "medium": "oven_air"
+  },
+  "issues": "wings split at the joint, roasted crisp, then tossed through the sauce",
+  "environment": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "rendered fat and steam leave about a tenth of the mass"
+    }
+  ]
+}

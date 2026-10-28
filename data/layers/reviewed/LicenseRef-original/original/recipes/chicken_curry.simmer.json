@@ -1,0 +1,70 @@
+{
+  "id": "chicken_curry.simmer",
+  "source": "cookbook_of_babel",
+  "technique": "simmer",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "curry_chicken_base",
+        "amount": {
+          "qty": 1000,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "coconut_milk",
+        "amount": {
+          "qty": 400,
+          "unit": "ml"
+        }
+      },
+      {
+        "ingredient": "tomato",
+        "amount": {
+          "qty": 200,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "water",
+        "amount": {
+          "qty": 200,
+          "unit": "ml"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "chicken_curry",
+      "amount": {
+        "qty": 1700,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 20,
+      "unit": "min"
+    }
+  },
+  "stateNote": {
+    "temperatureC": 95,
+    "medium": "simmering_water"
+  },
+  "issues": "simmered in coconut milk and tomato until the sauce coats a spoon",
+  "environment": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "the sauce reduces by about a twentieth"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "treated the coconut milk as 412 g for the mass check"
+    }
+  ]
+}

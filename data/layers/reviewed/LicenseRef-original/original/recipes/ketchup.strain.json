@@ -1,0 +1,48 @@
+{
+  "id": "ketchup.strain",
+  "source": "cookbook_of_babel",
+  "technique": "strain",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "ketchup_base",
+        "amount": {
+          "qty": 1400,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "ketchup",
+      "amount": {
+        "qty": 1280,
+        "unit": "g"
+      }
+    },
+    {
+      "ingredient": "tomato_skins",
+      "amount": {
+        "qty": 120,
+        "unit": "g"
+      },
+      "role": "byproduct"
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 10,
+      "unit": "min"
+    }
+  },
+  "stateNote": "worked through a sieve to lose skins and seeds and come out smooth",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "about a twelfth of the mash is held back as skins and seeds"
+    }
+  ]
+}

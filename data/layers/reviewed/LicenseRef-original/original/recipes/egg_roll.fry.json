@@ -1,0 +1,51 @@
+{
+  "id": "egg_roll.fry",
+  "source": "cookbook_of_babel",
+  "technique": "fry",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "egg_roll_filling",
+        "amount": {
+          "qty": 800,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "dough",
+        "amount": {
+          "qty": 150,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "egg_roll",
+      "amount": {
+        "qty": 900,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 6,
+      "unit": "min"
+    }
+  },
+  "stateNote": {
+    "temperatureC": 190,
+    "medium": "frying_oil"
+  },
+  "issues": "the filling rolled into wheat wrappers and deep fried until crisp",
+  "environment": [
+    {
+      "field": "inputs",
+      "kind": "uncertain",
+      "note": "no dedicated spring-roll wrapper exists in the dataset; plain dough stands in"
+    }
+  ]
+}

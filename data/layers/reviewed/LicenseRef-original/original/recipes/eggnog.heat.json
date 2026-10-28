@@ -1,0 +1,67 @@
+{
+  "id": "eggnog.heat",
+  "source": "cookbook_of_babel",
+  "technique": "heat",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "eggnog_base",
+        "amount": {
+          "qty": 300,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "milk",
+        "amount": {
+          "qty": 700,
+          "unit": "ml"
+        }
+      },
+      {
+        "ingredient": "cream",
+        "amount": {
+          "qty": 200,
+          "unit": "ml"
+        }
+      },
+      {
+        "ingredient": "nutmeg",
+        "amount": {
+          "qty": 2,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "eggnog",
+      "amount": {
+        "qty": 1180,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "coreTemp",
+    "coreTempC": 70
+  },
+  "stateNote": "milk and cream stirred into the egg base and gently cooked until it coats a spoon, then grated with nutmeg",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "a little steam loss"
+    },
+    {
+      "field": "outputs",
+      "kind": "uncertain",
+      "note": "a splash of spirits is traditional but left out to keep the chain obtainable"
+    }
+  ],
+  "environment": {
+    "temperatureC": 75,
+    "medium": "simmering_water"
+  }
+}

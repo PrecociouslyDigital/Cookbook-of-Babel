@@ -1,0 +1,44 @@
+{
+  "id": "fruit_cake.bake",
+  "source": "cookbook_of_babel",
+  "technique": "bake",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "fruit_cake_batter",
+        "amount": {
+          "qty": 1530,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "fruit_cake",
+      "amount": {
+        "qty": 1480,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 120,
+      "unit": "min"
+    }
+  },
+  "stateNote": {
+    "temperatureC": 150,
+    "medium": "oven_air"
+  },
+  "issues": "baked long and low so the middle sets without drying out",
+  "environment": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "slow steam loss over two hours"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": "croissant.bake",
+  "source": "cookbook_of_babel",
+  "technique": "bake",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "laminated_croissant_dough",
+        "amount": {
+          "qty": 1120,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "croissant",
+      "amount": {
+        "qty": 1020,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 15,
+      "unit": "min"
+    }
+  },
+  "stateNote": {
+    "temperatureC": 200,
+    "medium": "oven_air"
+  },
+  "issues": "proofed until wobbly, baked until deep brown and flaky",
+  "environment": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "steam loss while baking"
+    }
+  ]
+}
