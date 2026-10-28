@@ -1,0 +1,59 @@
+{
+  "id": "custard.heat",
+  "source": "cookbook_of_babel",
+  "technique": "heat",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "milk",
+        "amount": {
+          "qty": 515,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "egg",
+        "amount": {
+          "qty": 120,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "white_sugar",
+        "amount": {
+          "qty": 100,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "custard",
+      "amount": {
+        "qty": 730,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 80,
+    "medium": "simmering_water"
+  },
+  "end": {
+    "by": "both",
+    "coreTempC": 82,
+    "duration": {
+      "qty": 10,
+      "unit": "min"
+    }
+  },
+  "stateNote": "stirred over a water bath until it coats the spoon",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "a little sticks to the pan"
+    }
+  ]
+}

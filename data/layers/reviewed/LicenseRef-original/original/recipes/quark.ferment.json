@@ -1,0 +1,44 @@
+{
+  "id": "quark.ferment",
+  "source": "cookbook_of_babel",
+  "technique": "ferment",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "milk",
+        "amount": {
+          "qty": 2000,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "buttermilk",
+        "amount": {
+          "qty": 200,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "soured_milk",
+      "amount": {
+        "qty": 2170,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "d"
+    },
+    "sensitivity": {
+      "refTempC": 22,
+      "q10": 2.5
+    }
+  },
+  "stateNote": "milk soured with buttermilk until it sets as a soft curdled mass"
+}

@@ -1,0 +1,52 @@
+{
+  "id": "quark.separate",
+  "source": "cookbook_of_babel",
+  "technique": "separate",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "soured_milk",
+        "amount": {
+          "qty": 2170,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "quark",
+      "amount": {
+        "qty": 450,
+        "unit": "g"
+      }
+    },
+    {
+      "ingredient": "whey",
+      "amount": {
+        "qty": 1680,
+        "unit": "ml"
+      },
+      "role": "byproduct"
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 30,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "the soured milk is hung in cloth and the whey drained off",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "a little curd is lost in the cloth"
+    }
+  ]
+}

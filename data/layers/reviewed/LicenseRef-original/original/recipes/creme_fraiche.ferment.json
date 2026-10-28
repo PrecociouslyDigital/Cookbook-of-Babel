@@ -1,0 +1,51 @@
+{
+  "id": "creme_fraiche.ferment",
+  "source": "cookbook_of_babel",
+  "technique": "ferment",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "cream",
+        "amount": {
+          "qty": 1000,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "buttermilk",
+        "amount": {
+          "qty": 100,
+          "unit": "ml"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "creme_fraiche",
+      "amount": {
+        "qty": 1090,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 18,
+      "unit": "h"
+    },
+    "sensitivity": {
+      "refTempC": 22,
+      "q10": 2.5
+    }
+  },
+  "stateNote": "cream cultured with a spoon of buttermilk until lightly soured and thick",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "slight loss of whey weep"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "cottage_cheese.coagulate",
+  "source": "cookbook_of_babel",
+  "technique": "coagulate",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "milk",
+        "amount": {
+          "qty": 2000,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "vinegar",
+        "amount": {
+          "qty": 60,
+          "unit": "ml"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "cheese_curds",
+      "amount": {
+        "qty": 300,
+        "unit": "g"
+      }
+    },
+    {
+      "ingredient": "whey",
+      "amount": {
+        "qty": 1700,
+        "unit": "ml"
+      },
+      "role": "byproduct"
+    }
+  ],
+  "environment": {
+    "temperatureC": 90,
+    "medium": "simmering_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 10,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "acid-set curds cut, warmed and drained from the whey",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "yield estimated"
+    }
+  ]
+}

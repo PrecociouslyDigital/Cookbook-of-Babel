@@ -1,0 +1,51 @@
+{
+  "id": "feta_cheese.age",
+  "source": "cookbook_of_babel",
+  "technique": "age",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "cheese_curd",
+        "amount": {
+          "qty": 750,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "salt",
+        "amount": {
+          "qty": 60,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "feta_cheese",
+      "amount": {
+        "qty": 760,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 5,
+      "unit": "d"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 2
+    }
+  },
+  "stateNote": "the curd salted and held in brine until sour and sliceable",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "salting and brine pickling shift water in and out; net mass estimated"
+    }
+  ]
+}

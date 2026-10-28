@@ -1,0 +1,44 @@
+{
+  "id": "kefir.ferment",
+  "source": "cookbook_of_babel",
+  "technique": "ferment",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "milk",
+        "amount": {
+          "qty": 1000,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "kefir",
+      "amount": {
+        "qty": 970,
+        "unit": "ml"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "d"
+    },
+    "sensitivity": {
+      "refTempC": 22,
+      "q10": 2.5
+    }
+  },
+  "stateNote": "milk fermented at room temperature into a lightly fizzy, sour drink",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "kefir grains not modelled; a room-temperature mesophilic fermentation is assumed"
+    }
+  ]
+}

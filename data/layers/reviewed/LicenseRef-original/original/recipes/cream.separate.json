@@ -1,0 +1,52 @@
+{
+  "id": "cream.separate",
+  "source": "cookbook_of_babel",
+  "technique": "separate",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "milk",
+        "amount": {
+          "qty": 1000,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "cream",
+      "amount": {
+        "qty": 400,
+        "unit": "g"
+      }
+    },
+    {
+      "ingredient": "skim_milk",
+      "amount": {
+        "qty": 590,
+        "unit": "g"
+      },
+      "role": "byproduct"
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 10,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "the fat skimmed off stood milk; cream on top, skim milk below",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "a litre of whole milk yields roughly 400 g of 40% cream"
+    }
+  ]
+}

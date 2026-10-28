@@ -1,0 +1,48 @@
+{
+  "id": "clarified_butter.heat",
+  "source": "cookbook_of_babel",
+  "technique": "heat",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "butter",
+        "amount": {
+          "qty": 500,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "clarified_butter",
+      "amount": {
+        "qty": 400,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 85,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 20,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "butter melted low and slow; the foam skimmed and the clear golden fat poured off",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "about a fifth is skimmed milk solids and water, not kept"
+    }
+  ]
+}

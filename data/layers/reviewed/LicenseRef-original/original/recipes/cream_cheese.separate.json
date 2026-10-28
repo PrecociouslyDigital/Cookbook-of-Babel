@@ -1,0 +1,52 @@
+{
+  "id": "cream_cheese.separate",
+  "source": "cookbook_of_babel",
+  "technique": "separate",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "cultured_cream_milk",
+        "amount": {
+          "qty": 2170,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "cream_cheese_curd",
+      "amount": {
+        "qty": 900,
+        "unit": "g"
+      }
+    },
+    {
+      "ingredient": "whey",
+      "amount": {
+        "qty": 1250,
+        "unit": "ml"
+      },
+      "role": "byproduct"
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 12,
+      "unit": "h"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "the cultured milk hung in cloth overnight until firm",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "draining time estimated at half a day in cloth"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "id": "butter.churn",
+  "source": "cookbook_of_babel",
+  "technique": "churn",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "cream",
+        "amount": {
+          "qty": 1000,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "butter",
+      "amount": {
+        "qty": 420,
+        "unit": "g"
+      }
+    },
+    {
+      "ingredient": "buttermilk",
+      "amount": {
+        "qty": 540,
+        "unit": "ml"
+      },
+      "role": "byproduct"
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 30,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "the cream turns, the fat clumps into butter, and thin buttermilk is drained off",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "rough yields from 40% cream; a little wash water is not modelled"
+    }
+  ]
+}

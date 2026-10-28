@@ -1,0 +1,59 @@
+{
+  "id": "ice_cream.churn",
+  "source": "cookbook_of_babel",
+  "technique": "churn",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "ice_cream_base",
+        "amount": {
+          "qty": 945,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "ice",
+        "amount": {
+          "qty": 500,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "ice_cream",
+      "amount": {
+        "qty": 1000,
+        "unit": "g"
+      }
+    },
+    {
+      "ingredient": "water",
+      "amount": {
+        "qty": 400,
+        "unit": "ml"
+      },
+      "role": "byproduct"
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 30,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "churned in an ice-packed pail until frozen and airy",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "ice is modelled as a consumed coolant that partly drains off as melt water; overrun adds volume"
+    }
+  ]
+}

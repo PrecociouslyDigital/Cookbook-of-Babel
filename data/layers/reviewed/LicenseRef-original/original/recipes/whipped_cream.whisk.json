@@ -1,0 +1,44 @@
+{
+  "id": "whipped_cream.whisk",
+  "source": "cookbook_of_babel",
+  "technique": "whisk",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "cream",
+        "amount": {
+          "qty": 500,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "whipped_cream",
+      "amount": {
+        "qty": 500,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 5,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "whipped to soft peaks that hold their shape",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "mass barely changes but the volume roughly doubles with air"
+    }
+  ]
+}

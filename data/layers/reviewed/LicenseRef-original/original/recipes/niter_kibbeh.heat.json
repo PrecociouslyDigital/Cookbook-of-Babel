@@ -1,0 +1,83 @@
+{
+  "id": "niter_kibbeh.heat",
+  "source": "cookbook_of_babel",
+  "technique": "heat",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "butter",
+        "amount": {
+          "qty": 500,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "garlic",
+        "amount": {
+          "qty": 15,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "ginger",
+        "amount": {
+          "qty": 15,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "turmeric",
+        "amount": {
+          "qty": 8,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "fenugreek",
+        "amount": {
+          "qty": 5,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "cardamom",
+        "amount": {
+          "qty": 3,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "spiced_butter_simmer",
+      "amount": {
+        "qty": 540,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 80,
+    "medium": "pan_contact"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 30,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "butter melted down with the whole and ground spices and simmered low",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "some water steams off during the simmer"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "sour_cream.ferment",
+  "source": "cookbook_of_babel",
+  "technique": "ferment",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "cream",
+        "amount": {
+          "qty": 1000,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "sour_cream",
+      "amount": {
+        "qty": 990,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "d"
+    },
+    "sensitivity": {
+      "refTempC": 22,
+      "q10": 2.5
+    }
+  },
+  "stateNote": "thickened and pleasantly sour; mesophilic cultures are assumed carried on the cream",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "no separate starter added; wild mesophilic culture assumed"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "slight loss of whey weep"
+    }
+  ]
+}
