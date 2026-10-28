@@ -6,7 +6,7 @@ cd "$(dirname "$0")/.."
 
 out=build/explorer
 mkdir -p "$out"
-python3 explorer/extract.py src/generated/resources ../../data/registries/constants.json >"$out/graph.json"
+python3 explorer/extract.py src/generated/resources ../../data/registries/constants.json src/main/resources >"$out/graph.json"
 {
 	printf '<!doctype html>\n<meta charset="utf-8">\n<meta name="viewport" content="width=device-width, initial-scale=1">\n'
 	cat explorer/index.html

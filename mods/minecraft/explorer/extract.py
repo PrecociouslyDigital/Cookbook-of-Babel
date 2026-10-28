@@ -138,9 +138,17 @@ def tag_values(data, kind, name, seen=None):
     return values
 
 
-def compile_graph(generated, bands):
+def compile_graph(generated, bands, resources=None):
     data = generated / "data/cookbook_of_babel"
     substances = {p.stem: json.loads(p.read_text()) for p in (data / "cookbook_of_babel/substance").glob("*.json")}
+    resources = resources or generated.parent.parent / "main/resources"
+    gardens_path = resources / "cookbook_of_babel/spice_gardens.json"
+    gardens = {}
+    if gardens_path.exists():
+        try:
+            gardens = json.loads(gardens_path.read_text())
+        except (OSError, ValueError) as e:
+            print(f"warning: could not read {gardens_path}: {e}", file=sys.stderr)
 
     produced = defaultdict(lambda: defaultdict(set))
     for path in sorted((data / "recipes").rglob("*.json")):
@@ -157,6 +165,10 @@ def compile_graph(generated, bands):
         band = band_of(transition["sensitivity"]["refTempC"], bands)
         machine = f"{TRANSITION_MACHINES[transition['kind']]} ({band})"
         produced[transition["output"].removeprefix(NS)][inputs, 1, False].add(machine)
+    # The spices the mod plants itself yield from the garden crop (a loot
+    # function, not a recipe), so give the graph a producing edge for them.
+    for spice, climates in gardens.items():
+        produced[spice][(), 1, False].add("spice garden (" + ", ".join(climates) + ")")
 
     names = set(produced) | set(substances)
     names.update(name for alts in produced.values() for inputs, _, _ in alts for name, _, _ in inputs)
@@ -184,6 +196,12 @@ def compile_graph(generated, bands):
         outside = [v for kind in ("items", "fluids") for v in tag_values(data, kind, name) if NS not in v]
         if outside:
             accepted[index[name]] = outside
+    # Own substances exist in game as the shared substance item carrying NBT,
+    # which static tags cannot list - credit the planted spices explicitly.
+    for spice in gardens:
+        if spice in substances and spice in index:
+            accepted.setdefault(index[spice], []).append(
+                f"{NS}substance with NBT substance={NS}{spice}")
 
     def alternative(inputs, count, is_dead, ms):
         slots = [[index[name], qty, unit] if unit else [index[name], qty] for name, qty, unit in inputs]
@@ -191,7 +209,7 @@ def compile_graph(generated, bands):
 
     def alternatives(alts):
         """Live ones first, so the page shows a way to make the node that works."""
-        return [alternative(*key, ms) for key, ms in sorted(alts.items(), key=lambda alt: alt[0][2])]
+        return [alternative(key[0], key[1], key[2], ms) for key, ms in sorted(alts.items(), key=lambda alt: alt[0][2])]
 
     return {
         "nodes": [describe(n) for n in names],
@@ -204,4 +222,5 @@ def compile_graph(generated, bands):
 
 if __name__ == "__main__":
     bands = json.loads(Path(sys.argv[2]).read_text())["tempBands"]
-    json.dump(compile_graph(Path(sys.argv[1]), bands), sys.stdout, separators=(",", ":"))
+    resources = Path(sys.argv[3]) if len(sys.argv) > 3 else None
+    json.dump(compile_graph(Path(sys.argv[1]), bands, resources), sys.stdout, separators=(",", ":"))
