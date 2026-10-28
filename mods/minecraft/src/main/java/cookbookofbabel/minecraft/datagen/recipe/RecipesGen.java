@@ -1,6 +1,8 @@
 package cookbookofbabel.minecraft.datagen.recipe;
 
+import com.google.gson.JsonArray;
 import com.google.gson.JsonElement;
+import com.google.gson.JsonObject;
 import com.mojang.serialization.JsonOps;
 import com.simibubi.create.content.fluids.transfer.EmptyingRecipe;
 import com.simibubi.create.content.fluids.transfer.FillingRecipe;
@@ -9,11 +11,14 @@ import com.simibubi.create.foundation.fluid.FluidIngredient;
 import cookbookofbabel.minecraft.CookbookOfBabel;
 import cookbookofbabel.minecraft.clock.Transition;
 import cookbookofbabel.minecraft.dataset.Amount;
+import cookbookofbabel.minecraft.dataset.IngredientId;
 import cookbookofbabel.minecraft.dataset.Recipe;
 import cookbookofbabel.minecraft.datagen.Coverage;
 import cookbookofbabel.minecraft.datagen.DatagenContext;
 import cookbookofbabel.minecraft.datagen.plan.Amounts;
+import cookbookofbabel.minecraft.datagen.plan.Candidates;
 import cookbookofbabel.minecraft.datagen.plan.Condition;
+import cookbookofbabel.minecraft.datagen.plan.Mapping;
 import cookbookofbabel.minecraft.datagen.plan.Mod;
 import cookbookofbabel.minecraft.datagen.plan.Planned;
 import cookbookofbabel.minecraft.datagen.plan.PlannedTransition;
@@ -23,12 +28,19 @@ import cookbookofbabel.minecraft.datagen.plan.RouteKind;
 import cookbookofbabel.minecraft.datagen.plan.Step;
 import cookbookofbabel.minecraft.substance.Container;
 import cookbookofbabel.minecraft.substance.Substance;
+import cookbookofbabel.minecraft.supplant.Supplanting;
+import java.nio.file.Path;
 import java.util.ArrayList;
 import java.util.Comparator;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Map;
 import java.util.Optional;
+import java.util.Set;
+import java.util.TreeMap;
 import java.util.concurrent.CompletableFuture;
 import java.util.function.Consumer;
+import java.util.stream.Collectors;
 import java.util.stream.Stream;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.CachedOutput;
@@ -47,13 +59,18 @@ public final class RecipesGen extends RecipeProvider {
     private final DatagenContext context;
     private final CompletableFuture<HolderLookup.Provider> registries;
     private final PackOutput.PathProvider transitionPaths;
+    /** Where class-path resources go, beside the data pack. */
+    private final Path root;
     /** What {@link #buildRecipes} found to write as transitions. */
     private List<PlannedTransition> transitions = List.of();
+    /** What {@link #buildRecipes} found the mod's recipes take over. */
+    private Map<IngredientId, List<String>> supplanted = Map.of();
 
     public RecipesGen(PackOutput output, DatagenContext context, CompletableFuture<HolderLookup.Provider> registries) {
         super(output);
         this.context = context;
         this.registries = registries;
+        this.root = output.getOutputFolder();
         var registry = Transition.REGISTRY.location();
         this.transitionPaths = output.createPathProvider(PackOutput.Target.DATA_PACK, registry.getNamespace() + "/" + registry.getPath());
     }
@@ -64,7 +81,14 @@ public final class RecipesGen extends RecipeProvider {
         var written = transitions.stream()
                 .map(t -> DataProvider.saveStable(output, encoded(t.transition()), transitionPaths.json(CookbookOfBabel.id(t.recipe()))))
                 .toArray(CompletableFuture[]::new);
-        return CompletableFuture.allOf(recipes, CompletableFuture.allOf(written));
+        var groups = new JsonObject();
+        supplanted.forEach((ingredient, items) -> {
+            var array = new JsonArray();
+            items.forEach(array::add);
+            groups.add(ingredient.value(), array);
+        });
+        var taken = DataProvider.saveStable(output, groups, root.resolve(CookbookOfBabel.ID).resolve("supplanted.json"));
+        return CompletableFuture.allOf(recipes, CompletableFuture.allOf(written), taken);
     }
 
     private static JsonElement encoded(Transition transition) {
@@ -87,13 +111,17 @@ public final class RecipesGen extends RecipeProvider {
                 .sorted(Comparator.comparing(Recipe::id))
                 .map(recipe -> plan(recipe, emitter, amounts))
                 .toList();
-        var machines = planned.stream()
+        var ready = planned.stream()
                 .flatMap(p -> p.variants().stream())
                 .flatMap(v -> v.attempts().stream())
-                .flatMap(a -> a instanceof Ready ready && !ready.recipes().isEmpty() ? Stream.of(ready.plan()) : Stream.empty());
+                .flatMap(a -> a instanceof Ready r && !r.recipes().isEmpty() ? Stream.of(r) : Stream.empty())
+                .toList();
         var kept = planned.stream().flatMap(p -> p.transition().stream()).map(PlannedTransition::plan);
+        var plans = Stream.concat(ready.stream().map(Ready::plan), kept).toList();
         var seeds = Reachability.seeds(context.dataset, context.recipes(), context.mappings);
-        var reachability = Reachability.of(seeds, Stream.concat(machines, kept).toList(), context.dataset::descendants);
+        var reachability = Reachability.of(seeds, plans, context.dataset::descendants);
+        supplanted = supplanted(ready, reachability, seeds, plans);
+        context.coverage.supplanted(supplanted);
         var live = new ArrayList<PlannedTransition>();
         for (var step : planned) {
             var variants = step.variants().stream()
@@ -106,6 +134,33 @@ public final class RecipesGen extends RecipeProvider {
         }
         transitions = List.copyOf(live);
         fluidItems(carriers, sink);
+    }
+
+    /**
+     * The ingredients that a live recipe makes as another mod's item, and every item mapped to each.
+     * At runtime those items lose every recipe but the mod's own (see {@link Supplanting}), so the
+     * mod's recipe must stay live without them: an ingredient counts only if the game makes it from
+     * its seeds minus all such ingredients, so a cycle of them can't strand each other.
+     */
+    private Map<IngredientId, List<String>> supplanted(
+            List<Ready> ready, Reachability reachability, Set<IngredientId> seeds, List<Reachability.Plan> plans) {
+        var taken = ready.stream()
+                .filter(r -> reachability.live(r.plan()) && r.planned().outputs().get(0) instanceof Planned.ItemOut)
+                .filter(r -> r.recipes().stream().anyMatch(e -> e.target() instanceof Candidates.Target.External))
+                .map(r -> r.planned().outputs().get(0).ingredient())
+                .collect(Collectors.toSet());
+        var without = new HashSet<>(seeds);
+        without.removeAll(taken);
+        var unaided = Reachability.of(without, plans, context.dataset::descendants);
+        var groups = new TreeMap<IngredientId, List<String>>();
+        taken.stream().filter(unaided::makes).forEach(ingredient -> groups.put(ingredient, context.mappings.stream()
+                .flatMap(m -> m.entry(ingredient).stream())
+                .flatMap(e -> e.items().stream())
+                .map(Mapping.ExternalItem::id)
+                .distinct()
+                .sorted()
+                .toList()));
+        return groups;
     }
 
     /** A dataset step, planned for every machine it's bound to and as a transition; {@code note} says why it's neither. */

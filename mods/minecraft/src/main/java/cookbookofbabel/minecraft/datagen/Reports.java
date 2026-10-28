@@ -126,6 +126,17 @@ final class Reports implements DataProvider {
             context.eliding.dropped().forEach(d -> out.append("- `").append(d.recipe()).append("`, like `").append(d.keptRecipe()).append("`\n"));
         }
 
+        out.append("\n## Supplanted items\n\n");
+        out.append("Ingredients the mod's live recipes make as other mods' items, and every item mapped to each. ");
+        out.append("In game those items lose every recipe but the mod's own: the item the mod makes is supplanted, the rest withdrawn. ");
+        out.append("`withdrawn.json` lists further items withdrawn by hand.\n\n");
+        var supplanted = context.coverage.supplanted();
+        supplanted.forEach((ingredient, items) -> out.append("- `").append(ingredient).append("`: ")
+                .append(Coverage.code(items.stream())).append('\n'));
+        if (supplanted.isEmpty()) {
+            out.append("None.\n");
+        }
+
         transitions(out);
 
         out.append("\n## Steps\n\n");

@@ -9,6 +9,7 @@ import cookbookofbabel.minecraft.substance.FluidKind;
 import cookbookofbabel.minecraft.substance.PortionItem;
 import cookbookofbabel.minecraft.substance.Substance;
 import cookbookofbabel.minecraft.substance.Substances;
+import cookbookofbabel.minecraft.supplant.Supplanting;
 import mezz.jei.api.IModPlugin;
 import mezz.jei.api.JeiPlugin;
 import mezz.jei.api.constants.VanillaTypes;
@@ -46,7 +47,10 @@ public final class JeiCompat implements IModPlugin {
         }
     }
 
-    /** Hide the mod's own substances and dishes where other mods provide the ingredient. */
+    /**
+     * Hide the mod's own substances and dishes where other mods provide the ingredient, and the
+     * other mods' items it withdraws.
+     */
     @Override
     public void onRuntimeAvailable(IJeiRuntime runtime) {
         var level = Minecraft.getInstance().level;
@@ -70,6 +74,8 @@ public final class JeiCompat implements IModPlugin {
                 .filter(d -> BabelTags.providedElsewhere(registries, d.getKey().id()))
                 .map(d -> new ItemStack(d.getValue().get()))
                 .toList());
+        var split = Supplanting.split(level.getRecipeManager().getRecipes(), registries);
+        ingredients.removeIngredientsAtRuntime(VanillaTypes.ITEM_STACK, split.withdrawn().stream().map(ItemStack::new).toList());
     }
 
     private static String named(CompoundTag tag) {

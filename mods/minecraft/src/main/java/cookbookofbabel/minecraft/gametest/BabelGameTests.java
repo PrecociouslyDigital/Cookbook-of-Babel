@@ -32,6 +32,7 @@ import cookbookofbabel.minecraft.substance.Container;
 import cookbookofbabel.minecraft.substance.FluidKind;
 import cookbookofbabel.minecraft.substance.Substance;
 import cookbookofbabel.minecraft.substance.Substances;
+import cookbookofbabel.minecraft.supplant.Supplanting;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -62,6 +63,7 @@ import net.minecraft.server.level.ServerLevel;
 import net.minecraft.server.packs.resources.Resource;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.Items;
 import net.minecraft.world.item.context.UseOnContext;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.crafting.RecipeType;
@@ -356,6 +358,38 @@ public final class BabelGameTests {
         var registries = helper.getLevel().registryAccess();
         helper.assertTrue(BabelTags.providedElsewhere(registries, "onion"), "onion isn't provided elsewhere");
         helper.assertFalse(BabelTags.providedElsewhere(registries, "baking_soda"), "baking soda is provided elsewhere");
+        helper.succeed();
+    }
+
+    /** Only the mod makes what it supplants or withdraws, and the mod makes every item it supplants. */
+    @GameTest(template = EMPTY)
+    public static void onlyTheModMakesWhatItTakesOver(GameTestHelper helper) {
+        var registries = helper.getLevel().registryAccess();
+        var recipes = helper.getLevel().getRecipeManager().getRecipes();
+        var split = Supplanting.split(recipes, registries);
+        helper.assertTrue(!split.supplanted().isEmpty(), "the mod supplants nothing");
+        var others = recipes.stream().filter(r -> split.takes(r, registries)).map(r -> r.getId().toString()).toList();
+        helper.assertTrue(others.isEmpty(), "other mods still make what the mod took over: " + String.join(", ", others));
+        var ours = recipes.stream()
+                .filter(r -> r.getId().getNamespace().equals(CookbookOfBabel.ID))
+                .map(r -> Supplanting.result(r, registries).getItem())
+                .collect(Collectors.toSet());
+        var unmade = split.supplanted().stream().filter(i -> !ours.contains(i)).map(Object::toString).toList();
+        helper.assertTrue(unmade.isEmpty(), "supplanted, but the mod doesn't make " + String.join(", ", unmade));
+        var made = split.withdrawn().stream()
+                .filter(i -> recipes.stream().anyMatch(r -> Supplanting.result(r, registries).is(i)))
+                .map(Object::toString)
+                .toList();
+        helper.assertTrue(made.isEmpty(), "withdrawn, but still made: " + String.join(", ", made));
+        helper.succeed();
+    }
+
+    /** Bread is baked from dough and sugar drained from raw sugar, so vanilla's shortcut recipes for both are gone. */
+    @GameTest(template = EMPTY)
+    public static void breadAndSugarAreTheMods(GameTestHelper helper) {
+        var split = Supplanting.split(helper.getLevel().getRecipeManager().getRecipes(), helper.getLevel().registryAccess());
+        helper.assertTrue(split.supplanted().contains(Items.BREAD), "bread isn't supplanted");
+        helper.assertTrue(split.supplanted().contains(Items.SUGAR), "sugar isn't supplanted");
         helper.succeed();
     }
 

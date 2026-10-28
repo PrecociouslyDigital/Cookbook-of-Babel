@@ -15,6 +15,7 @@ import cookbookofbabel.minecraft.datagen.plan.Provided;
 import cookbookofbabel.minecraft.datagen.plan.RouteKind;
 import cookbookofbabel.minecraft.datagen.plan.Techniques;
 import cookbookofbabel.minecraft.spice.SpiceGardens;
+import cookbookofbabel.minecraft.supplant.Supplanting;
 import java.io.IOException;
 import java.nio.file.Path;
 import java.util.ArrayList;
@@ -82,8 +83,8 @@ public final class DatagenContext {
     }
 
     /**
-     * Fail on anything the mappings or tables name that doesn't exist, and on a planted spice that
-     * a mapped mod already grows.
+     * Fail on anything the mappings or tables name that doesn't exist, on a planted spice that a
+     * mapped mod already grows, and on a withdrawn item that is missing or mapped.
      */
     private void check() {
         var problems = new ArrayList<String>();
@@ -113,6 +114,14 @@ public final class DatagenContext {
             mappings.stream()
                     .filter(m -> m.entry(spice).isPresent())
                     .forEach(m -> problems.add("spice_gardens.json plants " + spice + ", which " + m.mod().id + " already provides"));
+        });
+        Supplanting.curated().forEach(item -> {
+            if (!ForgeRegistries.ITEMS.containsKey(item)) {
+                problems.add("withdrawn.json withdraws a missing item " + item);
+            }
+            mappings.stream()
+                    .filter(m -> m.entries().values().stream().anyMatch(e -> e.items().stream().anyMatch(i -> i.id().equals(item.toString()))))
+                    .forEach(m -> problems.add("withdrawn.json withdraws " + item + ", which " + m.mod().id + " maps"));
         });
         var dishes = NamedDish.values().stream().map(NamedDish::id).collect(Collectors.toSet());
         var named = export.ingredients().stream().filter(Ingredient::named).map(i -> i.id().value()).collect(Collectors.toSet());
