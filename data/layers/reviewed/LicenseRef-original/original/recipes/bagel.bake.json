@@ -1,0 +1,44 @@
+{
+  "id": "bagel.bake",
+  "source": "cookbook_of_babel",
+  "technique": "bake",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "boiled_bagel_dough",
+        "amount": {
+          "qty": 495,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "bagel",
+      "amount": {
+        "qty": 430,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 20,
+      "unit": "min"
+    }
+  },
+  "environment": {
+    "temperatureC": 220,
+    "medium": "oven_air"
+  },
+  "stateNote": "baked until glossy and browned",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "moisture loss while baking is estimated"
+    }
+  ]
+}

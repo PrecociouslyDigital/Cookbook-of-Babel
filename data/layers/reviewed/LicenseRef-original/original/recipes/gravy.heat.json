@@ -1,0 +1,62 @@
+{
+  "id": "gravy.heat",
+  "source": "cookbook_of_babel",
+  "technique": "heat",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "broth_and_stock",
+        "amount": {
+          "qty": 500,
+          "unit": "ml"
+        }
+      },
+      {
+        "ingredient": "butter",
+        "amount": {
+          "qty": 30,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "wheat_flour",
+        "amount": {
+          "qty": 30,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "gravy",
+      "amount": {
+        "qty": 540,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 5,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "environment": {
+    "temperatureC": 90,
+    "medium": "pan_contact"
+  },
+  "stateNote": "butter and flour cooked together, then whisked into the bubbling stock",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "some liquid boils off"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": "olive_oil.press",
+  "source": "cookbook_of_babel",
+  "technique": "press",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "olive",
+        "amount": {
+          "qty": 1000,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "olive_oil",
+      "amount": {
+        "qty": 200,
+        "unit": "ml"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 15,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "the olives crushed and the paste pressed",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "olives carry about a fifth of their weight in oil; the pomace stays behind"
+    }
+  ]
+}

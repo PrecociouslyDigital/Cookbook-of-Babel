@@ -1,0 +1,44 @@
+{
+  "id": "graham_cracker.bake",
+  "source": "cookbook_of_babel",
+  "technique": "bake",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "graham_dough",
+        "amount": {
+          "qty": 675,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "graham_cracker",
+      "amount": {
+        "qty": 590,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 20,
+      "unit": "min"
+    }
+  },
+  "environment": {
+    "temperatureC": 175,
+    "medium": "oven_air"
+  },
+  "stateNote": "baked dry and snap-crisp",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "moisture loss while baking is estimated"
+    }
+  ]
+}

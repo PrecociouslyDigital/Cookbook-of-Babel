@@ -1,0 +1,44 @@
+{
+  "id": "tahini.grind",
+  "source": "cookbook_of_babel",
+  "technique": "grind",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "toasted_sesame_seed",
+        "amount": {
+          "qty": 295,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "tahini",
+      "amount": {
+        "qty": 280,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 15,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "ground until the seeds release their oil and flow as a paste",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "some paste clings to the mill"
+    }
+  ]
+}

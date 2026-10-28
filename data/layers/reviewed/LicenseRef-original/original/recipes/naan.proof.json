@@ -1,0 +1,48 @@
+{
+  "id": "naan.proof",
+  "source": "cookbook_of_babel",
+  "technique": "heat",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "naan_dough",
+        "amount": {
+          "qty": 480,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "proofed_naan_dough",
+      "amount": {
+        "qty": 480,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "h"
+    },
+    "sensitivity": {
+      "refTempC": 25,
+      "q10": 2
+    }
+  },
+  "environment": {
+    "temperatureC": 30,
+    "medium": "still_air"
+  },
+  "stateNote": "dough rises until light and pillowy",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "proofing time varies with yeast activity and temperature"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": "sev.mix_dough",
+  "source": "cookbook_of_babel",
+  "technique": "knead",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "chickpea_flour",
+        "amount": {
+          "qty": 300,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "water",
+        "amount": {
+          "qty": 120,
+          "unit": "ml"
+        }
+      },
+      {
+        "ingredient": "vegetable_oil",
+        "amount": {
+          "qty": 30,
+          "unit": "ml"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "sev_dough",
+      "amount": {
+        "qty": 440,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 10,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "a soft chickpea-flour dough for pressing",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "dough yield is estimated"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "id": "onion_rings.fry",
+  "source": "cookbook_of_babel",
+  "technique": "fry",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "battered_onion_rings",
+        "amount": {
+          "qty": 490,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "vegetable_oil",
+        "amount": {
+          "qty": 300,
+          "unit": "ml"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "onion_rings",
+      "amount": {
+        "qty": 320,
+        "unit": "g"
+      }
+    },
+    {
+      "ingredient": "vegetable_oil",
+      "amount": {
+        "qty": 280,
+        "unit": "g"
+      },
+      "role": "byproduct"
+    }
+  ],
+  "end": {
+    "by": "coreTemp",
+    "coreTempC": 80
+  },
+  "environment": {
+    "temperatureC": 190,
+    "medium": "frying_oil"
+  },
+  "stateNote": "fried until golden brown and crisp",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "rings absorb about 20 g of oil during frying"
+    }
+  ]
+}

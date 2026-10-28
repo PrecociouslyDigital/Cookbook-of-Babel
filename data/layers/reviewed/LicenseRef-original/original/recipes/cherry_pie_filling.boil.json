@@ -1,0 +1,64 @@
+{
+  "id": "cherry_pie_filling.boil",
+  "source": "cookbook_of_babel",
+  "technique": "boil",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "cherry",
+        "amount": {
+          "qty": 1000,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "white_sugar",
+        "amount": {
+          "qty": 200,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "water",
+        "amount": {
+          "qty": 150,
+          "unit": "ml"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "cherry_pie_filling",
+      "amount": {
+        "qty": 1250,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "both",
+    "coreTempC": 100,
+    "duration": {
+      "qty": 15,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 100,
+      "q10": 1
+    }
+  },
+  "stateNote": "pitted cherries simmered briefly with sugar",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "a short simmer drives off a tenth of the mass"
+    },
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "pie fillings are usually thickened with starch; left unthickened here"
+    }
+  ]
+}

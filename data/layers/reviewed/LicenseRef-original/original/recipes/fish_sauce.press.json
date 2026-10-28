@@ -1,0 +1,44 @@
+{
+  "id": "fish_sauce.press",
+  "source": "cookbook_of_babel",
+  "technique": "press",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "fermented_anchovy",
+        "amount": {
+          "qty": 1250,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "fish_sauce",
+      "amount": {
+        "qty": 900,
+        "unit": "ml"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "h"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "the amber liquid pressed out through cloth",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "the salted fish solids stay in the press"
+    }
+  ]
+}

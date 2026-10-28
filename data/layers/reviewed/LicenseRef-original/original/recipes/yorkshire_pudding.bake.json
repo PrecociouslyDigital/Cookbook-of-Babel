@@ -1,0 +1,48 @@
+{
+  "id": "yorkshire_pudding.bake",
+  "source": "cookbook_of_babel",
+  "technique": "bake",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "yorkshire_batter",
+        "amount": {
+          "qty": 450,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "butter",
+        "amount": {
+          "qty": 30,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "yorkshire_pudding",
+      "amount": {
+        "qty": 420,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "coreTemp",
+    "coreTempC": 90
+  },
+  "environment": {
+    "temperatureC": 220,
+    "medium": "oven_air"
+  },
+  "stateNote": "baked in hot fat until the batter rises and sets",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "about 7% mass lost as steam"
+    }
+  ]
+}

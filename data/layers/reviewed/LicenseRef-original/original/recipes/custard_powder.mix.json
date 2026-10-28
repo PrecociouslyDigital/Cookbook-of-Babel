@@ -1,0 +1,58 @@
+{
+  "id": "custard_powder.mix",
+  "source": "cookbook_of_babel",
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "starch",
+        "amount": {
+          "qty": 200,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "vanilla_extract",
+        "amount": {
+          "qty": 10,
+          "unit": "ml"
+        }
+      },
+      {
+        "ingredient": "salt",
+        "amount": {
+          "qty": 2,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "custard_powder",
+      "amount": {
+        "qty": 210,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 5,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "tossed together and sifted",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "the vanilla is stirred in as a flavouring; commercial mixes add colouring"
+    }
+  ]
+}

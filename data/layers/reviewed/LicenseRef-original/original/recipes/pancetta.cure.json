@@ -1,0 +1,63 @@
+{
+  "id": "pancetta.cure",
+  "source": "cookbook_of_babel",
+  "technique": "age",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "pork",
+        "amount": {
+          "qty": 1000,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "salt",
+        "amount": {
+          "qty": 80,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "pepper",
+        "amount": {
+          "qty": 10,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "pancetta",
+      "amount": {
+        "qty": 1000,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 14,
+      "unit": "d"
+    },
+    "sensitivity": {
+      "refTempC": 10,
+      "q10": 2
+    }
+  },
+  "stateNote": "cured, peppered, rolled tight and hung to mature",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "curing dries the slab while the cure adds salt"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "cured in a cool cellar; clock anchored at 10C"
+    }
+  ]
+}

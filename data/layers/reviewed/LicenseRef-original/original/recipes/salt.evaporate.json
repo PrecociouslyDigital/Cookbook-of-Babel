@@ -1,0 +1,56 @@
+{
+  "id": "salt.evaporate",
+  "source": "cookbook_of_babel",
+  "technique": "evaporate",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "sea_water",
+        "amount": {
+          "qty": 2000,
+          "unit": "ml"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "salt",
+      "amount": {
+        "qty": 60,
+        "unit": "g"
+      }
+    },
+    {
+      "ingredient": "water",
+      "amount": {
+        "qty": 1940,
+        "unit": "ml"
+      },
+      "role": "byproduct"
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 10,
+      "unit": "h"
+    },
+    "sensitivity": {
+      "refTempC": 100,
+      "q10": 1
+    }
+  },
+  "environment": {
+    "temperatureC": 100,
+    "medium": "boiling_water"
+  },
+  "stateNote": "sea water boils down until only the salt remains",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "sea water holds about 3% salt by mass"
+    }
+  ]
+}

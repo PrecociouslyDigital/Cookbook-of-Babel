@@ -1,0 +1,51 @@
+{
+  "id": "pretzels.bake",
+  "source": "cookbook_of_babel",
+  "technique": "bake",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "lyed_dough",
+        "amount": {
+          "qty": 500,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "salt",
+        "amount": {
+          "qty": 10,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "pretzels",
+      "amount": {
+        "qty": 440,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 15,
+      "unit": "min"
+    }
+  },
+  "environment": {
+    "temperatureC": 220,
+    "medium": "oven_air"
+  },
+  "stateNote": "baked deep brown; coarse salt pressed on top",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "moisture loss while baking is estimated"
+    }
+  ]
+}

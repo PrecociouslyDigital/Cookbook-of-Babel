@@ -1,0 +1,44 @@
+{
+  "id": "negitoro.cut",
+  "source": "cookbook_of_babel",
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "tuna",
+        "amount": {
+          "qty": 500,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "minced_tuna",
+      "amount": {
+        "qty": 480,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 5,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "the fatty offcuts scraped and minced fine",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "sinew and skin are trimmed away"
+    }
+  ]
+}

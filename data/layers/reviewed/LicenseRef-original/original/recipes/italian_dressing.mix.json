@@ -1,0 +1,58 @@
+{
+  "id": "italian_dressing.mix",
+  "source": "cookbook_of_babel",
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "olive_oil",
+        "amount": {
+          "qty": 180,
+          "unit": "ml"
+        }
+      },
+      {
+        "ingredient": "vinegar",
+        "amount": {
+          "qty": 60,
+          "unit": "ml"
+        }
+      },
+      {
+        "ingredient": "italian_seasoning",
+        "amount": {
+          "qty": 5,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "italian_dressing",
+      "amount": {
+        "qty": 235,
+        "unit": "ml"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 5,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "shaken together; re-shake before use",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "oil counted at about 0.92 g per ml"
+    }
+  ]
+}

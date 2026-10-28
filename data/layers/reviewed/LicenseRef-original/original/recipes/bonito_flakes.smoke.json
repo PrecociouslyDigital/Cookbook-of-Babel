@@ -1,0 +1,45 @@
+{
+  "id": "bonito_flakes.smoke",
+  "source": "cookbook_of_babel",
+  "technique": "smoke",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "simmered_bonito",
+        "amount": {
+          "qty": 800,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "smoked_bonito",
+      "amount": {
+        "qty": 600,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 4,
+      "unit": "h"
+    }
+  },
+  "stateNote": "smoked repeatedly until dark and dry",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "smoking dries the loins by about a quarter"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "smoker heat assumed"
+    }
+  ]
+}

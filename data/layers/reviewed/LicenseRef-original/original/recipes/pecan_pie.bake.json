@@ -1,0 +1,41 @@
+{
+  "id": "pecan_pie.bake",
+  "source": "cookbook_of_babel",
+  "technique": "bake",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "unbaked_pecan_pie",
+        "amount": {
+          "qty": 1060,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "pecan_pie",
+      "amount": {
+        "qty": 990,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "coreTemp",
+    "coreTempC": 85
+  },
+  "environment": {
+    "temperatureC": 175,
+    "medium": "oven_air"
+  },
+  "stateNote": "baked until the center is set and the crust is golden",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "about 7% mass lost as steam"
+    }
+  ]
+}

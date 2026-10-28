@@ -1,0 +1,44 @@
+{
+  "id": "cake.bake",
+  "source": "cookbook_of_babel",
+  "technique": "bake",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "cake_batter",
+        "amount": {
+          "qty": 770,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "cake",
+      "amount": {
+        "qty": 650,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 40,
+      "unit": "min"
+    }
+  },
+  "environment": {
+    "temperatureC": 180,
+    "medium": "oven_air"
+  },
+  "stateNote": "baked until a skewer comes out clean",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "moisture loss while baking is estimated"
+    }
+  ]
+}

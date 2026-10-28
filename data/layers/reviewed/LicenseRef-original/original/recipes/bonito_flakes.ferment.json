@@ -1,0 +1,44 @@
+{
+  "id": "bonito_flakes.ferment",
+  "source": "cookbook_of_babel",
+  "technique": "ferment",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "smoked_bonito",
+        "amount": {
+          "qty": 600,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "katsuobushi",
+      "amount": {
+        "qty": 550,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 14,
+      "unit": "d"
+    },
+    "sensitivity": {
+      "refTempC": 25,
+      "q10": 2
+    }
+  },
+  "stateNote": "surfaced with starter mold and aged",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "real aging takes months; compressed into the clock"
+    }
+  ]
+}

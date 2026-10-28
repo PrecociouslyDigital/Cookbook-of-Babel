@@ -1,0 +1,65 @@
+{
+  "id": "pepperoni.grind",
+  "source": "cookbook_of_babel",
+  "technique": "grind",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "pork",
+        "amount": {
+          "qty": 1000,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "paprika",
+        "amount": {
+          "qty": 30,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "chiles",
+        "amount": {
+          "qty": 20,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "salt",
+        "amount": {
+          "qty": 30,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "pepperoni_mix",
+      "amount": {
+        "qty": 1070,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 10,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "finely ground with the spices worked through evenly",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "a little clings to the grinder"
+    }
+  ]
+}

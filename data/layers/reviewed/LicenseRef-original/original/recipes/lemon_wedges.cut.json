@@ -1,0 +1,44 @@
+{
+  "id": "lemon_wedges.cut",
+  "source": "cookbook_of_babel",
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "lemon_cut",
+        "amount": {
+          "qty": 400,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "lemon_wedges",
+      "amount": {
+        "qty": 380,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 3,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "the lemon cut into wedges",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "a few grams lost in trimming"
+    }
+  ]
+}

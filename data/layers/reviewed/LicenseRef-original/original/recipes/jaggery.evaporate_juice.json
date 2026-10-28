@@ -1,0 +1,49 @@
+{
+  "id": "jaggery.evaporate_juice",
+  "source": "cookbook_of_babel",
+  "technique": "evaporate",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "cane_juice",
+        "amount": {
+          "qty": 650,
+          "unit": "ml"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "jaggery",
+      "amount": {
+        "qty": 400,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 3,
+      "unit": "h"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "cane juice boiled down in a wide pan until it sets solid on cooling",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "the juice reduced to a third of its volume as it thickened"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "evaporation takes several hours over an open pan; three taken"
+    }
+  ]
+}

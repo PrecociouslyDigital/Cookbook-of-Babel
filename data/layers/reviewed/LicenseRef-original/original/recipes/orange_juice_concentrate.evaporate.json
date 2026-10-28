@@ -1,0 +1,56 @@
+{
+  "id": "orange_juice_concentrate.evaporate",
+  "source": "cookbook_of_babel",
+  "technique": "evaporate",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "orange_juice",
+        "amount": {
+          "qty": 1000,
+          "unit": "ml"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "orange_juice_concentrate",
+      "amount": {
+        "qty": 250,
+        "unit": "ml"
+      }
+    },
+    {
+      "ingredient": "water",
+      "amount": {
+        "qty": 750,
+        "unit": "ml"
+      },
+      "role": "byproduct"
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 2,
+      "unit": "h"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "the juice simmered down gently until a quarter of its volume remains",
+  "environment": {
+    "temperatureC": 90,
+    "medium": "simmering_water"
+  },
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "reduced to about a quarter for a workable concentrate"
+    }
+  ]
+}

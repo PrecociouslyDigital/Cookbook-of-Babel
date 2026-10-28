@@ -1,0 +1,56 @@
+{
+  "id": "tea.steep",
+  "source": "cookbook_of_babel",
+  "technique": "steep",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "tea_leaves",
+        "amount": {
+          "qty": 5,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "water",
+        "amount": {
+          "qty": 200,
+          "unit": "ml"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "tea",
+      "amount": {
+        "qty": 200,
+        "unit": "ml"
+      }
+    },
+    {
+      "ingredient": "spent_tea_leaves",
+      "amount": {
+        "qty": 5,
+        "unit": "g"
+      },
+      "role": "byproduct"
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 4,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 100,
+      "q10": 1
+    }
+  },
+  "environment": {
+    "temperatureC": 95,
+    "medium": "boiling_water"
+  },
+  "stateNote": "tea leaves are steeped in just-off-the-boil water"
+}

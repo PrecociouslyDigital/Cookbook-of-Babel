@@ -1,0 +1,64 @@
+{
+  "id": "marmalade.boil",
+  "source": "cookbook_of_babel",
+  "technique": "boil",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "orange",
+        "amount": {
+          "qty": 800,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "white_sugar",
+        "amount": {
+          "qty": 600,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "water",
+        "amount": {
+          "qty": 500,
+          "unit": "ml"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "marmalade",
+      "amount": {
+        "qty": 1700,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "both",
+    "coreTempC": 105,
+    "duration": {
+      "qty": 90,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 105,
+      "q10": 1
+    }
+  },
+  "stateNote": "oranges, peel and all, simmered with sugar until the set",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "an hour and a half of boiling drives off half a litre"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "the set taken at 105C"
+    }
+  ]
+}

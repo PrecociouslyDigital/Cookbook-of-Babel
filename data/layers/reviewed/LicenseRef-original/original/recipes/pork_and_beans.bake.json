@@ -1,0 +1,41 @@
+{
+  "id": "pork_and_beans.bake",
+  "source": "cookbook_of_babel",
+  "technique": "bake",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "raw_pork_and_beans",
+        "amount": {
+          "qty": 1000,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "pork_and_beans",
+      "amount": {
+        "qty": 950,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "coreTemp",
+    "coreTempC": 95
+  },
+  "environment": {
+    "temperatureC": 160,
+    "medium": "oven_air"
+  },
+  "stateNote": "baked slowly until the beans are tender and the pork is falling apart",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "about 5% mass lost as steam"
+    }
+  ]
+}

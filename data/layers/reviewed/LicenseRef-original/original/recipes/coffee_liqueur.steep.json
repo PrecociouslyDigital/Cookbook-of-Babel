@@ -1,0 +1,63 @@
+{
+  "id": "coffee_liqueur.steep",
+  "source": "cookbook_of_babel",
+  "technique": "steep",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "ground_coffee",
+        "amount": {
+          "qty": 150,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "rum",
+        "amount": {
+          "qty": 750,
+          "unit": "ml"
+        }
+      },
+      {
+        "ingredient": "white_sugar",
+        "amount": {
+          "qty": 400,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "coffee_liqueur",
+      "amount": {
+        "qty": 1200,
+        "unit": "ml"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 14,
+      "unit": "d"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "coffee steeped in sweetened rum, then strained",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "ground roasted coffee stands in for the sketch's whole beans"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "the spent coffee is strained out as the sugar dissolves"
+    }
+  ]
+}

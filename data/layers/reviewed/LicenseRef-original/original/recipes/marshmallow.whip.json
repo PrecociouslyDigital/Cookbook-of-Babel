@@ -1,0 +1,63 @@
+{
+  "id": "marshmallow.whip",
+  "source": "cookbook_of_babel",
+  "technique": "whisk",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "sugar_syrup",
+        "amount": {
+          "qty": 700,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "egg_white",
+        "amount": {
+          "qty": 120,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "gelatin",
+        "amount": {
+          "qty": 20,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "marshmallow",
+      "amount": {
+        "qty": 800,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 10,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "the hot syrup streamed into whipped egg white and soaked gelatin",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "gelatin stands in for the sketch's unlisted setting agent"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "some of the air-whipped volume is lost as the foam sets"
+    }
+  ]
+}

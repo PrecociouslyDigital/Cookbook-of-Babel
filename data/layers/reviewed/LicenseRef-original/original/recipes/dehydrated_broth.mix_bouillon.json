@@ -1,0 +1,51 @@
+{
+  "id": "dehydrated_broth.mix_bouillon",
+  "source": "cookbook_of_babel",
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "broth_concentrate",
+        "amount": {
+          "qty": 250,
+          "unit": "ml"
+        }
+      },
+      {
+        "ingredient": "salt",
+        "amount": {
+          "qty": 150,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "bouillon_paste",
+      "amount": {
+        "qty": 390,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 10,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "stirred with the salt into a stiff paste",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "broth concentrate counted at about 1.15 g per ml"
+    }
+  ]
+}

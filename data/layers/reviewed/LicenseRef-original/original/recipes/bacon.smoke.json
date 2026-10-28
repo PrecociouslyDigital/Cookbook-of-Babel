@@ -1,0 +1,45 @@
+{
+  "id": "bacon.smoke",
+  "source": "cookbook_of_babel",
+  "technique": "smoke",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "cured_pork_belly",
+        "amount": {
+          "qty": 1100,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "bacon",
+      "amount": {
+        "qty": 1000,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 3,
+      "unit": "h"
+    }
+  },
+  "stateNote": "smoked until firm, bronzed and aromatic",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "smoking dries the belly by about a tenth"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "low-and-slow smoker assumed"
+    }
+  ]
+}

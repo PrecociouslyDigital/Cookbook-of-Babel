@@ -1,0 +1,45 @@
+{
+  "id": "fishball.boil",
+  "source": "cookbook_of_babel",
+  "technique": "boil",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "fish_paste",
+        "amount": {
+          "qty": 900,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "fishball",
+      "amount": {
+        "qty": 850,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "both",
+    "coreTempC": 75,
+    "duration": {
+      "qty": 10,
+      "unit": "min"
+    }
+  },
+  "stateNote": "quenelles poached until they float and set",
+  "environment": {
+    "temperatureC": 95,
+    "medium": "simmering_water"
+  },
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "a little paste is lost in shaping"
+    }
+  ]
+}

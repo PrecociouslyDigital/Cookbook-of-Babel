@@ -1,0 +1,58 @@
+{
+  "id": "pasta.knead_dough",
+  "source": "cookbook_of_babel",
+  "technique": "knead",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "wheat_flour",
+        "amount": {
+          "qty": 500,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "egg",
+        "amount": {
+          "qty": 100,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "water",
+        "amount": {
+          "qty": 60,
+          "unit": "ml"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "pasta_dough",
+      "amount": {
+        "qty": 650,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 10,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "a stiff, smooth egg dough",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "a little flour stays on the board"
+    }
+  ]
+}

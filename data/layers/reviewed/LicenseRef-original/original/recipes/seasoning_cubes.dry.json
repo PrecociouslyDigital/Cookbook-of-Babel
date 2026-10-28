@@ -1,0 +1,44 @@
+{
+  "id": "seasoning_cubes.dry",
+  "source": "cookbook_of_babel",
+  "technique": "dry",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "bouillon_paste",
+        "amount": {
+          "qty": 400,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "seasoning_cubes",
+      "amount": {
+        "qty": 350,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "d"
+    },
+    "sensitivity": {
+      "refTempC": 30,
+      "q10": 2
+    }
+  },
+  "stateNote": "spread thin and dried, then cut into cubes",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "drying loss guessed"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "rolled_oats.steam_oats",
+  "source": "cookbook_of_babel",
+  "technique": "steam",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "oats",
+        "amount": {
+          "qty": 1000,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "steamed_oat_groats",
+      "amount": {
+        "qty": 1050,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 30,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "the groats steamed until soft enough to roll",
+  "environment": {
+    "temperatureC": 100,
+    "medium": "steam"
+  },
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "the groats take up a little steam moisture"
+    }
+  ]
+}

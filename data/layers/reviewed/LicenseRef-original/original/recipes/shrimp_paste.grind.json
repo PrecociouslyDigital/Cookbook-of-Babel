@@ -1,0 +1,51 @@
+{
+  "id": "shrimp_paste.grind",
+  "source": "cookbook_of_babel",
+  "technique": "grind",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "shrimp",
+        "amount": {
+          "qty": 1000,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "salt",
+        "amount": {
+          "qty": 250,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "salted_shrimp_mash",
+      "amount": {
+        "qty": 1230,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 15,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "ground coarse and packed tight with the salt",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "brine drawn out is not counted separately"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "id": "mirin.press_mash",
+  "source": "cookbook_of_babel",
+  "technique": "press",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "aged_mirin_mash",
+        "amount": {
+          "qty": 1650,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "mirin",
+      "amount": {
+        "qty": 1100,
+        "unit": "ml"
+      }
+    },
+    {
+      "ingredient": "rice_lees",
+      "amount": {
+        "qty": 550,
+        "unit": "g"
+      },
+      "role": "byproduct"
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 30,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "the aged mash squeezed through cloth",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "cloth pressing leaves a third of the mash as lees"
+    }
+  ]
+}

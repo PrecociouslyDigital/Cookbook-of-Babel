@@ -1,0 +1,52 @@
+{
+  "id": "mustard_seed.dry_pods",
+  "source": "cookbook_of_babel",
+  "technique": "dry",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "mustard_pods",
+        "amount": {
+          "qty": 100,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "dried_mustard_pods",
+      "amount": {
+        "qty": 30,
+        "unit": "g"
+      }
+    },
+    {
+      "ingredient": "water",
+      "amount": {
+        "qty": 70,
+        "unit": "g"
+      },
+      "role": "byproduct"
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 4,
+      "unit": "d"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 2
+    }
+  },
+  "stateNote": "pods are left to air-dry until brown and brittle",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "drying time varies widely with ambient humidity"
+    }
+  ]
+}

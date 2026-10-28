@@ -1,0 +1,51 @@
+{
+  "id": "negitoro.mix",
+  "source": "cookbook_of_babel",
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "minced_tuna",
+        "amount": {
+          "qty": 480,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "green_onion",
+        "amount": {
+          "qty": 50,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "negitoro",
+      "amount": {
+        "qty": 520,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 3,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "folded together with scallion just before serving",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "a hands-on estimate for folding"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "suet.separate",
+  "source": "cookbook_of_babel",
+  "technique": "separate",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "beef",
+        "amount": {
+          "qty": 1000,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "suet",
+      "amount": {
+        "qty": 250,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 10,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "the hard fat picked from around the kidneys and loins",
+  "environment": {
+    "temperatureC": 4,
+    "medium": "still_air"
+  },
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "suet is a small share of the carcass"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": "rice_wafer.dry",
+  "source": "cookbook_of_babel",
+  "technique": "dry",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "rice_paper_sheet",
+        "amount": {
+          "qty": 470,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "rice_wafer",
+      "amount": {
+        "qty": 440,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 4,
+      "unit": "h"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "dried until stiff and brittle",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "water loss while drying is estimated"
+    }
+  ]
+}

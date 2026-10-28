@@ -1,0 +1,44 @@
+{
+  "id": "zest.grind",
+  "source": "cookbook_of_babel",
+  "technique": "grind",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "lemon",
+        "amount": {
+          "qty": 200,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "zest",
+      "amount": {
+        "qty": 15,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 5,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "only the thin coloured rind grated off",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "a lemon yields only a spoonful or two of zest; the rest of the fruit remains"
+    }
+  ]
+}

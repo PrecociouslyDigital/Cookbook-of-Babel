@@ -1,0 +1,49 @@
+{
+  "id": "schmaltz.render",
+  "source": "cookbook_of_babel",
+  "technique": "heat",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "chicken",
+        "amount": {
+          "qty": 1000,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "schmaltz",
+      "amount": {
+        "qty": 200,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 45,
+      "unit": "min"
+    }
+  },
+  "stateNote": "chicken fat slowly fried out until the cracklings are golden",
+  "environment": {
+    "temperatureC": 150,
+    "medium": "pan_contact"
+  },
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "yield varies a lot with the bird's fatness"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "medium-low pan heat"
+    }
+  ]
+}

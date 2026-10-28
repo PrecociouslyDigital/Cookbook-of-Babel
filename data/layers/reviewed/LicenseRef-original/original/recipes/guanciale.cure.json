@@ -1,0 +1,63 @@
+{
+  "id": "guanciale.cure",
+  "source": "cookbook_of_babel",
+  "technique": "age",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "pork",
+        "amount": {
+          "qty": 1000,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "salt",
+        "amount": {
+          "qty": 100,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "pepper",
+        "amount": {
+          "qty": 10,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "guanciale",
+      "amount": {
+        "qty": 950,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 21,
+      "unit": "d"
+    },
+    "sensitivity": {
+      "refTempC": 10,
+      "q10": 2
+    }
+  },
+  "stateNote": "salted, peppered and hung to cure",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "true guanciale is cured pork jowl; plain pork stands in"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "cured in a cool cellar; clock anchored at 10C"
+    }
+  ]
+}

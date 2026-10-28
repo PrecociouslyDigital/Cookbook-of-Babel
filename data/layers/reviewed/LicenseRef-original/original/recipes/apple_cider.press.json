@@ -1,0 +1,44 @@
+{
+  "id": "apple_cider.press",
+  "source": "cookbook_of_babel",
+  "technique": "press",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "apple",
+        "amount": {
+          "qty": 1000,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "apple_cider",
+      "amount": {
+        "qty": 700,
+        "unit": "ml"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 15,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "the fruit crushed and pressed unfiltered",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "apples give roughly two thirds of their weight in rough, cloudy cider"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "id": "salt_pork.dry",
+  "source": "cookbook_of_babel",
+  "technique": "dry",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "pork",
+        "amount": {
+          "qty": 1000,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "salt",
+        "amount": {
+          "qty": 250,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "salt_pork",
+      "amount": {
+        "qty": 1150,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 7,
+      "unit": "d"
+    },
+    "sensitivity": {
+      "refTempC": 10,
+      "q10": 1
+    }
+  },
+  "stateNote": "packed in salt and held cool and dry",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "some brine runs off, but much salt stays on the slab"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "curing is done refrigerated; clock anchored at 10C"
+    }
+  ]
+}

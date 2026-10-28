@@ -1,0 +1,44 @@
+{
+  "id": "zest_of_lemon.grind",
+  "source": "cookbook_of_babel",
+  "technique": "grind",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "lemon_peel",
+        "amount": {
+          "qty": 100,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "zest_of_lemon",
+      "amount": {
+        "qty": 15,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 5,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "the pared rind grated fine, pith and all left behind",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "the rind yields only a spoonful or two of grated zest"
+    }
+  ]
+}

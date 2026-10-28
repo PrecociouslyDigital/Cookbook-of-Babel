@@ -1,0 +1,49 @@
+{
+  "id": "meringue.bake",
+  "source": "cookbook_of_babel",
+  "technique": "bake",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "meringue_foam",
+        "amount": {
+          "qty": 450,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "meringue",
+      "amount": {
+        "qty": 250,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 2,
+      "unit": "h"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "dried slowly in a low oven until crisp",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "slow drying drives off more than forty percent as vapor"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "low drying takes one to three hours; two taken"
+    }
+  ]
+}

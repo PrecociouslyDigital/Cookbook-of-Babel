@@ -1,0 +1,44 @@
+{
+  "id": "vegemite.ferment",
+  "source": "cookbook_of_babel",
+  "technique": "ferment",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "yeast_extract",
+        "amount": {
+          "qty": 200,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "vegemite",
+      "amount": {
+        "qty": 180,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 7,
+      "unit": "d"
+    },
+    "sensitivity": {
+      "refTempC": 25,
+      "q10": 2
+    }
+  },
+  "stateNote": "spent yeast mash is simmered and concentrated into a dark, salty spread",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "about 10% of the volume is lost as water during reduction"
+    }
+  ]
+}

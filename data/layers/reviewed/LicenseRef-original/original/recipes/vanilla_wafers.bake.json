@@ -1,0 +1,44 @@
+{
+  "id": "vanilla_wafers.bake",
+  "source": "cookbook_of_babel",
+  "technique": "bake",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "vanilla_wafer_batter",
+        "amount": {
+          "qty": 600,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "vanilla_wafers",
+      "amount": {
+        "qty": 520,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 10,
+      "unit": "min"
+    }
+  },
+  "environment": {
+    "temperatureC": 180,
+    "medium": "oven_air"
+  },
+  "stateNote": "baked in small rounds until the edges colour",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "moisture loss while baking is estimated"
+    }
+  ]
+}

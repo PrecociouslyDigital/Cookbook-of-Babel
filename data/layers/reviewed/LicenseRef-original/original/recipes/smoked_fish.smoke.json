@@ -1,0 +1,52 @@
+{
+  "id": "smoked_fish.smoke",
+  "source": "cookbook_of_babel",
+  "technique": "smoke",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "fish",
+        "amount": {
+          "qty": 1000,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "salt",
+        "amount": {
+          "qty": 60,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "smoked_fish",
+      "amount": {
+        "qty": 950,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 4,
+      "unit": "h"
+    }
+  },
+  "stateNote": "salted, then smoked until the flesh flakes firm",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "curing and smoking shed some moisture"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "smoker heat assumed"
+    }
+  ]
+}

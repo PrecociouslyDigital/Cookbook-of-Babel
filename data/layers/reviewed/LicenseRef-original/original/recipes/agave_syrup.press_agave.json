@@ -1,0 +1,44 @@
+{
+  "id": "agave_syrup.press_agave",
+  "source": "cookbook_of_babel",
+  "technique": "press",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "agave",
+        "amount": {
+          "qty": 1000,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "agave_juice",
+      "amount": {
+        "qty": 500,
+        "unit": "ml"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 15,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "the hearts crushed and pressed raw",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "pressed raw here; pulque and tequila makers roast the hearts first, which darkens the juice"
+    }
+  ]
+}

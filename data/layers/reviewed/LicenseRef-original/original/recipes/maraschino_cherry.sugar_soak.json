@@ -1,0 +1,58 @@
+{
+  "id": "maraschino_cherry.sugar_soak",
+  "source": "cookbook_of_babel",
+  "technique": "soak",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "brined_cherry",
+        "amount": {
+          "qty": 2000,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "white_sugar",
+        "amount": {
+          "qty": 800,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "water",
+        "amount": {
+          "qty": 800,
+          "unit": "ml"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "maraschino_cherry",
+      "amount": {
+        "qty": 3400,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 14,
+      "unit": "d"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "the brined cherries soaked in heavy sugar syrup until they sweeten through",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "the cherries sweeten through over a fortnight"
+    }
+  ]
+}

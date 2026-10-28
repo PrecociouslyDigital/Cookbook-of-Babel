@@ -1,0 +1,69 @@
+{
+  "id": "hot_sauce.boil",
+  "source": "cookbook_of_babel",
+  "technique": "boil",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "chiles",
+        "amount": {
+          "qty": 300,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "vinegar",
+        "amount": {
+          "qty": 400,
+          "unit": "ml"
+        }
+      },
+      {
+        "ingredient": "garlic",
+        "amount": {
+          "qty": 15,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "salt",
+        "amount": {
+          "qty": 10,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "hot_sauce",
+      "amount": {
+        "qty": 600,
+        "unit": "ml"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 15,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "environment": {
+    "temperatureC": 100,
+    "medium": "boiling_water"
+  },
+  "stateNote": "softened, then blended smooth with the cooking vinegar",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "blending and boiling losses guessed"
+    }
+  ]
+}

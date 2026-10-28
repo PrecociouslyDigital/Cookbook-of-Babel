@@ -1,0 +1,44 @@
+{
+  "id": "gelatin.evaporate",
+  "source": "cookbook_of_babel",
+  "technique": "evaporate",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "collagen_broth",
+        "amount": {
+          "qty": 2800,
+          "unit": "ml"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "concentrated_collagen_broth",
+      "amount": {
+        "qty": 900,
+        "unit": "ml"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 2,
+      "unit": "h"
+    }
+  },
+  "stateNote": "boiled down to a syrupy reduction",
+  "environment": {
+    "temperatureC": 100,
+    "medium": "simmering_water"
+  },
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "reduced to about a third of its volume"
+    }
+  ]
+}

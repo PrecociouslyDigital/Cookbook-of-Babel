@@ -1,0 +1,44 @@
+{
+  "id": "digestive_biscuit.bake",
+  "source": "cookbook_of_babel",
+  "technique": "bake",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "digestive_dough",
+        "amount": {
+          "qty": 665,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "digestive_biscuit",
+      "amount": {
+        "qty": 580,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 15,
+      "unit": "min"
+    }
+  },
+  "environment": {
+    "temperatureC": 180,
+    "medium": "oven_air"
+  },
+  "stateNote": "baked pale gold and lightly raised",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "moisture loss while baking is estimated"
+    }
+  ]
+}

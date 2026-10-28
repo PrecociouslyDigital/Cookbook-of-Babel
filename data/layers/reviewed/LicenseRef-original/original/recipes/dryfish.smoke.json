@@ -1,0 +1,45 @@
+{
+  "id": "dryfish.smoke",
+  "source": "cookbook_of_babel",
+  "technique": "smoke",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "fish",
+        "amount": {
+          "qty": 1000,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "dryfish",
+      "amount": {
+        "qty": 550,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 6,
+      "unit": "h"
+    }
+  },
+  "stateNote": "split fish smoked until leathery and shelf-stable",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "smoking dries the fish by nearly half"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "low-and-slow smoker assumed"
+    }
+  ]
+}

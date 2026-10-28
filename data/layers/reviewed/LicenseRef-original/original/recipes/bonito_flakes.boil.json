@@ -1,0 +1,44 @@
+{
+  "id": "bonito_flakes.boil",
+  "source": "cookbook_of_babel",
+  "technique": "boil",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "tuna",
+        "amount": {
+          "qty": 1000,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "simmered_bonito",
+      "amount": {
+        "qty": 800,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 90,
+      "unit": "min"
+    }
+  },
+  "stateNote": "loins simmered until firm",
+  "environment": {
+    "temperatureC": 95,
+    "medium": "simmering_water"
+  },
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "simmering drives off some moisture"
+    }
+  ]
+}

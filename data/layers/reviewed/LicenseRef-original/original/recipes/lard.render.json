@@ -1,0 +1,49 @@
+{
+  "id": "lard.render",
+  "source": "cookbook_of_babel",
+  "technique": "heat",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "pork_fat",
+        "amount": {
+          "qty": 500,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "lard",
+      "amount": {
+        "qty": 450,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "h"
+    }
+  },
+  "stateNote": "slowly melted until the cracklings sink",
+  "environment": {
+    "temperatureC": 120,
+    "medium": "pan_contact"
+  },
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "about a tenth is lost as cracklings and moisture"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "gentle rendering heat"
+    }
+  ]
+}

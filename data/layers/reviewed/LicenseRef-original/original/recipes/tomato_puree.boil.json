@@ -1,0 +1,48 @@
+{
+  "id": "tomato_puree.boil",
+  "source": "cookbook_of_babel",
+  "technique": "boil",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "tomatoes",
+        "amount": {
+          "qty": 3000,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "cooked_tomatoes",
+      "amount": {
+        "qty": 2800,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 10,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "environment": {
+    "temperatureC": 100,
+    "medium": "boiling_water"
+  },
+  "stateNote": "scalded until the skins loosen and the flesh collapses",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "a little water is lost to steam and draining"
+    }
+  ]
+}

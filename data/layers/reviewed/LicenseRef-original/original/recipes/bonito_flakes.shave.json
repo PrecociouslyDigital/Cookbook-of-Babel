@@ -1,0 +1,44 @@
+{
+  "id": "bonito_flakes.shave",
+  "source": "cookbook_of_babel",
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "katsuobushi",
+        "amount": {
+          "qty": 550,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "bonito_flakes",
+      "amount": {
+        "qty": 500,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 10,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "shaved into paper-thin curls",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "a little is lost to crumbs"
+    }
+  ]
+}

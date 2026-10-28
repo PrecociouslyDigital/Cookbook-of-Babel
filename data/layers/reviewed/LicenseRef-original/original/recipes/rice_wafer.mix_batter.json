@@ -1,0 +1,51 @@
+{
+  "id": "rice_wafer.mix_batter",
+  "source": "cookbook_of_babel",
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "rice_flour",
+        "amount": {
+          "qty": 200,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "water",
+        "amount": {
+          "qty": 300,
+          "unit": "ml"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "rice_batter",
+      "amount": {
+        "qty": 490,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 5,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "a thin smooth batter",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "batter yield is estimated"
+    }
+  ]
+}

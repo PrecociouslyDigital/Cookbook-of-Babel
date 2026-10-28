@@ -1,0 +1,44 @@
+{
+  "id": "tortilla.roast",
+  "source": "cookbook_of_babel",
+  "technique": "roast",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "tortilla_dough",
+        "amount": {
+          "qty": 660,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "tortilla",
+      "amount": {
+        "qty": 600,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 15,
+      "unit": "min"
+    }
+  },
+  "environment": {
+    "temperatureC": 220,
+    "medium": "pan_contact"
+  },
+  "stateNote": "flattened and blistered on a hot griddle",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "a batch of tortillas loses some water on the griddle"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": "bacon_fat.render",
+  "source": "cookbook_of_babel",
+  "technique": "heat",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "bacon",
+        "amount": {
+          "qty": 500,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "bacon_fat",
+      "amount": {
+        "qty": 200,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 15,
+      "unit": "min"
+    }
+  },
+  "stateNote": "bacon fried until crisp, the fat poured off and strained",
+  "environment": {
+    "temperatureC": 150,
+    "medium": "pan_contact"
+  },
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "depends on how fatty the bacon is"
+    }
+  ]
+}

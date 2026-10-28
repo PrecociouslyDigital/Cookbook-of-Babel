@@ -1,0 +1,44 @@
+{
+  "id": "coconut_oil.press",
+  "source": "cookbook_of_babel",
+  "technique": "press",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "coconut",
+        "amount": {
+          "qty": 1000,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "coconut_oil",
+      "amount": {
+        "qty": 250,
+        "unit": "ml"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 15,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "the flesh dried to copra and pressed",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "husk, shell and water stay behind; the dried flesh is about two thirds oil"
+    }
+  ]
+}

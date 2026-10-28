@@ -1,0 +1,44 @@
+{
+  "id": "lemon_peel.pare",
+  "source": "cookbook_of_babel",
+  "technique": "julienne",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "lemon",
+        "amount": {
+          "qty": 500,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "lemon_peel",
+      "amount": {
+        "qty": 80,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 5,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "the rind pared away in thin strips",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "only the rind is taken; the flesh and pith remain"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "id": "malt.soak_barley",
+  "source": "cookbook_of_babel",
+  "technique": "soak",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "barley",
+        "amount": {
+          "qty": 1000,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "water",
+        "amount": {
+          "qty": 1200,
+          "unit": "ml"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "green_malt",
+      "amount": {
+        "qty": 1900,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 2,
+      "unit": "d"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 2
+    }
+  },
+  "stateNote": "the grain steeped until it just begins to sprout",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "the grain takes up rather more than half its weight in water"
+    }
+  ]
+}

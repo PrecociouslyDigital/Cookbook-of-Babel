@@ -1,0 +1,51 @@
+{
+  "id": "sourdough_starter.culture",
+  "source": "cookbook_of_babel",
+  "technique": "ferment",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "wheat_flour",
+        "amount": {
+          "qty": 100,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "water",
+        "amount": {
+          "qty": 100,
+          "unit": "ml"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "sourdough_starter",
+      "amount": {
+        "qty": 180,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 5,
+      "unit": "d"
+    },
+    "sensitivity": {
+      "refTempC": 25,
+      "q10": 2.5
+    }
+  },
+  "stateNote": "a loose batter left to catch wild yeasts, fed daily",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "wild yeasts take days to establish; the starter is fed to keep it going"
+    }
+  ]
+}

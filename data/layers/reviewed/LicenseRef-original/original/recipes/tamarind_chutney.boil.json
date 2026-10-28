@@ -1,0 +1,76 @@
+{
+  "id": "tamarind_chutney.boil",
+  "source": "cookbook_of_babel",
+  "technique": "boil",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "tamarind",
+        "amount": {
+          "qty": 200,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "jaggery",
+        "amount": {
+          "qty": 150,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "water",
+        "amount": {
+          "qty": 300,
+          "unit": "ml"
+        }
+      },
+      {
+        "ingredient": "cumin",
+        "amount": {
+          "qty": 10,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "salt",
+        "amount": {
+          "qty": 5,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "tamarind_chutney",
+      "amount": {
+        "qty": 550,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 20,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "environment": {
+    "temperatureC": 100,
+    "medium": "boiling_water"
+  },
+  "stateNote": "simmered until the pulp dissolves, then strained thick",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "pulp and fibres strained off are not counted"
+    }
+  ]
+}

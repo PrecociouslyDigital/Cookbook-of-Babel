@@ -1,0 +1,44 @@
+{
+  "id": "worcestershire_sauce.age",
+  "source": "cookbook_of_babel",
+  "technique": "age",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "worcestershire_base",
+        "amount": {
+          "qty": 700,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "worcestershire_sauce",
+      "amount": {
+        "qty": 650,
+        "unit": "ml"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 30,
+      "unit": "d"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 2
+    }
+  },
+  "stateNote": "mellowed in a sealed jar, then strained clear",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "some pulp stays behind when strained"
+    }
+  ]
+}

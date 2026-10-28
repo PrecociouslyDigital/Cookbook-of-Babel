@@ -1,0 +1,51 @@
+{
+  "id": "chocolate.grind_nibs",
+  "source": "cookbook_of_babel",
+  "technique": "grind",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "cocoa_nibs",
+        "amount": {
+          "qty": 850,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "chocolate",
+      "amount": {
+        "qty": 600,
+        "unit": "g"
+      }
+    },
+    {
+      "ingredient": "cocoa_butter",
+      "amount": {
+        "qty": 250,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 24,
+      "unit": "h"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "the nibs ground overnight in a stone melanger until they flow as liquor",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "the melanger runs overnight; the split between liquor and butter is estimated"
+    }
+  ]
+}

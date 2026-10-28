@@ -1,0 +1,62 @@
+{
+  "id": "banana_ketchup.boil",
+  "source": "cookbook_of_babel",
+  "technique": "boil",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "banana",
+        "amount": {
+          "qty": 500,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "vinegar",
+        "amount": {
+          "qty": 100,
+          "unit": "ml"
+        }
+      },
+      {
+        "ingredient": "white_sugar",
+        "amount": {
+          "qty": 150,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "banana_ketchup",
+      "amount": {
+        "qty": 650,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 30,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "environment": {
+    "temperatureC": 100,
+    "medium": "boiling_water"
+  },
+  "stateNote": "mashed and simmered to a thick sweet-sour ketchup",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "reduction loss guessed"
+    }
+  ]
+}

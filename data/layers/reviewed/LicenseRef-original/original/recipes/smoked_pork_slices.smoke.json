@@ -1,0 +1,52 @@
+{
+  "id": "smoked_pork_slices.smoke",
+  "source": "cookbook_of_babel",
+  "technique": "smoke",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "pork",
+        "amount": {
+          "qty": 1000,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "salt",
+        "amount": {
+          "qty": 50,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "smoked_pork_slices",
+      "amount": {
+        "qty": 950,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 4,
+      "unit": "h"
+    }
+  },
+  "stateNote": "sliced, lightly salted and smoked through",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "salting and smoking shed some moisture"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "smoker heat assumed"
+    }
+  ]
+}

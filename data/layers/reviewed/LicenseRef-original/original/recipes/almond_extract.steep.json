@@ -1,0 +1,56 @@
+{
+  "id": "almond_extract.steep",
+  "source": "cookbook_of_babel",
+  "technique": "steep",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "almond",
+        "amount": {
+          "qty": 100,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "rum",
+        "amount": {
+          "qty": 750,
+          "unit": "ml"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "almond_extract",
+      "amount": {
+        "qty": 750,
+        "unit": "ml"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 30,
+      "unit": "d"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "bitter almonds steeped in rum, then strained",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "rum stands in for the vodka the sketch calls for"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "the nuts strained out, holding a little volume"
+    }
+  ]
+}

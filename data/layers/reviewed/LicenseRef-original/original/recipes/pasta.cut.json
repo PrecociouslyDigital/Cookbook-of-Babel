@@ -1,0 +1,44 @@
+{
+  "id": "pasta.cut",
+  "source": "cookbook_of_babel",
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "pasta_dough",
+        "amount": {
+          "qty": 650,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "raw_pasta",
+      "amount": {
+        "qty": 645,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 10,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "rolled thin and cut into shapes",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "dust losses when cutting"
+    }
+  ]
+}

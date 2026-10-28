@@ -1,0 +1,52 @@
+{
+  "id": "potato_chips.soak",
+  "source": "cookbook_of_babel",
+  "technique": "soak",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "potato_slices",
+        "amount": {
+          "qty": 450,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "water",
+        "amount": {
+          "qty": 500,
+          "unit": "ml"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "soaked_potato_slices",
+      "amount": {
+        "qty": 450,
+        "unit": "g"
+      }
+    },
+    {
+      "ingredient": "starchy_water",
+      "amount": {
+        "qty": 500,
+        "unit": "ml"
+      },
+      "role": "byproduct"
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 30,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "slices are soaked to wash off surface starch so they fry crisp"
+}

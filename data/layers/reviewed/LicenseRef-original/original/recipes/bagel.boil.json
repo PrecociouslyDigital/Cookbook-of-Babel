@@ -1,0 +1,51 @@
+{
+  "id": "bagel.boil",
+  "source": "cookbook_of_babel",
+  "technique": "boil",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "dough",
+        "amount": {
+          "qty": 500,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "water",
+        "amount": {
+          "qty": 2000,
+          "unit": "ml"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "boiled_bagel_dough",
+      "amount": {
+        "qty": 495,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 2,
+      "unit": "min"
+    }
+  },
+  "environment": {
+    "temperatureC": 100,
+    "medium": "boiling_water"
+  },
+  "stateNote": "shaped into rings and boiled briefly",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "the boiling water is discarded after use, not consumed"
+    }
+  ]
+}

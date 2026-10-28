@@ -1,0 +1,50 @@
+{
+  "id": "rum.distill_wash",
+  "source": "cookbook_of_babel",
+  "technique": "distill",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "rum_wash",
+        "amount": {
+          "qty": 3350,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "rum",
+      "amount": {
+        "qty": 700,
+        "unit": "ml"
+      }
+    }
+  ],
+  "end": {
+    "by": "both",
+    "coreTempC": 99,
+    "duration": {
+      "qty": 5,
+      "unit": "h"
+    },
+    "sensitivity": {
+      "refTempC": 99,
+      "q10": 1
+    }
+  },
+  "stateNote": "the wash run through a pot still until the spirit thins",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "low wines cut to 40 percent; the rest stays behind as stillage"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "a pot-still run of a few hours, taken as five"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "id": "tequila.press_heart",
+  "source": "cookbook_of_babel",
+  "technique": "press",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "roasted_agave",
+        "amount": {
+          "qty": 750,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "agave_juice",
+      "amount": {
+        "qty": 400,
+        "unit": "ml"
+      }
+    },
+    {
+      "ingredient": "agave_fiber",
+      "amount": {
+        "qty": 300,
+        "unit": "g"
+      },
+      "role": "byproduct"
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 30,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "the roasted hearts shredded and crushed in a mill",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "the mill leaves the fiber behind wet"
+    }
+  ]
+}

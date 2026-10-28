@@ -1,0 +1,49 @@
+{
+  "id": "sherry.age_wine",
+  "source": "cookbook_of_babel",
+  "technique": "age",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "fortified_wine",
+        "amount": {
+          "qty": 4200,
+          "unit": "ml"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "sherry",
+      "amount": {
+        "qty": 4000,
+        "unit": "ml"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 365,
+      "unit": "d"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 2
+    }
+  },
+  "stateNote": "aged in partly filled casks under a film of flor yeast",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "evaporation and flor losses over the year"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "solera aging takes years; a single year taken"
+    }
+  ]
+}

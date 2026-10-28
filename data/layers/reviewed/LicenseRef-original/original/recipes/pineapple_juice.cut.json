@@ -1,0 +1,52 @@
+{
+  "id": "pineapple_juice.cut",
+  "source": "cookbook_of_babel",
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "pineapple",
+        "amount": {
+          "qty": 1000,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "pineapple_chunks",
+      "amount": {
+        "qty": 600,
+        "unit": "g"
+      }
+    },
+    {
+      "ingredient": "pineapple_skin",
+      "amount": {
+        "qty": 400,
+        "unit": "g"
+      },
+      "role": "byproduct"
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 10,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "tops, skins, and cores are removed; flesh is cut into chunks",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "about 60% of the whole fruit is usable flesh"
+    }
+  ]
+}

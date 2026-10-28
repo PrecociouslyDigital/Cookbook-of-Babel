@@ -1,0 +1,52 @@
+{
+  "id": "cherry_jam.boil",
+  "source": "cookbook_of_babel",
+  "technique": "boil",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "cherry",
+        "amount": {
+          "qty": 1000,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "white_sugar",
+        "amount": {
+          "qty": 600,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "cherry_jam",
+      "amount": {
+        "qty": 1450,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "both",
+    "coreTempC": 104,
+    "duration": {
+      "qty": 40,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 104,
+      "q10": 1
+    }
+  },
+  "stateNote": "pitted cherries boiled with sugar until the set",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "forty minutes of boiling drives off a sixth of the mass"
+    }
+  ]
+}

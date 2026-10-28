@@ -1,0 +1,51 @@
+{
+  "id": "noodle.knead_dough",
+  "source": "cookbook_of_babel",
+  "technique": "knead",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "wheat_flour",
+        "amount": {
+          "qty": 400,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "egg",
+        "amount": {
+          "qty": 100,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "noodle_dough",
+      "amount": {
+        "qty": 495,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 10,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "a stiff egg dough",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "no added water; dough hydration comes from the egg"
+    }
+  ]
+}

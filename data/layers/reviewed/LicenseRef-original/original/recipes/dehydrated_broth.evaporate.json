@@ -1,0 +1,48 @@
+{
+  "id": "dehydrated_broth.evaporate",
+  "source": "cookbook_of_babel",
+  "technique": "evaporate",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "broth_and_stock",
+        "amount": {
+          "qty": 1000,
+          "unit": "ml"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "broth_concentrate",
+      "amount": {
+        "qty": 250,
+        "unit": "ml"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "h"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "environment": {
+    "temperatureC": 95,
+    "medium": "simmering_water"
+  },
+  "stateNote": "boiled down to a quarter of its volume",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "reduction to a quarter is a simplification"
+    }
+  ]
+}

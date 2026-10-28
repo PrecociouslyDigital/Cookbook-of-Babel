@@ -1,0 +1,44 @@
+{
+  "id": "oatmeal.grind",
+  "source": "cookbook_of_babel",
+  "technique": "grind",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "rolled_oats",
+        "amount": {
+          "qty": 500,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "oatmeal",
+      "amount": {
+        "qty": 480,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 10,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "rolled oats are ground into a coarse meal",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "grinding losses estimated at 4%"
+    }
+  ]
+}

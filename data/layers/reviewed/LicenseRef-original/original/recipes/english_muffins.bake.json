@@ -1,0 +1,44 @@
+{
+  "id": "english_muffins.bake",
+  "source": "cookbook_of_babel",
+  "technique": "bake",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "muffin_dough",
+        "amount": {
+          "qty": 800,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "english_muffins",
+      "amount": {
+        "qty": 720,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 15,
+      "unit": "min"
+    }
+  },
+  "environment": {
+    "temperatureC": 180,
+    "medium": "pan_contact"
+  },
+  "stateNote": "proved and griddled until browned on both faces",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "the proof is folded into the griddle step"
+    }
+  ]
+}

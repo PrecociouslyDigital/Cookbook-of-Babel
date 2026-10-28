@@ -1,0 +1,44 @@
+{
+  "id": "vanilla.cure",
+  "source": "cookbook_of_babel",
+  "technique": "cure",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "vanilla_pods_raw",
+        "amount": {
+          "qty": 100,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "vanilla",
+      "amount": {
+        "qty": 40,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 30,
+      "unit": "d"
+    },
+    "sensitivity": {
+      "refTempC": 25,
+      "q10": 2
+    }
+  },
+  "stateNote": "green pods are blanched, sweated, and dried until dark and flexible",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "vanilla curing is a slow process; 30 days is a simplified estimate"
+    }
+  ]
+}

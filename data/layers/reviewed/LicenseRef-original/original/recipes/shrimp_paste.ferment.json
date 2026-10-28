@@ -1,0 +1,44 @@
+{
+  "id": "shrimp_paste.ferment",
+  "source": "cookbook_of_babel",
+  "technique": "ferment",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "salted_shrimp_mash",
+        "amount": {
+          "qty": 1230,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "fermented_shrimp_mash",
+      "amount": {
+        "qty": 1200,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 60,
+      "unit": "d"
+    },
+    "sensitivity": {
+      "refTempC": 25,
+      "q10": 2
+    }
+  },
+  "stateNote": "sun-fermented in a covered jar, stirred every few days",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "traditional batches run longer; shortened"
+    }
+  ]
+}

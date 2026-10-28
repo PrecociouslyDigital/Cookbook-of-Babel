@@ -1,0 +1,51 @@
+{
+  "id": "puff_pastry.fold_butter",
+  "source": "cookbook_of_babel",
+  "technique": "fold",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "puff_pastry_base_dough",
+        "amount": {
+          "qty": 800,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "butter",
+        "amount": {
+          "qty": 400,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "puff_pastry",
+      "amount": {
+        "qty": 1170,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 30,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "butter locked in and folded through repeated turns",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "chilling between turns is folded into one step; the fold count is a simplification"
+    }
+  ]
+}

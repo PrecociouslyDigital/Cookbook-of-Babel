@@ -1,0 +1,44 @@
+{
+  "id": "salami.ferment",
+  "source": "cookbook_of_babel",
+  "technique": "ferment",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "salami_mix",
+        "amount": {
+          "qty": 1020,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "fermented_salami_mix",
+      "amount": {
+        "qty": 1010,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 2,
+      "unit": "d"
+    },
+    "sensitivity": {
+      "refTempC": 25,
+      "q10": 2
+    }
+  },
+  "stateNote": "held warm until the mix turns pleasantly sour",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "a short warm fermentation; duration estimated"
+    }
+  ]
+}

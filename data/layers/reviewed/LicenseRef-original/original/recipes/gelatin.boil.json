@@ -1,0 +1,51 @@
+{
+  "id": "gelatin.boil",
+  "source": "cookbook_of_babel",
+  "technique": "boil",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "beef_bones",
+        "amount": {
+          "qty": 1000,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "water",
+        "amount": {
+          "qty": 3000,
+          "unit": "ml"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "collagen_broth",
+      "amount": {
+        "qty": 2800,
+        "unit": "ml"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 8,
+      "unit": "h"
+    }
+  },
+  "stateNote": "bones simmered long and slow until the liquor is sticky",
+  "environment": {
+    "temperatureC": 95,
+    "medium": "simmering_water"
+  },
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "the spent bones and scum are strained off, not counted"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": "noodle.cut",
+  "source": "cookbook_of_babel",
+  "technique": "cut",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "noodle_dough",
+        "amount": {
+          "qty": 495,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "noodle",
+      "amount": {
+        "qty": 490,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 10,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "cut into fresh strands",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "dust losses when cutting"
+    }
+  ]
+}

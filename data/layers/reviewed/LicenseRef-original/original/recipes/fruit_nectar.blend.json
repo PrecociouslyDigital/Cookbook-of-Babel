@@ -1,0 +1,58 @@
+{
+  "id": "fruit_nectar.blend",
+  "source": "cookbook_of_babel",
+  "technique": "blend",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "peach",
+        "amount": {
+          "qty": 600,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "water",
+        "amount": {
+          "qty": 300,
+          "unit": "ml"
+        }
+      },
+      {
+        "ingredient": "white_sugar",
+        "amount": {
+          "qty": 100,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "fruit_nectar",
+      "amount": {
+        "qty": 950,
+        "unit": "ml"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 10,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "the fruit puréed with water and sugar",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "nectar is fruit purée thinned and sweetened to taste; density assumed"
+    }
+  ]
+}

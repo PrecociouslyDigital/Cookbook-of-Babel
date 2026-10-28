@@ -1,0 +1,41 @@
+{
+  "id": "peanut_butter_cookies.bake",
+  "source": "cookbook_of_babel",
+  "technique": "bake",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "peanut_butter_cookie_dough",
+        "amount": {
+          "qty": 550,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "peanut_butter_cookies",
+      "amount": {
+        "qty": 500,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "coreTemp",
+    "coreTempC": 80
+  },
+  "environment": {
+    "temperatureC": 180,
+    "medium": "oven_air"
+  },
+  "stateNote": "baked until set and lightly crackled on top",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "about 9% mass lost as steam"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "id": "tomato_juice.press",
+  "source": "cookbook_of_babel",
+  "technique": "press",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "diced_tomato",
+        "amount": {
+          "qty": 1000,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "tomato_juice",
+      "amount": {
+        "qty": 800,
+        "unit": "ml"
+      }
+    },
+    {
+      "ingredient": "tomato_skins",
+      "amount": {
+        "qty": 200,
+        "unit": "g"
+      },
+      "role": "byproduct"
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 10,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "diced tomatoes pressed to extract their juice",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "tomatoes yield about 80% of their mass as juice"
+    }
+  ]
+}

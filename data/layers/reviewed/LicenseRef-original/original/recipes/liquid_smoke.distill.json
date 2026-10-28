@@ -1,0 +1,49 @@
+{
+  "id": "liquid_smoke.distill",
+  "source": "cookbook_of_babel",
+  "technique": "distill",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "wood_chips",
+        "amount": {
+          "qty": 1000,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "liquid_smoke",
+      "amount": {
+        "qty": 100,
+        "unit": "ml"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 2,
+      "unit": "h"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "hardwood chips smoldered dry, their smoke condensed to pyroligneous liquor",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "dry smoldering condenses about a tenth of the mass as liquor"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "the smoke run taken as two hours"
+    }
+  ]
+}

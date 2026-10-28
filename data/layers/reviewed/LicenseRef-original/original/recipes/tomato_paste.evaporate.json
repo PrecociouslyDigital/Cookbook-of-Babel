@@ -1,0 +1,48 @@
+{
+  "id": "tomato_paste.evaporate",
+  "source": "cookbook_of_babel",
+  "technique": "evaporate",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "tomato_puree",
+        "amount": {
+          "qty": 2400,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "tomato_paste",
+      "amount": {
+        "qty": 900,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 2,
+      "unit": "h"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "environment": {
+    "temperatureC": 95,
+    "medium": "simmering_water"
+  },
+  "stateNote": "cooked down, stirred often, until thick and brick red",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "reduction to roughly a third of the puree"
+    }
+  ]
+}

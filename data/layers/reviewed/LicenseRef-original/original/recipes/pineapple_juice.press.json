@@ -1,0 +1,52 @@
+{
+  "id": "pineapple_juice.press",
+  "source": "cookbook_of_babel",
+  "technique": "press",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "pineapple_chunks",
+        "amount": {
+          "qty": 600,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "pineapple_juice",
+      "amount": {
+        "qty": 400,
+        "unit": "ml"
+      }
+    },
+    {
+      "ingredient": "pineapple_pulp",
+      "amount": {
+        "qty": 200,
+        "unit": "g"
+      },
+      "role": "byproduct"
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 10,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "the flesh is pressed to release its sweet juice",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "about two-thirds of the flesh becomes juice"
+    }
+  ]
+}

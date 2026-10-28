@@ -1,0 +1,41 @@
+{
+  "id": "peach_pie.bake",
+  "source": "cookbook_of_babel",
+  "technique": "bake",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "unbaked_peach_pie",
+        "amount": {
+          "qty": 1180,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "peach_pie",
+      "amount": {
+        "qty": 1100,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "coreTemp",
+    "coreTempC": 85
+  },
+  "environment": {
+    "temperatureC": 200,
+    "medium": "oven_air"
+  },
+  "stateNote": "baked until the pastry is golden and the juices bubble",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "about 7% mass lost as steam during baking"
+    }
+  ]
+}

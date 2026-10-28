@@ -1,0 +1,44 @@
+{
+  "id": "shrimp_paste.dry",
+  "source": "cookbook_of_babel",
+  "technique": "dry",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "fermented_shrimp_mash",
+        "amount": {
+          "qty": 1200,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "shrimp_paste",
+      "amount": {
+        "qty": 850,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 2,
+      "unit": "d"
+    },
+    "sensitivity": {
+      "refTempC": 30,
+      "q10": 2
+    }
+  },
+  "stateNote": "dried down to a dense pungent brick of paste",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "drying loss guessed"
+    }
+  ]
+}

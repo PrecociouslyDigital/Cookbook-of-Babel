@@ -1,0 +1,44 @@
+{
+  "id": "vegetable_oil.press",
+  "source": "cookbook_of_babel",
+  "technique": "press",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "sunflower_seeds",
+        "amount": {
+          "qty": 1000,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "vegetable_oil",
+      "amount": {
+        "qty": 450,
+        "unit": "ml"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 15,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "the hulled seeds crushed and pressed",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "sunflower seed is about half oil by weight; a simple press recovers most of it"
+    }
+  ]
+}

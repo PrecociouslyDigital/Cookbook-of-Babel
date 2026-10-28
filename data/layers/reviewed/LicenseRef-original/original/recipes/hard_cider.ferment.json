@@ -1,0 +1,44 @@
+{
+  "id": "hard_cider.ferment",
+  "source": "cookbook_of_babel",
+  "technique": "ferment",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "apple_juice",
+        "amount": {
+          "qty": 1000,
+          "unit": "ml"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "hard_cider",
+      "amount": {
+        "qty": 950,
+        "unit": "ml"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 14,
+      "unit": "d"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 2
+    }
+  },
+  "stateNote": "the wild yeast on the fruit carries the fermentation in a sealed vessel",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "the wild yeast on the fruit skins carries the fermentation; a little volume is lost as gas"
+    }
+  ]
+}

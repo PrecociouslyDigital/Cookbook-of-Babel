@@ -1,0 +1,51 @@
+{
+  "id": "ravioli.assemble",
+  "source": "cookbook_of_babel",
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "pasta_dough",
+        "amount": {
+          "qty": 550,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "cheese",
+        "amount": {
+          "qty": 300,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "ravioli",
+      "amount": {
+        "qty": 830,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 30,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "rolled thin, filled, sealed and cut",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "a little filling escapes at the seals"
+    }
+  ]
+}

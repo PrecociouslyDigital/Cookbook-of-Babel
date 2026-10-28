@@ -1,0 +1,52 @@
+{
+  "id": "rosewater.distill_petals",
+  "source": "cookbook_of_babel",
+  "technique": "distill",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "rose_petals",
+        "amount": {
+          "qty": 200,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "water",
+        "amount": {
+          "qty": 1000,
+          "unit": "ml"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "rosewater",
+      "amount": {
+        "qty": 950,
+        "unit": "ml"
+      }
+    }
+  ],
+  "end": {
+    "by": "both",
+    "coreTempC": 100,
+    "duration": {
+      "qty": 1,
+      "unit": "h"
+    },
+    "sensitivity": {
+      "refTempC": 100,
+      "q10": 1
+    }
+  },
+  "stateNote": "fresh petals distilled gently with the water",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "the spent petals hold back a fifth of the water"
+    }
+  ]
+}

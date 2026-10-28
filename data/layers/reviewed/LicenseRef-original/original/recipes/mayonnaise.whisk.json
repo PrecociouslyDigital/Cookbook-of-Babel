@@ -1,0 +1,58 @@
+{
+  "id": "mayonnaise.whisk",
+  "source": "cookbook_of_babel",
+  "technique": "whisk",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "egg",
+        "amount": {
+          "qty": 55,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "olive_oil",
+        "amount": {
+          "qty": 225,
+          "unit": "ml"
+        }
+      },
+      {
+        "ingredient": "vinegar",
+        "amount": {
+          "qty": 15,
+          "unit": "ml"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "mayonnaise",
+      "amount": {
+        "qty": 275,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 10,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "drizzled in oil while whisking, until thick and glossy",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "oil mass taken at about 0.92 g per ml"
+    }
+  ]
+}

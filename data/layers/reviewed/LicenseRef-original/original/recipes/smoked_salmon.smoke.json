@@ -1,0 +1,52 @@
+{
+  "id": "smoked_salmon.smoke",
+  "source": "cookbook_of_babel",
+  "technique": "smoke",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "salmon",
+        "amount": {
+          "qty": 1000,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "salt",
+        "amount": {
+          "qty": 60,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "smoked_salmon",
+      "amount": {
+        "qty": 950,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 4,
+      "unit": "h"
+    }
+  },
+  "stateNote": "salted, then cold-smoked until silky",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "curing and smoking shed some moisture"
+    },
+    {
+      "field": "environment",
+      "kind": "estimate",
+      "note": "smoker heat assumed"
+    }
+  ]
+}

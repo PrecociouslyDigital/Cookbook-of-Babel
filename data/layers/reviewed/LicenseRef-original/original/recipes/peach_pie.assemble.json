@@ -1,0 +1,58 @@
+{
+  "id": "peach_pie.assemble",
+  "source": "cookbook_of_babel",
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "pastry_dough",
+        "amount": {
+          "qty": 400,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "peach",
+        "amount": {
+          "qty": 600,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "white_sugar",
+        "amount": {
+          "qty": 150,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "starch",
+        "amount": {
+          "qty": 30,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "unbaked_peach_pie",
+      "amount": {
+        "qty": 1180,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 10,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "peaches tossed with sugar and starch, layered into a pastry shell and topped"
+}

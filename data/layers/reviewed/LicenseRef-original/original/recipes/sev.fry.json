@@ -1,0 +1,44 @@
+{
+  "id": "sev.fry",
+  "source": "cookbook_of_babel",
+  "technique": "fry",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "sev_dough",
+        "amount": {
+          "qty": 440,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "sev",
+      "amount": {
+        "qty": 380,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 5,
+      "unit": "min"
+    }
+  },
+  "environment": {
+    "temperatureC": 180,
+    "medium": "frying_oil"
+  },
+  "stateNote": "pressed into fine strands straight into the oil",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "the strands take on oil while losing water; net change is estimated"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "malt.dry_green_malt",
+  "source": "cookbook_of_babel",
+  "technique": "dry",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "green_malt",
+        "amount": {
+          "qty": 1900,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "malt",
+      "amount": {
+        "qty": 1000,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 12,
+      "unit": "h"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "the sprouted grain kilned gently until dry enough to store",
+  "environment": {
+    "temperatureC": 55,
+    "medium": "convection_air"
+  },
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "dried back to roughly the original grain weight"
+    }
+  ]
+}

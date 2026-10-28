@@ -1,0 +1,44 @@
+{
+  "id": "pepperoni.ferment",
+  "source": "cookbook_of_babel",
+  "technique": "ferment",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "pepperoni_mix",
+        "amount": {
+          "qty": 1070,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "fermented_pepperoni",
+      "amount": {
+        "qty": 1060,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 2,
+      "unit": "d"
+    },
+    "sensitivity": {
+      "refTempC": 25,
+      "q10": 2
+    }
+  },
+  "stateNote": "held warm so the culture sours the meat",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "a short warm fermentation; duration estimated"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "id": "carbonated_water.carbonate",
+  "source": "cookbook_of_babel",
+  "technique": "carbonate",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "water",
+        "amount": {
+          "qty": 1000,
+          "unit": "ml"
+        }
+      },
+      {
+        "ingredient": "baking_soda",
+        "amount": {
+          "qty": 6,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "citric_acid",
+        "amount": {
+          "qty": 8,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "carbonated_water",
+      "amount": {
+        "qty": 1000,
+        "unit": "ml"
+      }
+    },
+    {
+      "ingredient": "carbon_dioxide",
+      "amount": {
+        "qty": 3,
+        "unit": "g"
+      },
+      "role": "byproduct"
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 2,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "the acid and base fizzed together in a closed bottle",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "a little over-carbonation vents as gas"
+    }
+  ]
+}

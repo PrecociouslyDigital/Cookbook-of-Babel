@@ -1,0 +1,44 @@
+{
+  "id": "lemon_oil.press",
+  "source": "cookbook_of_babel",
+  "technique": "press",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "lemon_peel",
+        "amount": {
+          "qty": 100,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "lemon_oil",
+      "amount": {
+        "qty": 15,
+        "unit": "ml"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 10,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "the peel squeezed and pressed through cloth",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "the peel holds only a few percent of volatile oil"
+    }
+  ]
+}

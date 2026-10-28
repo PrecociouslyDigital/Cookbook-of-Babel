@@ -1,0 +1,50 @@
+{
+  "id": "whiskey.distill_beer",
+  "source": "cookbook_of_babel",
+  "technique": "distill",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "beer",
+        "amount": {
+          "qty": 1900,
+          "unit": "ml"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "new_make_spirit",
+      "amount": {
+        "qty": 240,
+        "unit": "ml"
+      }
+    }
+  ],
+  "end": {
+    "by": "both",
+    "coreTempC": 99,
+    "duration": {
+      "qty": 6,
+      "unit": "h"
+    },
+    "sensitivity": {
+      "refTempC": 99,
+      "q10": 1
+    }
+  },
+  "stateNote": "the distilled wash stripped to low wines, then redistilled",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "roughly an eighth of the wash's volume comes off as spirit"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "a double pot-still run, taken as six hours"
+    }
+  ]
+}

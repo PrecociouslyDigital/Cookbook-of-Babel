@@ -1,0 +1,51 @@
+{
+  "id": "cured_anchovies.age",
+  "source": "cookbook_of_babel",
+  "technique": "age",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "anchovy",
+        "amount": {
+          "qty": 1000,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "salt",
+        "amount": {
+          "qty": 300,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "cured_anchovies",
+      "amount": {
+        "qty": 950,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 90,
+      "unit": "d"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 2
+    }
+  },
+  "stateNote": "packed under salt until the flesh is cured through",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "months of barreling compressed into the clock"
+    }
+  ]
+}

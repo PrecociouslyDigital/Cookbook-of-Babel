@@ -1,0 +1,59 @@
+{
+  "id": "beer.ferment_wort",
+  "source": "cookbook_of_babel",
+  "technique": "ferment",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "wort",
+        "amount": {
+          "qty": 2000,
+          "unit": "ml"
+        }
+      },
+      {
+        "ingredient": "yeast",
+        "amount": {
+          "qty": 50,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "beer",
+      "amount": {
+        "qty": 1900,
+        "unit": "ml"
+      }
+    },
+    {
+      "ingredient": "carbon_dioxide",
+      "amount": {
+        "qty": 120,
+        "unit": "g"
+      },
+      "role": "byproduct"
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 7,
+      "unit": "d"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 2.5
+    }
+  },
+  "stateNote": "the cooled wort gone foamy and sweet, then still and clear",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "a tenth of the fermentables leave as carbon dioxide and trub"
+    }
+  ]
+}

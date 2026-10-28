@@ -1,0 +1,58 @@
+{
+  "id": "maraschino_cherry.brine",
+  "source": "cookbook_of_babel",
+  "technique": "soak",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "cherry",
+        "amount": {
+          "qty": 1000,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "salt",
+        "amount": {
+          "qty": 100,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "water",
+        "amount": {
+          "qty": 1000,
+          "unit": "ml"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "brined_cherry",
+      "amount": {
+        "qty": 2000,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 21,
+      "unit": "d"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1.5
+    }
+  },
+  "stateNote": "cherries brined for weeks to firm them and bleach them pale",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "the cherries take up most of the brine"
+    }
+  ]
+}

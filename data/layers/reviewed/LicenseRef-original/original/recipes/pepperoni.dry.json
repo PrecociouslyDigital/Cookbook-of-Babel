@@ -1,0 +1,44 @@
+{
+  "id": "pepperoni.dry",
+  "source": "cookbook_of_babel",
+  "technique": "dry",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "fermented_pepperoni",
+        "amount": {
+          "qty": 1060,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "pepperoni",
+      "amount": {
+        "qty": 750,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 14,
+      "unit": "d"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "hung in moving air until firm enough to slice",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "drying sheds roughly a third of the mass"
+    }
+  ]
+}

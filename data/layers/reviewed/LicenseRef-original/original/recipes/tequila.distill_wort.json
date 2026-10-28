@@ -1,0 +1,50 @@
+{
+  "id": "tequila.distill_wort",
+  "source": "cookbook_of_babel",
+  "technique": "distill",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "agave_wort",
+        "amount": {
+          "qty": 1450,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "tequila",
+      "amount": {
+        "qty": 300,
+        "unit": "ml"
+      }
+    }
+  ],
+  "end": {
+    "by": "both",
+    "coreTempC": 99,
+    "duration": {
+      "qty": 4,
+      "unit": "h"
+    },
+    "sensitivity": {
+      "refTempC": 99,
+      "q10": 1
+    }
+  },
+  "stateNote": "the fermented must distilled twice, the middle run kept",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "roughly a fifth of the must comes off as spirit"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "a double run, taken as four hours"
+    }
+  ]
+}

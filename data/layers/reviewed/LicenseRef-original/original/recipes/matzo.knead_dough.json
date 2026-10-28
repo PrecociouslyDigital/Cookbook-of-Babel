@@ -1,0 +1,51 @@
+{
+  "id": "matzo.knead_dough",
+  "source": "cookbook_of_babel",
+  "technique": "knead",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "wheat_flour",
+        "amount": {
+          "qty": 500,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "water",
+        "amount": {
+          "qty": 250,
+          "unit": "ml"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "matzo_dough",
+      "amount": {
+        "qty": 740,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 5,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "worked quickly so it does not rise",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "traditional matzo is baked within 18 minutes of mixing; the time limit is not modelled"
+    }
+  ]
+}

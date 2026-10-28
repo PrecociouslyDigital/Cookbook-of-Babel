@@ -1,0 +1,59 @@
+{
+  "id": "coffee.steep_grounds",
+  "source": "cookbook_of_babel",
+  "technique": "steep",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "ground_coffee",
+        "amount": {
+          "qty": 60,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "water",
+        "amount": {
+          "qty": 1000,
+          "unit": "ml"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "coffee",
+      "amount": {
+        "qty": 950,
+        "unit": "ml"
+      }
+    },
+    {
+      "ingredient": "spent_coffee_grounds",
+      "amount": {
+        "qty": 55,
+        "unit": "g"
+      },
+      "role": "byproduct"
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 5,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "a coarse drip grind steeped just off the boil",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "the grounds hold back their weight in water"
+    }
+  ]
+}

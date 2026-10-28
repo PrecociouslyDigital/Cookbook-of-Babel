@@ -1,0 +1,44 @@
+{
+  "id": "pasta.dry",
+  "source": "cookbook_of_babel",
+  "technique": "dry",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "raw_pasta",
+        "amount": {
+          "qty": 645,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "pasta",
+      "amount": {
+        "qty": 600,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 12,
+      "unit": "h"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "dried until brittle",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "water loss while drying is estimated"
+    }
+  ]
+}

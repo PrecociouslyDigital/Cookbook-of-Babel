@@ -1,0 +1,41 @@
+{
+  "id": "naan.bake",
+  "source": "cookbook_of_babel",
+  "technique": "bake",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "proofed_naan_dough",
+        "amount": {
+          "qty": 480,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "naan",
+      "amount": {
+        "qty": 430,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "coreTemp",
+    "coreTempC": 95
+  },
+  "environment": {
+    "temperatureC": 250,
+    "medium": "oven_air"
+  },
+  "stateNote": "puffed and browned, usually blistered against the oven wall",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "about 10% mass lost as steam during baking"
+    }
+  ]
+}

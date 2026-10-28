@@ -1,0 +1,44 @@
+{
+  "id": "rice_wafer.steam_sheet",
+  "source": "cookbook_of_babel",
+  "technique": "steam",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "rice_batter",
+        "amount": {
+          "qty": 490,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "rice_paper_sheet",
+      "amount": {
+        "qty": 470,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 5,
+      "unit": "min"
+    }
+  },
+  "environment": {
+    "temperatureC": 100,
+    "medium": "steam"
+  },
+  "stateNote": "steamed into thin sheets",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "condensation and drips lose a little batter"
+    }
+  ]
+}

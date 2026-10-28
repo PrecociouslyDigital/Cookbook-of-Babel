@@ -1,0 +1,50 @@
+{
+  "id": "brandy.distill_wine",
+  "source": "cookbook_of_babel",
+  "technique": "distill",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "wine",
+        "amount": {
+          "qty": 3000,
+          "unit": "ml"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "brandy_spirit",
+      "amount": {
+        "qty": 800,
+        "unit": "ml"
+      }
+    }
+  ],
+  "end": {
+    "by": "both",
+    "coreTempC": 99,
+    "duration": {
+      "qty": 6,
+      "unit": "h"
+    },
+    "sensitivity": {
+      "refTempC": 99,
+      "q10": 1
+    }
+  },
+  "stateNote": "wine distilled slowly, the middle run kept",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "the heart cut comes to roughly a quarter of the wine's volume"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "a slow pot-still run, taken as six hours"
+    }
+  ]
+}

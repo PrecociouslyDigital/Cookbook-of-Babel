@@ -1,0 +1,71 @@
+{
+  "id": "nougat.boil",
+  "source": "cookbook_of_babel",
+  "technique": "boil",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "white_sugar",
+        "amount": {
+          "qty": 400,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "honey",
+        "amount": {
+          "qty": 300,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "egg_white",
+        "amount": {
+          "qty": 80,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "almond",
+        "amount": {
+          "qty": 300,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "nougat",
+      "amount": {
+        "qty": 1000,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "both",
+    "coreTempC": 135,
+    "duration": {
+      "qty": 15,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 135,
+      "q10": 1
+    }
+  },
+  "stateNote": "sugar and honey boiled to the firm-ball stage, then whipped into egg white with almonds",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "water drives off at the firm-ball stage"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "nougat sets between the firm- and hard-ball stages; 135C taken"
+    }
+  ]
+}

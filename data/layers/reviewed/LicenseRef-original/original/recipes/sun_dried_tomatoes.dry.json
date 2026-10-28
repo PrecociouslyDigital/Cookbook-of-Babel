@@ -1,0 +1,44 @@
+{
+  "id": "sun_dried_tomatoes.dry",
+  "source": "cookbook_of_babel",
+  "technique": "dry",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "tomatoes",
+        "amount": {
+          "qty": 1000,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "sun_dried_tomatoes",
+      "amount": {
+        "qty": 200,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 2,
+      "unit": "d"
+    },
+    "sensitivity": {
+      "refTempC": 30,
+      "q10": 2
+    }
+  },
+  "stateNote": "halved, salted, and dried until leathery",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "tomatoes lose roughly four fifths of their mass"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": "dehydrated_broth.dry",
+  "source": "cookbook_of_babel",
+  "technique": "dry",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "bouillon_paste",
+        "amount": {
+          "qty": 390,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "dehydrated_broth",
+      "amount": {
+        "qty": 330,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1,
+      "unit": "d"
+    },
+    "sensitivity": {
+      "refTempC": 30,
+      "q10": 2
+    }
+  },
+  "stateNote": "dried to crumbling granules",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "drying loss guessed"
+    }
+  ]
+}

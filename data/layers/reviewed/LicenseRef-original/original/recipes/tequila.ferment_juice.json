@@ -1,0 +1,58 @@
+{
+  "id": "tequila.ferment_juice",
+  "source": "cookbook_of_babel",
+  "technique": "ferment",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "agave_juice",
+        "amount": {
+          "qty": 1000,
+          "unit": "ml"
+        }
+      },
+      {
+        "ingredient": "water",
+        "amount": {
+          "qty": 500,
+          "unit": "ml"
+        }
+      },
+      {
+        "ingredient": "yeast",
+        "amount": {
+          "qty": 30,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "agave_wort",
+      "amount": {
+        "qty": 1450,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 5,
+      "unit": "d"
+    },
+    "sensitivity": {
+      "refTempC": 30,
+      "q10": 2.5
+    }
+  },
+  "stateNote": "the diluted juice foaming wildly, then settling sweet and sour",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "carbon dioxide carries off part of the must"
+    }
+  ]
+}

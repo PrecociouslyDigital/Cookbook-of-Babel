@@ -1,0 +1,51 @@
+{
+  "id": "sausage.stuff",
+  "source": "cookbook_of_babel",
+  "technique": "assemble",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "sausage_meat",
+        "amount": {
+          "qty": 1000,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "sausage_casing",
+        "amount": {
+          "qty": 50,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "sausage",
+      "amount": {
+        "qty": 1050,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 10,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "meat stuffed into casings and twisted into links",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "a hands-on estimate for filling and linking"
+    }
+  ]
+}

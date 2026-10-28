@@ -1,0 +1,41 @@
+{
+  "id": "stuffed_peppers.bake",
+  "source": "cookbook_of_babel",
+  "technique": "bake",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "unbaked_stuffed_peppers",
+        "amount": {
+          "qty": 1055,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "stuffed_peppers",
+      "amount": {
+        "qty": 980,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "coreTemp",
+    "coreTempC": 85
+  },
+  "environment": {
+    "temperatureC": 180,
+    "medium": "oven_air"
+  },
+  "stateNote": "baked until the peppers are tender and the filling is cooked through",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "about 7% mass lost as steam"
+    }
+  ]
+}

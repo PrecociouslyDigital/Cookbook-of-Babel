@@ -1,0 +1,44 @@
+{
+  "id": "gelatin.dry",
+  "source": "cookbook_of_babel",
+  "technique": "dry",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "concentrated_collagen_broth",
+        "amount": {
+          "qty": 900,
+          "unit": "ml"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "gelatin",
+      "amount": {
+        "qty": 250,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 2,
+      "unit": "d"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "spread thin and dried to brittle sheets",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "a drying estimate for the gelled liquor"
+    }
+  ]
+}

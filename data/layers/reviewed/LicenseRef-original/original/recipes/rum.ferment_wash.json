@@ -1,0 +1,51 @@
+{
+  "id": "rum.ferment_wash",
+  "source": "cookbook_of_babel",
+  "technique": "ferment",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "molasses",
+        "amount": {
+          "qty": 1000,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "water",
+        "amount": {
+          "qty": 2500,
+          "unit": "ml"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "rum_wash",
+      "amount": {
+        "qty": 3350,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 3,
+      "unit": "d"
+    },
+    "sensitivity": {
+      "refTempC": 28,
+      "q10": 2.5
+    }
+  },
+  "stateNote": "a thin black wash gone foamy and sharp",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "carbon dioxide and foam carry off the rest"
+    }
+  ]
+}

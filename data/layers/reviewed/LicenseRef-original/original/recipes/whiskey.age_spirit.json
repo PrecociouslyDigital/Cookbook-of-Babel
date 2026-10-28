@@ -1,0 +1,49 @@
+{
+  "id": "whiskey.age_spirit",
+  "source": "cookbook_of_babel",
+  "technique": "age",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "new_make_spirit",
+        "amount": {
+          "qty": 240,
+          "unit": "ml"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "whiskey",
+      "amount": {
+        "qty": 225,
+        "unit": "ml"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 1095,
+      "unit": "d"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 2
+    }
+  },
+  "stateNote": "three years in charred oak casks",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "the angel's share takes a few percent a year"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "bourbon and scotch age from three years up; the legal minimum taken"
+    }
+  ]
+}

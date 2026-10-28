@@ -1,0 +1,58 @@
+{
+  "id": "hamburger_bun.bake",
+  "source": "cookbook_of_babel",
+  "technique": "bake",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "dough",
+        "amount": {
+          "qty": 500,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "butter",
+        "amount": {
+          "qty": 30,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "white_sugar",
+        "amount": {
+          "qty": 25,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "hamburger_bun",
+      "amount": {
+        "qty": 475,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 18,
+      "unit": "min"
+    }
+  },
+  "environment": {
+    "temperatureC": 200,
+    "medium": "oven_air"
+  },
+  "stateNote": "enriched, proved and baked until golden",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "the enrichment and proof are folded into the bake step"
+    }
+  ]
+}

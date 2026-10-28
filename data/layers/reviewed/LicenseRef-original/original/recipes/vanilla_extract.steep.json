@@ -1,0 +1,56 @@
+{
+  "id": "vanilla_extract.steep",
+  "source": "cookbook_of_babel",
+  "technique": "steep",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "vanilla",
+        "amount": {
+          "qty": 50,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "rum",
+        "amount": {
+          "qty": 750,
+          "unit": "ml"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "vanilla_extract",
+      "amount": {
+        "qty": 750,
+        "unit": "ml"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 90,
+      "unit": "d"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "split vanilla pods steeped dark in rum",
+  "issues": [
+    {
+      "field": "inputs",
+      "kind": "estimate",
+      "note": "rum stands in for the vodka the sketch calls for"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "extraction slows after a month; three months taken"
+    }
+  ]
+}

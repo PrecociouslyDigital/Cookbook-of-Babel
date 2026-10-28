@@ -1,0 +1,49 @@
+{
+  "id": "stockfish.dry",
+  "source": "cookbook_of_babel",
+  "technique": "dry",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "cod",
+        "amount": {
+          "qty": 1000,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "stockfish",
+      "amount": {
+        "qty": 300,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 20,
+      "unit": "d"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "split and hung in cold, dry wind until board-hard",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "stockfish dries to about a third of its round weight"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "weeks of air-drying compressed into the clock"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "id": "potato_chips.fry",
+  "source": "cookbook_of_babel",
+  "technique": "fry",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "soaked_potato_slices",
+        "amount": {
+          "qty": 450,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "vegetable_oil",
+        "amount": {
+          "qty": 500,
+          "unit": "ml"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "potato_chips",
+      "amount": {
+        "qty": 200,
+        "unit": "g"
+      }
+    },
+    {
+      "ingredient": "vegetable_oil",
+      "amount": {
+        "qty": 480,
+        "unit": "g"
+      },
+      "role": "byproduct"
+    }
+  ],
+  "end": {
+    "by": "coreTemp",
+    "coreTempC": 100
+  },
+  "environment": {
+    "temperatureC": 180,
+    "medium": "frying_oil"
+  },
+  "stateNote": "fried until they float, bubble, and turn golden",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "chips lose about half their mass as water and absorb some oil"
+    }
+  ]
+}

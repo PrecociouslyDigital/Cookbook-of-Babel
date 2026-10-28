@@ -1,0 +1,51 @@
+{
+  "id": "sherry.fortify",
+  "source": "cookbook_of_babel",
+  "technique": "mix",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "wine",
+        "amount": {
+          "qty": 3500,
+          "unit": "ml"
+        }
+      },
+      {
+        "ingredient": "brandy",
+        "amount": {
+          "qty": 800,
+          "unit": "ml"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "fortified_wine",
+      "amount": {
+        "qty": 4200,
+        "unit": "ml"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 15,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "brandy stirred into young wine until it holds about seventeen percent alcohol",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "mixing spirit into wine binds a little less volume than the parts sum"
+    }
+  ]
+}

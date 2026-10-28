@@ -1,0 +1,64 @@
+{
+  "id": "beer.mash_malt",
+  "source": "cookbook_of_babel",
+  "technique": "boil",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "malt",
+        "amount": {
+          "qty": 1000,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "water",
+        "amount": {
+          "qty": 3000,
+          "unit": "ml"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "wort",
+      "amount": {
+        "qty": 2000,
+        "unit": "ml"
+      }
+    },
+    {
+      "ingredient": "spent_grain",
+      "amount": {
+        "qty": 1900,
+        "unit": "g"
+      },
+      "role": "byproduct"
+    }
+  ],
+  "environment": {
+    "temperatureC": 65,
+    "medium": "simmering_water"
+  },
+  "end": {
+    "by": "both",
+    "coreTempC": 65,
+    "duration": {
+      "qty": 1,
+      "unit": "h"
+    },
+    "sensitivity": {
+      "refTempC": 65,
+      "q10": 3
+    }
+  },
+  "stateNote": "the crushed malt held just below a simmer to convert its starch",
+  "issues": [
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "mashing held near 65C, where the mash enzymes work fastest"
+    }
+  ]
+}

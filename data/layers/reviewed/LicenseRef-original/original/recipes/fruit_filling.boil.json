@@ -1,0 +1,66 @@
+{
+  "id": "fruit_filling.boil",
+  "source": "cookbook_of_babel",
+  "technique": "boil",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "apple",
+        "amount": {
+          "qty": 900,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "white_sugar",
+        "amount": {
+          "qty": 150,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "starch",
+        "amount": {
+          "qty": 40,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "water",
+        "amount": {
+          "qty": 100,
+          "unit": "ml"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "fruit_filling",
+      "amount": {
+        "qty": 1100,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "both",
+    "coreTempC": 100,
+    "duration": {
+      "qty": 20,
+      "unit": "min"
+    },
+    "sensitivity": {
+      "refTempC": 100,
+      "q10": 1
+    }
+  },
+  "stateNote": "diced apple simmered with sugar and a starch slurry until it thickens",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "twenty minutes of simmering drives off a ninth of the mass"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": "salami.dry",
+  "source": "cookbook_of_babel",
+  "technique": "dry",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "fermented_salami_mix",
+        "amount": {
+          "qty": 1010,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "salami",
+      "amount": {
+        "qty": 750,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 21,
+      "unit": "d"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "stuffed, hung and dried until firm",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "drying sheds roughly a quarter of the mass"
+    }
+  ]
+}

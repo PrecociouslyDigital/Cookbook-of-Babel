@@ -1,0 +1,41 @@
+{
+  "id": "pork_pot_pie.bake",
+  "source": "cookbook_of_babel",
+  "technique": "bake",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "unbaked_pork_pot_pie",
+        "amount": {
+          "qty": 1100,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "pork_pot_pie",
+      "amount": {
+        "qty": 1020,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "coreTemp",
+    "coreTempC": 90
+  },
+  "environment": {
+    "temperatureC": 200,
+    "medium": "oven_air"
+  },
+  "stateNote": "baked until the pastry is golden and the filling bubbles",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "about 7% mass lost as steam"
+    }
+  ]
+}

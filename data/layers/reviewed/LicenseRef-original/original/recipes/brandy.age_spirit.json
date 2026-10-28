@@ -1,0 +1,49 @@
+{
+  "id": "brandy.age_spirit",
+  "source": "cookbook_of_babel",
+  "technique": "age",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "brandy_spirit",
+        "amount": {
+          "qty": 800,
+          "unit": "ml"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "brandy",
+      "amount": {
+        "qty": 750,
+        "unit": "ml"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 730,
+      "unit": "d"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 2
+    }
+  },
+  "stateNote": "two years in oak, ambered and rounded",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "the angel's share takes a few percent a year"
+    },
+    {
+      "field": "end",
+      "kind": "estimate",
+      "note": "oak aging varies from months to decades; two years taken as typical"
+    }
+  ]
+}
