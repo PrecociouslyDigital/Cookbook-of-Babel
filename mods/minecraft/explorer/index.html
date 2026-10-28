@@ -179,6 +179,9 @@ aside.side {
   box-shadow: inset -2px -2px 0 rgba(255,255,255,.25), inset 2px 2px 0 rgba(0,0,0,.35);
 }
 
+.filter-extra { display: flex; align-items: center; gap: 6px; font-size: 12.5px; color: var(--ink-soft); cursor: pointer; }
+.filter-extra input { accent-color: var(--accent); }
+
 .results { flex: 1; min-height: 0; overflow-y: auto; margin: 0 -4px; padding: 0 4px; }
 .results h3 { margin: 4px 0 6px; }
 .row {
@@ -373,6 +376,7 @@ aside.detail {
       <button type="button" data-filter="ingredient" aria-pressed="false">Ingredients</button>
       <button type="button" data-filter="all" aria-pressed="false">Everything</button>
     </div>
+    <label class="filter-extra"><input type="checkbox" id="unsourced"> No in-game item only</label>
     <div class="results" id="results"></div>
     <div class="mods-block">
       <p class="eyebrow" style="margin-bottom:8px">Recipes per mod</p>
@@ -470,7 +474,7 @@ const esc = (s) => String(s).replace(/[&<>"']/g, (c) => `&#${c.charCodeAt(0)};`)
 const capitalise = (s) => s.charAt(0).toUpperCase() + s.slice(1);
 
 let G;
-const view = { root: 0, selected: 0, mode: "up", toggled: new Set(), chosenAlt: new Map(), filter: "dish" };
+const view = { root: 0, selected: 0, mode: "up", toggled: new Set(), chosenAlt: new Map(), filter: "dish", unsourced: false };
 
 function machine(m) {
   /* The condition it works in: a basin's heat, or a transition's temperature band. */
@@ -850,7 +854,8 @@ function renderResults() {
   } else {
     hits = pool.slice().sort((a, b) => view.filter === "dish" ? (G.stepCount.get(b) ?? 0) - (G.stepCount.get(a) ?? 0) : uses(b) - uses(a));
   }
-  const heading = tokens.length ? `${fmt(hits.length)} matches` : view.filter === "dish" ? "Longest recipes" : "Most used";
+  if (view.unsourced) hits = hits.filter((i) => G.kind[i] === "raw" && !G.accepted.has(i));
+  const heading = tokens.length ? `${fmt(hits.length)} matches` : view.unsourced ? "No in-game item" : view.filter === "dish" ? "Longest recipes" : "Most used";
   const rows = hits.slice(0, SEARCH_LIMIT).map((i) => {
     const sub = G.kind[i] === "dish" ? `${fmt(G.stepCount.get(i) ?? 0)} steps${G.dead[i] ? ` · <span class="warn">disabled</span>` : ""}`
       : G.kind[i] === "raw" ? `in ${fmt(uses(i))} recipes · ${G.accepted.has(i) ? `<span class="ok">has in-game item</span>` : `<span class="warn">no in-game item</span>`}`
@@ -862,6 +867,7 @@ function renderResults() {
 
 function bindSearch() {
   $("q").addEventListener("input", renderResults);
+  $("unsourced").addEventListener("change", (e) => { view.unsourced = e.target.checked; renderResults(); });
   $("filter").addEventListener("click", (e) => {
     const f = e.target.closest("[data-filter]")?.dataset.filter;
     if (!f) return;
