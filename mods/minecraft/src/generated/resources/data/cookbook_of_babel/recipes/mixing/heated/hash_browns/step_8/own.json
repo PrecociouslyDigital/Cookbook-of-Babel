@@ -1,0 +1,39 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:mod_loaded",
+        "modid": "croptopia"
+      }
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/hash_browns"
+    }
+  ],
+  "heatRequirement": "heated",
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:hash_browns_step_7\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/hash_browns_step_7"
+      }
+    ]
+  ],
+  "processingTime": 80,
+  "results": [
+    {
+      "item": "cookbook_of_babel:hash_browns"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:smoking",
+  "category": "food",
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:mod_loaded",
+        "modid": "pamhc2foodextended"
+      }
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/soft_sugar_cookies"
+    }
+  ],
+  "cookingtime": 300,
+  "experience": 0.1,
+  "ingredient": [
+    {
+      "type": "forge:partial_nbt",
+      "item": "cookbook_of_babel:substance",
+      "nbt": "{substance:\"cookbook_of_babel:soft_sugar_cookies_step_3\"}"
+    },
+    {
+      "tag": "cookbook_of_babel:ingredients/soft_sugar_cookies_step_3"
+    }
+  ],
+  "result": {
+    "item": "cookbook_of_babel:soft_sugar_cookies"
+  }
+}
