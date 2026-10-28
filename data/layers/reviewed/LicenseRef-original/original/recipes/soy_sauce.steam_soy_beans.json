@@ -1,0 +1,51 @@
+{
+  "id": "soy_sauce.steam_soy_beans",
+  "source": "cookbook_of_babel",
+  "technique": "steam",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "soy_bean",
+        "amount": {
+          "qty": 1000,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "water",
+        "amount": {
+          "qty": 1200,
+          "unit": "ml"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "steamed_soy_bean",
+      "amount": {
+        "qty": 2200,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 100,
+    "medium": "steam"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 4,
+      "unit": "h"
+    }
+  },
+  "stateNote": "soft enough to crush between the fingers",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "soaked and steamed, the beans take up about their own weight in water"
+    }
+  ]
+}

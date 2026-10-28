@@ -1,0 +1,41 @@
+{
+  "type": "vintagedelight:fermenting",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "vintagedelight"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/aged_moromi"
+    }
+  ],
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:moromi\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/moromi"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:moromi\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/moromi"
+      }
+    ]
+  ],
+  "output": {
+    "count": 2,
+    "item": "cookbook_of_babel:substance",
+    "nbt": "{substance:\"cookbook_of_babel:aged_moromi\"}"
+  },
+  "processingTime": 24000
+}

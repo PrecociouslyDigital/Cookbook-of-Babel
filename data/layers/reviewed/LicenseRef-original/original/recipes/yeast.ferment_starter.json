@@ -1,0 +1,44 @@
+{
+  "id": "yeast.ferment_starter",
+  "source": "cookbook_of_babel",
+  "technique": "ferment",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "yeast_starter",
+        "amount": {
+          "qty": 200,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "yeast",
+      "amount": {
+        "qty": 190,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 5,
+      "unit": "d"
+    },
+    "sensitivity": {
+      "refTempC": 24,
+      "q10": 2
+    }
+  },
+  "stateNote": "bubbling, risen and sour-smelling",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "a ripe starter stands in for baker's yeast; it is wild yeast still in its flour and water"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "id": "sugar.drain_molasses",
+  "source": "cookbook_of_babel",
+  "technique": "separate",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "brown_sugar",
+        "amount": {
+          "qty": 1000,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "white_sugar",
+      "amount": {
+        "qty": 850,
+        "unit": "g"
+      }
+    },
+    {
+      "ingredient": "molasses",
+      "amount": {
+        "qty": 110,
+        "unit": "ml"
+      },
+      "role": "byproduct"
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 7,
+      "unit": "d"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "the molasses drained from the loaf until the sugar is white",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "claying left a whiter loaf above and drained the molasses below"
+    }
+  ]
+}

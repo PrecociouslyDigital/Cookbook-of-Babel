@@ -13,7 +13,7 @@ Steps of each technique: all of them, those with a recipe in at least one machin
 | age | 104 | 79 | 0 |
 | ash | 1 | 1 | 0 |
 | assemble | 1011 | 586 | 0 |
-| bake | 904 | 594 | 0 |
+| bake | 905 | 595 | 0 |
 | blend | 427 | 368 | 0 |
 | boil | 921 | 786 | 0 |
 | calcine | 1 | 1 | 0 |
@@ -29,26 +29,26 @@ Steps of each technique: all of them, those with a recipe in at least one machin
 | cut | 671 | 454 | 0 |
 | dissolve | 78 | 71 | 0 |
 | dry | 140 | 103 | 106 |
-| evaporate | 192 | 149 | 0 |
-| ferment | 196 | 153 | 130 |
+| evaporate | 193 | 150 | 0 |
+| ferment | 198 | 155 | 132 |
 | fold | 98 | 88 | 0 |
 | freeze | 33 | 23 | 24 |
 | freezer_burn | 402 | 0 | 402 |
 | fry | 535 | 446 | 0 |
 | grill | 241 | 115 | 0 |
-| grind | 288 | 214 | 0 |
+| grind | 289 | 215 | 0 |
 | heat | 811 | 702 | 0 |
 | julienne | 17 | 11 | 0 |
-| knead | 82 | 72 | 0 |
-| mix | 3309 | 2820 | 0 |
+| knead | 83 | 73 | 0 |
+| mix | 3311 | 2822 | 0 |
 | mold | 206 | 0 | 206 |
 | pan_fry | 1116 | 960 | 0 |
-| press | 77 | 60 | 0 |
+| press | 79 | 62 | 0 |
 | rancid | 43 | 0 | 43 |
 | rinse | 339 | 321 | 0 |
-| roast | 174 | 105 | 0 |
+| roast | 175 | 106 | 0 |
 | season | 1072 | 811 | 0 |
-| separate | 414 | 324 | 0 |
+| separate | 415 | 325 | 0 |
 | shape | 146 | 121 | 0 |
 | simmer | 1319 | 1015 | 0 |
 | smoke | 23 | 15 | 0 |
@@ -57,7 +57,7 @@ Steps of each technique: all of them, those with a recipe in at least one machin
 | spoil | 251 | 0 | 251 |
 | sprout | 6 | 6 | 0 |
 | stale | 319 | 0 | 319 |
-| steam | 190 | 136 | 0 |
+| steam | 191 | 137 | 0 |
 | steep | 96 | 77 | 0 |
 | stir_fry | 324 | 252 | 0 |
 | strain | 348 | 309 | 0 |
@@ -202,7 +202,6 @@ Used by some step, and neither they nor anything that counts as them is made by 
 - `brown_flour` (brown flour)
 - `brown_roux` (brown roux)
 - `brown_stock` (brown stock)
-- `brown_sugar` (brown sugar)
 - `brownie_squares` (brownie squares)
 - `brussels_sprout` (brussels sprout)
 - `bryndza` (bryndza)
@@ -1189,7 +1188,6 @@ Used by some step, and neither they nor anything that counts as them is made by 
 - `sour_cream` (sour cream)
 - `sour_cream_around_fat` (sour cream around fat)
 - `sourdough_starter` (sourdough starter)
-- `soy_bean` (soy)
 - `soy_flour` (soy flour)
 - `soy_lecithin_powder` (soy lecithin powder)
 - `soy_protein` (soy protein)
@@ -1359,7 +1357,6 @@ Used by some step, and neither they nor anything that counts as them is made by 
 - `yam_tubers` (yam tubers)
 - `yanrin` (yanrin)
 - `yardlong_bean` (yardlong bean)
-- `yeast` (yeast)
 - `yeast_extract` (marmite)
 - `yellow_orange_artificial_food_colour` (yellow/orange artificial food colour)
 - `yerba_mate` (yerba mate)
@@ -14103,6 +14100,7 @@ Steps that happen to food while it is kept rather than in a machine: one ingredi
 - `soy_protein.rancid`: spoil, `soy_protein` → `spoiled_food`, 60.9 d (1753920 ticks) at 20 °C, ambient, q10 1.99, only from 0 °C to any
 - `soy_protein_bread.step_5`: held, `soy_protein_bread_step_4` → `soy_protein_bread_step_6`, 25 min (500 ticks) at 20 °C, ambient
 - `soy_protein_bread.step_7`: held, `soy_protein_bread_step_6` → `soy_protein_bread_step_7`, 15 min (300 ticks) at 20 °C, ambient
+- `soy_sauce.age_moromi`: held, `moromi` → `aged_moromi`, 180 d (5184000 ticks) at 25 °C, ambient, q10 2
 - `soy_sauce.mold`: spoil, `soy_sauce` → `spoiled_food`, 1100 d (31680000 ticks) at 20 °C, ambient, q10 2.5, only from 0 °C to any
 - `space_cake.step_7`: held, `space_cake_step_6` → `space_cake`, 1 min (20 ticks) at 20 °C, ambient
 - `spaghetti.stale`: spoil, `spaghetti` → `spoiled_food`, 730 d (21024000 ticks) at 20 °C, ambient, only from 0 °C to any
@@ -14466,6 +14464,7 @@ Steps that happen to food while it is kept rather than in a machine: one ingredi
 - `yam_tubers.spoil`: spoil, `yam_tubers` → `spoiled_food`, 17.1 d (492480 ticks) at 20 °C, ambient, q10 3, only from 0 °C to any
 - `yardlong_bean.freezer_burn`: spoil, `yardlong_bean` → `spoiled_food`, 244 d (7027200 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
 - `yardlong_bean.spoil`: spoil, `yardlong_bean` → `spoiled_food`, 3.87 d (111456 ticks) at 4 °C, chilled, q10 3, only from 0 °C to any
+- `yeast.ferment_starter`: held, `yeast_starter` → `yeast`, 5 d (144000 ticks) at 24 °C, ambient, q10 2
 - `yeast.freezer_burn`: spoil, `yeast` → `spoiled_food`, 183 d (5270400 ticks) at -18 °C, frozen, q10 3, only from any to 0 °C
 - `yeast.stale`: spoil, `yeast` → `spoiled_food`, 730 d (21024000 ticks) at 20 °C, ambient, only from 0 °C to any
 - `yeasted_kifli.step_6`: held, `yeasted_kifli_step_5` → `yeasted_kifli_step_7`, 2 h (2400 ticks) at 20 °C, ambient
@@ -27528,6 +27527,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_heated_mixing: 1 recipe, disabled: the game can't make `brazilian_feijoada_step_7`
 - fd_cooking_pot: 1 recipe, disabled: the game can't make `brazilian_feijoada_step_7`
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
+
+### `bread.bake` (bake)
+
+- smelting: 1 recipe, rounding 21% ⚠
+- smoking: 1 recipe, rounding 21% ⚠
 
 ### `bread.croutons` (toast)
 
@@ -46163,6 +46167,12 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 ### `douchi.mold` (mold)
 
 - transition: written
+
+### `dough.knead` (knead)
+
+- create_mixing: 4 recipes, rounding 14%, estimated
+- shapeless_crafting: none, whole items would distort it by 791%
+- hexerei_mixing_cauldron: none, whole items would distort it by 627%
 
 ### `dovga_azerbaijani_yogurt_soup.step_2` (mix)
 
@@ -107308,9 +107318,41 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - smelting: 1 recipe, rounding 0%
 - smoking: 1 recipe, rounding 0%
 
+### `soy_sauce.age_moromi` (ferment)
+
+- transition: written
+- vd_fermenting_jar: 1 recipe, rounding 7%
+- bnc_keg: none, can't make the mod's own aged_moromi, and no other mod provides it
+- pnc_thermo_plant: none, doesn't fit in 1 input items, 1 of each, and 1000 mB tanks at any scale
+- theurgy_fermentation: none, needs a fluid it can take, and has none
+
+### `soy_sauce.mix_moromi` (mix)
+
+- create_mixing: 1 recipe, rounding 14%, estimated
+- shapeless_crafting: none, whole items would distort it by 122%
+- hexerei_mixing_cauldron: 1 recipe, rounding 78% ⚠, estimated
+
 ### `soy_sauce.mold` (mold)
 
 - transition: written
+
+### `soy_sauce.press` (press)
+
+- create_item_drain: none, doesn't fit in 1 input items, 1 of each, and 1000 mB tanks at any scale
+- create_mixing: 1 recipe, rounding 15%
+- thermal_press: none, doesn't fit in 1 input items, 1 of each, and 1000 mB tanks at any scale
+
+### `soy_sauce.roast_wheat` (roast)
+
+- smelting: 1 recipe, rounding 5%, estimated
+- smoking: 1 recipe, rounding 5%, estimated
+- thermal_smelter: 1 recipe, rounding 5%, estimated
+
+### `soy_sauce.steam_soy_beans` (steam)
+
+- create_heated_mixing: 1 recipe, rounding 10%
+- fd_cooking_pot: 1 recipe, rounding 10%
+- hexerei_mixing_cauldron: 1 recipe, rounding 15%
 
 ### `soy_sauce_chicken.step_1` (pan_fry)
 
@@ -111834,6 +111876,22 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 ### `sudanese_ful_medames.step_4` (blend)
 
 - create_mixing: 1 recipe, rounding 0%, estimated
+
+### `sugar.boil_juice` (evaporate)
+
+- create_heated_mixing: 1 recipe, rounding 7%, estimated
+
+### `sugar.drain_molasses` (separate)
+
+- create_item_drain: none, whole items would distort it by 508%
+- create_mixing: 1 recipe, rounding 13%, estimated
+- thermal_centrifuge: none, whole items would distort it by 508%
+
+### `sugar.press_cane` (press)
+
+- create_item_drain: 1 recipe, rounding 14%
+- create_mixing: 1 recipe, rounding 14%
+- thermal_press: 1 recipe, rounding 14%
 
 ### `sugar_pie.step_3` (mix)
 
@@ -122162,6 +122220,11 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 - transition: written
 
+### `wheat_flour.grind_wheat` (grind)
+
+- create_milling: 5 recipes, rounding 8%, estimated
+- hexerei_pestle_and_mortar: 5 recipes, rounding 8%, estimated
+
 ### `wheat_flour.stale` (stale)
 
 - transition: written
@@ -123204,9 +123267,23 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 - create_deploying: 1 recipe, rounding 0%, estimated
 - hexerei_mixing_cauldron: none, needs a fluid it can take, and has none
 
+### `yeast.ferment_starter` (ferment)
+
+- transition: written
+- vd_fermenting_jar: 1 recipe, rounding 5%, estimated
+- bnc_keg: none, can't make the mod's own yeast, and no other mod provides it
+- pnc_thermo_plant: 1 recipe, rounding 4%, estimated
+- theurgy_fermentation: none, needs a fluid it can take, and has none
+
 ### `yeast.freezer_burn` (freezer_burn)
 
 - transition: written
+
+### `yeast.mix_starter` (mix)
+
+- create_mixing: 3 recipes, rounding 4%
+- shapeless_crafting: 1 recipe, rounding 6%
+- hexerei_mixing_cauldron: 1 recipe, rounding 14%
 
 ### `yeast.stale` (stale)
 
