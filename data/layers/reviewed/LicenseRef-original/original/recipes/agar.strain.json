@@ -1,0 +1,52 @@
+{
+  "id": "agar.strain",
+  "source": "cookbook_of_babel",
+  "technique": "separate",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "agar_broth",
+        "amount": {
+          "qty": 500,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "strained_agar_broth",
+      "amount": {
+        "qty": 140,
+        "unit": "g"
+      }
+    },
+    {
+      "ingredient": "water",
+      "amount": {
+        "qty": 350,
+        "unit": "ml"
+      },
+      "role": "byproduct"
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 2,
+      "unit": "h"
+    },
+    "sensitivity": {
+      "refTempC": 20,
+      "q10": 1
+    }
+  },
+  "stateNote": "the set gel strained from the spent seaweed and water",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "only a sliver of the simmered seaweed dissolves into gel"
+    }
+  ]
+}

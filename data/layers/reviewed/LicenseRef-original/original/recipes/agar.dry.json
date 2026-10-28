@@ -5,9 +5,9 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "agar_broth",
+        "ingredient": "strained_agar_broth",
         "amount": {
-          "qty": 3200,
+          "qty": 140,
           "unit": "g"
         }
       }
@@ -29,7 +29,7 @@
   "end": {
     "by": "time",
     "duration": {
-      "qty": 12,
+      "qty": 24,
       "unit": "h"
     },
     "sensitivity": {
@@ -37,12 +37,17 @@
       "q10": 1
     }
   },
-  "stateNote": "the strained broth set and dried to brittle translucent strips",
+  "stateNote": "the set gel dried to brittle sheets",
   "issues": [
     {
       "field": "outputs",
       "kind": "estimate",
       "note": "only a few grams of agar dissolve out of each litre of broth"
+    },
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "drying the gel down to pure agar"
     }
   ]
 }
