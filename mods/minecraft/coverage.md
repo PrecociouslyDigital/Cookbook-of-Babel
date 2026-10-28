@@ -83,7 +83,6 @@ Used by some step, and neither they nor anything that counts as them is made by 
 - `aji_dulce` (ají dulce)
 - `aji_limo` (aji limo)
 - `ajinomoto` (ajinomoto)
-- `ajwain` (ajwain)
 - `akamu_paste` (akamu paste)
 - `akpi` (akpi)
 - `alcaparrado` (alcaparrado)
@@ -103,7 +102,6 @@ Used by some step, and neither they nor anything that counts as them is made by 
 - `anchovy_paste` (anchovy paste)
 - `angostura_bitters` (angostura bitters)
 - `animal_blood` (animal blood)
-- `anise` (anise)
 - `applewood_chunks` (applewood chunks)
 - `arbol_chiles` (arbol chiles)
 - `arborio_rice` (arborio rice)
@@ -233,7 +231,6 @@ Used by some step, and neither they nor anything that counts as them is made by 
 - `canned_pineapple_juice` (canned pineapple juice)
 - `canned_pork_and_beans` (canned pork and beans)
 - `cannoli_shells` (cannoli shells)
-- `caper` (caper)
 - `capers` (capers)
 - `cara_cara_orange` (cara cara orange)
 - `caramel_sauce` (caramel sauce)
@@ -385,7 +382,6 @@ Used by some step, and neither they nor anything that counts as them is made by 
 - `cubes_of_mushroom_base` (cubes of mushroom base)
 - `cuisine_of_california` (california cuisine)
 - `cuisine_of_italy` (cuisine of italy)
-- `culantro` (culantro)
 - `cumin_seeds` (cumin seeds)
 - `curd` (curd)
 - `cured_anchovies` (cured anchovies)
@@ -459,7 +455,6 @@ Used by some step, and neither they nor anything that counts as them is made by 
 - `enoki_mushroom` (enoki mushroom)
 - `enoki_mushrooms` (enoki mushrooms)
 - `envelope_vegetable_soup_mix` (envelope vegetable soup mix)
-- `epazote` (epazote)
 - `espagnole_sauce` (espagnole sauce)
 - `eulachon` (eulachon)
 - `falafel_mix` (falafel mix)
@@ -565,7 +560,6 @@ Used by some step, and neither they nor anything that counts as them is made by 
 - `grain_musk` (grain musk)
 - `grain_rice` (grain rice)
 - `grains` (grains)
-- `grains_of_paradise` (grains of paradise)
 - `granola_bar` (granola bar)
 - `granulated_garlic` (granulated garlic)
 - `grape_leaf` (grape leaf)
@@ -699,7 +693,6 @@ Used by some step, and neither they nor anything that counts as them is made by 
 - `lamb_and_mutton` (lamb)
 - `lard` (lard)
 - `lavash` (lavash)
-- `lavender` (lavender)
 - `leafy_green_vegetables` (leafy green vegetables)
 - `lean_beef` (lean beef)
 - `leaves` (leaves)
@@ -711,11 +704,9 @@ Used by some step, and neither they nor anything that counts as them is made by 
 - `lemon_peel` (lemon peel)
 - `lemon_pepper` (lemon pepper)
 - `lemon_slice` (lemon slice)
-- `lemon_verbena` (lemon verbena)
 - `lemon_wedges` (lemon wedges)
 - `lemonade_flavored_kool_aid` (lemonade-flavored kool-aid)
 - `lemongrass` (lemongrass)
-- `licorice` (licorice)
 - `light_molasses` (light molasses)
 - `light_soy_sauce` (light soy sauce)
 - `lily_bulbs` (lily bulbs)
@@ -740,7 +731,6 @@ Used by some step, and neither they nor anything that counts as them is made by 
 - `long_island_roast_duckling` (roast duck)
 - `loroco` (loroco)
 - `lotus_root` (lotus root)
-- `lovage` (lovage)
 - `low_sodium_cooking` (low-sodium cooking)
 - `lumpia_spring_roll_wrappers` (lumpia/spring roll wrappers)
 - `macaroni` (macaroni)
@@ -1043,7 +1033,6 @@ Used by some step, and neither they nor anything that counts as them is made by 
 - `room_temperature_milk` (room temperature milk)
 - `rose_leaves` (rose leaves)
 - `rosehip` (rosehip)
-- `roselle` (ashwe)
 - `rosewater` (rosewater)
 - `rougag` (rougag)
 - `round_brisket_of_corned_beef` (round/brisket of corned beef)
@@ -1074,7 +1063,6 @@ Used by some step, and neither they nor anything that counts as them is made by 
 - `sauteed_vegetables` (sautéed vegetables)
 - `sazon` (sazón)
 - `scallop` (scallop)
-- `scent_leaf` (scent leaf)
 - `scent_leaves` (scent leaves)
 - `schmaltz` (schmaltz)
 - `schnapps` (schnapps)
@@ -1187,7 +1175,6 @@ Used by some step, and neither they nor anything that counts as them is made by 
 - `starch_based_creamer` (starch-based creamer)
 - `steak_sauce` (steak sauce)
 - `stem_ginger_in_syrup` (stem ginger in syrup)
-- `stevia` (stevia)
 - `stew_bones` (stew bones)
 - `stockfish` (stockfish)
 - `store_bought_gyoza_wonton_wrappers` (store-bought gyoza/wonton wrappers)
@@ -1210,7 +1197,6 @@ Used by some step, and neither they nor anything that counts as them is made by 
 - `sweeteners` (sweeteners)
 - `sweetfish` (sweetfish)
 - `syrup` (syrup)
-- `szechuan_pepper` (szechuan pepper)
 - `taco_mix` (taco mix)
 - `taco_seasoning` (taco seasoning)
 - `taco_seasoning_mix` (taco seasoning mix)
@@ -1321,7 +1307,6 @@ Used by some step, and neither they nor anything that counts as them is made by 
 - `yardlong_bean` (yardlong bean)
 - `yeast_extract` (marmite)
 - `yellow_orange_artificial_food_colour` (yellow/orange artificial food colour)
-- `yerba_mate` (yerba mate)
 - `za_atar` (za'atar)
 - `zest` (zest)
 - `zest_from_juiced_lemons` (zest from juiced lemons)
@@ -1331,34 +1316,49 @@ Used by some step, and neither they nor anything that counts as them is made by 
 
 Spices no mapped mod grows, which the mod plants itself (`cookbook_of_babel/spice_gardens.json`), and the HarvestCraft 2 gardens their seeds drop from.
 
+- `ajwain` (ajwain): arid
 - `allspice` (allspice): tropical
+- `anise` (anise): arid, windy
 - `annatto` (annatto): tropical
 - `asafoetida` (asafoetida): arid
 - `bay_leaf` (bay leaf): arid
+- `caper` (caper): arid
 - `caraway` (caraway): frost, windy
 - `cardamom` (cardamom): tropical
 - `chive` (chive): frost, shaded, windy
 - `cilantro` (cilantro): arid, windy
 - `clove` (clove): tropical
 - `coriander` (coriander): arid, windy
+- `culantro` (culantro): soggy, tropical
 - `cumin` (cumin): arid
 - `curry_leaf` (curry leaf): tropical
 - `dill` (dill): frost, windy
+- `epazote` (epazote): arid, tropical
 - `fennel` (fennel): arid, windy
 - `fenugreek` (fenugreek): arid
 - `galangal` (galangal): soggy, tropical
+- `grains_of_paradise` (grains of paradise): tropical
+- `lavender` (lavender): arid, windy
+- `lemon_verbena` (lemon verbena): arid
+- `licorice` (licorice): arid, windy
+- `lovage` (lovage): shaded, windy
 - `marjoram` (marjoram): arid
 - `nigella` (nigella): arid
 - `oregano` (oregano): arid
 - `pandan` (pandan): soggy, tropical
 - `parsley` (parsley): shaded, windy
 - `poppy_seed` (poppy seed): windy
+- `roselle` (ashwe): tropical
 - `rosemary` (rosemary): arid
 - `savory` (savory): arid, shaded
+- `scent_leaf` (scent leaf): tropical
 - `star_anise` (star anise): shaded, tropical
+- `stevia` (stevia): tropical
 - `sumac` (sumac): arid
+- `szechuan_pepper` (szechuan pepper): shaded
 - `tarragon` (tarragon): shaded, windy
 - `thyme` (thyme): arid
+- `yerba_mate` (yerba mate): tropical
 
 ## Merged ingredients
 
