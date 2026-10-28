@@ -42282,7 +42282,7 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 - vd_fermenting_jar: 2 recipes, rounding 1%, estimated
 - bnc_keg: 1 recipe, rounding 1%, drops `argol`
-- pnc_thermo_plant: 1 recipe, rounding 1%, estimated
+- pnc_thermo_plant: 2 recipes, rounding 1%, estimated
 - theurgy_fermentation: none, needs a fluid it can take, and has none
 
 ### `cream_of_wheat.stale` (stale)
@@ -107338,8 +107338,8 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `soy_sauce.press` (press)
 
-- create_item_drain: none, doesn't fit in 1 input items, 1 of each, and 1000 mB tanks at any scale
-- create_mixing: 1 recipe, rounding 15%
+- create_item_drain: none, the item drain takes one item and yields one item and one fluid
+- create_mixing: 3 recipes, rounding 7%
 - thermal_press: none, doesn't fit in 1 input items, 1 of each, and 1000 mB tanks at any scale
 
 ### `soy_sauce.roast_wheat` (roast)
@@ -111883,9 +111883,9 @@ No routes: it should happen over time, but it isn't one ingredient becoming anot
 
 ### `sugar.drain_molasses` (separate)
 
-- create_item_drain: none, whole items would distort it by 508%
-- create_mixing: 1 recipe, rounding 13%, estimated
-- thermal_centrifuge: none, whole items would distort it by 508%
+- create_item_drain: none, the item drain takes one item and yields one item and one fluid
+- create_mixing: 1 recipe, rounding 14%, estimated
+- thermal_centrifuge: none, whole items would distort it by 582%
 
 ### `sugar.press_cane` (press)
 

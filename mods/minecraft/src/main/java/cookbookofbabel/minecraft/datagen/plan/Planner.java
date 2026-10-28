@@ -121,8 +121,11 @@ public final class Planner {
         for (var output : concat(products, byproducts)) {
             var ingredient = output.ingredient();
             var nbt = route.nbt.onResults();
+            // The mod's own fluid recipe only loads while the ingredient's `external` tag is empty, so an
+            // ingredient another mod maps only to an item must come out as that item.
+            var onlyAnItem = provided.items().contains(ingredient) && !provided.fluids().contains(ingredient);
             var asFluid = dataset.container(ingredient).isPresent() && fluidOutputs.size() < c.maxFluidOutputs()
-                    && (nbt || provided.fluids().contains(ingredient));
+                    && !onlyAnItem && (nbt || provided.fluids().contains(ingredient));
             var asItem = outputs.size() - fluidOutputs.size() < c.maxItemOutputs() && (nbt || provided.items().contains(ingredient));
             var fits = (asFluid || asItem) && outputs.size() < c.maxOutputs();
             var rollable = output.chance().isEmpty() || c.chanceOutputs();
