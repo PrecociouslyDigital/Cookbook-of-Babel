@@ -12,6 +12,10 @@ public enum RouteKind {
     CREATE_HEATED_MIXING(Mod.CREATE, new Constraints(64, 2, 4, 2, true, 20, 400).fluidsAlone()),
     /** A mechanical press over a basin. */
     CREATE_COMPACTING(Mod.CREATE, new Constraints(64, 2, 4, 2, true, 20, 400).fluidsAlone()),
+    /** The mechanical press alone: one item at a time stamps into one thing. */
+    CREATE_PRESS(Mod.CREATE, new Constraints(1, 0, 1, 0, false, 20, 1200)),
+    /** The filling spout: any solid dunked in any one fluid comes out coated. */
+    CREATE_SPOUT(Mod.CREATE, new Constraints(1, 1, 1, 0, false, 20, 1200).needsFluid()),
     SHAPELESS_CRAFTING(Mod.MINECRAFT, new Constraints(9, 0, 1, 0, false, 0, 0)),
     FD_COOKING_POT(Mod.FARMERS_DELIGHT, new Constraints(6, 0, 1, 0, false, 100, 1200)),
     /**

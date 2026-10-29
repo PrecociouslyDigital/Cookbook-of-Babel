@@ -1,10 +1,12 @@
 package cookbookofbabel.minecraft.datagen.recipe;
 
 import com.simibubi.create.content.fluids.transfer.EmptyingRecipe;
+import com.simibubi.create.content.fluids.transfer.FillingRecipe;
 import com.google.gson.JsonObject;
 import com.simibubi.create.content.kinetics.deployer.DeployerApplicationRecipe;
 import com.simibubi.create.content.kinetics.fan.processing.SplashingRecipe;
 import com.simibubi.create.content.kinetics.millstone.MillingRecipe;
+import com.simibubi.create.content.kinetics.press.PressingRecipe;
 import com.simibubi.create.content.kinetics.mixer.CompactingRecipe;
 import com.simibubi.create.content.kinetics.mixer.MixingRecipe;
 import com.simibubi.create.content.kinetics.saw.CuttingRecipe;
@@ -171,6 +173,8 @@ public final class RouteEmitter {
         Runnable emit = switch (route) {
             case CREATE_MIXING, CREATE_HEATED_MIXING -> () -> create(MixingRecipe::new, route == RouteKind.CREATE_HEATED_MIXING ? "heated/" + path : path, p, items, counts, fluids, outputs, conditions, sink);
             case CREATE_COMPACTING -> () -> create(CompactingRecipe::new, path, p, items, counts, fluids, outputs, conditions, sink);
+            case CREATE_PRESS -> () -> create(PressingRecipe::new, path, p, items, counts, fluids, outputs, conditions, sink);
+            case CREATE_SPOUT -> () -> create(FillingRecipe::new, path, p, items, counts, fluids, outputs, conditions, sink);
             case CREATE_MILLING -> () -> create(MillingRecipe::new, path, p, items, counts, fluids, outputs, conditions, sink);
             case CREATE_CUTTING -> () -> create(CuttingRecipe::new, path, p, items, counts, fluids, outputs, conditions, sink);
             case CREATE_ITEM_DRAIN -> () -> create(EmptyingRecipe::new, path, p, items, counts, fluids, outputs, conditions, sink);

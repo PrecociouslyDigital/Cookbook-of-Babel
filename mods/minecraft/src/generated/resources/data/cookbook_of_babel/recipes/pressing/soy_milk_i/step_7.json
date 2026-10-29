@@ -1,0 +1,40 @@
+{
+  "type": "create:pressing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/soy_milk_i_step_7"
+    }
+  ],
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:portion",
+        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:liquid\",Tag:{substance:\"cookbook_of_babel:soy_milk_i_step_5\"}}}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/soy_milk_i_step_5"
+      }
+    ]
+  ],
+  "processingTime": 20,
+  "results": [
+    {
+      "item": "cookbook_of_babel:portion",
+      "nbt": {
+        "Fluid": {
+          "Amount": 250,
+          "FluidName": "cookbook_of_babel:liquid",
+          "Tag": {
+            "substance": "cookbook_of_babel:soy_milk_i_step_7"
+          }
+        }
+      }
+    }
+  ]
+}

@@ -23,6 +23,8 @@ import static cookbookofbabel.minecraft.datagen.plan.RouteKind.GARNISHED_FREEZIN
 import static cookbookofbabel.minecraft.datagen.plan.RouteKind.SHAPELESS_CRAFTING;
 import static cookbookofbabel.minecraft.datagen.plan.RouteKind.SMELTING;
 import static cookbookofbabel.minecraft.datagen.plan.RouteKind.SMOKING;
+import static cookbookofbabel.minecraft.datagen.plan.RouteKind.CREATE_PRESS;
+import static cookbookofbabel.minecraft.datagen.plan.RouteKind.CREATE_SPOUT;
 import static cookbookofbabel.minecraft.datagen.plan.RouteKind.THERMAL_BOTTLER;
 import static cookbookofbabel.minecraft.datagen.plan.RouteKind.THERMAL_CENTRIFUGE;
 import static cookbookofbabel.minecraft.datagen.plan.RouteKind.THERMAL_CHILLER;
@@ -73,13 +75,14 @@ public final class Techniques {
             bind("soak", CREATE_MIXING, CREATE_SPLASHING),
             bind("steep", CREATE_MIXING, CREATE_SPLASHING, FR_KETTLE, THEURGY_LIQUEFACTION),
             bind("separate", CREATE_ITEM_DRAIN, CREATE_MIXING, THERMAL_CENTRIFUGE),
-            bind("press", CREATE_ITEM_DRAIN, CREATE_MIXING, THERMAL_PRESS),
+            bind("press", CREATE_ITEM_DRAIN, CREATE_MIXING, CREATE_PRESS, THERMAL_PRESS),
             bind("churn", CREATE_MIXING, THERMAL_CENTRIFUGE),
             // A heated basin boils the wash and collects what comes off as a fluid.
             bind("distill", CREATE_HEATED_MIXING),
             bind("coagulate", CREATE_MIXING),
             bind("assemble", ASSEMBLY),
-            bind("coat", ASSEMBLY, THERMAL_BOTTLER),
+            // The spout coats anything with any liquid; the cauldron and crafting grid do the rest.
+            bind("coat", ASSEMBLY, CREATE_SPOUT, THERMAL_BOTTLER),
             bind("shape", ASSEMBLY, CREATE_COMPACTING),
             // Calcining gives off a gas, which only a basin can collect.
             bind("calcine", CREATE_HEATED_MIXING, BLASTING, THEURGY_CALCINATION),

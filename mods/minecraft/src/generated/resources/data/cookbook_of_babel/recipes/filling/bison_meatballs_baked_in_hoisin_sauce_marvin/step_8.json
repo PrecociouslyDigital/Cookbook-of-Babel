@@ -1,0 +1,44 @@
+{
+  "type": "create:filling",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/bison_meatballs_baked_in_hoisin_sauce_marvin_step_8"
+    },
+    {
+      "type": "forge:false"
+    }
+  ],
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:bison_meatballs_baked_in_hoisin_sauce_marvin_step_7\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/bison_meatballs_baked_in_hoisin_sauce_marvin_step_7"
+      }
+    ],
+    {
+      "amount": 1,
+      "fluid": "cookbook_of_babel:liquid",
+      "nbt": {
+        "substance": "cookbook_of_babel:hoisin_sauce"
+      }
+    }
+  ],
+  "processingTime": 20,
+  "results": [
+    {
+      "item": "cookbook_of_babel:substance",
+      "nbt": {
+        "substance": "cookbook_of_babel:bison_meatballs_baked_in_hoisin_sauce_marvin_step_8"
+      }
+    }
+  ]
+}

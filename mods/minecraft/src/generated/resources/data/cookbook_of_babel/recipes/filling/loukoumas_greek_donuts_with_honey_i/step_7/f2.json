@@ -1,0 +1,40 @@
+{
+  "type": "create:filling",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/loukoumas_greek_donuts_with_honey_i"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "brewinandchewin"
+    }
+  ],
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:loukoumas_greek_donuts_with_honey_i_step_6\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/loukoumas_greek_donuts_with_honey_i_step_6"
+      }
+    ],
+    {
+      "amount": 1,
+      "fluid": "brewinandchewin:honey",
+      "nbt": {}
+    }
+  ],
+  "processingTime": 20,
+  "results": [
+    {
+      "item": "cookbook_of_babel:loukoumas_greek_donuts_with_honey_i"
+    }
+  ]
+}

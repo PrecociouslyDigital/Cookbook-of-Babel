@@ -1,0 +1,48 @@
+{
+  "type": "create:filling",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/pumpkin_bread_ii_step_8"
+    }
+  ],
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:garnish\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/garnish"
+      }
+    ],
+    {
+      "amount": 441,
+      "fluid": "cookbook_of_babel:liquid",
+      "nbt": {
+        "substance": "cookbook_of_babel:pumpkin_bread_ii_step_7"
+      }
+    }
+  ],
+  "processingTime": 20,
+  "results": [
+    {
+      "count": 2,
+      "item": "cookbook_of_babel:portion",
+      "nbt": {
+        "Fluid": {
+          "Amount": 250,
+          "FluidName": "cookbook_of_babel:liquid",
+          "Tag": {
+            "substance": "cookbook_of_babel:pumpkin_bread_ii_step_8"
+          }
+        }
+      }
+    }
+  ]
+}

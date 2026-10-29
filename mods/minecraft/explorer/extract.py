@@ -34,7 +34,7 @@ SINGLE_INPUTS = ("ingredient", "item_input", "fluid_input", "tool", "solvent", "
 AMOUNT_KEYS = {"solvent": "solvent_amount", "fluid": "fluidAmount", "liquid": "fluidLevelsConsumed"}
 # Hexerei's cauldron also names a liquidOutput: what's left of its liquid, not a product.
 OUTPUTS = ("result", "results", "output", "item_output", "fluid_output", "secondaryOutput")
-TRANSITION_MACHINES = {"held": NS + "storage", "spoil": NS + "spoiling"}
+TRANSITION_MACHINES = {"held": NS + "storage"}
 
 
 def babel_ref(entry):

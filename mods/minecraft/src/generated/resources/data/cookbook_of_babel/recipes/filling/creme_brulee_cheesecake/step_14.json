@@ -1,0 +1,41 @@
+{
+  "type": "create:filling",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/creme_brulee_cheesecake_step_14"
+    }
+  ],
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:creme_brulee_cheesecake_step_13\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/creme_brulee_cheesecake_step_13"
+      }
+    ],
+    {
+      "amount": 155,
+      "fluid": "cookbook_of_babel:bulk",
+      "nbt": {
+        "substance": "cookbook_of_babel:white_sugar"
+      }
+    }
+  ],
+  "processingTime": 20,
+  "results": [
+    {
+      "item": "cookbook_of_babel:substance",
+      "nbt": {
+        "substance": "cookbook_of_babel:creme_brulee_cheesecake_step_14"
+      }
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "type": "create:filling",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/glazed_sweet_potatoes_step_2"
+    }
+  ],
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:sweet_potato\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/sweet_potato"
+      }
+    ],
+    {
+      "amount": 16,
+      "fluid": "cookbook_of_babel:liquid",
+      "nbt": {
+        "substance": "cookbook_of_babel:glazed_sweet_potatoes_step_1"
+      }
+    }
+  ],
+  "processingTime": 200,
+  "results": [
+    {
+      "count": 3,
+      "item": "cookbook_of_babel:substance",
+      "nbt": {
+        "substance": "cookbook_of_babel:glazed_sweet_potatoes_step_2"
+      }
+    }
+  ]
+}

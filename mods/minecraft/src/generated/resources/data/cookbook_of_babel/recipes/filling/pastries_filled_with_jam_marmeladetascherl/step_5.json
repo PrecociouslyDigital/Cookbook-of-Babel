@@ -1,0 +1,41 @@
+{
+  "type": "create:filling",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/pastries_filled_with_jam_marmeladetascherl_step_5"
+    }
+  ],
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:pastries_filled_with_jam_marmeladetascherl_step_4\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/pastries_filled_with_jam_marmeladetascherl_step_4"
+      }
+    ],
+    {
+      "amount": 28,
+      "fluid": "cookbook_of_babel:liquid",
+      "nbt": {
+        "substance": "cookbook_of_babel:egg_white"
+      }
+    }
+  ],
+  "processingTime": 20,
+  "results": [
+    {
+      "item": "cookbook_of_babel:substance",
+      "nbt": {
+        "substance": "cookbook_of_babel:pastries_filled_with_jam_marmeladetascherl_step_5"
+      }
+    }
+  ]
+}

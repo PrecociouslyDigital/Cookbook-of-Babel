@@ -1,0 +1,38 @@
+{
+  "type": "create:filling",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/chinese_chews_nut_and_date_bars"
+    }
+  ],
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:chinese_chews_nut_and_date_bars_step_5\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/chinese_chews_nut_and_date_bars_step_5"
+      }
+    ],
+    {
+      "amount": 1,
+      "fluid": "cookbook_of_babel:bulk",
+      "nbt": {
+        "substance": "cookbook_of_babel:white_sugar"
+      }
+    }
+  ],
+  "processingTime": 20,
+  "results": [
+    {
+      "item": "cookbook_of_babel:chinese_chews_nut_and_date_bars"
+    }
+  ]
+}
