@@ -1,0 +1,54 @@
+{
+  "type": "hexerei:mixingcauldron",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "hexerei"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/chivito_uruguayan_beef_sandwich_step_4"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "pneumaticcraft"
+    }
+  ],
+  "fluidLevelsConsumed": 14,
+  "heatRequirement": "heated",
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:chivito_uruguayan_beef_sandwich_step_3\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/chivito_uruguayan_beef_sandwich_step_3"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:egg_fry\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/egg_fry"
+      }
+    ]
+  ],
+  "liquid": {
+    "amount": 14,
+    "fluid": "pneumaticcraft:vegetable_oil"
+  },
+  "liquidOutput": {
+    "amount": 14,
+    "fluid": "pneumaticcraft:vegetable_oil"
+  },
+  "output": {
+    "count": 1,
+    "item": "cookbook_of_babel:substance",
+    "nbt": "{substance:\"cookbook_of_babel:chivito_uruguayan_beef_sandwich_step_4\"}"
+  }
+}

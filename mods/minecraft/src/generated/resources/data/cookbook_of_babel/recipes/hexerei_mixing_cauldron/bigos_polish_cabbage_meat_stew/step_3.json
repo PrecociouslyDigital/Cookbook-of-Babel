@@ -1,0 +1,77 @@
+{
+  "type": "hexerei:mixingcauldron",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "hexerei"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/bigos_polish_cabbage_meat_stew_step_3"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "pneumaticcraft"
+    },
+    {
+      "type": "forge:false"
+    }
+  ],
+  "fluidLevelsConsumed": 2,
+  "heatRequirement": "heated",
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:portion",
+        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:liquid\",Tag:{substance:\"cookbook_of_babel:bigos_polish_cabbage_meat_stew_step_2\"}}}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/bigos_polish_cabbage_meat_stew_step_2"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:portion",
+        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:liquid\",Tag:{substance:\"cookbook_of_babel:bigos_polish_cabbage_meat_stew_step_2\"}}}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/bigos_polish_cabbage_meat_stew_step_2"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:pork_chop\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/pork_chop"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:sausage_chop\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/sausage_chop"
+      }
+    ]
+  ],
+  "liquid": {
+    "amount": 2,
+    "fluid": "pneumaticcraft:vegetable_oil"
+  },
+  "liquidOutput": {
+    "amount": 2,
+    "fluid": "pneumaticcraft:vegetable_oil"
+  },
+  "output": {
+    "count": 12,
+    "item": "cookbook_of_babel:substance",
+    "nbt": "{substance:\"cookbook_of_babel:bigos_polish_cabbage_meat_stew_step_3\"}"
+  }
+}

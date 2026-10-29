@@ -7,10 +7,12 @@ import cookbookofbabel.minecraft.spice.SpiceGardenModifier;
 import cookbookofbabel.minecraft.spice.SpiceGardens;
 import cookbookofbabel.minecraft.spice.SpiceOfCrop;
 import cookbookofbabel.minecraft.substance.Substances;
+import cookbookofbabel.minecraft.veal.VealModifier;
 import java.util.List;
 import java.util.Set;
 import net.minecraft.advancements.critereon.StatePropertiesPredicate;
 import net.minecraft.data.PackOutput;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.data.loot.BlockLootSubProvider;
 import net.minecraft.data.loot.LootTableProvider;
 import net.minecraft.world.flag.FeatureFlags;
@@ -103,7 +105,10 @@ final class SpiceCropGen {
         }
     }
 
-    /** One modifier per garden that grows any planted spice. */
+    /**
+     * Every global loot modifier: one per garden that grows any planted spice, and the calf that
+     * drops veal.
+     */
     static final class Gardens extends GlobalLootModifierProvider {
         Gardens(PackOutput output) {
             super(output, CookbookOfBabel.ID);
@@ -120,6 +125,9 @@ final class SpiceCropGen {
                     }, spices));
                 }
             }
+            add("veal", new VealModifier(new LootItemCondition[] {
+                LootTableIdCondition.builder(new ResourceLocation("entities/cow")).build()
+            }));
         }
     }
 }

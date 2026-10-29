@@ -1,0 +1,41 @@
+{
+  "type": "pneumaticcraft:thermo_plant",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "pneumaticcraft"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/assorted_meat_boil_fry"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "pneumaticcraft"
+    }
+  ],
+  "fluid_input": {
+    "type": "pneumaticcraft:fluid",
+    "amount": 1,
+    "fluid": "pneumaticcraft:vegetable_oil",
+    "fuzzyNBT": false
+  },
+  "item_input": [
+    {
+      "type": "forge:partial_nbt",
+      "item": "cookbook_of_babel:substance",
+      "nbt": "{substance:\"cookbook_of_babel:assorted_meat_boil\"}"
+    },
+    {
+      "tag": "cookbook_of_babel:ingredients/assorted_meat_boil"
+    }
+  ],
+  "item_output": {
+    "count": 1,
+    "item": "cookbook_of_babel:substance",
+    "nbt": "{substance:\"cookbook_of_babel:assorted_meat_boil_fry\"}"
+  },
+  "temperature": {
+    "min_temp": 463
+  }
+}

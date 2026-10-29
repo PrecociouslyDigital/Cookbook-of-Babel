@@ -1,0 +1,44 @@
+{
+  "type": "farmersdelight:cooking",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "farmersdelight"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/applewood_bacon_step_7"
+    },
+    {
+      "type": "forge:false"
+    }
+  ],
+  "cookingtime": 1200,
+  "experience": 0.1,
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:applewood_bacon_step_5\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/applewood_bacon_step_5"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:applewood_chunks\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/applewood_chunks"
+      }
+    ]
+  ],
+  "result": {
+    "item": "cookbook_of_babel:substance",
+    "nbt": "{substance:\"cookbook_of_babel:applewood_bacon_step_7\"}"
+  }
+}

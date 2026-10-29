@@ -1,0 +1,57 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/tofu_in_spiced_coconut_sauce_step_6"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "pneumaticcraft"
+    },
+    {
+      "type": "forge:false"
+    }
+  ],
+  "heatRequirement": "heated",
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:tofu_in_spiced_coconut_sauce_step_4\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/tofu_in_spiced_coconut_sauce_step_4"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:tofu_mix\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/tofu_mix"
+      }
+    ],
+    {
+      "amount": 14,
+      "fluid": "pneumaticcraft:vegetable_oil",
+      "nbt": {}
+    }
+  ],
+  "processingTime": 130,
+  "results": [
+    {
+      "item": "cookbook_of_babel:substance",
+      "nbt": {
+        "substance": "cookbook_of_babel:tofu_in_spiced_coconut_sauce_step_6"
+      }
+    }
+  ]
+}

@@ -5,17 +5,10 @@
   "inputs": {
     "of": [
       {
-        "ingredient": "soy_milk_ii",
+        "ingredient": "curdled_soy_milk",
         "amount": {
-          "qty": 2600,
+          "qty": 2050,
           "unit": "g"
-        }
-      },
-      {
-        "ingredient": "vinegar",
-        "amount": {
-          "qty": 30,
-          "unit": "ml"
         }
       }
     ]
@@ -24,9 +17,17 @@
     {
       "ingredient": "silken_tofu",
       "amount": {
-        "qty": 2450,
+        "qty": 1950,
         "unit": "g"
       }
+    },
+    {
+      "ingredient": "whey",
+      "amount": {
+        "qty": 100,
+        "unit": "g"
+      },
+      "role": "byproduct"
     }
   ],
   "environment": {
@@ -36,25 +37,16 @@
   "end": {
     "by": "time",
     "duration": {
-      "qty": 20,
+      "qty": 15,
       "unit": "min"
-    },
-    "sensitivity": {
-      "refTempC": 20,
-      "q10": 1
     }
   },
-  "stateNote": "a barely set custard; the curd is never pressed",
+  "stateNote": "the curdled soy milk set undrained in its whey",
   "issues": [
     {
-      "field": "inputs",
+      "field": "s",
       "kind": "estimate",
-      "note": "the setting agent is replaced with vinegar"
-    },
-    {
-      "field": "outputs",
-      "kind": "estimate",
-      "note": "a little whey weeps off the unpressed curd"
+      "note": "i"
     }
   ]
 }

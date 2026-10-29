@@ -12,6 +12,7 @@ import static cookbookofbabel.minecraft.datagen.plan.RouteKind.CREATE_MILLING;
 import static cookbookofbabel.minecraft.datagen.plan.RouteKind.CREATE_MIXING;
 import static cookbookofbabel.minecraft.datagen.plan.RouteKind.CREATE_SPLASHING;
 import static cookbookofbabel.minecraft.datagen.plan.RouteKind.FD_COOKING_POT;
+import static cookbookofbabel.minecraft.datagen.plan.RouteKind.FD_COOKING_POT_SEVERAL;
 import static cookbookofbabel.minecraft.datagen.plan.RouteKind.FD_CUTTING_BOARD;
 import static cookbookofbabel.minecraft.datagen.plan.RouteKind.FR_KETTLE;
 import static cookbookofbabel.minecraft.datagen.plan.RouteKind.HEXEREI_DRYING_RACK;
@@ -53,13 +54,17 @@ public final class Techniques {
             bind("whisk", CREATE_MIXING),
             bind("blend", CREATE_MIXING),
             bind("heat", CREATE_HEATED_MIXING, FD_COOKING_POT, HEXEREI_MIXING_CAULDRON),
-            bind("bake", SMELTING, SMOKING),
-            bind("roast", SMELTING, SMOKING, THERMAL_SMELTER),
-            bind("toast", SMELTING, SMOKING, THERMAL_SMELTER),
-            bind("grill", CAMPFIRE, SMOKING),
-            bind("smoke", SMOKING, CAMPFIRE),
+            bind("bake", SMELTING, SMOKING, FD_COOKING_POT_SEVERAL),
+            // The pot only steps in where the furnace and smoker can't: several ingredients at once.
+            bind("roast", SMELTING, SMOKING, THERMAL_SMELTER, FD_COOKING_POT_SEVERAL),
+            bind("toast", SMELTING, SMOKING, THERMAL_SMELTER, FD_COOKING_POT_SEVERAL),
+            // The pot also stands in for the grill where a step has several ingredients, as in
+            // melting cheese on a patty or glazing a steak.
+            bind("grill", CAMPFIRE, SMOKING, FD_COOKING_POT_SEVERAL),
+            bind("smoke", SMOKING, CAMPFIRE, FD_COOKING_POT_SEVERAL),
             // Farmer's Delight's skillet takes one input, so it can't take the oil too.
-            bind("fry", CREATE_HEATED_MIXING, PNC_THERMO_PLANT),
+            // Hexerei's cauldron is the deep fryer of last resort: oil plus up to eight items.
+            bind("fry", CREATE_HEATED_MIXING, PNC_THERMO_PLANT, HEXEREI_MIXING_CAULDRON),
             bind("cut", FD_CUTTING_BOARD, CREATE_CUTTING),
             bind("grind", CREATE_MILLING, HEXEREI_PESTLE_AND_MORTAR),
             // The dataset lists the water as an input and the starchy water as an output. A fan
@@ -86,8 +91,9 @@ public final class Techniques {
             hold("chill", THERMAL_CHILLER),
             hold("dry", HEXEREI_DRYING_RACK),
             hold("freeze", GARNISHED_FREEZING, THERMAL_CHILLER),
-            // Ageing, curing and sprouting take a timed container.
-            bind("age", VD_FERMENTING_JAR, BNC_KEG),
+            // Ageing, curing and sprouting take a timed container, or just time: a cheese ripens
+            // in a jar in a day, or on a shelf over the item clock.
+            hold("age", VD_FERMENTING_JAR, BNC_KEG),
             // Food left in a chest also ferments, on the item clock: a starter turns to yeast.
             hold("ferment", VD_FERMENTING_JAR, BNC_KEG, PNC_THERMO_PLANT, THEURGY_FERMENTATION),
             Map.entry(new TechniqueId("spoil"), new Binding.Spoils()));

@@ -1,0 +1,43 @@
+{
+  "type": "hexerei:mixingcauldron",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "hexerei"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/pumpkin_bread_iii_step_2"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "pneumaticcraft"
+    }
+  ],
+  "fluidLevelsConsumed": 192,
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:portion",
+        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:bulk\",Tag:{substance:\"cookbook_of_babel:white_sugar\"}}}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/white_sugar"
+      }
+    ]
+  ],
+  "liquid": {
+    "amount": 192,
+    "fluid": "pneumaticcraft:vegetable_oil"
+  },
+  "liquidOutput": {
+    "amount": 192,
+    "fluid": "pneumaticcraft:vegetable_oil"
+  },
+  "output": {
+    "count": 2,
+    "item": "cookbook_of_babel:portion",
+    "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:liquid\",Tag:{substance:\"cookbook_of_babel:pumpkin_bread_iii_step_2\"}}}"
+  }
+}

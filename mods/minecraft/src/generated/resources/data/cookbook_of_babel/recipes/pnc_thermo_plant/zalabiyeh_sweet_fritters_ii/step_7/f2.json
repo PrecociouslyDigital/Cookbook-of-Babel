@@ -1,0 +1,40 @@
+{
+  "type": "pneumaticcraft:thermo_plant",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "pneumaticcraft"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/zalabiyeh_sweet_fritters_ii"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "pneumaticcraft"
+    }
+  ],
+  "fluid_input": {
+    "type": "pneumaticcraft:fluid",
+    "amount": 1,
+    "fluid": "pneumaticcraft:vegetable_oil",
+    "fuzzyNBT": false
+  },
+  "item_input": [
+    {
+      "type": "forge:partial_nbt",
+      "item": "cookbook_of_babel:substance",
+      "nbt": "{substance:\"cookbook_of_babel:zalabiyeh_sweet_fritters_ii_step_6\"}"
+    },
+    {
+      "tag": "cookbook_of_babel:ingredients/zalabiyeh_sweet_fritters_ii_step_6"
+    }
+  ],
+  "item_output": {
+    "count": 1,
+    "item": "cookbook_of_babel:zalabiyeh_sweet_fritters_ii"
+  },
+  "temperature": {
+    "min_temp": 458
+  }
+}

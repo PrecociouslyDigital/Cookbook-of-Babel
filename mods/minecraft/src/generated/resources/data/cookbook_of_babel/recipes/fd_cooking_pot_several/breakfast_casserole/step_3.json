@@ -1,0 +1,61 @@
+{
+  "type": "farmersdelight:cooking",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "farmersdelight"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/breakfast_casserole"
+    }
+  ],
+  "cookingtime": 650,
+  "experience": 0.1,
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:breakfast_casserole_step_2\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/breakfast_casserole_step_2"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:breakfast_casserole_step_2\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/breakfast_casserole_step_2"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:monterey_jack_cheese\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/monterey_jack_cheese"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:portion",
+        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:bulk\",Tag:{substance:\"cookbook_of_babel:bread_crumbs\"}}}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/bread_crumbs"
+      }
+    ]
+  ],
+  "result": {
+    "count": 2,
+    "item": "cookbook_of_babel:breakfast_casserole"
+  }
+}

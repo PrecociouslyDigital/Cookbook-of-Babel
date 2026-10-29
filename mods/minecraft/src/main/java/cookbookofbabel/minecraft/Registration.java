@@ -16,6 +16,7 @@ import cookbookofbabel.minecraft.substance.SubstanceFluid;
 import cookbookofbabel.minecraft.substance.SubstanceFluidType;
 import cookbookofbabel.minecraft.substance.SubstanceItem;
 import cookbookofbabel.minecraft.substance.Substances;
+import cookbookofbabel.minecraft.veal.VealModifier;
 import java.util.Arrays;
 import java.util.Comparator;
 import java.util.EnumMap;
@@ -27,6 +28,7 @@ import java.util.stream.Collectors;
 import net.minecraft.core.Holder;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
+import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
@@ -65,6 +67,9 @@ public final class Registration {
             ITEMS.register("substance", () -> new SubstanceItem(new Item.Properties()));
     public static final RegistryObject<PortionItem> PORTION =
             ITEMS.register("portion", () -> new PortionItem(new Item.Properties()));
+    /** The dataset has no beef for it, and no other mod makes one: the meat of a calf. */
+    public static final RegistryObject<Item> VEAL = ITEMS.register("veal", () -> new Item(new Item.Properties()
+            .food(new FoodProperties.Builder().nutrition(3).saturationMod(0.3f).build())));
 
     public static final RegistryObject<FluidType> SUBSTANCE_FLUID_TYPE = FLUID_TYPES.register(
             "substance",
@@ -87,6 +92,8 @@ public final class Registration {
             LOOT_FUNCTION_TYPES.register("spice_of_crop", () -> new LootItemFunctionType(new SpiceOfCrop.Serializer()));
     public static final RegistryObject<Codec<SpiceGardenModifier>> SPICE_GARDEN =
             LOOT_MODIFIERS.register("spice_garden", SpiceGardenModifier.CODEC);
+    public static final RegistryObject<Codec<VealModifier>> VEAL_DROP =
+            LOOT_MODIFIERS.register("veal", VealModifier.CODEC);
 
     public static final RegistryObject<CreativeModeTab> TAB = TABS.register("main", () -> CreativeModeTab.builder()
             .title(Component.translatable("itemGroup." + CookbookOfBabel.ID))
@@ -102,6 +109,7 @@ public final class Registration {
                         output.accept(item.get());
                     }
                 });
+                output.accept(VEAL.get());
                 SpiceGardens.spices().forEach(spice -> output.accept(SpiceSeedsItem.of(spice)));
             })
             .build());

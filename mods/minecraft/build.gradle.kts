@@ -98,12 +98,21 @@ legacyForge {
             systemProperty("cookbook_of_babel.export", datasetExport.get().asFile.absolutePath)
             systemProperty("cookbook_of_babel.mappings", file("mappings").absolutePath)
             systemProperty("cookbook_of_babel.coverage", file("coverage.md").absolutePath)
-            systemProperty("cookbook_of_babel.candidates", layout.buildDirectory.dir("babel/candidates").get().asFile.absolutePath)
+            systemProperty(
+                "cookbook_of_babel.candidates",
+                layout.buildDirectory
+                    .dir("babel/candidates")
+                    .get()
+                    .asFile.absolutePath,
+            )
             programArguments.addAll(
-                "--mod", modId,
+                "--mod",
+                modId,
                 "--all",
-                "--output", file("src/generated/resources").absolutePath,
-                "--existing", file("src/main/resources").absolutePath,
+                "--output",
+                file("src/generated/resources").absolutePath,
+                "--existing",
+                file("src/main/resources").absolutePath,
             )
         }
         create("gameTestServer") {
@@ -186,6 +195,13 @@ dependencies {
     modCompileOnly(libs.hexerei)
     modRuntimeOnly(libs.hexerei)
     // Mods that only provide ingredients: mapped, never compiled against.
+    modRuntimeOnly(libs.alexsmobs)
+    modRuntimeOnly(libs.goatedgoats)
+    modRuntimeOnly(libs.blueprint)
+    modRuntimeOnly(libs.gallery)
+    modRuntimeOnly(libs.environmental)
+    modRuntimeOnly(libs.autumnity)
+    modRuntimeOnly(libs.aquaculture)
     modRuntimeOnly(libs.endersdelight)
     modRuntimeOnly(libs.veggiesdelight)
     modRuntimeOnly(libs.croptopia)
@@ -211,7 +227,11 @@ dependencies {
 // the tests go without the binding and their logging goes nowhere.
 sourceSets.test {
     compileClasspath += sourceSets.main.get().compileClasspath
-    runtimeClasspath += sourceSets.main.get().compileClasspath.filter { !it.name.startsWith("log4j-slf4j2-impl") }
+    runtimeClasspath +=
+        sourceSets.main
+            .get()
+            .compileClasspath
+            .filter { !it.name.startsWith("log4j-slf4j2-impl") }
 }
 
 tasks.test {

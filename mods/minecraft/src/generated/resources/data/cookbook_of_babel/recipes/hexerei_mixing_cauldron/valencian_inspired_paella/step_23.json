@@ -1,0 +1,54 @@
+{
+  "type": "hexerei:mixingcauldron",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "hexerei"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/valencian_inspired_paella_step_23"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "pneumaticcraft"
+    }
+  ],
+  "fluidLevelsConsumed": 13,
+  "heatRequirement": "heated",
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:valencian_inspired_paella_step_22\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/valencian_inspired_paella_step_22"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:garlic_fry\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/garlic_fry"
+      }
+    ]
+  ],
+  "liquid": {
+    "amount": 13,
+    "fluid": "pneumaticcraft:vegetable_oil"
+  },
+  "liquidOutput": {
+    "amount": 13,
+    "fluid": "pneumaticcraft:vegetable_oil"
+  },
+  "output": {
+    "count": 1,
+    "item": "cookbook_of_babel:substance",
+    "nbt": "{substance:\"cookbook_of_babel:valencian_inspired_paella_step_23\"}"
+  }
+}

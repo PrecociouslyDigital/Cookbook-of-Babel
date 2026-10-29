@@ -1,0 +1,52 @@
+{
+  "id": "wine.ferment",
+  "source": "cookbook_of_babel",
+  "technique": "ferment",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "grape_juice",
+        "amount": {
+          "qty": 1300,
+          "unit": "ml"
+        }
+      },
+      {
+        "ingredient": "yeast",
+        "amount": {
+          "qty": 5,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "wine",
+      "amount": {
+        "qty": 1100,
+        "unit": "ml"
+      }
+    },
+    {
+      "ingredient": "carbon_dioxide",
+      "amount": {
+        "qty": 100,
+        "unit": "g"
+      },
+      "role": "byproduct"
+    }
+  ],
+  "environment": {
+    "temperatureC": 20,
+    "medium": "still_air"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 14,
+      "unit": "d"
+    }
+  },
+  "stateNote": "the must fermented dry on the skins for its colour"
+}

@@ -1,0 +1,71 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/okonomiyaki_japanese_savory_pancake"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "pneumaticcraft"
+    }
+  ],
+  "heatRequirement": "heated",
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:okonomiyaki_japanese_savory_pancake_step_5\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/okonomiyaki_japanese_savory_pancake_step_5"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:portion",
+        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:liquid\",Tag:{substance:\"cookbook_of_babel:okonomiyaki_sauce\"}}}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/okonomiyaki_sauce"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:bonito_flakes\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/bonito_flakes"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:nori\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/nori"
+      }
+    ],
+    {
+      "amount": 14,
+      "fluid": "pneumaticcraft:vegetable_oil",
+      "nbt": {}
+    }
+  ],
+  "processingTime": 20,
+  "results": [
+    {
+      "item": "cookbook_of_babel:okonomiyaki_japanese_savory_pancake"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "type": "hexerei:mixingcauldron",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "hexerei"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/mchemsho_tanzanian_cuisine_step_8"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "pneumaticcraft"
+    }
+  ],
+  "fluidLevelsConsumed": 14,
+  "heatRequirement": "heated",
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:mchemsho_tanzanian_cuisine_step_7\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/mchemsho_tanzanian_cuisine_step_7"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:tomatoes\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/tomatoes"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:tomatoes\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/tomatoes"
+      }
+    ]
+  ],
+  "liquid": {
+    "amount": 14,
+    "fluid": "pneumaticcraft:vegetable_oil"
+  },
+  "liquidOutput": {
+    "amount": 14,
+    "fluid": "pneumaticcraft:vegetable_oil"
+  },
+  "output": {
+    "count": 1,
+    "item": "cookbook_of_babel:substance",
+    "nbt": "{substance:\"cookbook_of_babel:mchemsho_tanzanian_cuisine_step_8\"}"
+  }
+}

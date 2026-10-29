@@ -1,0 +1,48 @@
+{
+  "type": "theurgy:fermentation",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "theurgy"
+    },
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:mod_loaded",
+        "modid": "brewinandchewin"
+      }
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/emmental_cheese"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "fluid": {
+    "fluid": "minecraft:milk"
+  },
+  "fluidAmount": 1000,
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:portion",
+        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:bulk\",Tag:{substance:\"cookbook_of_babel:salt\"}}}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/salt"
+      }
+    ]
+  ],
+  "result": {
+    "Count": 1,
+    "id": "cookbook_of_babel:substance",
+    "tag": {
+      "substance": "cookbook_of_babel:emmental_cheese"
+    }
+  },
+  "time": 9600
+}

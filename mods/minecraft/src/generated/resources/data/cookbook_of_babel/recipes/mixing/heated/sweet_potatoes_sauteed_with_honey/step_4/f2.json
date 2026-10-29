@@ -1,0 +1,51 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/sweet_potatoes_sauteed_with_honey_step_5"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "pneumaticcraft"
+    }
+  ],
+  "heatRequirement": "heated",
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:sweet_potatoes_sauteed_with_honey_step_3\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/sweet_potatoes_sauteed_with_honey_step_3"
+      }
+    ],
+    {
+      "amount": 5,
+      "fluid": "pneumaticcraft:vegetable_oil",
+      "nbt": {}
+    },
+    {
+      "amount": 7,
+      "fluid": "cookbook_of_babel:liquid",
+      "nbt": {
+        "substance": "cookbook_of_babel:butter_boil"
+      }
+    }
+  ],
+  "processingTime": 20,
+  "results": [
+    {
+      "item": "cookbook_of_babel:substance",
+      "nbt": {
+        "substance": "cookbook_of_babel:sweet_potatoes_sauteed_with_honey_step_5"
+      }
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "type": "farmersdelight:cooking",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "farmersdelight"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/yellow_curry_paste_step_1"
+    }
+  ],
+  "cookingtime": 100,
+  "experience": 0.1,
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:coriander_toast\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/coriander_toast"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:cumin_toast\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/cumin_toast"
+      }
+    ]
+  ],
+  "result": {
+    "count": 2,
+    "item": "cookbook_of_babel:substance",
+    "nbt": "{substance:\"cookbook_of_babel:yellow_curry_paste_step_1\"}"
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/spinach_mushroom_pesto_spaghetti_step_3"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "pneumaticcraft"
+    }
+  ],
+  "heatRequirement": "heated",
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:spaghetti_boil_boil\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/spaghetti_boil_boil"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:spaghetti_boil_boil\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/spaghetti_boil_boil"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:spaghetti_boil_boil\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/spaghetti_boil_boil"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:spaghetti_boil_boil\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/spaghetti_boil_boil"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:spaghetti_boil_boil\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/spaghetti_boil_boil"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:spinach_boil\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/spinach_boil"
+      }
+    ],
+    {
+      "amount": 30,
+      "fluid": "cookbook_of_babel:liquid",
+      "nbt": {
+        "substance": "cookbook_of_babel:olive_oil_heat"
+      }
+    },
+    {
+      "amount": 15,
+      "fluid": "pneumaticcraft:vegetable_oil",
+      "nbt": {}
+    }
+  ],
+  "processingTime": 100,
+  "results": [
+    {
+      "count": 3,
+      "item": "cookbook_of_babel:substance",
+      "nbt": {
+        "substance": "cookbook_of_babel:spinach_mushroom_pesto_spaghetti_step_3"
+      }
+    }
+  ]
+}

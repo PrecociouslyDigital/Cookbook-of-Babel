@@ -1,0 +1,65 @@
+{
+  "type": "farmersdelight:cooking",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "farmersdelight"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/grilled_filet_mignon_step_2"
+    }
+  ],
+  "cookingtime": 100,
+  "experience": 0.1,
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:beef\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/beef"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:beef\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/beef"
+      }
+    ],
+    {
+      "tag": "cookbook_of_babel:ingredients/montreal_steak_seasoning"
+    },
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:portion",
+        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:liquid\",Tag:{substance:\"cookbook_of_babel:olive_oil\"}}}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/olive_oil"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:untreated_mesquite_chips_soak\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/untreated_mesquite_chips_soak"
+      }
+    ]
+  ],
+  "result": {
+    "count": 5,
+    "item": "cookbook_of_babel:substance",
+    "nbt": "{substance:\"cookbook_of_babel:grilled_filet_mignon_step_2\"}"
+  }
+}

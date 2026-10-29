@@ -1,0 +1,43 @@
+{
+  "type": "hexerei:mixingcauldron",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "hexerei"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "pamhc2foodextended"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "pneumaticcraft"
+    }
+  ],
+  "fluidLevelsConsumed": 1,
+  "heatRequirement": "heated",
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:breaded_green_tomato_slices\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/breaded_green_tomato_slices"
+      }
+    ]
+  ],
+  "liquid": {
+    "amount": 1,
+    "fluid": "pneumaticcraft:vegetable_oil"
+  },
+  "liquidOutput": {
+    "amount": 1,
+    "fluid": "pneumaticcraft:vegetable_oil"
+  },
+  "output": {
+    "count": 1,
+    "item": "pamhc2foodextended:friedgreentomatoesitem"
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "type": "farmersdelight:cooking",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "farmersdelight"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/mesquite_chicken_wraps_step_3"
+    }
+  ],
+  "cookingtime": 150,
+  "experience": 0.1,
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:mesquite_chicken_wraps_step_1\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/mesquite_chicken_wraps_step_1"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:mesquite_wood_chips_soak\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/mesquite_wood_chips_soak"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:mesquite_wood_chips_soak\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/mesquite_wood_chips_soak"
+      }
+    ]
+  ],
+  "result": {
+    "item": "cookbook_of_babel:substance",
+    "nbt": "{substance:\"cookbook_of_babel:mesquite_chicken_wraps_step_3\"}"
+  }
+}

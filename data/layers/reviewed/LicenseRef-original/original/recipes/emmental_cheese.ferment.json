@@ -1,0 +1,51 @@
+{
+  "id": "emmental_cheese.ferment",
+  "source": "cookbook_of_babel",
+  "technique": "ferment",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "milk",
+        "amount": {
+          "qty": 1000,
+          "unit": "ml"
+        }
+      },
+      {
+        "ingredient": "salt",
+        "amount": {
+          "qty": 5,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "emmental_cheese",
+      "amount": {
+        "qty": 250,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 20,
+    "medium": "still_air"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 8,
+      "unit": "h"
+    }
+  },
+  "stateNote": "the milk set with salt and swiss cultures in the keg",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "a litre of milk yields about a quarter kilo of cheese"
+    }
+  ]
+}

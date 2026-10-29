@@ -1,0 +1,84 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/flammekueche_bacon_and_onion_flatbread_step_6"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "pneumaticcraft"
+    },
+    {
+      "type": "forge:false"
+    }
+  ],
+  "heatRequirement": "heated",
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:flammekueche_bacon_and_onion_flatbread_step_5\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/flammekueche_bacon_and_onion_flatbread_step_5"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:onion_fry\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/onion_fry"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:onion_fry\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/onion_fry"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:onion_fry\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/onion_fry"
+      }
+    ],
+    {
+      "amount": 26,
+      "fluid": "cookbook_of_babel:liquid",
+      "nbt": {
+        "substance": "cookbook_of_babel:oil_and_fat_heat"
+      }
+    },
+    {
+      "amount": 13,
+      "fluid": "pneumaticcraft:vegetable_oil",
+      "nbt": {}
+    }
+  ],
+  "processingTime": 100,
+  "results": [
+    {
+      "item": "cookbook_of_babel:substance",
+      "nbt": {
+        "substance": "cookbook_of_babel:flammekueche_bacon_and_onion_flatbread_step_6"
+      }
+    }
+  ]
+}

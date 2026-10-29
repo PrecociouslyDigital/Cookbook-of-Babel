@@ -1,0 +1,62 @@
+{
+  "type": "farmersdelight:cooking",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "farmersdelight"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/choco_nutty_pie_step_3"
+    }
+  ],
+  "cookingtime": 950,
+  "experience": 0.1,
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:portion",
+        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:liquid\",Tag:{substance:\"cookbook_of_babel:choco_nutty_pie_step_2\"}}}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/choco_nutty_pie_step_2"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:pie_crust\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/pie_crust"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:pie_crust\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/pie_crust"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:pie_crust\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/pie_crust"
+      }
+    ]
+  ],
+  "result": {
+    "count": 3,
+    "item": "cookbook_of_babel:substance",
+    "nbt": "{substance:\"cookbook_of_babel:choco_nutty_pie_step_3\"}"
+  }
+}

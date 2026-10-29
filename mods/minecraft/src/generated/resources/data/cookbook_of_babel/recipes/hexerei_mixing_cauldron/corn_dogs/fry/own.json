@@ -1,0 +1,80 @@
+{
+  "type": "hexerei:mixingcauldron",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "hexerei"
+    },
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:mod_loaded",
+        "modid": "pamhc2foodextended"
+      }
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/corn_dogs"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "pneumaticcraft"
+    }
+  ],
+  "fluidLevelsConsumed": 7,
+  "heatRequirement": "heated",
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:portion",
+        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:liquid\",Tag:{substance:\"cookbook_of_babel:corn_dog_batter\"}}}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/corn_dog_batter"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:sausage\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/sausage"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:sausage\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/sausage"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:sausage\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/sausage"
+      }
+    ]
+  ],
+  "liquid": {
+    "amount": 7,
+    "fluid": "pneumaticcraft:vegetable_oil"
+  },
+  "liquidOutput": {
+    "amount": 7,
+    "fluid": "pneumaticcraft:vegetable_oil"
+  },
+  "output": {
+    "count": 1,
+    "item": "cookbook_of_babel:corn_dogs"
+  }
+}

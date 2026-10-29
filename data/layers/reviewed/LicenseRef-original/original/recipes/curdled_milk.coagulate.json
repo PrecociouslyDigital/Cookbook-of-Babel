@@ -1,0 +1,51 @@
+{
+  "id": "curdled_milk.coagulate",
+  "source": "cookbook_of_babel",
+  "technique": "coagulate",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "milk",
+        "amount": {
+          "qty": 2000,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "vinegar",
+        "amount": {
+          "qty": 30,
+          "unit": "ml"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "curdled_milk",
+      "amount": {
+        "qty": 2000,
+        "unit": "ml"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 80,
+    "medium": "simmering_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 10,
+      "unit": "min"
+    }
+  },
+  "stateNote": "the milk warmed and curdled with vinegar, ready to strain",
+  "issues": [
+    {
+      "field": "outputs",
+      "kind": "estimate",
+      "note": "a tablespoon of vinegar sets two litres of milk"
+    }
+  ]
+}

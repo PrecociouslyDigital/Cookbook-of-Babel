@@ -1,0 +1,51 @@
+{
+  "type": "farmersdelight:cooking",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "farmersdelight"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/chocolate_pear_bake"
+    }
+  ],
+  "cookingtime": 750,
+  "experience": 0.1,
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:portion",
+        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:liquid\",Tag:{substance:\"cookbook_of_babel:chocolate_pear_bake_step_7\"}}}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/chocolate_pear_bake_step_7"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:portion",
+        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:liquid\",Tag:{substance:\"cookbook_of_babel:chocolate_pear_bake_step_7\"}}}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/chocolate_pear_bake_step_7"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:portion",
+        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:liquid\",Tag:{substance:\"cookbook_of_babel:whipped_cream_whisk\"}}}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/whipped_cream_whisk"
+      }
+    ]
+  ],
+  "result": {
+    "count": 5,
+    "item": "cookbook_of_babel:chocolate_pear_bake"
+  }
+}

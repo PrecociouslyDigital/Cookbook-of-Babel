@@ -1,0 +1,61 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/fried_bacon_and_egg_sandwich_homemade_egg_mcmuffin"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "pneumaticcraft"
+    }
+  ],
+  "heatRequirement": "heated",
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:fried_bacon_and_egg_sandwich_homemade_egg_mcmuffin_step_7\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/fried_bacon_and_egg_sandwich_homemade_egg_mcmuffin_step_7"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:egg_fry\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/egg_fry"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:egg_fry\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/egg_fry"
+      }
+    ],
+    {
+      "amount": 14,
+      "fluid": "pneumaticcraft:vegetable_oil",
+      "nbt": {}
+    }
+  ],
+  "processingTime": 40,
+  "results": [
+    {
+      "item": "cookbook_of_babel:fried_bacon_and_egg_sandwich_homemade_egg_mcmuffin"
+    }
+  ]
+}

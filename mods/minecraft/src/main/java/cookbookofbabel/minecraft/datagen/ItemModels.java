@@ -51,6 +51,8 @@ final class ItemModels extends ItemModelProvider {
         }
 
         flat("spice_seeds", new ResourceLocation("item/cocoa_beans"));
+        // The calf's own meat, beef recoloured pink.
+        withExistingParent("veal", "item/generated").texture("layer0", modLoc("item/veal"));
 
         Registration.DISHES.forEach((dish, item) -> getBuilder(item.getId().getPath())
                 .parent(new ModelFile.UncheckedModelFile(modLoc("item/substance/" + dish.form().getSerializedName()))));

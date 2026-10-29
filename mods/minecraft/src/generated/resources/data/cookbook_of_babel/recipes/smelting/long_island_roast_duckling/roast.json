@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:smelting",
+  "category": "food",
+  "conditions": [
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/long_island_roast_duckling"
+    }
+  ],
+  "cookingtime": 600,
+  "experience": 0.1,
+  "ingredient": [
+    {
+      "type": "forge:partial_nbt",
+      "item": "cookbook_of_babel:substance",
+      "nbt": "{substance:\"cookbook_of_babel:duck\"}"
+    },
+    {
+      "tag": "cookbook_of_babel:ingredients/duck"
+    }
+  ],
+  "result": {
+    "item": "cookbook_of_babel:substance",
+    "nbt": "{substance:\"cookbook_of_babel:long_island_roast_duckling\"}"
+  }
+}

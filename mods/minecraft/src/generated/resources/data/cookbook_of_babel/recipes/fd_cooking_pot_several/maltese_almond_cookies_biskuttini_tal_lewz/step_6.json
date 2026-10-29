@@ -1,0 +1,43 @@
+{
+  "type": "farmersdelight:cooking",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "farmersdelight"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/maltese_almond_cookies_biskuttini_tal_lewz"
+    },
+    {
+      "type": "forge:false"
+    }
+  ],
+  "cookingtime": 500,
+  "experience": 0.1,
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:maltese_almond_cookies_biskuttini_tal_lewz_step_5\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/maltese_almond_cookies_biskuttini_tal_lewz_step_5"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:almonds\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/almonds"
+      }
+    ]
+  ],
+  "result": {
+    "item": "cookbook_of_babel:maltese_almond_cookies_biskuttini_tal_lewz"
+  }
+}

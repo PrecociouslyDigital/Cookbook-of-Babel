@@ -1,0 +1,31 @@
+{
+  "display": {
+    "icon": {
+      "item": "cookbook_of_babel:veal"
+    },
+    "title": {
+      "translate": "advancements.cookbook_of_babel.was_it_worth_it.title"
+    },
+    "description": {
+      "translate": "advancements.cookbook_of_babel.was_it_worth_it.desc"
+    },
+    "frame": "challenge",
+    "background": "minecraft:textures/block/hay_block_side.png",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "veal": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "cookbook_of_babel:veal"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

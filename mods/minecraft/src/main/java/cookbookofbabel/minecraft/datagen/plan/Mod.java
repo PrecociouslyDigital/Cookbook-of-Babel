@@ -23,6 +23,16 @@ public enum Mod {
     // never moves an output another mod already provides.
     ENDERS_DELIGHT("endersdelight"),
     VEGGIES_DELIGHT("veggiesdelight"),
+    /** Its meats and fish only, and its game-mob foods are nobody's recipe. */
+    ALEXS_MOBS("alexsmobs"),
+    /** Chevon for goats, which vanilla goats drop nothing of. */
+    GOATED_GOATS("goated_goats"),
+    /** Duck, venison and their eggs, off the ducks and deer it adds. */
+    ENVIRONMENTAL("environmental"),
+    /** Turkey and its pieces, off the turkeys it adds. */
+    AUTUMNITY("autumnity"),
+    /** Two dozen extra fish, all tagged into the raw-fish tag. */
+    AQUACULTURE("aquaculture"),
     CROPTOPIA("croptopia"),
     PAMHC2_FOODEXTENDED("pamhc2foodextended"),
     PAMHC2_FOODCORE("pamhc2foodcore"),

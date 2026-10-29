@@ -1,0 +1,76 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/hallaca_venezuelan_stuffed_corn_dough_step_27"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "pneumaticcraft"
+    },
+    {
+      "type": "forge:false"
+    }
+  ],
+  "heatRequirement": "heated",
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:hallaca_venezuelan_stuffed_corn_dough_step_26\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/hallaca_venezuelan_stuffed_corn_dough_step_26"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:tomato_blend\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/tomato_blend"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:bell_peppers_blend\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/bell_peppers_blend"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:bell_peppers_blend\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/bell_peppers_blend"
+      }
+    ],
+    {
+      "amount": 13,
+      "fluid": "pneumaticcraft:vegetable_oil",
+      "nbt": {}
+    }
+  ],
+  "processingTime": 20,
+  "results": [
+    {
+      "amount": 87,
+      "fluid": "cookbook_of_babel:liquid",
+      "nbt": "{substance:\"cookbook_of_babel:hallaca_venezuelan_stuffed_corn_dough_step_27\"}"
+    }
+  ]
+}

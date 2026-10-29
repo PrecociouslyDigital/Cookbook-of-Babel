@@ -1,0 +1,74 @@
+{
+  "type": "hexerei:mixingcauldron",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "hexerei"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/spaghetti_with_bolognese_meat_sauce_step_2"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "pneumaticcraft"
+    }
+  ],
+  "fluidLevelsConsumed": 3,
+  "heatRequirement": "heated",
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:spaghetti_with_bolognese_meat_sauce_step_1\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/spaghetti_with_bolognese_meat_sauce_step_1"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:spaghetti_with_bolognese_meat_sauce_step_1\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/spaghetti_with_bolognese_meat_sauce_step_1"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:spaghetti_with_bolognese_meat_sauce_step_1\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/spaghetti_with_bolognese_meat_sauce_step_1"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:ham_pan_fry\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/ham_pan_fry"
+      }
+    ]
+  ],
+  "liquid": {
+    "amount": 3,
+    "fluid": "pneumaticcraft:vegetable_oil"
+  },
+  "liquidOutput": {
+    "amount": 3,
+    "fluid": "pneumaticcraft:vegetable_oil"
+  },
+  "output": {
+    "count": 4,
+    "item": "cookbook_of_babel:substance",
+    "nbt": "{substance:\"cookbook_of_babel:spaghetti_with_bolognese_meat_sauce_step_2\"}"
+  }
+}

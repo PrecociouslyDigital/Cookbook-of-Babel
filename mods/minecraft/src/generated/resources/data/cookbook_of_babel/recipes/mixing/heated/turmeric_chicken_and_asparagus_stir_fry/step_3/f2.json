@@ -1,0 +1,75 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/turmeric_chicken_and_asparagus_stir_fry_step_3"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "pneumaticcraft"
+    },
+    {
+      "type": "forge:false"
+    }
+  ],
+  "heatRequirement": "heated",
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:turmeric_chicken_and_asparagus_stir_fry_step_2\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/turmeric_chicken_and_asparagus_stir_fry_step_2"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:turmeric_chicken_and_asparagus_stir_fry_step_2\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/turmeric_chicken_and_asparagus_stir_fry_step_2"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:turmeric_chicken_and_asparagus_stir_fry_step_2\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/turmeric_chicken_and_asparagus_stir_fry_step_2"
+      }
+    ],
+    {
+      "amount": 7,
+      "fluid": "cookbook_of_babel:liquid",
+      "nbt": {
+        "substance": "cookbook_of_babel:coconut_oil_heat"
+      }
+    },
+    {
+      "amount": 4,
+      "fluid": "pneumaticcraft:vegetable_oil",
+      "nbt": {}
+    }
+  ],
+  "processingTime": 20,
+  "results": [
+    {
+      "count": 3,
+      "item": "cookbook_of_babel:substance",
+      "nbt": {
+        "substance": "cookbook_of_babel:turmeric_chicken_and_asparagus_stir_fry_step_3"
+      }
+    }
+  ]
+}

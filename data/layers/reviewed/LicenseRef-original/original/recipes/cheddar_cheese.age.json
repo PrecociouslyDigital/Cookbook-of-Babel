@@ -1,0 +1,37 @@
+{
+  "id": "cheddar_cheese.age",
+  "source": "cookbook_of_babel",
+  "technique": "age",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "cheddar_cheese_green",
+        "amount": {
+          "qty": 550,
+          "unit": "g"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "cheddar_cheese",
+      "amount": {
+        "qty": 500,
+        "unit": "g"
+      }
+    }
+  ],
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 60,
+      "unit": "d"
+    },
+    "sensitivity": {
+      "refTempC": 12,
+      "q10": 2
+    }
+  },
+  "stateNote": "the cheddar wheel ripened on a clean, cool shelf"
+}

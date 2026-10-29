@@ -14,6 +14,11 @@ public enum RouteKind {
     CREATE_COMPACTING(Mod.CREATE, new Constraints(64, 2, 4, 2, true, 20, 400).fluidsAlone()),
     SHAPELESS_CRAFTING(Mod.MINECRAFT, new Constraints(9, 0, 1, 0, false, 0, 0)),
     FD_COOKING_POT(Mod.FARMERS_DELIGHT, new Constraints(6, 0, 1, 0, false, 100, 1200)),
+    /**
+     * The same pot, standing in for the furnace and smoker where a step has several ingredients and
+     * they take one item at a time, as in a roux cooked of butter and flour.
+     */
+    FD_COOKING_POT_SEVERAL(Mod.FARMERS_DELIGHT, new Constraints(6, 0, 1, 0, false, 100, 1200).minKinds(2)),
     SMELTING(Mod.MINECRAFT, new Constraints(1, 0, 1, 0, false, 100, 600)),
     SMOKING(Mod.MINECRAFT, new Constraints(1, 0, 1, 0, false, 50, 300)),
     /** A blast furnace, or a Create fan blowing through lava. */
@@ -106,6 +111,11 @@ public enum RouteKind {
             int maxTicks) {
         public Constraints(int maxItemInputs, int maxFluidInputs, int maxItemOutputs, int maxFluidOutputs, boolean chanceOutputs, int minTicks, int maxTicks) {
             this(maxItemInputs, 1, maxItemInputs, maxItemInputs, 0, maxFluidInputs, maxItemOutputs, maxFluidOutputs, maxItemOutputs + maxFluidOutputs, chanceOutputs, minTicks, maxTicks);
+        }
+
+        /** Requires at least this many different items, where plainer machines take fewer. */
+        Constraints minKinds(int min) {
+            return new Constraints(maxItemInputs, min, itemKinds, maxOfEachItem, minFluidInputs, maxFluidInputs, maxItemOutputs, maxFluidOutputs, maxOutputs, chanceOutputs, minTicks, maxTicks);
         }
 
         /** Takes a stack of one item, not several items. */

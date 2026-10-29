@@ -212,7 +212,7 @@ public final class RouteEmitter {
                 };
                 builder.unlockedBy("unused", UNUSED).save(patched(sink, conditions, Finished.result("result", result)), id(route, path));
             };
-            case FD_COOKING_POT -> () -> {
+            case FD_COOKING_POT, FD_COOKING_POT_SEVERAL -> () -> {
                 var result = (ItemStack) first(outputs);
                 var builder = serving(result)
                         .map(container -> CookingPotRecipeBuilder.cookingPotRecipe(result.getItem(), result.getCount(), p.ticks(), EXPERIENCE, container))

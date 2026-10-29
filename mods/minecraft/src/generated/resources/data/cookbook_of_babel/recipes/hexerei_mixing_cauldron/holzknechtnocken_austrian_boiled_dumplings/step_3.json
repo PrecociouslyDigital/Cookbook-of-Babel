@@ -1,0 +1,63 @@
+{
+  "type": "hexerei:mixingcauldron",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "hexerei"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/holzknechtnocken_austrian_boiled_dumplings"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "pneumaticcraft"
+    }
+  ],
+  "fluidLevelsConsumed": 3,
+  "heatRequirement": "heated",
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:holzknechtnocken_austrian_boiled_dumplings_step_2\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/holzknechtnocken_austrian_boiled_dumplings_step_2"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:holzknechtnocken_austrian_boiled_dumplings_step_2\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/holzknechtnocken_austrian_boiled_dumplings_step_2"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:portion",
+        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:liquid\",Tag:{substance:\"cookbook_of_babel:lard_heat\"}}}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/lard_heat"
+      }
+    ]
+  ],
+  "liquid": {
+    "amount": 3,
+    "fluid": "pneumaticcraft:vegetable_oil"
+  },
+  "liquidOutput": {
+    "amount": 3,
+    "fluid": "pneumaticcraft:vegetable_oil"
+  },
+  "output": {
+    "count": 2,
+    "item": "cookbook_of_babel:holzknechtnocken_austrian_boiled_dumplings"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "id": "curdled_soy_milk.coagulate",
+  "source": "cookbook_of_babel",
+  "technique": "coagulate",
+  "inputs": {
+    "of": [
+      {
+        "ingredient": "soy_milk_i",
+        "amount": {
+          "qty": 2000,
+          "unit": "g"
+        }
+      },
+      {
+        "ingredient": "vinegar",
+        "amount": {
+          "qty": 60,
+          "unit": "ml"
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "ingredient": "curdled_soy_milk",
+      "amount": {
+        "qty": 2050,
+        "unit": "g"
+      }
+    }
+  ],
+  "environment": {
+    "temperatureC": 80,
+    "medium": "simmering_water"
+  },
+  "end": {
+    "by": "time",
+    "duration": {
+      "qty": 10,
+      "unit": "min"
+    }
+  },
+  "stateNote": "the soy milk heated and split with vinegar, as for tofu"
+}

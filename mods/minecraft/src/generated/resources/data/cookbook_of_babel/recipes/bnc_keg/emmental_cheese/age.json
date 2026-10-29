@@ -1,0 +1,32 @@
+{
+  "type": "brewinandchewin:fermenting",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "brewinandchewin"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "brewinandchewin"
+    }
+  ],
+  "experience": 0.1,
+  "fermentingtime": 24000,
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:emmental_cheese_green\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/emmental_cheese_green"
+      }
+    ]
+  ],
+  "result": {
+    "count": 2,
+    "item": "brewinandchewin:flaxen_cheese_wedge"
+  },
+  "temperature": 3
+}

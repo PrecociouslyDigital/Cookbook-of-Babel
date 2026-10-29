@@ -1,0 +1,61 @@
+{
+  "type": "farmersdelight:cooking",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "farmersdelight"
+    },
+    {
+      "type": "forge:tag_empty",
+      "tag": "cookbook_of_babel:external/granola_bars"
+    }
+  ],
+  "cookingtime": 500,
+  "experience": 0.1,
+  "ingredients": [
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:portion",
+        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:bulk\",Tag:{substance:\"cookbook_of_babel:rolled_oats\"}}}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/rolled_oats"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:portion",
+        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:bulk\",Tag:{substance:\"cookbook_of_babel:rolled_oats\"}}}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/rolled_oats"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:portion",
+        "nbt": "{Fluid:{Amount:250,FluidName:\"cookbook_of_babel:liquid\",Tag:{substance:\"cookbook_of_babel:honey\"}}}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/honey"
+      }
+    ],
+    [
+      {
+        "type": "forge:partial_nbt",
+        "item": "cookbook_of_babel:substance",
+        "nbt": "{substance:\"cookbook_of_babel:peanut\"}"
+      },
+      {
+        "tag": "cookbook_of_babel:ingredients/peanut"
+      }
+    ]
+  ],
+  "result": {
+    "count": 16,
+    "item": "cookbook_of_babel:granola_bars"
+  }
+}
